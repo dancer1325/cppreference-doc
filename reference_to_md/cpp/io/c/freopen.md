@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [C-style I/O](../c.html "cpp/io/c")
 
@@ -176,7 +176,7 @@ Operations on files
 [tmpfile](tmpfile.html "cpp/io/c/tmpfile")  
 [tmpnam](tmpnam.html "cpp/io/c/tmpnam")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/navbar_content&action=edit)
+
 
 Defined in header `[<cstdio>](../../header/cstdio.html "cpp/header/cstdio")` |  |   
 ---|---|---  
@@ -197,14 +197,14 @@ First, attempts to close the file associated with stream, ignoring any errors. T
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/freopen&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 filename  |  \-  |  file name to associate the file stream to   
 ---|---|---  
 mode  |  \-  |  null-terminated character string determining new [file access mode](freopen.html#File_access_flags)  
 stream  |  \-  |  the file stream to modify   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/freopen&action=edit&section=2 "Edit section: File access flags")] File access flags
+### File access flags
 
 File access   
 mode string  |  Meaning  |  Explanation  |  Action if file   
@@ -222,17 +222,17 @@ On the append file access modes, data is written to the end of the file regardle
 File access mode flag "x" can optionally be appended to "w" or "w+" specifiers. This flag forces the function to fail if the file exists, instead of overwriting it. (C++17)  
 The behavior is undefined if the mode is not one of the strings listed above. Some implementations define additional supported modes (e.g. [Windows](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fopen-wfopen)).   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/freopen&action=edit&section=3 "Edit section: Return value")] Return value
+### Return value
 
 stream on success, a null pointer on failure. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/freopen&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 **std::freopen** is the only way to change the narrow/wide orientation of a stream once it has been established by an I/O operation or by std::fwide. 
 
 Microsoft CRT version of **std::freopen** does not support any mode changes when filename is a null pointer and treats this as an error (see [documentation](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/freopen-wfreopen)). A possible workaround is the non-standard function [`_setmode()`](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/setmode). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/freopen&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 The following code redirects `stdout` to a file.
 
@@ -256,11 +256,11 @@ Output:
     
     stdout is printed to console
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/freopen&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ fopen](fopen.html "cpp/io/c/fopen") |  opens a file   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_fopen&action=edit)  
+(function)   
 ---|---  
 [ fclose](fclose.html "cpp/io/c/fclose") |  closes a file   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_fclose&action=edit)  
+(function)   
 [C documentation](../../../c/io/freopen.html "c/io/freopen") for freopen

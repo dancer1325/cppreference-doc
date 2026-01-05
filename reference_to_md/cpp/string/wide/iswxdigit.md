@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Null-terminated wide strings](../wide.html "cpp/string/wide")
 
@@ -153,7 +153,7 @@
 WCHAR_MAX  
 WEOF](../wide.html#Macros "cpp/string/wide")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/navbar_content&action=edit)
+
 
 Defined in header `[<cwctype>](../../header/cwctype.html "cpp/header/cwctype")` |  |   
 ---|---|---  
@@ -175,20 +175,20 @@ If the value of ch is neither representable as a wchar_t nor equal to the value 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/iswxdigit&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 ch  |  \-  |  wide character   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/iswxdigit&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Non-zero value if the wide character is a hexadecimal numeric character, zero otherwise. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/iswxdigit&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 [std::iswdigit](iswdigit.html "cpp/string/wide/iswdigit") and `std::iswxdigit` are the only standard wide character classification functions that are not affected by the currently installed C locale. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/iswxdigit&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -208,13 +208,13 @@ Output:
     
     true false
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/iswxdigit&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ isxdigit(std::locale)](../../locale/isxdigit.html "cpp/locale/isxdigit") |  checks if a character is classified as a hexadecimal digit by a locale   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_isxdigit&action=edit)  
+(function template)   
 ---|---  
 [ isxdigit](../byte/isxdigit.html "cpp/string/byte/isxdigit") |  checks if a character is a hexadecimal character   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_isxdigit&action=edit)  
+(function)   
 [C documentation](../../../c/string/wide/iswxdigit.html "c/string/wide/iswxdigit") for iswxdigit  
 ASCII values  | characters  |  [`iscntrl`](../byte/iscntrl.html "cpp/string/byte/iscntrl")  
 [`iswcntrl`](iswcntrl.html "cpp/string/wide/iswcntrl") |  [`isprint`](../byte/isprint.html "cpp/string/byte/isprint")  

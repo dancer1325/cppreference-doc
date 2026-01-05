@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 **`std::enable_shared_from_this`**
 
@@ -197,7 +197,7 @@ Public member functions
 [enable_shared_from_this::shared_from_this](enable_shared_from_this/shared_from_this.html "cpp/memory/enable shared from this/shared from this")  
 [enable_shared_from_this::weak_from_this](enable_shared_from_this/weak_from_this.html "cpp/memory/enable shared from this/weak from this")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/enable_shared_from_this/navbar_content&action=edit)
+
 
 Defined in header `[<memory>](../header/memory.html "cpp/header/memory")` |  |   
 ---|---|---  
@@ -221,14 +221,14 @@ Publicly inheriting from `std::enable_shared_from_this<T>` provides the type `T`
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/enable_shared_from_this&action=edit&section=1 "Edit section: Data members")] Data members
+### Data members
 
 Member  |  Description   
 ---|---  
 mutable [std::weak_ptr](weak_ptr.html)<T> `_weak_this_` |  the object tracking the control block of the first shared owner of *this  
 (exposition-only member object*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/enable_shared_from_this&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](enable_shared_from_this/enable_shared_from_this.html "cpp/memory/enable shared from this/enable shared from this") |  constructs an `enable_shared_from_this` object   
 (protected member function)  
@@ -242,7 +242,7 @@ mutable [std::weak_ptr](weak_ptr.html)<T> `_weak_this_` |  the object tracking t
 [ weak_from_this](enable_shared_from_this/weak_from_this.html "cpp/memory/enable shared from this/weak from this")(C++17) |  returns a [std::weak_ptr](weak_ptr.html "cpp/memory/weak ptr") which shares ownership of *this   
 (public member function)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/enable_shared_from_this&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 The constructors of [std::shared_ptr](shared_ptr.html "cpp/memory/shared ptr") detect the presence of an unambiguous and accessible (i.e. public inheritance is mandatory) `enable_shared_from_this` base and assign the newly created [std::shared_ptr](shared_ptr.html "cpp/memory/shared ptr") to `_weak_this_` if not already owned by a live [std::shared_ptr](shared_ptr.html "cpp/memory/shared ptr"). Constructing a [std::shared_ptr](shared_ptr.html "cpp/memory/shared ptr") for an object that is already managed by another [std::shared_ptr](shared_ptr.html "cpp/memory/shared ptr") will not consult `_weak_this_` and thus will lead to undefined behavior. 
 
@@ -250,7 +250,7 @@ It is permitted to call `shared_from_this` only on a previously shared object, i
 
 `enable_shared_from_this` provides the safe alternative to an expression like [std::shared_ptr](shared_ptr.html)<T>(this), which is likely to result in this being destructed more than once by multiple owners that are unaware of each other (see example below). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/enable_shared_from_this&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -359,7 +359,7 @@ Possible output:
     Bad::~Bad() called
     *** glibc detected *** ./test: double free or corruption
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/enable_shared_from_this&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -372,10 +372,10 @@ undefined in this case
 [LWG 2529](https://cplusplus.github.io/LWG/issue2529)  
 ([P0033R1](https://wg21.link/P0033R1))  | C++11  | it was unclear how the underlying [std::weak_ptr](weak_ptr.html "cpp/memory/weak ptr") is updated  | made clear   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/enable_shared_from_this&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ shared_ptr](shared_ptr.html "cpp/memory/shared ptr")(C++11) |  smart pointer with shared object ownership semantics   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_shared_ptr&action=edit)  
+(class template)   
 ---|---  
 [ make_sharedmake_shared_for_overwrite](shared_ptr/make_shared.html "cpp/memory/shared ptr/make shared")(C++20) |  creates a shared pointer that manages a new object   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/dsc_make_shared&action=edit)
+(function template) 

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::common_view`](../common_view.html "cpp/ranges/common view")
 
@@ -238,7 +238,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
 [common_view::reserve_hint](reserve_hint.html "cpp/ranges/common view/reserve hint")(C++26)  
 **Deduction guides**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/common_view/navbar_content&action=edit)
+
 
 Defined in header `[<ranges>](../../header/ranges.html "cpp/header/ranges")` |  |   
 ---|---|---  
@@ -248,7 +248,7 @@ common_view( R&& ) -> common_view<[views::all_t](../all_view.html)<R>>; |  |  (s
   
 The [deduction guide](../../language/ctad.html "cpp/language/class template argument deduction") is provided for std::ranges::common_view to allow deduction from [`range`](../range.html "cpp/ranges/range"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/common_view/deduction_guides&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

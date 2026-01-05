@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::join_with_view`](../../join_with_view.html "cpp/ranges/join with view")
 
@@ -251,7 +251,7 @@ join_with_view::_iterator_ ::operator--(int)](operator_arith.html "cpp/ranges/jo
 [join_with_view::_sentinel_ ::_sentinel_](../sentinel/sentinel.html "cpp/ranges/join with view/sentinel/sentinel")  
 [operator==(join_with_view::_sentinel_)](../sentinel/operator_cmp.html "cpp/ranges/join with view/sentinel/operator cmp")(C++23)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/join_with_view/navbar_content&action=edit)
+
 
 constexpr decltype(auto) operator*() const; |  |  (since C++23)  
 ---|---|---  
@@ -259,12 +259,12 @@ constexpr decltype(auto) operator*() const; |  |  (since C++23)
   
 Returns the current element in the joined view. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/join_with_view/iterator/operator*&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 [std::visit](../../../utility/variant/visit.html)([](auto& it) -> /*reference*/ { return *it; },` `` _[inner_it_](../iterator.html#inner_it "cpp/ranges/join with view/iterator")_` ﻿), where /*reference*/ is [ranges::common_reference_t](../../../experimental/ranges/type_traits/common_reference.html)<[std::iter_reference_t](../../../iterator/iter_t.html)<`_[InnerIter](../iterator.html#InnerIter "cpp/ranges/join with view/iterator")_` ﻿>,  
 ` `[std::iter_reference_t](../../../iterator/iter_t.html)<`_[PatternIter](../iterator.html#PatternIter "cpp/ranges/join with view/iterator")_` ﻿>>. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/join_with_view/iterator/operator*&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

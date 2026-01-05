@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -175,7 +175,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::jthread`](../jthread.html "cpp/thread/jthread")
 
@@ -200,7 +200,7 @@ Stop token handling
 Non-member functions  
 [swap(std::jthread)](swap2.html "cpp/thread/jthread/swap2")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/jthread/navbar_content&action=edit)
+
 
 void join(); |  |  (since C++20)  
 ---|---|---  
@@ -226,23 +226,23 @@ No synchronization is performed on *this itself. Concurrently calling join() on 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/join&action=edit&section=T-1 "Template:cpp/thread/thread/join")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/join&action=edit&section=T-2 "Template:cpp/thread/thread/join")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/join&action=edit&section=T-3 "Template:cpp/thread/thread/join")] Postconditions
+### Postconditions
 
 joinable() is false. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/join&action=edit&section=T-4 "Template:cpp/thread/thread/join")] Exceptions
+### Exceptions
 
 [std::system_error](../../error/system_error.html "cpp/error/system error") if an error occurs. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/join&action=edit&section=T-5 "Template:cpp/thread/thread/join")] Error conditions
+### Error conditions
 
   * [resource_deadlock_would_occur](../../error/errc.html "cpp/error/errc") if this->get_id() == [std::this_thread::get_id](../get_id.html)() (deadlock detected). 
   * [no_such_process](../../error/errc.html "cpp/error/errc") if the thread is not valid. 
@@ -250,7 +250,7 @@ joinable() is false.
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/join&action=edit&section=T-6 "Template:cpp/thread/thread/join")] Example
+### Example
 
 Run this code
     
@@ -294,7 +294,7 @@ Output:
     waiting for helpers to finish...
     done!
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/join&action=edit&section=T-7 "Template:cpp/thread/thread/join")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -316,11 +316,11 @@ Output:
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/join&action=edit&section=T-8 "Template:cpp/thread/thread/join")] See also
+### See also
 
 [ detach](detach.html "cpp/thread/jthread/detach") |  permits the thread to execute independently from the thread handle   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/dsc_detach&action=edit)  
+(public member function)   
 ---|---  
 [ joinable](joinable.html "cpp/thread/jthread/joinable") |  checks whether the thread is joinable, i.e. potentially running in parallel context   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/dsc_joinable&action=edit)  
+(public member function)   
 [C documentation](../../../c/thread/thrd_join.html "c/thread/thrd join") for thrd_join

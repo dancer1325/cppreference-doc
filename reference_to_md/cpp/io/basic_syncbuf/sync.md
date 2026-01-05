@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_syncbuf`](../basic_syncbuf.html "cpp/io/basic syncbuf")
 
@@ -96,7 +96,7 @@ Protected member functions
 Non-member functions  
 [swap(std::basic_syncbuf)](swap2.html "cpp/io/basic syncbuf/swap2")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_syncbuf/navbar_content&action=edit)
+
 
 protected:  
 int sync() override; |  |   
@@ -119,24 +119,24 @@ Otherwise (if the emit-on-sync policy is false, which is the default), the flush
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_syncbuf/sync&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_syncbuf/sync&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 `sync()` or its equivalent is implicitly called by close(), seekoff(), and seekpos() and explicitly called by [std::basic_streambuf::pubsync()](../basic_streambuf/pubsync.html "cpp/io/basic streambuf/pubsync")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_syncbuf/sync&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_syncbuf/sync&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ sync](../basic_streambuf/pubsync.html "cpp/io/basic streambuf/pubsync")[virtual] |  synchronizes the buffers with the associated character sequence   
-(virtual protected member function of `std::basic_streambuf<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_streambuf/dsc_sync&action=edit)  
+(virtual protected member function of `std::basic_streambuf<CharT,Traits>`)   
 ---|---  
 [ emit](../basic_osyncstream/emit.html "cpp/io/basic osyncstream/emit") |  calls [`emit()`](emit.html "cpp/io/basic syncbuf/emit") on the underlying `basic_syncbuf` to transmit its internal data to the final destination   
-(public member function of `std::basic_osyncstream<CharT,Traits,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_osyncstream/dsc_emit&action=edit)
+(public member function of `std::basic_osyncstream<CharT,Traits,Allocator>`) 

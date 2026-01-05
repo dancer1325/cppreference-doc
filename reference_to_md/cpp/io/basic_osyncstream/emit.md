@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_osyncstream`](../basic_osyncstream.html "cpp/io/basic osyncstream")
 
@@ -90,7 +90,7 @@ Public member functions
 [basic_osyncstream::get_wrapped](get_wrapped.html "cpp/io/basic osyncstream/get wrapped")(C++20)  
 **basic_osyncstream::emit**(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_osyncstream/navbar_content&action=edit)
+
 
 void emit(); |  |   
 ---|---|---  
@@ -98,11 +98,11 @@ void emit(); |  |
   
 Emits all buffered output and executes any pending flushes, by calling [`emit()`](../basic_syncbuf/emit.html "cpp/io/basic syncbuf/emit") on the underlying [`std::basic_syncbuf`](../basic_syncbuf.html "cpp/io/basic syncbuf"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_osyncstream/emit&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_osyncstream/emit&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -142,10 +142,10 @@ Output:
     Greetings.
     Hello, World!
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_osyncstream/emit&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ (destructor)](~basic_osyncstream.html "cpp/io/basic osyncstream/~basic osyncstream") |  destroys the `basic_osyncstream` and emits its internal buffer   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_osyncstream/dsc_destructor&action=edit)  
+(public member function)   
 ---|---  
 [ emit](../basic_syncbuf/emit.html "cpp/io/basic syncbuf/emit") |  atomically transmits the entire internal buffer to the wrapped streambuf   
-(public member function of `std::basic_syncbuf<CharT,Traits,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_syncbuf/dsc_emit&action=edit)
+(public member function of `std::basic_syncbuf<CharT,Traits,Allocator>`) 

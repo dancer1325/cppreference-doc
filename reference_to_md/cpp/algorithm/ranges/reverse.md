@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](copy.html "cpp/algorithm/ranges/co
 [uninitialized_default_construct_n](../../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 [Constrained algorithms](../ranges.html "cpp/algorithm/ranges")
 
@@ -550,7 +550,7 @@ All names in this menu belong to namespace `std::ranges`
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -592,25 +592,25 @@ The function-like entities described on this page are [_algorithm function objec
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/reverse&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  the iterator-sentinel pair defining the [range](../../iterator.html#Ranges "cpp/iterator") of elements to reverse   
 ---|---|---  
 r  |  \-  |  the range of elements to reverse   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/reverse&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 An iterator equal to last. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/reverse&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Exactly (last - first) / 2 swaps. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/reverse&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 Implementations (e.g. [MSVC STL](https://github.com/microsoft/STL/blob/main/stl/src/vector_algorithms.cpp)) may enable vectorization when the iterator type models [`contiguous_iterator`](../../iterator/contiguous_iterator.html "cpp/iterator/contiguous iterator") and swapping its value type calls neither non-trivial special member function nor [ADL](../../language/adl.html "cpp/language/adl")-found `swap`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/reverse&action=edit&section=5 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
 
 See also implementations in [libstdc++](https://github.com/gcc-mirror/gcc/blob/14d8a5ae472ca5743016f37da2dd4770d83dea21/libstdc%2B%2B-v3/include/bits/ranges_algo.h#L1278-L1325) and [MSVC STL](https://github.com/microsoft/STL/blob/472161105d596192194d4715ccad307c6c163b4a/stl/inc/algorithm#L4154-L4180). 
     
@@ -640,7 +640,7 @@ See also implementations in [libstdc++](https://github.com/gcc-mirror/gcc/blob/1
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/reverse&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -674,12 +674,12 @@ Output:
     
     ABCDEF → FEDCBA → ABCDEF │ 1 2 3 4 5 → 5 4 3 2 1
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/reverse&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ ranges::reverse_copy](reverse_copy.html "cpp/algorithm/ranges/reverse copy")(C++20) |  creates a copy of a range that is reversed  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_reverse_copy&action=edit)  
+(algorithm function object)  
 ---|---  
 [ ranges::reverse_viewviews::reverse](../../ranges/reverse_view.html "cpp/ranges/reverse view")(C++20) |  a [`view`](../../ranges/view.html "cpp/ranges/view") that iterates over the elements of another bidirectional view in reverse order  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_reverse_view&action=edit)  
+(class template) (range adaptor object)  
 [ reverse](../reverse.html "cpp/algorithm/reverse") |  reverses the order of elements in a range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_reverse&action=edit)
+(function template) 

@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Filesystem library](../../fs.html "cpp/experimental/fs")
 
@@ -99,7 +99,7 @@ File types
 [filesystem::is_socket](../is_socket.html "cpp/experimental/fs/is socket")  
 [filesystem::is_symlink](../is_symlink.html "cpp/experimental/fs/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/navbar_content&action=edit)
+
 
 [`directory_iterator`](../directory_iterator.html "cpp/experimental/fs/directory iterator")
 
@@ -112,7 +112,7 @@ Member functions
 Non-member functions  
 [begin(directory_iterator)end(directory_iterator)](begin.html "cpp/experimental/fs/directory iterator/begin")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/directory_iterator/navbar_content&action=edit)
+
 
 const directory_entry& operator*() const;  
   
@@ -134,22 +134,22 @@ The result of `operator*` or `operator->` on the end iterator is undefined behav
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/directory_iterator/operator*&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/directory_iterator/operator*&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) Value of the [`directory_entry`](../directory_entry.html "cpp/experimental/fs/directory entry") referred to by this iterator.
 
 2) Pointer to the [`directory_entry`](../directory_entry.html "cpp/experimental/fs/directory entry") referred to by this iterator.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/impldef_exception&action=edit&section=T-1 "Template:cpp/impldef exception")] Exceptions
+### Exceptions
 
 May throw implementation-defined exceptions. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/directory_iterator/operator*&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ operator*operator->](../recursive_directory_iterator/operator*.html "cpp/experimental/fs/recursive directory iterator/operator*") |  accesses the pointed-to entry   
-(public member function of `std::experimental::filesystem::recursive_directory_iterator`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/recursive_directory_iterator/dsc_operator*&action=edit)  
+(public member function of `std::experimental::filesystem::recursive_directory_iterator`)   
 ---|---

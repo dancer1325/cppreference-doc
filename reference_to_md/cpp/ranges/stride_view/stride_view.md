@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::stride_view`](../stride_view.html "cpp/ranges/stride view")
 
@@ -263,7 +263,7 @@ operator-(stride_view::_iterator_)](iterator/operator_arith2.html "cpp/ranges/st
 [iter_move(stride_view::_iterator_)](iterator/iter_move.html "cpp/ranges/stride view/iterator/iter move")  
 [iter_swap(stride_view::_iterator_)](iterator/iter_swap.html "cpp/ranges/stride view/iterator/iter swap")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/stride_view/navbar_content&action=edit)
+
 
 constexpr explicit stride_view( V base, [ranges::range_difference_t](../range_size_t.html)<V> stride ); |  |  (since C++23)  
 ---|---|---  
@@ -278,13 +278,13 @@ Constructs a `stride_view` initializing the underlying data members:
 
 If stride < 1 the behavior is undefined. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/stride_view/stride_view&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 base  |  \-  |  the source view   
 ---|---|---  
 stride  |  \-  |  the stride value   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/stride_view/stride_view&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     

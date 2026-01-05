@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 `[std::queue](../queue.html "cpp/container/queue")`
 
@@ -102,7 +102,7 @@ Tables
 [formatter<std::queue>](formatter.html "cpp/container/queue/formatter")(C++23)  
 [Deduction guides](deduction_guides.html "cpp/container/queue/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/queue/navbar_content&action=edit)
+
 
 void pop(); |  |   
 ---|---|---  
@@ -121,26 +121,26 @@ Removes an element from the front of the queue. Effectively calls c.pop_front().
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/pop&action=edit&section=T-1 "Template:cpp/container/pop")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/pop&action=edit&section=T-2 "Template:cpp/container/pop")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/pop&action=edit&section=T-3 "Template:cpp/container/pop")] Complexity
+### Complexity
 
 Equal to the complexity of Container::pop_front. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/pop&action=edit&section=T-4 "Template:cpp/container/pop")] Example
+### Example
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/pop&action=edit&section=T-5 "Template:cpp/container/pop")] See also
+### See also
 
 [ emplace](emplace.html "cpp/container/queue/emplace")(C++11) |  constructs element in-place at the end   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_emplace&action=edit)  
+(public member function)   
 ---|---  
 [ push](push.html "cpp/container/queue/push") |  inserts element at the end   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_push&action=edit)  
+(public member function)   
 [ front](front.html "cpp/container/queue/front") |  access the first element   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_front&action=edit)
+(public member function) 

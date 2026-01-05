@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Null-terminated multibyte strings](../multibyte.html "cpp/string/multibyte")
 
@@ -100,7 +100,7 @@ MB_CUR_MAX](../multibyte.html#Macros "cpp/string/multibyte")
 [__STDC_UTF_16__  
 __STDC_UTF_32__](../multibyte.html#Macros "cpp/string/multibyte")(C++11)(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/navbar_content&action=edit)
+
 
 Defined in header `[<cstdlib>](../../header/cstdlib.html "cpp/header/cstdlib")` |  |   
 ---|---|---  
@@ -124,23 +124,23 @@ This function is equivalent to the call [std::mbtowc](mbtowc.html)(nullptr, s, n
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/multibyte/mblen&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 Each call to `mblen` updates the internal global conversion state (a static object of type [std::mbstate_t](mbstate_t.html "cpp/string/multibyte/mbstate t"), only known to this function). If the multibyte encoding uses shift states, care must be taken to avoid backtracking or multiple scans. In any case, multiple threads should not call `mblen` without synchronization: [std::mbrlen](mbrlen.html "cpp/string/multibyte/mbrlen") may be used instead. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/multibyte/mblen&action=edit&section=2 "Edit section: Parameters")] Parameters
+### Parameters
 
 s  |  \-  |  pointer to the multibyte character   
 ---|---|---  
 n  |  \-  |  limit on the number of bytes in s that can be examined   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/multibyte/mblen&action=edit&section=3 "Edit section: Return value")] Return value
+### Return value
 
 If s is not a null pointer, returns the number of bytes that are contained in the multibyte character or -1 if the first bytes pointed to by s do not form a valid multibyte character or ​0​ if s is pointing at the null character '\0'. 
 
 If s is a null pointer, resets its internal conversion state to represent the initial shift state and returns ​0​ if the current multibyte encoding is not state-dependent (does not use shift sequences) or a non-zero value if the current multibyte encoding is state-dependent (uses shift sequences). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/multibyte/mblen&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -193,11 +193,11 @@ Possible output:
     
     "zß水🍌" is 4 characters, but as much as 10 bytes: 7A C3 9F E6 B0 B4 F0 9F 8D 8C
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/multibyte/mblen&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ mbtowc](mbtowc.html "cpp/string/multibyte/mbtowc") |  converts the next multibyte character to wide character   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/dsc_mbtowc&action=edit)  
+(function)   
 ---|---  
 [ mbrlen](mbrlen.html "cpp/string/multibyte/mbrlen") |  returns the number of bytes in the next multibyte character, given state   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/dsc_mbrlen&action=edit)  
+(function)   
 [C documentation](../../../c/string/multibyte/mblen.html "c/string/multibyte/mblen") for mblen

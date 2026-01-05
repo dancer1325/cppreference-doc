@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::unique_ptr`](../unique_ptr.html "cpp/memory/unique ptr")
 
@@ -211,7 +211,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
 [Helper classes](../unique_ptr.html#Helper_classes "cpp/memory/unique ptr")  
 [hash<std::unique_ptr>](hash.html "cpp/memory/unique ptr/hash")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/unique_ptr/navbar_content&action=edit)
+
 
 typename [std::add_lvalue_reference](../../types/add_reference.html)<T>::type operator*() const  
 noexcept(noexcept(*[std::declval](../../utility/declval.html)<pointer>())); |  (1) | (since C++11)   
@@ -244,21 +244,21 @@ If get() is a null pointer, the behavior is undefined.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/unique_ptr/operator*&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 1) Returns the object owned by *this, equivalent to *get().
 
 2) Returns a pointer to the object owned by *this, i.e. get().
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/unique_ptr/operator*&action=edit&section=2 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 1) May throw if `pointer` has a throwing operator*.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/unique_ptr/operator*&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 The use of [std::add_lvalue_reference](../../types/add_reference.html "cpp/types/add reference") is to make it possible to instantiate [std::unique_ptr](../unique_ptr.html)<void> since void& isn't allowed in C++ while [std::add_lvalue_reference](../../types/add_reference.html)<void> produces void. See [LWG673](https://cplusplus.github.io/LWG/issue673) for details. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/unique_ptr/operator*&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -290,7 +290,7 @@ Output:
     Foo::bar
     f(const Foo&)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/unique_ptr/operator*&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -303,8 +303,8 @@ exception specification
 `element_type*` differs from `Deleter::pointer` | the program is ill-  
 formed in this case   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/unique_ptr/operator*&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ get](get.html "cpp/memory/unique ptr/get") |  returns a pointer to the managed object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/unique_ptr/dsc_get&action=edit)  
+(public member function)   
 ---|---

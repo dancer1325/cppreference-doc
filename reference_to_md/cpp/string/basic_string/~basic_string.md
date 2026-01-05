@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Strings library](../../string.html "cpp/string")
 
@@ -40,7 +40,7 @@ Classes
 [basic_string_view](../basic_string_view.html "cpp/string/basic string view")(C++17)  
 [char_traits](../char_traits.html "cpp/string/char traits")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/navbar_content&action=edit)
+
 
 [`std::basic_string`](../basic_string.html "cpp/string/basic string")
 
@@ -133,7 +133,7 @@ basic_string_view](operator_basic_string_view.html "cpp/string/basic string/oper
 [hash<std::basic_string>](hash.html "cpp/string/basic string/hash")(C++11)  
 [Deduction guides](deduction_guides.html "cpp/string/basic string/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/navbar_content&action=edit)
+
 
 ~basic_string(); |  | (constexpr since C++20)  
 ---|---|---  
@@ -141,6 +141,6 @@ basic_string_view](operator_basic_string_view.html "cpp/string/basic string/oper
   
 Destructs the `basic_string`. The destructors of the elements are called and the used storage is deallocated. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/%7Ebasic_string&action=edit&section=1 "Edit section: Complexity")] Complexity
+### Complexity
 
 Typically constant (formally linear). 

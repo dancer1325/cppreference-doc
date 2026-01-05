@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 Defined in header `[<ranges>](../header/ranges.html "cpp/header/ranges")` |  |   
 ---|---|---  
@@ -267,7 +267,7 @@ In all other cases, a call to `ranges::data` is ill-formed, which can result in 
 
 The name `ranges::data` denotes a _customization point object_ , which is a const [function object](../named_req/FunctionObject.html "cpp/named req/FunctionObject") of a [literal](../named_req/LiteralType.html "cpp/named req/LiteralType") [`semiregular`](../concepts/semiregular.html "cpp/concepts/semiregular") class type. See [CustomizationPointObject](../named_req/CustomizationPointObject.html "cpp/named req/CustomizationPointObject") for details. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/data&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 If the argument is an rvalue (i.e. `T` is an object type) and [ranges::enable_borrowed_range](borrowed_range.html)<[std::remove_cv_t](../types/remove_cv.html)<T>> is false, the call to `ranges::data` is ill-formed, which also results in substitution failure. 
 
@@ -275,7 +275,7 @@ If ranges::data(e) is valid for an expression e, then it returns a pointer to an
 
 The C++20 standard requires that if the underlying `data` function call returns a prvalue, the return value is move-constructed from the materialized temporary object. All implementations directly return the prvalue instead. The requirement is corrected by the post-C++20 proposal [P0849R8](https://wg21.link/P0849R8) to match the implementations. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/data&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -301,12 +301,12 @@ Output:
     
     Hello world!
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/data&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ ranges::cdata](cdata.html "cpp/ranges/cdata")(C++20) |  obtains a pointer to the beginning of a read-only contiguous range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_cdata&action=edit)  
+(customization point object)  
 ---|---  
 [ ranges::begin](begin.html "cpp/ranges/begin")(C++20) |  returns an iterator to the beginning of a range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_begin&action=edit)  
+(customization point object)  
 [ data](../iterator/data.html "cpp/iterator/data")(C++17) |  obtains the pointer to the underlying array   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_data&action=edit)
+(function template) 

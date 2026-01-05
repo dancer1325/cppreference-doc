@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_ostream`](../basic_ostream.html "cpp/io/basic ostream")
 
@@ -116,7 +116,7 @@ Non-member functions
 [vprint_unicode(std::ostream)](vprint_unicode.html "cpp/io/basic ostream/vprint unicode")(C++23)  
 [vprint_nonunicode(std::ostream)](vprint_nonunicode.html "cpp/io/basic ostream/vprint nonunicode")(C++23)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ostream/navbar_content&action=edit)
+
 
 basic_ostream& write( const char_type* s, [std::streamsize](../streamsize.html) count ); |  |   
 ---|---|---  
@@ -141,25 +141,25 @@ Behaves as an [UnformattedOutputFunction](../../named_req/UnformattedOutputFunct
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_ostream/write&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 s  |  \-  |  pointer to the character string to write   
 ---|---|---  
 count  |  \-  |  number of characters to write   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_ostream/write&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 *this
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_ostream/write&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/stream_exceptions&action=edit)
+
 
 [failure](../ios_base/failure.html "cpp/io/ios base/failure") if an error occurred (the error state flag is not [goodbit](../ios_base/iostate.html "cpp/io/ios base/iostate")) and [exceptions()](../basic_ios/exceptions.html "cpp/io/basic ios/exceptions") is set to throw for that state. 
 
 If an internal operation throws an exception, it is caught and [badbit](../ios_base/iostate.html "cpp/io/ios base/iostate") is set. If [exceptions()](../basic_ios/exceptions.html "cpp/io/basic ios/exceptions") is set for `badbit`, the exception is rethrown. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_ostream/write&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 This function is not overloaded for the types signed char or unsigned char, unlike the formatted [operator<<](operator_ltlt2.html "cpp/io/basic ostream/operator ltlt2"). 
 
@@ -167,7 +167,7 @@ Also, unlike the formatted output functions, this function does not set the [fai
 
 When using a non-converting locale (the default locale is non-converting), the overrider of this function in [std::basic_ofstream](../basic_ofstream.html "cpp/io/basic ofstream") may be optimized for zero-copy bulk I/O (by means of overriding [std::streambuf::xsputn](../basic_streambuf/sputn.html "cpp/io/basic streambuf/sputn")). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_ostream/write&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 This function may be used to output object representations, i.e. binary output
 
@@ -191,10 +191,10 @@ Possible output:
     DCBA
     This!
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_ostream/write&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ operator<<(std::basic_ostream)](operator_ltlt2.html "cpp/io/basic ostream/operator ltlt2") |  inserts character data or insert into rvalue stream   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ostream/dsc_operator_ltlt2&action=edit)  
+(function template)   
 ---|---  
 [ put](put.html "cpp/io/basic ostream/put") |  inserts a character   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ostream/dsc_put&action=edit)
+(public member function) 

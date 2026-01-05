@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 [Experimental library headers](../experimental.html "cpp/header/experimental")
 
@@ -292,7 +292,7 @@ Networking TS
 Reflection TS  
 [`<experimental/reflect>`](reflect.html "cpp/header/experimental/reflect")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/experimental/navbar_content&action=edit)
+
 
 This header is part of the Library Fundamentals TS ([v1](../../experimental/memory.html "cpp/experimental/lib extensions"), [v2](../../experimental/lib_extensions_2.html "cpp/experimental/lib extensions 2"), [v3](../../experimental/lib_extensions_3.html "cpp/experimental/lib extensions 3")). 
 
@@ -308,7 +308,7 @@ This header is part of the Library Fundamentals TS ([v1](../../experimental/memo
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/memory_resource&action=edit&section=1 "Edit section: Classes")] Classes
+### Classes
 
 Defined in namespace `std::experimental::pmr`  
 ---  
@@ -325,7 +325,7 @@ Defined in namespace `std::experimental::pmr`
 [ resource_adaptor](../../experimental/resource_adaptor.html "cpp/experimental/resource adaptor") |  adapts an allocator into a memory_resource  
 (alias template)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/memory_resource&action=edit&section=2 "Edit section: Functions")] Functions
+### Functions
 
 Defined in namespace `std::experimental::pmr`  
 ---  
@@ -333,25 +333,25 @@ Defined in namespace `std::experimental::pmr`
 #####  Comparison   
   
 [ operator==operator!=](../../experimental/memory_resource/operator_eq.html "cpp/experimental/memory resource/operator eq") |  compare two `memory_resource`s   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/pmr/memory_resource/dsc_operator_cmp&action=edit)  
+(function)   
 [ operator==operator!=](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/pmr/polymorphic_allocator/operator_cmp&action=edit&redlink=1 "cpp/experimental/pmr/polymorphic allocator/operator cmp \(page does not exist\)") |  compares two allocators   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/pmr/polymorphic_allocator/dsc_operator_cmp&action=edit)  
+(function template)   
   
 #####  Global memory resources   
   
 [ new_delete_resource](../../experimental/new_delete_resource.html "cpp/experimental/new delete resource") |  returns a static program-wide `memory_resource` that uses the global [operator new](../../memory/new/operator_new.html "cpp/memory/new/operator new") and [operator delete](../../memory/new/operator_delete.html "cpp/memory/new/operator delete") to allocate and deallocate memory   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/pmr/dsc_new_delete_resource&action=edit)  
+(function)   
 [ null_memory_resource](../../experimental/null_memory_resource.html "cpp/experimental/null memory resource") |  returns a static `memory_resource` that performs no allocation   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/pmr/dsc_null_memory_resource&action=edit)  
+(function)   
   
 #####  Default memory resource   
   
 [ get_default_resource](../../experimental/get_default_resource.html "cpp/experimental/get default resource") |  gets the default `memory_resource`   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/pmr/dsc_get_default_resource&action=edit)  
+(function)   
 [ set_default_resource](../../experimental/set_default_resource.html "cpp/experimental/set default resource") |  sets the default `memory_resource`   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/pmr/dsc_set_default_resource&action=edit)  
+(function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/memory_resource&action=edit&section=3 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     namespace std {

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::weekday_indexed`](../weekday_indexed.html "cpp/chrono/weekday indexed")
 
@@ -118,7 +118,7 @@ Helper classes
 [formatter<std::chrono::weekday_indexed>](formatter.html "cpp/chrono/weekday indexed/formatter")  
 [hash<std::chrono::weekday_indexed>](hash.html "cpp/chrono/weekday indexed/hash")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/weekday_indexed/navbar_content&action=edit)
+
 
 constexpr bool ok() const noexcept; |  |  (since C++20)  
 ---|---|---  
@@ -126,11 +126,11 @@ constexpr bool ok() const noexcept; |  |  (since C++20)
   
 Checks if the weekday object and the index stored in *this are both valid. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/weekday_indexed/ok&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 true if weekday().ok() == true and index() is in the range `[`1`, `5`]`. Otherwise false. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/weekday_indexed/ok&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     

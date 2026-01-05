@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::month_weekday`](../month_weekday.html "cpp/chrono/month weekday")
 
@@ -117,7 +117,7 @@ Helper classes
 [formatter<std::chrono::month_weekday>](formatter.html "cpp/chrono/month weekday/formatter")  
 [hash<std::chrono::month_weekday>](hash.html "cpp/chrono/month weekday/hash")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/month_weekday/navbar_content&action=edit)
+
 
 constexpr [std::chrono::month](../month.html) month() const noexcept; |  (1)  |  (since C++20)  
 ---|---|---  
@@ -126,13 +126,13 @@ constexpr [std::chrono::weekday_indexed](../weekday_indexed.html) weekday_indexe
   
 Retrieves a copy of the [`month`](../month.html "cpp/chrono/month") and [`weekday_indexed`](../weekday_indexed.html "cpp/chrono/weekday indexed") objects stored in *this. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/month_weekday/accessors&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 1) A copy of the std::chrono::month object stored in *this.
 
 2) A copy of the std::chrono::weekday_indexed object stored in *this.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/month_weekday/accessors&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     

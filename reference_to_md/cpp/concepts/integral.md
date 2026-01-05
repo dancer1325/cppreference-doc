@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concepts library](../concepts.html "cpp/concepts")
 
@@ -73,7 +73,7 @@
 ---  
 [_boolean-testable_](boolean-testable.html "cpp/concepts/boolean-testable") ﻿(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/navbar_content&action=edit)
+
 
 Defined in header `[<concepts>](../header/concepts.html "cpp/header/concepts")` |  |   
 ---|---|---  
@@ -83,7 +83,7 @@ concept integral = [std::is_integral_v](../types/is_integral.html)<T>; |  |  (si
   
 The concept integral<T> is satisfied if and only if `T` is an integral type. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/concepts/integral&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -130,7 +130,7 @@ Output:
     Non-integral: 200
     Non-integral: ∫∫∫
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/concepts/integral&action=edit&section=2 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -152,8 +152,8 @@ Output:
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/concepts/integral&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ is_integral](../types/is_integral.html "cpp/types/is integral")(C++11) |  checks if a type is an integral type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_integral&action=edit)  
+(class template)   
 ---|---

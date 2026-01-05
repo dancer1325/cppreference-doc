@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 `[std::unordered_multimap](../unordered_multimap.html "cpp/container/unordered multimap")`
 
@@ -135,7 +135,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/unordered multimap/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/unordered_multimap/navbar_content&action=edit)
+
 
 hasher hash_function() const; |  |  (since C++11)  
 ---|---|---  
@@ -153,20 +153,20 @@ Returns the function that hashes the keys.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/hash_function&action=edit&section=T-1 "Template:cpp/container/hash function")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/hash_function&action=edit&section=T-2 "Template:cpp/container/hash function")] Return value
+### Return value
 
 The hash function. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/hash_function&action=edit&section=T-3 "Template:cpp/container/hash function")] Complexity
+### Complexity
 
 Constant. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/hash_function&action=edit&section=T-4 "Template:cpp/container/hash function")] See also
+### See also
 
 [ key_eq](key_eq.html "cpp/container/unordered multimap/key eq") |  returns the function used to compare keys for equality   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_key_eq&action=edit)  
+(public member function)   
 ---|---

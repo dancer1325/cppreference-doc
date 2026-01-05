@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../../../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 [Experimental library headers](../../experimental.html "cpp/header/experimental")
 
@@ -292,18 +292,18 @@ Networking TS
 Reflection TS  
 [`<experimental/reflect>`](../reflect.html "cpp/header/experimental/reflect")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/experimental/navbar_content&action=edit)
+
 
 This header is part of the [ranges](../../../experimental/ranges.html "cpp/experimental/ranges") library. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/ranges/random&action=edit&section=1 "Edit section: Random number generator concept")] Random number generator concept 
+### Random number generator concept 
 
 Defined in namespace `std::experimental::ranges`  
 ---  
 [ UniformRandomNumberGenerator](../../../experimental/ranges/concepts/UniformRandomNumberGenerator.html "cpp/experimental/ranges/concepts/UniformRandomNumberGenerator") |  specifies that a type qualifies as a uniform random number generator   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/concepts/dsc_UniformRandomNumberGenerator&action=edit)  
+(concept)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/ranges/random&action=edit&section=2 "Edit section: Synopsis")] Synopsis 
+### Synopsis 
     
     
     namespace std { namespace experimental { namespace ranges { inline namespace v1 {

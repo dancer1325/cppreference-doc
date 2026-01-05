@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header is part of the [type support](../utility/rtti.html "cpp/types") library, providing [fixed width floating-point types](../types/floating-point.html "cpp/types/floating-point"). 
 
@@ -213,15 +213,15 @@ This header is part of the [type support](../utility/rtti.html "cpp/types") libr
 ###  Types  
   
 [ float16_tfloat32_tfloat64_tfloat128_t](../types/floating-point.html#Fixed_width_floating-point_types "cpp/types/floating-point")(C++23)(optional) |  binary floating-point type with width of exactly 16, 32, 64, and 128 bits respectively   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_floatN_t&action=edit)  
+(typedef)   
 [ bfloat16_t](../types/floating-point.html#Fixed_width_floating-point_types "cpp/types/floating-point")(C++23)(optional) |  brain floating-point type with 16 bits exactly   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_bfloat16_t&action=edit)  
+(typedef)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/stdfloat&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 The fixed width floating-point types must be aliases to extended floating-point types (not float / double / long double), therefore not drop-in replacements for standard floating-point types. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/stdfloat&action=edit&section=2 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     namespace std {
@@ -242,7 +242,7 @@ The fixed width floating-point types must be aliases to extended floating-point 
       #endif
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/stdfloat&action=edit&section=3 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 

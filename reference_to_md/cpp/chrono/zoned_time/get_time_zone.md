@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::zoned_time`](../zoned_time.html "cpp/chrono/zoned time")
 
@@ -121,7 +121,7 @@ Helper classes
 [hash<std::chrono::zoned_time>](hash.html "cpp/chrono/zoned time/hash")(C++26)  
 [Deduction guides](deduction_guides.html "cpp/chrono/zoned time/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/zoned_time/navbar_content&action=edit)
+
 
 TimeZonePtr get_time_zone() const; |  |  (since C++20)  
 ---|---|---  
@@ -129,10 +129,10 @@ TimeZonePtr get_time_zone() const; |  |  (since C++20)
   
 Retrieves the stored time zone pointer. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/zoned_time/get_time_zone&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 A copy of the stored time zone pointer. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/zoned_time/get_time_zone&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 There's no way to access the time zone pointer when `TimeZonePtr` is a move-only type. 

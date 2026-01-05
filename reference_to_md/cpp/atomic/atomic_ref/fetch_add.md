@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::atomic_ref`](../atomic_ref.html "cpp/atomic/atomic ref")
 
@@ -211,7 +211,7 @@
 [atomic_ref::is_always_lock_free](is_always_lock_free.html "cpp/atomic/atomic ref/is always lock free")  
 [atomic_ref::required_alignment](required_alignment.html "cpp/atomic/atomic ref/required alignment")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic_ref/navbar_content&action=edit)
+
 
 Provided only when `T` is an arithmetic type other than _cv_ bool or a pointer-to-object type |  |   
 ---|---|---  
@@ -241,23 +241,23 @@ This overload participates in overload resolution only if [std::is_const_v](../.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_ref/fetch_add&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 arg  |  \-  |  the other argument of arithmetic addition   
 ---|---|---  
 order  |  \-  |  memory order constraints to enforce   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_ref/fetch_add&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The value referenced by *`_[ptr](../atomic_ref.html#ptr "cpp/atomic/atomic ref")_` , immediately preceding the effects of this function. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_ref/fetch_add&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_ref/fetch_add&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

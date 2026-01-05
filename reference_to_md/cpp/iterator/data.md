@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](empty.html "cpp/iterator/empty")(C++17)  
 **data**(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 Defined in header `[<array>](../header/array.html "cpp/header/array")` |  |   
 ---|---|---  
@@ -245,14 +245,14 @@ Returns a pointer to the block of memory containing the elements of the range.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/data&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 c  |  \-  |  a container or view with a data() member function   
 ---|---|---  
 array  |  \-  |  an array of arbitrary type   
 il  |  \-  |  an [std::initializer_list](../utility/initializer_list.html "cpp/utility/initializer list")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/data&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1,2) c.data()
 
@@ -260,11 +260,11 @@ il  |  \-  |  an [std::initializer_list](../utility/initializer_list.html "cpp/u
 
 4) il.begin()
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/data&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 1) May throw implementation-defined exceptions.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/data&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 The overload for [std::initializer_list](../utility/initializer_list.html "cpp/utility/initializer list") is necessary because it does not have a member function `data`. 
 
@@ -272,7 +272,7 @@ The overload for [std::initializer_list](../utility/initializer_list.html "cpp/u
 ---|---|---|---  
 [`__cpp_lib_nonmember_container_access`](../experimental/feature_test.html#cpp_lib_nonmember_container_access "cpp/feature test") | [`201411L`](../compiler_support/17.html#cpp_lib_nonmember_container_access_201411L "cpp/compiler support/17") | (C++17) | [std::size()](size.html "cpp/iterator/size"), `std::data()`, and [std::empty()](empty.html "cpp/iterator/empty")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/data&action=edit&section=5 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
 
 [First version](data.html#Version_1)  
 ---  
@@ -311,7 +311,7 @@ The overload for [std::initializer_list](../utility/initializer_list.html "cpp/u
         return il.begin();
     }  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/data&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -336,12 +336,12 @@ Output:
     
     Hello world!
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/data&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ ranges::data](../ranges/data.html "cpp/ranges/data")(C++20) |  obtains a pointer to the beginning of a contiguous range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_data&action=edit)  
+(customization point object)  
 ---|---  
 [ ranges::cdata](../ranges/cdata.html "cpp/ranges/cdata")(C++20) |  obtains a pointer to the beginning of a read-only contiguous range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_cdata&action=edit)
+(customization point object)
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

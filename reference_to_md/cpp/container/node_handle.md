@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../container.html "cpp/container")
 
@@ -71,7 +71,7 @@ Tables
 [Member function table](../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 template</* unspecified */>  
 class /*node-handle*/; |  | (since C++17)   
@@ -131,14 +131,14 @@ For all map containers ([std::map](map.html "cpp/container/map"), [std::multimap
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/node_handle&action=edit&section=1 "Edit section: Nested types")] Nested types
+### Nested types
 
 Type  |  Definition   
 ---|---  
-`key_type` (map containers only) |  the key stored in the node[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_key_type&action=edit)  
-`mapped_type` (map containers only) |  the mapped part of the element stored in the node[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_mapped_type&action=edit)  
-`value_type` (set containers only) |  the element stored in the node[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_value_type&action=edit)  
-`allocator_type` |  the allocator to be used when destroying the element[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_allocator_type&action=edit)  
+`key_type` (map containers only) |  the key stored in the node  
+`mapped_type` (map containers only) |  the mapped part of the element stored in the node  
+`value_type` (set containers only) |  the element stored in the node  
+`allocator_type` |  the allocator to be used when destroying the element  
 `_container_node_type_` |  unspecified  
 (exposition-only member type*)  
 `_ator_traits_` |  [std::allocator_traits](../memory/allocator_traits.html)<allocator_type>  
@@ -146,7 +146,7 @@ Type  |  Definition
   
 See [AssociativeContainer](../named_req/AssociativeContainer.html "cpp/named req/AssociativeContainer") and [UnorderedAssociativeContainer](../named_req/UnorderedAssociativeContainer.html "cpp/named req/UnorderedAssociativeContainer") for the actual definitions of the non-exposition-only nested types. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/node_handle&action=edit&section=2 "Edit section: Data members")] Data members
+### Data members
 
 Member  |  Description   
 ---|---  
@@ -160,7 +160,7 @@ typename` `` _ator_traits_` ﻿::template
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/node_handle&action=edit&section=3 "Edit section: Member functions")] Member functions
+### Member functions
 
 ##  _node-handle ﻿_ ::_node-handle_
 
@@ -371,7 +371,7 @@ If the following values are all false, the behavior is undefined:
 noexcept(ator_traits::propagate_on_container_swap::value ||  
 ator_traits::is_always_equal::value)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/node_handle&action=edit&section=22 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 ##  std::swap(_node-handle ﻿_)
 

@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Function objects](../../../functional.html "cpp/utility/functional")
 
@@ -255,7 +255,7 @@ Identity function object
 [unary_negate](../unary_negate.html "cpp/utility/functional/unary negate")(until C++20*)  
 [binary_negate](../binary_negate.html "cpp/utility/functional/binary negate")(until C++20*)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/navbar_content&action=edit)
+
 
 [`std::function`](../function.html "cpp/utility/functional/function")
 
@@ -277,7 +277,7 @@ Identity function object
 [uses_allocator<std::function>](uses_allocator.html "cpp/utility/functional/function/uses allocator")(until C++17)  
 **Deduction guides**(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/function/navbar_content&action=edit)
+
 
 Defined in header `[<functional>](../../../header/functional.html "cpp/header/functional")` |  |   
 ---|---|---  
@@ -299,13 +299,13 @@ function( F ) -> function</*see below*/>; |  (4)  |  (since C++23)
 
 4) This overload participates in overload resolution only if &F::operator() is well-formed when treated as an unevaluated operand and F::operator() is a [static member function](../../../language/static.html#Static_member_functions "cpp/language/static") whose type is of form R(A...) or R(A...) noexcept. The deduced type is [std::function](../function.html)<R(A...)>.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/function/deduction_guides&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 These deduction guides do not allow deduction from a function with [ellipsis parameter](../../../language/variadic_arguments.html "cpp/language/variadic arguments"), and the ... in the types is always treated as a [pack expansion](../../../language/parameter_pack.html#Pack_expansion "cpp/language/parameter pack"). 
 
 The type deduced by these deduction guides may change in a later standard revision (in particular, this might happen if noexcept support is added to [std::function](../function.html "cpp/utility/functional/function") in a later standard). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/function/deduction_guides&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -318,7 +318,7 @@ Run this code
       [std::function](../function.html) g = [&](double) { return i; }; // guide #2 deduces function<int(double)>
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/function/deduction_guides&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

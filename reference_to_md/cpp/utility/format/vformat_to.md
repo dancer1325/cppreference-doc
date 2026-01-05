@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Formatting library](../format.html "cpp/utility/format")
 
@@ -91,7 +91,7 @@ Formatting arguments
 [Format error](format.html#Format_error "cpp/utility/format/format")  
 [format_error](format_error.html "cpp/utility/format/format error")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/navbar_content&action=edit)
+
 
 Defined in header `[<format>](../../header/format.html "cpp/header/format")` |  |   
 ---|---|---  
@@ -127,7 +127,7 @@ These overloads participate in overload resolution only if `OutputIt` satisfies 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/vformat_to&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 out  |  \-  |  iterator to the output buffer   
 ---|---|---  
@@ -174,21 +174,21 @@ format-spec |  \-  |  the format specification defined by the [std::formatter](f
 args  |  \-  |  arguments to be formatted   
 loc  |  \-  |  [std::locale](../../locale/locale.html "cpp/locale/locale") used for locale-specific formatting   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/vformat_to&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Iterator past the end of the output range. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/vformat_to&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Throws [std::format_error](format_error.html "cpp/utility/format/format error") if fmt is not a valid format string for the provided arguments. Also propagates any exception thrown by formatter or iterator operations. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/vformat_to&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/vformat_to&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -196,4 +196,4 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [P2216R3](https://wg21.link/P2216R3) | C++20  | type of args is parameterized on `OutputIt` | not parameterized   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/vformat_to&action=edit&section=6 "Edit section: See also")] See also
+### See also

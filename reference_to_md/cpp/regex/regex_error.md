@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Regular expressions library](../regex.html "cpp/regex")
 
@@ -81,7 +81,7 @@ Constants
 Regex Grammar  
 [Modified ECMAScript-262](ecmascript.html "cpp/regex/ecmascript")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/navbar_content&action=edit)
+
 
 **`std::regex_error`**
 
@@ -91,7 +91,7 @@ Member functions
 [regex_error::operator=](regex_error/operator=.html "cpp/regex/regex error/operator=")  
 [regex_error::code](regex_error/code.html "cpp/regex/regex error/code")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/regex_error/navbar_content&action=edit)
+
 
 Defined in header `[<regex>](../header/regex.html "cpp/header/regex")` |  |   
 ---|---|---  
@@ -115,15 +115,15 @@ Inheritance diagram
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/regex_error&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](regex_error/regex_error.html "cpp/regex/regex error/regex error") |  constructs a `regex_error` object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/regex_error/dsc_regex_error&action=edit)  
+(public member function)   
 ---|---  
 [ operator=](regex_error/operator=.html "cpp/regex/regex error/operator=") |  replaces the `regex_error` object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/regex_error/dsc_operator%3D&action=edit)  
+(public member function)   
 [ code](regex_error/code.html "cpp/regex/regex error/code") |  gets the [std::regex_constants::error_type](error_type.html "cpp/regex/error type") for a `regex_error`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/regex_error/dsc_code&action=edit)  
+(public member function)   
   
 ##  Inherited from [std::runtime_error](../error/runtime_error.html "cpp/error/runtime error")
 
@@ -135,12 +135,12 @@ Inheritance diagram
 ###  Member functions
 
 [ (destructor)](../error/exception/~exception.html "cpp/error/exception/~exception")[virtual] |  destroys the exception object   
-(virtual public member function of `std::exception`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/exception/dsc_destructor&action=edit)  
+(virtual public member function of `std::exception`)   
 ---|---  
 [ what](../error/exception/what.html "cpp/error/exception/what")[virtual] |  returns an explanatory string   
-(virtual public member function of `std::exception`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/exception/dsc_what&action=edit)  
+(virtual public member function of `std::exception`)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/regex_error&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     

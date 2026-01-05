@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_ios`](../basic_ios.html "cpp/io/basic ios")
 
@@ -111,7 +111,7 @@ Protected member functions
 [basic_ios::swap](swap.html "cpp/io/basic ios/swap")(C++11)  
 [basic_ios::set_rdbuf](set_rdbuf.html "cpp/io/basic ios/set rdbuf")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ios/navbar_content&action=edit)
+
 
 void clear( [std::ios_base::iostate](../ios_base/iostate.html) state = [std::ios_base::goodbit](../ios_base/iostate.html) ); |  |   
 ---|---|---  
@@ -133,7 +133,7 @@ If [rdbuf()](rdbuf.html "cpp/io/basic ios/rdbuf") is a null pointer (i.e. there 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_ios/clear&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 state  |  \-  |  new error state flags setting. It can be a combination of the following constants:  |  Constant  |  Explanation   
 ---|---  
@@ -142,15 +142,15 @@ state  |  \-  |  new error state flags setting. It can be a combination of the f
 [`failbit`](../ios_base/iostate.html "cpp/io/ios base/iostate") |  input/output operation failed (formatting or extraction error)   
 [`eofbit`](../ios_base/iostate.html "cpp/io/ios base/iostate") |  associated input sequence has reached end-of-file   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_ios/clear&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_ios/clear&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 If the new error state includes a bit that is also included in the [exceptions()](exceptions.html "cpp/io/basic ios/exceptions") mask, throws an exception of type [failure](../ios_base/failure.html "cpp/io/ios base/failure"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_ios/clear&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 `clear()` without arguments can be used to unset the [`failbit`](clear.html#Parameters) after unexpected input; for [std::cin](../cin.html).putback(c) see [`ungetc`](../c/ungetc.html#Notes "cpp/io/c/ungetc").
 
@@ -184,7 +184,7 @@ Output:
     Please, enter a number: 3.14
     Thank you for entering the number 3.14
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_ios/clear&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -194,10 +194,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 includes a bit that is also included in the [exceptions()](exceptions.html "cpp/io/basic ios/exceptions") mask  | checks the new  
 error state instead   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_ios/clear&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ setstate](setstate.html "cpp/io/basic ios/setstate") |  sets state flags   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ios/dsc_setstate&action=edit)  
+(public member function)   
 ---|---  
 [ rdstate](rdstate.html "cpp/io/basic ios/rdstate") |  returns state flags   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ios/dsc_rdstate&action=edit)
+(public member function) 

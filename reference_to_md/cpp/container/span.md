@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../container.html "cpp/container")
 
@@ -71,7 +71,7 @@ Tables
 [Member function table](../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 **`std::span`**
 
@@ -104,7 +104,7 @@ Tables
 [dynamic_extent](span/dynamic_extent.html "cpp/container/span/dynamic extent")  
 [Deduction guides](span/deduction_guides.html "cpp/container/span/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/span/navbar_content&action=edit)
+
 
 Defined in header `[<span>](../header/span.html "cpp/header/span")` |  |   
 ---|---|---  
@@ -143,13 +143,13 @@ Every specialization of `std::span` is a [TriviallyCopyable](../named_req/Trivia
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/span&action=edit&section=1 "Edit section: Template parameters")] Template parameters
+### Template parameters
 
 T  |  \-  |  element type; must be a complete object type that is not an abstract class type   
 ---|---|---  
 Extent  |  \-  |  the number of elements in the sequence, or `std::dynamic_extent` if dynamic   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/span&action=edit&section=2 "Edit section: Nested types")] Nested types
+### Nested types
 
 Type  |  Definition   
 ---|---  
@@ -172,7 +172,7 @@ Type  |  Definition
 
 All requirements on the iterator types of a [Container](../named_req/Container.html "cpp/named req/Container") apply to the `iterator` type of `span` as well. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/span&action=edit&section=3 "Edit section: Data members")] Data members
+### Data members
 
 Member  |  Description   
 ---|---  
@@ -184,71 +184,71 @@ constexpr [std::size_t](../types/size_t.html) extent[static] |  Extent
 (present only if the extent is _dynamic ﻿_) |  the number of elements  
 (exposition-only member object*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/span&action=edit&section=4 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](span/span.html "cpp/container/span/span") |  constructs a `span`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/span/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ operator=](span/operator=.html "cpp/container/span/operator=") |  assigns a `span`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/span/dsc_operator%3D&action=edit)  
+(public member function)   
 (destructor)(implicitly declared) |  destructs a `span`   
 (public member function)  
   
 #####  Iterators   
   
 [ begincbegin](span/begin.html "cpp/container/span/begin")(C++23) |  returns an iterator to the beginning   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_begin&action=edit)  
+(public member function)   
 [ endcend](span/end.html "cpp/container/span/end")(C++23) |  returns an iterator to the end   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_end&action=edit)  
+(public member function)   
 [ rbegincrbegin](span/rbegin.html "cpp/container/span/rbegin")(C++23) |  returns a reverse iterator to the beginning   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_rbegin&action=edit)  
+(public member function)   
 [ rendcrend](span/rend.html "cpp/container/span/rend")(C++23) |  returns a reverse iterator to the end   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_rend&action=edit)  
+(public member function)   
   
 #####  Element access   
   
 [ front](span/front.html "cpp/container/span/front") |  access the first element   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_front&action=edit)  
+(public member function)   
 [ back](span/back.html "cpp/container/span/back") |  access the last element   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_back&action=edit)  
+(public member function)   
 [ at](span/at.html "cpp/container/span/at")(C++26) |  access specified element with bounds checking   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_at&action=edit)  
+(public member function)   
 [ operator[]](span/operator_at.html "cpp/container/span/operator at") |  access specified element   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_operator_at&action=edit)  
+(public member function)   
 [ data](span/data.html "cpp/container/span/data") |  direct access to the underlying contiguous storage   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_data&action=edit)  
+(public member function)   
   
 #####  Observers   
   
 [ size](span/size.html "cpp/container/span/size") |  returns the number of elements   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_size&action=edit)  
+(public member function)   
 [ size_bytes](span/size_bytes.html "cpp/container/span/size bytes") |  returns the size of the sequence in bytes   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/span/dsc_size_bytes&action=edit)  
+(public member function)   
 [ empty](span/empty.html "cpp/container/span/empty") |  checks if the sequence is empty   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/span/dsc_empty&action=edit)  
+(public member function)   
   
 #####  Subviews   
   
 [ first](span/first.html "cpp/container/span/first") |  obtains a subspan consisting of the first `N` elements of the sequence   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/span/dsc_first&action=edit)  
+(public member function)   
 [ last](span/last.html "cpp/container/span/last") |  obtains a subspan consisting of the last `N` elements of the sequence   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/span/dsc_last&action=edit)  
+(public member function)   
 [ subspan](span/subspan.html "cpp/container/span/subspan") |  obtains a subspan   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/span/dsc_subspan&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/span&action=edit&section=5 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ as_bytesas_writable_bytes](span/as_bytes.html "cpp/container/span/as bytes")(C++20) |  converts a `span` into a view of its underlying bytes   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/span/dsc_as_bytes&action=edit)  
+(function template)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/span&action=edit&section=6 "Edit section: Helper constant")] Helper constant
+### Helper constant
 
 [ dynamic_extent](span/dynamic_extent.html "cpp/container/span/dynamic extent")(C++20) |  a constant of type [std::size_t](../types/size_t.html "cpp/types/size t") signifying that the `span` has dynamic extent   
-(constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/span/dsc_dynamic_extent&action=edit)  
+(constant)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/span&action=edit&section=7 "Edit section: Helper templates")] Helper templates
+### Helper templates
 
 template< class T, [std::size_t](../types/size_t.html) Extent >  
 constexpr bool [ranges::enable_borrowed_range](../ranges/borrowed_range.html)<std::span<T, Extent>> = true; |  |  (since C++20)  
@@ -264,9 +264,9 @@ constexpr bool [ranges::enable_view](../ranges/view.html)<std::span<T, Extent>> 
   
 This specialization of [ranges::enable_view](../ranges/view.html "cpp/ranges/view") makes `span` satisfy [`view`](../ranges/view.html "cpp/ranges/view"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/span&action=edit&section=8 "Edit section: Deduction guides")] [Deduction guides](span/deduction_guides.html "cpp/container/span/deduction guides")
+### [Deduction guides](span/deduction_guides.html "cpp/container/span/deduction guides")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/span&action=edit&section=9 "Edit section: Notes")] Notes
+### Notes
 
 Specializations of `std::span` are already trivially copyable types in all existing implementations, even before the formal requirement introduced in C++23. 
 
@@ -276,7 +276,7 @@ Specializations of `std::span` are already trivially copyable types in all exist
 [`202311L`](../compiler_support/26.html#cpp_lib_span_202311L "cpp/compiler support/26") | (C++26) | std::span::at  
 [`__cpp_lib_span_initializer_list`](../experimental/feature_test.html#cpp_lib_span_initializer_list "cpp/feature test") | [`202311L`](../compiler_support/26.html#cpp_lib_span_initializer_list_202311L "cpp/compiler support/26") | (C++26) | Constructing `std::span` from a [std::initializer_list](../utility/initializer_list.html "cpp/utility/initializer list")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/span&action=edit&section=10 "Edit section: Example")] Example
+### Example
 
 The example uses `std::span` to implement some algorithms on contiguous ranges.
 
@@ -355,7 +355,7 @@ Output:
     2 3 4 5 6 7
     3 4 5 6 7 8
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/span&action=edit&section=11 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -366,16 +366,16 @@ references to elements of `span` are invalidated  | made clear
 [LWG 3903](https://cplusplus.github.io/LWG/issue3903) | C++20  | the declaration of `span`'s destructor was unnecessary  | removed the declaration   
 [P2325R3](https://wg21.link/P2325R3) | C++20  | a `span` of non-zero static extents was not a `view` | any `span` is a `view`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/span&action=edit&section=12 "Edit section: See also")] See also
+### See also
 
 [ mdspan](mdspan.html "cpp/container/mdspan")(C++23) |  a multi-dimensional non-owning array view   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_mdspan&action=edit)  
+(class template)   
 ---|---  
 [ ranges::subrange](../ranges/subrange.html "cpp/ranges/subrange")(C++20) |  combines an iterator-sentinel pair into a [`view`](../ranges/view.html "cpp/ranges/view")   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_subrange&action=edit)  
+(class template)   
 [ initializer_list](../utility/initializer_list.html "cpp/utility/initializer list")(C++11) |  references a temporary array created in [list-initialization](../language/list_initialization.html "cpp/language/list initialization")   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_initializer_list&action=edit)  
+(class template)   
 [ basic_string_view](../string/basic_string_view.html "cpp/string/basic string view")(C++17) |  read-only string view   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/dsc_basic_string_view&action=edit)
+(class template) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

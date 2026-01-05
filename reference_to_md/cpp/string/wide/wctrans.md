@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Null-terminated wide strings](../wide.html "cpp/string/wide")
 
@@ -153,7 +153,7 @@
 WCHAR_MAX  
 WEOF](../wide.html#Macros "cpp/string/wide")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/navbar_content&action=edit)
+
 
 Defined in header `[<cwctype>](../../header/cwctype.html "cpp/header/cwctype")` |  |   
 ---|---|---  
@@ -172,26 +172,26 @@ Constructs a value of type [std::wctrans_t](../wide.html) that describes a [LC_C
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/wctrans&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 str  |  \-  |  C string holding the name of the desired mapping. The following values of `str` are supported in all C locales:  |  Value of `str` |  Effect   
 ---|---  
 `"toupper"` |  identifies the mapping used by towupper  
 `"tolower"` |  identifies the mapping used by towlower  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/wctrans&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 [std::wctrans_t](../wide.html) object suitable for use with [std::towctrans](towctrans.html "cpp/string/wide/towctrans") to map wide characters according to the named mapping of the current C locale or zero if str does not name a mapping supported by the current C locale. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/wctrans&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/wctrans&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ towctrans](towctrans.html "cpp/string/wide/towctrans") |  performs character mapping according to the specified [`LC_CTYPE`](../../locale/LC_categories.html "cpp/locale/LC categories") mapping category   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_towctrans&action=edit)  
+(function)   
 ---|---  
 [C documentation](../../../c/string/wide/wctrans.html "c/string/wide/wctrans") for wctrans

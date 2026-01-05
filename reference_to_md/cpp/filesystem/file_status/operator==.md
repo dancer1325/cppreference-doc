@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Filesystem library](../../filesystem.html "cpp/filesystem")
 
@@ -100,7 +100,7 @@ filesystem::symlink_status](../status.html "cpp/filesystem/status")
 [filesystem::is_socket](../is_socket.html "cpp/filesystem/is socket")  
 [filesystem::is_symlink](../is_symlink.html "cpp/filesystem/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/navbar_content&action=edit)
+
 
 [`std::filesystem::file_status`](../file_status.html "cpp/filesystem/file status")
 
@@ -113,7 +113,7 @@ Member functions
 Non-member functions  
 **operator==**(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/file_status/navbar_content&action=edit)
+
 
 friend bool operator==( const file_status& lhs, const file_status& rhs ) noexcept; |  |  (since C++20)  
 ---|---|---  
@@ -125,19 +125,19 @@ This function is not visible to ordinary [unqualified](../../language/unqualifie
 
 The `!=` operator is [synthesized](../../language/default_comparisons.html#Other_defaulted_comparison_operators "cpp/language/default comparisons") from `operator==`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/file_status/operator%3D%3D&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 lhs, rhs  |  \-  |  `file_status` values to compare   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/file_status/operator%3D%3D&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 lhs.type() == rhs.type() && lhs.permissions() == rhs.permissions()
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/file_status/operator%3D%3D&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ type](type.html "cpp/filesystem/file status/type") |  gets or sets the type of the file   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/file_status/dsc_type&action=edit)  
+(public member function)   
 ---|---  
 [ permissions](permissions.html "cpp/filesystem/file status/permissions") |  gets or sets the permissions of the file   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/file_status/dsc_permissions&action=edit)
+(public member function) 

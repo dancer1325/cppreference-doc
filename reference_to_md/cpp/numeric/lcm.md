@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 Defined in header `[<numeric>](../header/numeric.html "cpp/header/numeric")` |  |   
 ---|---|---  
@@ -113,26 +113,26 @@ The behavior is undefined if |m|, |n|, or the least common multiple of |m| and |
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/lcm&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 m, n  |  \-  |  integer values   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/lcm&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 If either m or n is zero, returns zero. Otherwise, returns the least common multiple of |m| and |n|. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/lcm&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Throws no exceptions. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/lcm&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../utility/feature_test.html "cpp/utility/feature test") macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_gcd_lcm`](../experimental/feature_test.html#cpp_lib_gcd_lcm "cpp/feature test") | [`201606L`](../compiler_support/17.html#cpp_lib_gcd_lcm_201606L "cpp/compiler support/17") | (C++17) | [std::gcd](gcd.html "cpp/numeric/gcd"), `std::lcm`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/lcm&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -173,10 +173,10 @@ Output:
     lcm(2 * 3 * 4, 3 * 4 * 5, 4 * 5 * 6) = 120
     lcm(2 * 3 * 4, 3 * 4 * 5, 4 * 5 * 6, 5 * 6 * 7) = 840
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/lcm&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ gcd](gcd.html "cpp/numeric/gcd")(C++17) |  computes the greatest common divisor of two integers   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/dsc_gcd&action=edit)  
+(function template)   
 ---|---
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 Defined in header `[<compare>](../../header/compare.html "cpp/header/compare")` |  |   
 ---|---|---  
@@ -175,7 +175,7 @@ The class type `std::partial_ordering` is the result type of a [three-way compar
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/compare/partial_ordering&action=edit&section=1 "Edit section: Constants")] Constants
+### Constants
 
 The type `std::partial_ordering` has four valid values, implemented as const static data members of its type: 
 
@@ -190,11 +190,11 @@ inline constexpr std::partial_ordering greater[static] |  a valid value indicati
 inline constexpr std::partial_ordering unordered[static] |  a valid value indicating relationship with an incomparable value   
 (public static member constant)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/compare/partial_ordering&action=edit&section=2 "Edit section: Conversions")] Conversions
+### Conversions
 
 `std::partial_ordering` cannot be implicitly converted to other comparison category types, while both std::strong_ordering and std::weak_ordering are implicitly-convertible to `partial_ordering`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/compare/partial_ordering&action=edit&section=3 "Edit section: Comparisons")] Comparisons
+### Comparisons
 
 Comparison operators are defined between values of this type and literal ​0​. This supports the expressions a <=> b == 0 or a <=> b < 0 that can be used to convert the result of a three-way comparison operator to a boolean relationship; see [`std::is_eq`](named_comparison_functions.html "cpp/utility/compare/named comparison functions"), [`std::is_lt`](named_comparison_functions.html "cpp/utility/compare/named comparison functions"), etc. 
 
@@ -321,20 +321,20 @@ u  |  \-  |  an unused parameter of any type that accepts literal zero argument
 
 2) `greater` if `v` is `less`, `less` if `v` is `greater`, otherwise `v`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/compare/partial_ordering&action=edit&section=16 "Edit section: Notes")] Notes
+### Notes
 
 The [built-in `operator<=>`](../../language/operator_comparison.html#Three-way_comparison "cpp/language/operator comparison") between floating-point values uses this ordering: the positive zero and the negative zero compare `equivalent`, but can be distinguished, and NaN values compare `unordered` with any other value. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/compare/partial_ordering&action=edit&section=17 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/compare/partial_ordering&action=edit&section=18 "Edit section: See also")] See also
+### See also
 
 [ strong_ordering](strong_ordering.html "cpp/utility/compare/strong ordering")(C++20) |  the result type of 3-way comparison that supports all 6 operators and is substitutable   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/compare/dsc_strong_ordering&action=edit)  
+(class)   
 ---|---  
 [ weak_ordering](weak_ordering.html "cpp/utility/compare/weak ordering")(C++20) |  the result type of 3-way comparison that supports all 6 operators and is not substitutable   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/compare/dsc_weak_ordering&action=edit)
+(class) 

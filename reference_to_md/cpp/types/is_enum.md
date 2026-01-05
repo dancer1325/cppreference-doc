@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Metaprogramming library](../meta.html "cpp/meta")
 
@@ -167,7 +167,7 @@ Type transformations
 Compile-time integer sequences  
 [integer_sequence](../utility/integer_sequence.html "cpp/utility/integer sequence")(C++14)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/meta/navbar_content&action=edit)
+
 
 Defined in header `[<type_traits>](../header/type_traits.html "cpp/header/type traits")` |  |   
 ---|---|---  
@@ -195,19 +195,19 @@ If the program adds specializations for `std::is_enum` or `std::is_enum_v`, the 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/traits/is&action=edit&section=T-1 "Template:cpp/types/traits/is")] Template parameters
+### Template parameters
 
 T  |  \-  |  a type to check   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/traits/is&action=edit&section=T-2 "Template:cpp/types/traits/is")] Helper variable template
+### Helper variable template
 
 template< class T >  
 constexpr bool is_enum_v = is_enum<T>::value; |  |  (since C++17)  
 ---|---|---  
 | |   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/integral_constant/inherit2&action=edit)
+
 
 ##  Inherited from [ std::integral_constant](integral_constant.html "cpp/types/integral constant")
 
@@ -232,7 +232,7 @@ Type  |  Definition
 `value_type` |  bool  
 `type` |  [std::integral_constant](integral_constant.html)<bool, value>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_enum&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -253,14 +253,14 @@ Run this code
      
     int main() {}
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_enum&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ is_integral](is_integral.html "cpp/types/is integral")(C++11) |  checks if a type is an integral type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_integral&action=edit)  
+(class template)   
 ---|---  
 [ is_arithmetic](is_arithmetic.html "cpp/types/is arithmetic")(C++11) |  checks if a type is an arithmetic type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_arithmetic&action=edit)  
+(class template)   
 [ is_scalar](is_scalar.html "cpp/types/is scalar")(C++11) |  checks if a type is a scalar type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_scalar&action=edit)  
+(class template)   
 [ is_scoped_enum](is_scoped_enum.html "cpp/types/is scoped enum")(C++23) |  checks if a type is a scoped enumeration type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_scoped_enum&action=edit)
+(class template) 

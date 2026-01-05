@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Statements](statements.html "cpp/language/statements")
 
@@ -253,7 +253,7 @@ Miscellaneous
 [Transactional memory](transactional_memory.html "cpp/language/transactional memory")  
 [`synchronized`](transactional_memory.html#Synchronized_blocks "cpp/language/transactional memory"), [`atomic_commit`](transactional_memory.html#Atomic_blocks "cpp/language/transactional memory"), etc (TM TS)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/statements/navbar_content&action=edit)
+
 
 A contract_assert statement is a contract assertion that may appear in a function or lambda body to verify an internal condition. It ensures the condition holds during execution, triggering a violation (e.g. termination) in debug builds if the condition evaluates to false or the evaluation exits via an exception, and can be ignored in release builds for performance. 
 
@@ -270,7 +270,7 @@ A contract_assert statement is a contract assertion that may appear in a functio
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/contract_assert&action=edit&section=1 "Edit section: Syntax")] Syntax  
+### Syntax  
   
 ---  
 `**contract_assert**` attr ﻿(optional) `**(**` predicate `**)**` `**;**` |  |   
@@ -278,17 +278,17 @@ attr |  \-  |  any number of [attributes](attributes.html "cpp/language/attribut
 ---|---|---  
 predicate |  \-  |  boolean expression that should evaluate to true  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/contract_assert&action=edit&section=2 "Edit section: Keywords")] Keywords
+### Keywords
 
 [`contract_assert`](../keyword/contract_assert.html "cpp/keyword/contract assert")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/contract_assert&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Feature-test macro  | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_contracts`](../experimental/feature_test.html#cpp_contracts "cpp/feature test") | [`202502L`](../compiler_support/26.html#cpp_contracts_202502L "cpp/compiler support/26") | (C++26) | [Contracts](contracts.html "cpp/language/contracts")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/contract_assert&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 The contract_assert ensures that vector's norm is positive and either [normal or subnormal](../numeric/math/FP_categories.html "cpp/numeric/math/FP categories"). 
     
@@ -309,7 +309,7 @@ The contract_assert ensures that vector's norm is positive and either [normal or
         return vector;
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/contract_assert&action=edit&section=5 "Edit section: Support status")] Support status
+### Support status
 
 C++26 feature  
   
@@ -320,7 +320,7 @@ C++26 feature
 ---|---|---|---|---|---|---|---|---|---|---  
 [Contracts](contracts.html "cpp/language/contracts") ([FTM](../experimental/feature_test.html#cpp_contracts "cpp/feature test"))* | [P2900R14](https://wg21.link/P2900R14) |  |  |  |  |  |  |  |  |   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/contract_assert&action=edit&section=6 "Edit section: References")] References
+### References
 
   * C++26 standard (ISO/IEC 14882:2026): 
 
@@ -332,15 +332,15 @@ C++26 feature
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/contract_assert&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ assert](../error/assert.html "cpp/error/assert") |  aborts the program if the user-specified condition is not true. May be disabled for release builds.   
-(function macro) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_assert&action=edit)  
+(function macro)   
 ---|---  
-[Contract assertions](contracts.html "cpp/language/contracts") (C++26) |  specifies properties that must hold at certain points during execution[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_contracts&action=edit)  
-[`static_assert` declaration](static_assert.html "cpp/language/static assert") (C++11) |  performs compile-time assertion checking[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_static_assert&action=edit)  
-[function contract specifiers](functions.html#Function_contract_specifiers "cpp/language/functions") (C++26) |  specifies preconditions (pre) and postconditions (post)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/functions/dsc_function_contract_specifiers&action=edit)  
+[Contract assertions](contracts.html "cpp/language/contracts") (C++26) |  specifies properties that must hold at certain points during execution  
+[`static_assert` declaration](static_assert.html "cpp/language/static assert") (C++11) |  performs compile-time assertion checking  
+[function contract specifiers](functions.html#Function_contract_specifiers "cpp/language/functions") (C++26) |  specifies preconditions (pre) and postconditions (post)  
 `[[[assume](attributes/assume.html "cpp/language/attributes/assume")(_expression_)]]`(C++23) |  specifies that the _expression_ will always evaluate to true at a given point  
-(attribute specifier)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/attributes/dsc_assume&action=edit)
+(attribute specifier)
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

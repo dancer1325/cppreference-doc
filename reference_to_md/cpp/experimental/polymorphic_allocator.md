@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Library fundamentals](memory.html "cpp/experimental/lib extensions")
 
@@ -50,7 +50,7 @@
 [Type-erased and polymorphic allocators](memory.html "cpp/experimental/memory")  
 [Variable templates for type traits](type_trait_variable_templates.html "cpp/experimental/type trait variable templates")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions/navbar_content&action=edit)
+
 
 [Polymorphic allocator library](memory.html "cpp/experimental/memory")
 
@@ -73,7 +73,7 @@ Type-erased allocator support for existing classes
 [packaged_task](lib_extensions/packaged_task.html "cpp/experimental/lib extensions/packaged task")  
 [promise](lib_extensions/promise.html "cpp/experimental/lib extensions/promise")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions/pmr/navbar_content&action=edit)
+
 
 **`std::experimental::pmr::polymorphic_allocator`**
 
@@ -90,7 +90,7 @@ Member functions
 Non-member functions  
 [operator==operator!=](polymorphic_allocator/operator_eq.html "cpp/experimental/polymorphic allocator/operator eq")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions/pmr/polymorphic_allocator/navbar_content&action=edit)
+
 
 ![](https://upload.cppreference.com/mwiki/images/3/31/Imbox_notice.png) |  **Merged into ISO C++** The functionality described on this page was merged into the mainline ISO C++ standard as of 3/2016, see [`std::pmr::polymorphic_allocator`](../memory/polymorphic_allocator.html "cpp/memory/polymorphic allocator") (since C++17)  
 ---|---  
@@ -112,39 +112,39 @@ The class template `std::experimental::pmr::polymorphic_allocator` is an [Alloca
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/polymorphic_allocator&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Member type  |  definition   
 ---|---  
 `value_type` |  `T`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/polymorphic_allocator&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](polymorphic_allocator/polymorphic_allocator.html "cpp/experimental/polymorphic allocator/polymorphic allocator") |  constructs a `polymorphic_allocator`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/polymorphic_allocator/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 (destructor)(implicitly declared) |  implicitly declared destructor   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/polymorphic_allocator/dsc_destructor&action=edit)  
+(public member function)   
 [ operator=](polymorphic_allocator/operator=.html "cpp/experimental/polymorphic allocator/operator=") |  copy assignment operator   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/polymorphic_allocator/dsc_operator%3D&action=edit)  
+(public member function)   
   
 #####  Public member functions   
   
 [ allocate](polymorphic_allocator/allocate.html "cpp/experimental/polymorphic allocator/allocate") |  allocate memory   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/polymorphic_allocator/dsc_allocate&action=edit)  
+(public member function)   
 [ deallocate](polymorphic_allocator/deallocate.html "cpp/experimental/polymorphic allocator/deallocate") |  deallocate memory   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/polymorphic_allocator/dsc_deallocate&action=edit)  
+(public member function)   
 [ construct](polymorphic_allocator/construct.html "cpp/experimental/polymorphic allocator/construct") |  constructs an object in allocated storage   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/polymorphic_allocator/dsc_construct&action=edit)  
+(public member function)   
 [ destroy](polymorphic_allocator/destroy.html "cpp/experimental/polymorphic allocator/destroy") |  destroys an object in allocated storage   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/polymorphic_allocator/dsc_destroy&action=edit)  
+(public member function)   
 [ select_on_container_copy_construction](polymorphic_allocator/select_on_container_copy_construction.html "cpp/experimental/polymorphic allocator/select on container copy construction") |  create a new `polymorphic_allocator` for use by a container's copy constructor   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/polymorphic_allocator/dsc_select_on_container_copy_construction&action=edit)  
+(public member function)   
 [ resource](polymorphic_allocator/resource.html "cpp/experimental/polymorphic allocator/resource") |  returns a pointer to the underlying memory resource   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/polymorphic_allocator/dsc_resource&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/polymorphic_allocator&action=edit&section=3 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ operator==operator!=](polymorphic_allocator/operator_eq.html "cpp/experimental/polymorphic allocator/operator eq") |  compare two `polymorphic_allocator`s   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/polymorphic_allocator/dsc_operator_eq&action=edit)  
+(function)   
 ---|---

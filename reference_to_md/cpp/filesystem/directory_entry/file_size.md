@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Filesystem library](../../filesystem.html "cpp/filesystem")
 
@@ -100,7 +100,7 @@ filesystem::symlink_status](../status.html "cpp/filesystem/status")
 [filesystem::is_socket](../is_socket.html "cpp/filesystem/is socket")  
 [filesystem::is_symlink](../is_symlink.html "cpp/filesystem/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/navbar_content&action=edit)
+
 
 [`std::filesystem::directory_entry`](../directory_entry.html "cpp/filesystem/directory entry")
 
@@ -131,7 +131,7 @@ Observers
 Non-member functions  
 [operator<<](operator_ltlt.html "cpp/filesystem/directory entry/operator ltlt")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/directory_entry/navbar_content&action=edit)
+
 
 [std::uintmax_t](../../types/integer.html) file_size() const; |  (1)  |  (since C++17)  
 ---|---|---  
@@ -155,16 +155,16 @@ If the file size is cached in this [`directory_entry`](directory_entry.html "cpp
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/directory_entry/file_size&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 ec  |  \-  |  out-parameter for error reporting in the non-throwing overload   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/directory_entry/file_size&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The size of the referred-to filesystem object. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/directory_entry/file_size&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Any overload not marked `noexcept` may throw [std::bad_alloc](../../memory/new/bad_alloc.html "cpp/memory/new/bad alloc") if memory allocation fails.  
 
@@ -173,7 +173,7 @@ Any overload not marked `noexcept` may throw [std::bad_alloc](../../memory/new/b
 
 2) Sets a [std::error_code](../../error/error_code.html)& parameter to the OS API error code if an OS API call fails, and executes ec.[`clear`](../../error/error_code/clear.html "cpp/error/error code/clear")() if no errors occur.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/directory_entry/file_size&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Prints the list of files in a given directory alongside with their sizes in human readable form.
 
@@ -220,8 +220,8 @@ Possible output:
     "cppreference-doc-20190607.tar.xz" size: 6.3MB (6531336)
     "hana.hpp" size: 6.7KB (6807)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/directory_entry/file_size&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ file_size](../file_size.html "cpp/filesystem/file size")(C++17) |  returns the size of a file   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_file_size&action=edit)  
+(function)   
 ---|---

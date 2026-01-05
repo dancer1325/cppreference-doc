@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Library fundamentals](../memory.html "cpp/experimental/lib extensions")
 
@@ -75,7 +75,7 @@
 [Type-erased and polymorphic allocators](../memory.html "cpp/experimental/memory")  
 [Variable templates for type traits](../type_trait_variable_templates.html "cpp/experimental/type trait variable templates")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions/navbar_content&action=edit)
+
 
 [Polymorphic allocator library](../memory.html "cpp/experimental/memory")
 
@@ -98,7 +98,7 @@ Type-erased allocator support for existing classes
 [packaged_task](packaged_task.html "cpp/experimental/lib extensions/packaged task")  
 [promise](promise.html "cpp/experimental/lib extensions/promise")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions/pmr/navbar_content&action=edit)
+
 
 The following convenience aliases and alias templates for containers using polymorphic allocators are defined in the `std::experimental::pmr` namespace. 
 
@@ -113,7 +113,7 @@ The following convenience aliases and alias templates for containers using polym
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/lib_extensions/pmr_container&action=edit&section=1 "Edit section: Strings")] Strings 
+### Strings 
 
 Alias/alias template  |  Alias for   
 ---|---  
@@ -127,7 +127,7 @@ using wstring = |  pmr::basic_string<wchar_t>;
 using u16string = |  pmr::basic_string<char16_t>;  
 using u32string = |  pmr::basic_string<char32_t>;  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/lib_extensions/pmr_container&action=edit&section=2 "Edit section: Sequence containers")] Sequence containers 
+### Sequence containers 
 
 Alias template  |  Alias for   
 ---|---  
@@ -140,7 +140,7 @@ template<class T> using forward_list = |  [std::forward_list](../../container/fo
 Defined in header `[<experimental/list>](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/list&action=edit&redlink=1 "cpp/header/experimental/list \(page does not exist\)")`  
 template<class T> using list = |  [std::list](../../container/list.html)<T, polymorphic_allocator<T>>;  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/lib_extensions/pmr_container&action=edit&section=3 "Edit section: Associative containers")] Associative containers 
+### Associative containers 
 
 Alias template  |  Alias for   
 ---|---  
@@ -163,7 +163,7 @@ class Compare=[std::less](../../utility/functional/less.html)<Key>>
 using multiset = |  [std::multiset](../../container/multiset.html)<Key, Compare,  
 polymorphic_allocator<Key>>;  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/lib_extensions/pmr_container&action=edit&section=4 "Edit section: Unordered associative containers")] Unordered associative containers 
+### Unordered associative containers 
 
 Alias template  |  Alias for   
 ---|---  
@@ -190,7 +190,7 @@ class Pred = [std::equal_to](../../utility/functional/equal_to.html)<Key>>
 using unordered_multiset = |  [std::unordered_multiset](../../container/unordered_multiset.html)<Key, Hash, Pred,  
 polymorphic_allocator<Key>>;  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/lib_extensions/pmr_container&action=edit&section=5 "Edit section: match results")] `match_results`
+### `match_results`
 
 Alias/alias template  |  Alias for   
 ---|---  

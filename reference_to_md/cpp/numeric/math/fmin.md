@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [Common mathematical functions](../math.html "cpp/numeric/math")
 
@@ -230,7 +230,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/navbar_content&action=edit)
+
 
 Defined in header `[<cmath>](../../header/cmath.html "cpp/header/cmath")` |  |   
 ---|---|---  
@@ -280,16 +280,16 @@ A) Additional overloads are provided for all integer types, which are treated as
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/fmin&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 x, y  |  \-  |  floating-point or integer values   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/fmin&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 If successful, returns the smaller of two floating point values. The value returned is exact and does not depend on any rounding modes. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/fmin&action=edit&section=3 "Edit section: Error handling")] Error handling
+### Error handling
 
 This function is not subject to any of the error conditions specified in [math_errhandling](math_errhandling.html "cpp/numeric/math/math errhandling"). 
 
@@ -300,7 +300,7 @@ If the implementation supports IEEE floating-point arithmetic (IEC 60559),
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/fmin&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 This function is not required to be sensitive to the sign of zero, although some implementations additionally enforce that if one argument is +0 and the other is -0, then -0 is returned. 
 
@@ -318,7 +318,7 @@ static_cast<float>(num2)).
 If num1 and num2 have arithmetic types, then std::fmin(num1, num2) has the same effect as std::fmin(static_cast</*common-floating-point-type*/>(num1),  
 static_cast</*common-floating-point-type*/>(num2)), where /*common-floating-point-type*/ is the floating-point type with the greatest [floating-point conversion rank](../../language/usual_arithmetic_conversions.html#Floating-point_conversion_rank "cpp/language/usual arithmetic conversions") and greatest [floating-point conversion subrank](../../language/usual_arithmetic_conversions.html#Floating-point_conversion_subrank "cpp/language/usual arithmetic conversions") between the types of num1 and num2, arguments of integer type are considered to have the same floating-point conversion rank as double. If no such floating-point type with the greatest rank and subrank exists, then [overload resolution](../../language/overload_resolution.html "cpp/language/overload resolution") does not result in a usable candidate from the overloads provided.  | (since C++23)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/fmin&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -340,19 +340,19 @@ Possible output:
     fmin(-Inf,0) = -inf
     fmin(NaN,-1) = -1
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/fmin&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ isless](isless.html "cpp/numeric/math/isless")(C++11) |  checks if the first floating-point argument is less than the second   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_isless&action=edit)  
+(function)   
 ---|---  
 [ fmaxfmaxffmaxl](fmax.html "cpp/numeric/math/fmax")(C++11)(C++11)(C++11) |  larger of two floating-point values   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_fmax&action=edit)  
+(function)   
 [ min](../../algorithm/min.html "cpp/algorithm/min") |  returns the smaller of the given values   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_min&action=edit)  
+(function template)   
 [ min_element](../../algorithm/min_element.html "cpp/algorithm/min element") |  returns the smallest element in a range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_min_element&action=edit)  
+(function template)   
 [ minmax](../../algorithm/minmax.html "cpp/algorithm/minmax")(C++11) |  returns the smaller and larger of two elements   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_minmax&action=edit)  
+(function template)   
 [ minmax_element](../../algorithm/minmax_element.html "cpp/algorithm/minmax element")(C++11) |  returns the smallest and the largest elements in a range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_minmax_element&action=edit)  
+(function template)   
 [C documentation](../../../c/numeric/math/fmin.html "c/numeric/math/fmin") for fmin

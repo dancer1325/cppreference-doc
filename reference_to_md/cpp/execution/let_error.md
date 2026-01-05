@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Execution control library](../experimental/execution.html "cpp/execution")
 
@@ -155,7 +155,7 @@ schedule_result_t](schedule.html "cpp/execution/schedule")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/execution/navbar_content&action=edit)
+
 
 Defined in header `[<execution>](../header/execution.html "cpp/header/execution")` |  |   
 ---|---|---  
@@ -164,17 +164,17 @@ let_error( execution::sender auto input,
 [std::invocable](../concepts/invocable.html)</*errors-sent-by*/(input)...> function ); |  |  (since C++26)  
 | |   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/execution/let_error&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 input  |  \-  |  sender which once an error occurs, sends the errors to the function   
 ---|---|---  
 function  |  \-  |  invocable to be called with errors in case an error occurs by input sender   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/execution/let_error&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Returns a sender describing the task graph described by the input sender, with an added node of invoking the provided function with errors sent by the input sender, if an error occurs. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/execution/let_error&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

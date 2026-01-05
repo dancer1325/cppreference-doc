@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Null-terminated byte strings](../byte.html "cpp/string/byte")
 
@@ -143,7 +143,7 @@
 | [strerror](strerror.html "cpp/string/byte/strerror")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/navbar_content&action=edit)
+
 
 Defined in header `[<cstring>](../../header/cstring.html "cpp/header/cstring")` |  |   
 ---|---|---  
@@ -172,24 +172,24 @@ If dest or src is a [null pointer](../../language/pointer.html#Null_pointers "cp
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/memmove&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 dest  |  \-  |  pointer to the memory location to copy to   
 ---|---|---  
 src  |  \-  |  pointer to the memory location to copy from   
 count  |  \-  |  number of bytes to copy   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/memmove&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 If there is a [suitable created object](../../language/objects.html#Object_creation "cpp/language/object"), returns a pointer to it; otherwise returns dest. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/memmove&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Despite the specification says a temporary buffer is used, actual implementations of this function do not incur the overhead of double copying or extra memory. For small count, it may load up and write out registers; for larger blocks, a common approach (glibc and bsd libc) is to copy bytes forwards from the beginning of the buffer if the destination starts before the source, and backwards from the end otherwise, with a fall back to [std::memcpy](memcpy.html "cpp/string/byte/memcpy") when there is no overlap at all. 
 
 Where [strict aliasing](../../language/objects.html#Strict_aliasing "cpp/language/object") prohibits examining the same memory as values of two different types, `std::memmove` may be used to convert the values. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/memmove&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -211,7 +211,7 @@ Output:
     1234567890
     1234456890
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/memmove&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -219,19 +219,19 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 4064](https://cplusplus.github.io/LWG/issue4064) | C++98  | it was unclear whether the returned pointer points to a suitable created object  | made clear   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/memmove&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ memcpy](memcpy.html "cpp/string/byte/memcpy") |  copies one buffer to another   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_memcpy&action=edit)  
+(function)   
 ---|---  
 [ memset](memset.html "cpp/string/byte/memset") |  fills a buffer with a character   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_memset&action=edit)  
+(function)   
 [ wmemmove](../wide/wmemmove.html "cpp/string/wide/wmemmove") |  copies a certain amount of wide characters between two, possibly overlapping, arrays   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wmemmove&action=edit)  
+(function)   
 [ copycopy_if](../../algorithm/copy.html "cpp/algorithm/copy")(C++11) |  copies a range of elements to a new location   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_copy&action=edit)  
+(function template)   
 [ copy_backward](../../algorithm/copy_backward.html "cpp/algorithm/copy backward") |  copies a range of elements in backwards order   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_copy_backward&action=edit)  
+(function template)   
 [ is_trivially_copyable](../../types/is_trivially_copyable.html "cpp/types/is trivially copyable")(C++11) |  checks if a type is trivially copyable   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_trivially_copyable&action=edit)  
+(class template)   
 [C documentation](../../../c/string/byte/memmove.html "c/string/byte/memmove") for memmove

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Execution control library](../experimental/execution.html "cpp/execution")
 
@@ -155,7 +155,7 @@ schedule_result_t](schedule.html "cpp/execution/schedule")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/execution/navbar_content&action=edit)
+
 
 Defined in header `[<execution>](../header/execution.html "cpp/header/execution")` |  |   
 ---|---|---  
@@ -190,7 +190,7 @@ auto bulk_unchunked( std::execution::sender auto input,
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/execution/bulk&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 input  |  \-  |  sender which once executed sends the values upon which the function executes   
 ---|---|---  
@@ -198,13 +198,13 @@ policy  |  \-  |  the [execution policy](../algorithm/execution_policy_tag_t.htm
 function  |  \-  |  invocable to be called for every index in range `[`​0​`, `size`)`, passing also the values produced by the input sender   
 function2  |  \-  |  same as function but called with a pair of indices `(`b`, `e`)`, with `b < e`, so that, for each index `i` in range `[`[0`, `size`)` there is exactly one call to function2 so that b <= i < e.   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/execution/bulk&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Returns a sender describing the task graph described by the input sender, with an added node of invoking the provided function with indices in range `[`​0​`, `size`)`, passing also the values sent by the input sender as arguments. 
 
 function/function2 is guaranteed to not begin executing until the returned sender is started. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/execution/bulk&action=edit&section=3 "Edit section: Error completions")] Error completions
+### Error completions
 
 All errors passed in by input are forwarded. 
 
@@ -216,11 +216,11 @@ In addition, the sender is allowed to complete with an [std::exception_ptr](../e
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/execution/bulk&action=edit&section=4 "Edit section: Cancellation")] Cancellation
+### Cancellation
 
 The uncustomized `std::execution::bulk`, `std::execution::bulk_chunk` and `std::execution::bulk_unchunked` forward the stopped completion signal from input. They do not provide additional mechanism to produce stopped completion signal. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/execution/bulk&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 When calling `std::execution::bulk` and `std::execution::bulk_chunked`, different invocations of function/function2 may happen on the same execution agent. 
 
@@ -234,7 +234,7 @@ Without a customization of `std::execution::bulk` and `std::execution::bulk_chun
 
 `std::execution::bulk_unchunked` does not require an execution policy, as is already expected for function to be able to run concurrently. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/execution/bulk&action=edit&section=6 "Edit section: Examples")] Examples
+### Examples
 
 Possible usage of `execution::bulk`. 
     

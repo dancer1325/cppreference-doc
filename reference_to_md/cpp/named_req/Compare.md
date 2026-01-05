@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ named requirements](../iterator/concepts.html "cpp/named req")
 
@@ -147,7 +147,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/named_req/navbar_content&action=edit)
+
 
 **Compare** is a set of requirements expected by some of the standard library facilities from the user-provided function object types. 
 
@@ -165,7 +165,7 @@ As with any [BinaryPredicate](BinaryPredicate.html "cpp/named req/BinaryPredicat
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/Compare&action=edit&section=1 "Edit section: Requirements")] Requirements
+### Requirements
 
 The type `T` satisfies Compare if 
 
@@ -204,97 +204,97 @@ equiv(a, b) | bool | Establishes [equivalence relationship](https://en.wikipedia
   
 Note: `comp` induces a [strict total ordering](https://en.wikipedia.org/wiki/Total_order#Strict_and_non-strict_total_orders "enwiki:Total order") on the equivalence classes determined by `equiv`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/Compare&action=edit&section=2 "Edit section: Standard library")] Standard library
+### Standard library
 
 The following standard library facilities expect a Compare type. 
 
 [ set](../container/set.html "cpp/container/set") |  collection of unique keys, sorted by keys   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_set&action=edit)  
+(class template)   
 ---|---  
 [ map](../container/map.html "cpp/container/map") |  collection of key-value pairs, sorted by keys, keys are unique   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_map&action=edit)  
+(class template)   
 [ multiset](../container/multiset.html "cpp/container/multiset") |  collection of keys, sorted by keys   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_multiset&action=edit)  
+(class template)   
 [ multimap](../container/multimap.html "cpp/container/multimap") |  collection of key-value pairs, sorted by keys   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_multimap&action=edit)  
+(class template)   
 [ priority_queue](../container/priority_queue.html "cpp/container/priority queue") |  adapts a container to provide priority queue   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_priority_queue&action=edit)  
+(class template)   
 [ sort](../algorithm/sort.html "cpp/algorithm/sort") |  sorts a range into ascending order   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_sort&action=edit)  
+(function template)   
 [ sort](../container/forward_list/sort.html "cpp/container/forward list/sort") |  sorts the elements   
-(public member function of `std::forward_list<T,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_sort&action=edit)  
+(public member function of `std::forward_list<T,Allocator>`)   
 [ sort](../container/list/sort.html "cpp/container/list/sort") |  sorts the elements   
-(public member function of `std::list<T,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_sort&action=edit)  
+(public member function of `std::list<T,Allocator>`)   
 [ stable_sort](../algorithm/stable_sort.html "cpp/algorithm/stable sort") |  sorts a range of elements while preserving order between equal elements   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_stable_sort&action=edit)  
+(function template)   
 [ partial_sort](../algorithm/partial_sort.html "cpp/algorithm/partial sort") |  sorts the first N elements of a range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_partial_sort&action=edit)  
+(function template)   
 [ partial_sort_copy](../algorithm/partial_sort_copy.html "cpp/algorithm/partial sort copy") |  copies and partially sorts a range of elements   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_partial_sort_copy&action=edit)  
+(function template)   
 [ is_sorted](../algorithm/is_sorted.html "cpp/algorithm/is sorted")(C++11) |  checks whether a range is sorted into ascending order   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_is_sorted&action=edit)  
+(function template)   
 [ is_sorted_until](../algorithm/is_sorted_until.html "cpp/algorithm/is sorted until")(C++11) |  finds the largest sorted subrange   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_is_sorted_until&action=edit)  
+(function template)   
 [ nth_element](../algorithm/nth_element.html "cpp/algorithm/nth element") |  partially sorts the given range making sure that it is partitioned by the given element   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_nth_element&action=edit)  
+(function template)   
 [ lower_bound](../algorithm/lower_bound.html "cpp/algorithm/lower bound") |  returns an iterator to the first element _not less_ than the given value   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_lower_bound&action=edit)  
+(function template)   
 [ upper_bound](../algorithm/upper_bound.html "cpp/algorithm/upper bound") |  returns an iterator to the first element _greater_ than a certain value   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_upper_bound&action=edit)  
+(function template)   
 [ binary_search](../algorithm/binary_search.html "cpp/algorithm/binary search") |  determines if an element exists in a partially-ordered range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_binary_search&action=edit)  
+(function template)   
 [ equal_range](../algorithm/equal_range.html "cpp/algorithm/equal range") |  returns range of elements matching a specific key   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_equal_range&action=edit)  
+(function template)   
 [ merge](../algorithm/merge.html "cpp/algorithm/merge") |  merges two sorted ranges   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_merge&action=edit)  
+(function template)   
 [ merge](../container/forward_list/merge.html "cpp/container/forward list/merge") |  merges two sorted lists   
-(public member function of `std::forward_list<T,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_merge&action=edit)  
+(public member function of `std::forward_list<T,Allocator>`)   
 [ merge](../container/list/merge.html "cpp/container/list/merge") |  merges two sorted lists   
-(public member function of `std::list<T,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_merge&action=edit)  
+(public member function of `std::list<T,Allocator>`)   
 [ inplace_merge](../algorithm/inplace_merge.html "cpp/algorithm/inplace merge") |  merges two ordered ranges in-place   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_inplace_merge&action=edit)  
+(function template)   
 [ includes](../algorithm/includes.html "cpp/algorithm/includes") |  returns true if one sequence is a subsequence of another   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_includes&action=edit)  
+(function template)   
 [ set_difference](../algorithm/set_difference.html "cpp/algorithm/set difference") |  computes the difference between two sets   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_set_difference&action=edit)  
+(function template)   
 [ set_intersection](../algorithm/set_intersection.html "cpp/algorithm/set intersection") |  computes the intersection of two sets   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_set_intersection&action=edit)  
+(function template)   
 [ set_symmetric_difference](../algorithm/set_symmetric_difference.html "cpp/algorithm/set symmetric difference") |  computes the symmetric difference between two sets   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_set_symmetric_difference&action=edit)  
+(function template)   
 [ set_union](../algorithm/set_union.html "cpp/algorithm/set union") |  computes the union of two sets   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_set_union&action=edit)  
+(function template)   
 [ push_heap](../algorithm/push_heap.html "cpp/algorithm/push heap") |  adds an element to a max heap   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_push_heap&action=edit)  
+(function template)   
 [ pop_heap](../algorithm/pop_heap.html "cpp/algorithm/pop heap") |  removes the largest element from a max heap   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_pop_heap&action=edit)  
+(function template)   
 [ make_heap](../algorithm/make_heap.html "cpp/algorithm/make heap") |  creates a max heap out of a range of elements   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_make_heap&action=edit)  
+(function template)   
 [ sort_heap](../algorithm/sort_heap.html "cpp/algorithm/sort heap") |  turns a max heap into a range of elements sorted in ascending order   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_sort_heap&action=edit)  
+(function template)   
 [ is_heap](../algorithm/is_heap.html "cpp/algorithm/is heap")(C++11) |  checks if the given range is a max heap   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_is_heap&action=edit)  
+(function template)   
 [ is_heap_until](../algorithm/is_heap_until.html "cpp/algorithm/is heap until")(C++11) |  finds the largest subrange that is a max heap   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_is_heap_until&action=edit)  
+(function template)   
 [ max](../algorithm/max.html "cpp/algorithm/max") |  returns the greater of the given values   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_max&action=edit)  
+(function template)   
 [ max_element](../algorithm/max_element.html "cpp/algorithm/max element") |  returns the largest element in a range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_max_element&action=edit)  
+(function template)   
 [ min](../algorithm/min.html "cpp/algorithm/min") |  returns the smaller of the given values   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_min&action=edit)  
+(function template)   
 [ min_element](../algorithm/min_element.html "cpp/algorithm/min element") |  returns the smallest element in a range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_min_element&action=edit)  
+(function template)   
 [ minmax](../algorithm/minmax.html "cpp/algorithm/minmax")(C++11) |  returns the smaller and larger of two elements   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_minmax&action=edit)  
+(function template)   
 [ minmax_element](../algorithm/minmax_element.html "cpp/algorithm/minmax element")(C++11) |  returns the smallest and the largest elements in a range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_minmax_element&action=edit)  
+(function template)   
 [ lexicographical_compare](../algorithm/lexicographical_compare.html "cpp/algorithm/lexicographical compare") |  returns true if one range is lexicographically less than another   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_lexicographical_compare&action=edit)  
+(function template)   
 [ next_permutation](../algorithm/next_permutation.html "cpp/algorithm/next permutation") |  generates the next greater lexicographic permutation of a range of elements   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_next_permutation&action=edit)  
+(function template)   
 [ prev_permutation](../algorithm/prev_permutation.html "cpp/algorithm/prev permutation") |  generates the next smaller lexicographic permutation of a range of elements   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_prev_permutation&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/Compare&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -305,9 +305,9 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 reflect the practice of implementations  | requirements corrected   
 [LWG 3031](https://cplusplus.github.io/LWG/issue3031) | C++98  | requirements on const values were insufficent  | requirements strengthened   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/Compare&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ strict_weak_order](../concepts/strict_weak_order.html "cpp/concepts/strict weak order")(C++20) |  specifies that a [`relation`](../concepts/relation.html "cpp/concepts/relation") imposes a strict weak ordering   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_strict_weak_order&action=edit)  
+(concept)   
 ---|---  
 [**Comparison operators**](../language/operator_comparison.html "cpp/language/operator comparison") |  `<`, `<=`, `>`, `>=`, `==`, `!=`, and `<=>` (C++20), compare the arguments 

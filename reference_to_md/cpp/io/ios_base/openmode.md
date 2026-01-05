@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::ios_base`](../ios_base.html "cpp/io/ios base")
 
@@ -113,7 +113,7 @@ Member types
 [ios_base::event](event.html "cpp/io/ios base/event")  
 [ios_base::event_callback](event_callback.html "cpp/io/ios base/event callback")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/ios_base/navbar_content&action=edit)
+
 
 typedef /* implementation defined */ openmode; |  |   
 ---|---|---  
@@ -138,7 +138,7 @@ Constant  |  Explanation
 **`ate`** |  seek to the end of stream immediately after open   
 **`noreplace`** (C++23) |  open in exclusive mode   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/ios_base/openmode&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -164,10 +164,10 @@ Output:
     
     Hi
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/ios_base/openmode&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ open](../basic_filebuf/open.html "cpp/io/basic filebuf/open") |  opens a file and configures it as the associated character sequence   
-(public member function of `std::basic_filebuf<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_filebuf/dsc_open&action=edit)  
+(public member function of `std::basic_filebuf<CharT,Traits>`)   
 ---|---  
 [ (constructor)](../basic_stringbuf/basic_stringbuf.html "cpp/io/basic stringbuf/basic stringbuf") |  constructs a `basic_stringbuf` object   
-(public member function of `std::basic_stringbuf<CharT,Traits,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_stringbuf/dsc_constructor&action=edit)
+(public member function of `std::basic_stringbuf<CharT,Traits,Allocator>`) 

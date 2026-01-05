@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Ranges](../../ranges.html "cpp/experimental/ranges")
 
@@ -66,7 +66,7 @@
 [Ranges](../../ranges.html#Ranges "cpp/experimental/ranges")  
 [Algorithms](../../ranges.html#Algorithms "cpp/experimental/ranges")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/navbar_content&action=edit)
+
 
 [General utilities library](../../ranges.html#General_utilities "cpp/experimental/ranges")
 
@@ -125,7 +125,7 @@ Tagged pairs and tuples
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/utility/navbar_content&action=edit)
+
 
 Defined in header `[<experimental/ranges/type_traits>](../../../header/experimental/ranges/type_traits.html "cpp/header/experimental/ranges/type traits")` |  |   
 ---|---|---  
@@ -163,7 +163,7 @@ struct is_nothrow_swappable; |  (4)  |  (ranges TS)
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/type_traits/is_swappable&action=edit&section=1 "Edit section: Helper variable templates")] Helper variable templates
+### Helper variable templates
 
 template< class T, class U >  
 constexpr bool is_swappable_with_v = is_swappable_with<T, U>::value; |  (1)  |  (ranges TS)  
@@ -176,7 +176,7 @@ template< class T >
 constexpr bool is_nothrow_swappable_v = is_nothrow_swappable<T>::value; |  (4)  |  (ranges TS)  
 | |   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/integral_constant/inherit2&action=edit)
+
 
 ##  Inherited from [ std::integral_constant](../../../types/integral_constant.html "cpp/types/integral constant")
 
@@ -201,20 +201,20 @@ Type  |  Definition
 `value_type` |  bool  
 `type` |  [std::integral_constant](../../../types/integral_constant.html)<bool, value>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/type_traits/is_swappable&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 This trait does not check anything outside the immediate context of the swap expressions: if the use of `T` or `U` would trigger template specializations, generation of implicitly-defined special member functions etc, and those have errors, the actual swap may not compile even if `ranges::is_swappable_with<T,U>::value` compiles and evaluates to true. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/type_traits/is_swappable&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/type_traits/is_swappable&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ SwappableSwappableWith](../concepts/Swappable.html "cpp/experimental/ranges/concepts/Swappable") |  specifies that a type can be swapped or that two types can be swapped with each other   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/concepts/dsc_Swappable&action=edit)  
+(concept)   
 ---|---  
 [ is_swappable_withis_swappableis_nothrow_swappable_withis_nothrow_swappable](../../../types/is_swappable.html "cpp/types/is swappable")(C++17)(C++17)(C++17)(C++17) |  checks if objects of a type can be swapped with objects of same or different type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_swappable&action=edit)
+(class template) 

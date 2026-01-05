@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::shared_ptr`](../shared_ptr.html "cpp/memory/shared ptr")
 
@@ -220,7 +220,7 @@ Helper classes
 [hash<std::shared_ptr>](hash.html "cpp/memory/shared ptr/hash")  
 [Deduction guides](deduction_guides.html "cpp/memory/shared ptr/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/navbar_content&action=edit)
+
 
 Defined in header `[<memory>](../../header/memory.html "cpp/header/memory")` |  |   
 ---|---|---  
@@ -280,16 +280,16 @@ After calling the rvalue overloads (2,4,6,8), r is empty and r.get() == nullptr,
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/pointer_cast&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 r  |  \-  |  the pointer to convert   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/pointer_cast&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 The expressions [std::shared_ptr](../shared_ptr.html)<T>(static_cast<T*>(r.get())), [std::shared_ptr](../shared_ptr.html)<T>(dynamic_cast<T*>(r.get())) and [std::shared_ptr](../shared_ptr.html)<T>(const_cast<T*>(r.get())) might seem to have the same effect, but they all will likely result in undefined behavior, attempting to delete the same object twice! 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/pointer_cast&action=edit&section=3 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
 
 [static_pointer_cast](pointer_cast.html#Version_1)  
 ---  
@@ -334,7 +334,7 @@ The expressions [std::shared_ptr](../shared_ptr.html)<T>(static_cast<T*>(r.get()
         return [std::shared_ptr](../shared_ptr.html)<T>{r, p};
     }  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/pointer_cast&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -395,8 +395,8 @@ Output:
     Downcasted pointer says: I am derived!
     Pointers to underlying derived: 3
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/pointer_cast&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ (constructor)](shared_ptr.html "cpp/memory/shared ptr/shared ptr") |  constructs new `shared_ptr`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/dsc_constructor&action=edit)  
+(public member function)   
 ---|---

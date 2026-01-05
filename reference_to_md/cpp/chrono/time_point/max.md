@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::time_point`](../time_point.html "cpp/chrono/time point")
 
@@ -124,7 +124,7 @@ Helper classes
 [common_type](common_type.html "cpp/chrono/time point/common type")  
 [hash<std::chrono::time_point>](hash.html "cpp/chrono/time point/hash")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_point/navbar_content&action=edit)
+
 
 static constexpr time_point max(); |  | (until C++20)  
 ---|---|---  
@@ -133,15 +133,15 @@ static constexpr time_point max() noexcept; |  |  (since C++20)
   
 Returns a `time_point` with the largest possible duration, i.e. time_point(duration::max()). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/time_point/max&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/time_point/max&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The largest possible `time_point`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/time_point/max&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     

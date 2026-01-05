@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../../iterator.html "cpp/iterator")
 
@@ -196,7 +196,7 @@
 [empty](../empty.html "cpp/iterator/empty")(C++17)  
 [data](../data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 [`std::insert_iterator`](../insert_iterator.html "cpp/iterator/insert iterator")
 
@@ -207,7 +207,7 @@ Member functions
 [insert_iterator::operator*](operator*.html "cpp/iterator/insert iterator/operator*")  
 [insert_iterator::operator++insert_iterator::operator++(int)](operator++.html "cpp/iterator/insert iterator/operator++")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/insert_iterator/navbar_content&action=edit)
+
 
 | (1) |   
 ---|---|---  
@@ -242,12 +242,12 @@ Inserts the given value value to the container.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/inserter/operator%3D&action=edit&section=T-1 "Template:cpp/iterator/inserter/operator=")] Parameters
+### Parameters
 
 value  |  \-  |  the value to insert   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/inserter/operator%3D&action=edit&section=T-2 "Template:cpp/iterator/inserter/operator=")] Return value
+### Return value
 
 *this
 
@@ -255,7 +255,7 @@ value  |  \-  |  the value to insert
 
 This function exploits the signature compatibility between hinted insert for associative containers (such as [std::set::insert](../../container/set/insert.html "cpp/container/set/insert")) and positional insert for sequential containers (such as [std::vector::insert](../../container/vector/insert.html "cpp/container/vector/insert")). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/inserter/operator%3D&action=edit&section=T-4 "Template:cpp/iterator/inserter/operator=")] Example
+### Example
 
 Run this code
     

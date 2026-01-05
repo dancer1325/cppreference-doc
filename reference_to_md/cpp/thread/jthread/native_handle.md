@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -175,7 +175,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::jthread`](../jthread.html "cpp/thread/jthread")
 
@@ -200,7 +200,7 @@ Stop token handling
 Non-member functions  
 [swap(std::jthread)](swap2.html "cpp/thread/jthread/swap2")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/jthread/navbar_content&action=edit)
+
 
 native_handle_type native_handle(); |  |  (since C++20)   
 (not always present)  
@@ -219,19 +219,19 @@ Returns the implementation defined underlying thread handle.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/native_handle&action=edit&section=T-1 "Template:cpp/thread/thread/native handle")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/native_handle&action=edit&section=T-2 "Template:cpp/thread/thread/native handle")] Return value
+### Return value
 
 Implementation defined handle type representing the thread. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/impldef_exception&action=edit&section=T-1 "Template:cpp/impldef exception")] Exceptions
+### Exceptions
 
 May throw implementation-defined exceptions. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/native_handle&action=edit&section=T-3 "Template:cpp/thread/thread/native handle")] Example
+### Example
 
 Uses `native_handle` to enable realtime scheduling of C++ threads on a POSIX system.
 

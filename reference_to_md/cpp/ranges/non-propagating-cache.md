@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 template< class T >  
 requires [std::is_object_v](../types/is_object.html)<T>  
@@ -263,12 +263,12 @@ The wrapper encapsulates a cache containing a value. Clearing cache is an operat
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/non-propagating-cache&action=edit&section=1 "Edit section: Template parameters")] Template parameters
+### Template parameters
 
 T  |  \-  |  the type of the contained value, must be an object type   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/non-propagating-cache&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 ##  Copy and move constructors
 
@@ -325,41 +325,41 @@ The program is ill-formed unless the declaration T t(*i); is well-formed for som
 ###  Member functions
 
 [ (constructor)](../utility/optional/optional.html "cpp/utility/optional/optional") |  constructs the `optional` object   
-(public member function of `std::optional<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/dsc_constructor&action=edit)  
+(public member function of `std::optional<T>`)   
 ---|---  
 [ (destructor)](../utility/optional/~optional.html "cpp/utility/optional/~optional") |  destroys the contained value, if there is one   
-(public member function of `std::optional<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/dsc_destructor&action=edit)  
+(public member function of `std::optional<T>`)   
 [ operator=](../utility/optional/operator=.html "cpp/utility/optional/operator=") |  assigns contents   
-(public member function of `std::optional<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/dsc_operator%3D&action=edit)  
+(public member function of `std::optional<T>`)   
   
 #####  Observers   
   
 [ operator->operator*](../utility/optional/operator*.html "cpp/utility/optional/operator*") |  accesses the contained value   
-(public member function of `std::optional<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/dsc_operator*&action=edit)  
+(public member function of `std::optional<T>`)   
 [ operator boolhas_value](../utility/optional/operator_bool.html "cpp/utility/optional/operator bool") |  checks whether the object contains a value   
-(public member function of `std::optional<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/dsc_operator_bool&action=edit)  
+(public member function of `std::optional<T>`)   
   
 #####  Modifiers   
   
 [ reset](../utility/optional/reset.html "cpp/utility/optional/reset") |  destroys any contained value   
-(public member function of `std::optional<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/dsc_reset&action=edit)  
+(public member function of `std::optional<T>`)   
 [ emplace](../utility/optional/emplace.html "cpp/utility/optional/emplace") |  constructs the contained value in-place   
-(public member function of `std::optional<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/dsc_emplace&action=edit)  
+(public member function of `std::optional<T>`)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/non-propagating-cache&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 `_non-propagating-cache_` is used in implementations to cache the result of begin() to provide an amortized constant time complexity of the method. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/non-propagating-cache&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ ranges::join_viewviews::join](join_view.html "cpp/ranges/join view")(C++20) |  a [`view`](view.html "cpp/ranges/view") consisting of the sequence obtained from flattening a [`view`](view.html "cpp/ranges/view") of [`range`s](range.html "cpp/ranges/range")  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_join_view&action=edit)  
+(class template) (range adaptor object)  
 ---|---  
 [ ranges::join_with_viewviews::join_with](join_with_view.html "cpp/ranges/join with view")(C++23) |  a [`view`](view.html "cpp/ranges/view") consisting of the sequence obtained from flattening a view of ranges, with the delimiter in between elements  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_join_with_view&action=edit)  
+(class template) (range adaptor object)  
 [ ranges::split_viewviews::split](split_view.html "cpp/ranges/split view")(C++20) |  a [`view`](view.html "cpp/ranges/view") over the subranges obtained from splitting another [`view`](view.html "cpp/ranges/view") using a delimiter  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_split_view&action=edit)  
+(class template) (range adaptor object)  
 [ ranges::lazy_split_viewviews::lazy_split](lazy_split_view.html "cpp/ranges/lazy split view")(C++20) |  a [`view`](view.html "cpp/ranges/view") over the subranges obtained from splitting another [`view`](view.html "cpp/ranges/view") using a delimiter  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_lazy_split_view&action=edit)  
+(class template) (range adaptor object)  
 [ ranges::chunk_viewviews::chunk](chunk_view.html "cpp/ranges/chunk view")(C++23) |  a range of [`view`s](view.html "cpp/ranges/view") that are `N`-sized non-overlapping successive chunks of the elements of another [`view`](view.html "cpp/ranges/view")  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_chunk_view&action=edit)
+(class template) (range adaptor object)

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_stringbuf`](../basic_stringbuf.html "cpp/io/basic stringbuf")
 
@@ -101,7 +101,7 @@ Non-member functions
 Exposition-only member functions  
 **basic_stringbuf::_init_buf_ptrs_**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_stringbuf/navbar_content&action=edit)
+
 
 void init_buf_ptrs(); |  |  (exposition only*)  
 ---|---|---  
@@ -118,13 +118,13 @@ Immediately after this function returns:
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_stringbuf/init_buf_ptrs&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 For efficiency reasons, stream buffer operations can violate invariants of buf while it is held encapsulated in the `std::basic_stringbuf`, e.g., by writing to characters in the range `[`buf.data() + buf.size()`, `buf.data() + buf.capacity()`)`. 
 
 All operations retrieving a [std::basic_string](../../string/basic_string.html "cpp/string/basic string") from buf ensure that the [std::basic_string](../../string/basic_string.html "cpp/string/basic string") invariants hold on the returned value. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_stringbuf/init_buf_ptrs&action=edit&section=2 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

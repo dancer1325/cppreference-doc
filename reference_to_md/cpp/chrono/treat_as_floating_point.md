@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::duration`](duration.html "cpp/chrono/duration")
 
@@ -156,7 +156,7 @@ Helper classes
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/duration/navbar_content&action=edit)
+
 
 Defined in header `[<chrono>](../header/chrono.html "cpp/header/chrono")` |  |   
 ---|---|---  
@@ -178,18 +178,18 @@ Implicit conversions between two durations normally depends on the tick period o
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/treat_as_floating_point&action=edit&section=1 "Edit section: Helper variable template")] Helper variable template
+### Helper variable template
 
 template< class Rep >  
 constexpr bool treat_as_floating_point_v = treat_as_floating_point<Rep>::value; |  |  (since C++17)  
 ---|---|---  
 | |   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/treat_as_floating_point&action=edit&section=2 "Edit section: Specializations")] Specializations
+### Specializations
 
 `std::chrono::treat_as_floating_point` may be specialized for program-defined types. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/treat_as_floating_point&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -243,6 +243,6 @@ Possible output:
       Time in milliseconds, using default rep: 2
       Time in milliseconds, using floating point rep: 2.57307
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/treat_as_floating_point&action=edit&section=4 "Edit section: See also")] See also  
+### See also  
   
 ---

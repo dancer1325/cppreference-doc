@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](../empty.html "cpp/iterator/empty")(C++17)  
 [data](../data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 Defined in header `[<iterator>](../../header/iterator.html "cpp/header/iterator")` |  |   
 ---|---|---  
@@ -242,18 +242,18 @@ ranges::iter_swap(i1, i2) is [expression-equivalent](../../language/expressions.
 
 The name `ranges::iter_swap` denotes a _customization point object_ , which is a const [function object](../../named_req/FunctionObject.html "cpp/named req/FunctionObject") of a [literal](../../named_req/LiteralType.html "cpp/named req/LiteralType") [`semiregular`](../../concepts/semiregular.html "cpp/concepts/semiregular") class type. See [CustomizationPointObject](../../named_req/CustomizationPointObject.html "cpp/named req/CustomizationPointObject") for details. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/ranges/iter_swap&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/ranges/iter_swap&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ iter_swap](../reverse_iterator/iter_swap.html "cpp/iterator/reverse iterator/iter swap")(C++20) |  swaps the objects pointed to by two adjusted underlying iterators   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_iter_swap&action=edit)  
+(function template)   
 ---|---  
 [ iter_swap](../move_iterator/iter_swap.html "cpp/iterator/move iterator/iter swap")(C++20) |  swaps the objects pointed to by two underlying iterators   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_iter_swap&action=edit)  
+(function template)   
 [ iter_swap](../../algorithm/iter_swap.html "cpp/algorithm/iter swap") |  swaps the elements pointed to by two iterators   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_iter_swap&action=edit)
+(function template) 

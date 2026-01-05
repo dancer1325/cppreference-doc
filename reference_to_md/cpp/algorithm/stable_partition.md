@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](ranges/copy.html "cpp/algorithm/ra
 [uninitialized_default_construct_n](../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -342,7 +342,7 @@ If any of the following conditions is satisfied, the behavior is undefined:
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/stable_partition&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  the pair of iterators defining the [range](../iterator.html#Ranges "cpp/iterator") of elements to reorder   
 ---|---|---  
@@ -353,11 +353,11 @@ Type requirements
 -`BidirIt` must meet the requirements of [LegacyBidirectionalIterator](../named_req/BidirectionalIterator.html "cpp/named req/BidirectionalIterator").   
 -`UnaryPred` must meet the requirements of [Predicate](../named_req/Predicate.html "cpp/named req/Predicate").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/stable_partition&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Iterator to the first element of the second group. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/stable_partition&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Given \\(\scriptsize N\\)N as [std::distance](../iterator/distance.html)(first, last): 
 
@@ -369,7 +369,7 @@ Given \\(\scriptsize N\\)N as [std::distance](../iterator/distance.html)(first, 
 
 \\(\scriptsize N \cdot log(N)\\)N⋅log(N) swaps.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/stable_partition&action=edit&section=4 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 The overload with a template parameter named `ExecutionPolicy` reports errors as follows: 
 
@@ -378,7 +378,7 @@ The overload with a template parameter named `ExecutionPolicy` reports errors as
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/stable_partition&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 This function attempts to allocate a temporary buffer. If the allocation fails, the less efficient algorithm is chosen. 
 
@@ -388,7 +388,7 @@ Implementations in [libc++](https://github.com/llvm/llvm-project/blob/eda14ebf6a
 ---|---|---|---  
 [`__cpp_lib_constexpr_algorithms`](../experimental/feature_test.html#cpp_lib_constexpr_algorithms "cpp/feature test") | [`202306L`](../compiler_support/26.html#cpp_lib_constexpr_algorithms_202306L "cpp/compiler support/26") | (C++26) | constexpr stable sorting ([1](stable_partition.html#Version_1))  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/stable_partition&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -411,7 +411,7 @@ Output:
     
     3 2 4 5 7 0 0 -1 0
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/stable_partition&action=edit&section=7 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -421,12 +421,12 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 element satisfying p before one element not satisfying p | corrected the  
 requirement   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/stable_partition&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [ partition](partition.html "cpp/algorithm/partition") |  divides a range of elements into two groups   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_partition&action=edit)  
+(function template)   
 ---|---  
 [ ranges::stable_partition](ranges/stable_partition.html "cpp/algorithm/ranges/stable partition")(C++20) |  divides elements into two groups while preserving their relative order  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_stable_partition&action=edit)
+(algorithm function object)
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](ranges/copy.html "cpp/algorithm/ra
 [uninitialized_default_construct_n](../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -374,7 +374,7 @@ Given `T` as the value type of `InputIt`, if overload (1) or (3) does **not** sa
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/unique_copy&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  the pair of iterators defining the source [range](../iterator.html#Ranges "cpp/iterator") of elements to process   
 ---|---|---  
@@ -388,11 +388,11 @@ Type requirements
 -`OutputIt` must meet the requirements of [LegacyOutputIterator](../named_req/OutputIterator.html "cpp/named req/OutputIterator").   
 -`ForwardIt1, ForwardIt2` must meet the requirements of [LegacyForwardIterator](../named_req/ForwardIterator.html "cpp/named req/ForwardIterator").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/unique_copy&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Output iterator to the element past the last written element. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/unique_copy&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Given \\(\scriptsize N\\)N as [std::distance](../iterator/distance.html)(first, last): 
 
@@ -402,7 +402,7 @@ Given \\(\scriptsize N\\)N as [std::distance](../iterator/distance.html)(first, 
 
 For overloads (2,4), there may be a performance cost if the value type of `ForwardIt1` is not both [CopyConstructible](../named_req/CopyConstructible.html "cpp/named req/CopyConstructible") and [CopyAssignable](../named_req/CopyAssignable.html "cpp/named req/CopyAssignable"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/unique_copy&action=edit&section=4 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 The overloads with a template parameter named `ExecutionPolicy` report errors as follows: 
 
@@ -411,11 +411,11 @@ The overloads with a template parameter named `ExecutionPolicy` report errors as
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/unique_copy&action=edit&section=5 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
 
 See also the implementations in [libstdc++](https://github.com/gcc-mirror/gcc/blob/d9375e490072d1aae73a93949aa158fcd2a27018/libstdc%2B%2B-v3/include/bits/stl_algo.h#L1046) and [libc++](https://github.com/llvm-mirror/libcxx/blob/a12cb9d211019d99b5875b6d8034617cbc24c2cc/include/algorithm#L2177). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/unique_copy&action=edit&section=6 "Edit section: Notes")] Notes
+### Notes
 
 If `InputIt` satisfies [LegacyForwardIterator](../named_req/ForwardIterator.html "cpp/named req/ForwardIterator"), this function rereads the input in order to detect duplicates. 
 
@@ -423,7 +423,7 @@ Otherwise, if `OutputIt` satisfies [LegacyForwardIterator](../named_req/ForwardI
 
 Otherwise, this function compares *first to a local element copy. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/unique_copy&action=edit&section=7 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -451,7 +451,7 @@ Output:
     Before: A string with mmmany letters!
     After:  A string with many letters!
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/unique_copy&action=edit&section=8 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -464,14 +464,14 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [LWG 2439](https://cplusplus.github.io/LWG/issue2439) | C++98  | the value type of `InputIt` was not required to be  
 [CopyConstructible](../named_req/CopyConstructible.html "cpp/named req/CopyConstructible") if `OutputIt` is a [LegacyForwardIterator](../named_req/ForwardIterator.html "cpp/named req/ForwardIterator") | conditionally required   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/unique_copy&action=edit&section=9 "Edit section: See also")] See also
+### See also
 
 [ adjacent_find](adjacent_find.html "cpp/algorithm/adjacent find") |  finds the first two adjacent items that are equal (or satisfy a given predicate)   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_adjacent_find&action=edit)  
+(function template)   
 ---|---  
 [ unique](unique.html "cpp/algorithm/unique") |  removes consecutive duplicate elements in a range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_unique&action=edit)  
+(function template)   
 [ copycopy_if](copy.html "cpp/algorithm/copy")(C++11) |  copies a range of elements to a new location   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_copy&action=edit)  
+(function template)   
 [ ranges::unique_copy](ranges/unique_copy.html "cpp/algorithm/ranges/unique copy")(C++20) |  creates a copy of some range of elements that contains no consecutive duplicates  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_unique_copy&action=edit)
+(algorithm function object)

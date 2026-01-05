@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Strings library](../../string.html "cpp/string")
 
@@ -40,7 +40,7 @@ Classes
 [basic_string_view](../basic_string_view.html "cpp/string/basic string view")(C++17)  
 [char_traits](../char_traits.html "cpp/string/char traits")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/navbar_content&action=edit)
+
 
 [`std::basic_string_view`](../basic_string_view.html "cpp/string/basic string view")
 
@@ -92,7 +92,7 @@ Constants
 [hash<std::string_view>hash<std::wstring_view>hash<std::u8string_view>hash<std::u16string_view>hash<std::u32string_view>](hash.html "cpp/string/basic string view/hash")(C++20)  
 [Deduction guides](deduction_guides.html "cpp/string/basic string view/deduction guides") (C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/navbar_content&action=edit)
+
 
 Defined in header `[<string_view>](../../header/string_view.html "cpp/header/string view")` |  |   
 ---|---|---  
@@ -131,17 +131,17 @@ Forms a string view of a character literal.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string_view/operator%22%22sv&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 str  |  \-  |  pointer to the beginning of the raw character array literal   
 ---|---|---  
 len  |  \-  |  length of the raw character array literal   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string_view/operator%22%22sv&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The [std::basic_string_view](../basic_string_view.html "cpp/string/basic string view") literal. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string_view/operator%22%22sv&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 These operators are declared in the namespace `std::literals::string_view_literals`, where both `literals` and `string_view_literals` are inline namespaces. Access to these operators can be gained with any of: 
 
@@ -151,7 +151,7 @@ These operators are declared in the namespace `std::literals::string_view_litera
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string_view/operator%22%22sv&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -208,10 +208,10 @@ Possible output:
     sizeof char32_t: 4
     sizeof wchar_t: 4
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string_view/operator%22%22sv&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ (constructor)](basic_string_view.html "cpp/string/basic string view/basic string view") |  constructs a `basic_string_view`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ operator""s](../basic_string/operator""s.html "cpp/string/basic string/operator""s")(C++14) |  converts a character array literal to `basic_string`   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_operator%22%22s&action=edit)
+(function) 

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Variadic functions](../variadic.html "cpp/utility/variadic")
 
@@ -139,7 +139,7 @@ Common vocabulary types
 [va_end](va_end.html "cpp/utility/variadic/va end")  
 [va_list](va_list.html "cpp/utility/variadic/va list")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variadic/navbar_content&action=edit)
+
 
 Defined in header `[<cstdarg>](../../header/cstdarg.html "cpp/header/cstdarg")` |  |   
 ---|---|---  
@@ -160,17 +160,17 @@ The `va_copy` macro copies src to dest.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variadic/va_copy&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 dest  |  \-  |  an instance of the [va_list](va_list.html "cpp/utility/variadic/va list") type to initialize   
 ---|---|---  
 src  |  \-  |  the source [va_list](va_list.html "cpp/utility/variadic/va list") that will be used to initialize dest  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variadic/va_copy&action=edit&section=2 "Edit section: Expanded value")] Expanded value
+### Expanded value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variadic/va_copy&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -214,13 +214,13 @@ Output:
     
     0.920258
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variadic/va_copy&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ va_start](va_start.html "cpp/utility/variadic/va start") |  enables access to variadic function arguments   
-(function macro) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variadic/dsc_va_start&action=edit)  
+(function macro)   
 ---|---  
 [ va_arg](va_arg.html "cpp/utility/variadic/va arg") |  accesses the next variadic function argument   
-(function macro) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variadic/dsc_va_arg&action=edit)  
+(function macro)   
 [ va_end](va_end.html "cpp/utility/variadic/va end") |  ends traversal of the variadic function arguments   
-(function macro) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variadic/dsc_va_end&action=edit)  
+(function macro)   
 [C documentation](../../../c/variadic/va_copy.html "c/variadic/va copy") for va_copy

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Metaprogramming library](../meta.html "cpp/meta")
 
@@ -167,7 +167,7 @@ Type transformations
 Compile-time integer sequences  
 [integer_sequence](../utility/integer_sequence.html "cpp/utility/integer sequence")(C++14)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/meta/navbar_content&action=edit)
+
 
 Defined in header `[<type_traits>](../header/type_traits.html "cpp/header/type traits")` |  |   
 ---|---|---  
@@ -191,20 +191,20 @@ If the program adds specializations for `std::remove_cvref`, the behavior is und
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/remove_cvref&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Name  |  Definition   
 ---|---  
 `type` |  the type referred by `T` or `T` itself if it is not a reference, with top-level cv-qualifiers removed   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/remove_cvref&action=edit&section=2 "Edit section: Helper types")] Helper types
+### Helper types
 
 template< class T >  
 using remove_cvref_t = remove_cvref<T>::type; |  |  (since C++20)  
 ---|---|---  
 | |   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/remove_cvref&action=edit&section=3 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     template<class T>
@@ -215,13 +215,13 @@ using remove_cvref_t = remove_cvref<T>::type; |  |  (since C++20)
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/remove_cvref&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../utility/feature_test.html "cpp/utility/feature test") macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_remove_cvref`](../experimental/feature_test.html#cpp_lib_remove_cvref "cpp/feature test") | [`201711L`](../compiler_support/20.html#cpp_lib_remove_cvref_201711L "cpp/compiler support/20") | (C++20) | `std::remove_cvref`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/remove_cvref&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -239,14 +239,14 @@ Run this code
         static_assert([std::is_same_v](is_same.html)<std::remove_cvref_t<int(int)>, int(int)>);
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/remove_cvref&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ remove_cvremove_constremove_volatile](remove_cv.html "cpp/types/remove cv")(C++11)(C++11)(C++11) |  removes const and/or volatile specifiers from the given type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_remove_cv&action=edit)  
+(class template)   
 ---|---  
 [ remove_reference](remove_reference.html "cpp/types/remove reference")(C++11) |  removes a reference from the given type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_remove_reference&action=edit)  
+(class template)   
 [ decay](decay.html "cpp/types/decay")(C++11) |  applies type transformations as when passing a function argument by value   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_decay&action=edit)
+(class template) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

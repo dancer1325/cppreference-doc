@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](ranges/copy.html "cpp/algorithm/ra
 [uninitialized_default_construct_n](../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -378,7 +378,7 @@ These overloads participate in overload resolution only if all following conditi
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/mismatch&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first1, last1  |  \-  |  the pair of iterators defining the first [range](../iterator.html#Ranges "cpp/iterator") of elements to compare   
 ---|---|---  
@@ -394,7 +394,7 @@ Type requirements
 -`ForwardIt2` must meet the requirements of [LegacyForwardIterator](../named_req/ForwardIterator.html "cpp/named req/ForwardIterator").   
 -`BinaryPred` must meet the requirements of [BinaryPredicate](../named_req/BinaryPredicate.html "cpp/named req/BinaryPredicate").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/mismatch&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 [std::pair](../utility/pair.html "cpp/utility/pair") with iterators to the first two non-equal elements. 
 
@@ -402,7 +402,7 @@ If last1 is reached, the second iterator in the pair is the [std::distance](../i
 
 For overloads (5-8), if last2 is reached, the first iterator in the pair is the [std::distance](../iterator/distance.html)(first2, last2)th iterator after first1. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/mismatch&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Given \\(\scriptsize N_1\\)N1 as [std::distance](../iterator/distance.html)(first1, last1) and \\(\scriptsize N_2\\)N2 as [std::distance](../iterator/distance.html)(first2, last2): 
 
@@ -414,7 +414,7 @@ Given \\(\scriptsize N_1\\)N1 as [std::distance](../iterator/distance.html)(firs
 
 7,8) At most \\(\scriptsize \min(N_1,N_2)\\)min(N1,N2) applications of the predicate p.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/mismatch&action=edit&section=4 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 The overloads with a template parameter named `ExecutionPolicy` report errors as follows: 
 
@@ -423,7 +423,7 @@ The overloads with a template parameter named `ExecutionPolicy` report errors as
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/mismatch&action=edit&section=5 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
 
 [mismatch (1)](mismatch.html#Version_1)  
 ---  
@@ -479,7 +479,7 @@ The overloads with a template parameter named `ExecutionPolicy` report errors as
         return [std::make_pair](../utility/pair/make_pair.html)(first1, first2);
     }  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/mismatch&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 This program determines the longest substring that is simultaneously found at the very beginning of the given string and at the very end of it, in reverse order (possibly overlapping).
 
@@ -510,16 +510,16 @@ Output:
     a
     aba
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/mismatch&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ equal](equal.html "cpp/algorithm/equal") |  determines if two sets of elements are the same   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_equal&action=edit)  
+(function template)   
 ---|---  
 [ findfind_iffind_if_not](find.html "cpp/algorithm/find")(C++11) |  finds the first element satisfying specific criteria   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_find&action=edit)  
+(function template)   
 [ lexicographical_compare](lexicographical_compare.html "cpp/algorithm/lexicographical compare") |  returns true if one range is lexicographically less than another   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_lexicographical_compare&action=edit)  
+(function template)   
 [ search](search.html "cpp/algorithm/search") |  searches for the first occurrence of a range of elements   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_search&action=edit)  
+(function template)   
 [ ranges::mismatch](ranges/mismatch.html "cpp/algorithm/ranges/mismatch")(C++20) |  finds the first position where two ranges differ  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_mismatch&action=edit)
+(algorithm function object)

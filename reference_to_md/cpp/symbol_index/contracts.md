@@ -21,7 +21,7 @@
 [Removed symbols (Zombie names)](zombie_names.html "cpp/symbol index/zombie names")  
 [Exposition-only symbols](expos.html "cpp/symbol index/expos")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/symbol_index/navbar_content&action=edit)
+
 
 This page tries to list all the symbols that are available from the [standard library](../standard_library.html "cpp/standard library") ([contracts library](../contract.html "cpp/contract")) in the namespace std::contracts. The symbols are written as follows: 
 
@@ -49,27 +49,27 @@ This page tries to list all the symbols that are available from the [standard li
   
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/contracts&action=edit&section=2 "Edit section: A")] A
+### A
 
 [`assertion_kind`](../contract/assertion_kind.html "cpp/contract/assertion kind") (since C++26)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/contracts&action=edit&section=3 "Edit section: C")] C
+### C
 
 [`contract_violation`](../contract/contract_violation.html "cpp/contract/contract violation") (since C++26)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/contracts&action=edit&section=4 "Edit section: D")] D
+### D
 
 [`detection_mode`](../contract/detection_mode.html "cpp/contract/detection mode") (since C++26)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/contracts&action=edit&section=5 "Edit section: E")] E
+### E
 
 [`evaluation_semantic`](../contract/evaluation_semantic.html "cpp/contract/evaluation semantic") (since C++26)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/contracts&action=edit&section=6 "Edit section: I")] I
+### I
 
 [`invoke_default_contract_violation_handler()`](../contract/invoke_default_contract_violation_handler.html "cpp/contract/invoke default contract violation handler") (since C++26)  
 

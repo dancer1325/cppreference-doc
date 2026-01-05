@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 Defined in header `[<ranges>](../header/ranges.html "cpp/header/ranges")` |  |   
 ---|---|---  
@@ -247,7 +247,7 @@ The `range` concept defines the requirements of a type that allows iteration ove
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/range&action=edit&section=1 "Edit section: Semantic requirements")] Semantic requirements
+### Semantic requirements
 
 Given an expression E such that decltype((E)) is `T`, `T` models `range` only if 
 
@@ -257,7 +257,7 @@ Given an expression E such that decltype((E)) is `T`, `T` models `range` only if
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/range&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 A typical `range` class only needs to provide two functions: 
 
@@ -268,7 +268,7 @@ A typical `range` class only needs to provide two functions:
 
 Alternatively, they can be non-member functions, to be found by [argument-dependent lookup](../language/adl.html "cpp/language/adl"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/range&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -300,7 +300,7 @@ Run this code
      
     int main() {}
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/range&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

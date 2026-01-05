@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 **`std::chrono::time_zone_link`**
 
@@ -111,7 +111,7 @@ Member functions
 Nonmember functions  
 [operator==operator<=>](time_zone_link/operator_cmp.html "cpp/chrono/time zone link/operator cmp")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_zone_link/navbar_content&action=edit)
+
 
 Defined in header `[<chrono>](../header/chrono.html "cpp/header/chrono")` |  |   
 ---|---|---  
@@ -124,14 +124,14 @@ Users cannot construct `time_zone_link` objects. The library implementation crea
 
 `time_zone_link` is not copyable but does have a defaulted move constructor and a defaulted move assignment operator. However, as users have only const access to `time_zone_link` objects, these functions cannot be called in user code without invoking [undefined behavior](../language/ub.html "cpp/language/ub"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/time_zone_link&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ nametarget](time_zone_link/accessors.html "cpp/chrono/time zone link/accessors") |  accesses the name and target of this `time_zone_link`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_zone_link/dsc_accessors&action=edit)  
+(public member function)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/time_zone_link&action=edit&section=2 "Edit section: Nonmember functions")] Nonmember functions
+### Nonmember functions
 
 [ operator==operator<=>](time_zone_link/operator_cmp.html "cpp/chrono/time zone link/operator cmp")(C++20) |  compares two `time_zone_link` objects   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_zone_link/dsc_operator_cmp&action=edit)  
+(function)   
 ---|---

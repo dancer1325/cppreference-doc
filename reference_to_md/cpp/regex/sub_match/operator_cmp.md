@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Regular expressions library](../../regex.html "cpp/regex")
 
@@ -81,7 +81,7 @@ Constants
 Regex Grammar  
 [Modified ECMAScript-262](../ecmascript.html "cpp/regex/ecmascript")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/navbar_content&action=edit)
+
 
 [`std::sub_match`](../sub_match.html "cpp/regex/sub match")
 
@@ -96,7 +96,7 @@ Non-member functions
 **operator== operator!=operator<<operator<=operator>operator>=operator<=>**(until C++20)(until C++20)(until C++20)(until C++20)(until C++20)(C++20)  
 [operator<<](operator_ltlt.html "cpp/regex/sub match/operator ltlt")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/sub_match/navbar_content&action=edit)
+
 
 Defined in header `[<regex>](../../header/regex.html "cpp/header/regex")` |  |   
 ---|---|---  
@@ -333,7 +333,7 @@ The `<`, `<=`, `>`, `>=`, and `!=` operators are [synthesized](../../language/op
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/sub_match/operator_cmp&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 lhs, rhs  |  \-  |  a `sub_match` to compare   
 ---|---|---  
@@ -341,7 +341,7 @@ str  |  \-  |  a [std::basic_string](../../string/basic_string.html "cpp/string/
 s  |  \-  |  a pointer to a C-style string to compare   
 ch  |  \-  |  a character to compare   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/sub_match/operator_cmp&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Let target be the following values: 
 
@@ -369,17 +369,17 @@ Overloads (1-14,21-27,34-40)
 `<=>` |  static_cast<`_cat-type-of_` ﻿<BidirIt>>  
 ` `(lhs.compare(target) <=> 0) |  N/A  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/sub_match/operator_cmp&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 The return type of operator<=> is guaranteed to be a comparison category type. If `_value-type-of_` ﻿<BidirIt> is char, wchar_t, char8_t, char16_t, or char32_t, the return type of `operator<=>` is [`std::strong_ordering`](../../utility/compare/strong_ordering.html "cpp/utility/compare/strong ordering"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/sub_match/operator_cmp&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/sub_match/operator_cmp&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -389,8 +389,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 argument of [`compare()`](compare.html "cpp/regex/sub match/compare") was str.c_str() | the argument is  
 string_type(str.data(), str.size()))  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/sub_match/operator_cmp&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ compare](compare.html "cpp/regex/sub match/compare") |  compares matched subsequence (if any)   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/sub_match/dsc_compare&action=edit)  
+(public member function)   
 ---|---

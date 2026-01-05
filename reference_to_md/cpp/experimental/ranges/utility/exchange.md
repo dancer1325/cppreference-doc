@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Ranges](../../ranges.html "cpp/experimental/ranges")
 
@@ -66,7 +66,7 @@
 [Ranges](../../ranges.html#Ranges "cpp/experimental/ranges")  
 [Algorithms](../../ranges.html#Algorithms "cpp/experimental/ranges")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/navbar_content&action=edit)
+
 
 [General utilities library](../../ranges.html#General_utilities "cpp/experimental/ranges")
 
@@ -125,7 +125,7 @@ Tagged pairs and tuples
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/utility/navbar_content&action=edit)
+
 
 Defined in header `[<experimental/ranges/utility>](../../../header/experimental/ranges/utility.html "cpp/header/experimental/ranges/utility")` |  |   
 ---|---|---  
@@ -152,31 +152,31 @@ Replaces the value of obj with new_value and returns the old value of obj, as if
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/utility/exchange&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 obj  |  \-  |  object whose value to replace   
 ---|---|---  
 new_value  |  \-  |  the value to assign to `obj`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/utility/exchange&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The old value of obj. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/utility/exchange&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 [`noexcept`](../../../language/noexcept_spec.html "cpp/language/noexcept spec") specification: 
 
 noexcept([std::is_nothrow_move_constructible](../../../types/is_move_constructible.html)<T>::value &&  
 [std::is_nothrow_assignable](../../../types/is_assignable.html)<T&, U>::value)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/utility/exchange&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/utility/exchange&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ exchange](../../../utility/exchange.html "cpp/utility/exchange")(C++14) |  replaces the argument with a new value and returns its previous value   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_exchange&action=edit)  
+(function template)   
 ---|---

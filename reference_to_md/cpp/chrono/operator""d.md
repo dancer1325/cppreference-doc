@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::day`](day.html "cpp/chrono/day")
 
@@ -122,7 +122,7 @@ Helper classes
 [formatter<std::chrono::day>](day/formatter.html "cpp/chrono/day/formatter")  
 [hash<std::chrono::day>](day/hash.html "cpp/chrono/day/hash")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/day/navbar_content&action=edit)
+
 
 Defined in header `[<chrono>](../header/chrono.html "cpp/header/chrono")` |  |   
 ---|---|---  
@@ -143,16 +143,16 @@ Forms a std::chrono::day literal representing a day of the month in the calendar
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/operator%22%22d&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 d  |  \-  |  the day value   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/operator%22%22d&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 A std::chrono::day storing d. If d > 255, the stored value is unspecified. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/operator%22%22d&action=edit&section=3 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     constexpr [std::chrono::day](day.html) operator ""d(unsigned long long d) noexcept
@@ -162,7 +162,7 @@ A std::chrono::day storing d. If d > 255, the stored value is unspecified.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/operator%22%22d&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 This operator is declared in the namespace std::literals::chrono_literals, where both literals and chrono_literals are [inline namespaces](../language/namespace.html#Inline_namespaces "cpp/language/namespace"). Access to this operator can be gained with: 
 
@@ -174,7 +174,7 @@ This operator is declared in the namespace std::literals::chrono_literals, where
 
 In addition, within the namespace std::chrono, the directive using namespace literals::chrono_literals; is provided by the [standard library](../standard_library.html "cpp/standard library"), so that if a programmer uses using namespace std::chrono; to gain access to the classes in the [chrono library](../chrono.html "cpp/chrono"), the corresponding literal operators become visible as well. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/operator%22%22d&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -198,10 +198,10 @@ Possible output:
     0       00 is not a valid day
     42      42 is not a valid day
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/operator%22%22d&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ (constructor)](day/day.html "cpp/chrono/day/day") |  constructs a `day`   
-(public member function of `std::chrono::day`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/day/dsc_constructor&action=edit)  
+(public member function of `std::chrono::day`)   
 ---|---  
 [ operator unsigned](day/operator_unsigned.html "cpp/chrono/day/operator unsigned") |  retrieves the stored day value   
-(public member function of `std::chrono::day`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/day/dsc_operator_unsigned&action=edit)
+(public member function of `std::chrono::day`) 

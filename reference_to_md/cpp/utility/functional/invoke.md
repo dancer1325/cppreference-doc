@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Function objects](../../functional.html "cpp/utility/functional")
 
@@ -255,7 +255,7 @@ Identity function object
 [unary_negate](unary_negate.html "cpp/utility/functional/unary negate")(until C++20*)  
 [binary_negate](binary_negate.html "cpp/utility/functional/binary negate")(until C++20*)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/navbar_content&action=edit)
+
 
 Defined in header `[<functional>](../../header/functional.html "cpp/header/functional")` |  |   
 ---|---|---  
@@ -285,19 +285,19 @@ invoke_r( F&& f, Args&&... args ) noexcept(/* see below */); |  (2) | (since C++
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/invoke&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 f  |  \-  |  [Callable](../../named_req/Callable.html "cpp/named req/Callable") object to be invoked   
 ---|---|---  
 args  |  \-  |  arguments to pass to f  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/invoke&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) The value returned by f.
 
 2) The value returned by f, implicitly converted to `R`, if `R` is not (possibly [cv-qualified](../../language/cv.html "cpp/language/cv")) void. None otherwise.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/invoke&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 1)
 
@@ -311,7 +311,7 @@ noexcept([std::is_nothrow_invocable_v](../../types/is_invocable.html)<F, Args...
 
 noexcept([std::is_nothrow_invocable_r_v](../../types/is_invocable.html)<R, F, Args...>)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/invoke&action=edit&section=4 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
 
 [invoke (1)](invoke.html#Version_1)  
 ---  
@@ -385,14 +385,14 @@ noexcept([std::is_nothrow_invocable_r_v](../../types/is_invocable.html)<R, F, Ar
             return std::invoke([std::forward](../forward.html)<F>(f), [std::forward](../forward.html)<Args>(args)...);
     }  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/invoke&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../feature_test.html "cpp/utility/feature test") macro  | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_invoke`](../../experimental/feature_test.html#cpp_lib_invoke "cpp/feature test") | [`201411L`](../../compiler_support/17.html#cpp_lib_invoke_201411L "cpp/compiler support/17") | (C++17) | `std::invoke`, ([1](invoke.html#Version_1))  
 [`__cpp_lib_invoke_r`](../../experimental/feature_test.html#cpp_lib_invoke_r "cpp/feature test") | [`202106L`](../../compiler_support/23.html#cpp_lib_invoke_r_202106L "cpp/compiler support/23") | (C++23) | `std::invoke_r`, ([2](invoke.html#Version_2))  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/invoke&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -460,16 +460,16 @@ Possible output:
     invoke a lambda converting result to float: 33.000000
     invoke print_num: 44
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/invoke&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ mem_fn](mem_fn.html "cpp/utility/functional/mem fn")(C++11) |  creates a function object out of a pointer to a member   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_mem_fn&action=edit)  
+(function template)   
 ---|---  
 [ result_ofinvoke_result](../../types/result_of.html "cpp/types/result of")(C++11)(removed in C++20)(C++17) |  deduces the result type of invoking a callable object with a set of arguments   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_result_of&action=edit)  
+(class template)   
 [ is_invocableis_invocable_ris_nothrow_invocableis_nothrow_invocable_r](../../types/is_invocable.html "cpp/types/is invocable")(C++17) |  checks if a type can be invoked (as if by **std::invoke**) with the given argument types   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_invocable&action=edit)  
+(class template)   
 [ apply](../apply.html "cpp/utility/apply")(C++17) |  calls a function with a tuple of arguments   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_apply&action=edit)
+(function template) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

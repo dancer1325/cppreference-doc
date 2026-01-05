@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Localization library](../../locale.html "cpp/locale")
 
@@ -152,7 +152,7 @@ base classes](../../locale.html#Facet_category_base_classes "cpp/locale")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/navbar_content&action=edit)
+
 
 [`std::collate`](../collate.html "cpp/locale/collate")
 
@@ -164,7 +164,7 @@ Member functions
 **collate::transform collate::do_transform**  
 [collate::hashcollate::do_hash](hash.html "cpp/locale/collate/hash")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/collate/navbar_content&action=edit)
+
 
 Defined in header `[<locale>](../../header/locale.html "cpp/header/locale")` |  |   
 ---|---|---  
@@ -189,21 +189,21 @@ virtual string_type do_transform( const CharT* low, const CharT* high ) const; |
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/collate/transform&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 low  |  \-  |  pointer to the first character in the sequence to transform   
 ---|---|---  
 high  |  \-  |  one past the end pointer for the sequence to transform   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/collate/transform&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The string transformed so that lexicographic comparison of the transformed strings may be used instead of collating of the originals. In the "C" locale, the returned string is the exact copy of `[`low`, `high`)`. In other locales, the contents of the returned string are implementation-defined, and the size may be considerably longer. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/collate/transform&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 In addition to the use in collation, the implementation-specific format of the transformed string is known to [std::regex_traits<>::transform_primary](../../regex/regex_traits/transform_primary.html "cpp/regex/regex traits/transform primary"), which is able to extract the equivalence class information. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/collate/transform&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -242,10 +242,10 @@ Output:
     In the Swedish locale: år before ängel
     In lexicographic comparison: ängel before år
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/collate/transform&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ strxfrm](../../string/byte/strxfrm.html "cpp/string/byte/strxfrm") |  transform a string so that `strcmp` would produce the same result as `strcoll`   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strxfrm&action=edit)  
+(function)   
 ---|---  
 [ wcsxfrm](../../string/wide/wcsxfrm.html "cpp/string/wide/wcsxfrm") |  transform a wide string so that `wcscmp` would produce the same result as `wcscoll`   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wcsxfrm&action=edit)
+(function) 

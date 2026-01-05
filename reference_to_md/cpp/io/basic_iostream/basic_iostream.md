@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_iostream`](../basic_iostream.html "cpp/io/basic iostream")
 
@@ -89,7 +89,7 @@ Protected member functions
 [basic_iostream::operator=](operator=.html "cpp/io/basic iostream/operator=")  
 [basic_iostream::swap](swap.html "cpp/io/basic iostream/swap")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_iostream/navbar_content&action=edit)
+
 
 explicit basic_iostream( [std::basic_streambuf](../basic_streambuf.html)<CharT,Traits>* sb ); |  (1)  |   
 ---|---|---  
@@ -106,14 +106,14 @@ Constructs new stream object.
 
 3) Move constructor: move-constructs the first base class `basic_istream` as basic_istream<CharT,Traits>(std::move(rhs));, which in turn move-constructs and initializes the virtual base [std::basic_ios](../basic_ios.html "cpp/io/basic ios"). The initialization of the other base, `basic_ostream`, is implementation-defined (e.g., a protected default constructor may be added to [std::basic_ostream](../basic_ostream.html "cpp/io/basic ostream"), which does nothing) because move-construction cannot use `rhs` twice. This move constructor is protected: it is called by the move constructors of the derived stream classes [std::basic_fstream](../basic_fstream.html "cpp/io/basic fstream") and [std::basic_stringstream](../basic_stringstream.html "cpp/io/basic stringstream") before they move-construct and associate the stream buffer.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_iostream/basic_iostream&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 sb  |  \-  |  streambuf to initialize with   
 ---|---|---  
 other  |  \-  |  another stream to initialize with   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_iostream/basic_iostream&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ operator=](operator=.html "cpp/io/basic iostream/operator=")(C++11) |  move-assigns another `basic_iostream`   
-(protected member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_iostream/dsc_operator%3D&action=edit)  
+(protected member function)   
 ---|---

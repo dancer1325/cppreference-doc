@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::pmr::polymorphic_allocator`](../polymorphic_allocator.html "cpp/memory/polymorphic allocator")
 
@@ -206,7 +206,7 @@ Member functions
 Non-member functions  
 [operator==operator!=](operator_eq.html "cpp/memory/polymorphic allocator/operator eq")(until C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/polymorphic_allocator/navbar_content&action=edit)
+
 
 void* allocate_bytes( [std::size_t](../../types/size_t.html) nbytes,  
 [std::size_t](../../types/size_t.html) alignment = alignof([std::max_align_t](../../types/max_align_t.html)) ); |  |  (since C++20)  
@@ -226,36 +226,36 @@ Allocates nbytes bytes of storage at specified alignment alignment using the und
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/polymorphic_allocator/allocate_bytes&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 nbytes  |  \-  |  the number of bytes to allocate   
 ---|---|---  
 alignment  |  \-  |  the alignment to use   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/polymorphic_allocator/allocate_bytes&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 A pointer to the allocated storage. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/polymorphic_allocator/allocate_bytes&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 This function was introduced for use with the fully-specialized allocator [std::pmr::polymorphic_allocator](../polymorphic_allocator.html)<>, but it may be useful in any specialization. 
 
 The return type is void* (rather than, e.g., [std::byte](../../types/byte.html)*) to support conversion to an arbitrary pointer type U* by static_cast<U*>. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/polymorphic_allocator/allocate_bytes&action=edit&section=4 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 May throw any exceptions thrown by the call to resource()->allocate. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/polymorphic_allocator/allocate_bytes&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ allocate_object](allocate_object.html "cpp/memory/polymorphic allocator/allocate object")(C++20) |  allocates raw memory suitable for an object or an array   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/polymorphic_allocator/dsc_allocate_object&action=edit)  
+(public member function)   
 ---|---  
 [ new_object](new_object.html "cpp/memory/polymorphic allocator/new object")(C++20) |  allocates and constructs an object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/polymorphic_allocator/dsc_new_object&action=edit)  
+(public member function)   
 [ allocate](allocate.html "cpp/memory/polymorphic allocator/allocate") |  allocate memory   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/polymorphic_allocator/dsc_allocate&action=edit)  
+(public member function)   
 [ allocate](../allocator_traits/allocate.html "cpp/memory/allocator traits/allocate")[static] |  allocates uninitialized storage using the allocator   
-(public static member function of `std::allocator_traits<Alloc>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/allocator_traits/dsc_allocate&action=edit)  
+(public static member function of `std::allocator_traits<Alloc>`)   
 [ allocate](../memory_resource/allocate.html "cpp/memory/memory resource/allocate") |  allocates memory   
-(public member function of `std::pmr::memory_resource`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/memory_resource/dsc_allocate&action=edit)
+(public member function of `std::pmr::memory_resource`) 

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_istream`](../basic_istream.html "cpp/io/basic istream")
 
@@ -111,7 +111,7 @@ Member classes
 Non-member functions  
 [operator>>(std::basic_istream)](operator_gtgt2.html "cpp/io/basic istream/operator gtgt2")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_istream/navbar_content&action=edit)
+
 
 basic_istream& read( char_type* s, [std::streamsize](../streamsize.html) count ); |  |   
 ---|---|---  
@@ -140,29 +140,29 @@ Behaves as [UnformattedInputFunction](../../named_req/UnformattedInputFunction.h
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_istream/read&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 s  |  \-  |  pointer to the character array to store the characters to   
 ---|---|---  
 count  |  \-  |  number of characters to read   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_istream/read&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 *this
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_istream/read&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/stream_exceptions&action=edit)
+
 
 [failure](../ios_base/failure.html "cpp/io/ios base/failure") if an error occurred (the error state flag is not [goodbit](../ios_base/iostate.html "cpp/io/ios base/iostate")) and [exceptions()](../basic_ios/exceptions.html "cpp/io/basic ios/exceptions") is set to throw for that state. 
 
 If an internal operation throws an exception, it is caught and [badbit](../ios_base/iostate.html "cpp/io/ios base/iostate") is set. If [exceptions()](../basic_ios/exceptions.html "cpp/io/basic ios/exceptions") is set for `badbit`, the exception is rethrown. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_istream/read&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 When using a non-converting locale (the default locale is non-converting), the overrider of this function in [std::basic_ifstream](../basic_ifstream.html "cpp/io/basic ifstream") may be optimized for zero-copy bulk I/O (by means of overriding [std::streambuf::xsgetn](../basic_streambuf/sgetn.html "cpp/io/basic streambuf/sgetn")). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_istream/read&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -204,18 +204,18 @@ Output:
     abcd2
     abcd3
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_istream/read&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ write](../basic_ostream/write.html "cpp/io/basic ostream/write") |  inserts blocks of characters   
-(public member function of `std::basic_ostream<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ostream/dsc_write&action=edit)  
+(public member function of `std::basic_ostream<CharT,Traits>`)   
 ---|---  
 [ operator>>](operator_gtgt.html "cpp/io/basic istream/operator gtgt") |  extracts formatted data   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_istream/dsc_operator_gtgt&action=edit)  
+(public member function)   
 [ readsome](readsome.html "cpp/io/basic istream/readsome") |  extracts already available blocks of characters   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_istream/dsc_readsome&action=edit)  
+(public member function)   
 [ get](get.html "cpp/io/basic istream/get") |  extracts characters   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_istream/dsc_get&action=edit)  
+(public member function)   
 [ getline](getline.html "cpp/io/basic istream/getline") |  extracts characters until the given character is found   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_istream/dsc_getline&action=edit)  
+(public member function)   
 [ fread](../c/fread.html "cpp/io/c/fread") |  reads from a file   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_fread&action=edit)
+(function) 

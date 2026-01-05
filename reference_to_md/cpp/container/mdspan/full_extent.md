@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -71,7 +71,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::mdspan`](../mdspan.html "cpp/container/mdspan")
 
@@ -120,7 +120,7 @@ Tables
 [submdspan_mapping_result](submdspan_mapping_result.html "cpp/container/mdspan/submdspan mapping result")(C++26)  
 [Deduction guides](deduction_guides.html "cpp/container/mdspan/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/navbar_content&action=edit)
+
 
 Defined in header `[<mdspan>](../../header/mdspan.html "cpp/header/mdspan")` |  |   
 ---|---|---  
@@ -132,7 +132,7 @@ inline constexpr std::full_extent_t full_extent {}; |  (2)  |  (since C++26)
 
 2) The corresponding `std::full_extent` instance of (1) is a slice specifier to indicate full range of indices in the specified extent in std::submdspan.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/full_extent&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -194,8 +194,8 @@ Possible output:
      
     H
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/full_extent&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ submdspan](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/submdspan&action=edit&redlink=1 "cpp/container/mdspan/submdspan \(page does not exist\)")(C++26) |  returns a view of a subset of an existing `mdspan`   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/dsc_submdspan&action=edit)  
+(function template)   
 ---|---

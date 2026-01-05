@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::lock_guard`](../lock_guard.html "cpp/thread/lock guard")
 
@@ -182,7 +182,7 @@ Member functions
 [lock_guard::lock_guard](lock_guard.html "cpp/thread/lock guard/lock guard")  
 **lock_guard::~lock_guard**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/lock_guard/navbar_content&action=edit)
+
 
 ~lock_guard(); |  |  (since C++11)  
 ---|---|---  

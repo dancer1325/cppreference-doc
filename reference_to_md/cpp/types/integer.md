@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Type support](../utility/rtti.html "cpp/types")
 
@@ -161,7 +161,7 @@ Runtime type information
 ---  
 [bad_cast](bad_cast.html "cpp/types/bad cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/navbar_content&action=edit)
+
 
 ## Contents
 
@@ -183,39 +183,39 @@ Runtime type information
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/integer&action=edit&section=1 "Edit section: Types")] Types
+### Types
 
 Defined in header `[<cstdint>](../header/cstdint.html "cpp/header/cstdint")`  
 ---  
 int8_tint16_tint32_tint64_t(optional) |  signed integer type with width of exactly 8, 16, 32 and 64 bits respectively  
 with no padding bits and using 2's complement for negative values  
 (provided if and only if the implementation directly supports the type)   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_intN_t&action=edit)  
+(typedef)   
 int_fast8_tint_fast16_tint_fast32_tint_fast64_t |  fastest signed integer type with width of at least 8, 16, 32 and 64 bits respectively   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_int_fastN_t&action=edit)  
+(typedef)   
 int_least8_tint_least16_tint_least32_tint_least64_t |  smallest signed integer type with width of at least 8, 16, 32 and 64 bits respectively   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_int_leastN_t&action=edit)  
+(typedef)   
 intmax_t |  maximum-width signed integer type   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_intmax_t&action=edit)  
+(typedef)   
 intptr_t(optional) |  signed integer type capable of holding a pointer to void   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_intptr_t&action=edit)  
+(typedef)   
 uint8_tuint16_tuint32_tuint64_t(optional) |  unsigned integer type with width of exactly 8, 16, 32 and 64 bits respectively   
 (provided if and only if the implementation directly supports the type)   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_uintN_t&action=edit)  
+(typedef)   
 uint_fast8_tuint_fast16_tuint_fast32_tuint_fast64_t |  fastest unsigned integer type with width of at least 8, 16, 32 and 64 bits respectively   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_uint_fastN_t&action=edit)  
+(typedef)   
 uint_least8_tuint_least16_tuint_least32_tuint_least64_t |  smallest unsigned integer type with width of at least 8, 16, 32 and 64 bits respectively   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_uint_leastN_t&action=edit)  
+(typedef)   
 uintmax_t |  maximum-width unsigned integer type   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_uintmax_t&action=edit)  
+(typedef)   
 uintptr_t(optional) |  unsigned integer type capable of holding a pointer to void   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_uintptr_t&action=edit)  
+(typedef)   
   
 The implementation may define typedef names `int _N_ _t`, `int_fast _N_ _t`, `int_least _N_ _t`, `uint _N_ _t`, `uint_fast _N_ _t`, and `uint_least _N_ _t` when _N_ is not 8, 16, 32 or 64. Typedef names of the form `int _N_ _t` may only be defined if the implementation supports an integer type of that width with no padding. Thus, `std::uint24_t` denotes an unsigned integer type with a width of exactly 24 bits. 
 
 Each of the macros listed in below is defined if and only if the implementation defines the corresponding typedef name. The macros `INT _N_ _C` and `UINT _N_ _C` correspond to the typedef names `int_least _N_ _t` and `uint_least _N_ _t`, respectively. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/integer&action=edit&section=2 "Edit section: Macro constants")] Macro constants
+### Macro constants
 
 Defined in header `[<cstdint>](../header/cstdint.html "cpp/header/cstdint")`  
 ---  
@@ -223,64 +223,64 @@ Defined in header `[<cstdint>](../header/cstdint.html "cpp/header/cstdint")`
 #####  Signed integers : minimum value   
   
 INT8_MININT16_MININT32_MININT64_MIN(optional) |  minimum value of `std::int8_t`, `std::int16_t`, `std::int32_t` and `std::int64_t` respectively   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_INTn_MIN&action=edit)  
+(macro constant)   
 INT_FAST8_MININT_FAST16_MININT_FAST32_MININT_FAST64_MIN |  minimum value of `std::int_fast8_t`, `std::int_fast16_t`, `std::int_fast32_t` and `std::int_fast64_t` respectively   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_INT_FASTn_MIN&action=edit)  
+(macro constant)   
 INT_LEAST8_MININT_LEAST16_MININT_LEAST32_MININT_LEAST64_MIN |  minimum value of `std::int_least8_t`, `std::int_least16_t`, `std::int_least32_t` and `std::int_least64_t` respectively   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_INT_LEASTn_MIN&action=edit)  
+(macro constant)   
 INTPTR_MIN(optional) |  minimum value of `std::intptr_t`   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_INTPTR_MIN&action=edit)  
+(macro constant)   
 INTMAX_MIN |  minimum value of `std::intmax_t`   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_INTMAX_MIN&action=edit)  
+(macro constant)   
   
 #####  Signed integers : maximum value   
   
 INT8_MAXINT16_MAXINT32_MAXINT64_MAX(optional) |  maximum value of `std::int8_t`, `std::int16_t`, `std::int32_t` and `std::int64_t` respectively   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_INTn_MAX&action=edit)  
+(macro constant)   
 INT_FAST8_MAXINT_FAST16_MAXINT_FAST32_MAXINT_FAST64_MAX |  maximum value of `std::int_fast8_t`, `std::int_fast16_t`, `std::int_fast32_t` and `std::int_fast64_t` respectively   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_INT_FASTn_MAX&action=edit)  
+(macro constant)   
 INT_LEAST8_MAXINT_LEAST16_MAXINT_LEAST32_MAXINT_LEAST64_MAX |  maximum value of `std::int_least8_t`, `std::int_least16_t`, `std::int_least32_t` and `std::int_least64_t` respectively   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_INT_LEAST8_MAX&action=edit)  
+(macro constant)   
 INTPTR_MAX(optional) |  maximum value of `std::intptr_t`   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_INTPTR_MAX&action=edit)  
+(macro constant)   
 INTMAX_MAX |  maximum value of `std::intmax_t`   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_INTMAX_MAX&action=edit)  
+(macro constant)   
   
 #####  Unsigned integers : maximum value   
   
 UINT8_MAXUINT16_MAXUINT32_MAXUINT64_MAX(optional) |  maximum value of `std::uint8_t`, `std::uint16_t`, `std::uint32_t` and `std::uint64_t` respectively   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_UINTn_MAX&action=edit)  
+(macro constant)   
 UINT_FAST8_MAXUINT_FAST16_MAXUINT_FAST32_MAXUINT_FAST64_MAX |  maximum value of `std::uint_fast8_t`, `std::uint_fast16_t`, `std::uint_fast32_t` and `std::uint_fast64_t` respectively   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_UINT_FASTn_MAX&action=edit)  
+(macro constant)   
 UINT_LEAST8_MAXUINT_LEAST16_MAXUINT_LEAST32_MAXUINT_LEAST64_MAX |  maximum value of `std::uint_least8_t`, `std::uint_least16_t`, `std::uint_least32_t` and `std::uint_least64_t` respectively   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_UINT_LEASTn_MAX&action=edit)  
+(macro constant)   
 UINTPTR_MAX(optional) |  maximum value of `std::uintptr_t`   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_UINTPTR_MAX&action=edit)  
+(macro constant)   
 UINTMAX_MAX |  maximum value of `std::uintmax_t`   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_UINTMAX_MAX&action=edit)  
+(macro constant)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/integer&action=edit&section=3 "Edit section: Function macros for minimum-width integer constants")] Function macros for minimum-width integer constants
+### Function macros for minimum-width integer constants
 
 INT8_CINT16_CINT32_CINT64_C |  expands to an integer constant expression having the value specified by its argument and whose type is the [promoted](../language/implicit_cast.html#Integral_promotion "cpp/language/implicit conversion") type of `std::int_least8_t`, `std::int_least16_t`, `std::int_least32_t` and `std::int_least64_t` respectively   
-(function macro) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_INTn_C&action=edit)  
+(function macro)   
 ---|---  
 INTMAX_C |  expands to an integer constant expression having the value specified by its argument and the type `std::intmax_t`   
-(function macro) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_INTMAX_C&action=edit)  
+(function macro)   
 UINT8_CUINT16_CUINT32_CUINT64_C |  expands to an integer constant expression having the value specified by its argument and whose type is the [promoted](../language/implicit_cast.html#Integral_promotion "cpp/language/implicit conversion") type of `std::uint_least8_t`, `std::uint_least16_t`, `std::uint_least32_t` and `std::uint_least64_t` respectively   
-(function macro) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_UINTn_C&action=edit)  
+(function macro)   
 UINTMAX_C |  expands to an integer constant expression having the value specified by its argument and the type `std::uintmax_t`   
-(function macro) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_UINTMAX_C&action=edit)  
+(function macro)   
       
     
     #include <cstdint>
     UINT64_C(0x123) // expands to a literal of type uint_least64_t and value 0x123
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/integer&action=edit&section=4 "Edit section: Format macro constants")] Format macro constants
+### Format macro constants
 
 Defined in header `[<cinttypes>](../header/cinttypes.html "cpp/header/cinttypes")`  
 ---  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/integer&action=edit&section=5 "Edit section: Format constants for the std::fprintf family of functions")] Format constants for the [std::fprintf](../io/c/printf.html "cpp/io/c/fprintf") family of functions
+#### Format constants for the [std::fprintf](../io/c/printf.html "cpp/io/c/fprintf") family of functions
 
 Each of the `PRI` macros listed here is defined if and only if the implementation defines the corresponding typedef name. 
 
@@ -304,7 +304,7 @@ unsigned int | Description  | Macros for data types
 `x` | output of an unsigned lowercase hexadecimal integer value  | PRIx**x** | PRIxLEAST**x** | PRIxFAST**x** | PRIxMAX  | PRIxPTR   
 `X` | output of an unsigned uppercase hexadecimal integer value  | PRIX**x** | PRIXLEAST**x** | PRIXFAST**x** | PRIXMAX  | PRIXPTR   
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/integer&action=edit&section=6 "Edit section: Format constants for the std::fscanf family of functions")] Format constants for the [std::fscanf](../io/c/scanf.html "cpp/io/c/fscanf") family of functions
+#### Format constants for the [std::fscanf](../io/c/scanf.html "cpp/io/c/fscanf") family of functions
 
 Each of the `SCN` macros listed in here is defined if and only if the implementation defines the corresponding typedef name and has a suitable [std::fscanf](../io/c/scanf.html "cpp/io/c/fscanf") length modifier for the type. 
 
@@ -327,7 +327,7 @@ unsigned int | Description  | Macros for data types
 `o` | input of an unsigned octal integer value  | SCNo**x** | SCNoLEAST**x** | SCNoFAST**x** | SCNoMAX  | SCNoPTR   
 `x` | input of an unsigned hexadecimal integer value  | SCNx**x** | SCNxLEAST**x** | SCNxFAST**x** | SCNxMAX  | SCNxPTR   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/integer&action=edit&section=7 "Edit section: Notes")] Notes
+### Notes
 
 Because C++ interprets a character immediately following a string literal as a [user-defined string literal](../language/user_literal.html "cpp/language/user literal"), C code such as printf("%"PRId64"\n",n); is invalid C++ and requires a space before `PRId64`. 
 
@@ -335,7 +335,7 @@ The C99 standard suggests that C++ implementations should not define the above l
 
 `std::int8_t` may be signed char and `std::uint8_t` may be unsigned char, but neither can be char regardless of its signedness (because char is not considered a "signed integer type" or "unsigned integer type"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/integer&action=edit&section=8 "Edit section: Example")] Example
+### Example
 
 See also a [note](../language/user_literal.html#Notes "cpp/language/user literal") regarding spaces before [format macros](integer.html#Format_macro_constants) used in this example.
 
@@ -365,7 +365,7 @@ Possible output:
     +9223372036854775807
     +7
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/integer&action=edit&section=9 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -373,7 +373,7 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 2820](https://cplusplus.github.io/LWG/issue2820) | C++11  | the requirements for optional typedef names and macros were inconsistent with C  | made consistent   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/integer&action=edit&section=10 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -455,7 +455,7 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/integer&action=edit&section=11 "Edit section: See also")] See also
+### See also
 
   * [Fundamental types](../language/types.html "cpp/language/types")
 

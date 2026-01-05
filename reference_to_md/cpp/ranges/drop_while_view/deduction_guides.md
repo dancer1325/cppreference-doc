@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::drop_while_view`](../drop_while_view.html "cpp/ranges/drop while view")
 
@@ -237,7 +237,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
 [drop_while_view::end](end.html "cpp/ranges/drop while view/end")  
 **Deduction guides**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/drop_while_view/navbar_content&action=edit)
+
 
 Defined in header `[<ranges>](../../header/ranges.html "cpp/header/ranges")` |  |   
 ---|---|---  
@@ -247,7 +247,7 @@ drop_while_view( R&&, Pred ) -> drop_while_view<[views::all_t](../all_view.html)
   
 The [deduction guide](../../language/ctad.html "cpp/language/class template argument deduction") is provided for [std::ranges::drop_while_view](../drop_while_view.html "cpp/ranges/drop while view") to allow deduction from [`range`](../range.html "cpp/ranges/range") and predicate. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/drop_while_view/deduction_guides&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

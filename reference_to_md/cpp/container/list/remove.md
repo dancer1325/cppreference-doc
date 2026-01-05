@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::list`](../list.html "cpp/container/list")
 
@@ -135,7 +135,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/list/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/list/navbar_content&action=edit)
+
 
 | (1) |   
 ---|---|---  
@@ -171,7 +171,7 @@ Invalidates only the iterators and references to the removed elements.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/remove&action=edit&section=T-1 "Template:cpp/container/remove")] Parameters
+### Parameters
 
 value  |  \-  |  value of the elements to remove   
 ---|---|---  
@@ -180,13 +180,13 @@ The expression p(v) must be convertible to bool for every argument `v` of type (
 Type requirements   
 -`UnaryPred` must meet the requirements of [Predicate](../../named_req/Predicate.html "cpp/named req/Predicate").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/remove&action=edit&section=T-2 "Template:cpp/container/remove")] Return value
+### Return value
 
 (none)  | (until C++20)  
 ---|---  
 The number of elements removed.  | (since C++20)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/remove&action=edit&section=T-3 "Template:cpp/container/remove")] Complexity
+### Complexity
 
 Given \\(\scriptsize N\\)N as [std::distance](../../iterator/distance.html)(begin(), end()): 
 
@@ -194,13 +194,13 @@ Given \\(\scriptsize N\\)N as [std::distance](../../iterator/distance.html)(begi
 
 2) Exactly \\(\scriptsize N\\)N applications of the predicate p.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/remove&action=edit&section=T-4 "Template:cpp/container/remove")] Notes
+### Notes
 
 [Feature-test](../../utility/feature_test.html "cpp/utility/feature test") macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_list_remove_return_type`](../../experimental/feature_test.html#cpp_lib_list_remove_return_type "cpp/feature test") | [`201806L`](../../compiler_support/20.html#cpp_lib_list_remove_return_type_201806L "cpp/compiler support/20") | (C++20) | Change the return type   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/remove&action=edit&section=T-5 "Template:cpp/container/remove")] Example
+### Example
 
 Run this code
     
@@ -241,10 +241,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 and/or references will be invalidated  | only invalidates iterators and  
 references to the removed elements   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/remove&action=edit&section=T-7 "Template:cpp/container/remove")] See also
+### See also
 
 [ removeremove_if](../../algorithm/remove.html "cpp/algorithm/remove") |  removes elements satisfying specific criteria   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_remove&action=edit)  
+(function template)   
 ---|---
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

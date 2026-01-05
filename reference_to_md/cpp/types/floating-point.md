@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Type support](../utility/rtti.html "cpp/types")
 
@@ -161,7 +161,7 @@ Runtime type information
 ---  
 [bad_cast](bad_cast.html "cpp/types/bad cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/navbar_content&action=edit)
+
 
 If the implementation supports any of the following [ISO 60559](https://en.wikipedia.org/wiki/IEEE_754 "enwiki:IEEE 754") types as an extended floating-point type, then: 
 
@@ -190,13 +190,13 @@ bfloat16_t | bf16 or BF16 | __STDCPP_BFLOAT16_T__ | (N/A)  | 16  | 8  | 8  | 127
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/floating-point&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 The type `std::bfloat16_t` is known as [Brain Floating-Point](https://en.wikipedia.org/wiki/Bfloat16_floating-point_format "enwiki:Bfloat16 floating-point format"). 
 
 Unlike the [fixed width integer types](integer.html "cpp/types/integer"), which may be aliases to [standard integer types](../language/types.html#Standard_integer_types "cpp/language/types"), the fixed width floating-point types must be aliases to extended floating-point types (not float / double / long double), therefore not drop-in replacements for standard floating-point types. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/floating-point&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -212,7 +212,7 @@ Run this code
         std::float64_t f = 0.1f64;
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/floating-point&action=edit&section=3 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -224,7 +224,7 @@ Run this code
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/floating-point&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
   * [Fundamental types](../language/types.html "cpp/language/types")
 

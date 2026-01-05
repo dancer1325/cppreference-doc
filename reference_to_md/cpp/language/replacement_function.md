@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Functions](functions.html "cpp/language/functions")
 
@@ -245,7 +245,7 @@ Overloading
 [Operator overloading](operators.html "cpp/language/operators")  
 [Address of an overload set](overloaded_address.html "cpp/language/overloaded address")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/functions/navbar_content&action=edit)
+
 
 Certain functions for which a definition is supplied by the implementation are _replaceable ﻿_. A C++ program may provide a definition with the [signature](function.html#Function_signature "cpp/language/function") of a replaceable function, called a _replacement function ﻿_. The replacement function, if provided, is used instead of the default version supplied by the implementation. Such replacement occurs prior to program startup. 
 
@@ -264,19 +264,19 @@ If a declaration of the replacement function does not satisfy any of the followi
 It is implementation-defined whether the [contract-violation handler](contracts.html#Contract-violation_handler "cpp/language/contracts") ::handle_contract_violation is replaceable.  | (since C++26)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/replacement_function&action=edit&section=2 "Edit section: Standard library")] Standard library
+### Standard library
 
 The following standard library functions are replaceable, and the description of function semantics apply to both the default version defined by the C++ standard library and the replacement function defined by the program: 
 
 [ operator newoperator new[]](../memory/new/operator_new.html "cpp/memory/new/operator new") |  allocation functions   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/new/dsc_operator_new&action=edit)  
+(function)   
 ---|---  
 [ operator deleteoperator delete[]](../memory/new/operator_delete.html "cpp/memory/new/operator delete") |  deallocation functions   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/new/dsc_operator_delete&action=edit)  
+(function)   
 [ is_debugger_present](../utility/is_debugger_present.html "cpp/utility/is debugger present")(C++26) |  checks whether a program is running under the control of a debugger   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_is_debugger_present&action=edit)  
+(function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/replacement_function&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Uses a replacement allocation function:
 

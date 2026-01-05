@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::vector`](../vector.html "cpp/container/vector")
 
@@ -135,7 +135,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/vector/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/vector/navbar_content&action=edit)
+
 
 void push_back( const T& value ); |  (1) | (constexpr since C++20)  
 ---|---|---  
@@ -159,7 +159,7 @@ If after the operation the new [`size()`](size.html "cpp/container/vector/size")
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/push_back&action=edit&section=T-1 "Template:cpp/container/push back")] Parameters
+### Parameters
 
 value  |  \-  |  the value of the element to append   
 ---|---|---  
@@ -169,11 +169,11 @@ value  |  \-  |  the value of the element to append
 -If the following condition is met, the behavior is undefined: 1) `T` is not [CopyInsertable](../../named_req/CopyInsertable.html "cpp/named req/CopyInsertable") into `vector`. 2) `T` is not [MoveInsertable](../../named_req/MoveInsertable.html "cpp/named req/MoveInsertable") into `vector`.  
 (since C++11)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/push_back&action=edit&section=T-2 "Template:cpp/container/push back")] Complexity
+### Complexity
 
 Amortized constant. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/push_back&action=edit&section=T-3 "Template:cpp/container/push back")] Exceptions
+### Exceptions
 
 If an exception is thrown (which can be due to `Allocator::allocate()` or element copy/move constructor/assignment), this function has no effect ([strong exception guarantee](../../language/exceptions.html#Exception_safety "cpp/language/exceptions")). 
 
@@ -184,7 +184,7 @@ If the move constructor of `T` is not noexcept and `T` is not [CopyInsertable](.
 
 Some implementations throw [std::length_error](../../error/length_error.html "cpp/error/length error") when `push_back` causes a reallocation that exceeds [max_size](max_size.html "cpp/container/vector/max size") (due to an implicit call to an equivalent of [reserve](reserve.html "cpp/container/vector/reserve")`(`[size](size.html "cpp/container/vector/size")`() + 1))`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/push_back&action=edit&section=T-5 "Template:cpp/container/push back")] Example
+### Example
 
 Run this code
     
@@ -215,12 +215,12 @@ Possible output:
     std::vector letters holds: "abc" "def"
     Moved-from string s holds: ""
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/push_back&action=edit&section=T-6 "Template:cpp/container/push back")] See also
+### See also
 
 [ emplace_back](emplace_back.html "cpp/container/vector/emplace back")(C++11) |  constructs an element in-place at the end   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_emplace_back&action=edit)  
+(public member function)   
 ---|---  
 [ pop_back](pop_back.html "cpp/container/vector/pop back") |  removes the last element   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_pop_back&action=edit)  
+(public member function)   
 [ back_inserter](../../iterator/back_inserter.html "cpp/iterator/back inserter") |  creates a [std::back_insert_iterator](../../iterator/back_insert_iterator.html "cpp/iterator/back insert iterator") of type inferred from the argument   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_back_inserter&action=edit)
+(function template) 

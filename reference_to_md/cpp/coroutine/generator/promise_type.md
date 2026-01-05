@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Coroutine support](../../coroutine.html "cpp/coroutine")
 
@@ -146,7 +146,7 @@ Trivial awaitables
 Range generators  
 [generator](../generator.html "cpp/coroutine/generator")(C++23)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/coroutine/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -340,7 +340,7 @@ std::from_range](../../ranges/from_range.html "cpp/ranges/from range")(C++23)(C+
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::generator`](../generator.html "cpp/coroutine/generator")
 
@@ -368,7 +368,7 @@ std::from_range](../../ranges/from_range.html "cpp/ranges/from range")(C++23)(C+
 generator::_iterator_ ::operator++(int)](iterator.html#increment "cpp/coroutine/generator/iterator")  
 [operator==(generator::_iterator_ , std::default_sentinel_t)](iterator.html#compare "cpp/coroutine/generator/iterator")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/coroutine/generator/navbar_content&action=edit)
+
 
 class generator<Ref, V, Allocator>::promise_type; |  |  (since C++23)  
 ---|---|---  
@@ -386,7 +386,7 @@ The promise type of [`std::generator`](../generator.html "cpp/coroutine/generato
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/coroutine/generator/promise_type&action=edit&section=1 "Edit section: Data members")] Data members
+### Data members
 
 Member  |  Description   
 ---|---  
@@ -395,7 +395,7 @@ Member  |  Description
 [std::exception_ptr](../../error/exception_ptr.html) `_except__` |  A pointer to an exception object.  
 (exposition-only member object*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/coroutine/generator/promise_type&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 (constructor)(implicitly declared) |  constructs the `promise_type` object   
 (public member function)  
@@ -417,18 +417,18 @@ await_transform[deleted] |  maps the object obtained from co_await to an awaiter
 [ unhandled_exception](promise_type/unhandled_exception.html "cpp/coroutine/generator/promise type/unhandled exception") |  processes exceptions that leaked from the coroutine's body   
 (public member function)  
 [ operator new](promise_type/operator_new.html "cpp/coroutine/generator/promise type/operator new")[static] (C++23) |  allocates memory using `Allocator`   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/coroutine/generator/promise_type/dsc_operator_new&action=edit)  
+(public static member function)   
 [ operator delete](promise_type/operator_delete.html "cpp/coroutine/generator/promise type/operator delete")[static] (C++23) |  deallocates memory previously obtained from `operator new`   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/coroutine/generator/promise_type/dsc_operator_delete&action=edit)  
+(public static member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/coroutine/generator/promise_type&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/coroutine/generator/promise_type&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ noop_coroutine_promise](../noop_coroutine_promise.html "cpp/coroutine/noop coroutine promise")(C++20) |  used for coroutines with no observable effects   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/coroutine/dsc_noop_coroutine_promise&action=edit)  
+(class)   
 ---|---

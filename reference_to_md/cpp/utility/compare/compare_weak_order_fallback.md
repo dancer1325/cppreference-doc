@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 Defined in header `[<compare>](../../header/compare.html "cpp/header/compare")` |  |   
 ---|---|---  
@@ -170,7 +170,7 @@ In all other cases, std::compare_weak_order_fallback(t, u) is ill-formed, which 
 
 The name `std::compare_weak_order_fallback` denotes a _customization point object_ , which is a const [function object](../../named_req/FunctionObject.html "cpp/named req/FunctionObject") of a [literal](../../named_req/LiteralType.html "cpp/named req/LiteralType") [`semiregular`](../../concepts/semiregular.html "cpp/concepts/semiregular") class type. See [CustomizationPointObject](../../named_req/CustomizationPointObject.html "cpp/named req/CustomizationPointObject") for details. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/compare/compare_weak_order_fallback&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -247,7 +247,7 @@ Output:
     4) equal
     5) equal
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/compare/compare_weak_order_fallback&action=edit&section=2 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -257,8 +257,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ([P2167R3](https://wg21.link/P2167R3))  | C++20  | the fallback mechanism only required  
 return types to be convertible to bool | constraints strengthened   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/compare/compare_weak_order_fallback&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ weak_order](weak_order.html "cpp/utility/compare/weak order")(C++20) |  performs 3-way comparison and produces a result of type `std::weak_ordering`  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/compare/dsc_weak_order&action=edit)  
+(customization point object)  
 ---|---

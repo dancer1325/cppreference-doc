@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](../empty.html "cpp/iterator/empty")(C++17)  
 [data](../data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 [`std::move_iterator`](../move_iterator.html "cpp/iterator/move iterator")
 
@@ -216,7 +216,7 @@ Non-member functions
 [iter_swap](iter_swap.html "cpp/iterator/move iterator/iter swap")(C++20)  
 [make_move_iterator](../make_move_iterator.html "cpp/iterator/make move iterator")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/move_iterator/navbar_content&action=edit)
+
 
 Defined in header `[<iterator>](../../header/iterator.html "cpp/header/iterator")` |  |   
 ---|---|---  
@@ -247,23 +247,23 @@ This overload participates in overload resolution only if it.base() + n is well-
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/move_iterator/operator%2B&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 n  |  \-  |  the number of positions to increment the iterator   
 ---|---|---  
 it  |  \-  |  the iterator adaptor to increment   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/move_iterator/operator%2B&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 it + n
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/move_iterator/operator%2B&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/move_iterator/operator%2B&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -273,10 +273,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 require it + n is well-formed and has type `Iter` | changed to  
 it.base() + n  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/move_iterator/operator%2B&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ operator++operator++(int)operator+=operator+operator--operator--(int)operator-=operator-](operator_arith.html "cpp/iterator/move iterator/operator arith") |  advances or decrements the `move_iterator`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_operator_arith&action=edit)  
+(public member function)   
 ---|---  
 [ operator-](operator-.html "cpp/iterator/move iterator/operator-")(C++11) |  computes the distance between two iterator adaptors   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_operator-&action=edit)
+(function template) 

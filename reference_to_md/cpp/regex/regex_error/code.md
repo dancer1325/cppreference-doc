@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Regular expressions library](../../regex.html "cpp/regex")
 
@@ -81,7 +81,7 @@ Constants
 Regex Grammar  
 [Modified ECMAScript-262](../ecmascript.html "cpp/regex/ecmascript")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/navbar_content&action=edit)
+
 
 [`std::regex_error`](../regex_error.html "cpp/regex/regex error")
 
@@ -91,7 +91,7 @@ Member functions
 [regex_error::operator=](operator=.html "cpp/regex/regex error/operator=")  
 **regex_error::code**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/regex_error/navbar_content&action=edit)
+
 
 Defined in header `[<regex>](../../header/regex.html "cpp/header/regex")` |  |   
 ---|---|---  
@@ -100,10 +100,10 @@ Defined in header `[<regex>](../../header/regex.html "cpp/header/regex")` |  |
   
 Returns the [std::regex_constants::error_type](../error_type.html "cpp/regex/error type") that was passed to the [std::regex_error](../regex_error.html "cpp/regex/regex error") constructor. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/regex_error/code&action=edit&section=1 "Edit section: See also")] See also
+### See also
 
 [ error_type](../error_type.html "cpp/regex/error type")(C++11) |  describes different types of matching errors   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/dsc_error_type&action=edit)  
+(typedef)   
 ---|---  
 [ (constructor)](regex_error.html "cpp/regex/regex error/regex error") |  constructs a `regex_error` object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/regex_error/dsc_regex_error&action=edit)
+(public member function) 

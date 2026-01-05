@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 **`std::chrono::year`**
 
@@ -126,7 +126,7 @@ Helper classes
 [formatter<std::chrono::year>](year/formatter.html "cpp/chrono/year/formatter")  
 [hash<std::chrono::year>](year/hash.html "cpp/chrono/year/hash")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/year/navbar_content&action=edit)
+
 
 Defined in header `[<chrono>](../header/chrono.html "cpp/header/chrono")` |  |   
 ---|---|---  
@@ -147,51 +147,51 @@ The class `year` represents a year in the [proleptic Gregorian calendar](https:/
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/year&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](year/year.html "cpp/chrono/year/year") |  constructs a `year`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/year/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ operator++operator++(int)operator--operator--(int)](year/operator_inc_dec.html "cpp/chrono/year/operator inc dec") |  increments or decrements the year   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/year/dsc_operator_inc_dec&action=edit)  
+(public member function)   
 [ operator+=operator-=](year/operator_arith.html "cpp/chrono/year/operator arith") |  adds or subtracts a number of years from a `year`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/year/dsc_operator_arith&action=edit)  
+(public member function)   
 [ operator+operator-](year/operator_sign.html "cpp/chrono/year/operator sign") |  applies unary operators to `year`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/year/dsc_operator_sign&action=edit)  
+(public member function)   
 [ is_leap](year/is_leap.html "cpp/chrono/year/is leap") |  determines if the year is a leap year   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/year/dsc_is_leap&action=edit)  
+(public member function)   
 [ operator int](year/operator_int.html "cpp/chrono/year/operator int") |  retrieve the year value   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/year/dsc_operator_int&action=edit)  
+(public member function)   
 [ ok](year/ok.html "cpp/chrono/year/ok") |  checks if the stored year value is valid   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/year/dsc_ok&action=edit)  
+(public member function)   
 [ min](year/min.html "cpp/chrono/year/min")[static] |  returns the smallest possible year value   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/year/dsc_min&action=edit)  
+(public static member function)   
 [ max](year/max.html "cpp/chrono/year/max")[static] |  returns the largest possible `year`   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/year/dsc_max&action=edit)  
+(public static member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/year&action=edit&section=2 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ operator==operator<=>](year/operator_cmp.html "cpp/chrono/year/operator cmp")(C++20) |  compares two `year` values   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/year/dsc_operator_cmp&action=edit)  
+(function)   
 ---|---  
 [ operator+operator-](year/operator_arith_2.html "cpp/chrono/year/operator arith 2")(C++20) |  performs arithmetic on `year`s   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/year/dsc_operator_arith_2&action=edit)  
+(function)   
 [ operator<<](year/operator_ltlt.html "cpp/chrono/year/operator ltlt")(C++20) |  outputs a `year` into a stream   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/year/dsc_operator_ltlt&action=edit)  
+(function template)   
 [ from_stream](year/from_stream.html "cpp/chrono/year/from stream")(C++20) |  parses a `year` from a stream according to the provided format   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/year/dsc_from_stream&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/year&action=edit&section=3 "Edit section: Helper classes")] Helper classes
+### Helper classes
 
 [ std::formatter<std::chrono::year>](year/formatter.html "cpp/chrono/year/formatter")(C++20) |  formatting support for `year`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_formatter&action=edit)  
+(class template specialization)   
 ---|---  
 [ std::hash<std::chrono::year>](year/hash.html "cpp/chrono/year/hash")(C++26) |  hash support for **`std::chrono::year`**   
 (class template specialization)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/year&action=edit&section=4 "Edit section: Literals")] Literals
+### Literals
 
 Defined in inline namespace `std::literals::chrono_literals`  
 ---  
 [ operator""y](operator""y.html "cpp/chrono/operator""y")(C++20) |  a std::chrono::year literal representing a particular year   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_operator%22%22y&action=edit)
+(function) 

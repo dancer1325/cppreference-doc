@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Regular expressions library](../../regex.html "cpp/regex")
 
@@ -81,7 +81,7 @@ Constants
 Regex Grammar  
 [Modified ECMAScript-262](../ecmascript.html "cpp/regex/ecmascript")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/navbar_content&action=edit)
+
 
 [`std::regex_traits`](../regex_traits.html "cpp/regex/regex traits")
 
@@ -100,7 +100,7 @@ Member functions
 [regex_traits::imbue](imbue.html "cpp/regex/regex traits/imbue")  
 [regex_traits::getloc](getloc.html "cpp/regex/regex traits/getloc")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/regex_traits/navbar_content&action=edit)
+
 
 template< class ForwardIt >  
 string_type transform( ForwardIt first, ForwardIt last) const; |  |   
@@ -113,18 +113,18 @@ For example, when the regex flag [std::regex_constants::collate](../syntax_optio
 
 Standard library specializations of [std::regex_traits](../regex_traits.html "cpp/regex/regex traits") return [std::use_facet](../../locale/use_facet.html)<[std::collate](../../locale/collate.html)<CharT>>(getloc()).transform(str.data(), str.data() + str.length()) for some temporary string `str` constructed as string_type str(first, last). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/regex_traits/transform&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  a pair of [LegacyForwardIterators](../../named_req/ForwardIterator.html "cpp/named req/ForwardIterator") which determines the sequence of characters to compare   
 ---|---|---  
 Type requirements   
 -`ForwardIt` must meet the requirements of [LegacyForwardIterator](../../named_req/ForwardIterator.html "cpp/named req/ForwardIterator").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/regex_traits/transform&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The collation key for the character sequence `[`first`, `last`)` in the currently imbued locale. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/regex_traits/transform&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

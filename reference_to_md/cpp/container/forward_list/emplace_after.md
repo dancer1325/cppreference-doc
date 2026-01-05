@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -71,7 +71,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::forward_list`](../forward_list.html "cpp/container/forward list")
 
@@ -126,7 +126,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/forward list/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/forward_list/navbar_content&action=edit)
+
 
 template< class... Args >  
 iterator emplace_after( const_iterator pos, Args&&... args ); |  | (since C++11)   
@@ -157,25 +157,25 @@ No iterators or references are invalidated.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/forward_list/emplace_after&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 pos  |  \-  |  iterator after which the new element will be constructed   
 ---|---|---  
 args  |  \-  |  arguments to forward to the constructor of the element   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/forward_list/emplace_after&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Iterator to the new element. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/forward_list/emplace_after&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Constant. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/forward_list/emplace_after&action=edit&section=4 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 If an exception is thrown for any reason, this function has no effect ([strong exception safety guarantee](../../language/exceptions.html#Exception_safety "cpp/language/exceptions")). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/forward_list/emplace_after&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 The example demonstrates a canonical filling of a single-linked list in natural (as opposed to reverse) order.
 
@@ -231,8 +231,8 @@ Output:
     1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 = 36
     1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 = 45
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/forward_list/emplace_after&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ insert_after](insert_after.html "cpp/container/forward list/insert after") |  inserts elements after an element   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_insert_after&action=edit)  
+(public member function)   
 ---|---

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ named requirements](../iterator/concepts.html "cpp/named req")
 
@@ -147,11 +147,11 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/named_req/navbar_content&action=edit)
+
 
 Specifies that an instance of the type can be assigned from an [rvalue](../language/value_category.html "cpp/language/value category") argument. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/MoveAssignable&action=edit&section=1 "Edit section: Requirements")] Requirements
+### Requirements
 
 The type `T` satisfies MoveAssignable if 
 
@@ -168,16 +168,16 @@ Expression | Return type | Return value | Post-conditions
 ---|---|---|---  
 t = rv | `T&` | `t` | If `t` and `rv` do not refer to the same object, the value of `t` is equivalent to the value of `rv` before the assignment. The new value of `rv` is unspecified.   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/MoveAssignable&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 The type does not have to implement [move assignment operator](../language/move_operator.html "cpp/language/move operator") in order to satisfy this type requirement: a [copy assignment operator](../language/as_operator.html "cpp/language/as operator") that takes its parameter by value or as a `const Type&`, will bind to rvalue argument. 
 
 If a MoveAssignable class implements a move assignment operator, it may also implement [move semantics](../utility/move.html "cpp/utility/move") to take advantage of the fact that the value of `rv` after assignment is unspecified. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/MoveAssignable&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ is_move_assignableis_trivially_move_assignableis_nothrow_move_assignable](../types/is_move_assignable.html "cpp/types/is move assignable")(C++11)(C++11)(C++11) |  checks if a type has a move assignment operator   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_move_assignable&action=edit)  
+(class template)   
 ---|---  
 [ assignable_from](../concepts/assignable_from.html "cpp/concepts/assignable from")(C++20) |  specifies that a type is assignable from another type   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_assignable_from&action=edit)
+(concept) 

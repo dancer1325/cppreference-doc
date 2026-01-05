@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Function objects](../../functional.html "cpp/utility/functional")
 
@@ -255,7 +255,7 @@ Identity function object
 [unary_negate](unary_negate.html "cpp/utility/functional/unary negate")(until C++20*)  
 [binary_negate](binary_negate.html "cpp/utility/functional/binary negate")(until C++20*)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/navbar_content&action=edit)
+
 
 Defined in header `[<functional>](../../header/functional.html "cpp/header/functional")` |  |   
 ---|---|---  
@@ -277,16 +277,16 @@ class plus<void>; |  |  (since C++14)
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/plus_void&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Type  |  Definition   
 ---|---  
 `is_transparent` |  [unspecified](../../functional.html#Transparent_function_objects "cpp/utility/functional")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/plus_void&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 ** operator()** |  returns the sum of two arguments   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/plus_void/dsc_operator\(\)&action=edit)  
+(public member function) &action=edit)  
 ---|---  
   
 ##  std::plus<void>::operator()
@@ -308,7 +308,7 @@ lhs, rhs  |  \-  |  values to sum
 
 [std::forward](../forward.html)<T>(lhs) + [std::forward](../forward.html)<U>(rhs). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/plus_void&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     

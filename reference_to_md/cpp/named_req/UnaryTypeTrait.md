@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ named requirements](../iterator/concepts.html "cpp/named req")
 
@@ -147,11 +147,11 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/named_req/navbar_content&action=edit)
+
 
 A **UnaryTypeTrait** is a class template that describes a property of its template type parameter with an [std::integral_constant](../types/integral_constant.html "cpp/types/integral constant") (typically [std::bool_constant](../types/integral_constant.html "cpp/types/integral constant")) specialization. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/UnaryTypeTrait&action=edit&section=1 "Edit section: Requirements")] Requirements
+### Requirements
 
   * [DefaultConstructible](DefaultConstructible.html "cpp/named req/DefaultConstructible") and [CopyConstructible](CopyConstructible.html "cpp/named req/CopyConstructible"). 
   * Takes one template type parameter (additional template parameters are optional and allowed). 
@@ -160,7 +160,7 @@ A **UnaryTypeTrait** is a class template that describes a property of its templa
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/UnaryTypeTrait&action=edit&section=2 "Edit section: Standard library")] Standard library
+### Standard library
 
 The following [type traits](../meta.html "cpp/meta") all satisfy UnaryTypeTrait: 
 
@@ -178,18 +178,18 @@ The following standard library class templates also satisfy UnaryTypeTrait.
 (class template)  
 ---|---  
 [ negation](../types/negation.html "cpp/types/negation")(C++17) |  logical NOT metafunction   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_negation&action=edit)  
+(class template)   
 [ std::tuple_size<std::tuple>](../utility/tuple/tuple_size.html "cpp/utility/tuple/tuple size")(C++11) |  obtains the size of a `tuple`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/dsc_tuple_size&action=edit)  
+(class template specialization)   
 [ std::tuple_size<std::array>](../container/array/tuple_size.html "cpp/container/array/tuple size")(C++11) |  obtains the size of an `array`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/array/dsc_tuple_size&action=edit)  
+(class template specialization)   
 [ std::tuple_size<std::pair>](../utility/pair/tuple_size.html "cpp/utility/pair/tuple size")(C++11) |  obtains the size of a `pair`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/pair/dsc_tuple_size&action=edit)  
+(class template specialization)   
 [ variant_sizevariant_size_v](../utility/variant/variant_size.html "cpp/utility/variant/variant size")(C++17) |  obtains the size of the `variant`'s list of alternatives at compile time  
-(class template) (variable template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variant/dsc_variant_size&action=edit)  
+(class template) (variable template)  
 [ is_bind_expression](../utility/functional/is_bind_expression.html "cpp/utility/functional/is bind expression")(C++11) |  indicates that an object is `std::bind` expression or can be used as one   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_is_bind_expression&action=edit)  
+(class template)   
 [ is_placeholder](../utility/functional/is_placeholder.html "cpp/utility/functional/is placeholder")(C++11) |  indicates that an object is a standard placeholder or can be used as one   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_is_placeholder&action=edit)  
+(class template)   
 [ is_execution_policy](../algorithm/is_execution_policy.html "cpp/algorithm/is execution policy")(C++17) |  test whether a class represents an execution policy   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_is_execution_policy&action=edit)
+(class template) 

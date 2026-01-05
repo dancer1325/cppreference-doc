@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::latch`](../latch.html "cpp/thread/latch")
 
@@ -188,7 +188,7 @@ Member functions
 Constants  
 [latch::max](max.html "cpp/thread/latch/max")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/latch/navbar_content&action=edit)
+
 
 void arrive_and_wait( [std::ptrdiff_t](../../types/ptrdiff_t.html) n = 1 ); |  |  (since C++20)  
 ---|---|---  
@@ -198,15 +198,15 @@ Atomically decrements the internal counter by n and (if necessary) blocks the ca
 
 If n is greater than the value of the internal counter or is negative, the behavior is undefined. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/latch/arrive_and_wait&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 n  |  \-  |  the value by which the internal counter is decreased   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/latch/arrive_and_wait&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/latch/arrive_and_wait&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Throws [std::system_error](../../error/system_error.html "cpp/error/system error") with an error code allowed for mutex types on error. 

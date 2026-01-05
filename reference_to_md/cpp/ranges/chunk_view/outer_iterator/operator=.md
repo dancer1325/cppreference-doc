@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::chunk_view`](../../chunk_view.html "cpp/ranges/chunk view")
 
@@ -299,7 +299,7 @@ operator-(chunk_view::_iterator_)](../iterator/operator_arith2.html "cpp/ranges/
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/chunk_view/navbar_content&action=edit)
+
 
 /*outer-iterator*/& operator=( /*outer-iterator*/&& other ) = default; |  |  (since C++23)  
 ---|---|---  
@@ -309,12 +309,12 @@ Assigns another iterator. This [move assignment](../../../language/move_operator
 
 Moves the underlying pointer other.[`_parent__`](../outer_iterator.html#Data_members "cpp/ranges/chunk view/outer iterator") to `_parent__`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/chunk_view/outer_iterator/operator%3D&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 other  |  \-  |  an [iterator](../outer_iterator.html "cpp/ranges/chunk view/outer iterator")  
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/chunk_view/outer_iterator/operator%3D&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ (constructor)](outer_iterator.html "cpp/ranges/chunk view/outer iterator/outer iterator")(C++23) |  constructs an iterator   
 (public member function)  

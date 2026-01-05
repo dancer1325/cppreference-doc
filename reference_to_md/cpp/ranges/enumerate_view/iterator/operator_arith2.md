@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::enumerate_view`](../../enumerate_view.html "cpp/ranges/enumerate view")
 
@@ -261,7 +261,7 @@ operator-(enumerate_view::_iterator_)**
 [operator==(enumerate_view::_iterator_ ,enumerate_view::_sentinel_)](../sentinel/operator_cmp.html "cpp/ranges/enumerate view/sentinel/operator cmp")  
 [operator-(enumerate_view::_iterator_ ,enumerate_view::_sentinel_)](../sentinel/operator-.html "cpp/ranges/enumerate view/sentinel/operator-")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/enumerate_view/navbar_content&action=edit)
+
 
 friend constexpr /* iterator */  
 operator+( const /* iterator */& i, difference_type n )  
@@ -304,13 +304,13 @@ These functions are not visible to ordinary [unqualified](../../../language/unqu
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/enumerate_view/iterator/operator_arith2&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 i, j  |  \-  |  the iterators   
 ---|---|---  
 n  |  \-  |  position relative to current location   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/enumerate_view/iterator/operator_arith2&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1,2) An incremented iterator.
 
@@ -318,13 +318,13 @@ n  |  \-  |  position relative to current location
 
 4) A distance between given iterators.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/enumerate_view/iterator/operator_arith2&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/enumerate_view/iterator/operator_arith2&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -332,8 +332,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 3912](https://cplusplus.github.io/LWG/issue3912) | C++23  | overload (4) was not noexcept | it is noexcept  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/enumerate_view/iterator/operator_arith2&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ operator++operator++(int)operator--operator--(int)operator+=operator-=](operator_arith.html "cpp/ranges/enumerate view/iterator/operator arith") |  advances or decrements the underlying iterator   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/iterator/dsc_operator_arith&action=edit)  
+(public member function)   
 ---|---

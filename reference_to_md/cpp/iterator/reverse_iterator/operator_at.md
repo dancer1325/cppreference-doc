@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](../empty.html "cpp/iterator/empty")(C++17)  
 [data](../data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 [`std::reverse_iterator`](../reverse_iterator.html "cpp/iterator/reverse iterator")
 
@@ -214,7 +214,7 @@
 [iter_swap](iter_swap.html "cpp/iterator/reverse iterator/iter swap")(C++20)  
 [make_reverse_iterator](../make_reverse_iterator.html "cpp/iterator/make reverse iterator")(C++14)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/reverse_iterator/navbar_content&action=edit)
+
 
 /* unspecified */ operator[]( difference_type n ) const; |  | (constexpr since C++17)  
 ---|---|---  
@@ -234,22 +234,22 @@ Returns a reference to the element at specified relative location.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/reverse_iterator/operator_at&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 n  |  \-  |  position relative to current location   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/reverse_iterator/operator_at&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 `[current](../reverse_iterator.html#current "cpp/iterator/reverse iterator")`[-n - 1]
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/reverse_iterator/operator_at&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 The return type was changed by [LWG issue 386](https://cplusplus.github.io/LWG/issue386) to be unspecified because the return type of the underlying iterator's operator[] was also unspecified at the time. 
 
 However, as of [N3066](https://wg21.link/N3066), the return type of a [LegacyRandomAccessIterator](../../named_req/RandomAccessIterator.html "cpp/named req/RandomAccessIterator")'s operator[] is required to be convertible to reference. In all common implementations, the return type is declared to be reference. See also [LWG issue 2595](https://cplusplus.github.io/LWG/issue2595). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/reverse_iterator/operator_at&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -293,7 +293,7 @@ Output:
     3 2 1 0
     3 2 1 0
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/reverse_iterator/operator_at&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -301,8 +301,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 386](https://cplusplus.github.io/LWG/issue386) | C++98  | the return type was `reference` | made unspecified   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/reverse_iterator/operator_at&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ operator*operator->](operator*.html "cpp/iterator/reverse iterator/operator*") |  accesses the pointed-to element   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_operator*&action=edit)  
+(public member function)   
 ---|---

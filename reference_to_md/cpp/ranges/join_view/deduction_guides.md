@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::join_view`](../join_view.html "cpp/ranges/join view")
 
@@ -251,7 +251,7 @@ join_view::_iterator_ ::operator--(int)](iterator/operator_arith.html "cpp/range
 [join_view::_sentinel_ ::_sentinel_](sentinel/sentinel.html "cpp/ranges/join view/sentinel/sentinel")  
 [operator==(join_view::_iterator_ ,join_view::_sentinel_)](sentinel/operator_cmp.html "cpp/ranges/join view/sentinel/operator cmp")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/join_view/navbar_content&action=edit)
+
 
 template<class R>  
 explicit join_view(R&&) -> join_view<[views::all_t](../all_view.html)<R>>; |  |  (since C++20)  
@@ -260,7 +260,7 @@ explicit join_view(R&&) -> join_view<[views::all_t](../all_view.html)<R>>; |  | 
   
 The [deduction guide](../../language/ctad.html "cpp/language/class template argument deduction") is provided for std::ranges::join_view to allow deduction from [`range`](../range.html "cpp/ranges/range"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/join_view/deduction_guides&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

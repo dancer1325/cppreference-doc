@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Coroutine support](../../coroutine.html "cpp/coroutine")
 
@@ -146,7 +146,7 @@ Trivial awaitables
 Range generators  
 [generator](../generator.html "cpp/coroutine/generator")(C++23)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/coroutine/navbar_content&action=edit)
+
 
 [`std::coroutine_handle`](../coroutine_handle.html "cpp/coroutine/coroutine handle")
 
@@ -173,7 +173,7 @@ Non-member functions
 Helper classes  
 [hash<std::coroutine_handle>](hash.html "cpp/coroutine/coroutine handle/hash")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/coroutine/coroutine_handle/navbar_content&action=edit)
+
 
 Defined in header `[<coroutine>](../../header/coroutine.html "cpp/header/coroutine")` |  |   
 ---|---|---  
@@ -197,22 +197,22 @@ The `<`, `<=`, `>`, `>=`, and `!=` operators are [synthesized](../../language/op
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/coroutine/coroutine_handle/operator_cmp&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 x, y  |  \-  |  [std::coroutine_handle](../coroutine_handle.html)<> values to compare   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/coroutine/coroutine_handle/operator_cmp&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) x.address() == y.address()
 
 2) [std::compare_three_way](../../utility/compare/compare_three_way.html){}(x.address(), y.address())
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/coroutine/coroutine_handle/operator_cmp&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Although these operators are only overloaded for [std::coroutine_handle](../coroutine_handle.html)<>, other specializations of [std::coroutine_handle](../coroutine_handle.html "cpp/coroutine/coroutine handle") are also equality comparable and three-way comparable, because they are implicitly convertible to [std::coroutine_handle](../coroutine_handle.html)<>. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/coroutine/coroutine_handle/operator_cmp&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

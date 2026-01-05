@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -175,7 +175,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::recursive_timed_mutex`](../recursive_timed_mutex.html "cpp/thread/recursive timed mutex")
 
@@ -192,7 +192,7 @@ Locking
 Native handle  
 [recursive_timed_mutex::native_handle](native_handle.html "cpp/thread/recursive timed mutex/native handle")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/recursive_timed_mutex/navbar_content&action=edit)
+
 
 void unlock(); |  |  (since C++11)  
 ---|---|---  
@@ -202,27 +202,27 @@ Unlocks the mutex if its level of ownership is 1 (there was exactly one more cal
 
 This operation _synchronizes-with_ (as defined in [std::memory_order](../../atomic/memory_order.html "cpp/atomic/memory order")) any subsequent lock operation that obtains ownership of the same mutex. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/mutex/unlock&action=edit&section=T-1 "Template:cpp/thread/mutex/unlock")] Notes
+### Notes
 
 `unlock()` is usually not called directly: [std::unique_lock](../unique_lock.html "cpp/thread/unique lock") and [std::lock_guard](../lock_guard.html "cpp/thread/lock guard") are used to manage exclusive locking. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/mutex/unlock&action=edit&section=T-2 "Template:cpp/thread/mutex/unlock")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/mutex/unlock&action=edit&section=T-3 "Template:cpp/thread/mutex/unlock")] See also
+### See also
 
 [ lock](lock.html "cpp/thread/recursive timed mutex/lock") |  locks the mutex, blocks if the mutex is not available   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/mutex/dsc_lock&action=edit)  
+(public member function)   
 ---|---  
 [ try_lock](try_lock.html "cpp/thread/recursive timed mutex/try lock") |  tries to lock the mutex, returns if the mutex is not available   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/mutex/dsc_try_lock&action=edit)  
+(public member function)   
 [ try_lock_for](try_lock_for.html "cpp/thread/recursive timed mutex/try lock for") |  tries to lock the mutex, returns if the mutex has been  
 unavailable for the specified timeout duration   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/mutex/dsc_try_lock_for&action=edit)  
+(public member function)   
 [ try_lock_until](try_lock_until.html "cpp/thread/recursive timed mutex/try lock until") |  tries to lock the mutex, returns if the mutex has been  
 unavailable until specified time point has been reached   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/mutex/dsc_try_lock_until&action=edit)  
+(public member function)   
 [C documentation](../../../c/thread/mtx_unlock.html "c/thread/mtx unlock") for mtx_unlock

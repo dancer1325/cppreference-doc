@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [C-style date and time utilities](../c.html "cpp/chrono/c")
 
@@ -128,7 +128,7 @@ Types
 [clock_t](clock_t.html "cpp/chrono/c/clock t")  
 [timespec](timespec.html "cpp/chrono/c/timespec")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/c/navbar_content&action=edit)
+
 
 Defined in header `[<cwchar>](../../header/cwchar.html "cpp/header/cwchar")` |  |   
 ---|---|---  
@@ -148,7 +148,7 @@ Converts the date and time information from a given calendar time time to a null
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/c/wcsftime&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 str  |  \-  |  pointer to the first element of the wchar_t array for output   
 ---|---|---  
@@ -156,7 +156,7 @@ count  |  \-  |  maximum number of wide characters to write
 format  |  \-  |  pointer to a null-terminated wide character string specifying the [format of conversion](wcsftime.html#Format_string)  
 time  |  \-  |  pointer to the date and time information to be converted   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/c/wcsftime&action=edit&section=2 "Edit section: Format string")] Format string
+### Format string
 
 The format string consists of zero or more conversion specifiers and ordinary characters (except `%`). All ordinary characters, including the terminating null character, are copied to the output string without modification. Each conversion specification begins with `%` character, optionally followed by `E` or `O` modifier (ignored if unsupported by the locale), followed by the character that determines the behavior of the specifier. The following format specifiers are available: 
 
@@ -276,11 +276,11 @@ Other
 (C++11) |  writes **offset from UTC** in the ISO 8601 format (e.g. `-0430`), or no characters if the time zone information is not available  |  `**tm_isdst**`  
 `Z` |  writes locale-dependent **time zone name or abbreviation** , or no characters if the time zone information is not available  |  `**tm_isdst**`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/c/wcsftime&action=edit&section=3 "Edit section: Return value")] Return value
+### Return value
 
 Number of wide characters written into the wide character array pointed to by str not including the terminating L'\0' on success. If count was reached before the entire string could be stored, ​0​ is returned and the contents are undefined. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/c/wcsftime&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -304,11 +304,11 @@ Possible output:
     
     火曜日 2011年12月27日 17時43分13秒
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/c/wcsftime&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ strftime](strftime.html "cpp/chrono/c/strftime") |  converts a [std::tm](tm.html "cpp/chrono/c/tm") object to custom textual representation   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/c/dsc_strftime&action=edit)  
+(function)   
 ---|---  
 [ put_time](../../io/manip/put_time.html "cpp/io/manip/put time")(C++11) |  formats and outputs a date/time value according to the specified format   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_put_time&action=edit)  
+(function template)   
 [C documentation](../../../c/chrono/wcsftime.html "c/chrono/wcsftime") for wcsftime

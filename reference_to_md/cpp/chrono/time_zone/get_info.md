@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::time_zone`](../time_zone.html "cpp/chrono/time zone")
 
@@ -114,7 +114,7 @@ Member functions
 Nonmember functions  
 [operator==operator<=>](operator_cmp.html "cpp/chrono/time zone/operator cmp")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_zone/navbar_content&action=edit)
+
 
 template< class Duration >  
 [std::chrono::sys_info](../sys_info.html) get_info( const [std::chrono::sys_time](../system_clock.html)<Duration>& tp ) const; |  |  (since C++20)  
@@ -125,7 +125,7 @@ template< class Duration >
   
 Obtains information about this time zone at the time point tp. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/time_zone/get_info&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 1) A std::chrono::sys_info structure `i` containing the time zone information in effect for this time zone at the time point tp. tp will be in the range `[`i.begin`, `i.end`)`.
 

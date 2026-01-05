@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](ranges/copy.html "cpp/algorithm/ra
 [uninitialized_default_construct_n](../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -361,7 +361,7 @@ If any of the following conditions is satisfied, the behavior is undefined:
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/partial_sort&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  the pair of iterators defining the [range](../iterator.html#Ranges "cpp/iterator") of elements to rearrange   
 ---|---|---  
@@ -374,7 +374,7 @@ Type requirements
 -`RandomIt` must meet the requirements of [LegacyRandomAccessIterator](../named_req/RandomAccessIterator.html "cpp/named req/RandomAccessIterator").   
 -`Compare` must meet the requirements of [Compare](../named_req/Compare.html "cpp/named req/Compare").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/partial_sort&action=edit&section=2 "Edit section: Complexity")] Complexity
+### Complexity
 
 Given \\(\scriptsize M\\)M as middle - first, \\(\scriptsize N\\)N as last - first: 
 
@@ -382,7 +382,7 @@ Given \\(\scriptsize M\\)M as middle - first, \\(\scriptsize N\\)N as last - fir
 
 3,4) Approximately \\(\scriptsize N \cdot \log(M)\\)N·log(M) applications of the comparator comp.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/partial_sort&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 The overloads with a template parameter named `ExecutionPolicy` report errors as follows: 
 
@@ -391,7 +391,7 @@ The overloads with a template parameter named `ExecutionPolicy` report errors as
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/partial_sort&action=edit&section=4 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
 
 See also the implementations in [libstdc++](https://github.com/gcc-mirror/gcc/blob/d9375e490072d1aae73a93949aa158fcd2a27018/libstdc%2B%2B-v3/include/bits/stl_algo.h#L1915) and [libc++](https://github.com/llvm-mirror/libcxx/blob/a12cb9d211019d99b5875b6d8034617cbc24c2cc/include/algorithm#L5025). 
 
@@ -459,9 +459,9 @@ See also the implementations in [libstdc++](https://github.com/gcc-mirror/gcc/bl
         [std::sort_heap](sort_heap.html)(first, middle, comp);
     }  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/partial_sort&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/partial_sort&action=edit&section=6 "Edit section: Algorithm")] Algorithm
+#### Algorithm
 
 The algorithm used is typically _heap select_ to select the smallest elements, and _heap sort_ to sort the selected elements in the heap in ascending order. 
 
@@ -469,11 +469,11 @@ To select elements, a heap is used (see [heap](https://en.wikipedia.org/wiki/Hea
 
 [Heap sort](https://en.wikipedia.org/wiki/Heapsort "enwiki:Heapsort") is used after selection to sort `[`first`, `middle`)` selected elements (see [std::sort_heap](sort_heap.html "cpp/algorithm/sort heap")). 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/partial_sort&action=edit&section=7 "Edit section: Intended use")] Intended use
+#### Intended use
 
 `std::partial_sort` algorithms are intended to be used for _small constant numbers_ of `[`first`, `middle`)` selected elements. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/partial_sort&action=edit&section=8 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -529,7 +529,7 @@ Possible output:
     4 3 2 1 0 5 6 7 8 9
             ^----------
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/partial_sort&action=edit&section=9 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -539,16 +539,16 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 were not required to be valid ranges  | the behavior is undefined  
 if any of them is invalid   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/partial_sort&action=edit&section=10 "Edit section: See also")] See also
+### See also
 
 [ nth_element](nth_element.html "cpp/algorithm/nth element") |  partially sorts the given range making sure that it is partitioned by the given element   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_nth_element&action=edit)  
+(function template)   
 ---|---  
 [ partial_sort_copy](partial_sort_copy.html "cpp/algorithm/partial sort copy") |  copies and partially sorts a range of elements   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_partial_sort_copy&action=edit)  
+(function template)   
 [ stable_sort](stable_sort.html "cpp/algorithm/stable sort") |  sorts a range of elements while preserving order between equal elements   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_stable_sort&action=edit)  
+(function template)   
 [ sort](sort.html "cpp/algorithm/sort") |  sorts a range into ascending order   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_sort&action=edit)  
+(function template)   
 [ ranges::partial_sort](ranges/partial_sort.html "cpp/algorithm/ranges/partial sort")(C++20) |  sorts the first N elements of a range  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_partial_sort&action=edit)
+(algorithm function object)

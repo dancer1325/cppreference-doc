@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Program support utilities](../program.html "cpp/utility/program")
 
@@ -181,7 +181,7 @@ Common vocabulary types
 [Types](../program.html#Types "cpp/utility/program")  
 [jmp_buf](jmp_buf.html "cpp/utility/program/jmp buf")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/program/navbar_content&action=edit)
+
 
 Defined in header `[<cstdlib>](../../header/cstdlib.html "cpp/header/cstdlib")` |  |   
 ---|---|---  
@@ -208,20 +208,20 @@ A freestanding implementation is required to provide `std::_Exit`.  | (since C++
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/program/_Exit&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 exit_code  |  \-  |  exit status of the program   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/program/_Exit&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/program/_Exit&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Although `_Exit` is required to be freestanding since C++23, it is not required to be available in a freestanding C implementation. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/program/_Exit&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -276,11 +276,11 @@ Output:
     
     test
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/program/_Exit&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ abort](abort.html "cpp/utility/program/abort") |  causes abnormal program termination (without cleaning up)   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/program/dsc_abort&action=edit)  
+(function)   
 ---|---  
 [ exit](exit.html "cpp/utility/program/exit") |  causes normal program termination with cleaning up   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/program/dsc_exit&action=edit)  
+(function)   
 [C documentation](../../../c/program/_Exit.html "c/program/ Exit") for _Exit

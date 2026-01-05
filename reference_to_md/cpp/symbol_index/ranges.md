@@ -21,14 +21,14 @@
 [Removed symbols (Zombie names)](zombie_names.html "cpp/symbol index/zombie names")  
 [Exposition-only symbols](expos.html "cpp/symbol index/expos")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/symbol_index/navbar_content&action=edit)
+
 
 **`std::ranges`**
 
 [std::ranges::views](views.html "cpp/symbol index/views")(C++20)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/symbol_index/ranges/navbar_content&action=edit)
+
 
 This page tries to list all the symbols that are available from the [standard library](../standard_library.html "cpp/standard library") ([ranges library](../ranges.html "cpp/ranges")) in the namespace std::ranges. The symbols are written as follows: 
 
@@ -75,7 +75,7 @@ Symbols from std::ranges's sub-namespaces (e.g. views) are not listed here, but 
   
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/ranges&action=edit&section=2 "Edit section: A")] A
+### A
 
 [`adjacent_find`](../algorithm/ranges/adjacent_find.html "cpp/algorithm/ranges/adjacent find") (since C++23)  
 [`adjacent_transform_view`](../ranges/adjacent_transform_view.html "cpp/ranges/adjacent transform view")<> (since C++23)  
@@ -88,7 +88,7 @@ Symbols from std::ranges's sub-namespaces (e.g. views) are not listed here, but 
 [`as_rvalue_view`](../ranges/as_rvalue_view.html "cpp/ranges/as rvalue view")<> (since C++23)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/ranges&action=edit&section=3 "Edit section: B")] B
+### B
 
 [`basic_istream_view`](../ranges/basic_istream_view.html "cpp/ranges/basic istream view")<> (since C++20)  
 [`begin`](../ranges/begin.html "cpp/ranges/begin") (since C++20)  
@@ -100,7 +100,7 @@ Symbols from std::ranges's sub-namespaces (e.g. views) are not listed here, but 
 [`borrowed_subrange_t`](../ranges/borrowed_iterator_t.html "cpp/ranges/borrowed iterator t")<> (since C++20)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/ranges&action=edit&section=4 "Edit section: C")] C
+### C
 
 [`cache_latest_view`](../ranges/cache_latest_view.html "cpp/ranges/cache latest view")<> (since C++26)  
 [`cartesian_product_view`](../ranges/cartesian_product_view.html "cpp/ranges/cartesian product view")<> (since C++23)  
@@ -134,7 +134,7 @@ Symbols from std::ranges's sub-namespaces (e.g. views) are not listed here, but 
 [`crend`](../ranges/crend.html "cpp/ranges/crend") (since C++20)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/ranges&action=edit&section=5 "Edit section: D")] D
+### D
 
 [`dangling`](../ranges/dangling.html "cpp/ranges/dangling") (since C++20)  
 [`data`](../ranges/data.html "cpp/ranges/data") (since C++20)  
@@ -147,7 +147,7 @@ Symbols from std::ranges's sub-namespaces (e.g. views) are not listed here, but 
 [`drop_while_view`](../ranges/drop_while_view.html "cpp/ranges/drop while view")<> (since C++20)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/ranges&action=edit&section=6 "Edit section: E")] E
+### E
 
 [`elements_of`](../ranges/elements_of.html "cpp/ranges/elements of")<> (since C++23)  
 [`elements_view`](../ranges/elements_view.html "cpp/ranges/elements view")<> (since C++20)  
@@ -163,7 +163,7 @@ Symbols from std::ranges's sub-namespaces (e.g. views) are not listed here, but 
 [`equal_to`](../utility/functional/ranges/equal_to.html "cpp/utility/functional/ranges/equal to") (since C++20)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/ranges&action=edit&section=7 "Edit section: F")] F
+### F
 
 [`fill`](../algorithm/ranges/fill.html "cpp/algorithm/ranges/fill") (since C++20)  
 [`fill_n`](../algorithm/ranges/fill_n.html "cpp/algorithm/ranges/fill n") (since C++20)  
@@ -189,7 +189,7 @@ Symbols from std::ranges's sub-namespaces (e.g. views) are not listed here, but 
 [`forward_range`](../ranges/forward_range.html "cpp/ranges/forward range")<> (since C++20)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/ranges&action=edit&section=8 "Edit section: G")] G
+### G
 
 [`generate`](../algorithm/ranges/generate.html "cpp/algorithm/ranges/generate") (since C++20)  
 [`generate_n`](../algorithm/ranges/generate_n.html "cpp/algorithm/ranges/generate n") (since C++20)  
@@ -198,7 +198,7 @@ Symbols from std::ranges's sub-namespaces (e.g. views) are not listed here, but 
 [`greater_equal`](../utility/functional/ranges/greater_equal.html "cpp/utility/functional/ranges/greater equal") (since C++20)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/ranges&action=edit&section=9 "Edit section: I")] I
+### I
 
 [`in_found_result`](../algorithm/ranges/return_types/in_found_result.html "cpp/algorithm/ranges/return types/in found result")<> (since C++20)  
 [`in_fun_result`](../algorithm/ranges/return_types/in_fun_result.html "cpp/algorithm/ranges/return types/in fun result")<> (since C++20)  
@@ -225,18 +225,18 @@ Symbols from std::ranges's sub-namespaces (e.g. views) are not listed here, but 
 [`iterator_t`](../ranges/iterator_t.html "cpp/ranges/iterator t")<> (since C++20)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/ranges&action=edit&section=10 "Edit section: J")] J
+### J
 
 [`join_view`](../ranges/join_view.html "cpp/ranges/join view")<> (since C++20)  
 [`join_with_view`](../ranges/join_with_view.html "cpp/ranges/join with view")<> (since C++23)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/ranges&action=edit&section=11 "Edit section: K")] K
+### K
 
 [`keys_view`](../ranges/keys_view.html "cpp/ranges/keys view")<> (since C++20)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/ranges&action=edit&section=12 "Edit section: L")] L
+### L
 
 [`lazy_split_view`](../ranges/lazy_split_view.html "cpp/ranges/lazy split view")<> (since C++20)  
 [`less`](../utility/functional/ranges/less.html "cpp/utility/functional/ranges/less") (since C++20)  
@@ -245,7 +245,7 @@ Symbols from std::ranges's sub-namespaces (e.g. views) are not listed here, but 
 [`lower_bound`](../algorithm/ranges/lower_bound.html "cpp/algorithm/ranges/lower bound") (since C++20)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/ranges&action=edit&section=13 "Edit section: M")] M
+### M
 
 [`make_heap`](../algorithm/ranges/make_heap.html "cpp/algorithm/ranges/make heap") (since C++20)  
 [`max`](../algorithm/ranges/max.html "cpp/algorithm/ranges/max") (since C++20)  
@@ -267,7 +267,7 @@ Symbols from std::ranges's sub-namespaces (e.g. views) are not listed here, but 
 [`move_result`](../algorithm/ranges/move.html "cpp/algorithm/ranges/move")<> (since C++20)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/ranges&action=edit&section=14 "Edit section: N")] N
+### N
 
 [`next`](../iterator/ranges/next.html "cpp/iterator/ranges/next") (since C++20)  
 [`next_permutation`](../algorithm/ranges/next_permutation.html "cpp/algorithm/ranges/next permutation") (since C++20)  
@@ -277,14 +277,14 @@ Symbols from std::ranges's sub-namespaces (e.g. views) are not listed here, but 
 [`nth_element`](../algorithm/ranges/nth_element.html "cpp/algorithm/ranges/nth element") (since C++20)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/ranges&action=edit&section=15 "Edit section: O")] O
+### O
 
 [`out_value_result`](../algorithm/ranges/return_types/out_value_result.html "cpp/algorithm/ranges/return types/out value result")<> (since C++23)  
 [`output_range`](../ranges/output_range.html "cpp/ranges/output range")<> (since C++20)  
 [`owning_view`](../ranges/owning_view.html "cpp/ranges/owning view")<> (since C++20)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/ranges&action=edit&section=16 "Edit section: P")] P
+### P
 
 [`partial_sort`](../algorithm/ranges/partial_sort.html "cpp/algorithm/ranges/partial sort") (since C++20)  
 [`partial_sort_copy`](../algorithm/ranges/partial_sort_copy.html "cpp/algorithm/ranges/partial sort copy") (since C++20)  
@@ -300,7 +300,7 @@ Symbols from std::ranges's sub-namespaces (e.g. views) are not listed here, but 
 [`push_heap`](../algorithm/ranges/push_heap.html "cpp/algorithm/ranges/push heap") (since C++20)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/ranges&action=edit&section=17 "Edit section: R")] R
+### R
 
 [`random_access_range`](../ranges/random_access_range.html "cpp/ranges/random access range")<> (since C++20)  
 [`range`](../ranges/range.html "cpp/ranges/range")<> (since C++20)  
@@ -337,7 +337,7 @@ Symbols from std::ranges's sub-namespaces (e.g. views) are not listed here, but 
 [`rotate_copy_result`](../algorithm/ranges/rotate_copy.html "cpp/algorithm/ranges/rotate copy")<> (since C++20)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/ranges&action=edit&section=18 "Edit section: S")] S
+### S
 
 [`sample`](../algorithm/ranges/sample.html "cpp/algorithm/ranges/sample") (since C++20)  
 [`search`](../algorithm/ranges/search.html "cpp/algorithm/ranges/search") (since C++20)  
@@ -373,7 +373,7 @@ Symbols from std::ranges's sub-namespaces (e.g. views) are not listed here, but 
 [`swap_ranges_result`](../algorithm/ranges/swap_ranges.html "cpp/algorithm/ranges/swap ranges")<> (since C++20)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/ranges&action=edit&section=19 "Edit section: T")] T
+### T
 
 [`take_view`](../ranges/take_view.html "cpp/ranges/take view")<> (since C++20)  
 [`take_while_view`](../ranges/take_while_view.html "cpp/ranges/take while view")<> (since C++20)  
@@ -383,7 +383,7 @@ Symbols from std::ranges's sub-namespaces (e.g. views) are not listed here, but 
 [`transform_view`](../ranges/transform_view.html "cpp/ranges/transform view")<> (since C++20)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/ranges&action=edit&section=20 "Edit section: U")] U
+### U
 
 [`unary_transform_result`](../algorithm/ranges/transform.html "cpp/algorithm/ranges/transform")<> (since C++20)  
 [`uninitialized_copy`](../memory/ranges/uninitialized_copy.html "cpp/memory/ranges/uninitialized copy") (since C++20)  
@@ -406,7 +406,7 @@ Symbols from std::ranges's sub-namespaces (e.g. views) are not listed here, but 
 [`upper_bound`](../algorithm/ranges/upper_bound.html "cpp/algorithm/ranges/upper bound") (since C++20)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/ranges&action=edit&section=21 "Edit section: V")] V
+### V
 
 [`values_view`](../ranges/values_view.html "cpp/ranges/values view")<> (since C++20)  
 [`view`](../ranges/view.html "cpp/ranges/view")<> (since C++20)  
@@ -416,12 +416,12 @@ Symbols from std::ranges's sub-namespaces (e.g. views) are not listed here, but 
 ▶ [`views`](views.html "cpp/symbol index/views") (since C++20)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/ranges&action=edit&section=22 "Edit section: W")] W
+### W
 
 [`wistream_view`](../ranges/basic_istream_view.html "cpp/ranges/basic istream view")<> (since C++20)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/ranges&action=edit&section=23 "Edit section: Z")] Z
+### Z
 
 [`zip_transform_view`](../ranges/zip_transform_view.html "cpp/ranges/zip transform view")<> (since C++23)  
 [`zip_view`](../ranges/zip_view.html "cpp/ranges/zip view")<> (since C++23)  

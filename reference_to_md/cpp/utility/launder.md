@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Memory management library](../memory.html "cpp/memory")
 
@@ -282,7 +282,7 @@ management](../memory/new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [Low level memory management](../memory/new.html "cpp/memory/new")
 
@@ -304,7 +304,7 @@ management](../memory/new.html#Low_level_memory_management "cpp/memory/new")
 [Object access](../memory/new.html#Object_access "cpp/memory/new")  
 **launder**(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/new/navbar_content&action=edit)
+
 
 Defined in header `[<new>](../header/new.html "cpp/header/new")` |  |   
 ---|---|---  
@@ -330,7 +330,7 @@ The program is ill-formed if `T` is a function type or (possibly cv-qualified) v
 
 `std::launder` may be used in a [core constant expression](../language/constant_expression.html "cpp/language/constant expression") if and only if the (converted) value of its argument may be used in place of the function invocation. In other words, `std::launder` does not relax restrictions in constant evaluation. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/launder&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 `std::launder` has no effect on its argument. Its return value must be used to access the object. Thus, it's always an error to discard the return value. 
 
@@ -363,7 +363,7 @@ The _reachability_ restriction ensures that `std::launder` cannot be used to acc
     // Undefined behavior: x5.y would be reachable through the resulting pointer to x5.a
     // but is not reachable from the source
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/launder&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -419,7 +419,7 @@ Run this code
         [](...){}(f, g, h); // evokes [[maybe_unused]] effect
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/launder&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [C-style I/O](../c.html "cpp/io/c")
 
@@ -176,7 +176,7 @@ Operations on files
 [tmpfile](tmpfile.html "cpp/io/c/tmpfile")  
 [tmpnam](tmpnam.html "cpp/io/c/tmpnam")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/navbar_content&action=edit)
+
 
 Defined in header `[<cwchar>](../../header/cwchar.html "cpp/header/cwchar")` |  |   
 ---|---|---  
@@ -195,18 +195,18 @@ Reads at most count - 1 wide characters from the given file stream and stores th
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/fgetws&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 str  |  \-  |  wide string to read the characters to   
 ---|---|---  
 count  |  \-  |  the length of str  
 stream  |  \-  |  file stream to read the data from   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/fgetws&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 str on success, a null pointer on an error. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/fgetws&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -270,13 +270,13 @@ Possible output:
     Icosaèdre...  0049 0063 006F 0073 0061 00E8 0064 0072 0065 000A 0000 0000 
     Dodécaèdre..  0044 006F 0064 00E9 0063 0061 00E8 0064 0072 0065 000A 0000
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/fgetws&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ wscanffwscanfswscanf](fwscanf.html "cpp/io/c/fwscanf") |  reads formatted wide character input from [stdin](std_streams.html "cpp/io/c/std streams"), a file stream or a buffer   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_fwscanf&action=edit)  
+(function)   
 ---|---  
 [ fgetwcgetwc](fgetwc.html "cpp/io/c/fgetwc") |  gets a wide character from a file stream   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_fgetwc&action=edit)  
+(function)   
 [ fputws](fputws.html "cpp/io/c/fputws") |  writes a wide string to a file stream   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_fputws&action=edit)  
+(function)   
 [C documentation](../../../c/io/fgetws.html "c/io/fgetws") for fgetws

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](copy.html "cpp/algorithm/ranges/co
 [uninitialized_default_construct_n](../../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 [Constrained algorithms](../ranges.html "cpp/algorithm/ranges")
 
@@ -550,7 +550,7 @@ All names in this menu belong to namespace `std::ranges`
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -587,28 +587,28 @@ The function-like entities described on this page are [_algorithm function objec
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/copy_n&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first  |  \-  |  the beginning of the range of elements to copy from   
 ---|---|---  
 n  |  \-  |  number of the elements to copy   
 result  |  \-  |  the beginning of the destination range   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/copy_n&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 ranges::copy_n_result{first + n, result + n} or more formally, a value of type [ranges::in_out_result](return_types/in_out_result.html "cpp/algorithm/ranges/return types/in out result") that contains an [`input_iterator`](../../iterator/input_iterator.html "cpp/iterator/input iterator") iterator equals to [ranges::next](../../iterator/ranges/next.html)(first, n) and a [`weakly_incrementable`](../../iterator/weakly_incrementable.html "cpp/iterator/weakly incrementable") iterator equals to [ranges::next](../../iterator/ranges/next.html)(result, n). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/copy_n&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Exactly n assignments. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/copy_n&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 In practice, implementations of `std::ranges::copy_n` may avoid multiple assignments and use bulk copy functions such as [std::memmove](../../string/byte/memmove.html "cpp/string/byte/memmove") if the value type is [TriviallyCopyable](../../named_req/TriviallyCopyable.html "cpp/named req/TriviallyCopyable") and the iterator types satisfy [`contiguous_iterator`](../../iterator/contiguous_iterator.html "cpp/iterator/contiguous iterator"). Alternatively, such copy acceleration can be injected during an optimization phase of a compiler. 
 
 When copying overlapping ranges, `std::ranges::copy_n` is appropriate when copying to the left (beginning of the destination range is outside the source range) while std::ranges::copy_backward is appropriate when copying to the right (end of the destination range is outside the source range). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/copy_n&action=edit&section=5 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     struct copy_n_fn
@@ -629,7 +629,7 @@ When copying overlapping ranges, `std::ranges::copy_n` is appropriate when copyi
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/copy_n&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -664,26 +664,26 @@ Output:
     in[5] = 'F'
     out[5] = 'f'
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/copy_n&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ ranges::copyranges::copy_if](copy.html "cpp/algorithm/ranges/copy")(C++20)(C++20) |  copies a range of elements to a new location  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_copy&action=edit)  
+(algorithm function object)  
 ---|---  
 [ ranges::copy_backward](copy_backward.html "cpp/algorithm/ranges/copy backward")(C++20) |  copies a range of elements in backwards order  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_copy_backward&action=edit)  
+(algorithm function object)  
 [ ranges::remove_copyranges::remove_copy_if](remove_copy.html "cpp/algorithm/ranges/remove copy")(C++20)(C++20) |  copies a range of elements omitting those that satisfy specific criteria  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_remove_copy&action=edit)  
+(algorithm function object)  
 [ ranges::replace_copyranges::replace_copy_if](replace_copy.html "cpp/algorithm/ranges/replace copy")(C++20)(C++20) |  copies a range, replacing elements satisfying specific criteria with another value  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_replace_copy&action=edit)  
+(algorithm function object)  
 [ ranges::reverse_copy](reverse_copy.html "cpp/algorithm/ranges/reverse copy")(C++20) |  creates a copy of a range that is reversed  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_reverse_copy&action=edit)  
+(algorithm function object)  
 [ ranges::rotate_copy](rotate_copy.html "cpp/algorithm/ranges/rotate copy")(C++20) |  copies and rotate a range of elements  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_rotate_copy&action=edit)  
+(algorithm function object)  
 [ ranges::unique_copy](unique_copy.html "cpp/algorithm/ranges/unique copy")(C++20) |  creates a copy of some range of elements that contains no consecutive duplicates  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_unique_copy&action=edit)  
+(algorithm function object)  
 [ ranges::move](move.html "cpp/algorithm/ranges/move")(C++20) |  moves a range of elements to a new location  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_move&action=edit)  
+(algorithm function object)  
 [ ranges::move_backward](move_backward.html "cpp/algorithm/ranges/move backward")(C++20) |  moves a range of elements to a new location in backwards order  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_move_backward&action=edit)  
+(algorithm function object)  
 [ copy_n](../copy_n.html "cpp/algorithm/copy n")(C++11) |  copies a number of elements to a new location   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_copy_n&action=edit)
+(function template) 

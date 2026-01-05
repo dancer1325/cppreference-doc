@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -282,7 +282,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [Low level memory management](../new.html "cpp/memory/new")
 
@@ -304,7 +304,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
 [Object access](../new.html#Object_access "cpp/memory/new")  
 [launder](../../utility/launder.html "cpp/utility/launder")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/new/navbar_content&action=edit)
+
 
 Defined in header `[<new>](../../header/new.html "cpp/header/new")` |  |   
 ---|---|---  
@@ -316,7 +316,7 @@ extern const [std::nothrow_t](nothrow_t.html) nothrow; |  (2)  |
   
 `std::nothrow_t` is an empty class type used to disambiguate the overloads of throwing and non-throwing [allocation functions](operator_new.html "cpp/memory/new/operator new"). `std::nothrow` is a constant of it. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/new/nothrow&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -355,7 +355,7 @@ Output:
     std::bad_alloc
     Allocation returned nullptr
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/new/nothrow&action=edit&section=2 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -363,8 +363,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 2510](https://cplusplus.github.io/LWG/issue2510) | C++11  | the default constructor was non-explicit, which could lead to ambiguity  | made explicit   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/new/nothrow&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ operator newoperator new[]](operator_new.html "cpp/memory/new/operator new") |  allocation functions   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/new/dsc_operator_new&action=edit)  
+(function)   
 ---|---

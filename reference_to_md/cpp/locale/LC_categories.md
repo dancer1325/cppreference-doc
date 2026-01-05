@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Localization library](../locale.html "cpp/locale")
 
@@ -152,7 +152,7 @@ base classes](../locale.html#Facet_category_base_classes "cpp/locale")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/navbar_content&action=edit)
+
 
 Defined in header `[<clocale>](../header/clocale.html "cpp/header/clocale")` |  |   
 ---|---|---  
@@ -177,7 +177,7 @@ Constant  |  Explanation
   
 Additional macro constants, with names that begin with `LC_` followed by at least one uppercase letter, may be defined in [`<clocale>`](../header/clocale.html "cpp/header/clocale"). For example, the POSIX specification requires `LC_MESSAGES` (which controls [std::perror](../io/c/perror.html "cpp/io/c/perror") and [std::strerror](../string/byte/strerror.html "cpp/string/byte/strerror")), ISO/IEC 30112:2014 ([2014 draft](https://www.open-std.org/JTC1/SC35/WG5/docs/30112d10.pdf)) additionally defines `LC_IDENTIFICATION`, `LC_XLITERATE`, `LC_NAME`, `LC_ADDRESS`, `LC_TELEPHONE`, `LC_PAPER`, `LC_MEASUREMENT`, and `LC_KEYBOARD`, which are supported by the GNU C library (except for `LC_XLITERATE`). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/LC_categories&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -210,11 +210,11 @@ Output:
     Number: 3,14
     Date: 日曜日 2022年11月06日 17時55分10秒
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/LC_categories&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ setlocale](setlocale.html "cpp/locale/setlocale") |  gets and sets the current C locale   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_setlocale&action=edit)  
+(function)   
 ---|---  
 [ locale](locale.html "cpp/locale/locale") |  set of polymorphic facets that encapsulate cultural differences   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_locale&action=edit)  
+(class)   
 [C documentation](../../c/locale/LC_categories.html "c/locale/LC categories") for locale categories

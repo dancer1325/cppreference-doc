@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header was originally in the C standard library as [`<locale.h>`](../../c/header/locale.html "c/header/locale"). 
 
@@ -216,23 +216,23 @@ This header is part of the [text processing](../text.html "cpp/text") library.
 ###  Types  
   
 [ lconv](../locale/lconv.html "cpp/locale/lconv") |  formatting details, returned by [std::localeconv](../locale/localeconv.html "cpp/locale/localeconv")   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_lconv&action=edit)  
+(class)   
   
 ###  Constants  
   
 [ NULL](../types/NULL.html "cpp/types/NULL") |  implementation-defined null pointer constant   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_NULL&action=edit)  
+(macro constant)   
 [ LC_ALLLC_COLLATELC_CTYPELC_MONETARYLC_NUMERICLC_TIME](../locale/LC_categories.html "cpp/locale/LC categories") |  locale categories for [std::setlocale](../locale/setlocale.html "cpp/locale/setlocale")   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_LC_categories&action=edit)  
+(macro constant)   
   
 ###  Functions  
   
 [ setlocale](../locale/setlocale.html "cpp/locale/setlocale") |  gets and sets the current C locale   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_setlocale&action=edit)  
+(function)   
 [ localeconv](../locale/localeconv.html "cpp/locale/localeconv") |  queries numeric and monetary formatting details of the current locale   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_localeconv&action=edit)  
+(function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/clocale&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     namespace std {
@@ -250,7 +250,7 @@ This header is part of the [text processing](../text.html "cpp/text") library.
     #define LC_NUMERIC  /* see description */
     #define LC_TIME     /* see description */
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/clocale&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
   * [NULL](../types/NULL.html "cpp/types/NULL") is also defined in the following headers: 
     * [`<cstring>`](cstring.html "cpp/header/cstring")

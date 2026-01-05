@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Library fundamentals](memory.html "cpp/experimental/lib extensions")
 
@@ -75,7 +75,7 @@
 [Type-erased and polymorphic allocators](memory.html "cpp/experimental/memory")  
 [Variable templates for type traits](type_trait_variable_templates.html "cpp/experimental/type trait variable templates")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions/navbar_content&action=edit)
+
 
 **`std::experimental::any`**
 
@@ -93,7 +93,7 @@ Non-member functions
 [swap(std::experimental::any)](any/swap2.html "cpp/experimental/any/swap2")  
 [any_cast](any/any_cast.html "cpp/experimental/any/any cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/any/navbar_content&action=edit)
+
 
 ![](https://upload.cppreference.com/mwiki/images/3/31/Imbox_notice.png) |  **Merged into ISO C++** The functionality described on this page was merged into the mainline ISO C++ standard as of 3/2016, see [`std::any`](../utility/any.html "cpp/utility/any") (since C++17)  
 ---|---  
@@ -121,40 +121,40 @@ Implementations are encouraged to avoid dynamic allocations for small objects, b
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/any&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](any/any.html "cpp/experimental/any/any") |  constructs an `any` object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/any/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ operator=](any/operator=.html "cpp/experimental/any/operator=") |  assigns an `any` object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/any/dsc_operator%3D&action=edit)  
+(public member function)   
 [ (destructor)](any/~any.html "cpp/experimental/any/~any") |  destroys an `any` object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/any/dsc_destructor&action=edit)  
+(public member function)   
   
 #####  Modifiers   
   
 [ clear](any/clear.html "cpp/experimental/any/clear") |  destroys contained object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/any/dsc_clear&action=edit)  
+(public member function)   
 [ swap](any/swap.html "cpp/experimental/any/swap") |  swaps two `any` objects   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/any/dsc_swap&action=edit)  
+(public member function)   
   
 #####  Observers   
   
 [ empty](any/empty.html "cpp/experimental/any/empty") |  checks if object holds a value   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/any/dsc_empty&action=edit)  
+(public member function)   
 [ type](any/type.html "cpp/experimental/any/type") |  returns the `typeid` of the contained value   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/any/dsc_type&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/any&action=edit&section=2 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ swap](any/swap2.html "cpp/experimental/any/swap2") |  swaps two `any` instances   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/any/dsc_swap2&action=edit)  
+(function)   
 ---|---  
 [ any_cast](any/any_cast.html "cpp/experimental/any/any cast") |  type-safe access to the contained object   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/any/dsc_any_cast&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/any&action=edit&section=3 "Edit section: Helper classes")] Helper classes
+### Helper classes
 
 [ bad_any_cast](any/bad_any_cast.html "cpp/experimental/any/bad any cast")(library fundamentals TS) |  exception thrown by the value-returning forms of `any_cast` on a type mismatch   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/any/dsc_bad_any_cast&action=edit)  
+(class)   
 ---|---

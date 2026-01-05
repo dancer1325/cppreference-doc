@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Null-terminated byte strings](../byte.html "cpp/string/byte")
 
@@ -143,7 +143,7 @@
 | [strerror](strerror.html "cpp/string/byte/strerror")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/navbar_content&action=edit)
+
 
 Defined in header `[<cstring>](../../header/cstring.html "cpp/header/cstring")` |  |   
 ---|---|---  
@@ -168,18 +168,18 @@ If the strings overlap, the behavior is undefined.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/strncpy&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 dest  |  \-  |  pointer to the character array to copy to   
 ---|---|---  
 src  |  \-  |  pointer to the byte string to copy from   
 count  |  \-  |  maximum number of characters to copy   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/strncpy&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 dest
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/strncpy&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -209,11 +209,11 @@ Output:
     
     The contents of dest are: h i \0 \0 \0 f
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/strncpy&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ strcpy](strcpy.html "cpp/string/byte/strcpy") |  copies one string to another   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strcpy&action=edit)  
+(function)   
 ---|---  
 [ memcpy](memcpy.html "cpp/string/byte/memcpy") |  copies one buffer to another   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_memcpy&action=edit)  
+(function)   
 [C documentation](../../../c/string/byte/strncpy.html "c/string/byte/strncpy") for strncpy

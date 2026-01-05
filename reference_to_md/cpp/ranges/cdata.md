@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 Defined in header `[<ranges>](../header/ranges.html "cpp/header/ranges")` |  |   
 ---|---|---  
@@ -261,7 +261,7 @@ If ranges::cdata(t) is valid, then it returns a pointer to an object of constant
 
 The name `ranges::cdata` denotes a _customization point object_ , which is a const [function object](../named_req/FunctionObject.html "cpp/named req/FunctionObject") of a [literal](../named_req/LiteralType.html "cpp/named req/LiteralType") [`semiregular`](../concepts/semiregular.html "cpp/concepts/semiregular") class type. See [CustomizationPointObject](../named_req/CustomizationPointObject.html "cpp/named req/CustomizationPointObject") for details. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/cdata&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -290,10 +290,10 @@ Output:
     
     Hello world!
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/cdata&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ ranges::data](data.html "cpp/ranges/data")(C++20) |  obtains a pointer to the beginning of a contiguous range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_data&action=edit)  
+(customization point object)  
 ---|---  
 [ data](../iterator/data.html "cpp/iterator/data")(C++17) |  obtains the pointer to the underlying array   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_data&action=edit)
+(function template) 

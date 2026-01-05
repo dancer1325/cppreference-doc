@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Filesystem library](../fs.html "cpp/experimental/fs")
 
@@ -124,7 +124,7 @@ File types
 [filesystem::is_socket](is_socket.html "cpp/experimental/fs/is socket")  
 [filesystem::is_symlink](is_symlink.html "cpp/experimental/fs/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/navbar_content&action=edit)
+
 
 Defined in header `[<experimental/filesystem>](../../header/experimental/filesystem.html "cpp/header/experimental/filesystem")` |  |   
 ---|---|---  
@@ -165,18 +165,18 @@ The non-throwing overloads return false if any error occurs.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/create_directory&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 p  |  \-  |  the path to the new directory to create   
 ---|---|---  
 existing_p  |  \-  |  the path to a directory to copy the attributes from   
 ec  |  \-  |  out-parameter for error reporting in the non-throwing overload   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/create_directory&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1,2) true if directory creation is successful, false otherwise.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/create_directory&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 1,3) The overload that does not take an error_code& parameter throws [filesystem_error](filesystem_error.html "cpp/experimental/fs/filesystem error") on underlying OS API errors, constructed with p as the first argument and the OS error code as the error code argument. [std::bad_alloc](../../memory/new/bad_alloc.html) may be thrown if memory allocation fails. The overload taking an error_code& parameter sets it to the OS API error code if an OS API call fails, and executes ec.clear() if no errors occur. This overload has 
 
@@ -190,11 +190,11 @@ noexcept
 
 noexcept
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/create_directory&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 The attribute-preserving overload (2) is implicitly invoked by [`copy()`](copy.html "cpp/experimental/fs/copy") when recursively copying directories. Its equivalent in boost.filesystem is [copy_directory](https://www.boost.org/doc/libs/1_57_0/libs/filesystem/doc/reference.html#copy_directory) (with argument order reversed). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/create_directory&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -222,12 +222,12 @@ Possible output:
     drwxr-x--- 2 user group 4096 Apr 15 09:33 b
     drwxr-x--- 2 user group 4096 Apr 15 09:33 c
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/create_directory&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ create_symlinkcreate_directory_symlink](create_symlink.html "cpp/experimental/fs/create symlink") |  creates a symbolic link   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_create_symlink&action=edit)  
+(function)   
 ---|---  
 [ copy](copy.html "cpp/experimental/fs/copy") |  copies files or directories   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_copy&action=edit)  
+(function)   
 [ perms](perms.html "cpp/experimental/fs/perms") |  identifies file system permissions   
-(enum) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_perms&action=edit)
+(enum) 

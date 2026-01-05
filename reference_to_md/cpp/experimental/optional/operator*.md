@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Library fundamentals](../memory.html "cpp/experimental/lib extensions")
 
@@ -75,7 +75,7 @@
 [Type-erased and polymorphic allocators](../memory.html "cpp/experimental/memory")  
 [Variable templates for type traits](../type_trait_variable_templates.html "cpp/experimental/type trait variable templates")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions/navbar_content&action=edit)
+
 
 [`std::experimental::optional`](../optional.html "cpp/experimental/optional")
 
@@ -105,7 +105,7 @@ Helper objects
 [nullopt](nullopt.html "cpp/experimental/optional/nullopt")  
 [in_place](in_place.html "cpp/experimental/optional/in place")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/optional/navbar_content&action=edit)
+
 
 constexpr const T* operator->() const; |  (1)  |  (library fundamentals TS)  
 ---|---|---  
@@ -136,23 +136,23 @@ The behavior is undefined if *this _does not contain a value_.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/optional/operator*&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/optional/operator*&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Pointer or reference to the contained value. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/optional/operator*&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Throws nothing. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/optional/operator*&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 This operator does not check whether the optional contains a value. If checked access is needed, [value()](value.html "cpp/experimental/optional/value") or [value_or()](value_or.html "cpp/experimental/optional/value or") may be used. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/optional/operator*&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -177,10 +177,10 @@ Output:
     1
     3
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/optional/operator*&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ value](value.html "cpp/experimental/optional/value") |  returns the contained value   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/optional/dsc_value&action=edit)  
+(public member function)   
 ---|---  
 [ value_or](value_or.html "cpp/experimental/optional/value or") |  returns the contained value if available, another value otherwise   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/optional/dsc_value_or&action=edit)
+(public member function) 

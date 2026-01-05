@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Expressions](expressions.html "cpp/language/expressions")
 
@@ -289,7 +289,7 @@ Conversions
 [`dynamic_cast`](dynamic_cast.html "cpp/language/dynamic cast")  
 [`reinterpret_cast`](reinterpret_cast.html "cpp/language/reinterpret cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/expressions/navbar_content&action=edit)
+
 
 [ Exceptions](exceptions.html "cpp/language/exceptions")
 
@@ -302,7 +302,7 @@ Exception specification
 [dynamic specification](except_spec.html "cpp/language/except spec") (until C++17*)  
 [noexcept operator](noexcept.html "cpp/language/noexcept") (C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/exceptions/navbar_content&action=edit)
+
 
 An [exception](exceptions.html "cpp/language/exceptions") can be handled by a handler. 
 
@@ -324,7 +324,7 @@ An [exception](exceptions.html "cpp/language/exceptions") can be handled by a ha
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/catch&action=edit&section=1 "Edit section: Handler")] Handler  
+### Handler  
   
 ---  
 `**catch**` `**(**` attr ﻿(optional) type-specifier-seq declarator `**)**` compound-statement |  (1)  |   
@@ -368,7 +368,7 @@ If the parameter is declared to have type “array of `T`” or function type `T
 
 A handler with parameter type `T` can be abbreviated as “a handler of type `T`”. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/catch&action=edit&section=2 "Edit section: Matching exceptions")] Matching exceptions
+### Matching exceptions
 
 Each try block associates with a number of handlers, these handlers form a handler sequence. When an exception is thrown from a try block, the handlers in the sequence are tried in order of appearance to match the exception. 
 
@@ -447,11 +447,11 @@ If no match is found among the handlers for a try block, the search for a matchi
 
 If no matching handler is found, [std::terminate](../error/terminate.html "cpp/error/terminate") is invoked; whether or not the stack is [unwound](throw.html#Stack_unwinding "cpp/language/throw") before this invocation of [std::terminate](../error/terminate.html "cpp/error/terminate") is implementation-defined. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/catch&action=edit&section=3 "Edit section: Handling exceptions")] Handling exceptions
+### Handling exceptions
 
 When an exception is thrown, control is transferred to the nearest handler with a matching type; “nearest” means the handler for which the compound statement or the member initializer list (if present) following the try keyword was most recently entered by the thread of control and not yet exited. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/catch&action=edit&section=4 "Edit section: Initializing the handler parameter")] Initializing the handler parameter
+#### Initializing the handler parameter
 
 The parameter declared in the parameter list (if any), of type “possibly cv-qualified `T`” or “lvalue reference to possibly cv-qualified `T`”, is initialized from the [exception object](throw.html#Exception_object "cpp/language/throw"), of type `E`, as follows: 
 
@@ -466,7 +466,7 @@ When the parameter is declared as an object, any changes to that object will not
 
 When the parameter is declared as a reference to an object, any changes to the referenced object are changes to the exception object and will have effect should that object be rethrown. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/catch&action=edit&section=5 "Edit section: Activating the handler")] Activating the handler
+#### Activating the handler
 
 A handler is considered _active_ when initialization is complete for the parameter (if any) of the handler. 
 
@@ -476,7 +476,7 @@ A handler is no longer considered active when the handler exits.
 
 The exception with the most recently activated handler that is still active is called the _currently handled exception_. Such an exception can be [rethrown](throw.html#throw_expressions "cpp/language/throw"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/catch&action=edit&section=6 "Edit section: Control flow")] Control flow
+### Control flow
 
 The compound-statement of a handler is a [control-flow-limited statement](statements.html#Control-flow-limited_statements "cpp/language/statements"): 
     
@@ -495,7 +495,7 @@ The compound-statement of a handler is a [control-flow-limited statement](statem
         }
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/catch&action=edit&section=7 "Edit section: Notes")] Notes
+### Notes
 
 [Stack unwinding](throw.html#Stack_unwinding "cpp/language/throw") occurs while control is transferring to a handler. When a handler becomes active, stack unwinding is already completed. 
 
@@ -541,11 +541,11 @@ Many implementations overly extend the resolution of [CWG issue 388](https://cpl
         [assert](../error/assert.html)(pf == nullptr); // should pass, but fails on MSVC and Clang
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/catch&action=edit&section=8 "Edit section: Keywords")] Keywords
+### Keywords
 
 [`catch`](../keyword/catch.html "cpp/keyword/catch")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/catch&action=edit&section=9 "Edit section: Example")] Example
+### Example
 
 The following example demonstrates several usage cases of the handlers:
 
@@ -590,7 +590,7 @@ Possible output:
     Accessing the 11th element of the vector...
      a standard exception was caught, with message: 'out_of_range'
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/catch&action=edit&section=10 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -613,7 +613,7 @@ subobject of the exception object
 [CWG 2093](https://cplusplus.github.io/CWG/issues/2093.html) | C++98  | an exception object of pointer to object type could not match a  
 handler of pointer to object type through qualification conversion  | allowed   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/catch&action=edit&section=11 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -685,7 +685,7 @@ handler of pointer to object type through qualification conversion  | allowed
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/catch&action=edit&section=12 "Edit section: See also")] See also
+### See also
 
   * [try block](try.html "cpp/language/try")
   * [Throwing exceptions](throw.html "cpp/language/throw")

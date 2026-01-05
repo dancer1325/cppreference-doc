@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Program support utilities](../program.html "cpp/utility/program")
 
@@ -181,7 +181,7 @@ Common vocabulary types
 [Types](../program.html#Types "cpp/utility/program")  
 [jmp_buf](jmp_buf.html "cpp/utility/program/jmp buf")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/program/navbar_content&action=edit)
+
 
 Defined in header `[<csetjmp>](../../header/csetjmp.html "cpp/header/csetjmp")` |  |   
 ---|---|---  
@@ -234,22 +234,22 @@ Upon return to the scope of `setjmp`:
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/program/setjmp&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 env  |  \-  |  variable to save the execution state of the program to   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/program/setjmp&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 ​0​ if the macro was called by the original code and the execution context was saved to env. 
 
 Non-zero value if a non-local jump was just performed. The return value is the same as passed to [std::longjmp](longjmp.html "cpp/utility/program/longjmp"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/program/setjmp&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Above requirements forbid using return value of `setjmp` in data flow (e.g. to initialize or assign an object with it). The return value can only be either used in control flow or discarded. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/program/setjmp&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -308,9 +308,9 @@ Output:
     Solving 1x² + 2x + 3 = 0...
     No real solution
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/program/setjmp&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ longjmp](longjmp.html "cpp/utility/program/longjmp") |  jumps to specified location   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/program/dsc_longjmp&action=edit)  
+(function)   
 ---|---  
 [C documentation](../../../c/program/setjmp.html "c/program/setjmp") for setjmp

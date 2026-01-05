@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concepts library](../concepts.html "cpp/concepts")
 
@@ -73,7 +73,7 @@
 ---  
 [_boolean-testable_](boolean-testable.html "cpp/concepts/boolean-testable") ﻿(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/navbar_content&action=edit)
+
 
 Defined in header `[<concepts>](../header/concepts.html "cpp/header/concepts")` |  |   
 ---|---|---  
@@ -84,7 +84,7 @@ concept constructible_from =
   
 The `constructible_from` concept specifies that a variable of type `T` can be initialized with the given set of argument types `Args...`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/concepts/constructible_from&action=edit&section=1 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -106,8 +106,8 @@ The `constructible_from` concept specifies that a variable of type `T` can be in
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/concepts/constructible_from&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ is_constructibleis_trivially_constructibleis_nothrow_constructible](../types/is_constructible.html "cpp/types/is constructible")(C++11)(C++11)(C++11) |  checks if a type has a constructor for specific arguments   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_constructible&action=edit)  
+(class template)   
 ---|---

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Metaprogramming library](../meta.html "cpp/meta")
 
@@ -167,7 +167,7 @@ Type transformations
 Compile-time integer sequences  
 [integer_sequence](../utility/integer_sequence.html "cpp/utility/integer sequence")(C++14)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/meta/navbar_content&action=edit)
+
 
 Defined in header `[<type_traits>](../header/type_traits.html "cpp/header/type traits")` |  |   
 ---|---|---  
@@ -205,7 +205,7 @@ If the program adds specializations for any of the templates described on this p
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_convertible&action=edit&section=1 "Edit section: Helper variable template")] Helper variable template
+### Helper variable template
 
 template< class From, class To >  
 constexpr bool is_convertible_v = is_convertible<From, To>::value; |  |  (since C++17)  
@@ -214,7 +214,7 @@ template< class From, class To >
 constexpr bool is_nothrow_convertible_v = is_nothrow_convertible<From, To>::value; |  |  (since C++20)  
 | |   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/integral_constant/inherit2&action=edit)
+
 
 ##  Inherited from [ std::integral_constant](integral_constant.html "cpp/types/integral constant")
 
@@ -239,7 +239,7 @@ Type  |  Definition
 `value_type` |  bool  
 `type` |  [std::integral_constant](integral_constant.html)<bool, value>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_convertible&action=edit&section=2 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
 
 [`is_convertible` (1)](is_convertible.html#Version_1)  
 ---  
@@ -284,7 +284,7 @@ Type  |  Definition
             }
     struct is_nothrow_convertible<From, To> : [std::true_type](integral_constant.html) {};  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_convertible&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Gives well-defined results for reference types, void types, array types, and function types. 
 
@@ -296,7 +296,7 @@ All known implementations treat the destruction as a part of the conversion, as 
 ---|---|---|---  
 [`__cpp_lib_is_nothrow_convertible`](../experimental/feature_test.html#cpp_lib_is_nothrow_convertible "cpp/feature test") | [`201806L`](../compiler_support/20.html#cpp_lib_is_nothrow_convertible_201806L "cpp/compiler support/20") | (C++20) | `std::is_nothrow_convertible`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_convertible&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -351,16 +351,16 @@ Output:
     
     "one" "two" "three" "42" "42.000000"
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_convertible&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ is_base_of](is_base_of.html "cpp/types/is base of")(C++11) |  checks if a type is a base of the other type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_base_of&action=edit)  
+(class template)   
 ---|---  
 [ is_pointer_interconvertible_base_of](is_pointer_interconvertible_base_of.html "cpp/types/is pointer interconvertible base of")(C++20) |  checks if a type is a _[pointer-interconvertible](../language/static_cast.html#pointer-interconvertible "cpp/language/static cast")_ (initial) base of another type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_pointer_interconvertible_base_of&action=edit)  
+(class template)   
 [ is_pointer_interconvertible_with_class](is_pointer_interconvertible_with_class.html "cpp/types/is pointer interconvertible with class")(C++20) |  checks if objects of a type are _[pointer-interconvertible](../language/static_cast.html#pointer-interconvertible "cpp/language/static cast")_ with the specified subobject of that type   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_pointer_interconvertible_with_class&action=edit)  
+(function template)   
 [ convertible_to](../concepts/convertible_to.html "cpp/concepts/convertible to")(C++20) |  specifies that a type is implicitly convertible to another type   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_convertible_to&action=edit)
+(concept) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

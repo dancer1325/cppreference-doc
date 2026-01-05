@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 Defined in header `[<memory>](../../header/memory.html "cpp/header/memory")` |  |   
 ---|---|---  
@@ -198,7 +198,7 @@ strict
   
 The scoped enumeration type `pointer_safety` lists the pointer safety modes supported by C++. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/gc/pointer_safety&action=edit&section=1 "Edit section: Enumeration constants")] Enumeration constants
+### Enumeration constants
 
 Enumerator  |  Meaning   
 ---|---  
@@ -206,8 +206,8 @@ Enumerator  |  Meaning
 `pointer_safety::preferred` |  All pointers are considered valid and may be dereferenced or deallocated. A reachability-based leak detector may be active.   
 `pointer_safety::relaxed` |  All pointers are considered valid and may be dereferenced or deallocated.   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/gc/pointer_safety&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ get_pointer_safety](get_pointer_safety.html "cpp/memory/gc/get pointer safety")(C++11)(removed in C++23) |  returns the current pointer safety model   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/gc/dsc_get_pointer_safety&action=edit)  
+(function)   
 ---|---

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 Defined in header `[<memory>](../header/memory.html "cpp/header/memory")` |  |   
 ---|---|---  
@@ -207,15 +207,15 @@ Informs the implementation that the object ptr points to is aligned to at least 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/assume_aligned&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 ptr. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/assume_aligned&action=edit&section=2 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Throws nothing. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/assume_aligned&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 To ensure that the program benefits from the optimizations enabled by `assume_aligned`, it is important to access the object via its return value: 
     
@@ -234,24 +234,24 @@ It is up to the program to ensure that the alignment assumption actually holds. 
 ---|---|---|---  
 [`__cpp_lib_assume_aligned`](../experimental/feature_test.html#cpp_lib_assume_aligned "cpp/feature test") | [`201811L`](../compiler_support/20.html#cpp_lib_assume_aligned_201811L "cpp/compiler support/20") | (C++20) | `std::assume_aligned`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/assume_aligned&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/assume_aligned&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 `**[alignof](../language/alignof.html "cpp/language/alignof")**` (C++11) |  queries alignment requirements of a type  
-(operator)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_alignof&action=edit)  
+(operator)  
 ---|---  
 `**[alignas](../language/alignas.html "cpp/language/alignas")**` (C++11) |  specifies that the storage for the variable should be aligned by specific amount  
-(specifier)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_alignas&action=edit)  
+(specifier)  
 [ aligned_storage](../types/aligned_storage.html "cpp/types/aligned storage")(since C++11)(deprecated in C++23) |  defines the type suitable for use as uninitialized storage for types of given size   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_aligned_storage&action=edit)  
+(class template)   
 [ align](align.html "cpp/memory/align")(C++11) |  aligns a pointer in a buffer   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_align&action=edit)  
+(function)   
 `[[[assume](../language/attributes/assume.html "cpp/language/attributes/assume")(_expression_)]]`(C++23) |  specifies that the _expression_ will always evaluate to true at a given point  
-(attribute specifier)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/attributes/dsc_assume&action=edit)
+(attribute specifier)
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

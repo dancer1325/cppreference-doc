@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::bitset`](../bitset.html "cpp/utility/bitset")
 
@@ -167,7 +167,7 @@ Common vocabulary types
 [Helper classes](../bitset.html#Helper_classes "cpp/utility/bitset")  
 [std::hash](hash.html "cpp/utility/bitset/hash")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/bitset/navbar_content&action=edit)
+
 
 bool test( [std::size_t](../../types/size_t.html) pos ) const; |  | (constexpr since C++23)  
 ---|---|---  
@@ -189,20 +189,20 @@ Unlike [operator[]](operator_at.html "cpp/utility/bitset/operator at"), it perfo
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/bitset/test&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 pos  |  \-  |  position of the bit to return (counting from 0)   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/bitset/test&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 true if the requested bit is set, false otherwise. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/bitset/test&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Throws [std::out_of_range](../../error/out_of_range.html "cpp/error/out of range") if pos does not correspond to a valid bit position. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/bitset/test&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -246,7 +246,7 @@ Possible output:
     The first set bit is at index 4
     Exception: bitset::test: __position (which is 666) >= _Nb (which is 666)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/bitset/test&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -256,12 +256,12 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 not correspond to a valid bit position  | always throws an  
 exception in this case   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/bitset/test&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ operator[]](operator_at.html "cpp/utility/bitset/operator at") |  accesses specific bit   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/bitset/dsc_operator_at&action=edit)  
+(public member function)   
 ---|---  
 [ popcount](../../numeric/popcount.html "cpp/numeric/popcount")(C++20) |  counts the number of 1 bits in an unsigned integer   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/dsc_popcount&action=edit)  
+(function template)   
 [ has_single_bit](../../numeric/has_single_bit.html "cpp/numeric/has single bit")(C++20) |  checks if a number is an integral power of 2   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/dsc_has_single_bit&action=edit)
+(function template) 

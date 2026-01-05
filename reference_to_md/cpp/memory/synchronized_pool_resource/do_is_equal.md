@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::pmr::synchronized_pool_resource`](../synchronized_pool_resource.html "cpp/memory/synchronized pool resource")
 
@@ -200,7 +200,7 @@ Protected member functions
 [synchronized_pool_resource::do_deallocate](do_deallocate.html "cpp/memory/synchronized pool resource/do deallocate")  
 **synchronized_pool_resource::do_is_equal**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/synchronized_pool_resource/navbar_content&action=edit)
+
 
 virtual bool do_is_equal( const [std::pmr::memory_resource](../memory_resource.html)& other ) const noexcept; |  |  (since C++17)  
 ---|---|---  
@@ -208,11 +208,11 @@ virtual bool do_is_equal( const [std::pmr::memory_resource](../memory_resource.h
   
 Compare *this with other for identity - memory allocated using a `synchronized_pool_resource` can only be deallocated using that same resource. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/synchronized_pool_resource/do_is_equal&action=edit&section=1 "Edit section: Return value")] Return value 
+### Return value 
 
 this == &other
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/synchronized_pool_resource/do_is_equal&action=edit&section=2 "Edit section: Defect report")] Defect report 
+### Defect report 
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -220,8 +220,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 3000](https://cplusplus.github.io/LWG/issue3000) | C++17  | unnecessary `dynamic_cast` was performed  | removed   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/synchronized_pool_resource/do_is_equal&action=edit&section=3 "Edit section: See also")] See also 
+### See also 
 
 [ do_is_equal](../memory_resource/do_is_equal.html "cpp/memory/memory resource/do is equal")[virtual] |  compare for equality with another `memory_resource`  
-(virtual private member function of `std::pmr::memory_resource`)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/memory_resource/dsc_do_is_equal&action=edit)  
+(virtual private member function of `std::pmr::memory_resource`)  
 ---|---

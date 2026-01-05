@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::latch`](../latch.html "cpp/thread/latch")
 
@@ -188,7 +188,7 @@ Member functions
 Constants  
 [latch::max](max.html "cpp/thread/latch/max")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/latch/navbar_content&action=edit)
+
 
 ~latch(); |  |  (since C++20)  
 ---|---|---  
@@ -196,6 +196,6 @@ Constants
   
 Destroys the `latch`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/latch/%7Elatch&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 It is only safe to invoke the destructor if all threads have been notified. The programmer must ensure that no threads attempt to wait on *this once the destructor has been started. The destructor does not notify and release any waiting threads. 

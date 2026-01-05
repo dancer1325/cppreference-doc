@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::atomic_flag`](../atomic_flag.html "cpp/atomic/atomic flag")
 
@@ -188,7 +188,7 @@ Member functions
 [atomic_flag::notify_one](notify_one.html "cpp/atomic/atomic flag/notify one")(C++20)  
 [atomic_flag::notify_all](notify_all.html "cpp/atomic/atomic flag/notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic_flag/navbar_content&action=edit)
+
 
 Defined in header `[<atomic>](../../header/atomic.html "cpp/header/atomic")` |  |   
 ---|---|---  
@@ -200,17 +200,17 @@ bool test_and_set( [std::memory_order](../memory_order.html) order =
   
 Atomically changes the state of a [std::atomic_flag](../atomic_flag.html "cpp/atomic/atomic flag") to set (true) and returns the value it held before. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_flag/test_and_set&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 order  |  \-  |  the memory synchronization order   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_flag/test_and_set&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ clear](clear.html "cpp/atomic/atomic flag/clear") |  atomically sets flag to false   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic_flag/dsc_clear&action=edit)  
+(public member function)   
 ---|---  
 [ atomic_flag_test_and_setatomic_flag_test_and_set_explicit](../atomic_flag_test_and_set.html "cpp/atomic/atomic flag test and set")(C++11)(C++11) |  atomically sets the flag to true and returns its previous value   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/dsc_atomic_flag_test_and_set&action=edit)  
+(function)   
 [ memory_order](../memory_order.html "cpp/atomic/memory order")(C++11) |  defines memory ordering constraints for the given atomic operation   
-(enum) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/dsc_memory_order&action=edit)
+(enum) 

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::atomic_ref`](../atomic_ref.html "cpp/atomic/atomic ref")
 
@@ -211,7 +211,7 @@
 [atomic_ref::is_always_lock_free](is_always_lock_free.html "cpp/atomic/atomic ref/is always lock free")  
 [atomic_ref::required_alignment](required_alignment.html "cpp/atomic/atomic ref/required alignment")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic_ref/navbar_content&action=edit)
+
 
 Provided only when `T` is an integral type other than _cv_ bool or a pointer-to-object type |  |   
 ---|---|---  
@@ -236,23 +236,23 @@ This overload participates in overload resolution only if [std::is_const_v](../.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_ref/fetch_min&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 arg  |  \-  |  the other argument of [std::min](../../algorithm/min.html "cpp/algorithm/min")  
 ---|---|---  
 order  |  \-  |  memory order constraints to enforce   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_ref/fetch_min&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The value immediately preceding the effects of this function in the [modification order](../memory_order.html#Modification_order "cpp/atomic/memory order") of *this. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_ref/fetch_min&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../../utility/feature_test.html "cpp/utility/feature test") macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_atomic_min_max`](../../experimental/feature_test.html#cpp_lib_atomic_min_max "cpp/feature test") | [`202403L`](../../compiler_support/26.html#cpp_lib_atomic_min_max_202403L "cpp/compiler support/26") | (C++26) | Atomic minimum/maximum   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_ref/fetch_min&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

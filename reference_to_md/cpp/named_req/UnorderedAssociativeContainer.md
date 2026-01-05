@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ named requirements](../iterator/concepts.html "cpp/named req")
 
@@ -147,7 +147,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/named_req/navbar_content&action=edit)
+
 
 Unordered associative containers are [Containers](Container.html "cpp/named req/Container") that provide fast lookup of objects based on keys. Worst case complexity is linear but on average much faster for most of the operations. 
 
@@ -180,7 +180,7 @@ Unordered associative containers meet the requirements of [AllocatorAwareContain
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/UnorderedAssociativeContainer&action=edit&section=1 "Edit section: Requirements")] Requirements
+### Requirements
 
 #####  Legend   
   
@@ -223,7 +223,7 @@ n |  A value of type `size_type`
 z |  A value of type float  
 nh (since C++17) |  An rvalue of type X::node_type  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/UnorderedAssociativeContainer&action=edit&section=2 "Edit section: Member types")] Member types
+#### Member types
 
 Name | Type | Requirements | Notes   
 ---|---|---|---  
@@ -237,7 +237,7 @@ Name | Type | Requirements | Notes
 `X::const_local_iterator` | [LegacyIterator](Iterator.html "cpp/named req/Iterator") | Category and types are the same as `X::const_iterator`  
 `X::node_type` (since C++17) | A specialization of [node-handle](../container/node_handle.html "cpp/container/node handle") class template  | The public nested types are the same as the corresponding types in `X` |   
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/UnorderedAssociativeContainer&action=edit&section=3 "Edit section: Member functions and operators")] Member functions and operators
+#### Member functions and operators
 
 Expression | Result | Preconditions | Effects | Returns | Complexity   
 ---|---|---|---|---|---  
@@ -364,21 +364,21 @@ n / a.max_load_factor())) |  |
 Reason: Requirements regarding member functions.   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/UnorderedAssociativeContainer&action=edit&section=4 "Edit section: Standard library")] Standard library
+### Standard library
 
 The following standard library containers satisfy the UnorderedAssociativeContainer requirements: 
 
 [ unordered_set](../container/unordered_set.html "cpp/container/unordered set")(C++11) |  collection of unique keys, hashed by keys   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_unordered_set&action=edit)  
+(class template)   
 ---|---  
 [ unordered_multiset](../container/unordered_multiset.html "cpp/container/unordered multiset")(C++11) |  collection of keys, hashed by keys   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_unordered_multiset&action=edit)  
+(class template)   
 [ unordered_map](../container/unordered_map.html "cpp/container/unordered map")(C++11) |  collection of key-value pairs, hashed by keys, keys are unique   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_unordered_map&action=edit)  
+(class template)   
 [ unordered_multimap](../container/unordered_multimap.html "cpp/container/unordered multimap")(C++11) |  collection of key-value pairs, hashed by keys   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_unordered_multimap&action=edit)  
+(class template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/UnorderedAssociativeContainer&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

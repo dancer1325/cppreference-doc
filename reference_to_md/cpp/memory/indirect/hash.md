@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::indirect`](../indirect.html "cpp/memory/indirect")
 
@@ -206,7 +206,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
 [Helper classes](../indirect.html#Helper_classes "cpp/memory/indirect")  
 **hash <std::indirect>**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/indirect/navbar_content&action=edit)
+
 
 Defined in header `[<memory>](../../header/memory.html "cpp/header/memory")` |  |   
 ---|---|---  
@@ -227,14 +227,14 @@ When enabled, for an object obj of type std::indirect<T, Allocator>, [std::hash]
 
 The member functions of this specialization are not guaranteed to be noexcept because the hash of `T` might throw. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/indirect/hash&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/indirect/hash&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ hash](../../utility/hash.html "cpp/utility/hash")(C++11) |  hash function object   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_hash&action=edit)  
+(class template)   
 ---|---

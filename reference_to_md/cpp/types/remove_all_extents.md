@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Metaprogramming library](../meta.html "cpp/meta")
 
@@ -167,7 +167,7 @@ Type transformations
 Compile-time integer sequences  
 [integer_sequence](../utility/integer_sequence.html "cpp/utility/integer sequence")(C++14)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/meta/navbar_content&action=edit)
+
 
 Defined in header `[<type_traits>](../header/type_traits.html "cpp/header/type traits")` |  |   
 ---|---|---  
@@ -190,20 +190,20 @@ If the program adds specializations for `std::remove_all_extents`, the behavior 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/remove_all_extents&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Name  |  Definition   
 ---|---  
 `type` |  the type of the element of `T`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/remove_all_extents&action=edit&section=2 "Edit section: Helper types")] Helper types
+### Helper types
 
 template< class T >  
 using remove_all_extents_t = typename remove_all_extents<T>::type; |  |  (since C++14)  
 ---|---|---  
 | |   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/remove_all_extents&action=edit&section=3 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     template<class T>
@@ -221,7 +221,7 @@ using remove_all_extents_t = typename remove_all_extents<T>::type; |  |  (since 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/remove_all_extents&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -267,14 +267,14 @@ Possible output:
     underlying type: double
     underlying type: main::X
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/remove_all_extents&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ is_array](is_array.html "cpp/types/is array")(C++11) |  checks if a type is an array type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_array&action=edit)  
+(class template)   
 ---|---  
 [ rank](rank.html "cpp/types/rank")(C++11) |  obtains the number of dimensions of an array type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_rank&action=edit)  
+(class template)   
 [ extent](extent.html "cpp/types/extent")(C++11) |  obtains the size of an array type along a specified dimension   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_extent&action=edit)  
+(class template)   
 [ remove_extent](remove_extent.html "cpp/types/remove extent")(C++11) |  removes one extent from the given array type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_remove_extent&action=edit)
+(class template) 

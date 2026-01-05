@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 template< class I >  
 concept no-throw-input-iterator =  
@@ -214,7 +214,7 @@ These exposition-only concepts specify that no exceptions are thrown from operat
 
 1) The `_no-throw-input-iterator_` concept requires that dereferencing the iterator yields an lvalue, like [`contiguous_iterator`](../../iterator/contiguous_iterator.html "cpp/iterator/contiguous iterator") and [LegacyForwardIterator](../../named_req/ForwardIterator.html "cpp/named req/ForwardIterator").
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/ranges/nothrow_concepts&action=edit&section=1 "Edit section: Semantic requirements")] Semantic requirements
+### Semantic requirements
 
 Like all standard concepts, every concept listed here is modeled only if all concepts it subsumes are modeled. 
 
@@ -224,20 +224,20 @@ Like all standard concepts, every concept listed here is modeled only if all con
 
 4) A type `R` models `_no-throw-input-range_` only if no exceptions are thrown from calls to [ranges::begin](../../ranges/begin.html) and [ranges::end](../../ranges/end.html) on an object of type `R`.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/ranges/nothrow_concepts&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 These concepts allow some operations on iterators and sentinels to throw exceptions, e.g. operations on invalid values. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/ranges/nothrow_concepts&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ input_iterator](../../iterator/input_iterator.html "cpp/iterator/input iterator")(C++20) |  specifies that a type is an input iterator, that is, its referenced values can be read and it can be both pre- and post-incremented   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_input_iterator&action=edit)  
+(concept)   
 ---|---  
 [ forward_iterator](../../iterator/forward_iterator.html "cpp/iterator/forward iterator")(C++20) |  specifies that an [`input_iterator`](../../iterator/input_iterator.html "cpp/iterator/input iterator") is a forward iterator, supporting equality comparison and multi-pass   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_forward_iterator&action=edit)  
+(concept)   
 [ sentinel_for](../../iterator/sentinel_for.html "cpp/iterator/sentinel for")(C++20) |  specifies a type is a sentinel for an [`input_or_output_iterator`](../../iterator/input_or_output_iterator.html "cpp/iterator/input or output iterator") type   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_sentinel_for&action=edit)  
+(concept)   
 [ ranges::input_range](../../ranges/input_range.html "cpp/ranges/input range")(C++20) |  specifies a range whose iterator type satisfies [`input_iterator`](../../iterator/input_iterator.html "cpp/iterator/input iterator")   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_input_range&action=edit)  
+(concept)   
 [ ranges::forward_range](../../ranges/forward_range.html "cpp/ranges/forward range")(C++20) |  specifies a range whose iterator type satisfies [`forward_iterator`](../../iterator/forward_iterator.html "cpp/iterator/forward iterator")   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_forward_range&action=edit)
+(concept) 

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Null-terminated multibyte strings](../multibyte.html "cpp/string/multibyte")
 
@@ -100,7 +100,7 @@ MB_CUR_MAX](../multibyte.html#Macros "cpp/string/multibyte")
 [__STDC_UTF_16__  
 __STDC_UTF_32__](../multibyte.html#Macros "cpp/string/multibyte")(C++11)(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/navbar_content&action=edit)
+
 
 Defined in header `[<cuchar>](../../header/cuchar.html "cpp/header/cuchar")` |  | (since C++17)  
 ---|---|---  
@@ -114,9 +114,9 @@ Possible implementation of `mbstate_t` is a struct type holding an array represe
 
 The following functions should not be called from multiple threads without synchronization with the std::mbstate_t* argument of a null pointer due to possible data races: [std::mbrlen](mbrlen.html "cpp/string/multibyte/mbrlen"), [std::mbrtowc](mbrtowc.html "cpp/string/multibyte/mbrtowc"), [std::mbsrtowcs](mbsrtowcs.html "cpp/string/multibyte/mbsrtowcs"), [std::mbtowc](mbtowc.html "cpp/string/multibyte/mbtowc"), [std::wcrtomb](wcrtomb.html "cpp/string/multibyte/wcrtomb"), [std::wcsrtombs](wcsrtombs.html "cpp/string/multibyte/wcsrtombs"), [std::wctomb](wctomb.html "cpp/string/multibyte/wctomb"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/multibyte/mbstate_t&action=edit&section=1 "Edit section: See also")] See also
+### See also
 
 [ mbsinit](mbsinit.html "cpp/string/multibyte/mbsinit") |  checks if the **std::mbstate_t** object represents initial shift state   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/dsc_mbsinit&action=edit)  
+(function)   
 ---|---  
 [C documentation](../../../c/string/multibyte/mbstate_t.html "c/string/multibyte/mbstate t") for mbstate_t

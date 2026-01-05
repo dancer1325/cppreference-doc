@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header is part of the [thread support](../atomic.html "cpp/thread") library. 
 
@@ -221,40 +221,40 @@ This header is part of the [thread support](../atomic.html "cpp/thread") library
 ###  Classes  
   
 [ mutex](../thread/mutex.html "cpp/thread/mutex")(C++11) |  provides basic mutual exclusion facility   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_mutex&action=edit)  
+(class)   
 [ timed_mutex](../thread/timed_mutex.html "cpp/thread/timed mutex")(C++11) |  provides mutual exclusion facility which implements locking with a timeout   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_timed_mutex&action=edit)  
+(class)   
 [ recursive_mutex](../thread/recursive_mutex.html "cpp/thread/recursive mutex")(C++11) |  provides mutual exclusion facility which can be locked recursively by the same thread   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_recursive_mutex&action=edit)  
+(class)   
 [ recursive_timed_mutex](../thread/recursive_timed_mutex.html "cpp/thread/recursive timed mutex")(C++11) |  provides mutual exclusion facility which can be locked recursively  
 by the same thread and implements locking with a timeout   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_recursive_timed_mutex&action=edit)  
+(class)   
 [ lock_guard](../thread/lock_guard.html "cpp/thread/lock guard")(C++11) |  implements a strictly scope-based mutex ownership wrapper   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_lock_guard&action=edit)  
+(class template)   
 [ unique_lock](../thread/unique_lock.html "cpp/thread/unique lock")(C++11) |  implements movable mutex ownership wrapper   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_unique_lock&action=edit)  
+(class template)   
 [ scoped_lock](../thread/scoped_lock.html "cpp/thread/scoped lock")(C++17) |  deadlock-avoiding RAII wrapper for multiple mutexes   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_scoped_lock&action=edit)  
+(class template)   
 [ once_flag](../thread/once_flag.html "cpp/thread/once flag")(C++11) |  helper object to ensure that [`call_once`](../thread/call_once.html "cpp/thread/call once") invokes the function only once   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_once_flag&action=edit)  
+(class)   
   
 ###  Functions  
   
 [ try_lock](../thread/try_lock.html "cpp/thread/try lock")(C++11) |  attempts to obtain ownership of mutexes via repeated calls to `try_lock`   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_try_lock&action=edit)  
+(function template)   
 [ lock](../thread/lock.html "cpp/thread/lock")(C++11) |  locks specified mutexes, blocks if any are unavailable   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_lock&action=edit)  
+(function template)   
 [ call_once](../thread/call_once.html "cpp/thread/call once")(C++11) |  invokes a function only once even if called from multiple threads   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_call_once&action=edit)  
+(function template)   
 [ std::swap(std::unique_lock)](../thread/unique_lock/swap2.html "cpp/thread/unique lock/swap2")(C++11) |  specializes the [std::swap](../utility/swap.html "cpp/algorithm/swap") algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/unique_lock/dsc_swap2&action=edit)  
+(function template)   
   
 ###  Tags  
   
 [ defer_locktry_to_lockadopt_lockdefer_lock_ttry_to_lock_tadopt_lock_t](../thread/lock_tag_t.html "cpp/thread/lock tag")(C++11) |  tags used to specify locking strategy  
-(tag)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_lock_tag&action=edit)  
+(tag)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/mutex&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     namespace std {
@@ -287,7 +287,7 @@ by the same thread and implements locking with a timeout
         void call_once(once_flag& flag, Callable&& func, Args&&... args);
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/mutex&action=edit&section=T-1 "Template:cpp/synopsis/mutex")] Class [std::mutex](../thread/mutex.html "cpp/thread/mutex")
+#### Class [std::mutex](../thread/mutex.html "cpp/thread/mutex")
     
     
     namespace std {
@@ -308,7 +308,7 @@ by the same thread and implements locking with a timeout
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/mutex&action=edit&section=T-2 "Template:cpp/synopsis/mutex")] Class [std::recursive_mutex](../thread/recursive_mutex.html "cpp/thread/recursive mutex")
+#### Class [std::recursive_mutex](../thread/recursive_mutex.html "cpp/thread/recursive mutex")
     
     
     namespace std {
@@ -329,7 +329,7 @@ by the same thread and implements locking with a timeout
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/mutex&action=edit&section=T-3 "Template:cpp/synopsis/mutex")] Class [std::timed_mutex](../thread/timed_mutex.html "cpp/thread/timed mutex")
+#### Class [std::timed_mutex](../thread/timed_mutex.html "cpp/thread/timed mutex")
     
     
     namespace std {
@@ -354,7 +354,7 @@ by the same thread and implements locking with a timeout
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/mutex&action=edit&section=T-4 "Template:cpp/synopsis/mutex")] Class [std::recursive_timed_mutex](../thread/recursive_timed_mutex.html "cpp/thread/recursive timed mutex")
+#### Class [std::recursive_timed_mutex](../thread/recursive_timed_mutex.html "cpp/thread/recursive timed mutex")
     
     
     namespace std {
@@ -379,7 +379,7 @@ by the same thread and implements locking with a timeout
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/mutex&action=edit&section=T-5 "Template:cpp/synopsis/mutex")] Class template [std::lock_guard](../thread/lock_guard.html "cpp/thread/lock guard")
+#### Class template [std::lock_guard](../thread/lock_guard.html "cpp/thread/lock guard")
     
     
     namespace std {
@@ -400,7 +400,7 @@ by the same thread and implements locking with a timeout
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/mutex&action=edit&section=T-6 "Template:cpp/synopsis/mutex")] Class template [std::scoped_lock](../thread/scoped_lock.html)
+#### Class template [std::scoped_lock](../thread/scoped_lock.html)
     
     
     namespace std {
@@ -421,7 +421,7 @@ by the same thread and implements locking with a timeout
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/mutex&action=edit&section=T-7 "Template:cpp/synopsis/mutex")] Class template [std::unique_lock](../thread/unique_lock.html "cpp/thread/unique lock")
+#### Class template [std::unique_lock](../thread/unique_lock.html "cpp/thread/unique lock")
     
     
     namespace std {
@@ -477,7 +477,7 @@ by the same thread and implements locking with a timeout
         void swap(unique_lock<Mutex>& x, unique_lock<Mutex>& y) noexcept;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/mutex&action=edit&section=T-8 "Template:cpp/synopsis/mutex")] Class [std::once_flag](../thread/once_flag.html "cpp/thread/once flag")
+#### Class [std::once_flag](../thread/once_flag.html "cpp/thread/once flag")
     
     
     namespace std {

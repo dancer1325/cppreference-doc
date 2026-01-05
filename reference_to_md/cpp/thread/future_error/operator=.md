@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::future_error`](../future_error.html "cpp/thread/future error")
 
@@ -184,7 +184,7 @@ Member functions
 [future_error::code](code.html "cpp/thread/future error/code")  
 [future_error::what](what.html "cpp/thread/future error/what")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/future_error/navbar_content&action=edit)
+
 
 future_error& operator=( const future_error& other ) noexcept; |  |  (since C++11)  
 ---|---|---  
@@ -192,16 +192,16 @@ future_error& operator=( const future_error& other ) noexcept; |  |  (since C++1
   
 Assigns the contents with those of other. If *this and other both have dynamic type `std::future_error` then [std::strcmp](../../string/byte/strcmp.html)(what(), other.what()) == 0 after assignment. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/future_error/operator%3D&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 other  |  \-  |  another `future_error` object to assign with   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/future_error/operator%3D&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 *this
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/future_error/operator%3D&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

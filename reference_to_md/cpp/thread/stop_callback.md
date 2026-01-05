@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 **`std::stop_callback`**
 
@@ -183,7 +183,7 @@ Member functions
 [stop_callback::~stop_callback](stop_callback/~stop_callback.html "cpp/thread/stop callback/~stop callback")  
 [Deduction guides](stop_callback/deduction_guides.html "cpp/thread/stop callback/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/stop_callback/navbar_content&action=edit)
+
 
 Defined in header `[<stop_token>](../header/stop_token.html "cpp/header/stop token")` |  |   
 ---|---|---  
@@ -213,25 +213,25 @@ The template param `Callback` type must be both [`invocable`](../concepts/invoca
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/stop_callback&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Type  |  Definition   
 ---|---  
 `callback_type` |  `Callback`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/stop_callback&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](stop_callback/stop_callback.html "cpp/thread/stop callback/stop callback") |  constructs new `stop_callback` object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/stop_callback/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ (destructor)](stop_callback/~stop_callback.html "cpp/thread/stop callback/~stop callback") |  destructs the `stop_callback` object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/stop_callback/dsc_destructor&action=edit)  
+(public member function)   
 operator=[deleted] |  `stop_callback` is not assignable   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/stop_callback/dsc_operator%3D&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/stop_callback&action=edit&section=3 "Edit section: Deduction guides")] [Deduction guides](stop_callback/deduction_guides.html "cpp/thread/stop callback/deduction guides")
+### [Deduction guides](stop_callback/deduction_guides.html "cpp/thread/stop callback/deduction guides")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/stop_callback&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     

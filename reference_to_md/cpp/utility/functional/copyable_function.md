@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Function objects](../../functional.html "cpp/utility/functional")
 
@@ -255,7 +255,7 @@ Identity function object
 [unary_negate](unary_negate.html "cpp/utility/functional/unary negate")(until C++20*)  
 [binary_negate](binary_negate.html "cpp/utility/functional/binary negate")(until C++20*)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/navbar_content&action=edit)
+
 
 **`std::copyable_function`**
 
@@ -271,7 +271,7 @@ Identity function object
 [operator==](copyable_function/operator==.html "cpp/utility/functional/copyable function/operator==")  
 [swap(std::copyable_function)](copyable_function/swap2.html "cpp/utility/functional/copyable function/swap2")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/copyable_function/navbar_content&action=edit)
+
 
 Defined in header `[<functional>](../../header/functional.html "cpp/header/functional")` |  |   
 ---|---|---  
@@ -323,37 +323,37 @@ The stored callable object is called the _target_ of `std::copyable_function`. I
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/copyable_function&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Type  |  Definition   
 ---|---  
 `result_type` |  `R`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/copyable_function&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](copyable_function/copyable_function.html "cpp/utility/functional/copyable function/copyable function") |  constructs a new `std::copyable_function` object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/copyable_function/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ (destructor)](copyable_function/~copyable_function.html "cpp/utility/functional/copyable function/~copyable function") |  destroys a `std::copyable_function` object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/copyable_function/dsc_destructor&action=edit)  
+(public member function)   
 [ operator=](copyable_function/operator=.html "cpp/utility/functional/copyable function/operator=") |  replaces or destroys the target   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/copyable_function/dsc_operator%3D&action=edit)  
+(public member function)   
 [ swap](copyable_function/swap.html "cpp/utility/functional/copyable function/swap") |  swaps the targets of two `std::copyable_function` objects   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/copyable_function/dsc_swap&action=edit)  
+(public member function)   
 [ operator bool](copyable_function/operator_bool.html "cpp/utility/functional/copyable function/operator bool") |  checks if the `std::copyable_function` has a target   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/copyable_function/dsc_operator_bool&action=edit)  
+(public member function)   
 [ operator()](copyable_function/operator\(\).html "cpp/utility/functional/copyable function/operator\(\)") |  invokes the target   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/copyable_function/dsc_operator\(\)&action=edit)  
+(public member function) &action=edit)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/copyable_function&action=edit&section=3 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ swap(std::copyable_function)](copyable_function/swap2.html "cpp/utility/functional/copyable function/swap2")(C++26) |  overloads the [std::swap](../swap.html "cpp/algorithm/swap") algorithm   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/copyable_function/dsc_swap2&action=edit)  
+(function)   
 ---|---  
 [ operator==](copyable_function/operator==.html "cpp/utility/functional/copyable function/operator==")(C++26) |  compares a `std::copyable_function` with nullptr   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/copyable_function/dsc_operator%3D%3D&action=edit)  
+(function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/copyable_function&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 Implementations may store a callable object of small size within the `std::copyable_function` object. Such small object optimization is effectively required for function pointers and [std::reference_wrapper](reference_wrapper.html "cpp/utility/functional/reference wrapper") specializations, and can only be applied to types `T` for which [std::is_nothrow_move_constructible_v](../../types/is_move_constructible.html)<T> is true. 
 
@@ -361,20 +361,20 @@ Implementations may store a callable object of small size within the `std::copya
 ---|---|---|---  
 [`__cpp_lib_copyable_function`](../../experimental/feature_test.html#cpp_lib_copyable_function "cpp/feature test") | [`202306L`](../../compiler_support/26.html#cpp_lib_copyable_function_202306L "cpp/compiler support/26") | (C++26) | `std::copyable_function`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/copyable_function&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/copyable_function&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ function](function.html "cpp/utility/functional/function")(C++11) |  copyable wrapper of any copy constructible callable object   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_function&action=edit)  
+(class template)   
 ---|---  
 [ move_only_function](move_only_function.html "cpp/utility/functional/move only function")(C++23) |  move-only wrapper of any callable object that supports qualifiers in a given call signature   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_move_only_function&action=edit)  
+(class template)   
 [ function_ref](function_ref.html "cpp/utility/functional/function ref")(C++26) |  non-owning wrapper of any callable object   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_function_ref&action=edit)
+(class template) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

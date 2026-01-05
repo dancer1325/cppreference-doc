@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](copy.html "cpp/algorithm/ranges/co
 [uninitialized_default_construct_n](../../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 [Constrained algorithms](../ranges.html "cpp/algorithm/ranges")
 
@@ -550,7 +550,7 @@ All names in this menu belong to namespace `std::ranges`
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -599,7 +599,7 @@ The function-like entities described on this page are [_algorithm function objec
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/equal&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first1, last1  |  \-  |  the iterator-sentinel pair defining the first [range](../../iterator.html#Ranges "cpp/iterator") of elements to compare   
 ---|---|---  
@@ -610,7 +610,7 @@ pred  |  \-  |  binary predicate to apply to the projected elements
 proj1  |  \-  |  projection to apply to the first range of elements   
 proj2  |  \-  |  projection to apply to the second range of elements   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/equal&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 If the length of the range `[`first1`, `last1`)` does not equal the length of the range `[`first2`, `last2`)`, returns false. 
 
@@ -618,7 +618,7 @@ If the elements in the two ranges are equal after projection, returns true.
 
 Otherwise returns false. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/equal&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 `ranges::equal` should not be used to compare the ranges formed by the iterators from [std::unordered_set](../../container/unordered_set.html "cpp/container/unordered set"), [std::unordered_multiset](../../container/unordered_multiset.html "cpp/container/unordered multiset"), [std::unordered_map](../../container/unordered_map.html "cpp/container/unordered map"), or [std::unordered_multimap](../../container/unordered_multimap.html "cpp/container/unordered multimap") because the order in which the elements are stored in those containers may be different even if the two containers store the same elements. 
 
@@ -626,13 +626,13 @@ When comparing entire containers or string views for equality, operator== for th
 
 `ranges::equal` is not guaranteed to be short-circuit. E.g. if the first pair elements of both ranges do not compare equal, the rest of elements may also be compared. Non-short-circuit comparison may happen when the ranges are compared with [std::memcmp](../../string/byte/memcmp.html "cpp/string/byte/memcmp") or implementation-specific vectorized algorithms. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/equal&action=edit&section=4 "Edit section: Complexity")] Complexity
+### Complexity
 
 At most min(last1 - first1, last2 - first2) applications of the predicate and corresponding projections. 
 
 However, if S1 and S2 both model [std::sized_sentinel_for](../../iterator/sized_sentinel_for.html "cpp/iterator/sized sentinel for") their respective iterators, and last1 - first1 != last2 - first2 then no applications of the predicate are made (size mismatch is detected without looking at any elements). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/equal&action=edit&section=5 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     struct equal_fn
@@ -674,7 +674,7 @@ However, if S1 and S2 both model [std::sized_sentinel_for](../../iterator/sized_
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/equal&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 The following code uses **ranges::equal** to test if a string is a palindrome.
 
@@ -715,20 +715,20 @@ Output:
     "radar" is a palindrome
     "hello" is not a palindrome
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/equal&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ ranges::findranges::find_ifranges::find_if_not](find.html "cpp/algorithm/ranges/find")(C++20)(C++20)(C++20) |  finds the first element satisfying specific criteria  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_find&action=edit)  
+(algorithm function object)  
 ---|---  
 [ ranges::lexicographical_compare](lexicographical_compare.html "cpp/algorithm/ranges/lexicographical compare")(C++20) |  returns true if one range is lexicographically less than another  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_lexicographical_compare&action=edit)  
+(algorithm function object)  
 [ ranges::mismatch](mismatch.html "cpp/algorithm/ranges/mismatch")(C++20) |  finds the first position where two ranges differ  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_mismatch&action=edit)  
+(algorithm function object)  
 [ ranges::search](search.html "cpp/algorithm/ranges/search")(C++20) |  searches for the first occurrence of a range of elements  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_search&action=edit)  
+(algorithm function object)  
 [ ranges::equal_range](equal_range.html "cpp/algorithm/ranges/equal range")(C++20) |  returns range of elements matching a specific key  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_equal_range&action=edit)  
+(algorithm function object)  
 [ equal_to](../../utility/functional/equal_to.html "cpp/utility/functional/equal to") |  function object implementing x == y   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_equal_to&action=edit)  
+(class template)   
 [ equal](../equal.html "cpp/algorithm/equal") |  determines if two sets of elements are the same   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_equal&action=edit)
+(function template) 

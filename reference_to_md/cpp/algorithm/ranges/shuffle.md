@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](copy.html "cpp/algorithm/ranges/co
 [uninitialized_default_construct_n](../../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 [Constrained algorithms](../ranges.html "cpp/algorithm/ranges")
 
@@ -550,7 +550,7 @@ All names in this menu belong to namespace `std::ranges`
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -590,22 +590,22 @@ The function-like entities described on this page are [_algorithm function objec
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/shuffle&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  the iterator-sentinel pair defining the [range](../../iterator.html#Ranges "cpp/iterator") of elements to shuffle randomly   
 ---|---|---  
 r  |  \-  |  the range of elements to shuffle randomly   
 gen  |  \-  |  the random number generator   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/shuffle&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 An iterator equal to last. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/shuffle&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Exactly (last - first) - 1 swaps. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/shuffle&action=edit&section=4 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     struct shuffle_fn
@@ -638,7 +638,7 @@ Exactly (last - first) - 1 swaps.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/shuffle&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -678,12 +678,12 @@ Possible output:
     E C B F A D
     B A E C F D
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/shuffle&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ ranges::next_permutation](next_permutation.html "cpp/algorithm/ranges/next permutation")(C++20) |  generates the next greater lexicographic permutation of a range of elements  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_next_permutation&action=edit)  
+(algorithm function object)  
 ---|---  
 [ ranges::prev_permutation](prev_permutation.html "cpp/algorithm/ranges/prev permutation")(C++20) |  generates the next smaller lexicographic permutation of a range of elements  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_prev_permutation&action=edit)  
+(algorithm function object)  
 [ random_shuffleshuffle](../random_shuffle.html "cpp/algorithm/random shuffle")(until C++17)(C++11) |  randomly re-orders elements in a range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_random_shuffle&action=edit)
+(function template) 

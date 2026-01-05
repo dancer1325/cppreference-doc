@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 **`std::promise`**
 
@@ -195,7 +195,7 @@ Non-member Functions
 Helper Classes  
 [uses_allocator<std::promise>](promise/uses_allocator.html "cpp/thread/promise/uses allocator")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/promise/navbar_content&action=edit)
+
 
 Defined in header `[<future>](../header/future.html "cpp/header/future")` |  |   
 ---|---|---  
@@ -234,47 +234,47 @@ The promise is the "push" end of the promise-future communication channel: the o
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/promise&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](promise/promise.html "cpp/thread/promise/promise") |  constructs the promise object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/promise/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ (destructor)](promise/~promise.html "cpp/thread/promise/~promise") |  destructs the promise object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/promise/dsc_destructor&action=edit)  
+(public member function)   
 [ operator=](promise/operator=.html "cpp/thread/promise/operator=") |  assigns the shared state   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/promise/dsc_operator%3D&action=edit)  
+(public member function)   
 [ swap](promise/swap.html "cpp/thread/promise/swap") |  swaps two promise objects   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/promise/dsc_swap&action=edit)  
+(public member function)   
   
 #####  Getting the result   
   
 [ get_future](promise/get_future.html "cpp/thread/promise/get future") |  returns a [`future`](future.html "cpp/thread/future") associated with the promised result   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/promise/dsc_get_future&action=edit)  
+(public member function)   
   
 #####  Setting the result   
   
 [ set_value](promise/set_value.html "cpp/thread/promise/set value") |  sets the result to specific value   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/promise/dsc_set_value&action=edit)  
+(public member function)   
 [ set_value_at_thread_exit](promise/set_value_at_thread_exit.html "cpp/thread/promise/set value at thread exit") |  sets the result to specific value while delivering the notification only at thread exit   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/promise/dsc_set_value_at_thread_exit&action=edit)  
+(public member function)   
 [ set_exception](promise/set_exception.html "cpp/thread/promise/set exception") |  sets the result to indicate an exception   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/promise/dsc_set_exception&action=edit)  
+(public member function)   
 [ set_exception_at_thread_exit](promise/set_exception_at_thread_exit.html "cpp/thread/promise/set exception at thread exit") |  sets the result to indicate an exception while delivering the notification only at thread exit   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/promise/dsc_set_exception_at_thread_exit&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/promise&action=edit&section=2 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ std::swap(std::promise)](promise/swap2.html "cpp/thread/promise/swap2")(C++11) |  specializes the [std::swap](../utility/swap.html "cpp/algorithm/swap") algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/promise/dsc_swap2&action=edit)  
+(function template)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/promise&action=edit&section=3 "Edit section: Helper classes")] Helper classes
+### Helper classes
 
 [ std::uses_allocator<std::promise>](promise/uses_allocator.html "cpp/thread/promise/uses allocator")(C++11) |  specializes the [std::uses_allocator](../memory/uses_allocator.html "cpp/memory/uses allocator") type trait   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/promise/dsc_uses_allocator&action=edit)  
+(class template specialization)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/promise&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 This example shows how `promise<int>` can be used as signals between threads.
 

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [Declarations](declarations.html "cpp/language/declarations")
 
@@ -280,7 +280,7 @@ Other declarations
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/declarations/navbar_content&action=edit)
+
 
 Performs compile-time assertion checking. 
 
@@ -298,7 +298,7 @@ Performs compile-time assertion checking.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/static_assert&action=edit&section=1 "Edit section: Syntax")] Syntax  
+### Syntax  
   
 ---  
 `**static_assert(**` bool-constexpr `**,**` unevaluated-string `**)**` |  (1)  |   
@@ -315,7 +315,7 @@ Declares a static assertion. If the assertion fails, the program is ill-formed, 
 
 This syntax can only be matched if syntax ([1](static_assert.html#Version_1)) does not match.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/static_assert&action=edit&section=2 "Edit section: Explanation")] Explanation
+### Explanation
 
 bool-constexpr |  \-  |  |  a [contextually converted constant expression of type bool](constant_expression.html#Converted_constant_expression "cpp/language/constant expression"). Built-in conversions are not allowed, except for non-[narrowing](list_initialization.html#Narrowing_conversions "cpp/language/list initialization") [integral conversions](implicit_cast.html#Integral_conversions "cpp/language/implicit conversion") to bool.  | (until C++23)  
 ---|---  
@@ -353,7 +353,7 @@ The text of the user-provided message is determined as follows:
 | (since C++26)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/static_assert&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 The standard does not require a compiler to print the verbatim text of [error message](static_assert.html#error_message), though compilers generally do so as much as possible. 
 
@@ -365,11 +365,11 @@ Feature-test macro  | Value | Std | Feature
 [`201411L`](../compiler_support/17.html#cpp_static_assert_201411L "cpp/compiler support/17") | (C++17) | Single-argument static_assert (syntax ([2](static_assert.html#Version_2)))   
 [`202306L`](../compiler_support/26.html#cpp_static_assert_202306L "cpp/compiler support/26") | (C++26) | User-generated error messages (syntax ([3](static_assert.html#Version_3)))   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/static_assert&action=edit&section=4 "Edit section: Keywords")] Keywords
+### Keywords
 
 [`static_assert`](../keyword/static_assert.html "cpp/keyword/static assert")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/static_assert&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -444,7 +444,7 @@ Possible output:
     2: error: static assertion failed: Data structure requires default-constructible elements
     3: error: static assertion failed: Expected 4, got 2
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/static_assert&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -455,7 +455,7 @@ valid in a constant expression
 [CWG 2518](https://cplusplus.github.io/CWG/issues/2518.html)  
 ([P2593R1](https://wg21.link/P2593R1))  | C++11  | uninstantiated static_assert(false, ""); was ill-formed  | made well-formed   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/static_assert&action=edit&section=7 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -507,16 +507,16 @@ valid in a constant expression
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/static_assert&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [ #error](../preprocessor/warning.html "cpp/preprocessor/error") |  shows the given error message and renders the program ill-formed  
-(preprocessing directive)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/preprocessor/dsc_error&action=edit)  
+(preprocessing directive)  
 ---|---  
 [ assert](../error/assert.html "cpp/error/assert") |  aborts the program if the user-specified condition is not true. May be disabled for release builds.   
-(function macro) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_assert&action=edit)  
-[`contract_assert` statement](contract_assert.html "cpp/language/contract assert") (C++26) |  verifies an internal condition during execution[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_contract_assert&action=edit)  
+(function macro)   
+[`contract_assert` statement](contract_assert.html "cpp/language/contract assert") (C++26) |  verifies an internal condition during execution  
 [ enable_if](../types/enable_if.html "cpp/types/enable if")(C++11) |  conditionally [removes](sfinae.html "cpp/language/sfinae") a function overload or template specialization from overload resolution   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_enable_if&action=edit)  
+(class template)   
 [**Type traits**](../meta.html#Type_traits "cpp/meta") (C++11) |  define compile-time template-based interfaces to query the properties of types   
 [C documentation](../../c/language/static_assert.html "c/language/ Static assert") for Static assertion
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.

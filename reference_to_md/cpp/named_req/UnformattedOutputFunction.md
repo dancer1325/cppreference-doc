@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ named requirements](../iterator/concepts.html "cpp/named req")
 
@@ -147,9 +147,9 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/named_req/navbar_content&action=edit)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/UnformattedOutputFunction&action=edit&section=1 "Edit section: Requirements")] Requirements
+
+### Requirements
 
 A UnformattedOutputFunction is a stream output function that performs the following: 
 
@@ -176,7 +176,7 @@ A UnformattedOutputFunction is a stream output function that performs the follow
 
 3) In any event, whether terminating by exception or returning, the sentry's destructor is called before leaving this function.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/UnformattedOutputFunction&action=edit&section=2 "Edit section: Standard library")] Standard library
+### Standard library
 
 The following standard library functions are **UnformattedOutputFunction s**. 
 
@@ -193,7 +193,7 @@ The following standard library functions are **UnformattedOutputFunction s**.
 | (since C++11)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/UnformattedOutputFunction&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [`std::valarray`](../valarray.html "cpp/numeric/valarray")
 
@@ -155,7 +155,7 @@
   
 [Deduction guides](deduction_guides.html "cpp/numeric/valarray/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/navbar_content&action=edit)
+
 
 Defined in header `[<valarray>](../../header/valarray.html "cpp/header/valarray")` |  |   
 ---|---|---  
@@ -275,18 +275,18 @@ Apply binary operators to each element of two valarrays, or a valarray and a val
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/operator_arith3&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 rhs  |  \-  |  a numeric array   
 ---|---|---  
 lhs  |  \-  |  a numeric array   
 val  |  \-  |  a value of type `**T**`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/operator_arith3&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 A valarray with the same size as the parameter. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/operator_arith3&action=edit&section=3 "Edit section: Note")] Note
+### Note
 
 The behaviour is undefined when the two arguments are valarrays with different sizes. 
 
@@ -302,7 +302,7 @@ The function can be implemented with the return type different from [std::valarr
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/operator_arith3&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Finds real roots of multiple [Quadratic equations](https://en.wikipedia.org/wiki/Quadratic_equation "enwiki:Quadratic equation").
 
@@ -344,7 +344,7 @@ Output:
     1·x² + 7·x + -7 = 0  -7.887482  0.887482  7  -7
     1·x² + 8·x + -8 = 0  -8.898979  0.898979  8  -8
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/operator_arith3&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -352,10 +352,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 3074](https://cplusplus.github.io/LWG/issue3074) | C++98  | `T` is deduced from both the scalar and the `valarray` for (2,3), disallowing mixed-type calls  | only deduce `T` from the `valarray`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/operator_arith3&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ operator+operator-operator~operator!](operator_arith.html "cpp/numeric/valarray/operator arith") |  applies a unary arithmetic operator to each element of the valarray   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_operator_arith&action=edit)  
+(public member function)   
 ---|---  
 [ operator+=operator-=operator*=operator/=operator%=operator&=operator|=operator^=operator<<=operator>>=](operator_arith2.html "cpp/numeric/valarray/operator arith2") |  applies compound assignment operator to each element of the valarray   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_operator_arith2&action=edit)
+(public member function) 

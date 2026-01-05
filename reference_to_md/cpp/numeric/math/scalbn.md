@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [Common mathematical functions](../math.html "cpp/numeric/math")
 
@@ -230,7 +230,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/navbar_content&action=edit)
+
 
 Defined in header `[<cmath>](../../header/cmath.html "cpp/header/cmath")` |  |   
 ---|---|---  
@@ -284,13 +284,13 @@ A,B) Additional overloads are provided for all integer types, which are treated 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/scalbn&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 num  |  \-  |  floating-point or integer value   
 ---|---|---  
 exp  |  \-  |  integer value   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/scalbn&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 If no errors occur, num multiplied by [FLT_RADIX](../../types/climits.html "cpp/types/climits") to the power of exp (num×FLT_RADIXexp  
 ) is returned. 
@@ -299,7 +299,7 @@ If a range error due to overflow occurs, [±HUGE_VAL](HUGE_VALL.html "cpp/numeri
 
 If a range error due to underflow occurs, the correct result (after rounding) is returned. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/scalbn&action=edit&section=3 "Edit section: Error handling")] Error handling
+### Error handling
 
 Errors are reported as specified in [math_errhandling](math_errhandling.html "cpp/numeric/math/math errhandling"). 
 
@@ -314,7 +314,7 @@ If the implementation supports IEEE floating-point arithmetic (IEC 60559),
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/scalbn&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 On binary systems (where [FLT_RADIX](../../types/climits.html "cpp/types/climits") is 2), `std::scalbn` is equivalent to [std::ldexp](ldexp.html "cpp/numeric/math/ldexp"). 
 
@@ -333,7 +333,7 @@ The additional overloads are not required to be provided exactly as (A,B). They 
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/scalbn&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -382,11 +382,11 @@ Possible output:
         errno == ERANGE: Numerical result out of range
         FE_OVERFLOW raised
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/scalbn&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ frexpfrexpffrexpl](frexp.html "cpp/numeric/math/frexp")(C++11)(C++11) |  decomposes a number into significand and base-2 exponent   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_frexp&action=edit)  
+(function)   
 ---|---  
 [ ldexpldexpfldexpl](ldexp.html "cpp/numeric/math/ldexp")(C++11)(C++11) |  multiplies a number by 2 raised to an integral power   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_ldexp&action=edit)  
+(function)   
 [C documentation](../../../c/numeric/math/scalbn.html "c/numeric/math/scalbn") for scalbn

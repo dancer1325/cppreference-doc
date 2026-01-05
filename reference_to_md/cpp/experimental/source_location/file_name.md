@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Library fundamentals v2](../lib_extensions_2.html "cpp/experimental/lib extensions 2")
 
@@ -74,7 +74,7 @@
 [uniform container erasure](../lib_extensions_2.html#Uniform_container_erasure "cpp/experimental/lib extensions 2")  
 [logical operator type traits](../lib_extensions_2.html#Logical_operator_type_traits "cpp/experimental/lib extensions 2")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions_2/navbar_content&action=edit)
+
 
 [`std::experimental::source_location`](../source_location.html "cpp/experimental/source location")
 
@@ -88,7 +88,7 @@ Field Access
 **source_location::file_name**  
 [source_location::function_name](function_name.html "cpp/experimental/source location/function name")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/source_location/navbar_content&action=edit)
+
 
 constexpr const char* file_name() const noexcept; |  |  (library fundamentals TS v2)  
 ---|---|---  
@@ -106,15 +106,15 @@ Returns the name of the current source file represented by this object, represen
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/source_location/file_name&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/source_location/file_name&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The name of the current source file represented by this object, represented as a null-terminated byte string. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/source_location/file_name&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -140,13 +140,13 @@ Possible output:
     
     File: main.cpp
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/source_location/file_name&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ line](line.html "cpp/experimental/source location/line") |  return the line number represented by this object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/source_location/dsc_line&action=edit)  
+(public member function)   
 ---|---  
 [ column](column.html "cpp/experimental/source location/column") |  return the column number represented by this object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/source_location/dsc_column&action=edit)  
+(public member function)   
 [ function_name](function_name.html "cpp/experimental/source location/function name") |  return the name of the function represented by this object, if any   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/source_location/dsc_function_name&action=edit)  
+(public member function)   
 [C++ documentation](../../preprocessor/line.html "cpp/preprocessor/line") for Filename and line information

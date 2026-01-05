@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](../history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [Declarations](../declarations.html "cpp/language/declarations")
 
@@ -280,7 +280,7 @@ Other declarations
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/declarations/navbar_content&action=edit)
+
 
 [Attributes](../attributes.html "cpp/language/attributes")
 
@@ -298,7 +298,7 @@ Other declarations
 [optimize_for_synchronized](optimize_for_synchronized.html "cpp/language/attributes/optimize for synchronized")(TM TS)  
 [unlikely](likely.html "cpp/language/attributes/likely")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/attributes/navbar_content&action=edit)
+
 
 If a function declared `nodiscard` or a function returning an enumeration or class declared `nodiscard` by value is called from a [discarded-value expression](../expressions.html#Discarded-value_expressions "cpp/language/expressions") other than a cast to void, the compiler is encouraged to issue a warning. 
 
@@ -319,7 +319,7 @@ If a function declared `nodiscard` or a function returning an enumeration or cla
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/attributes/nodiscard&action=edit&section=1 "Edit section: Syntax")] Syntax  
+### Syntax  
   
 ---  
 `**[[nodiscard]]**` |  (1)  |  (since C++17)  
@@ -327,7 +327,7 @@ If a function declared `nodiscard` or a function returning an enumeration or cla
 string-literal |  \-  |  an [unevaluated string literal](../string_literal.html#Unevaluated_strings "cpp/language/string literal") that could be used to explain the rationale for why the result should not be discarded   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/attributes/nodiscard&action=edit&section=2 "Edit section: Explanation")] Explanation
+### Explanation
 
 Appears in a function declaration, enumeration declaration, or class declaration. 
 
@@ -345,7 +345,7 @@ the compiler is encouraged to issue a warning.
 The string-literal, if specified, is usually included in the warnings.  | (since C++20)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/attributes/nodiscard&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -394,82 +394,82 @@ The following standard functions are declared with `nodiscard` attribute:  | Ext
   
 ---  
 [ operator newoperator new[]](../../memory/new/operator_new.html "cpp/memory/new/operator new") |  allocation functions   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/new/dsc_operator_new&action=edit)  
+(function)   
 [ allocate](../../memory/allocator/allocate.html "cpp/memory/allocator/allocate") |  allocates uninitialized storage   
-(public member function of `std::allocator<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/allocator/dsc_allocate&action=edit)  
+(public member function of `std::allocator<T>`)   
 [ allocate](../../memory/allocator_traits/allocate.html "cpp/memory/allocator traits/allocate")[static] |  allocates uninitialized storage using the allocator   
-(public static member function of `std::allocator_traits<Alloc>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/allocator_traits/dsc_allocate&action=edit)  
+(public static member function of `std::allocator_traits<Alloc>`)   
 [ allocate](../../memory/memory_resource/allocate.html "cpp/memory/memory resource/allocate") |  allocates memory   
-(public member function of `std::pmr::memory_resource`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/memory_resource/dsc_allocate&action=edit)  
+(public member function of `std::pmr::memory_resource`)   
 [ allocate](../../memory/polymorphic_allocator/allocate.html "cpp/memory/polymorphic allocator/allocate") |  allocate memory   
-(public member function of `std::pmr::polymorphic_allocator<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/polymorphic_allocator/dsc_allocate&action=edit)  
+(public member function of `std::pmr::polymorphic_allocator<T>`)   
 [ allocate](../../memory/scoped_allocator_adaptor/allocate.html "cpp/memory/scoped allocator adaptor/allocate") |  allocates uninitialized storage using the outer allocator   
-(public member function of `std::scoped_allocator_adaptor<OuterAlloc,InnerAlloc...>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/scoped_allocator_adaptor/dsc_allocate&action=edit)  
+(public member function of `std::scoped_allocator_adaptor<OuterAlloc,InnerAlloc...>`)   
   
 #####  Indirect access   
   
 [ launder](../../utility/launder.html "cpp/utility/launder")(C++17) |  pointer optimization barrier   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_launder&action=edit)  
+(function template)   
 [ assume_aligned](../../memory/assume_aligned.html "cpp/memory/assume aligned")(C++20) |  informs the compiler that a pointer is aligned   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_assume_aligned&action=edit)  
+(function template)   
   
 #####  Emptiness-checking functions   
   
 [ empty](../../iterator/empty.html "cpp/iterator/empty")(C++17) |  checks whether the container is empty   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_empty&action=edit)  
+(function template)   
 [ empty](../../container/node_handle.html#empty "cpp/container/node handle") |  checks whether the node handle is empty  
 (public member function of `_node handle_`)  
 [ empty](../../container/array/empty.html "cpp/container/array/empty") |  checks whether the container is empty   
-(public member function of `std::array<T,N>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_empty&action=edit)  
+(public member function of `std::array<T,N>`)   
 [ empty](../../string/basic_string/empty.html "cpp/string/basic string/empty") |  checks whether the string is empty   
-(public member function of `std::basic_string<CharT,Traits,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_empty&action=edit)  
+(public member function of `std::basic_string<CharT,Traits,Allocator>`)   
 [ empty](../../string/basic_string_view/empty.html "cpp/string/basic string view/empty") |  checks whether the view is empty   
-(public member function of `std::basic_string_view<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/dsc_empty&action=edit)  
+(public member function of `std::basic_string_view<CharT,Traits>`)   
 [ empty](../../container/deque/empty.html "cpp/container/deque/empty") |  checks whether the container is empty   
-(public member function of `std::deque<T,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_empty&action=edit)  
+(public member function of `std::deque<T,Allocator>`)   
 [ empty](../../container/forward_list/empty.html "cpp/container/forward list/empty") |  checks whether the container is empty   
-(public member function of `std::forward_list<T,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_empty&action=edit)  
+(public member function of `std::forward_list<T,Allocator>`)   
 [ empty](../../container/list/empty.html "cpp/container/list/empty") |  checks whether the container is empty   
-(public member function of `std::list<T,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_empty&action=edit)  
+(public member function of `std::list<T,Allocator>`)   
 [ empty](../../container/map/empty.html "cpp/container/map/empty") |  checks whether the container is empty   
-(public member function of `std::map<Key,T,Compare,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_empty&action=edit)  
+(public member function of `std::map<Key,T,Compare,Allocator>`)   
 [ empty](../../regex/match_results/empty.html "cpp/regex/match results/empty") |  checks whether the match was successful   
-(public member function of `std::match_results<BidirIt,Alloc>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/match_results/dsc_empty&action=edit)  
+(public member function of `std::match_results<BidirIt,Alloc>`)   
 [ empty](../../container/multimap/empty.html "cpp/container/multimap/empty") |  checks whether the container is empty   
-(public member function of `std::multimap<Key,T,Compare,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_empty&action=edit)  
+(public member function of `std::multimap<Key,T,Compare,Allocator>`)   
 [ empty](../../container/multiset/empty.html "cpp/container/multiset/empty") |  checks whether the container is empty   
-(public member function of `std::multiset<Key,Compare,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_empty&action=edit)  
+(public member function of `std::multiset<Key,Compare,Allocator>`)   
 [ empty](../../container/priority_queue/empty.html "cpp/container/priority queue/empty") |  checks whether the container adaptor is empty   
-(public member function of `std::priority_queue<T,Container,Compare>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_empty&action=edit)  
+(public member function of `std::priority_queue<T,Container,Compare>`)   
 [ empty](../../container/queue/empty.html "cpp/container/queue/empty") |  checks whether the container adaptor is empty   
-(public member function of `std::queue<T,Container>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_empty&action=edit)  
+(public member function of `std::queue<T,Container>`)   
 [ empty](../../container/set/empty.html "cpp/container/set/empty") |  checks whether the container is empty   
-(public member function of `std::set<Key,Compare,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_empty&action=edit)  
+(public member function of `std::set<Key,Compare,Allocator>`)   
 [ empty](../../container/span/empty.html "cpp/container/span/empty") |  checks if the sequence is empty   
-(public member function of `std::span<T,Extent>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/span/dsc_empty&action=edit)  
+(public member function of `std::span<T,Extent>`)   
 [ empty](../../container/stack/empty.html "cpp/container/stack/empty") |  checks whether the container adaptor is empty   
-(public member function of `std::stack<T,Container>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_empty&action=edit)  
+(public member function of `std::stack<T,Container>`)   
 [ empty](../../container/unordered_map/empty.html "cpp/container/unordered map/empty") |  checks whether the container is empty   
-(public member function of `std::unordered_map<Key,T,Hash,KeyEqual,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_empty&action=edit)  
+(public member function of `std::unordered_map<Key,T,Hash,KeyEqual,Allocator>`)   
 [ empty](../../container/unordered_multimap/empty.html "cpp/container/unordered multimap/empty") |  checks whether the container is empty   
-(public member function of `std::unordered_multimap<Key,T,Hash,KeyEqual,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_empty&action=edit)  
+(public member function of `std::unordered_multimap<Key,T,Hash,KeyEqual,Allocator>`)   
 [ empty](../../container/unordered_multiset/empty.html "cpp/container/unordered multiset/empty") |  checks whether the container is empty   
-(public member function of `std::unordered_multiset<Key,Hash,KeyEqual,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_empty&action=edit)  
+(public member function of `std::unordered_multiset<Key,Hash,KeyEqual,Allocator>`)   
 [ empty](../../container/unordered_set/empty.html "cpp/container/unordered set/empty") |  checks whether the container is empty   
-(public member function of `std::unordered_set<Key,Hash,KeyEqual,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_empty&action=edit)  
+(public member function of `std::unordered_set<Key,Hash,KeyEqual,Allocator>`)   
 [ empty](../../container/vector/empty.html "cpp/container/vector/empty") |  checks whether the container is empty   
-(public member function of `std::vector<T,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_empty&action=edit)  
+(public member function of `std::vector<T,Allocator>`)   
 [ empty](../../filesystem/path/empty.html "cpp/filesystem/path/empty") |  checks if the path is empty   
-(public member function of `std::filesystem::path`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/path/dsc_empty&action=edit)  
+(public member function of `std::filesystem::path`)   
   
 #####  Miscellaneous   
   
 [ async](../../thread/async.html "cpp/thread/async")(C++11) |  runs a function asynchronously (potentially in a new thread) and returns a [std::future](../../thread/future.html "cpp/thread/future") that will hold the result   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_async&action=edit)  
+(function template)   
   
 (until C++26)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/attributes/nodiscard&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -477,7 +477,7 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [P1771R1](https://wg21.link/P1771R1) | C++17  | `[[nodiscard]]` on constructors has no effect  | can cause a warning if the constructed object is discarded   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/attributes/nodiscard&action=edit&section=6 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -509,9 +509,9 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/attributes/nodiscard&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ ignore](../../utility/tuple/ignore.html "cpp/utility/tuple/ignore")(C++11) |  placeholder to skip an element when unpacking a `tuple` using [`tie`](../../utility/tuple/tie.html "cpp/utility/tuple/tie")   
-(constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/dsc_ignore&action=edit)  
+(constant)   
 ---|---  
 [C documentation](../../../c/language/attributes/nodiscard.html "c/language/attributes/nodiscard") for nodiscard

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Type support](../../utility/rtti.html "cpp/types")
 
@@ -161,7 +161,7 @@ Runtime type information
 ---  
 [bad_cast](../bad_cast.html "cpp/types/bad cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/navbar_content&action=edit)
+
 
 [`std::numeric_limits`](../numeric_limits.html "cpp/types/numeric limits")
 
@@ -204,7 +204,7 @@ Helper types
 [float_round_style](float_round_style.html "cpp/types/numeric limits/float round style")  
 [float_denorm_style](float_denorm_style.html "cpp/types/numeric limits/float denorm style")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/navbar_content&action=edit)
+
 
 Defined in header `[<limits>](../../header/limits.html "cpp/header/limits")` |  |   
 ---|---|---  
@@ -214,7 +214,7 @@ static constexpr T max() noexcept; |  |  (since C++11)
   
 Returns the maximum finite value representable by the numeric type `T`. Meaningful for all bounded types. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/numeric_limits/max&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 `T` |  [std::numeric_limits](../numeric_limits.html)<T>::max()  
 ---|---  
@@ -239,7 +239,7 @@ float |  [FLT_MAX](../climits.html)
 double |  [DBL_MAX](../climits.html)  
 long double |  [LDBL_MAX](../climits.html)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/numeric_limits/max&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Demonstrates the use of `max()` with some fundamental types and some standard library typedefs (the output is system-specific):
 
@@ -300,10 +300,10 @@ Possible output:
               double: 1.79769e+308 = 0x1.fffffffffffffp+1023
          long double: 1.18973e+4932 = 0xf.fffffffffffffffp+16380
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/numeric_limits/max&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ lowest](lowest.html "cpp/types/numeric limits/lowest")[static] (C++11) |  returns the lowest finite value of the given type, i.e. the most negative value for signed types, ​0​ for unsigned types   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/dsc_lowest&action=edit)  
+(public static member function)   
 ---|---  
 [ min](min.html "cpp/types/numeric limits/min")[static] |  returns the smallest finite value of the given non-floating-point type, or the smallest positive normal value of the given floating-point type   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/dsc_min&action=edit)
+(public static member function) 

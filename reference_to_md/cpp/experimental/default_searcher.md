@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Library fundamentals](memory.html "cpp/experimental/lib extensions")
 
@@ -75,7 +75,7 @@
 [Type-erased and polymorphic allocators](memory.html "cpp/experimental/memory")  
 [Variable templates for type traits](type_trait_variable_templates.html "cpp/experimental/type trait variable templates")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions/navbar_content&action=edit)
+
 
 Defined in header `[<experimental/functional>](../header/experimental/functional.html "cpp/header/experimental/functional")` |  |   
 ---|---|---  
@@ -105,7 +105,7 @@ A class suitable for use with [`std::experimental::search`](search.html "cpp/exp
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/default_searcher&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 ##  std::experimental::default_searcher::default_searcher
 
@@ -154,7 +154,7 @@ Iterator to the first position in `[`first`, `last`)` where a subsequence that c
 ---|---  
 A pair of iterators to the first and one past last positions in `[`first`, `last`)` where a subsequence that compares equal to `[`pat_first`, `pat_last`)` as defined by pred is located, or a pair of copies of last otherwise.  | (since C++17)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/default_searcher&action=edit&section=6 "Edit section: Helper Functions")] Helper Functions
+### Helper Functions
 
 template< class ForwardIterator, class BinaryPredicate = [std::equal_to](../utility/functional/equal_to.html)<> >  
 default_searcher<ForwardIterator, BinaryPredicate> make_default_searcher(  
@@ -166,17 +166,17 @@ BinaryPredicate pred = BinaryPredicate()); |  |  (library fundamentals TS)
   
 Helper function that constructs a `std::experimental::default_searcher` using template argument deduction. Equivalent to return default_searcher<ForwardIterator, BinaryPredicate>(pat_first, pat_last, pred);
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/default_searcher&action=edit&section=7 "Edit section: Parameters")] Parameters
+### Parameters
 
 pat_first, pat_last  |  \-  |  a pair of iterators designating the string to be searched for   
 ---|---|---  
 pred  |  \-  |  a callable object used to determine equality   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/default_searcher&action=edit&section=8 "Edit section: Return value")] Return value
+### Return value
 
 A `default_searcher` constructed with the arguments pat_first, pat_last, pred. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/default_searcher&action=edit&section=9 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -206,8 +206,8 @@ Output:
     
     The string pisci found at offset 43
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/default_searcher&action=edit&section=10 "Edit section: See also")] See also
+### See also
 
 [ search](../algorithm/search.html "cpp/algorithm/search") |  searches for the first occurrence of a range of elements   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_search&action=edit)  
+(function template)   
 ---|---

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 Defined in header `[<memory>](../header/memory.html "cpp/header/memory")` |  |   
 ---|---|---  
@@ -217,31 +217,31 @@ Equivalent to
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/uninitialized_construct_using_allocator&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 p  |  \-  |  the memory location where the object will be placed   
 ---|---|---  
 alloc  |  \-  |  the allocator to use   
 args  |  \-  |  the arguments to pass to T's constructor   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/uninitialized_construct_using_allocator&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Pointer to the newly-created object of type `T`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/uninitialized_construct_using_allocator&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 May throw any exception thrown by the constructor of `T`, typically including [std::bad_alloc](new/bad_alloc.html "cpp/memory/new/bad alloc"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/uninitialized_construct_using_allocator&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/uninitialized_construct_using_allocator&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ uses_allocator](uses_allocator.html "cpp/memory/uses allocator")(C++11) |  checks if the specified type supports uses-allocator construction   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_uses_allocator&action=edit)  
+(class template)   
 ---|---  
 [ make_obj_using_allocator](make_obj_using_allocator.html "cpp/memory/make obj using allocator")(C++20) |  creates an object of the given type by means of uses-allocator construction   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_make_obj_using_allocator&action=edit)
+(function template) 

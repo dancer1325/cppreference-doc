@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Function objects](../../functional.html "cpp/utility/functional")
 
@@ -255,7 +255,7 @@ Identity function object
 [unary_negate](unary_negate.html "cpp/utility/functional/unary negate")(until C++20*)  
 [binary_negate](binary_negate.html "cpp/utility/functional/binary negate")(until C++20*)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/navbar_content&action=edit)
+
 
 Defined in header `[<functional>](../../header/functional.html "cpp/header/functional")` |  |   
 ---|---|---  
@@ -288,20 +288,20 @@ This function and the related types are deprecated as of C++11 in favor of the m
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/ptr_fun&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 f  |  \-  |  pointer to a function to create a wrapper for   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/ptr_fun&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 A function object wrapping f. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/impldef_exception&action=edit&section=T-1 "Template:cpp/impldef exception")] Exceptions
+### Exceptions
 
 May throw implementation-defined exceptions. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/ptr_fun&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -336,14 +336,14 @@ Output:
     
     Hll, wrld!
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/ptr_fun&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ function](function.html "cpp/utility/functional/function")(C++11) |  copyable wrapper of any copy constructible callable object   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_function&action=edit)  
+(class template)   
 ---|---  
 [ move_only_function](move_only_function.html "cpp/utility/functional/move only function")(C++23) |  move-only wrapper of any callable object that supports qualifiers in a given call signature   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_move_only_function&action=edit)  
+(class template)   
 [ invokeinvoke_r](invoke.html "cpp/utility/functional/invoke")(C++17)(C++23) |  invokes any [Callable](../../named_req/Callable.html "cpp/named req/Callable") object with given arguments and possibility to specify return type(since C++23)   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_invoke&action=edit)  
+(function template)   
 [ not_fn](not_fn.html "cpp/utility/functional/not fn")(C++17) |  creates a function object that returns the complement of the result of the function object it holds   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_not_fn&action=edit)
+(function template) 

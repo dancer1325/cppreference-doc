@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Ranges](../../ranges.html "cpp/experimental/ranges")
 
@@ -66,7 +66,7 @@
 [Ranges](../../ranges.html#Ranges "cpp/experimental/ranges")  
 [Algorithms](../../ranges.html#Algorithms "cpp/experimental/ranges")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/navbar_content&action=edit)
+
 
 [General utilities library](../../ranges.html#General_utilities "cpp/experimental/ranges")
 
@@ -125,7 +125,7 @@ Tagged pairs and tuples
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/utility/navbar_content&action=edit)
+
 
 Defined in header `[<experimental/ranges/type_traits>](../../../header/experimental/ranges/type_traits.html "cpp/header/experimental/ranges/type traits")` |  |   
 ---|---|---  
@@ -165,20 +165,20 @@ Determines the common type among all types `T...`, that is the type all `T...` c
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/type_traits/common_type&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Name  |  Definition   
 ---|---  
 `type` |  the common type for all `T...`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/type_traits/common_type&action=edit&section=2 "Edit section: Helper types")] Helper types
+### Helper types
 
 template< class... T >  
 using common_type_t = typename common_type<T...>::type; |  |   
 ---|---|---  
 | |   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/type_traits/common_type&action=edit&section=3 "Edit section: Specializations")] Specializations
+### Specializations
 
 Users may specialize `common_type` for types `T1` and `T2` if 
 
@@ -191,20 +191,20 @@ If such a specialization has a member named `type`, it must be a public and unam
 
 A program that adds `common_type` specializations in violation of these rules has undefined behavior. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/type_traits/common_type&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 For arithmetic types not subject to promotion, the common type may be viewed as the type of the (possibly mixed-mode) arithmetic expression such as T0() + T1() + ... + Tn(). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/type_traits/common_type&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/type_traits/common_type&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ common_type](../../../types/common_type.html "cpp/types/common type")(C++11) |  determines the common type of a group of types   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_common_type&action=edit)  
+(class template)   
 ---|---  
 [ common_reference](common_reference.html "cpp/experimental/ranges/type traits/common reference") |  determine the common reference type of a set of types   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/type_traits/dsc_common_reference&action=edit)
+(class template) 

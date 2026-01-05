@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_ostream`](../basic_ostream.html "cpp/io/basic ostream")
 
@@ -116,7 +116,7 @@ Non-member functions
 [vprint_unicode(std::ostream)](vprint_unicode.html "cpp/io/basic ostream/vprint unicode")(C++23)  
 **vprint_nonunicode(std::ostream)**(C++23)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ostream/navbar_content&action=edit)
+
 
 Defined in header `[<ostream>](../../header/ostream.html "cpp/header/ostream")` |  |   
 ---|---|---  
@@ -146,11 +146,11 @@ After writing characters to os, establishes an [observable checkpoint](../../lan
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_ostream/vprint_nonunicode&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 os  |  \-  |  output stream to insert data into   
 ---|---|---  
-fmt  |  \-  |  [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/format_string&action=edit)an object that represents the format string. The format string consists of 
+fmt  |  \-  |  an object that represents the format string. The format string consists of 
 
   * ordinary characters (except { and }), which are copied unchanged to the output, 
   * escape sequences {{ and }}, which are replaced with { and } respectively in the output, and 
@@ -192,7 +192,7 @@ format-spec |  \-  |  the format specification defined by the [std::formatter](.
   
 args  |  \-  |  arguments to be formatted   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_ostream/vprint_nonunicode&action=edit&section=2 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
   * [std::bad_alloc](../../memory/new/bad_alloc.html "cpp/memory/new/bad alloc") on allocation failure. 
   * Propagate any exception thrown by any [formatter](../../utility/format/formatter.html "cpp/utility/format/formatter"), e.g. [std::format_error](../../utility/format/format_error.html "cpp/utility/format/format error"), without regard to the value of os.exceptions() and without turning on [ios_base::badbit](../ios_base/iostate.html "cpp/io/ios base/iostate") in the error state of os. 
@@ -200,31 +200,31 @@ args  |  \-  |  arguments to be formatted
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_ostream/vprint_nonunicode&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../../utility/feature_test.html "cpp/utility/feature test") macro  | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_print`](../../experimental/feature_test.html#cpp_lib_print "cpp/feature test") | [`202207L`](../../compiler_support/23.html#cpp_lib_print_202207L "cpp/compiler support/23") | (C++23) | Formatted output   
 [`__cpp_lib_format`](../../experimental/feature_test.html#cpp_lib_format "cpp/feature test") | [`202207L`](../../compiler_support/23.html#cpp_lib_format_202207L "cpp/compiler support/23") | (C++23) | Exposing std::basic_format_string  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_ostream/vprint_nonunicode&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_ostream/vprint_nonunicode&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ vprint_unicode(std::ostream)](vprint_unicode.html "cpp/io/basic ostream/vprint unicode")(C++23) |  performs Unicode aware output using [type-erased](../../utility/format/basic_format_args.html "cpp/utility/format/basic format args") argument representation   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ostream/dsc_vprint_unicode&action=edit)  
+(function)   
 ---|---  
 [ print(std::ostream)](print.html "cpp/io/basic ostream/print")(C++23) |  outputs [formatted](../../utility/format.html "cpp/utility/format") representation of the arguments   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ostream/dsc_print&action=edit)  
+(function template)   
 [ operator<<(std::basic_ostream)](operator_ltlt2.html "cpp/io/basic ostream/operator ltlt2") |  inserts character data or insert into rvalue stream   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ostream/dsc_operator_ltlt2&action=edit)  
+(function template)   
 [ vprint_nonunicodevprint_nonunicode_buffered](../vprint_nonunicode.html "cpp/io/vprint nonunicode")(C++23) |  prints to [stdout](../c/std_streams.html "cpp/io/c/std streams") or a file stream using [type-erased](../../utility/format/basic_format_args.html "cpp/utility/format/basic format args") argument representation   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_vprint_nonunicode&action=edit)  
+(function)   
 [ format](../../utility/format/format.html "cpp/utility/format/format")(C++20) |  stores formatted representation of the arguments in a new string   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/dsc_format&action=edit)
+(function template) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

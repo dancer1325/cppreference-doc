@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::auto_ptr`](../auto_ptr.html "cpp/memory/auto ptr")
 
@@ -199,7 +199,7 @@ Member functions
 [auto_ptr::reset](reset.html "cpp/memory/auto ptr/reset")  
 [auto_ptr::operator auto_ptr<Y>auto_ptr::operator auto_ptr_ref<Y>](operator_auto_ptr.html "cpp/memory/auto ptr/operator auto ptr")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/auto_ptr/navbar_content&action=edit)
+
 
 auto_ptr& operator=( auto_ptr& r ) throw(); |  (1)  |  (deprecated in C++11)   
 (removed in C++17)  
@@ -229,21 +229,21 @@ Replaces the managed object with the one managed by r or m.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/auto_ptr/operator%3D&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 r  |  \-  |  another `auto_ptr` to transfer the ownership of the object from   
 ---|---|---  
 m  |  \-  |  an object of implementation-defined type that holds a reference to `auto_ptr`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/auto_ptr/operator%3D&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 *this. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/auto_ptr/operator%3D&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 The constructor and the copy assignment operator from `auto_ptr_ref` is provided to allow copy-constructing and assigning [std::auto_ptr](../auto_ptr.html "cpp/memory/auto ptr") from nameless temporaries. Since its copy constructor and copy assignment operator take the argument as non-const reference, they cannot bind rvalue arguments directly. However, a [user-defined conversion](operator_auto_ptr.html "cpp/memory/auto ptr/operator auto ptr") can be executed (which releases the original `auto_ptr`), followed by a call to the constructor or copy-assignment operator that take `auto_ptr_ref` by value. This is an early implementation of [move semantics](../../utility/move.html "cpp/utility/move"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/auto_ptr/operator%3D&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::thread`](../../thread.html "cpp/thread/thread")
 
@@ -196,7 +196,7 @@
 [Non-member functions](../../thread.html#Non-member_functions "cpp/thread/thread")  
 [swap(std::thread)](../swap2.html "cpp/thread/thread/swap2")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/navbar_content&action=edit)
+
 
 [`std::thread::id`](../id.html "cpp/thread/thread/id")
 
@@ -210,7 +210,7 @@ Helper classes
 [hash<std::thread::id>](hash.html "cpp/thread/thread/id/hash")  
 **formatter <std::thread::id>**(C++23)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/id/navbar_content&action=edit)
+
 
 Defined in header `[<thread>](../../../header/thread.html "cpp/header/thread")` |  |   
 ---|---|---  
@@ -230,7 +230,7 @@ The template specialization of [std::formatter](../../../utility/format/formatte
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/thread/id/formatter&action=edit&section=1 "Edit section: Format specification")] Format specification
+### Format specification
 
 The syntax of format specifications is:   
   
@@ -241,13 +241,13 @@ fill-and-align and width have the same meaning as in [standard format specificat
 
 The formatted output matches the output of [`operator<<`](operator_ltlt.html "cpp/thread/thread/id/operator ltlt"), adjusted as appropriate for the format specifiers. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/thread/id/formatter&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../../../utility/feature_test.html "cpp/utility/feature test") macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_formatters`](../../../experimental/feature_test.html#cpp_lib_formatters "cpp/feature test") | [`202302L`](../../../compiler_support/23.html#cpp_lib_formatters_202302L "cpp/compiler support/23") | (C++23) | Formatting `std::thread::id` and std::stacktrace  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/thread/id/formatter&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -271,10 +271,10 @@ Possible output:
     current thread id: 140046396632256
     ====0=====
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/thread/id/formatter&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ formatter](../../../utility/format/formatter.html "cpp/utility/format/formatter")(C++20) |  defines formatting rules for a given type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/dsc_formatter&action=edit)  
+(class template)   
 ---|---
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

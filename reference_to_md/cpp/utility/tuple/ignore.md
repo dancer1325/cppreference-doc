@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::tuple`](../tuple.html "cpp/utility/tuple")
 
@@ -157,7 +157,7 @@ Common vocabulary types
 **ignore**  
 [Deduction guides](deduction_guides.html "cpp/utility/tuple/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/navbar_content&action=edit)
+
 
 Defined in header `[<tuple>](../../header/tuple.html "cpp/header/tuple")` |  |   
 ---|---|---  
@@ -203,7 +203,7 @@ return *this;
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/tuple/ignore&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 A void expression or a volatile bit-field value cannot be assigned to `std::ignore`. 
 
@@ -213,7 +213,7 @@ Some code guides recommend using `std::ignore` to avoid warnings from unused ret
 
 For ignoring values not requiring assignment, one may cast to void. For variables that have names, but whose value is unused, one may cast those to void or declare those variables with `[[[maybe_unused](../../language/attributes/maybe_unused.html "cpp/language/attributes/maybe unused")]]`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/tuple/ignore&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
   1. Demonstrates the use of `std::ignore` together with a `[[[nodiscard](../../language/attributes/nodiscard.html "cpp/language/attributes/nodiscard")]]` function. 
   2. Unpacks a [std::pair](../pair.html)<iterator, bool> returned by [std::set](../../container/set.html)::[`insert`](../../container/set/insert.html "cpp/container/set/insert")(), but only saves the boolean. 
@@ -249,7 +249,7 @@ Output:
     
     Value was inserted successfully.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/tuple/ignore&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -258,8 +258,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [LWG 2773](https://cplusplus.github.io/LWG/issue2773) | C++14  | [std::tuple](../tuple.html "cpp/utility/tuple") was made constexpr but `std::ignore` was not yet  | made constexpr  
 [P2968R2](https://wg21.link/P2968R2) | C++11  | the behavior of `std::ignore` outside of [std::tie](tie.html "cpp/utility/tuple/tie") was not formally specified  | made fully specified   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/tuple/ignore&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ tie](tie.html "cpp/utility/tuple/tie")(C++11) |  creates a [tuple](../tuple.html "cpp/utility/tuple") of lvalue references or unpacks a tuple into individual objects   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/dsc_tie&action=edit)  
+(function template)   
 ---|---

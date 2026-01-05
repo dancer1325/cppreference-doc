@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 Defined in header `[<condition_variable>](../header/condition_variable.html "cpp/header/condition variable")` |  |   
 ---|---|---  
@@ -212,7 +212,7 @@ If any of the following conditions is satisfied, the behavior is undefined:
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/notify_all_at_thread_exit&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 An equivalent effect may be achieved with the facilities provided by [std::promise](promise.html "cpp/thread/promise") or [std::packaged_task](packaged_task.html "cpp/thread/packaged task"). 
 
@@ -220,17 +220,17 @@ The supplied lock lk is held until the thread exits. Once this function has been
 
 In typical use cases, this function is the last thing called by a detached thread. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/notify_all_at_thread_exit&action=edit&section=2 "Edit section: Parameters")] Parameters
+### Parameters
 
 cond  |  \-  |  the condition variable to notify at thread exit   
 ---|---|---  
 lk  |  \-  |  the lock associated with the condition variable cond  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/notify_all_at_thread_exit&action=edit&section=3 "Edit section: Return value")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/notify_all_at_thread_exit&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 This partial code fragment illustrates how `notify_all_at_thread_exit` can be used to avoid accessing data that depends on thread locals while those thread locals are in the process of being destructed:
 
@@ -281,7 +281,7 @@ Run this code
         [assert](../error/assert.html)(result == "42");
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/notify_all_at_thread_exit&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -291,10 +291,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 synchronized with calls to functions waiting on cond | updated the synchronization  
 requirement   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/notify_all_at_thread_exit&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ set_value_at_thread_exit](promise/set_value_at_thread_exit.html "cpp/thread/promise/set value at thread exit") |  sets the result to specific value while delivering the notification only at thread exit   
-(public member function of `std::promise<R>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/promise/dsc_set_value_at_thread_exit&action=edit)  
+(public member function of `std::promise<R>`)   
 ---|---  
 [ make_ready_at_thread_exit](packaged_task/make_ready_at_thread_exit.html "cpp/thread/packaged task/make ready at thread exit") |  executes the function ensuring that the result is ready only once the current thread exits   
-(public member function of `std::packaged_task<R(Args...)>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/packaged_task/dsc_make_ready_at_thread_exit&action=edit)
+(public member function of `std::packaged_task<R(Args...)>`) 

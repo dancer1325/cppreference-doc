@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Function objects](../../../functional.html "cpp/utility/functional")
 
@@ -255,7 +255,7 @@ Identity function object
 [unary_negate](../unary_negate.html "cpp/utility/functional/unary negate")(until C++20*)  
 [binary_negate](../binary_negate.html "cpp/utility/functional/binary negate")(until C++20*)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/navbar_content&action=edit)
+
 
 [`std::copyable_function`](../copyable_function.html "cpp/utility/functional/copyable function")
 
@@ -271,7 +271,7 @@ Identity function object
 [operator==](operator==.html "cpp/utility/functional/copyable function/operator==")  
 [swap(std::copyable_function)](swap2.html "cpp/utility/functional/copyable function/swap2")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/copyable_function/navbar_content&action=edit)
+
 
 explicit operator bool() const noexcept; |  |  (since C++26)  
 ---|---|---  
@@ -289,27 +289,27 @@ Checks whether *this stores a callable target, i.e. is not empty.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/copyable_function/operator_bool&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/copyable_function/operator_bool&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 true if *this stores a callable target, false otherwise. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/copyable_function/operator_bool&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/copyable_function/operator_bool&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ operator==](operator==.html "cpp/utility/functional/copyable function/operator==")(C++26) |  compares a `std::copyable_function` with nullptr   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/copyable_function/dsc_operator%3D%3D&action=edit)  
+(function)   
 ---|---  
 [ operator bool](../function/operator_bool.html "cpp/utility/functional/function/operator bool") |  checks if a target is contained   
-(public member function of `std::function<R(Args...)>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/function/dsc_operator_bool&action=edit)  
+(public member function of `std::function<R(Args...)>`)   
 [ operator bool](../move_only_function/operator_bool.html "cpp/utility/functional/move only function/operator bool") |  checks if the `std::move_only_function` has a target   
-(public member function of `std::move_only_function`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/move_only_function/dsc_operator_bool&action=edit)  
+(public member function of `std::move_only_function`)   
 ---

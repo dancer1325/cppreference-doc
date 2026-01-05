@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [C-style I/O](../c.html "cpp/io/c")
 
@@ -176,7 +176,7 @@ Operations on files
 [tmpfile](tmpfile.html "cpp/io/c/tmpfile")  
 [tmpnam](tmpnam.html "cpp/io/c/tmpnam")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/navbar_content&action=edit)
+
 
 Defined in header `[<cstdio>](../../header/cstdio.html "cpp/header/cstdio")` |  |   
 ---|---|---  
@@ -200,7 +200,7 @@ I/O streams can be used for both unformatted and formatted input and output. Fur
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/FILE&action=edit&section=1 "Edit section: Stream state")] Stream state
+### Stream state
 
 Besides the system-specific information necessary to access the device (_e.g.,_ a POSIX file descriptor), each `std::FILE` object directly or indirectly holds the following: 
 
@@ -217,13 +217,13 @@ Besides the system-specific information necessary to access the device (_e.g.,_ 
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/FILE&action=edit&section=2 "Edit section: Narrow and wide orientation")] Narrow and wide orientation
+#### Narrow and wide orientation
 
 A newly opened stream has no orientation. The first call to std::fwide or to any I/O function establishes the orientation: a wide I/O function makes the stream wide-oriented; a narrow I/O function makes the stream narrow-oriented. Once set, the orientation can be changed with only [std::freopen](freopen.html "cpp/io/c/freopen"). Narrow I/O functions cannot be called on a wide-oriented stream; wide I/O functions cannot be called on a narrow-oriented stream. Wide I/O functions convert between wide and multibyte characters as if by calling [std::mbrtowc](../../string/multibyte/mbrtowc.html "cpp/string/multibyte/mbrtowc") or [std::wcrtomb](../../string/multibyte/wcrtomb.html "cpp/string/multibyte/wcrtomb") with the conversion state as described by the stream. Unlike the multibyte character strings that are valid in a program, multibyte character sequences in the file may contain embedded nulls and do not have to begin or end in the initial shift state. 
 
 The conversion state of a stream with wide orientation is established by the C locale that is installed at the time the stream's orientation is set. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/FILE&action=edit&section=3 "Edit section: Binary and text modes")] Binary and text modes
+#### Binary and text modes
 
 A _text stream_ is an ordered sequence of characters that can be composed into lines; a line can be decomposed into zero or more characters plus a terminating '\n' (“newline”) character. Whether the last line requires a terminating '\n' is implementation-defined. Furthermore, characters may have to be added, altered, or deleted on input and output to conform to the conventions for representing text in the OS (in particular, C streams on Windows OS convert '\n' to '\r\n' on output, and convert '\r\n' to '\n' on input). 
 
@@ -237,21 +237,21 @@ Data read in from a text stream is guaranteed to compare equal to the data that 
 
 A _binary stream_ is an ordered sequence of characters that can transparently record internal data. Data read in from a binary stream always equal the data that were earlier written out to that stream, except that an implementation is allowed to append an indeterminate number of null characters to the end of the stream. A wide binary stream doesn't need to end in the initial shift state. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/FILE&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 POSIX explicitly requires that the `LC_CTYPE` facet of the currently installed C locale be stored within the `FILE` object the moment the stream's orientation becomes wide; POSIX requires that this `LC_CTYPE` facet be used for all future I/O on this stream until the orientation is changed, regardless of any subsequent call to [std::setlocale](../../locale/setlocale.html "cpp/locale/setlocale"). 
 
 It is intended that each line of text be composed of data that are essentially human-readable. POSIX implementations do not distinguish between text and binary streams (there is no special mapping for '\n' or any other characters). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/FILE&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ basic_streambuf](../basic_streambuf.html "cpp/io/basic streambuf") |  abstracts a raw device   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_basic_streambuf&action=edit)  
+(class template)   
 ---|---  
 [ basic_filebuf](../basic_filebuf.html "cpp/io/basic filebuf") |  implements raw file device   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_basic_filebuf&action=edit)  
+(class template)   
 [ stdinstdoutstderr](std_streams.html "cpp/io/c/std streams") |  expression of type FILE* associated with the input stream  
 expression of type FILE* associated with the output stream  
 expression of type FILE* associated with the error output stream   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_std_streams&action=edit)  
+(macro constant)   
 [C documentation](../../../c/io/FILE.html "c/io/FILE") for FILE

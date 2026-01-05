@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Program support utilities](../program.html "cpp/utility/program")
 
@@ -181,7 +181,7 @@ Common vocabulary types
 [Types](../program.html#Types "cpp/utility/program")  
 [jmp_buf](jmp_buf.html "cpp/utility/program/jmp buf")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/program/navbar_content&action=edit)
+
 
 Defined in header `[<csignal>](../../header/csignal.html "cpp/header/csignal")` |  |   
 ---|---|---  
@@ -190,9 +190,9 @@ Defined in header `[<csignal>](../../header/csignal.html "cpp/header/csignal")` 
   
 A value of type void (*)(int). When returned by [std::signal](signal.html "cpp/utility/program/signal"), indicates that an error has occurred. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/program/SIG_ERR&action=edit&section=1 "Edit section: See also")] See also
+### See also
 
 [ signal](signal.html "cpp/utility/program/signal") |  sets a signal handler for particular signal   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/program/dsc_signal&action=edit)  
+(function)   
 ---|---  
 [C documentation](../../../c/program/SIG_ERR.html "c/program/SIG ERR") for SIG_ERR

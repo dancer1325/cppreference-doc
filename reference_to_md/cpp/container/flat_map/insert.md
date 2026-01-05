@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -71,7 +71,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::flat_map`](../flat_map.html "cpp/container/flat map")
 
@@ -141,7 +141,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/flat map/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/flat_map/navbar_content&action=edit)
+
 
 [std::pair](../../utility/pair.html)<iterator, bool> insert( const value_type& value ); |  (1)  |  (since C++23)  
 ---|---|---  
@@ -245,7 +245,7 @@ If multiple elements in the range have keys that compare equivalent, it is unspe
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/flat_map/insert&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 pos  |  \-  |  an iterator to the position before which the new element will be inserted   
 ---|---|---  
@@ -257,7 +257,7 @@ s  |  \-  |  a disambiguation tag indicating that the input sequence is sorted (
 Type requirements   
 -`InputIt` must meet the requirements of [LegacyInputIterator](../../named_req/InputIterator.html "cpp/named req/InputIterator").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/flat_map/insert&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1,2) A pair consisting of an iterator to the inserted element (or to the element that prevented the insertion) and a bool value set to true if and only if the insertion took place.
 
@@ -269,7 +269,7 @@ Type requirements
 
 7-10) (none)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/flat_map/insert&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 1-6) If an exception is thrown by any operation, the insertion has no effect.
 
@@ -277,7 +277,7 @@ Type requirements
 Reason: cases 7-10   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/flat_map/insert&action=edit&section=4 "Edit section: Complexity")] Complexity
+### Complexity
 
 1-6) Linear in [`size()`](size.html "cpp/container/flat map/size").
 
@@ -289,24 +289,24 @@ Reason: cases 7-10
 
 10) Linear in `N`, where `N` is [`size()`](size.html "cpp/container/flat map/size") after the operation.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/flat_map/insert&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 The hinted insert (([3,4](insert.html#Version_3)) and ([6](insert.html#Version_6))) does not return a boolean in order to be signature-compatible with positional insert on sequential containers, such as [std::vector::insert](../vector/insert.html "cpp/container/vector/insert"). This makes it possible to create generic inserters such as [std::inserter](../../iterator/inserter.html "cpp/iterator/inserter"). One way to check success of a hinted insert is to compare [`size()`](size.html "cpp/container/flat map/size") before and after. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/flat_map/insert&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/flat_map/insert&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ emplace](emplace.html "cpp/container/flat map/emplace") |  constructs element in-place   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_emplace&action=edit)  
+(public member function)   
 ---|---  
 [ emplace_hint](emplace_hint.html "cpp/container/flat map/emplace hint") |  constructs elements in-place using a hint   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_emplace_hint&action=edit)  
+(public member function)   
 [ insert_or_assign](insert_or_assign.html "cpp/container/flat map/insert or assign") |  inserts an element or assigns to the current element if the key already exists   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_insert_or_assign&action=edit)  
+(public member function)   
 [ inserter](../../iterator/inserter.html "cpp/iterator/inserter") |  creates a [std::insert_iterator](../../iterator/insert_iterator.html "cpp/iterator/insert iterator") of type inferred from the argument   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_inserter&action=edit)
+(function template) 

@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::list`](../list.html "cpp/container/list")
 
@@ -135,7 +135,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/list/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/list/navbar_content&action=edit)
+
 
 template< [container-compatible-range](../../ranges/to.html)<T> R >  
 void append_range( R&& rg ); |  | (since C++23)   
@@ -161,18 +161,18 @@ Each iterator in rg is dereferenced exactly once.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/append_range&action=edit&section=T-1 "Template:cpp/container/append range")] Parameters
+### Parameters
 
 rg  |  \-  |  a [container compatible range](../../ranges/to.html#container_compatible_range "cpp/ranges/to"), that is, an [`input_range`](../../ranges/input_range.html "cpp/ranges/input range") whose elements are convertible to `T`  
 ---|---|---  
 Type requirements   
 -If `T` is not [EmplaceConstructible](../../named_req/EmplaceConstructible.html "cpp/named req/EmplaceConstructible") into `list` from *[ranges::begin](../../ranges/begin.html)(rg), the behavior is undefined.   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/append_range&action=edit&section=T-2 "Template:cpp/container/append range")] Complexity
+### Complexity
 
 Linear in size of rg. The number of calls to the constructor of `T` is exactly equal to the std::[ranges::size](../../ranges/size.html)(rg)). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/append_range&action=edit&section=T-3 "Template:cpp/container/append range")] Exceptions
+### Exceptions
 
 If an exception is thrown for any reason, this function has no effect ([strong exception safety guarantee](../../language/exceptions.html#Exception_safety "cpp/language/exceptions")). 
 
@@ -182,7 +182,7 @@ If an exception is thrown for any reason, this function has no effect ([strong e
 ---|---|---|---  
 [`__cpp_lib_containers_ranges`](../../experimental/feature_test.html#cpp_lib_containers_ranges "cpp/feature test") | [`202202L`](../../compiler_support/23.html#cpp_lib_containers_ranges_202202L "cpp/compiler support/23") | (C++23) | [Ranges-aware](../../ranges/to.html#container_compatible_range "cpp/ranges/to") construction and insertion   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/append_range&action=edit&section=T-5 "Template:cpp/container/append range")] Example
+### Example
 
 Run this code
     
@@ -203,7 +203,7 @@ Run this code
         [assert](../../error/assert.html)((head == [std::list](../list.html){1, 2, 3, 4, -5, -6, -7}));
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/append_range&action=edit&section=T-6 "Template:cpp/container/append range")] See also
+### See also
 
 [ prepend_range](prepend_range.html "cpp/container/list/prepend range")(C++23) |  adds a range of elements to the beginning   
 (public member function)  

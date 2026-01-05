@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 **`std::ranges::subrange`**
 
@@ -249,7 +249,7 @@ std::from_range](from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
 [tuple_size<std::ranges::subrange>](subrange/tuple_size.html "cpp/ranges/subrange/tuple size")  
 [tuple_element<std::ranges::subrange>](subrange/tuple_element.html "cpp/ranges/subrange/tuple element")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/subrange/navbar_content&action=edit)
+
 
 Defined in header `[<ranges>](../header/ranges.html "cpp/header/ranges")` |  |   
 ---|---|---  
@@ -309,7 +309,7 @@ concept /*convertible-to-non-slicing*/ = /* see description */; |  (3) | (exposi
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/subrange&action=edit&section=1 "Edit section: Data members")] Data members
+### Data members
 
 Member  |  Definition   
 ---|---  
@@ -324,70 +324,70 @@ constexpr bool `_StoreSize_` [static] |  K == ranges::subrange_kind::sized &&
 (present only if `_StoreSize_` is true) |  the size of the subrange  
 (exposition-only member object*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/subrange&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](subrange/subrange.html "cpp/ranges/subrange/subrange") |  creates a new `subrange`   
 (public member function)  
 ---|---  
 [ operator PairLike](subrange/operator_PairLike.html "cpp/ranges/subrange/operator PairLike") |  converts the `subrange` to a [`_pair-like_`](../utility/tuple/tuple-like.html "cpp/utility/tuple/tuple-like") type   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/subrange/dsc_operator_PairLike&action=edit)  
+(public member function)   
   
 #####  Observers   
   
 [ begin](subrange/begin.html "cpp/ranges/subrange/begin") |  obtains the iterator   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/subrange/dsc_begin&action=edit)  
+(public member function)   
 [ end](subrange/end.html "cpp/ranges/subrange/end") |  obtains the sentinel   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/subrange/dsc_end&action=edit)  
+(public member function)   
 [ empty](subrange/empty.html "cpp/ranges/subrange/empty") |  checks whether the `subrange` is empty   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/subrange/dsc_empty&action=edit)  
+(public member function)   
 [ size](subrange/size.html "cpp/ranges/subrange/size") |  obtains the size of the `subrange`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/subrange/dsc_size&action=edit)  
+(public member function)   
   
 #####  Iterator operations   
   
 [ advance](subrange/advance.html "cpp/ranges/subrange/advance") |  advances the iterator by given distance   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/subrange/dsc_advance&action=edit)  
+(public member function)   
 [ prev](subrange/prev.html "cpp/ranges/subrange/prev") |  obtains a copy of the `subrange` with its iterator decremented by a given distance   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/subrange/dsc_prev&action=edit)  
+(public member function)   
 [ next](subrange/next.html "cpp/ranges/subrange/next") |  obtains a copy of the `subrange` with its iterator advanced by a given distance   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/subrange/dsc_next&action=edit)  
+(public member function)   
   
 #####  Inherited from [std::ranges::view_interface](view_interface.html "cpp/ranges/view interface")  
   
 [ cbegin](view_interface/cbegin.html "cpp/ranges/view interface/cbegin")(C++23) |  returns a constant iterator to the beginning of the range   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_cbegin&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ cend](view_interface/cend.html "cpp/ranges/view interface/cend")(C++23) |  returns a sentinel for the constant iterator of the range   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_cend&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ operator bool](view_interface/operator_bool.html "cpp/ranges/view interface/operator bool") |  returns whether the derived view is not empty, provided only if [ranges::empty](empty.html "cpp/ranges/empty") is applicable to it   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_operator_bool&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ data](view_interface/data.html "cpp/ranges/view interface/data") |  gets the address of derived view's data, provided only if its iterator type satisfies [`contiguous_iterator`](../iterator/contiguous_iterator.html "cpp/iterator/contiguous iterator")   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_data&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ front](view_interface/front.html "cpp/ranges/view interface/front") |  returns the first element in the derived view, provided if it satisfies [`forward_range`](forward_range.html "cpp/ranges/forward range")   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_front&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ back](view_interface/back.html "cpp/ranges/view interface/back") |  returns the last element in the derived view, provided only if it satisfies [`bidirectional_range`](bidirectional_range.html "cpp/ranges/bidirectional range") and [`common_range`](common_range.html "cpp/ranges/common range")   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_back&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ operator[]](view_interface/operator_at.html "cpp/ranges/view interface/operator at") |  returns the `n`th element in the derived view, provided only if it satisfies [`random_access_range`](random_access_range.html "cpp/ranges/random access range")   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_operator_at&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/subrange&action=edit&section=3 "Edit section: Deduction guides")] [Deduction guides](subrange/deduction_guides.html "cpp/ranges/subrange/deduction guides")
+### [Deduction guides](subrange/deduction_guides.html "cpp/ranges/subrange/deduction guides")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/subrange&action=edit&section=4 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ get(std::ranges::subrange)](subrange/get.html "cpp/ranges/subrange/get")(C++20) |  obtains iterator or sentinel from a **std::ranges::subrange**   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/subrange/dsc_get&action=edit)  
+(function template)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/subrange&action=edit&section=5 "Edit section: Helper types")] Helper types
+### Helper types
 
 [ ranges::subrange_kind](subrange_kind.html "cpp/ranges/subrange kind")(C++20) |  specifies whether a **std::ranges::subrange** models [std::ranges::sized_range](sized_range.html "cpp/ranges/sized range")   
-(enum) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_subrange_kind&action=edit)  
+(enum)   
 ---|---  
 [ std::tuple_size<std::ranges::subrange>](subrange/tuple_size.html "cpp/ranges/subrange/tuple size")(C++20) |  obtains the size of a **std::ranges::subrange**   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/subrange/dsc_tuple_size&action=edit)  
+(class template specialization)   
 [ std::tuple_element<std::ranges::subrange>](subrange/tuple_element.html "cpp/ranges/subrange/tuple element")(C++20) |  obtains the type of the iterator or the sentinel of a **std::ranges::subrange**   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/subrange/dsc_tuple_element&action=edit)  
+(class template specialization)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/subrange&action=edit&section=6 "Edit section: Helper templates")] Helper templates
+### Helper templates
 
 template< class I, class S, [ranges::subrange_kind](subrange_kind.html) K >  
 constexpr bool [ranges::enable_borrowed_range](borrowed_range.html)<ranges::subrange<I, S, K>> = true; |  |  (since C++20)  
@@ -396,7 +396,7 @@ constexpr bool [ranges::enable_borrowed_range](borrowed_range.html)<ranges::subr
   
 This specialization of [ranges::enable_borrowed_range](borrowed_range.html) makes `subrange` satisfy [`borrowed_range`](borrowed_range.html "cpp/ranges/borrowed range"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/subrange&action=edit&section=7 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -431,7 +431,7 @@ Output:
     Before: {3: '-', 4: 'a', 4: 'b', 4: 'c', 5: '-'}
     After:  {3: '-', 4: 'A', 4: 'B', 4: 'C', 5: '-'}
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/subrange&action=edit&section=8 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -439,13 +439,13 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 3470](https://cplusplus.github.io/LWG/issue3470) | C++20  | `_convertible-to-non-slicing_` might reject qualification conversions  | always accepts them   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/subrange&action=edit&section=9 "Edit section: See also")] See also
+### See also
 
 [ ranges::view_interface](view_interface.html "cpp/ranges/view interface")(C++20) |  helper class template for defining a [`view`](view.html "cpp/ranges/view"), using the [curiously recurring template pattern](../language/crtp.html "cpp/language/crtp")   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_view_interface&action=edit)  
+(class template)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/subrange&action=edit&section=10 "Edit section: External links")] External links
+### External links
 
 [Read/write all values of a `std::multimap` with a given key in C++20](https://stackoverflow.com/a/59659686) — SO   
 ---

@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::vector`](../vector.html "cpp/container/vector")
 
@@ -135,7 +135,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/vector/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/vector/navbar_content&action=edit)
+
 
 size_type size() const; |  | (noexcept since C++11)   
 (constexpr since C++20)  
@@ -154,17 +154,17 @@ Returns the number of elements in the container.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/size&action=edit&section=T-1 "Template:cpp/container/size")] Return value
+### Return value
 
 [std::distance](../../iterator/distance.html)(begin(), end())
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/size&action=edit&section=T-2 "Template:cpp/container/size")] Complexity
+### Complexity
 
 Constant. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/size&action=edit&section=T-3 "Template:cpp/container/size")] Example
+### Example
 
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/vector/example_size&action=edit)
+
 
 The following code uses `size` to display the number of elements in a [std::vector](../vector.html)<int>:
 
@@ -182,16 +182,16 @@ Run this code
         [assert](../../error/assert.html)(nums.size() == 4);
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/size&action=edit&section=T-4 "Template:cpp/container/size")] See also
+### See also
 
 [ capacity](capacity.html "cpp/container/vector/capacity") |  returns the number of elements that can be held in currently allocated storage   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_capacity&action=edit)  
+(public member function)   
 ---|---  
 [ empty](empty.html "cpp/container/vector/empty") |  checks whether the container is empty   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_empty&action=edit)  
+(public member function)   
 [ max_size](max_size.html "cpp/container/vector/max size") |  returns the maximum possible number of elements   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_max_size&action=edit)  
+(public member function)   
 [ resize](resize.html "cpp/container/vector/resize") |  changes the number of elements stored   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_resize&action=edit)  
+(public member function)   
 [ sizessize](../../iterator/size.html "cpp/iterator/size")(C++17)(C++20) |  returns the size of a container or array   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_size&action=edit)
+(function template) 

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Library fundamentals](../memory.html "cpp/experimental/lib extensions")
 
@@ -75,7 +75,7 @@
 [Type-erased and polymorphic allocators](../memory.html "cpp/experimental/memory")  
 [Variable templates for type traits](../type_trait_variable_templates.html "cpp/experimental/type trait variable templates")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions/navbar_content&action=edit)
+
 
 [Polymorphic allocator library](../memory.html "cpp/experimental/memory")
 
@@ -98,7 +98,7 @@ Type-erased allocator support for existing classes
 **packaged_task**  
 [promise](promise.html "cpp/experimental/lib extensions/promise")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions/pmr/navbar_content&action=edit)
+
 
 _This page is about the modified version of[std::packaged_task](../../thread/packaged_task.html "cpp/thread/packaged task") with type-erased allocator support provided by the Library Fundamentals TSes. For the version of `packaged_task` provided by the concurrency TS supporting the `std::future` improvements made by that TS, see [`std::experimental::concurrency_v1::packaged_task`](../concurrency/packaged_task.html "cpp/experimental/concurrency/packaged task")._
 
@@ -125,30 +125,30 @@ class packaged_task<R(Args...)>; |  (2)  |  (library fundamentals TS)
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/lib_extensions/packaged_task&action=edit&section=1 "Edit section: Member types")] Member types 
+### Member types 
 
 Member type  |  Definition   
 ---|---  
 `allocator_type` |  [std::experimental::erased_type](../erased_type.html "cpp/experimental/erased type")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/lib_extensions/packaged_task&action=edit&section=2 "Edit section: Member functions")] Member functions 
+### Member functions 
 
 [ (constructor)](packaged_task/packaged_task.html "cpp/experimental/lib extensions/packaged task/packaged task") |  constructs the task object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions/packaged_task/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ get_memory_resource](packaged_task/get_memory_resource.html "cpp/experimental/lib extensions/packaged task/get memory resource") |  retrieves a pointer to the memory resource used by this object to allocate memory   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions/packaged_task/dsc_get_memory_resource&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/lib_extensions/packaged_task&action=edit&section=3 "Edit section: Non-member function")] Non-member function 
+### Non-member function 
 
 [ std::experimental::swap(std::experimental::packaged_task)](packaged_task/swap2.html "cpp/experimental/lib extensions/packaged task/swap2") |  specializes the `swap` algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions/packaged_task/dsc_swap2&action=edit)  
+(function template)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/lib_extensions/packaged_task&action=edit&section=4 "Edit section: Helper classes")] Helper classes
+### Helper classes
 
 [ std::uses_allocator<std::experimental::packaged_task>](packaged_task/uses_allocator.html "cpp/experimental/lib extensions/packaged task/uses allocator") |  specializes the [std::uses_allocator](../../memory/uses_allocator.html "cpp/memory/uses allocator") type trait   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions/packaged_task/dsc_uses_allocator&action=edit)  
+(class template specialization)   
 ---|---  
   
 ##  Members identical to std::packaged_task 
@@ -156,25 +156,25 @@ Member type  |  Definition
 ###  Member functions
 
 [ (destructor)](../../thread/packaged_task/~packaged_task.html "cpp/thread/packaged task/~packaged task") |  destructs the task object   
-(public member function of `std::packaged_task<R(Args...)>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/packaged_task/dsc_destructor&action=edit)  
+(public member function of `std::packaged_task<R(Args...)>`)   
 ---|---  
 [ operator=](../../thread/packaged_task/operator=.html "cpp/thread/packaged task/operator=") |  moves the task object   
-(public member function of `std::packaged_task<R(Args...)>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/packaged_task/dsc_operator%3D&action=edit)  
+(public member function of `std::packaged_task<R(Args...)>`)   
 [ valid](../../thread/packaged_task/valid.html "cpp/thread/packaged task/valid") |  checks if the task object has a valid function   
-(public member function of `std::packaged_task<R(Args...)>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/packaged_task/dsc_valid&action=edit)  
+(public member function of `std::packaged_task<R(Args...)>`)   
 [ swap](../../thread/packaged_task/swap.html "cpp/thread/packaged task/swap") |  swaps two task objects   
-(public member function of `std::packaged_task<R(Args...)>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/packaged_task/dsc_swap&action=edit)  
+(public member function of `std::packaged_task<R(Args...)>`)   
   
 #####  Getting the result   
   
 [ get_future](../../thread/packaged_task/get_future.html "cpp/thread/packaged task/get future") |  returns a [std::future](../../thread/future.html "cpp/thread/future") associated with the promised result   
-(public member function of `std::packaged_task<R(Args...)>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/packaged_task/dsc_get_future&action=edit)  
+(public member function of `std::packaged_task<R(Args...)>`)   
   
 #####  Execution   
   
 [ operator()](../../thread/packaged_task/operator\(\).html "cpp/thread/packaged task/operator\(\)") |  executes the function   
-(public member function of `std::packaged_task<R(Args...)>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/packaged_task/dsc_operator\(\)&action=edit)  
+(public member function of `std::packaged_task<R(Args...)>`) &action=edit)  
 [ make_ready_at_thread_exit](../../thread/packaged_task/make_ready_at_thread_exit.html "cpp/thread/packaged task/make ready at thread exit") |  executes the function ensuring that the result is ready only once the current thread exits   
-(public member function of `std::packaged_task<R(Args...)>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/packaged_task/dsc_make_ready_at_thread_exit&action=edit)  
+(public member function of `std::packaged_task<R(Args...)>`)   
 [ reset](../../thread/packaged_task/reset.html "cpp/thread/packaged task/reset") |  resets the state abandoning any stored results of previous executions   
-(public member function of `std::packaged_task<R(Args...)>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/packaged_task/dsc_reset&action=edit)
+(public member function of `std::packaged_task<R(Args...)>`) 

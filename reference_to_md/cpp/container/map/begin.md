@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 `[std::map](../map.html "cpp/container/map")`
 
@@ -138,7 +138,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/map/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/map/navbar_content&action=edit)
+
 
 iterator begin(); |  (1) | (noexcept since C++11)   
 (constexpr since C++26)  
@@ -167,11 +167,11 @@ If *this is empty, the returned iterator will be equal to [end()](end.html "cpp/
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/begin&action=edit&section=T-1 "Template:cpp/container/begin")] Return value
+### Return value
 
 Iterator to the first element. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/begin&action=edit&section=T-2 "Template:cpp/container/begin")] Complexity
+### Complexity
 
 Constant. 
 
@@ -179,7 +179,7 @@ Constant.
 
 libc++ backports `cbegin()` to C++98 mode.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/begin&action=edit&section=T-4 "Template:cpp/container/begin")] Example
+### Example
 
 Run this code
     
@@ -205,7 +205,7 @@ Output:
     4, 4.13
     9, 9.24
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/begin/examples/map&action=edit&section=T-1 "Template:cpp/container/begin/examples/map")] Example using a custom comparison function
+#### Example using a custom comparison function
 
 Run this code
     
@@ -279,10 +279,10 @@ Output:
     The magnitude of (2, 2.82843) is 3.4641
     The magnitude of (3, 4.24264) is 5.19615
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/begin&action=edit&section=T-5 "Template:cpp/container/begin")] See also
+### See also
 
 [ endcend](end.html "cpp/container/map/end")(C++11) |  returns an iterator to the end   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_end&action=edit)  
+(public member function)   
 ---|---  
 [ begincbegin](../../iterator/begin.html "cpp/iterator/begin")(C++11)(C++14) |  returns an iterator to the beginning of a container or array   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_begin&action=edit)
+(function template) 

@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::elements_view`](../../elements_view.html "cpp/ranges/elements view")
 
@@ -262,7 +262,7 @@ operator-(elements_view::_iterator_)](../iterator/operator_arith2.html "cpp/rang
 **operator==(elements_view::_iterator_ ,elements_view::_sentinel_)**  
 [operator-(elements_view::_iterator_ ,elements_view::_sentinel_)](operator-.html "cpp/ranges/elements view/sentinel/operator-")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/elements_view/navbar_content&action=edit)
+
 
 template< bool OtherConst >  
 requires [std::sentinel_for](../../../iterator/sentinel_for.html)<[ranges::sentinel_t](../../iterator_t.html)<Base>,  
@@ -278,17 +278,17 @@ This function is not visible to ordinary [unqualified](../../../language/unquali
 
 The `!=` operator is [synthesized](../../../language/default_comparisons.html#Other_defaulted_comparison_operators "cpp/language/default comparisons") from `operator==`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/elements_view/sentinel/operator_cmp&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 x  |  \-  |  [iterator](../iterator.html "cpp/ranges/elements view/iterator") to compare   
 ---|---|---  
 y  |  \-  |  sentinel to compare   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/elements_view/sentinel/operator_cmp&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 x.base() == y.base(). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/elements_view/sentinel/operator_cmp&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Filesystem library](../filesystem.html "cpp/filesystem")
 
@@ -100,7 +100,7 @@ filesystem::symlink_status](status.html "cpp/filesystem/status")
 [filesystem::is_socket](is_socket.html "cpp/filesystem/is socket")  
 [filesystem::is_symlink](is_symlink.html "cpp/filesystem/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/navbar_content&action=edit)
+
 
 Defined in header `[<filesystem>](../header/filesystem.html "cpp/header/filesystem")` |  |   
 ---|---|---  
@@ -124,17 +124,17 @@ Returns a path referencing the same file system location as p, for which [`files
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/absolute&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 p  |  \-  |  path to convert to absolute form   
 ---|---|---  
 ec  |  \-  |  out-parameter for error reporting in the non-throwing overload   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/absolute&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Returns an absolute (although not necessarily canonical) pathname referencing the same file as p. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/absolute&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Any overload not marked `noexcept` may throw [std::bad_alloc](../memory/new/bad_alloc.html "cpp/memory/new/bad alloc") if memory allocation fails.  
 
@@ -143,7 +143,7 @@ Any overload not marked `noexcept` may throw [std::bad_alloc](../memory/new/bad_
 
 2) Sets a [std::error_code](../error/error_code.html)& parameter to the OS API error code if an OS API call fails, and executes ec.[`clear`](../error/error_code/clear.html "cpp/error/error code/clear")() if no errors occur.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/absolute&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 Implementations are encouraged to not consider p not existing to be an error. 
 
@@ -151,7 +151,7 @@ For POSIX-based operating systems, std::filesystem::absolute(p) is equivalent to
 
 For Windows, `std::filesystem::absolute` may be implemented as a call to [`GetFullPathNameW`](https://learn.microsoft.com/en-us/windows/win32/api/fileapi/nf-fileapi-getfullpathnamew). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/absolute&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -173,10 +173,10 @@ Possible output:
     Current path is "/tmp/1666297965.0051296"
     Absolute path for "foo.c" is "/tmp/1666297965.0051296/foo.c"
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/absolute&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ canonicalweakly_canonical](canonical.html "cpp/filesystem/canonical")(C++17) |  composes a canonical path   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_canonical&action=edit)  
+(function)   
 ---|---  
 [ relativeproximate](relative.html "cpp/filesystem/relative")(C++17) |  composes a relative path   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_relative&action=edit)
+(function) 

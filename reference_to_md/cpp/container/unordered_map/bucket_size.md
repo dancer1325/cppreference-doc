@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::unordered_map`](../unordered_map.html "cpp/container/unordered map")
 
@@ -139,7 +139,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/unordered map/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/unordered_map/navbar_content&action=edit)
+
 
 size_type bucket_size( size_type n ) const; |  |  (since C++11)  
 ---|---|---  
@@ -157,21 +157,21 @@ Returns the number of elements in the bucket with index n.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/bucket_size&action=edit&section=T-1 "Template:cpp/container/bucket size")] Parameters
+### Parameters
 
 n  |  \-  |  the index of the bucket to examine   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/bucket_size&action=edit&section=T-2 "Template:cpp/container/bucket size")] Return value
+### Return value
 
 The number of elements in the bucket n. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/bucket_size&action=edit&section=T-3 "Template:cpp/container/bucket size")] Complexity
+### Complexity
 
 Linear in the size of the bucket n. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/bucket_size&action=edit&section=T-4 "Template:cpp/container/bucket size")] See also
+### See also
 
 [ bucket_count](bucket_count.html "cpp/container/unordered map/bucket count") |  returns the number of buckets   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_bucket_count&action=edit)  
+(public member function)   
 ---|---

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_syncbuf`](../basic_syncbuf.html "cpp/io/basic syncbuf")
 
@@ -96,7 +96,7 @@ Protected member functions
 Non-member functions  
 [swap(std::basic_syncbuf)](swap2.html "cpp/io/basic syncbuf/swap2")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_syncbuf/navbar_content&action=edit)
+
 
 void set_emit_on_sync( bool b ) noexcept; |  |   
 ---|---|---  
@@ -108,23 +108,23 @@ The value false (the default) indicates that any flush will be postponed until a
 
 The value true makes flushes apply immediately. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_syncbuf/set_emit_on_sync&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 b  |  \-  |  new value for the emit-on-sync policy   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_syncbuf/set_emit_on_sync&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_syncbuf/set_emit_on_sync&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ sync](../basic_streambuf/pubsync.html "cpp/io/basic streambuf/pubsync")[virtual] |  synchronizes the buffers with the associated character sequence   
-(virtual protected member function of `std::basic_streambuf<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_streambuf/dsc_sync&action=edit)  
+(virtual protected member function of `std::basic_streambuf<CharT,Traits>`)   
 ---|---  
 [ emit](emit.html "cpp/io/basic syncbuf/emit") |  atomically transmits the entire internal buffer to the wrapped streambuf   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_syncbuf/dsc_emit&action=edit)  
+(public member function)   
 [ emit_on_flushnoemit_on_flush](../manip/emit_on_flush.html "cpp/io/manip/emit on flush")(C++20) |  controls whether a stream's [`basic_syncbuf`](../basic_syncbuf.html "cpp/io/basic syncbuf") emits on flush   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_emit_on_flush&action=edit)
+(function template) 

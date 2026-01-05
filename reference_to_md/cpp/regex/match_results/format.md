@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Regular expressions library](../../regex.html "cpp/regex")
 
@@ -81,7 +81,7 @@ Constants
 Regex Grammar  
 [Modified ECMAScript-262](../ecmascript.html "cpp/regex/ecmascript")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/navbar_content&action=edit)
+
 
 [`std::match_results`](../match_results.html "cpp/regex/match results")
 
@@ -114,7 +114,7 @@ Non-member functions
 [operator==operator!=](operator_cmp.html "cpp/regex/match results/operator cmp")(until C++20)  
 [swap(std::match_results)](swap2.html "cpp/regex/match results/swap2")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/match_results/navbar_content&action=edit)
+
 
 template< class OutputIt >  
 OutputIt format( OutputIt out,  
@@ -160,7 +160,7 @@ The behavior of `format` is undefined if ready() != true.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/match_results/format&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 fmt_begin, fmt_end  |  \-  |  pointers to a range of characters defining the format character sequence   
 ---|---|---  
@@ -171,17 +171,17 @@ flags  |  \-  |  [std::regex_constants::match_flag_type](../match_flag_type.html
 Type requirements   
 -`OutputIt` must meet the requirements of [LegacyOutputIterator](../../named_req/OutputIterator.html "cpp/named req/OutputIterator").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/match_results/format&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1,2) out
 
 3,4) The newly constructed string containing resulting character sequence.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/impldef_exception&action=edit&section=T-1 "Template:cpp/impldef exception")] Exceptions
+### Exceptions
 
 May throw implementation-defined exceptions. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/match_results/format&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -211,10 +211,10 @@ Output:
     
     for a good time, call [867-5309]
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/match_results/format&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ regex_replace](../regex_replace.html "cpp/regex/regex replace")(C++11) |  replaces occurrences of a regular expression with formatted replacement text   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/dsc_regex_replace&action=edit)  
+(function template)   
 ---|---  
 [ match_flag_type](../match_flag_type.html "cpp/regex/match flag type")(C++11) |  options specific to matching   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/dsc_match_flag_type&action=edit)
+(typedef) 

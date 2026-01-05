@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::unique_lock`](../unique_lock.html "cpp/thread/unique lock")
 
@@ -198,7 +198,7 @@ Observers
 Non-member functions  
 [swap(std::unique_lock)](swap2.html "cpp/thread/unique lock/swap2")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/unique_lock/navbar_content&action=edit)
+
 
 void unlock(); |  |  (since C++11)  
 ---|---|---  
@@ -219,28 +219,28 @@ Unlocks (i.e., releases ownership of) the associated mutex.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/unique_lock/unlock&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/unique_lock/unlock&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/unique_lock/unlock&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 If there is no associated mutex or the mutex is not locked, [std::system_error](../../error/system_error.html "cpp/error/system error") with an error code of [std::errc::operation_not_permitted](../../error/errc.html "cpp/error/errc"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/unique_lock/unlock&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/unique_lock/unlock&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ lock](lock.html "cpp/thread/unique lock/lock") |  locks (i.e., takes ownership of) the associated mutex   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/unique_lock/dsc_lock&action=edit)  
+(public member function)   
 ---|---  
 [ release](release.html "cpp/thread/unique lock/release") |  disassociates the associated mutex without unlocking (i.e., releasing ownership of) it   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/unique_lock/dsc_release&action=edit)
+(public member function) 

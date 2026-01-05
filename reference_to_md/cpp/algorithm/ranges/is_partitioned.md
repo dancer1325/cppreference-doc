@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](copy.html "cpp/algorithm/ranges/co
 [uninitialized_default_construct_n](../../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 [Constrained algorithms](../ranges.html "cpp/algorithm/ranges")
 
@@ -550,7 +550,7 @@ All names in this menu belong to namespace `std::ranges`
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -591,7 +591,7 @@ The function-like entities described on this page are [_algorithm function objec
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/is_partitioned&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  the iterator-sentinel pair defining the [range](../../iterator.html#Ranges "cpp/iterator") of elements to examine   
 ---|---|---  
@@ -599,15 +599,15 @@ r  |  \-  |  the range of elements to examine
 pred  |  \-  |  predicate to apply to the projected elements   
 proj  |  \-  |  projection to apply to the elements   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/is_partitioned&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 true if the range `[`first`, `last`)` is empty or is partitioned by pred, false otherwise. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/is_partitioned&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 At most [ranges::distance](../../iterator/ranges/distance.html)(first, last) applications of pred and proj. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/is_partitioned&action=edit&section=4 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     struct is_partitioned_fn
@@ -639,7 +639,7 @@ At most [ranges::distance](../../iterator/ranges/distance.html)(first, last) app
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/is_partitioned&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -682,12 +682,12 @@ Output:
     9 1 7 3 5 8 6 4 2 => not partitioned
     9 1 7 3 5 8 6 4 2 => partitioned
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/is_partitioned&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ ranges::partition](partition.html "cpp/algorithm/ranges/partition")(C++20) |  divides a range of elements into two groups  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_partition&action=edit)  
+(algorithm function object)  
 ---|---  
 [ ranges::partition_point](partition_point.html "cpp/algorithm/ranges/partition point")(C++20) |  locates the partition point of a partitioned range  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_partition_point&action=edit)  
+(algorithm function object)  
 [ is_partitioned](../is_partitioned.html "cpp/algorithm/is partitioned")(C++11) |  determines if the range is partitioned by the given predicate   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_is_partitioned&action=edit)
+(function template) 

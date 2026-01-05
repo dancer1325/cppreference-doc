@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Strings library](../../string.html "cpp/string")
 
@@ -40,7 +40,7 @@ Classes
 [basic_string_view](../basic_string_view.html "cpp/string/basic string view")(C++17)  
 [char_traits](../char_traits.html "cpp/string/char traits")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/navbar_content&action=edit)
+
 
 [`std::basic_string_view`](../basic_string_view.html "cpp/string/basic string view")
 
@@ -92,7 +92,7 @@ Constants
 [hash<std::string_view>hash<std::wstring_view>hash<std::u8string_view>hash<std::u16string_view>hash<std::u32string_view>](hash.html "cpp/string/basic string view/hash")(C++20)  
 **Deduction guides** (C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/navbar_content&action=edit)
+
 
 Defined in header `[<string_view>](../../header/string_view.html "cpp/header/string view")` |  |   
 ---|---|---  
@@ -108,7 +108,7 @@ These [deduction guides](../../language/ctad.html "cpp/language/class template a
 
 2) This deduction guide allow the character type to be deduced from the range. This overload participates in overload resolution only if `R` satisfies [`contiguous_range`](../../ranges/contiguous_range.html "cpp/ranges/contiguous range").
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string_view/deduction_guides&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
 Run this code
     

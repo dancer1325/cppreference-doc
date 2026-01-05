@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ named requirements](../iterator/concepts.html "cpp/named req")
 
@@ -147,11 +147,11 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/named_req/navbar_content&action=edit)
+
 
 A **Hash** is a function object for which the output depends only on the input and has a very low probability of yielding the same output given different input values. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/Hash&action=edit&section=1 "Edit section: Requirements")] Requirements
+### Requirements
 
 The type `T` satisfies Hash if 
 
@@ -174,13 +174,13 @@ Expression | Return type | Requirements
 h(k) | [std::size_t](../types/size_t.html "cpp/types/size t") | The returned value depends only on the value of k for the duration of the program. All evaluations of h(k) executed within a given execution of a program yield the same result for the same value of k. The probability of h(a) == h(b) for a != b should approach 1.0 / [std::numeric_limits](../types/numeric_limits.html)<[std::size_t](../types/size_t.html)>::max().   
 h(u) | [std::size_t](../types/size_t.html "cpp/types/size t") | u is not modified.   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/Hash&action=edit&section=2 "Edit section: Standard library")] Standard library
+### Standard library
 
 [ hash](../utility/hash.html "cpp/utility/hash")(C++11) |  hash function object   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_hash&action=edit)  
+(class template)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/Hash&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

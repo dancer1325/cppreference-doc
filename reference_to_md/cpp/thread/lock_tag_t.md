@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 Defined in header `[<mutex>](../header/mutex.html "cpp/header/mutex")` |  |   
 ---|---|---  
@@ -200,9 +200,9 @@ Type  |  Effect(s)
 `try_to_lock_t` |  try to acquire ownership of the mutex without blocking   
 `adopt_lock_t` |  assume the calling thread already has ownership of the mutex   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/lock_tag&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/example_lock_tag&action=edit)
+
 
 Run this code
     
@@ -259,10 +259,10 @@ Output:
     my_account.balance = 95
     your_account.balance = 55
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/lock_tag&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ (constructor)](lock_guard/lock_guard.html "cpp/thread/lock guard/lock guard") |  constructs a `lock_guard`, optionally locking the given mutex   
-(public member function of `std::lock_guard<Mutex>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/lock_guard/dsc_constructor&action=edit)  
+(public member function of `std::lock_guard<Mutex>`)   
 ---|---  
 [ (constructor)](unique_lock/unique_lock.html "cpp/thread/unique lock/unique lock") |  constructs a `unique_lock`, optionally locking (i.e., taking ownership of) the supplied mutex   
-(public member function of `std::unique_lock<Mutex>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/unique_lock/dsc_constructor&action=edit)
+(public member function of `std::unique_lock<Mutex>`) 

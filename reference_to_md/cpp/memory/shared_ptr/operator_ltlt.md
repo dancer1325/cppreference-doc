@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::shared_ptr`](../shared_ptr.html "cpp/memory/shared ptr")
 
@@ -220,7 +220,7 @@ Helper classes
 [hash<std::shared_ptr>](hash.html "cpp/memory/shared ptr/hash")  
 [Deduction guides](deduction_guides.html "cpp/memory/shared ptr/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/navbar_content&action=edit)
+
 
 template< class T, class U, class V >  
 [std::basic_ostream](../../io/basic_ostream.html)<U, V>& operator<<( [std::basic_ostream](../../io/basic_ostream.html)<U, V>& os, const [std::shared_ptr](../shared_ptr.html)<T>& ptr ); |  |   
@@ -241,17 +241,17 @@ Equivalent to os << ptr.get().
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/operator_ltlt&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 os  |  \-  |  a [std::basic_ostream](../../io/basic_ostream.html "cpp/io/basic ostream") to insert `ptr` into   
 ---|---|---  
 ptr  |  \-  |  the data to be inserted into `os`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/operator_ltlt&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 os
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/operator_ltlt&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -274,8 +274,8 @@ Possible output:
     0x6d9028
     0x6d9028
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/operator_ltlt&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ get](get.html "cpp/memory/shared ptr/get") |  returns the stored pointer   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/dsc_get&action=edit)  
+(public member function)   
 ---|---

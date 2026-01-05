@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::future`](../future.html "cpp/thread/future")
 
@@ -191,7 +191,7 @@ State
 [future::wait_for](wait_for.html "cpp/thread/future/wait for")  
 [future::wait_until](wait_until.html "cpp/thread/future/wait until")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/future/navbar_content&action=edit)
+
 
 [std::shared_future](../shared_future.html)<T> share() noexcept; |  |   
 ---|---|---  
@@ -212,21 +212,21 @@ After calling `share` on a [std::future](../future.html "cpp/thread/future"), [v
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/future/share&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/future/share&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 A [std::shared_future](../shared_future.html "cpp/thread/shared future") object containing the shared state previously held by *this, if any, constructed as if by [std::shared_future](../shared_future.html)<T>(std::move(*this)). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/future/share&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/future/share&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -234,8 +234,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 2556](https://cplusplus.github.io/LWG/issue2556) | C++11  | `share()` requires `valid()` to be `true` | requirement removed and made `noexcept`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/future/share&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ shared_future](../shared_future.html "cpp/thread/shared future")(C++11) |  waits for a value (possibly referenced by other futures) that is set asynchronously   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_shared_future&action=edit)  
+(class template)   
 ---|---

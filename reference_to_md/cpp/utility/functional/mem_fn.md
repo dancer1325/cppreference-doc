@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Function objects](../../functional.html "cpp/utility/functional")
 
@@ -255,7 +255,7 @@ Identity function object
 [unary_negate](unary_negate.html "cpp/utility/functional/unary negate")(until C++20*)  
 [binary_negate](binary_negate.html "cpp/utility/functional/binary negate")(until C++20*)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/navbar_content&action=edit)
+
 
 Defined in header `[<functional>](../../header/functional.html "cpp/header/functional")` |  |   
 ---|---|---  
@@ -280,12 +280,12 @@ Function template `std::mem_fn` generates wrapper objects for pointers to member
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/mem_fn&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 pm  |  \-  |  pointer to member that will be wrapped   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/mem_fn&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 `std::mem_fn` returns a call wrapper fn of unspecified type that has the following members: 
 
@@ -315,7 +315,7 @@ Thus, the return type of operator() is [std::result_of](../../types/result_of.ht
 
 Each argument in args is perfectly forwarded, as if by [std::forward](../forward.html)<Args>(args).... 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/mem_fn&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Use `std::mem_fn` to store and execute a member function and a member object:
 
@@ -395,7 +395,7 @@ Output:
     add_many(u, ...): 13
     add_them(u, ...): 42
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/mem_fn&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -404,12 +404,12 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [LWG 2048](https://cplusplus.github.io/LWG/issue2048) | C++11  | unnecessary overloads provided  | removed   
 [LWG 2489](https://cplusplus.github.io/LWG/issue2489) | C++11  | noexcept not required  | required   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/mem_fn&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ function](function.html "cpp/utility/functional/function")(C++11) |  copyable wrapper of any copy constructible callable object   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_function&action=edit)  
+(class template)   
 ---|---  
 [ move_only_function](move_only_function.html "cpp/utility/functional/move only function")(C++23) |  move-only wrapper of any callable object that supports qualifiers in a given call signature   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_move_only_function&action=edit)  
+(class template)   
 [ bind](bind.html "cpp/utility/functional/bind")(C++11) |  binds one or more arguments to a function object   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_bind&action=edit)
+(function template) 

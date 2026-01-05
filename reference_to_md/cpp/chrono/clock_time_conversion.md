@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 Defined in header `[<chrono>](../header/chrono.html "cpp/header/chrono")` |  |   
 ---|---|---  
@@ -155,7 +155,7 @@ struct clock_time_conversion<[std::chrono::utc_clock](utc_clock.html), Clock>; |
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/clock_time_conversion&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 Each specialization has an implicitly-declared default constructor, copy constructor, move constructor, copy assignment operator, move assignment operator, and destructor. 
 
@@ -230,8 +230,8 @@ The result of the conversion as described above:
 
 9) Clock::to_utc(t). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/clock_time_conversion&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ clock_cast](clock_cast.html "cpp/chrono/clock cast")(C++20) |  convert time points of one clock to another   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_clock_cast&action=edit)  
+(function template)   
 ---|---

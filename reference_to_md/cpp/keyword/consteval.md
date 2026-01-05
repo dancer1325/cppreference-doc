@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](../language/history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [Keywords](../keywords.html "cpp/keyword")
 
@@ -340,9 +340,9 @@ Identifiers with special meaning
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/keyword/navbar_content&action=edit)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/keyword/consteval&action=edit&section=1 "Edit section: Usage")] Usage
+
+### Usage
 
   * [`consteval` declaration specifier](../language/consteval.html "cpp/language/consteval")
   * [_lambda-declarator_](../language/lambda.html "cpp/language/lambda") that explicitly specifies the function call to be an immediate function 
@@ -354,7 +354,7 @@ Identifiers with special meaning
 | (since C++23)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/keyword/consteval&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 Feature-test macro  | Value | Std | Feature   
 ---|---|---|---  
@@ -362,7 +362,7 @@ Feature-test macro  | Value | Std | Feature
 [`202211L`](../compiler_support/23.html#cpp_consteval_202211L "cpp/compiler support/23") | (C++23)  
 (DR20) | Making consteval propagate up   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/keyword/consteval&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
   * [`if` statement](../language/if.html "cpp/language/if"): [`if`](../keywords/if.html "cpp/keyword/if"), [`else`](else.html "cpp/keyword/else")
   * [`constexpr` `if` statement](../language/if.html#Constexpr_if "cpp/language/if"): [`constexpr`](constexpr.html "cpp/keyword/constexpr") (`constexpr` `if` statement)

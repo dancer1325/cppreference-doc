@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Expressions](expressions.html "cpp/language/expressions")
 
@@ -289,7 +289,7 @@ Conversions
 [`dynamic_cast`](dynamic_cast.html "cpp/language/dynamic cast")  
 [`reinterpret_cast`](reinterpret_cast.html "cpp/language/reinterpret cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/expressions/navbar_content&action=edit)
+
 
 Creates and initializes objects with dynamic [storage duration](storage_duration.html "cpp/language/storage duration"), that is, objects whose lifetime is not necessarily limited by the scope in which they were created. 
 
@@ -311,7 +311,7 @@ Creates and initializes objects with dynamic [storage duration](storage_duration
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/new&action=edit&section=1 "Edit section: Syntax")] Syntax  
+### Syntax  
   
 ---  
 `**::**`(optional) `**new**` `**(**` type ﻿`**)**` new-initializer ﻿(optional) |  (1)  |   
@@ -323,7 +323,7 @@ Creates and initializes objects with dynamic [storage duration](storage_duration
 
 3,4) Same as (1,2), but provides additional arguments to the allocation function, see [placement new](new.html#Placement_new).
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/new&action=edit&section=2 "Edit section: Explanation")] Explanation
+### Explanation
 
 type |  \-  |  the target type-id   
 ---|---|---  
@@ -370,7 +370,7 @@ The new-initializer is not optional if
     auto r = new [std::pair](../utility/pair.html)(1, true); // OK: r is a std::pair<int, bool>*
     auto r = new [std::vector](../container/vector.html);        // ERROR: element type can't be deduced
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/new&action=edit&section=3 "Edit section: Dynamic arrays")] Dynamic arrays
+### Dynamic arrays
 
 If type is an array type, all dimensions other than the first must be specified as positive [integral constant expression](constant_expression.html "cpp/language/constant expression")(until C++14)[converted constant expression](constant_expression.html "cpp/language/constant expression") of type [std::size_t](../types/size_t.html "cpp/types/size t")(since C++14), but (only when using un-parenthesized syntaxes (2) and (4)) the first dimension may be an expression of integral type, enumeration type, or class type with a single non-explicit conversion function to integral or enumeration type(until C++14)any expression convertible to [std::size_t](../types/size_t.html "cpp/types/size t")(since C++14). This is the only way to directly create an array with size defined at runtime, such arrays are often referred to as _dynamic arrays_ : 
     
@@ -403,7 +403,7 @@ The first dimension of zero is acceptable, and the allocation function is called
 If new-initializer is a braced-enclosed initializer list, and the first dimension is [potentially evaluated](expressions.html#Potentially-evaluated_expressions "cpp/language/expressions") and not a [core constant expression](constant_expression.html#Core_constant_expressions "cpp/language/constant expression"), the semantic constraints of [copy-initializing](copy_initialization.html "cpp/language/copy initialization") a hypothetical element of the array from an empty initializer list are checked.  | (since C++11)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/new&action=edit&section=4 "Edit section: Allocation")] Allocation
+### Allocation
 
 The new expression allocates storage by calling the appropriate [allocation function](../memory/new/operator_new.html "cpp/memory/new/operator new"). If type is a non-array type, the name of the function is [operator new](../memory/new/operator_new.html). If type is an array type, the name of the function is [operator new](../memory/new/operator_new.html)[]. 
 
@@ -417,7 +417,7 @@ new expressions are allowed to elide or combine allocations made through replace
 ---|---  
 During an evaluation of a [constant expression](constant_expression.html "cpp/language/constant expression"), a call to an allocation function is always omitted. Only new expressions that would otherwise result in a call to a replaceable global allocation function can be evaluated in constant expressions.  | (since C++20)  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/new&action=edit&section=5 "Edit section: Placement new")] Placement new
+#### Placement new
 
 If placement-args are provided, they are passed to the allocation function as additional arguments. Such allocation functions are known as "placement new", after the standard allocation function void* [operator new](../memory/new/operator_new.html)([std::size_t](../types/size_t.html), void*), which simply returns its second argument unchanged. This is used to construct objects in allocated storage: 
     
@@ -450,7 +450,7 @@ When allocating an object whose alignment requirement exceeds [`__STDCPP_DEFAULT
 
 If a non-throwing allocation function (e.g. the one selected by new([std::nothrow](../memory/new/nothrow.html)) T) returns a null pointer because of an allocation failure, then the new expression returns immediately, it does not attempt to initialize an object or to call a deallocation function. If a null pointer is passed as the argument to a non-allocating placement new expression, which makes the selected standard non-allocating placement allocation function return a null pointer, the behavior is undefined. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/new&action=edit&section=6 "Edit section: Initialization")] Initialization
+### Initialization
 
 The object created by a new expression is initialized according to the following rules. 
 
@@ -497,7 +497,7 @@ If type is an array type, an array of objects is initialized:
 
 | (since C++20)  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/new&action=edit&section=7 "Edit section: Initialization failure")] Initialization failure
+#### Initialization failure
 
 If initialization terminates by throwing an exception (e.g. from the constructor), the program looks up a matching deallocation function, then: 
 
@@ -546,7 +546,7 @@ If a deallocation function is called in a new expression (due to initialization 
 
 If the implementation is allowed to introduce a temporary object or make a copy of any argument as part of the call to the allocation function, it is unspecified whether the same object is used in the call to both the allocation and deallocation functions. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/new&action=edit&section=8 "Edit section: Memory leaks")] Memory leaks
+### Memory leaks
 
 The objects created by new expressions (objects with dynamic storage duration) persist until the pointer returned by the new expression is used in a matching [delete-expression](delete.html "cpp/language/delete"). If the original value of pointer is lost, the object becomes unreachable and cannot be deallocated: a _memory leak_ occurs. 
 
@@ -576,7 +576,7 @@ or due to exception:
 
 To simplify management of dynamically-allocated objects, the result of a new expression is often stored in a [smart pointer](../memory.html#Smart_pointers "cpp/memory"): [std::auto_ptr](../memory/auto_ptr.html "cpp/memory/auto ptr") (until C++17)[std::unique_ptr](../memory/unique_ptr.html "cpp/memory/unique ptr"), or [std::shared_ptr](../memory/shared_ptr.html "cpp/memory/shared ptr")(since C++11). These pointers guarantee that the delete expression is executed in the situations shown above. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/new&action=edit&section=9 "Edit section: Notes")] Notes
+### Notes
 
 [Itanium C++ ABI](https://itanium-cxx-abi.github.io/cxx-abi/abi.html#array-cookies) requires that the array allocation overhead is zero if the element type of the created array is trivially destructible. So does MSVC. 
 
@@ -586,11 +586,11 @@ A non-allocating placement array new expression that creates an array of unsigne
 
 [std::vector](../container/vector.html "cpp/container/vector") offers similar functionality for one-dimensional dynamic arrays. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/new&action=edit&section=10 "Edit section: Keywords")] Keywords
+### Keywords
 
 [`new`](../keyword/new.html "cpp/keyword/new")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/new&action=edit&section=11 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -618,7 +618,7 @@ first dimension is not potentially-evaluated  | well-formed in this case
 [P1009R2](https://wg21.link/P1009R2) | C++11  | the array bound could not be  
 deduced in a new expression  | deduction permitted   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/new&action=edit&section=12 "Edit section: See also")] See also
+### See also
 
   * [constructor](initializer_list.html "cpp/language/constructor")
   * [copy elision](copy_elision.html "cpp/language/copy elision")

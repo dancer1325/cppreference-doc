@@ -88,9 +88,9 @@ Output:
 ### See also
 
 [ rotl](../../numeric/rotl.html "cpp/numeric/rotl")(C++20) |  computes the result of bitwise left-rotation   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/dsc_rotl&action=edit)  
+(function template)   
 ---|---  
 [ rotr](../../numeric/rotr.html "cpp/numeric/rotr")(C++20) |  computes the result of bitwise right-rotation   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/dsc_rotr&action=edit)  
+(function template)   
 [ operator&=operator|=operator^=operator~](operator_logic.html "cpp/utility/bitset/operator logic") |  performs binary AND, OR, XOR and NOT   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/bitset/dsc_operator_logic&action=edit)
+(public member function) 

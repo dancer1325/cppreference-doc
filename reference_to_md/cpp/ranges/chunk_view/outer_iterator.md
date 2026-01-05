@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::chunk_view`](../chunk_view.html "cpp/ranges/chunk view")
 
@@ -299,7 +299,7 @@ operator-(chunk_view::_iterator_)](iterator/operator_arith2.html "cpp/ranges/chu
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/chunk_view/navbar_content&action=edit)
+
 
 class /*outer-iterator*/ |  |  (since C++23)   
 (exposition only*)  
@@ -322,21 +322,21 @@ The return type of [`chunk_view::begin`](begin.html "cpp/ranges/chunk view/begin
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/chunk_view/outer_iterator&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Member type  |  Definition   
 ---|---  
 `iterator_concept` |  [std::input_iterator_tag](../../iterator/iterator_tags.html)  
 `difference_type` |  [ranges::range_difference_t](../range_size_t.html)<V>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/chunk_view/outer_iterator&action=edit&section=2 "Edit section: Data members")] Data members
+### Data members
 
 Member object  |  Definition   
 ---|---  
 `_parent__` (private) |  A pointer to the "parent object" of type [ranges::chunk_view](../chunk_view.html)*  
 (exposition-only member object*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/chunk_view/outer_iterator&action=edit&section=3 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](outer_iterator/outer_iterator.html "cpp/ranges/chunk view/outer iterator/outer iterator")(C++23) |  constructs an iterator   
 (public member function)  
@@ -348,7 +348,7 @@ Member object  |  Definition
 [ operator++](outer_iterator/operator_inc.html "cpp/ranges/chunk view/outer iterator/operator inc")(C++23) |  increments the iterator   
 (public member function)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/chunk_view/outer_iterator&action=edit&section=4 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ operator==](outer_iterator/operator_cmp.html "cpp/ranges/chunk view/outer iterator/operator cmp")(C++23) |  compares the iterator with [default sentinel](../../iterator/default_sentinel.html "cpp/iterator/default sentinel t")   
 (function)  
@@ -356,13 +356,13 @@ Member object  |  Definition
 [ operator-](outer_iterator/operator-.html "cpp/ranges/chunk view/outer iterator/operator-")(C++23) |  calculates the number of chunks remaining   
 (function)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/chunk_view/outer_iterator&action=edit&section=5 "Edit section: Nested classes")] Nested classes
+### Nested classes
 
 [ value_type](outer_iterator/value_type.html "cpp/ranges/chunk view/outer iterator/value type")(C++23) |  the value type of /*output-iterator*/   
 (public member class)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/chunk_view/outer_iterator&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -413,7 +413,7 @@ Output:
     [ABCD] [EFGH] [IJ]
     [ABCD] [EFGH] [IJ]
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/chunk_view/outer_iterator&action=edit&section=7 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -425,6 +425,6 @@ Output:
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/chunk_view/outer_iterator&action=edit&section=8 "Edit section: See also")] See also  
+### See also  
   
 ---

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_ostream`](basic_ostream.html "cpp/io/basic ostream")
 
@@ -116,7 +116,7 @@ Non-member functions
 [vprint_unicode(std::ostream)](basic_ostream/vprint_unicode.html "cpp/io/basic ostream/vprint unicode")(C++23)  
 [vprint_nonunicode(std::ostream)](basic_ostream/vprint_nonunicode.html "cpp/io/basic ostream/vprint nonunicode")(C++23)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ostream/navbar_content&action=edit)
+
 
 Defined in header `[<iostream>](../header/iostream.html "cpp/header/iostream")` |  |   
 ---|---|---  
@@ -144,11 +144,11 @@ In addition, std::cerr.tie() returns &[std::cout](cout.html) (same for `std::wce
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/cerr&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 The 'c' in the name refers to "character" ([stroustrup.com FAQ](https://www.stroustrup.com/bs_faq2.html#cout)); `cerr` means "character error (stream)" and `wcerr` means "wide character error (stream)". 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/cerr&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Output to [stderr](c/std_streams.html "cpp/io/c/std streams") via `std::cerr` flushes out the pending output on [std::cout](cout.html "cpp/io/cout"), while output to [stderr](c/std_streams.html "cpp/io/c/std streams") via [std::clog](clog.html "cpp/io/clog") does not.
 
@@ -182,7 +182,7 @@ Possible output:
     Output from thread...This output is tie()'d to cout
     ...thread calls flush()
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/cerr&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -192,16 +192,16 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 std::wcerr.tie() returned null pointers  | they return &[std::cout](cout.html) and  
 &[std::wcout](cout.html) respectively   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/cerr&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ Init](ios_base/Init.html "cpp/io/ios base/Init") |  initializes standard stream objects   
-(public member class of `std::ios_base`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/ios_base/dsc_Init&action=edit)  
+(public member class of `std::ios_base`)   
 ---|---  
 [ clogwclog](clog.html "cpp/io/clog") |  writes to the standard C error stream [stderr](c/std_streams.html "cpp/io/c/std streams")  
-(global object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_clog&action=edit)  
+(global object)  
 [ coutwcout](cout.html "cpp/io/cout") |  writes to the standard C output stream [stdout](c/std_streams.html "cpp/io/c/std streams")  
-(global object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_cout&action=edit)  
+(global object)  
 [ stdinstdoutstderr](c/std_streams.html "cpp/io/c/std streams") |  expression of type FILE* associated with the input stream  
 expression of type FILE* associated with the output stream  
 expression of type FILE* associated with the error output stream   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_std_streams&action=edit)
+(macro constant) 

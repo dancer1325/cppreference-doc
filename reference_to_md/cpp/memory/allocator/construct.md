@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::allocator`](../allocator.html "cpp/memory/allocator")
 
@@ -202,7 +202,7 @@ Member functions
 Non-member functions  
 [operator==operator!=](operator_cmp.html "cpp/memory/allocator/operator cmp")(until C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/allocator/navbar_content&action=edit)
+
 
 Defined in header `[<memory>](../../header/memory.html "cpp/header/memory")` |  |   
 ---|---|---  
@@ -229,18 +229,18 @@ Constructs an object of type `T` in allocated uninitialized storage pointed to b
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/allocator/construct&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 p  |  \-  |  pointer to allocated uninitialized storage   
 ---|---|---  
 val  |  \-  |  the value to use as the copy constructor argument   
 args...  |  \-  |  the constructor arguments to use   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/allocator/construct&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/allocator/construct&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -248,12 +248,12 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 402](https://cplusplus.github.io/LWG/issue402) | C++98  | if T::[operator new](../new/operator_new.html) exists, the program might be ill-formed  | uses global replacement-new instead   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/allocator/construct&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ construct](../allocator_traits/construct.html "cpp/memory/allocator traits/construct")[static] |  constructs an object in the allocated storage   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/allocator_traits/dsc_construct&action=edit)  
+(function template)   
 ---|---  
 [ construct_at](../construct_at.html "cpp/memory/construct at")(C++20) |  creates an object at a given address   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_construct_at&action=edit)  
+(function template)   
 [ operator newoperator new[]](../new/operator_new.html "cpp/memory/new/operator new") |  allocation functions   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/new/dsc_operator_new&action=edit)
+(function) 

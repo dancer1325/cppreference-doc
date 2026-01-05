@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::indirect`](../indirect.html "cpp/memory/indirect")
 
@@ -206,7 +206,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
 [Helper classes](../indirect.html#Helper_classes "cpp/memory/indirect")  
 [hash<std::indirect>](hash.html "cpp/memory/indirect/hash")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/indirect/navbar_content&action=edit)
+
 
 constexpr indirect& operator=( const indirect& other ); |  (1) | (since C++26)  
 ---|---|---  
@@ -279,17 +279,17 @@ This overload participates in overload resolution only if all following conditio
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/indirect/operator%3D&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 other  |  \-  |  another `indirect` object whose owned value (if exists) is used for assignment   
 ---|---|---  
 value  |  \-  |  value to assign to or construct the owned value   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/indirect/operator%3D&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 *this
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/indirect/operator%3D&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 1) If any exception is thrown, the result of this->valueless_after_move() remains unchanged.
 
@@ -309,7 +309,7 @@ propagate_on_container_move_assignment::value
 
 || [std::allocator_traits](../allocator_traits.html)<Allocator>::is_always_equal::value)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/indirect/operator%3D&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

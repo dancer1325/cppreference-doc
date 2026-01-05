@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -282,7 +282,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [Low level memory management](../new.html "cpp/memory/new")
 
@@ -304,7 +304,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
 [Object access](../new.html#Object_access "cpp/memory/new")  
 [launder](../../utility/launder.html "cpp/utility/launder")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/new/navbar_content&action=edit)
+
 
 Defined in header `[<new>](../../header/new.html "cpp/header/new")` |  |   
 ---|---|---  
@@ -375,7 +375,7 @@ See [new expression](../../language/new.html "cpp/language/new") for the criteri
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/new/operator_new&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 count  |  \-  |  number of bytes to allocate   
 ---|---|---  
@@ -383,7 +383,7 @@ ptr  |  \-  |  pointer to a memory area to initialize the object at
 tag  |  \-  |  disambiguation tag used to select non-throwing overloads   
 al  |  \-  |  alignment to use, invalid value leads to undefined behavior   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/new/operator_new&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1-4) If the allocation succeeds, a non-null pointer p0 which points to suitably aligned memory of size at least size and is different from any previously returned value p1, unless that value p1 was subsequently passed to a replaceable [deallocation function](operator_delete.html "cpp/memory/new/operator delete"); if the allocation fails, does not return (an exception is thrown, see below).
 
@@ -393,13 +393,13 @@ al  |  \-  |  alignment to use, invalid value leads to undefined behavior
 
 11-22) Same as ([1-4](operator_new.html#Version_1)) if the function does not return on allocation failure, otherwise same as ([5-8](operator_new.html#Version_5)).
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/new/operator_new&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 1-4) Throws an exception of a type that would match a handler of type [std::bad_alloc](bad_alloc.html "cpp/memory/new/bad alloc") on failure to allocate memory.
 
 11-22) Same as ([1-4](operator_new.html#Version_1)) if the function does not return on allocation failure, otherwise same as ([5-8](operator_new.html#Version_5)).
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/new/operator_new&action=edit&section=4 "Edit section: Global replacements")] Global replacements
+### Global replacements
 
 Overloads ([1-8](operator_new.html#Version_1)) are [replaceable](../../language/replacement_function.html "cpp/language/replacement function"). The effects of the default versions are: 
 
@@ -513,7 +513,7 @@ The standard library's non-allocating placement forms of `operator new` ([9,10](
 The placement form void* operator new([std::size_t](../../types/size_t.html), [std::size_t](../../types/size_t.html)) is not allowed because the matching signature of the deallocation function, void [operator delete](operator_delete.html)(void*, [std::size_t](../../types/size_t.html)), is a usual (not placement) deallocation function.  | (since C++14)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/new/operator_new&action=edit&section=5 "Edit section: Class-specific overloads")] Class-specific overloads
+### Class-specific overloads
 
 Both single-object and array allocation functions may be defined as public static member functions of a class (versions ([15-18](operator_new.html#Version_15))). If defined, these allocation functions are called by new expressions to allocate memory for single objects and arrays of this class, unless the new expression used the form ::new which bypasses class-scope lookup. The keyword [`static`](../../keywords/static.html "cpp/keyword/static") is optional for these functions: whether used or not, the allocation function is a static member function. 
 
@@ -611,7 +611,7 @@ Output:
 
 If class-level `operator new` is a template function, it must have the return type of void*, the first argument [std::size_t](../../types/size_t.html "cpp/types/size t"), and it must have two or more parameters. In other words, only placement forms can be templates. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/new/operator_new&action=edit&section=6 "Edit section: Notes")] Notes
+### Notes
 
 Even though the non-allocating placement new ([9,10](operator_new.html#Version_9)) cannot be replaced, a function with the same signature may be defined at class scope as described above. In addition, global overloads that look like placement new but take a non-void pointer type as the second argument are allowed, so the code that wants to ensure that the true placement new is called (e.g. [std::allocator::construct](../allocator/construct.html "cpp/memory/allocator/construct")), must use ::new and also cast the pointer to void*. 
 
@@ -640,7 +640,7 @@ For loading a large file, file mapping via OS-specific functions, e.g., [`mmap`]
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/new/operator_new&action=edit&section=7 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -660,7 +660,7 @@ change accordingly
 [LWG 404](https://cplusplus.github.io/LWG/issue404) | C++98  | replacements of the replaceable allocation  
 functions could be declared inline | prohibited, no diagnostic required   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/new/operator_new&action=edit&section=8 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -732,22 +732,22 @@ functions could be declared inline | prohibited, no diagnostic required
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/new/operator_new&action=edit&section=9 "Edit section: See also")] See also
+### See also
 
 [ operator new](../../coroutine/generator/promise_type/operator_new.html "cpp/coroutine/generator/promise type/operator new")[static] (C++23) |  allocates memory using `Allocator`   
-(public static member function of `std::generator<Ref,V,Allocator>::promise_type`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/coroutine/generator/promise_type/dsc_operator_new&action=edit)  
+(public static member function of `std::generator<Ref,V,Allocator>::promise_type`)   
 ---|---  
 [ operator deleteoperator delete[]](operator_delete.html "cpp/memory/new/operator delete") |  deallocation functions   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/new/dsc_operator_delete&action=edit)  
+(function)   
 [ get_new_handler](get_new_handler.html "cpp/memory/new/get new handler")(C++11) |  obtains the current new handler   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/new/dsc_get_new_handler&action=edit)  
+(function)   
 [ set_new_handler](set_new_handler.html "cpp/memory/new/set new handler") |  registers a new handler   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/new/dsc_set_new_handler&action=edit)  
+(function)   
 [ get_temporary_buffer](../get_temporary_buffer.html "cpp/memory/get temporary buffer")(deprecated in C++17)(removed in C++20) |  obtains uninitialized storage   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_get_temporary_buffer&action=edit)  
+(function template)   
 [ malloc](../c/malloc.html "cpp/memory/c/malloc") |  allocates memory   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/c/dsc_malloc&action=edit)  
+(function)   
 [ aligned_alloc](../c/aligned_alloc.html "cpp/memory/c/aligned alloc")(C++17) |  allocates aligned memory   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/c/dsc_aligned_alloc&action=edit)
+(function) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

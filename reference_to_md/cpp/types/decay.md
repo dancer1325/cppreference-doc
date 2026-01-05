@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Metaprogramming library](../meta.html "cpp/meta")
 
@@ -167,7 +167,7 @@ Type transformations
 Compile-time integer sequences  
 [integer_sequence](../utility/integer_sequence.html "cpp/utility/integer sequence")(C++14)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/meta/navbar_content&action=edit)
+
 
 Defined in header `[<type_traits>](../header/type_traits.html "cpp/header/type traits")` |  |   
 ---|---|---  
@@ -200,20 +200,20 @@ If the program adds specializations for `std::decay`, the behavior is undefined.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/decay&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Name  |  Definition   
 ---|---  
 `type` |  the result of applying the decay type conversions to `T`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/decay&action=edit&section=2 "Edit section: Helper types")] Helper types
+### Helper types
 
 template< class T >  
 using decay_t = typename decay<T>::type; |  |  (since C++14)  
 ---|---|---  
 | |   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/decay&action=edit&section=3 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     template<class T>
@@ -235,7 +235,7 @@ using decay_t = typename decay<T>::type; |  |  (since C++14)
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/decay&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -261,9 +261,9 @@ Run this code
      
     int main() {}
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/decay&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ remove_cvref](remove_cvref.html "cpp/types/remove cvref")(C++20) |  combines [std::remove_cv](remove_cv.html "cpp/types/remove cv") and [std::remove_reference](remove_reference.html "cpp/types/remove reference")   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_remove_cvref&action=edit)  
+(class template)   
 ---|---  
 [`implicit conversion`](../language/implicit_cast.html "cpp/language/implicit cast") |  array-to-pointer, function-to-pointer, lvalue-to-rvalue conversions 

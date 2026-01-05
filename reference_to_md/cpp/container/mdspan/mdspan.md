@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -71,7 +71,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::mdspan`](../mdspan.html "cpp/container/mdspan")
 
@@ -120,7 +120,7 @@ Tables
 [submdspan_mapping_result](submdspan_mapping_result.html "cpp/container/mdspan/submdspan mapping result")(C++26)  
 [Deduction guides](deduction_guides.html "cpp/container/mdspan/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/navbar_content&action=edit)
+
 
 constexpr mdspan(); |  (1) | (since C++23)  
 ---|---|---  
@@ -160,7 +160,7 @@ Constructs an `mdspan`, optionally using user-supplied data handle p, layout map
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/mdspan&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 p  |  \-  |  a handle to the underlying data   
 ---|---|---  
@@ -171,7 +171,7 @@ exts  |  \-  |  represents a multi-dimensional extents
 other  |  \-  |  another mdspan to convert from   
 rhs  |  \-  |  another mdspan to copy or move from   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/mdspan&action=edit&section=2 "Edit section: Effects")] Effects
+### Effects
 
 For the data members listed in the table below: 
 
@@ -192,7 +192,7 @@ Overload  | Initializer for...
 ([7](mdspan.html#Version_7)) | a  
 ([8](mdspan.html#Version_8)) | other.`_[ptr_](../mdspan.html#ptr "cpp/container/mdspan")_` | other.`_[map_](../mdspan.html#map "cpp/container/mdspan")_` | other.`_[acc_](../mdspan.html#acc "cpp/container/mdspan")_`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/mdspan&action=edit&section=3 "Edit section: Constraints and supplement information")] Constraints and supplement information
+### Constraints and supplement information
 
 1) This overload participates in overload resolution only if all following values are true: 
 
@@ -276,13 +276,13 @@ If static_extent(r) == [std::dynamic_extent](../span/dynamic_extent.html)
 
 | (since C++26)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/mdspan&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/mdspan&action=edit&section=5 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -294,7 +294,7 @@ Reason: no example
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/mdspan&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 | This section is incomplete   
 ---|---

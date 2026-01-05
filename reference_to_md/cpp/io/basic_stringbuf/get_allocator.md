@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_stringbuf`](../basic_stringbuf.html "cpp/io/basic stringbuf")
 
@@ -101,7 +101,7 @@ Non-member functions
 Exposition-only member functions  
 [basic_stringbuf::_init_buf_ptrs_](init_buf_ptrs.html "cpp/io/basic stringbuf/init buf ptrs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_stringbuf/navbar_content&action=edit)
+
 
 allocator_type get_allocator() const noexcept; |  |  (since C++20)  
 ---|---|---  
@@ -109,16 +109,16 @@ allocator_type get_allocator() const noexcept; |  |  (since C++20)
   
 Returns the allocator associated with the internal sequence container. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_stringbuf/get_allocator&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_stringbuf/get_allocator&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 the associated allocator 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_stringbuf/get_allocator&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ get_allocator](../../string/basic_string/get_allocator.html "cpp/string/basic string/get allocator") |  returns the associated allocator   
-(public member function of `std::basic_string<CharT,Traits,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_get_allocator&action=edit)  
+(public member function of `std::basic_string<CharT,Traits,Allocator>`)   
 ---|---

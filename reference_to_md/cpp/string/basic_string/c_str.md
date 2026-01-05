@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Strings library](../../string.html "cpp/string")
 
@@ -40,7 +40,7 @@ Classes
 [basic_string_view](../basic_string_view.html "cpp/string/basic string view")(C++17)  
 [char_traits](../char_traits.html "cpp/string/char traits")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/navbar_content&action=edit)
+
 
 [`std::basic_string`](../basic_string.html "cpp/string/basic string")
 
@@ -133,7 +133,7 @@ basic_string_view](operator_basic_string_view.html "cpp/string/basic string/oper
 [hash<std::basic_string>](hash.html "cpp/string/basic string/hash")(C++11)  
 [Deduction guides](deduction_guides.html "cpp/string/basic string/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/navbar_content&action=edit)
+
 
 const CharT* c_str() const; |  | (noexcept since C++11)   
 (constexpr since C++20)  
@@ -168,11 +168,11 @@ Writing to the character array accessed through `c_str()` is undefined behavior.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/c_str&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/c_str&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Pointer to the underlying character storage. 
 
@@ -180,15 +180,15 @@ c_str()[i] == operator[](i) for every `i` in `[`​0​`, `size()`)`.  | (until 
 ---|---  
 c_str() + i == [std::addressof](../../memory/addressof.html)(operator[](i)) for every `i` in `[`​0​`, `size()`]`.  | (since C++11)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/c_str&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Constant. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/c_str&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 The pointer obtained from `c_str()` may only be treated as a pointer to a null-terminated character string if the string object does not contain other null characters. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/c_str&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -220,12 +220,12 @@ Output:
     
     c_func called with 'Emplary'
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/c_str&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ front](front.html "cpp/string/basic string/front")(DR*) |  accesses the first character   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_front&action=edit)  
+(public member function)   
 ---|---  
 [ back](back.html "cpp/string/basic string/back")(DR*) |  accesses the last character   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_back&action=edit)  
+(public member function)   
 [ data](data.html "cpp/string/basic string/data") |  returns a pointer to the first character of a string   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_data&action=edit)
+(public member function) 

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header was originally in the C standard library as [`<uchar.h>`](../../c/header/uchar.html "c/header/uchar"). 
 
@@ -222,26 +222,26 @@ __STDC_UTF_32__(C++11) |  indicates that UTF-32 encoding is used by mbrtoc32 and
 ###  Types  
   
 [ mbstate_t](../string/multibyte/mbstate_t.html "cpp/string/multibyte/mbstate t") |  conversion state information necessary to iterate multibyte character strings   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/dsc_mbstate_t&action=edit)  
+(class)   
 [ size_t](../types/size_t.html "cpp/types/size t") |  unsigned integer type returned by the [`sizeof`](../language/sizeof.html "cpp/language/sizeof") operator   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_size_t&action=edit)  
+(typedef)   
   
 ###  Functions  
   
 [ mbrtoc16](../string/multibyte/mbrtoc16.html "cpp/string/multibyte/mbrtoc16")(C++11) |  converts a narrow multibyte character to UTF-16 encoding   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/dsc_mbrtoc16&action=edit)  
+(function)   
 [ c16rtomb](../string/multibyte/c16rtomb.html "cpp/string/multibyte/c16rtomb")(C++11) |  converts a UTF-16 character to narrow multibyte encoding   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/dsc_c16rtomb&action=edit)  
+(function)   
 [ mbrtoc32](../string/multibyte/mbrtoc32.html "cpp/string/multibyte/mbrtoc32")(C++11) |  converts a narrow multibyte character to UTF-32 encoding   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/dsc_mbrtoc32&action=edit)  
+(function)   
 [ c32rtomb](../string/multibyte/c32rtomb.html "cpp/string/multibyte/c32rtomb")(C++11) |  converts a UTF-32 character to narrow multibyte encoding   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/dsc_c32rtomb&action=edit)  
+(function)   
 [ mbrtoc8](../string/multibyte/mbrtoc8.html "cpp/string/multibyte/mbrtoc8")(C++20) |  converts a narrow multibyte character to UTF-8 encoding   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/dsc_mbrtoc8&action=edit)  
+(function)   
 [ c8rtomb](../string/multibyte/c8rtomb.html "cpp/string/multibyte/c8rtomb")(C++20) |  converts UTF-8 string to narrow multibyte encoding   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/dsc_c8rtomb&action=edit)  
+(function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/cuchar&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     namespace std {

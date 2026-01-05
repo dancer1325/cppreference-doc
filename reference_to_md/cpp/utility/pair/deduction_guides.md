@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::pair`](../pair.html "cpp/utility/pair")
 
@@ -151,7 +151,7 @@ Common vocabulary types
 [piecewise_construct_t](../piecewise_construct.html "cpp/utility/piecewise construct")(C++11)  
 **Deduction guides**(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/pair/navbar_content&action=edit)
+
 
 Defined in header `[<utility>](../../header/utility.html "cpp/header/utility")` |  |   
 ---|---|---  
@@ -161,7 +161,7 @@ pair(T1, T2) -> pair<T1, T2>; |  |  (since C++17)
   
 One [deduction guide](../../language/ctad.html "cpp/language/class template argument deduction") is provided for [std::pair](../pair.html "cpp/utility/pair") to account for the edge cases missed by the implicit deduction guides, in particular, non-copyable arguments and array to pointer conversion. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/pair/deduction_guides&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
 Run this code
     

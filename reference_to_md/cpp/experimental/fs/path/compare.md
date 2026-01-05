@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Filesystem library](../../fs.html "cpp/experimental/fs")
 
@@ -124,7 +124,7 @@ File types
 [filesystem::is_socket](../is_socket.html "cpp/experimental/fs/is socket")  
 [filesystem::is_symlink](../is_symlink.html "cpp/experimental/fs/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/navbar_content&action=edit)
+
 
 [`path`](../path.html "cpp/experimental/fs/path")
 
@@ -174,7 +174,7 @@ Non-member functions
 [operator<<operator>>](operator_ltltgtgt.html "cpp/experimental/fs/path/operator ltltgtgt")  
 [u8path](u8path.html "cpp/experimental/fs/path/u8path")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/path/navbar_content&action=edit)
+
 
 int compare( const path& p ) const noexcept; |  (1)  |  (filesystem TS)  
 ---|---|---  
@@ -202,14 +202,14 @@ Compares the lexical representations of the path and another path.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/path/compare&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 p  |  \-  |  a path to compare to   
 ---|---|---  
 str  |  \-  |  a string representing path to compare to   
 s  |  \-  |  a null-terminated string representing path to compare to   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/path/compare&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 A value less than 0 if the path is lexicographically less than the given path. 
 
@@ -217,15 +217,15 @@ A value equal to 0 if the path is lexicographically equal to the given path.
 
 A value greater than 0 if the path is lexicographically greater than the given path. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/path/compare&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 2,3) May throw implementation-defined exceptions.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/path/compare&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 For two-way comparisons, [binary operators](operator_cmp.html "cpp/experimental/fs/path/operator cmp") may be more suitable. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/path/compare&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -258,8 +258,8 @@ Output:
     "/a/b/" > "/a/b/#"
     "/a/b/" < "a/b/_"
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/path/compare&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ operator==operator!=operator<operator<=operator>operator>=](operator_cmp.html "cpp/experimental/fs/path/operator cmp") |  lexicographically compares two paths   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/path/dsc_operator_cmp&action=edit)  
+(function)   
 ---|---

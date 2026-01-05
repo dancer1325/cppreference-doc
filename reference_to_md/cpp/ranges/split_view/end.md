@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::split_view`](../split_view.html "cpp/ranges/split view")
 
@@ -240,7 +240,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
 [split_view::_sentinel_](sentinel.html "cpp/ranges/split view/sentinel")  
 [Deduction guides](deduction_guides.html "cpp/ranges/split view/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/split_view/navbar_content&action=edit)
+
 
 constexpr auto end() const; |  |  (since C++20)  
 ---|---|---  
@@ -256,11 +256,11 @@ else
 return` `[` _sentinel_`](sentinel.html "cpp/ranges/split view/sentinel"){*this};  
 }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/split_view/end&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 An [iterator](iterator.html "cpp/ranges/split view/iterator") or a [sentinel](sentinel.html "cpp/ranges/split view/sentinel"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/split_view/end&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -276,12 +276,12 @@ Run this code
         [assert](../../error/assert.html)(4 == std::[ranges::distance](../../iterator/ranges/distance.html)(kw.begin(), kw.end()));
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/split_view/end&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ begin](begin.html "cpp/ranges/split view/begin") |  returns an iterator to the beginning   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/dsc_begin&action=edit)  
+(public member function)   
 ---|---  
 [ end](../lazy_split_view/end.html "cpp/ranges/lazy split view/end") |  returns an iterator or a sentinel to the end   
-(public member function of `std::ranges::lazy_split_view<V,Pattern>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/dsc_end&action=edit)  
+(public member function of `std::ranges::lazy_split_view<V,Pattern>`)   
 [ ranges::end](../end.html "cpp/ranges/end")(C++20) |  returns a sentinel indicating the end of a range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_end&action=edit)
+(customization point object)

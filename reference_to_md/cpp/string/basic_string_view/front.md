@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Strings library](../../string.html "cpp/string")
 
@@ -40,7 +40,7 @@ Classes
 [basic_string_view](../basic_string_view.html "cpp/string/basic string view")(C++17)  
 [char_traits](../char_traits.html "cpp/string/char traits")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/navbar_content&action=edit)
+
 
 [`std::basic_string_view`](../basic_string_view.html "cpp/string/basic string view")
 
@@ -92,7 +92,7 @@ Constants
 [hash<std::string_view>hash<std::wstring_view>hash<std::u8string_view>hash<std::u16string_view>hash<std::u32string_view>](hash.html "cpp/string/basic string view/hash")(C++20)  
 [Deduction guides](deduction_guides.html "cpp/string/basic string view/deduction guides") (C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/navbar_content&action=edit)
+
 
 constexpr const_reference front() const; |  |  (since C++17)  
 ---|---|---  
@@ -119,15 +119,15 @@ If [empty()](empty.html "cpp/string/basic string view/empty") is true:
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string_view/front&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 `_[data_](../basic_string_view.html#data "cpp/string/basic string view")_`[0]
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string_view/front&action=edit&section=2 "Edit section: Complexity")] Complexity
+### Complexity
 
 Constant. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string_view/front&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -151,12 +151,12 @@ Output:
     E EF
     F F
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string_view/front&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ back](back.html "cpp/string/basic string view/back") |  accesses the last character   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/dsc_back&action=edit)  
+(public member function)   
 ---|---  
 [ empty](empty.html "cpp/string/basic string view/empty") |  checks whether the view is empty   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/dsc_empty&action=edit)  
+(public member function)   
 [ front](../basic_string/front.html "cpp/string/basic string/front")(DR*) |  accesses the first character   
-(public member function of `std::basic_string<CharT,Traits,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_front&action=edit)
+(public member function of `std::basic_string<CharT,Traits,Allocator>`) 

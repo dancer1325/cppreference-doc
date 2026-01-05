@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Filesystem library](../../filesystem.html "cpp/filesystem")
 
@@ -100,7 +100,7 @@ filesystem::symlink_status](../status.html "cpp/filesystem/status")
 [filesystem::is_socket](../is_socket.html "cpp/filesystem/is socket")  
 [filesystem::is_symlink](../is_symlink.html "cpp/filesystem/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/navbar_content&action=edit)
+
 
 [`filesystem_error`](../filesystem_error.html "cpp/filesystem/filesystem error")
 
@@ -113,7 +113,7 @@ Member functions
 Inherited from [std::system_error](../../error/system_error.html "cpp/error/system error")  
 [system_error::code](../../error/system_error/code.html "cpp/error/system error/code")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/filesystem_error/navbar_content&action=edit)
+
 
 const [std::filesystem::path](../path.html)& path1() const noexcept; |  |  (since C++17)  
 ---|---|---  
@@ -122,15 +122,15 @@ const [std::filesystem::path](../path.html)& path2() const noexcept; |  |  (sinc
   
 Returns the paths that were stored in the exception object. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/filesystem_error/path&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/filesystem_error/path&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 References to the copy of the `path` parameters stored by the constructor. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/filesystem_error/path&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     

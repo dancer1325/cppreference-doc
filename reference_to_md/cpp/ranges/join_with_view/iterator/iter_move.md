@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::join_with_view`](../../join_with_view.html "cpp/ranges/join with view")
 
@@ -251,7 +251,7 @@ join_with_view::_iterator_ ::operator--(int)](operator_arith.html "cpp/ranges/jo
 [join_with_view::_sentinel_ ::_sentinel_](../sentinel/sentinel.html "cpp/ranges/join with view/sentinel/sentinel")  
 [operator==(join_with_view::_sentinel_)](../sentinel/operator_cmp.html "cpp/ranges/join with view/sentinel/operator cmp")(C++23)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/join_with_view/navbar_content&action=edit)
+
 
 friend constexpr decltype(auto) iter_move( const /*iterator*/& i ); |  |  (since C++23)  
 ---|---|---  
@@ -261,18 +261,18 @@ Returns the result of applying [ranges::iter_move](../../../iterator/ranges/iter
 
 This function is not visible to ordinary [unqualified](../../../language/unqualified_lookup.html "cpp/language/unqualified lookup") or [qualified lookup](../../../language/qualified_lookup.html "cpp/language/qualified lookup"), and can only be found by [argument-dependent lookup](../../../language/adl.html "cpp/language/adl") when `join_with_view::_iterator_` ﻿`<Const>` is an associated class of the arguments. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/join_with_view/iterator/iter_move&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 i  |  \-  |  iterator   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/join_with_view/iterator/iter_move&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 [std::visit](../../../utility/variant/visit.html)<rvalue_reference>([ranges::iter_move](../../../iterator/ranges/iter_move.html), x.`_[inner_it_](../iterator.html#inner_it "cpp/ranges/join with view/iterator")_`), where `rvalue_reference` is [std::common_reference_t](../../../types/common_reference.html)<[ranges::range_rvalue_reference_t](../../range_reference_t.html)<`_[InnerBase](../iterator.html#InnerBase "cpp/ranges/join with view/iterator")_` ﻿>,  
 ` `[ranges::range_rvalue_reference_t](../../range_reference_t.html)<`_[PatternBase](../iterator.html#PatternBase "cpp/ranges/join with view/iterator")_` ﻿>>. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/join_with_view/iterator/iter_move&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ iter_move](../../../iterator/ranges/iter_move.html "cpp/iterator/ranges/iter move")(C++20) |  casts the result of dereferencing an object to its associated rvalue reference type  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/ranges/dsc_iter_move&action=edit)  
+(customization point object)  
 ---|---

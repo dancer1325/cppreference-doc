@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [Declarations](declarations.html "cpp/language/declarations")
 
@@ -280,7 +280,7 @@ Other declarations
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/declarations/navbar_content&action=edit)
+
 
 [ Expressions](expressions.html "cpp/language/expressions")
 
@@ -349,7 +349,7 @@ Conversions
 [`dynamic_cast`](dynamic_cast.html "cpp/language/dynamic cast")  
 [`reinterpret_cast`](reinterpret_cast.html "cpp/language/reinterpret cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/expressions/navbar_content&action=edit)
+
 
 [ Templates](templates.html "cpp/language/templates")
 
@@ -373,7 +373,7 @@ Conversions
 [Constraints and concepts](constraints.html "cpp/language/constraints") (C++20)  
 [requires expression](requires.html "cpp/language/requires") (C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/templates/navbar_content&action=edit)
+
 
 Template declarations ([class](class_template.html "cpp/language/class template"), [function](function_template.html "cpp/language/function template"), and [variables](variable_template.html "cpp/language/variable template")(since C++14)) can appear inside a [member specification](class.html "cpp/language/class") of any class, struct, or union that are not [local classes](class.html#Local_classes "cpp/language/class"). 
 
@@ -447,7 +447,7 @@ If the enclosing class declaration is, in turn, a class template, when a member 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/member_template&action=edit&section=1 "Edit section: Member function templates")] Member function templates
+### Member function templates
 
 [Destructors](destructor.html "cpp/language/destructor") and [copy constructors](copy_constructor.html "cpp/language/copy constructor") cannot be templates. If a template constructor is declared which could be instantiated with the type signature of a copy constructor, the [implicitly-declared copy constructor](copy_constructor.html#Implicitly-declared_copy_constructor "cpp/language/copy constructor") is used instead. 
 
@@ -519,7 +519,7 @@ An out-of-class definition of a member function template must be _equivalent_ to
     template<class T>
     T X::bad(typename identity<T>::type n) { return n; }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/member_template&action=edit&section=2 "Edit section: Conversion function templates")] Conversion function templates
+### Conversion function templates
 
 A user-defined [conversion function](cast_operator.html "cpp/language/cast operator") can be a template. 
     
@@ -568,7 +568,7 @@ A user-defined conversion function template cannot have a deduced return type:
 A variable template declaration may appear at class scope, in which case it declares a static data member template. See [variable templates](variable_template.html "cpp/language/variable template") for details.  | (since C++14)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/member_template&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

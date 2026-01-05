@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Initialization](initialization.html "cpp/language/initialization")
 
@@ -244,7 +244,7 @@ Miscellaneous
 [Member initializer list](initializer_list.html "cpp/language/initializer list")  
 [Default member initializer](data_members.html#Member_initialization "cpp/language/data members") (C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/initialization/navbar_content&action=edit)
+
 
 Sets the initial values of the [static](storage_duration.html "cpp/language/storage duration") variables to a compile-time constant. 
 
@@ -259,7 +259,7 @@ Sets the initial values of the [static](storage_duration.html "cpp/language/stor
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/constant_initialization&action=edit&section=1 "Edit section: Explanation")] Explanation
+### Explanation
 
 _Constant initialization_ is performed in the following cases: 
 
@@ -315,13 +315,13 @@ _Constant initialization_ is performed in the following cases:
   
 The effects of constant initialization are the same as the effects of the corresponding initialization, except that it is guaranteed that it is complete before any other initialization of a static or thread-local(since C++11) object begins. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/constant_initialization&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 The compiler is permitted to initialize other static and thread-local(since C++11) objects using constant initialization, if it can guarantee that the value would be the same as if the standard order of initialization was followed. 
 
 Constant initialization usually happens when the program loads into memory, as part of initializing the program's runtime environment. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/constant_initialization&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -350,7 +350,7 @@ Output:
     
     d = 50
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/constant_initialization&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -362,7 +362,7 @@ an object can be a constant initialization  | it can
 [CWG 1747](https://cplusplus.github.io/CWG/issues/1747.html) | C++11  | binding a reference to a function could not be constant initialization  | it can   
 [CWG 1834](https://cplusplus.github.io/CWG/issues/1834.html) | C++11  | binding a reference to an xvalue could not be constant initialization  | it can   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/constant_initialization&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
   * [`constinit`](constinit.html "cpp/language/constinit")
   * [`constexpr`](constexpr.html "cpp/language/constexpr")

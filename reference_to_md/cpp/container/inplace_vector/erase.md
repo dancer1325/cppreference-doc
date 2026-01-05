@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::inplace_vector`](../inplace_vector.html "cpp/container/inplace vector")
 
@@ -134,7 +134,7 @@ Tables
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/inplace_vector/navbar_content&action=edit)
+
 
 constexpr iterator erase( const_iterator pos ); |  (1)  |  (since C++26)  
 ---|---|---  
@@ -166,7 +166,7 @@ The iterator first does not need to be dereferenceable if first == last: erasing
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/erase&action=edit&section=T-1 "Template:cpp/container/erase")] Parameters
+### Parameters
 
 pos  |  \-  |  iterator to the element to remove   
 ---|---|---  
@@ -174,7 +174,7 @@ first, last  |  \-  |  the pair of iterators defining the [range](../../iterator
 Type requirements   
 -If `T` is not [MoveAssignable](../../named_req/MoveAssignable.html "cpp/named req/MoveAssignable"), the behavior is undefined.   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/erase&action=edit&section=T-2 "Template:cpp/container/erase")] Return value
+### Return value
 
 Iterator following the last removed element. 
 
@@ -188,15 +188,15 @@ If `[`first`, `last`)` is an empty range, then last is returned.
 
 Does not throw unless an exception is thrown by the assignment operator of `T`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/erase&action=edit&section=T-4 "Template:cpp/container/erase")] Complexity
+### Complexity
 
 Linear: the number of calls to the destructor of `T` is the same as the number of elements erased, the assignment operator of `T` is called the number of times equal to the number of elements in the vector after the erased elements. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/erase&action=edit&section=T-5 "Template:cpp/container/erase")] Notes
+### Notes
 
 When container elements need to be erased based on a predicate, rather than iterating the container and calling unary `erase`, the iterator range overload is generally used with [`std::remove()/std::remove_if()`](../../algorithm/remove.html "cpp/algorithm/remove") to minimise the number of moves of the remaining (non-removed) elements, — this is the erase-remove idiom. [`std::erase_if()`](erase2.html "cpp/container/inplace vector/erase2") replaces the erase-remove idiom. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/erase&action=edit&section=T-6 "Template:cpp/container/erase")] Example
+### Example
 
 Run this code
     
@@ -232,10 +232,10 @@ Output:
     [1, 2, 6, 7, 8, 9]
     [1, 7, 9]
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/erase&action=edit&section=T-8 "Template:cpp/container/erase")] See also
+### See also
 
 [ erase(std::inplace_vector)erase_if(std::inplace_vector)](erase2.html "cpp/container/inplace vector/erase2")(C++26) |  erases all elements satisfying specific criteria   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_erase_seq&action=edit)  
+(function template)   
 ---|---  
 [ clear](clear.html "cpp/container/inplace vector/clear") |  clears the contents   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_clear&action=edit)
+(public member function) 

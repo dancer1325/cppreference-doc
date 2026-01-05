@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header is part of the [utility](../utility.html "cpp/utility") library. 
 
@@ -202,16 +202,16 @@ This header is part of the [utility](../utility.html "cpp/utility") library.
   
 ---  
 [ source_location](../utility/source_location.html "cpp/utility/source location")(C++20) |  a class representing information about the source code, such as file names, line numbers, and function names   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_source_location&action=edit)  
+(class)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/source_location&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     namespace std {
       struct source_location;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/source_location&action=edit&section=T-1 "Template:cpp/synopsis/source location")] Class [std::source_location](../utility/source_location.html "cpp/utility/source location")
+#### Class [std::source_location](../utility/source_location.html "cpp/utility/source location")
     
     
     namespace std {

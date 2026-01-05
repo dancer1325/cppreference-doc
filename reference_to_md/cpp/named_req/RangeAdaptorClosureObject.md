@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ named requirements](../iterator/concepts.html "cpp/named req")
 
@@ -147,7 +147,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/named_req/navbar_content&action=edit)
+
 
 _Range adaptor closure objects_ are [FunctionObjects](FunctionObject.html "cpp/named req/FunctionObject") that are callable via the pipe operator: if C is a range adaptor closure object and R is a [`range`](../ranges/range.html "cpp/ranges/range"), these two expressions are [equivalent](../language/expressions.html#Expression-equivalence "cpp/language/expressions"): 
     
@@ -186,8 +186,8 @@ Objects whose type is the same as one of the following objects (ignoring cv-qual
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/RangeAdaptorClosureObject&action=edit&section=1 "Edit section: See also")] See also
+### See also
 
 [ ranges::range_adaptor_closure](../ranges/range_adaptor_closure.html "cpp/ranges/range adaptor closure")(C++23) |  helper base class template for defining a range adaptor closure object   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_range_adaptor_closure&action=edit)  
+(class template)   
 ---|---

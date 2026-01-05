@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](ranges/copy.html "cpp/algorithm/ra
 [uninitialized_default_construct_n](../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -355,7 +355,7 @@ If the output range overlaps with `[`first1`, `last1`)` or `[`first2`, `last2`)`
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/set_union&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first1, last1  |  \-  |  the pair of iterators defining the first input sorted [range](../iterator.html#Ranges "cpp/iterator") of elements   
 ---|---|---  
@@ -371,11 +371,11 @@ Type requirements
 -`OutputIt` must meet the requirements of [LegacyOutputIterator](../named_req/OutputIterator.html "cpp/named req/OutputIterator").   
 -`Compare` must meet the requirements of [Compare](../named_req/Compare.html "cpp/named req/Compare").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/set_union&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Iterator past the end of the constructed range. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/set_union&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Given \\(\scriptsize N_1\\)N1 as [std::distance](../iterator/distance.html)(first1, last1) and \\(\scriptsize N_2\\)N2 as [std::distance](../iterator/distance.html)(first2, last2): 
 
@@ -383,7 +383,7 @@ Given \\(\scriptsize N_1\\)N1 as [std::distance](../iterator/distance.html)(firs
 
 3,4) At most \\(\scriptsize 2 \cdot (N_1+N_2)-1\\)2⋅(N1+N2)-1 applications of the comparison function comp.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/set_union&action=edit&section=4 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 The overloads with a template parameter named `ExecutionPolicy` report errors as follows: 
 
@@ -392,7 +392,7 @@ The overloads with a template parameter named `ExecutionPolicy` report errors as
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/set_union&action=edit&section=5 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
 
 [set_union (1)](set_union.html#Version_1)  
 ---  
@@ -447,11 +447,11 @@ The overloads with a template parameter named `ExecutionPolicy` report errors as
         return [std::copy](copy.html)(first2, last2, d_first);
     }  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/set_union&action=edit&section=6 "Edit section: Notes")] Notes
+### Notes
 
 This algorithm performs a similar task as [std::merge](merge.html "cpp/algorithm/merge") does. Both consume two sorted input ranges and produce a sorted output with elements from both inputs. The difference between these two algorithms is with handling values from both input ranges which compare equivalent (see notes on [LessThanComparable](../named_req/LessThanComparable.html "cpp/named req/LessThanComparable")). If any equivalent values appeared n times in the first range and m times in the second, [std::merge](merge.html "cpp/algorithm/merge") would output all n + m occurrences whereas `std::set_union` would output [std::max](max.html)(n, m) ones only. So `std::merge` outputs exactly [std::distance](../iterator/distance.html)(first1, last1) + [std::distance](../iterator/distance.html)(first2, last2) values and `std::set_union` may produce fewer. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/set_union&action=edit&section=7 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -497,7 +497,7 @@ Output:
     1 2 3 4 5 6 7 
     1 2 3 4 5 5 5 6 7
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/set_union&action=edit&section=8 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -505,18 +505,18 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 291](https://cplusplus.github.io/LWG/issue291) | C++98  | it was unspecified how to handle equivalent elements in the input ranges  | specified   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/set_union&action=edit&section=9 "Edit section: See also")] See also
+### See also
 
 [ includes](includes.html "cpp/algorithm/includes") |  returns true if one sequence is a subsequence of another   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_includes&action=edit)  
+(function template)   
 ---|---  
 [ merge](merge.html "cpp/algorithm/merge") |  merges two sorted ranges   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_merge&action=edit)  
+(function template)   
 [ set_difference](set_difference.html "cpp/algorithm/set difference") |  computes the difference between two sets   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_set_difference&action=edit)  
+(function template)   
 [ set_intersection](set_intersection.html "cpp/algorithm/set intersection") |  computes the intersection of two sets   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_set_intersection&action=edit)  
+(function template)   
 [ set_symmetric_difference](set_symmetric_difference.html "cpp/algorithm/set symmetric difference") |  computes the symmetric difference between two sets   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_set_symmetric_difference&action=edit)  
+(function template)   
 [ ranges::set_union](ranges/set_union.html "cpp/algorithm/ranges/set union")(C++20) |  computes the union of two sets  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_set_union&action=edit)
+(algorithm function object)

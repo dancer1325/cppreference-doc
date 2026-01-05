@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -71,7 +71,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::span`](../span.html "cpp/container/span")
 
@@ -104,7 +104,7 @@ Tables
 **dynamic_extent**  
 [Deduction guides](deduction_guides.html "cpp/container/span/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/span/navbar_content&action=edit)
+
 
 Defined in header `[<span>](../../header/span.html "cpp/header/span")` |  |   
 ---|---|---  
@@ -129,7 +129,7 @@ It is being used in several contexts:
 | (since C++26)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/span/dynamic_extent&action=edit&section=1 "Edit section: Note")] Note
+### Note
 
 Since [std::size_t](../../types/size_t.html "cpp/types/size t") is an unsigned type, an equivalent definition is: 
     
@@ -138,7 +138,7 @@ Since [std::size_t](../../types/size_t.html "cpp/types/size t") is an unsigned t
 
 See [integral conversions](../../language/implicit_cast.html#Integral_conversions "cpp/language/implicit conversion"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/span/dynamic_extent&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -187,10 +187,10 @@ Output:
     span3, static extent = 5
     span4, dynamic extent
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/span/dynamic_extent&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ span](../span.html "cpp/container/span")(C++20) |  a non-owning view over a contiguous sequence of objects   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_span&action=edit)  
+(class template)   
 ---|---  
 [ extents](../mdspan/extents.html "cpp/container/mdspan/extents")(C++23) |  a descriptor of a multidimensional index space of some rank   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/dsc_extents&action=edit)
+(class template) 

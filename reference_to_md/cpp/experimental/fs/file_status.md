@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Filesystem library](../fs.html "cpp/experimental/fs")
 
@@ -124,7 +124,7 @@ File types
 [filesystem::is_socket](is_socket.html "cpp/experimental/fs/is socket")  
 [filesystem::is_symlink](is_symlink.html "cpp/experimental/fs/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/navbar_content&action=edit)
+
 
 Defined in header `[<experimental/filesystem>](../../header/experimental/filesystem.html "cpp/header/experimental/filesystem")` |  |   
 ---|---|---  
@@ -133,16 +133,16 @@ class file_status; |  |  (filesystem TS)
   
 Stores information about the type and permissions of a file. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/file_status&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](file_status/file_status.html "cpp/experimental/fs/file status/file status") |  constructs a `file_status` object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/file_status/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ operator=](file_status/operator=.html "cpp/experimental/fs/file status/operator=") |  assigns contents   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/file_status/dsc_operator%3D&action=edit)  
+(public member function)   
 (destructor) |  implicit destructor   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/file_status/dsc_destructor&action=edit)  
+(public member function)   
 [ type](file_status/type.html "cpp/experimental/fs/file status/type") |  gets or sets the type of the file   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/file_status/dsc_type&action=edit)  
+(public member function)   
 [ permissions](file_status/permissions.html "cpp/experimental/fs/file status/permissions") |  gets or sets the permissions of the file   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/file_status/dsc_permissions&action=edit)
+(public member function) 

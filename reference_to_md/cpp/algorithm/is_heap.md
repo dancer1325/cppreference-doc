@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](ranges/copy.html "cpp/algorithm/ra
 [uninitialized_default_construct_n](../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -338,7 +338,7 @@ These overloads participate in overload resolution only if all following conditi
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/is_heap&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  the pair of iterators defining the [range](../iterator.html#Ranges "cpp/iterator") of elements to be checked   
 ---|---|---  
@@ -350,11 +350,11 @@ Type requirements
 -`RandomIt` must meet the requirements of [LegacyRandomAccessIterator](../named_req/RandomAccessIterator.html "cpp/named req/RandomAccessIterator").   
 -`Compare` must meet the requirements of [Compare](../named_req/Compare.html "cpp/named req/Compare").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/is_heap&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 true if the range is a heap with respect to the corresponding comparator, false otherwise. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/is_heap&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Given \\(\scriptsize N\\)N as [std::distance](../iterator/distance.html)(first, last): 
 
@@ -362,7 +362,7 @@ Given \\(\scriptsize N\\)N as [std::distance](../iterator/distance.html)(first, 
 
 3,4) \\(\scriptsize O(N)\\)O(N) applications of the comparison function comp.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/is_heap&action=edit&section=4 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 The overloads with a template parameter named `ExecutionPolicy` report errors as follows: 
 
@@ -371,7 +371,7 @@ The overloads with a template parameter named `ExecutionPolicy` report errors as
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/is_heap&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -411,18 +411,18 @@ Output:
     after make_heap, v:
     9 | 6 9 | 5 5 9 7 | 1 1 3 5 8 3 4 2 |
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/is_heap&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ is_heap_until](is_heap_until.html "cpp/algorithm/is heap until")(C++11) |  finds the largest subrange that is a max heap   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_is_heap_until&action=edit)  
+(function template)   
 ---|---  
 [ make_heap](make_heap.html "cpp/algorithm/make heap") |  creates a max heap out of a range of elements   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_make_heap&action=edit)  
+(function template)   
 [ push_heap](push_heap.html "cpp/algorithm/push heap") |  adds an element to a max heap   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_push_heap&action=edit)  
+(function template)   
 [ pop_heap](pop_heap.html "cpp/algorithm/pop heap") |  removes the largest element from a max heap   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_pop_heap&action=edit)  
+(function template)   
 [ sort_heap](sort_heap.html "cpp/algorithm/sort heap") |  turns a max heap into a range of elements sorted in ascending order   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_sort_heap&action=edit)  
+(function template)   
 [ ranges::is_heap](ranges/is_heap.html "cpp/algorithm/ranges/is heap")(C++20) |  checks if the given range is a max heap  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_is_heap&action=edit)
+(algorithm function object)

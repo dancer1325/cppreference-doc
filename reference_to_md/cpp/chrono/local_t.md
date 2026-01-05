@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 **`std::chrono::local_t`**
 
@@ -111,7 +111,7 @@ Time point I/O
 [formatter<std::chrono::local_time>](local_t/formatter.html "cpp/chrono/local t/formatter")  
 [from_stream](local_t/from_stream.html "cpp/chrono/local t/from stream")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/local_t/navbar_content&action=edit)
+
 
 Defined in header `[<chrono>](../header/chrono.html "cpp/header/chrono")` |  |   
 ---|---|---  
@@ -130,15 +130,15 @@ using local_seconds = local_time<[std::chrono::seconds](duration.html)>; |  |  (
 using local_days = local_time<[std::chrono::days](duration.html)>; |  |  (since C++20)  
 | |   
 [ operator<<(std::chrono::local_time)](local_t/operator_ltlt.html "cpp/chrono/local t/operator ltlt")(C++20) |  performs stream output on a `local_time`   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_point/dsc_operator_ltlt&action=edit)  
+(function template)   
 ---|---  
 [ from_stream(std::chrono::local_time)](local_t/from_stream.html "cpp/chrono/local t/from stream")(C++20) |  parses a `local_time` from a stream according to the provided format   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_point/dsc_from_stream&action=edit)  
+(function template)   
 [ std::formatter<std::chrono::local_time>](local_t/formatter.html "cpp/chrono/local t/formatter")(C++20) |  formatting support for `local_time`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_formatter&action=edit)  
+(class template specialization)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/local_t&action=edit&section=1 "Edit section: See also")] See also
+### See also
 
 [ zoned_time](zoned_time.html "cpp/chrono/zoned time")(C++20) |  represents a time zone and a time point   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_zoned_time&action=edit)  
+(class)   
 ---|---

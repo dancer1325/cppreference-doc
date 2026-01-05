@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](empty.html "cpp/iterator/empty")(C++17)  
 [data](data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 Defined in header `[<iterator>](../header/iterator.html "cpp/header/iterator")` |  |   
 ---|---|---  
@@ -227,7 +227,7 @@ A program may specialize `disable_sized_sentinel_for` for cv-unqualified non-arr
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/sized_sentinel_for&action=edit&section=1 "Edit section: Semantic requirements")] Semantic requirements
+### Semantic requirements
 
 Let i be an iterator of type `I`, and s a sentinel of type `S` such that `[`i`, `s`)` denotes a range. Let n be the smallest number of applications of ++i necessary to make bool(i == s) be true. `I` and `S` model `sized_sentinel_for<S, I>` only if all following conditions are satisfied: 
 
@@ -236,18 +236,18 @@ Let i be an iterator of type `I`, and s a sentinel of type `S` such that `[`i`, 
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/equality_preservation&action=edit&section=T-1 "Template:cpp/concepts/equality preservation")] Equality preservation
+### Equality preservation
 
 Expressions declared in [requires expressions](../language/requires.html "cpp/language/requires") of the standard library concepts are required to be [equality-preserving](../concepts.html#Equality_preservation "cpp/concepts") (except where stated otherwise). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/implicit_expression_variations&action=edit&section=T-1 "Template:cpp/concepts/implicit expression variations")] Implicit expression variations
+### Implicit expression variations
 
 A [requires expression](../language/requires.html "cpp/language/requires") that uses an expression that is non-modifying for some constant lvalue operand also requires [implicit expression variations](../concepts.html#Implicit_expression_variations "cpp/concepts"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/sized_sentinel_for&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ ranges::sized_range](../ranges/sized_range.html "cpp/ranges/sized range")(C++20) |  specifies that a range knows its size in constant time   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_sized_range&action=edit)  
+(concept)   
 ---|---  
 [ ranges::size](../ranges/size.html "cpp/ranges/size")(C++20) |  returns an integer equal to the size of a range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_size&action=edit)
+(customization point object)

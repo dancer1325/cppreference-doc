@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Classes](classes.html "cpp/language/classes")
 
@@ -261,7 +261,7 @@ Inheritance
 [`override` specifier](override.html "cpp/language/override") (C++11)  
 [`final` specifier](final.html "cpp/language/final") (C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/classes/navbar_content&action=edit)
+
 
 ## Contents
 
@@ -274,7 +274,7 @@ Inheritance
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/this&action=edit&section=1 "Edit section: Syntax")] Syntax  
+### Syntax  
   
 ---  
 `**this**` |  |   
@@ -288,7 +288,7 @@ The expression this is a [prvalue](value_category.html#prvalue "cpp/language/val
 3) Within [default member initializer](data_members.html#Member_initialization "cpp/language/data members"). 4) Within [capture list](lambda.html#Lambda_capture "cpp/language/lambda") of a lambda expression. | (since C++11)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/this&action=edit&section=2 "Edit section: Explanation")] Explanation
+### Explanation
 
 this can only associate with the innermost enclosing class of its appearance, even if the appearance is invalid in the context: 
     
@@ -357,11 +357,11 @@ This can be used in the member function of the reference-counting pointer (for e
         void decRef() { if (--mnRef == 0) delete this; }
     };
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/this&action=edit&section=3 "Edit section: Keywords")] Keywords
+### Keywords
 
 [`this`](../keyword/this.html "cpp/keyword/this")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/this&action=edit&section=4 "Edit section: Example")] Example
+### Example
     
     
     class T
@@ -397,7 +397,7 @@ This can be used in the member function of the reference-counting pointer (for e
         }
     };
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/this&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

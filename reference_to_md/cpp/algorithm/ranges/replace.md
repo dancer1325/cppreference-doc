@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](copy.html "cpp/algorithm/ranges/co
 [uninitialized_default_construct_n](../../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 [Constrained algorithms](../ranges.html "cpp/algorithm/ranges")
 
@@ -550,7 +550,7 @@ All names in this menu belong to namespace `std::ranges`
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -655,7 +655,7 @@ The function-like entities described on this page are [_algorithm function objec
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/replace&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  the iterator-sentinel pair defining the [range](../../iterator.html#Ranges "cpp/iterator") of elements to process   
 ---|---|---  
@@ -665,15 +665,15 @@ new_value  |  \-  |  the value to use as a replacement
 pred  |  \-  |  predicate to apply to the projected elements   
 proj  |  \-  |  projection to apply to the elements   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/replace&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 An iterator equal to last. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/replace&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Exactly [ranges::distance](../../iterator/ranges/distance.html)(first, last) applications of the corresponding predicate comp and any projection proj. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/replace&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 Because the algorithm takes old_value and new_value by reference, it may have unexpected behavior if either is a reference to an element of the range `[`first`, `last`)`. 
 
@@ -681,7 +681,7 @@ Because the algorithm takes old_value and new_value by reference, it may have un
 ---|---|---|---  
 [`__cpp_lib_algorithm_default_value_type`](../../experimental/feature_test.html#cpp_lib_algorithm_default_value_type "cpp/feature test") | [`202403`](../../compiler_support/26.html#cpp_lib_algorithm_default_value_type_202403 "cpp/compiler support/26") | (C++26) | [List-initialization](../../language/list_initialization.html "cpp/language/list initialization") for algorithms ([1-4](replace.html#Version_1))  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/replace&action=edit&section=5 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
 
 [replace (1,2)](replace.html#Version_1)  
 ---  
@@ -753,7 +753,7 @@ Because the algorithm takes old_value and new_value by reference, it may have un
      
     inline constexpr replace_if_fn replace_if{};  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/replace&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -804,12 +804,12 @@ Output:
     (1,3) (1,3)
     (4,2) (4,2)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/replace&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ ranges::replace_copyranges::replace_copy_if](replace_copy.html "cpp/algorithm/ranges/replace copy")(C++20)(C++20) |  copies a range, replacing elements satisfying specific criteria with another value  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_replace_copy&action=edit)  
+(algorithm function object)  
 ---|---  
 [ replacereplace_if](../replace.html "cpp/algorithm/replace") |  replaces all values satisfying specific criteria with another value   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_replace&action=edit)
+(function template) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

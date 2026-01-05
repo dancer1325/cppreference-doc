@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::strstreambuf`](../strstreambuf.html "cpp/io/strstreambuf")
 
@@ -96,7 +96,7 @@ Protected member functions
 [strstreambuf::seekoff](seekoff.html "cpp/io/strstreambuf/seekoff")  
 [strstreambuf::seekpos](seekpos.html "cpp/io/strstreambuf/seekpos")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/strstreambuf/navbar_content&action=edit)
+
 
 protected:  
 virtual streambuf* setbuf( char* s, [std::streamsize](../streamsize.html) n ); |  |  (deprecated in C++98)   
@@ -121,17 +121,17 @@ This function is protected virtual, it may only be called through `pubsetbuf()` 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/strstreambuf/setbuf&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 s  |  \-  |  pointer to the first byte in the user-provided buffer   
 ---|---|---  
 n  |  \-  |  the number of bytes in the user-provided buffer   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/strstreambuf/setbuf&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 this
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/strstreambuf/setbuf&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Implementation test to check if `setbuf()` is supported on a dynamic strstream (output obtained with Sun Studio):
 
@@ -155,7 +155,7 @@ Possible output:
     
     user-provided buffer holds "Test string"
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/strstreambuf/setbuf&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -166,14 +166,14 @@ defined separately for each class derived from `strstreambuf`",
 but there are no classes derived from `strstreambuf` | the effect is  
 implementation-defined   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/strstreambuf/setbuf&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ pubsetbuf](../basic_streambuf/pubsetbuf.html "cpp/io/basic streambuf/pubsetbuf") |  invokes setbuf()   
-(public member function of `std::basic_streambuf<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_streambuf/dsc_pubsetbuf&action=edit)  
+(public member function of `std::basic_streambuf<CharT,Traits>`)   
 ---|---  
 [ setbuf](../basic_streambuf/pubsetbuf.html "cpp/io/basic streambuf/pubsetbuf")[virtual] |  replaces the buffer with user-defined array, if permitted   
-(virtual protected member function of `std::basic_streambuf<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_streambuf/dsc_setbuf&action=edit)  
+(virtual protected member function of `std::basic_streambuf<CharT,Traits>`)   
 [ setbuf](../basic_stringbuf/setbuf.html "cpp/io/basic stringbuf/setbuf")[virtual] |  attempts to replace the controlled character sequence with an array   
-(virtual protected member function of `std::basic_stringbuf<CharT,Traits,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_stringbuf/dsc_setbuf&action=edit)  
+(virtual protected member function of `std::basic_stringbuf<CharT,Traits,Allocator>`)   
 [ setbuf](../basic_filebuf/setbuf.html "cpp/io/basic filebuf/setbuf")[virtual] |  provides user-supplied buffer or turns this filebuf unbuffered   
-(virtual protected member function of `std::basic_filebuf<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_filebuf/dsc_setbuf&action=edit)
+(virtual protected member function of `std::basic_filebuf<CharT,Traits>`) 

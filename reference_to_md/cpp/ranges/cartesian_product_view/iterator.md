@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::cartesian_product_view`](../cartesian_product_view.html "cpp/ranges/cartesian product view")
 
@@ -257,7 +257,7 @@ operator-(cartesian_product_view::_iterator_)](iterator/operator_arith2.html "cp
 [iter_move(cartesian_product_view::_iterator_)](iterator/iter_move.html "cpp/ranges/cartesian product view/iterator/iter move")  
 [iter_swap(cartesian_product_view::_iterator_)](iterator/iter_swap.html "cpp/ranges/cartesian product view/iterator/iter swap")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/cartesian_product_view/navbar_content&action=edit)
+
 
 template< bool Const >  
 class /*iterator*/ |  |  (since C++23)   
@@ -282,7 +282,7 @@ The type /*iterator*/<true> is returned by the const-qualified overloads. The ty
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/cartesian_product_view/iterator&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Member  |  Definition   
 ---|---  
@@ -303,7 +303,7 @@ Member  |  Definition
 [ranges::range_reference_t](../range_reference_t.html)</*maybe-const*/<Const, Vs>>...>;  
 `difference_type` |  An implementation-defined _signed-integer-like_ type (maybe the smallest of such types), which is sufficiently wide to store the product of the maximum sizes of all underlying ranges, if such type exists.   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/cartesian_product_view/iterator&action=edit&section=2 "Edit section: Data members")] Data members
+### Data members
 
 Member  |  Definition   
 ---|---  
@@ -313,7 +313,7 @@ Member  |  Definition
 [ranges::iterator_t](../iterator_t.html)</*maybe-const*/<Const, Vs>>...>  
 (exposition-only member object*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/cartesian_product_view/iterator&action=edit&section=3 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](iterator/iterator.html "cpp/ranges/cartesian product view/iterator/iterator") |  constructs an iterator   
 (public member function)  
@@ -323,7 +323,7 @@ Member  |  Definition
 [ operator[]](iterator/operator_at.html "cpp/ranges/cartesian product view/iterator/operator at") |  accesses an element by index   
 (public member function)  
 [ operator++operator++(int)operator--operator--(int)operator+=operator-=](iterator/operator_arith.html "cpp/ranges/cartesian product view/iterator/operator arith") |  advances or decrements the underlying iterator   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/iterator/dsc_operator_arith&action=edit)  
+(public member function)   
 [__next__](iterator/helpers.html#next "cpp/ranges/cartesian product view/iterator/helpers") |  advances the iterator  
 (exposition-only member function*)  
 [__prev__](iterator/helpers.html#prev "cpp/ranges/cartesian product view/iterator/helpers") |  decrements the iterator  
@@ -331,7 +331,7 @@ Member  |  Definition
 [__distance_from__](iterator/helpers.html#distance_from "cpp/ranges/cartesian product view/iterator/helpers") |  returns the distance between two iterators  
 (exposition-only member function*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/cartesian_product_view/iterator&action=edit&section=4 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ operator==operator<=>](iterator/operator_cmp.html "cpp/ranges/cartesian product view/iterator/operator cmp")(C++23) |  compares the underlying iterators   
 (function)  
@@ -343,13 +343,13 @@ Member  |  Definition
 [ iter_swap](iterator/iter_swap.html "cpp/ranges/cartesian product view/iterator/iter swap")(C++23) |  swaps underlying pointed-to elements   
 (function)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/cartesian_product_view/iterator&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/cartesian_product_view/iterator&action=edit&section=6 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -361,6 +361,6 @@ Reason: no example
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/cartesian_product_view/iterator&action=edit&section=7 "Edit section: See also")] See also  
+### See also  
   
 ---

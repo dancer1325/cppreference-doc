@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Contract support](../contract.html "cpp/contract")
 
@@ -141,7 +141,7 @@ Contract-violation information
 Helper functions  
 [invoke_default_contract_violation_handler](invoke_default_contract_violation_handler.html "cpp/contract/invoke default contract violation handler")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/contract/navbar_content&action=edit)
+
 
 Defined in header `[<contracts>](../header/contracts.html "cpp/header/contracts")` |  |   
 ---|---|---  
@@ -158,16 +158,16 @@ Enumerator  |  Meaning
 `predicate_false` |  the contract violation occurs because the result of the predicate is false  
 `evaluation_exception` |  the contract violation occurs because the evaluation of the predicate exits via an exception   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/contract/detection_mode&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 If a contract violation occurs in a context that is manifestly constant-evaluated, the [contract-violation handler](../language/contracts.html#Contract-violation_handler "cpp/language/contracts") is not invoked. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/contract/detection_mode&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ contract_violation](contract_violation.html "cpp/contract/contract violation")(C++26) |  the type holding the contract-violation information   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/contract/dsc_contract_violation&action=edit)  
+(class)   
 ---|---  
 [ assertion_kind](assertion_kind.html "cpp/contract/assertion kind")(C++26) |  the kind of the contract assertion violated   
-(enum) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/contract/dsc_assertion_kind&action=edit)  
+(enum)   
 [ evaluation_semantic](evaluation_semantic.html "cpp/contract/evaluation semantic")(C++26) |  the evaluation semantic when the contract violation occurs   
-(enum) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/contract/dsc_evaluation_semantic&action=edit)
+(enum) 

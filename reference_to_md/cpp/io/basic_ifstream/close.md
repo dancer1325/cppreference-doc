@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -79,7 +79,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_ifstream`](../basic_ifstream.html "cpp/io/basic ifstream")
 
@@ -97,7 +97,7 @@ File operations
 Non-member functions  
 [swap(std::basic_ifstream)](swap2.html "cpp/io/basic ifstream/swap2")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ifstream/navbar_content&action=edit)
+
 
 void close(); |  |   
 ---|---|---  
@@ -118,30 +118,30 @@ Effectively calls [`rdbuf()->close()`](../basic_filebuf/close.html "cpp/io/basic
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_fstream/close&action=edit&section=T-1 "Template:cpp/io/basic fstream/close")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_fstream/close&action=edit&section=T-2 "Template:cpp/io/basic fstream/close")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_fstream/close&action=edit&section=T-3 "Template:cpp/io/basic fstream/close")] Notes
+### Notes
 
 This function is called by the destructor of `basic_ifstream` when the stream object goes out of scope and is not usually invoked directly. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_fstream/close&action=edit&section=T-4 "Template:cpp/io/basic fstream/close")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_fstream/close&action=edit&section=T-5 "Template:cpp/io/basic fstream/close")] See also
+### See also
 
 [ is_open](is_open.html "cpp/io/basic ifstream/is open") |  checks if the stream has an associated file   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_fstream/dsc_is_open&action=edit)  
+(public member function)   
 ---|---  
 [ open](open.html "cpp/io/basic ifstream/open") |  opens a file and associates it with the stream   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_fstream/dsc_open&action=edit)  
+(public member function)   
 [ close](../basic_filebuf/close.html "cpp/io/basic filebuf/close") |  flushes the put area buffer and closes the associated file   
-(public member function of `std::basic_filebuf<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_filebuf/dsc_close&action=edit)
+(public member function of `std::basic_filebuf<CharT,Traits>`) 

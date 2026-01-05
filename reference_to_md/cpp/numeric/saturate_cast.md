@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [Saturation arithmetic](../numeric.html#Saturation_arithmetic "cpp/numeric")
 
@@ -99,7 +99,7 @@ Functions
 [div_sat](div_sat.html "cpp/numeric/div sat")(C++26)  
 **saturate_cast**(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/sat_math/navbar_content&action=edit)
+
 
 Defined in header `[<numeric>](../header/numeric.html "cpp/header/numeric")` |  |   
 ---|---|---  
@@ -123,29 +123,29 @@ The program is ill-formed if either `T` or `U` is not a signed or unsigned [inte
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/saturate_cast&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 x  |  \-  |  an integer value   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/saturate_cast&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
   * x, if x is representable as a value of type `T`. Otherwise, 
   * either the largest or smallest representable value of type `T`, whichever is closer to the value of x. 
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/saturate_cast&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../utility/feature_test.html "cpp/utility/feature test") macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_saturation_arithmetic`](../experimental/feature_test.html#cpp_lib_saturation_arithmetic "cpp/feature test") | [`202311L`](../compiler_support/26.html#cpp_lib_saturation_arithmetic_202311L "cpp/compiler support/26") | (C++26) | Saturation arithmetic   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/saturate_cast&action=edit&section=4 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
 
 See [libstdc++ (GCC)](https://github.com/gcc-mirror/gcc/blob/07fe07935ddb9228b4426dbfdb62d4a7e7337efe/libstdc%2B%2B-v3/include/bits/sat_arith.h#L106). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/saturate_cast&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Can be previewed on [Compiler Explorer](https://godbolt.org/z/5P149Y377).
 
@@ -175,14 +175,14 @@ Run this code
         static_assert(y3 == 0);
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/saturate_cast&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ bit_cast](bit_cast.html "cpp/numeric/bit cast")(C++20) |  reinterpret the object representation of one type as that of another   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/dsc_bit_cast&action=edit)  
+(function template)   
 ---|---  
 [ clamp](../algorithm/clamp.html "cpp/algorithm/clamp")(C++17) |  clamps a value between a pair of boundary values   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_clamp&action=edit)  
+(function template)   
 [ in_range](../utility/in_range.html "cpp/utility/in range")(C++20) |  checks if an integer value is in the range of a given integer type   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_in_range&action=edit)
+(function template) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

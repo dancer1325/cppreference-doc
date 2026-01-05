@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 **`std::chrono::sys_info`**
 
@@ -111,7 +111,7 @@ Non-member functions
 Helper classes  
 [formatter<std::chrono::sys_info>](sys_info/formatter.html "cpp/chrono/sys info/formatter")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/sys_info/navbar_content&action=edit)
+
 
 Defined in header `[<chrono>](../header/chrono.html "cpp/header/chrono")` |  |   
 ---|---|---  
@@ -130,7 +130,7 @@ The class `sys_info` describes time zone information associated with a time zone
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/sys_info&action=edit&section=1 "Edit section: Member objects")] Member objects
+### Member objects
 
 Member object  |  Type   
 ---|---  
@@ -145,19 +145,19 @@ The `offset` and `abbrev` data member indicate the UTC offset and time zone abbr
 
 The `save` data member, if nonzero, indicates that the time zone is on daylight saving time at the specified time point. In this case, offset - save is a suggestion of what offset this time zone might use if it were off daylight saving time. However, this information is not authoritative: the only way to ascertain the actual offset is to query the time zone with a time point that is actually off daylight savings time (i.e. returns a `sys_info` such that save == 0min). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/sys_info&action=edit&section=2 "Edit section: Nonmember functions")] Nonmember functions
+### Nonmember functions
 
 [ operator<<](sys_info/operator_ltlt.html "cpp/chrono/sys info/operator ltlt")(C++20) |  outputs a `sys_info` into a stream   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/sys_info/dsc_operator_ltlt&action=edit)  
+(function template)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/sys_info&action=edit&section=3 "Edit section: Helper classes")] Helper classes
+### Helper classes
 
 [ std::formatter<std::chrono::sys_info>](sys_info/formatter.html "cpp/chrono/sys info/formatter")(C++20) |  formatting support for `sys_info`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_formatter&action=edit)  
+(class template specialization)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/sys_info&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

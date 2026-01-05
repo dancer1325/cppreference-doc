@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::variant`](../variant.html "cpp/utility/variant")
 
@@ -161,7 +161,7 @@ Common vocabulary types
 [Helper objects](../variant.html#Helper_objects "cpp/utility/variant")  
 [variant_npos](variant_npos.html "cpp/utility/variant/variant npos")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variant/navbar_content&action=edit)
+
 
 Defined in header `[<variant>](../../header/variant.html "cpp/header/variant")` |  |   
 ---|---|---  
@@ -205,27 +205,27 @@ constexpr const T&& get( const [std::variant](../variant.html)<Types...>&& v ); 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variant/get&action=edit&section=1 "Edit section: Template parameters")] Template parameters
+### Template parameters
 
 I  |  \-  |  index to look up   
 ---|---|---  
 T  |  \-  |  unique type to look up   
 Types...  |  \-  |  types forming the `variant`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variant/get&action=edit&section=2 "Edit section: Parameters")] Parameters
+### Parameters
 
 v  |  \-  |  a `variant`  
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variant/get&action=edit&section=3 "Edit section: Return value")] Return value
+### Return value
 
 Reference to the value stored in the variant. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variant/get&action=edit&section=4 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 1,2) Throws [std::bad_variant_access](bad_variant_access.html "cpp/utility/variant/bad variant access") on errors.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variant/get&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -264,18 +264,18 @@ Possible output:
     42
     Unexpected index: w contained int, not float
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variant/get&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ get_if](get_if.html "cpp/utility/variant/get if")(C++17) |  obtains a pointer to the value of a pointed-to `variant` given the index or the type (if unique), returns null on error   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variant/dsc_get_if&action=edit)  
+(function template)   
 ---|---  
 [ get(std::tuple)](../tuple/get.html "cpp/utility/tuple/get")(C++11) |  tuple accesses specified element   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/dsc_get&action=edit)  
+(function template)   
 [ get(std::array)](../../container/array/get.html "cpp/container/array/get")(C++11) |  accesses an element of an `array`   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/array/dsc_get&action=edit)  
+(function template)   
 [ get(std::pair)](../pair/get.html "cpp/utility/pair/get")(C++11) |  accesses an element of a `pair`   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/pair/dsc_get&action=edit)  
+(function template)   
 [ get(std::ranges::subrange)](../../ranges/subrange/get.html "cpp/ranges/subrange/get")(C++20) |  obtains iterator or sentinel from a [std::ranges::subrange](../../ranges/subrange.html "cpp/ranges/subrange")   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/subrange/dsc_get&action=edit)  
+(function template)   
 [ get(std::complex)](../../numeric/complex/get.html "cpp/numeric/complex/get")(C++26) |  obtains a reference to real or imaginary part from a [std::complex](../../numeric/complex.html "cpp/numeric/complex")   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_get&action=edit)
+(function template) 

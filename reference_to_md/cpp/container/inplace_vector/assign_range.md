@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::inplace_vector`](../inplace_vector.html "cpp/container/inplace vector")
 
@@ -134,7 +134,7 @@ Tables
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/inplace_vector/navbar_content&action=edit)
+
 
 template< [container-compatible-range](../../ranges/to.html)<T> R >  
 constexpr void assign_range( R&& rg ); |  | (since C++26)  
@@ -160,7 +160,7 @@ If rg overlaps with *this, the behavior is undefined.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/assign_range&action=edit&section=T-1 "Template:cpp/container/assign range")] Parameters
+### Parameters
 
 rg  |  \-  |  an [`input_range`](../../ranges/input_range.html "cpp/ranges/input range") with reference type convertible to the element type of the container   
 ---|---|---  
@@ -175,7 +175,7 @@ Type requirements
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/assign_range&action=edit&section=T-4 "Template:cpp/container/assign range")] Example
+### Example
 
 Run this code
     
@@ -210,7 +210,7 @@ Possible output:
     
     std::bad_alloc
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/assign_range&action=edit&section=T-5 "Template:cpp/container/assign range")] See also
+### See also
 
 [ insert_range](insert_range.html "cpp/container/inplace vector/insert range") |  inserts a range of elements   
 (public member function)  

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::shared_lock`](../shared_lock.html "cpp/thread/shared lock")
 
@@ -198,7 +198,7 @@ Observers
 Non-member functions  
 [swap(std::shared_lock)](swap2.html "cpp/thread/shared lock/swap2")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/shared_lock/navbar_content&action=edit)
+
 
 void lock(); |  |  (since C++14)  
 ---|---|---  
@@ -217,15 +217,15 @@ Locks the associated mutex in shared mode. Effectively calls mutex()->lock_share
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/shared_lock/lock&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/shared_lock/lock&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/shared_lock/lock&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
   * Any exceptions thrown by mutex()->lock_shared(). 
 
@@ -237,7 +237,7 @@ Locks the associated mutex in shared mode. Effectively calls mutex()->lock_share
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/shared_lock/lock&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: show a meaningful use of shared_lock::lock   
@@ -304,10 +304,10 @@ Possible output:
     The first few operations to file are done.
     Contents read by reader #3: New content
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/shared_lock/lock&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ try_lock](try_lock.html "cpp/thread/shared lock/try lock") |  tries to lock the associated mutex   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/shared_lock/dsc_try_lock&action=edit)  
+(public member function)   
 ---|---  
 [ unlock](unlock.html "cpp/thread/shared lock/unlock") |  unlocks the associated mutex   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/shared_lock/dsc_unlock&action=edit)
+(public member function) 

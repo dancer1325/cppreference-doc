@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Ranges](../../ranges.html "cpp/experimental/ranges")
 
@@ -66,7 +66,7 @@
 [Ranges](../../ranges.html#Ranges "cpp/experimental/ranges")  
 [Algorithms](../../ranges.html#Algorithms "cpp/experimental/ranges")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/navbar_content&action=edit)
+
 
 [Iterators library](../../ranges.html#Iterators "cpp/experimental/ranges")
 
@@ -210,7 +210,7 @@ Stream iterators
 | [ostreambuf_iterator](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/iterator/ostreambuf_iterator&action=edit&redlink=1 "cpp/experimental/ranges/iterator/ostreambuf iterator \(page does not exist\)")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/iterator/navbar_content&action=edit)
+
 
 Defined in header `[<experimental/ranges/iterator>](../../../header/experimental/ranges/iterator.html "cpp/header/experimental/ranges/iterator")` |  |   
 ---|---|---  
@@ -245,7 +245,7 @@ Decrements the iterator i n times, or until bound is reached, whichever comes fi
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/cpo&action=edit&section=T-1 "Template:cpp/experimental/ranges/cpo")] Customization point objects 
+### Customization point objects 
 
 The name `ranges::prev` denotes a _customization point object_ , which is a [function object](../../../named_req/FunctionObject.html "cpp/named req/FunctionObject") of a [literal](../../../named_req/LiteralType.html "cpp/named req/LiteralType") [`Semiregular`](../concepts/Semiregular.html "cpp/experimental/ranges/concepts/Semiregular") class type (denoted, for exposition purposes, as `PrevT`). All instances of `PrevT` are equal. Thus, `ranges::prev` can be copied freely and its copies can be used interchangeably. 
 
@@ -253,24 +253,24 @@ Given a set of types `Args...`, if [std::declval](../../../utility/declval.html)
 
 In every translation unit in which `ranges::prev` is defined, it refers to the same instance of the customization point object. (This means that it can be used freely in things like inline functions and function templates without violating the [one-definition rule](../../../language/definition.html#One_Definition_Rule "cpp/language/definition").) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/iterator/prev&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 The decremented iterator. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/iterator/prev&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/iterator/prev&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ prev](../../../iterator/prev.html "cpp/iterator/prev")(C++11) |  decrement an iterator   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_prev&action=edit)  
+(function template)   
 ---|---  
 [ advance](advance.html "cpp/experimental/ranges/iterator/advance") |  advances an iterator by given distance   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/iterator/dsc_advance&action=edit)  
+(function template)   
 [ next](next.html "cpp/experimental/ranges/iterator/next") |  increment an iterator   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/iterator/dsc_next&action=edit)  
+(function template)   
 [ distance](distance.html "cpp/experimental/ranges/iterator/distance") |  returns the distance between an iterator and a sentinel, or between the beginning and the end of a range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/iterator/dsc_distance&action=edit)
+(function template) 

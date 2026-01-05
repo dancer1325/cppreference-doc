@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [Input/output manipulators](../manip.html "cpp/io/manip")
 
@@ -154,7 +154,7 @@ Time and money I/O
 Quoted manipulator  
 [quoted](quoted.html "cpp/io/manip/quoted")(C++14)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/navbar_content&action=edit)
+
 
 Defined in header `[<iomanip>](../../header/iomanip.html "cpp/header/iomanip")` |  |   
 ---|---|---  
@@ -175,7 +175,7 @@ When used in an expression in >> get_time(tmb, fmt), parses the character input 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/get_time&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 tmb  |  \-  |  valid pointer to the [std::tm](../../chrono/c/tm.html "cpp/chrono/c/tm") object where the result will be stored   
 ---|---|---  
@@ -242,7 +242,7 @@ Note: `tm_isdst` is not written to, and needs to be set explicitly for use with 
   
   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/get_time&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 An object of unspecified type such that 
 
@@ -272,11 +272,11 @@ where the function f is defined as:
             str.setstate(err);
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/get_time&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 As specified in [std::time_get::do_get](../../locale/time_get/get.html "cpp/locale/time get/get"), which this function calls, it's unspecified if this function zero out the fields in *tmb that are not set directly by the conversion specifiers that appear in fmt: portable programs should initialize every field of *tmb to zero before calling `std::get_time`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/get_time&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Note: choose clang or gcc >= 12.1 to observe the output. libstdc++ before 12.1 does not correctly implement the %b specifier: [bug #78714](https://gcc.gnu.org/bugzilla/show_bug.cgi?id=78714).
 
@@ -306,12 +306,12 @@ Possible output:
     
     Sun Feb 18 23:12:34 2011
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/get_time&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ time_get](../../locale/time_get.html "cpp/locale/time get") |  parses time/date values from an input character sequence into [std::tm](../../chrono/c/tm.html "cpp/chrono/c/tm")   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_time_get&action=edit)  
+(class template)   
 ---|---  
 [ put_time](put_time.html "cpp/io/manip/put time")(C++11) |  formats and outputs a date/time value according to the specified format   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_put_time&action=edit)  
+(function template)   
 [ parse](../../chrono/parse.html "cpp/chrono/parse")(C++20) |  parses a `chrono` object from a stream   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_parse&action=edit)
+(function template) 

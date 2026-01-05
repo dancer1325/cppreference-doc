@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::allocator_traits`](../allocator_traits.html "cpp/memory/allocator traits")
 
@@ -199,7 +199,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
 [allocator_traits::max_size](max_size.html "cpp/memory/allocator traits/max size")  
 [allocator_traits::select_on_container_copy_construction](select_on_container_copy_construction.html "cpp/memory/allocator traits/select on container copy construction")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/allocator_traits/navbar_content&action=edit)
+
 
 Defined in header `[<memory>](../../header/memory.html "cpp/header/memory")` |  |   
 ---|---|---  
@@ -219,27 +219,27 @@ Uses the allocator a to deallocate the storage referenced by p, by calling a.dea
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/allocator_traits/deallocate&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 a  |  \-  |  allocator to use   
 ---|---|---  
 p  |  \-  |  pointer to the previously allocated storage   
 n  |  \-  |  the number of objects the storage was allocated for   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/allocator_traits/deallocate&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/allocator_traits/deallocate&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/allocator_traits/deallocate&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ allocate](allocate.html "cpp/memory/allocator traits/allocate")[static] |  allocates uninitialized storage using the allocator   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/allocator_traits/dsc_allocate&action=edit)  
+(public static member function)   
 ---|---  
 [ deallocate](../allocator/deallocate.html "cpp/memory/allocator/deallocate") |  deallocates storage   
-(public member function of `std::allocator<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/allocator/dsc_deallocate&action=edit)
+(public member function of `std::allocator<T>`) 

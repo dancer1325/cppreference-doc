@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::pmr::synchronized_pool_resource`](../synchronized_pool_resource.html "cpp/memory/synchronized pool resource")
 
@@ -200,7 +200,7 @@ Protected member functions
 [synchronized_pool_resource::do_deallocate](do_deallocate.html "cpp/memory/synchronized pool resource/do deallocate")  
 [synchronized_pool_resource::do_is_equal](do_is_equal.html "cpp/memory/synchronized pool resource/do is equal")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/synchronized_pool_resource/navbar_content&action=edit)
+
 
 synchronized_pool_resource(); |  (1)  |  (since C++17)  
 ---|---|---  
@@ -218,12 +218,12 @@ The overloads not taking opts as a parameter uses a default constructed instance
 
 5) Copy constructor is deleted.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/synchronized_pool_resource/synchronized_pool_resource&action=edit&section=1 "Edit section: Parameters")] Parameters 
+### Parameters 
 
 opts  |  \-  |  a [std::pmr::pool_options](../pool_options.html "cpp/memory/pool options") struct containing the constructor options   
 ---|---|---  
 upstream  |  \-  |  the upstream memory resource to use   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/synchronized_pool_resource/synchronized_pool_resource&action=edit&section=2 "Edit section: Exceptions")] Exceptions 
+### Exceptions 
 
 1-4) Throws only if a call to the `allocate()` function of the upstream resource throws. It is unspecified if or under what conditions such a call takes place.

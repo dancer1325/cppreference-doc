@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 **`std::ranges::common_view`**
 
@@ -238,7 +238,7 @@ std::from_range](from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
 [common_view::reserve_hint](common_view/reserve_hint.html "cpp/ranges/common view/reserve hint")(C++26)  
 [Deduction guides](common_view/deduction_guides.html "cpp/ranges/common view/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/common_view/navbar_content&action=edit)
+
 
 Defined in header `[<ranges>](../header/ranges.html "cpp/header/ranges")` |  |   
 ---|---|---  
@@ -280,51 +280,51 @@ constexpr [ranges::view](view.html) auto common( R&& r ); |  |  (since C++20)
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/common_view&action=edit&section=1 "Edit section: Data members")] Data members
+### Data members
 
 Member  |  Description   
 ---|---  
 `V` `_base__` (private) |  the underlying view  
 (exposition-only member object*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/common_view&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](common_view/common_view.html "cpp/ranges/common view/common view") |  constructs a `common_view`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ base](common_view/base.html "cpp/ranges/common view/base") |  returns a copy of the underlying (adapted) view   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/dsc_base&action=edit)  
+(public member function)   
 [ begin](common_view/begin.html "cpp/ranges/common view/begin") |  returns an iterator to the beginning   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/dsc_begin&action=edit)  
+(public member function)   
 [ end](common_view/end.html "cpp/ranges/common view/end") |  returns an iterator to the end   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/dsc_end&action=edit)  
+(public member function)   
 [ size](common_view/size.html "cpp/ranges/common view/size") |  returns the number of elements, provided only if the underlying (adapted) range satisfies [`sized_range`](sized_range.html "cpp/ranges/sized range")   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/dsc_size&action=edit)  
+(public member function)   
 [ reserve_hint](common_view/reserve_hint.html "cpp/ranges/common view/reserve hint")(C++26) |  returns the approximate size of the resulting [`approximately_sized_range`](approximately_sized_range.html "cpp/ranges/approximately sized range")   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/dsc_reserve_hint&action=edit)  
+(public member function)   
   
 #####  Inherited from [std::ranges::view_interface](view_interface.html "cpp/ranges/view interface")  
   
 [ empty](view_interface/empty.html "cpp/ranges/view interface/empty") |  returns whether the derived view is empty, provided only if it satisfies [`sized_range`](sized_range.html "cpp/ranges/sized range") or [`forward_range`](forward_range.html "cpp/ranges/forward range")   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_empty&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ cbegin](view_interface/cbegin.html "cpp/ranges/view interface/cbegin")(C++23) |  returns a constant iterator to the beginning of the range   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_cbegin&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ cend](view_interface/cend.html "cpp/ranges/view interface/cend")(C++23) |  returns a sentinel for the constant iterator of the range   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_cend&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ operator bool](view_interface/operator_bool.html "cpp/ranges/view interface/operator bool") |  returns whether the derived view is not empty, provided only if [ranges::empty](empty.html "cpp/ranges/empty") is applicable to it   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_operator_bool&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ data](view_interface/data.html "cpp/ranges/view interface/data") |  gets the address of derived view's data, provided only if its iterator type satisfies [`contiguous_iterator`](../iterator/contiguous_iterator.html "cpp/iterator/contiguous iterator")   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_data&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ front](view_interface/front.html "cpp/ranges/view interface/front") |  returns the first element in the derived view, provided if it satisfies [`forward_range`](forward_range.html "cpp/ranges/forward range")   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_front&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ back](view_interface/back.html "cpp/ranges/view interface/back") |  returns the last element in the derived view, provided only if it satisfies [`bidirectional_range`](bidirectional_range.html "cpp/ranges/bidirectional range") and [`common_range`](common_range.html "cpp/ranges/common range")   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_back&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ operator[]](view_interface/operator_at.html "cpp/ranges/view interface/operator at") |  returns the `n`th element in the derived view, provided only if it satisfies [`random_access_range`](random_access_range.html "cpp/ranges/random access range")   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_operator_at&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/common_view&action=edit&section=3 "Edit section: Deduction guides")] [Deduction guides](common_view/deduction_guides.html "cpp/ranges/common view/deduction guides")
+### [Deduction guides](common_view/deduction_guides.html "cpp/ranges/common view/deduction guides")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/common_view&action=edit&section=4 "Edit section: Helper templates")] Helper templates
+### Helper templates
 
 template< class T >  
 constexpr bool enable_borrowed_range<std::ranges::common_view<T>> =  
@@ -334,11 +334,11 @@ constexpr bool enable_borrowed_range<std::ranges::common_view<T>> =
   
 This specialization of [ranges::enable_borrowed_range](borrowed_range.html "cpp/ranges/borrowed range") makes `common_view` satisfy [`borrowed_range`](borrowed_range.html "cpp/ranges/borrowed range") when the underlying view satisfies it. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/common_view&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 `common_view` can be useful for working with legacy algorithms that expect the iterator and sentinel are of the same type. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/common_view&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -390,7 +390,7 @@ Possible output:
     accumulate: 15
     c2.front(): 1
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/common_view&action=edit&section=7 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -398,10 +398,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 3494](https://cplusplus.github.io/LWG/issue3494) | C++20  | `common_view` was never a `borrowed_range` | it is a `borrowed_range` if its underlying view is   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/common_view&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [ ranges::common_range](common_range.html "cpp/ranges/common range")(C++20) |  specifies that a range has identical iterator and sentinel types   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_common_range&action=edit)  
+(concept)   
 ---|---  
 [ common_iterator](../iterator/common_iterator.html "cpp/iterator/common iterator")(C++20) |  adapts an iterator type and its sentinel into a common iterator type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_common_iterator&action=edit)
+(class template) 

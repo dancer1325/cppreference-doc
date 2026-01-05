@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Strings library](../string.html "cpp/string")
 
@@ -40,7 +40,7 @@ Classes
 [basic_string_view](basic_string_view.html "cpp/string/basic string view")(C++17)  
 **char_traits**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/navbar_content&action=edit)
+
 
 **`std::char_traits`**
 
@@ -59,7 +59,7 @@ Member functions
 [char_traits::eof](char_traits/eof.html "cpp/string/char traits/eof")  
 [char_traits::not_eof](char_traits/not_eof.html "cpp/string/char traits/not eof")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/char_traits/navbar_content&action=edit)
+
 
 Defined in header `[<string>](../header/string.html "cpp/header/string")` |  |   
 ---|---|---  
@@ -84,7 +84,7 @@ The `char_traits` class template serves as a basis for explicit instantiations. 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/char_traits&action=edit&section=1 "Edit section: Specializations")] Specializations
+### Specializations
 
 The standard library provides the following standard specializations: 
 
@@ -98,7 +98,7 @@ std::char_traits<char32_t> (C++11) |  the standard character traits of char32_t
   
 All these specializations satisfy the requirements of [CharTraits](../named_req/CharTraits.html "cpp/named req/CharTraits"). 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/char_traits&action=edit&section=2 "Edit section: Member types")] Member types
+#### Member types
 
 The standard specializations define the following member types required by [CharTraits](../named_req/CharTraits.html "cpp/named req/CharTraits"): 
 
@@ -113,41 +113,41 @@ char32_t | char32_t | [std::uint_least32_t](../types/integer.html "cpp/types/int
 On top of that, the standard specializations also define the member type `comparison_category` as [`std::strong_ordering`](../utility/compare/strong_ordering.html "cpp/utility/compare/strong ordering").  | (since C++20)  
 ---|---  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/char_traits&action=edit&section=3 "Edit section: Member functions")] Member functions
+#### Member functions
 
 The standard specializations define the following static member functions required by [CharTraits](../named_req/CharTraits.html "cpp/named req/CharTraits"): 
 
 [ assign](char_traits/assign.html "cpp/string/char traits/assign")[static] |  assigns a character   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/char_traits/dsc_assign&action=edit)  
+(public static member function)   
 ---|---  
 [ eqlt](char_traits/cmp.html "cpp/string/char traits/cmp")[static] |  compares two characters   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/char_traits/dsc_cmp&action=edit)  
+(public static member function)   
 [ move](char_traits/move.html "cpp/string/char traits/move")[static] |  moves one character sequence onto another   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/char_traits/dsc_move&action=edit)  
+(public static member function)   
 [ copy](char_traits/copy.html "cpp/string/char traits/copy")[static] |  copies a character sequence   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/char_traits/dsc_copy&action=edit)  
+(public static member function)   
 [ compare](char_traits/compare.html "cpp/string/char traits/compare")[static] |  lexicographically compares two character sequences   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/char_traits/dsc_compare&action=edit)  
+(public static member function)   
 [ length](char_traits/length.html "cpp/string/char traits/length")[static] |  returns the length of a character sequence   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/char_traits/dsc_length&action=edit)  
+(public static member function)   
 [ find](char_traits/find.html "cpp/string/char traits/find")[static] |  finds a character in a character sequence   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/char_traits/dsc_find&action=edit)  
+(public static member function)   
 [ to_char_type](char_traits/to_char_type.html "cpp/string/char traits/to char type")[static] |  converts `int_type` to equivalent `char_type`   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/char_traits/dsc_to_char_type&action=edit)  
+(public static member function)   
 [ to_int_type](char_traits/to_int_type.html "cpp/string/char traits/to int type")[static] |  converts `char_type` to equivalent `int_type`   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/char_traits/dsc_to_int_type&action=edit)  
+(public static member function)   
 [ eq_int_type](char_traits/eq_int_type.html "cpp/string/char traits/eq int type")[static] |  compares two `int_type` values   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/char_traits/dsc_eq_int_type&action=edit)  
+(public static member function)   
 [ eof](char_traits/eof.html "cpp/string/char traits/eof")[static] |  returns an _eof_ value   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/char_traits/dsc_eof&action=edit)  
+(public static member function)   
 [ not_eof](char_traits/not_eof.html "cpp/string/char traits/not eof")[static] |  checks whether a character is _eof_ value   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/char_traits/dsc_not_eof&action=edit)  
+(public static member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/char_traits&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 [CharTraits](../named_req/CharTraits.html "cpp/named req/CharTraits") does not require defining the types and functions listed above as direct members, it only requires types like `X::type` and expressions like X::func(args) are valid and have the required semantics. Users-defined character traits can be derived from other character traits classes and only override some of their members, see the example below. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/char_traits&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 User-defined character traits may be used to provide [case-insensitive comparison](http://www.gotw.ca/gotw/029.htm):
 
@@ -226,18 +226,18 @@ Output:
     
     Hello and heLLo are equal
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/char_traits&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ basic_string](basic_string.html "cpp/string/basic string") |  stores and manipulates sequences of characters   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/dsc_basic_string&action=edit)  
+(class template)   
 ---|---  
 [ basic_string_view](basic_string_view.html "cpp/string/basic string view")(C++17) |  read-only string view   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/dsc_basic_string_view&action=edit)  
+(class template)   
 [ basic_istream](../io/basic_istream.html "cpp/io/basic istream") |  wraps a given abstract device ([std::basic_streambuf](../io/basic_streambuf.html "cpp/io/basic streambuf"))  
 and provides high-level input interface   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_basic_istream&action=edit)  
+(class template)   
 [ basic_ostream](../io/basic_ostream.html "cpp/io/basic ostream") |  wraps a given abstract device ([std::basic_streambuf](../io/basic_streambuf.html "cpp/io/basic streambuf"))  
 and provides high-level output interface   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_basic_ostream&action=edit)  
+(class template)   
 [ basic_streambuf](../io/basic_streambuf.html "cpp/io/basic streambuf") |  abstracts a raw device   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_basic_streambuf&action=edit)
+(class template) 

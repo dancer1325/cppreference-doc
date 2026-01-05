@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header is part of the [Input/output](../io.html "cpp/io") library. 
 
@@ -209,23 +209,23 @@ Including `<iostream>` behaves as if it defines a static storage duration object
   
 ###  Includes  
   
-[ <ios>](ios.html "cpp/header/ios")(C++11) |  [std::ios_base](../io/ios_base.html "cpp/io/ios base") class, [std::basic_ios](../io/basic_ios.html "cpp/io/basic ios") class template and typedefs[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/dsc_ios&action=edit)  
-[ <streambuf>](streambuf.html "cpp/header/streambuf")(C++11) |  [std::basic_streambuf](../io/basic_streambuf.html "cpp/io/basic streambuf") class template[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/dsc_streambuf&action=edit)  
-[ <istream>](istream.html "cpp/header/istream")(C++11) |  [std::basic_istream](../io/basic_istream.html "cpp/io/basic istream") class template and typedefs[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/dsc_istream&action=edit)  
-[ <ostream>](ostream.html "cpp/header/ostream")(C++11) |  [std::basic_ostream](../io/basic_ostream.html "cpp/io/basic ostream"), [std::basic_iostream](../io/basic_iostream.html "cpp/io/basic iostream") class templates and typedefs[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/dsc_ostream&action=edit)  
+[ <ios>](ios.html "cpp/header/ios")(C++11) |  [std::ios_base](../io/ios_base.html "cpp/io/ios base") class, [std::basic_ios](../io/basic_ios.html "cpp/io/basic ios") class template and typedefs  
+[ <streambuf>](streambuf.html "cpp/header/streambuf")(C++11) |  [std::basic_streambuf](../io/basic_streambuf.html "cpp/io/basic streambuf") class template  
+[ <istream>](istream.html "cpp/header/istream")(C++11) |  [std::basic_istream](../io/basic_istream.html "cpp/io/basic istream") class template and typedefs  
+[ <ostream>](ostream.html "cpp/header/ostream")(C++11) |  [std::basic_ostream](../io/basic_ostream.html "cpp/io/basic ostream"), [std::basic_iostream](../io/basic_iostream.html "cpp/io/basic iostream") class templates and typedefs  
   
 ###  Objects  
   
 [ cinwcin](../io/cin.html "cpp/io/cin") |  reads from the standard C input stream [stdin](../io/c/std_streams.html "cpp/io/c/std streams")  
-(global object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_cin&action=edit)  
+(global object)  
 [ coutwcout](../io/cout.html "cpp/io/cout") |  writes to the standard C output stream [stdout](../io/c/std_streams.html "cpp/io/c/std streams")  
-(global object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_cout&action=edit)  
+(global object)  
 [ cerrwcerr](../io/cerr.html "cpp/io/cerr") |  writes to the standard C error stream [stderr](../io/c/std_streams.html "cpp/io/c/std streams"), unbuffered  
-(global object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_cerr&action=edit)  
+(global object)  
 [ clogwclog](../io/clog.html "cpp/io/clog") |  writes to the standard C error stream [stderr](../io/c/std_streams.html "cpp/io/c/std streams")  
-(global object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_clog&action=edit)  
+(global object)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/iostream&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+### Synopsis
 
     #include <ios>
     #include <streambuf>
@@ -244,7 +244,7 @@ Including `<iostream>` behaves as if it defines a static storage duration object
       extern wostream wclog;
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/iostream&action=edit&section=2 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [Common mathematical functions](../math.html "cpp/numeric/math")
 
@@ -230,7 +230,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/navbar_content&action=edit)
+
 
 Defined in header `[<cmath>](../../header/cmath.html "cpp/header/cmath")` |  |   
 ---|---|---  
@@ -260,13 +260,13 @@ Range error due to overflow  | The mathematical result is finite, but becomes in
 Range error due to underflow  | The result is non-zero, but becomes zero after rounding, or becomes subnormal with a loss of precision  | [ERANGE](../../error/errno_macros.html "cpp/error/errno macros") or unchanged (implementation-defined)  | [FE_UNDERFLOW](../fenv/FE_exceptions.html "cpp/numeric/fenv/FE exceptions") or nothing (implementation-defined)  | [DBL_TRUE_MIN](../../types/climits.html) / 2  
 Inexact result  | The result has to be rounded to fit in the destination type  | Unchanged  | [FE_INEXACT](../fenv/FE_exceptions.html "cpp/numeric/fenv/FE exceptions") or nothing (unspecified)  | [std::sqrt](sqrt.html)(2), 1.0 / 10.0  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/math_errhandling&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 Whether [FE_INEXACT](../fenv/FE_exceptions.html "cpp/numeric/fenv/FE exceptions") is raised by the mathematical library functions is unspecified in general, but may be explicitly specified in the description of the function (e.g. [std::rint](rint.html "cpp/numeric/math/rint") vs [std::nearbyint](nearbyint.html "cpp/numeric/math/nearbyint")). 
 
 Before C++11, floating-point exceptions were not specified, [EDOM](../../error/errno_macros.html "cpp/error/errno macros") was required for any domain error, [ERANGE](../../error/errno_macros.html "cpp/error/errno macros") was required for overflows and implementation-defined for underflows. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/math_errhandling&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -302,11 +302,11 @@ Possible output:
     errno = ERANGE (Numerical result out of range)
     FE_DIVBYZERO (pole error) reported
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/math_errhandling&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ FE_ALL_EXCEPTFE_DIVBYZEROFE_INEXACTFE_INVALIDFE_OVERFLOWFE_UNDERFLOW](../fenv/FE_exceptions.html "cpp/numeric/fenv/FE exceptions")(C++11) |  floating-point exceptions   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/fenv/dsc_FE_exceptions&action=edit)  
+(macro constant)   
 ---|---  
 [ errno](../../error/errno.html "cpp/error/errno") |  macro which expands to POSIX-compatible thread-local error number variable  
-(macro variable)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_errno&action=edit)  
+(macro variable)  
 [C documentation](../../../c/numeric/math/math_errhandling.html "c/numeric/math/math errhandling") for math_errhandling

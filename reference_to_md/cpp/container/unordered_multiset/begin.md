@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 `[std::unordered_multiset](../unordered_multiset.html "cpp/container/unordered multiset")`
 
@@ -135,7 +135,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/unordered multiset/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/unordered_multiset/navbar_content&action=edit)
+
 
 iterator begin() noexcept; |  (1) | (since C++11)   
 (constexpr since C++26)  
@@ -163,11 +163,11 @@ If *this is empty, the returned iterator will be equal to [end()](end.html "cpp/
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/begin&action=edit&section=T-1 "Template:cpp/container/begin")] Return value
+### Return value
 
 Iterator to the first element. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/begin&action=edit&section=T-2 "Template:cpp/container/begin")] Complexity
+### Complexity
 
 Constant. 
 
@@ -175,7 +175,7 @@ Constant.
 
 Because both `iterator` and `const_iterator` are constant iterators (and may in fact be the same type), it is not possible to mutate the elements of the container through an iterator returned by any of these member functions. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/begin&action=edit&section=T-4 "Template:cpp/container/begin")] Example
+### Example
 
 Run this code
     
@@ -210,10 +210,10 @@ Possible output:
     count:  2
     these:  1
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/begin&action=edit&section=T-5 "Template:cpp/container/begin")] See also
+### See also
 
 [ endcend](end.html "cpp/container/unordered multiset/end") |  returns an iterator to the end   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_end&action=edit)  
+(public member function)   
 ---|---  
 [ begincbegin](../../iterator/begin.html "cpp/iterator/begin")(C++11)(C++14) |  returns an iterator to the beginning of a container or array   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_begin&action=edit)
+(function template) 

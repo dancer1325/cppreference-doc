@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Null-terminated wide strings](../wide.html "cpp/string/wide")
 
@@ -153,7 +153,7 @@
 WCHAR_MAX  
 WEOF](../wide.html#Macros "cpp/string/wide")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/navbar_content&action=edit)
+
 
 Defined in header `[<cwchar>](../../header/cwchar.html "cpp/header/cwchar")` |  |   
 ---|---|---  
@@ -177,13 +177,13 @@ If count is zero, the function does nothing.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/wmemcmp&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 lhs, rhs  |  \-  |  pointers to the wide character arrays to compare   
 ---|---|---  
 count  |  \-  |  number of wide characters to examine   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/wmemcmp&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Negative value if the value of the first differing wide character in lhs is less than the value of the corresponding wide character in rhs: lhs precedes rhs in lexicographical order. 
 
@@ -191,11 +191,11 @@ Negative value if the value of the first differing wide character in lhs is less
 
 Positive value if the value of the first differing wide character in lhs is greater than the value of the corresponding wide character in rhs: rhs precedes lhs in lexicographical order. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/wmemcmp&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 This function is not locale-sensitive and pays no attention to the values of the wchar_t objects it examines: nulls as well as invalid wide characters are compared too. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/wmemcmp&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -240,13 +240,13 @@ Possible output:
     αβδ follows αβγ in lexicographical order
     αβγ compares equal to αβγ in lexicographical order
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/wmemcmp&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ wcscmp](wcscmp.html "cpp/string/wide/wcscmp") |  compares two wide strings   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wcscmp&action=edit)  
+(function)   
 ---|---  
 [ memcmp](../byte/memcmp.html "cpp/string/byte/memcmp") |  compares two buffers   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_memcmp&action=edit)  
+(function)   
 [ wcsncmp](wcsncmp.html "cpp/string/wide/wcsncmp") |  compares a certain amount of characters from two wide strings   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wcsncmp&action=edit)  
+(function)   
 [C documentation](../../../c/string/wide/wmemcmp.html "c/string/wide/wmemcmp") for wmemcmp

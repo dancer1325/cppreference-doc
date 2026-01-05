@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](ranges/copy.html "cpp/algorithm/ra
 [uninitialized_default_construct_n](../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -332,7 +332,7 @@ This overload participates in overload resolution only if all following conditio
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/copy_n&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first  |  \-  |  the beginning of the range of elements to copy from   
 ---|---|---  
@@ -344,15 +344,15 @@ Type requirements
 -`OutputIt` must meet the requirements of [LegacyOutputIterator](../named_req/OutputIterator.html "cpp/named req/OutputIterator").   
 -`ForwardIt1, ForwardIt2` must meet the requirements of [LegacyForwardIterator](../named_req/ForwardIterator.html "cpp/named req/ForwardIterator").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/copy_n&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Iterator in the destination range, pointing past the last element copied if count > 0 or result otherwise. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/copy_n&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Zero assignments if count < 0; count assignments otherwise. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/copy_n&action=edit&section=4 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 The overload with a template parameter named `ExecutionPolicy` reports errors as follows: 
 
@@ -361,7 +361,7 @@ The overload with a template parameter named `ExecutionPolicy` reports errors as
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/copy_n&action=edit&section=5 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     template<class InputIt, class Size, class OutputIt>
@@ -381,7 +381,7 @@ The overload with a template parameter named `ExecutionPolicy` reports errors as
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/copy_n&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -415,10 +415,10 @@ Output:
     1234
     5050
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/copy_n&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ copycopy_if](copy.html "cpp/algorithm/copy")(C++11) |  copies a range of elements to a new location   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_copy&action=edit)  
+(function template)   
 ---|---  
 [ ranges::copy_n](ranges/copy_n.html "cpp/algorithm/ranges/copy n")(C++20) |  copies a number of elements to a new location  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_copy_n&action=edit)
+(algorithm function object)

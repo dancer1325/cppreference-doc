@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Diagnostics library](../../error.html "cpp/error")
 
@@ -187,7 +187,7 @@ Exception handling failures
 [breakpoint_if_debugging](../../utility/breakpoint_if_debugging.html "cpp/utility/breakpoint if debugging")(C++26)  
 [breakpoint](../../utility/breakpoint.html "cpp/utility/breakpoint")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/navbar_content&action=edit)
+
 
 [`std::errc`](../errc.html "cpp/error/errc")
 
@@ -198,7 +198,7 @@ Non-member functions
 Helper classes  
 [is_error_condition_enum](is_error_condition_enum.html "cpp/error/errc/is error condition enum")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/errc/navbar_content&action=edit)
+
 
 Defined in header `[<system_error>](../../header/system_error.html "cpp/header/system error")` |  |   
 ---|---|---  
@@ -207,16 +207,16 @@ Defined in header `[<system_error>](../../header/system_error.html "cpp/header/s
   
 Creates an error condition for an `errc` value e. Sets the error value to int(e) and error category to [std::generic_category](../generic_category.html "cpp/error/generic category"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/errc/make_error_condition&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 e  |  \-  |  standard error value   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/errc/make_error_condition&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Error condition for e. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/errc/make_error_condition&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Expressions](expressions.html "cpp/language/expressions")
 
@@ -289,7 +289,7 @@ Conversions
 [`dynamic_cast`](dynamic_cast.html "cpp/language/dynamic cast")  
 [`reinterpret_cast`](reinterpret_cast.html "cpp/language/reinterpret cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/expressions/navbar_content&action=edit)
+
 
 Returns the result of specific arithmetic operation. 
 
@@ -355,17 +355,17 @@ Bitwise right shift  | a >> b | T T::operator>>(const T2& b) const; | T operator
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_arithmetic&action=edit&section=1 "Edit section: General explanation")] General explanation
+### General explanation
 
 All built-in arithmetic operators compute the result of specific arithmetic operation and returns its result. The arguments are not modified. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_arithmetic&action=edit&section=2 "Edit section: Conversions")] Conversions
+#### Conversions
 
 If the operand passed to a built-in arithmetic operator is integral or unscoped enumeration type, then before any other action (but after lvalue-to-rvalue conversion, if applicable), the operand undergoes [integral promotion](implicit_cast.html#Integral_promotion "cpp/language/implicit conversion"). If an operand has array or function type, [array-to-pointer](implicit_cast.html#Array-to-pointer_conversion "cpp/language/implicit conversion") and [function-to-pointer](implicit_cast.html#Function-to-pointer "cpp/language/implicit conversion") conversions are applied. 
 
 For the binary operators (except shifts), if the promoted operands have different types, [usual arithmetic conversions](usual_arithmetic_conversions.html "cpp/language/usual arithmetic conversions") are applied. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_arithmetic&action=edit&section=3 "Edit section: Overflows")] Overflows
+#### Overflows
 
 Unsigned integer arithmetic is always performed modulo 2n  
 where n is the number of bits in that particular integer. E.g. for unsigned int, adding one to [UINT_MAX](../types/climits.html "cpp/types/climits") gives ​0​, and subtracting one from ​0​ gives [UINT_MAX](../types/climits.html "cpp/types/climits"). 
@@ -379,11 +379,11 @@ When signed integer arithmetic operation overflows (the result does not fit in t
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_arithmetic&action=edit&section=4 "Edit section: Floating-point environment")] Floating-point environment
+#### Floating-point environment
 
 If [` #pragma STDC FENV_ACCESS`](../preprocessor/impl.html "cpp/preprocessor/impl") is supported and set to `ON`, all floating-point arithmetic operators obey the current floating-point [rounding direction](../numeric/fenv/FE_round.html "cpp/numeric/fenv/FE round") and report floating-point arithmetic errors as specified in [`math_errhandling`](../numeric/math/math_errhandling.html "cpp/numeric/math/math errhandling") unless part of a [static initializer](initialization.html#Non-local_variables "cpp/language/initialization") (in which case floating-point exceptions are not raised and the rounding mode is to nearest). 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_arithmetic&action=edit&section=5 "Edit section: Floating-point contraction")] Floating-point contraction
+#### Floating-point contraction
 
 Unless [` #pragma STDC FP_CONTRACT`](../preprocessor/impl.html "cpp/preprocessor/impl") is supported and set to `OFF`, all floating-point arithmetic may be performed as if the intermediate results have infinite range and precision, that is, optimizations that omit rounding errors and floating-point exceptions are allowed. For example, C++ allows the implementation of (x * y) + z with a single fused multiply-add CPU instruction or optimization of a = x * x * x * x; as tmp = x * x; a = tmp * tmp. 
 
@@ -391,7 +391,7 @@ Unrelated to contracting, intermediate results of floating-point arithmetic may 
 
 Formally, the C++ standard makes no guarantee on the accuracy of floating-point operations. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_arithmetic&action=edit&section=6 "Edit section: Unary arithmetic operators")] Unary arithmetic operators
+### Unary arithmetic operators
 
 The unary arithmetic operator expressions have the form   
   
@@ -412,7 +412,7 @@ Unary `+` and `-` operators have higher [precedence](operator_precedence.html "c
     +-e; // equivalent to +(-e), the unary + is a no-op if “e” is a built-in type
          // because any possible promotion is performed during negation already
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_arithmetic&action=edit&section=7 "Edit section: Built-in unary arithmetic operators")] Built-in unary arithmetic operators
+#### Built-in unary arithmetic operators
 
 1) For the built-in unary plus operator, expression must be a prvalue of arithmetic, unscoped enumeration, or pointer type. Integral promotion is performed on expression if it has integral or unscoped enumeration type. The type of the result is the (possibly promoted) type of expression.
 
@@ -427,7 +427,7 @@ The result of the built-in negation is the negative of the promoted expression. 
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_arithmetic&action=edit&section=8 "Edit section: Overloads")] Overloads
+#### Overloads
 
 In [overload resolution against user-defined operators](overload_resolution.html#Call_to_an_overloaded_operator "cpp/language/overload resolution"), for every cv-unqualified promoted arithmetic type `A` and for every type `T`, the following function signatures participate in overload resolution: 
 
@@ -467,7 +467,7 @@ Possible output:
     size of array: 3
     size of pointer: 8
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_arithmetic&action=edit&section=9 "Edit section: Additive operators")] Additive operators
+### Additive operators
 
 The additive operator expressions have the form   
   
@@ -488,7 +488,7 @@ Binary `+` and `-` operators have higher [precedence](operator_precedence.html "
      
     j - k + l - m; // equivalent to ((j - k) + l) - m
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_arithmetic&action=edit&section=10 "Edit section: Built-in additive operators")] Built-in additive operators
+#### Built-in additive operators
 
 For built-in binary plus and binary minus operators, both of lhs and rhs must be prvalues, and one of the following conditions must be satisfied: 
 
@@ -522,7 +522,7 @@ If both operands have a floating-point type, and the type supports IEEE floating
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_arithmetic&action=edit&section=11 "Edit section: Pointer arithmetic")] Pointer arithmetic
+#### Pointer arithmetic
 
 When an expression J that has integral type is added to or subtracted from an expression P of pointer type, the result has the type of P. 
 
@@ -693,7 +693,7 @@ For addition and subtraction, if P or Q have type “pointer to (possibly cv-qua
     unsigned int k = *p; // OK, the value of “k” is 2
     unsigned int *q = p + 1; // undefined behavior: “p” points to int, not unsigned int
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_arithmetic&action=edit&section=12 "Edit section: Overloads")] Overloads
+#### Overloads
 
 In [overload resolution against user-defined operators](overload_resolution.html#Call_to_an_overloaded_operator "cpp/language/overload resolution"), for every pair of promoted arithmetic types `L` and `R` and for every object type `T`, the following function signatures participate in overload resolution: 
 
@@ -739,7 +739,7 @@ Output:
     Pointer addition examples: bdda
     Pointer difference: 3
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_arithmetic&action=edit&section=13 "Edit section: Multiplicative operators")] Multiplicative operators
+#### Multiplicative operators
 
 The multiplicative operator expressions have the form   
   
@@ -763,7 +763,7 @@ Multiplicative operators have higher [precedence](operator_precedence.html "cpp/
      
     j * k / l % m; // equivalent to ((j * k) / l) % m
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_arithmetic&action=edit&section=14 "Edit section: Built-in multiplicative operators")] Built-in multiplicative operators
+#### Built-in multiplicative operators
 
 For built-in multiplication and division operators, both operands must have arithmetic or unscoped enumeration type. For the built-in remainder operator, both operands must have integral or unscoped enumeration type. [Usual arithmetic conversions](usual_arithmetic_conversions.html "cpp/language/usual arithmetic conversions") are performed on both operands. 
 
@@ -800,7 +800,7 @@ Note: Until [CWG issue 614](https://cplusplus.github.io/CWG/issues/614.html) was
 
 Note: for floating-point remainder, see [std::remainder](../numeric/math/remainder.html "cpp/numeric/math/remainder") and [std::fmod](../numeric/math/fmod.html "cpp/numeric/math/fmod"). 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_arithmetic&action=edit&section=15 "Edit section: Overloads")] Overloads
+#### Overloads
 
 In [overload resolution against user-defined operators](overload_resolution.html#Call_to_an_overloaded_operator "cpp/language/overload resolution"), for every pair of promoted arithmetic types `LA` and `RA` and for every pair of promoted integral types `LI` and `RI` the following function signatures participate in overload resolution: 
 
@@ -838,7 +838,7 @@ Output:
     -10 / 21  = 0
     -10 % 21  = -10
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_arithmetic&action=edit&section=16 "Edit section: Bitwise logic operators")] Bitwise logic operators
+### Bitwise logic operators
 
 The bitwise logic operator expressions have the form   
   
@@ -876,7 +876,7 @@ All other bitwise logic operators have lower [precedence](operator_precedence.ht
     j & k & l; // equivalent to (j & k) & l
     m | n ^ o  // equivalent to m | (n ^ o)
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_arithmetic&action=edit&section=17 "Edit section: Built-in bitwise logic operators")] Built-in bitwise logic operators
+#### Built-in bitwise logic operators
 
 For the built-in bitwise NOT operator, rhs must be a prvalue of integral or unscoped enumeration type, and integral promotion is performed on rhs. For other built-in bitwise logic operators, both operands must have integral or unscoped enumeration type, and [usual arithmetic conversions](usual_arithmetic_conversions.html "cpp/language/usual arithmetic conversions") are performed on both operands. 
 
@@ -900,7 +900,7 @@ The type of the result r is the type of the operand x.
 
 The type of the result r is the type of the operands x and y.
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_arithmetic&action=edit&section=18 "Edit section: Overloads")] Overloads
+#### Overloads
 
 In [overload resolution against user-defined operators](overload_resolution.html#Call_to_an_overloaded_operator "cpp/language/overload resolution"), for every pair of promoted integral types `L` and `R` the following function signatures participate in overload resolution: 
 
@@ -953,7 +953,7 @@ Output:
     XOR-ing bits: 0x12345688   00010010001101000101011010001000
     Inverting bits: 0xedcba987 11101101110010111010100110000111
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_arithmetic&action=edit&section=19 "Edit section: Bitwise shift operators")] Bitwise shift operators
+### Bitwise shift operators
 
 The bitwise shift operator expressions have the form   
   
@@ -973,7 +973,7 @@ Bitwise shift operators have higher [precedence](operator_precedence.html "cpp/l
      
     g << h >> i; // equivalent to (g << h) >> i, NOT g << (h >> i)
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_arithmetic&action=edit&section=20 "Edit section: Built-in bitwise shift operators")] Built-in bitwise shift operators
+#### Built-in bitwise shift operators
 
 For the built-in bitwise shift operators, both operands must be prvalues of integral or unscoped enumeration type. Integral promotions are performed on both operands. 
 
@@ -994,7 +994,7 @@ where N is the number of bits in the return type (that is, bitwise left shift is
   
 The type of the result is that of lhs. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_arithmetic&action=edit&section=21 "Edit section: Overloads")] Overloads
+#### Overloads
 
 In [overload resolution against user-defined operators](overload_resolution.html#Call_to_an_overloaded_operator "cpp/language/overload resolution"), for every pair of promoted integral types `L` and `R`, the following function signatures participate in overload resolution: 
 
@@ -1030,63 +1030,63 @@ Output:
     0x10 << 10 = 0x4000
     -1000 >> 1 = -500
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_arithmetic&action=edit&section=22 "Edit section: Standard library")] Standard library
+### Standard library
 
 Arithmetic operators are overloaded for many standard library types. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_arithmetic&action=edit&section=23 "Edit section: Unary arithmetic operators")] Unary arithmetic operators
+#### Unary arithmetic operators
 
 [ operator+operator-](../chrono/duration/operator_arith.html "cpp/chrono/duration/operator arith") |  implements unary + and unary -   
-(public member function of `std::chrono::duration<Rep,Period>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/duration/dsc_operator_arith&action=edit)  
+(public member function of `std::chrono::duration<Rep,Period>`)   
 ---|---  
 [ operator+operator-](../numeric/complex/operator_arith2.html "cpp/numeric/complex/operator arith2") |  applies unary operators to complex numbers   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_operator_arith2&action=edit)  
+(function template)   
 [ operator+operator-operator~operator!](../numeric/valarray/operator_arith.html "cpp/numeric/valarray/operator arith") |  applies a unary arithmetic operator to each element of the valarray   
-(public member function of `std::valarray<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_operator_arith&action=edit)  
+(public member function of `std::valarray<T>`)   
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_arithmetic&action=edit&section=24 "Edit section: Additive operators")] Additive operators
+#### Additive operators
 
 [ operator+operator-](../chrono/time_point/operator_arith2.html "cpp/chrono/time point/operator arith2")(C++11) |  performs add and subtract operations involving a time point   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_point/dsc_operator_arith2&action=edit)  
+(function template)   
 ---|---  
 [ operator+operator-operator*operator/operator%](../chrono/duration/operator_arith4.html "cpp/chrono/duration/operator arith4")(C++11) |  implements arithmetic operations with durations as arguments   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/duration/dsc_operator_arith4&action=edit)  
+(function template)   
 [ operator+operator-](../chrono/year_month_day/operator_arith_2.html "cpp/chrono/year month day/operator arith 2")(C++20) |  adds or subtracts a `year_month_day` and some number of years or months   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/year_month_day/dsc_operator_arith_2&action=edit)  
+(function)   
 [ operator+](https://en.cppreference.com/w/cpp/string/basic_string/operator%2B "cpp/string/basic string/operator+") |  concatenates two strings, a string and a char, or a string and [string_view](../string/basic_string_view.html "cpp/string/basic string view")   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_operator%2B&action=edit)  
+(function template)   
 [ operator+operator-](../iterator/reverse_iterator/operator++.html "cpp/iterator/reverse iterator/operator arith") |  advances or decrements the iterator   
 (public member function of `std::reverse_iterator<Iter>`)  
 [ operator+operator-](../iterator/move_iterator/operator_arith.html "cpp/iterator/move iterator/operator arith") |  advances or decrements the iterator   
 (public member function of `std::move_iterator<Iter>`)  
 [ operator+operator-operator*operator/](../numeric/complex/operator_arith3.html "cpp/numeric/complex/operator arith3") |  performs complex number arithmetic on two complex values or a complex and a scalar   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_operator_arith3&action=edit)  
+(function template)   
 [ operator+operator-operator*operator/operator%operator&operator|operator^operator<<operator>>operator&&operator||](../numeric/valarray/operator_arith3.html "cpp/numeric/valarray/operator arith3") |  applies binary operators to each element of two valarrays, or a valarray and a value   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_operator_arith3&action=edit)  
+(function template)   
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_arithmetic&action=edit&section=25 "Edit section: Multiplicative operators")] Multiplicative operators
+#### Multiplicative operators
 
 [ operator+operator-operator*operator/operator%](../chrono/duration/operator_arith4.html "cpp/chrono/duration/operator arith4")(C++11) |  implements arithmetic operations with durations as arguments   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/duration/dsc_operator_arith4&action=edit)  
+(function template)   
 ---|---  
 [ operator+operator-operator*operator/](../numeric/complex/operator_arith3.html "cpp/numeric/complex/operator arith3") |  performs complex number arithmetic on two complex values or a complex and a scalar   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_operator_arith3&action=edit)  
+(function template)   
 [ operator+operator-operator*operator/operator%operator&operator|operator^operator<<operator>>operator&&operator||](../numeric/valarray/operator_arith3.html "cpp/numeric/valarray/operator arith3") |  applies binary operators to each element of two valarrays, or a valarray and a value   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_operator_arith3&action=edit)  
+(function template)   
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_arithmetic&action=edit&section=26 "Edit section: Bitwise logic operators")] Bitwise logic operators
+#### Bitwise logic operators
 
 [ operator&=operator|=operator^=operator~](../utility/bitset/operator_logic.html "cpp/utility/bitset/operator logic") |  performs binary AND, OR, XOR and NOT   
-(public member function of `std::bitset<N>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/bitset/dsc_operator_logic&action=edit)  
+(public member function of `std::bitset<N>`)   
 ---|---  
 [ operator&operator|operator^](../utility/bitset/operator_logic2.html "cpp/utility/bitset/operator logic2") |  performs binary logic operations on bitsets   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/bitset/dsc_operator_logic2&action=edit)  
+(function template)   
 [ operator~](../numeric/valarray/operator_arith.html "cpp/numeric/valarray/operator arith") |  applies a unary arithmetic operator to each element of the valarray   
 (public member function of `std::valarray<T>`)  
 [ operator^operator&operator|](../numeric/valarray/operator_arith3.html "cpp/numeric/valarray/operator arith3") |  applies binary operators to each element of two valarrays, or a valarray and a value   
 (function template)  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_arithmetic&action=edit&section=27 "Edit section: Bitwise shift operators")] Bitwise shift operators
+#### Bitwise shift operators
 
 [ operator<<operator>>](../numeric/valarray/operator_arith3.html "cpp/numeric/valarray/operator arith3") |  applies binary operators to each element of two valarrays, or a valarray and a value   
 (function template)  
@@ -1094,31 +1094,31 @@ Arithmetic operators are overloaded for many standard library types.
 [ operator<<operator>>](../utility/bitset/operator_ltltgtgt.html "cpp/utility/bitset/operator ltltgtgt") |  performs binary shift left and shift right   
 (public member function of `std::bitset<N>`)  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_arithmetic&action=edit&section=28 "Edit section: Stream insertion/extraction operators")] Stream insertion/extraction operators
+#### Stream insertion/extraction operators
 
 Throughout the standard library, bitwise shift operators are commonly overloaded with I/O stream ([std::ios_base](../io/ios_base.html)& or one of the classes derived from it) as both the left operand and return type. Such operators are known as _stream insertion_ and _stream extraction_ operators: 
 
 [ operator>>](../io/basic_istream/operator_gtgt.html "cpp/io/basic istream/operator gtgt") |  extracts formatted data   
-(public member function of `std::basic_istream<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_istream/dsc_operator_gtgt&action=edit)  
+(public member function of `std::basic_istream<CharT,Traits>`)   
 ---|---  
 [ operator>>(std::basic_istream)](../io/basic_istream/operator_gtgt2.html "cpp/io/basic istream/operator gtgt2") |  extracts characters and character arrays   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_istream/dsc_operator_gtgt2&action=edit)  
+(function template)   
 [ operator<<](../io/basic_ostream/operator_ltlt.html "cpp/io/basic ostream/operator ltlt") |  inserts formatted data   
-(public member function of `std::basic_ostream<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ostream/dsc_operator_ltlt&action=edit)  
+(public member function of `std::basic_ostream<CharT,Traits>`)   
 [ operator<<(std::basic_ostream)](../io/basic_ostream/operator_ltlt2.html "cpp/io/basic ostream/operator ltlt2") |  inserts character data or insert into rvalue stream   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ostream/dsc_operator_ltlt2&action=edit)  
+(function template)   
 [ operator<<operator>>](../numeric/complex/operator_ltltgtgt.html "cpp/numeric/complex/operator ltltgtgt") |  serializes and deserializes a complex number   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_operator_ltltgtgt&action=edit)  
+(function template)   
 [ operator<<operator>>](../utility/bitset/operator_ltltgtgt2.html "cpp/utility/bitset/operator ltltgtgt2") |  performs stream input and output of bitsets   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/bitset/dsc_operator_ltltgtgt2&action=edit)  
+(function template)   
 [ operator<<operator>>](../string/basic_string/operator_ltltgtgt.html "cpp/string/basic string/operator ltltgtgt") |  performs stream input and output on strings   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_operator_ltltgtgt&action=edit)  
+(function template)   
 [ operator<<operator>>](../numeric/random/linear_congruential_engine/operator_ltltgtgt.html "cpp/numeric/random/linear congruential engine/operator ltltgtgt")(C++11) |  performs stream input and output on pseudo-random number engine   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/engine/dsc_operator_ltltgtgt&action=edit)  
+(function template)   
 [ operator<<operator>>](../numeric/random/uniform_int_distribution/operator_ltltgtgt.html "cpp/numeric/random/uniform int distribution/operator ltltgtgt")(C++11) |  performs stream input and output on pseudo-random number distribution   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/distribution/dsc_operator_ltltgtgt&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_arithmetic&action=edit&section=29 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -1157,7 +1157,7 @@ of the base-2 representation
 [CWG 2853](https://cplusplus.github.io/CWG/issues/2853.html) | C++98  | a pointer past the end of an object could  
 not be added or subtracted with an integer  | it can   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_arithmetic&action=edit&section=30 "Edit section: See also")] See also
+### See also
 
 [Operator precedence](operator_precedence.html "cpp/language/operator precedence")
 

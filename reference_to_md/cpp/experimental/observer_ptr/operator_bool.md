@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Library fundamentals v2](../lib_extensions_2.html "cpp/experimental/lib extensions 2")
 
@@ -74,7 +74,7 @@
 [uniform container erasure](../lib_extensions_2.html#Uniform_container_erasure "cpp/experimental/lib extensions 2")  
 [logical operator type traits](../lib_extensions_2.html#Logical_operator_type_traits "cpp/experimental/lib extensions 2")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions_2/navbar_content&action=edit)
+
 
 [`std::experimental::observer_ptr`](../observer_ptr.html "cpp/experimental/observer ptr")
 
@@ -97,7 +97,7 @@ Non-member functions
 [swap](swap2.html "cpp/experimental/observer ptr/swap2")  
 [std::hash](hash.html "cpp/experimental/observer ptr/hash")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/observer_ptr/navbar_content&action=edit)
+
 
 constexpr explicit operator bool() const noexcept; |  |  (library fundamentals TS v2)  
 ---|---|---  
@@ -115,22 +115,22 @@ Checks whether *this has an associated watched object, i.e. whether get() != nul
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/observer_ptr/operator_bool&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/observer_ptr/operator_bool&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 true if *this has an associated watched object, false otherwise. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/observer_ptr/operator_bool&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/observer_ptr/operator_bool&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ get](get.html "cpp/experimental/observer ptr/get") |  returns a pointer to the watched object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/observer_ptr/dsc_get&action=edit)  
+(public member function)   
 ---|---

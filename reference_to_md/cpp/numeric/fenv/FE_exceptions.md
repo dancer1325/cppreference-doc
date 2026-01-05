@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [Floating-point environment](../fenv.html "cpp/numeric/fenv")
 
@@ -106,7 +106,7 @@ Macro constants
 [FE_DOWNWARDFE_TONEARESTFE_TOWARDZEROFE_UPWARD](FE_round.html "cpp/numeric/fenv/FE round")(C++11)(C++11)(C++11)(C++11)  
 [FE_DFL_ENV](FE_DFL_ENV.html "cpp/numeric/fenv/FE DFL ENV")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/fenv/navbar_content&action=edit)
+
 
 Defined in header `[<cfenv>](../../header/cfenv.html "cpp/header/cfenv")` |  |   
 ---|---|---  
@@ -137,9 +137,9 @@ The implementation may define additional macro constants in [`<cfenv>`](../../he
 
 See [math_errhandling](../math/math_errhandling.html "cpp/numeric/math/math errhandling") for further details. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/fenv/FE_exceptions&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/fenv/example1&action=edit)
+
 
 Run this code
     
@@ -187,9 +187,9 @@ Possible output:
     sqrt(-1) = -nan
     invalid result reported
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/fenv/FE_exceptions&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ math_errhandlingMATH_ERRNOMATH_ERREXCEPT](../math/math_errhandling.html "cpp/numeric/math/math errhandling")(C++11)(C++11)(C++11) |  defines the error handling mechanism used by the common mathematical functions   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_math_errhandling&action=edit)  
+(macro constant)   
 ---|---  
 [C documentation](../../../c/numeric/fenv/FE_exceptions.html "c/numeric/fenv/FE exceptions") for floating point exception macros

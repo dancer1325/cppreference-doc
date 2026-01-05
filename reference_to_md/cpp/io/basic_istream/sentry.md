@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_istream`](../basic_istream.html "cpp/io/basic istream")
 
@@ -111,7 +111,7 @@ Member classes
 Non-member functions  
 [operator>>(std::basic_istream)](operator_gtgt2.html "cpp/io/basic istream/operator gtgt2")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_istream/navbar_content&action=edit)
+
 
 class sentry; |  |   
 ---|---|---  
@@ -137,22 +137,22 @@ An object of class `basic_istream::sentry` is constructed in local scope at the 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_istream/sentry&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 `traits_type` |  `Traits`  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_istream/sentry&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 **(constructor)** |  constructs the sentry object. All the preparation tasks are done here   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_istream/sentry/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 **(destructor)** |  finalizes the stream object after formatted input or after exception, if necessary   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_istream/sentry/dsc_destructor&action=edit)  
+(public member function)   
 operator=[deleted] |  not copy assignable   
 (public member function)  
 ** operator bool** |  checks if the preparation of the stream object was successful   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_istream/sentry/dsc_operator_bool&action=edit)  
+(public member function)   
   
 ##  std::basic_istream::sentry::sentry
 
@@ -204,7 +204,7 @@ Checks whether the preparation of the input stream was successful.
 
 true if the initialization of the input stream was successful, false otherwise. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_istream/sentry&action=edit&section=7 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -240,7 +240,7 @@ Output:
     
     abcde
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_istream/sentry&action=edit&section=8 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -249,10 +249,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [LWG 195](https://cplusplus.github.io/LWG/issue195) | C++98  | it was unclear whether the constructor would set `eofbit` | made clear   
 [LWG 419](https://cplusplus.github.io/LWG/issue419) | C++98  | the constructor did not set `failbit` if `eofbit` has been set  | sets `failbit` in this case   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_istream/sentry&action=edit&section=9 "Edit section: See also")] See also
+### See also
 
 [ operator>>](operator_gtgt.html "cpp/io/basic istream/operator gtgt") |  extracts formatted data   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_istream/dsc_operator_gtgt&action=edit)  
+(public member function)   
 ---|---  
 [ operator>>(std::basic_istream)](operator_gtgt2.html "cpp/io/basic istream/operator gtgt2") |  extracts characters and character arrays   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_istream/dsc_operator_gtgt2&action=edit)
+(function template) 

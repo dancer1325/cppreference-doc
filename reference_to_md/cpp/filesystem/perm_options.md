@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Filesystem library](../filesystem.html "cpp/filesystem")
 
@@ -100,7 +100,7 @@ filesystem::symlink_status](status.html "cpp/filesystem/status")
 [filesystem::is_socket](is_socket.html "cpp/filesystem/is socket")  
 [filesystem::is_symlink](is_symlink.html "cpp/filesystem/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/navbar_content&action=edit)
+
 
 Defined in header `[<filesystem>](../header/filesystem.html "cpp/header/filesystem")` |  |   
 ---|---|---  
@@ -116,7 +116,7 @@ This type represents available options that control the behavior of the function
 
 `perm_options` satisfies the requirements of [BitmaskType](../named_req/BitmaskType.html "cpp/named req/BitmaskType") (which means the bitwise operators operator&, operator|, operator^, operator~, operator&=, operator|=, and operator^= are defined for this type). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/perm_options&action=edit&section=1 "Edit section: Member constants")] Member constants
+### Member constants
 
 At most one of `add`, `remove`, `replace` may be present, otherwise the behavior of the permissions function is undefined. 
 
@@ -127,7 +127,7 @@ Enumerator  |  Meaning
 `remove` |  permissions will be replaced by the bitwise AND of the negated argument and current permissions   
 `nofollow` |  permissions will be changed on the symlink itself, rather than on the file it resolves to   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/perm_options&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -180,10 +180,10 @@ Possible output:
     Created file with permissions: rw-r--r--
     After adding u+rwx and g+wrx:  rwxrwxr--
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/perm_options&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ permissions](permissions.html "cpp/filesystem/permissions")(C++17) |  modifies file access permissions   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_permissions&action=edit)  
+(function)   
 ---|---  
 [ perms](perms.html "cpp/filesystem/perms")(C++17) |  identifies file system permissions   
-(enum) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_perms&action=edit)
+(enum) 

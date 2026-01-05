@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::unique_ptr`](../unique_ptr.html "cpp/memory/unique ptr")
 
@@ -211,7 +211,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
 [Helper classes](../unique_ptr.html#Helper_classes "cpp/memory/unique ptr")  
 [hash<std::unique_ptr>](hash.html "cpp/memory/unique ptr/hash")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/unique_ptr/navbar_content&action=edit)
+
 
 Deleter& get_deleter() noexcept; |  |  (since C++11)   
 (constexpr since C++23)  
@@ -232,15 +232,15 @@ Returns the deleter object which would be used for destruction of the managed ob
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/unique_ptr/get_deleter&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/unique_ptr/get_deleter&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The stored deleter object. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/unique_ptr/get_deleter&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -299,8 +299,8 @@ Output:
     call deleter for Foo object 0x0x90cc30
     ~Foo() 0x0x90cc30
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/unique_ptr/get_deleter&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ get_deleter](../shared_ptr/get_deleter.html "cpp/memory/shared ptr/get deleter") |  returns the deleter of specified type, if owned   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/dsc_get_deleter&action=edit)  
+(function template)   
 ---|---

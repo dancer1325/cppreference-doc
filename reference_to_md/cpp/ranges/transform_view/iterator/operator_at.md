@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::transform_view`](../../transform_view.html "cpp/ranges/transform view")
 
@@ -263,7 +263,7 @@ operator-(transform_view::_iterator_)](operator_arith2.html "cpp/ranges/transfor
 [operator==(transform_view::_iterator_ ,transform_view::_sentinel_)](../sentinel/operator_cmp.html "cpp/ranges/transform view/sentinel/operator cmp")  
 [operator-(transform_view::_iterator_ ,transform_view::_sentinel_)](../sentinel/operator-.html "cpp/ranges/transform view/sentinel/operator-")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/transform_view/navbar_content&action=edit)
+
 
 constexpr decltype(auto) operator[]( difference_type n ) const  
 requires [ranges::random_access_range](../../random_access_range.html)<Base>; |  |  (since C++20)  
@@ -274,16 +274,16 @@ Returns the element at specified relative location, after transformation.
 
 Effectively returns [std::invoke](../../../utility/functional/invoke.html)(*parent_->fun_, current_[n]), where *parent_->fun_ is the transformation function stored in the parent `transform_view`, and `current_` is the underlying iterator into `V`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/transform_view/iterator/operator_at&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 n  |  \-  |  position relative to current location.   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/transform_view/iterator/operator_at&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 the transformed element 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/transform_view/iterator/operator_at&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

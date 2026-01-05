@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 **Feature testing**
 
@@ -51,7 +51,7 @@ The standard defines a set of [preprocessor macros](../preprocessor/replace.html
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/feature_test&action=edit&section=1 "Edit section: Attributes")] Attributes  
+### Attributes  
   
 ---  
 `**__has_cpp_attribute(**` attribute-token `**)**` |  |   
@@ -83,13 +83,13 @@ attribute-token | Attribute  | Value | Std | Paper(s)
 `unlikely` | `[[[unlikely](../language/attributes/likely.html "cpp/language/attributes/likely")]]` | [`201803L`](../compiler_support/20.html#likely "cpp/compiler support/20") | (C++20) | [P0479R5](https://wg21.link/P0479R5)  
 Total number of attributes: 11   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/feature_test&action=edit&section=2 "Edit section: Language features")] Language features
+### Language features
 
 The following macros can be used to detect whether a language feature is implemented by the current implementation. They are [predefined](../preprocessor/replace.html#Predefined_macros "cpp/preprocessor/replace") in every translation unit. 
 
 Each macro expands to an integer literal corresponding to the year and month when the corresponding feature has been included in the working draft. When a feature changes significantly, the macro will be updated accordingly. 
 
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/lang_feature_macros&action=edit)
+
 
 Macro name  | Feature  | Value | Std | Paper(s)   
 ---|---|---|---|---  
@@ -220,7 +220,7 @@ Lifetime extension in range-based for | [`202211L`](../compiler_support/23.html#
 `__cpp_variadic_using` | Pack expansions in [`using`-declarations](../language/using_declaration.html "cpp/language/using declaration") | [`201611L`](../compiler_support/17.html#cpp_variadic_using_201611L "cpp/compiler support/17") | (C++17) | [P0195R2](https://wg21.link/P0195R2)  
 Total number of macros: 76   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/feature_test&action=edit&section=3 "Edit section: Library features")] Library features
+### Library features
 
 The following macros can be used to detect whether a standard library feature is implemented by the current implementation. Unlike the language feature test macros, they are not predefined. Instead, they are provided by the header [`<version>`](../header/version.html "cpp/header/version"). 
 
@@ -228,7 +228,7 @@ For each library feature test macro, it is also provided by the headers that pro
 
 Each macro expands to an integer literal corresponding to the year and month when the corresponding feature has been included in the working draft. When a feature changes significantly, the macro will be updated accordingly. 
 
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/lib_feature_macros&action=edit)
+
 
 Macro name  | Feature  | Value | Std | Paper(s)   
 ---|---|---|---|---  
@@ -645,9 +645,9 @@ Member [`visit`](../utility/variant/visit.html "cpp/utility/variant/visit") | [`
 `__cpp_lib_void_t` | [std::void_t](../types/void_t.html "cpp/types/void t") | [`201411L`](../compiler_support/17.html#cpp_lib_void_t_201411L "cpp/compiler support/17") | (C++17) | [N3911](https://wg21.link/N3911)  
 Total number of macros: 282   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/feature_test&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/feature_test&action=edit&section=5 "Edit section: Normal usage")] Normal usage
+#### Normal usage
 
 Run this code
     
@@ -699,9 +699,9 @@ Run this code
      
     int main() {}
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/feature_test&action=edit&section=6 "Edit section: Compiler Features Dump")] Compiler Features Dump
+#### Compiler Features Dump
 
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/compiler_support/dump&action=edit)
+
 
 The following (C++11 compatible) program dumps C++ compiler features and attributes. Note that the use of __has_cpp_attribute() is not [conformant](feature_test.html#Attributes "cpp/feature test") and depends on the gcc/clang implementation.
 
@@ -1481,7 +1481,7 @@ Possible output:
     __STDCPP_FLOAT32_T__                          1
     ... truncated ...
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/feature_test&action=edit&section=7 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -1489,14 +1489,14 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [P2552R3](https://wg21.link/P2552R3) | C++20  | `__has_cpp_attribute` must expand to a non-zero value for standard attributes  | can expand to ​0​  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/feature_test&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [**Library feature-test macros**](../utility/feature_test.html "cpp/utility/feature test") (C++20) |  defined in the header [`<version>`](../header/version.html "cpp/header/version")  
 ---|---  
 **[Predefined Macro Symbols](../preprocessor/replace.html#Predefined_macros "cpp/preprocessor/replace")**  
 **[Macro Symbol Index](../symbol_index/macro.html "cpp/symbol index/macro")**  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/feature_test&action=edit&section=9 "Edit section: External links")] External links
+### External links
 
 1\.  | [The official document on Feature-Test Recommendations](https://isocpp.org/std/standing-documents/sd-6-sg10-feature-test-recommendations)  
 ---|---  

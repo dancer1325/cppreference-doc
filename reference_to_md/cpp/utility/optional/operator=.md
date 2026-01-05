@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::optional`](../optional.html "cpp/utility/optional")
 
@@ -167,7 +167,7 @@ Common vocabulary types
 [nullopt](nullopt.html "cpp/utility/optional/nullopt")  
 [in_place](../in_place.html "cpp/utility/in place")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/navbar_content&action=edit)
+
 
 optional& operator=( [std::nullopt_t](nullopt_t.html) ) noexcept; |  (1) | (since C++17)   
 (constexpr since C++20)  
@@ -263,17 +263,17 @@ This overload participates in overload resolution only if all following conditio
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/operator%3D&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 other  |  \-  |  another `optional` object whose contained value to assign   
 ---|---|---  
 value  |  \-  |  value to assign to the contained value   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/operator%3D&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 *this
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/operator%3D&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 2-6) Throws any exception thrown by the constructor or assignment operator of `T`. If an exception is thrown, the initialization state of *this (and of other in case of ([2-5](operator=.html#Version_2))) is unchanged, i.e. if the object contained a value, it still contains a value, and the other way round. The contents of value and the contained values of *this and other depend on the exception safety guarantees of the operation from which the exception originates (copy-constructor, move-assignment, etc.).
 
@@ -284,7 +284,7 @@ value  |  \-  |  value to assign to the contained value
 noexcept([std::is_nothrow_move_assignable_v](../../types/is_move_assignable.html)<T> &&  
 [std::is_nothrow_move_constructible_v](../../types/is_move_constructible.html)<T>)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/operator%3D&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 An optional object op may be turned into an empty optional with both op = {}; and op = nullopt;. The first expression constructs an empty `optional` object with {} and assigns it to op. 
 
@@ -293,7 +293,7 @@ An optional object op may be turned into an empty optional with both op = {}; an
 [`__cpp_lib_optional`](../../experimental/feature_test.html#cpp_lib_optional "cpp/feature test") | [`202106L`](../../compiler_support/20.html#cpp_lib_optional_202106L "cpp/compiler support/20") | (C++20)  
 (DR20) | Fully constexpr ([1](operator=.html#Version_1)), ([4-6](operator=.html#Version_4))  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/operator%3D&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -314,7 +314,7 @@ Output:
     
     abc def
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/operator%3D&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -325,10 +325,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 even if underlying operations are trivial  | required to propagate triviality   
 [P2231R1](https://wg21.link/P2231R1) | C++20  | overloads ([1,4-6](operator=.html#Version_1)) were not constexpr | made constexpr  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/operator%3D&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ emplace](emplace.html "cpp/utility/optional/emplace") |  constructs the contained value in-place   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/dsc_emplace&action=edit)  
+(public member function)   
 ---|---
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

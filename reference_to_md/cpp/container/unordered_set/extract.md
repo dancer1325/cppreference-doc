@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 `[std::unordered_set](../unordered_set.html "cpp/container/unordered set")`
 
@@ -137,7 +137,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/unordered set/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/unordered_set/navbar_content&action=edit)
+
 
 node_type extract( const_iterator pos ); |  (1) | (since C++17)   
 (constexpr since C++26)  
@@ -172,28 +172,28 @@ Extracting a node invalidates only the iterators to the extracted element, and p
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/extract_assoc&action=edit&section=T-1 "Template:cpp/container/extract assoc")] Parameters
+### Parameters
 
 pos  |  \-  |  a valid iterator into this container   
 ---|---|---  
 k  |  \-  |  a key to identify the node to be extracted   
 x  |  \-  |  a value of any type that can be transparently compared with a key identifying the node to be extracted   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/extract_assoc&action=edit&section=T-2 "Template:cpp/container/extract assoc")] Return value
+### Return value
 
 A [node handle](../node_handle.html "cpp/container/node handle") that owns the extracted element, or empty node handle in case the element is not found in (2,3). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/extract_assoc&action=edit&section=T-3 "Template:cpp/container/extract assoc")] Exceptions
+### Exceptions
 
 1) Throws nothing.
 
 2,3) Any exceptions thrown by the `Hash` and `KeyEqual` object.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/extract_assoc&action=edit&section=T-4 "Template:cpp/container/extract assoc")] Complexity
+### Complexity
 
 1-3) Average case O(1), worst case O([size()](size.html "cpp/container/unordered set/size")).
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/extract_assoc&action=edit&section=T-5 "Template:cpp/container/extract assoc")] Notes
+### Notes
 
 extract is the only way to take a move-only object out of a set: 
     
@@ -206,7 +206,7 @@ extract is the only way to take a move-only object out of a set:
 ---|---|---|---  
 [`__cpp_lib_associative_heterogeneous_erasure`](../../experimental/feature_test.html#cpp_lib_associative_heterogeneous_erasure "cpp/feature test") | [`202110L`](../../compiler_support/23.html#cpp_lib_associative_heterogeneous_erasure_202110L "cpp/compiler support/23") | (C++23) | Heterogeneous erasure in [associative containers](../../container.html#Associative_containers "cpp/container") and [unordered associative containers](../../container.html#Unordered_associative_containers "cpp/container"), ([3](extract.html#Version_3))  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/extract_assoc&action=edit&section=T-6 "Template:cpp/container/extract assoc")] Example
+### Example
 
 Run this code
     
@@ -250,14 +250,14 @@ Possible output:
     After extract and before insert: 2 3
     End: 2 3 4
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/extract_assoc&action=edit&section=T-7 "Template:cpp/container/extract assoc")] See also
+### See also
 
 [ merge](merge.html "cpp/container/unordered set/merge")(C++17) |  splices nodes from another container   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_merge&action=edit)  
+(public member function)   
 ---|---  
 [ insert](insert.html "cpp/container/unordered set/insert") |  inserts elements or nodes(since C++17)   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_insert&action=edit)  
+(public member function)   
 [ erase](erase.html "cpp/container/unordered set/erase") |  erases elements   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_erase&action=edit)
+(public member function) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::year`](../year.html "cpp/chrono/year")
 
@@ -126,7 +126,7 @@ Helper classes
 [formatter<std::chrono::year>](formatter.html "cpp/chrono/year/formatter")  
 [hash<std::chrono::year>](hash.html "cpp/chrono/year/hash")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/year/navbar_content&action=edit)
+
 
 constexpr bool ok() const noexcept; |  |  (since C++20)  
 ---|---|---  
@@ -134,11 +134,11 @@ constexpr bool ok() const noexcept; |  |  (since C++20)
   
 Checks if the year value stored in *this is in the valid range, i.e., `[`-32767`, `32767`]`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/year/ok&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 true if the year value stored in *this is in the range `[`-32767`, `32767`]`. Otherwise false. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/year/ok&action=edit&section=2 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
 
 See the implementations in [libstdc++](https://github.com/gcc-mirror/gcc/blob/919858077f4b768c8472f29b977edf0aa6e0f1e5/libstdc%2B%2B-v3/include/std/chrono#L1606), [libc++](https://github.com/llvm-mirror/libcxx/blob/78d6a7767ed57b50122a161b91f59f19c9bd0d19/include/chrono#L1832), and Howard Hinnant's [date.h](https://github.com/HowardHinnant/date/blob/0b72599bd43f72d8935e507e25e4f0063f9bb34e/include/date/date.h#L1630). 
     
@@ -156,7 +156,7 @@ See the implementations in [libstdc++](https://github.com/gcc-mirror/gcc/blob/91
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/year/ok&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     

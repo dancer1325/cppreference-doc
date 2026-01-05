@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concepts library](../concepts.html "cpp/concepts")
 
@@ -73,7 +73,7 @@
 ---  
 [_boolean-testable_](boolean-testable.html "cpp/concepts/boolean-testable") ﻿(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/navbar_content&action=edit)
+
 
 Defined in header `[<concepts>](../header/concepts.html "cpp/header/concepts")` |  |   
 ---|---|---  
@@ -86,7 +86,7 @@ concept common_reference_with =
   
 The concept `common_reference_with<T, U>` specifies that two types `T` and `U` share a _common reference type_ (as computed by std::common_reference_t) to which both can be converted. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/concepts/common_reference_with&action=edit&section=1 "Edit section: Semantic requirements")] Semantic requirements
+### Semantic requirements
 
 T and U model std::common_reference_with<T, U> only if, given [equality-preserving](../concepts.html#Equality_preservation "cpp/concepts") expressions `t1`, `t2`, `u1` and `u2` such that decltype((t1)) and decltype((t2)) are both `T` and decltype((u1)) and decltype((u2)) are both `U`, 
 
@@ -97,7 +97,7 @@ T and U model std::common_reference_with<T, U> only if, given [equality-preservi
 
 In other words, the conversion to the common reference type must [preserve equality](../concepts.html#Equality_preservation "cpp/concepts"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/concepts/common_reference_with&action=edit&section=2 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -119,12 +119,12 @@ In other words, the conversion to the common reference type must [preserve equal
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/concepts/common_reference_with&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ common_referencebasic_common_reference](../types/common_reference.html "cpp/types/common reference")(C++20) |  determines the common reference type of a group of types   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_common_reference&action=edit)  
+(class template)   
 ---|---  
 [ common_with](common_with.html "cpp/concepts/common with")(C++20) |  specifies that two types share a common type   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_common_with&action=edit)  
+(concept)   
 [ common_type](../types/common_type.html "cpp/types/common type")(C++11) |  determines the common type of a group of types   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_common_type&action=edit)
+(class template) 

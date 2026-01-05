@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::bitset`](../bitset.html "cpp/utility/bitset")
 
@@ -167,7 +167,7 @@ Common vocabulary types
 [Helper classes](../bitset.html#Helper_classes "cpp/utility/bitset")  
 [std::hash](hash.html "cpp/utility/bitset/hash")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/bitset/navbar_content&action=edit)
+
 
 bitset& operator&=( const bitset& other ); |  (1) | (noexcept since C++11)   
 (constexpr since C++23)  
@@ -202,18 +202,18 @@ Note that `&=`, `|=`, and `^=` are only defined for bitsets of the same size `N`
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/bitset/operator_logic&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 other  |  \-  |  another bitset   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/bitset/operator_logic&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1-3) *this
 
 4) [std::bitset](../bitset.html)<N>(*this).flip()
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/bitset/operator_logic&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -247,8 +247,8 @@ Output:
     1001100110011001 (i = 1)
     0110011001100110 (~dest)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/bitset/operator_logic&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ operator<<=operator>>=operator<<operator>>](operator_ltltgtgt.html "cpp/utility/bitset/operator ltltgtgt") |  performs binary shift left and shift right   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/bitset/dsc_operator_ltltgtgt&action=edit)  
+(public member function)   
 ---|---

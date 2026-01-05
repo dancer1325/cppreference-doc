@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::source_location`](../source_location.html "cpp/utility/source location")
 
@@ -143,7 +143,7 @@ Field access
 [source_location::file_name](file_name.html "cpp/utility/source location/file name")  
 [source_location::function_name](function_name.html "cpp/utility/source location/function name")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/source_location/navbar_content&action=edit)
+
 
 constexpr [std::uint_least32_t](../../types/integer.html) column() const noexcept; |  |  (since C++20)  
 ---|---|---  
@@ -161,17 +161,17 @@ Returns an implementation-defined value representing some offset from the start 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/source_location/column&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/source_location/column&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 An implementation-defined value representing some offset from the start of the line represented by this object (i.e., the column number). 
 
 An implementation is encouraged to use `0` when the column number is unknown. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/source_location/column&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -204,13 +204,13 @@ Possible output:
     (18:9) Proxima
     (19:11) Centauri
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/source_location/column&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ line](line.html "cpp/utility/source location/line") |  return the line number represented by this object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/source_location/dsc_line&action=edit)  
+(public member function)   
 ---|---  
 [ file_name](file_name.html "cpp/utility/source location/file name") |  return the file name represented by this object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/source_location/dsc_file_name&action=edit)  
+(public member function)   
 [ function_name](function_name.html "cpp/utility/source location/function name") |  return the name of the function represented by this object, if any   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/source_location/dsc_function_name&action=edit)  
+(public member function)   
 [ Filename and line information](../../preprocessor/line.html "cpp/preprocessor/line")

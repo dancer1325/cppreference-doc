@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::pair`](../pair.html "cpp/utility/pair")
 
@@ -151,7 +151,7 @@ Common vocabulary types
 [piecewise_construct_t](../piecewise_construct.html "cpp/utility/piecewise construct")(C++11)  
 [Deduction guides](deduction_guides.html "cpp/utility/pair/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/pair/navbar_content&action=edit)
+
 
 pair(); |  (1) | (constexpr since C++11)   
 (conditionally explicit since C++11)  
@@ -265,7 +265,7 @@ This constructor is defined as deleted if the initialization of `first` or `seco
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/pair/pair&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 x  |  \-  |  value to initialize the first element of this pair   
 ---|---|---  
@@ -275,11 +275,11 @@ u  |  \-  |  [`_pair-like_`](../tuple/tuple-like.html "cpp/utility/tuple/tuple-l
 first_args  |  \-  |  tuple of constructor arguments to initialize the first element of this pair   
 second_args  |  \-  |  tuple of constructor arguments to initialize the second element of this pair   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/pair/pair&action=edit&section=2 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Does not throw exceptions unless one of the specified operations (e.g. constructor of an element) throws. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/pair/pair&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -320,7 +320,7 @@ Possible output:
     (4) Implicitly converted: (*, 3)
     (8) Piecewise constructed: ((0.123,7.7), aaaaaaaaaa)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/pair/pair&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -333,10 +333,10 @@ are value-initialized
 [LWG 2510](https://cplusplus.github.io/LWG/issue2510) | C++11  | the default constructor was implicit  | made conditionally-explicit   
 [N4387](https://wg21.link/N4387) | C++11  | some constructors were implicit-only, preventing some uses  | constructors made conditionally-explicit   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/pair/pair&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ make_pair](make_pair.html "cpp/utility/pair/make pair") |  creates a `pair` object of type, determined by the argument types   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/pair/dsc_make_pair&action=edit)  
+(function template)   
 ---|---  
 [ (constructor)](../tuple/tuple.html "cpp/utility/tuple/tuple") |  constructs a new `tuple`   
-(public member function of `std::tuple<Types...>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/dsc_constructor&action=edit)
+(public member function of `std::tuple<Types...>`) 

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -71,7 +71,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::mdspan`](../mdspan.html "cpp/container/mdspan")
 
@@ -120,7 +120,7 @@ Tables
 [submdspan_mapping_result](submdspan_mapping_result.html "cpp/container/mdspan/submdspan mapping result")(C++26)  
 [Deduction guides](deduction_guides.html "cpp/container/mdspan/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/navbar_content&action=edit)
+
 
 constexpr index_type extent( rank_type r ) const noexcept; |  |  (since C++23)  
 ---|---|---  
@@ -138,25 +138,25 @@ Returns the extent of a `mdspan` at the rank index r. Equivalent to return exten
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/extent&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 r  |  \-  |  The rank index to get the extent size of   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/extent&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The extent at the given rank index. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/extent&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/extent&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ extent](extents/extent.html "cpp/container/mdspan/extents/extent") |  returns dynamic extent size of an `extents` at a certain rank index   
-(public member function of `std::extents<IndexType,Extents...>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/extents/dsc_extent&action=edit)  
+(public member function of `std::extents<IndexType,Extents...>`)   
 ---|---  
 [ static_extent](static_extent.html "cpp/container/mdspan/static extent")[static] |  returns the static extent size of a `mdspan` at a given rank index   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/dsc_static_extent&action=edit)
+(public static member function) 

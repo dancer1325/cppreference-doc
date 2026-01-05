@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Variadic functions](../variadic.html "cpp/utility/variadic")
 
@@ -139,7 +139,7 @@ Common vocabulary types
 [va_end](va_end.html "cpp/utility/variadic/va end")  
 [va_list](va_list.html "cpp/utility/variadic/va list")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variadic/navbar_content&action=edit)
+
 
 Defined in header `[<cstdarg>](../../header/cstdarg.html "cpp/header/cstdarg")` |  |   
 ---|---|---  
@@ -167,21 +167,21 @@ If parm_n is of reference type, or of a type not compatible with the type that r
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variadic/va_start&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 ap  |  \-  |  an object of the [va_list](va_list.html "cpp/utility/variadic/va list") type   
 ---|---|---  
 parm_n  |  \-  |  the named parameter preceding the first variable parameter   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variadic/va_start&action=edit&section=2 "Edit section: Expanded value")] Expanded value
+### Expanded value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variadic/va_start&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 `va_start` is required to support parm_n with overloaded `operator&`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variadic/va_start&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -210,7 +210,7 @@ Output:
     
     150
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variadic/va_start&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -222,11 +222,11 @@ support parm_ns with overloaded `operator&` | required
 declared with a function, array, or reference type  | the behavior is undefined if  
 parm_n is of reference type   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variadic/va_start&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ va_arg](va_arg.html "cpp/utility/variadic/va arg") |  accesses the next variadic function argument   
-(function macro) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variadic/dsc_va_arg&action=edit)  
+(function macro)   
 ---|---  
 [ va_end](va_end.html "cpp/utility/variadic/va end") |  ends traversal of the variadic function arguments   
-(function macro) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variadic/dsc_va_end&action=edit)  
+(function macro)   
 [C documentation](../../../c/variadic/va_start.html "c/variadic/va start") for va_start

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Initialization](initialization.html "cpp/language/initialization")
 
@@ -244,7 +244,7 @@ Miscellaneous
 [Member initializer list](initializer_list.html "cpp/language/initializer list")  
 [Default member initializer](data_members.html#Member_initialization "cpp/language/data members") (C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/initialization/navbar_content&action=edit)
+
 
 When certain criteria are met, the creation of a class object from a source object of the same type (ignoring cv-qualification) can be omitted, even if the selected constructor and/or the destructor for the object have side effects. This elision of object creation is called _copy elision_ ﻿. 
 
@@ -260,7 +260,7 @@ When certain criteria are met, the creation of a class object from a source obje
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/copy_elision&action=edit&section=1 "Edit section: Explanation")] Explanation
+### Explanation
 
 Copy elision is permitted in the following circumstances (which may be combined to eliminate multiple copies): 
 
@@ -338,7 +338,7 @@ Since C++17, a prvalue is not materialized until needed, and then it is construc
 Note: This rule does not specify an optimization, and the Standard does not formally describe it as "copy elision" (because nothing is being elided). Instead, the C++17 core language specification of [prvalues](value_category.html "cpp/language/value category") and [temporaries](implicit_cast.html#Temporary_materialization "cpp/language/implicit conversion") is fundamentally different from that of earlier C++ revisions: there is no longer a temporary to copy/move from. Another way to describe C++17 mechanics is "unmaterialized value passing" or "deferred temporary materialization": prvalues are returned and used without ever materializing a temporary.  | (since C++17)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/copy_elision&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Copy elision is the only allowed form of optimization(until C++14) one of the two allowed forms of optimization, alongside [allocation elision and extension](new.html#Allocation "cpp/language/new"),(since C++14) that can change observable side-effects. Because some compilers do not perform copy elision in every situation where it is allowed (e.g., in debug mode), programs that rely on the side-effects of copy/move constructors and destructors are not portable. 
 
@@ -370,7 +370,7 @@ Feature-test macro | Value | Std | Feature
 ---|---|---|---  
 [`__cpp_guaranteed_copy_elision`](../experimental/feature_test.html#cpp_guaranteed_copy_elision "cpp/feature test") | [`201606L`](../compiler_support/17.html#cpp_guaranteed_copy_elision_201606L "cpp/compiler support/17") | (C++17) | Guaranteed copy elision through simplified [value categories](value_category.html "cpp/language/value category")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/copy_elision&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -420,7 +420,7 @@ Possible output:
     destructed at 0x7fffd635fd4f
     destructed at 0x7fffd635fd4e
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/copy_elision&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -433,7 +433,7 @@ lifetime of the moved-from object was still considered  | not considered
 non-copy(/move) constructor can be selected by copy-initialization  | elides any object construction  
 of related copy-initializations   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/copy_elision&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
   * [copy initialization](copy_initialization.html "cpp/language/copy initialization")
   * [copy constructor](copy_constructor.html "cpp/language/copy constructor")

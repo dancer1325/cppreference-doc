@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [Pseudo-random number generation](../../random.html "cpp/numeric/random")
 
@@ -161,7 +161,7 @@
 [piecewise_constant_distribution](../piecewise_constant_distribution.html "cpp/numeric/random/piecewise constant distribution")(C++11)  
 [piecewise_linear_distribution](../piecewise_linear_distribution.html "cpp/numeric/random/piecewise linear distribution")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/navbar_content&action=edit)
+
 
 [`std::linear_congruential_engine`](../linear_congruential_engine.html "cpp/numeric/random/linear congruential engine")
 
@@ -179,7 +179,7 @@ Non-member functions
 [operator==operator!=](operator_cmp.html "cpp/numeric/random/linear congruential engine/operator cmp")(C++11)(C++11)(until C++20)  
 [operator<<operator>>](operator_ltltgtgt.html "cpp/numeric/random/linear congruential engine/operator ltltgtgt")(C++11)(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/linear_congruential_engine/navbar_content&action=edit)
+
 
 linear_congruential_engine() : linear_congruential_engine(default_seed) {} |  (1)  |  (since C++11)  
 ---|---|---  
@@ -232,13 +232,13 @@ This overload participates in overload resolution only if `SeedSeq` meets the re
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/random/linear_congruential_engine/linear_congruential_engine&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 value  |  \-  |  seed value to use in the initialization of the internal state   
 ---|---|---  
 seq  |  \-  |  seed sequence to use in the initialization of the internal state   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/random/linear_congruential_engine/linear_congruential_engine&action=edit&section=2 "Edit section: Complexity")] Complexity
+### Complexity
 
 1,2) Constant.
 
@@ -246,11 +246,11 @@ seq  |  \-  |  seed sequence to use in the initialization of the internal state
 
 4) Constant.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/random/linear_congruential_engine/linear_congruential_engine&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 3) If `SeedSeq` is not [std::seed_seq](../seed_seq.html "cpp/numeric/random/seed seq"), throws the exceptions thrown by the `seq.generate` call.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/random/linear_congruential_engine/linear_congruential_engine&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -259,8 +259,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [LWG 2181](https://cplusplus.github.io/LWG/issue2181) | C++11  | overload ([3](linear_congruential_engine.html#Version_3)) would not throw even if the `seq.generate` call throws  | propagates the exception   
 [P0935R0](https://wg21.link/P0935R0) | C++11  | the default constructor was explicit  | made implicit   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/random/linear_congruential_engine/linear_congruential_engine&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ seed](seed.html "cpp/numeric/random/linear congruential engine/seed") |  sets the current state of the engine   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/engine/dsc_seed&action=edit)  
+(public member function)   
 ---|---

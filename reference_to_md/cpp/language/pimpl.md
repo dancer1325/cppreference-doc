@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 "Pointer to implementation" or "pImpl" is a C++ [programming technique](pimpl.html#External_links) that removes implementation details of a class from its object representation by placing them in a separate class, accessed through an opaque pointer: 
     
@@ -262,13 +262,13 @@ This technique is used to construct C++ library interfaces with stable ABI and t
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/pimpl&action=edit&section=1 "Edit section: Explanation")] Explanation
+### Explanation
 
 Because private data members of a class participate in its object representation, affecting size and layout, and because private member functions of a class participate in [overload resolution](overload_resolution.html "cpp/language/overload resolution") (which takes place before member access checking), any change to those implementation details requires recompilation of all users of the class. 
 
 pImpl removes this compilation dependency; changes to the implementation do not cause recompilation. Consequently, if a library uses pImpl in its ABI, newer versions of the library may change the implementation while remaining ABI-compatible with older versions. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/pimpl&action=edit&section=2 "Edit section: Trade-offs")] Trade-offs
+### Trade-offs
 
 The alternatives to the pImpl idiom are 
 
@@ -277,7 +277,7 @@ The alternatives to the pImpl idiom are
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/pimpl&action=edit&section=3 "Edit section: Compilation firewall")] Compilation firewall
+#### Compilation firewall
 
 In simple cases, both pImpl and factory method remove compile-time dependency between the implementation and the users of the class interface. Factory method creates a hidden dependency on the vtable, and so reordering, adding, or removing virtual member functions breaks the ABI. The pImpl approach has no hidden dependencies, however if the implementation class is a class template specialization, the compilation firewall benefit is lost: the users of the interface must observe the entire template definition in order to instantiate the correct specialization. A common design approach in this case is to refactor the implementation in a way that avoids parametrization, this is another use case for the C++ Core Guidelines: 
 
@@ -377,7 +377,7 @@ Possible output:
     0x7ffd6200a430
     0x7ffd6200a434
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/pimpl&action=edit&section=4 "Edit section: Runtime overhead")] Runtime overhead
+#### Runtime overhead
 
   * Access overhead: In pImpl, each call to a private member function indirects through a pointer. Each access to a public member made by a private member indirects through another pointer. Both indirections cross translation unit boundaries and so can only be optimized out by link-time optimization. Note that OO factory requires indirection across translation units to access both public data and implementation detail, and offers even fewer opportunities for the link time optimizer due to virtual dispatch. 
   * Space overhead: pImpl adds one pointer to the public component and, if any private member needs access to a public member, another pointer is either added to the implementation component or passed as a parameter for each call to the private member that requires it. If stateful custom allocators are supported, the allocator instance also has to be stored. 
@@ -391,13 +391,13 @@ On the other hand, pImpl classes are move-friendly; refactoring a large class as
 Reason: Microbenchmark?)   
 ---|---  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/pimpl&action=edit&section=5 "Edit section: Maintenance overhead")] Maintenance overhead
+#### Maintenance overhead
 
 Use of pImpl requires a dedicated translation unit (a header-only library cannot use pImpl), introduces an additional class, a set of forwarding functions, and, if allocators are used, exposes the implementation detail of allocator use in the public interface. 
 
 Since virtual members are part of the interface component of pImpl, mocking a pImpl implies mocking the interface component alone. A testable pImpl is typically designed to allow full test coverage through the available interface. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/pimpl&action=edit&section=6 "Edit section: Implementation")] Implementation
+### Implementation
 
 As the object of the interface type controls the lifetime of the object of the implementation type, the pointer to implementation is usually [std::unique_ptr](../memory/unique_ptr.html "cpp/memory/unique ptr"). 
 
@@ -411,13 +411,13 @@ If any of the private members needs to access a public or protected member, a re
 
 If non-default allocators are intended to be supported for the allocation of the implementation object, any of the usual allocator awareness patterns may be utilized, including allocator template parameter defaulting to [std::allocator](../memory/allocator.html "cpp/memory/allocator") and constructor argument of type [`std::pmr::memory_resource*`](../memory/memory_resource.html "cpp/memory/memory resource"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/pimpl&action=edit&section=7 "Edit section: Notes")] Notes
+### Notes
 
 | This section is incomplete  
 Reason: note connection to value-semantic polymorphism   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/pimpl&action=edit&section=8 "Edit section: Example")] Example
+### Example
 
 Demonstrates a pImpl with const propagation, with back-reference passed as a parameter, without allocator awareness, and move-enabled without runtime checks:
 
@@ -503,7 +503,7 @@ Output:
 Reason: describe yet another alternative — "fast PImpl". The main difference is that the memory for the implementation is reserved in a data member that is an opaque C-array (inside the PImpl class definition), while in cpp file that memory is mapped (via `reinterpret_cast` or placement-`new`) to the implementation structure. This approach has it's own pros and cons, in particular, an obvious _pro_ is no extra allocation, on condition that enough memory was initially reserved at _design-time_ of the PImpl class. (Whereas among _cons_ is reduced move-friendliness.)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/pimpl&action=edit&section=9 "Edit section: External links")] External links
+### External links
 
 1\.  | [GotW #28](http://www.gotw.ca/gotw/028.htm) : The Fast Pimpl Idiom.   
 ---|---  

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Extensions for concurrency](../concurrency.html "cpp/experimental/concurrency")
 
@@ -75,7 +75,7 @@ Atomic smart pointers
 [experimental::atomic_shared_ptr](../atomic_shared_ptr.html "cpp/experimental/atomic shared ptr")  
 [experimental::atomic_weak_ptr](../atomic_weak_ptr.html "cpp/experimental/atomic weak ptr")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/concurrency/navbar_content&action=edit)
+
 
 [`std::experimental::flex_barrier`](../flex_barrier.html "cpp/experimental/flex barrier")
 
@@ -85,7 +85,7 @@ Atomic smart pointers
 [flex_barrier::arrive_and_wait](arrive_and_wait.html "cpp/experimental/flex barrier/arrive and wait")  
 **flex_barrier::arrive_and_drop**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/concurrency/flex_barrier/navbar_content&action=edit)
+
 
 void arrive_and_drop(); |  |  (concurrency TS)  
 ---|---|---  
@@ -99,18 +99,18 @@ Calls to `arrive_and_drop` synchronizes with the start of the completion phase o
 
 Calls to `arrive_and_drop` and `arrive_and_wait` never introduce data races with themselves or each other. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/flex_barrier/arrive_and_drop&action=edit&section=1 "Edit section: Exceptions")] Exceptions 
+### Exceptions 
 
 Throws nothing. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/flex_barrier/arrive_and_drop&action=edit&section=2 "Edit section: Notes")] Notes 
+### Notes 
 
 The completion phase will be executed even if every participating thread calls `arrive_and_drop`. 
 
 After a thread calls `arrive_and_drop` on a `flex_barrier`, it cannot call any member function on that barrier except for the destructor, even if the function object invoked by the completion phase returns a positive value. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/flex_barrier/arrive_and_drop&action=edit&section=3 "Edit section: See also")] See also 
+### See also 
 
 [ arrive_and_wait](arrive_and_wait.html "cpp/experimental/flex barrier/arrive and wait") |  arrive at the synchronization point and block   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/flex_barrier/dsc_arrive_and_wait&action=edit)  
+(public member function)   
 ---|---

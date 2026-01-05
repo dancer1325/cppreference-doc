@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 **`std::ranges::to_input_view`**
 
@@ -249,7 +249,7 @@ to_input_view::_iterator_ ::operator++(int)](https://en.cppreference.com/mwiki/i
 [iter_move(to_input_view::_iterator_)](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/to_input_view/iterator&action=edit&redlink=1 "cpp/ranges/to input view/iterator \(page does not exist\)")  
 [iter_swap(to_input_view::_iterator_)](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/to_input_view/iterator&action=edit&redlink=1 "cpp/ranges/to input view/iterator \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/to_input_view/navbar_content&action=edit)
+
 
 Defined in header `[<ranges>](../header/ranges.html "cpp/header/ranges")` |  |   
 ---|---|---  
@@ -310,14 +310,14 @@ Additionally, `to_input_view` does not model [`common_range`](common_range.html 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/to_input_view&action=edit&section=1 "Edit section: Data members")] Data members
+### Data members
 
 Member  |  Description   
 ---|---  
 `V` `_base__` (private) |  the underlying view  
 (exposition-only member object*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/to_input_view&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](to_input_view.html#ctor "cpp/ranges/to input view") |  constructs a `to_input_view`   
 (public member function)  
@@ -334,21 +334,21 @@ Member  |  Description
 #####  Inherited from [std::ranges::view_interface](view_interface.html "cpp/ranges/view interface")  
   
 [ empty](view_interface/empty.html "cpp/ranges/view interface/empty") |  returns whether the derived view is empty, provided only if it satisfies [`sized_range`](sized_range.html "cpp/ranges/sized range") or [`forward_range`](forward_range.html "cpp/ranges/forward range")   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_empty&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ cbegin](view_interface/cbegin.html "cpp/ranges/view interface/cbegin")(C++23) |  returns a constant iterator to the beginning of the range   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_cbegin&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ cend](view_interface/cend.html "cpp/ranges/view interface/cend")(C++23) |  returns a sentinel for the constant iterator of the range   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_cend&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ operator bool](view_interface/operator_bool.html "cpp/ranges/view interface/operator bool") |  returns whether the derived view is not empty, provided only if [ranges::empty](empty.html "cpp/ranges/empty") is applicable to it   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_operator_bool&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ data](view_interface/data.html "cpp/ranges/view interface/data") |  gets the address of derived view's data, provided only if its iterator type satisfies [`contiguous_iterator`](../iterator/contiguous_iterator.html "cpp/iterator/contiguous iterator")   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_data&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ front](view_interface/front.html "cpp/ranges/view interface/front") |  returns the first element in the derived view, provided if it satisfies [`forward_range`](forward_range.html "cpp/ranges/forward range")   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_front&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ back](view_interface/back.html "cpp/ranges/view interface/back") |  returns the last element in the derived view, provided only if it satisfies [`bidirectional_range`](bidirectional_range.html "cpp/ranges/bidirectional range") and [`common_range`](common_range.html "cpp/ranges/common range")   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_back&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ operator[]](view_interface/operator_at.html "cpp/ranges/view interface/operator at") |  returns the `n`th element in the derived view, provided only if it satisfies [`random_access_range`](random_access_range.html "cpp/ranges/random access range")   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_operator_at&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
   
 ##  std::ranges::to_input_view::to_input_view
 
@@ -406,20 +406,20 @@ constexpr auto size() const requires [ranges::sized_range](sized_range.html)<con
   
 1,2) Equivalent to return [ranges::size](size.html)(base_);
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/to_input_view&action=edit&section=4 "Edit section: Deduction guides")] Deduction guides
+### Deduction guides
 
 template< class R >  
 to_input_view( R&& ) -> to_input_view<[views::all_t](all_view.html)<R>>; |  |  (since C++26)  
 ---|---|---  
 | |   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/to_input_view&action=edit&section=5 "Edit section: Nested classes")] Nested classes
+### Nested classes
 
 [_iterator_](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/to_input_view/iterator&action=edit&redlink=1 "cpp/ranges/to input view/iterator \(page does not exist\)") |  the iterator type  
 (exposition-only member class template*)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/to_input_view&action=edit&section=6 "Edit section: Helper templates")] Helper templates
+### Helper templates
 
 template< class T >  
 constexpr bool enable_borrowed_range<std::ranges::to_input_view<T>> =  
@@ -429,7 +429,7 @@ constexpr bool enable_borrowed_range<std::ranges::to_input_view<T>> =
   
 This specialization of std::[ranges::enable_borrowed_range](borrowed_range.html) makes `to_input_view` satisfy [`borrowed_range`](borrowed_range.html "cpp/ranges/borrowed range") when the underlying view satisfies it. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/to_input_view&action=edit&section=7 "Edit section: Notes")] Notes
+### Notes
 
 `to_input_view` can be useful to avoid the overhead necessary to provide support for the operations needed for greater iterator strength. 
 
@@ -437,18 +437,18 @@ This specialization of std::[ranges::enable_borrowed_range](borrowed_range.html)
 ---|---|---|---  
 [`__cpp_lib_ranges_to_input`](../experimental/feature_test.html#cpp_lib_ranges_to_input "cpp/feature test") | [`202502L`](../compiler_support/26.html#cpp_lib_ranges_to_input_202502L "cpp/compiler support/26") | (C++26) | `std::ranges::to_input_view`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/to_input_view&action=edit&section=8 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/to_input_view&action=edit&section=9 "Edit section: See also")] See also
+### See also
 
 [ ranges::input_range](input_range.html "cpp/ranges/input range")(C++20) |  specifies a range whose iterator type satisfies [`input_iterator`](../iterator/input_iterator.html "cpp/iterator/input iterator")   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_input_range&action=edit)  
+(concept)   
 ---|---  
 [ ranges::common_viewviews::common](common_view.html "cpp/ranges/common view")(C++20) |  converts a [`view`](view.html "cpp/ranges/view") into a [`common_range`](common_range.html "cpp/ranges/common range")  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_common_view&action=edit)
+(class template) (range adaptor object)
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

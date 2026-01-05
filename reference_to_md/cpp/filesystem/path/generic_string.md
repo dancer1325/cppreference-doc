@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Filesystem library](../../filesystem.html "cpp/filesystem")
 
@@ -100,7 +100,7 @@ filesystem::symlink_status](../status.html "cpp/filesystem/status")
 [filesystem::is_socket](../is_socket.html "cpp/filesystem/is socket")  
 [filesystem::is_symlink](../is_symlink.html "cpp/filesystem/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/navbar_content&action=edit)
+
 
 [`std::filesystem::path`](../path.html "cpp/filesystem/path")
 
@@ -169,7 +169,7 @@ filesystem::symlink_status](../status.html "cpp/filesystem/status")
 | [formatter<std::filesystem::path>](formatter.html "cpp/filesystem/path/formatter")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/path/navbar_content&action=edit)
+
 
 template< class CharT, class Traits = [std::char_traits](../../string/char_traits.html)<CharT>,  
 class Alloc = [std::allocator](../../memory/allocator.html)<CharT> >  
@@ -189,7 +189,7 @@ generic_string( const Alloc& a = Alloc() ) const; |  (1)  |  (since C++17)
   
 Returns the internal pathname in generic pathname format, converted to specific string type. Conversion, if any, is specified as follows: 
 
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/path/encoding_rules&action=edit)
+
 
   * If `path::value_type` is char, conversion, if any, is system-dependent. This is the case on typical POSIX systems (such as Linux), where native encoding is UTF-8 and `string()` performs no conversion. 
   * Otherwise, if `path::value_type` is wchar_t, conversion, if any, is unspecified. This is the case on Windows, where wchar_t is 16 bit and the native encoding is UTF-16. 
@@ -216,22 +216,22 @@ The `/` character is used as the directory separator.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/generic_string&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 a  |  \-  |  allocator to construct the string with   
 ---|---|---  
 Type requirements   
 -`CharT` must be one of the encoded character types (char, wchar_t, char8_t(since C++20), char16_t and char32_t).   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/generic_string&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The internal pathname in generic pathname format, converted to specified string type. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/impldef_exception&action=edit&section=T-1 "Template:cpp/impldef exception")] Exceptions
+### Exceptions
 
 May throw implementation-defined exceptions. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/generic_string&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -273,8 +273,8 @@ Possible output:
     u32string : 2F 00 00 00 B6 5B 00 00 2F 00 00 00 4B 5C 00 00
     wstring   : 2F 00 00 00 B6 5B 00 00 2F 00 00 00 4B 5C 00 00
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/generic_string&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ stringwstringu8stringu16stringu32string](string.html "cpp/filesystem/path/string") |  returns the path in native pathname format converted to a string   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/path/dsc_string&action=edit)  
+(public member function)   
 ---|---

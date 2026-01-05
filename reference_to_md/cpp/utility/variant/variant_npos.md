@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::variant`](../variant.html "cpp/utility/variant")
 
@@ -161,7 +161,7 @@ Common vocabulary types
 [Helper objects](../variant.html#Helper_objects "cpp/utility/variant")  
 **variant_npos**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variant/navbar_content&action=edit)
+
 
 Defined in header `[<variant>](../../header/variant.html "cpp/header/variant")` |  |   
 ---|---|---  
@@ -209,10 +209,10 @@ Possible output:
     index == npos: true
     valueless: true
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variant/variant_npos&action=edit&section=1 "Edit section: See also")] See also
+### See also
 
 [ index](index.html "cpp/utility/variant/index") |  returns the zero-based index of the alternative held by the `variant`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variant/dsc_index&action=edit)  
+(public member function)   
 ---|---  
 [ valueless_by_exception](valueless_by_exception.html "cpp/utility/variant/valueless by exception") |  checks if the `variant` is in the invalid state   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variant/dsc_valueless_by_exception&action=edit)
+(public member function) 

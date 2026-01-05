@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Filesystem library](../../filesystem.html "cpp/filesystem")
 
@@ -100,7 +100,7 @@ filesystem::symlink_status](../status.html "cpp/filesystem/status")
 [filesystem::is_socket](../is_socket.html "cpp/filesystem/is socket")  
 [filesystem::is_symlink](../is_symlink.html "cpp/filesystem/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/navbar_content&action=edit)
+
 
 [`std::filesystem::path`](../path.html "cpp/filesystem/path")
 
@@ -169,7 +169,7 @@ filesystem::symlink_status](../status.html "cpp/filesystem/status")
 | [formatter<std::filesystem::path>](formatter.html "cpp/filesystem/path/formatter")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/path/navbar_content&action=edit)
+
 
 path& assign( string_type&& source ); |  (1)  |  (since C++17)  
 ---|---|---  
@@ -204,7 +204,7 @@ Replaces the contents to the `path` object by a new pathname constructed from th
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/assign&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 source  |  \-  |  a character range to use, represented as [std::string](../../string/basic_string.html "cpp/string/basic string"), [std::string_view](../../string/basic_string_view.html "cpp/string/basic string view"), pointer to a null-terminated multibyte string, or as an input iterator with char value type that points to a null-terminated multibyte string   
 ---|---|---  
@@ -213,11 +213,11 @@ Type requirements
 -`InputIt` must meet the requirements of [LegacyInputIterator](../../named_req/InputIterator.html "cpp/named req/InputIterator").   
 -The value type of `InputIt` must be one of the encoded character types (char, wchar_t, char16_t and char32_t)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/assign&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 *this
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/assign&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -225,8 +225,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 3244](https://cplusplus.github.io/LWG/issue3244) | C++17  | constraint that `Source` cannot be `path` was missing  | added   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/assign&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ operator=](operator=.html "cpp/filesystem/path/operator=") |  assigns another path   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/path/dsc_operator%3D&action=edit)  
+(public member function)   
 ---|---

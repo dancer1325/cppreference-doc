@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::adjacent_view`](../../adjacent_view.html "cpp/ranges/adjacent view")
 
@@ -264,7 +264,7 @@ Non-member functions
 [operator==(adjacent_view::_iterator_ ,adjacent_view::_sentinel_)](operator_cmp.html "cpp/ranges/adjacent view/sentinel/operator cmp")  
 **operator-(adjacent_view::_iterator_ ,adjacent_view::_sentinel_)**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adjacent_view/navbar_content&action=edit)
+
 
 template< bool OtherConst >  
 requires [std::sized_sentinel_for](../../../iterator/sized_sentinel_for.html)<[ranges::sentinel_t](../../iterator_t.html)<Base>,  
@@ -299,20 +299,20 @@ These function templates are not visible to ordinary [unqualified](../../../lang
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/adjacent_view/sentinel/operator-&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 x  |  \-  |  an [iterator](../iterator.html "cpp/ranges/adjacent view/iterator")  
 ---|---|---  
 y  |  \-  |  a [sentinel](../sentinel.html "cpp/ranges/adjacent view/sentinel")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/adjacent_view/sentinel/operator-&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The distance between x and y. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/adjacent_view/sentinel/operator-&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/adjacent_view/sentinel/operator-&action=edit&section=4 "Edit section: See also")] See also
+### See also

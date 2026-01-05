@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -175,7 +175,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::shared_future`](../shared_future.html "cpp/thread/shared future")
 
@@ -192,7 +192,7 @@ State
 **shared_future::wait_for**  
 [shared_future::wait_until](wait_until.html "cpp/thread/shared future/wait until")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/shared_future/navbar_content&action=edit)
+
 
 template< class Rep, class Period >  
 [std::future_status](../future_status.html) wait_for( const [std::chrono::duration](../../chrono/duration.html)<Rep,Period>& timeout_duration ) const; |  |  (since C++11)  
@@ -221,12 +221,12 @@ The behavior is undefined if [`valid()`](../future/valid.html "cpp/thread/future
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/future/wait_for&action=edit&section=T-1 "Template:cpp/thread/future/wait for")] Parameters
+### Parameters
 
 timeout_duration  |  \-  |  maximum duration to block for   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/future/wait_for&action=edit&section=T-2 "Template:cpp/thread/future/wait for")] Return value
+### Return value
 
 Constant  |  Explanation   
 ---|---  
@@ -234,15 +234,15 @@ Constant  |  Explanation
 [`future_status::ready`](../future_status.html "cpp/thread/future status") |  The result is ready   
 [`future_status::timeout`](../future_status.html "cpp/thread/future status") |  The timeout has expired   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/future/wait_for&action=edit&section=T-3 "Template:cpp/thread/future/wait for")] Exceptions
+### Exceptions
 
 Any exception thrown by clock, time_point, or duration during the execution (clocks, time points, and durations provided by the standard library never throw). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/future/wait_for&action=edit&section=T-4 "Template:cpp/thread/future/wait for")] Notes
+### Notes
 
 The implementations are encouraged to detect the case when valid == false before the call and throw a [std::future_error](../future_error.html "cpp/thread/future error") with an error condition of [std::future_errc::no_state](../future_errc.html "cpp/thread/future errc"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/future/wait_for&action=edit&section=T-5 "Template:cpp/thread/future/wait for")] Example
+### Example
 
 Run this code
     
@@ -294,10 +294,10 @@ Possible output:
     ready!
     result is 8
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/future/wait_for&action=edit&section=T-6 "Template:cpp/thread/future/wait for")] See also
+### See also
 
 [ wait](wait.html "cpp/thread/shared future/wait") |  waits for the result to become available   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/future/dsc_wait&action=edit)  
+(public member function)   
 ---|---  
 [ wait_until](wait_until.html "cpp/thread/shared future/wait until") |  waits for the result, returns if it is not available until specified time point has been reached   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/future/dsc_wait_until&action=edit)
+(public member function) 

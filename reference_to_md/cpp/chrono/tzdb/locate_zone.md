@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::tzdb`](../tzdb.html "cpp/chrono/tzdb")
 
@@ -110,7 +110,7 @@ Member functions
 **tzdb::locate_zone**  
 [tzdb::current_zone](current_zone.html "cpp/chrono/tzdb/current zone")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/tzdb/navbar_content&action=edit)
+
 
 const [std::chrono::time_zone](../time_zone.html)* locate_zone( [std::string_view](../../string/basic_string_view.html) tz_name ) const; |  |  (since C++20)  
 ---|---|---  
@@ -128,20 +128,20 @@ Obtains a pointer to a std::chrono::time_zone in this database that represents t
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/tzdb/locate_zone&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 tz_name  |  \-  |  a time zone name   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/tzdb/locate_zone&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 A pointer to the std::chrono::time_zone in this database that represents the time zone designated by tz_name. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/tzdb/locate_zone&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Throws [std::runtime_error](../../error/runtime_error.html "cpp/error/runtime error") if no such `time_zone` can be found. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/tzdb/locate_zone&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

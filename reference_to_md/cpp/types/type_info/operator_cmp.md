@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Type support](../../utility/rtti.html "cpp/types")
 
@@ -161,7 +161,7 @@ Runtime type information
 ---  
 [bad_cast](../bad_cast.html "cpp/types/bad cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/navbar_content&action=edit)
+
 
 [`std::type_info`](../type_info.html "cpp/types/type info")
 
@@ -173,7 +173,7 @@ Member functions
 [type_info::hash_code](hash_code.html "cpp/types/type info/hash code")(C++11)  
 [type_info::name](name.html "cpp/types/type info/name")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/type_info/navbar_content&action=edit)
+
 
 bool operator==( const type_info& rhs ) const; |  (1) | (noexcept since C++11)   
 (constexpr since C++23)  
@@ -198,22 +198,22 @@ The `!=` operator is [synthesized](../../language/default_comparisons.html#Other
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/type_info/operator_cmp&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 rhs  |  \-  |  another type information object to compare to   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/type_info/operator_cmp&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 true if the comparison operation holds true, false otherwise. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/type_info/operator_cmp&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../../utility/feature_test.html "cpp/utility/feature test") macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_constexpr_typeinfo`](../../experimental/feature_test.html#cpp_lib_constexpr_typeinfo "cpp/feature test") | [`202106L`](../../compiler_support/23.html#cpp_lib_constexpr_typeinfo_202106L "cpp/compiler support/23") | (C++23) | Constexpr for `std::type_info::operator==`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/type_info/operator_cmp&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -275,11 +275,11 @@ Possible output:
     Kate is not an employee
     class `employee` != class `person`
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/type_info/operator_cmp&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ before](before.html "cpp/types/type info/before") |  checks whether the referred type precedes referred type of another `type_info`  
 object in the implementation defined order, i.e. orders the referred types   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/type_info/dsc_before&action=edit)  
+(public member function)   
 ---|---
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ named requirements](../iterator/concepts.html "cpp/named req")
 
@@ -147,9 +147,9 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/named_req/navbar_content&action=edit)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/FormattedInputFunction&action=edit&section=1 "Edit section: Requirements")] Requirements
+
+### Requirements
 
 A FormattedInputFunction is a stream input function that performs the following: 
 
@@ -190,7 +190,7 @@ A FormattedInputFunction is a stream input function that performs the following:
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/FormattedInputFunction&action=edit&section=2 "Edit section: Standard library")] Standard library
+### Standard library
 
 The following standard library functions are **FormattedInputFunction s**. 
 
@@ -203,7 +203,7 @@ The following standard library functions are **FormattedInputFunction s**.
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/FormattedInputFunction&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

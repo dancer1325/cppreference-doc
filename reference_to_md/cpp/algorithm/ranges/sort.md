@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](copy.html "cpp/algorithm/ranges/co
 [uninitialized_default_construct_n](../../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 [Constrained algorithms](../ranges.html "cpp/algorithm/ranges")
 
@@ -550,7 +550,7 @@ All names in this menu belong to namespace `std::ranges`
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -596,7 +596,7 @@ The function-like entities described on this page are [_algorithm function objec
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/sort&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  the iterator-sentinel pair defining the [range](../../iterator.html#Ranges "cpp/iterator") of elements to sort   
 ---|---|---  
@@ -604,15 +604,15 @@ r  |  \-  |  the range to sort
 comp  |  \-  |  comparison to apply to the projected elements   
 proj  |  \-  |  projection to apply to the elements   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/sort&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 An iterator equal to last. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/sort&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 \\(\scriptsize \mathcal{O}(N\cdot\log{(N)})\\)𝓞(N·log(N)) comparisons and projections, where N = [ranges::distance](../../iterator/ranges/distance.html)(first, last). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/sort&action=edit&section=4 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
 
 Note that typical implementations use [Introsort](https://en.wikipedia.org/wiki/Introsort "enwiki:Introsort"). See also the implementation in [MSVC STL](https://github.com/microsoft/STL/blob/e745bad3b1d05b5b19ec652d68abb37865ffa454/stl/inc/algorithm#L7575-L7641) and [libstdc++](https://github.com/gcc-mirror/gcc/blob/54258e22b0846aaa6bd3265f592feb161eecda75/libstdc%2B%2B-v3/include/bits/ranges_algo.h#L1808-L1834). 
     
@@ -649,11 +649,11 @@ Note that typical implementations use [Introsort](https://en.wikipedia.org/wiki/
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/sort&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 [std::sort](../sort.html "cpp/algorithm/sort") uses [std::iter_swap](../iter_swap.html "cpp/algorithm/iter swap") to swap elements, whereas `ranges::sort` instead uses [ranges::iter_swap](../../iterator/ranges/iter_swap.html "cpp/iterator/ranges/iter swap") (which performs ADL for `iter_swap`, unlike [std::iter_swap](../iter_swap.html "cpp/algorithm/iter swap")) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/sort&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -742,14 +742,14 @@ Output:
     Neutron  : 939.57
     Tau      : 1776.86
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/sort&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ ranges::partial_sort](partial_sort.html "cpp/algorithm/ranges/partial sort")(C++20) |  sorts the first N elements of a range  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_partial_sort&action=edit)  
+(algorithm function object)  
 ---|---  
 [ ranges::stable_sort](stable_sort.html "cpp/algorithm/ranges/stable sort")(C++20) |  sorts a range of elements while preserving order between equal elements  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_stable_sort&action=edit)  
+(algorithm function object)  
 [ ranges::partition](partition.html "cpp/algorithm/ranges/partition")(C++20) |  divides a range of elements into two groups  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_partition&action=edit)  
+(algorithm function object)  
 [ sort](../sort.html "cpp/algorithm/sort") |  sorts a range into ascending order   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_sort&action=edit)
+(function template) 

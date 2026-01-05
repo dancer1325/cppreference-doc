@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::bitset`](../bitset.html "cpp/utility/bitset")
 
@@ -167,7 +167,7 @@ Common vocabulary types
 [Helper classes](../bitset.html#Helper_classes "cpp/utility/bitset")  
 [std::hash](hash.html "cpp/utility/bitset/hash")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/bitset/navbar_content&action=edit)
+
 
 unsigned long to_ulong() const |  |  (constexpr since C++23)  
 ---|---|---  
@@ -188,19 +188,19 @@ The first bit of the bitset corresponds to the least significant digit of the nu
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/bitset/to_ulong&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/bitset/to_ulong&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The converted integer. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/bitset/to_ulong&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Throws [std::overflow_error](../../error/overflow_error.html "cpp/error/overflow error") if the value can not be represented in unsigned long. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/bitset/to_ulong&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -251,10 +251,10 @@ Possible output:
     42
     ex: bitset to_ulong overflow error
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/bitset/to_ulong&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ to_string](to_string.html "cpp/utility/bitset/to string") |  returns a string representation of the data   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/bitset/dsc_to_string&action=edit)  
+(public member function)   
 ---|---  
 [ to_ullong](to_ullong.html "cpp/utility/bitset/to ullong")(C++11) |  returns an unsigned long long integer representation of the data   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/bitset/dsc_to_ullong&action=edit)
+(public member function) 

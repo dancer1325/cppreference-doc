@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::bitset`](../bitset.html "cpp/utility/bitset")
 
@@ -167,7 +167,7 @@ Common vocabulary types
 [Helper classes](../bitset.html#Helper_classes "cpp/utility/bitset")  
 [std::hash](hash.html "cpp/utility/bitset/hash")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/bitset/navbar_content&action=edit)
+
 
 bitset& flip(); |  (1) | (noexcept since C++11)   
 (constexpr since C++23)  
@@ -193,20 +193,20 @@ Flips bits, i.e. changes true values to false and false values to true. Equivale
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/bitset/flip&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 pos  |  \-  |  the position of the bit to flip   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/bitset/flip&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 *this
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/bitset/flip&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 2) Throws [std::out_of_range](../../error/out_of_range.html "cpp/error/out of range") if pos does not correspond to a valid bit position.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/bitset/flip&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -232,7 +232,7 @@ Output:
     0101
     1010
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/bitset/flip&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -242,14 +242,14 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 not correspond to a valid bit position  | always throws an  
 exception in this case   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/bitset/flip&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ set](set.html "cpp/utility/bitset/set") |  sets bits to true or given value   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/bitset/dsc_set&action=edit)  
+(public member function)   
 ---|---  
 [ reset](reset.html "cpp/utility/bitset/reset") |  sets bits to false   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/bitset/dsc_reset&action=edit)  
+(public member function)   
 [ operator&=operator|=operator^=operator~](operator_logic.html "cpp/utility/bitset/operator logic") |  performs binary AND, OR, XOR and NOT   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/bitset/dsc_operator_logic&action=edit)  
+(public member function)   
 [ flip](../../container/vector_bool/flip.html "cpp/container/vector bool/flip") |  flips all the bits   
-(public member function of `std::vector<bool,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/vector_bool/dsc_flip&action=edit)
+(public member function of `std::vector<bool,Allocator>`) 

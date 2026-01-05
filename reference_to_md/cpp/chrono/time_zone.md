@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 **`std::chrono::time_zone`**
 
@@ -114,7 +114,7 @@ Member functions
 Nonmember functions  
 [operator==operator<=>](time_zone/operator_cmp.html "cpp/chrono/time zone/operator cmp")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_zone/navbar_content&action=edit)
+
 
 Defined in header `[<chrono>](../header/chrono.html "cpp/header/chrono")` |  |   
 ---|---|---  
@@ -127,25 +127,25 @@ Users cannot construct `time_zone` objects. The library implementation creates `
 
 `time_zone` is not copyable but does have a defaulted move constructor and a defaulted move assignment operator. However, as users have only const access to `time_zone` objects, these functions cannot be called in user code without invoking [undefined behavior](../language/ub.html "cpp/language/ub"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/time_zone&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ name](time_zone/name.html "cpp/chrono/time zone/name") |  obtains the name of this `time_zone`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_zone/dsc_name&action=edit)  
+(public member function)   
 ---|---  
 [ get_info](time_zone/get_info.html "cpp/chrono/time zone/get info") |  obtain information associated with a sys_time or local_time   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_zone/dsc_get_info&action=edit)  
+(public member function)   
 [ to_sys](time_zone/to_sys.html "cpp/chrono/time zone/to sys") |  converts a local_time in this time zone to a sys_time   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_zone/dsc_to_sys&action=edit)  
+(public member function)   
 [ to_local](time_zone/to_local.html "cpp/chrono/time zone/to local") |  converts a sys_time to a local_time in this time zone   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_zone/dsc_to_local&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/time_zone&action=edit&section=2 "Edit section: Nonmember functions")] Nonmember functions
+### Nonmember functions
 
 [ operator==operator<=>](time_zone/operator_cmp.html "cpp/chrono/time zone/operator cmp")(C++20) |  compares two `time_zone` objects   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_zone/dsc_operator_cmp&action=edit)  
+(function)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/time_zone&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Localization library](../locale.html "cpp/locale")
 
@@ -152,7 +152,7 @@ base classes](../locale.html#Facet_category_base_classes "cpp/locale")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/navbar_content&action=edit)
+
 
 Defined in header `[<codecvt>](../header/codecvt.html "cpp/header/codecvt")` |  |   
 ---|---|---  
@@ -167,7 +167,7 @@ little_endian = 1
   
 The facets [std::codecvt_utf8](codecvt_utf8.html "cpp/locale/codecvt utf8"), [std::codecvt_utf16](codecvt_utf16.html "cpp/locale/codecvt utf16"), and [std::codecvt_utf8_utf16](codecvt_utf8_utf16.html "cpp/locale/codecvt utf8 utf16") accept an optional value of type `std::codecvt_mode` as a template argument, which specifies optional features of the unicode string conversion. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/codecvt_mode&action=edit&section=1 "Edit section: Constants")] Constants
+### Constants
 
 Defined in header `[<locale>](../header/locale.html "cpp/header/locale")`  
 ---  
@@ -185,7 +185,7 @@ The recognized byte order marks are:
   
 If `std::consume_header` is not selected when reading a file beginning with byte order mark, the Unicode character U+FEFF (Zero width non-breaking space) will be read as the first character of the string content. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/codecvt_mode&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 The following example demonstrates consuming the UTF-8 BOM:
 
@@ -220,14 +220,14 @@ Output:
     0x6c34
     0x1d10b
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/codecvt_mode&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ codecvt](codecvt.html "cpp/locale/codecvt") |  converts between character encodings, including UTF-8, UTF-16, UTF-32   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_codecvt&action=edit)  
+(class template)   
 ---|---  
 [ codecvt_utf8](codecvt_utf8.html "cpp/locale/codecvt utf8")(C++11)(deprecated in C++17)(removed in C++26) |  converts between UTF-8 and UCS-2/UCS-4   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_codecvt_utf8&action=edit)  
+(class template)   
 [ codecvt_utf16](codecvt_utf16.html "cpp/locale/codecvt utf16")(C++11)(deprecated in C++17)(removed in C++26) |  converts between UTF-16 and UCS-2/UCS-4   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_codecvt_utf16&action=edit)  
+(class template)   
 [ codecvt_utf8_utf16](codecvt_utf8_utf16.html "cpp/locale/codecvt utf8 utf16")(C++11)(deprecated in C++17)(removed in C++26) |  converts between UTF-8 and UTF-16   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_codecvt_utf8_utf16&action=edit)
+(class template) 

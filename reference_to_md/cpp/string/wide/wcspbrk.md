@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Null-terminated wide strings](../wide.html "cpp/string/wide")
 
@@ -153,7 +153,7 @@
 WCHAR_MAX  
 WEOF](../wide.html#Macros "cpp/string/wide")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/navbar_content&action=edit)
+
 
 Defined in header `[<cwchar>](../../header/cwchar.html "cpp/header/cwchar")` |  |   
 ---|---|---  
@@ -174,21 +174,21 @@ Finds the first character in wide string pointed to by dest, that is also in wid
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/wcspbrk&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 dest  |  \-  |  pointer to the null-terminated wide string to be analyzed   
 ---|---|---  
 src  |  \-  |  pointer to the null-terminated wide string that contains the characters to search for   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/wcspbrk&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Pointer to the first character in dest, that is also in src, or a null pointer if no such character exists. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/wcspbrk&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 The name stands for "wide character string pointer break", because it returns a pointer to the first of the separator ("break") characters. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/wcspbrk&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -225,14 +225,14 @@ Output:
     "!"
     There are 5 words
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/wcspbrk&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ wcscspn](wcscspn.html "cpp/string/wide/wcscspn") |  returns the length of the maximum initial segment that consists  
 of only the wide _not_ found in another wide string   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wcscspn&action=edit)  
+(function)   
 ---|---  
 [ wcschr](wcschr.html "cpp/string/wide/wcschr") |  finds the first occurrence of a wide character in a wide string   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wcschr&action=edit)  
+(function)   
 [ strpbrk](../byte/strpbrk.html "cpp/string/byte/strpbrk") |  finds the first location of any character from a set of separators   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strpbrk&action=edit)  
+(function)   
 [C documentation](../../../c/string/wide/wcspbrk.html "c/string/wide/wcspbrk") for wcspbrk

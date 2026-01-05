@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 Defined in header `[<memory>](../header/memory.html "cpp/header/memory")` |  |   
 ---|---|---  
@@ -212,16 +212,16 @@ Obtain the address represented by p without forming a reference to the object po
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/to_address&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 p  |  \-  |  fancy or raw pointer   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/to_address&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Raw pointer that represents the same address as p does. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/to_address&action=edit&section=3 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     template<class T>
@@ -242,7 +242,7 @@ Raw pointer that represents the same address as p does.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/to_address&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 `std::to_address` can be used even when p does not reference storage that has an object constructed in it, in which case [std::addressof](addressof.html)(*p) cannot be used because there is no valid object for the parameter of [std::addressof](addressof.html) to bind to. 
 
@@ -254,7 +254,7 @@ The fancy pointer overload of `std::to_address` inspects the [std::pointer_trait
 ---|---|---|---  
 [`__cpp_lib_to_address`](../experimental/feature_test.html#cpp_lib_to_address "cpp/feature test") | [`201711L`](../compiler_support/20.html#cpp_lib_to_address_201711L "cpp/compiler support/20") | (C++20) | Utility to convert a pointer to a raw pointer (`std::to_address`)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/to_address&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -291,12 +291,12 @@ Run this code
         allocator_delete(a, p);
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/to_address&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ pointer_traits](pointer_traits.html "cpp/memory/pointer traits")(C++11) |  provides information about pointer-like types   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_pointer_traits&action=edit)  
+(class template)   
 ---|---  
 [ to_address](pointer_traits/to_address.html "cpp/memory/pointer traits/to address")[static] (C++20)(optional) |  obtains a raw pointer from a fancy pointer (inverse of `pointer_to`)   
-(public static member function of `std::pointer_traits<Ptr>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/pointer_traits/dsc_to_address&action=edit)
+(public static member function of `std::pointer_traits<Ptr>`) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

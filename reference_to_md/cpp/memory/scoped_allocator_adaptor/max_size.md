@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::scoped_allocator_adaptor`](../scoped_allocator_adaptor.html "cpp/memory/scoped allocator adaptor")
 
@@ -208,7 +208,7 @@ Non-member functions
 [operator==operator!=](operator_cmp.html "cpp/memory/scoped allocator adaptor/operator cmp")(until C++20)  
 [Deduction guides](deduction_guides.html "cpp/memory/scoped allocator adaptor/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/scoped_allocator_adaptor/navbar_content&action=edit)
+
 
 Defined in header `[<scoped_allocator>](../../header/scoped_allocator.html "cpp/header/scoped allocator")` |  |   
 ---|---|---  
@@ -217,18 +217,18 @@ size_type max_size() const; |  |  (since C++11)
   
 Reports the maximum allocation size supported by the outer allocator, by calling [std::allocator_traits](../allocator_traits.html)<OuterAlloc>::max_size(outer_allocator()). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/scoped_allocator_adaptor/max_size&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/scoped_allocator_adaptor/max_size&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The maximum allocation size for OuterAlloc. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/scoped_allocator_adaptor/max_size&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ max_size](../allocator/max_size.html "cpp/memory/allocator/max size")(until C++20) |  returns the largest supported allocation size   
-(public member function of `std::allocator<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/allocator/dsc_max_size&action=edit)  
+(public member function of `std::allocator<T>`)   
 ---|---  
 [ max_size](../allocator_traits/max_size.html "cpp/memory/allocator traits/max size")[static] |  returns the maximum object size supported by the allocator   
-(public static member function of `std::allocator_traits<Alloc>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/allocator_traits/dsc_max_size&action=edit)
+(public static member function of `std::allocator_traits<Alloc>`) 

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Strings library](../../string.html "cpp/string")
 
@@ -40,7 +40,7 @@ Classes
 [basic_string_view](../basic_string_view.html "cpp/string/basic string view")(C++17)  
 [char_traits](../char_traits.html "cpp/string/char traits")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/navbar_content&action=edit)
+
 
 [`std::basic_string`](../basic_string.html "cpp/string/basic string")
 
@@ -133,7 +133,7 @@ basic_string_view](operator_basic_string_view.html "cpp/string/basic string/oper
 [hash<std::basic_string>](hash.html "cpp/string/basic string/hash")(C++11)  
 [Deduction guides](deduction_guides.html "cpp/string/basic string/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/navbar_content&action=edit)
+
 
 template< [container-compatible-range](../../ranges/to.html)<CharT> R >  
 constexpr [std::basic_string](../basic_string.html)& assign_range( R&& rg ); |  |  (since C++23)  
@@ -165,32 +165,32 @@ Equivalent to
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/assign_range&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 rg  |  \-  |  a [container compatible range](../../ranges/to.html#container_compatible_range "cpp/ranges/to")  
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/assign_range&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 *this
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/assign_range&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Linear in size of rg. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/assign_range&action=edit&section=4 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 If the operation would cause [`size()`](size.html "cpp/string/basic string/size") to exceed [`max_size()`](max_size.html "cpp/string/basic string/max size"), throws [std::length_error](../../error/length_error.html "cpp/error/length error"). 
 
 If an exception is thrown for any reason, this function has no effect ([strong exception safety guarantee](../../language/exceptions.html#Exception_safety "cpp/language/exceptions")). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/assign_range&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../../utility/feature_test.html "cpp/utility/feature test") macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_containers_ranges`](../../experimental/feature_test.html#cpp_lib_containers_ranges "cpp/feature test") | [`202202L`](../../compiler_support/23.html#cpp_lib_containers_ranges_202202L "cpp/compiler support/23") | (C++23) | member functions that accept [container compatible range](../../ranges/to.html#container_compatible_range "cpp/ranges/to")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/assign_range&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -212,14 +212,14 @@ Run this code
         [assert](../../error/assert.html)(destination == "source");
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/assign_range&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ assign](assign.html "cpp/string/basic string/assign") |  assign characters to a string   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_assign&action=edit)  
+(public member function)   
 ---|---  
 [ operator=](operator=.html "cpp/string/basic string/operator=") |  assigns values to the string   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_operator%3D&action=edit)  
+(public member function)   
 [ (constructor)](basic_string.html "cpp/string/basic string/basic string") |  constructs a `basic_string`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_constructor&action=edit)
+(public member function) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

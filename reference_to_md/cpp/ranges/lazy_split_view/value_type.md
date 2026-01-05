@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::lazy_split_view`](../lazy_split_view.html "cpp/ranges/lazy split view")
 
@@ -240,7 +240,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
 [lazy_split_view::_inner_iterator_](inner_iterator.html "cpp/ranges/lazy split view/inner iterator")  
 [Deduction guides](deduction_guides.html "cpp/ranges/lazy split view/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/lazy_split_view/navbar_content&action=edit)
+
 
 struct value_type : [ranges::view_interface](../view_interface.html)<value_type> |  |  (since C++20)  
 ---|---|---  
@@ -262,14 +262,14 @@ The value type of the iterator [ranges::lazy_split_view](../lazy_split_view.html
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/lazy_split_view/value_type&action=edit&section=1 "Edit section: Data members")] Data members
+### Data members
 
 Member  |  Description   
 ---|---  
 [`_outer_iterator_`](outer_iterator.html "cpp/ranges/lazy split view/outer iterator") `_i__` (private) |  an iterator into underlying [`view`](../view.html "cpp/ranges/view") of the outer class  
 (exposition-only member object*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/lazy_split_view/value_type&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 (constructor) |  constructs a `value_type` object  
 (exposition-only member function*)  
@@ -282,17 +282,17 @@ end |  returns a [std::default_sentinel](../../iterator/default_sentinel.html "c
 #####  Inherited from [std::ranges::view_interface](../view_interface.html "cpp/ranges/view interface")  
   
 [ empty](../view_interface/empty.html "cpp/ranges/view interface/empty") |  returns whether the derived view is empty, provided only if it satisfies [`sized_range`](../sized_range.html "cpp/ranges/sized range") or [`forward_range`](../forward_range.html "cpp/ranges/forward range")   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_empty&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ cbegin](../view_interface/cbegin.html "cpp/ranges/view interface/cbegin")(C++23) |  returns a constant iterator to the beginning of the range   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_cbegin&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ cend](../view_interface/cend.html "cpp/ranges/view interface/cend")(C++23) |  returns a sentinel for the constant iterator of the range   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_cend&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ operator bool](../view_interface/operator_bool.html "cpp/ranges/view interface/operator bool") |  returns whether the derived view is not empty, provided only if [ranges::empty](../empty.html "cpp/ranges/empty") is applicable to it   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_operator_bool&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ front](../view_interface/front.html "cpp/ranges/view interface/front") |  returns the first element in the derived view, provided if it satisfies [`forward_range`](../forward_range.html "cpp/ranges/forward range")   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_front&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/lazy_split_view/value_type&action=edit&section=3 "Edit section: Member functions")] Member functions
+### Member functions
 
 ##  std::ranges::lazy_split_view::_outer_iterator_ ::value_type::value_type
 
@@ -318,7 +318,7 @@ constexpr [std::default_sentinel_t](../../iterator/default_sentinel.html) end() 
   
 Returns [std::default_sentinel](../../iterator/default_sentinel.html "cpp/iterator/default sentinel"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/lazy_split_view/value_type&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

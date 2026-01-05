@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::zip_transform_view`](../../zip_transform_view.html "cpp/ranges/zip transform view")
 
@@ -258,7 +258,7 @@ Non-member functions
 [operator==(zip_transform_view::_sentinel_)](../sentinel/operator_cmp.html "cpp/ranges/zip transform view/sentinel/operator cmp")  
 [operator-(zip_transform_view::_sentinel_)](../sentinel/operator-.html "cpp/ranges/zip transform view/sentinel/operator-")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/zip_transform_view/navbar_content&action=edit)
+
 
 constexpr decltype(auto) operator*() const  
 noexcept(/* see description */); |  |  (since C++23)  
@@ -293,15 +293,15 @@ where *parent_->fun_ is the transformation function stored in the parent ranges:
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/zip_transform_view/iterator/operator*&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/zip_transform_view/iterator/operator*&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The element which is the result of transformation (mapping). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/zip_transform_view/iterator/operator*&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 [`noexcept`](../../../language/noexcept_spec.html "cpp/language/noexcept spec") specification: 
 
@@ -311,13 +311,13 @@ noexcept([std::invoke](../../../utility/functional/invoke.html)(*parent_->fun_, 
 
      where `_INTS_` is the pack of integers `0, 1, ..., (sizeof...(Views)-1)`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/zip_transform_view/iterator/operator*&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 operator-> is not provided. 
 
 The behavior is undefined if the `_parent__` pointer to parent ranges::zip_transform_view is null (e.g. if *this is default constructed). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/zip_transform_view/iterator/operator*&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

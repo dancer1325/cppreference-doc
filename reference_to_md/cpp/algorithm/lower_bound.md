@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](ranges/copy.html "cpp/algorithm/ra
 [uninitialized_default_construct_n](../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -347,7 +347,7 @@ If the elements elem of `[`first`, `last`)` are not [partitioned](../algorithm.h
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/lower_bound&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  the pair of iterators defining the partitioned [range](../iterator.html#Ranges "cpp/iterator") of elements to examine   
 ---|---|---  
@@ -359,11 +359,11 @@ Type requirements
 -`ForwardIt` must meet the requirements of [LegacyForwardIterator](../named_req/ForwardIterator.html "cpp/named req/ForwardIterator").   
 -`Compare` must meet the requirements of [BinaryPredicate](../named_req/BinaryPredicate.html "cpp/named req/BinaryPredicate"). It is not required to satisfy [Compare](../named_req/Compare.html "cpp/named req/Compare").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/lower_bound&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Iterator to the first element of the range `[`first`, `last`)` not ordered before value, or last if no such element is found. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/lower_bound&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Given \\(\scriptsize N\\)N as [std::distance](../iterator/distance.html)(first, last): 
 
@@ -373,7 +373,7 @@ Given \\(\scriptsize N\\)N as [std::distance](../iterator/distance.html)(first, 
 
 However, if `ForwardIt` is not a [LegacyRandomAccessIterator](../named_req/RandomAccessIterator.html "cpp/named req/RandomAccessIterator"), the number of iterator increments is linear in \\(\scriptsize N\\)N. Notably, [std::map](../container/map.html "cpp/container/map"), [std::multimap](../container/multimap.html "cpp/container/multimap"), [std::set](../container/set.html "cpp/container/set"), and [std::multiset](../container/multiset.html "cpp/container/multiset") iterators are not random access, and so their member `lower_bound` functions should be preferred. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/lower_bound&action=edit&section=4 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
 
 See also the implementations in [libstdc++](https://github.com/gcc-mirror/gcc/blob/d9375e490072d1aae73a93949aa158fcd2a27018/libstdc%2B%2B-v3/include/bits/stl_algobase.h#L1023) and [libc++](https://github.com/llvm/llvm-project/blob/8350d9c23d76fb95f42674a1563cbe8c32582dd5/libcxx/include/__algorithm/lower_bound.h#L32). 
 
@@ -416,7 +416,7 @@ See also the implementations in [libstdc++](https://github.com/gcc-mirror/gcc/bl
         return first;
     }  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/lower_bound&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 Although `std::lower_bound` only requires `[`first`, `last`)` to be partitioned, this algorithm is usually used in the case where `[`first`, `last`)` is sorted, so that the binary search is valid for any value. 
 
@@ -426,7 +426,7 @@ Unlike [std::binary_search](binary_search.html "cpp/algorithm/binary search"), `
 ---|---|---|---  
 [`__cpp_lib_algorithm_default_value_type`](../experimental/feature_test.html#cpp_lib_algorithm_default_value_type "cpp/feature test") | [`202403`](../compiler_support/26.html#cpp_lib_algorithm_default_value_type_202403 "cpp/compiler support/26") | (C++26) | [List-initialization](../language/list_initialization.html "cpp/language/list initialization") for algorithms ([1,2](lower_bound.html#Version_1))  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/lower_bound&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -496,7 +496,7 @@ Output:
     102.5 at index 2
     110.2 not found
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/lower_bound&action=edit&section=7 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -511,22 +511,22 @@ bool(comp(*iter, value)) is false, `std::lower_bound`
 could return any iterator in `[`iter`, `last`)` | no iterator after  
 iter can be returned   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/lower_bound&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [ equal_range](equal_range.html "cpp/algorithm/equal range") |  returns range of elements matching a specific key   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_equal_range&action=edit)  
+(function template)   
 ---|---  
 [ partition](partition.html "cpp/algorithm/partition") |  divides a range of elements into two groups   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_partition&action=edit)  
+(function template)   
 [ partition_point](partition_point.html "cpp/algorithm/partition point")(C++11) |  locates the partition point of a partitioned range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_partition_point&action=edit)  
+(function template)   
 [ upper_bound](upper_bound.html "cpp/algorithm/upper bound") |  returns an iterator to the first element _greater_ than a certain value   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_upper_bound&action=edit)  
+(function template)   
 [ lower_bound](../container/set/lower_bound.html "cpp/container/set/lower bound") |  returns an iterator to the first element _not less_ than the given key   
-(public member function of `std::set<Key,Compare,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_lower_bound&action=edit)  
+(public member function of `std::set<Key,Compare,Allocator>`)   
 [ lower_bound](../container/multiset/lower_bound.html "cpp/container/multiset/lower bound") |  returns an iterator to the first element _not less_ than the given key   
-(public member function of `std::multiset<Key,Compare,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_lower_bound&action=edit)  
+(public member function of `std::multiset<Key,Compare,Allocator>`)   
 [ ranges::lower_bound](ranges/lower_bound.html "cpp/algorithm/ranges/lower bound")(C++20) |  returns an iterator to the first element _not less_ than the given value  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_lower_bound&action=edit)
+(algorithm function object)
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

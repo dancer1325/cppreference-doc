@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Function objects](../../functional.html "cpp/utility/functional")
 
@@ -255,7 +255,7 @@ Identity function object
 [unary_negate](unary_negate.html "cpp/utility/functional/unary negate")(until C++20*)  
 [binary_negate](binary_negate.html "cpp/utility/functional/binary negate")(until C++20*)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/navbar_content&action=edit)
+
 
 Defined in header `[<functional>](../../header/functional.html "cpp/header/functional")` |  |   
 ---|---|---  
@@ -284,7 +284,7 @@ A program may specialize this template for a [program-defined type](../../langua
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/is_placeholder&action=edit&section=1 "Edit section: Helper variable template")] Helper variable template
+### Helper variable template
 
 template< class T >  
 constexpr int is_placeholder_v = is_placeholder<T>::value; |  |  (since C++17)  
@@ -314,7 +314,7 @@ Type  |  Definition
 `value_type` |  int  
 `type` |  [std::integral_constant](../../types/integral_constant.html)<int, value>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/is_placeholder&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -354,10 +354,10 @@ Output:
     Standard placeholder _5 is for the argument number 5
     Adding 2 to 11 selected with a custom placeholder gives 13
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/is_placeholder&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ bind](bind.html "cpp/utility/functional/bind")(C++11) |  binds one or more arguments to a function object   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_bind&action=edit)  
+(function template)   
 ---|---  
 [ _1, _2, _3, _4, ...](placeholders.html "cpp/utility/functional/placeholders")(C++11) |  placeholders for the unbound arguments in a `std::bind` expression   
-(constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_placeholders&action=edit)
+(constant) 

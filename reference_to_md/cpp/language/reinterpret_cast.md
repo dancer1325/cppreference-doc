@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Expressions](expressions.html "cpp/language/expressions")
 
@@ -289,7 +289,7 @@ Conversions
 [`dynamic_cast`](dynamic_cast.html "cpp/language/dynamic cast")  
 **`reinterpret_cast`**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/expressions/navbar_content&action=edit)
+
 
 Converts between types by reinterpreting the underlying bit pattern. 
 
@@ -310,14 +310,14 @@ Converts between types by reinterpreting the underlying bit pattern.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/reinterpret_cast&action=edit&section=1 "Edit section: Syntax")] Syntax  
+### Syntax  
   
 ---  
 `**reinterpret_cast <**` target-type `**>(**` expression `**)**` |  |   
   
 Returns a value of type target-type. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/reinterpret_cast&action=edit&section=2 "Edit section: Explanation")] Explanation
+### Explanation
 
 Unlike static_cast, but like const_cast, the reinterpret_cast expression does not compile to any CPU instructions (except when converting between integers and pointers, or between pointers on obscure architectures where pointer representation depends on its type). It is primarily a compile-time directive which instructs the compiler to treat expression as if it had the type target-type. 
 
@@ -361,9 +361,9 @@ As with all cast expressions, the result is:
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/reinterpret_cast&action=edit&section=3 "Edit section: Type aliasing")] Type aliasing
+### Type aliasing
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/reinterpret_cast&action=edit&section=4 "Edit section: Type accessibility")] Type accessibility
+#### Type accessibility
 
 If a type `T_ref` is [similar](implicit_cast.html#Similar_types "cpp/language/implicit conversion") to any of the following types, an object of [dynamic type](type-id.html#Dynamic_type "cpp/language/type") `T_obj` is _type-accessible_ through a lvalue(until C++11)glvalue(since C++11) of type `T_ref`: 
 
@@ -379,7 +379,7 @@ This rule enables type-based alias analysis, in which a compiler assumes that th
 
 Note that many C++ compilers relax this rule, as a non-standard language extension, to allow wrong-type access through the inactive member of a [union](union.html "cpp/language/union") (such access is not undefined in C). 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/reinterpret_cast&action=edit&section=5 "Edit section: Call compatibility")] Call compatibility
+#### Call compatibility
 
 If any of the following conditions is satisfied, a type `T_call` is _call-compatible_ with a function type `T_func`: 
 
@@ -394,7 +394,7 @@ If any of the following conditions is satisfied, a type `T_call` is _call-compat
   
 If a function is called through an expression whose [function type](function.html#Function_type "cpp/language/function") is not call-compatible with the type of the called function’s definition, the behavior is undefined. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/reinterpret_cast&action=edit&section=6 "Edit section: Notes")] Notes
+### Notes
 
 Assuming that alignment requirements are met, a reinterpret_cast does not change the [value of a pointer](pointer.html#Pointers "cpp/language/pointer") outside of a few limited cases dealing with [_pointer-interconvertible_](static_cast.html#pointer-interconvertible "cpp/language/static cast") objects: 
     
@@ -464,11 +464,11 @@ If the implementation provides [std::intptr_t](../types/integer.html "cpp/types/
   
 In C, aggregate copy and assignment access the aggregate object as a whole. But in C++ such actions are always performed through a member function call, which accesses the individual subobjects rather than the entire object (or, in the case of unions, copies the object representation, i.e., via unsigned char). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/reinterpret_cast&action=edit&section=7 "Edit section: Keywords")] Keywords
+### Keywords
 
 [`reinterpret_cast`](../keyword/reinterpret_cast.html "cpp/keyword/reinterpret cast")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/reinterpret_cast&action=edit&section=8 "Edit section: Example")] Example
+### Example
 
 Demonstrates some uses of reinterpret_cast:
 
@@ -520,7 +520,7 @@ Possible output:
     This system is little-endian
     42
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/reinterpret_cast&action=edit&section=9 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -541,7 +541,7 @@ function lvalues to other reference types  | allowed
 [CWG 2939](https://cplusplus.github.io/CWG/issues/2939.html) | C++17  | reinterpret_cast could cast  
 prvalues to rvalue reference types  | not allowed   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/reinterpret_cast&action=edit&section=10 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -613,13 +613,13 @@ prvalues to rvalue reference types  | not allowed
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/reinterpret_cast&action=edit&section=11 "Edit section: See also")] See also
+### See also
 
-[ `const_cast` conversion ](const_cast.html "cpp/language/const cast") |  adds or removes const[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_const_cast&action=edit)  
+[ `const_cast` conversion ](const_cast.html "cpp/language/const cast") |  adds or removes const  
 ---|---  
-[ `static_cast` conversion ](static_cast.html "cpp/language/static cast") |  performs basic conversions[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_static_cast&action=edit)  
-[ `dynamic_cast` conversion ](dynamic_cast.html "cpp/language/dynamic cast") |  performs checked polymorphic conversions[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_dynamic_cast&action=edit)  
-[ explicit casts ](explicit_cast.html "cpp/language/explicit cast") |  permissive conversions between types [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_explicit_cast&action=edit)  
-[ standard conversions ](implicit_cast.html "cpp/language/implicit cast") |  implicit conversions from one type to another[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_implicit_cast&action=edit)  
+[ `static_cast` conversion ](static_cast.html "cpp/language/static cast") |  performs basic conversions  
+[ `dynamic_cast` conversion ](dynamic_cast.html "cpp/language/dynamic cast") |  performs checked polymorphic conversions  
+[ explicit casts ](explicit_cast.html "cpp/language/explicit cast") |  permissive conversions between types   
+[ standard conversions ](implicit_cast.html "cpp/language/implicit cast") |  implicit conversions from one type to another  
 [ bit_cast](../numeric/bit_cast.html "cpp/numeric/bit cast")(C++20) |  reinterpret the object representation of one type as that of another   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/dsc_bit_cast&action=edit)
+(function template) 

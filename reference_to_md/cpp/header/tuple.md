@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header is part of the [general utility](../utility.html "cpp/utility") library. 
 
@@ -214,50 +214,50 @@ This header is part of the [general utility](../utility.html "cpp/utility") libr
   
 ###  Includes  
   
-[ <compare>](compare.html "cpp/header/compare")(C++20) |  [Three-way comparison operator](../language/operator_comparison.html#Three-way_comparison "cpp/language/operator comparison") support[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/dsc_compare&action=edit)  
+[ <compare>](compare.html "cpp/header/compare")(C++20) |  [Three-way comparison operator](../language/operator_comparison.html#Three-way_comparison "cpp/language/operator comparison") support  
   
 ###  Classes  
   
 [ tuple](../utility/tuple.html "cpp/utility/tuple")(C++11) |  implements fixed size container, which holds elements of possibly different types   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_tuple&action=edit)  
+(class template)   
 [ tuple_size](../utility/tuple_size.html "cpp/utility/tuple size")(C++11) |  obtains the number of elements of a tuple-like type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_tuple_size&action=edit)  
+(class template)   
 [ tuple_element](../utility/tuple_element.html "cpp/utility/tuple element")(C++11) |  obtains the element types of a tuple-like type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_tuple_element&action=edit)  
+(class template)   
 [ std::tuple_size<std::tuple>](../utility/tuple/tuple_size.html "cpp/utility/tuple/tuple size")(C++11) |  obtains the size of a `tuple`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/dsc_tuple_size&action=edit)  
+(class template specialization)   
 [ std::tuple_element<std::tuple>](../utility/tuple/tuple_element.html "cpp/utility/tuple/tuple element")(C++11) |  obtains the type of the specified element   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/dsc_tuple_element&action=edit)  
+(class template specialization)   
 [ std::uses_allocator<std::tuple>](../utility/tuple/uses_allocator.html "cpp/utility/tuple/uses allocator")(C++11) |  specializes the [std::uses_allocator](../memory/uses_allocator.html "cpp/memory/uses allocator") type trait   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/dsc_uses_allocator&action=edit)  
+(class template specialization)   
   
 ###  Constants  
   
 [ ignore](../utility/tuple/ignore.html "cpp/utility/tuple/ignore")(C++11) |  placeholder to skip an element when unpacking a `tuple` using [`tie`](../utility/tuple/tie.html "cpp/utility/tuple/tie")   
-(constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/dsc_ignore&action=edit)  
+(constant)   
   
 ###  Functions  
   
 [ make_tuple](../utility/tuple/make_tuple.html "cpp/utility/tuple/make tuple")(C++11) |  creates a `tuple` object of the type defined by the argument types   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/dsc_make_tuple&action=edit)  
+(function template)   
 [ tie](../utility/tuple/tie.html "cpp/utility/tuple/tie")(C++11) |  creates a [tuple](../utility/tuple.html "cpp/utility/tuple") of lvalue references or unpacks a tuple into individual objects   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/dsc_tie&action=edit)  
+(function template)   
 [ forward_as_tuple](../utility/tuple/forward_as_tuple.html "cpp/utility/tuple/forward as tuple")(C++11) |  creates a `tuple` of [forwarding references](../language/reference.html#Forwarding_references "cpp/language/reference")   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/dsc_forward_as_tuple&action=edit)  
+(function template)   
 [ tuple_cat](../utility/tuple/tuple_cat.html "cpp/utility/tuple/tuple cat")(C++11) |  creates a `tuple` by concatenating any number of tuples   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/dsc_tuple_cat&action=edit)  
+(function template)   
 [ get(std::tuple)](../utility/tuple/get.html "cpp/utility/tuple/get")(C++11) |  tuple accesses specified element   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/dsc_get&action=edit)  
+(function template)   
 [ operator==operator!=operator<operator<=operator>operator>=operator<=>](../utility/tuple/operator_cmp.html "cpp/utility/tuple/operator cmp")(removed in C++20)(removed in C++20)(removed in C++20)(removed in C++20)(removed in C++20)(C++20) |  lexicographically compares the values in the tuple   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/dsc_operator_cmp&action=edit)  
+(function template)   
 [ std::swap(std::tuple)](../utility/tuple/swap2.html "cpp/utility/tuple/swap2")(C++11) |  specializes the [std::swap](../utility/swap.html "cpp/algorithm/swap") algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/dsc_swap2&action=edit)  
+(function template)   
 [ apply](../utility/apply.html "cpp/utility/apply")(C++17) |  calls a function with a tuple of arguments   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_apply&action=edit)  
+(function template)   
 [ make_from_tuple](../utility/make_from_tuple.html "cpp/utility/make from tuple")(C++17) |  construct an object with a tuple of arguments   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_make_from_tuple&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/tuple&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     #include <compare>
@@ -354,7 +354,7 @@ This header is part of the [general utility](../utility.html "cpp/utility") libr
       template<size_t I, class T> class tuple_element<I, const volatile T>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/tuple&action=edit&section=T-1 "Template:cpp/synopsis/tuple")] Class template [std::tuple](../utility/tuple.html "cpp/utility/tuple")
+#### Class template [std::tuple](../utility/tuple.html "cpp/utility/tuple")
     
     
     namespace std {

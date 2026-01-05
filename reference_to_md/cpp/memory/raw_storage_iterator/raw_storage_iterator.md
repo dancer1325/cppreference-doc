@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::raw_storage_iterator`](../raw_storage_iterator.html "cpp/memory/raw storage iterator")
 
@@ -196,7 +196,7 @@ Member functions
 [raw_storage_iterator::base](base.html "cpp/memory/raw storage iterator/base")(C++17)  
 [raw_storage_iterator::operator++raw_storage_iterator::operator++(int)](operator_arith.html "cpp/memory/raw storage iterator/operator arith")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/raw_storage_iterator/navbar_content&action=edit)
+
 
 explicit raw_storage_iterator( OutputIt it ); |  |   
 ---|---|---  
@@ -204,7 +204,7 @@ explicit raw_storage_iterator( OutputIt it ); |  |
   
 Initializes the iterator to point to the same value as it points. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/raw_storage_iterator/raw_storage_iterator&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 it  |  \-  |  location to point to   
 ---|---|---

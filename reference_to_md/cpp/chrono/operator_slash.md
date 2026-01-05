@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 Defined in header `[<chrono>](../header/chrono.html "cpp/header/chrono")` |  |   
 ---|---|---  
@@ -239,7 +239,7 @@ A plain integer is accepted if its meaning is unambiguous from the types of othe
 
 Partial-date types ([`year_month`](year_month.html "cpp/chrono/year month"), [`month_day`](month_day.html "cpp/chrono/month day"), etc.) can be created by not applying the second operator/ in any of the three orders. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/operator_slash&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 1) [std::chrono::year_month](year_month.html)(y, m)
 
@@ -289,7 +289,7 @@ Partial-date types ([`year_month`](year_month.html "cpp/chrono/year month"), [`m
 
 38,40) [std::chrono::year_month_weekday_last](year_month_weekday_last.html)([std::chrono::year](year.html)(y), mwdl.month(), mwdl.weekday_last())
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/operator_slash&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     

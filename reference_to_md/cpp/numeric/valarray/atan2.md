@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [`std::valarray`](../valarray.html "cpp/numeric/valarray")
 
@@ -155,7 +155,7 @@
   
 [Deduction guides](deduction_guides.html "cpp/numeric/valarray/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/navbar_content&action=edit)
+
 
 Defined in header `[<valarray>](../../header/valarray.html "cpp/header/valarray")` |  |   
 ---|---|---  
@@ -191,17 +191,17 @@ The behavior is undefined if x.size() != y.size().
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/atan2&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 x, y  |  \-  |  numeric arrays to compute inverse tangent of   
 ---|---|---  
 vy, vx  |  \-  |  values to compute inverse tangent of   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/atan2&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 A numeric array containing the results of computation of inverse tangent. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/atan2&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Unqualified function (atan2) is used to perform the computation. If such function is not available, [std::atan2](../math/atan2.html) is used due to [argument-dependent lookup](../../language/adl.html "cpp/language/adl"). 
 
@@ -217,7 +217,7 @@ The function can be implemented with the return type different from [std::valarr
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/atan2&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -263,7 +263,7 @@ Output:
     (2)   -90°  -60°  -45°  -30°    0°   30°   45°   60°   90°
     (3)    90°  120°  135°  150°    0°   30°   45°   60°   90°
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/atan2&action=edit&section=5 "Edit section: Defect reports")] Defect reports 
+### Defect reports 
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -271,16 +271,16 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 3074](https://cplusplus.github.io/LWG/issue3074) | C++98  | `T` is deduced from both the scalar and the `valarray` for (2,3), disallowing mixed-type calls  | only deduce `T` from the `valarray`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/atan2&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ asin(std::valarray)](asin.html "cpp/numeric/valarray/asin") |  applies the function [std::asin](../math/asin.html "cpp/numeric/math/asin") to each element of valarray   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_asin&action=edit)  
+(function template)   
 ---|---  
 [ acos(std::valarray)](acos.html "cpp/numeric/valarray/acos") |  applies the function [std::acos](../math/acos.html "cpp/numeric/math/acos") to each element of valarray   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_acos&action=edit)  
+(function template)   
 [ atan(std::valarray)](atan.html "cpp/numeric/valarray/atan") |  applies the function [std::atan](../math/atan.html "cpp/numeric/math/atan") to each element of valarray   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_atan&action=edit)  
+(function template)   
 [ atan2atan2fatan2l](../math/atan2.html "cpp/numeric/math/atan2")(C++11)(C++11) |  arc tangent, using signs to determine quadrants   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_atan2&action=edit)  
+(function)   
 [ arg](../complex/arg.html "cpp/numeric/complex/arg") |  returns the phase angle   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_arg&action=edit)
+(function template) 

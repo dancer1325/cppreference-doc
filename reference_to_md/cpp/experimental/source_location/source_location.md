@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Library fundamentals v2](../lib_extensions_2.html "cpp/experimental/lib extensions 2")
 
@@ -74,7 +74,7 @@
 [uniform container erasure](../lib_extensions_2.html#Uniform_container_erasure "cpp/experimental/lib extensions 2")  
 [logical operator type traits](../lib_extensions_2.html#Logical_operator_type_traits "cpp/experimental/lib extensions 2")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions_2/navbar_content&action=edit)
+
 
 [`std::experimental::source_location`](../source_location.html "cpp/experimental/source location")
 
@@ -88,7 +88,7 @@ Field Access
 [source_location::file_name](file_name.html "cpp/experimental/source location/file name")  
 [source_location::function_name](function_name.html "cpp/experimental/source location/function name")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/source_location/navbar_content&action=edit)
+
 
 constexpr source_location() noexcept; |  (1)  |  (library fundamentals TS v2)  
 ---|---|---  
@@ -102,13 +102,13 @@ source_location( source_location&& other ) = default; |  (3)  |  (library fundam
 
 2,3) Implicitly declared copy and move constructors.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/source_location/source_location&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 other  |  \-  |  another `source_location` to copy from   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/source_location/source_location&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ current](current.html "cpp/experimental/source location/current")[static] |  constructs a new `source_location`   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/source_location/dsc_current&action=edit)  
+(public static member function)   
 ---|---

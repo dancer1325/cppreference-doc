@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -71,7 +71,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::span`](../span.html "cpp/container/span")
 
@@ -104,7 +104,7 @@ Tables
 [dynamic_extent](dynamic_extent.html "cpp/container/span/dynamic extent")  
 [Deduction guides](deduction_guides.html "cpp/container/span/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/span/navbar_content&action=edit)
+
 
 constexpr span() noexcept; |  (1) | (since C++20)  
 ---|---|---  
@@ -150,7 +150,7 @@ Constructs a `span`.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/span/span&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first  |  \-  |  iterator to the first element of the sequence   
 ---|---|---  
@@ -161,7 +161,7 @@ r  |  \-  |  range to construct a view for
 source  |  \-  |  another `span` to convert from   
 other  |  \-  |  another `span` to copy from   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/span/span&action=edit&section=2 "Edit section: Effects")] Effects
+### Effects
 
 Overload  |  [`data()`](data.html "cpp/container/span/data") after construction  |  [`size()`](size.html "cpp/container/span/size") after construction   
 ---|---|---  
@@ -176,9 +176,9 @@ Overload  |  [`data()`](data.html "cpp/container/span/data") after construction 
 ([9](span.html#Version_9)) | source.data() | source.size()  
 ([10](span.html#Version_10)) | other.data() | other.size()  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/span/span&action=edit&section=3 "Edit section: Constraints and supplement information")] Constraints and supplement information
+### Constraints and supplement information
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/span/span&action=edit&section=4 "Edit section: Size requirements")] Size requirements
+#### Size requirements
 
 If extent is not [std::dynamic_extent](dynamic_extent.html) and the size of the source range is different from extent, the `span` object cannot be constructed. 
 
@@ -212,7 +212,7 @@ If the result of the following expression is false:
 
 9) extent == [std::dynamic_extent](dynamic_extent.html) || extent == source.size()
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/span/span&action=edit&section=5 "Edit section: Conversion requirements")] Conversion requirements
+#### Conversion requirements
 
 If `element_type` is different from the element type of the source range, and the latter cannot be converted to the former by [qualification conversion](../../language/implicit_cast.html#Qualification_conversion "cpp/language/implicit conversion"), the `span` object cannot be constructed. 
 
@@ -226,7 +226,7 @@ These overloads participate in overload resolution only if [std::is_convertible_
 
 9) `U`
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/span/span&action=edit&section=6 "Edit section: Concept requirements")] Concept requirements
+#### Concept requirements
 
 If any template argument does not model certain concept(s), the `span` object cannot be constructed. 
 
@@ -242,7 +242,7 @@ parameter  | Concept  | Remark
 [`sized_range`](../../ranges/sized_range.html "cpp/ranges/sized range") |   
 [`borrowed_range`](../../ranges/borrowed_range.html "cpp/ranges/borrowed range") | only required if [std::is_const_v](../../types/is_const.html)<element_type> is false  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/span/span&action=edit&section=7 "Edit section: Other constraints")] Other constraints
+#### Other constraints
 
 2) If `[`first`, `first + count`)` is not a [valid range](../../iterator.html#Ranges "cpp/iterator"), the behavior is undefined.
 
@@ -259,7 +259,7 @@ If `[`first`, `last`)` is not a valid range, the behavior is undefined.
 
 8) This overload participates in overload resolution only if [std::is_const_v](../../types/is_const.html)<element_type> is true.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/span/span&action=edit&section=8 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 2) Throws nothing.
 
@@ -267,13 +267,13 @@ If `[`first`, `last`)` is not a valid range, the behavior is undefined.
 
 7) Throws what and when std::[ranges::size](../../ranges/size.html)(r) and std::[ranges::data](../../ranges/data.html)(r) throw.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/span/span&action=edit&section=9 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../../utility/feature_test.html "cpp/utility/feature test") macro  | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_span_initializer_list`](../../experimental/feature_test.html#cpp_lib_span_initializer_list "cpp/feature test") | [`202311L`](../../compiler_support/26.html#cpp_lib_span_initializer_list_202311L "cpp/compiler support/26") | (C++26) | Constructing `std::span` from a [std::initializer_list](../../utility/initializer_list.html "cpp/utility/initializer list"), ([8](span.html#Version_8))  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/span/span&action=edit&section=10 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -316,18 +316,18 @@ Output:
     7 8 9
     0 1 2
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/span/span&action=edit&section=11 "Edit section: See also")] See also
+### See also
 
 [ data](data.html "cpp/container/span/data") |  direct access to the underlying contiguous storage   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_data&action=edit)  
+(public member function)   
 ---|---  
 [ size](size.html "cpp/container/span/size") |  returns the number of elements   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_size&action=edit)  
+(public member function)   
 [ operator=](operator=.html "cpp/container/span/operator=") |  assigns a `span`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/span/dsc_operator%3D&action=edit)  
+(public member function)   
 [ sizessize](../../iterator/size.html "cpp/iterator/size")(C++17)(C++20) |  returns the size of a container or array   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_size&action=edit)  
+(function template)   
 [ data](../../iterator/data.html "cpp/iterator/data")(C++17) |  obtains the pointer to the underlying array   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_data&action=edit)
+(function template) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

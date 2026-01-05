@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](copy.html "cpp/algorithm/ranges/co
 [uninitialized_default_construct_n](../../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 [Constrained algorithms](../ranges.html "cpp/algorithm/ranges")
 
@@ -550,7 +550,7 @@ All names in this menu belong to namespace `std::ranges`
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -613,7 +613,7 @@ The function-like entities described on this page are [_algorithm function objec
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/set_symmetric_difference&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first1, last1  |  \-  |  the iterator-sentinel pair defining the first input sorted [range](../../iterator.html#Ranges "cpp/iterator") of elements   
 ---|---|---  
@@ -625,15 +625,15 @@ comp  |  \-  |  comparison to apply to the projected elements
 proj1  |  \-  |  projection to apply to the elements in the first range   
 proj2  |  \-  |  projection to apply to the elements in the second range   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/set_symmetric_difference&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 {last1, last2, result_last}, where result_last is the end of the constructed range. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/set_symmetric_difference&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 At most \\(\scriptsize 2\cdot(N_1+N_2)-1\\)2·(N1+N2)-1 comparisons and applications of each projection, where \\(\scriptsize N_1\\)N1 and \\(\scriptsize N_2\\)N2 are [ranges::distance](../../iterator/ranges/distance.html)(first1, last1) and [ranges::distance](../../iterator/ranges/distance.html)(first2, last2), respectively. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/set_symmetric_difference&action=edit&section=4 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     struct set_symmetric_difference_fn
@@ -694,7 +694,7 @@ At most \\(\scriptsize 2\cdot(N_1+N_2)-1\\)2·(N1+N2)-1 comparisons and applicat
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/set_symmetric_difference&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -735,16 +735,16 @@ Output:
     1 . . 4 5 6 . . 9
     . . 3 . 5 . 7 . .
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/set_symmetric_difference&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ ranges::set_union](set_union.html "cpp/algorithm/ranges/set union")(C++20) |  computes the union of two sets  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_set_union&action=edit)  
+(algorithm function object)  
 ---|---  
 [ ranges::set_difference](set_difference.html "cpp/algorithm/ranges/set difference")(C++20) |  computes the difference between two sets  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_set_difference&action=edit)  
+(algorithm function object)  
 [ ranges::set_intersection](set_intersection.html "cpp/algorithm/ranges/set intersection")(C++20) |  computes the intersection of two sets  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_set_intersection&action=edit)  
+(algorithm function object)  
 [ ranges::includes](includes.html "cpp/algorithm/ranges/includes")(C++20) |  returns true if one sequence is a subsequence of another  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_includes&action=edit)  
+(algorithm function object)  
 [ set_symmetric_difference](../set_symmetric_difference.html "cpp/algorithm/set symmetric difference") |  computes the symmetric difference between two sets   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_set_symmetric_difference&action=edit)
+(function template) 

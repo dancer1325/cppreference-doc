@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](copy.html "cpp/algorithm/ranges/co
 [uninitialized_default_construct_n](../../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 [Constrained algorithms](../ranges.html "cpp/algorithm/ranges")
 
@@ -550,7 +550,7 @@ All names in this menu belong to namespace `std::ranges`
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -595,7 +595,7 @@ The function-like entities described on this page are [_algorithm function objec
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/adjacent_find&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  the iterator-sentinel pair defining the [range](../../iterator.html#Ranges "cpp/iterator") of elements to examine   
 ---|---|---  
@@ -603,17 +603,17 @@ r  |  \-  |  the range of the elements to examine
 pred  |  \-  |  predicate to apply to the projected elements   
 proj  |  \-  |  projection to apply to the elements   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/adjacent_find&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 An iterator to the first of the first pair of identical elements, that is, the first iterator `it` such that bool([std::invoke](../../utility/functional/invoke.html)(pred, [std::invoke](../../utility/functional/invoke.html)(proj1, *it), [std::invoke](../../utility/functional/invoke.html)(proj, *(it + 1)))) is true. 
 
 If no such elements are found, an iterator equal to last is returned. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/adjacent_find&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Exactly min((result - first) + 1, (last - first) - 1) applications of the predicate and projection where `result` is the return value. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/adjacent_find&action=edit&section=4 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     struct adjacent_find_fn
@@ -648,7 +648,7 @@ Exactly min((result - first) + 1, (last - first) - 1) applications of the predic
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/adjacent_find&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -697,10 +697,10 @@ Output:
     The first adjacent pair of equal elements is at [4] == 40
     The last element in the non-decreasing subsequence is at [7] == 41
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/adjacent_find&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ ranges::unique](unique.html "cpp/algorithm/ranges/unique")(C++20) |  removes consecutive duplicate elements in a range  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_unique&action=edit)  
+(algorithm function object)  
 ---|---  
 [ adjacent_find](../adjacent_find.html "cpp/algorithm/adjacent find") |  finds the first two adjacent items that are equal (or satisfy a given predicate)   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_adjacent_find&action=edit)
+(function template) 

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -71,7 +71,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::vector<bool>`](../vector_bool.html "cpp/container/vector bool")
 
@@ -133,7 +133,7 @@ Tables
 [hash<std::vector<bool>>](hash.html "cpp/container/vector bool/hash")(C++11)  
 [Deduction guides](../vector/deduction_guides.html "cpp/container/vector/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/vector_bool/navbar_content&action=edit)
+
 
 Defined in header `[<vector>](../../header/vector.html "cpp/header/vector")` |  |   
 ---|---|---  
@@ -154,21 +154,21 @@ Swaps the contents of x and y as if by bool b = x; x = y; y = b;.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/vector_bool/swap&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 x  |  \-  |  [`std::vector`](../vector_bool.html "cpp/container/vector bool")<bool>::[`reference`](reference.html "cpp/container/vector bool/reference") value to swap with y  
 ---|---|---  
 y  |  \-  |  [`std::vector`](../vector_bool.html "cpp/container/vector bool")<bool>::[`reference`](reference.html "cpp/container/vector bool/reference") value to swap with x  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/vector_bool/swap&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/vector_bool/swap&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Constant. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/vector_bool/swap&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -212,7 +212,7 @@ Output:
     after swap,  x: 1 1 
     after swap,  y: 0 0 0
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/vector_bool/swap&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -220,12 +220,12 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 814](https://cplusplus.github.io/LWG/issue814) | C++98  | the description of this member function was missing  | added   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/vector_bool/swap&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ reference](reference.html "cpp/container/vector bool/reference") |  proxy class representing a reference to a single bool   
 (class)  
 ---|---  
 [ swap](../vector/swap.html "cpp/container/vector/swap") |  swaps the contents   
-(public member function of `std::vector<T,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_swap&action=edit)  
+(public member function of `std::vector<T,Allocator>`)   
 [ std::swap(std::vector)](../vector/std_swap.html "cpp/container/vector/swap2") |  specializes the [std::swap](../../utility/swap.html "cpp/algorithm/swap") algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_swap2&action=edit)
+(function template) 

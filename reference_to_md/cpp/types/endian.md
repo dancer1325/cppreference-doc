@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Bit manipulation](../utility/bit.html "cpp/utility/bit")
 
@@ -152,7 +152,7 @@ Common vocabulary types
 [Endian](../utility/bit.html#Endian "cpp/utility/bit")  
 **endian**(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/bit/navbar_content&action=edit)
+
 
 Defined in header `[<bit>](../header/bit.html "cpp/header/bit")` |  |   
 ---|---|---  
@@ -188,7 +188,7 @@ Corner case platforms are also supported:
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/endian&action=edit&section=1 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     enum class endian
@@ -204,13 +204,13 @@ Corner case platforms are also supported:
     #endif
     };
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/endian&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../utility/feature_test.html "cpp/utility/feature test") macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_endian`](../experimental/feature_test.html#cpp_lib_endian "cpp/feature test") | [`201907L`](../compiler_support/20.html#cpp_lib_endian_201907L "cpp/compiler support/20") | (C++20) | std::endian  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/endian&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -233,10 +233,10 @@ Possible output:
     
     mixed-endian
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/endian&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ byteswap](../numeric/byteswap.html "cpp/numeric/byteswap")(C++23) |  reverses the bytes in the given integer value   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/dsc_byteswap&action=edit)  
+(function template)   
 ---|---  
 [C documentation](../../c/numeric/endian.html "c/numeric/endian") for endian
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.

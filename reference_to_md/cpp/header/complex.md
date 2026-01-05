@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header is part of the [numeric](../numeric.html "cpp/numeric") library. 
 
@@ -215,94 +215,94 @@ This header is part of the [numeric](../numeric.html "cpp/numeric") library.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/complex&action=edit&section=1 "Edit section: Classes")] Classes
+### Classes
 
 [ complex](../numeric/complex.html "cpp/numeric/complex") |  a complex number type   
 (class template)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/complex&action=edit&section=2 "Edit section: Functions")] Functions
+### Functions
 
 #####  Operations   
   
 ---  
 [ operator+operator-](../numeric/complex/operator_arith2.html "cpp/numeric/complex/operator arith2") |  applies unary operators to complex numbers   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_operator_arith2&action=edit)  
+(function template)   
 [ operator+operator-operator*operator/](../numeric/complex/operator_arith3.html "cpp/numeric/complex/operator arith3") |  performs complex number arithmetic on two complex values or a complex and a scalar   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_operator_arith3&action=edit)  
+(function template)   
 [ operator==operator!=](../numeric/complex/operator_cmp.html "cpp/numeric/complex/operator cmp")(removed in C++20) |  compares two complex numbers or a complex and a scalar   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_operator_cmp&action=edit)  
+(function template)   
 [ operator<<operator>>](../numeric/complex/operator_ltltgtgt.html "cpp/numeric/complex/operator ltltgtgt") |  serializes and deserializes a complex number   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_operator_ltltgtgt&action=edit)  
+(function template)   
 [ real](../numeric/complex/real2.html "cpp/numeric/complex/real2") |  returns the real part   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_real2&action=edit)  
+(function template)   
 [ imag](../numeric/complex/imag2.html "cpp/numeric/complex/imag2") |  returns the imaginary part   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_imag2&action=edit)  
+(function template)   
 [ abs(std::complex)](../numeric/complex/abs.html "cpp/numeric/complex/abs") |  returns the magnitude of a complex number   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_abs&action=edit)  
+(function template)   
 [ arg](../numeric/complex/arg.html "cpp/numeric/complex/arg") |  returns the phase angle   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_arg&action=edit)  
+(function template)   
 [ norm](../numeric/complex/norm.html "cpp/numeric/complex/norm") |  returns the squared magnitude   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_norm&action=edit)  
+(function template)   
 [ conj](../numeric/complex/conj.html "cpp/numeric/complex/conj") |  returns the complex conjugate   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_conj&action=edit)  
+(function template)   
 [ proj](../numeric/complex/proj.html "cpp/numeric/complex/proj")(C++11) |  returns the projection onto the Riemann sphere   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_proj&action=edit)  
+(function template)   
 [ polar](../numeric/complex/polar.html "cpp/numeric/complex/polar") |  constructs a complex number from magnitude and phase angle   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_polar&action=edit)  
+(function template)   
   
 #####  Exponential functions   
   
 [ exp(std::complex)](../numeric/complex/exp.html "cpp/numeric/complex/exp") |  complex base _e_ exponential   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_exp&action=edit)  
+(function template)   
 [ log(std::complex)](../numeric/complex/log.html "cpp/numeric/complex/log") |  complex natural logarithm with the branch cuts along the negative real axis   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_log&action=edit)  
+(function template)   
 [ log10(std::complex)](../numeric/complex/log10.html "cpp/numeric/complex/log10") |  complex common logarithm with the branch cuts along the negative real axis   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_log10&action=edit)  
+(function template)   
   
 #####  Power functions   
   
 [ pow(std::complex)](../numeric/complex/pow.html "cpp/numeric/complex/pow") |  complex power, one or both arguments may be a complex number   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_pow&action=edit)  
+(function template)   
 [ sqrt(std::complex)](../numeric/complex/sqrt.html "cpp/numeric/complex/sqrt") |  complex square root in the range of the right half-plane   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_sqrt&action=edit)  
+(function template)   
   
 #####  Trigonometric functions   
   
 [ sin(std::complex)](../numeric/complex/sin.html "cpp/numeric/complex/sin") |  computes sine of a complex number (\\({\small\sin{z}}\\)sin(z))   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_sin&action=edit)  
+(function template)   
 [ cos(std::complex)](../numeric/complex/cos.html "cpp/numeric/complex/cos") |  computes cosine of a complex number (\\({\small\cos{z}}\\)cos(z))   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_cos&action=edit)  
+(function template)   
 [ tan(std::complex)](../numeric/complex/tan.html "cpp/numeric/complex/tan") |  computes tangent of a complex number (\\({\small\tan{z}}\\)tan(z))   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_tan&action=edit)  
+(function template)   
 [ asin(std::complex)](../numeric/complex/asin.html "cpp/numeric/complex/asin")(C++11) |  computes arc sine of a complex number (\\({\small\arcsin{z}}\\)arcsin(z))   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_asin&action=edit)  
+(function template)   
 [ acos(std::complex)](../numeric/complex/acos.html "cpp/numeric/complex/acos")(C++11) |  computes arc cosine of a complex number (\\({\small\arccos{z}}\\)arccos(z))   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_acos&action=edit)  
+(function template)   
 [ atan(std::complex)](../numeric/complex/atan.html "cpp/numeric/complex/atan")(C++11) |  computes arc tangent of a complex number (\\({\small\arctan{z}}\\)arctan(z))   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_atan&action=edit)  
+(function template)   
   
 #####  Hyperbolic functions   
   
 [ sinh(std::complex)](../numeric/complex/sinh.html "cpp/numeric/complex/sinh") |  computes hyperbolic sine of a complex number (\\({\small\sinh{z}}\\)sinh(z))   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_sinh&action=edit)  
+(function template)   
 [ cosh(std::complex)](../numeric/complex/cosh.html "cpp/numeric/complex/cosh") |  computes hyperbolic cosine of a complex number (\\({\small\cosh{z}}\\)cosh(z))   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_cosh&action=edit)  
+(function template)   
 [ tanh(std::complex)](../numeric/complex/tanh.html "cpp/numeric/complex/tanh") |  computes hyperbolic tangent of a complex number (\\({\small\tanh{z}}\\)tanh(z))   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_tanh&action=edit)  
+(function template)   
 [ asinh(std::complex)](../numeric/complex/asinh.html "cpp/numeric/complex/asinh")(C++11) |  computes area hyperbolic sine of a complex number (\\({\small\operatorname{arsinh}{z}}\\)arsinh(z))   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_asinh&action=edit)  
+(function template)   
 [ acosh(std::complex)](../numeric/complex/acosh.html "cpp/numeric/complex/acosh")(C++11) |  computes area hyperbolic cosine of a complex number (\\({\small\operatorname{arcosh}{z}}\\)arcosh(z))   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_acosh&action=edit)  
+(function template)   
 [ atanh(std::complex)](../numeric/complex/atanh.html "cpp/numeric/complex/atanh")(C++11) |  computes area hyperbolic tangent of a complex number (\\({\small\operatorname{artanh}{z}}\\)artanh(z))   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_atanh&action=edit)  
+(function template)   
   
 #####  Literals   
   
 [ operator""ifoperator""ioperator""il](../numeric/complex/operator""i.html "cpp/numeric/complex/operator""i")(C++14) |  a [std::complex](../numeric/complex.html "cpp/numeric/complex") literal representing purely imaginary number   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/dsc_operator%22%22i&action=edit)  
+(function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/complex&action=edit&section=3 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     namespace std {
@@ -416,7 +416,7 @@ This header is part of the [numeric](../numeric.html "cpp/numeric") library.
         }
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/complex&action=edit&section=T-1 "Template:cpp/synopsis/complex")] Class [std::complex](../numeric/complex.html "cpp/numeric/complex")
+#### Class [std::complex](../numeric/complex.html "cpp/numeric/complex")
     
     
     template<class T>
@@ -447,7 +447,7 @@ This header is part of the [numeric](../numeric.html "cpp/numeric") library.
         template<class X> constexpr complex<T>& operator/=(const complex<X>&);
     };
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/complex&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

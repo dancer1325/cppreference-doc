@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 **Mathematical special functions**
 
@@ -86,7 +86,7 @@
 [sph_legendresph_legendrefsph_legendrel](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/special_functions/sph_legendre&action=edit&redlink=1 "cpp/experimental/special functions/sph legendre \(page does not exist\)")  
 [sph_neumannsph_neumannfsph_neumannl](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/special_functions/sph_neumann&action=edit&redlink=1 "cpp/experimental/special functions/sph neumann \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/special_functions/navbar_content&action=edit)
+
 
 ![](https://upload.cppreference.com/mwiki/images/3/31/Imbox_notice.png) |  **Merged into ISO C++** The functionality described on this page was merged into the mainline ISO C++ standard as of 3/2016, see [mathematical special functions](../numeric/special_math.html "cpp/numeric/special functions") (since C++17)  
 ---|---  
@@ -95,54 +95,54 @@ The Mathematical Special Functions library, ISO/IEC 29124:2010, specifies extens
 
 This special functions in this library are implemented in [boost.math](https://www.boost.org/doc/libs/release/libs/math/doc/html/special.html), which is currently available on more compilers and platforms than implementations of this standard. At the time of this writing (1/2016) the only compiler that announced direct support is gcc, for version 6.1. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/special_functions&action=edit&section=1 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 Defined in header `[<cmath>](../header/cmath.html "cpp/header/cmath")`  
 ---  
 [ assoc_laguerreassoc_laguerrefassoc_laguerrel](special_functions/assoc_laguerre.html "cpp/experimental/special functions/assoc laguerre") |  associated Laguerre polynomials   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/special_functions/dsc_assoc_laguerre&action=edit)  
+(function)   
 [ assoc_legendreassoc_legendrefassoc_legendrel](special_functions/assoc_legendre.html "cpp/experimental/special functions/assoc legendre") |  associated Legendre polynomials   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/special_functions/dsc_assoc_legendre&action=edit)  
+(function)   
 [ betabetafbetal](special_functions/beta.html "cpp/experimental/special functions/beta") |  beta function   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/special_functions/dsc_beta&action=edit)  
+(function)   
 [ comp_ellint_1comp_ellint_1fcomp_ellint_1l](special_functions/comp_ellint_1.html "cpp/experimental/special functions/comp ellint 1") |  (complete) elliptic integral of the first kind   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/special_functions/dsc_comp_ellint_1&action=edit)  
+(function)   
 [ comp_ellint_2comp_ellint_2fcomp_ellint_2l](special_functions/comp_ellint_2.html "cpp/experimental/special functions/comp ellint 2") |  (complete) elliptic integral of the second kind   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/special_functions/dsc_comp_ellint_2&action=edit)  
+(function)   
 [ comp_ellint_3comp_ellint_3fcomp_ellint_3l](special_functions/comp_ellint_3.html "cpp/experimental/special functions/comp ellint 3") |  (complete) elliptic integral of the third kind   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/special_functions/dsc_comp_ellint_3&action=edit)  
+(function)   
 [ cyl_bessel_icyl_bessel_ifcyl_bessel_il](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/special_functions/cyl_bessel_i&action=edit&redlink=1 "cpp/experimental/special functions/cyl bessel i \(page does not exist\)") |  regular modified cylindrical Bessel functions   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/special_functions/dsc_cyl_bessel_i&action=edit)  
+(function)   
 [ cyl_bessel_jcyl_bessel_jfcyl_bessel_jl](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/special_math/cyl_bessel_j&action=edit&redlink=1 "cpp/experimental/special math/cyl bessel j \(page does not exist\)") |  cylindrical Bessel functions (of the first kind)   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/special_functions/dsc_cyl_bessel_j&action=edit)  
+(function)   
 [ cyl_bessel_kcyl_bessel_kfcyl_bessel_kl](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/special_functions/cyl_bessel_k&action=edit&redlink=1 "cpp/experimental/special functions/cyl bessel k \(page does not exist\)") |  irregular modified cylindrical Bessel functions   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/special_functions/dsc_cyl_bessel_k&action=edit)  
+(function)   
 [ cyl_neumanncyl_neumannfcyl_neumannl](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/special_functions/cyl_neumann&action=edit&redlink=1 "cpp/experimental/special functions/cyl neumann \(page does not exist\)") |  cylindrical Neumann functions   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/special_functions/dsc_cyl_neumann&action=edit)  
+(function)   
 [ ellint_1ellint_1fellint_1l](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/special_functions/ellint_1&action=edit&redlink=1 "cpp/experimental/special functions/ellint 1 \(page does not exist\)") |  (incomplete) elliptic integral of the first kind   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/special_functions/dsc_ellint_1&action=edit)  
+(function)   
 [ ellint_2ellint_2fellint_2l](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/special_functions/ellint_2&action=edit&redlink=1 "cpp/experimental/special functions/ellint 2 \(page does not exist\)") |  (incomplete) elliptic integral of the second kind   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/special_functions/dsc_ellint_2&action=edit)  
+(function)   
 [ ellint_3ellint_3fellint_3l](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/special_functions/ellint_3&action=edit&redlink=1 "cpp/experimental/special functions/ellint 3 \(page does not exist\)") |  (incomplete) elliptic integral of the third kind   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/special_functions/dsc_ellint_3&action=edit)  
+(function)   
 [ expintexpintfexpintl](special_functions/expint.html "cpp/experimental/special functions/expint") |  exponential integral   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/special_functions/dsc_expint&action=edit)  
+(function)   
 [ hermitehermitefhermitel](special_functions/hermite.html "cpp/experimental/special functions/hermite") |  Hermite polynomials   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/special_functions/dsc_hermite&action=edit)  
+(function)   
 [ legendrelegendreflegendrel](special_functions/legendre.html "cpp/experimental/special functions/legendre") |  Legendre polynomials   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/special_functions/dsc_legendre&action=edit)  
+(function)   
 [ laguerrelaguerreflaguerrel](special_functions/laguerre.html "cpp/experimental/special functions/laguerre") |  Laguerre polynomials   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/special_functions/dsc_laguerre&action=edit)  
+(function)   
 [ riemann_zetariemann_zetafriemann_zetal](special_functions/riemann_zeta.html "cpp/experimental/special functions/riemann zeta") |  Riemann zeta function   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/special_functions/dsc_riemann_zeta&action=edit)  
+(function)   
 [ sph_besselsph_besselfsph_bessell](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/special_math/sph_bessel&action=edit&redlink=1 "cpp/experimental/special math/sph bessel \(page does not exist\)") |  spherical Bessel functions (of the first kind)   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/special_functions/dsc_sph_bessel&action=edit)  
+(function)   
 [ sph_legendresph_legendrefsph_legendrel](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/special_functions/sph_legendre&action=edit&redlink=1 "cpp/experimental/special functions/sph legendre \(page does not exist\)") |  spherical associated Legendre functions   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/special_functions/dsc_sph_legendre&action=edit)  
+(function)   
 [ sph_neumannsph_neumannfsph_neumannl](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/special_functions/sph_neumann&action=edit&redlink=1 "cpp/experimental/special functions/sph neumann \(page does not exist\)") |  spherical Neumann functions   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/special_functions/dsc_sph_neumann&action=edit)  
+(function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/special_functions&action=edit&section=2 "Edit section: Macros")] Macros
+### Macros
 
 __STDCPP_MATH_SPEC_FUNCS__ |  a value of at least 201003L indicates that ISO/IEC 29124:2010 is supported   
 (macro constant)  

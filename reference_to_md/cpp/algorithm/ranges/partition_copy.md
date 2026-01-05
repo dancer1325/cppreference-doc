@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](copy.html "cpp/algorithm/ranges/co
 [uninitialized_default_construct_n](../../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 [Constrained algorithms](../ranges.html "cpp/algorithm/ranges")
 
@@ -550,7 +550,7 @@ All names in this menu belong to namespace `std::ranges`
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -602,7 +602,7 @@ The function-like entities described on this page are [_algorithm function objec
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/partition_copy&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  the iterator-sentinel pair defining the source [range](../../iterator.html#Ranges "cpp/iterator") of elements to copy from   
 ---|---|---  
@@ -612,15 +612,15 @@ out_false  |  \-  |  the beginning of the output range for the elements that do 
 pred  |  \-  |  predicate to apply to the projected elements   
 proj  |  \-  |  projection to apply to the elements   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/partition_copy&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 {last, o1, o2}, where `o1` and `o2` are the ends of the output ranges respectively, after the copying is complete. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/partition_copy&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Exactly [ranges::distance](../../iterator/ranges/distance.html)(first, last) applications of the corresponding predicate comp and any projection proj. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/partition_copy&action=edit&section=4 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     struct partition_copy_fn
@@ -660,7 +660,7 @@ Exactly [ranges::distance](../../iterator/ranges/distance.html)(first, last) app
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/partition_copy&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -698,16 +698,16 @@ Output:
     o1 = N U M B E R
     o2 = 3 1 4 1 5 9
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/partition_copy&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ ranges::partition](partition.html "cpp/algorithm/ranges/partition")(C++20) |  divides a range of elements into two groups  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_partition&action=edit)  
+(algorithm function object)  
 ---|---  
 [ ranges::stable_partition](stable_partition.html "cpp/algorithm/ranges/stable partition")(C++20) |  divides elements into two groups while preserving their relative order  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_stable_partition&action=edit)  
+(algorithm function object)  
 [ ranges::copyranges::copy_if](copy.html "cpp/algorithm/ranges/copy")(C++20)(C++20) |  copies a range of elements to a new location  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_copy&action=edit)  
+(algorithm function object)  
 [ ranges::remove_copyranges::remove_copy_if](remove_copy.html "cpp/algorithm/ranges/remove copy")(C++20)(C++20) |  copies a range of elements omitting those that satisfy specific criteria  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_remove_copy&action=edit)  
+(algorithm function object)  
 [ partition_copy](../partition_copy.html "cpp/algorithm/partition copy")(C++11) |  copies a range dividing the elements into two groups   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_partition_copy&action=edit)
+(function template) 

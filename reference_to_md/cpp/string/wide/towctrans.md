@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Null-terminated wide strings](../wide.html "cpp/string/wide")
 
@@ -153,7 +153,7 @@
 WCHAR_MAX  
 WEOF](../wide.html#Macros "cpp/string/wide")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/navbar_content&action=edit)
+
 
 Defined in header `[<cwctype>](../../header/cwctype.html "cpp/header/cwctype")` |  |   
 ---|---|---  
@@ -174,17 +174,17 @@ If the value of ch is neither representable as a wchar_t nor equal to the value 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/towctrans&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 ch  |  \-  |  the wide character to map   
 ---|---|---  
 desc  |  \-  |  the [LC_CTYPE](../../locale/LC_categories.html "cpp/locale/LC categories") mapping, obtained from a call to [std::wctrans](wctrans.html "cpp/string/wide/wctrans")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/towctrans&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The mapped value of ch using the mapping identified by desc in [LC_CTYPE](../../locale/LC_categories.html "cpp/locale/LC categories") facet of the current C locale. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/towctrans&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 The following example demonstrates katakana to hiragana character mapping.
 
@@ -218,9 +218,9 @@ Output:
     
     katakana characters ヒラガナ are ひらがな in hiragana
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/towctrans&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ wctrans](wctrans.html "cpp/string/wide/wctrans") |  looks up a character mapping category in the current C locale   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wctrans&action=edit)  
+(function)   
 ---|---  
 [C documentation](../../../c/string/wide/towctrans.html "c/string/wide/towctrans") for towctrans

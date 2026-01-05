@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [Common mathematical functions](../math.html "cpp/numeric/math")
 
@@ -230,7 +230,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/navbar_content&action=edit)
+
 
 Defined in header `[<cmath>](../../header/cmath.html "cpp/header/cmath")` |  |   
 ---|---|---  
@@ -280,12 +280,12 @@ A) Additional overloads are provided for all integer types, which are treated as
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/exp2&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 num  |  \-  |  floating-point or integer value   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/exp2&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 If no errors occur, the base-2 exponential of num (2num  
 ) is returned. 
@@ -294,7 +294,7 @@ If a range error due to overflow occurs, [+HUGE_VAL](HUGE_VALL.html "cpp/numeric
 
 If a range error occurs due to underflow, the correct result (after rounding) is returned. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/exp2&action=edit&section=3 "Edit section: Error handling")] Error handling
+### Error handling
 
 Errors are reported as specified in [math_errhandling](math_errhandling.html "cpp/numeric/math/math errhandling"). 
 
@@ -307,13 +307,13 @@ If the implementation supports IEEE floating-point arithmetic (IEC 60559),
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/exp2&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 The additional overloads are not required to be provided exactly as (A). They only need to be sufficient to ensure that for their argument num of integer type, std::exp2(num) has the same effect as std::exp2(static_cast<double>(num)). 
 
 For integral exponents, it may be preferable to use [std::ldexp](ldexp.html "cpp/numeric/math/ldexp"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/exp2&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -361,15 +361,15 @@ Possible output:
         errno == ERANGE: Numerical result out of range
         FE_OVERFLOW raised
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/exp2&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ expexpfexpl](exp.html "cpp/numeric/math/exp")(C++11)(C++11) |  returns e raised to the given power (\\({\small e^x}\\)ex)   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_exp&action=edit)  
+(function)   
 ---|---  
 [ expm1expm1fexpm1l](expm1.html "cpp/numeric/math/expm1")(C++11)(C++11)(C++11) |  returns e raised to the given power, minus 1 (\\({\small e^x-1}\\)ex-1)   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_expm1&action=edit)  
+(function)   
 [ ldexpldexpfldexpl](ldexp.html "cpp/numeric/math/ldexp")(C++11)(C++11) |  multiplies a number by 2 raised to an integral power   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_ldexp&action=edit)  
+(function)   
 [ log2log2flog2l](log2.html "cpp/numeric/math/log2")(C++11)(C++11)(C++11) |  base 2 logarithm of the given number (\\({\small\log_{2}{x}}\\)log2(x))   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_log2&action=edit)  
+(function)   
 [C documentation](../../../c/numeric/math/exp2.html "c/numeric/math/exp2") for exp2

@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::flat_map`](../flat_map.html "cpp/container/flat map")
 
@@ -143,7 +143,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/flat map/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/flat_map/navbar_content&action=edit)
+
 
 T& operator[]( const Key& key ); |  (1)  |  (since C++23)  
 ---|---|---  
@@ -178,33 +178,33 @@ Equivalent to return this->try_emplace([std::forward](../../utility/forward.html
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/operator_at_assoc&action=edit&section=T-1 "Template:cpp/container/operator at assoc")] Parameters
+### Parameters
 
 key  |  \-  |  the key of the element to find   
 ---|---|---  
 x  |  \-  |  a value of any type that can be transparently compared with a key   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/operator_at_assoc&action=edit&section=T-2 "Template:cpp/container/operator at assoc")] Return value
+### Return value
 
 1,2) A reference to the mapped value of the new element if no element with key key existed. Otherwise, a reference to the mapped value of the existing element whose key is equivalent to key.
 
 3) A reference to the mapped value of the new element if no element with key that compares equivalent to the value x existed. Otherwise, a reference to the mapped value of the existing element whose key compares equivalent to x.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/operator_at_assoc&action=edit&section=T-3 "Template:cpp/container/operator at assoc")] Exceptions
+### Exceptions
 
 If an exception is thrown by any operation, the insertion has no effect. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/operator_at_assoc&action=edit&section=T-4 "Template:cpp/container/operator at assoc")] Complexity
+### Complexity
 
 Logarithmic in the size of the container, plus the cost of [insertion](try_emplace.html "cpp/container/flat map/try emplace") (if any) of an empty element. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/operator_at_assoc&action=edit&section=T-5 "Template:cpp/container/operator at assoc")] Notes
+### Notes
 
 operator[] is non-const because it inserts the key if it doesn't exist. If this behavior is undesirable or if the container is const, [`at`](at.html "cpp/container/flat map/at") may be used. 
 
 [`insert_or_assign`](insert_or_assign.html "cpp/container/flat map/insert or assign") returns more information than operator[] and does not require default-constructibility of the mapped type. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/operator_at_assoc&action=edit&section=T-6 "Template:cpp/container/operator at assoc")] Example
+### Example
 
 Run this code
     
@@ -257,12 +257,12 @@ Output:
     0 occurrence(s) of word 'that'
     2 occurrence(s) of word 'this'
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/operator_at_assoc&action=edit&section=T-8 "Template:cpp/container/operator at assoc")] See also
+### See also
 
 [ at](at.html "cpp/container/flat map/at") |  access specified element with bounds checking   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_at&action=edit)  
+(public member function)   
 ---|---  
 [ insert_or_assign](insert_or_assign.html "cpp/container/flat map/insert or assign") |  inserts an element or assigns to the current element if the key already exists   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_insert_or_assign&action=edit)  
+(public member function)   
 [ try_emplace](try_emplace.html "cpp/container/flat map/try emplace") |  inserts in-place if the key does not exist, does nothing if the key exists   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_try_emplace&action=edit)
+(public member function) 

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::split_view`](../split_view.html "cpp/ranges/split view")
 
@@ -240,7 +240,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
 [split_view::_sentinel_](sentinel.html "cpp/ranges/split view/sentinel")  
 [Deduction guides](deduction_guides.html "cpp/ranges/split view/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/split_view/navbar_content&action=edit)
+
 
 Defined in header `[<ranges>](../../header/ranges.html "cpp/header/ranges")` |  |   
 ---|---|---  
@@ -275,14 +275,14 @@ Let `_[base_](../split_view.html#base "cpp/ranges/split view")_` be the underlyi
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/split_view/split_view&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 base  |  \-  |  the view (to be split)   
 ---|---|---  
 pattern  |  \-  |  view to be used as the delimiter   
 e  |  \-  |  element to be used as the delimiter   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/split_view/split_view&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -349,7 +349,7 @@ Output:
     { 1 } { 2 3 } { 4 5 6 }
     Some moons of Jupiter: Callisto Europa Ganymede Io
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/split_view/split_view&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -358,8 +358,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [LWG 3714](https://cplusplus.github.io/LWG/issue3714)  
 ([P2711R1](https://wg21.link/P2711R1))  | C++20  | the multi-parameter constructor was not explicit  | made explicit   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/split_view/split_view&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ (constructor)](../lazy_split_view/lazy_split_view.html "cpp/ranges/lazy split view/lazy split view") |  constructs a `lazy_split_view`   
-(public member function of `std::ranges::lazy_split_view<V,Pattern>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/dsc_constructor&action=edit)  
+(public member function of `std::ranges::lazy_split_view<V,Pattern>`)   
 ---|---

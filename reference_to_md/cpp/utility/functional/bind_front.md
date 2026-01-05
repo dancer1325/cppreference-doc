@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Function objects](../../functional.html "cpp/utility/functional")
 
@@ -255,7 +255,7 @@ Identity function object
 [unary_negate](unary_negate.html "cpp/utility/functional/unary negate")(until C++20*)  
 [binary_negate](binary_negate.html "cpp/utility/functional/binary negate")(until C++20*)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/navbar_content&action=edit)
+
 
 Defined in header `[<functional>](../../header/functional.html "cpp/header/functional")` |  |   
 ---|---|---  
@@ -321,7 +321,7 @@ The following conditions must be true, otherwise the program is ill-formed:
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/bind_front&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 f  |  \-  |  [Callable](../../named_req/Callable.html "cpp/named req/Callable") object (function object, pointer to function, reference to function, pointer to member function, or pointer to data member) that will be bound to some arguments   
 ---|---|---  
@@ -331,7 +331,7 @@ Type requirements
 -`[std::decay_t](../../types/decay.html)<Args>...` must meet the requirements of [MoveConstructible](../../named_req/MoveConstructible.html "cpp/named req/MoveConstructible").   
 -`decltype(ConstFn)` must meet the requirements of [Callable](../../named_req/Callable.html "cpp/named req/Callable").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/bind_front&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 A function object (the call wrapper) of type `T` that is unspecified, except that the types of objects returned by two calls to `std::bind_front` or `std::bind_back` with the same arguments are the same. 
 
@@ -378,13 +378,13 @@ The program is ill-formed if `g` has volatile-qualified type.
 
 The member operator() is [`noexcept`](../../language/noexcept.html "cpp/language/noexcept") if the [std::invoke](invoke.html "cpp/utility/functional/invoke") expression it calls is noexcept (in other words, it preserves the exception specification of the underlying call operator). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/bind_front&action=edit&section=6 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 1,3) Throw any exception thrown by calling the constructor of the stored function object.
 
 1-4) Throw any exception thrown by calling the constructor of any of the bound arguments.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/bind_front&action=edit&section=7 "Edit section: Notes")] Notes
+### Notes
 
 These function templates are intended to replace [std::bind](bind.html "cpp/utility/functional/bind"). Unlike `std::bind`, they do not support arbitrary argument rearrangement and have no special treatment for nested bind-expressions or [std::reference_wrapper](reference_wrapper.html "cpp/utility/functional/reference wrapper")s. On the other hand, they pay attention to the value category of the call wrapper object and propagate exception specification of the underlying call operator. 
 
@@ -401,7 +401,7 @@ Typically, binding arguments to a function or a member function using ([1](bind_
 [`__cpp_lib_bind_back`](../../experimental/feature_test.html#cpp_lib_bind_back "cpp/feature test") | [`202202L`](../../compiler_support/23.html#cpp_lib_bind_back_202202L "cpp/compiler support/23") | (C++23) | `std::bind_back`, ([3](bind_front.html#Version_3))  
 [`202306L`](../../compiler_support/26.html#cpp_lib_bind_back_202306L "cpp/compiler support/26") | (C++26) | Allow passing callable objects as constant template arguments to `std::bind_back`, ([4](bind_front.html#Version_4))  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/bind_front&action=edit&section=8 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
 
 [(2) bind_front](bind_front.html#Version_2)  
 ---  
@@ -483,7 +483,7 @@ Typically, binding arguments to a function or a member function using ([1](bind_
             };
     }  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/bind_front&action=edit&section=9 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -542,7 +542,7 @@ Run this code
     #endif
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/bind_front&action=edit&section=10 "Edit section: References")] References
+### References
 
   * C++26 standard (ISO/IEC 14882:2026): 
 
@@ -574,12 +574,12 @@ Run this code
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/bind_front&action=edit&section=11 "Edit section: See also")] See also
+### See also
 
 [ bind](bind.html "cpp/utility/functional/bind")(C++11) |  binds one or more arguments to a function object   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_bind&action=edit)  
+(function template)   
 ---|---  
 [ mem_fn](mem_fn.html "cpp/utility/functional/mem fn")(C++11) |  creates a function object out of a pointer to a member   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_mem_fn&action=edit)
+(function template) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

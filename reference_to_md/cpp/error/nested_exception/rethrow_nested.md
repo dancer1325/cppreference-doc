@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Diagnostics library](../../error.html "cpp/error")
 
@@ -187,7 +187,7 @@ Exception handling failures
 [breakpoint_if_debugging](../../utility/breakpoint_if_debugging.html "cpp/utility/breakpoint if debugging")(C++26)  
 [breakpoint](../../utility/breakpoint.html "cpp/utility/breakpoint")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/navbar_content&action=edit)
+
 
 [`std::nested_exception`](../nested_exception.html "cpp/error/nested exception")
 
@@ -199,7 +199,7 @@ Member functions
 **nested_exception::rethrow_nested**  
 [nested_exception::nested_ptr](nested_ptr.html "cpp/error/nested exception/nested ptr")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/nested_exception/navbar_content&action=edit)
+
 
 [[noreturn]] void rethrow_nested() const; |  | (since C++11)   
 (constexpr since C++26)  

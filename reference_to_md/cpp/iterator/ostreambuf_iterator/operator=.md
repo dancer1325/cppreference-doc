@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](../empty.html "cpp/iterator/empty")(C++17)  
 [data](../data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 [`std::ostreambuf_iterator`](../ostreambuf_iterator.html "cpp/iterator/ostreambuf iterator")
 
@@ -206,7 +206,7 @@ Member functions
 [ostreambuf_iterator::operator++ostreambuf_iterator::operator++(int)](operator_arith.html "cpp/iterator/ostreambuf iterator/operator arith")  
 [ostreambuf_iterator::failed](failed.html "cpp/iterator/ostreambuf iterator/failed")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/ostreambuf_iterator/navbar_content&action=edit)
+
 
 ostreambuf_iterator& operator=( CharT c ); |  |   
 ---|---|---  
@@ -226,23 +226,23 @@ If the call to pbuf->sputc(c) returns Traits::eof, sets the failed() flag to tru
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/ostreambuf_iterator/operator%3D&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 c  |  \-  |  the character to insert   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/ostreambuf_iterator/operator%3D&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 *this
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/ostreambuf_iterator/operator%3D&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/ostreambuf_iterator/operator%3D&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ sputc](../../io/basic_streambuf/sputc.html "cpp/io/basic streambuf/sputc") |  writes one character to the put area and advances the next pointer   
-(public member function of `std::basic_streambuf<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_streambuf/dsc_sputc&action=edit)  
+(public member function of `std::basic_streambuf<CharT,Traits>`)   
 ---|---

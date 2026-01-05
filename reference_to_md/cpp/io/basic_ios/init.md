@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_ios`](../basic_ios.html "cpp/io/basic ios")
 
@@ -111,7 +111,7 @@ Protected member functions
 [basic_ios::swap](swap.html "cpp/io/basic ios/swap")(C++11)  
 [basic_ios::set_rdbuf](set_rdbuf.html "cpp/io/basic ios/set rdbuf")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ios/navbar_content&action=edit)
+
 
 protected:  
 void init( [std::basic_streambuf](../basic_streambuf.html)<CharT,Traits>* sb ); |  |   
@@ -136,13 +136,13 @@ Element  |  Value
   
 This member function is protected: it is called by the constructors of the derived stream classes [std::basic_istream](../basic_istream.html "cpp/io/basic istream") and [std::basic_ostream](../basic_ostream.html "cpp/io/basic ostream") once the associated stream buffer is known. Until this function is called, every member function (including the destructor) of the default-constructed [std::basic_ios](../basic_ios.html "cpp/io/basic ios") invokes undefined behavior. Note that `basic_ios` is a virtual base class, and therefore its constructor is not called by the constructors of those directly derived classes, which is why two-stage initialization is necessary. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_ios/init&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 sb  |  \-  |  stream buffer to associate to   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_ios/init&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ (constructor)](basic_ios.html "cpp/io/basic ios/basic ios") |  constructs the object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ios/dsc_constructor&action=edit)  
+(public member function)   
 ---|---

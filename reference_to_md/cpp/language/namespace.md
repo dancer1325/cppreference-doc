@@ -636,7 +636,7 @@ applied to class and enumeration declarations  | applied
   
 ### See also
 
-[ namespace alias ](namespace_alias.html "cpp/language/namespace alias") |  creates an alias of an existing namespace[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_namespace_alias&action=edit)  
+[ namespace alias ](namespace_alias.html "cpp/language/namespace alias") |  creates an alias of an existing namespace  
 ---|---
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

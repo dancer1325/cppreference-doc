@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::scoped_allocator_adaptor`](../scoped_allocator_adaptor.html "cpp/memory/scoped allocator adaptor")
 
@@ -208,7 +208,7 @@ Non-member functions
 [operator==operator!=](operator_cmp.html "cpp/memory/scoped allocator adaptor/operator cmp")(until C++20)  
 **Deduction guides**(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/scoped_allocator_adaptor/navbar_content&action=edit)
+
 
 Defined in header `[<scoped_allocator>](../../header/scoped_allocator.html "cpp/header/scoped allocator")` |  |   
 ---|---|---  
@@ -219,7 +219,7 @@ scoped_allocator_adaptor( OuterAlloc, InnerAllocs... )
   
 One [deduction guide](../../language/ctad.html "cpp/language/class template argument deduction") is provided for [std::scoped_allocator_adaptor](../scoped_allocator_adaptor.html "cpp/memory/scoped allocator adaptor") to make it possible to deduce its outer allocator. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/scoped_allocator_adaptor/deduction_guides&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [C-style I/O](../c.html "cpp/io/c")
 
@@ -176,7 +176,7 @@ Operations on files
 [tmpfile](tmpfile.html "cpp/io/c/tmpfile")  
 [tmpnam](tmpnam.html "cpp/io/c/tmpnam")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/navbar_content&action=edit)
+
 
 Defined in header `[<cstdio>](../../header/cstdio.html "cpp/header/cstdio")` |  |   
 ---|---|---  
@@ -201,7 +201,7 @@ Changes the buffering mode of the given file stream stream as indicated by the a
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/setvbuf&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 stream  |  \-  |  the file stream to set the buffer to   
 ---|---|---  
@@ -212,11 +212,11 @@ mode  |  \-  |  buffering mode to use. It can be one of the following values:  |
 [_IONBF](../c.html) |  no buffering   
 size  |  \-  |  size of the buffer   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/setvbuf&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 ​0​ on success or nonzero on failure. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/setvbuf&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 This function may only be used after stream has been associated with an open file, but before any other operation (other than a failed call to [std::setbuf](setbuf.html "cpp/io/c/setbuf")/`std::setvbuf`). 
 
@@ -235,7 +235,7 @@ A common error is setting the buffer of `stdin` or `stdout` to an array whose li
 
 The default buffer size [BUFSIZ](../c.html "cpp/io/c") is expected to be the most efficient buffer size for file I/O on the implementation, but POSIX [`fstat`](https://pubs.opengroup.org/onlinepubs/9699919799/functions/fstat.html) often provides a better estimate. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/setvbuf&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 One use case for changing buffer size is when a better size is known.
 
@@ -284,11 +284,11 @@ Possible output:
     
     BUFSIZ is 8192, but optimal block size is 65536
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/setvbuf&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ setbuf](setbuf.html "cpp/io/c/setbuf") |  sets the buffer for a file stream   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_setbuf&action=edit)  
+(function)   
 ---|---  
 [ setbuf](../basic_filebuf/setbuf.html "cpp/io/basic filebuf/setbuf")[virtual] |  provides user-supplied buffer or turns this filebuf unbuffered   
-(virtual protected member function of `std::basic_filebuf<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_filebuf/dsc_setbuf&action=edit)  
+(virtual protected member function of `std::basic_filebuf<CharT,Traits>`)   
 [C documentation](../../../c/io/setvbuf.html "c/io/setvbuf") for setvbuf

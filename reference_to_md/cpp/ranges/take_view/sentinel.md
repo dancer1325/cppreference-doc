@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::take_view`](../take_view.html "cpp/ranges/take view")
 
@@ -244,7 +244,7 @@ Non-member functions
 [take_view::_sentinel_ ::base](sentinel/base.html "cpp/ranges/take view/sentinel/base")  
 [operator==(std::counted_iterator,take_view::_sentinel_)](sentinel/operator_cmp.html "cpp/ranges/take view/sentinel/operator cmp")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/take_view/navbar_content&action=edit)
+
 
 template< bool Const >  
 class /*sentinel*/ |  |  (since C++20)   
@@ -266,30 +266,30 @@ The type /*sentinel*/<true> is returned by the const-qualified overload. The typ
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/take_view/sentinel&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Member type  |  Definition   
 ---|---  
 `_Base_` (private) |  `_[maybe-const](../../ranges.html#maybe-const "cpp/ranges")_` ﻿<Const, V>  
 (exposition-only member type*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/take_view/sentinel&action=edit&section=2 "Edit section: Data members")] Data members
+### Data members
 
 Name  |  Definition   
 ---|---  
 [ranges::sentinel_t](../iterator_t.html)<Base> `_end__` (private) |  A sentinel obtained from (possibly const-qualified) `V`  
 (exposition-only member object*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/take_view/sentinel&action=edit&section=3 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](sentinel/sentinel.html "cpp/ranges/take view/sentinel/sentinel") |  constructs a sentinel   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/sentinel/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ base](sentinel/base.html "cpp/ranges/take view/sentinel/base") |  returns the underlying sentinel   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/sentinel/dsc_base&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/take_view/sentinel&action=edit&section=4 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ operator==](sentinel/operator_cmp.html "cpp/ranges/take view/sentinel/operator cmp")(C++20) |  compares a sentinel with an iterator returned from [`take_view::begin`](begin.html "cpp/ranges/take view/begin")   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/sentinel/dsc_operator_cmp&action=edit)  
+(function)   
 ---|---

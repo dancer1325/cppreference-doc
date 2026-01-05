@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::year`](../year.html "cpp/chrono/year")
 
@@ -126,7 +126,7 @@ Helper classes
 [formatter<std::chrono::year>](formatter.html "cpp/chrono/year/formatter")  
 [hash<std::chrono::year>](hash.html "cpp/chrono/year/hash")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/year/navbar_content&action=edit)
+
 
 static constexpr year max() noexcept; |  |  (since C++20)  
 ---|---|---  
@@ -134,11 +134,11 @@ static constexpr year max() noexcept; |  |  (since C++20)
   
 Returns the largest possible `year`, that is, [std::chrono::year](../year.html)(32767). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/year/max&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 [std::chrono::year](../year.html)(32767)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/year/max&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     

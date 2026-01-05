@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Strings library](../../string.html "cpp/string")
 
@@ -40,7 +40,7 @@ Classes
 [basic_string_view](../basic_string_view.html "cpp/string/basic string view")(C++17)  
 [char_traits](../char_traits.html "cpp/string/char traits")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/navbar_content&action=edit)
+
 
 [`std::char_traits`](../char_traits.html "cpp/string/char traits")
 
@@ -59,7 +59,7 @@ Member functions
 [char_traits::eof](eof.html "cpp/string/char traits/eof")  
 [char_traits::not_eof](not_eof.html "cpp/string/char traits/not eof")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/char_traits/navbar_content&action=edit)
+
 
 static char_type to_char_type( int_type c ); |  |  (constexpr since C++11)  
 (noexcept since C++11)  
@@ -70,15 +70,15 @@ Converts c to `char_type`. If there is no equivalent `char_type` value (such as 
 
 See [CharTraits](../../named_req/CharTraits.html "cpp/named req/CharTraits") for the general requirements on character traits for `X::to_char_type`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/char_traits/to_char_type&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 c  |  \-  |  value to convert   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/char_traits/to_char_type&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 A value equivalent to c. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/char_traits/to_char_type&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Constant. 

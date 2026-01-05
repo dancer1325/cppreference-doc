@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::expected`](../expected.html "cpp/utility/expected")
 
@@ -160,7 +160,7 @@ Common vocabulary types
 [bad_expected_access](bad_expected_access.html "cpp/utility/expected/bad expected access")  
 [unexpect_tunexpect](unexpect_t.html "cpp/utility/expected/unexpect t")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/expected/navbar_content&action=edit)
+
 
 Primary template |  |   
 ---|---|---  
@@ -195,30 +195,30 @@ This overload participates in overload resolution only if [std::is_nothrow_const
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/emplace&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 args  |  \-  |  the arguments to pass to the constructor   
 ---|---|---  
 il  |  \-  |  the initializer list to pass to the constructor   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/emplace&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) *[std::construct_at](../../memory/construct_at.html)([std::addressof](../../memory/addressof.html)([`_val_`](../expected.html#Data_members "cpp/utility/expected")), [std::forward](../forward.html)<Args>(args)...)
 
 2) *[std::construct_at](../../memory/construct_at.html)([std::addressof](../../memory/addressof.html)([`_val_`](../expected.html#Data_members "cpp/utility/expected")), il, [std::forward](../forward.html)<Args>(args)...)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/emplace&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 If the construction of `T` is potentially-throwing, [`operator=`](operator=.html "cpp/utility/expected/operator=") can be used instead. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/emplace&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/emplace&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ operator=](operator=.html "cpp/utility/expected/operator=") |  assigns contents   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/expected/dsc_operator%3D&action=edit)  
+(public member function)   
 ---|---

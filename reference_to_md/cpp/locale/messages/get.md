@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Localization library](../../locale.html "cpp/locale")
 
@@ -152,7 +152,7 @@ base classes](../../locale.html#Facet_category_base_classes "cpp/locale")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/navbar_content&action=edit)
+
 
 [`std::messages`](../messages.html "cpp/locale/messages")
 
@@ -164,7 +164,7 @@ Member functions
 **messages::get messages::do_get**  
 [messages::closemessages::do_close](close.html "cpp/locale/messages/close")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/messages/navbar_content&action=edit)
+
 
 Defined in header `[<locale>](../../header/locale.html "cpp/header/locale")` |  |   
 ---|---|---  
@@ -189,7 +189,7 @@ virtual string_type do_get( catalog cat, int set, int msgid, const string_type& 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/messages/get&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 cat  |  \-  |  identifier of message catalog obtained from [open()](open.html "cpp/locale/messages/open") and not yet passed to [close()](close.html "cpp/locale/messages/close")  
 ---|---|---  
@@ -197,15 +197,15 @@ set  |  \-  |  implementation-defined argument, message set in POSIX
 msgid  |  \-  |  implementation-defined argument, message id in POSIX   
 dfault  |  \-  |  the string to look up in the catalog (if the catalog uses string look-up) and also the string to return in case of a failure   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/messages/get&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The message from the catalog or a copy of dfault if none was found. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/messages/get&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 On POSIX systems, this function call usually translates to a call to `[catgets()](https://pubs.opengroup.org/onlinepubs/9699919799/functions/catgets.html)`, and the parameters set, msgid, and dfault are passed to `catgets()` as-is. In GNU libstdc++, this function ignores set and msgid and simply calls GNU gettext(dfault) in the required locale. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/messages/get&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 The following example demonstrated retrieval of messages: on a typical GNU/Linux system it reads from `/usr/share/locale/de/LC_MESSAGES/sed.mo`.
 
@@ -237,6 +237,6 @@ Possible output:
     "No match" in German: Keine Übereinstimmung
     "Memory exhausted" in German: Speicher erschöpft
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/messages/get&action=edit&section=5 "Edit section: See also")] See also  
+### See also  
   
 ---

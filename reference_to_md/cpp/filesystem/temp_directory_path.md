@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Filesystem library](../filesystem.html "cpp/filesystem")
 
@@ -100,7 +100,7 @@ filesystem::symlink_status](status.html "cpp/filesystem/status")
 [filesystem::is_socket](is_socket.html "cpp/filesystem/is socket")  
 [filesystem::is_symlink](is_symlink.html "cpp/filesystem/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/navbar_content&action=edit)
+
 
 Defined in header `[<filesystem>](../header/filesystem.html "cpp/header/filesystem")` |  |   
 ---|---|---  
@@ -122,15 +122,15 @@ Returns the directory location suitable for temporary files.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/temp_directory_path&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/temp_directory_path&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 A directory suitable for temporary files. The path is guaranteed to exist and to be a directory. The overload that takes error_code& argument returns an empty path on error. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/temp_directory_path&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Any overload not marked `noexcept` may throw [std::bad_alloc](../memory/new/bad_alloc.html "cpp/memory/new/bad alloc") if memory allocation fails.  
 
@@ -139,13 +139,13 @@ Any overload not marked `noexcept` may throw [std::bad_alloc](../memory/new/bad_
 
 2) Sets a [std::error_code](../error/error_code.html)& parameter to the OS API error code if an OS API call fails, and executes ec.[`clear`](../error/error_code/clear.html "cpp/error/error code/clear")() if no errors occur.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/temp_directory_path&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 On POSIX systems, the path may be the one specified in the environment variables `TMPDIR`, `TMP`, `TEMP`, `TEMPDIR`, and, if none of them are specified, the path "/tmp" is returned. 
 
 On Windows systems, the path is typically the one returned by [`GetTempPath`](https://learn.microsoft.com/en-us/windows/win32/api/fileapi/nf-fileapi-gettemppathw). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/temp_directory_path&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -164,10 +164,10 @@ Possible output:
     
     Temp directory is "C:\Windows\TEMP\"
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/temp_directory_path&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ tmpfile](../io/c/tmpfile.html "cpp/io/c/tmpfile") |  creates and opens a temporary, auto-removing file   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_tmpfile&action=edit)  
+(function)   
 ---|---  
 [ current_path](current_path.html "cpp/filesystem/current path")(C++17) |  returns or sets the current working directory   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_current_path&action=edit)
+(function) 

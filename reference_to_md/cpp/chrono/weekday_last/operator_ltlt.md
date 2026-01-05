@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::weekday_last`](../weekday_last.html "cpp/chrono/weekday last")
 
@@ -117,7 +117,7 @@ Helper classes
 [formatter<std::chrono::weekday_last>](formatter.html "cpp/chrono/weekday last/formatter")  
 [hash<std::chrono::weekday_last>](hash.html "cpp/chrono/weekday last/hash")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/weekday_last/navbar_content&action=edit)
+
 
 Defined in header `[<chrono>](../../header/chrono.html "cpp/header/chrono")` |  |   
 ---|---|---  
@@ -142,17 +142,17 @@ where STATICALLY_WIDEN<CharT>("{:L}[last]") is "{:L}[last]" if `CharT` is char, 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/weekday_last/operator_ltlt&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 os
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/weekday_last/operator_ltlt&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/weekday_last/operator_ltlt&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -160,10 +160,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [P2372R3](https://wg21.link/P2372R3) | C++20  | the given locale was used by default  | `**L**` is needed to use the given locale   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/weekday_last/operator_ltlt&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ format](../../utility/format/format.html "cpp/utility/format/format")(C++20) |  stores formatted representation of the arguments in a new string   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/dsc_format&action=edit)  
+(function template)   
 ---|---  
 [ std::formatter<std::chrono::weekday>](../weekday/formatter.html "cpp/chrono/weekday/formatter")(C++20) |  formatting support for `weekday`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_formatter&action=edit)
+(class template specialization) 

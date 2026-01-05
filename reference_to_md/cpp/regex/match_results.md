@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Regular expressions library](../regex.html "cpp/regex")
 
@@ -81,7 +81,7 @@ Constants
 Regex Grammar  
 [Modified ECMAScript-262](ecmascript.html "cpp/regex/ecmascript")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/navbar_content&action=edit)
+
 
 **`std::match_results`**
 
@@ -114,7 +114,7 @@ Non-member functions
 [operator==operator!=](match_results/operator_cmp.html "cpp/regex/match results/operator cmp")(until C++20)  
 [swap(std::match_results)](match_results/swap2.html "cpp/regex/match results/swap2")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/match_results/navbar_content&action=edit)
+
 
 Defined in header `[<regex>](../header/regex.html "cpp/header/regex")` |  |   
 ---|---|---  
@@ -155,13 +155,13 @@ The first [std::sub_match](sub_match.html "cpp/regex/sub match") (index 0) conta
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/match_results&action=edit&section=1 "Edit section: Type requirements")] Type requirements
+### Type requirements
 
 -`BidirIt` must meet the requirements of [LegacyBidirectionalIterator](../named_req/BidirectionalIterator.html "cpp/named req/BidirectionalIterator").   
 ---  
 -`Alloc` must meet the requirements of [Allocator](../named_req/Allocator.html "cpp/named req/Allocator").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/match_results&action=edit&section=2 "Edit section: Specializations")] Specializations
+### Specializations
 
 Several specializations for common character sequence types are provided: 
 
@@ -177,7 +177,7 @@ Type  |  Definition
 `std::pmr::smatch` (C++17) |  std::pmr::match_results<std::string::const_iterator>  
 `std::pmr::wsmatch` (C++17) |  std::pmr::match_results<std::wstring::const_iterator>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/match_results&action=edit&section=3 "Edit section: Member types")] Member types
+### Member types
 
 Member type  |  Definition   
 ---|---  
@@ -192,17 +192,17 @@ Member type  |  Definition
 `char_type` |  [std::iterator_traits](../iterator/iterator_traits.html)<BidirIt>::value_type  
 `string_type` |  [std::basic_string](../string/basic_string.html)<char_type>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/match_results&action=edit&section=4 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](match_results/match_results.html "cpp/regex/match results/match results") |  constructs the object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/match_results/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ (destructor)](match_results/~match_results.html "cpp/regex/match results/~match results") |  destructs the object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/match_results/dsc_destructor&action=edit)  
+(public member function)   
 [ operator=](match_results/operator=.html "cpp/regex/match results/operator=") |  assigns the contents   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/match_results/dsc_operator%3D&action=edit)  
+(public member function)   
 [ get_allocator](match_results/get_allocator.html "cpp/regex/match results/get allocator") |  returns the associated allocator   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/match_results/dsc_get_allocator&action=edit)  
+(public member function)   
   
 #####  State   
   
@@ -212,48 +212,48 @@ Member type  |  Definition
 #####  Size   
   
 [ empty](match_results/empty.html "cpp/regex/match results/empty") |  checks whether the match was successful   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/match_results/dsc_empty&action=edit)  
+(public member function)   
 [ size](match_results/size.html "cpp/regex/match results/size") |  returns the number of matches in a fully-established result state   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/match_results/dsc_size&action=edit)  
+(public member function)   
 [ max_size](match_results/max_size.html "cpp/regex/match results/max size") |  returns the maximum possible number of sub-matches   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/match_results/dsc_max_size&action=edit)  
+(public member function)   
   
 #####  Element access   
   
 [ length](match_results/length.html "cpp/regex/match results/length") |  returns the length of the particular sub-match   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/match_results/dsc_length&action=edit)  
+(public member function)   
 [ position](match_results/position.html "cpp/regex/match results/position") |  returns the position of the first character of the particular sub-match   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/match_results/dsc_position&action=edit)  
+(public member function)   
 [ str](match_results/str.html "cpp/regex/match results/str") |  returns the sequence of characters for the particular sub-match   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/match_results/dsc_str&action=edit)  
+(public member function)   
 [ operator[]](match_results/operator_at.html "cpp/regex/match results/operator at") |  returns specified sub-match   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/match_results/dsc_operator_at&action=edit)  
+(public member function)   
 [ prefix](match_results/prefix.html "cpp/regex/match results/prefix") |  returns sub-sequence between the beginning of the target sequence and the beginning of the full match   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/match_results/dsc_prefix&action=edit)  
+(public member function)   
 [ suffix](match_results/suffix.html "cpp/regex/match results/suffix") |  returns sub-sequence between the end of the full match and the end of the target sequence   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/match_results/dsc_suffix&action=edit)  
+(public member function)   
   
 #####  Iterators   
   
 [ begincbegin](match_results/begin.html "cpp/regex/match results/begin") |  returns iterator to the beginning of the list of sub-matches   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/match_results/dsc_begin&action=edit)  
+(public member function)   
 [ endcend](match_results/end.html "cpp/regex/match results/end") |  returns iterator to the end of the list of sub-matches   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/match_results/dsc_end&action=edit)  
+(public member function)   
   
 #####  Format   
   
 [ format](match_results/format.html "cpp/regex/match results/format") |  formats match results for output   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/match_results/dsc_format&action=edit)  
+(public member function)   
   
 #####  Modifiers   
   
 [ swap](match_results/swap.html "cpp/regex/match results/swap") |  swaps the contents   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/match_results/dsc_swap&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/match_results&action=edit&section=5 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ operator==operator!=](match_results/operator_cmp.html "cpp/regex/match results/operator cmp")(removed in C++20) |  lexicographically compares the values in the two match result   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/match_results/dsc_operator_cmp&action=edit)  
+(function template)   
 ---|---  
 [ std::swap(std::match_results)](match_results/swap2.html "cpp/regex/match results/swap2")(C++11) |  specializes the [`std::swap`](../utility/swap.html "cpp/algorithm/swap") algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/match_results/dsc_swap2&action=edit)
+(function template) 

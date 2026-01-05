@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [Common mathematical functions](../math.html "cpp/numeric/math")
 
@@ -230,7 +230,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/navbar_content&action=edit)
+
 
 Defined in header `[<cmath>](../../header/cmath.html "cpp/header/cmath")` |  |   
 ---|---|---  
@@ -280,12 +280,12 @@ A) Additional overloads are provided for all integer types, which are treated as
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/copysign&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 mag, sgn  |  \-  |  floating-point or integer values   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/copysign&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 If no errors occur, the floating point value with the magnitude of mag and the sign of sgn is returned. 
 
@@ -293,7 +293,7 @@ If mag is NaN, then NaN with the sign of sgn is returned.
 
 If sgn is -0, the result is only negative if the implementation supports the signed zero consistently in arithmetic operations. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/copysign&action=edit&section=3 "Edit section: Error handling")] Error handling
+### Error handling
 
 This function is not subject to any errors specified in [math_errhandling](math_errhandling.html "cpp/numeric/math/math errhandling"). 
 
@@ -303,7 +303,7 @@ If the implementation supports IEEE floating-point arithmetic (IEC 60559),
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/copysign&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 `std::copysign` is the only portable way to manipulate the sign of a NaN value (to examine the sign of a NaN, [std::signbit](signbit.html "cpp/numeric/math/signbit") may also be used). 
 
@@ -321,7 +321,7 @@ static_cast<float>(num2)).
 If num1 and num2 have arithmetic types, then std::copysign(num1, num2) has the same effect as std::copysign(static_cast</*common-floating-point-type*/>(num1),  
 static_cast</*common-floating-point-type*/>(num2)), where /*common-floating-point-type*/ is the floating-point type with the greatest [floating-point conversion rank](../../language/usual_arithmetic_conversions.html#Floating-point_conversion_rank "cpp/language/usual arithmetic conversions") and greatest [floating-point conversion subrank](../../language/usual_arithmetic_conversions.html#Floating-point_conversion_subrank "cpp/language/usual arithmetic conversions") between the types of num1 and num2, arguments of integer type are considered to have the same floating-point conversion rank as double. If no such floating-point type with the greatest rank and subrank exists, then [overload resolution](../../language/overload_resolution.html "cpp/language/overload resolution") does not result in a usable candidate from the overloads provided.  | (since C++23)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/copysign&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -346,11 +346,11 @@ Output:
     copysign(inf,-2.0) = -inf
     copysign(NaN,-2.0) = -nan
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/copysign&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ abs(float)fabsfabsffabsl](fabs.html "cpp/numeric/math/fabs")(C++11)(C++11) |  absolute value of a floating point value (\\(\small{|x|}\\)|x|)   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_fabs&action=edit)  
+(function)   
 ---|---  
 [ signbit](signbit.html "cpp/numeric/math/signbit")(C++11) |  checks if the given number is negative   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_signbit&action=edit)  
+(function)   
 [C documentation](../../../c/numeric/math/copysign.html "c/numeric/math/copysign") for copysign

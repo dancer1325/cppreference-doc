@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::fpos`](../fpos.html "cpp/io/fpos")
 
@@ -85,7 +85,7 @@ Member functions
 ---  
 **fpos::state**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/fpos/navbar_content&action=edit)
+
 
 State state() const; |  (1)  |   
 ---|---|---  
@@ -111,18 +111,18 @@ For the specializations of [std::fpos](../fpos.html "cpp/io/fpos") that are used
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/fpos/state&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 st  |  \-  |  new value for the state   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/fpos/state&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) The current value of the `fpos` state.
 
 2) (none)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/fpos/state&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -145,7 +145,7 @@ Output:
     
     The stream is in the initial shift state
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/fpos/state&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -153,8 +153,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 441](https://cplusplus.github.io/LWG/issue441) | C++98  | overload (1) was not declared const (it is const in the [synopsis](../../header/ios.html "cpp/header/ios"))  | added const  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/fpos/state&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ mbstate_t](../../string/multibyte/mbstate_t.html "cpp/string/multibyte/mbstate t") |  conversion state information necessary to iterate multibyte character strings   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/dsc_mbstate_t&action=edit)  
+(class)   
 ---|---

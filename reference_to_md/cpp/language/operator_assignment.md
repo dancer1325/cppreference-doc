@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Expressions](expressions.html "cpp/language/expressions")
 
@@ -289,7 +289,7 @@ Conversions
 [`dynamic_cast`](dynamic_cast.html "cpp/language/dynamic cast")  
 [`reinterpret_cast`](reinterpret_cast.html "cpp/language/reinterpret cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/expressions/navbar_content&action=edit)
+
 
 Assignment operators modify the value of the object. 
 
@@ -331,7 +331,7 @@ bitwise right shift assignment  | `a >>= b` | Yes  | T& T::operator >>=(const T2
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_assignment&action=edit&section=1 "Edit section: Definitions")] Definitions
+### Definitions
 
 _Copy assignment_ replaces the contents of the object a with a copy of the contents of b (b is not modified). For class types, this is performed in a special member function, described in [copy assignment operator](as_operator.html "cpp/language/copy assignment"). 
 
@@ -342,7 +342,7 @@ For non-class types, copy and move assignment are indistinguishable and are refe
 
 _Compound assignment_ replace the contents of the object a with the result of a binary operation between the previous value of a and the value of b. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_assignment&action=edit&section=2 "Edit section: Assignment operator syntax")] Assignment operator syntax
+### Assignment operator syntax
 
 The assignment expressions have the form   
   
@@ -366,7 +366,7 @@ new-value |  \-  |  the expression[[2]](operator_assignment.html#cite_note-2)(un
 If new-value is not an expression, the assignment expression will never match an overloaded compound assignment operator.  | (since C++11)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_assignment&action=edit&section=3 "Edit section: Built-in simple assignment operator")] Built-in simple assignment operator
+### Built-in simple assignment operator
 
 For the built-in simple assignment, target-expr must be a modifiable lvalue. 
 
@@ -374,7 +374,7 @@ The object referred to by target-expr is modified by replacing its value with th
 
 The result of a built-in simple assignment is an lvalue of the type of target-expr, referring to target-expr. If target-expr is a [bit-field](bit_field.html "cpp/language/bit field"), the result is also a bit-field. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_assignment&action=edit&section=4 "Edit section: Assignment from an expression")] Assignment from an expression
+#### Assignment from an expression
 
 If new-value is an expression, it is [implicitly converted](implicit_cast.html "cpp/language/implicit conversion") to the cv-unqualified type of target-expr. When target-expr is a bit-field that cannot represent the value of the expression, the resulting value of the bit-field is implementation-defined. 
 
@@ -428,7 +428,7 @@ A1& operator=(A1&, A2); |  |
 ---|---|---  
 | |   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_assignment&action=edit&section=6 "Edit section: Built-in compound assignment operator")] Built-in compound assignment operator
+### Built-in compound assignment operator
 
 The behavior of every built-in compound-assignment expression target-expr` `` _op_` ﻿=` `new-value is exactly the same as the behavior of the expression target-expr` `=` `target-expr` `` _op_`` `new-value, except that target-expr is evaluated only once. 
 
@@ -468,7 +468,7 @@ T*volatile & operator+=(T*volatile &, [std::ptrdiff_t](../types/ptrdiff_t.html))
 T*volatile & operator-=(T*volatile &, [std::ptrdiff_t](../types/ptrdiff_t.html)); |  |   
 | |   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_assignment&action=edit&section=7 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -515,7 +515,7 @@ Possible output:
     
     1 0 97 98 1 2 (nil) 1:abc
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_assignment&action=edit&section=8 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -540,7 +540,7 @@ object through an int lvalue is unclear  | made clear
 were deprecated while being useful for some platforms  | they are not  
 deprecated   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_assignment&action=edit&section=9 "Edit section: See also")] See also
+### See also
 
 [Operator precedence](operator_precedence.html "cpp/language/operator precedence")
 

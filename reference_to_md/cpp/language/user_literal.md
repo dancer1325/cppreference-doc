@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Expressions](expressions.html "cpp/language/expressions")
 
@@ -289,7 +289,7 @@ Conversions
 [`dynamic_cast`](dynamic_cast.html "cpp/language/dynamic cast")  
 [`reinterpret_cast`](reinterpret_cast.html "cpp/language/reinterpret cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/expressions/navbar_content&action=edit)
+
 
 Allows integer, floating-point, character, and string literals to produce objects of user-defined type by defining a user-defined suffix. 
 
@@ -306,7 +306,7 @@ Allows integer, floating-point, character, and string literals to produce object
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/user_literal&action=edit&section=1 "Edit section: Syntax")] Syntax
+### Syntax
 
 A user-defined literal is an expression of any of the following forms   
   
@@ -393,7 +393,7 @@ When string literal concatenation takes place in [translation phase 6](translati
         "P"_x "Q" "R"_y; // error: two different ud-suffixes (_x and _y)
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/user_literal&action=edit&section=2 "Edit section: Literal operators")] Literal operators
+### Literal operators
 
 The function called by a user-defined literal is known as _literal operator_ (or, if it's a template, _literal operator template_). It is declared just like any other [function](function.html "cpp/language/function") or [function template](function_template.html "cpp/language/function template") at namespace scope (it may also be a friend function, an explicit instantiation or specialization of a function template, or introduced by a using-declaration), except for the following restrictions: 
 
@@ -490,7 +490,7 @@ Run this code
      
     int main() {}
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/user_literal&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Since the introduction of user-defined literals, the code that uses [format macro constants for fixed-width integer types](../../c/types/integer.html "c/types/integer") with no space after the preceding string literal became invalid: [std::printf](../io/c/fprintf.html)("%"[PRId64](../types/integer.html)"\n",[INT64_MIN](../types/integer.html)); has to be replaced by [std::printf](../io/c/fprintf.html)("%" [PRId64](../types/integer.html)"\n",[INT64_MIN](../types/integer.html));. 
 
@@ -525,11 +525,11 @@ Feature-test macro | Value | Std | Feature
 ---|---|---|---  
 [`__cpp_user_defined_literals`](../experimental/feature_test.html#cpp_user_defined_literals "cpp/feature test") | [`200809L`](../compiler_support/11.html#cpp_user_defined_literals_200809L "cpp/compiler support/11") | (C++11) | User-defined literals   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/user_literal&action=edit&section=4 "Edit section: Keywords")] Keywords
+### Keywords
 
 [`operator`](../keyword/operator.html "cpp/keyword/operator")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/user_literal&action=edit&section=5 "Edit section: Examples")] Examples
+### Examples
 
 Run this code
     
@@ -613,39 +613,39 @@ Output:
     0x123ABC
     abcabc
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/user_literal&action=edit&section=6 "Edit section: Standard library")] Standard library
+### Standard library
 
 The following literal operators are defined in the standard library: 
 
 Defined in inline namespace `std::literals::complex_literals`  
 ---  
 [ operator""ifoperator""ioperator""il](../numeric/complex/operator""i.html "cpp/numeric/complex/operator""i")(C++14) |  a [std::complex](../numeric/complex.html "cpp/numeric/complex") literal representing purely imaginary number   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/dsc_operator%22%22i&action=edit)  
+(function)   
 Defined in inline namespace `std::literals::chrono_literals`  
 [ operator""h](../chrono/operator""h.html "cpp/chrono/operator""h")(C++14) |  a [std::chrono::duration](../chrono/duration.html "cpp/chrono/duration") literal representing hours   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_operator%22%22h&action=edit)  
+(function)   
 [ operator""min](../chrono/operator""min.html "cpp/chrono/operator""min")(C++14) |  a [std::chrono::duration](../chrono/duration.html "cpp/chrono/duration") literal representing minutes   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_operator%22%22min&action=edit)  
+(function)   
 [ operator""s](../chrono/operator""s.html "cpp/chrono/operator""s")(C++14) |  a [std::chrono::duration](../chrono/duration.html "cpp/chrono/duration") literal representing seconds   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_operator%22%22s&action=edit)  
+(function)   
 [ operator""ms](../chrono/operator""ms.html "cpp/chrono/operator""ms")(C++14) |  a [std::chrono::duration](../chrono/duration.html "cpp/chrono/duration") literal representing milliseconds   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_operator%22%22ms&action=edit)  
+(function)   
 [ operator""us](../chrono/operator""us.html "cpp/chrono/operator""us")(C++14) |  a [std::chrono::duration](../chrono/duration.html "cpp/chrono/duration") literal representing microseconds   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_operator%22%22us&action=edit)  
+(function)   
 [ operator""ns](../chrono/operator""ns.html "cpp/chrono/operator""ns")(C++14) |  a [std::chrono::duration](../chrono/duration.html "cpp/chrono/duration") literal representing nanoseconds   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_operator%22%22ns&action=edit)  
+(function)   
 [ operator""y](../chrono/operator""y.html "cpp/chrono/operator""y")(C++20) |  a std::chrono::year literal representing a particular year   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_operator%22%22y&action=edit)  
+(function)   
 [ operator""d](../chrono/operator""d.html "cpp/chrono/operator""d")(C++20) |  a std::chrono::day literal representing a day of a month   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_operator%22%22d&action=edit)  
+(function)   
 Defined in inline namespace `std::literals::string_literals`  
 [ operator""s](../string/basic_string/operator""s.html "cpp/string/basic string/operator""s")(C++14) |  converts a character array literal to `basic_string`   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_operator%22%22s&action=edit)  
+(function)   
 Defined in inline namespace `std::literals::string_view_literals`  
 [ operator""sv](../string/basic_string_view/operator""sv.html "cpp/string/basic string view/operator""sv")(C++17) |  creates a string view of a character array literal   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/dsc_operator%22%22sv&action=edit)  
+(function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/user_literal&action=edit&section=7 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

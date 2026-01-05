@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::latch`](../latch.html "cpp/thread/latch")
 
@@ -188,7 +188,7 @@ Member functions
 Constants  
 [latch::max](max.html "cpp/thread/latch/max")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/latch/navbar_content&action=edit)
+
 
 bool try_wait() const noexcept; |  |  (since C++20)  
 ---|---|---  
@@ -196,14 +196,14 @@ bool try_wait() const noexcept; |  |  (since C++20)
   
 Returns true only if the internal counter has reached zero. This function may spuriously return false with very low probability even if the internal counter has reached zero. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/latch/try_wait&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/latch/try_wait&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 With very low probability false, otherwise cnt == 0, where `cnt` is the value of the internal counter. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/latch/try_wait&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 The reason why a spurious result is permitted is to allow implementations to use a memory order more relaxed than [std::memory_order_seq_cst](../../atomic/memory_order.html "cpp/atomic/memory order"). 

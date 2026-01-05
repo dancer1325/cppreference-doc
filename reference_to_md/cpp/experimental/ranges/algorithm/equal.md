@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Ranges](../../ranges.html "cpp/experimental/ranges")
 
@@ -66,7 +66,7 @@
 [Ranges](../../ranges.html#Ranges "cpp/experimental/ranges")  
 [Algorithms](../../ranges.html#Algorithms "cpp/experimental/ranges")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/navbar_content&action=edit)
+
 
 [Algorithms library](../../ranges.html#Algorithms "cpp/experimental/ranges")
 
@@ -224,7 +224,7 @@ Permutations
 | [prev_permutation](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/prev_permutation&action=edit&redlink=1 "cpp/experimental/ranges/algorithm/prev permutation \(page does not exist\)")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/navbar_content&action=edit)
+
 
 Defined in header `[<experimental/ranges/algorithm>](../../../header/experimental/ranges/algorithm.html "cpp/header/experimental/ranges/algorithm")` |  |   
 ---|---|---  
@@ -282,7 +282,7 @@ Notwithstanding the declarations depicted above, the actual number and order of 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/equal&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first1, last1  |  \-  |  the first range of the elements   
 ---|---|---  
@@ -294,23 +294,23 @@ pred  |  \-  |  predicate to apply to the projected elements
 proj1  |  \-  |  projection to apply to the elements in the first range   
 proj2  |  \-  |  projection to apply to the elements in the second range   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/equal&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 true if the two ranges are equal, otherwise returns false. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/equal&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 `ranges::equal` should not be used to compare the ranges formed by the iterators from [std::unordered_set](../../../container/unordered_set.html "cpp/container/unordered set"), [std::unordered_multiset](../../../container/unordered_multiset.html "cpp/container/unordered multiset"), [std::unordered_map](../../../container/unordered_map.html "cpp/container/unordered map"), or [std::unordered_multimap](../../../container/unordered_multimap.html "cpp/container/unordered multimap") because the order in which the elements are stored in those containers may be different even if the two containers store the same elements. 
 
 When comparing entire containers for equality, `operator==` for the corresponding container are usually preferred. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/equal&action=edit&section=4 "Edit section: Complexity")] Complexity
+### Complexity
 
 1,2) If SizedSentinel<S1, I1> && SizedSentinel<S2, I2> is satisfied and last1 - first1 != last2 - first2, no applications of the predicate and projections. Otherwise, at most min(last1 \- first1, last2 \- first2) applications of the predicate and each projection.
 
 3,4) At most last1 \- first1 applications of the predicate and each projection.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/equal&action=edit&section=5 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     namespace detail 
@@ -347,22 +347,22 @@ When comparing entire containers for equality, `operator==` for the correspondin
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/equal&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/equal&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ equal](../../../algorithm/equal.html "cpp/algorithm/equal") |  determines if two sets of elements are the same   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_equal&action=edit)  
+(function template)   
 ---|---  
 [ findfind_iffind_if_not](find.html "cpp/experimental/ranges/algorithm/find") |  finds the first element satisfying specific criteria   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_find&action=edit)  
+(function template)   
 [ lexicographical_compare](lexicographical_compare.html "cpp/experimental/ranges/algorithm/lexicographical compare") |  returns true if one range is lexicographically less than another   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_lexicographical_compare&action=edit)  
+(function template)   
 [ mismatch](mismatch.html "cpp/experimental/ranges/algorithm/mismatch") |  finds the first position where two ranges differ   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_mismatch&action=edit)  
+(function template)   
 [ search](search.html "cpp/experimental/ranges/algorithm/search") |  searches for a range of elements   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_search&action=edit)
+(function template) 

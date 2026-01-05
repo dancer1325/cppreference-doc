@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 Defined in header `[<utility>](../header/utility.html "cpp/header/utility")` |  |   
 ---|---|---  
@@ -149,16 +149,16 @@ Converts an enumeration to its underlying type. Equivalent to return static_cast
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/to_underlying&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 e  |  \-  |  enumeration value to convert   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/to_underlying&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The integer value of the underlying type of `Enum`, converted from e. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/to_underlying&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 `std::to_underlying` can be used to avoid converting an enumeration to an integer type other than its underlying type. 
 
@@ -166,7 +166,7 @@ The integer value of the underlying type of `Enum`, converted from e.
 ---|---|---|---  
 [`__cpp_lib_to_underlying`](../experimental/feature_test.html#cpp_lib_to_underlying "cpp/feature test") | [`202102L`](../compiler_support/23.html#cpp_lib_to_underlying_202102L "cpp/compiler support/23") | (C++23) | `std::to_underlying`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/to_underlying&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -212,14 +212,14 @@ Output:
     00FF0000
     FF000000
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/to_underlying&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ underlying_type](../types/underlying_type.html "cpp/types/underlying type")(C++11) |  obtains the underlying integer type for a given enumeration type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_underlying_type&action=edit)  
+(class template)   
 ---|---  
 [ is_enum](../types/is_enum.html "cpp/types/is enum")(C++11) |  checks if a type is an enumeration type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_enum&action=edit)  
+(class template)   
 [ is_scoped_enum](../types/is_scoped_enum.html "cpp/types/is scoped enum")(C++23) |  checks if a type is a scoped enumeration type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_scoped_enum&action=edit)
+(class template) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Type support](../../utility/rtti.html "cpp/types")
 
@@ -161,7 +161,7 @@ Runtime type information
 ---  
 [bad_cast](../bad_cast.html "cpp/types/bad cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/navbar_content&action=edit)
+
 
 [`std::numeric_limits`](../numeric_limits.html "cpp/types/numeric limits")
 
@@ -204,7 +204,7 @@ Helper types
 [float_round_style](float_round_style.html "cpp/types/numeric limits/float round style")  
 [float_denorm_style](float_denorm_style.html "cpp/types/numeric limits/float denorm style")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/navbar_content&action=edit)
+
 
 static const bool is_modulo; |  | (until C++11)  
 ---|---|---  
@@ -226,7 +226,7 @@ The value of [std::numeric_limits](../numeric_limits.html)<T>::is_modulo is true
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/numeric_limits/is_modulo&action=edit&section=1 "Edit section: Standard specializations")] Standard specializations
+### Standard specializations
 
 `T` |  value of [std::numeric_limits](../numeric_limits.html)<T>::is_modulo  
 ---|---  
@@ -251,11 +251,11 @@ float |  false
 double |  false  
 long double |  false  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/numeric_limits/is_modulo&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 The standard said "On most machines, this is true for signed integers." before the resolution of [LWG issue 2422](https://cplusplus.github.io/LWG/issue2422). See [GCC PR 22200](http://gcc.gnu.org/bugzilla/show_bug.cgi?id=22200) for a related discussion. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/numeric_limits/is_modulo&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Demonstrates the behavior of modulo types:
 
@@ -294,7 +294,7 @@ Possible output:
     min value is 0
     max value + 1 is 0
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/numeric_limits/is_modulo&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -314,12 +314,12 @@ unless signed integer overflow is defined to wrap
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/numeric_limits/is_modulo&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ is_integer](is_integer.html "cpp/types/numeric limits/is integer")[static] |  identifies integer types   
-(public static member constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/dsc_is_integer&action=edit)  
+(public static member constant)   
 ---|---  
 [ is_iec559](is_iec559.html "cpp/types/numeric limits/is iec559")[static] |  identifies the IEC 559/IEEE 754 floating-point types   
-(public static member constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/dsc_is_iec559&action=edit)  
+(public static member constant)   
 [ is_exact](is_exact.html "cpp/types/numeric limits/is exact")[static] |  identifies exact types   
-(public static member constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/dsc_is_exact&action=edit)
+(public static member constant) 

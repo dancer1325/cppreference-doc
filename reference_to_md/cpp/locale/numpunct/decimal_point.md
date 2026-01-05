@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Localization library](../../locale.html "cpp/locale")
 
@@ -152,7 +152,7 @@ base classes](../../locale.html#Facet_category_base_classes "cpp/locale")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/navbar_content&action=edit)
+
 
 [`std::numpunct`](../numpunct.html "cpp/locale/numpunct")
 
@@ -165,7 +165,7 @@ Member functions
 [numpunct::groupingnumpunct::do_grouping](grouping.html "cpp/locale/numpunct/grouping")  
 [numpunct::truenamenumpunct::do_truenamenumpunct::falsenamenumpunct::do_falsename](truefalsename.html "cpp/locale/numpunct/truefalsename")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/numpunct/navbar_content&action=edit)
+
 
 Defined in header `[<locale>](../../header/locale.html "cpp/header/locale")` |  |   
 ---|---|---  
@@ -179,11 +179,11 @@ virtual char_type do_decimal_point() const; |  (2)  |
 
 2) Returns the character to be used as the decimal separator between integer and fractional parts. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/numpunct/decimal_point&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 The value of type `char_type` to use as the decimal separator. The standard specializations of `std::numpunct` return '.' and L'.'. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/numpunct/decimal_point&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     

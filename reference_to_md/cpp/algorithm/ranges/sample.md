@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](copy.html "cpp/algorithm/ranges/co
 [uninitialized_default_construct_n](../../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 [Constrained algorithms](../ranges.html "cpp/algorithm/ranges")
 
@@ -550,7 +550,7 @@ All names in this menu belong to namespace `std::ranges`
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -597,7 +597,7 @@ The function-like entities described on this page are [_algorithm function objec
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/sample&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  the iterator-sentinel pair defining the [range](../../iterator.html#Ranges "cpp/iterator") of elements from which to make the sampling (_the population_)   
 ---|---|---  
@@ -606,19 +606,19 @@ out  |  \-  |  the output iterator where the samples are written
 n  |  \-  |  number of samples to take   
 gen  |  \-  |  the random number generator used as the source of randomness   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/sample&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 An iterator equal to out + M, that is the end of the resulting sample range. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/sample&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 _Linear_ : 𝓞(last - first). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/sample&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 This function may implement _selection sampling_ or [reservoir sampling](https://en.wikipedia.org/wiki/reservoir_sampling "enwiki:reservoir sampling"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/sample&action=edit&section=5 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     struct sample_fn
@@ -681,7 +681,7 @@ This function may implement _selection sampling_ or [reservoir sampling](https:/
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/sample&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -732,10 +732,10 @@ Possible output:
     n = 6, out = [6] { 1 2 3 4 5 6 }
     n = 7, out = [6] { 1 2 3 4 5 6 }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/sample&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ ranges::shuffle](shuffle.html "cpp/algorithm/ranges/shuffle")(C++20) |  randomly re-orders elements in a range  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_shuffle&action=edit)  
+(algorithm function object)  
 ---|---  
 [ sample](../sample.html "cpp/algorithm/sample")(C++17) |  selects N random elements from a sequence   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_sample&action=edit)
+(function template) 

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 Defined in header `[<type_traits>](../header/type_traits.html "cpp/header/type traits")` |  |   
 ---|---|---  
@@ -155,22 +155,22 @@ During the evaluation of an expression E as a core constant expression, a call t
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_within_lifetime&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 p  |  \-  |  pointer to detect   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_within_lifetime&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 true if pointer ptr points to an object that is within its lifetime; otherwise false. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_within_lifetime&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../utility/feature_test.html "cpp/utility/feature test") macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_is_within_lifetime`](../experimental/feature_test.html#cpp_lib_is_within_lifetime "cpp/feature test") | [`202306L`](../compiler_support/26.html#cpp_lib_is_within_lifetime_202306L "cpp/compiler support/26") | (C++26) | Checking if a union alternative is active   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_within_lifetime&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 `std::is_within_lifetime` can be used to check whether a union member is active:
 

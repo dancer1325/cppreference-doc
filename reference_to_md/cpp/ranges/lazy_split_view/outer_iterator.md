@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::lazy_split_view`](../lazy_split_view.html "cpp/ranges/lazy split view")
 
@@ -240,7 +240,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
 [lazy_split_view::_inner_iterator_](inner_iterator.html "cpp/ranges/lazy split view/inner iterator")  
 [Deduction guides](deduction_guides.html "cpp/ranges/lazy split view/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/lazy_split_view/navbar_content&action=edit)
+
 
 template< bool Const >  
 struct /*outer_iterator*/; |  | (since C++20)   
@@ -269,7 +269,7 @@ If either `V` or `Pattern` is not a [simple view](../../ranges.html#Helper_conce
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/lazy_split_view/outer_iterator&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Member  |  Definition   
 ---|---  
@@ -289,7 +289,7 @@ Member  |  Definition
 (public member class)  
 `difference_type` |  [ranges::range_difference_t](../range_size_t.html)<Base>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/lazy_split_view/outer_iterator&action=edit&section=2 "Edit section: Data members")] Data members
+### Data members
 
 Member  |  Description   
 ---|---  
@@ -301,7 +301,7 @@ Parent* `_parent__` (private) |  a pointer to the parent object [`lazy_split_vie
 bool `_trailing_empty__` (private) |  a flag that indicates whether an empty trailing subrange (if any) was reached  
 (exposition-only member object*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/lazy_split_view/outer_iterator&action=edit&section=3 "Edit section: Member functions")] Member functions
+### Member functions
 
 (constructor) |  constructs an iterator   
 (public member function)  
@@ -313,7 +313,7 @@ operator++operator++(int) |  advances the iterator
 _cur_ |  returns conditionally a reference to the `_[current_](outer_iterator.html#current)_` (if present) or to the *`_[parent_](outer_iterator.html#parent)_` ->`_[current_](../lazy_split_view.html#current "cpp/ranges/lazy split view")_`  
 (exposition-only member function*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/lazy_split_view/outer_iterator&action=edit&section=4 "Edit section: Member functions")] Member functions
+### Member functions
 
 ##  std::ranges::lazy_split_view::_outer_iterator_ ﻿::_outer_iterator_
 
@@ -430,7 +430,7 @@ This convenience member function is referred to from /*outer_iterator*/::operato
     else
         return *parent->current_;
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/lazy_split_view/outer_iterator&action=edit&section=5 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 operator==(C++20) |  compares the underlying iterators or the underlying iterator and [std::default_sentinel](../../iterator/default_sentinel.html "cpp/iterator/default sentinel")   
 (function)  
@@ -454,7 +454,7 @@ The `!=` operator is [synthesized](../../language/default_comparisons.html#Other
 
 These functions are not visible to ordinary [unqualified](../../language/unqualified_lookup.html "cpp/language/unqualified lookup") or [qualified lookup](../../language/qualified_lookup.html "cpp/language/qualified lookup"), and can only be found by [argument-dependent lookup](../../language/adl.html "cpp/language/adl") when `std::ranges::split_view::_outer_iterator_` is an associated class of the arguments. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/lazy_split_view/outer_iterator&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

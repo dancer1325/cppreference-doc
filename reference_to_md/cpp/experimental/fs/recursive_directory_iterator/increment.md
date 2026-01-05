@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Filesystem library](../../fs.html "cpp/experimental/fs")
 
@@ -124,7 +124,7 @@ File types
 [filesystem::is_socket](../is_socket.html "cpp/experimental/fs/is socket")  
 [filesystem::is_symlink](../is_symlink.html "cpp/experimental/fs/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/navbar_content&action=edit)
+
 
 [`recursive_directory_iterator`](../recursive_directory_iterator.html "cpp/experimental/fs/recursive directory iterator")
 
@@ -142,7 +142,7 @@ Member functions
 Non-member functions  
 [begin(recursive_directory_iterator)end(recursive_directory_iterator)](begin.html "cpp/experimental/fs/recursive directory iterator/begin")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/recursive_directory_iterator/navbar_content&action=edit)
+
 
 recursive_directory_iterator& operator++(); |  |  (filesystem TS)  
 ---|---|---  
@@ -163,16 +163,16 @@ Otherwise, if *this refers to a directory, it is iterated into if the following 
      !is_symlink(this->symlink_status()) ||  
 (options() & directory_options::follow_directory_symlink) != 0). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/recursive_directory_iterator/increment&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 ec  |  \-  |  error code to store the error status to   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/recursive_directory_iterator/increment&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 *this
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/recursive_directory_iterator/increment&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 1) filesystem_error if an error occurs. The error code is set to an appropriate error code for the error that caused the failure.
 

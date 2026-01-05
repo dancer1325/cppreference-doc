@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Classes](classes.html "cpp/language/classes")
 
@@ -261,7 +261,7 @@ Inheritance
 [`override` specifier](override.html "cpp/language/override") (C++11)  
 [`final` specifier](final.html "cpp/language/final") (C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/classes/navbar_content&action=edit)
+
 
 A move assignment operator is a non-template [non-static member function](member_functions.html "cpp/language/member functions") with the name operator= that can be called with an argument of the same class type and copies the content of the argument, possibly mutating the argument. 
 
@@ -282,7 +282,7 @@ A move assignment operator is a non-template [non-static member function](member
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/move_assignment&action=edit&section=1 "Edit section: Syntax")] Syntax
+### Syntax
 
 For the formal move assignment operator syntax, see [function declaration](function.html "cpp/language/function"). The syntax list below only demonstrates a subset of all valid move assignment operator syntaxes.   
   
@@ -300,7 +300,7 @@ parameter-list-no-default |  \-  |  a [parameter list](function.html#Parameter_l
 function-body |  \-  |  the [function body](initializer_list.html "cpp/language/constructor") of the move assignment operator   
 return-type |  \-  |  any type, but `T&` is favored in order to be consistent with scala types   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/move_assignment&action=edit&section=2 "Edit section: Explanation")] Explanation
+### Explanation
 
 1) Declaration of a move assignment operator inside of class definition.
 
@@ -335,7 +335,7 @@ The move assignment operator is called whenever it is selected by [overload reso
 
 Move assignment operators typically transfer the resources held by the argument (e.g. pointers to dynamically-allocated objects, file descriptors, TCP sockets, thread handles, etc.), rather than make copies of them, and leave the argument in some valid but otherwise indeterminate state. Since move assignment doesn’t change the lifetime of the argument, the destructor will typically be called on the argument at a later point. For example, move-assigning from a [std::string](../string/basic_string.html "cpp/string/basic string") or from a [std::vector](../container/vector.html "cpp/container/vector") may result in the argument being left empty. A move assignment is less, not more restrictively defined than ordinary assignment; where ordinary assignment must leave two copies of data at completion, move assignment is required to leave only one. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/move_assignment&action=edit&section=3 "Edit section: Implicitly-declared move assignment operator")] Implicitly-declared move assignment operator
+### Implicitly-declared move assignment operator
 
 If no user-defined move assignment operators are provided for a class type, and all of the following is true: 
 
@@ -354,7 +354,7 @@ The implicitly-declared move assignment operator has an exception specification 
 
 Because some assignment operator (move or copy) is always declared for any class, the base class assignment operator is always hidden. If a using-declaration is used to bring in the assignment operator from the base class, and its argument type could be the same as the argument type of the implicit assignment operator of the derived class, the using-declaration is also hidden by the implicit declaration. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/move_assignment&action=edit&section=4 "Edit section: Implicitly-defined move assignment operator")] Implicitly-defined move assignment operator
+### Implicitly-defined move assignment operator
 
 If the implicitly-declared move assignment operator is neither deleted nor trivial, it is defined (that is, a function body is generated and compiled) by the compiler if [odr-used](definition.html#ODR-use "cpp/language/definition") or [needed for constant evaluation](constant_expression.html#Functions_and_variables_needed_for_constant_evaluation "cpp/language/constant expression")(since C++14). 
 
@@ -397,7 +397,7 @@ As with copy assignment, it is unspecified whether virtual base class subobjects
         c2 = std::move(c1);
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/move_assignment&action=edit&section=5 "Edit section: Deleted move assignment operator")] Deleted move assignment operator
+### Deleted move assignment operator
 
 The implicitly-declared or defaulted move assignment operator for class `T` is defined as deleted if any of the following conditions is satisfied: 
 
@@ -416,7 +416,7 @@ The implicitly-declared or defaulted move assignment operator for class `T` is d
 
 A deleted implicitly-declared move assignment operator is ignored by [overload resolution](overload_resolution.html "cpp/language/overload resolution"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/move_assignment&action=edit&section=6 "Edit section: Trivial move assignment operator")] Trivial move assignment operator
+### Trivial move assignment operator
 
 The move assignment operator for class `T` is trivial if all of the following is true: 
 
@@ -430,7 +430,7 @@ The move assignment operator for class `T` is trivial if all of the following is
 
 A trivial move assignment operator performs the same action as the trivial copy assignment operator, that is, makes a copy of the object representation as if by [std::memmove](../string/byte/memmove.html "cpp/string/byte/memmove"). All data types compatible with the C language are trivially move-assignable. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/move_assignment&action=edit&section=7 "Edit section: Eligible move assignment operator")] Eligible move assignment operator
+### Eligible move assignment operator
 
 A move assignment operator is eligible if it is not deleted.  | (until C++20)  
 ---|---  
@@ -444,7 +444,7 @@ A move assignment operator is eligible if all following conditions are satisfied
   
 Triviality of eligible move assignment operators determines whether the class is a [trivially copyable type](../named_req/TriviallyCopyable.html "cpp/named req/TriviallyCopyable"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/move_assignment&action=edit&section=8 "Edit section: Notes")] Notes
+### Notes
 
 If both copy and move assignment operators are provided, overload resolution selects the move assignment if the argument is an [_rvalue_](value_category.html "cpp/language/value category") (either a [_prvalue_](value_category.html "cpp/language/value category") such as a nameless temporary or an [_xvalue_](value_category.html "cpp/language/value category") such as the result of std::move), and selects the copy assignment if the argument is an [_lvalue_](value_category.html "cpp/language/value category") (named object or a function/operator returning lvalue reference). If only the copy assignment is provided, all argument categories select it (as long as it takes its argument by value or as reference to const, since rvalues can bind to const references), which makes copy assignment the fallback for move assignment, when move is unavailable. 
 
@@ -452,7 +452,7 @@ It is unspecified whether virtual base class subobjects that are accessible thro
 
 See [assignment operator overloading](operators.html#Assignment_operator "cpp/language/operators") for additional detail on the expected behavior of a user-defined move-assignment operator. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/move_assignment&action=edit&section=9 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -552,7 +552,7 @@ Output:
     Trying to move-assign D
     move assigned
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/move_assignment&action=edit&section=10 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -582,7 +582,7 @@ constrained but does not satisfy its associated constraints  | it can be eligibl
 union types did not copy the object representation  | they copy the object  
 representation   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/move_assignment&action=edit&section=11 "Edit section: See also")] See also
+### See also
 
   * [constructor](initializer_list.html "cpp/language/constructor")
   * [converting constructor](converting_constructor.html "cpp/language/converting constructor")

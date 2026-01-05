@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Function objects](../../../functional.html "cpp/utility/functional")
 
@@ -255,7 +255,7 @@ Identity function object
 [unary_negate](../unary_negate.html "cpp/utility/functional/unary negate")(until C++20*)  
 [binary_negate](../binary_negate.html "cpp/utility/functional/binary negate")(until C++20*)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/navbar_content&action=edit)
+
 
 [`std::function_ref`](../function_ref.html "cpp/utility/functional/function ref")
 
@@ -266,7 +266,7 @@ Identity function object
 **function_ref::operator()**  
 [Deduction guides](deduction_guides.html "cpp/utility/functional/function ref/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/function_ref/navbar_content&action=edit)
+
 
 R operator()( Args... args ) const noexcept(/*noex*/); |  |  (since C++26)  
 ---|---|---  
@@ -287,29 +287,29 @@ Equivalent to return `_[thunk-ptr](../function_ref.html#thunk-ptr "cpp/utility/f
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/function_ref/operator\(\)&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 args  |  \-  |  rest parameters to pass to the stored `_[thunk-ptr](../function_ref.html#thunk-ptr "cpp/utility/functional/function ref")_`  
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/function_ref/operator\(\)&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 `_[thunk-ptr](../function_ref.html#thunk-ptr "cpp/utility/functional/function ref")_`(`_[bound-entity](../function_ref.html#bound-entity "cpp/utility/functional/function ref")_` , [std::forward](../../forward.html)<Args>(args)...). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/function_ref/operator\(\)&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Propagates the exception thrown by the underlying function call. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/function_ref/operator\(\)&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/function_ref/operator\(\)&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ operator()](../function/operator\(\).html "cpp/utility/functional/function/operator\(\)") |  invokes the target   
-(public member function of `std::function<R(Args...)>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/function/dsc_operator\(\)&action=edit)  
+(public member function of `std::function<R(Args...)>`) &action=edit)  
 ---|---  
 [ operator()](../reference_wrapper/operator\(\).html "cpp/utility/functional/reference wrapper/operator\(\)") |  calls the stored function   
-(public member function of `std::reference_wrapper<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/reference_wrapper/dsc_operator\(\)&action=edit)
+(public member function of `std::reference_wrapper<T>`) &action=edit)

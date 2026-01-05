@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Ranges](../../ranges.html "cpp/experimental/ranges")
 
@@ -66,7 +66,7 @@
 [Ranges](../../ranges.html#Ranges "cpp/experimental/ranges")  
 [Algorithms](../../ranges.html#Algorithms "cpp/experimental/ranges")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/navbar_content&action=edit)
+
 
 [General utilities library](../../ranges.html#General_utilities "cpp/experimental/ranges")
 
@@ -125,7 +125,7 @@ Tagged pairs and tuples
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/utility/navbar_content&action=edit)
+
 
 Defined in header `[<experimental/ranges/functional>](../../../header/experimental/ranges/functional.html "cpp/header/experimental/ranges/functional")` |  |   
 ---|---|---  
@@ -155,13 +155,13 @@ All specializations of `equal_to` are [`Semiregular`](../concepts/Semiregular.ht
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/functional/equal_to&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Member type  |  Definition   
 ---|---  
 `is_transparent` (member only of `equal_to<void>` specialization) |  /* unspecified */   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/functional/equal_to&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 operator() |  checks if the arguments are _equal_   
 (public member function)  
@@ -191,7 +191,7 @@ When a call to (1) or (2) would invoke a built-in operator comparing pointers of
 
 The behavior is undefined unless the conversion sequences from both `T` and `U` to `P` are equality-preserving (see below). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/equality_preservation&action=edit&section=T-1 "Template:cpp/experimental/ranges/equality preservation")] Equality preservation 
+### Equality preservation 
 
 An expression is _equality preserving_ if it results in equal outputs given equal inputs. 
 
@@ -202,18 +202,18 @@ An expression is _equality preserving_ if it results in equal outputs given equa
 
 Every expression required to be equality preserving is further required to be _stable_ : two evaluations of such an expression with the same input objects must have equal outputs absent any explicit intervening modification of those input objects. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/functional/equal_to&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Unlike [std::equal_to](../../../utility/functional/equal_to.html "cpp/utility/functional/equal to"), `ranges::equal_to` requires both `==` and `!=` to be valid (via the [`EqualityComparable`](../concepts/EqualityComparable.html "cpp/experimental/ranges/concepts/EqualityComparable") and [`EqualityComparableWith`](../concepts/EqualityComparable.html "cpp/experimental/ranges/concepts/EqualityComparable") constraints). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/functional/equal_to&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/functional/equal_to&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ equal_to](../../../utility/functional/equal_to.html "cpp/utility/functional/equal to") |  function object implementing x == y   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_equal_to&action=edit)  
+(class template)   
 ---|---

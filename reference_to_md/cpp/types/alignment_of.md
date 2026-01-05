@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Metaprogramming library](../meta.html "cpp/meta")
 
@@ -167,7 +167,7 @@ Type transformations
 Compile-time integer sequences  
 [integer_sequence](../utility/integer_sequence.html "cpp/utility/integer sequence")(C++14)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/meta/navbar_content&action=edit)
+
 
 Defined in header `[<type_traits>](../header/type_traits.html "cpp/header/type traits")` |  |   
 ---|---|---  
@@ -196,7 +196,7 @@ If the program adds specializations for `std::alignment_of` or `std::alignment_o
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/alignment_of&action=edit&section=1 "Edit section: Helper variable template")] Helper variable template 
+### Helper variable template 
 
 template< class T >  
 constexpr [std::size_t](size_t.html) alignment_of_v = alignment_of<T>::value; |  |  (since C++17)  
@@ -226,7 +226,7 @@ Type  |  Definition
 `value_type` |  [std::size_t](size_t.html)  
 `type` |  [std::integral_constant](integral_constant.html)<[std::size_t](size_t.html), value>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/alignment_of&action=edit&section=2 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     template<class T>
@@ -234,11 +234,11 @@ Type  |  Definition
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/alignment_of&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 This type trait predates the [`alignof`](../language/alignof.html "cpp/language/alignof") keyword, which can be used to obtain the same value with less verbosity. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/alignment_of&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -267,16 +267,16 @@ Possible output:
     
     1 2 4 8
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/alignment_of&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 `**[alignof](../language/alignof.html "cpp/language/alignof")**` (C++11) |  queries alignment requirements of a type  
-(operator)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_alignof&action=edit)  
+(operator)  
 ---|---  
 `**[alignas](../language/alignas.html "cpp/language/alignas")**` (C++11) |  specifies that the storage for the variable should be aligned by specific amount  
-(specifier)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_alignas&action=edit)  
+(specifier)  
 [ aligned_storage](aligned_storage.html "cpp/types/aligned storage")(since C++11)(deprecated in C++23) |  defines the type suitable for use as uninitialized storage for types of given size   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_aligned_storage&action=edit)  
+(class template)   
 [ aligned_union](aligned_union.html "cpp/types/aligned union")(since C++11)(deprecated in C++23) |  defines the type suitable for use as uninitialized storage for all given types   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_aligned_union&action=edit)  
+(class template)   
 [ max_align_t](max_align_t.html "cpp/types/max align t")(C++11) |  trivial type with alignment requirement as great as any other scalar type   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_max_align_t&action=edit)
+(typedef) 

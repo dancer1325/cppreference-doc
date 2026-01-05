@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../../iterator.html "cpp/iterator")
 
@@ -196,7 +196,7 @@
 [empty](../empty.html "cpp/iterator/empty")(C++17)  
 [data](../data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 [`std::back_insert_iterator`](../back_insert_iterator.html "cpp/iterator/back insert iterator")
 
@@ -207,7 +207,7 @@ Member functions
 [back_insert_iterator::operator*](operator*.html "cpp/iterator/back insert iterator/operator*")  
 **back_insert_iterator::operator++ back_insert_iterator::operator++(int)**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/back_insert_iterator/navbar_content&action=edit)
+
 
 back_insert_iterator& operator++(); |  | (until C++20)  
 ---|---|---  
@@ -218,10 +218,10 @@ constexpr back_insert_iterator operator++( int ); |  |  (since C++20)
   
 Does nothing. These operator overloads are provided to satisfy the requirements of [LegacyOutputIterator](../../named_req/OutputIterator.html "cpp/named req/OutputIterator"). They make it possible for the expressions *iter++=value and *++iter=value to be used to output (insert) a value into the underlying container. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/inserter/operator%2B%2B&action=edit&section=T-1 "Template:cpp/iterator/inserter/operator++")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/inserter/operator%2B%2B&action=edit&section=T-2 "Template:cpp/iterator/inserter/operator++")] Return value
+### Return value
 
 *this

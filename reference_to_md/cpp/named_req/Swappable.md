@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ named requirements](../iterator/concepts.html "cpp/named req")
 
@@ -147,7 +147,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/named_req/navbar_content&action=edit)
+
 
 Any lvalue or rvalue of this type can be swapped with any lvalue or rvalue of some other type, using unqualified function call swap() in the context where both [std::swap](../utility/swap.html "cpp/algorithm/swap") and the user-defined swap()s are visible. 
 
@@ -162,7 +162,7 @@ Any lvalue or rvalue of this type can be swapped with any lvalue or rvalue of so
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/Swappable&action=edit&section=1 "Edit section: Requirements")] Requirements
+### Requirements
 
 Type U is swappable with type T if, for any object u of type U and any object t of type T, 
 
@@ -185,11 +185,11 @@ Typical implementations either
 
 2) Define a [friend function](../language/friend.html "cpp/language/friend") in-class (this approach hides the class-specific swap from name lookup other than ADL).
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/Swappable&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 It is unspecified whether [`<algorithm>`](../header/algorithm.html "cpp/header/algorithm")(until C++11)[`<utility>`](../header/utility.html "cpp/header/utility")(since C++11) is actually included when the standard library functions perform the swap, so the user-provided swap() should not expect it to be included. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/Swappable&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -243,7 +243,7 @@ Output:
     v1{{2222, 2222}}, v2{{1, 1, 1, 1}};
     v1{{1, 1, 1, 1}}, v2{{2222, 2222}};
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/Swappable&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -251,10 +251,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 226](https://cplusplus.github.io/LWG/issue226) | C++98  | it was unclear how the standard library uses `swap` | clarified to use both `std::` and ADL-found `swap`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/Swappable&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ is_swappable_withis_swappableis_nothrow_swappable_withis_nothrow_swappable](../types/is_swappable.html "cpp/types/is swappable")(C++17)(C++17)(C++17)(C++17) |  checks if objects of a type can be swapped with objects of same or different type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_swappable&action=edit)  
+(class template)   
 ---|---  
 [ swappableswappable_with](../concepts/swappable.html "cpp/concepts/swappable")(C++20) |  specifies that a type can be swapped or that two types can be swapped with each other   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_swappable&action=edit)
+(concept) 

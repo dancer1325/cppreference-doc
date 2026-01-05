@@ -21,7 +21,7 @@
 [Removed symbols (Zombie names)](zombie_names.html "cpp/symbol index/zombie names")  
 [Exposition-only symbols](expos.html "cpp/symbol index/expos")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/symbol_index/navbar_content&action=edit)
+
 
 This page tries to list all the symbols that are available from the [standard library](../standard_library.html "cpp/standard library") ([regular expressions library](../regex.html "cpp/regex")) in the namespace std::regex_constants. The symbols are written as follows: 
 
@@ -55,22 +55,22 @@ This page tries to list all the symbols that are available from the [standard li
   
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/regex_constants&action=edit&section=2 "Edit section: A")] A
+### A
 
 [`awk`](../regex/syntax_option_type.html "cpp/regex/syntax option type") (since C++11)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/regex_constants&action=edit&section=3 "Edit section: B")] B
+### B
 
 [`basic`](../regex/syntax_option_type.html "cpp/regex/syntax option type") (since C++11)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/regex_constants&action=edit&section=4 "Edit section: C")] C
+### C
 
 [`collate`](../regex/syntax_option_type.html "cpp/regex/syntax option type") (since C++11)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/regex_constants&action=edit&section=5 "Edit section: E")] E
+### E
 
 [`ECMAScript`](../regex/syntax_option_type.html "cpp/regex/syntax option type") (since C++11)  
 [`egrep`](../regex/syntax_option_type.html "cpp/regex/syntax option type") (since C++11)  
@@ -91,7 +91,7 @@ This page tries to list all the symbols that are available from the [standard li
 [`extended`](../regex/syntax_option_type.html "cpp/regex/syntax option type") (since C++11)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/regex_constants&action=edit&section=6 "Edit section: F")] F
+### F
 
 [`format_default`](../regex/match_flag_type.html "cpp/regex/match flag type") (since C++11)  
 [`format_first_only`](../regex/match_flag_type.html "cpp/regex/match flag type") (since C++11)  
@@ -99,17 +99,17 @@ This page tries to list all the symbols that are available from the [standard li
 [`format_sed`](../regex/match_flag_type.html "cpp/regex/match flag type") (since C++11)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/regex_constants&action=edit&section=7 "Edit section: G")] G
+### G
 
 [`grep`](../regex/syntax_option_type.html "cpp/regex/syntax option type") (since C++11)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/regex_constants&action=edit&section=8 "Edit section: I")] I
+### I
 
 [`icase`](../regex/syntax_option_type.html "cpp/regex/syntax option type") (since C++11)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/regex_constants&action=edit&section=9 "Edit section: M")] M
+### M
 
 [`match_any`](../regex/match_flag_type.html "cpp/regex/match flag type") (since C++11)  
 [`match_continuous`](../regex/match_flag_type.html "cpp/regex/match flag type") (since C++11)  
@@ -124,17 +124,17 @@ This page tries to list all the symbols that are available from the [standard li
 [`multiline`](../regex/syntax_option_type.html "cpp/regex/syntax option type") (since C++17)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/regex_constants&action=edit&section=10 "Edit section: N")] N
+### N
 
 [`nosubs`](../regex/syntax_option_type.html "cpp/regex/syntax option type") (since C++11)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/regex_constants&action=edit&section=11 "Edit section: O")] O
+### O
 
 [`optimize`](../regex/syntax_option_type.html "cpp/regex/syntax option type") (since C++11)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/regex_constants&action=edit&section=12 "Edit section: S")] S
+### S
 
 [`syntax_option_type`](../regex/syntax_option_type.html "cpp/regex/syntax option type") (since C++11)  
 

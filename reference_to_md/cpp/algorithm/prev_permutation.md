@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](ranges/copy.html "cpp/algorithm/ra
 [uninitialized_default_construct_n](../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -328,7 +328,7 @@ If the type of *first is not [Swappable](../named_req/Swappable.html "cpp/named 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/prev_permutation&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  the pair of iterators defining the [range](../iterator.html#Ranges "cpp/iterator") of elements to permute   
 ---|---|---  
@@ -338,15 +338,15 @@ The types Type1 and Type2 must be such that an object of type BidirIt can be der
 Type requirements   
 -`BidirIt` must meet the requirements of [ValueSwappable](../named_req/ValueSwappable.html "cpp/named req/ValueSwappable") and [LegacyBidirectionalIterator](../named_req/BidirectionalIterator.html "cpp/named req/BidirectionalIterator").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/prev_permutation&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 true if the new permutation precedes the old in lexicographical order. false if the first permutation was reached and the range was reset to the last permutation. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/prev_permutation&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Any exceptions thrown from iterator operations or the element swap. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/prev_permutation&action=edit&section=4 "Edit section: Complexity")] Complexity
+### Complexity
 
 Given \\(\scriptsize N\\)N as [std::distance](../iterator/distance.html)(first, last): 
 
@@ -355,7 +355,7 @@ Given \\(\scriptsize N\\)N as [std::distance](../iterator/distance.html)(first, 
 2  
 swaps.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/prev_permutation&action=edit&section=5 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     template<class BidirIt>
@@ -392,13 +392,13 @@ swaps.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/prev_permutation&action=edit&section=6 "Edit section: Notes")] Notes
+### Notes
 
 Averaged over the entire sequence of permutations, typical implementations use about 3 comparisons and 1.5 swaps per call. 
 
 Implementations (e.g. [MSVC STL](https://github.com/microsoft/STL/blob/main/stl/src/vector_algorithms.cpp)) may enable vectorization when the iterator type satisfies [LegacyContiguousIterator](../named_req/ContiguousIterator.html "cpp/named req/ContiguousIterator") and swapping its value type calls neither non-trivial special member function nor [ADL](../language/adl.html "cpp/language/adl")-found `swap`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/prev_permutation&action=edit&section=7 "Edit section: Example")] Example
+### Example
 
 The following code prints all six permutations of the string "cab" in reverse order.
 
@@ -427,12 +427,12 @@ Output:
     
     cab bca bac acb abc cba
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/prev_permutation&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [ is_permutation](is_permutation.html "cpp/algorithm/is permutation")(C++11) |  determines if a sequence is a permutation of another sequence   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_is_permutation&action=edit)  
+(function template)   
 ---|---  
 [ next_permutation](next_permutation.html "cpp/algorithm/next permutation") |  generates the next greater lexicographic permutation of a range of elements   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_next_permutation&action=edit)  
+(function template)   
 [ ranges::prev_permutation](ranges/prev_permutation.html "cpp/algorithm/ranges/prev permutation")(C++20) |  generates the next smaller lexicographic permutation of a range of elements  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_prev_permutation&action=edit)
+(algorithm function object)

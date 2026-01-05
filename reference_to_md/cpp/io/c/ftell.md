@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [C-style I/O](../c.html "cpp/io/c")
 
@@ -176,7 +176,7 @@ Operations on files
 [tmpfile](tmpfile.html "cpp/io/c/tmpfile")  
 [tmpnam](tmpnam.html "cpp/io/c/tmpnam")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/navbar_content&action=edit)
+
 
 Defined in header `[<cstdio>](../../header/cstdio.html "cpp/header/cstdio")` |  |   
 ---|---|---  
@@ -200,20 +200,20 @@ If the stream is open in text mode, the value returned by this function is unspe
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/ftell&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 stream  |  \-  |  file stream to examine   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/ftell&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 File position indicator on success or -1L if failure occurs. Also sets [errno](../../error/errno.html "cpp/error/errno") on failure. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/ftell&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 On Windows, [`_ftelli64`](https://learn.microsoft.com/en-us/cpp/c-runtime-library/reference/ftell-ftelli64) can be used to work with files larger than 2 GiB. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/ftell&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Demonstrates `std::ftell()` with error checking. Writes then reads a few floating-point (FP) values to/from a file.
 
@@ -278,17 +278,17 @@ Possible output:
     pos: 8
     B[0]: 1.1
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/ftell&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ fgetpos](fgetpos.html "cpp/io/c/fgetpos") |  gets the file position indicator   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_fgetpos&action=edit)  
+(function)   
 ---|---  
 [ fseek](fseek.html "cpp/io/c/fseek") |  moves the file position indicator to a specific location in a file   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_fseek&action=edit)  
+(function)   
 [ fsetpos](fsetpos.html "cpp/io/c/fsetpos") |  moves the file position indicator to a specific location in a file   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_fsetpos&action=edit)  
+(function)   
 [ tellg](../basic_istream/tellg.html "cpp/io/basic istream/tellg") |  returns the input position indicator   
-(public member function of `std::basic_istream<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_istream/dsc_tellg&action=edit)  
+(public member function of `std::basic_istream<CharT,Traits>`)   
 [ tellp](../basic_ostream/tellp.html "cpp/io/basic ostream/tellp") |  returns the output position indicator   
-(public member function of `std::basic_ostream<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ostream/dsc_tellp&action=edit)  
+(public member function of `std::basic_ostream<CharT,Traits>`)   
 [C documentation](../../../c/io/ftell.html "c/io/ftell") for ftell

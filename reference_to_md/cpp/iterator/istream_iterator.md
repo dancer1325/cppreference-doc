@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](empty.html "cpp/iterator/empty")(C++17)  
 [data](data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 **`std::istream_iterator`**
 
@@ -207,7 +207,7 @@ Member functions
 Non-member functions  
 [operator==operator!=](istream_iterator/operator_cmp.html "cpp/iterator/istream iterator/operator cmp")(until C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/istream_iterator/navbar_content&action=edit)
+
 
 Defined in header `[<iterator>](../header/iterator.html "cpp/header/iterator")` |  |   
 ---|---|---  
@@ -245,7 +245,7 @@ A typical implementation of `std::istream_iterator` holds two data members: a po
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/iterator/inherit&action=edit&section=T-1 "Template:cpp/iterator/iterator/inherit")] Member types
+### Member types
 
 Member type  |  Definition   
 ---|---  
@@ -260,29 +260,29 @@ Member type  |  Definition
 Member types `iterator_category`, `value_type`, `difference_type`, `pointer` and `reference` are required to be obtained by inheriting from [std::iterator](iterator.html)<[std::input_iterator_tag](iterator_tags.html), T, Distance, const T*, const T&>.  | (until C++17)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/istream_iterator&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](istream_iterator/istream_iterator.html "cpp/iterator/istream iterator/istream iterator") |  constructs a new `istream_iterator`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/istream_iterator/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ (destructor)](istream_iterator/~istream_iterator.html "cpp/iterator/istream iterator/~istream iterator") |  destructs an `istream_iterator`, including the cached value   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/istream_iterator/dsc_destructor&action=edit)  
+(public member function)   
 [ operator*operator->](istream_iterator/operator*.html "cpp/iterator/istream iterator/operator*") |  returns the current element   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/istream_iterator/dsc_operator*&action=edit)  
+(public member function)   
 [ operator++operator++(int)](istream_iterator/operator_arith.html "cpp/iterator/istream iterator/operator arith") |  advances the iterator   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/istream_iterator/dsc_operator_arith&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/istream_iterator&action=edit&section=2 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ operator==operator!=](istream_iterator/operator_cmp.html "cpp/iterator/istream iterator/operator cmp")(removed in C++20) |  compares two `istream_iterator`s   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/istream_iterator/dsc_operator_cmp&action=edit)  
+(function template)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/istream_iterator&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 When reading characters, `std::istream_iterator` skips whitespace by default (unless disabled with [std::noskipws](../io/manip/skipws.html "cpp/io/manip/skipws") or equivalent), while [std::istreambuf_iterator](istreambuf_iterator.html "cpp/iterator/istreambuf iterator") does not. In addition, [std::istreambuf_iterator](istreambuf_iterator.html "cpp/iterator/istreambuf iterator") is more efficient, since it avoids the overhead of constructing and destructing the sentry object once per character. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/istream_iterator&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -316,7 +316,7 @@ Output:
     0.1 0.3 0.6 1 
     The first even number is 8.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/istream_iterator&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -324,10 +324,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [P0738R2](https://wg21.link/P0738R2) | C++98  | the first read might be deferred to the first dereference  | always performed in the constructor   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/istream_iterator&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ ostream_iterator](ostream_iterator.html "cpp/iterator/ostream iterator") |  output iterator that writes to [std::basic_ostream](../io/basic_ostream.html "cpp/io/basic ostream")   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_ostream_iterator&action=edit)  
+(class template)   
 ---|---  
 [ istreambuf_iterator](istreambuf_iterator.html "cpp/iterator/istreambuf iterator") |  input iterator that reads from [std::basic_streambuf](../io/basic_streambuf.html "cpp/io/basic streambuf")   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_istreambuf_iterator&action=edit)
+(class template) 

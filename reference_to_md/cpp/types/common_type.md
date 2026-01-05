@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Metaprogramming library](../meta.html "cpp/meta")
 
@@ -167,7 +167,7 @@ Type transformations
 Compile-time integer sequences  
 [integer_sequence](../utility/integer_sequence.html "cpp/utility/integer sequence")(C++14)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/meta/navbar_content&action=edit)
+
 
 Defined in header `[<type_traits>](../header/type_traits.html "cpp/header/type traits")` |  |   
 ---|---|---  
@@ -227,20 +227,20 @@ If an instantiation of a template above depends, directly or indirectly, on an i
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/common_type&action=edit&section=1 "Edit section: Nested types")] Nested types
+### Nested types
 
 Name  |  Definition   
 ---|---  
 `type` |  the common type for all `T`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/common_type&action=edit&section=2 "Edit section: Helper types")] Helper types
+### Helper types
 
 template< class... T >  
 using common_type_t = typename common_type<T...>::type; |  |  (since C++14)  
 ---|---|---  
 | |   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/common_type&action=edit&section=3 "Edit section: Specializations")] Specializations
+### Specializations
 
 Users may specialize `common_type` for types `T1` and `T2` if 
 
@@ -258,18 +258,18 @@ Note that the behavior of a program that adds a specialization to any other temp
 The following specializations are already provided by the standard library: 
 
 [ std::common_type<std::chrono::duration>](../chrono/duration/common_type.html "cpp/chrono/duration/common type")(C++11) |  specializes the **std::common_type** trait   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/duration/dsc_common_type&action=edit)  
+(class template specialization)   
 ---|---  
 [ std::common_type<std::chrono::time_point>](../chrono/time_point/common_type.html "cpp/chrono/time point/common type")(C++11) |  specializes the **std::common_type** trait   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_point/dsc_common_type&action=edit)  
+(class template specialization)   
 [ std::common_type<std::pair>](../utility/pair/common_type.html "cpp/utility/pair/common type")(C++23) |  determines the common type of two `pair`s   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/pair/dsc_common_type&action=edit)  
+(class template specialization)   
 [ std::common_type<_tuple-like_ >](../utility/tuple/common_type.html "cpp/utility/tuple/common type")(C++23) |  determines the common type of a `tuple` and a `_tuple-like_` type   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/dsc_common_type&action=edit)  
+(class template specialization)   
 [ std::common_type<std::basic_const_iterator>](../iterator/basic_const_iterator/common_type.html "cpp/iterator/basic const iterator/common type")(C++23) |  determines the common type of an iterator and an adapted `basic_const_iterator` type   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/basic_const_iterator/dsc_common_type&action=edit)  
+(class template specialization)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/common_type&action=edit&section=4 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     // primary template (used for zero types)
@@ -331,11 +331,11 @@ The following specializations are already provided by the standard library:
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/common_type&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 For arithmetic types not subject to promotion, the common type may be viewed as the type of the (possibly mixed-mode) arithmetic expression such as T0() + T1() + ... + Tn(). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/common_type&action=edit&section=6 "Edit section: Examples")] Examples
+### Examples
 
 Demonstrates mixed-mode arithmetic on a program-defined class:
 
@@ -383,7 +383,7 @@ Output:
     d1 + i2  is  Number<double>{4.3}
     d1 + d2  is  Number<double>{5.8}
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/common_type&action=edit&section=7 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -394,8 +394,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [LWG 2460](https://cplusplus.github.io/LWG/issue2460) | C++11  | `common_type` specializations were nearly impossible to write  | reduced the number of  
 specializations needed   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/common_type&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [ common_with](../concepts/common_with.html "cpp/concepts/common with")(C++20) |  specifies that two types share a common type   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_common_with&action=edit)  
+(concept)   
 ---|---

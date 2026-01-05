@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](empty.html "cpp/iterator/empty")(C++17)  
 [data](data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 Defined in header `[<iterator>](../header/iterator.html "cpp/header/iterator")` |  |   
 ---|---|---  
@@ -207,7 +207,7 @@ __WeaklyEqualityComparableWith<S, I>; |  |  (since C++20)
   
 The `sentinel_for` concept specifies the relationship between an [`input_or_output_iterator`](input_or_output_iterator.html "cpp/iterator/input or output iterator") type and a [`semiregular`](../concepts/semiregular.html "cpp/concepts/semiregular") type whose values denote a range. The exposition-only concept `___WeaklyEqualityComparableWith_` is described in [`equality_comparable`](../concepts/equality_comparable.html "cpp/concepts/equality comparable"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/sentinel_for&action=edit&section=1 "Edit section: Semantic requirements")] Semantic requirements
+### Semantic requirements
 
 Let `s` and `i` be values of type `S` and `I`, respectively, such that `[`i`, `s`)` denotes a [range](../iterator.html#Ranges "cpp/iterator"). `sentinel_for<S, I>` is modeled only if: 
 
@@ -219,13 +219,13 @@ Let `s` and `i` be values of type `S` and `I`, respectively, such that `[`i`, `s
 
 The domain of `==` can change over time. Given an iterator `i` and sentinel `s` such that `[`i`, `s`)` denotes a range and i != s, `[`i`, `s`)` is not required to continue to denote a range after incrementing any iterator equal to `i` (and so i == s is no longer required to be well-defined after such an increment). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/sentinel_for&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 A sentinel type and its corresponding iterator type are not required to model [`equality_comparable_with`](../concepts/equality_comparable.html "cpp/concepts/equality comparable"), because the sentinel type may not be comparable with itself, and they are not required to have a common reference type. 
 
 It has been permitted to use a sentinel type different from the iterator type in the [range-based `for` loop](../language/range-for.html "cpp/language/range-for") since C++17. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/sentinel_for&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

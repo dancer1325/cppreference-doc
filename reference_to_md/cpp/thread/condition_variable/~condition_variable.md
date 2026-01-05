@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -175,7 +175,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::condition_variable`](../condition_variable.html "cpp/thread/condition variable")
 
@@ -193,7 +193,7 @@ Waiting
 Native handle  
 [condition_variable::native handle](native_handle.html "cpp/thread/condition variable/native handle")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/condition_variable/navbar_content&action=edit)
+
 
 ~condition_variable(); |  |  (since C++11)  
 ---|---|---  
@@ -201,13 +201,13 @@ Native handle
   
 Destroys the object of type [std::condition_variable](../condition_variable.html "cpp/thread/condition variable"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/condition_variable/destructor&action=edit&section=T-1 "Template:cpp/thread/condition variable/destructor")] Notes
+### Notes
 
 It is only safe to invoke the destructor if all threads have been notified. It is not required that they have exited their respective wait functions: some threads may still be waiting to reacquire the associated lock, or may be waiting to be scheduled to run after reacquiring it. 
 
 The programmer must ensure that no threads attempt to wait on *this once the destructor has been started, especially when the waiting threads are calling the wait functions in a loop or are using the overloads of the wait functions that take a predicate. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/condition_variable/destructor&action=edit&section=T-2 "Template:cpp/thread/condition variable/destructor")] See also
+### See also
 
 [C documentation](../../../c/thread/cnd_destroy.html "c/thread/cnd destroy") for cnd_destroy  
 ---

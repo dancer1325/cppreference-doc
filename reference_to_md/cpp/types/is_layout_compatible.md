@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Metaprogramming library](../meta.html "cpp/meta")
 
@@ -167,7 +167,7 @@ Type transformations
 Compile-time integer sequences  
 [integer_sequence](../utility/integer_sequence.html "cpp/utility/integer sequence")(C++14)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/meta/navbar_content&action=edit)
+
 
 Defined in header `[<type_traits>](../header/type_traits.html "cpp/header/type traits")` |  |   
 ---|---|---  
@@ -199,14 +199,14 @@ If the program adds specializations for `std::is_layout_compatible` or `std::is_
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_layout_compatible&action=edit&section=1 "Edit section: Helper variable template")] Helper variable template
+### Helper variable template
 
 template< class T, class U >  
 constexpr bool is_layout_compatible_v = is_layout_compatible<T, U>::value; |  |  (since C++20)  
 ---|---|---  
 | |   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/integral_constant/inherit2&action=edit)
+
 
 ##  Inherited from [ std::integral_constant](integral_constant.html "cpp/types/integral constant")
 
@@ -231,7 +231,7 @@ Type  |  Definition
 `value_type` |  bool  
 `type` |  [std::integral_constant](integral_constant.html)<bool, value>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_layout_compatible&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 A signed integer type and its unsigned counterpart are not layout-compatible. char is layout-compatible with neither signed char nor unsigned char. 
 
@@ -245,7 +245,7 @@ Array types of layout-compatible but different element types (ignoring cv-qualif
 ---|---|---|---  
 [`__cpp_lib_is_layout_compatible`](../experimental/feature_test.html#cpp_lib_is_layout_compatible "cpp/feature test") | [`201907L`](../compiler_support/20.html#cpp_lib_is_layout_compatible_201907L "cpp/compiler support/20") | (C++20) | `std::is_layout_compatible`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_layout_compatible&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -292,10 +292,10 @@ Run this code
      
     int main() {}
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_layout_compatible&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ is_standard_layout](is_standard_layout.html "cpp/types/is standard layout")(C++11) |  checks if a type is a [standard-layout](../language/data_members.html#Standard-layout "cpp/language/data members") type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_standard_layout&action=edit)  
+(class template)   
 ---|---
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

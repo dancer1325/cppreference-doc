@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Filesystem library](../filesystem.html "cpp/filesystem")
 
@@ -100,7 +100,7 @@ filesystem::symlink_status](status.html "cpp/filesystem/status")
 [filesystem::is_socket](is_socket.html "cpp/filesystem/is socket")  
 [filesystem::is_symlink](is_symlink.html "cpp/filesystem/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/navbar_content&action=edit)
+
 
 **`std::filesystem::directory_iterator`**
 
@@ -113,7 +113,7 @@ Member functions
 Non-member functions  
 [begin(std::filesystem::directory_iterator)end(std::filesystem::directory_iterator)](directory_iterator/begin.html "cpp/filesystem/directory iterator/begin")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/directory_iterator/navbar_content&action=edit)
+
 
 Defined in header `[<filesystem>](../header/filesystem.html "cpp/header/filesystem")` |  |   
 ---|---|---  
@@ -140,7 +140,7 @@ If a file or a directory is deleted or added to the directory tree after the dir
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/directory_iterator&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Member type  |  Definition   
 ---|---  
@@ -150,31 +150,31 @@ Member type  |  Definition
 `reference` |  const [std::filesystem::directory_entry](directory_entry.html)&  
 `iterator_category` |  [std::input_iterator_tag](../iterator/iterator_tags.html "cpp/iterator/iterator tags")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/directory_iterator&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](directory_iterator/directory_iterator.html "cpp/filesystem/directory iterator/directory iterator") |  constructs a directory iterator   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/directory_iterator/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 (destructor) |  default destructor   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/directory_iterator/dsc_destructor&action=edit)  
+(public member function)   
 [ operator=](directory_iterator/operator=.html "cpp/filesystem/directory iterator/operator=") |  assigns contents   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/directory_iterator/dsc_operator%3D&action=edit)  
+(public member function)   
 [ operator*operator->](directory_iterator/operator*.html "cpp/filesystem/directory iterator/operator*") |  accesses the pointed-to entry   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/directory_iterator/dsc_operator*&action=edit)  
+(public member function)   
 [ incrementoperator++](directory_iterator/increment.html "cpp/filesystem/directory iterator/increment") |  advances to the next entry   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/directory_iterator/dsc_increment&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/directory_iterator&action=edit&section=3 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ begin(std::filesystem::directory_iterator)end(std::filesystem::directory_iterator)](directory_iterator/begin.html "cpp/filesystem/directory iterator/begin")(C++17) |  range-based for loop support   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/directory_iterator/dsc_begin&action=edit)  
+(function)   
 ---|---  
   
 Additionally, `operator==` and `operator!=` are(until C++20)`operator==` is(since C++20) provided as required by [LegacyInputIterator](../named_req/InputIterator.html "cpp/named req/InputIterator"). 
 
 It is unspecified whether `operator!=` is provided because it can be synthesized from `operator==`, and(since C++20) whether an equality operator is a member or non-member. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/directory_iterator&action=edit&section=4 "Edit section: Helper specializations")] Helper specializations
+### Helper specializations
 
 template<>  
 constexpr bool   
@@ -187,11 +187,11 @@ constexpr bool
   
 These specializations for `directory_iterator` make it a [`borrowed_range`](../ranges/borrowed_range.html "cpp/ranges/borrowed range") and a [`view`](../ranges/view.html "cpp/ranges/view"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/directory_iterator&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 Many low-level OS APIs for directory traversal retrieve file attributes along with the next directory entry. The constructors and the non-const member functions of **std::filesystem::directory_iterator** store these attributes, if any, in the pointed-to [std::filesystem::directory_entry](directory_entry.html "cpp/filesystem/directory entry") without calling [`directory_entry::refresh`](directory_entry/refresh.html "cpp/filesystem/directory entry/refresh"), which makes it possible to examine the attributes of the directory entries as they are being iterated over, without making additional system calls. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/directory_iterator&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -246,7 +246,7 @@ Possible output:
     "sandbox/dir1"
     "sandbox/dir1/dir2"
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/directory_iterator&action=edit&section=7 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -254,12 +254,12 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 3480](https://cplusplus.github.io/LWG/issue3480) | C++20  | `directory_iterator` was neither a [`borrowed_range`](../ranges/borrowed_range.html "cpp/ranges/borrowed range") nor a [`view`](../ranges/view.html "cpp/ranges/view") | it is both   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/directory_iterator&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [ recursive_directory_iterator](recursive_directory_iterator.html "cpp/filesystem/recursive directory iterator")(C++17) |  an iterator to the contents of a directory and its subdirectories   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_recursive_directory_iterator&action=edit)  
+(class)   
 ---|---  
 [ directory_options](directory_options.html "cpp/filesystem/directory options")(C++17) |  options for iterating directory contents   
-(enum) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_directory_options&action=edit)  
+(enum)   
 [ directory_entry](directory_entry.html "cpp/filesystem/directory entry")(C++17) |  a directory entry   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_directory_entry&action=edit)
+(class) 

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ named requirements](../iterator/concepts.html "cpp/named req")
 
@@ -147,11 +147,11 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/named_req/navbar_content&action=edit)
+
 
 Defines a type that can be used to represent a set of constant values or any combination of those values. This trait is typically implemented by integer types, [std::bitset](../utility/bitset.html "cpp/utility/bitset"), or enumerations (scoped and unscoped) with additional operator overloads. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/BitmaskType&action=edit&section=1 "Edit section: Requirements")] Requirements
+### Requirements
 
 The bitmask type supports a finite number of bitmask elements, which are distinct non-zero values of the bitmask type, such that, for any pair Ci and Cj, Ci & Ci is nonzero and Ci & Cj is zero. In addition, the value ​0​ is used to represent an empty bitmask, with no values set. 
 
@@ -167,7 +167,7 @@ X & Y |  nonzero result indicates that the value `Y` is set in the object `X`
   
 Each representable bitmask element is defined as an inline(since C++17) constexpr value of the bitmask type. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/BitmaskType&action=edit&section=2 "Edit section: Standard library")] Standard library
+### Standard library
 
 The following standard library types satisfy BitmaskType: 
 

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](empty.html "cpp/iterator/empty")(C++17)  
 [data](data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 Defined in header `[<iterator>](../header/iterator.html "cpp/header/iterator")` |  |   
 ---|---|---  
@@ -215,7 +215,7 @@ concept indirect_equivalence_relation =
   
 The concept `indirect_equivalence_relation` specifies requirements for algorithms that call equivalence relations as their arguments. The key difference between this concept and [std::equivalence_relation](../concepts/equivalence_relation.html "cpp/concepts/equivalence relation") is that it is applied to the types that `I1` and `I2` references, rather than `I1` and `I2` themselves. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/indirect_equivalence_relation&action=edit&section=1 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

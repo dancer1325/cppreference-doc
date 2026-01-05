@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 `[std::unordered_set](../unordered_set.html "cpp/container/unordered set")`
 
@@ -137,7 +137,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/unordered set/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/unordered_set/navbar_content&action=edit)
+
 
 void swap( unordered_set& other ); |  |  (since C++11)   
 (until C++17)  
@@ -161,12 +161,12 @@ All iterators and references remain valid. The [`end()`](end.html "cpp/container
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/swap&action=edit&section=T-1 "Template:cpp/container/swap")] Parameters
+### Parameters
 
 other  |  \-  |  container to exchange the contents with   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/swap&action=edit&section=T-2 "Template:cpp/container/swap")] Exceptions
+### Exceptions
 
 Any exception thrown by the swap of the `Hash` or `KeyEqual` objects.  | (until C++17)  
 ---|---  
@@ -174,11 +174,11 @@ Any exception thrown by the swap of the `Hash` or `KeyEqual` objects.  | (until 
 && [std::is_nothrow_swappable](../../types/is_swappable.html)<Hash>::value  
 && [std::is_nothrow_swappable](../../types/is_swappable.html)<key_equal>::value) | (since C++17)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/swap&action=edit&section=T-3 "Template:cpp/container/swap")] Complexity
+### Complexity
 
 Constant. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/swap&action=edit&section=T-4 "Template:cpp/container/swap")] Example
+### Example
 
 Run this code
     
@@ -219,8 +219,8 @@ Possible output:
     { 2 1 3 } { 4 5 } 1 5 2 4
     { 4 5 } { 2 1 3 } 1 5 2 4
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/swap&action=edit&section=T-6 "Template:cpp/container/swap")] See also
+### See also
 
 [ std::swap(std::unordered_set)](swap2.html "cpp/container/unordered set/swap2")(C++11) |  specializes the [std::swap](../../utility/swap.html "cpp/algorithm/swap") algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_swap2&action=edit)  
+(function template)   
 ---|---

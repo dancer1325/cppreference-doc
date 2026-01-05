@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::atomic_ref`](../atomic_ref.html "cpp/atomic/atomic ref")
 
@@ -211,7 +211,7 @@
 [atomic_ref::is_always_lock_free](is_always_lock_free.html "cpp/atomic/atomic ref/is always lock free")  
 **atomic_ref::required_alignment**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic_ref/navbar_content&action=edit)
+
 
 static constexpr [std::size_t](../../types/size_t.html) required_alignment = /*implementation-defined*/; |  |  (since C++20)  
 ---|---|---  
@@ -219,6 +219,6 @@ static constexpr [std::size_t](../../types/size_t.html) required_alignment = /*i
   
 The value of `required_alignment` is the required alignment for an object to be referenced by an atomic reference, which is at least alignof(T). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_ref/required_alignment&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 Hardware could require that an object to be referenced by an `atomic_ref<T>` have stricter alignment than other `T` objects, and whether operations on an `atomic_ref` are lock-free can depend on the alignment of the referenced object. 

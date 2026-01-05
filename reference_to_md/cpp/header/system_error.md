@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header is part of the [error handling](../error.html "cpp/error") library. 
 
@@ -217,51 +217,51 @@ This header is part of the [error handling](../error.html "cpp/error") library.
   
 ###  Includes  
   
-[ <compare>](compare.html "cpp/header/compare")(C++20) |  [Three-way comparison operator](../language/operator_comparison.html#Three-way_comparison "cpp/language/operator comparison") support[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/dsc_compare&action=edit)  
+[ <compare>](compare.html "cpp/header/compare")(C++20) |  [Three-way comparison operator](../language/operator_comparison.html#Three-way_comparison "cpp/language/operator comparison") support  
   
 ###  Classes  
   
 [ error_category](../error/error_category.html "cpp/error/error category")(C++11) |  base class for error categories   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_error_category&action=edit)  
+(class)   
 [ error_condition](../error/error_condition.html "cpp/error/error condition")(C++11) |  holds a portable error code   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_error_condition&action=edit)  
+(class)   
 [ errc](../error/errc.html "cpp/error/errc")(C++11) |  the [std::error_condition](../error/error_condition.html "cpp/error/error condition") enumeration listing all standard [`<cerrno>`](cerrno.html "cpp/header/cerrno") macro constants   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_errc&action=edit)  
+(class)   
 [ error_code](../error/error_code.html "cpp/error/error code")(C++11) |  holds a platform-dependent error code   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_error_code&action=edit)  
+(class)   
 [ system_error](../error/system_error.html "cpp/error/system error")(C++11) |  exception class used to report conditions that have an error_code   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_system_error&action=edit)  
+(class)   
 [ is_error_code_enum](../error/error_code/is_error_code_enum.html "cpp/error/error code/is error code enum")(C++11) |  identifies a class as an `error_code` enumeration   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/error_code/dsc_is_error_code_enum&action=edit)  
+(class template)   
 [ is_error_condition_enum](../error/error_condition/is_error_condition_enum.html "cpp/error/error condition/is error condition enum")(C++11) |  identifies an enumeration as an [std::error_condition](../error/error_condition.html "cpp/error/error condition")   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/error_condition/dsc_is_error_condition_enum&action=edit)  
+(class template)   
 [ std::hash<std::error_code>](../error/error_code/hash.html "cpp/error/error code/hash")(C++11) |  hash support for [`std::error_code`](../error/error_code.html "cpp/error/error code")   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/error_code/dsc_hash&action=edit)  
+(class template specialization)   
   
 #####  Forward declarations   
   
 Defined in header `[<functional>](functional.html "cpp/header/functional")`  
 [ hash](../utility/hash.html "cpp/utility/hash")(C++11) |  hash function object   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_hash&action=edit)  
+(class template)   
   
 ###  Functions  
   
 [ generic_category](../error/generic_category.html "cpp/error/generic category")(C++11) |  identifies the generic error category   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_generic_category&action=edit)  
+(function)   
 [ system_category](../error/system_category.html "cpp/error/system category")(C++11) |  identifies the operating system error category   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_system_category&action=edit)  
+(function)   
 [ operator==operator!=operator<operator<=>](../error/error_code/operator_cmp.html "cpp/error/error code/operator cmp")(removed in C++20)(removed in C++20)(C++20) |  compares two `error_code`s   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/error_code/dsc_operator_cmp&action=edit)  
+(function)   
 [ operator<<](../error/error_code/operator_ltlt.html "cpp/error/error code/operator ltlt") |  outputs the value and the category name to an output stream   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/error_code/dsc_operator_ltlt&action=edit)  
+(function)   
 [ make_error_code(std::errc)](../error/errc/make_error_code.html "cpp/error/errc/make error code")(C++11) |  creates error code value for `errc` enum e   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/errc/dsc_make_error_code&action=edit)  
+(function)   
 [ operator==operator!=operator<operator<=>](../error/error_condition/operator_cmp.html "cpp/error/error condition/operator cmp")(removed in C++20)(removed in C++20)(C++20) |  compares `error_condition`s and `error_code`s   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/error_condition/dsc_operator_cmp&action=edit)  
+(function)   
 [ make_error_condition(std::errc)](../error/errc/make_error_condition.html "cpp/error/errc/make error condition")(C++11) |  creates an error condition for an `errc` value e   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/errc/dsc_make_error_condition&action=edit)  
+(function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/system_error&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     #include <compare>
@@ -395,7 +395,7 @@ Defined in header `[<functional>](functional.html "cpp/header/functional")`
         inline constexpr bool is_error_condition_enum_v = is_error_condition_enum<T>::value;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/system_error&action=edit&section=T-1 "Template:cpp/synopsis/system error")] Class [std::error_category](../error/error_category.html "cpp/error/error category")
+#### Class [std::error_category](../error/error_category.html "cpp/error/error category")
     
     
     namespace std {
@@ -419,7 +419,7 @@ Defined in header `[<functional>](functional.html "cpp/header/functional")`
       const error_category& system_category() noexcept;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/system_error&action=edit&section=T-2 "Template:cpp/synopsis/system error")] Class [std::error_code](../error/error_code.html "cpp/error/error code")
+#### Class [std::error_code](../error/error_code.html "cpp/error/error code")
     
     
     namespace std {
@@ -457,7 +457,7 @@ Defined in header `[<functional>](functional.html "cpp/header/functional")`
           operator<<(basic_ostream<CharT, Traits>& os, const error_code& ec);
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/system_error&action=edit&section=T-3 "Template:cpp/synopsis/system error")] Class [std::error_condition](../error/error_condition.html "cpp/error/error condition")
+#### Class [std::error_condition](../error/error_condition.html "cpp/error/error condition")
     
     
     namespace std {
@@ -487,7 +487,7 @@ Defined in header `[<functional>](functional.html "cpp/header/functional")`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/system_error&action=edit&section=T-4 "Template:cpp/synopsis/system error")] Class [std::system_error](../error/system_error.html "cpp/error/system error")
+#### Class [std::system_error](../error/system_error.html "cpp/error/system error")
     
     
     namespace std {

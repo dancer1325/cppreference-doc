@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Classes](classes.html "cpp/language/classes")
 
@@ -261,7 +261,7 @@ Inheritance
 [`override` specifier](override.html "cpp/language/override") (C++11)  
 [`final` specifier](final.html "cpp/language/final") (C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/classes/navbar_content&action=edit)
+
 
 A union is a special class type that can hold only one of its non-static [data members](data_members.html "cpp/language/data members") at a time. 
 
@@ -280,7 +280,7 @@ A union is a special class type that can hold only one of its non-static [data m
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/union&action=edit&section=1 "Edit section: Syntax")] Syntax
+### Syntax
 
 The class specifier for a union declaration is similar to [class or struct](class.html "cpp/language/class") declaration:   
   
@@ -306,7 +306,7 @@ If a union contains a non-static data member with a non-trivial [special member 
   
 Just like in [struct](classes.html "cpp/language/classes") declaration, the default member access in a union is [public](access.html "cpp/language/access"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/union&action=edit&section=2 "Edit section: Explanation")] Explanation
+### Explanation
 
 The union is at least as big as necessary to hold its largest data member, but is usually not larger. The other data members are intended to be allocated in the same bytes as part of that largest member. The details of that allocation are implementation-defined, except that all non-static data members have the same address. It is undefined behavior to read from the member of the union that wasn't most recently written. Many compilers implement, as a non-standard language extension, the ability to read inactive members of a union. 
 
@@ -384,7 +384,7 @@ Output:
   
 If two union members are [standard-layout](../named_req/StandardLayoutType.html "cpp/named req/StandardLayoutType") types, it's well-defined to examine their common subsequence on any compiler. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/union&action=edit&section=3 "Edit section: Member lifetime")] Member lifetime
+#### Member lifetime
 
 The [lifetime](lifetime.html "cpp/language/lifetime") of a union member begins when the member is made active. If another member was active previously, its lifetime ends. 
 
@@ -418,7 +418,7 @@ When active member of a union is switched by an assignment expression of the for
 
 Trivial move constructor, move assignment operator, (since C++11)copy constructor and copy assignment operator of union types copy object representations. If the source and the destination are not the same object, these special member functions start lifetime of every object (except for objects that are neither subobjects of the destination nor of [implicit-lifetime type](lifetime.html#Implicit-lifetime_types "cpp/language/lifetime")) nested in the destination corresponding to the one nested in the source before the copy is performed. Otherwise, they do nothing. Two union objects have the same corresponding active member (if any) after construction or assignment via trivial special functions. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/union&action=edit&section=4 "Edit section: Anonymous unions")] Anonymous unions
+#### Anonymous unions
 
 An _anonymous union_ is an unnamed union definition that does not simultaneously define any variables (including objects of the union type, references, or pointers to the union).   
   
@@ -443,7 +443,7 @@ Members of an anonymous union are injected in the enclosing scope (and must not 
 
 Namespace-scope anonymous unions must be declared static unless they appear in an unnamed namespace. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/union&action=edit&section=5 "Edit section: Union-like classes")] Union-like classes
+#### Union-like classes
 
 A _union-like class_ is either a union, or a (non-union) class that has at least one anonymous union as a member. A union-like class has a set of _variant members ﻿_ : 
 
@@ -520,11 +520,11 @@ Output:
 | (since C++17)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/union&action=edit&section=6 "Edit section: Keywords")] Keywords
+### Keywords
 
 [`union`](../keyword/union.html "cpp/keyword/union")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/union&action=edit&section=7 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -532,7 +532,7 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [CWG 1940](https://cplusplus.github.io/CWG/issues/1940.html) | C++11  | anonymous unions only allowed non-static data members  | `static_assert` also allowed   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/union&action=edit&section=8 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -604,9 +604,9 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/union&action=edit&section=9 "Edit section: See also")] See also
+### See also
 
 [ variant](../utility/variant.html "cpp/utility/variant")(C++17) |  a type-safe discriminated union   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_variant&action=edit)  
+(class template)   
 ---|---  
 [C documentation](../../c/language/union.html "c/language/union") for Union declaration

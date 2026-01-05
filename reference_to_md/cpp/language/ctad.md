@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [Declarations](declarations.html "cpp/language/declarations")
 
@@ -280,7 +280,7 @@ Other declarations
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/declarations/navbar_content&action=edit)
+
 
 [ Expressions](expressions.html "cpp/language/expressions")
 
@@ -349,7 +349,7 @@ Conversions
 [`dynamic_cast`](dynamic_cast.html "cpp/language/dynamic cast")  
 [`reinterpret_cast`](reinterpret_cast.html "cpp/language/reinterpret cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/expressions/navbar_content&action=edit)
+
 
 [ Templates](templates.html "cpp/language/templates")
 
@@ -373,7 +373,7 @@ Conversions
 [Constraints and concepts](constraints.html "cpp/language/constraints") (C++20)  
 [requires expression](requires.html "cpp/language/requires") (C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/templates/navbar_content&action=edit)
+
 
 In order to instantiate a [class template](class_template.html "cpp/language/class template"), every template argument must be known, but not every template argument has to be specified. In the following contexts the compiler will deduce the template arguments from the type of the initializer: 
 
@@ -443,9 +443,9 @@ In order to instantiate a [class template](class_template.html "cpp/language/cla
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/class_template_argument_deduction&action=edit&section=1 "Edit section: Deduction for class templates")] Deduction for class templates
+### Deduction for class templates
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/class_template_argument_deduction&action=edit&section=2 "Edit section: Implicitly-generated deduction guides")] Implicitly-generated deduction guides
+#### Implicitly-generated deduction guides
 
 When, in a function-style cast or in a variable's declaration, the type specifier consists solely of the name of a primary class template `C` (i.e., there is no accompanying template argument list), candidates for deduction are formed as follows: 
 
@@ -664,7 +664,7 @@ Or, for a more complex example (note: "`S::N`" would not compile: scope resoluti
     // result:
     // S<int>::N<int> x{2.0, 1};
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/class_template_argument_deduction&action=edit&section=3 "Edit section: User-defined deduction guides")] User-defined deduction guides
+#### User-defined deduction guides
 
 The syntax of a user-defined deduction guide is the syntax of a function (template) declaration with a trailing return type, except that it uses the name of a class template as the function name:   
   
@@ -875,7 +875,7 @@ When a function-style cast or declaration of a variable uses the name of an alia
 | (since C++20)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/class_template_argument_deduction&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 Class template argument deduction is only performed if no template argument list is present. If a template argument list is specified, deduction does not take place. 
     
@@ -1055,7 +1055,7 @@ Feature-test macro  | Value | Std | Feature
 [`__cpp_deduction_guides`](../experimental/feature_test.html#cpp_deduction_guides "cpp/feature test") | [`201703L`](../compiler_support/17.html#cpp_deduction_guides_201703L "cpp/compiler support/17") | (C++17) | Template argument deduction for class templates   
 [`201907L`](../compiler_support/20.html#cpp_deduction_guides_201907L "cpp/compiler support/20") | (C++20) | CTAD for aggregates and aliases   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/class_template_argument_deduction&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

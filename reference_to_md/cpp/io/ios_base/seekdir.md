@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::ios_base`](../ios_base.html "cpp/io/ios base")
 
@@ -113,7 +113,7 @@ Member types
 [ios_base::event](event.html "cpp/io/ios base/event")  
 [ios_base::event_callback](event_callback.html "cpp/io/ios base/event callback")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/ios_base/navbar_content&action=edit)
+
 
 typedef /*implementation defined*/ seekdir; |  |   
 ---|---|---  
@@ -130,7 +130,7 @@ Constant  |  Explanation
 **`end`** |  the ending of a stream   
 **`cur`** |  the current position of stream position indicator   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/ios_base/seekdir&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -170,12 +170,12 @@ Output:
     word4 = World!
     word5 = World!
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/ios_base/seekdir&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ seekg](../basic_istream/seekg.html "cpp/io/basic istream/seekg") |  sets the input position indicator   
-(public member function of `std::basic_istream<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_istream/dsc_seekg&action=edit)  
+(public member function of `std::basic_istream<CharT,Traits>`)   
 ---|---  
 [ seekp](../basic_ostream/seekp.html "cpp/io/basic ostream/seekp") |  sets the output position indicator   
-(public member function of `std::basic_ostream<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ostream/dsc_seekp&action=edit)  
+(public member function of `std::basic_ostream<CharT,Traits>`)   
 [ pubseekoff](../basic_streambuf/pubseekoff.html "cpp/io/basic streambuf/pubseekoff") |  invokes seekoff()   
-(public member function of `std::basic_streambuf<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_streambuf/dsc_pubseekoff&action=edit)
+(public member function of `std::basic_streambuf<CharT,Traits>`) 

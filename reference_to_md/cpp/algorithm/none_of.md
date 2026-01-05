@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](ranges/copy.html "cpp/algorithm/ra
 [uninitialized_default_construct_n](../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -345,7 +345,7 @@ These overloads participate in overload resolution only if all following conditi
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/all_any_none_of&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  the pair of iterators defining the [range](../iterator.html#Ranges "cpp/iterator") of elements to examine   
 ---|---|---  
@@ -357,7 +357,7 @@ Type requirements
 -`ForwardIt` must meet the requirements of [LegacyForwardIterator](../named_req/ForwardIterator.html "cpp/named req/ForwardIterator").   
 -`UnaryPred` must meet the requirements of [Predicate](../named_req/Predicate.html "cpp/named req/Predicate").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/all_any_none_of&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Range has some true element  | Yes  | No   
 ---|---|---  
@@ -370,11 +370,11 @@ Range has some false element  | Yes  | No  | Yes  |  No[[1]](none_of.html#cite_n
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/all_any_none_of&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 1-6) At most [std::distance](../iterator/distance.html)(first, last) applications of the predicate p.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/all_any_none_of&action=edit&section=4 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 The overloads with a template parameter named `ExecutionPolicy` report errors as follows: 
 
@@ -383,7 +383,7 @@ The overloads with a template parameter named `ExecutionPolicy` report errors as
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/all_any_none_of&action=edit&section=5 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
 
 See also the implementations of 
 
@@ -419,7 +419,7 @@ See also the implementations of
         return [std::find_if](find.html)(first, last, p) == last;
     }  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/all_any_none_of&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -465,8 +465,8 @@ Output:
     None of them are odd
     At least one number is divisible by 7
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/all_any_none_of&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ ranges::all_ofranges::any_ofranges::none_of](ranges/all_any_none_of.html "cpp/algorithm/ranges/all any none of")(C++20)(C++20)(C++20) |  checks if a predicate is true for all, any or none of the elements in a range  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_all_any_none_of&action=edit)  
+(algorithm function object)  
 ---|---

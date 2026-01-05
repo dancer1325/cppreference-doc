@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::packaged_task`](../packaged_task.html "cpp/thread/packaged task")
 
@@ -196,7 +196,7 @@ Helper classes
 [uses_allocator<std::packaged_task>](uses_allocator.html "cpp/thread/packaged task/uses allocator")(until C++17)  
 [Deduction guides](deduction_guides.html "cpp/thread/packaged task/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/packaged_task/navbar_content&action=edit)
+
 
 packaged_task() noexcept; |  (1)  |  (since C++11)  
 ---|---|---  
@@ -233,20 +233,20 @@ This overload participates in overload resolution only if [std::remove_cvref_t](
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/packaged_task/packaged_task&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 f  |  \-  |  the callable target to execute   
 ---|---|---  
 a  |  \-  |  the allocator to use when storing the task   
 rhs  |  \-  |  the `std::packaged_task` to move from   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/packaged_task/packaged_task&action=edit&section=2 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 2) Any exceptions thrown by copy/move constructor of f and possibly [std::bad_alloc](../../memory/new/bad_alloc.html "cpp/memory/new/bad alloc") if the allocation fails.
 
 3) Any exceptions thrown by copy/move constructor of f and by the allocator's `allocate` function if memory allocation fails.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/packaged_task/packaged_task&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -286,7 +286,7 @@ Output:
     267914296
     Task complete
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/packaged_task/packaged_task&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

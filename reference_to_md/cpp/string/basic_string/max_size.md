@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Strings library](../../string.html "cpp/string")
 
@@ -40,7 +40,7 @@ Classes
 [basic_string_view](../basic_string_view.html "cpp/string/basic string view")(C++17)  
 [char_traits](../char_traits.html "cpp/string/char traits")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/navbar_content&action=edit)
+
 
 [`std::basic_string`](../basic_string.html "cpp/string/basic string")
 
@@ -133,7 +133,7 @@ basic_string_view](operator_basic_string_view.html "cpp/string/basic string/oper
 [hash<std::basic_string>](hash.html "cpp/string/basic string/hash")(C++11)  
 [Deduction guides](deduction_guides.html "cpp/string/basic string/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/navbar_content&action=edit)
+
 
 size_type max_size() const; |  | (noexcept since C++11)   
 (constexpr since C++20)  
@@ -153,19 +153,19 @@ Returns the maximum number of elements the string is able to hold due to system 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/max_size&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/max_size&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Maximum number of characters. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/max_size&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Constant. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/max_size&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -228,10 +228,10 @@ Possible output:
     basic_string<std::array<char, 666ul>>:
             13,848,906,962,244,407 = 1.38e+16 = 0x00313381ec031337
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/max_size&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ sizelength](size.html "cpp/string/basic string/size") |  returns the number of characters   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_size&action=edit)  
+(public member function)   
 ---|---  
 [ sizelength](../basic_string_view/size.html "cpp/string/basic string view/size") |  returns the number of characters   
-(public member function of `std::basic_string_view<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/dsc_size&action=edit)
+(public member function of `std::basic_string_view<CharT,Traits>`) 

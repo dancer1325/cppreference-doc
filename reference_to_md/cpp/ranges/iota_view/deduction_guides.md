@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::iota_view`](../iota_view.html "cpp/ranges/iota view")
 
@@ -268,7 +268,7 @@ operator<=>(iota_view::_iterator_)](iterator.html#Non-member_functions "cpp/rang
 [operator==(iota_view::_iterator_ ,iota_view::_sentinel_)](sentinel.html#Non-member_functions "cpp/ranges/iota view/sentinel")  
 [operator-(iota_view::_iterator_ ,iota_view::_sentinel_)](sentinel.html#Non-member_functions "cpp/ranges/iota view/sentinel")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/iota_view/navbar_content&action=edit)
+
 
 Defined in header `[<ranges>](../../header/ranges.html "cpp/header/ranges")` |  |   
 ---|---|---  
@@ -285,7 +285,7 @@ For the definitions of /*is-integer-like*/ and /*is-signed-integer-like*/, see [
 
 Note that the guide protects itself against bugs arising from sign mismatch, like [views::iota](../iota_view.html)(0, v.size()), where ​0​ is signed and v.size() is unsigned. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/iota_view/deduction_guides&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
 Run this code
     

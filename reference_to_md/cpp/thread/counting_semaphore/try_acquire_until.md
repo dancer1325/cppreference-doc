@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::counting_semaphore`](../counting_semaphore.html "cpp/thread/counting semaphore")
 
@@ -190,7 +190,7 @@ Operations
 Constants  
 [counting_semaphore::max](max.html "cpp/thread/counting semaphore/max")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/counting_semaphore/navbar_content&action=edit)
+
 
 template< class Clock, class Duration >  
 bool try_acquire_until( const [std::chrono::time_point](../../chrono/time_point.html)<Clock, Duration>& abs_time ); |  |  (since C++20)  
@@ -213,35 +213,35 @@ The programs is ill-formed if [std::chrono::is_clock_v](../../chrono/is_clock.ht
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/counting_semaphore/try_acquire_until&action=edit&section=1 "Edit section: Preconditions")] Preconditions
+### Preconditions
 
 `Clock` meets the [Clock](../../named_req/Clock.html "cpp/named req/Clock") requirements. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/counting_semaphore/try_acquire_until&action=edit&section=2 "Edit section: Parameters")] Parameters
+### Parameters
 
 abs_time  |  \-  |  the _earliest_ time the function must wait until in order to fail   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/counting_semaphore/try_acquire_until&action=edit&section=3 "Edit section: Return value")] Return value
+### Return value
 
 true if it decremented the internal counter, otherwise false. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/counting_semaphore/try_acquire_until&action=edit&section=4 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 May throw [std::system_error](../../error/system_error.html "cpp/error/system error") or a timeout-related exception. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/counting_semaphore/try_acquire_until&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 In practice the function may take longer than abs_time to fail. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/counting_semaphore/try_acquire_until&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ release](release.html "cpp/thread/counting semaphore/release") |  increments the internal counter and unblocks acquirers   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/counting_semaphore/dsc_release&action=edit)  
+(public member function)   
 ---|---  
 [ acquire](acquire.html "cpp/thread/counting semaphore/acquire") |  decrements the internal counter or blocks until it can   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/counting_semaphore/dsc_acquire&action=edit)  
+(public member function)   
 [ try_acquire](try_acquire.html "cpp/thread/counting semaphore/try acquire") |  tries to decrement the internal counter without blocking   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/counting_semaphore/dsc_try_acquire&action=edit)  
+(public member function)   
 [ try_acquire_for](try_acquire_for.html "cpp/thread/counting semaphore/try acquire for") |  tries to decrement the internal counter, blocking for up to a duration time   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/counting_semaphore/dsc_try_acquire_for&action=edit)
+(public member function) 

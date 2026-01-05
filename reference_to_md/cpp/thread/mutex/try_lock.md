@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -175,7 +175,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::mutex`](../mutex.html "cpp/thread/mutex")
 
@@ -190,7 +190,7 @@ Locking
 Native handle  
 [mutex::native_handle](native_handle.html "cpp/thread/mutex/native handle")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/mutex/navbar_content&action=edit)
+
 
 bool try_lock(); |  |  (since C++11)  
 ---|---|---  
@@ -215,21 +215,21 @@ Prior [unlock()](unlock.html "cpp/thread/mutex/unlock") operation on the same mu
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/mutex/try_lock&action=edit&section=T-1 "Template:cpp/thread/mutex/try lock")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/mutex/try_lock&action=edit&section=T-2 "Template:cpp/thread/mutex/try lock")] Return value
+### Return value
 
 true if the lock was acquired successfully, otherwise false. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/mutex/try_lock&action=edit&section=T-3 "Template:cpp/thread/mutex/try lock")] Exceptions
+### Exceptions
 
 Throws nothing. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/mutex/try_lock&action=edit&section=T-4 "Template:cpp/thread/mutex/try lock")] Example
+### Example
 
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/mutex/example_try_lock&action=edit)
+
 
 Run this code
     
@@ -300,11 +300,11 @@ Possible output:
     job exclusive (4)
     job shared (1)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/mutex/try_lock&action=edit&section=T-5 "Template:cpp/thread/mutex/try lock")] See also
+### See also
 
 [ lock](lock.html "cpp/thread/mutex/lock") |  locks the mutex, blocks if the mutex is not available   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/mutex/dsc_lock&action=edit)  
+(public member function)   
 ---|---  
 [ unlock](unlock.html "cpp/thread/mutex/unlock") |  unlocks the mutex   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/mutex/dsc_unlock&action=edit)  
+(public member function)   
 [C documentation](../../../c/thread/mtx_trylock.html "c/thread/mtx trylock") for mtx_trylock

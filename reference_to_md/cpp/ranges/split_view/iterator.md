@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::split_view`](../split_view.html "cpp/ranges/split view")
 
@@ -240,7 +240,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
 [split_view::_sentinel_](sentinel.html "cpp/ranges/split view/sentinel")  
 [Deduction guides](deduction_guides.html "cpp/ranges/split view/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/split_view/navbar_content&action=edit)
+
 
 class /*iterator*/; |  | (since C++20)   
 (exposition only*)  
@@ -264,7 +264,7 @@ The return type of [`split_view::begin`](../split_view.html "cpp/ranges/split vi
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/split_view/iterator&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Member type  |  Definition   
 ---|---  
@@ -273,7 +273,7 @@ Member type  |  Definition
 `value_type` |  [ranges::subrange](../subrange.html)<[ranges::iterator_t](../iterator_t.html)<V>>  
 `difference_type` |  [ranges::range_difference_t](../range_size_t.html)<V>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/split_view/iterator&action=edit&section=2 "Edit section: Data members")] Data members
+### Data members
 
 Member  |  Description   
 ---|---  
@@ -286,7 +286,7 @@ Member  |  Description
 bool `_trailing_empty__` (private) |  a flag that indicates whether an empty trailing subrange (if any) was reached  
 (exposition-only member object*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/split_view/iterator&action=edit&section=3 "Edit section: Member functions")] Member functions
+### Member functions
 
 (constructor)(C++20) |  constructs an iterator   
 (public member function)  
@@ -370,7 +370,7 @@ return *this;
 
 2) Equivalent to auto tmp = *this; ++*this; return tmp;. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/split_view/iterator&action=edit&section=4 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 operator==(C++20) |  compares the underlying iterators   
 (function)  

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Function objects](../../functional.html "cpp/utility/functional")
 
@@ -255,7 +255,7 @@ Identity function object
 [unary_negate](unary_negate.html "cpp/utility/functional/unary negate")(until C++20*)  
 [binary_negate](binary_negate.html "cpp/utility/functional/binary negate")(until C++20*)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/navbar_content&action=edit)
+
 
 Defined in header `[<functional>](../../header/functional.html "cpp/header/functional")` |  |   
 ---|---|---  
@@ -295,12 +295,12 @@ Function templates `ref` and `cref` are helper functions that generate an object
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/ref&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 t  |  \-  |  lvalue reference to object that needs to be wrapped or an instance of [std::reference_wrapper](reference_wrapper.html "cpp/utility/functional/reference wrapper")  
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/ref&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) [std::reference_wrapper](reference_wrapper.html)<T>(t)
 
@@ -312,7 +312,7 @@ t  |  \-  |  lvalue reference to object that needs to be wrapped or an instance 
 
 3,6) rvalue reference wrapper is deleted.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/ref&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -347,7 +347,7 @@ Output:
     In function: 1 11 12
     After function: 10 12 12
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/ref&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -355,8 +355,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 3146](https://cplusplus.github.io/LWG/issue3146) | C++11  | unwrapping overloads sometimes led to error  | made always valid   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/ref&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ reference_wrapper](reference_wrapper.html "cpp/utility/functional/reference wrapper")(C++11) |  [CopyConstructible](../../named_req/CopyConstructible.html "cpp/named req/CopyConstructible") and [CopyAssignable](../../named_req/CopyAssignable.html "cpp/named req/CopyAssignable") reference wrapper   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_reference_wrapper&action=edit)  
+(class template)   
 ---|---

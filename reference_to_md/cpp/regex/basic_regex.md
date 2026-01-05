@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Regular expressions library](../regex.html "cpp/regex")
 
@@ -81,7 +81,7 @@ Constants
 Regex Grammar  
 [Modified ECMAScript-262](ecmascript.html "cpp/regex/ecmascript")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/navbar_content&action=edit)
+
 
 **`std::basic_regex`**
 
@@ -104,7 +104,7 @@ Non-member Functions
 [swap(std::basic_regex)](basic_regex/swap2.html "cpp/regex/basic regex/swap2")  
 [Deduction guides](basic_regex/deduction_guides.html "cpp/regex/basic regex/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/basic_regex/navbar_content&action=edit)
+
 
 Defined in header `[<regex>](../header/regex.html "cpp/header/regex")` |  |   
 ---|---|---  
@@ -138,7 +138,7 @@ Type  |  Definition
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/basic_regex&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Member type  |  Definition   
 ---|---  
@@ -148,36 +148,36 @@ Member type  |  Definition
 `locale_type` |  `Traits::locale_type`  
 `flag_type` |  [std::regex_constants::syntax_option_type](syntax_option_type.html "cpp/regex/syntax option type")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/basic_regex&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](basic_regex/basic_regex.html "cpp/regex/basic regex/basic regex") |  constructs the regex object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/basic_regex/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ (destructor)](basic_regex/~basic_regex.html "cpp/regex/basic regex/~basic regex") |  destructs the regex object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/basic_regex/dsc_destructor&action=edit)  
+(public member function)   
 [ operator=](basic_regex/operator=.html "cpp/regex/basic regex/operator=") |  assigns the contents   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/basic_regex/dsc_operator%3D&action=edit)  
+(public member function)   
 [ assign](basic_regex/assign.html "cpp/regex/basic regex/assign") |  assigns the contents   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/basic_regex/dsc_assign&action=edit)  
+(public member function)   
   
 #####  Observers   
   
 [ mark_count](basic_regex/mark_count.html "cpp/regex/basic regex/mark count") |  returns the number of marked sub-expressions within the regular expression   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/basic_regex/dsc_mark_count&action=edit)  
+(public member function)   
 [ flags](basic_regex/flags.html "cpp/regex/basic regex/flags") |  returns the syntax flags   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/basic_regex/dsc_flags&action=edit)  
+(public member function)   
   
 #####  Locale   
   
 [ getloc](basic_regex/getloc.html "cpp/regex/basic regex/getloc") |  get locale information   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/basic_regex/dsc_getloc&action=edit)  
+(public member function)   
 [ imbue](basic_regex/imbue.html "cpp/regex/basic regex/imbue") |  set locale information   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/basic_regex/dsc_imbue&action=edit)  
+(public member function)   
   
 #####  Modifiers   
   
 [ swap](basic_regex/swap.html "cpp/regex/basic regex/swap") |  swaps the contents   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/basic_regex/dsc_swap&action=edit)  
+(public member function)   
   
 ###  Constants  
   
@@ -200,10 +200,10 @@ At most one grammar option can be chosen out of `ECMAScript`, `basic`, `extended
 
 The member constants in `basic_regex` are duplicates of the [`syntax_option_type`](syntax_option_type.html "cpp/regex/syntax option type") constants defined in the namespace `std::regex_constants`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/basic_regex&action=edit&section=3 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ std::swap(std::basic_regex)](basic_regex/swap2.html "cpp/regex/basic regex/swap2")(C++11) |  specializes the [std::swap](../utility/swap.html "cpp/algorithm/swap") algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/basic_regex/dsc_swap2&action=edit)  
+(function template)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/basic_regex&action=edit&section=4 "Edit section: Deduction guides\(since C++17\)")] [Deduction guides](basic_regex/deduction_guides.html "cpp/regex/basic regex/deduction guides")(since C++17)
+### [Deduction guides](basic_regex/deduction_guides.html "cpp/regex/basic regex/deduction guides")(since C++17)

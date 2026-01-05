@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::concat_view`](../concat_view.html "cpp/ranges/concat view")
 
@@ -262,7 +262,7 @@ operator-(concat_view::_iterator_)](iterator/operator_arith2.html "cpp/ranges/co
 [iter_move(concat_view::_iterator_)](iterator/iter_move.html "cpp/ranges/concat view/iterator/iter move")  
 [iter_swap(concat_view::_iterator_)](iterator/iter_swap.html "cpp/ranges/concat view/iterator/iter swap")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/concat_view/navbar_content&action=edit)
+
 
 constexpr auto size()  
 requires(sized_range<Views> && ...); |  (1)  |  (since C++26)  
@@ -294,19 +294,19 @@ Equivalent to  return [std::apply](../../utility/apply.html)
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/concat_view/size&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 As described above. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/concat_view/size&action=edit&section=2 "Edit section: Complexity")] Complexity
+### Complexity
 
 Constant. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/concat_view/size&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 The complexity of [`concat_view`](../concat_view.html "cpp/ranges/concat view") is constant time (even though in some cases it is a linear function of the number of ranges it concatenates which is a statically known parameter of this view) because time complexity as required by the ranges concepts are formally expressed with respect to the total number of elements (the size) of a given range, and not to the statically known parameters of that range. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/concat_view/size&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 The preliminary version can be checked out on [Compiler Explorer](https://godbolt.org/z/KccTnacPe).
 
@@ -340,10 +340,10 @@ Run this code
         [assert](../../error/assert.html)(dog.size() == 2 + 3 + 4);
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/concat_view/size&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ ranges::size](../size.html "cpp/ranges/size")(C++20) |  returns an integer equal to the size of a range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_size&action=edit)  
+(customization point object)  
 ---|---  
 [ ranges::ssize](../ssize.html "cpp/ranges/ssize")(C++20) |  returns a signed integer equal to the size of a range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_ssize&action=edit)
+(customization point object)

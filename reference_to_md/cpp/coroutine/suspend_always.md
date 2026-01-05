@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Coroutine support](../coroutine.html "cpp/coroutine")
 
@@ -146,7 +146,7 @@ Trivial awaitables
 Range generators  
 [generator](generator.html "cpp/coroutine/generator")(C++23)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/coroutine/navbar_content&action=edit)
+
 
 Defined in header `[<coroutine>](../header/coroutine.html "cpp/header/coroutine")` |  |   
 ---|---|---  
@@ -167,7 +167,7 @@ struct suspend_always; |  |  (since C++20)
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/coroutine/suspend_always&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 await_ready |  indicates that an await expression always suspends   
 (public member function)  
@@ -201,14 +201,14 @@ constexpr void await_resume() const noexcept {} |  |
   
 Does nothing. An await expression does not produce a value if `suspend_always` is used. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/coroutine/suspend_always&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/coroutine/suspend_always&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ suspend_never](suspend_never.html "cpp/coroutine/suspend never")(C++20) |  indicates that an await-expression should never suspend   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/coroutine/dsc_suspend_never&action=edit)  
+(class)   
 ---|---

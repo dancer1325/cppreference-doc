@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Bit manipulation](../utility/bit.html "cpp/utility/bit")
 
@@ -152,7 +152,7 @@ Common vocabulary types
 [Endian](../utility/bit.html#Endian "cpp/utility/bit")  
 [endian](../types/endian.html "cpp/types/endian")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/bit/navbar_content&action=edit)
+
 
 Defined in header `[<bit>](../header/bit.html "cpp/header/bit")` |  |   
 ---|---|---  
@@ -213,16 +213,16 @@ This function template is constexpr if and only if each of `To`, `From` and the 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/bit_cast&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 from  |  \-  |  the source of bits for the return value   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/bit_cast&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 An object of type `To` whose value representation is as described above. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/bit_cast&action=edit&section=3 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
 
 To implement `std::bit_cast`, ignoring the fact that it's [constexpr](../language/constexpr.html "cpp/language/constexpr"), [std::memcpy](../string/byte/memcpy.html "cpp/string/byte/memcpy") can be used, when it is needed, to interpret the object representation as one of another type: 
     
@@ -245,7 +245,7 @@ To implement `std::bit_cast`, ignoring the fact that it's [constexpr](../languag
         return dst;
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/bit_cast&action=edit&section=4 "Edit section: Notes")] Notes 
+### Notes 
 
 [`reinterpret_cast`](../language/reinterpret_cast.html "cpp/language/reinterpret cast") (or equivalent [explicit cast](../language/explicit_cast.html "cpp/language/explicit cast")) between pointer or reference types shall not be used to reinterpret object representation in most cases because of the [type aliasing rule](../language/reinterpret_cast.html#Type_aliasing "cpp/language/reinterpret cast"). 
 
@@ -253,7 +253,7 @@ To implement `std::bit_cast`, ignoring the fact that it's [constexpr](../languag
 ---|---|---|---  
 [`__cpp_lib_bit_cast`](../experimental/feature_test.html#cpp_lib_bit_cast "cpp/feature test") | [`201806L`](../compiler_support/20.html#cpp_lib_bit_cast_201806L "cpp/compiler support/20") | (C++20) | [`std::bit_cast`](bit_cast.html#Top)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/bit_cast&action=edit&section=5 "Edit section: Example")] Example 
+### Example 
 
 Run this code
     
@@ -285,7 +285,7 @@ Possible output:
     std::bit_cast<std::uint64_t>(19880124.000000) == 0x4172f58bc0000000
     std::bit_cast<double>(0x3fe9000000000000) == 0.781250
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/bit_cast&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -294,10 +294,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [CWG 2482](https://cplusplus.github.io/CWG/issues/2482.html)  
 ([P1272R4](https://wg21.link/P1272R4))  | C++20  | it was unspecified whether UB would occur when involving indeterminate bits  | specified   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/bit_cast&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ start_lifetime_asstart_lifetime_as_array](../memory/start_lifetime_as.html "cpp/memory/start lifetime as")(C++23) |  implicitly creates objects in given storage with the object representation reused   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_start_lifetime_as&action=edit)  
+(function template)   
 ---|---
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

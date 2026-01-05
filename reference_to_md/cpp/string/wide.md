@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 **Null-terminated wide strings**
 
@@ -153,7 +153,7 @@
 WCHAR_MAX  
 WEOF](wide.html#Macros "cpp/string/wide")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/navbar_content&action=edit)
+
 
 A null-terminated wide string is a sequence of valid wide characters, ending with a null character. 
 
@@ -173,52 +173,52 @@ A null-terminated wide string is a sequence of valid wide characters, ending wit
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide&action=edit&section=1 "Edit section: Functions")] Functions
+### Functions
 
 #####  Character classification   
   
 ---  
 Defined in header `[<cwctype>](../header/cwctype.html "cpp/header/cwctype")`  
 [ iswalnum](wide/iswalnum.html "cpp/string/wide/iswalnum") |  checks if a wide character is alphanumeric   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_iswalnum&action=edit)  
+(function)   
 [ iswalpha](wide/iswalpha.html "cpp/string/wide/iswalpha") |  checks if a wide character is alphabetic   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_iswalpha&action=edit)  
+(function)   
 [ iswlower](wide/iswlower.html "cpp/string/wide/iswlower") |  checks if a wide character is lowercase   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_iswlower&action=edit)  
+(function)   
 [ iswupper](wide/iswupper.html "cpp/string/wide/iswupper") |  checks if a wide character is an uppercase character   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_iswupper&action=edit)  
+(function)   
 [ iswdigit](wide/iswdigit.html "cpp/string/wide/iswdigit") |  checks if a wide character is a digit   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_iswdigit&action=edit)  
+(function)   
 [ iswxdigit](wide/iswxdigit.html "cpp/string/wide/iswxdigit") |  checks if a wide character is a hexadecimal character   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_iswxdigit&action=edit)  
+(function)   
 [ iswcntrl](wide/iswcntrl.html "cpp/string/wide/iswcntrl") |  checks if a wide character is a control character   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_iswcntrl&action=edit)  
+(function)   
 [ iswgraph](wide/iswgraph.html "cpp/string/wide/iswgraph") |  checks if a wide character is a graphical character   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_iswgraph&action=edit)  
+(function)   
 [ iswspace](wide/iswspace.html "cpp/string/wide/iswspace") |  checks if a wide character is a space character   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_iswspace&action=edit)  
+(function)   
 [ iswblank](wide/iswblank.html "cpp/string/wide/iswblank")(C++11) |  checks if a wide character is a blank character   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_iswblank&action=edit)  
+(function)   
 [ iswprint](wide/iswprint.html "cpp/string/wide/iswprint") |  checks if a wide character is a printing character   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_iswprint&action=edit)  
+(function)   
 [ iswpunct](wide/iswpunct.html "cpp/string/wide/iswpunct") |  checks if a wide character is a punctuation character   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_iswpunct&action=edit)  
+(function)   
 [ iswctype](wide/iswctype.html "cpp/string/wide/iswctype") |  classifies a wide character according to the specified [`LC_CTYPE`](../locale/LC_categories.html "cpp/locale/LC categories") category   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_iswctype&action=edit)  
+(function)   
 [ wctype](wide/wctype.html "cpp/string/wide/wctype") |  looks up a character classification category in the current C locale   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wctype&action=edit)  
+(function)   
   
 #####  Character manipulation   
   
 Defined in header `[<cwctype>](../header/cwctype.html "cpp/header/cwctype")`  
 [ towlower](wide/towlower.html "cpp/string/wide/towlower") |  converts a wide character to lowercase   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_towlower&action=edit)  
+(function)   
 [ towupper](wide/towupper.html "cpp/string/wide/towupper") |  converts a wide character to uppercase   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_towupper&action=edit)  
+(function)   
 [ towctrans](wide/towctrans.html "cpp/string/wide/towctrans") |  performs character mapping according to the specified [`LC_CTYPE`](../locale/LC_categories.html "cpp/locale/LC categories") mapping category   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_towctrans&action=edit)  
+(function)   
 [ wctrans](wide/wctrans.html "cpp/string/wide/wctrans") |  looks up a character mapping category in the current C locale   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wctrans&action=edit)  
+(function)   
 ASCII values  | characters  |  [`iscntrl`](byte/iscntrl.html "cpp/string/byte/iscntrl")  
 [`iswcntrl`](wide/iswcntrl.html "cpp/string/wide/iswcntrl") |  [`isprint`](byte/isprint.html "cpp/string/byte/isprint")  
 [`iswprint`](wide/iswprint.html "cpp/string/wide/iswprint") |  [`isspace`](byte/isspace.html "cpp/string/byte/isspace")  
@@ -257,74 +257,74 @@ decimal  | hexadecimal  | octal
 ---  
 Defined in header `[<cwchar>](../header/cwchar.html "cpp/header/cwchar")`  
 [ wcstolwcstoll](wide/wcstol.html "cpp/string/wide/wcstol") |  converts a wide string to an integer value   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wcstol&action=edit)  
+(function)   
 [ wcstoulwcstoull](wide/wcstoul.html "cpp/string/wide/wcstoul") |  converts a wide string to an unsigned integer value   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wcstoul&action=edit)  
+(function)   
 [ wcstofwcstodwcstold](wide/wcstof.html "cpp/string/wide/wcstof") |  converts a wide string to a floating-point value   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wcstof&action=edit)  
+(function)   
 Defined in header `[<cinttypes>](../header/cinttypes.html "cpp/header/cinttypes")`  
 [ wcstoimaxwcstoumax](wide/wcstoimax.html "cpp/string/wide/wcstoimax")(C++11)(C++11) |  converts a wide string to [std::intmax_t](../types/integer.html "cpp/types/integer") or [std::uintmax_t](../types/integer.html "cpp/types/integer")   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wcstoimax&action=edit)  
+(function)   
   
 #####  String manipulation   
   
 ---  
 Defined in header `[<cwchar>](../header/cwchar.html "cpp/header/cwchar")`  
 [ wcscpy](wide/wcscpy.html "cpp/string/wide/wcscpy") |  copies one wide string to another   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wcscpy&action=edit)  
+(function)   
 [ wcsncpy](wide/wcsncpy.html "cpp/string/wide/wcsncpy") |  copies a certain amount of wide characters from one string to another   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wcsncpy&action=edit)  
+(function)   
 [ wcscat](wide/wcscat.html "cpp/string/wide/wcscat") |  appends a copy of one wide string to another   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wcscat&action=edit)  
+(function)   
 [ wcsncat](wide/wcsncat.html "cpp/string/wide/wcsncat") |  appends a certain amount of wide characters from one wide string to another   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wcsncat&action=edit)  
+(function)   
 [ wcsxfrm](wide/wcsxfrm.html "cpp/string/wide/wcsxfrm") |  transform a wide string so that `wcscmp` would produce the same result as `wcscoll`   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wcsxfrm&action=edit)  
+(function)   
   
 #####  String examination   
   
 Defined in header `[<cwchar>](../header/cwchar.html "cpp/header/cwchar")`  
 [ wcslen](wide/wcslen.html "cpp/string/wide/wcslen") |  returns the length of a wide string   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wcslen&action=edit)  
+(function)   
 [ wcscmp](wide/wcscmp.html "cpp/string/wide/wcscmp") |  compares two wide strings   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wcscmp&action=edit)  
+(function)   
 [ wcsncmp](wide/wcsncmp.html "cpp/string/wide/wcsncmp") |  compares a certain amount of characters from two wide strings   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wcsncmp&action=edit)  
+(function)   
 [ wcscoll](wide/wcscoll.html "cpp/string/wide/wcscoll") |  compares two wide strings in accordance to the current locale   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wcscoll&action=edit)  
+(function)   
 [ wcschr](wide/wcschr.html "cpp/string/wide/wcschr") |  finds the first occurrence of a wide character in a wide string   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wcschr&action=edit)  
+(function)   
 [ wcsrchr](wide/wcsrchr.html "cpp/string/wide/wcsrchr") |  finds the last occurrence of a wide character in a wide string   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wcsrchr&action=edit)  
+(function)   
 [ wcsspn](wide/wcsspn.html "cpp/string/wide/wcsspn") |  returns the length of the maximum initial segment that consists  
 of only the wide characters found in another wide string   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wcsspn&action=edit)  
+(function)   
 [ wcscspn](wide/wcscspn.html "cpp/string/wide/wcscspn") |  returns the length of the maximum initial segment that consists  
 of only the wide _not_ found in another wide string   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wcscspn&action=edit)  
+(function)   
 [ wcspbrk](wide/wcspbrk.html "cpp/string/wide/wcspbrk") |  finds the first location of any wide character in one wide string, in another wide string   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wcspbrk&action=edit)  
+(function)   
 [ wcsstr](wide/wcsstr.html "cpp/string/wide/wcsstr") |  finds the first occurrence of a wide string within another wide string   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wcsstr&action=edit)  
+(function)   
 [ wcstok](wide/wcstok.html "cpp/string/wide/wcstok") |  finds the next token in a wide string   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wcstok&action=edit)  
+(function)   
   
 #####  Wide character array manipulation   
   
 ---  
 Defined in header `[<cwchar>](../header/cwchar.html "cpp/header/cwchar")`  
 [ wmemcpy](wide/wmemcpy.html "cpp/string/wide/wmemcpy") |  copies a certain amount of wide characters between two non-overlapping arrays   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wmemcpy&action=edit)  
+(function)   
 [ wmemmove](wide/wmemmove.html "cpp/string/wide/wmemmove") |  copies a certain amount of wide characters between two, possibly overlapping, arrays   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wmemmove&action=edit)  
+(function)   
 [ wmemcmp](wide/wmemcmp.html "cpp/string/wide/wmemcmp") |  compares a certain amount of wide characters from two arrays   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wmemcmp&action=edit)  
+(function)   
 [ wmemchr](wide/wmemchr.html "cpp/string/wide/wmemchr") |  finds the first occurrence of a wide character in a wide character array   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wmemchr&action=edit)  
+(function)   
 [ wmemset](wide/wmemset.html "cpp/string/wide/wmemset") |  copies the given wide character to every position in a wide character array   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wmemset&action=edit)  
+(function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide&action=edit&section=2 "Edit section: Types")] Types
+### Types
 
 Defined in header `[<cwctype>](../header/cwctype.html "cpp/header/cwctype")`  
 ---  
@@ -337,7 +337,7 @@ Defined in header `[<cwchar>](../header/cwchar.html "cpp/header/cwchar")`
 wint_t |  integer type that can hold any valid wide character and at least one more value   
 (typedef)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide&action=edit&section=3 "Edit section: Macros")] Macros
+### Macros
 
 Defined in header `[<cwchar>](../header/cwchar.html "cpp/header/cwchar")`  
 ---  
@@ -348,7 +348,7 @@ WCHAR_MIN |  the smallest valid value of wchar_t
 WCHAR_MAX |  the largest valid value of wchar_t   
 (macro constant)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [C documentation](../../c/string/wide.html "c/string/wide") for Null-terminated wide strings  
 ---

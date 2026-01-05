@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [`std::text_encoding`](../../locale/text_encoding.html "cpp/text/text encoding")
 
@@ -79,7 +79,7 @@
 [Helper classes](../../locale/text_encoding.html#Helper_classes "cpp/text/text encoding")  
 [hash<std::text_encoding>](hash.html "cpp/text/text encoding/hash")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/text_encoding/navbar_content&action=edit)
+
 
 static consteval text_encoding literal() noexcept; |  |  (since C++26)  
 ---|---|---  
@@ -99,21 +99,21 @@ This function is deleted unless the [CHAR_BIT](../../types/climits.html) is 8.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/text/text_encoding/literal&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/text/text_encoding/literal&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The object holding the representation of the ordinary literal encoding. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/text/text_encoding/literal&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 This function can be implemented by constructing `text_encoding` with compiler-specific builtin macros such as [`__clang_literal_encoding__`](https://clang.llvm.org/docs/LanguageExtensions.html#builtin-macros) from Clang, or [`__GNUC_EXECUTION_CHARSET_NAME`](https://gcc.gnu.org/onlinedocs/cpp/Common-Predefined-Macros.html) from GCC. These macros, which are known at compile-time, expand to a narrow string literal containing the name of the narrow execution character set used (ordinary literal encoding). 
 
 The value returned by literal() may depend on compiler options such as `-fexec-charset=_encoding-name_` in GCC or Clang or `/execution-charset:_encoding-name_` in MSVC. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/text/text_encoding/literal&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 This example demonstrates the assertion that the ordinary literal encoding should be UTF-8.
 

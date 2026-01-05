@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Localization library](../locale.html "cpp/locale")
 
@@ -152,7 +152,7 @@ base classes](../locale.html#Facet_category_base_classes "cpp/locale")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/navbar_content&action=edit)
+
 
 **`std::num_put`**
 
@@ -162,7 +162,7 @@ Member functions
 [num_put::~num_put](num_put/~num_put.html "cpp/locale/num put/~num put")  
 [num_put::putnum_put::do_put](num_put/put.html "cpp/locale/num put/put")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/num_put/navbar_content&action=edit)
+
 
 Defined in header `[<locale>](../header/locale.html "cpp/header/locale")` |  |   
 ---|---|---  
@@ -194,7 +194,7 @@ If a `std::num_put` specialization is not guaranteed to be provided by the stand
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/num_put&action=edit&section=1 "Edit section: Specializations")] Specializations
+### Specializations
 
 The standard library is guaranteed to provide the following specializations (they are [required to be implemented by any locale object](locale.html "cpp/locale/locale")): 
 
@@ -213,20 +213,20 @@ In addition, the standard library is also guaranteed to provide every specializa
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/num_put&action=edit&section=2 "Edit section: Nested types")] Nested types
+### Nested types
 
 Type  |  Definition   
 ---|---  
 `char_type` |  `CharT`  
 `iter_type` |  `OutputIt`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/facet_data_members&action=edit&section=T-1 "Template:cpp/locale/facet data members")] Data members
+### Data members
 
 Member  |  Description   
 ---|---  
 [std::locale::id](locale/id.html "cpp/locale/locale/id") `id` [static] |  the identifier of the [facet](locale/facet.html#Facet_class "cpp/locale/locale/facet")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/num_put&action=edit&section=3 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](num_put/num_put.html "cpp/locale/num put/num put") |  constructs a new `num_put` facet   
 (public member function)  
@@ -234,7 +234,7 @@ Member  |  Description
 [ put](num_put/put.html "cpp/locale/num put/put") |  invokes `do_put`   
 (public member function)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/num_put&action=edit&section=4 "Edit section: Protected member functions")] Protected member functions
+### Protected member functions
 
 [ (destructor)](num_put/~num_put.html "cpp/locale/num put/~num put") |  destructs a `num_put` facet   
 (protected member function)  
@@ -242,7 +242,7 @@ Member  |  Description
 [ do_put](num_put/put.html "cpp/locale/num put/put")[virtual] |  formats a number and writes to output stream   
 (virtual protected member function)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/num_put&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -279,7 +279,7 @@ Possible output:
     Output using an american locale:
     1,234,567.890000
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/num_put&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -294,14 +294,14 @@ defined character types
 guaranteed to be accepted by `num_put` | can guarantee to accept implementation-  
 defined character container types   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/num_put&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ numpunct](numpunct.html "cpp/locale/numpunct") |  defines numeric punctuation rules   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_numpunct&action=edit)  
+(class template)   
 ---|---  
 [ num_get](num_get.html "cpp/locale/num get") |  parses numeric values from an input character sequence   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_num_get&action=edit)  
+(class template)   
 [ to_string](../string/basic_string/to_string.html "cpp/string/basic string/to string")(C++11) |  converts an integral or floating-point value to `string`   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_to_string&action=edit)  
+(function)   
 [ to_wstring](../string/basic_string/to_wstring.html "cpp/string/basic string/to wstring")(C++11) |  converts an integral or floating-point value to `wstring`   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_to_wstring&action=edit)
+(function) 

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 **`std::ranges::iota_view`**
 
@@ -268,7 +268,7 @@ operator<=>(iota_view::_iterator_)](iota_view/iterator.html#Non-member_functions
 [operator==(iota_view::_iterator_ ,iota_view::_sentinel_)](iota_view/sentinel.html#Non-member_functions "cpp/ranges/iota view/sentinel")  
 [operator-(iota_view::_iterator_ ,iota_view::_sentinel_)](iota_view/sentinel.html#Non-member_functions "cpp/ranges/iota view/sentinel")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/iota_view/navbar_content&action=edit)
+
 
 Defined in header `[<ranges>](../header/ranges.html "cpp/header/ranges")` |  |   
 ---|---|---  
@@ -313,7 +313,7 @@ constexpr /* see below */ iota( W&& value, Bound&& bound ); |  |  (since C++20)
 
 The name `views::iota` denotes a _customization point object_ , which is a const [function object](../named_req/FunctionObject.html "cpp/named req/FunctionObject") of a [literal](../named_req/LiteralType.html "cpp/named req/LiteralType") [`semiregular`](../concepts/semiregular.html "cpp/concepts/semiregular") class type. See [CustomizationPointObject](../named_req/CustomizationPointObject.html "cpp/named req/CustomizationPointObject") for details. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/iota_view&action=edit&section=1 "Edit section: Data members")] Data members
+### Data members
 
 Member  |  Definition   
 ---|---  
@@ -322,7 +322,7 @@ Member  |  Definition
 `Bound` `_bound__` |  the sentinel value, may be unreachable  
 (exposition-only member object*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/iota_view&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](iota_view/iota_view.html "cpp/ranges/iota view/iota view") |  creates an `iota_view`   
 (public member function)  
@@ -339,21 +339,21 @@ Member  |  Definition
 #####  Inherited from [std::ranges::view_interface](view_interface.html "cpp/ranges/view interface")  
   
 [ cbegin](view_interface/cbegin.html "cpp/ranges/view interface/cbegin")(C++23) |  returns a constant iterator to the beginning of the range   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_cbegin&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ cend](view_interface/cend.html "cpp/ranges/view interface/cend")(C++23) |  returns a sentinel for the constant iterator of the range   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_cend&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ operator bool](view_interface/operator_bool.html "cpp/ranges/view interface/operator bool") |  returns whether the derived view is not empty, provided only if [ranges::empty](empty.html "cpp/ranges/empty") is applicable to it   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_operator_bool&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ front](view_interface/front.html "cpp/ranges/view interface/front") |  returns the first element in the derived view, provided if it satisfies [`forward_range`](forward_range.html "cpp/ranges/forward range")   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_front&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ back](view_interface/back.html "cpp/ranges/view interface/back") |  returns the last element in the derived view, provided only if it satisfies [`bidirectional_range`](bidirectional_range.html "cpp/ranges/bidirectional range") and [`common_range`](common_range.html "cpp/ranges/common range")   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_back&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ operator[]](view_interface/operator_at.html "cpp/ranges/view interface/operator at") |  returns the `n`th element in the derived view, provided only if it satisfies [`random_access_range`](random_access_range.html "cpp/ranges/random access range")   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_operator_at&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/iota_view&action=edit&section=3 "Edit section: Deduction guides")] [Deduction guides](iota_view/deduction_guides.html "cpp/ranges/iota view/deduction guides")
+### [Deduction guides](iota_view/deduction_guides.html "cpp/ranges/iota view/deduction guides")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/iota_view&action=edit&section=4 "Edit section: Nested classes")] Nested classes
+### Nested classes
 
 [_iterator_](iota_view/iterator.html "cpp/ranges/iota view/iterator") |  the iterator type  
 (exposition-only member class*)  
@@ -361,7 +361,7 @@ Member  |  Definition
 [_sentinel_](iota_view/sentinel.html "cpp/ranges/iota view/sentinel") |  the sentinel type used when the `iota_view` is bounded and `Bound` and `W` are not the same type  
 (exposition-only member class*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/iota_view&action=edit&section=5 "Edit section: Helper templates")] Helper templates
+### Helper templates
 
 template< [std::weakly_incrementable](../iterator/weakly_incrementable.html) W, [std::semiregular](../concepts/semiregular.html) Bound >  
 constexpr bool [ranges::enable_borrowed_range](borrowed_range.html)<ranges::iota_view<W, Bound>> = true; |  |  (since C++20)  
@@ -370,7 +370,7 @@ constexpr bool [ranges::enable_borrowed_range](borrowed_range.html)<ranges::iota
   
 This specialization of [ranges::enable_borrowed_range](borrowed_range.html) makes `iota_view` satisfy [`borrowed_range`](borrowed_range.html "cpp/ranges/borrowed range"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/iota_view&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -417,7 +417,7 @@ Output:
     1 2 3 4 5 6 7 8 9
     1 2 3 4 5 6 7 8 9
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/iota_view&action=edit&section=7 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -427,14 +427,14 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [P2325R3](https://wg21.link/P2325R3) | C++20  | `iota_view` required that `W` is [`semiregular`](../concepts/semiregular.html "cpp/concepts/semiregular")  
 as [`view`](view.html "cpp/ranges/view") required [`default_initializable`](../concepts/default_initializable.html "cpp/concepts/default initializable") | only requires that `W` is [`copyable`](../concepts/copyable.html "cpp/concepts/copyable")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/iota_view&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [ iota](../algorithm/iota.html "cpp/algorithm/iota")(C++11) |  fills a range with successive increments of the starting value   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_iota&action=edit)  
+(function template)   
 ---|---  
 [ ranges::iota](../algorithm/ranges/iota.html "cpp/algorithm/ranges/iota")(C++23) |  fills a range with successive increments of the starting value  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_iota&action=edit)  
+(algorithm function object)  
 [ ranges::repeat_viewviews::repeat](repeat_view.html "cpp/ranges/repeat view")(C++23) |  a [`view`](view.html "cpp/ranges/view") consisting of a generated sequence by repeatedly producing the same value  
-(class template) (customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_repeat_view&action=edit)  
+(class template) (customization point object)  
 [ ranges::enumerate_viewviews::enumerate](enumerate_view.html "cpp/ranges/enumerate view")(C++23) |  a [`view`](view.html "cpp/ranges/view") that maps each element of adapted sequence to a tuple of both the element's position and its value  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_enumerate_view&action=edit)
+(class template) (range adaptor object)

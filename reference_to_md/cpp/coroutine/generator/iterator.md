@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Coroutine support](../../coroutine.html "cpp/coroutine")
 
@@ -146,7 +146,7 @@ Trivial awaitables
 Range generators  
 [generator](../generator.html "cpp/coroutine/generator")(C++23)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/coroutine/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -340,7 +340,7 @@ std::from_range](../../ranges/from_range.html "cpp/ranges/from range")(C++23)(C+
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::generator`](../generator.html "cpp/coroutine/generator")
 
@@ -368,7 +368,7 @@ std::from_range](../../ranges/from_range.html "cpp/ranges/from range")(C++23)(C+
 generator::_iterator_ ::operator++(int)](iterator.html#increment "cpp/coroutine/generator/iterator")  
 [operator==(generator::_iterator_ , std::default_sentinel_t)](iterator.html#compare "cpp/coroutine/generator/iterator")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/coroutine/generator/navbar_content&action=edit)
+
 
 class /*iterator*/; |  | (exposition only*)  
 ---|---|---  
@@ -392,21 +392,21 @@ The return type of [`generator::begin`](../generator.html "cpp/coroutine/generat
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/coroutine/generator/iterator&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Member type  |  Definition   
 ---|---  
 `value_type` |  [`std::generator::value`](../generator.html#Member_types "cpp/coroutine/generator")  
 `difference_type` |  [std::ptrdiff_t](../../types/ptrdiff_t.html "cpp/types/ptrdiff t")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/coroutine/generator/iterator&action=edit&section=2 "Edit section: Data members")] Data members
+### Data members
 
 Member  |  Description   
 ---|---  
 [std::coroutine_handle](../coroutine_handle.html)<std::generator::promise_type> `_coroutine__` |  The coroutine handle  
 (exposition-only member object*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/coroutine/generator/iterator&action=edit&section=3 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](iterator.html#constructor "cpp/coroutine/generator/iterator") |  constructs an iterator   
 (public member function)  
@@ -466,7 +466,7 @@ Returns: *this.
 
 2) Equivalent to ++*this;. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/coroutine/generator/iterator&action=edit&section=4 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ operator==](iterator.html#compare)(C++23) |  compares the underlying iterator with a sentinel   
 (function)  
@@ -484,7 +484,7 @@ The `!=` operator is [synthesized](../../language/default_comparisons.html#Other
 
 This function is not visible to ordinary [unqualified](../../language/unqualified_lookup.html "cpp/language/unqualified lookup") or [qualified lookup](../../language/qualified_lookup.html "cpp/language/qualified lookup"), and can only be found by [argument-dependent lookup](../../language/adl.html "cpp/language/adl") when `std::generator::_iterator_` is an associated class of the arguments. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/coroutine/generator/iterator&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

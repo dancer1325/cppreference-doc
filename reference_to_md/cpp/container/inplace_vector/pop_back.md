@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::inplace_vector`](../inplace_vector.html "cpp/container/inplace vector")
 
@@ -134,7 +134,7 @@ Tables
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/inplace_vector/navbar_content&action=edit)
+
 
 constexpr void pop_back(); |  |   
 ---|---|---  
@@ -151,11 +151,11 @@ If empty() is true:
 
 Iterators and references to the last element are invalidated. The [`end()`](end.html "cpp/container/inplace vector/end") iterator is also invalidated. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/pop_back&action=edit&section=T-1 "Template:cpp/container/pop back")] Complexity
+### Complexity
 
 Constant. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/pop_back&action=edit&section=T-2 "Template:cpp/container/pop back")] Example
+### Example
 
 Run this code
     
@@ -177,8 +177,8 @@ Output:
     [1, 2]
     [1]
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/pop_back&action=edit&section=T-3 "Template:cpp/container/pop back")] See also
+### See also
 
 [ push_back](push_back.html "cpp/container/inplace vector/push back") |  adds an element to the end   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_push_back&action=edit)  
+(public member function)   
 ---|---

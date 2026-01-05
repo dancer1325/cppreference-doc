@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::year_month_day_last`](../year_month_day_last.html "cpp/chrono/year month day last")
 
@@ -120,7 +120,7 @@ Helper classes
 [formatter<std::chrono::year_month_day_last>](formatter.html "cpp/chrono/year month day last/formatter")  
 [hash<std::chrono::year_month_day_last>](hash.html "cpp/chrono/year month day last/hash")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/year_month_day_last/navbar_content&action=edit)
+
 
 constexpr year_month_day_last( const [std::chrono::year](../year.html)& y,  
 const [std::chrono::month_day_last](../month_day_last.html)& mdl ) noexcept; |  |  (since C++20)  
@@ -129,11 +129,11 @@ const [std::chrono::month_day_last](../month_day_last.html)& mdl ) noexcept; |  
   
 Constructs a `year_month_day_last` object storing the year y and the month mdl.month(). The constructed object represents the last day of that year and month. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/year_month_day_last/year_month_day_last&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 A `year_month_day_last` can also be created by combining a std::chrono::year_month with std::chrono::last using operator/. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/year_month_day_last/year_month_day_last&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -172,8 +172,8 @@ Possible output:
     2021/Nov/last day: 30
     2021/Dec/last day: 31
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/year_month_day_last/year_month_day_last&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ operator/](../operator_slash.html "cpp/chrono/operator slash")(C++20) |  conventional syntax for Gregorian calendar date creation   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_operator/&action=edit)  
+(function)   
 ---|---

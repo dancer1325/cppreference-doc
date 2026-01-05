@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::chunk_by_view`](../chunk_by_view.html "cpp/ranges/chunk by view")
 
@@ -247,7 +247,7 @@ chunk_by_view::_iterator_ ::operator--
 chunk_by_view::_iterator_ ::operator--(int)](iterator/operator_arith.html "cpp/ranges/chunk by view/iterator/operator arith")  
 [operator==(chunk_by_view::_iterator_)](iterator/operator_cmp.html "cpp/ranges/chunk by view/iterator/operator cmp")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/chunk_by_view/navbar_content&action=edit)
+
 
 template< class R, class Pred >  
 chunk_by_view( R&&, Pred ) -> chunk_by_view<[views::all_t](../all_view.html)<R>, Pred>; |  |  (since C++23)  
@@ -256,7 +256,7 @@ chunk_by_view( R&&, Pred ) -> chunk_by_view<[views::all_t](../all_view.html)<R>,
   
 The [deduction guide](../../language/ctad.html "cpp/language/class template argument deduction") is provided for std::ranges::chunk_by_view to allow deduction from [`range`](../range.html "cpp/ranges/range") and predicate function. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/chunk_by_view/deduction_guides&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

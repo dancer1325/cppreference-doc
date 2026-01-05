@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](../empty.html "cpp/iterator/empty")(C++17)  
 [data](../data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 [`std::move_iterator`](../move_iterator.html "cpp/iterator/move iterator")
 
@@ -216,7 +216,7 @@ Non-member functions
 [iter_swap](iter_swap.html "cpp/iterator/move iterator/iter swap")(C++20)  
 [make_move_iterator](../make_move_iterator.html "cpp/iterator/make move iterator")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/move_iterator/navbar_content&action=edit)
+
 
 move_iterator& operator++(); |  (1) | (constexpr since C++17)  
 ---|---|---  
@@ -262,25 +262,25 @@ if `Iter` models [`forward_iterator`](../forward_iterator.html "cpp/iterator/for
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/move_iterator/operator_arith&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 n  |  \-  |  position relative to current location   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/move_iterator/operator_arith&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 As described above. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/move_iterator/operator_arith&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/move_iterator/operator_arith&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ operator+](operator+.html "cpp/iterator/move iterator/operator+")(C++11) |  advances the iterator   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_operator%2B&action=edit)  
+(function template)   
 ---|---  
 [ operator-](operator-.html "cpp/iterator/move iterator/operator-")(C++11) |  computes the distance between two iterator adaptors   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_operator-&action=edit)
+(function template) 

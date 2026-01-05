@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::zip_transform_view`](../../zip_transform_view.html "cpp/ranges/zip transform view")
 
@@ -258,7 +258,7 @@ Non-member functions
 [operator==(zip_transform_view::_sentinel_)](operator_cmp.html "cpp/ranges/zip transform view/sentinel/operator cmp")  
 [operator-(zip_transform_view::_sentinel_)](operator-.html "cpp/ranges/zip transform view/sentinel/operator-")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/zip_transform_view/navbar_content&action=edit)
+
 
 /*sentinel*/() = default; |  (1)  |  (since C++23)  
 ---|---|---  
@@ -276,13 +276,13 @@ Constructs a sentinel.
 
 3) [Value-initializes](../../../language/value_initialization.html "cpp/language/value initialization") the underlying object `_inner__` with inner. This constructor is not accessible to users.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/zip_transform_view/sentinel/sentinel&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 i  |  \-  |  a /*sentinel*/<false>  
 ---|---|---  
 inner  |  \-  |  an underlying object of type [`_zentinel_`](../../zip_transform_view.html#Member_types "cpp/ranges/zip transform view") <Const>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/zip_transform_view/sentinel/sentinel&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

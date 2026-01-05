@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Diagnostics library](../../error.html "cpp/error")
 
@@ -187,7 +187,7 @@ Exception handling failures
 [breakpoint_if_debugging](../../utility/breakpoint_if_debugging.html "cpp/utility/breakpoint if debugging")(C++26)  
 [breakpoint](../../utility/breakpoint.html "cpp/utility/breakpoint")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/navbar_content&action=edit)
+
 
 [`std::error_code`](../error_code.html "cpp/error/error code")
 
@@ -211,7 +211,7 @@ Helper classes
 [is_error_code_enum](is_error_code_enum.html "cpp/error/error code/is error code enum")  
 [hash<std::error_code>](hash.html "cpp/error/error code/hash")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/error_code/navbar_content&action=edit)
+
 
 Defined in header `[<system_error>](../../header/system_error.html "cpp/header/system error")` |  |   
 ---|---|---  
@@ -240,12 +240,12 @@ Compares two error code objects.
 The `<`, `<=`, `>`, `>=`, and `!=` operators are [synthesized](../../language/operators.html#Comparison_operators "cpp/language/operators") from operator<=> and operator== respectively.  | (since C++20)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/error_code/operator_cmp&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 lhs, rhs  |  \-  |  error codes to compare   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/error_code/operator_cmp&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) true if the error category and error value compare equal.
 
@@ -255,12 +255,12 @@ lhs, rhs  |  \-  |  error codes to compare
 
 4) lhs.category() <=> rhs.category() if it is not std::strong_ordering::equal. Otherwise, lhs.value() <=> rhs.value().
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/error_code/operator_cmp&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ category](category.html "cpp/error/error code/category") |  obtains the error_category for this error_code   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/error_code/dsc_category&action=edit)  
+(public member function)   
 ---|---  
 [ value](value.html "cpp/error/error code/value") |  obtains the value of the `error_code`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/error_code/dsc_value&action=edit)  
+(public member function)   
 [ operator==operator!=operator<operator<=>](../error_condition/operator_cmp.html "cpp/error/error condition/operator cmp")(removed in C++20)(removed in C++20)(C++20) |  compares `error_condition`s and `error_code`s   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/error_condition/dsc_operator_cmp&action=edit)
+(function) 

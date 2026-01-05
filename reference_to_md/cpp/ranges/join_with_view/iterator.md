@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::join_with_view`](../join_with_view.html "cpp/ranges/join with view")
 
@@ -251,7 +251,7 @@ join_with_view::_iterator_ ::operator--(int)](iterator/operator_arith.html "cpp/
 [join_with_view::_sentinel_ ::_sentinel_](sentinel/sentinel.html "cpp/ranges/join with view/sentinel/sentinel")  
 [operator==(join_with_view::_sentinel_)](sentinel/operator_cmp.html "cpp/ranges/join with view/sentinel/operator cmp")(C++23)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/join_with_view/navbar_content&action=edit)
+
 
 template< bool Const >  
 class /*iterator*/ |  | (exposition only*)  
@@ -294,12 +294,12 @@ This iterator class has the invariant that the inner iterator is always derefere
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/join_with_view/iterator&action=edit&section=1 "Edit section: Template parameters")] Template parameters
+### Template parameters
 
 Const  |  \-  |  whether the iterator is a constant iterator   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/join_with_view/iterator&action=edit&section=2 "Edit section: Nested types")] Nested types
+### Nested types
 
 #####  Exposition-only types   
   
@@ -332,7 +332,7 @@ Type  |  Definition
 ` `[ranges::range_difference_t](../range_size_t.html)<`_InnerBase_` ﻿>,  
 ` `[ranges::range_difference_t](../range_size_t.html)<`_PatternBase_` ﻿>>  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/join_with_view/iterator&action=edit&section=3 "Edit section: Determining the iterator concept")] Determining the iterator concept
+#### Determining the iterator concept
 
 `iterator_concept` is defined as follows: 
 
@@ -347,7 +347,7 @@ Type  |  Definition
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/join_with_view/iterator&action=edit&section=4 "Edit section: Determining the iterator category")] Determining the iterator category
+#### Determining the iterator category
 
 Given the following types: 
 
@@ -369,7 +369,7 @@ Given the following types:
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/join_with_view/iterator&action=edit&section=5 "Edit section: Data members")] Data members
+### Data members
 
 Member  |  Description   
 ---|---  
@@ -381,7 +381,7 @@ Member  |  Description
 [std::variant](../../utility/variant.html)<`_PatternIter_` ﻿,` `` _InnerIter_` ﻿> `_inner_it__` |  the inner iterator  
 (exposition-only member object*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/join_with_view/iterator&action=edit&section=6 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](iterator/iterator.html "cpp/ranges/join with view/iterator/iterator") |  constructs an iterator   
 (public member function)  
@@ -389,9 +389,9 @@ Member  |  Description
 [ operator*](iterator/operator*.html "cpp/ranges/join with view/iterator/operator*") |  accesses the element   
 (public member function)  
 [ operator++operator++(int)operator--operator--(int)](iterator/operator_arith.html "cpp/ranges/join with view/iterator/operator arith") |  advances or decrements the underlying iterator   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/iterator/dsc_operator_arith&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/join_with_view/iterator&action=edit&section=7 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ operator==](iterator/operator_cmp.html "cpp/ranges/join with view/iterator/operator cmp")(C++23) |  compares the underlying iterators   
 (function)  

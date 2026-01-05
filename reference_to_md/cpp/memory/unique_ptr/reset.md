@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::unique_ptr`](../unique_ptr.html "cpp/memory/unique ptr")
 
@@ -211,7 +211,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
 [Helper classes](../unique_ptr.html#Helper_classes "cpp/memory/unique ptr")  
 [hash<std::unique_ptr>](hash.html "cpp/memory/unique ptr/hash")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/unique_ptr/navbar_content&action=edit)
+
 
 members of the primary template, unique_ptr<T> |  |   
 ---|---|---  
@@ -251,18 +251,18 @@ If get_deleter()(old_ptr) throws an exception, the behavior is undefined.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/unique_ptr/reset&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 ptr  |  \-  |  pointer to a new object to manage   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/unique_ptr/reset&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 To replace the managed object while supplying a new deleter as well, move assignment operator may be used. 
 
 A test for self-reset, i.e. whether ptr points to an object already managed by *this, is not performed, except where provided as a compiler extension or as a debugging assert. Note that code such as p.reset(p.release()) does not involve self-reset, only code like p.reset(p.get()) does. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/unique_ptr/reset&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -310,7 +310,7 @@ Output:
     Calling delete for Foo object...
     ~Foo...
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/unique_ptr/reset&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -319,8 +319,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [LWG 2118](https://cplusplus.github.io/LWG/issue2118) | C++11  | `unique_ptr<T[]>::reset` rejected qualification conversions  | accepts   
 [LWG 2169](https://cplusplus.github.io/LWG/issue2169) | C++11  | the overload `unique_ptr<T[]>::reset(pointer)` existed  | removed the overload   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/unique_ptr/reset&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ release](release.html "cpp/memory/unique ptr/release") |  returns a pointer to the managed object and releases the ownership   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/unique_ptr/dsc_release&action=edit)  
+(public member function)   
 ---|---

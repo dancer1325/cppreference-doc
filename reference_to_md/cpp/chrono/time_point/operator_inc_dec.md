@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::time_point`](../time_point.html "cpp/chrono/time point")
 
@@ -124,7 +124,7 @@ Helper classes
 [common_type](common_type.html "cpp/chrono/time point/common type")  
 [hash<std::chrono::time_point>](hash.html "cpp/chrono/time point/hash")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_point/navbar_content&action=edit)
+
 
 constexpr time_point& operator++(); |  (1)  |  (since C++20)  
 ---|---|---  
@@ -155,28 +155,28 @@ If `d_` is a member variable holding the duration (i.e., time since epoch) of th
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/time_point/operator_inc_dec&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/time_point/operator_inc_dec&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1,3) A reference to this `time_point` after modification.
 
 2,4) A copy of the `time_point` made before modification.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/time_point/operator_inc_dec&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/time_point/operator_inc_dec&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ operator++operator++(int)operator--operator--(int)](../duration/operator_arith2.html "cpp/chrono/duration/operator arith2") |  increments or decrements the tick count   
-(public member function of `std::chrono::duration<Rep,Period>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/duration/dsc_operator_arith2&action=edit)  
+(public member function of `std::chrono::duration<Rep,Period>`)   
 ---|---  
 [ operator+=operator-=](operator_arith.html "cpp/chrono/time point/operator arith") |  modifies the time point by the given duration   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_point/dsc_operator_arith&action=edit)  
+(public member function)   
 [ operator+operator-](operator_arith2.html "cpp/chrono/time point/operator arith2")(C++11) |  performs add and subtract operations involving a time point   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_point/dsc_operator_arith2&action=edit)
+(function template) 

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::variant`](../variant.html "cpp/utility/variant")
 
@@ -161,7 +161,7 @@ Common vocabulary types
 [Helper objects](../variant.html#Helper_objects "cpp/utility/variant")  
 [variant_npos](variant_npos.html "cpp/utility/variant/variant npos")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variant/navbar_content&action=edit)
+
 
 Defined in header `[<variant>](../../header/variant.html "cpp/header/variant")` |  |   
 ---|---|---  
@@ -184,7 +184,7 @@ Unit type intended for use as a well-behaved empty alternative in [std::variant]
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variant/monostate&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 (constructor)(implicitly declared) |  trivial implicit default/copy/move constructor   
 (public member function)  
@@ -194,7 +194,7 @@ Unit type intended for use as a well-behaved empty alternative in [std::variant]
 operator=(implicitly declared) |  trivial implicit copy/move assignment   
 (public member function)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variant/monostate&action=edit&section=2 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 ##  std::operator==, !=, <, <=, >, >=, <=>(std::monostate)
 
@@ -218,7 +218,7 @@ All instances of `std::monostate` compare equal.
 The `<`, `<=`, `>`, `>=`, and `!=` operators are [synthesized](../../language/operators.html#Comparison_operators "cpp/language/operators") from operator<=> and operator== respectively.  | (since C++20)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variant/monostate&action=edit&section=3 "Edit section: Helper classes")] Helper classes
+### Helper classes
 
 ##  std::hash<std::monostate>
 
@@ -229,7 +229,7 @@ struct [std::hash](../hash.html)<monostate>; |  |  (since C++17)
   
 Specializes the [std::hash](../hash.html "cpp/utility/hash") algorithm for `std::monostate`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variant/monostate&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -273,8 +273,8 @@ Possible output:
     std::get: 42
     std::hash: 0xffffffffffffe19f
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variant/monostate&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ (constructor)](variant.html "cpp/utility/variant/variant") |  constructs the `variant` object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variant/dsc_constructor&action=edit)  
+(public member function)   
 ---|---

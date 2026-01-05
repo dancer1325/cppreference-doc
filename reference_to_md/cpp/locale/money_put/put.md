@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Localization library](../../locale.html "cpp/locale")
 
@@ -152,7 +152,7 @@ base classes](../../locale.html#Facet_category_base_classes "cpp/locale")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/navbar_content&action=edit)
+
 
 [`std::money_put`](../money_put.html "cpp/locale/money put")
 
@@ -162,7 +162,7 @@ Member functions
 [money_put::~money_put](~money_put.html "cpp/locale/money put/~money put")  
 **money_put::put money_put::do_put**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/money_put/navbar_content&action=edit)
+
 
 Defined in header `[<locale>](../../header/locale.html "cpp/header/locale")` |  |   
 ---|---|---  
@@ -215,15 +215,15 @@ In the end, calls str.width(0) to cancel the effects of any [std::setw](../../io
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/money_put/put&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 An iterator pointing immediately after the last character produced. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/money_put/put&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 The currency units are assumed to be the smallest non-fractional units of the currency: cents in the U.S, yen in Japan. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/money_put/put&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -263,7 +263,7 @@ Output:
     In Russian locale, -123,45 prints as -1.23 руб
     With negative_sign set to "()", it prints as (1.23 руб)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/money_put/put&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -271,12 +271,12 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 328](https://cplusplus.github.io/LWG/issue328) | C++98  | the format string used for [std::sprintf](../../io/c/printf.html "cpp/io/c/fprintf") was "%.01f" | corrected to "%.0Lf"  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/money_put/put&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ moneypunct](../moneypunct.html "cpp/locale/moneypunct") |  defines monetary formatting parameters used by [std::money_get](../money_get.html "cpp/locale/money get") and [std::money_put](../money_put.html "cpp/locale/money put")   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_moneypunct&action=edit)  
+(class template)   
 ---|---  
 [ money_get](../money_get.html "cpp/locale/money get") |  parses and constructs a monetary value from an input character sequence   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_money_get&action=edit)  
+(class template)   
 [ put_money](../../io/manip/put_money.html "cpp/io/manip/put money")(C++11) |  formats and outputs a monetary value   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_put_money&action=edit)
+(function template) 

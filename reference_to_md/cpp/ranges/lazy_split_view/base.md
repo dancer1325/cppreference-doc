@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::lazy_split_view`](../lazy_split_view.html "cpp/ranges/lazy split view")
 
@@ -240,7 +240,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
 [lazy_split_view::_inner_iterator_](inner_iterator.html "cpp/ranges/lazy split view/inner iterator")  
 [Deduction guides](deduction_guides.html "cpp/ranges/lazy split view/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/lazy_split_view/navbar_content&action=edit)
+
 
 constexpr V base() const& requires [std::copy_constructible](../../concepts/copy_constructible.html)<V>; |  (1)  |  (since C++20)  
 ---|---|---  
@@ -253,11 +253,11 @@ Returns a copy of the underlying view `_[base_](../lazy_split_view.html#base "cp
 
 2) Move constructs the result from the underlying view `_base__`.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/lazy_split_view/base&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 A copy of the underlying view `_[base_](../lazy_split_view.html#base "cpp/ranges/lazy split view")_`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/lazy_split_view/base&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -290,8 +290,8 @@ Output:
     base() = [this,..throw,..true,..try,..]
     substrings: [this] [throw] [true] [try] []
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/lazy_split_view/base&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ base](../split_view/base.html "cpp/ranges/split view/base") |  returns a copy of the underlying (adapted) view   
-(public member function of `std::ranges::split_view<V,Pattern>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/dsc_base&action=edit)  
+(public member function of `std::ranges::split_view<V,Pattern>`)   
 ---|---

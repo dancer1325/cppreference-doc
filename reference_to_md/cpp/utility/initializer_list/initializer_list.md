@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::initializer_list`](../initializer_list.html "cpp/utility/initializer list")
 
@@ -144,7 +144,7 @@ Non-member functions
 [begin(std::initializer_list)](begin2.html "cpp/utility/initializer list/begin2")  
 [end(std::initializer_list)](end2.html "cpp/utility/initializer list/end2")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/initializer_list/navbar_content&action=edit)
+
 
 initializer_list() noexcept; |  | (since C++11)   
 (constexpr since C++14)  
@@ -163,15 +163,15 @@ Constructs an empty initializer list.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/initializer_list/initializer_list&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/initializer_list/initializer_list&action=edit&section=2 "Edit section: Complexity")] Complexity
+### Complexity
 
 Constant 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/initializer_list/initializer_list&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Despite a lack of constructors, it is possible to create non-empty initializer lists. Instances of `std::initializer_list` are implicitly constructed when: 
 
@@ -180,7 +180,7 @@ Despite a lack of constructors, it is possible to create non-empty initializer l
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/initializer_list/initializer_list&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     

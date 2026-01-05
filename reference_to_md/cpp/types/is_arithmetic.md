@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Metaprogramming library](../meta.html "cpp/meta")
 
@@ -167,7 +167,7 @@ Type transformations
 Compile-time integer sequences  
 [integer_sequence](../utility/integer_sequence.html "cpp/utility/integer sequence")(C++14)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/meta/navbar_content&action=edit)
+
 
 Defined in header `[<type_traits>](../header/type_traits.html "cpp/header/type traits")` |  |   
 ---|---|---  
@@ -197,19 +197,19 @@ If the program adds specializations for `std::is_arithmetic` or `std::is_arithme
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/traits/is&action=edit&section=T-1 "Template:cpp/types/traits/is")] Template parameters
+### Template parameters
 
 T  |  \-  |  a type to check   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/traits/is&action=edit&section=T-2 "Template:cpp/types/traits/is")] Helper variable template
+### Helper variable template
 
 template< class T >  
 constexpr bool is_arithmetic_v = is_arithmetic<T>::value; |  |  (since C++17)  
 ---|---|---  
 | |   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/integral_constant/inherit2&action=edit)
+
 
 ##  Inherited from [ std::integral_constant](integral_constant.html "cpp/types/integral constant")
 
@@ -234,13 +234,13 @@ Type  |  Definition
 `value_type` |  bool  
 `type` |  [std::integral_constant](integral_constant.html)<bool, value>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_arithmetic&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 Arithmetic types are the built-in types for which the [arithmetic operators](../language/operator_arithmetic.html "cpp/language/operator arithmetic") (`+`, `-`, `*`, `/`) are defined (possibly in combination with the usual arithmetic conversions). 
 
 Specializations of [std::numeric_limits](numeric_limits.html "cpp/types/numeric limits") are provided for all arithmetic types. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_arithmetic&action=edit&section=2 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     template<class T>
@@ -250,7 +250,7 @@ Specializations of [std::numeric_limits](numeric_limits.html "cpp/types/numeric 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_arithmetic&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -288,10 +288,10 @@ Run this code
      
     int main() {}
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_arithmetic&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ is_integral](is_integral.html "cpp/types/is integral")(C++11) |  checks if a type is an integral type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_integral&action=edit)  
+(class template)   
 ---|---  
 [ is_floating_point](is_floating_point.html "cpp/types/is floating point")(C++11) |  checks if a type is a floating-point type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_floating_point&action=edit)
+(class template) 

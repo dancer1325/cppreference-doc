@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [`std::valarray`](../valarray.html "cpp/numeric/valarray")
 
@@ -155,7 +155,7 @@
   
 [Deduction guides](deduction_guides.html "cpp/numeric/valarray/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/navbar_content&action=edit)
+
 
 valarray<T> shift( int count ) const; |  |   
 ---|---|---  
@@ -174,16 +174,16 @@ Returns a new valarray of the same size with elements whose positions are shifte
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/shift&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 count  |  \-  |  number of positions to shift the elements by   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/shift&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The resulting valarray with shifted elements. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/shift&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 The function can be implemented with the return type different from [std::valarray](../valarray.html "cpp/numeric/valarray"). In this case, the replacement type has the following properties: 
 
@@ -197,7 +197,7 @@ The function can be implemented with the return type different from [std::valarr
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/shift&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -226,8 +226,8 @@ Output:
     1 2 3 4 5 6 7 8 
     3 4 5 6 7 8 0 0
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/shift&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ cshift](cshift.html "cpp/numeric/valarray/cshift") |  circular shift of the elements of the valarray   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_cshift&action=edit)  
+(public member function)   
 ---|---

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 Defined in header `[<memory>](../header/memory.html "cpp/header/memory")` |  |   
 ---|---|---  
@@ -226,7 +226,7 @@ This overload participates in overload resolution only if all following conditio
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/uninitialized_value_construct&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  the pair of iterators defining the [range](../iterator.html#Ranges "cpp/iterator") of elements to initialize   
 ---|---|---  
@@ -235,11 +235,11 @@ Type requirements
 -`NoThrowForwardIt` must meet the requirements of [LegacyForwardIterator](../named_req/ForwardIterator.html "cpp/named req/ForwardIterator").   
 -No increment, assignment, comparison, or indirection through valid instances of `NoThrowForwardIt` may throw exceptions.   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/uninitialized_value_construct&action=edit&section=2 "Edit section: Complexity")] Complexity
+### Complexity
 
 Linear in the distance between first and last. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/uninitialized_value_construct&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 The overload with a template parameter named `ExecutionPolicy` reports errors as follows: 
 
@@ -248,13 +248,13 @@ The overload with a template parameter named `ExecutionPolicy` reports errors as
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/uninitialized_value_construct&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../utility/feature_test.html "cpp/utility/feature test") macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_raw_memory_algorithms`](../experimental/feature_test.html#cpp_lib_raw_memory_algorithms "cpp/feature test") | [`202411L`](../compiler_support/26.html#cpp_lib_raw_memory_algorithms_202411L "cpp/compiler support/26") | (C++26) | constexpr for [specialized memory algorithms](../memory.html#Uninitialized_memory_algorithms "cpp/memory"), ([1](uninitialized_value_construct.html#Version_1))  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/uninitialized_value_construct&action=edit&section=5 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     template<class NoThrowForwardIt>
@@ -279,7 +279,7 @@ The overload with a template parameter named `ExecutionPolicy` reports errors as
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/uninitialized_value_construct&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -333,7 +333,7 @@ Output:
     1 2 3 4
     0 0 0 0
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/uninitialized_value_construct&action=edit&section=7 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -341,14 +341,14 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 3870](https://cplusplus.github.io/LWG/issue3870) | C++20  | this algorithm might create objects on a const storage  | kept disallowed   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/uninitialized_value_construct&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [ uninitialized_value_construct_n](uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17) |  constructs objects by [value-initialization](../language/value_initialization.html "cpp/language/value initialization") in an uninitialized area of memory, defined by a start and a count   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_uninitialized_value_construct_n&action=edit)  
+(function template)   
 ---|---  
 [ uninitialized_default_construct](uninitialized_default_construct.html "cpp/memory/uninitialized default construct")(C++17) |  constructs objects by [default-initialization](../language/default_initialization.html "cpp/language/default initialization") in an uninitialized area of memory, defined by a range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_uninitialized_default_construct&action=edit)  
+(function template)   
 [ ranges::uninitialized_value_construct](ranges/uninitialized_value_construct.html "cpp/memory/ranges/uninitialized value construct")(C++20) |  constructs objects by [value-initialization](../language/value_initialization.html "cpp/language/value initialization") in an uninitialized area of memory, defined by a range  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/ranges/dsc_uninitialized_value_construct&action=edit)
+(algorithm function object)
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,15 +194,15 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header is part of the [numeric](../numeric.html "cpp/numeric") library. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/numbers&action=edit&section=1 "Edit section: Mathematical constants \(since C++20\)")] [Mathematical constants](../numeric/constants.html "cpp/numeric/constants") (since C++20)
+### [Mathematical constants](../numeric/constants.html "cpp/numeric/constants") (since C++20)
 
 The header **`< numbers>`** provides several mathematical constants, such as [std::numbers::pi](../numeric/constants.html "cpp/numeric/constants") or [std::numbers::sqrt2](../numeric/constants.html "cpp/numeric/constants")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/numbers&action=edit&section=2 "Edit section: Synopsis")] Synopsis 
+### Synopsis 
     
     
     namespace std::numbers {

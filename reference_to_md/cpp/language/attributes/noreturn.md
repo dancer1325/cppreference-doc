@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](../history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [Declarations](../declarations.html "cpp/language/declarations")
 
@@ -280,7 +280,7 @@ Other declarations
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/declarations/navbar_content&action=edit)
+
 
 [Attributes](../attributes.html "cpp/language/attributes")
 
@@ -298,7 +298,7 @@ Other declarations
 [optimize_for_synchronized](optimize_for_synchronized.html "cpp/language/attributes/optimize for synchronized")(TM TS)  
 [unlikely](likely.html "cpp/language/attributes/likely")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/attributes/navbar_content&action=edit)
+
 
 Indicates that the function does not return. 
 
@@ -319,12 +319,12 @@ Indicates that the function does not return.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/attributes/noreturn&action=edit&section=1 "Edit section: Syntax")] Syntax  
+### Syntax  
   
 ---  
 `**[[noreturn]]**` |  |   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/attributes/noreturn&action=edit&section=2 "Edit section: Explanation")] Explanation
+### Explanation
 
 Indicates that the function will not return control flow to the calling function after it finishes (e.g. functions that terminate the application, throw exceptions, loop indefinitely, etc.). This attribute applies to the name of the function being declared in function declarations only. 
 
@@ -332,7 +332,7 @@ If a function previously declared with [[noreturn]] is invoked and that invocati
 
 The first declaration of the function must specify this attribute if any declaration specifies it. If a function is declared with [[noreturn]] in one translation unit, and the same function is declared without [[noreturn]] in another translation unit, the program is ill-formed; no diagnostic required. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/attributes/noreturn&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -358,7 +358,7 @@ Run this code
         try { q(42); } catch(...) {}
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/attributes/noreturn&action=edit&section=4 "Edit section: Standard library")] Standard library
+### Standard library
 
 The following standard functions are declared with `noreturn` attribute: 
 
@@ -366,38 +366,38 @@ The following standard functions are declared with `noreturn` attribute:
   
 ---  
 [ _Exit](../../utility/program/_Exit.html "cpp/utility/program/ Exit")(C++11) |  causes normal program termination without cleaning up   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/program/dsc_Exit&action=edit)  
+(function)   
 [ abort](../../utility/program/abort.html "cpp/utility/program/abort") |  causes abnormal program termination (without cleaning up)   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/program/dsc_abort&action=edit)  
+(function)   
 [ exit](../../utility/program/exit.html "cpp/utility/program/exit") |  causes normal program termination with cleaning up   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/program/dsc_exit&action=edit)  
+(function)   
 [ quick_exit](../../utility/program/quick_exit.html "cpp/utility/program/quick exit")(C++11) |  causes quick program termination without completely cleaning up   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/program/dsc_quick_exit&action=edit)  
+(function)   
 [ terminate](../../error/terminate.html "cpp/error/terminate") |  function called when exception handling fails   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_terminate&action=edit)  
+(function)   
 [ unexpected](../../error/unexpected.html "cpp/error/unexpected")(deprecated in C++11)(removed in C++17) |  function called when dynamic exception specification is violated   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_unexpected&action=edit)  
+(function)   
   
 #####  Compiler hints   
   
 [ unreachable](../../utility/unreachable.html "cpp/utility/unreachable")(C++23) |  marks unreachable point of execution   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_unreachable&action=edit)  
+(function)   
   
 #####  Always-throwing functions   
   
 [ rethrow_exception](../../error/rethrow_exception.html "cpp/error/rethrow exception")(C++11) |  throws the exception from an [std::exception_ptr](../../error/exception_ptr.html "cpp/error/exception ptr")   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_rethrow_exception&action=edit)  
+(function)   
 [ rethrow_nested](../../error/nested_exception/rethrow_nested.html "cpp/error/nested exception/rethrow nested") |  throws the stored exception   
 (public member function of `std::nested_exception`)  
 [ throw_with_nested](../../error/throw_with_nested.html "cpp/error/throw with nested")(C++11) |  throws its argument with [std::nested_exception](../../error/nested_exception.html "cpp/error/nested exception") mixed in   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_throw_with_nested&action=edit)  
+(function template)   
   
 #####  Non-local jumps (since C++17)  
   
 [ longjmp](../../utility/program/longjmp.html "cpp/utility/program/longjmp") |  jumps to specified location   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/program/dsc_longjmp&action=edit)  
+(function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/attributes/noreturn&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -407,7 +407,7 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 would result in undefined behavior  | results in runtime-  
 undefined behavior   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/attributes/noreturn&action=edit&section=6 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -459,7 +459,7 @@ undefined behavior
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/attributes/noreturn&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [C documentation](../../../c/language/noreturn.html "c/language/ Noreturn") for _Noreturn  
 ---  

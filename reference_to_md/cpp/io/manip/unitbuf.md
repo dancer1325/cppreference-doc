@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [Input/output manipulators](../manip.html "cpp/io/manip")
 
@@ -154,7 +154,7 @@ Time and money I/O
 Quoted manipulator  
 [quoted](quoted.html "cpp/io/manip/quoted")(C++14)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/navbar_content&action=edit)
+
 
 Defined in header `[<ios>](../../header/ios.html "cpp/header/ios")` |  |   
 ---|---|---  
@@ -181,22 +181,22 @@ This is an I/O manipulator, it may be called with an expression such as out << s
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/unitbuf&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 Flushing is performed in the destructor of the [std::basic_ostream::sentry](../basic_ostream/sentry.html "cpp/io/basic ostream/sentry") object, which calls str.rdbuf()->pubsync() if str.flags() & [std::ios_base::unitbuf](../ios_base/fmtflags.html) is true. 
 
 The standard output objects [std::cerr](../cerr.html "cpp/io/cerr") and [std::wcerr](../cerr.html "cpp/io/cerr") have their `unitbuf` bit set by default. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/unitbuf&action=edit&section=2 "Edit section: Parameters")] Parameters
+### Parameters
 
 str  |  \-  |  reference to I/O stream   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/unitbuf&action=edit&section=3 "Edit section: Return value")] Return value
+### Return value
 
 str (reference to the stream after manipulation). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/unitbuf&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Without `std::unitbuf` or another explicit flush, the output is the same, but does not appear in real time.
 
@@ -234,10 +234,10 @@ Output:
     
     571ms ... 1146ms ... 1722ms ... 2294ms ... 2865ms ...
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/unitbuf&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ flush](flush.html "cpp/io/manip/flush") |  flushes the output stream   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_flush&action=edit)  
+(function template)   
 ---|---  
 [ endl](endl.html "cpp/io/manip/endl") |  outputs '\n' and flushes the output stream   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_endl&action=edit)
+(function template) 

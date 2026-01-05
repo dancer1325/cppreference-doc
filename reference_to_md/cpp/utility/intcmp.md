@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 Defined in header `[<utility>](../header/utility.html "cpp/header/utility")` |  |   
 ---|---|---  
@@ -166,13 +166,13 @@ It is a compile-time error if either `T` or `U` is a non-[integer](../language/t
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/intcmp&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 t  |  \-  |  left-hand argument   
 ---|---|---  
 u  |  \-  |  right-hand argument   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/intcmp&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) true if t is equal to u.
 
@@ -186,7 +186,7 @@ u  |  \-  |  right-hand argument
 
 6) true if t is greater or equal to u.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/intcmp&action=edit&section=3 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     template<class T, class U>
@@ -237,7 +237,7 @@ u  |  \-  |  right-hand argument
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/intcmp&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 These functions cannot be used to compare [enums](../language/enum.html "cpp/language/enum") (including [`std::byte`](../types/byte.html "cpp/types/byte")), char, char8_t, char16_t, char32_t, wchar_t and bool. 
 
@@ -245,7 +245,7 @@ These functions cannot be used to compare [enums](../language/enum.html "cpp/lan
 ---|---|---|---  
 [`__cpp_lib_integer_comparison_functions`](../experimental/feature_test.html#cpp_lib_integer_comparison_functions "cpp/feature test") | [`202002L`](../compiler_support/20.html#cpp_lib_integer_comparison_functions_202002L "cpp/compiler support/20") | (C++20) | [Integer comparison functions](../utility.html#Integer_comparison_functions "cpp/utility")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/intcmp&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 The example below might produce _different signedness comparison_ warning if compiled without an appropriate warning suppression flag, e.g., `-Wno-sign-compare` (gcc/clang with `-Wall -Wextra`, see also [SO: disabling a specific warning](https://stackoverflow.com/questions/3378560)).
 
@@ -279,38 +279,38 @@ Run this code
         static_assert(std::cmp_not_equal(-1, 0xFFFFFFFFU));
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/intcmp&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ equal_to](functional/equal_to.html "cpp/utility/functional/equal to") |  function object implementing x == y   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_equal_to&action=edit)  
+(class template)   
 ---|---  
 [ not_equal_to](functional/not_equal_to.html "cpp/utility/functional/not equal to") |  function object implementing x != y   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_not_equal_to&action=edit)  
+(class template)   
 [ less](functional/less.html "cpp/utility/functional/less") |  function object implementing x < y   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_less&action=edit)  
+(class template)   
 [ greater](functional/greater.html "cpp/utility/functional/greater") |  function object implementing x > y   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_greater&action=edit)  
+(class template)   
 [ less_equal](functional/less_equal.html "cpp/utility/functional/less equal") |  function object implementing x <= y   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_less_equal&action=edit)  
+(class template)   
 [ greater_equal](functional/greater_equal.html "cpp/utility/functional/greater equal") |  function object implementing x >= y   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_greater_equal&action=edit)  
+(class template)   
 [ ranges::equal_to](functional/ranges/equal_to.html "cpp/utility/functional/ranges/equal to")(C++20) |  constrained function object implementing x == y   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/ranges/dsc_equal_to&action=edit)  
+(class)   
 [ ranges::not_equal_to](functional/ranges/not_equal_to.html "cpp/utility/functional/ranges/not equal to")(C++20) |  constrained function object implementing x != y   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/ranges/dsc_not_equal_to&action=edit)  
+(class)   
 [ ranges::less](functional/ranges/less.html "cpp/utility/functional/ranges/less")(C++20) |  constrained function object implementing x < y   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/ranges/dsc_less&action=edit)  
+(class)   
 [ ranges::greater](functional/ranges/greater.html "cpp/utility/functional/ranges/greater")(C++20) |  constrained function object implementing x > y   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/ranges/dsc_greater&action=edit)  
+(class)   
 [ ranges::less_equal](functional/ranges/less_equal.html "cpp/utility/functional/ranges/less equal")(C++20) |  constrained function object implementing x <= y   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/ranges/dsc_less_equal&action=edit)  
+(class)   
 [ ranges::greater_equal](functional/ranges/greater_equal.html "cpp/utility/functional/ranges/greater equal")(C++20) |  constrained function object implementing x >= y   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/ranges/dsc_greater_equal&action=edit)  
+(class)   
 [ compare_three_way](compare/compare_three_way.html "cpp/utility/compare/compare three way")(C++20) |  constrained function object implementing x <=> y   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/compare/dsc_compare_three_way&action=edit)  
+(class)   
 [ in_range](in_range.html "cpp/utility/in range")(C++20) |  checks if an integer value is in the range of a given integer type   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_in_range&action=edit)  
+(function template)   
 [ numeric_limits](../types/numeric_limits.html "cpp/types/numeric limits") |  provides an interface to query properties of all fundamental numeric types   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_numeric_limits&action=edit)
+(class template) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

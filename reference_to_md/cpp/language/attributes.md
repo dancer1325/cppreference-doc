@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [Declarations](declarations.html "cpp/language/declarations")
 
@@ -280,7 +280,7 @@ Other declarations
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/declarations/navbar_content&action=edit)
+
 
 **Attributes**
 
@@ -298,7 +298,7 @@ Other declarations
 [optimize_for_synchronized](attributes/optimize_for_synchronized.html "cpp/language/attributes/optimize for synchronized")(TM TS)  
 [unlikely](attributes/likely.html "cpp/language/attributes/likely")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/attributes/navbar_content&action=edit)
+
 
 Introduces implementation-defined attributes for types, objects, code, etc. 
 
@@ -316,7 +316,7 @@ Introduces implementation-defined attributes for types, objects, code, etc.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/attributes&action=edit&section=1 "Edit section: Syntax")] Syntax  
+### Syntax  
   
 ---  
 `**[[**` attribute-list `**]]**` |  |  (since C++11)  
@@ -349,7 +349,7 @@ If `using namespace:` appears in the beginning of an attribute list, no other at
 | (since C++17)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/attributes&action=edit&section=2 "Edit section: Explanation")] Explanation
+### Explanation
 
 Attributes provide the unified standard syntax for implementation-defined language extensions, such as the GNU and IBM language extensions `__attribute__((...))`, Microsoft extension `__declspec()`, etc. 
 
@@ -374,7 +374,7 @@ Besides the standard attributes listed below, implementations may support arbitr
 An attribute without attribute-namespace and an attribute-namespace whose name is either `std` or `std` followed by one or more digits is reserved for future standardization. That is, every non-standard attribute is in the attribute-namespace provided by the implementation, e.g. `[[gnu::may_alias]]`, `[[clang::trivial_abi]]`, and `[[msvc::noop_dtor]]`.  | (since C++20)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/attributes&action=edit&section=3 "Edit section: Standard attributes")] Standard attributes
+### Standard attributes
 
 The following attributes are defined by the C++ standard. 
 
@@ -383,30 +383,30 @@ Standard attributes cannot be syntactically ignored: they cannot contain syntax 
 Standard attributes cannot be semantically ignored either: the behavior with all instances of a particular standard attribute removed would have been a conforming behavior for the original program with the attribute present. 
 
 `[[[noreturn](attributes/noreturn.html "cpp/language/attributes/noreturn")]]`(C++11) |  indicates that the function does not return  
-(attribute specifier)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/attributes/dsc_noreturn&action=edit)  
+(attribute specifier)  
 ---|---  
 `[[[carries_dependency](attributes/carries_dependency.html "cpp/language/attributes/carries dependency")]]`(C++11)(removed in C++26) |  indicates that dependency chain in release-consume [std::memory_order](../atomic/memory_order.html "cpp/atomic/memory order") propagates in and out of the function  
-(attribute specifier)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/attributes/dsc_carries_dependency&action=edit)  
+(attribute specifier)  
 `[[[deprecated](attributes/deprecated.html "cpp/language/attributes/deprecated")]]``[[[deprecated](attributes/deprecated.html "cpp/language/attributes/deprecated")("_reason_ ")]]`(C++14)(C++14) |  indicates that the use of the name or entity declared with this attribute is allowed, but discouraged for some reason  
-(attribute specifier)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/attributes/dsc_deprecated&action=edit)  
+(attribute specifier)  
 `[[[fallthrough](attributes/fallthrough.html "cpp/language/attributes/fallthrough")]]`(C++17) |  indicates that the fall through from the previous case label is intentional and should not be diagnosed by a compiler that warns on fall-through  
-(attribute specifier)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/attributes/dsc_fallthrough&action=edit)  
+(attribute specifier)  
 `[[[maybe_unused](attributes/maybe_unused.html "cpp/language/attributes/maybe unused")]]`(C++17) |  suppresses compiler warnings on unused entities, if any  
-(attribute specifier)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/attributes/dsc_maybe_unused&action=edit)  
+(attribute specifier)  
 `[[[nodiscard](attributes/nodiscard.html "cpp/language/attributes/nodiscard")]]``[[[nodiscard](attributes/nodiscard.html "cpp/language/attributes/nodiscard")("_reason_ ")]]`(C++17)(C++20) |  encourages the compiler to issue a warning if the return value is discarded  
-(attribute specifier)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/attributes/dsc_nodiscard&action=edit)  
+(attribute specifier)  
 `[[[likely](attributes/likely.html "cpp/language/attributes/likely")]]``[[[unlikely](attributes/likely.html "cpp/language/attributes/likely")]]`(C++20)(C++20) |  indicates that the compiler should optimize for the case where a path of execution through a statement is more or less likely than any other path of execution  
-(attribute specifier)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/attributes/dsc_likely&action=edit)  
+(attribute specifier)  
 `[[[no_unique_address](attributes/no_unique_address.html "cpp/language/attributes/no unique address")]]`(C++20) |  indicates that a non-static data member need not have an address distinct from all other non-static data members of its class  
-(attribute specifier)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/attributes/dsc_no_unique_address&action=edit)  
+(attribute specifier)  
 `[[[assume](attributes/assume.html "cpp/language/attributes/assume")(_expression_)]]`(C++23) |  specifies that the _expression_ will always evaluate to true at a given point  
-(attribute specifier)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/attributes/dsc_assume&action=edit)  
+(attribute specifier)  
 `[[[indeterminate](attributes/indeterminate.html "cpp/language/attributes/indeterminate")]]`(C++26) |  specifies that an object has an indeterminate value if it is not initialized  
-(attribute specifier)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/attributes/dsc_indeterminate&action=edit)  
+(attribute specifier)  
 `[[[optimize_for_synchronized](attributes/optimize_for_synchronized.html "cpp/language/attributes/optimize for synchronized")]]`(TM TS) |  indicates that the function definition should be optimized for invocation from a [synchronized statement](transactional_memory.html "cpp/language/transactional memory")  
-(attribute specifier)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/attributes/dsc_optimize_for_synchronized&action=edit)  
+(attribute specifier)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/attributes&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 The presence of each individual attribute on a given platform can be checked with [`__has_cpp_attribute`](../experimental/feature_test.html#Attributes "cpp/feature test") preprocessor macro. 
 
@@ -415,7 +415,7 @@ Feature-test macro  | Value | Std | Feature
 [`__cpp_attributes`](../experimental/feature_test.html#cpp_attributes "cpp/feature test") | [`200809L`](../compiler_support/11.html#cpp_attributes_200809L "cpp/compiler support/11") | (C++11) | Attributes   
 [`__cpp_namespace_attributes`](../experimental/feature_test.html#cpp_namespace_attributes "cpp/feature test") | [`201411L`](../compiler_support/17.html#cpp_namespace_attributes_201411L "cpp/compiler support/17") | (C++17) | Attributes for [namespaces](namespace.html "cpp/language/namespace")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/attributes&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -434,7 +434,7 @@ Run this code
      
     int main() {}
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/attributes&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -445,13 +445,13 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [CWG 2695](https://cplusplus.github.io/CWG/issues/2695.html) | C++11  | it was unclear whether standard attributes can be semantically ignored  | prohibited   
 [P2156R1](https://wg21.link/P2156R1) | C++11  | every standard attribute was required to appear at most once in an attribute-list | not required   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/attributes&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [`**__has_cpp_attribute**`](../experimental/feature_test.html#Attributes "cpp/feature test") \- checks for the presence of an attribute   
 ---  
 [C documentation](../../c/language/attributes.html "c/language/attributes") for Attributes specifier sequence  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/attributes&action=edit&section=8 "Edit section: External links")] External links
+### External links
 
 1\.  | [Attributes in GCC](https://gcc.gnu.org/onlinedocs/gcc/Attribute-Syntax.html#Attribute-Syntax). These attributes can be used as `[[gnu::...]]`, [See SO](https://stackoverflow.com/questions/54639524/which-gnu-attributes-have-c11-syntax#comment96071307_54639524).   
 ---|---  

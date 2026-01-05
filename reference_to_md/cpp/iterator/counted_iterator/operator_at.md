@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](../empty.html "cpp/iterator/empty")(C++17)  
 [data](../data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 [`std::counted_iterator`](../counted_iterator.html "cpp/iterator/counted iterator")
 
@@ -218,7 +218,7 @@
 [Helper classes](../counted_iterator.html#Helper_classes "cpp/iterator/counted iterator")  
 [iterator_traits<std::counted_iterator>](iterator_traits.html "cpp/iterator/counted iterator/iterator traits")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/counted_iterator/navbar_content&action=edit)
+
 
 constexpr decltype(auto) operator[]( [std::iter_difference_t](../iter_t.html)<I> n ) const  
 requires [std::random_access_iterator](../random_access_iterator.html)<I>; |  |  (since C++20)  
@@ -237,16 +237,16 @@ Accesses the element at specified relative location. The behavior is undefined i
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/counted_iterator/operator_at&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 n  |  \-  |  position relative to current location   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/counted_iterator/operator_at&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 this->base()[n]
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/counted_iterator/operator_at&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -286,8 +286,8 @@ Output:
     F G H
     X
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/counted_iterator/operator_at&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ operator*operator->](operator*.html "cpp/iterator/counted iterator/operator*") |  accesses the pointed-to element   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_operator*&action=edit)  
+(public member function)   
 ---|---

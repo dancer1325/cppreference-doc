@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::subrange`](../subrange.html "cpp/ranges/subrange")
 
@@ -249,7 +249,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
 [tuple_size<std::ranges::subrange>](tuple_size.html "cpp/ranges/subrange/tuple size")  
 [tuple_element<std::ranges::subrange>](tuple_element.html "cpp/ranges/subrange/tuple element")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/subrange/navbar_content&action=edit)
+
 
 Defined in header `[<ranges>](../../header/ranges.html "cpp/header/ranges")` |  |   
 ---|---|---  
@@ -281,16 +281,16 @@ Provides [structured binding](../../language/structured_binding.html "cpp/langua
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/subrange/get&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 r  |  \-  |  a `subrange`  
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/subrange/get&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1,2) If N is ​0​, returns r.begin(). Otherwise (N is 1), returns r.end().
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/subrange/get&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -317,7 +317,7 @@ Output:
     
     -2 -4
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/subrange/get&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -325,17 +325,17 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 3589](https://cplusplus.github.io/LWG/issue3589) | C++20  | overload ([1](get.html#Version_1)) copies `_[begin_](../subrange.html#begin "cpp/ranges/subrange")_` if N is ​0​, but `I` might not model [`copyable`](../../concepts/copyable.html "cpp/concepts/copyable") | added constraints   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/subrange/get&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
-[Structured binding](../../language/structured_binding.html "cpp/language/structured binding") (C++17) |  binds the specified names to sub-objects or tuple elements of the initializer[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_structured_binding&action=edit)  
+[Structured binding](../../language/structured_binding.html "cpp/language/structured binding") (C++17) |  binds the specified names to sub-objects or tuple elements of the initializer  
 ---|---  
 [ get(std::tuple)](../../utility/tuple/get.html "cpp/utility/tuple/get")(C++11) |  tuple accesses specified element   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/dsc_get&action=edit)  
+(function template)   
 [ get(std::pair)](../../utility/pair/get.html "cpp/utility/pair/get")(C++11) |  accesses an element of a `pair`   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/pair/dsc_get&action=edit)  
+(function template)   
 [ get(std::array)](../../container/array/get.html "cpp/container/array/get")(C++11) |  accesses an element of an `array`   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/array/dsc_get&action=edit)  
+(function template)   
 [ get(std::variant)](../../utility/variant/get.html "cpp/utility/variant/get")(C++17) |  reads the value of the variant given the index or the type (if the type is unique), throws on error   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variant/dsc_get&action=edit)  
+(function template)   
 [ get(std::complex)](../../numeric/complex/get.html "cpp/numeric/complex/get")(C++26) |  obtains a reference to real or imaginary part from a [std::complex](../../numeric/complex.html "cpp/numeric/complex")   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_get&action=edit)
+(function template) 

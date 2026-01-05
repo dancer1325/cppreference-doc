@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::list`](../list.html "cpp/container/list")
 
@@ -135,7 +135,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/list/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/list/navbar_content&action=edit)
+
 
 void clear(); |  | (noexcept since C++11)   
 (constexpr since C++26)  
@@ -156,11 +156,11 @@ Invalidates any references, pointers, and iterators referring to contained eleme
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/clear&action=edit&section=T-1 "Template:cpp/container/clear")] Complexity
+### Complexity
 
 Linear in the size of the container, i.e., the number of elements. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/clear&action=edit&section=T-3 "Template:cpp/container/clear")] Example
+### Example
 
 Run this code
     
@@ -202,8 +202,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 2231](https://cplusplus.github.io/LWG/issue2231) | C++11  | complexity guarantee was mistakenly omitted in C++11  | complexity reaffirmed as linear   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/clear&action=edit&section=T-5 "Template:cpp/container/clear")] See also
+### See also
 
 [ erase](erase.html "cpp/container/list/erase") |  erases elements   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_erase&action=edit)  
+(public member function)   
 ---|---

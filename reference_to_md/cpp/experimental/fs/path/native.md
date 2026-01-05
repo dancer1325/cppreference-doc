@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Filesystem library](../../fs.html "cpp/experimental/fs")
 
@@ -124,7 +124,7 @@ File types
 [filesystem::is_socket](../is_socket.html "cpp/experimental/fs/is socket")  
 [filesystem::is_symlink](../is_symlink.html "cpp/experimental/fs/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/navbar_content&action=edit)
+
 
 [`path`](../path.html "cpp/experimental/fs/path")
 
@@ -174,7 +174,7 @@ Non-member functions
 [operator<<operator>>](operator_ltltgtgt.html "cpp/experimental/fs/path/operator ltltgtgt")  
 [u8path](u8path.html "cpp/experimental/fs/path/u8path")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/path/navbar_content&action=edit)
+
 
 const value_type* c_str() const; |  (1)  |  (filesystem TS)  
 ---|---|---  
@@ -202,15 +202,15 @@ Accesses the native path name as a character string.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/path/native&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/path/native&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The native string representation of the pathname, using native syntax, native character type, and native character encoding. This string is suitable for use with OS APIs. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/path/native&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 1,2)
 
@@ -218,7 +218,7 @@ The native string representation of the pathname, using native syntax, native ch
 
 noexcept
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/path/native&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 The conversion function (3) is provided so that standard file-opening APIs that accept [std::basic_string](../../../string/basic_string.html "cpp/string/basic string") file names, such as the [std::ifstream](../../../io/basic_ifstream.html "cpp/io/basic ifstream") constructor, can use pathnames with no changes to code: 
     
@@ -226,7 +226,7 @@ The conversion function (3) is provided so that standard file-opening APIs that 
     fs::path p = "/tmp/text.txt";
     [std::ifstream](../../../io/basic_ifstream.html) f(p);
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/path/native&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -273,10 +273,10 @@ Possible output:
     File name in narrow multibyte encoding: 要らない.txt
     File name in wide encoding: 要らない.txt
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/path/native&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ stringwstringu8stringu16stringu32string](string.html "cpp/experimental/fs/path/string") |  returns the path in native pathname format converted to a string   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/path/dsc_string&action=edit)  
+(public member function)   
 ---|---  
 [ generic_stringgeneric_wstringgeneric_u8stringgeneric_u16stringgeneric_u32string](generic_string.html "cpp/experimental/fs/path/generic string") |  returns the path in generic pathname format converted to a string   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/path/dsc_generic_string&action=edit)
+(public member function) 

@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::flat_map`](../flat_map.html "cpp/container/flat map")
 
@@ -143,7 +143,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/flat map/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/flat_map/navbar_content&action=edit)
+
 
 class value_compare; |  |  (since C++23)  
 ---|---|---  
@@ -165,14 +165,14 @@ class value_compare; |  |  (since C++23)
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/value_compare_flat&action=edit&section=T-1 "Template:cpp/container/value compare flat")] Member objects
+### Member objects
 
 Member name  |  Definition   
 ---|---  
 `_comp_` (private) |  the comparison function object of type [`std::flat_map::key_compare`](../flat_map.html#Member_types "cpp/container/flat map")  
 (exposition-only member object*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/value_compare_flat&action=edit&section=T-2 "Template:cpp/container/value compare flat")] Member functions
+### Member functions
 
 (constructor)(private) |  constructs `value_compare` object   
 (public member function)  
@@ -211,6 +211,6 @@ lhs, rhs  |  \-  |  values to compare
 
 comp(lhs.first, rhs.first)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/impldef_exception&action=edit&section=T-1 "Template:cpp/impldef exception")] Exceptions
+### Exceptions
 
 May throw implementation-defined exceptions. 

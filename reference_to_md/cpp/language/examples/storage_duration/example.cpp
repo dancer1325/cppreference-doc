@@ -4,7 +4,7 @@
 #include <thread>
 
 thread_local unsigned int rage = 1;
-std::mutex] cout_mutex;
+std::mutex cout_mutex;
 
 void increase_rage(const std::string& thread_name)
 {

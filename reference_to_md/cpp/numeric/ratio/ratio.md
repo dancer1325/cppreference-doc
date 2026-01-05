@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Metaprogramming library](../../meta.html "cpp/meta")
 
@@ -167,7 +167,7 @@ Type transformations
 Compile-time integer sequences  
 [integer_sequence](../../utility/integer_sequence.html "cpp/utility/integer sequence")(C++14)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/meta/navbar_content&action=edit)
+
 
 [Compile time rational arithmetic](../../utility/ratio.html "cpp/numeric/ratio")
 
@@ -186,7 +186,7 @@ Comparison
 [ratio_greater](ratio_greater.html "cpp/numeric/ratio/ratio greater")(C++11)  
 [ratio_greater_equal](ratio_greater_equal.html "cpp/numeric/ratio/ratio greater equal")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/ratio/navbar_content&action=edit)
+
 
 Defined in header `[<ratio>](../../header/ratio.html "cpp/header/ratio")` |  |   
 ---|---|---  
@@ -246,13 +246,13 @@ Type  |  Definition
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/ratio/ratio&action=edit&section=1 "Edit section: Nested types")] Nested types
+### Nested types
 
 Type  |  Definition   
 ---|---  
 `type` |  std::ratio<num, den> (the rational type after reduction)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/ratio/ratio&action=edit&section=2 "Edit section: Data members")] Data members
+### Data members
 
 In the definitions given below, 
 
@@ -266,13 +266,13 @@ constexpr [std::intmax_t](../../types/integer.html) num[static] |  sign(Denom) *
 constexpr [std::intmax_t](../../types/integer.html) den[static] |  std::abs(Denom) / gcd(Num, Denom)   
 (public static member constant)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/ratio/ratio&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../../utility/feature_test.html "cpp/utility/feature test") macro  | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_ratio`](../../experimental/feature_test.html#cpp_lib_ratio "cpp/feature test") | [`202306L`](../../compiler_support/26.html#cpp_lib_ratio_202306L "cpp/compiler support/26") | (C++26) | Adding the new 2022 SI prefixes: quecto, quetta, ronto, ronna   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/ratio/ratio&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -286,9 +286,9 @@ Run this code
      
     int main() {}
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/ratio/ratio&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
-[Mathematical constants](../constants.html "cpp/numeric/constants") (C++20) |  provides several mathematical constants, such as [std::numbers::e](../constants.html "cpp/numeric/constants") for e [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/dsc_mathematical_constants&action=edit)  
+[Mathematical constants](../constants.html "cpp/numeric/constants") (C++20) |  provides several mathematical constants, such as [std::numbers::e](../constants.html "cpp/numeric/constants") for e   
 ---|---
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

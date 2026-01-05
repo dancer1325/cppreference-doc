@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Exceptions](exceptions.html "cpp/language/exceptions")
 
@@ -233,7 +233,7 @@ Exception specification
 [dynamic specification](except_spec.html "cpp/language/except spec") (until C++17*)  
 [noexcept operator](noexcept.html "cpp/language/noexcept") (C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/exceptions/navbar_content&action=edit)
+
 
 Specifies whether a function could throw exceptions. 
 
@@ -251,7 +251,7 @@ Specifies whether a function could throw exceptions.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/noexcept_spec&action=edit&section=1 "Edit section: Syntax")] Syntax  
+### Syntax  
   
 ---  
 `**noexcept**` |  (1)  |   
@@ -268,7 +268,7 @@ Specifies whether a function could throw exceptions.
 expression |  \-  |  [contextually converted constant expression of type bool](constant_expression.html#Converted_constant_expression "cpp/language/constant expression")  
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/noexcept_spec&action=edit&section=2 "Edit section: Explanation")] Explanation
+### Explanation
 
 The noexcept-specification is not a part of the function type (just like [dynamic exception specification](except_spec.html "cpp/language/except spec")) and can only appear as a part of a [lambda declarator](lambda.html "cpp/language/lambda") or a top-level [function declarator](function.html "cpp/language/function") when declaring functions, variables, non-static data members of type function, pointer to function, reference to function, or pointer to member function, and also when declaring a parameter or a return type in one of those declarations that in turn happens to be a pointer or reference to function. It cannot appear in a [typedef](typedef.html "cpp/language/typedef") or [type alias](type_alias.html "cpp/language/type alias") declaration. 
     
@@ -462,13 +462,13 @@ An expression `e` is _potentially-throwing_ if:
         // of a non-throwing virtual cannot be potentially-throwing
     };
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/noexcept_spec&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 One of the uses of the constant expression is (along with the [`noexcept` operator](noexcept.html "cpp/language/noexcept")) to define function templates that declare `**noexcept**` for some types but not others. 
 
 Note that a `**noexcept**` specification on a function is not a compile-time check; it is merely a method for a programmer to inform the compiler whether or not a function should throw exceptions. The compiler can use this information to enable certain optimizations on non-throwing functions as well as enable the [`noexcept` operator](noexcept.html "cpp/language/noexcept"), which can check at compile time if a particular expression is declared to throw any exceptions. For example, containers such as [std::vector](../container/vector.html "cpp/container/vector") will move their elements if the elements' move constructor is `**noexcept**`, and copy otherwise (unless the copy constructor is not accessible, but a potentially throwing move constructor is, in which case the strong exception guarantee is waived). 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/noexcept_spec&action=edit&section=4 "Edit section: Deprecates")] Deprecates
+#### Deprecates
 
 `**noexcept**` is an improved version of [throw()](except_spec.html "cpp/language/except spec"), which is deprecated in C++11. Unlike pre-C++17 [throw()](except_spec.html "cpp/language/except spec"), `**noexcept**` will not call [std::unexpected](../error/unexpected.html "cpp/error/unexpected"), may or may not unwind the stack, and will call [std::terminate](../error/terminate.html "cpp/error/terminate"), which potentially allows the compiler to implement `**noexcept**` without the runtime overhead of [throw()](except_spec.html "cpp/language/except spec"). As of C++17, throw() is redefined to be an exact equivalent of noexcept(true). 
 
@@ -476,11 +476,11 @@ Feature-test macro | Value | Std | Feature
 ---|---|---|---  
 [`__cpp_noexcept_function_type`](../experimental/feature_test.html#cpp_noexcept_function_type "cpp/feature test") | [`201510L`](../compiler_support/17.html#cpp_noexcept_function_type_201510L "cpp/compiler support/17") | (C++17) | Make exception specifications be part of the type system   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/noexcept_spec&action=edit&section=5 "Edit section: Keywords")] Keywords
+### Keywords
 
 [`noexcept`](../keyword/noexcept.html "cpp/keyword/noexcept"), [`throw`](../keyword/throw.html "cpp/keyword/throw")(since C++17)(until C++20)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/noexcept_spec&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -501,7 +501,7 @@ Run this code
         baz(); // compiles, but at runtime this calls std::terminate
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/noexcept_spec&action=edit&section=7 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -513,13 +513,13 @@ noexcept specification
 [CWG 2039](https://cplusplus.github.io/CWG/issues/2039.html) | C++11  | only the expression before conversion is required to be constant  | the conversion must also be  
 valid in a constant expression   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/noexcept_spec&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
-[ `noexcept` operator](noexcept.html "cpp/language/noexcept")(C++11) |  determines if an expression throws any exceptions[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_noexcept&action=edit)  
+[ `noexcept` operator](noexcept.html "cpp/language/noexcept")(C++11) |  determines if an expression throws any exceptions  
 ---|---  
-[ Dynamic exception specification](except_spec.html "cpp/language/except spec")(until C++17) |  specifies what exceptions are thrown by a function (deprecated in C++11) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_except_spec&action=edit)  
-[ `throw` expression ](throw.html "cpp/language/throw") |  signals an error and transfers control to error handler[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_throw&action=edit)  
+[ Dynamic exception specification](except_spec.html "cpp/language/except spec")(until C++17) |  specifies what exceptions are thrown by a function (deprecated in C++11)   
+[ `throw` expression ](throw.html "cpp/language/throw") |  signals an error and transfers control to error handler  
 [ move_if_noexcept](../utility/move_if_noexcept.html "cpp/utility/move if noexcept")(C++11) |  converts the argument to an xvalue if the move constructor does not throw   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_move_if_noexcept&action=edit)
+(function template) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

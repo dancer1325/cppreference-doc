@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::scoped_allocator_adaptor`](../scoped_allocator_adaptor.html "cpp/memory/scoped allocator adaptor")
 
@@ -208,7 +208,7 @@ Non-member functions
 [operator==operator!=](operator_cmp.html "cpp/memory/scoped allocator adaptor/operator cmp")(until C++20)  
 [Deduction guides](deduction_guides.html "cpp/memory/scoped allocator adaptor/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/scoped_allocator_adaptor/navbar_content&action=edit)
+
 
 Defined in header `[<scoped_allocator>](../../header/scoped_allocator.html "cpp/header/scoped allocator")` |  |   
 ---|---|---  
@@ -222,20 +222,20 @@ Uses the outer allocator to allocate uninitialized storage.
 
 2) Additionally provides memory locality hint, by calling [std::allocator_traits](../allocator_traits.html)<OuterAlloc>::allocate(outer_allocator(), n, hint).
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/scoped_allocator_adaptor/allocate&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 n  |  \-  |  the number of objects to allocate storage for   
 ---|---|---  
 hint  |  \-  |  pointer to a nearby memory location   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/scoped_allocator_adaptor/allocate&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The pointer to the allocated storage. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/scoped_allocator_adaptor/allocate&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ allocate](../allocator/allocate.html "cpp/memory/allocator/allocate") |  allocates uninitialized storage   
-(public member function of `std::allocator<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/allocator/dsc_allocate&action=edit)  
+(public member function of `std::allocator<T>`)   
 ---|---  
 [ allocate](../allocator_traits/allocate.html "cpp/memory/allocator traits/allocate")[static] |  allocates uninitialized storage using the allocator   
-(public static member function of `std::allocator_traits<Alloc>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/allocator_traits/dsc_allocate&action=edit)
+(public static member function of `std::allocator_traits<Alloc>`) 

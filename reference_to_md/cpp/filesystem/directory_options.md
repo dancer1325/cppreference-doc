@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Filesystem library](../filesystem.html "cpp/filesystem")
 
@@ -100,7 +100,7 @@ filesystem::symlink_status](status.html "cpp/filesystem/status")
 [filesystem::is_socket](is_socket.html "cpp/filesystem/is socket")  
 [filesystem::is_symlink](is_symlink.html "cpp/filesystem/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/navbar_content&action=edit)
+
 
 Defined in header `[<filesystem>](../header/filesystem.html "cpp/header/filesystem")` |  |   
 ---|---|---  
@@ -115,7 +115,7 @@ This type represents available options that control the behavior of the [`direct
 
 `directory_options` satisfies the requirements of [BitmaskType](../named_req/BitmaskType.html "cpp/named req/BitmaskType") (which means the bitwise operators operator&, operator|, operator^, operator~, operator&=, operator|=, and operator^= are defined for this type). none represents the empty bitmask; every other enumerator represents a distinct bitmask element. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/directory_options&action=edit&section=1 "Edit section: Constants")] Constants
+### Constants
 
 Enumerator  |  Meaning   
 ---|---  
@@ -123,16 +123,16 @@ Enumerator  |  Meaning
 `follow_directory_symlink` |  follow rather than skip directory symlinks   
 `skip_permission_denied` |  skip directories that would otherwise result in “permission denied” errors   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/directory_options&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/directory_options&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ (constructor)](directory_iterator/directory_iterator.html "cpp/filesystem/directory iterator/directory iterator") |  constructs a directory iterator   
-(public member function of `std::filesystem::directory_iterator`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/directory_iterator/dsc_constructor&action=edit)  
+(public member function of `std::filesystem::directory_iterator`)   
 ---|---  
 [ (constructor)](recursive_directory_iterator/recursive_directory_iterator.html "cpp/filesystem/recursive directory iterator/recursive directory iterator") |  constructs a recursive directory iterator   
-(public member function of `std::filesystem::recursive_directory_iterator`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/recursive_directory_iterator/dsc_constructor&action=edit)
+(public member function of `std::filesystem::recursive_directory_iterator`) 

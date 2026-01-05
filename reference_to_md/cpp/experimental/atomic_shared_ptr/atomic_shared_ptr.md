@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Extensions for concurrency](../concurrency.html "cpp/experimental/concurrency")
 
@@ -75,7 +75,7 @@ Atomic smart pointers
 [experimental::atomic_shared_ptr](../atomic_shared_ptr.html "cpp/experimental/atomic shared ptr")  
 [experimental::atomic_weak_ptr](../atomic_weak_ptr.html "cpp/experimental/atomic weak ptr")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/concurrency/navbar_content&action=edit)
+
 
 [`std::experimental::atomic_shared_ptr`](../atomic_shared_ptr.html "cpp/experimental/atomic shared ptr")
 
@@ -89,7 +89,7 @@ Atomic smart pointers
 [atomic_shared_ptr::exchange](exchange.html "cpp/experimental/atomic shared ptr/exchange")  
 [atomic_shared_ptr::compare_exchange_weakatomic_shared_ptr::compare_exchange_strong](compare_exchange.html "cpp/experimental/atomic shared ptr/compare exchange")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/concurrency/atomic_shared_ptr/navbar_content&action=edit)
+
 
 constexpr atomic_shared_ptr() noexcept; |  (1)  |   
 ---|---|---  
@@ -105,9 +105,9 @@ Constructs a new `atomic_shared_ptr` object.
 
 3) Atomic variables are not [CopyConstructible](../../named_req/CopyConstructible.html "cpp/named req/CopyConstructible").
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/atomic_shared_ptr/atomic_shared_ptr&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 desired  |  \-  |  value to initialize with   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/atomic_shared_ptr/atomic_shared_ptr&action=edit&section=2 "Edit section: Exceptions")] Exceptions
+### Exceptions

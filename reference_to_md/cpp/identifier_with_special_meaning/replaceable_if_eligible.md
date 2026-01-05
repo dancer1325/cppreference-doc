@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](../language/history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [Keywords](../keywords.html "cpp/keyword")
 
@@ -340,19 +340,19 @@ Identifiers with special meaning
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/keyword/navbar_content&action=edit)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/identifier_with_special_meaning/replaceable_if_eligible&action=edit&section=1 "Edit section: Usage")] Usage
+
+### Usage
 
 replaceable_if_eligible [class property specifier](../language/class_property_specifiers.html "cpp/language/class property specifiers"): marks a class as _replaceable ﻿_ if it is _eligible for replacement ﻿_
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/identifier_with_special_meaning/replaceable_if_eligible&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 Feature-test macro  | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_trivial_relocatability`](../experimental/feature_test.html#cpp_trivial_relocatability "cpp/feature test") | [`202502L`](../compiler_support/26.html#cpp_trivial_relocatability_202502L "cpp/compiler support/26") | (C++26) | [Trivial Relocatability](../language/class_property_specifiers.html#Trivial_Relocatability "cpp/language/class property specifiers")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/identifier_with_special_meaning/replaceable_if_eligible&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
   * [`final`](final.html "cpp/identifier with special meaning/final"), [`trivially_relocatable_if_eligible`](trivially_relocatable_if_eligible.html "cpp/identifier with special meaning/trivially relocatable if eligible")
 

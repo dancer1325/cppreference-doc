@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -71,7 +71,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::array`](../array.html "cpp/container/array")
 
@@ -127,7 +127,7 @@ Tables
 [tuple_element<std::array>](tuple_element.html "cpp/container/array/tuple element")  
 [Deduction guides](deduction_guides.html "cpp/container/array/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/array/navbar_content&action=edit)
+
 
 void fill( const T& value ); |  |  (since C++11)   
 (constexpr since C++20)  
@@ -147,20 +147,20 @@ Assigns the value to all elements in the container.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/array/fill&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 value  |  \-  |  the value to assign to the elements   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/array/fill&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/array/fill&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Linear in the size of the container. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/array/fill&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -191,12 +191,12 @@ Possible output:
     ▄▀▄▀▄▀▄▀
     ▄▀▄▀▄▀▄▀
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/array/fill&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ fill](../../algorithm/fill.html "cpp/algorithm/fill") |  copy-assigns the given value to every element in a range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_fill&action=edit)  
+(function template)   
 ---|---  
 [ fill_n](../../algorithm/fill_n.html "cpp/algorithm/fill n") |  copy-assigns the given value to N elements in a range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_fill_n&action=edit)  
+(function template)   
 [ ranges::fill](../../algorithm/ranges/fill.html "cpp/algorithm/ranges/fill")(C++20) |  assigns a range of elements a certain value  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_fill&action=edit)
+(algorithm function object)

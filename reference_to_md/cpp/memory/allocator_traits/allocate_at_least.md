@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::allocator_traits`](../allocator_traits.html "cpp/memory/allocator traits")
 
@@ -199,7 +199,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
 [allocator_traits::max_size](max_size.html "cpp/memory/allocator traits/max size")  
 [allocator_traits::select_on_container_copy_construction](select_on_container_copy_construction.html "cpp/memory/allocator traits/select on container copy construction")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/allocator_traits/navbar_content&action=edit)
+
 
 static constexpr [std::allocation_result](../allocation_result.html)<pointer, size_type>  
 allocate_at_least( Alloc& a, size_type n ); |  |  (since C++23)  
@@ -222,23 +222,23 @@ allocate_at_least( Alloc& a, size_type n ); |  |  (since C++23)
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/allocator_traits/allocate_at_least&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 a  |  \-  |  an allocator used for allocating storage   
 ---|---|---  
 n  |  \-  |  the lower bound of number of objects to allocate storage for   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/allocator_traits/allocate_at_least&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 a.allocate_at_least(n) if it is well-formed. 
 
 Otherwise, [std::allocation_result](../allocation_result.html)<pointer, size_type>{a.allocate(n), n}. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/allocator_traits/allocate_at_least&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Throws what and when the selected allocation function throws. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/allocator_traits/allocate_at_least&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 The `allocate_at_least` member function of [Allocator](../../named_req/Allocator.html "cpp/named req/Allocator") types are mainly provided for contiguous containers, e.g. [std::vector](../../container/vector.html "cpp/container/vector") and [std::basic_string](../../string/basic_string.html "cpp/string/basic string"), in order to reduce reallocation by making their capacity match the actually allocated size when possible. Because `allocate_at_least` provides a fallback mechanism, it can be directly used where appropriate. 
 
@@ -250,16 +250,16 @@ The argument m used in deallocation must be not less than n and not greater than
 ---|---|---|---  
 [`__cpp_lib_allocate_at_least`](../../experimental/feature_test.html#cpp_lib_allocate_at_least "cpp/feature test") | [`202302L`](../../compiler_support/23.html#cpp_lib_allocate_at_least_202302L "cpp/compiler support/23") | (C++23) | [`allocate_at_least`](allocate_at_least.html#top) etc.   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/allocator_traits/allocate_at_least&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/allocator_traits/allocate_at_least&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ allocate_at_least](../allocator/allocate_at_least.html "cpp/memory/allocator/allocate at least")(C++23) |  allocates uninitialized storage at least as large as requested size   
-(public member function of `std::allocator<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/allocator/dsc_allocate_at_least&action=edit)  
+(public member function of `std::allocator<T>`)   
 ---|---
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

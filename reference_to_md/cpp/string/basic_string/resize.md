@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Strings library](../../string.html "cpp/string")
 
@@ -40,7 +40,7 @@ Classes
 [basic_string_view](../basic_string_view.html "cpp/string/basic string view")(C++17)  
 [char_traits](../char_traits.html "cpp/string/char traits")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/navbar_content&action=edit)
+
 
 [`std::basic_string`](../basic_string.html "cpp/string/basic string")
 
@@ -133,7 +133,7 @@ basic_string_view](operator_basic_string_view.html "cpp/string/basic string/oper
 [hash<std::basic_string>](hash.html "cpp/string/basic string/hash")(C++11)  
 [Deduction guides](deduction_guides.html "cpp/string/basic string/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/navbar_content&action=edit)
+
 
 void resize( size_type count ); |  (1) | (constexpr since C++20)  
 ---|---|---  
@@ -161,19 +161,19 @@ If the current size is greater than count, the string is reduced to its first co
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/resize&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 count  |  \-  |  new size of the string   
 ---|---|---  
 ch  |  \-  |  character to initialize the new characters with   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/resize&action=edit&section=2 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 [std::length_error](../../error/length_error.html "cpp/error/length error") if count > max_size() is true. Any exceptions thrown by corresponding `Allocator`. 
 
 If an exception is thrown for any reason, this function has no effect ([strong exception safety guarantee](../../language/exceptions.html#Exception_safety "cpp/language/exceptions")). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/resize&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -262,7 +262,7 @@ Possible output:
     2. Exception: std::bad_alloc
     3. Length error: basic_string::_M_replace_aux
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/resize&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -272,12 +272,12 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [LWG 2250](https://cplusplus.github.io/LWG/issue2250) | C++98  | the behavior was undefined if  
 count > max_size() is true | always throws an exception in this case   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/resize&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ sizelength](size.html "cpp/string/basic string/size") |  returns the number of characters   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_size&action=edit)  
+(public member function)   
 ---|---  
 [ reserve](reserve.html "cpp/string/basic string/reserve") |  reserves storage   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_reserve&action=edit)  
+(public member function)   
 [ shrink_to_fit](shrink_to_fit.html "cpp/string/basic string/shrink to fit")(DR*) |  reduces memory usage by freeing unused memory   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_shrink_to_fit&action=edit)
+(public member function) 

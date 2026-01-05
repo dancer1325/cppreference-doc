@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Localization library](../locale.html "cpp/locale")
 
@@ -152,7 +152,7 @@ base classes](../locale.html#Facet_category_base_classes "cpp/locale")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/navbar_content&action=edit)
+
 
 Defined in header `[<locale>](../header/locale.html "cpp/header/locale")` |  |   
 ---|---|---  
@@ -173,17 +173,17 @@ Checks if the given character is classified as a control character by the given 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/iscntrl&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 ch  |  \-  |  character   
 ---|---|---  
 loc  |  \-  |  locale   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/iscntrl&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Returns true if the character is classified as a control character, false otherwise. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/iscntrl&action=edit&section=3 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     template<class CharT>
@@ -194,7 +194,7 @@ Returns true if the character is classified as a control character, false otherw
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/iscntrl&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Demonstrates the use of `iscntrl()` with different locales (OS-specific).
 
@@ -223,10 +223,10 @@ Possible output:
     iscntrl(CCH, C locale) returned false
     iscntrl(CCH, Unicode locale) returned true
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/iscntrl&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ iscntrl](../string/byte/iscntrl.html "cpp/string/byte/iscntrl") |  checks if a character is a control character   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_iscntrl&action=edit)  
+(function)   
 ---|---  
 [ iswcntrl](../string/wide/iswcntrl.html "cpp/string/wide/iswcntrl") |  checks if a wide character is a control character   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_iswcntrl&action=edit)
+(function) 

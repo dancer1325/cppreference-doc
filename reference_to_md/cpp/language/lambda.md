@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Expressions](expressions.html "cpp/language/expressions")
 
@@ -289,7 +289,7 @@ Conversions
 [`dynamic_cast`](dynamic_cast.html "cpp/language/dynamic cast")  
 [`reinterpret_cast`](reinterpret_cast.html "cpp/language/reinterpret cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/expressions/navbar_content&action=edit)
+
 
 [ Functions](functions.html "cpp/language/functions")
 
@@ -314,7 +314,7 @@ Overloading
 [Operator overloading](operators.html "cpp/language/operators")  
 [Address of an overload set](overloaded_address.html "cpp/language/overloaded address")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/functions/navbar_content&action=edit)
+
 
 Constructs a [closure](https://en.wikipedia.org/wiki/Closure_\(computer_science\) "enwiki:Closure \(computer science\)") (an unnamed function object capable of capturing variables in scope). 
 
@@ -342,9 +342,9 @@ Constructs a [closure](https://en.wikipedia.org/wiki/Closure_\(computer_science\
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/lambda&action=edit&section=1 "Edit section: Syntax")] Syntax
+### Syntax
 
-##### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/lambda&action=edit&section=2 "Edit section: Lambda expressions without an explicit template parameter list \(possibly non-generic\)")] Lambda expressions without an explicit template parameter list (possibly non-generic)  
+##### Lambda expressions without an explicit template parameter list (possibly non-generic)  
   
 ---  
 `**[**` captures ﻿`**]**` front-attr ﻿(optional) `**(**` params ﻿`**)**` specs ﻿(optional) except ﻿(optional)  
@@ -356,7 +356,7 @@ back-attr ﻿(optional) trailing ﻿(optional) contract-specs ﻿(optional) `**{
 `**[**` captures ﻿`**]**` front-attr ﻿(optional) specs except ﻿(optional)  
 back-attr ﻿(optional) trailing ﻿(optional) contract-specs ﻿(optional) `**{**` body `**}**` |  (4)  |  (since C++23)  
   
-##### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/lambda&action=edit&section=3 "Edit section: Lambda expressions with an explicit template parameter list \(always generic\) \(since C++20\)")] Lambda expressions with an explicit template parameter list (always generic) (since C++20)  
+##### Lambda expressions with an explicit template parameter list (always generic) (since C++20)  
   
 ---  
 `**[**` captures ﻿`**] <**`tparams ﻿`**>**` t-requires ﻿(optional)  
@@ -378,7 +378,7 @@ back-attr ﻿(optional) trailing ﻿(optional) contract-specs ﻿(optional) `**{
 
 3,4) back-attr can only be applied if any of specs and except is present.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/lambda&action=edit&section=4 "Edit section: Explanation")] Explanation
+### Explanation
 
 captures |  \-  |  Specifies the entities to be [captured](lambda.html#Lambda_capture).   
 ---|---|---  
@@ -430,7 +430,7 @@ If [`auto`](auto.html "cpp/language/auto") is used as a type of a parameter or a
   
 A variable __func__ is implicitly defined at the beginning of body, with semantics as described [here](function.html#func "cpp/language/function"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/lambda&action=edit&section=5 "Edit section: Closure type")] Closure type
+### Closure type
 
 The lambda expression is a prvalue expression of unique unnamed non-[union](union.html "cpp/language/union") non-[aggregate](aggregate_initialization.html "cpp/language/aggregate initialization") class type, known as _closure type_ , which is declared (for the purposes of [ADL](adl.html "cpp/language/adl")) in the smallest block scope, class scope, or namespace scope that contains the lambda expression. 
 
@@ -679,7 +679,7 @@ For the entities that are captured by reference (with the capture-default `**[ &
 Lambda expressions are not allowed in [unevaluated expressions](expressions.html#Unevaluated_expressions "cpp/language/expressions"), [template arguments](template_parameters.html "cpp/language/template parameters"), [alias declarations](type_alias.html "cpp/language/type alias"), [typedef declarations](typedef.html "cpp/language/typedef"), and anywhere in a function (or function template) declaration except the function body and the function's [default arguments](default_arguments.html "cpp/language/default arguments").  | (until C++20)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/lambda&action=edit&section=7 "Edit section: Lambda capture")] Lambda capture
+### Lambda capture
 
 The captures defines the outside variables that are accessible from within the lambda function body. Its syntax is defined as follows:   
   
@@ -1132,7 +1132,7 @@ If a lambda captures anything, the type of the explicit object parameter (if any
 | (since C++23)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/lambda&action=edit&section=8 "Edit section: Notes")] Notes
+### Notes
 
 Feature-test macro  | Value | Std | Feature   
 ---|---|---|---  
@@ -1160,7 +1160,7 @@ If captures has a capture-default and does not explicitly capture the enclosing 
 
   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/lambda&action=edit&section=9 "Edit section: Example")] Example
+### Example
 
 This example shows how to pass a lambda to a generic algorithm and how objects resulting from a lambda expression can be stored in [std::function](../utility/functional/function.html "cpp/utility/functional/function") objects.
 
@@ -1238,7 +1238,7 @@ Possible output:
     Alternative approach to lambda recursion:
     Fibonacci numbers: 0, 1, 1, 2, 3, 5, 8, 13
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/lambda&action=edit&section=10 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -1298,16 +1298,16 @@ a conversion funtion
 a derived class when the inheritance was not public or ambiguous  | made ill-formed   
 [P0588R1](https://wg21.link/P0588R1) | C++11  | the rule for implicit lambda capture detected odr-use  | the detection is simplified   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/lambda&action=edit&section=11 "Edit section: See also")] See also
+### See also
 
-[ `auto` specifier ](auto.html "cpp/language/auto")(C++11) |  specifies a type deduced from an expression [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_auto&action=edit)  
+[ `auto` specifier ](auto.html "cpp/language/auto")(C++11) |  specifies a type deduced from an expression   
 ---|---  
 [ function](../utility/functional/function.html "cpp/utility/functional/function")(C++11) |  copyable wrapper of any copy constructible callable object   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_function&action=edit)  
+(class template)   
 [ move_only_function](../utility/functional/move_only_function.html "cpp/utility/functional/move only function")(C++23) |  move-only wrapper of any callable object that supports qualifiers in a given call signature   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_move_only_function&action=edit)  
+(class template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/lambda&action=edit&section=12 "Edit section: External links")] External links
+### External links
 
 [Nested function](https://en.wikipedia.org/wiki/Nested_function "enwiki:Nested function") \- a function which is defined within another (_enclosing_) function.   
 ---

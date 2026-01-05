@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Expressions](expressions.html "cpp/language/expressions")
 
@@ -289,7 +289,7 @@ Conversions
 [`dynamic_cast`](dynamic_cast.html "cpp/language/dynamic cast")  
 [`reinterpret_cast`](reinterpret_cast.html "cpp/language/reinterpret cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/expressions/navbar_content&action=edit)
+
 
 ## Contents
 
@@ -308,7 +308,7 @@ Conversions
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/string_literal&action=edit&section=1 "Edit section: Syntax")] Syntax  
+### Syntax  
   
 ---  
 `**"**` s-char-seq ﻿(optional)`**"**` |  (1)  |   
@@ -322,7 +322,7 @@ Conversions
 `**U"**` s-char-seq ﻿(optional)`**"**` |  (9)  |  (since C++11)  
 `**UR"**` d-char-seq ﻿(optional)`**(**` r-char-seq ﻿(optional)`**)**` d-char-seq ﻿(optional)`**"**` |  (10)  |  (since C++11)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/string_literal&action=edit&section=2 "Edit section: Explanation")] Explanation
+### Explanation
 
 s-char-seq |  \-  |  A sequence of one or more s-char ﻿s   
 ---|---|---  
@@ -397,7 +397,7 @@ Raw string literals are string literals with a prefix containing `**R**` (syntax
 | (since C++11)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/string_literal&action=edit&section=4 "Edit section: Initialization")] Initialization
+### Initialization
 
 String literal objects are initialized with the sequence of code unit values corresponding to the string literal’s sequence of s-char ﻿s and r-char ﻿s(since C++11), plus a terminating null character (U+0000), in order as follows: 
 
@@ -420,7 +420,7 @@ If the associated character encoding is stateful, all such sequences have no eff
 
 If the associated character encoding is stateful, it is implementation-defined what effect these sequences have on encoding state.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/string_literal&action=edit&section=5 "Edit section: Concatenation")] Concatenation
+### Concatenation
 
 Adjacent string literals are concatenated at [translation phase 6](translation_phases.html#Phase_6 "cpp/language/translation phases") (after preprocessing): 
 
@@ -458,7 +458,7 @@ Adjacent string literals are concatenated at [translation phase 6](translation_p
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/string_literal&action=edit&section=6 "Edit section: Unevaluated strings")] Unevaluated strings
+### Unevaluated strings
 
 The following contexts expect a string literal, but do not evaluate it: 
 
@@ -491,7 +491,7 @@ It is unspecified whether non-ordinary string literals are allowed in these cont
 ---|---  
 Only ordinary string literals are allowed in these contexts. Each [universal character name](escape.html "cpp/language/escape") and each [simple escape sequence](escape.html "cpp/language/escape") in an unevaluated string is replaced by the member of the [translation character set](charset.html "cpp/language/charset") it denotes. An unevaluated string that contains a numeric escape sequence or a conditional escape sequence is ill-formed.  | (since C++26)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/string_literal&action=edit&section=7 "Edit section: Notes")] Notes
+### Notes
 
 String literals can be used to [initialize character arrays](aggregate_initialization.html "cpp/language/aggregate initialization"). If an array is initialized like char str[] = "foo";, str will contain a copy of the string "foo". 
 
@@ -517,7 +517,7 @@ If a valid hexadecimal digit follows a hexadecimal escape sequence in a string l
 [`__cpp_raw_strings`](../experimental/feature_test.html#cpp_raw_strings "cpp/feature test") | [`200710L`](../compiler_support/11.html#cpp_raw_strings_200710L "cpp/compiler support/11") | (C++11) | Raw string literals   
 [`__cpp_unicode_literals`](../experimental/feature_test.html#cpp_unicode_literals "cpp/feature test") | [`200710L`](../compiler_support/11.html#cpp_unicode_literals_200710L "cpp/compiler support/11") | (C++11) | Unicode string literals   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/string_literal&action=edit&section=8 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -576,7 +576,7 @@ Output:
      
     ABCDEF ABCDEF STUV
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/string_literal&action=edit&section=9 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -616,7 +616,7 @@ to the underlying type
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/string_literal&action=edit&section=10 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -688,9 +688,9 @@ to the underlying type
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/string_literal&action=edit&section=11 "Edit section: See also")] See also
+### See also
 
-[ user-defined literals](user_literal.html "cpp/language/user literal")(C++11) |  literals with user-defined suffix[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_user_literal&action=edit)  
+[ user-defined literals](user_literal.html "cpp/language/user literal")(C++11) |  literals with user-defined suffix  
 ---|---  
 [C documentation](../../c/language/string_literal.html "c/language/string literal") for String literals
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.

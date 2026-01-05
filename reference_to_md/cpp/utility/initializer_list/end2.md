@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::initializer_list`](../initializer_list.html "cpp/utility/initializer list")
 
@@ -144,7 +144,7 @@ Non-member functions
 [begin(std::initializer_list)](begin2.html "cpp/utility/initializer list/begin2")  
 **end(std::initializer_list)**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/initializer_list/navbar_content&action=edit)
+
 
 Defined in header `[<initializer_list>](../../header/initializer_list.html "cpp/header/initializer list")` |  |   
 ---|---|---  
@@ -165,16 +165,16 @@ The overload of [std::end](../../iterator/end.html "cpp/iterator/end") for `init
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/initializer_list/end2&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 il  |  \-  |  an `initializer_list`  
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/initializer_list/end2&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 il.end()
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/initializer_list/end2&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -190,8 +190,8 @@ Run this code
         [assert](../../error/assert.html)([std::accumulate](../../algorithm/accumulate.html)([std::begin](../../iterator/begin.html)(e), [std::end](../../iterator/end.html)(e), 13) == 42);
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/initializer_list/end2&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ end](end.html "cpp/utility/initializer list/end") |  returns a pointer to one past the last element   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/initializer_list/dsc_end&action=edit)  
+(public member function)   
 ---|---

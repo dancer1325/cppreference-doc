@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Filesystem library](../filesystem.html "cpp/filesystem")
 
@@ -100,7 +100,7 @@ filesystem::symlink_status](status.html "cpp/filesystem/status")
 [filesystem::is_socket](is_socket.html "cpp/filesystem/is socket")  
 [filesystem::is_symlink](is_symlink.html "cpp/filesystem/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/navbar_content&action=edit)
+
 
 Defined in header `[<filesystem>](../header/filesystem.html "cpp/header/filesystem")` |  |   
 ---|---|---  
@@ -129,19 +129,19 @@ Returns or changes the current path.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/current_path&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 p  |  \-  |  path to change the current working directory to   
 ---|---|---  
 ec  |  \-  |  out-parameter for error reporting in the non-throwing overloads   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/current_path&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1,2) Returns the current working directory.
 
 3,4) (none)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/current_path&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Any overload not marked `noexcept` may throw [std::bad_alloc](../memory/new/bad_alloc.html "cpp/memory/new/bad alloc") if memory allocation fails.  
 
@@ -154,13 +154,13 @@ Any overload not marked `noexcept` may throw [std::bad_alloc](../memory/new/bad_
 
 4) Sets a [std::error_code](../error/error_code.html)& parameter to the OS API error code if an OS API call fails, and executes ec.[`clear`](../error/error_code/clear.html "cpp/error/error code/clear")() if no errors occur.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/current_path&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 The current working directory is the directory, associated with the process, that is used as the starting location in pathname resolution for relative paths. 
 
 The current path as returned by many operating systems is a dangerous global variable. It may be changed unexpectedly by third-party or system library functions, or by another thread. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/current_path&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -182,8 +182,8 @@ Possible output:
     Current path is "D:/local/ConsoleApplication1"
     Current path is "E:/Temp"
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/current_path&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ temp_directory_path](temp_directory_path.html "cpp/filesystem/temp directory path")(C++17) |  returns a directory suitable for temporary files   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_temp_directory_path&action=edit)  
+(function)   
 ---|---

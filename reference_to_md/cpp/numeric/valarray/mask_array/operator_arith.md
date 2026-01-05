@@ -32,7 +32,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../../numeric.html "cpp/numeric")
 
@@ -89,7 +89,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [`std::valarray`](../../valarray.html "cpp/numeric/valarray")
 
@@ -157,7 +157,7 @@
   
 [Deduction guides](../deduction_guides.html "cpp/numeric/valarray/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/navbar_content&action=edit)
+
 
 [`std::mask_array`](../mask_array.html "cpp/numeric/valarray/mask array")
 
@@ -168,7 +168,7 @@ Member functions
 [mask_array::operator=](operator=.html "cpp/numeric/valarray/mask array/operator=")  
 **mask_array::operator+= mask_array::operator-=mask_array::operator*=mask_array::operator/=mask_array::operator%=mask_array::operator&=mask_array::operator|=mask_array::operator^=mask_array::operator<<=mask_array::operator>>=**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/mask_array/navbar_content&action=edit)
+
 
 void operator+=( const [std::valarray](../../valarray.html)<T>& other ) const; |  |   
 ---|---|---  
@@ -195,20 +195,20 @@ Applies the corresponding operation to the referred elements and the elements of
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/array/operator_arith&action=edit&section=T-1 "Template:cpp/numeric/valarray/array/operator arith")] Parameters
+### Parameters
 
 other  |  \-  |  argument array to retrieve the values from   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/array/operator_arith&action=edit&section=T-2 "Template:cpp/numeric/valarray/array/operator arith")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/impldef_exception&action=edit&section=T-1 "Template:cpp/impldef exception")] Exceptions
+### Exceptions
 
 May throw implementation-defined exceptions. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/array/operator_arith&action=edit&section=T-3 "Template:cpp/numeric/valarray/array/operator arith")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::flat_map`](../flat_map.html "cpp/container/flat map")
 
@@ -143,7 +143,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/flat map/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/flat_map/navbar_content&action=edit)
+
 
 size_type size() const noexcept; |  |  (since C++23)  
 ---|---|---  
@@ -162,21 +162,21 @@ Returns the number of elements in the container adaptor. Equivalent to: return` 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/size_ad&action=edit&section=T-1 "Template:cpp/container/size ad")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/size_ad&action=edit&section=T-2 "Template:cpp/container/size ad")] Return value
+### Return value
 
 The number of elements in the container adaptor. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/size_ad&action=edit&section=T-3 "Template:cpp/container/size ad")] Complexity
+### Complexity
 
 Constant. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/size_ad&action=edit&section=T-4 "Template:cpp/container/size ad")] Example
+### Example
 
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/map/example_size&action=edit)
+
 
 Run this code
     
@@ -190,12 +190,12 @@ Run this code
         [assert](../../error/assert.html)(nums.size() == 2); 
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/size_ad&action=edit&section=T-5 "Template:cpp/container/size ad")] See also
+### See also
 
 [ empty](empty.html "cpp/container/flat map/empty") |  checks whether the container adaptor is empty   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_empty&action=edit)  
+(public member function)   
 ---|---  
 [ sizessize](../../iterator/size.html "cpp/iterator/size")(C++17)(C++20) |  returns the size of a container or array   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_size&action=edit)  
+(function template)   
 [ max_size](max_size.html "cpp/container/flat map/max size") |  returns the maximum possible number of elements   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_max_size&action=edit)
+(public member function) 

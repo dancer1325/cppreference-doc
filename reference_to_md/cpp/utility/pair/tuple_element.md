@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::pair`](../pair.html "cpp/utility/pair")
 
@@ -151,7 +151,7 @@ Common vocabulary types
 [piecewise_construct_t](../piecewise_construct.html "cpp/utility/piecewise construct")(C++11)  
 [Deduction guides](deduction_guides.html "cpp/utility/pair/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/pair/navbar_content&action=edit)
+
 
 Defined in header `[<utility>](../../header/utility.html "cpp/header/utility")` |  |   
 ---|---|---  
@@ -172,14 +172,14 @@ The partial specializations of [std::tuple_element](../tuple_element.html) for p
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/pair/tuple_element&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Member type  |  Definition   
 ---|---  
 `type` |  `T1` if `I == 0`  
 `T2` if `I == 1`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/pair/tuple_element&action=edit&section=2 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     template<[std::size_t](../../types/size_t.html) I, typename T>
@@ -205,7 +205,7 @@ Member type  |  Definition
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/pair/tuple_element&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -251,7 +251,7 @@ Output:
     
     1 = one
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/pair/tuple_element&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -259,15 +259,15 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 2974](https://cplusplus.github.io/LWG/issue2974) | C++11  | out-of-bounds index referred the undefined primary template  | made ill-formed (hard error)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/pair/tuple_element&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
-[Structured binding](../../language/structured_binding.html "cpp/language/structured binding") (C++17) |  binds the specified names to sub-objects or tuple elements of the initializer[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_structured_binding&action=edit)  
+[Structured binding](../../language/structured_binding.html "cpp/language/structured binding") (C++17) |  binds the specified names to sub-objects or tuple elements of the initializer  
 ---|---  
 [ std::tuple_element<std::tuple>](../tuple/tuple_element.html "cpp/utility/tuple/tuple element")(C++11) |  obtains the type of the specified element   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/dsc_tuple_element&action=edit)  
+(class template specialization)   
 [ std::tuple_element<std::array>](../../container/array/tuple_element.html "cpp/container/array/tuple element")(C++11) |  obtains the type of the elements of `array`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/array/dsc_tuple_element&action=edit)  
+(class template specialization)   
 [ std::tuple_element<std::ranges::subrange>](../../ranges/subrange/tuple_element.html "cpp/ranges/subrange/tuple element")(C++20) |  obtains the type of the iterator or the sentinel of a [std::ranges::subrange](../../ranges/subrange.html "cpp/ranges/subrange")   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/subrange/dsc_tuple_element&action=edit)  
+(class template specialization)   
 [ std::tuple_size<std::pair>](tuple_size.html "cpp/utility/pair/tuple size")(C++11) |  obtains the size of a `pair`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/pair/dsc_tuple_size&action=edit)
+(class template specialization) 

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](ranges/copy.html "cpp/algorithm/ra
 [uninitialized_default_construct_n](../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -355,7 +355,7 @@ If the output range overlaps with `[`first1`, `last1`)` or `[`first2`, `last2`)`
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/merge&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first1, last1  |  \-  |  the pair of iterators defining the first [range](../iterator.html#Ranges "cpp/iterator") of elements to merge   
 ---|---|---  
@@ -371,11 +371,11 @@ Type requirements
 -`OutputIt` must meet the requirements of [LegacyOutputIterator](../named_req/OutputIterator.html "cpp/named req/OutputIterator").   
 -`Compare` must meet the requirements of [Compare](../named_req/Compare.html "cpp/named req/Compare").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/merge&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 An output iterator to element past the last element copied. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/merge&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Given \\(\scriptsize N_1\\)N1 as [std::distance](../iterator/distance.html)(first1, last1) and \\(\scriptsize N_2\\)N2 as [std::distance](../iterator/distance.html)(first2, last2): 
 
@@ -387,7 +387,7 @@ Given \\(\scriptsize N_1\\)N1 as [std::distance](../iterator/distance.html)(firs
 
 4) \\(\scriptsize O(N_1+N_2)\\)O(N1+N2) applications of the comparison function comp.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/merge&action=edit&section=4 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 The overloads with a template parameter named `ExecutionPolicy` report errors as follows: 
 
@@ -396,7 +396,7 @@ The overloads with a template parameter named `ExecutionPolicy` report errors as
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/merge&action=edit&section=5 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
 
 See also the implementations in [libstdc++](https://github.com/gcc-mirror/gcc/blob/d9375e490072d1aae73a93949aa158fcd2a27018/libstdc%2B%2B-v3/include/bits/stl_algo.h#L4856) and [libc++](https://github.com/llvm-mirror/libcxx/blob/a12cb9d211019d99b5875b6d8034617cbc24c2cc/include/algorithm#L4348). 
 
@@ -456,11 +456,11 @@ See also the implementations in [libstdc++](https://github.com/gcc-mirror/gcc/bl
         return [std::copy](copy.html)(first2, last2, d_first);
     }  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/merge&action=edit&section=6 "Edit section: Notes")] Notes
+### Notes
 
 This algorithm performs a similar task as [std::set_union](set_union.html) does. Both consume two sorted input ranges and produce a sorted output with elements from both inputs. The difference between these two algorithms is with handling values from both input ranges which compare equivalent (see notes on [LessThanComparable](../named_req/LessThanComparable.html "cpp/named req/LessThanComparable")). If any equivalent values appeared n times in the first range and m times in the second, `std::merge` would output all n + m occurrences whereas `std::set_union` would output [std::max](max.html)(n, m) ones only. So `std::merge` outputs exactly [std::distance](../iterator/distance.html)(first1, last1) + [std::distance](../iterator/distance.html)(first2, last2) values and `std::set_union` may produce fewer. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/merge&action=edit&section=7 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -518,7 +518,7 @@ Possible output:
     After merging:
     dst: 0 0 0 1 2 2 2 2 3 4 5 5 5 6 6 6 7 7 8 9
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/merge&action=edit&section=8 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -526,18 +526,18 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 780](https://cplusplus.github.io/LWG/issue780) | C++98  | the merge operation was not defined  | defined   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/merge&action=edit&section=9 "Edit section: See also")] See also
+### See also
 
 [ inplace_merge](inplace_merge.html "cpp/algorithm/inplace merge") |  merges two ordered ranges in-place   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_inplace_merge&action=edit)  
+(function template)   
 ---|---  
 [ is_sorted](is_sorted.html "cpp/algorithm/is sorted")(C++11) |  checks whether a range is sorted into ascending order   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_is_sorted&action=edit)  
+(function template)   
 [ set_union](set_union.html "cpp/algorithm/set union") |  computes the union of two sets   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_set_union&action=edit)  
+(function template)   
 [ sort](sort.html "cpp/algorithm/sort") |  sorts a range into ascending order   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_sort&action=edit)  
+(function template)   
 [ stable_sort](stable_sort.html "cpp/algorithm/stable sort") |  sorts a range of elements while preserving order between equal elements   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_stable_sort&action=edit)  
+(function template)   
 [ ranges::merge](ranges/merge.html "cpp/algorithm/ranges/merge")(C++20) |  merges two sorted ranges  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_merge&action=edit)
+(algorithm function object)

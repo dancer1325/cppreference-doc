@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -71,7 +71,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::array`](../array.html "cpp/container/array")
 
@@ -127,7 +127,7 @@ Tables
 [tuple_element<std::array>](tuple_element.html "cpp/container/array/tuple element")  
 [Deduction guides](deduction_guides.html "cpp/container/array/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/array/navbar_content&action=edit)
+
 
 Defined in header `[<array>](../../header/array.html "cpp/header/array")` |  |   
 ---|---|---  
@@ -157,7 +157,7 @@ Both overloads are ill-formed when [std::is_array_v](../../types/is_array.html)<
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/array/to_array&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 a  |  \-  |  the built-in array to be converted the [std::array](../array.html "cpp/container/array")  
 ---|---|---  
@@ -165,13 +165,13 @@ Type requirements
 -`T` must meet the requirements of [CopyConstructible](../../named_req/CopyConstructible.html "cpp/named req/CopyConstructible") in order to use overload (1).   
 -`T` must meet the requirements of [MoveConstructible](../../named_req/MoveConstructible.html "cpp/named req/MoveConstructible") in order to use overload (2).   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/array/to_array&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) [std::array](../array.html)<[std::remove_cv_t](../../types/remove_cv.html)<T>, N>{ a[0], ..., a[N - 1] }
 
 2) [std::array](../array.html)<[std::remove_cv_t](../../types/remove_cv.html)<T>, N>{ std::move(a[0]), ..., std::move(a[N - 1]) }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/array/to_array&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 There are some occasions where [class template argument deduction](../../language/ctad.html "cpp/language/class template argument deduction") of [std::array](../array.html "cpp/container/array") cannot be used while `to_array` is available: 
 
@@ -190,7 +190,7 @@ There are some occasions where [class template argument deduction](../../languag
 ---|---|---|---  
 [`__cpp_lib_to_array`](../../experimental/feature_test.html#cpp_lib_to_array "cpp/feature test") | [`201907L`](../../compiler_support/20.html#cpp_lib_to_array_201907L "cpp/compiler support/20") | (C++20) | `std::to_array`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/array/to_array&action=edit&section=4 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
 
 [to_array (1)](to_array.html#Version_1)  
 ---  
@@ -231,7 +231,7 @@ There are some occasions where [class template argument deduction](../../languag
         return detail::to_array_impl(std::move(a), [std::make_index_sequence](../../utility/integer_sequence.html)<N>{});
     }  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/array/to_array&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -277,10 +277,10 @@ Run this code
         // auto a6 = std::to_array(s);
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/array/to_array&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ make_array](../../experimental/make_array.html "cpp/experimental/make array")(library fundamentals TS v2) |  creates a [std::array](../array.html "cpp/container/array") object whose size and optionally element type are deduced from the arguments   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/dsc_make_array&action=edit)  
+(function template)   
 ---|---
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

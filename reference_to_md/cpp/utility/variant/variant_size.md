@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::variant`](../variant.html "cpp/utility/variant")
 
@@ -161,7 +161,7 @@ Common vocabulary types
 [Helper objects](../variant.html#Helper_objects "cpp/utility/variant")  
 [variant_npos](variant_npos.html "cpp/utility/variant/variant npos")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variant/navbar_content&action=edit)
+
 
 Defined in header `[<variant>](../../header/variant.html "cpp/header/variant")` |  |   
 ---|---|---  
@@ -202,7 +202,7 @@ Formally,
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variant/variant_size&action=edit&section=1 "Edit section: Helper variable template")] Helper variable template
+### Helper variable template
 
 template< class T >  
 constexpr [std::size_t](../../types/size_t.html) variant_size_v = std::variant_size<T>::value; |  |  (since C++17)  
@@ -232,11 +232,11 @@ Type  |  Definition
 `value_type` |  [std::size_t](../../types/size_t.html)  
 `type` |  [std::integral_constant](../../types/integral_constant.html)<[std::size_t](../../types/size_t.html), value>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variant/variant_size&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 All specializations of `std::variant_size` satisfy [UnaryTypeTrait](../../named_req/UnaryTypeTrait.html "cpp/named req/UnaryTypeTrait") with _base characteristic_ [std::integral_constant](../../types/integral_constant.html)<[std::size_t](../../types/size_t.html), N> for some `N`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variant/variant_size&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -255,10 +255,10 @@ Run this code
      
     int main() {}
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variant/variant_size&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ variant_alternativevariant_alternative_t](variant_alternative.html "cpp/utility/variant/variant alternative")(C++17) |  obtains the type of the alternative specified by its index, at compile time  
-(class template) (alias template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variant/dsc_variant_alternative&action=edit)  
+(class template) (alias template)  
 ---|---  
 [ std::tuple_size<std::tuple>](../tuple/tuple_size.html "cpp/utility/tuple/tuple size")(C++11) |  obtains the size of a `tuple`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/dsc_tuple_size&action=edit)
+(class template specialization) 

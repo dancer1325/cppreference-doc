@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 _Resource Acquisition Is Initialization_ or RAII, is a C++ programming technique[[1]](raii.html#cite_note-1)[[2]](raii.html#cite_note-2) which binds the life cycle of a resource that must be acquired before use (allocated heap memory, thread of execution, open socket, open file, locked mutex, disk space, database connection—anything that exists in limited supply) to the [lifetime](lifetime.html "cpp/language/lifetime") of an object. 
 
@@ -274,7 +274,7 @@ Classes with `open()`/`close()`, `lock()`/`unlock()`, or `init()`/`copyFrom()`/`
             return;                        // early return, the mutex is released
     }                                      // if good() returns normally, the mutex is released
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/raii&action=edit&section=1 "Edit section: The standard library")] The standard library
+### The standard library
 
 The C++ library classes that manage their own resources follow RAII: [std::string](../string/basic_string.html "cpp/string/basic string"), [std::vector](../container/vector.html "cpp/container/vector"), [std::jthread](../thread/jthread.html "cpp/thread/jthread")(since C++20), and many others acquire their resources in constructors (which throw exceptions on errors), release them in their destructors (which never throw), and don't require explicit cleanup. 
 
@@ -286,11 +286,11 @@ In addition, the standard library offers several RAII wrappers to manage user-pr
 | (since C++11)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/raii&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 RAII does not apply to the management of the resources that are not acquired before use: CPU time, core availability, cache capacity, entropy pool capacity, network bandwidth, electric power consumption, stack memory. For such resources, a C++ class constructor cannot guarantee resource availability for the duration of object lifetime, and other means of resource management have to be used. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/raii&action=edit&section=3 "Edit section: External links")] External links
+### External links
 
   1. [↑](raii.html#cite_ref-1) [RAII in Stroustrup's C++ FAQ](https://www.stroustrup.com/bs_faq2.html#finally)
   2. [↑](raii.html#cite_ref-2) [C++ Core Guidelines E.6 "Use RAII to prevent leaks"](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#e6-use-raii-to-prevent-leaks)

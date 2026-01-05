@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Extensions for concurrency](../concurrency.html "cpp/experimental/concurrency")
 
@@ -75,7 +75,7 @@ Atomic smart pointers
 [experimental::atomic_shared_ptr](../atomic_shared_ptr.html "cpp/experimental/atomic shared ptr")  
 [experimental::atomic_weak_ptr](../atomic_weak_ptr.html "cpp/experimental/atomic weak ptr")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/concurrency/navbar_content&action=edit)
+
 
 [`std::experimental::atomic_weak_ptr`](../atomic_weak_ptr.html "cpp/experimental/atomic weak ptr")
 
@@ -89,7 +89,7 @@ Atomic smart pointers
 [atomic_weak_ptr::exchange](exchange.html "cpp/experimental/atomic weak ptr/exchange")  
 [atomic_weak_ptr::compare_exchange_weakatomic_weak_ptr::compare_exchange_strong](compare_exchange.html "cpp/experimental/atomic weak ptr/compare exchange")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/concurrency/atomic_weak_ptr/navbar_content&action=edit)
+
 
 void operator=( weak_ptr<T> desired ) noexcept; |  (1)  |   
 ---|---|---  
@@ -110,25 +110,25 @@ void operator=( const atomic_weak_ptr& ) = delete; |  (2)  |
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/atomic_weak_ptr/operator%3D&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 desired  |  \-  |  value to assign   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/atomic_weak_ptr/operator%3D&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 Unlike most assignment operators, the assignment operators for `atomic_weak_ptr` returns void. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/atomic_weak_ptr/operator%3D&action=edit&section=3 "Edit section: Remarks")] Remarks
+### Remarks
 
 All changes to the `atomic_weak_ptr` object itself, and all associated [`use_count`](../../memory/weak_ptr/use_count.html "cpp/memory/weak ptr/use count") increments, are guaranteed to be performed atomically. Associated `use_count` decrements take place after the atomic operation, but are not required to be part of it. Any associated destruction or deallocation operations take place after the atomic operation and are not part of it. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/atomic_weak_ptr/operator%3D&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ (constructor)](atomic_weak_ptr.html "cpp/experimental/atomic weak ptr/atomic weak ptr") |  constructs an `atomic_weak_ptr` object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/atomic_weak_ptr/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ store](store.html "cpp/experimental/atomic weak ptr/store") |  atomically replaces the value of the atomic object with a non-atomic argument   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/atomic_weak_ptr/dsc_store&action=edit)  
+(public member function)   
 [ std::atomic_is_lock_free(std::shared_ptr)std::atomic_load(std::shared_ptr)std::atomic_load_explicit(std::shared_ptr)std::atomic_store(std::shared_ptr)std::atomic_store_explicit(std::shared_ptr)std::atomic_exchange(std::shared_ptr)std::atomic_exchange_explicit(std::shared_ptr)std::atomic_compare_exchange_weak(std::shared_ptr)std::atomic_compare_exchange_strong(std::shared_ptr)std::atomic_compare_exchange_weak_explicit(std::shared_ptr)std::atomic_compare_exchange_strong_explicit(std::shared_ptr)](../../memory/shared_ptr/atomic.html "cpp/memory/shared ptr/atomic")(deprecated in C++20)(removed in C++26) |  specializes atomic operations for `std::shared_ptr`   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/dsc_atomic&action=edit)
+(function template) 

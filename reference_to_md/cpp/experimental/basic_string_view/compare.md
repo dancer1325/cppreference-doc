@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Library fundamentals](../memory.html "cpp/experimental/lib extensions")
 
@@ -75,7 +75,7 @@
 [Type-erased and polymorphic allocators](../memory.html "cpp/experimental/memory")  
 [Variable templates for type traits](../type_trait_variable_templates.html "cpp/experimental/type trait variable templates")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions/navbar_content&action=edit)
+
 
 [`std::experimental::basic_string_view`](../basic_string_view.html "cpp/experimental/basic string view")
 
@@ -123,7 +123,7 @@ Non-member functions
 Helper classes  
 [hash<std::string_view>hash<std::wstring_view>hash<std::u16string_view>hash<std::u32string_view>](hash.html "cpp/experimental/basic string view/hash")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/basic_string_view/navbar_content&action=edit)
+
 
 constexpr int compare(basic_string_view v) const noexcept; |  (1)  |  (library fundamentals TS)  
 ---|---|---  
@@ -170,7 +170,7 @@ Condition  |  Result  |  Return value
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/basic_string_view/compare&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 v  |  \-  |  view to compare   
 ---|---|---  
@@ -180,16 +180,16 @@ pos1  |  \-  |  position of the first character in this view to compare
 count2  |  \-  |  number of characters of the given view to compare   
 pos2  |  \-  |  position of the first character of the given view to compare   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/basic_string_view/compare&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 negative value if this view is less than the other character sequence, zero if the both character sequences are equal, positive value if this view is greater than the other character sequence. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/basic_string_view/compare&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 1) Linear in the number of characters compared. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/basic_string_view/compare&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ operator==operator!=operator<operator>operator<=operator>=](operator_cmp.html "cpp/experimental/basic string view/operator cmp") |  lexicographically compares two views   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/basic_string_view/dsc_operator_cmp&action=edit)  
+(function template)   
 ---|---

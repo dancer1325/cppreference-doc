@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::flat_map`](../flat_map.html "cpp/container/flat map")
 
@@ -143,7 +143,7 @@ Tables
   
 **Deduction guides**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/flat_map/navbar_content&action=edit)
+
 
 Defined in header `[<flat_map>](../../header/flat_map.html "cpp/header/flat map")` |  |   
 ---|---|---  
@@ -277,7 +277,7 @@ These overloads participate in overload resolution only if `InputIt` satisfies [
 
 Note: the extent to which the library determines that a type does not satisfy [LegacyInputIterator](../../named_req/InputIterator.html "cpp/named req/InputIterator") is unspecified, except that as a minimum integral types do not qualify as input iterators. Likewise, the extent to which it determines that a type does not satisfy [Allocator](../../named_req/Allocator.html "cpp/named req/Allocator") is unspecified, except that as a minimum the member type `Alloc::value_type` must exist and the expression [std::declval](../../utility/declval.html)<Alloc&>().allocate([std::size_t](../../types/size_t.html){}) must be well-formed when treated as an unevaluated operand. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/flat_map_deduction_guides&action=edit&section=T-1 "Template:cpp/container/flat map deduction guides")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

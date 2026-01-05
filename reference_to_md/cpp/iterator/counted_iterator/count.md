@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](../empty.html "cpp/iterator/empty")(C++17)  
 [data](../data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 [`std::counted_iterator`](../counted_iterator.html "cpp/iterator/counted iterator")
 
@@ -218,7 +218,7 @@
 [Helper classes](../counted_iterator.html#Helper_classes "cpp/iterator/counted iterator")  
 [iterator_traits<std::counted_iterator>](iterator_traits.html "cpp/iterator/counted iterator/iterator traits")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/counted_iterator/navbar_content&action=edit)
+
 
 constexpr [std::iter_difference_t](../iter_t.html)<I> count() const noexcept; |  |  (since C++20)  
 ---|---|---  
@@ -236,15 +236,15 @@ Returns the underlying _length_ that is the distance to the end.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/counted_iterator/count&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/counted_iterator/count&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The underlying _length_. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/counted_iterator/count&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -271,8 +271,8 @@ Output:
     *i2: 3, count(): 2
     *i2: 4, count(): 1
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/counted_iterator/count&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ base](base.html "cpp/iterator/counted iterator/base") |  accesses the underlying iterator   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_base&action=edit)  
+(public member function)   
 ---|---

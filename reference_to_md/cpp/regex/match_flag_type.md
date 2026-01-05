@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Regular expressions library](../regex.html "cpp/regex")
 
@@ -81,7 +81,7 @@ Constants
 Regex Grammar  
 [Modified ECMAScript-262](ecmascript.html "cpp/regex/ecmascript")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/navbar_content&action=edit)
+
 
 Defined in header `[<regex>](../header/regex.html "cpp/header/regex")` |  |   
 ---|---|---  
@@ -104,7 +104,7 @@ constexpr match_flag_type format_first_only = /* unspecified */; |  (2)  |  (sin
   
 1) `match_flag_type` is a [BitmaskType](../named_req/BitmaskType.html "cpp/named req/BitmaskType") that specifies additional regular expression matching options.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/match_flag_type&action=edit&section=1 "Edit section: Constants")] Constants
+### Constants
 
 Note: `[`first`, `last`)` refers to the character sequence being matched. 
 
@@ -128,7 +128,7 @@ When set, causes `match_not_bol` and `match_not_bow` to be ignored.
   
 All constants, except for `match_default` and `format_default`, are bitmask elements. The `match_default` and `format_default` constants are empty bitmasks. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/match_flag_type&action=edit&section=2 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -138,12 +138,12 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 2\. `match_default` and `format_default` were initialized from ​0​ | 1\. removed the static specifier  
 2\. initialized from {}  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/match_flag_type&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ regex_match](regex_match.html "cpp/regex/regex match")(C++11) |  attempts to match a regular expression to an entire character sequence   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/dsc_regex_match&action=edit)  
+(function template)   
 ---|---  
 [ syntax_option_type](syntax_option_type.html "cpp/regex/syntax option type")(C++11) |  general options controlling regex behavior   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/dsc_syntax_option_type&action=edit)  
+(typedef)   
 [ error_type](error_type.html "cpp/regex/error type")(C++11) |  describes different types of matching errors   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/dsc_error_type&action=edit)
+(typedef) 

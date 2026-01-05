@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [Common mathematical functions](../math.html "cpp/numeric/math")
 
@@ -230,7 +230,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/navbar_content&action=edit)
+
 
 Defined in header `[<cmath>](../../header/cmath.html "cpp/header/cmath")` |  |   
 ---|---|---  
@@ -281,12 +281,12 @@ A) Additional overloads are provided for all integer types, which are treated as
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/atanh&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 num  |  \-  |  floating-point or integer value   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/atanh&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 If no errors occur, the inverse hyperbolic tangent of num (tanh-1  
 (num), or artanh(num)), is returned. 
@@ -297,7 +297,7 @@ If a pole error occurs, [±HUGE_VAL](HUGE_VALL.html "cpp/numeric/math/HUGE VAL")
 
 If a range error occurs due to underflow, the correct result (after rounding) is returned. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/atanh&action=edit&section=3 "Edit section: Error handling")] Error handling
+### Error handling
 
 Errors are reported as specified in [math_errhandling](math_errhandling.html "cpp/numeric/math/math errhandling"). 
 
@@ -314,7 +314,7 @@ If the implementation supports IEEE floating-point arithmetic (IEC 60559),
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/atanh&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 Although the C standard (to which C++ refers for this function) names this function "arc hyperbolic tangent", the inverse functions of the hyperbolic functions are the area functions. Their argument is the area of a hyperbolic sector, not an arc. The correct name is "inverse hyperbolic tangent" (used by POSIX) or "area hyperbolic tangent". 
 
@@ -322,7 +322,7 @@ Although the C standard (to which C++ refers for this function) names this funct
 
 The additional overloads are not required to be provided exactly as (A). They only need to be sufficient to ensure that for their argument num of integer type, std::atanh(num) has the same effect as std::atanh(static_cast<double>(num)). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/atanh&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -363,20 +363,20 @@ Possible output:
         errno == ERANGE: Numerical result out of range
         FE_DIVBYZERO raised
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/atanh&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ asinhasinhfasinhl](asinh.html "cpp/numeric/math/asinh")(C++11)(C++11)(C++11) |  computes the inverse hyperbolic sine (\\({\small\operatorname{arsinh}{x}}\\)arsinh(x))   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_asinh&action=edit)  
+(function)   
 ---|---  
 [ acoshacoshfacoshl](acosh.html "cpp/numeric/math/acosh")(C++11)(C++11)(C++11) |  computes the inverse hyperbolic cosine (\\({\small\operatorname{arcosh}{x}}\\)arcosh(x))   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_acosh&action=edit)  
+(function)   
 [ tanhtanhftanhl](tanh.html "cpp/numeric/math/tanh")(C++11)(C++11) |  computes hyperbolic tangent (\\({\small\tanh{x}}\\)tanh(x))   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_tanh&action=edit)  
+(function)   
 [ atanh(std::complex)](../complex/atanh.html "cpp/numeric/complex/atanh")(C++11) |  computes area hyperbolic tangent of a complex number (\\({\small\operatorname{artanh}{z}}\\)artanh(z))   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_atanh&action=edit)  
+(function template)   
 [C documentation](../../../c/numeric/math/atanh.html "c/numeric/math/atanh") for atanh  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/atanh&action=edit&section=7 "Edit section: External links")] External links
+### External links
 
 [Weisstein, Eric W. "Inverse Hyperbolic Tangent."](https://mathworld.wolfram.com/InverseHyperbolicTangent.html) From MathWorld — A Wolfram Web Resource.   
 ---

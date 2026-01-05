@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_ios`](../basic_ios.html "cpp/io/basic ios")
 
@@ -111,7 +111,7 @@ Protected member functions
 [basic_ios::swap](swap.html "cpp/io/basic ios/swap")(C++11)  
 [basic_ios::set_rdbuf](set_rdbuf.html "cpp/io/basic ios/set rdbuf")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ios/navbar_content&action=edit)
+
 
 virtual ~basic_ios(); |  |   
 ---|---|---  
@@ -119,11 +119,11 @@ virtual ~basic_ios(); |  |
   
 Destroys the `basic_ios` object. `rdbuf` is not destroyed. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_ios/%7Ebasic_ios&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 This destructor is `virtual` because the base class destructor, [`ios_base::~ios_base`](../ios_base/~ios_base.html "cpp/io/ios base/~ios base") is virtual. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_ios/%7Ebasic_ios&action=edit&section=2 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

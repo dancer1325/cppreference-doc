@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](empty.html "cpp/iterator/empty")(C++17)  
 [data](data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 Defined in header `[<array>](../header/array.html "cpp/header/array")` |  |   
 ---|---|---  
@@ -258,13 +258,13 @@ If `C` is a standard [Container](../named_req/Container.html "cpp/named req/Cont
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/end&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 c  |  \-  |  a container or view with an `end` member function   
 ---|---|---  
 array  |  \-  |  an array of arbitrary type   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/end&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1,2) c.end()
 
@@ -272,7 +272,7 @@ array  |  \-  |  an array of arbitrary type
 
 4) c.end()
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/end&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 4)
 
@@ -280,19 +280,19 @@ array  |  \-  |  an array of arbitrary type
 
 noexcept(noexcept(std::end(c)))
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/end&action=edit&section=4 "Edit section: Overloads")] Overloads
+### Overloads
 
 Custom overloads of `end` may be provided for classes and enumerations that do not expose a suitable `end()` member function, yet can be iterated. The following overloads are already provided by the standard library: 
 
 [ std::end(std::initializer_list)](../utility/initializer_list/end2.html "cpp/utility/initializer list/end2")(C++11) |  specializes **std::end**   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/initializer_list/dsc_end2&action=edit)  
+(function template)   
 ---|---  
 [ std::end(std::valarray)](../numeric/valarray/end2.html "cpp/numeric/valarray/end2")(C++11) |  specializes **std::end**   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_end2&action=edit)  
+(function template)   
 [ begin(std::filesystem::directory_iterator)end(std::filesystem::directory_iterator)](../filesystem/directory_iterator/begin.html "cpp/filesystem/directory iterator/begin")(C++17) |  range-based for loop support   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/directory_iterator/dsc_begin&action=edit)  
+(function)   
 [ begin(std::filesystem::recursive_directory_iterator)end(std::filesystem::recursive_directory_iterator)](../filesystem/recursive_directory_iterator/begin.html "cpp/filesystem/recursive directory iterator/begin") |  range-based for loop support   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/recursive_directory_iterator/dsc_begin&action=edit)  
+(function)   
   
 Similar to the use of `swap` (described in [Swappable](../named_req/Swappable.html "cpp/named req/Swappable")), typical use of the `end` function in generic context is an equivalent of using std::end; end(arg);, which lets both the [ADL](../language/adl.html "cpp/language/adl")-selected overloads for user-defined types and the standard library function templates to appear in the same overload set. 
     
@@ -312,7 +312,7 @@ Similar to the use of `swap` (described in [Swappable](../named_req/Swappable.ht
 Overloads of `end` found by [argument-dependent lookup](../language/adl.html "cpp/language/adl") can be used to customize the behavior of [std::ranges::end](../ranges/end.html "cpp/ranges/end"), [std::ranges::cend](../ranges/cend.html "cpp/ranges/cend"), and other customization pointer objects depending on [std::ranges::end](../ranges/end.html "cpp/ranges/end").  | (since C++20)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/end&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 The non-array overloads exactly reflect the behavior of C::end(). Their effects may be surprising if the member function does not have a reasonable implementation. 
 
@@ -320,7 +320,7 @@ The non-array overloads exactly reflect the behavior of C::end(). Their effects 
 
 If `C` is a shallow-const view, `std::cend` may return a mutable iterator. Such behavior is unexpected for some users. See also [P2276](https://wg21.link/P2276) and [P2278](https://wg21.link/P2278). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/end&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -345,12 +345,12 @@ Output:
     
     Found a 5 in array w!
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/end&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ begincbegin](begin.html "cpp/iterator/begin")(C++11)(C++14) |  returns an iterator to the beginning of a container or array   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_begin&action=edit)  
+(function template)   
 ---|---  
 [ ranges::end](../ranges/end.html "cpp/ranges/end")(C++20) |  returns a sentinel indicating the end of a range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_end&action=edit)  
+(customization point object)  
 [ ranges::cend](../ranges/cend.html "cpp/ranges/cend")(C++20) |  returns a sentinel indicating the end of a read-only range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_cend&action=edit)
+(customization point object)

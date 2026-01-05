@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Metaprogramming library](../meta.html "cpp/meta")
 
@@ -167,7 +167,7 @@ Type transformations
 Compile-time integer sequences  
 [integer_sequence](../utility/integer_sequence.html "cpp/utility/integer sequence")(C++14)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/meta/navbar_content&action=edit)
+
 
 Defined in header `[<type_traits>](../header/type_traits.html "cpp/header/type traits")` |  |   
 ---|---|---  
@@ -190,16 +190,16 @@ If `S` is not a [StandardLayoutType](../named_req/StandardLayoutType.html "cpp/n
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_pointer_interconvertible_with_class&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 mp  |  \-  |  a pointer-to-member to detect   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_pointer_interconvertible_with_class&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 true if s.*mp refers a subobject of `s` and `s` is pointer-interconvertible with its subobject s.*mp, otherwise false, where `s` is an object of type `S`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_pointer_interconvertible_with_class&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 The type of a pointer-to-member expression &S::m is not always M S::*, where `m` is of type `M`, because `m` may be a member inherited from a base class of `S`. The template arguments can be specified in order to avoid potentially surprising results. 
 
@@ -216,7 +216,7 @@ On common platforms, the bit pattern of `mp` is all zero if std::is_pointer_inte
 
   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_pointer_interconvertible_with_class&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -234,12 +234,12 @@ Run this code
      
     int main() { }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_pointer_interconvertible_with_class&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ is_standard_layout](is_standard_layout.html "cpp/types/is standard layout")(C++11) |  checks if a type is a [standard-layout](../language/data_members.html#Standard-layout "cpp/language/data members") type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_standard_layout&action=edit)  
+(class template)   
 ---|---  
 [ is_member_object_pointer](is_member_object_pointer.html "cpp/types/is member object pointer")(C++11) |  checks if a type is a non-static member object pointer   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_member_object_pointer&action=edit)
+(class template) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

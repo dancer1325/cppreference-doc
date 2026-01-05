@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -175,7 +175,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::thread`](../thread.html "cpp/thread/thread")
 
@@ -198,7 +198,7 @@
 [Non-member functions](../thread.html#Non-member_functions "cpp/thread/thread")  
 [swap(std::thread)](swap2.html "cpp/thread/thread/swap2")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/navbar_content&action=edit)
+
 
 [std::thread::id](id.html) get_id() const noexcept; |  |  (since C++11)  
 ---|---|---  
@@ -216,15 +216,15 @@ Returns a value of [std::thread::id](id.html "cpp/thread/thread/id") identifying
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/get_id&action=edit&section=T-1 "Template:cpp/thread/thread/get id")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/get_id&action=edit&section=T-2 "Template:cpp/thread/thread/get id")] Return value
+### Return value
 
 A value of type [std::thread::id](id.html "cpp/thread/thread/id") identifying the thread associated with *this. If there is no thread associated, default constructed [std::thread::id](id.html "cpp/thread/thread/id") is returned. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/get_id&action=edit&section=T-3 "Template:cpp/thread/thread/get id")] Example
+### Example
 
 Run this code
     
@@ -264,10 +264,10 @@ Possible output:
     t1's id after join: thread::id of a non-executing thread
     t2's id after join: thread::id of a non-executing thread
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/get_id&action=edit&section=T-4 "Template:cpp/thread/thread/get id")] See also
+### See also
 
 [ id](id.html "cpp/thread/thread/id") |  represents the _id_ of a thread   
-(public member class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/dsc_id&action=edit)  
+(public member class)   
 ---|---  
 [ joinable](joinable.html "cpp/thread/thread/joinable") |  checks whether the thread is joinable, i.e. potentially running in parallel context   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/dsc_joinable&action=edit)
+(public member function) 

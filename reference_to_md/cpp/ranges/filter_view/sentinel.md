@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::filter_view`](../filter_view.html "cpp/ranges/filter view")
 
@@ -252,7 +252,7 @@ filter_view::_iterator_ ::operator--(int)](iterator.html#decrement "cpp/ranges/f
 [filter_view::_sentinel_ ::base](sentinel.html#base "cpp/ranges/filter view/sentinel")  
 [operator==(filter_view::_iterator_ , filter_view::_sentinel_)](sentinel.html#compare "cpp/ranges/filter view/sentinel")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/filter_view/navbar_content&action=edit)
+
 
 class /*sentinel*/; |  |  (since C++20)   
 (exposition only*)  
@@ -273,14 +273,14 @@ The return type of [`filter_view::end`](../filter_view.html "cpp/ranges/filter v
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/filter_view/sentinel&action=edit&section=1 "Edit section: Data members")] Data members
+### Data members
 
 Member  |  Definition   
 ---|---  
 `V` `_end__` (private) |  the sentinel of the underlying [`view`](../view.html "cpp/ranges/view")  
 (exposition-only member object*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/filter_view/sentinel&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](sentinel.html#ctor "cpp/ranges/filter view/sentinel") |  constructs a sentinel   
 (public member function)  
@@ -307,7 +307,7 @@ constexpr [ranges::sentinel_t](../iterator_t.html)<V> base() const; |  |  (since
   
 Equivalent to return end_;. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/filter_view/sentinel&action=edit&section=3 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ operator==](sentinel.html#compare "cpp/ranges/filter view/sentinel")(C++20) |  compares the underlying iterator and the underlying sentinel   
 (function)  

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](empty.html "cpp/iterator/empty")(C++17)  
 [data](data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 Defined in header `[<iterator>](../header/iterator.html "cpp/header/iterator")` |  |   
 ---|---|---  
@@ -215,16 +215,16 @@ template< class Container >
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/back_inserter&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 c  |  \-  |  container that supports a `push_back` operation   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/back_inserter&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 A [std::back_insert_iterator](back_insert_iterator.html "cpp/iterator/back insert iterator") which can be used to add elements to the end of the container c. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/back_inserter&action=edit&section=3 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     template<class Container>
@@ -235,7 +235,7 @@ A [std::back_insert_iterator](back_insert_iterator.html "cpp/iterator/back inser
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/back_inserter&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -259,12 +259,12 @@ Output:
     
     1 2 3 4 5 6 7 8 9 10 -1 -1 -1
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/back_inserter&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ back_insert_iterator](back_insert_iterator.html "cpp/iterator/back insert iterator") |  iterator adaptor for insertion at the end of a container   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_back_insert_iterator&action=edit)  
+(class template)   
 ---|---  
 [ front_inserter](front_inserter.html "cpp/iterator/front inserter") |  creates a [std::front_insert_iterator](front_insert_iterator.html "cpp/iterator/front insert iterator") of type inferred from the argument   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_front_inserter&action=edit)  
+(function template)   
 [ inserter](inserter.html "cpp/iterator/inserter") |  creates a [std::insert_iterator](insert_iterator.html "cpp/iterator/insert iterator") of type inferred from the argument   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_inserter&action=edit)
+(function template) 

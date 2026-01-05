@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [C-style I/O](../c.html "cpp/io/c")
 
@@ -176,7 +176,7 @@ Operations on files
 [tmpfile](tmpfile.html "cpp/io/c/tmpfile")  
 [tmpnam](tmpnam.html "cpp/io/c/tmpnam")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/navbar_content&action=edit)
+
 
 Defined in header `[<cstdio>](../../header/cstdio.html "cpp/header/cstdio")` |  |   
 ---|---|---  
@@ -196,14 +196,14 @@ Reads at most count - 1 characters from the given file stream and stores them in
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/fgets&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 str  |  \-  |  pointer to an element of a char array   
 ---|---|---  
 count  |  \-  |  maximum number of characters to write (typically the length of str)   
 stream  |  \-  |  file stream to read the data from   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/fgets&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 str on success, null pointer on failure. 
 
@@ -211,7 +211,7 @@ If the end-of-file condition is encountered, sets the _eof_ indicator on stream 
 
 If the failure has been caused by some other error, sets the _error_ indicator (see [std::ferror()](ferror.html "cpp/io/c/ferror")) on stream. The contents of the array pointed to by str are indeterminate (it may not even be null-terminated). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/fgets&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 [POSIX additionally requires](https://pubs.opengroup.org/onlinepubs/9699919799/functions/fgets.html) that `fgets` sets [errno](../../error/errno.html "cpp/error/errno") if it encounters a failure other than the end-of-file condition. 
 
@@ -229,7 +229,7 @@ Although the standard specification is [unclear](https://stackoverflow.com/quest
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/fgets&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -275,13 +275,13 @@ Output:
     Alonzo .  41 6C 6F 6E 7A 6F 20 00 
     Church..  43 68 75 72 63 68 0A 00
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/fgets&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ scanffscanfsscanf](scanf.html "cpp/io/c/fscanf") |  reads formatted input from [stdin](std_streams.html "cpp/io/c/std streams"), a file stream or a buffer   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_fscanf&action=edit)  
+(function)   
 ---|---  
 [ gets](gets.html "cpp/io/c/gets")(deprecated in C++11)(removed in C++14) |  reads a character string from [stdin](std_streams.html "cpp/io/c/std streams")   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_gets&action=edit)  
+(function)   
 [ fputs](fputs.html "cpp/io/c/fputs") |  writes a character string to a file stream   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_fputs&action=edit)  
+(function)   
 [C documentation](../../../c/io/fgets.html "c/io/fgets") for fgets

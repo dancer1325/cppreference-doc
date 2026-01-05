@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -175,7 +175,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::jthread`](../jthread.html "cpp/thread/jthread")
 
@@ -200,7 +200,7 @@ Stop token handling
 Non-member functions  
 [swap(std::jthread)](swap2.html "cpp/thread/jthread/swap2")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/jthread/navbar_content&action=edit)
+
 
 std::jthread::id get_id() const noexcept; |  |  (since C++20)  
 ---|---|---  
@@ -218,15 +218,15 @@ Returns a value of std::jthread::id (which is a type alias for [std::thread::id]
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/get_id&action=edit&section=T-1 "Template:cpp/thread/thread/get id")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/get_id&action=edit&section=T-2 "Template:cpp/thread/thread/get id")] Return value
+### Return value
 
 A value of type std::jthread::id identifying the thread associated with *this. If there is no thread associated, default constructed std::jthread::id is returned. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/get_id&action=edit&section=T-3 "Template:cpp/thread/thread/get id")] Example
+### Example
 
 Run this code
     
@@ -266,10 +266,10 @@ Possible output:
     t1's id after join: thread::id of a non-executing thread
     t2's id after join: thread::id of a non-executing thread
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/get_id&action=edit&section=T-4 "Template:cpp/thread/thread/get id")] See also
+### See also
 
 [ id](../thread/id.html "cpp/thread/thread/id") |  represents the _id_ of a thread   
-(public member class of `std::thread`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/dsc_id&action=edit)  
+(public member class of `std::thread`)   
 ---|---  
 [ joinable](joinable.html "cpp/thread/jthread/joinable") |  checks whether the thread is joinable, i.e. potentially running in parallel context   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/dsc_joinable&action=edit)
+(public member function) 

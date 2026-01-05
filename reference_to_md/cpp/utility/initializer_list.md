@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 **`std::initializer_list`**
 
@@ -144,7 +144,7 @@ Non-member functions
 [begin(std::initializer_list)](initializer_list/begin2.html "cpp/utility/initializer list/begin2")  
 [end(std::initializer_list)](initializer_list/end2.html "cpp/utility/initializer list/end2")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/initializer_list/navbar_content&action=edit)
+
 
 (not to be confused with [member initializer list](../language/initializer_list.html "cpp/language/initializer list"))
 
@@ -184,7 +184,7 @@ The program is ill-formed if an explicit or partial specialization of `std::init
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/initializer_list&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Name  |  Definition   
 ---|---  
@@ -195,50 +195,50 @@ Name  |  Definition
 `iterator` |  const T*  
 `const_iterator` |  const T*  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/initializer_list&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](initializer_list/initializer_list.html "cpp/utility/initializer list/initializer list") |  creates an empty initializer list   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/initializer_list/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
   
 #####  Capacity   
   
 [ size](initializer_list/size.html "cpp/utility/initializer list/size") |  returns the number of elements in the initializer list   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/initializer_list/dsc_size&action=edit)  
+(public member function)   
   
 #####  Iterators   
   
 [ begin](initializer_list/begin.html "cpp/utility/initializer list/begin") |  returns a pointer to the first element   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/initializer_list/dsc_begin&action=edit)  
+(public member function)   
 [ end](initializer_list/end.html "cpp/utility/initializer list/end") |  returns a pointer to one past the last element   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/initializer_list/dsc_end&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/initializer_list&action=edit&section=3 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ std::begin(std::initializer_list)](initializer_list/begin2.html "cpp/utility/initializer list/begin2")(C++11) |  overloads [std::begin](../iterator/begin.html "cpp/iterator/begin")   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/initializer_list/dsc_begin2&action=edit)  
+(function template)   
 ---|---  
 [ std::end(std::initializer_list)](initializer_list/end2.html "cpp/utility/initializer list/end2")(C++11) |  specializes [std::end](../iterator/end.html "cpp/iterator/end")   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/initializer_list/dsc_end2&action=edit)  
+(function template)   
   
 #####  Free function templates overloaded for `std::initializer_list`  
   
 [ rbegincrbegin](../iterator/rbegin.html "cpp/iterator/rbegin")(C++14) |  returns a reverse iterator to the beginning of a container or array   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_rbegin&action=edit)  
+(function template)   
 [ rendcrend](../iterator/rend.html "cpp/iterator/rend")(C++14) |  returns a reverse end iterator for a container or array   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_rend&action=edit)  
+(function template)   
 [ empty](../iterator/empty.html "cpp/iterator/empty")(C++17) |  checks whether the container is empty   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_empty&action=edit)  
+(function template)   
 [ data](../iterator/data.html "cpp/iterator/data")(C++17) |  obtains the pointer to the underlying array   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_data&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/initializer_list&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 Feature-test macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_initializer_lists`](../experimental/feature_test.html#cpp_initializer_lists "cpp/feature test") | [`200806L`](../compiler_support/11.html#cpp_initializer_lists_200806L "cpp/compiler support/11") | (C++11) | [List-initialization](../language/list_initialization.html "cpp/language/list initialization") and `std::initializer_list`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/initializer_list&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -314,7 +314,7 @@ Output:
     -1 -2 -3
     The list bound to auto has size() = 3
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/initializer_list&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -324,12 +324,12 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 specializations or partial specializations  | the program is  
 ill-formed in this case   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/initializer_list&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ span](../container/span.html "cpp/container/span")(C++20) |  a non-owning view over a contiguous sequence of objects   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_span&action=edit)  
+(class template)   
 ---|---  
 [ basic_string_view](../string/basic_string_view.html "cpp/string/basic string view")(C++17) |  read-only string view   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/dsc_basic_string_view&action=edit)
+(class template) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

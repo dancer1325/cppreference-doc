@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ named requirements](../iterator/concepts.html "cpp/named req")
 
@@ -147,7 +147,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/named_req/navbar_content&action=edit)
+
 
 Specifies that a type is a _literal type_. Literal types are the types of [`constexpr` variables](../language/constexpr.html#constexpr_variable "cpp/language/constexpr") and they can be constructed, manipulated, and returned from [`constexpr` functions](../language/constexpr.html#constexpr_function "cpp/language/constexpr"). 
 
@@ -164,7 +164,7 @@ Note: the standard doesn't define a named requirement with this name. This is a 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/LiteralType&action=edit&section=1 "Edit section: Requirements")] Requirements
+### Requirements
 
 A literal type is any of the following: 
 
@@ -228,7 +228,7 @@ A literal type is any of the following:
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/LiteralType&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 A type can be literal even if all of its constexpr constructors are deleted, inaccessible, or cannot participate in overload resolution. 
     
@@ -237,7 +237,7 @@ A type can be literal even if all of its constexpr constructors are deleted, ina
     constexpr A v = [std::bit_cast](../numeric/bit_cast.html)<A>('0'); // OK in C++20
                                            // v has literal type and thus can be constexpr
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/LiteralType&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Literal type that extends string literals:
 
@@ -292,7 +292,7 @@ Output:
     
     The number of lowercase letters in "Hello, world!" is 9
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/LiteralType&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -309,8 +309,8 @@ member needs to be
 at least one non-static data member  | it can have no non-  
 static data member   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/LiteralType&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ is_literal_type](../types/is_literal_type.html "cpp/types/is literal type")(C++11)(deprecated in C++17)(removed in C++20) |  checks if a type is a literal type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_literal_type&action=edit)  
+(class template)   
 ---|---

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Library fundamentals](memory.html "cpp/experimental/lib extensions")
 
@@ -75,7 +75,7 @@
 [Type-erased and polymorphic allocators](memory.html "cpp/experimental/memory")  
 **Variable templates for type traits**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions/navbar_content&action=edit)
+
 
 Version 1 of the C++ Extensions for Library Fundamentals provides a number of constexpr variable templates for type traits classes, as well as other similar class templates with public `::value` members. 
 
@@ -228,6 +228,6 @@ template<class T> constexpr int is_placeholder_v = |  [std::is_placeholder](../u
 Defined in header `[<experimental/memory>](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/memory&action=edit&redlink=1 "cpp/header/experimental/memory \(page does not exist\)")`  
 template<class T, class Alloc> constexpr bool uses_allocator_v = |  [std::uses_allocator](../memory/uses_allocator.html)<T, Alloc>::value;  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/type_trait_variable_templates&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 [1]: Defined in the `std::chrono::experimental` namespace. 

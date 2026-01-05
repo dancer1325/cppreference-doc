@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Type support](../utility/rtti.html "cpp/types")
 
@@ -161,7 +161,7 @@ Runtime type information
 ---  
 [bad_cast](bad_cast.html "cpp/types/bad cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/navbar_content&action=edit)
+
 
 Defined in header `[<typeinfo>](../header/typeinfo.html "cpp/header/typeinfo")` |  |   
 ---|---|---  
@@ -193,7 +193,7 @@ Inheritance diagram
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/bad_typeid&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 (constructor) |  constructs a new `bad_typeid` object   
 (public member function)  
@@ -272,18 +272,18 @@ Implementations are allowed but not required to override `what()`.
 ###  Member functions
 
 [ (destructor)](../error/exception/~exception.html "cpp/error/exception/~exception")[virtual] |  destroys the exception object   
-(virtual public member function of `std::exception`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/exception/dsc_destructor&action=edit)  
+(virtual public member function of `std::exception`)   
 ---|---  
 [ what](../error/exception/what.html "cpp/error/exception/what")[virtual] |  returns an explanatory string   
-(virtual public member function of `std::exception`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/exception/dsc_what&action=edit)  
+(virtual public member function of `std::exception`)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/bad_typeid&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../utility/feature_test.html "cpp/utility/feature test") macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_constexpr_exceptions`](../experimental/feature_test.html#cpp_lib_constexpr_exceptions "cpp/feature test") | [`202411L`](../compiler_support/26.html#cpp_lib_constexpr_exceptions_202411L "cpp/compiler support/26") | (C++26) | constexpr for exception types   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/bad_typeid&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     

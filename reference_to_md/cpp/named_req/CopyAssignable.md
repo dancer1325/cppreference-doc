@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ named requirements](../iterator/concepts.html "cpp/named req")
 
@@ -147,11 +147,11 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/named_req/navbar_content&action=edit)
+
 
 Specifies that an instance of the type can be copy-assigned from an [lvalue expression](../language/value_category.html "cpp/language/value category"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/CopyAssignable&action=edit&section=1 "Edit section: Requirements")] Requirements
+### Requirements
 
 The type `T` satisfies CopyAssignable if 
 
@@ -172,10 +172,10 @@ Expression | Return type | Return value | Post-conditions
 ---|---|---|---  
 t = v | `T&` | `t` | The value of `t` is equivalent to the value of `v`. The value of `v` is unchanged.   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/CopyAssignable&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ is_copy_assignableis_trivially_copy_assignableis_nothrow_copy_assignable](../types/is_copy_assignable.html "cpp/types/is copy assignable")(C++11)(C++11)(C++11) |  checks if a type has a copy assignment operator   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_copy_assignable&action=edit)  
+(class template)   
 ---|---  
 [ assignable_from](../concepts/assignable_from.html "cpp/concepts/assignable from")(C++20) |  specifies that a type is assignable from another type   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_assignable_from&action=edit)
+(concept) 

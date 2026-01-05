@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 Defined in header `[<memory>](../header/memory.html "cpp/header/memory")` |  |   
 ---|---|---  
@@ -208,15 +208,15 @@ The behavior is undefined if ptr does not point to an object of type `T` (ignori
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/is_sufficiently_aligned&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 true if ptr points to an object that has alignment at least N; otherwise false. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/is_sufficiently_aligned&action=edit&section=2 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Throws nothing. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/is_sufficiently_aligned&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 `std::is_sufficiently_aligned` can be used as a precondition to [std::assume_aligned](assume_aligned.html "cpp/memory/assume aligned"). 
 
@@ -224,7 +224,7 @@ Throws nothing.
 ---|---|---|---  
 [`__cpp_lib_is_sufficiently_aligned`](../experimental/feature_test.html#cpp_lib_is_sufficiently_aligned "cpp/feature test") | [`202411L`](../compiler_support/26.html#cpp_lib_is_sufficiently_aligned_202411L "cpp/compiler support/26") | (C++26) | `std::is_sufficiently_aligned`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/is_sufficiently_aligned&action=edit&section=4 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     template<[std::size_t](../types/size_t.html) N, class T>
@@ -235,24 +235,24 @@ Throws nothing.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/is_sufficiently_aligned&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/is_sufficiently_aligned&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 `**[alignof](../language/alignof.html "cpp/language/alignof")**` (C++11) |  queries alignment requirements of a type  
-(operator)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_alignof&action=edit)  
+(operator)  
 ---|---  
 `**[alignas](../language/alignas.html "cpp/language/alignas")**` (C++11) |  specifies that the storage for the variable should be aligned by specific amount  
-(specifier)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_alignas&action=edit)  
+(specifier)  
 [ aligned_storage](../types/aligned_storage.html "cpp/types/aligned storage")(since C++11)(deprecated in C++23) |  defines the type suitable for use as uninitialized storage for types of given size   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_aligned_storage&action=edit)  
+(class template)   
 [ align](align.html "cpp/memory/align")(C++11) |  aligns a pointer in a buffer   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_align&action=edit)  
+(function)   
 [ aligned_accessor](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/aligned_accessor&action=edit&redlink=1 "cpp/container/mdspan/aligned accessor \(page does not exist\)")(C++26) |  a type for aligned access to elements of `mdspan`   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/dsc_aligned_accessor&action=edit)
+(class template) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

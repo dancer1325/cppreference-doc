@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [`std::text_encoding`](../../locale/text_encoding.html "cpp/text/text encoding")
 
@@ -79,7 +79,7 @@
 [Helper classes](../../locale/text_encoding.html#Helper_classes "cpp/text/text encoding")  
 [hash<std::text_encoding>](hash.html "cpp/text/text encoding/hash")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/text_encoding/navbar_content&action=edit)
+
 
 Defined in header `[<text_encoding>](../../header/text_encoding.html "cpp/header/text encoding")` |  |   
 ---|---|---  
@@ -88,7 +88,7 @@ enum class text_encoding::id : [std::int_least32_t](../../types/integer.html); |
   
 The scoped enumeration `std::text_encoding​::​id` contains an enumerator for each known registered character encoding with their corresponding MIBenum value. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/text/text_encoding/id&action=edit&section=1 "Edit section: Member constants")] Member constants
+### Member constants
 
 Name  |  MIBenum value   
 ---|---  
@@ -351,7 +351,7 @@ Name  |  MIBenum value
 `TIS620` |  2259  
 `CP50220` |  2260  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/text/text_encoding/id&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 For each encoding, the corresponding enumerator is derived from the alias beginning with “cs”, as follows: 
 
@@ -361,10 +361,10 @@ For each encoding, the corresponding enumerator is derived from the alias beginn
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/text/text_encoding/id&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ id](../../locale/locale/id.html "cpp/locale/locale/id") |  the facet index type: each facet class must declare or inherit a public static member of this type   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/locale/dsc_id&action=edit)  
+(class)   
 ---|---  
 [ errc](../../error/errc.html "cpp/error/errc")(C++11) |  the [std::error_condition](../../error/error_condition.html "cpp/error/error condition") enumeration listing all standard [`<cerrno>`](../../header/cerrno.html "cpp/header/cerrno") macro constants   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_errc&action=edit)
+(class) 

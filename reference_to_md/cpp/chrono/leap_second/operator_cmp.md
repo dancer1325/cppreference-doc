@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::leap_second`](../leap_second.html "cpp/chrono/leap second")
 
@@ -113,7 +113,7 @@ Nonmember functions
 Helper classes  
 [hash<std::chrono::leap_second>](hash.html "cpp/chrono/leap second/hash")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/leap_second/navbar_content&action=edit)
+
 
 Defined in header `[<chrono>](../../header/chrono.html "cpp/header/chrono")` |  |   
 ---|---|---  
@@ -161,7 +161,7 @@ Return type of (12) is deduced from x.date() <=> y, and hence the three-way comp
 
 The `!=` operator is [synthesized](../../language/default_comparisons.html#Other_defaulted_comparison_operators "cpp/language/default comparisons") from `operator==`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/leap_second/operator_cmp&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 1) x.date() == y.date()
 

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Metaprogramming library](../meta.html "cpp/meta")
 
@@ -167,7 +167,7 @@ Type transformations
 Compile-time integer sequences  
 [integer_sequence](../utility/integer_sequence.html "cpp/utility/integer sequence")(C++14)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/meta/navbar_content&action=edit)
+
 
 Defined in header `[<type_traits>](../header/type_traits.html "cpp/header/type traits")` |  |   
 ---|---|---  
@@ -201,20 +201,20 @@ If the program adds specializations for `std::enable_if`, the behavior is undefi
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/enable_if&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Type  |  Definition   
 ---|---  
 `type` |  either `T` or no such member, depending on the value of `B`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/enable_if&action=edit&section=2 "Edit section: Helper types")] Helper types
+### Helper types
 
 template< bool B, class T = void >  
 using enable_if_t = typename enable_if<B,T>::type; |  |  (since C++14)  
 ---|---|---  
 | |   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/enable_if&action=edit&section=3 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     template<bool B, class T = void>
@@ -225,7 +225,7 @@ using enable_if_t = typename enable_if<B,T>::type; |  |  (since C++14)
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/enable_if&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 A common mistake is to declare two function templates that differ only in their default template arguments. This does not work because the declarations are treated as redeclarations of the same function template (default template arguments are not accounted for in [function template equivalence](../language/function_template.html#Function_template_overloading "cpp/language/function template")). 
     
@@ -289,7 +289,7 @@ Care should be taken when using `enable_if` in the type of a constant template p
 
 The function templates #1 and #3 have different signatures and are distinct templates. Nonetheless, #2 and #4, despite being instantiations of different function templates, have the same mangled name [in the Itanium C++ ABI](https://github.com/itanium-cxx-abi/cxx-abi/issues/20) (`_Z4funcI1XLi0EEvv`), meaning that the linker will erroneously consider them to be the same entity. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/enable_if&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -398,10 +398,10 @@ Output:
     constructing T with operation
     destroying non-trivially destructible T
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/enable_if&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ void_t](void_t.html "cpp/types/void t")(C++17) |  void variadic alias template   
-(alias template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_void_t&action=edit)  
+(alias template)  
 ---|---  
   
   * [`static_assert`](../language/static_assert.html "cpp/language/static assert")

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::enumerate_view`](../enumerate_view.html "cpp/ranges/enumerate view")
 
@@ -261,7 +261,7 @@ operator-(enumerate_view::_iterator_)](iterator/operator_arith2.html "cpp/ranges
 [operator==(enumerate_view::_iterator_ ,enumerate_view::_sentinel_)](sentinel/operator_cmp.html "cpp/ranges/enumerate view/sentinel/operator cmp")  
 [operator-(enumerate_view::_iterator_ ,enumerate_view::_sentinel_)](sentinel/operator-.html "cpp/ranges/enumerate view/sentinel/operator-")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/enumerate_view/navbar_content&action=edit)
+
 
 template< bool Const >  
 class /*iterator*/ |  |  (since C++23)   
@@ -285,7 +285,7 @@ The type /*iterator*/<true> is returned by the const-qualified overloads. The ty
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/enumerate_view/iterator&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Member type  |  Definition   
 ---|---  
@@ -305,7 +305,7 @@ Member type  |  Definition
 `_reference-type_` (private) |  [std::tuple](../../utility/tuple.html)<difference_type, [ranges::range_reference_t](../range_reference_t.html)<Base>>  
 (exposition-only member type*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/enumerate_view/iterator&action=edit&section=2 "Edit section: Data members")] Data members
+### Data members
 
 Member name  |  Definition   
 ---|---  
@@ -314,7 +314,7 @@ Member name  |  Definition
 `_pos__` (private) |  A current index of type `difference_type`  
 (exposition-only member object*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/enumerate_view/iterator&action=edit&section=3 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](iterator/iterator.html "cpp/ranges/enumerate view/iterator/iterator") |  constructs an iterator   
 (public member function)  
@@ -328,9 +328,9 @@ Member name  |  Definition
 [ operator[]](iterator/operator_at.html "cpp/ranges/enumerate view/iterator/operator at") |  accesses an element by index   
 (public member function)  
 [ operator++operator++(int)operator--operator--(int)operator+=operator-=](iterator/operator_arith.html "cpp/ranges/enumerate view/iterator/operator arith") |  advances or decrements the underlying iterator   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/iterator/dsc_operator_arith&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/enumerate_view/iterator&action=edit&section=4 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ operator==operator<=>](iterator/operator_cmp.html "cpp/ranges/enumerate view/iterator/operator cmp")(C++23) |  compares the underlying iterators   
 (function)  
@@ -340,13 +340,13 @@ Member name  |  Definition
 [ iter_move](iterator/iter_move.html "cpp/ranges/enumerate view/iterator/iter move")(C++23) |  casts the result of dereferencing the underlying iterator to its associated rvalue reference type   
 (function)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/enumerate_view/iterator&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/enumerate_view/iterator&action=edit&section=6 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 

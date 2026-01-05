@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Diagnostics library](../../error.html "cpp/error")
 
@@ -187,7 +187,7 @@ Exception handling failures
 [breakpoint_if_debugging](../../utility/breakpoint_if_debugging.html "cpp/utility/breakpoint if debugging")(C++26)  
 [breakpoint](../../utility/breakpoint.html "cpp/utility/breakpoint")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/navbar_content&action=edit)
+
 
 [`std::error_condition`](../error_condition.html "cpp/error/error condition")
 
@@ -207,7 +207,7 @@ Helper classes
 **is_error_condition_enum**  
 [hash<std::error_condition>](hash.html "cpp/error/error condition/hash")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/error_condition/navbar_content&action=edit)
+
 
 Defined in header `[<system_error>](../../header/system_error.html "cpp/header/system error")` |  |   
 ---|---|---  
@@ -231,7 +231,7 @@ This template may be specialized for a [program-defined type](../../language/typ
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/error_condition/is_error_condition_enum&action=edit&section=1 "Edit section: Helper variable template")] Helper variable template
+### Helper variable template
 
 template< class T >  
 inline constexpr bool is_error_condition_enum_v =  
@@ -239,7 +239,7 @@ is_error_condition_enum<T>::value; |  |  (since C++17)
 ---|---|---  
 | |   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/integral_constant/inherit2&action=edit)
+
 
 ##  Inherited from [ std::integral_constant](../../types/integral_constant.html "cpp/types/integral constant")
 
@@ -264,8 +264,8 @@ Type  |  Definition
 `value_type` |  bool  
 `type` |  [std::integral_constant](../../types/integral_constant.html)<bool, value>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/error_condition/is_error_condition_enum&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ is_error_code_enum](../error_code/is_error_code_enum.html "cpp/error/error code/is error code enum")(C++11) |  identifies a class as an `error_code` enumeration   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/error_code/dsc_is_error_code_enum&action=edit)  
+(class template)   
 ---|---

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::shared_future`](../shared_future.html "cpp/thread/shared future")
 
@@ -190,7 +190,7 @@ State
 [shared_future::wait_for](wait_for.html "cpp/thread/shared future/wait for")  
 [shared_future::wait_until](wait_until.html "cpp/thread/shared future/wait until")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/shared_future/navbar_content&action=edit)
+
 
 Main template |  |   
 ---|---|---  
@@ -216,7 +216,7 @@ If [valid()](valid.html "cpp/thread/shared future/valid") is false before the ca
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/shared_future/get&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 1) A const reference to the value stored in the shared state. The behavior of accessing the value through this reference after the shared state has been destroyed is undefined.
 
@@ -224,22 +224,22 @@ If [valid()](valid.html "cpp/thread/shared future/valid") is false before the ca
 
 3) (none)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/shared_future/get&action=edit&section=2 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 If an exception was stored in the shared state referenced by the future (e.g. via a call to [`std::promise::set_exception()`](../promise/set_exception.html "cpp/thread/promise/set exception")) then that exception will be thrown. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/shared_future/get&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 The C++ standard recommends the implementations to detect the case when [valid()](valid.html "cpp/thread/shared future/valid") is false before the call and throw a [std::future_error](../future_error.html "cpp/thread/future error") with an error condition of [std::future_errc::no_state](../future_errc.html "cpp/thread/future errc"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/shared_future/get&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/shared_future/get&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ valid](valid.html "cpp/thread/shared future/valid") |  checks if the future has a shared state   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/future/dsc_valid&action=edit)  
+(public member function)   
 ---|---

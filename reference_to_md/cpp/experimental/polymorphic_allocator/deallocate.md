@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Library fundamentals](../memory.html "cpp/experimental/lib extensions")
 
@@ -50,7 +50,7 @@
 [Type-erased and polymorphic allocators](../memory.html "cpp/experimental/memory")  
 [Variable templates for type traits](../type_trait_variable_templates.html "cpp/experimental/type trait variable templates")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions/navbar_content&action=edit)
+
 
 [Polymorphic allocator library](../memory.html "cpp/experimental/memory")
 
@@ -73,7 +73,7 @@ Type-erased allocator support for existing classes
 [packaged_task](../lib_extensions/packaged_task.html "cpp/experimental/lib extensions/packaged task")  
 [promise](../lib_extensions/promise.html "cpp/experimental/lib extensions/promise")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions/pmr/navbar_content&action=edit)
+
 
 [`std::experimental::pmr::polymorphic_allocator`](../polymorphic_allocator.html "cpp/experimental/polymorphic allocator")
 
@@ -90,7 +90,7 @@ Member functions
 Non-member functions  
 [operator==operator!=](operator_eq.html "cpp/experimental/polymorphic allocator/operator eq")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions/pmr/polymorphic_allocator/navbar_content&action=edit)
+
 
 void deallocate( T* p, [std::size_t](../../types/size_t.html) n ); |  |  (library fundamentals TS)  
 ---|---|---  
@@ -100,20 +100,20 @@ Deallocates the storage pointed to by p, which must have been allocated from a [
 
 Equivalent to this->resource()->deallocate(p, n * sizeof(T), alignof(T));. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/polymorphic_allocator/deallocate&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 p  |  \-  |  pointer to memory to deallocate   
 ---|---|---  
 n  |  \-  |  the number of objects originally allocated   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/polymorphic_allocator/deallocate&action=edit&section=2 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Throws nothing. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/polymorphic_allocator/deallocate&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ deallocate](../../memory/allocator_traits/deallocate.html "cpp/memory/allocator traits/deallocate")[static] |  deallocates storage using the allocator   
-(public static member function of `std::allocator_traits<Alloc>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/allocator_traits/dsc_deallocate&action=edit)  
+(public static member function of `std::allocator_traits<Alloc>`)   
 ---|---  
 [ deallocate](../memory_resource/deallocate.html "cpp/experimental/memory resource/deallocate") |  deallocates memory   
-(public member function of `std::experimental::pmr::memory_resource`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/memory_resource/dsc_deallocate&action=edit)
+(public member function of `std::experimental::pmr::memory_resource`) 

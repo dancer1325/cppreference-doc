@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -71,7 +71,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::inplace_vector`](../inplace_vector.html "cpp/container/inplace vector")
 
@@ -132,7 +132,7 @@ Tables
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/inplace_vector/navbar_content&action=edit)
+
 
 constexpr inplace_vector& operator=( const inplace_vector& other ); |  (1)  |  (since C++26)  
 ---|---|---  
@@ -160,19 +160,19 @@ Replaces the contents of the `inplace_vector`.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/inplace_vector/operator%3D&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 other  |  \-  |  another `inplace_vector` to be used as source to initialize the elements of the container with   
 ---|---|---  
 init  |  \-  |  initializer list to initialize the elements of the container with   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/inplace_vector/operator%3D&action=edit&section=2 "Edit section: Complexity")] Complexity
+### Complexity
 
 1,2) Linear in the size of *this and other.
 
 3) Linear in the size of *this and init.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/inplace_vector/operator%3D&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 2)
 
@@ -188,7 +188,7 @@ noexcept(N == 0 ||
 
 3) Throws [std::bad_alloc](../../memory/new/bad_alloc.html "cpp/memory/new/bad alloc") if init.size() > N.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/inplace_vector/operator%3D&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -258,10 +258,10 @@ Possible output:
     Assignment of initializer_list with size bigger than N throws:
     ex.what(): std::bad_alloc
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/inplace_vector/operator%3D&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ (constructor)](inplace_vector.html "cpp/container/inplace vector/inplace vector") |  constructs the `inplace_vector`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ assign](assign.html "cpp/container/inplace vector/assign") |  assigns values to the container   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_assign&action=edit)
+(public member function) 

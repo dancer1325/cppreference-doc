@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 Defined in header `[<ranges>](../header/ranges.html "cpp/header/ranges")` |  |   
 ---|---|---  
@@ -242,7 +242,7 @@ The `viewable_range` concept is a refinement of [`range`](range.html "cpp/ranges
 
 The constant /*is-initializer-list*/<T> is true if and only if [std::remove_cvref_t](../types/remove_cvref.html)<T> is a specialization of [std::initializer_list](../utility/initializer_list.html "cpp/utility/initializer list"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/viewable_range&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -286,7 +286,7 @@ Run this code
         });
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/viewable_range&action=edit&section=2 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -295,8 +295,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [LWG 3481](https://cplusplus.github.io/LWG/issue3481) | C++20  | `viewable_range` accepted an lvalue of a move-only view  | rejects   
 [P2415R2](https://wg21.link/P2415R2) | C++20  | `viewable_range` only accepted non-[`view`](view.html "cpp/ranges/view") rvalues that are [`borrowed_range`](borrowed_range.html "cpp/ranges/borrowed range") | accepts more types   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/viewable_range&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ views::all_tviews::all](all_view.html "cpp/ranges/all view")(C++20) |  a [`view`](view.html "cpp/ranges/view") that includes all elements of a [`range`](range.html "cpp/ranges/range")  
-(alias template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_all_view&action=edit)  
+(alias template) (range adaptor object)  
 ---|---

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header is part of the [compile-time rational arithmetic](../utility/ratio.html "cpp/numeric/ratio") library. 
 
@@ -214,33 +214,33 @@ This header is part of the [compile-time rational arithmetic](../utility/ratio.h
 ###  Classes  
   
 [ ratio](../numeric/ratio/ratio.html "cpp/numeric/ratio/ratio")(C++11) |  represents exact rational fraction   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/ratio/dsc_ratio&action=edit)  
+(class template)   
   
 #####  Arithmetic   
   
 [ ratio_add](../numeric/ratio/ratio_add.html "cpp/numeric/ratio/ratio add")(C++11) |  adds two `ratio` objects at compile-time  
-(alias template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/ratio/dsc_ratio_add&action=edit)  
+(alias template)  
 [ ratio_subtract](../numeric/ratio/ratio_subtract.html "cpp/numeric/ratio/ratio subtract")(C++11) |  subtracts two `ratio` objects at compile-time  
-(alias template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/ratio/dsc_ratio_subtract&action=edit)  
+(alias template)  
 [ ratio_multiply](../numeric/ratio/ratio_multiply.html "cpp/numeric/ratio/ratio multiply")(C++11) |  multiplies two `ratio` objects at compile-time  
-(alias template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/ratio/dsc_ratio_multiply&action=edit)  
+(alias template)  
 [ ratio_divide](../numeric/ratio/ratio_divide.html "cpp/numeric/ratio/ratio divide")(C++11) |  divides two `ratio` objects at compile-time  
-(alias template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/ratio/dsc_ratio_divide&action=edit)  
+(alias template)  
   
 #####  Comparison   
   
 [ ratio_equal](../numeric/ratio/ratio_equal.html "cpp/numeric/ratio/ratio equal")(C++11) |  compares two `ratio` objects for equality at compile-time   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/ratio/dsc_ratio_equal&action=edit)  
+(class template)   
 [ ratio_not_equal](../numeric/ratio/ratio_not_equal.html "cpp/numeric/ratio/ratio not equal")(C++11) |  compares two `ratio` objects for inequality at compile-time   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/ratio/dsc_ratio_not_equal&action=edit)  
+(class template)   
 [ ratio_less](../numeric/ratio/ratio_less.html "cpp/numeric/ratio/ratio less")(C++11) |  compares two `ratio` objects for _less than_ at compile-time   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/ratio/dsc_ratio_less&action=edit)  
+(class template)   
 [ ratio_less_equal](../numeric/ratio/ratio_less_equal.html "cpp/numeric/ratio/ratio less equal")(C++11) |  compares two `ratio` objects for _less than or equal to_ at compile-time   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/ratio/dsc_ratio_less_equal&action=edit)  
+(class template)   
 [ ratio_greater](../numeric/ratio/ratio_greater.html "cpp/numeric/ratio/ratio greater")(C++11) |  compares two `ratio` objects for _greater than_ at compile-time   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/ratio/dsc_ratio_greater&action=edit)  
+(class template)   
 [ ratio_greater_equal](../numeric/ratio/ratio_greater_equal.html "cpp/numeric/ratio/ratio greater equal")(C++11) |  compares two `ratio` objects for _greater than or equal to_ at compile-time   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/ratio/dsc_ratio_greater_equal&action=edit)  
+(class template)   
   
 #####  Type Aliases   
   
@@ -270,7 +270,7 @@ This header is part of the [compile-time rational arithmetic](../utility/ratio.h
 `ronna` (C++26) |  [std::ratio](../numeric/ratio/ratio.html)<1000000000000000000000000000, 1>, if [std::intmax_t](../types/integer.html "cpp/types/integer") can represent the numerator   
 `quetta` (C++26) |  [std::ratio](../numeric/ratio/ratio.html)<1000000000000000000000000000000, 1>, if [std::intmax_t](../types/integer.html "cpp/types/integer") can represent the numerator   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/ratio&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     namespace std {

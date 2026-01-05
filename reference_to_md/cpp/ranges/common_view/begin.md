@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::common_view`](../common_view.html "cpp/ranges/common view")
 
@@ -238,7 +238,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
 [common_view::reserve_hint](reserve_hint.html "cpp/ranges/common view/reserve hint")(C++26)  
 [Deduction guides](deduction_guides.html "cpp/ranges/common view/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/common_view/navbar_content&action=edit)
+
 
 constexpr auto begin() requires (!/*simple_view*/<V>); |  (1)  |  (since C++20)  
 ---|---|---  
@@ -264,11 +264,11 @@ constexpr auto begin() const requires range<const V>; |  (2)  |  (since C++20)
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/common_view/begin&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 An iterator to the beginning of the underlying view. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/common_view/begin&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -296,7 +296,7 @@ Output:
     
     1 + 2 + 3 = 6
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/common_view/begin&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -304,12 +304,12 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 4012](https://cplusplus.github.io/LWG/issue4012) | C++20  | non-const overload missed simple-view check  | added   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/common_view/begin&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ end](end.html "cpp/ranges/common view/end") |  returns an iterator to the end   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/dsc_end&action=edit)  
+(public member function)   
 ---|---  
 [ ranges::begin](../begin.html "cpp/ranges/begin")(C++20) |  returns an iterator to the beginning of a range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_begin&action=edit)  
+(customization point object)  
 [ ranges::end](../end.html "cpp/ranges/end")(C++20) |  returns a sentinel indicating the end of a range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_end&action=edit)
+(customization point object)

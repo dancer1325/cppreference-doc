@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Strings library](../../string.html "cpp/string")
 
@@ -40,7 +40,7 @@ Classes
 [basic_string_view](../basic_string_view.html "cpp/string/basic string view")(C++17)  
 [char_traits](../char_traits.html "cpp/string/char traits")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/navbar_content&action=edit)
+
 
 [`std::basic_string`](../basic_string.html "cpp/string/basic string")
 
@@ -133,7 +133,7 @@ basic_string_view](operator_basic_string_view.html "cpp/string/basic string/oper
 [hash<std::basic_string>](hash.html "cpp/string/basic string/hash")(C++11)  
 [Deduction guides](deduction_guides.html "cpp/string/basic string/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/navbar_content&action=edit)
+
 
 basic_string& operator+=( const basic_string& str ); |  (1)  |  (constexpr since C++20)  
 ---|---|---  
@@ -175,7 +175,7 @@ This overload participates in overload resolution only if [std::is_convertible_v
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/operator%2B%3D&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 str  |  \-  |  string to append   
 ---|---|---  
@@ -184,25 +184,25 @@ s  |  \-  |  pointer to a null-terminated character string to append
 ilist  |  \-  |  [std::initializer_list](../../utility/initializer_list.html "cpp/utility/initializer list") with the characters to append   
 t  |  \-  |  object (convertible to [std::basic_string_view](../basic_string_view.html "cpp/string/basic string view")) with the characters to append   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/operator%2B%3D&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 *this
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/operator%2B%3D&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 There are no standard complexity guarantees, typical implementations behave similar to [`std::vector::insert()`](../../container/vector/insert.html "cpp/container/vector/insert"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/operator%2B%3D&action=edit&section=4 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 If the operation would cause [`size()`](size.html "cpp/string/basic string/size") to exceed [`max_size()`](max_size.html "cpp/string/basic string/max size"), throws [std::length_error](../../error/length_error.html "cpp/error/length error"). 
 
 If an exception is thrown for any reason, this function has no effect ([strong exception safety guarantee](../../language/exceptions.html#Exception_safety "cpp/language/exceptions")). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/operator%2B%3D&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 Overload ([2](operator+=.html#Version_2)) can accept any types that are implicitly convertible to `CharT`. For `std::string`, where `CharT` is char, the set of acceptable types includes all arithmetic types. This may have unintended effects. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/operator%2B%3D&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -252,7 +252,7 @@ Output:
     "This is a string."
     "This is a string.E1729"
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/operator%2B%3D&action=edit&section=7 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -261,8 +261,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [LWG 847](https://cplusplus.github.io/LWG/issue847) | C++98  | there was no exception safety guarantee  | added strong exception safety guarantee   
 [LWG 2946](https://cplusplus.github.io/LWG/issue2946) | C++17  | overload ([5](operator+=.html#Version_5)) caused ambiguity in some cases  | avoided by making it a template   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/operator%2B%3D&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [ append](append.html "cpp/string/basic string/append") |  appends characters to the end   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_append&action=edit)  
+(public member function)   
 ---|---

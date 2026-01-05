@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 Defined in header `[<chrono>](../header/chrono.html "cpp/header/chrono")` |  |   
 ---|---|---  
@@ -171,7 +171,7 @@ Implementations are recommended to make it difficult to use potentially dangling
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/parse&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 fmt  |  \-  |  a format string (see below)   
 ---|---|---  
@@ -179,7 +179,7 @@ tp  |  \-  |  object to hold the parse result
 abbrev  |  \-  |  string to hold the time zone abbreviation or name corresponding to the `%Z` specifier   
 offset  |  \-  |  duration to represent the offset from UTC corresponding to the `%z` specifier   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/parse&action=edit&section=2 "Edit section: Format string")] Format string
+### Format string
 
 The format string consists of zero or more conversion specifiers and ordinary characters. Each ordinary character, excluding whitespace characters and the terminating null character, matches one identical character from the input stream, or causes the function to fail if the next character on the stream does not compare equal. 
 
@@ -287,7 +287,7 @@ Miscellaneous
 `%Oz` |  Parses the offset from UTC in the format `[+|-]hh[mm]`. For example `-0430` refers to 4 hours 30 minutes behind UTC and `04` refers to 4 hours ahead of UTC. The modified commands `%Ez` and `%Oz` parses the format `[+|-]h[h][:mm]` (i.e., requiring a `:` between the hours and minutes and making the leading zero for hour optional).   
 `%Z` |  Parses the time zone abbreviation or name, taken as the longest sequence of characters that only contains the characters `A` through `Z`, `a` through `z`, `0` through `9`, `-`, `+`, `_`, and `/`.   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/parse&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -318,7 +318,7 @@ Possible output:
     62min
     3723s
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/parse&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -326,34 +326,34 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 3554](https://cplusplus.github.io/LWG/issue3554) | C++20  | overloads for plain null-terminated character type sequences were missing  | added   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/parse&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ from_stream(std::chrono::sys_time)](system_clock/from_stream.html "cpp/chrono/system clock/from stream")(C++20) |  parses a `sys_time` from a stream according to the provided format   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_point/dsc_from_stream&action=edit)  
+(function template)   
 ---|---  
 [ from_stream(std::chrono::utc_time)](utc_clock/from_stream.html "cpp/chrono/utc clock/from stream")(C++20) |  parses a `utc_time` from a stream according to the provided format   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_point/dsc_from_stream&action=edit)  
+(function template)   
 [ from_stream(std::chrono::tai_time)](tai_clock/from_stream.html "cpp/chrono/tai clock/from stream")(C++20) |  parses a `tai_time` from a stream according to the provided format   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_point/dsc_from_stream&action=edit)  
+(function template)   
 [ from_stream(std::chrono::gps_time)](gps_clock/from_stream.html "cpp/chrono/gps clock/from stream")(C++20) |  parses a `gps_time` from a stream according to the provided format   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_point/dsc_from_stream&action=edit)  
+(function template)   
 [ from_stream(std::chrono::file_time)](file_clock/from_stream.html "cpp/chrono/file clock/from stream")(C++20) |  parses a `file_time` from a stream according to the provided format   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_point/dsc_from_stream&action=edit)  
+(function template)   
 [ from_stream(std::chrono::local_time)](local_t/from_stream.html "cpp/chrono/local t/from stream")(C++20) |  parses a `local_time` from a stream according to the provided format   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_point/dsc_from_stream&action=edit)  
+(function template)   
 [ from_stream](year/from_stream.html "cpp/chrono/year/from stream")(C++20) |  parses a `year` from a stream according to the provided format   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/year/dsc_from_stream&action=edit)  
+(function template)   
 [ from_stream](month/from_stream.html "cpp/chrono/month/from stream")(C++20) |  parses a `month` from a stream according to the provided format   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/month/dsc_from_stream&action=edit)  
+(function template)   
 [ from_stream](day/from_stream.html "cpp/chrono/day/from stream")(C++20) |  parses a `day` from a stream according to the provided format   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/day/dsc_from_stream&action=edit)  
+(function template)   
 [ from_stream](weekday/from_stream.html "cpp/chrono/weekday/from stream")(C++20) |  parses a `weekday` from a stream according to the provided format   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/weekday/dsc_from_stream&action=edit)  
+(function template)   
 [ from_stream](month_day/from_stream.html "cpp/chrono/month day/from stream")(C++20) |  parses a `month_day` from a stream according to the provided format   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/month_day/dsc_from_stream&action=edit)  
+(function template)   
 [ from_stream](year_month/from_stream.html "cpp/chrono/year month/from stream")(C++20) |  parses a `year_month` from a stream according to the provided format   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/year_month/dsc_from_stream&action=edit)  
+(function template)   
 [ from_stream](year_month_day/from_stream.html "cpp/chrono/year month day/from stream")(C++20) |  parses a `year_month_day` from a stream according to the provided format   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/year_month_day/dsc_from_stream&action=edit)  
+(function template)   
 [ get_time](../io/manip/get_time.html "cpp/io/manip/get time")(C++11) |  parses a date/time value of specified format   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_get_time&action=edit)
+(function template) 

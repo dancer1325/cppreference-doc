@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header is part of the [input/output](../io.html "cpp/io") library. 
 
@@ -217,14 +217,14 @@ This header is part of the [input/output](../io.html "cpp/io") library.
   
 [ basic_istream](../io/basic_istream.html "cpp/io/basic istream") |  wraps a given abstract device ([std::basic_streambuf](../io/basic_streambuf.html "cpp/io/basic streambuf"))  
 and provides high-level input interface   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_basic_istream&action=edit)  
+(class template)   
 [std::istream](../io/basic_istream.html "cpp/io/basic istream") |  [std::basic_istream](../io/basic_istream.html)<char>  
 (typedef)  
 [std::wistream](../io/basic_istream.html "cpp/io/basic istream") |  [std::basic_istream](../io/basic_istream.html)<wchar_t>  
 (typedef)  
 [ basic_iostream](../io/basic_iostream.html "cpp/io/basic iostream") |  wraps a given abstract device ([std::basic_streambuf](../io/basic_streambuf.html "cpp/io/basic streambuf"))  
 and provides high-level input/output interface   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_basic_iostream&action=edit)  
+(class template)   
 [std::iostream](../io/basic_iostream.html "cpp/io/basic iostream") |  [std::basic_iostream](../io/basic_iostream.html)<char>  
 (typedef)  
 [std::wiostream](../io/basic_iostream.html "cpp/io/basic iostream") |  [std::basic_iostream](../io/basic_iostream.html)<wchar_t>  
@@ -233,14 +233,14 @@ and provides high-level input/output interface
 ###  Functions  
   
 [ operator>>(std::basic_istream)](../io/basic_istream/operator_gtgt2.html "cpp/io/basic istream/operator gtgt2") |  extracts characters and character arrays   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_istream/dsc_operator_gtgt2&action=edit)  
+(function template)   
   
 #####  Manipulators   
   
 [ ws](../io/manip/ws.html "cpp/io/manip/ws") |  consumes whitespace   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_ws&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/istream&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     namespace std {
@@ -263,7 +263,7 @@ and provides high-level input/output interface
         Istream&& operator>>(Istream&& is, T&& x);
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/istream&action=edit&section=T-1 "Template:cpp/synopsis/istream")] Class template [std::basic_istream](../io/basic_istream.html "cpp/io/basic istream")
+#### Class template [std::basic_istream](../io/basic_istream.html "cpp/io/basic istream")
     
     
     namespace std {
@@ -358,7 +358,7 @@ and provides high-level input/output interface
         basic_istream<char, Traits>& operator>>(basic_istream<char, Traits>&, signed char(&)[N]);
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/istream&action=edit&section=T-2 "Template:cpp/synopsis/istream")] Class [std::basic_istream::sentry](../io/basic_istream/sentry.html "cpp/io/basic istream/sentry")
+#### Class [std::basic_istream::sentry](../io/basic_istream/sentry.html "cpp/io/basic istream/sentry")
     
     
     namespace std {
@@ -374,7 +374,7 @@ and provides high-level input/output interface
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/istream&action=edit&section=T-3 "Template:cpp/synopsis/istream")] Class template [std::basic_iostream](../io/basic_iostream.html "cpp/io/basic iostream")
+#### Class template [std::basic_iostream](../io/basic_iostream.html "cpp/io/basic iostream")
     
     
     namespace std {

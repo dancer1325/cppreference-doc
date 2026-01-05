@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](../language/history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [Keywords](../keywords.html "cpp/keyword")
 
@@ -340,9 +340,9 @@ Identifiers with special meaning
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/keyword/navbar_content&action=edit)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/keyword/decltype&action=edit&section=1 "Edit section: Usage")] Usage
+
+### Usage
 
   * [`decltype` specifier](../language/decltype.html "cpp/language/decltype")
 
@@ -353,14 +353,14 @@ Identifiers with special meaning
 | (since C++14)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/keyword/decltype&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../utility/feature_test.html "cpp/utility/feature test") macro  | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_decltype`](../experimental/feature_test.html#cpp_decltype "cpp/feature test") | [`200707L`](../compiler_support/11.html#cpp_decltype_200707L "cpp/compiler support/11") | (C++11) | `decltype`  
 [`__cpp_decltype_auto`](../experimental/feature_test.html#cpp_decltype_auto "cpp/feature test") | [`201304L`](../compiler_support/14.html#cpp_decltype_auto_201304L "cpp/compiler support/14") | (C++14) | [Return type deduction for normal functions](../language/auto.html "cpp/language/auto")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/keyword/decltype&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
   * [`auto`](../keyword/auto.html "cpp/keyword/auto") (`auto` placeholder type specifier)
 

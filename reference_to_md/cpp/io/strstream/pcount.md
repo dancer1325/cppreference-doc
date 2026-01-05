@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -79,7 +79,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::strstream`](../strstream.html "cpp/io/strstream")
 
@@ -92,7 +92,7 @@ Member functions
 **strstream::pcount**  
 [strstream::freeze](freeze.html "cpp/io/strstream/freeze")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/strstream/navbar_content&action=edit)
+
 
 int pcount() const; |  |  (deprecated in C++98)   
 (removed in C++26)  
@@ -111,15 +111,15 @@ Returns the number of characters that were output in the put area of the associa
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/strstream/pcount&action=edit&section=T-1 "Template:cpp/io/strstream/pcount")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/strstream/pcount&action=edit&section=T-2 "Template:cpp/io/strstream/pcount")] Return value
+### Return value
 
 The number of characters in the put area, or zero if nothing was output. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/strstream/pcount&action=edit&section=T-3 "Template:cpp/io/strstream/pcount")] Example
+### Example
 
 Run this code
     
@@ -148,8 +148,8 @@ Output:
     The size of the output is 11 and it holds "Test: 1.23"
     1.23
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/strstream/pcount&action=edit&section=T-4 "Template:cpp/io/strstream/pcount")] See also
+### See also
 
 [ pcount](../strstreambuf/pcount.html "cpp/io/strstreambuf/pcount") |  returns the next pointer minus the beginning pointer in the output sequence: the number of characters written   
-(public member function of `std::strstreambuf`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/strstreambuf/dsc_pcount&action=edit)  
+(public member function of `std::strstreambuf`)   
 ---|---

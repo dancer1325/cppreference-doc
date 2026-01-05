@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::optional`](../optional.html "cpp/utility/optional")
 
@@ -167,7 +167,7 @@ Common vocabulary types
 **nullopt**  
 [in_place](../in_place.html "cpp/utility/in place")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/navbar_content&action=edit)
+
 
 Defined in header `[<optional>](../../header/optional.html "cpp/header/optional")` |  |   
 ---|---|---  
@@ -176,8 +176,8 @@ inline constexpr nullopt_t nullopt{/*unspecified*/}; |  |  (since C++17)
   
 `std::nullopt` is a constant of type [std::nullopt_t](nullopt_t.html "cpp/utility/optional/nullopt t"). Used to indicate that an `std::optional` does not contain a value. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/nullopt&action=edit&section=1 "Edit section: See also")] See also
+### See also
 
 [ nullopt_t](nullopt_t.html "cpp/utility/optional/nullopt t")(C++17) |  indicator of an `std::optional` that does not contain a value   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/dsc_nullopt_t&action=edit)  
+(class)   
 ---|---

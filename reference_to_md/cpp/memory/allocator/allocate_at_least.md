@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::allocator`](../allocator.html "cpp/memory/allocator")
 
@@ -202,7 +202,7 @@ Member functions
 Non-member functions  
 [operator==operator!=](operator_cmp.html "cpp/memory/allocator/operator cmp")(until C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/allocator/navbar_content&action=edit)
+
 
 constexpr [std::allocation_result](../allocation_result.html)<T*, [std::size_t](../../types/size_t.html)>  
 allocate_at_least( [std::size_t](../../types/size_t.html) n ); |  |  (since C++23)  
@@ -229,20 +229,20 @@ Use of this function is ill-formed if `T` is an [incomplete type](../../language
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/allocator/allocate_at_least&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 n  |  \-  |  the lower bound of number of objects to allocate storage for   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/allocator/allocate_at_least&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 [std::allocation_result](../allocation_result.html)<T*>{p, count}, where `p` points to the first element of an array of `count` objects of type `T` whose elements have not been constructed yet. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/allocator/allocate_at_least&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Throws [std::bad_array_new_length](../new/bad_array_new_length.html "cpp/memory/new/bad array new length") if [std::numeric_limits](../../types/numeric_limits.html)<[std::size_t](../../types/size_t.html)>::max() / sizeof(T) < n, or [std::bad_alloc](../new/bad_alloc.html "cpp/memory/new/bad alloc") if allocation fails. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/allocator/allocate_at_least&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 `allocate_at_least` is mainly provided for contiguous containers, e.g. [std::vector](../../container/vector.html "cpp/container/vector") and [std::basic_string](../../string/basic_string.html "cpp/string/basic string"), in order to reduce reallocation by making their capacity match the actually allocated size when possible. 
 
@@ -254,7 +254,7 @@ After calling [`allocate_at_least`](allocate_at_least.html#top) and before const
 ---|---|---|---  
 [`__cpp_lib_allocate_at_least`](../../experimental/feature_test.html#cpp_lib_allocate_at_least "cpp/feature test") | [`202302L`](../../compiler_support/23.html#cpp_lib_allocate_at_least_202302L "cpp/compiler support/23") | (C++23) | `allocate_at_least` etc.   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/allocator/allocate_at_least&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -283,12 +283,12 @@ Possible output:
     res.ptr: 0x555a486a0960
     res.count: 96
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/allocator/allocate_at_least&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ allocation_result](../allocation_result.html "cpp/memory/allocation result")(C++23) |  records the address and the actual size of storage allocated by `allocate_at_least`   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_allocation_result&action=edit)  
+(class template)   
 ---|---  
 [ allocate_at_least](../allocator_traits/allocate_at_least.html "cpp/memory/allocator traits/allocate at least")[static] (C++23) |  allocates storage at least as large as the requested size via an allocator   
-(public static member function of `std::allocator_traits<Alloc>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/allocator_traits/dsc_allocate_at_least&action=edit)
+(public static member function of `std::allocator_traits<Alloc>`) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

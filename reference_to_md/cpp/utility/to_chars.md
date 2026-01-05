@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 Defined in header `[<charconv>](../header/charconv.html "cpp/header/charconv")` |  |   
 ---|---|---  
@@ -99,7 +99,7 @@ Converts value into a character string by successively filling the range `[`firs
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/to_chars&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  character range to write to   
 ---|---|---  
@@ -108,17 +108,17 @@ base  |  \-  |  integer base to use: a value between 2 and 36 (inclusive).
 fmt  |  \-  |  floating-point formatting to use, a bitmask of type [`std::chars_format`](chars_format.html "cpp/utility/chars format")  
 precision  |  \-  |  floating-point precision to use   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/to_chars&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 On success, returns a value of type [`std::to_chars_result`](to_chars_result.html "cpp/utility/to chars result") such that `ec` equals value-initialized [std::errc](../error/errc.html "cpp/error/errc") and `ptr` is the one-past-the-end pointer of the characters written. Note that the string is _not_ NUL-terminated. 
 
 On error, returns a value of type [`std::to_chars_result`](to_chars_result.html "cpp/utility/to chars result") holding [std::errc::value_too_large](../error/errc.html "cpp/error/errc") in `ec`, a copy of the value last in `ptr`, and leaves the contents of the range `[`first`, `last`)` in unspecified state. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/to_chars&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Throws nothing. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/to_chars&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 Unlike other formatting functions in C++ and C libraries, `std::to_chars` is locale-independent, non-allocating, and non-throwing. Only a small subset of formatting policies used by other libraries (such as [std::sprintf](../io/c/printf.html "cpp/io/c/fprintf")) is provided. This is intended to allow the fastest possible implementation that is useful in common high-throughput contexts such as text-based interchange ([JSON](https://en.wikipedia.org/wiki/JSON "enwiki:JSON") or [XML](https://en.wikipedia.org/wiki/XML "enwiki:XML")). 
 
@@ -132,7 +132,7 @@ To format a bool value as "0"/"1" using `std::to_chars`, the value must be cast 
 [`202306L`](../compiler_support/26.html#cpp_lib_to_chars_202306L "cpp/compiler support/26") | (C++26) | Testing for success or failure of [`<charconv>`](../header/charconv.html "cpp/header/charconv") functions   
 [`__cpp_lib_constexpr_charconv`](../experimental/feature_test.html#cpp_lib_constexpr_charconv "cpp/feature test") | [`202207L`](../compiler_support/23.html#cpp_lib_constexpr_charconv_202207L "cpp/compiler support/23") | (C++23) | Add constexpr modifiers to `std::to_chars` and [`std::from_chars`](from_chars.html "cpp/utility/from chars") overloads ([1](to_chars.html#Version_1)) for integral types   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/to_chars&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -176,7 +176,7 @@ Possible output:
     "-3.142e+00"
     Value too large for defined data type
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/to_chars&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -186,18 +186,18 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [LWG 3266](https://cplusplus.github.io/LWG/issue3266) | C++17  | bool argument was accepted and promoted to int | rejected by a deleted overload   
 [LWG 3373](https://cplusplus.github.io/LWG/issue3373) | C++17  | `std::to_chars_result` might have additional members  | additional members are disallowed   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/to_chars&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ to_chars_result](to_chars_result.html "cpp/utility/to chars result")(C++17) |  the return type of **`std::to_chars`**   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_to_chars_result&action=edit)  
+(class)   
 ---|---  
 [ from_chars](from_chars.html "cpp/utility/from chars")(C++17) |  converts a character sequence to an integer or floating-point value   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_from_chars&action=edit)  
+(function)   
 [ to_string](../string/basic_string/to_string.html "cpp/string/basic string/to string")(C++11) |  converts an integral or floating-point value to `string`   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_to_string&action=edit)  
+(function)   
 [ printffprintfsprintfsnprintf](../io/c/printf.html "cpp/io/c/fprintf")(C++11) |  prints formatted output to [stdout](../io/c/std_streams.html "cpp/io/c/std streams"), a file stream or a buffer   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_fprintf&action=edit)  
+(function)   
 [ operator<<](../io/basic_ostream/operator_ltlt.html "cpp/io/basic ostream/operator ltlt") |  inserts formatted data   
-(public member function of `std::basic_ostream<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ostream/dsc_operator_ltlt&action=edit)
+(public member function of `std::basic_ostream<CharT,Traits>`) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

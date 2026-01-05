@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 **`std::pmr::synchronized_pool_resource`**
 
@@ -200,7 +200,7 @@ Protected member functions
 [synchronized_pool_resource::do_deallocate](synchronized_pool_resource/do_deallocate.html "cpp/memory/synchronized pool resource/do deallocate")  
 [synchronized_pool_resource::do_is_equal](synchronized_pool_resource/do_is_equal.html "cpp/memory/synchronized pool resource/do is equal")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/synchronized_pool_resource/navbar_content&action=edit)
+
 
 Defined in header `[<memory_resource>](../header/memory_resource.html "cpp/header/memory resource")` |  |   
 ---|---|---  
@@ -220,30 +220,30 @@ The class `std::pmr::synchronized_pool_resource` is a general-purpose memory res
 
 `synchronized_pool_resource` may be accessed from multiple threads without external synchronization, and may have thread-specific pools to reduce synchronization costs. If the memory resource is only accessed from one thread, [`unsynchronized_pool_resource`](unsynchronized_pool_resource.html "cpp/memory/unsynchronized pool resource") is more efficient. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/synchronized_pool_resource&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](synchronized_pool_resource/synchronized_pool_resource.html "cpp/memory/synchronized pool resource/synchronized pool resource") |  constructs a `synchronized_pool_resource`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/synchronized_pool_resource/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ (destructor)](synchronized_pool_resource/~synchronized_pool_resource.html "cpp/memory/synchronized pool resource/~synchronized pool resource")[virtual] |  destroys a `synchronized_pool_resource`, releasing all allocated memory   
-(virtual public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/synchronized_pool_resource/dsc_destructor&action=edit)  
+(virtual public member function)   
 operator=[deleted] |  copy assignment operator is deleted. `synchronized_pool_resource` is not copy assignable   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/synchronized_pool_resource/dsc_operator%3D&action=edit)  
+(public member function)   
   
 #####  Public member functions   
   
 [ release](synchronized_pool_resource/release.html "cpp/memory/synchronized pool resource/release") |  release all allocated memory   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/synchronized_pool_resource/dsc_release&action=edit)  
+(public member function)   
 [ upstream_resource](synchronized_pool_resource/upstream_resource.html "cpp/memory/synchronized pool resource/upstream resource") |  returns a pointer to the upstream memory resource   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/synchronized_pool_resource/dsc_upstream_resource&action=edit)  
+(public member function)   
 [ options](synchronized_pool_resource/options.html "cpp/memory/synchronized pool resource/options") |  returns the options that control the pooling behavior of this resource   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/synchronized_pool_resource/dsc_options&action=edit)  
+(public member function)   
   
 #####  Protected member functions   
   
 [ do_allocate](synchronized_pool_resource/do_allocate.html "cpp/memory/synchronized pool resource/do allocate")[virtual] |  allocate memory   
-(virtual protected member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/synchronized_pool_resource/dsc_do_allocate&action=edit)  
+(virtual protected member function)   
 [ do_deallocate](synchronized_pool_resource/do_deallocate.html "cpp/memory/synchronized pool resource/do deallocate")[virtual] |  return memory to the pool   
-(virtual protected member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/synchronized_pool_resource/dsc_do_deallocate&action=edit)  
+(virtual protected member function)   
 [ do_is_equal](synchronized_pool_resource/do_is_equal.html "cpp/memory/synchronized pool resource/do is equal")[virtual] |  compare for equality with another `memory_resource`   
-(virtual protected member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/synchronized_pool_resource/dsc_do_is_equal&action=edit)
+(virtual protected member function) 

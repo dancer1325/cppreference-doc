@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 Defined in header `[<memory>](../../header/memory.html "cpp/header/memory")` |  |   
 ---|---|---  
@@ -205,21 +205,21 @@ Removes the reachable status of the object, referenced by the pointer p, if it w
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/gc/undeclare_reachable&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 p  |  \-  |  a pointer to an object previously declared reachable and not destructed since then   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/gc/undeclare_reachable&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 A safely-derived copy of p. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/gc/undeclare_reachable&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Throws nothing. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/gc/undeclare_reachable&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ declare_reachable](declare_reachable.html "cpp/memory/gc/declare reachable")(C++11)(removed in C++23) |  declares that an object can not be recycled   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/gc/dsc_declare_reachable&action=edit)  
+(function)   
 ---|---

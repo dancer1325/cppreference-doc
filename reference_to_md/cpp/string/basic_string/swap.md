@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Strings library](../../string.html "cpp/string")
 
@@ -40,7 +40,7 @@ Classes
 [basic_string_view](../basic_string_view.html "cpp/string/basic string view")(C++17)  
 [char_traits](../char_traits.html "cpp/string/char traits")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/navbar_content&action=edit)
+
 
 [`std::basic_string`](../basic_string.html "cpp/string/basic string")
 
@@ -133,7 +133,7 @@ basic_string_view](operator_basic_string_view.html "cpp/string/basic string/oper
 [hash<std::basic_string>](hash.html "cpp/string/basic string/hash")(C++11)  
 [Deduction guides](deduction_guides.html "cpp/string/basic string/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/navbar_content&action=edit)
+
 
 void swap( basic_string& other ); |  | (until C++17)  
 ---|---|---  
@@ -158,16 +158,16 @@ If [std::allocator_traits](../../memory/allocator_traits.html)<allocator_type>::
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/swap&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 other  |  \-  |  string to exchange the contents with   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/swap&action=edit&section=2 "Edit section: Complexity")] Complexity
+### Complexity
 
 Constant. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/swap&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 No exception is thrown.  | (until C++11)  
 ---|---  
@@ -180,7 +180,7 @@ No exception is thrown, unless the behavior is undefined. If an exception is thr
 [std::allocator_traits](../../memory/allocator_traits.html)<Allocator>::is_always_equal::value) | (since C++17)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/swap&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -215,7 +215,7 @@ Output:
     a = BBBB
     b = AAA
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/swap&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -228,12 +228,12 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 of unequal non-propagating allocators  | the behavior is  
 undefined in this case   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/swap&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ swap](../../utility/swap.html "cpp/algorithm/swap") |  swaps the values of two objects   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_swap&action=edit)  
+(function template)   
 ---|---  
 [ swap_ranges](../../algorithm/swap_ranges.html "cpp/algorithm/swap ranges") |  swaps two ranges of elements   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_swap_ranges&action=edit)  
+(function template)   
 [ swap](../basic_string_view/swap.html "cpp/string/basic string view/swap") |  swaps the contents   
-(public member function of `std::basic_string_view<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/dsc_swap&action=edit)
+(public member function of `std::basic_string_view<CharT,Traits>`) 

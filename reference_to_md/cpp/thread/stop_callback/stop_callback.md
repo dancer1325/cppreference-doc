@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::stop_callback`](../stop_callback.html "cpp/thread/stop callback")
 
@@ -183,7 +183,7 @@ Member functions
 [stop_callback::~stop_callback](~stop_callback.html "cpp/thread/stop callback/~stop callback")  
 [Deduction guides](deduction_guides.html "cpp/thread/stop callback/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/stop_callback/navbar_content&action=edit)
+
 
 template< class C >  
 explicit stop_callback( const [std::stop_token](../stop_token.html)& st, C&& cb ) noexcept(/*see below*/); |  (1)  |  (since C++20)  
@@ -204,13 +204,13 @@ Constructs a new `stop_callback` object, saving and registering the cb callback 
 
 Both constructors participate overload resolution only if `Callback` and `C` satisfy [`constructible_from`](../../concepts/constructible_from.html "cpp/concepts/constructible from") of [std::constructible_from](../../concepts/constructible_from.html)<Callback, C>. If `Callback` and `C` satisfy the concept but fail to satisfy its semantic requirement, the behavior is undefined. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/stop_callback/stop_callback&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 st  |  \-  |  a [`std::stop_token`](../stop_token.html "cpp/thread/stop token") object to register this `stop_callback` object with   
 ---|---|---  
 cb  |  \-  |  the type to invoke if stop is requested   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/stop_callback/stop_callback&action=edit&section=2 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 1,2)
 
@@ -220,6 +220,6 @@ noexcept([std::is_nothrow_constructible_v](../../types/is_constructible.html)<Ca
 
 Any exception thrown by constructor-initializing the given callback into the `stop_callback` object.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/stop_callback/stop_callback&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 If st.stop_requested() == true for the passed-in [`std::stop_token`](../stop_token.html "cpp/thread/stop token"), then the callback function is invoked in the current thread before the constructor returns. 

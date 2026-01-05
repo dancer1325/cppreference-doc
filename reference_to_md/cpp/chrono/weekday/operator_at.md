@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::weekday`](../weekday.html "cpp/chrono/weekday")
 
@@ -122,7 +122,7 @@ Helper classes
 [formatter<std::chrono::weekday>](formatter.html "cpp/chrono/weekday/formatter")  
 [formatter<std::chrono::hash>](hash.html "cpp/chrono/weekday/hash")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/weekday/navbar_content&action=edit)
+
 
 constexpr [std::chrono::weekday_indexed](../weekday_indexed.html)  
 operator[]( unsigned index ) const noexcept; |  (1)  |  (since C++20)  
@@ -135,13 +135,13 @@ operator[]( [std::chrono::last_spec](../last_spec.html) ) const noexcept; |  (2)
 
 2) Constructs a weekday_last from *this. The result represents the last weekday in some yet-to-be-specified month.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/weekday/operator_at&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 1) [std::chrono::weekday_indexed](../weekday_indexed.html)(*this, index)
 
 2) [std::chrono::weekday_last](../weekday_last.html)(*this)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/weekday/operator_at&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     

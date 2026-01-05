@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::thread`](../thread.html "cpp/thread/thread")
 
@@ -196,7 +196,7 @@
 [Non-member functions](../thread.html#Non-member_functions "cpp/thread/thread")  
 [swap(std::thread)](swap2.html "cpp/thread/thread/swap2")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/navbar_content&action=edit)
+
 
 ~thread(); |  |  (since C++11)  
 ---|---|---  
@@ -206,7 +206,7 @@ Destroys the thread object.
 
 If *this has an associated thread (joinable() == true), [std::terminate](../../error/terminate.html)() is called. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/thread/%7Ethread&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 A thread object does not have an associated thread (and is safe to destroy) after 
 
@@ -217,7 +217,7 @@ A thread object does not have an associated thread (and is safe to destroy) afte
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/thread/%7Ethread&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -236,8 +236,8 @@ Possible output:
     
     terminate called without an active exception
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/thread/%7Ethread&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ (destructor)](../jthread/~jthread.html "cpp/thread/jthread/~jthread") |  if the thread is joinable, then a stop is requested and the thread joins   
-(public member function of `std::jthread`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/jthread/dsc_destructor&action=edit)  
+(public member function of `std::jthread`)   
 ---|---

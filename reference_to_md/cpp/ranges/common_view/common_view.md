@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::common_view`](../common_view.html "cpp/ranges/common view")
 
@@ -238,7 +238,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
 [common_view::reserve_hint](reserve_hint.html "cpp/ranges/common view/reserve hint")(C++26)  
 [Deduction guides](deduction_guides.html "cpp/ranges/common view/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/common_view/navbar_content&action=edit)
+
 
 common_view() = default; |  (1)  |  (since C++20)  
 ---|---|---  
@@ -251,18 +251,18 @@ Constructs a `common_view`.
 
 2) Initializes the underlying view with std::move(r).
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/common_view/common_view&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 r  |  \-  |  underlying view to be adapted into a common-range   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/common_view/common_view&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/common_view/common_view&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ named requirements](../iterator/concepts.html "cpp/named req")
 
@@ -147,7 +147,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/named_req/navbar_content&action=edit)
+
 
 An **AssociativeContainer** is an ordered [Container](Container.html "cpp/named req/Container") that provides fast lookup of objects based on keys. 
 
@@ -166,7 +166,7 @@ An associative container supports _unique keys_ if it may contain at most one el
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/AssociativeContainer&action=edit&section=1 "Edit section: Requirements")] Requirements
+### Requirements
 
 #####  Legend   
   
@@ -216,7 +216,7 @@ The type `X` satisfies AssociativeContainer if
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/AssociativeContainer&action=edit&section=2 "Edit section: Types")] Types
+#### Types
 
 Name | Type | Requirements   
 ---|---|---  
@@ -237,7 +237,7 @@ Name | Type | Requirements
 | [BinaryPredicate](BinaryPredicate.html "cpp/named req/BinaryPredicate")  
 `node_type` | A specialization of the [node-handle class template](../container/node_handle.html "cpp/container/node handle"), such that the public nested types are the same types as the corresponding types in `X`.  |   
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/AssociativeContainer&action=edit&section=3 "Edit section: Member functions and operators")] Member functions and operators
+#### Member functions and operators
 
 Expression | Result | Preconditions | Effects | Returns | Complexity   
 ---|---|---|---|---|---  
@@ -329,7 +329,7 @@ const_iterator> for constant a_tran |  | Equivalent to: return
 a_tran.lower_bound(ke),  
 a_tran.upper_bound(ke)); |  | Logarithmic   
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/AssociativeContainer&action=edit&section=4 "Edit section: Iterators")] Iterators
+#### Iterators
 
 Iterators of associative containers satisfy the requirements of [LegacyBidirectionalIterator](BidirectionalIterator.html "cpp/named req/BidirectionalIterator"). 
 
@@ -348,21 +348,21 @@ If the distance from i to j is positive, then a.value_comp()(*j, *i) == false. A
 Reason: Finish requirements.   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/AssociativeContainer&action=edit&section=5 "Edit section: Standard library")] Standard library
+### Standard library
 
 The following standard library containers satisfy the AssociativeContainer requirements: 
 
 [ set](../container/set.html "cpp/container/set") |  collection of unique keys, sorted by keys   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_set&action=edit)  
+(class template)   
 ---|---  
 [ multiset](../container/multiset.html "cpp/container/multiset") |  collection of keys, sorted by keys   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_multiset&action=edit)  
+(class template)   
 [ map](../container/map.html "cpp/container/map") |  collection of key-value pairs, sorted by keys, keys are unique   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_map&action=edit)  
+(class template)   
 [ multimap](../container/multimap.html "cpp/container/multimap") |  collection of key-value pairs, sorted by keys   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_multimap&action=edit)  
+(class template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/AssociativeContainer&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

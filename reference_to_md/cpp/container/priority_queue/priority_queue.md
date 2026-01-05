@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -71,7 +71,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 `[std::priority_queue](../priority_queue.html "cpp/container/priority queue")`
 
@@ -98,7 +98,7 @@ Tables
 [formatter<std::priority_queue>](formatter.html "cpp/container/priority queue/formatter")(C++23)  
 [Deduction guides](deduction_guides.html "cpp/container/priority queue/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/priority_queue/navbar_content&action=edit)
+
 
 priority_queue() : priority_queue(Compare(), Container()) {} |  (1)  |  (since C++11)  
 ---|---|---  
@@ -218,7 +218,7 @@ Note that how an implementation checks whether a type satisfies [LegacyInputIter
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/priority_queue/priority_queue&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 alloc  |  \-  |  allocator to use for all memory allocations of the underlying container   
 ---|---|---  
@@ -233,7 +233,7 @@ Type requirements
 -`Container` must meet the requirements of [Container](../../named_req/Container.html "cpp/named req/Container"). The allocator-extended constructors are only defined if `Container` meets the requirements of [AllocatorAwareContainer](../../named_req/AllocatorAwareContainer.html "cpp/named req/AllocatorAwareContainer").   
 -`InputIt` must meet the requirements of [LegacyInputIterator](../../named_req/InputIterator.html "cpp/named req/InputIterator").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/priority_queue/priority_queue&action=edit&section=2 "Edit section: Complexity")] Complexity
+### Complexity
 
 1,2) Constant.
 
@@ -264,13 +264,13 @@ Type requirements
 21,22) | This section is incomplete   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/priority_queue/priority_queue&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../../utility/feature_test.html "cpp/utility/feature test") macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_containers_ranges`](../../experimental/feature_test.html#cpp_lib_containers_ranges "cpp/feature test") | [`202202L`](../../compiler_support/23.html#cpp_lib_containers_ranges_202202L "cpp/compiler support/23") | (C++23) | [Ranges-aware](../../ranges/to.html#container_compatible_range "cpp/ranges/to") construction and insertion; overloads ([20-22](priority_queue.html#Version_20))  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/priority_queue/priority_queue&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -337,7 +337,7 @@ Output:
     pq4.top() = (5,1)
     pq4.top() = (7,3)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/priority_queue/priority_queue&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -348,10 +348,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [LWG 3522](https://cplusplus.github.io/LWG/issue3522) | C++11  | constraints on iterator-pair constructors were missing  | added   
 [LWG 3529](https://cplusplus.github.io/LWG/issue3529) | C++11  | construction from a pair of iterators called `insert` | constructs the container from them   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/priority_queue/priority_queue&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ operator=](operator=.html "cpp/container/priority queue/operator=") |  assigns values to the container adaptor   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_operator%3D&action=edit)  
+(public member function)   
 ---|---
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

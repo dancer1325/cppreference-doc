@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -71,7 +71,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::mdspan`](../mdspan.html "cpp/container/mdspan")
 
@@ -120,7 +120,7 @@ Tables
 [submdspan_mapping_result](submdspan_mapping_result.html "cpp/container/mdspan/submdspan mapping result")(C++26)  
 **Deduction guides**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/navbar_content&action=edit)
+
 
 Defined in header `[<mdspan>](../../header/mdspan.html "cpp/header/mdspan")` |  |   
 ---|---|---  
@@ -163,7 +163,7 @@ typename MappingType::layout_type, AccessorType>; |  (8)  |  (since C++23)
 Reason: explanation   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/deduction_guides&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

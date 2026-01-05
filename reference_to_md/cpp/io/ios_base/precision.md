@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::ios_base`](../ios_base.html "cpp/io/ios base")
 
@@ -113,7 +113,7 @@ Member types
 [ios_base::event](event.html "cpp/io/ios base/event")  
 [ios_base::event_callback](event_callback.html "cpp/io/ios base/event callback")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/ios_base/navbar_content&action=edit)
+
 
 streamsize precision() const; |  (1)  |   
 ---|---|---  
@@ -139,16 +139,16 @@ The default precision, as established by [std::basic_ios::init](../basic_ios/ini
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/ios_base/precision&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 new_precision  |  \-  |  new precision setting   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/ios_base/precision&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The precision before the call to the function 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/ios_base/precision&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -172,7 +172,7 @@ Output:
     With default precision d is 12.3457
     With high    precision d is 12.345679
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/ios_base/precision&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -181,10 +181,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [LWG 189](https://cplusplus.github.io/LWG/issue189) | C++98  | 'precision' was defined as 'the number of digits after  
 the decimal point', but it is not correct in some cases  | corrected   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/ios_base/precision&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ width](width.html "cpp/io/ios base/width") |  manages field width   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/ios_base/dsc_width&action=edit)  
+(public member function)   
 ---|---  
 [ setprecision](../manip/setprecision.html "cpp/io/manip/setprecision") |  changes floating-point precision   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_setprecision&action=edit)
+(function) 

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header is part of the [Input/Output](../io.html "cpp/io") library. 
 
@@ -216,21 +216,21 @@ This header is part of the [Input/Output](../io.html "cpp/io") library.
 ###  Classes  
   
 [ strstreambuf](../io/strstreambuf.html "cpp/io/strstreambuf")(deprecated in C++98)(removed in C++26) |  implements raw character array device   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_strstreambuf&action=edit)  
+(class)   
 [ istrstream](../io/istrstream.html "cpp/io/istrstream")(deprecated in C++98)(removed in C++26) |  implements character array input operations   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_istrstream&action=edit)  
+(class)   
 [ ostrstream](../io/ostrstream.html "cpp/io/ostrstream")(deprecated in C++98)(removed in C++26) |  implements character array output operations   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_ostrstream&action=edit)  
+(class)   
 [ strstream](../io/strstream.html "cpp/io/strstream")(deprecated in C++98)(removed in C++26) |  implements character array input/output operations   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_strstream&action=edit)  
+(class)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/strstream&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 **`< strstream>`** is deprecated in C++98 and removed in C++26 (see [P2867R1](https://wg21.link/P2867R1)). 
 
 The reason for removal is that C++20 and C++23 provide superior replacement facilities, such as the ability to move strings efficiently out of [std::stringstream](../io/basic_stringstream.html "cpp/io/basic stringstream")s (since C++20, see [P0408R7](https://wg21.link/P0408R7)), and the [`<spanstream>`](spanstream.html "cpp/header/spanstream") library (since C++23, see [P0448R4](https://wg21.link/P0448R4)). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/strstream&action=edit&section=2 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     namespace std {
@@ -240,7 +240,7 @@ The reason for removal is that C++20 and C++23 provide superior replacement faci
       class strstream;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/strstream&action=edit&section=3 "Edit section: Class std::strstreambuf")] Class [std::strstreambuf](../io/strstreambuf.html "cpp/io/strstreambuf")
+#### Class [std::strstreambuf](../io/strstreambuf.html "cpp/io/strstreambuf")
     
     
     namespace std {
@@ -288,7 +288,7 @@ The reason for removal is that C++20 and C++23 provide superior replacement faci
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/strstream&action=edit&section=4 "Edit section: Class std::istrstream")] Class [std::istrstream](../io/istrstream.html "cpp/io/istrstream")
+#### Class [std::istrstream](../io/istrstream.html "cpp/io/istrstream")
     
     
     namespace std {
@@ -307,7 +307,7 @@ The reason for removal is that C++20 and C++23 provide superior replacement faci
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/strstream&action=edit&section=5 "Edit section: Class std::ostrstream")] Class [std::ostrstream](../io/ostrstream.html "cpp/io/ostrstream")
+#### Class [std::ostrstream](../io/ostrstream.html "cpp/io/ostrstream")
     
     
     namespace std {
@@ -326,7 +326,7 @@ The reason for removal is that C++20 and C++23 provide superior replacement faci
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/strstream&action=edit&section=6 "Edit section: Class std::strstream")] Class [std::strstream](../io/strstream.html "cpp/io/strstream")
+#### Class [std::strstream](../io/strstream.html "cpp/io/strstream")
     
     
     namespace std {

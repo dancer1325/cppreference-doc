@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::month`](../month.html "cpp/chrono/month")
 
@@ -121,7 +121,7 @@ Helper classes
 [formatter<std::chrono::month>](formatter.html "cpp/chrono/month/formatter")  
 [hash<std::chrono::month>](hash.html "cpp/chrono/month/hash")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/month/navbar_content&action=edit)
+
 
 Defined in header `[<chrono>](../../header/chrono.html "cpp/header/chrono")` |  |   
 ---|---|---  
@@ -150,15 +150,15 @@ where STATICALLY_WIDEN<CharT>("...") is "..." if `CharT` is char, and L"..." if 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/month/operator_ltlt&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 os
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/month/operator_ltlt&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 This operator<< is primarily intended for debugging use. For control over formatting, use [std::format](../../utility/format/format.html "cpp/utility/format/format"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/month/operator_ltlt&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -166,10 +166,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [P2372R3](https://wg21.link/P2372R3) | C++20  | the given locale was used by default  | `**L**` is needed to use the given locale   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/month/operator_ltlt&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ format](../../utility/format/format.html "cpp/utility/format/format")(C++20) |  stores formatted representation of the arguments in a new string   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/dsc_format&action=edit)  
+(function template)   
 ---|---  
 [ std::formatter<std::chrono::month>](formatter.html "cpp/chrono/month/formatter")(C++20) |  formatting support for `month`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_formatter&action=edit)
+(class template specialization) 

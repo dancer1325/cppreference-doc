@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 Defined in header `[<atomic>](../header/atomic.html "cpp/header/atomic")` |  |   
 ---|---|---  
@@ -212,35 +212,35 @@ If `std::atomic<T>` has no `fetch_min` member (this member is only provided for 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_fetch_min&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 obj  |  \-  |  pointer to the atomic object to modify   
 ---|---|---  
 arg  |  \-  |  the value to [std::min](../algorithm/min.html "cpp/algorithm/min") with the value stored in the atomic object   
 order  |  \-  |  the memory synchronization ordering   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_fetch_min&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The value immediately preceding the effects of this function in the [modification order](memory_order.html#Modification_order "cpp/atomic/memory order") of *obj. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_fetch_min&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../utility/feature_test.html "cpp/utility/feature test") macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_atomic_min_max`](../experimental/feature_test.html#cpp_lib_atomic_min_max "cpp/feature test") | [`202403L`](../compiler_support/26.html#cpp_lib_atomic_min_max_202403L "cpp/compiler support/26") | (C++26) | Atomic minimum/maximum   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_fetch_min&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_fetch_min&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ fetch_min](atomic/fetch_min.html "cpp/atomic/atomic/fetch min")(C++26) |  atomically performs [std::min](../algorithm/min.html "cpp/algorithm/min") between the argument and the value of the atomic object and obtains the value held previously   
-(public member function of `std::atomic<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_fetch_min&action=edit)  
+(public member function of `std::atomic<T>`)   
 ---|---  
 [ atomic_fetch_maxatomic_fetch_max_explicit](atomic_fetch_max.html "cpp/atomic/atomic fetch max")(C++26)(C++26) |  replaces the atomic object with the result of [std::max](../algorithm/max.html "cpp/algorithm/max") with a non-atomic argument and obtains the previous value of the atomic   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/dsc_atomic_fetch_max&action=edit)
+(function template) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

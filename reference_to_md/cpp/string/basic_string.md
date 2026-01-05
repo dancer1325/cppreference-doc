@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Strings library](../string.html "cpp/string")
 
@@ -40,7 +40,7 @@ Classes
 [basic_string_view](basic_string_view.html "cpp/string/basic string view")(C++17)  
 [char_traits](char_traits.html "cpp/string/char traits")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/navbar_content&action=edit)
+
 
 **`std::basic_string`**
 
@@ -133,7 +133,7 @@ basic_string_view](basic_string/operator_basic_string_view.html "cpp/string/basi
 [hash<std::basic_string>](basic_string/hash.html "cpp/string/basic string/hash")(C++11)  
 [Deduction guides](basic_string/deduction_guides.html "cpp/string/basic string/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/navbar_content&action=edit)
+
 
 Defined in header `[<string>](../header/string.html "cpp/header/string")` |  |   
 ---|---|---  
@@ -206,226 +206,226 @@ Type  |  Definition
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string&action=edit&section=1 "Edit section: Template parameters")] Template parameters
+### Template parameters
 
 CharT  |  \-  |  character type   
 ---|---|---  
 Traits  |  \-  |  traits class specifying the operations on the character type   
 Allocator  |  \-  |  [Allocator](../named_req/Allocator.html "cpp/named req/Allocator") type used to allocate internal storage   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string&action=edit&section=2 "Edit section: Nested types")] Nested types
+### Nested types
 
 Type  |  Definition   
 ---|---  
 `traits_type` |  `Traits`  
 `value_type` |  `CharT`  
-`allocator_type` |  `Allocator`[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_allocator_type&action=edit)  
+`allocator_type` |  `Allocator`  
 `size_type` |  | `Allocator::size_type` | (until C++11)  
 ---|---  
 [std::allocator_traits](../memory/allocator_traits.html)<Allocator>::size_type | (since C++11)  
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_size_type&action=edit)  
+  
 `difference_type` |  | Allocator::difference_type | (until C++11)  
 ---|---  
 [std::allocator_traits](../memory/allocator_traits.html)<Allocator>::difference_type | (since C++11)  
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_difference_type&action=edit)  
-`reference` |  value_type&[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_reference&action=edit)  
-`const_reference` |  const value_type&[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_const_reference&action=edit)  
+  
+`reference` |  value_type&  
+`const_reference` |  const value_type&  
 `pointer` |  |  `Allocator::pointer` | (until C++11)  
 ---|---  
 [std::allocator_traits](../memory/allocator_traits.html)<Allocator>::pointer | (since C++11)  
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_pointer&action=edit)  
+  
 `const_pointer` |  |  `Allocator::const_pointer` | (until C++11)  
 ---|---  
 [std::allocator_traits](../memory/allocator_traits.html)<Allocator>::const_pointer | (since C++11)  
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_const_pointer&action=edit)  
+  
 `iterator` |  |  [LegacyRandomAccessIterator](../named_req/RandomAccessIterator.html "cpp/named req/RandomAccessIterator") and [LegacyContiguousIterator](../named_req/ContiguousIterator.html "cpp/named req/ContiguousIterator") to `value_type` | (until C++20)  
 ---|---  
 [LegacyRandomAccessIterator](../named_req/RandomAccessIterator.html "cpp/named req/RandomAccessIterator"), [`contiguous_iterator`](../iterator/contiguous_iterator.html "cpp/iterator/contiguous iterator"), and [ConstexprIterator](../named_req/ConstexprIterator.html "cpp/named req/ConstexprIterator") to `value_type` | (since C++20)  
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_iterator&action=edit)  
+  
 `const_iterator` |  |  [LegacyRandomAccessIterator](../named_req/RandomAccessIterator.html "cpp/named req/RandomAccessIterator") and [LegacyContiguousIterator](../named_req/ContiguousIterator.html "cpp/named req/ContiguousIterator") to const value_type | (until C++20)  
 ---|---  
 [LegacyRandomAccessIterator](../named_req/RandomAccessIterator.html "cpp/named req/RandomAccessIterator"), [`contiguous_iterator`](../iterator/contiguous_iterator.html "cpp/iterator/contiguous iterator"), and [ConstexprIterator](../named_req/ConstexprIterator.html "cpp/named req/ConstexprIterator") to const value_type | (since C++20)  
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_const_iterator&action=edit)  
-`reverse_iterator` |  [std::reverse_iterator](../iterator/reverse_iterator.html)<iterator>[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_reverse_iterator&action=edit)  
-`const_reverse_iterator` |  [std::reverse_iterator](../iterator/reverse_iterator.html)<const_iterator>[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_const_reverse_iterator&action=edit)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string&action=edit&section=3 "Edit section: Data members")] Data members
+`reverse_iterator` |  [std::reverse_iterator](../iterator/reverse_iterator.html)<iterator>  
+`const_reverse_iterator` |  [std::reverse_iterator](../iterator/reverse_iterator.html)<const_iterator>  
+  
+### Data members
 
 constexpr size_type `npos` [static] |  the special value size_type(-1), its exact meaning depends on the context   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string&action=edit&section=4 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](basic_string/basic_string.html "cpp/string/basic string/basic string") |  constructs a `basic_string`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ (destructor)](basic_string/~basic_string.html "cpp/string/basic string/~basic string") |  destroys the string, deallocating internal storage if used   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_destructor&action=edit)  
+(public member function)   
 [ operator=](basic_string/operator=.html "cpp/string/basic string/operator=") |  assigns values to the string   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_operator%3D&action=edit)  
+(public member function)   
 [ assign](basic_string/assign.html "cpp/string/basic string/assign") |  assign characters to a string   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_assign&action=edit)  
+(public member function)   
 [ assign_range](basic_string/assign_range.html "cpp/string/basic string/assign range")(C++23) |  assign a range of characters to a string   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_assign_range&action=edit)  
+(public member function)   
 [ get_allocator](basic_string/get_allocator.html "cpp/string/basic string/get allocator") |  returns the associated allocator   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_get_allocator&action=edit)  
+(public member function)   
   
 #####  Element access   
   
 [ at](basic_string/at.html "cpp/string/basic string/at") |  accesses the specified character with bounds checking   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_at&action=edit)  
+(public member function)   
 [ operator[]](basic_string/operator_at.html "cpp/string/basic string/operator at") |  accesses the specified character   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_operator_at&action=edit)  
+(public member function)   
 [ front](basic_string/front.html "cpp/string/basic string/front")(DR*) |  accesses the first character   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_front&action=edit)  
+(public member function)   
 [ back](basic_string/back.html "cpp/string/basic string/back")(DR*) |  accesses the last character   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_back&action=edit)  
+(public member function)   
 [ data](basic_string/data.html "cpp/string/basic string/data") |  returns a pointer to the first character of a string   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_data&action=edit)  
+(public member function)   
 [ c_str](basic_string/c_str.html "cpp/string/basic string/c str") |  returns a non-modifiable standard C character array version of the string   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_c_str&action=edit)  
+(public member function)   
 [ operator basic_string_view](basic_string/operator_basic_string_view.html "cpp/string/basic string/operator basic string view")(C++17) |  returns a non-modifiable `basic_string_view` into the entire string   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_operator_string_view&action=edit)  
+(public member function)   
   
 #####  Iterators   
   
 [ begincbegin](basic_string/begin.html "cpp/string/basic string/begin")(C++11) |  returns an iterator to the beginning   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_begin&action=edit)  
+(public member function)   
 [ endcend](basic_string/end.html "cpp/string/basic string/end")(C++11) |  returns an iterator to the end   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_end&action=edit)  
+(public member function)   
 [ rbegincrbegin](basic_string/rbegin.html "cpp/string/basic string/rbegin")(C++11) |  returns a reverse iterator to the beginning   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_rbegin&action=edit)  
+(public member function)   
 [ rendcrend](basic_string/rend.html "cpp/string/basic string/rend")(C++11) |  returns a reverse iterator to the end   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_rend&action=edit)  
+(public member function)   
   
 #####  Capacity   
   
 [ empty](basic_string/empty.html "cpp/string/basic string/empty") |  checks whether the string is empty   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_empty&action=edit)  
+(public member function)   
 [ sizelength](basic_string/size.html "cpp/string/basic string/size") |  returns the number of characters   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_size&action=edit)  
+(public member function)   
 [ max_size](basic_string/max_size.html "cpp/string/basic string/max size") |  returns the maximum number of characters   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_max_size&action=edit)  
+(public member function)   
 [ reserve](basic_string/reserve.html "cpp/string/basic string/reserve") |  reserves storage   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_reserve&action=edit)  
+(public member function)   
 [ capacity](basic_string/capacity.html "cpp/string/basic string/capacity") |  returns the number of characters that can be held in currently allocated storage   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_capacity&action=edit)  
+(public member function)   
 [ shrink_to_fit](basic_string/shrink_to_fit.html "cpp/string/basic string/shrink to fit")(DR*) |  reduces memory usage by freeing unused memory   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_shrink_to_fit&action=edit)  
+(public member function)   
   
 #####  Modifiers   
   
 [ clear](basic_string/clear.html "cpp/string/basic string/clear") |  clears the contents   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_clear&action=edit)  
+(public member function)   
 [ insert](basic_string/insert.html "cpp/string/basic string/insert") |  inserts characters   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_insert&action=edit)  
+(public member function)   
 [ insert_range](basic_string/insert_range.html "cpp/string/basic string/insert range")(C++23) |  inserts a range of characters   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_insert_range&action=edit)  
+(public member function)   
 [ erase](basic_string/erase.html "cpp/string/basic string/erase") |  removes characters   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_erase&action=edit)  
+(public member function)   
 [ push_back](basic_string/push_back.html "cpp/string/basic string/push back") |  appends a character to the end   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_push_back&action=edit)  
+(public member function)   
 [ pop_back](basic_string/pop_back.html "cpp/string/basic string/pop back")(DR*) |  removes the last character   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_pop_back&action=edit)  
+(public member function)   
 [ append](basic_string/append.html "cpp/string/basic string/append") |  appends characters to the end   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_append&action=edit)  
+(public member function)   
 [ append_range](basic_string/append_range.html "cpp/string/basic string/append range")(C++23) |  appends a range of characters to the end   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_append_range&action=edit)  
+(public member function)   
 [ operator+=](basic_string/operator+=.html "cpp/string/basic string/operator+=") |  appends characters to the end   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_operator%2B%3D&action=edit)  
+(public member function)   
 [ replace](basic_string/replace.html "cpp/string/basic string/replace") |  replaces specified portion of a string   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_replace&action=edit)  
+(public member function)   
 [ replace_with_range](basic_string/replace_with_range.html "cpp/string/basic string/replace with range")(C++23) |  replaces specified portion of a string with a range of characters   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_replace_with_range&action=edit)  
+(public member function)   
 [ copy](basic_string/copy.html "cpp/string/basic string/copy") |  copies characters   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_copy&action=edit)  
+(public member function)   
 [ resize](basic_string/resize.html "cpp/string/basic string/resize") |  changes the number of characters stored   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_resize&action=edit)  
+(public member function)   
 [ resize_and_overwrite](basic_string/resize_and_overwrite.html "cpp/string/basic string/resize and overwrite")(C++23) |  changes the number of characters stored and possibly overwrites indeterminate contents via user-provided operation   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_resize_and_overwrite&action=edit)  
+(public member function)   
 [ swap](basic_string/swap.html "cpp/string/basic string/swap") |  swaps the contents   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_swap&action=edit)  
+(public member function)   
   
 #####  Search   
   
 [ find](basic_string/find.html "cpp/string/basic string/find") |  finds the first occurrence of the given substring   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_find&action=edit)  
+(public member function)   
 [ rfind](basic_string/rfind.html "cpp/string/basic string/rfind") |  find the last occurrence of a substring   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_rfind&action=edit)  
+(public member function)   
 [ find_first_of](basic_string/find_first_of.html "cpp/string/basic string/find first of") |  find first occurrence of characters   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_find_first_of&action=edit)  
+(public member function)   
 [ find_first_not_of](basic_string/find_first_not_of.html "cpp/string/basic string/find first not of") |  find first absence of characters   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_find_first_not_of&action=edit)  
+(public member function)   
 [ find_last_of](basic_string/find_last_of.html "cpp/string/basic string/find last of") |  find last occurrence of characters   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_find_last_of&action=edit)  
+(public member function)   
 [ find_last_not_of](basic_string/find_last_not_of.html "cpp/string/basic string/find last not of") |  find last absence of characters   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_find_last_not_of&action=edit)  
+(public member function)   
   
 #####  Operations   
   
 [ compare](basic_string/compare.html "cpp/string/basic string/compare") |  compares two strings   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_compare&action=edit)  
+(public member function)   
 [ starts_with](basic_string/starts_with.html "cpp/string/basic string/starts with")(C++20) |  checks if the string starts with the given prefix   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_starts_with&action=edit)  
+(public member function)   
 [ ends_with](basic_string/ends_with.html "cpp/string/basic string/ends with")(C++20) |  checks if the string ends with the given suffix   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_ends_with&action=edit)  
+(public member function)   
 [ contains](basic_string/contains.html "cpp/string/basic string/contains")(C++23) |  checks if the string contains the given substring or character   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_contains&action=edit)  
+(public member function)   
 [ substr](basic_string/substr.html "cpp/string/basic string/substr") |  returns a substring   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_substr&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string&action=edit&section=5 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ operator+](https://en.cppreference.com/w/cpp/string/basic_string/operator%2B "cpp/string/basic string/operator+") |  concatenates two strings, a string and a char, or a string and [string_view](basic_string_view.html "cpp/string/basic string view")   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_operator%2B&action=edit)  
+(function template)   
 ---|---  
 [ operator==operator!=operator<operator>operator<=operator>=operator<=>](basic_string/operator_cmp.html "cpp/string/basic string/operator cmp")(removed in C++20)(removed in C++20)(removed in C++20)(removed in C++20)(removed in C++20)(C++20) |  lexicographically compares two strings   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_operator_cmp&action=edit)  
+(function template)   
 [ std::swap(std::basic_string)](basic_string/swap2.html "cpp/string/basic string/swap2") |  specializes the [std::swap](../utility/swap.html "cpp/algorithm/swap") algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_swap2&action=edit)  
+(function template)   
 [ erase(std::basic_string)erase_if(std::basic_string)](basic_string/erase2.html "cpp/string/basic string/erase2")(C++20) |  erases all elements satisfying specific criteria   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_erase_seq&action=edit)  
+(function template)   
   
 #####  Input/output   
   
 [ operator<<operator>>](basic_string/operator_ltltgtgt.html "cpp/string/basic string/operator ltltgtgt") |  performs stream input and output on strings   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_operator_ltltgtgt&action=edit)  
+(function template)   
 [ getline](basic_string/getline.html "cpp/string/basic string/getline") |  read data from an I/O stream into a string   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_getline&action=edit)  
+(function template)   
   
 #####  Numeric conversions   
   
 [ stoistolstoll](basic_string/stol.html "cpp/string/basic string/stol")(C++11)(C++11)(C++11) |  converts a string to a signed integer   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_stol&action=edit)  
+(function)   
 [ stoulstoull](basic_string/stoul.html "cpp/string/basic string/stoul")(C++11)(C++11) |  converts a string to an unsigned integer   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_stoul&action=edit)  
+(function)   
 [ stofstodstold](basic_string/stof.html "cpp/string/basic string/stof")(C++11)(C++11)(C++11) |  converts a string to a floating point value   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_stof&action=edit)  
+(function)   
 [ to_string](basic_string/to_string.html "cpp/string/basic string/to string")(C++11) |  converts an integral or floating-point value to `string`   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_to_string&action=edit)  
+(function)   
 [ to_wstring](basic_string/to_wstring.html "cpp/string/basic string/to wstring")(C++11) |  converts an integral or floating-point value to `wstring`   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_to_wstring&action=edit)  
+(function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string&action=edit&section=6 "Edit section: Literals")] Literals
+### Literals
 
 Defined in inline namespace `std::literals::string_literals`  
 ---  
 [ operator""s](basic_string/operator""s.html "cpp/string/basic string/operator""s")(C++14) |  converts a character array literal to `basic_string`   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_operator%22%22s&action=edit)  
+(function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string&action=edit&section=7 "Edit section: Helper classes")] Helper classes
+### Helper classes
 
 [ std::hash<std::basic_string>](basic_string/hash.html "cpp/string/basic string/hash")(C++11) |  hash support for strings   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_hash&action=edit)  
+(class template specialization)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string&action=edit&section=8 "Edit section: Deduction guides \(since C++17\)")] [Deduction guides](basic_string/deduction_guides.html "cpp/string/basic string/deduction guides") (since C++17)
+### [Deduction guides](basic_string/deduction_guides.html "cpp/string/basic string/deduction guides") (since C++17)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string&action=edit&section=9 "Edit section: Iterator invalidation")] Iterator invalidation
+### Iterator invalidation
 
 References, pointers, and iterators referring to the elements of a `basic_string` may be invalidated by any standard library function taking a reference to non-const `basic_string` as an argument, such as [std::getline](basic_string/getline.html "cpp/string/basic string/getline"), [std::swap](../utility/swap.html "cpp/algorithm/swap"), or [`operator>>`](basic_string/operator_ltltgtgt.html "cpp/string/basic string/operator ltltgtgt"), and by calling non-const member functions, except [`operator[]`](basic_string/operator_at.html "cpp/string/basic string/operator at"), [`at`](basic_string/at.html "cpp/string/basic string/at"), [`data`](basic_string/data.html "cpp/string/basic string/data"), [`front`](basic_string/front.html "cpp/string/basic string/front"), [`back`](basic_string/back.html "cpp/string/basic string/back"), [`begin`](basic_string/begin.html "cpp/string/basic string/begin"), [`rbegin`](basic_string/rbegin.html "cpp/string/basic string/rbegin"), [`end`](basic_string/end.html "cpp/string/basic string/end"), and [`rend`](basic_string/rend.html "cpp/string/basic string/rend"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string&action=edit&section=10 "Edit section: Notes")] Notes
+### Notes
 
 Although it is required that customized `construct` or `destroy` is used when constructing or destroying elements of `std::basic_string` until C++23, all implementations only used the default mechanism. The requirement is corrected by [P1072R10](https://wg21.link/P1072R10) to match existing practice. 
 
@@ -440,7 +440,7 @@ Although it is required that customized `construct` or `destroy` is used when co
 [`__cpp_lib_string_resize_and_overwrite`](../experimental/feature_test.html#cpp_lib_string_resize_and_overwrite "cpp/feature test") | [`202110L`](../compiler_support/23.html#cpp_lib_string_resize_and_overwrite_202110L "cpp/compiler support/23") | (C++23) | [`resize_and_overwrite`](basic_string/resize_and_overwrite.html "cpp/string/basic string/resize and overwrite")  
 [`__cpp_lib_containers_ranges`](../experimental/feature_test.html#cpp_lib_containers_ranges "cpp/feature test") | [`202202L`](../compiler_support/23.html#cpp_lib_containers_ranges_202202L "cpp/compiler support/23") | (C++23) | Member functions for construction, insertion, and replacement that accept [container compatible range](../ranges/to.html#container_compatible_range "cpp/ranges/to")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string&action=edit&section=11 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -484,7 +484,7 @@ Output:
     w
     World
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string&action=edit&section=12 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -502,13 +502,13 @@ ill-formed in this case
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string&action=edit&section=13 "Edit section: See also")] See also
+### See also
 
 [ basic_string_view](basic_string_view.html "cpp/string/basic string view")(C++17) |  read-only string view   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/dsc_basic_string_view&action=edit)  
+(class template)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string&action=edit&section=14 "Edit section: External links")] External links
+### External links
 
 [C++ string handling](https://en.wikipedia.org/wiki/C%2B%2B_string_handling "enwiki:C++ string handling")  
 ---

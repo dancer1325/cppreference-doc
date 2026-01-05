@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::pair`](../pair.html "cpp/utility/pair")
 
@@ -151,7 +151,7 @@ Common vocabulary types
 [piecewise_construct_t](../piecewise_construct.html "cpp/utility/piecewise construct")(C++11)  
 [Deduction guides](deduction_guides.html "cpp/utility/pair/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/pair/navbar_content&action=edit)
+
 
 Defined in header `[<utility>](../../header/utility.html "cpp/header/utility")` |  |   
 ---|---|---  
@@ -184,22 +184,22 @@ Swaps the contents of `x` and `y`. Equivalent to x.swap(y).
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/pair/swap2&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 x, y  |  \-  |  pairs whose contents to swap   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/pair/swap2&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/pair/swap2&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 [`noexcept`](../../language/noexcept_spec.html "cpp/language/noexcept spec") specification: 
 
 noexcept(noexcept(x.swap(y)))
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/pair/swap2&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -234,10 +234,10 @@ Output:
     After  p1.swap(p2): p1 = {12, 1.23}, p2 = {10, 3.14}
     After swap(p1, p2): p1 = {10, 3.14}, p2 = {12, 1.23}
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/pair/swap2&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ swap](../swap.html "cpp/algorithm/swap") |  swaps the values of two objects   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_swap&action=edit)  
+(function template)   
 ---|---  
 [ std::swap(std::tuple)](../tuple/swap2.html "cpp/utility/tuple/swap2")(C++11) |  specializes the [std::swap](../swap.html "cpp/algorithm/swap") algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/dsc_swap2&action=edit)
+(function template) 

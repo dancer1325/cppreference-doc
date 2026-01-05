@@ -21,7 +21,7 @@
 [Removed symbols (Zombie names)](zombie_names.html "cpp/symbol index/zombie names")  
 **Exposition-only symbols**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/symbol_index/navbar_content&action=edit)
+
 
   
 This page tries to list all the exposition-only symbols that are defined in the standards. Their definitions are only provided for exposition: such definitions are not actually present in implementations. The symbols are written as follows: 
@@ -78,7 +78,7 @@ Reason: Link the following symbols to their corresponding pages. The symbol list
 Reason: Consider adding these names to the [MediaWiki:Geshi-keyword-list-cpp](https://en.cppreference.com/w/MediaWiki%253AGeshi-keyword-list-cpp.html "MediaWiki:Geshi-keyword-list-cpp") list.   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/expos&action=edit&section=2 "Edit section: A")] A
+### A
 
 `_advanceable <>_`  
 `_all-bidirectional <>_`  
@@ -91,14 +91,14 @@ Reason: Consider adding these names to the [MediaWiki:Geshi-keyword-list-cpp](ht
 `_awaitable-sender <>_`  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/expos&action=edit&section=3 "Edit section: B")] B
+### B
 
 `_bidirectional-common <>_`  
 `_bitmask_`  
 [`_boolean-testable <>_`](../concepts/boolean-testable.html "cpp/concepts/boolean-testable")  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/expos&action=edit&section=4 "Edit section: C")] C
+### C
 
 `_c-atexit-handler_`  
 `_c-compare-pred_`  
@@ -137,7 +137,7 @@ Reason: Consider adding these names to the [MediaWiki:Geshi-keyword-list-cpp](ht
 `_cpp17-random-access-iterator <>_`  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/expos&action=edit&section=5 "Edit section: D")] D
+### D
 
 `_decay-copy <>()_`  
 `_decays-to <>_`  
@@ -147,12 +147,12 @@ Reason: Consider adding these names to the [MediaWiki:Geshi-keyword-list-cpp](ht
 `_div-ceil <>()_`  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/expos&action=edit&section=6 "Edit section: E")] E
+### E
 
 `_enable-sender <>_`  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/expos&action=edit&section=7 "Edit section: F")] F
+### F
 
 `_fmt-maybe-const <>_`  
 `_format-arg-store <>_`  
@@ -160,9 +160,9 @@ Reason: Consider adding these names to the [MediaWiki:Geshi-keyword-list-cpp](ht
 `_forwarding-query <>_`  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/expos&action=edit&section=8 "Edit section: G")] G
+### G
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/expos&action=edit&section=9 "Edit section: H")] H
+### H
 
 `_has-arrow <>_`  
 `_has-as-awaitable <>_`  
@@ -174,7 +174,7 @@ Reason: Consider adding these names to the [MediaWiki:Geshi-keyword-list-cpp](ht
 `_has-tuple-element <>_`  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/expos&action=edit&section=10 "Edit section: I")] I
+### I
 
 `_in-matrix <>_`  
 `_in-object <>_`  
@@ -210,17 +210,17 @@ Reason: Consider adding these names to the [MediaWiki:Geshi-keyword-list-cpp](ht
 `_iter-value-type <>_`  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/expos&action=edit&section=11 "Edit section: J")] J
+### J
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/expos&action=edit&section=12 "Edit section: K")] K
+### K
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/expos&action=edit&section=13 "Edit section: L")] L
+### L
 
 `_layout-mapping-alike <>_`  
 `_local-time-format-t <>_`  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/expos&action=edit&section=14 "Edit section: M")] M
+### M
 
 `_math-floating-point <>_`  
 `_max-1-sender-in <>_`  
@@ -235,7 +235,7 @@ Reason: Consider adding these names to the [MediaWiki:Geshi-keyword-list-cpp](ht
 `_movable-value <>_`  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/expos&action=edit&section=15 "Edit section: N")] N
+### N
 
 `_ncmp_`  
 `_node-handle <>_`  
@@ -249,7 +249,7 @@ Reason: Consider adding these names to the [MediaWiki:Geshi-keyword-list-cpp](ht
 [`_no-throw-sentinel-for <>_`](../memory/ranges/nothrow_concepts.html "cpp/memory/ranges/nothrow concepts")  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/expos&action=edit&section=16 "Edit section: O")] O
+### O
 
 `_ord_`  
 `_out-matrix <>_`  
@@ -257,7 +257,7 @@ Reason: Consider adding these names to the [MediaWiki:Geshi-keyword-list-cpp](ht
 `_out-vector <>_`  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/expos&action=edit&section=17 "Edit section: P")] P
+### P
 
 [`_pair-like <>_`](../utility/tuple/tuple-like.html "cpp/utility/tuple/tuple-like")  
 `_pair-like-convertible-from <>_`  
@@ -267,12 +267,12 @@ Reason: Consider adding these names to the [MediaWiki:Geshi-keyword-list-cpp](ht
 `_ptr-traits-elem <>_`  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/expos&action=edit&section=18 "Edit section: Q")] Q
+### Q
 
 `_queryable <>_`  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/expos&action=edit&section=19 "Edit section: R")] R
+### R
 
 `_range-default-formatter <>_`  
 `_range-key-type <>_`  
@@ -287,7 +287,7 @@ Reason: Consider adding these names to the [MediaWiki:Geshi-keyword-list-cpp](ht
 `_returnable-element <>_`  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/expos&action=edit&section=20 "Edit section: S")] S
+### S
 
 `_sender-for <>_`  
 `_sender-in-of <>_`  
@@ -307,7 +307,7 @@ Reason: Consider adding these names to the [MediaWiki:Geshi-keyword-list-cpp](ht
 `_synth-three-way_`  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/expos&action=edit&section=21 "Edit section: T")] T
+### T
 
 `_tiny-range <>_`  
 `_tuple-for-each <>()_`  
@@ -315,12 +315,12 @@ Reason: Consider adding these names to the [MediaWiki:Geshi-keyword-list-cpp](ht
 `_tuple-transform <>()_`  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/expos&action=edit&section=22 "Edit section: U")] U
+### U
 
 `_uses-nonqualification-pointer-conversion <>_`  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/expos&action=edit&section=23 "Edit section: V")] V
+### V
 
 `_valid-completion-for <>_`  
 `_valid-completion-signatures <>_`  
@@ -328,17 +328,17 @@ Reason: Consider adding these names to the [MediaWiki:Geshi-keyword-list-cpp](ht
 [`_voidify <>()_`](../memory/voidify.html "cpp/memory/voidify")  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/expos&action=edit&section=24 "Edit section: W")] W
+### W
 
 `_weakly-equality-comparable-with <>_`  
 `_with-reference <>_`  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/expos&action=edit&section=25 "Edit section: X")] X
+### X
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/expos&action=edit&section=26 "Edit section: Y")] Y
+### Y
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/expos&action=edit&section=27 "Edit section: Z")] Z
+### Z
 
 `_zip-is-common <>_`  
 

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Diagnostics library](../../error.html "cpp/error")
 
@@ -187,7 +187,7 @@ Exception handling failures
 [breakpoint_if_debugging](../../utility/breakpoint_if_debugging.html "cpp/utility/breakpoint if debugging")(C++26)  
 [breakpoint](../../utility/breakpoint.html "cpp/utility/breakpoint")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/navbar_content&action=edit)
+
 
 [`std::error_category`](../error_category.html "cpp/error/error category")
 
@@ -201,7 +201,7 @@ Member functions
 [error_category::message](message.html "cpp/error/error category/message")  
 [error_category::operator==error_category::operator!=error_category::operator<error_category::operator<=>](operator_cmp.html "cpp/error/error category/operator cmp")(until C++20)(until C++20)(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/error_category/navbar_content&action=edit)
+
 
 virtual [std::error_condition](../error_condition.html) default_error_condition( int val ) const noexcept; |  |  (since C++11)  
 ---|---|---  
@@ -213,11 +213,11 @@ Equivalent to [std::error_condition](../error_condition.html)(val, *this).
 
 Classes derived from `error_category` may override this function to map certain error values to a generic category. For example, [std::system_category](../system_category.html "cpp/error/system category") overrides this function to map the error values that match POSIX [errno](../errno.html "cpp/error/errno") values to [std::generic_category](../generic_category.html "cpp/error/generic category"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/error_category/default_error_condition&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 val  |  \-  |  error value for which to return error condition   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/error_category/default_error_condition&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The error condition for the given error code. 

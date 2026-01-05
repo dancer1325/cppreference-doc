@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [Declarations](declarations.html "cpp/language/declarations")
 
@@ -280,7 +280,7 @@ Other declarations
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/declarations/navbar_content&action=edit)
+
 
 Specifies the [alignment requirement](objects.html#Alignment "cpp/language/object") of a type or an object. 
 
@@ -298,7 +298,7 @@ Specifies the [alignment requirement](objects.html#Alignment "cpp/language/objec
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/alignas&action=edit&section=1 "Edit section: Syntax")] Syntax  
+### Syntax  
   
 ---  
 `**alignas(**` expression `**)**` |  |   
@@ -311,7 +311,7 @@ Specifies the [alignment requirement](objects.html#Alignment "cpp/language/objec
 
 3) Equivalent to multiple alignas specifiers applied to the same declaration, one for each member of the [parameter pack](parameter_pack.html "cpp/language/parameter pack"), which can be either type or constant parameter pack.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/alignas&action=edit&section=2 "Edit section: Explanation")] Explanation
+### Explanation
 
 The alignas specifier may be applied to: 
 
@@ -337,7 +337,7 @@ Valid non-zero alignments that are weaker than another alignas on the same decla
 
 alignas(0) is always ignored. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/alignas&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 As of the ISO C11 standard, the C language has the _Alignas keyword and defines alignas as a preprocessor macro expanding to the keyword in the header [`<stdalign.h>`](../../c/types.html "c/types"). 
 
@@ -347,11 +347,11 @@ the headers [`<stdalign.h>`](../header/cstdalign.html "cpp/header/cstdalign") an
 ---|---  
 the header [`<stdalign.h>`](../header/cstdalign.html "cpp/header/cstdalign") does not define such macro. It does, however, define the macro constant __alignas_is_defined.  | (since C++20)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/alignas&action=edit&section=4 "Edit section: Keywords")] Keywords
+### Keywords
 
 [`alignas`](../keyword/alignas.html "cpp/keyword/alignas")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/alignas&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -405,7 +405,7 @@ Possible output:
     &y: 0x7fffcec89980
     &z: 0x7fffcec899a0
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/alignas&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -414,7 +414,7 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [CWG 1437](https://cplusplus.github.io/CWG/issues/1437.html) | C++11  | alignas could be used in alias declarations  | prohibited   
 [CWG 2354](https://cplusplus.github.io/CWG/issues/2354.html) | C++11  | alignas could be applied to the declaration of an enumeration  | prohibited   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/alignas&action=edit&section=7 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -466,11 +466,11 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/alignas&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 `**[alignof](alignof.html "cpp/language/alignof")**` (C++11) |  queries alignment requirements of a type  
-(operator)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_alignof&action=edit)  
+(operator)  
 ---|---  
 [ alignment_of](../types/alignment_of.html "cpp/types/alignment of")(C++11) |  obtains the type's alignment requirements   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_alignment_of&action=edit)  
+(class template)   
 [C documentation](../../c/language/alignas.html "c/language/ Alignas") for _Alignas, alignas

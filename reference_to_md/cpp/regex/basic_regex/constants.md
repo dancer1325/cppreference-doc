@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Regular expressions library](../../regex.html "cpp/regex")
 
@@ -81,7 +81,7 @@ Constants
 Regex Grammar  
 [Modified ECMAScript-262](../ecmascript.html "cpp/regex/ecmascript")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/navbar_content&action=edit)
+
 
 [`std::basic_regex`](../basic_regex.html "cpp/regex/basic regex")
 
@@ -104,7 +104,7 @@ Non-member Functions
 [swap(std::basic_regex)](swap2.html "cpp/regex/basic regex/swap2")  
 [Deduction guides](deduction_guides.html "cpp/regex/basic regex/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/basic_regex/navbar_content&action=edit)
+
 
 Defined in header `[<regex>](../../header/regex.html "cpp/header/regex")` |  |   
 ---|---|---  
@@ -153,8 +153,8 @@ Grammar variation  |  Effect(s)
   
 At most one grammar option can be chosen out of `ECMAScript`, `basic`, `extended`, `awk`, `grep`, `egrep`. If no grammar is chosen, `ECMAScript` is assumed to be selected. The other options serve as variations, such that [std::regex](../basic_regex.html)("meow", std::regex::icase) is equivalent to [std::regex](../basic_regex.html)("meow", std::regex::ECMAScript|std::regex::icase). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/basic_regex/constants&action=edit&section=1 "Edit section: See also")] See also
+### See also
 
 [ syntax_option_type](../syntax_option_type.html "cpp/regex/syntax option type")(C++11) |  general options controlling regex behavior   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/dsc_syntax_option_type&action=edit)  
+(typedef)   
 ---|---

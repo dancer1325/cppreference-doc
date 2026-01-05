@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [C-style I/O](../c.html "cpp/io/c")
 
@@ -176,7 +176,7 @@ Operations on files
 [tmpfile](tmpfile.html "cpp/io/c/tmpfile")  
 [tmpnam](tmpnam.html "cpp/io/c/tmpnam")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/navbar_content&action=edit)
+
 
 Defined in header `[<cwchar>](../../header/cwchar.html "cpp/header/cwchar")` |  |   
 ---|---|---  
@@ -197,17 +197,17 @@ If the orientation of the stream has already been decided (by executing output o
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/fwide&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 stream  |  \-  |  pointer to the C I/O stream to modify or query   
 ---|---|---  
 mode  |  \-  |  integer value greater than zero to set the stream wide, less than zero to set the stream narrow, or zero to query only   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/fwide&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 An integer greater than zero if the stream is wide-oriented after this call, less than zero if the stream is byte-oriented after this call, and zero if the stream has no orientation. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/fwide&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 The following code sets and resets the stream orientation.
 
@@ -291,9 +291,9 @@ Possible output:
             narrow character read failed
             wide character read '#'
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/fwide&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ fopen](fopen.html "cpp/io/c/fopen") |  opens a file   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_fopen&action=edit)  
+(function)   
 ---|---  
 [C documentation](../../../c/io/fwide.html "c/io/fwide") for fwide

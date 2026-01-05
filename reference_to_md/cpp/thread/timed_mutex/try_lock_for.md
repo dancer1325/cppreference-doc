@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -175,7 +175,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::timed_mutex`](../timed_mutex.html "cpp/thread/timed mutex")
 
@@ -192,7 +192,7 @@ Locking
 Native handle  
 [timed_mutex::native_handle](native_handle.html "cpp/thread/timed mutex/native handle")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/timed_mutex/navbar_content&action=edit)
+
 
 template< class Rep, class Period >  
 bool try_lock_for( const [std::chrono::duration](../../chrono/duration.html)<Rep, Period>& timeout_duration ); |  |  (since C++11)  
@@ -225,20 +225,20 @@ If `try_lock_for` is called by a thread that already owns the mutex, the behavio
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/mutex/try_lock_for&action=edit&section=T-1 "Template:cpp/thread/mutex/try lock for")] Parameters
+### Parameters
 
 timeout_duration  |  \-  |  minimum duration to block for   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/mutex/try_lock_for&action=edit&section=T-2 "Template:cpp/thread/mutex/try lock for")] Return value
+### Return value
 
 true if the lock was acquired successfully, otherwise false. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/mutex/try_lock_for&action=edit&section=T-3 "Template:cpp/thread/mutex/try lock for")] Exceptions
+### Exceptions
 
 Any exception thrown by timeout_duration (durations provided by the standard library never throw). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/mutex/try_lock_for&action=edit&section=T-4 "Template:cpp/thread/mutex/try lock for")] Example
+### Example
 
 Run this code
     
@@ -303,15 +303,15 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 2093](https://cplusplus.github.io/LWG/issue2093) | C++11  | `try_lock_for` threw nothing  | throws timeout-related exceptions   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/mutex/try_lock_for&action=edit&section=T-6 "Template:cpp/thread/mutex/try lock for")] See also
+### See also
 
 [ lock](lock.html "cpp/thread/timed mutex/lock") |  locks the mutex, blocks if the mutex is not available   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/mutex/dsc_lock&action=edit)  
+(public member function)   
 ---|---  
 [ try_lock](try_lock.html "cpp/thread/timed mutex/try lock") |  tries to lock the mutex, returns if the mutex is not available   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/mutex/dsc_try_lock&action=edit)  
+(public member function)   
 [ try_lock_until](try_lock_until.html "cpp/thread/timed mutex/try lock until") |  tries to lock the mutex, returns if the mutex has been  
 unavailable until specified time point has been reached   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/mutex/dsc_try_lock_until&action=edit)  
+(public member function)   
 [ unlock](unlock.html "cpp/thread/timed mutex/unlock") |  unlocks the mutex   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/mutex/dsc_unlock&action=edit)
+(public member function) 

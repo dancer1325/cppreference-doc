@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 Defined in header `[<memory>](../header/memory.html "cpp/header/memory")` |  |   
 ---|---|---  
@@ -209,22 +209,22 @@ If p is not a pointer value returned by an earlier call to [std::get_temporary_b
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/return_temporary_buffer&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 p  |  \-  |  the pointer referring to the storage to be declloated   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/return_temporary_buffer&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/return_temporary_buffer&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Throws nothing. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/return_temporary_buffer&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/example1&action=edit)
+
 
 Run this code
     
@@ -275,7 +275,7 @@ Output:
     ...
     returning temporary buffer...
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/return_temporary_buffer&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -285,8 +285,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 could be deallocated multiple times  | the behavior is  
 undefined in this case   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/return_temporary_buffer&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ get_temporary_buffer](get_temporary_buffer.html "cpp/memory/get temporary buffer")(deprecated in C++17)(removed in C++20) |  obtains uninitialized storage   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_get_temporary_buffer&action=edit)  
+(function template)   
 ---|---

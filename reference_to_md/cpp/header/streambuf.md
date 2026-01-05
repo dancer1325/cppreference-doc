@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header is part of the [Input/Output](../io.html "cpp/io") library. 
 
@@ -213,13 +213,13 @@ This header is part of the [Input/Output](../io.html "cpp/io") library.
 ###  Classes  
   
 [ basic_streambuf](../io/basic_streambuf.html "cpp/io/basic streambuf") |  abstracts a raw device   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_basic_streambuf&action=edit)  
+(class template)   
 `**streambuf**` |  [std::basic_streambuf](../io/basic_streambuf.html)<char>  
 (typedef)  
 `**wstreambuf**` |  [std::basic_streambuf](../io/basic_streambuf.html)<wchar_t>  
 (typedef)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/streambuf&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     namespace std {
@@ -229,7 +229,7 @@ This header is part of the [Input/Output](../io.html "cpp/io") library.
       using wstreambuf = basic_streambuf<wchar_t>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/streambuf&action=edit&section=T-1 "Template:cpp/synopsis/streambuf")] Class template [std::basic_streambuf](../io/basic_streambuf.html "cpp/io/basic streambuf")
+#### Class template [std::basic_streambuf](../io/basic_streambuf.html "cpp/io/basic streambuf")
     
     
     namespace std {
@@ -324,7 +324,7 @@ This header is part of the [Input/Output](../io.html "cpp/io") library.
       };
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/streambuf&action=edit&section=2 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

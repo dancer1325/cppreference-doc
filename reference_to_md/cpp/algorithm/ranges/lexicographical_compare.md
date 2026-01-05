@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](copy.html "cpp/algorithm/ranges/co
 [uninitialized_default_construct_n](../../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 [Constrained algorithms](../ranges.html "cpp/algorithm/ranges")
 
@@ -550,7 +550,7 @@ All names in this menu belong to namespace `std::ranges`
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -611,7 +611,7 @@ The function-like entities described on this page are [_algorithm function objec
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/lexicographical_compare&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first1, last1  |  \-  |  the iterator-sentinel pair defining the first [range](../../iterator.html#Ranges "cpp/iterator") of elements to examine   
 ---|---|---  
@@ -622,15 +622,15 @@ comp  |  \-  |  comparison function to apply to the projected elements
 proj1  |  \-  |  projection to apply to the first range of elements   
 proj2  |  \-  |  projection to apply to the second range of elements   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/lexicographical_compare&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 true if the first range is lexicographically _less_ than the second. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/lexicographical_compare&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 At most 2·min(N1, N2) applications of the comparison and corresponding projections, where N1 = [ranges::distance](../../iterator/ranges/distance.html)(first1, last1) and N2 = [ranges::distance](../../iterator/ranges/distance.html)(first2, last2). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/lexicographical_compare&action=edit&section=4 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     struct lexicographical_compare_fn
@@ -673,7 +673,7 @@ At most 2·min(N1, N2) applications of the comparison and corresponding projecti
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/lexicographical_compare&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -718,10 +718,10 @@ Possible output:
     b d a c >= a d c b
     a c d b <  c d a b
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/lexicographical_compare&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ ranges::equal](equal.html "cpp/algorithm/ranges/equal")(C++20) |  determines if two sets of elements are the same  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_equal&action=edit)  
+(algorithm function object)  
 ---|---  
 [ lexicographical_compare](../lexicographical_compare.html "cpp/algorithm/lexicographical compare") |  returns true if one range is lexicographically less than another   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_lexicographical_compare&action=edit)
+(function template) 

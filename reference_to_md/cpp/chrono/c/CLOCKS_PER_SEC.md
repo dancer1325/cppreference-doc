@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [C-style date and time utilities](../c.html "cpp/chrono/c")
 
@@ -128,7 +128,7 @@ Types
 [clock_t](clock_t.html "cpp/chrono/c/clock t")  
 [timespec](timespec.html "cpp/chrono/c/timespec")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/c/navbar_content&action=edit)
+
 
 Defined in header `[<ctime>](../../header/ctime.html "cpp/header/ctime")` |  |   
 ---|---|---  
@@ -137,11 +137,11 @@ Defined in header `[<ctime>](../../header/ctime.html "cpp/header/ctime")` |  |
   
 Expands to an expression (not necessarily a compile-time constant) of type [std::clock_t](clock_t.html "cpp/chrono/c/clock t") equal to the number of clock ticks per second, as returned by [std::clock()](clock.html "cpp/chrono/c/clock"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/c/CLOCKS_PER_SEC&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 POSIX defines [CLOCKS_PER_SEC](https://pubs.opengroup.org/onlinepubs/9799919799/basedefs/time.h.html) as 1'000'000, regardless of the actual precision of [std::clock()](clock.html "cpp/chrono/c/clock"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/c/CLOCKS_PER_SEC&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -162,11 +162,11 @@ Possible output:
     
     1,000,000
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/c/CLOCKS_PER_SEC&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ clock](clock.html "cpp/chrono/c/clock") |  returns raw processor clock time since the program is started   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/c/dsc_clock&action=edit)  
+(function)   
 ---|---  
 [ clock_t](clock_t.html "cpp/chrono/c/clock t") |  process running time   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/c/dsc_clock_t&action=edit)  
+(typedef)   
 [C documentation](../../../c/chrono/CLOCKS_PER_SEC.html "c/chrono/CLOCKS PER SEC") for CLOCKS_PER_SEC

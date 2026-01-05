@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::expected`](../expected.html "cpp/utility/expected")
 
@@ -160,7 +160,7 @@ Common vocabulary types
 [bad_expected_access](bad_expected_access.html "cpp/utility/expected/bad expected access")  
 [unexpect_tunexpect](unexpect_t.html "cpp/utility/expected/unexpect t")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/expected/navbar_content&action=edit)
+
 
 constexpr explicit operator bool() const noexcept; |  (1)  |  (since C++23)  
 ---|---|---  
@@ -179,15 +179,15 @@ Checks whether *this represents an expected value.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/operator_bool&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 [`_has_val_`](../expected.html#Data_members "cpp/utility/expected")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/operator_bool&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 A [`std::expected`](../expected.html "cpp/utility/expected") object is never valueless. If `has_value()` returns true, [`operator*()`](operator*.html "cpp/utility/expected/operator*") can be used to access the expected value; otherwise, [`error()`](error.html "cpp/utility/expected/error") can be used to access the unexpected value. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/operator_bool&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -236,12 +236,12 @@ Possible output:
     Invalid argument
     Numerical result out of range
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/operator_bool&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ operator->operator*](operator*.html "cpp/utility/expected/operator*") |  accesses the expected value   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/expected/dsc_operator*&action=edit)  
+(public member function)   
 ---|---  
 [ error](error.html "cpp/utility/expected/error") |  returns the unexpected value   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/expected/dsc_error&action=edit)  
+(public member function)   
 [ operator boolhas_value](../optional/operator_bool.html "cpp/utility/optional/operator bool") |  checks whether the object contains a value   
-(public member function of `std::optional<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/dsc_operator_bool&action=edit)
+(public member function of `std::optional<T>`) 

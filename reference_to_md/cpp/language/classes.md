@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 **Classes**
 
@@ -261,7 +261,7 @@ Inheritance
 [`override` specifier](override.html "cpp/language/override") (C++11)  
 [`final` specifier](final.html "cpp/language/final") (C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/classes/navbar_content&action=edit)
+
 
 A class is a user-defined type. 
 
@@ -328,7 +328,7 @@ A class with a [constexpr](constexpr.html "cpp/language/constexpr") constructor 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/classes&action=edit&section=1 "Edit section: Properties of classes")] Properties of classes
+### Properties of classes
 
 ####  Trivially copyable class
 
@@ -380,7 +380,7 @@ A _standard-layout struct_ is a standard-layout class defined with the class key
 
 (since C++11)  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/classes&action=edit&section=5 "Edit section: Implicit-lifetime class")] Implicit-lifetime class
+#### Implicit-lifetime class
 
 An _implicit-lifetime class_ is a class that 
 
@@ -391,7 +391,7 @@ An _implicit-lifetime class_ is a class that
 
 Notes: the implicit-lifetime property is clarified by defect report [P0593R6](https://wg21.link/P0593R6). 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/classes&action=edit&section=6 "Edit section: POD class")] POD class
+#### POD class
 
 A _POD class_ is a class that  | 
 
@@ -413,7 +413,7 @@ A _POD struct_ is a non-union POD class. A _POD union_ is a union that is a POD 
 
 (deprecated in C++20)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/classes&action=edit&section=7 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

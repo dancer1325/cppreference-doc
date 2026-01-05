@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::scoped_allocator_adaptor`](../scoped_allocator_adaptor.html "cpp/memory/scoped allocator adaptor")
 
@@ -208,7 +208,7 @@ Non-member functions
 [operator==operator!=](operator_cmp.html "cpp/memory/scoped allocator adaptor/operator cmp")(until C++20)  
 [Deduction guides](deduction_guides.html "cpp/memory/scoped allocator adaptor/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/scoped_allocator_adaptor/navbar_content&action=edit)
+
 
 template< class Alloc >  
 /* unspecified */ /*outermost*/( Alloc&& alloc = *this ); |  (1) | (exposition only*)  
@@ -236,7 +236,7 @@ Given the type [std::allocator_traits](../allocator_traits.html)<[std::remove_re
 
 3) Equivalent to outermost_traits::destroy(`_outermost_` ﻿(), p);.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/scoped_allocator_adaptor/helpers&action=edit&section=1 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -246,10 +246,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 has the member function `outer_allocator()`”  | changed to “the expression  
 alloc.outer_allocator() is valid”   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/scoped_allocator_adaptor/helpers&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ construct](../allocator_traits/construct.html "cpp/memory/allocator traits/construct")[static] |  constructs an object in the allocated storage   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/allocator_traits/dsc_construct&action=edit)  
+(function template)   
 ---|---  
 [ destroy](../allocator_traits/destroy.html "cpp/memory/allocator traits/destroy")[static] |  destructs an object stored in the allocated storage   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/allocator_traits/dsc_destroy&action=edit)
+(function template) 

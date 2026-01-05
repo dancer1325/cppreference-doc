@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Diagnostics library](../../error.html "cpp/error")
 
@@ -89,7 +89,7 @@ Exception handling failures
 [breakpoint_if_debugging](../breakpoint_if_debugging.html "cpp/utility/breakpoint if debugging")(C++26)  
 [breakpoint](../breakpoint.html "cpp/utility/breakpoint")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/navbar_content&action=edit)
+
 
 [`std::basic_stacktrace`](../basic_stacktrace.html "cpp/utility/basic stacktrace")
 
@@ -124,7 +124,7 @@ operator<=>](operator_cmp.html "cpp/utility/basic stacktrace/operator cmp")
 [hash<std::basic_stacktrace>](hash.html "cpp/utility/basic stacktrace/hash")  
 [formatter<std::basic_stacktrace>](formatter.html "cpp/utility/basic stacktrace/formatter")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/basic_stacktrace/navbar_content&action=edit)
+
 
 Defined in header `[<stacktrace>](../../header/stacktrace.html "cpp/header/stacktrace")` |  |   
 ---|---|---  
@@ -148,24 +148,24 @@ The description of a `basic_stacktrace` typically contains description of its en
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/basic_stacktrace/to_string&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 st  |  \-  |  a `basic_stacktrace` whose description is to be returned   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/basic_stacktrace/to_string&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 A string with a description of `st`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/impldef_exception&action=edit&section=T-1 "Template:cpp/impldef exception")] Exceptions
+### Exceptions
 
 May throw implementation-defined exceptions. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/basic_stacktrace/to_string&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Custom allocators support for this function is not provided, because the implementations usually require platform specific allocations, system calls and a lot of CPU intensive work, while a custom allocator does not provide benefits for this function as the platform specific operations take an order of magnitude more time than the allocation. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/basic_stacktrace/to_string&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -187,8 +187,8 @@ Possible output:
      1# __libc_start_main in /lib/x86_64-linux-gnu/libc.so.6
      2# 0x0000000000402CA9 in ./prog.exe
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/basic_stacktrace/to_string&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ to_string](../stacktrace_entry/to_string.html "cpp/utility/stacktrace entry/to string")(C++23) |  returns a string with a description of the `stacktrace_entry`   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/stacktrace_entry/dsc_to_string&action=edit)  
+(function)   
 ---|---

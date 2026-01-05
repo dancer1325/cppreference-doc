@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header was originally in the C standard library as [`<stdarg.h>`](../../c/header/stdarg.html "c/header/stdarg"). 
 
@@ -215,20 +215,20 @@ This header provides support for [C-style variadic functions](../utility/variadi
 ###  Types  
   
 [ va_list](../utility/variadic/va_list.html "cpp/utility/variadic/va list") |  holds the information needed by [va_start](../utility/variadic/va_start.html "cpp/utility/variadic/va start"), [va_arg](../utility/variadic/va_arg.html "cpp/utility/variadic/va arg"), [va_end](../utility/variadic/va_end.html "cpp/utility/variadic/va end"), and [va_copy](../utility/variadic/va_copy.html "cpp/utility/variadic/va copy")   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variadic/dsc_va_list&action=edit)  
+(typedef)   
   
 ###  Macros  
   
 [ va_start](../utility/variadic/va_start.html "cpp/utility/variadic/va start") |  enables access to variadic function arguments   
-(function macro) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variadic/dsc_va_start&action=edit)  
+(function macro)   
 [ va_arg](../utility/variadic/va_arg.html "cpp/utility/variadic/va arg") |  accesses the next variadic function argument   
-(function macro) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variadic/dsc_va_arg&action=edit)  
+(function macro)   
 [ va_copy](../utility/variadic/va_copy.html "cpp/utility/variadic/va copy")(C++11) |  makes a copy of the variadic function arguments   
-(function macro) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variadic/dsc_va_copy&action=edit)  
+(function macro)   
 [ va_end](../utility/variadic/va_end.html "cpp/utility/variadic/va end") |  ends traversal of the variadic function arguments   
-(function macro) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variadic/dsc_va_end&action=edit)  
+(function macro)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/cstdarg&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     namespace std {
@@ -239,7 +239,7 @@ This header provides support for [C-style variadic functions](../utility/variadi
     #define va_end(V) /*see description*/
     #define va_start(V, P) /*see description*/
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/cstdarg&action=edit&section=2 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

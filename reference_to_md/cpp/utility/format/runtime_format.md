@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Formatting library](../format.html "cpp/utility/format")
 
@@ -91,7 +91,7 @@ Formatting arguments
 [Format error](format.html#Format_error "cpp/utility/format/format")  
 [format_error](format_error.html "cpp/utility/format/format error")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/navbar_content&action=edit)
+
 
 Defined in header `[<format>](../../header/format.html "cpp/header/format")` |  |   
 ---|---|---  
@@ -115,12 +115,12 @@ Returns an object that stores a runtime format string directly usable in user-or
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/runtime_format&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 fmt  |  \-  |  a string view   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/runtime_format&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 An object holding the runtime format string of the exposition-only type: 
 
@@ -149,7 +149,7 @@ The returned object contains an exposition-only non-static data member `_str_` o
 
 3) The assignment is explicitly deleted. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/runtime_format&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 Since the return type of `runtime_format` is neither copyable nor movable, an attempt of passing runtime_fmt as glvalue inhibits the construction of std::basic_format_string which results in program ill-formed. To construct `std::basic_format_string` with `runtime_format`, the returned value of `runtime_format` is passed directly on `std::basic_format_string` as prvalue where copy elision is guaranteed. 
     
@@ -164,7 +164,7 @@ Since the return type of `runtime_format` is neither copyable nor movable, an at
 ---|---|---|---  
 [`__cpp_lib_format`](../../experimental/feature_test.html#cpp_lib_format "cpp/feature test") | [`202311L`](../../compiler_support/26.html#cpp_lib_format_202311L "cpp/compiler support/26") | (C++26) | Runtime format strings   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/runtime_format&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -195,14 +195,14 @@ Output:
     {} {}  : alpha Z
     {} {} {}  : alpha Z 3.14
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/runtime_format&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ format](format.html "cpp/utility/format/format")(C++20) |  stores formatted representation of the arguments in a new string   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/dsc_format&action=edit)  
+(function template)   
 ---|---  
 [ vformat](vformat.html "cpp/utility/format/vformat")(C++20) |  non-template variant of [std::format](format.html "cpp/utility/format/format") using type-erased argument representation   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/dsc_vformat&action=edit)  
+(function)   
 [ basic_format_stringformat_stringwformat_string](basic_format_string.html "cpp/utility/format/basic format string")(C++20)(C++20)(C++20) |  class template that performs compile-time format string checks at construction time   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/dsc_basic_format_string&action=edit)
+(class template) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

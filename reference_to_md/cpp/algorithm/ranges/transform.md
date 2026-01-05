@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](copy.html "cpp/algorithm/ranges/co
 [uninitialized_default_construct_n](../../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 [Constrained algorithms](../ranges.html "cpp/algorithm/ranges")
 
@@ -550,7 +550,7 @@ All names in this menu belong to namespace `std::ranges`
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -630,7 +630,7 @@ The function-like entities described on this page are [_algorithm function objec
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/transform&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first1, last1  |  \-  |  the iterator-sentinel pair defining the first [range](../../iterator.html#Ranges "cpp/iterator") of elements to transform   
 ---|---|---  
@@ -642,19 +642,19 @@ op, binary_op  |  \-  |  operation to apply to the projected element(s)
 proj1  |  \-  |  projection to apply to the elements in the first range   
 proj2  |  \-  |  projection to apply to the elements in the second range   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/transform&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1,2) A `unary_transform_result` contains an input iterator equal to last and an output iterator to the element past the last element transformed.
 
 3,4) A `binary_transform_result` contains input iterators to last transformed elements from ranges `[`first1`, `last1`)` and `[`first2`, `last2`)` as `in1` and `in2` respectively, and the output iterator to the element past the last element transformed as `out`.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/transform&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 1,2) Exactly [ranges::distance](../../iterator/ranges/distance.html)(first1, last1) applications of op and proj.
 
 3,4) Exactly [ranges::min](min.html)([ranges::distance](../../iterator/ranges/distance.html)(first1, last1), [ranges::distance](../../iterator/ranges/distance.html)(first2, last2)) applications of binary_op and projections.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/transform&action=edit&section=4 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     struct transform_fn
@@ -732,11 +732,11 @@ proj2  |  \-  |  projection to apply to the elements in the second range
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/transform&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 `ranges::transform` does not guarantee in-order application of op or binary_op. To apply a function to a sequence in-order or to apply a function that modifies the elements of a sequence, use [ranges::for_each](for_each.html "cpp/algorithm/ranges/for each"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/transform&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 The following code uses `ranges::transform` to convert a string in place to uppercase using the std::toupper function and then transforms each char to its ordinal value. Then `ranges::transform` with a projection is used to transform elements of [std::vector](../../container/vector.html)<Foo> into chars to fill a [std::string](../../string/basic_string.html "cpp/string/basic string").
 
@@ -792,12 +792,12 @@ Output:
     144 138 152 152 158
     HELLO
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/transform&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ ranges::for_each](for_each.html "cpp/algorithm/ranges/for each")(C++20) |  applies a unary [function object](../../named_req/FunctionObject.html "cpp/named req/FunctionObject") to elements from a [range](../../iterator.html#Ranges "cpp/iterator")  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_for_each&action=edit)  
+(algorithm function object)  
 ---|---  
 [ ranges::transform_viewviews::transform](../../ranges/transform_view.html "cpp/ranges/transform view")(C++20) |  a [`view`](../../ranges/view.html "cpp/ranges/view") of a sequence that applies a transformation function to each element  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_transform_view&action=edit)  
+(class template) (range adaptor object)  
 [ transform](../transform.html "cpp/algorithm/transform") |  applies a function to a range of elements, storing results in a destination range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_transform&action=edit)
+(function template) 

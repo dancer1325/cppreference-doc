@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Library fundamentals v2](lib_extensions_2.html "cpp/experimental/lib extensions 2")
 
@@ -74,7 +74,7 @@
 [uniform container erasure](lib_extensions_2.html#Uniform_container_erasure "cpp/experimental/lib extensions 2")  
 [logical operator type traits](lib_extensions_2.html#Logical_operator_type_traits "cpp/experimental/lib extensions 2")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions_2/navbar_content&action=edit)
+
 
 Defined in header `[<experimental/random>](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/random&action=edit&redlink=1 "cpp/header/experimental/random \(page does not exist\)")` |  |   
 ---|---|---  
@@ -95,22 +95,22 @@ Generates a random integer in the closed interval `[a, b]`.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/randint&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 a, b  |  \-  |  integer values specifying the range   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/randint&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 A random integer i in the closed interval `[a, b]`, produced using a thread-local instance of [std::uniform_int_distribution](../numeric/random/uniform_int_distribution.html)<IntType> invoked with the [per-thread random number engine](lib_extensions_2.html#per-thread_engine "cpp/experimental/lib extensions 2"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/randint&action=edit&section=3 "Edit section: Remarks")] Remarks
+### Remarks
 
 If `IntType` is not one of short, int, long, long long, unsigned short, unsigned int, unsigned long, or unsigned long long, the program is ill-formed. 
 
 The behavior is undefined if a > b. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/randint&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -129,8 +129,8 @@ Possible output:
     
     random 3-digit number: 273
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/randint&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ reseed](reseed.html "cpp/experimental/reseed") |  reseeds the per-thread random engine   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/dsc_reseed&action=edit)  
+(function)   
 ---|---

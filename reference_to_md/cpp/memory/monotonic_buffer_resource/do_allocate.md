@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::pmr::monotonic_buffer_resource`](../monotonic_buffer_resource.html "cpp/memory/monotonic buffer resource")
 
@@ -199,7 +199,7 @@ Protected member functions
 [monotonic_buffer_resource::do_deallocate](do_deallocate.html "cpp/memory/monotonic buffer resource/do deallocate")  
 [monotonic_buffer_resource::do_is_equal](do_is_equal.html "cpp/memory/monotonic buffer resource/do is equal")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/monotonic_buffer_resource/navbar_content&action=edit)
+
 
 virtual void* do_allocate( [std::size_t](../../types/size_t.html) bytes, [std::size_t](../../types/size_t.html) alignment ); |  |  (since C++17)  
 ---|---|---  
@@ -211,18 +211,18 @@ If the _current buffer_ has sufficient unused space to fit a block with the spec
 
 Otherwise, this function allocates a new buffer by calling upstream_resource()->allocate(n, m), where `n` is not less than the greater of bytes and the _next buffer size_ and `m` is not less than alignment. It sets the new buffer as the _current buffer_ , increases the _next buffer size_ by an implementation-defined growth factor (which is not necessarily integral), and then allocates the return block from the newly allocated buffer. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/monotonic_buffer_resource/do_allocate&action=edit&section=1 "Edit section: Return value")] Return value 
+### Return value 
 
 A pointer to allocated storage of at least bytes bytes in size, aligned to the specified alignment if such alignment is supported, and to alignof([std::max_align_t](../../types/max_align_t.html)) otherwise. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/monotonic_buffer_resource/do_allocate&action=edit&section=2 "Edit section: Exceptions")] Exceptions 
+### Exceptions 
 
 Throws nothing unless calling `allocate()` on the upstream memory resource throws. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/monotonic_buffer_resource/do_allocate&action=edit&section=3 "Edit section: See also")] See also 
+### See also 
 
 [ allocate](../memory_resource/allocate.html "cpp/memory/memory resource/allocate") |  allocates memory   
-(public member function of `std::pmr::memory_resource`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/memory_resource/dsc_allocate&action=edit)  
+(public member function of `std::pmr::memory_resource`)   
 ---|---  
 [ do_allocate](../memory_resource/do_allocate.html "cpp/memory/memory resource/do allocate")[virtual] |  allocates memory  
-(virtual private member function of `std::pmr::memory_resource`)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/memory_resource/dsc_do_allocate&action=edit)
+(virtual private member function of `std::pmr::memory_resource`)

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [ Print functions](../io.html#Print_functions_.28since_C.2B.2B23.29 "cpp/io")
 
@@ -88,7 +88,7 @@ Print functions
 **vprint_unicode vprint_unicode_buffered**(C++23)(C++23)  
 [vprint_nonunicodevprint_nonunicode_buffered](vprint_nonunicode.html "cpp/io/vprint nonunicode")(C++23)(C++23)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/print/navbar_content&action=edit)
+
 
 Defined in header `[<print>](../header/print.html "cpp/header/print")` |  |   
 ---|---|---  
@@ -149,11 +149,11 @@ After writing characters to the output stream, establishes an [observable checkp
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/vprint_unicode&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 stream  |  \-  |  output file stream to write to   
 ---|---|---  
-fmt  |  \-  |  [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/format_string&action=edit)an object that represents the format string. The format string consists of 
+fmt  |  \-  |  an object that represents the format string. The format string consists of 
 
   * ordinary characters (except { and }), which are copied unchanged to the output, 
   * escape sequences {{ and }}, which are replaced with { and } respectively in the output, and 
@@ -195,7 +195,7 @@ format-spec |  \-  |  the format specification defined by the [std::formatter](.
   
 args  |  \-  |  arguments to be formatted   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/vprint_unicode&action=edit&section=2 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
   * [std::bad_alloc](../memory/new/bad_alloc.html "cpp/memory/new/bad alloc") on allocation failure. 
   * [std::system_error](../error/system_error.html "cpp/error/system error"), if writing to the stream fails. 
@@ -203,7 +203,7 @@ args  |  \-  |  arguments to be formatted
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/vprint_unicode&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 The C++ standard encourages the implementers to produce a diagnostic message if out contains invalid Unicode code units. 
 
@@ -222,13 +222,13 @@ If invoking the native Unicode API requires transcoding, the invalid code units 
 (DR23) | Enabling unbuffered formatted output for more formattable types   
 [`__cpp_lib_format`](../experimental/feature_test.html#cpp_lib_format "cpp/feature test") | [`202207L`](../compiler_support/23.html#cpp_lib_format_202207L "cpp/compiler support/23") | (C++23) | Exposing std::basic_format_string  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/vprint_unicode&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/vprint_unicode&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -241,19 +241,19 @@ the native Unicode API to display Unicode
 [P3235R3](https://wg21.link/P3235R3) | C++23  | the names of the functions added  
 by [P3107R5](https://wg21.link/P3107R5) were misleading  | changed the function names   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/vprint_unicode&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ vprint_nonunicodevprint_nonunicode_buffered](vprint_nonunicode.html "cpp/io/vprint nonunicode")(C++23) |  prints to [stdout](c/std_streams.html "cpp/io/c/std streams") or a file stream using [type-erased](../utility/format/basic_format_args.html "cpp/utility/format/basic format args") argument representation   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_vprint_nonunicode&action=edit)  
+(function)   
 ---|---  
 [ vprint_unicode(std::ostream)](basic_ostream/vprint_unicode.html "cpp/io/basic ostream/vprint unicode")(C++23) |  performs Unicode aware output using [type-erased](../utility/format/basic_format_args.html "cpp/utility/format/basic format args") argument representation   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ostream/dsc_vprint_unicode&action=edit)  
+(function)   
 [ print](print.html "cpp/io/print")(C++23) |  prints to [stdout](c/std_streams.html "cpp/io/c/std streams") or a file stream using [formatted](../utility/format.html "cpp/utility/format") representation of the arguments   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_print&action=edit)  
+(function template)   
 [ format](../utility/format/format.html "cpp/utility/format/format")(C++20) |  stores formatted representation of the arguments in a new string   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/dsc_format&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/vprint_unicode&action=edit&section=7 "Edit section: External links")] External links
+### External links
 
 1\.  | [Unicode](https://en.wikipedia.org/wiki/Unicode "enwiki:Unicode")  
 ---|---  

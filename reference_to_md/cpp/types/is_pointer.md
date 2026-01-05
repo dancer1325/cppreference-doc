@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Metaprogramming library](../meta.html "cpp/meta")
 
@@ -167,7 +167,7 @@ Type transformations
 Compile-time integer sequences  
 [integer_sequence](../utility/integer_sequence.html "cpp/utility/integer sequence")(C++14)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/meta/navbar_content&action=edit)
+
 
 Defined in header `[<type_traits>](../header/type_traits.html "cpp/header/type traits")` |  |   
 ---|---|---  
@@ -196,19 +196,19 @@ If the program adds specializations for `std::is_pointer` or `std::is_pointer_v`
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/traits/is&action=edit&section=T-1 "Template:cpp/types/traits/is")] Template parameters
+### Template parameters
 
 T  |  \-  |  a type to check   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/traits/is&action=edit&section=T-2 "Template:cpp/types/traits/is")] Helper variable template
+### Helper variable template
 
 template< class T >  
 constexpr bool is_pointer_v = is_pointer<T>::value; |  |  (since C++17)  
 ---|---|---  
 | |   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/integral_constant/inherit2&action=edit)
+
 
 ##  Inherited from [ std::integral_constant](integral_constant.html "cpp/types/integral constant")
 
@@ -233,7 +233,7 @@ Type  |  Definition
 `value_type` |  bool  
 `type` |  [std::integral_constant](integral_constant.html)<bool, value>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_pointer&action=edit&section=1 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     template<class T>
@@ -253,7 +253,7 @@ Type  |  Definition
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_pointer&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -293,16 +293,16 @@ Run this code
         );
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_pointer&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ is_member_pointer](is_member_pointer.html "cpp/types/is member pointer")(C++11) |  checks if a type is a pointer to a non-static member function or object   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_member_pointer&action=edit)  
+(class template)   
 ---|---  
 [ is_member_object_pointer](is_member_object_pointer.html "cpp/types/is member object pointer")(C++11) |  checks if a type is a non-static member object pointer   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_member_object_pointer&action=edit)  
+(class template)   
 [ is_member_function_pointer](is_member_function_pointer.html "cpp/types/is member function pointer")(C++11) |  checks if a type is a non-static member function pointer   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_member_function_pointer&action=edit)  
+(class template)   
 [ is_array](is_array.html "cpp/types/is array")(C++11) |  checks if a type is an array type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_array&action=edit)  
+(class template)   
 [ is_scalar](is_scalar.html "cpp/types/is scalar")(C++11) |  checks if a type is a scalar type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_scalar&action=edit)
+(class template) 

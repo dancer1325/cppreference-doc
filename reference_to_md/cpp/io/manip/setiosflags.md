@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [Input/output manipulators](../manip.html "cpp/io/manip")
 
@@ -154,7 +154,7 @@ Time and money I/O
 Quoted manipulator  
 [quoted](quoted.html "cpp/io/manip/quoted")(C++14)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/navbar_content&action=edit)
+
 
 Defined in header `[<iomanip>](../../header/iomanip.html "cpp/header/iomanip")` |  |   
 ---|---|---  
@@ -174,12 +174,12 @@ When used in an expression out << setiosflags(mask) or in >> setiosflags(mask), 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/setiosflags&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 mask  |  \-  |  bitmask of the flags to set   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/setiosflags&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 An object of unspecified type such that 
 
@@ -203,7 +203,7 @@ where the function f is defined as:
         str.setf(mask);
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/setiosflags&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -224,7 +224,7 @@ Output:
     
     0X2A
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/setiosflags&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -234,10 +234,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 of type [std::ostream](../basic_ostream.html "cpp/io/basic ostream") or [std::istream](../basic_istream.html "cpp/io/basic istream") | usable with any  
 character stream   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/setiosflags&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ setf](../ios_base/setf.html "cpp/io/ios base/setf") |  sets specific format flag   
-(public member function of `std::ios_base`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/ios_base/dsc_setf&action=edit)  
+(public member function of `std::ios_base`)   
 ---|---  
 [ resetiosflags](resetiosflags.html "cpp/io/manip/resetiosflags") |  clears the specified ios_base flags   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_resetiosflags&action=edit)
+(function) 

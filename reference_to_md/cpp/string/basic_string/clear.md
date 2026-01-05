@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Strings library](../../string.html "cpp/string")
 
@@ -40,7 +40,7 @@ Classes
 [basic_string_view](../basic_string_view.html "cpp/string/basic string view")(C++17)  
 [char_traits](../char_traits.html "cpp/string/char traits")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/navbar_content&action=edit)
+
 
 [`std::basic_string`](../basic_string.html "cpp/string/basic string")
 
@@ -133,7 +133,7 @@ basic_string_view](operator_basic_string_view.html "cpp/string/basic string/oper
 [hash<std::basic_string>](hash.html "cpp/string/basic string/hash")(C++11)  
 [Deduction guides](deduction_guides.html "cpp/string/basic string/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/navbar_content&action=edit)
+
 
 void clear(); |  | (noexcept since C++11)   
 (constexpr since C++20)  
@@ -156,23 +156,23 @@ All pointers, references, and iterators are invalidated.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/clear&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/clear&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/clear&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Unlike for [std::vector::clear](../../container/vector/clear.html "cpp/container/vector/clear"), the C++ standard does not explicitly require that [capacity](capacity.html "cpp/string/basic string/capacity") is unchanged by this function, but existing implementations do not change capacity. This means that they do not release the allocated memory (see also [shrink_to_fit](shrink_to_fit.html "cpp/string/basic string/shrink to fit")). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/clear&action=edit&section=4 "Edit section: Complexity")] Complexity
+### Complexity
 
 Linear in the size of the string, although existing implementations operate in constant time. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/clear&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -197,8 +197,8 @@ Possible output:
     
     true
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/clear&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ erase](erase.html "cpp/string/basic string/erase") |  removes characters   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_erase&action=edit)  
+(public member function)   
 ---|---

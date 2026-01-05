@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](../empty.html "cpp/iterator/empty")(C++17)  
 [data](../data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 [`std::common_iterator`](../common_iterator.html "cpp/iterator/common iterator")
 
@@ -213,7 +213,7 @@
 [incrementable_traits<std::common_iterator>](incrementable_traits.html "cpp/iterator/common iterator/incrementable traits")(C++20)  
 **iterator_traits <std::common_iterator>**(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/common_iterator/navbar_content&action=edit)
+
 
 Defined in header `[<iterator>](../../header/iterator.html "cpp/header/iterator")` |  |   
 ---|---|---  
@@ -233,7 +233,7 @@ Provides the uniform interface to the properties of the [std::common_iterator](.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/common_iterator/iterator_traits&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Type name  |  Definition   
 ---|---  
@@ -261,7 +261,7 @@ Type name  |  Definition
   
 `reference` |  [std::iter_reference_t](../iter_t.html)<I>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/common_iterator/iterator_traits&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -297,7 +297,7 @@ Run this code
         static_assert([std::is_same](../../types/is_same.html)<TRCS::reference, int&>());
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/common_iterator/iterator_traits&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -307,10 +307,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 `iterator_category` was [std::input_iterator_tag](../iterator_tags.html "cpp/iterator/iterator tags") | `iterator_category` is  
 undefined in this case   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/common_iterator/iterator_traits&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ iterator_traits](../iterator_traits.html "cpp/iterator/iterator traits") |  provides uniform interface to the properties of an iterator   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_iterator_traits&action=edit)  
+(class template)   
 ---|---  
 [ std::incrementable_traits<std::common_iterator>](incrementable_traits.html "cpp/iterator/common iterator/incrementable traits")(C++20) |  computes the associated difference type of the [std::common_iterator](../common_iterator.html "cpp/iterator/common iterator") type   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/common_iterator/dsc_incrementable_traits&action=edit)
+(class template specialization) 

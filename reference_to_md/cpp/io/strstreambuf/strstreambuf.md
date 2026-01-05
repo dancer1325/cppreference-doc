@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::strstreambuf`](../strstreambuf.html "cpp/io/strstreambuf")
 
@@ -96,7 +96,7 @@ Protected member functions
 [strstreambuf::seekoff](seekoff.html "cpp/io/strstreambuf/seekoff")  
 [strstreambuf::seekpos](seekpos.html "cpp/io/strstreambuf/seekpos")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/strstreambuf/navbar_content&action=edit)
+
 
 | (1) |   
 ---|---|---  
@@ -147,7 +147,7 @@ d) Configures the [std::basic_streambuf](../basic_streambuf.html "cpp/io/basic s
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/strstreambuf/strstreambuf&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 alsize  |  \-  |  the initial size of the dynamically allocated buffer   
 ---|---|---  
@@ -157,11 +157,11 @@ gnext  |  \-  |  pointer to the start of the get area in the user-provided array
 pbeg  |  \-  |  pointer to the start of the put area in the user-provided array   
 n  |  \-  |  the number of bytes in the get area (if pbeg is null) or in the put area (if pbeg is not null) of the user-provided array   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/strstreambuf/strstreambuf&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 These constructors are typically called by the constructors of [std::strstream](../strstream.html). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/strstreambuf/strstreambuf&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -169,7 +169,7 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [P0935R0](https://wg21.link/P0935R0) | C++11  | default constructor was explicit  | made implicit   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/strstreambuf/strstreambuf&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -205,8 +205,8 @@ Output:
     1.23
     1 2 3
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/strstreambuf/strstreambuf&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ (constructor)](../strstream/strstream.html "cpp/io/strstream/strstream") |  constructs a `strstream` object, optionally allocating the buffer   
-(public member function of `std::strstream`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/strstream/dsc_constructor&action=edit)  
+(public member function of `std::strstream`)   
 ---|---

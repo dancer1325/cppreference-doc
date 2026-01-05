@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::vector`](../vector.html "cpp/container/vector")
 
@@ -135,7 +135,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/vector/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/vector/navbar_content&action=edit)
+
 
 | (1) |   
 ---|---|---  
@@ -174,7 +174,7 @@ The iterator first does not need to be dereferenceable if first == last: erasing
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/erase&action=edit&section=T-1 "Template:cpp/container/erase")] Parameters
+### Parameters
 
 pos  |  \-  |  iterator to the element to remove   
 ---|---|---  
@@ -182,7 +182,7 @@ first, last  |  \-  |  the pair of iterators defining the [range](../../iterator
 Type requirements   
 -If `T` is not [MoveAssignable](../../named_req/MoveAssignable.html "cpp/named req/MoveAssignable"), the behavior is undefined.   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/erase&action=edit&section=T-2 "Template:cpp/container/erase")] Return value
+### Return value
 
 Iterator following the last removed element. 
 
@@ -196,15 +196,15 @@ If `[`first`, `last`)` is an empty range, then last is returned.
 
 Does not throw unless an exception is thrown by the assignment operator of `T`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/erase&action=edit&section=T-4 "Template:cpp/container/erase")] Complexity
+### Complexity
 
 Linear: the number of calls to the destructor of `T` is the same as the number of elements erased, the assignment operator of `T` is called the number of times equal to the number of elements in the vector after the erased elements. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/erase&action=edit&section=T-5 "Template:cpp/container/erase")] Notes
+### Notes
 
 When container elements need to be erased based on a predicate, rather than iterating the container and calling unary `erase`, the iterator range overload is generally used with [`std::remove()/std::remove_if()`](../../algorithm/remove.html "cpp/algorithm/remove") to minimise the number of moves of the remaining (non-removed) elements, — this is the erase-remove idiom. [`std::erase_if()`](erase2.html "cpp/container/vector/erase2") replaces the erase-remove idiom.(since C++20)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/erase&action=edit&section=T-6 "Template:cpp/container/erase")] Example
+### Example
 
 Run this code
     
@@ -261,10 +261,10 @@ made the behavior of clearing an empty `vector` undefined  | not required if
 first == last  
 [LWG 414](https://cplusplus.github.io/LWG/issue414) | C++98  | iterators at the point of erase were not invalidated  | they are also invalidated   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/erase&action=edit&section=T-8 "Template:cpp/container/erase")] See also
+### See also
 
 [ erase(std::vector)erase_if(std::vector)](erase2.html "cpp/container/vector/erase2")(C++20) |  erases all elements satisfying specific criteria   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_erase_seq&action=edit)  
+(function template)   
 ---|---  
 [ clear](clear.html "cpp/container/vector/clear") |  clears the contents   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_clear&action=edit)
+(public member function) 

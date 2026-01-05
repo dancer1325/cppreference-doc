@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Coroutine support](../../coroutine.html "cpp/coroutine")
 
@@ -146,7 +146,7 @@ Trivial awaitables
 Range generators  
 [generator](../generator.html "cpp/coroutine/generator")(C++23)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/coroutine/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -340,7 +340,7 @@ std::from_range](../../ranges/from_range.html "cpp/ranges/from range")(C++23)(C+
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::generator`](../generator.html "cpp/coroutine/generator")
 
@@ -368,7 +368,7 @@ std::from_range](../../ranges/from_range.html "cpp/ranges/from range")(C++23)(C+
 generator::_iterator_ ::operator++(int)](iterator.html#increment "cpp/coroutine/generator/iterator")  
 [operator==(generator::_iterator_ , std::default_sentinel_t)](iterator.html#compare "cpp/coroutine/generator/iterator")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/coroutine/generator/navbar_content&action=edit)
+
 
 [std::default_sentinel_t](../../iterator/default_sentinel.html) end() const noexcept; |  |  (since C++23)  
 ---|---|---  
@@ -376,11 +376,11 @@ generator::_iterator_ ::operator++(int)](iterator.html#increment "cpp/coroutine/
   
 Equivalent to return [std::default_sentinel](../../iterator/default_sentinel.html). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/coroutine/generator/end&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 A sentinel. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/coroutine/generator/end&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

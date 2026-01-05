@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::flat_map`](../flat_map.html "cpp/container/flat map")
 
@@ -143,7 +143,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/flat map/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/flat_map/navbar_content&action=edit)
+
 
 flat_map()  
 : flat_map(key_compare()) { } |  (1)  |  (since C++23)  
@@ -295,11 +295,11 @@ Note for overloads (4-6,13-19,23-25): If multiple elements in the range have key
   
 ---  
   
-##### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/constructor_flat_map&action=edit&section=T-1 "Template:cpp/container/constructor flat map")] Allocator usage note
+##### Allocator usage note
 
 The constructors (2,3,5,6,8,9,11,12,14,15,17,19,21,22,24,25,27,28) are equivalent to the corresponding non-allocator constructors except that the underlying containers [`_c.keys_`](../flat_map.html#Member_objects "cpp/container/flat map") and [`_c.values_`](../flat_map.html#Member_objects "cpp/container/flat map") are constructed with [uses-allocator construction](../../memory/uses_allocator.html#Uses-allocator_construction "cpp/memory/uses allocator"). These overloads participate in overload resolution only if [std::uses_allocator_v](../../memory/uses_allocator.html)<container_type, Allocator> is true. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/constructor_flat_map&action=edit&section=T-2 "Template:cpp/container/constructor flat map")] Parameters
+### Parameters
 
 key_cont  |  \-  |  a container to be used as source to initialize the underlying keys container   
 ---|---|---  
@@ -317,7 +317,7 @@ Type requirements
 -`Compare` must meet the requirements of [Compare](../../named_req/Compare.html "cpp/named req/Compare").   
 -`Allocator` must meet the requirements of [Allocator](../../named_req/Allocator.html "cpp/named req/Allocator").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/constructor_flat_map&action=edit&section=T-3 "Template:cpp/container/constructor flat map")] Complexity
+### Complexity
 
 1) Constant.
 
@@ -341,22 +341,22 @@ Type requirements
 
 26-28) Linear in size of init.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/constructor_flat_map&action=edit&section=T-4 "Template:cpp/container/constructor flat map")] Exceptions
+### Exceptions
 
 Calls to `Allocator::allocate` may throw. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/constructor_flat_map&action=edit&section=T-5 "Template:cpp/container/constructor flat map")] Notes
+### Notes
 
 After container move construction (overload ([3](flat_map.html#Version_3))), references, pointers, and iterators (other than the end iterator) to other remain valid, but refer to elements that are now in *this. The current standard makes this guarantee via the blanket statement in [[container.reqmts]/67](https://eel.is/c++draft/container.reqmts#67), and a more direct guarantee is under consideration via [LWG issue 2321](https://cplusplus.github.io/LWG/issue2321). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/constructor_flat_map&action=edit&section=T-6 "Template:cpp/container/constructor flat map")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/constructor_flat_map&action=edit&section=T-7 "Template:cpp/container/constructor flat map")] See also
+### See also
 
 [ operator=](operator=.html "cpp/container/flat map/operator=") |  assigns values to the container adaptor   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_operator%3D&action=edit)  
+(public member function)   
 ---|---

@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../../../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 [Experimental library headers](../../experimental.html "cpp/header/experimental")
 
@@ -292,7 +292,7 @@ Networking TS
 Reflection TS  
 [`<experimental/reflect>`](../reflect.html "cpp/header/experimental/reflect")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/experimental/navbar_content&action=edit)
+
 
 This header is part of the [ranges](../../../experimental/ranges.html "cpp/experimental/ranges") library. 
 
@@ -307,81 +307,81 @@ This header is part of the [ranges](../../../experimental/ranges.html "cpp/exper
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/ranges/concepts&action=edit&section=1 "Edit section: Core language concepts")] Core language concepts 
+### Core language concepts 
 
 Defined in namespace `std::experimental::ranges`  
 ---  
 [ Same](../../../experimental/ranges/concepts/Same.html "cpp/experimental/ranges/concepts/Same") |  specifies that a type is the same as another type   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/concepts/dsc_Same&action=edit)  
+(concept)   
 [ DerivedFrom](../../../experimental/ranges/concepts/DerivedFrom.html "cpp/experimental/ranges/concepts/DerivedFrom") |  specifies that a type is derived from another type   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/concepts/dsc_DerivedFrom&action=edit)  
+(concept)   
 [ ConvertibleTo](../../../experimental/ranges/concepts/ConvertibleTo.html "cpp/experimental/ranges/concepts/ConvertibleTo") |  specifies that a type is implicitly convertible to another type   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/concepts/dsc_ConvertibleTo&action=edit)  
+(concept)   
 [ CommonReference](../../../experimental/ranges/concepts/CommonReference.html "cpp/experimental/ranges/concepts/CommonReference") |  specifies that two types share a common reference type   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/concepts/dsc_CommonReference&action=edit)  
+(concept)   
 [ Common](../../../experimental/ranges/concepts/Common.html "cpp/experimental/ranges/concepts/Common") |  specifies that two types share a common type   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/concepts/dsc_Common&action=edit)  
+(concept)   
 [ Integral](../../../experimental/ranges/concepts/Integral.html "cpp/experimental/ranges/concepts/Integral") |  specifies that a type is an integral type   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/concepts/dsc_Integral&action=edit)  
+(concept)   
 [ SignedIntegral](../../../experimental/ranges/concepts/SignedIntegral.html "cpp/experimental/ranges/concepts/SignedIntegral") |  specifies that a type is an integral type that is signed   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/concepts/dsc_SignedIntegral&action=edit)  
+(concept)   
 [ UnsignedIntegral](../../../experimental/ranges/concepts/UnsignedIntegral.html "cpp/experimental/ranges/concepts/UnsignedIntegral") |  specifies that a type is an integral type that is not signed   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/concepts/dsc_UnsignedIntegral&action=edit)  
+(concept)   
 [ Assignable](../../../experimental/ranges/concepts/Assignable.html "cpp/experimental/ranges/concepts/Assignable") |  specifies that a type is assignable from another type   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/concepts/dsc_Assignable&action=edit)  
+(concept)   
 [ SwappableSwappableWith](../../../experimental/ranges/concepts/Swappable.html "cpp/experimental/ranges/concepts/Swappable") |  specifies that a type can be swapped or that two types can be swapped with each other   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/concepts/dsc_Swappable&action=edit)  
+(concept)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/ranges/concepts&action=edit&section=2 "Edit section: Comparison concepts")] Comparison concepts 
+### Comparison concepts 
 
 Defined in namespace `std::experimental::ranges`  
 ---  
 [ Boolean](../../../experimental/ranges/concepts/Boolean.html "cpp/experimental/ranges/concepts/Boolean") |  specifies that a type can be used in Boolean contexts   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/concepts/dsc_Boolean&action=edit)  
+(concept)   
 [ WeaklyEqualityComparableWith](../../../experimental/ranges/concepts/WeaklyEqualityComparableWith.html "cpp/experimental/ranges/concepts/WeaklyEqualityComparableWith") |  specifies that two types can be compared for equality using operators == and !=   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/concepts/dsc_WeaklyEqualityComparableWith&action=edit)  
+(concept)   
 [ EqualityComparableEqualityComparableWith](../../../experimental/ranges/concepts/EqualityComparable.html "cpp/experimental/ranges/concepts/EqualityComparable") |  specifies that operator == is an equivalence relation   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/concepts/dsc_EqualityComparable&action=edit)  
+(concept)   
 [ StrictTotallyOrderedStrictTotallyOrderedWith](../../../experimental/ranges/concepts/StrictTotallyOrdered.html "cpp/experimental/ranges/concepts/StrictTotallyOrdered") |  specifies that the comparison operators on the type yield a total order   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/concepts/dsc_StrictTotallyOrdered&action=edit)  
+(concept)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/ranges/concepts&action=edit&section=3 "Edit section: Object concepts")] Object concepts 
+### Object concepts 
 
 Defined in namespace `std::experimental::ranges`  
 ---  
 [ Destructible](../../../experimental/ranges/concepts/Destructible.html "cpp/experimental/ranges/concepts/Destructible") |  specifies that an object of the type can be destroyed   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/concepts/dsc_Destructible&action=edit)  
+(concept)   
 [ Constructible](../../../experimental/ranges/concepts/Constructible.html "cpp/experimental/ranges/concepts/Constructible") |  specifies that a variable of the type can be constructed from or bound to a set of argument types   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/concepts/dsc_Constructible&action=edit)  
+(concept)   
 [ DefaultConstructible](../../../experimental/ranges/concepts/DefaultConstructible.html "cpp/experimental/ranges/concepts/DefaultConstructible") |  specifies that an object of a type can be default constructed   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/concepts/dsc_DefaultConstructible&action=edit)  
+(concept)   
 [ MoveConstructible](../../../experimental/ranges/concepts/MoveConstructible.html "cpp/experimental/ranges/concepts/MoveConstructible") |  specifies that an object of a type can be move constructed   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/concepts/dsc_MoveConstructible&action=edit)  
+(concept)   
 [ CopyConstructible](../../../experimental/ranges/concepts/CopyConstructible.html "cpp/experimental/ranges/concepts/CopyConstructible") |  specifies that an object of a type can be copy constructed and move constructed   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/concepts/dsc_CopyConstructible&action=edit)  
+(concept)   
 [ Movable](../../../experimental/ranges/concepts/Movable.html "cpp/experimental/ranges/concepts/Movable") |  specifies that an object of a type can be moved and swapped   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/concepts/dsc_Movable&action=edit)  
+(concept)   
 [ Copyable](../../../experimental/ranges/concepts/Copyable.html "cpp/experimental/ranges/concepts/Copyable") |  specifies that an object of a type can be copied, moved, and swapped   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/concepts/dsc_Copyable&action=edit)  
+(concept)   
 [ Semiregular](../../../experimental/ranges/concepts/Semiregular.html "cpp/experimental/ranges/concepts/Semiregular") |  specifies that an object of a type can be copied, moved, swapped, and default constructed   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/concepts/dsc_Semiregular&action=edit)  
+(concept)   
 [ Regular](../../../experimental/ranges/concepts/Regular.html "cpp/experimental/ranges/concepts/Regular") |  specifies that a type is regular, that is, it is both [`Semiregular`](../../../experimental/ranges/concepts/Semiregular.html "cpp/experimental/ranges/concepts/Semiregular") and [`EqualityComparable`](../../../experimental/ranges/concepts/EqualityComparable.html "cpp/experimental/ranges/concepts/EqualityComparable")   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/concepts/dsc_Regular&action=edit)  
+(concept)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/ranges/concepts&action=edit&section=4 "Edit section: Callable concepts")] Callable concepts 
+### Callable concepts 
 
 Defined in namespace `std::experimental::ranges`  
 ---  
 [ InvocableRegularInvocable](../../../experimental/ranges/concepts/Invocable.html "cpp/experimental/ranges/concepts/Invocable") |  specifies that a callable type can be invoked with a given set of argument types   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/concepts/dsc_Invocable&action=edit)  
+(concept)   
 [ Predicate](../../../experimental/ranges/concepts/Predicate.html "cpp/experimental/ranges/concepts/Predicate") |  specifies that a callable type is a Boolean predicate   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/concepts/dsc_Predicate&action=edit)  
+(concept)   
 [ Relation](../../../experimental/ranges/concepts/Relation.html "cpp/experimental/ranges/concepts/Relation") |  specifies that a callable type is a binary relation   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/concepts/dsc_Relation&action=edit)  
+(concept)   
 [ StrictWeakOrder](../../../experimental/ranges/concepts/StrictWeakOrder.html "cpp/experimental/ranges/concepts/StrictWeakOrder") |  specifies that a [`Relation`](../../../experimental/ranges/concepts/Relation.html "cpp/experimental/ranges/concepts/Relation") imposes a strict weak ordering   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/concepts/dsc_StrictWeakOrder&action=edit)  
+(concept)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/ranges/concepts&action=edit&section=5 "Edit section: Synopsis")] Synopsis 
+### Synopsis 
     
     
     namespace std { namespace experimental { namespace ranges { inline namespace v1 {

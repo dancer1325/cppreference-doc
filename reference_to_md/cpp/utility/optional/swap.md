@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::optional`](../optional.html "cpp/utility/optional")
 
@@ -167,7 +167,7 @@ Common vocabulary types
 [nullopt](nullopt.html "cpp/utility/optional/nullopt")  
 [in_place](../in_place.html "cpp/utility/in place")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/navbar_content&action=edit)
+
 
 void swap( optional& other ) noexcept(/* see below */); |  |  (since C++17)   
 (constexpr since C++20)  
@@ -200,16 +200,16 @@ The program is ill-formed unless type `T` is [Swappable](../../named_req/Swappab
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/swap&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 other  |  \-  |  the `optional` object to exchange the contents with   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/swap&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/swap&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 [`noexcept`](../../language/noexcept_spec.html "cpp/language/noexcept spec") specification: 
 
@@ -223,7 +223,7 @@ In the case of thrown exception, the states of the contained values of *this and
 [`__cpp_lib_optional`](../../experimental/feature_test.html#cpp_lib_optional "cpp/feature test") | [`202106L`](../../compiler_support/20.html#cpp_lib_optional_202106L "cpp/compiler support/20") | (C++20)  
 (DR20) | Fully constexpr  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/swap&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -278,7 +278,7 @@ Output:
     opt1 contains ''
     opt2 contains 'Lorem ipsum dolor sit amet, consectetur tincidunt.'
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/swap&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -286,10 +286,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [P2231R1](https://wg21.link/P2231R1) | C++20  | `swap` was not constexpr while the required operations can be constexpr in C++20  | made constexpr  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/swap&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ std::swap(std::optional)](swap2.html "cpp/utility/optional/swap2")(C++17) |  specializes the [std::swap](../swap.html "cpp/algorithm/swap") algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/dsc_swap2&action=edit)  
+(function template)   
 ---|---
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

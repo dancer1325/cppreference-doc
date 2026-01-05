@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../../../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header is part of the [ranges](../../../experimental/ranges.html "cpp/experimental/ranges") library. 
 
@@ -208,56 +208,56 @@ This header is part of the [ranges](../../../experimental/ranges.html "cpp/exper
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/ranges/range&action=edit&section=1 "Edit section: Range concepts")] Range concepts 
+### Range concepts 
 
 Defined in namespace `std::experimental::ranges`  
 ---  
 [ Range](../../../experimental/ranges/range/Range.html "cpp/experimental/ranges/range/Range") |  specifies that a type is a range, that is, it provides a `begin` iterator and an `end` sentinel   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/range/dsc_Range&action=edit)  
+(concept)   
 [ SizedRange](../../../experimental/ranges/range/SizedRange.html "cpp/experimental/ranges/range/SizedRange") |  specifies that a range knows its size in constant time   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/range/dsc_SizedRange&action=edit)  
+(concept)   
 [ View](../../../experimental/ranges/range/View.html "cpp/experimental/ranges/range/View") |  specifies that a range is a view, that is, it has constant time copy/move/assignment   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/range/dsc_View&action=edit)  
+(concept)   
 [ BoundedRange](../../../experimental/ranges/range/BoundedRange.html "cpp/experimental/ranges/range/BoundedRange") |  specifies that a range has identical iterator and sentinel types   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/range/dsc_BoundedRange&action=edit)  
+(concept)   
 [ InputRange](../../../experimental/ranges/range/InputRange.html "cpp/experimental/ranges/range/InputRange") |  specifies a range whose iterator type satisfies [`InputIterator`](../../../experimental/ranges/iterator/InputIterator.html "cpp/experimental/ranges/iterator/InputIterator")   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/range/dsc_InputRange&action=edit)  
+(concept)   
 [ OutputRange](../../../experimental/ranges/range/OutputRange.html "cpp/experimental/ranges/range/OutputRange") |  specifies a range whose iterator type satisfies [`OutputIterator`](../../../experimental/ranges/iterator/OutputIterator.html "cpp/experimental/ranges/iterator/OutputIterator")   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/range/dsc_OutputRange&action=edit)  
+(concept)   
 [ ForwardRange](../../../experimental/ranges/range/ForwardRange.html "cpp/experimental/ranges/range/ForwardRange") |  specifies a range whose iterator type satisfies [`ForwardIterator`](../../../experimental/ranges/iterator/ForwardIterator.html "cpp/experimental/ranges/iterator/ForwardIterator")   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/range/dsc_ForwardRange&action=edit)  
+(concept)   
 [ BidirectionalRange](../../../experimental/ranges/range/BidirectionalRange.html "cpp/experimental/ranges/range/BidirectionalRange") |  specifies a range whose iterator type satisfies [`BidirectionalIterator`](../../../experimental/ranges/iterator/BidirectionalIterator.html "cpp/experimental/ranges/iterator/BidirectionalIterator")   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/range/dsc_BidirectionalRange&action=edit)  
+(concept)   
 [ RandomAccessRange](../../../experimental/ranges/range/RandomAccessRange.html "cpp/experimental/ranges/range/RandomAccessRange") |  specifies a range whose iterator type satisfies [`RandomAccessIterator`](../../../experimental/ranges/iterator/RandomAccessIterator.html "cpp/experimental/ranges/iterator/RandomAccessIterator")   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/range/dsc_RandomAccessRange&action=edit)  
+(concept)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/ranges/range&action=edit&section=2 "Edit section: Range access")] Range access 
+### Range access 
 
 Defined in namespace `std::experimental::ranges`  
 ---  
 [ begincbegin](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/range/begin&action=edit&redlink=1 "cpp/experimental/ranges/range/begin \(page does not exist\)") |  returns an iterator to the beginning of a range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/range/dsc_begin&action=edit)  
+(customization point object)  
 [ endcend](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/range/end&action=edit&redlink=1 "cpp/experimental/ranges/range/end \(page does not exist\)") |  returns an iterator to the end of a range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/range/dsc_end&action=edit)  
+(customization point object)  
 [ rbegincrbegin](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/range/rbegin&action=edit&redlink=1 "cpp/experimental/ranges/range/rbegin \(page does not exist\)") |  returns a reverse iterator to a range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/range/dsc_rbegin&action=edit)  
+(customization point object)  
 [ rendcrend](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/range/rend&action=edit&redlink=1 "cpp/experimental/ranges/range/rend \(page does not exist\)") |  returns a reverse end iterator to a range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/range/dsc_rend&action=edit)  
+(customization point object)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/ranges/range&action=edit&section=3 "Edit section: Range primitives")] Range primitives 
+### Range primitives 
 
 Defined in namespace `std::experimental::ranges`  
 ---  
 [ size](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/range/size&action=edit&redlink=1 "cpp/experimental/ranges/range/size \(page does not exist\)") |  obtains the size of a range whose size can be calculated in constant time  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/range/dsc_size&action=edit)  
+(customization point object)  
 [ empty](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/range/empty&action=edit&redlink=1 "cpp/experimental/ranges/range/empty \(page does not exist\)") |  checks whether a range is empty  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/range/dsc_empty&action=edit)  
+(customization point object)  
 [ datacdata](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/range/data&action=edit&redlink=1 "cpp/experimental/ranges/range/data \(page does not exist\)") |  obtains a pointer to the beginning of a contiguous range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/range/dsc_data&action=edit)  
+(customization point object)  
 [ iterator_tsentinel_t](../../../experimental/ranges/range/iterator_t.html "cpp/experimental/ranges/range/iterator t") |  obtains the iterator and sentinel types of a range  
-(alias template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/range/dsc_iterator_t&action=edit)  
+(alias template)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/ranges/range&action=edit&section=4 "Edit section: Synopsis")] Synopsis 
+### Synopsis 
     
     
     #include <experimental/ranges/iterator>

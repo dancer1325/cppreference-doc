@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](ranges/copy.html "cpp/algorithm/ra
 [uninitialized_default_construct_n](../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 [Numerics library](../numeric.html "cpp/numeric")
 
@@ -353,7 +353,7 @@ Constrained algorithms, e.g. [`ranges::copy`](ranges/copy.html "cpp/algorithm/ra
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 Defined in header `[<numeric>](../header/numeric.html "cpp/header/numeric")` |  |   
 ---|---|---  
@@ -391,7 +391,7 @@ If any of the following conditions is satisfied, the behavior is undefined:
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/accumulate&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  the pair of iterators defining the [range](../iterator.html#Ranges "cpp/iterator") of elements to accumulate   
 ---|---|---  
@@ -402,11 +402,11 @@ The type  Type1 must be such that an object of type T can be implicitly converte
 Type requirements   
 -`InputIt` must meet the requirements of [LegacyInputIterator](../named_req/InputIterator.html "cpp/named req/InputIterator").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/accumulate&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 acc after all modifications. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/accumulate&action=edit&section=3 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
 
 [accumulate (1)](accumulate.html#Version_1)  
 ---  
@@ -435,13 +435,13 @@ acc after all modifications.
         return init;
     }  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/accumulate&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 `std::accumulate` performs a left [fold](https://en.wikipedia.org/wiki/Fold_\(higher-order_function\) "enwiki:Fold \(higher-order function\)"). In order to perform a right fold, one must reverse the order of the arguments to the binary operator, and use reverse iterators. 
 
 If left to type inference, op operates on values of the same type as init which can result in unwanted casting of the iterator elements. For example, std::accumulate(v.begin(), v.end(), 0) likely does not give the result one wishes for when v is of type [std::vector](../container/vector.html)<double>. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/accumulate&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -487,7 +487,7 @@ Output:
     dash-separated string: 1-2-3-4-5-6-7-8-9-10
     dash-separated string (right-folded): 10-9-8-7-6-5-4-3-2-1
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/accumulate&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -495,16 +495,16 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 242](https://cplusplus.github.io/LWG/issue242) | C++98  | op could not have side effects  | it cannot modify the ranges involved   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/accumulate&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ adjacent_difference](adjacent_difference.html "cpp/algorithm/adjacent difference") |  computes the differences between adjacent elements in a range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_adjacent_difference&action=edit)  
+(function template)   
 ---|---  
 [ inner_product](inner_product.html "cpp/algorithm/inner product") |  computes the inner product of two ranges of elements   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_inner_product&action=edit)  
+(function template)   
 [ partial_sum](partial_sum.html "cpp/algorithm/partial sum") |  computes the partial sum of a range of elements   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_partial_sum&action=edit)  
+(function template)   
 [ reduce](reduce.html "cpp/algorithm/reduce")(C++17) |  similar to **std::accumulate** , except out of order   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_reduce&action=edit)  
+(function template)   
 [ ranges::fold_left](ranges/fold_left.html "cpp/algorithm/ranges/fold left")(C++23) |  left-folds a range of elements  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_fold_left&action=edit)
+(algorithm function object)

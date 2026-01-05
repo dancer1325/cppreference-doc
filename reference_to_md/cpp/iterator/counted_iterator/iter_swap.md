@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](../empty.html "cpp/iterator/empty")(C++17)  
 [data](../data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 [`std::counted_iterator`](../counted_iterator.html "cpp/iterator/counted iterator")
 
@@ -218,7 +218,7 @@
 [Helper classes](../counted_iterator.html#Helper_classes "cpp/iterator/counted iterator")  
 [iterator_traits<std::counted_iterator>](iterator_traits.html "cpp/iterator/counted iterator/iterator traits")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/counted_iterator/navbar_content&action=edit)
+
 
 template< [std::indirectly_swappable](../indirectly_swappable.html)<I> I2 >  
 friend constexpr void  
@@ -244,20 +244,20 @@ This function template is not visible to ordinary [unqualified](../../language/u
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/counted_iterator/iter_swap&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 x, y  |  \-  |  iterator adaptors to the elements to swap   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/counted_iterator/iter_swap&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/counted_iterator/iter_swap&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Constant. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/counted_iterator/iter_swap&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -290,16 +290,16 @@ Output:
     1 5
     5 1
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/counted_iterator/iter_swap&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ swap](../../utility/swap.html "cpp/algorithm/swap") |  swaps the values of two objects   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_swap&action=edit)  
+(function template)   
 ---|---  
 [ swap_ranges](../../algorithm/swap_ranges.html "cpp/algorithm/swap ranges") |  swaps two ranges of elements   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_swap_ranges&action=edit)  
+(function template)   
 [ iter_swap](../../algorithm/iter_swap.html "cpp/algorithm/iter swap") |  swaps the elements pointed to by two iterators   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_iter_swap&action=edit)  
+(function template)   
 [ iter_swap](../ranges/iter_swap.html "cpp/iterator/ranges/iter swap")(C++20) |  swaps the values referenced by two dereferenceable objects  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/ranges/dsc_iter_swap&action=edit)  
+(customization point object)  
 [ iter_move](iter_move.html "cpp/iterator/counted iterator/iter move")(C++20) |  casts the result of dereferencing the underlying iterator to its associated rvalue reference type   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_iter_move&action=edit)
+(function) 

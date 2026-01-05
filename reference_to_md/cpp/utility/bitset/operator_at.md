@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::bitset`](../bitset.html "cpp/utility/bitset")
 
@@ -167,7 +167,7 @@ Common vocabulary types
 [Helper classes](../bitset.html#Helper_classes "cpp/utility/bitset")  
 [std::hash](hash.html "cpp/utility/bitset/hash")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/bitset/navbar_content&action=edit)
+
 
 bool operator[]( [std::size_t](../../types/size_t.html) pos ) const; |  (1) | (constexpr since C++11)  
 ---|---|---  
@@ -201,22 +201,22 @@ If pos < size() is false:
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/bitset/operator_at&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 pos  |  \-  |  position of the bit to return   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/bitset/operator_at&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) The value of the requested bit.
 
 2) An object of type [std::bitset::reference](reference.html "cpp/utility/bitset/reference"), which allows writing to the requested bit.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/bitset/operator_at&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Throws nothing. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/bitset/operator_at&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -249,7 +249,7 @@ Output:
     b1[7]: 0
     After setting bit 0, b1 holds 00101011
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/bitset/operator_at&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -261,8 +261,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [LWG 907](https://cplusplus.github.io/LWG/issue907) | C++98  | the behavior of reading the bit at pos was equivalent  
 to that of [`test(pos)`](test.html "cpp/utility/bitset/test"), but `test()` may throw exceptions  | avoids mentioning `test()`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/bitset/operator_at&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ test](test.html "cpp/utility/bitset/test") |  accesses specific bit   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/bitset/dsc_test&action=edit)  
+(public member function)   
 ---|---

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 Defined in header `[<ranges>](../header/ranges.html "cpp/header/ranges")` |  |   
 ---|---|---  
@@ -269,7 +269,7 @@ In all other cases, a call to `ranges::end` is ill-formed, which can result in [
 
 The name `ranges::end` denotes a _customization point object_ , which is a const [function object](../named_req/FunctionObject.html "cpp/named req/FunctionObject") of a [literal](../named_req/LiteralType.html "cpp/named req/LiteralType") [`semiregular`](../concepts/semiregular.html "cpp/concepts/semiregular") class type. See [CustomizationPointObject](../named_req/CustomizationPointObject.html "cpp/named req/CustomizationPointObject") for details. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/end&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 If the argument is an rvalue (i.e. `T` is an object type) and [ranges::enable_borrowed_range](borrowed_range.html)<[std::remove_cv_t](../types/remove_cv.html)<T>> is false, or if it is of an array type of unknown bound, the call to `ranges::end` is ill-formed, which also results in substitution failure. 
 
@@ -277,7 +277,7 @@ If ranges::end([std::forward](../utility/forward.html)<T>(t)) is valid, then dec
 
 The C++20 standard requires that if the underlying `end` function call returns a prvalue, the return value is move-constructed from the materialized temporary object. All implementations directly return the prvalue instead. The requirement is corrected by the post-C++20 proposal [P0849R8](https://wg21.link/P0849R8) to match the implementations. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/end&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -303,7 +303,7 @@ Output:
     
     found a 5 in array arr!
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/end&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -311,12 +311,12 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [P2602R2](https://wg21.link/P2602R2) | C++20  | there's machinery to prohibit certain non-member `end` found by [ADL](../language/adl.html "cpp/language/adl") | removed such machinery   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/end&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ ranges::cend](cend.html "cpp/ranges/cend")(C++20) |  returns a sentinel indicating the end of a read-only range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_cend&action=edit)  
+(customization point object)  
 ---|---  
 [ ranges::begin](begin.html "cpp/ranges/begin")(C++20) |  returns an iterator to the beginning of a range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_begin&action=edit)  
+(customization point object)  
 [ endcend](../iterator/end.html "cpp/iterator/end")(C++11)(C++14) |  returns an iterator to the end of a container or array   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_end&action=edit)
+(function template) 

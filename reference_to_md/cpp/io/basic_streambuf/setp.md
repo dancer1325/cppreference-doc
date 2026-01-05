@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_streambuf`](../basic_streambuf.html "cpp/io/basic streambuf")
 
@@ -152,7 +152,7 @@ Put area
 Putback  
 [basic_streambuf::pbackfail](pbackfail.html "cpp/io/basic streambuf/pbackfail")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_streambuf/navbar_content&action=edit)
+
 
 protected:  
 void setp( char_type* pbeg, char_type* pend ); |  |   
@@ -175,13 +175,13 @@ If any of `[`pbeg`, `pend`)` is not a [valid range](../../iterator.html#Ranges "
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_streambuf/setp&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 pbeg  |  \-  |  pointer to the new beginning of the put area   
 ---|---|---  
 pend  |  \-  |  pointer to the new end of the put area   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_streambuf/setp&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -236,7 +236,7 @@ Output:
     
     h e l l o , \0 \0 \0 \0
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_streambuf/setp&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -244,8 +244,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 4023](https://cplusplus.github.io/LWG/issue4023) | C++98  | `setp` did not require the output sequence to be a valid range  | requires   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_streambuf/setp&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ setg](setg.html "cpp/io/basic streambuf/setg") |  repositions the beginning, next, and end pointers of the input sequence   
-(protected member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_streambuf/dsc_setg&action=edit)  
+(protected member function)   
 ---|---

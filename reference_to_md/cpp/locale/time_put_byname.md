@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Localization library](../locale.html "cpp/locale")
 
@@ -152,7 +152,7 @@ base classes](../locale.html#Facet_category_base_classes "cpp/locale")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/navbar_content&action=edit)
+
 
 Defined in header `[<locale>](../header/locale.html "cpp/header/locale")` |  |   
 ---|---|---  
@@ -182,7 +182,7 @@ class OutputIt = [std::ostreambuf_iterator](../iterator/ostreambuf_iterator.html
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/time_put_byname&action=edit&section=1 "Edit section: Specializations")] Specializations
+### Specializations
 
 The standard library is guaranteed to provide every specialization that satisfies the following type requirements: 
 
@@ -191,22 +191,22 @@ The standard library is guaranteed to provide every specialization that satisfie
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/time_put_byname&action=edit&section=2 "Edit section: Nested types")] Nested types
+### Nested types
 
 Type  |  Definition   
 ---|---  
 `char_type` |  `CharT`  
 `iter_type` |  `OutputIt`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/time_put_byname&action=edit&section=3 "Edit section: Member functions")] Member functions
+### Member functions
 
 **(constructor)** |  constructs a new `time_put_byname` facet   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/byname/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 **(destructor)** |  destroys a `time_put_byname` facet   
-(protected member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/byname/dsc_destructor&action=edit)  
+(protected member function)   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/byname/constructor&action=edit)
+
 
 ##  std::time_put_byname::time_put_byname
 
@@ -225,7 +225,7 @@ name  |  \-  |  the name of the locale
 ---|---|---  
 refs  |  \-  |  the number of references that link to the facet   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/byname/destructor&action=edit)
+
 
 ##  std::time_put_byname::~time_put_byname 
 
@@ -238,7 +238,7 @@ Destroys the facet.
 
 ##  Inherited from [std::time_put](time_put.html "cpp/locale/time put")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/facet_data_members&action=edit&section=T-1 "Template:cpp/locale/facet data members")] Data members
+### Data members
 
 Member  |  Description   
 ---|---  
@@ -247,16 +247,16 @@ Member  |  Description
 ###  Member functions
 
 [ put](time_put/put.html "cpp/locale/time put/put") |  invokes `do_put`   
-(public member function of `std::time_put<CharT,OutputIt>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/time_put/dsc_put&action=edit)  
+(public member function of `std::time_put<CharT,OutputIt>`)   
 ---|---  
   
 ###  Protected member functions
 
 [ do_put](time_put/put.html "cpp/locale/time put/put")[virtual] |  formats date/time and writes to output stream   
-(virtual protected member function of `std::time_put<CharT,OutputIt>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/time_put/dsc_do_put&action=edit)  
+(virtual protected member function of `std::time_put<CharT,OutputIt>`)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/time_put_byname&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Prints current time using the "C" locale with the `time_put` facet replaced by various `std::time_put_byname` facets. The result shown was obtained using the clang compiler.
 
@@ -294,8 +294,8 @@ Possible output:
     Четверг Чт 05 окт 2023 19:44:51
     torsdag tor  5 okt 2023 19:44:51
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/time_put_byname&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ time_put](time_put.html "cpp/locale/time put") |  formats contents of [std::tm](../chrono/c/tm.html "cpp/chrono/c/tm") for output as character sequence   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_time_put&action=edit)  
+(class template)   
 ---|---

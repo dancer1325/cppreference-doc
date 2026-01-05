@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Diagnostics library](../../error.html "cpp/error")
 
@@ -187,7 +187,7 @@ Exception handling failures
 [breakpoint_if_debugging](../../utility/breakpoint_if_debugging.html "cpp/utility/breakpoint if debugging")(C++26)  
 [breakpoint](../../utility/breakpoint.html "cpp/utility/breakpoint")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/navbar_content&action=edit)
+
 
 [`std::exception`](../exception.html "cpp/error/exception")
 
@@ -198,7 +198,7 @@ Member functions
 [exception::operator=](operator=.html "cpp/error/exception/operator=")  
 [exception::what](what.html "cpp/error/exception/what")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/exception/navbar_content&action=edit)
+
 
 | (1) |   
 ---|---|---  
@@ -217,18 +217,18 @@ Constructs new exception object.
 
 2) Copy constructor. Initializes the contents with those of other. If *this and other both have dynamic type `std::exception` then [std::strcmp](../../string/byte/strcmp.html)(what(), other.what()) == 0.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/exception/exception&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 other  |  \-  |  another exception to assign the contents of   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/exception/exception&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 Because copying `std::exception` is not permitted to throw exceptions, when derived classes (such as [std::runtime_error](../runtime_error.html "cpp/error/runtime error")) have to manage a user-defined diagnostic message, it is typically implemented as a copy-on-write string. 
 
 The Microsoft implementation includes non-standard constructors taking strings thus allowing instances to be thrown directly with a meaningful error message. The nearest standard equivalents are [std::runtime_error](../runtime_error.html "cpp/error/runtime error") or [std::logic_error](../logic_error.html "cpp/error/logic error"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/exception/exception&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

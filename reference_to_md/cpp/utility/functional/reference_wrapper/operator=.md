@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Function objects](../../../functional.html "cpp/utility/functional")
 
@@ -255,7 +255,7 @@ Identity function object
 [unary_negate](../unary_negate.html "cpp/utility/functional/unary negate")(until C++20*)  
 [binary_negate](../binary_negate.html "cpp/utility/functional/binary negate")(until C++20*)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/navbar_content&action=edit)
+
 
 [`std::reference_wrapper`](../reference_wrapper.html "cpp/utility/functional/reference wrapper")
 
@@ -271,7 +271,7 @@ Non-member functions
 Helper classes  
 [basic_common_reference<std::reference_wrapper>](basic_common_reference.html "cpp/utility/functional/reference wrapper/basic common reference")(C++23)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/reference_wrapper/navbar_content&action=edit)
+
 
 reference_wrapper& operator=( const reference_wrapper& other ) noexcept; |  |  (since C++11)   
 (constexpr since C++20)  
@@ -280,11 +280,11 @@ reference_wrapper& operator=( const reference_wrapper& other ) noexcept; |  |  (
   
 Copy assignment operator. Drops the current reference and stores a reference to other.get(). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/reference_wrapper/operator%3D&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 other  |  \-  |  reference wrapper to copy   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/reference_wrapper/operator%3D&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 *this

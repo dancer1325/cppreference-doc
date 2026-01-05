@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::pointer_traits`](../pointer_traits.html "cpp/memory/pointer traits")
 
@@ -193,7 +193,7 @@ Member functions
 **pointer_traits::pointer_to**(C++11)  
 [pointer_traits::to_address](to_address.html "cpp/memory/pointer traits/to address")(C++20)(optional)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/pointer_traits/navbar_content&action=edit)
+
 
 Defined in header `[<memory>](../../header/memory.html "cpp/header/memory")` |  |   
 ---|---|---  
@@ -227,31 +227,31 @@ Constructs a dereferenceable pointer or pointer-like object (["fancy pointer"](.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/pointer_traits/pointer_to&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 r  |  \-  |  reference to an object of type element_type&, except if element_type is void, in which case the type of `r` is unspecified   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/pointer_traits/pointer_to&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 A dereferenceable pointer to r, of the type pointer_traits<>::pointer. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/pointer_traits/pointer_to&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 1) Unspecified (typically same as Ptr::pointer_to).
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/pointer_traits/pointer_to&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 The [Boost.Intrusive library version](https://www.boost.org/doc/libs/release/doc/html/boost/intrusive/pointer_traits.html) of this function returns pointer([std::addressof](../addressof.html)(r)) if Ptr::pointer_to does not exist. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/pointer_traits/pointer_to&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ addressof](../addressof.html "cpp/memory/addressof")(C++11) |  obtains actual address of an object, even if the `**&**` operator is overloaded   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_addressof&action=edit)  
+(function template)   
 ---|---  
 [ address](../allocator/address.html "cpp/memory/allocator/address")(until C++20) |  obtains the address of an object, even if operator& is overloaded   
-(public member function of `std::allocator<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/allocator/dsc_address&action=edit)  
+(public member function of `std::allocator<T>`)   
 [ to_address](to_address.html "cpp/memory/pointer traits/to address")[static] (C++20)(optional) |  obtains a raw pointer from a fancy pointer (inverse of `pointer_to`)   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/pointer_traits/dsc_to_address&action=edit)  
+(public static member function)   
 [ to_address](../to_address.html "cpp/memory/to address")(C++20) |  obtains a raw pointer from a pointer-like type   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_to_address&action=edit)
+(function template) 

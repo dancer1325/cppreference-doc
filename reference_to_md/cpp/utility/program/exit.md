@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Program support utilities](../program.html "cpp/utility/program")
 
@@ -181,7 +181,7 @@ Common vocabulary types
 [Types](../program.html#Types "cpp/utility/program")  
 [jmp_buf](jmp_buf.html "cpp/utility/program/jmp buf")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/program/navbar_content&action=edit)
+
 
 Defined in header `[<cstdlib>](../../header/cstdlib.html "cpp/header/cstdlib")` |  |   
 ---|---|---  
@@ -240,20 +240,20 @@ Stack is not unwound: destructors of variables with automatic [storage duration]
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/program/exit&action=edit&section=1 "Edit section: Relationship with the main function")] Relationship with the main function
+### Relationship with the main function
 
 Returning from the [main function](../../language/main_function.html "cpp/language/main function"), either by a `return` statement or by reaching the end of the function performs the normal function termination (calls the destructors of the variables with automatic [storage durations](../../language/storage_duration.html "cpp/language/storage duration")) and then executes `std::exit`, passing the argument of the return statement (or ​0​ if implicit return was used) as `exit_code`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/program/exit&action=edit&section=2 "Edit section: Parameters")] Parameters
+### Parameters
 
 exit_code  |  \-  |  exit status of the program   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/program/exit&action=edit&section=3 "Edit section: Return value")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/program/exit&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -308,7 +308,7 @@ Output:
     atexit handler
     Static destructor
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/program/exit&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -317,15 +317,15 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [LWG 3](https://cplusplus.github.io/LWG/issue3) | C++98  | during cleanup, the behavior was unclear when (1) a function is  
 registered with [std::atexit](atexit.html "cpp/utility/program/atexit") or (2) a static local object is initialized  | made clear   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/program/exit&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ abort](abort.html "cpp/utility/program/abort") |  causes abnormal program termination (without cleaning up)   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/program/dsc_abort&action=edit)  
+(function)   
 ---|---  
 [ atexit](atexit.html "cpp/utility/program/atexit") |  registers a function to be called on **std::exit()** invocation   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/program/dsc_atexit&action=edit)  
+(function)   
 [ quick_exit](quick_exit.html "cpp/utility/program/quick exit")(C++11) |  causes quick program termination without completely cleaning up   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/program/dsc_quick_exit&action=edit)  
+(function)   
 [ at_quick_exit](at_quick_exit.html "cpp/utility/program/at quick exit")(C++11) |  registers a function to be called on [std::quick_exit](quick_exit.html "cpp/utility/program/quick exit") invocation   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/program/dsc_at_quick_exit&action=edit)  
+(function)   
 [C documentation](../../../c/program/exit.html "c/program/exit") for exit

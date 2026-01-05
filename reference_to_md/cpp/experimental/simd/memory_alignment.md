@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Extensions for parallelism v2](../parallelism_2.html "cpp/experimental/parallelism 2")
 
@@ -92,7 +92,7 @@ Task blocks
 [define_task_blockdefine_task_block_restore_thread](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/define_task_block&action=edit&redlink=1 "cpp/experimental/define task block \(page does not exist\)")  
 [Data-parallel vectors](../simd.html "cpp/experimental/simd")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/parallelism_2/navbar_content&action=edit)
+
 
 [SIMD library](../simd.html "cpp/experimental/simd")
 
@@ -186,7 +186,7 @@ Task blocks
   
 [Math functions](../simd.html#Math_functions "cpp/experimental/simd")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/simd/navbar_content&action=edit)
+
 
 Defined in header `[<experimental/simd>](../../header/experimental/simd.html "cpp/header/experimental/simd")` |  |   
 ---|---|---  
@@ -211,7 +211,7 @@ If the program adds specializations for `std::memory_alignment` or `std::memory_
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/simd/memory_alignment&action=edit&section=1 "Edit section: Helper variable template")] Helper variable template
+### Helper variable template
 
 template< class T, class U = typename T::value_type >  
 constexpr [std::size_t](../../types/size_t.html) memory_alignment_v = memory_alignment<T, U>::value; |  |  (parallelism TS v2)  
@@ -241,26 +241,26 @@ Type  |  Definition
 `value_type` |  [std::size_t](../../types/size_t.html)  
 `type` |  [std::integral_constant](../../types/integral_constant.html)<[std::size_t](../../types/size_t.html), value>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/simd/memory_alignment&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/simd/memory_alignment&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ vector_aligned_tagvector_aligned](vector_aligned.html "cpp/experimental/simd/vector aligned")(parallelism TS v2) |  flag indicating alignment of the load/store address to vector alignment   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/simd/vector_aligned&action=edit)  
+(class)   
 ---|---  
 [ (constructor)](simd/simd.html "cpp/experimental/simd/simd/simd")(parallelism TS v2) |  constructs a [`simd`](simd.html "cpp/experimental/simd/simd") object   
-(public member function of `std::experimental::simd<T,Abi>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/simd/simd/dsc_constructor&action=edit)  
+(public member function of `std::experimental::simd<T,Abi>`)   
 [ copy_from](simd/copy_from.html "cpp/experimental/simd/simd/copy from")(parallelism TS v2) |  loads [`simd`](simd.html "cpp/experimental/simd/simd") elements from contiguous memory   
-(public member function of `std::experimental::simd<T,Abi>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/simd/simd/dsc_copy_from&action=edit)  
+(public member function of `std::experimental::simd<T,Abi>`)   
 [ copy_to](simd/copy_to.html "cpp/experimental/simd/simd/copy to")(parallelism TS v2) |  stores [`simd`](simd.html "cpp/experimental/simd/simd") elements to contiguous memory   
-(public member function of `std::experimental::simd<T,Abi>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/simd/simd/dsc_copy_to&action=edit)  
+(public member function of `std::experimental::simd<T,Abi>`)   
 [ (constructor)](simd_mask/simd_mask.html "cpp/experimental/simd/simd mask/simd mask")(parallelism TS v2) |  constructs a [`simd_mask`](simd_mask.html "cpp/experimental/simd/simd mask") object   
-(public member function of `std::experimental::simd_mask<T,Abi>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/simd/simd_mask/dsc_constructor&action=edit)  
+(public member function of `std::experimental::simd_mask<T,Abi>`)   
 [ copy_from](simd_mask/copy_from.html "cpp/experimental/simd/simd mask/copy from")(parallelism TS v2) |  loads [`simd_mask`](simd_mask.html "cpp/experimental/simd/simd mask") elements from contiguous memory   
-(public member function of `std::experimental::simd_mask<T,Abi>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/simd/simd_mask/dsc_copy_from&action=edit)  
+(public member function of `std::experimental::simd_mask<T,Abi>`)   
 [ copy_to](simd_mask/copy_to.html "cpp/experimental/simd/simd mask/copy to")(parallelism TS v2) |  stores [`simd_mask`](simd_mask.html "cpp/experimental/simd/simd mask") elements to contiguous memory   
-(public member function of `std::experimental::simd_mask<T,Abi>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/simd/simd_mask/dsc_copy_to&action=edit)
+(public member function of `std::experimental::simd_mask<T,Abi>`) 

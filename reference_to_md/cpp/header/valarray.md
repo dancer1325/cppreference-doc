@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header is part of the [numeric](../numeric.html "cpp/numeric") library. 
 
@@ -225,85 +225,85 @@ This header is part of the [numeric](../numeric.html "cpp/numeric") library.
   
 ###  Includes  
   
-[ <initializer_list>](initializer_list.html "cpp/header/initializer list")(C++11) |  [std::initializer_list](../utility/initializer_list.html "cpp/utility/initializer list") class template[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/dsc_initializer_list&action=edit)  
+[ <initializer_list>](initializer_list.html "cpp/header/initializer list")(C++11) |  [std::initializer_list](../utility/initializer_list.html "cpp/utility/initializer list") class template  
   
 ###  Classes  
   
 [ valarray](../numeric/valarray.html "cpp/numeric/valarray") |  Numeric arrays and array slices   
 (class template)  
 [ slice](../numeric/valarray/slice.html "cpp/numeric/valarray/slice") |  BLAS-like slice of a valarray: starting index, length, stride   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_slice&action=edit)  
+(class)   
 [ slice_array](../numeric/valarray/slice_array.html "cpp/numeric/valarray/slice array") |  proxy to a subset of a valarray after applying a slice   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_slice_array&action=edit)  
+(class template)   
 [ gslice](../numeric/valarray/gslice.html "cpp/numeric/valarray/gslice") |  generalized slice of a valarray: starting index, set of lengths, set of strides   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_gslice&action=edit)  
+(class)   
 [ gslice_array](../numeric/valarray/gslice_array.html "cpp/numeric/valarray/gslice array") |  proxy to a subset of a valarray after applying a gslice   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_gslice_array&action=edit)  
+(class template)   
 [ mask_array](../numeric/valarray/mask_array.html "cpp/numeric/valarray/mask array") |  proxy to a subset of a valarray after applying a boolean mask `operator[]`   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_mask_array&action=edit)  
+(class template)   
 [ indirect_array](../numeric/valarray/indirect_array.html "cpp/numeric/valarray/indirect array") |  proxy to a subset of a valarray after applying indirect `operator[]`   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_indirect_array&action=edit)  
+(class template)   
   
 ###  Functions  
   
 #####  Operations   
   
 [ std::swap(std::valarray)](../numeric/valarray/swap2.html "cpp/numeric/valarray/swap2")(C++11) |  specializes the [std::swap](../utility/swap.html "cpp/algorithm/swap") algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_swap2&action=edit)  
+(function template)   
 [ std::begin(std::valarray)](../numeric/valarray/begin2.html "cpp/numeric/valarray/begin2")(C++11) |  overloads [std::begin](../iterator/begin.html "cpp/iterator/begin")   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_begin2&action=edit)  
+(function template)   
 [ std::end(std::valarray)](../numeric/valarray/end2.html "cpp/numeric/valarray/end2")(C++11) |  specializes [std::end](../iterator/end.html "cpp/iterator/end")   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_end2&action=edit)  
+(function template)   
 [ operator+operator-operator*operator/operator%operator&operator|operator^operator<<operator>>operator&&operator||](../numeric/valarray/operator_arith3.html "cpp/numeric/valarray/operator arith3") |  applies binary operators to each element of two valarrays, or a valarray and a value   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_operator_arith3&action=edit)  
+(function template)   
 [ operator==operator!=operator<operator<=operator>operator>=](../numeric/valarray/operator_cmp.html "cpp/numeric/valarray/operator cmp") |  compares two valarrays or a valarray with a value   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_operator_cmp&action=edit)  
+(function template)   
 [ abs(std::valarray)](../numeric/valarray/abs.html "cpp/numeric/valarray/abs") |  applies the function abs to each element of valarray   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_abs&action=edit)  
+(function template)   
   
 #####  Exponential functions   
   
 [ exp(std::valarray)](../numeric/valarray/exp.html "cpp/numeric/valarray/exp") |  applies the function [std::exp](../numeric/math/exp.html "cpp/numeric/math/exp") to each element of valarray   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_exp&action=edit)  
+(function template)   
 [ log(std::valarray)](../numeric/valarray/log.html "cpp/numeric/valarray/log") |  applies the function [std::log](../numeric/math/log.html "cpp/numeric/math/log") to each element of valarray   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_log&action=edit)  
+(function template)   
 [ log10(std::valarray)](../numeric/valarray/log10.html "cpp/numeric/valarray/log10") |  applies the function [std::log10](../numeric/math/log10.html "cpp/numeric/math/log10") to each element of valarray   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_log10&action=edit)  
+(function template)   
   
 #####  Power functions   
   
 [ pow(std::valarray)](../numeric/valarray/pow.html "cpp/numeric/valarray/pow") |  applies the function [std::pow](../numeric/math/pow.html "cpp/numeric/math/pow") to two valarrays or a valarray and a value   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_pow&action=edit)  
+(function template)   
 [ sqrt(std::valarray)](../numeric/valarray/sqrt.html "cpp/numeric/valarray/sqrt") |  applies the function [std::sqrt](../numeric/math/sqrt.html "cpp/numeric/math/sqrt") to each element of valarray   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_sqrt&action=edit)  
+(function template)   
   
 #####  Trigonometric functions   
   
 [ sin(std::valarray)](../numeric/valarray/sin.html "cpp/numeric/valarray/sin") |  applies the function [std::sin](../numeric/math/sin.html "cpp/numeric/math/sin") to each element of valarray   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_sin&action=edit)  
+(function template)   
 [ cos(std::valarray)](../numeric/valarray/cos.html "cpp/numeric/valarray/cos") |  applies the function [std::cos](../numeric/math/cos.html "cpp/numeric/math/cos") to each element of valarray   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_cos&action=edit)  
+(function template)   
 [ tan(std::valarray)](../numeric/valarray/tan.html "cpp/numeric/valarray/tan") |  applies the function [std::tan](../numeric/math/tan.html "cpp/numeric/math/tan") to each element of valarray   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_tan&action=edit)  
+(function template)   
 [ asin(std::valarray)](../numeric/valarray/asin.html "cpp/numeric/valarray/asin") |  applies the function [std::asin](../numeric/math/asin.html "cpp/numeric/math/asin") to each element of valarray   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_asin&action=edit)  
+(function template)   
 [ acos(std::valarray)](../numeric/valarray/acos.html "cpp/numeric/valarray/acos") |  applies the function [std::acos](../numeric/math/acos.html "cpp/numeric/math/acos") to each element of valarray   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_acos&action=edit)  
+(function template)   
 [ atan(std::valarray)](../numeric/valarray/atan.html "cpp/numeric/valarray/atan") |  applies the function [std::atan](../numeric/math/atan.html "cpp/numeric/math/atan") to each element of valarray   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_atan&action=edit)  
+(function template)   
 [ atan2(std::valarray)](../numeric/valarray/atan2.html "cpp/numeric/valarray/atan2") |  applies the function [std::atan2](../numeric/math/atan2.html "cpp/numeric/math/atan2") to a valarray and a value   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_atan2&action=edit)  
+(function template)   
   
 #####  Hyperbolic functions   
   
 [ sinh(std::valarray)](../numeric/valarray/sinh.html "cpp/numeric/valarray/sinh") |  applies the function [std::sinh](../numeric/math/sinh.html "cpp/numeric/math/sinh") to each element of valarray   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_sinh&action=edit)  
+(function template)   
 [ cosh(std::valarray)](../numeric/valarray/cosh.html "cpp/numeric/valarray/cosh") |  applies the function [std::cosh](../numeric/math/cosh.html "cpp/numeric/math/cosh") to each element of valarray   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_cosh&action=edit)  
+(function template)   
 [ tanh(std::valarray)](../numeric/valarray/tanh.html "cpp/numeric/valarray/tanh") |  applies the function [std::tanh](../numeric/math/tanh.html "cpp/numeric/math/tanh") to each element of valarray   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_tanh&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/valarray&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     #include <initializer_list>
@@ -458,7 +458,7 @@ This header is part of the [numeric](../numeric.html "cpp/numeric") library.
       template<class T> /* unspecified2 */ end(const valarray<T>& v);
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/valarray&action=edit&section=T-1 "Template:cpp/synopsis/valarray")] Class template [std::valarray](../numeric/valarray.html "cpp/numeric/valarray")
+### Class template [std::valarray](../numeric/valarray.html "cpp/numeric/valarray")
     
     
     namespace std {
@@ -552,7 +552,7 @@ This header is part of the [numeric](../numeric.html "cpp/numeric") library.
       template<class T, size_t cnt> valarray(const T(&)[cnt], size_t) -> valarray<T>;
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/valarray&action=edit&section=T-2 "Template:cpp/synopsis/valarray")] Class [std::slice](../numeric/valarray/slice.html "cpp/numeric/valarray/slice")
+### Class [std::slice](../numeric/valarray/slice.html "cpp/numeric/valarray/slice")
     
     
     namespace std {
@@ -569,7 +569,7 @@ This header is part of the [numeric](../numeric.html "cpp/numeric") library.
       };
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/valarray&action=edit&section=T-3 "Template:cpp/synopsis/valarray")] Class template [std::slice_array](../numeric/valarray/slice_array.html "cpp/numeric/valarray/slice array")
+### Class template [std::slice_array](../numeric/valarray/slice_array.html "cpp/numeric/valarray/slice array")
     
     
     namespace std {
@@ -598,7 +598,7 @@ This header is part of the [numeric](../numeric.html "cpp/numeric") library.
       };
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/valarray&action=edit&section=T-4 "Template:cpp/synopsis/valarray")] Class [std::gslice](../numeric/valarray/gslice.html "cpp/numeric/valarray/gslice")
+### Class [std::gslice](../numeric/valarray/gslice.html "cpp/numeric/valarray/gslice")
     
     
     namespace std {
@@ -613,7 +613,7 @@ This header is part of the [numeric](../numeric.html "cpp/numeric") library.
       };
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/valarray&action=edit&section=T-5 "Template:cpp/synopsis/valarray")] Class template [std::gslice_array](../numeric/valarray/gslice_array.html "cpp/numeric/valarray/gslice array")
+### Class template [std::gslice_array](../numeric/valarray/gslice_array.html "cpp/numeric/valarray/gslice array")
     
     
     namespace std {
@@ -642,7 +642,7 @@ This header is part of the [numeric](../numeric.html "cpp/numeric") library.
       };
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/valarray&action=edit&section=T-6 "Template:cpp/synopsis/valarray")] Class template [std::mask_array](../numeric/valarray/mask_array.html "cpp/numeric/valarray/mask array")
+### Class template [std::mask_array](../numeric/valarray/mask_array.html "cpp/numeric/valarray/mask array")
     
     
     namespace std {
@@ -671,7 +671,7 @@ This header is part of the [numeric](../numeric.html "cpp/numeric") library.
       };
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/valarray&action=edit&section=T-7 "Template:cpp/synopsis/valarray")] Class template [std::indirect_array](../numeric/valarray/indirect_array.html "cpp/numeric/valarray/indirect array")
+### Class template [std::indirect_array](../numeric/valarray/indirect_array.html "cpp/numeric/valarray/indirect array")
     
     
     namespace std {
@@ -700,7 +700,7 @@ This header is part of the [numeric](../numeric.html "cpp/numeric") library.
       };
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/valarray&action=edit&section=2 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

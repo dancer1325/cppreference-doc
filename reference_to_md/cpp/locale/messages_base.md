@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Localization library](../locale.html "cpp/locale")
 
@@ -152,7 +152,7 @@ base classes](../locale.html#Facet_category_base_classes "cpp/locale")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/navbar_content&action=edit)
+
 
 Defined in header `[<locale>](../header/locale.html "cpp/header/locale")` |  |   
 ---|---|---  
@@ -161,13 +161,13 @@ class messages_base; |  |
   
 The class `std::messages_base` provides a type definition which is inherited and used by the [std::messages](messages.html "cpp/locale/messages") facets. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/messages_base&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Member type  |  Definition   
 ---|---  
 `catalog` |  An unspecified signed integer type   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/messages_base&action=edit&section=2 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -179,8 +179,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/messages_base&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ messages](messages.html "cpp/locale/messages") |  implements retrieval of strings from message catalogs   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_messages&action=edit)  
+(class template)   
 ---|---

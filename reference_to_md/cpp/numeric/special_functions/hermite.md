@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [Mathematical special functions](../special_math.html "cpp/numeric/special functions")
 
@@ -118,7 +118,7 @@
 [sph_legendresph_legendrefsph_legendrel](sph_legendre.html "cpp/numeric/special functions/sph legendre")  
 [sph_neumannsph_neumannfsph_neumannl](sph_neumann.html "cpp/numeric/special functions/sph neumann")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/special_functions/navbar_content&action=edit)
+
 
 Defined in header `[<cmath>](../../header/cmath.html "cpp/header/cmath")` |  |   
 ---|---|---  
@@ -154,13 +154,13 @@ A) Additional overloads are provided for all integer types, which are treated as
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/special_functions/hermite&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 n  |  \-  |  the degree of the polynomial   
 ---|---|---  
 x  |  \-  |  the argument, a floating-point or integer value   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/special_functions/hermite&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 If no errors occur, value of the order-n Hermite polynomial of x, that is (-1)n  
  _e_ x2  
@@ -172,7 +172,7 @@ dxn
  _e_ -x2  
 , is returned. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/special_functions/hermite&action=edit&section=3 "Edit section: Error handling")] Error handling
+### Error handling
 
 Errors may be reported as specified in [math_errhandling](../math/math_errhandling.html "cpp/numeric/math/math errhandling"). 
 
@@ -181,7 +181,7 @@ Errors may be reported as specified in [math_errhandling](../math/math_errhandli
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/special_functions/hermite&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 Implementations that do not support C++17, but support [ISO 29124:2010](../../experimental/special_math.html "cpp/experimental/special math"), provide this function if `__STDCPP_MATH_SPEC_FUNCS__` is defined by the implementation to a value at least 201003L and if the user defines `__STDCPP_WANT_MATH_SPEC_FUNCS__` before including any standard library headers. 
 
@@ -209,7 +209,7 @@ hermite(4, x) |  16x4
   
 The additional overloads are not required to be provided exactly as (A). They only need to be sufficient to ensure that for their argument num of integer type, std::hermite(int_num, num) has the same effect as std::hermite(int_num, static_cast<double>(num)). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/special_functions/hermite&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -240,15 +240,15 @@ Output:
     7880=7880
     155212=155212
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/special_functions/hermite&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ laguerrelaguerreflaguerrel](laguerre.html "cpp/numeric/special functions/laguerre")(C++17)(C++17)(C++17) |  Laguerre polynomials   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/special_functions/dsc_laguerre&action=edit)  
+(function)   
 ---|---  
 [ legendrelegendreflegendrel](legendre.html "cpp/numeric/special functions/legendre")(C++17)(C++17)(C++17) |  Legendre polynomials   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/special_functions/dsc_legendre&action=edit)  
+(function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/special_functions/hermite&action=edit&section=7 "Edit section: External links")] External links
+### External links
 
 [Weisstein, Eric W. "Hermite Polynomial."](https://mathworld.wolfram.com/HermitePolynomial.html) From MathWorld — A Wolfram Web Resource.   
 ---

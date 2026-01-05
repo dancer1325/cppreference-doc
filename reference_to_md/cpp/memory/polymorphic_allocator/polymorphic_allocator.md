@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::pmr::polymorphic_allocator`](../polymorphic_allocator.html "cpp/memory/polymorphic allocator")
 
@@ -206,7 +206,7 @@ Member functions
 Non-member functions  
 [operator==operator!=](operator_eq.html "cpp/memory/polymorphic allocator/operator eq")(until C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/polymorphic_allocator/navbar_content&action=edit)
+
 
 polymorphic_allocator() noexcept; |  (1)  |   
 ---|---|---  
@@ -234,22 +234,22 @@ Constructs a new `polymorphic_allocator`.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/polymorphic_allocator/polymorphic_allocator&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 other  |  \-  |  another `polymorphic_allocator` to copy from   
 ---|---|---  
 r  |  \-  |  pointer to the memory resource to use. May not be null   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/polymorphic_allocator/polymorphic_allocator&action=edit&section=2 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 4) Throws nothing.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/polymorphic_allocator/polymorphic_allocator&action=edit&section=3 "Edit section: Notes")] Notes 
+### Notes 
 
 Copying a container using a `polymorphic_allocator` will not call the allocator's copy constructor. Instead, the new container will use the return value of `[select_on_container_copy_construction](select_on_container_copy_construction.html "cpp/memory/polymorphic allocator/select on container copy construction")` (a default-constructed `polymorphic_allocator`) as its allocator. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/polymorphic_allocator/polymorphic_allocator&action=edit&section=4 "Edit section: See also")] See also 
+### See also 
 
 [ select_on_container_copy_construction](select_on_container_copy_construction.html "cpp/memory/polymorphic allocator/select on container copy construction") |  create a new `polymorphic_allocator` for use by a container's copy constructor   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/polymorphic_allocator/dsc_select_on_container_copy_construction&action=edit)  
+(public member function)   
 ---|---

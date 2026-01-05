@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Null-terminated byte strings](../byte.html "cpp/string/byte")
 
@@ -143,7 +143,7 @@
 | [strerror](strerror.html "cpp/string/byte/strerror")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/navbar_content&action=edit)
+
 
 Defined in header `[<cstring>](../../header/cstring.html "cpp/header/cstring")` |  |   
 ---|---|---  
@@ -162,17 +162,17 @@ Returns the length of the maximum initial segment (span) of the byte string poin
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/strspn&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 dest  |  \-  |  pointer to the null-terminated byte string to be analyzed   
 ---|---|---  
 src  |  \-  |  pointer to the null-terminated byte string that contains the characters to search for   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/strspn&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The length of the maximum initial segment that contains only characters from byte string pointed to by src. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/strspn&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -198,15 +198,15 @@ Output:
     After skipping initial lowercase letters from 'abcde312$#@'
     The remainder is '312$#@'
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/strspn&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ strcspn](strcspn.html "cpp/string/byte/strcspn") |  returns the length of the maximum initial segment that consists  
 of only the characters not found in another byte string   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strcspn&action=edit)  
+(function)   
 ---|---  
 [ wcsspn](../wide/wcsspn.html "cpp/string/wide/wcsspn") |  returns the length of the maximum initial segment that consists  
 of only the wide characters found in another wide string   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wcsspn&action=edit)  
+(function)   
 [ strpbrk](strpbrk.html "cpp/string/byte/strpbrk") |  finds the first location of any character from a set of separators   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strpbrk&action=edit)  
+(function)   
 [C documentation](../../../c/string/byte/strspn.html "c/string/byte/strspn") for strspn

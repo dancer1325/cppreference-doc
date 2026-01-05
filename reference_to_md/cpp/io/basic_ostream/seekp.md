@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_ostream`](../basic_ostream.html "cpp/io/basic ostream")
 
@@ -116,7 +116,7 @@ Non-member functions
 [vprint_unicode(std::ostream)](vprint_unicode.html "cpp/io/basic ostream/vprint unicode")(C++23)  
 [vprint_nonunicode(std::ostream)](vprint_nonunicode.html "cpp/io/basic ostream/vprint nonunicode")(C++23)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ostream/navbar_content&action=edit)
+
 
 basic_ostream& seekp( pos_type pos ); |  (1)  |   
 ---|---|---  
@@ -144,7 +144,7 @@ Behaves as [UnformattedOutputFunction](../../named_req/UnformattedOutputFunction
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_ostream/seekp&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 pos  |  \-  |  absolute position to set the output position indicator to   
 ---|---|---  
@@ -155,15 +155,15 @@ dir  |  \-  |  defines base position to apply the relative offset to. It can be 
 [`end`](../ios_base/seekdir.html "cpp/io/ios base/seekdir") |  the ending of a stream   
 [`cur`](../ios_base/seekdir.html "cpp/io/ios base/seekdir") |  the current position of stream position indicator   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_ostream/seekp&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 *this
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_ostream/seekp&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 1,2) May throw [std::ios_base::failure](../ios_base/failure.html "cpp/io/ios base/failure") in case of failure, if exceptions() & failbit != 0.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_ostream/seekp&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -188,7 +188,7 @@ Output:
     
     Hello, World!
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_ostream/seekp&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -201,12 +201,12 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 2\. corrected to `off_type`  
 [LWG 2341](https://cplusplus.github.io/LWG/issue2341) | C++98  | the resolution of [LWG issue 129](https://cplusplus.github.io/LWG/issue129) for overload (2) was removed  | restored   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_ostream/seekp&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ tellp](tellp.html "cpp/io/basic ostream/tellp") |  returns the output position indicator   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ostream/dsc_tellp&action=edit)  
+(public member function)   
 ---|---  
 [ tellg](../basic_istream/tellg.html "cpp/io/basic istream/tellg") |  returns the input position indicator   
-(public member function of `std::basic_istream<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_istream/dsc_tellg&action=edit)  
+(public member function of `std::basic_istream<CharT,Traits>`)   
 [ seekg](../basic_istream/seekg.html "cpp/io/basic istream/seekg") |  sets the input position indicator   
-(public member function of `std::basic_istream<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_istream/dsc_seekg&action=edit)
+(public member function of `std::basic_istream<CharT,Traits>`) 

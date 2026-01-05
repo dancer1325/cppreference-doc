@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](../language/history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [Preprocessor](../preprocessor.html "cpp/preprocessor")
 
@@ -233,7 +233,7 @@ Miscellaneous
 [#line](line.html "cpp/preprocessor/line")  
 **#embed**(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/preprocessor/navbar_content&action=edit)
+
 
 #embed is a preprocessor directive to include [resources](embed.html#Resources). 
 
@@ -256,7 +256,7 @@ Miscellaneous
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/preprocessor/embed&action=edit&section=1 "Edit section: Syntax")] Syntax  
+### Syntax  
   
 ---  
 `**#embed <**` h-char-sequence `**>**` pp-tokens new-line |  (1)  |   
@@ -279,7 +279,7 @@ q-char-sequence |  \-  |  A sequence of one or more q-char ﻿s (see [`#include`
 pp-tokens |  \-  |  A sequence of one or more [preprocessing tokens](../language/translation_phases.html#Preprocessing_tokens "cpp/language/translation phases")  
 balanced-pp-tokens |  \-  |  A sequence of one or more preprocessing tokens, where all (, [ and { are properly closed   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/preprocessor/embed&action=edit&section=2 "Edit section: Explanation")] Explanation
+### Explanation
 
 1) Searches a sequence of places for a resource identified uniquely by h-char-sequence ﻿, and causes the replacement of that directive by the entire contents of the header. How the places are specified or the header identified is implementation-defined.
 
@@ -301,7 +301,7 @@ The method by which a sequence of preprocessing tokens between a < and a > prepr
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/preprocessor/embed&action=edit&section=3 "Edit section: Resources")] Resources
+### Resources
 
 A _resource_ is a source of data accessible from the translation environment. A resource has an _implementation-resource-width ﻿_ , which is the implementation-defined size in bits of the resource. If the implementation-resource-width is not an integral multiple of [CHAR_BIT](../types/climits.html), the program is ill-formed. 
 
@@ -313,7 +313,7 @@ A resource is _empty_ if the resource-count is zero.
     // ill-formed if the implementation-resource-width is 6 bits
     #embed "6_bits.bin"
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/preprocessor/embed&action=edit&section=4 "Edit section: Embedding resources")] Embedding resources
+### Embedding resources
 
 Unless otherwise modified, the #embed directive is replaced by a comma-delimited list of [integer literals](../language/integer_literal.html "cpp/language/integer literal") of type int. 
 
@@ -341,7 +341,7 @@ The integer literals in the comma-delimited list correspond to resource-count co
     #embed "s.dat"
     };
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/preprocessor/embed&action=edit&section=5 "Edit section: Embed parameters")] Embed parameters
+### Embed parameters
 
 If pp-tokens is present in syntax (1) or syntax (2), it is processed just as in normal text. The processed pp-tokens should form a sequence of _embed parameters ﻿_ , otherwise the program is ill-formed. Embed parameters have the following syntax:   
   
@@ -365,7 +365,7 @@ identifier `**::**` identifier `**(**` balanced-pp-tokens ﻿(optional) `**)**` 
 
 5,6) Non-standard embed parameters. Any such parameter is conditionally-supported, with implementation-defined semantics.
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/preprocessor/embed&action=edit&section=6 "Edit section: limit parameter")] `limit` parameter
+#### `limit` parameter
 
 An embed parameter of the form `**limit**` `**(**` balanced-pp-tokens `**)**` can only appear at most once in each #embed directive. 
 
@@ -394,13 +394,13 @@ The constant expression must be an [integral constant expression](../language/co
     // ill-formed
     #embed <data.dat> limit(__has_include("a.h"))
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/preprocessor/embed&action=edit&section=7 "Edit section: prefix parameter")] `prefix` parameter
+#### `prefix` parameter
 
 An embed parameter of the form `**prefix**` `**(**` balanced-pp-tokens ﻿(optional) `**)**` can only appear at most once in each #embed directive. 
 
 If the resource is empty, this embed parameter is ignored. Otherwise, balanced-pp-tokens is placed immediately before the comma-delimited list of integral literals. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/preprocessor/embed&action=edit&section=8 "Edit section: suffix parameter")] `suffix` parameter
+#### `suffix` parameter
 
 An embed parameter of the form `**suffix**` `**(**` balanced-pp-tokens ﻿(optional) `**)**` can only appear at most once in each #embed directive. 
 
@@ -425,7 +425,7 @@ If the resource is empty, this embed parameter is ignored. Otherwise, balanced-p
      
     static_assert(is_empty || is_not_empty);
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/preprocessor/embed&action=edit&section=9 "Edit section: if empty parameter")] `if_empty` parameter
+#### `if_empty` parameter
 
 An embed parameter of the form `**if_empty**` `**(**` balanced-pp-tokens ﻿(optional) `**)**` can only appear at most once in each #embed directive. 
 
@@ -435,13 +435,13 @@ If the resource is **not** empty, this embed parameter is ignored. Otherwise, th
     // always expands to 42203 regardless of the content of /owo/uwurandom
     #embed </owo/uwurandom> if_empty(42203) limit(0)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/preprocessor/embed&action=edit&section=10 "Edit section: Notes")] Notes
+### Notes
 
 Feature-test macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_pp_embed`](../experimental/feature_test.html#cpp_pp_embed "cpp/feature test") | [`202502L`](../compiler_support/26.html#cpp_pp_embed_202502L "cpp/compiler support/26") | (C++26) | The #embed directive   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/preprocessor/embed&action=edit&section=11 "Edit section: Example")] Example
+### Example
 
 Demonstrate the effect of #embed. If `data.dat` can be embedded as a resource in the translation environment, no assert in this program should fail. 
 
@@ -484,7 +484,7 @@ Run this code
         [assert](../error/assert.html)(is_same_vec == 0);
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/preprocessor/embed&action=edit&section=12 "Edit section: References")] References
+### References
 
   * C++26 standard (ISO/IEC 14882:2026): 
 
@@ -496,7 +496,7 @@ Run this code
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/preprocessor/embed&action=edit&section=13 "Edit section: See also")] See also
+### See also
 
   * [Source file inclusion](include.html "cpp/preprocessor/include")
 

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Regular expressions library](../../regex.html "cpp/regex")
 
@@ -81,7 +81,7 @@ Constants
 Regex Grammar  
 [Modified ECMAScript-262](../ecmascript.html "cpp/regex/ecmascript")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/navbar_content&action=edit)
+
 
 [`std::sub_match`](../sub_match.html "cpp/regex/sub match")
 
@@ -96,7 +96,7 @@ Non-member functions
 [operator==operator!=operator<<operator<=operator>operator>=operator<=>](operator_cmp.html "cpp/regex/sub match/operator cmp")(until C++20)(until C++20)(until C++20)(until C++20)(until C++20)(C++20)  
 [operator<<](operator_ltlt.html "cpp/regex/sub match/operator ltlt")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/sub_match/navbar_content&action=edit)
+
 
 operator string_type() const; |  (1)  |   
 ---|---|---  
@@ -109,15 +109,15 @@ Converts to an object of the underlying [std::basic_string](../../string/basic_s
 
 2) An explicit conversion.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/sub_match/str&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 The matched character sequence as an object of the underlying [std::basic_string](../../string/basic_string.html "cpp/string/basic string") type. If the `matched` member is false, then returns the empty string. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/sub_match/str&action=edit&section=2 "Edit section: Complexity")] Complexity
+### Complexity
 
 Linear in the length of the underlying character sequence. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/sub_match/str&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     

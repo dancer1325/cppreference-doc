@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::ostrstream`](../ostrstream.html "cpp/io/ostrstream")
 
@@ -90,7 +90,7 @@ Member functions
 [ostrstream::freeze](freeze.html "cpp/io/ostrstream/freeze")  
 [ostrstream::pcount](pcount.html "cpp/io/ostrstream/pcount")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/ostrstream/navbar_content&action=edit)
+
 
 ostrstream(); |  (1)  |  (deprecated in C++98)   
 (removed in C++26)  
@@ -109,7 +109,7 @@ a) if the `app` bit is not set in mode, constructs the buffer by calling strstre
 
 b) if the `app` bit is set in mode, constructs the buffer by calling strstreambuf(s, n, s + [std::strlen](../../string/byte/strlen.html)(s)). The behavior is undefined if there are less than n elements in the array whose first element is pointed to by s or if the array does not contain a valid null-terminated character sequence.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/ostrstream/ostrstream&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 s  |  \-  |  char array to use as the output buffer   
 ---|---|---  
@@ -124,7 +124,7 @@ mode  |  \-  |  specifies stream open mode. It is a bitmask type, the following 
 [`ate`](../ios_base/openmode.html "cpp/io/ios base/openmode") |  seek to the end of stream immediately after open   
 [`noreplace`](../ios_base/openmode.html "cpp/io/ios base/openmode") (C++23) |  open in exclusive mode   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/ostrstream/ostrstream&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -154,12 +154,12 @@ Output:
     Hello, world!
     Hello, world!
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/ostrstream/ostrstream&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ (constructor)](../strstreambuf/strstreambuf.html "cpp/io/strstreambuf/strstreambuf") |  constructs a `strstreambuf` object   
-(public member function of `std::strstreambuf`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/strstreambuf/dsc_strstreambuf&action=edit)  
+(public member function of `std::strstreambuf`)   
 ---|---  
 [ (constructor)](../istrstream/istrstream.html "cpp/io/istrstream/istrstream") |  constructs an `istrstream` object, optionally allocating the buffer   
-(public member function of `std::istrstream`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/strstream/dsc_constructor&action=edit)  
+(public member function of `std::istrstream`)   
 [ (constructor)](../strstream/strstream.html "cpp/io/strstream/strstream") |  constructs a `strstream` object, optionally allocating the buffer   
-(public member function of `std::strstream`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/strstream/dsc_constructor&action=edit)
+(public member function of `std::strstream`) 

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](empty.html "cpp/iterator/empty")(C++17)  
 [data](data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 Defined in header `[<iterator>](../header/iterator.html "cpp/header/iterator")` |  |   
 ---|---|---  
@@ -212,7 +212,7 @@ const_cast<const [std::iter_reference_t](iter_t.html)<Out>&&>(*[std::forward](..
   
 The concept indirectly_writable<Out, T> specifies the requirements for writing a value whose type and value category are encoded by `T` into an iterator `Out`'s referenced object. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/indirectly_writable&action=edit&section=1 "Edit section: Semantic requirements")] Semantic requirements
+### Semantic requirements
 
 Let `e` be an expression such that decltype((e)) is `T`, and `o` be a dereferenceable object of type `Out`, then indirectly_writable<Out, T> is modeled only if: 
 
@@ -222,11 +222,11 @@ Let `e` be an expression such that decltype((e)) is `T`, and `o` be a dereferenc
 
 `o` is not required to be dereferenceable after evaluating any of the assignment expressions above. If `e` is an xvalue, the resulting state of the object it denotes is valid but unspecified. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/equality_preservation&action=edit&section=T-1 "Template:cpp/concepts/equality preservation")] Equality preservation
+### Equality preservation
 
 Expressions declared in [requires expressions](../language/requires.html "cpp/language/requires") of the standard library concepts are required to be [equality-preserving](../concepts.html#Equality_preservation "cpp/concepts") (except where stated otherwise). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/indirectly_writable&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 The only valid use of operator* is on the left side of an assignment expression. Assignment through the same value of an indirectly writable type may happen only once. 
 

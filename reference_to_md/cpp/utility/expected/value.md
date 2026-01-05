@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::expected`](../expected.html "cpp/utility/expected")
 
@@ -160,7 +160,7 @@ Common vocabulary types
 [bad_expected_access](bad_expected_access.html "cpp/utility/expected/bad expected access")  
 [unexpect_tunexpect](unexpect_t.html "cpp/utility/expected/unexpect t")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/expected/navbar_content&action=edit)
+
 
 Primary template |  |   
 ---|---|---  
@@ -196,25 +196,25 @@ Otherwise, throws an exception of type [std::bad_expected_access](bad_expected_a
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/value&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 1,2) [`_val_`](../expected.html#Data_members "cpp/utility/expected")
 
 3,4) std::move(`_val_`)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/value&action=edit&section=2 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 1,2,5) Throws [std::bad_expected_access](bad_expected_access.html)([std::as_const](../as_const.html)(error())) if *this contains an unexpected value.
 
 3,4,6) Throws [std::bad_expected_access](bad_expected_access.html)(std::move(error())) if *this contains an unexpected value.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/value&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/value&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -222,14 +222,14 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 3940](https://cplusplus.github.io/LWG/issue3940) | C++23  | `E` was not required to be copy/move-constructible for overloads (5,6) | required   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/value&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ value_or](value_or.html "cpp/utility/expected/value or") |  returns the expected value if present, another value otherwise   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/expected/dsc_value_or&action=edit)  
+(public member function)   
 ---|---  
 [ operator->operator*](operator*.html "cpp/utility/expected/operator*") |  accesses the expected value   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/expected/dsc_operator*&action=edit)  
+(public member function)   
 [ error](error.html "cpp/utility/expected/error") |  returns the unexpected value   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/expected/dsc_error&action=edit)  
+(public member function)   
 [ bad_expected_access](bad_expected_access.html "cpp/utility/expected/bad expected access")(C++23) |  exception indicating checked access to an `expected` that contains an unexpected value   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/expected/dsc_bad_expected_access&action=edit)
+(class template) 

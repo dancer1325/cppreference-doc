@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_istream`](../basic_istream.html "cpp/io/basic istream")
 
@@ -111,7 +111,7 @@ Member classes
 Non-member functions  
 **operator >>(std::basic_istream)**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_istream/navbar_content&action=edit)
+
 
 Defined in header `[<istream>](../../header/istream.html "cpp/header/istream")` |  |   
 ---|---|---  
@@ -199,24 +199,24 @@ In either case, an additional null character value CharT() is stored at the end 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_istream/operator_gtgt2&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 Extracting a single character that is the last character of the stream does not set `eofbit`: this is different from other formatted input functions, such as extracting the last integer with operator>>, but this behavior matches the behavior of [std::scanf](../c/scanf.html "cpp/io/c/fscanf") with "%c" format specifier. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_istream/operator_gtgt2&action=edit&section=2 "Edit section: Parameters")] Parameters
+### Parameters
 
 st  |  \-  |  input stream to extract the data from   
 ---|---|---  
 ch  |  \-  |  reference to a character to store the extracted character to   
 s  |  \-  |  pointer to(until C++20) a character array to store the extracted characters to   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_istream/operator_gtgt2&action=edit&section=3 "Edit section: Return value")] Return value
+### Return value
 
 1,2) st
 
 3) std::move(st)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_istream/operator_gtgt2&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -250,7 +250,7 @@ Output:
     cstr = greet
     f = 1.23
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_istream/operator_gtgt2&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -263,8 +263,8 @@ to the derived class
 [LWG 2328](https://cplusplus.github.io/LWG/issue2328) | C++98  | overload for rvalue stream required another argument to be lvalue  | made to accept rvalue   
 [LWG 2534](https://cplusplus.github.io/LWG/issue2534) | C++98  | overload for rvalue stream was not constrained  | constrained   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_istream/operator_gtgt2&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ operator>>](operator_gtgt.html "cpp/io/basic istream/operator gtgt") |  extracts formatted data   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_istream/dsc_operator_gtgt&action=edit)  
+(public member function)   
 ---|---

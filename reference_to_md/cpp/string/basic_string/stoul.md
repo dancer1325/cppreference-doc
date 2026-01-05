@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Strings library](../../string.html "cpp/string")
 
@@ -40,7 +40,7 @@ Classes
 [basic_string_view](../basic_string_view.html "cpp/string/basic string view")(C++17)  
 [char_traits](../char_traits.html "cpp/string/char traits")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/navbar_content&action=edit)
+
 
 [`std::basic_string`](../basic_string.html "cpp/string/basic string")
 
@@ -133,7 +133,7 @@ basic_string_view](operator_basic_string_view.html "cpp/string/basic string/oper
 [hash<std::basic_string>](hash.html "cpp/string/basic string/hash")(C++11)  
 [Deduction guides](deduction_guides.html "cpp/string/basic string/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/navbar_content&action=edit)
+
 
 Defined in header `[<string>](../../header/string.html "cpp/header/string")` |  |   
 ---|---|---  
@@ -190,31 +190,31 @@ If pos is not a null pointer, then ptr will receive the address of the first unc
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/stoul&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 str  |  \-  |  the string to convert   
 ---|---|---  
 pos  |  \-  |  address of an integer to store the number of characters processed   
 base  |  \-  |  the number base   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/stoul&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The string converted to the specified unsigned integer type. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/stoul&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
   * [std::invalid_argument](../../error/invalid_argument.html "cpp/error/invalid argument") if no conversion could be performed. 
   * [std::out_of_range](../../error/out_of_range.html "cpp/error/out of range") if the converted value would fall out of the range of the result type or if the underlying function ([std::strtoul](../byte/strtoul.html "cpp/string/byte/strtoul") or [std::strtoull](../byte/strtoul.html "cpp/string/byte/strtoul")) sets [errno](../../error/errno.html "cpp/error/errno") to [ERANGE](../../error/errno_macros.html "cpp/error/errno macros"). 
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/stoul&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/stoul&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -223,10 +223,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [LWG 2009](https://cplusplus.github.io/LWG/issue2009) | C++11  | [std::out_of_range](../../error/out_of_range.html "cpp/error/out of range") would not be thrown if  
 [std::strtoul](../byte/strtoul.html "cpp/string/byte/strtoul") or [std::strtoull](../byte/strtoul.html "cpp/string/byte/strtoul") sets [errno](../../error/errno.html "cpp/error/errno") to [ERANGE](../../error/errno_macros.html "cpp/error/errno macros") | will throw   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/stoul&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ stoistolstoll](stol.html "cpp/string/basic string/stol")(C++11)(C++11)(C++11) |  converts a string to a signed integer   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_stol&action=edit)  
+(function)   
 ---|---  
 [ stofstodstold](stof.html "cpp/string/basic string/stof")(C++11)(C++11)(C++11) |  converts a string to a floating point value   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_stof&action=edit)
+(function) 

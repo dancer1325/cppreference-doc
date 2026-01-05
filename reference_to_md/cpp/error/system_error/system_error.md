@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Diagnostics library](../../error.html "cpp/error")
 
@@ -187,7 +187,7 @@ Exception handling failures
 [breakpoint_if_debugging](../../utility/breakpoint_if_debugging.html "cpp/utility/breakpoint if debugging")(C++26)  
 [breakpoint](../../utility/breakpoint.html "cpp/utility/breakpoint")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/navbar_content&action=edit)
+
 
 [`std::system_error`](../system_error.html "cpp/error/system error")
 
@@ -198,7 +198,7 @@ Member functions
 [system_error::code](code.html "cpp/error/system error/code")  
 [system_error::what](what.html "cpp/error/system error/what")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/system_error/navbar_content&action=edit)
+
 
 system_error( [std::error_code](../error_code.html) ec ); |  (1)  |  (since C++11)  
 ---|---|---  
@@ -224,7 +224,7 @@ Constructs new system error object.
 
 5) Copy constructor. Initializes the contents with those of other. If *this and other both have dynamic type `std::system_error` then [std::strcmp](../../string/byte/strcmp.html)(what(), other.what()) == 0.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/system_error/system_error&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 ec  |  \-  |  error code   
 ---|---|---  
@@ -233,7 +233,7 @@ ecat  |  \-  |  the category of error
 what_arg  |  \-  |  explanatory string   
 other  |  \-  |  another `system_error` to copy   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/system_error/system_error&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Demonstrates how to create a `system_error` exception from an [errno](../errno.html "cpp/error/errno") value.
 

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::day`](../day.html "cpp/chrono/day")
 
@@ -122,7 +122,7 @@ Helper classes
 [formatter<std::chrono::day>](formatter.html "cpp/chrono/day/formatter")  
 [hash<std::chrono::day>](hash.html "cpp/chrono/day/hash")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/day/navbar_content&action=edit)
+
 
 Defined in header `[<chrono>](../../header/chrono.html "cpp/header/chrono")` |  |   
 ---|---|---  
@@ -136,13 +136,13 @@ Compare the two std::chrono::day x and y.
 
 The `<`, `<=`, `>`, `>=`, and `!=` operators are [synthesized](../../language/operators.html#Comparison_operators "cpp/language/operators") from operator<=> and operator== respectively. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/day/operator_cmp&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 1) unsigned(x) == unsigned(y)
 
 2) unsigned(x) <=> unsigned(y)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/day/operator_cmp&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     

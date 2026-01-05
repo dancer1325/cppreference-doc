@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 **`std::latch`**
 
@@ -188,7 +188,7 @@ Member functions
 Constants  
 [latch::max](latch/max.html "cpp/thread/latch/max")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/latch/navbar_content&action=edit)
+
 
 Defined in header `[<latch>](../header/latch.html "cpp/header/latch")` |  |   
 ---|---|---  
@@ -211,43 +211,43 @@ Concurrent invocations of the member functions of `std::latch`, except for the d
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/latch&action=edit&section=1 "Edit section: Data Members")] Data Members
+### Data Members
 
 Name  |  Definition   
 ---|---  
 [std::ptrdiff_t](../types/ptrdiff_t.html "cpp/types/ptrdiff t") `_counter_` |  the internal counter  
 (exposition-only member object*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/latch&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](latch/latch.html "cpp/thread/latch/latch") |  constructs a `latch`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/latch/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ (destructor)](latch/~latch.html "cpp/thread/latch/~latch") |  destroys the `latch`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/latch/dsc_destructor&action=edit)  
+(public member function)   
 operator=[deleted] |  `latch` is not assignable   
 (public member function)  
 [ count_down](latch/count_down.html "cpp/thread/latch/count down") |  decrements the counter in a non-blocking manner   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/latch/dsc_count_down&action=edit)  
+(public member function)   
 [ try_wait](latch/try_wait.html "cpp/thread/latch/try wait") |  tests if the internal counter equals zero   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/latch/dsc_try_wait&action=edit)  
+(public member function)   
 [ wait](latch/wait.html "cpp/thread/latch/wait") |  blocks until the counter reaches zero   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/latch/dsc_wait&action=edit)  
+(public member function)   
 [ arrive_and_wait](latch/arrive_and_wait.html "cpp/thread/latch/arrive and wait") |  decrements the counter and blocks until it reaches zero   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/latch/dsc_arrive_and_wait&action=edit)  
+(public member function)   
   
 #####  Constants   
   
 [ max](latch/max.html "cpp/thread/latch/max")[static] |  the maximum value of counter supported by the implementation   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/latch/dsc_max&action=edit)  
+(public static member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/latch&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../utility/feature_test.html "cpp/utility/feature test") macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_latch`](../experimental/feature_test.html#cpp_lib_latch "cpp/feature test") | [`201907L`](../compiler_support/20.html#cpp_lib_latch_201907L "cpp/compiler support/20") | (C++20) | `std::latch`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/latch&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -311,10 +311,10 @@ Output:
       Buru cleaned
       Chuck cleaned
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/latch&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ barrier](barrier.html "cpp/thread/barrier")(C++20) |  reusable thread barrier   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_barrier&action=edit)  
+(class template)   
 ---|---
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

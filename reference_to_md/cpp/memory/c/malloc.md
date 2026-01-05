@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 Defined in header `[<cstdlib>](../../header/cstdlib.html "cpp/header/cstdlib")` |  |   
 ---|---|---  
@@ -217,24 +217,24 @@ Calls to these functions that allocate or deallocate a particular unit of storag
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/c/malloc&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 size  |  \-  |  number of bytes to allocate   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/c/malloc&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 On success, returns the pointer to the beginning of newly allocated memory. To avoid a memory leak, the returned pointer must be deallocated with [std::free()](free.html "cpp/memory/c/free") or [std::realloc()](realloc.html "cpp/memory/c/realloc"). 
 
 On failure, returns a null pointer. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/c/malloc&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 This function does not call constructors or initialize memory in any way. There are no ready-to-use smart pointers that could guarantee that the matching deallocation function is called. The preferred method of memory allocation in C++ is using RAII-ready functions [std::make_unique](../unique_ptr/make_unique.html "cpp/memory/unique ptr/make unique"), [std::make_shared](../shared_ptr/make_shared.html "cpp/memory/shared ptr/make shared"), container constructors, etc, and, in low-level library code, [new-expression](../../language/new.html "cpp/language/new"). 
 
 For loading a large file, file mapping via OS-specific functions, e.g. [`mmap`](https://pubs.opengroup.org/onlinepubs/9699919799/functions/mmap.html) on POSIX or `CreateFileMapping`([`A`](https://docs.microsoft.com/en-us/windows/win32/api/winbase/nf-winbase-createfilemappinga)/[`W`](https://docs.microsoft.com/en-us/windows/win32/api/memoryapi/nf-memoryapi-createfilemappingw)) along with [`MapViewOfFile`](https://docs.microsoft.com/en-us/windows/win32/api/memoryapi/nf-memoryapi-mapviewoffile) on Windows, is preferable to allocating a buffer for file reading. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/c/malloc&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -270,11 +270,11 @@ Output:
     p[2] == ccccc
     p[3] == ddddd
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/c/malloc&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ operator newoperator new[]](../new/operator_new.html "cpp/memory/new/operator new") |  allocation functions   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/new/dsc_operator_new&action=edit)  
+(function)   
 ---|---  
 [ get_temporary_buffer](../get_temporary_buffer.html "cpp/memory/get temporary buffer")(deprecated in C++17)(removed in C++20) |  obtains uninitialized storage   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_get_temporary_buffer&action=edit)  
+(function template)   
 [C documentation](../../../c/memory/malloc.html "c/memory/malloc") for malloc

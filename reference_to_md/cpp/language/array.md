@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [Declarations](declarations.html "cpp/language/declarations")
 
@@ -280,7 +280,7 @@ Other declarations
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/declarations/navbar_content&action=edit)
+
 
 Declares an object of array type. 
 
@@ -298,7 +298,7 @@ Declares an object of array type.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/array&action=edit&section=1 "Edit section: Syntax")] Syntax
+### Syntax
 
 An array declaration is any simple declaration whose [declarator](declarations.html "cpp/language/declarations") has the form   
   
@@ -335,7 +335,7 @@ When used with [new[]-expression](new.html "cpp/language/new"), the size of an a
     int* p = new int[0]; // accessing p[0] or *p is undefined
     delete[] p; // cleanup still required
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/array&action=edit&section=2 "Edit section: Assignment")] Assignment
+#### Assignment
 
 Objects of array type cannot be modified as a whole: even though they are [lvalues](value_category.html#lvalue "cpp/language/value category") (e.g. an address of array can be taken), they cannot appear on the left hand side of an assignment operator: 
     
@@ -348,7 +348,7 @@ Objects of array type cannot be modified as a whole: even though they are [lvalu
     s1 = s2; // okay: implicitly-defined copy assignment operator
              // can assign data members of array type
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/array&action=edit&section=3 "Edit section: Array-to-pointer decay")] Array-to-pointer decay
+#### Array-to-pointer decay
 
 There is an [implicit conversion](implicit_cast.html "cpp/language/implicit conversion") from lvalues and rvalues of array type to rvalues of pointer type: it constructs a pointer to the first element of an array. This conversion is used whenever arrays appear in context where arrays are not expected, but pointers are: 
 
@@ -399,7 +399,7 @@ Run this code
                   << *(p + 1) << ' ' << p[1] << '\n'; // same
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/array&action=edit&section=4 "Edit section: Multidimensional arrays")] Multidimensional arrays
+#### Multidimensional arrays
 
 When the element type of an array is another array, it is said that the array is multidimensional: 
     
@@ -422,7 +422,7 @@ Note that when array-to-pointer decay is applied, a multidimensional array is co
     // int*** p3 = c;    // error: c does not decay to int***
     int (*p3)[3][4] = c; // c decays to a pointer to the first 3 × 4-element plane of c
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/array&action=edit&section=5 "Edit section: Arrays of unknown bound")] Arrays of unknown bound
+#### Arrays of unknown bound
 
 If expr is omitted in the declaration of an array, the type declared is "array of unknown bound of T", which is a kind of [incomplete type](incomplete_type.html "cpp/language/incomplete type"), except when used in a declaration with an [aggregate initializer](aggregate_initialization.html "cpp/language/aggregate initialization"): 
     
@@ -469,7 +469,7 @@ References and pointers to arrays of unknown bound can be formed, but cannot(unt
 
 Pointers to arrays of unknown bound cannot participate in [pointer arithmetic](operator_arithmetic.html#Additive_operators "cpp/language/operator arithmetic") and cannot be used on the left of the [subscript operator](operator_member_access.html#Built-in_subscript_operator "cpp/language/operator member access"), but can be dereferenced. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/array&action=edit&section=6 "Edit section: Array rvalues")] Array rvalues
+#### Array rvalues
 
 Although arrays cannot be returned from functions by value and cannot be targets of most cast expressions, array [prvalues](value_category.html "cpp/language/value category") may be formed by using a type alias to construct an array temporary using [brace-initialized functional cast](explicit_cast.html "cpp/language/explicit cast"). 
 
@@ -522,7 +522,7 @@ Output:
     24
     24
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/array&action=edit&section=7 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -536,7 +536,7 @@ not be inferred from a previous declaration  | inference allowed
 not be omitted even if an initializer is provided  | omission allowed   
 [CWG 2397](https://cplusplus.github.io/CWG/issues/2397.html) | C++11  | auto could not be used as element type  | allowed   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/array&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [C documentation](../../c/language/array.html "c/language/array") for Array declaration  
 ---

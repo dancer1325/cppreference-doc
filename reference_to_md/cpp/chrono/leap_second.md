@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 **`std::chrono::leap_second`**
 
@@ -113,7 +113,7 @@ Nonmember functions
 Helper classes  
 [hash<std::chrono::leap_second>](leap_second/hash.html "cpp/chrono/leap second/hash")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/leap_second/navbar_content&action=edit)
+
 
 Defined in header `[<chrono>](../header/chrono.html "cpp/header/chrono")` |  |   
 ---|---|---  
@@ -126,19 +126,19 @@ Users cannot construct `leap_second` objects except by copying from existing `le
 
 `leap_second` has a defaulted copy constructor and a defaulted copy assignment operator. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/leap_second&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ date](leap_second/date.html "cpp/chrono/leap second/date") |  obtains the time of leap second insertion   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/leap_second/dsc_date&action=edit)  
+(public member function)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/leap_second&action=edit&section=2 "Edit section: Nonmember functions")] Nonmember functions
+### Nonmember functions
 
 [ operator==operator<operator<=operator>operator>=operator<=>](leap_second/operator_cmp.html "cpp/chrono/leap second/operator cmp")(C++20) |  compares two `leap_second` values or a `leap_second` value and a sys_time   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/leap_second/dsc_operator_cmp&action=edit)  
+(function template)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/leap_second&action=edit&section=3 "Edit section: Helper classes")] Helper classes
+### Helper classes
 
 [ std::hash<std::chrono::leap_second>](leap_second/hash.html "cpp/chrono/leap second/hash")(C++26) |  hash support for **`std::chrono::leap_second`**   
 (class template specialization)  

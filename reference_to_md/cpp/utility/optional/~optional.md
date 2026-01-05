@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::optional`](../optional.html "cpp/utility/optional")
 
@@ -167,7 +167,7 @@ Common vocabulary types
 [nullopt](nullopt.html "cpp/utility/optional/nullopt")  
 [in_place](../in_place.html "cpp/utility/in place")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/navbar_content&action=edit)
+
 
 ~optional(); |  |  (since C++17)   
 (constexpr since C++20)  
@@ -178,7 +178,7 @@ If the object contains a value and the type `T` is not trivially destructible (s
 
 Otherwise, does nothing. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/%7Eoptional&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 If `T` is trivially-destructible, then this destructor is also trivial, so [std::optional](../optional.html)<T> is also trivially-destructible. 
 
@@ -187,7 +187,7 @@ If `T` is trivially-destructible, then this destructor is also trivial, so [std:
 [`__cpp_lib_optional`](../../experimental/feature_test.html#cpp_lib_optional "cpp/feature test") | [`202106L`](../../compiler_support/20.html#cpp_lib_optional_202106L "cpp/compiler support/20") | (C++20)  
 (DR20) | Fully constexpr  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/%7Eoptional&action=edit&section=2 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

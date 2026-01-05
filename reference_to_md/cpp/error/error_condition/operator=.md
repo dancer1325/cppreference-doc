@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Diagnostics library](../../error.html "cpp/error")
 
@@ -187,7 +187,7 @@ Exception handling failures
 [breakpoint_if_debugging](../../utility/breakpoint_if_debugging.html "cpp/utility/breakpoint if debugging")(C++26)  
 [breakpoint](../../utility/breakpoint.html "cpp/utility/breakpoint")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/navbar_content&action=edit)
+
 
 [`std::error_condition`](../error_condition.html "cpp/error/error condition")
 
@@ -207,7 +207,7 @@ Helper classes
 [is_error_condition_enum](is_error_condition_enum.html "cpp/error/error condition/is error condition enum")  
 [hash<std::error_condition>](hash.html "cpp/error/error condition/hash")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/error_condition/navbar_content&action=edit)
+
 
 template< class ErrorConditionEnum >  
 error_condition& operator=( ErrorConditionEnum e ) noexcept; |  (1)  |  (since C++11)  
@@ -224,17 +224,17 @@ Assigns contents to an error condition.
 
 2,3) Implicitly defined copy-assignment operator and move-assignment operator assign the contents of `other` to *this.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/error_condition/operator%3D&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 e  |  \-  |  error condition enum   
 ---|---|---  
 other  |  \-  |  another error condition to assign with   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/error_condition/operator%3D&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 *this. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/error_condition/operator%3D&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 **`std::scoped_lock`**
 
@@ -182,7 +182,7 @@ Member functions
 [scoped_lock::scoped_lock](scoped_lock/scoped_lock.html "cpp/thread/scoped lock/scoped lock")  
 [scoped_lock::~scoped_lock](scoped_lock/~scoped_lock.html "cpp/thread/scoped lock/~scoped lock")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/scoped_lock/navbar_content&action=edit)
+
 
 Defined in header `[<mutex>](../header/mutex.html "cpp/header/mutex")` |  |   
 ---|---|---  
@@ -209,29 +209,29 @@ The `scoped_lock` class is non-copyable.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/scoped_lock&action=edit&section=1 "Edit section: Template parameters")] Template parameters
+### Template parameters
 
 MutexTypes  |  \-  |  the types of the mutexes to lock. The types must meet the [Lockable](../named_req/Lockable.html "cpp/named req/Lockable") requirements unless sizeof...(MutexTypes) == 1, in which case the only type must meet [BasicLockable](../named_req/BasicLockable.html "cpp/named req/BasicLockable")  
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/scoped_lock&action=edit&section=2 "Edit section: Member types")] Member types
+### Member types
 
 Member type  |  Definition   
 ---|---  
 `mutex_type`  
 (conditionally present) |  If sizeof...(MutexTypes) == 1, member type `mutex_type` is the same as `Mutex`, the sole type in `MutexTypes...`. Otherwise, there is no member `mutex_type`.   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/scoped_lock&action=edit&section=3 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](scoped_lock/scoped_lock.html "cpp/thread/scoped lock/scoped lock") |  constructs a `scoped_lock`, optionally locking the given mutexes   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/scoped_lock/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ (destructor)](scoped_lock/~scoped_lock.html "cpp/thread/scoped lock/~scoped lock") |  destructs the `scoped_lock` object, unlocks the underlying mutexes   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/scoped_lock/dsc_destructor&action=edit)  
+(public member function)   
 operator=[deleted] |  not copy-assignable   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/scoped_lock/dsc_operator%3D&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/scoped_lock&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 A common beginner error is to "forget" to give a `scoped_lock` variable a name, e.g. std::scoped_lock(mtx); (which default constructs a `scoped_lock` variable named `mtx`) or std::scoped_lock{mtx}; (which constructs a prvalue object that is immediately destroyed), thereby not actually constructing a lock that holds a mutex for the rest of the scope. 
 
@@ -239,7 +239,7 @@ A common beginner error is to "forget" to give a `scoped_lock` variable a name, 
 ---|---|---|---  
 [`__cpp_lib_scoped_lock`](../experimental/feature_test.html#cpp_lib_scoped_lock "cpp/feature test") | [`201703L`](../compiler_support/17.html#cpp_lib_scoped_lock_201703L "cpp/compiler support/17") | (C++17) | [`std::scoped_lock`](scoped_lock.html#Top)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/scoped_lock&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 The following example uses `std::scoped_lock` to lock pairs of mutexes without deadlock and is RAII-style.
 
@@ -343,7 +343,7 @@ Possible output:
     Employee Christina has lunch partners: Alice, Bob
     Employee Dave has lunch partners: Bob
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/scoped_lock&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -351,12 +351,12 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 2981](https://cplusplus.github.io/LWG/issue2981) | C++17  | redundant deduction guide from `scoped_lock<MutexTypes...>` was provided  | removed   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/scoped_lock&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ unique_lock](unique_lock.html "cpp/thread/unique lock")(C++11) |  implements movable mutex ownership wrapper   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_unique_lock&action=edit)  
+(class template)   
 ---|---  
 [ lock_guard](lock_guard.html "cpp/thread/lock guard")(C++11) |  implements a strictly scope-based mutex ownership wrapper   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_lock_guard&action=edit)
+(class template) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

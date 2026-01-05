@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Regular expressions library](../../regex.html "cpp/regex")
 
@@ -81,7 +81,7 @@ Constants
 Regex Grammar  
 [Modified ECMAScript-262](../ecmascript.html "cpp/regex/ecmascript")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/navbar_content&action=edit)
+
 
 [`std::sub_match`](../sub_match.html "cpp/regex/sub match")
 
@@ -96,7 +96,7 @@ Non-member functions
 [operator==operator!=operator<<operator<=operator>operator>=operator<=>](operator_cmp.html "cpp/regex/sub match/operator cmp")(until C++20)(until C++20)(until C++20)(until C++20)(until C++20)(C++20)  
 [operator<<](operator_ltlt.html "cpp/regex/sub match/operator ltlt")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/sub_match/navbar_content&action=edit)
+
 
 void swap( sub_match& s ) noexcept(/* see below */); |  |  (since C++11)  
 ---|---|---  
@@ -117,20 +117,20 @@ this->pair<BidirIt, BidirIt>::swap(s);
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/sub_match/swap&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 s  |  \-  |  a `sub_match` to swap with   
 ---|---|---  
 Type requirements   
 -`BidirIt` must meet the requirements of [LegacySwappable](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/LegacySwappable&action=edit&redlink=1 "cpp/named req/LegacySwappable \(page does not exist\)").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/sub_match/swap&action=edit&section=2 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 [`noexcept`](../../language/noexcept_spec.html "cpp/language/noexcept spec") specification: 
 
 noexcept([std::is_nothrow_swappable_v](../../types/is_swappable.html)<BidirIt>)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/sub_match/swap&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -175,7 +175,7 @@ Output:
     x.str() = [cat]
     y.str() = []
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/sub_match/swap&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

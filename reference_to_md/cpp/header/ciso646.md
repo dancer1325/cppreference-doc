@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header was originally in the C standard library as [`<iso646.h>`](../../c/header/iso646.html "c/header/iso646"). 
 
@@ -202,7 +202,7 @@ Compatibility header, in C defines [alternative operator representations](../lan
 
 This means that in a conforming implementation, including this header has no effect. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/ciso646&action=edit&section=1 "Edit section: Notes")] Notes 
+### Notes 
 
 In old or nonconforming compilers, using the [alternative operator representations](../language/operator_alternative.html "cpp/language/operator alternative") may still require including this header. 
 

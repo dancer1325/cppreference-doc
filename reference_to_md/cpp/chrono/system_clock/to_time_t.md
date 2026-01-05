@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::system_clock`](../system_clock.html "cpp/chrono/system clock")
 
@@ -115,7 +115,7 @@ Time point I/O
 [formatter<std::chrono::sys_time>](formatter.html "cpp/chrono/system clock/formatter")  
 [from_stream](from_stream.html "cpp/chrono/system clock/from stream")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/system_clock/navbar_content&action=edit)
+
 
 static [std::time_t](../c/time_t.html) to_time_t( const time_point& t ) noexcept; |  |  (since C++11)  
 ---|---|---  
@@ -135,16 +135,16 @@ If [std::time_t](../c/time_t.html "cpp/chrono/c/time t") has lower precision, it
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/system_clock/to_time_t&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 t  |  \-  |  system clock time point to convert   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/system_clock/to_time_t&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 A [std::time_t](../c/time_t.html "cpp/chrono/c/time t") value representing t. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/system_clock/to_time_t&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Get the current time as a [std::time_t](../c/time_t.html "cpp/chrono/c/time t") two ways.
 
@@ -176,8 +176,8 @@ Possible output:
     
     newt - oldt == 3 s
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/system_clock/to_time_t&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ from_time_t](from_time_t.html "cpp/chrono/system clock/from time t")[static] |  converts [std::time_t](../c/time_t.html "cpp/chrono/c/time t") to a system clock time point   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/system_clock/dsc_from_time_t&action=edit)  
+(public static member function)   
 ---|---

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Program support utilities](../program.html "cpp/utility/program")
 
@@ -181,7 +181,7 @@ Common vocabulary types
 [Types](../program.html#Types "cpp/utility/program")  
 [jmp_buf](jmp_buf.html "cpp/utility/program/jmp buf")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/program/navbar_content&action=edit)
+
 
 Defined in header `[<cstdlib>](../../header/cstdlib.html "cpp/header/cstdlib")` |  |   
 ---|---|---  
@@ -205,25 +205,25 @@ Destructors of variables with automatic, thread local(since C++11) and static [s
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/program/abort&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/program/abort&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 None because it does not return. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/program/abort&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Throws nothing. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/program/abort&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 POSIX specifies that the [`abort()`](https://pubs.opengroup.org/onlinepubs/9699919799/functions/abort.html) function overrides blocking or ignoring the `SIGABRT` signal. 
 
 Some compiler intrinsics, e.g. [`__builtin_trap`](https://gcc.gnu.org/onlinedocs/gcc/Other-Builtins.html) (gcc, clang, and icc) or [`__fastfail`](https://learn.microsoft.com/en-us/cpp/intrinsics/fastfail)/[`__debugbreak`](https://learn.microsoft.com/en-us/cpp/intrinsics/debugbreak) (msvc), can be used to terminate the program as fast as possible. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/program/abort&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -273,19 +273,19 @@ Output:
     Tester ctor
     SIGABRT received
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/program/abort&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ exit](exit.html "cpp/utility/program/exit") |  causes normal program termination with cleaning up   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/program/dsc_exit&action=edit)  
+(function)   
 ---|---  
 [ atexit](atexit.html "cpp/utility/program/atexit") |  registers a function to be called on [std::exit()](exit.html "cpp/utility/program/exit") invocation   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/program/dsc_atexit&action=edit)  
+(function)   
 [ quick_exit](quick_exit.html "cpp/utility/program/quick exit")(C++11) |  causes quick program termination without completely cleaning up   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/program/dsc_quick_exit&action=edit)  
+(function)   
 [ at_quick_exit](at_quick_exit.html "cpp/utility/program/at quick exit")(C++11) |  registers a function to be called on [std::quick_exit](quick_exit.html "cpp/utility/program/quick exit") invocation   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/program/dsc_at_quick_exit&action=edit)  
+(function)   
 [ signal](signal.html "cpp/utility/program/signal") |  sets a signal handler for particular signal   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/program/dsc_signal&action=edit)  
+(function)   
 [ terminate](../../error/terminate.html "cpp/error/terminate") |  function called when exception handling fails   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_terminate&action=edit)  
+(function)   
 [C documentation](../../../c/program/abort.html "c/program/abort") for abort

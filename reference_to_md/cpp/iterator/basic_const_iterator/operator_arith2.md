@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](../empty.html "cpp/iterator/empty")(C++17)  
 [data](../data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 [`std::basic_const_iterator`](../basic_const_iterator.html "cpp/iterator/basic const iterator")
 
@@ -215,7 +215,7 @@
 [Helper classes](../basic_const_iterator.html#Helper_classes "cpp/iterator/basic const iterator")  
 [common_type<std::basic_const_iterator>](common_type.html "cpp/iterator/basic const iterator/common type")(C++23)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/basic_const_iterator/navbar_content&action=edit)
+
 
 friend constexpr basic_const_iterator   
 operator+( const basic_const_iterator& i, difference_type n )  
@@ -237,13 +237,13 @@ Returns the iterator i incremented or decremented by n.
 
 These functions are not visible to ordinary [unqualified](../../language/unqualified_lookup.html "cpp/language/unqualified lookup") or [qualified lookup](../../language/qualified_lookup.html "cpp/language/qualified lookup"), and can only be found by [argument-dependent lookup](../../language/adl.html "cpp/language/adl") when [std::basic_const_iterator](../basic_const_iterator.html)<Iter> is an associated class of the arguments.. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/basic_const_iterator/operator_arith2&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 1,2) basic_const_iterator(i.base() + n)
 
 3) basic_const_iterator(i.base() - n)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/basic_const_iterator/operator_arith2&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

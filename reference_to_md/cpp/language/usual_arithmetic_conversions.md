@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Expressions](expressions.html "cpp/language/expressions")
 
@@ -289,7 +289,7 @@ Conversions
 [`dynamic_cast`](dynamic_cast.html "cpp/language/dynamic cast")  
 [`reinterpret_cast`](reinterpret_cast.html "cpp/language/reinterpret cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/expressions/navbar_content&action=edit)
+
 
 Many binary operators that expect operands of [arithmetic](type-id.html "cpp/language/type") or [enumeration](enum.html "cpp/language/enum") type cause conversions and yield result types in a similar way. The purpose is to yield a common type, which is also the type of the result. This pattern is called the _usual arithmetic conversions_. 
 
@@ -311,15 +311,15 @@ Many binary operators that expect operands of [arithmetic](type-id.html "cpp/lan
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/usual_arithmetic_conversions&action=edit&section=1 "Edit section: Definition")] Definition
+### Definition
 
 Usual arithmetic conversions are defined as follows: 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/usual_arithmetic_conversions&action=edit&section=2 "Edit section: Stage 1")] Stage 1
+#### Stage 1
 
 Applies [lvalue-to-rvalue conversion](implicit_cast.html#Lvalue-to-rvalue_conversion "cpp/language/implicit conversion") to both operands, the resulting prvalues are used in place of the original operands for the remaining process. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/usual_arithmetic_conversions&action=edit&section=3 "Edit section: Stage 2")] Stage 2
+#### Stage 2
 
   * If either operand is of [scoped enumeration type](enum.html#Scoped_enumerations "cpp/language/enum"), no conversions are performed; if the other operand does not have the same type, the expression is ill-formed. 
   * Otherwise, proceed to the next stage. 
@@ -327,7 +327,7 @@ Applies [lvalue-to-rvalue conversion](implicit_cast.html#Lvalue-to-rvalue_conver
 | (since C++11)  
 ---|---  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/usual_arithmetic_conversions&action=edit&section=4 "Edit section: Stage 3")] Stage 3
+#### Stage 3
 
   * If either operand is of [enumeration type](enum.html "cpp/language/enum"), and the other operand is of a different enumeration type or a floating-point type, the expression is ill-formed. 
   * Otherwise, proceed to the next stage. 
@@ -335,7 +335,7 @@ Applies [lvalue-to-rvalue conversion](implicit_cast.html#Lvalue-to-rvalue_conver
 | (since C++26)  
 ---|---  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/usual_arithmetic_conversions&action=edit&section=5 "Edit section: Stage 4")] Stage 4
+#### Stage 4
 
   * If either operand is of [floating-point type](types.html#Floating-point_types "cpp/language/types"), the following rules are applied: 
 
@@ -362,7 +362,7 @@ Applies [lvalue-to-rvalue conversion](implicit_cast.html#Lvalue-to-rvalue_conver
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/usual_arithmetic_conversions&action=edit&section=6 "Edit section: Stage 5")] Stage 5
+#### Stage 5
 
 Both operands are converted to a common type `C`. Given the types `T1` and `T2` as the promoted type ([under the rules of integral promotions](implicit_cast.html#Integral_promotion "cpp/language/implicit conversion")) of the operands, the following rules are applied to determine `C`: 
 
@@ -383,7 +383,7 @@ If one operand is of enumeration type and the other operand is of a different en
 (until C++26)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/usual_arithmetic_conversions&action=edit&section=7 "Edit section: Integer conversion rank")] Integer conversion rank
+### Integer conversion rank
 
 Every [integer type](types.html#Integer_types "cpp/language/types") has an _integer conversion rank_ defined as follows: 
 
@@ -463,9 +463,9 @@ Every [integer type](types.html#Integer_types "cpp/language/types") has an _inte
 
 The integer conversion rank is also used in the definition of [integral promotion](implicit_cast.html#Integral_promotion "cpp/language/implicit conversion"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/usual_arithmetic_conversions&action=edit&section=8 "Edit section: Floating-point conversion rank and subrank")] Floating-point conversion rank and subrank
+### Floating-point conversion rank and subrank
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/usual_arithmetic_conversions&action=edit&section=9 "Edit section: Floating-point conversion rank")] Floating-point conversion rank
+#### Floating-point conversion rank
 
 Every [floating-point type](types.html#Floating-point_types "cpp/language/types") has a _floating-point conversion rank_ defined as follows: 
 
@@ -492,7 +492,7 @@ Every [floating-point type](types.html#Floating-point_types "cpp/language/types"
 Floating-point types that have equal floating-point conversion ranks are ordered by _floating-point conversion subrank_. The subrank forms a total order among types with equal ranks. The types `std::float16_t`, `std::float32_t`, `std::float64_t`, and `std::float128_t` ([fixed width floating-point types](../types/floating-point.html "cpp/types/floating-point")) have a greater conversion subrank than any standard floating-point type with equal conversion rank. Otherwise, the conversion subrank order is implementation-defined.  | (since C++23)  
 ---|---  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/usual_arithmetic_conversions&action=edit&section=11 "Edit section: Usage")] Usage
+#### Usage
 
 The floating-point conversion rank and subrank are also used to 
 
@@ -512,7 +512,7 @@ The floating-point conversion rank and subrank are also used to
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/usual_arithmetic_conversions&action=edit&section=12 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

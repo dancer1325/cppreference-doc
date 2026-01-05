@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::lazy_split_view`](../lazy_split_view.html "cpp/ranges/lazy split view")
 
@@ -240,7 +240,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
 [lazy_split_view::_inner_iterator_](inner_iterator.html "cpp/ranges/lazy split view/inner iterator")  
 [Deduction guides](deduction_guides.html "cpp/ranges/lazy split view/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/lazy_split_view/navbar_content&action=edit)
+
 
 constexpr auto begin(); |  (1)  |  (since C++20)  
 ---|---|---  
@@ -268,20 +268,20 @@ Let `_[base_](../lazy_split_view.html#base "cpp/ranges/lazy split view")_` be th
 
 2) Equivalent to return /*outer_iterator*/<true>{*this, [ranges::begin](../begin.html)(base_)};.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/lazy_split_view/begin&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 [`_outer_iterator_`](outer_iterator.html "cpp/ranges/lazy split view/outer iterator") to the first element. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/lazy_split_view/begin&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/lazy_split_view/begin&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ end](end.html "cpp/ranges/lazy split view/end") |  returns an iterator or a sentinel to the end   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/dsc_end&action=edit)  
+(public member function)   
 ---|---  
 [ ranges::begin](../begin.html "cpp/ranges/begin")(C++20) |  returns an iterator to the beginning of a range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_begin&action=edit)
+(customization point object)

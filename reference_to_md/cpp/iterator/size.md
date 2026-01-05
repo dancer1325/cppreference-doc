@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](empty.html "cpp/iterator/empty")(C++17)  
 [data](data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 Defined in header `[<array>](../header/array.html "cpp/header/array")` |  |   
 ---|---|---  
@@ -246,13 +246,13 @@ Returns the size of the given range.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/size&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 c  |  \-  |  a container or view with a `size` member function   
 ---|---|---  
 array  |  \-  |  an array of arbitrary type   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/size&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) c.size()
 
@@ -261,18 +261,18 @@ array  |  \-  |  an array of arbitrary type
 
 3,4) N
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/size&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 1,2) May throw implementation-defined exceptions.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/size&action=edit&section=4 "Edit section: Overloads")] Overloads
+### Overloads
 
 Custom overloads of `size` may be provided for classes and enumerations that do not expose a suitable `size()` member function, yet can be detected. 
 
 Overloads of `size` found by [argument-dependent lookup](../language/adl.html "cpp/language/adl") can be used to customize the behavior of std::[ranges::size](../ranges/size.html), std::[ranges::ssize](../ranges/ssize.html), and std::[ranges::empty](../ranges/empty.html).  | (since C++20)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/size&action=edit&section=5 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
 
 [size (1)](size.html#Version_1)  
 ---  
@@ -315,14 +315,14 @@ Overloads of `size` found by [argument-dependent lookup](../language/adl.html "c
         return N;
     }  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/size&action=edit&section=6 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../utility/feature_test.html "cpp/utility/feature test") macro  | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_nonmember_container_access`](../experimental/feature_test.html#cpp_lib_nonmember_container_access "cpp/feature test") | [`201411L`](../compiler_support/17.html#cpp_lib_nonmember_container_access_201411L "cpp/compiler support/17") | (C++17) | `std::size()`, [std::data](data.html "cpp/iterator/data") and [std::empty](empty.html "cpp/iterator/empty")  
 [`__cpp_lib_ssize`](../experimental/feature_test.html#cpp_lib_ssize "cpp/feature test") | [`201902L`](../compiler_support/20.html#cpp_lib_ssize_201902L "cpp/compiler support/20") | (C++20) | `std::ssize()` ([2,4](size.html#Version_2)) and unsigned [`std::span::size()`](../container/span/size.html "cpp/container/span/size")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/size&action=edit&section=7 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -378,16 +378,16 @@ Possible output:
     8
     4 1 3
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/size&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [ ptrdiff_t](../types/ptrdiff_t.html "cpp/types/ptrdiff t") |  signed integer type returned when subtracting two pointers   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_ptrdiff_t&action=edit)  
+(typedef)   
 ---|---  
 [ size_t](../types/size_t.html "cpp/types/size t") |  unsigned integer type returned by the [`sizeof`](../language/sizeof.html "cpp/language/sizeof") operator   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_size_t&action=edit)  
+(typedef)   
 [ ranges::size](../ranges/size.html "cpp/ranges/size")(C++20) |  returns an integer equal to the size of a range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_size&action=edit)  
+(customization point object)  
 [ ranges::ssize](../ranges/ssize.html "cpp/ranges/ssize")(C++20) |  returns a signed integer equal to the size of a range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_ssize&action=edit)
+(customization point object)
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

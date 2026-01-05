@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Null-terminated wide strings](../wide.html "cpp/string/wide")
 
@@ -153,7 +153,7 @@
 WCHAR_MAX  
 WEOF](../wide.html#Macros "cpp/string/wide")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/navbar_content&action=edit)
+
 
 Defined in header `[<cwchar>](../../header/cwchar.html "cpp/header/cwchar")` |  |   
 ---|---|---  
@@ -176,13 +176,13 @@ The behavior is undefined if lhs or rhs are not pointers to null-terminated stri
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/wcsncmp&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 lhs, rhs  |  \-  |  pointers to the null-terminated wide strings to compare   
 ---|---|---  
 count  |  \-  |  maximum number of characters to compare   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/wcsncmp&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Negative value if lhs appears before rhs in lexicographical order. 
 
@@ -190,7 +190,7 @@ Zero if lhs and rhs compare equal.
 
 Positive value if lhs appears after rhs in lexicographical order. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/wcsncmp&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -233,15 +233,15 @@ Output:
     First 8 characters of [안녕히 가십시오] follow [안녕하세요]
     First 2 characters of [안녕하세요] equal [안녕히 가십시오]
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/wcsncmp&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ strncmp](../byte/strncmp.html "cpp/string/byte/strncmp") |  compares a certain number of characters from two strings   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strncmp&action=edit)  
+(function)   
 ---|---  
 [ wcscmp](wcscmp.html "cpp/string/wide/wcscmp") |  compares two wide strings   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wcscmp&action=edit)  
+(function)   
 [ wmemcmp](wmemcmp.html "cpp/string/wide/wmemcmp") |  compares a certain amount of wide characters from two arrays   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wmemcmp&action=edit)  
+(function)   
 [ wcscoll](wcscoll.html "cpp/string/wide/wcscoll") |  compares two wide strings in accordance to the current locale   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wcscoll&action=edit)  
+(function)   
 [C documentation](../../../c/string/wide/wcsncmp.html "c/string/wide/wcsncmp") for wcsncmp

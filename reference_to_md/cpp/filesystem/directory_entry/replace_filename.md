@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Filesystem library](../../filesystem.html "cpp/filesystem")
 
@@ -100,7 +100,7 @@ filesystem::symlink_status](../status.html "cpp/filesystem/status")
 [filesystem::is_socket](../is_socket.html "cpp/filesystem/is socket")  
 [filesystem::is_symlink](../is_symlink.html "cpp/filesystem/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/navbar_content&action=edit)
+
 
 [`std::filesystem::directory_entry`](../directory_entry.html "cpp/filesystem/directory entry")
 
@@ -131,7 +131,7 @@ Observers
 Non-member functions  
 [operator<<](operator_ltlt.html "cpp/filesystem/directory entry/operator ltlt")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/directory_entry/navbar_content&action=edit)
+
 
 void replace_filename( const [std::filesystem::path](../path.html)& p ); |  (1)  |  (since C++17)  
 ---|---|---  
@@ -155,17 +155,17 @@ This function does not commit any changes to the filesystem.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/directory_entry/replace_filename&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 p  |  \-  |  the path to append to the parent path of the currently stored path   
 ---|---|---  
 ec  |  \-  |  out-parameter for error reporting in the non-throwing overload   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/directory_entry/replace_filename&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/directory_entry/replace_filename&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Any overload not marked `noexcept` may throw [std::bad_alloc](../../memory/new/bad_alloc.html "cpp/memory/new/bad alloc") if memory allocation fails.  
 
@@ -174,7 +174,7 @@ Any overload not marked `noexcept` may throw [std::bad_alloc](../../memory/new/b
 
 2) Sets a [std::error_code](../../error/error_code.html)& parameter to the OS API error code if an OS API call fails, and executes ec.[`clear`](../../error/error_code/clear.html "cpp/error/error code/clear")() if no errors occur.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/directory_entry/replace_filename&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -207,10 +207,10 @@ Output:
     "/alpha/"
     "/alpha/omega"
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/directory_entry/replace_filename&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ assign](assign.html "cpp/filesystem/directory entry/assign") |  assigns contents   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/directory_entry/dsc_assign&action=edit)  
+(public member function)   
 ---|---  
 [ replace_filename](../path/replace_filename.html "cpp/filesystem/path/replace filename") |  replaces the last path component with another path   
-(public member function of `std::filesystem::path`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/path/dsc_replace_filename&action=edit)
+(public member function of `std::filesystem::path`) 

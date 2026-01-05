@@ -30,7 +30,7 @@
 [Symbols index](symbol_index.html "cpp/symbol index")  
 [External libraries](links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 **Contract support**
 
@@ -141,33 +141,33 @@ Contract-violation information
 Helper functions  
 [invoke_default_contract_violation_handler](contract/invoke_default_contract_violation_handler.html "cpp/contract/invoke default contract violation handler")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/contract/navbar_content&action=edit)
+
 
 The contract support library defines several types for reporting information about [contract violations](language/contracts.html#Handling_contract_violations "cpp/language/contracts"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/contract&action=edit&section=1 "Edit section: Contract-violation information")] Contract-violation information
+### Contract-violation information
 
 Defined in header `[<contracts>](header/contracts.html "cpp/header/contracts")`  
 ---  
 Defined in namespace `std::contracts`  
 [ contract_violation](contract/contract_violation.html "cpp/contract/contract violation")(C++26) |  the type holding the contract-violation information   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/contract/dsc_contract_violation&action=edit)  
+(class)   
 [ assertion_kind](contract/assertion_kind.html "cpp/contract/assertion kind")(C++26) |  the kind of the contract assertion violated   
-(enum) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/contract/dsc_assertion_kind&action=edit)  
+(enum)   
 [ evaluation_semantic](contract/evaluation_semantic.html "cpp/contract/evaluation semantic")(C++26) |  the evaluation semantic when the contract violation occurs   
-(enum) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/contract/dsc_evaluation_semantic&action=edit)  
+(enum)   
 [ detection_mode](contract/detection_mode.html "cpp/contract/detection mode")(C++26) |  the reason that causes the contract violation   
-(enum) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/contract/dsc_detection_mode&action=edit)  
+(enum)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/contract&action=edit&section=2 "Edit section: Helper functions")] Helper functions
+### Helper functions
 
 Defined in header `[<contracts>](header/contracts.html "cpp/header/contracts")`  
 ---  
 Defined in namespace `std::contracts`  
 [ invoke_default_contract_violation_handler](contract/invoke_default_contract_violation_handler.html "cpp/contract/invoke default contract violation handler")(C++26) |  invokes the default contract-violation handler   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/contract/dsc_invoke_default_contract_violation_handler&action=edit)  
+(function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/contract&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](utility/feature_test.html "cpp/utility/feature test") macro | Value | Std | Feature   
 ---|---|---|---  

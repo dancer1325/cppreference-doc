@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Regular expressions library](../regex.html "cpp/regex")
 
@@ -81,7 +81,7 @@ Constants
 Regex Grammar  
 [Modified ECMAScript-262](ecmascript.html "cpp/regex/ecmascript")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/navbar_content&action=edit)
+
 
 **`std::regex_iterator`**
 
@@ -96,7 +96,7 @@ Observers
 Modifiers  
 [regex_iterator::operator++regex_iterator::operator++(int)](regex_iterator/operator_arith.html "cpp/regex/regex iterator/operator arith")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/regex_iterator/navbar_content&action=edit)
+
 
 Defined in header `[<regex>](../header/regex.html "cpp/header/regex")` |  |   
 ---|---|---  
@@ -130,12 +130,12 @@ A typical implementation of `std::regex_iterator` holds the begin and the end it
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/regex_iterator&action=edit&section=1 "Edit section: Type requirements")] Type requirements
+### Type requirements
 
 -`BidirIt` must meet the requirements of [LegacyBidirectionalIterator](../named_req/BidirectionalIterator.html "cpp/named req/BidirectionalIterator").   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/regex_iterator&action=edit&section=2 "Edit section: Specializations")] Specializations
+### Specializations
 
 Several specializations for common character sequence types are defined: 
 
@@ -147,7 +147,7 @@ Type  |  Definition
 `**std::sregex_iterator**` |  std::regex_iterator<[std::string](../string/basic_string.html)::const_iterator>  
 `**std::wsregex_iterator**` |  std::regex_iterator<[std::wstring](../string/basic_string.html)::const_iterator>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/regex_iterator&action=edit&section=3 "Edit section: Member types")] Member types
+### Member types
 
 Type  |  Definition   
 ---|---  
@@ -159,7 +159,7 @@ Type  |  Definition
 `iterator_concept` (C++20) |  [std::input_iterator_tag](../iterator/iterator_tags.html "cpp/iterator/iterator tags")  
 `regex_type` |  [std::basic_regex](basic_regex.html)<CharT, Traits>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/regex_iterator&action=edit&section=4 "Edit section: Data members")] Data members
+### Data members
 
 Member  |  Description   
 ---|---  
@@ -174,29 +174,29 @@ regex_constants::match_flag_type `_flags_` (private) |  a flag
 match_results<BidiIt> `_match_` (private) |  the current match  
 (exposition-only member object*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/regex_iterator&action=edit&section=5 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](regex_iterator/regex_iterator.html "cpp/regex/regex iterator/regex iterator") |  constructs a new `regex_iterator`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/regex_iterator/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 (destructor)(implicitly declared) |  destructs a `regex_iterator`, including the cached value   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/regex_iterator/dsc_destructor&action=edit)  
+(public member function)   
 [ operator=](regex_iterator/operator=.html "cpp/regex/regex iterator/operator=") |  assigns contents   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/regex_iterator/dsc_operator%3D&action=edit)  
+(public member function)   
 [ operator==operator!=](regex_iterator/operator_cmp.html "cpp/regex/regex iterator/operator cmp")(removed in C++20) |  compares two `regex_iterator`s   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/regex_iterator/dsc_operator_cmp&action=edit)  
+(public member function)   
 [ operator*operator->](regex_iterator/operator*.html "cpp/regex/regex iterator/operator*") |  accesses the current match   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/regex_iterator/dsc_operator*&action=edit)  
+(public member function)   
 [ operator++operator++(int)](regex_iterator/operator_arith.html "cpp/regex/regex iterator/operator arith") |  advances the iterator to the next match   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/regex_iterator/dsc_operator_arith&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/regex_iterator&action=edit&section=6 "Edit section: Notes")] Notes
+### Notes
 
 It is the programmer's responsibility to ensure that the [std::basic_regex](basic_regex.html "cpp/regex/basic regex") object passed to the iterator's constructor outlives the iterator. Because the iterator stores a pointer to the regex, incrementing the iterator after the regex was destroyed accesses a dangling pointer. 
 
 If the part of the regular expression that matched is just an [assertion](ecmascript.html#Assertions "cpp/regex/ecmascript") (`^`, `$`, `\b`, `\B`), the match stored in the iterator is a zero-length match, that is, match[0].first == match[0].second. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/regex_iterator&action=edit&section=7 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -232,7 +232,7 @@ Output:
     brown
     fox.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/regex_iterator&action=edit&section=8 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -246,11 +246,11 @@ while being a stashing iterator  | made [`input_iterator`](../iterator/input_ite
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/regex_iterator&action=edit&section=9 "Edit section: See also")] See also
+### See also
 
 [ match_results](match_results.html "cpp/regex/match results")(C++11) |  identifies one regular expression match, including all sub-expression matches   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/dsc_match_results&action=edit)  
+(class template)   
 ---|---  
 [ regex_search](regex_search.html "cpp/regex/regex search")(C++11) |  attempts to match a regular expression to any part of a character sequence   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/dsc_regex_search&action=edit)  
+(function template)   
 ---

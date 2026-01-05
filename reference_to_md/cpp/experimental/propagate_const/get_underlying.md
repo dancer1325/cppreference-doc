@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Library fundamentals v2](../lib_extensions_2.html "cpp/experimental/lib extensions 2")
 
@@ -74,7 +74,7 @@
 [uniform container erasure](../lib_extensions_2.html#Uniform_container_erasure "cpp/experimental/lib extensions 2")  
 [logical operator type traits](../lib_extensions_2.html#Logical_operator_type_traits "cpp/experimental/lib extensions 2")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions_2/navbar_content&action=edit)
+
 
 [`std::experimental::propagate_const`](../propagate_const.html "cpp/experimental/propagate const")
 
@@ -96,7 +96,7 @@ Helper classes
 [std::hash](hash.html "cpp/experimental/propagate const/hash")  
 [std::equal_tostd::not_equal_tostd::lessstd::greaterstd::less_equalstd::greater_equal](cmp_func.html "cpp/experimental/propagate const/cmp func")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/propagate_const/navbar_content&action=edit)
+
 
 template< class T >  
 constexpr T& get_underlying( propagate_const<T>& pt ) noexcept; |  |  (library fundamentals TS v2)  
@@ -107,11 +107,11 @@ constexpr const T& get_underlying( const propagate_const<T>& pt ) noexcept; |  |
   
 Retrieves a reference to the pointer-like object stored in a `propagate_const`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/propagate_const/get_underlying&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 pt  |  \-  |  a `propagate_const` object   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/propagate_const/get_underlying&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 A reference to the pointer-like object stored in pt. 

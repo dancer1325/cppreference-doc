@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Classes](classes.html "cpp/language/classes")
 
@@ -261,7 +261,7 @@ Inheritance
 **`override` specifier** (C++11)  
 [`final` specifier](final.html "cpp/language/final") (C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/classes/navbar_content&action=edit)
+
 
 Specifies that a [virtual function](virtual.html "cpp/language/virtual") overrides another virtual function. 
 
@@ -276,7 +276,7 @@ Specifies that a [virtual function](virtual.html "cpp/language/virtual") overrid
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/override&action=edit&section=1 "Edit section: Syntax")] Syntax
+### Syntax
 
 The identifier `override`, if used, appears immediately after the [declarator](function.html "cpp/language/function") in the syntax of a member function declaration or a member function definition inside a class definition.   
   
@@ -290,17 +290,17 @@ declarator virt-specifier-seq ﻿(optional) function-body |  (2)  |
 
 In both cases, virt-specifier-seq, if used, is either `override` or [`final`](final.html "cpp/language/final"), or final override or override final. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/override&action=edit&section=2 "Edit section: Explanation")] Explanation
+### Explanation
 
 In a member function declaration or definition, override specifier ensures that the function is virtual and is overriding a virtual function from a base class. The program is ill-formed (a compile-time error is generated) if this is not true. 
 
 `override` is an _identifier with a special meaning_ when used after member function declarators; it is not a reserved [keyword](../keywords.html "cpp/keyword") otherwise. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/override&action=edit&section=3 "Edit section: Keywords")] Keywords
+### Keywords
 
 [`override`](../identifier_with_special_meaning/override.html "cpp/identifier with special meaning/override")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/override&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -352,7 +352,7 @@ Output:
     B::~B();
     A::~A();
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/override&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
-[`final` specifier](final.html "cpp/language/final") (C++11) |  declares that a method cannot be overridden or a class be derived from[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_final&action=edit)  
+[`final` specifier](final.html "cpp/language/final") (C++11) |  declares that a method cannot be overridden or a class be derived from  
 ---|---

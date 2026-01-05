@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Regular expressions library](../../regex.html "cpp/regex")
 
@@ -81,7 +81,7 @@ Constants
 Regex Grammar  
 [Modified ECMAScript-262](../ecmascript.html "cpp/regex/ecmascript")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/navbar_content&action=edit)
+
 
 [`std::basic_regex`](../basic_regex.html "cpp/regex/basic regex")
 
@@ -104,7 +104,7 @@ Non-member Functions
 [swap(std::basic_regex)](swap2.html "cpp/regex/basic regex/swap2")  
 [Deduction guides](deduction_guides.html "cpp/regex/basic regex/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/basic_regex/navbar_content&action=edit)
+
 
 locale_type getloc() const; |  |  (since C++11)  
 ---|---|---  
@@ -125,26 +125,26 @@ Effectively calls traits_i.getloc() where `traits_i` is a default initialized in
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/basic_regex/getloc&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/basic_regex/getloc&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The current locale associated with the regular expression. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/impldef_exception&action=edit&section=T-1 "Template:cpp/impldef exception")] Exceptions
+### Exceptions
 
 May throw implementation-defined exceptions. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/basic_regex/getloc&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/basic_regex/getloc&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ imbue](imbue.html "cpp/regex/basic regex/imbue") |  set locale information   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/basic_regex/dsc_imbue&action=edit)  
+(public member function)   
 ---|---

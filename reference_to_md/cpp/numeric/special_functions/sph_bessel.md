@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [Mathematical special functions](../special_math.html "cpp/numeric/special functions")
 
@@ -118,7 +118,7 @@
 [sph_legendresph_legendrefsph_legendrel](sph_legendre.html "cpp/numeric/special functions/sph legendre")  
 [sph_neumannsph_neumannfsph_neumannl](sph_neumann.html "cpp/numeric/special functions/sph neumann")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/special_functions/navbar_content&action=edit)
+
 
 Defined in header `[<cmath>](../../header/cmath.html "cpp/header/cmath")` |  |   
 ---|---|---  
@@ -154,18 +154,18 @@ A) Additional overloads are provided for all integer types, which are treated as
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/special_functions/sph_bessel&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 n  |  \-  |  the order of the function   
 ---|---|---  
 x  |  \-  |  the argument of the function   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/special_functions/sph_bessel&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 If no errors occur, returns the value of the spherical Bessel function of the first kind of n and x, that is jn(x) = (π/2x)1/2  
 Jn+1/2(x) where Jn(x) is [std::cyl_bessel_j](cyl_bessel_j.html)(n, x) and x≥0. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/special_functions/sph_bessel&action=edit&section=3 "Edit section: Error handling")] Error handling
+### Error handling
 
 Errors may be reported as specified in [math_errhandling](../math/math_errhandling.html "cpp/numeric/math/math errhandling"). 
 
@@ -174,7 +174,7 @@ Errors may be reported as specified in [math_errhandling](../math/math_errhandli
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/special_functions/sph_bessel&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 Implementations that do not support C++17, but support [ISO 29124:2010](../../experimental/special_math.html "cpp/experimental/special math"), provide this function if `__STDCPP_MATH_SPEC_FUNCS__` is defined by the implementation to a value at least 201003L and if the user defines `__STDCPP_WANT_MATH_SPEC_FUNCS__` before including any standard library headers. 
 
@@ -184,7 +184,7 @@ An implementation of this function is also available in [boost.math](https://www
 
 The additional overloads are not required to be provided exactly as (A). They only need to be sufficient to ensure that for their argument num of integer type, std::sph_bessel(int_num, num) has the same effect as std::sph_bessel(int_num, static_cast<double>(num)). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/special_functions/sph_bessel&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -209,15 +209,15 @@ Output:
     j_1(1.2345) = 0.352106
     sin(x)/x² - cos(x)/x = 0.352106
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/special_functions/sph_bessel&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ cyl_bessel_jcyl_bessel_jfcyl_bessel_jl](cyl_bessel_j.html "cpp/numeric/special functions/cyl bessel j")(C++17)(C++17)(C++17) |  cylindrical Bessel functions (of the first kind)   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/special_functions/dsc_cyl_bessel_j&action=edit)  
+(function)   
 ---|---  
 [ sph_neumannsph_neumannfsph_neumannl](sph_neumann.html "cpp/numeric/special functions/sph neumann")(C++17)(C++17)(C++17) |  spherical Neumann functions   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/special_functions/dsc_sph_neumann&action=edit)  
+(function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/special_functions/sph_bessel&action=edit&section=7 "Edit section: External links")] External links
+### External links
 
 [Weisstein, Eric W. "Spherical Bessel Function of the First Kind."](https://mathworld.wolfram.com/SphericalBesselFunctionoftheFirstKind.html) From MathWorld — A Wolfram Web Resource.   
 ---

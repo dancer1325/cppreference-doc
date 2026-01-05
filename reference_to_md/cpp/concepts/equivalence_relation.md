@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concepts library](../concepts.html "cpp/concepts")
 
@@ -73,7 +73,7 @@
 ---  
 [_boolean-testable_](boolean-testable.html "cpp/concepts/boolean-testable") ﻿(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/navbar_content&action=edit)
+
 
 Defined in header `[<concepts>](../header/concepts.html "cpp/header/concepts")` |  |   
 ---|---|---  
@@ -83,7 +83,7 @@ concept equivalence_relation = [std::relation](relation.html)<R, T, U>; |  |  (s
   
 The concept `equivalence_relation<R, T, U>` specifies that the [`relation`](relation.html "cpp/concepts/relation") `R` imposes an [equivalence relation](https://en.wikipedia.org/wiki/equivalence_relation "enwiki:equivalence relation") on its arguments. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/concepts/equivalence_relation&action=edit&section=1 "Edit section: Semantic requirements")] Semantic requirements
+### Semantic requirements
 
 A relation `r` is an equivalence relation if 
 
@@ -93,11 +93,11 @@ A relation `r` is an equivalence relation if
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/concepts/equivalence_relation&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 The distinction between [`relation`](relation.html "cpp/concepts/relation") and `equivalence_relation` is purely semantic. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/concepts/equivalence_relation&action=edit&section=3 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 

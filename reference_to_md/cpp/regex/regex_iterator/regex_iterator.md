@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Regular expressions library](../../regex.html "cpp/regex")
 
@@ -81,7 +81,7 @@ Constants
 Regex Grammar  
 [Modified ECMAScript-262](../ecmascript.html "cpp/regex/ecmascript")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/navbar_content&action=edit)
+
 
 [`std::regex_iterator`](../regex_iterator.html "cpp/regex/regex iterator")
 
@@ -96,7 +96,7 @@ Observers
 Modifiers  
 [regex_iterator::operator++regex_iterator::operator++(int)](operator_arith.html "cpp/regex/regex iterator/operator arith")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/regex_iterator/navbar_content&action=edit)
+
 
 regex_iterator(); |  (1)  |  (since C++11)  
 ---|---|---  
@@ -121,7 +121,7 @@ Constructs a new `regex_iterator`:
 
 4) The overload (2) is not allowed to be called with a temporary regex, since the returned iterator would be immediately invalidated.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/regex_iterator/regex_iterator&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 a  |  \-  |  [LegacyBidirectionalIterator](../../named_req/BidirectionalIterator.html "cpp/named req/BidirectionalIterator") to the beginning of the target character sequence   
 ---|---|---  
@@ -129,7 +129,7 @@ b  |  \-  |  [LegacyBidirectionalIterator](../../named_req/BidirectionalIterator
 re  |  \-  |  regular expression used to search the target character sequence   
 m  |  \-  |  flags that govern the behavior of re  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/regex_iterator/regex_iterator&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -165,7 +165,7 @@ Output:
     
     password
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/regex_iterator/regex_iterator&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

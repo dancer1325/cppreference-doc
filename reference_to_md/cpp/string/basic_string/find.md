@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Strings library](../../string.html "cpp/string")
 
@@ -40,7 +40,7 @@ Classes
 [basic_string_view](../basic_string_view.html "cpp/string/basic string view")(C++17)  
 [char_traits](../char_traits.html "cpp/string/char traits")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/navbar_content&action=edit)
+
 
 [`std::basic_string`](../basic_string.html "cpp/string/basic string")
 
@@ -133,7 +133,7 @@ basic_string_view](operator_basic_string_view.html "cpp/string/basic string/oper
 [hash<std::basic_string>](hash.html "cpp/string/basic string/hash")(C++11)  
 [Deduction guides](deduction_guides.html "cpp/string/basic string/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/navbar_content&action=edit)
+
 
 size_type find( const basic_string& str, size_type pos = 0 ) const; |  (1) | (noexcept since C++11)   
 (constexpr since C++20)  
@@ -195,7 +195,7 @@ In particular, this implies that
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/find&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 str  |  \-  |  string to search for   
 ---|---|---  
@@ -205,11 +205,11 @@ s  |  \-  |  pointer to a character string to search for
 ch  |  \-  |  character to search for   
 t  |  \-  |  object (convertible to [std::basic_string_view](../basic_string_view.html "cpp/string/basic string view")) to search for   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/find&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Position of the first character of the found substring or [npos](npos.html "cpp/string/basic string/npos") if no such substring is found. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/find&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 1,4) Throws nothing.
 
@@ -221,7 +221,7 @@ noexcept([std::is_nothrow_convertible_v](../../types/is_convertible.html)<const 
 
 If an exception is thrown for any reason, this function has no effect ([strong exception safety guarantee](../../language/exceptions.html#Exception_safety "cpp/language/exceptions")). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/find&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -272,7 +272,7 @@ Output:
     3) found @ n = 8, substr(8) = "a string"
     4) not found! n == npos
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/find&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -285,28 +285,28 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 C++17  | noexcept for overloads (4,5) were  
 accidently dropped by LWG2064/LWG2946  | restored   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/find&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ strstr](../byte/strstr.html "cpp/string/byte/strstr") |  finds the first occurrence of a substring of characters   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strstr&action=edit)  
+(function)   
 ---|---  
 [ wcsstr](../wide/wcsstr.html "cpp/string/wide/wcsstr") |  finds the first occurrence of a wide string within another wide string   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wcsstr&action=edit)  
+(function)   
 [ strchr](../byte/strchr.html "cpp/string/byte/strchr") |  finds the first occurrence of a character   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strchr&action=edit)  
+(function)   
 [ wcschr](../wide/wcschr.html "cpp/string/wide/wcschr") |  finds the first occurrence of a wide character in a wide string   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wcschr&action=edit)  
+(function)   
 [ rfind](rfind.html "cpp/string/basic string/rfind") |  find the last occurrence of a substring   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_rfind&action=edit)  
+(public member function)   
 [ find_first_of](find_first_of.html "cpp/string/basic string/find first of") |  find first occurrence of characters   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_find_first_of&action=edit)  
+(public member function)   
 [ find_first_not_of](find_first_not_of.html "cpp/string/basic string/find first not of") |  find first absence of characters   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_find_first_not_of&action=edit)  
+(public member function)   
 [ find_last_of](find_last_of.html "cpp/string/basic string/find last of") |  find last occurrence of characters   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_find_last_of&action=edit)  
+(public member function)   
 [ find_last_not_of](find_last_not_of.html "cpp/string/basic string/find last not of") |  find last absence of characters   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_find_last_not_of&action=edit)  
+(public member function)   
 [ find](../basic_string_view/find.html "cpp/string/basic string view/find") |  find characters in the view   
-(public member function of `std::basic_string_view<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/dsc_find&action=edit)  
+(public member function of `std::basic_string_view<CharT,Traits>`)   
 [ search](../../algorithm/search.html "cpp/algorithm/search") |  searches for the first occurrence of a range of elements   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_search&action=edit)
+(function template) 

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Library fundamentals v2](lib_extensions_2.html "cpp/experimental/lib extensions 2")
 
@@ -74,7 +74,7 @@
 [uniform container erasure](lib_extensions_2.html#Uniform_container_erasure "cpp/experimental/lib extensions 2")  
 [logical operator type traits](lib_extensions_2.html#Logical_operator_type_traits "cpp/experimental/lib extensions 2")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions_2/navbar_content&action=edit)
+
 
 Defined in header `[<experimental/type_traits>](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/type_traits&action=edit&redlink=1 "cpp/header/experimental/type traits \(page does not exist\)")` |  |   
 ---|---|---  
@@ -84,12 +84,12 @@ using void_t = void; |  |  (library fundamentals TS v2)
   
 A utility metafunction that maps a sequence of any types to the type void. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/void_t&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 This utility metafunction is used in template metaprogramming to detect ill-formed types in [SFINAE](../language/sfinae.html "cpp/language/sfinae") context. First voted into C++17 as [std::void_t](../types/void_t.html "cpp/types/void t"), it was later added as well to the library fundamentals TS as `std::experimental::void_t`, because it is a dependency of the [detection idiom](is_detected.html "cpp/experimental/is detected") and the LFTS v2 is based on C++14. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/void_t&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ void_t](../types/void_t.html "cpp/types/void t")(C++17) |  void variadic alias template   
-(alias template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_void_t&action=edit)  
+(alias template)  
 ---|---

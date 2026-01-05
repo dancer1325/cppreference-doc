@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](copy.html "cpp/algorithm/ranges/co
 [uninitialized_default_construct_n](../../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 [Constrained algorithms](../ranges.html "cpp/algorithm/ranges")
 
@@ -550,7 +550,7 @@ All names in this menu belong to namespace `std::ranges`
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -591,28 +591,28 @@ The function-like entities described on this page are [_algorithm function objec
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/rotate&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  the iterator-sentinel pair defining the [range](../../iterator.html#Ranges "cpp/iterator") of elements to rotate   
 ---|---|---  
 r  |  \-  |  the range of elements to rotate   
 middle  |  \-  |  the iterator to the element that should appear at the beginning of the rotated range   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/rotate&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 {new_first, last}, where `_new_first_` compares equal to [ranges::next](../../iterator/ranges/next.html)(first, [ranges::distance](../../iterator/ranges/distance.html)(middle, last)) and designates a new location of the element pointed by first. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/rotate&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 _Linear_ at worst: [ranges::distance](../../iterator/ranges/distance.html)(first, last) swaps. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/rotate&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 `ranges::rotate` has better efficiency on common implementations if `I` models [`bidirectional_iterator`](../../iterator/bidirectional_iterator.html "cpp/iterator/bidirectional iterator") or (better) [`random_access_iterator`](../../iterator/random_access_iterator.html "cpp/iterator/random access iterator"). 
 
 Implementations (e.g. [MSVC STL](https://github.com/microsoft/STL/blob/main/stl/src/vector_algorithms.cpp)) may enable vectorization when the iterator type models [`contiguous_iterator`](../../iterator/contiguous_iterator.html "cpp/iterator/contiguous iterator") and swapping its value type calls neither non-trivial special member function nor [ADL](../../language/adl.html "cpp/language/adl")-found `swap`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/rotate&action=edit&section=5 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
 
 See also the implementations in [libstdc++](https://github.com/gcc-mirror/gcc/blob/14d8a5ae472ca5743016f37da2dd4770d83dea21/libstdc%2B%2B-v3/include/bits/ranges_algo.h#L1361-L1506) and [MSVC STL](https://github.com/microsoft/STL/blob/472161105d596192194d4715ccad307c6c163b4a/stl/inc/algorithm#L4407-L4434). 
     
@@ -704,7 +704,7 @@ See also the implementations in [libstdc++](https://github.com/gcc-mirror/gcc/bl
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/rotate&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 `ranges::rotate` is a common building block in many algorithms. This example demonstrates [insertion sort](https://en.wikipedia.org/wiki/insertion_sort "enwiki:insertion sort").
 
@@ -777,12 +777,12 @@ Output:
     i = 9: 0122345779
     Sorted!
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/rotate&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ ranges::rotate_copy](rotate_copy.html "cpp/algorithm/ranges/rotate copy")(C++20) |  copies and rotate a range of elements  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_rotate_copy&action=edit)  
+(algorithm function object)  
 ---|---  
 [ ranges::reverse](reverse.html "cpp/algorithm/ranges/reverse")(C++20) |  reverses the order of elements in a range  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_reverse&action=edit)  
+(algorithm function object)  
 [ rotate](../rotate.html "cpp/algorithm/rotate") |  rotates the order of elements in a range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_rotate&action=edit)
+(function template) 

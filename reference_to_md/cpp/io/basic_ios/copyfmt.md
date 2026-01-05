@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_ios`](../basic_ios.html "cpp/io/basic ios")
 
@@ -111,7 +111,7 @@ Protected member functions
 [basic_ios::swap](swap.html "cpp/io/basic ios/swap")(C++11)  
 [basic_ios::set_rdbuf](set_rdbuf.html "cpp/io/basic ios/set rdbuf")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ios/navbar_content&action=edit)
+
 
 basic_ios& copyfmt( const basic_ios& other ); |  |   
 ---|---|---  
@@ -138,22 +138,22 @@ If other refers to the same object as *this, has no effects. Otherwise, copies t
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_ios/copyfmt&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 other  |  \-  |  another stream to use as source   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_ios/copyfmt&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 *this
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_ios/copyfmt&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 The second pass through the callbacks may be used to deep-copy the user-defined objects pointed to by the pointers in [std::ios_base::pword](../ios_base/pword.html "cpp/io/ios base/pword"). 
 
 `copyfmt()` may be used to save and restore the state of a stream. Boost provides a more fine-grained [I/O state savers](https://www.boost.org/doc/libs/release/libs/io/doc/ios_state.html) library for the same purpose. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_ios/copyfmt&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Makes the [std::ofstream](../basic_ofstream.html "cpp/io/basic ofstream") object "out" behave exactly like [std::cout](../cout.html "cpp/io/cout"), including formatting, [`tie()`](tie.html "cpp/io/basic ios/tie") to [std::cin](../cin.html "cpp/io/cin"), etc.
 
@@ -198,7 +198,7 @@ Possible output:
     3) cout.flags(): 00000000000000000001000000001111
     4) out2.flags(): 00000000000000000001000000001111
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_ios/copyfmt&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

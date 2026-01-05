@@ -21,7 +21,7 @@
 [Removed symbols (Zombie names)](symbol_index/zombie_names.html "cpp/symbol index/zombie names")  
 [Exposition-only symbols](symbol_index/expos.html "cpp/symbol index/expos")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/symbol_index/navbar_content&action=edit)
+
 
   
 This page tries to list all the symbols that are available from the [standard library](standard_library.html "cpp/standard library") in the namespace std. The symbols are written as follows: 
@@ -78,14 +78,14 @@ Symbols from std's sub-namespaces (e.g. chrono) are not listed here, but the nam
   
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index&action=edit&section=2 "Edit section: Macros")] [Macros](symbol_index/macro.html "cpp/symbol index/macro")
+### [Macros](symbol_index/macro.html "cpp/symbol index/macro")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index&action=edit&section=3 "Edit section: \(underscore\)")] _ (underscore)
+### _ (underscore)
 
 [`_Exit()`](utility/program/_Exit.html "cpp/utility/program/ Exit") (since C++11)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index&action=edit&section=4 "Edit section: A")] A
+### A
 
 [`abort()`](utility/program/abort.html "cpp/utility/program/abort")   
 [`abs()`](numeric/math/abs.html "cpp/numeric/math/abs") (int)  
@@ -299,7 +299,7 @@ atomic<> full specializations and typedefs:
 [`atto`](numeric/ratio/ratio.html "cpp/numeric/ratio/ratio") (since C++11)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index&action=edit&section=5 "Edit section: B")] B
+### B
 
 [`back_insert_iterator`](iterator/back_insert_iterator.html "cpp/iterator/back insert iterator")<>  
 [`back_inserter`](iterator/back_inserter.html "cpp/iterator/back inserter")<>  
@@ -380,7 +380,7 @@ atomic<> full specializations and typedefs:
 [`byteswap<>()`](numeric/byteswap.html "cpp/numeric/byteswap") (since C++23)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index&action=edit&section=6 "Edit section: C")] C
+### C
 
 [`c16rtomb()`](string/multibyte/c16rtomb.html "cpp/string/multibyte/c16rtomb") (since C++11)  
 [`c32rtomb()`](string/multibyte/c32rtomb.html "cpp/string/multibyte/c32rtomb") (since C++11)  
@@ -519,7 +519,7 @@ atomic<> full specializations and typedefs:
 [`cyl_neumannl()`](numeric/special_functions/cyl_neumann.html "cpp/numeric/special functions/cyl neumann") (since C++17)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index&action=edit&section=7 "Edit section: D")] D
+### D
 
 [`data<>()`](iterator/data.html "cpp/iterator/data") (since C++17)  
 [`dec()`](io/manip/hex.html "cpp/io/manip/hex")  
@@ -568,7 +568,7 @@ atomic<> full specializations and typedefs:
 [`dynamic_pointer_cast<>()`](memory/shared_ptr/pointer_cast.html "cpp/memory/shared ptr/pointer cast") (since C++11)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index&action=edit&section=8 "Edit section: E")] E
+### E
 
 [`ellint_1()`](numeric/special_functions/ellint_1.html "cpp/numeric/special functions/ellint 1") (since C++17)  
 [`ellint_1f()`](numeric/special_functions/ellint_1.html "cpp/numeric/special functions/ellint 1") (since C++17)  
@@ -658,7 +658,7 @@ atomic<> full specializations and typedefs:
 [`extreme_value_distribution`](numeric/random/extreme_value_distribution.html "cpp/numeric/random/extreme value distribution")<> (since C++11)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index&action=edit&section=9 "Edit section: F")] F
+### F
 
 [`fabs()`](numeric/math/fabs.html "cpp/numeric/math/fabs")  
 [`fabsf()`](numeric/math/fabs.html "cpp/numeric/math/fabs") (since C++11)  
@@ -791,7 +791,7 @@ atomic<> full specializations and typedefs:
 [`fwscanf()`](io/c/fwscanf.html "cpp/io/c/fwscanf")  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index&action=edit&section=10 "Edit section: G")] G
+### G
 
 [`gamma_distribution`](numeric/random/gamma_distribution.html "cpp/numeric/random/gamma distribution")<> (since C++11)  
 [`gcd<>()`](numeric/gcd.html "cpp/numeric/gcd") (since C++17)  
@@ -826,7 +826,7 @@ atomic<> full specializations and typedefs:
 [`gslice_array`](numeric/valarray/gslice_array.html "cpp/numeric/valarray/gslice array")<>  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index&action=edit&section=11 "Edit section: H")] H
+### H
 
 [`hardware_constructive_interference_size`](thread/hardware_destructive_interference_size.html "cpp/thread/hardware destructive interference size") (since C++17)  
 [`hardware_destructive_interference_size`](thread/hardware_destructive_interference_size.html "cpp/thread/hardware destructive interference size") (since C++17)  
@@ -851,7 +851,7 @@ atomic<> full specializations and typedefs:
 [`hypotl()`](numeric/math/hypot.html "cpp/numeric/math/hypot") (since C++11)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index&action=edit&section=12 "Edit section: I")] I
+### I
 
 [`identity`](utility/functional/identity.html "cpp/utility/functional/identity") (since C++20)  
 [`ifstream`](io/basic_ifstream.html "cpp/io/basic ifstream")  
@@ -1179,20 +1179,20 @@ atomic<> full specializations and typedefs:
 [`iterator_traits`](iterator/iterator_traits.html "cpp/iterator/iterator traits")<>  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index&action=edit&section=13 "Edit section: J")] J
+### J
 
 [`jmp_buf`](utility/program/jmp_buf.html "cpp/utility/program/jmp buf")  
 [`jthread`](thread/jthread.html "cpp/thread/jthread") (since C++20)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index&action=edit&section=14 "Edit section: K")] K
+### K
 
 [`kill_dependency<>()`](atomic/kill_dependency.html "cpp/atomic/kill dependency") (since C++11)  
 [`kilo`](numeric/ratio/ratio.html "cpp/numeric/ratio/ratio") (since C++11)  
 [`knuth_b`](numeric/random/shuffle_order_engine.html "cpp/numeric/random/shuffle order engine") (since C++11)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index&action=edit&section=15 "Edit section: L")] L
+### L
 
 [`labs()`](numeric/math/abs.html "cpp/numeric/math/abs")  
 [`laguerre()`](numeric/special_functions/laguerre.html "cpp/numeric/special functions/laguerre") (since C++17)  
@@ -1278,7 +1278,7 @@ atomic<> full specializations and typedefs:
 [`lroundl()`](numeric/math/round.html "cpp/numeric/math/round") (since C++11)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index&action=edit&section=16 "Edit section: M")] M
+### M
 
 [`make_any<>()`](utility/any/make_any.html "cpp/utility/any/make any") (since C++17)  
 [`make_const_iterator<>()`](iterator/make_const_iterator.html "cpp/iterator/make const iterator") (since C++23)  
@@ -1388,7 +1388,7 @@ atomic<> full specializations and typedefs:
 [`mutex`](thread/mutex.html "cpp/thread/mutex") (since C++11)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index&action=edit&section=17 "Edit section: N")] N
+### N
 
 [`nan()`](numeric/math/nan.html "cpp/numeric/math/nan") (since C++11)  
 [`nanf()`](numeric/math/nan.html "cpp/numeric/math/nan") (since C++11)  
@@ -1446,7 +1446,7 @@ atomic<> full specializations and typedefs:
 [`num_put`](locale/num_put.html "cpp/locale/num put")<>  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index&action=edit&section=18 "Edit section: O")] O
+### O
 
 [`oct()`](io/manip/hex.html "cpp/io/manip/hex")  
 [`once_flag`](thread/once_flag.html "cpp/thread/once flag") (since C++11)  
@@ -1469,7 +1469,7 @@ atomic<> full specializations and typedefs:
 [`owner_less`](memory/owner_less.html "cpp/memory/owner less")<> (since C++11)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index&action=edit&section=19 "Edit section: P")] P
+### P
 
 [`packaged_task`](thread/packaged_task.html "cpp/thread/packaged task")<> (since C++11)  
 [`pair`](utility/pair.html "cpp/utility/pair")<>  
@@ -1524,7 +1524,7 @@ atomic<> full specializations and typedefs:
 [`putwchar()`](io/c/putwchar.html "cpp/io/c/putwchar")  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index&action=edit&section=20 "Edit section: Q")] Q
+### Q
 
 [`qsort()`](algorithm/qsort.html "cpp/algorithm/qsort")  
 [`quecto`](numeric/ratio/ratio.html "cpp/numeric/ratio/ratio") (since C++26)  
@@ -1534,7 +1534,7 @@ atomic<> full specializations and typedefs:
 [`quoted<>()`](io/manip/quoted.html "cpp/io/manip/quoted") (since C++14)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index&action=edit&section=21 "Edit section: R")] R
+### R
 
 [`raise()`](utility/program/raise.html "cpp/utility/program/raise")  
 [`rand()`](numeric/random/rand.html "cpp/numeric/random/rand")  
@@ -1663,7 +1663,7 @@ atomic<> full specializations and typedefs:
 [`runtime_format()`](utility/format/runtime_format.html "cpp/utility/format/runtime format") (since C++26)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index&action=edit&section=22 "Edit section: S")] S
+### S
 
 [`same_as`](concepts/same_as.html "cpp/concepts/same as")<> (since C++20)  
 [`sample<>()`](algorithm/sample.html "cpp/algorithm/sample") (since C++17)  
@@ -1844,7 +1844,7 @@ atomic<> full specializations and typedefs:
 [`system_error`](error/system_error.html "cpp/error/system error") (since C++11)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index&action=edit&section=23 "Edit section: T")] T
+### T
 
 [`tan()`](numeric/math/tan.html "cpp/numeric/math/tan")  
 [`tan<>()`](numeric/complex/tan.html "cpp/numeric/complex/tan") (`std::complex`)  
@@ -1923,7 +1923,7 @@ atomic<> full specializations and typedefs:
 [`type_info`](types/type_info.html "cpp/types/type info")  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index&action=edit&section=24 "Edit section: U")] U
+### U
 
 [`u16streampos`](io/fpos.html "cpp/io/fpos") (since C++11)  
 [`u16string`](string/basic_string.html "cpp/string/basic string") (since C++11)  
@@ -1996,7 +1996,7 @@ atomic<> full specializations and typedefs:
 [`uses_allocator_construction_args<>()`](memory/uses_allocator_construction_args.html "cpp/memory/uses allocator construction args") (since C++20)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index&action=edit&section=25 "Edit section: V")] V
+### V
 
 [`va_list`](utility/variadic/va_list.html "cpp/utility/variadic/va list")  
 [`valarray`](numeric/valarray.html "cpp/numeric/valarray")<>  
@@ -2032,7 +2032,7 @@ atomic<> full specializations and typedefs:
 [`vwscanf()`](io/c/vfwscanf.html "cpp/io/c/vfwscanf") (since C++11)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index&action=edit&section=26 "Edit section: W")] W
+### W
 
 [`wbuffer_convert`](locale/wbuffer_convert.html "cpp/locale/wbuffer convert")<> (since C++11)(deprecated in C++17)  
 [`wcerr`](io/cerr.html "cpp/io/cerr")  
@@ -2126,21 +2126,21 @@ atomic<> full specializations and typedefs:
 [`wsyncbuf`](io/basic_syncbuf.html "cpp/io/basic syncbuf") (since C++20)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index&action=edit&section=27 "Edit section: X")] X
+### X
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index&action=edit&section=28 "Edit section: Y")] Y
+### Y
 
 [`yocto`](numeric/ratio/ratio.html "cpp/numeric/ratio/ratio") (since C++11)  
 [`yotta`](numeric/ratio/ratio.html "cpp/numeric/ratio/ratio") (since C++11)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index&action=edit&section=29 "Edit section: Z")] Z
+### Z
 
 [`zepto`](numeric/ratio/ratio.html "cpp/numeric/ratio/ratio") (since C++11)  
 [`zetta`](numeric/ratio/ratio.html "cpp/numeric/ratio/ratio") (since C++11)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index&action=edit&section=30 "Edit section: See also")] See also
+### See also
 
 [C documentation](../c/index.html "c/symbol index") for Symbol Index  
 ---

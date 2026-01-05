@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 **`std::chrono::hh_mm_ss`**
 
@@ -115,7 +115,7 @@
 [Helper classes](hh_mm_ss.html#Helper_classes "cpp/chrono/hh mm ss")  
 [formatter<std::chrono::hh_mm_ss>](hh_mm_ss/formatter.html "cpp/chrono/hh mm ss/formatter")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/hh_mm_ss/navbar_content&action=edit)
+
 
 Defined in header `[<chrono>](../header/chrono.html "cpp/header/chrono")` |  |   
 ---|---|---  
@@ -138,36 +138,36 @@ The class template `hh_mm_ss` splits a [std::chrono::duration](duration.html "cp
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/hh_mm_ss&action=edit&section=1 "Edit section: Member constants")] Member constants
+### Member constants
 
 constexpr unsigned fractional_width[static] |  the smallest possible integer in the range `[`​0​`, `18`]` such that `precision` (see below) will exactly represent the value of Duration{1}, or 6 if there's no such integer   
 (public static member constant)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/hh_mm_ss&action=edit&section=2 "Edit section: Member types")] Member types
+### Member types
 
 Member type  |  Definition   
 ---|---  
 `precision` |  [std::chrono::duration](duration.html)<[std::common_type_t](../types/common_type.html)<Duration::rep, std::chrono::seconds::rep>, [std::ratio](../numeric/ratio/ratio.html)<1, 10` _fractional_width_` >>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/hh_mm_ss&action=edit&section=3 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](hh_mm_ss/hh_mm_ss.html "cpp/chrono/hh mm ss/hh mm ss") |  constructs a `hh_mm_ss`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/hh_mm_ss/dsc_hh_mm_ss&action=edit)  
+(public member function)   
 ---|---  
 [ is_negativehoursminutessecondssubseconds](hh_mm_ss/accessors.html "cpp/chrono/hh mm ss/accessors") |  obtains components of the broken-down time   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/hh_mm_ss/dsc_accessors&action=edit)  
+(public member function)   
 [ operator precisionto_duration](hh_mm_ss/duration.html "cpp/chrono/hh mm ss/duration") |  obtains the stored [std::chrono::duration](duration.html "cpp/chrono/duration")   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/hh_mm_ss/dsc_duration&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/hh_mm_ss&action=edit&section=4 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ operator<<](hh_mm_ss/operator_ltlt.html "cpp/chrono/hh mm ss/operator ltlt")(C++20) |  outputs a `hh_mm_ss` into a stream   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/hh_mm_ss/dsc_operator_ltlt&action=edit)  
+(function template)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/hh_mm_ss&action=edit&section=5 "Edit section: Helper classes")] Helper classes
+### Helper classes
 
 [ std::formatter<std::chrono::hh_mm_ss>](hh_mm_ss/formatter.html "cpp/chrono/hh mm ss/formatter")(C++20) |  formatting support for `hh_mm_ss`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_formatter&action=edit)  
+(class template specialization)   
 ---|---

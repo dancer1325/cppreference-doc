@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [Floating-point environment](../fenv.html "cpp/numeric/fenv")
 
@@ -106,7 +106,7 @@ Macro constants
 [FE_DOWNWARDFE_TONEARESTFE_TOWARDZEROFE_UPWARD](FE_round.html "cpp/numeric/fenv/FE round")(C++11)(C++11)(C++11)(C++11)  
 **FE_DFL_ENV**(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/fenv/navbar_content&action=edit)
+
 
 Defined in header `[<cfenv>](../../header/cfenv.html "cpp/header/cfenv")` |  |   
 ---|---|---  
@@ -117,7 +117,7 @@ The macro constant `FE_DFL_ENV` expands to an expression of type const [std::fen
 
 Additional macros that begin with `FE_` followed by uppercase letters, and have the type const [std::fenv_t](../fenv.html)*, may be supported by an implementation. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/fenv/FE_DFL_ENV&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -188,11 +188,11 @@ Output:
     After reset to default: 
     rounding to nearest
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/fenv/FE_DFL_ENV&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ fegetenvfesetenv](feenv.html "cpp/numeric/fenv/feenv")(C++11) |  saves or restores the current floating-point environment   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/fenv/dsc_feenv&action=edit)  
+(function)   
 ---|---  
 [ feupdateenv](feupdateenv.html "cpp/numeric/fenv/feupdateenv")(C++11) |  restores the floating-point environment and raises the previously raised exceptions   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/fenv/dsc_feupdateenv&action=edit)  
+(function)   
 [C documentation](../../../c/numeric/fenv/FE_DFL_ENV.html "c/numeric/fenv/FE DFL ENV") for FE_DFL_ENV

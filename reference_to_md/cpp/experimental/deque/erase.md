@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../experimental.html "cpp/experimental")
 
@@ -57,7 +57,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Library fundamentals v2](../lib_extensions_2.html "cpp/experimental/lib extensions 2")
 
@@ -76,7 +76,7 @@
 [uniform container erasure](../lib_extensions_2.html#Uniform_container_erasure "cpp/experimental/lib extensions 2")  
 [logical operator type traits](../lib_extensions_2.html#Logical_operator_type_traits "cpp/experimental/lib extensions 2")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions_2/navbar_content&action=edit)
+
 
 ![](https://upload.cppreference.com/mwiki/images/3/31/Imbox_notice.png) |  **Merged into ISO C++** The functionality described on this page was merged into the mainline ISO C++ standard as of 11/2018, see [`std::erase`](../../container/deque/erase2.html "cpp/container/deque/erase2") (since C++20)  
 ---|---  
@@ -98,17 +98,17 @@ Erases all elements that compare equal to value from the container. Equivalent t
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/erase&action=edit&section=T-1 "Template:cpp/experimental/erase")] Parameters
+### Parameters
 
 c  |  \-  |  container from which to erase   
 ---|---|---  
 value  |  \-  |  value to be removed   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/erase&action=edit&section=T-2 "Template:cpp/experimental/erase")] Complexity
+### Complexity
 
 Linear. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/erase&action=edit&section=T-3 "Template:cpp/experimental/erase")] Example
+### Example
 
 Run this code
     
@@ -140,10 +140,10 @@ Output:
   
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/erase&action=edit&section=T-5 "Template:cpp/experimental/erase")] See also
+### See also
 
 [ removeremove_if](../../algorithm/remove.html "cpp/algorithm/remove") |  removes elements satisfying specific criteria   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_remove&action=edit)  
+(function template)   
 ---|---  
 [ erase_if (std::deque)](erase_if.html "cpp/experimental/deque/erase if")(library fundamentals 2 TS) |  erases all elements satisfying a predicate from a [std::deque](../../container/deque.html "cpp/container/deque")   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/dsc_erase_if&action=edit)
+(function template) 

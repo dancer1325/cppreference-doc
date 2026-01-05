@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Library fundamentals](memory.html "cpp/experimental/lib extensions")
 
@@ -75,7 +75,7 @@
 [Type-erased and polymorphic allocators](memory.html "cpp/experimental/memory")  
 [Variable templates for type traits](type_trait_variable_templates.html "cpp/experimental/type trait variable templates")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions/navbar_content&action=edit)
+
 
 [Polymorphic allocator library](memory.html "cpp/experimental/memory")
 
@@ -98,7 +98,7 @@ Type-erased allocator support for existing classes
 [packaged_task](lib_extensions/packaged_task.html "cpp/experimental/lib extensions/packaged task")  
 [promise](lib_extensions/promise.html "cpp/experimental/lib extensions/promise")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions/pmr/navbar_content&action=edit)
+
 
 Defined in header `[<experimental/memory_resource>](../header/experimental/memory_resource.html "cpp/header/experimental/memory resource")` |  |   
 ---|---|---  
@@ -128,13 +128,13 @@ In addition to meeting the [Allocator](../named_req/Allocator.html "cpp/named re
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/resource_adaptor&action=edit&section=1 "Edit section: Member types of resource-adaptor-imp")] Member types of _resource-adaptor-imp_
+### Member types of _resource-adaptor-imp_
 
 Member type  |  Definition   
 ---|---  
 `allocator_type` |  `Alloc`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/resource_adaptor&action=edit&section=2 "Edit section: Member functions of resource-adaptor-imp")] Member functions of _resource-adaptor-imp_
+### Member functions of _resource-adaptor-imp_
 
 ## _resource-adaptor-imp_ ::_resource-adaptor-imp_
 

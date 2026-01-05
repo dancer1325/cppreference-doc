@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header is part of the [containers](../container.html "cpp/container") library. 
 
@@ -215,36 +215,36 @@ This header is part of the [containers](../container.html "cpp/container") libra
 ###  Classes  
   
 [ span](../container/span.html "cpp/container/span")(C++20) |  a non-owning view over a contiguous sequence of objects   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_span&action=edit)  
+(class template)   
   
 ###  Constants  
   
 [ dynamic_extent](../container/span/dynamic_extent.html "cpp/container/span/dynamic extent")(C++20) |  a constant of type [std::size_t](../types/size_t.html "cpp/types/size t") signifying that the `span` has dynamic extent   
-(constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/span/dsc_dynamic_extent&action=edit)  
+(constant)   
   
 ###  Functions  
   
 [ as_bytesas_writable_bytes](../container/span/as_bytes.html "cpp/container/span/as bytes")(C++20) |  converts a `span` into a view of its underlying bytes   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/span/dsc_as_bytes&action=edit)  
+(function template)   
   
 #####  Range access   
   
 [ begincbegin](../iterator/begin.html "cpp/iterator/begin")(C++11)(C++14) |  returns an iterator to the beginning of a container or array   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_begin&action=edit)  
+(function template)   
 [ endcend](../iterator/end.html "cpp/iterator/end")(C++11)(C++14) |  returns an iterator to the end of a container or array   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_end&action=edit)  
+(function template)   
 [ rbegincrbegin](../iterator/rbegin.html "cpp/iterator/rbegin")(C++14) |  returns a reverse iterator to the beginning of a container or array   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_rbegin&action=edit)  
+(function template)   
 [ rendcrend](../iterator/rend.html "cpp/iterator/rend")(C++14) |  returns a reverse end iterator for a container or array   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_rend&action=edit)  
+(function template)   
 [ sizessize](../iterator/size.html "cpp/iterator/size")(C++17)(C++20) |  returns the size of a container or array   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_size&action=edit)  
+(function template)   
 [ empty](../iterator/empty.html "cpp/iterator/empty")(C++17) |  checks whether the container is empty   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_empty&action=edit)  
+(function template)   
 [ data](../iterator/data.html "cpp/iterator/data")(C++17) |  obtains the pointer to the underlying array   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_data&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/span&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     #include <initializer_list>
@@ -288,7 +288,7 @@ This header is part of the [containers](../container.html "cpp/container") libra
       as_writable_bytes(span<ElementType, Extent> s) noexcept;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/span&action=edit&section=T-1 "Template:cpp/synopsis/span")] Class template std::span
+#### Class template std::span
     
     
     namespace std {

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::duration`](../duration.html "cpp/chrono/duration")
 
@@ -156,7 +156,7 @@ Helper classes
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/duration/navbar_content&action=edit)
+
 
 Defined in header `[<chrono>](../../header/chrono.html "cpp/header/chrono")` |  |   
 ---|---|---  
@@ -179,16 +179,16 @@ The function does not participate in the overload resolution unless [std::numeri
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/duration/abs&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 d  |  \-  |  duration   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/duration/abs&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Absolute value of d. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/duration/abs&action=edit&section=3 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     template<class Rep, class Period,
@@ -200,7 +200,7 @@ Absolute value of d.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/duration/abs&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -224,10 +224,10 @@ Output:
     abs(+3min) = 3
     abs(-3min) = 3
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/duration/abs&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ operator+operator-](operator_arith.html "cpp/chrono/duration/operator arith") |  implements unary + and unary -   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/duration/dsc_operator_arith&action=edit)  
+(public member function)   
 ---|---  
 [ abs(int)labsllabs](../../numeric/math/abs.html "cpp/numeric/math/abs")(C++11) |  computes absolute value of an integral value (\\(\small{|x|}\\)|x|)   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_abs&action=edit)
+(function) 

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](copy.html "cpp/algorithm/ranges/co
 [uninitialized_default_construct_n](../../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 [Constrained algorithms](../ranges.html "cpp/algorithm/ranges")
 
@@ -550,7 +550,7 @@ All names in this menu belong to namespace `std::ranges`
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -603,7 +603,7 @@ The function-like entities described on this page are [_algorithm function objec
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/min&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 a, b  |  \-  |  the values to compare   
 ---|---|---  
@@ -611,19 +611,19 @@ r  |  \-  |  the range of values to compare
 comp  |  \-  |  comparison to apply to the projected elements   
 proj  |  \-  |  projection to apply to the elements   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/min&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) The smaller of a and b, according to the projection. If they are equivalent, returns a.
 
 2,3) The smallest element in r, according to the projection. If several values are equivalent to the smallest, returns the leftmost one. If the range is empty (as determined by [ranges::distance](../../iterator/ranges/distance.html)(r)), the behavior is undefined.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/min&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 1) Exactly one comparison.
 
 2,3) Exactly [ranges::distance](../../iterator/ranges/distance.html)(r) - 1 comparisons.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/min&action=edit&section=4 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     struct min_fn
@@ -675,7 +675,7 @@ proj  |  \-  |  projection to apply to the elements
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/min&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 Capturing the result of `std::ranges::min` by reference produces a dangling reference if one of the parameters is a temporary and that parameter is returned: 
     
@@ -683,7 +683,7 @@ Capturing the result of `std::ranges::min` by reference produces a dangling refe
     int n = -1;
     const int& r = std::ranges::min(n + 2, n * 2); // r is dangling
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/min&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -711,16 +711,16 @@ Output:
     smaller of 'a', and 'b': 'a'
     shortest of "foo", "bar", and "hello": "foo"
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/min&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ ranges::max](max.html "cpp/algorithm/ranges/max")(C++20) |  returns the greater of the given values  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_max&action=edit)  
+(algorithm function object)  
 ---|---  
 [ ranges::minmax](minmax.html "cpp/algorithm/ranges/minmax")(C++20) |  returns the smaller and larger of two elements  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_minmax&action=edit)  
+(algorithm function object)  
 [ ranges::min_element](min_element.html "cpp/algorithm/ranges/min element")(C++20) |  returns the smallest element in a range  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_min_element&action=edit)  
+(algorithm function object)  
 [ ranges::clamp](clamp.html "cpp/algorithm/ranges/clamp")(C++20) |  clamps a value between a pair of boundary values  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_clamp&action=edit)  
+(algorithm function object)  
 [ min](../min.html "cpp/algorithm/min") |  returns the smaller of the given values   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_min&action=edit)
+(function template) 

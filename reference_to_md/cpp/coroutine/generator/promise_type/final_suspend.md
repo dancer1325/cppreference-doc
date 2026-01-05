@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Coroutine support](../../../coroutine.html "cpp/coroutine")
 
@@ -146,7 +146,7 @@ Trivial awaitables
 Range generators  
 [generator](../../generator.html "cpp/coroutine/generator")(C++23)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/coroutine/navbar_content&action=edit)
+
 
 [Ranges library](../../../ranges.html "cpp/ranges")
 
@@ -340,7 +340,7 @@ std::from_range](../../../ranges/from_range.html "cpp/ranges/from range")(C++23)
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::generator`](../../generator.html "cpp/coroutine/generator")
 
@@ -368,7 +368,7 @@ std::from_range](../../../ranges/from_range.html "cpp/ranges/from range")(C++23)
 generator::_iterator_ ::operator++(int)](../iterator.html#increment "cpp/coroutine/generator/iterator")  
 [operator==(generator::_iterator_ , std::default_sentinel_t)](../iterator.html#compare "cpp/coroutine/generator/iterator")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/coroutine/generator/navbar_content&action=edit)
+
 
 auto final_suspend() noexcept; |  |  (since C++23)  
 ---|---|---  
@@ -383,6 +383,6 @@ Let x be some [generator](../../generator.html "cpp/coroutine/generator") object
 
 A handle referring to the coroutine whose promise object is *this must be at the top of *x.active_ of x. This function must be called by the coroutine upon reaching its final suspend point. Otherwise, the behavior is undefined. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/coroutine/generator/promise_type/final_suspend&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 An [awaitable object](../../../coroutine.html#co_await "cpp/coroutine") of unspecified type whose member functions are configured to suspend the calling coroutine. 

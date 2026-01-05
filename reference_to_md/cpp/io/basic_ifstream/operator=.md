@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -79,7 +79,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_ifstream`](../basic_ifstream.html "cpp/io/basic ifstream")
 
@@ -97,7 +97,7 @@ File operations
 Non-member functions  
 [swap(std::basic_ifstream)](swap2.html "cpp/io/basic ifstream/swap2")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ifstream/navbar_content&action=edit)
+
 
 basic_ifstream& operator=( basic_ifstream&& other ); |  |  (since C++11)  
 ---|---|---  
@@ -117,27 +117,27 @@ other is left with no associated file. Note that the base class move assignment 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_fstream/operator%3D&action=edit&section=T-1 "Template:cpp/io/basic fstream/operator=")] Parameters
+### Parameters
 
 other  |  \-  |  file stream to move   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_fstream/operator%3D&action=edit&section=T-2 "Template:cpp/io/basic fstream/operator=")] Return value
+### Return value
 
 *this
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_fstream/operator%3D&action=edit&section=T-3 "Template:cpp/io/basic fstream/operator=")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_fstream/operator%3D&action=edit&section=T-4 "Template:cpp/io/basic fstream/operator=")] See also
+### See also
 
 [ swap](swap.html "cpp/io/basic ifstream/swap")(C++11) |  swaps two file streams   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_fstream/dsc_swap&action=edit)  
+(public member function)   
 ---|---  
 [ operator=](../basic_filebuf/operator=.html "cpp/io/basic filebuf/operator=")(C++11) |  assigns a `basic_filebuf` object   
-(public member function of `std::basic_filebuf<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_filebuf/dsc_operator%3D&action=edit)  
+(public member function of `std::basic_filebuf<CharT,Traits>`)   
 [ operator=](../basic_istream/operator=.html "cpp/io/basic istream/operator=")(C++11) |  move-assigns from another `basic_istream`   
-(protected member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_istream/dsc_operator%3D&action=edit)
+(protected member function) 

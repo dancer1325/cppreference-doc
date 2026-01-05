@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](ranges/copy.html "cpp/algorithm/ra
 [uninitialized_default_construct_n](../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -345,7 +345,7 @@ These overloads participate in overload resolution only if all following conditi
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/unique&action=edit&section=1 "Edit section: Explanation")] Explanation
+### Explanation
 
 Removing is done by shifting the elements in the range in such a way that the elements that are not to be removed appear in the beginning of the range. 
 
@@ -369,7 +369,7 @@ Removing is done by shifting the elements in the range in such a way that the el
 | (since C++11)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/unique&action=edit&section=2 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  the pair of iterators defining the [range](../iterator.html#Ranges "cpp/iterator") of elements to process   
 ---|---|---  
@@ -381,11 +381,11 @@ Type requirements
 -`ForwardIt` must meet the requirements of [LegacyForwardIterator](../named_req/ForwardIterator.html "cpp/named req/ForwardIterator").   
 -The type of dereferenced `ForwardIt` must meet the requirements of [MoveAssignable](../named_req/MoveAssignable.html "cpp/named req/MoveAssignable").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/unique&action=edit&section=3 "Edit section: Return value")] Return value
+### Return value
 
 A `ForwardIt` to the new end of the range. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/unique&action=edit&section=4 "Edit section: Complexity")] Complexity
+### Complexity
 
 Given \\(\scriptsize N\\)N as [std::distance](../iterator/distance.html)(first, last): 
 
@@ -393,7 +393,7 @@ Given \\(\scriptsize N\\)N as [std::distance](../iterator/distance.html)(first, 
 
 3,4) Exactly \\(\scriptsize max(0,N-1)\\)max(0,N-1) applications of the predicate p.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/unique&action=edit&section=5 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 The overloads with a template parameter named `ExecutionPolicy` report errors as follows: 
 
@@ -402,7 +402,7 @@ The overloads with a template parameter named `ExecutionPolicy` report errors as
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/unique&action=edit&section=6 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
 
 See also the implementations in [libstdc++](https://github.com/gcc-mirror/gcc/blob/7f2f4b87910506effb8dffffc60eeb2451573126/libstdc%2B%2B-v3/include/bits/stl_algo.h#L919-L1000), [libc++](https://github.com/llvm/llvm-project/blob/5ba396011377bdf4086757d56cd48fc7d3c9f2ad/libcxx/include/__algorithm/unique.h), and [MSVC STL](https://github.com/microsoft/STL/blob/472161105d596192194d4715ccad307c6c163b4a/stl/inc/algorithm#L3804-L3848). 
 
@@ -441,11 +441,11 @@ See also the implementations in [libstdc++](https://github.com/gcc-mirror/gcc/bl
         return ++result;
     }  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/unique&action=edit&section=7 "Edit section: Notes")] Notes
+### Notes
 
 A call to `unique` is typically followed by a call to a container's `erase` member function to actually remove elements from the container. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/unique&action=edit&section=8 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -491,7 +491,7 @@ Output:
     @3: 1 1 2 3 4 4 5
     @4: 1 2 3 4 5
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/unique&action=edit&section=9 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -501,18 +501,18 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 compared using a non-equivalence relation  | the behavior is  
 undefined in this case   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/unique&action=edit&section=10 "Edit section: See also")] See also
+### See also
 
 [ adjacent_find](adjacent_find.html "cpp/algorithm/adjacent find") |  finds the first two adjacent items that are equal (or satisfy a given predicate)   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_adjacent_find&action=edit)  
+(function template)   
 ---|---  
 [ unique_copy](unique_copy.html "cpp/algorithm/unique copy") |  creates a copy of some range of elements that contains no consecutive duplicates   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_unique_copy&action=edit)  
+(function template)   
 [ removeremove_if](remove.html "cpp/algorithm/remove") |  removes elements satisfying specific criteria   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_remove&action=edit)  
+(function template)   
 [ unique](../container/list/unique.html "cpp/container/list/unique") |  removes consecutive duplicate elements   
-(public member function of `std::list<T,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_unique&action=edit)  
+(public member function of `std::list<T,Allocator>`)   
 [ unique](../container/forward_list/unique.html "cpp/container/forward list/unique") |  removes consecutive duplicate elements   
-(public member function of `std::forward_list<T,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_unique&action=edit)  
+(public member function of `std::forward_list<T,Allocator>`)   
 [ ranges::unique](ranges/unique.html "cpp/algorithm/ranges/unique")(C++20) |  removes consecutive duplicate elements in a range  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_unique&action=edit)
+(algorithm function object)

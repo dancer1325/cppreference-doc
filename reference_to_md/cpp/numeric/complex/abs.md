@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [`std::complex`](../complex.html "cpp/numeric/complex")
 
@@ -164,7 +164,7 @@
 [tuple_size<std::complex>](tuple_size.html "cpp/numeric/complex/tuple size")(C++26)  
 [tuple_element<std::complex>](tuple_element.html "cpp/numeric/complex/tuple element")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/navbar_content&action=edit)
+
 
 Defined in header `[<complex>](../../header/complex.html "cpp/header/complex")` |  |   
 ---|---|---  
@@ -184,18 +184,18 @@ Returns the magnitude of the complex number z.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/abs&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 z  |  \-  |  complex value   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/abs&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 If no errors occur, returns the absolute value (also known as norm, modulus, or magnitude) of z. 
 
 Errors and special cases are handled as if the function is implemented as [std::hypot](../math/hypot.html)([std::real](real2.html)(z), [std::imag](imag2.html)(z)). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/abs&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -215,24 +215,24 @@ Output:
     
     (1,1) cartesian is rho = 1.41421 theta = 0.785398 polar
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/abs&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ arg](arg.html "cpp/numeric/complex/arg") |  returns the phase angle   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_arg&action=edit)  
+(function template)   
 ---|---  
 [ polar](polar.html "cpp/numeric/complex/polar") |  constructs a complex number from magnitude and phase angle   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_polar&action=edit)  
+(function template)   
 [ abs(int)labsllabs](../math/abs.html "cpp/numeric/math/abs")(C++11) |  computes absolute value of an integral value (\\(\small{|x|}\\)|x|)   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_abs&action=edit)  
+(function)   
 [ abs(float)fabsfabsffabsl](../math/fabs.html "cpp/numeric/math/fabs")(C++11)(C++11) |  absolute value of a floating point value (\\(\small{|x|}\\)|x|)   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_fabs&action=edit)  
+(function)   
 [ hypothypotfhypotl](../math/hypot.html "cpp/numeric/math/hypot")(C++11)(C++11)(C++11) |  computes hypotenuse \\(\scriptsize{\sqrt{x^2+y^2}}\\)√x2  
 +y2  
 and \\(\scriptsize{\sqrt{x^2+y^2+z^2}}\\)√x2  
 +y2  
 +z2  
 (since C++17)   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_hypot&action=edit)  
+(function)   
 [ abs(std::valarray)](../valarray/abs.html "cpp/numeric/valarray/abs") |  applies the function abs to each element of valarray   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_abs&action=edit)  
+(function template)   
 [C documentation](../../../c/numeric/complex/cabs.html "c/numeric/complex/cabs") for cabs

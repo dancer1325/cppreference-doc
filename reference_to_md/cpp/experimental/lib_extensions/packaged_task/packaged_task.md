@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Library fundamentals](../../memory.html "cpp/experimental/lib extensions")
 
@@ -75,7 +75,7 @@
 [Type-erased and polymorphic allocators](../../memory.html "cpp/experimental/memory")  
 [Variable templates for type traits](../../type_trait_variable_templates.html "cpp/experimental/type trait variable templates")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions/navbar_content&action=edit)
+
 
 [Polymorphic allocator library](../../memory.html "cpp/experimental/memory")
 
@@ -98,7 +98,7 @@ Type-erased allocator support for existing classes
 [packaged_task](../packaged_task.html "cpp/experimental/lib extensions/packaged task")  
 [promise](../promise.html "cpp/experimental/lib extensions/promise")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions/pmr/navbar_content&action=edit)
+
 
 packaged_task() noexcept; |  (1)  |  (library fundamentals TS)  
 ---|---|---  
@@ -122,7 +122,7 @@ Constructs a new `std::experimental::packaged_task` object.
 
 5) Constructs a `std::experimental::packaged_task` with the shared state and task formerly owned by rhs, leaving rhs with no shared state and a moved-from task.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/type_erased_allocator&action=edit&section=T-1 "Template:cpp/experimental/type erased allocator")] Type-erased allocator 
+### Type-erased allocator 
 
 The constructors of `packaged_task` taking an allocator argument `alloc` treats that argument as a type-erased allocator. The memory resource pointer used by `packaged_task` to allocate memory is determined using the allocator argument (if specified) as follows: 
 
@@ -137,14 +137,14 @@ A specialization of
 Any other type meeting the [Allocator](../../../named_req/Allocator.html "cpp/named req/Allocator") requirements  |  A pointer to a value of type [std::experimental::pmr::resource_adaptor](../../resource_adaptor.html)<A>(alloc), where `A` is the type of `alloc`. The pointer remains valid only for the lifetime of the `packaged_task` object.   
 None of the above  |  The program is ill-formed.   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/lib_extensions/packaged_task/packaged_task&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 f  |  \-  |  the callable target (function, member function, lambda-expression, functor) to execute   
 ---|---|---  
 alloc  |  \-  |  the allocator to use when storing the task   
 rhs  |  \-  |  the `std::experimental::packaged_task` to move from   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/lib_extensions/packaged_task/packaged_task&action=edit&section=2 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 2,3) Any exceptions thrown by copy/move constructor of f and possiblly [std::bad_alloc](../../../memory/new/bad_alloc.html "cpp/memory/new/bad alloc") if the allocation fails.
 

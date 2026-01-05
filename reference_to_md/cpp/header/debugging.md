@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header is part of the [diagnostics](../error.html "cpp/error") library. 
 
@@ -202,13 +202,13 @@ This header is part of the [diagnostics](../error.html "cpp/error") library.
   
 ---  
 [ breakpoint](../utility/breakpoint.html "cpp/utility/breakpoint")(C++26) |  pauses the running program when called   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_breakpoint&action=edit)  
+(function)   
 [ breakpoint_if_debugging](../utility/breakpoint_if_debugging.html "cpp/utility/breakpoint if debugging")(C++26) |  calls std::breakpoint if std::is_debugger_present returns true   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_breakpoint_if_debugging&action=edit)  
+(function)   
 [ is_debugger_present](../utility/is_debugger_present.html "cpp/utility/is debugger present")(C++26) |  checks whether a program is running under the control of a debugger   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_is_debugger_present&action=edit)  
+(function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/debugging&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     // all freestanding

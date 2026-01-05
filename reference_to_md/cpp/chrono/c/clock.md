@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [C-style date and time utilities](../c.html "cpp/chrono/c")
 
@@ -128,7 +128,7 @@ Types
 [clock_t](clock_t.html "cpp/chrono/c/clock t")  
 [timespec](timespec.html "cpp/chrono/c/timespec")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/c/navbar_content&action=edit)
+
 
 Defined in header `[<ctime>](../../header/ctime.html "cpp/header/ctime")` |  |   
 ---|---|---  
@@ -152,7 +152,7 @@ Only the difference between two values returned by different calls to `std::cloc
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/c/clock&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 Processor time used by the program so far. 
 
@@ -161,17 +161,17 @@ Processor time used by the program so far.
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/c/clock&action=edit&section=2 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Throws nothing. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/c/clock&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 On POSIX-compatible systems, [`clock_gettime`](https://pubs.opengroup.org/onlinepubs/9799919799/functions/clock_getres.html) with clock id CLOCK_PROCESS_CPUTIME_ID offers better resolution. 
 
 The value returned by `clock()` may wrap around on some implementations. For example, on such an implementation, if [std::clock_t](clock_t.html "cpp/chrono/c/clock t") is a signed 32-bit integer and [CLOCKS_PER_SEC](CLOCKS_PER_SEC.html "cpp/chrono/c/CLOCKS PER SEC") is 1'000'000, it will wrap after about 2147 seconds (about 36 minutes). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/c/clock&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 This example demonstrates the difference between `clock()` time and real time.
 
@@ -216,11 +216,11 @@ Possible output:
     CPU time used: 1590.00ms
     Wall clock time passed: 808.23ms
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/c/clock&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ ctime](ctime.html "cpp/chrono/c/ctime") |  converts a [std::time_t](time_t.html "cpp/chrono/c/time t") object to a textual representation   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/c/dsc_ctime&action=edit)  
+(function)   
 ---|---  
 [ time](time.html "cpp/chrono/c/time") |  returns the current time of the system as time since epoch   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/c/dsc_time&action=edit)  
+(function)   
 [C documentation](../../../c/chrono/clock.html "c/chrono/clock") for clock

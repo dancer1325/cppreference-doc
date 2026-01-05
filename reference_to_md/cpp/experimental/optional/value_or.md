@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Library fundamentals](../memory.html "cpp/experimental/lib extensions")
 
@@ -75,7 +75,7 @@
 [Type-erased and polymorphic allocators](../memory.html "cpp/experimental/memory")  
 [Variable templates for type traits](../type_trait_variable_templates.html "cpp/experimental/type trait variable templates")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions/navbar_content&action=edit)
+
 
 [`std::experimental::optional`](../optional.html "cpp/experimental/optional")
 
@@ -105,7 +105,7 @@ Helper objects
 [nullopt](nullopt.html "cpp/experimental/optional/nullopt")  
 [in_place](in_place.html "cpp/experimental/optional/in place")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/optional/navbar_content&action=edit)
+
 
 template< class U >   
 constexpr T value_or( U&& default_value ) const&; |  |  (library fundamentals TS)  
@@ -131,7 +131,7 @@ Returns the contained value if *this has a value, otherwise returns default_valu
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/optional/value_or&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 default_value  |  \-  |  the value to use in case *this is empty   
 ---|---|---  
@@ -140,15 +140,15 @@ Type requirements
 -`T` must meet the requirements of [MoveConstructible](../../named_req/MoveConstructible.html "cpp/named req/MoveConstructible") in order to use overload (2).   
 -`U&&` must be convertible to `T`.   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/optional/value_or&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The current value if *this has a value, or default_value otherwise. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/optional/value_or&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Any exception thrown by the selected constructor of the return value `T`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/optional/value_or&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -175,8 +175,8 @@ Possible output:
     
     (none)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/optional/value_or&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ value](value.html "cpp/experimental/optional/value") |  returns the contained value   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/optional/dsc_value&action=edit)  
+(public member function)   
 ---|---

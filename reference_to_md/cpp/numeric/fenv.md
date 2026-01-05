@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 **Floating-point environment**
 
@@ -106,7 +106,7 @@ Macro constants
 [FE_DOWNWARDFE_TONEARESTFE_TOWARDZEROFE_UPWARD](fenv/FE_round.html "cpp/numeric/fenv/FE round")(C++11)(C++11)(C++11)(C++11)  
 [FE_DFL_ENV](fenv/FE_DFL_ENV.html "cpp/numeric/fenv/FE DFL ENV")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/fenv/navbar_content&action=edit)
+
 
 The floating-point environment is the set of floating-point status flags and control modes supported by the implementation. It is thread-local. Each thread inherits the initial state of its floating-point environment from the parent thread. Floating-point operations modify the floating-point status flags to indicate abnormal results or auxiliary information. The state of floating-point control modes affects the outcomes of some floating-point operations. 
 
@@ -123,46 +123,46 @@ The floating-point environment access and modification is only meaningful when [
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/fenv&action=edit&section=1 "Edit section: Types")] Types
+### Types
 
 Defined in header `[<cfenv>](../header/cfenv.html "cpp/header/cfenv")`  
 ---  
 fenv_t(C++11) |  the type representing the entire floating-point environment   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/fenv/dsc_fenv_t&action=edit)  
+(typedef)   
 fexcept_t(C++11) |  the type representing all floating-point status flags collectively   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/fenv/dsc_fexcept_t&action=edit)  
+(typedef)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/fenv&action=edit&section=2 "Edit section: Functions")] Functions
+### Functions
 
 [ feclearexcept](fenv/feclearexcept.html "cpp/numeric/fenv/feclearexcept")(C++11) |  clears the specified floating-point status flags   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/fenv/dsc_feclearexcept&action=edit)  
+(function)   
 ---|---  
 [ fetestexcept](fenv/fetestexcept.html "cpp/numeric/fenv/fetestexcept")(C++11) |  determines which of the specified floating-point status flags are set   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/fenv/dsc_fetestexcept&action=edit)  
+(function)   
 [ feraiseexcept](fenv/feraiseexcept.html "cpp/numeric/fenv/feraiseexcept")(C++11) |  raises the specified floating-point exceptions   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/fenv/dsc_feraiseexcept&action=edit)  
+(function)   
 [ fegetexceptflagfesetexceptflag](fenv/feexceptflag.html "cpp/numeric/fenv/feexceptflag")(C++11)(C++11) |  copies the state of the specified floating-point status flags from or to the floating-point environment   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/fenv/dsc_feexceptflag&action=edit)  
+(function)   
 [ fegetroundfesetround](fenv/feround.html "cpp/numeric/fenv/feround")(C++11)(C++11) |  gets or sets rounding direction   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/fenv/dsc_feround&action=edit)  
+(function)   
 [ fegetenvfesetenv](fenv/feenv.html "cpp/numeric/fenv/feenv")(C++11) |  saves or restores the current floating-point environment   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/fenv/dsc_feenv&action=edit)  
+(function)   
 [ feholdexcept](fenv/feholdexcept.html "cpp/numeric/fenv/feholdexcept")(C++11) |  saves the environment, clears all status flags and ignores all future errors   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/fenv/dsc_feholdexcept&action=edit)  
+(function)   
 [ feupdateenv](fenv/feupdateenv.html "cpp/numeric/fenv/feupdateenv")(C++11) |  restores the floating-point environment and raises the previously raised exceptions   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/fenv/dsc_feupdateenv&action=edit)  
+(function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/fenv&action=edit&section=3 "Edit section: Macros")] Macros
+### Macros
 
 [ FE_ALL_EXCEPTFE_DIVBYZEROFE_INEXACTFE_INVALIDFE_OVERFLOWFE_UNDERFLOW](fenv/FE_exceptions.html "cpp/numeric/fenv/FE exceptions")(C++11) |  floating-point exceptions   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/fenv/dsc_FE_exceptions&action=edit)  
+(macro constant)   
 ---|---  
 [ FE_DOWNWARDFE_TONEARESTFE_TOWARDZEROFE_UPWARD](fenv/FE_round.html "cpp/numeric/fenv/FE round")(C++11) |  floating-point rounding direction   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/fenv/dsc_FE_round&action=edit)  
+(macro constant)   
 [ FE_DFL_ENV](fenv/FE_DFL_ENV.html "cpp/numeric/fenv/FE DFL ENV")(C++11) |  default floating-point environment   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/fenv/dsc_FE_DFL_ENV&action=edit)  
+(macro constant)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/fenv&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 The floating-point exceptions are not related to the C++ exceptions. When a floating-point operation raises a floating-point exception, the status of the floating-point environment changes, which can be tested with [std::fetestexcept](fenv/fetestexcept.html "cpp/numeric/fenv/fetestexcept"), but the execution of a C++ program on most implementations continues uninterrupted. 
 
@@ -173,7 +173,7 @@ There are compiler extensions that may be used to generate C++ exceptions automa
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/fenv&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [C documentation](../../c/numeric/fenv.html "c/numeric/fenv") for Floating-point environment  
 ---

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](copy.html "cpp/algorithm/ranges/co
 [uninitialized_default_construct_n](../../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 [Constrained algorithms](../ranges.html "cpp/algorithm/ranges")
 
@@ -550,7 +550,7 @@ All names in this menu belong to namespace `std::ranges`
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -601,7 +601,7 @@ The function-like entities described on this page are [_algorithm function objec
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/inplace_merge&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first  |  \-  |  the beginning of the first sorted range   
 ---|---|---  
@@ -611,15 +611,15 @@ r  |  \-  |  the range of elements to merge inplace
 comp  |  \-  |  comparison to apply to the projected elements   
 proj  |  \-  |  projection to apply to the elements in the range   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/inplace_merge&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 An iterator equal to last. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/inplace_merge&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Exactly N − 1 comparisons, if additional memory buffer is available, where N = [ranges::distance](../../iterator/ranges/distance.html)(first, last). Otherwise, \\(\scriptsize \mathcal{O}(N\cdot\log{(N)})\\)𝓞(N•log(N)) comparisons. Additionally, twice as many projections as comparisons in both cases. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/inplace_merge&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 This function attempts to allocate a temporary buffer. If the allocation fails, the less efficient algorithm is chosen. 
 
@@ -627,7 +627,7 @@ This function attempts to allocate a temporary buffer. If the allocation fails, 
 ---|---|---|---  
 [`__cpp_lib_constexpr_algorithms`](../../experimental/feature_test.html#cpp_lib_constexpr_algorithms "cpp/feature test") | [`202306L`](../../compiler_support/26.html#cpp_lib_constexpr_algorithms_202306L "cpp/compiler support/26") | (C++26) | constexpr stable sorting   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/inplace_merge&action=edit&section=5 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
 
 This implementation only shows the slower algorithm used when no additional memory is available. See also the implementation in [MSVC STL](https://github.com/microsoft/STL/blob/e745bad3b1d05b5b19ec652d68abb37865ffa454/stl/inc/algorithm#L7131-L7235) and [libstdc++](https://github.com/gcc-mirror/gcc/blob/54258e22b0846aaa6bd3265f592feb161eecda75/libstdc%2B%2B-v3/include/bits/ranges_algo.h#L2573-L2602). 
     
@@ -705,7 +705,7 @@ This implementation only shows the slower algorithm used when no additional memo
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/inplace_merge&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -766,18 +766,18 @@ Output:
     (0,1) (0,2) (0,3) │ (1,1) (1,2) : before merge
     (0,1) (1,1) (0,2) (1,2) (0,3) : after merge
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/inplace_merge&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ ranges::merge](merge.html "cpp/algorithm/ranges/merge")(C++20) |  merges two sorted ranges  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_merge&action=edit)  
+(algorithm function object)  
 ---|---  
 [ ranges::set_union](set_union.html "cpp/algorithm/ranges/set union")(C++20) |  computes the union of two sets  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_set_union&action=edit)  
+(algorithm function object)  
 [ ranges::is_sorted](is_sorted.html "cpp/algorithm/ranges/is sorted")(C++20) |  checks whether a range is sorted into ascending order  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_is_sorted&action=edit)  
+(algorithm function object)  
 [ ranges::sort](sort.html "cpp/algorithm/ranges/sort")(C++20) |  sorts a range into ascending order  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_sort&action=edit)  
+(algorithm function object)  
 [ inplace_merge](../inplace_merge.html "cpp/algorithm/inplace merge") |  merges two ordered ranges in-place   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_inplace_merge&action=edit)
+(function template) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

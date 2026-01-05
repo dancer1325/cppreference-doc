@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](copy.html "cpp/algorithm/ranges/co
 [uninitialized_default_construct_n](../../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 [Constrained algorithms](../ranges.html "cpp/algorithm/ranges")
 
@@ -550,7 +550,7 @@ All names in this menu belong to namespace `std::ranges`
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -598,7 +598,7 @@ The function-like entities described on this page are [_algorithm function objec
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/search&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first1, last1  |  \-  |  the iterator-sentinel pair defining the [range](../../iterator.html#Ranges "cpp/iterator") of elements to examine (aka _haystack_)   
 ---|---|---  
@@ -609,7 +609,7 @@ pred  |  \-  |  binary predicate to apply to the projected elements
 proj1  |  \-  |  projection to apply to the elements in the first range   
 proj2  |  \-  |  projection to apply to the elements in the second range   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/search&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) Returns a [ranges::subrange](../../ranges/subrange.html) value that is the first occurrence of the sequence `[`first2`, `last2`)` (aka _needle_) in the range `[`first1`, `last1`)` (aka _haystack_), after application of the projections proj1 and proj2 to the elements of both sequences respectively with consequencing application of the binary predicate pred to compare projected elements. 
 
@@ -619,13 +619,13 @@ If the range to search for (aka _needle_) is empty, that is first2 == last2, the
 
 2) Same as (1) but the return type is [ranges::borrowed_subrange_t](../../ranges/borrowed_iterator_t.html)<R1>.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/search&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 At most `S * N` applications of the corresponding predicate and each projection, where   
 (1) S = [ranges::distance](../../iterator/ranges/distance.html)(first2, last2) and N = [ranges::distance](../../iterator/ranges/distance.html)(first1, last1);   
 (2) S = [ranges::distance](../../iterator/ranges/distance.html)(r2) and N = [ranges::distance](../../iterator/ranges/distance.html)(r1). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/search&action=edit&section=4 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     struct search_fn
@@ -675,7 +675,7 @@ At most `S * N` applications of the corresponding predicate and each projection,
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/search&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -748,24 +748,24 @@ Output:
     4) search("abcd abcd", "efg"); not found; subrange: {9, 9}
     5) search("abcd abcd", "234"); found: "bcd"; subrange: {1, 4}
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/search&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ ranges::adjacent_find](adjacent_find.html "cpp/algorithm/ranges/adjacent find")(C++20) |  finds the first two adjacent items that are equal (or satisfy a given predicate)  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_adjacent_find&action=edit)  
+(algorithm function object)  
 ---|---  
 [ ranges::findranges::find_ifranges::find_if_not](find.html "cpp/algorithm/ranges/find")(C++20)(C++20)(C++20) |  finds the first element satisfying specific criteria  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_find&action=edit)  
+(algorithm function object)  
 [ ranges::find_end](find_end.html "cpp/algorithm/ranges/find end")(C++20) |  finds the last sequence of elements in a certain range  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_find_end&action=edit)  
+(algorithm function object)  
 [ ranges::find_first_of](find_first_of.html "cpp/algorithm/ranges/find first of")(C++20) |  searches for any one of a set of elements  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_find_first_of&action=edit)  
+(algorithm function object)  
 [ ranges::containsranges::contains_subrange](contains.html "cpp/algorithm/ranges/contains")(C++23)(C++23) |  checks if the range contains the given element or subrange  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_contains&action=edit)  
+(algorithm function object)  
 [ ranges::includes](includes.html "cpp/algorithm/ranges/includes")(C++20) |  returns true if one sequence is a subsequence of another  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_includes&action=edit)  
+(algorithm function object)  
 [ ranges::mismatch](mismatch.html "cpp/algorithm/ranges/mismatch")(C++20) |  finds the first position where two ranges differ  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_mismatch&action=edit)  
+(algorithm function object)  
 [ ranges::search_n](search_n.html "cpp/algorithm/ranges/search n")(C++20) |  searches for the first occurrence of a number consecutive copies of an element in a range  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_search_n&action=edit)  
+(algorithm function object)  
 [ search](../search.html "cpp/algorithm/search") |  searches for the first occurrence of a range of elements   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_search&action=edit)
+(function template) 

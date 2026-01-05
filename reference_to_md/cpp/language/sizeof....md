@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Expressions](expressions.html "cpp/language/expressions")
 
@@ -289,7 +289,7 @@ Conversions
 [`dynamic_cast`](dynamic_cast.html "cpp/language/dynamic cast")  
 [`reinterpret_cast`](reinterpret_cast.html "cpp/language/reinterpret cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/expressions/navbar_content&action=edit)
+
 
 [ Templates](templates.html "cpp/language/templates")
 
@@ -313,7 +313,7 @@ Conversions
 [Constraints and concepts](constraints.html "cpp/language/constraints") (C++20)  
 [requires expression](requires.html "cpp/language/requires") (C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/templates/navbar_content&action=edit)
+
 
 Queries the number of elements in a [pack](parameter_pack.html "cpp/language/pack"). 
 
@@ -328,22 +328,22 @@ Queries the number of elements in a [pack](parameter_pack.html "cpp/language/pac
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/sizeof...&action=edit&section=1 "Edit section: Syntax")] Syntax  
+### Syntax  
   
 ---  
 `**sizeof...(**` pack `**)**` |  |   
   
 Returns a constant of type [std::size_t](../types/size_t.html "cpp/types/size t"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/sizeof...&action=edit&section=2 "Edit section: Explanation")] Explanation
+### Explanation
 
 Returns the number of elements in a [pack](parameter_pack.html "cpp/language/pack"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/sizeof...&action=edit&section=3 "Edit section: Keywords")] Keywords
+### Keywords
 
 [`sizeof`](../keyword/sizeof.html "cpp/keyword/sizeof")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/sizeof...&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -373,7 +373,7 @@ Output:
     
     arr = { 1, 2.71, 3.14, 42 }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/sizeof...&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
   * [`sizeof`](sizeof.html "cpp/language/sizeof")
 

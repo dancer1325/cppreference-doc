@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Function objects](../../../functional.html "cpp/utility/functional")
 
@@ -255,7 +255,7 @@ Identity function object
 [unary_negate](../unary_negate.html "cpp/utility/functional/unary negate")(until C++20*)  
 [binary_negate](../binary_negate.html "cpp/utility/functional/binary negate")(until C++20*)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/navbar_content&action=edit)
+
 
 [`std::move_only_function`](../move_only_function.html "cpp/utility/functional/move only function")
 
@@ -271,7 +271,7 @@ Identity function object
 [operator==](operator==.html "cpp/utility/functional/move only function/operator==")  
 [swap(std::move_only_function)](swap2.html "cpp/utility/functional/move only function/swap2")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/move_only_function/navbar_content&action=edit)
+
 
 move_only_function& operator=( move_only_function&& other ); |  (1)  |  (since C++23)  
 ---|---|---  
@@ -302,31 +302,31 @@ Assigns a new target to `std::move_only_function` or destroys its target.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/move_only_function/operator%3D&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 other  |  \-  |  another `std::move_only_function` object to move the target of   
 ---|---|---  
 f  |  \-  |  a callable object to initialize the new target with   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/move_only_function/operator%3D&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 *this
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/move_only_function/operator%3D&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 It is intentional not to require the move assignment operator to be noexcept to leave room for an allocator-aware `move_only_function` in future. 
 
 `move_only_function` can be assigned from [std::in_place_type](../../in_place.html)<Fn> given it can be constructed from that argument. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/move_only_function/operator%3D&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/move_only_function/operator%3D&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ operator=](../function/operator=.html "cpp/utility/functional/function/operator=") |  assigns a new target   
-(public member function of `std::function<R(Args...)>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/function/dsc_operator%3D&action=edit)  
+(public member function of `std::function<R(Args...)>`)   
 ---|---  
 ---

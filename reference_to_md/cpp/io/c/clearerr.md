@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [C-style I/O](../c.html "cpp/io/c")
 
@@ -176,7 +176,7 @@ Operations on files
 [tmpfile](tmpfile.html "cpp/io/c/tmpfile")  
 [tmpnam](tmpnam.html "cpp/io/c/tmpnam")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/navbar_content&action=edit)
+
 
 Defined in header `[<cstdio>](../../header/cstdio.html "cpp/header/cstdio")` |  |   
 ---|---|---  
@@ -195,16 +195,16 @@ Resets the error flags and the [`EOF`](../c.html#Macro_constants "cpp/io/c") ind
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/clearerr&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 stream  |  \-  |  the file to reset the error flags for   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/clearerr&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/clearerr&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -236,13 +236,13 @@ Output:
     End of file reached
     EOF indicator cleared
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/clearerr&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ feof](feof.html "cpp/io/c/feof") |  checks for the end-of-file   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_feof&action=edit)  
+(function)   
 ---|---  
 [ perror](perror.html "cpp/io/c/perror") |  displays a character string corresponding of the current error to [stderr](std_streams.html "cpp/io/c/std streams")   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_perror&action=edit)  
+(function)   
 [ ferror](ferror.html "cpp/io/c/ferror") |  checks for a file error   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_ferror&action=edit)  
+(function)   
 [C documentation](../../../c/io/clearerr.html "c/io/clearerr") for clearerr

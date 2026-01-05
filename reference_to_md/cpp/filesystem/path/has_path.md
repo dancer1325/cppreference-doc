@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Filesystem library](../../filesystem.html "cpp/filesystem")
 
@@ -100,7 +100,7 @@ filesystem::symlink_status](../status.html "cpp/filesystem/status")
 [filesystem::is_socket](../is_socket.html "cpp/filesystem/is socket")  
 [filesystem::is_symlink](../is_symlink.html "cpp/filesystem/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/navbar_content&action=edit)
+
 
 [`std::filesystem::path`](../path.html "cpp/filesystem/path")
 
@@ -169,7 +169,7 @@ filesystem::symlink_status](../status.html "cpp/filesystem/status")
 | [formatter<std::filesystem::path>](formatter.html "cpp/filesystem/path/formatter")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/path/navbar_content&action=edit)
+
 
 bool has_root_path() const; |  (1)  |  (since C++17)  
 ---|---|---  
@@ -211,26 +211,26 @@ Checks whether the path contains the corresponding path element.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/has_path&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/has_path&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 true if the corresponding path component is not empty, false otherwise. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/impldef_exception&action=edit&section=T-1 "Template:cpp/impldef exception")] Exceptions
+### Exceptions
 
 May throw implementation-defined exceptions. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/has_path&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/has_path&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ empty](empty.html "cpp/filesystem/path/empty") |  checks if the path is empty   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/path/dsc_empty&action=edit)  
+(public member function)   
 ---|---

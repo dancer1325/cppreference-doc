@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::bitset`](../bitset.html "cpp/utility/bitset")
 
@@ -167,7 +167,7 @@ Common vocabulary types
 [Helper classes](../bitset.html#Helper_classes "cpp/utility/bitset")  
 [std::hash](hash.html "cpp/utility/bitset/hash")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/bitset/navbar_content&action=edit)
+
 
 | (1) |   
 ---|---|---  
@@ -214,13 +214,13 @@ All template type arguments need to be provided because function templates canno
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/bitset/to_string&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 zero  |  \-  |  character to use to represent false  
 ---|---|---  
 one  |  \-  |  character to use to represent true  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/bitset/to_string&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) The converted string.
 
@@ -230,15 +230,15 @@ one  |  \-  |  character to use to represent true
 
 4) to_string<char, [std::char_traits](../../string/char_traits.html)<char>, [std::allocator](../../memory/allocator.html)<char>>(zero, one).
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/bitset/to_string&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 May throw [std::bad_alloc](../../memory/new/bad_alloc.html "cpp/memory/new/bad alloc") from the [std::basic_string](../../string/basic_string.html "cpp/string/basic string") constructor. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/bitset/to_string&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 Since C++11, functions templates can have default template arguments. [LWG issue 1113](https://cplusplus.github.io/LWG/issue1113) removed the helper overloads ([2-4](to_string.html#Version_2)) and added the corresponding default template arguments in ([1](to_string.html#Version_1)). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/bitset/to_string&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -261,7 +261,7 @@ Output:
     **1*1*1*
     OOXOXOXO
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/bitset/to_string&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -274,10 +274,10 @@ values for these characters
 [LWG 853](https://cplusplus.github.io/LWG/issue853) | C++98  | overloads ([2-4](to_string.html#Version_2)) did not have the default  
 arguments added by [LWG issue 396](https://cplusplus.github.io/LWG/issue396) | also added   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/bitset/to_string&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ to_ulong](to_ulong.html "cpp/utility/bitset/to ulong") |  returns an unsigned long integer representation of the data   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/bitset/dsc_to_ulong&action=edit)  
+(public member function)   
 ---|---  
 [ to_ullong](to_ullong.html "cpp/utility/bitset/to ullong")(C++11) |  returns an unsigned long long integer representation of the data   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/bitset/dsc_to_ullong&action=edit)
+(public member function) 

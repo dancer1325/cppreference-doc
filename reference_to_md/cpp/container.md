@@ -30,7 +30,7 @@
 [Symbols index](symbol_index.html "cpp/symbol index")  
 [External libraries](links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 **Containers library**
 
@@ -71,7 +71,7 @@ Tables
 [Member function table](container.html#Member_function_table "cpp/container")  
 [Non-member function table](container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 The Containers library is a generic collection of class templates and algorithms that allow programmers to easily implement common data structures like queues, lists and stacks. There are two(until C++11)three(since C++11) classes of containers: 
 
@@ -109,85 +109,85 @@ Most containers have at least several member functions in common, and share func
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container&action=edit&section=1 "Edit section: Sequence containers")] Sequence containers
+### Sequence containers
 
 Sequence containers implement data structures which can be accessed sequentially. 
 
 [ array](container/array.html "cpp/container/array")(C++11) |  fixed-sized inplace contiguous array   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_array&action=edit)  
+(class template)   
 ---|---  
 [ vector](container/vector.html "cpp/container/vector") |  resizable contiguous array   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_vector&action=edit)  
+(class template)   
 [ inplace_vector](container/inplace_vector.html "cpp/container/inplace vector")(C++26) |  resizable, fixed capacity, inplace contiguous array   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_inplace_vector&action=edit)  
+(class template)   
 [ hive](https://en.cppreference.com/mwiki/index.php?title=cpp/container/hive&action=edit&redlink=1 "cpp/container/hive \(page does not exist\)")(C++26) |  collection that reuses erased elements' memory   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_hive&action=edit)  
+(class template)   
 [ deque](container/deque.html "cpp/container/deque") |  double-ended queue   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_deque&action=edit)  
+(class template)   
 [ forward_list](container/forward_list.html "cpp/container/forward list")(C++11) |  singly-linked list   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_forward_list&action=edit)  
+(class template)   
 [ list](container/list.html "cpp/container/list") |  doubly-linked list   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_list&action=edit)  
+(class template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container&action=edit&section=2 "Edit section: Associative containers")] Associative containers
+### Associative containers
 
 Associative containers implement sorted data structures that can be quickly searched (O(log n) complexity). 
 
 [ set](container/set.html "cpp/container/set") |  collection of unique keys, sorted by keys   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_set&action=edit)  
+(class template)   
 ---|---  
 [ map](container/map.html "cpp/container/map") |  collection of key-value pairs, sorted by keys, keys are unique   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_map&action=edit)  
+(class template)   
 [ multiset](container/multiset.html "cpp/container/multiset") |  collection of keys, sorted by keys   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_multiset&action=edit)  
+(class template)   
 [ multimap](container/multimap.html "cpp/container/multimap") |  collection of key-value pairs, sorted by keys   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_multimap&action=edit)  
+(class template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container&action=edit&section=3 "Edit section: Unordered associative containers \(since C++11\)")] Unordered associative containers (since C++11)
+### Unordered associative containers (since C++11)
 
 Unordered associative containers implement unsorted (hashed) data structures that can be quickly searched (O(1) average, O(n) worst-case complexity). 
 
 [ unordered_set](container/unordered_set.html "cpp/container/unordered set")(C++11) |  collection of unique keys, hashed by keys   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_unordered_set&action=edit)  
+(class template)   
 ---|---  
 [ unordered_map](container/unordered_map.html "cpp/container/unordered map")(C++11) |  collection of key-value pairs, hashed by keys, keys are unique   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_unordered_map&action=edit)  
+(class template)   
 [ unordered_multiset](container/unordered_multiset.html "cpp/container/unordered multiset")(C++11) |  collection of keys, hashed by keys   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_unordered_multiset&action=edit)  
+(class template)   
 [ unordered_multimap](container/unordered_multimap.html "cpp/container/unordered multimap")(C++11) |  collection of key-value pairs, hashed by keys   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_unordered_multimap&action=edit)  
+(class template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container&action=edit&section=4 "Edit section: Container adaptors")] Container adaptors
+### Container adaptors
 
 Container adaptors provide a different interface for sequential containers. 
 
 [ stack](container/stack.html "cpp/container/stack") |  adapts a container to provide stack (LIFO data structure)   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_stack&action=edit)  
+(class template)   
 ---|---  
 [ queue](container/queue.html "cpp/container/queue") |  adapts a container to provide queue (FIFO data structure)   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_queue&action=edit)  
+(class template)   
 [ priority_queue](container/priority_queue.html "cpp/container/priority queue") |  adapts a container to provide priority queue   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_priority_queue&action=edit)  
+(class template)   
 [ flat_set](container/flat_set.html "cpp/container/flat set")(C++23) |  adapts a container to provide a collection of unique keys, sorted by keys   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_flat_set&action=edit)  
+(class template)   
 [ flat_map](container/flat_map.html "cpp/container/flat map")(C++23) |  adapts two containers to provide a collection of key-value pairs, sorted by unique keys   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_flat_map&action=edit)  
+(class template)   
 [ flat_multiset](container/flat_multiset.html "cpp/container/flat multiset")(C++23) |  adapts a container to provide a collection of keys, sorted by keys   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_flat_multiset&action=edit)  
+(class template)   
 [ flat_multimap](container/flat_multimap.html "cpp/container/flat multimap")(C++23) |  adapts two containers to provide a collection of key-value pairs, sorted by keys   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_flat_multimap&action=edit)  
+(class template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container&action=edit&section=5 "Edit section: Views \(since C++20\)")] Views (since C++20)
+### Views (since C++20)
 
 Views provide flexible facilities for interacting with one- or multi-dimensional views over a non-owning array of elements. 
 
 [ span](container/span.html "cpp/container/span")(C++20) |  a non-owning view over a contiguous sequence of objects   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_span&action=edit)  
+(class template)   
 ---|---  
 [ mdspan](container/mdspan.html "cpp/container/mdspan")(C++23) |  a multi-dimensional non-owning array view   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_mdspan&action=edit)  
+(class template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container&action=edit&section=6 "Edit section: Iterator invalidation")] Iterator invalidation
+### Iterator invalidation
 
 Read-only methods never [invalidate](iterator.html#Dereferceability_and_validity "cpp/iterator") iterators or references. Methods which modify the contents of a container may invalidate iterators and/or references, as summarized in this table. 
 
@@ -256,7 +256,7 @@ There is one exception: an erasure which deletes the last element of a [std::deq
 | (since C++11)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container&action=edit&section=8 "Edit section: Function table")] Function table
+### Function table
 
 Note: [std::basic_string](string/basic_string.html "cpp/string/basic string") is not treated as a container by the standard but behaves much like one due to its similarity. It is listed as 'Pseudo container' here for convenience. 
 
@@ -270,7 +270,7 @@ Note: [std::basic_string](string/basic_string.html "cpp/string/basic string") is
 Reason: Add C++26 "color" and fill member/non-member function table for std::inplace_vector  
 ---|---  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container&action=edit&section=9 "Edit section: Member function table")] Member function table
+#### Member function table
 
 | Pseudo container  | Sequence containers  | Associative containers  | Unordered associative containers  | Container adaptors  |   
 ---|---|---|---|---|---|---  
@@ -1402,7 +1402,7 @@ Header  | `[`<string>`](header/string.html "cpp/header/string")` | `[`<array>`](
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container&action=edit&section=10 "Edit section: Non-member function table")] Non-member function table
+#### Non-member function table
 
 | Pseudo container  | Sequence containers  | Associative containers  | Unordered associative containers  | Container adaptors  |   
 ---|---|---|---|---|---|---  
@@ -1661,7 +1661,7 @@ Header  | `[`<string>`](header/string.html "cpp/header/string")` | `[`<array>`](
 The `<`, `<=`, `>`, `>=`, and `!=` operators are [synthesized](language/operators.html#Comparison_operators "cpp/language/operators") from operator<=> and operator== respectively.  | (since C++20)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container&action=edit&section=11 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -1671,7 +1671,7 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 by arbitrary library operation  | they are only invalidated  
 when specified   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container&action=edit&section=12 "Edit section: See also")] See also
+### See also
 
 C++ named requirements: 
 
@@ -1684,9 +1684,9 @@ C++ named requirements:
   * [UnorderedAssociativeContainer](named_req/UnorderedAssociativeContainer.html "cpp/named req/UnorderedAssociativeContainer")
 
 [ valarray](numeric/valarray.html "cpp/numeric/valarray") |  numeric arrays, array masks and array slices   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/dsc_valarray&action=edit)  
+(class template)   
 ---|---  
 [ basic_string](string/basic_string.html "cpp/string/basic string") |  stores and manipulates sequences of characters   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/dsc_basic_string&action=edit)  
+(class template)   
 [ basic_string_view](string/basic_string_view.html "cpp/string/basic string view")(C++17) |  read-only string view   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/dsc_basic_string_view&action=edit)
+(class template) 

@@ -30,7 +30,7 @@
 [Symbols index](symbol_index.html "cpp/symbol index")  
 [External libraries](links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](language/history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Basic Concepts](language/basics.html "cpp/language/basic concepts")
 
@@ -249,7 +249,7 @@ Miscellaneous
 [Modules](language/modules.html "cpp/language/modules") (C++20)  
 [Contracts](language/contracts.html "cpp/language/contracts") (C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/basics/navbar_content&action=edit)
+
 
 Comments serve as a sort of in-code documentation. When inserted into a program, they are effectively ignored by the compiler; they are solely intended to be used as notes by the humans that read source code. Although specific documentation is not part of the C++ standard, several utilities exist that parse comments with different documentation formats. 
 
@@ -265,7 +265,7 @@ Comments serve as a sort of in-code documentation. When inserted into a program,
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/comment&action=edit&section=1 "Edit section: Syntax")] Syntax  
+### Syntax  
   
 ---  
 `**/***` comment `***/**` |  (1)  |   
@@ -277,15 +277,15 @@ Comments serve as a sort of in-code documentation. When inserted into a program,
 
 All comments are removed from the program at [translation phase 3](language/translation_phases.html#Phase_3 "cpp/language/translation phases") by replacing each comment with a single whitespace character. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/comment&action=edit&section=2 "Edit section: C-style")] C-style
+### C-style
 
 C-style comments are usually used to comment large blocks of text, however, they can be used to comment single lines. To insert a C-style comment, simply surround text with `**/***` and `***/**`; this will cause the contents of the comment to be ignored by the compiler. Although it is not part of the C++ standard, `**/****` and `***/**` are often used to indicate documentation blocks; this is legal because the second asterisk is simply treated as part of the comment. C-style comments cannot be nested. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/comment&action=edit&section=3 "Edit section: C++-style")] C++-style
+### C++-style
 
 C++-style comments are usually used to comment single lines, however, multiple C++-style comments can be placed together to form multi-line comments. C++-style comments tell the compiler to ignore all content between `**//**` and a new line. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/comment&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 Because comments [are removed](language/translation_phases.html#Phase_3 "cpp/language/translation phases") before the preprocessor stage, a macro cannot be used to form a comment and an unterminated C-style comment doesn't spill over from an #include'd file. 
 
@@ -304,7 +304,7 @@ and
         [std::cout](io/cout.html) << "this will not be executed\n";
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/comment&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -345,7 +345,7 @@ Output:
     
     1 hello world
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/comment&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [C documentation](../c/comment.html "c/comment") for comment  
 ---

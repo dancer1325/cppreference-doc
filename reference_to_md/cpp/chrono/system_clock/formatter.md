@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -103,7 +103,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::system_clock`](../system_clock.html "cpp/chrono/system clock")
 
@@ -117,7 +117,7 @@ Time point I/O
 **formatter <std::chrono::sys_time>**  
 [from_stream](from_stream.html "cpp/chrono/system clock/from stream")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/system_clock/navbar_content&action=edit)
+
 
 Defined in header `[<chrono>](../../header/chrono.html "cpp/header/chrono")` |  |   
 ---|---|---  
@@ -144,7 +144,7 @@ The [std::formatter](../../utility/format/formatter.html "cpp/utility/format/for
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/clock_time_formatter&action=edit&section=T-1 "Template:cpp/chrono/clock time formatter")] Format specification
+### Format specification
 
 The format specification has the form   
   
@@ -257,7 +257,7 @@ Duration count
 `%Q` |  Writes the count of ticks of the duration, i.e. the value obtained via [`count()`](../duration/count.html "cpp/chrono/duration/count").   
 `%q` |  Writes the unit suffix of the duration, as specified in [`operator<<()`](../duration/operator_ltlt.html "cpp/chrono/duration/operator ltlt").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/clock_time_formatter&action=edit&section=T-2 "Template:cpp/chrono/clock time formatter")] Example
+### Example
 
 Run this code
     
@@ -279,7 +279,7 @@ Output:
     
     The time of the Unix epoch was 1970-01-01T00:00+0000.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/clock_time_formatter&action=edit&section=T-3 "Template:cpp/chrono/clock time formatter")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -287,8 +287,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [P2372R3](https://wg21.link/P2372R3) | C++20  | `formatter` used the global locale or passed locale  | default "C" locale is used when `**L**` is absent   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/clock_time_formatter&action=edit&section=T-4 "Template:cpp/chrono/clock time formatter")] See also
+### See also
 
 [ format](../../utility/format/format.html "cpp/utility/format/format")(C++20) |  stores formatted representation of the arguments in a new string   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/dsc_format&action=edit)  
+(function template)   
 ---|---

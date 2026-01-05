@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Diagnostics library](../../error.html "cpp/error")
 
@@ -89,7 +89,7 @@ Exception handling failures
 [breakpoint_if_debugging](../breakpoint_if_debugging.html "cpp/utility/breakpoint if debugging")(C++26)  
 [breakpoint](../breakpoint.html "cpp/utility/breakpoint")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/navbar_content&action=edit)
+
 
 [`std::basic_stacktrace`](../basic_stacktrace.html "cpp/utility/basic stacktrace")
 
@@ -124,7 +124,7 @@ operator<=>](operator_cmp.html "cpp/utility/basic stacktrace/operator cmp")
 [hash<std::basic_stacktrace>](hash.html "cpp/utility/basic stacktrace/hash")  
 [formatter<std::basic_stacktrace>](formatter.html "cpp/utility/basic stacktrace/formatter")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/basic_stacktrace/navbar_content&action=edit)
+
 
 basic_stacktrace() noexcept(/* see below */); |  (1)  |  (since C++23)  
 ---|---|---  
@@ -164,13 +164,13 @@ Constructs an empty `basic_stacktrace`, or copy/move from other.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/basic_stacktrace/basic_stacktrace&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 alloc  |  \-  |  allocator to use for all memory allocations of the constructed `basic_stacktrace`  
 ---|---|---  
 other  |  \-  |  another `basic_stacktrace` to copy/move from   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/basic_stacktrace/basic_stacktrace&action=edit&section=2 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 1)
 
@@ -180,7 +180,7 @@ noexcept([std::is_nothrow_default_constructible_v](../../types/is_default_constr
 
 3,5,6) May propagate the exception thrown on allocation failure.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/basic_stacktrace/basic_stacktrace&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 1,2) Constant.
 
@@ -192,20 +192,20 @@ noexcept([std::is_nothrow_default_constructible_v](../../types/is_default_constr
 
 6) Linear in size of other if alloc != other.get_allocator(), otherwise constant.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/basic_stacktrace/basic_stacktrace&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 After container move construction (overload ([4](basic_stacktrace.html#Version_4))), references, pointers, and iterators (other than the end iterator) to other remain valid, but refer to elements that are now in *this. The current standard makes this guarantee via the blanket statement in [[container.reqmts]/67](https://eel.is/c++draft/container.reqmts#67), and a more direct guarantee is under consideration via [LWG issue 2321](https://cplusplus.github.io/LWG/issue2321). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/basic_stacktrace/basic_stacktrace&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/basic_stacktrace/basic_stacktrace&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ operator=](operator=.html "cpp/utility/basic stacktrace/operator=") |  assigns to the `basic_stacktrace`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/basic_stacktrace/dsc_operator%3D&action=edit)  
+(public member function)   
 ---|---  
 [ current](current.html "cpp/utility/basic stacktrace/current")[static] |  obtains the current stacktrace or its given part   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/basic_stacktrace/dsc_current&action=edit)
+(public static member function) 

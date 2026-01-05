@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::flat_map`](../flat_map.html "cpp/container/flat map")
 
@@ -143,7 +143,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/flat map/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/flat_map/navbar_content&action=edit)
+
 
 iterator find( const Key& key ); |  (1) | (since C++23)   
 (constexpr since C++26)  
@@ -175,21 +175,21 @@ This overload participates in overload resolution only if `Compare` is [transpar
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/find&action=edit&section=T-1 "Template:cpp/container/find")] Parameters
+### Parameters
 
 key  |  \-  |  key value of the element to search for   
 ---|---|---  
 x  |  \-  |  a value of any type that can be transparently compared with a key   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/find&action=edit&section=T-2 "Template:cpp/container/find")] Return value
+### Return value
 
 An iterator to the requested element. If no such element is found, past-the-end (see end()) iterator is returned. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/find&action=edit&section=T-3 "Template:cpp/container/find")] Complexity
+### Complexity
 
 Logarithmic in the size of the container. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/find&action=edit&section=T-5 "Template:cpp/container/find")] Example
+### Example
 
 Run this code
     
@@ -255,14 +255,14 @@ Output:
     Found 2 b
     Found 2 b
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/find&action=edit&section=T-6 "Template:cpp/container/find")] See also
+### See also
 
 [ at](at.html "cpp/container/flat map/at") |  access specified element with bounds checking   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_at&action=edit)  
+(public member function)   
 ---|---  
 [ operator[]](operator_at.html "cpp/container/flat map/operator at") |  access or insert specified element   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_operator_at&action=edit)  
+(public member function)   
 [ count](count.html "cpp/container/flat map/count") |  returns the number of elements matching specific key   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_count&action=edit)  
+(public member function)   
 [ equal_range](equal_range.html "cpp/container/flat map/equal range") |  returns range of elements matching a specific key   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_equal_range&action=edit)
+(public member function) 

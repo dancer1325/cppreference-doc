@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 Defined in header `[<ranges>](../header/ranges.html "cpp/header/ranges")` |  |   
 ---|---|---  
@@ -273,7 +273,7 @@ The return type models [std::input_or_output_iterator](../iterator/input_or_outp
 
 The name `ranges::cbegin` denotes a _customization point object_ , which is a const [function object](../named_req/FunctionObject.html "cpp/named req/FunctionObject") of a [literal](../named_req/LiteralType.html "cpp/named req/LiteralType") [`semiregular`](../concepts/semiregular.html "cpp/concepts/semiregular") class type. See [CustomizationPointObject](../named_req/CustomizationPointObject.html "cpp/named req/CustomizationPointObject") for details. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/cbegin&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 For an lvalue range e of type T, ranges::cbegin(e) is equivalent to 
 
@@ -286,7 +286,7 @@ For an lvalue range e of type T, ranges::cbegin(e) is equivalent to
 
 | (since C++23)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/cbegin&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -310,10 +310,10 @@ Run this code
         // *ai = 13; // Error: read-only variable is not assignable
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/cbegin&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ ranges::begin](begin.html "cpp/ranges/begin")(C++20) |  returns an iterator to the beginning of a range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_begin&action=edit)  
+(customization point object)  
 ---|---  
 [ begincbegin](../iterator/begin.html "cpp/iterator/begin")(C++11)(C++14) |  returns an iterator to the beginning of a container or array   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_begin&action=edit)
+(function template) 

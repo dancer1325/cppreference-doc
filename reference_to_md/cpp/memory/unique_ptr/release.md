@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::unique_ptr`](../unique_ptr.html "cpp/memory/unique ptr")
 
@@ -211,7 +211,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
 [Helper classes](../unique_ptr.html#Helper_classes "cpp/memory/unique ptr")  
 [hash<std::unique_ptr>](hash.html "cpp/memory/unique ptr/hash")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/unique_ptr/navbar_content&action=edit)
+
 
 pointer release() noexcept; |  |  (since C++11)   
 (constexpr since C++23)  
@@ -234,15 +234,15 @@ The caller is responsible for cleaning up the object (e.g. by use of [get_delete
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/unique_ptr/release&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/unique_ptr/release&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Pointer to the managed object or nullptr if there was no managed object, i.e. the value which would be returned by [get()](get.html "cpp/memory/unique ptr/get") before the call. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/unique_ptr/release&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -283,12 +283,12 @@ Output:
     legacy_api
     ~Foo
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/unique_ptr/release&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ get](get.html "cpp/memory/unique ptr/get") |  returns a pointer to the managed object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/unique_ptr/dsc_get&action=edit)  
+(public member function)   
 ---|---  
 [ get_deleter](get_deleter.html "cpp/memory/unique ptr/get deleter") |  returns the deleter that is used for destruction of the managed object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/unique_ptr/dsc_get_deleter&action=edit)  
+(public member function)   
 [ reset](reset.html "cpp/memory/unique ptr/reset") |  replaces the managed object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/unique_ptr/dsc_reset&action=edit)
+(public member function) 

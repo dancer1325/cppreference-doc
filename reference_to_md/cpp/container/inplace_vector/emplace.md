@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -71,7 +71,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::inplace_vector`](../inplace_vector.html "cpp/container/inplace vector")
 
@@ -132,7 +132,7 @@ Tables
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/inplace_vector/navbar_content&action=edit)
+
 
 template< class... Args >  
 constexpr iterator emplace( const_iterator position, Args&&... args ); |  |  (since C++26)  
@@ -156,7 +156,7 @@ Inserts a new element into the container directly before pos. Typically, the ele
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/inplace_vector/emplace&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 pos  |  \-  |  iterator before which the new element will be constructed   
 ---|---|---  
@@ -164,21 +164,21 @@ args  |  \-  |  arguments to forward to the constructor of the element
 Type requirements   
 -`T` must meet the requirements of [MoveAssignable](../../named_req/MoveAssignable.html "cpp/named req/MoveAssignable"), [MoveInsertable](../../named_req/MoveInsertable.html "cpp/named req/MoveInsertable") and [EmplaceConstructible](../../named_req/EmplaceConstructible.html "cpp/named req/EmplaceConstructible").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/inplace_vector/emplace&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 An iterator to the inserted element. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/inplace_vector/emplace&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Linear in the distance between pos and end(). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/inplace_vector/emplace&action=edit&section=4 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Throws [std::bad_alloc](../../memory/new/bad_alloc.html "cpp/memory/new/bad alloc") if before the invocation size() == capacity(). The function has no effects ([strong exception safety guarantee](../../language/exceptions.html#Exception_safety "cpp/language/exceptions")). 
 
 Any exception thrown by initialization of inserted element or by any [LegacyInputIterator](../../named_req/InputIterator.html "cpp/named req/InputIterator") operation. Elements in `[`​0​`, `pos`)` are not modified. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/inplace_vector/emplace&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -213,10 +213,10 @@ Possible output:
     
     std::bad_alloc
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/inplace_vector/emplace&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ insert](insert.html "cpp/container/inplace vector/insert") |  inserts elements   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_insert&action=edit)  
+(public member function)   
 ---|---  
 [ emplace_back](emplace_back.html "cpp/container/inplace vector/emplace back") |  constructs an element in-place at the end   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_emplace_back&action=edit)
+(public member function) 

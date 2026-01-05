@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](iostream_category.html "cpp/io/iostream category")(C++11)  
 **io_errc**(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 **`std::io_errc`**
 
@@ -88,7 +88,7 @@ Non-member functions
 Helper classes  
 [is_error_code_enum<std::io_errc>](io_errc/is_error_code_enum.html "cpp/io/io errc/is error code enum")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/io_errc/navbar_content&action=edit)
+
 
 Defined in header `[<ios>](../header/ios.html "cpp/header/ios")` |  |   
 ---|---|---  
@@ -110,27 +110,27 @@ The scoped enumeration `std::io_errc` defines the error codes reported by I/O st
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/io_errc&action=edit&section=1 "Edit section: Member constants")] Member constants
+### Member constants
 
 Enumeration constant  |  Value   
 ---|---  
 `stream` |  1  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/io_errc&action=edit&section=2 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ make_error_code(std::io_errc)](io_errc/make_error_code.html "cpp/io/io errc/make error code")(C++11) |  constructs an iostream error code   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/io_errc/dsc_make_error_code&action=edit)  
+(function)   
 ---|---  
 [ make_error_condition(std::io_errc)](io_errc/make_error_condition.html "cpp/io/io errc/make error condition")(C++11) |  constructs an iostream error condition   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/io_errc/dsc_make_error_condition&action=edit)  
+(function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/io_errc&action=edit&section=3 "Edit section: Helper classes")] Helper classes
+### Helper classes
 
 [ is_error_code_enum<std::io_errc>](io_errc/is_error_code_enum.html "cpp/io/io errc/is error code enum")(C++11) |  extends the type trait [std::is_error_code_enum](../error/error_code/is_error_code_enum.html "cpp/error/error code/is error code enum") to identify iostream error codes   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/io_errc/dsc_is_error_code_enum&action=edit)  
+(class template specialization)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/io_errc&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -159,12 +159,12 @@ Output:
     Caught an ios_base::failure.
     The error code is std::io_errc::stream
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/io_errc&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ error_code](../error/error_code.html "cpp/error/error code")(C++11) |  holds a platform-dependent error code   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_error_code&action=edit)  
+(class)   
 ---|---  
 [ error_condition](../error/error_condition.html "cpp/error/error condition")(C++11) |  holds a portable error code   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_error_condition&action=edit)  
+(class)   
 [ failure](ios_base/failure.html "cpp/io/ios base/failure") |  stream exception   
-(public member class of `std::ios_base`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/ios_base/dsc_failure&action=edit)
+(public member class of `std::ios_base`) 

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -71,7 +71,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::array`](../array.html "cpp/container/array")
 
@@ -127,7 +127,7 @@ Tables
 [tuple_element<std::array>](tuple_element.html "cpp/container/array/tuple element")  
 **Deduction guides** (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/array/navbar_content&action=edit)
+
 
 Defined in header `[<array>](../../header/array.html "cpp/header/array")` |  |   
 ---|---|---  
@@ -139,7 +139,7 @@ One [deduction guide](../../language/ctad.html "cpp/language/class template argu
 
 The program is ill-formed if ([std::is_same_v](../../types/is_same.html)<T, U> && ...) is not true. Note that ([std::is_same_v](../../types/is_same.html)<T, U> && ...) is true when sizeof...(U) is zero. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/array/deduction_guides&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
 Run this code
     

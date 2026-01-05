@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::variant`](../variant.html "cpp/utility/variant")
 
@@ -161,7 +161,7 @@ Common vocabulary types
 [Helper objects](../variant.html#Helper_objects "cpp/utility/variant")  
 [variant_npos](variant_npos.html "cpp/utility/variant/variant npos")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variant/navbar_content&action=edit)
+
 
 Defined in header `[<variant>](../../header/variant.html "cpp/header/variant")` |  |   
 ---|---|---  
@@ -196,22 +196,22 @@ get_if( const [std::variant](../variant.html)<Types...>* pv ) noexcept; |  |
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variant/get_if&action=edit&section=1 "Edit section: Template parameters")] Template parameters
+### Template parameters
 
 I  |  \-  |  index to look up   
 ---|---|---  
 Type  |  \-  |  unique type to look up   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variant/get_if&action=edit&section=2 "Edit section: Parameters")] Parameters
+### Parameters
 
 pv  |  \-  |  pointer to a variant   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variant/get_if&action=edit&section=3 "Edit section: Return value")] Return value
+### Return value
 
 Pointer to the value stored in the pointed-to variant or null pointer on error. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variant/get_if&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -240,8 +240,8 @@ Output:
     variant value: 12
     failed to get value!
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variant/get_if&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ get(std::variant)](get.html "cpp/utility/variant/get")(C++17) |  reads the value of the variant given the index or the type (if the type is unique), throws on error   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variant/dsc_get&action=edit)  
+(function template)   
 ---|---

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Coroutine support](../coroutine.html "cpp/coroutine")
 
@@ -146,7 +146,7 @@ Trivial awaitables
 Range generators  
 [generator](generator.html "cpp/coroutine/generator")(C++23)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/coroutine/navbar_content&action=edit)
+
 
 Defined in header `[<coroutine>](../header/coroutine.html "cpp/header/coroutine")` |  |   
 ---|---|---  
@@ -169,19 +169,19 @@ Determines the promise type from the return type and parameter types of a corout
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/coroutine/coroutine_traits&action=edit&section=1 "Edit section: Template parameters")] Template parameters
+### Template parameters
 
 R  |  \-  |  return type of the coroutine   
 ---|---|---  
 Args  |  \-  |  parameter types of the coroutine, including the [implicit object parameter](../language/member_functions.html#ref-qualified_member_functions "cpp/language/member functions") if the coroutine is a non-static member function   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/coroutine/coroutine_traits&action=edit&section=2 "Edit section: Nested types")] Nested types
+### Nested types
 
 Name  |  Definition   
 ---|---  
 `promise_type` |  `R::promise_type` if it is valid, or provided by program-defined specializations   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/coroutine/coroutine_traits&action=edit&section=3 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     namespace detail {
@@ -201,7 +201,7 @@ Name  |  Definition
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/coroutine/coroutine_traits&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 If the coroutine is a non-static member function, then the first type in `Args...` is the type of the implicit object parameter, and the rest are parameter types of the function (if any). 
 
@@ -209,7 +209,7 @@ If `std::coroutine_traits<R, Args...>::promise_type` does not exist or is not a 
 
 Users may define explicit or partial specializations of `coroutine_traits` dependent on program-defined types to avoid modification to return types. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/coroutine/coroutine_traits&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     

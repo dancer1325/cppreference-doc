@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::enumerate_view`](../../enumerate_view.html "cpp/ranges/enumerate view")
 
@@ -261,7 +261,7 @@ operator-(enumerate_view::_iterator_)](operator_arith2.html "cpp/ranges/enumerat
 [operator==(enumerate_view::_iterator_ ,enumerate_view::_sentinel_)](../sentinel/operator_cmp.html "cpp/ranges/enumerate view/sentinel/operator cmp")  
 [operator-(enumerate_view::_iterator_ ,enumerate_view::_sentinel_)](../sentinel/operator-.html "cpp/ranges/enumerate view/sentinel/operator-")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/enumerate_view/navbar_content&action=edit)
+
 
 constexpr auto operator[]( difference_type n ) const  
 requires [ranges::random_access_range](../../random_access_range.html)<Base> |  |  (since C++23)  
@@ -280,22 +280,22 @@ Returns an element at specified relative location. Equivalent to: return` `[` _r
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/enumerate_view/iterator/operator_at&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 n  |  \-  |  position relative to current location   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/enumerate_view/iterator/operator_at&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The element at displacement n relative to the current location. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/enumerate_view/iterator/operator_at&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/enumerate_view/iterator/operator_at&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ operator*](operator*.html "cpp/ranges/enumerate view/iterator/operator*")(C++23) |  accesses the element   
 (public member function)  

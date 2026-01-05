@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 **`std::chrono::year_month_weekday_last`**
 
@@ -120,7 +120,7 @@ Helper classes
 [formatter<std::chrono::year_month_weekday_last>](year_month_weekday_last/formatter.html "cpp/chrono/year month weekday last/formatter")  
 [hash<std::chrono::year_month_weekday_last>](year_month_weekday_last/hash.html "cpp/chrono/year month weekday last/hash")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/year_month_weekday_last/navbar_content&action=edit)
+
 
 Defined in header `[<chrono>](../header/chrono.html "cpp/header/chrono")` |  |   
 ---|---|---  
@@ -131,34 +131,34 @@ The class `year_month_weekday_last` represents the last weekday of a specific ye
 
 `year_month_weekday_last` is a [TriviallyCopyable](../named_req/TriviallyCopyable.html "cpp/named req/TriviallyCopyable") [StandardLayoutType](../named_req/StandardLayoutType.html "cpp/named req/StandardLayoutType"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/year_month_weekday_last&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](year_month_weekday_last/year_month_weekday_last.html "cpp/chrono/year month weekday last/year month weekday last") |  constructs a `year_month_weekday_last`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/year_month_weekday_last/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ operator+=operator-=](year_month_weekday_last/operator_arith.html "cpp/chrono/year month weekday last/operator arith") |  modifies the time point by some number of months or years   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/year_month_weekday_last/dsc_operator_arith&action=edit)  
+(public member function)   
 [ yearmonthweekdayweekday_last](year_month_weekday_last/accessors.html "cpp/chrono/year month weekday last/accessors") |  accesses the fields of this object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/year_month_weekday_last/dsc_accessors&action=edit)  
+(public member function)   
 [ operator sys_daysoperator local_days](year_month_weekday_last/operator_days.html "cpp/chrono/year month weekday last/operator days") |  converts to a [std::chrono::time_point](time_point.html "cpp/chrono/time point")   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/year_month_weekday_last/dsc_operator_days&action=edit)  
+(public member function)   
 [ ok](year_month_weekday_last/ok.html "cpp/chrono/year month weekday last/ok") |  checks whether this object represents a valid date   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/year_month_weekday_last/dsc_ok&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/year_month_weekday_last&action=edit&section=2 "Edit section: Nonmember functions")] Nonmember functions
+### Nonmember functions
 
 [ operator==](year_month_weekday_last/operator_cmp.html "cpp/chrono/year month weekday last/operator cmp")(C++20) |  compares two `year_month_weekday_last` values   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/year_month_weekday_last/dsc_operator_cmp&action=edit)  
+(function)   
 ---|---  
 [ operator+operator-](year_month_weekday_last/operator_arith_2.html "cpp/chrono/year month weekday last/operator arith 2")(C++20) |  adds or subtracts a `year_month_weekday_last` and some number of years or months   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/year_month_weekday_last/dsc_operator_arith_2&action=edit)  
+(function)   
 [ operator<<](year_month_weekday_last/operator_ltlt.html "cpp/chrono/year month weekday last/operator ltlt")(C++20) |  outputs a `year_month_weekday_last` into a stream   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/year_month_weekday_last/dsc_operator_ltlt&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/year_month_weekday_last&action=edit&section=3 "Edit section: Helper classes")] Helper classes
+### Helper classes
 
 [ std::formatter<std::chrono::year_month_weekday_last>](year_month_weekday_last/formatter.html "cpp/chrono/year month weekday last/formatter")(C++20) |  formatting support for `year_month_weekday_last`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_formatter&action=edit)  
+(class template specialization)   
 ---|---  
 [ std::hash<std::chrono::year_month_weekday_last>](year_month_weekday_last/hash.html "cpp/chrono/year month weekday last/hash")(C++26) |  hash support for **`std::chrono::year_month_weekday_last`**   
 (class template specialization)

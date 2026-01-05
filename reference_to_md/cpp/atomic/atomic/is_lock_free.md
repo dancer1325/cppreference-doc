@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::atomic`](../atomic.html "cpp/atomic/atomic")
 
@@ -210,7 +210,7 @@ pointer types only](../atomic.html#Specialized_for_integral_and_pointer_types_on
 [atomic::fetch_xor](fetch_xor.html "cpp/atomic/atomic/fetch xor")  
 [atomic::operator&=atomic::operator|=atomic::operator^=](operator_arith3.html "cpp/atomic/atomic/operator arith3")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/navbar_content&action=edit)
+
 
 bool is_lock_free() const noexcept; |  (1)  |  (since C++11)  
 ---|---|---  
@@ -230,21 +230,21 @@ Checks whether the atomic operations on all objects of this type are lock-free.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic/is_lock_free&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic/is_lock_free&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 true if the atomic operations on the objects of this type are lock-free, false otherwise. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic/is_lock_free&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 All atomic types except for [std::atomic_flag](../atomic_flag.html "cpp/atomic/atomic flag") may be implemented using mutexes or other locking operations, rather than using the lock-free atomic CPU instructions. Atomic types are also allowed to be _sometimes_ lock-free, e.g. if only aligned memory accesses are naturally atomic on a given architecture, misaligned objects of the same type have to use locks. 
 
 The C++ standard recommends (but does not require) that lock-free atomic operations are also address-free, that is, suitable for communication between processes using shared memory. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic/is_lock_free&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -271,12 +271,12 @@ Possible output:
     std::atomic<A> is lock free? false
     std::atomic<B> is lock free? true
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic/is_lock_free&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ atomic_is_lock_free](../atomic_is_lock_free.html "cpp/atomic/atomic is lock free")(C++11) |  checks if the atomic type's operations are lock-free   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/dsc_atomic_is_lock_free&action=edit)  
+(function template)   
 ---|---  
 [ atomic_is_lock_free(std::shared_ptr)](../../memory/shared_ptr/atomic.html "cpp/memory/shared ptr/atomic") |  specializes atomic operations for [std::shared_ptr](../../memory/shared_ptr.html "cpp/memory/shared ptr")   
 (function template)  
 [ is_always_lock_free](is_always_lock_free.html "cpp/atomic/atomic/is always lock free")[static] (C++17) |  indicates that the type is always lock-free   
-(public static member constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_is_always_lock_free&action=edit)
+(public static member constant) 

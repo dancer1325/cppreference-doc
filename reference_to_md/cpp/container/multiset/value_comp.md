@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::multiset`](../multiset.html "cpp/container/multiset")
 
@@ -133,7 +133,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/multiset/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/multiset/navbar_content&action=edit)
+
 
 value_compare value_comp() const; |  | (constexpr since C++26)  
 ---|---|---  
@@ -151,15 +151,15 @@ Returns the function object that compares the values. It is the same as [key_com
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/value_comp&action=edit&section=T-1 "Template:cpp/container/value comp")] Return value
+### Return value
 
 The value comparison function object. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/value_comp&action=edit&section=T-2 "Template:cpp/container/value comp")] Complexity
+### Complexity
 
 Constant. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/value_comp&action=edit&section=T-3 "Template:cpp/container/value comp")] Example
+### Example
 
 Run this code
     
@@ -210,8 +210,8 @@ Output:
     Key (4) goes after key (100)
     Key (5) goes after key (100)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/value_comp&action=edit&section=T-4 "Template:cpp/container/value comp")] See also
+### See also
 
 [ key_comp](key_comp.html "cpp/container/multiset/key comp") |  returns the function that compares keys   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_key_comp&action=edit)  
+(public member function)   
 ---|---

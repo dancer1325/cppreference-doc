@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Library fundamentals](../memory.html "cpp/experimental/lib extensions")
 
@@ -50,7 +50,7 @@
 [Type-erased and polymorphic allocators](../memory.html "cpp/experimental/memory")  
 [Variable templates for type traits](../type_trait_variable_templates.html "cpp/experimental/type trait variable templates")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions/navbar_content&action=edit)
+
 
 [Polymorphic allocator library](../memory.html "cpp/experimental/memory")
 
@@ -73,7 +73,7 @@ Type-erased allocator support for existing classes
 [packaged_task](../lib_extensions/packaged_task.html "cpp/experimental/lib extensions/packaged task")  
 [promise](../lib_extensions/promise.html "cpp/experimental/lib extensions/promise")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions/pmr/navbar_content&action=edit)
+
 
 [`std::experimental::pmr::memory_resource`](../memory_resource.html "cpp/experimental/memory resource")
 
@@ -90,7 +90,7 @@ Protected member functions
 Non-member functions  
 [operator==operator!=](operator_eq.html "cpp/experimental/memory resource/operator eq")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions/pmr/memory_resource/navbar_content&action=edit)
+
 
 void* deallocate( void* p, [std::size_t](../../types/size_t.html) bytes, [std::size_t](../../types/size_t.html) alignment = alignof([std::max_align_t](../../types/max_align_t.html)) ); |  |  (library fundamentals TS)  
 ---|---|---  
@@ -100,12 +100,12 @@ Deallocates the storage pointed to by p. p shall have been returned by a prior c
 
 Equivalent to return do_deallocate(p, bytes, alignment);. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/memory_resource/deallocate&action=edit&section=1 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Throws nothing. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/memory_resource/deallocate&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ do_deallocate](do_deallocate.html "cpp/experimental/memory resource/do deallocate")[virtual] |  deallocates memory   
-(virtual protected member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/memory_resource/dsc_do_deallocate&action=edit)  
+(virtual protected member function)   
 ---|---

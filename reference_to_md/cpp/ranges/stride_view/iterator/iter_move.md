@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::stride_view`](../../stride_view.html "cpp/ranges/stride view")
 
@@ -263,7 +263,7 @@ operator-(stride_view::_iterator_)](operator_arith2.html "cpp/ranges/stride view
 **iter_move(stride_view::_iterator_)**  
 [iter_swap(stride_view::_iterator_)](iter_swap.html "cpp/ranges/stride view/iterator/iter swap")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/stride_view/navbar_content&action=edit)
+
 
 friend constexpr [ranges::range_rvalue_reference_t](../../range_reference_t.html)<Base>  
 iter_move( const /*iterator*/& i ) noexcept(/* see below */); |  |  (since C++23)  
@@ -287,29 +287,29 @@ This function is not visible to ordinary [unqualified](../../../language/unquali
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/stride_view/iterator/iter_move&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 i  |  \-  |  [iterator](../iterator.html "cpp/ranges/stride view/iterator")  
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/stride_view/iterator/iter_move&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The result of applying [ranges::iter_move](../../../iterator/ranges/iter_move.html "cpp/iterator/ranges/iter move") to the stored iterator. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/stride_view/iterator/iter_move&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 [`noexcept`](../../../language/noexcept_spec.html "cpp/language/noexcept spec") specification: 
 
 noexcept(noexcept([ranges::iter_move](../../../iterator/ranges/iter_move.html)(i.current_)))
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/stride_view/iterator/iter_move&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/stride_view/iterator/iter_move&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ iter_move](../../../iterator/ranges/iter_move.html "cpp/iterator/ranges/iter move")(C++20) |  casts the result of dereferencing an object to its associated rvalue reference type  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/ranges/dsc_iter_move&action=edit)  
+(customization point object)  
 ---|---

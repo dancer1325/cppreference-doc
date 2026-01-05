@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Type support](../utility/rtti.html "cpp/types")
 
@@ -161,7 +161,7 @@ Runtime type information
 ---  
 [bad_cast](bad_cast.html "cpp/types/bad cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/navbar_content&action=edit)
+
 
 Defined in header `[<cstddef>](../header/cstddef.html "cpp/header/cstddef")` |  |   
 ---|---|---  
@@ -183,7 +183,7 @@ The bit width of `std::ptrdiff_t` is not less than 17.  | (since C++11)
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/ptrdiff_t&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 `std::ptrdiff_t` is used for [pointer arithmetic](../language/operator_arithmetic.html#Additive_operators "cpp/language/operator arithmetic") and array indexing, if negative values are possible. Programs that use other types, such as int, may fail on, e.g. 64-bit systems when the index exceeds [INT_MAX](climits.html "cpp/types/climits") or if it relies on 32-bit modular arithmetic. 
 
@@ -197,7 +197,7 @@ For char arrays shorter than [PTRDIFF_MAX](climits.html "cpp/types/climits"), `s
 
 It is unspecified whether the declaration of `std::ptrdiff_t` is available in any other standard library header. An implementation may avoid introducing this name even when the standard requires `std::ptrdiff_t` to be used. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/ptrdiff_t&action=edit&section=2 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     // valid since C++11
@@ -205,7 +205,7 @@ It is unspecified whether the declaration of `std::ptrdiff_t` is available in an
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/ptrdiff_t&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -229,11 +229,11 @@ Output:
     
     10 9 8 7 6 5 4 3 2 1
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/ptrdiff_t&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ size_t](size_t.html "cpp/types/size t") |  unsigned integer type returned by the [`sizeof`](../language/sizeof.html "cpp/language/sizeof") operator   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_size_t&action=edit)  
+(typedef)   
 ---|---  
 [ offsetof](offsetof.html "cpp/types/offsetof") |  byte offset from the beginning of a [standard-layout](../named_req/StandardLayoutType.html "cpp/named req/StandardLayoutType") type to specified member   
-(function macro) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_offsetof&action=edit)  
+(function macro)   
 [C documentation](../../c/types/ptrdiff_t.html "c/types/ptrdiff t") for ptrdiff_t

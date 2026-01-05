@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header is part of the [type support](../utility/rtti.html "cpp/types") library. 
 
@@ -209,17 +209,17 @@ This header is part of the [type support](../utility/rtti.html "cpp/types") libr
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/typeinfo&action=edit&section=1 "Edit section: Classes")] Classes
+### Classes
 
 [ type_info](../types/type_info.html "cpp/types/type info") |  contains some type’s information, the class returned by the typeid operator   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_type_info&action=edit)  
+(class)   
 ---|---  
 [ bad_typeid](../types/bad_typeid.html "cpp/types/bad typeid") |  exception that is thrown if an argument in a [typeid expression](../language/typeid.html "cpp/language/typeid") is null   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_bad_typeid&action=edit)  
+(class)   
 [ bad_cast](../types/bad_cast.html "cpp/types/bad cast") |  exception that is thrown by an invalid [`dynamic_cast`](../language/dynamic_cast.html "cpp/language/dynamic cast") expression, i.e. a cast of reference type fails   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_bad_cast&action=edit)  
+(class)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/typeinfo&action=edit&section=2 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     // all freestanding
@@ -229,7 +229,7 @@ This header is part of the [type support](../utility/rtti.html "cpp/types") libr
       class bad_typeid;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/typeinfo&action=edit&section=T-1 "Template:cpp/synopsis/typeinfo")] Class [std::type_info](../types/type_info.html "cpp/types/type info")
+#### Class [std::type_info](../types/type_info.html "cpp/types/type info")
     
     
     namespace std {
@@ -247,7 +247,7 @@ This header is part of the [type support](../utility/rtti.html "cpp/types") libr
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/typeinfo&action=edit&section=T-2 "Template:cpp/synopsis/typeinfo")] Class [std::bad_cast](../types/bad_cast.html "cpp/types/bad cast")
+#### Class [std::bad_cast](../types/bad_cast.html "cpp/types/bad cast")
     
     
     namespace std {
@@ -259,7 +259,7 @@ This header is part of the [type support](../utility/rtti.html "cpp/types") libr
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/typeinfo&action=edit&section=T-3 "Template:cpp/synopsis/typeinfo")] Class [std::bad_typeid](../types/bad_typeid.html "cpp/types/bad typeid")
+#### Class [std::bad_typeid](../types/bad_typeid.html "cpp/types/bad typeid")
     
     
     namespace std {

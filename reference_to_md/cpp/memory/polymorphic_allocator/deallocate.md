@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::pmr::polymorphic_allocator`](../polymorphic_allocator.html "cpp/memory/polymorphic allocator")
 
@@ -206,7 +206,7 @@ Member functions
 Non-member functions  
 [operator==operator!=](operator_eq.html "cpp/memory/polymorphic allocator/operator eq")(until C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/polymorphic_allocator/navbar_content&action=edit)
+
 
 void deallocate( T* p, [std::size_t](../../types/size_t.html) n ); |  |  (since C++17)  
 ---|---|---  
@@ -216,26 +216,26 @@ Deallocates the storage pointed to by p, which must have been allocated from a [
 
 Equivalent to this->resource()->deallocate(p, n * sizeof(T), alignof(T));. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/polymorphic_allocator/deallocate&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 p  |  \-  |  pointer to memory to deallocate   
 ---|---|---  
 n  |  \-  |  the number of objects originally allocated   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/polymorphic_allocator/deallocate&action=edit&section=2 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Throws nothing. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/polymorphic_allocator/deallocate&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ deallocate_bytes](deallocate_bytes.html "cpp/memory/polymorphic allocator/deallocate bytes")(C++20) |  free raw memory obtained from `allocate_bytes`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/polymorphic_allocator/dsc_deallocate_bytes&action=edit)  
+(public member function)   
 ---|---  
 [ deallocate_object](deallocate_object.html "cpp/memory/polymorphic allocator/deallocate object")(C++20) |  frees raw memory obtained by `allocate_object`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/polymorphic_allocator/dsc_deallocate_object&action=edit)  
+(public member function)   
 [ delete_object](delete_object.html "cpp/memory/polymorphic allocator/delete object")(C++20) |  destroys and deallocates an object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/polymorphic_allocator/dsc_delete_object&action=edit)  
+(public member function)   
 [ deallocate](../allocator_traits/deallocate.html "cpp/memory/allocator traits/deallocate")[static] |  deallocates storage using the allocator   
-(public static member function of `std::allocator_traits<Alloc>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/allocator_traits/dsc_deallocate&action=edit)  
+(public static member function of `std::allocator_traits<Alloc>`)   
 [ deallocate](../memory_resource/deallocate.html "cpp/memory/memory resource/deallocate") |  deallocates memory   
-(public member function of `std::pmr::memory_resource`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/memory_resource/dsc_deallocate&action=edit)
+(public member function of `std::pmr::memory_resource`) 

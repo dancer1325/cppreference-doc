@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](ranges/copy.html "cpp/algorithm/ra
 [uninitialized_default_construct_n](../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 [Numerics library](../numeric.html "cpp/numeric")
 
@@ -353,7 +353,7 @@ Constrained algorithms, e.g. [`ranges::copy`](ranges/copy.html "cpp/algorithm/ra
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 Defined in header `[<numeric>](../header/numeric.html "cpp/header/numeric")` |  |   
 ---|---|---  
@@ -429,7 +429,7 @@ Given binary_op as the actual binary operation:
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/partial_sum&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  the pair of iterators defining the [range](../iterator.html#Ranges "cpp/iterator") of elements to sum   
 ---|---|---  
@@ -441,11 +441,11 @@ Type requirements
 -`InputIt` must meet the requirements of [LegacyInputIterator](../named_req/InputIterator.html "cpp/named req/InputIterator").   
 -`OutputIt` must meet the requirements of [LegacyOutputIterator](../named_req/OutputIterator.html "cpp/named req/OutputIterator").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/partial_sum&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Iterator to the element past the last element written, or d_first if `[`first`, `last`)` is empty. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/partial_sum&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Given \\(\scriptsize N\\)N as [std::distance](../iterator/distance.html)(first, last): 
 
@@ -453,7 +453,7 @@ Given \\(\scriptsize N\\)N as [std::distance](../iterator/distance.html)(first, 
 
 2) Exactly \\(\scriptsize N-1\\)N-1 applications of the binary function op.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/partial_sum&action=edit&section=4 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
 
 [partial_sum (1)](partial_sum.html#Version_1)  
 ---  
@@ -504,7 +504,7 @@ Given \\(\scriptsize N\\)N as [std::distance](../iterator/distance.html)(first, 
         return ++d_first;
     }  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/partial_sum&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 acc was introduced because of the resolution of [LWG issue 539](https://cplusplus.github.io/LWG/issue539). The reason of using acc rather than directly summing up the results (i.e. *(d_first + 2) = (*first + *(first + 1)) + *(first + 2);) is because the semantic of the latter is confusing if the following types mismatch: 
 
@@ -545,7 +545,7 @@ acc serves as the intermediate object to store and provide the values for each s
     // 5. go back to step 2 to process the remaining elements in the input range
     std::partial_sum(i_array, i_array + 4, o_array, [std::multiplies](../utility/functional/multiplies.html)<long>{});
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/partial_sum&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -582,7 +582,7 @@ Output:
     The first 10 even numbers are: 2 4 6 8 10 12 14 16 18 20 
     The first 10 powers of 2 are: 2 4 8 16 32 64 128 256 512 1024
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/partial_sum&action=edit&section=7 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -592,14 +592,14 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [LWG 539](https://cplusplus.github.io/LWG/issue539) | C++98  | the type requirements needed for the result  
 evaluations and assignments to be valid were missing  | added   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/partial_sum&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [ adjacent_difference](adjacent_difference.html "cpp/algorithm/adjacent difference") |  computes the differences between adjacent elements in a range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_adjacent_difference&action=edit)  
+(function template)   
 ---|---  
 [ accumulate](accumulate.html "cpp/algorithm/accumulate") |  sums up or folds a range of elements   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_accumulate&action=edit)  
+(function template)   
 [ inclusive_scan](inclusive_scan.html "cpp/algorithm/inclusive scan")(C++17) |  similar to **std::partial_sum** , includes the ith input element in the ith sum   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_inclusive_scan&action=edit)  
+(function template)   
 [ exclusive_scan](exclusive_scan.html "cpp/algorithm/exclusive scan")(C++17) |  similar to **std::partial_sum** , excludes the ith input element from the ith sum   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_exclusive_scan&action=edit)
+(function template) 

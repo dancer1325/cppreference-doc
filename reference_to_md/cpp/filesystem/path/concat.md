@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Filesystem library](../../filesystem.html "cpp/filesystem")
 
@@ -100,7 +100,7 @@ filesystem::symlink_status](../status.html "cpp/filesystem/status")
 [filesystem::is_socket](../is_socket.html "cpp/filesystem/is socket")  
 [filesystem::is_symlink](../is_symlink.html "cpp/filesystem/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/navbar_content&action=edit)
+
 
 [`std::filesystem::path`](../path.html "cpp/filesystem/path")
 
@@ -169,7 +169,7 @@ filesystem::symlink_status](../status.html "cpp/filesystem/status")
 | [formatter<std::filesystem::path>](formatter.html "cpp/filesystem/path/formatter")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/path/navbar_content&action=edit)
+
 
 path& operator+=( const path& p ); |  (1)  |  (since C++17)  
 ---|---|---  
@@ -215,7 +215,7 @@ Concatenates the current path and the argument
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/concat&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 p  |  \-  |  path to append   
 ---|---|---  
@@ -229,19 +229,19 @@ Type requirements
 -The value type of `InputIt` must be one of the encoded character types (char, wchar_t, char16_t and char32_t).   
 -`CharT` must be one of the encoded character types (char, wchar_t, char16_t and char32_t).   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/concat&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 *this
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/concat&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 May throw [std::bad_alloc](../../memory/new/bad_alloc.html) if memory allocation fails. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/concat&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 Unlike with [append()](append.html "cpp/filesystem/path/append") or [operator/=](append.html "cpp/filesystem/path/append"), additional directory separators are never introduced. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/concat&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -269,7 +269,7 @@ Output:
     "var" + "lib" --> "varlib"
     p1.concat --> "varlib456"
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/concat&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -278,10 +278,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [LWG 3055](https://cplusplus.github.io/LWG/issue3055) | C++17  | the specification of concatenating a single character was ill-formed  | made well-formed   
 [LWG 3244](https://cplusplus.github.io/LWG/issue3244) | C++17  | constraint that `Source` cannot be `path` was missing  | added   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/concat&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ appendoperator/=](append.html "cpp/filesystem/path/append") |  appends elements to the path with a directory separator   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/path/dsc_append&action=edit)  
+(public member function)   
 ---|---  
 [ operator/](operator_slash.html "cpp/filesystem/path/operator slash")(C++17) |  concatenates two paths with a directory separator   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/path/dsc_operator/&action=edit)
+(function) 

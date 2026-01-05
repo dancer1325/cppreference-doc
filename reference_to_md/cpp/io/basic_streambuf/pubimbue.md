@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_streambuf`](../basic_streambuf.html "cpp/io/basic streambuf")
 
@@ -152,7 +152,7 @@ Put area
 Putback  
 [basic_streambuf::pbackfail](pbackfail.html "cpp/io/basic streambuf/pbackfail")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_streambuf/navbar_content&action=edit)
+
 
 [std::locale](../../locale/locale.html) pubimbue( const [std::locale](../../locale/locale.html)& loc ); |  (1)  |   
 ---|---|---  
@@ -177,29 +177,29 @@ Changes the associated locale.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_streambuf/pubimbue&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 loc  |  \-  |  locale object to associate   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_streambuf/pubimbue&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) Previous associated locale.
 
 2) (none)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_streambuf/pubimbue&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 From within the call of imbue(), [`getloc()`](getloc.html "cpp/io/basic streambuf/getloc") returns the previous locale. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_streambuf/pubimbue&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_streambuf/pubimbue&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ getloc](getloc.html "cpp/io/basic streambuf/getloc") |  obtains a copy of the associated locale   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_streambuf/dsc_getloc&action=edit)  
+(public member function)   
 ---|---

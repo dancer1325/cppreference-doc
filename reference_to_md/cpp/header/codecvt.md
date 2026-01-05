@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header is part of the [text processing library](../text.html "cpp/text"). 
 
@@ -215,21 +215,21 @@ This header is part of the [text processing library](../text.html "cpp/text").
 ###  Classes  
   
 [ codecvt_utf8](../locale/codecvt_utf8.html "cpp/locale/codecvt utf8")(C++11)(deprecated in C++17)(removed in C++26) |  converts between UTF-8 and UCS-2/UCS-4   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_codecvt_utf8&action=edit)  
+(class template)   
 [ codecvt_utf16](../locale/codecvt_utf16.html "cpp/locale/codecvt utf16")(C++11)(deprecated in C++17)(removed in C++26) |  converts between UTF-16 and UCS-2/UCS-4   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_codecvt_utf16&action=edit)  
+(class template)   
 [ codecvt_utf8_utf16](../locale/codecvt_utf8_utf16.html "cpp/locale/codecvt utf8 utf16")(C++11)(deprecated in C++17)(removed in C++26) |  converts between UTF-8 and UTF-16   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_codecvt_utf8_utf16&action=edit)  
+(class template)   
 [ codecvt_mode](../locale/codecvt_mode.html "cpp/locale/codecvt mode")(C++11)(deprecated in C++17)(removed in C++26) |  tags to alter behavior of the standard codecvt facets   
-(enum) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_codecvt_mode&action=edit)  
+(enum)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/codecvt&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 `<codecvt>` is deprecated in C++17 and removed in C++26 (see [P2871R3](https://wg21.link/P2871R3)). 
 
 The reason for removal is that this feature no longer implements the current [Unicode Standard](https://www.unicode.org/versions/latest/), supporting only the obsolete UCS-2 encoding. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/codecvt&action=edit&section=2 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     namespace std {
@@ -252,7 +252,7 @@ The reason for removal is that this feature no longer implements the current [Un
         class codecvt_utf8_utf16;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/codecvt&action=edit&section=T-1 "Template:cpp/synopsis/codecvt")] Class [std::codecvt_utf8](../locale/codecvt_utf8.html "cpp/locale/codecvt utf8")
+#### Class [std::codecvt_utf8](../locale/codecvt_utf8.html "cpp/locale/codecvt utf8")
     
     
     namespace std {
@@ -265,7 +265,7 @@ The reason for removal is that this feature no longer implements the current [Un
         };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/codecvt&action=edit&section=T-2 "Template:cpp/synopsis/codecvt")] Class [std::codecvt_utf16](../locale/codecvt_utf16.html "cpp/locale/codecvt utf16")
+#### Class [std::codecvt_utf16](../locale/codecvt_utf16.html "cpp/locale/codecvt utf16")
     
     
     namespace std {
@@ -278,7 +278,7 @@ The reason for removal is that this feature no longer implements the current [Un
         };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/codecvt&action=edit&section=T-3 "Template:cpp/synopsis/codecvt")] Class [std::codecvt_utf8_utf16](../locale/codecvt_utf8_utf16.html "cpp/locale/codecvt utf8 utf16")
+#### Class [std::codecvt_utf8_utf16](../locale/codecvt_utf8_utf16.html "cpp/locale/codecvt utf8 utf16")
     
     
     namespace std {

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Statements](statements.html "cpp/language/statements")
 
@@ -253,7 +253,7 @@ Miscellaneous
 [Transactional memory](transactional_memory.html "cpp/language/transactional memory")  
 [`synchronized`](transactional_memory.html#Synchronized_blocks "cpp/language/transactional memory"), [`atomic_commit`](transactional_memory.html#Atomic_blocks "cpp/language/transactional memory"), etc (TM TS)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/statements/navbar_content&action=edit)
+
 
 Conditionally executes another statement. 
 
@@ -279,7 +279,7 @@ Used where code needs to be executed based on a condition, or whether the if sta
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/if&action=edit&section=1 "Edit section: Syntax")] Syntax  
+### Syntax  
   
 ---  
 attr ﻿(optional) `**if**` `**constexpr**`(optional)  
@@ -320,7 +320,7 @@ statement-false |  \-  |  the statement to be executed if condition yields false
 compound-statement |  \-  |  the [compound statement](statements.html#Compound_statements "cpp/language/statements") to be executed if the if statement is evaluated in a [manifestly constant-evaluated context](constant_expression.html#Manifestly_constant-evaluated_expressions "cpp/language/constant expression") (or is not evaluated in such a context if `!` is preceding consteval)   
 statement |  \-  |  the statement (must be a compound statement, see [below](if.html#Consteval_if "cpp/language/if")) to be executed if the if statement is not evaluated in a manifestly constant-evaluated context (or is evaluated in such a context if `!` is preceding consteval)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/condition&action=edit&section=T-1 "Template:cpp/language/condition")] Condition
+### Condition
 
 A condition can either be an [expression](expressions.html "cpp/language/expressions") or a [simple declaration](declarations.html#Simple_declaration "cpp/language/declarations"). 
 
@@ -335,15 +335,15 @@ A condition can either be an [expression](expressions.html "cpp/language/express
 
 When control reaches condition, the condition will yield a value, which is used to determine which branch the control will go to. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/condition&action=edit&section=T-2 "Template:cpp/language/condition")] Expression
+#### Expression
 
 If condition is an expression, the value it yields is the the value of the expression contextually converted to bool. If that conversion is ill-formed, the program is ill-formed. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/condition&action=edit&section=T-3 "Template:cpp/language/condition")] Declaration
+#### Declaration
 
 If condition is a simple declaration, the value it yields is the value of the decision variable (see below) contextually converted to bool. If that conversion is ill-formed, the program is ill-formed. 
 
-##### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/condition&action=edit&section=T-4 "Template:cpp/language/condition")] Non-structured binding declaration
+##### Non-structured binding declaration
 
 The declaration has the following restrictions: 
 
@@ -383,7 +383,7 @@ The declaration has the following restrictions:
 The decision variable of the declaration is the invented variable e [introduced by the declaration](structured_binding.html "cpp/language/structured binding").  | (since C++26)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/if&action=edit&section=2 "Edit section: Branch selection")] Branch selection
+### Branch selection
 
 If the condition yields true, statement-true is executed. 
 
@@ -704,7 +704,7 @@ compound-statement in a consteval if statement (or statement in the negative for
 | (since C++23)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/if&action=edit&section=6 "Edit section: Notes")] Notes
+### Notes
 
 If statement-true or statement-false is not a compound statement, it is treated as if it were: 
     
@@ -744,11 +744,11 @@ Feature-test macro  | Value | Std | Feature
 [`__cpp_if_constexpr`](../experimental/feature_test.html#cpp_if_constexpr "cpp/feature test") | [`201606L`](../compiler_support/17.html#cpp_if_constexpr_201606L "cpp/compiler support/17") | (C++17) | constexpr `if`  
 [`__cpp_if_consteval`](../experimental/feature_test.html#cpp_if_consteval "cpp/feature test") | [`202106L`](../compiler_support/23.html#cpp_if_consteval_202106L "cpp/compiler support/23") | (C++23) | consteval `if`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/if&action=edit&section=7 "Edit section: Keywords")] Keywords
+### Keywords
 
 [`if`](../keywords/if.html "cpp/keyword/if"), [`else`](../keyword/else.html "cpp/keyword/else"), [`constexpr`](../keyword/constexpr.html "cpp/keyword/constexpr"), [`consteval`](../keyword/consteval.html "cpp/keyword/consteval")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/if&action=edit&section=8 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -758,10 +758,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 first substatement is reached via a label  | the condition is not evaluated and the second  
 substatement is not executed (same as in C)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/if&action=edit&section=9 "Edit section: See also")] See also
+### See also
 
 [ is_constant_evaluated](../types/is_constant_evaluated.html "cpp/types/is constant evaluated")(C++20) |  detects whether the call occurs within a constant-evaluated context   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_constant_evaluated&action=edit)  
+(function)   
 ---|---  
 [C documentation](../../c/language/if.html "c/language/if") for if statement
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.

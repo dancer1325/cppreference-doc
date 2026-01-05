@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::expected`](../expected.html "cpp/utility/expected")
 
@@ -160,7 +160,7 @@ Common vocabulary types
 [bad_expected_access](bad_expected_access.html "cpp/utility/expected/bad expected access")  
 **unexpect_t unexpect**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/expected/navbar_content&action=edit)
+
 
 Defined in header `[<expected>](../../header/expected.html "cpp/header/expected")` |  |   
 ---|---|---  
@@ -172,14 +172,14 @@ inline constexpr std::unexpect_t unexpect{}; |  (2)  |  (since C++23)
 
 2) A constant of type const std::unexpect_t which is usually directly passed to a constructor of `std::expected` to construct an unexpected value.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/unexpect_t&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 Like other construction tag types, `unexpect_t` is a trivial, empty class with an explicit default constructor. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/unexpect_t&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ (constructor)](expected.html "cpp/utility/expected/expected") |  constructs the `expected` object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/expected/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ in_placein_place_typein_place_indexin_place_tin_place_type_tin_place_index_t](../in_place.html "cpp/utility/in place")(C++17) |  in-place construction tag  
-(tag)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_in_place&action=edit)
+(tag)

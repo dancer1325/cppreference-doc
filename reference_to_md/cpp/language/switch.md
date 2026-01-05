@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Statements](statements.html "cpp/language/statements")
 
@@ -253,7 +253,7 @@ Miscellaneous
 [Transactional memory](transactional_memory.html "cpp/language/transactional memory")  
 [`synchronized`](transactional_memory.html#Synchronized_blocks "cpp/language/transactional memory"), [`atomic_commit`](transactional_memory.html#Atomic_blocks "cpp/language/transactional memory"), etc (TM TS)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/statements/navbar_content&action=edit)
+
 
 Transfers control to one of several statements, depending on the value of a condition. 
 
@@ -279,7 +279,7 @@ Transfers control to one of several statements, depending on the value of a cond
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/switch&action=edit&section=1 "Edit section: Syntax")] Syntax  
+### Syntax  
   
 ---  
 attr ﻿(optional) `**switch**` `**(**` init-statement ﻿(optional) condition `**)**` statement |  |   
@@ -302,7 +302,7 @@ Note that any init-statement must end with a semicolon. This is why it is often 
 condition |  \-  |  a [condition](switch.html#Condition)  
 statement |  \-  |  a statement (typically a compound statement)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/condition&action=edit&section=T-1 "Template:cpp/language/condition")] Condition
+### Condition
 
 A condition can either be an [expression](expressions.html "cpp/language/expressions") or a [simple declaration](declarations.html#Simple_declaration "cpp/language/declarations"). 
 
@@ -317,15 +317,15 @@ A condition can either be an [expression](expressions.html "cpp/language/express
 
 When control reaches condition, the condition will yield a value, which is used to determine which label the control will go to. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/condition&action=edit&section=T-2 "Template:cpp/language/condition")] Expression
+#### Expression
 
 If condition is an expression, the value it yields is the the value of the expression. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/condition&action=edit&section=T-3 "Template:cpp/language/condition")] Declaration
+#### Declaration
 
 If condition is a simple declaration, the value it yields is the value of the decision variable (see below). 
 
-##### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/condition&action=edit&section=T-4 "Template:cpp/language/condition")] Non-structured binding declaration
+##### Non-structured binding declaration
 
 The declaration has the following restrictions: 
 
@@ -365,7 +365,7 @@ The declaration has the following restrictions:
 The decision variable of the declaration is the invented variable e [introduced by the declaration](structured_binding.html "cpp/language/structured binding").  | (since C++26)  
 ---|---  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/switch&action=edit&section=2 "Edit section: Type")] Type
+#### Type
 
 condition can only yield the following types: 
 
@@ -379,7 +379,7 @@ If the yielded value is of a class type, it is contextually implicitly converted
 
 If the (possibly converted) type is subject to [integral promotions](implicit_cast.html#Integral_promotion "cpp/language/implicit conversion") , the yielded value is converted to the promoted type. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/switch&action=edit&section=3 "Edit section: Labels")] Labels
+### Labels
 
 Any statement within the switch statement can be labeled with one or more following labels:   
   
@@ -400,7 +400,7 @@ If any of the following conditions is satisfied, the program is ill-formed:
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/switch&action=edit&section=4 "Edit section: Control flow transfer")] Control flow transfer
+### Control flow transfer
 
 When the condition of a switch statement yields a (possibly converted) value: 
 
@@ -451,7 +451,7 @@ Except that names declared by the init-statement (if init-statement is a declara
 
 (since C++17)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/switch&action=edit&section=6 "Edit section: Notes")] Notes
+### Notes
 
 Because transfer of control is [not permitted to enter the scope](goto.html "cpp/language/goto") of a variable, if a declaration statement is encountered inside the statement, it has to be scoped in its own compound statement: 
     
@@ -483,11 +483,11 @@ Because transfer of control is [not permitted to enter the scope](goto.html "cpp
             break;
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/switch&action=edit&section=7 "Edit section: Keywords")] Keywords
+### Keywords
 
 [`switch`](../keyword/switch.html "cpp/keyword/switch"), [`case`](../keyword/case.html "cpp/keyword/case"), [`default`](../keyword/default.html "cpp/keyword/default")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/switch&action=edit&section=8 "Edit section: Example")] Example
+### Example
 
 The following code shows several usage cases of the switch statement:
 
@@ -597,7 +597,7 @@ Output:
     red
     1
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/switch&action=edit&section=9 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -608,12 +608,12 @@ integral promotion could not be promoted  | do not promote
 condition ﻿s of these types   
 [CWG 2629](https://cplusplus.github.io/CWG/issues/2629.html) | C++98  | condition could be a declaration of a floating-point variable  | prohibited   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/switch&action=edit&section=10 "Edit section: See also")] See also
+### See also
 
 [C documentation](../../c/language/switch.html "c/language/switch") for switch  
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/switch&action=edit&section=11 "Edit section: External links")] External links
+### External links
 
 1\.  | [Loop unrolling using Duff's Device](https://en.wikipedia.org/wiki/Duff%27s_device "enwiki:Duff's device")  
 ---|---  

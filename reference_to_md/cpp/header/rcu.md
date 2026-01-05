@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header is part of the [thread support](../atomic.html "cpp/thread") library. 
 
@@ -214,22 +214,22 @@ This header is part of the [thread support](../atomic.html "cpp/thread") library
 ###  Classes  
   
 [ rcu_obj_base](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/rcu_obj_base&action=edit&redlink=1 "cpp/thread/rcu obj base \(page does not exist\)")(C++26) |  allows an object to be protected by RCU   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_rcu_obj_base&action=edit)  
+(class template)   
 [ rcu_domain](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/rcu_domain&action=edit&redlink=1 "cpp/thread/rcu domain \(page does not exist\)")(C++26) |  provides regions of RCU protection   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_rcu_domain&action=edit)  
+(class)   
   
 ###  Functions  
   
 [ rcu_default_domain](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/rcu_default_domain&action=edit&redlink=1 "cpp/thread/rcu default domain \(page does not exist\)")(C++26) |  returns a reference to a static-duration object of type `std::rcu_domain`   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_rcu_default_domain&action=edit)  
+(function)   
 [ rcu_synchronize](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/rcu_synchronize&action=edit&redlink=1 "cpp/thread/rcu synchronize \(page does not exist\)")(C++26) |  blocks until a protection region unlocks on a RCU domain   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_rcu_synchronize&action=edit)  
+(function)   
 [ rcu_barrier](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/rcu_barrier&action=edit&redlink=1 "cpp/thread/rcu barrier \(page does not exist\)")(C++26) |  may evaluate scheduled operations on a RCU domain and blocks until all preceding evaluations are complete   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_rcu_barrier&action=edit)  
+(function)   
 [ rcu_retire](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/rcu_retire&action=edit&redlink=1 "cpp/thread/rcu retire \(page does not exist\)")(C++26) |  schedules the evaluation of a specified function on a RCU domain, potentially allocating memory, and invoking scheduled evaluations   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_rcu_retire&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/rcu&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     namespace std {
@@ -244,7 +244,7 @@ This header is part of the [thread support](../atomic.html "cpp/thread") library
         void rcu_retire(T* p, D d = D(), rcu_domain& dom = rcu_default_domain());
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/rcu&action=edit&section=T-1 "Template:cpp/synopsis/rcu")] Class template std::rcu_obj_base
+#### Class template std::rcu_obj_base
     
     
     namespace std {
@@ -264,7 +264,7 @@ This header is part of the [thread support](../atomic.html "cpp/thread") library
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/rcu&action=edit&section=T-2 "Template:cpp/synopsis/rcu")] Class std::rcu_domain
+#### Class std::rcu_domain
     
     
     namespace std {

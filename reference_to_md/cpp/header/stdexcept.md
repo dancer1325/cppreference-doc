@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header is part of the [error handling](../error.html "cpp/error") library. 
 
@@ -221,25 +221,25 @@ This header is part of the [error handling](../error.html "cpp/error") library.
 ###  Classes  
   
 [ logic_error](../error/logic_error.html "cpp/error/logic error") |  exception class to indicate violations of logical preconditions or class invariants   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/inc_logic_error&action=edit)  
+(class)   
 [ invalid_argument](../error/invalid_argument.html "cpp/error/invalid argument") |  exception class to report invalid arguments   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/inc_invalid_argument&action=edit)  
+(class)   
 [ domain_error](../error/domain_error.html "cpp/error/domain error") |  exception class to report domain errors   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/inc_domain_error&action=edit)  
+(class)   
 [ length_error](../error/length_error.html "cpp/error/length error") |  exception class to report attempts to exceed maximum allowed size   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/inc_length_error&action=edit)  
+(class)   
 [ out_of_range](../error/out_of_range.html "cpp/error/out of range") |  exception class to report arguments outside of expected range   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/inc_out_of_range&action=edit)  
+(class)   
 [ runtime_error](../error/runtime_error.html "cpp/error/runtime error") |  exception class to indicate conditions only detectable at run time   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/inc_runtime_error&action=edit)  
+(class)   
 [ range_error](../error/range_error.html "cpp/error/range error") |  exception class to report range errors in internal computations   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/inc_range_error&action=edit)  
+(class)   
 [ overflow_error](../error/overflow_error.html "cpp/error/overflow error") |  exception class to report arithmetic overflows   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/inc_overflow_error&action=edit)  
+(class)   
 [ underflow_error](../error/underflow_error.html "cpp/error/underflow error") |  exception class to report arithmetic underflows   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/inc_underflow_error&action=edit)  
+(class)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/stdexcept&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     namespace std {
@@ -254,7 +254,7 @@ This header is part of the [error handling](../error.html "cpp/error") library.
       class underflow_error;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/stdexcept&action=edit&section=T-1 "Template:cpp/synopsis/stdexcept")] Class [std::logic_error](../error/logic_error.html "cpp/error/logic error")
+#### Class [std::logic_error](../error/logic_error.html "cpp/error/logic error")
     
     
     namespace std {
@@ -266,7 +266,7 @@ This header is part of the [error handling](../error.html "cpp/error") library.
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/stdexcept&action=edit&section=T-2 "Template:cpp/synopsis/stdexcept")] Class [std::domain_error](../error/domain_error.html "cpp/error/domain error")
+#### Class [std::domain_error](../error/domain_error.html "cpp/error/domain error")
     
     
     namespace std {
@@ -278,7 +278,7 @@ This header is part of the [error handling](../error.html "cpp/error") library.
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/stdexcept&action=edit&section=T-3 "Template:cpp/synopsis/stdexcept")] Class [std::invalid_argument](../error/invalid_argument.html "cpp/error/invalid argument")
+#### Class [std::invalid_argument](../error/invalid_argument.html "cpp/error/invalid argument")
     
     
     namespace std {
@@ -290,7 +290,7 @@ This header is part of the [error handling](../error.html "cpp/error") library.
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/stdexcept&action=edit&section=T-4 "Template:cpp/synopsis/stdexcept")] Class [std::length_error](../error/length_error.html "cpp/error/length error")
+#### Class [std::length_error](../error/length_error.html "cpp/error/length error")
     
     
     namespace std {
@@ -302,7 +302,7 @@ This header is part of the [error handling](../error.html "cpp/error") library.
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/stdexcept&action=edit&section=T-5 "Template:cpp/synopsis/stdexcept")] Class [std::out_of_range](../error/out_of_range.html "cpp/error/out of range")
+#### Class [std::out_of_range](../error/out_of_range.html "cpp/error/out of range")
     
     
     namespace std {
@@ -314,7 +314,7 @@ This header is part of the [error handling](../error.html "cpp/error") library.
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/stdexcept&action=edit&section=T-6 "Template:cpp/synopsis/stdexcept")] Class [std::runtime_error](../error/runtime_error.html "cpp/error/runtime error")
+#### Class [std::runtime_error](../error/runtime_error.html "cpp/error/runtime error")
     
     
     namespace std {
@@ -326,7 +326,7 @@ This header is part of the [error handling](../error.html "cpp/error") library.
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/stdexcept&action=edit&section=T-7 "Template:cpp/synopsis/stdexcept")] Class [std::range_error](../error/range_error.html "cpp/error/range error")
+#### Class [std::range_error](../error/range_error.html "cpp/error/range error")
     
     
     namespace std {
@@ -338,7 +338,7 @@ This header is part of the [error handling](../error.html "cpp/error") library.
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/stdexcept&action=edit&section=T-8 "Template:cpp/synopsis/stdexcept")] Class [std::overflow_error](../error/overflow_error.html "cpp/error/overflow error")
+#### Class [std::overflow_error](../error/overflow_error.html "cpp/error/overflow error")
     
     
     namespace std {
@@ -350,7 +350,7 @@ This header is part of the [error handling](../error.html "cpp/error") library.
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/stdexcept&action=edit&section=T-9 "Template:cpp/synopsis/stdexcept")] Class [std::underflow_error](../error/underflow_error.html "cpp/error/underflow error")
+#### Class [std::underflow_error](../error/underflow_error.html "cpp/error/underflow error")
     
     
     namespace std {
@@ -362,8 +362,8 @@ This header is part of the [error handling](../error.html "cpp/error") library.
       };
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/stdexcept&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ exception](../error/exception.html "cpp/error/exception") |  base class for exceptions thrown by the standard library components   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_exception&action=edit)  
+(class)   
 ---|---

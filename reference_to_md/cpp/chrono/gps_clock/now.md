@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -103,7 +103,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::gps_clock`](../gps_clock.html "cpp/chrono/gps clock")
 
@@ -117,7 +117,7 @@ Time point I/O
 [formatter<std::chrono::gps_time>](formatter.html "cpp/chrono/gps clock/formatter")  
 [from_stream](from_stream.html "cpp/chrono/gps clock/from stream")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/gps_clock/navbar_content&action=edit)
+
 
 static [std::chrono::time_point](../time_point.html)<[std::chrono::gps_clock](../gps_clock.html)> now(); |  |  (since C++20)  
 ---|---|---  
@@ -125,11 +125,11 @@ static [std::chrono::time_point](../time_point.html)<[std::chrono::gps_clock](..
   
 Returns a time point representing the current point in time. The result is calculated as if by [std::chrono::gps_clock::from_utc](from_utc.html)([std::chrono::utc_clock::now](../utc_clock/now.html)()). Implementations may use a more accurate value of GPS time. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/clock/now&action=edit&section=T-1 "Template:cpp/chrono/clock/now")] Return value
+### Return value
 
 A time point representing the current time. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/clock/now&action=edit&section=T-2 "Template:cpp/chrono/clock/now")] Example
+### Example
 
 Run this code
     

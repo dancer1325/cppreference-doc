@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::slide_view`](../../slide_view.html "cpp/ranges/slide view")
 
@@ -263,7 +263,7 @@ Non-member functions
 [operator==(slide_view::_iterator_ ,slide_view::_sentinel_)](../sentinel/operator_cmp.html "cpp/ranges/slide view/sentinel/operator cmp")  
 [operator-(slide_view::_iterator_ ,slide_view::_sentinel_)](../sentinel/operator-.html "cpp/ranges/slide view/sentinel/operator-")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/slide_view/navbar_content&action=edit)
+
 
 constexpr auto operator*() const; |  |  (since C++23)  
 ---|---|---  
@@ -283,21 +283,21 @@ Let [`_current__`](../iterator.html#Data_members "cpp/ranges/slide view/iterator
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/slide_view/iterator/operator*&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/slide_view/iterator/operator*&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The current element, which is an object of [`_value_type_`](../iterator.html#Member_types "cpp/ranges/slide view/iterator"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/slide_view/iterator/operator*&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/slide_view/iterator/operator*&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ operator[]](operator_at.html "cpp/ranges/slide view/iterator/operator at")(C++23) |  accesses an element by index   
 (public member function)  

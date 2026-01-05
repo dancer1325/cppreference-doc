@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::month_day`](../month_day.html "cpp/chrono/month day")
 
@@ -118,7 +118,7 @@ Helper classes
 [formatter<std::chrono::month_day>](formatter.html "cpp/chrono/month day/formatter")  
 [hash<std::chrono::month_day>](hash.html "cpp/chrono/month day/hash")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/month_day/navbar_content&action=edit)
+
 
 constexpr [std::chrono::month](../month.html) month() const noexcept; |  (1)  |  (since C++20)  
 ---|---|---  
@@ -127,13 +127,13 @@ constexpr [std::chrono::day](../day.html) day() const noexcept; |  (1)  |  (sinc
   
 Retrieves the month and day values stored in this `month_day` object. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/month_day/accessors&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 1) Returns the stored std::chrono::month value.
 
 2) Returns the stored std::chrono::day value.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/month_day/accessors&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     

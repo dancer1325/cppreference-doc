@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ named requirements](../iterator/concepts.html "cpp/named req")
 
@@ -147,11 +147,11 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/named_req/navbar_content&action=edit)
+
 
 **RegexTraits** is a traits class that abstracts operations needed for a given character type when as template type parameters for [std::basic_regex](../regex/basic_regex.html). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/RegexTraits&action=edit&section=1 "Edit section: Requirements")] Requirements
+### Requirements
 
 Given 
 
@@ -219,7 +219,7 @@ v.getloc() |  X::locale_type |  Returns: The previous locale used by v if any.
   
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/RegexTraits&action=edit&section=2 "Edit section: Standard library")] Standard library
+### Standard library
 
 RegexTraits is satisfied by the following standard library classes: 
 

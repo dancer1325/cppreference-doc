@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 **`std::atomic_flag`**
 
@@ -188,7 +188,7 @@ Member functions
 [atomic_flag::notify_one](atomic_flag/notify_one.html "cpp/atomic/atomic flag/notify one")(C++20)  
 [atomic_flag::notify_all](atomic_flag/notify_all.html "cpp/atomic/atomic flag/notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic_flag/navbar_content&action=edit)
+
 
 Defined in header `[<atomic>](../header/atomic.html "cpp/header/atomic")` |  |   
 ---|---|---  
@@ -197,7 +197,7 @@ class atomic_flag; |  |  (since C++11)
   
 `std::atomic_flag` is an atomic boolean type. Unlike all specializations of [std::atomic](atomic.html "cpp/atomic/atomic"), it is guaranteed to be lock-free. Unlike [std::atomic](atomic.html)<bool>, `std::atomic_flag` does not provide load or store operations. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_flag&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](atomic_flag/atomic_flag.html "cpp/atomic/atomic flag/atomic flag") |  constructs an atomic_flag   
 (public member function)  
@@ -205,19 +205,19 @@ class atomic_flag; |  |  (since C++11)
 [ operator=](atomic_flag/operator=.html "cpp/atomic/atomic flag/operator=")[deleted] |  the assignment operator (deleted)   
 (public member function)  
 [ clear](atomic_flag/clear.html "cpp/atomic/atomic flag/clear") |  atomically sets flag to false   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic_flag/dsc_clear&action=edit)  
+(public member function)   
 [ test_and_set](atomic_flag/test_and_set.html "cpp/atomic/atomic flag/test and set") |  atomically sets the flag to true and obtains its previous value   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic_flag/dsc_test_and_set&action=edit)  
+(public member function)   
 [ test](atomic_flag/test.html "cpp/atomic/atomic flag/test")(C++20) |  atomically returns the value of the flag   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic_flag/dsc_test&action=edit)  
+(public member function)   
 [ wait](atomic_flag/wait.html "cpp/atomic/atomic flag/wait")(C++20) |  blocks the thread until notified and the atomic value changes   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_wait&action=edit)  
+(public member function)   
 [ notify_one](atomic_flag/notify_one.html "cpp/atomic/atomic flag/notify one")(C++20) |  notifies at least one thread waiting on the atomic object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_notify_one&action=edit)  
+(public member function)   
 [ notify_all](atomic_flag/notify_all.html "cpp/atomic/atomic flag/notify all")(C++20) |  notifies all threads blocked waiting on the atomic object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_notify_all&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_flag&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 A [spinlock](https://en.wikipedia.org/wiki/Spinlock "enwiki:Spinlock") mutex demo can be implemented in userspace using an atomic_flag. Do note that spinlock mutexes are [extremely dubious](https://www.realworldtech.com/forum/?threadid=189711&curpostid=189723) in practice.
 
@@ -296,19 +296,19 @@ Possible output:
     8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8
     9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_flag&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ atomic_flag_test_and_setatomic_flag_test_and_set_explicit](atomic_flag_test_and_set.html "cpp/atomic/atomic flag test and set")(C++11)(C++11) |  atomically sets the flag to true and returns its previous value   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/dsc_atomic_flag_test_and_set&action=edit)  
+(function)   
 ---|---  
 [ atomic_flag_clearatomic_flag_clear_explicit](atomic_flag_clear.html "cpp/atomic/atomic flag clear")(C++11)(C++11) |  atomically sets the value of the flag to false   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/dsc_atomic_flag_clear&action=edit)  
+(function)   
 [ atomic_flag_waitatomic_flag_wait_explicit](atomic_flag_wait.html "cpp/atomic/atomic flag wait")(C++20)(C++20) |  blocks the thread until notified and the flag changes   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/dsc_atomic_flag_wait&action=edit)  
+(function)   
 [ atomic_flag_notify_one](atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20) |  notifies a thread blocked in atomic_flag_wait   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/dsc_atomic_flag_notify_one&action=edit)  
+(function)   
 [ atomic_flag_notify_all](atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20) |  notifies all threads blocked in atomic_flag_wait   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/dsc_atomic_flag_notify_all&action=edit)  
+(function)   
 [ ATOMIC_FLAG_INIT](ATOMIC_FLAG_INIT.html "cpp/atomic/ATOMIC FLAG INIT")(C++11) |  initializes an **std::atomic_flag** to false   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/dsc_ATOMIC_FLAG_INIT&action=edit)  
+(macro constant)   
 [C documentation](../../c/atomic/atomic_flag.html "c/atomic/atomic flag") for atomic_flag

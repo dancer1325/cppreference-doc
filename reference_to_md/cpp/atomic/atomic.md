@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 **`std::atomic`**
 
@@ -210,7 +210,7 @@ pointer types only](atomic.html#Specialized_for_integral_and_pointer_types_only 
 [atomic::fetch_xor](atomic/fetch_xor.html "cpp/atomic/atomic/fetch xor")  
 [atomic::operator&=atomic::operator|=atomic::operator^=](atomic/operator_arith3.html "cpp/atomic/atomic/operator arith3")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/navbar_content&action=edit)
+
 
 Defined in header `[<atomic>](../header/atomic.html "cpp/header/atomic")` |  |   
 ---|---|---  
@@ -263,9 +263,9 @@ The compatibility macro `_Atomic` is provided in [`<stdatomic.h>`](../header/std
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic&action=edit&section=1 "Edit section: Specializations")] Specializations
+### Specializations
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic&action=edit&section=2 "Edit section: Primary template")] Primary template
+#### Primary template
 
 The primary `std::atomic` template may be instantiated with any [TriviallyCopyable](../named_req/TriviallyCopyable.html "cpp/named req/TriviallyCopyable") type `T` satisfying both [CopyConstructible](../named_req/CopyConstructible.html "cpp/named req/CopyConstructible") and [CopyAssignable](../named_req/CopyAssignable.html "cpp/named req/CopyAssignable"). The program is ill-formed if any of following values is false: 
 
@@ -284,7 +284,7 @@ The primary `std::atomic` template may be instantiated with any [TriviallyCopyab
 
 std::atomic<bool> uses the primary template. It is guaranteed to be a [standard layout struct](../language/classes.html#Standard-layout_class "cpp/language/classes") and has a [trivial destructor](../language/destructor.html#Trivial_destructor "cpp/language/destructor"). 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic&action=edit&section=3 "Edit section: Partial specializations")] Partial specializations
+#### Partial specializations
 
 The standard library provides partial specializations of the `std::atomic` template for the following types with additional properties that the primary template does not have: 
 
@@ -293,7 +293,7 @@ The standard library provides partial specializations of the `std::atomic` templ
 3,4) Partial specializations std::atomic<[std::shared_ptr](../memory/shared_ptr.html)<U>> and std::atomic<[std::weak_ptr](../memory/weak_ptr.html)<U>> are provided for [std::shared_ptr](../memory/shared_ptr.html "cpp/memory/shared ptr") and [std::weak_ptr](../memory/weak_ptr.html "cpp/memory/weak ptr"). See [`std::atomic<std::shared_ptr>`](../memory/shared_ptr/atomic2.html "cpp/memory/shared ptr/atomic2") and [`std::atomic<std::weak_ptr>`](../memory/weak_ptr/atomic2.html "cpp/memory/weak ptr/atomic2") for details.  | (since C++20)  
 ---|---  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic&action=edit&section=4 "Edit section: Specializations for integral types")] Specializations for integral types
+#### Specializations for integral types
 
 When instantiated with one of the following integral types, `std::atomic` provides additional atomic operations appropriate to integral types such as [`fetch_add`](atomic/fetch_add.html "cpp/atomic/atomic/fetch add"), [`fetch_sub`](atomic/fetch_sub.html "cpp/atomic/atomic/fetch sub"), [`fetch_and`](atomic/fetch_and.html "cpp/atomic/atomic/fetch and"), [`fetch_or`](atomic/fetch_or.html "cpp/atomic/atomic/fetch or"), [`fetch_xor`](atomic/fetch_xor.html "cpp/atomic/atomic/fetch xor"): 
 
@@ -313,7 +313,7 @@ Additionally, the resulting `std::atomic<_Integral_ >` specialization has standa
 When instantiated with one of the cv-unqualified floating-point types (float, double, long double and cv-unqualified [extended floating-point types](../language/types.html#Extended_floating-point_types "cpp/language/types")(since C++23)), `std::atomic` provides additional atomic operations appropriate to floating-point types such as [`fetch_add`](atomic/fetch_add.html "cpp/atomic/atomic/fetch add") and [`fetch_sub`](atomic/fetch_sub.html "cpp/atomic/atomic/fetch sub"). Additionally, the resulting `std::atomic<_Floating_ >` specialization has standard layout and a trivial destructor. No operations result in undefined behavior even if the result is not representable in the floating-point type. The [floating-point environment](../numeric/fenv.html "cpp/numeric/fenv") in effect may be different from the calling thread's floating-point environment.  | (since C++20)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic&action=edit&section=6 "Edit section: Member types")] Member types
+### Member types
 
 Type  |  Definition   
 ---|---  
@@ -327,70 +327,70 @@ Type  |  Definition
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic&action=edit&section=7 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](atomic/atomic.html "cpp/atomic/atomic/atomic") |  constructs an atomic object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ operator=](atomic/operator=.html "cpp/atomic/atomic/operator=") |  stores a value into an atomic object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_operator%3D&action=edit)  
+(public member function)   
 [ is_lock_free](atomic/is_lock_free.html "cpp/atomic/atomic/is lock free") |  checks if the atomic object is lock-free   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_is_lock_free&action=edit)  
+(public member function)   
 [ store](atomic/store.html "cpp/atomic/atomic/store") |  atomically replaces the value of the atomic object with a non-atomic argument   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_store&action=edit)  
+(public member function)   
 [ load](atomic/load.html "cpp/atomic/atomic/load") |  atomically obtains the value of the atomic object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_load&action=edit)  
+(public member function)   
 [ operator T](atomic/operator_T.html "cpp/atomic/atomic/operator T") |  loads a value from an atomic object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_operator_T&action=edit)  
+(public member function)   
 [ exchange](atomic/exchange.html "cpp/atomic/atomic/exchange") |  atomically replaces the value of the atomic object and obtains the value held previously   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_exchange&action=edit)  
+(public member function)   
 [ compare_exchange_weakcompare_exchange_strong](atomic/compare_exchange.html "cpp/atomic/atomic/compare exchange") |  atomically compares the value of the atomic object with non-atomic argument and performs atomic exchange if equal or atomic load if not   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_compare_exchange&action=edit)  
+(public member function)   
 [ wait](atomic/wait.html "cpp/atomic/atomic/wait")(C++20) |  blocks the thread until notified and the atomic value changes   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_wait&action=edit)  
+(public member function)   
 [ notify_one](atomic/notify_one.html "cpp/atomic/atomic/notify one")(C++20) |  notifies at least one thread waiting on the atomic object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_notify_one&action=edit)  
+(public member function)   
 [ notify_all](atomic/notify_all.html "cpp/atomic/atomic/notify all")(C++20) |  notifies all threads blocked waiting on the atomic object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_notify_all&action=edit)  
+(public member function)   
   
 ###  Constants  
   
 [ is_always_lock_free](atomic/is_always_lock_free.html "cpp/atomic/atomic/is always lock free")[static] (C++17) |  indicates that the type is always lock-free   
-(public static member constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_is_always_lock_free&action=edit)  
+(public static member constant)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic&action=edit&section=8 "Edit section: Specialized member functions")] Specialized member functions
+### Specialized member functions
 
 #####  Specialized for integral, floating-point(since C++20) and pointer types   
   
 ---  
 [ fetch_add](atomic/fetch_add.html "cpp/atomic/atomic/fetch add") |  atomically adds the argument to the value stored in the atomic object and obtains the value held previously   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_fetch_add&action=edit)  
+(public member function)   
 [ fetch_sub](atomic/fetch_sub.html "cpp/atomic/atomic/fetch sub") |  atomically subtracts the argument from the value stored in the atomic object and obtains the value held previously   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_fetch_sub&action=edit)  
+(public member function)   
 [ operator+=operator-=](atomic/operator_arith2.html "cpp/atomic/atomic/operator arith2") |  adds to or subtracts from the atomic value   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_operator_arith2&action=edit)  
+(public member function)   
   
 #####  Specialized for integral and pointer types only   
   
 [ fetch_max](atomic/fetch_max.html "cpp/atomic/atomic/fetch max")(C++26) |  atomically performs [std::max](../algorithm/max.html "cpp/algorithm/max") between the argument and the value of the atomic object and obtains the value held previously   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_fetch_max&action=edit)  
+(public member function)   
 [ fetch_min](atomic/fetch_min.html "cpp/atomic/atomic/fetch min")(C++26) |  atomically performs [std::min](../algorithm/min.html "cpp/algorithm/min") between the argument and the value of the atomic object and obtains the value held previously   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_fetch_min&action=edit)  
+(public member function)   
 [ operator++operator++(int)operator--operator--(int)](atomic/operator_arith.html "cpp/atomic/atomic/operator arith") |  increments or decrements the atomic value by one   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_operator_arith&action=edit)  
+(public member function)   
   
 #####  Specialized for integral types only   
   
 [ fetch_and](atomic/fetch_and.html "cpp/atomic/atomic/fetch and") |  atomically performs bitwise AND between the argument and the value of the atomic object and obtains the value held previously   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_fetch_and&action=edit)  
+(public member function)   
 [ fetch_or](atomic/fetch_or.html "cpp/atomic/atomic/fetch or") |  atomically performs bitwise OR between the argument and the value of the atomic object and obtains the value held previously   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_fetch_or&action=edit)  
+(public member function)   
 [ fetch_xor](atomic/fetch_xor.html "cpp/atomic/atomic/fetch xor") |  atomically performs bitwise XOR between the argument and the value of the atomic object and obtains the value held previously   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_fetch_xor&action=edit)  
+(public member function)   
 [ operator&=operator|=operator^=](atomic/operator_arith3.html "cpp/atomic/atomic/operator arith3") |  performs bitwise AND, OR, XOR with the atomic value   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_operator_arith3&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic&action=edit&section=9 "Edit section: Type aliases")] Type aliases
+### Type aliases
 
 Type aliases are provided for bool and all integral types listed above, as follows: 
 
@@ -398,108 +398,108 @@ Type aliases are provided for bool and all integral types listed above, as follo
   
 ---  
 ** atomic_bool**(C++11) |  std::atomic<bool>   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_atomic_integral_types&action=edit)  
+(typedef)   
 ** atomic_char**(C++11) |  std::atomic<char>   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_atomic_integral_types&action=edit)  
+(typedef)   
 ** atomic_schar**(C++11) |  std::atomic<signed char>   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_atomic_integral_types&action=edit)  
+(typedef)   
 ** atomic_uchar**(C++11) |  std::atomic<unsigned char>   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_atomic_integral_types&action=edit)  
+(typedef)   
 ** atomic_short**(C++11) |  std::atomic<short>   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_atomic_integral_types&action=edit)  
+(typedef)   
 ** atomic_ushort**(C++11) |  std::atomic<unsigned short>   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_atomic_integral_types&action=edit)  
+(typedef)   
 ** atomic_int**(C++11) |  std::atomic<int>   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_atomic_integral_types&action=edit)  
+(typedef)   
 ** atomic_uint**(C++11) |  std::atomic<unsigned int>   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_atomic_integral_types&action=edit)  
+(typedef)   
 ** atomic_long**(C++11) |  std::atomic<long>   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_atomic_integral_types&action=edit)  
+(typedef)   
 ** atomic_ulong**(C++11) |  std::atomic<unsigned long>   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_atomic_integral_types&action=edit)  
+(typedef)   
 ** atomic_llong**(C++11) |  std::atomic<long long>   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_atomic_integral_types&action=edit)  
+(typedef)   
 ** atomic_ullong**(C++11) |  std::atomic<unsigned long long>   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_atomic_integral_types&action=edit)  
+(typedef)   
 ** atomic_char8_t**(C++20) |  std::atomic<char8_t>   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_atomic_integral_types&action=edit)  
+(typedef)   
 ** atomic_char16_t**(C++11) |  std::atomic<char16_t>   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_atomic_integral_types&action=edit)  
+(typedef)   
 ** atomic_char32_t**(C++11) |  std::atomic<char32_t>   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_atomic_integral_types&action=edit)  
+(typedef)   
 ** atomic_wchar_t**(C++11) |  std::atomic<wchar_t>   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_atomic_integral_types&action=edit)  
+(typedef)   
 ** atomic_int8_t**(C++11)(optional) |  std::atomic<[std::int8_t](../types/integer.html)>   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_atomic_integral_types&action=edit)  
+(typedef)   
 ** atomic_uint8_t**(C++11)(optional) |  std::atomic<[std::uint8_t](../types/integer.html)>   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_atomic_integral_types&action=edit)  
+(typedef)   
 ** atomic_int16_t**(C++11)(optional) |  std::atomic<[std::int16_t](../types/integer.html)>   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_atomic_integral_types&action=edit)  
+(typedef)   
 ** atomic_uint16_t**(C++11)(optional) |  std::atomic<[std::uint16_t](../types/integer.html)>   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_atomic_integral_types&action=edit)  
+(typedef)   
 ** atomic_int32_t**(C++11)(optional) |  std::atomic<[std::int32_t](../types/integer.html)>   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_atomic_integral_types&action=edit)  
+(typedef)   
 ** atomic_uint32_t**(C++11)(optional) |  std::atomic<[std::uint32_t](../types/integer.html)>   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_atomic_integral_types&action=edit)  
+(typedef)   
 ** atomic_int64_t**(C++11)(optional) |  std::atomic<[std::int64_t](../types/integer.html)>   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_atomic_integral_types&action=edit)  
+(typedef)   
 ** atomic_uint64_t**(C++11)(optional) |  std::atomic<[std::uint64_t](../types/integer.html)>   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_atomic_integral_types&action=edit)  
+(typedef)   
 ** atomic_int_least8_t**(C++11) |  std::atomic<[std::int_least8_t](../types/integer.html)>   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_atomic_integral_types&action=edit)  
+(typedef)   
 ** atomic_uint_least8_t**(C++11) |  std::atomic<[std::uint_least8_t](../types/integer.html)>   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_atomic_integral_types&action=edit)  
+(typedef)   
 ** atomic_int_least16_t**(C++11) |  std::atomic<[std::int_least16_t](../types/integer.html)>   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_atomic_integral_types&action=edit)  
+(typedef)   
 ** atomic_uint_least16_t**(C++11) |  std::atomic<[std::uint_least16_t](../types/integer.html)>   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_atomic_integral_types&action=edit)  
+(typedef)   
 ** atomic_int_least32_t**(C++11) |  std::atomic<[std::int_least32_t](../types/integer.html)>   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_atomic_integral_types&action=edit)  
+(typedef)   
 ** atomic_uint_least32_t**(C++11) |  std::atomic<[std::uint_least32_t](../types/integer.html)>   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_atomic_integral_types&action=edit)  
+(typedef)   
 ** atomic_int_least64_t**(C++11) |  std::atomic<[std::int_least64_t](../types/integer.html)>   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_atomic_integral_types&action=edit)  
+(typedef)   
 ** atomic_uint_least64_t**(C++11) |  std::atomic<[std::uint_least64_t](../types/integer.html)>   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_atomic_integral_types&action=edit)  
+(typedef)   
 ** atomic_int_fast8_t**(C++11) |  std::atomic<[std::int_fast8_t](../types/integer.html)>   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_atomic_integral_types&action=edit)  
+(typedef)   
 ** atomic_uint_fast8_t**(C++11) |  std::atomic<[std::uint_fast8_t](../types/integer.html)>   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_atomic_integral_types&action=edit)  
+(typedef)   
 ** atomic_int_fast16_t**(C++11) |  std::atomic<[std::int_fast16_t](../types/integer.html)>   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_atomic_integral_types&action=edit)  
+(typedef)   
 ** atomic_uint_fast16_t**(C++11) |  std::atomic<[std::uint_fast16_t](../types/integer.html)>   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_atomic_integral_types&action=edit)  
+(typedef)   
 ** atomic_int_fast32_t**(C++11) |  std::atomic<[std::int_fast32_t](../types/integer.html)>   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_atomic_integral_types&action=edit)  
+(typedef)   
 ** atomic_uint_fast32_t**(C++11) |  std::atomic<[std::uint_fast32_t](../types/integer.html)>   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_atomic_integral_types&action=edit)  
+(typedef)   
 ** atomic_int_fast64_t**(C++11) |  std::atomic<[std::int_fast64_t](../types/integer.html)>   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_atomic_integral_types&action=edit)  
+(typedef)   
 ** atomic_uint_fast64_t**(C++11) |  std::atomic<[std::uint_fast64_t](../types/integer.html)>   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_atomic_integral_types&action=edit)  
+(typedef)   
 ** atomic_intptr_t**(C++11)(optional) |  std::atomic<[std::intptr_t](../types/integer.html)>   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_atomic_integral_types&action=edit)  
+(typedef)   
 ** atomic_uintptr_t**(C++11)(optional) |  std::atomic<[std::uintptr_t](../types/integer.html)>   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_atomic_integral_types&action=edit)  
+(typedef)   
 ** atomic_size_t**(C++11) |  std::atomic<[std::size_t](../types/size_t.html)>   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_atomic_integral_types&action=edit)  
+(typedef)   
 ** atomic_ptrdiff_t**(C++11) |  std::atomic<[std::ptrdiff_t](../types/ptrdiff_t.html)>   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_atomic_integral_types&action=edit)  
+(typedef)   
 ** atomic_intmax_t**(C++11) |  std::atomic<[std::intmax_t](../types/integer.html)>   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_atomic_integral_types&action=edit)  
+(typedef)   
 ** atomic_uintmax_t**(C++11) |  std::atomic<[std::uintmax_t](../types/integer.html)>   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_atomic_integral_types&action=edit)  
+(typedef)   
   
 #####  Aliases for special-purpose types   
   
 ** atomic_signed_lock_free**(C++20) |  a signed integral atomic type that is lock-free and for which waiting/notifying is most efficient   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_atomic_lock_free_aliases&action=edit)  
+(typedef)   
 ** atomic_unsigned_lock_free**(C++20) |  an unsigned integral atomic type that is lock-free and for which waiting/notifying is most efficient   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_atomic_lock_free_aliases&action=edit)  
+(typedef)   
 Note: `std::atomic_int _N_ _t`, `std::atomic_uint _N_ _t`, `std::atomic_intptr_t`, and `std::atomic_uintptr_t` are defined if and only if `std::int _N_ _t`, `std::uint _N_ _t`, [std::intptr_t](../types/integer.html "cpp/types/integer"), and [std::uintptr_t](../types/integer.html "cpp/types/integer") are defined, respectively.  `std::atomic_signed_lock_free` and `std::atomic_unsigned_lock_free` are optional in freestanding implementations.  | (since C++20)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic&action=edit&section=10 "Edit section: Notes")] Notes
+### Notes
 
 There are non-member function template equivalents for all member functions of `std::atomic`. Those non-member functions may be additionally overloaded for types that are not specializations of `std::atomic`, but are able to guarantee atomicity. The only such type in the standard library is [std::shared_ptr](../memory/shared_ptr.html)<U>. 
 
@@ -514,7 +514,7 @@ On GCC and Clang, some of the functionality described here requires linking agai
 [`__cpp_lib_atomic_ref`](../experimental/feature_test.html#cpp_lib_atomic_ref "cpp/feature test") | [`201806L`](../compiler_support/20.html#cpp_lib_atomic_ref_201806L "cpp/compiler support/20") | (C++20) | `std::atomic_ref`  
 [`__cpp_lib_constexpr_atomic`](../experimental/feature_test.html#cpp_lib_constexpr_atomic "cpp/feature test") | [`202411L`](../compiler_support/26.html#cpp_lib_constexpr_atomic_202411L "cpp/compiler support/26") | (C++26) | constexpr `std::atomic` and std::atomic_ref  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic&action=edit&section=11 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -556,7 +556,7 @@ Possible output:
     The atomic counter is 100000
     The non-atomic counter is 69696
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic&action=edit&section=12 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -576,15 +576,15 @@ fail; invalid pointer operations were provided  | specification was substantiall
 member typedefs `value_type`  
 and `difference_type` are added   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic&action=edit&section=13 "Edit section: See also")] See also
+### See also
 
 [ atomic_flag](atomic_flag.html "cpp/atomic/atomic flag")(C++11) |  the lock-free boolean atomic type   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/dsc_atomic_flag&action=edit)  
+(class)   
 ---|---  
 [ std::atomic<std::shared_ptr>](../memory/shared_ptr/atomic2.html "cpp/memory/shared ptr/atomic2")(C++20) |  atomic shared pointer   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/dsc_atomic2&action=edit)  
+(class template specialization)   
 [ std::atomic<std::weak_ptr>](../memory/weak_ptr/atomic2.html "cpp/memory/weak ptr/atomic2")(C++20) |  atomic weak pointer   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/weak_ptr/dsc_atomic2&action=edit)  
+(class template specialization)   
 [C documentation](../../c/language/atomic.html "c/language/atomic") for Atomic types
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

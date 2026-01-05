@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Function objects](../../functional.html "cpp/utility/functional")
 
@@ -255,7 +255,7 @@ Identity function object
 [unary_negate](unary_negate.html "cpp/utility/functional/unary negate")(until C++20*)  
 [binary_negate](binary_negate.html "cpp/utility/functional/binary negate")(until C++20*)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/navbar_content&action=edit)
+
 
 template<   
 class Arg,   
@@ -280,7 +280,7 @@ class Result
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/pointer_to_unary_function&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 (constructor) |  constructs a new `pointer_to_unary_function` object with the supplied function   
 (public member function)  
@@ -318,10 +318,10 @@ x  |  \-  |  argument to pass to the function
 
 The value returned by the called function. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/pointer_to_unary_function&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ pointer_to_binary_function](pointer_to_binary_function.html "cpp/utility/functional/pointer to binary function")(deprecated in C++11)(removed in C++17) |  adaptor-compatible wrapper for a pointer to binary function   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_pointer_to_binary_function&action=edit)  
+(class template)   
 ---|---  
 [ ptr_fun](ptr_fun.html "cpp/utility/functional/ptr fun")(deprecated in C++11)(removed in C++17) |  creates an adaptor-compatible function object wrapper from a pointer to function   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_ptr_fun&action=edit)
+(function template) 

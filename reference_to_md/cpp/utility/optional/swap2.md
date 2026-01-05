@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::optional`](../optional.html "cpp/utility/optional")
 
@@ -167,7 +167,7 @@ Common vocabulary types
 [nullopt](nullopt.html "cpp/utility/optional/nullopt")  
 [in_place](../in_place.html "cpp/utility/in place")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/navbar_content&action=edit)
+
 
 Defined in header `[<optional>](../../header/optional.html "cpp/header/optional")` |  |   
 ---|---|---  
@@ -194,29 +194,29 @@ This overload participates in overload resolution only if [std::is_move_construc
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/swap2&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 lhs, rhs  |  \-  |  `optional` objects whose states to swap   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/swap2&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/swap2&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 [`noexcept`](../../language/noexcept_spec.html "cpp/language/noexcept spec") specification: 
 
 noexcept(noexcept(lhs.swap(rhs)))
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/swap2&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../feature_test.html "cpp/utility/feature test") macro  | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_optional`](../../experimental/feature_test.html#cpp_lib_optional "cpp/feature test") | [`202106L`](../../compiler_support/20.html#cpp_lib_optional_202106L "cpp/compiler support/20") | (C++20)  
 (DR20) | Fully constexpr  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/swap2&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -254,7 +254,7 @@ Output:
     a.reset():   a = (null)  b = ██████
     swap(a, b):  a = ██████  b = (null)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/swap2&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -262,10 +262,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [P2231R1](https://wg21.link/P2231R1) | C++20  | `swap` was not constexpr while the required operations can be constexpr in C++20  | made constexpr  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/swap2&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ swap](swap.html "cpp/utility/optional/swap") |  exchanges the contents   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/dsc_swap&action=edit)  
+(public member function)   
 ---|---
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

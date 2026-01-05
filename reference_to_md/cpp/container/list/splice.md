@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -71,7 +71,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::list`](../list.html "cpp/container/list")
 
@@ -133,7 +133,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/list/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/list/navbar_content&action=edit)
+
 
 void splice( const_iterator pos, list& other ); |  (1) | (constexpr since C++26)  
 ---|---|---  
@@ -193,7 +193,7 @@ No iterators or references become invalidated. If *this and other refer to diffe
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/list/splice&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 pos  |  \-  |  element before which the content will be inserted   
 ---|---|---  
@@ -201,13 +201,13 @@ other  |  \-  |  another container to transfer the content from
 it  |  \-  |  the element to transfer from other to *this  
 first, last  |  \-  |  the pair of iterators defining the [range](../../iterator.html#Ranges "cpp/iterator") of elements to transfer from other to *this  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/list/splice&action=edit&section=2 "Edit section: Complexity")] Complexity
+### Complexity
 
 1-4) Constant.
 
 5,6) Constant if other refers to the same object as *this, otherwise linear in [std::distance](../../iterator/distance.html)(first, last).
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/list/splice&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -250,7 +250,7 @@ Output:
     list1: 1 2 10 20 30 40 50
     list2: 3 4 5
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/list/splice&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -263,10 +263,10 @@ same element(s) in *this
 get_allocator() != other.get_allocator() | the behavior is  
 undefined in this case   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/list/splice&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ merge](merge.html "cpp/container/list/merge") |  merges two sorted lists   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_merge&action=edit)  
+(public member function)   
 ---|---  
 [ removeremove_if](remove.html "cpp/container/list/remove") |  removes elements satisfying specific criteria   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_remove&action=edit)
+(public member function) 

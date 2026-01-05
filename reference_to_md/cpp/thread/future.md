@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 **`std::future`**
 
@@ -191,7 +191,7 @@ State
 [future::wait_for](future/wait_for.html "cpp/thread/future/wait for")  
 [future::wait_until](future/wait_until.html "cpp/thread/future/wait until")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/future/navbar_content&action=edit)
+
 
 Defined in header `[<future>](../header/future.html "cpp/header/future")` |  |   
 ---|---|---  
@@ -226,35 +226,35 @@ Note that `std::future` references shared state that is not shared with any othe
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/future&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](future/future.html "cpp/thread/future/future") |  constructs the future object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/future/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ (destructor)](future/~future.html "cpp/thread/future/~future") |  destructs the future object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/future/dsc_destructor&action=edit)  
+(public member function)   
 [ operator=](future/operator=.html "cpp/thread/future/operator=") |  moves the future object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/future/dsc_operator%3D&action=edit)  
+(public member function)   
 [ share](future/share.html "cpp/thread/future/share") |  transfers the shared state from *this to a [`shared_future`](shared_future.html "cpp/thread/shared future") and returns it   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/future/dsc_share&action=edit)  
+(public member function)   
   
 #####  Getting the result   
   
 [ get](future/get.html "cpp/thread/future/get") |  returns the result   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/future/dsc_get&action=edit)  
+(public member function)   
   
 #####  State   
   
 [ valid](future/valid.html "cpp/thread/future/valid") |  checks if the future has a shared state   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/future/dsc_valid&action=edit)  
+(public member function)   
 [ wait](future/wait.html "cpp/thread/future/wait") |  waits for the result to become available   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/future/dsc_wait&action=edit)  
+(public member function)   
 [ wait_for](future/wait_for.html "cpp/thread/future/wait for") |  waits for the result, returns if it is not available for the specified timeout duration   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/future/dsc_wait_for&action=edit)  
+(public member function)   
 [ wait_until](future/wait_until.html "cpp/thread/future/wait until") |  waits for the result, returns if it is not available until specified time point has been reached   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/future/dsc_wait_until&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/future&action=edit&section=2 "Edit section: Examples")] Examples
+### Examples
 
 Run this code
     
@@ -293,7 +293,7 @@ Output:
     Waiting...Done!
     Results are: 7 8 9
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/future&action=edit&section=3 "Edit section: Example with exceptions")] Example with exceptions
+#### Example with exceptions
 
 Run this code
     
@@ -341,10 +341,10 @@ Output:
     
     Exception from the thread: Example
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/future&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ async](async.html "cpp/thread/async")(C++11) |  runs a function asynchronously (potentially in a new thread) and returns a **std::future** that will hold the result   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_async&action=edit)  
+(function template)   
 ---|---  
 [ shared_future](shared_future.html "cpp/thread/shared future")(C++11) |  waits for a value (possibly referenced by other futures) that is set asynchronously   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_shared_future&action=edit)
+(class template) 

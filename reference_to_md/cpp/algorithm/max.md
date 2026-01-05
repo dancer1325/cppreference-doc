@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](ranges/copy.html "cpp/algorithm/ra
 [uninitialized_default_construct_n](../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -346,7 +346,7 @@ If `T` is not [LessThanComparable](../named_req/LessThanComparable.html "cpp/nam
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/max&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 a, b  |  \-  |  the values to compare   
 ---|---|---  
@@ -355,13 +355,13 @@ comp  |  \-  |  comparison function object (i.e. an object that satisfies the re
 The signature of the comparison function should be equivalent to the following: bool cmp(const Type1& a, const Type2& b); While the signature does not need to have const&, the function must not modify the objects passed to it and must be able to accept all values of type (possibly const) `Type1` and `Type2` regardless of [value category](../language/value_category.html "cpp/language/value category") (thus, Type1& is not allowed, nor is Type1 unless for `Type1` a move is equivalent to a copy(since C++11)).  
 The types Type1 and Type2 must be such that an object of type T can be implicitly converted to both of them.   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/max&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1,2) The greater of a and b. If they are equivalent, returns a.
 
 3,4) The greatest value in ilist. If several values are equivalent to the greatest, returns the leftmost one.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/max&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 1) Exactly one comparison using operator<.
 
@@ -373,7 +373,7 @@ The types Type1 and Type2 must be such that an object of type T can be implicitl
 
 4) Exactly \\(\scriptsize N-1\\)N-1 applications of the comparison function comp.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/max&action=edit&section=4 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
 
 [max (1)](max.html#Version_1)  
 ---  
@@ -412,7 +412,7 @@ The types Type1 and Type2 must be such that an object of type T can be implicitl
         return *[std::max_element](max_element.html)(ilist.begin(), ilist.end(), comp);
     }  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/max&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 Capturing the result of `std::max` by reference produces a dangling reference if one of the parameters is a temporary and that parameter is returned: 
     
@@ -420,7 +420,7 @@ Capturing the result of `std::max` by reference produces a dangling reference if
     int n = -1;
     const int& r = std::max(n + 2, n * 2); // r is dangling
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/max&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -453,7 +453,7 @@ Output:
     Largest of 010, 10, 0X10, and 0B10 is 16
     Longest of "long", "short", and "int" is "short"
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/max&action=edit&section=7 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -466,16 +466,16 @@ overloads ([2](max.html#Version_2)) (C++98) and ([4](max.html#Version_4)) (C++11
 2\. the complexity requirements were missing  | 1\. not required  
 2\. added the requirements   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/max&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [ min](min.html "cpp/algorithm/min") |  returns the smaller of the given values   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_min&action=edit)  
+(function template)   
 ---|---  
 [ minmax](minmax.html "cpp/algorithm/minmax")(C++11) |  returns the smaller and larger of two elements   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_minmax&action=edit)  
+(function template)   
 [ max_element](max_element.html "cpp/algorithm/max element") |  returns the largest element in a range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_max_element&action=edit)  
+(function template)   
 [ clamp](clamp.html "cpp/algorithm/clamp")(C++17) |  clamps a value between a pair of boundary values   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_clamp&action=edit)  
+(function template)   
 [ ranges::max](ranges/max.html "cpp/algorithm/ranges/max")(C++20) |  returns the greater of the given values  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_max&action=edit)
+(algorithm function object)

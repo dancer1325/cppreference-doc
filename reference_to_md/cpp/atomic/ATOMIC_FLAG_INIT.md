@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 Defined in header `[<atomic>](../header/atomic.html "cpp/header/atomic")` |  |   
 ---|---|---  
@@ -188,7 +188,7 @@ This is the only way to initialize [std::atomic_flag](atomic_flag.html "cpp/atom
 ---|---  
 This macro is no longer needed since default constructor of [std::atomic_flag](atomic_flag.html "cpp/atomic/atomic flag") initializes it to clear state. It is kept for the compatibility with C.  | (since C++20)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/ATOMIC_FLAG_INIT&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -204,7 +204,7 @@ Run this code
     //    std::atomic_flag another_flag(ATOMIC_FLAG_INIT); // unspecified
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/ATOMIC_FLAG_INIT&action=edit&section=2 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -215,9 +215,9 @@ can be used with other initialization contexts  | other usages are
 not guaranteed   
 [LWG 3659](https://cplusplus.github.io/LWG/issue3659) | C++20  | `ATOMIC_FLAG_INIT` was deprecated, but needed in C on some platforms  | it is undeprecated   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/ATOMIC_FLAG_INIT&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ atomic_flag](atomic_flag.html "cpp/atomic/atomic flag")(C++11) |  the lock-free boolean atomic type   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/dsc_atomic_flag&action=edit)  
+(class)   
 ---|---  
 [C documentation](../../c/atomic/ATOMIC_FLAG_INIT.html "c/atomic/ATOMIC FLAG INIT") for ATOMIC_FLAG_INIT

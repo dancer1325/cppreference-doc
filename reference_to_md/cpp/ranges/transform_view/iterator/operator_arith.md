@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::transform_view`](../../transform_view.html "cpp/ranges/transform view")
 
@@ -263,7 +263,7 @@ operator-(transform_view::_iterator_)](operator_arith2.html "cpp/ranges/transfor
 [operator==(transform_view::_iterator_ ,transform_view::_sentinel_)](../sentinel/operator_cmp.html "cpp/ranges/transform view/sentinel/operator cmp")  
 [operator-(transform_view::_iterator_ ,transform_view::_sentinel_)](../sentinel/operator-.html "cpp/ranges/transform view/sentinel/operator-")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/transform_view/navbar_content&action=edit)
+
 
 constexpr /*iterator*/& operator++(); |  (1)  |  (since C++20)  
 ---|---|---  
@@ -298,12 +298,12 @@ Let `current_` be the underlying iterator.
 
 7) Equivalent to current_ -= n; return *this;
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/transform_view/iterator/operator_arith&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 n  |  \-  |  position relative to current location   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/transform_view/iterator/operator_arith&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1,4,6,7) *this
 

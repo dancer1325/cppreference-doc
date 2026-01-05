@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Regular expressions library](../../regex.html "cpp/regex")
 
@@ -81,7 +81,7 @@ Constants
 Regex Grammar  
 [Modified ECMAScript-262](../ecmascript.html "cpp/regex/ecmascript")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/navbar_content&action=edit)
+
 
 [`std::regex_token_iterator`](../regex_token_iterator.html "cpp/regex/regex token iterator")
 
@@ -96,7 +96,7 @@ Observers
 Modifiers  
 [regex_token_iterator::operator++regex_token_iterator::operator++(int)](operator_arith.html "cpp/regex/regex token iterator/operator arith")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/regex_token_iterator/navbar_content&action=edit)
+
 
 regex_token_iterator& operator=( const regex_token_iterator& other ); |  |  (since C++11)  
 ---|---|---  
@@ -104,11 +104,11 @@ regex_token_iterator& operator=( const regex_token_iterator& other ); |  |  (sin
   
 Assigns the contents of other. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/regex_token_iterator/operator%3D&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 other  |  \-  |  regex token iterator to assign   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/regex_token_iterator/operator%3D&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 *this

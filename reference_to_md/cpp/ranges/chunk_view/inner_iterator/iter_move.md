@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::chunk_view`](../../chunk_view.html "cpp/ranges/chunk view")
 
@@ -299,7 +299,7 @@ operator-(chunk_view::_iterator_)](../iterator/operator_arith2.html "cpp/ranges/
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/chunk_view/navbar_content&action=edit)
+
 
 friend constexpr auto iter_move( const /*inner-iterator*/& i ) noexcept(/* see below */) |  |  (since C++23)  
 ---|---|---  
@@ -323,23 +323,23 @@ This function is not visible to ordinary [unqualified](../../../language/unquali
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/chunk_view/inner_iterator/iter_move&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 i  |  \-  |  iterator   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/chunk_view/inner_iterator/iter_move&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The result of applying [ranges::iter_move](../../../iterator/ranges/iter_move.html) to the stored iterator of type [ranges::iterator_t](../../iterator_t.html)<V>. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/chunk_view/inner_iterator/iter_move&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 [`noexcept`](../../../language/noexcept_spec.html "cpp/language/noexcept spec") specification: 
 
 noexcept(noexcept([ranges::iter_move](../../../iterator/ranges/iter_move.html)(*i.parent_->current_)))
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/chunk_view/inner_iterator/iter_move&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ iter_move](../../../iterator/ranges/iter_move.html "cpp/iterator/ranges/iter move")(C++20) |  casts the result of dereferencing an object to its associated rvalue reference type  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/ranges/dsc_iter_move&action=edit)  
+(customization point object)  
 ---|---

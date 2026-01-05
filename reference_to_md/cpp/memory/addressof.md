@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 Defined in header `[<memory>](../header/memory.html "cpp/header/memory")` |  |   
 ---|---|---  
@@ -215,16 +215,16 @@ The expression `std::addressof(e)` is a [constant subexpression](../language/con
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/addressof&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 arg  |  \-  |  lvalue object or function   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/addressof&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Pointer to arg. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/addressof&action=edit&section=3 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
 
 The implementation below is not constexpr, because reinterpret_cast is not usable in a constant expression. Compiler support is needed (see below). 
     
@@ -247,7 +247,7 @@ The implementation below is not constexpr, because reinterpret_cast is not usabl
   
 Correct implementation of this function requires compiler support: [GNU libstdc++](https://github.com/gcc-mirror/gcc/blob/b8806796ec64585de39ca6ee3b7b30cc08f27d62/libstdc++-v3/include/bits/move.h#L47-L50), [LLVM libc++](https://github.com/llvm/llvm-project/blob/5146b57b403b3a512dc64e766695b13803ef3b54/libcxx/include/__memory/addressof.h#L21-L28), [Microsoft STL](https://github.com/microsoft/STL/blob/1e312b38db8df1dfbea17adc344454feb8d00dd9/stl/inc/type_traits#L1548-L1551). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/addressof&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../utility/feature_test.html "cpp/utility/feature test") macro | Value | Std | Feature   
 ---|---|---|---  
@@ -270,7 +270,7 @@ There are some weird cases where use of built-in operator& is ill-formed due to 
         std::addressof(x); // OK
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/addressof&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 operator& may be overloaded for a pointer wrapper class to obtain a pointer to pointer:
 
@@ -319,7 +319,7 @@ Possible output:
     int** overload called with p = 0x7fff59ae6e90
     Ptr   overload called with p = 0x7fff59ae6e88
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/addressof&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -327,12 +327,12 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 2598](https://cplusplus.github.io/LWG/issue2598) | C++11  | std::addressof<const T> could take address of rvalues  | disallowed by a deleted overload   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/addressof&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ allocator](allocator.html "cpp/memory/allocator") |  the default allocator   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_allocator&action=edit)  
+(class template)   
 ---|---  
 [ pointer_to](pointer_traits/pointer_to.html "cpp/memory/pointer traits/pointer to")[static] |  obtains a dereferenceable pointer to its argument   
-(public static member function of `std::pointer_traits<Ptr>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/pointer_traits/dsc_pointer_to&action=edit)
+(public static member function of `std::pointer_traits<Ptr>`) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 **`std::indirect`**
 
@@ -206,7 +206,7 @@ management](new.html#Low_level_memory_management "cpp/memory/new")
 [Helper classes](indirect.html#Helper_classes "cpp/memory/indirect")  
 [hash<std::indirect>](indirect/hash.html "cpp/memory/indirect/hash")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/indirect/navbar_content&action=edit)
+
 
 Defined in header `[<memory>](../header/memory.html "cpp/header/memory")` |  |   
 ---|---|---  
@@ -246,7 +246,7 @@ If a program declares an explicit or partial specialization of `std::indirect`, 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/indirect&action=edit&section=1 "Edit section: Template parameters")] Template parameters
+### Template parameters
 
 T  |  \-  |  the type of the owned object   
 ---|---|---  
@@ -267,7 +267,7 @@ Type requirements
 -If `Allocator` does not satisfy the requirements of [Allocator](../named_req/Allocator.html "cpp/named req/Allocator"), the program is ill-formed.   
 -If [std::allocator_traits](allocator_traits.html)<Allocator>::value_type is not the same type as `T`, the program is ill-formed.   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/indirect&action=edit&section=2 "Edit section: Nested types")] Nested types
+### Nested types
 
 Type  |  Definition   
 ---|---  
@@ -276,7 +276,7 @@ Type  |  Definition
 `pointer` |  typename [std::allocator_traits](allocator_traits.html)<Allocator>::pointer  
 `const_pointer` |  typename [std::allocator_traits](allocator_traits.html)<Allocator>::const_pointer  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/indirect&action=edit&section=3 "Edit section: Data members")] Data members
+### Data members
 
 Member  |  Description   
 ---|---  
@@ -285,64 +285,64 @@ Member  |  Description
 `Allocator` `_alloc_` |  the asociated allocator  
 (exposition-only member object*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/indirect&action=edit&section=4 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](indirect/indirect.html "cpp/memory/indirect/indirect") |  constructs the `indirect` object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/indirect/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ (destructor)](indirect/~indirect.html "cpp/memory/indirect/~indirect") |  destroys the owned value, if there is one   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/indirect/dsc_destructor&action=edit)  
+(public member function)   
 [ operator=](indirect/operator=.html "cpp/memory/indirect/operator=") |  assigns contents   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/indirect/dsc_operator%3D&action=edit)  
+(public member function)   
   
 #####  Observers   
   
 [ operator->operator*](indirect/operator*.html "cpp/memory/indirect/operator*") |  accesses the owned value   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/indirect/dsc_operator*&action=edit)  
+(public member function)   
 [ valueless_after_move](indirect/valueless_after_move.html "cpp/memory/indirect/valueless after move") |  checks if the `indirect` is valueless   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/indirect/dsc_valueless_after_move&action=edit)  
+(public member function)   
 [ get_allocator](indirect/get_allocator.html "cpp/memory/indirect/get allocator") |  returns the associated allocator   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/indirect/dsc_get_allocator&action=edit)  
+(public member function)   
   
 #####  Modifiers   
   
 [ swap](indirect/swap.html "cpp/memory/indirect/swap") |  exchanges the contents   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/indirect/dsc_swap&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/indirect&action=edit&section=5 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ operator==operator<=>](indirect/operator_cmp.html "cpp/memory/indirect/operator cmp")(C++26)(C++26) |  compares `indirect` objects   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/indirect/dsc_operator_cmp&action=edit)  
+(function template)   
 ---|---  
 [ std::swap(std::indirect)](indirect/swap2.html "cpp/memory/indirect/swap2")(C++26) |  specializes the [std::swap](../utility/swap.html "cpp/algorithm/swap") algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/indirect/dsc_swap2&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/indirect&action=edit&section=6 "Edit section: Helper classes")] Helper classes
+### Helper classes
 
 [ std::hash<std::indirect>](indirect/hash.html "cpp/memory/indirect/hash")(C++26) |  hash support for **`std::indirect`**   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/indirect/dsc_hash&action=edit)  
+(class template specialization)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/indirect&action=edit&section=7 "Edit section: Deduction guides")] [Deduction guides](indirect/deduction_guides.html "cpp/memory/indirect/deduction guides")
+### [Deduction guides](indirect/deduction_guides.html "cpp/memory/indirect/deduction guides")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/indirect&action=edit&section=8 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../utility/feature_test.html "cpp/utility/feature test") macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_indirect`](../experimental/feature_test.html#cpp_lib_indirect "cpp/feature test") | [`202502L`](../compiler_support/26.html#cpp_lib_indirect_202502L "cpp/compiler support/26") | (C++26) | `std::indirect`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/indirect&action=edit&section=9 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/indirect&action=edit&section=10 "Edit section: See also")] See also
+### See also
 
 [ polymorphic](polymorphic.html "cpp/memory/polymorphic")(C++26) |  a polymorphic wrapper containing dynamically-allocated object with value-like semantics   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_polymorphic&action=edit)  
+(class template)   
 ---|---  
 [ unique_ptr](unique_ptr.html "cpp/memory/unique ptr")(C++11) |  smart pointer with unique object ownership semantics   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_unique_ptr&action=edit)
+(class template) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

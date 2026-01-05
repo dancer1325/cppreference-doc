@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 Defined in header `[<ranges>](../header/ranges.html "cpp/header/ranges")` |  |   
 ---|---|---  
@@ -240,11 +240,11 @@ requires(T& t) {
   
 The `contiguous_range` concept is a refinement of [`range`](range.html "cpp/ranges/range") for which ranges::begin returns a model of [`contiguous_iterator`](../iterator/contiguous_iterator.html "cpp/iterator/contiguous iterator") and the customization point ranges::data is usable. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/contiguous_range&action=edit&section=1 "Edit section: Semantic requirements")] Semantic requirements
+### Semantic requirements
 
 `T` models `contiguous_range` only if given an expression `e` such that decltype((e)) is T&, [std::to_address](../memory/to_address.html)([ranges::begin](begin.html)(e)) == [ranges::data](data.html)(e). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/contiguous_range&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -297,10 +297,10 @@ Run this code
         );
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/contiguous_range&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ ranges::sized_range](sized_range.html "cpp/ranges/sized range")(C++20) |  specifies that a range knows its size in constant time   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_sized_range&action=edit)  
+(concept)   
 ---|---  
 [ ranges::random_access_range](random_access_range.html "cpp/ranges/random access range")(C++20) |  specifies a range whose iterator type satisfies [`random_access_iterator`](../iterator/random_access_iterator.html "cpp/iterator/random access iterator")   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_random_access_range&action=edit)
+(concept) 

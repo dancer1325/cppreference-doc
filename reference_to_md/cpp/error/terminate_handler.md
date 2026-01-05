@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Diagnostics library](../error.html "cpp/error")
 
@@ -89,7 +89,7 @@ Exception handling failures
 [breakpoint_if_debugging](../utility/breakpoint_if_debugging.html "cpp/utility/breakpoint if debugging")(C++26)  
 [breakpoint](../utility/breakpoint.html "cpp/utility/breakpoint")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/navbar_content&action=edit)
+
 
 Defined in header `[<exception>](../header/exception.html "cpp/header/exception")` |  |   
 ---|---|---  
@@ -102,18 +102,18 @@ A `std::terminate_handler` shall terminate execution of the program without retu
 
 The C++ implementation provides a default `std::terminate_handler` function, which calls [std::abort()](../utility/program/abort.html "cpp/utility/program/abort"). If the null pointer value is installed (by means of [std::set_terminate](set_terminate.html "cpp/error/set terminate")), the implementation may restore the default handler instead. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/terminate_handler&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/terminate_handler&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ terminate](terminate.html "cpp/error/terminate") |  function called when exception handling fails   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_terminate&action=edit)  
+(function)   
 ---|---  
 [ set_terminate](set_terminate.html "cpp/error/set terminate") |  changes the function to be called by [std::terminate](terminate.html "cpp/error/terminate")   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_set_terminate&action=edit)  
+(function)   
 [ get_terminate](get_terminate.html "cpp/error/get terminate")(C++11) |  obtains the current terminate_handler   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_get_terminate&action=edit)
+(function) 

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::atomic_ref`](../atomic_ref.html "cpp/atomic/atomic ref")
 
@@ -211,7 +211,7 @@
 [atomic_ref::is_always_lock_free](is_always_lock_free.html "cpp/atomic/atomic ref/is always lock free")  
 [atomic_ref::required_alignment](required_alignment.html "cpp/atomic/atomic ref/required alignment")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic_ref/navbar_content&action=edit)
+
 
 value_type operator=( value_type desired ) const noexcept; |  (1) | (constexpr since C++26)  
 ---|---|---  
@@ -233,20 +233,20 @@ atomic_ref& operator=( const atomic_ref& ) = delete; |  (2)  |
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_ref/operator%3D&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 desired  |  \-  |  value to assign   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_ref/operator%3D&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 As described above. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_ref/operator%3D&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Unlike most assignment operators, the assignment operator for `atomic_ref` does not return a reference to its left-hand argument. It returns a copy of the stored value instead. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_ref/operator%3D&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -255,10 +255,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [LWG 3508](https://cplusplus.github.io/LWG/issue3508)  
 ([P3323R1](https://wg21.link/P3323R1))  | C++20  | assignment operator was meaningless for const T | constrained to accept only non-const `T`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_ref/operator%3D&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ (constructor)](atomic_ref.html "cpp/atomic/atomic ref/atomic ref") |  constructs an `atomic_ref` object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic_ref/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ store](store.html "cpp/atomic/atomic ref/store") |  atomically replaces the value of the referenced object with a non-atomic argument   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic_ref/dsc_store&action=edit)
+(public member function) 

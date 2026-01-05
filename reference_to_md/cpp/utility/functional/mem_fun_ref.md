@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Function objects](../../functional.html "cpp/utility/functional")
 
@@ -255,7 +255,7 @@ Identity function object
 [unary_negate](unary_negate.html "cpp/utility/functional/unary negate")(until C++20*)  
 [binary_negate](binary_negate.html "cpp/utility/functional/binary negate")(until C++20*)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/navbar_content&action=edit)
+
 
 Defined in header `[<functional>](../../header/functional.html "cpp/header/functional")` |  |   
 ---|---|---  
@@ -293,24 +293,24 @@ This function and the related types were deprecated in C++11 and removed in C++1
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/mem_fun_ref&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 f  |  \-  |  pointer to a member function to create a wrapper for   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/mem_fun_ref&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 A function object wrapping f. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/impldef_exception&action=edit&section=T-1 "Template:cpp/impldef exception")] Exceptions
+### Exceptions
 
 May throw implementation-defined exceptions. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/mem_fun_ref&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 The difference between [std::mem_fun](mem_fun.html) and std::mem_fun_ref is that the former produces a function wrapper that expects a pointer to an object, whereas the latter — a reference. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/mem_fun_ref&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Uses `std::mem_fun_ref` to bind [std::string](../../string/basic_string.html "cpp/string/basic string")'s member function [size()](../../string/basic_string/size.html "cpp/string/basic string/size").
 
@@ -337,8 +337,8 @@ Output:
     
     4 4 1 4
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/mem_fun_ref&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ mem_fun](mem_fun.html "cpp/utility/functional/mem fun")(deprecated in C++11)(removed in C++17) |  creates a wrapper from a pointer to member function, callable with a pointer to object   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_mem_fun&action=edit)  
+(function template)   
 ---|---

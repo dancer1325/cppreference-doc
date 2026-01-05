@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Null-terminated byte strings](../byte.html "cpp/string/byte")
 
@@ -143,7 +143,7 @@
 | [strerror](strerror.html "cpp/string/byte/strerror")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/navbar_content&action=edit)
+
 
 Defined in header `[<cstring>](../../header/cstring.html "cpp/header/cstring")` |  |   
 ---|---|---  
@@ -163,12 +163,12 @@ Compares two null-terminated byte strings according to the current locale as def
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/strcoll&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 lhs, rhs  |  \-  |  pointers to the null-terminated byte strings to compare   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/strcoll&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
   * Negative value if lhs is _less than_ (precedes) rhs. 
   * ​0​ if lhs is _equal to_ rhs. 
@@ -176,11 +176,11 @@ lhs, rhs  |  \-  |  pointers to the null-terminated byte strings to compare
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/strcoll&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Collation order is the dictionary order: the position of the letter in the national alphabet (its _equivalence class_) has higher priority than its case or variant. Within an equivalence class, lowercase characters collate before their uppercase equivalents and locale-specific order may apply to the characters with diacritics. In some locales, groups of characters compare as single _collation units_. For example, "ch" in Czech follows "h" and precedes "i", and "dzs" in Hungarian follows "dz" and precedes "g". 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/strcoll&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -218,13 +218,13 @@ Output:
     In the Czech locale: hrnec before chrt
     In lexicographical comparison: chrt before hrnec
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/strcoll&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ wcscoll](../wide/wcscoll.html "cpp/string/wide/wcscoll") |  compares two wide strings in accordance to the current locale   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wcscoll&action=edit)  
+(function)   
 ---|---  
 [ do_compare](../../locale/collate/compare.html "cpp/locale/collate/compare")[virtual] |  compares two strings using this facet's collation rules   
-(virtual protected member function of `std::collate<CharT>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/collate/dsc_do_compare&action=edit)  
+(virtual protected member function of `std::collate<CharT>`)   
 [ strxfrm](strxfrm.html "cpp/string/byte/strxfrm") |  transform a string so that `strcmp` would produce the same result as `strcoll`   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strxfrm&action=edit)  
+(function)   
 [C documentation](../../../c/string/byte/strcoll.html "c/string/byte/strcoll") for strcoll

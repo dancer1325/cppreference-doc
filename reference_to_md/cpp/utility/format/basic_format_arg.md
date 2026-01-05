@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Formatting library](../format.html "cpp/utility/format")
 
@@ -91,7 +91,7 @@ Formatting arguments
 [Format error](format.html#Format_error "cpp/utility/format/format")  
 [format_error](format_error.html "cpp/utility/format/format error")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/navbar_content&action=edit)
+
 
 Defined in header `[<format>](../../header/format.html "cpp/header/format")` |  |   
 ---|---|---  
@@ -137,13 +137,13 @@ A `basic_format_arg` object behaves as if it contains a [std::variant](../varian
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/basic_format_arg&action=edit&section=1 "Edit section: Member classes")] Member classes
+### Member classes
 
 [ handle](basic_format_arg/handle.html "cpp/utility/format/basic format arg/handle")(C++20) |  type-erased wrapper that allows formatting an object of user-defined type   
 (public member class)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/basic_format_arg&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 (constructor)(C++20) |  constructs a `std::basic_format_arg`   
 (public member function)  
@@ -153,10 +153,10 @@ operator bool(C++20) |  checks if the current object holds a formatting argument
 visit(C++26) |  visit the contained formatting argument   
 (public member function)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/basic_format_arg&action=edit&section=3 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ visit_format_arg](visit_format_arg.html "cpp/utility/format/visit format arg")(C++20) (deprecated in C++26) |  argument visitation interface for user-defined formatters   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/dsc_visit_format_arg&action=edit)  
+(function template)   
 ---|---  
   
 ##  std::basic_format_arg::basic_format_arg
@@ -196,22 +196,22 @@ The `visit` functions do not modify the `basic_format_arg` object on which it is
 
 2) Equivalent to return [std::visit](../variant/visit.html)<R>([std::forward](../forward.html)<Visitor>(vis), v);, where `v` is the [std::variant](../variant.html "cpp/utility/variant") contained in arg. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/basic_format_arg&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../feature_test.html "cpp/utility/feature test") macro  | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_format`](../../experimental/feature_test.html#cpp_lib_format "cpp/feature test") | [`202306L`](../../compiler_support/26.html#cpp_lib_format_202306L "cpp/compiler support/26") | (C++26) | Member [`visit`](basic_format_arg.html#visit)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/basic_format_arg&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/basic_format_arg&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ basic_format_argsformat_argswformat_args](basic_format_args.html "cpp/utility/format/basic format args")(C++20)(C++20)(C++20) |  class that provides access to all formatting arguments   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/dsc_basic_format_args&action=edit)  
+(class template)   
 ---|---
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

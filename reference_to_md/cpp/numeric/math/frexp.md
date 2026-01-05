@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [Common mathematical functions](../math.html "cpp/numeric/math")
 
@@ -230,7 +230,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/navbar_content&action=edit)
+
 
 Defined in header `[<cmath>](../../header/cmath.html "cpp/header/cmath")` |  |   
 ---|---|---  
@@ -267,13 +267,13 @@ A) Additional overloads are provided for all integer types, which are treated as
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/frexp&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 num  |  \-  |  floating-point or integer value   
 ---|---|---  
 exp  |  \-  |  pointer to integer value to store the exponent to   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/frexp&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 If num is zero, returns zero and stores zero in *exp. 
 
@@ -282,7 +282,7 @@ Otherwise (if num is not zero), if no errors occur, returns the value x in the r
 
 If the value to be stored in *exp is outside the range of int, the behavior is unspecified. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/frexp&action=edit&section=3 "Edit section: Error handling")] Error handling
+### Error handling
 
 This function is not subject to any errors specified in [math_errhandling](math_errhandling.html "cpp/numeric/math/math errhandling"). 
 
@@ -296,7 +296,7 @@ If the implementation supports IEEE floating-point arithmetic (IEC 60559),
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/frexp&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 On a binary system (where [FLT_RADIX](../../types/climits.html "cpp/types/climits") is 2), `std::frexp` may be implemented as 
     
@@ -310,7 +310,7 @@ The function `std::frexp`, together with its dual, [std::ldexp](ldexp.html "cpp/
 
 The additional overloads are not required to be provided exactly as (A). They only need to be sufficient to ensure that for their argument num of integer type, std::frexp(num, exp) has the same effect as std::frexp(static_cast<double>(num), exp). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/frexp&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Compares different floating-point decomposition functions:
 
@@ -349,15 +349,15 @@ Possible output:
     frexp() makes 0.964453 * 2^7
     logb()/ilogb() make 1.92891 * 2^6
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/frexp&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ ldexpldexpfldexpl](ldexp.html "cpp/numeric/math/ldexp")(C++11)(C++11) |  multiplies a number by 2 raised to an integral power   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_ldexp&action=edit)  
+(function)   
 ---|---  
 [ logblogbflogbl](logb.html "cpp/numeric/math/logb")(C++11)(C++11)(C++11) |  extracts exponent of the number   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_logb&action=edit)  
+(function)   
 [ ilogbilogbfilogbl](ilogb.html "cpp/numeric/math/ilogb")(C++11)(C++11)(C++11) |  extracts exponent of the number   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_ilogb&action=edit)  
+(function)   
 [ modfmodffmodfl](modf.html "cpp/numeric/math/modf")(C++11)(C++11) |  decomposes a number into integer and fractional parts   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_modf&action=edit)  
+(function)   
 [C documentation](../../../c/numeric/math/frexp.html "c/numeric/math/frexp") for frexp

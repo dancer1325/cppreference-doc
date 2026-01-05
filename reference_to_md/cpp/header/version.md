@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header is part of the [language support](../utility.html#Language_support "cpp/utility") library. 
 
@@ -202,11 +202,11 @@ This header supplies implementation-dependent information about the standard lib
 
 Including **`< version>`** also defines all [library feature-test macros](../experimental/feature_test.html#Library_features "cpp/feature test"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/version&action=edit&section=1 "Edit section: Notes")] Notes 
+### Notes 
 
 Prior to C++20, including [`<ciso646>`](ciso646.html "cpp/header/ciso646") is sometimes used for this purpose. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/version&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [**Library feature-test macros**](../utility/feature_test.html "cpp/utility/feature test") |  defined in the header **`< version>`** (C++20)  
 ---|---

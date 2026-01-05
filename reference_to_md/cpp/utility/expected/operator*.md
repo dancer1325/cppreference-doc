@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::expected`](../expected.html "cpp/utility/expected")
 
@@ -160,7 +160,7 @@ Common vocabulary types
 [bad_expected_access](bad_expected_access.html "cpp/utility/expected/bad expected access")  
 [unexpect_tunexpect](unexpect_t.html "cpp/utility/expected/unexpect t")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/expected/navbar_content&action=edit)
+
 
 Primary template |  |   
 ---|---|---  
@@ -201,7 +201,7 @@ If has_value() is false:
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/operator*&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 1,2) [std::addressof](../../memory/addressof.html)(`_[val](../expected.html#val "cpp/utility/expected")_` ﻿)
 
@@ -209,11 +209,11 @@ If has_value() is false:
 
 5,6) std::[`move`](../move.html "cpp/utility/move")(`_[val](../expected.html#val "cpp/utility/expected")_` ﻿)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/operator*&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 These operators do not check whether the optional represents an expected value, users can do so manually by using [`has_value()`](operator_bool.html "cpp/utility/expected/operator bool") or [`operator bool()`](operator_bool.html "cpp/utility/expected/operator bool"). Alternatively, if checked access is needed, [`value()`](value.html "cpp/utility/expected/value") or [`value_or()`](value_or.html "cpp/utility/expected/value or") may be used. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/operator*&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -256,14 +256,14 @@ Possible output:
     taken "Moon"
     ex2: "", size: 0
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/operator*&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ value](value.html "cpp/utility/expected/value") |  returns the expected value   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/expected/dsc_value&action=edit)  
+(public member function)   
 ---|---  
 [ value_or](value_or.html "cpp/utility/expected/value or") |  returns the expected value if present, another value otherwise   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/expected/dsc_value_or&action=edit)  
+(public member function)   
 [ operator boolhas_value](operator_bool.html "cpp/utility/expected/operator bool") |  checks whether the object contains an expected value   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/expected/dsc_operator_bool&action=edit)  
+(public member function)   
 [ error](error.html "cpp/utility/expected/error") |  returns the unexpected value   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/expected/dsc_error&action=edit)
+(public member function) 

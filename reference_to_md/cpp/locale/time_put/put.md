@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Localization library](../../locale.html "cpp/locale")
 
@@ -152,7 +152,7 @@ base classes](../../locale.html#Facet_category_base_classes "cpp/locale")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/navbar_content&action=edit)
+
 
 [`std::time_put`](../time_put.html "cpp/locale/time put")
 
@@ -162,7 +162,7 @@ Member functions
 [time_put::~time_put](~time_put.html "cpp/locale/time put/~time put")  
 **time_put::put time_put::do_put**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/time_put/navbar_content&action=edit)
+
 
 Defined in header `[<locale>](../../header/locale.html "cpp/header/locale")` |  |   
 ---|---|---  
@@ -201,7 +201,7 @@ Converts the calendar date and time stored in the [std::tm](../../chrono/c/tm.ht
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/time_put/put&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 out  |  \-  |  output iterator where the result of the conversion is written   
 ---|---|---  
@@ -213,7 +213,7 @@ fill  |  \-  |  fill character (usually space)
 format  |  \-  |  the character that names a [conversion specifier](put.html#Format_string)  
 modifier  |  \-  |  the optional modifier that may appear between `%` and the [conversion specifier](put.html#Format_string)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/time_put/put&action=edit&section=2 "Edit section: Format string")] Format string
+### Format string
 
 The format string consists of zero or more conversion specifiers and ordinary characters (except `%`). All ordinary characters, including the terminating null character, are copied to the output string without modification. Each conversion specification begins with `%` character, optionally followed by `E` or `O` modifier (ignored if unsupported by the locale), followed by the character that determines the behavior of the specifier. The following format specifiers are available: 
 
@@ -333,17 +333,17 @@ Other
 (C++11) |  writes **offset from UTC** in the ISO 8601 format (e.g. `-0430`), or no characters if the time zone information is not available  |  `**tm_isdst**`  
 `Z` |  writes locale-dependent **time zone name or abbreviation** , or no characters if the time zone information is not available  |  `**tm_isdst**`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/time_put/put&action=edit&section=3 "Edit section: Return value")] Return value
+### Return value
 
 Iterator pointing one past the last character that was produced. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/time_put/put&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 No error handling is provided. 
 
 The fill character is provided for those implementation-defined format specifiers and for the user-defined overrides of `do_put()` that use padding and filling logic. Such implementations typically make use of the formatting flags from str. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/time_put/put&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -392,7 +392,7 @@ Possible output:
     In the locale 'el_GR.utf8' : 'Δευ 11 Φεβ 2013 11:02:38 μμ EST'
     In the locale 'ja_JP.utf8' : '2013年02月11日 23時02分38秒'
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/time_put/put&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -400,10 +400,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 164](https://cplusplus.github.io/LWG/issue164) | C++98  | the purpose of the parameter fill was not clear  | made clear   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/time_put/put&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ put_time](../../io/manip/put_time.html "cpp/io/manip/put time")(C++11) |  formats and outputs a date/time value according to the specified format   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_put_time&action=edit)  
+(function template)   
 ---|---  
 [ do_get](../time_get/get.html "cpp/locale/time get/get")[virtual] (C++11) |  extracts date/time components from input stream, according to the specified format   
-(virtual protected member function of `std::time_get<CharT,InputIt>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/time_get/dsc_do_get&action=edit)
+(virtual protected member function of `std::time_get<CharT,InputIt>`) 

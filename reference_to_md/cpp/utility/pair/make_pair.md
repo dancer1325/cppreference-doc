@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::pair`](../pair.html "cpp/utility/pair")
 
@@ -151,7 +151,7 @@ Common vocabulary types
 [piecewise_construct_t](../piecewise_construct.html "cpp/utility/piecewise construct")(C++11)  
 [Deduction guides](deduction_guides.html "cpp/utility/pair/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/pair/navbar_content&action=edit)
+
 
 Defined in header `[<utility>](../../header/utility.html "cpp/header/utility")` |  |   
 ---|---|---  
@@ -188,12 +188,12 @@ Given types [std::decay](../../types/decay.html)<T1>::type as `U1` and [std::dec
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/pair/make_pair&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 x, y  |  \-  |  the values to construct the pair from   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/pair/make_pair&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 [std::pair](../pair.html)<T1, T2>(x, y) | (until C++11)  
 ---|---  
@@ -202,7 +202,7 @@ x, y  |  \-  |  the values to construct the pair from
 [std::pair](../pair.html)<[std::unwrap_ref_decay_t](../functional/unwrap_reference.html)<T1>, [std::unwrap_ref_decay_t](../functional/unwrap_reference.html)<T2>>  
 ([std::forward](../forward.html)<T1>(x), [std::forward](../forward.html)<T2>(y)) | (since C++20)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/pair/make_pair&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -234,7 +234,7 @@ Output:
     The value of p1 is (1, 2)
     The value of p2 is (7, 3)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/pair/make_pair&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

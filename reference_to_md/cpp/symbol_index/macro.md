@@ -21,7 +21,7 @@
 [Removed symbols (Zombie names)](zombie_names.html "cpp/symbol index/zombie names")  
 [Exposition-only symbols](expos.html "cpp/symbol index/expos")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/symbol_index/navbar_content&action=edit)
+
 
   
 This page tries to list all the [macro](../preprocessor/replace.html "cpp/preprocessor/replace") symbols that are available from the [standard library](../standard_library.html "cpp/standard library"). The symbols are written as follows: 
@@ -65,7 +65,7 @@ This page tries to list all the [macro](../preprocessor/replace.html "cpp/prepro
   
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/macro&action=edit&section=2 "Edit section: \(underscore\)")] _ (underscore)
+### _ (underscore)
 
 [`__alignas_is_defined`](../utility/rtti.html "cpp/types") (since C++11) (deprecated)  
 [`__bool_true_false_are_defined`](../utility/rtti.html "cpp/types") (since C++11) (deprecated)  
@@ -362,7 +362,7 @@ This page tries to list all the [macro](../preprocessor/replace.html "cpp/prepro
 [`_IONBF`](../io/c.html "cpp/io/c")  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/macro&action=edit&section=3 "Edit section: A")] A
+### A
 
 [`assert()`](../error/assert.html "cpp/error/assert")  
 [`ATOMIC_BOOL_LOCK_FREE`](../atomic/atomic_is_lock_free.html "cpp/atomic/atomic is lock free") (since C++11)  
@@ -380,12 +380,12 @@ This page tries to list all the [macro](../preprocessor/replace.html "cpp/prepro
 [`ATOMIC_WCHAR_T_LOCK_FREE`](../atomic/atomic_is_lock_free.html "cpp/atomic/atomic is lock free") (since C++11)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/macro&action=edit&section=4 "Edit section: B")] B
+### B
 
 [`BUFSIZ`](../io/c.html "cpp/io/c")  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/macro&action=edit&section=5 "Edit section: C")] C
+### C
 
 [`CHAR_BIT`](../types/climits.html "cpp/types/climits")  
 [`CHAR_MAX`](../types/climits.html "cpp/types/climits")  
@@ -393,7 +393,7 @@ This page tries to list all the [macro](../preprocessor/replace.html "cpp/prepro
 [`CLOCKS_PER_SEC`](../chrono/c/CLOCKS_PER_SEC.html "cpp/chrono/c/CLOCKS PER SEC")  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/macro&action=edit&section=6 "Edit section: D")] D
+### D
 
 [`DBL_DECIMAL_DIG`](../types/climits.html "cpp/types/climits") (since C++17)  
 [`DBL_DIG`](../types/climits.html "cpp/types/climits")  
@@ -410,7 +410,7 @@ This page tries to list all the [macro](../preprocessor/replace.html "cpp/prepro
 [`DECIMAL_DIG`](../types/climits.html "cpp/types/climits") (since C++11)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/macro&action=edit&section=7 "Edit section: E")] E
+### E
 
 [`E2BIG`](../error/errno_macros.html "cpp/error/errno macros") (since C++11)  
 [`EACCES`](../error/errno_macros.html "cpp/error/errno macros") (since C++11)  
@@ -496,7 +496,7 @@ This page tries to list all the [macro](../preprocessor/replace.html "cpp/prepro
 [`EXIT_SUCCESS`](../utility/program/EXIT_status.html "cpp/utility/program/EXIT status")  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/macro&action=edit&section=8 "Edit section: F")] F
+### F
 
 [`FE_ALL_EXCEPT`](../numeric/fenv/FE_exceptions.html "cpp/numeric/fenv/FE exceptions") (since C++11)  
 [`FE_DFL_ENV`](../numeric/fenv/FE_DFL_ENV.html "cpp/numeric/fenv/FE DFL ENV") (since C++11)  
@@ -538,14 +538,14 @@ This page tries to list all the [macro](../preprocessor/replace.html "cpp/prepro
 [`FP_NORMAL`](../numeric/math/FP_categories.html "cpp/numeric/math/FP categories") (since C++11)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/macro&action=edit&section=9 "Edit section: H")] H
+### H
 
 [`HUGE_VAL`](../numeric/math/HUGE_VALL.html "cpp/numeric/math/HUGE VAL")  
 [`HUGE_VALF`](../numeric/math/HUGE_VALL.html "cpp/numeric/math/HUGE VAL") (since C++11)  
 [`HUGE_VALL`](../numeric/math/HUGE_VALL.html "cpp/numeric/math/HUGE VAL") (since C++11)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/macro&action=edit&section=10 "Edit section: I")] I
+### I
 
 [`INFINITY`](../numeric/math/INFINITY.html "cpp/numeric/math/INFINITY") (since C++11)  
 [`INT_FAST16_MAX`](../types/integer.html "cpp/types/integer") (since C++11)  
@@ -585,7 +585,7 @@ This page tries to list all the [macro](../preprocessor/replace.html "cpp/prepro
 [`INTPTR_MIN`](../types/integer.html "cpp/types/integer") (since C++11)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/macro&action=edit&section=11 "Edit section: L")] L
+### L
 
 [`L_tmpnam`](../io/c.html "cpp/io/c")  
 [`LC_ALL`](../locale/LC_categories.html "cpp/locale/LC categories")  
@@ -612,7 +612,7 @@ This page tries to list all the [macro](../preprocessor/replace.html "cpp/prepro
 [`LONG_MIN`](../types/climits.html "cpp/types/climits")  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/macro&action=edit&section=12 "Edit section: M")] M
+### M
 
 [`MATH_ERREXCEPT`](../numeric/math/math_errhandling.html "cpp/numeric/math/math errhandling") (since C++11)  
 [`math_errhandling`](../numeric/math/math_errhandling.html "cpp/numeric/math/math errhandling") (since C++11)  
@@ -621,19 +621,19 @@ This page tries to list all the [macro](../preprocessor/replace.html "cpp/prepro
 [`MB_LEN_MAX`](../string/multibyte.html "cpp/string/multibyte")  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/macro&action=edit&section=13 "Edit section: N")] N
+### N
 
 [`NAN`](../numeric/math/NAN.html "cpp/numeric/math/NAN") (since C++11)  
 [`NULL`](../types/NULL.html "cpp/types/NULL")  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/macro&action=edit&section=14 "Edit section: O")] O
+### O
 
 [`offsetof()`](../types/offsetof.html "cpp/types/offsetof")  
 [`ONCE_FLAG_INIT`](../thread/call_once.html "cpp/thread/call once") (since C++11)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/macro&action=edit&section=15 "Edit section: P")] P
+### P
 
 [`PRId16`](../types/integer.html "cpp/types/integer") (since C++11)  
 [`PRId32`](../types/integer.html "cpp/types/integer") (since C++11)  
@@ -723,12 +723,12 @@ This page tries to list all the [macro](../preprocessor/replace.html "cpp/prepro
 [`PTRDIFF_MIN`](../types/climits.html "cpp/types/climits") (since C++11)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/macro&action=edit&section=16 "Edit section: R")] R
+### R
 
 [`RAND_MAX`](../numeric/random/RAND_MAX.html "cpp/numeric/random/RAND MAX")  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/macro&action=edit&section=17 "Edit section: S")] S
+### S
 
 [`SCHAR_MAX`](../types/climits.html "cpp/types/climits")  
 [`SCHAR_MIN`](../types/climits.html "cpp/types/climits")  
@@ -825,13 +825,13 @@ This page tries to list all the [macro](../preprocessor/replace.html "cpp/prepro
 [`stdout`](../io/c/std_streams.html "cpp/io/c/std streams")  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/macro&action=edit&section=18 "Edit section: T")] T
+### T
 
 [`TIME_UTC`](../chrono/c/timespec_get.html "cpp/chrono/c/timespec get") (since C++17)  
 [`TMP_MAX`](../io/c.html "cpp/io/c")  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/macro&action=edit&section=19 "Edit section: U")] U
+### U
 
 [`UCHAR_MAX`](../types/climits.html "cpp/types/climits")  
 [`UINT_FAST16_MAX`](../types/integer.html "cpp/types/integer") (since C++11)  
@@ -859,7 +859,7 @@ This page tries to list all the [macro](../preprocessor/replace.html "cpp/prepro
 [`USHRT_MAX`](../types/climits.html "cpp/types/climits")  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/macro&action=edit&section=20 "Edit section: V")] V
+### V
 
 [`va_arg()`](../utility/variadic/va_arg.html "cpp/utility/variadic/va arg")  
 [`va_copy()`](../utility/variadic/va_copy.html "cpp/utility/variadic/va copy") (since C++11)  
@@ -867,7 +867,7 @@ This page tries to list all the [macro](../preprocessor/replace.html "cpp/prepro
 [`va_start()`](../utility/variadic/va_start.html "cpp/utility/variadic/va start")  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/macro&action=edit&section=21 "Edit section: W")] W
+### W
 
 [`WCHAR_MAX`](../types/climits.html "cpp/types/climits") (since C++11)  
 [`WCHAR_MIN`](../types/climits.html "cpp/types/climits") (since C++11)  
@@ -876,7 +876,7 @@ This page tries to list all the [macro](../preprocessor/replace.html "cpp/prepro
 [`WINT_MIN`](../types/climits.html "cpp/types/climits") (since C++11)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/macro&action=edit&section=22 "Edit section: See also")] See also
+### See also
 
 [C documentation](../../c/symbol_index/macro.html "c/symbol index/macro") for Macro Symbol Index  
 ---

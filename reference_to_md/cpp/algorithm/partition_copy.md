@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](ranges/copy.html "cpp/algorithm/ra
 [uninitialized_default_construct_n](../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -347,7 +347,7 @@ Among the input range and the two output ranges, if any two ranges overlap, the 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/partition_copy&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  the pair of iterators defining the source [range](../iterator.html#Ranges "cpp/iterator") of elements to copy from   
 ---|---|---  
@@ -362,17 +362,17 @@ Type requirements
 -`ForwardIt1, ForwardIt2, ForwardIt3` must meet the requirements of [LegacyForwardIterator](../named_req/ForwardIterator.html "cpp/named req/ForwardIterator").   
 -`UnaryPred` must meet the requirements of [Predicate](../named_req/Predicate.html "cpp/named req/Predicate").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/partition_copy&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 A [std::pair](../utility/pair.html "cpp/utility/pair") constructed from the iterator to the end of the d_first_true range and the iterator to the end of the d_first_false range. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/partition_copy&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Exactly [std::distance](../iterator/distance.html)(first, last) applications of p. 
 
 For the overload (2), there may be a performance cost if `ForwardIt`'s value type is not [CopyConstructible](../named_req/CopyConstructible.html "cpp/named req/CopyConstructible"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/partition_copy&action=edit&section=4 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 The overload with a template parameter named `ExecutionPolicy` reports errors as follows: 
 
@@ -381,7 +381,7 @@ The overload with a template parameter named `ExecutionPolicy` reports errors as
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/partition_copy&action=edit&section=5 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
 
 [partition_copy (1)](partition_copy.html#Version_1)  
 ---  
@@ -412,7 +412,7 @@ The overload with a template parameter named `ExecutionPolicy` reports errors as
         return [std::pair](../utility/pair.html)<OutputIt1, OutputIt2>(d_first_true, d_first_false);
     }  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/partition_copy&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -448,7 +448,7 @@ Output:
     true_arr:  5 6 7 8 9
     false_arr: 0 1 2 3 4
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/partition_copy&action=edit&section=7 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -461,16 +461,16 @@ was required to be [CopyAssignable](../named_req/CopyAssignable.html "cpp/named 
 2\. the behavior is  
 undefined in this case   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/partition_copy&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [ partition](partition.html "cpp/algorithm/partition") |  divides a range of elements into two groups   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_partition&action=edit)  
+(function template)   
 ---|---  
 [ stable_partition](stable_partition.html "cpp/algorithm/stable partition") |  divides elements into two groups while preserving their relative order   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_stable_partition&action=edit)  
+(function template)   
 [ copycopy_if](copy.html "cpp/algorithm/copy")(C++11) |  copies a range of elements to a new location   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_copy&action=edit)  
+(function template)   
 [ remove_copyremove_copy_if](remove_copy.html "cpp/algorithm/remove copy") |  copies a range of elements omitting those that satisfy specific criteria   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_remove_copy&action=edit)  
+(function template)   
 [ ranges::partition_copy](ranges/partition_copy.html "cpp/algorithm/ranges/partition copy")(C++20) |  copies a range dividing the elements into two groups  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_partition_copy&action=edit)
+(algorithm function object)

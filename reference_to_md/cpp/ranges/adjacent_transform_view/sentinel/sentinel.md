@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::adjacent_transform_view`](../../adjacent_transform_view.html "cpp/ranges/adjacent transform view")
 
@@ -262,7 +262,7 @@ Non-member functions
 [operator==(adjacent_transform_view::_iterator_ ,adjacent_transform_view::_sentinel_)](operator_cmp.html "cpp/ranges/adjacent transform view/sentinel/operator cmp")  
 [operator-(adjacent_transform_view::_iterator_ ,adjacent_transform_view::_sentinel_)](operator-.html "cpp/ranges/adjacent transform view/sentinel/operator-")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adjacent_transform_view/navbar_content&action=edit)
+
 
 /*sentinel*/() = default; |  (1)  |  (since C++23)  
 ---|---|---  
@@ -281,13 +281,13 @@ Construct a sentinel.
 
 3) This sentinel also has a private constructor which is used by ranges::adjacent_transform_view::end. This constructor is not accessible to users. Initializes the underlying sentinel [`_inner__`](../sentinel.html#Data_members "cpp/ranges/adjacent transform view/sentinel") with inner.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/adjacent_transform_view/sentinel/sentinel&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 i  |  \-  |  an /*sentinel*/<false>  
 ---|---|---  
 inner  |  \-  |  a sentinel of type adjacent_transform_view::[`_inner_sentinel_`](../../adjacent_transform_view.html#Member_types "cpp/ranges/adjacent transform view")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/adjacent_transform_view/sentinel/sentinel&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

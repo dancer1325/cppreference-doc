@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::enumerate_view`](../enumerate_view.html "cpp/ranges/enumerate view")
 
@@ -261,7 +261,7 @@ operator-(enumerate_view::_iterator_)](iterator/operator_arith2.html "cpp/ranges
 [operator==(enumerate_view::_iterator_ ,enumerate_view::_sentinel_)](sentinel/operator_cmp.html "cpp/ranges/enumerate view/sentinel/operator cmp")  
 [operator-(enumerate_view::_iterator_ ,enumerate_view::_sentinel_)](sentinel/operator-.html "cpp/ranges/enumerate view/sentinel/operator-")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/enumerate_view/navbar_content&action=edit)
+
 
 template< bool Const >  
 class /*sentinel*/; |  |  (since C++23)   
@@ -286,43 +286,43 @@ The type /*sentinel*/<true> is returned by the const-qualified overload. The typ
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/enumerate_view/sentinel&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Member type  |  Definition   
 ---|---  
 `_Base_` (private) |  const V if `Const` is true, otherwise V.  
 (exposition-only member type*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/enumerate_view/sentinel&action=edit&section=2 "Edit section: Data members")] Data members
+### Data members
 
 Member object  |  Definition   
 ---|---  
 `_end__` (private) |  A sentinel of type [ranges::sentinel_t](../iterator_t.html)<Base>  
 (exposition-only member object*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/enumerate_view/sentinel&action=edit&section=3 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](sentinel/sentinel.html "cpp/ranges/enumerate view/sentinel/sentinel") |  constructs a sentinel   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/sentinel/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ base](sentinel/base.html "cpp/ranges/enumerate view/sentinel/base") |  returns a sentinel indicating the end of a range   
 (public member function)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/enumerate_view/sentinel&action=edit&section=4 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ operator==](sentinel/operator_cmp.html "cpp/ranges/enumerate view/sentinel/operator cmp")(C++23) |  compares a sentinel with an iterator returned from [`enumerate_view::begin`](begin.html "cpp/ranges/enumerate view/begin")   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/sentinel/dsc_operator_cmp&action=edit)  
+(function)   
 ---|---  
 [ operator-](sentinel/operator-.html "cpp/ranges/enumerate view/sentinel/operator-")(C++23) |  computes the distance between a sentinel and an iterator returned from [`enumerate_view::begin`](begin.html "cpp/ranges/enumerate view/begin")   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/sentinel/dsc_operator-&action=edit)  
+(function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/enumerate_view/sentinel&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/enumerate_view/sentinel&action=edit&section=6 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -334,6 +334,6 @@ Reason: no example
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/enumerate_view/sentinel&action=edit&section=7 "Edit section: See also")] See also  
+### See also  
   
 ---

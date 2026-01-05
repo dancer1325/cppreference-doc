@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::shared_ptr`](../shared_ptr.html "cpp/memory/shared ptr")
 
@@ -220,7 +220,7 @@ Helper classes
 **hash <std::shared_ptr>**  
 [Deduction guides](deduction_guides.html "cpp/memory/shared ptr/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/navbar_content&action=edit)
+
 
 template< class T >  
 struct hash<[std::shared_ptr](../shared_ptr.html)<T>>; |  |  (since C++11)  
@@ -231,14 +231,14 @@ The template specialization of [std::hash](../../utility/hash.html "cpp/utility/
 
 For a given [std::shared_ptr](../shared_ptr.html)<T> p, this specialization ensures that [std::hash](../../utility/hash.html)<[std::shared_ptr](../shared_ptr.html)<T>>()(p) == [std::hash](../../utility/hash.html)<decltype(p.get())>()(p.get()). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/hash&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/hash&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ hash](../../utility/hash.html "cpp/utility/hash")(C++11) |  hash function object   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_hash&action=edit)  
+(class template)   
 ---|---

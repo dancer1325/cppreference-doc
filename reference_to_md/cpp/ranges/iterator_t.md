@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 Defined in header `[<ranges>](../header/ranges.html "cpp/header/ranges")` |  |   
 ---|---|---  
@@ -256,17 +256,17 @@ using const_sentinel_t = decltype([ranges::cend](cend.html)([std::declval](../ut
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/iterator_t&action=edit&section=1 "Edit section: Template parameters")] Template parameters
+### Template parameters
 
 T  |  \-  |  a type that can be used in [std::ranges::begin](begin.html "cpp/ranges/begin")  
 ---|---|---  
 R  |  \-  |  a [`range`](range.html "cpp/ranges/range") type or a [`sized_range`](sized_range.html "cpp/ranges/sized range") type   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/iterator_t&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 `iterator_t` can be applied to non-range types, e.g. arrays with unknown bound. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/iterator_t&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -275,12 +275,12 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [LWG 3946](https://cplusplus.github.io/LWG/issue3946) | C++23  | `const_iterator_t` and `const_sentinel_t` were inconsistent  
 with the result of `ranges::cbegin` and `ranges::cend` respectively  | tweaked   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/iterator_t&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ iter_value_titer_reference_titer_const_reference_titer_difference_titer_rvalue_reference_titer_common_reference_t](../iterator/iter_t.html "cpp/iterator/iter t")(C++20)(C++20)(C++23)(C++20)(C++20)(C++20) |  computes the associated types of an iterator  
-(alias template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_iter_t&action=edit)  
+(alias template)  
 ---|---  
 [ ranges::range_difference_tranges::range_size_tranges::range_value_t](range_size_t.html "cpp/ranges/range size t")(C++20)(C++20)(C++20) |  obtains size, difference, and value types of a range  
-(alias template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_range_size_t&action=edit)  
+(alias template)  
 [ ranges::range_reference_tranges::range_const_reference_tranges::range_rvalue_reference_tranges::range_common_reference_t](range_reference_t.html "cpp/ranges/range reference t")(C++20)(C++23)(C++20)(C++20) |  obtains reference types of a range  
-(alias template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_range_reference_t&action=edit)
+(alias template)

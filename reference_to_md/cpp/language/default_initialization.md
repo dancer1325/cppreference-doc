@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Initialization](initialization.html "cpp/language/initialization")
 
@@ -244,7 +244,7 @@ Miscellaneous
 [Member initializer list](initializer_list.html "cpp/language/initializer list")  
 [Default member initializer](data_members.html#Member_initialization "cpp/language/data members") (C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/initialization/navbar_content&action=edit)
+
 
 This is the initialization performed when an object is constructed with no initializer. 
 
@@ -263,13 +263,13 @@ This is the initialization performed when an object is constructed with no initi
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/default_initialization&action=edit&section=1 "Edit section: Syntax")] Syntax  
+### Syntax  
   
 ---  
 T object ﻿`**;**` |  (1)  |   
 `**new**` T |  (2)  |   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/default_initialization&action=edit&section=2 "Edit section: Explanation")] Explanation
+### Explanation
 
 Default-initialization is performed in three situations: 
 
@@ -288,7 +288,7 @@ The effects of default-initialization are:
 Only (possibly cv-qualified) non-POD class types (or arrays thereof) with automatic storage duration were considered to be default-initialized when no initializer is used. Scalars and POD types with dynamic storage duration were considered to be not initialized (since C++11, this situation was reclassified as a form of default-initialization).  | (until C++11)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/default_initialization&action=edit&section=3 "Edit section: Default-initialization of a const object")] Default-initialization of a const object
+### Default-initialization of a const object
 
 If a program calls for the default-initialization of an object of a [const](cv.html "cpp/language/cv")-qualified type `T`, T shall be a _const-default-constructible_ class type or array thereof. 
 
@@ -308,7 +308,7 @@ A class type `T` is const-default-constructible if default-initialization of `T`
   
 each [potentially constructed](objects.html#Potentially_constructed_subobjects "cpp/language/object") base class of `T` is const-default-constructible. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/default_initialization&action=edit&section=4 "Edit section: Indeterminate and erroneous values")] Indeterminate and erroneous values
+### Indeterminate and erroneous values
 
 When storage for an object with automatic or dynamic storage duration is obtained, the object has an _indeterminate value_. If no initialization is performed for an object, that object retains an indeterminate value until that value is replaced.  | (until C++26)  
 ---|---  
@@ -329,7 +329,7 @@ If an evaluation produces an indeterminate value, the behavior is [undefined](ub
 If an evaluation produces an erroneous value, the behavior is [erroneous](ub.html "cpp/language/ub").  | (since C++26)  
 ---|---  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/default_initialization&action=edit&section=5 "Edit section: Special cases")] Special cases
+#### Special cases
 
 The following types are _uninitialized-friendly_ : 
 
@@ -442,7 +442,7 @@ Converting an erroneous value of an uninitialized-friendly type produces an erro
         [assert](../error/assert.html)(e2 == d2); // holds, undefined/erroneous behavior
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/default_initialization&action=edit&section=6 "Edit section: Notes")] Notes
+### Notes
 
 References and const scalar objects cannot be default-initialized. 
 
@@ -450,7 +450,7 @@ Feature-test macro | Value | Std | Feature
 ---|---|---|---  
 [`__cpp_constexpr`](../experimental/feature_test.html#cpp_constexpr "cpp/feature test") | [`201907L`](../compiler_support/20.html#cpp_constexpr_201907L "cpp/compiler support/20") | (C++20) | Trivial default-initialization and [asm-declaration](asm.html "cpp/language/asm") in constexpr functions   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/default_initialization&action=edit&section=7 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -484,7 +484,7 @@ Run this code
                           // t2.mem is default-initialized
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/default_initialization&action=edit&section=8 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -501,7 +501,7 @@ uninitialized object was always UB  | indeterminate unsigned char is allowed
 [CWG 1787](https://cplusplus.github.io/CWG/issues/1787.html) | C++98  | read from an indeterminate unsigned char  
 cached in a register was UB  | made well-defined   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/default_initialization&action=edit&section=9 "Edit section: See also")] See also
+### See also
 
   * [converting constructor](converting_constructor.html "cpp/language/converting constructor")
   * [default constructor](default_constructor.html "cpp/language/default constructor")

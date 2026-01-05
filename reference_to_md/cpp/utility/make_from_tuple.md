@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 Defined in header `[<tuple>](../header/tuple.html "cpp/header/tuple")` |  |   
 ---|---|---  
@@ -180,16 +180,16 @@ the program is ill-formed.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/make_from_tuple&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 t  |  \-  |  tuple whose elements to be used as arguments to the constructor of `T`  
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/make_from_tuple&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The constructed `T` object or reference. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/make_from_tuple&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 `Tuple` need not be [std::tuple](tuple.html "cpp/utility/tuple"), and instead may be anything that supports [`std::get`](tuple/get.html "cpp/utility/tuple/get") and [`std::tuple_size`](tuple_size.html "cpp/utility/tuple size"); in particular, [std::array](../container/array.html "cpp/container/array") and [std::pair](pair.html "cpp/utility/pair") may be used.  | (until C++23)  
 ---|---  
@@ -201,7 +201,7 @@ Due to [guaranteed copy elision](../language/copy_elision.html "cpp/language/cop
 ---|---|---|---  
 [`__cpp_lib_make_from_tuple`](../experimental/feature_test.html#cpp_lib_make_from_tuple "cpp/feature test") | [`201606L`](../compiler_support/17.html#cpp_lib_make_from_tuple_201606L "cpp/compiler support/17") | (C++17) | `std::make_from_tuple`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/make_from_tuple&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -228,7 +228,7 @@ Output:
     
     42, 3.14, 0
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/make_from_tuple&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -236,14 +236,14 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 3528](https://cplusplus.github.io/LWG/issue3528) | C++17  | cast containing reinterpret_cast etc. was allowed in the case of 1-tuple  | prohibited   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/make_from_tuple&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ make_tuple](tuple/make_tuple.html "cpp/utility/tuple/make tuple")(C++11) |  creates a `tuple` object of the type defined by the argument types   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/dsc_make_tuple&action=edit)  
+(function template)   
 ---|---  
 [ forward_as_tuple](tuple/forward_as_tuple.html "cpp/utility/tuple/forward as tuple")(C++11) |  creates a `tuple` of [forwarding references](../language/reference.html#Forwarding_references "cpp/language/reference")   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/dsc_forward_as_tuple&action=edit)  
+(function template)   
 [ apply](apply.html "cpp/utility/apply")(C++17) |  calls a function with a tuple of arguments   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_apply&action=edit)
+(function template) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

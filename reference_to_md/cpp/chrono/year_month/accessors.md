@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::year_month`](../year_month.html "cpp/chrono/year month")
 
@@ -120,7 +120,7 @@ Helper classes
 [formatter<std::chrono::year_month>](formatter.html "cpp/chrono/year month/formatter")  
 [hash<std::chrono::year_month>](hash.html "cpp/chrono/year month/hash")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/year_month/navbar_content&action=edit)
+
 
 constexpr [std::chrono::year](../year.html) year() const noexcept; |  (1)  |  (since C++20)  
 ---|---|---  
@@ -129,13 +129,13 @@ constexpr [std::chrono::month](../month.html) month() const noexcept; |  (2)  | 
   
 Retrieves the year and month values stored in this `year_month` object. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/year_month/accessors&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 1) Returns the stored std::chrono::year value.
 
 2) Returns the stored std::chrono::month value.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/year_month/accessors&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     

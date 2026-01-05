@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](ranges/copy.html "cpp/algorithm/ra
 [uninitialized_default_construct_n](../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -332,7 +332,7 @@ If *first is not [Swappable](../named_req/Swappable.html "cpp/named req/Swappabl
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/reverse&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  the pair of iterators defining the [range](../iterator.html#Ranges "cpp/iterator") of elements to reverse   
 ---|---|---  
@@ -340,11 +340,11 @@ policy  |  \-  |  the [execution policy](execution_policy_tag_t.html "cpp/algori
 Type requirements   
 -`BidirIt` must meet the requirements of [LegacyBidirectionalIterator](../named_req/BidirectionalIterator.html "cpp/named req/BidirectionalIterator").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/reverse&action=edit&section=2 "Edit section: Complexity")] Complexity
+### Complexity
 
 Exactly [std::distance](../iterator/distance.html)(first, last) / 2 swaps. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/reverse&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 The overload with a template parameter named `ExecutionPolicy` reports errors as follows: 
 
@@ -353,7 +353,7 @@ The overload with a template parameter named `ExecutionPolicy` reports errors as
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/reverse&action=edit&section=4 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
 
 See also the implementations in [libstdc++](https://github.com/gcc-mirror/gcc/blob/14d8a5ae472ca5743016f37da2dd4770d83dea21/libstdc%2B%2B-v3/include/bits/stl_algo.h#L1087-L1152), [libc++](https://github.com/llvm/llvm-project/blob/6adbc83ee9e46b476e0f75d5671c3a21f675a936/libcxx/include/__algorithm/reverse.h), and [MSVC STL](https://github.com/microsoft/STL/blob/472161105d596192194d4715ccad307c6c163b4a/stl/inc/xutility#L5335-L5370). 
     
@@ -381,11 +381,11 @@ See also the implementations in [libstdc++](https://github.com/gcc-mirror/gcc/bl
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/reverse&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 Implementations (e.g. [MSVC STL](https://github.com/microsoft/STL/blob/main/stl/src/vector_algorithms.cpp)) may enable vectorization when the iterator type satisfies [LegacyContiguousIterator](../named_req/ContiguousIterator.html "cpp/named req/ContiguousIterator") and swapping its value type calls neither non-trivial special member function nor [ADL](../language/adl.html "cpp/language/adl")-found `swap`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/reverse&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -419,7 +419,7 @@ Output:
     after reverse, v = 3 2 1
     after reverse, a = 7 6 5 4
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/reverse&action=edit&section=7 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -429,10 +429,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [LWG 2039](https://cplusplus.github.io/LWG/issue2039) | C++98  | [std::iter_swap](iter_swap.html "cpp/algorithm/iter swap") was also applied when i  
 equals [std::distance](../iterator/distance.html)(first, last) / 2 | not applied   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/reverse&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [ reverse_copy](reverse_copy.html "cpp/algorithm/reverse copy") |  creates a copy of a range that is reversed   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_reverse_copy&action=edit)  
+(function template)   
 ---|---  
 [ ranges::reverse](ranges/reverse.html "cpp/algorithm/ranges/reverse")(C++20) |  reverses the order of elements in a range  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_reverse&action=edit)
+(algorithm function object)

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::expected`](../expected.html "cpp/utility/expected")
 
@@ -160,7 +160,7 @@ Common vocabulary types
 [bad_expected_access](bad_expected_access.html "cpp/utility/expected/bad expected access")  
 [unexpect_tunexpect](unexpect_t.html "cpp/utility/expected/unexpect t")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/expected/navbar_content&action=edit)
+
 
 Main template |  |   
 ---|---|---  
@@ -219,12 +219,12 @@ If `U` is not a specialization of `std::expected`, or [std::is_same_v](../../typ
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/and_then&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 f  |  \-  |  a suitable function or [Callable](../../named_req/Callable.html "cpp/named req/Callable") object that returns a std::expected  
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/and_then&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Overload  | Value of [`has_value()`](operator_bool.html "cpp/utility/expected/operator bool")  
 ---|---  
@@ -234,19 +234,19 @@ true | false
 ([5,6](and_then.html#Version_5)) | [std::invoke](../functional/invoke.html)([std::forward](../forward.html)<F>(f)) | U([std::unexpect](unexpect_t.html), error())  
 ([7,8](and_then.html#Version_7)) | U([std::unexpect](unexpect_t.html), std::move(error()))  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/and_then&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../feature_test.html "cpp/utility/feature test") macro  | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_expected`](../../experimental/feature_test.html#cpp_lib_expected "cpp/feature test") | [`202211L`](../../compiler_support/23.html#cpp_lib_expected_202211L "cpp/compiler support/23") | (C++23) | Monadic functions for `std::expected`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/and_then&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/and_then&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -260,12 +260,12 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/and_then&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ unexpectunexpect_t](unexpect_t.html "cpp/utility/expected/unexpect t")(C++23) |  in-place construction tag for unexpected value in `expected`  
-(tag)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/expected/dsc_unexpect_t&action=edit)  
+(tag)  
 ---|---  
 [ transform](transform.html "cpp/utility/expected/transform") |  returns an `expected` containing the transformed expected value if it exists; otherwise, returns the `expected` itself   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/expected/dsc_transform&action=edit)
+(public member function) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

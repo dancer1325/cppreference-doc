@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Initialization](initialization.html "cpp/language/initialization")
 
@@ -244,7 +244,7 @@ Miscellaneous
 [Member initializer list](initializer_list.html "cpp/language/initializer list")  
 [Default member initializer](data_members.html#Member_initialization "cpp/language/data members") (C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/initialization/navbar_content&action=edit)
+
 
 Initializes an object from explicit set of constructor arguments. 
 
@@ -259,7 +259,7 @@ Initializes an object from explicit set of constructor arguments.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/direct_initialization&action=edit&section=1 "Edit section: Syntax")] Syntax  
+### Syntax  
   
 ---  
 T object `**(**` arg `**);**` T object `**(**` arg1, arg2, ... `**);**` |  (1)  |   
@@ -270,7 +270,7 @@ T `**(**` other `**)**` T `**(**` arg1, arg2, ... `**)**` |  (3)  |
 Class`**::**` Class`**()**` `**:**` member`**(**` args, ... `**)**` `**{**` ... `**}**` |  (6)  |   
 `**[**` arg`**]() {**` ... `**}**` |  (7)  |  (since C++11)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/direct_initialization&action=edit&section=2 "Edit section: Explanation")] Explanation
+### Explanation
 
 Direct-initialization is performed in the following situations: 
 
@@ -370,7 +370,7 @@ The effects of direct-initialization are:
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/direct_initialization&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Direct-initialization is more permissive than copy-initialization: copy-initialization only considers non-[explicit](explicit.html "cpp/language/explicit") constructors and non-explicit user-defined [conversion functions](cast_operator.html "cpp/language/cast operator"), while direct-initialization considers all constructors and all user-defined conversion functions. 
 
@@ -405,7 +405,7 @@ Run this code
         [std::string](../string/basic_string.html) str2([std::istreambuf_iterator](../iterator/istreambuf_iterator.html)<char>{file}, {});
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/direct_initialization&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -441,7 +441,7 @@ Output:
     
     test aaaaaaaaaa 1 2
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/direct_initialization&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
   * [copy elision](copy_elision.html "cpp/language/copy elision")
   * [converting constructor](converting_constructor.html "cpp/language/converting constructor")

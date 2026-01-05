@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concepts library](../concepts.html "cpp/concepts")
 
@@ -73,7 +73,7 @@
 ---  
 [_boolean-testable_](boolean-testable.html "cpp/concepts/boolean-testable") ﻿(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/navbar_content&action=edit)
+
 
 Defined in header `[<concepts>](../header/concepts.html "cpp/header/concepts")` |  |   
 ---|---|---  
@@ -95,7 +95,7 @@ std::same_as<T, U> [subsumes](../language/constraints.html#Partial_ordering_of_c
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/concepts/same_as&action=edit&section=1 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     namespace detail
@@ -109,7 +109,7 @@ std::same_as<T, U> [subsumes](../language/constraints.html#Partial_ordering_of_c
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/concepts/same_as&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -139,7 +139,7 @@ Output:
     
     Example: 3.14 : 42 : [a-Z]
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/concepts/same_as&action=edit&section=3 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -161,8 +161,8 @@ Output:
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/concepts/same_as&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ is_same](../types/is_same.html "cpp/types/is same")(C++11) |  checks if two types are the same   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_same&action=edit)  
+(class template)   
 ---|---

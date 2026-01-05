@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::duration`](../duration.html "cpp/chrono/duration")
 
@@ -156,7 +156,7 @@ Helper classes
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/duration/navbar_content&action=edit)
+
 
 Defined in header `[<chrono>](../../header/chrono.html "cpp/header/chrono")` |  |   
 ---|---|---  
@@ -213,11 +213,11 @@ None of the above  |  `[_num_ /_den_]s`
   
 For the last two rows of the table, `_num_` and `_den_` in the suffix are `Period::type::num` and `Period::type::den` formatted as a decimal number with no leading zeroes, respectively. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/duration/operator_ltlt&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 A reference to the stream, i.e., os. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/duration/operator_ltlt&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 This example shows the output of `std::chrono::operator<<` when given a duration:
 
@@ -239,16 +239,16 @@ Output:
     
     123ms
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/duration/operator_ltlt&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ format](../../utility/format/format.html "cpp/utility/format/format")(C++20) |  stores formatted representation of the arguments in a new string   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/dsc_format&action=edit)  
+(function template)   
 ---|---  
 [ std::formatter<std::chrono::duration>](formatter.html "cpp/chrono/duration/formatter")(C++20) |  formatting support for `duration`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_formatter&action=edit)  
+(class template specialization)   
 [ operator<<operator>>](../../string/basic_string/operator_ltltgtgt.html "cpp/string/basic string/operator ltltgtgt") |  performs stream input and output on strings   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_operator_ltltgtgt&action=edit)  
+(function template)   
 [ to_string](../../string/basic_string/to_string.html "cpp/string/basic string/to string")(C++11) |  converts an integral or floating-point value to `string`   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_to_string&action=edit)  
+(function)   
 [ to_wstring](../../string/basic_string/to_wstring.html "cpp/string/basic string/to wstring")(C++11) |  converts an integral or floating-point value to `wstring`   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_to_wstring&action=edit)
+(function) 

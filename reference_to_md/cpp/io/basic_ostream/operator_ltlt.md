@@ -136,20 +136,20 @@ basic_ostream& operator<<(
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_ostream/operator_ltlt&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 value  |  \-  |  integer, floating-point, boolean, or pointer value to insert   
 ---|---|---  
 func  |  \-  |  function to call   
 sb  |  \-  |  pointer to the stream buffer to read the data from   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_ostream/operator_ltlt&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1-19) *this
 
 20) func(*this)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_ostream/operator_ltlt&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 There are no overloads for pointers to non-static members, pointers to volatiles,(until C++23) or function pointers (other than the ones with signatures accepted by the ([18-20](operator_ltlt.html#Version_18)) overloads). 
 
@@ -166,7 +166,7 @@ Character and character string arguments (e.g., of type char or const char*) are
 
 Overload (10) was added by the resolution of [LWG issue 2221](https://cplusplus.github.io/LWG/issue2221), but it is never implemented in any standard library implementation under C++11/14 modes.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_ostream/operator_ltlt&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -184,23 +184,23 @@ because of the resolution of [LWG issue 60](https://cplusplus.github.io/LWG/issu
 ### See also
 
 [ operator<<(std::basic_ostream)](operator_ltlt2.html "cpp/io/basic ostream/operator ltlt2") |  inserts character data or insert into rvalue stream   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ostream/dsc_operator_ltlt2&action=edit)  
+(function template)   
 ---|---  
 [ operator<<operator>>](../../string/basic_string/operator_ltltgtgt.html "cpp/string/basic string/operator ltltgtgt") |  performs stream input and output on strings   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_operator_ltltgtgt&action=edit)  
+(function template)   
 [ operator<<](../../string/basic_string_view/operator_ltlt.html "cpp/string/basic string view/operator ltlt")(C++17) |  performs stream output on string views   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/dsc_operator_ltlt&action=edit)  
+(function template)   
 [ operator<<operator>>](../../utility/bitset/operator_ltltgtgt2.html "cpp/utility/bitset/operator ltltgtgt2") |  performs stream input and output of bitsets   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/bitset/dsc_operator_ltltgtgt2&action=edit)  
+(function template)   
 [ operator<<operator>>](../../numeric/complex/operator_ltltgtgt.html "cpp/numeric/complex/operator ltltgtgt") |  serializes and deserializes a complex number   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_operator_ltltgtgt&action=edit)  
+(function template)   
 [ operator<<operator>>](../../numeric/random/linear_congruential_engine/operator_ltltgtgt.html "cpp/numeric/random/linear congruential engine/operator ltltgtgt")(C++11) |  performs stream input and output on pseudo-random number engine   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/engine/dsc_operator_ltltgtgt&action=edit)  
+(function template)   
 [ operator<<operator>>](../../numeric/random/uniform_int_distribution/operator_ltltgtgt.html "cpp/numeric/random/uniform int distribution/operator ltltgtgt")(C++11) |  performs stream input and output on pseudo-random number distribution   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/distribution/dsc_operator_ltltgtgt&action=edit)  
+(function template)   
 [ put](put.html "cpp/io/basic ostream/put") |  inserts a character   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ostream/dsc_put&action=edit)  
+(public member function)   
 [ write](write.html "cpp/io/basic ostream/write") |  inserts blocks of characters   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ostream/dsc_write&action=edit)  
+(public member function)   
 [ to_chars](../../utility/to_chars.html "cpp/utility/to chars")(C++17) |  converts an integer or floating-point value to a character sequence   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_to_chars&action=edit)
+(function) 

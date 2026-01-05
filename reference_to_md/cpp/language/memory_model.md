@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Basic Concepts](basics.html "cpp/language/basic concepts")
 
@@ -249,7 +249,7 @@ Miscellaneous
 [Modules](modules.html "cpp/language/modules") (C++20)  
 [Contracts](contracts.html "cpp/language/contracts") (C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/basics/navbar_content&action=edit)
+
 
 Defines the semantics of computer memory storage for the purpose of the C++ abstract machine. 
 
@@ -265,7 +265,7 @@ The memory available to a C++ program is one or more contiguous sequences of _by
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/memory_model&action=edit&section=1 "Edit section: Byte")] Byte
+### Byte
 
 A _byte_ is the smallest addressable unit of memory. It is defined as a contiguous sequence of bits, large enough to hold 
 
@@ -286,7 +286,7 @@ Similar to C, C++ supports bytes of sizes 8 bits and greater.
 
 The [types](types.html "cpp/language/types") char, unsigned char, and signed char use one byte for both storage and [value representation](objects.html "cpp/language/object"). The number of bits in a byte is accessible as [CHAR_BIT](../types/climits.html "cpp/types/climits") or [std::numeric_limits](../types/numeric_limits.html)<unsigned char>::digits. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/memory_model&action=edit&section=2 "Edit section: Memory location")] Memory location
+### Memory location
 
 A _memory location_ is the storage occupied by the [object representation](objects.html#Object_representation_and_value_representation "cpp/language/object") of either an object of [scalar type](type-id.html#Scalar_type "cpp/language/type") that is not a [bit-field](bit_field.html "cpp/language/bit field"), or the largest contiguous sequence of bit-fields of non-zero length. 
 
@@ -306,7 +306,7 @@ Note: Various features of the language, such as [references](reference.html "cpp
         } e;
     } obj; // The object “obj” consists of 4 separate memory locations
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/memory_model&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -316,7 +316,7 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 considered as different memory locations  | memory location  
 now refers to storage   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/memory_model&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [C documentation](../../c/language/memory_model.html "c/language/memory model") for Memory model  
 ---

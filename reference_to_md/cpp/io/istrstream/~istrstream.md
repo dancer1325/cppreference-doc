@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::istrstream`](../istrstream.html "cpp/io/istrstream")
 
@@ -88,7 +88,7 @@ Member functions
 [istrstream::rdbuf](rdbuf.html "cpp/io/istrstream/rdbuf")  
 [istrstream::str](str.html "cpp/io/istrstream/str")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/istrstream/navbar_content&action=edit)
+
 
 virtual ~istrstream(); |  |  (deprecated in C++98)   
 (removed in C++26)  
@@ -97,15 +97,15 @@ virtual ~istrstream(); |  |  (deprecated in C++98)
   
 Destroys a `std::istrstream` object, which also destroys the member [std::strstreambuf](../strstreambuf.html "cpp/io/strstreambuf"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/istrstream/%7Eistrstream&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/istrstream/%7Eistrstream&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 The constructors of [std::istrstream](../istrstream.html "cpp/io/istrstream") do not create the underlying [std::strstreambuf](../strstreambuf.html "cpp/io/strstreambuf") in dynamically allocated mode, so the memory leaks that are possible with [std::ostrstream::~ostrstream](../ostrstream/~ostrstream.html "cpp/io/ostrstream/~ostrstream") or [std::strstream::~strstream](../strstream/~strstream.html "cpp/io/strstream/~strstream") do not apply. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/istrstream/%7Eistrstream&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     

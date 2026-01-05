@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Null-terminated byte strings](../byte.html "cpp/string/byte")
 
@@ -143,7 +143,7 @@
 | [strerror](strerror.html "cpp/string/byte/strerror")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/navbar_content&action=edit)
+
 
 Defined in header `[<cctype>](../../header/cctype.html "cpp/header/cctype")` |  |   
 ---|---|---  
@@ -164,16 +164,16 @@ The behavior is undefined if the value of ch is not representable as unsigned ch
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/isblank&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 ch  |  \-  |  character to classify   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/isblank&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Non-zero value if the character is a blank character, zero otherwise. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/isblank&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Like all other functions from [`<cctype>`](../../header/cctype.html "cpp/header/cctype"), the behavior of `std::isblank` is undefined if the argument's value is neither representable as unsigned char nor equal to [EOF](../../io/c.html). To use these functions safely with plain chars (or signed chars), the argument should first be converted to unsigned char: 
     
@@ -196,13 +196,13 @@ Similarly, they should not be directly used with standard algorithms when the it
                             );
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/isblank&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ isblank(std::locale)](../../locale/isblank.html "cpp/locale/isblank")(C++11) |  checks if a character is classified as a blank character by a locale   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_isblank&action=edit)  
+(function template)   
 ---|---  
 [ iswblank](../wide/iswblank.html "cpp/string/wide/iswblank")(C++11) |  checks if a wide character is a blank character   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_iswblank&action=edit)  
+(function)   
 [C documentation](../../../c/string/byte/isblank.html "c/string/byte/isblank") for isblank  
 ASCII values  | characters  |  [`iscntrl`](iscntrl.html "cpp/string/byte/iscntrl")  
 [`iswcntrl`](../wide/iswcntrl.html "cpp/string/wide/iswcntrl") |  [`isprint`](isprint.html "cpp/string/byte/isprint")  

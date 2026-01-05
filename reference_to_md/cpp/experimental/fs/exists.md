@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Filesystem library](../fs.html "cpp/experimental/fs")
 
@@ -124,7 +124,7 @@ File types
 [filesystem::is_socket](is_socket.html "cpp/experimental/fs/is socket")  
 [filesystem::is_symlink](is_symlink.html "cpp/experimental/fs/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/navbar_content&action=edit)
+
 
 Defined in header `[<experimental/filesystem>](../../header/experimental/filesystem.html "cpp/header/experimental/filesystem")` |  |   
 ---|---|---  
@@ -151,18 +151,18 @@ Checks if the given file status or path corresponds to an existing file or direc
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/exists&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 s  |  \-  |  file status to check   
 ---|---|---  
 p  |  \-  |  path to examine   
 ec  |  \-  |  out-parameter for error reporting in the non-throwing overload   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/exists&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 true if the given path or file status corresponds to an existing file or directory, false otherwise. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/exists&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 1)
 
@@ -176,11 +176,11 @@ noexcept
 
 noexcept
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/exists&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 The information provided by this function is usually also provided as a byproduct of directory iteration. During directory iteration, calling `exists(*iterator)` is less efficient than `exists(iterator->status())`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/exists&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -219,14 +219,14 @@ Output:
     "sandbox/file" exists
     "sandbox/symlink" does not exist
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/exists&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ statussymlink_status](status.html "cpp/experimental/fs/status") |  determines file attributes  
 determines file attributes, checking the symlink target   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_status&action=edit)  
+(function)   
 ---|---  
 [ file_status](file_status.html "cpp/experimental/fs/file status") |  represents file type and permissions   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_file_status&action=edit)  
+(class)   
 [ statussymlink_status](directory_entry/status.html "cpp/experimental/fs/directory entry/status") |  cached status of the file designated by this directory entry  
 cached symlink_status of the file designated by this directory entry   
-(public member function of `std::experimental::filesystem::directory_entry`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/directory_entry/dsc_status&action=edit)
+(public member function of `std::experimental::filesystem::directory_entry`) 

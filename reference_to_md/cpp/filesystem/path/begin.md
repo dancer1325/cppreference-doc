@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Filesystem library](../../filesystem.html "cpp/filesystem")
 
@@ -100,7 +100,7 @@ filesystem::symlink_status](../status.html "cpp/filesystem/status")
 [filesystem::is_socket](../is_socket.html "cpp/filesystem/is socket")  
 [filesystem::is_symlink](../is_symlink.html "cpp/filesystem/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/navbar_content&action=edit)
+
 
 [`std::filesystem::path`](../path.html "cpp/filesystem/path")
 
@@ -169,7 +169,7 @@ filesystem::symlink_status](../status.html "cpp/filesystem/status")
 | [formatter<std::filesystem::path>](formatter.html "cpp/filesystem/path/formatter")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/path/navbar_content&action=edit)
+
 
 iterator begin() const; |  (1)  |  (since C++17)  
 ---|---|---  
@@ -199,21 +199,21 @@ The sequence denoted by this pair of iterators consists of the following:
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/begin&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/begin&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) Iterator to the first element of the path.
 
 2) Iterator one past the end of the path
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/impldef_exception&action=edit&section=T-1 "Template:cpp/impldef exception")] Exceptions
+### Exceptions
 
 May throw implementation-defined exceptions. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/begin&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     

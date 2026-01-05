@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::subrange`](../subrange.html "cpp/ranges/subrange")
 
@@ -249,7 +249,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
 [tuple_size<std::ranges::subrange>](tuple_size.html "cpp/ranges/subrange/tuple size")  
 [tuple_element<std::ranges::subrange>](tuple_element.html "cpp/ranges/subrange/tuple element")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/subrange/navbar_content&action=edit)
+
 
 constexpr bool empty() const; |  |  (since C++20)  
 ---|---|---  
@@ -257,22 +257,22 @@ constexpr bool empty() const; |  |  (since C++20)
   
 Checks whether the [`subrange`](../subrange.html "cpp/ranges/subrange") is empty. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/subrange/empty&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 `_[begin_](../subrange.html#begin "cpp/ranges/subrange")_`` `==` `` _[end_](../subrange.html#end "cpp/ranges/subrange")_`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/subrange/empty&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/subrange/empty&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ size](size.html "cpp/ranges/subrange/size") |  obtains the size of the `subrange`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/subrange/dsc_size&action=edit)  
+(public member function)   
 ---|---  
 [ empty](../../iterator/empty.html "cpp/iterator/empty")(C++17) |  checks whether the container is empty   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_empty&action=edit)  
+(function template)   
 [ ranges::empty](../empty.html "cpp/ranges/empty")(C++20) |  checks whether a range is empty  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_empty&action=edit)
+(customization point object)

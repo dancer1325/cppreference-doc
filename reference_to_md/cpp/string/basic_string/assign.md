@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Strings library](../../string.html "cpp/string")
 
@@ -40,7 +40,7 @@ Classes
 [basic_string_view](../basic_string_view.html "cpp/string/basic string view")(C++17)  
 [char_traits](../char_traits.html "cpp/string/char traits")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/navbar_content&action=edit)
+
 
 [`std::basic_string`](../basic_string.html "cpp/string/basic string")
 
@@ -133,7 +133,7 @@ basic_string_view](operator_basic_string_view.html "cpp/string/basic string/oper
 [hash<std::basic_string>](hash.html "cpp/string/basic string/hash")(C++11)  
 [Deduction guides](deduction_guides.html "cpp/string/basic string/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/navbar_content&action=edit)
+
 
 basic_string& assign( const basic_string& str ); |  (1) | (constexpr since C++20)  
 ---|---|---  
@@ -227,7 +227,7 @@ Equivalent to return assign([std::basic_string_view](../basic_string_view.html)<
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/assign&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 str  |  \-  |  string to be used as source to initialize the characters with   
 ---|---|---  
@@ -239,11 +239,11 @@ pos  |  \-  |  index of the first character to take
 first, last  |  \-  |  range to copy the characters from   
 ilist  |  \-  |  [std::initializer_list](../../utility/initializer_list.html "cpp/utility/initializer list") to initialize the characters of the string with   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/assign&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 *this
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/assign&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 2)
 
@@ -265,7 +265,7 @@ If the operation would cause [`size()`](size.html "cpp/string/basic string/size"
 
 If an exception is thrown for any reason, this function has no effect ([strong exception safety guarantee](../../language/exceptions.html#Exception_safety "cpp/language/exceptions")). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/assign&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -324,7 +324,7 @@ Output:
     C-style string
     C-style
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/assign&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -339,12 +339,12 @@ undefined if pos > str.size() is true | always throws an exception in this case
 operator had different effects  | they have the same effect   
 [LWG 2946](https://cplusplus.github.io/LWG/issue2946) | C++17  | overload ([6](assign.html#Version_6)) caused ambiguity in some cases  | avoided by making it a template   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/assign&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ assign_range](assign_range.html "cpp/string/basic string/assign range")(C++23) |  assign a range of characters to a string   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_assign_range&action=edit)  
+(public member function)   
 ---|---  
 [ (constructor)](basic_string.html "cpp/string/basic string/basic string") |  constructs a `basic_string`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_constructor&action=edit)  
+(public member function)   
 [ operator=](operator=.html "cpp/string/basic string/operator=") |  assigns values to the string   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_operator%3D&action=edit)
+(public member function) 

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 [Experimental library headers](../experimental.html "cpp/header/experimental")
 
@@ -292,7 +292,7 @@ Networking TS
 Reflection TS  
 [`<experimental/reflect>`](reflect.html "cpp/header/experimental/reflect")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/experimental/navbar_content&action=edit)
+
 
 | This section is incomplete  
 Reason: | | This page does not exist   

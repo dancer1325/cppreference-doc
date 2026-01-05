@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::time_point`](../time_point.html "cpp/chrono/time point")
 
@@ -124,7 +124,7 @@ Helper classes
 [common_type](common_type.html "cpp/chrono/time point/common type")  
 [hash<std::chrono::time_point>](hash.html "cpp/chrono/time point/hash")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_point/navbar_content&action=edit)
+
 
 time_point& operator+=( const duration& d ); |  (1)  |  (since C++11)   
 (constexpr since C++17)  
@@ -150,27 +150,27 @@ Modifies the time point by the given duration.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/time_point/operator_arith&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 d  |  \-  |  a time offset to apply   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/time_point/operator_arith&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 *this
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/impldef_exception&action=edit&section=T-1 "Template:cpp/impldef exception")] Exceptions
+### Exceptions
 
 May throw implementation-defined exceptions. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/time_point/operator_arith&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/time_point/operator_arith&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ operator+operator-](operator_arith2.html "cpp/chrono/time point/operator arith2")(C++11) |  performs add and subtract operations involving a time point   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_point/dsc_operator_arith2&action=edit)  
+(function template)   
 ---|---

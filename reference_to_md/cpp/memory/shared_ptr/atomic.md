@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::shared_ptr`](../shared_ptr.html "cpp/memory/shared ptr")
 
@@ -220,7 +220,7 @@ Helper classes
 [hash<std::shared_ptr>](hash.html "cpp/memory/shared ptr/hash")  
 [Deduction guides](deduction_guides.html "cpp/memory/shared ptr/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/navbar_content&action=edit)
+
 
 Defined in header `[<memory>](../../header/memory.html "cpp/header/memory")` |  |   
 ---|---|---  
@@ -346,18 +346,18 @@ If p is a null pointer, the behaviors of these functions are all undefined.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/atomic&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 p, expected  |  \-  |  a pointer to a [std::shared_ptr](../shared_ptr.html "cpp/memory/shared ptr")  
 ---|---|---  
 r, desired  |  \-  |  a [std::shared_ptr](../shared_ptr.html "cpp/memory/shared ptr")  
 mo, success, failure  |  \-  |  memory ordering selectors of type [std::memory_order](../../atomic/memory_order.html "cpp/atomic/memory order")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/atomic&action=edit&section=2 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 These functions do not throw exceptions. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/atomic&action=edit&section=3 "Edit section: Return value")] Return value
+### Return value
 
 1) true if atomic access is implemented using lock-free instructions.
 
@@ -369,7 +369,7 @@ These functions do not throw exceptions.
 
 8-11) true if the shared pointers were equivalent and the exchange was performed, false otherwise.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/atomic&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 These functions are typically implemented using mutexes, stored in a global hash table where the pointer value is used as the key. 
 
@@ -380,13 +380,13 @@ These functions were deprecated in favor of the specializations of the [std::ato
 ---|---  
 These functions were removed in favor of the specializations of the [std::atomic](../../atomic/atomic.html "cpp/atomic/atomic") template: [std::atomic](../../atomic/atomic.html)<[std::shared_ptr](../shared_ptr.html)> and [std::atomic](../../atomic/atomic.html)<[std::weak_ptr](../weak_ptr.html)>.  | (since C++26)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/atomic&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/atomic&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -395,16 +395,16 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [LWG 2172](https://cplusplus.github.io/LWG/issue2172) | C++11  | expected could be a null pointer  | the behavior is undefined in this case   
 [LWG 2980](https://cplusplus.github.io/LWG/issue2980) | C++11  | empty `shared_ptr`s were never equivalent  | equivalent if they store the same pointer value   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/atomic&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ atomic_is_lock_free](../../atomic/atomic_is_lock_free.html "cpp/atomic/atomic is lock free")(C++11) |  checks if the atomic type's operations are lock-free   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/dsc_atomic_is_lock_free&action=edit)  
+(function template)   
 ---|---  
 [ atomic_storeatomic_store_explicit](../../atomic/atomic_store.html "cpp/atomic/atomic store")(C++11)(C++11) |  atomically replaces the value of the atomic object with a non-atomic argument   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/dsc_atomic_store&action=edit)  
+(function template)   
 [ atomic_loadatomic_load_explicit](../../atomic/atomic_load.html "cpp/atomic/atomic load")(C++11)(C++11) |  atomically obtains the value stored in an atomic object   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/dsc_atomic_load&action=edit)  
+(function template)   
 [ atomic_exchangeatomic_exchange_explicit](../../atomic/atomic_exchange.html "cpp/atomic/atomic exchange")(C++11)(C++11) |  atomically replaces the value of the atomic object with non-atomic argument and returns the old value of the atomic   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/dsc_atomic_exchange&action=edit)  
+(function template)   
 [ atomic_compare_exchange_weakatomic_compare_exchange_weak_explicitatomic_compare_exchange_strongatomic_compare_exchange_strong_explicit](../../atomic/atomic_compare_exchange.html "cpp/atomic/atomic compare exchange")(C++11)(C++11)(C++11)(C++11) |  atomically compares the value of the atomic object with non-atomic argument and performs atomic exchange if equal or atomic load if not   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/dsc_atomic_compare_exchange&action=edit)
+(function template) 

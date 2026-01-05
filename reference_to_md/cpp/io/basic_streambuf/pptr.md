@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_streambuf`](../basic_streambuf.html "cpp/io/basic streambuf")
 
@@ -152,7 +152,7 @@ Put area
 Putback  
 [basic_streambuf::pbackfail](pbackfail.html "cpp/io/basic streambuf/pbackfail")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_streambuf/navbar_content&action=edit)
+
 
 protected:  
 char_type* pbase() const; |  (1)  |   
@@ -181,11 +181,11 @@ Returns pointers defining the put area.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_streambuf/pptr&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_streambuf/pptr&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) The pointer to the beginning of the put area. 
 
@@ -193,14 +193,14 @@ Returns pointers defining the put area.
 
 3) The pointer one past the end of the put area. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_streambuf/pptr&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_streambuf/pptr&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ ebackgptregptr](gptr.html "cpp/io/basic streambuf/gptr") |  returns a pointer to the beginning, current character and the end of the get area   
-(protected member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_streambuf/dsc_gptr&action=edit)  
+(protected member function)   
 ---|---

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](copy.html "cpp/algorithm/ranges/co
 [uninitialized_default_construct_n](../../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 [Constrained algorithms](../ranges.html "cpp/algorithm/ranges")
 
@@ -550,7 +550,7 @@ All names in this menu belong to namespace `std::ranges`
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -635,7 +635,7 @@ The function-like entities described on this page are [_algorithm function objec
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/remove&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  the iterator-sentinel pair defining the [range](../../iterator.html#Ranges "cpp/iterator") of elements to process   
 ---|---|---  
@@ -644,15 +644,15 @@ value  |  \-  |  the value of elements to remove
 pred  |  \-  |  predicate to apply to the projected elements   
 proj  |  \-  |  projection to apply to the elements   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/remove&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 {ret, last}, where `[`first`, `ret`)` is the resulting subrange after removal, and the elements in subrange `[`ret`, `last`)` are all in valid but unspecified state, i.e. `[`ret`, `last`)` is the subrange to be erased. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/remove&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Exactly N applications of the corresponding predicate and any projection, where N = [ranges::distance](../../iterator/ranges/distance.html)(first, last), and N - 1 move operations at worst. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/remove&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 A call to `ranges::remove` is typically followed by a call to a container's `erase` member function, which erases the unspecified values and reduces the _physical_ size of the container to match its new _logical_ size. These two invocations together constitute the so-called [erase-remove idiom](https://en.wikipedia.org/wiki/erase-remove_idiom "enwiki:erase-remove idiom"), which can be achieved by the free function [std::erase](../../container/vector/erase2.html "cpp/container/vector/erase2") that has [overloads](../../container.html#Non-member_function_table "cpp/container") for all standard _sequence_ containers, or [std::erase_if](../../container/vector/erase2.html "cpp/container/vector/erase2") that has [overloads](../../container.html#Non-member_function_table "cpp/container") for _all_ standard containers. 
 
@@ -662,7 +662,7 @@ These algorithms usually cannot be used with associative containers such as [std
 
 Because `ranges::remove` takes value by reference, it can have unexpected behavior if it is a reference to an element of the range `[`first`, `last`)`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/remove&action=edit&section=5 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
 
 [remove (1,2)](remove.html#Version_1)  
 ---  
@@ -741,13 +741,13 @@ Because `ranges::remove` takes value by reference, it can have unexpected behavi
      
     inline constexpr remove_if_fn remove_if {};  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/remove&action=edit&section=6 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../../utility/feature_test.html "cpp/utility/feature test") macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_algorithm_default_value_type`](../../experimental/feature_test.html#cpp_lib_algorithm_default_value_type "cpp/feature test") | [`202403`](../../compiler_support/26.html#cpp_lib_algorithm_default_value_type_202403 "cpp/compiler support/26") | (C++26) | [List-initialization](../../language/list_initialization.html "cpp/language/list initialization") for algorithms ([1,2](remove.html#Version_1))  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/remove&action=edit&section=7 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -813,14 +813,14 @@ Possible output:
     "Small Object Optimization" => SOO
     "Non-Type Template Parameter" => NTTP
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/remove&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [ ranges::remove_copyranges::remove_copy_if](remove_copy.html "cpp/algorithm/ranges/remove copy")(C++20)(C++20) |  copies a range of elements omitting those that satisfy specific criteria  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_remove_copy&action=edit)  
+(algorithm function object)  
 ---|---  
 [ ranges::unique](unique.html "cpp/algorithm/ranges/unique")(C++20) |  removes consecutive duplicate elements in a range  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_unique&action=edit)  
+(algorithm function object)  
 [ removeremove_if](../remove.html "cpp/algorithm/remove") |  removes elements satisfying specific criteria   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_remove&action=edit)
+(function template) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

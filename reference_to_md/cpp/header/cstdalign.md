@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header was originally in the C standard library as [`<stdalign.h>`](../../c/header/stdalign.html "c/header/stdalign"). 
 
@@ -204,15 +204,15 @@ C compatibility header. alignas and alignof are [keywords](../keywords.html "cpp
   
 ---  
 __alignas_is_defined(C++11)(deprecated) |  C compatibility macro constant, expands to integer literal 1   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_alignas_is_defined&action=edit)  
+(macro constant)   
 __alignof_is_defined(C++11)(deprecated) |  C compatibility macro constant, expands to integer literal 1   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_alignof_is_defined&action=edit)  
+(macro constant)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/cstdalign&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 `<cstdalign>` is deprecated in C++17 and removed in C++20. Corresponding [`<stdalign.h>`](../../c/header/stdalign.html "c/header/stdalign") is still available in C++20. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/cstdalign&action=edit&section=2 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

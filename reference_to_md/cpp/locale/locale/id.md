@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Localization library](../../locale.html "cpp/locale")
 
@@ -152,7 +152,7 @@ base classes](../../locale.html#Facet_category_base_classes "cpp/locale")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/navbar_content&action=edit)
+
 
 [`std::locale`](../locale.html "cpp/locale/locale")
 
@@ -173,7 +173,7 @@ Static member functions
 [locale::global](global.html "cpp/locale/locale/global")  
 [locale::classic](classic.html "cpp/locale/locale/classic")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/locale/navbar_content&action=edit)
+
 
 Defined in header `[<locale>](../../header/locale.html "cpp/header/locale")` |  |   
 ---|---|---  
@@ -184,7 +184,7 @@ The class `std::locale::id` provides implementation-specific identification of a
 
 Facets with the same `id` belong to the same facet category and replace each other when added to a locale object. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/locale/id&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](id/id.html "cpp/locale/locale/id/id") |  constructs a new id   
 (public member function)  
@@ -192,7 +192,7 @@ Facets with the same `id` belong to the same facet category and replace each oth
 operator= |  copy assignment operator is deleted   
 (public member function)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/locale/id&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 The following example shows how to construct a minimal custom facet.
 
@@ -222,8 +222,8 @@ Output:
     
     has_facet<myfacet>(myloc) returns true
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/locale/id&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ facet](facet.html "cpp/locale/locale/facet") |  the base class for all facet categories: each facet of any category is derived from this type   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/locale/dsc_facet&action=edit)  
+(class)   
 ---|---

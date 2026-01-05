@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 Defined in header `[<chrono>](../header/chrono.html "cpp/header/chrono")` |  |   
 ---|---|---  
@@ -115,10 +115,10 @@ The scoped enumeration `choose` can be passed to certain member functions of std
 
 If a `choose` is not passed and an ambiguous or nonexistent local time is encountered, a std::chrono::ambiguous_local_time or std::chrono::nonexistent_local_time exception (as applicable) will be thrown. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/choose&action=edit&section=1 "Edit section: See also")] See also 
+### See also 
 
 [ (constructor)](zoned_time/zoned_time.html "cpp/chrono/zoned time/zoned time") |  constructs a `zoned_time`   
-(public member function of `std::chrono::zoned_time<Duration,TimeZonePtr>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/zoned_time/dsc_constructor&action=edit)  
+(public member function of `std::chrono::zoned_time<Duration,TimeZonePtr>`)   
 ---|---  
 [ to_sys](time_zone/to_sys.html "cpp/chrono/time zone/to sys") |  converts a local_time in this time zone to a sys_time   
-(public member function of `std::chrono::time_zone`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_zone/dsc_to_sys&action=edit)
+(public member function of `std::chrono::time_zone`) 

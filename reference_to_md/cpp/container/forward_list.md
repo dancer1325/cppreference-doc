@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../container.html "cpp/container")
 
@@ -71,7 +71,7 @@ Tables
 [Member function table](../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 **`std::forward_list`**
 
@@ -126,7 +126,7 @@ Tables
   
 [Deduction guides](forward_list/deduction_guides.html "cpp/container/forward list/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/forward_list/navbar_content&action=edit)
+
 
 Defined in header `[<forward_list>](../header/forward_list.html "cpp/header/forward list")` |  |   
 ---|---|---  
@@ -168,7 +168,7 @@ All member functions of `std::forward_list` are constexpr: it is possible to cre
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/forward_list&action=edit&section=1 "Edit section: Template parameters")] Template parameters
+### Template parameters
 
 T  |  \-  |  The type of the elements.  | The requirements that are imposed on the elements depend on the actual operations performed on the container. Generally, it is required that element type is a complete type and meets the requirements of [Erasable](../named_req/Erasable.html "cpp/named req/Erasable"), but many member functions impose stricter requirements. | (until C++17)  
 ---|---  
@@ -177,134 +177,134 @@ The requirements that are imposed on the elements depend on the actual operation
 [`__cpp_lib_incomplete_container_elements`](../experimental/feature_test.html#cpp_lib_incomplete_container_elements "cpp/feature test") | [`201505L`](../compiler_support/17.html#cpp_lib_incomplete_container_elements_201505L "cpp/compiler support/17") | (C++17) | Minimal incomplete type support   
 (since C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/param_list_T&action=edit)  
   
-Allocator  |  \-  |  An allocator that is used to acquire/release memory and to construct/destroy the elements in that memory. The type must meet the requirements of [Allocator](../named_req/Allocator.html "cpp/named req/Allocator"). The behavior is undefined(until C++20)The program is ill-formed(since C++20) if `Allocator::value_type` is not the same as `T`.[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/param_list_Allocator&action=edit)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/forward_list&action=edit&section=2 "Edit section: Member types")] Member types
+Allocator  |  \-  |  An allocator that is used to acquire/release memory and to construct/destroy the elements in that memory. The type must meet the requirements of [Allocator](../named_req/Allocator.html "cpp/named req/Allocator"). The behavior is undefined(until C++20)The program is ill-formed(since C++20) if `Allocator::value_type` is not the same as `T`.  
+  
+### Member types
 
 Member type  |  Definition   
 ---|---  
-`value_type` |  `T`[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_value_type&action=edit)  
-`allocator_type` |  `Allocator`[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_allocator_type&action=edit)  
-`size_type` |  Unsigned integer type (usually [std::size_t](../types/size_t.html "cpp/types/size t"))[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_size_type&action=edit)  
-`difference_type` |  Signed integer type (usually [std::ptrdiff_t](../types/ptrdiff_t.html "cpp/types/ptrdiff t"))[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_difference_type&action=edit)  
-`reference` |  value_type&[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_reference&action=edit)  
-`const_reference` |  const value_type&[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_const_reference&action=edit)  
-`pointer` |  [std::allocator_traits](../memory/allocator_traits.html)<Allocator>::pointer[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_pointer&action=edit)  
-`const_pointer` |  [std::allocator_traits](../memory/allocator_traits.html)<Allocator>::const_pointer[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_const_pointer&action=edit)  
-`iterator` |  [LegacyForwardIterator](../named_req/ForwardIterator.html "cpp/named req/ForwardIterator") and [ConstexprIterator](../named_req/ConstexprIterator.html "cpp/named req/ConstexprIterator")(since C++26) to `value_type`[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_iterator&action=edit)  
-`const_iterator` |  [LegacyForwardIterator](../named_req/ForwardIterator.html "cpp/named req/ForwardIterator") and [ConstexprIterator](../named_req/ConstexprIterator.html "cpp/named req/ConstexprIterator")(since C++26) to const value_type[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_const_iterator&action=edit)  
+`value_type` |  `T`  
+`allocator_type` |  `Allocator`  
+`size_type` |  Unsigned integer type (usually [std::size_t](../types/size_t.html "cpp/types/size t"))  
+`difference_type` |  Signed integer type (usually [std::ptrdiff_t](../types/ptrdiff_t.html "cpp/types/ptrdiff t"))  
+`reference` |  value_type&  
+`const_reference` |  const value_type&  
+`pointer` |  [std::allocator_traits](../memory/allocator_traits.html)<Allocator>::pointer  
+`const_pointer` |  [std::allocator_traits](../memory/allocator_traits.html)<Allocator>::const_pointer  
+`iterator` |  [LegacyForwardIterator](../named_req/ForwardIterator.html "cpp/named req/ForwardIterator") and [ConstexprIterator](../named_req/ConstexprIterator.html "cpp/named req/ConstexprIterator")(since C++26) to `value_type`  
+`const_iterator` |  [LegacyForwardIterator](../named_req/ForwardIterator.html "cpp/named req/ForwardIterator") and [ConstexprIterator](../named_req/ConstexprIterator.html "cpp/named req/ConstexprIterator")(since C++26) to const value_type  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/forward_list&action=edit&section=3 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](forward_list/forward_list.html "cpp/container/forward list/forward list") |  constructs the `forward_list`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ (destructor)](forward_list/~forward_list.html "cpp/container/forward list/~forward list") |  destructs the `forward_list`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_destructor&action=edit)  
+(public member function)   
 [ operator=](forward_list/operator=.html "cpp/container/forward list/operator=") |  assigns values to the container   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_operator%3D&action=edit)  
+(public member function)   
 [ assign](forward_list/assign.html "cpp/container/forward list/assign") |  assigns values to the container   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_assign&action=edit)  
+(public member function)   
 [ assign_range](forward_list/assign_range.html "cpp/container/forward list/assign range")(C++23) |  assigns a range of values to the container   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_assign_range&action=edit)  
+(public member function)   
 [ get_allocator](forward_list/get_allocator.html "cpp/container/forward list/get allocator") |  returns the associated allocator   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_get_allocator&action=edit)  
+(public member function)   
   
 #####  Element access   
   
 [ front](forward_list/front.html "cpp/container/forward list/front") |  access the first element   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_front&action=edit)  
+(public member function)   
   
 #####  Iterators   
   
 [ before_begincbefore_begin](forward_list/before_begin.html "cpp/container/forward list/before begin") |  returns an iterator to the element before beginning   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_before_begin&action=edit)  
+(public member function)   
 [ begincbegin](forward_list/begin.html "cpp/container/forward list/begin") |  returns an iterator to the beginning   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_begin&action=edit)  
+(public member function)   
 [ endcend](forward_list/end.html "cpp/container/forward list/end") |  returns an iterator to the end   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_end&action=edit)  
+(public member function)   
   
 #####  Capacity   
   
 [ empty](forward_list/empty.html "cpp/container/forward list/empty") |  checks whether the container is empty   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_empty&action=edit)  
+(public member function)   
 [ max_size](forward_list/max_size.html "cpp/container/forward list/max size") |  returns the maximum possible number of elements   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_max_size&action=edit)  
+(public member function)   
   
 #####  Modifiers   
   
 [ clear](forward_list/clear.html "cpp/container/forward list/clear") |  clears the contents   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_clear&action=edit)  
+(public member function)   
 [ insert_after](forward_list/insert_after.html "cpp/container/forward list/insert after") |  inserts elements after an element   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_insert_after&action=edit)  
+(public member function)   
 [ emplace_after](forward_list/emplace_after.html "cpp/container/forward list/emplace after") |  constructs elements in-place after an element   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_emplace_after&action=edit)  
+(public member function)   
 [ insert_range_after](forward_list/insert_range_after.html "cpp/container/forward list/insert range after")(C++23) |  inserts a range of elements after an element   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_insert_range_after&action=edit)  
+(public member function)   
 [ erase_after](forward_list/erase_after.html "cpp/container/forward list/erase after") |  erases an element after an element   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_erase_after&action=edit)  
+(public member function)   
 [ push_front](forward_list/push_front.html "cpp/container/forward list/push front") |  inserts an element to the beginning   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_push_front&action=edit)  
+(public member function)   
 [ emplace_front](forward_list/emplace_front.html "cpp/container/forward list/emplace front") |  constructs an element in-place at the beginning   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_emplace_front&action=edit)  
+(public member function)   
 [ prepend_range](forward_list/prepend_range.html "cpp/container/forward list/prepend range")(C++23) |  adds a range of elements to the beginning   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_prepend_range&action=edit)  
+(public member function)   
 [ pop_front](forward_list/pop_front.html "cpp/container/forward list/pop front") |  removes the first element   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_pop_front&action=edit)  
+(public member function)   
 [ resize](forward_list/resize.html "cpp/container/forward list/resize") |  changes the number of elements stored   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_resize&action=edit)  
+(public member function)   
 [ swap](forward_list/swap.html "cpp/container/forward list/swap") |  swaps the contents   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_swap&action=edit)  
+(public member function)   
   
 #####  Operations   
   
 [ merge](forward_list/merge.html "cpp/container/forward list/merge") |  merges two sorted lists   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_merge&action=edit)  
+(public member function)   
 [ splice_after](forward_list/splice_after.html "cpp/container/forward list/splice after") |  transfers elements from another `forward_list`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_splice_after&action=edit)  
+(public member function)   
 [ removeremove_if](forward_list/remove.html "cpp/container/forward list/remove") |  removes elements satisfying specific criteria   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_remove&action=edit)  
+(public member function)   
 [ reverse](forward_list/reverse.html "cpp/container/forward list/reverse") |  reverses the order of the elements   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_reverse&action=edit)  
+(public member function)   
 [ unique](forward_list/unique.html "cpp/container/forward list/unique") |  removes consecutive duplicate elements   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_unique&action=edit)  
+(public member function)   
 [ sort](forward_list/sort.html "cpp/container/forward list/sort") |  sorts the elements   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_sort&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/forward_list&action=edit&section=4 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ operator==operator!=operator<operator<=operator>operator>=operator<=>](forward_list/operator_cmp.html "cpp/container/forward list/operator cmp")(C++11)(C++11)(removed in C++20)(C++11)(removed in C++20)(C++11)(removed in C++20)(C++11)(removed in C++20)(C++11)(removed in C++20)(C++20) |  lexicographically compares the values of two `forward_list`s   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_operator_cmp&action=edit)  
+(function template)   
 ---|---  
 [ std::swap(std::forward_list)](forward_list/swap2.html "cpp/container/forward list/swap2")(C++11) |  specializes the [std::swap](../utility/swap.html "cpp/algorithm/swap") algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_swap2&action=edit)  
+(function template)   
 [ erase(std::forward_list)erase_if(std::forward_list)](forward_list/erase2.html "cpp/container/forward list/erase2")(C++20) |  erases all elements satisfying specific criteria   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_erase_seq&action=edit)  
+(function template)   
   
 ###  [Deduction guides](forward_list/deduction_guides.html "cpp/container/forward list/deduction guides")
 
 | (since C++17)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/forward_list&action=edit&section=6 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../utility/feature_test.html "cpp/utility/feature test") macro  | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_containers_ranges`](../experimental/feature_test.html#cpp_lib_containers_ranges "cpp/feature test") | [`202202L`](../compiler_support/23.html#cpp_lib_containers_ranges_202202L "cpp/compiler support/23") | (C++23) | Ranges construction and insertion for containers   
 [`__cpp_lib_constexpr_forward_list`](../experimental/feature_test.html#cpp_lib_constexpr_forward_list "cpp/feature test") | [`202502L`](../compiler_support/26.html#cpp_lib_constexpr_forward_list_202502L "cpp/compiler support/26") | (C++26) | constexpr `std::forward_list`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/forward_list&action=edit&section=7 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/forward_list&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [ list](list.html "cpp/container/list") |  doubly-linked list   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_list&action=edit)  
+(class template)   
 ---|---
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::forward_list`](../forward_list.html "cpp/container/forward list")
 
@@ -128,7 +128,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/forward list/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/forward_list/navbar_content&action=edit)
+
 
 void push_front( const T& value ); |  (1) | (since C++11)   
 (constexpr since C++26)  
@@ -152,22 +152,22 @@ No iterators or references are invalidated.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/push_front&action=edit&section=T-1 "Template:cpp/container/push front")] Parameters
+### Parameters
 
 value  |  \-  |  the value of the element to prepend   
 ---|---|---  
 Type requirements   
 -If the following condition is satisfied, the behavior is undefined: 1) `T` is not [CopyInsertable](../../named_req/CopyInsertable.html "cpp/named req/CopyInsertable") into `forward_list`. 2) `T` is not [MoveInsertable](../../named_req/MoveInsertable.html "cpp/named req/MoveInsertable") into `forward_list`.  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/push_front&action=edit&section=T-2 "Template:cpp/container/push front")] Complexity
+### Complexity
 
 Constant. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/push_front&action=edit&section=T-3 "Template:cpp/container/push front")] Exceptions
+### Exceptions
 
 If an exception is thrown for any reason, these functions have no effect ([strong exception safety guarantee](../../language/exceptions.html#Exception_safety "cpp/language/exceptions")). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/push_front&action=edit&section=T-4 "Template:cpp/container/push front")] Example
+### Example
 
 Run this code
     
@@ -198,12 +198,12 @@ Possible output:
     std::forward_list letters holds: "send" "me"
     Moved-from string s holds: ""
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/push_front&action=edit&section=T-5 "Template:cpp/container/push front")] See also
+### See also
 
 [ emplace_front](emplace_front.html "cpp/container/forward list/emplace front") |  constructs an element in-place at the beginning   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_emplace_front&action=edit)  
+(public member function)   
 ---|---  
 [ pop_front](pop_front.html "cpp/container/forward list/pop front") |  removes the first element   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_pop_front&action=edit)  
+(public member function)   
 [ front_inserter](../../iterator/front_inserter.html "cpp/iterator/front inserter") |  creates a [std::front_insert_iterator](../../iterator/front_insert_iterator.html "cpp/iterator/front insert iterator") of type inferred from the argument   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_front_inserter&action=edit)
+(function template) 

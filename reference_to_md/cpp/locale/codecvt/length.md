@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Localization library](../../locale.html "cpp/locale")
 
@@ -152,7 +152,7 @@ base classes](../../locale.html#Facet_category_base_classes "cpp/locale")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/navbar_content&action=edit)
+
 
 [`std::codecvt`](../codecvt.html "cpp/locale/codecvt")
 
@@ -168,7 +168,7 @@ Member functions
 **codecvt::length codecvt::do_length**  
 [codecvt::max_lengthcodecvt::do_max_length](max_length.html "cpp/locale/codecvt/max length")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/codecvt/navbar_content&action=edit)
+
 
 Defined in header `[<locale>](../../header/locale.html "cpp/header/locale")` |  |   
 ---|---|---  
@@ -194,13 +194,13 @@ virtual int do_length( StateT& state, const ExternT* from, const ExternT* from_e
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/codecvt/length&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 The number of `ExternT` characters that would be consumed if converted by [do_in()](in.html "cpp/locale/codecvt/in") until either all from_end - from characters were consumed or max `InternT` characters were produced, or a conversion error occurred. 
 
 The non-converting specialization [std::codecvt](../codecvt.html)<char, char, [std::mbstate_t](../../string/multibyte/mbstate_t.html)> returns [std::min](../../algorithm/min.html)(max, from_end - from). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/codecvt/length&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -231,7 +231,7 @@ Output:
     
     Only the first 3 bytes out of 10 would be consumed to produce the first 2 characters
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/codecvt/length&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -241,8 +241,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [LWG 305](https://cplusplus.github.io/LWG/issue305) | C++98  | `std::codecvt<wchar_t, char, std::mbstate_t>::do_length`  
 was required to return [std::min](../../algorithm/min.html)(max, from_end - from) | not required   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/codecvt/length&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ do_in](in.html "cpp/locale/codecvt/in")[virtual] |  converts a string from `ExternT` to `InternT`, such as when reading from file   
-(virtual protected member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/codecvt/dsc_do_in&action=edit)  
+(virtual protected member function)   
 ---|---

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::out_ptr_t`](../out_ptr_t.html "cpp/memory/out ptr t")
 
@@ -196,7 +196,7 @@ Member functions
 Non-member functions  
 [out_ptr](out_ptr.html "cpp/memory/out ptr t/out ptr")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/out_ptr_t/navbar_content&action=edit)
+
 
 ~out_ptr_t(); |  |  (since C++23)  
 ---|---|---  
@@ -227,7 +227,7 @@ otherwise, if [std::is_constructible_v](../../types/is_constructible.html)<Smart
 
 otherwise, the program is ill-formed. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/out_ptr_t/%7Eout_ptr_t&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 If `Smart` is a [std::shared_ptr](../shared_ptr.html "cpp/memory/shared ptr") specialization, the implementation may allocate the storage for the new control block on construction, in order to leave non-throwing works to the destructor. 
 

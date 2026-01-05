@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](copy.html "cpp/algorithm/ranges/co
 [uninitialized_default_construct_n](../../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 [Constrained algorithms](../ranges.html "cpp/algorithm/ranges")
 
@@ -550,7 +550,7 @@ All names in this menu belong to namespace `std::ranges`
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/navbar_content&action=edit)
+
 
 Defined in header `[<random>](../../header/random.html "cpp/header/random")` |  |   
 ---|---|---  
@@ -621,7 +621,7 @@ The function-like entities described on this page are [_algorithm function objec
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/generate_random&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  the iterator-sentinel pair defining the [range](../../iterator.html#Ranges "cpp/iterator") of elements to which random numbers are written   
 ---|---|---  
@@ -629,7 +629,7 @@ r  |  \-  |  the [`range`](../../ranges/range.html "cpp/ranges/range") to which 
 g  |  \-  |  uniform random bit generator   
 d  |  \-  |  random number distribution object   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/generate_random&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 At the time of the standardization of `std::ranges::generate_random`, there is no random number generator or distribution in the standard library that provides a `generate_random` member function. 
 
@@ -639,7 +639,7 @@ At the time of the standardization of `std::ranges::generate_random`, there is n
 ---|---|---|---  
 [`__cpp_lib_ranges_generate_random`](../../experimental/feature_test.html#cpp_lib_ranges_generate_random "cpp/feature test") | [`202403L`](../../compiler_support/26.html#cpp_lib_ranges_generate_random_202403L "cpp/compiler support/26") | (C++26) | `std::ranges::generate_random`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/generate_random&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -668,12 +668,12 @@ Possible output:
     1458777923  2007237709  823564440   1115438165
     1784484492  74243042    114807987   1137522503
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/generate_random&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ ranges::generate](generate.html "cpp/algorithm/ranges/generate")(C++20) |  saves the result of a function in a range  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_generate&action=edit)  
+(algorithm function object)  
 ---|---  
 [ uniform_random_bit_generator](../../numeric/random/UniformRandomBitGenerator.html "cpp/numeric/random/uniform random bit generator")(C++20) |  specifies that a type qualifies as a uniform random bit generator   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/dsc_uniform_random_bit_generator&action=edit)
+(concept) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

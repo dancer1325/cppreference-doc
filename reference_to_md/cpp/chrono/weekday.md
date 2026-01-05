@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 **`std::chrono::weekday`**
 
@@ -122,7 +122,7 @@ Helper classes
 [formatter<std::chrono::weekday>](weekday/formatter.html "cpp/chrono/weekday/formatter")  
 [formatter<std::chrono::hash>](weekday/hash.html "cpp/chrono/weekday/hash")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/weekday/navbar_content&action=edit)
+
 
 Defined in header `[<chrono>](../header/chrono.html "cpp/header/chrono")` |  |   
 ---|---|---  
@@ -151,44 +151,44 @@ The class `weekday` represent a day of the week in the [proleptic Gregorian cale
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/weekday&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](weekday/weekday.html "cpp/chrono/weekday/weekday") |  constructs a `weekday`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/weekday/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ operator++operator++(int)operator--operator--(int)](weekday/operator_inc_dec.html "cpp/chrono/weekday/operator inc dec") |  increments or decrements the weekday   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/weekday/dsc_operator_inc_dec&action=edit)  
+(public member function)   
 [ operator+=operator-=](weekday/operator_arith.html "cpp/chrono/weekday/operator arith") |  adds or subtracts a number of days   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/weekday/dsc_operator_arith&action=edit)  
+(public member function)   
 [ c_encodingiso_encoding](weekday/encoding.html "cpp/chrono/weekday/encoding") |  retrieves the stored weekday value  
 retrieves ISO 8601 weekday value   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/weekday/dsc_encoding&action=edit)  
+(public member function)   
 [ ok](weekday/ok.html "cpp/chrono/weekday/ok") |  checks if the stored weekday value is valid   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/weekday/dsc_ok&action=edit)  
+(public member function)   
 [ operator[]](weekday/operator_at.html "cpp/chrono/weekday/operator at") |  convenience syntax for constructing a [`weekday_indexed`](weekday_indexed.html "cpp/chrono/weekday indexed") or [`weekday_last`](weekday_last.html "cpp/chrono/weekday last") from this `weekday`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/weekday/dsc_operator_at&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/weekday&action=edit&section=2 "Edit section: Nonmember functions")] Nonmember functions
+### Nonmember functions
 
 [ operator==](weekday/operator_cmp.html "cpp/chrono/weekday/operator cmp")(C++20) |  compares two `weekday` values   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/weekday/dsc_operator_cmp&action=edit)  
+(function)   
 ---|---  
 [ operator+operator-](weekday/operator_arith_2.html "cpp/chrono/weekday/operator arith 2")(C++20) |  performs arithmetic on `weekday`s   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/weekday/dsc_operator_arith_2&action=edit)  
+(function)   
 [ operator<<](weekday/operator_ltlt.html "cpp/chrono/weekday/operator ltlt")(C++20) |  outputs a `weekday` into a stream   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/weekday/dsc_operator_ltlt&action=edit)  
+(function template)   
 [ from_stream](weekday/from_stream.html "cpp/chrono/weekday/from stream")(C++20) |  parses a `weekday` from a stream according to the provided format   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/weekday/dsc_from_stream&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/weekday&action=edit&section=3 "Edit section: Helper classes")] Helper classes
+### Helper classes
 
 [ std::formatter<std::chrono::weekday>](weekday/formatter.html "cpp/chrono/weekday/formatter")(C++20) |  formatting support for `weekday`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_formatter&action=edit)  
+(class template specialization)   
 ---|---  
 [ std::hash<std::chrono::weekday>](weekday/hash.html "cpp/chrono/weekday/hash")(C++26) |  hash support for **`std::chrono::weekday`**   
 (class template specialization)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/weekday&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -211,8 +211,8 @@ Output:
     Thu
     Fri
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/weekday&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ weekday_indexed](weekday_indexed.html "cpp/chrono/weekday indexed")(C++20) |  represents the nth **`weekday`** of a month   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_weekday_indexed&action=edit)  
+(class)   
 ---|---

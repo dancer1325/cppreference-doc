@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 **Functions**
 
@@ -245,7 +245,7 @@ Overloading
 [Operator overloading](operators.html "cpp/language/operators")  
 [Address of an overload set](overloaded_address.html "cpp/language/overloaded address")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/functions/navbar_content&action=edit)
+
 
 Functions are C++ entities that associate a sequence of [statements](statements.html "cpp/language/statements") (a _function body_) with a _name_ and a list of zero or more _function parameters_. 
     
@@ -286,7 +286,7 @@ Multiple functions in the same scope may have the same name, as long as their pa
 C++ implements [anonymous functions](https://en.wikipedia.org/wiki/anonymous_function "enwiki:anonymous function") using [lambda-expressions](lambda.html "cpp/language/lambda").  | (since C++11)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/functions&action=edit&section=1 "Edit section: Function objects")] Function objects
+### Function objects
 
 Besides function lvalues, the function call expression supports pointers to functions, and any value of class type that overloads the function-call operator or is convertible to function pointer (including [lambda-expressions](lambda.html "cpp/language/lambda"))(since C++11). Together, these types are known as [FunctionObjects](../named_req/FunctionObject.html "cpp/named req/FunctionObject"), and they are used ubiquitously through the C++ standard library, see for example, usages of [BinaryPredicate](../named_req/BinaryPredicate.html "cpp/named req/BinaryPredicate") and [Compare](../named_req/Compare.html "cpp/named req/Compare"). 
 

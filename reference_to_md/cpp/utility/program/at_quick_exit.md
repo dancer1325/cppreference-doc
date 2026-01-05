@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Program support utilities](../program.html "cpp/utility/program")
 
@@ -181,7 +181,7 @@ Common vocabulary types
 [Types](../program.html#Types "cpp/utility/program")  
 [jmp_buf](jmp_buf.html "cpp/utility/program/jmp buf")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/program/navbar_content&action=edit)
+
 
 Defined in header `[<cstdlib>](../../header/cstdlib.html "cpp/header/cstdlib")` |  |   
 ---|---|---  
@@ -208,20 +208,20 @@ The registered functions will not be called on [normal program termination](exit
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/program/at_quick_exit&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 func  |  \-  |  pointer to a function to be called on quick program termination   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/program/at_quick_exit&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 ​0​ if the registration succeeds, nonzero value otherwise. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/program/at_quick_exit&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 The two overloads are distinct because the types of the parameter `func` are distinct ([language linkage](../../language/language_linkage.html "cpp/language/language linkage") is part of its type). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/program/at_quick_exit&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -259,15 +259,15 @@ Output:
     pushed second
     pushed first
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/program/at_quick_exit&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ abort](abort.html "cpp/utility/program/abort") |  causes abnormal program termination (without cleaning up)   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/program/dsc_abort&action=edit)  
+(function)   
 ---|---  
 [ exit](exit.html "cpp/utility/program/exit") |  causes normal program termination with cleaning up   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/program/dsc_exit&action=edit)  
+(function)   
 [ atexit](atexit.html "cpp/utility/program/atexit") |  registers a function to be called on [std::exit()](exit.html "cpp/utility/program/exit") invocation   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/program/dsc_atexit&action=edit)  
+(function)   
 [ quick_exit](quick_exit.html "cpp/utility/program/quick exit")(C++11) |  causes quick program termination without completely cleaning up   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/program/dsc_quick_exit&action=edit)  
+(function)   
 [C documentation](../../../c/program/at_quick_exit.html "c/program/at quick exit") for at_quick_exit

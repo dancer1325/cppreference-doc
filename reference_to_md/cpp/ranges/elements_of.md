@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 Defined in header `[<ranges>](../header/ranges.html "cpp/header/ranges")` |  |   
 ---|---|---  
@@ -245,13 +245,13 @@ Encapsulates a [`range`](range.html "cpp/ranges/range"). Specializations of `ele
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/elements_of&action=edit&section=1 "Edit section: Template parameters")] Template parameters
+### Template parameters
 
 R  |  \-  |  a type that satisfies [`range`](range.html "cpp/ranges/range")  
 ---|---|---  
 Allocator  |  \-  |  an allocator type that meets the requirements of [Allocator](../named_req/Allocator.html "cpp/named req/Allocator")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/elements_of&action=edit&section=2 "Edit section: Data members")] Data members
+### Data members
 
 Member name  |  Definition   
 ---|---  
@@ -262,14 +262,14 @@ allocator |  an allocator of type `Allocator`. It has default member initializer
   
 All these members are declared with `[[[no_unique_address](../language/attributes/no_unique_address.html "cpp/language/attributes/no unique address")]]` attribute. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/elements_of&action=edit&section=3 "Edit section: Deduction guide")] Deduction guide
+### Deduction guide
 
 template< class R, class Allocator = [std::allocator](../memory/allocator.html)<[std::byte](../types/byte.html)> >  
 elements_of( R&&, Allocator = Allocator() ) -> elements_of<R&&, Allocator>; |  |  (since C++23)  
 ---|---|---  
 | |   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/elements_of&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -308,7 +308,7 @@ Output:
     [t] [e] [s] [t] 
     [test]
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/elements_of&action=edit&section=5 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 

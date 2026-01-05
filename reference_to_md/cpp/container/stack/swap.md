@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 `[std::stack](../stack.html "cpp/container/stack")`
 
@@ -101,7 +101,7 @@ Tables
 [formatter<std::stack>](formatter.html "cpp/container/stack/formatter")(C++23)  
 [Deduction guides](deduction_guides.html "cpp/container/stack/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/stack/navbar_content&action=edit)
+
 
 void swap( stack& other ) noexcept(/* see below */); |  |  (since C++11)  
 ---|---|---  
@@ -126,23 +126,23 @@ Exchanges the contents of the container adaptor with those of `other`. Effective
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/swap_ad&action=edit&section=T-1 "Template:cpp/container/swap ad")] Parameters
+### Parameters
 
 other  |  \-  |  container adaptor to exchange the contents with   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/swap_ad&action=edit&section=T-2 "Template:cpp/container/swap ad")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/swap_ad&action=edit&section=T-3 "Template:cpp/container/swap ad")] Exceptions
+### Exceptions
 
 [`noexcept`](../../language/noexcept_spec.html "cpp/language/noexcept spec") specification: noexcept(noexcept(swap(c, other.c))) In the expression above, the identifier `swap` is looked up in the same manner as the one used by the C++17 [std::is_nothrow_swappable](../../types/is_swappable.html "cpp/types/is swappable") trait.  | (since C++11)  
 (until C++17)  
 ---|---  
 [`noexcept`](../../language/noexcept_spec.html "cpp/language/noexcept spec") specification: noexcept([std::is_nothrow_swappable_v](../../types/is_swappable.html)<Container>) | (since C++17)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/swap_ad&action=edit&section=T-4 "Template:cpp/container/swap ad")] Complexity
+### Complexity
 
 Same as underlying container (typically constant). 
 
@@ -150,7 +150,7 @@ Same as underlying container (typically constant).
 
 Some implementations (e.g. libc++) provide the `swap` member function as an extension to pre-C++11 modes. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/swap_ad&action=edit&section=T-6 "Template:cpp/container/swap ad")] Example
+### Example
 
 Run this code
     
@@ -213,8 +213,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 2456](https://cplusplus.github.io/LWG/issue2456) | C++11  | the `noexcept` specification is ill-formed  | made to work   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/swap_ad&action=edit&section=T-8 "Template:cpp/container/swap ad")] See also
+### See also
 
 [ std::swap(std::stack)](swap2.html "cpp/container/stack/swap2")(C++11) |  specializes the [std::swap](../../utility/swap.html "cpp/algorithm/swap") algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_swap2&action=edit)  
+(function template)   
 ---|---

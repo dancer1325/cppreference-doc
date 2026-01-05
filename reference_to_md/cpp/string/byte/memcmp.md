@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Null-terminated byte strings](../byte.html "cpp/string/byte")
 
@@ -143,7 +143,7 @@
 | [strerror](strerror.html "cpp/string/byte/strerror")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/navbar_content&action=edit)
+
 
 Defined in header `[<cstring>](../../header/cstring.html "cpp/header/cstring")` |  |   
 ---|---|---  
@@ -165,13 +165,13 @@ The sign of the result is the sign of the difference between the values of the f
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/memcmp&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 lhs, rhs  |  \-  |  pointers to the memory buffers to compare   
 ---|---|---  
 count  |  \-  |  number of bytes to examine   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/memcmp&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Negative value if the first differing byte (reinterpreted as unsigned char) in lhs is less than the corresponding byte in rhs. 
 
@@ -179,11 +179,11 @@ Negative value if the first differing byte (reinterpreted as unsigned char) in l
 
 Positive value if the first differing byte in lhs is greater than the corresponding byte in rhs. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/memcmp&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 This function reads [object representations](../../language/objects.html#Object_representation_and_value_representation "cpp/language/object"), not the object values, and is typically meaningful for only trivially-copyable objects that have no padding. For example, `memcmp()` between two objects of type [std::string](../basic_string.html "cpp/string/basic string") or [std::vector](../../container/vector.html "cpp/container/vector") will not compare their contents, `memcmp()` between two objects of type struct { char c; int n; } will compare the padding bytes whose values may differ when the values of c and n are the same, and even if there were no padding bytes, the `int` would be compared without taking into account endianness. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/memcmp&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -221,11 +221,11 @@ Output:
     abd follows abc in lexicographical order
     abc compares equal to abc in lexicographical order
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/memcmp&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ strcmp](strcmp.html "cpp/string/byte/strcmp") |  compares two strings   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strcmp&action=edit)  
+(function)   
 ---|---  
 [ strncmp](strncmp.html "cpp/string/byte/strncmp") |  compares a certain number of characters from two strings   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strncmp&action=edit)  
+(function)   
 [C documentation](../../../c/string/byte/memcmp.html "c/string/byte/memcmp") for memcmp

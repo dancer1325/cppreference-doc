@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::tuple`](../tuple.html "cpp/utility/tuple")
 
@@ -157,7 +157,7 @@ Common vocabulary types
 [ignore](ignore.html "cpp/utility/tuple/ignore")  
 [Deduction guides](deduction_guides.html "cpp/utility/tuple/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/navbar_content&action=edit)
+
 
 Defined in header `[<tuple>](../../header/tuple.html "cpp/header/tuple")` |  |   
 ---|---|---  
@@ -203,22 +203,22 @@ constexpr const T&& get( const [std::tuple](../tuple.html)<Types...>&& t ) noexc
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/tuple/get&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 t  |  \-  |  tuple whose contents to extract   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/tuple/get&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 A reference to the selected element of t. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/tuple/get&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../feature_test.html "cpp/utility/feature test") macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_tuples_by_type`](../../experimental/feature_test.html#cpp_lib_tuples_by_type "cpp/feature test") | [`201304L`](../../compiler_support/14.html#cpp_lib_tuples_by_type_201304L "cpp/compiler support/14") | (C++14) | Addressing tuples by type ([5-8](get.html#Version_5))  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/tuple/get&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -261,7 +261,7 @@ Output:
     ( 1, Foo, 3.14 )
     ( 1, Foo, 3.14 )
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/tuple/get&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -270,21 +270,21 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [LWG 2485](https://cplusplus.github.io/LWG/issue2485) | C++11 (by index)  
 C++14 (by type)  | there are no overloads for const tuple&& | added these overloads (([4](get.html#Version_4)) and ([8](get.html#Version_8)))   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/tuple/get&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ get(std::array)](../../container/array/get.html "cpp/container/array/get")(C++11) |  accesses an element of an `array`   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/array/dsc_get&action=edit)  
+(function template)   
 ---|---  
 [ get(std::pair)](../pair/get.html "cpp/utility/pair/get")(C++11) |  accesses an element of a `pair`   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/pair/dsc_get&action=edit)  
+(function template)   
 [ get(std::variant)](../variant/get.html "cpp/utility/variant/get")(C++17) |  reads the value of the variant given the index or the type (if the type is unique), throws on error   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variant/dsc_get&action=edit)  
+(function template)   
 [ get(std::ranges::subrange)](../../ranges/subrange/get.html "cpp/ranges/subrange/get")(C++20) |  obtains iterator or sentinel from a [std::ranges::subrange](../../ranges/subrange.html "cpp/ranges/subrange")   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/subrange/dsc_get&action=edit)  
+(function template)   
 [ get(std::complex)](../../numeric/complex/get.html "cpp/numeric/complex/get")(C++26) |  obtains a reference to real or imaginary part from a [std::complex](../../numeric/complex.html "cpp/numeric/complex")   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_get&action=edit)  
+(function template)   
 [ tie](tie.html "cpp/utility/tuple/tie")(C++11) |  creates a [tuple](../tuple.html "cpp/utility/tuple") of lvalue references or unpacks a tuple into individual objects   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/dsc_tie&action=edit)  
-[Structured binding](../../language/structured_binding.html "cpp/language/structured binding") (C++17) |  binds the specified names to sub-objects or tuple elements of the initializer[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_structured_binding&action=edit)
+(function template)   
+[Structured binding](../../language/structured_binding.html "cpp/language/structured binding") (C++17) |  binds the specified names to sub-objects or tuple elements of the initializer
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

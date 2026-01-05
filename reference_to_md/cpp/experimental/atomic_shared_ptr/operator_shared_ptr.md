@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Extensions for concurrency](../concurrency.html "cpp/experimental/concurrency")
 
@@ -75,7 +75,7 @@ Atomic smart pointers
 [experimental::atomic_shared_ptr](../atomic_shared_ptr.html "cpp/experimental/atomic shared ptr")  
 [experimental::atomic_weak_ptr](../atomic_weak_ptr.html "cpp/experimental/atomic weak ptr")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/concurrency/navbar_content&action=edit)
+
 
 [`std::experimental::atomic_shared_ptr`](../atomic_shared_ptr.html "cpp/experimental/atomic shared ptr")
 
@@ -89,7 +89,7 @@ Atomic smart pointers
 [atomic_shared_ptr::exchange](exchange.html "cpp/experimental/atomic shared ptr/exchange")  
 [atomic_shared_ptr::compare_exchange_weakatomic_shared_ptr::compare_exchange_strong](compare_exchange.html "cpp/experimental/atomic shared ptr/compare exchange")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/concurrency/atomic_shared_ptr/navbar_content&action=edit)
+
 
 operator shared_ptr<T>() const noexcept; |  |   
 ---|---|---  
@@ -107,20 +107,20 @@ Atomically loads and returns the current value of the `atomic_shared_ptr`. Equiv
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/atomic_shared_ptr/operator_shared_ptr&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/atomic_shared_ptr/operator_shared_ptr&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The current value of the `atomic_shared_ptr`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/atomic_shared_ptr/operator_shared_ptr&action=edit&section=3 "Edit section: Remarks")] Remarks
+### Remarks
 
 All associated [`use_count`](../../memory/shared_ptr/use_count.html "cpp/memory/shared ptr/use count") increments are guaranteed to be performed as part of the atomic operation. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/atomic_shared_ptr/operator_shared_ptr&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ load](load.html "cpp/experimental/atomic shared ptr/load") |  atomically obtains the value of the atomic object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/atomic_shared_ptr/dsc_load&action=edit)  
+(public member function)   
 ---|---

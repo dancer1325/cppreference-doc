@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 **`std::allocator_traits`**
 
@@ -199,7 +199,7 @@ management](new.html#Low_level_memory_management "cpp/memory/new")
 [allocator_traits::max_size](allocator_traits/max_size.html "cpp/memory/allocator traits/max size")  
 [allocator_traits::select_on_container_copy_construction](allocator_traits/select_on_container_copy_construction.html "cpp/memory/allocator traits/select on container copy construction")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/allocator_traits/navbar_content&action=edit)
+
 
 Defined in header `[<memory>](../header/memory.html "cpp/header/memory")` |  |   
 ---|---|---  
@@ -226,7 +226,7 @@ The default, non-specialized, `std::allocator_traits` contains the following mem
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/allocator_traits&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Type  |  Definition   
 ---|---  
@@ -243,32 +243,32 @@ Type  |  Definition
 `propagate_on_container_swap` |  `Alloc::propagate_on_container_swap` if present, otherwise [std::false_type](../types/integral_constant.html "cpp/types/integral constant")  
 `is_always_equal` |  `Alloc::is_always_equal` if present, otherwise [std::is_empty](../types/is_empty.html)<Alloc>::type  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/allocator_traits&action=edit&section=2 "Edit section: Member alias templates")] Member alias templates
+### Member alias templates
 
 Type  |  Definition   
 ---|---  
 `rebind_alloc<T>` |  `Alloc::rebind<T>::other` if present, otherwise `SomeAllocator<T, Args>` if this `Alloc` is of the form SomeAllocator<U, Args>, where Args is zero or more [type arguments](../language/template_parameters.html "cpp/language/template parameters")  
 `rebind_traits<T>` |  std::allocator_traits<rebind_alloc<T>>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/allocator_traits&action=edit&section=3 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ allocate](allocator_traits/allocate.html "cpp/memory/allocator traits/allocate")[static] |  allocates uninitialized storage using the allocator   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/allocator_traits/dsc_allocate&action=edit)  
+(public static member function)   
 ---|---  
 [ allocate_at_least](allocator_traits/allocate_at_least.html "cpp/memory/allocator traits/allocate at least")[static] (C++23) |  allocates storage at least as large as the requested size via an allocator   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/allocator_traits/dsc_allocate_at_least&action=edit)  
+(public static member function)   
 [ deallocate](allocator_traits/deallocate.html "cpp/memory/allocator traits/deallocate")[static] |  deallocates storage using the allocator   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/allocator_traits/dsc_deallocate&action=edit)  
+(public static member function)   
 [ construct](allocator_traits/construct.html "cpp/memory/allocator traits/construct")[static] |  constructs an object in the allocated storage   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/allocator_traits/dsc_construct&action=edit)  
+(function template)   
 [ destroy](allocator_traits/destroy.html "cpp/memory/allocator traits/destroy")[static] |  destructs an object stored in the allocated storage   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/allocator_traits/dsc_destroy&action=edit)  
+(function template)   
 [ max_size](allocator_traits/max_size.html "cpp/memory/allocator traits/max size")[static] |  returns the maximum object size supported by the allocator   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/allocator_traits/dsc_max_size&action=edit)  
+(public static member function)   
 [ select_on_container_copy_construction](allocator_traits/select_on_container_copy_construction.html "cpp/memory/allocator traits/select on container copy construction")[static] |  obtains the allocator to use after copying a standard container   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/allocator_traits/dsc_select_on_container_copy_construction&action=edit)  
+(public static member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/allocator_traits&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -276,14 +276,14 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 2108](https://cplusplus.github.io/LWG/issue2108) | C++11  | there was no way to show an allocator is stateless  | `is_always_equal` provided   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/allocator_traits&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [AllocatorAwareContainer](../named_req/AllocatorAwareContainer.html "cpp/named req/AllocatorAwareContainer")(C++11) |  container using allocator; associated traits (e.g. [`propagate_on_container_swap`](allocator_traits.html#Member_types)) usage  
 (named requirement)  
 ---|---  
 [ allocator](allocator.html "cpp/memory/allocator") |  the default allocator   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_allocator&action=edit)  
+(class template)   
 [ scoped_allocator_adaptor](scoped_allocator_adaptor.html "cpp/memory/scoped allocator adaptor")(C++11) |  implements multi-level allocator for multi-level containers   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_scoped_allocator_adaptor&action=edit)  
+(class template)   
 [ pointer_traits](pointer_traits.html "cpp/memory/pointer traits")(C++11) |  provides information about pointer-like types   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_pointer_traits&action=edit)
+(class template) 

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [Declarations](declarations.html "cpp/language/declarations")
 
@@ -280,7 +280,7 @@ Other declarations
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/declarations/navbar_content&action=edit)
+
 
 Inspects the declared type of an entity or the type and value category of an expression. 
 
@@ -297,13 +297,13 @@ Inspects the declared type of an entity or the type and value category of an exp
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/decltype&action=edit&section=1 "Edit section: Syntax")] Syntax  
+### Syntax  
   
 ---  
 `**decltype (**` entity `**)**` |  (1)  |   
 `**decltype (**` expression `**)**` |  (2)  |   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/decltype&action=edit&section=2 "Edit section: Explanation")] Explanation
+### Explanation
 
 1) If the argument is an unparenthesized [id-expression](name.html "cpp/language/identifiers") or an unparenthesized [class member access](operator_member_access.html "cpp/language/operator member access") expression, then decltype yields the type of the entity named by this expression. If there is no such entity, or if the argument names a set of overloaded functions, the program is ill-formed.  If the argument is an unparenthesized [id-expression](name.html "cpp/language/identifiers") naming a [structured binding](structured_binding.html "cpp/language/structured binding"), then decltype yields the _referenced type_ (described in the specification of the structured binding declaration).  | (since C++17)  
 ---|---  
@@ -324,17 +324,17 @@ Note that if the name of an object is parenthesized, it is treated as an ordinar
 
 `decltype` is useful when declaring types that are difficult or impossible to declare using standard notation, like lambda-related types or types that depend on template parameters. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/decltype&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Feature-test macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_decltype`](../experimental/feature_test.html#cpp_decltype "cpp/feature test") | [`200707L`](../compiler_support/11.html#cpp_decltype_200707L "cpp/compiler support/11") | (C++11) | decltype  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/decltype&action=edit&section=4 "Edit section: Keywords")] Keywords
+### Keywords
 
 [`decltype`](../keywords/decltype.html "cpp/keyword/decltype")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/decltype&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -391,7 +391,7 @@ Output:
     
     42 42
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/decltype&action=edit&section=6 "Edit section: References")] References
+### References
 
 Extended content  
 ---  
@@ -450,14 +450,14 @@ Extended content
 Reason: Requires correction. See: [Talk: Wrong References](https://en.cppreference.com/w/Talk%253Acpp/language/decltype.html#Wrong_References "Talk:cpp/language/decltype").   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/decltype&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
-[ `auto` specifier ](auto.html "cpp/language/auto")(C++11) |  specifies a type deduced from an expression [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_auto&action=edit)  
+[ `auto` specifier ](auto.html "cpp/language/auto")(C++11) |  specifies a type deduced from an expression   
 ---|---  
 [ declval](../utility/declval.html "cpp/utility/declval")(C++11) |  obtains a reference to an object of the template type argument for use in an unevaluated context   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_declval&action=edit)  
+(function template)   
 [ is_same](../types/is_same.html "cpp/types/is same")(C++11) |  checks if two types are the same   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_same&action=edit)  
+(class template)   
 [C documentation](../../c/language/typeof_unqual.html "c/language/typeof") for typeof
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -79,7 +79,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_ospanstream`](../basic_ospanstream.html "cpp/io/basic ospanstream")
 
@@ -94,7 +94,7 @@ Error category interface
 [Non-member functions](../basic_ospanstream.html#Non-member_functions "cpp/io/basic ospanstream")  
 [swap(std::basic_ospanstream)](swap2.html "cpp/io/basic ospanstream/swap2")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ospanstream/navbar_content&action=edit)
+
 
 [std::basic_spanbuf](../basic_spanbuf.html)<CharT, Traits>* rdbuf() const noexcept; |  |  (since C++23)  
 ---|---|---  
@@ -112,22 +112,22 @@ Returns pointer to the wrapped raw device object.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_spanstream/rdbuf&action=edit&section=T-1 "Template:cpp/io/basic spanstream/rdbuf")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_spanstream/rdbuf&action=edit&section=T-2 "Template:cpp/io/basic spanstream/rdbuf")] Return value
+### Return value
 
 Pointer to the wrapped raw device object. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_spanstream/rdbuf&action=edit&section=T-3 "Template:cpp/io/basic spanstream/rdbuf")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_spanstream/rdbuf&action=edit&section=T-4 "Template:cpp/io/basic spanstream/rdbuf")] See also
+### See also
 
 [ rdbuf](../basic_ios/rdbuf.html "cpp/io/basic ios/rdbuf") |  manages associated stream buffer   
-(public member function of `std::basic_ios<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ios/dsc_rdbuf&action=edit)  
+(public member function of `std::basic_ios<CharT,Traits>`)   
 ---|---

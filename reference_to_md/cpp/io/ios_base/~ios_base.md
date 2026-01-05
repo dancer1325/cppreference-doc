@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::ios_base`](../ios_base.html "cpp/io/ios base")
 
@@ -113,7 +113,7 @@ Member types
 [ios_base::event](event.html "cpp/io/ios base/event")  
 [ios_base::event_callback](event_callback.html "cpp/io/ios base/event callback")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/ios_base/navbar_content&action=edit)
+
 
 virtual ~ios_base(); |  |   
 ---|---|---  
@@ -125,7 +125,7 @@ Before any of the member functions would yield undefined results, calls callback
 
 No operations on `rdbuf` are performed, it is not destroyed. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/ios_base/%7Eios_base&action=edit&section=1 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

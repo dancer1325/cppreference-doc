@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [C-style I/O](../c.html "cpp/io/c")
 
@@ -176,7 +176,7 @@ Operations on files
 [tmpfile](tmpfile.html "cpp/io/c/tmpfile")  
 [tmpnam](tmpnam.html "cpp/io/c/tmpnam")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/navbar_content&action=edit)
+
 
 Defined in header `[<cstdio>](../../header/cstdio.html "cpp/header/cstdio")` |  |   
 ---|---|---  
@@ -196,22 +196,22 @@ Checks if the end of the given file stream has been reached.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/feof&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 stream  |  \-  |  the file stream to check   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/feof&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Nonzero value if the end of the stream has been reached, otherwise ​0​. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/feof&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 This function only reports the stream state as reported by the most recent I/O operation, it does not examine the associated data source. For example, if the most recent I/O was a [std::fgetc](fgetc.html "cpp/io/c/fgetc"), which returned the last byte of a file, `std::feof` returns zero. The next [std::fgetc](fgetc.html "cpp/io/c/fgetc") fails and changes the stream state to _end-of-file_. Only then `std::feof` returns non-zero. 
 
 In typical usage, input stream processing stops on any error; `feof` and [std::ferror](ferror.html "cpp/io/c/ferror") are then used to distinguish between different error conditions. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/feof&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -250,15 +250,15 @@ Output:
     
     End of file reached successfully
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/feof&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ eof](../basic_ios/eof.html "cpp/io/basic ios/eof") |  checks if end-of-file has been reached   
-(public member function of `std::basic_ios<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ios/dsc_eof&action=edit)  
+(public member function of `std::basic_ios<CharT,Traits>`)   
 ---|---  
 [ clearerr](clearerr.html "cpp/io/c/clearerr") |  clears errors   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_clearerr&action=edit)  
+(function)   
 [ perror](perror.html "cpp/io/c/perror") |  displays a character string corresponding of the current error to [stderr](std_streams.html "cpp/io/c/std streams")   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_perror&action=edit)  
+(function)   
 [ ferror](ferror.html "cpp/io/c/ferror") |  checks for a file error   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_ferror&action=edit)  
+(function)   
 [C documentation](../../../c/io/feof.html "c/io/feof") for feof

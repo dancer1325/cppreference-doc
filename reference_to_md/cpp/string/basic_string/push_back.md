@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Strings library](../../string.html "cpp/string")
 
@@ -40,7 +40,7 @@ Classes
 [basic_string_view](../basic_string_view.html "cpp/string/basic string view")(C++17)  
 [char_traits](../char_traits.html "cpp/string/char traits")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/navbar_content&action=edit)
+
 
 [`std::basic_string`](../basic_string.html "cpp/string/basic string")
 
@@ -133,7 +133,7 @@ basic_string_view](operator_basic_string_view.html "cpp/string/basic string/oper
 [hash<std::basic_string>](hash.html "cpp/string/basic string/hash")(C++11)  
 [Deduction guides](deduction_guides.html "cpp/string/basic string/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/navbar_content&action=edit)
+
 
 void push_back( CharT ch ); |  | (constexpr since C++20)  
 ---|---|---  
@@ -154,26 +154,26 @@ Appends the given character ch to the end of the string.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/push_back&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 ch  |  \-  |  the character to append   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/push_back&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/push_back&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Amortized constant. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/push_back&action=edit&section=4 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 If the operation would cause [`size()`](size.html "cpp/string/basic string/size") to exceed [`max_size()`](max_size.html "cpp/string/basic string/max size"), throws [std::length_error](../../error/length_error.html "cpp/error/length error"). 
 
 If an exception is thrown for any reason, this function has no effect ([strong exception safety guarantee](../../language/exceptions.html#Exception_safety "cpp/language/exceptions")). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/push_back&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -197,7 +197,7 @@ Output:
     1) "Short string", size: 12
     2) "Short string!", size: 13
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/push_back&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -208,8 +208,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 2) changed to `CharT`  
 [LWG 847](https://cplusplus.github.io/LWG/issue847) | C++98  | there was no exception safety guarantee  | added strong exception safety guarantee   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/push_back&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ pop_back](pop_back.html "cpp/string/basic string/pop back")(DR*) |  removes the last character   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_pop_back&action=edit)  
+(public member function)   
 ---|---

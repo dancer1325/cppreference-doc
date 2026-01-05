@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::optional`](../optional.html "cpp/utility/optional")
 
@@ -167,7 +167,7 @@ Common vocabulary types
 [nullopt](nullopt.html "cpp/utility/optional/nullopt")  
 [in_place](../in_place.html "cpp/utility/in place")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/navbar_content&action=edit)
+
 
 template< class... Args >  
 T& emplace( Args&&... args ); |  (1) | (since C++17)   
@@ -196,7 +196,7 @@ Constructs the contained value in-place. If *this already contains a value befor
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/emplace&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 args...  |  \-  |  the arguments to pass to the constructor   
 ---|---|---  
@@ -205,11 +205,11 @@ Type requirements
 -`T` must be constructible from `Args...` for overload (1)  
 -`T` must be constructible from [std::initializer_list](../initializer_list.html "cpp/utility/initializer list") and `Args...` for overload (2)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/emplace&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 A reference to the new contained value. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/emplace&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Any exception thrown by the selected constructor of `T`. If an exception is thrown, *this does not contain a value after this call (the previously contained value, if any, had been destroyed). 
 
@@ -218,7 +218,7 @@ Any exception thrown by the selected constructor of `T`. If an exception is thro
 [`__cpp_lib_optional`](../../experimental/feature_test.html#cpp_lib_optional "cpp/feature test") | [`202106L`](../../compiler_support/20.html#cpp_lib_optional_202106L "cpp/compiler support/20") | (C++20)  
 (DR20) | Fully constexpr ([1,2](emplace.html#Version_1))  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/emplace&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -281,7 +281,7 @@ Output:
     End example
       ~ destructed #2
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/emplace&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -289,10 +289,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [P2231R1](https://wg21.link/P2231R1) | C++20  | `emplace` was not constexpr while the required operations can be constexpr in C++20  | made constexpr  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/emplace&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ operator=](operator=.html "cpp/utility/optional/operator=") |  assigns contents   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/dsc_operator%3D&action=edit)  
+(public member function)   
 ---|---
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [Input/output manipulators](../manip.html "cpp/io/manip")
 
@@ -154,7 +154,7 @@ Time and money I/O
 Quoted manipulator  
 [quoted](quoted.html "cpp/io/manip/quoted")(C++14)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/navbar_content&action=edit)
+
 
 Defined in header `[<ios>](../../header/ios.html "cpp/header/ios")` |  |   
 ---|---|---  
@@ -180,16 +180,16 @@ This is an I/O manipulator, it may be called with an expression such as out << s
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/uppercase&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 str  |  \-  |  reference to I/O stream   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/uppercase&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 str (reference to the stream after manipulation). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/uppercase&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -213,10 +213,10 @@ Output:
     1e-10 with uppercase: 1E-10
     1e-10 with nouppercase: 1e-10
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/uppercase&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ resetiosflags](resetiosflags.html "cpp/io/manip/resetiosflags") |  clears the specified ios_base flags   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_resetiosflags&action=edit)  
+(function)   
 ---|---  
 [ setiosflags](setiosflags.html "cpp/io/manip/setiosflags") |  sets the specified `ios_base` flags   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_setiosflags&action=edit)
+(function) 

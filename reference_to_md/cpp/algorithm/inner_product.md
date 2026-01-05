@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](ranges/copy.html "cpp/algorithm/ra
 [uninitialized_default_construct_n](../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 [Numerics library](../numeric.html "cpp/numeric")
 
@@ -353,7 +353,7 @@ Constrained algorithms, e.g. [`ranges::copy`](ranges/copy.html "cpp/algorithm/ra
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 Defined in header `[<numeric>](../header/numeric.html "cpp/header/numeric")` |  |   
 ---|---|---  
@@ -395,7 +395,7 @@ Given last2 as the [std::distance](../iterator/distance.html)(first1, last1)th n
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/inner_product&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first1, last1  |  \-  |  the pair of iterators defining the [range](../iterator.html#Ranges "cpp/iterator") of elements to   
 ---|---|---  
@@ -410,11 +410,11 @@ The types  Type1 and  Type2 must be such that objects of types InputIt1 and Inpu
 Type requirements   
 -`InputIt1, InputIt2` must meet the requirements of [LegacyInputIterator](../named_req/InputIterator.html "cpp/named req/InputIterator").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/inner_product&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 acc after all modifications. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/inner_product&action=edit&section=3 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
 
 [inner_product (1)](inner_product.html#Version_1)  
 ---  
@@ -453,11 +453,11 @@ acc after all modifications.
         return init;
     }  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/inner_product&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 The parallelizable version of this algorithm, [std::transform_reduce](transform_reduce.html "cpp/algorithm/transform reduce"), requires op1 and op2 to be commutative and associative, but `std::inner_product` makes no such requirement, and always performs the operations in the order given. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/inner_product&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -486,7 +486,7 @@ Output:
     Inner product of a and b: 21
     Number of pairwise matches between a and b: 2
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/inner_product&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -494,12 +494,12 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 242](https://cplusplus.github.io/LWG/issue242) | C++98  | op1 and op2 could not have side effects  | they cannot modify the ranges involved   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/inner_product&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ transform_reduce](transform_reduce.html "cpp/algorithm/transform reduce")(C++17) |  applies an invocable, then reduces out of order   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_transform_reduce&action=edit)  
+(function template)   
 ---|---  
 [ accumulate](accumulate.html "cpp/algorithm/accumulate") |  sums up or folds a range of elements   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_accumulate&action=edit)  
+(function template)   
 [ partial_sum](partial_sum.html "cpp/algorithm/partial sum") |  computes the partial sum of a range of elements   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_partial_sum&action=edit)
+(function template) 

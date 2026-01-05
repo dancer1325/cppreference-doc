@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](copy.html "cpp/algorithm/ranges/co
 [uninitialized_default_construct_n](../../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 [Constrained algorithms](../ranges.html "cpp/algorithm/ranges")
 
@@ -550,7 +550,7 @@ All names in this menu belong to namespace `std::ranges`
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -614,7 +614,7 @@ The function-like entities described on this page are [_algorithm function objec
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/lower_bound&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  the iterator-sentinel pair defining the partially-ordered [range](../../iterator.html#Ranges "cpp/iterator") of elements to examine   
 ---|---|---  
@@ -623,15 +623,15 @@ value  |  \-  |  value to compare the projected elements to
 comp  |  \-  |  comparison predicate to apply to the projected elements   
 proj  |  \-  |  projection to apply to the elements   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/lower_bound&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Iterator pointing to the first element that is _not less_ than value, or last if no such element is found. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/lower_bound&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 The number of comparisons and applications of the projection performed are logarithmic in the distance between first and last (at most log2(last - first) + O(1) comparisons and applications of the projection). However, for an iterator that does not model [`random_access_iterator`](../../iterator/random_access_iterator.html "cpp/iterator/random access iterator"), the number of iterator increments is linear. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/lower_bound&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 On a range that's fully sorted (or more generally, partially ordered with respect to value) after projection, `std::ranges::lower_bound` implements the binary search algorithm. Therefore, [std::ranges::binary_search](binary_search.html "cpp/algorithm/ranges/binary search") can be implemented in terms of it. 
 
@@ -639,7 +639,7 @@ On a range that's fully sorted (or more generally, partially ordered with respec
 ---|---|---|---  
 [`__cpp_lib_algorithm_default_value_type`](../../experimental/feature_test.html#cpp_lib_algorithm_default_value_type "cpp/feature test") | [`202403`](../../compiler_support/26.html#cpp_lib_algorithm_default_value_type_202403 "cpp/compiler support/26") | (C++26) | [List-initialization](../../language/list_initialization.html "cpp/language/list initialization") for algorithms ([1,2](lower_bound.html#Version_1))  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/lower_bound&action=edit&section=5 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     struct lower_bound_fn
@@ -688,7 +688,7 @@ On a range that's fully sorted (or more generally, partially ordered with respec
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/lower_bound&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -750,18 +750,18 @@ Output:
     found a range [6, 10) = { 4 4 4 4 }
     8 found at index 3
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/lower_bound&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ ranges::equal_range](equal_range.html "cpp/algorithm/ranges/equal range")(C++20) |  returns range of elements matching a specific key  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_equal_range&action=edit)  
+(algorithm function object)  
 ---|---  
 [ ranges::partition](partition.html "cpp/algorithm/ranges/partition")(C++20) |  divides a range of elements into two groups  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_partition&action=edit)  
+(algorithm function object)  
 [ ranges::partition_point](partition_point.html "cpp/algorithm/ranges/partition point")(C++20) |  locates the partition point of a partitioned range  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_partition_point&action=edit)  
+(algorithm function object)  
 [ ranges::upper_bound](upper_bound.html "cpp/algorithm/ranges/upper bound")(C++20) |  returns an iterator to the first element _greater_ than a certain value  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_upper_bound&action=edit)  
+(algorithm function object)  
 [ lower_bound](../lower_bound.html "cpp/algorithm/lower bound") |  returns an iterator to the first element _not less_ than the given value   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_lower_bound&action=edit)
+(function template) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::unique_ptr`](../unique_ptr.html "cpp/memory/unique ptr")
 
@@ -211,7 +211,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
 [Helper classes](../unique_ptr.html#Helper_classes "cpp/memory/unique ptr")  
 [hash<std::unique_ptr>](hash.html "cpp/memory/unique ptr/hash")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/unique_ptr/navbar_content&action=edit)
+
 
 unique_ptr& operator=( unique_ptr&& r ) noexcept; |  (1) | (constexpr since C++23)  
 ---|---|---  
@@ -274,20 +274,20 @@ Otherwise (`E` is a reference type), the behavior is undefined if assigning [get
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/unique_ptr/operator%3D&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 r  |  \-  |  smart pointer from which ownership will be transferred   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/unique_ptr/operator%3D&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 *this
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/unique_ptr/operator%3D&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 As a move-only type, `unique_ptr`'s assignment operator only accepts [rvalues](../../language/value_category.html "cpp/language/value category") arguments (e.g. the result of [std::make_unique](make_unique.html "cpp/memory/unique ptr/make unique") or a std::move'd `unique_ptr` variable). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/unique_ptr/operator%3D&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -331,7 +331,7 @@ Output:
     About to leave program...
     ~Foo 2
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/unique_ptr/operator%3D&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

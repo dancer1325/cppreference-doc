@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Classes](classes.html "cpp/language/classes")
 
@@ -261,7 +261,7 @@ Inheritance
 [`override` specifier](override.html "cpp/language/override") (C++11)  
 [`final` specifier](final.html "cpp/language/final") (C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/classes/navbar_content&action=edit)
+
 
 Any class type (whether declared with class-key class or struct) may be declared as _derived_ from one or more _base classes_ which, in turn, may be derived from their own base classes, forming an inheritance hierarchy. 
 
@@ -280,7 +280,7 @@ Any class type (whether declared with class-key class or struct) may be declared
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/derived_class&action=edit&section=1 "Edit section: Syntax")] Syntax
+### Syntax
 
 The list of base classes is provided in the base-clause of the [class declaration syntax](class.html "cpp/language/class"). The base-clause consists of the character `**:**` followed by a comma-separated list of one or more base-specifiers.   
   
@@ -350,7 +350,7 @@ Classes denoted by class-or-computed's listed in the base-clause are direct base
 
 Each direct and indirect base class is present, as _base class subobject_ , within the object representation of the derived class at an ABI-dependent offset. Empty base classes usually do not increase the size of the derived object due to [empty base optimization](ebo.html "cpp/language/ebo"). The constructors of base class subobjects are called by the constructor of the derived class: arguments may be provided to those constructors in the [member initializer list](initializer_list.html "cpp/language/initializer list"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/derived_class&action=edit&section=2 "Edit section: Virtual base classes")] Virtual base classes
+### Virtual base classes
 
 For each distinct base class that is specified virtual, the [most derived object](objects.html#Subobjects "cpp/language/object") contains only one base class subobject of that type, even if the class appears many times in the inheritance hierarchy (as long as it is inherited virtual every time). 
     
@@ -399,7 +399,7 @@ All virtual base subobjects are initialized before any non-virtual base subobjec
 
 There are [special rules](unqualified_lookup.html#Member_function_definition "cpp/language/unqualified lookup") for unqualified name lookup for class members when virtual inheritance is involved (sometimes referred to as the rules of dominance). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/derived_class&action=edit&section=3 "Edit section: Public inheritance")] Public inheritance
+### Public inheritance
 
 When a class uses public [member access specifier](access.html "cpp/language/access") to derive from a base, all public members of the base class are accessible as public members of the derived class and all protected members of the base class are accessible as protected members of the derived class (private members of the base are never accessible unless friended). 
 
@@ -477,13 +477,13 @@ Run this code
         color_menu.print(); // OK: colors and Menu has the same number of elements
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/derived_class&action=edit&section=4 "Edit section: Protected inheritance")] Protected inheritance
+### Protected inheritance
 
 When a class uses protected [member access specifier](access.html "cpp/language/access") to derive from a base, all public and protected members of the base class are accessible as protected members of the derived class (private members of the base are never accessible unless friended). 
 
 Protected inheritance may be used for "controlled polymorphism": within the members of Derived, as well as within the members of all further-derived classes, the derived class IS-A base: references and pointers to Derived may be used where references and pointers to Base are expected. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/derived_class&action=edit&section=5 "Edit section: Private inheritance")] Private inheritance
+### Private inheritance
 
 When a class uses private [member access specifier](access.html "cpp/language/access") to derive from a base, all public and protected members of the base class are accessible as private members of the derived class (private members of the base are never accessible unless friended). 
 
@@ -521,15 +521,15 @@ Similar to protected inheritance, private inheritance may also be used for contr
     service<tcp> service(host, port); 
     service.transmit(...); // send over TCP
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/derived_class&action=edit&section=6 "Edit section: Member name lookup")] Member name lookup
+### Member name lookup
 
 Unqualified and qualified name lookup rules for class members are detailed in [name lookup](lookup.html "cpp/language/lookup"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/derived_class&action=edit&section=7 "Edit section: Keywords")] Keywords
+### Keywords
 
 [`virtual`](../keyword/virtual.html "cpp/keyword/virtual")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/derived_class&action=edit&section=8 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -538,7 +538,7 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [CWG 1710](https://cplusplus.github.io/CWG/issues/1710.html) | C++98  | the syntax of class-or-decltype made it impossible to derive from  
 a dependent class where the template disambiguator is required  | allowed template  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/derived_class&action=edit&section=9 "Edit section: See also")] See also
+### See also
 
   * [virtual functions](virtual.html "cpp/language/virtual")
   * [abstract classes](abstract_class.html "cpp/language/abstract class")

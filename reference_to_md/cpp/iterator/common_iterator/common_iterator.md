@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](../empty.html "cpp/iterator/empty")(C++17)  
 [data](../data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 [`std::common_iterator`](../common_iterator.html "cpp/iterator/common iterator")
 
@@ -213,7 +213,7 @@
 [incrementable_traits<std::common_iterator>](incrementable_traits.html "cpp/iterator/common iterator/incrementable traits")(C++20)  
 [iterator_traits<std::common_iterator>](iterator_traits.html "cpp/iterator/common iterator/iterator traits")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/common_iterator/navbar_content&action=edit)
+
 
 constexpr common_iterator() requires [std::default_initializable](../../concepts/default_initializable.html)<I> = default; |  (1)  |  (since C++20)  
 ---|---|---  
@@ -235,14 +235,14 @@ Constructs a new iterator adaptor, effectively initializes the underlying [std::
 
 4) After construction, `_var_` holds an `I` or `S` object initialized from the `I2` or `S2` held by x.var, if x.var holds that alternative, respectively. The behavior is undefined if x is in an invalid state, that is, x.var.valueless_by_exception() is equal to true.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/common_iterator/common_iterator&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 i  |  \-  |  iterator to adapt   
 ---|---|---  
 s  |  \-  |  sentinel to adapt   
 x  |  \-  |  iterator adaptor to copy   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/common_iterator/common_iterator&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -285,8 +285,8 @@ Output:
     1 4 1 5 9
     3.1;  4.1;  5.1;  6.1;  7.1;
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/common_iterator/common_iterator&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ operator=](operator=.html "cpp/iterator/common iterator/operator=") |  assigns another `common_iterator`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_operator%3D&action=edit)  
+(public member function)   
 ---|---

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Diagnostics library](../../error.html "cpp/error")
 
@@ -187,7 +187,7 @@ Exception handling failures
 [breakpoint_if_debugging](../../utility/breakpoint_if_debugging.html "cpp/utility/breakpoint if debugging")(C++26)  
 [breakpoint](../../utility/breakpoint.html "cpp/utility/breakpoint")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/navbar_content&action=edit)
+
 
 [`std::error_code`](../error_code.html "cpp/error/error code")
 
@@ -211,7 +211,7 @@ Helper classes
 [is_error_code_enum](is_error_code_enum.html "cpp/error/error code/is error code enum")  
 [hash<std::error_code>](hash.html "cpp/error/error code/hash")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/error_code/navbar_content&action=edit)
+
 
 void assign( int val, const error_category& cat ) noexcept; |  |  (since C++11)  
 ---|---|---  
@@ -219,18 +219,18 @@ void assign( int val, const error_category& cat ) noexcept; |  |  (since C++11)
   
 Replaces the contents with error code value val and corresponding category cat. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/error_code/assign&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 val  |  \-  |  platform-dependent error code value to assign   
 ---|---|---  
 cat  |  \-  |  error category corresponding to val  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/error_code/assign&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/error_code/assign&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ operator=](operator=.html "cpp/error/error code/operator=") |  assigns another error code   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/error_code/dsc_operator%3D&action=edit)  
+(public member function)   
 ---|---

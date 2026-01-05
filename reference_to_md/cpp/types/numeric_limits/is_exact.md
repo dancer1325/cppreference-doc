@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Type support](../../utility/rtti.html "cpp/types")
 
@@ -161,7 +161,7 @@ Runtime type information
 ---  
 [bad_cast](../bad_cast.html "cpp/types/bad cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/navbar_content&action=edit)
+
 
 [`std::numeric_limits`](../numeric_limits.html "cpp/types/numeric limits")
 
@@ -204,7 +204,7 @@ Helper types
 [float_round_style](float_round_style.html "cpp/types/numeric limits/float round style")  
 [float_denorm_style](float_denorm_style.html "cpp/types/numeric limits/float denorm style")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/navbar_content&action=edit)
+
 
 static const bool is_exact; |  | (until C++11)  
 ---|---|---  
@@ -213,7 +213,7 @@ static constexpr bool is_exact; |  |  (since C++11)
   
 The value of [std::numeric_limits](../numeric_limits.html)<T>::is_exact is true for all arithmetic types `T` that use exact representation. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/numeric_limits/is_exact&action=edit&section=1 "Edit section: Standard specializations")] Standard specializations
+### Standard specializations
 
 `T` |  value of [std::numeric_limits](../numeric_limits.html)<T>::is_exact  
 ---|---  
@@ -238,16 +238,16 @@ float |  false
 double |  false  
 long double |  false  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/numeric_limits/is_exact&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 While all fundamental types `T` for which [std::numeric_limits](../numeric_limits.html)<T>::is_exact == true are integer types, a library may define exact types that are not integers, e.g. a rational arithmetic type representing fractions. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/numeric_limits/is_exact&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ is_integer](is_integer.html "cpp/types/numeric limits/is integer")[static] |  identifies integer types   
-(public static member constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/dsc_is_integer&action=edit)  
+(public static member constant)   
 ---|---  
 [ is_signed](is_signed.html "cpp/types/numeric limits/is signed")[static] |  identifies signed types   
-(public static member constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/dsc_is_signed&action=edit)  
+(public static member constant)   
 [ is_bounded](is_bounded.html "cpp/types/numeric limits/is bounded")[static] |  identifies types that represent a finite set of values   
-(public static member constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/dsc_is_bounded&action=edit)
+(public static member constant) 

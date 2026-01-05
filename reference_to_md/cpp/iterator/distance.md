@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](empty.html "cpp/iterator/empty")(C++17)  
 [data](data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 Defined in header `[<iterator>](../header/iterator.html "cpp/header/iterator")` |  |   
 ---|---|---  
@@ -222,7 +222,7 @@ If `InputIt` is [LegacyRandomAccessIterator](../named_req/RandomAccessIterator.h
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/distance&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first  |  \-  |  iterator pointing to the first element   
 ---|---|---  
@@ -230,20 +230,20 @@ last  |  \-  |  iterator pointing to the end of the range
 Type requirements   
 -`InputIt` must meet the requirements of [LegacyInputIterator](../named_req/InputIterator.html "cpp/named req/InputIterator"). The operation is more efficient if `InputIt` additionally meets the requirements of [LegacyRandomAccessIterator](../named_req/RandomAccessIterator.html "cpp/named req/RandomAccessIterator").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/distance&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The number of increments needed to go from first to last. 
 
 The value may be negative if random-access iterators are used and first is reachable from last.  | (since C++11)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/distance&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Linear. 
 
 However, if `InputIt` additionally meets the requirements of [LegacyRandomAccessIterator](../named_req/RandomAccessIterator.html "cpp/named req/RandomAccessIterator"), complexity is constant. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/distance&action=edit&section=4 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
 
 See also the implementations in [libstdc++](https://github.com/gcc-mirror/gcc/blob/d9375e490072d1aae73a93949aa158fcd2a27018/libstdc%2B%2B-v3/include/bits/stl_iterator_base_funcs.h#L135) and [libc++](https://github.com/llvm-mirror/libcxx/blob/a12cb9d211019d99b5875b6d8034617cbc24c2cc/include/iterator#L611). 
 
@@ -309,7 +309,7 @@ C++17 implementation via if constexpr
         }
     }  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/distance&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -339,7 +339,7 @@ Output:
     distance(first, last) = 3
     distance(last, first) = -3
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/distance&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -347,12 +347,12 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 940](https://cplusplus.github.io/LWG/issue940) | C++98  | the wording was unclear for the case where first is reachable from last | made clear   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/distance&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ advance](advance.html "cpp/iterator/advance") |  advances an iterator by given distance   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_advance&action=edit)  
+(function template)   
 ---|---  
 [ countcount_if](../algorithm/count.html "cpp/algorithm/count") |  returns the number of elements satisfying specific criteria   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_count&action=edit)  
+(function template)   
 [ ranges::distance](ranges/distance.html "cpp/iterator/ranges/distance")(C++20) |  returns the distance between an iterator and a sentinel, or between the beginning and end of a range  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/ranges/dsc_distance&action=edit)
+(algorithm function object)

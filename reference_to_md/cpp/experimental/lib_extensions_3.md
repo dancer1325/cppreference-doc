@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 **Library fundamentals v3**
 
@@ -65,7 +65,7 @@
 [experimental::scope_success](scope_success.html "cpp/experimental/scope success")  
 [experimental::unique_resource](unique_resource.html "cpp/experimental/unique resource")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions_3/navbar_content&action=edit)
+
 
 Version 3 of the C++ Extensions for Library Fundamentals, ISO/IEC TS 19568:2024, defines the following new components for the C++ standard library, in addition to those defined in [version 1](memory.html "cpp/experimental/lib extensions") and [version 2](lib_extensions_2.html "cpp/experimental/lib extensions 2"). 
 
@@ -78,20 +78,20 @@ Components merged into C++17/20 and the following components are removed in LFTS
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/lib_extensions_3&action=edit&section=1 "Edit section: Scope guard")] Scope guard
+### Scope guard
 
 Defined in header `[<experimental/scope>](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/scope&action=edit&redlink=1 "cpp/header/experimental/scope \(page does not exist\)")`  
 ---  
 [ scope_exit](scope_exit.html "cpp/experimental/scope exit") |  wraps a function object and invokes it on exiting the scope   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/dsc_scope_exit&action=edit)  
+(class template)   
 [ scope_fail](scope_fail.html "cpp/experimental/scope fail") |  wraps a function object and invokes it on exiting the scope through an exception   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/dsc_scope_fail&action=edit)  
+(class template)   
 [ scope_success](scope_success.html "cpp/experimental/scope success") |  wraps a function object and invokes it on exiting the scope normally   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/dsc_scope_success&action=edit)  
+(class template)   
 [ unique_resource](unique_resource.html "cpp/experimental/unique resource") |  universal RAII resource handle wrapper   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/dsc_unique_resource&action=edit)  
+(class template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/lib_extensions_3&action=edit&section=2 "Edit section: Feature test macros")] Feature test macros
+### Feature test macros
 
 Defined in header `[<experimental/memory_resource>](../header/experimental/memory_resource.html "cpp/header/experimental/memory resource")`  
 ---  
@@ -104,6 +104,6 @@ Defined in header `[<experimental/scope>](https://en.cppreference.com/mwiki/inde
 __cpp_lib_experimental_scope |  a value of at least 201902 indicates that the scope guards are supported   
 (macro constant)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/lib_extensions_3&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 The value of `__cpp_lib_experimental_memory_resources` has been increased in LFTS v3, because the design of [`resource_adaptor`](resource_adaptor.html "cpp/experimental/resource adaptor") is rebased onto [std::pmr::memory_resource](../memory/memory_resource.html "cpp/memory/memory resource"). 

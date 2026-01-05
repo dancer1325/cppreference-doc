@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [`std::valarray`](../valarray.html "cpp/numeric/valarray")
 
@@ -155,7 +155,7 @@
   
 [Deduction guides](deduction_guides.html "cpp/numeric/valarray/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/navbar_content&action=edit)
+
 
 Defined in header `[<valarray>](../../header/valarray.html "cpp/header/valarray")` |  |   
 ---|---|---  
@@ -184,7 +184,7 @@ class slice; |  |
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/slice&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 **(constructor)** |  constructs a slice   
 (public member function)  
@@ -246,7 +246,7 @@ The parameters of the slice -- start, size and stride respectively.
 
 Constant. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/slice&action=edit&section=6 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 ** operator==(std::slice)**(C++20) |  checks if two slices are equal   
 (function)  
@@ -273,7 +273,7 @@ lhs, rhs  |  \-  |  slices to compare
 
 lhs.start() == rhs.start() && lhs.size() == rhs.size() && lhs.stride() == rhs.stride()
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/slice&action=edit&section=9 "Edit section: Example")] Example
+### Example
 
 Barebones valarray-backed Matrix class with a [trace](https://en.wikipedia.org/wiki/Trace_\(linear_algebra\) "enwiki:Trace \(linear algebra\)") calculating function.
 
@@ -308,7 +308,7 @@ Output:
     
     Trace of the matrix (1,2,3) (4,5,6) (7,8,9) is 15
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/slice&action=edit&section=10 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -316,14 +316,14 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 543](https://cplusplus.github.io/LWG/issue543) | C++98  | it was unclear whether a default constructed slice is usable  | it is usable (as an empty subset)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/slice&action=edit&section=11 "Edit section: See also")] See also
+### See also
 
 [ operator[]](operator_at.html "cpp/numeric/valarray/operator at") |  get/set valarray element, slice, or mask   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_operator_at&action=edit)  
+(public member function)   
 ---|---  
 [ gslice](gslice.html "cpp/numeric/valarray/gslice") |  generalized slice of a valarray: starting index, set of lengths, set of strides   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_gslice&action=edit)  
+(class)   
 [ slice_array](slice_array.html "cpp/numeric/valarray/slice array") |  proxy to a subset of a valarray after applying a slice   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_slice_array&action=edit)  
+(class template)   
 [ mdspan](../../container/mdspan.html "cpp/container/mdspan")(C++23) |  a multi-dimensional non-owning array view   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_mdspan&action=edit)
+(class template) 

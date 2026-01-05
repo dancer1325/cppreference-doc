@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::tuple`](../tuple.html "cpp/utility/tuple")
 
@@ -157,7 +157,7 @@ Common vocabulary types
 [ignore](ignore.html "cpp/utility/tuple/ignore")  
 [Deduction guides](deduction_guides.html "cpp/utility/tuple/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/navbar_content&action=edit)
+
 
 tuple& operator=( const tuple& other ); |  (1) | (since C++11)   
 (constexpr since C++20)  
@@ -310,18 +310,18 @@ This overload participates in overload resolution only if
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/tuple/operator%3D&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 other  |  \-  |  tuple to replace the contents of this tuple   
 ---|---|---  
 p  |  \-  |  pair to replace the contents of this 2-tuple   
 u  |  \-  |  [`_tuple-like_`](tuple-like.html "cpp/utility/tuple/tuple-like") object to replace the contents of this tuple   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/tuple/operator%3D&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 *this
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/tuple/operator%3D&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 1,2) May throw implementation-defined exceptionsif the assignment of one of the types in `Types` throws an exception.
 
@@ -342,7 +342,7 @@ noexcept(
 
 4-14) May throw implementation-defined exceptionsif the assignment of one of the types in `Types` throws an exception.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/tuple/operator%3D&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -456,7 +456,7 @@ Possible output:
     8) t4 = std::move(p1);
        t4 = {epsilon, {14, 15, 16}}, p1 = {epsilon, {}}
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/tuple/operator%3D&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -465,10 +465,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [LWG 2729](https://cplusplus.github.io/LWG/issue2729) | C++11  | operator= was unconstrained and might  
 result in unnecessary undefined behavior  | constrained   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/tuple/operator%3D&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ (constructor)](tuple.html "cpp/utility/tuple/tuple") |  constructs a new `tuple`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ operator=](../pair/operator=.html "cpp/utility/pair/operator=") |  assigns the contents   
-(public member function of `std::pair<T1,T2>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/pair/dsc_operator%3D&action=edit)
+(public member function of `std::pair<T1,T2>`) 

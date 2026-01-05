@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::basic_istream_view`](../basic_istream_view.html "cpp/ranges/basic istream view")
 
@@ -240,7 +240,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
 [basic_istream_view::_iterator_ ::operator*](iterator.html#dereference "cpp/ranges/basic istream view/iterator")  
 [operator==(basic_istream_view::_iterator_)](iterator.html#Non-member_functions "cpp/ranges/basic istream view/iterator")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/basic_istream_view/navbar_content&action=edit)
+
 
 struct /*iterator*/; |  | (exposition only*)  
 ---|---|---  
@@ -266,7 +266,7 @@ struct /*iterator*/; |  | (exposition only*)
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/basic_istream_view/iterator&action=edit&section=1 "Edit section: Nested types")] Nested types
+### Nested types
 
 Type  |  Definition   
 ---|---  
@@ -274,14 +274,14 @@ Type  |  Definition
 `difference_type` |  [std::ptrdiff_t](../../types/ptrdiff_t.html "cpp/types/ptrdiff t")  
 `value_type` |  `Val`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/basic_istream_view/iterator&action=edit&section=2 "Edit section: Data members")] Data members
+### Data members
 
 Member  |  Definition   
 ---|---  
 [ranges::basic_istream_view](../basic_istream_view.html)<Val, CharT, Traits> `_parent__` |  a pointer to the parent view  
 (exposition-only member object*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/basic_istream_view/iterator&action=edit&section=3 "Edit section: Member functions")] Member functions
+### Member functions
 
 ##  std::ranges::basic_istream_view::_iterator_ ::_iterator_
 
@@ -327,7 +327,7 @@ Val& operator*() const; |  |  (since C++20)
   
 Returns `_[parent_](iterator.html#parent)_` ﻿->`_[value_](../basic_istream_view.html#value "cpp/ranges/basic istream view")_`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/basic_istream_view/iterator&action=edit&section=4 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 ##  operator==(std::ranges::basic_istream_view::_iterator_ , std::default_sentinel)
 
@@ -339,7 +339,7 @@ Returns !*`_[parent_](iterator.html#parent)_` ﻿->`_[stream_](../basic_istream_
 
 This function is not visible to ordinary [unqualified](../../language/unqualified_lookup.html "cpp/language/unqualified lookup") or [qualified lookup](../../language/qualified_lookup.html "cpp/language/qualified lookup"), and can only be found by [argument-dependent lookup](../../language/adl.html "cpp/language/adl") when `std::ranges::basic_istream_view::_iterator_` is an associated class of the arguments. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/basic_istream_view/iterator&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

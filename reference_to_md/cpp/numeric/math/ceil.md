@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [Common mathematical functions](../math.html "cpp/numeric/math")
 
@@ -230,7 +230,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/navbar_content&action=edit)
+
 
 Defined in header `[<cmath>](../../header/cmath.html "cpp/header/cmath")` |  |   
 ---|---|---  
@@ -280,12 +280,12 @@ A) Additional overloads are provided for all integer types, which are treated as
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/ceil&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 num  |  \-  |  floating point or integer value   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/ceil&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 If no errors occur, the smallest integer value not less than num, that is ⌈num⌉, is returned. 
 
@@ -295,7 +295,7 @@ Return value
 
 num
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/ceil&action=edit&section=3 "Edit section: Error handling")] Error handling
+### Error handling
 
 Errors are reported as specified in [math_errhandling](math_errhandling.html "cpp/numeric/math/math errhandling"). 
 
@@ -308,7 +308,7 @@ If the implementation supports IEEE floating-point arithmetic (IEC 60559),
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/ceil&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 [FE_INEXACT](../fenv/FE_exceptions.html "cpp/numeric/fenv/FE exceptions") may be (but is not required to be) raised when rounding a non-integer finite value. 
 
@@ -332,7 +332,7 @@ This function (for double argument) behaves as if (except for the freedom to not
 
 The additional overloads are not required to be provided exactly as (A). They only need to be sufficient to ensure that for their argument num of integer type, std::ceil(num) has the same effect as std::ceil(static_cast<double>(num)). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/ceil&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -357,23 +357,23 @@ Output:
     ceil(-0.0) = -0.000000
     ceil(-Inf) = -inf
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/ceil&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ floorfloorffloorl](floor.html "cpp/numeric/math/floor")(C++11)(C++11) |  nearest integer not greater than the given value   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_floor&action=edit)  
+(function)   
 ---|---  
 [ trunctruncftruncl](trunc.html "cpp/numeric/math/trunc")(C++11)(C++11)(C++11) |  nearest integer not greater in magnitude than the given value   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_trunc&action=edit)  
+(function)   
 [ roundroundfroundllroundlroundflroundlllroundllroundfllroundl](round.html "cpp/numeric/math/round")(C++11)(C++11)(C++11)(C++11)(C++11)(C++11)(C++11)(C++11)(C++11) |  nearest integer, rounding away from zero in halfway cases   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_round&action=edit)  
+(function)   
 [ nearbyintnearbyintfnearbyintl](nearbyint.html "cpp/numeric/math/nearbyint")(C++11)(C++11)(C++11) |  nearest integer using current rounding mode   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_nearbyint&action=edit)  
+(function)   
 [ rintrintfrintllrintlrintflrintlllrintllrintfllrintl](rint.html "cpp/numeric/math/rint")(C++11)(C++11)(C++11)(C++11)(C++11)(C++11)(C++11)(C++11)(C++11) |  nearest integer using current rounding mode with  
 exception if the result differs   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_rint&action=edit)  
+(function)   
 [C documentation](../../../c/numeric/math/ceil.html "c/numeric/math/ceil") for ceil  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/ceil&action=edit&section=7 "Edit section: External links")] External links
+### External links
 
 [Fast ceiling of an integer division](https://stackoverflow.com/a/2745086) — StackOverflow   
 ---

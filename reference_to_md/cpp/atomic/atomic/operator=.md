@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::atomic`](../atomic.html "cpp/atomic/atomic")
 
@@ -210,7 +210,7 @@ pointer types only](../atomic.html#Specialized_for_integral_and_pointer_types_on
 [atomic::fetch_xor](fetch_xor.html "cpp/atomic/atomic/fetch xor")  
 [atomic::operator&=atomic::operator|=atomic::operator^=](operator_arith3.html "cpp/atomic/atomic/operator arith3")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/navbar_content&action=edit)
+
 
 T operator=( T desired ) noexcept; |  (1)  |  (since C++11)  
 ---|---|---  
@@ -234,21 +234,21 @@ atomic& operator=( const atomic& ) volatile = delete; |  (4)  |  (since C++11)
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic/operator%3D&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 desired  |  \-  |  value to assign   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic/operator%3D&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1,2) desired
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic/operator%3D&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Unlike most assignment operators, the assignment operators for atomic types do not return a reference to their left-hand arguments. They return a copy of the stored value instead. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic/operator%3D&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ (constructor)](atomic.html "cpp/atomic/atomic/atomic") |  constructs an atomic object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_constructor&action=edit)  
+(public member function)   
 ---|---

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 Defined in header `[<atomic>](../header/atomic.html "cpp/header/atomic")` |  |   
 ---|---|---  
@@ -195,25 +195,25 @@ T atomic_load_explicit( const volatile [std::atomic](atomic.html)<T>* obj,
 
 If order is one of [std::memory_order_release](memory_order.html) and [std::memory_order_acq_rel](memory_order.html), the behavior is undefined.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_load&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 obj  |  \-  |  pointer to the atomic object to modify   
 ---|---|---  
 order  |  \-  |  the memory synchronization ordering for this operation   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_load&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The value that is held by the atomic object pointed to by obj. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_load&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ load](atomic/load.html "cpp/atomic/atomic/load") |  atomically obtains the value of the atomic object   
-(public member function of `std::atomic<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_load&action=edit)  
+(public member function of `std::atomic<T>`)   
 ---|---  
 [ atomic_storeatomic_store_explicit](atomic_store.html "cpp/atomic/atomic store")(C++11)(C++11) |  atomically replaces the value of the atomic object with a non-atomic argument   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/dsc_atomic_store&action=edit)  
+(function template)   
 [ memory_order](memory_order.html "cpp/atomic/memory order")(C++11) |  defines memory ordering constraints for the given atomic operation   
-(enum) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/dsc_memory_order&action=edit)  
+(enum)   
 [ std::atomic_load(std::shared_ptr) std::atomic_load_explicit(std::shared_ptr)](../memory/shared_ptr/atomic.html "cpp/memory/shared ptr/atomic")(deprecated in C++20)(removed in C++26) |  specializes atomic operations for [std::shared_ptr](../memory/shared_ptr.html "cpp/memory/shared ptr")   
 (function template)  
 ---|---  

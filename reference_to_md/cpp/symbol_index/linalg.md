@@ -21,7 +21,7 @@
 [Removed symbols (Zombie names)](zombie_names.html "cpp/symbol index/zombie names")  
 [Exposition-only symbols](expos.html "cpp/symbol index/expos")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/symbol_index/navbar_content&action=edit)
+
 
 This page tries to list all the symbols that are available from the [standard library](../standard_library.html "cpp/standard library") ([numerics library](../numeric.html "cpp/numeric")) in the namespace std::linalg. The symbols are written as follows: 
 
@@ -56,13 +56,13 @@ This page tries to list all the symbols that are available from the [standard li
   
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/linalg&action=edit&section=2 "Edit section: A")] A
+### A
 
 [`add<>()`](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/linalg/add&action=edit&redlink=1 "cpp/numeric/linalg/add \(page does not exist\)") (since C++26)  
 [`apply_givens_rotation<>()`](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/linalg/apply_givens_rotation&action=edit&redlink=1 "cpp/numeric/linalg/apply givens rotation \(page does not exist\)") (since C++26)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/linalg&action=edit&section=3 "Edit section: C")] C
+### C
 
 [`column_major`](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/linalg/storage_order_tags&action=edit&redlink=1 "cpp/numeric/linalg/storage order tags \(page does not exist\)") (since C++26)  
 [`column_major_t`](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/linalg/storage_order_tags&action=edit&redlink=1 "cpp/numeric/linalg/storage order tags \(page does not exist\)") (since C++26)  
@@ -72,7 +72,7 @@ This page tries to list all the symbols that are available from the [standard li
 [`copy<>()`](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/linalg/copy&action=edit&redlink=1 "cpp/numeric/linalg/copy \(page does not exist\)") (since C++26)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/linalg&action=edit&section=4 "Edit section: D")] D
+### D
 
 [`dot<>()`](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/linalg/dot&action=edit&redlink=1 "cpp/numeric/linalg/dot \(page does not exist\)") (since C++26)  
 [`dotc<>()`](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/linalg/dotc&action=edit&redlink=1 "cpp/numeric/linalg/dotc \(page does not exist\)") (since C++26)  
@@ -80,7 +80,7 @@ This page tries to list all the symbols that are available from the [standard li
 [`explicit_diagonal_t`](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/linalg/diagonal_tags&action=edit&redlink=1 "cpp/numeric/linalg/diagonal tags \(page does not exist\)") (since C++26)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/linalg&action=edit&section=5 "Edit section: H")] H
+### H
 
 [`hermitian_matrix_product<>()`](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/linalg/hermitian_matrix_product&action=edit&redlink=1 "cpp/numeric/linalg/hermitian matrix product \(page does not exist\)") (since C++26)  
 [`hermitian_matrix_rank_1_update<>()`](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/linalg/hermitian_matrix_rank_1_update&action=edit&redlink=1 "cpp/numeric/linalg/hermitian matrix rank 1 update \(page does not exist\)") (since C++26)  
@@ -90,13 +90,13 @@ This page tries to list all the symbols that are available from the [standard li
 [`hermitian_matrix_vector_product<>()`](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/linalg/hermitian_matrix_vector_product&action=edit&redlink=1 "cpp/numeric/linalg/hermitian matrix vector product \(page does not exist\)") (since C++26)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/linalg&action=edit&section=6 "Edit section: I")] I
+### I
 
 [`implicit_unit_diagonal`](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/linalg/diagonal_tags&action=edit&redlink=1 "cpp/numeric/linalg/diagonal tags \(page does not exist\)") (since C++26)  
 [`implicit_unit_diagonal_t`](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/linalg/diagonal_tags&action=edit&redlink=1 "cpp/numeric/linalg/diagonal tags \(page does not exist\)") (since C++26)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/linalg&action=edit&section=7 "Edit section: L")] L
+### L
 
 [`layout_blas_packed`](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/linalg/layout_blas_packed&action=edit&redlink=1 "cpp/numeric/linalg/layout blas packed \(page does not exist\)")<> (since C++26)  
 [`layout_transpose`](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/linalg/layout_transpose&action=edit&redlink=1 "cpp/numeric/linalg/layout transpose \(page does not exist\)") (since C++26)  
@@ -104,7 +104,7 @@ This page tries to list all the symbols that are available from the [standard li
 [`lower_triangle_t`](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/linalg/triangle_tags&action=edit&redlink=1 "cpp/numeric/linalg/triangle tags \(page does not exist\)") (since C++26)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/linalg&action=edit&section=8 "Edit section: M")] M
+### M
 
 [`matrix_frob_norm<>()`](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/linalg/matrix_frob_norm&action=edit&redlink=1 "cpp/numeric/linalg/matrix frob norm \(page does not exist\)") (since C++26)  
 [`matrix_inf_norm<>()`](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/linalg/matrix_inf_norm&action=edit&redlink=1 "cpp/numeric/linalg/matrix inf norm \(page does not exist\)") (since C++26)  
@@ -115,13 +115,13 @@ This page tries to list all the symbols that are available from the [standard li
 [`matrix_vector_product<>()`](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/linalg/matrix_vector_product&action=edit&redlink=1 "cpp/numeric/linalg/matrix vector product \(page does not exist\)") (since C++26)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/linalg&action=edit&section=9 "Edit section: R")] R
+### R
 
 [`row_major`](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/linalg/storage_order_tags&action=edit&redlink=1 "cpp/numeric/linalg/storage order tags \(page does not exist\)") (since C++26)  
 [`row_major_t`](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/linalg/storage_order_tags&action=edit&redlink=1 "cpp/numeric/linalg/storage order tags \(page does not exist\)") (since C++26)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/linalg&action=edit&section=10 "Edit section: S")] S
+### S
 
 [`scale<>()`](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/linalg/scale&action=edit&redlink=1 "cpp/numeric/linalg/scale \(page does not exist\)") (since C++26)  
 [`scaled<>()`](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/linalg/scaled&action=edit&redlink=1 "cpp/numeric/linalg/scaled \(page does not exist\)") (since C++26)  
@@ -138,7 +138,7 @@ This page tries to list all the symbols that are available from the [standard li
 [`symmetric_matrix_vector_product<>()`](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/linalg/symmetric_matrix_vector_product&action=edit&redlink=1 "cpp/numeric/linalg/symmetric matrix vector product \(page does not exist\)") (since C++26)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/linalg&action=edit&section=11 "Edit section: T")] T
+### T
 
 [`transposed<>()`](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/linalg/transposed&action=edit&redlink=1 "cpp/numeric/linalg/transposed \(page does not exist\)") (since C++26)  
 [`triangular_matrix_left_product<>()`](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/linalg/triangular_matrix_product&action=edit&redlink=1 "cpp/numeric/linalg/triangular matrix product \(page does not exist\)") (since C++26)  
@@ -150,13 +150,13 @@ This page tries to list all the symbols that are available from the [standard li
 [`triangular_matrix_vector_solve<>()`](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/linalg/triangular_matrix_vector_solve&action=edit&redlink=1 "cpp/numeric/linalg/triangular matrix vector solve \(page does not exist\)") (since C++26)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/linalg&action=edit&section=12 "Edit section: U")] U
+### U
 
 [`upper_triangle`](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/linalg/triangle_tags&action=edit&redlink=1 "cpp/numeric/linalg/triangle tags \(page does not exist\)") (since C++26)  
 [`upper_triangle_t`](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/linalg/triangle_tags&action=edit&redlink=1 "cpp/numeric/linalg/triangle tags \(page does not exist\)") (since C++26)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/linalg&action=edit&section=13 "Edit section: V")] V
+### V
 
 [`vector_abs_sum<>()`](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/linalg/vector_abs_sum&action=edit&redlink=1 "cpp/numeric/linalg/vector abs sum \(page does not exist\)") (since C++26)  
 [`vector_idx_abs_max<>()`](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/linalg/vector_idx_abs_max&action=edit&redlink=1 "cpp/numeric/linalg/vector idx abs max \(page does not exist\)") (since C++26)  

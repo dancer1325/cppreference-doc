@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [Declarations](declarations.html "cpp/language/declarations")
 
@@ -280,7 +280,7 @@ Other declarations
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/declarations/navbar_content&action=edit)
+
 
 Namespace aliases allow the programmer to define an alternate name for a namespace. 
 
@@ -297,24 +297,24 @@ They are commonly used as a convenient shortcut for long or deeply-nested namesp
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/namespace_alias&action=edit&section=1 "Edit section: Syntax")] Syntax  
+### Syntax  
   
 ---  
 `**namespace**` alias_name = ns_name`**;**` |  (1)  |   
 `**namespace**` alias_name = `**::**` ns_name`**;**` |  (2)  |   
 `**namespace**` alias_name = nested_name`**::**` ns_name`**;**` |  (3)  |   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/namespace_alias&action=edit&section=2 "Edit section: Explanation")] Explanation
+### Explanation
 
 The new alias alias_name provides an alternate method of accessing ns_name. 
 
 alias_name must be a name not previously used. alias_name is valid for the duration of the scope in which it is introduced. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/namespace_alias&action=edit&section=3 "Edit section: Keywords")] Keywords
+### Keywords
 
 [`namespace`](../keyword/namespace.html "cpp/keyword/namespace")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/namespace_alias&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -344,8 +344,8 @@ Output:
     
     42
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/namespace_alias&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
-[ namespace declaration ](namespace.html "cpp/language/namespace") |  identifies a namespace[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_namespace&action=edit)  
+[ namespace declaration ](namespace.html "cpp/language/namespace") |  identifies a namespace  
 ---|---  
-[ type alias declaration ](type_alias.html "cpp/language/type alias")(C++11) |  creates a synonym for a type[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_type_alias&action=edit)
+[ type alias declaration ](type_alias.html "cpp/language/type alias")(C++11) |  creates a synonym for a type

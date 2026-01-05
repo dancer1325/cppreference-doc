@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Classes](classes.html "cpp/language/classes")
 
@@ -261,7 +261,7 @@ Inheritance
 [`override` specifier](override.html "cpp/language/override") (C++11)  
 [`final` specifier](final.html "cpp/language/final") (C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/classes/navbar_content&action=edit)
+
 
 A destructor is a special [member function](member_functions.html "cpp/language/member functions") that is called when the [lifetime of an object](lifetime.html "cpp/language/lifetime") ends. The purpose of the destructor is to free the resources that the object may have acquired during its lifetime. 
 
@@ -290,7 +290,7 @@ A destructor cannot be a [coroutine](coroutines.html "cpp/language/coroutines").
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/destructor&action=edit&section=1 "Edit section: Syntax")] Syntax
+### Syntax
 
 Destructors(until C++20)[Prospective destructors](destructor.html#Prospective_destructor)(since C++20) are declared using member [function declarators](function.html "cpp/language/function") of the following form:   
   
@@ -326,7 +326,7 @@ The identifier expression of class-name-with-tilde must have one of the followin
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/destructor&action=edit&section=2 "Edit section: Explanation")] Explanation
+### Explanation
 
 The destructor is implicitly invoked whenever an object's [lifetime](lifetime.html "cpp/language/lifetime") ends, which includes 
 
@@ -381,7 +381,7 @@ Output:
 | (since C++20)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/destructor&action=edit&section=4 "Edit section: Potentially-invoked destructor")] Potentially-invoked destructor
+### Potentially-invoked destructor
 
 The destructor for class `T` is _potentially invoked_ in the following situations: 
 
@@ -397,13 +397,13 @@ The destructor for class `T` is _potentially invoked_ in the following situation
 
 If a potentially-invoked destructor is deleted or(since C++11) not accessible from the context of the invocation, the program is ill-formed. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/destructor&action=edit&section=5 "Edit section: Implicitly-declared destructor")] Implicitly-declared destructor
+### Implicitly-declared destructor
 
 If no user-declared prospective(since C++20) destructor is provided for a [class type](class.html "cpp/language/class"), the compiler will always declare a destructor as an inline public member of its class. 
 
 As with any implicitly-declared special member function, the exception specification of the implicitly-declared destructor is non-throwing unless the destructor of any potentially-constructed base or member is [potentially-throwing](noexcept_spec.html "cpp/language/noexcept spec")(since C++17)implicit definition would directly invoke a function with a different exception specification(until C++17). In practice, implicit destructors are noexcept unless the class is "poisoned" by a base or member whose destructor is noexcept(false). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/destructor&action=edit&section=6 "Edit section: Implicitly-defined destructor")] Implicitly-defined destructor
+### Implicitly-defined destructor
 
 If an implicitly-declared destructor is not deleted, it is implicitly defined (that is, a function body is generated and compiled) by the compiler when it is [odr-used](definition.html#ODR-use "cpp/language/definition"). This implicitly-defined destructor has an empty body. 
 
@@ -457,7 +457,7 @@ An explicitly-defaulted prospective destructor for `T` is defined as deleted if 
 ---|---  
 (since C++11)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/destructor&action=edit&section=8 "Edit section: Trivial destructor")] Trivial destructor
+### Trivial destructor
 
 The destructor for class `T` is trivial if all following conditions are satisfied: 
 
@@ -478,13 +478,13 @@ The destructor for class `T` is trivial if all following conditions are satisfie
   
 A trivial destructor is a destructor that performs no action. Objects with trivial destructors don't require a delete expression and may be disposed of by simply deallocating their storage. All data types compatible with the C language (POD types) are trivially destructible. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/destructor&action=edit&section=9 "Edit section: Destruction sequence")] Destruction sequence
+### Destruction sequence
 
 For both user-defined or implicitly-defined destructors, after executing the body of the destructor and destroying any automatic objects allocated within the body, the compiler calls the destructors for all non-static non-variant data members of the class, in reverse order of declaration, then it calls the destructors of all direct non-virtual base classes in [reverse order of construction](initializer_list.html#Initialization_order "cpp/language/initializer list") (which in turn call the destructors of their members and their base classes, etc), and then, if this object is of [most derived class](objects.html#Subobjects "cpp/language/object"), it calls the destructors of all virtual bases. 
 
 Even when the destructor is called directly (e.g. obj.~Foo();), the return statement in ~Foo() does not return control to the caller immediately: it calls all those member and base destructors first. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/destructor&action=edit&section=10 "Edit section: Virtual destructors")] Virtual destructors
+### Virtual destructors
 
 Deleting an object through pointer to base invokes undefined behavior unless the destructor in the base class is [virtual](virtual.html "cpp/language/virtual"): 
     
@@ -502,7 +502,7 @@ Deleting an object through pointer to base invokes undefined behavior unless the
 
 A common guideline is that a destructor for a base class must be [either public and virtual or protected and nonvirtual](http://www.gotw.ca/publications/mill18.htm). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/destructor&action=edit&section=11 "Edit section: Pure virtual destructors")] Pure virtual destructors
+### Pure virtual destructors
 
 A prospective(since C++20) destructor may be declared [pure virtual](abstract_class.html "cpp/language/abstract class"), for example in a base class which needs to be made abstract, but has no other suitable functions that could be declared pure virtual. A pure virtual destructor must have a definition, since all base class destructors are always called when the derived class is destroyed: 
     
@@ -519,7 +519,7 @@ A prospective(since C++20) destructor may be declared [pure virtual](abstract_cl
     // AbstractBase obj; // compiler error
     Derived obj;         // OK
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/destructor&action=edit&section=12 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 As any other function, a destructor may terminate by throwing an [exception](exceptions.html "cpp/language/exceptions") (this usually requires it to be explicitly declared noexcept(false))(since C++11), however if this destructor happens to be called during [stack unwinding](throw.html#Stack_unwinding "cpp/language/throw"), [std::terminate](../error/terminate.html "cpp/error/terminate") is called instead. 
 
@@ -527,7 +527,7 @@ Although [std::uncaught_exceptions](../error/exception/uncaught_exception.html "
 
 [`std::experimental::scope_success`](../experimental/scope_success.html "cpp/experimental/scope success") in Library fundamental TS v3 may have [a potentially-throwing destructor](../experimental/scope_success/~scope_success.html "cpp/experimental/scope success/~scope success"), which throws an exception when the scope is exited normally and the exit function throws an exception. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/destructor&action=edit&section=13 "Edit section: Notes")] Notes
+### Notes
 
 Calling a destructor directly for an ordinary object, such as a local variable, invokes undefined behavior when the destructor is called again, at the end of scope. 
 
@@ -537,7 +537,7 @@ Feature-test macro | Value | Std | Feature
 ---|---|---|---  
 [`__cpp_trivial_union`](../experimental/feature_test.html#cpp_trivial_union "cpp/feature test") | [`202502L`](../compiler_support/26.html#cpp_trivial_union_202502L "cpp/compiler support/26") | (C++26) | Relaxing the triviality requirements for special member functions of unions   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/destructor&action=edit&section=14 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -586,7 +586,7 @@ Output:
     dtor a1
     dtor a0
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/destructor&action=edit&section=15 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -612,7 +612,7 @@ function declarator syntax
 would call the destructors of its virtual direct base classes  | it will not call those destructors   
 [CWG 2807](https://cplusplus.github.io/CWG/issues/2807.html) | C++20  | the declaration specifiers could contain consteval | prohibited   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/destructor&action=edit&section=16 "Edit section: See also")] See also
+### See also
 
   * [copy elision](copy_elision.html "cpp/language/copy elision")
   * [`new`](new.html "cpp/language/new")

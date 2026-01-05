@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::out_ptr_t`](../out_ptr_t.html "cpp/memory/out ptr t")
 
@@ -196,7 +196,7 @@ Member functions
 Non-member functions  
 [out_ptr](out_ptr.html "cpp/memory/out ptr t/out ptr")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/out_ptr_t/navbar_content&action=edit)
+
 
 operator Pointer*() const noexcept; |  (1)  |  (since C++23)  
 ---|---|---  
@@ -222,17 +222,17 @@ Once one of these two conversion functions has been called on an `out_ptr_t` obj
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/out_ptr_t/operator_ptr&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/out_ptr_t/operator_ptr&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) The address of stored `Pointer` object.
 
 2) The address of the void* object that satisfies aforementioned requirements.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/out_ptr_t/operator_ptr&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 If the object pointed by the return value has not been rewritten, it is equal to nullptr. 
 
@@ -245,7 +245,7 @@ On common implementations, the object representation of every `Pointer` that is 
 
 If `Pointer` is a pointer type whose object representation is incompatible with that of void*, an additional bool flag may be needed for recording whether (1) (or (2)) has been called. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/out_ptr_t/operator_ptr&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

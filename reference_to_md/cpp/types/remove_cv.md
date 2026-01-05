@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Metaprogramming library](../meta.html "cpp/meta")
 
@@ -167,7 +167,7 @@ Type transformations
 Compile-time integer sequences  
 [integer_sequence](../utility/integer_sequence.html "cpp/utility/integer sequence")(C++14)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/meta/navbar_content&action=edit)
+
 
 Defined in header `[<type_traits>](../header/type_traits.html "cpp/header/type traits")` |  |   
 ---|---|---  
@@ -200,13 +200,13 @@ If the program adds specializations for any of the templates described on this p
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/remove_cv&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Name  |  Definition   
 ---|---  
 `type` |  the type `T` without cv-qualifier   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/remove_cv&action=edit&section=2 "Edit section: Helper types")] Helper types
+### Helper types
 
 template< class T >  
 using remove_cv_t = typename remove_cv<T>::type; |  |  (since C++14)  
@@ -217,7 +217,7 @@ template< class T >
 using remove_volatile_t = typename remove_volatile<T>::type; |  |  (since C++14)  
 | |   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/remove_cv&action=edit&section=3 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     template<class T> struct remove_cv { typedef T type; };
@@ -233,7 +233,7 @@ using remove_volatile_t = typename remove_volatile<T>::type; |  |  (since C++14)
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/remove_cv&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Removing const/volatile from const volatile int* does not modify the type, because the pointer itself is neither const nor volatile.
 
@@ -260,14 +260,14 @@ Run this code
      
     int main() {}
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/remove_cv&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ is_const](is_const.html "cpp/types/is const")(C++11) |  checks if a type is const-qualified   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_const&action=edit)  
+(class template)   
 ---|---  
 [ is_volatile](is_volatile.html "cpp/types/is volatile")(C++11) |  checks if a type is volatile-qualified   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_volatile&action=edit)  
+(class template)   
 [ add_cvadd_constadd_volatile](add_cv.html "cpp/types/add cv")(C++11)(C++11)(C++11) |  adds const and/or volatile specifiers to the given type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_add_cv&action=edit)  
+(class template)   
 [ remove_cvref](remove_cvref.html "cpp/types/remove cvref")(C++20) |  combines **std::remove_cv** and [std::remove_reference](remove_reference.html "cpp/types/remove reference")   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_remove_cvref&action=edit)
+(class template) 

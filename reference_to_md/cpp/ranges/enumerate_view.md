@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 **`std::ranges::enumerate_view`**
 
@@ -261,7 +261,7 @@ operator-(enumerate_view::_iterator_)](enumerate_view/iterator/operator_arith2.h
 [operator==(enumerate_view::_iterator_ ,enumerate_view::_sentinel_)](enumerate_view/sentinel/operator_cmp.html "cpp/ranges/enumerate view/sentinel/operator cmp")  
 [operator-(enumerate_view::_iterator_ ,enumerate_view::_sentinel_)](enumerate_view/sentinel/operator-.html "cpp/ranges/enumerate view/sentinel/operator-")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/enumerate_view/navbar_content&action=edit)
+
 
 Defined in header `[<ranges>](../header/ranges.html "cpp/header/ranges")` |  |   
 ---|---|---  
@@ -313,49 +313,49 @@ concept /*range-with-movable-references*/ =
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/enumerate_view&action=edit&section=1 "Edit section: Data members")] Data members
+### Data members
 
 Member  |  Description   
 ---|---  
 `V` `_base__` |  an iterator to the underlying [`view`](view.html "cpp/ranges/view")  
 (exposition-only member object*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/enumerate_view&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](enumerate_view/enumerate_view.html "cpp/ranges/enumerate view/enumerate view") |  constructs a `enumerate_view`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ base](enumerate_view/base.html "cpp/ranges/enumerate view/base") |  returns a copy of the underlying (adapted) view   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/dsc_base&action=edit)  
+(public member function)   
 [ begin](enumerate_view/begin.html "cpp/ranges/enumerate view/begin") |  returns an iterator to the beginning   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/dsc_begin&action=edit)  
+(public member function)   
 [ end](enumerate_view/end.html "cpp/ranges/enumerate view/end") |  returns an iterator or a sentinel to the end   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/dsc_end&action=edit)  
+(public member function)   
 [ size](enumerate_view/size.html "cpp/ranges/enumerate view/size") |  returns the number of elements, provided only if the underlying (adapted) range satisfies [`sized_range`](sized_range.html "cpp/ranges/sized range")   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/dsc_size&action=edit)  
+(public member function)   
 [ reserve_hint](enumerate_view/reserve_hint.html "cpp/ranges/enumerate view/reserve hint")(C++26) |  returns the approximate size of the resulting [`approximately_sized_range`](approximately_sized_range.html "cpp/ranges/approximately sized range")   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/dsc_reserve_hint&action=edit)  
+(public member function)   
   
 #####  Inherited from [std::ranges::view_interface](view_interface.html "cpp/ranges/view interface")  
   
 [ empty](view_interface/empty.html "cpp/ranges/view interface/empty") |  returns whether the derived view is empty, provided only if it satisfies [`sized_range`](sized_range.html "cpp/ranges/sized range") or [`forward_range`](forward_range.html "cpp/ranges/forward range")   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_empty&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ cbegin](view_interface/cbegin.html "cpp/ranges/view interface/cbegin")(C++23) |  returns a constant iterator to the beginning of the range   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_cbegin&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ cend](view_interface/cend.html "cpp/ranges/view interface/cend")(C++23) |  returns a sentinel for the constant iterator of the range   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_cend&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ operator bool](view_interface/operator_bool.html "cpp/ranges/view interface/operator bool") |  returns whether the derived view is not empty, provided only if [ranges::empty](empty.html "cpp/ranges/empty") is applicable to it   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_operator_bool&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ front](view_interface/front.html "cpp/ranges/view interface/front") |  returns the first element in the derived view, provided if it satisfies [`forward_range`](forward_range.html "cpp/ranges/forward range")   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_front&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ back](view_interface/back.html "cpp/ranges/view interface/back") |  returns the last element in the derived view, provided only if it satisfies [`bidirectional_range`](bidirectional_range.html "cpp/ranges/bidirectional range") and [`common_range`](common_range.html "cpp/ranges/common range")   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_back&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ operator[]](view_interface/operator_at.html "cpp/ranges/view interface/operator at") |  returns the `n`th element in the derived view, provided only if it satisfies [`random_access_range`](random_access_range.html "cpp/ranges/random access range")   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_operator_at&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/enumerate_view&action=edit&section=3 "Edit section: Deduction guides")] [Deduction guides](enumerate_view/deduction_guides.html "cpp/ranges/enumerate view/deduction guides")
+### [Deduction guides](enumerate_view/deduction_guides.html "cpp/ranges/enumerate view/deduction guides")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/enumerate_view&action=edit&section=4 "Edit section: Nested classes")] Nested classes
+### Nested classes
 
 [_iterator_](enumerate_view/iterator.html "cpp/ranges/enumerate view/iterator")(C++23) |  the iterator type  
 (exposition-only member class template*)  
@@ -363,7 +363,7 @@ Member  |  Description
 [_sentinel_](enumerate_view/sentinel.html "cpp/ranges/enumerate view/sentinel")(C++23) |  the sentinel type  
 (exposition-only member class template*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/enumerate_view&action=edit&section=5 "Edit section: Helper templates")] Helper templates
+### Helper templates
 
 template< class View >  
 constexpr bool enable_borrowed_range<ranges::enumerate_view<View>> =  
@@ -373,13 +373,13 @@ constexpr bool enable_borrowed_range<ranges::enumerate_view<View>> =
   
 This specialization of [ranges::enable_borrowed_range](borrowed_range.html "cpp/ranges/borrowed range") makes `enumerate_view` satisfy [`borrowed_range`](borrowed_range.html "cpp/ranges/borrowed range") when the underlying view satisfies it. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/enumerate_view&action=edit&section=6 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../utility/feature_test.html "cpp/utility/feature test") macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_ranges_enumerate`](../experimental/feature_test.html#cpp_lib_ranges_enumerate "cpp/feature test") | [`202302L`](../compiler_support/23.html#cpp_lib_ranges_enumerate_202302L "cpp/compiler support/23") | (C++23) | `std::ranges::enumerate_view`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/enumerate_view&action=edit&section=7 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -427,7 +427,7 @@ Possible output:
     [0]:A [1]:B [2]:C [3]:D
     2 4 6 8
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/enumerate_view&action=edit&section=8 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -439,14 +439,14 @@ Possible output:
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/enumerate_view&action=edit&section=9 "Edit section: See also")] See also
+### See also
 
 [ ranges::iota_viewviews::iota](iota_view.html "cpp/ranges/iota view")(C++20) |  a [`view`](view.html "cpp/ranges/view") consisting of a sequence generated by repeatedly incrementing an initial value  
-(class template) (customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_iota_view&action=edit)  
+(class template) (customization point object)  
 ---|---  
 [ ranges::zip_viewviews::zip](zip_view.html "cpp/ranges/zip view")(C++23) |  a [`view`](view.html "cpp/ranges/view") consisting of tuples of references to corresponding elements of the adapted views  
-(class template) (customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_zip_view&action=edit)  
+(class template) (customization point object)  
 [ ranges::elements_viewviews::elements](elements_view.html "cpp/ranges/elements view")(C++20) |  takes a [`view`](view.html "cpp/ranges/view") consisting of [`_tuple-like_`](../utility/tuple/tuple-like.html "cpp/utility/tuple/tuple-like") values and a number N and produces a [`view`](view.html "cpp/ranges/view") of Nth element of each tuple  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_elements_view&action=edit)
+(class template) (range adaptor object)
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

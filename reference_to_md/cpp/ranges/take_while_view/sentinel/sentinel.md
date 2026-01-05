@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::take_while_view`](../../take_while_view.html "cpp/ranges/take while view")
 
@@ -241,7 +241,7 @@ std::from_range](../../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
 [take_while_view::_sentinel_ ::base](base.html "cpp/ranges/take while view/sentinel/base")  
 [operator==(take_while_view::_sentinel_)](operator_cmp.html "cpp/ranges/take while view/sentinel/operator cmp")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/take_while_view/navbar_content&action=edit)
+
 
 /*sentinel*/() = default; |  (1)  |  (since C++20)  
 ---|---|---  
@@ -259,14 +259,14 @@ Constructs a sentinel.
 
 3) Conversion from /*sentinel*/<false> to /*sentinel*/<true>. Copy constructs corresponding members.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/take_while_view/sentinel/sentinel&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 end  |  \-  |  a sentinel representing the end of (possibly const-qualified) `V`  
 ---|---|---  
 pred  |  \-  |  a pointer to predicate   
 i  |  \-  |  a /*sentinel*/<false>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/take_while_view/sentinel/sentinel&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

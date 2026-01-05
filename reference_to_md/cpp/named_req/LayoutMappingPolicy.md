@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ named requirements](../iterator/concepts.html "cpp/named req")
 
@@ -147,7 +147,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/named_req/navbar_content&action=edit)
+
 
 **LayoutMappingPolicy** is a type used to specify layout policy of [std::mdspan](../container/mdspan.html). It provides a member alias template whose specialization is a [LayoutMapping](LayoutMapping.html "cpp/named req/LayoutMapping") type. 
 
@@ -161,11 +161,11 @@
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/LayoutMappingPolicy&action=edit&section=1 "Edit section: Requirements")] Requirements
+### Requirements
 
 A type `MP` satisfies LayoutMappingPolicy if the type requirements shown below are valid: 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/LayoutMappingPolicy&action=edit&section=2 "Edit section: Legend")] Legend
+#### Legend
 
 Type  |  Definition   
 ---|---  
@@ -173,7 +173,7 @@ Type  |  Definition
 `M` |  a layout mapping class   
 `E` |  a specialization of [std::extents](../container/mdspan/extents.html)  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/LayoutMappingPolicy&action=edit&section=3 "Edit section: Type requirements")] Type requirements
+#### Type requirements
 
   * MP::mapping<E> is valid and denotes a type `M` that satisfies [LayoutMapping](LayoutMapping.html "cpp/named req/LayoutMapping"). 
   * M::layout_type is valid and denotes a type `MP`. 
@@ -181,23 +181,23 @@ Type  |  Definition
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/LayoutMappingPolicy&action=edit&section=4 "Edit section: Standard library")] Standard library
+### Standard library
 
 The following standard library types satisfy LayoutMappingPolicy requirements: 
 
 [ layout_left](../container/mdspan/layout_left.html "cpp/container/mdspan/layout left")(C++23) |  column-major multidimensional array layout mapping policy; leftmost extent has stride `1`   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/dsc_layout_left&action=edit)  
+(class)   
 ---|---  
 [ layout_right](../container/mdspan/layout_right.html "cpp/container/mdspan/layout right")(C++23) |  row-major multidimensional array layout mapping policy; rightmost extent has stride `1`   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/dsc_layout_right&action=edit)  
+(class)   
 [ layout_stride](../container/mdspan/layout_stride.html "cpp/container/mdspan/layout stride")(C++23) |  a layout mapping policy with user-defined strides   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/dsc_layout_stride&action=edit)  
+(class)   
 [ layout_left_padded](../container/mdspan/layout_left_padded.html "cpp/container/mdspan/layout left padded")(C++26) |  column-major layout mapping policy with padding stride that can be greater than or equal to the leftmost extent   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/dsc_layout_left_padded&action=edit)  
+(class template)   
 [ layout_right_padded](../container/mdspan/layout_right_padded.html "cpp/container/mdspan/layout right padded")(C++26) |  row-major layout mapping policy with padding stride that can be greater than or equal to the rightmost extent   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/dsc_layout_right_padded&action=edit)  
+(class template)   
 Defined in namespace `std::linalg`  
 [ layout_transpose](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/linalg/layout_transpose&action=edit&redlink=1 "cpp/numeric/linalg/layout transpose \(page does not exist\)")(C++26) |  std::mdspan layout mapping policy that swaps the rightmost two indices, extents, and strides of any unique layout mapping policy   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/linalg/dsc_layout_transpose&action=edit)  
+(class template)   
 [ layout_blas_packed](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/linalg/layout_blas_packed&action=edit&redlink=1 "cpp/numeric/linalg/layout blas packed \(page does not exist\)")(C++26) |  std::mdspan layout mapping policy that represents a square matrix that stores only the entries in one triangle, in a packed contiguous format   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/linalg/dsc_layout_blas_packed&action=edit)
+(class template) 

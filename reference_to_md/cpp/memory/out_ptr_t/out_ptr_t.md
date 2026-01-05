@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::out_ptr_t`](../out_ptr_t.html "cpp/memory/out ptr t")
 
@@ -196,7 +196,7 @@ Member functions
 Non-member functions  
 [out_ptr](out_ptr.html "cpp/memory/out ptr t/out ptr")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/out_ptr_t/navbar_content&action=edit)
+
 
 explicit out_ptr_t( Smart &sp, Args... args ); |  (1)  |  (since C++23)  
 ---|---|---  
@@ -219,21 +219,21 @@ Then calls sp.reset() if the expression is well-formed; otherwise, calls sp = Sm
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/out_ptr_t/out_ptr_t&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 sp  |  \-  |  the object (typically a smart pointer) to adapt   
 ---|---|---  
 args...  |  \-  |  the arguments used for resetting to capture   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/out_ptr_t/out_ptr_t&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/impldef_exception&action=edit&section=T-1 "Template:cpp/impldef exception")] Exceptions
+### Exceptions
 
 May throw implementation-defined exceptions. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/out_ptr_t/out_ptr_t&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 After construction, the `Pointer` or void* object pointed by the return value of either conversion function is equal to nullptr. 
 
@@ -241,7 +241,7 @@ Every argument in args... is moved into the created `out_ptr_t` if it is of an o
 
 The constructor of `out_ptr_t` is allowed to throw exceptions. For example, when sp is a [std::shared_ptr](../shared_ptr.html "cpp/memory/shared ptr"), the allocation for the new control block may be performed within the constructor rather than the destructor. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/out_ptr_t/out_ptr_t&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

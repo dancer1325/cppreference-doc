@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Metaprogramming library](../meta.html "cpp/meta")
 
@@ -167,7 +167,7 @@ Type transformations
 Compile-time integer sequences  
 [integer_sequence](../utility/integer_sequence.html "cpp/utility/integer sequence")(C++14)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/meta/navbar_content&action=edit)
+
 
 Defined in header `[<type_traits>](../header/type_traits.html "cpp/header/type traits")` |  |   
 ---|---|---  
@@ -205,13 +205,13 @@ If the program adds specializations for any of the templates described on this p
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/add_reference&action=edit&section=1 "Edit section: Nested types")] Nested types
+### Nested types
 
 Name  |  Definition   
 ---|---  
 `type` |  determined as above   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/add_reference&action=edit&section=2 "Edit section: Helper types")] Helper types
+### Helper types
 
 template< class T >  
 using add_lvalue_reference_t = typename add_lvalue_reference<T>::type; |  |  (since C++14)  
@@ -220,11 +220,11 @@ template< class T >
 using add_rvalue_reference_t = typename add_rvalue_reference<T>::type; |  |  (since C++14)  
 | |   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/add_reference&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 The major difference to directly using `T&` or `T&&` is that `T` can be a non-[referenceable](../meta.html#Definitions "cpp/meta") type. For example, std::add_lvalue_reference<void>::type is void, while void& leads to a compilation error. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/add_reference&action=edit&section=4 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     namespace detail
@@ -253,7 +253,7 @@ The major difference to directly using `T&` or `T&&` is that `T` can be a non-[r
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/add_reference&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -274,7 +274,7 @@ Run this code
      
     int main() {}
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/add_reference&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -282,12 +282,12 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 2101](https://cplusplus.github.io/LWG/issue2101) | C++11  | the program was ill-formed if `T` is a [function type](../language/function.html#Function_type "cpp/language/function") with cv or ref | the type produced is `T` in this case   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/add_reference&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ is_reference](is_reference.html "cpp/types/is reference")(C++11) |  checks if a type is either an _lvalue reference_ or _rvalue reference_   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_reference&action=edit)  
+(class template)   
 ---|---  
 [ remove_reference](remove_reference.html "cpp/types/remove reference")(C++11) |  removes a reference from the given type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_remove_reference&action=edit)  
+(class template)   
 [ remove_cvref](remove_cvref.html "cpp/types/remove cvref")(C++20) |  combines [std::remove_cv](remove_cv.html "cpp/types/remove cv") and [std::remove_reference](remove_reference.html "cpp/types/remove reference")   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_remove_cvref&action=edit)
+(class template) 

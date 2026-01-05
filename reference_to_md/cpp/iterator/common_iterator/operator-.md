@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](../empty.html "cpp/iterator/empty")(C++17)  
 [data](../data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 [`std::common_iterator`](../common_iterator.html "cpp/iterator/common iterator")
 
@@ -213,7 +213,7 @@
 [incrementable_traits<std::common_iterator>](incrementable_traits.html "cpp/iterator/common iterator/incrementable traits")(C++20)  
 [iterator_traits<std::common_iterator>](iterator_traits.html "cpp/iterator/common iterator/iterator traits")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/common_iterator/navbar_content&action=edit)
+
 
 template< [std::sized_sentinel_for](../sized_sentinel_for.html)<I> I2, [std::sized_sentinel_for](../sized_sentinel_for.html)<I> S2 >  
 requires [std::sized_sentinel_for](../sized_sentinel_for.html)<S, I2>  
@@ -239,19 +239,19 @@ This function template is not visible to ordinary [unqualified](../../language/u
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/common_iterator/operator-&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 x, y  |  \-  |  iterator adaptors to compute the difference of   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/common_iterator/operator-&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
   * ​0​ if x.var holds an `S` object and y.var holds an `S2` object, i.e. both of them hold a sentinel. 
   * Otherwise, alt_x - alt_y, where `alt_x` and `alt_y` are the alternatives held by x.var and y.var, respectively (either two iterators or one iterator and one sentinel). 
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/common_iterator/operator-&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -284,7 +284,7 @@ Output:
     
     0 -1 -2
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/common_iterator/operator-&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -292,8 +292,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 3574](https://cplusplus.github.io/LWG/issue3574) | C++20  | `variant` was fully constexpr (P2231R1) but `common_iterator` was not  | also made constexpr   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/common_iterator/operator-&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ operator++operator++(int)](operator_arith.html "cpp/iterator/common iterator/operator arith") |  advances the `common_iterator`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/common_iterator/dsc_operator_arith&action=edit)  
+(public member function)   
 ---|---

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -282,7 +282,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [Low level memory management](../new.html "cpp/memory/new")
 
@@ -304,7 +304,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
 [Object access](../new.html#Object_access "cpp/memory/new")  
 [launder](../../utility/launder.html "cpp/utility/launder")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/new/navbar_content&action=edit)
+
 
 Defined in header `[<new>](../../header/new.html "cpp/header/new")` |  |   
 ---|---|---  
@@ -313,7 +313,7 @@ enum class align_val_t : [std::size_t](../../types/size_t.html) {}; |  |  (since
   
 Both [new-expression](../../language/new.html "cpp/language/new") and [delete-expression](../../language/delete.html "cpp/language/delete"), when used with objects whose alignment requirement is greater than `__STDCPP_DEFAULT_NEW_ALIGNMENT__`, pass that alignment requirement as an argument of type `std::align_val_t` to the selected allocation/deallocation function. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/new/align_val_t&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 Alignment (as obtained by alignof) has the type [std::size_t](../../types/size_t.html "cpp/types/size t"), but placement forms of allocation and deallocation functions that take [std::size_t](../../types/size_t.html "cpp/types/size t") as an additional parameter are already in use, so this type is used instead. 
 
@@ -321,12 +321,12 @@ Feature-test macro | Value | Std | Feature
 ---|---|---|---  
 [`__cpp_aligned_new`](../../experimental/feature_test.html#cpp_aligned_new "cpp/feature test") | [`201606L`](../../compiler_support/17.html#cpp_aligned_new_201606L "cpp/compiler support/17") | (C++17) | Dynamic memory allocation for over-aligned data   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/new/align_val_t&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ operator newoperator new[]](operator_new.html "cpp/memory/new/operator new") |  allocation functions   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/new/dsc_operator_new&action=edit)  
+(function)   
 ---|---  
 [ operator deleteoperator delete[]](operator_delete.html "cpp/memory/new/operator delete") |  deallocation functions   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/new/dsc_operator_delete&action=edit)
+(function) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

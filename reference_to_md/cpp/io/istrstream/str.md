@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -79,7 +79,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::istrstream`](../istrstream.html "cpp/io/istrstream")
 
@@ -90,7 +90,7 @@ Member functions
 [istrstream::rdbuf](rdbuf.html "cpp/io/istrstream/rdbuf")  
 **istrstream::str**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/istrstream/navbar_content&action=edit)
+
 
 char* str(); |  |  (deprecated in C++98)   
 (removed in C++26)  
@@ -99,18 +99,18 @@ char* str(); |  |  (deprecated in C++98)
   
 Returns the pointer to the beginning of the buffer, after freezing it. Effectively calls rdbuf()->str(). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/strstream/str&action=edit&section=T-1 "Template:cpp/io/strstream/str")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/strstream/str&action=edit&section=T-2 "Template:cpp/io/strstream/str")] Return value
+### Return value
 
 Pointer to the beginning of the buffer in the associated [std::strstreambuf](../strstreambuf.html) or a null pointer if no buffer is available. 
 
   
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/strstream/str&action=edit&section=T-4 "Template:cpp/io/strstream/str")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 **`std::optional`**
 
@@ -167,7 +167,7 @@ Common vocabulary types
 [nullopt](optional/nullopt.html "cpp/utility/optional/nullopt")  
 [in_place](in_place.html "cpp/utility/in place")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/navbar_content&action=edit)
+
 
 Defined in header `[<optional>](../header/optional.html "cpp/header/optional")` |  |   
 ---|---|---  
@@ -225,12 +225,12 @@ There are no optional references, functions, arrays, or (possibly cv-qualified) 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional&action=edit&section=1 "Edit section: Template parameters")] Template parameters
+### Template parameters
 
 T  |  \-  |  the type of the value to manage initialization state for. The type must meet the requirements of [Destructible](../named_req/Destructible.html "cpp/named req/Destructible") (in particular, array and reference types are not allowed).   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional&action=edit&section=2 "Edit section: Nested types")] Nested types
+### Nested types
 
 Type  |  Definition   
 ---|---  
@@ -240,87 +240,87 @@ Type  |  Definition
   
 All requirements on the iterator types of a [Container](../named_req/Container.html "cpp/named req/Container") apply to the `iterator` type of `optional` as well. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional&action=edit&section=3 "Edit section: Data members")] Data members
+### Data members
 
 `T*` `_val_` |  a pointer to the contained object (if exists)  
 (exposition-only member object*)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional&action=edit&section=4 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](optional/optional.html "cpp/utility/optional/optional") |  constructs the `optional` object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ (destructor)](optional/~optional.html "cpp/utility/optional/~optional") |  destroys the contained value, if there is one   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/dsc_destructor&action=edit)  
+(public member function)   
 [ operator=](optional/operator=.html "cpp/utility/optional/operator=") |  assigns contents   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/dsc_operator%3D&action=edit)  
+(public member function)   
   
 #####  Iterators   
   
 [ begin](optional/begin.html "cpp/utility/optional/begin")(C++26) |  returns an iterator to the beginning   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/dsc_begin&action=edit)  
+(public member function)   
 [ end](optional/end.html "cpp/utility/optional/end")(C++26) |  returns an iterator to the end   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/dsc_end&action=edit)  
+(public member function)   
   
 #####  Observers   
   
 [ operator->operator*](optional/operator*.html "cpp/utility/optional/operator*") |  accesses the contained value   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/dsc_operator*&action=edit)  
+(public member function)   
 [ operator boolhas_value](optional/operator_bool.html "cpp/utility/optional/operator bool") |  checks whether the object contains a value   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/dsc_operator_bool&action=edit)  
+(public member function)   
 [ value](optional/value.html "cpp/utility/optional/value") |  returns the contained value   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/dsc_value&action=edit)  
+(public member function)   
 [ value_or](optional/value_or.html "cpp/utility/optional/value or") |  returns the contained value if available, another value otherwise   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/dsc_value_or&action=edit)  
+(public member function)   
   
 #####  Monadic operations   
   
 [ and_then](optional/and_then.html "cpp/utility/optional/and then")(C++23) |  returns the result of the given function on the contained value if it exists, or an empty `optional` otherwise   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/dsc_and_then&action=edit)  
+(public member function)   
 [ transform](optional/transform.html "cpp/utility/optional/transform")(C++23) |  returns an `optional` containing the transformed contained value if it exists, or an empty `optional` otherwise   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/dsc_transform&action=edit)  
+(public member function)   
 [ or_else](optional/or_else.html "cpp/utility/optional/or else")(C++23) |  returns the `optional` itself if it contains a value, or the result of the given function otherwise   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/dsc_or_else&action=edit)  
+(public member function)   
   
 #####  Modifiers   
   
 [ swap](optional/swap.html "cpp/utility/optional/swap") |  exchanges the contents   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/dsc_swap&action=edit)  
+(public member function)   
 [ reset](optional/reset.html "cpp/utility/optional/reset") |  destroys any contained value   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/dsc_reset&action=edit)  
+(public member function)   
 [ emplace](optional/emplace.html "cpp/utility/optional/emplace") |  constructs the contained value in-place   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/dsc_emplace&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional&action=edit&section=5 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ operator==operator!=operator<operator<=operator>operator>=operator<=>](optional/operator_cmp.html "cpp/utility/optional/operator cmp")(C++17)(C++17)(C++17)(C++17)(C++17)(C++17)(C++20) |  compares `optional` objects   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/dsc_operator_cmp&action=edit)  
+(function template)   
 ---|---  
 [ make_optional](optional/make_optional.html "cpp/utility/optional/make optional")(C++17) |  creates an `optional` object   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/dsc_make_optional&action=edit)  
+(function template)   
 [ std::swap(std::optional)](optional/swap2.html "cpp/utility/optional/swap2")(C++17) |  specializes the [std::swap](swap.html "cpp/algorithm/swap") algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/dsc_swap2&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional&action=edit&section=6 "Edit section: Helper classes")] Helper classes
+### Helper classes
 
 [ std::hash<std::optional>](optional/hash.html "cpp/utility/optional/hash")(C++17) |  hash support for **`std::optional`**   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/dsc_hash&action=edit)  
+(class template specialization)   
 ---|---  
 [ nullopt_t](optional/nullopt_t.html "cpp/utility/optional/nullopt t")(C++17) |  indicator of an `std::optional` that does not contain a value   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/dsc_nullopt_t&action=edit)  
+(class)   
 [ bad_optional_access](bad_optional_access.html "cpp/utility/optional/bad optional access")(C++17) |  exception indicating checked access to an optional that doesn't contain a value   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/dsc_bad_optional_access&action=edit)  
+(class)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional&action=edit&section=7 "Edit section: Helpers")] Helpers 
+### Helpers 
 
 [ nullopt](optional/nullopt.html "cpp/utility/optional/nullopt")(C++17) |  an object of type `nullopt_t`   
-(constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/dsc_nullopt&action=edit)  
+(constant)   
 ---|---  
 [ in_placein_place_typein_place_indexin_place_tin_place_type_tin_place_index_t](in_place.html "cpp/utility/in place")(C++17) |  in-place construction tag  
-(tag)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/dsc_in_place&action=edit)  
+(tag)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional&action=edit&section=8 "Edit section: Helper specializations")] Helper specializations
+### Helper specializations
 
 template< class T >  
 constexpr bool [ranges::enable_view](../ranges/view.html)<std::optional<T>> = true; |  |  (since C++26)  
@@ -336,9 +336,9 @@ constexpr auto format_kind<std::optional<T>> = range_format::disabled; |  |  (si
   
 This specialization of format_kind disables the [range formatting support](format/ranges_formatter.html "cpp/utility/format/ranges formatter") of `optional`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional&action=edit&section=9 "Edit section: Deduction guides")] [Deduction guides](optional/deduction_guides.html "cpp/utility/optional/deduction guides")
+### [Deduction guides](optional/deduction_guides.html "cpp/utility/optional/deduction guides")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional&action=edit&section=10 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](feature_test.html "cpp/utility/feature test") macro  | Value | Std | Feature   
 ---|---|---|---  
@@ -348,7 +348,7 @@ This specialization of format_kind disables the [range formatting support](forma
 [`202110L`](../compiler_support/23.html#cpp_lib_optional_202110L "cpp/compiler support/23") | (C++23) | [Monadic operations](optional.html#Monadic_operations)  
 [`__cpp_lib_optional_range_support`](../experimental/feature_test.html#cpp_lib_optional_range_support "cpp/feature test") | [`202406L`](../compiler_support/26.html#cpp_lib_optional_range_support_202406L "cpp/compiler support/26") | (C++26) | Range support for `std::optional`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional&action=edit&section=11 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -387,7 +387,7 @@ Output:
     create(false) returned empty
     create2(true) returned Godzilla
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional&action=edit&section=12 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -397,18 +397,18 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 allocation was confusing  | the contained object must be  
 nested within the `optional` object   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional&action=edit&section=13 "Edit section: See also")] See also
+### See also
 
 [ variant](variant.html "cpp/utility/variant")(C++17) |  a type-safe discriminated union   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_variant&action=edit)  
+(class template)   
 ---|---  
 [ any](any.html "cpp/utility/any")(C++17) |  objects that hold instances of any [CopyConstructible](../named_req/CopyConstructible.html "cpp/named req/CopyConstructible") type   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_any&action=edit)  
+(class)   
 [ expected](expected.html "cpp/utility/expected")(C++23) |  a wrapper that contains either an expected or error value   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_expected&action=edit)  
+(class template)   
 [ ranges::single_viewviews::single](../ranges/single_view.html "cpp/ranges/single view")(C++20) |  a [`view`](../ranges/view.html "cpp/ranges/view") that contains a single element of a specified value  
-(class template) (customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_single_view&action=edit)  
+(class template) (customization point object)  
 [ ranges::empty_viewviews::empty](../ranges/empty_view.html "cpp/ranges/empty view")(C++20) |  an empty [`view`](../ranges/view.html "cpp/ranges/view") with no elements  
-(class template) (variable template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_empty_view&action=edit)
+(class template) (variable template)
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

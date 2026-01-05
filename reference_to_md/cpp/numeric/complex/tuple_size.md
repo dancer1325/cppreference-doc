@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [`std::complex`](../complex.html "cpp/numeric/complex")
 
@@ -164,7 +164,7 @@
 **tuple_size <std::complex>**(C++26)  
 [tuple_element<std::complex>](tuple_element.html "cpp/numeric/complex/tuple element")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/navbar_content&action=edit)
+
 
 Defined in header `[<complex>](../../header/complex.html "cpp/header/complex")` |  |   
 ---|---|---  
@@ -211,13 +211,13 @@ Type  |  Definition
 `value_type` |  [std::size_t](../../types/size_t.html)  
 `type` |  [std::integral_constant](../../types/integral_constant.html)<[std::size_t](../../types/size_t.html), value>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/tuple_size&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../../utility/feature_test.html "cpp/utility/feature test") macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_tuple_like`](../../experimental/feature_test.html#cpp_lib_tuple_like "cpp/feature test") | [`202311L`](../../compiler_support/26.html#cpp_lib_tuple_like_202311L "cpp/compiler support/26") | (C++26) | Add tuple protocol to [std::complex](../complex.html "cpp/numeric/complex")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/tuple_size&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -245,15 +245,15 @@ Run this code
      
     int main() {}
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/tuple_size&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
-[Structured binding](../../language/structured_binding.html "cpp/language/structured binding") (C++17) |  binds the specified names to sub-objects or tuple elements of the initializer[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_structured_binding&action=edit)  
+[Structured binding](../../language/structured_binding.html "cpp/language/structured binding") (C++17) |  binds the specified names to sub-objects or tuple elements of the initializer  
 ---|---  
 [ tuple_size](../../utility/tuple_size.html "cpp/utility/tuple size")(C++11) |  obtains the number of elements of a tuple-like type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_tuple_size&action=edit)  
+(class template)   
 [ std::tuple_element<std::complex>](tuple_element.html "cpp/numeric/complex/tuple element")(C++26) |  obtains the underlying real and imaginary number type of a [std::complex](../complex.html "cpp/numeric/complex")   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_tuple_element&action=edit)  
+(class template specialization)   
 [ get(std::complex)](get.html "cpp/numeric/complex/get")(C++26) |  obtains a reference to real or imaginary part from a [std::complex](../complex.html "cpp/numeric/complex")   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_get&action=edit)
+(function template) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

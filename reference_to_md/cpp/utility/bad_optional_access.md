@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::optional`](optional.html "cpp/utility/optional")
 
@@ -167,7 +167,7 @@ Common vocabulary types
 [nullopt](optional/nullopt.html "cpp/utility/optional/nullopt")  
 [in_place](in_place.html "cpp/utility/in place")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/navbar_content&action=edit)
+
 
 Defined in header `[<optional>](../header/optional.html "cpp/header/optional")` |  |   
 ---|---|---  
@@ -203,7 +203,7 @@ Inheritance diagram
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/bad_optional_access&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 (constructor) |  constructs a new `bad_optional_access` object   
 (public member function)  
@@ -276,18 +276,18 @@ Implementations are allowed but not required to override `what()`.
 ###  Member functions
 
 [ (destructor)](../error/exception/~exception.html "cpp/error/exception/~exception")[virtual] |  destroys the exception object   
-(virtual public member function of `std::exception`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/exception/dsc_destructor&action=edit)  
+(virtual public member function of `std::exception`)   
 ---|---  
 [ what](../error/exception/what.html "cpp/error/exception/what")[virtual] |  returns an explanatory string   
-(virtual public member function of `std::exception`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/exception/dsc_what&action=edit)  
+(virtual public member function of `std::exception`)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/bad_optional_access&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](feature_test.html "cpp/utility/feature test") macro  | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_constexpr_exceptions`](../experimental/feature_test.html#cpp_lib_constexpr_exceptions "cpp/feature test") | [`202502L`](../compiler_support/26.html#cpp_lib_constexpr_exceptions_202502L "cpp/compiler support/26") | (C++26) | constexpr `std::bad_optional_access`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/bad_optional_access&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -313,12 +313,12 @@ Possible output:
     
     bad optional access
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/bad_optional_access&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ bad_expected_access](expected/bad_expected_access.html "cpp/utility/expected/bad expected access")(C++23) |  exception indicating checked access to an `expected` that contains an unexpected value   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/expected/dsc_bad_expected_access&action=edit)  
+(class template)   
 ---|---  
 [ bad_variant_access](variant/bad_variant_access.html "cpp/utility/variant/bad variant access")(C++17) |  exception thrown on invalid accesses to the value of a `variant`   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variant/dsc_bad_variant_access&action=edit)
+(class) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

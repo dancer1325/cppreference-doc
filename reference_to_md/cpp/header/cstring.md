@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header was originally in the C standard library as [`<string.h>`](../../c/header/string.html "c/header/string"). 
 
@@ -220,74 +220,74 @@ This header is for [C-style null-terminated byte strings](../string/byte.html "c
 ###  Macros  
   
 [ NULL](../types/NULL.html "cpp/types/NULL") |  implementation-defined null pointer constant   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_NULL&action=edit)  
+(macro constant)   
   
 ###  Types  
   
 [ size_t](../types/size_t.html "cpp/types/size t") |  unsigned integer type returned by the [`sizeof`](../language/sizeof.html "cpp/language/sizeof") operator   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_size_t&action=edit)  
+(typedef)   
   
 ###  Functions  
   
 #####  String manipulation   
   
 [ strcpy](../string/byte/strcpy.html "cpp/string/byte/strcpy") |  copies one string to another   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strcpy&action=edit)  
+(function)   
 [ strncpy](../string/byte/strncpy.html "cpp/string/byte/strncpy") |  copies a certain amount of characters from one string to another   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strncpy&action=edit)  
+(function)   
 [ strcat](../string/byte/strcat.html "cpp/string/byte/strcat") |  concatenates two strings   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strcat&action=edit)  
+(function)   
 [ strncat](../string/byte/strncat.html "cpp/string/byte/strncat") |  concatenates a certain amount of characters of two strings   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strncat&action=edit)  
+(function)   
 [ strxfrm](../string/byte/strxfrm.html "cpp/string/byte/strxfrm") |  transform a string so that `strcmp` would produce the same result as `strcoll`   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strxfrm&action=edit)  
+(function)   
   
 #####  String examination   
   
 [ strlen](../string/byte/strlen.html "cpp/string/byte/strlen") |  returns the length of a given string   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strlen&action=edit)  
+(function)   
 [ strcmp](../string/byte/strcmp.html "cpp/string/byte/strcmp") |  compares two strings   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strcmp&action=edit)  
+(function)   
 [ strncmp](../string/byte/strncmp.html "cpp/string/byte/strncmp") |  compares a certain number of characters from two strings   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strncmp&action=edit)  
+(function)   
 [ strcoll](../string/byte/strcoll.html "cpp/string/byte/strcoll") |  compares two strings in accordance to the current locale   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strcoll&action=edit)  
+(function)   
 [ strchr](../string/byte/strchr.html "cpp/string/byte/strchr") |  finds the first occurrence of a character   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strchr&action=edit)  
+(function)   
 [ strrchr](../string/byte/strrchr.html "cpp/string/byte/strrchr") |  finds the last occurrence of a character   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strrchr&action=edit)  
+(function)   
 [ strspn](../string/byte/strspn.html "cpp/string/byte/strspn") |  returns the length of the maximum initial segment that consists  
 of only the characters found in another byte string   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strspn&action=edit)  
+(function)   
 [ strcspn](../string/byte/strcspn.html "cpp/string/byte/strcspn") |  returns the length of the maximum initial segment that consists  
 of only the characters not found in another byte string   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strcspn&action=edit)  
+(function)   
 [ strpbrk](../string/byte/strpbrk.html "cpp/string/byte/strpbrk") |  finds the first location of any character from a set of separators   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strpbrk&action=edit)  
+(function)   
 [ strstr](../string/byte/strstr.html "cpp/string/byte/strstr") |  finds the first occurrence of a substring of characters   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strstr&action=edit)  
+(function)   
 [ strtok](../string/byte/strtok.html "cpp/string/byte/strtok") |  finds the next token in a byte string   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strtok&action=edit)  
+(function)   
   
 #####  Character array manipulation   
   
 [ memchr](../string/byte/memchr.html "cpp/string/byte/memchr") |  searches an array for the first occurrence of a character   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_memchr&action=edit)  
+(function)   
 [ memcmp](../string/byte/memcmp.html "cpp/string/byte/memcmp") |  compares two buffers   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_memcmp&action=edit)  
+(function)   
 [ memset](../string/byte/memset.html "cpp/string/byte/memset") |  fills a buffer with a character   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_memset&action=edit)  
+(function)   
 [ memcpy](../string/byte/memcpy.html "cpp/string/byte/memcpy") |  copies one buffer to another   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_memcpy&action=edit)  
+(function)   
 [ memmove](../string/byte/memmove.html "cpp/string/byte/memmove") |  moves one buffer to another   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_memmove&action=edit)  
+(function)   
   
 #####  Miscellaneous   
   
 [ strerror](../string/byte/strerror.html "cpp/string/byte/strerror") |  returns a text version of a given error code   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strerror&action=edit)  
+(function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/cstring&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
   * [NULL](../types/NULL.html "cpp/types/NULL") is also defined in the following headers: 
     * [`<clocale>`](clocale.html "cpp/header/clocale")
@@ -304,7 +304,7 @@ of only the characters not found in another byte string
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/cstring&action=edit&section=2 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     namespace std {

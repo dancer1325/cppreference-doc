@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 Defined in header `[<ios>](../header/ios.html "cpp/header/ios")` |  |   
 ---|---|---  
@@ -113,14 +113,14 @@ If `State` is trivially copy constructible, `fpos` has a trivial copy constructo
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/fpos&action=edit&section=1 "Edit section: Template parameter")] Template parameter
+### Template parameter
 
 State  |  \-  |  the type representing the shift state   
 ---|---|---  
 Type requirements   
 -`State` must meet the requirements of [Destructible](../named_req/Destructible.html "cpp/named req/Destructible"), [CopyAssignable](../named_req/CopyAssignable.html "cpp/named req/CopyAssignable"), [CopyConstructible](../named_req/CopyConstructible.html "cpp/named req/CopyConstructible") and [DefaultConstructible](../named_req/DefaultConstructible.html "cpp/named req/DefaultConstructible").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/fpos&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ state](fpos/state.html "cpp/io/fpos/state") |  gets/sets the value of the shift state   
 (public member function)  
@@ -159,11 +159,11 @@ In addition, member and non-member functions are provided to support the followi
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/fpos&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Some of the [I/O streams member functions](../io.html "cpp/io") return and manipulate objects of member typedef `pos_type`. For streams, these member typedefs are provided by the template parameter `Traits`, which defaults to [std::char_traits](../string/char_traits.html "cpp/string/char traits"), which define their `pos_type`s to be specializations of `std::fpos`. The behavior of the I/O streams library is implementation-defined when `Traits::pos_type` is not std::fpos<[std::mbstate_t](../string/multibyte/mbstate_t.html)> (aka `std::streampos`, `std::wstreampos`, etc.). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/fpos&action=edit&section=4 "Edit section: Defect reports")] Defect reports 
+### Defect reports 
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -178,14 +178,14 @@ definitions `u16streampos` and `u32streampos` are  | made clear
 [LWG 2114](https://cplusplus.github.io/LWG/issue2114)  
 ([P2167R3](https://wg21.link/P2167R3))  | C++98  | non-bool return types of equality comparisons were allowed  | disallowed   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/fpos&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ streamoff](streamoff.html "cpp/io/streamoff") |  represents relative file/stream position (offset from fpos), sufficient to represent any file size   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_streamoff&action=edit)  
+(typedef)   
 ---|---  
 [ tellp](basic_ostream/tellp.html "cpp/io/basic ostream/tellp") |  returns the output position indicator   
-(public member function of `std::basic_ostream<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ostream/dsc_tellp&action=edit)  
+(public member function of `std::basic_ostream<CharT,Traits>`)   
 [ seekp](basic_ostream/seekp.html "cpp/io/basic ostream/seekp") |  sets the output position indicator   
-(public member function of `std::basic_ostream<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ostream/dsc_seekp&action=edit)  
+(public member function of `std::basic_ostream<CharT,Traits>`)   
 [ fgetpos](c/fgetpos.html "cpp/io/c/fgetpos") |  gets the file position indicator   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_fgetpos&action=edit)
+(function) 

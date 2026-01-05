@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::drop_while_view`](../drop_while_view.html "cpp/ranges/drop while view")
 
@@ -237,7 +237,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
 [drop_while_view::end](end.html "cpp/ranges/drop while view/end")  
 [Deduction guides](deduction_guides.html "cpp/ranges/drop while view/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/drop_while_view/navbar_content&action=edit)
+
 
 constexpr auto begin(); |  |  (since C++20)  
 ---|---|---  
@@ -259,15 +259,15 @@ In order to provide the amortized constant time complexity required by the [`ran
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/drop_while_view/begin&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/drop_while_view/begin&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Iterator to the first element of the view. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/drop_while_view/begin&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -282,8 +282,8 @@ Run this code
         [assert](../../error/assert.html)(view.begin()[0] == 3);
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/drop_while_view/begin&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ end](end.html "cpp/ranges/drop while view/end") |  returns an iterator or a sentinel to the end   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/dsc_end&action=edit)  
+(public member function)   
 ---|---

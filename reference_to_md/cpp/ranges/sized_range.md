@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 Defined in header `[<ranges>](../header/ranges.html "cpp/header/ranges")` |  |   
 ---|---|---  
@@ -258,7 +258,7 @@ constexpr bool disable_sized_range = false; |  (2)  |  (since C++20)
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/sized_range&action=edit&section=1 "Edit section: Semantic requirements")] Semantic requirements
+### Semantic requirements
 
 1) Given an lvalue t of type [std::remove_reference_t](../types/remove_reference.html)<T>, `T` models `sized_range` only if 
 
@@ -278,7 +278,7 @@ constexpr bool disable_sized_range = false; |  (2)  |  (since C++20)
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/sized_range&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 `disable_sized_range` cannot be used to opt-out a range whose iterator and sentinel satisfy [`sized_sentinel_for`](../iterator/sized_sentinel_for.html "cpp/iterator/sized sentinel for"); [std::disable_sized_sentinel_for](../iterator/sized_sentinel_for.html "cpp/iterator/sized sentinel for") must be used instead. 
 
@@ -288,7 +288,7 @@ constexpr bool disable_sized_range = false; |  (2)  |  (since C++20)
 ---|---|---|---  
 [`__cpp_lib_ranges_reserve_hint`](../experimental/feature_test.html#cpp_lib_ranges_reserve_hint "cpp/feature test") | [`202502L`](../compiler_support/26.html#cpp_lib_ranges_reserve_hint_202502L "cpp/compiler support/26") | (C++26) | ranges::approximately_sized_range and ranges::reserve_hint  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/sized_range&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -305,12 +305,12 @@ Run this code
      
     int main() {}
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/sized_range&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ ranges::random_access_range](random_access_range.html "cpp/ranges/random access range")(C++20) |  specifies a range whose iterator type satisfies [`random_access_iterator`](../iterator/random_access_iterator.html "cpp/iterator/random access iterator")   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_random_access_range&action=edit)  
+(concept)   
 ---|---  
 [ ranges::contiguous_range](contiguous_range.html "cpp/ranges/contiguous range")(C++20) |  specifies a range whose iterator type satisfies [`contiguous_iterator`](../iterator/contiguous_iterator.html "cpp/iterator/contiguous iterator")   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_contiguous_range&action=edit)
+(concept) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

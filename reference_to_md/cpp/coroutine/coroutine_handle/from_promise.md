@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Coroutine support](../../coroutine.html "cpp/coroutine")
 
@@ -146,7 +146,7 @@ Trivial awaitables
 Range generators  
 [generator](../generator.html "cpp/coroutine/generator")(C++23)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/coroutine/navbar_content&action=edit)
+
 
 [`std::coroutine_handle`](../coroutine_handle.html "cpp/coroutine/coroutine handle")
 
@@ -173,7 +173,7 @@ Non-member functions
 Helper classes  
 [hash<std::coroutine_handle>](hash.html "cpp/coroutine/coroutine handle/hash")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/coroutine/coroutine_handle/navbar_content&action=edit)
+
 
 static coroutine_handle from_promise( Promise& p ); |  |  (since C++20)  
 ---|---|---  
@@ -193,27 +193,27 @@ The behavior is undefined if p is not a reference to a promise object. This func
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/coroutine/coroutine_handle/from_promise&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 p  |  \-  |  promise object of a coroutine to refer   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/coroutine/coroutine_handle/from_promise&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 A `coroutine_handle` referring the given coroutine. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/coroutine/coroutine_handle/from_promise&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/coroutine/coroutine_handle/from_promise&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ (constructor)](coroutine_handle.html "cpp/coroutine/coroutine handle/coroutine handle") |  constructs a `coroutine_handle` object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/coroutine/coroutine_handle/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ from_address](from_address.html "cpp/coroutine/coroutine handle/from address")[static] |  imports a coroutine from a pointer   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/coroutine/coroutine_handle/dsc_from_address&action=edit)  
+(public static member function)   
 [ noop_coroutine](../noop_coroutine.html "cpp/coroutine/noop coroutine")(C++20) |  creates a coroutine handle that has no observable effects when resumed or destroyed   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/coroutine/dsc_noop_coroutine&action=edit)
+(function) 

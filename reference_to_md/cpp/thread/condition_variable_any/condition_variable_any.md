@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -175,7 +175,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::condition_variable_any`](../condition_variable_any.html "cpp/thread/condition variable any")
 
@@ -191,7 +191,7 @@ Waiting
 [condition_variable_any::wait_for](wait_for.html "cpp/thread/condition variable any/wait for")  
 [condition_variable_any::wait_until](wait_until.html "cpp/thread/condition variable any/wait until")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/condition_variable_any/navbar_content&action=edit)
+
 
 condition_variable_any(); |  (1)  |  (since C++11)  
 ---|---|---  
@@ -212,11 +212,11 @@ condition_variable_any( const condition_variable_any& ) = delete; |  (2)  |  (si
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/condition_variable/constructor&action=edit&section=T-1 "Template:cpp/thread/condition variable/constructor")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/condition_variable/constructor&action=edit&section=T-2 "Template:cpp/thread/condition variable/constructor")] Exceptions
+### Exceptions
 
 1) May throw [std::system_error](../../error/system_error.html "cpp/error/system error") with [std::error_condition](../../error/error_condition.html "cpp/error/error condition") equal to [std::errc::operation_not_permitted](../../error/errc.html "cpp/error/errc") if the thread has no privilege to create a condition variable, [std::errc::resource_unavailable_try_again](../../error/errc.html "cpp/error/errc") if a non-memory resource limitation prevents this initialization, or another implementation-defined value.
 
@@ -228,7 +228,7 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 2092](https://cplusplus.github.io/LWG/issue2092) | C++11  | the error condition for [resource_unavailable_try_again](../../error/errc.html "cpp/error/errc") was wrong  | corrected   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/condition_variable/constructor&action=edit&section=T-4 "Template:cpp/thread/condition variable/constructor")] See also
+### See also
 
 [C documentation](../../../c/thread/cnd_init.html "c/thread/cnd init") for cnd_init  
 ---

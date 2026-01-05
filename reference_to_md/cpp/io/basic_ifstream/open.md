@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -79,7 +79,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_ifstream`](../basic_ifstream.html "cpp/io/basic ifstream")
 
@@ -97,7 +97,7 @@ File operations
 Non-member functions  
 [swap(std::basic_ifstream)](swap2.html "cpp/io/basic ifstream/swap2")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ifstream/navbar_content&action=edit)
+
 
 void open( const char* filename,  
 [std::ios_base::openmode](../ios_base/openmode.html) mode  
@@ -132,7 +132,7 @@ Calls clear() on success. Calls setstate(failbit) on failure.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_fstream/open&action=edit&section=T-1 "Template:cpp/io/basic fstream/open")] Parameters
+### Parameters
 
 filename  |  \-  |  the name of the file to be opened   
 ---|---|---  
@@ -146,13 +146,13 @@ mode  |  \-  |  specifies stream open mode. It is a [BitmaskType](../../named_re
 [`ate`](../ios_base/openmode.html "cpp/io/ios base/openmode") |  seek to the end of stream immediately after open   
 [`noreplace`](../ios_base/openmode.html "cpp/io/ios base/openmode") (C++23) |  open in exclusive mode   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_fstream/open&action=edit&section=T-2 "Template:cpp/io/basic fstream/open")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_fstream/open&action=edit&section=T-3 "Template:cpp/io/basic fstream/open")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -165,12 +165,12 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_fstream/open&action=edit&section=T-4 "Template:cpp/io/basic fstream/open")] See also
+### See also
 
 [ is_open](is_open.html "cpp/io/basic ifstream/is open") |  checks if the stream has an associated file   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_fstream/dsc_is_open&action=edit)  
+(public member function)   
 ---|---  
 [ close](close.html "cpp/io/basic ifstream/close") |  closes the associated file   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_fstream/dsc_close&action=edit)  
+(public member function)   
 [ open](../basic_filebuf/open.html "cpp/io/basic filebuf/open") |  opens a file and configures it as the associated character sequence   
-(public member function of `std::basic_filebuf<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_filebuf/dsc_open&action=edit)
+(public member function of `std::basic_filebuf<CharT,Traits>`) 

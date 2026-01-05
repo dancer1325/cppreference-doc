@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Metaprogramming library](../meta.html "cpp/meta")
 
@@ -167,7 +167,7 @@ Type transformations
 Compile-time integer sequences  
 [integer_sequence](../utility/integer_sequence.html "cpp/utility/integer sequence")(C++14)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/meta/navbar_content&action=edit)
+
 
 Defined in header `[<type_traits>](../header/type_traits.html "cpp/header/type traits")` |  |   
 ---|---|---  
@@ -199,12 +199,12 @@ If the program adds specializations for `std::is_trivial` or `std::is_trivial_v`
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/traits/is&action=edit&section=T-1 "Template:cpp/types/traits/is")] Template parameters
+### Template parameters
 
 T  |  \-  |  a type to check   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/traits/is&action=edit&section=T-2 "Template:cpp/types/traits/is")] Helper variable template
+### Helper variable template
 
 template< class T >  
 constexpr bool is_trivial_v = is_trivial<T>::value; |  |  (since C++17)   
@@ -212,7 +212,7 @@ constexpr bool is_trivial_v = is_trivial<T>::value; |  |  (since C++17)
 ---|---|---  
 | |   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/integral_constant/inherit2&action=edit)
+
 
 ##  Inherited from [ std::integral_constant](integral_constant.html "cpp/types/integral constant")
 
@@ -237,7 +237,7 @@ Type  |  Definition
 `value_type` |  bool  
 `type` |  [std::integral_constant](integral_constant.html)<bool, value>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_trivial&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -262,7 +262,7 @@ Run this code
      
     int main() {}
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_trivial&action=edit&section=2 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -272,10 +272,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 class type with unknown bound  | the behavior is  
 undefined in this case   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_trivial&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ is_trivially_copyable](is_trivially_copyable.html "cpp/types/is trivially copyable")(C++11) |  checks if a type is trivially copyable   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_trivially_copyable&action=edit)  
+(class template)   
 ---|---  
 [ is_default_constructibleis_trivially_default_constructibleis_nothrow_default_constructible](is_default_constructible.html "cpp/types/is default constructible")(C++11)(C++11)(C++11) |  checks if a type has a default constructor   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_default_constructible&action=edit)
+(class template) 

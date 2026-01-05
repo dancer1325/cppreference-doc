@@ -21,9 +21,9 @@
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/compiler_support/vendors&action=edit&section=1 "Edit section: Individual vendor compatibility checklists")] Individual vendor compatibility checklists
+### Individual vendor compatibility checklists
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/compiler_support/vendors&action=edit&section=2 "Edit section: GCC \(updated 2025-01\)")] GCC (updated 2025-01)
+#### GCC (updated 2025-01)
 
   * [C++11 core language support status](https://gcc.gnu.org/projects/cxx-status.html#cxx11) (complete as of 4.8.1, except for [N2670](https://wg21.link/n2670), which is implemented by no compiler and removed in C++23) 
   * [C++11 library support status](https://gcc.gnu.org/onlinedocs/libstdc++/manual/status.html#status.iso.2011) (complete as of 5.1) 
@@ -41,7 +41,7 @@
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/compiler_support/vendors&action=edit&section=3 "Edit section: Clang \(updated 2025-01\)")] Clang (updated 2025-01)
+#### Clang (updated 2025-01)
 
   * [Real-time libc++ conformance status](https://github.com/orgs/llvm/projects/31)
   * [C++11 core language support status](https://clang.llvm.org/cxx_status.html#cxx11) (complete as of 3.3) 
@@ -61,7 +61,7 @@
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/compiler_support/vendors&action=edit&section=4 "Edit section: Apple Clang \(updated 2025-01\)")] Apple Clang (updated 2025-01)
+#### Apple Clang (updated 2025-01)
 
   * [Xcode toolchain versions on Wikipedia](https://en.wikipedia.org/wiki/Xcode#Toolchain_versions)
   * [Xcode C++ language and C++ standard library support](https://developer.apple.com/xcode/cpp/)
@@ -70,7 +70,7 @@
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/compiler_support/vendors&action=edit&section=5 "Edit section: Microsoft Visual Studio \(updated 2025-02\)")] Microsoft Visual Studio (updated 2025-02)
+#### Microsoft Visual Studio (updated 2025-02)
 
   * [Microsoft C/C++ language conformance (since Visual Studio 2015)](https://docs.microsoft.com/en-us/cpp/overview/visual-cpp-language-conformance)
   * [STL Changelog (since Visual Studio 2019 16.5)](https://github.com/microsoft/STL/wiki/Changelog)
@@ -86,7 +86,7 @@
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/compiler_support/vendors&action=edit&section=6 "Edit section: Intel C++ \(updated 2023-01\)")] Intel C++ (updated 2023-01)
+#### Intel C++ (updated 2023-01)
 
   * [C++11 core language support status](https://software.intel.com/en-us/articles/c0x-features-supported-by-intel-c-compiler) (complete as of 15.0) 
   * [C++14 core language support status](https://software.intel.com/en-us/articles/c14-features-supported-by-intel-c-compiler) (functionally complete as of 17.0 - N3664 is an optimization) 
@@ -99,7 +99,7 @@
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/compiler_support/vendors&action=edit&section=7 "Edit section: EDG \(updated 2025-01\)")] EDG (updated 2025-01)
+#### EDG (updated 2025-01)
 
   * [C++11 core language support status](https://www.edg.com/features.html)
   * [C++14 core language support status](https://www.edg.com/cpp14_features.html)
@@ -111,7 +111,7 @@
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/compiler_support/vendors&action=edit&section=8 "Edit section: Oracle C++ \(updated 2017-07\)")] Oracle C++ (updated 2017-07)
+#### Oracle C++ (updated 2017-07)
 
   * Version number is compiler version, not Oracle Studio version 
   * [C++11 core language support status in 5.13](https://docs.oracle.com/cd/E37069_01/html/E37071/gncix.html)
@@ -126,7 +126,7 @@
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/compiler_support/vendors&action=edit&section=9 "Edit section: IBM XL C++ \(updated 2018-05\)")] IBM XL C++ (updated 2018-05)
+#### IBM XL C++ (updated 2018-05)
 
   * IBM XL C++ for Linux 
     * [Core language support status](https://www.ibm.com/support/knowledgecenter/en/SSXVZZ_16.1.0/com.ibm.xlcpp161.lelinux.doc/language_ref/standard_features.html): C++11 complete as of 13.1.6, C++14 partial in 16.1.0 
@@ -138,27 +138,27 @@
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/compiler_support/vendors&action=edit&section=10 "Edit section: HP aCC")] HP aCC
+#### HP aCC
 
   * [HP aC++ A.06.28 release notes (including C++11 core language features)](https://h20565.www2.hpe.com/hpsc/doc/public/display?sp4ts.oid=4145774&docLocale=en_US&docId=emr_na-c04221956)
   * HP ships a version of RogueWave STL 2.0 implementation of the C++98 standard library 
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/compiler_support/vendors&action=edit&section=11 "Edit section: Digital Mars C++")] Digital Mars C++
+#### Digital Mars C++
 
   * [C++11 core language support status](https://www.digitalmars.com/ctg/CPP0x-Language-Implementation.html)
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/compiler_support/vendors&action=edit&section=12 "Edit section: Embarcadero C++")] Embarcadero C++
+#### Embarcadero C++
 
   * [Language features compliance status](https://docwiki.embarcadero.com/RADStudio/Berlin/en/C%2B%2B11_Language_Features_Compliance_Status) (RAD Studio 10.1 Berlin), including C++11 features supported by legacy and Clang-enhanced compilers (based on Clang 3.3) 
   * [Language features compliance status](https://docwiki.embarcadero.com/RADStudio/Rio/en/Modern_C%2B%2B_Language_Features_Compliance_Status) (RAD Studio 10.3 Rio), including C++11 features supported by legacy compilers and C++11, C++14, and C++17 features supported by the Clang-enhanced compilers (based on Clang 5.0) 
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/compiler_support/vendors&action=edit&section=13 "Edit section: Cray \(updated 2023-02\)")] Cray (updated 2023-02)
+#### Cray (updated 2023-02)
 
   * [Cray C and C++ Reference Manual (8.4)](https://docs.cray.com/books/S-2179-84/S-2179-84.pdf) For version 8.4, claims all of C++14 is supported except alignas 
   * [Cray C and C++ Reference Manual (8.6)](https://pubs.cray.com/content/S-2179/8.6/cray-c-and-c++-reference-manual-s-2179-86/cray-c-and-c++-dialect-use#concept_kgd_fcr_3s) For version 8.6, claims all of C++14 is supported 
@@ -167,7 +167,7 @@
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/compiler_support/vendors&action=edit&section=14 "Edit section: Portland Group \(PGI\) \(updated 2019-01\)")] Portland Group (PGI) (updated 2019-01)
+#### Portland Group (PGI) (updated 2019-01)
 
   * [Release notes for 2016](https://www.pgroup.com/doc/pgirn161.pdf) claim C++14 support, except "generalized constexpr and constexpr member functions and implicit const, variable templates, clarifying memory allocation (merged allocation)" 
   * [Release notes for 2018](https://www.pgroup.com/resources/docs/18.1/pdf/pgirn181-x86.pdf)
@@ -176,7 +176,7 @@
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/compiler_support/vendors&action=edit&section=15 "Edit section: Nvidia Cuda nvcc \(updated 2023-01-12\)")] Nvidia Cuda nvcc (updated 2023-01-12)
+#### Nvidia Cuda nvcc (updated 2023-01-12)
 
   * [CUDA C++ Programming Guide (v12.0)](https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html#c-language-support)
   * All C++17 language features are supported in nvcc version 11.0 and later, subject to restrictions described [here](https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html#cpp17)
@@ -185,13 +185,13 @@
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/compiler_support/vendors&action=edit&section=16 "Edit section: Texas Instruments \(updated 2018-05\)")] Texas Instruments (updated 2018-05)
+#### Texas Instruments (updated 2018-05)
 
   * [cl430 version v18.1.0](https://www.ti.com/lit/ug/slau132r/slau132r.pdf) claims C++14 support 
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/compiler_support/vendors&action=edit&section=17 "Edit section: Analog Devices \(updated 2018-05\)")] Analog Devices (updated 2018-05)
+#### Analog Devices (updated 2018-05)
 
   * [CrossCore Embedded Studio 2.8.0 for SHARC](https://www.analog.com/media/en/dsp-documentation/software-manuals/cces-SharcCompiler-manual.pdf) claims C++11 support 
 

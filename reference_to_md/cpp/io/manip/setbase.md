@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [Input/output manipulators](../manip.html "cpp/io/manip")
 
@@ -154,7 +154,7 @@ Time and money I/O
 Quoted manipulator  
 [quoted](quoted.html "cpp/io/manip/quoted")(C++14)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/navbar_content&action=edit)
+
 
 Defined in header `[<iomanip>](../../header/iomanip.html "cpp/header/iomanip")` |  |   
 ---|---|---  
@@ -182,12 +182,12 @@ Values of base other than 8, 10, or 16 reset `basefield` to zero, which correspo
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/setbase&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 base  |  \-  |  new value for basefield   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/setbase&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 An object of unspecified type such that 
 
@@ -214,7 +214,7 @@ where the function f is defined as:
             [std::ios_base::fmtflags](../ios_base/fmtflags.html)(0), [std::ios_base::basefield](../ios_base/fmtflags.html));
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/setbase&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -251,7 +251,7 @@ Output:
     prefix-dependent parse: 10 16 8
     hex output: 0xa 0x10 0x8
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/setbase&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -261,10 +261,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 of type [std::ostream](../basic_ostream.html "cpp/io/basic ostream") or [std::istream](../basic_istream.html "cpp/io/basic istream") | usable with any  
 character stream   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/setbase&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ dechexoct](hex.html "cpp/io/manip/hex") |  changes the base used for integer I/O   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_hex&action=edit)  
+(function)   
 ---|---  
 [ showbasenoshowbase](showbase.html "cpp/io/manip/showbase") |  controls whether prefix is used to indicate numeric base   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_showbase&action=edit)
+(function) 

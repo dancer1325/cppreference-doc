@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_filebuf`](../basic_filebuf.html "cpp/io/basic filebuf")
 
@@ -105,7 +105,7 @@ Protected member functions
 Non-member functions  
 [swap(std::basic_filebuf)](swap2.html "cpp/io/basic filebuf/swap2")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_filebuf/navbar_content&action=edit)
+
 
 protected:  
 virtual pos_type seekoff( off_type off,  
@@ -148,7 +148,7 @@ The `openmode` argument, required by the base class function signature, is usual
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_filebuf/seekoff&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 off  |  \-  |  relative position to set the position indicator to   
 ---|---|---  
@@ -162,15 +162,15 @@ which  |  \-  |  defines which of the input and/or output sequences to affect. I
 [`in`](../ios_base/openmode.html "cpp/io/ios base/openmode") |  affect the input sequence   
 [`out`](../ios_base/openmode.html "cpp/io/ios base/openmode") |  affect the output sequence   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_filebuf/seekoff&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 A newly constructed object of type pos_type which stores the resulting file position, or pos_type(off_type(-1)) on failure. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_filebuf/seekoff&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 `seekoff()` is called by std::basic_streambuf::pubseekoff, which is called by std::basic_istream::seekg, std::basic_ostream::seekp, std::basic_istream::tellg, and std::basic_ostream::tellp. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_filebuf/seekoff&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -221,7 +221,7 @@ Output:
     pubseekoff(3, beg) returns -1
     pubseekoff(0, end) returns 10
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_filebuf/seekoff&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -231,12 +231,12 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 invalid stream position on failure  | pos_type(off_type(-1))  
 is returned on failure   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_filebuf/seekoff&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ pubseekoff](../basic_streambuf/pubseekoff.html "cpp/io/basic streambuf/pubseekoff") |  invokes seekoff()   
-(public member function of `std::basic_streambuf<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_streambuf/dsc_pubseekoff&action=edit)  
+(public member function of `std::basic_streambuf<CharT,Traits>`)   
 ---|---  
 [ seekpos](seekpos.html "cpp/io/basic filebuf/seekpos")[virtual] |  repositions the file position, using absolute addressing   
-(virtual protected member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_filebuf/dsc_seekpos&action=edit)  
+(virtual protected member function)   
 [ fseek](../c/fseek.html "cpp/io/c/fseek") |  moves the file position indicator to a specific location in a file   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_fseek&action=edit)
+(function) 

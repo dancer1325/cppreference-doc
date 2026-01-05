@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Localization library](../locale.html "cpp/locale")
 
@@ -152,7 +152,7 @@ base classes](../locale.html#Facet_category_base_classes "cpp/locale")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/navbar_content&action=edit)
+
 
 **`std::time_put`**
 
@@ -162,7 +162,7 @@ Member functions
 [time_put::~time_put](time_put/~time_put.html "cpp/locale/time put/~time put")  
 [time_put::puttime_put::do_put](time_put/put.html "cpp/locale/time put/put")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/time_put/navbar_content&action=edit)
+
 
 Defined in header `[<locale>](../header/locale.html "cpp/header/locale")` |  |   
 ---|---|---  
@@ -193,7 +193,7 @@ If a `std::time_put` specialization is not guaranteed to be provided by the stan
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/time_put&action=edit&section=1 "Edit section: Specializations")] Specializations
+### Specializations
 
 The standard library is guaranteed to provide the following specializations (they are [required to be implemented by any locale object](locale.html "cpp/locale/locale")): 
 
@@ -209,36 +209,36 @@ In addition, the standard library is also guaranteed to provide every specializa
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/time_put&action=edit&section=2 "Edit section: Nested types")] Nested types
+### Nested types
 
 Type  |  Definition   
 ---|---  
 `char_type` |  `CharT`  
 `iter_type` |  `OutputIt`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/facet_data_members&action=edit&section=T-1 "Template:cpp/locale/facet data members")] Data members
+### Data members
 
 Member  |  Description   
 ---|---  
 [std::locale::id](locale/id.html "cpp/locale/locale/id") `id` [static] |  the identifier of the [facet](locale/facet.html#Facet_class "cpp/locale/locale/facet")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/time_put&action=edit&section=3 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](time_put/time_put.html "cpp/locale/time put/time put") |  constructs a new `time_put` facet   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/time_put/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ (destructor)](time_put/~time_put.html "cpp/locale/time put/~time put") |  destructs a `time_put` facet   
-(protected member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/time_put/dsc_destructor&action=edit)  
+(protected member function)   
 [ put](time_put/put.html "cpp/locale/time put/put") |  invokes `do_put`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/time_put/dsc_put&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/time_put&action=edit&section=4 "Edit section: Protected member functions")] Protected member functions
+### Protected member functions
 
 [ do_put](time_put/put.html "cpp/locale/time put/put")[virtual] |  formats date/time and writes to output stream   
-(virtual protected member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/time_put/dsc_do_put&action=edit)  
+(virtual protected member function)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/time_put&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -264,12 +264,12 @@ Output:
     
     水曜日 2011年11月09日 12時32分05秒
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/time_put&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ time_put_byname](time_put_byname.html "cpp/locale/time put byname") |  represents the system-supplied **std::time_put** for the named locale   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_time_put_byname&action=edit)  
+(class template)   
 ---|---  
 [ time_get](time_get.html "cpp/locale/time get") |  parses time/date values from an input character sequence into [std::tm](../chrono/c/tm.html "cpp/chrono/c/tm")   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_time_get&action=edit)  
+(class template)   
 [ put_time](../io/manip/put_time.html "cpp/io/manip/put time")(C++11) |  formats and outputs a date/time value according to the specified format   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_put_time&action=edit)
+(function template) 

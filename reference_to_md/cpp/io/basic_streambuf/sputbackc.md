@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_streambuf`](../basic_streambuf.html "cpp/io/basic streambuf")
 
@@ -152,7 +152,7 @@ Put area
 Putback  
 [basic_streambuf::pbackfail](pbackfail.html "cpp/io/basic streambuf/pbackfail")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_streambuf/navbar_content&action=edit)
+
 
 int_type sputbackc( char_type c ); |  |   
 ---|---|---  
@@ -176,18 +176,18 @@ The I/O stream function [`basic_istream::putback`](../basic_istream/putback.html
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_streambuf/sputbackc&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 c  |  \-  |  character to put back   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_streambuf/sputbackc&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 If putback position was available, returns the character that the next pointer is now pointing at, converted to `int_type` with Traits::to_int_type(*gptr()). The next single-character input from this streambuf will return this character. 
 
 If putback position was not available, returns what [pbackfail()](pbackfail.html "cpp/io/basic streambuf/pbackfail") returns, which is Traits::eof() on failure. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_streambuf/sputbackc&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -222,10 +222,10 @@ Output:
     azzb
     No room to putback after 'z'
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_streambuf/sputbackc&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ sungetc](sungetc.html "cpp/io/basic streambuf/sungetc") |  moves the next pointer in the input sequence back by one   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_streambuf/dsc_sungetc&action=edit)  
+(public member function)   
 ---|---  
 [ putback](../basic_istream/putback.html "cpp/io/basic istream/putback") |  puts a character into input stream   
-(public member function of `std::basic_istream<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_istream/dsc_putback&action=edit)
+(public member function of `std::basic_istream<CharT,Traits>`) 

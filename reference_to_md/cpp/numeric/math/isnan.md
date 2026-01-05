@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [Common mathematical functions](../math.html "cpp/numeric/math")
 
@@ -230,7 +230,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/navbar_content&action=edit)
+
 
 Defined in header `[<cmath>](../../header/cmath.html "cpp/header/cmath")` |  |   
 ---|---|---  
@@ -275,19 +275,19 @@ A) Additional overloads are provided for all integer types, which are treated as
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/unary_is&action=edit&section=T-1 "Template:cpp/numeric/math/unary is")] Parameters
+### Parameters
 
 num  |  \-  |  floating-point or integer value   
 ---|---|---  
 v_num  |  \-  |  a data-parallel object of std::basic_simd specialization where its element type is a floating-point type   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/unary_is&action=edit&section=T-2 "Template:cpp/numeric/math/unary is")] Return value
+### Return value
 
 1) true if num is a NaN, false otherwise.
 
 S) A data-parallel mask object where the ith element equals true if v_num[i] is a NaN or false otherwise for all i in the range `[`​0​`, `v_num.size()`)`.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/unary_is&action=edit&section=T-3 "Template:cpp/numeric/math/unary is")] Notes
+### Notes
 
 There are many different NaN values with different sign bits and payloads, see [std::nan](nan.html "cpp/numeric/math/nan") and [std::numeric_limits::quiet_NaN](../../types/numeric_limits/quiet_NaN.html "cpp/types/numeric limits/quiet NaN"). 
 
@@ -299,7 +299,7 @@ Another way to test if a floating-point value is NaN is to compare it with itsel
 
 The additional overloads are not required to be provided exactly as (A). They only need to be sufficient to ensure that for their argument num of integer type, std::isnan(num) has the same effect as std::isnan(static_cast<double>(num)). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/isnan&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -329,19 +329,19 @@ Output:
     isnan(0.0 / 0.0)   = true
     isnan(Inf - Inf)   = true
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/isnan&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ nannanfnanl](nan.html "cpp/numeric/math/nan")(C++11)(C++11)(C++11) |  not-a-number (NaN)   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_fnan&action=edit)  
+(function)   
 ---|---  
 [ fpclassify](fpclassify.html "cpp/numeric/math/fpclassify")(C++11) |  categorizes the given floating-point value   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_fpclassify&action=edit)  
+(function)   
 [ isfinite](isfinite.html "cpp/numeric/math/isfinite")(C++11) |  checks if the given number has finite value   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_isfinite&action=edit)  
+(function)   
 [ isinf](isinf.html "cpp/numeric/math/isinf")(C++11) |  checks if the given number is infinite   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_isinf&action=edit)  
+(function)   
 [ isnormal](isnormal.html "cpp/numeric/math/isnormal")(C++11) |  checks if the given number is normal   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_isnormal&action=edit)  
+(function)   
 [ isunordered](isunordered.html "cpp/numeric/math/isunordered")(C++11) |  checks if two floating-point values are unordered   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_isunordered&action=edit)  
+(function)   
 [C documentation](../../../c/numeric/math/isnan.html "c/numeric/math/isnan") for isnan

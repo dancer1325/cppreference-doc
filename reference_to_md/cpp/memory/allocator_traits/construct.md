@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::allocator_traits`](../allocator_traits.html "cpp/memory/allocator traits")
 
@@ -199,7 +199,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
 [allocator_traits::max_size](max_size.html "cpp/memory/allocator traits/max size")  
 [allocator_traits::select_on_container_copy_construction](select_on_container_copy_construction.html "cpp/memory/allocator traits/select on container copy construction")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/allocator_traits/navbar_content&action=edit)
+
 
 Defined in header `[<memory>](../../header/memory.html "cpp/header/memory")` |  |   
 ---|---|---  
@@ -226,29 +226,29 @@ If the above is not possible (e.g. `Alloc` does not have the member function `co
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/allocator_traits/construct&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 a  |  \-  |  allocator to use for construction   
 ---|---|---  
 p  |  \-  |  pointer to the uninitialized storage on which a `T` object will be constructed   
 args...  |  \-  |  the constructor arguments to pass to a.construct() or to placement-new(until C++20)[std::construct_at()](../construct_at.html "cpp/memory/construct at")(since C++20)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/allocator_traits/construct&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/allocator_traits/construct&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 This function is used by the standard library containers when inserting, copying, or moving elements. 
 
 Because this function provides the automatic fall back to placement new, the member function `construct()` is an optional [Allocator](../../named_req/Allocator.html "cpp/named req/Allocator") requirement since C++11. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/allocator_traits/construct&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ operator newoperator new[]](../new/operator_new.html "cpp/memory/new/operator new") |  allocation functions   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/new/dsc_operator_new&action=edit)  
+(function)   
 ---|---  
 [ construct](../allocator/construct.html "cpp/memory/allocator/construct")(until C++20) |  constructs an object in allocated storage   
-(public member function of `std::allocator<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/allocator/dsc_construct&action=edit)  
+(public member function of `std::allocator<T>`)   
 [ construct_at](../construct_at.html "cpp/memory/construct at")(C++20) |  creates an object at a given address   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_construct_at&action=edit)
+(function template) 

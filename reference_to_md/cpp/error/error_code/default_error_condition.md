@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Diagnostics library](../../error.html "cpp/error")
 
@@ -187,7 +187,7 @@ Exception handling failures
 [breakpoint_if_debugging](../../utility/breakpoint_if_debugging.html "cpp/utility/breakpoint if debugging")(C++26)  
 [breakpoint](../../utility/breakpoint.html "cpp/utility/breakpoint")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/navbar_content&action=edit)
+
 
 [`std::error_code`](../error_code.html "cpp/error/error code")
 
@@ -211,7 +211,7 @@ Helper classes
 [is_error_code_enum](is_error_code_enum.html "cpp/error/error code/is error code enum")  
 [hash<std::error_code>](hash.html "cpp/error/error code/hash")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/error_code/navbar_content&action=edit)
+
 
 [std::error_condition](../error_condition.html) default_error_condition() const noexcept; |  |  (since C++11)  
 ---|---|---  
@@ -221,10 +221,10 @@ Returns the default error condition for the current error value.
 
 Equivalent to category().default_error_condition(value()). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/error_code/default_error_condition&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/error_code/default_error_condition&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The default error condition for the current error value. 

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Library fundamentals v2](../lib_extensions_2.html "cpp/experimental/lib extensions 2")
 
@@ -74,7 +74,7 @@
 [uniform container erasure](../lib_extensions_2.html#Uniform_container_erasure "cpp/experimental/lib extensions 2")  
 [logical operator type traits](../lib_extensions_2.html#Logical_operator_type_traits "cpp/experimental/lib extensions 2")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions_2/navbar_content&action=edit)
+
 
 [`std::experimental::ostream_joiner`](../ostream_joiner.html "cpp/experimental/ostream joiner")
 
@@ -87,7 +87,7 @@ Member functions
 Non-member functions  
 [make_ostream_joiner](make_ostream_joiner.html "cpp/experimental/ostream joiner/make ostream joiner")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ostream_joiner/navbar_content&action=edit)
+
 
 ostream_joiner& operator*() noexcept; |  |  (library fundamentals TS v2)  
 ---|---|---  
@@ -97,10 +97,10 @@ Does nothing, this member function is provided to satisfy the requirements of [L
 
 It returns the iterator itself, which makes it possible to use code such as *iter = value to output (insert) the value into the underlying stream. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ostream_joiner/operator*&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ostream_joiner/operator*&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 *this

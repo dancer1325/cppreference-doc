@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Type support](../../utility/rtti.html "cpp/types")
 
@@ -161,7 +161,7 @@ Runtime type information
 ---  
 [bad_cast](../bad_cast.html "cpp/types/bad cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/navbar_content&action=edit)
+
 
 [`std::numeric_limits`](../numeric_limits.html "cpp/types/numeric limits")
 
@@ -204,7 +204,7 @@ Helper types
 [float_round_style](float_round_style.html "cpp/types/numeric limits/float round style")  
 [float_denorm_style](float_denorm_style.html "cpp/types/numeric limits/float denorm style")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/navbar_content&action=edit)
+
 
 static const [std::float_denorm_style](float_denorm_style.html) has_denorm; |  |  (until C++11)  
 ---|---|---  
@@ -214,7 +214,7 @@ static constexpr [std::float_denorm_style](float_denorm_style.html) has_denorm; 
   
 The value of [std::numeric_limits](../numeric_limits.html)<T>::has_denorm identifies the floating-point types that support [subnormal values](https://en.wikipedia.org/wiki/Denormal_number "enwiki:Denormal number"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/numeric_limits/has_denorm&action=edit&section=1 "Edit section: Standard specializations")] Standard specializations
+### Standard specializations
 
 `T` |  value of [std::numeric_limits](../numeric_limits.html)<T>::has_denorm  
 ---|---  
@@ -239,10 +239,10 @@ float |  usually [std::denorm_present](float_denorm_style.html "cpp/types/numeri
 double |  usually [std::denorm_present](float_denorm_style.html "cpp/types/numeric limits/float denorm style")  
 long double |  usually [std::denorm_present](float_denorm_style.html "cpp/types/numeric limits/float denorm style")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/numeric_limits/has_denorm&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ denorm_min](denorm_min.html "cpp/types/numeric limits/denorm min")[static] |  returns the smallest positive subnormal value of the given floating-point type   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/dsc_denorm_min&action=edit)  
+(public static member function)   
 ---|---  
 [ float_denorm_style](float_denorm_style.html "cpp/types/numeric limits/float denorm style") |  indicates floating-point denormalization modes   
-(enum) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/dsc_float_denorm_style&action=edit)
+(enum) 

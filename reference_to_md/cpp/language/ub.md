@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Basic Concepts](basics.html "cpp/language/basic concepts")
 
@@ -249,7 +249,7 @@ Miscellaneous
 [Modules](modules.html "cpp/language/modules") (C++20)  
 [Contracts](contracts.html "cpp/language/contracts") (C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/basics/navbar_content&action=edit)
+
 
 Renders the entire program meaningless if certain rules of the language are violated. 
 
@@ -272,7 +272,7 @@ Renders the entire program meaningless if certain rules of the language are viol
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/ub&action=edit&section=1 "Edit section: Explanation")] Explanation
+### Explanation
 
 The C++ standard precisely defines the [observable behavior](as_if.html "cpp/language/as if") of every C++ program that does not fall into one of the following classes: 
 
@@ -381,13 +381,13 @@ The C++ standard precisely defines the [observable behavior](as_if.html "cpp/lan
 | (since C++11)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/ub&action=edit&section=2 "Edit section: UB and optimization")] UB and optimization
+### UB and optimization
 
 Because correct C++ programs are free of undefined behavior, compilers may produce unexpected results when a program that actually has UB is compiled with optimization enabled: 
 
 For example, 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/ub&action=edit&section=3 "Edit section: Signed overflow")] Signed overflow
+#### Signed overflow
     
     
     int foo(int x)
@@ -402,7 +402,7 @@ may be compiled as ([demo](https://godbolt.org/z/re39h7P1K))
             mov     eax, 1
             ret
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/ub&action=edit&section=4 "Edit section: Access out of bounds")] Access out of bounds
+#### Access out of bounds
     
     
     int table[4] = {};
@@ -422,7 +422,7 @@ May be compiled as ([demo](https://godbolt.org/z/vMbsdo5az))
             mov     eax, 1
             ret
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/ub&action=edit&section=5 "Edit section: Uninitialized scalar")] Uninitialized scalar
+#### Uninitialized scalar
     
     
     [std::size_t](../types/size_t.html) f(int x)
@@ -462,7 +462,7 @@ Possible output:
     p is true
     p is false
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/ub&action=edit&section=6 "Edit section: Invalid scalar")] Invalid scalar
+#### Invalid scalar
     
     
     int f()
@@ -481,7 +481,7 @@ May be compiled as ([demo](https://godbolt.org/z/4vKxhcea4))
             mov     eax, 11
             ret
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/ub&action=edit&section=7 "Edit section: Null pointer dereference")] Null pointer dereference
+#### Null pointer dereference
 
 The examples demonstrate reading from the result of dereferencing a null pointer. 
     
@@ -510,7 +510,7 @@ may be compiled as ([demo](https://godbolt.org/z/edxr5W5T7))
     bar():
             ret
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/ub&action=edit&section=8 "Edit section: Access to pointer passed to std::realloc")] Access to pointer passed to [std::realloc](../memory/c/realloc.html "cpp/memory/c/realloc")
+#### Access to pointer passed to [std::realloc](../memory/c/realloc.html "cpp/memory/c/realloc")
 
 Choose clang to observe the output shown
 
@@ -535,7 +535,7 @@ Possible output:
     
     12
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/ub&action=edit&section=9 "Edit section: Infinite loop without side-effects")] Infinite loop without side-effects
+#### Infinite loop without side-effects
 
 Choose clang or the latest gcc to observe the output shown.
 
@@ -584,7 +584,7 @@ Possible output:
     
     Fermat's Last Theorem has been disproved!
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/ub&action=edit&section=10 "Edit section: Ill-formed with diagnostic message")] Ill-formed with diagnostic message
+### Ill-formed with diagnostic message
 
 Note that compilers are permitted to extend the language in ways that give meaning to ill-formed programs. The only thing C++ standard requires in such cases is a diagnostic message (compiler warning), unless the program was "ill-formed no diagnostic required". 
 
@@ -633,7 +633,7 @@ Possible output:
          static_cast<int>( )
     1 error generated.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/ub&action=edit&section=11 "Edit section: References")] References
+### References
 
 Extended content  
 ---  
@@ -806,18 +806,18 @@ Extended content
 
   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/ub&action=edit&section=12 "Edit section: See also")] See also
+### See also
 
 `[[[assume](attributes/assume.html "cpp/language/attributes/assume")(_expression_)]]`(C++23) |  specifies that the _expression_ will always evaluate to true at a given point  
-(attribute specifier)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/attributes/dsc_assume&action=edit)  
+(attribute specifier)  
 ---|---  
 `[[[indeterminate](attributes/indeterminate.html "cpp/language/attributes/indeterminate")]]`(C++26) |  specifies that an object has an indeterminate value if it is not initialized  
-(attribute specifier)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/attributes/dsc_indeterminate&action=edit)  
+(attribute specifier)  
 [ unreachable](../utility/unreachable.html "cpp/utility/unreachable")(C++23) |  marks unreachable point of execution   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_unreachable&action=edit)  
+(function)   
 [C documentation](../../c/language/behavior.html "c/language/behavior") for Undefined behavior  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/ub&action=edit&section=13 "Edit section: External links")] External links
+### External links
 
 1\.  | [The LLVM Project Blog: What Every C Programmer Should Know About Undefined Behavior #1/3](https://blog.llvm.org/2011/05/what-every-c-programmer-should-know.html)  
 ---|---  

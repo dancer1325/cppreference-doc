@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Classes](classes.html "cpp/language/classes")
 
@@ -261,7 +261,7 @@ Inheritance
 [`override` specifier](override.html "cpp/language/override") (C++11)  
 [`final` specifier](final.html "cpp/language/final") (C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/classes/navbar_content&action=edit)
+
 
 ## Contents
 
@@ -274,7 +274,7 @@ Inheritance
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/explicit&action=edit&section=1 "Edit section: Syntax")] Syntax  
+### Syntax  
   
 ---  
 `**explicit**` |  (1)  |   
@@ -292,7 +292,7 @@ expression |  \-  |  [contextually converted constant expression of type bool](c
   
 The explicit specifier may only appear within the decl-specifier-seq of the declaration of a constructor or conversion function(since C++11) within its class definition. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/explicit&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 A constructor with a single non-default parameter(until C++11) that is declared without the function specifier explicit is called a [converting constructor](converting_constructor.html "cpp/language/converting constructor"). 
 
@@ -313,11 +313,11 @@ Feature-test macro | Value | Std | Feature
 ---|---|---|---  
 [`__cpp_conditional_explicit`](../experimental/feature_test.html#cpp_conditional_explicit "cpp/feature test") | [`201806L`](../compiler_support/20.html#cpp_conditional_explicit_201806L "cpp/compiler support/20") | (C++20) | conditional explicit  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/explicit&action=edit&section=3 "Edit section: Keywords")] Keywords
+### Keywords
 
 [`explicit`](../keyword/explicit.html "cpp/keyword/explicit")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/explicit&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -359,7 +359,7 @@ Run this code
         [](...){}(a4, a5, na1, na2, b5, nb2); // suppresses “unused variable” warnings
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/explicit&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
   * [converting constructor](converting_constructor.html "cpp/language/converting constructor")
   * [initialization](initialization.html "cpp/language/initialization")

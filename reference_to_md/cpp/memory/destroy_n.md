@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 Defined in header `[<memory>](../header/memory.html "cpp/header/memory")` |  |   
 ---|---|---  
@@ -221,7 +221,7 @@ ForwardIt destroy_n( ExecutionPolicy&& policy, ForwardIt first, Size n ); |  (2)
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/destroy_n&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first  |  \-  |  the beginning of the range of elements to destroy   
 ---|---|---  
@@ -231,15 +231,15 @@ Type requirements
 -`ForwardIt` must meet the requirements of [LegacyForwardIterator](../named_req/ForwardIterator.html "cpp/named req/ForwardIterator").   
 -No increment, assignment, comparison, or indirection through valid instances of `ForwardIt` may throw exceptions.   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/destroy_n&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The end of the range of objects that has been destroyed (i.e., [std::next](../iterator/next.html)(first, n)). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/destroy_n&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Linear in n. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/destroy_n&action=edit&section=4 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 The overload with a template parameter named `ExecutionPolicy` reports errors as follows: 
 
@@ -248,7 +248,7 @@ The overload with a template parameter named `ExecutionPolicy` reports errors as
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/destroy_n&action=edit&section=5 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     template<class ForwardIt, class Size>
@@ -262,7 +262,7 @@ The overload with a template parameter named `ExecutionPolicy` reports errors as
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/destroy_n&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 The following example demonstrates how to use `destroy_n` to destroy a contiguous sequence of elements.
 
@@ -303,12 +303,12 @@ Output:
     6 destructed
     7 destructed
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/destroy_n&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ destroy](destroy.html "cpp/memory/destroy")(C++17) |  destroys a range of objects   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_destroy&action=edit)  
+(function template)   
 ---|---  
 [ destroy_at](destroy_at.html "cpp/memory/destroy at")(C++17) |  destroys an object at a given address   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_destroy_at&action=edit)  
+(function template)   
 [ ranges::destroy_n](ranges/destroy_n.html "cpp/memory/ranges/destroy n")(C++20) |  destroys a number of objects in a range  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/ranges/dsc_destroy_n&action=edit)
+(algorithm function object)

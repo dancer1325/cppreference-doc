@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header is part of the [general utility](../utility.html "cpp/utility") library. 
 
@@ -218,45 +218,45 @@ This header is part of the [general utility](../utility.html "cpp/utility") libr
   
 ###  Includes  
   
-[ <compare>](compare.html "cpp/header/compare")(C++20) |  [Three-way comparison operator](../language/operator_comparison.html#Three-way_comparison "cpp/language/operator comparison") support[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/dsc_compare&action=edit)  
+[ <compare>](compare.html "cpp/header/compare")(C++20) |  [Three-way comparison operator](../language/operator_comparison.html#Three-way_comparison "cpp/language/operator comparison") support  
   
 ###  Classes  
   
 [ optional](../utility/optional.html "cpp/utility/optional")(C++17) |  a wrapper that may or may not hold an object   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_optional&action=edit)  
+(class template)   
 [ bad_optional_access](../utility/bad_optional_access.html "cpp/utility/optional/bad optional access")(C++17) |  exception indicating checked access to an optional that doesn't contain a value   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/dsc_bad_optional_access&action=edit)  
+(class)   
 [ std::hash<std::optional>](../utility/optional/hash.html "cpp/utility/optional/hash")(C++17) |  hash support for [`std::optional`](../utility/optional.html "cpp/utility/optional")   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/dsc_hash&action=edit)  
+(class template specialization)   
 [ nullopt_t](../utility/optional/nullopt_t.html "cpp/utility/optional/nullopt t")(C++17) |  indicator of an `std::optional` that does not contain a value   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/dsc_nullopt_t&action=edit)  
+(class)   
   
 #####  Forward declarations   
   
 Defined in header `[<functional>](functional.html "cpp/header/functional")`  
 [ hash](../utility/hash.html "cpp/utility/hash")(C++11) |  hash function object   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_hash&action=edit)  
+(class template)   
   
 ###  Constants  
   
 [ nullopt](../utility/optional/nullopt.html "cpp/utility/optional/nullopt")(C++17) |  an object of type `nullopt_t`   
-(constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/dsc_nullopt&action=edit)  
+(constant)   
   
 ###  Functions  
   
 #####  Comparison   
   
 [ operator==operator!=operator<operator<=operator>operator>=operator<=>](../utility/optional/operator_cmp.html "cpp/utility/optional/operator cmp")(C++17)(C++17)(C++17)(C++17)(C++17)(C++17)(C++20) |  compares `optional` objects   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/dsc_operator_cmp&action=edit)  
+(function template)   
   
 #####  Specialized algorithms   
   
 [ std::swap(std::optional)](../utility/optional/swap2.html "cpp/utility/optional/swap2")(C++17) |  specializes the [std::swap](../utility/swap.html "cpp/algorithm/swap") algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/dsc_swap2&action=edit)  
+(function template)   
 [ make_optional](../utility/optional/make_optional.html "cpp/utility/optional/make optional")(C++17) |  creates an `optional` object   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/dsc_make_optional&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/optional&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     // mostly freestanding
@@ -336,7 +336,7 @@ Defined in header `[<functional>](functional.html "cpp/header/functional")`
       template<class T> struct hash<optional<T>>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/optional&action=edit&section=T-1 "Template:cpp/synopsis/optional")] Class template [std::optional](../utility/optional.html "cpp/utility/optional")
+#### Class template [std::optional](../utility/optional.html "cpp/utility/optional")
     
     
     namespace std {
@@ -421,7 +421,7 @@ Defined in header `[<functional>](functional.html "cpp/header/functional")`
       template<class T> optional(T) -> optional<T>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/optional&action=edit&section=T-2 "Template:cpp/synopsis/optional")] Class template [std::bad_optional_access](../utility/bad_optional_access.html "cpp/utility/optional/bad optional access")
+#### Class template [std::bad_optional_access](../utility/bad_optional_access.html "cpp/utility/optional/bad optional access")
     
     
     namespace std {

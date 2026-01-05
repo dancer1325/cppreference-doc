@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header is part of the [Input/Output](../io.html "cpp/io") library. 
 
@@ -216,13 +216,13 @@ This header is part of the [Input/Output](../io.html "cpp/io") library.
 ###  Classes  
   
 [ basic_spanbuf](../io/basic_spanbuf.html "cpp/io/basic spanbuf")(C++23) |  implements raw fixed character buffer device   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_basic_spanbuf&action=edit)  
+(class template)   
 [ basic_ispanstream](../io/basic_ispanstream.html "cpp/io/basic ispanstream")(C++23) |  implements fixed character buffer input operations   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_basic_ispanstream&action=edit)  
+(class template)   
 [ basic_ospanstream](../io/basic_ospanstream.html "cpp/io/basic ospanstream")(C++23) |  implements fixed character buffer output operations   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_basic_ospanstream&action=edit)  
+(class template)   
 [ basic_spanstream](../io/basic_spanstream.html "cpp/io/basic spanstream")(C++23) |  implements fixed character buffer input/output operations   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_basic_spanstream&action=edit)  
+(class template)   
 `spanbuf` (C++23) |  [std::basic_spanbuf](../io/basic_spanbuf.html)<char>  
 (typedef)  
 `wspanbuf` (C++23) |  [std::basic_spanbuf](../io/basic_spanbuf.html)<wchar_t>  
@@ -243,15 +243,15 @@ This header is part of the [Input/Output](../io.html "cpp/io") library.
 ###  Functions  
   
 [ std::swap(std::basic_spanbuf)](../io/basic_spanbuf/swap2.html "cpp/io/basic spanbuf/swap2")(C++23) |  specializes the [std::swap](../utility/swap.html "cpp/algorithm/swap") algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_spanbuf/dsc_swap2&action=edit)  
+(function template)   
 [ std::swap(std::basic_ispanstream)](../io/basic_ispanstream/swap2.html "cpp/io/basic ispanstream/swap2")(C++23) |  specializes the [std::swap](../utility/swap.html "cpp/algorithm/swap") algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_spanstream/dsc_swap2&action=edit)  
+(function template)   
 [ std::swap(std::basic_ospanstream)](../io/basic_ospanstream/swap2.html "cpp/io/basic ospanstream/swap2")(C++23) |  specializes the [std::swap](../utility/swap.html "cpp/algorithm/swap") algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_spanstream/dsc_swap2&action=edit)  
+(function template)   
 [ std::swap(std::basic_spanstream)](../io/basic_spanstream/swap2.html "cpp/io/basic spanstream/swap2")(C++23) |  specializes the [std::swap](../utility/swap.html "cpp/algorithm/swap") algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_spanstream/dsc_swap2&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/spanstream&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     namespace std {
@@ -280,7 +280,7 @@ This header is part of the [Input/Output](../io.html "cpp/io") library.
       using wspanstream = basic_spanstream<wchar_t>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/spanstream&action=edit&section=T-1 "Template:cpp/synopsis/spanstream")] Class template std::basic_spanbuf
+#### Class template std::basic_spanbuf
     
     
     namespace std {
@@ -333,7 +333,7 @@ This header is part of the [Input/Output](../io.html "cpp/io") library.
                   basic_spanbuf<CharT, Traits>& y);
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/spanstream&action=edit&section=T-2 "Template:cpp/synopsis/spanstream")] Class template std::basic_ispanstream
+#### Class template std::basic_ispanstream
     
     
     namespace std {
@@ -377,7 +377,7 @@ This header is part of the [Input/Output](../io.html "cpp/io") library.
                   basic_ispanstream<CharT, Traits>& y);
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/spanstream&action=edit&section=T-3 "Template:cpp/synopsis/spanstream")] Class template std::basic_ospanstream
+#### Class template std::basic_ospanstream
     
     
     namespace std {
@@ -417,7 +417,7 @@ This header is part of the [Input/Output](../io.html "cpp/io") library.
                   basic_ospanstream<CharT, Traits>& y);
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/spanstream&action=edit&section=T-4 "Template:cpp/synopsis/spanstream")] Class template std::basic_spanstream
+#### Class template std::basic_spanstream
     
     
     namespace std {

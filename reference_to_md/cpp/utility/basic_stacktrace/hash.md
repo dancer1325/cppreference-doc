@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Diagnostics library](../../error.html "cpp/error")
 
@@ -89,7 +89,7 @@ Exception handling failures
 [breakpoint_if_debugging](../breakpoint_if_debugging.html "cpp/utility/breakpoint if debugging")(C++26)  
 [breakpoint](../breakpoint.html "cpp/utility/breakpoint")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/navbar_content&action=edit)
+
 
 [`std::basic_stacktrace`](../basic_stacktrace.html "cpp/utility/basic stacktrace")
 
@@ -124,7 +124,7 @@ operator<=>](operator_cmp.html "cpp/utility/basic stacktrace/operator cmp")
 **hash <std::basic_stacktrace>**  
 [formatter<std::basic_stacktrace>](formatter.html "cpp/utility/basic stacktrace/formatter")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/basic_stacktrace/navbar_content&action=edit)
+
 
 Defined in header `[<stacktrace>](../../header/stacktrace.html "cpp/header/stacktrace")` |  |   
 ---|---|---  
@@ -135,16 +135,16 @@ The template specialization of [std::hash](../hash.html "cpp/utility/hash") for 
 
 `operator()` of this specialization is noexcept. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/basic_stacktrace/hash&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/basic_stacktrace/hash&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ hash](../hash.html "cpp/utility/hash")(C++11) |  hash function object   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_hash&action=edit)  
+(class template)   
 ---|---  
 [ std::hash<std::stacktrace_entry>](../stacktrace_entry/hash.html "cpp/utility/stacktrace entry/hash")(C++23) |  hash support for [`std::stacktrace_entry`](../stacktrace_entry.html "cpp/utility/stacktrace entry")   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/stacktrace_entry/dsc_hash&action=edit)
+(class template specialization) 

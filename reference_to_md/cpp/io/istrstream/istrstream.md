@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::istrstream`](../istrstream.html "cpp/io/istrstream")
 
@@ -88,7 +88,7 @@ Member functions
 [istrstream::rdbuf](rdbuf.html "cpp/io/istrstream/rdbuf")  
 [istrstream::str](str.html "cpp/io/istrstream/str")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/istrstream/navbar_content&action=edit)
+
 
 explicit istrstream( const char* s ); |  (1)  |  (deprecated in C++98)   
 (removed in C++26)  
@@ -107,13 +107,13 @@ Constructs new [std::istrstream](../istrstream.html "cpp/io/istrstream") and its
 
 3,4) Constructs the underlying [std::strstreambuf](../strstreambuf.html "cpp/io/strstreambuf") by calling strstreambuf(s, n) and initializes the base class with the address of the `strstreambuf`. The behavior is undefined if s is not pointing at an element of an array whose length is at least n elements.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/istrstream/istrstream&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 s  |  \-  |  C-string or char array to use as the contents of the stream   
 ---|---|---  
 n  |  \-  |  size of the array   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/istrstream/istrstream&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -140,12 +140,12 @@ Output:
     1, 2, 3
     4, 5, 6
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/istrstream/istrstream&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ (constructor)](../strstreambuf/strstreambuf.html "cpp/io/strstreambuf/strstreambuf") |  constructs a `strstreambuf` object   
-(public member function of `std::strstreambuf`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/strstreambuf/dsc_strstreambuf&action=edit)  
+(public member function of `std::strstreambuf`)   
 ---|---  
 [ (constructor)](../ostrstream/ostrstream.html "cpp/io/ostrstream/ostrstream") |  constructs an `ostrstream` object, optionally allocating the buffer   
-(public member function of `std::ostrstream`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/strstream/dsc_constructor&action=edit)  
+(public member function of `std::ostrstream`)   
 [ (constructor)](../strstream/strstream.html "cpp/io/strstream/strstream") |  constructs a `strstream` object, optionally allocating the buffer   
-(public member function of `std::strstream`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/strstream/dsc_constructor&action=edit)
+(public member function of `std::strstream`) 

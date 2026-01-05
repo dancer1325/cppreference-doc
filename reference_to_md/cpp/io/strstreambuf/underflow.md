@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::strstreambuf`](../strstreambuf.html "cpp/io/strstreambuf")
 
@@ -96,7 +96,7 @@ Protected member functions
 [strstreambuf::seekoff](seekoff.html "cpp/io/strstreambuf/seekoff")  
 [strstreambuf::seekpos](seekpos.html "cpp/io/strstreambuf/seekpos")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/strstreambuf/navbar_content&action=edit)
+
 
 protected:  
 virtual int_type underflow(); |  |  (deprecated in C++98)   
@@ -122,15 +122,15 @@ Otherwise, returns [EOF](../c.html "cpp/io/c") to indicate failure.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/strstreambuf/underflow&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/strstreambuf/underflow&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The next character in the get area, (unsigned char)(*gptr()) on success, [EOF](../c.html "cpp/io/c") on failure. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/strstreambuf/underflow&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -194,16 +194,16 @@ Possible output:
     underflow() returns EOF
     123
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/strstreambuf/underflow&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ underflow](../basic_streambuf/underflow.html "cpp/io/basic streambuf/underflow")[virtual] |  reads characters from the associated input sequence to the get area   
-(virtual protected member function of `std::basic_streambuf<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_streambuf/dsc_underflow&action=edit)  
+(virtual protected member function of `std::basic_streambuf<CharT,Traits>`)   
 ---|---  
 [ underflow](../basic_stringbuf/underflow.html "cpp/io/basic stringbuf/underflow")[virtual] |  returns the next character available in the input sequence   
-(virtual protected member function of `std::basic_stringbuf<CharT,Traits,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_stringbuf/dsc_underflow&action=edit)  
+(virtual protected member function of `std::basic_stringbuf<CharT,Traits,Allocator>`)   
 [ underflow](../basic_filebuf/underflow.html "cpp/io/basic filebuf/underflow")[virtual] |  reads from the associated file   
-(virtual protected member function of `std::basic_filebuf<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_filebuf/dsc_underflow&action=edit)  
+(virtual protected member function of `std::basic_filebuf<CharT,Traits>`)   
 [ sgetc](../basic_streambuf/sgetc.html "cpp/io/basic streambuf/sgetc") |  reads one character from the input sequence without advancing the sequence   
-(public member function of `std::basic_streambuf<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_streambuf/dsc_sgetc&action=edit)  
+(public member function of `std::basic_streambuf<CharT,Traits>`)   
 [ get](../basic_istream/get.html "cpp/io/basic istream/get") |  extracts characters   
-(public member function of `std::basic_istream<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_istream/dsc_get&action=edit)
+(public member function of `std::basic_istream<CharT,Traits>`) 

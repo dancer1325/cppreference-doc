@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_streambuf`](../basic_streambuf.html "cpp/io/basic streambuf")
 
@@ -152,7 +152,7 @@ Put area
 Putback  
 **basic_streambuf::pbackfail**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_streambuf/navbar_content&action=edit)
+
 
 protected:  
 virtual int_type pbackfail( int_type c = Traits::eof() ); |  |   
@@ -186,22 +186,22 @@ The default base class version of this function does nothing and returns Traits:
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_streambuf/pbackfail&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 ch  |  \-  |  character to put back or Traits::eof() if only back out is requested   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_streambuf/pbackfail&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Traits::eof() in case of failure, some other value to indicate success. The base class version always fails. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_streambuf/pbackfail&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_streambuf/pbackfail&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -211,16 +211,16 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 returns false' did not match the description of [sputbackc()](sputbackc.html "cpp/io/basic streambuf/sputbackc") | corrected to match  
 the description   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_streambuf/pbackfail&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ pbackfail](../basic_filebuf/pbackfail.html "cpp/io/basic filebuf/pbackfail")[virtual] |  backs out the input sequence to unget a character, not affecting the associated file   
-(virtual protected member function of `std::basic_filebuf<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_filebuf/dsc_pbackfail&action=edit)  
+(virtual protected member function of `std::basic_filebuf<CharT,Traits>`)   
 ---|---  
 [ pbackfail](../basic_stringbuf/pbackfail.html "cpp/io/basic stringbuf/pbackfail")[virtual] |  puts a character back into the input sequence   
-(virtual protected member function of `std::basic_stringbuf<CharT,Traits,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_stringbuf/dsc_pbackfail&action=edit)  
+(virtual protected member function of `std::basic_stringbuf<CharT,Traits,Allocator>`)   
 [ pbackfail](../strstreambuf/pbackfail.html "cpp/io/strstreambuf/pbackfail")[virtual] |  backs out the input sequence to unget a character   
-(virtual protected member function of `std::strstreambuf`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/strstreambuf/dsc_pbackfail&action=edit)  
+(virtual protected member function of `std::strstreambuf`)   
 [ sungetc](sungetc.html "cpp/io/basic streambuf/sungetc") |  moves the next pointer in the input sequence back by one   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_streambuf/dsc_sungetc&action=edit)  
+(public member function)   
 [ sputbackc](sputbackc.html "cpp/io/basic streambuf/sputbackc") |  puts one character back in the input sequence   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_streambuf/dsc_sputbackc&action=edit)
+(public member function) 

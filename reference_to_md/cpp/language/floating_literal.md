@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Expressions](expressions.html "cpp/language/expressions")
 
@@ -289,7 +289,7 @@ Conversions
 [`dynamic_cast`](dynamic_cast.html "cpp/language/dynamic cast")  
 [`reinterpret_cast`](reinterpret_cast.html "cpp/language/reinterpret cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/expressions/navbar_content&action=edit)
+
 
 Floating-point literal defines a compile-time constant whose value is specified in the source file. 
 
@@ -305,7 +305,7 @@ Floating-point literal defines a compile-time constant whose value is specified 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/floating_literal&action=edit&section=1 "Edit section: Syntax")] Syntax  
+### Syntax  
   
 ---  
 digit-sequence decimal-exponent suffix ﻿(optional) |  (1)  |   
@@ -364,14 +364,14 @@ suffix, if present, is one of `**f**`, `**l**`, `**F**`, `**L**` , `**f16**`, `*
 Optional single quotes (') may be inserted between the digits as a separator; they are ignored when determining the value of the literal.  | (since C++14)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/floating_literal&action=edit&section=2 "Edit section: Explanation")] Explanation
+### Explanation
 
 Decimal scientific notation is used, meaning that the value of the floating-point literal is the significand multiplied by the number 10 raised to the power of decimal-exponent. E.g. the mathematical meaning of 123e4 is _123×10 4_. 
 
 If the floating literal begins with the character sequence `0x` or `0X`, the floating literal is a _hexadecimal floating literal_. Otherwise, it is a _decimal floating literal_. For a _hexadecimal floating literal_ , the significand is interpreted as a hexadecimal rational number, and the digit-sequence of the exponent is interpreted as the (decimal) integer power of 2 by which the significand has to be scaled. double d = 0x1.4p3;`// hex fraction 1.4 (decimal 1.25) scaled by 23, that is 10.0` | (since C++17)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/floating_literal&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 The hexadecimal floating-point literals were not part of C++ until C++17, although they can be parsed and printed by the I/O functions since C++11: both C++ I/O streams when [std::hexfloat](../io/manip/fixed.html "cpp/io/manip/fixed") is enabled and the C I/O streams: [std::printf](../io/c/printf.html "cpp/io/c/fprintf"), [std::scanf](../io/c/scanf.html "cpp/io/c/fscanf"), etc. See [std::strtof](../string/byte/strtof.html "cpp/string/byte/strtof") for the format description. 
 
@@ -379,7 +379,7 @@ Feature-test macro | Value | Std | Feature
 ---|---|---|---  
 [`__cpp_hex_float`](../experimental/feature_test.html#cpp_hex_float "cpp/feature test") | [`201603L`](../compiler_support/17.html#cpp_hex_float_201603L "cpp/compiler support/17") | (C++17) | Hexadecimal floating literals   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/floating_literal&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -442,7 +442,7 @@ Possible output:
     3.4028234e38    340282339999999992395853996843190976512
     3.4028234e38l   340282339999999999995912555211526242304
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/floating_literal&action=edit&section=5 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -504,9 +504,9 @@ Possible output:
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/floating_literal&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
-[ user-defined literals](user_literal.html "cpp/language/user literal")(C++11) |  literals with user-defined suffix[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_user_literal&action=edit)  
+[ user-defined literals](user_literal.html "cpp/language/user literal")(C++11) |  literals with user-defined suffix  
 ---|---  
 [C documentation](../../c/language/floating_constant.html "c/language/floating constant") for Floating constant
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.

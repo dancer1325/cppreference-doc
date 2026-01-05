@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Metaprogramming library](../meta.html "cpp/meta")
 
@@ -167,7 +167,7 @@ Type transformations
 Compile-time integer sequences  
 [integer_sequence](../utility/integer_sequence.html "cpp/utility/integer sequence")(C++14)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/meta/navbar_content&action=edit)
+
 
 Defined in header `[<type_traits>](../header/type_traits.html "cpp/header/type traits")` |  |   
 ---|---|---  
@@ -202,19 +202,19 @@ If the program adds specializations for `std::conjunction` or `std::conjunction_
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/conjunction&action=edit&section=1 "Edit section: Template parameters")] Template parameters
+### Template parameters
 
 B...  |  \-  |  every template argument `Bi` for which Bi::value is instantiated must be usable as a base class and define member `value` that is convertible to bool  
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/conjunction&action=edit&section=2 "Edit section: Helper variable template")] Helper variable template
+### Helper variable template
 
 template< class... B >  
 constexpr bool conjunction_v = conjunction<B...>::value; |  |  (since C++17)  
 ---|---|---  
 | |   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/conjunction&action=edit&section=3 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     template<class...>
@@ -229,7 +229,7 @@ constexpr bool conjunction_v = conjunction<B...>::value; |  |  (since C++17)
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/conjunction&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 A specialization of `conjunction` does not necessarily inherit from either [std::true_type](integral_constant.html) or [std::false_type](integral_constant.html): it simply inherits from the first `B` whose `::value`, explicitly converted to bool, is false, or from the very last `B` when all of them convert to true. For example, std::conjunction<[std::integral_constant](integral_constant.html)<int, 2>, [std::integral_constant](integral_constant.html)<int, 4>>::value is 4. 
 
@@ -239,7 +239,7 @@ The short-circuit instantiation differentiates `conjunction` from [fold expressi
 ---|---|---|---  
 [`__cpp_lib_logical_traits`](../experimental/feature_test.html#cpp_lib_logical_traits "cpp/feature test") | [`201510L`](../compiler_support/17.html#cpp_lib_logical_traits_201510L "cpp/compiler support/17") | (C++17) | [Logical operator type traits](../meta.html#Operations_on_traits "cpp/meta")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/conjunction&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -281,12 +281,12 @@ Output:
     All types in pack are the same.
     Not all types in pack are the same.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/conjunction&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ negation](negation.html "cpp/types/negation")(C++17) |  logical NOT metafunction   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_negation&action=edit)  
+(class template)   
 ---|---  
 [ disjunction](disjunction.html "cpp/types/disjunction")(C++17) |  variadic logical OR metafunction   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_disjunction&action=edit)
+(class template) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

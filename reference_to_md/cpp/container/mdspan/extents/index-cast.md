@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../../container.html "cpp/container")
 
@@ -71,7 +71,7 @@ Tables
 [Member function table](../../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::mdspan`](../../mdspan.html "cpp/container/mdspan")
 
@@ -120,7 +120,7 @@ Tables
 [submdspan_mapping_result](../submdspan_mapping_result.html "cpp/container/mdspan/submdspan mapping result")(C++26)  
 [Deduction guides](../deduction_guides.html "cpp/container/mdspan/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/navbar_content&action=edit)
+
 
 [`std::extents`](../extents.html "cpp/container/mdspan/extents")
 
@@ -142,7 +142,7 @@ Tables
 [extents::operator==](operator==.html "cpp/container/mdspan/extents/operator==")  
 [Deduction guides](deduction_guides.html "cpp/container/mdspan/extents/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/extents/navbar_content&action=edit)
+
 
 template< class OtherIndexType >  
 static constexpr auto /*index-cast*/( OtherIndexType&& i ) noexcept; |  |  (since C++23)   
@@ -159,15 +159,15 @@ It is equivalent to:
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/extents/index-cast&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 i  |  \-  |  the index to be cast   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/extents/index-cast&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Cast index. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/extents/index-cast&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 A call to this function will always return an integral type other than bool. [Integer-class types](../../../iterator/is-integer-like.html#Integer-class_type "cpp/iterator/is-integer-like") can use the static_cast branch without loss of precision because this function's call sites are already constrained on the convertibility of `OtherIndexType` to `index_type`. 

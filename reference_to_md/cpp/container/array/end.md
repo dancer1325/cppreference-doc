@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::array`](../array.html "cpp/container/array")
 
@@ -129,7 +129,7 @@ Tables
 [tuple_element<std::array>](tuple_element.html "cpp/container/array/tuple element")  
 [Deduction guides](deduction_guides.html "cpp/container/array/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/array/navbar_content&action=edit)
+
 
 iterator end() noexcept; |  (1) | (since C++11)   
 (constexpr since C++17)  
@@ -156,15 +156,15 @@ This returned iterator only acts as a sentinel. It is not guaranteed to be [dere
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/end&action=edit&section=T-1 "Template:cpp/container/end")] Return value
+### Return value
 
 Iterator past the last element. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/end&action=edit&section=T-2 "Template:cpp/container/end")] Complexity
+### Complexity
 
 Constant. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/end&action=edit&section=T-4 "Template:cpp/container/end")] Example
+### Example
 
 Run this code
     
@@ -224,10 +224,10 @@ Output:
     4) 1
     5) 1 2 3 4
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/end&action=edit&section=T-5 "Template:cpp/container/end")] See also
+### See also
 
 [ begincbegin](begin.html "cpp/container/array/begin") |  returns an iterator to the beginning   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_begin&action=edit)  
+(public member function)   
 ---|---  
 [ endcend](../../iterator/end.html "cpp/iterator/end")(C++11)(C++14) |  returns an iterator to the end of a container or array   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_end&action=edit)
+(function template) 

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Diagnostics library](../../error.html "cpp/error")
 
@@ -187,7 +187,7 @@ Exception handling failures
 [breakpoint_if_debugging](../../utility/breakpoint_if_debugging.html "cpp/utility/breakpoint if debugging")(C++26)  
 [breakpoint](../../utility/breakpoint.html "cpp/utility/breakpoint")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/navbar_content&action=edit)
+
 
 [`std::error_category`](../error_category.html "cpp/error/error category")
 
@@ -201,7 +201,7 @@ Member functions
 [error_category::message](message.html "cpp/error/error category/message")  
 **error_category::operator== error_category::operator!=error_category::operator<error_category::operator<=>**(until C++20)(until C++20)(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/error_category/navbar_content&action=edit)
+
 
 bool operator==( const error_category& rhs ) const noexcept; |  (1)  |  (since C++11)  
 ---|---|---  
@@ -225,12 +225,12 @@ Compares to another error category.
 The `<`, `<=`, `>`, `>=`, and `!=` operators are [synthesized](../../language/operators.html#Comparison_operators "cpp/language/operators") from operator<=> and operator== respectively.  | (since C++20)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/error_category/operator_cmp&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 rhs  |  \-  |  specifies the `error_category` to compare   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/error_category/operator_cmp&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) true if *this and rhs refer to the same object, false otherwise.
 

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::polymorphic`](../polymorphic.html "cpp/memory/polymorphic")
 
@@ -202,7 +202,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
 [Non-member functions](../polymorphic.html#Non-member_functions "cpp/memory/polymorphic")  
 [swap(std::polymorphic)](swap2.html "cpp/memory/polymorphic/swap2")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/polymorphic/navbar_content&action=edit)
+
 
 constexpr allocator_type get_allocator() const noexcept; |  |  (since C++26)  
 ---|---|---  
@@ -210,11 +210,11 @@ constexpr allocator_type get_allocator() const noexcept; |  |  (since C++26)
   
 Obtains the associated allocator. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/polymorphic/get_allocator&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 `_[alloc](../polymorphic.html#alloc "cpp/memory/polymorphic")_`
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/polymorphic/get_allocator&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::chunk_view`](../../chunk_view.html "cpp/ranges/chunk view")
 
@@ -299,7 +299,7 @@ operator-(chunk_view::_iterator_)](../iterator/operator_arith2.html "cpp/ranges/
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/chunk_view/navbar_content&action=edit)
+
 
 friend constexpr difference_type operator-( [std::default_sentinel_t](../../../iterator/default_sentinel.html) s,  
 const /*outer-iterator*/& i )  
@@ -338,23 +338,23 @@ These functions are not visible to ordinary [unqualified](../../../language/unqu
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/chunk_view/outer_iterator/operator-&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 i  |  \-  |  the [iterator](../outer_iterator.html "cpp/ranges/chunk view/outer iterator")  
 ---|---|---  
 s  |  \-  |  the sentinel   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/chunk_view/outer_iterator/operator-&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The distance between given iterator and sentinel. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/chunk_view/outer_iterator/operator-&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/chunk_view/outer_iterator/operator-&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ operator++](operator_inc.html "cpp/ranges/chunk view/outer iterator/operator inc")(C++23) |  increments the iterator   
 (public member function)  

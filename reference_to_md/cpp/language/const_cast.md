@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Expressions](expressions.html "cpp/language/expressions")
 
@@ -289,7 +289,7 @@ Conversions
 [`dynamic_cast`](dynamic_cast.html "cpp/language/dynamic cast")  
 [`reinterpret_cast`](reinterpret_cast.html "cpp/language/reinterpret cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/expressions/navbar_content&action=edit)
+
 
 Converts between types with different cv-qualification. 
 
@@ -308,14 +308,14 @@ Converts between types with different cv-qualification.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/const_cast&action=edit&section=1 "Edit section: Syntax")] Syntax  
+### Syntax  
   
 ---  
 `**const_cast <**` target-type `**>(**` expression `**)**` |  |   
   
 Returns a value of type target-type. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/const_cast&action=edit&section=2 "Edit section: Explanation")] Explanation
+### Explanation
 
 Only the following conversions can be done with const_cast: 
 
@@ -360,7 +360,7 @@ As with all cast expressions, the result is:
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/const_cast&action=edit&section=3 "Edit section: Casting away constness")] Casting away constness
+### Casting away constness
 
 For two different types `T1` and `T2`, a conversion from `T1` to `T2` _casts away constness_ if there exists a [qualification-decomposition](implicit_cast.html#Similar_types "cpp/language/implicit conversion") of `T2` of the form “cv2_0 P2_0 cv2_1 P2_1 ... cv2_n−1 P2_n−1 cv2_n U2”, and there is no [qualification conversions](implicit_cast.html#Qualification_conversions "cpp/language/implicit conversion") that converts `T1` to “cv2_0 P1_0 cv2_1 P1_1 ... cv2_n−1 P1_n−1 cv2_n U1” (same cv-components, different P-components and U-components). 
 
@@ -370,17 +370,17 @@ Only const_cast may be used to cast away constness.
 
 “Casting away constness” implies “casting away volatility”, as qualification conversions cannot cast away volatility as well. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/const_cast&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 Pointers to functions and pointers to member functions are not subject to const_cast. 
 
 const_cast makes it possible to form a reference or pointer to non-const type that is actually referring to a [const object](cv.html "cpp/language/cv") or a reference or pointer to non-volatile type that is actually referring to a [volatile object](cv.html "cpp/language/cv"). Modifying a const object through a non-const access path and referring to a volatile object through a non-volatile [glvalue](value_category.html#glvalue "cpp/language/value category") results in undefined behavior. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/const_cast&action=edit&section=5 "Edit section: Keywords")] Keywords
+### Keywords
 
 [`const_cast`](../keyword/const_cast.html "cpp/keyword/const cast")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/const_cast&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -428,7 +428,7 @@ Output:
     i = 4
     type::i = 4
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/const_cast&action=edit&section=7 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -437,7 +437,7 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [CWG 1965](https://cplusplus.github.io/CWG/issues/1965.html) | C++11  | const_cast could not bind rvalue references to array prvalues  | allowed to bind such references   
 [CWG 2879](https://cplusplus.github.io/CWG/issues/2879.html) | C++17  | pointer pvalue operands were materialized  | they are not materialized   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/const_cast&action=edit&section=8 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -509,7 +509,7 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/const_cast&action=edit&section=9 "Edit section: See also")] See also
+### See also
 
   * [`static_cast`](static_cast.html "cpp/language/static cast")
   * [`dynamic_cast`](dynamic_cast.html "cpp/language/dynamic cast")

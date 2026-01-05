@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -103,7 +103,7 @@
 [get_leap_second_info](get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::utc_clock`](../utc_clock.html "cpp/chrono/utc clock")
 
@@ -120,7 +120,7 @@ Leap second insertion information
 [leap_second_info](leap_second_info.html "cpp/chrono/utc clock/leap second info")  
 [get_leap_second_info](get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/utc_clock/navbar_content&action=edit)
+
 
 Defined in header `[<chrono>](../../header/chrono.html "cpp/header/chrono")` |  |   
 ---|---|---  
@@ -132,11 +132,11 @@ const [std::chrono::utc_time](../utc_clock.html)<Duration>& tp ); |  |  (since C
   
 Outputs tp into the stream os, as if by os << [std::format](../../utility/format/format.html)(os.getloc(), STATICALLY-WIDEN("{:L%F %T}"), tp), where STATICALLY_WIDEN<CharT>("{:L%F %T}") is "{:L%F %T}" if `CharT` is char, and L"{:L%F %T}" if `CharT` is wchar_t. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/clock_time_ltlt&action=edit&section=T-1 "Template:cpp/chrono/clock time ltlt")] Return value
+### Return value
 
 os
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/clock_time_ltlt&action=edit&section=T-2 "Template:cpp/chrono/clock time ltlt")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -144,10 +144,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [P2372R3](https://wg21.link/P2372R3) | C++20  | the given locale was used by default  | `**L**` is needed to use the given locale   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/clock_time_ltlt&action=edit&section=T-3 "Template:cpp/chrono/clock time ltlt")] See also
+### See also
 
 [ std::formatter<std::chrono::utc_time>](formatter.html "cpp/chrono/utc clock/formatter")(C++20) |  formatting support for `utc_time`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_formatter&action=edit)  
+(class template specialization)   
 ---|---  
 [ format](../../utility/format/format.html "cpp/utility/format/format")(C++20) |  stores formatted representation of the arguments in a new string   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/dsc_format&action=edit)
+(function template) 

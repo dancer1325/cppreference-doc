@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::join_view`](../join_view.html "cpp/ranges/join view")
 
@@ -251,7 +251,7 @@ join_view::_iterator_ ::operator--(int)](iterator/operator_arith.html "cpp/range
 [join_view::_sentinel_ ::_sentinel_](sentinel/sentinel.html "cpp/ranges/join view/sentinel/sentinel")  
 [operator==(join_view::_iterator_ ,join_view::_sentinel_)](sentinel/operator_cmp.html "cpp/ranges/join view/sentinel/operator cmp")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/join_view/navbar_content&action=edit)
+
 
 constexpr auto begin(); |  (1)  |  (since C++20)  
 ---|---|---  
@@ -282,28 +282,28 @@ Returns an [iterator](iterator.html "cpp/ranges/join view/iterator") to the firs
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/join_view/begin&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/join_view/begin&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Iterator to the first element. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/join_view/begin&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 When [ranges::range_reference_t](../range_reference_t.html)<V> is not a reference type, that is, deferencing an iterator of `V` returns a prvalue temporary, the `join_view` is only an [`input_range`](../input_range.html "cpp/ranges/input range"), in which case only single-pass iteration is supported, and repeated calls to `begin()` may not give meaningful results. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/join_view/begin&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/join_view/begin&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ end](end.html "cpp/ranges/join view/end") |  returns an iterator or a sentinel to the end   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/dsc_end&action=edit)  
+(public member function)   
 ---|---  
 [ ranges::begin](../begin.html "cpp/ranges/begin")(C++20) |  returns an iterator to the beginning of a range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_begin&action=edit)
+(customization point object)

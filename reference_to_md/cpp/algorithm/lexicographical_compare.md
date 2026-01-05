@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](ranges/copy.html "cpp/algorithm/ra
 [uninitialized_default_construct_n](../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -355,7 +355,7 @@ Lexicographical comparison is an operation with the following properties:
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/lexicographical_compare&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first1, last1  |  \-  |  the pair of iterators defining the first [range](../iterator.html#Ranges "cpp/iterator") of elements to examine   
 ---|---|---  
@@ -369,11 +369,11 @@ Type requirements
 -`ForwardIt1, ForwardIt2` must meet the requirements of [LegacyForwardIterator](../named_req/ForwardIterator.html "cpp/named req/ForwardIterator").   
 -`Compare` must meet the requirements of [Compare](../named_req/Compare.html "cpp/named req/Compare").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/lexicographical_compare&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 true if the first range is lexicographically _less_ than the second, otherwise false. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/lexicographical_compare&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Given \\(\scriptsize N_1\\)N1 as [std::distance](../iterator/distance.html)(first1, last1) and \\(\scriptsize N_2\\)N2 as [std::distance](../iterator/distance.html)(first2, last2): 
 
@@ -381,7 +381,7 @@ Given \\(\scriptsize N_1\\)N1 as [std::distance](../iterator/distance.html)(firs
 
 3,4) At most \\(\scriptsize 2\min(N_1,N_2)\\)2min(N1,N2) applications of the comparison function comp.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/lexicographical_compare&action=edit&section=4 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 The overloads with a template parameter named `ExecutionPolicy` report errors as follows: 
 
@@ -390,7 +390,7 @@ The overloads with a template parameter named `ExecutionPolicy` report errors as
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/lexicographical_compare&action=edit&section=5 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
 
 [lexicographical_compare (1)](lexicographical_compare.html#Version_1)  
 ---  
@@ -429,7 +429,7 @@ The overloads with a template parameter named `ExecutionPolicy` report errors as
         return (first1 == last1) && (first2 != last2);
     }  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/lexicographical_compare&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -474,7 +474,7 @@ Possible output:
     b d a c >= a d c b 
     a c d b <  c d a b
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/lexicographical_compare&action=edit&section=7 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -484,12 +484,12 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 is not possible (equivalence is determined by 2 comparisons)  | doubled the limit   
 [LWG 1205](https://cplusplus.github.io/LWG/issue1205) | C++98  | the results of lexicographical comparisons involving empty ranges were unclear  | made clear   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/lexicographical_compare&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [ equal](equal.html "cpp/algorithm/equal") |  determines if two sets of elements are the same   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_equal&action=edit)  
+(function template)   
 ---|---  
 [ lexicographical_compare_three_way](lexicographical_compare_three_way.html "cpp/algorithm/lexicographical compare three way")(C++20) |  compares two ranges using three-way comparison   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_lexicographical_compare_three_way&action=edit)  
+(function template)   
 [ ranges::lexicographical_compare](ranges/lexicographical_compare.html "cpp/algorithm/ranges/lexicographical compare")(C++20) |  returns true if one range is lexicographically less than another  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_lexicographical_compare&action=edit)
+(algorithm function object)

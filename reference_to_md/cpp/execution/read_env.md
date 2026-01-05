@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Execution control library](../experimental/execution.html "cpp/execution")
 
@@ -155,7 +155,7 @@ schedule_result_t](schedule.html "cpp/execution/schedule")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/execution/navbar_content&action=edit)
+
 
 Defined in header `[<execution>](../header/execution.html "cpp/header/execution")` |  |   
 ---|---|---  
@@ -173,7 +173,7 @@ For any query object `q`, the expression read_env(q) is [expression-equivalent](
 
 The name `execution::read_env` denotes a _customization point object_ , which is a const [function object](../named_req/FunctionObject.html "cpp/named req/FunctionObject") of a [literal](../named_req/LiteralType.html "cpp/named req/LiteralType") [`semiregular`](../concepts/semiregular.html "cpp/concepts/semiregular") class type. See [CustomizationPointObject](../named_req/CustomizationPointObject.html "cpp/named req/CustomizationPointObject") for details. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/execution/read_env&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
 An example usage of this factory is to schedule dependent work on the receiver's scheduler, which can be obtained with read_env(get_scheduler): 
     

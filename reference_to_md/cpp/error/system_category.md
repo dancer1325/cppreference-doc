@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Diagnostics library](../error.html "cpp/error")
 
@@ -89,7 +89,7 @@ Exception handling failures
 [breakpoint_if_debugging](../utility/breakpoint_if_debugging.html "cpp/utility/breakpoint if debugging")(C++26)  
 [breakpoint](../utility/breakpoint.html "cpp/utility/breakpoint")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/navbar_content&action=edit)
+
 
 Defined in header `[<system_error>](../header/system_error.html "cpp/header/system error")` |  |   
 ---|---|---  
@@ -109,19 +109,19 @@ Obtains a reference to the static error category object for errors reported by t
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/system_category&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/system_category&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 A reference to the static object of unspecified runtime type, derived from [std::error_category](error_category.html "cpp/error/error category"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/system_category&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 On Windows, `system_category()` typically maps some [Windows error codes](https://learn.microsoft.com/en-us/windows/win32/debug/system-error-codes#system-error-codes) to POSIX ones. On POSIX, `system_category()` tends to be equivalent to [std::generic_category()](generic_category.html "cpp/error/generic category") except for the name. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/system_category&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -155,10 +155,10 @@ Possible output:
     Value:    10001
     Message:  Unknown error 10001
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/system_category&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ generic_category](generic_category.html "cpp/error/generic category")(C++11) |  identifies the generic error category   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_generic_category&action=edit)  
+(function)   
 ---|---  
 [ errc](errc.html "cpp/error/errc")(C++11) |  the [std::error_condition](error_condition.html "cpp/error/error condition") enumeration listing all standard [`<cerrno>`](../header/cerrno.html "cpp/header/cerrno") macro constants   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_errc&action=edit)
+(class) 

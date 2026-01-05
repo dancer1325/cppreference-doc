@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_streambuf`](../basic_streambuf.html "cpp/io/basic streambuf")
 
@@ -152,7 +152,7 @@ Put area
 Putback  
 [basic_streambuf::pbackfail](pbackfail.html "cpp/io/basic streambuf/pbackfail")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_streambuf/navbar_content&action=edit)
+
 
 protected:  
 virtual [std::streamsize](../streamsize.html) showmanyc(); |  |   
@@ -173,27 +173,27 @@ Estimates the number of characters available for input in the associated charact
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_streambuf/showmanyc&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_streambuf/showmanyc&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The number of characters that are certainly available in the associated character sequence, or -1 if `showmanyc` can determine, without blocking, that no characters are available. If `showmanyc` returns -1, [underflow()](underflow.html "cpp/io/basic streambuf/underflow") and [uflow()](uflow.html "cpp/io/basic streambuf/uflow") will definitely return Traits::eof or throw. 
 
 The base class version returns ​0​, which has the meaning of "unsure if there are characters available in the associated sequence". 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_streambuf/showmanyc&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 The name of this function stands for "stream: how many characters?", so it is pronounced "S how many C", rather than "show many C". 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_streambuf/showmanyc&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_streambuf/showmanyc&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -203,10 +203,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 at least `showmanyc()` characters are supplied  | extended the guarantee to allow at least  
 `showmanyc()` characters to be extracted   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_streambuf/showmanyc&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ in_avail](in_avail.html "cpp/io/basic streambuf/in avail") |  obtains the number of characters immediately available in the get area   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_streambuf/dsc_in_avail&action=edit)  
+(public member function)   
 ---|---  
 [ showmanyc](../basic_filebuf/showmanyc.html "cpp/io/basic filebuf/showmanyc")[virtual] |  optionally provides the number of characters available for input from the file   
-(virtual protected member function of `std::basic_filebuf<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_filebuf/dsc_showmanyc&action=edit)
+(virtual protected member function of `std::basic_filebuf<CharT,Traits>`) 

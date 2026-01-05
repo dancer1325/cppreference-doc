@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ named requirements](../iterator/concepts.html "cpp/named req")
 
@@ -147,13 +147,13 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/named_req/navbar_content&action=edit)
+
 
 Specifies that a type is a trivial type. 
 
 Note: the standard doesn't define a named requirement with this name. This is a type category defined by the core language. It is included here as a named requirement only for consistency. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/TrivialType&action=edit&section=1 "Edit section: Requirements")] Requirements
+### Requirements
 
 The following types are collectively called _trivial types_ : 
 
@@ -164,12 +164,12 @@ The following types are collectively called _trivial types_ :
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/TrivialType&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 A trivial class may have a private or protected trivial default constructor, in which case an attempt to default-construct such a class object in contexts unrelated to the class makes the program ill-formed. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/TrivialType&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ is_trivial](../types/is_trivial.html "cpp/types/is trivial")(C++11)(deprecated in C++26) |  checks if a type is trivial   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_trivial&action=edit)  
+(class template)   
 ---|---

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [Input/output manipulators](../manip.html "cpp/io/manip")
 
@@ -154,7 +154,7 @@ Time and money I/O
 Quoted manipulator  
 [quoted](quoted.html "cpp/io/manip/quoted")(C++14)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/navbar_content&action=edit)
+
 
 Defined in header `[<iomanip>](../../header/iomanip.html "cpp/header/iomanip")` |  |   
 ---|---|---  
@@ -176,13 +176,13 @@ The insertion operation in out << put_money(mon, intl) behaves as a [FormattedOu
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/put_money&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 mon  |  \-  |  a monetary value, either long double or [std::basic_string](../../string/basic_string.html "cpp/string/basic string")  
 ---|---|---  
 intl  |  \-  |  use international currency strings if true, use currency symbols otherwise   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/put_money&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 An object of unspecified type such that 
 
@@ -209,7 +209,7 @@ where the function f is defined as:
             str.setstate([std::ios_base::badbit](../ios_base/iostate.html));
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/put_money&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -242,10 +242,10 @@ Possible output:
     ru_RU: 1.23 руб or 1.23 RUB 
     ja_JP: ￥123 or JPY  123
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/put_money&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ money_put](../../locale/money_put.html "cpp/locale/money put") |  formats a monetary value for output as a character sequence   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_money_put&action=edit)  
+(class template)   
 ---|---  
 [ get_money](get_money.html "cpp/io/manip/get money")(C++11) |  parses a monetary value   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_get_money&action=edit)
+(function template) 

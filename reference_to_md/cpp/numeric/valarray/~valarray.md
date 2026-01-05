@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [`std::valarray`](../valarray.html "cpp/numeric/valarray")
 
@@ -155,7 +155,7 @@
   
 [Deduction guides](deduction_guides.html "cpp/numeric/valarray/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/navbar_content&action=edit)
+
 
 ~valarray() |  |   
 ---|---|---  
@@ -163,6 +163,6 @@
   
 Destructs the numeric array. The destructors of the elements are called and the used storage is deallocated. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/%7Evalarray&action=edit&section=1 "Edit section: Complexity")] Complexity
+### Complexity
 
 Linear in the size of the numeric array. 

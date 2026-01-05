@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 **`std::ranges::drop_while_view`**
 
@@ -237,7 +237,7 @@ std::from_range](from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
 [drop_while_view::end](drop_while_view/end.html "cpp/ranges/drop while view/end")  
 [Deduction guides](drop_while_view/deduction_guides.html "cpp/ranges/drop while view/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/drop_while_view/navbar_content&action=edit)
+
 
 Defined in header `[<ranges>](../header/ranges.html "cpp/header/ranges")` |  |   
 ---|---|---  
@@ -279,7 +279,7 @@ drop_while_view models the concepts [`contiguous_range`](contiguous_range.html "
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/drop_while_view&action=edit&section=1 "Edit section: Data members")] Data members
+### Data members
 
 Member  |  Description   
 ---|---  
@@ -291,44 +291,44 @@ Member  |  Description
 (present only if `V` satisfies [`forward_range`](forward_range.html "cpp/ranges/forward range")) |  an object that caches the result of [`begin()`](drop_while_view/begin.html "cpp/ranges/drop while view/begin")  
 (exposition-only member object*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/drop_while_view&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](drop_while_view/drop_while_view.html "cpp/ranges/drop while view/drop while view") |  constructs a `drop_while_view`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ base](drop_while_view/base.html "cpp/ranges/drop while view/base") |  returns a copy of the underlying (adapted) view   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/dsc_base&action=edit)  
+(public member function)   
 [ pred](drop_while_view/pred.html "cpp/ranges/drop while view/pred") |  returns a reference to the stored predicate   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/dsc_pred&action=edit)  
+(public member function)   
 [ begin](drop_while_view/begin.html "cpp/ranges/drop while view/begin") |  returns an iterator to the beginning   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/dsc_begin&action=edit)  
+(public member function)   
 [ end](drop_while_view/end.html "cpp/ranges/drop while view/end") |  returns an iterator or a sentinel to the end   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/dsc_end&action=edit)  
+(public member function)   
   
 #####  Inherited from [std::ranges::view_interface](view_interface.html "cpp/ranges/view interface")  
   
 [ empty](view_interface/empty.html "cpp/ranges/view interface/empty") |  returns whether the derived view is empty, provided only if it satisfies [`sized_range`](sized_range.html "cpp/ranges/sized range") or [`forward_range`](forward_range.html "cpp/ranges/forward range")   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_empty&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ cbegin](view_interface/cbegin.html "cpp/ranges/view interface/cbegin")(C++23) |  returns a constant iterator to the beginning of the range   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_cbegin&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ cend](view_interface/cend.html "cpp/ranges/view interface/cend")(C++23) |  returns a sentinel for the constant iterator of the range   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_cend&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ operator bool](view_interface/operator_bool.html "cpp/ranges/view interface/operator bool") |  returns whether the derived view is not empty, provided only if [ranges::empty](empty.html "cpp/ranges/empty") is applicable to it   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_operator_bool&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ data](view_interface/data.html "cpp/ranges/view interface/data") |  gets the address of derived view's data, provided only if its iterator type satisfies [`contiguous_iterator`](../iterator/contiguous_iterator.html "cpp/iterator/contiguous iterator")   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_data&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ size](view_interface/size.html "cpp/ranges/view interface/size") |  returns the number of elements in the derived view. Provided if it satisfies [`forward_range`](forward_range.html "cpp/ranges/forward range") and its sentinel and iterator type satisfy [`sized_sentinel_for`](../iterator/sized_sentinel_for.html "cpp/iterator/sized sentinel for").   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_size&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ front](view_interface/front.html "cpp/ranges/view interface/front") |  returns the first element in the derived view, provided if it satisfies [`forward_range`](forward_range.html "cpp/ranges/forward range")   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_front&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ back](view_interface/back.html "cpp/ranges/view interface/back") |  returns the last element in the derived view, provided only if it satisfies [`bidirectional_range`](bidirectional_range.html "cpp/ranges/bidirectional range") and [`common_range`](common_range.html "cpp/ranges/common range")   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_back&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ operator[]](view_interface/operator_at.html "cpp/ranges/view interface/operator at") |  returns the `n`th element in the derived view, provided only if it satisfies [`random_access_range`](random_access_range.html "cpp/ranges/random access range")   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_operator_at&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/drop_while_view&action=edit&section=3 "Edit section: Deduction guides")] [Deduction guides](drop_while_view/deduction_guides.html "cpp/ranges/drop while view/deduction guides")
+### [Deduction guides](drop_while_view/deduction_guides.html "cpp/ranges/drop while view/deduction guides")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/drop_while_view&action=edit&section=4 "Edit section: Helper templates")] Helper templates
+### Helper templates
 
 template< class T, class Pred >  
 constexpr bool enable_borrowed_range<std::ranges::drop_while_view<T, Pred>> =  
@@ -338,11 +338,11 @@ constexpr bool enable_borrowed_range<std::ranges::drop_while_view<T, Pred>> =
   
 This specialization of std::[ranges::enable_borrowed_range](borrowed_range.html) makes `drop_while_view` satisfy [`borrowed_range`](borrowed_range.html "cpp/ranges/borrowed range") when the underlying view satisfies it. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/drop_while_view&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 In order to provide the amortized constant time complexity required by the [`range`](range.html "cpp/ranges/range") concept, the result of [`begin`](drop_while_view/begin.html "cpp/ranges/drop while view/begin") is cached within the `drop_while_view` object. If the underlying range is modified after the first call to begin(), subsequent uses of the `drop_while_view` object might have unintuitive behavior. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/drop_while_view&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -398,7 +398,7 @@ Output:
     
     3 4 5
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/drop_while_view&action=edit&section=7 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -406,8 +406,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 3494](https://cplusplus.github.io/LWG/issue3494) | C++20  | `drop_while_view` was never a `borrowed_range` | it is a `borrowed_range` if its underlying view is   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/drop_while_view&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [ ranges::drop_viewviews::drop](drop_view.html "cpp/ranges/drop view")(C++20) |  a [`view`](view.html "cpp/ranges/view") consisting of elements of another [`view`](view.html "cpp/ranges/view"), skipping the first N elements  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_drop_view&action=edit)  
+(class template) (range adaptor object)  
 ---|---

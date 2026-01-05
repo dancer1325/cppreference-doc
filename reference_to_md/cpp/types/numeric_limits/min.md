@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Type support](../../utility/rtti.html "cpp/types")
 
@@ -161,7 +161,7 @@ Runtime type information
 ---  
 [bad_cast](../bad_cast.html "cpp/types/bad cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/navbar_content&action=edit)
+
 
 [`std::numeric_limits`](../numeric_limits.html "cpp/types/numeric limits")
 
@@ -204,7 +204,7 @@ Helper types
 [float_round_style](float_round_style.html "cpp/types/numeric limits/float round style")  
 [float_denorm_style](float_denorm_style.html "cpp/types/numeric limits/float denorm style")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/navbar_content&action=edit)
+
 
 Defined in header `[<limits>](../../header/limits.html "cpp/header/limits")` |  |   
 ---|---|---  
@@ -218,7 +218,7 @@ For floating-point types with denormalization, `min()` returns the minimum posit
 
 `min()` is only meaningful for bounded types and for unbounded unsigned types. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/numeric_limits/min&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 `T` |  [std::numeric_limits](../numeric_limits.html)<T>::min()  
 ---|---  
@@ -243,7 +243,7 @@ float |  [FLT_MIN](../climits.html)
 double |  [DBL_MIN](../climits.html)  
 long double |  [LDBL_MIN](../climits.html)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/numeric_limits/min&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Demonstrates the use with typedef types, and the difference in the sign of the result between integer and floating-point types:
 
@@ -308,12 +308,12 @@ Possible output:
             double ( 8 bytes): 2.22507e-308 or 0x1p-1022
        long double (16 bytes): 3.3621e-4932 or 0x8p-16385
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/numeric_limits/min&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ lowest](lowest.html "cpp/types/numeric limits/lowest")[static] (C++11) |  returns the lowest finite value of the given type, i.e. the most negative value for signed types, ​0​ for unsigned types   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/dsc_lowest&action=edit)  
+(public static member function)   
 ---|---  
 [ denorm_min](denorm_min.html "cpp/types/numeric limits/denorm min")[static] |  returns the smallest positive subnormal value of the given floating-point type   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/dsc_denorm_min&action=edit)  
+(public static member function)   
 [ max](max.html "cpp/types/numeric limits/max")[static] |  returns the largest finite value of the given type   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/dsc_max&action=edit)
+(public static member function) 

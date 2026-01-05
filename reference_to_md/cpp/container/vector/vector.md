@@ -1,5 +1,5 @@
 
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/vector/navbar_content&action=edit)
+
 
 | (1) |   
 ---|---|---  
@@ -283,9 +283,9 @@ the container were value-initialized  | they are default-inserted
 ###  See also
 
 [ assign](assign.html "cpp/container/vector/assign") |  assigns values to the container   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_assign&action=edit)  
+(public member function)   
 ---|---  
 [ operator=](operator=.html "cpp/container/vector/operator=") |  assigns values to the container   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_operator%3D&action=edit)
+(public member function) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

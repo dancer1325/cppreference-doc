@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Filesystem library](../filesystem.html "cpp/filesystem")
 
@@ -100,7 +100,7 @@ filesystem::symlink_status](status.html "cpp/filesystem/status")
 [filesystem::is_socket](is_socket.html "cpp/filesystem/is socket")  
 [filesystem::is_symlink](is_symlink.html "cpp/filesystem/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/navbar_content&action=edit)
+
 
 Defined in header `[<filesystem>](../header/filesystem.html "cpp/header/filesystem")` |  |   
 ---|---|---  
@@ -124,17 +124,17 @@ The non-throwing overload returns static_cast<uintmax_t>(-1) on errors.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/hard_link_count&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 p  |  \-  |  path to examine   
 ---|---|---  
 ec  |  \-  |  out-parameter for error reporting in the non-throwing overload   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/hard_link_count&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The number of hard links for p. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/hard_link_count&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Any overload not marked `noexcept` may throw [std::bad_alloc](../memory/new/bad_alloc.html "cpp/memory/new/bad alloc") if memory allocation fails.  
 
@@ -143,7 +143,7 @@ Any overload not marked `noexcept` may throw [std::bad_alloc](../memory/new/bad_
 
 2) Sets a [std::error_code](../error/error_code.html)& parameter to the OS API error code if an OS API call fails, and executes ec.[`clear`](../error/error_code/clear.html "cpp/error/error code/clear")() if no errors occur.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/hard_link_count&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -173,10 +173,10 @@ Possible output:
     Number of hard links for current path is 2
     Number of hard links for .. is 3
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/hard_link_count&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ create_hard_link](create_hard_link.html "cpp/filesystem/create hard link")(C++17) |  creates a hard link   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_create_hard_link&action=edit)  
+(function)   
 ---|---  
 [ hard_link_count](directory_entry/hard_link_count.html "cpp/filesystem/directory entry/hard link count") |  returns the number of hard links referring to the file to which the directory entry refers   
-(public member function of `std::filesystem::directory_entry`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/directory_entry/dsc_hard_link_count&action=edit)
+(public member function of `std::filesystem::directory_entry`) 

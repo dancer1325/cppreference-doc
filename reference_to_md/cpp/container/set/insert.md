@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -71,7 +71,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::set`](../set.html "cpp/container/set")
 
@@ -131,7 +131,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/set/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/set/navbar_content&action=edit)
+
 
 [std::pair](../../utility/pair.html)<iterator, bool> insert( const value_type& value ); |  (1) | (constexpr since C++26)  
 ---|---|---  
@@ -227,7 +227,7 @@ No iterators or references are invalidated. If the insertion is successful, poin
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/set/insert&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 pos  |  \-  |  iterator to the position before which the new element will be inserted   
 ---|---|---  
@@ -239,7 +239,7 @@ x  |  \-  |  a value of any type that can be transparently compared with a key
 Type requirements   
 -`InputIt` must meet the requirements of [LegacyInputIterator](../../named_req/InputIterator.html "cpp/named req/InputIterator").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/set/insert&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1,2) A pair consisting of an iterator to the inserted element (or to the element that prevented the insertion) and a bool value set to true if and only if the insertion took place.
 
@@ -259,11 +259,11 @@ Type requirements
 
 10) An iterator to the inserted element, or to the element that prevented the insertion.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/set/insert&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 If an exception is thrown by any operation during the insertion of a single element, the insertion has no effect. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/set/insert&action=edit&section=4 "Edit section: Complexity")] Complexity
+### Complexity
 
 Given \\(\scriptsize N\\)N as size(): 
 
@@ -281,7 +281,7 @@ Given \\(\scriptsize N\\)N as size():
 
 10) Amortized constant if the insertion happens in the position just before pos, \\(\scriptsize \log(N)\\)log(N) otherwise.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/set/insert&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 The hinted insert (([3,4](insert.html#Version_3)), ([8](insert.html#Version_8)) and ([10](insert.html#Version_10))) does not return a boolean in order to be signature-compatible with positional insert on sequential containers, such as [std::vector::insert](../vector/insert.html "cpp/container/vector/insert"). This makes it possible to create generic inserters such as [std::inserter](../../iterator/inserter.html "cpp/iterator/inserter"). One way to check success of a hinted insert is to compare [`size()`](size.html "cpp/container/set/size") before and after. 
 
@@ -293,7 +293,7 @@ If multiple elements in the range have keys that compare equivalent, it is unspe
 ---|---|---|---  
 [`__cpp_lib_associative_heterogeneous_insertion`](../../experimental/feature_test.html#cpp_lib_associative_heterogeneous_insertion "cpp/feature test") | [`202311L`](../../compiler_support/26.html#cpp_lib_associative_heterogeneous_insertion_202311L "cpp/compiler support/26") | (C++26) | Heterogeneous overloads for the remaining member functions in [ordered](../../container.html#Associative_containers "cpp/container") and [unordered](../../container.html#Unordered_associative_containers "cpp/container") associative containers. ([9,10](insert.html#Version_9))  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/set/insert&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -325,7 +325,7 @@ Output:
     insert done
     no insertion
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/set/insert&action=edit&section=7 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -340,14 +340,14 @@ in this special case
 [LWG 316](https://cplusplus.github.io/LWG/issue316) | C++98  | in the return value of overload ([1](insert.html#Version_1)), it was not specified  
 which bool value indicates a successful insertion  | success is indicated by true  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/set/insert&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [ emplace](emplace.html "cpp/container/set/emplace")(C++11) |  constructs element in-place   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_emplace&action=edit)  
+(public member function)   
 ---|---  
 [ emplace_hint](emplace_hint.html "cpp/container/set/emplace hint")(C++11) |  constructs elements in-place using a hint   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_emplace_hint&action=edit)  
+(public member function)   
 [ inserter](../../iterator/inserter.html "cpp/iterator/inserter") |  creates a [std::insert_iterator](../../iterator/insert_iterator.html "cpp/iterator/insert iterator") of type inferred from the argument   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_inserter&action=edit)
+(function template) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

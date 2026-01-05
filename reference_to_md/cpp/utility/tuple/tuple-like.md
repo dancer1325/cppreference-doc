@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::tuple`](../tuple.html "cpp/utility/tuple")
 
@@ -157,7 +157,7 @@ Common vocabulary types
 [ignore](ignore.html "cpp/utility/tuple/ignore")  
 [Deduction guides](deduction_guides.html "cpp/utility/tuple/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/navbar_content&action=edit)
+
 
 template< class T >  
 concept tuple-like = /* see below */; |  (1) | (since C++23)   
@@ -188,38 +188,38 @@ tuple-like<T> && [std::tuple_size_v](../tuple_size.html)<[std::remove_cvref_t](.
 
 2) `_pair-like_` objects are `_tuple-like_` objects with exactly 2 elements.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/tuple/tuple-like&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 `_tuple-like_` types implement the _tuple protocol_ , i.e., such types can be used with [`std::get`](get.html "cpp/utility/tuple/get"), [`std::tuple_element`](../tuple_element.html "cpp/utility/tuple element") and [`std::tuple_size`](../tuple_size.html "cpp/utility/tuple size"). 
 
 Elements of `_tuple-like_` types can be bound with [structured binding](../../language/structured_binding.html#Case_2:_binding_a_tuple-like_type "cpp/language/structured binding"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/tuple/tuple-like&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 `_tuple-like_` and `_pair-like_` are used in the following standard library components: 
 
 [ (constructor)](tuple.html "cpp/utility/tuple/tuple") |  constructs a new `tuple`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ operator=](operator=.html "cpp/utility/tuple/operator=") |  assigns the contents of one `tuple` to another   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/dsc_operator%3D&action=edit)  
+(public member function)   
 [ operator==operator!=operator<operator<=operator>operator>=operator<=>](operator_cmp.html "cpp/utility/tuple/operator cmp")(removed in C++20)(removed in C++20)(removed in C++20)(removed in C++20)(removed in C++20)(C++20) |  lexicographically compares the values in the tuple   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/dsc_operator_cmp&action=edit)  
+(function template)   
 [ std::basic_common_reference<_tuple-like_ >](basic_common_reference.html "cpp/utility/tuple/basic common reference")(C++23) |  determines the common reference type of a `tuple` and a `_tuple-like_` type   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/dsc_basic_common_reference&action=edit)  
+(class template specialization)   
 [ std::common_type<_tuple-like_ >](common_type.html "cpp/utility/tuple/common type")(C++23) |  determines the common type of a `tuple` and a `_tuple-like_` type   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/dsc_common_type&action=edit)  
+(class template specialization)   
 [ tuple_cat](tuple_cat.html "cpp/utility/tuple/tuple cat")(C++11) |  creates a `tuple` by concatenating any number of tuples   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/dsc_tuple_cat&action=edit)  
+(function template)   
 [ apply](../apply.html "cpp/utility/apply")(C++17) |  calls a function with a tuple of arguments   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_apply&action=edit)  
+(function template)   
 [ make_from_tuple](../make_from_tuple.html "cpp/utility/make from tuple")(C++17) |  construct an object with a tuple of arguments   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_make_from_tuple&action=edit)  
+(function template)   
 [ (constructor)](../pair/pair.html "cpp/utility/pair/pair") |  constructs new `pair`   
-(public member function of `std::pair<T1,T2>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/pair/dsc_constructor&action=edit)  
+(public member function of `std::pair<T1,T2>`)   
 [ operator=](../pair/operator=.html "cpp/utility/pair/operator=") |  assigns the contents   
-(public member function of `std::pair<T1,T2>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/pair/dsc_operator%3D&action=edit)  
+(public member function of `std::pair<T1,T2>`)   
 [ operator PairLike](../../ranges/subrange/operator_PairLike.html "cpp/ranges/subrange/operator PairLike") |  converts the `subrange` to a **`_pair-like_`** type   
-(public member function of `std::ranges::subrange<I,S,K>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/subrange/dsc_operator_PairLike&action=edit)  
+(public member function of `std::ranges::subrange<I,S,K>`)   
 [ ranges::elements_viewviews::elements](../../ranges/elements_view.html "cpp/ranges/elements view")(C++20) |  takes a [`view`](../../ranges/view.html "cpp/ranges/view") consisting of **`_tuple-like_`** values and a number N and produces a [`view`](../../ranges/view.html "cpp/ranges/view") of Nth element of each tuple  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_elements_view&action=edit)
+(class template) (range adaptor object)

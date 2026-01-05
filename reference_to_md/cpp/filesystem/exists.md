@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Filesystem library](../filesystem.html "cpp/filesystem")
 
@@ -100,7 +100,7 @@ filesystem::symlink_status](status.html "cpp/filesystem/status")
 [filesystem::is_socket](is_socket.html "cpp/filesystem/is socket")  
 [filesystem::is_symlink](is_symlink.html "cpp/filesystem/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/navbar_content&action=edit)
+
 
 Defined in header `[<filesystem>](../header/filesystem.html "cpp/header/filesystem")` |  |   
 ---|---|---  
@@ -127,18 +127,18 @@ Checks if the given file status or path corresponds to an existing file or direc
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/exists&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 s  |  \-  |  file status to check   
 ---|---|---  
 p  |  \-  |  path to examine   
 ec  |  \-  |  out-parameter for error reporting in the non-throwing overload   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/exists&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 true if the given path or file status corresponds to an existing file or directory, false otherwise. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/exists&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Any overload not marked `noexcept` may throw [std::bad_alloc](../memory/new/bad_alloc.html "cpp/memory/new/bad alloc") if memory allocation fails.  
 
@@ -149,11 +149,11 @@ Any overload not marked `noexcept` may throw [std::bad_alloc](../memory/new/bad_
 
 No filesystem exception is thrown if object does not exist (use return value). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/exists&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 The information provided by this function is usually also provided as a byproduct of directory iteration. During directory iteration, calling exists(*iterator) is less efficient than exists(iterator->status()). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/exists&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -195,13 +195,13 @@ Output:
     "sandbox/symlink" does not exist
     "sandbox/file" exists
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/exists&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ statussymlink_status](status.html "cpp/filesystem/status")(C++17)(C++17) |  determines file attributes  
 determines file attributes, checking the symlink target   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_status&action=edit)  
+(function)   
 ---|---  
 [ file_status](file_status.html "cpp/filesystem/file status")(C++17) |  represents file type and permissions   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_file_status&action=edit)  
+(class)   
 [ exists](directory_entry/exists.html "cpp/filesystem/directory entry/exists") |  checks whether directory entry refers to existing file system object   
-(public member function of `std::filesystem::directory_entry`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/directory_entry/dsc_exists&action=edit)
+(public member function of `std::filesystem::directory_entry`) 

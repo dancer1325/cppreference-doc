@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Diagnostics library](../error.html "cpp/error")
 
@@ -89,7 +89,7 @@ Exception handling failures
 [breakpoint_if_debugging](../utility/breakpoint_if_debugging.html "cpp/utility/breakpoint if debugging")(C++26)  
 [breakpoint](../utility/breakpoint.html "cpp/utility/breakpoint")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/navbar_content&action=edit)
+
 
 Defined in header `[<exception>](../header/exception.html "cpp/header/exception")` |  |   
 ---|---|---  
@@ -108,9 +108,9 @@ The exception object referenced by an `std::exception_ptr` remains valid as long
 
 `std::exception_ptr` meets the requirements of [NullablePointer](../named_req/NullablePointer.html "cpp/named req/NullablePointer"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/exception_ptr&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/example_exception_ptr&action=edit)
+
 
 Run this code
     
@@ -156,12 +156,12 @@ Possible output:
     
     Caught exception: 'basic_string::at: __n (which is 1) >= this->size() (which is 0)'
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/exception_ptr&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ make_exception_ptr](make_exception_ptr.html "cpp/error/make exception ptr")(C++11) |  creates an **std::exception_ptr** from an exception object   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_make_exception_ptr&action=edit)  
+(function template)   
 ---|---  
 [ current_exception](current_exception.html "cpp/error/current exception")(C++11) |  captures the current exception in a **std::exception_ptr**   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_current_exception&action=edit)  
+(function)   
 [ rethrow_exception](rethrow_exception.html "cpp/error/rethrow exception")(C++11) |  throws the exception from an **std::exception_ptr**   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_rethrow_exception&action=edit)
+(function) 

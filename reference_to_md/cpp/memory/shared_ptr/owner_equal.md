@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -186,7 +186,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::shared_ptr`](../shared_ptr.html "cpp/memory/shared ptr")
 
@@ -222,7 +222,7 @@ Helper classes
 [hash<std::shared_ptr>](hash.html "cpp/memory/shared ptr/hash")  
 [Deduction guides](deduction_guides.html "cpp/memory/shared ptr/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/navbar_content&action=edit)
+
 
 template< class Y >   
 bool owner_equal( const [std::shared_ptr](../shared_ptr.html)<Y>& other ) const noexcept; |  (1)  |  (since C++26)  
@@ -248,31 +248,31 @@ This ordering is used to make shared and weak pointers usable as keys in unorder
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/owner_equal&action=edit&section=T-1 "Template:cpp/memory/owner equal")] Parameters
+### Parameters
 
 other  |  \-  |  the [std::shared_ptr](../shared_ptr.html "cpp/memory/shared ptr") or [std::weak_ptr](../weak_ptr.html "cpp/memory/weak ptr") to be compared   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/owner_equal&action=edit&section=T-2 "Template:cpp/memory/owner equal")] Return value
+### Return value
 
 true if *this and other share ownership or are both empty. Otherwise, returns false. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/owner_equal&action=edit&section=T-3 "Template:cpp/memory/owner equal")] Notes
+### Notes
 
 [Feature-test](../../utility/feature_test.html "cpp/utility/feature test") macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_smart_ptr_owner_equality`](../../experimental/feature_test.html#cpp_lib_smart_ptr_owner_equality "cpp/feature test") | [`202306L`](../../compiler_support/26.html#cpp_lib_smart_ptr_owner_equality_202306L "cpp/compiler support/26") | (C++26) | Enabling the use of `std::shared_ptr` as keys in [unordered associative containers](../../container.html#Unordered_associative_containers "cpp/container")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/owner_equal&action=edit&section=T-4 "Template:cpp/memory/owner equal")] Example
+### Example
 
 | This section is incomplete  
 Reason: example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/owner_equal&action=edit&section=T-5 "Template:cpp/memory/owner equal")] See also
+### See also
 
 [ owner_equal](../owner_equal.html "cpp/memory/owner equal")(C++26) |  provides mixed-type owner-based equal comparisons of shared and weak pointers   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_owner_equal&action=edit)  
+(class)   
 ---|---
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

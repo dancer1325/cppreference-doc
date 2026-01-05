@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::expected`](../expected.html "cpp/utility/expected")
 
@@ -160,7 +160,7 @@ Common vocabulary types
 [bad_expected_access](bad_expected_access.html "cpp/utility/expected/bad expected access")  
 [unexpect_tunexpect](unexpect_t.html "cpp/utility/expected/unexpect t")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/expected/navbar_content&action=edit)
+
 
 friend constexpr void swap( expected& lhs, expected& rhs ) noexcept(/*see below*/); |  |  (since C++23)  
 ---|---|---  
@@ -183,22 +183,22 @@ This function is not visible to ordinary [unqualified](../../language/unqualifie
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/swap2&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 lhs, rhs  |  \-  |  `expected` objects whose states to swap   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/swap2&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/swap2&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 [`noexcept`](../../language/noexcept_spec.html "cpp/language/noexcept spec") specification: 
 
 noexcept(noexcept(lhs.swap(rhs)))
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/swap2&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -253,8 +253,8 @@ Output:
     ex1.error() = 13  ex2.error() = 37  after swap(ex1, ex2):
     ex1.error() = 37  ex2.error() = 13
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/swap2&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ swap](swap.html "cpp/utility/expected/swap") |  exchanges the contents   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/expected/dsc_swap&action=edit)  
+(public member function)   
 ---|---

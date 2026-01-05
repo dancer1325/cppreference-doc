@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [`std::complex`](../complex.html "cpp/numeric/complex")
 
@@ -164,7 +164,7 @@
 [tuple_size<std::complex>](tuple_size.html "cpp/numeric/complex/tuple size")(C++26)  
 [tuple_element<std::complex>](tuple_element.html "cpp/numeric/complex/tuple element")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/navbar_content&action=edit)
+
 
 | (1) |   
 ---|---|---  
@@ -274,12 +274,12 @@ Implements the binary operators for complex arithmetic and for mixed complex/sca
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/operator_arith3&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 lhs, rhs  |  \-  |  the arguments: either both complex numbers or one complex and one scalar of matching type (float, double, long double)   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/operator_arith3&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1-3) [std::complex](../complex.html)<T>(lhs) += rhs
 
@@ -289,13 +289,13 @@ lhs, rhs  |  \-  |  the arguments: either both complex numbers or one complex an
 
 10-12) [std::complex](../complex.html)<T>(lhs) /= rhs
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/operator_arith3&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Because [template argument deduction](../../language/template_argument_deduction.html "cpp/language/template argument deduction") does not consider implicit conversions, these operators cannot be used for mixed integer/complex arithmetic. In all cases, the scalar must have the same type as the underlying type of the complex number. 
 
 The GCC flag "-fcx-limited-range" (included by "-ffast-math") changes the behavior of complex multiply/division by removing checks for floating point edge cases. This impacts loop vectorization. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/operator_arith3&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -325,10 +325,10 @@ Output:
     (0,1) + (2,0) / (0,1) = (0,-1)
     1 / (0,1) = (0,-1)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/operator_arith3&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ operator+=operator-=operator*=operator/=](operator_arith.html "cpp/numeric/complex/operator arith") |  compound assignment of two complex numbers or a complex and a scalar   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_operator_arith&action=edit)  
+(public member function)   
 ---|---  
 [ operator+operator-](operator_arith2.html "cpp/numeric/complex/operator arith2") |  applies unary operators to complex numbers   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_operator_arith2&action=edit)
+(function template) 

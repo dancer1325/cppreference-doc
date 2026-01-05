@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Strings library](../../string.html "cpp/string")
 
@@ -40,7 +40,7 @@ Classes
 [basic_string_view](../basic_string_view.html "cpp/string/basic string view")(C++17)  
 [char_traits](../char_traits.html "cpp/string/char traits")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/navbar_content&action=edit)
+
 
 [`std::basic_string_view`](../basic_string_view.html "cpp/string/basic string view")
 
@@ -92,7 +92,7 @@ Constants
 [hash<std::string_view>hash<std::wstring_view>hash<std::u8string_view>hash<std::u16string_view>hash<std::u32string_view>](hash.html "cpp/string/basic string view/hash")(C++20)  
 [Deduction guides](deduction_guides.html "cpp/string/basic string view/deduction guides") (C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/navbar_content&action=edit)
+
 
 constexpr size_type  
 find_first_not_of( basic_string_view v, size_type pos = 0 ) const noexcept; |  (1)  |  (since C++17)  
@@ -126,7 +126,7 @@ Finds the first character not equal to any of the characters in the given charac
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string_view/find_first_not_of&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 v  |  \-  |  view to search for   
 ---|---|---  
@@ -135,15 +135,15 @@ count  |  \-  |  length of the string of characters to compare
 s  |  \-  |  pointer to a string of characters to compare   
 ch  |  \-  |  character to compare   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string_view/find_first_not_of&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Position of the first character not equal to any of the characters in the given string, or [std::string_view::npos](npos.html "cpp/string/basic string view/npos") if no such character is found. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string_view/find_first_not_of&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 O([size()](size.html "cpp/string/basic string view/size")` * v.`[size()](size.html "cpp/string/basic string view/size")) at worst. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string_view/find_first_not_of&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -163,18 +163,18 @@ Run this code
                         //     ^
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string_view/find_first_not_of&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ find](find.html "cpp/string/basic string view/find") |  find characters in the view   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/dsc_find&action=edit)  
+(public member function)   
 ---|---  
 [ rfind](rfind.html "cpp/string/basic string view/rfind") |  find the last occurrence of a substring   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/dsc_rfind&action=edit)  
+(public member function)   
 [ find_first_of](find_first_of.html "cpp/string/basic string view/find first of") |  find first occurrence of characters   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/dsc_find_first_of&action=edit)  
+(public member function)   
 [ find_last_of](find_last_of.html "cpp/string/basic string view/find last of") |  find last occurrence of characters   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/dsc_find_last_of&action=edit)  
+(public member function)   
 [ find_last_not_of](find_last_not_of.html "cpp/string/basic string view/find last not of") |  find last absence of characters   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/dsc_find_last_not_of&action=edit)  
+(public member function)   
 [ find_first_not_of](../basic_string/find_first_not_of.html "cpp/string/basic string/find first not of") |  find first absence of characters   
-(public member function of `std::basic_string<CharT,Traits,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_find_first_not_of&action=edit)
+(public member function of `std::basic_string<CharT,Traits,Allocator>`) 

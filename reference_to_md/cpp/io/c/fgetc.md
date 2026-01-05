@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [C-style I/O](../c.html "cpp/io/c")
 
@@ -176,7 +176,7 @@ Operations on files
 [tmpfile](tmpfile.html "cpp/io/c/tmpfile")  
 [tmpnam](tmpnam.html "cpp/io/c/tmpnam")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/navbar_content&action=edit)
+
 
 Defined in header `[<cstdio>](../../header/cstdio.html "cpp/header/cstdio")` |  |   
 ---|---|---  
@@ -196,18 +196,18 @@ Reads the next character from the given input stream.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/fgetc&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 stream  |  \-  |  to read the character from   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/fgetc&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The obtained character on success or [EOF](../c.html "cpp/io/c") on failure. 
 
 If the failure has been caused by end of file condition, additionally sets the _eof_ indicator (see [std::feof()](feof.html "cpp/io/c/feof")) on stream. If the failure has been caused by some other error, sets the _error_ indicator (see [std::ferror()](ferror.html "cpp/io/c/ferror")) on stream. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/fgetc&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -246,13 +246,13 @@ Output:
     
     End of file reached successfully
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/fgetc&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ gets](gets.html "cpp/io/c/gets")(deprecated in C++11)(removed in C++14) |  reads a character string from [stdin](std_streams.html "cpp/io/c/std streams")   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_gets&action=edit)  
+(function)   
 ---|---  
 [ fputcputc](fputc.html "cpp/io/c/fputc") |  writes a character to a file stream   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_fputc&action=edit)  
+(function)   
 [ ungetc](ungetc.html "cpp/io/c/ungetc") |  puts a character back into a file stream   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_ungetc&action=edit)  
+(function)   
 [C documentation](../../../c/io/fgetc.html "c/io/fgetc") for fgetc, getc

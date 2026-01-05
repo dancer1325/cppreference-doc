@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Null-terminated byte strings](../byte.html "cpp/string/byte")
 
@@ -143,7 +143,7 @@
 | [strerror](strerror.html "cpp/string/byte/strerror")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/navbar_content&action=edit)
+
 
 Defined in header `[<cstring>](../../header/cstring.html "cpp/header/cstring")` |  |   
 ---|---|---  
@@ -163,24 +163,24 @@ Copies the value static_cast<unsigned char>(ch) into each of the first count cha
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/memset&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 dest  |  \-  |  pointer to the object to fill   
 ---|---|---  
 ch  |  \-  |  fill byte   
 count  |  \-  |  number of bytes to fill   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/memset&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 dest
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/memset&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 `std::memset` may be optimized away (under the [as-if](../../language/as_if.html "cpp/language/as if") rules) if the object modified by this function is not accessed again for the rest of its lifetime (e.g., [gcc bug 8537](https://gcc.gnu.org/bugzilla/show_bug.cgi?id=8537)). For that reason, this function cannot be used to scrub memory (e.g., to fill an array that stored a password with zeroes). 
 
 Solutions for that include [`std::fill`](../../algorithm/fill.html "cpp/algorithm/fill") with volatile pointers, (C23) [`memset_explicit()`](../../../c/string/byte/memset.html "c/string/byte/memset"), (C11) [`memset_s`](../../../c/string/byte/memset.html "c/string/byte/memset"), FreeBSD [explicit_bzero](https://www.freebsd.org/cgi/man.cgi?query=explicit_bzero) or Microsoft [`SecureZeroMemory`](https://msdn.microsoft.com/en-us/library/windows/desktop/aa366877.aspx). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/memset&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -207,19 +207,19 @@ Output:
     00000011000000110000001100000011
     00000011000000110000001100000011
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/memset&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ memcpy](memcpy.html "cpp/string/byte/memcpy") |  copies one buffer to another   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_memcpy&action=edit)  
+(function)   
 ---|---  
 [ memmove](memmove.html "cpp/string/byte/memmove") |  moves one buffer to another   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_memmove&action=edit)  
+(function)   
 [ wmemset](../wide/wmemset.html "cpp/string/wide/wmemset") |  copies the given wide character to every position in a wide character array   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wmemset&action=edit)  
+(function)   
 [ fill](../../algorithm/fill.html "cpp/algorithm/fill") |  copy-assigns the given value to every element in a range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_fill&action=edit)  
+(function template)   
 [ fill_n](../../algorithm/fill_n.html "cpp/algorithm/fill n") |  copy-assigns the given value to N elements in a range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_fill_n&action=edit)  
+(function template)   
 [ is_trivially_copyable](../../types/is_trivially_copyable.html "cpp/types/is trivially copyable")(C++11) |  checks if a type is trivially copyable   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_trivially_copyable&action=edit)  
+(class template)   
 [C documentation](../../../c/string/byte/memset.html "c/string/byte/memset") for memset

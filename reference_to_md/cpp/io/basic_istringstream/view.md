@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -79,7 +79,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_istringstream`](../basic_istringstream.html "cpp/io/basic istringstream")
 
@@ -95,7 +95,7 @@ String operations
 Non-member functions  
 [swap(std::basic_istringstream)](swap2.html "cpp/io/basic istringstream/swap2")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_istringstream/navbar_content&action=edit)
+
 
 [std::basic_string_view](../../string/basic_string_view.html)<CharT, Traits> view() const noexcept; |  |  (since C++20)  
 ---|---|---  
@@ -113,15 +113,15 @@ Obtains a [std::basic_string_view](../../string/basic_string_view.html "cpp/stri
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_stringstream/view&action=edit&section=T-1 "Template:cpp/io/basic stringstream/view")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_stringstream/view&action=edit&section=T-2 "Template:cpp/io/basic stringstream/view")] Return value
+### Return value
 
 A [std::basic_string_view](../../string/basic_string_view.html "cpp/string/basic string view") over the underlying string object. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_stringstream/view&action=edit&section=T-3 "Template:cpp/io/basic stringstream/view")] Example
+### Example
 
 Run this code
     
@@ -156,8 +156,8 @@ Output:
     2) buf2 = [test1]
     3) inbuf = [-42], n = -42
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_stringstream/view&action=edit&section=T-4 "Template:cpp/io/basic stringstream/view")] See also
+### See also
 
 [ view](../basic_stringbuf/view.html "cpp/io/basic stringbuf/view")(C++20) |  obtains a view over the underlying character sequence   
-(public member function of `std::basic_stringbuf<CharT,Traits,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_stringbuf/dsc_view&action=edit)  
+(public member function of `std::basic_stringbuf<CharT,Traits,Allocator>`)   
 ---|---

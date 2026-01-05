@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::tuple`](../tuple.html "cpp/utility/tuple")
 
@@ -157,7 +157,7 @@ Common vocabulary types
 [ignore](ignore.html "cpp/utility/tuple/ignore")  
 [Deduction guides](deduction_guides.html "cpp/utility/tuple/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/navbar_content&action=edit)
+
 
 Defined in header `[<tuple>](../../header/tuple.html "cpp/header/tuple")` |  |   
 ---|---|---  
@@ -177,13 +177,13 @@ Provides compile-time indexed access to the types of the elements of the tuple.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/tuple/tuple_element&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Type  |  Definition   
 ---|---  
 type  |  the type of `I`th element of the tuple, where `I` is in `[`​0​`, `sizeof...(Types)`)`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/tuple/tuple_element&action=edit&section=2 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     template<[std::size_t](../../types/size_t.html) I, class T>
@@ -214,7 +214,7 @@ type  |  the type of `I`th element of the tuple, where `I` is in `[`​0​`, `s
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/tuple/tuple_element&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -272,9 +272,9 @@ Possible output:
       The type at index 0 is: char
       The type at index 1 is: bool&&
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/tuple/tuple_element&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
-[Structured binding](../../language/structured_binding.html "cpp/language/structured binding") (C++17) |  binds the specified names to sub-objects or tuple elements of the initializer[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_structured_binding&action=edit)  
+[Structured binding](../../language/structured_binding.html "cpp/language/structured binding") (C++17) |  binds the specified names to sub-objects or tuple elements of the initializer  
 ---|---  
 [ tuple_element](../tuple_element.html "cpp/utility/tuple element")(C++11) |  obtains the element types of a tuple-like type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_tuple_element&action=edit)
+(class template) 

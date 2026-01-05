@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [`std::complex`](../complex.html "cpp/numeric/complex")
 
@@ -164,7 +164,7 @@
 [tuple_size<std::complex>](tuple_size.html "cpp/numeric/complex/tuple size")(C++26)  
 [tuple_element<std::complex>](tuple_element.html "cpp/numeric/complex/tuple element")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/navbar_content&action=edit)
+
 
 Defined in header `[<complex>](../../header/complex.html "cpp/header/complex")` |  |   
 ---|---|---  
@@ -199,14 +199,14 @@ A,B) Additional overloads are provided for all integer and floating-point types,
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/proj&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 z  |  \-  |  complex value   
 ---|---|---  
 f  |  \-  |  floating-point value   
 i  |  \-  |  integer value   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/proj&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) The projection of z onto the Riemann sphere.
 
@@ -214,7 +214,7 @@ A) The projection of [std::complex](../complex.html)(f) onto the Riemann sphere.
 
 B) The projection of [std::complex](../complex.html)<double>(i) onto the Riemann sphere.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/proj&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 The proj function helps model the Riemann sphere by mapping all infinities to one (give or take the sign of the imaginary zero), and should be used just before any operation, especially comparisons, that might give spurious results for any of the other infinities. 
 
@@ -225,7 +225,7 @@ The additional overloads are not required to be provided exactly as (A,B). They 
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/proj&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -252,13 +252,13 @@ Output:
     proj(inf,-1) = (inf,-0)
     proj(0,-inf) = (inf,-0)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/proj&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ abs(std::complex)](abs.html "cpp/numeric/complex/abs") |  returns the magnitude of a complex number   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_abs&action=edit)  
+(function template)   
 ---|---  
 [ norm](norm.html "cpp/numeric/complex/norm") |  returns the squared magnitude   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_norm&action=edit)  
+(function template)   
 [ polar](polar.html "cpp/numeric/complex/polar") |  constructs a complex number from magnitude and phase angle   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_polar&action=edit)  
+(function template)   
 [C documentation](../../../c/numeric/complex/cproj.html "c/numeric/complex/cproj") for cproj

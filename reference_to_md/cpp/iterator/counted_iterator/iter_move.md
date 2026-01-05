@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](../empty.html "cpp/iterator/empty")(C++17)  
 [data](../data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 [`std::counted_iterator`](../counted_iterator.html "cpp/iterator/counted iterator")
 
@@ -218,7 +218,7 @@
 [Helper classes](../counted_iterator.html#Helper_classes "cpp/iterator/counted iterator")  
 [iterator_traits<std::counted_iterator>](iterator_traits.html "cpp/iterator/counted iterator/iterator traits")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/counted_iterator/navbar_content&action=edit)
+
 
 friend constexpr decltype(auto) iter_move( const [std::counted_iterator](../counted_iterator.html)& i )  
 noexcept(noexcept([ranges::iter_move](../ranges/iter_move.html)(i.base())))  
@@ -246,20 +246,20 @@ If i.count() is equal to ​0​, the behavior is undefined.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/counted_iterator/iter_move&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 i  |  \-  |  a source iterator adaptor   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/counted_iterator/iter_move&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 An rvalue reference or a prvalue temporary. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/counted_iterator/iter_move&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Constant. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/counted_iterator/iter_move&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -301,7 +301,7 @@ Possible output:
     p[3] {"", "", "Charlie"}
     q[2] {"Alpha", "Bravo"}
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/counted_iterator/iter_move&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -309,20 +309,20 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 3953](https://cplusplus.github.io/LWG/issue3953) | C++20  | the return type was [std::iter_rvalue_reference_t](../iter_t.html)<I> | changed to decltype(auto)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/counted_iterator/iter_move&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ iter_move](../ranges/iter_move.html "cpp/iterator/ranges/iter move")(C++20) |  casts the result of dereferencing an object to its associated rvalue reference type  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/ranges/dsc_iter_move&action=edit)  
+(customization point object)  
 ---|---  
 [ iter_swap](iter_swap.html "cpp/iterator/counted iterator/iter swap")(C++20) |  swaps the objects pointed to by two underlying iterators   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_iter_swap&action=edit)  
+(function template)   
 [ move](../../utility/move.html "cpp/utility/move")(C++11) |  converts the argument to an xvalue   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_move&action=edit)  
+(function template)   
 [ move_if_noexcept](../../utility/move_if_noexcept.html "cpp/utility/move if noexcept")(C++11) |  converts the argument to an xvalue if the move constructor does not throw   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_move_if_noexcept&action=edit)  
+(function template)   
 [ forward](../../utility/forward.html "cpp/utility/forward")(C++11) |  forwards a function argument and use the type template argument to preserve its value category   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_forward&action=edit)  
+(function template)   
 [ ranges::move](../../algorithm/ranges/move.html "cpp/algorithm/ranges/move")(C++20) |  moves a range of elements to a new location  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_move&action=edit)  
+(algorithm function object)  
 [ ranges::move_backward](../../algorithm/ranges/move_backward.html "cpp/algorithm/ranges/move backward")(C++20) |  moves a range of elements to a new location in backwards order  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_move_backward&action=edit)
+(algorithm function object)

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Library fundamentals v2](../lib_extensions_2.html "cpp/experimental/lib extensions 2")
 
@@ -74,7 +74,7 @@
 [uniform container erasure](../lib_extensions_2.html#Uniform_container_erasure "cpp/experimental/lib extensions 2")  
 [logical operator type traits](../lib_extensions_2.html#Logical_operator_type_traits "cpp/experimental/lib extensions 2")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions_2/navbar_content&action=edit)
+
 
 [`std::experimental::observer_ptr`](../observer_ptr.html "cpp/experimental/observer ptr")
 
@@ -97,7 +97,7 @@ Non-member functions
 [swap](swap2.html "cpp/experimental/observer ptr/swap2")  
 [std::hash](hash.html "cpp/experimental/observer ptr/hash")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/observer_ptr/navbar_content&action=edit)
+
 
 template< class W1, class W2 >  
 bool operator==( const observer_ptr<W1>& p1, const observer_ptr<W2>& p2 ); |  (1)  |  (library fundamentals TS v2)  
@@ -130,12 +130,12 @@ Compares the pointer values of two `observer_ptr`s, or an `observer_ptr` and nul
 
 7-10) Ordered comparison for two `observer_ptr`s.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/observer_ptr/operator_cmp&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 p, p1, p2  |  \-  |  `observer_ptr`s to compare   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/observer_ptr/operator_cmp&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) p1.get() == p2.get()
 

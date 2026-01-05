@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header was originally in the C standard library as [`<wchar.h>`](../../c/header/wchar.html "c/header/wchar"). 
 
@@ -218,10 +218,10 @@ This header is part of the null-terminated [wide](../string/wide.html "cpp/strin
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/cwchar&action=edit&section=1 "Edit section: Macros")] Macros
+### Macros
 
 [ NULL](../types/NULL.html "cpp/types/NULL") |  implementation-defined null pointer constant   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_NULL&action=edit)  
+(macro constant)   
 ---|---  
 WEOF |  a non-character value of type `std::wint_t` used to indicate errors   
 (macro constant)  
@@ -230,133 +230,133 @@ WCHAR_MIN |  the smallest valid value of wchar_t
 WCHAR_MAX |  the largest valid value of wchar_t   
 (macro constant)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/cwchar&action=edit&section=2 "Edit section: Types")] Types
+### Types
 
 [ mbstate_t](../string/multibyte/mbstate_t.html "cpp/string/multibyte/mbstate t") |  conversion state information necessary to iterate multibyte character strings   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/dsc_mbstate_t&action=edit)  
+(class)   
 ---|---  
 [ size_t](../types/size_t.html "cpp/types/size t") |  unsigned integer type returned by the [`sizeof`](../language/sizeof.html "cpp/language/sizeof") operator   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_size_t&action=edit)  
+(typedef)   
 `**wint_t**` |  integer type that can hold any valid wide character and at least one more value   
 [ tm](../chrono/c/tm.html "cpp/chrono/c/tm") |  calendar time type   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/c/dsc_tm&action=edit)  
+(class)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/cwchar&action=edit&section=3 "Edit section: Functions")] Functions
+### Functions
 
 #####  String manipulation   
   
 ---  
 [ wcscpy](../string/wide/wcscpy.html "cpp/string/wide/wcscpy") |  copies one wide string to another   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wcscpy&action=edit)  
+(function)   
 [ wcsncpy](../string/wide/wcsncpy.html "cpp/string/wide/wcsncpy") |  copies a certain amount of wide characters from one string to another   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wcsncpy&action=edit)  
+(function)   
 [ wcscat](../string/wide/wcscat.html "cpp/string/wide/wcscat") |  appends a copy of one wide string to another   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wcscat&action=edit)  
+(function)   
 [ wcsncat](../string/wide/wcsncat.html "cpp/string/wide/wcsncat") |  appends a certain amount of wide characters from one wide string to another   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wcsncat&action=edit)  
+(function)   
 [ wcsxfrm](../string/wide/wcsxfrm.html "cpp/string/wide/wcsxfrm") |  transform a wide string so that `wcscmp` would produce the same result as `wcscoll`   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wcsxfrm&action=edit)  
+(function)   
   
 #####  String examination   
   
 [ wcslen](../string/wide/wcslen.html "cpp/string/wide/wcslen") |  returns the length of a wide string   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wcslen&action=edit)  
+(function)   
 [ wcscmp](../string/wide/wcscmp.html "cpp/string/wide/wcscmp") |  compares two wide strings   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wcscmp&action=edit)  
+(function)   
 [ wcsncmp](../string/wide/wcsncmp.html "cpp/string/wide/wcsncmp") |  compares a certain amount of characters from two wide strings   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wcsncmp&action=edit)  
+(function)   
 [ wcscoll](../string/wide/wcscoll.html "cpp/string/wide/wcscoll") |  compares two wide strings in accordance to the current locale   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wcscoll&action=edit)  
+(function)   
 [ wcschr](../string/wide/wcschr.html "cpp/string/wide/wcschr") |  finds the first occurrence of a wide character in a wide string   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wcschr&action=edit)  
+(function)   
 [ wcsrchr](../string/wide/wcsrchr.html "cpp/string/wide/wcsrchr") |  finds the last occurrence of a wide character in a wide string   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wcsrchr&action=edit)  
+(function)   
 [ wcsspn](../string/wide/wcsspn.html "cpp/string/wide/wcsspn") |  returns the length of the maximum initial segment that consists  
 of only the wide characters found in another wide string   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wcsspn&action=edit)  
+(function)   
 [ wcscspn](../string/wide/wcscspn.html "cpp/string/wide/wcscspn") |  returns the length of the maximum initial segment that consists  
 of only the wide _not_ found in another wide string   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wcscspn&action=edit)  
+(function)   
 [ wcspbrk](../string/wide/wcspbrk.html "cpp/string/wide/wcspbrk") |  finds the first location of any wide character in one wide string, in another wide string   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wcspbrk&action=edit)  
+(function)   
 [ wcsstr](../string/wide/wcsstr.html "cpp/string/wide/wcsstr") |  finds the first occurrence of a wide string within another wide string   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wcsstr&action=edit)  
+(function)   
 [ wcstok](../string/wide/wcstok.html "cpp/string/wide/wcstok") |  finds the next token in a wide string   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wcstok&action=edit)  
+(function)   
   
 #####  Wide character array manipulation   
   
 [ wmemcpy](../string/wide/wmemcpy.html "cpp/string/wide/wmemcpy") |  copies a certain amount of wide characters between two non-overlapping arrays   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wmemcpy&action=edit)  
+(function)   
 [ wmemmove](../string/wide/wmemmove.html "cpp/string/wide/wmemmove") |  copies a certain amount of wide characters between two, possibly overlapping, arrays   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wmemmove&action=edit)  
+(function)   
 [ wmemcmp](../string/wide/wmemcmp.html "cpp/string/wide/wmemcmp") |  compares a certain amount of wide characters from two arrays   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wmemcmp&action=edit)  
+(function)   
 [ wmemchr](../string/wide/wmemchr.html "cpp/string/wide/wmemchr") |  finds the first occurrence of a wide character in a wide character array   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wmemchr&action=edit)  
+(function)   
 [ wmemset](../string/wide/wmemset.html "cpp/string/wide/wmemset") |  copies the given wide character to every position in a wide character array   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wmemset&action=edit)  
+(function)   
   
 #####  Multibyte/wide character conversion   
   
 [ mbsinit](../string/multibyte/mbsinit.html "cpp/string/multibyte/mbsinit") |  checks if the [std::mbstate_t](../string/multibyte/mbstate_t.html "cpp/string/multibyte/mbstate t") object represents initial shift state   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/dsc_mbsinit&action=edit)  
+(function)   
 [ btowc](../string/multibyte/btowc.html "cpp/string/multibyte/btowc") |  widens a single-byte narrow character to wide character, if possible   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/dsc_btowc&action=edit)  
+(function)   
 [ wctob](../string/multibyte/wctob.html "cpp/string/multibyte/wctob") |  narrows a wide character to a single-byte narrow character, if possible   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/dsc_wctob&action=edit)  
+(function)   
 [ mbrlen](../string/multibyte/mbrlen.html "cpp/string/multibyte/mbrlen") |  returns the number of bytes in the next multibyte character, given state   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/dsc_mbrlen&action=edit)  
+(function)   
 [ mbrtowc](../string/multibyte/mbrtowc.html "cpp/string/multibyte/mbrtowc") |  converts the next multibyte character to wide character, given state   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/dsc_mbrtowc&action=edit)  
+(function)   
 [ wcrtomb](../string/multibyte/wcrtomb.html "cpp/string/multibyte/wcrtomb") |  converts a wide character to its multibyte representation, given state   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/dsc_wcrtomb&action=edit)  
+(function)   
 [ mbsrtowcs](../string/multibyte/mbsrtowcs.html "cpp/string/multibyte/mbsrtowcs") |  converts a narrow multibyte character string to wide string, given state   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/dsc_mbsrtowcs&action=edit)  
+(function)   
 [ wcsrtombs](../string/multibyte/wcsrtombs.html "cpp/string/multibyte/wcsrtombs") |  converts a wide string to narrow multibyte character string, given state   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/dsc_wcsrtombs&action=edit)  
+(function)   
   
 #####  Input/Output   
   
 [ fgetwcgetwc](../io/c/fgetwc.html "cpp/io/c/fgetwc") |  gets a wide character from a file stream   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_fgetwc&action=edit)  
+(function)   
 [ fgetws](../io/c/fgetws.html "cpp/io/c/fgetws") |  gets a wide string from a file stream   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_fgetws&action=edit)  
+(function)   
 [ fputwcputwc](../io/c/fputwc.html "cpp/io/c/fputwc") |  writes a wide character to a file stream   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_fputwc&action=edit)  
+(function)   
 [ fputws](../io/c/fputws.html "cpp/io/c/fputws") |  writes a wide string to a file stream   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_fputws&action=edit)  
+(function)   
 [ getwchar](../io/c/getwchar.html "cpp/io/c/getwchar") |  reads a wide character from [stdin](../io/c/std_streams.html "cpp/io/c/std streams")   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_getwchar&action=edit)  
+(function)   
 [ putwchar](../io/c/putwchar.html "cpp/io/c/putwchar") |  writes a wide character to [stdout](../io/c/std_streams.html "cpp/io/c/std streams")   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_putwchar&action=edit)  
+(function)   
 [ ungetwc](../io/c/ungetwc.html "cpp/io/c/ungetwc") |  puts a wide character back into a file stream   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_ungetwc&action=edit)  
+(function)   
 [ fwide](../io/c/fwide.html "cpp/io/c/fwide") |  switches a file stream between wide character I/O and narrow character I/O   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_fwide&action=edit)  
+(function)   
 [ wscanffwscanfswscanf](../io/c/fwscanf.html "cpp/io/c/fwscanf") |  reads formatted wide character input from [stdin](../io/c/std_streams.html "cpp/io/c/std streams"), a file stream or a buffer   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_fwscanf&action=edit)  
+(function)   
 [ vwscanfvfwscanfvswscanf](../io/c/vfwscanf.html "cpp/io/c/vfwscanf")(C++11)(C++11)(C++11) |  reads formatted wide character input from [stdin](../io/c/std_streams.html "cpp/io/c/std streams"), a file stream  
 or a buffer using variable argument list   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_vfwscanf&action=edit)  
+(function)   
 [ wprintffwprintfswprintf](../io/c/fwprintf.html "cpp/io/c/fwprintf") |  prints formatted wide character output to [stdout](../io/c/std_streams.html "cpp/io/c/std streams"), a file stream or a buffer   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_fwprintf&action=edit)  
+(function)   
 [ vwprintfvfwprintfvswprintf](../io/c/vfwprintf.html "cpp/io/c/vfwprintf") |  prints formatted wide character output to [stdout](../io/c/std_streams.html "cpp/io/c/std streams"), a file stream  
 or a buffer using variable argument list   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_vfwprintf&action=edit)  
+(function)   
   
 #####  String conversions   
   
 [ wcsftime](../chrono/c/wcsftime.html "cpp/chrono/c/wcsftime") |  converts a [std::tm](../chrono/c/tm.html "cpp/chrono/c/tm") object to custom wide string textual representation   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/c/dsc_wcsftime&action=edit)  
+(function)   
 [ wcstolwcstoll](../string/wide/wcstol.html "cpp/string/wide/wcstol") |  converts a wide string to an integer value   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wcstol&action=edit)  
+(function)   
 [ wcstoulwcstoull](../string/wide/wcstoul.html "cpp/string/wide/wcstoul") |  converts a wide string to an unsigned integer value   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wcstoul&action=edit)  
+(function)   
 [ wcstofwcstodwcstold](../string/wide/wcstof.html "cpp/string/wide/wcstof") |  converts a wide string to a floating-point value   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wcstof&action=edit)  
+(function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/cwchar&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
   * [NULL](../types/NULL.html "cpp/types/NULL") is also defined in the following headers: 
     * [`<cstddef>`](cstddef.html "cpp/header/cstddef")
@@ -375,7 +375,7 @@ or a buffer using variable argument list
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/cwchar&action=edit&section=5 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     namespace std {
@@ -458,7 +458,7 @@ or a buffer using variable argument list
     #define WCHAR_MIN /* see description */ // freestanding
     #define WEOF      /* see description */ // freestanding
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/cwchar&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [`std::complex`](../complex.html "cpp/numeric/complex")
 
@@ -164,7 +164,7 @@
 [tuple_size<std::complex>](tuple_size.html "cpp/numeric/complex/tuple size")(C++26)  
 [tuple_element<std::complex>](tuple_element.html "cpp/numeric/complex/tuple element")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/navbar_content&action=edit)
+
 
 Defined in header `[<complex>](../../header/complex.html "cpp/header/complex")` |  |   
 ---|---|---  
@@ -185,18 +185,18 @@ Computes complex sine of a complex value z.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/sin&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 z  |  \-  |  complex value   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/sin&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 If no errors occur, the complex sine of z is returned. 
 
 Errors and special cases are handled as if the operation is implemented by -i *` `[`std::sinh`](sinh.html "cpp/numeric/complex/sinh")(i * z), where `i` is the imaginary unit. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/sin&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 The sine is an entire function on the complex plane, and has no branch cuts. 
 
@@ -207,7 +207,7 @@ Mathematical definition of the sine is sin z = eiz
 2i  
 . 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/sin&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -234,17 +234,17 @@ Output:
     sin(1.000000,0.000000) = (0.841471,0.000000) ( sin(1) = 0.841471)
     sin(0.000000,1.000000) = (0.000000,1.175201) (sinh(1) = 1.175201)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/sin&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ cos(std::complex)](cos.html "cpp/numeric/complex/cos") |  computes cosine of a complex number (\\({\small\cos{z}}\\)cos(z))   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_cos&action=edit)  
+(function template)   
 ---|---  
 [ tan(std::complex)](tan.html "cpp/numeric/complex/tan") |  computes tangent of a complex number (\\({\small\tan{z}}\\)tan(z))   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_tan&action=edit)  
+(function template)   
 [ asin(std::complex)](asin.html "cpp/numeric/complex/asin")(C++11) |  computes arc sine of a complex number (\\({\small\arcsin{z}}\\)arcsin(z))   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_asin&action=edit)  
+(function template)   
 [ sinsinfsinl](../math/sin.html "cpp/numeric/math/sin")(C++11)(C++11) |  computes sine (\\({\small\sin{x}}\\)sin(x))   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_sin&action=edit)  
+(function)   
 [ sin(std::valarray)](../valarray/sin.html "cpp/numeric/valarray/sin") |  applies the function [std::sin](../math/sin.html "cpp/numeric/math/sin") to each element of valarray   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_sin&action=edit)  
+(function template)   
 [C documentation](../../../c/numeric/complex/csin.html "c/numeric/complex/csin") for csin

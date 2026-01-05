@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [`std::complex`](../complex.html "cpp/numeric/complex")
 
@@ -164,7 +164,7 @@
 [tuple_size<std::complex>](tuple_size.html "cpp/numeric/complex/tuple size")(C++26)  
 [tuple_element<std::complex>](tuple_element.html "cpp/numeric/complex/tuple element")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/navbar_content&action=edit)
+
 
 All specializations |  |   
 ---|---|---  
@@ -204,21 +204,21 @@ Assigns new values to the contents.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/operator%3D&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 x  |  \-  |  value to assign   
 ---|---|---  
 cx  |  \-  |  complex value to assign   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/operator%3D&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 *this
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/operator%3D&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 The copy assignment operator is required to be [trivial](../../language/as_operator.html#Trivial_copy_assignment_operator "cpp/language/copy assignment") since C++23, but implementations generally make it trivial in all modes. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/operator%3D&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -226,10 +226,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 3935](https://cplusplus.github.io/LWG/issue3935) | C++98  | the description of overload (2) was missing  | added   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/operator%3D&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ (constructor)](complex.html "cpp/numeric/complex/complex") |  constructs a complex number   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_complex&action=edit)  
+(public member function)   
 ---|---  
 [ operator""ifoperator""ioperator""il](operator""i.html "cpp/numeric/complex/operator""i")(C++14) |  a [std::complex](../complex.html "cpp/numeric/complex") literal representing purely imaginary number   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/dsc_operator%22%22i&action=edit)
+(function) 

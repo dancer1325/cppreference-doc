@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::enumerate_view`](../enumerate_view.html "cpp/ranges/enumerate view")
 
@@ -261,7 +261,7 @@ operator-(enumerate_view::_iterator_)](iterator/operator_arith2.html "cpp/ranges
 [operator==(enumerate_view::_iterator_ ,enumerate_view::_sentinel_)](sentinel/operator_cmp.html "cpp/ranges/enumerate view/sentinel/operator cmp")  
 [operator-(enumerate_view::_iterator_ ,enumerate_view::_sentinel_)](sentinel/operator-.html "cpp/ranges/enumerate view/sentinel/operator-")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/enumerate_view/navbar_content&action=edit)
+
 
 constexpr auto size() requires [ranges::sized_range](../sized_range.html)<V>; |  (1)  |  (since C++23)  
 ---|---|---  
@@ -280,15 +280,15 @@ Returns the number of elements. Equivalent to return [ranges::size](../size.html
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/enumerate_view/size&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/enumerate_view/size&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The number of elements. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/enumerate_view/size&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -313,10 +313,10 @@ Run this code
                                                 // range, but has O(N) complexity here
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/enumerate_view/size&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ ranges::size](../size.html "cpp/ranges/size")(C++20) |  returns an integer equal to the size of a range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_size&action=edit)  
+(customization point object)  
 ---|---  
 [ ranges::ssize](../ssize.html "cpp/ranges/ssize")(C++20) |  returns a signed integer equal to the size of a range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_ssize&action=edit)
+(customization point object)

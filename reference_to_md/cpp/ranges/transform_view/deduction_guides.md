@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::transform_view`](../transform_view.html "cpp/ranges/transform view")
 
@@ -263,7 +263,7 @@ operator-(transform_view::_iterator_)](iterator/operator_arith2.html "cpp/ranges
 [operator==(transform_view::_iterator_ ,transform_view::_sentinel_)](sentinel/operator_cmp.html "cpp/ranges/transform view/sentinel/operator cmp")  
 [operator-(transform_view::_iterator_ ,transform_view::_sentinel_)](sentinel/operator-.html "cpp/ranges/transform view/sentinel/operator-")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/transform_view/navbar_content&action=edit)
+
 
 template< class R, class F >  
 transform_view( R&&, F ) -> transform_view<[views::all_t](../all_view.html)<R>, F>; |  |  (since C++20)  
@@ -272,7 +272,7 @@ transform_view( R&&, F ) -> transform_view<[views::all_t](../all_view.html)<R>, 
   
 The [deduction guide](../../language/ctad.html "cpp/language/class template argument deduction") is provided for [std::ranges::transform_view](../transform_view.html "cpp/ranges/transform view") to allow deduction from [`range`](../range.html "cpp/ranges/range") and transformation function. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/transform_view/deduction_guides&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

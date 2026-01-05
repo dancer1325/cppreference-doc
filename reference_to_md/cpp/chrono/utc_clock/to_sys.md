@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::utc_clock`](../utc_clock.html "cpp/chrono/utc clock")
 
@@ -118,7 +118,7 @@ Leap second insertion information
 [leap_second_info](leap_second_info.html "cpp/chrono/utc clock/leap second info")  
 [get_leap_second_info](get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/utc_clock/navbar_content&action=edit)
+
 
 template< class Duration >  
 static [std::chrono::sys_time](../system_clock.html)<[std::common_type_t](../../types/common_type.html)<Duration, [std::chrono::seconds](../duration.html)>>  
@@ -130,14 +130,14 @@ Converts a `utc_time` t to a `sys_time` representing the same point in time (if 
 
 If t represents a time point during a leap second insertion, the last representable value of `sys_time` prior to the insertion of the leap second is returned. In all other cases, utc_clock::from_sys(utc_clock::to_sys(t)) == t. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/utc_clock/to_sys&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 A `sys_time` representing the same point in time as t, or the last representable value prior to the insertion of the leap second if t represents a time point during a leap second insertion. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/utc_clock/to_sys&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ from_sys](from_sys.html "cpp/chrono/utc clock/from sys")[static] |  converts `sys_time` to `utc_time`   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/utc_clock/dsc_from_sys&action=edit)  
+(public static member function)   
 ---|---  
 [ clock_cast](../clock_cast.html "cpp/chrono/clock cast")(C++20) |  convert time points of one clock to another   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_clock_cast&action=edit)
+(function template) 

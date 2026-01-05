@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Type support](../../utility/rtti.html "cpp/types")
 
@@ -161,7 +161,7 @@ Runtime type information
 ---  
 [bad_cast](../bad_cast.html "cpp/types/bad cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/navbar_content&action=edit)
+
 
 [`std::numeric_limits`](../numeric_limits.html "cpp/types/numeric limits")
 
@@ -204,7 +204,7 @@ Helper types
 [float_round_style](float_round_style.html "cpp/types/numeric limits/float round style")  
 [float_denorm_style](float_denorm_style.html "cpp/types/numeric limits/float denorm style")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/navbar_content&action=edit)
+
 
 static constexpr T lowest() noexcept; |  |  (since C++11)  
 ---|---|---  
@@ -222,7 +222,7 @@ Returns the lowest finite value representable by the numeric type `T`, that is, 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/numeric_limits/lowest&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 `T` |  [std::numeric_limits](../numeric_limits.html)<T>::lowest()  
 ---|---  
@@ -247,11 +247,11 @@ float |  -[FLT_MAX](../climits.html)
 double |  -[DBL_MAX](../climits.html)  
 long double |  -[LDBL_MAX](../climits.html)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/numeric_limits/lowest&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 For every standard C++ floating-point type `T` [std::numeric_limits](../numeric_limits.html)<T>::lowest() == -[std::numeric_limits](../numeric_limits.html)<T>::max(), but this does not necessarily have to be the case for any third-party specialization. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/numeric_limits/lowest&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Demonstrates [min()](min.html "cpp/types/numeric limits/min"), [max()](max.html "cpp/types/numeric limits/max"), and `lowest()` for floating-point types:
 
@@ -307,12 +307,12 @@ Output:
     	double: 1.79769e+308 or 0x1.fffffffffffffp+1023
     	long double: 1.18973e+4932 or 0xf.fffffffffffffffp+16380
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/numeric_limits/lowest&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ min](min.html "cpp/types/numeric limits/min")[static] |  returns the smallest finite value of the given non-floating-point type, or the smallest positive normal value of the given floating-point type   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/dsc_min&action=edit)  
+(public static member function)   
 ---|---  
 [ denorm_min](denorm_min.html "cpp/types/numeric limits/denorm min")[static] |  returns the smallest positive subnormal value of the given floating-point type   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/dsc_denorm_min&action=edit)  
+(public static member function)   
 [ max](max.html "cpp/types/numeric limits/max")[static] |  returns the largest finite value of the given type   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/dsc_max&action=edit)
+(public static member function) 

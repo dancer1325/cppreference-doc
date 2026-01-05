@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::slide_view`](../../slide_view.html "cpp/ranges/slide view")
 
@@ -263,7 +263,7 @@ Non-member functions
 [operator==(slide_view::_iterator_ ,slide_view::_sentinel_)](operator_cmp.html "cpp/ranges/slide view/sentinel/operator cmp")  
 **operator-(slide_view::_iterator_ ,slide_view::_sentinel_)**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/slide_view/navbar_content&action=edit)
+
 
 friend constexpr [ranges::range_difference_t](../../range_size_t.html)<V>  
 operator-( const /*iterator*/<false>& x, const /*sentinel*/& y )  
@@ -286,17 +286,17 @@ Let [`_last_ele__`](../iterator.html#Data_members "cpp/ranges/slide view/iterato
 
 These functions are not visible to ordinary [unqualified](../../../language/unqualified_lookup.html "cpp/language/unqualified lookup") or [qualified lookup](../../../language/qualified_lookup.html "cpp/language/qualified lookup"), and can only be found by [argument-dependent lookup](../../../language/adl.html "cpp/language/adl") when `slide_view::_sentinel_` is an associated class of the arguments. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/slide_view/sentinel/operator-&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 x  |  \-  |  an [iterator](../iterator.html "cpp/ranges/slide view/iterator")  
 ---|---|---  
 y  |  \-  |  a [sentinel](../sentinel.html "cpp/ranges/slide view/sentinel")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/slide_view/sentinel/operator-&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The distance between the iterator and the sentinel. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/slide_view/sentinel/operator-&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

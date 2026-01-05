@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concepts library](../concepts.html "cpp/concepts")
 
@@ -73,7 +73,7 @@
 ---  
 [_boolean-testable_](boolean-testable.html "cpp/concepts/boolean-testable") ﻿(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/navbar_content&action=edit)
+
 
 Defined in header `[<concepts>](../header/concepts.html "cpp/header/concepts")` |  |   
 ---|---|---  
@@ -83,7 +83,7 @@ concept move_constructible = [std::constructible_from](constructible_from.html)<
   
 The concept `move_constructible` is satisfied if `T` is a reference type, or if it is an object type where an object of that type can be constructed from an rvalue of that type in both direct- and copy-initialization contexts, with the usual semantics. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/concepts/move_constructible&action=edit&section=1 "Edit section: Semantic requirements")] Semantic requirements
+### Semantic requirements
 
 If `T` is an object type, then `move_constructible<T>` is modeled only if given 
 
@@ -100,7 +100,7 @@ the following are true:
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/concepts/move_constructible&action=edit&section=2 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -122,8 +122,8 @@ the following are true:
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/concepts/move_constructible&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ is_move_constructibleis_trivially_move_constructibleis_nothrow_move_constructible](../types/is_move_constructible.html "cpp/types/is move constructible")(C++11)(C++11)(C++11) |  checks if a type can be constructed from an rvalue reference   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_move_constructible&action=edit)  
+(class template)   
 ---|---

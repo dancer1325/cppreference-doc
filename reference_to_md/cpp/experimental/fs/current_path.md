@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Filesystem library](../fs.html "cpp/experimental/fs")
 
@@ -124,7 +124,7 @@ File types
 [filesystem::is_socket](is_socket.html "cpp/experimental/fs/is socket")  
 [filesystem::is_symlink](is_symlink.html "cpp/experimental/fs/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/navbar_content&action=edit)
+
 
 Defined in header `[<experimental/filesystem>](../../header/experimental/filesystem.html "cpp/header/experimental/filesystem")` |  |   
 ---|---|---  
@@ -151,19 +151,19 @@ Returns or changes the current path.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/current_path&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 p  |  \-  |  path to change the current working directory to   
 ---|---|---  
 ec  |  \-  |  out-parameter for error reporting in the non-throwing overloads   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/current_path&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1,2) Returns the current working directory.
 
 3,4) (none)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/current_path&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 1,2) The overload that does not take an error_code& parameter throws [filesystem_error](filesystem_error.html "cpp/experimental/fs/filesystem error") on underlying OS API errors, constructed with the OS error code as the error code argument. [std::bad_alloc](../../memory/new/bad_alloc.html) may be thrown if memory allocation fails. The overload taking an error_code& parameter sets it to the OS API error code if an OS API call fails, and executes ec.clear() if no errors occur. This overload has 
 
@@ -177,13 +177,13 @@ noexcept
 
 noexcept
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/current_path&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 The current working directory is the directory that is used as the starting location in path resolution for relative paths. Single current working directory is associated with entire process. 
 
 The current working directory is a dangerous global state of the program. Behavior of various file input/output related functions are affected by the value of the current path. The current path may be unexpectedly changed by any component of the program, including various external libraries or other threads. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/current_path&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 | This section is incomplete   
 ---|---

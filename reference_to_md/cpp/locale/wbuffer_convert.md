@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Localization library](../locale.html "cpp/locale")
 
@@ -152,7 +152,7 @@ base classes](../locale.html#Facet_category_base_classes "cpp/locale")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/navbar_content&action=edit)
+
 
 **`std::wbuffer_convert`**
 
@@ -163,7 +163,7 @@ Member functions
 [wbuffer_convert::rdbuf](wbuffer_convert/rdbuf.html "cpp/locale/wbuffer convert/rdbuf")  
 [wbuffer_convert::state](wbuffer_convert/state.html "cpp/locale/wbuffer convert/state")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/wbuffer_convert/navbar_content&action=edit)
+
 
 Defined in header `[<locale>](../header/locale.html "cpp/header/locale")` |  |   
 ---|---|---  
@@ -192,13 +192,13 @@ This class template makes the implicit character conversion functionality of [st
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/wbuffer_convert&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Type  |  Definition   
 ---|---  
 `state_type` |  Codecvt::state_type  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/wbuffer_convert&action=edit&section=2 "Edit section: Data members")] Data members
+### Data members
 
 Member  |  Description   
 ---|---  
@@ -209,21 +209,21 @@ Codecvt* `_cvtptr_` |  a pointer to the allocated conversion object
 `state_type` `_cvtstate_` |  the conversion state object  
 (exposition-only member object*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/wbuffer_convert&action=edit&section=3 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](wbuffer_convert/wbuffer_convert.html "cpp/locale/wbuffer convert/wbuffer convert") |  constructs a new `wbuffer_convert`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/wbuffer_convert/dsc_wbuffer_convert&action=edit)  
+(public member function)   
 ---|---  
 operator= |  the copy assignment operator is deleted   
 (public member function)  
 [ (destructor)](wbuffer_convert/~wbuffer_convert.html "cpp/locale/wbuffer convert/~wbuffer convert") |  destructs the `wbuffer_convert` and its conversion facet   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/wbuffer_convert/dsc_%7Ewbuffer_convert&action=edit)  
+(public member function)   
 [ rdbuf](wbuffer_convert/rdbuf.html "cpp/locale/wbuffer convert/rdbuf") |  returns or replaces the underlying narrow stream buffer   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/wbuffer_convert/dsc_rdbuf&action=edit)  
+(public member function)   
 [ state](wbuffer_convert/state.html "cpp/locale/wbuffer convert/state") |  returns the current conversion state   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/wbuffer_convert/dsc_state&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/wbuffer_convert&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 Character  
 conversions  | locale-defined multibyte  
@@ -243,9 +243,9 @@ UCS-2 (Windows) |  [`mbsrtowcs`](../string/multibyte/mbsrtowcs.html "cpp/string/
 [`use_facet`](use_facet.html "cpp/locale/use facet")<[`codecvt`](codecvt.html "cpp/locale/codecvt")  
 <wchar_t,char,mbstate_t>>([`locale`](locale.html "cpp/locale/locale"))  | [`codecvt_utf8`](codecvt_utf8.html "cpp/locale/codecvt utf8")<wchar_t> | [`codecvt_utf16`](codecvt_utf16.html "cpp/locale/codecvt utf16")<wchar_t>  
 [ wstring_convert](wstring_convert.html "cpp/locale/wstring convert")(C++11)(deprecated in C++17)(removed in C++26) |  performs conversions between a wide string and a byte string   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_wstring_convert&action=edit)  
+(class template)   
 ---|---  
 [ codecvt_utf8](codecvt_utf8.html "cpp/locale/codecvt utf8")(C++11)(deprecated in C++17)(removed in C++26) |  converts between UTF-8 and UCS-2/UCS-4   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_codecvt_utf8&action=edit)  
+(class template)   
 [ codecvt_utf8_utf16](codecvt_utf8_utf16.html "cpp/locale/codecvt utf8 utf16")(C++11)(deprecated in C++17)(removed in C++26) |  converts between UTF-8 and UTF-16   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_codecvt_utf8_utf16&action=edit)
+(class template) 

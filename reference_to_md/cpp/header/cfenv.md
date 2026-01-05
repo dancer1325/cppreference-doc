@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header was originally in the C standard library as [`<fenv.h>`](../../c/header/fenv.html "c/header/fenv"). 
 
@@ -211,45 +211,45 @@ This header is part of the [floating-point environment](../numeric/fenv.html "cp
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/cfenv&action=edit&section=1 "Edit section: Types")] Types
+### Types
 
 fenv_t(C++11) |  the type representing the entire floating-point environment   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/fenv/dsc_fenv_t&action=edit)  
+(typedef)   
 ---|---  
 fexcept_t(C++11) |  the type representing all floating-point status flags collectively   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/fenv/dsc_fexcept_t&action=edit)  
+(typedef)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/cfenv&action=edit&section=2 "Edit section: Functions")] Functions
+### Functions
 
 [ feclearexcept](../numeric/fenv/feclearexcept.html "cpp/numeric/fenv/feclearexcept")(C++11) |  clears the specified floating-point status flags   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/fenv/dsc_feclearexcept&action=edit)  
+(function)   
 ---|---  
 [ fetestexcept](../numeric/fenv/fetestexcept.html "cpp/numeric/fenv/fetestexcept")(C++11) |  determines which of the specified floating-point status flags are set   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/fenv/dsc_fetestexcept&action=edit)  
+(function)   
 [ feraiseexcept](../numeric/fenv/feraiseexcept.html "cpp/numeric/fenv/feraiseexcept")(C++11) |  raises the specified floating-point exceptions   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/fenv/dsc_feraiseexcept&action=edit)  
+(function)   
 [ fegetexceptflagfesetexceptflag](../numeric/fenv/feexceptflag.html "cpp/numeric/fenv/feexceptflag")(C++11)(C++11) |  copies the state of the specified floating-point status flags from or to the floating-point environment   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/fenv/dsc_feexceptflag&action=edit)  
+(function)   
 [ fegetroundfesetround](../numeric/fenv/feround.html "cpp/numeric/fenv/feround")(C++11)(C++11) |  gets or sets rounding direction   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/fenv/dsc_feround&action=edit)  
+(function)   
 [ fegetenvfesetenv](../numeric/fenv/feenv.html "cpp/numeric/fenv/feenv")(C++11) |  saves or restores the current floating-point environment   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/fenv/dsc_feenv&action=edit)  
+(function)   
 [ feholdexcept](../numeric/fenv/feholdexcept.html "cpp/numeric/fenv/feholdexcept")(C++11) |  saves the environment, clears all status flags and ignores all future errors   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/fenv/dsc_feholdexcept&action=edit)  
+(function)   
 [ feupdateenv](../numeric/fenv/feupdateenv.html "cpp/numeric/fenv/feupdateenv")(C++11) |  restores the floating-point environment and raises the previously raised exceptions   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/fenv/dsc_feupdateenv&action=edit)  
+(function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/cfenv&action=edit&section=3 "Edit section: Macros")] Macros
+### Macros
 
 [ FE_ALL_EXCEPTFE_DIVBYZEROFE_INEXACTFE_INVALIDFE_OVERFLOWFE_UNDERFLOW](../numeric/fenv/FE_exceptions.html "cpp/numeric/fenv/FE exceptions")(C++11) |  floating-point exceptions   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/fenv/dsc_FE_exceptions&action=edit)  
+(macro constant)   
 ---|---  
 [ FE_DOWNWARDFE_TONEARESTFE_TOWARDZEROFE_UPWARD](../numeric/fenv/FE_round.html "cpp/numeric/fenv/FE round")(C++11) |  floating-point rounding direction   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/fenv/dsc_FE_round&action=edit)  
+(macro constant)   
 [ FE_DFL_ENV](../numeric/fenv/FE_DFL_ENV.html "cpp/numeric/fenv/FE DFL ENV")(C++11) |  default floating-point environment   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/fenv/dsc_FE_DFL_ENV&action=edit)  
+(macro constant)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/cfenv&action=edit&section=4 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     #define FE_ALL_EXCEPT /* see description */
@@ -285,7 +285,7 @@ fexcept_t(C++11) |  the type representing all floating-point status flags collec
         int feupdateenv(const fenv_t* penv);
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/cfenv&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

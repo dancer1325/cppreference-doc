@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 template< class T >  
 requires [std::copy_constructible](../concepts/copy_constructible.html)<T> && [std::is_object_v](../types/is_object.html)<T>  
@@ -270,12 +270,12 @@ If `T`
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/copyable_wrapper&action=edit&section=1 "Edit section: Template parameters")] Template parameters
+### Template parameters
 
 T  |  \-  |  the type of the contained value, must be an object type that models [`copy_constructible`](../concepts/copy_constructible.html "cpp/concepts/copy constructible")(until C++23)[`move_constructible`](../concepts/move_constructible.html "cpp/concepts/move constructible")(since C++23)  
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/copyable_wrapper&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 ##  Default constructor
 
@@ -366,28 +366,28 @@ Otherwise, it is identical to [the move assignment operator of `std::optional`](
 ###  Member functions
 
 [ (constructor)](../utility/optional/optional.html "cpp/utility/optional/optional") |  constructs the `optional` object   
-(public member function of `std::optional<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/dsc_constructor&action=edit)  
+(public member function of `std::optional<T>`)   
 ---|---  
 [ (destructor)](../utility/optional/~optional.html "cpp/utility/optional/~optional") |  destroys the contained value, if there is one   
-(public member function of `std::optional<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/dsc_destructor&action=edit)  
+(public member function of `std::optional<T>`)   
 [ operator=](../utility/optional/operator=.html "cpp/utility/optional/operator=") |  assigns contents   
-(public member function of `std::optional<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/dsc_operator%3D&action=edit)  
+(public member function of `std::optional<T>`)   
   
 #####  Observers   
   
 [ operator->operator*](../utility/optional/operator*.html "cpp/utility/optional/operator*") |  accesses the contained value   
-(public member function of `std::optional<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/dsc_operator*&action=edit)  
+(public member function of `std::optional<T>`)   
 [ operator boolhas_value](../utility/optional/operator_bool.html "cpp/utility/optional/operator bool") |  checks whether the object contains a value   
-(public member function of `std::optional<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/dsc_operator_bool&action=edit)  
+(public member function of `std::optional<T>`)   
   
 #####  Modifiers   
   
 [ reset](../utility/optional/reset.html "cpp/utility/optional/reset") |  destroys any contained value   
-(public member function of `std::optional<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/dsc_reset&action=edit)  
+(public member function of `std::optional<T>`)   
 [ emplace](../utility/optional/emplace.html "cpp/utility/optional/emplace") |  constructs the contained value in-place   
-(public member function of `std::optional<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/dsc_emplace&action=edit)  
+(public member function of `std::optional<T>`)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/copyable_wrapper&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 A `_copyable-box_`(until C++23)`_movable-box_`(since C++23) does not contain a value only if 
 
@@ -405,7 +405,7 @@ Before [P2325R3](https://wg21.link/P2325R3), the wrapper was called `_semiregula
 (DR) | Non-[default-initializable](../concepts/default_initializable.html "cpp/concepts/default initializable") [views](view.html "cpp/ranges/view")  
 [`202207L`](../compiler_support/23.html#cpp_lib_ranges_202207L "cpp/compiler support/23") | (C++23) | Relaxing [range adaptors](../ranges.html#Range_adaptors "cpp/ranges") to allow for move-only types   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/copyable_wrapper&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -416,24 +416,24 @@ constructs a wrapper which does not contain a value  | the wrapper is also
 not [`default_initializable`](../concepts/default_initializable.html "cpp/concepts/default initializable")  
 [LWG 3572](https://cplusplus.github.io/LWG/issue3572) | C++20  | conditionally different assignment operators were not constexpr  | made constexpr   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/copyable_wrapper&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ ranges::single_viewviews::single](single_view.html "cpp/ranges/single view")(C++20) |  a [`view`](view.html "cpp/ranges/view") that contains a single element of a specified value  
-(class template) (customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_single_view&action=edit)  
+(class template) (customization point object)  
 ---|---  
 [ ranges::repeat_viewviews::repeat](repeat_view.html "cpp/ranges/repeat view")(C++23) |  a [`view`](view.html "cpp/ranges/view") consisting of a generated sequence by repeatedly producing the same value  
-(class template) (customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_repeat_view&action=edit)  
+(class template) (customization point object)  
 [ ranges::filter_viewviews::filter](filter_view.html "cpp/ranges/filter view")(C++20) |  a [`view`](view.html "cpp/ranges/view") that consists of the elements of a [`range`](range.html "cpp/ranges/range") that satisfies a predicate  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_filter_view&action=edit)  
+(class template) (range adaptor object)  
 [ ranges::transform_viewviews::transform](transform_view.html "cpp/ranges/transform view")(C++20) |  a [`view`](view.html "cpp/ranges/view") of a sequence that applies a transformation function to each element  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_transform_view&action=edit)  
+(class template) (range adaptor object)  
 [ ranges::take_while_viewviews::take_while](take_while_view.html "cpp/ranges/take while view")(C++20) |  a [`view`](view.html "cpp/ranges/view") consisting of the initial elements of another [`view`](view.html "cpp/ranges/view"), until the first element on which a predicate returns false  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_take_while_view&action=edit)  
+(class template) (range adaptor object)  
 [ ranges::drop_while_viewviews::drop_while](drop_while_view.html "cpp/ranges/drop while view")(C++20) |  a [`view`](view.html "cpp/ranges/view") consisting of the elements of another [`view`](view.html "cpp/ranges/view"), skipping the initial subsequence of elements until the first element where the predicate returns false  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_drop_while_view&action=edit)  
+(class template) (range adaptor object)  
 [ ranges::zip_transform_viewviews::zip_transform](zip_transform_view.html "cpp/ranges/zip transform view")(C++23) |  a [`view`](view.html "cpp/ranges/view") consisting of results of application of a transformation function to corresponding elements of the adapted views  
-(class template) (customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_zip_transform_view&action=edit)  
+(class template) (customization point object)  
 [ ranges::adjacent_transform_viewviews::adjacent_transform](adjacent_transform_view.html "cpp/ranges/adjacent transform view")(C++23) |  a [`view`](view.html "cpp/ranges/view") consisting of results of application of a transformation function to adjacent elements of the adapted view  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_adjacent_transform_view&action=edit)
+(class template) (range adaptor object)
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

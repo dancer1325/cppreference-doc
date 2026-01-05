@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](copy.html "cpp/algorithm/ranges/co
 [uninitialized_default_construct_n](../../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 [Constrained algorithms](../ranges.html "cpp/algorithm/ranges")
 
@@ -550,7 +550,7 @@ All names in this menu belong to namespace `std::ranges`
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -596,7 +596,7 @@ The function-like entities described on this page are [_algorithm function objec
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/next_permutation&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  the iterator-sentinel pair defining the [range](../../iterator.html#Ranges "cpp/iterator") of elements to _permute_  
 ---|---|---  
@@ -604,25 +604,25 @@ r  |  \-  |  the [`range`](../../ranges/range.html "cpp/ranges/range") of elemen
 comp  |  \-  |  comparison [FunctionObject](../../named_req/FunctionObject.html "cpp/named req/FunctionObject") which returns true if the first argument is _less_ than the second   
 proj  |  \-  |  projection to apply to the elements   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/next_permutation&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) ranges::next_permutation_result<I>{last, true} if the new permutation is lexicographically _greater_ than the old one. ranges::next_permutation_result<I>{last, false} if the last permutation was reached and the range was reset to the first permutation.
 
 2) Same as (1) except that the return type is ranges::next_permutation_result<[ranges::borrowed_iterator_t](../../ranges/borrowed_iterator_t.html)<R>>.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/next_permutation&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Any exceptions thrown from iterator operations or the element swap. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/next_permutation&action=edit&section=4 "Edit section: Complexity")] Complexity
+### Complexity
 
 At most \\(\scriptsize N/2\\)N / 2 swaps, where \\(\scriptsize N\\)N is [ranges::distance](../../iterator/ranges/distance.html)(first, last) in case (1) or [ranges::distance](../../iterator/ranges/distance.html)(r) in case (2). Averaged over the entire sequence of permutations, typical implementations use about 3 comparisons and 1.5 swaps per call. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/next_permutation&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 Implementations (e.g. [MSVC STL](https://github.com/microsoft/STL/blob/main/stl/src/vector_algorithms.cpp)) may enable vectorization when the iterator type models [`contiguous_iterator`](../../iterator/contiguous_iterator.html "cpp/iterator/contiguous iterator") and swapping its value type calls neither non-trivial special member function nor [ADL](../../language/adl.html "cpp/language/adl")-found `swap`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/next_permutation&action=edit&section=6 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     struct next_permutation_fn
@@ -677,7 +677,7 @@ Implementations (e.g. [MSVC STL](https://github.com/microsoft/STL/blob/main/stl/
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/next_permutation&action=edit&section=7 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -761,16 +761,16 @@ Output:
     { {'C', 1} {'A', 3} {'B', 2} }
     { {'C', 1} {'B', 2} {'A', 3} }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/next_permutation&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [ ranges::prev_permutation](prev_permutation.html "cpp/algorithm/ranges/prev permutation")(C++20) |  generates the next smaller lexicographic permutation of a range of elements  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_prev_permutation&action=edit)  
+(algorithm function object)  
 ---|---  
 [ ranges::is_permutation](is_permutation.html "cpp/algorithm/ranges/is permutation")(C++20) |  determines if a sequence is a permutation of another sequence  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_is_permutation&action=edit)  
+(algorithm function object)  
 [ next_permutation](../next_permutation.html "cpp/algorithm/next permutation") |  generates the next greater lexicographic permutation of a range of elements   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_next_permutation&action=edit)  
+(function template)   
 [ prev_permutation](../prev_permutation.html "cpp/algorithm/prev permutation") |  generates the next smaller lexicographic permutation of a range of elements   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_prev_permutation&action=edit)  
+(function template)   
 [ is_permutation](../is_permutation.html "cpp/algorithm/is permutation")(C++11) |  determines if a sequence is a permutation of another sequence   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_is_permutation&action=edit)
+(function template) 

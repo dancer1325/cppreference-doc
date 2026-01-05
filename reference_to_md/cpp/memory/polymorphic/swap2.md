@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::polymorphic`](../polymorphic.html "cpp/memory/polymorphic")
 
@@ -202,7 +202,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
 [Non-member functions](../polymorphic.html#Non-member_functions "cpp/memory/polymorphic")  
 **swap(std::polymorphic)**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/polymorphic/navbar_content&action=edit)
+
 
 Defined in header `[<memory>](../../header/memory.html "cpp/header/memory")` |  |   
 ---|---|---  
@@ -212,19 +212,19 @@ noexcept(noexcept(lhs.swap(rhs))); |  |  (since C++26)
   
 Overloads the [std::swap](../../utility/swap.html "cpp/algorithm/swap") algorithm for std::polymorphic. Exchanges the state of lhs with that of rhs. Effectively calls lhs.swap(rhs). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/polymorphic/swap2&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 lhs, rhs  |  \-  |  `polymorphic` objects whose states to swap   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/polymorphic/swap2&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/polymorphic/swap2&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ swap](swap.html "cpp/memory/polymorphic/swap") |  exchanges the contents   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/polymorphic/dsc_swap&action=edit)  
+(public member function)   
 ---|---

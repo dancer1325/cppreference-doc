@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Regular expressions library](../../regex.html "cpp/regex")
 
@@ -81,7 +81,7 @@ Constants
 Regex Grammar  
 [Modified ECMAScript-262](../ecmascript.html "cpp/regex/ecmascript")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/navbar_content&action=edit)
+
 
 [`std::regex_traits`](../regex_traits.html "cpp/regex/regex traits")
 
@@ -100,7 +100,7 @@ Member functions
 [regex_traits::imbue](imbue.html "cpp/regex/regex traits/imbue")  
 [regex_traits::getloc](getloc.html "cpp/regex/regex traits/getloc")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/regex_traits/navbar_content&action=edit)
+
 
 template< class ForwardIt >  
 char_class_type lookup_classname( ForwardIt first,  
@@ -149,7 +149,7 @@ Additional classifications such as "jdigit" or "jkanji" may be provided by syste
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/regex_traits/lookup_classname&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  a pair of iterators which determines the sequence of characters that represents a name of a character class   
 ---|---|---  
@@ -157,11 +157,11 @@ icase  |  \-  |  if true, ignores the upper/lower case distinction in the charac
 Type requirements   
 -`ForwardIt` must meet the requirements of [LegacyForwardIterator](../../named_req/ForwardIterator.html "cpp/named req/ForwardIterator").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/regex_traits/lookup_classname&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The bitmask representing the character classification determined by the given character class, or char_class_type() if the class is unknown. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/regex_traits/lookup_classname&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Demonstrates a custom regex traits implementation of `lookup_classname()` / [`isctype()`](isctype.html "cpp/regex/regex traits/isctype"):
 
@@ -213,10 +213,10 @@ Output:
     alnums: 風の谷のナウシカ
     katakana: ナウシカ
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/regex_traits/lookup_classname&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ isctype](isctype.html "cpp/regex/regex traits/isctype") |  indicates membership in a character class   
 (public member function)  
 ---|---  
 [ wctype](../../string/wide/wctype.html "cpp/string/wide/wctype") |  looks up a character classification category in the current C locale   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wctype&action=edit)
+(function) 

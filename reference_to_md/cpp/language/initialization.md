@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 **Initialization**
 
@@ -244,7 +244,7 @@ Miscellaneous
 [Member initializer list](initializer_list.html "cpp/language/initializer list")  
 [Default member initializer](data_members.html#Member_initialization "cpp/language/data members") (C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/initialization/navbar_content&action=edit)
+
 
 _Initialization_ of a variable provides its initial value at the time of construction. 
 
@@ -268,7 +268,7 @@ The initial value may be provided in the initializer section of a [declarator](d
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/initialization&action=edit&section=1 "Edit section: Initializers")] Initializers
+### Initializers
 
 For each declarator, the _initializer_ (if exists) may be one of the following:   
   
@@ -313,7 +313,7 @@ expression |  (1)  |
   
 Syntaxes (2-4) are collectively called _brace-enclosed initializer list_. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/initialization&action=edit&section=2 "Edit section: Initializer semantics")] Initializer semantics
+#### Initializer semantics
 
 If no initializer is specified for an object, the object is [default-initialized](default_initialization.html "cpp/language/default initialization"). If no initializer is specified for a [reference](reference.html "cpp/language/reference"), the program is ill-formed. 
 
@@ -376,11 +376,11 @@ The semantics of initializers are as follows:
                             // (part of list initialization since C++11)
     char& c = a[0];         // reference initialization
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/initialization&action=edit&section=3 "Edit section: Non-local variables")] Non-local variables
+### Non-local variables
 
 All non-local variables with static [storage duration](storage_duration.html "cpp/language/storage duration") are initialized as part of program startup, before the execution of the [main function](main_function.html "cpp/language/main function") begins (unless deferred, see below). All non-local variables with thread-local storage duration are initialized as part of thread launch, sequenced-before the execution of the thread function begins. For both of these classes of variables, initialization occurs in two distinct stages: 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/initialization&action=edit&section=4 "Edit section: Static initialization")] Static initialization
+#### Static initialization
 
 There are two forms of static initialization: 
 
@@ -395,7 +395,7 @@ In practice:
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/initialization&action=edit&section=5 "Edit section: Dynamic initialization")] Dynamic initialization
+#### Dynamic initialization
 
 After all static initialization is completed, dynamic initialization of non-local variables occurs in the following situations: 
 
@@ -408,7 +408,7 @@ After all static initialization is completed, dynamic initialization of non-loca
 
 If the initialization of a non-local variable with static or thread storage duration exits via an exception, [std::terminate](../error/terminate.html "cpp/error/terminate") is called. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/initialization&action=edit&section=6 "Edit section: Early dynamic initialization")] Early dynamic initialization
+#### Early dynamic initialization
 
 The compilers are allowed to initialize dynamically-initialized variables as part of static initialization (essentially, at compile time), if the following conditions are both true: 
 
@@ -431,7 +431,7 @@ Because of the rule above, if initialization of some object `o1` refers to a nam
      
     double d1 = fd(); // may be initialized statically or dynamically to 1.0
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/initialization&action=edit&section=7 "Edit section: Deferred dynamic initialization")] Deferred dynamic initialization
+#### Deferred dynamic initialization
 
 It is implementation-defined whether dynamic initialization happens-before the first statement of the main function (for statics) or the initial function of the thread (for thread-locals), or deferred to happen after. 
 
@@ -480,21 +480,21 @@ If the initialization of an inline variable is deferred, it happens before the f
     // a function defined in File 1, forcing its dynamic initialization to run),
     // then b will be initialized prior to its use in A::A
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/initialization&action=edit&section=8 "Edit section: Static local variables")] Static local variables
+### Static local variables
 
 For initialization of local (that is, block scope) static and thread-local variables, see [static block variables](storage_duration.html#Static_block_variables "cpp/language/storage duration"). 
 
 Initializer is not allowed in a block-scope declaration of a variable with [external or internal linkage](storage_duration.html#Linkage "cpp/language/storage duration"). Such a declaration must appear with extern and cannot be a definition. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/initialization&action=edit&section=9 "Edit section: Class members")] Class members
+### Class members
 
 Non-static data members can be initialized with [member initializer list](initializer_list.html "cpp/language/initializer list") or with a [default member initializer](data_members.html#Member_initialization "cpp/language/data members"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/initialization&action=edit&section=10 "Edit section: Notes")] Notes
+### Notes
 
 The order of destruction of non-local variables is described in [std::exit](../utility/program/exit.html "cpp/utility/program/exit"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/initialization&action=edit&section=11 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -512,7 +512,7 @@ allowed in such declarations)
 [CWG 2599](https://cplusplus.github.io/CWG/issues/2599.html) | C++98  | it was unclear whether evaluating function  
 arguments in the initializer is part of initialization  | it is part of initialization   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/initialization&action=edit&section=12 "Edit section: See also")] See also
+### See also
 
   * [copy elision](copy_elision.html "cpp/language/copy elision")
   * [converting constructor](converting_constructor.html "cpp/language/converting constructor")

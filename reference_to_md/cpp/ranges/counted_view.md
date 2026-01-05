@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 Defined in header `[<ranges>](../header/ranges.html "cpp/header/ranges")` |  |   
 ---|---|---  
@@ -267,11 +267,11 @@ Formally, if it and count are expressions, `T` is [std::decay_t](../types/decay.
 
 The name `views::counted` denotes a _customization point object_ , which is a const [function object](../named_req/FunctionObject.html "cpp/named req/FunctionObject") of a [literal](../named_req/LiteralType.html "cpp/named req/LiteralType") [`semiregular`](../concepts/semiregular.html "cpp/concepts/semiregular") class type. See [CustomizationPointObject](../named_req/CustomizationPointObject.html "cpp/named req/CustomizationPointObject") for details. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/view_counted&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 [`views::counted`](counted_view.html#top) does not check if the range is long enough to provide all count elements: use [views::take](take_view.html) if that check is necessary. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/view_counted&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -298,7 +298,7 @@ Output:
     1 2 3
     2 3 4
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/view_counted&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -306,14 +306,14 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [P2393R1](https://wg21.link/P2393R1) | C++20  | implicit conversion from an integer-class type to [std::size_t](../types/size_t.html) might be invalid  | made explicit   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/view_counted&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ ranges::take_viewviews::take](take_view.html "cpp/ranges/take view")(C++20) |  a [`view`](view.html "cpp/ranges/view") consisting of the first N elements of another [`view`](view.html "cpp/ranges/view")  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_take_view&action=edit)  
+(class template) (range adaptor object)  
 ---|---  
 [ ranges::subrange](subrange.html "cpp/ranges/subrange")(C++20) |  combines an iterator-sentinel pair into a [`view`](view.html "cpp/ranges/view")   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_subrange&action=edit)  
+(class template)   
 [ counted_iterator](../iterator/counted_iterator.html "cpp/iterator/counted iterator")(C++20) |  iterator adaptor that tracks the distance to the end of the range   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_counted_iterator&action=edit)  
+(class template)   
 [ ranges::countranges::count_if](../algorithm/ranges/count.html "cpp/algorithm/ranges/count")(C++20)(C++20) |  returns the number of elements satisfying specific criteria  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_count&action=edit)
+(algorithm function object)

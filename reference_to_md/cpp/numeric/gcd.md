@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 Defined in header `[<numeric>](../header/numeric.html "cpp/header/numeric")` |  |   
 ---|---|---  
@@ -113,26 +113,26 @@ If either |m| or |n| is not representable as a value of type [std::common_type_t
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/gcd&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 m, n  |  \-  |  integer values   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/gcd&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 If both m and n are zero, returns zero. Otherwise, returns the greatest common divisor of |m| and |n|. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/gcd&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Throws no exceptions. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/gcd&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../utility/feature_test.html "cpp/utility/feature test") macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_gcd_lcm`](../experimental/feature_test.html#cpp_lib_gcd_lcm "cpp/feature test") | [`201606L`](../compiler_support/17.html#cpp_lib_gcd_lcm_201606L "cpp/compiler support/17") | (C++17) | `std::gcd`, [std::lcm](lcm.html "cpp/numeric/lcm")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/gcd&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -153,10 +153,10 @@ Run this code
         static_assert(std::gcd(-24, 0) == 24);
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/gcd&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ lcm](lcm.html "cpp/numeric/lcm")(C++17) |  computes the least common multiple of two integers   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/dsc_lcm&action=edit)  
+(function template)   
 ---|---
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

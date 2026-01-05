@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::unique_ptr`](../unique_ptr.html "cpp/memory/unique ptr")
 
@@ -211,7 +211,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
 [Helper classes](../unique_ptr.html#Helper_classes "cpp/memory/unique ptr")  
 [hash<std::unique_ptr>](hash.html "cpp/memory/unique ptr/hash")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/unique_ptr/navbar_content&action=edit)
+
 
 Defined in header `[<memory>](../../header/memory.html "cpp/header/memory")` |  |   
 ---|---|---  
@@ -299,12 +299,12 @@ The `!=` operator is [synthesized](../../language/default_comparisons.html#Other
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/unique_ptr/operator_cmp&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 x, y  |  \-  |  `unique_ptr`s to compare   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/unique_ptr/operator_cmp&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) x.get() == y.get()
 
@@ -342,7 +342,7 @@ x, y  |  \-  |  `unique_ptr`s to compare
 
 20) [std::compare_three_way](../../utility/compare/compare_three_way.html){}(x.get(), static_cast<typename unique_ptr<T, D>::pointer>(nullptr))
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/unique_ptr/operator_cmp&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -376,7 +376,7 @@ Possible output:
     (p1 <=> p2) < 0  : true
     (p1 <=> p2) == 0 : false
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/unique_ptr/operator_cmp&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -384,8 +384,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 3426](https://cplusplus.github.io/LWG/issue3426) | C++20  | `operator<=>(unique_ptr, nullptr_t)` was ill-formed  | constraints and definition fixed   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/unique_ptr/operator_cmp&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ get](get.html "cpp/memory/unique ptr/get") |  returns a pointer to the managed object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/unique_ptr/dsc_get&action=edit)  
+(public member function)   
 ---|---

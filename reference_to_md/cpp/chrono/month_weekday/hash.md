@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::month_weekday`](../month_weekday.html "cpp/chrono/month weekday")
 
@@ -117,7 +117,7 @@ Helper classes
 [formatter<std::chrono::month_weekday>](formatter.html "cpp/chrono/month weekday/formatter")  
 **hash <std::chrono::month_weekday>**(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/month_weekday/navbar_content&action=edit)
+
 
 Defined in header `[<chrono>](../../header/chrono.html "cpp/header/chrono")` |  |   
 ---|---|---  
@@ -128,16 +128,16 @@ The template specialization of [std::hash](../../utility/hash.html "cpp/utility/
 
 The operator() of this specialization is noexcept.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/hash&action=edit&section=T-1 "Template:cpp/chrono/hash")] Notes
+### Notes
 
 [Feature-test](../../utility/feature_test.html "cpp/utility/feature test") macro  | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_chrono`](../../experimental/feature_test.html#cpp_lib_chrono "cpp/feature test") | [`202306L`](../../compiler_support/26.html#cpp_lib_chrono_202306L "cpp/compiler support/26") | (C++26) | [Hashing](../../utility/hash.html "cpp/utility/hash") support for `std::chrono` value classes   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/hash&action=edit&section=T-3 "Template:cpp/chrono/hash")] See also
+### See also
 
 [ hash](../../utility/hash.html "cpp/utility/hash")(C++11) |  hash function object   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_hash&action=edit)  
+(class template)   
 ---|---
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

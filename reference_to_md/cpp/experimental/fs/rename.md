@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Filesystem library](../fs.html "cpp/experimental/fs")
 
@@ -124,7 +124,7 @@ File types
 [filesystem::is_socket](is_socket.html "cpp/experimental/fs/is socket")  
 [filesystem::is_symlink](is_symlink.html "cpp/experimental/fs/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/navbar_content&action=edit)
+
 
 Defined in header `[<experimental/filesystem>](../../header/experimental/filesystem.html "cpp/header/experimental/filesystem")` |  |   
 ---|---|---  
@@ -181,18 +181,18 @@ Rename fails if
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/rename&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 old_p  |  \-  |  path to move or rename   
 ---|---|---  
 new_p  |  \-  |  target path for the move/rename operation   
 ec  |  \-  |  out-parameter for error reporting in the non-throwing overload   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/rename&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/rename&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 The overload that does not take an error_code& parameter throws [filesystem_error](filesystem_error.html "cpp/experimental/fs/filesystem error") on underlying OS API errors, constructed with old_p as the first argument, new_p as the second argument, and the OS error code as the error code argument. [std::bad_alloc](../../memory/new/bad_alloc.html) may be thrown if memory allocation fails. The overload taking an error_code& parameter sets it to the OS API error code if an OS API call fails, and executes ec.clear() if no errors occur. This overload has 
 
@@ -200,7 +200,7 @@ The overload that does not take an error_code& parameter throws [filesystem_erro
 
 noexcept
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/rename&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -225,11 +225,11 @@ Run this code
         fs::remove_all(p);
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/rename&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ rename](../../io/c/rename.html "cpp/io/c/rename") |  renames a file   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_rename&action=edit)  
+(function)   
 ---|---  
 [ removeremove_all](remove.html "cpp/experimental/fs/remove") |  removes a file or empty directory  
 removes a file or directory and all its contents, recursively   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_remove&action=edit)
+(function) 

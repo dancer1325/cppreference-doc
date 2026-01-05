@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Function objects](../../functional.html "cpp/utility/functional")
 
@@ -255,7 +255,7 @@ Identity function object
 [unary_negate](unary_negate.html "cpp/utility/functional/unary negate")(until C++20*)  
 [binary_negate](binary_negate.html "cpp/utility/functional/binary negate")(until C++20*)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/navbar_content&action=edit)
+
 
 Defined in header `[<functional>](../../header/functional.html "cpp/header/functional")` |  |   
 ---|---|---  
@@ -289,7 +289,7 @@ constexpr /* unspecified */ not_fn() noexcept; |  (2) | (since C++26)
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/not_fn&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 f  |  \-  |  the object from which the [Callable](../../named_req/Callable.html "cpp/named req/Callable") object held by the wrapper is constructed   
 ---|---|---  
@@ -297,7 +297,7 @@ Type requirements
 -`[std::decay_t](../../types/decay.html)<F>` must meet the requirements of [Callable](../../named_req/Callable.html "cpp/named req/Callable") and [MoveConstructible](../../named_req/MoveConstructible.html "cpp/named req/MoveConstructible").   
 -[std::is_constructible_v](../../types/is_constructible.html)<[std::decay_t](../../types/decay.html)<F>, F> is required to be true.   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/not_fn&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) A function object of unspecified type `T`. It has the following members. 
 
@@ -392,11 +392,11 @@ noexcept(/* see below */)
   
 [Expression-equivalent](../../language/expressions.html#Expression-equivalence "cpp/language/expressions") to ![std::invoke](invoke.html)(ConstFn, [std::forward](../forward.html)<Args>(args)...). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/not_fn&action=edit&section=7 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 1) Throws no exceptions, unless the construction of fd throws.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/not_fn&action=edit&section=8 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
 
 [(1) not_fn](not_fn.html#Version_1)  
 ---  
@@ -505,7 +505,7 @@ noexcept(/* see below */)
         return {};
     }  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/not_fn&action=edit&section=9 "Edit section: Notes")] Notes
+### Notes
 
 `std::not_fn` is intended to replace the C++03-era negators [std::not1](not1.html "cpp/utility/functional/not1") and [std::not2](not2.html "cpp/utility/functional/not2"). 
 
@@ -514,7 +514,7 @@ noexcept(/* see below */)
 [`__cpp_lib_not_fn`](../../experimental/feature_test.html#cpp_lib_not_fn "cpp/feature test") | [`201603L`](../../compiler_support/17.html#cpp_lib_not_fn_201603L "cpp/compiler support/17") | (C++17) | `std::not_fn()`, ([1](not_fn.html#Version_1))  
 [`202306L`](../../compiler_support/26.html#cpp_lib_not_fn_202306L "cpp/compiler support/26") | (C++26) | Allow passing callable objects as constant template arguments to `std::not_fn`, ([2](not_fn.html#Version_2))  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/not_fn&action=edit&section=10 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -568,12 +568,12 @@ Run this code
     #endif
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/not_fn&action=edit&section=11 "Edit section: See also")] See also
+### See also
 
 [ not1](not1.html "cpp/utility/functional/not1")(deprecated in C++17)(removed in C++20) |  constructs custom [std::unary_negate](unary_negate.html "cpp/utility/functional/unary negate") object   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_not1&action=edit)  
+(function template)   
 ---|---  
 [ not2](not2.html "cpp/utility/functional/not2")(deprecated in C++17)(removed in C++20) |  constructs custom [std::binary_negate](binary_negate.html "cpp/utility/functional/binary negate") object   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_not2&action=edit)
+(function template) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

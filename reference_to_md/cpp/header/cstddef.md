@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header was originally in the C standard library as [`<stddef.h>`](../../c/header/stddef.html "c/header/stddef"). 
 
@@ -216,29 +216,29 @@ This header is part of the [utility](../utility.html "cpp/utility") library.
 ###  Macros  
   
 [ NULL](../types/NULL.html "cpp/types/NULL") |  implementation-defined null pointer constant   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_NULL&action=edit)  
+(macro constant)   
 [ offsetof](../types/offsetof.html "cpp/types/offsetof") |  byte offset from the beginning of a [standard-layout](../named_req/StandardLayoutType.html "cpp/named req/StandardLayoutType") type to specified member   
-(function macro) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_offsetof&action=edit)  
+(function macro)   
   
 ###  Types  
   
 [ size_t](../types/size_t.html "cpp/types/size t") |  unsigned integer type returned by the [`sizeof`](../language/sizeof.html "cpp/language/sizeof") operator   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_size_t&action=edit)  
+(typedef)   
 [ ptrdiff_t](../types/ptrdiff_t.html "cpp/types/ptrdiff t") |  signed integer type returned when subtracting two pointers   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_ptrdiff_t&action=edit)  
+(typedef)   
 [ nullptr_t](../types/nullptr_t.html "cpp/types/nullptr t")(C++11) |  the type of the null pointer literal [`nullptr`](../language/nullptr.html "cpp/language/nullptr")   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_nullptr_t&action=edit)  
+(typedef)   
 [ max_align_t](../types/max_align_t.html "cpp/types/max align t")(C++11) |  trivial type with alignment requirement as great as any other scalar type   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_max_align_t&action=edit)  
+(typedef)   
 [ byte](../types/byte.html "cpp/types/byte")(C++17) |  the byte type   
-(enum) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_byte&action=edit)  
+(enum)   
   
 ###  Functions  
   
 [ to_integer](../types/byte.html "cpp/types/byte")(C++17) |  convert std::byte to integer   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/byte/dsc_to_integer&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/cstddef&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     namespace std {
@@ -272,7 +272,7 @@ This header is part of the [utility](../utility.html "cpp/utility") library.
     #define NULL /* see description */
     #define offsetof(P, D) /* see description */
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/cstddef&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
   * [NULL](../types/NULL.html "cpp/types/NULL") is also defined in the following headers: 
     * [`<clocale>`](clocale.html "cpp/header/clocale")

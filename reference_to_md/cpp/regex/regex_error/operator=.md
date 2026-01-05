@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Regular expressions library](../../regex.html "cpp/regex")
 
@@ -81,7 +81,7 @@ Constants
 Regex Grammar  
 [Modified ECMAScript-262](../ecmascript.html "cpp/regex/ecmascript")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/navbar_content&action=edit)
+
 
 [`std::regex_error`](../regex_error.html "cpp/regex/regex error")
 
@@ -91,7 +91,7 @@ Member functions
 **regex_error::operator=**  
 [regex_error::code](code.html "cpp/regex/regex error/code")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/regex_error/navbar_content&action=edit)
+
 
 regex_error& operator=( const regex_error& other ) noexcept; |  |  (since C++11)  
 ---|---|---  
@@ -99,16 +99,16 @@ regex_error& operator=( const regex_error& other ) noexcept; |  |  (since C++11)
   
 Assigns the contents with those of other. If *this and other both have dynamic type `std::regex_error` then [std::strcmp](../../string/byte/strcmp.html)(what(), other.what()) == 0 after assignment. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/regex_error/operator%3D&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 other  |  \-  |  another `regex_error` object to assign with   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/regex_error/operator%3D&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 *this
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/regex_error/operator%3D&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

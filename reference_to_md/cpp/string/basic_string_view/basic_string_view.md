@@ -33,7 +33,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Strings library](../../string.html "cpp/string")
 
@@ -43,7 +43,7 @@ Classes
 [basic_string_view](../basic_string_view.html "cpp/string/basic string view")(C++17)  
 [char_traits](../char_traits.html "cpp/string/char traits")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/navbar_content&action=edit)
+
 
 [`std::basic_string_view`](../basic_string_view.html "cpp/string/basic string view")
 
@@ -95,7 +95,7 @@ Constants
 [hash<std::string_view>hash<std::wstring_view>hash<std::u8string_view>hash<std::u16string_view>hash<std::u32string_view>](hash.html "cpp/string/basic string view/hash")(C++20)  
 [Deduction guides](deduction_guides.html "cpp/string/basic string view/deduction guides") (C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/navbar_content&action=edit)
+
 
 constexpr basic_string_view() noexcept; |  (1)  |  (since C++17)  
 ---|---|---  
@@ -156,7 +156,7 @@ This overload participates in overload resolution only if all following conditio
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string_view/basic_string_view&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 other  |  \-  |  another view to initialize the view with   
 ---|---|---  
@@ -166,13 +166,13 @@ first  |  \-  |  iterator to the first character of the sequence
 last  |  \-  |  iterator past the last character of the sequence or another sentinel   
 r  |  \-  |  a contiguous range that contains the sequence   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string_view/basic_string_view&action=edit&section=2 "Edit section: Complexity")] Complexity
+### Complexity
 
 1-3,5,6) Constant.
 
 4) Linear in length of s.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string_view/basic_string_view&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -230,10 +230,10 @@ Output:
     5) wcstr_v.size(): 5
     6) ar_v: "Pub"
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string_view/basic_string_view&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ operator=](operator=.html "cpp/string/basic string view/operator=") |  assigns a view   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/dsc_operator%3D&action=edit)  
+(public member function)   
 ---|---  
 [ (constructor)](../basic_string/basic_string.html "cpp/string/basic string/basic string") |  constructs a `basic_string`   
-(public member function of `std::basic_string<CharT,Traits,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_constructor&action=edit)
+(public member function of `std::basic_string<CharT,Traits,Allocator>`) 

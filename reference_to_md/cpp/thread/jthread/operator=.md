@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::jthread`](../jthread.html "cpp/thread/jthread")
 
@@ -198,7 +198,7 @@ Stop token handling
 Non-member functions  
 [swap(std::jthread)](swap2.html "cpp/thread/jthread/swap2")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/jthread/navbar_content&action=edit)
+
 
 [std::jthread](../jthread.html)& operator=( [std::jthread](../jthread.html)&& other ) noexcept; |  |  (since C++20)  
 ---|---|---  
@@ -208,11 +208,11 @@ If *this still has an associated running thread (i.e. joinable() == true), calls
 
 After this call, this->get_id() is equal to the value of other.get_id() prior to the call and the associated stop-state is also moved, and other no longer represents a thread of execution nor has any stop-state. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/jthread/operator%3D&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 other  |  \-  |  another `jthread` object to assign to this `jthread` object   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/jthread/operator%3D&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 *this

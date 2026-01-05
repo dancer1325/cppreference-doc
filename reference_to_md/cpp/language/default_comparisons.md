@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Expressions](expressions.html "cpp/language/expressions")
 
@@ -289,7 +289,7 @@ Conversions
 [`dynamic_cast`](dynamic_cast.html "cpp/language/dynamic cast")  
 [`reinterpret_cast`](reinterpret_cast.html "cpp/language/reinterpret cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/expressions/navbar_content&action=edit)
+
 
 Comparison operator functions can be explicitly defaulted to request the compiler to generate the corresponding default comparison for a class. 
 
@@ -314,7 +314,7 @@ Comparison operator functions can be explicitly defaulted to request the compile
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/default_comparisons&action=edit&section=1 "Edit section: Definition")] Definition
+### Definition
 
 A _defaulted comparison operator function_ is a non-template comparison operator function (i.e. `<=>`, `==`, `!=`, `<`, `>`, `<=`, or `>=`) satisfying all following conditions: 
 
@@ -345,7 +345,7 @@ Such a comparison operator function is termed a _defaulted comparison operator f
 
 Name lookups and access checks in the implicit definition of a comparison operator function are performed from a context equivalent to its function body. A definition of a comparison operator function as defaulted that appears in a class must be the first declaration of that function. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/default_comparisons&action=edit&section=2 "Edit section: Default comparison order")] Default comparison order
+### Default comparison order
 
 Given a class `C`, a subobject list is formed by the following subjects in order: 
 
@@ -378,11 +378,11 @@ For any object x of type `C`, in the following descriptions:
     // The subobject list for “t” consists of the following 5 subobjects in order:
     // (S)t → t[0][0] → t[0][1] → t[1][0] → t[1][1]
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/default_comparisons&action=edit&section=3 "Edit section: Three-way comparison")] Three-way comparison
+### Three-way comparison
 
 An operator<=> for a class type can be defined as defaulted with any return type. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/default_comparisons&action=edit&section=4 "Edit section: Comparison category types")] Comparison category types
+#### Comparison category types
 
 There are three comparison category types: 
 
@@ -396,7 +396,7 @@ Type  |  Equivalent values are..  |  Incomparable values are..
 [`std::weak_ordering`](../utility/compare/weak_ordering.html "cpp/utility/compare/weak ordering") | distinguishable  | not allowed   
 [`std::partial_ordering`](../utility/compare/partial_ordering.html "cpp/utility/compare/partial ordering") | distinguishable  | allowed   
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/default_comparisons&action=edit&section=5 "Edit section: Synthesized three-way comparison")] Synthesized three-way comparison
+#### Synthesized three-way comparison
 
 The _synthesized three-way comparison_ of type `T` between glvalues a and b of the same type is defined as follows: 
 
@@ -442,7 +442,7 @@ The _synthesized three-way comparison_ of type `T` between glvalues a and b of t
     b < a  ? std::partial_ordering::greater : 
              std::partial_ordering::unordered
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/default_comparisons&action=edit&section=6 "Edit section: Placeholder return type")] Placeholder return type
+#### Placeholder return type
 
 If the declared return type of a defaulted three-way comparison operator function (operator<=>) for a class type `C` is auto, the return type is deduced from the return types of the three-way comparisons between the corresponding subobjects of an object x of type `C`. 
 
@@ -455,13 +455,13 @@ For each subobject x_i in the [(expanded) subobject list](default_comparisons.ht
 
 If the defaulted operator<=> is not defined as deleted, its return type is deduced as [std::common_comparison_category_t](../utility/compare/common_comparison_category.html)<R_1, R_2, ..., R_n>. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/default_comparisons&action=edit&section=7 "Edit section: Non-placeholder return type")] Non-placeholder return type
+#### Non-placeholder return type
 
 If the declared return type of the defaulted operator<=> is not auto, it cannot contain any [placeholder type](auto.html "cpp/language/auto") (e.g. decltype(auto)). 
 
 If there is a subobject x_i in the (expanded) subobject list for x such that the [synthesized three-way comparison](default_comparisons.html#Synthesized_three-way_comparison) of the declared return type between x_i and x_i is not defined, the defaulted operator<=> is defined as deleted. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/default_comparisons&action=edit&section=8 "Edit section: Comparison result")] Comparison result
+#### Comparison result
 
 Let x and y be the parameters of a defaulted operator<=>, denote each subobject in the (expanded) subobject list for x and y as x_i and y_i respectively. The default three-way comparison between x and y is performed by comparing corresponding subobjects x_i and y_i with increasing i order. 
 
@@ -505,9 +505,9 @@ Run this code
             << (pt1 >= pt2) << ' '; // false
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/default_comparisons&action=edit&section=9 "Edit section: Equality comparison")] Equality comparison
+### Equality comparison
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/default_comparisons&action=edit&section=10 "Edit section: Explicit declaration")] Explicit declaration
+#### Explicit declaration
 
 An operator== for a class type can be defined as defaulted with return type bool. 
 
@@ -546,7 +546,7 @@ Run this code
         // if (p == q) {} // Error: operator== is not defined
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/default_comparisons&action=edit&section=11 "Edit section: Implicit declaration")] Implicit declaration
+#### Implicit declaration
 
 If a class `C` does not explicitly declare any member or friend named operator==, an `==` operator function is declared implicitly for each operator<=> defined as defaulted. Each implicity-declared operator== have the same access and [function definition](function.html#Function_definition "cpp/language/function") and in the same [class scope](scope.html#Class_scope "cpp/language/scope") as the respective defaulted operator<=>, with the following changes: 
 
@@ -569,7 +569,7 @@ If a class `C` does not explicitly declare any member or friend named operator==
         //                          operator==(const X&) const = default;
     };
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/default_comparisons&action=edit&section=12 "Edit section: Secondary comparison")] Secondary comparison
+### Secondary comparison
 
 A secondary comparison operator function (`!=`, `<`, `>`, `<=`, or `>=`) for a class type can be defined as defaulted with return type bool. 
 
@@ -593,11 +593,11 @@ If the defaulted operator@ is not defined as deleted, it yields x @ y.
         bool operator<(const C&) const = default; // OK, function is defaulted
     };
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/default_comparisons&action=edit&section=13 "Edit section: Keywords")] Keywords
+### Keywords
 
 [`default`](../keyword/default.html "cpp/keyword/default")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/default_comparisons&action=edit&section=14 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -617,7 +617,7 @@ functions might violate member access rules  | access checks are performed
 from a context equivalent  
 to their function bodies   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/default_comparisons&action=edit&section=15 "Edit section: See also")] See also
+### See also
 
   * [overload resolution](overload_resolution.html#Call_to_an_overloaded_operator "cpp/language/overload resolution") in a call to an overloaded operator 
   * Built-in [three-way comparison operator](operator_comparison.html#Three-way_comparison "cpp/language/operator comparison")

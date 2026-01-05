@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Classes](classes.html "cpp/language/classes")
 
@@ -261,7 +261,7 @@ Inheritance
 [`override` specifier](override.html "cpp/language/override") (C++11)  
 [`final` specifier](final.html "cpp/language/final") (C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/classes/navbar_content&action=edit)
+
 
 A move constructor is a [constructor](initializer_list.html "cpp/language/constructor") which can be called with an argument of the same class type and copies the content of the argument, possibly mutating the argument. 
 
@@ -282,7 +282,7 @@ A move constructor is a [constructor](initializer_list.html "cpp/language/constr
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/move_constructor&action=edit&section=1 "Edit section: Syntax")] Syntax  
+### Syntax  
   
 ---  
 class-name ﻿`**(**` parameter-list ﻿`**);**` |  (1)  |   
@@ -302,7 +302,7 @@ parameter-list |  \-  |  a non-empty [parameter list](function.html#Parameter_li
 single-parameter-list |  \-  |  a [parameter list](function.html#Parameter_list "cpp/language/function") of only one parameter, which is of type T&&, const T&&, volatile T&& or const volatile T&& and does not have a default argument   
 function-body |  \-  |  the [function body](initializer_list.html "cpp/language/constructor") of the move constructor   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/move_constructor&action=edit&section=2 "Edit section: Explanation")] Explanation
+### Explanation
 
 1) Declaration of a move constructor inside of class definition.
 
@@ -341,7 +341,7 @@ When the initializer is a prvalue, the move constructor call is often optimized 
 
 Move constructors typically transfer the resources held by the argument (e.g. pointers to dynamically-allocated objects, file descriptors, TCP sockets, thread handles, etc.) rather than make copies of them, and leave the argument in some valid but otherwise indeterminate state. Since move constructor doesn’t change the lifetime of the argument, the destructor will typically be called on the argument at a later point. For example, moving from a [std::string](../string/basic_string.html "cpp/string/basic string") or from a [std::vector](../container/vector.html "cpp/container/vector") may result in the argument being left empty. For some types, such as [std::unique_ptr](../memory/unique_ptr.html "cpp/memory/unique ptr"), the moved-from state is fully specified. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/move_constructor&action=edit&section=3 "Edit section: Implicitly-declared move constructor")] Implicitly-declared move constructor
+### Implicitly-declared move constructor
 
 If no user-defined move constructors are provided for a class type, and all of the following is true: 
 
@@ -358,13 +358,13 @@ A class can have multiple move constructors, e.g. both T::T(const T&&) and T::T(
 
 The implicitly-declared (or defaulted on its first declaration) move constructor has an exception specification as described in [dynamic exception specification](except_spec.html "cpp/language/except spec")(until C++17)[noexcept specification](noexcept_spec.html "cpp/language/noexcept spec")(since C++17). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/move_constructor&action=edit&section=4 "Edit section: Implicitly-defined move constructor")] Implicitly-defined move constructor
+### Implicitly-defined move constructor
 
 If the implicitly-declared move constructor is neither deleted nor trivial, it is defined (that is, a function body is generated and compiled) by the compiler if [ODR-use](definition.html#ODR-use "cpp/language/definition") or [needed for constant evaluation](constant_expression.html#Functions_and_variables_needed_for_constant_evaluation "cpp/language/constant expression"). For union types, the implicitly-defined move constructor copies the object representation (as by [std::memmove](../string/byte/memmove.html "cpp/string/byte/memmove")). For non-union class types, the move constructor performs full member-wise move of the object's direct base subobjects and member subobjects, in their initialization order, using direct initialization with an [xvalue](value_category.html#xvalue "cpp/language/value category") argument. For each non-static data member of a reference type, the move constructor binds the reference to the same object or function to which the source reference is bound. 
 
 If this satisfies the requirements of a [`constexpr` constructor](constexpr.html#constexpr_constructor "cpp/language/constexpr")(until C++23)[`constexpr` function](constexpr.html#constexpr_function "cpp/language/constexpr")(since C++23), the generated move constructor is constexpr. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/move_constructor&action=edit&section=5 "Edit section: Deleted move constructor")] Deleted move constructor
+### Deleted move constructor
 
 The implicitly-declared or explicitly-defaulted move constructor for class `T` is defined as deleted if `T` has a [potentially constructed subobject](objects.html#Potentially_constructed_subobject "cpp/language/object") of class type `M` (or possibly multi-dimensional array thereof) such that 
 
@@ -382,7 +382,7 @@ The implicitly-declared or explicitly-defaulted move constructor for class `T` i
 
 Such a constructor is ignored by [overload resolution](overload_resolution.html "cpp/language/overload resolution") (otherwise it would prevent copy-initialization from rvalue). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/move_constructor&action=edit&section=6 "Edit section: Trivial move constructor")] Trivial move constructor
+### Trivial move constructor
 
 The move constructor for class `T` is trivial if all of the following is true: 
 
@@ -396,7 +396,7 @@ The move constructor for class `T` is trivial if all of the following is true:
 
 A trivial move constructor is a constructor that performs the same action as the trivial copy constructor, that is, makes a copy of the object representation as if by [std::memmove](../string/byte/memmove.html "cpp/string/byte/memmove"). All data types compatible with the C language are trivially movable. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/move_constructor&action=edit&section=7 "Edit section: Eligible move constructor")] Eligible move constructor
+### Eligible move constructor
 
 A move constructor is eligible if it is not deleted.  | (until C++20)  
 ---|---  
@@ -410,13 +410,13 @@ A move constructor is eligible if all following conditions are satisfied:
   
 Triviality of eligible move constructors determines whether the class is an [implicit-lifetime type](lifetime.html#Implicit-lifetime_types "cpp/language/lifetime"), and whether the class is a [trivially copyable type](../named_req/TriviallyCopyable.html "cpp/named req/TriviallyCopyable"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/move_constructor&action=edit&section=8 "Edit section: Notes")] Notes
+### Notes
 
 To make the [strong exception guarantee](exceptions.html#Exception_safety "cpp/language/exceptions") possible, user-defined move constructors should not throw exceptions. For example, [std::vector](../container/vector.html "cpp/container/vector") relies on [std::move_if_noexcept](../utility/move_if_noexcept.html "cpp/utility/move if noexcept") to choose between move and copy when the elements need to be relocated. 
 
 If both copy and move constructors are provided and no other constructors are viable, overload resolution selects the move constructor if the argument is an [rvalue](value_category.html#rvalue "cpp/language/value category") of the same type (an [xvalue](value_category.html#xvalue "cpp/language/value category") such as the result of std::move or a [prvalue](value_category.html#prvalue "cpp/language/value category") such as a nameless temporary(until C++17)), and selects the copy constructor if the argument is an [lvalue](value_category.html#lvalue "cpp/language/value category") (named object or a function/operator returning lvalue reference). If only the copy constructor is provided, all argument categories select it (as long as it takes a reference to const, since rvalues can bind to const references), which makes copying the fallback for moving, when moving is unavailable. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/move_constructor&action=edit&section=9 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -514,7 +514,7 @@ Output:
      
     Trying to move D
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/move_constructor&action=edit&section=10 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -536,7 +536,7 @@ move constructor non-trivial ([CWG issue 496](https://cplusplus.github.io/CWG/is
 another move constructor which is more constrained  
 but does not satisfy its associated constraints  | it can be eligible in this case   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/move_constructor&action=edit&section=11 "Edit section: See also")] See also
+### See also
 
   * [converting constructor](converting_constructor.html "cpp/language/converting constructor")
   * [copy assignment](as_operator.html "cpp/language/copy assignment")

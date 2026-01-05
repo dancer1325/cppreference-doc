@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::expected`](../expected.html "cpp/utility/expected")
 
@@ -160,7 +160,7 @@ Common vocabulary types
 [bad_expected_access](bad_expected_access.html "cpp/utility/expected/bad expected access")  
 [unexpect_tunexpect](unexpect_t.html "cpp/utility/expected/unexpect t")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/expected/navbar_content&action=edit)
+
 
 Primary template |  |   
 ---|---|---  
@@ -208,7 +208,7 @@ Assigns a new value to an existing `expected` object.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/operator%3D&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 other  |  \-  |  another `expected` object whose contained value to assign   
 ---|---|---  
@@ -218,9 +218,9 @@ newval  |  \-  |  the contained value to be constructed
 oldval  |  \-  |  the contained value to be destroyed   
 args  |  \-  |  the arguments used as initializers of newval  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/operator%3D&action=edit&section=2 "Edit section: Effects")] Effects
+### Effects
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/operator%3D&action=edit&section=3 "Edit section: Primary template assignment operators")] Primary template assignment operators
+#### Primary template assignment operators
 
 1,2) Assigns the state of other to *this.
 
@@ -264,7 +264,7 @@ false | `_unex_`` `= [std::forward](../forward.html)<const G&>(e.error());
 `_has_val_`` `= false;  
 false | `_unex_`` `= [std::forward](../forward.html)<G>(e.error());  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/operator%3D&action=edit&section=4 "Edit section: void partial specialization assignment operators")] void partial specialization assignment operators
+#### void partial specialization assignment operators
 
 6) The unexpected value is assigned or destroyed as follows:  Value of  
 [`has_value()`](operator_bool.html "cpp/utility/expected/operator bool") | Value of other.has_value()  
@@ -298,7 +298,7 @@ false | `_unex_`` `= [std::forward](../forward.html)<const G&>(e.error());
 `_has_val_`` `= false;  
 false | `_unex_`` `= [std::forward](../forward.html)<G>(e.error());  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/operator%3D&action=edit&section=5 "Edit section: Helper function template")] Helper function template
+#### Helper function template
 
 The exposition-only function template `_reinit-expected_` is “defined” as follows: 
     
@@ -345,13 +345,13 @@ This function template is called when the assignment is going to make *this hold
 
 In this case, the old value oldval needs to be destroyed before constructing the new value newval. However, the construction of newval may throw an exception. In order to provide [strong exception safety guarantee](../../language/exceptions.html#Exception_safety "cpp/language/exceptions"), the old value needs to be restored before rethrowing the exception so that *this will have a valid state while the exception is being handled. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/operator%3D&action=edit&section=6 "Edit section: Return value")] Return value
+### Return value
 
 1-9) *this
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/operator%3D&action=edit&section=7 "Edit section: Constraints and supplement information")] Constraints and supplement information
+### Constraints and supplement information
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/operator%3D&action=edit&section=8 "Edit section: Primary template assignment operators")] Primary template assignment operators
+#### Primary template assignment operators
 
 1) This overload is defined as deleted unless all following values are true: 
 
@@ -403,7 +403,7 @@ In this case, the old value oldval needs to be destroyed before constructing the
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/operator%3D&action=edit&section=9 "Edit section: void partial specialization assignment operators")] void partial specialization assignment operators
+#### void partial specialization assignment operators
 
 6) This overload is defined as deleted unless [std::is_copy_assignable_v](../../types/is_copy_assignable.html)<E> and [std::is_copy_constructible_v](../../types/is_copy_constructible.html)<E> are both true.
 
@@ -413,7 +413,7 @@ In this case, the old value oldval needs to be destroyed before constructing the
 
 9) This overload participates in overload resolution only if [std::is_constructible_v](../../types/is_constructible.html)<E, G> and [std::is_assignable_v](../../types/is_assignable.html)<E&, G> are both true.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/operator%3D&action=edit&section=10 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 2)
 
@@ -433,13 +433,13 @@ noexcept(
 
 noexcept([std::is_nothrow_move_constructible_v](../../types/is_move_constructible.html)<E> && [std::is_nothrow_move_assignable_v](../../types/is_move_assignable.html)<E>)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/operator%3D&action=edit&section=11 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/operator%3D&action=edit&section=12 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -450,8 +450,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 move constructible or not move assignable  | it does not participate in  
 overload resolution in this case   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/operator%3D&action=edit&section=13 "Edit section: See also")] See also
+### See also
 
 [ emplace](emplace.html "cpp/utility/expected/emplace") |  constructs the expected value in-place   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/expected/dsc_emplace&action=edit)  
+(public member function)   
 ---|---

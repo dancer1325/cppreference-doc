@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](ranges/copy.html "cpp/algorithm/ra
 [uninitialized_default_construct_n](../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -344,7 +344,7 @@ If value is not [writable](../iterator.html#Types_and_writability "cpp/iterator"
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/fill&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  the pair of iterators defining the [range](../iterator.html#Ranges "cpp/iterator") of elements to modify   
 ---|---|---  
@@ -353,11 +353,11 @@ policy  |  \-  |  the [execution policy](execution_policy_tag_t.html "cpp/algori
 Type requirements   
 -`ForwardIt` must meet the requirements of [LegacyForwardIterator](../named_req/ForwardIterator.html "cpp/named req/ForwardIterator").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/fill&action=edit&section=2 "Edit section: Complexity")] Complexity
+### Complexity
 
 Exactly [std::distance](../iterator/distance.html)(first, last) assignments. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/fill&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 The overload with a template parameter named `ExecutionPolicy` reports errors as follows: 
 
@@ -366,7 +366,7 @@ The overload with a template parameter named `ExecutionPolicy` reports errors as
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/fill&action=edit&section=4 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
 
 [fill (1)](fill.html#Version_1)  
 ---  
@@ -380,13 +380,13 @@ The overload with a template parameter named `ExecutionPolicy` reports errors as
             *first = value;
     }  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/fill&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../utility/feature_test.html "cpp/utility/feature test") macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_algorithm_default_value_type`](../experimental/feature_test.html#cpp_lib_algorithm_default_value_type "cpp/feature test") | [`202403`](../compiler_support/26.html#cpp_lib_algorithm_default_value_type_202403 "cpp/compiler support/26") | (C++26) | [List-initialization](../language/list_initialization.html "cpp/language/list initialization") for algorithms ([1,2](fill.html#Version_1))  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/fill&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -430,7 +430,7 @@ Output:
     (1,3) (2,2) (4,8) 
     (4,2) (4,2) (4,2)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/fill&action=edit&section=7 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -439,18 +439,18 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [LWG 283](https://cplusplus.github.io/LWG/issue283) | C++98  | `T` was required to be [CopyAssignable](../named_req/CopyAssignable.html "cpp/named req/CopyAssignable"), but  
 `T` is not always writable to `ForwardIt` | required to be writable instead   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/fill&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [ fill_n](fill_n.html "cpp/algorithm/fill n") |  copy-assigns the given value to N elements in a range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_fill_n&action=edit)  
+(function template)   
 ---|---  
 [ copycopy_if](copy.html "cpp/algorithm/copy")(C++11) |  copies a range of elements to a new location   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_copy&action=edit)  
+(function template)   
 [ generate](generate.html "cpp/algorithm/generate") |  assigns the results of successive function calls to every element in a range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_generate&action=edit)  
+(function template)   
 [ transform](transform.html "cpp/algorithm/transform") |  applies a function to a range of elements, storing results in a destination range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_transform&action=edit)  
+(function template)   
 [ ranges::fill](ranges/fill.html "cpp/algorithm/ranges/fill")(C++20) |  assigns a range of elements a certain value  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_fill&action=edit)
+(algorithm function object)
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

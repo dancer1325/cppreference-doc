@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Initialization](initialization.html "cpp/language/initialization")
 
@@ -244,7 +244,7 @@ Miscellaneous
 [Member initializer list](initializer_list.html "cpp/language/initializer list")  
 [Default member initializer](data_members.html#Member_initialization "cpp/language/data members") (C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/initialization/navbar_content&action=edit)
+
 
 Initializes an object from a [brace-enclosed initializer list](initialization.html "cpp/language/initialization"). 
 
@@ -264,9 +264,9 @@ Initializes an object from a [brace-enclosed initializer list](initialization.ht
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/list_initialization&action=edit&section=1 "Edit section: Syntax")] Syntax
+### Syntax
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/list_initialization&action=edit&section=2 "Edit section: Direct-list-initialization")] Direct-list-initialization  
+#### Direct-list-initialization  
   
 ---  
 T object `**{**` arg1, arg2, ... `**};**` |  T object`**{.**` des1 `**=**` arg1 `**, .**` des2 `**{**` arg2 `**}**` ... `**};**` | (since C++20)  
@@ -285,7 +285,7 @@ Class`**::**` Class`**() :**` member `**{**` arg1, arg2, ... `**} {...**` |  Cla
 ---|---  
 (5)  |   
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/list_initialization&action=edit&section=3 "Edit section: Copy-list-initialization")] Copy-list-initialization  
+#### Copy-list-initialization  
   
 ---  
 T object `**= {**` arg1, arg2, ... `**};**` |  T object `**= {.**` des1 `**=**` arg1 `**, .**` des2 `**{**` arg2 `**}**` ... `**};**` | (since C++20)  
@@ -344,7 +344,7 @@ List initialization is performed in the following situations:
 
 12) in a non-static [data member initializer](data_members.html#Member_initialization "cpp/language/data members") that uses the equals sign
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/list_initialization&action=edit&section=4 "Edit section: Explanation")] Explanation
+### Explanation
 
 The effects of list-initialization of an object of type (possibly cv-qualified) `T` are: 
 
@@ -417,7 +417,7 @@ The effects of list-initialization of an object of type (possibly cv-qualified) 
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/list_initialization&action=edit&section=5 "Edit section: List-initializing std::initializer list")] List-initializing [std::initializer_list](../utility/initializer_list.html "cpp/utility/initializer list")
+### List-initializing [std::initializer_list](../utility/initializer_list.html "cpp/utility/initializer list")
 
 An object of type [std::initializer_list](../utility/initializer_list.html)<E> is constructed from an initializer list as if the compiler generated and [materialized](implicit_cast.html#Temporary_materialization "cpp/language/implicit conversion")(since C++17) a [prvalue](value_category.html "cpp/language/value category") of type “array of N const E”, where N is the number of initializer clauses in the initializer list; this is called the initializer list’s _backing array_. 
 
@@ -482,7 +482,7 @@ Whether all backing arrays are distinct (that is, are stored in [non-overlapping
                                                   // the back arrays can share
                                                   // storage within {1, 2, 3, 4}
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/list_initialization&action=edit&section=6 "Edit section: Narrowing conversions")] Narrowing conversions
+### Narrowing conversions
 
 List-initialization limits the allowed [implicit conversions](implicit_cast.html "cpp/language/implicit conversion") by prohibiting the following: 
 
@@ -506,7 +506,7 @@ List-initialization limits the allowed [implicit conversions](implicit_cast.html
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/list_initialization&action=edit&section=7 "Edit section: Notes")] Notes
+### Notes
 
 Every initializer clause is [sequenced before](eval_order.html "cpp/language/eval order") any initializer clause that follows it in the brace-enclosed initializer list. This is in contrast with the arguments of a [function call expression](operator_other.html#Built-in_function_call_operator "cpp/language/operator other"), which are [unsequenced](eval_order.html "cpp/language/eval order")(until C++17)[indeterminately sequenced](eval_order.html "cpp/language/eval order")(since C++17). 
 
@@ -541,7 +541,7 @@ Feature-test macro | Value | Std | Feature
 ---|---|---|---  
 [`__cpp_initializer_lists`](../experimental/feature_test.html#cpp_initializer_lists "cpp/feature test") | [`200806L`](../compiler_support/11.html#cpp_initializer_lists_200806L "cpp/compiler support/11") | (C++11) | List-initialization and [std::initializer_list](../utility/initializer_list.html "cpp/utility/initializer list")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/list_initialization&action=edit&section=8 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -622,7 +622,7 @@ Output:
     3 abcd
     1 2 3 -1 -2 -3
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/list_initialization&action=edit&section=9 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -665,7 +665,7 @@ be initialized by designated initializer lists  | allowed
 to bool was not narrowing  | considered narrowing   
 [P2752R3](https://wg21.link/P2752R3) | C++11  | backing arrays with overlapping lifetime could not overlap  | they may overlap   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/list_initialization&action=edit&section=10 "Edit section: See also")] See also
+### See also
 
   * [constructor](initializer_list.html "cpp/language/constructor")
   * [converting constructor](converting_constructor.html "cpp/language/converting constructor")

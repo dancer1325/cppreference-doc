@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 Defined in header `[<chrono>](../header/chrono.html "cpp/header/chrono")` |  |   
 ---|---|---  
@@ -114,7 +114,7 @@ inline constexpr last_spec last{}; |  |  (since C++20)
   
 `last_spec` is an empty tag type that is used in conjunction with other calendar types to indicate the last thing in a sequence. Depending on context, it may indicate the last day of a month (as in 2018y/February/last, for last day of February 2018, i.e., 2018-02-28) or the last day of the week in a month (as in 2018/February/Sunday[last], for last Sunday of February 2018, i.e., 2018-02-25). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/last_spec&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
 Run this code
     

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::iota_view`](../iota_view.html "cpp/ranges/iota view")
 
@@ -268,7 +268,7 @@ operator<=>(iota_view::_iterator_)](iterator.html#Non-member_functions "cpp/rang
 [operator==(iota_view::_iterator_ ,iota_view::_sentinel_)](sentinel.html#Non-member_functions "cpp/ranges/iota view/sentinel")  
 [operator-(iota_view::_iterator_ ,iota_view::_sentinel_)](sentinel.html#Non-member_functions "cpp/ranges/iota view/sentinel")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/iota_view/navbar_content&action=edit)
+
 
 struct /*sentinel*/; |  | (exposition only*)  
 ---|---|---  
@@ -289,14 +289,14 @@ struct /*sentinel*/; |  | (exposition only*)
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/iota_view/sentinel&action=edit&section=1 "Edit section: Data members")] Data members
+### Data members
 
 Member  |  Definition   
 ---|---  
 `Bound` `_bound__` |  the sentinel value  
 (exposition-only member object*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/iota_view/sentinel&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 ##  std::ranges::iota_view::_sentinel_ ::_sentinel_
 
@@ -309,7 +309,7 @@ constexpr explicit /*sentinel*/( Bound bound ); |  (2)  |  (since C++20)
 
 2) Initializes `_[bound_](sentinel.html#bound)_` with bound. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/iota_view/sentinel&action=edit&section=3 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 ##  operator==(std::ranges::iota_view::_iterator_ , std::ranges::iota_view::_sentinel_)
 
@@ -341,7 +341,7 @@ requires [std::sized_sentinel_for](../../iterator/sized_sentinel_for.html)<Bound
 
 These functions are not visible to ordinary [unqualified](../../language/unqualified_lookup.html "cpp/language/unqualified lookup") or [qualified lookup](../../language/qualified_lookup.html "cpp/language/qualified lookup"), and can only be found by [argument-dependent lookup](../../language/adl.html "cpp/language/adl") when _sentinel_ is an associated class of the arguments. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/iota_view/sentinel&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

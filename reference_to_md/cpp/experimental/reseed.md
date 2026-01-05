@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Library fundamentals v2](lib_extensions_2.html "cpp/experimental/lib extensions 2")
 
@@ -74,7 +74,7 @@
 [uniform container erasure](lib_extensions_2.html#Uniform_container_erasure "cpp/experimental/lib extensions 2")  
 [logical operator type traits](lib_extensions_2.html#Logical_operator_type_traits "cpp/experimental/lib extensions 2")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions_2/navbar_content&action=edit)
+
 
 Defined in header `[<experimental/random>](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/random&action=edit&redlink=1 "cpp/header/experimental/random \(page does not exist\)")` |  |   
 ---|---|---  
@@ -98,16 +98,16 @@ Reseeds the [per-thread random number engine](lib_extensions_2.html#per-thread_e
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/reseed&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 value  |  \-  |  value of the new seed   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/reseed&action=edit&section=2 "Edit section: Remarks")] Remarks
+### Remarks
 
 Subsequent calls to `randint` do not depend on values produced by the per-thread engine prior to calling `reseed`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/reseed&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -131,8 +131,8 @@ Possible output:
     
     Random 2-digit decimal numbers: 41 60 56
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/reseed&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ randint](randint.html "cpp/experimental/randint") |  generates a random integer in the specified range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/dsc_randint&action=edit)  
+(function template)   
 ---|---

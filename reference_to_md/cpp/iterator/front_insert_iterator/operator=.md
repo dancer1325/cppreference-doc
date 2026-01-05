@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../../iterator.html "cpp/iterator")
 
@@ -196,7 +196,7 @@
 [empty](../empty.html "cpp/iterator/empty")(C++17)  
 [data](../data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 [`std::front_insert_iterator`](../front_insert_iterator.html "cpp/iterator/front insert iterator")
 
@@ -207,7 +207,7 @@ Member functions
 [front_insert_iterator::operator*](operator*.html "cpp/iterator/front insert iterator/operator*")  
 [front_insert_iterator::operator++front_insert_iterator::operator++(int)](operator++.html "cpp/iterator/front insert iterator/operator++")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/front_insert_iterator/navbar_content&action=edit)
+
 
 | (1) |   
 ---|---|---  
@@ -232,16 +232,16 @@ Inserts the given value value to the container.
 
 2) Results in container->push_front(std::move(value)).
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/inserter/operator%3D&action=edit&section=T-1 "Template:cpp/iterator/inserter/operator=")] Parameters
+### Parameters
 
 value  |  \-  |  the value to insert   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/inserter/operator%3D&action=edit&section=T-2 "Template:cpp/iterator/inserter/operator=")] Return value
+### Return value
 
 *this
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/inserter/operator%3D&action=edit&section=T-4 "Template:cpp/iterator/inserter/operator=")] Example
+### Example
 
 Run this code
     

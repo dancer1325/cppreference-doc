@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [C-style date and time utilities](../c.html "cpp/chrono/c")
 
@@ -128,7 +128,7 @@ Types
 [clock_t](clock_t.html "cpp/chrono/c/clock t")  
 [timespec](timespec.html "cpp/chrono/c/timespec")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/c/navbar_content&action=edit)
+
 
 Defined in header `[<ctime>](../../header/ctime.html "cpp/header/ctime")` |  |   
 ---|---|---  
@@ -148,7 +148,7 @@ Converts the date and time information from a given calendar time tp to a null-t
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/c/strftime&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 str  |  \-  |  pointer to the first element of the char array for output   
 ---|---|---  
@@ -156,7 +156,7 @@ count  |  \-  |  maximum number of bytes to write
 format  |  \-  |  pointer to a null-terminated multibyte character string specifying the [format of conversion](strftime.html#Format_string)  
 tp  |  \-  |  pointer to the object containing date and time information to be converted   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/c/strftime&action=edit&section=2 "Edit section: Format string")] Format string
+### Format string
 
 The format string consists of zero or more conversion specifiers and ordinary characters (except `%`). All ordinary characters, including the terminating null character, are copied to the output string without modification. Each conversion specification begins with `%` character, optionally followed by `E` or `O` modifier (ignored if unsupported by the locale), followed by the character that determines the behavior of the specifier. The following format specifiers are available: 
 
@@ -276,11 +276,11 @@ Other
 (C++11) |  writes **offset from UTC** in the ISO 8601 format (e.g. `-0430`), or no characters if the time zone information is not available  |  `**tm_isdst**`  
 `Z` |  writes locale-dependent **time zone name or abbreviation** , or no characters if the time zone information is not available  |  `**tm_isdst**`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/c/strftime&action=edit&section=3 "Edit section: Return value")] Return value
+### Return value
 
 The number of bytes written into the character array pointed to by str not including the terminating '\0' on success. If count was reached before the entire string could be stored, ​0​ is returned and the contents are indeterminate. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/c/strftime&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -322,17 +322,17 @@ Possible output:
     火曜日 2021年09月07日 19時40分35秒
     2021-09-07T19:40:35Z
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/c/strftime&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ asctime](asctime.html "cpp/chrono/c/asctime") |  converts a [std::tm](tm.html "cpp/chrono/c/tm") object to a textual representation   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/c/dsc_asctime&action=edit)  
+(function)   
 ---|---  
 [ ctime](ctime.html "cpp/chrono/c/ctime") |  converts a [std::time_t](time_t.html "cpp/chrono/c/time t") object to a textual representation   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/c/dsc_ctime&action=edit)  
+(function)   
 [ wcsftime](wcsftime.html "cpp/chrono/c/wcsftime") |  converts a [std::tm](tm.html "cpp/chrono/c/tm") object to custom wide string textual representation   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/c/dsc_wcsftime&action=edit)  
+(function)   
 [ put_time](../../io/manip/put_time.html "cpp/io/manip/put time")(C++11) |  formats and outputs a date/time value according to the specified format   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_put_time&action=edit)  
+(function template)   
 [ std::formatter<std::chrono::hh_mm_ss>](../hh_mm_ss/formatter.html "cpp/chrono/hh mm ss/formatter")(C++20) |  formatting support for `hh_mm_ss`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_formatter&action=edit)  
+(class template specialization)   
 [C documentation](../../../c/chrono/strftime.html "c/chrono/strftime") for strftime

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [Declarations](declarations.html "cpp/language/declarations")
 
@@ -280,7 +280,7 @@ Other declarations
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/declarations/navbar_content&action=edit)
+
 
 [ Expressions](expressions.html "cpp/language/expressions")
 
@@ -349,7 +349,7 @@ Conversions
 [`dynamic_cast`](dynamic_cast.html "cpp/language/dynamic cast")  
 [`reinterpret_cast`](reinterpret_cast.html "cpp/language/reinterpret cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/expressions/navbar_content&action=edit)
+
 
 [ Templates](templates.html "cpp/language/templates")
 
@@ -373,7 +373,7 @@ Conversions
 [Constraints and concepts](constraints.html "cpp/language/constraints") (C++20)  
 [requires expression](requires.html "cpp/language/requires") (C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/templates/navbar_content&action=edit)
+
 
 Allows customizing the template code for a given set of template arguments. 
 
@@ -389,7 +389,7 @@ Allows customizing the template code for a given set of template arguments.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/template_specialization&action=edit&section=1 "Edit section: Syntax")] Syntax  
+### Syntax  
   
 ---  
 `**template <>**` declaration |  |   
@@ -429,7 +429,7 @@ Run this code
             "but when T is void, the class is derived from true_type");
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/template_specialization&action=edit&section=2 "Edit section: In detail")] In detail
+### In detail
 
 Explicit specialization may be declared in any scope where its primary template may be defined (which may be different from the scope where the primary template is defined; such as with out-of-class specialization of a [member template](member_template.html "cpp/language/member template")). Explicit specialization has to appear after the non-specialized template declaration. 
     
@@ -500,7 +500,7 @@ Whether an explicit specialization of a function or variable(since C++14) templa
         // [[noreturn]] has no effect, but [[maybe_unused]] has
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/template_specialization&action=edit&section=3 "Edit section: Explicit specializations of function templates")] Explicit specializations of function templates
+### Explicit specializations of function templates
 
 When specializing a function template, its template arguments can be omitted if [template argument deduction](template_argument_deduction.html "cpp/language/template argument deduction") can provide them from the function arguments: 
     
@@ -526,7 +526,7 @@ An explicit specialization cannot be a [friend declaration](friend.html "cpp/lan
 Reason: review the exception specification requirement across different C++ versions   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/template_specialization&action=edit&section=4 "Edit section: Members of specializations")] Members of specializations
+### Members of specializations
 
 When defining a member of an explicitly specialized class template outside the body of the class, the syntax template<> is not used, except if it's a member of an explicitly specialized member class template, which is specialized as a class template, because otherwise, the syntax would require such definition to begin with template<parameters> required by the nested template 
     
@@ -688,7 +688,7 @@ In such a nested declaration, some of the levels may remain unspecialized (excep
     template<>
     void A<Y>::B<double>::mf2() {}
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/template_specialization&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -705,7 +705,7 @@ primary template are carried over into its explicit specializations  | not carri
 [CWG 2604](https://cplusplus.github.io/CWG/issues/2604.html) | C++11  | it was unclear whether the attributes of the primary  
 template are carried over into its explicit specializations  | not carried over   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/template_specialization&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
   * [templates](templates.html "cpp/language/templates")
   * [class template](class_template.html "cpp/language/class template")

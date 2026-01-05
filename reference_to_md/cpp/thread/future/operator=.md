@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::future`](../future.html "cpp/thread/future")
 
@@ -191,7 +191,7 @@ State
 [future::wait_for](wait_for.html "cpp/thread/future/wait for")  
 [future::wait_until](wait_until.html "cpp/thread/future/wait until")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/future/navbar_content&action=edit)
+
 
 future& operator=( future&& other ) noexcept; |  (1)  |  (since C++11)  
 ---|---|---  
@@ -204,11 +204,11 @@ Assigns the contents of another future object.
 
 2) [std::future](../future.html "cpp/thread/future") is not [CopyAssignable](../../named_req/CopyAssignable.html "cpp/named req/CopyAssignable").
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/future/operator%3D&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 other  |  \-  |  a `std::future` that will transfer state to *this  
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/future/operator%3D&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 *this

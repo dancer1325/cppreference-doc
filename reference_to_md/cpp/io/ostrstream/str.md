@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -79,7 +79,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::ostrstream`](../ostrstream.html "cpp/io/ostrstream")
 
@@ -92,7 +92,7 @@ Member functions
 [ostrstream::freeze](freeze.html "cpp/io/ostrstream/freeze")  
 [ostrstream::pcount](pcount.html "cpp/io/ostrstream/pcount")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/ostrstream/navbar_content&action=edit)
+
 
 char* str(); |  |  (deprecated in C++98)   
 (removed in C++26)  
@@ -112,11 +112,11 @@ Returns the pointer to the beginning of the buffer, after freezing it. Effective
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/strstream/str&action=edit&section=T-1 "Template:cpp/io/strstream/str")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/strstream/str&action=edit&section=T-2 "Template:cpp/io/strstream/str")] Return value
+### Return value
 
 Pointer to the beginning of the buffer in the associated [std::strstreambuf](../strstreambuf.html) or a null pointer if no buffer is available. 
 
@@ -126,7 +126,7 @@ Before a call to `str()` that uses the result as a C-string, the stream buffer m
 
 After a call to `str()`, dynamic streams become frozen. A call to [`freeze(false)`](freeze.html "cpp/io/ostrstream/freeze") is required before exiting the scope in which this ostrstream object was created. otherwise the destructor will leak memory. Also, additional output to a frozen stream may be truncated once it reaches the end of the allocated buffer, which may leave the buffer not null-terminated. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/strstream/str&action=edit&section=T-4 "Template:cpp/io/strstream/str")] Example
+### Example
 
 Run this code
     
@@ -156,5 +156,5 @@ Possible output:
 ###  See also
 
 [ str](../strstreambuf/str.html "cpp/io/strstreambuf/str") |  marks the buffer frozen and returns the beginning pointer of the input sequence   
-(public member function of `std::strstreambuf`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/strstreambuf/dsc_str&action=edit)  
+(public member function of `std::strstreambuf`)   
 ---|---

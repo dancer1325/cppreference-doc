@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Filesystem library](../fs.html "cpp/experimental/fs")
 
@@ -124,7 +124,7 @@ File types
 [filesystem::is_socket](is_socket.html "cpp/experimental/fs/is socket")  
 [filesystem::is_symlink](is_symlink.html "cpp/experimental/fs/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/navbar_content&action=edit)
+
 
 Defined in header `[<experimental/filesystem>](../../header/experimental/filesystem.html "cpp/header/experimental/filesystem")` |  |   
 ---|---|---  
@@ -201,18 +201,18 @@ The behavior is as follows:
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/copy&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 from  |  \-  |  path to the source file, directory, or symlink   
 ---|---|---  
 to  |  \-  |  path to the target file, directory, or symlink   
 ec  |  \-  |  out-parameter for error reporting in the non-throwing overload   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/copy&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/copy&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 The overload that does not take an error_code& parameter throws [filesystem_error](filesystem_error.html "cpp/experimental/fs/filesystem error") on underlying OS API errors, constructed with from as the first argument, to as the second argument, and the OS error code as the error code argument. [std::bad_alloc](../../memory/new/bad_alloc.html) may be thrown if memory allocation fails. The overload taking an error_code& parameter sets it to the OS API error code if an OS API call fails, and executes ec.clear() if no errors occur. This overload has 
 
@@ -220,7 +220,7 @@ The overload that does not take an error_code& parameter throws [filesystem_erro
 
 noexcept
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/copy&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 The default behavior when copying directories is the non-recursive copy: the files are copied, but not the subdirectories: 
     
@@ -245,7 +245,7 @@ While with `copy_options::recursive`, the subdirectories are also copied, with t
     // /dir3/dir2 is created (with the attributes of /dir1/dir2)
     // /dir1/dir2/file3 is copied to /dir3/dir2/file3
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/copy&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -272,12 +272,12 @@ Run this code
         fs::remove_all("sandbox");
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/copy&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ copy_options](copy_options.html "cpp/experimental/fs/copy options") |  specifies semantics of copy operations   
-(enum) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_copy_options&action=edit)  
+(enum)   
 ---|---  
 [ copy_symlink](copy_symlink.html "cpp/experimental/fs/copy symlink") |  copies a symbolic link   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_copy_symlink&action=edit)  
+(function)   
 [ copy_file](copy_file.html "cpp/experimental/fs/copy file") |  copies file contents   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_copy_file&action=edit)
+(function) 

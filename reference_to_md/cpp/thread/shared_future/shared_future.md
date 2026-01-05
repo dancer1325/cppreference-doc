@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::shared_future`](../shared_future.html "cpp/thread/shared future")
 
@@ -190,7 +190,7 @@ State
 [shared_future::wait_for](wait_for.html "cpp/thread/shared future/wait for")  
 [shared_future::wait_until](wait_until.html "cpp/thread/shared future/wait until")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/shared_future/navbar_content&action=edit)
+
 
 shared_future() noexcept; |  (1)  |  (since C++11)  
 ---|---|---  
@@ -210,7 +210,7 @@ Constructs a new `shared_future`.
 
 3,4) Transfers the shared state held by other to *this. After the construction, other.valid() == false, and this->valid() returns the same value as other.valid() would have returned before the construction.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/shared_future/shared_future&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 other  |  \-  |  another future object to initialize with   
 ---|---|---

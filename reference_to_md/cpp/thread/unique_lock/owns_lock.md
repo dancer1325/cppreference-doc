@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::unique_lock`](../unique_lock.html "cpp/thread/unique lock")
 
@@ -198,7 +198,7 @@ Observers
 Non-member functions  
 [swap(std::unique_lock)](swap2.html "cpp/thread/unique lock/swap2")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/unique_lock/navbar_content&action=edit)
+
 
 bool owns_lock() const noexcept; |  |  (since C++11)  
 ---|---|---  
@@ -206,16 +206,16 @@ bool owns_lock() const noexcept; |  |  (since C++11)
   
 Checks whether *this owns a locked mutex or not. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/unique_lock/owns_lock&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/unique_lock/owns_lock&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 true if *this has an associated mutex and has acquired ownership of it, false otherwise. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/unique_lock/owns_lock&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ operator bool](operator_bool.html "cpp/thread/unique lock/operator bool") |  tests whether the lock owns (i.e., has locked) its associated mutex   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/unique_lock/dsc_operator_bool&action=edit)  
+(public member function)   
 ---|---

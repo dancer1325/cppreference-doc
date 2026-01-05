@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 Defined in header `[<charconv>](../header/charconv.html "cpp/header/charconv")` |  |   
 ---|---|---  
@@ -105,7 +105,7 @@ The library provides overloads for all cv-unqualified standard(until C++23) floa
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/from_chars&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  valid character range to parse   
 ---|---|---  
@@ -113,7 +113,7 @@ value  |  \-  |  the out-parameter where the parsed value is stored if successfu
 base  |  \-  |  integer base to use: a value between 2 and 36 (inclusive).   
 fmt  |  \-  |  floating-point formatting to use, a bitmask of type [`std::chars_format`](chars_format.html "cpp/utility/chars format")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/from_chars&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 On success, returns a value of type [`std::from_chars_result`](from_chars_result.html "cpp/utility/from chars result") such that `ptr` points at the first character not matching the pattern, or has the value equal to last if all characters match and `ec` is value-initialized. 
 
@@ -121,11 +121,11 @@ If there is no pattern match, returns a value of type [`std::from_chars_result`]
 
 If the pattern was matched, but the parsed value is not in the range representable by the type of value, returns value of type [`std::from_chars_result`](from_chars_result.html "cpp/utility/from chars result") such that `ec` equals [std::errc::result_out_of_range](../error/errc.html "cpp/error/errc") and `ptr` points at the first character not matching the pattern. value is unmodified. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/from_chars&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Throws nothing. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/from_chars&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 Unlike other parsing functions in C++ and C libraries, `std::from_chars` is locale-independent, non-allocating, and non-throwing. Only a small subset of parsing policies used by other libraries (such as [std::sscanf](../io/c/scanf.html "cpp/io/c/fscanf")) is provided. This is intended to allow the fastest possible implementation that is useful in common high-throughput contexts such as text-based interchange ([JSON](https://en.wikipedia.org/wiki/JSON "enwiki:JSON") or [XML](https://en.wikipedia.org/wiki/XML "enwiki:XML")). 
 
@@ -139,7 +139,7 @@ A pattern consisting of a sign with no digits following it is treated as pattern
 [`202306L`](../compiler_support/26.html#cpp_lib_to_chars_202306L "cpp/compiler support/26") | (C++26) | Testing for success or failure of [`<charconv>`](../header/charconv.html "cpp/header/charconv") functions   
 [`__cpp_lib_constexpr_charconv`](../experimental/feature_test.html#cpp_lib_constexpr_charconv "cpp/feature test") | [`202207L`](../compiler_support/23.html#cpp_lib_constexpr_charconv_202207L "cpp/compiler support/23") | (C++23) | Add constexpr modifiers to `std::from_chars` and [`std::to_chars`](to_chars.html "cpp/utility/to chars") overloads for integral types   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/from_chars&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -199,7 +199,7 @@ Output:
     String: " 42". This is not a number.
     String: "5000000000". This number is larger than an int.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/from_chars&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -208,24 +208,24 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [LWG 2955](https://cplusplus.github.io/LWG/issue2955) | C++17  | this function was in [`<utility>`](../header/utility.html "cpp/header/utility") and used [std::error_code](../error/error_code.html "cpp/error/error code") | moved to [`<charconv>`](../header/charconv.html "cpp/header/charconv") and uses [std::errc](../error/errc.html "cpp/error/errc")  
 [LWG 3373](https://cplusplus.github.io/LWG/issue3373) | C++17  | `std::from_chars_result` might have additional members  | additional members are prohibited   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/from_chars&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ from_chars_result](from_chars_result.html "cpp/utility/from chars result")(C++17) |  the return type of **`std::from_chars`**   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_from_chars_result&action=edit)  
+(class)   
 ---|---  
 [ to_chars](to_chars.html "cpp/utility/to chars")(C++17) |  converts an integer or floating-point value to a character sequence   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_to_chars&action=edit)  
+(function)   
 [ stoistolstoll](../string/basic_string/stol.html "cpp/string/basic string/stol")(C++11)(C++11)(C++11) |  converts a string to a signed integer   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_stol&action=edit)  
+(function)   
 [ stofstodstold](../string/basic_string/stof.html "cpp/string/basic string/stof")(C++11)(C++11)(C++11) |  converts a string to a floating point value   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_stof&action=edit)  
+(function)   
 [ strtolstrtoll](../string/byte/strtol.html "cpp/string/byte/strtol")(C++11) |  converts a byte string to an integer value   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strtol&action=edit)  
+(function)   
 [ strtofstrtodstrtold](../string/byte/strtof.html "cpp/string/byte/strtof") |  converts a byte string to a floating-point value   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strtof&action=edit)  
+(function)   
 [ scanffscanfsscanf](../io/c/scanf.html "cpp/io/c/fscanf") |  reads formatted input from [stdin](../io/c/std_streams.html "cpp/io/c/std streams"), a file stream or a buffer   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_fscanf&action=edit)  
+(function)   
 [ operator>>](../io/basic_istream/operator_gtgt.html "cpp/io/basic istream/operator gtgt") |  extracts formatted data   
-(public member function of `std::basic_istream<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_istream/dsc_operator_gtgt&action=edit)
+(public member function of `std::basic_istream<CharT,Traits>`) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

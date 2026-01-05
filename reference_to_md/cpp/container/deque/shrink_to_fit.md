@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::deque`](../deque.html "cpp/container/deque")
 
@@ -134,7 +134,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/deque/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/deque/navbar_content&action=edit)
+
 
 void shrink_to_fit(); |  | (constexpr since C++26)  
 ---|---|---  
@@ -161,7 +161,7 @@ If `T` is not [MoveInsertable](../../named_req/MoveInsertable.html "cpp/named re
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/shrink_to_fit&action=edit&section=T-1 "Template:cpp/container/shrink to fit")] Complexity
+### Complexity
 
 At most linear in the size of the container. 
 
@@ -170,13 +170,13 @@ At most linear in the size of the container.
 If an exception is thrown other than by the move constructor of a non-[CopyInsertable](../../named_req/CopyInsertable.html "cpp/named req/CopyInsertable") `T`, there are no effects.  | (since C++11)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/shrink_to_fit&action=edit&section=T-3 "Template:cpp/container/shrink to fit")] Notes
+### Notes
 
 In libstdc++, `shrink_to_fit()` is [not available](https://gcc.gnu.org/onlinedocs/libstdc++/manual/strings.html#strings.string.shrink) in C++98 mode. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/shrink_to_fit&action=edit&section=T-4 "Template:cpp/container/shrink to fit")] Example
+### Example
 
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/deque/example_shrink_to_fit&action=edit)
+
 
 Run this code
     
@@ -264,7 +264,7 @@ Possible output:
     deallocating 512 bytes
     deallocating 64 bytes
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/shrink_to_fit&action=edit&section=T-5 "Template:cpp/container/shrink to fit")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -280,8 +280,8 @@ C++11  | 1\. references, pointers, and iterators were not invalidated (C++98)
 2\. there was no exception safety guarantee (C++11)  | 1\. they may be invalidated  
 2\. added   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/shrink_to_fit&action=edit&section=T-6 "Template:cpp/container/shrink to fit")] See also
+### See also
 
 [ size](size.html "cpp/container/deque/size") |  returns the number of elements   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_size&action=edit)  
+(public member function)   
 ---|---

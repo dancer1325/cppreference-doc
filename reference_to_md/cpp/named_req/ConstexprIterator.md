@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ named requirements](../iterator/concepts.html "cpp/named req")
 
@@ -147,15 +147,15 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/named_req/navbar_content&action=edit)
+
 
 A **ConstexprIterator** is a [LegacyIterator](Iterator.html "cpp/named req/Iterator") that can be used during constant expression evaluation. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/ConstexprIterator&action=edit&section=1 "Edit section: Requirements")] Requirements
+### Requirements
 
 The type It satisfies ConstexprIterator if all operations provided to meet It's iterator category requirements are constexpr functions. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/ConstexprIterator&action=edit&section=2 "Edit section: Standard library")] Standard library
+### Standard library
 
 The following standard library types are **ConstexprIterator s**. 
 
@@ -171,7 +171,7 @@ The following standard library types are **ConstexprIterator s**.
 | (since C++26)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/ConstexprIterator&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [**Iterator library**](../iterator.html "cpp/iterator") |  provides definitions for iterators, iterator traits, adaptors, and utility functions   
 ---|---

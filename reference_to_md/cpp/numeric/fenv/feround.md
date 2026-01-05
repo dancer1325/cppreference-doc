@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [Floating-point environment](../fenv.html "cpp/numeric/fenv")
 
@@ -106,7 +106,7 @@ Macro constants
 [FE_DOWNWARDFE_TONEARESTFE_TOWARDZEROFE_UPWARD](FE_round.html "cpp/numeric/fenv/FE round")(C++11)(C++11)(C++11)(C++11)  
 [FE_DFL_ENV](FE_DFL_ENV.html "cpp/numeric/fenv/FE DFL ENV")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/fenv/navbar_content&action=edit)
+
 
 Defined in header `[<cfenv>](../../header/cfenv.html "cpp/header/cfenv")` |  |   
 ---|---|---  
@@ -131,26 +131,26 @@ Manages the floating-point rounding direction.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/fenv/feround&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 round  |  \-  |  rounding direction, one of [floating point rounding macros](FE_round.html "cpp/numeric/fenv/FE round")  
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/fenv/feround&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) ​0​ on success, non-zero otherwise. 
 
 2) The [floating point rounding macro](FE_round.html "cpp/numeric/fenv/FE round") describing the current rounding direction or a negative value if the direction cannot be determined. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/fenv/feround&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 The current rounding mode, reflecting the effects of the most recent `fesetround`, can also be queried with [FLT_ROUNDS](../../types/climits/FLT_ROUNDS.html "cpp/types/climits/FLT ROUNDS"). 
 
 See [floating-point rounding macros](FE_round.html "cpp/numeric/fenv/FE round") for the effects of rounding. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/fenv/feround&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/example_nearbyint&action=edit)
+
 
 Run this code
     
@@ -198,12 +198,12 @@ Output:
     │  -12.9 │  -13.000000   │  -12.000000   │  -13.000000   │  -12.000000   │
     │   13.0 │   13.000000   │   13.000000   │   13.000000   │   13.000000   │
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/fenv/feround&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ nearbyintnearbyintfnearbyintl](../math/nearbyint.html "cpp/numeric/math/nearbyint")(C++11)(C++11)(C++11) |  nearest integer using current rounding mode   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_nearbyint&action=edit)  
+(function)   
 ---|---  
 [ rintrintfrintllrintlrintflrintlllrintllrintfllrintl](../math/rint.html "cpp/numeric/math/rint")(C++11)(C++11)(C++11)(C++11)(C++11)(C++11)(C++11)(C++11)(C++11) |  nearest integer using current rounding mode with  
 exception if the result differs   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_rint&action=edit)  
+(function)   
 [C documentation](../../../c/numeric/fenv/feround.html "c/numeric/fenv/feround") for fegetround, fesetround

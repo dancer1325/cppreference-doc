@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::iota_view`](../iota_view.html "cpp/ranges/iota view")
 
@@ -268,7 +268,7 @@ operator<=>(iota_view::_iterator_)](iterator.html#Non-member_functions "cpp/rang
 [operator==(iota_view::_iterator_ ,iota_view::_sentinel_)](sentinel.html#Non-member_functions "cpp/ranges/iota view/sentinel")  
 [operator-(iota_view::_iterator_ ,iota_view::_sentinel_)](sentinel.html#Non-member_functions "cpp/ranges/iota view/sentinel")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/iota_view/navbar_content&action=edit)
+
 
 struct /*iterator*/; |  (1) | (exposition only*)  
 ---|---|---  
@@ -349,7 +349,7 @@ However, it only satisfies [LegacyInputIterator](../../named_req/InputIterator.h
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/iota_view/iterator&action=edit&section=1 "Edit section: Semantic requirements")] Semantic requirements
+### Semantic requirements
 
 3) Type `I` models `_decrementable_` only if `I` satisfies `_decrementable_` and all concepts it subsumes are modeled, and given equal objects a and b of type `I`: 
 
@@ -387,7 +387,7 @@ such that b is reachable from a after n applications of ++a, all following condi
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/iota_view/iterator&action=edit&section=2 "Edit section: Nested types")] Nested types
+### Nested types
 
 Type  |  Definition   
 ---|---  
@@ -398,7 +398,7 @@ Type  |  Definition
 `value_type` |  `W`  
 `difference_type` |  /*iota-diff-t*/<W>  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/iota_view/iterator&action=edit&section=3 "Edit section: Determining the iterator concept")] Determining the iterator concept
+#### Determining the iterator concept
 
 `iterator_concept` is defined as follows: 
 
@@ -409,14 +409,14 @@ Type  |  Definition
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/iota_view/iterator&action=edit&section=4 "Edit section: Data members")] Data members
+### Data members
 
 Member  |  Definition   
 ---|---  
 `W` `_value__` |  the current value  
 (exposition-only member object*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/iota_view/iterator&action=edit&section=5 "Edit section: Member functions")] Member functions
+### Member functions
 
 ##  std::ranges::iota_view::_iterator_ ::_iterator_
 
@@ -600,7 +600,7 @@ Run this code
         [assert](../../error/assert.html)(*(it + 3) == 9);
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/iota_view/iterator&action=edit&section=12 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 ##  operator==, <, >, <=, >=, <=>(std::ranges::iota_view::_iterator_)
 
@@ -680,7 +680,7 @@ requires /*advanceable*/<W>; |  (2)  |  (since C++20)
 
 These functions are not visible to ordinary [unqualified](../../language/unqualified_lookup.html "cpp/language/unqualified lookup") or [qualified lookup](../../language/qualified_lookup.html "cpp/language/qualified lookup"), and can only be found by [argument-dependent lookup](../../language/adl.html "cpp/language/adl") when _iterator_ is an associated class of the arguments. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/iota_view/iterator&action=edit&section=13 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

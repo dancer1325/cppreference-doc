@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::pmr::polymorphic_allocator`](../polymorphic_allocator.html "cpp/memory/polymorphic allocator")
 
@@ -206,7 +206,7 @@ Member functions
 Non-member functions  
 [operator==operator!=](operator_eq.html "cpp/memory/polymorphic allocator/operator eq")(until C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/polymorphic_allocator/navbar_content&action=edit)
+
 
 T* allocate( [std::size_t](../../types/size_t.html) n ); |  |  (since C++17)  
 ---|---|---  
@@ -225,20 +225,20 @@ Allocates storage for n objects of type `T` using the underlying memory resource
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/polymorphic_allocator/allocate&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 n  |  \-  |  the number of objects to allocate storage for   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/polymorphic_allocator/allocate&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 A pointer to the allocated storage. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/polymorphic_allocator/allocate&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Throws [std::bad_array_new_length](../new/bad_array_new_length.html "cpp/memory/new/bad array new length") if n > [std::numeric_limits](../../types/numeric_limits.html)<[std::size_t](../../types/size_t.html)>::max() / sizeof(T); may also throw any exceptions thrown by the call to resource()->allocate. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/polymorphic_allocator/allocate&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -247,16 +247,16 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [LWG 3038](https://cplusplus.github.io/LWG/issue3038) | C++17  | `allocate` might allocate storage of wrong size  | throws `length_error` instead   
 [LWG 3237](https://cplusplus.github.io/LWG/issue3237) | C++17  | the exception thrown by `allocate` was inconsistent with `std::allocator::allocate` | made consistent   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/polymorphic_allocator/allocate&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ allocate_bytes](allocate_bytes.html "cpp/memory/polymorphic allocator/allocate bytes")(C++20) |  allocate raw aligned memory from the underlying resource   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/polymorphic_allocator/dsc_allocate_bytes&action=edit)  
+(public member function)   
 ---|---  
 [ allocate_object](allocate_object.html "cpp/memory/polymorphic allocator/allocate object")(C++20) |  allocates raw memory suitable for an object or an array   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/polymorphic_allocator/dsc_allocate_object&action=edit)  
+(public member function)   
 [ new_object](new_object.html "cpp/memory/polymorphic allocator/new object")(C++20) |  allocates and constructs an object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/polymorphic_allocator/dsc_new_object&action=edit)  
+(public member function)   
 [ allocate](../allocator_traits/allocate.html "cpp/memory/allocator traits/allocate")[static] |  allocates uninitialized storage using the allocator   
-(public static member function of `std::allocator_traits<Alloc>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/allocator_traits/dsc_allocate&action=edit)  
+(public static member function of `std::allocator_traits<Alloc>`)   
 [ allocate](../memory_resource/allocate.html "cpp/memory/memory resource/allocate") |  allocates memory   
-(public member function of `std::pmr::memory_resource`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/memory_resource/dsc_allocate&action=edit)
+(public member function of `std::pmr::memory_resource`) 

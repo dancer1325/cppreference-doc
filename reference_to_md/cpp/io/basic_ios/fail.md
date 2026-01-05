@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_ios`](../basic_ios.html "cpp/io/basic ios")
 
@@ -111,7 +111,7 @@ Protected member functions
 [basic_ios::swap](swap.html "cpp/io/basic ios/swap")(C++11)  
 [basic_ios::set_rdbuf](set_rdbuf.html "cpp/io/basic ios/set rdbuf")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ios/navbar_content&action=edit)
+
 
 bool fail() const; |  |   
 ---|---|---  
@@ -131,15 +131,15 @@ See [`ios_base::iostate`](../ios_base/iostate.html "cpp/io/ios base/iostate") fo
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_ios/fail&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_ios/fail&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 true if an error has occurred, false otherwise. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_ios/fail&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -171,7 +171,7 @@ Run this code
             [std::cout](../cout.html) << "Non-integer data encountered\n";
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_ios/fail&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 The following table shows the value of [`basic_ios`](../basic_ios.html "cpp/io/basic ios") accessors ([`good()`](good.html "cpp/io/basic ios/good"), **`fail()`** , etc.) for all possible combinations of [`ios_base::iostate`](../ios_base/iostate.html "cpp/io/ios base/iostate") flags: 
 
@@ -187,5 +187,5 @@ true  |  false  | true  |  false  | true  | true  | true  |  false  | true
 true  | true  |  false  |  false  | true  |  false  | true  |  false  | true   
 true  | true  | true  |  false  | true  | true  | true  |  false  | true   
 [ ferror](../c/ferror.html "cpp/io/c/ferror") |  checks for a file error   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_ferror&action=edit)  
+(function)   
 ---|---

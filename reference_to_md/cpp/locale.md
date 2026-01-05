@@ -30,7 +30,7 @@
 [Symbols index](symbol_index.html "cpp/symbol index")  
 [External libraries](links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 **Localization library**
 
@@ -152,7 +152,7 @@ base classes](locale.html#Facet_category_base_classes "cpp/locale")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/navbar_content&action=edit)
+
 
 The locale facility includes internationalization support for character classification and string collation, numeric, monetary, and date/time formatting and parsing, and message retrieval. Locale settings control the behavior of stream I/O, regular expression library, and other components of the C++ standard library. 
 
@@ -178,7 +178,7 @@ The locale facility includes internationalization support for character classifi
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale&action=edit&section=1 "Edit section: Locales and facets")] Locales and facets
+### Locales and facets
 
 Defined in header `[<locale>](header/locale.html "cpp/header/locale")`  
 ---  
@@ -186,86 +186,86 @@ Defined in header `[<locale>](header/locale.html "cpp/header/locale")`
 #####  Locales   
   
 [ locale](locale/locale.html "cpp/locale/locale") |  set of polymorphic facets that encapsulate cultural differences   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_locale&action=edit)  
+(class)   
 [ use_facet](locale/use_facet.html "cpp/locale/use facet") |  obtains a facet from a locale   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_use_facet&action=edit)  
+(function template)   
 [ has_facet](locale/has_facet.html "cpp/locale/has facet") |  checks if a locale implements a specific facet   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_has_facet&action=edit)  
+(function template)   
   
 #####  Facet category base classes   
   
 [ ctype_base](locale/ctype_base.html "cpp/locale/ctype base") |  defines character classification categories   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_ctype_base&action=edit)  
+(class)   
 [ codecvt_base](locale/codecvt_base.html "cpp/locale/codecvt base") |  defines character conversion errors   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_codecvt_base&action=edit)  
+(class)   
 [ messages_base](locale/messages_base.html "cpp/locale/messages base") |  defines messages catalog type   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_messages_base&action=edit)  
+(class)   
 [ time_base](locale/time_base.html "cpp/locale/time base") |  defines date format constants   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_time_base&action=edit)  
+(class)   
 [ money_base](locale/money_base.html "cpp/locale/money base") |  defines monetary formatting patterns   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_money_base&action=edit)  
+(class)   
   
 #####  ctype facets   
   
 [ ctype](locale/ctype.html "cpp/locale/ctype") |  defines character classification tables   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_ctype&action=edit)  
+(class template)   
 [ ctype_byname](locale/ctype_byname.html "cpp/locale/ctype byname") |  represents the system-supplied [std::ctype](locale/ctype.html "cpp/locale/ctype") for the named locale   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_ctype_byname&action=edit)  
+(class template)   
 [ ctype<char>](locale/ctype_char.html "cpp/locale/ctype char") |  specialization of [std::ctype](locale/ctype.html "cpp/locale/ctype") for type char   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_ctype_char&action=edit)  
+(class template specialization)   
 [ codecvt](locale/codecvt.html "cpp/locale/codecvt") |  converts between character encodings, including UTF-8, UTF-16, UTF-32   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_codecvt&action=edit)  
+(class template)   
 [ codecvt_byname](locale/codecvt_byname.html "cpp/locale/codecvt byname") |  represents the system-supplied [std::codecvt](locale/codecvt.html "cpp/locale/codecvt") for the named locale   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_codecvt_byname&action=edit)  
+(class template)   
   
 #####  numeric facets   
   
 [ num_get](locale/num_get.html "cpp/locale/num get") |  parses numeric values from an input character sequence   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_num_get&action=edit)  
+(class template)   
 [ num_put](locale/num_put.html "cpp/locale/num put") |  formats numeric values for output as character sequence   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_num_put&action=edit)  
+(class template)   
 [ numpunct](locale/numpunct.html "cpp/locale/numpunct") |  defines numeric punctuation rules   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_numpunct&action=edit)  
+(class template)   
 [ numpunct_byname](locale/numpunct_byname.html "cpp/locale/numpunct byname") |  represents the system-supplied [std::numpunct](locale/numpunct.html "cpp/locale/numpunct") for the named locale   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_numpunct_byname&action=edit)  
+(class template)   
   
 #####  collate facets   
   
 [ collate](locale/collate.html "cpp/locale/collate") |  defines lexicographical comparison and hashing of strings   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_collate&action=edit)  
+(class template)   
 [ collate_byname](locale/collate_byname.html "cpp/locale/collate byname") |  represents the system-supplied [std::collate](locale/collate.html "cpp/locale/collate") for the named locale   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_collate_byname&action=edit)  
+(class template)   
   
 #####  time facets   
   
 [ time_get](locale/time_get.html "cpp/locale/time get") |  parses time/date values from an input character sequence into [std::tm](chrono/c/tm.html "cpp/chrono/c/tm")   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_time_get&action=edit)  
+(class template)   
 [ time_get_byname](locale/time_get_byname.html "cpp/locale/time get byname") |  represents the system-supplied [std::time_get](locale/time_get.html "cpp/locale/time get") for the named locale   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_time_get_byname&action=edit)  
+(class template)   
 [ time_put](locale/time_put.html "cpp/locale/time put") |  formats contents of [std::tm](chrono/c/tm.html "cpp/chrono/c/tm") for output as character sequence   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_time_put&action=edit)  
+(class template)   
 [ time_put_byname](locale/time_put_byname.html "cpp/locale/time put byname") |  represents the system-supplied [std::time_put](locale/time_put.html "cpp/locale/time put") for the named locale   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_time_put_byname&action=edit)  
+(class template)   
   
 #####  monetary facets   
   
 [ money_get](locale/money_get.html "cpp/locale/money get") |  parses and constructs a monetary value from an input character sequence   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_money_get&action=edit)  
+(class template)   
 [ money_put](locale/money_put.html "cpp/locale/money put") |  formats a monetary value for output as a character sequence   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_money_put&action=edit)  
+(class template)   
 [ moneypunct](locale/moneypunct.html "cpp/locale/moneypunct") |  defines monetary formatting parameters used by [std::money_get](locale/money_get.html "cpp/locale/money get") and [std::money_put](locale/money_put.html "cpp/locale/money put")   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_moneypunct&action=edit)  
+(class template)   
 [ moneypunct_byname](locale/moneypunct_byname.html "cpp/locale/moneypunct byname") |  represents the system-supplied [std::moneypunct](locale/moneypunct.html "cpp/locale/moneypunct") for the named locale   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_moneypunct_byname&action=edit)  
+(class template)   
   
 #####  messages facets   
   
 [ messages](locale/messages.html "cpp/locale/messages") |  implements retrieval of strings from message catalogs   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_messages&action=edit)  
+(class template)   
 [ messages_byname](locale/messages_byname.html "cpp/locale/messages byname") |  represents the system-supplied [std::messages](locale/messages.html "cpp/locale/messages") for the named locale   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_messages_byname&action=edit)  
+(class template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale&action=edit&section=2 "Edit section: Character classification and conversion")] Character classification and conversion
+### Character classification and conversion
 
 Defined in header `[<locale>](header/locale.html "cpp/header/locale")`  
 ---  
@@ -273,72 +273,72 @@ Defined in header `[<locale>](header/locale.html "cpp/header/locale")`
 #####  Character classification   
   
 [ isspace(std::locale)](locale/isspace.html "cpp/locale/isspace") |  checks if a character is classified as whitespace by a locale   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_isspace&action=edit)  
+(function template)   
 [ isblank(std::locale)](locale/isblank.html "cpp/locale/isblank")(C++11) |  checks if a character is classified as a blank character by a locale   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_isblank&action=edit)  
+(function template)   
 [ iscntrl(std::locale)](locale/iscntrl.html "cpp/locale/iscntrl") |  checks if a character is classified as a control character by a locale   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_iscntrl&action=edit)  
+(function template)   
 [ isupper(std::locale)](locale/isupper.html "cpp/locale/isupper") |  checks if a character is classified as uppercase by a locale   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_isupper&action=edit)  
+(function template)   
 [ islower(std::locale)](locale/islower.html "cpp/locale/islower") |  checks if a character is classified as lowercase by a locale   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_islower&action=edit)  
+(function template)   
 [ isalpha(std::locale)](locale/isalpha.html "cpp/locale/isalpha") |  checks if a character is classified as alphabetic by a locale   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_isalpha&action=edit)  
+(function template)   
 [ isdigit(std::locale)](locale/isdigit.html "cpp/locale/isdigit") |  checks if a character is classified as a digit by a locale   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_isdigit&action=edit)  
+(function template)   
 [ ispunct(std::locale)](locale/ispunct.html "cpp/locale/ispunct") |  checks if a character is classified as punctuation by a locale   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_ispunct&action=edit)  
+(function template)   
 [ isxdigit(std::locale)](locale/isxdigit.html "cpp/locale/isxdigit") |  checks if a character is classified as a hexadecimal digit by a locale   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_isxdigit&action=edit)  
+(function template)   
 [ isalnum(std::locale)](locale/isalnum.html "cpp/locale/isalnum") |  checks if a character is classified as alphanumeric by a locale   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_isalnum&action=edit)  
+(function template)   
 [ isprint(std::locale)](locale/isprint.html "cpp/locale/isprint") |  checks if a character is classified as printable by a locale   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_isprint&action=edit)  
+(function template)   
 [ isgraph(std::locale)](locale/isgraph.html "cpp/locale/isgraph") |  checks if a character is classified as graphical by a locale   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_isgraph&action=edit)  
+(function template)   
   
 #####  Character conversions   
   
 [ toupper(std::locale)](locale/toupper.html "cpp/locale/toupper") |  converts a character to uppercase using the ctype facet of a locale   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_toupper&action=edit)  
+(function template)   
 [ tolower(std::locale)](locale/tolower.html "cpp/locale/tolower") |  converts a character to lowercase using the `ctype` facet of a locale   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_tolower&action=edit)  
+(function template)   
   
 #####  String and stream conversions   
   
 [ wstring_convert](locale/wstring_convert.html "cpp/locale/wstring convert")(C++11)(deprecated in C++17)(removed in C++26) |  performs conversions between a wide string and a byte string   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_wstring_convert&action=edit)  
+(class template)   
 [ wbuffer_convert](locale/wbuffer_convert.html "cpp/locale/wbuffer convert")(C++11)(deprecated in C++17)(removed in C++26) |  performs conversion between a byte stream buffer and a wide stream buffer   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_wbuffer_convert&action=edit)  
+(class template)   
   
 ###  Locale-independent unicode conversion facets
 
 |  Defined in header `[<codecvt>](header/codecvt.html "cpp/header/codecvt")`  
 ---  
 [ codecvt_utf8](locale/codecvt_utf8.html "cpp/locale/codecvt utf8")(C++11)(deprecated in C++17)(removed in C++26) |  converts between UTF-8 and UCS-2/UCS-4   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_codecvt_utf8&action=edit)  
+(class template)   
 [ codecvt_utf16](locale/codecvt_utf16.html "cpp/locale/codecvt utf16")(C++11)(deprecated in C++17)(removed in C++26) |  converts between UTF-16 and UCS-2/UCS-4   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_codecvt_utf16&action=edit)  
+(class template)   
 [ codecvt_utf8_utf16](locale/codecvt_utf8_utf16.html "cpp/locale/codecvt utf8 utf16")(C++11)(deprecated in C++17)(removed in C++26) |  converts between UTF-8 and UTF-16   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_codecvt_utf8_utf16&action=edit)  
+(class template)   
 [ codecvt_mode](locale/codecvt_mode.html "cpp/locale/codecvt mode")(C++11)(deprecated in C++17)(removed in C++26) |  tags to alter behavior of the standard codecvt facets   
-(enum) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_codecvt_mode&action=edit)  
+(enum)   
 (until C++26)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale&action=edit&section=4 "Edit section: C library locales")] C library locales
+### C library locales
 
 Defined in header `[<clocale>](header/clocale.html "cpp/header/clocale")`  
 ---  
 [ setlocale](locale/setlocale.html "cpp/locale/setlocale") |  gets and sets the current C locale   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_setlocale&action=edit)  
+(function)   
 [ LC_ALLLC_COLLATELC_CTYPELC_MONETARYLC_NUMERICLC_TIME](locale/LC_categories.html "cpp/locale/LC categories") |  locale categories for [std::setlocale](locale/setlocale.html "cpp/locale/setlocale")   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_LC_categories&action=edit)  
+(macro constant)   
 [ localeconv](locale/localeconv.html "cpp/locale/localeconv") |  queries numeric and monetary formatting details of the current locale   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_localeconv&action=edit)  
+(function)   
 [ lconv](locale/lconv.html "cpp/locale/lconv") |  formatting details, returned by [std::localeconv](locale/localeconv.html "cpp/locale/localeconv")   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_lconv&action=edit)  
+(class)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [C documentation](../c/locale.html "c/locale") for Localization support  
 ---

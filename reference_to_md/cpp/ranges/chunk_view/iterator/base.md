@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::chunk_view`](../../chunk_view.html "cpp/ranges/chunk view")
 
@@ -299,7 +299,7 @@ operator-(chunk_view::_iterator_)](operator_arith2.html "cpp/ranges/chunk view/i
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/chunk_view/navbar_content&action=edit)
+
 
 constexpr [ranges::iterator_t](../../iterator_t.html)<Base> base() const; |  |  (since C++23)  
 ---|---|---  
@@ -309,15 +309,15 @@ Returns the underlying iterator to the begin of current chunk.
 
 Equivalent to return [` _current__`](../iterator.html#Data_members "cpp/ranges/chunk view/iterator") ;. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/chunk_view/iterator/base&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/chunk_view/iterator/base&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 An iterator. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/chunk_view/iterator/base&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

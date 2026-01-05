@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Ranges](../../ranges.html "cpp/experimental/ranges")
 
@@ -66,7 +66,7 @@
 [Ranges](../../ranges.html#Ranges "cpp/experimental/ranges")  
 [Algorithms](../../ranges.html#Algorithms "cpp/experimental/ranges")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/navbar_content&action=edit)
+
 
 [Iterators library](../../ranges.html#Iterators "cpp/experimental/ranges")
 
@@ -210,7 +210,7 @@ Stream iterators
 | [ostreambuf_iterator](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/iterator/ostreambuf_iterator&action=edit&redlink=1 "cpp/experimental/ranges/iterator/ostreambuf iterator \(page does not exist\)")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/iterator/navbar_content&action=edit)
+
 
 Defined in header `[<experimental/ranges/iterator>](../../../header/experimental/ranges/iterator.html "cpp/header/experimental/ranges/iterator")` |  |   
 ---|---|---  
@@ -237,6 +237,6 @@ Let `a` and `b` be two dereferenceable iterators of type `I`. `ForwardIterator<I
 
 This is known as the _multi-pass guarantee_. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/iterator/ForwardIterator&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 A forward iterator cannot be "stashing": it cannot return a reference to an object within itself, because such references would be invalidated by the destruction of the forward iterator. 

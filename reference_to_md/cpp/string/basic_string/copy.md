@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Strings library](../../string.html "cpp/string")
 
@@ -40,7 +40,7 @@ Classes
 [basic_string_view](../basic_string_view.html "cpp/string/basic string view")(C++17)  
 [char_traits](../char_traits.html "cpp/string/char traits")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/navbar_content&action=edit)
+
 
 [`std::basic_string`](../basic_string.html "cpp/string/basic string")
 
@@ -133,7 +133,7 @@ basic_string_view](operator_basic_string_view.html "cpp/string/basic string/oper
 [hash<std::basic_string>](hash.html "cpp/string/basic string/hash")(C++11)  
 [Deduction guides](deduction_guides.html "cpp/string/basic string/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/navbar_content&action=edit)
+
 
 size_type copy( CharT* dest, size_type count, size_type pos = 0 ) const; |  |  (constexpr since C++20)  
 ---|---|---  
@@ -156,28 +156,28 @@ The resulting character string is not null-terminated.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/copy&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 dest  |  \-  |  pointer to the destination character string   
 ---|---|---  
 count  |  \-  |  length of the substring   
 pos  |  \-  |  position of the first character to include   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/copy&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Number of characters copied. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/copy&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 [std::out_of_range](../../error/out_of_range.html "cpp/error/out of range") if pos > size(). 
 
 If an exception is thrown for any reason, this function has no effect ([strong exception safety guarantee](../../language/exceptions.html#Exception_safety "cpp/language/exceptions")). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/copy&action=edit&section=4 "Edit section: Complexity")] Complexity
+### Complexity
 
 Linear in count. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/copy&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -204,7 +204,7 @@ Output:
     
     WIN
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/copy&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -212,14 +212,14 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 847](https://cplusplus.github.io/LWG/issue847) | C++98  | there was no exception safety guarantee  | added strong exception safety guarantee   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/copy&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ substr](substr.html "cpp/string/basic string/substr") |  returns a substring   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_substr&action=edit)  
+(public member function)   
 ---|---  
 [ copy](../basic_string_view/copy.html "cpp/string/basic string view/copy") |  copies characters   
-(public member function of `std::basic_string_view<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/dsc_copy&action=edit)  
+(public member function of `std::basic_string_view<CharT,Traits>`)   
 [ copycopy_if](../../algorithm/copy.html "cpp/algorithm/copy")(C++11) |  copies a range of elements to a new location   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_copy&action=edit)  
+(function template)   
 [ memcpy](../byte/memcpy.html "cpp/string/byte/memcpy") |  copies one buffer to another   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_memcpy&action=edit)
+(function) 

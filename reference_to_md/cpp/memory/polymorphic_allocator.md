@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 **`std::pmr::polymorphic_allocator`**
 
@@ -206,7 +206,7 @@ Member functions
 Non-member functions  
 [operator==operator!=](polymorphic_allocator/operator_eq.html "cpp/memory/polymorphic allocator/operator eq")(until C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/polymorphic_allocator/navbar_content&action=edit)
+
 
 Defined in header `[<memory_resource>](../header/memory_resource.html "cpp/header/memory resource")` |  |   
 ---|---|---  
@@ -237,56 +237,56 @@ For non-polymorphic allocators, similar propagation can be achieved with the hel
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/polymorphic_allocator&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Member type  |  definition   
 ---|---  
 `value_type` |  `T`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/polymorphic_allocator&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](polymorphic_allocator/polymorphic_allocator.html "cpp/memory/polymorphic allocator/polymorphic allocator") |  constructs a `polymorphic_allocator`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/polymorphic_allocator/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 (destructor)(implicitly declared) |  implicitly declared destructor   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/polymorphic_allocator/dsc_destructor&action=edit)  
+(public member function)   
 operator=[deleted] |  copy assignment operator is deleted   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/polymorphic_allocator/dsc_operator%3D&action=edit)  
+(public member function)   
   
 #####  Public member functions   
   
 [ allocate](polymorphic_allocator/allocate.html "cpp/memory/polymorphic allocator/allocate") |  allocate memory   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/polymorphic_allocator/dsc_allocate&action=edit)  
+(public member function)   
 [ deallocate](polymorphic_allocator/deallocate.html "cpp/memory/polymorphic allocator/deallocate") |  deallocate memory   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/polymorphic_allocator/dsc_deallocate&action=edit)  
+(public member function)   
 [ construct](polymorphic_allocator/construct.html "cpp/memory/polymorphic allocator/construct") |  constructs an object in allocated storage   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/polymorphic_allocator/dsc_construct&action=edit)  
+(public member function)   
 [ destroy](polymorphic_allocator/destroy.html "cpp/memory/polymorphic allocator/destroy")(deprecated in C++20)(undeprecated in C++26) |  destroys an object in allocated storage   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/polymorphic_allocator/dsc_destroy&action=edit)  
+(public member function)   
 [ allocate_bytes](polymorphic_allocator/allocate_bytes.html "cpp/memory/polymorphic allocator/allocate bytes")(C++20) |  allocate raw aligned memory from the underlying resource   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/polymorphic_allocator/dsc_allocate_bytes&action=edit)  
+(public member function)   
 [ deallocate_bytes](polymorphic_allocator/deallocate_bytes.html "cpp/memory/polymorphic allocator/deallocate bytes")(C++20) |  free raw memory obtained from `allocate_bytes`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/polymorphic_allocator/dsc_deallocate_bytes&action=edit)  
+(public member function)   
 [ allocate_object](polymorphic_allocator/allocate_object.html "cpp/memory/polymorphic allocator/allocate object")(C++20) |  allocates raw memory suitable for an object or an array   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/polymorphic_allocator/dsc_allocate_object&action=edit)  
+(public member function)   
 [ deallocate_object](polymorphic_allocator/deallocate_object.html "cpp/memory/polymorphic allocator/deallocate object")(C++20) |  frees raw memory obtained by `allocate_object`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/polymorphic_allocator/dsc_deallocate_object&action=edit)  
+(public member function)   
 [ new_object](polymorphic_allocator/new_object.html "cpp/memory/polymorphic allocator/new object")(C++20) |  allocates and constructs an object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/polymorphic_allocator/dsc_new_object&action=edit)  
+(public member function)   
 [ delete_object](polymorphic_allocator/delete_object.html "cpp/memory/polymorphic allocator/delete object")(C++20) |  destroys and deallocates an object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/polymorphic_allocator/dsc_delete_object&action=edit)  
+(public member function)   
 [ select_on_container_copy_construction](polymorphic_allocator/select_on_container_copy_construction.html "cpp/memory/polymorphic allocator/select on container copy construction") |  create a new `polymorphic_allocator` for use by a container's copy constructor   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/polymorphic_allocator/dsc_select_on_container_copy_construction&action=edit)  
+(public member function)   
 [ resource](polymorphic_allocator/resource.html "cpp/memory/polymorphic allocator/resource") |  returns a pointer to the underlying memory resource   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/polymorphic_allocator/dsc_resource&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/polymorphic_allocator&action=edit&section=3 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ operator==operator!=](polymorphic_allocator/operator_eq.html "cpp/memory/polymorphic allocator/operator eq")(removed in C++20) |  compare two `polymorphic_allocator`s   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/polymorphic_allocator/dsc_operator_eq&action=edit)  
+(function)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/polymorphic_allocator&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 `polymorphic_allocator` does not propagate on container copy assignment, move assignment, or swap. As a result, move assignment of a `polymorphic_allocator`-using container can throw, and swapping two `polymorphic_allocator`-using containers whose allocators do not compare equal results in undefined behavior. 
 
@@ -294,10 +294,10 @@ operator=[deleted] |  copy assignment operator is deleted
 ---|---|---|---  
 [`__cpp_lib_polymorphic_allocator`](../experimental/feature_test.html#cpp_lib_polymorphic_allocator "cpp/feature test") | [`201902L`](../compiler_support/20.html#cpp_lib_polymorphic_allocator_201902L "cpp/compiler support/20") | (C++20) | `std::pmr::polymorphic_allocator<>` as a vocabulary type   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/polymorphic_allocator&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ memory_resource](memory_resource.html "cpp/memory/memory resource")(C++17) |  an abstract interface for classes that encapsulate memory resources   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_memory_resource&action=edit)  
+(class)   
 ---|---
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

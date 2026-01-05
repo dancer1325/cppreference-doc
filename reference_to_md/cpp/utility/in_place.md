@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 Defined in header `[<utility>](../header/utility.html "cpp/header/utility")` |  |   
 ---|---|---  
@@ -148,26 +148,26 @@ constexpr std::in_place_index_t<I> in_place_index {}; |  (6)  |  (since C++17)
 
 2,4,6) The corresponding `std::in_place`, `std::in_place_type`, and `std::in_place_index` instances of (1,3,5) are disambiguation tags that can be passed to the constructors to indicate that the contained object should be constructed in-place, and (for the latter two) the type of the object to be constructed.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/in_place&action=edit&section=1 "Edit section: Standard library")] Standard library
+### Standard library
 
 The following standard library types use (1-6) as disambiguation tags: 
 
 [ any](any.html "cpp/utility/any")(C++17) |  objects that hold instances of any [CopyConstructible](../named_req/CopyConstructible.html "cpp/named req/CopyConstructible") type   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_any&action=edit)  
+(class)   
 ---|---  
 [ expected](expected.html "cpp/utility/expected")(C++23) |  a wrapper that contains either an expected or error value   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_expected&action=edit)  
+(class template)   
 [ move_only_function](functional/move_only_function.html "cpp/utility/functional/move only function")(C++23) |  move-only wrapper of any callable object that supports qualifiers in a given call signature   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_move_only_function&action=edit)  
+(class template)   
 [ optional](optional.html "cpp/utility/optional")(C++17) |  a wrapper that may or may not hold an object   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_optional&action=edit)  
+(class template)   
 [ variant](variant.html "cpp/utility/variant")(C++17) |  a type-safe discriminated union   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_variant&action=edit)  
+(class template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/in_place&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ sorted_uniquesorted_unique_t](../container/sorted_unique.html "cpp/container/sorted unique")(C++23) |  indicates that elements of a range are sorted and unique  
-(tag)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_sorted_unique&action=edit)  
+(tag)  
 ---|---  
 [ sorted_equivalentsorted_equivalent_t](../container/sorted_equivalent.html "cpp/container/sorted equivalent")(C++23) |  indicates that elements of a range are sorted (uniqueness is not required)  
-(tag)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_sorted_equivalent&action=edit)
+(tag)

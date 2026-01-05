@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 Defined in header `[<memory>](../header/memory.html "cpp/header/memory")` |  |   
 ---|---|---  
@@ -221,17 +221,17 @@ If [std::is_array_v](../types/is_array.html)<T> is true and sizeof...(Args) is n
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/construct_at&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 location  |  \-  |  pointer to the uninitialized storage on which a `T` object will be constructed   
 ---|---|---  
 args...  |  \-  |  arguments used for initialization   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/construct_at&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 location
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/construct_at&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -264,7 +264,7 @@ Run this code
      
     int main() {}
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/construct_at&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -273,14 +273,14 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [LWG 3436](https://cplusplus.github.io/LWG/issue3436) | C++20  | `construct_at` could not create objects of array types  | can value-initialize bounded arrays   
 [LWG 3870](https://cplusplus.github.io/LWG/issue3870) | C++20  | `construct_at` could create objects of cv-qualified types  | only cv-unqualified types are permitted   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/construct_at&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ allocate](allocator/allocate.html "cpp/memory/allocator/allocate") |  allocates uninitialized storage   
-(public member function of `std::allocator<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/allocator/dsc_allocate&action=edit)  
+(public member function of `std::allocator<T>`)   
 ---|---  
 [ construct](allocator_traits/construct.html "cpp/memory/allocator traits/construct")[static] |  constructs an object in the allocated storage   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/allocator_traits/dsc_construct&action=edit)  
+(function template)   
 [ destroy_at](destroy_at.html "cpp/memory/destroy at")(C++17) |  destroys an object at a given address   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_destroy_at&action=edit)  
+(function template)   
 [ ranges::construct_at](ranges/construct_at.html "cpp/memory/ranges/construct at")(C++20) |  creates an object at a given address  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/ranges/dsc_construct_at&action=edit)
+(algorithm function object)

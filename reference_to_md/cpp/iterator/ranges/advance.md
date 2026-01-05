@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](../empty.html "cpp/iterator/empty")(C++17)  
 [data](../data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 Defined in header `[<iterator>](../../header/iterator.html "cpp/header/iterator")` |  |   
 ---|---|---  
@@ -236,28 +236,28 @@ The function-like entities described on this page are [_algorithm function objec
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/ranges/advance&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 i  |  \-  |  iterator to be advanced   
 ---|---|---  
 bound  |  \-  |  sentinel denoting the end of the range i is an iterator to   
 n  |  \-  |  number of maximal increments of i  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/ranges/advance&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 3) The difference between n and the actual distance i traversed.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/ranges/advance&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Linear. 
 
 However, if `I` additionally models [std::random_access_iterator](../random_access_iterator.html "cpp/iterator/random access iterator"), or `S` models [std::sized_sentinel_for](../sized_sentinel_for.html)<I>, or `I` and `S` model [std::assignable_from](../../concepts/assignable_from.html)<I&, S>, complexity is constant. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/ranges/advance&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 The behavior is undefined if the specified sequence of increments or decrements would require that a non-incrementable iterator (such as the past-the-end iterator) is incremented, or that a non-decrementable iterator (such as the front iterator or the singular iterator) is decremented. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/ranges/advance&action=edit&section=5 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     struct advance_fn
@@ -342,7 +342,7 @@ The behavior is undefined if the specified sequence of increments or decrements 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/ranges/advance&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -382,14 +382,14 @@ Output:
     4) diff: 0, value: 4
     5) diff: 3, vi == v.end(): true
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/ranges/advance&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ ranges::next](next.html "cpp/iterator/ranges/next")(C++20) |  increment an iterator by a given distance or to a bound  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/ranges/dsc_next&action=edit)  
+(algorithm function object)  
 ---|---  
 [ ranges::prev](prev.html "cpp/iterator/ranges/prev")(C++20) |  decrement an iterator by a given distance or to a bound  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/ranges/dsc_prev&action=edit)  
+(algorithm function object)  
 [ ranges::distance](distance.html "cpp/iterator/ranges/distance")(C++20) |  returns the distance between an iterator and a sentinel, or between the beginning and end of a range  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/ranges/dsc_distance&action=edit)  
+(algorithm function object)  
 [ advance](../advance.html "cpp/iterator/advance") |  advances an iterator by given distance   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_advance&action=edit)
+(function template) 

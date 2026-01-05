@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -71,7 +71,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::deque`](../deque.html "cpp/container/deque")
 
@@ -132,7 +132,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/deque/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/deque/navbar_content&action=edit)
+
 
 deque() : deque(Allocator()) {} |  (1) | (since C++11)   
 (constexpr since C++26)  
@@ -229,7 +229,7 @@ If `T` is not [MoveInsertable](../../named_req/MoveInsertable.html "cpp/named re
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/deque/deque&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 alloc  |  \-  |  allocator to use for all memory allocations of this container   
 ---|---|---  
@@ -240,7 +240,7 @@ other  |  \-  |  another container to be used as source to initialize the elemen
 init  |  \-  |  initializer list to initialize the elements of the container with   
 rg  |  \-  |  a container compatible range   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/deque/deque&action=edit&section=2 "Edit section: Complexity")] Complexity
+### Complexity
 
 1,2) Constant.
 
@@ -260,11 +260,11 @@ rg  |  \-  |  a container compatible range
 
 11) Linear in init.size().
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/deque/deque&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Calls to Allocator::allocate may throw. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/deque/deque&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 After container move construction (overloads ([8](deque.html#Version_8)) and ([10](deque.html#Version_10))), references, pointers, and iterators (other than the end iterator) to other remain valid, but refer to elements that are now in *this. The current standard makes this guarantee via the blanket statement in [[container.reqmts]/67](https://eel.is/c++draft/container.reqmts#67), and a more direct guarantee is under consideration via [LWG issue 2321](https://cplusplus.github.io/LWG/issue2321). 
 
@@ -272,7 +272,7 @@ After container move construction (overloads ([8](deque.html#Version_8)) and ([1
 ---|---|---|---  
 [`__cpp_lib_containers_ranges`](../../experimental/feature_test.html#cpp_lib_containers_ranges "cpp/feature test") | [`202202L`](../../compiler_support/23.html#cpp_lib_containers_ranges_202202L "cpp/compiler support/23") | (C++23) | [Ranges-aware](../../ranges/to.html#container_compatible_range "cpp/ranges/to") construction and insertion; overload ([6](deque.html#Version_6))  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/deque/deque&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -326,7 +326,7 @@ Output:
     4: {Mo, Mo, Mo, Mo, Mo}
     5: {cat, cow, crow}
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/deque/deque&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -345,12 +345,12 @@ is not an [LegacyInputIterator](../../named_req/InputIterator.html "cpp/named re
 [N3346](https://wg21.link/N3346) | C++11  | for overload ([3](deque.html#Version_3)), the elements in  
 the container were value-initialized  | they are default-inserted   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/deque/deque&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ assign](assign.html "cpp/container/deque/assign") |  assigns values to the container   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_assign&action=edit)  
+(public member function)   
 ---|---  
 [ operator=](operator=.html "cpp/container/deque/operator=") |  assigns values to the container   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_operator%3D&action=edit)
+(public member function) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

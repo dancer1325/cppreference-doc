@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 [Experimental library headers](../experimental.html "cpp/header/experimental")
 
@@ -292,11 +292,11 @@ Networking TS
 Reflection TS  
 [`<experimental/reflect>`](reflect.html "cpp/header/experimental/reflect")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/experimental/navbar_content&action=edit)
+
 
 This header is part of the Library Fundamentals TS ([v1](../../experimental/memory.html "cpp/experimental/lib extensions"), [v2](../../experimental/lib_extensions_2.html "cpp/experimental/lib extensions 2")). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/any&action=edit&section=1 "Edit section: Classes")] Classes
+### Classes
 
 Name  |  Description   
 ---|---  
@@ -305,15 +305,15 @@ Name  |  Description
 [ any](../../experimental/any.html "cpp/experimental/any")(library fundamentals TS) |  Objects that hold instances of any type that satisfies the `ValueType` requirements.   
 (class)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/any&action=edit&section=2 "Edit section: Functions")] Functions
+### Functions
 
 [ swap](../../experimental/any/swap2.html "cpp/experimental/any/swap2") |  swaps two `any` instances   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/any/dsc_swap2&action=edit)  
+(function)   
 ---|---  
 [ any_cast](../../experimental/any/any_cast.html "cpp/experimental/any/any cast") |  type-safe access to the contained object   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/any/dsc_any_cast&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/any&action=edit&section=3 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     namespace std {

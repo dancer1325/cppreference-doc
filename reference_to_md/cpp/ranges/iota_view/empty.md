@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::iota_view`](../iota_view.html "cpp/ranges/iota view")
 
@@ -268,7 +268,7 @@ operator<=>(iota_view::_iterator_)](iterator.html#Non-member_functions "cpp/rang
 [operator==(iota_view::_iterator_ ,iota_view::_sentinel_)](sentinel.html#Non-member_functions "cpp/ranges/iota view/sentinel")  
 [operator-(iota_view::_iterator_ ,iota_view::_sentinel_)](sentinel.html#Non-member_functions "cpp/ranges/iota view/sentinel")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/iota_view/navbar_content&action=edit)
+
 
 constexpr bool empty() const; |  |  (since C++20)  
 ---|---|---  
@@ -286,11 +286,11 @@ Checks whether the range is empty (i.e. whether the beginning value is the same 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/iota_view/empty&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 `_[value_](../iota_view.html#value "cpp/ranges/iota view")_`` `==` `` _[bound_](../iota_view.html#bound "cpp/ranges/iota view")_`
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/iota_view/empty&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -310,7 +310,7 @@ Run this code
         [assert](../../error/assert.html)(!c.empty());
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/iota_view/empty&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -318,8 +318,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 4001](https://cplusplus.github.io/LWG/issue4001) | C++20  | the inherited member `empty` function was not always valid  | `empty` is always provided   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/iota_view/empty&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ size](size.html "cpp/ranges/iota view/size") |  returns the number of elements, provided only if the underlying (adapted) range satisfies [`sized_range`](../sized_range.html "cpp/ranges/sized range")   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/dsc_size&action=edit)  
+(public member function)   
 ---|---

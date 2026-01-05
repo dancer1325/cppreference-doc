@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](../empty.html "cpp/iterator/empty")(C++17)  
 [data](../data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 Defined in header `[<iterator>](../../header/iterator.html "cpp/header/iterator")` |  |   
 ---|---|---  
@@ -230,14 +230,14 @@ The function-like entities described on this page are [_algorithm function objec
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/ranges/prev&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 i  |  \-  |  an iterator   
 ---|---|---  
 n  |  \-  |  number of elements i should be descended   
 bound  |  \-  |  iterator denoting the beginning of the range i points to   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/ranges/prev&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) The predecessor of i.
 
@@ -245,13 +245,13 @@ bound  |  \-  |  iterator denoting the beginning of the range i points to
 
 3) The nth predecessor of iterator i, or the first iterator that compares equal to bound, whichever is first.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/ranges/prev&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 1) Constant.
 
 2,3) Constant if `I` models [std::random_access_iterator](../random_access_iterator.html)<I>; otherwise linear.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/ranges/prev&action=edit&section=4 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     struct prev_fn
@@ -282,13 +282,13 @@ bound  |  \-  |  iterator denoting the beginning of the range i points to
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/ranges/prev&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 Although the expression \--r.end() often compiles for containers, it is not guaranteed to do so: r.end() is an rvalue expression, and there is no iterator requirement that specifies that decrement of an rvalue is guaranteed to work. In particular, when iterators are implemented as pointers or its `operator--` is lvalue-ref-qualified, \--r.end() does not compile, while ranges::prev(r.end()) does. 
 
 This is further exacerbated by ranges that do not model [ranges::common_range](../../ranges/common_range.html). For example, for some underlying ranges, ranges::transform_view::end doesn't have the same return type as ranges::transform_view::begin, and so \--r.end() won't compile. This isn't something that `ranges::prev` can aid with, but there are workarounds. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/ranges/prev&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -313,12 +313,12 @@ Output:
     1
     3
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/ranges/prev&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ ranges::next](next.html "cpp/iterator/ranges/next")(C++20) |  increment an iterator by a given distance or to a bound  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/ranges/dsc_next&action=edit)  
+(algorithm function object)  
 ---|---  
 [ ranges::advance](advance.html "cpp/iterator/ranges/advance")(C++20) |  advances an iterator by given distance or to a given bound  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/ranges/dsc_advance&action=edit)  
+(algorithm function object)  
 [ prev](../prev.html "cpp/iterator/prev")(C++11) |  decrement an iterator   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_prev&action=edit)
+(function template) 

@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 `[std::queue](../queue.html "cpp/container/queue")`
 
@@ -102,7 +102,7 @@ Tables
 [formatter<std::queue>](formatter.html "cpp/container/queue/formatter")(C++23)  
 [Deduction guides](deduction_guides.html "cpp/container/queue/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/queue/navbar_content&action=edit)
+
 
 ~queue(); |  | (constexpr since C++26)  
 ---|---|---  
@@ -110,10 +110,10 @@ Tables
   
 Destructs the `queue`. The destructors of the elements are called and the used storage is deallocated. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/destructor&action=edit&section=T-1 "Template:cpp/container/destructor")] Complexity
+### Complexity
 
 Linear in the size of *this. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/destructor&action=edit&section=T-2 "Template:cpp/container/destructor")] Notes
+### Notes
 
 If the elements are pointers, the pointed-to objects are not destroyed. 

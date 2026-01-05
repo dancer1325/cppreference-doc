@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::drop_view`](../drop_view.html "cpp/ranges/drop view")
 
@@ -238,7 +238,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
 [drop_view::reserve_hint](reserve_hint.html "cpp/ranges/drop view/reserve hint")(C++26)  
 [Deduction guides](deduction_guides.html "cpp/ranges/drop view/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/drop_view/navbar_content&action=edit)
+
 
 constexpr auto begin()  
 requires (!(/*simple-view*/<V> &&  
@@ -264,11 +264,11 @@ If `V` is not a [`random_access_range`](../random_access_range.html "cpp/ranges/
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/drop_view/begin&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 [ranges::next](../../iterator/ranges/next.html)([ranges::begin](../begin.html)(`_[base_](../drop_view.html#base "cpp/ranges/drop view")_`),` `` _[count_](../drop_view.html#count "cpp/ranges/drop view")_` , [ranges::end](../end.html)(`_[base_](../drop_view.html#base "cpp/ranges/drop view")_`)). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/drop_view/begin&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -305,7 +305,7 @@ Output:
     *drop_view::begin() == 'C'
     C++20!
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/drop_view/begin&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -313,12 +313,12 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 3482](https://cplusplus.github.io/LWG/issue3482) | C++20  | the const overload can be called with unsized ranges  | the const overload requires `sized_range`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/drop_view/begin&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ end](end.html "cpp/ranges/drop view/end") |  returns an iterator or a sentinel to the end   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/dsc_end&action=edit)  
+(public member function)   
 ---|---  
 [ ranges::begin](../begin.html "cpp/ranges/begin")(C++20) |  returns an iterator to the beginning of a range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_begin&action=edit)  
+(customization point object)  
 [ ranges::end](../end.html "cpp/ranges/end")(C++20) |  returns a sentinel indicating the end of a range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_end&action=edit)
+(customization point object)

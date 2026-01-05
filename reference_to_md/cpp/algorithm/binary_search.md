@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](ranges/copy.html "cpp/algorithm/ra
 [uninitialized_default_construct_n](../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -357,7 +357,7 @@ If any of the following conditions is satisfied, the behavior is undefined:
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/binary_search&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  the pair of iterators defining the partitioned [range](../iterator.html#Ranges "cpp/iterator") of elements to examine   
 ---|---|---  
@@ -369,11 +369,11 @@ Type requirements
 -`ForwardIt` must meet the requirements of [LegacyForwardIterator](../named_req/ForwardIterator.html "cpp/named req/ForwardIterator").   
 -`Compare` must meet the requirements of [BinaryPredicate](../named_req/BinaryPredicate.html "cpp/named req/BinaryPredicate"). It is not required to satisfy [Compare](../named_req/Compare.html "cpp/named req/Compare").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/binary_search&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 true if an element equivalent to value is found, false otherwise. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/binary_search&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Given \\(\scriptsize N\\)N as [std::distance](../iterator/distance.html)(first, last): 
 
@@ -383,7 +383,7 @@ Given \\(\scriptsize N\\)N as [std::distance](../iterator/distance.html)(first, 
 
 However, if `ForwardIt` is not a [LegacyRandomAccessIterator](../named_req/RandomAccessIterator.html "cpp/named req/RandomAccessIterator"), the number of iterator increments is linear in \\(\scriptsize N\\)N. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/binary_search&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 Although `std::binary_search` only requires `[`first`, `last`)` to be partitioned, this algorithm is usually used in the case where `[`first`, `last`)` is sorted, so that the binary search is valid for any value. 
 
@@ -393,7 +393,7 @@ Although `std::binary_search` only requires `[`first`, `last`)` to be partitione
 ---|---|---|---  
 [`__cpp_lib_algorithm_default_value_type`](../experimental/feature_test.html#cpp_lib_algorithm_default_value_type "cpp/feature test") | [`202403`](../compiler_support/26.html#cpp_lib_algorithm_default_value_type_202403 "cpp/compiler support/26") | (C++26) | [List-initialization](../language/list_initialization.html "cpp/language/list initialization") for algorithms ([1,2](binary_search.html#Version_1))  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/binary_search&action=edit&section=5 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
 
 See also the implementations in [libstdc++](https://github.com/gcc-mirror/gcc/blob/d9375e490072d1aae73a93949aa158fcd2a27018/libstdc%2B%2B-v3/include/bits/stl_algo.h#L2236) and [libc++](https://github.com/llvm-mirror/libcxx/blob/a12cb9d211019d99b5875b6d8034617cbc24c2cc/include/algorithm#L4320). 
 
@@ -418,7 +418,7 @@ See also the implementations in [libstdc++](https://github.com/gcc-mirror/gcc/bl
         return (!(first == last) and !(comp(value, *first)));
     }  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/binary_search&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -462,7 +462,7 @@ Output:
     Searching for 3
     Found 3
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/binary_search&action=edit&section=7 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -473,16 +473,16 @@ to be [LessThanComparable](../named_req/LessThanComparable.html "cpp/named req/L
 heterogeneous comparisons permitted   
 [LWG 787](https://cplusplus.github.io/LWG/issue787) | C++98  | at most \\(\scriptsize \log_{2}(N)+2\\)log2(N)+2 comparisons were allowed  | corrected to \\(\scriptsize \log_{2}(N)+O(1)\\)log2(N)+O(1)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/binary_search&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [ equal_range](equal_range.html "cpp/algorithm/equal range") |  returns range of elements matching a specific key   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_equal_range&action=edit)  
+(function template)   
 ---|---  
 [ lower_bound](lower_bound.html "cpp/algorithm/lower bound") |  returns an iterator to the first element _not less_ than the given value   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_lower_bound&action=edit)  
+(function template)   
 [ upper_bound](upper_bound.html "cpp/algorithm/upper bound") |  returns an iterator to the first element _greater_ than a certain value   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_upper_bound&action=edit)  
+(function template)   
 [ ranges::binary_search](ranges/binary_search.html "cpp/algorithm/ranges/binary search")(C++20) |  determines if an element exists in a partially-ordered range  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_binary_search&action=edit)
+(algorithm function object)
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

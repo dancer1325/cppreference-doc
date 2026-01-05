@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::shared_lock`](../shared_lock.html "cpp/thread/shared lock")
 
@@ -198,7 +198,7 @@ Observers
 Non-member functions  
 [swap(std::shared_lock)](swap2.html "cpp/thread/shared lock/swap2")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/shared_lock/navbar_content&action=edit)
+
 
 shared_lock& operator=( shared_lock&& other ) noexcept; |  |  (since C++14)  
 ---|---|---  
@@ -210,16 +210,16 @@ If other is the same object as *this, there is no effect.
 
 Otherwise, if prior to this call *this has an associated mutex (([mutex()](mutex.html "cpp/thread/shared lock/mutex") returns a non-null pointer) and has acquired ownership of it (owns() returns true), the mutex is unlocked by calling [unlock_shared()](../shared_mutex/unlock_shared.html "cpp/thread/shared mutex/unlock shared"). After this call, other has no associated mutex. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/shared_lock/operator%3D&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 other  |  \-  |  another `shared_lock` to replace the state with   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/shared_lock/operator%3D&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 *this
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/shared_lock/operator%3D&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

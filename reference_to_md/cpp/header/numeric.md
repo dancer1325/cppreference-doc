@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header is part of the [numeric](../numeric.html "cpp/numeric") library. 
 
@@ -202,47 +202,47 @@ This header is part of the [numeric](../numeric.html "cpp/numeric") library.
   
 ---  
 [ iota](../algorithm/iota.html "cpp/algorithm/iota")(C++11) |  fills a range with successive increments of the starting value   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_iota&action=edit)  
+(function template)   
 [ ranges::iota](../algorithm/ranges/iota.html "cpp/algorithm/ranges/iota")(C++23) |  fills a range with successive increments of the starting value  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_iota&action=edit)  
+(algorithm function object)  
 [ accumulate](../algorithm/accumulate.html "cpp/algorithm/accumulate") |  sums up or folds a range of elements   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_accumulate&action=edit)  
+(function template)   
 [ reduce](../algorithm/reduce.html "cpp/algorithm/reduce")(C++17) |  similar to [std::accumulate](../algorithm/accumulate.html "cpp/algorithm/accumulate"), except out of order   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_reduce&action=edit)  
+(function template)   
 [ transform_reduce](../algorithm/transform_reduce.html "cpp/algorithm/transform reduce")(C++17) |  applies an invocable, then reduces out of order   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_transform_reduce&action=edit)  
+(function template)   
 [ inner_product](../algorithm/inner_product.html "cpp/algorithm/inner product") |  computes the inner product of two ranges of elements   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_inner_product&action=edit)  
+(function template)   
 [ adjacent_difference](../algorithm/adjacent_difference.html "cpp/algorithm/adjacent difference") |  computes the differences between adjacent elements in a range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_adjacent_difference&action=edit)  
+(function template)   
 [ partial_sum](../algorithm/partial_sum.html "cpp/algorithm/partial sum") |  computes the partial sum of a range of elements   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_partial_sum&action=edit)  
+(function template)   
 [ inclusive_scan](../algorithm/inclusive_scan.html "cpp/algorithm/inclusive scan")(C++17) |  similar to [std::partial_sum](../algorithm/partial_sum.html "cpp/algorithm/partial sum"), includes the ith input element in the ith sum   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_inclusive_scan&action=edit)  
+(function template)   
 [ exclusive_scan](../algorithm/exclusive_scan.html "cpp/algorithm/exclusive scan")(C++17) |  similar to [std::partial_sum](../algorithm/partial_sum.html "cpp/algorithm/partial sum"), excludes the ith input element from the ith sum   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_exclusive_scan&action=edit)  
+(function template)   
 [ transform_inclusive_scan](../algorithm/transform_inclusive_scan.html "cpp/algorithm/transform inclusive scan")(C++17) |  applies an invocable, then calculates inclusive scan   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_transform_inclusive_scan&action=edit)  
+(function template)   
 [ transform_exclusive_scan](../algorithm/transform_exclusive_scan.html "cpp/algorithm/transform exclusive scan")(C++17) |  applies an invocable, then calculates exclusive scan   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_transform_exclusive_scan&action=edit)  
+(function template)   
 [ gcd](../numeric/gcd.html "cpp/numeric/gcd")(C++17) |  computes the greatest common divisor of two integers   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/dsc_gcd&action=edit)  
+(function template)   
 [ lcm](../numeric/lcm.html "cpp/numeric/lcm")(C++17) |  computes the least common multiple of two integers   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/dsc_lcm&action=edit)  
+(function template)   
 [ midpoint](../numeric/midpoint.html "cpp/numeric/midpoint")(C++20) |  midpoint between two numbers or pointers   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/dsc_midpoint&action=edit)  
+(function template)   
 [ add_sat](../numeric/add_sat.html "cpp/numeric/add sat")(C++26) |  saturating addition operation on two integers   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/dsc_add_sat&action=edit)  
+(function template)   
 [ sub_sat](../numeric/sub_sat.html "cpp/numeric/sub sat")(C++26) |  saturating subtraction operation on two integers   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/dsc_sub_sat&action=edit)  
+(function template)   
 [ mul_sat](../numeric/mul_sat.html "cpp/numeric/mul sat")(C++26) |  saturating multiplication operation on two integers   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/dsc_mul_sat&action=edit)  
+(function template)   
 [ div_sat](../numeric/div_sat.html "cpp/numeric/div sat")(C++26) |  saturating division operation on two integers   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/dsc_div_sat&action=edit)  
+(function template)   
 [ saturate_cast](../numeric/saturate_cast.html "cpp/numeric/saturate cast")(C++26) |  returns an integer value clamped to the range of another integer type   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/dsc_saturate_cast&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/numeric&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     namespace std {

@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::flat_set`](../flat_set.html "cpp/container/flat set")
 
@@ -134,7 +134,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/flat set/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/flat_set/navbar_content&action=edit)
+
 
 Defined in header `[<flat_set>](../../header/flat_set.html "cpp/header/flat set")` |  |   
 ---|---|---  
@@ -154,16 +154,16 @@ Specializes the [std::swap](../../utility/swap.html "cpp/algorithm/swap") algori
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/swap2&action=edit&section=T-1 "Template:cpp/container/swap2")] Parameters
+### Parameters
 
 lhs, rhs  |  \-  |  containers whose contents to swap   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/swap2&action=edit&section=T-2 "Template:cpp/container/swap2")] Complexity
+### Complexity
 
 Same as swapping the underlying containers. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/swap2&action=edit&section=T-5 "Template:cpp/container/swap2")] Example
+### Example
 
 Run this code
     
@@ -206,8 +206,8 @@ Output:
     Alice: 7 8 9 10
     Bobby: 1 2 3
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/swap2&action=edit&section=T-6 "Template:cpp/container/swap2")] See also
+### See also
 
 [ swap](swap.html "cpp/container/flat set/swap") |  swaps the contents   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_swap&action=edit)  
+(public member function)   
 ---|---

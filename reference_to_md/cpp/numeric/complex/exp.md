@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [`std::complex`](../complex.html "cpp/numeric/complex")
 
@@ -164,7 +164,7 @@
 [tuple_size<std::complex>](tuple_size.html "cpp/numeric/complex/tuple size")(C++26)  
 [tuple_element<std::complex>](tuple_element.html "cpp/numeric/complex/tuple element")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/navbar_content&action=edit)
+
 
 Defined in header `[<complex>](../../header/complex.html "cpp/header/complex")` |  |   
 ---|---|---  
@@ -186,17 +186,17 @@ Compute base-e exponential of z, that is _e_ (Euler's number, `2.7182818`) raise
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/exp&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 z  |  \-  |  complex value   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/exp&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 If no errors occur, _e_ raised to the power of z, \\(\small e^z\\)ez  
 , is returned. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/exp&action=edit&section=3 "Edit section: Error handling and special values")] Error handling and special values
+### Error handling and special values
 
 Errors are reported consistent with [math_errhandling](../math/math_errhandling.html "cpp/numeric/math/math errhandling"). 
 
@@ -221,7 +221,7 @@ If the implementation supports IEEE floating-point arithmetic,
 
 where \\(\small{\rm cis}(y)\\)cis(y) is \\(\small \cos(y)+{\rm i}\sin(y)\\)cos(y) + i sin(y). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/exp&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 The complex exponential function \\(\small e^z\\)ez  
 for \\(\small z = x + {\rm i}y\\)z = x+iy equals \\(\small e^x {\rm cis}(y)\\)ex  
@@ -240,7 +240,7 @@ The following have equivalent results when the real part is 0:
 
 In this case `exp` can be about 4.5x slower. One of the other forms should be used instead of calling `exp` with an argument whose real part is literal 0. There is no benefit in trying to avoid `exp` with a runtime check of z.real() == 0 though. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/exp&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -262,15 +262,15 @@ Output:
     
     exp(i * pi) = (-1.000000,0.000000)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/exp&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ log(std::complex)](log.html "cpp/numeric/complex/log") |  complex natural logarithm with the branch cuts along the negative real axis   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_log&action=edit)  
+(function template)   
 ---|---  
 [ expexpfexpl](../math/exp.html "cpp/numeric/math/exp")(C++11)(C++11) |  returns e raised to the given power (\\({\small e^x}\\)ex)   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_exp&action=edit)  
+(function)   
 [ exp(std::valarray)](../valarray/exp.html "cpp/numeric/valarray/exp") |  applies the function [std::exp](../math/exp.html "cpp/numeric/math/exp") to each element of valarray   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_exp&action=edit)  
+(function template)   
 [ polar](polar.html "cpp/numeric/complex/polar") |  constructs a complex number from magnitude and phase angle   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_polar&action=edit)  
+(function template)   
 [C documentation](../../../c/numeric/complex/cexp.html "c/numeric/complex/cexp") for cexp

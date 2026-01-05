@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::ios_base`](../ios_base.html "cpp/io/ios base")
 
@@ -113,7 +113,7 @@ Member types
 [ios_base::event](event.html "cpp/io/ios base/event")  
 [ios_base::event_callback](event_callback.html "cpp/io/ios base/event callback")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/ios_base/navbar_content&action=edit)
+
 
 typedef /*implementation defined*/ iostate; |  |   
 ---|---|---  
@@ -143,7 +143,7 @@ Constant  |  Explanation
   
 ---  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/ios_base/iostate&action=edit&section=1 "Edit section: The eofbit")] The eofbit
+#### The eofbit
 
 The eofbit is set by the following standard library functions: 
 
@@ -170,7 +170,7 @@ The following functions clear `eofbit` as a side-effect:
 
 Note that in nearly all situations, if eofbit is set, the failbit is set as well. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/ios_base/iostate&action=edit&section=2 "Edit section: The failbit")] The failbit
+#### The failbit
 
 The failbit is set by the following standard library functions: 
 
@@ -199,7 +199,7 @@ The failbit is set by the following standard library functions:
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/ios_base/iostate&action=edit&section=3 "Edit section: The badbit")] The badbit
+#### The badbit
 
 The badbit is set by the following standard library functions: 
 
@@ -216,13 +216,13 @@ The badbit is set by the following standard library functions:
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/ios_base/iostate&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/ios_base/iostate&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 The following table shows the value of [`basic_ios`](../basic_ios.html "cpp/io/basic ios") accessors ([`good()`](../basic_ios/good.html "cpp/io/basic ios/good"), [`fail()`](../basic_ios/fail.html "cpp/io/basic ios/fail"), etc.) for all possible combinations of **`ios_base::iostate`** flags: 
 
@@ -238,9 +238,9 @@ true  |  false  | true  |  false  | true  | true  | true  |  false  | true
 true  | true  |  false  |  false  | true  |  false  | true  |  false  | true   
 true  | true  | true  |  false  | true  | true  | true  |  false  | true   
 [ rdstate](../basic_ios/rdstate.html "cpp/io/basic ios/rdstate") |  returns state flags   
-(public member function of `std::basic_ios<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ios/dsc_rdstate&action=edit)  
+(public member function of `std::basic_ios<CharT,Traits>`)   
 ---|---  
 [ setstate](../basic_ios/setstate.html "cpp/io/basic ios/setstate") |  sets state flags   
-(public member function of `std::basic_ios<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ios/dsc_setstate&action=edit)  
+(public member function of `std::basic_ios<CharT,Traits>`)   
 [ clear](../basic_ios/clear.html "cpp/io/basic ios/clear") |  modifies state flags   
-(public member function of `std::basic_ios<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ios/dsc_clear&action=edit)
+(public member function of `std::basic_ios<CharT,Traits>`) 

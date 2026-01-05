@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 **Basic Concepts**
 
@@ -249,7 +249,7 @@ Miscellaneous
 [Modules](modules.html "cpp/language/modules") (C++20)  
 [Contracts](contracts.html "cpp/language/contracts") (C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/basics/navbar_content&action=edit)
+
 
 This section provides definitions for the specific terminology and the concepts used when describing the C++ programming language. 
 
@@ -269,7 +269,7 @@ Each object, reference, function, expression in C++ is associated with a [type](
 
 Declared objects and declared references that are not [non-static data members](data_members.html "cpp/language/data members") are _variables ﻿_. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/basic_concepts&action=edit&section=1 "Edit section: See also")] See also
+### See also
 
 [C documentation](../../c/language/basic_concepts.html "c/language/basic concepts") for Basic concepts  
 ---

@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::vector`](../vector.html "cpp/container/vector")
 
@@ -135,7 +135,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/vector/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/vector/navbar_content&action=edit)
+
 
 size_type capacity() const; |  |  (noexcept since C++11)  
 (constexpr since C++20)  
@@ -155,19 +155,19 @@ Returns the number of elements that the container has currently allocated space 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/capacity&action=edit&section=T-1 "Template:cpp/container/capacity")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/capacity&action=edit&section=T-2 "Template:cpp/container/capacity")] Return value
+### Return value
 
 Capacity of the currently allocated storage. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/capacity&action=edit&section=T-3 "Template:cpp/container/capacity")] Complexity
+### Complexity
 
 Constant. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/capacity&action=edit&section=T-4 "Template:cpp/container/capacity")] Example
+### Example
 
 Run this code
     
@@ -219,10 +219,10 @@ Possible output:
      
     Final size: 100, capacity: 128
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/capacity&action=edit&section=T-5 "Template:cpp/container/capacity")] See also
+### See also
 
 [ size](size.html "cpp/container/vector/size") |  returns the number of elements   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_size&action=edit)  
+(public member function)   
 ---|---  
 [ reserve](reserve.html "cpp/container/vector/reserve") |  reserves storage   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_reserve&action=edit)
+(public member function) 

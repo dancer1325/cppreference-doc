@@ -30,7 +30,7 @@
 [Symbols index](symbol_index.html "cpp/symbol index")  
 [External libraries](links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 **Ranges library**
 
@@ -224,7 +224,7 @@ std::from_range](ranges/from_range.html "cpp/ranges/from range")(C++23)(C++23)` 
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 The ranges library is an extension and generalization of the algorithms and iterator libraries that makes them more powerful by making them composable and less error-prone. 
 
@@ -288,227 +288,227 @@ Defined in namespace `std::ranges`
 Defined in header `[<ranges>](header/ranges.html "cpp/header/ranges")`  
 Defined in header `[<iterator>](header/iterator.html "cpp/header/iterator")`  
 [ ranges::begin](ranges/begin.html "cpp/ranges/begin")(C++20) |  returns an iterator to the beginning of a range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_begin&action=edit)  
+(customization point object)  
 [ ranges::end](ranges/end.html "cpp/ranges/end")(C++20) |  returns a sentinel indicating the end of a range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_end&action=edit)  
+(customization point object)  
 [ ranges::cbegin](ranges/cbegin.html "cpp/ranges/cbegin")(C++20) |  returns an iterator to the beginning of a read-only range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_cbegin&action=edit)  
+(customization point object)  
 [ ranges::cend](ranges/cend.html "cpp/ranges/cend")(C++20) |  returns a sentinel indicating the end of a read-only range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_cend&action=edit)  
+(customization point object)  
 [ ranges::rbegin](ranges/rbegin.html "cpp/ranges/rbegin")(C++20) |  returns a reverse iterator to a range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_rbegin&action=edit)  
+(customization point object)  
 [ ranges::rend](ranges/rend.html "cpp/ranges/rend")(C++20) |  returns a reverse end iterator to a range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_rend&action=edit)  
+(customization point object)  
 [ ranges::crbegin](ranges/crbegin.html "cpp/ranges/crbegin")(C++20) |  returns a reverse iterator to a read-only range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_crbegin&action=edit)  
+(customization point object)  
 [ ranges::crend](ranges/crend.html "cpp/ranges/crend")(C++20) |  returns a reverse end iterator to a read-only range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_crend&action=edit)  
+(customization point object)  
 [ ranges::reserve_hint](ranges/reserve_hint.html "cpp/ranges/reserve hint")(C++26) |  returns an integer equal to the reserve hint given by a range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_reserve_hint&action=edit)  
+(customization point object)  
 [ ranges::size](ranges/size.html "cpp/ranges/size")(C++20) |  returns an integer equal to the size of a range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_size&action=edit)  
+(customization point object)  
 [ ranges::ssize](ranges/ssize.html "cpp/ranges/ssize")(C++20) |  returns a signed integer equal to the size of a range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_ssize&action=edit)  
+(customization point object)  
 [ ranges::empty](ranges/empty.html "cpp/ranges/empty")(C++20) |  checks whether a range is empty  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_empty&action=edit)  
+(customization point object)  
 [ ranges::data](ranges/data.html "cpp/ranges/data")(C++20) |  obtains a pointer to the beginning of a contiguous range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_data&action=edit)  
+(customization point object)  
 [ ranges::cdata](ranges/cdata.html "cpp/ranges/cdata")(C++20) |  obtains a pointer to the beginning of a read-only contiguous range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_cdata&action=edit)  
+(customization point object)  
   
 #####  Range primitives   
   
 Defined in header `[<ranges>](header/ranges.html "cpp/header/ranges")`  
 [ ranges::iterator_tranges::const_iterator_tranges::sentinel_tranges::const_sentinel_t](ranges/iterator_t.html "cpp/ranges/iterator t")(C++20)(C++23)(C++20)(C++23) |  obtains iterator and sentinel types of a range  
-(alias template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_iterator_t&action=edit)  
+(alias template)  
 [ ranges::range_difference_tranges::range_size_tranges::range_value_t](ranges/range_size_t.html "cpp/ranges/range size t")(C++20)(C++20)(C++20) |  obtains size, difference, and value types of a range  
-(alias template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_range_size_t&action=edit)  
+(alias template)  
 [ ranges::range_reference_tranges::range_const_reference_tranges::range_rvalue_reference_tranges::range_common_reference_t](ranges/range_reference_t.html "cpp/ranges/range reference t")(C++20)(C++23)(C++20)(C++20) |  obtains reference types of a range  
-(alias template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_range_reference_t&action=edit)  
+(alias template)  
   
 #####  Dangling iterator handling   
   
 Defined in header `[<ranges>](header/ranges.html "cpp/header/ranges")`  
 [ ranges::dangling](ranges/dangling.html "cpp/ranges/dangling")(C++20) |  a placeholder type indicating that an iterator or a `subrange` should not be returned since it would be dangling   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_dangling&action=edit)  
+(class)   
 [ ranges::borrowed_iterator_tranges::borrowed_subrange_t](ranges/borrowed_iterator_t.html "cpp/ranges/borrowed iterator t")(C++20) |  obtains iterator type or `subrange` type of a [`borrowed_range`](ranges/borrowed_range.html "cpp/ranges/borrowed range")  
-(alias template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_borrowed_iterator_t&action=edit)  
+(alias template)  
   
 #####  Other utilities   
   
 Defined in header `[<ranges>](header/ranges.html "cpp/header/ranges")`  
 [ ranges::elements_of](ranges/elements_of.html "cpp/ranges/elements of")(C++23) |  tags a range to be treated as a sequence rather than a single value   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_elements_of&action=edit)  
+(class template)   
   
 #####  Range concepts   
   
 Defined in header `[<ranges>](header/ranges.html "cpp/header/ranges")`  
 [ ranges::range](ranges/range.html "cpp/ranges/range")(C++20) |  specifies that a type is a range, that is, it provides a `begin` iterator and an `end` sentinel   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_range&action=edit)  
+(concept)   
 [ ranges::borrowed_range](ranges/borrowed_range.html "cpp/ranges/borrowed range")(C++20) |  specifies that a type is a [`range`](ranges/range.html "cpp/ranges/range") and iterators obtained from an expression of it can be safely returned without danger of dangling   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_borrowed_range&action=edit)  
+(concept)   
 [ ranges::approximately_sized_range](ranges/approximately_sized_range.html "cpp/ranges/approximately sized range")(C++26) |  specifies that a range can estimate its size in constant time   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_approximately_sized_range&action=edit)  
+(concept)   
 [ ranges::sized_range](ranges/sized_range.html "cpp/ranges/sized range")(C++20) |  specifies that a range knows its size in constant time   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_sized_range&action=edit)  
+(concept)   
 [ ranges::view](ranges/view.html "cpp/ranges/view")(C++20) |  specifies that a range is a view, that is, it has constant time copy/move/assignment   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_view&action=edit)  
+(concept)   
 [ ranges::input_range](ranges/input_range.html "cpp/ranges/input range")(C++20) |  specifies a range whose iterator type satisfies [`input_iterator`](iterator/input_iterator.html "cpp/iterator/input iterator")   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_input_range&action=edit)  
+(concept)   
 [ ranges::output_range](ranges/output_range.html "cpp/ranges/output range")(C++20) |  specifies a range whose iterator type satisfies [`output_iterator`](iterator/output_iterator.html "cpp/iterator/output iterator")   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_output_range&action=edit)  
+(concept)   
 [ ranges::forward_range](ranges/forward_range.html "cpp/ranges/forward range")(C++20) |  specifies a range whose iterator type satisfies [`forward_iterator`](iterator/forward_iterator.html "cpp/iterator/forward iterator")   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_forward_range&action=edit)  
+(concept)   
 [ ranges::bidirectional_range](ranges/bidirectional_range.html "cpp/ranges/bidirectional range")(C++20) |  specifies a range whose iterator type satisfies [`bidirectional_iterator`](iterator/bidirectional_iterator.html "cpp/iterator/bidirectional iterator")   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_bidirectional_range&action=edit)  
+(concept)   
 [ ranges::random_access_range](ranges/random_access_range.html "cpp/ranges/random access range")(C++20) |  specifies a range whose iterator type satisfies [`random_access_iterator`](iterator/random_access_iterator.html "cpp/iterator/random access iterator")   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_random_access_range&action=edit)  
+(concept)   
 [ ranges::contiguous_range](ranges/contiguous_range.html "cpp/ranges/contiguous range")(C++20) |  specifies a range whose iterator type satisfies [`contiguous_iterator`](iterator/contiguous_iterator.html "cpp/iterator/contiguous iterator")   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_contiguous_range&action=edit)  
+(concept)   
 [ ranges::common_range](ranges/common_range.html "cpp/ranges/common range")(C++20) |  specifies that a range has identical iterator and sentinel types   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_common_range&action=edit)  
+(concept)   
 [ ranges::viewable_range](ranges/viewable_range.html "cpp/ranges/viewable range")(C++20) |  specifies the requirements for a [`range`](ranges/range.html "cpp/ranges/range") to be safely convertible to a [`view`](ranges/view.html "cpp/ranges/view")   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_viewable_range&action=edit)  
+(concept)   
 [ ranges::constant_range](ranges/constant_range.html "cpp/ranges/constant range")(C++23) |  specifies that a range has read-only elements   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_constant_range&action=edit)  
+(concept)   
   
 #####  Range conversions   
   
 Defined in header `[<ranges>](header/ranges.html "cpp/header/ranges")`  
 [ ranges::to](ranges/to.html "cpp/ranges/to")(C++23) |  constructs a new non-view object from an input range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_to&action=edit)  
+(function template)   
   
 #####  Views   
   
 Defined in header `[<ranges>](header/ranges.html "cpp/header/ranges")`  
 [ ranges::view_interface](ranges/view_interface.html "cpp/ranges/view interface")(C++20) |  helper class template for defining a [`view`](ranges/view.html "cpp/ranges/view"), using the [curiously recurring template pattern](language/crtp.html "cpp/language/crtp")   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_view_interface&action=edit)  
+(class template)   
 [ ranges::subrange](ranges/subrange.html "cpp/ranges/subrange")(C++20) |  combines an iterator-sentinel pair into a [`view`](ranges/view.html "cpp/ranges/view")   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_subrange&action=edit)  
+(class template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges&action=edit&section=1 "Edit section: Range factories")] Range factories
+### Range factories
 
 Defined in header `[<ranges>](header/ranges.html "cpp/header/ranges")`  
 ---  
 Defined in namespace `std::ranges`  
 [ ranges::empty_viewviews::empty](ranges/empty_view.html "cpp/ranges/empty view")(C++20) |  an empty [`view`](ranges/view.html "cpp/ranges/view") with no elements  
-(class template) (variable template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_empty_view&action=edit)  
+(class template) (variable template)  
 [ ranges::single_viewviews::single](ranges/single_view.html "cpp/ranges/single view")(C++20) |  a [`view`](ranges/view.html "cpp/ranges/view") that contains a single element of a specified value  
-(class template) (customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_single_view&action=edit)  
+(class template) (customization point object)  
 [ ranges::iota_viewviews::iota](ranges/iota_view.html "cpp/ranges/iota view")(C++20) |  a [`view`](ranges/view.html "cpp/ranges/view") consisting of a sequence generated by repeatedly incrementing an initial value  
-(class template) (customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_iota_view&action=edit)  
+(class template) (customization point object)  
 [ ranges::repeat_viewviews::repeat](ranges/repeat_view.html "cpp/ranges/repeat view")(C++23) |  a [`view`](ranges/view.html "cpp/ranges/view") consisting of a generated sequence by repeatedly producing the same value  
-(class template) (customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_repeat_view&action=edit)  
+(class template) (customization point object)  
 [ ranges::basic_istream_viewviews::istream](ranges/basic_istream_view.html "cpp/ranges/basic istream view")(C++20) |  a [`view`](ranges/view.html "cpp/ranges/view") consisting of the elements obtained by successive application of `operator>>` on the associated input stream  
-(class template) (customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_basic_istream_view&action=edit)  
+(class template) (customization point object)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges&action=edit&section=2 "Edit section: Range adaptors")] Range adaptors
+### Range adaptors
 
 Defined in header `[<ranges>](header/ranges.html "cpp/header/ranges")`  
 ---  
 Defined in namespace `std::ranges`  
 [ ranges::range_adaptor_closure](ranges/range_adaptor_closure.html "cpp/ranges/range adaptor closure")(C++23) |  helper base class template for defining a range adaptor closure object   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_range_adaptor_closure&action=edit)  
+(class template)   
 [ views::all_tviews::all](ranges/all_view.html "cpp/ranges/all view")(C++20) |  a [`view`](ranges/view.html "cpp/ranges/view") that includes all elements of a [`range`](ranges/range.html "cpp/ranges/range")  
-(alias template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_all_view&action=edit)  
+(alias template) (range adaptor object)  
 [ ranges::ref_view](ranges/ref_view.html "cpp/ranges/ref view")(C++20) |  a [`view`](ranges/view.html "cpp/ranges/view") of the elements of some other [`range`](ranges/range.html "cpp/ranges/range")   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_ref_view&action=edit)  
+(class template)   
 [ ranges::owning_view](ranges/owning_view.html "cpp/ranges/owning view")(C++20) |  a [`view`](ranges/view.html "cpp/ranges/view") with unique ownership of some [`range`](ranges/range.html "cpp/ranges/range")   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_owning_view&action=edit)  
+(class template)   
 [ ranges::as_rvalue_viewviews::as_rvalue](ranges/as_rvalue_view.html "cpp/ranges/as rvalue view")(C++23) |  a [`view`](ranges/view.html "cpp/ranges/view") of a sequence that casts each element to an rvalue  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_as_rvalue_view&action=edit)  
+(class template) (range adaptor object)  
 [ ranges::filter_viewviews::filter](ranges/filter_view.html "cpp/ranges/filter view")(C++20) |  a [`view`](ranges/view.html "cpp/ranges/view") that consists of the elements of a [`range`](ranges/range.html "cpp/ranges/range") that satisfies a predicate  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_filter_view&action=edit)  
+(class template) (range adaptor object)  
 [ ranges::transform_viewviews::transform](ranges/transform_view.html "cpp/ranges/transform view")(C++20) |  a [`view`](ranges/view.html "cpp/ranges/view") of a sequence that applies a transformation function to each element  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_transform_view&action=edit)  
+(class template) (range adaptor object)  
 [ ranges::take_viewviews::take](ranges/take_view.html "cpp/ranges/take view")(C++20) |  a [`view`](ranges/view.html "cpp/ranges/view") consisting of the first N elements of another [`view`](ranges/view.html "cpp/ranges/view")  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_take_view&action=edit)  
+(class template) (range adaptor object)  
 [ ranges::take_while_viewviews::take_while](ranges/take_while_view.html "cpp/ranges/take while view")(C++20) |  a [`view`](ranges/view.html "cpp/ranges/view") consisting of the initial elements of another [`view`](ranges/view.html "cpp/ranges/view"), until the first element on which a predicate returns false  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_take_while_view&action=edit)  
+(class template) (range adaptor object)  
 [ ranges::drop_viewviews::drop](ranges/drop_view.html "cpp/ranges/drop view")(C++20) |  a [`view`](ranges/view.html "cpp/ranges/view") consisting of elements of another [`view`](ranges/view.html "cpp/ranges/view"), skipping the first N elements  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_drop_view&action=edit)  
+(class template) (range adaptor object)  
 [ ranges::drop_while_viewviews::drop_while](ranges/drop_while_view.html "cpp/ranges/drop while view")(C++20) |  a [`view`](ranges/view.html "cpp/ranges/view") consisting of the elements of another [`view`](ranges/view.html "cpp/ranges/view"), skipping the initial subsequence of elements until the first element where the predicate returns false  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_drop_while_view&action=edit)  
+(class template) (range adaptor object)  
 [ ranges::join_viewviews::join](ranges/join_view.html "cpp/ranges/join view")(C++20) |  a [`view`](ranges/view.html "cpp/ranges/view") consisting of the sequence obtained from flattening a [`view`](ranges/view.html "cpp/ranges/view") of [`range`s](ranges/range.html "cpp/ranges/range")  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_join_view&action=edit)  
+(class template) (range adaptor object)  
 [ ranges::join_with_viewviews::join_with](ranges/join_with_view.html "cpp/ranges/join with view")(C++23) |  a [`view`](ranges/view.html "cpp/ranges/view") consisting of the sequence obtained from flattening a view of ranges, with the delimiter in between elements  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_join_with_view&action=edit)  
+(class template) (range adaptor object)  
 [ ranges::lazy_split_viewviews::lazy_split](ranges/lazy_split_view.html "cpp/ranges/lazy split view")(C++20) |  a [`view`](ranges/view.html "cpp/ranges/view") over the subranges obtained from splitting another [`view`](ranges/view.html "cpp/ranges/view") using a delimiter  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_lazy_split_view&action=edit)  
+(class template) (range adaptor object)  
 [ ranges::split_viewviews::split](ranges/split_view.html "cpp/ranges/split view")(C++20) |  a [`view`](ranges/view.html "cpp/ranges/view") over the subranges obtained from splitting another [`view`](ranges/view.html "cpp/ranges/view") using a delimiter  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_split_view&action=edit)  
+(class template) (range adaptor object)  
 [ ranges::concat_viewviews::concat](ranges/concat_view.html "cpp/ranges/concat view")(C++26) |  a [`view`](ranges/view.html "cpp/ranges/view") consisting of concatenation of the adapted views  
-(class template) (customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_concat_view&action=edit)  
+(class template) (customization point object)  
 [ views::counted](ranges/counted_view.html "cpp/ranges/view counted")(C++20) |  creates a subrange from an iterator and a count  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_view_counted&action=edit)  
+(customization point object)  
 [ ranges::common_viewviews::common](ranges/common_view.html "cpp/ranges/common view")(C++20) |  converts a [`view`](ranges/view.html "cpp/ranges/view") into a [`common_range`](ranges/common_range.html "cpp/ranges/common range")  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_common_view&action=edit)  
+(class template) (range adaptor object)  
 [ ranges::reverse_viewviews::reverse](ranges/reverse_view.html "cpp/ranges/reverse view")(C++20) |  a [`view`](ranges/view.html "cpp/ranges/view") that iterates over the elements of another bidirectional view in reverse order  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_reverse_view&action=edit)  
+(class template) (range adaptor object)  
 [ ranges::as_const_viewviews::as_const](ranges/as_const_view.html "cpp/ranges/as const view")(C++23) |  converts a [`view`](ranges/view.html "cpp/ranges/view") into a [`constant_range`](ranges/constant_range.html "cpp/ranges/constant range")  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_as_const_view&action=edit)  
+(class template) (range adaptor object)  
 [ ranges::elements_viewviews::elements](ranges/elements_view.html "cpp/ranges/elements view")(C++20) |  takes a [`view`](ranges/view.html "cpp/ranges/view") consisting of [`_tuple-like_`](utility/tuple/tuple-like.html "cpp/utility/tuple/tuple-like") values and a number N and produces a [`view`](ranges/view.html "cpp/ranges/view") of Nth element of each tuple  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_elements_view&action=edit)  
+(class template) (range adaptor object)  
 [ ranges::keys_viewviews::keys](ranges/keys_view.html "cpp/ranges/keys view")(C++20) |  takes a [`view`](ranges/view.html "cpp/ranges/view") consisting of pair-like values and produces a [`view`](ranges/view.html "cpp/ranges/view") of the first elements of each pair  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_keys_view&action=edit)  
+(class template) (range adaptor object)  
 [ ranges::values_viewviews::values](ranges/values_view.html "cpp/ranges/values view")(C++20) |  takes a [`view`](ranges/view.html "cpp/ranges/view") consisting of pair-like values and produces a [`view`](ranges/view.html "cpp/ranges/view") of the second elements of each pair  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_values_view&action=edit)  
+(class template) (range adaptor object)  
 [ ranges::enumerate_viewviews::enumerate](ranges/enumerate_view.html "cpp/ranges/enumerate view")(C++23) |  a [`view`](ranges/view.html "cpp/ranges/view") that maps each element of adapted sequence to a tuple of both the element's position and its value  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_enumerate_view&action=edit)  
+(class template) (range adaptor object)  
 [ ranges::zip_viewviews::zip](ranges/zip_view.html "cpp/ranges/zip view")(C++23) |  a [`view`](ranges/view.html "cpp/ranges/view") consisting of tuples of references to corresponding elements of the adapted views  
-(class template) (customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_zip_view&action=edit)  
+(class template) (customization point object)  
 [ ranges::zip_transform_viewviews::zip_transform](ranges/zip_transform_view.html "cpp/ranges/zip transform view")(C++23) |  a [`view`](ranges/view.html "cpp/ranges/view") consisting of results of application of a transformation function to corresponding elements of the adapted views  
-(class template) (customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_zip_transform_view&action=edit)  
+(class template) (customization point object)  
 [ ranges::adjacent_viewviews::adjacent](ranges/adjacent_view.html "cpp/ranges/adjacent view")(C++23) |  a [`view`](ranges/view.html "cpp/ranges/view") consisting of tuples of references to adjacent elements of the adapted view  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_adjacent_view&action=edit)  
+(class template) (range adaptor object)  
 [ ranges::adjacent_transform_viewviews::adjacent_transform](ranges/adjacent_transform_view.html "cpp/ranges/adjacent transform view")(C++23) |  a [`view`](ranges/view.html "cpp/ranges/view") consisting of results of application of a transformation function to adjacent elements of the adapted view  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_adjacent_transform_view&action=edit)  
+(class template) (range adaptor object)  
 [ ranges::chunk_viewviews::chunk](ranges/chunk_view.html "cpp/ranges/chunk view")(C++23) |  a range of [`view`s](ranges/view.html "cpp/ranges/view") that are `N`-sized non-overlapping successive chunks of the elements of another [`view`](ranges/view.html "cpp/ranges/view")  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_chunk_view&action=edit)  
+(class template) (range adaptor object)  
 [ ranges::slide_viewviews::slide](ranges/slide_view.html "cpp/ranges/slide view")(C++23) |  a [`view`](ranges/view.html "cpp/ranges/view") whose Mth element is a [`view`](ranges/view.html "cpp/ranges/view") over the Mth through (M + N - 1)th elements of another [`view`](ranges/view.html "cpp/ranges/view")  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_slide_view&action=edit)  
+(class template) (range adaptor object)  
 [ ranges::chunk_by_viewviews::chunk_by](ranges/chunk_by_view.html "cpp/ranges/chunk by view")(C++23) |  splits the [`view`](ranges/view.html "cpp/ranges/view") into subranges between each pair of adjacent elements for which the given predicate returns false  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_chunk_by_view&action=edit)  
+(class template) (range adaptor object)  
 [ ranges::stride_viewviews::stride](ranges/stride_view.html "cpp/ranges/stride view")(C++23) |  a [`view`](ranges/view.html "cpp/ranges/view") consisting of elements of another [`view`](ranges/view.html "cpp/ranges/view"), advancing over N elements at a time  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_stride_view&action=edit)  
+(class template) (range adaptor object)  
 [ ranges::cartesian_product_viewviews::cartesian_product](ranges/cartesian_product_view.html "cpp/ranges/cartesian product view")(C++23) |  a [`view`](ranges/view.html "cpp/ranges/view") consisting of tuples of results calculated by the n-ary cartesian product of the adapted views  
-(class template) (customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_cartesian_product_view&action=edit)  
+(class template) (customization point object)  
 [ ranges::cache_latest_viewviews::cache_latest](ranges/cache_latest_view.html "cpp/ranges/cache latest view")(C++26) |  a [`view`](ranges/view.html "cpp/ranges/view") that caches the last-accessed element of its underlying sequence  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_cache_latest_view&action=edit)  
+(class template) (range adaptor object)  
 [ ranges::to_input_viewviews::to_input](ranges/to_input_view.html "cpp/ranges/to input view")(C++26) |  converts a [`view`](ranges/view.html "cpp/ranges/view") into a range that is [`input_range`](ranges/input_range.html "cpp/ranges/input range")-only and non-[`common_range`](ranges/common_range.html "cpp/ranges/common range")  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_to_input_view&action=edit)  
+(class template) (range adaptor object)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges&action=edit&section=3 "Edit section: Range generators \(since C++23\)")] Range generators (since C++23)
+### Range generators (since C++23)
 
 Defined in header `[<generator>](header/generator.html "cpp/header/generator")`  
 ---  
 Defined in namespace `std`  
 [ generator](coroutine/generator.html "cpp/coroutine/generator")(C++23) |  A [`view`](ranges/view.html "cpp/ranges/view") that represents synchronous [coroutine](language/coroutines.html "cpp/language/coroutines") generator   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_generator&action=edit)  
+(class template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges&action=edit&section=4 "Edit section: Helper items")] Helper items
+### Helper items
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges&action=edit&section=5 "Edit section: Range adaptor objects")] Range adaptor objects
+#### Range adaptor objects
 
 See [RangeAdaptorObject](named_req/RangeAdaptorObject.html "cpp/named req/RangeAdaptorObject") (RAO). 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges&action=edit&section=6 "Edit section: Range adaptor closure objects")] Range adaptor closure objects
+#### Range adaptor closure objects
 
 See [RangeAdaptorClosureObject](named_req/RangeAdaptorClosureObject.html "cpp/named req/RangeAdaptorClosureObject") (RACO). 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges&action=edit&section=7 "Edit section: Customization point objects")] Customization point objects
+#### Customization point objects
 
 See [Customization point object](ranges/cpo.html "cpp/ranges/cpo") (CPO). 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges&action=edit&section=8 "Edit section: Assignable wrapper")] Assignable wrapper
+#### Assignable wrapper
 
 Some range adaptors wrap their elements or function objects with the [`_copyable-box_`](ranges/copyable_wrapper.html "cpp/ranges/copyable wrapper")(until C++23)[`_movable-box_`](ranges/copyable_wrapper.html "cpp/ranges/copyable wrapper")(since C++23). The wrapper augments the wrapped object with assignability when needed. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges&action=edit&section=9 "Edit section: Non-propagating cache")] Non-propagating cache
+#### Non-propagating cache
 
 Some range adaptors are specified in terms of an exposition-only class template [`_non-propagating-cache_`](ranges/non-propagating-cache.html "cpp/ranges/non-propagating-cache"), which behaves almost like [std::optional](utility/optional.html)<T> (see description for differences). 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges&action=edit&section=10 "Edit section: Conditionally-const type")] Conditionally-`const` type
+#### Conditionally-`const` type
 
 template< bool Const, class T >  
 using /*maybe-const*/ = [std::conditional_t](types/conditional.html)<Const, const T, T>; |  | (exposition only*)  
@@ -517,7 +517,7 @@ using /*maybe-const*/ = [std::conditional_t](types/conditional.html)<Const, cons
   
 The alias template /*maybe-const*/ is a shorthand used to conditionally apply a const qualifier to the type `T`. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges&action=edit&section=11 "Edit section: Integer-like type helper templates")] Integer-like type helper templates
+#### Integer-like type helper templates
 
 template< /*is-integer-like*/ T >  
 using /*make-signed-like-t*/<T> = /* see description */; |  (1) | (exposition only*)  
@@ -547,7 +547,7 @@ return static_cast</*make-unsigned-like-t*/<T>>(t);
 
 3) Explicitly converts t to /*make-unsigned-like-t*/<T>.
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges&action=edit&section=12 "Edit section: Customization point object helpers")] Customization point object helpers
+#### Customization point object helpers
 
 template< [ranges::input_range](ranges/input_range.html) R >  
 constexpr auto& /*possibly-const-range*/(R& r) noexcept  
@@ -571,7 +571,7 @@ Some range access customization point objects are specified in terms of these ex
 
 2) /*as-const-pointer*/ returns a pointer to object of constant type.
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges&action=edit&section=13 "Edit section: Range adaptor helpers")] Range adaptor helpers
+#### Range adaptor helpers
 
 template< class F, class Tuple >  
 constexpr auto /*tuple-transform*/( F&& f, Tuple&& tuple )  
@@ -606,7 +606,7 @@ Some range adaptors are specified in terms of these exposition-only function tem
 
 3) /*as-lvalue*/ forwards rvalue t as lvalue.
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges&action=edit&section=14 "Edit section: Helper concepts")] Helper concepts
+#### Helper concepts
 
 Following exposition-only concepts are used for several types, but they are not parts of the interface of standard library. 
 
@@ -642,7 +642,7 @@ concept /*all-forward*/ =
 <[std::conditional_t](types/conditional.html)<C, const Views, Views>> && ...); |  (7) | (exposition only*)  
 | |   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges&action=edit&section=15 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](utility/feature_test.html "cpp/utility/feature test") macro  | Value | Std | Feature   
 ---|---|---|---  
@@ -678,7 +678,7 @@ concept /*all-forward*/ =
 [ranges::adjacent_view](ranges/adjacent_view.html),  
 [ranges::adjacent_transform_view](ranges/adjacent_transform_view.html)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges&action=edit&section=16 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -709,7 +709,7 @@ Output:
     0 4 16
     0 4 16
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges&action=edit&section=17 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -725,7 +725,7 @@ for ranges that has already modeled [`constant_range`](ranges/constant_range.htm
 for such ranges   
 [LWG 4112](https://cplusplus.github.io/LWG/issue4112) | C++20  | `_has-arrow_` did not require i to be const-qualified  | requires   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges&action=edit&section=18 "Edit section: See also")] See also
+### See also
 
   * [Iterator library](iterator.html "cpp/iterator")
   * [Constrained algorithms](algorithm/ranges.html "cpp/algorithm/ranges")

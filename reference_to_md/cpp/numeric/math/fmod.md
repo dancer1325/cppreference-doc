@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [Common mathematical functions](../math.html "cpp/numeric/math")
 
@@ -230,7 +230,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/navbar_content&action=edit)
+
 
 Defined in header `[<cmath>](../../header/cmath.html "cpp/header/cmath")` |  |   
 ---|---|---  
@@ -284,12 +284,12 @@ The returned value has the same sign as x and is less than y in magnitude.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/fmod&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 x, y  |  \-  |  floating-point or integer values   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/fmod&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 If successful, returns the floating-point remainder of the division x / y as defined above. 
 
@@ -297,7 +297,7 @@ If a domain error occurs, an implementation-defined value is returned (NaN where
 
 If a range error occurs due to underflow, the correct result (after rounding) is returned. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/fmod&action=edit&section=3 "Edit section: Error handling")] Error handling
+### Error handling
 
 Errors are reported as specified in [math_errhandling](math_errhandling.html "cpp/numeric/math/math errhandling"). 
 
@@ -313,7 +313,7 @@ If the implementation supports IEEE floating-point arithmetic (IEC 60559),
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/fmod&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 [POSIX requires](https://pubs.opengroup.org/onlinepubs/9699919799/functions/fmod.html) that a domain error occurs if x is infinite or y is zero. 
 
@@ -347,7 +347,7 @@ static_cast<float>(num2)).
 If num1 and num2 have arithmetic types, then std::fmod(num1, num2) has the same effect as std::fmod(static_cast</*common-floating-point-type*/>(num1),  
 static_cast</*common-floating-point-type*/>(num2)), where /*common-floating-point-type*/ is the floating-point type with the greatest [floating-point conversion rank](../../language/usual_arithmetic_conversions.html#Floating-point_conversion_rank "cpp/language/usual arithmetic conversions") and greatest [floating-point conversion subrank](../../language/usual_arithmetic_conversions.html#Floating-point_conversion_subrank "cpp/language/usual arithmetic conversions") between the types of num1 and num2, arguments of integer type are considered to have the same floating-point conversion rank as double. If no such floating-point type with the greatest rank and subrank exists, then [overload resolution](../../language/overload_resolution.html "cpp/language/overload resolution") does not result in a usable candidate from the overloads provided.  | (since C++23)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/fmod&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -389,13 +389,13 @@ Possible output:
     fmod(+5.1, 0) = -nan
         FE_INVALID raised
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/fmod&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ div(int)ldivlldiv](div.html "cpp/numeric/math/div")(C++11) |  computes quotient and remainder of integer division   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_div&action=edit)  
+(function)   
 ---|---  
 [ remainderremainderfremainderl](remainder.html "cpp/numeric/math/remainder")(C++11)(C++11)(C++11) |  signed remainder of the division operation   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_remainder&action=edit)  
+(function)   
 [ remquoremquofremquol](remquo.html "cpp/numeric/math/remquo")(C++11)(C++11)(C++11) |  signed remainder as well as the three last bits of the division operation   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_remquo&action=edit)  
+(function)   
 [C documentation](../../../c/numeric/math/fmod.html "c/numeric/math/fmod") for fmod

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Expressions](expressions.html "cpp/language/expressions")
 
@@ -289,7 +289,7 @@ Conversions
 [`dynamic_cast`](dynamic_cast.html "cpp/language/dynamic cast")  
 [`reinterpret_cast`](reinterpret_cast.html "cpp/language/reinterpret cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/expressions/navbar_content&action=edit)
+
 
 Increment/decrement operators increment or decrement the value of the object. 
 
@@ -328,7 +328,7 @@ post-decrement  | `a--` | Yes  | T T::operator\--(int); | T operator\--(T& a, in
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_incdec&action=edit&section=1 "Edit section: Prefix operators")] Prefix operators
+### Prefix operators
 
 The prefix increment and decrement expressions have the form   
   
@@ -340,7 +340,7 @@ The prefix increment and decrement expressions have the form
 
 2) prefix decrement (pre-decrement)
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_incdec&action=edit&section=2 "Edit section: Built-in prefix operators")] Built-in prefix operators
+#### Built-in prefix operators
 
 1) The expression ++x is equivalent to x += 1, with the following exceptions: 
 
@@ -368,7 +368,7 @@ The prefix increment and decrement expressions have the form
 | (since C++20)  
 ---|---  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_incdec&action=edit&section=3 "Edit section: Overloads")] Overloads
+#### Overloads
 
 In [overload resolution against user-defined operators](overload_resolution.html#Call_to_an_overloaded_operator "cpp/language/overload resolution"), for every optionally volatile-qualified arithmetic type `A` other than bool, and for every optionally volatile-qualified pointer `P` to optionally cv-qualified object type, the following function signatures participate in overload resolution: 
 
@@ -380,7 +380,7 @@ A& operator\--(A&) |  |
 P& operator\--(P&) |  |   
 | |   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_incdec&action=edit&section=4 "Edit section: Postfix operators")] Postfix operators
+### Postfix operators
 
 The postfix increment and decrement expressions have the form   
   
@@ -392,7 +392,7 @@ expression `**--**` |  |
 
 2) postfix decrement (post-decrement)
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_incdec&action=edit&section=5 "Edit section: Built-in postfix operators")] Built-in postfix operators
+#### Built-in postfix operators
 
 The result of postfix increment or decrement is the value obtained by applying the [lvalue-to-rvalue conversion](implicit_cast.html#Lvalue-to-rvalue_conversion "cpp/language/implicit conversion") to expression (before modification). The type of the result is the cv-unqualified version of the type of expression. 
 
@@ -407,7 +407,7 @@ If the type of expression is volatile-qualified, the increment or decrement is d
 
 The value computation of a postfix increment or decrement is [sequenced before](eval_order.html "cpp/language/eval order") the modification of expression. With respect to an indeterminately-sequenced function call, the operation of a postfix increment or decrement is a single evaluation. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_incdec&action=edit&section=6 "Edit section: Overloads")] Overloads
+#### Overloads
 
 In [overload resolution against user-defined operators](overload_resolution.html#Call_to_an_overloaded_operator "cpp/language/overload resolution"), for every optionally volatile-qualified arithmetic type `A` other than bool, and for every optionally volatile-qualified pointer `P` to optionally cv-qualified object type, the following function signatures participate in overload resolution: 
 
@@ -419,7 +419,7 @@ A operator\--(A&, int) |  |
 P operator\--(P&, int) |  |   
 | |   
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_incdec&action=edit&section=7 "Edit section: Example")] Example
+#### Example
 
 Run this code
     
@@ -448,13 +448,13 @@ Output:
     n3 = 4
     n4 = 4
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_incdec&action=edit&section=8 "Edit section: Notes")] Notes
+### Notes
 
 Because of the side-effects involved, built-in increment and decrement operators must be used with care to avoid undefined behavior due to violations of [sequencing rules](eval_order.html "cpp/language/eval order"). 
 
 Because a temporary copy of the object is constructed during post-increment and post-decrement, pre-increment or pre-decrement operators are usually more efficient in contexts where the returned value is not used. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_incdec&action=edit&section=9 "Edit section: Standard library")] Standard library
+### Standard library
 
 Increment and decrement operators are overloaded for many standard library types. In particular, every [LegacyIterator](../named_req/Iterator.html "cpp/named req/Iterator") overloads operator++ and every [LegacyBidirectionalIterator](../named_req/BidirectionalIterator.html "cpp/named req/BidirectionalIterator") overloads operator\--, even if those operators are no-ops for the particular iterator. 
 
@@ -462,38 +462,38 @@ Increment and decrement operators are overloaded for many standard library types
   
 ---  
 [ operator++operator++(int)operator--operator--(int)](../atomic/atomic/operator_arith.html "cpp/atomic/atomic/operator arith") |  increments or decrements the atomic value by one   
-(public member function of `std::atomic<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_operator_arith&action=edit)  
+(public member function of `std::atomic<T>`)   
 [ operator++operator++(int)operator--operator--(int)](../chrono/duration/operator_arith2.html "cpp/chrono/duration/operator arith2") |  increments or decrements the tick count   
-(public member function of `std::chrono::duration<Rep,Period>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/duration/dsc_operator_arith2&action=edit)  
+(public member function of `std::chrono::duration<Rep,Period>`)   
   
 #####  overloads for iterator types   
   
 [ operator++operator++(int)](../memory/raw_storage_iterator/operator_arith.html "cpp/memory/raw storage iterator/operator arith") |  advances the iterator   
-(public member function of `std::raw_storage_iterator<OutputIt,T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/raw_storage_iterator/dsc_operator_arith&action=edit)  
+(public member function of `std::raw_storage_iterator<OutputIt,T>`)   
 [ operator++operator++(int)operator+=operator+operator--operator--(int)operator-=operator-](../iterator/reverse_iterator/operator++.html "cpp/iterator/reverse iterator/operator arith") |  advances or decrements the `reverse_iterator`   
-(public member function of `std::reverse_iterator<Iter>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_operator_arith&action=edit)  
+(public member function of `std::reverse_iterator<Iter>`)   
 [ operator++operator++(int)operator+=operator+operator--operator--(int)operator-=operator-](../iterator/move_iterator/operator_arith.html "cpp/iterator/move iterator/operator arith") |  advances or decrements the `move_iterator`   
-(public member function of `std::move_iterator<Iter>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_operator_arith&action=edit)  
+(public member function of `std::move_iterator<Iter>`)   
 [ operator++operator++(int)](../iterator/front_insert_iterator/operator++.html "cpp/iterator/front insert iterator/operator++") |  no-op   
-(public member function of `std::front_insert_iterator<Container>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/inserter/dsc_operator_arith&action=edit)  
+(public member function of `std::front_insert_iterator<Container>`)   
 [ operator++operator++(int)](../iterator/back_insert_iterator/operator++.html "cpp/iterator/back insert iterator/operator++") |  no-op   
-(public member function of `std::back_insert_iterator<Container>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/inserter/dsc_operator_arith&action=edit)  
+(public member function of `std::back_insert_iterator<Container>`)   
 [ operator++operator++(int)](../iterator/insert_iterator/operator++.html "cpp/iterator/insert iterator/operator++") |  no-op   
-(public member function of `std::insert_iterator<Container>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/inserter/dsc_operator_arith&action=edit)  
+(public member function of `std::insert_iterator<Container>`)   
 [ operator++operator++(int)](../iterator/istream_iterator/operator_arith.html "cpp/iterator/istream iterator/operator arith") |  advances the iterator   
-(public member function of `std::istream_iterator<T,CharT,Traits,Distance>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/istream_iterator/dsc_operator_arith&action=edit)  
+(public member function of `std::istream_iterator<T,CharT,Traits,Distance>`)   
 [ operator++operator++(int)](../iterator/ostream_iterator/operator_arith.html "cpp/iterator/ostream iterator/operator arith") |  no-op   
-(public member function of `std::ostream_iterator<T,CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/ostream_iterator/dsc_operator_arith&action=edit)  
+(public member function of `std::ostream_iterator<T,CharT,Traits>`)   
 [ operator++operator++(int)](../iterator/istreambuf_iterator/operator_arith.html "cpp/iterator/istreambuf iterator/operator arith") |  advances the iterator   
-(public member function of `std::istreambuf_iterator<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/istreambuf_iterator/dsc_operator_arith&action=edit)  
+(public member function of `std::istreambuf_iterator<CharT,Traits>`)   
 [ operator++operator++(int)](../iterator/ostreambuf_iterator/operator_arith.html "cpp/iterator/ostreambuf iterator/operator arith") |  no-op   
-(public member function of `std::ostreambuf_iterator<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/ostreambuf_iterator/dsc_operator_arith&action=edit)  
+(public member function of `std::ostreambuf_iterator<CharT,Traits>`)   
 [ operator++operator++(int)](../regex/regex_iterator/operator_arith.html "cpp/regex/regex iterator/operator arith") |  advances the iterator to the next match   
-(public member function of `std::regex_iterator<BidirIt,CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/regex_iterator/dsc_operator_arith&action=edit)  
+(public member function of `std::regex_iterator<BidirIt,CharT,Traits>`)   
 [ operator++operator++(int)](../regex/regex_token_iterator/operator_arith.html "cpp/regex/regex token iterator/operator arith") |  advances the iterator to the next submatch   
-(public member function of `std::regex_token_iterator<BidirIt,CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/regex_token_iterator/dsc_operator_arith&action=edit)  
+(public member function of `std::regex_token_iterator<BidirIt,CharT,Traits>`)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_incdec&action=edit&section=10 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -508,7 +508,7 @@ for built-in post-increment and post-decrement  | applied
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_incdec&action=edit&section=11 "Edit section: See also")] See also
+### See also
 
 [Operator precedence](operator_precedence.html "cpp/language/operator precedence")
 

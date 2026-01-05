@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header is part of the [date and time](../chrono.html "cpp/chrono") library. 
 
@@ -272,7 +272,7 @@ This header is part of the [date and time](../chrono.html "cpp/chrono") library.
   
 ###  Includes  
   
-[ <compare>](compare.html "cpp/header/compare")(C++20) |  [Three-way comparison operator](../language/operator_comparison.html#Three-way_comparison "cpp/language/operator comparison") support[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/dsc_compare&action=edit)  
+[ <compare>](compare.html "cpp/header/compare")(C++20) |  [Three-way comparison operator](../language/operator_comparison.html#Three-way_comparison "cpp/language/operator comparison") support  
   
 ###  Classes  
   
@@ -280,11 +280,11 @@ This header is part of the [date and time](../chrono.html "cpp/chrono") library.
   
 Defined in namespace `std::chrono`  
 [ duration](../chrono/duration.html "cpp/chrono/duration")(C++11) |  a time interval   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_duration&action=edit)  
+(class template)   
 [ treat_as_floating_point](../chrono/treat_as_floating_point.html "cpp/chrono/treat as floating point")(C++11) |  indicates that a duration is convertible to duration with different tick period   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_treat_as_floating_point&action=edit)  
+(class template)   
 [ duration_values](../chrono/duration_values.html "cpp/chrono/duration values")(C++11) |  constructs zero, min, and max values of a tick count of given type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_duration_values&action=edit)  
+(class template)   
   
 #####  Convenience duration typedefs   
   
@@ -304,167 +304,167 @@ std::chrono::years(C++20) |  duration type with Period [std::ratio](../numeric/r
   
 Defined in namespace `std::chrono`  
 [ time_point](../chrono/time_point.html "cpp/chrono/time point")(C++11) |  a point in time   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_time_point&action=edit)  
+(class template)   
 [ clock_time_conversion](../chrono/clock_time_conversion.html "cpp/chrono/clock time conversion")(C++20) |  traits class defining how to convert time points of one clock to another   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_clock_time_conversion&action=edit)  
+(class template)   
   
 #####  Clocks   
   
 Defined in namespace `std::chrono`  
 [ is_clockis_clock_v](../chrono/is_clock.html "cpp/chrono/is clock")(C++20) |  determines if a type is a [Clock](../named_req/Clock.html "cpp/named req/Clock")  
-(class template) (variable template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_is_clock&action=edit)  
+(class template) (variable template)  
 [ system_clock](../chrono/system_clock.html "cpp/chrono/system clock")(C++11) |  wall clock time from the system-wide realtime clock   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_system_clock&action=edit)  
+(class)   
 [ steady_clock](../chrono/steady_clock.html "cpp/chrono/steady clock")(C++11) |  monotonic clock that will never be adjusted   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_steady_clock&action=edit)  
+(class)   
 [ high_resolution_clock](../chrono/high_resolution_clock.html "cpp/chrono/high resolution clock")(C++11) |  the clock with the shortest tick period available   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_high_resolution_clock&action=edit)  
+(class)   
 [ utc_clock](../chrono/utc_clock.html "cpp/chrono/utc clock")(C++20) |  [Clock](../named_req/Clock.html "cpp/named req/Clock") for Coordinated Universal Time (UTC)   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_utc_clock&action=edit)  
+(class)   
 [ tai_clock](../chrono/tai_clock.html "cpp/chrono/tai clock")(C++20) |  [Clock](../named_req/Clock.html "cpp/named req/Clock") for International Atomic Time (TAI)   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_tai_clock&action=edit)  
+(class)   
 [ gps_clock](../chrono/gps_clock.html "cpp/chrono/gps clock")(C++20) |  [Clock](../named_req/Clock.html "cpp/named req/Clock") for GPS time   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_gps_clock&action=edit)  
+(class)   
 [ file_clock](../chrono/file_clock.html "cpp/chrono/file clock")(C++20) |  [Clock](../named_req/Clock.html "cpp/named req/Clock") used for [file time](../filesystem/file_time_type.html "cpp/filesystem/file time type")   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_file_clock&action=edit)  
+(typedef)   
 [ local_t](../chrono/local_t.html "cpp/chrono/local t")(C++20) |  pseudo-clock representing local time   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_local_t&action=edit)  
+(class)   
   
 #####  Calendar   
   
 Defined in namespace `std::chrono`  
 [ last_spec](../chrono/last_spec.html "cpp/chrono/last spec")(C++20) |  tag class indicating the _last_ day or weekday in a month   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_last_spec&action=edit)  
+(class)   
 [ day](../chrono/day.html "cpp/chrono/day")(C++20) |  represents a day of a month   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_day&action=edit)  
+(class)   
 [ month](../chrono/month.html "cpp/chrono/month")(C++20) |  represents a month of a year   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_month&action=edit)  
+(class)   
 [ year](../chrono/year.html "cpp/chrono/year")(C++20) |  represents a year in the Gregorian calendar   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_year&action=edit)  
+(class)   
 [ weekday](../chrono/weekday.html "cpp/chrono/weekday")(C++20) |  represents a day of the week in the Gregorian calendar   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_weekday&action=edit)  
+(class)   
 [ weekday_indexed](../chrono/weekday_indexed.html "cpp/chrono/weekday indexed")(C++20) |  represents the nth [`weekday`](../chrono/weekday.html "cpp/chrono/weekday") of a month   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_weekday_indexed&action=edit)  
+(class)   
 [ weekday_last](../chrono/weekday_last.html "cpp/chrono/weekday last")(C++20) |  represents the last [`weekday`](../chrono/weekday.html "cpp/chrono/weekday") of a month   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_weekday_last&action=edit)  
+(class)   
 [ month_day](../chrono/month_day.html "cpp/chrono/month day")(C++20) |  represents a specific [`day`](../chrono/day.html "cpp/chrono/day") of a specific [`month`](../chrono/month.html "cpp/chrono/month")   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_month_day&action=edit)  
+(class)   
 [ month_day_last](../chrono/month_day_last.html "cpp/chrono/month day last")(C++20) |  represents the last day of a specific [`month`](../chrono/month.html "cpp/chrono/month")   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_month_day_last&action=edit)  
+(class)   
 [ month_weekday](../chrono/month_weekday.html "cpp/chrono/month weekday")(C++20) |  represents the nth [`weekday`](../chrono/weekday.html "cpp/chrono/weekday") of a specific [`month`](../chrono/month.html "cpp/chrono/month")   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_month_weekday&action=edit)  
+(class)   
 [ month_weekday_last](../chrono/month_weekday_last.html "cpp/chrono/month weekday last")(C++20) |  represents the last [`weekday`](../chrono/weekday.html "cpp/chrono/weekday") of a specific [`month`](../chrono/month.html "cpp/chrono/month")   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_month_weekday_last&action=edit)  
+(class)   
 [ year_month](../chrono/year_month.html "cpp/chrono/year month")(C++20) |  represents a specific [`month`](../chrono/month.html "cpp/chrono/month") of a specific [`year`](../chrono/year.html "cpp/chrono/year")   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_year_month&action=edit)  
+(class)   
 [ year_month_day](../chrono/year_month_day.html "cpp/chrono/year month day")(C++20) |  represents a specific [`year`](../chrono/year.html "cpp/chrono/year"), [`month`](../chrono/month.html "cpp/chrono/month"), and [`day`](../chrono/day.html "cpp/chrono/day")   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_year_month_day&action=edit)  
+(class)   
 [ year_month_day_last](../chrono/year_month_day_last.html "cpp/chrono/year month day last")(C++20) |  represents the last day of a specific [`year`](../chrono/year.html "cpp/chrono/year") and [`month`](../chrono/month.html "cpp/chrono/month")   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_year_month_day_last&action=edit)  
+(class)   
 [ year_month_weekday](../chrono/year_month_weekday.html "cpp/chrono/year month weekday")(C++20) |  represents the nth [`weekday`](../chrono/weekday.html "cpp/chrono/weekday") of a specific [`year`](../chrono/year.html "cpp/chrono/year") and [`month`](../chrono/month.html "cpp/chrono/month")   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_year_month_weekday&action=edit)  
+(class)   
 [ year_month_weekday_last](../chrono/year_month_weekday_last.html "cpp/chrono/year month weekday last")(C++20) |  represents the last [`weekday`](../chrono/weekday.html "cpp/chrono/weekday") of a specific [`year`](../chrono/year.html "cpp/chrono/year") and [`month`](../chrono/month.html "cpp/chrono/month")   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_year_month_weekday_last&action=edit)  
+(class)   
   
 #####  Time of day   
   
 Defined in namespace `std::chrono`  
 [ hh_mm_ss](../chrono/hh_mm_ss.html "cpp/chrono/hh mm ss")(C++20) |  represents a time of day   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_hh_mm_ss&action=edit)  
+(class template)   
   
 #####  Time zone   
   
 Defined in namespace `std::chrono`  
 [ tzdb](../chrono/tzdb.html "cpp/chrono/tzdb")(C++20) |  describes a copy of the [IANA time zone database](https://www.iana.org/time-zones)   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_tzdb&action=edit)  
+(class)   
 [ tzdb_list](../chrono/tzdb_list.html "cpp/chrono/tzdb list")(C++20) |  represents a linked list of [`tzdb`](../chrono/tzdb.html "cpp/chrono/tzdb")   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_tzdb_list&action=edit)  
+(class)   
 [ time_zone](../chrono/time_zone.html "cpp/chrono/time zone")(C++20) |  represents a time zone   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_time_zone&action=edit)  
+(class)   
 [ sys_info](../chrono/sys_info.html "cpp/chrono/sys info")(C++20) |  represents information about a time zone at a particular time point   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_sys_info&action=edit)  
+(class)   
 [ local_info](../chrono/local_info.html "cpp/chrono/local info")(C++20) |  represents information about a local time to UNIX time conversion   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_local_info&action=edit)  
+(class)   
 [ choose](../chrono/choose.html "cpp/chrono/choose")(C++20) |  selects how an ambiguous local time should be resolved   
-(enum) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_choose&action=edit)  
+(enum)   
 [ zoned_traits](../chrono/zoned_traits.html "cpp/chrono/zoned traits")(C++20) |  traits class for time zone pointers used by [`zoned_time`](../chrono/zoned_time.html "cpp/chrono/zoned time")   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_zoned_traits&action=edit)  
+(class template)   
 [ zoned_time](../chrono/zoned_time.html "cpp/chrono/zoned time")(C++20) |  represents a time zone and a time point   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_zoned_time&action=edit)  
+(class)   
 [ time_zone_link](../chrono/time_zone_link.html "cpp/chrono/time zone link")(C++20) |  represents an alternative name for a time zone   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_time_zone_link&action=edit)  
+(class)   
 [ nonexistent_local_time](../chrono/nonexistent_local_time.html "cpp/chrono/nonexistent local time")(C++20) |  exception thrown to report that a local time is nonexistent   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_nonexistent_local_time&action=edit)  
+(class)   
 [ ambiguous_local_time](../chrono/ambiguous_local_time.html "cpp/chrono/ambiguous local time")(C++20) |  exception thrown to report that a local time is ambiguous   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_ambiguous_local_time&action=edit)  
+(class)   
   
 #####  Leap second   
   
 Defined in namespace `std::chrono`  
 [ leap_second](../chrono/leap_second.html "cpp/chrono/leap second")(C++20) |  contains information about a leap second insertion   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_leap_second&action=edit)  
+(class)   
 [ leap_second_info](../chrono/utc_clock/leap_second_info.html "cpp/chrono/utc clock/leap second info")(C++20) |  leap second insertion information   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/utc_clock/dsc_leap_second_info&action=edit)  
+(class)   
   
 #####  Specializations   
   
 Defined in namespace `std`  
 [ std::common_type<std::chrono::duration>](../chrono/duration/common_type.html "cpp/chrono/duration/common type")(C++11) |  specializes the [std::common_type](../types/common_type.html "cpp/types/common type") trait   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/duration/dsc_common_type&action=edit)  
+(class template specialization)   
 [ std::common_type<std::chrono::time_point>](../chrono/time_point/common_type.html "cpp/chrono/time point/common type")(C++11) |  specializes the [std::common_type](../types/common_type.html "cpp/types/common type") trait   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_point/dsc_common_type&action=edit)  
+(class template specialization)   
 [ std::formatter<std::chrono::duration>](../chrono/duration/formatter.html "cpp/chrono/duration/formatter")(C++20) |  formatting support for `duration`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_formatter&action=edit)  
+(class template specialization)   
 [ std::formatter<std::chrono::sys_time>](../chrono/system_clock/formatter.html "cpp/chrono/system clock/formatter")(C++20) |  formatting support for `sys_time`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_formatter&action=edit)  
+(class template specialization)   
 [ std::formatter<std::chrono::utc_time>](../chrono/utc_clock/formatter.html "cpp/chrono/utc clock/formatter")(C++20) |  formatting support for `utc_time`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_formatter&action=edit)  
+(class template specialization)   
 [ std::formatter<std::chrono::tai_time>](../chrono/tai_clock/formatter.html "cpp/chrono/tai clock/formatter")(C++20) |  formatting support for `tai_time`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_formatter&action=edit)  
+(class template specialization)   
 [ std::formatter<std::chrono::gps_time>](../chrono/gps_clock/formatter.html "cpp/chrono/gps clock/formatter")(C++20) |  formatting support for `gps_time`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_formatter&action=edit)  
+(class template specialization)   
 [ std::formatter<std::chrono::file_time>](../chrono/file_clock/formatter.html "cpp/chrono/file clock/formatter")(C++20) |  formatting support for `file_time`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_formatter&action=edit)  
+(class template specialization)   
 [ std::formatter<std::chrono::local_time>](../chrono/local_t/formatter.html "cpp/chrono/local t/formatter")(C++20) |  formatting support for `local_time`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_formatter&action=edit)  
+(class template specialization)   
 [ std::formatter<std::chrono::day>](../chrono/day/formatter.html "cpp/chrono/day/formatter")(C++20) |  formatting support for `day`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_formatter&action=edit)  
+(class template specialization)   
 [ std::formatter<std::chrono::month>](../chrono/month/formatter.html "cpp/chrono/month/formatter")(C++20) |  formatting support for `month`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_formatter&action=edit)  
+(class template specialization)   
 [ std::formatter<std::chrono::year>](../chrono/year/formatter.html "cpp/chrono/year/formatter")(C++20) |  formatting support for `year`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_formatter&action=edit)  
+(class template specialization)   
 [ std::formatter<std::chrono::weekday>](../chrono/weekday/formatter.html "cpp/chrono/weekday/formatter")(C++20) |  formatting support for `weekday`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_formatter&action=edit)  
+(class template specialization)   
 [ std::formatter<std::chrono::weekday_indexed>](../chrono/weekday_indexed/formatter.html "cpp/chrono/weekday indexed/formatter")(C++20) |  formatting support for `weekday_indexed`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_formatter&action=edit)  
+(class template specialization)   
 [ std::formatter<std::chrono::weekday_last>](../chrono/weekday_last/formatter.html "cpp/chrono/weekday last/formatter")(C++20) |  formatting support for `weekday_last`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_formatter&action=edit)  
+(class template specialization)   
 [ std::formatter<std::chrono::month_day>](../chrono/month_day/formatter.html "cpp/chrono/month day/formatter")(C++20) |  formatting support for `month_day`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_formatter&action=edit)  
+(class template specialization)   
 [ std::formatter<std::chrono::month_day_last>](../chrono/month_day_last/formatter.html "cpp/chrono/month day last/formatter")(C++20) |  formatting support for `month_day_last`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_formatter&action=edit)  
+(class template specialization)   
 [ std::formatter<std::chrono::month_weekday>](../chrono/month_weekday/formatter.html "cpp/chrono/month weekday/formatter")(C++20) |  formatting support for `month_weekday`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_formatter&action=edit)  
+(class template specialization)   
 [ std::formatter<std::chrono::month_weekday_last>](../chrono/month_weekday_last/formatter.html "cpp/chrono/month weekday last/formatter")(C++20) |  formatting support for `month_weekday_last`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_formatter&action=edit)  
+(class template specialization)   
 [ std::formatter<std::chrono::year_month>](../chrono/year_month/formatter.html "cpp/chrono/year month/formatter")(C++20) |  formatting support for `year_month`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_formatter&action=edit)  
+(class template specialization)   
 [ std::formatter<std::chrono::year_month_day>](../chrono/year_month_day/formatter.html "cpp/chrono/year month day/formatter")(C++20) |  formatting support for `year_month_day`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_formatter&action=edit)  
+(class template specialization)   
 [ std::formatter<std::chrono::year_month_day_last>](../chrono/year_month_day_last/formatter.html "cpp/chrono/year month day last/formatter")(C++20) |  formatting support for `year_month_day_last`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_formatter&action=edit)  
+(class template specialization)   
 [ std::formatter<std::chrono::year_month_weekday>](../chrono/year_month_weekday/formatter.html "cpp/chrono/year month weekday/formatter")(C++20) |  formatting support for `year_month_weekday`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_formatter&action=edit)  
+(class template specialization)   
 [ std::formatter<std::chrono::year_month_weekday_last>](../chrono/year_month_weekday_last/formatter.html "cpp/chrono/year month weekday last/formatter")(C++20) |  formatting support for `year_month_weekday_last`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_formatter&action=edit)  
+(class template specialization)   
 [ std::formatter<std::chrono::hh_mm_ss>](../chrono/hh_mm_ss/formatter.html "cpp/chrono/hh mm ss/formatter")(C++20) |  formatting support for `hh_mm_ss`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_formatter&action=edit)  
+(class template specialization)   
 [ std::formatter<std::chrono::sys_info>](../chrono/sys_info/formatter.html "cpp/chrono/sys info/formatter")(C++20) |  formatting support for `sys_info`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_formatter&action=edit)  
+(class template specialization)   
 [ std::formatter<std::chrono::local_info>](../chrono/local_info/formatter.html "cpp/chrono/local info/formatter")(C++20) |  formatting support for `local_info`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_formatter&action=edit)  
+(class template specialization)   
 [ std::formatter<std::chrono::zoned_time>](../chrono/zoned_time/formatter.html "cpp/chrono/zoned time/formatter")(C++20) |  formatting support for `zoned_time`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_formatter&action=edit)  
+(class template specialization)   
 [ std::hash<std::chrono::duration>](../chrono/duration/hash.html "cpp/chrono/duration/hash")(C++26) |  hash support for [`std::chrono::duration`](../chrono/duration.html "cpp/chrono/duration")   
 (class template specialization)  
 [ std::hash<std::chrono::time_point>](../chrono/time_point/hash.html "cpp/chrono/time point/hash")(C++26) |  hash support for [`std::chrono::time_point`](../chrono/time_point.html "cpp/chrono/time point")   
@@ -508,7 +508,7 @@ Defined in namespace `std`
   
 Defined in header `[<functional>](functional.html "cpp/header/functional")`  
 [ hash](../utility/hash.html "cpp/utility/hash")(C++11) |  hash function object   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_hash&action=edit)  
+(class template)   
   
 ###  Functions  
   
@@ -518,223 +518,223 @@ Defined in header `[<functional>](functional.html "cpp/header/functional")`
   
 Defined in namespace `std::chrono`  
 [ operator+operator-operator*operator/operator%](../chrono/duration/operator_arith4.html "cpp/chrono/duration/operator arith4")(C++11) |  implements arithmetic operations with durations as arguments   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/duration/dsc_operator_arith4&action=edit)  
+(function template)   
 [ operator==operator!=operator<operator<=operator>operator>=operator<=>](../chrono/duration/operator_cmp.html "cpp/chrono/duration/operator cmp")(C++11)(C++11)(removed in C++20)(C++11)(C++11)(C++11)(C++11)(C++20) |  compares two durations   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/duration/dsc_operator_cmp&action=edit)  
+(function template)   
 [ duration_cast](../chrono/duration/duration_cast.html "cpp/chrono/duration/duration cast")(C++11) |  converts a duration to another, with a different tick interval   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/duration/dsc_duration_cast&action=edit)  
+(function template)   
 [ floor(std::chrono::duration)](../chrono/duration/floor.html "cpp/chrono/duration/floor")(C++17) |  converts a duration to another, rounding down   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/duration/dsc_floor&action=edit)  
+(function template)   
 [ ceil(std::chrono::duration)](../chrono/duration/ceil.html "cpp/chrono/duration/ceil")(C++17) |  converts a duration to another, rounding up   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/duration/dsc_ceil&action=edit)  
+(function template)   
 [ round(std::chrono::duration)](../chrono/duration/round.html "cpp/chrono/duration/round")(C++17) |  converts a duration to another, rounding to nearest, ties to even   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/duration/dsc_round&action=edit)  
+(function template)   
 [ abs(std::chrono::duration)](../chrono/duration/abs.html "cpp/chrono/duration/abs")(C++17) |  obtains the absolute value of the duration   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/duration/dsc_abs&action=edit)  
+(function template)   
   
 #####  Time point   
   
 Defined in namespace `std::chrono`  
 [ operator+operator-](../chrono/time_point/operator_arith2.html "cpp/chrono/time point/operator arith2")(C++11) |  performs add and subtract operations involving a time point   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_point/dsc_operator_arith2&action=edit)  
+(function template)   
 [ operator==operator!=operator<operator<=operator>operator>=operator<=>](../chrono/time_point/operator_cmp.html "cpp/chrono/time point/operator cmp")(C++11)(C++11)(removed in C++20)(C++11)(C++11)(C++11)(C++11)(C++20) |  compares two time points   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_point/dsc_operator_cmp&action=edit)  
+(function template)   
 [ time_point_cast](../chrono/time_point/time_point_cast.html "cpp/chrono/time point/time point cast")(C++11) |  converts a time point to another time point on the same clock, with a different duration   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_point/dsc_time_point_cast&action=edit)  
+(function template)   
 [ floor(std::chrono::time_point)](../chrono/time_point/floor.html "cpp/chrono/time point/floor")(C++17) |  converts a time_point to another, rounding down   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_point/dsc_floor&action=edit)  
+(function template)   
 [ ceil(std::chrono::time_point)](../chrono/time_point/ceil.html "cpp/chrono/time point/ceil")(C++17) |  converts a time_point to another, rounding up   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_point/dsc_ceil&action=edit)  
+(function template)   
 [ round(std::chrono::time_point)](../chrono/time_point/round.html "cpp/chrono/time point/round")(C++17) |  converts a time_point to another, rounding to nearest, ties to even   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_point/dsc_round&action=edit)  
+(function template)   
 [ from_stream(std::chrono::sys_time)](../chrono/system_clock/from_stream.html "cpp/chrono/system clock/from stream")(C++20) |  parses a `sys_time` from a stream according to the provided format   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_point/dsc_from_stream&action=edit)  
+(function template)   
 [ from_stream(std::chrono::utc_time)](../chrono/utc_clock/from_stream.html "cpp/chrono/utc clock/from stream")(C++20) |  parses a `utc_time` from a stream according to the provided format   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_point/dsc_from_stream&action=edit)  
+(function template)   
 [ from_stream(std::chrono::tai_time)](../chrono/tai_clock/from_stream.html "cpp/chrono/tai clock/from stream")(C++20) |  parses a `tai_time` from a stream according to the provided format   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_point/dsc_from_stream&action=edit)  
+(function template)   
 [ from_stream(std::chrono::gps_time)](../chrono/gps_clock/from_stream.html "cpp/chrono/gps clock/from stream")(C++20) |  parses a `gps_time` from a stream according to the provided format   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_point/dsc_from_stream&action=edit)  
+(function template)   
 [ from_stream(std::chrono::file_time)](../chrono/file_clock/from_stream.html "cpp/chrono/file clock/from stream")(C++20) |  parses a `file_time` from a stream according to the provided format   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_point/dsc_from_stream&action=edit)  
+(function template)   
 [ from_stream(std::chrono::local_time)](../chrono/local_t/from_stream.html "cpp/chrono/local t/from stream")(C++20) |  parses a `local_time` from a stream according to the provided format   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_point/dsc_from_stream&action=edit)  
+(function template)   
 [ clock_cast](../chrono/clock_cast.html "cpp/chrono/clock cast")(C++20) |  convert time points of one clock to another   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_clock_cast&action=edit)  
+(function template)   
   
 #####  Calendar   
   
 Defined in namespace `std::chrono`  
 [ operator==operator<=>](../chrono/day/operator_cmp.html "cpp/chrono/day/operator cmp")(C++20) |  compares two `day` values   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/day/dsc_operator_cmp&action=edit)  
+(function)   
 [ operator==operator<=>](../chrono/month/operator_cmp.html "cpp/chrono/month/operator cmp")(C++20) |  compares two `month` values   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/month/dsc_operator_cmp&action=edit)  
+(function)   
 [ operator==operator<=>](../chrono/year/operator_cmp.html "cpp/chrono/year/operator cmp")(C++20) |  compares two `year` values   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/year/dsc_operator_cmp&action=edit)  
+(function)   
 [ operator==](../chrono/weekday/operator_cmp.html "cpp/chrono/weekday/operator cmp")(C++20) |  compares two `weekday` values   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/weekday/dsc_operator_cmp&action=edit)  
+(function)   
 [ operator==](../chrono/weekday_indexed/operator_cmp.html "cpp/chrono/weekday indexed/operator cmp")(C++20) |  compares two `weekday_indexed` values   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/weekday_indexed/dsc_operator_cmp&action=edit)  
+(function)   
 [ operator==](../chrono/weekday_last/operator_cmp.html "cpp/chrono/weekday last/operator cmp")(C++20) |  compares two `weekday_last` values   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/weekday_last/dsc_operator_cmp&action=edit)  
+(function)   
 [ operator==operator<=>](../chrono/month_day/operator_cmp.html "cpp/chrono/month day/operator cmp")(C++20) |  compares two `month_day` values   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/month_day/dsc_operator_cmp&action=edit)  
+(function)   
 [ operator==operator<=>](../chrono/month_day_last/operator_cmp.html "cpp/chrono/month day last/operator cmp")(C++20) |  compares two `month_day_last` values   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/month_day_last/dsc_operator_cmp&action=edit)  
+(function)   
 [ operator==](../chrono/month_weekday/operator_cmp.html "cpp/chrono/month weekday/operator cmp")(C++20) |  compares two `month_weekday` values   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/month_weekday/dsc_operator_cmp&action=edit)  
+(function)   
 [ operator==](../chrono/month_weekday_last/operator_cmp.html "cpp/chrono/month weekday last/operator cmp")(C++20) |  compares two `month_weekday_last` values   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/month_weekday_last/dsc_operator_cmp&action=edit)  
+(function)   
 [ operator==operator<=>](../chrono/year_month/operator_cmp.html "cpp/chrono/year month/operator cmp")(C++20) |  compares two `year_month` values   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/year_month/dsc_operator_cmp&action=edit)  
+(function)   
 [ operator==operator<=>](../chrono/year_month_day/operator_cmp.html "cpp/chrono/year month day/operator cmp")(C++20) |  compares two `year_month_day` values   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/year_month_day/dsc_operator_cmp&action=edit)  
+(function)   
 [ operator==operator<=>](../chrono/year_month_day_last/operator_cmp.html "cpp/chrono/year month day last/operator cmp")(C++20) |  compares two `year_month_day_last` values   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/year_month_day_last/dsc_operator_cmp&action=edit)  
+(function)   
 [ operator==](../chrono/year_month_weekday/operator_cmp.html "cpp/chrono/year month weekday/operator cmp")(C++20) |  compares two `year_month_weekday` values   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/year_month_weekday/dsc_operator_cmp&action=edit)  
+(function)   
 [ operator==](../chrono/year_month_weekday_last/operator_cmp.html "cpp/chrono/year month weekday last/operator cmp")(C++20) |  compares two `year_month_weekday_last` values   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/year_month_weekday_last/dsc_operator_cmp&action=edit)  
+(function)   
 [ operator+operator-](../chrono/day/operator_arith_2.html "cpp/chrono/day/operator arith 2")(C++20) |  adds or subtracts a number of days and a `day`, or find the difference between two `day`s   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/day/dsc_operator_arith_2&action=edit)  
+(function)   
 [ operator+operator-](../chrono/month/operator_arith_2.html "cpp/chrono/month/operator arith 2")(C++20) |  performs arithmetic on `month`s   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/month/dsc_operator_arith_2&action=edit)  
+(function)   
 [ operator+operator-](../chrono/year/operator_arith_2.html "cpp/chrono/year/operator arith 2")(C++20) |  performs arithmetic on `year`s   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/year/dsc_operator_arith_2&action=edit)  
+(function)   
 [ operator+operator-](../chrono/weekday/operator_arith_2.html "cpp/chrono/weekday/operator arith 2")(C++20) |  performs arithmetic on `weekday`s   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/weekday/dsc_operator_arith_2&action=edit)  
+(function)   
 [ operator+operator-](../chrono/year_month/operator_arith_2.html "cpp/chrono/year month/operator arith 2")(C++20) |  performs arithmetic on `year_month`   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/year_month/dsc_operator_arith_2&action=edit)  
+(function)   
 [ operator+operator-](../chrono/year_month_day/operator_arith_2.html "cpp/chrono/year month day/operator arith 2")(C++20) |  adds or subtracts a `year_month_day` and some number of years or months   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/year_month_day/dsc_operator_arith_2&action=edit)  
+(function)   
 [ operator+operator-](../chrono/year_month_day_last/operator_arith_2.html "cpp/chrono/year month day last/operator arith 2")(C++20) |  adds or subtracts a `year_month_day_last` and some number of years or months   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/year_month_day_last/dsc_operator_arith_2&action=edit)  
+(function)   
 [ operator+operator-](../chrono/year_month_weekday/operator_arith_2.html "cpp/chrono/year month weekday/operator arith 2")(C++20) |  adds or subtracts a `year_month_weekday` and some number of years or months   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/year_month_weekday/dsc_operator_arith_2&action=edit)  
+(function)   
 [ operator+operator-](../chrono/year_month_weekday_last/operator_arith_2.html "cpp/chrono/year month weekday last/operator arith 2")(C++20) |  adds or subtracts a `year_month_weekday_last` and some number of years or months   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/year_month_weekday_last/dsc_operator_arith_2&action=edit)  
+(function)   
 [ operator/](../chrono/operator_slash.html "cpp/chrono/operator slash")(C++20) |  conventional syntax for Gregorian calendar date creation   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_operator/&action=edit)  
+(function)   
   
 #####  Time of day   
   
 Defined in namespace `std::chrono`  
 [ is_amis_pmmake12make24](../chrono/hour_fun.html "cpp/chrono/hour fun")(C++20) |  translates between a 12h/24h format time of day   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_hour_fun&action=edit)  
+(function)   
   
 #####  Time zone   
   
 Defined in namespace `std::chrono`  
 [ get_tzdbget_tzdb_listreload_tzdbremote_version](../chrono/tzdb_functions.html "cpp/chrono/tzdb functions")(C++20) |  accesses and controls the global time zone database information   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_tzdb_functions&action=edit)  
+(function)   
 [ locate_zone](../chrono/locate_zone.html "cpp/chrono/locate zone")(C++20) |  locates a [`time_zone`](../chrono/time_zone.html "cpp/chrono/time zone") based on its name   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_locate_zone&action=edit)  
+(function)   
 [ operator==operator<=>](../chrono/time_zone/operator_cmp.html "cpp/chrono/time zone/operator cmp")(C++20) |  compares two `time_zone` objects   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_zone/dsc_operator_cmp&action=edit)  
+(function)   
 [ operator==](../chrono/zoned_time/operator_cmp.html "cpp/chrono/zoned time/operator cmp")(C++20) |  compares two `zoned_time` values   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/zoned_time/dsc_operator_cmp&action=edit)  
+(function template)   
 [ operator==operator<=>](../chrono/time_zone_link/operator_cmp.html "cpp/chrono/time zone link/operator cmp")(C++20) |  compares two `time_zone_link` objects   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_zone_link/dsc_operator_cmp&action=edit)  
+(function)   
   
 #####  Leap second   
   
 Defined in namespace `std::chrono`  
 [ get_leap_second_info](../chrono/utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20) |  obtains leap second insertion information from a `utc_time` object   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/utc_clock/dsc_get_leap_second_info&action=edit)  
+(function template)   
 [ operator==operator<operator<=operator>operator>=operator<=>](../chrono/leap_second/operator_cmp.html "cpp/chrono/leap second/operator cmp")(C++20) |  compares two `leap_second` values or a `leap_second` value and a sys_time   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/leap_second/dsc_operator_cmp&action=edit)  
+(function template)   
   
 #####  I/O   
   
 Defined in namespace `std::chrono`  
 [ operator<<](../chrono/duration/operator_ltlt.html "cpp/chrono/duration/operator ltlt")(C++20) |  performs stream output on a `duration`   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/duration/dsc_operator_ltlt&action=edit)  
+(function template)   
 [ operator<<(std::chrono::sys_time)](../chrono/system_clock/operator_ltlt.html "cpp/chrono/system clock/operator ltlt")(C++20) |  performs stream output on a `sys_time`   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_point/dsc_operator_ltlt&action=edit)  
+(function template)   
 [ operator<<(std::chrono::utc_time)](../chrono/utc_clock/operator_ltlt.html "cpp/chrono/utc clock/operator ltlt")(C++20) |  performs stream output on a `utc_time`   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_point/dsc_operator_ltlt&action=edit)  
+(function template)   
 [ operator<<(std::chrono::tai_time)](../chrono/tai_clock/operator_ltlt.html "cpp/chrono/tai clock/operator ltlt")(C++20) |  performs stream output on a `tai_time`   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_point/dsc_operator_ltlt&action=edit)  
+(function template)   
 [ operator<<(std::chrono::gps_time)](../chrono/gps_clock/operator_ltlt.html "cpp/chrono/gps clock/operator ltlt")(C++20) |  performs stream output on a `gps_time`   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_point/dsc_operator_ltlt&action=edit)  
+(function template)   
 [ operator<<(std::chrono::file_time)](../chrono/file_clock/operator_ltlt.html "cpp/chrono/file clock/operator ltlt")(C++20) |  performs stream output on a `file_time`   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_point/dsc_operator_ltlt&action=edit)  
+(function template)   
 [ operator<<](../chrono/day/operator_ltlt.html "cpp/chrono/day/operator ltlt")(C++20) |  outputs a `day` into a stream   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/day/dsc_operator_ltlt&action=edit)  
+(function template)   
 [ operator<<](../chrono/month/operator_ltlt.html "cpp/chrono/month/operator ltlt")(C++20) |  outputs a `month` into a stream   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/month/dsc_operator_ltlt&action=edit)  
+(function template)   
 [ operator<<](../chrono/year/operator_ltlt.html "cpp/chrono/year/operator ltlt")(C++20) |  outputs a `year` into a stream   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/year/dsc_operator_ltlt&action=edit)  
+(function template)   
 [ operator<<](../chrono/weekday/operator_ltlt.html "cpp/chrono/weekday/operator ltlt")(C++20) |  outputs a `weekday` into a stream   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/weekday/dsc_operator_ltlt&action=edit)  
+(function template)   
 [ operator<<](../chrono/weekday_indexed/operator_ltlt.html "cpp/chrono/weekday indexed/operator ltlt")(C++20) |  outputs a `weekday_indexed` into a stream   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/weekday_indexed/dsc_operator_ltlt&action=edit)  
+(function template)   
 [ operator<<](../chrono/weekday_last/operator_ltlt.html "cpp/chrono/weekday last/operator ltlt")(C++20) |  outputs a `weekday_last` into a stream   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/weekday_last/dsc_operator_ltlt&action=edit)  
+(function template)   
 [ operator<<](../chrono/month_day/operator_ltlt.html "cpp/chrono/month day/operator ltlt")(C++20) |  outputs a `month_day` into a stream   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/month_day/dsc_operator_ltlt&action=edit)  
+(function template)   
 [ operator<<](../chrono/month_day_last/operator_ltlt.html "cpp/chrono/month day last/operator ltlt")(C++20) |  outputs a `month_day_last` into a stream   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/month_day_last/dsc_operator_ltlt&action=edit)  
+(function template)   
 [ operator<<](../chrono/month_weekday/operator_ltlt.html "cpp/chrono/month weekday/operator ltlt")(C++20) |  outputs a `month_weekday` into a stream   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/month_weekday/dsc_operator_ltlt&action=edit)  
+(function template)   
 [ operator<<](../chrono/month_weekday_last/operator_ltlt.html "cpp/chrono/month weekday last/operator ltlt")(C++20) |  outputs a `month_weekday_last` into a stream   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/month_weekday_last/dsc_operator_ltlt&action=edit)  
+(function template)   
 [ operator<<](../chrono/year_month/operator_ltlt.html "cpp/chrono/year month/operator ltlt")(C++20) |  outputs a `year_month` into a stream   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/year_month/dsc_operator_ltlt&action=edit)  
+(function template)   
 [ operator<<](../chrono/year_month_day/operator_ltlt.html "cpp/chrono/year month day/operator ltlt")(C++20) |  outputs a `year_month_day` into a stream   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/year_month_day/dsc_operator_ltlt&action=edit)  
+(function template)   
 [ operator<<](../chrono/year_month_day_last/operator_ltlt.html "cpp/chrono/year month day last/operator ltlt")(C++20) |  outputs a `year_month_day_last` into a stream   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/year_month_day_last/dsc_operator_ltlt&action=edit)  
+(function template)   
 [ operator<<](../chrono/year_month_weekday/operator_ltlt.html "cpp/chrono/year month weekday/operator ltlt")(C++20) |  outputs a `year_month_weekday` into a stream   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/year_month_weekday/dsc_operator_ltlt&action=edit)  
+(function template)   
 [ operator<<](../chrono/year_month_weekday_last/operator_ltlt.html "cpp/chrono/year month weekday last/operator ltlt")(C++20) |  outputs a `year_month_weekday_last` into a stream   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/year_month_weekday_last/dsc_operator_ltlt&action=edit)  
+(function template)   
 [ operator<<](../chrono/hh_mm_ss/operator_ltlt.html "cpp/chrono/hh mm ss/operator ltlt")(C++20) |  outputs a `hh_mm_ss` into a stream   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/hh_mm_ss/dsc_operator_ltlt&action=edit)  
+(function template)   
 [ operator<<](../chrono/sys_info/operator_ltlt.html "cpp/chrono/sys info/operator ltlt")(C++20) |  outputs a `sys_info` into a stream   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/sys_info/dsc_operator_ltlt&action=edit)  
+(function template)   
 [ operator<<](../chrono/local_info/operator_ltlt.html "cpp/chrono/local info/operator ltlt")(C++20) |  outputs a `local_info` into a stream   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/local_info/dsc_operator_ltlt&action=edit)  
+(function template)   
 [ operator<<](../chrono/zoned_time/operator_ltlt.html "cpp/chrono/zoned time/operator ltlt")(C++20) |  outputs a `zoned_time` into a stream   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/zoned_time/dsc_operator_ltlt&action=edit)  
+(function template)   
 [ from_stream](../chrono/day/from_stream.html "cpp/chrono/day/from stream")(C++20) |  parses a `day` from a stream according to the provided format   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/day/dsc_from_stream&action=edit)  
+(function template)   
 [ from_stream](../chrono/month/from_stream.html "cpp/chrono/month/from stream")(C++20) |  parses a `month` from a stream according to the provided format   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/month/dsc_from_stream&action=edit)  
+(function template)   
 [ from_stream](../chrono/year/from_stream.html "cpp/chrono/year/from stream")(C++20) |  parses a `year` from a stream according to the provided format   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/year/dsc_from_stream&action=edit)  
+(function template)   
 [ from_stream](../chrono/weekday/from_stream.html "cpp/chrono/weekday/from stream")(C++20) |  parses a `weekday` from a stream according to the provided format   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/weekday/dsc_from_stream&action=edit)  
+(function template)   
 [ from_stream](../chrono/month_day/from_stream.html "cpp/chrono/month day/from stream")(C++20) |  parses a `month_day` from a stream according to the provided format   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/month_day/dsc_from_stream&action=edit)  
+(function template)   
 [ from_stream](../chrono/year_month/from_stream.html "cpp/chrono/year month/from stream")(C++20) |  parses a `year_month` from a stream according to the provided format   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/year_month/dsc_from_stream&action=edit)  
+(function template)   
 [ from_stream](../chrono/year_month_day/from_stream.html "cpp/chrono/year month day/from stream")(C++20) |  parses a `year_month_day` from a stream according to the provided format   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/year_month_day/dsc_from_stream&action=edit)  
+(function template)   
 [ parse](../chrono/parse.html "cpp/chrono/parse")(C++20) |  parses a `chrono` object from a stream   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_parse&action=edit)  
+(function template)   
   
 #####  Literals   
   
 Defined in inline namespace `std::literals::chrono_literals`  
 [ operator""h](../chrono/operator""h.html "cpp/chrono/operator""h")(C++14) |  a [std::chrono::duration](../chrono/duration.html "cpp/chrono/duration") literal representing hours   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_operator%22%22h&action=edit)  
+(function)   
 [ operator""min](../chrono/operator""min.html "cpp/chrono/operator""min")(C++14) |  a [std::chrono::duration](../chrono/duration.html "cpp/chrono/duration") literal representing minutes   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_operator%22%22min&action=edit)  
+(function)   
 [ operator""s](../chrono/operator""s.html "cpp/chrono/operator""s")(C++14) |  a [std::chrono::duration](../chrono/duration.html "cpp/chrono/duration") literal representing seconds   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_operator%22%22s&action=edit)  
+(function)   
 [ operator""ms](../chrono/operator""ms.html "cpp/chrono/operator""ms")(C++14) |  a [std::chrono::duration](../chrono/duration.html "cpp/chrono/duration") literal representing milliseconds   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_operator%22%22ms&action=edit)  
+(function)   
 [ operator""us](../chrono/operator""us.html "cpp/chrono/operator""us")(C++14) |  a [std::chrono::duration](../chrono/duration.html "cpp/chrono/duration") literal representing microseconds   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_operator%22%22us&action=edit)  
+(function)   
 [ operator""ns](../chrono/operator""ns.html "cpp/chrono/operator""ns")(C++14) |  a [std::chrono::duration](../chrono/duration.html "cpp/chrono/duration") literal representing nanoseconds   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_operator%22%22ns&action=edit)  
+(function)   
 [ operator""d](../chrono/operator""d.html "cpp/chrono/operator""d")(C++20) |  a std::chrono::day literal representing a day of a month   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_operator%22%22d&action=edit)  
+(function)   
 [ operator""y](../chrono/operator""y.html "cpp/chrono/operator""y")(C++20) |  a std::chrono::year literal representing a particular year   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_operator%22%22y&action=edit)  
+(function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/chrono&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     #include <compare>
@@ -1650,7 +1650,7 @@ Defined in inline namespace `std::literals::chrono_literals`
       template<> struct hash<chrono::leap_second>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/chrono&action=edit&section=T-1 "Template:cpp/synopsis/chrono")] Class template [std::chrono::duration](../chrono/duration.html "cpp/chrono/duration")
+#### Class template [std::chrono::duration](../chrono/duration.html "cpp/chrono/duration")
     
     
     namespace std::chrono {
@@ -1700,7 +1700,7 @@ Defined in inline namespace `std::literals::chrono_literals`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/chrono&action=edit&section=T-2 "Template:cpp/synopsis/chrono")] Class template [std::chrono::time_point](../chrono/time_point.html "cpp/chrono/time point")
+#### Class template [std::chrono::time_point](../chrono/time_point.html "cpp/chrono/time point")
     
     
     namespace std::chrono {
@@ -1739,7 +1739,7 @@ Defined in inline namespace `std::literals::chrono_literals`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/chrono&action=edit&section=T-3 "Template:cpp/synopsis/chrono")] Class template [std::common_type](../types/common_type.html "cpp/types/common type")'s specialization for [std::chrono::duration](../chrono/duration.html "cpp/chrono/duration")
+#### Class template [std::common_type](../types/common_type.html "cpp/types/common type")'s specialization for [std::chrono::duration](../chrono/duration.html "cpp/chrono/duration")
     
     
     namespace std {
@@ -1750,7 +1750,7 @@ Defined in inline namespace `std::literals::chrono_literals`
         };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/chrono&action=edit&section=T-4 "Template:cpp/synopsis/chrono")] Class template [std::common_type](../types/common_type.html "cpp/types/common type")'s specialization for [std::chrono::time_point](../chrono/time_point.html "cpp/chrono/time point")
+#### Class template [std::common_type](../types/common_type.html "cpp/types/common type")'s specialization for [std::chrono::time_point](../chrono/time_point.html "cpp/chrono/time point")
     
     
     namespace std {
@@ -1761,12 +1761,12 @@ Defined in inline namespace `std::literals::chrono_literals`
         };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/chrono&action=edit&section=T-5 "Template:cpp/synopsis/chrono")] Class template [std::chrono::treat_as_floating_point](../chrono/treat_as_floating_point.html "cpp/chrono/treat as floating point")
+#### Class template [std::chrono::treat_as_floating_point](../chrono/treat_as_floating_point.html "cpp/chrono/treat as floating point")
     
     
     template<class Rep> struct treat_as_floating_point : is_floating_point<Rep> { };
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/chrono&action=edit&section=T-6 "Template:cpp/synopsis/chrono")] Class template [std::chrono::duration_values](../chrono/duration_values.html "cpp/chrono/duration values")
+#### Class template [std::chrono::duration_values](../chrono/duration_values.html "cpp/chrono/duration values")
     
     
     namespace std::chrono {
@@ -1779,7 +1779,7 @@ Defined in inline namespace `std::literals::chrono_literals`
         };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/chrono&action=edit&section=T-7 "Template:cpp/synopsis/chrono")] Class [std::chrono::system_clock](../chrono/system_clock.html "cpp/chrono/system clock")
+#### Class [std::chrono::system_clock](../chrono/system_clock.html "cpp/chrono/system clock")
     
     
     namespace std::chrono {
@@ -1799,7 +1799,7 @@ Defined in inline namespace `std::literals::chrono_literals`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/chrono&action=edit&section=T-8 "Template:cpp/synopsis/chrono")] Class [std::chrono::utc_clock](../chrono/utc_clock.html)
+#### Class [std::chrono::utc_clock](../chrono/utc_clock.html)
     
     
     namespace std::chrono {
@@ -1822,7 +1822,7 @@ Defined in inline namespace `std::literals::chrono_literals`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/chrono&action=edit&section=T-9 "Template:cpp/synopsis/chrono")] Class [std::chrono::tai_clock](../chrono/tai_clock.html)
+#### Class [std::chrono::tai_clock](../chrono/tai_clock.html)
     
     
     namespace std::chrono {
@@ -1845,7 +1845,7 @@ Defined in inline namespace `std::literals::chrono_literals`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/chrono&action=edit&section=T-10 "Template:cpp/synopsis/chrono")] Class [std::chrono::gps_clock](../chrono/gps_clock.html)
+#### Class [std::chrono::gps_clock](../chrono/gps_clock.html)
     
     
     namespace std::chrono {
@@ -1868,7 +1868,7 @@ Defined in inline namespace `std::literals::chrono_literals`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/chrono&action=edit&section=T-11 "Template:cpp/synopsis/chrono")] Class [std::chrono::steady_clock](../chrono/steady_clock.html "cpp/chrono/steady clock")
+#### Class [std::chrono::steady_clock](../chrono/steady_clock.html "cpp/chrono/steady clock")
     
     
     namespace std::chrono {
@@ -1884,7 +1884,7 @@ Defined in inline namespace `std::literals::chrono_literals`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/chrono&action=edit&section=T-12 "Template:cpp/synopsis/chrono")] Class [std::chrono::high_resolution_clock](../chrono/high_resolution_clock.html "cpp/chrono/high resolution clock")
+#### Class [std::chrono::high_resolution_clock](../chrono/high_resolution_clock.html "cpp/chrono/high resolution clock")
     
     
     namespace std::chrono {
@@ -1900,7 +1900,7 @@ Defined in inline namespace `std::literals::chrono_literals`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/chrono&action=edit&section=T-13 "Template:cpp/synopsis/chrono")] Class template [std::chrono::clock_time_conversion](../chrono/clock_time_conversion.html)
+#### Class template [std::chrono::clock_time_conversion](../chrono/clock_time_conversion.html)
     
     
     namespace std::chrono {
@@ -1971,7 +1971,7 @@ Defined in inline namespace `std::literals::chrono_literals`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/chrono&action=edit&section=T-14 "Template:cpp/synopsis/chrono")] Class [std::chrono::last_spec](../chrono/last_spec.html)
+#### Class [std::chrono::last_spec](../chrono/last_spec.html)
     
     
     namespace std::chrono {
@@ -1980,7 +1980,7 @@ Defined in inline namespace `std::literals::chrono_literals`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/chrono&action=edit&section=T-15 "Template:cpp/synopsis/chrono")] Class [std::chrono::day](../chrono/day.html)
+#### Class [std::chrono::day](../chrono/day.html)
     
     
     namespace std::chrono {
@@ -2003,7 +2003,7 @@ Defined in inline namespace `std::literals::chrono_literals`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/chrono&action=edit&section=T-16 "Template:cpp/synopsis/chrono")] Class [std::chrono::month](../chrono/month.html)
+#### Class [std::chrono::month](../chrono/month.html)
     
     
     namespace std::chrono {
@@ -2026,7 +2026,7 @@ Defined in inline namespace `std::literals::chrono_literals`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/chrono&action=edit&section=T-17 "Template:cpp/synopsis/chrono")] Class [std::chrono::year](../chrono/year.html)
+#### Class [std::chrono::year](../chrono/year.html)
     
     
     namespace std::chrono {
@@ -2057,7 +2057,7 @@ Defined in inline namespace `std::literals::chrono_literals`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/chrono&action=edit&section=T-18 "Template:cpp/synopsis/chrono")] Class [std::chrono::weekday](../chrono/weekday.html)
+#### Class [std::chrono::weekday](../chrono/weekday.html)
     
     
     namespace std::chrono {
@@ -2086,7 +2086,7 @@ Defined in inline namespace `std::literals::chrono_literals`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/chrono&action=edit&section=T-19 "Template:cpp/synopsis/chrono")] Class [std::chrono::weekday_indexed](../chrono/weekday_indexed.html)
+#### Class [std::chrono::weekday_indexed](../chrono/weekday_indexed.html)
     
     
     namespace std::chrono {
@@ -2104,7 +2104,7 @@ Defined in inline namespace `std::literals::chrono_literals`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/chrono&action=edit&section=T-20 "Template:cpp/synopsis/chrono")] Class [std::chrono::weekday_last](../chrono/weekday_last.html)
+#### Class [std::chrono::weekday_last](../chrono/weekday_last.html)
     
     
     namespace std::chrono {
@@ -2119,7 +2119,7 @@ Defined in inline namespace `std::literals::chrono_literals`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/chrono&action=edit&section=T-21 "Template:cpp/synopsis/chrono")] Class [std::chrono::month_day](../chrono/month_day.html)
+#### Class [std::chrono::month_day](../chrono/month_day.html)
     
     
     namespace std::chrono {
@@ -2137,7 +2137,7 @@ Defined in inline namespace `std::literals::chrono_literals`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/chrono&action=edit&section=T-22 "Template:cpp/synopsis/chrono")] Class [std::chrono::month_day_last](../chrono/month_day_last.html)
+#### Class [std::chrono::month_day_last](../chrono/month_day_last.html)
     
     
     namespace std::chrono {
@@ -2152,7 +2152,7 @@ Defined in inline namespace `std::literals::chrono_literals`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/chrono&action=edit&section=T-23 "Template:cpp/synopsis/chrono")] Class [std::chrono::month_weekday](../chrono/month_weekday.html)
+#### Class [std::chrono::month_weekday](../chrono/month_weekday.html)
     
     
     namespace std::chrono {
@@ -2169,7 +2169,7 @@ Defined in inline namespace `std::literals::chrono_literals`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/chrono&action=edit&section=T-24 "Template:cpp/synopsis/chrono")] Class [std::chrono::month_weekday_last](../chrono/month_weekday_last.html)
+#### Class [std::chrono::month_weekday_last](../chrono/month_weekday_last.html)
     
     
     namespace std::chrono {
@@ -2186,7 +2186,7 @@ Defined in inline namespace `std::literals::chrono_literals`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/chrono&action=edit&section=T-25 "Template:cpp/synopsis/chrono")] Class [std::chrono::year_month](../chrono/year_month.html)
+#### Class [std::chrono::year_month](../chrono/year_month.html)
     
     
     namespace std::chrono {
@@ -2210,7 +2210,7 @@ Defined in inline namespace `std::literals::chrono_literals`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/chrono&action=edit&section=T-26 "Template:cpp/synopsis/chrono")] Class [std::chrono::year_month_day](../chrono/year_month_day.html)
+#### Class [std::chrono::year_month_day](../chrono/year_month_day.html)
     
     
     namespace std::chrono {
@@ -2242,7 +2242,7 @@ Defined in inline namespace `std::literals::chrono_literals`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/chrono&action=edit&section=T-27 "Template:cpp/synopsis/chrono")] Class [std::chrono::year_month_day_last](../chrono/year_month_day_last.html)
+#### Class [std::chrono::year_month_day_last](../chrono/year_month_day_last.html)
     
     
     namespace std::chrono {
@@ -2270,7 +2270,7 @@ Defined in inline namespace `std::literals::chrono_literals`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/chrono&action=edit&section=T-28 "Template:cpp/synopsis/chrono")] Class [std::chrono::year_month_weekday](../chrono/year_month_weekday.html)
+#### Class [std::chrono::year_month_weekday](../chrono/year_month_weekday.html)
     
     
     namespace std::chrono {
@@ -2303,7 +2303,7 @@ Defined in inline namespace `std::literals::chrono_literals`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/chrono&action=edit&section=T-29 "Template:cpp/synopsis/chrono")] Class [std::chrono::year_month_weekday_last](../chrono/year_month_weekday_last.html)
+#### Class [std::chrono::year_month_weekday_last](../chrono/year_month_weekday_last.html)
     
     
     namespace std::chrono {
@@ -2332,7 +2332,7 @@ Defined in inline namespace `std::literals::chrono_literals`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/chrono&action=edit&section=T-30 "Template:cpp/synopsis/chrono")] Class template [std::chrono::hh_mm_ss](../chrono/hh_mm_ss.html "cpp/chrono/hh mm ss")
+#### Class template [std::chrono::hh_mm_ss](../chrono/hh_mm_ss.html "cpp/chrono/hh mm ss")
     
     
     namespace std::chrono {
@@ -2362,7 +2362,7 @@ Defined in inline namespace `std::literals::chrono_literals`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/chrono&action=edit&section=T-31 "Template:cpp/synopsis/chrono")] Class [std::chrono::tzdb](../chrono/tzdb.html)
+#### Class [std::chrono::tzdb](../chrono/tzdb.html)
     
     
     namespace std::chrono {
@@ -2377,7 +2377,7 @@ Defined in inline namespace `std::literals::chrono_literals`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/chrono&action=edit&section=T-32 "Template:cpp/synopsis/chrono")] Class [std::chrono::tzdb_list](../chrono/tzdb_list.html)
+#### Class [std::chrono::tzdb_list](../chrono/tzdb_list.html)
     
     
     namespace std::chrono {
@@ -2402,7 +2402,7 @@ Defined in inline namespace `std::literals::chrono_literals`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/chrono&action=edit&section=T-33 "Template:cpp/synopsis/chrono")] Class [std::chrono::nonexistent_local_time](../chrono/nonexistent_local_time.html)
+#### Class [std::chrono::nonexistent_local_time](../chrono/nonexistent_local_time.html)
     
     
     namespace std::chrono {
@@ -2413,7 +2413,7 @@ Defined in inline namespace `std::literals::chrono_literals`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/chrono&action=edit&section=T-34 "Template:cpp/synopsis/chrono")] Class [std::chrono::ambiguous_local_time](../chrono/ambiguous_local_time.html)
+#### Class [std::chrono::ambiguous_local_time](../chrono/ambiguous_local_time.html)
     
     
     namespace std::chrono {
@@ -2424,7 +2424,7 @@ Defined in inline namespace `std::literals::chrono_literals`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/chrono&action=edit&section=T-35 "Template:cpp/synopsis/chrono")] Class [std::chrono::sys_info](../chrono/sys_info.html)
+#### Class [std::chrono::sys_info](../chrono/sys_info.html)
     
     
     namespace std::chrono {
@@ -2437,7 +2437,7 @@ Defined in inline namespace `std::literals::chrono_literals`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/chrono&action=edit&section=T-36 "Template:cpp/synopsis/chrono")] Class [std::chrono::local_info](../chrono/local_info.html)
+#### Class [std::chrono::local_info](../chrono/local_info.html)
     
     
     namespace std::chrono {
@@ -2452,7 +2452,7 @@ Defined in inline namespace `std::literals::chrono_literals`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/chrono&action=edit&section=T-37 "Template:cpp/synopsis/chrono")] Class [std::chrono::time_zone](../chrono/time_zone.html)
+#### Class [std::chrono::time_zone](../chrono/time_zone.html)
     
     
     namespace std::chrono {
@@ -2482,7 +2482,7 @@ Defined in inline namespace `std::literals::chrono_literals`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/chrono&action=edit&section=T-38 "Template:cpp/synopsis/chrono")] Class template [std::chrono::zoned_traits](../chrono/zoned_traits.html)
+#### Class template [std::chrono::zoned_traits](../chrono/zoned_traits.html)
     
     
     namespace std::chrono {
@@ -2494,7 +2494,7 @@ Defined in inline namespace `std::literals::chrono_literals`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/chrono&action=edit&section=T-39 "Template:cpp/synopsis/chrono")] Class template [std::chrono::zoned_time](../chrono/zoned_time.html)
+#### Class template [std::chrono::zoned_time](../chrono/zoned_time.html)
     
     
     namespace std::chrono {
@@ -2585,7 +2585,7 @@ Defined in inline namespace `std::literals::chrono_literals`
                         /*time-zone-representation*/<TimeZonePtrOrName>>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/chrono&action=edit&section=T-40 "Template:cpp/synopsis/chrono")] Class [std::chrono::leap_second](../chrono/leap_second.html "cpp/chrono/leap second")
+#### Class [std::chrono::leap_second](../chrono/leap_second.html "cpp/chrono/leap second")
     
     
     namespace std::chrono {
@@ -2601,7 +2601,7 @@ Defined in inline namespace `std::literals::chrono_literals`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/chrono&action=edit&section=T-41 "Template:cpp/synopsis/chrono")] Class [std::chrono::time_zone_link](../chrono/time_zone_link.html "cpp/chrono/time zone link")
+#### Class [std::chrono::time_zone_link](../chrono/time_zone_link.html "cpp/chrono/time zone link")
     
     
     namespace std::chrono {
@@ -2617,7 +2617,7 @@ Defined in inline namespace `std::literals::chrono_literals`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/chrono&action=edit&section=T-42 "Template:cpp/synopsis/chrono")] Class template [`_local-time-format-t_`](../chrono/zoned_time/formatter.html "cpp/chrono/zoned time/formatter")
+#### Class template [`_local-time-format-t_`](../chrono/zoned_time/formatter.html "cpp/chrono/zoned time/formatter")
     
     
     namespace std::chrono {

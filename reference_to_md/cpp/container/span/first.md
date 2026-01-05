@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -71,7 +71,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::span`](../span.html "cpp/container/span")
 
@@ -104,7 +104,7 @@ Tables
 [dynamic_extent](dynamic_extent.html "cpp/container/span/dynamic extent")  
 [Deduction guides](deduction_guides.html "cpp/container/span/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/span/navbar_content&action=edit)
+
 
 template< [std::size_t](../../types/size_t.html) Count >  
 constexpr [std::span](../span.html)<element_type, Count> first() const; |  (1)  |  (since C++20)  
@@ -140,18 +140,18 @@ If Count > size() or count > size() is true:
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/span/first&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 count  |  \-  |  the number of the elements of the subview   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/span/first&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) [std::span](../span.html)<element_type, Count>{data(), Count}
 
 2) [std::span](../span.html)<element_type, [std::dynamic_extent](dynamic_extent.html)>{data(), count}
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/span/first&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -197,10 +197,10 @@ Output:
     span.first<5>(): [5]{1, 2, 3, 4, 5};
     span.first(4): [4]{1, 2, 3, 4};
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/span/first&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ last](last.html "cpp/container/span/last") |  obtains a subspan consisting of the last `N` elements of the sequence   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/span/dsc_last&action=edit)  
+(public member function)   
 ---|---  
 [ subspan](subspan.html "cpp/container/span/subspan") |  obtains a subspan   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/span/dsc_subspan&action=edit)
+(public member function) 

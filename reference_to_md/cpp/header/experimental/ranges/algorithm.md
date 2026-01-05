@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../../../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 [Experimental library headers](../../experimental.html "cpp/header/experimental")
 
@@ -292,7 +292,7 @@ Networking TS
 Reflection TS  
 [`<experimental/reflect>`](../reflect.html "cpp/header/experimental/reflect")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/experimental/navbar_content&action=edit)
+
 
 This header is part of the [ranges](../../../experimental/ranges.html "cpp/experimental/ranges") library. 
 
@@ -313,203 +313,203 @@ This header is part of the [ranges](../../../experimental/ranges.html "cpp/exper
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/ranges/algorithm&action=edit&section=1 "Edit section: Tag specifiers")] Tag specifiers 
+### Tag specifiers 
 
 Defined in namespace `std::experimental::ranges::tag`  
 ---  
 [ inin1in2outout1out2funminmaxbeginend](../../../experimental/ranges/algorithm/tags.html "cpp/experimental/ranges/algorithm/tags") |  tag specifiers for use with ranges::tagged   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_tags&action=edit)  
+(class)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/ranges/algorithm&action=edit&section=2 "Edit section: Non-modifying sequence operations")] Non-modifying sequence operations 
+### Non-modifying sequence operations 
 
 Defined in namespace `std::experimental::ranges`  
 ---  
 [ all_ofany_ofnone_of](../../../experimental/ranges/algorithm/all_any_none_of.html "cpp/experimental/ranges/algorithm/all any none of") |  checks if a predicate is true for all, any or none of the elements in a range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_all_any_none_of&action=edit)  
+(function template)   
 [ for_each](../../../experimental/ranges/algorithm/for_each.html "cpp/experimental/ranges/algorithm/for each") |  applies a function to a range of elements   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_for_each&action=edit)  
+(function template)   
 [ countcount_if](../../../experimental/ranges/algorithm/count.html "cpp/experimental/ranges/algorithm/count") |  returns the number of elements satisfying specific criteria   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_count&action=edit)  
+(function template)   
 [ mismatch](../../../experimental/ranges/algorithm/mismatch.html "cpp/experimental/ranges/algorithm/mismatch") |  finds the first position where two ranges differ   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_mismatch&action=edit)  
+(function template)   
 [ equal](../../../experimental/ranges/algorithm/equal.html "cpp/experimental/ranges/algorithm/equal") |  determines if two sets of elements are the same   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_equal&action=edit)  
+(function template)   
 [ lexicographical_compare](../../../experimental/ranges/algorithm/lexicographical_compare.html "cpp/experimental/ranges/algorithm/lexicographical compare") |  returns true if one range is lexicographically less than another   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_lexicographical_compare&action=edit)  
+(function template)   
 [ findfind_iffind_if_not](../../../experimental/ranges/algorithm/find.html "cpp/experimental/ranges/algorithm/find") |  finds the first element satisfying specific criteria   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_find&action=edit)  
+(function template)   
 [ find_end](../../../experimental/ranges/algorithm/find_end.html "cpp/experimental/ranges/algorithm/find end") |  finds the last sequence of elements in a certain range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_find_end&action=edit)  
+(function template)   
 [ find_first_of](../../../experimental/ranges/algorithm/find_first_of.html "cpp/experimental/ranges/algorithm/find first of") |  searches for any one of a set of elements   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_find_first_of&action=edit)  
+(function template)   
 [ adjacent_find](../../../experimental/ranges/algorithm/adjacent_find.html "cpp/experimental/ranges/algorithm/adjacent find") |  finds the first two adjacent items that are equal (or satisfy a given predicate)   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_adjacent_find&action=edit)  
+(function template)   
 [ search](../../../experimental/ranges/algorithm/search.html "cpp/experimental/ranges/algorithm/search") |  searches for a range of elements   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_search&action=edit)  
+(function template)   
 [ search_n](../../../experimental/ranges/algorithm/search_n.html "cpp/experimental/ranges/algorithm/search n") |  searches for a number consecutive copies of an element in a range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_search_n&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/ranges/algorithm&action=edit&section=3 "Edit section: Modifying sequence operations")] Modifying sequence operations 
+### Modifying sequence operations 
 
 Defined in namespace `std::experimental::ranges`  
 ---  
 [ copycopy_if](../../../experimental/ranges/algorithm/copy.html "cpp/experimental/ranges/algorithm/copy") |  copies a range of elements to a new location   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_copy&action=edit)  
+(function template)   
 [ copy_n](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/copy_n&action=edit&redlink=1 "cpp/experimental/ranges/algorithm/copy n \(page does not exist\)") |  copies a number of elements to a new location   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_copy_n&action=edit)  
+(function template)   
 [ copy_backward](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/copy_backward&action=edit&redlink=1 "cpp/experimental/ranges/algorithm/copy backward \(page does not exist\)") |  copies a range of elements in backwards order   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_copy_backward&action=edit)  
+(function template)   
 [ move](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/move&action=edit&redlink=1 "cpp/experimental/ranges/algorithm/move \(page does not exist\)") |  moves a range of elements to a new location   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_move&action=edit)  
+(function template)   
 [ move_backward](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/move_backward&action=edit&redlink=1 "cpp/experimental/ranges/algorithm/move backward \(page does not exist\)") |  moves a range of elements to a new location in backwards order   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_move_backward&action=edit)  
+(function template)   
 [ fill](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/fill&action=edit&redlink=1 "cpp/experimental/ranges/algorithm/fill \(page does not exist\)") |  assigns a range of elements a certain value   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_fill&action=edit)  
+(function template)   
 [ fill_n](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/fill_n&action=edit&redlink=1 "cpp/experimental/ranges/algorithm/fill n \(page does not exist\)") |  assigns a value to a number of elements   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_fill_n&action=edit)  
+(function template)   
 [ transform](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/transform&action=edit&redlink=1 "cpp/experimental/ranges/algorithm/transform \(page does not exist\)") |  applies a function to a range of elements   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_transform&action=edit)  
+(function template)   
 [ generate](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/generate&action=edit&redlink=1 "cpp/experimental/ranges/algorithm/generate \(page does not exist\)") |  saves the result of a function in a range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_generate&action=edit)  
+(function template)   
 [ generate_n](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/generate_n&action=edit&redlink=1 "cpp/experimental/ranges/algorithm/generate n \(page does not exist\)") |  saves the result of N applications of a function   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_generate_n&action=edit)  
+(function template)   
 [ removeremove_if](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/remove&action=edit&redlink=1 "cpp/experimental/ranges/algorithm/remove \(page does not exist\)") |  removes elements satisfying specific criteria   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_remove&action=edit)  
+(function template)   
 [ remove_copyremove_copy_if](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/remove_copy&action=edit&redlink=1 "cpp/experimental/ranges/algorithm/remove copy \(page does not exist\)") |  copies a range of elements omitting those that satisfy specific criteria   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_remove_copy&action=edit)  
+(function template)   
 [ replacereplace_if](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/replace&action=edit&redlink=1 "cpp/experimental/ranges/algorithm/replace \(page does not exist\)") |  replaces all values satisfying specific criteria with another value   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_replace&action=edit)  
+(function template)   
 [ replace_copyreplace_copy_if](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/replace_copy&action=edit&redlink=1 "cpp/experimental/ranges/algorithm/replace copy \(page does not exist\)") |  copies a range, replacing elements satisfying specific criteria with another value   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_replace_copy&action=edit)  
+(function template)   
 [ swap_ranges](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/swap_ranges&action=edit&redlink=1 "cpp/experimental/ranges/algorithm/swap ranges \(page does not exist\)") |  swaps two ranges of elements   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_swap_ranges&action=edit)  
+(function template)   
 [ reverse](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/reverse&action=edit&redlink=1 "cpp/experimental/ranges/algorithm/reverse \(page does not exist\)") |  reverses the order of elements in a range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_reverse&action=edit)  
+(function template)   
 [ reverse_copy](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/reverse_copy&action=edit&redlink=1 "cpp/experimental/ranges/algorithm/reverse copy \(page does not exist\)") |  creates a copy of a range that is reversed   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_reverse_copy&action=edit)  
+(function template)   
 [ rotate](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/rotate&action=edit&redlink=1 "cpp/experimental/ranges/algorithm/rotate \(page does not exist\)") |  rotates the order of elements in a range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_rotate&action=edit)  
+(function template)   
 [ rotate_copy](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/rotate_copy&action=edit&redlink=1 "cpp/experimental/ranges/algorithm/rotate copy \(page does not exist\)") |  copies and rotate a range of elements   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_rotate_copy&action=edit)  
+(function template)   
 [ shuffle](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/shuffle&action=edit&redlink=1 "cpp/experimental/ranges/algorithm/shuffle \(page does not exist\)") |  randomly re-orders elements in a range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_shuffle&action=edit)  
+(function template)   
 [ unique](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/unique&action=edit&redlink=1 "cpp/experimental/ranges/algorithm/unique \(page does not exist\)") |  removes consecutive duplicate elements in a range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_unique&action=edit)  
+(function template)   
 [ unique_copy](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/unique_copy&action=edit&redlink=1 "cpp/experimental/ranges/algorithm/unique copy \(page does not exist\)") |  creates a copy of some range of elements that contains no consecutive duplicates   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_unique_copy&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/ranges/algorithm&action=edit&section=4 "Edit section: Partitioning operations")] Partitioning operations 
+### Partitioning operations 
 
 Defined in namespace `std::experimental::ranges`  
 ---  
 [ is_partitioned](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/is_partitioned&action=edit&redlink=1 "cpp/experimental/ranges/algorithm/is partitioned \(page does not exist\)") |  determines if the range is partitioned by the given predicate   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_is_partitioned&action=edit)  
+(function template)   
 [ partition](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/partition&action=edit&redlink=1 "cpp/experimental/ranges/algorithm/partition \(page does not exist\)") |  divides a range of elements into two groups   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_partition&action=edit)  
+(function template)   
 [ partition_copy](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/partition_copy&action=edit&redlink=1 "cpp/experimental/ranges/algorithm/partition copy \(page does not exist\)") |  copies a range dividing the elements into two groups   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_partition_copy&action=edit)  
+(function template)   
 [ stable_partition](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/stable_partition&action=edit&redlink=1 "cpp/experimental/ranges/algorithm/stable partition \(page does not exist\)") |  divides elements into two groups while preserving their relative order   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_stable_partition&action=edit)  
+(function template)   
 [ partition_point](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/partition_point&action=edit&redlink=1 "cpp/experimental/ranges/algorithm/partition point \(page does not exist\)") |  locates the partition point of a partitioned range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_partition_point&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/ranges/algorithm&action=edit&section=5 "Edit section: Sorting operations")] Sorting operations 
+### Sorting operations 
 
 Defined in namespace `std::experimental::ranges`  
 ---  
 [ is_sorted](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/is_sorted&action=edit&redlink=1 "cpp/experimental/ranges/algorithm/is sorted \(page does not exist\)") |  checks whether a range is sorted into ascending order   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_is_sorted&action=edit)  
+(function template)   
 [ is_sorted_until](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/is_sorted_until&action=edit&redlink=1 "cpp/experimental/ranges/algorithm/is sorted until \(page does not exist\)") |  finds the largest sorted subrange   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_is_sorted_until&action=edit)  
+(function template)   
 [ sort](../../../experimental/ranges/algorithm/sort.html "cpp/experimental/ranges/algorithm/sort") |  sorts a range into ascending order   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_sort&action=edit)  
+(function template)   
 [ partial_sort](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/partial_sort&action=edit&redlink=1 "cpp/experimental/ranges/algorithm/partial sort \(page does not exist\)") |  sorts the first N elements of a range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_partial_sort&action=edit)  
+(function template)   
 [ partial_sort_copy](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/partial_sort_copy&action=edit&redlink=1 "cpp/experimental/ranges/algorithm/partial sort copy \(page does not exist\)") |  copies and partially sorts a range of elements   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_partial_sort_copy&action=edit)  
+(function template)   
 [ stable_sort](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/stable_sort&action=edit&redlink=1 "cpp/experimental/ranges/algorithm/stable sort \(page does not exist\)") |  sorts a range of elements while preserving order between equal elements   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_stable_sort&action=edit)  
+(function template)   
 [ nth_element](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/nth_element&action=edit&redlink=1 "cpp/experimental/ranges/algorithm/nth element \(page does not exist\)") |  partially sorts the given range making sure that it is partitioned by the given element   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_nth_element&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/ranges/algorithm&action=edit&section=6 "Edit section: Binary search operations \(on sorted ranges\)")] Binary search operations (on sorted ranges) 
+### Binary search operations (on sorted ranges) 
 
 Defined in namespace `std::experimental::ranges`  
 ---  
 [ lower_bound](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/lower_bound&action=edit&redlink=1 "cpp/experimental/ranges/algorithm/lower bound \(page does not exist\)") |  returns an iterator to the first element _not less_ than the given value   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_lower_bound&action=edit)  
+(function template)   
 [ upper_bound](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/upper_bound&action=edit&redlink=1 "cpp/experimental/ranges/algorithm/upper bound \(page does not exist\)") |  returns an iterator to the first element _greater_ than a certain value   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_upper_bound&action=edit)  
+(function template)   
 [ binary_search](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/binary_search&action=edit&redlink=1 "cpp/experimental/ranges/algorithm/binary search \(page does not exist\)") |  determines if an element exists in a certain range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_binary_search&action=edit)  
+(function template)   
 [ equal_range](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/equal_range&action=edit&redlink=1 "cpp/experimental/ranges/algorithm/equal range \(page does not exist\)") |  returns range of elements matching a specific key   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_equal_range&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/ranges/algorithm&action=edit&section=7 "Edit section: Set operations \(on sorted ranges\)")] Set operations (on sorted ranges) 
+### Set operations (on sorted ranges) 
 
 Defined in namespace `std::experimental::ranges`  
 ---  
 [ merge](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/merge&action=edit&redlink=1 "cpp/experimental/ranges/algorithm/merge \(page does not exist\)") |  merges two sorted ranges   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_merge&action=edit)  
+(function template)   
 [ inplace_merge](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/inplace_merge&action=edit&redlink=1 "cpp/experimental/ranges/algorithm/inplace merge \(page does not exist\)") |  merges two ordered ranges in-place   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_inplace_merge&action=edit)  
+(function template)   
 [ includes](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/includes&action=edit&redlink=1 "cpp/experimental/ranges/algorithm/includes \(page does not exist\)") |  returns true if one set is a subset of another   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_includes&action=edit)  
+(function template)   
 [ set_difference](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/set_difference&action=edit&redlink=1 "cpp/experimental/ranges/algorithm/set difference \(page does not exist\)") |  computes the difference between two sets   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_set_difference&action=edit)  
+(function template)   
 [ set_intersection](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/set_intersection&action=edit&redlink=1 "cpp/experimental/ranges/algorithm/set intersection \(page does not exist\)") |  computes the intersection of two sets   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_set_intersection&action=edit)  
+(function template)   
 [ set_symmetric_difference](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/set_symmetric_difference&action=edit&redlink=1 "cpp/experimental/ranges/algorithm/set symmetric difference \(page does not exist\)") |  computes the symmetric difference between two sets   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_set_symmetric_difference&action=edit)  
+(function template)   
 [ set_union](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/set_union&action=edit&redlink=1 "cpp/experimental/ranges/algorithm/set union \(page does not exist\)") |  computes the union of two sets   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_set_union&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/ranges/algorithm&action=edit&section=8 "Edit section: Heap operations")] Heap operations 
+### Heap operations 
 
 Defined in namespace `std::experimental::ranges`  
 ---  
 [ is_heap](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/is_heap&action=edit&redlink=1 "cpp/experimental/ranges/algorithm/is heap \(page does not exist\)") |  checks if the given range is a max heap   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_is_heap&action=edit)  
+(function template)   
 [ is_heap_until](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/is_heap_until&action=edit&redlink=1 "cpp/experimental/ranges/algorithm/is heap until \(page does not exist\)") |  finds the largest subrange that is a max heap   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_is_heap_until&action=edit)  
+(function template)   
 [ make_heap](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/make_heap&action=edit&redlink=1 "cpp/experimental/ranges/algorithm/make heap \(page does not exist\)") |  creates a max heap out of a range of elements   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_make_heap&action=edit)  
+(function template)   
 [ push_heap](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/push_heap&action=edit&redlink=1 "cpp/experimental/ranges/algorithm/push heap \(page does not exist\)") |  adds an element to a max heap   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_push_heap&action=edit)  
+(function template)   
 [ pop_heap](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/pop_heap&action=edit&redlink=1 "cpp/experimental/ranges/algorithm/pop heap \(page does not exist\)") |  removes the largest element from a max heap   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_pop_heap&action=edit)  
+(function template)   
 [ sort_heap](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/sort_heap&action=edit&redlink=1 "cpp/experimental/ranges/algorithm/sort heap \(page does not exist\)") |  turns a max heap into a range of elements sorted in ascending order   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_sort_heap&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/ranges/algorithm&action=edit&section=9 "Edit section: Minimum/maximum operations")] Minimum/maximum operations 
+### Minimum/maximum operations 
 
 Defined in namespace `std::experimental::ranges`  
 ---  
 [ max](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/max&action=edit&redlink=1 "cpp/experimental/ranges/algorithm/max \(page does not exist\)") |  returns the greater of the given values   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_max&action=edit)  
+(function template)   
 [ max_element](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/max_element&action=edit&redlink=1 "cpp/experimental/ranges/algorithm/max element \(page does not exist\)") |  returns the largest element in a range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_max_element&action=edit)  
+(function template)   
 [ min](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/min&action=edit&redlink=1 "cpp/experimental/ranges/algorithm/min \(page does not exist\)") |  returns the smaller of the given values   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_min&action=edit)  
+(function template)   
 [ min_element](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/min_element&action=edit&redlink=1 "cpp/experimental/ranges/algorithm/min element \(page does not exist\)") |  returns the smallest element in a range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_min_element&action=edit)  
+(function template)   
 [ minmax](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/minmax&action=edit&redlink=1 "cpp/experimental/ranges/algorithm/minmax \(page does not exist\)") |  returns the smaller and larger of two elements   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_minmax&action=edit)  
+(function template)   
 [ minmax_element](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/minmax_element&action=edit&redlink=1 "cpp/experimental/ranges/algorithm/minmax element \(page does not exist\)") |  returns the smallest and the largest elements in a range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_minmax_element&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/ranges/algorithm&action=edit&section=10 "Edit section: Permutation operations")] Permutation operations 
+### Permutation operations 
 
 Defined in namespace `std::experimental::ranges`  
 ---  
 [ is_permutation](../../../experimental/ranges/algorithm/is_permutation.html "cpp/experimental/ranges/algorithm/is permutation") |  determines if a sequence is a permutation of another sequence   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_is_permutation&action=edit)  
+(function template)   
 [ next_permutation](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/next_permutation&action=edit&redlink=1 "cpp/experimental/ranges/algorithm/next permutation \(page does not exist\)") |  generates the next greater lexicographic permutation of a range of elements   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_next_permutation&action=edit)  
+(function template)   
 [ prev_permutation](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/prev_permutation&action=edit&redlink=1 "cpp/experimental/ranges/algorithm/prev permutation \(page does not exist\)") |  generates the next smaller lexicographic permutation of a range of elements   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_prev_permutation&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/ranges/algorithm&action=edit&section=11 "Edit section: Synopsis")] Synopsis 
+### Synopsis 
     
     
     #include <initializer_list>

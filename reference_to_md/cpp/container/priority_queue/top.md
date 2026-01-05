@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -71,7 +71,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 `[std::priority_queue](../priority_queue.html "cpp/container/priority queue")`
 
@@ -98,7 +98,7 @@ Tables
 [formatter<std::priority_queue>](formatter.html "cpp/container/priority queue/formatter")(C++23)  
 [Deduction guides](deduction_guides.html "cpp/container/priority queue/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/priority_queue/navbar_content&action=edit)
+
 
 const_reference top() const; |  |   
 ---|---|---  
@@ -116,15 +116,15 @@ Returns reference to the top element in the priority queue. This element will be
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/priority_queue/top&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 Reference to the top element as if obtained by a call to c.front(). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/priority_queue/top&action=edit&section=2 "Edit section: Complexity")] Complexity
+### Complexity
 
 Constant. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/priority_queue/top&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -177,8 +177,8 @@ Output:
     Fill the events queue:  {6, 'L'} {8, 'I'} {9, 'S'} {1, 'T'} {5, 'E'} {3, 'N'}
     Process events:         {9, 'S'} {8, 'I'} {6, 'L'} {5, 'E'} {3, 'N'} {1, 'T'}
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/priority_queue/top&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ pop](pop.html "cpp/container/priority queue/pop") |  removes the top element   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_pop&action=edit)  
+(public member function)   
 ---|---

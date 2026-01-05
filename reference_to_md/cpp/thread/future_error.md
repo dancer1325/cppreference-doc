@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 **`std::future_error`**
 
@@ -184,7 +184,7 @@ Member functions
 [future_error::code](future_error/code.html "cpp/thread/future error/code")  
 [future_error::what](future_error/what.html "cpp/thread/future error/what")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/future_error/navbar_content&action=edit)
+
 
 Defined in header `[<future>](../header/future.html "cpp/header/future")` |  |   
 ---|---|---  
@@ -209,17 +209,17 @@ Inheritance diagram
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/future_error&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](future_error/future_error.html "cpp/thread/future error/future error") |  creates a `std::future_error` object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/future_error/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ operator=](future_error/operator=.html "cpp/thread/future error/operator=") |  replaces the `std::future_error` object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/future_error/dsc_operator%3D&action=edit)  
+(public member function)   
 [ code](future_error/code.html "cpp/thread/future error/code") |  returns the error code   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/future_error/dsc_code&action=edit)  
+(public member function)   
 [ what](future_error/what.html "cpp/thread/future error/what") |  returns the explanatory string specific to the error code   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/future_error/dsc_what&action=edit)  
+(public member function)   
   
 ##  Inherited from [std::logic_error](../error/logic_error.html "cpp/error/logic error")
 
@@ -228,12 +228,12 @@ Inheritance diagram
 ###  Member functions
 
 [ (destructor)](../error/exception/~exception.html "cpp/error/exception/~exception")[virtual] |  destroys the exception object   
-(virtual public member function of `std::exception`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/exception/dsc_destructor&action=edit)  
+(virtual public member function of `std::exception`)   
 ---|---  
 [ what](../error/exception/what.html "cpp/error/exception/what")[virtual] |  returns an explanatory string   
-(virtual public member function of `std::exception`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/exception/dsc_what&action=edit)  
+(virtual public member function of `std::exception`)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/future_error&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -262,8 +262,8 @@ Possible output:
     Caught a future_error with code "future:3"
     Message: "No associated state"
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/future_error&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ future_errc](future_errc.html "cpp/thread/future errc")(C++11) |  identifies the future error codes   
-(enum) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_future_errc&action=edit)  
+(enum)   
 ---|---

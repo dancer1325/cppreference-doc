@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ named requirements](../iterator/concepts.html "cpp/named req")
 
@@ -147,7 +147,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/named_req/navbar_content&action=edit)
+
 
 **LayoutMapping** controls the mapping of a multidimensional index to a one-dimensional offset to data handle in [std::mdspan](../container/mdspan.html). 
 
@@ -164,7 +164,7 @@
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/LayoutMapping&action=edit&section=1 "Edit section: Requirements")] Requirements
+### Requirements
 
 A type `M` satisfies LayoutMapping if it models [`copyable`](../concepts/copyable.html "cpp/concepts/copyable") and [`equality_comparable`](../concepts/equality_comparable.html "cpp/concepts/equality comparable"), and the following are true: 
 
@@ -176,7 +176,7 @@ A type `M` satisfies LayoutMapping if it models [`copyable`](../concepts/copyabl
 
 And, given the following types and values, the expressions shown in the table below are valid and have the indicated semantics: 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/LayoutMapping&action=edit&section=2 "Edit section: Legend")] Legend
+#### Legend
 
 Type  |  Definition   
 ---|---  
@@ -187,7 +187,7 @@ i, j |  packs of (possibly const-qualified) integers that are multidimensional i
 r |  a (possibly const-qualified) rank index of typename M​::​extents_type  
 d_r |  a pack of (possibly const-qualified) integers for which sizeof...(d_r) == M​::​extents_type​::​rank() is true, the element at rank index r is equal to 1, and all other elements are equal to ​0​  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/LayoutMapping&action=edit&section=3 "Edit section: Member types")] Member types
+#### Member types
 
 Name | Type | Requirements   
 ---|---|---  
@@ -197,7 +197,7 @@ Name | Type | Requirements
 `M::layout_type` | Layout mapping policy `MP` where typename MP::template mapping<E> is `M`  
 for some extents type `E` | [LayoutMappingPolicy](LayoutMappingPolicy.html "cpp/named req/LayoutMappingPolicy") for which `M` is mapping type of `MP`  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/LayoutMapping&action=edit&section=4 "Edit section: Member functions and operators")] Member functions and operators
+#### Member functions and operators
 
 Expression | Return type | Semantics   
 ---|---|---  
@@ -251,7 +251,7 @@ M::is_always_strided() | bool |
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/LayoutMapping&action=edit&section=5 "Edit section: Concept")] Concept
+### Concept
 
 For the constraints uses under std::layout_stride::mapping, the following exposition-only concept is defined. 
 
@@ -273,23 +273,23 @@ Defines the minimal usability constraints of the LayoutMapping requirement. This
 
 /*is-extents*/<E> is true if and only if `E` is a specialization of std::extents. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/LayoutMapping&action=edit&section=6 "Edit section: Standard library")] Standard library
+### Standard library
 
 The following standard library types satisfy LayoutMapping requirements: 
 
 [ mapping](../container/mdspan/layout_left/mapping.html "cpp/container/mdspan/layout left/mapping") |  a layout mapping of layout_left  
-(public member class template of `std::layout_left`)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/layout_left/dsc_mapping&action=edit)  
+(public member class template of `std::layout_left`)  
 ---|---  
 [ mapping](../container/mdspan/layout_right/mapping.html "cpp/container/mdspan/layout right/mapping") |  a layout mapping of layout_right  
-(public member class template of `std::layout_right`)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/layout_right/dsc_mapping&action=edit)  
+(public member class template of `std::layout_right`)  
 [ mapping](../container/mdspan/layout_stride/mapping.html "cpp/container/mdspan/layout stride/mapping") |  a layout mapping of layout_stride  
-(public member class template of `std::layout_stride`)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/layout_stride/dsc_mapping&action=edit)  
+(public member class template of `std::layout_stride`)  
 [ mapping](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/layout_left_padded/mapping&action=edit&redlink=1 "cpp/container/mdspan/layout left padded/mapping \(page does not exist\)") |  a layout mapping of layout_left_padded  
-(public member class template of `std::layout_left_padded<PaddingValue>`)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/layout_left_padded/dsc_mapping&action=edit)  
+(public member class template of `std::layout_left_padded<PaddingValue>`)  
 [ mapping](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/layout_right_padded/mapping&action=edit&redlink=1 "cpp/container/mdspan/layout right padded/mapping \(page does not exist\)") |  a layout mapping of layout_right_padded  
-(public member class template of `std::layout_right_padded<PaddingValue>`)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/layout_right_padded/dsc_mapping&action=edit)  
+(public member class template of `std::layout_right_padded<PaddingValue>`)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/LayoutMapping&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
   * [LayoutMappingPolicy](LayoutMappingPolicy.html "cpp/named req/LayoutMappingPolicy")
 

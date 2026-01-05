@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [Declarations](declarations.html "cpp/language/declarations")
 
@@ -280,7 +280,7 @@ Other declarations
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/declarations/navbar_content&action=edit)
+
 
 [ Expressions](expressions.html "cpp/language/expressions")
 
@@ -349,7 +349,7 @@ Conversions
 [`dynamic_cast`](dynamic_cast.html "cpp/language/dynamic cast")  
 [`reinterpret_cast`](reinterpret_cast.html "cpp/language/reinterpret cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/expressions/navbar_content&action=edit)
+
 
 [ Templates](templates.html "cpp/language/templates")
 
@@ -373,7 +373,7 @@ Conversions
 [Constraints and concepts](constraints.html "cpp/language/constraints") (C++20)  
 [requires expression](requires.html "cpp/language/requires") (C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/templates/navbar_content&action=edit)
+
 
 A pack is a C++ entity that defines one of the following: 
 
@@ -454,7 +454,7 @@ A template with at least one parameter pack is called a _variadic template_.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/pack&action=edit&section=1 "Edit section: Syntax")] Syntax
+### Syntax
 
 Template parameter pack (appears in [alias template](type_alias.html "cpp/language/type alias"), [class template](class_template.html "cpp/language/class template"), [variable template](variable_template.html "cpp/language/variable template")(since C++14), [concept](constraints.html "cpp/language/constraints")(since C++20) and [function template](function_template.html "cpp/language/function template") parameter lists)   
   
@@ -490,7 +490,7 @@ pattern `**...**` |  (6)  |
 
 6) Pack expansion: expands to a list of zero or more `pattern`s. The pattern must include at least one pack.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/pack&action=edit&section=2 "Edit section: Explanation")] Explanation
+### Explanation
 
 A variadic class template can be instantiated with any number of template arguments: 
     
@@ -529,7 +529,7 @@ In a primary class template, the template parameter pack must be the final param
 
 If every valid specialization of a variadic template requires an empty template parameter pack, the program is ill-formed, no diagnostic required. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/pack&action=edit&section=3 "Edit section: Pack expansion")] Pack expansion
+### Pack expansion
 
 A pattern followed by an ellipsis, in which the name of at least one pack appears at least once, is _expanded_ into zero or more instantiations of the pattern, where the name of the pack is replaced by each of the elements from the pack, in order. Instantiations of [alignment specifiers](parameter_pack.html#Alignment_specifier) are space-separated, other instantiations are comma-separated. 
     
@@ -608,11 +608,11 @@ When the number of elements in a pack is zero (empty pack), the instantiation of
     template void f<>(); // OK, X<> has no base classes
                          // x is a variable of type X<> that is value-initialized
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/pack&action=edit&section=4 "Edit section: Expansion loci")] Expansion loci
+### Expansion loci
 
 Depending on where the expansion takes place, the resulting comma-separated (or space-separated for [alignment specifiers](parameter_pack.html#Alignment_specifier)) list is a different kind of list: function parameter list, member initializer list, attribute list, etc. The following is the list of all allowed contexts: 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/pack&action=edit&section=5 "Edit section: Function argument lists")] Function argument lists
+#### Function argument lists
 
 A pack expansion may appear inside the parentheses of a function call operator, in which case the largest expression or [brace-enclosed initializer list](initialization.html "cpp/language/initialization") to the left of the ellipsis is the pattern that is expanded: 
     
@@ -628,7 +628,7 @@ A pack expansion may appear inside the parentheses of a function call operator, 
     f(h(args...) + args...); // expands to 
     // f(h(E1, E2, E3) + E1, h(E1, E2, E3) + E2, h(E1, E2, E3) + E3)
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/pack&action=edit&section=6 "Edit section: Parenthesized initializers")] Parenthesized initializers
+#### Parenthesized initializers
 
 A pack expansion may appear inside the parentheses of a [direct initializer](direct_initialization.html "cpp/language/direct initialization"), a [function-style cast](explicit_cast.html "cpp/language/explicit cast"), and other contexts ([member initializer](initializer_list.html "cpp/language/initializer list"), [new-expression](new.html "cpp/language/new"), etc.) in which case the rules are identical to the rules for a function call expression above: 
     
@@ -638,7 +638,7 @@ A pack expansion may appear inside the parentheses of a [direct initializer](dir
      
     ::new((void *)p) U([std::forward](../utility/forward.html)<Args>(args)...) // std::allocator::allocate
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/pack&action=edit&section=7 "Edit section: Brace-enclosed initializers")] Brace-enclosed initializers
+#### Brace-enclosed initializers
 
 In a brace-enclosed initializer list, a pack expansion may appear as well: 
     
@@ -654,7 +654,7 @@ In a brace-enclosed initializer list, a pack expansion may appear as well:
         int dummy[sizeof...(Ts)] = {([std::cout](../io/cout.html) << args, 0)...};
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/pack&action=edit&section=8 "Edit section: Template argument lists")] Template argument lists
+#### Template argument lists
 
 Pack expansions can be used anywhere in a template argument list, provided the template has the parameters to match the expansion: 
     
@@ -667,7 +667,7 @@ Pack expansions can be used anywhere in a template argument list, provided the t
         container<A, C..., B> t3; // expands to container<A, E1, E2, E3, B> 
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/pack&action=edit&section=9 "Edit section: Function parameter list")] Function parameter list
+#### Function parameter list
 
 In a function parameter list, if an ellipsis appears in a parameter declaration (whether it names a function parameter pack (as in, Args`**...**` args) or not) the parameter declaration is the pattern: 
     
@@ -690,7 +690,7 @@ Note: In the pattern `Ts (&...arr)[N]`, the ellipsis is the innermost element, n
 
 Note: `Ts (&...)[N]` is not allowed because the C++11 grammar requires the parenthesized ellipsis to have a name: [CWG issue 1488](https://cplusplus.github.io/CWG/issues/1488.html). 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/pack&action=edit&section=10 "Edit section: Template parameter list")] Template parameter list
+#### Template parameter list
 
 Pack expansion may appear in a template parameter list: 
     
@@ -702,7 +702,7 @@ Pack expansion may appear in a template parameter list:
         struct apply {};      // list, such as <int, char, int(&)[5]>
     };
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/pack&action=edit&section=11 "Edit section: Base specifiers and member initializer lists")] Base specifiers and member initializer lists
+#### Base specifiers and member initializer lists
 
 A pack expansion may designate the list of base classes in a [class declaration](class.html "cpp/language/class"). Typically, this also means that the constructor needs to use a pack expansion in the [member initializer list](initializer_list.html "cpp/language/initializer list") to call the constructors of these bases: 
     
@@ -714,7 +714,7 @@ A pack expansion may designate the list of base classes in a [class declaration]
         X(const Mixins&... mixins) : Mixins(mixins)... {}
     };
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/pack&action=edit&section=12 "Edit section: Lambda captures")] Lambda captures
+#### Lambda captures
 
 Pack expansion may appear in the capture clause of a [lambda](lambda.html "cpp/language/lambda") expression: 
     
@@ -726,7 +726,7 @@ Pack expansion may appear in the capture clause of a [lambda](lambda.html "cpp/l
         lm();
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/pack&action=edit&section=13 "Edit section: The sizeof... operator")] The sizeof... operator
+#### The sizeof... operator
 
 The [`sizeof...`](sizeof....html "cpp/language/sizeof...") operator is classified as a pack expansion as well: 
     
@@ -751,7 +751,7 @@ The list of exceptions in a [dynamic exception specification](except_spec.html "
 | (until C++17)  
 ---|---  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/pack&action=edit&section=15 "Edit section: Alignment specifier")] Alignment specifier
+#### Alignment specifier
 
 Pack expansions are allowed in both the lists of types and the lists of expressions used by the keyword [`alignas`](alignas.html "cpp/language/alignas"). The instantiations are space-separated: 
     
@@ -766,7 +766,7 @@ Pack expansions are allowed in both the lists of types and the lists of expressi
                          // alignas(int) alignas(short)
                          // (no comma in between)
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/pack&action=edit&section=16 "Edit section: Attribute list")] Attribute list
+#### Attribute list
 
 Pack expansions are allowed in the lists of [attributes](attributes.html "cpp/language/attributes"), if permitted by the attribute's specification. For example: 
     
@@ -838,7 +838,7 @@ In class [friend declarations](friend.html "cpp/language/friend"), each type spe
 In [fold expanded constraints](constraints.html#Fold_expanded_constraints "cpp/language/constraints"), the pattern is the constraint of that fold expanded constraint. A fold expanded constraint is not instantiated.  | (since C++26)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/pack&action=edit&section=22 "Edit section: Notes")] Notes
+### Notes
 
 | This section is incomplete  
 Reason: a few words about partial specializations and other ways to access individual elements? Mention recursion vs logarithmic vs shortcuts such as fold expressions   
@@ -848,7 +848,7 @@ Reason: a few words about partial specializations and other ways to access indiv
 [`__cpp_variadic_templates`](../experimental/feature_test.html#cpp_variadic_templates "cpp/feature test") | [`200704L`](../compiler_support/11.html#cpp_variadic_templates_200704L "cpp/compiler support/11") | (C++11) | [Variadic templates](parameter_pack.html#Variadic_template)  
 [`__cpp_pack_indexing`](../experimental/feature_test.html#cpp_pack_indexing "cpp/feature test") | [`202311L`](../compiler_support/26.html#cpp_pack_indexing_202311L "cpp/compiler support/26") | (C++26) | [Pack indexing](parameter_pack.html#Pack_indexing)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/pack&action=edit&section=23 "Edit section: Example")] Example
+### Example
 
 The below example defines a function similar to [std::printf](../io/c/printf.html "cpp/io/c/fprintf"), that replace each occurrence of the character `%` in the format string with a value. 
 
@@ -893,7 +893,7 @@ Output:
     
     Hello world! 123
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/pack&action=edit&section=24 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -902,7 +902,7 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [CWG 1533](https://cplusplus.github.io/CWG/issues/1533.html) | C++11  | a pack expansion could occur in a member initializer for a member  | not allowed   
 [CWG 2717](https://cplusplus.github.io/CWG/issues/2717.html) | C++11  | instantiations of alignment specifiers were comma-separated  | they are space-separated   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/pack&action=edit&section=25 "Edit section: See also")] See also
+### See also
 
 [Function template](function_template.html "cpp/language/function template") |  Defines a family of functions   
 ---|---  

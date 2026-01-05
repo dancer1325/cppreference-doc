@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Filesystem library](../fs.html "cpp/experimental/fs")
 
@@ -124,7 +124,7 @@ File types
 [filesystem::is_socket](is_socket.html "cpp/experimental/fs/is socket")  
 [filesystem::is_symlink](is_symlink.html "cpp/experimental/fs/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/navbar_content&action=edit)
+
 
 Defined in header `[<experimental/filesystem>](../../header/experimental/filesystem.html "cpp/header/experimental/filesystem")` |  |   
 ---|---|---  
@@ -137,17 +137,17 @@ An exception type thrown when errors are encountered.
 
 Inheritance diagram
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/filesystem_error&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](filesystem_error/filesystem_error.html "cpp/experimental/fs/filesystem error/filesystem error") |  constructs the error object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/filesystem_error/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ path1path2](filesystem_error/path.html "cpp/experimental/fs/filesystem error/path") |  returns the paths that were involved in the operation that caused the error   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/filesystem_error/dsc_path&action=edit)  
+(public member function)   
 [ what](filesystem_error/what.html "cpp/experimental/fs/filesystem error/what") |  returns the explanatory string   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/filesystem_error/dsc_what&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/filesystem_error&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 | This section is incomplete   
 ---|---

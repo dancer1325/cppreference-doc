@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Contract support](../contract.html "cpp/contract")
 
@@ -141,7 +141,7 @@ Contract-violation information
 Helper functions  
 [invoke_default_contract_violation_handler](invoke_default_contract_violation_handler.html "cpp/contract/invoke default contract violation handler")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/contract/navbar_content&action=edit)
+
 
 Defined in header `[<contracts>](../header/contracts.html "cpp/header/contracts")` |  |   
 ---|---|---  
@@ -182,7 +182,7 @@ Objects of this type can only be created by the implementation when the [contrac
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/contract/contract_violation&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 (constructor)[deleted] |  `contract_violation` objects cannot be constructed by users   
 (public member function)  

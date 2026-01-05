@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Metaprogramming library](../meta.html "cpp/meta")
 
@@ -167,7 +167,7 @@ Type transformations
 Compile-time integer sequences  
 [integer_sequence](../utility/integer_sequence.html "cpp/utility/integer sequence")(C++14)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/meta/navbar_content&action=edit)
+
 
 Defined in header `[<type_traits>](../header/type_traits.html "cpp/header/type traits")` |  |   
 ---|---|---  
@@ -197,19 +197,19 @@ If the program adds specializations for `std::is_const` or `std::is_const_v`, th
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/traits/is&action=edit&section=T-1 "Template:cpp/types/traits/is")] Template parameters
+### Template parameters
 
 T  |  \-  |  a type to check   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/traits/is&action=edit&section=T-2 "Template:cpp/types/traits/is")] Helper variable template
+### Helper variable template
 
 template< class T >  
 constexpr bool is_const_v = is_const<T>::value; |  |  (since C++17)  
 ---|---|---  
 | |   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/integral_constant/inherit2&action=edit)
+
 
 ##  Inherited from [ std::integral_constant](integral_constant.html "cpp/types/integral constant")
 
@@ -234,11 +234,11 @@ Type  |  Definition
 `value_type` |  bool  
 `type` |  [std::integral_constant](integral_constant.html)<bool, value>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_const&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 If T is a reference type then is_const<T>::value is always false. The proper way to check a potentially-reference type for constness is to remove the reference: is_const<typename remove_reference<T>::type>. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_const&action=edit&section=2 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     template<class T> struct is_const          : [std::false_type](integral_constant.html) {};
@@ -246,7 +246,7 @@ If T is a reference type then is_const<T>::value is always false. The proper way
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_const&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -291,10 +291,10 @@ Run this code
             "Because csfp cannot be re-pointed.");
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_const&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ is_volatile](is_volatile.html "cpp/types/is volatile")(C++11) |  checks if a type is volatile-qualified   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_volatile&action=edit)  
+(class template)   
 ---|---  
 [ as_const](../utility/as_const.html "cpp/utility/as const")(C++17) |  obtains a reference to const to its argument   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_as_const&action=edit)
+(function template) 

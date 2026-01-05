@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 `[std::unordered_multimap](../unordered_multimap.html "cpp/container/unordered multimap")`
 
@@ -135,7 +135,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/unordered multimap/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/unordered_multimap/navbar_content&action=edit)
+
 
 [std::pair](../../utility/pair.html)<iterator, iterator> equal_range( const Key& key ); |  (1)  |  (since C++11)  
 ---|---|---  
@@ -162,27 +162,27 @@ template< class K >
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/equal_range_unord&action=edit&section=T-1 "Template:cpp/container/equal range unord")] Parameters
+### Parameters
 
 key  |  \-  |  key value to compare the elements to   
 ---|---|---  
 x  |  \-  |  a value of any type that can be transparently compared with a key   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/equal_range_unord&action=edit&section=T-2 "Template:cpp/container/equal range unord")] Return value
+### Return value
 
 [std::pair](../../utility/pair.html "cpp/utility/pair") containing a pair of iterators defining the wanted range. If there are no such elements, past-the-end (see [end()](end.html "cpp/container/unordered multimap/end")) iterators are returned as both elements of the pair. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/equal_range_unord&action=edit&section=T-3 "Template:cpp/container/equal range unord")] Complexity
+### Complexity
 
 Average case linear in the number of elements with the key key, worst case linear in the size of the container. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/equal_range_unord&action=edit&section=T-4 "Template:cpp/container/equal range unord")] Notes
+### Notes
 
 [Feature-test](../../utility/feature_test.html "cpp/utility/feature test") macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_generic_unordered_lookup`](../../experimental/feature_test.html#cpp_lib_generic_unordered_lookup "cpp/feature test") | [`201811L`](../../compiler_support/20.html#cpp_lib_generic_unordered_lookup_201811L "cpp/compiler support/20") | (C++20) | Heterogeneous comparison lookup in [unordered associative containers](../../container.html#Unordered_associative_containers_.28since_C.2B.2B11.29 "cpp/container"), overloads (3,4)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/equal_range_unord&action=edit&section=T-5 "Template:cpp/container/equal range unord")] Example
+### Example
 
 Run this code
     
@@ -205,16 +205,16 @@ Output:
     1 b
     1 d
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/equal_range_unord&action=edit&section=T-6 "Template:cpp/container/equal range unord")] See also
+### See also
 
 [ find](find.html "cpp/container/unordered multimap/find") |  finds element with specific key   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_find&action=edit)  
+(public member function)   
 ---|---  
 [ contains](contains.html "cpp/container/unordered multimap/contains")(C++20) |  checks if the container contains element with specific key   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_contains&action=edit)  
+(public member function)   
 [ count](count.html "cpp/container/unordered multimap/count") |  returns the number of elements matching specific key   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_count&action=edit)  
+(public member function)   
 [ equal_range](../../algorithm/equal_range.html "cpp/algorithm/equal range") |  returns range of elements matching a specific key   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_equal_range&action=edit)
+(function template) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Type support](../../utility/rtti.html "cpp/types")
 
@@ -161,7 +161,7 @@ Runtime type information
 ---  
 [bad_cast](../bad_cast.html "cpp/types/bad cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/navbar_content&action=edit)
+
 
 [`std::numeric_limits`](../numeric_limits.html "cpp/types/numeric limits")
 
@@ -204,7 +204,7 @@ Helper types
 [float_round_style](float_round_style.html "cpp/types/numeric limits/float round style")  
 [float_denorm_style](float_denorm_style.html "cpp/types/numeric limits/float denorm style")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/navbar_content&action=edit)
+
 
 static T infinity() throw(); |  | (until C++11)  
 ---|---|---  
@@ -213,7 +213,7 @@ static constexpr T infinity() noexcept; |  |  (since C++11)
   
 Returns the special value "positive infinity", as represented by the floating-point type `T`. Only meaningful if [std::numeric_limits](../numeric_limits.html)<T>::has_infinity == true. In IEEE 754, the most common binary representation of floating-point numbers, the positive infinity is the value with all bits of the exponent set and all bits of the fraction cleared. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/numeric_limits/infinity&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 `T` |  [std::numeric_limits](../numeric_limits.html)<T>::infinity()  
 ---|---  
@@ -238,7 +238,7 @@ float |  [HUGE_VALF](../../numeric/math/HUGE_VALL.html "cpp/numeric/math/HUGE VA
 double |  [HUGE_VAL](../../numeric/math/HUGE_VALL.html "cpp/numeric/math/HUGE VAL")  
 long double |  [HUGE_VALL](../../numeric/math/HUGE_VALL.html "cpp/numeric/math/HUGE VAL")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/numeric_limits/infinity&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -260,8 +260,8 @@ Output:
     
     inf is greater than 1.79769e+308
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/numeric_limits/infinity&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ has_infinity](has_infinity.html "cpp/types/numeric limits/has infinity")[static] |  identifies floating-point types that can represent the special value "positive infinity"   
-(public static member constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/dsc_has_infinity&action=edit)  
+(public static member constant)   
 ---|---

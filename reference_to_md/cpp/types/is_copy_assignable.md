@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Metaprogramming library](../meta.html "cpp/meta")
 
@@ -167,7 +167,7 @@ Type transformations
 Compile-time integer sequences  
 [integer_sequence](../utility/integer_sequence.html "cpp/utility/integer sequence")(C++14)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/meta/navbar_content&action=edit)
+
 
 Defined in header `[<type_traits>](../header/type_traits.html "cpp/header/type traits")` |  |   
 ---|---|---  
@@ -207,7 +207,7 @@ If the program adds specializations for any of the templates described on this p
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_copy_assignable&action=edit&section=1 "Edit section: Helper variable templates")] Helper variable templates
+### Helper variable templates
 
 template< class T >  
 inline constexpr bool is_copy_assignable_v =  
@@ -221,7 +221,7 @@ inline constexpr bool is_nothrow_copy_assignable_v =
 is_nothrow_copy_assignable<T>::value; |  |  (since C++17)  
 | |   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/integral_constant/inherit2&action=edit)
+
 
 ##  Inherited from [ std::integral_constant](integral_constant.html "cpp/types/integral constant")
 
@@ -246,7 +246,7 @@ Type  |  Definition
 `value_type` |  bool  
 `type` |  [std::integral_constant](integral_constant.html)<bool, value>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_copy_assignable&action=edit&section=2 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     template<class T>
@@ -266,11 +266,11 @@ Type  |  Definition
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_copy_assignable&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 The trait `std::is_copy_assignable` is less strict than [CopyAssignable](../named_req/CopyAssignable.html "cpp/named req/CopyAssignable") because it does not check the type of the result of the assignment (which, for a [CopyAssignable](../named_req/CopyAssignable.html "cpp/named req/CopyAssignable") type, must be an lvalue of type `T`) and does not check the semantic requirement that the argument expression remains unchanged. It also does not check that `T` satisfies [MoveAssignable](../named_req/MoveAssignable.html "cpp/named req/MoveAssignable"), which is required of all [CopyAssignable](../named_req/CopyAssignable.html "cpp/named req/CopyAssignable") types. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_copy_assignable&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -299,7 +299,7 @@ Output:
     int[2] is copy-assignable? false
     int is nothrow copy-assignable? true
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_copy_assignable&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -307,10 +307,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 2196](https://cplusplus.github.io/LWG/issue2196) | C++11  | the behavior was unclear if const T& cannot be formed  | the value produced is false in this case   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_copy_assignable&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ is_assignableis_trivially_assignableis_nothrow_assignable](is_assignable.html "cpp/types/is assignable")(C++11)(C++11)(C++11) |  checks if a type has an assignment operator for a specific argument   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_assignable&action=edit)  
+(class template)   
 ---|---  
 [ is_move_assignableis_trivially_move_assignableis_nothrow_move_assignable](is_move_assignable.html "cpp/types/is move assignable")(C++11)(C++11)(C++11) |  checks if a type has a move assignment operator   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_move_assignable&action=edit)
+(class template) 

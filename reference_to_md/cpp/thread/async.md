@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 Defined in header `[<future>](../header/future.html "cpp/header/future")` |  |   
 ---|---|---  
@@ -237,20 +237,20 @@ The call to `std::async` [synchronizes with](../atomic/memory_order.html "cpp/at
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/async&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 f  |  \-  |  [Callable](../named_req/Callable.html "cpp/named req/Callable") object to call   
 ---|---|---  
 args  |  \-  |  parameters to pass to f  
 policy  |  \-  |  bitmask value, where individual bits control the allowed methods of execution   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/async&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 [std::future](future.html "cpp/thread/future") referring to the shared state created by this call to `std::async`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/async&action=edit&section=3 "Edit section: Launch policies")] Launch policies
+### Launch policies
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/async&action=edit&section=4 "Edit section: Async invocation")] Async invocation
+#### Async invocation
 
 If the _async_ flag is set, i.e. (policy & [std::launch::async](launch.html)) != 0, then `std::async` calls 
 
@@ -268,7 +268,7 @@ The values produced by auto are [materialized](../language/implicit_cast.html#Te
   
 If the function f returns a value or throws an exception, it is stored in the shared state accessible through the [std::future](future.html "cpp/thread/future") that `std::async` returns to the caller. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/async&action=edit&section=5 "Edit section: Deferred invocation")] Deferred invocation
+#### Deferred invocation
 
 If the _deferred_ flag is set (i.e. (policy & [std::launch::deferred](launch.html)) != 0), then `std::async` stores 
 
@@ -303,11 +303,11 @@ _Lazy evaluation_ is performed:
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/async&action=edit&section=6 "Edit section: Other policies")] Other policies
+#### Other policies
 
 If neither [std::launch::async](launch.html "cpp/thread/launch") nor [std::launch::deferred](launch.html "cpp/thread/launch"), nor any implementation-defined policy flag is set in policy, the behavior is undefined. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/async&action=edit&section=7 "Edit section: Policy selection")] Policy selection
+### Policy selection
 
 If more than one flag is set, it is implementation-defined which policy is selected. For the default (both the [std::launch::async](launch.html "cpp/thread/launch") and [std::launch::deferred](launch.html "cpp/thread/launch") flags are set in policy), standard recommends (but does not require) utilizing available concurrency, and deferring any additional tasks. 
 
@@ -318,7 +318,7 @@ If the [std::launch::async](launch.html "cpp/thread/launch") policy is chosen,
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/async&action=edit&section=8 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Throws 
 
@@ -328,7 +328,7 @@ Throws
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/async&action=edit&section=9 "Edit section: Notes")] Notes
+### Notes
 
 The implementation may extend the behavior of the first overload of `std::async` by enabling additional (implementation-defined) bits in the default launch policy. 
 
@@ -342,7 +342,7 @@ If the [std::future](future.html "cpp/thread/future") obtained from `std::async`
 
 Note that the destructors of [std::future](future.html "cpp/thread/future")s obtained by means other than a call to `std::async` never block. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/async&action=edit&section=10 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -421,7 +421,7 @@ Possible output:
     53
     Hello 42
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/async&action=edit&section=11 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -451,9 +451,9 @@ were directly required to be move constructible  | removed these requirements[[1
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/async&action=edit&section=12 "Edit section: See also")] See also
+### See also
 
 [ future](future.html "cpp/thread/future")(C++11) |  waits for a value that is set asynchronously   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_future&action=edit)  
+(class template)   
 ---|---  
 [C++ documentation](../experimental/execution.html "cpp/execution") for Execution support library

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Diagnostics library](../../error.html "cpp/error")
 
@@ -187,7 +187,7 @@ Exception handling failures
 [breakpoint_if_debugging](../../utility/breakpoint_if_debugging.html "cpp/utility/breakpoint if debugging")(C++26)  
 [breakpoint](../../utility/breakpoint.html "cpp/utility/breakpoint")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/navbar_content&action=edit)
+
 
 [`std::error_condition`](../error_condition.html "cpp/error/error condition")
 
@@ -207,7 +207,7 @@ Helper classes
 [is_error_condition_enum](is_error_condition_enum.html "cpp/error/error condition/is error condition enum")  
 **hash <std::error_condition>**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/error_condition/navbar_content&action=edit)
+
 
 Defined in header `[<system_error>](../../header/system_error.html "cpp/header/system error")` |  |   
 ---|---|---  

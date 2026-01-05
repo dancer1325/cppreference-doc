@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Function objects](../../../functional.html "cpp/utility/functional")
 
@@ -255,7 +255,7 @@ Identity function object
 [unary_negate](../unary_negate.html "cpp/utility/functional/unary negate")(until C++20*)  
 [binary_negate](../binary_negate.html "cpp/utility/functional/binary negate")(until C++20*)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/navbar_content&action=edit)
+
 
 [`std::function_ref`](../function_ref.html "cpp/utility/functional/function ref")
 
@@ -266,7 +266,7 @@ Identity function object
 [function_ref::operator()](operator\(\).html "cpp/utility/functional/function ref/operator\(\)")  
 [Deduction guides](deduction_guides.html "cpp/utility/functional/function ref/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/function_ref/navbar_content&action=edit)
+
 
 template< class F >  
 function_ref( F* f ) noexcept; |  (1) | (since C++26)  
@@ -340,21 +340,21 @@ Overloads  | Expression-equivalence
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/function_ref/function_ref&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 other  |  \-  |  another `function_ref` to copy from   
 ---|---|---  
 f  |  \-  |  a function or a [Callable](../../../named_req/Callable.html "cpp/named req/Callable") object to wrap   
 obj  |  \-  |  an object or pointer to bound   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/function_ref/function_ref&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/function_ref/function_ref&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ (constructor)](../move_only_function/move_only_function.html "cpp/utility/functional/move only function/move only function") |  constructs a new `std::move_only_function` object   
-(public member function of `std::move_only_function`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/move_only_function/dsc_constructor&action=edit)  
+(public member function of `std::move_only_function`)   
 ---|---

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [Common mathematical functions](../math.html "cpp/numeric/math")
 
@@ -230,7 +230,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/navbar_content&action=edit)
+
 
 Defined in header `[<cmath>](../../header/cmath.html "cpp/header/cmath")` |  |   
 ---|---|---  
@@ -281,12 +281,12 @@ A) Additional overloads are provided for all integer types, which are treated as
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/lgamma&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 num  |  \-  |  floating-point or integer value   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/lgamma&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 If no errors occur, the value of the logarithm of the gamma function of num, that is \\(\log_{e}|{\int_0^\infty t^{num-1} e^{-t} \mathsf{d}t}|\\)loge|∫∞  
 0 _t_ num-1  
@@ -296,7 +296,7 @@ If a pole error occurs, [+HUGE_VAL](HUGE_VALL.html "cpp/numeric/math/HUGE VAL"),
 
 If a range error due to overflow occurs, [±HUGE_VAL](HUGE_VALL.html "cpp/numeric/math/HUGE VAL"), `±HUGE_VALF`, or `±HUGE_VALL` is returned. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/lgamma&action=edit&section=3 "Edit section: Error handling")] Error handling
+### Error handling
 
 Errors are reported as specified in [math_errhandling](math_errhandling.html "cpp/numeric/math/math errhandling"). 
 
@@ -313,7 +313,7 @@ If the implementation supports IEEE floating-point arithmetic (IEC 60559),
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/lgamma&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 If num is a natural number, std::lgamma(num) is the logarithm of the factorial of num - 1. 
 
@@ -323,7 +323,7 @@ There is a non-standard function named `gamma` in various implementations, but i
 
 The additional overloads are not required to be provided exactly as (A). They only need to be sufficient to ensure that for their argument num of integer type, std::lgamma(num) has the same effect as std::lgamma(static_cast<double>(num)). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/lgamma&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -373,14 +373,14 @@ Output:
         errno == ERANGE: Numerical result out of range
         FE_DIVBYZERO raised
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/lgamma&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ tgammatgammaftgammal](tgamma.html "cpp/numeric/math/tgamma")(C++11)(C++11)(C++11) |  gamma function   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_tgamma&action=edit)  
+(function)   
 ---|---  
 [C documentation](../../../c/numeric/math/lgamma.html "c/numeric/math/lgamma") for lgamma  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/lgamma&action=edit&section=7 "Edit section: External links")] External links
+### External links
 
 [Weisstein, Eric W. "Log Gamma Function."](https://mathworld.wolfram.com/LogGammaFunction.html) From MathWorld — A Wolfram Web Resource.   
 ---

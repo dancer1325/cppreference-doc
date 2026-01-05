@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Basic Concepts](basics.html "cpp/language/basic concepts")
 
@@ -249,7 +249,7 @@ Miscellaneous
 [Modules](modules.html "cpp/language/modules") (C++20)  
 [Contracts](contracts.html "cpp/language/contracts") (C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/basics/navbar_content&action=edit)
+
 
 An _identifier_ is an arbitrarily long sequence of digits, underscores, lowercase and uppercase Latin letters, and most Unicode characters. 
 
@@ -294,7 +294,7 @@ Note: Support of Unicode identifiers is limited in most implementations, e.g. [g
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/identifiers&action=edit&section=1 "Edit section: In declarations")] In declarations
+### In declarations
 
 An identifier can be used [to name](declarations.html "cpp/language/declarations") objects, references, functions, enumerators, types, class members, namespaces, templates, template specializations, parameter packs(since C++11), goto labels, and other entities, with the following exceptions: 
 
@@ -387,17 +387,17 @@ An identifier can be used [to name](declarations.html "cpp/language/declarations
 
 In addition, it is undefined behavior to #define or #undef certain names in a translation unit, see [reserved macro names](../preprocessor/replace.html "cpp/preprocessor/replace") for more details. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/identifiers&action=edit&section=2 "Edit section: Zombie identifiers")] Zombie identifiers
+#### Zombie identifiers
 
 As of C++14, some identifiers are removed from the C++ standard library. They are listed in the [list of zombie names](../symbol_index/zombie_names.html "cpp/symbol index/zombie names"). 
 
 However, these identifiers are still reserved for previous standardization in a certain context. Removed member function names may not be used as a name for function-like macros, and other removed member names may not be used as a name for object-like macros in portable code. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/identifiers&action=edit&section=3 "Edit section: In expressions")] In expressions
+### In expressions
 
 An identifier that names a variable, a function, specialization of a [concept](constraints.html "cpp/language/constraints"),(since C++20) or an enumerator can be used as an [expression](expressions.html "cpp/language/expressions"). The result of an expression consisting of just the identifier is the entity named by the identifier. The [value category](value_category.html "cpp/language/value category") of the expression is _lvalue_ if the identifier names a function, a variable, a [template parameter object](template_parameters.html#Non-type_template_parameter "cpp/language/template parameters")(since C++20), or a data member, and _rvalue_(until C++11)_prvalue_(since C++11) otherwise (e.g. an [enumerator](enum.html "cpp/language/enum") is an rvalue(until C++11)a prvalue(since C++11) expression, a specialization of a concept is a bool prvalue(since C++20)). 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/identifiers&action=edit&section=4 "Edit section: Type")] Type
+#### Type
 
 The type of an identifier expression is the same as the type of the entity it names. 
 
@@ -430,7 +430,7 @@ The following exceptions exist:
 ---|---  
 (since C++11)  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/identifiers&action=edit&section=5 "Edit section: Unqualified identifiers")] Unqualified identifiers
+#### Unqualified identifiers
 
 Besides suitably declared identifiers, the following can be used in expressions in the same role: 
 
@@ -461,7 +461,7 @@ Besides suitably declared identifiers, the following can be used in expressions 
   
 Together with identifiers they are known as _unqualified identifier expressions_. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/identifiers&action=edit&section=6 "Edit section: Qualified identifiers")] Qualified identifiers
+#### Qualified identifiers
 
 A _qualified identifier expression_ is an unqualified identifier expression prepended by a scope resolution operator ::, and optionally, a sequence of any of the following separated by scope resolution operators: 
 
@@ -487,7 +487,7 @@ The keyword [`template`](../keyword/template.html "cpp/keyword/template") may ap
 
 See [qualified lookup](qualified_lookup.html "cpp/language/qualified lookup") for the details of the name lookup for qualified identifiers. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/identifiers&action=edit&section=7 "Edit section: Implicit member access transformation")] Implicit member access transformation
+### Implicit member access transformation
 
 If an identifier expression E denotes a non-static non-type member of some class `C` and all following conditions are satisfied, E is transformed into the class member access expression this->E: 
 
@@ -533,7 +533,7 @@ This transformation does not apply in the template definition context (see [depe
         }
     };
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/identifiers&action=edit&section=8 "Edit section: Names")] Names
+### Names
 
 A _name_ is the use of one of the following to refer to an entity: 
 
@@ -556,7 +556,7 @@ Every name is introduced into the program by a [declaration](declarations.html "
 
 When the compiler encounters an unknown name in a program, it associates it with the declaration that introduced the name by means of [name lookup](lookup.html "cpp/language/lookup"), except for the [dependent names](dependent_name.html "cpp/language/dependent name") in template declarations and definitions (for those names, the compiler determines whether they name a type, a template, or some other entity, which may require [explicit disambiguation](dependent_name.html "cpp/language/dependent name")). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/identifiers&action=edit&section=9 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -573,7 +573,7 @@ a literal operator was reserved as usual  | the rules are different
 if it names a template parameter object  | made clear   
 [CWG 2818](https://cplusplus.github.io/CWG/issues/2818.html) | C++98  | predefined macro names are reserved  | they are not reserved   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/identifiers&action=edit&section=10 "Edit section: See also")] See also
+### See also
 
 [C documentation](../../c/language/identifiers.html "c/language/identifier") for Identifiers  
 ---

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 **`std::unique_ptr`**
 
@@ -211,7 +211,7 @@ management](new.html#Low_level_memory_management "cpp/memory/new")
 [Helper classes](unique_ptr.html#Helper_classes "cpp/memory/unique ptr")  
 [hash<std::unique_ptr>](unique_ptr/hash.html "cpp/memory/unique ptr/hash")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/unique_ptr/navbar_content&action=edit)
+
 
 Defined in header `[<memory>](../header/memory.html "cpp/header/memory")` |  |   
 ---|---|---  
@@ -271,7 +271,7 @@ Type requirements
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/unique_ptr&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 Only non-const `unique_ptr` can transfer the ownership of the managed object to another `unique_ptr`. If an object's lifetime is managed by a const std::unique_ptr, it is limited to the scope in which the pointer was created. 
 
@@ -300,7 +300,7 @@ Unlike [std::shared_ptr](shared_ptr.html "cpp/memory/shared ptr"), `unique_ptr` 
 ---|---|---|---  
 [`__cpp_lib_constexpr_memory`](../experimental/feature_test.html#cpp_lib_constexpr_memory "cpp/feature test") | [`202202L`](../compiler_support/23.html#cpp_lib_constexpr_memory_202202L "cpp/compiler support/23") | (C++23) | constexpr [`std::unique_ptr`](unique_ptr.html#top)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/unique_ptr&action=edit&section=2 "Edit section: Nested types")] Nested types
+### Nested types
 
 Type  |  Definition   
 ---|---  
@@ -308,63 +308,63 @@ pointer |  [std::remove_reference](../types/remove_reference.html)<Deleter>::typ
 element_type |  `T`, the type of the object managed by this `unique_ptr`  
 deleter_type |  `Deleter`, the function object or lvalue reference to function or to function object, to be called from the destructor   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/unique_ptr&action=edit&section=3 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](unique_ptr/unique_ptr.html "cpp/memory/unique ptr/unique ptr") |  constructs a new `unique_ptr`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/unique_ptr/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ (destructor)](unique_ptr/~unique_ptr.html "cpp/memory/unique ptr/~unique ptr") |  destructs the managed object if such is present   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/unique_ptr/dsc_destructor&action=edit)  
+(public member function)   
 [ operator=](unique_ptr/operator=.html "cpp/memory/unique ptr/operator=") |  assigns the `unique_ptr`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/unique_ptr/dsc_operator%3D&action=edit)  
+(public member function)   
   
 #####  Modifiers   
   
 [ release](unique_ptr/release.html "cpp/memory/unique ptr/release") |  returns a pointer to the managed object and releases the ownership   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/unique_ptr/dsc_release&action=edit)  
+(public member function)   
 [ reset](unique_ptr/reset.html "cpp/memory/unique ptr/reset") |  replaces the managed object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/unique_ptr/dsc_reset&action=edit)  
+(public member function)   
 [ swap](unique_ptr/swap.html "cpp/memory/unique ptr/swap") |  swaps the managed objects   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/unique_ptr/dsc_swap&action=edit)  
+(public member function)   
   
 #####  Observers   
   
 [ get](unique_ptr/get.html "cpp/memory/unique ptr/get") |  returns a pointer to the managed object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/unique_ptr/dsc_get&action=edit)  
+(public member function)   
 [ get_deleter](unique_ptr/get_deleter.html "cpp/memory/unique ptr/get deleter") |  returns the deleter that is used for destruction of the managed object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/unique_ptr/dsc_get_deleter&action=edit)  
+(public member function)   
 [ operator bool](unique_ptr/operator_bool.html "cpp/memory/unique ptr/operator bool") |  checks if there is an associated managed object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/unique_ptr/dsc_operator_bool&action=edit)  
+(public member function)   
   
 #####  Single-object version, `unique_ptr<T>`  
   
 [ operator*operator->](unique_ptr/operator*.html "cpp/memory/unique ptr/operator*") |  dereferences pointer to the managed object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/unique_ptr/dsc_operator*&action=edit)  
+(public member function)   
   
 #####  Array version, `unique_ptr<T[]>`  
   
 [ operator[]](unique_ptr/operator_at.html "cpp/memory/unique ptr/operator at") |  provides indexed access to the managed array   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/unique_ptr/dsc_operator_at&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/unique_ptr&action=edit&section=4 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ make_uniquemake_unique_for_overwrite](unique_ptr/make_unique.html "cpp/memory/unique ptr/make unique")(C++14)(C++20) |  creates a unique pointer that manages a new object   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/unique_ptr/dsc_make_unique&action=edit)  
+(function template)   
 ---|---  
 [ operator==operator!=operator<operator<=operator>operator>=operator<=>](unique_ptr/operator_cmp.html "cpp/memory/unique ptr/operator cmp")(removed in C++20)(C++20) |  compares to another `unique_ptr` or with nullptr   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/unique_ptr/dsc_operator_cmp&action=edit)  
+(function template)   
 [ operator<<(std::unique_ptr)](unique_ptr/operator_ltlt.html "cpp/memory/unique ptr/operator ltlt")(C++20) |  outputs the value of the managed pointer to an output stream   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/unique_ptr/dsc_operator_ltlt&action=edit)  
+(function template)   
 [ std::swap(std::unique_ptr)](unique_ptr/swap2.html "cpp/memory/unique ptr/swap2")(C++11) |  specializes the [std::swap](../utility/swap.html "cpp/algorithm/swap") algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/unique_ptr/dsc_swap2&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/unique_ptr&action=edit&section=5 "Edit section: Helper classes")] Helper classes
+### Helper classes
 
 [ std::hash<std::unique_ptr>](unique_ptr/hash.html "cpp/memory/unique ptr/hash")(C++11) |  hash support for **`std::unique_ptr`**   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/unique_ptr/dsc_hash&action=edit)  
+(class template specialization)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/unique_ptr&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -534,7 +534,7 @@ Possible output:
     6) Linked list demo
     1,000,000 bottles of beer on the wall...
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/unique_ptr&action=edit&section=7 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -542,16 +542,16 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 4144](https://cplusplus.github.io/LWG/issue4144) | C++11  | `T*` was not required to form a valid type  | required   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/unique_ptr&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [ shared_ptr](shared_ptr.html "cpp/memory/shared ptr")(C++11) |  smart pointer with shared object ownership semantics   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_shared_ptr&action=edit)  
+(class template)   
 ---|---  
 [ weak_ptr](weak_ptr.html "cpp/memory/weak ptr")(C++11) |  weak reference to an object managed by [std::shared_ptr](shared_ptr.html "cpp/memory/shared ptr")   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_weak_ptr&action=edit)  
+(class template)   
 [ indirect](indirect.html "cpp/memory/indirect")(C++26) |  a wrapper containing dynamically-allocated object with value-like semantics   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_indirect&action=edit)  
+(class template)   
 [ any](../utility/any.html "cpp/utility/any")(C++17) |  objects that hold instances of any [CopyConstructible](../named_req/CopyConstructible.html "cpp/named req/CopyConstructible") type   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_any&action=edit)
+(class) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

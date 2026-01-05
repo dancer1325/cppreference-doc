@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_spanbuf`](../basic_spanbuf.html "cpp/io/basic spanbuf")
 
@@ -94,7 +94,7 @@ Protected member functions
 Non-member functions  
 [swap(std::basic_spanbuf)](swap2.html "cpp/io/basic spanbuf/swap2")(C++23)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_spanbuf/navbar_content&action=edit)
+
 
 [std::span](../../container/span.html)<CharT> span() const noexcept; |  (1)  |  (since C++23)  
 ---|---|---  
@@ -124,29 +124,29 @@ Set bits in open mode
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_spanbuf/span&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 s  |  \-  |  a [`std::span`](../../container/span.html "cpp/container/span") that references the user-provided buffer   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_spanbuf/span&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) [std::span](../../container/span.html)<CharT>(pbase(), pptr()) if [std::ios_base::out](../ios_base/openmode.html "cpp/io/ios base/openmode") is set in the open mode, or a [std::span](../../container/span.html)<CharT> that references the whole underlying buffer otherwise.
 
 2) (none)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_spanbuf/span&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_spanbuf/span&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ str](../basic_stringbuf/str.html "cpp/io/basic stringbuf/str") |  replaces or obtains a copy of the associated character string   
-(public member function of `std::basic_stringbuf<CharT,Traits,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_stringbuf/dsc_str&action=edit)  
+(public member function of `std::basic_stringbuf<CharT,Traits,Allocator>`)   
 ---|---  
 [ view](../basic_stringbuf/view.html "cpp/io/basic stringbuf/view")(C++20) |  obtains a view over the underlying character sequence   
-(public member function of `std::basic_stringbuf<CharT,Traits,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_stringbuf/dsc_view&action=edit)  
+(public member function of `std::basic_stringbuf<CharT,Traits,Allocator>`)   
 [ str](../strstreambuf/str.html "cpp/io/strstreambuf/str") |  marks the buffer frozen and returns the beginning pointer of the input sequence   
-(public member function of `std::strstreambuf`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/strstreambuf/dsc_str&action=edit)
+(public member function of `std::strstreambuf`) 

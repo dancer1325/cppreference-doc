@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Function objects](../../../functional.html "cpp/utility/functional")
 
@@ -255,7 +255,7 @@ Identity function object
 [unary_negate](../unary_negate.html "cpp/utility/functional/unary negate")(until C++20*)  
 [binary_negate](../binary_negate.html "cpp/utility/functional/binary negate")(until C++20*)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/navbar_content&action=edit)
+
 
 [`std::function`](../function.html "cpp/utility/functional/function")
 
@@ -277,7 +277,7 @@ Identity function object
 [uses_allocator<std::function>](uses_allocator.html "cpp/utility/functional/function/uses allocator")(until C++17)  
 [Deduction guides](deduction_guides.html "cpp/utility/functional/function/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/function/navbar_content&action=edit)
+
 
 template< class F, class Alloc >  
 void assign( F&& f, const Alloc& alloc ); |  |  (since C++11)   
@@ -299,22 +299,22 @@ Equivalent to function([std::allocator_arg](../../../memory/allocator_arg.html),
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/function/assign&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 f  |  \-  |  callable function to initialize the _target_ with   
 ---|---|---  
 alloc  |  \-  |  allocator to use to allocate memory for the internal data structures   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/function/assign&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/impldef_exception&action=edit&section=T-1 "Template:cpp/impldef exception")] Exceptions
+### Exceptions
 
 May throw implementation-defined exceptions. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/function/assign&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ operator=](operator=.html "cpp/utility/functional/function/operator=") |  assigns a new target   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/function/dsc_operator%3D&action=edit)  
+(public member function)   
 ---|---

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](../empty.html "cpp/iterator/empty")(C++17)  
 [data](../data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 [`std::common_iterator`](../common_iterator.html "cpp/iterator/common iterator")
 
@@ -213,7 +213,7 @@
 [incrementable_traits<std::common_iterator>](incrementable_traits.html "cpp/iterator/common iterator/incrementable traits")(C++20)  
 [iterator_traits<std::common_iterator>](iterator_traits.html "cpp/iterator/common iterator/iterator traits")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/common_iterator/navbar_content&action=edit)
+
 
 template< [std::indirectly_swappable](../indirectly_swappable.html)<I> I2, class S2 >  
 friend constexpr void  
@@ -241,26 +241,26 @@ This function template is not visible to ordinary [unqualified](../../language/u
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/common_iterator/iter_swap&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 x, y  |  \-  |  the iterators to the elements to swap   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/common_iterator/iter_swap&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/common_iterator/iter_swap&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Constant. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/common_iterator/iter_swap&action=edit&section=4 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 [`noexcept`](../../language/noexcept_spec.html "cpp/language/noexcept spec") specification: 
 
 noexcept(noexcept([ranges::iter_swap](../ranges/iter_swap.html)([std::declval](../../utility/declval.html)<const I&>(), [std::declval](../../utility/declval.html)<const I2&>())))
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/common_iterator/iter_swap&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -312,7 +312,7 @@ Output:
     v1 = α β γ 4 5 
     v2 = 1 2 3 δ ε
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/common_iterator/iter_swap&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -320,16 +320,16 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 3574](https://cplusplus.github.io/LWG/issue3574) | C++20  | `variant` was fully constexpr (P2231R1) but `common_iterator` was not  | also made constexpr   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/common_iterator/iter_swap&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ swap](../../utility/swap.html "cpp/algorithm/swap") |  swaps the values of two objects   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_swap&action=edit)  
+(function template)   
 ---|---  
 [ swap_ranges](../../algorithm/swap_ranges.html "cpp/algorithm/swap ranges") |  swaps two ranges of elements   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_swap_ranges&action=edit)  
+(function template)   
 [ iter_swap](../../algorithm/iter_swap.html "cpp/algorithm/iter swap") |  swaps the elements pointed to by two iterators   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_iter_swap&action=edit)  
+(function template)   
 [ iter_swap](../ranges/iter_swap.html "cpp/iterator/ranges/iter swap")(C++20) |  swaps the values referenced by two dereferenceable objects  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/ranges/dsc_iter_swap&action=edit)  
+(customization point object)  
 [ iter_swap](../counted_iterator/iter_swap.html "cpp/iterator/counted iterator/iter swap")(C++20) |  swaps the objects pointed to by two underlying iterators   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_iter_swap&action=edit)
+(function template) 

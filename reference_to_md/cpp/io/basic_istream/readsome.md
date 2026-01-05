@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_istream`](../basic_istream.html "cpp/io/basic istream")
 
@@ -111,7 +111,7 @@ Member classes
 Non-member functions  
 [operator>>(std::basic_istream)](operator_gtgt2.html "cpp/io/basic istream/operator gtgt2")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_istream/navbar_content&action=edit)
+
 
 [std::streamsize](../streamsize.html) readsome( char_type* s, [std::streamsize](../streamsize.html) count ); |  |   
 ---|---|---  
@@ -143,29 +143,29 @@ Behaves as [UnformattedInputFunction](../../named_req/UnformattedInputFunction.h
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_istream/readsome&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 s  |  \-  |  pointer to the character array to store the characters to   
 ---|---|---  
 count  |  \-  |  maximum number of characters to read   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_istream/readsome&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The number of characters actually extracted. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_istream/readsome&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/stream_exceptions&action=edit)
+
 
 [failure](../ios_base/failure.html "cpp/io/ios base/failure") if an error occurred (the error state flag is not [goodbit](../ios_base/iostate.html "cpp/io/ios base/iostate")) and [exceptions()](../basic_ios/exceptions.html "cpp/io/basic ios/exceptions") is set to throw for that state. 
 
 If an internal operation throws an exception, it is caught and [badbit](../ios_base/iostate.html "cpp/io/ios base/iostate") is set. If [exceptions()](../basic_ios/exceptions.html "cpp/io/basic ios/exceptions") is set for `badbit`, the exception is rethrown. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_istream/readsome&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 The behavior of this function is highly implementation-specific. For example, using `readsome()` with [std::ifstream](../basic_ifstream.html "cpp/io/basic ifstream") leads to significant, implementation-specific outcomes. Some library implementations fill the underlying `filebuf` with data as soon as [std::ifstream](../basic_ifstream.html "cpp/io/basic ifstream") opens a file, which means `readsome()` always reads data and could even read the entire file. With other implementations, [std::ifstream](../basic_ifstream.html "cpp/io/basic ifstream") only reads from a file when an input operation is invoked, which means calling `readsome()` immediately after opening the file never extracts any characters. Similarly, calling [std::cin](../cin.html).readsome() may return all pending, unprocessed console input or may always return zero and extract no characters. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_istream/readsome&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -196,10 +196,10 @@ Output:
     This ****
     is sample
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_istream/readsome&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ read](read.html "cpp/io/basic istream/read") |  extracts blocks of characters   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_istream/dsc_read&action=edit)  
+(public member function)   
 ---|---  
 [ in_avail](../basic_streambuf/in_avail.html "cpp/io/basic streambuf/in avail") |  obtains the number of characters immediately available in the get area   
-(public member function of `std::basic_streambuf<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_streambuf/dsc_in_avail&action=edit)
+(public member function of `std::basic_streambuf<CharT,Traits>`) 

@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../experimental.html "cpp/experimental")
 
@@ -57,7 +57,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Library fundamentals v3](../lib_extensions_3.html "cpp/experimental/lib extensions 3")
 
@@ -67,7 +67,7 @@
 [experimental::scope_success](../scope_success.html "cpp/experimental/scope success")  
 [experimental::unique_resource](../unique_resource.html "cpp/experimental/unique resource")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions_3/navbar_content&action=edit)
+
 
 [`std::experimental::scope_fail`](../scope_fail.html "cpp/experimental/scope fail")
 
@@ -79,7 +79,7 @@ Modifiers
 **scope_fail::release**  
 [Deduction guides](deduction_guides.html "cpp/experimental/scope fail/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/scope_fail/navbar_content&action=edit)
+
 
 void release() noexcept; |  |  (library fundamentals TS v3)  
 ---|---|---  
@@ -100,28 +100,28 @@ Once a `scope_fail` is inactive, it cannot become active again, and will not cal
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/scope_guard/release&action=edit&section=T-1 "Template:cpp/experimental/scope guard/release")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/scope_guard/release&action=edit&section=T-2 "Template:cpp/experimental/scope guard/release")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/scope_guard/release&action=edit&section=T-3 "Template:cpp/experimental/scope guard/release")] Notes
+### Notes
 
 `release` may be either manually called or automatically called by `scope_fail`'s move constructor. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/scope_guard/release&action=edit&section=T-4 "Template:cpp/experimental/scope guard/release")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/scope_guard/release&action=edit&section=T-5 "Template:cpp/experimental/scope guard/release")] See also
+### See also
 
 [ (constructor)](scope_fail.html "cpp/experimental/scope fail/scope fail") |  constructs a new `scope_fail`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/scope_guard/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ (destructor)](~scope_fail.html "cpp/experimental/scope fail/~scope fail") |  calls the exit function when the scope is exited via an exception if the `scope_fail` is active, then destroys the `scope_fail`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/scope_guard/dsc_destructor&action=edit)
+(public member function) 

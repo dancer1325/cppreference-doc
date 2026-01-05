@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::hash`](../hash.html "cpp/utility/hash")
 
@@ -136,7 +136,7 @@ Common vocabulary types
 ---  
 [hash::operator()](operator\(\).html "cpp/utility/hash/operator\(\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/hash/navbar_content&action=edit)
+
 
 The [std::hash](../hash.html "cpp/utility/hash") class should be [DefaultConstructible](../../named_req/DefaultConstructible.html "cpp/named req/DefaultConstructible"), [CopyConstructible](../../named_req/CopyConstructible.html "cpp/named req/CopyConstructible"), and [Destructible](../../named_req/Destructible.html "cpp/named req/Destructible"). 
 

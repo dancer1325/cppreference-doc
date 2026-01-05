@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::flat_multiset`](../flat_multiset.html "cpp/container/flat multiset")
 
@@ -136,7 +136,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/flat multiset/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/flat_multiset/navbar_content&action=edit)
+
 
 size_type max_size() const noexcept; |  |  (since C++23)  
 ---|---|---  
@@ -156,23 +156,23 @@ Returns the maximum number of elements the container is able to hold due to syst
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/max_size_ad&action=edit&section=T-1 "Template:cpp/container/max size ad")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/max_size_ad&action=edit&section=T-2 "Template:cpp/container/max size ad")] Return value
+### Return value
 
 Maximum number of elements. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/max_size_ad&action=edit&section=T-3 "Template:cpp/container/max size ad")] Complexity
+### Complexity
 
 Constant. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/max_size_ad&action=edit&section=T-4 "Template:cpp/container/max size ad")] Notes
+### Notes
 
 This value typically reflects the theoretical limit on the size of the container, at most [std::numeric_limits](../../types/numeric_limits.html)<difference_type>::max(). At runtime, the size of the container may be limited to a value smaller than `max_size()` by the amount of RAM available. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/max_size_ad&action=edit&section=T-5 "Template:cpp/container/max size ad")] Example
+### Example
 
 Run this code
     
@@ -193,8 +193,8 @@ Possible output:
     
     Maximum size of a std::flat_multiset is 768,614,336,404,564,650
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/max_size_ad&action=edit&section=T-6 "Template:cpp/container/max size ad")] See also
+### See also
 
 [ size](size.html "cpp/container/flat multiset/size") |  returns the number of elements   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_size&action=edit)  
+(public member function)   
 ---|---

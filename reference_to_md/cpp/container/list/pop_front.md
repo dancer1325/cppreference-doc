@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::list`](../list.html "cpp/container/list")
 
@@ -135,7 +135,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/list/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/list/navbar_content&action=edit)
+
 
 void pop_front(); |  | (constexpr since C++26)  
 ---|---|---  
@@ -154,11 +154,11 @@ If [empty()](empty.html "cpp/container/list/empty") is true:
   
 References and iterators to the erased element are invalidated. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/pop_front&action=edit&section=T-1 "Template:cpp/container/pop front")] Complexity
+### Complexity
 
 Constant. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/pop_front&action=edit&section=T-2 "Template:cpp/container/pop front")] Example
+### Example
 
 Run this code
     
@@ -182,12 +182,12 @@ Output:
     chars.front(): 'C'
     chars.front(): 'D'
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/pop_front&action=edit&section=T-3 "Template:cpp/container/pop front")] See also
+### See also
 
 [ pop_back](pop_back.html "cpp/container/list/pop back") |  removes the last element   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_pop_back&action=edit)  
+(public member function)   
 ---|---  
 [ push_front](push_front.html "cpp/container/list/push front") |  inserts an element to the beginning   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_push_front&action=edit)  
+(public member function)   
 [ front](front.html "cpp/container/list/front") |  access the first element   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_front&action=edit)
+(public member function) 

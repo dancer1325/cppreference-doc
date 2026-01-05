@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::iota_view`](../iota_view.html "cpp/ranges/iota view")
 
@@ -268,7 +268,7 @@ operator<=>(iota_view::_iterator_)](iterator.html#Non-member_functions "cpp/rang
 [operator==(iota_view::_iterator_ ,iota_view::_sentinel_)](sentinel.html#Non-member_functions "cpp/ranges/iota view/sentinel")  
 [operator-(iota_view::_iterator_ ,iota_view::_sentinel_)](sentinel.html#Non-member_functions "cpp/ranges/iota view/sentinel")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/iota_view/navbar_content&action=edit)
+
 
 constexpr /*iterator*/ begin() const; |  |  (since C++20)  
 ---|---|---  
@@ -276,11 +276,11 @@ constexpr /*iterator*/ begin() const; |  |  (since C++20)
   
 Obtains an [iterator](iterator.html "cpp/ranges/iota view/iterator") to the beginning value. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/iota_view/begin&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 [`_iterator_`](iterator.html "cpp/ranges/iota view/iterator") ﻿{`_[value_](../iota_view.html#value "cpp/ranges/iota view")_` ﻿}
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/iota_view/begin&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     

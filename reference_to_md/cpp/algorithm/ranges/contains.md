@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](copy.html "cpp/algorithm/ranges/co
 [uninitialized_default_construct_n](../../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 [Constrained algorithms](../ranges.html "cpp/algorithm/ranges")
 
@@ -550,7 +550,7 @@ All names in this menu belong to namespace `std::ranges`
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -636,7 +636,7 @@ The function-like entities described on this page are [_algorithm function objec
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/contains&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  the iterator-sentinel pair defining the [range](../../iterator.html#Ranges "cpp/iterator") of elements to examine   
 ---|---|---  
@@ -645,7 +645,7 @@ value  |  \-  |  value to compare the elements to
 pred  |  \-  |  predicate to apply to the projected elements   
 proj  |  \-  |  projection to apply to the elements   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/contains&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) [ranges::find](find.html)(std::move(first), last, value, proj) != last
 
@@ -657,7 +657,7 @@ proj  |  \-  |  projection to apply to the elements
 ![ranges::search](search.html)([ranges::begin](../../ranges/begin.html)(r1), [ranges::end](../../ranges/end.html)(r1),  
 [ranges::begin](../../ranges/begin.html)(r2), [ranges::end](../../ranges/end.html)(r2), pred, proj1, proj2).empty()
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/contains&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 1) At most [ranges::distance](../../iterator/ranges/distance.html)(first, last) comparisons.
 
@@ -667,7 +667,7 @@ proj  |  \-  |  projection to apply to the elements
 
 4) At most [ranges::distance](../../iterator/ranges/distance.html)(r1) * [ranges::distance](../../iterator/ranges/distance.html)(r2) comparisons.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/contains&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 In C++20, one may implement a contains function with [ranges::find](find.html)(haystack, needle) != [ranges::end](../../ranges/end.html)(haystack) or contains_subrange with ![ranges::search](search.html)(haystack, needle).empty(). 
 
@@ -678,7 +678,7 @@ In C++20, one may implement a contains function with [ranges::find](find.html)(h
 [`__cpp_lib_ranges_contains`](../../experimental/feature_test.html#cpp_lib_ranges_contains "cpp/feature test") | [`202207L`](../../compiler_support/23.html#cpp_lib_ranges_contains_202207L "cpp/compiler support/23") | (C++23) | `ranges::contains` and `ranges::contains_subrange`  
 [`__cpp_lib_algorithm_default_value_type`](../../experimental/feature_test.html#cpp_lib_algorithm_default_value_type "cpp/feature test") | [`202403L`](../../compiler_support/26.html#cpp_lib_algorithm_default_value_type_202403L "cpp/compiler support/26") | (C++26) | [List-initialization](../../language/list_initialization.html "cpp/language/list initialization") for algorithms ([1,2](contains.html#Version_1))  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/contains&action=edit&section=5 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
 
 [contains (1,2)](contains.html#Version_1)  
 ---  
@@ -746,7 +746,7 @@ In C++20, one may implement a contains function with [ranges::find](find.html)(h
      
     inline constexpr __contains_subrange_fn contains_subrange{};  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/contains&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -779,18 +779,18 @@ Run this code
         #endif
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/contains&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ ranges::findranges::find_ifranges::find_if_not](find.html "cpp/algorithm/ranges/find")(C++20)(C++20)(C++20) |  finds the first element satisfying specific criteria  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_find&action=edit)  
+(algorithm function object)  
 ---|---  
 [ ranges::search](search.html "cpp/algorithm/ranges/search")(C++20) |  searches for the first occurrence of a range of elements  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_search&action=edit)  
+(algorithm function object)  
 [ ranges::binary_search](binary_search.html "cpp/algorithm/ranges/binary search")(C++20) |  determines if an element exists in a partially-ordered range  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_binary_search&action=edit)  
+(algorithm function object)  
 [ ranges::includes](includes.html "cpp/algorithm/ranges/includes")(C++20) |  returns true if one sequence is a subsequence of another  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_includes&action=edit)  
+(algorithm function object)  
 [ ranges::all_ofranges::any_ofranges::none_of](all_any_none_of.html "cpp/algorithm/ranges/all any none of")(C++20)(C++20)(C++20) |  checks if a predicate is true for all, any or none of the elements in a range  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_all_any_none_of&action=edit)
+(algorithm function object)
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

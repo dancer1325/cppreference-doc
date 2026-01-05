@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Metaprogramming library](../meta.html "cpp/meta")
 
@@ -167,7 +167,7 @@ Type transformations
 Compile-time integer sequences  
 **integer_sequence**(C++14)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/meta/navbar_content&action=edit)
+
 
 Defined in header `[<utility>](../header/utility.html "cpp/header/utility")` |  |   
 ---|---|---  
@@ -193,19 +193,19 @@ The class template `std::integer_sequence` represents a compile-time sequence of
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/integer_sequence&action=edit&section=1 "Edit section: Template parameters")] Template parameters
+### Template parameters
 
 T  |  \-  |  an integer type to use for the elements of the sequence   
 ---|---|---  
 ...Ints  |  \-  |  a constant parameter pack representing the sequence   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/integer_sequence&action=edit&section=2 "Edit section: Member types")] Member types
+### Member types
 
 Type  |  Definition   
 ---|---  
 `value_type` |  `T`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/integer_sequence&action=edit&section=3 "Edit section: Member functions")] Member functions
+### Member functions
 
 ** size**[static] |  returns the number of elements in `Ints`   
 (public static member function)  
@@ -223,7 +223,7 @@ Returns the number of elements in `Ints`. Equivalent to sizeof...(Ints).
 
 The number of elements in `Ints`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/integer_sequence&action=edit&section=5 "Edit section: Helper templates")] Helper templates
+### Helper templates
 
 A helper alias template `std::index_sequence` is defined for the common case where `T` is [std::size_t](../types/size_t.html "cpp/types/size t"): 
 
@@ -250,13 +250,13 @@ using index_sequence_for = std::make_index_sequence<sizeof...(T)>; |  |
 ---|---|---  
 | |   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/integer_sequence&action=edit&section=6 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](feature_test.html "cpp/utility/feature test") macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_integer_sequence`](../experimental/feature_test.html#cpp_lib_integer_sequence "cpp/feature test") | [`201304L`](../compiler_support/14.html#cpp_lib_integer_sequence_201304L "cpp/compiler support/14") | (C++14) | Compile-time integer sequences   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/integer_sequence&action=edit&section=7 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
 
 make_integer_sequence   
 ---  
@@ -279,7 +279,7 @@ make_integer_sequence
     template<class T, T N>
     using make_integer_sequence = detail::make_integer_sequence_helper<T, 0, N>::type;  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/integer_sequence&action=edit&section=8 "Edit section: Example")] Example
+### Example
 
 See also [std::apply](apply.html "cpp/utility/apply") possible implementation for another example.
 
@@ -359,12 +359,12 @@ Output:
     5) tuple1: (1, 2, 3, 4)
     6) tuple2: (2, 1, 4, 3)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/integer_sequence&action=edit&section=9 "Edit section: See also")] See also
+### See also
 
 [ to_array](../container/array/to_array.html "cpp/container/array/to array")(C++20) |  creates a `std::array` object from a built-in array   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/array/dsc_to_array&action=edit)  
+(function template)   
 ---|---  
 [ integral_constantbool_constant](../types/integral_constant.html "cpp/types/integral constant")(C++11)(C++17) |  compile-time constant of specified type with specified value   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_integral_constant&action=edit)
+(class template) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

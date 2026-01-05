@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Filesystem library](../../fs.html "cpp/experimental/fs")
 
@@ -124,7 +124,7 @@ File types
 [filesystem::is_socket](../is_socket.html "cpp/experimental/fs/is socket")  
 [filesystem::is_symlink](../is_symlink.html "cpp/experimental/fs/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/navbar_content&action=edit)
+
 
 [`recursive_directory_iterator`](../recursive_directory_iterator.html "cpp/experimental/fs/recursive directory iterator")
 
@@ -142,7 +142,7 @@ Member functions
 Non-member functions  
 **begin(recursive_directory_iterator) end(recursive_directory_iterator)**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/recursive_directory_iterator/navbar_content&action=edit)
+
 
 recursive_directory_iterator begin( recursive_directory_iterator iter ); |  (1)  |  (filesystem TS)  
 ---|---|---  
@@ -166,24 +166,24 @@ These non-member functions enable the use of `recursive_directory_iterator`s wit
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/recursive_directory_iterator/begin&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 iter  |  \-  |  a recursive_directory_iterator   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/recursive_directory_iterator/begin&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) iter unchanged.
 
 2) End iterator (default-constructed `recursive_directory_iterator`).
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/recursive_directory_iterator/begin&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 [`noexcept`](../../../language/noexcept_spec.html "cpp/language/noexcept spec") specification: 
 
 noexcept
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/recursive_directory_iterator/begin&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -211,8 +211,8 @@ Possible output:
     "sandbox/file1.txt"
     "sandbox/syma"
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/recursive_directory_iterator/begin&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ filesystem::begin(filesystem::directory_iterator)filesystem::end(filesystem::directory_iterator)](../directory_iterator/begin.html "cpp/experimental/fs/directory iterator/begin") |  range-based for loop support   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/directory_iterator/dsc_begin&action=edit)  
+(function)   
 ---|---

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](../empty.html "cpp/iterator/empty")(C++17)  
 [data](../data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 [`std::ostreambuf_iterator`](../ostreambuf_iterator.html "cpp/iterator/ostreambuf iterator")
 
@@ -206,7 +206,7 @@ Member functions
 [ostreambuf_iterator::operator++ostreambuf_iterator::operator++(int)](operator_arith.html "cpp/iterator/ostreambuf iterator/operator arith")  
 [ostreambuf_iterator::failed](failed.html "cpp/iterator/ostreambuf iterator/failed")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/ostreambuf_iterator/navbar_content&action=edit)
+
 
 | (1) |   
 ---|---|---  
@@ -221,13 +221,13 @@ ostreambuf_iterator( ostream_type& stream ) noexcept; |  |  (since C++11)
 
 2) Same as ostreambuf_iterator(stream.rdbuf()).
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/ostreambuf_iterator/ostreambuf_iterator&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 stream  |  \-  |  the output stream whose `rdbuf()` will be accessed by this iterator   
 ---|---|---  
 buffer  |  \-  |  the output stream buffer to be accessed by this iterator   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/ostreambuf_iterator/ostreambuf_iterator&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -260,7 +260,7 @@ Output:
     a
     b
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/ostreambuf_iterator/ostreambuf_iterator&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

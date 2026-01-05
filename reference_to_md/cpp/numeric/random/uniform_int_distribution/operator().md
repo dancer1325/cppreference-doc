@@ -32,7 +32,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../../numeric.html "cpp/numeric")
 
@@ -89,7 +89,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [Pseudo-random number generation](../../random.html "cpp/numeric/random")
 
@@ -163,7 +163,7 @@
 [piecewise_constant_distribution](../piecewise_constant_distribution.html "cpp/numeric/random/piecewise constant distribution")(C++11)  
 [piecewise_linear_distribution](../piecewise_linear_distribution.html "cpp/numeric/random/piecewise linear distribution")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/navbar_content&action=edit)
+
 
 [`std::uniform_int_distribution`](../uniform_int_distribution.html "cpp/numeric/random/uniform int distribution")
 
@@ -182,7 +182,7 @@ Non-member functions
 [operator==operator!=](operator_cmp.html "cpp/numeric/random/uniform int distribution/operator cmp")(C++11)(C++11)(until C++20)  
 [operator<<operator>>](operator_ltltgtgt.html "cpp/numeric/random/uniform int distribution/operator ltltgtgt")(C++11)(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/uniform_int_distribution/navbar_content&action=edit)
+
 
 template< class Generator >  
 result_type operator()( Generator& g ); |  (1)  |  (since C++11)  
@@ -195,7 +195,7 @@ Generates random numbers that are distributed according to the associated probab
 
 The first version uses the associated parameter set, the second version uses params. The associated parameter set is not modified. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/distribution/operator\(\)&action=edit&section=T-1 "Template:cpp/numeric/random/distribution/operator\(\)")] Parameters
+### Parameters
 
 g  |  \-  |  a uniform random bit generator object   
 ---|---|---  
@@ -203,10 +203,10 @@ params  |  \-  |  distribution parameter set to use instead of the associated on
 Type requirements   
 -`Generator` must meet the requirements of [UniformRandomBitGenerator](../../../named_req/UniformRandomBitGenerator.html "cpp/named req/UniformRandomBitGenerator").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/distribution/operator\(\)&action=edit&section=T-2 "Template:cpp/numeric/random/distribution/operator\(\)")] Return value
+### Return value
 
 The generated random number. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/distribution/operator\(\)&action=edit&section=T-3 "Template:cpp/numeric/random/distribution/operator\(\)")] Complexity
+### Complexity
 
 Amortized constant number of invocations of g.operator(). 

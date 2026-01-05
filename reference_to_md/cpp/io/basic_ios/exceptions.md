@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_ios`](../basic_ios.html "cpp/io/basic ios")
 
@@ -111,7 +111,7 @@ Protected member functions
 [basic_ios::swap](swap.html "cpp/io/basic ios/swap")(C++11)  
 [basic_ios::set_rdbuf](set_rdbuf.html "cpp/io/basic ios/set rdbuf")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ios/navbar_content&action=edit)
+
 
 [std::ios_base::iostate](../ios_base/iostate.html) exceptions() const; |  (1)  |   
 ---|---|---  
@@ -134,24 +134,24 @@ Gets and sets the exception mask of the stream. The exception mask determines wh
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_ios/exceptions&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 except  |  \-  |  exception mask   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_ios/exceptions&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) The current exception mask.
 
 2) (none)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_ios/exceptions&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 | This section is incomplete  
 Reason: discuss [LWG2349](https://cplusplus.github.io/LWG/lwg-active.html#2349) and link from ios_base::clear, and from (un)formatted(i/o)utputfunction requirement pages (or perhaps the behavior should be fully elaborated on the requirement pages and linked from here). See also [stackoverflow.com/a/35089910](https://stackoverflow.com/a/35089910)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_ios/exceptions&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     

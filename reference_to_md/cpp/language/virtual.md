@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Classes](classes.html "cpp/language/classes")
 
@@ -261,7 +261,7 @@ Inheritance
 [`override` specifier](override.html "cpp/language/override") (C++11)  
 [`final` specifier](final.html "cpp/language/final") (C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/classes/navbar_content&action=edit)
+
 
 Specifies that a non-static [member function](member_functions.html "cpp/language/member functions") is _virtual_ and supports dynamic dispatch. It may only appear in the decl-specifier-seq of the initial declaration of a non-static member function (i.e., when it is declared in the class definition). 
 
@@ -279,7 +279,7 @@ Specifies that a non-static [member function](member_functions.html "cpp/languag
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/virtual&action=edit&section=1 "Edit section: Explanation")] Explanation
+### Explanation
 
 Virtual functions are member functions whose behavior can be overridden in derived classes. As opposed to non-virtual functions, the overriding behavior is preserved even if there is no compile-time information about the actual type of the class. That is to say, if a derived class is handled using pointer or reference to the base class, a call to an overridden virtual function would invoke the behavior defined in the derived class. Such a function call is known as _virtual function call_ or _virtual call_. Virtual function call is suppressed if the function is selected using [qualified name lookup](lookup.html "cpp/language/lookup") (that is, if the function's name appears to the right of the scope resolution operator `::`). 
 
@@ -326,7 +326,7 @@ Run this code
         dr.Base::f(); // prints "base"
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/virtual&action=edit&section=2 "Edit section: In detail")] In detail
+### In detail
 
 If some member function `vf` is declared as `virtual` in a class `Base`, and some class `Derived`, which is derived, directly or indirectly, from `Base`, has a declaration for member function with the same 
 
@@ -503,7 +503,7 @@ A [`consteval`](consteval.html "cpp/language/consteval") virtual function must n
   
 [Default arguments](default_arguments.html "cpp/language/default arguments") for virtual functions are substituted at the compile time. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/virtual&action=edit&section=3 "Edit section: Covariant return types")] Covariant return types
+#### Covariant return types
 
 If the function `Derived::f` overrides a function `Base::f`, their return types must either be the same or be _covariant_. Two types are covariant if they satisfy all of the following requirements: 
 
@@ -560,7 +560,7 @@ When a virtual function call is made, the type returned by the final overrider i
         D* q = dr.vf4(); // calls Derived::vf4() and does not convert the result to B*
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/virtual&action=edit&section=4 "Edit section: Virtual destructor")] Virtual destructor
+#### Virtual destructor
 
 Even though destructors are not inherited, if a base class declares its destructor `virtual`, the derived destructor always overrides it. This makes it possible to delete dynamically allocated objects of polymorphic type through pointers to base. 
     
@@ -589,7 +589,7 @@ Moreover, if the destructor of the base class is not virtual, deleting a derived
 
 A useful guideline is that the destructor of any base class must be [public and virtual or protected and non-virtual](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#Rc-dtor-virtual), whenever delete expressions are involved, e.g. when implicitly used in [std::unique_ptr](../memory/unique_ptr.html "cpp/memory/unique ptr")(since C++11). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/virtual&action=edit&section=5 "Edit section: During construction and destruction")] During construction and destruction
+### During construction and destruction
 
 When a virtual function is called directly or indirectly from a constructor or from a destructor (including during the construction or destruction of the class’s non-static data members, e.g. in a member [initializer list](initializer_list.html "cpp/language/initializer list")), and the object to which the call applies is the object under construction or destruction, the function called is the final overrider in the constructor’s or destructor’s class and not one overriding it in a more-derived class. In other words, during construction or destruction, the more-derived classes do not exist. 
 
@@ -639,11 +639,11 @@ When constructing a complex class with multiple branches, within a constructor t
                 // is active during B's construction)
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/virtual&action=edit&section=6 "Edit section: Keywords")] Keywords
+### Keywords
 
 [`virtual`](../keyword/virtual.html "cpp/keyword/virtual")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/virtual&action=edit&section=7 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -656,9 +656,9 @@ qualifications to be the same
 [CWG 1516](https://cplusplus.github.io/CWG/issues/1516.html) | C++98  | the definition of the terms "virtual function call"  
 and "virtual call" were not provided  | provided   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/virtual&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [derived classes and modes of inheritance](derived_class.html "cpp/language/derived class")  
 ---  
-[`override` specifier](override.html "cpp/language/override") (C++11) |  explicitly declares that a method overrides another method[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_override&action=edit)  
-[`final` specifier](final.html "cpp/language/final") (C++11) |  declares that a method cannot be overridden or a class be derived from[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_final&action=edit)
+[`override` specifier](override.html "cpp/language/override") (C++11) |  explicitly declares that a method overrides another method  
+[`final` specifier](final.html "cpp/language/final") (C++11) |  declares that a method cannot be overridden or a class be derived from

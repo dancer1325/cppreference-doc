@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::pmr::monotonic_buffer_resource`](../monotonic_buffer_resource.html "cpp/memory/monotonic buffer resource")
 
@@ -199,7 +199,7 @@ Protected member functions
 **monotonic_buffer_resource::do_deallocate**  
 [monotonic_buffer_resource::do_is_equal](do_is_equal.html "cpp/memory/monotonic buffer resource/do is equal")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/monotonic_buffer_resource/navbar_content&action=edit)
+
 
 virtual void do_deallocate( void* p, [std::size_t](../../types/size_t.html) bytes, [std::size_t](../../types/size_t.html) alignment ); |  |  (since C++17)  
 ---|---|---  
@@ -207,14 +207,14 @@ virtual void do_deallocate( void* p, [std::size_t](../../types/size_t.html) byte
   
 This function has no effect. Memory used by a [`monotonic_buffer_resource`](../monotonic_buffer_resource.html "cpp/memory/monotonic buffer resource"), as its name indicates, increases monotonically until the resource is destroyed. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/monotonic_buffer_resource/do_deallocate&action=edit&section=1 "Edit section: Exceptions")] Exceptions 
+### Exceptions 
 
 Throws nothing. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/monotonic_buffer_resource/do_deallocate&action=edit&section=2 "Edit section: See also")] See also 
+### See also 
 
 [ deallocate](../memory_resource/deallocate.html "cpp/memory/memory resource/deallocate") |  deallocates memory   
-(public member function of `std::pmr::memory_resource`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/memory_resource/dsc_deallocate&action=edit)  
+(public member function of `std::pmr::memory_resource`)   
 ---|---  
 [ do_deallocate](../memory_resource/do_deallocate.html "cpp/memory/memory resource/do deallocate")[virtual] |  deallocates memory  
-(virtual private member function of `std::pmr::memory_resource`)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/memory_resource/dsc_do_deallocate&action=edit)
+(virtual private member function of `std::pmr::memory_resource`)

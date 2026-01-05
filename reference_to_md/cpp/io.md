@@ -30,7 +30,7 @@
 [Symbols index](symbol_index.html "cpp/symbol index")  
 [External libraries](links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 **Input/output library**
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](io/iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](io/io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 C++ includes the following input/output libraries: an [OOP-style](https://en.wikipedia.org/wiki/Object-oriented_programming "enwiki:Object-oriented programming") [stream-based I/O](io.html#Stream-based_I.2FO) library, [print-based family](io.html#Print_functions_.28since_C.2B.2B23.29) of functions(since C++23), and the standard set of [C-style I/O](io.html#C-style_I.2FO) functions. 
 
@@ -101,7 +101,7 @@ C++ includes the following input/output libraries: an [OOP-style](https://en.wik
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io&action=edit&section=1 "Edit section: Stream-based I/O")] Stream-based I/O
+### Stream-based I/O
 
 The stream-based input/output library is organized around abstract input/output devices. These abstract devices allow the same code to handle input/output to files, memory streams, or custom adaptor devices that perform arbitrary operations (e.g. compression) on the fly. 
 
@@ -116,78 +116,78 @@ Inheritance diagram
 ---  
 Defined in header `[<ios>](header/ios.html "cpp/header/ios")`  
 [ ios_base](io/ios_base.html "cpp/io/ios base") |  manages formatting flags and input/output exceptions   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_ios_base&action=edit)  
+(class)   
 [ basic_ios](io/basic_ios.html "cpp/io/basic ios") |  manages an arbitrary stream buffer   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_basic_ios&action=edit)  
+(class template)   
 Defined in header `[<streambuf>](header/streambuf.html "cpp/header/streambuf")`  
 [ basic_streambuf](io/basic_streambuf.html "cpp/io/basic streambuf") |  abstracts a raw device   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_basic_streambuf&action=edit)  
+(class template)   
 Defined in header `[<ostream>](header/ostream.html "cpp/header/ostream")`  
 [ basic_ostream](io/basic_ostream.html "cpp/io/basic ostream") |  wraps a given abstract device ([std::basic_streambuf](io/basic_streambuf.html "cpp/io/basic streambuf"))  
 and provides high-level output interface   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_basic_ostream&action=edit)  
+(class template)   
 Defined in header `[<istream>](header/istream.html "cpp/header/istream")`  
 [ basic_istream](io/basic_istream.html "cpp/io/basic istream") |  wraps a given abstract device ([std::basic_streambuf](io/basic_streambuf.html "cpp/io/basic streambuf"))  
 and provides high-level input interface   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_basic_istream&action=edit)  
+(class template)   
 [ basic_iostream](io/basic_iostream.html "cpp/io/basic iostream") |  wraps a given abstract device ([std::basic_streambuf](io/basic_streambuf.html "cpp/io/basic streambuf"))  
 and provides high-level input/output interface   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_basic_iostream&action=edit)  
+(class template)   
   
 #####  File I/O implementation   
   
 Defined in header `[<fstream>](header/fstream.html "cpp/header/fstream")`  
 [ basic_filebuf](io/basic_filebuf.html "cpp/io/basic filebuf") |  implements raw file device   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_basic_filebuf&action=edit)  
+(class template)   
 [ basic_ifstream](io/basic_ifstream.html "cpp/io/basic ifstream") |  implements high-level file stream input operations   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_basic_ifstream&action=edit)  
+(class template)   
 [ basic_ofstream](io/basic_ofstream.html "cpp/io/basic ofstream") |  implements high-level file stream output operations   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_basic_ofstream&action=edit)  
+(class template)   
 [ basic_fstream](io/basic_fstream.html "cpp/io/basic fstream") |  implements high-level file stream input/output operations   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_basic_fstream&action=edit)  
+(class template)   
   
 #####  String I/O implementation   
   
 Defined in header `[<sstream>](header/sstream.html "cpp/header/sstream")`  
 [ basic_stringbuf](io/basic_stringbuf.html "cpp/io/basic stringbuf") |  implements raw string device   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_basic_stringbuf&action=edit)  
+(class template)   
 [ basic_istringstream](io/basic_istringstream.html "cpp/io/basic istringstream") |  implements high-level string stream input operations   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_basic_istringstream&action=edit)  
+(class template)   
 [ basic_ostringstream](io/basic_ostringstream.html "cpp/io/basic ostringstream") |  implements high-level string stream output operations   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_basic_ostringstream&action=edit)  
+(class template)   
 [ basic_stringstream](io/basic_stringstream.html "cpp/io/basic stringstream") |  implements high-level string stream input/output operations   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_basic_stringstream&action=edit)  
+(class template)   
   
 #####  Array I/O implementations   
   
 Defined in header `[<spanstream>](header/spanstream.html "cpp/header/spanstream")`  
 [ basic_spanbuf](io/basic_spanbuf.html "cpp/io/basic spanbuf")(C++23) |  implements raw fixed character buffer device   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_basic_spanbuf&action=edit)  
+(class template)   
 [ basic_ispanstream](io/basic_ispanstream.html "cpp/io/basic ispanstream")(C++23) |  implements fixed character buffer input operations   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_basic_ispanstream&action=edit)  
+(class template)   
 [ basic_ospanstream](io/basic_ospanstream.html "cpp/io/basic ospanstream")(C++23) |  implements fixed character buffer output operations   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_basic_ospanstream&action=edit)  
+(class template)   
 [ basic_spanstream](io/basic_spanstream.html "cpp/io/basic spanstream")(C++23) |  implements fixed character buffer input/output operations   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_basic_spanstream&action=edit)  
+(class template)   
 Defined in header `[<strstream>](header/strstream.html "cpp/header/strstream")`  
 [ strstreambuf](io/strstreambuf.html "cpp/io/strstreambuf")(deprecated in C++98)(removed in C++26) |  implements raw character array device   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_strstreambuf&action=edit)  
+(class)   
 [ istrstream](io/istrstream.html "cpp/io/istrstream")(deprecated in C++98)(removed in C++26) |  implements character array input operations   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_istrstream&action=edit)  
+(class)   
 [ ostrstream](io/ostrstream.html "cpp/io/ostrstream")(deprecated in C++98)(removed in C++26) |  implements character array output operations   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_ostrstream&action=edit)  
+(class)   
 [ strstream](io/strstream.html "cpp/io/strstream")(deprecated in C++98)(removed in C++26) |  implements character array input/output operations   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_strstream&action=edit)  
+(class)   
   
 #####  Synchronized output (since C++20)  
   
 Defined in header `[<syncstream>](header/syncstream.html "cpp/header/syncstream")`  
 [ basic_syncbuf](io/basic_syncbuf.html "cpp/io/basic syncbuf")(C++20) |  synchronized output device wrapper   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_basic_syncbuf&action=edit)  
+(class template)   
 [ basic_osyncstream](io/basic_osyncstream.html "cpp/io/basic osyncstream")(C++20) |  synchronized output stream wrapper   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_basic_osyncstream&action=edit)  
+(class template)   
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io&action=edit&section=2 "Edit section: Typedefs")] Typedefs
+#### Typedefs
 
 The following typedefs for common character types are provided in namespace `std`: 
 
@@ -240,35 +240,35 @@ std::wsyncbuf (C++20) |  [std::basic_syncbuf](io/basic_syncbuf.html)<wchar_t>
 std::osyncstream (C++20) |  [std::basic_osyncstream](io/basic_osyncstream.html)<char>  
 std::wosyncstream (C++20) |  [std::basic_osyncstream](io/basic_osyncstream.html)<wchar_t>  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io&action=edit&section=3 "Edit section: Predefined standard stream objects")] Predefined standard stream objects
+#### Predefined standard stream objects
 
 Defined in header `[<iostream>](header/iostream.html "cpp/header/iostream")`  
 ---  
 [ cinwcin](io/cin.html "cpp/io/cin") |  reads from the standard C input stream [stdin](io/c/std_streams.html "cpp/io/c/std streams")  
-(global object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_cin&action=edit)  
+(global object)  
 [ coutwcout](io/cout.html "cpp/io/cout") |  writes to the standard C output stream [stdout](io/c/std_streams.html "cpp/io/c/std streams")  
-(global object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_cout&action=edit)  
+(global object)  
 [ cerrwcerr](io/cerr.html "cpp/io/cerr") |  writes to the standard C error stream [stderr](io/c/std_streams.html "cpp/io/c/std streams"), unbuffered  
-(global object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_cerr&action=edit)  
+(global object)  
 [ clogwclog](io/clog.html "cpp/io/clog") |  writes to the standard C error stream [stderr](io/c/std_streams.html "cpp/io/c/std streams")  
-(global object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_clog&action=edit)  
+(global object)  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io&action=edit&section=4 "Edit section: I/O Manipulators")] [I/O Manipulators](io/manip.html "cpp/io/manip")
+#### [I/O Manipulators](io/manip.html "cpp/io/manip")
 
 The stream-based I/O library uses [I/O manipulators](io/manip.html "cpp/io/manip") (e.g. [std::boolalpha](io/manip/boolalpha.html "cpp/io/manip/boolalpha"), [std::hex](io/manip/hex.html "cpp/io/manip/hex"), etc.) to control how streams behave. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io&action=edit&section=5 "Edit section: Types")] Types
+#### Types
 
 The following auxiliary types are defined: 
 
 Defined in header `[<ios>](header/ios.html "cpp/header/ios")`  
 ---  
 [ streamoff](io/streamoff.html "cpp/io/streamoff") |  represents relative file/stream position (offset from fpos), sufficient to represent any file size   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_streamoff&action=edit)  
+(typedef)   
 [ streamsize](io/streamsize.html "cpp/io/streamsize") |  represents the number of characters transferred in an I/O operation or the size of an I/O buffer   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_streamsize&action=edit)  
+(typedef)   
 [ fpos](io/fpos.html "cpp/io/fpos") |  represents absolute position in a stream or a file   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_fpos&action=edit)  
+(class template)   
   
 The following typedef names for [std::fpos](io/fpos.html)<[std::mbstate_t](string/multibyte/mbstate_t.html)> are provided: 
 
@@ -281,16 +281,16 @@ Type  |  Definition
 `std::u16streampos` (C++11) |  [std::fpos](io/fpos.html)<[std::char_traits](string/char_traits.html)<char16_t>::state_type>  
 `std::u32streampos` (C++11) |  [std::fpos](io/fpos.html)<[std::char_traits](string/char_traits.html)<char32_t>::state_type>  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io&action=edit&section=6 "Edit section: Error category interface \(since C++11\)")] Error category interface (since C++11)
+#### Error category interface (since C++11)
 
 Defined in header `[<ios>](header/ios.html "cpp/header/ios")`  
 ---  
 [ io_errc](io/io_errc.html "cpp/io/io errc")(C++11) |  the IO stream error codes   
-(enum) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_io_errc&action=edit)  
+(enum)   
 [ iostream_category](io/iostream_category.html "cpp/io/iostream category")(C++11) |  identifies the iostream error category   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_iostream_category&action=edit)  
+(function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io&action=edit&section=7 "Edit section: Print functions \(since C++23\)")] Print functions (since C++23)
+### Print functions (since C++23)
 
 The Unicode-aware print-family functions that perform formatted I/O on text that is already formatted. They bring all the performance benefits of [std::format](utility/format/format.html "cpp/utility/format/format"), are locale-independent by default, reduce global state, avoid allocating a temporary [std::string](string/basic_string.html "cpp/string/basic string") object and calling operator<<, and in general make formatting more efficient compared to [iostreams](io.html#Stream-based_I.2FO) and [stdio](io.html#C-style_I.2FO). 
 
@@ -299,24 +299,24 @@ The following print-like functions are provided:
 Defined in header `[<print>](header/print.html "cpp/header/print")`  
 ---  
 [ print](io/print.html "cpp/io/print")(C++23) |  prints to [stdout](io/c/std_streams.html "cpp/io/c/std streams") or a file stream using [formatted](utility/format.html "cpp/utility/format") representation of the arguments   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_print&action=edit)  
+(function template)   
 [ println](io/println.html "cpp/io/println")(C++23) |  same as std::print except that each print is terminated by additional new line   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_println&action=edit)  
+(function template)   
 [ vprint_unicodevprint_unicode_buffered](io/vprint_unicode.html "cpp/io/vprint unicode")(C++23) |  prints to Unicode capable [stdout](io/c/std_streams.html "cpp/io/c/std streams") or a file stream using [type-erased](utility/format/basic_format_args.html "cpp/utility/format/basic format args") argument representation   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_vprint_unicode&action=edit)  
+(function)   
 [ vprint_nonunicodevprint_nonunicode_buffered](io/vprint_nonunicode.html "cpp/io/vprint nonunicode")(C++23) |  prints to [stdout](io/c/std_streams.html "cpp/io/c/std streams") or a file stream using [type-erased](utility/format/basic_format_args.html "cpp/utility/format/basic format args") argument representation   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_vprint_nonunicode&action=edit)  
+(function)   
 Defined in header `[<ostream>](header/ostream.html "cpp/header/ostream")`  
 [ print(std::ostream)](io/basic_ostream/print.html "cpp/io/basic ostream/print")(C++23) |  outputs [formatted](utility/format.html "cpp/utility/format") representation of the arguments   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ostream/dsc_print&action=edit)  
+(function template)   
 [ println(std::ostream)](io/basic_ostream/println.html "cpp/io/basic ostream/println")(C++23) |  outputs [formatted](utility/format.html "cpp/utility/format") representation of the arguments with appended '\n'   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ostream/dsc_println&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io&action=edit&section=8 "Edit section: C-style I/O")] [C-style I/O](io/c.html "cpp/io/c")
+### [C-style I/O](io/c.html "cpp/io/c")
 
 C++ also includes the [input/output functions defined by C](io/c.html "cpp/io/c"), such as [std::fopen](io/c/fopen.html "cpp/io/c/fopen"), [std::getc](io/c/fgetc.html "cpp/io/c/fgetc"), etc. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io&action=edit&section=9 "Edit section: See also")] See also
+### See also
 
 [Filesystem library](filesystem.html "cpp/filesystem") (since C++17)  
 ---

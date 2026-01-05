@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::pmr::monotonic_buffer_resource`](../monotonic_buffer_resource.html "cpp/memory/monotonic buffer resource")
 
@@ -199,7 +199,7 @@ Protected member functions
 [monotonic_buffer_resource::do_deallocate](do_deallocate.html "cpp/memory/monotonic buffer resource/do deallocate")  
 [monotonic_buffer_resource::do_is_equal](do_is_equal.html "cpp/memory/monotonic buffer resource/do is equal")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/monotonic_buffer_resource/navbar_content&action=edit)
+
 
 void release(); |  |  (since C++17)  
 ---|---|---  
@@ -209,7 +209,7 @@ Releases all allocated memory by calling the `deallocate` function on the upstre
 
 Memory is released back to the upstream resource even if `deallocate` has not been called for some of the allocated blocks. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/monotonic_buffer_resource/release&action=edit&section=1 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -217,8 +217,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 3120](https://cplusplus.github.io/LWG/issue3120) | C++17  | `release` might not make initial buffer reusable if provided  | required to do so   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/monotonic_buffer_resource/release&action=edit&section=2 "Edit section: See also")] See also 
+### See also 
 
 [ deallocate](../memory_resource/deallocate.html "cpp/memory/memory resource/deallocate") |  deallocates memory   
-(public member function of `std::pmr::memory_resource`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/memory_resource/dsc_deallocate&action=edit)  
+(public member function of `std::pmr::memory_resource`)   
 ---|---

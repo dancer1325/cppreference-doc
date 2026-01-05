@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::stop_source`](../stop_source.html "cpp/thread/stop source")
 
@@ -195,7 +195,7 @@ Non-member functions
 Helper tags  
 **std::nostopstate std::nostopstate_t**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/stop_source/navbar_content&action=edit)
+
 
 Defined in header `[<stop_token>](../../header/stop_token.html "cpp/header/stop token")` |  |   
 ---|---|---  
@@ -207,8 +207,8 @@ inline constexpr [std::nostopstate_t](nostopstate_t.html) nostopstate {}; |  (2)
 
 2) The corresponding constant object instance of `std::nostopstate_t` for use in constructing an empty [std::stop_source](../stop_source.html "cpp/thread/stop source"), as a placeholder value in the non-default constructor.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/stop_source/nostopstate&action=edit&section=1 "Edit section: See also")] See also
+### See also
 
 [ stop_source](../stop_source.html "cpp/thread/stop source")(C++20) |  class representing a request to stop one or more [std::jthread](../jthread.html "cpp/thread/jthread")s   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_stop_source&action=edit)  
+(class)   
 ---|---

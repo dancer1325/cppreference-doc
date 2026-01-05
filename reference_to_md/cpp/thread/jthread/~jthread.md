@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::jthread`](../jthread.html "cpp/thread/jthread")
 
@@ -198,7 +198,7 @@ Stop token handling
 Non-member functions  
 [swap(std::jthread)](swap2.html "cpp/thread/jthread/swap2")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/jthread/navbar_content&action=edit)
+
 
 ~jthread(); |  |  (since C++20)  
 ---|---|---  
@@ -208,7 +208,7 @@ Destroys the `jthread` object.
 
 If *this has an associated thread (joinable() == true), calls request_stop() and then join(). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/jthread/%7Ejthread&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 The request_stop() has no effect if the `jthread` was previously requested to stop. 
 
@@ -223,14 +223,14 @@ A `jthread` object does not have an associated thread after
 
 If join() throws an exception (e.g. because deadlock is detected), [std::terminate()](../../error/terminate.html "cpp/error/terminate") may be called. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/jthread/%7Ejthread&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/jthread/%7Ejthread&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ (destructor)](../thread/~thread.html "cpp/thread/thread/~thread") |  destructs the thread object, underlying thread must be joined or detached   
-(public member function of `std::thread`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/dsc_destructor&action=edit)  
+(public member function of `std::thread`)   
 ---|---

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](../empty.html "cpp/iterator/empty")(C++17)  
 [data](../data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 [`std::move_iterator`](../move_iterator.html "cpp/iterator/move iterator")
 
@@ -216,7 +216,7 @@ Non-member functions
 [iter_swap](iter_swap.html "cpp/iterator/move iterator/iter swap")(C++20)  
 [make_move_iterator](../make_move_iterator.html "cpp/iterator/make move iterator")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/move_iterator/navbar_content&action=edit)
+
 
 /* unspecified */ operator[]( difference_type n ) const; |  | (constexpr since C++17)   
 (until C++20)  
@@ -237,21 +237,21 @@ Returns a reference to the element at specified relative location.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/move_iterator/operator_at&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 n  |  \-  |  position relative to current location   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/move_iterator/operator_at&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 std::move(`_[current](../move_iterator.html#current "cpp/iterator/move iterator")_` ﻿[n])(until C++20)[ranges::iter_move](../ranges/iter_move.html)(`_[current](../move_iterator.html#current "cpp/iterator/move iterator")_`` `+ n)(since C++20)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/move_iterator/operator_at&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 The return type is unspecified because the return type of the underlying iterator's operator[] is also unspecified (see [LegacyRandomAccessIterator](../../named_req/RandomAccessIterator.html "cpp/named req/RandomAccessIterator")).  | (until C++20)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/move_iterator/operator_at&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -298,8 +298,8 @@ Possible output:
     2) p: "" "" "" ""
     3) q: "alpha" "beta" "gamma" "delta"
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/move_iterator/operator_at&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ operator*operator->](operator*.html "cpp/iterator/move iterator/operator*") |  accesses the pointed-to element   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_operator*&action=edit)  
+(public member function)   
 ---|---

@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::transform_view`](../../transform_view.html "cpp/ranges/transform view")
 
@@ -263,7 +263,7 @@ operator-(transform_view::_iterator_)](../iterator/operator_arith2.html "cpp/ran
 [operator==(transform_view::_iterator_ ,transform_view::_sentinel_)](operator_cmp.html "cpp/ranges/transform view/sentinel/operator cmp")  
 [operator-(transform_view::_iterator_ ,transform_view::_sentinel_)](operator-.html "cpp/ranges/transform view/sentinel/operator-")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/transform_view/navbar_content&action=edit)
+
 
 /*sentinel*/() = default; |  (1)  |  (since C++20)  
 ---|---|---  
@@ -281,13 +281,13 @@ Constructs a sentinel.
 
 3) Conversion from /*sentinel*/<false> to /*sentinel*/<true>. Move constructs corresponding members.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/transform_view/sentinel/sentinel&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 end  |  \-  |  a sentinel representing the end of (possibly const-qualified) `V`  
 ---|---|---  
 i  |  \-  |  a /*sentinel*/<false>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/transform_view/sentinel/sentinel&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

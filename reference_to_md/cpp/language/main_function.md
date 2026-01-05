@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Basic Concepts](basics.html "cpp/language/basic concepts")
 
@@ -249,7 +249,7 @@ Miscellaneous
 [Modules](modules.html "cpp/language/modules") (C++20)  
 [Contracts](contracts.html "cpp/language/contracts") (C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/basics/navbar_content&action=edit)
+
 
 A program shall contain a global namespace function named main, which is the designated start of the program in hosted environment. It shall have one of the following forms:   
   
@@ -285,7 +285,7 @@ body |  \-  |  The body of the `main` function.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/main_function&action=edit&section=1 "Edit section: Explanation")] Explanation
+### Explanation
 
 The `main` function is called at program startup after [initialization](initialization.html "cpp/language/initialization") of the non-local objects with static [storage duration](storage_duration.html "cpp/language/storage duration"). It is the designated entry point to a program that is executed in [hosted](../freestanding.html "cpp/freestanding") environment (that is, with an operating system). The entry points to [freestanding](../freestanding.html "cpp/freestanding") programs (boot loaders, OS kernels, etc) are implementation-defined. 
 
@@ -315,7 +315,7 @@ c) it cannot be used in a [`typeid`](typeid.html "cpp/language/typeid") expressi
 ---|---  
 5) The `main` function cannot be a [coroutine](coroutines.html "cpp/language/coroutines"). 6) The `main` function cannot attach to a named [module](modules.html "cpp/language/modules").  | (since C++20)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/main_function&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 If the `main` function is defined with a [function try block](try.html#Function_try_block "cpp/language/try"), the exceptions thrown by the destructors of static objects (which are destroyed by the implied [std::exit](../utility/program/exit.html "cpp/utility/program/exit")) are not [caught](catch.html "cpp/language/catch") by it. 
 
@@ -328,7 +328,7 @@ The manner in which the arguments given at the OS command line are converted int
 
 A very common implementation-defined form of main() has a third argument (in addition to argc and argv), of type char**, pointing at [an array of pointers to the execution environment variables](https://pubs.opengroup.org/onlinepubs/9699919799/functions/exec.html). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/main_function&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Demonstrates how to inform a program about where to find its input and where to write its results.  
 A possible invocation: ./convert table_in.dat table_out.dat
@@ -363,7 +363,7 @@ Possible output:
     argv[2] == "table_out.dat"
     argv[3] == 0
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/main_function&action=edit&section=4 "Edit section: References")] References
+### References
 
 Extended content  
 ---  
@@ -378,7 +378,7 @@ Extended content
 
   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/main_function&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -390,7 +390,7 @@ names are supported
 [CWG 2479](https://cplusplus.github.io/CWG/issues/2479.html) | C++20  | the `main` function could be declared consteval | prohibited   
 [CWG 2811](https://cplusplus.github.io/CWG/issues/2811.html) | C++98  | whether the `main` function is used after [N3214](https://wg21.link/N3214) was unclear  | it is considered used when named   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/main_function&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [C documentation](../../c/language/main_function.html "c/language/main function") for `main` function  
 ---

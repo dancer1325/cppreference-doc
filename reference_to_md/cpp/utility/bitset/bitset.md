@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::bitset`](../bitset.html "cpp/utility/bitset")
 
@@ -167,7 +167,7 @@ Common vocabulary types
 [Helper classes](../bitset.html#Helper_classes "cpp/utility/bitset")  
 [std::hash](hash.html "cpp/utility/bitset/hash")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/bitset/navbar_content&action=edit)
+
 
 bitset(); |  (1) | (noexcept since C++11)   
 (constexpr since C++11)  
@@ -233,7 +233,7 @@ Equivalent to bitset(n == [std::basic_string_view](../../string/basic_string_vie
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/bitset/bitset&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 val  |  \-  |  number used to initialize the bitset   
 ---|---|---  
@@ -243,20 +243,20 @@ n  |  \-  |  number of characters to use from str
 zero  |  \-  |  alternate character for unset bits in str  
 one  |  \-  |  alternate character for set bits in str  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/bitset/bitset&action=edit&section=2 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 3,4) [std::out_of_range](../../error/out_of_range.html "cpp/error/out of range") if pos > str.size(), [std::invalid_argument](../../error/invalid_argument.html "cpp/error/invalid argument") if any character is not one or zero.
 
 5) [std::invalid_argument](../../error/invalid_argument.html "cpp/error/invalid argument") if any character is not one or zero.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/bitset/bitset&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../feature_test.html "cpp/utility/feature test") macro  | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_constexpr_bitset`](../../experimental/feature_test.html#cpp_lib_constexpr_bitset "cpp/feature test") | [`202207L`](../../compiler_support/23.html#cpp_lib_constexpr_bitset_202207L "cpp/compiler support/23") | (C++23) | A more constexpr `std::bitset`, overloads ([3,5](bitset.html#Version_3))  
 [`__cpp_lib_bitset`](../../experimental/feature_test.html#cpp_lib_bitset "cpp/feature test") | [`202306L`](../../compiler_support/26.html#cpp_lib_bitset_202306L "cpp/compiler support/26") | (C++26) | Interfacing `std::bitset` with [std::string_view](../../string/basic_string_view.html "cpp/string/basic string view"), ([4](bitset.html#Version_4))  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/bitset/bitset&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -308,7 +308,7 @@ Possible output:
     b6: 01001101
     b7: 00001111
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/bitset/bitset&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -325,12 +325,12 @@ representation instead
 [LWG 2250](https://cplusplus.github.io/LWG/issue2250) | C++98  | the behavior was undefined if pos > str.size() is true | always throws an  
 exception in this case   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/bitset/bitset&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ set](set.html "cpp/utility/bitset/set") |  sets bits to true or given value   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/bitset/dsc_set&action=edit)  
+(public member function)   
 ---|---  
 [ reset](reset.html "cpp/utility/bitset/reset") |  sets bits to false   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/bitset/dsc_reset&action=edit)
+(public member function) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

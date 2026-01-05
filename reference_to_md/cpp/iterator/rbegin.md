@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](empty.html "cpp/iterator/empty")(C++17)  
 [data](data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 Defined in header `[<array>](../header/array.html "cpp/header/array")` |  |   
 ---|---|---  
@@ -262,14 +262,14 @@ If `C` is a standard [Container](../named_req/Container.html "cpp/named req/Cont
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/rbegin&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 c  |  \-  |  a container or view with a `rbegin` member function   
 ---|---|---  
 array  |  \-  |  an array of arbitrary type   
 il  |  \-  |  an [std::initializer_list](../utility/initializer_list.html)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/rbegin&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1,2) c.rbegin()
 
@@ -279,22 +279,22 @@ il  |  \-  |  an [std::initializer_list](../utility/initializer_list.html)
 
 5) c.rbegin()
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/impldef_exception&action=edit&section=T-1 "Template:cpp/impldef exception")] Exceptions
+### Exceptions
 
 May throw implementation-defined exceptions. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/rbegin&action=edit&section=3 "Edit section: Overloads")] Overloads
+### Overloads
 
 Custom overloads of `rbegin` may be provided for classes and enumerations that do not expose a suitable `rbegin()` member function, yet can be iterated. 
 
 Overloads of `rbegin` found by [argument-dependent lookup](../language/adl.html "cpp/language/adl") can be used to customize the behavior of std::[ranges::rbegin](../ranges/rbegin.html) and [std::ranges::crbegin](../ranges/crbegin.html "cpp/ranges/crbegin").  | (since C++20)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/rbegin&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 The overload for [std::initializer_list](../utility/initializer_list.html "cpp/utility/initializer list") is necessary because it does not have a member function `rbegin`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/rbegin&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -330,16 +330,16 @@ Output:
     *ai = 15
     4 1 3
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/rbegin&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ begincbegin](begin.html "cpp/iterator/begin")(C++11)(C++14) |  returns an iterator to the beginning of a container or array   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_begin&action=edit)  
+(function template)   
 ---|---  
 [ endcend](end.html "cpp/iterator/end")(C++11)(C++14) |  returns an iterator to the end of a container or array   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_end&action=edit)  
+(function template)   
 [ rendcrend](rend.html "cpp/iterator/rend")(C++14) |  returns a reverse end iterator for a container or array   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_rend&action=edit)  
+(function template)   
 [ ranges::rbegin](../ranges/rbegin.html "cpp/ranges/rbegin")(C++20) |  returns a reverse iterator to a range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_rbegin&action=edit)  
+(customization point object)  
 [ ranges::crbegin](../ranges/crbegin.html "cpp/ranges/crbegin")(C++20) |  returns a reverse iterator to a read-only range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_crbegin&action=edit)
+(customization point object)

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::any`](../any.html "cpp/utility/any")
 
@@ -151,7 +151,7 @@ Common vocabulary types
 [Helper classes](../any.html#Helper_classes "cpp/utility/any")  
 [bad_any_cast](bad_any_cast.html "cpp/utility/any/bad any cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/any/navbar_content&action=edit)
+
 
 constexpr any() noexcept; |  (1)  |  (since C++17)  
 ---|---|---  
@@ -206,29 +206,29 @@ Constructs a new `any` object.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/any/any&action=edit&section=1 "Edit section: Template parameters")] Template parameters
+### Template parameters
 
 ValueType  |  \-  |  contained value type   
 ---|---|---  
 Type requirements   
 -`std::decay_t<ValueType>` must meet the requirements of [CopyConstructible](../../named_req/CopyConstructible.html "cpp/named req/CopyConstructible").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/any/any&action=edit&section=2 "Edit section: Parameters")] Parameters
+### Parameters
 
 other  |  \-  |  another `any` object to copy or move from   
 ---|---|---  
 value  |  \-  |  value to initialize the contained value with   
 il, args  |  \-  |  arguments to be passed to the constructor of the contained object   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/any/any&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 2,4-6) Throws any exception thrown by the constructor of the contained type.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/any/any&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 Because the default constructor is constexpr, static `std::any`s are initialized as part of [static non-local initialization](../../language/initialization.html#Non-local_variables "cpp/language/initialization"), before any dynamic non-local initialization begins. This makes it safe to use an object of type `std::any` in a constructor of any static object. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/any/any&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -292,8 +292,8 @@ Possible output:
     A
     std::set<A, main::{lambda(auto:1&&, auto:2&&)#1}, std::allocator<A> >
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/any/any&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ operator=](operator=.html "cpp/utility/any/operator=") |  assigns an `any` object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/any/dsc_operator%3D&action=edit)  
+(public member function)   
 ---|---

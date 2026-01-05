@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Library fundamentals](../memory.html "cpp/experimental/lib extensions")
 
@@ -75,7 +75,7 @@
 [Type-erased and polymorphic allocators](../memory.html "cpp/experimental/memory")  
 [Variable templates for type traits](../type_trait_variable_templates.html "cpp/experimental/type trait variable templates")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions/navbar_content&action=edit)
+
 
 [`std::experimental::basic_string_view`](../basic_string_view.html "cpp/experimental/basic string view")
 
@@ -123,7 +123,7 @@ Non-member functions
 Helper classes  
 [hash<std::string_view>hash<std::wstring_view>hash<std::u16string_view>hash<std::u32string_view>](hash.html "cpp/experimental/basic string view/hash")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/basic_string_view/navbar_content&action=edit)
+
 
 constexpr size_type size() const noexcept; |  |  (library fundamentals TS)  
 ---|---|---  
@@ -142,22 +142,22 @@ Returns the number of `CharT` elements in the view, i.e. [std::distance](../../i
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/basic_string_view/size&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/basic_string_view/size&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The number of `CharT` elements in the view. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/basic_string_view/size&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Constant. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/basic_string_view/size&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ empty](empty.html "cpp/experimental/basic string view/empty") |  checks whether the view is empty   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/basic_string_view/dsc_empty&action=edit)  
+(public member function)   
 ---|---  
 [ max_size](max_size.html "cpp/experimental/basic string view/max size") |  returns the maximum number of characters   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/basic_string_view/dsc_max_size&action=edit)
+(public member function) 

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../container.html "cpp/container")
 
@@ -71,7 +71,7 @@ Tables
 [Member function table](../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 **`std::mdspan`**
 
@@ -120,7 +120,7 @@ Tables
 [submdspan_mapping_result](mdspan/submdspan_mapping_result.html "cpp/container/mdspan/submdspan mapping result")(C++26)  
 [Deduction guides](mdspan/deduction_guides.html "cpp/container/mdspan/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/navbar_content&action=edit)
+
 
 Defined in header `[<mdspan>](../header/mdspan.html "cpp/header/mdspan")` |  |   
 ---|---|---  
@@ -167,7 +167,7 @@ A specialization of `mdspan` is a [TriviallyCopyable](../named_req/TriviallyCopy
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan&action=edit&section=1 "Edit section: Template parameters")] Template parameters
+### Template parameters
 
 T  |  \-  |  element type; a complete object type that is neither an abstract class type nor an array type.   
 ---|---|---  
@@ -175,7 +175,7 @@ Extents  |  \-  |  specifies number of dimensions, their sizes, and which are kn
 LayoutPolicy  |  \-  |  specifies how to convert multidimensional index to underlying 1D index (column-major 3D array, symmetric triangular 2D matrix, etc). Must satisfy the requirements of [LayoutMappingPolicy](../named_req/LayoutMappingPolicy.html "cpp/named req/LayoutMappingPolicy").   
 AccessorPolicy  |  \-  |  specifies how to convert underlying 1D index to a reference to T. Must satisfy the constraint that [std::is_same_v](../types/is_same.html)<T, typename AccessorPolicy​::​element_type> is true. Must satisfy the requirements of [AccessorPolicy](../named_req/AccessorPolicy.html "cpp/named req/AccessorPolicy").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan&action=edit&section=2 "Edit section: Member types")] Member types
+### Member types
 
 Member  |  Definition   
 ---|---  
@@ -191,7 +191,7 @@ Member  |  Definition
 `data_handle_type` |  AccessorPolicy::data_handle_type  
 `reference` |  AccessorPolicy::reference  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan&action=edit&section=3 "Edit section: Data members")] Data members
+### Data members
 
 Member  |  Description   
 ---|---  
@@ -202,106 +202,106 @@ Member  |  Description
 `data_handle_type` `_ptr__` (private) |  the underlying data handle  
 (exposition-only member object*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan&action=edit&section=4 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](mdspan/mdspan.html "cpp/container/mdspan/mdspan") |  constructs an `mdspan`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ operator=](mdspan/operator=.html "cpp/container/mdspan/operator=") |  assigns an `mdspan`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/dsc_operator%3D&action=edit)  
+(public member function)   
   
 #####  Element access   
   
 [ operator[]](mdspan/operator_at.html "cpp/container/mdspan/operator at") |  accesses an element at the specified multidimensional index   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/dsc_operator_at&action=edit)  
+(public member function)   
   
 #####  Observers   
   
 [ rank](mdspan/rank.html "cpp/container/mdspan/rank")[static] |  returns the rank of a `mdspan`   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/dsc_rank&action=edit)  
+(public static member function)   
 [ rank_dynamic](mdspan/rank_dynamic.html "cpp/container/mdspan/rank dynamic")[static] |  returns the dynamic rank of a `mdspan`   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/dsc_rank_dynamic&action=edit)  
+(public static member function)   
 [ static_extent](mdspan/static_extent.html "cpp/container/mdspan/static extent")[static] |  returns the static extent size of a `mdspan` at a given rank index   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/dsc_static_extent&action=edit)  
+(public static member function)   
 [ extent](mdspan/extent.html "cpp/container/mdspan/extent") |  returns the extent of a `mdspan` at a given rank index   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/dsc_extent&action=edit)  
+(public member function)   
 [ size](mdspan/size.html "cpp/container/mdspan/size") |  returns the size of the multidimensional index space   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/dsc_size&action=edit)  
+(public member function)   
 [ empty](mdspan/empty.html "cpp/container/mdspan/empty") |  checks if the size of the index space is zero   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/dsc_empty&action=edit)  
+(public member function)   
 [ stride](mdspan/stride.html "cpp/container/mdspan/stride") |  obtains the stride along the specified dimension   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/dsc_stride&action=edit)  
+(public member function)   
 [ extents](mdspan/extents_mfun.html "cpp/container/mdspan/extents mfun") |  obtains the extents object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/dsc_extents_mfun&action=edit)  
+(public member function)   
 [ data_handle](mdspan/data_handle.html "cpp/container/mdspan/data handle") |  obtains the pointer to the underlying 1D sequence   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/dsc_data_handle&action=edit)  
+(public member function)   
 [ mapping](mdspan/mapping.html "cpp/container/mdspan/mapping") |  obtains the mapping object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/dsc_mapping&action=edit)  
+(public member function)   
 [ accessor](mdspan/accessor.html "cpp/container/mdspan/accessor") |  obtains the accessor policy object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/dsc_accessor&action=edit)  
+(public member function)   
 [ is_unique](mdspan/mapping_traits.html "cpp/container/mdspan/mapping traits") |  determines if this mdspan's mapping is unique (every combination of indices maps to a different underlying element)   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/dsc_is_unique&action=edit)  
+(public member function)   
 [ is_exhaustive](mdspan/mapping_traits.html "cpp/container/mdspan/mapping traits") |  determines if this mdspan's mapping is exhaustive (every underlying element can be accessed with some combination of indices)   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/dsc_is_exhaustive&action=edit)  
+(public member function)   
 [ is_strided](mdspan/mapping_traits.html "cpp/container/mdspan/mapping traits") |  determines if this mdspan's mapping is strided (in each dimension, incrementing an index jumps over the same number of underlying elements every time)   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/dsc_is_strided&action=edit)  
+(public member function)   
 [ is_always_unique](mdspan/mapping_traits.html "cpp/container/mdspan/mapping traits")[static] |  determines if this mdspan's layout mapping is always unique   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/dsc_is_always_unique&action=edit)  
+(public static member function)   
 [ is_always_exhaustive](mdspan/mapping_traits.html "cpp/container/mdspan/mapping traits")[static] |  determines if this mdspan's layout mapping is always exhaustive   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/dsc_is_always_exhaustive&action=edit)  
+(public static member function)   
 [ is_always_strided](mdspan/mapping_traits.html "cpp/container/mdspan/mapping traits")[static] |  determines if this mdspan's layout mapping is always strided   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/dsc_is_always_strided&action=edit)  
+(public static member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan&action=edit&section=5 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ std::swap(std::mdspan)](mdspan/swap2.html "cpp/container/mdspan/swap2")(C++23) |  specializes the [std::swap](../utility/swap.html "cpp/algorithm/swap") algorithm for mdspan   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/dsc_swap&action=edit)  
+(function template)   
 ---|---  
   
 #####  Subviews   
   
 [ submdspan](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/submdspan&action=edit&redlink=1 "cpp/container/mdspan/submdspan \(page does not exist\)")(C++26) |  returns a view of a subset of an existing `mdspan`   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/dsc_submdspan&action=edit)  
+(function template)   
 [ submdspan_extents](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/submdspan_extents&action=edit&redlink=1 "cpp/container/mdspan/submdspan extents \(page does not exist\)")(C++26) |  creates new extents from the existing extents and slice specifiers   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/dsc_submdspan_extents&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan&action=edit&section=6 "Edit section: Helper types and templates")] Helper types and templates
+### Helper types and templates
 
 [ extents](mdspan/extents.html "cpp/container/mdspan/extents")(C++23) |  a descriptor of a multidimensional index space of some rank   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/dsc_extents&action=edit)  
+(class template)   
 ---|---  
 [ dextentsdims](mdspan/extents.html "cpp/container/mdspan/extents")(C++23)(C++26) |  convenience alias template for an all-dynamic std::extents  
-(alias template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/dsc_dextents&action=edit)  
+(alias template)  
 [ default_accessor](mdspan/default_accessor.html "cpp/container/mdspan/default accessor")(C++23) |  a type for indexed access to elements of `mdspan`   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/dsc_default_accessor&action=edit)  
+(class template)   
 [ aligned_accessor](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/aligned_accessor&action=edit&redlink=1 "cpp/container/mdspan/aligned accessor \(page does not exist\)")(C++26) |  a type for aligned access to elements of `mdspan`   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/dsc_aligned_accessor&action=edit)  
+(class template)   
   
 #####  Layout mapping policies   
   
 [ layout_left](mdspan/layout_left.html "cpp/container/mdspan/layout left")(C++23) |  column-major multidimensional array layout mapping policy; leftmost extent has stride `1`   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/dsc_layout_left&action=edit)  
+(class)   
 [ layout_right](mdspan/layout_right.html "cpp/container/mdspan/layout right")(C++23) |  row-major multidimensional array layout mapping policy; rightmost extent has stride `1`   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/dsc_layout_right&action=edit)  
+(class)   
 [ layout_stride](mdspan/layout_stride.html "cpp/container/mdspan/layout stride")(C++23) |  a layout mapping policy with user-defined strides   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/dsc_layout_stride&action=edit)  
+(class)   
 [ layout_left_padded](mdspan/layout_left_padded.html "cpp/container/mdspan/layout left padded")(C++26) |  column-major layout mapping policy with padding stride that can be greater than or equal to the leftmost extent   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/dsc_layout_left_padded&action=edit)  
+(class template)   
 [ layout_right_padded](mdspan/layout_right_padded.html "cpp/container/mdspan/layout right padded")(C++26) |  row-major layout mapping policy with padding stride that can be greater than or equal to the rightmost extent   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/dsc_layout_right_padded&action=edit)  
+(class template)   
   
 #####  Subviews helpers   
   
 [ full_extentfull_extent_t](mdspan/full_extent.html "cpp/container/mdspan/full extent")(C++26) |  a slice specifier tag describing full range of indices in the specified extent.  
-(tag)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/dsc_full_extent&action=edit)  
+(tag)  
 [ strided_slice](mdspan/strided_slice.html "cpp/container/mdspan/strided slice")(C++26) |  a slice specifier representing a set of regularly spaced indices as indicated by an offset, an extent, and a stride   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/dsc_strided_slice&action=edit)  
+(class template)   
 [ submdspan_mapping_result](mdspan/submdspan_mapping_result.html "cpp/container/mdspan/submdspan mapping result")(C++26) |  a return type of the overloads of `submdspan_mapping`   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/dsc_submdspan_mapping_result&action=edit)  
+(class template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan&action=edit&section=7 "Edit section: Deduction guides")] [Deduction guides](mdspan/deduction_guides.html "cpp/container/mdspan/deduction guides")
+### [Deduction guides](mdspan/deduction_guides.html "cpp/container/mdspan/deduction guides")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan&action=edit&section=8 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../utility/feature_test.html "cpp/utility/feature test") macro  | Value | Std | Feature   
 ---|---|---|---  
@@ -310,7 +310,7 @@ Member  |  Description
 [`202403L`](../compiler_support/26.html#cpp_lib_submdspan_202403L "cpp/compiler support/26") | (C++26) | `std::mdspan` padded layouts   
 [`__cpp_lib_aligned_accessor`](../experimental/feature_test.html#cpp_lib_aligned_accessor "cpp/feature test") | [`202411L`](../compiler_support/26.html#cpp_lib_aligned_accessor_202411L "cpp/compiler support/26") | (C++26) | std::aligned_accessor  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan&action=edit&section=9 "Edit section: Example")] Example
+### Example
 
 Can be previewed on [Compiler Explorer](https://godbolt.org/z/6WqGonPTn).
 
@@ -361,12 +361,12 @@ Output:
     1002 1003
     1004 1005
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan&action=edit&section=10 "Edit section: See also")] See also
+### See also
 
 [ span](span.html "cpp/container/span")(C++20) |  a non-owning view over a contiguous sequence of objects   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_span&action=edit)  
+(class template)   
 ---|---  
 [ valarray](../numeric/valarray.html "cpp/numeric/valarray") |  numeric arrays, array masks and array slices   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/dsc_valarray&action=edit)
+(class template) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

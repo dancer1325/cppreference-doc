@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Functions](functions.html "cpp/language/functions")
 
@@ -245,7 +245,7 @@ Overloading
 [Operator overloading](operators.html "cpp/language/operators")  
 [Address of an overload set](overloaded_address.html "cpp/language/overloaded address")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/functions/navbar_content&action=edit)
+
 
 Allows a function to be called without providing one or more trailing arguments. 
 
@@ -513,7 +513,7 @@ Operator functions other than the [function call operator](operator_other.html#B
 | (since C++23)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/default_arguments&action=edit&section=1 "Edit section: Note")] Note
+### Note
 
 Spaces may be necessary to avoid a compound assignment token if the parameter name is absent (see [maximal munch](translation_phases.html#Maximal_munch "cpp/language/translation phases")). 
     
@@ -524,7 +524,7 @@ Spaces may be necessary to avoid a compound assignment token if the parameter na
     void g2(const int& = 0); // OK
     void h(int&&=0);         // OK even without spaces, “&&” is a token here
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/default_arguments&action=edit&section=2 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

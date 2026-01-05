@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](../empty.html "cpp/iterator/empty")(C++17)  
 [data](../data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 [`std::counted_iterator`](../counted_iterator.html "cpp/iterator/counted iterator")
 
@@ -218,7 +218,7 @@
 [Helper classes](../counted_iterator.html#Helper_classes "cpp/iterator/counted iterator")  
 [iterator_traits<std::counted_iterator>](iterator_traits.html "cpp/iterator/counted iterator/iterator traits")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/counted_iterator/navbar_content&action=edit)
+
 
 constexpr const I& base() const& noexcept; |  (1)  |  (since C++20)  
 ---|---|---  
@@ -243,21 +243,21 @@ Returns the underlying base iterator.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/counted_iterator/base&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/counted_iterator/base&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) A reference to the underlying iterator. 
 
 2) An iterator move constructed from the underlying iterator.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/impldef_exception&action=edit&section=T-1 "Template:cpp/impldef exception")] Exceptions
+### Exceptions
 
 May throw implementation-defined exceptions. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/counted_iterator/base&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -298,7 +298,7 @@ Output:
     Print with reverse_iterator: 4 3 2 1 0
     Print with counted_iterator: 4 3 2
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/counted_iterator/base&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -307,10 +307,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [LWG 3391](https://cplusplus.github.io/LWG/issue3391) | C++20  | the const version of `base` returns a copy of the underlying iterator  | returns a reference   
 [LWG 3593](https://cplusplus.github.io/LWG/issue3593) | C++20  | the const version of `base` returns a reference but might not be noexcept  | made noexcept   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/counted_iterator/base&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ operator*operator->](operator*.html "cpp/iterator/counted iterator/operator*") |  accesses the pointed-to element   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_operator*&action=edit)  
+(public member function)   
 ---|---  
 [ count](count.html "cpp/iterator/counted iterator/count") |  returns the distance to the end   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/counted_iterator/dsc_count&action=edit)
+(public member function) 

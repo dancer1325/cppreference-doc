@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Coroutine support](../../coroutine.html "cpp/coroutine")
 
@@ -146,7 +146,7 @@ Trivial awaitables
 Range generators  
 [generator](../generator.html "cpp/coroutine/generator")(C++23)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/coroutine/navbar_content&action=edit)
+
 
 [`std::coroutine_handle`](../coroutine_handle.html "cpp/coroutine/coroutine handle")
 
@@ -173,7 +173,7 @@ Non-member functions
 Helper classes  
 [hash<std::coroutine_handle>](hash.html "cpp/coroutine/coroutine handle/hash")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/coroutine/coroutine_handle/navbar_content&action=edit)
+
 
 Member of other specializations |  |   
 ---|---|---  
@@ -198,23 +198,23 @@ Checks if a suspended coroutine is suspended at its final suspend point.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/coroutine/coroutine_handle/done&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/coroutine/coroutine_handle/done&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) true if the coroutine is suspended at its final suspend point, false if the coroutine is suspended at other suspend points.
 
 2) false
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/coroutine/coroutine_handle/done&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 A no-op coroutine is never considered to be suspended at its final suspend point. 
 
 A coroutine with promise object p is considered to be suspended at its final suspend point only if, let e be the result of p.final_suspend(), e.await_ready() returns false. In particular, if p.final_suspend() returns [`std::suspend_never`](../suspend_never.html "cpp/coroutine/suspend never"), then done() never returns true. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/coroutine/coroutine_handle/done&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

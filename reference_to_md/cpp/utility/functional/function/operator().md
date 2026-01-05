@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Function objects](../../../functional.html "cpp/utility/functional")
 
@@ -255,7 +255,7 @@ Identity function object
 [unary_negate](../unary_negate.html "cpp/utility/functional/unary negate")(until C++20*)  
 [binary_negate](../binary_negate.html "cpp/utility/functional/binary negate")(until C++20*)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/navbar_content&action=edit)
+
 
 [`std::function`](../function.html "cpp/utility/functional/function")
 
@@ -277,7 +277,7 @@ Identity function object
 [uses_allocator<std::function>](uses_allocator.html "cpp/utility/functional/function/uses allocator")(until C++17)  
 [Deduction guides](deduction_guides.html "cpp/utility/functional/function/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/function/navbar_content&action=edit)
+
 
 R operator()( Args... args ) const; |  |  (since C++11)  
 ---|---|---  
@@ -298,20 +298,20 @@ Effectively does [`_INVOKE <R>_`](../../../functional.html "cpp/utility/function
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/function/operator\(\)&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 args  |  \-  |  parameters to pass to the stored callable function target   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/function/operator\(\)&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 None if `R` is void. Otherwise the return value of the invocation of the stored callable object. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/function/operator\(\)&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Throws [std::bad_function_call](../bad_function_call.html "cpp/utility/functional/bad function call") if *this does not store a callable function target, i.e. !*this == true. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/function/operator\(\)&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 The following example shows how [std::function](../function.html "cpp/utility/functional/function") can be passed to other functions by value. Also, it shows how [std::function](../function.html "cpp/utility/functional/function") can store lambdas.
 
@@ -367,14 +367,14 @@ Possible output:
     42
     Hi 42
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/function/operator\(\)&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ operator()](../move_only_function/operator\(\).html "cpp/utility/functional/move only function/operator\(\)") |  invokes the target   
-(public member function of `std::move_only_function`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/move_only_function/dsc_operator\(\)&action=edit)  
+(public member function of `std::move_only_function`) &action=edit)  
 ---|---  
 [ operator()](../reference_wrapper/operator\(\).html "cpp/utility/functional/reference wrapper/operator\(\)") |  calls the stored function   
-(public member function of `std::reference_wrapper<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/reference_wrapper/dsc_operator\(\)&action=edit)  
+(public member function of `std::reference_wrapper<T>`) &action=edit)  
 [ bad_function_call](../bad_function_call.html "cpp/utility/functional/bad function call")(C++11) |  the exception thrown when invoking an empty [std::function](../function.html "cpp/utility/functional/function")   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_bad_function_call&action=edit)  
+(class)   
 [ invokeinvoke_r](../invoke.html "cpp/utility/functional/invoke")(C++17)(C++23) |  invokes any [Callable](../../../named_req/Callable.html "cpp/named req/Callable") object with given arguments and possibility to specify return type(since C++23)   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_invoke&action=edit)
+(function template) 

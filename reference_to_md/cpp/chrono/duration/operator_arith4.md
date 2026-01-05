@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::duration`](../duration.html "cpp/chrono/duration")
 
@@ -156,7 +156,7 @@ Helper classes
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/duration/navbar_content&action=edit)
+
 
 template< class Rep1, class Period1, class Rep2, class Period2 >  
 typename [std::common_type](../../types/common_type.html)<duration<Rep1,Period1>, duration<Rep2,Period2>>::type  
@@ -219,7 +219,7 @@ Performs basic arithmetic operations between two durations or between a duration
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/duration/operator_arith4&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 lhs  |  \-  |  duration on the left-hand side of the operator   
 ---|---|---  
@@ -227,7 +227,7 @@ rhs  |  \-  |  duration on the right-hand side of the operator
 d  |  \-  |  the duration argument for mixed-argument operators   
 s  |  \-  |  non-duration argument for mixed-argument operators   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/duration/operator_arith4&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Assuming that CD is the function return type and CD<A, B> = [std::common_type](../../types/common_type.html)<A, B>::type, then: 
 
@@ -245,7 +245,7 @@ Assuming that CD is the function return type and CD<A, B> = [std::common_type](.
 
 8) CD(CD(lhs).count() % CD(rhs).count())
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/duration/operator_arith4&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -297,7 +297,7 @@ Output:
     4807s (seconds) = 1h (hour) + 20min (minutes) + 7s (seconds)
     A photon flies from the Sun to the Earth in 8 minutes 20s (seconds)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/duration/operator_arith4&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

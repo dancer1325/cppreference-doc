@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 Defined in header `[<utility>](../header/utility.html "cpp/header/utility")` |  |   
 ---|---|---  
@@ -152,16 +152,16 @@ It is a compile-time error if either `T` or `U` is a non-[integer](../language/t
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/in_range&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 t  |  \-  |  value to test   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/in_range&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 true if the value of t is representable in `R`, false otherwise. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/in_range&action=edit&section=3 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     template<class R, class T>
@@ -173,7 +173,7 @@ true if the value of t is representable in `R`, false otherwise.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/in_range&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 This function cannot be used with [enums](../language/enum.html "cpp/language/enum") (including [`std::byte`](../types/byte.html "cpp/types/byte")), char, char8_t, char16_t, char32_t, wchar_t and bool. 
 
@@ -181,7 +181,7 @@ This function cannot be used with [enums](../language/enum.html "cpp/language/en
 ---|---|---|---  
 [`__cpp_lib_integer_comparison_functions`](../experimental/feature_test.html#cpp_lib_integer_comparison_functions "cpp/feature test") | [`202002L`](../compiler_support/20.html#cpp_lib_integer_comparison_functions_202002L "cpp/compiler support/20") | (C++20) | Integer comparison functions   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/in_range&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -203,16 +203,16 @@ Output:
     false
     true
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/in_range&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ ranges::min](../algorithm/ranges/min.html "cpp/algorithm/ranges/min")(C++20) |  returns the smaller of the given values  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_min&action=edit)  
+(algorithm function object)  
 ---|---  
 [ ranges::max](../algorithm/ranges/max.html "cpp/algorithm/ranges/max")(C++20) |  returns the greater of the given values  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_max&action=edit)  
+(algorithm function object)  
 [ ranges::clamp](../algorithm/ranges/clamp.html "cpp/algorithm/ranges/clamp")(C++20) |  clamps a value between a pair of boundary values  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_clamp&action=edit)  
+(algorithm function object)  
 [ lerp](../numeric/lerp.html "cpp/numeric/lerp")(C++20) |  linear interpolation function   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/dsc_lerp&action=edit)
+(function) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

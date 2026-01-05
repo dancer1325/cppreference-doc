@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](empty.html "cpp/iterator/empty")(C++17)  
 [data](data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 Defined in header `[<iterator>](../header/iterator.html "cpp/header/iterator")` |  |   
 ---|---|---  
@@ -206,32 +206,32 @@ concept sortable =
   
 The `sortable` concept specifies the requirements for algorithms that permute a range into an ordered range according to `Comp`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/sortable&action=edit&section=1 "Edit section: Semantic requirements")] Semantic requirements
+### Semantic requirements
 
 std::sortable<I, Comp, Proj> is modeled only if all concepts it subsumes are modeled. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/sortable&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ ranges::sort](../algorithm/ranges/sort.html "cpp/algorithm/ranges/sort")(C++20) |  sorts a range into ascending order  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_sort&action=edit)  
+(algorithm function object)  
 ---|---  
 [ ranges::stable_sort](../algorithm/ranges/stable_sort.html "cpp/algorithm/ranges/stable sort")(C++20) |  sorts a range of elements while preserving order between equal elements  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_stable_sort&action=edit)  
+(algorithm function object)  
 [ ranges::partial_sort](../algorithm/ranges/partial_sort.html "cpp/algorithm/ranges/partial sort")(C++20) |  sorts the first N elements of a range  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_partial_sort&action=edit)  
+(algorithm function object)  
 [ ranges::nth_element](../algorithm/ranges/nth_element.html "cpp/algorithm/ranges/nth element")(C++20) |  partially sorts the given range making sure that it is partitioned by the given element  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_nth_element&action=edit)  
+(algorithm function object)  
 [ ranges::inplace_merge](../algorithm/ranges/inplace_merge.html "cpp/algorithm/ranges/inplace merge")(C++20) |  merges two ordered ranges in-place  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_inplace_merge&action=edit)  
+(algorithm function object)  
 [ ranges::push_heap](../algorithm/ranges/push_heap.html "cpp/algorithm/ranges/push heap")(C++20) |  adds an element to a max heap  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_push_heap&action=edit)  
+(algorithm function object)  
 [ ranges::pop_heap](../algorithm/ranges/pop_heap.html "cpp/algorithm/ranges/pop heap")(C++20) |  removes the largest element from a max heap  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_pop_heap&action=edit)  
+(algorithm function object)  
 [ ranges::make_heap](../algorithm/ranges/make_heap.html "cpp/algorithm/ranges/make heap")(C++20) |  creates a max heap out of a range of elements  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_make_heap&action=edit)  
+(algorithm function object)  
 [ ranges::sort_heap](../algorithm/ranges/sort_heap.html "cpp/algorithm/ranges/sort heap")(C++20) |  turns a max heap into a range of elements sorted in ascending order  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_sort_heap&action=edit)  
+(algorithm function object)  
 [ ranges::next_permutation](../algorithm/ranges/next_permutation.html "cpp/algorithm/ranges/next permutation")(C++20) |  generates the next greater lexicographic permutation of a range of elements  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_next_permutation&action=edit)  
+(algorithm function object)  
 [ ranges::prev_permutation](../algorithm/ranges/prev_permutation.html "cpp/algorithm/ranges/prev permutation")(C++20) |  generates the next smaller lexicographic permutation of a range of elements  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_prev_permutation&action=edit)
+(algorithm function object)

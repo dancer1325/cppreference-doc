@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::indirect`](../indirect.html "cpp/memory/indirect")
 
@@ -206,7 +206,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
 [Helper classes](../indirect.html#Helper_classes "cpp/memory/indirect")  
 [hash<std::indirect>](hash.html "cpp/memory/indirect/hash")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/indirect/navbar_content&action=edit)
+
 
 constexpr void swap( indirect& other ) noexcept(/* see below */); |  |  (since C++26)  
 ---|---|---  
@@ -241,26 +241,26 @@ If one of the following conditions is satisfied, the behavior is undefined:
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/indirect/swap&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 other  |  \-  |  the `indirect` object to exchange the contents with   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/indirect/swap&action=edit&section=2 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 [`noexcept`](../../language/noexcept_spec.html "cpp/language/noexcept spec") specification: 
 
 noexcept([std::allocator_traits](../allocator_traits.html)<Allocator>::propagate_on_container_swap::value  
 || [std::allocator_traits](../allocator_traits.html)<Allocator>::is_always_equal::value)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/indirect/swap&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/indirect/swap&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ std::swap(std::indirect)](swap2.html "cpp/memory/indirect/swap2")(C++26) |  specializes the [std::swap](../../utility/swap.html "cpp/algorithm/swap") algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/indirect/dsc_swap2&action=edit)  
+(function template)   
 ---|---

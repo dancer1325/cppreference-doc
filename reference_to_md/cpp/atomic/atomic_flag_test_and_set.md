@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 Defined in header `[<atomic>](../header/atomic.html "cpp/header/atomic")` |  |   
 ---|---|---  
@@ -202,21 +202,21 @@ Atomically changes the state of a [std::atomic_flag](atomic_flag.html "cpp/atomi
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_flag_test_and_set&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 obj  |  \-  |  pointer to [std::atomic_flag](atomic_flag.html "cpp/atomic/atomic flag") to access   
 ---|---|---  
 order  |  \-  |  the memory synchronization order   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_flag_test_and_set&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The value previously held by the flag pointed to by obj. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_flag_test_and_set&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 `std::atomic_flag_test_and_set` and `std::atomic_flag_test_and_set_explicit` can be implemented as obj->test_and_set() and obj->test_and_set(order) respectively. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_flag_test_and_set&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 A spinlock mutex can be implemented in userspace using an `std::atomic_flag`.
 
@@ -258,13 +258,13 @@ Output:
     Output from thread 7
     ...<exactly 1000 lines>...
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_flag_test_and_set&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ atomic_flag](atomic_flag.html "cpp/atomic/atomic flag")(C++11) |  the lock-free boolean atomic type   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/dsc_atomic_flag&action=edit)  
+(class)   
 ---|---  
 [ atomic_flag_clearatomic_flag_clear_explicit](atomic_flag_clear.html "cpp/atomic/atomic flag clear")(C++11)(C++11) |  atomically sets the value of the flag to false   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/dsc_atomic_flag_clear&action=edit)  
+(function)   
 [ memory_order](memory_order.html "cpp/atomic/memory order")(C++11) |  defines memory ordering constraints for the given atomic operation   
-(enum) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/dsc_memory_order&action=edit)  
+(enum)   
 [C documentation](../../c/atomic/atomic_flag_test_and_set.html "c/atomic/atomic flag test and set") for atomic_flag_test_and_set, atomic_flag_test_and_set_explicit

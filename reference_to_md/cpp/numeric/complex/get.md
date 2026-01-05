@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [`std::complex`](../complex.html "cpp/numeric/complex")
 
@@ -164,7 +164,7 @@
 [tuple_size<std::complex>](tuple_size.html "cpp/numeric/complex/tuple size")(C++26)  
 [tuple_element<std::complex>](tuple_element.html "cpp/numeric/complex/tuple element")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/navbar_content&action=edit)
+
 
 Defined in header `[<complex>](../../header/complex.html "cpp/header/complex")` |  |   
 ---|---|---  
@@ -191,22 +191,22 @@ Returns the reference to real or imaginary part from a `complex` when I == 0 or 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/get&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 x  |  \-  |  a `complex`  
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/get&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1-4) A reference to the real or imaginary part from the stored one when I == 0 or I == 1, respectively.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/get&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../../utility/feature_test.html "cpp/utility/feature test") macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_tuple_like`](../../experimental/feature_test.html#cpp_lib_tuple_like "cpp/feature test") | [`202311L`](../../compiler_support/26.html#cpp_lib_tuple_like_202311L "cpp/compiler support/26") | (C++26) | Add tuple protocol to [std::complex](../complex.html "cpp/numeric/complex")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/get&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -224,15 +224,15 @@ Run this code
      
     int main() {}
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/get&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
-[Structured binding](../../language/structured_binding.html "cpp/language/structured binding") (C++17) |  binds the specified names to sub-objects or tuple elements of the initializer[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_structured_binding&action=edit)  
+[Structured binding](../../language/structured_binding.html "cpp/language/structured binding") (C++17) |  binds the specified names to sub-objects or tuple elements of the initializer  
 ---|---  
 [ get(std::tuple)](../../utility/tuple/get.html "cpp/utility/tuple/get")(C++11) |  tuple accesses specified element   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/dsc_get&action=edit)  
+(function template)   
 [ get(std::pair)](../../utility/pair/get.html "cpp/utility/pair/get")(C++11) |  accesses an element of a `pair`   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/pair/dsc_get&action=edit)  
+(function template)   
 [ get(std::array)](../../container/array/get.html "cpp/container/array/get")(C++11) |  accesses an element of an `array`   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/array/dsc_get&action=edit)
+(function template) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

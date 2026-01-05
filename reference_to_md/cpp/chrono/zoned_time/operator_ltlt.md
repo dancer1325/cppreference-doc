@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::zoned_time`](../zoned_time.html "cpp/chrono/zoned time")
 
@@ -121,7 +121,7 @@ Helper classes
 [hash<std::chrono::zoned_time>](hash.html "cpp/chrono/zoned time/hash")(C++26)  
 [Deduction guides](deduction_guides.html "cpp/chrono/zoned time/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/zoned_time/navbar_content&action=edit)
+
 
 Defined in header `[<chrono>](../../header/chrono.html "cpp/header/chrono")` |  |   
 ---|---|---  
@@ -144,23 +144,23 @@ Outputs tp to the stream os, as if by [std::format](../../utility/format/format.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/zoned_time/operator_ltlt&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 os  |  \-  |  output stream   
 ---|---|---  
 tp  |  \-  |  `zoned_time` to output   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/zoned_time/operator_ltlt&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 os
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/zoned_time/operator_ltlt&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/zoned_time/operator_ltlt&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -168,8 +168,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [P2372R3](https://wg21.link/P2372R3) | C++20  | the given locale was used by default  | `**L**` is needed to use the given locale   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/zoned_time/operator_ltlt&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ std::formatter<std::chrono::zoned_time>](formatter.html "cpp/chrono/zoned time/formatter")(C++20) |  formatting support for `zoned_time`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_formatter&action=edit)  
+(class template specialization)   
 ---|---

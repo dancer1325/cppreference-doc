@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](../empty.html "cpp/iterator/empty")(C++17)  
 [data](../data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 [`std::reverse_iterator`](../reverse_iterator.html "cpp/iterator/reverse iterator")
 
@@ -214,7 +214,7 @@
 [iter_swap](iter_swap.html "cpp/iterator/reverse iterator/iter swap")(C++20)  
 [make_reverse_iterator](../make_reverse_iterator.html "cpp/iterator/make reverse iterator")(C++14)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/reverse_iterator/navbar_content&action=edit)
+
 
 reference operator*() const; |  (1) | (constexpr since C++17)  
 ---|---|---  
@@ -251,11 +251,11 @@ return [std::addressof](../../memory/addressof.html)(operator*()); | (since C++1
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/reverse_iterator/operator*&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 As described above. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/reverse_iterator/operator*&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -293,7 +293,7 @@ Output:
     *r1 = 1
     vc[2] = (5,6)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/reverse_iterator/operator*&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -301,8 +301,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 2188](https://cplusplus.github.io/LWG/issue2188) | C++11  | operator-> used `&` to take address  | uses [std::addressof](../../memory/addressof.html "cpp/memory/addressof") instead   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/reverse_iterator/operator*&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ operator[]](operator_at.html "cpp/iterator/reverse iterator/operator at") |  accesses an element by index   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_operator_at&action=edit)  
+(public member function)   
 ---|---

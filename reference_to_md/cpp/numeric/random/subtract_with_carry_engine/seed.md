@@ -32,7 +32,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../../numeric.html "cpp/numeric")
 
@@ -89,7 +89,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [Pseudo-random number generation](../../random.html "cpp/numeric/random")
 
@@ -163,7 +163,7 @@
 [piecewise_constant_distribution](../piecewise_constant_distribution.html "cpp/numeric/random/piecewise constant distribution")(C++11)  
 [piecewise_linear_distribution](../piecewise_linear_distribution.html "cpp/numeric/random/piecewise linear distribution")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/navbar_content&action=edit)
+
 
 [`std::subtract_with_carry_engine`](../subtract_with_carry_engine.html "cpp/numeric/random/subtract with carry engine")
 
@@ -181,7 +181,7 @@ Non-member functions
 [operator==operator!=](operator_cmp.html "cpp/numeric/random/subtract with carry engine/operator cmp")(C++11)(C++11)(until C++20)  
 [operator<<operator>>](operator_ltltgtgt.html "cpp/numeric/random/subtract with carry engine/operator ltltgtgt")(C++11)(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/subtract_with_carry_engine/navbar_content&action=edit)
+
 
 void seed( result_type value = 0u ); |  (1)  |  (since C++11)  
 ---|---|---  
@@ -206,17 +206,17 @@ Sets the [state](../subtract_with_carry_engine.html#Generator_properties "cpp/nu
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/engine/seed&action=edit&section=T-1 "Template:cpp/numeric/random/engine/seed")] Parameters
+### Parameters
 
 value  |  \-  |  seed value to use to set the state   
 ---|---|---  
 seq  |  \-  |  seed sequence to use to set the state   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/engine/seed&action=edit&section=T-2 "Template:cpp/numeric/random/engine/seed")] Exceptions
+### Exceptions
 
 2) If `SeedSeq` is not [std::seed_seq](../seed_seq.html "cpp/numeric/random/seed seq"), throws the exceptions thrown by the `seq.generate` call.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/engine/seed&action=edit&section=T-3 "Template:cpp/numeric/random/engine/seed")] Complexity
+### Complexity
 
 1) Same as [std::subtract_with_carry_engine](../subtract_with_carry_engine.html)(value).
 
@@ -231,8 +231,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [LWG 2181](https://cplusplus.github.io/LWG/issue2181) | C++11  | overload ([2](seed.html#Version_2)) would not throw even if the `seq.generate` call throws  | propagates the exception   
 [LWG 3809](https://cplusplus.github.io/LWG/issue3809) | C++11  | the default argument of value was default_seed | changed to 0u  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/engine/seed&action=edit&section=T-5 "Template:cpp/numeric/random/engine/seed")] See also
+### See also
 
 [ (constructor)](subtract_with_carry_engine.html "cpp/numeric/random/subtract with carry engine/subtract with carry engine") |  constructs the engine   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/engine/dsc_constructor&action=edit)  
+(public member function)   
 ---|---

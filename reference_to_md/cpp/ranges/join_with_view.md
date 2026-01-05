@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 **`std::ranges::join_with_view`**
 
@@ -251,7 +251,7 @@ join_with_view::_iterator_ ::operator--(int)](join_with_view/iterator/operator_a
 [join_with_view::_sentinel_ ::_sentinel_](join_with_view/sentinel/sentinel.html "cpp/ranges/join with view/sentinel/sentinel")  
 [operator==(join_with_view::_sentinel_)](join_with_view/sentinel/operator_cmp.html "cpp/ranges/join with view/sentinel/operator cmp")(C++23)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/join_with_view/navbar_content&action=edit)
+
 
 Defined in header `[<ranges>](../header/ranges.html "cpp/header/ranges")` |  |   
 ---|---|---  
@@ -319,14 +319,14 @@ For the definition of /*concatable*/, see [`std::ranges::concat_view`](concat_vi
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/join_with_view&action=edit&section=1 "Edit section: Nested types")] Nested types
+### Nested types
 
 Type  |  Definition   
 ---|---  
 `_InnerRng_` |  [ranges::range_reference_t](range_reference_t.html)<V>  
 (exposition-only member type*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/join_with_view&action=edit&section=2 "Edit section: Data members")] Data members
+### Data members
 
 Member  |  Definition   
 ---|---  
@@ -341,36 +341,36 @@ Member  |  Definition
 (present only if [std::is_reference_v](../types/is_reference.html)<`_InnerRng_` ﻿> is false) |  the cache of the inner range  
 (exposition-only member object*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/join_with_view&action=edit&section=3 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](join_with_view/join_with_view.html "cpp/ranges/join with view/join with view") |  constructs a `join_with_view`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ base](join_with_view/base.html "cpp/ranges/join with view/base") |  returns a copy of the underlying (adapted) view   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/dsc_base&action=edit)  
+(public member function)   
 [ begin](join_with_view/begin.html "cpp/ranges/join with view/begin") |  returns an iterator to the beginning   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/dsc_begin&action=edit)  
+(public member function)   
 [ end](join_with_view/end.html "cpp/ranges/join with view/end") |  returns an iterator or a sentinel to the end   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/dsc_end&action=edit)  
+(public member function)   
   
 #####  Inherited from [std::ranges::view_interface](view_interface.html "cpp/ranges/view interface")  
   
 [ empty](view_interface/empty.html "cpp/ranges/view interface/empty") |  returns whether the derived view is empty, provided only if it satisfies [`sized_range`](sized_range.html "cpp/ranges/sized range") or [`forward_range`](forward_range.html "cpp/ranges/forward range")   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_empty&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ cbegin](view_interface/cbegin.html "cpp/ranges/view interface/cbegin")(C++23) |  returns a constant iterator to the beginning of the range   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_cbegin&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ cend](view_interface/cend.html "cpp/ranges/view interface/cend")(C++23) |  returns a sentinel for the constant iterator of the range   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_cend&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ operator bool](view_interface/operator_bool.html "cpp/ranges/view interface/operator bool") |  returns whether the derived view is not empty, provided only if [ranges::empty](empty.html "cpp/ranges/empty") is applicable to it   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_operator_bool&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ front](view_interface/front.html "cpp/ranges/view interface/front") |  returns the first element in the derived view, provided if it satisfies [`forward_range`](forward_range.html "cpp/ranges/forward range")   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_front&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ back](view_interface/back.html "cpp/ranges/view interface/back") |  returns the last element in the derived view, provided only if it satisfies [`bidirectional_range`](bidirectional_range.html "cpp/ranges/bidirectional range") and [`common_range`](common_range.html "cpp/ranges/common range")   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_back&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/join_with_view&action=edit&section=4 "Edit section: Deduction guides")] [Deduction guides](join_with_view/deduction_guides.html "cpp/ranges/join with view/deduction guides")
+### [Deduction guides](join_with_view/deduction_guides.html "cpp/ranges/join with view/deduction guides")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/join_with_view&action=edit&section=5 "Edit section: Nested classes")] Nested classes
+### Nested classes
 
 [_iterator_](join_with_view/iterator.html "cpp/ranges/join with view/iterator") |  the iterator type  
 (exposition-only member class template*)  
@@ -378,13 +378,13 @@ Member  |  Definition
 [_sentinel_](join_with_view/sentinel.html "cpp/ranges/join with view/sentinel") |  the sentinel type  
 (exposition-only member class template*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/join_with_view&action=edit&section=6 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../utility/feature_test.html "cpp/utility/feature test") macro  | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_ranges_join_with`](../experimental/feature_test.html#cpp_lib_ranges_join_with "cpp/feature test") | [`202202L`](../compiler_support/23.html#cpp_lib_ranges_join_with_202202L "cpp/compiler support/23") | (C++23) | `std::ranges::join_with_view`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/join_with_view&action=edit&section=7 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -411,7 +411,7 @@ Output:
     
     This is a test.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/join_with_view&action=edit&section=8 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -419,12 +419,12 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 4074](https://cplusplus.github.io/LWG/issue4074) | C++23  | `join_with_view` was underconstrained  | updated the constraints   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/join_with_view&action=edit&section=9 "Edit section: See also")] See also
+### See also
 
 [ ranges::join_viewviews::join](join_view.html "cpp/ranges/join view")(C++20) |  a [`view`](view.html "cpp/ranges/view") consisting of the sequence obtained from flattening a [`view`](view.html "cpp/ranges/view") of [`range`s](range.html "cpp/ranges/range")  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_join_view&action=edit)  
+(class template) (range adaptor object)  
 ---|---  
 [ ranges::concat_viewviews::concat](concat_view.html "cpp/ranges/concat view")(C++26) |  a [`view`](view.html "cpp/ranges/view") consisting of concatenation of the adapted views  
-(class template) (customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_concat_view&action=edit)
+(class template) (customization point object)
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

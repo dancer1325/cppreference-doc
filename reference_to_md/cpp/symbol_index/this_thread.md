@@ -21,7 +21,7 @@
 [Removed symbols (Zombie names)](zombie_names.html "cpp/symbol index/zombie names")  
 [Exposition-only symbols](expos.html "cpp/symbol index/expos")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/symbol_index/navbar_content&action=edit)
+
 
 This page tries to list all the symbols that are available from the [standard library](../standard_library.html "cpp/standard library") ([concurrency support library](../atomic.html "cpp/thread")) in the namespace std::this_thread. The symbols are written as follows: 
 
@@ -47,18 +47,18 @@ This page tries to list all the symbols that are available from the [standard li
   
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/this_thread&action=edit&section=2 "Edit section: G")] G
+### G
 
 [`get_id()`](../thread/get_id.html "cpp/thread/get id") (since C++11)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/this_thread&action=edit&section=3 "Edit section: S")] S
+### S
 
 [`sleep_for<>()`](../thread/sleep_for.html "cpp/thread/sleep for") (since C++11)  
 [`sleep_until<>()`](../thread/sleep_until.html "cpp/thread/sleep until") (since C++11)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/this_thread&action=edit&section=4 "Edit section: Y")] Y
+### Y
 
 [`yield()`](../thread/yield.html "cpp/thread/yield") (since C++11)  
 

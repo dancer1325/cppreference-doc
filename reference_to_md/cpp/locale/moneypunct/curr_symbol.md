@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Localization library](../../locale.html "cpp/locale")
 
@@ -152,7 +152,7 @@ base classes](../../locale.html#Facet_category_base_classes "cpp/locale")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/navbar_content&action=edit)
+
 
 [`std::moneypunct`](../moneypunct.html "cpp/locale/moneypunct")
 
@@ -168,7 +168,7 @@ Member functions
 [moneypunct::positive_signmoneypunct::do_positive_signmoneypunct::negative_signmoneypunct::do_negative_sign](positive_sign.html "cpp/locale/moneypunct/positive sign")  
 [moneypunct::pos_formatmoneypunct::do_pos_formatmoneypunct::neg_formatmoneypunct::do_neg_format](pos_format.html "cpp/locale/moneypunct/pos format")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/moneypunct/navbar_content&action=edit)
+
 
 Defined in header `[<locale>](../../header/locale.html "cpp/header/locale")` |  |   
 ---|---|---  
@@ -192,11 +192,11 @@ virtual string_type do_curr_symbol() const; |  (2)  |
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/moneypunct/curr_symbol&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 The object of type `string_type` holding the currency symbol or code. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/moneypunct/curr_symbol&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -231,7 +231,7 @@ Output:
     ru_RU.utf8 currency symbol is RUB or руб for short
     vi_VN.utf8 currency symbol is VND or ₫ for short
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/moneypunct/curr_symbol&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -239,8 +239,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 666](https://cplusplus.github.io/LWG/issue666) | C++98  | the length of the identifier string was required to be 4 if `International` is true | not required   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/moneypunct/curr_symbol&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ do_pos_formatdo_neg_format](pos_format.html "cpp/locale/moneypunct/pos format")[virtual] |  provides the formatting pattern for currency values   
-(virtual protected member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/moneypunct/dsc_do_pos_format&action=edit)  
+(virtual protected member function)   
 ---|---

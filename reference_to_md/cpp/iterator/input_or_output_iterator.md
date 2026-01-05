@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](empty.html "cpp/iterator/empty")(C++17)  
 [data](data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 Defined in header `[<iterator>](../header/iterator.html "cpp/header/iterator")` |  |   
 ---|---|---  
@@ -210,7 +210,7 @@ The `input_or_output_iterator` concept forms the basis of the iterator concept t
 
 The exposition-only concept /*can-reference*/ is satisfied if and only if the type is [referenceable](../meta.html#Definitions "cpp/meta"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/input_or_output_iterator&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 `input_or_output_iterator` itself only specifies operations for dereferencing and incrementing an iterator. Most algorithms will require additional operations, for example: 
 
@@ -225,7 +225,7 @@ Unlike the [LegacyIterator](../named_req/Iterator.html "cpp/named req/Iterator")
 
 *i is required to be equality-preserving, although the increment operations required by [`weakly_incrementable`](weakly_incrementable.html "cpp/iterator/weakly incrementable") are not. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/input_or_output_iterator&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 A minimum iterator. 
     

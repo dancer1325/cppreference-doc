@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [Input/output manipulators](../manip.html "cpp/io/manip")
 
@@ -154,7 +154,7 @@ Time and money I/O
 Quoted manipulator  
 [quoted](quoted.html "cpp/io/manip/quoted")(C++14)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/navbar_content&action=edit)
+
 
 Defined in header `[<ostream>](../../header/ostream.html "cpp/header/ostream")` |  |   
 ---|---|---  
@@ -187,23 +187,23 @@ This is an output-only I/O manipulator, it may be called with an expression such
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/emit_on_flush&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 os  |  \-  |  reference to output stream   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/emit_on_flush&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 `os` (reference to the stream after manipulation) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/emit_on_flush&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/emit_on_flush&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ set_emit_on_sync](../basic_syncbuf/set_emit_on_sync.html "cpp/io/basic syncbuf/set emit on sync") |  changes the current emit-on-sync policy   
-(public member function of `std::basic_syncbuf<CharT,Traits,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_syncbuf/dsc_set_emit_on_sync&action=edit)  
+(public member function of `std::basic_syncbuf<CharT,Traits,Allocator>`)   
 ---|---

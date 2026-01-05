@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Initialization](initialization.html "cpp/language/initialization")
 
@@ -244,7 +244,7 @@ Miscellaneous
 [Member initializer list](initializer_list.html "cpp/language/initializer list")  
 [Default member initializer](data_members.html#Member_initialization "cpp/language/data members") (C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/initialization/navbar_content&action=edit)
+
 
 This is the initialization performed when an object is constructed with an empty initializer. 
 
@@ -260,7 +260,7 @@ This is the initialization performed when an object is constructed with an empty
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/value_initialization&action=edit&section=1 "Edit section: Syntax")] Syntax  
+### Syntax  
   
 ---  
 T `**()**` |  (1)  |   
@@ -271,7 +271,7 @@ T `**{}**` |  (5)  |  (since C++11)
 `**new**` T `**{}**` |  (6)  |  (since C++11)  
 Class`**::**` Class`**(**`...`**)**` `**:**` member `**{}**` `**{**` ... `**}**` |  (7)  |  (since C++11)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/value_initialization&action=edit&section=2 "Edit section: Explanation")] Explanation
+### Explanation
 
 Value-initialization is performed in these situations: 
 
@@ -306,7 +306,7 @@ The effects of value-initialization are:
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/value_initialization&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 The syntax T object(); does not initialize an object; it declares a function that takes no arguments and returns `T`. The way to value-initialize a named variable before C++11 was T object = T();, which value-initializes a temporary and then copy-initializes the object: most compilers [optimize out the copy](copy_elision.html "cpp/language/copy elision") in this case. 
 
@@ -316,7 +316,7 @@ As described in [function-style cast](explicit_cast.html "cpp/language/explicit 
 
 All standard containers ([std::vector](../container/vector.html "cpp/container/vector"), [std::list](../container/list.html "cpp/container/list"), etc.) value-initialize their elements when constructed with a single `size_type` argument or when grown by a call to resize(), unless their allocator customizes the behavior of construct. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/value_initialization&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -375,7 +375,7 @@ Possible output:
     
     42
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/value_initialization&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -416,7 +416,7 @@ does not actually select a user-provided constructor  | there is no
 zero-initialization  
 in this case   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/value_initialization&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
   * [default constructor](default_constructor.html "cpp/language/default constructor")
   * [`explicit`](explicit.html "cpp/language/explicit")

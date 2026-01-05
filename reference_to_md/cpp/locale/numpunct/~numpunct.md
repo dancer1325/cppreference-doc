@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Localization library](../../locale.html "cpp/locale")
 
@@ -152,7 +152,7 @@ base classes](../../locale.html#Facet_category_base_classes "cpp/locale")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/navbar_content&action=edit)
+
 
 [`std::numpunct`](../numpunct.html "cpp/locale/numpunct")
 
@@ -165,7 +165,7 @@ Member functions
 [numpunct::groupingnumpunct::do_grouping](grouping.html "cpp/locale/numpunct/grouping")  
 [numpunct::truenamenumpunct::do_truenamenumpunct::falsenamenumpunct::do_falsename](truefalsename.html "cpp/locale/numpunct/truefalsename")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/numpunct/navbar_content&action=edit)
+
 
 Defined in header `[<locale>](../../header/locale.html "cpp/header/locale")` |  |   
 ---|---|---  
@@ -174,7 +174,7 @@ protected: ~numpunct(); |  |
   
 Destructs a [std::numpunct](../numpunct.html) facet. This destructor is protected and virtual (due to [base class](../locale/facet.html "cpp/locale/locale/facet") destructor being virtual). An object of type [std::numpunct](../numpunct.html), like most facets, can only be destroyed when the last [std::locale](../locale.html "cpp/locale/locale") object that implements this facet goes out of scope or if a user-defined class is derived from [std::numpunct](../numpunct.html) and implements a public destructor. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/facet/destructor&action=edit&section=T-1 "Template:cpp/locale/facet/destructor")] Example
+### Example
 
 Run this code
     

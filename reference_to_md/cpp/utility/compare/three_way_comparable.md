@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 Defined in header `[<compare>](../../header/compare.html "cpp/header/compare")` |  |   
 ---|---|---  
@@ -177,7 +177,7 @@ concept __ComparesAs =
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/compare/three_way_comparable&action=edit&section=1 "Edit section: Semantic requirements")] Semantic requirements
+### Semantic requirements
 
 These concepts are modeled only if they are satisfied and all concepts they subsume are modeled. 
 
@@ -231,18 +231,18 @@ the following are true:
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/equality_preservation&action=edit&section=T-1 "Template:cpp/concepts/equality preservation")] Equality preservation
+### Equality preservation
 
 Expressions declared in [requires expressions](../../language/requires.html "cpp/language/requires") of the standard library concepts are required to be [equality-preserving](../../concepts.html#Equality_preservation "cpp/concepts") (except where stated otherwise). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/implicit_expression_variations&action=edit&section=T-1 "Template:cpp/concepts/implicit expression variations")] Implicit expression variations
+### Implicit expression variations
 
 A [requires expression](../../language/requires.html "cpp/language/requires") that uses an expression that is non-modifying for some constant lvalue operand also requires [implicit expression variations](../../concepts.html#Implicit_expression_variations "cpp/concepts"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/compare/three_way_comparable&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ equality_comparableequality_comparable_with](../../concepts/equality_comparable.html "cpp/concepts/equality comparable")(C++20) |  specifies that operator == is an equivalence relation   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_equality_comparable&action=edit)  
+(concept)   
 ---|---  
 [ totally_orderedtotally_ordered_with](../../concepts/totally_ordered.html "cpp/concepts/totally ordered")(C++20) |  specifies that the comparison operators on the type yield a total order   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_totally_ordered&action=edit)
+(concept) 

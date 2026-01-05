@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::transform_view`](../../transform_view.html "cpp/ranges/transform view")
 
@@ -263,7 +263,7 @@ operator-(transform_view::_iterator_)](operator_arith2.html "cpp/ranges/transfor
 [operator==(transform_view::_iterator_ ,transform_view::_sentinel_)](../sentinel/operator_cmp.html "cpp/ranges/transform view/sentinel/operator cmp")  
 [operator-(transform_view::_iterator_ ,transform_view::_sentinel_)](../sentinel/operator-.html "cpp/ranges/transform view/sentinel/operator-")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/transform_view/navbar_content&action=edit)
+
 
 friend constexpr decltype(auto) iter_move( const /*iterator*/& i )  
 noexcept(/* see below */); |  |  (since C++20)  
@@ -274,16 +274,16 @@ If *i is an lvalue reference, returns [`std::move`](../../../utility/move.html "
 
 This function is not visible to ordinary [unqualified](../../../language/unqualified_lookup.html "cpp/language/unqualified lookup") or [qualified lookup](../../../language/qualified_lookup.html "cpp/language/qualified lookup"), and can only be found by [argument-dependent lookup](../../../language/adl.html "cpp/language/adl") when `transform_view::_iterator_ <Const>` is an associated class of the arguments. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/transform_view/iterator/iter_move&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 i  |  \-  |  [iterator](../iterator.html "cpp/ranges/transform view/iterator")  
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/transform_view/iterator/iter_move&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 std::move(*i) if *i is an lvalue reference, otherwise *i
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/transform_view/iterator/iter_move&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 [`noexcept`](../../../language/noexcept_spec.html "cpp/language/noexcept spec") specification: 
 

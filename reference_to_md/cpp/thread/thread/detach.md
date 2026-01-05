@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -175,7 +175,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::thread`](../thread.html "cpp/thread/thread")
 
@@ -198,7 +198,7 @@
 [Non-member functions](../thread.html#Non-member_functions "cpp/thread/thread")  
 [swap(std::thread)](swap2.html "cpp/thread/thread/swap2")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/navbar_content&action=edit)
+
 
 void detach(); |  |  (since C++11)  
 ---|---|---  
@@ -221,23 +221,23 @@ After calling `detach` *this no longer owns any thread.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/detach&action=edit&section=T-1 "Template:cpp/thread/thread/detach")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/detach&action=edit&section=T-2 "Template:cpp/thread/thread/detach")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/detach&action=edit&section=T-3 "Template:cpp/thread/thread/detach")] Postconditions
+### Postconditions
 
 [joinable](joinable.html "cpp/thread/thread/joinable") is false. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/detach&action=edit&section=T-4 "Template:cpp/thread/thread/detach")] Exceptions
+### Exceptions
 
 [std::system_error](../../error/system_error.html "cpp/error/system error") if joinable() == false or an error occurs. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/detach&action=edit&section=T-5 "Template:cpp/thread/thread/detach")] Example
+### Example
 
 Run this code
     
@@ -276,7 +276,7 @@ Possible output:
     Exiting thread caller.
     Exiting concurrent thread.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/detach&action=edit&section=T-6 "Template:cpp/thread/thread/detach")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -328,11 +328,11 @@ Possible output:
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/detach&action=edit&section=T-7 "Template:cpp/thread/thread/detach")] See also
+### See also
 
 [ join](join.html "cpp/thread/thread/join") |  waits for the thread to finish its execution   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/dsc_join&action=edit)  
+(public member function)   
 ---|---  
 [ joinable](joinable.html "cpp/thread/thread/joinable") |  checks whether the thread is joinable, i.e. potentially running in parallel context   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/dsc_joinable&action=edit)  
+(public member function)   
 [C documentation](../../../c/thread/thrd_detach.html "c/thread/thrd detach") for thrd_detach

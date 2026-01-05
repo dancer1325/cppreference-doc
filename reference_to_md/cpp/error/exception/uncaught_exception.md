@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Diagnostics library](../../error.html "cpp/error")
 
@@ -89,7 +89,7 @@ Exception handling failures
 [breakpoint_if_debugging](../../utility/breakpoint_if_debugging.html "cpp/utility/breakpoint if debugging")(C++26)  
 [breakpoint](../../utility/breakpoint.html "cpp/utility/breakpoint")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/navbar_content&action=edit)
+
 
 Defined in header `[<exception>](../../header/exception.html "cpp/header/exception")` |  |   
 ---|---|---  
@@ -121,17 +121,17 @@ Sometimes it's safe to throw an exception even while std::uncaught_exception() =
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/uncaught_exception&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/uncaught_exception&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) true if stack unwinding is currently in progress in this thread, false otherwise.
 
 2) The number of uncaught exception objects in the current thread.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/uncaught_exception&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 An example where int-returning `uncaught_exceptions` is used is the [boost.log](https://www.boost.org/doc/libs/release/libs/log/doc/html/index.html) library: the expression BOOST_LOG(logger) << foo(); first creates a guard object and records the number of uncaught exceptions in its constructor. The output is performed by the guard object's destructor unless foo() throws (in which case the number of uncaught exceptions in the destructor is greater than what the constructor observed). 
 
@@ -142,7 +142,7 @@ An example where int-returning `uncaught_exceptions` is used is the [boost.log](
 [`__cpp_lib_uncaught_exceptions`](../../experimental/feature_test.html#cpp_lib_uncaught_exceptions "cpp/feature test") | [`201411L`](../../compiler_support/17.html#cpp_lib_uncaught_exceptions_201411L "cpp/compiler support/17") | (C++17) | `std::uncaught_exceptions`  
 [`__cpp_lib_constexpr_exceptions`](../../experimental/feature_test.html#cpp_lib_constexpr_exceptions "cpp/feature test") | [`202411L`](../../compiler_support/26.html#cpp_lib_constexpr_exceptions_202411L "cpp/compiler support/26") | (C++26) | constexpr for exception types   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/uncaught_exception&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -188,7 +188,7 @@ Possible output:
     Exception caught: test exception
     f.~Foo() called normally
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/uncaught_exception&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -196,17 +196,17 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 70](https://cplusplus.github.io/LWG/issue70) | C++98  | the exception specification of `uncaught_exception()` was missing  | specified as `throw()`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/uncaught_exception&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ terminate](../terminate.html "cpp/error/terminate") |  function called when exception handling fails   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_terminate&action=edit)  
+(function)   
 ---|---  
 [ exception_ptr](../exception_ptr.html "cpp/error/exception ptr")(C++11) |  shared pointer type for handling exception objects   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_exception_ptr&action=edit)  
+(typedef)   
 [ current_exception](../current_exception.html "cpp/error/current exception")(C++11) |  captures the current exception in a [std::exception_ptr](../exception_ptr.html "cpp/error/exception ptr")   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_current_exception&action=edit)  
+(function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/uncaught_exception&action=edit&section=7 "Edit section: External links")] External links
+### External links
 
 1\.  | [GOTW issue 47: Uncaught Exceptions](http://www.gotw.ca/gotw/047.htm)  
 ---|---  

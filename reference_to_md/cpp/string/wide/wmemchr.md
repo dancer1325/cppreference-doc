@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Null-terminated wide strings](../wide.html "cpp/string/wide")
 
@@ -153,7 +153,7 @@
 WCHAR_MAX  
 WEOF](../wide.html#Macros "cpp/string/wide")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/navbar_content&action=edit)
+
 
 Defined in header `[<cwchar>](../../header/cwchar.html "cpp/header/cwchar")` |  |   
 ---|---|---  
@@ -175,18 +175,18 @@ If count is zero, the function returns a null pointer.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/wmemchr&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 ptr  |  \-  |  pointer to the wide character array to be examined   
 ---|---|---  
 ch  |  \-  |  wide character to search for   
 count  |  \-  |  number of wide characters to examine   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/wmemchr&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Pointer to the location of the wide character, or a null pointer if no such character is found. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/wmemchr&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -214,15 +214,15 @@ Possible output:
     
     Found '许' at position 14
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/wmemchr&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ memchr](../byte/memchr.html "cpp/string/byte/memchr") |  searches an array for the first occurrence of a character   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_memchr&action=edit)  
+(function)   
 ---|---  
 [ strchr](../byte/strchr.html "cpp/string/byte/strchr") |  finds the first occurrence of a character   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strchr&action=edit)  
+(function)   
 [ wcschr](wcschr.html "cpp/string/wide/wcschr") |  finds the first occurrence of a wide character in a wide string   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wcschr&action=edit)  
+(function)   
 [ findfind_iffind_if_not](../../algorithm/find.html "cpp/algorithm/find")(C++11) |  finds the first element satisfying specific criteria   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_find&action=edit)  
+(function template)   
 [C documentation](../../../c/string/wide/wmemchr.html "c/string/wide/wmemchr") for wmemchr

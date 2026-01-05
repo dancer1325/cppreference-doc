@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_filebuf`](../basic_filebuf.html "cpp/io/basic filebuf")
 
@@ -105,7 +105,7 @@ Protected member functions
 Non-member functions  
 [swap(std::basic_filebuf)](swap2.html "cpp/io/basic filebuf/swap2")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_filebuf/navbar_content&action=edit)
+
 
 protected:  
 virtual [std::basic_streambuf](../basic_streambuf.html)<CharT, Traits>* setbuf( char_type* s, [std::streamsize](../streamsize.html) n ) |  |   
@@ -130,17 +130,17 @@ This function is protected virtual, it may only be called through `pubsetbuf()` 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_filebuf/setbuf&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 s  |  \-  |  pointer to the first `CharT` in the user-provided buffer or null   
 ---|---|---  
 n  |  \-  |  the number of `CharT` elements in the user-provided buffer or zero   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_filebuf/setbuf&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 this
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_filebuf/setbuf&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 The conditions when this function may be used and the way in which the provided buffer is used is implementation-defined. 
 
@@ -164,7 +164,7 @@ The conditions when this function may be used and the way in which the provided 
 
 The standard does not define any behavior for this function except that setbuf(0, 0) called before any I/O has taken place is required to set unbuffered output. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_filebuf/setbuf&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Provides a 10k buffer for reading. On linux, the strace utility may be used to observe the actual number of bytes read.
 
@@ -194,7 +194,7 @@ Possible output:
     
     356010
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_filebuf/setbuf&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -202,10 +202,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 173](https://cplusplus.github.io/LWG/issue173) | C++98  | the type of n was misspecified as int | corrected to [std::streamsize](../streamsize.html "cpp/io/streamsize")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_filebuf/setbuf&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ pubsetbuf](../basic_streambuf/pubsetbuf.html "cpp/io/basic streambuf/pubsetbuf") |  invokes setbuf()   
-(public member function of `std::basic_streambuf<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_streambuf/dsc_pubsetbuf&action=edit)  
+(public member function of `std::basic_streambuf<CharT,Traits>`)   
 ---|---  
 [ setvbuf](../c/setvbuf.html "cpp/io/c/setvbuf") |  sets the buffer and its size for a file stream   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_setvbuf&action=edit)
+(function) 

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Execution control library](../experimental/execution.html "cpp/execution")
 
@@ -155,7 +155,7 @@ schedule_result_t](schedule.html "cpp/execution/schedule")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/execution/navbar_content&action=edit)
+
 
 Defined in header `[<execution>](../header/execution.html "cpp/header/execution")` |  |   
 ---|---|---  
@@ -173,29 +173,29 @@ execution::sender auto when_all( execution::sender auto... inputs ); |  |  (sinc
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/execution/when_all&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 inputs  |  \-  |  senders upon which the completion of `when_all` is blocked. Can only include senders that can complete with a single set of values.   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/execution/when_all&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Returns a sender that completes once all of the input senders have completed. The values sent by this sender are the values sent by each of the input senders, in order of the arguments passed to `when_all`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/execution/when_all&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
   * The sender returned by `when_all` completes inline on the execution resource on which the last input sender completes, unless `stop` is requested before `when_all` is started, in which case it completes inline within the call to start. 
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/execution/when_all&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/execution/when_all&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ when_all](../experimental/when_all.html "cpp/experimental/when all")(concurrency TS) |  produces a future that becomes ready when all given futures or `shared_futures` are ready   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/dsc_when_all&action=edit)  
+(function template)   
 ---|---

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Library fundamentals v2](lib_extensions_2.html "cpp/experimental/lib extensions 2")
 
@@ -74,7 +74,7 @@
 [uniform container erasure](lib_extensions_2.html#Uniform_container_erasure "cpp/experimental/lib extensions 2")  
 [logical operator type traits](lib_extensions_2.html#Logical_operator_type_traits "cpp/experimental/lib extensions 2")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions_2/navbar_content&action=edit)
+
 
 **`std::experimental::source_location`**
 
@@ -88,7 +88,7 @@ Field Access
 [source_location::file_name](source_location/file_name.html "cpp/experimental/source location/file name")  
 [source_location::function_name](source_location/function_name.html "cpp/experimental/source location/function name")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/source_location/navbar_content&action=edit)
+
 
 ![](https://upload.cppreference.com/mwiki/images/3/31/Imbox_notice.png) |  **Merged into ISO C++** The functionality described on this page was merged into the mainline ISO C++ standard as of 7/2019, see [`std::source_location`](../utility/source_location.html "cpp/utility/source location") (since C++20)  
 ---|---  
@@ -110,35 +110,35 @@ The `source_location` class represents certain information about the source code
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/source_location&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 #####  Creation   
   
 ---  
 [ (constructor)](source_location/source_location.html "cpp/experimental/source location/source location") |  constructs a new `source_location` with implementation-defined values   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/source_location/dsc_constructor&action=edit)  
+(public member function)   
 [ current](source_location/current.html "cpp/experimental/source location/current")[static] |  constructs a new `source_location`   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/source_location/dsc_current&action=edit)  
+(public static member function)   
   
 #####  Other special member functions   
   
 (destructor)(implicitly declared) |  destructs a `source_location`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/source_location/dsc_destructor&action=edit)  
+(public member function)   
 operator=(implicitly declared) |  implicitly declared copy/move assignment operators   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/source_location/dsc_operator%3D&action=edit)  
+(public member function)   
   
 #####  Field access   
   
 [ line](source_location/line.html "cpp/experimental/source location/line") |  return the line number represented by this object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/source_location/dsc_line&action=edit)  
+(public member function)   
 [ column](source_location/column.html "cpp/experimental/source location/column") |  return the column number represented by this object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/source_location/dsc_column&action=edit)  
+(public member function)   
 [ file_name](source_location/file_name.html "cpp/experimental/source location/file name") |  return the file name represented by this object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/source_location/dsc_file_name&action=edit)  
+(public member function)   
 [ function_name](source_location/function_name.html "cpp/experimental/source location/function name") |  return the name of the function represented by this object, if any   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/source_location/dsc_function_name&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/source_location&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     

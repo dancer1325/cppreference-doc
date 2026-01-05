@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::forward_list`](../forward_list.html "cpp/container/forward list")
 
@@ -128,7 +128,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/forward list/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/forward_list/navbar_content&action=edit)
+
 
 template< [container-compatible-range](../../ranges/to.html)<T> R >  
 void prepend_range( R&& rg ); |  | (since C++23)   
@@ -151,24 +151,24 @@ No iterators or references are invalidated.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/prepend_range&action=edit&section=T-1 "Template:cpp/container/prepend range")] Parameters
+### Parameters
 
 rg  |  \-  |  a [container compatible range](../../ranges/to.html#container_compatible_range "cpp/ranges/to"), that is, an [`input_range`](../../ranges/input_range.html "cpp/ranges/input range") whose elements are convertible to `T`  
 ---|---|---  
 Type requirements   
 -If `T` is not [EmplaceConstructible](../../named_req/EmplaceConstructible.html "cpp/named req/EmplaceConstructible") into `forward_list` from *[ranges::begin](../../ranges/begin.html)(rg), the behavior is undefined.   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/prepend_range&action=edit&section=T-2 "Template:cpp/container/prepend range")] Complexity
+### Complexity
 
 Linear in size of rg. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/prepend_range&action=edit&section=T-3 "Template:cpp/container/prepend range")] Notes
+### Notes
 
 [Feature-test](../../utility/feature_test.html "cpp/utility/feature test") macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_containers_ranges`](../../experimental/feature_test.html#cpp_lib_containers_ranges "cpp/feature test") | [`202202L`](../../compiler_support/23.html#cpp_lib_containers_ranges_202202L "cpp/compiler support/23") | (C++23) | [Ranges-aware](../../ranges/to.html#container_compatible_range "cpp/ranges/to") construction and insertion   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/prepend_range&action=edit&section=T-4 "Template:cpp/container/prepend range")] Example
+### Example
 
 Run this code
     
@@ -191,7 +191,7 @@ Run this code
         [assert](../../error/assert.html)(std::[ranges::equal](../../algorithm/ranges/equal.html)(container, [std::forward_list](../forward_list.html){-3, -2, -1, 0, 1, 2, 3}));
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/prepend_range&action=edit&section=T-5 "Template:cpp/container/prepend range")] See also
+### See also
 
 [ insert_range](https://en.cppreference.com/mwiki/index.php?title=cpp/container/forward_list/insert_range&action=edit&redlink=1 "cpp/container/forward list/insert range \(page does not exist\)")(C++23) |  inserts a range of elements   
 (public member function)  

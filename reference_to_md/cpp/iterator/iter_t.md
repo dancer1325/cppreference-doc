@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](empty.html "cpp/iterator/empty")(C++17)  
 [data](data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 Defined in header `[<iterator>](../header/iterator.html "cpp/header/iterator")` |  |   
 ---|---|---  
@@ -256,7 +256,7 @@ Compute the associated types of an iterator.
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/iter_t&action=edit&section=1 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -268,22 +268,22 @@ of std::iter_value_t<T>& which incorrectly handled
 /*indirect-value-t*/<T>  
 to handle such cases   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/iter_t&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ indirectly_readable](indirectly_readable.html "cpp/iterator/indirectly readable")(C++20) |  specifies that a type is indirectly readable by applying operator `*`   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_indirectly_readable&action=edit)  
+(concept)   
 ---|---  
 [ weakly_incrementable](weakly_incrementable.html "cpp/iterator/weakly incrementable")(C++20) |  specifies that a [`semiregular`](../concepts/semiregular.html "cpp/concepts/semiregular") type can be incremented with pre- and post-increment operators   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_weakly_incrementable&action=edit)  
+(concept)   
 [ indirectly_readable_traits](readable_traits.html "cpp/iterator/indirectly readable traits")(C++20) |  computes the value type of an [`indirectly_readable`](indirectly_readable.html "cpp/iterator/indirectly readable") type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_indirectly_readable_traits&action=edit)  
+(class template)   
 [ incrementable_traits](incrementable_traits.html "cpp/iterator/incrementable traits")(C++20) |  computes the difference type of a [`weakly_incrementable`](weakly_incrementable.html "cpp/iterator/weakly incrementable") type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_incrementable_traits&action=edit)  
+(class template)   
 [ iterator_traits](iterator_traits.html "cpp/iterator/iterator traits") |  provides uniform interface to the properties of an iterator   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_iterator_traits&action=edit)  
+(class template)   
 [ ranges::iterator_tranges::const_iterator_tranges::sentinel_tranges::const_sentinel_t](../ranges/iterator_t.html "cpp/ranges/iterator t")(C++20)(C++23)(C++20)(C++23) |  obtains iterator and sentinel types of a range  
-(alias template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_iterator_t&action=edit)  
+(alias template)  
 [ ranges::range_reference_tranges::range_const_reference_tranges::range_rvalue_reference_tranges::range_common_reference_t](../ranges/range_reference_t.html "cpp/ranges/range reference t")(C++20)(C++23)(C++20)(C++20) |  obtains reference types of a range  
-(alias template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_range_reference_t&action=edit)  
+(alias template)  
 [ ranges::range_difference_tranges::range_size_tranges::range_value_t](../ranges/range_size_t.html "cpp/ranges/range size t")(C++20)(C++20)(C++20) |  obtains size, difference, and value types of a range  
-(alias template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_range_size_t&action=edit)
+(alias template)

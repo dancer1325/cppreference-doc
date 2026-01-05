@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header was originally in the C standard library as [`<tgmath.h>`](../../c/header/tgmath.html "c/header/tgmath"). 
 
@@ -203,9 +203,9 @@ This header is part of the [numeric](../numeric.html "cpp/numeric") library.
 ###  Includes  
   
 ---  
-[ <ccomplex>](ccomplex.html "cpp/header/ccomplex")(C++11)(deprecated in C++17)(removed in C++20) |  Simply includes the header [`<complex>`](complex.html "cpp/header/complex")[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/dsc_ccomplex&action=edit)  
-[ <cmath>](cmath.html "cpp/header/cmath")(C++11) |  [Common mathematics functions](../numeric/math.html "cpp/numeric/math")[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/dsc_cmath&action=edit)  
+[ <ccomplex>](ccomplex.html "cpp/header/ccomplex")(C++11)(deprecated in C++17)(removed in C++20) |  Simply includes the header [`<complex>`](complex.html "cpp/header/complex")  
+[ <cmath>](cmath.html "cpp/header/cmath")(C++11) |  [Common mathematics functions](../numeric/math.html "cpp/numeric/math")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/ctgmath&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 `<ctgmath>` is deprecated in C++17 and removed in C++20. Corresponding `<tgmath.h>` is still available in C++20. 

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](../language/history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [Preprocessor](../preprocessor.html "cpp/preprocessor")
 
@@ -233,7 +233,7 @@ Miscellaneous
 [#line](line.html "cpp/preprocessor/line")  
 [#embed](embed.html "cpp/preprocessor/embed")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/preprocessor/navbar_content&action=edit)
+
 
 Shows the given error message and renders the program ill-formed, or shows the given warning message without affecting the validity of the program(since C++23). 
 
@@ -249,13 +249,13 @@ Shows the given error message and renders the program ill-formed, or shows the g
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/preprocessor/error&action=edit&section=1 "Edit section: Syntax")] Syntax  
+### Syntax  
   
 ---  
 `**#error**` diagnostic-message |  (1)  |   
 `**#warning**` diagnostic-message |  (2)  |  (since C++23)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/preprocessor/error&action=edit&section=2 "Edit section: Explanation")] Explanation
+### Explanation
 
 1) After encountering the #error directive, an implementation displays the message diagnostic-message and renders the program ill-formed (the compilation stops).
 
@@ -263,11 +263,11 @@ Shows the given error message and renders the program ill-formed, or shows the g
 
 diagnostic-message can consist of several words not necessarily in quotes. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/preprocessor/error&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Before its standardization in C++23, #warning has been provided by many compilers in all modes as a conforming extension. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/preprocessor/error&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -292,7 +292,7 @@ Possible output:
     
     The implementation used is hosted
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/preprocessor/error&action=edit&section=5 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -364,7 +364,7 @@ Possible output:
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/preprocessor/error&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [C documentation](../../c/preprocessor/warning.html "c/preprocessor/error") for Diagnostic directives  
 ---

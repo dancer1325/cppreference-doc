@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -71,7 +71,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::flat_map`](../flat_map.html "cpp/container/flat map")
 
@@ -141,7 +141,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/flat map/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/flat_map/navbar_content&action=edit)
+
 
 template< class... Args >  
 [std::pair](../../utility/pair.html)<iterator, bool> try_emplace( const key_type& k, Args&&... args ); |  (1)  |  (since C++23)  
@@ -202,32 +202,32 @@ These overloads participate in overload resolution only if :
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/flat_map/try_emplace&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 k  |  \-  |  the key used both to look up and to insert if not found   
 ---|---|---  
 hint  |  \-  |  iterator to the position before which the new element will be inserted   
 args  |  \-  |  arguments to forward to the constructor of the element   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/flat_map/try_emplace&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1-3) Same as for [`emplace`](emplace.html "cpp/container/flat map/emplace").
 
 4-6) Same as for [`emplace_hint`](emplace_hint.html "cpp/container/flat map/emplace hint").
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/flat_map/try_emplace&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 1-3) Same as for [`emplace`](emplace.html "cpp/container/flat map/emplace").
 
 4-6) Same as for [`emplace_hint`](emplace_hint.html "cpp/container/flat map/emplace hint").
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/flat_map/try_emplace&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 Unlike [`insert`](insert.html "cpp/container/flat map/insert") or [`emplace`](emplace.html "cpp/container/flat map/emplace"), these functions do not move from rvalue arguments if the insertion does not happen, which makes it easy to manipulate maps whose values are move-only types, such as [std::flat_map](../flat_map.html)<[std::string](../../string/basic_string.html), [std::unique_ptr](../../memory/unique_ptr.html)<foo>>. In addition, `try_emplace` treats the key and the arguments to the `mapped_type` separately, unlike [`emplace`](emplace.html "cpp/container/flat map/emplace"), which requires the arguments to construct a `value_type` (that is, a [std::pair](../../utility/pair.html "cpp/utility/pair")). 
 
 Overloads ([3,6](try_emplace.html#Version_3)) can be called without constructing an object of type `key_type`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/flat_map/try_emplace&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -273,14 +273,14 @@ Output:
     [b] = abcd
     [c] = cccccccccc
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/flat_map/try_emplace&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ emplace](emplace.html "cpp/container/flat map/emplace") |  constructs element in-place   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_emplace&action=edit)  
+(public member function)   
 ---|---  
 [ emplace_hint](emplace_hint.html "cpp/container/flat map/emplace hint") |  constructs elements in-place using a hint   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_emplace_hint&action=edit)  
+(public member function)   
 [ insert](insert.html "cpp/container/flat map/insert") |  inserts elements   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_insert&action=edit)  
+(public member function)   
 [ insert_or_assign](insert_or_assign.html "cpp/container/flat map/insert or assign") |  inserts an element or assigns to the current element if the key already exists   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_insert_or_assign&action=edit)
+(public member function) 

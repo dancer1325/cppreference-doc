@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::view_interface`](../view_interface.html "cpp/ranges/view interface")
 
@@ -240,7 +240,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
 [back](back.html "cpp/ranges/view interface/back")  
 **operator[]**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/navbar_content&action=edit)
+
 
 template<[ranges::random_access_range](../random_access_range.html) R = D>  
 constexpr decltype(auto) operator[]( [ranges::range_difference_t](../range_size_t.html)<R> n ); |  (1)  |  (since C++20)  
@@ -265,16 +265,16 @@ The default implementation of operator[] member function obtains the element at 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/view_interface/operator_at&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 n  |  \-  |  position of the element to return   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/view_interface/operator_at&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The element at offset `n` relative to the beginning iterator. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/view_interface/operator_at&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 In C++20, no type derived from [std::ranges::view_interface](../view_interface.html "cpp/ranges/view interface") in the standard library provides their own operator[] member function. 
 
@@ -290,7 +290,7 @@ However, following derived types cannot use the default implementations, as they
 
 The inherited operator[] member function is available for [std::ranges::empty_view](../empty_view.html "cpp/ranges/empty view"), but a call to it always results in undefined behavior. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/view_interface/operator_at&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

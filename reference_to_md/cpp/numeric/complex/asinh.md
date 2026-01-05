@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [`std::complex`](../complex.html "cpp/numeric/complex")
 
@@ -164,7 +164,7 @@
 [tuple_size<std::complex>](tuple_size.html "cpp/numeric/complex/tuple size")(C++26)  
 [tuple_element<std::complex>](tuple_element.html "cpp/numeric/complex/tuple element")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/navbar_content&action=edit)
+
 
 Defined in header `[<complex>](../../header/complex.html "cpp/header/complex")` |  |   
 ---|---|---  
@@ -186,16 +186,16 @@ Computes complex arc hyperbolic sine of a complex value z with branch cuts outsi
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/asinh&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 z  |  \-  |  complex value   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/asinh&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 If no errors occur, the complex arc hyperbolic sine of z is returned, in the range of a strip mathematically unbounded along the real axis and in the interval [−iπ/2; +iπ/2] along the imaginary axis. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/asinh&action=edit&section=3 "Edit section: Error handling and special values")] Error handling and special values
+### Error handling and special values
 
 Errors are reported consistent with [math_errhandling](../math/math_errhandling.html "cpp/numeric/math/math errhandling"). 
 
@@ -216,7 +216,7 @@ If the implementation supports IEEE floating-point arithmetic,
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/asinh&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 Although the C++ standard names this function "complex arc hyperbolic sine", the inverse functions of the hyperbolic functions are the area functions. Their argument is the area of a hyperbolic sector, not an arc. The correct name is "complex inverse hyperbolic sine", and, less common, "complex area hyperbolic sine". 
 
@@ -230,7 +230,7 @@ For any z, asinh(z) = asin(iz)
 i  
 . 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/asinh&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -263,15 +263,15 @@ Output:
     asinh(1.000000,2.000000) = (1.469352,1.063440)
     asin(-2.000000,1.000000) / i = (1.469352,1.063440)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/asinh&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ acosh(std::complex)](acosh.html "cpp/numeric/complex/acosh")(C++11) |  computes area hyperbolic cosine of a complex number (\\({\small\operatorname{arcosh}{z}}\\)arcosh(z))   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_acosh&action=edit)  
+(function template)   
 ---|---  
 [ atanh(std::complex)](atanh.html "cpp/numeric/complex/atanh")(C++11) |  computes area hyperbolic tangent of a complex number (\\({\small\operatorname{artanh}{z}}\\)artanh(z))   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_atanh&action=edit)  
+(function template)   
 [ sinh(std::complex)](sinh.html "cpp/numeric/complex/sinh") |  computes hyperbolic sine of a complex number (\\({\small\sinh{z}}\\)sinh(z))   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_sinh&action=edit)  
+(function template)   
 [ asinhasinhfasinhl](../math/asinh.html "cpp/numeric/math/asinh")(C++11)(C++11)(C++11) |  computes the inverse hyperbolic sine (\\({\small\operatorname{arsinh}{x}}\\)arsinh(x))   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_asinh&action=edit)  
+(function)   
 [C documentation](../../../c/numeric/complex/casinh.html "c/numeric/complex/casinh") for casinh

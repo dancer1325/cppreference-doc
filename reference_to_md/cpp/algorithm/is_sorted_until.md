@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](ranges/copy.html "cpp/algorithm/ra
 [uninitialized_default_construct_n](../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -341,7 +341,7 @@ These overloads participate in overload resolution only if all following conditi
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/is_sorted_until&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  the pair of iterators defining the [range](../iterator.html#Ranges "cpp/iterator") of elements to examine   
 ---|---|---  
@@ -353,13 +353,13 @@ Type requirements
 -`ForwardIt` must meet the requirements of [LegacyForwardIterator](../named_req/ForwardIterator.html "cpp/named req/ForwardIterator").   
 -`Compare` must meet the requirements of [Compare](../named_req/Compare.html "cpp/named req/Compare").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/is_sorted_until&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The upper bound of the largest range beginning at first in which the elements are sorted in ascending order. That is, the last iterator it for which range `[`first`, `it`)` is sorted. 
 
 Returns last for empty ranges and ranges of length one. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/is_sorted_until&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Given \\(\scriptsize N\\)N as [std::distance](../iterator/distance.html)(first, last): 
 
@@ -367,7 +367,7 @@ Given \\(\scriptsize N\\)N as [std::distance](../iterator/distance.html)(first, 
 
 3,4) \\(\scriptsize O(N)\\)O(N) applications of the comparator comp.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/is_sorted_until&action=edit&section=4 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 The overloads with a template parameter named `ExecutionPolicy` report errors as follows: 
 
@@ -376,7 +376,7 @@ The overloads with a template parameter named `ExecutionPolicy` report errors as
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/is_sorted_until&action=edit&section=5 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
 
 See also the implementations in [libstdc++](https://github.com/gcc-mirror/gcc/blob/d9375e490072d1aae73a93949aa158fcd2a27018/libstdc%2B%2B-v3/include/bits/stl_algo.h#L3211) and [libc++](https://github.com/llvm-mirror/libcxx/blob/a12cb9d211019d99b5875b6d8034617cbc24c2cc/include/algorithm#L3614). 
 
@@ -411,7 +411,7 @@ See also the implementations in [libstdc++](https://github.com/gcc-mirror/gcc/bl
         return last;
     }  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/is_sorted_until&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -464,10 +464,10 @@ Possible output:
     1 1 4 9 5 3 : 4 initial sorted elements
     ^^^^^^^
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/is_sorted_until&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ is_sorted](is_sorted.html "cpp/algorithm/is sorted")(C++11) |  checks whether a range is sorted into ascending order   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_is_sorted&action=edit)  
+(function template)   
 ---|---  
 [ ranges::is_sorted_until](ranges/is_sorted_until.html "cpp/algorithm/ranges/is sorted until")(C++20) |  finds the largest sorted subrange  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_is_sorted_until&action=edit)
+(algorithm function object)

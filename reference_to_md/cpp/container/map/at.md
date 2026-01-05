@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 `[std::map](../map.html "cpp/container/map")`
 
@@ -138,7 +138,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/map/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/map/navbar_content&action=edit)
+
 
 T& at( const Key& key ); |  (1)  |   
 ---|---|---  
@@ -173,23 +173,23 @@ These overloads participate in overload resolution only if `Compare` is [transpa
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/at_assoc&action=edit&section=T-1 "Template:cpp/container/at assoc")] Parameters
+### Parameters
 
 key  |  \-  |  the key of the element to find   
 ---|---|---  
 x  |  \-  |  a value of any type that can be transparently compared with a key   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/at_assoc&action=edit&section=T-2 "Template:cpp/container/at assoc")] Return value
+### Return value
 
 A reference to the mapped value of the requested element. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/at_assoc&action=edit&section=T-3 "Template:cpp/container/at assoc")] Exceptions
+### Exceptions
 
 1,2) [std::out_of_range](../../error/out_of_range.html "cpp/error/out of range") if the container does not have an element with the specified key.
 
 3,4) [std::out_of_range](../../error/out_of_range.html "cpp/error/out of range") if the container does not have the specified element, that is, if find(x) == end() is true.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/at_assoc&action=edit&section=T-4 "Template:cpp/container/at assoc")] Complexity
+### Complexity
 
 Logarithmic in the size of the container. 
 
@@ -199,7 +199,7 @@ Logarithmic in the size of the container.
 ---|---|---|---  
 [`__cpp_lib_associative_heterogeneous_insertion`](../../experimental/feature_test.html#cpp_lib_associative_heterogeneous_insertion "cpp/feature test") | [`202311L`](../../compiler_support/26.html#cpp_lib_associative_heterogeneous_insertion_202311L "cpp/compiler support/26") | (C++26) | Heterogeneous overloads for the remaining member functions in [ordered](../../container.html#Associative_containers "cpp/container") and [unordered](../../container.html#Unordered_associative_containers "cpp/container") associative [containers](../../container.html "cpp/container"). ([3,4](at.html#Version_3))  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/at_assoc&action=edit&section=T-6 "Template:cpp/container/at assoc")] Example
+### Example
 
 Run this code
     
@@ -264,12 +264,12 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [LWG 703](https://cplusplus.github.io/LWG/issue703) | C++98  | the complexity requirement was missing  | added   
 [LWG 2007](https://cplusplus.github.io/LWG/issue2007) | C++98  | the return value referred to the requested element  | refers to its mapped value   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/at_assoc&action=edit&section=T-8 "Template:cpp/container/at assoc")] See also
+### See also
 
 [ operator[]](operator_at.html "cpp/container/map/operator at") |  access or insert specified element   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_operator_at&action=edit)  
+(public member function)   
 ---|---  
 [ find](find.html "cpp/container/map/find") |  finds element with specific key   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_find&action=edit)
+(public member function) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

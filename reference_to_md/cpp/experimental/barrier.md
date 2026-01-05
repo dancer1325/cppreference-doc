@@ -33,7 +33,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../experimental.html "cpp/experimental")
 
@@ -58,7 +58,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Extensions for concurrency](concurrency.html "cpp/experimental/concurrency")
 
@@ -78,7 +78,7 @@ Atomic smart pointers
 [experimental::atomic_shared_ptr](atomic_shared_ptr.html "cpp/experimental/atomic shared ptr")  
 [experimental::atomic_weak_ptr](atomic_weak_ptr.html "cpp/experimental/atomic weak ptr")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/concurrency/navbar_content&action=edit)
+
 
 **`std::experimental::barrier`**
 
@@ -88,7 +88,7 @@ Atomic smart pointers
 [barrier::arrive_and_wait](barrier/arrive_and_wait.html "cpp/experimental/barrier/arrive and wait")  
 [barrier::arrive_and_drop](barrier/arrive_and_drop.html "cpp/experimental/barrier/arrive and drop")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/concurrency/barrier/navbar_content&action=edit)
+
 
 Defined in header `[<experimental/barrier>](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/barrier&action=edit&redlink=1 "cpp/header/experimental/barrier \(page does not exist\)")` |  |   
 ---|---|---  
@@ -103,16 +103,16 @@ For `std::experimental::barrier`, the completion phase is empty. std::experiment
 
 The set of participating threads for a `barrier` constructed for `num_threads` threads is the first `num_threads` threads to arrive at its synchronization point after construction. The same set of threads (except for threads that called [`arrive_and_drop()`](barrier/arrive_and_drop.html "cpp/experimental/barrier/arrive and drop")) must arrive at the `barrier` each cycle. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/barrier&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](barrier/barrier.html "cpp/experimental/barrier/barrier") |  constructs a `barrier`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/barrier/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ (destructor)](barrier/~barrier.html "cpp/experimental/barrier/~barrier") |  destroys the barrier   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/barrier/dsc_destructor&action=edit)  
+(public member function)   
 operator=[deleted] |  not copy-assignable   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/barrier/dsc_operator%3D&action=edit)  
+(public member function)   
 [ arrive_and_wait](barrier/arrive_and_wait.html "cpp/experimental/barrier/arrive and wait") |  arrive at the synchronization point and block   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/barrier/dsc_arrive_and_wait&action=edit)  
+(public member function)   
 [ arrive_and_drop](barrier/arrive_and_drop.html "cpp/experimental/barrier/arrive and drop") |  arrive at the synchronization point and remove the current thread from the set of participating threads   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/barrier/dsc_arrive_and_drop&action=edit)
+(public member function) 

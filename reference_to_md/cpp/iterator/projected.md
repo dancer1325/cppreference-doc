@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](empty.html "cpp/iterator/empty")(C++17)  
 [data](data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 Defined in header `[<iterator>](../header/iterator.html "cpp/header/iterator")` |  |   
 ---|---|---  
@@ -253,17 +253,17 @@ For the exposition-only nested class /*type*/, the nested type `difference_type`
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/projected&action=edit&section=1 "Edit section: Template parameters")] Template parameters
+### Template parameters
 
 I  |  \-  |  an indirectly readable type   
 ---|---|---  
 Proj  |  \-  |  projection applied to a dereferenced `I`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/projected&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 The indirect layer prevents `I` and `Proj` to be associated classes of `projected`. When an associated class of `I` or `Proj` is an incomplete class type, the indirect layer avoids the unnecessary attempt to inspect the definition of that type that results in hard error. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/projected&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -294,8 +294,8 @@ Run this code
         [assert](../error/assert.html)(std::[ranges::count](../algorithm/ranges/count.html)(a, a + 10, nullptr) == 10); // Error before C++26
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/projected&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ projected_value_t](projected_value_t.html "cpp/iterator/projected value t")(C++26) |  computes the value type of an [`indirectly_readable`](indirectly_readable.html "cpp/iterator/indirectly readable") type by projection  
-(alias template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_projected_value_t&action=edit)  
+(alias template)  
 ---|---

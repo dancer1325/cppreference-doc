@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -103,7 +103,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::year_month_day`](../year_month_day.html "cpp/chrono/year month day")
 
@@ -123,7 +123,7 @@ Helper classes
 [formatter<std::chrono::year_month_day>](formatter.html "cpp/chrono/year month day/formatter")  
 [hash<std::chrono::year_month_day>](hash.html "cpp/chrono/year month day/hash")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/year_month_day/navbar_content&action=edit)
+
 
 Defined in header `[<chrono>](../../header/chrono.html "cpp/header/chrono")` |  |   
 ---|---|---  
@@ -151,7 +151,7 @@ If the format specifier `%Z` is used and successfully parsed, the parsed value i
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/calendar_from_stream&action=edit&section=T-1 "Template:cpp/chrono/calendar from stream")] Parameters
+### Parameters
 
 is  |  \-  |  an input stream   
 ---|---|---  
@@ -160,7 +160,7 @@ ymd  |  \-  |  object to hold the parse result
 abbrev  |  \-  |  if not null, pointer to an object that will hold the time zone abbreviation or name corresponding to the `%Z` specifier   
 offset  |  \-  |  if not null, pointer to an object that will hold the offset from UTC corresponding to the `%z` specifier   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/calendar_from_stream&action=edit&section=T-2 "Template:cpp/chrono/calendar from stream")] Format string
+### Format string
 
 The format string consists of zero or more conversion specifiers and ordinary characters. Each ordinary character, excluding whitespace characters and the terminating null character, matches one identical character from the input stream, or causes the function to fail if the next character on the stream does not compare equal. 
 
@@ -268,12 +268,12 @@ Miscellaneous
 `%Oz` |  Parses the offset from UTC in the format `[+|-]hh[mm]`. For example `-0430` refers to 4 hours 30 minutes behind UTC and `04` refers to 4 hours ahead of UTC. The modified commands `%Ez` and `%Oz` parses the format `[+|-]h[h][:mm]` (i.e., requiring a `:` between the hours and minutes and making the leading zero for hour optional).   
 `%Z` |  Parses the time zone abbreviation or name, taken as the longest sequence of characters that only contains the characters `A` through `Z`, `a` through `z`, `0` through `9`, `-`, `+`, `_`, and `/`.   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/calendar_from_stream&action=edit&section=T-3 "Template:cpp/chrono/calendar from stream")] Return value
+### Return value
 
 is
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/calendar_from_stream&action=edit&section=T-4 "Template:cpp/chrono/calendar from stream")] See also
+### See also
 
 [ parse](../parse.html "cpp/chrono/parse")(C++20) |  parses a `chrono` object from a stream   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_parse&action=edit)  
+(function template)   
 ---|---

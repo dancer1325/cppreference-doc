@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 Defined in header `[<atomic>](../header/atomic.html "cpp/header/atomic")` |  |   
 ---|---|---  
@@ -234,7 +234,7 @@ The default behavior of all atomic operations in the library provides for _seque
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/memory_order&action=edit&section=1 "Edit section: Constants")] Constants
+### Constants
 
 Defined in header `[<atomic>](../header/atomic.html "cpp/header/atomic")`  
 ---  
@@ -247,11 +247,11 @@ Name  |  Meaning
 `memory_order_acq_rel` |  A read-modify-write operation with this memory order is both an _acquire operation_ and a _release operation_. No memory reads or writes in the current thread can be reordered before the load, nor after the store. All writes in other threads that release the same atomic variable are visible before the modification and the modification is visible in other threads that acquire the same atomic variable.   
 `memory_order_seq_cst` |  A load operation with this memory order performs an _acquire operation_ , a store performs a _release operation_ , and read-modify-write performs both an _acquire operation_ and a _release operation_ , plus a single total order exists in which all threads observe all modifications in the same order (see [Sequentially-consistent ordering](memory_order.html#Sequentially-consistent_ordering) below).   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/memory_order&action=edit&section=2 "Edit section: Formal description")] Formal description
+### Formal description
 
 Inter-thread synchronization and memory ordering determine how _evaluations_ and _side effects_ of expressions are ordered between different threads of execution. They are defined in the following terms: 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/memory_order&action=edit&section=3 "Edit section: Sequenced-before")] Sequenced-before
+#### Sequenced-before
 
 Within the same thread, evaluation A may be _sequenced-before_ evaluation B, as described in [evaluation order](../language/eval_order.html "cpp/language/eval order"). 
 
@@ -260,7 +260,7 @@ Within the same thread, evaluation A may be _sequenced-before_ evaluation B, as 
 Within the same thread, evaluation A that is _sequenced-before_ evaluation B may also carry a dependency into B (that is, B depends on A), if any of the following is true:  1) The value of A is used as an operand of B, **except** a) if B is a call to [std::kill_dependency](kill_dependency.html "cpp/atomic/kill dependency"), b) if A is the left operand of the built-in &&, ||, ?:, or , operators. 2) A writes to a scalar object M, B reads from M. 3) A carries dependency into another evaluation X, and X carries dependency into B. | (until C++26)  
 ---|---  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/memory_order&action=edit&section=5 "Edit section: Modification order")] Modification order
+#### Modification order
 
 All modifications to any particular atomic variable occur in a total order that is specific to this one atomic variable. 
 
@@ -274,7 +274,7 @@ The following four requirements are guaranteed for all atomic operations:
 
 4) **Write-read coherence** : if a side effect (a write) X on an atomic object M _happens-before_ a value computation (a read) B of M, then the evaluation B shall take its value from X or from a side effect Y that follows X in the modification order of M.
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/memory_order&action=edit&section=6 "Edit section: Release sequence")] Release sequence
+#### Release sequence
 
 After a _release operation_ A is performed on an atomic object M, the longest continuous subsequence of the modification order of M that consists of: 
 
@@ -285,7 +285,7 @@ After a _release operation_ A is performed on an atomic object M, the longest co
 
 Is known as _release sequence headed by A_. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/memory_order&action=edit&section=7 "Edit section: Synchronizes with")] Synchronizes with
+#### Synchronizes with
 
 If an atomic store in thread A is a _release operation_ , an atomic load in thread B from the same variable is an _acquire operation_ , and the load in thread B reads a value written by the store in thread A, then the store in thread A _synchronizes-with_ the load in thread B. 
 
@@ -296,7 +296,7 @@ Also, some library calls may be defined to _synchronize-with_ other library call
 Between threads, evaluation A is _dependency-ordered before_ evaluation B if any of the following is true:  1) A performs a _release operation_ on some atomic M, and, in a different thread, B performs a _consume operation_ on the same atomic M, and B reads a value written by any part of the release sequence headed(until C++20) by A. 2) A is dependency-ordered before X and X carries a dependency into B. | (until C++26)  
 ---|---  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/memory_order&action=edit&section=9 "Edit section: Inter-thread happens-before")] Inter-thread happens-before
+#### Inter-thread happens-before
 
 Between threads, evaluation A _inter-thread happens before_ evaluation B if any of the following is true: 
 
@@ -327,7 +327,7 @@ Regardless of threads, evaluation A _simply happens-before_ evaluation B if any 
 
 Regardless of threads, evaluation A _happens-before_ evaluation B if any of the following is true:  1) A is _sequenced-before_ B. 2) A _synchronizes-with_ B. 3) A _happens-before_ X, and X _happens-before_ B.  | (since C++26)  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/memory_order&action=edit&section=13 "Edit section: Strongly happens-before")] Strongly happens-before
+#### Strongly happens-before
 
 Regardless of threads, evaluation A _strongly happens-before_ evaluation B if any of the following is true: 
 
@@ -337,7 +337,7 @@ Regardless of threads, evaluation A _strongly happens-before_ evaluation B if an
 ---|---  
 (since C++20)  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/memory_order&action=edit&section=14 "Edit section: Visible side-effects")] Visible side-effects
+#### Visible side-effects
 
 The side-effect A on a scalar M (a write) is _visible_ with respect to value computation B on M (a read) if both of the following are true: 
 
@@ -349,21 +349,21 @@ If side-effect A is visible with respect to the value computation B, then the lo
 
 Note: inter-thread synchronization boils down to preventing data races (by establishing happens-before relationships) and defining which side effects become visible under what conditions. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/memory_order&action=edit&section=15 "Edit section: Consume operation")] Consume operation
+#### Consume operation
 
 Atomic load with `memory_order_consume` or stronger is a consume operation. Note that [std::atomic_thread_fence](atomic_thread_fence.html "cpp/atomic/atomic thread fence") imposes stronger synchronization requirements than a consume operation. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/memory_order&action=edit&section=16 "Edit section: Acquire operation")] Acquire operation
+#### Acquire operation
 
 Atomic load with `memory_order_acquire` or stronger is an acquire operation. The `lock()` operation on a [Mutex](../named_req/Mutex.html "cpp/named req/Mutex") is also an acquire operation. Note that [std::atomic_thread_fence](atomic_thread_fence.html "cpp/atomic/atomic thread fence") imposes stronger synchronization requirements than an acquire operation. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/memory_order&action=edit&section=17 "Edit section: Release operation")] Release operation
+#### Release operation
 
 Atomic store with `memory_order_release` or stronger is a release operation. The `unlock()` operation on a [Mutex](../named_req/Mutex.html "cpp/named req/Mutex") is also a release operation. Note that [std::atomic_thread_fence](atomic_thread_fence.html "cpp/atomic/atomic thread fence") imposes stronger synchronization requirements than a release operation. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/memory_order&action=edit&section=18 "Edit section: Explanation")] Explanation
+### Explanation
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/memory_order&action=edit&section=19 "Edit section: Relaxed ordering")] Relaxed ordering
+#### Relaxed ordering
 
 Atomic operations tagged memory_order_relaxed are not synchronization operations; they do not impose an order among concurrent memory accesses. They only guarantee atomicity and modification order consistency. 
 
@@ -427,7 +427,7 @@ Output:
     
     Final counter value is 10000
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/memory_order&action=edit&section=20 "Edit section: Release-Acquire ordering")] Release-Acquire ordering
+#### Release-Acquire ordering
 
 If an atomic store in thread A is tagged memory_order_release, an atomic load in thread B from the same variable is tagged memory_order_acquire, and the load in thread B reads a value written by the store in thread A, then the store in thread A _synchronizes-with_ the load in thread B. 
 
@@ -519,7 +519,7 @@ Run this code
         a.join(); b.join(); c.join();
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/memory_order&action=edit&section=21 "Edit section: Release-Consume ordering")] Release-Consume ordering
+#### Release-Consume ordering
 
 If an atomic store in thread A is tagged memory_order_release, an atomic load in thread B from the same variable is tagged memory_order_consume, and the load in thread B reads a value written by the store in thread A, then the store in thread A is _dependency-ordered before_ the load in thread B. All memory writes (non-atomic and relaxed atomic) that _happened-before_ the atomic store from the point of view of thread A, become _visible side-effects_ within those operations in thread B into which the load operation _carries dependency_ , that is, once the atomic load is completed, those operators and functions in thread B that use the value obtained from the load are guaranteed to see what thread A wrote to memory. The synchronization is established only between the threads _releasing_ and _consuming_ the same atomic variable. Other threads can see different order of memory accesses than either or both of the synchronized threads. On all mainstream CPUs other than DEC Alpha, dependency ordering is automatic, no additional CPU instructions are issued for this synchronization mode, only certain compiler optimizations are affected (e.g. the compiler is prohibited from performing speculative loads on the objects that are involved in the dependency chain). Typical use cases for this ordering involve read access to rarely written concurrent data structures (routing tables, configuration, security policies, firewall rules, etc) and publisher-subscriber situations with pointer-mediated publication, that is, when the producer publishes a pointer through which the consumer can access information: there is no need to make everything else the producer wrote to memory visible to the consumer (which may be an expensive operation on weakly-ordered architectures). An example of such scenario is [`rcu_dereference`](https://en.wikipedia.org/wiki/Read-copy-update "enwiki:Read-copy-update").  See also [std::kill_dependency](kill_dependency.html "cpp/atomic/kill dependency") and `[[[carries_dependency](../language/attributes/carries_dependency.html "cpp/language/attributes/carries dependency")]]` for fine-grained dependency chain control. Note that currently (2/2015) no known production compilers track dependency chains: consume operations are lifted to acquire operations.  | (until C++26)  
 ---|---  
@@ -567,7 +567,7 @@ Run this code
   
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/memory_order&action=edit&section=22 "Edit section: Sequentially-consistent ordering")] Sequentially-consistent ordering
+#### Sequentially-consistent ordering
 
 Atomic operations tagged memory_order_seq_cst not only order memory the same way as release/acquire ordering (everything that _happened-before_ a store in one thread becomes a _visible side effect_ in the thread that did a load), but also establish a _single total modification order_ of all atomic operations that are so tagged. 
 
@@ -663,7 +663,7 @@ Run this code
         [assert](../error/assert.html)(z.load() != 0); // will never happen
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/memory_order&action=edit&section=23 "Edit section: Relationship with volatile")] Relationship with volatile
+### Relationship with volatile
 
 Within a thread of execution, accesses (reads and writes) through [volatile glvalues](../language/cv.html "cpp/language/cv") cannot be reordered past observable side-effects (including other volatile accesses) that are _sequenced-before_ or _sequenced-after_ within the same thread, but this order is not guaranteed to be observed by another thread, since volatile access does not establish inter-thread synchronization. 
 
@@ -671,12 +671,12 @@ In addition, volatile accesses are not atomic (concurrent read and write is a [d
 
 One notable exception is Visual Studio, where, with default settings, every volatile write has release semantics and every volatile read has acquire semantics ([Microsoft Docs](https://learn.microsoft.com/en-us/cpp/cpp/volatile-cpp)), and thus volatiles may be used for inter-thread synchronization. Standard volatile semantics are not applicable to multi-threaded programming, although they are sufficient for e.g. communication with a [std::signal](../utility/program/signal.html "cpp/utility/program/signal") handler that runs in the same thread when applied to sig_atomic_t variables. The compiler option `/volatile:iso` can be used to restore behavior consistent with the standard, which is the default setting when the target platform is ARM. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/memory_order&action=edit&section=24 "Edit section: See also")] See also
+### See also
 
 [C documentation](../../c/atomic/memory_order.html "c/atomic/memory order") for memory order  
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/memory_order&action=edit&section=25 "Edit section: External links")] External links
+### External links
 
 1\.  | [MOESI protocol](https://en.wikipedia.org/wiki/MOESI_protocol "enwiki:MOESI protocol")  
 ---|---  

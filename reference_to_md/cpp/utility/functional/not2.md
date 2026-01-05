@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Function objects](../../functional.html "cpp/utility/functional")
 
@@ -255,7 +255,7 @@ Identity function object
 [unary_negate](unary_negate.html "cpp/utility/functional/unary negate")(until C++20*)  
 [binary_negate](binary_negate.html "cpp/utility/functional/binary negate")(until C++20*)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/navbar_content&action=edit)
+
 
 Defined in header `[<functional>](../../header/functional.html "cpp/header/functional")` |  |   
 ---|---|---  
@@ -282,20 +282,20 @@ The binary predicate type must define two member types, `first_argument_type` an
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/not2&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 pred  |  \-  |  binary predicate   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/not2&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 `std::not2` returns an object of type [std::binary_negate](binary_negate.html)<Predicate>, constructed with pred. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/not2&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/not2&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -377,20 +377,20 @@ Output:
     1 1 false
     2 0 true
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/not2&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ not_fn](not_fn.html "cpp/utility/functional/not fn")(C++17) |  creates a function object that returns the complement of the result of the function object it holds   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_not_fn&action=edit)  
+(function template)   
 ---|---  
 [ binary_negate](binary_negate.html "cpp/utility/functional/binary negate")(deprecated in C++17)(removed in C++20) |  wrapper function object returning the complement of the binary predicate it holds   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_binary_negate&action=edit)  
+(class template)   
 [ function](function.html "cpp/utility/functional/function")(C++11) |  copyable wrapper of any copy constructible callable object   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_function&action=edit)  
+(class template)   
 [ move_only_function](move_only_function.html "cpp/utility/functional/move only function")(C++23) |  move-only wrapper of any callable object that supports qualifiers in a given call signature   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_move_only_function&action=edit)  
+(class template)   
 [ not1](not1.html "cpp/utility/functional/not1")(deprecated in C++17)(removed in C++20) |  constructs custom [std::unary_negate](unary_negate.html "cpp/utility/functional/unary negate") object   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_not1&action=edit)  
+(function template)   
 [ ptr_fun](ptr_fun.html "cpp/utility/functional/ptr fun")(deprecated in C++11)(removed in C++17) |  creates an adaptor-compatible function object wrapper from a pointer to function   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_ptr_fun&action=edit)  
+(function template)   
 [ binary_function](binary_function.html "cpp/utility/functional/binary function")(deprecated in C++11)(removed in C++17) |  adaptor-compatible binary function base class   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_binary_function&action=edit)
+(class template) 

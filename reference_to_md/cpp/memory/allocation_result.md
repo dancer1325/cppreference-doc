@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 Defined in header `[<memory>](../header/memory.html "cpp/header/memory")` |  |   
 ---|---|---  
@@ -207,13 +207,13 @@ Every specialization of `allocation_result` has no base classes or declared memb
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/allocation_result&action=edit&section=1 "Edit section: Template parameters")] Template parameters
+### Template parameters
 
 Pointer  |  \-  |  typically [std::allocator_traits](allocator_traits.html)<Alloc>::pointer, where `Alloc` is an [Allocator](../named_req/Allocator.html "cpp/named req/Allocator") type   
 ---|---|---  
 SizeType  |  \-  |  typically [std::allocator_traits](allocator_traits.html)<Alloc>::size_type, where `Alloc` is an [Allocator](../named_req/Allocator.html "cpp/named req/Allocator") type   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/allocation_result&action=edit&section=2 "Edit section: Data members")] Data members
+### Data members
 
 Member name  |  Definition   
 ---|---  
@@ -222,7 +222,7 @@ ptr |  a pointer of type `Pointer` which is typically used for the address of th
 count |  a value of type `SizeType` which is typically used for the actual number of elements in the storage allocated by `allocate_at_least`   
 (public member object)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/allocation_result&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 `Pointer` and `SizeType` are a pointer to an object type and [std::make_unsigned_t](../types/make_unsigned.html)<[std::ptrdiff_t](../types/ptrdiff_t.html)> (which is almost always same as [std::size_t](../types/size_t.html "cpp/types/size t")) by default. 
 
@@ -230,18 +230,18 @@ count |  a value of type `SizeType` which is typically used for the actual numbe
 ---|---|---|---  
 [`__cpp_lib_allocate_at_least`](../experimental/feature_test.html#cpp_lib_allocate_at_least "cpp/feature test") | [`202302L`](../compiler_support/23.html#cpp_lib_allocate_at_least_202302L "cpp/compiler support/23") | (C++23) | Size-feedback in the Allocator interface   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/allocation_result&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/allocation_result&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ allocate_at_least](allocator/allocate_at_least.html "cpp/memory/allocator/allocate at least")(C++23) |  allocates uninitialized storage at least as large as requested size   
-(public member function of `std::allocator<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/allocator/dsc_allocate_at_least&action=edit)  
+(public member function of `std::allocator<T>`)   
 ---|---  
 [ allocate_at_least](allocator_traits/allocate_at_least.html "cpp/memory/allocator traits/allocate at least")[static] (C++23) |  allocates storage at least as large as the requested size via an allocator   
-(public static member function of `std::allocator_traits<Alloc>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/allocator_traits/dsc_allocate_at_least&action=edit)
+(public static member function of `std::allocator_traits<Alloc>`) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

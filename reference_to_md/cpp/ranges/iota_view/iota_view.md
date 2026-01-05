@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::iota_view`](../iota_view.html "cpp/ranges/iota view")
 
@@ -268,7 +268,7 @@ operator<=>(iota_view::_iterator_)](iterator.html#Non-member_functions "cpp/rang
 [operator==(iota_view::_iterator_ ,iota_view::_sentinel_)](sentinel.html#Non-member_functions "cpp/ranges/iota view/sentinel")  
 [operator-(iota_view::_iterator_ ,iota_view::_sentinel_)](sentinel.html#Non-member_functions "cpp/ranges/iota view/sentinel")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/iota_view/navbar_content&action=edit)
+
 
 iota_view() requires [std::default_initializable](../../concepts/default_initializable.html)<W> = default; |  (1)  |  (since C++20)  
 ---|---|---  
@@ -308,7 +308,7 @@ The type of last and the method of initializing `_[bound_](../iota_view.html#bou
 [std::unreachable_sentinel_t](../../iterator/unreachable_sentinel_t.html "cpp/iterator/unreachable sentinel t") | `Bound` | initialized with last  
 any other type  | [`_sentinel_`](sentinel.html "cpp/ranges/iota view/sentinel") | initialized with last.`_[bound_](sentinel.html#bound "cpp/ranges/iota view/sentinel")_`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/iota_view/iota_view&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 value  |  \-  |  the starting value   
 ---|---|---  
@@ -316,7 +316,7 @@ bound  |  \-  |  the bound
 first  |  \-  |  the iterator denoting the starting value   
 last  |  \-  |  the iterator or sentinel denoting the bound   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/iota_view/iota_view&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -371,7 +371,7 @@ Output:
     4) 1 2 3 4
     5) 1 2 3
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/iota_view/iota_view&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

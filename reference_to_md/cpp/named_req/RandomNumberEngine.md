@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ named requirements](../iterator/concepts.html "cpp/named req")
 
@@ -147,13 +147,13 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/named_req/navbar_content&action=edit)
+
 
 A random number engine is a function object returning unsigned integer values such that each value in the range of possible results has (ideally) equal probability. 
 
 Any random number engine is also a [UniformRandomBitGenerator](UniformRandomBitGenerator.html "cpp/named req/UniformRandomBitGenerator"), and therefore may be plugged into any [random number distribution](../numeric/random.html "cpp/numeric/random") in order to obtain a random number (formally, a random variate). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/RandomNumberEngine&action=edit&section=1 "Edit section: Requirements")] Requirements
+### Requirements
 
 A type satisfies RandomNumberEngine if it satisfies [UniformRandomBitGenerator](UniformRandomBitGenerator.html "cpp/named req/UniformRandomBitGenerator") and, given the following types and values, the semantic and complexity requirements in the table below are satisfied: 
 
@@ -197,28 +197,28 @@ is >> v | decltype(is)& | With fmtflags set to [std::ios_base::dec](../io/ios_ba
 
 Postcondition: is's fmtflags are the same as before. | \\(\scriptsize O(n)\\)O(n)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/RandomNumberEngine&action=edit&section=2 "Edit section: Standard library")] Standard library
+### Standard library
 
 The following standard library facilities satisfy RandomNumberEngine: 
 
 [ linear_congruential_engine](../numeric/random/linear_congruential_engine.html "cpp/numeric/random/linear congruential engine")(C++11) |  implements [linear congruential](https://en.wikipedia.org/wiki/Linear_congruential_generator "enwiki:Linear congruential generator") algorithm   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/dsc_linear_congruential_engine&action=edit)  
+(class template)   
 ---|---  
 [ mersenne_twister_engine](../numeric/random/mersenne_twister_engine.html "cpp/numeric/random/mersenne twister engine")(C++11) |  implements [Mersenne twister](https://en.wikipedia.org/wiki/Mersenne_twister "enwiki:Mersenne twister") algorithm   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/dsc_mersenne_twister_engine&action=edit)  
+(class template)   
 [ subtract_with_carry_engine](../numeric/random/subtract_with_carry_engine.html "cpp/numeric/random/subtract with carry engine")(C++11) |  implements a subtract-with-carry ([lagged Fibonacci](https://en.wikipedia.org/wiki/Lagged_Fibonacci_generator "enwiki:Lagged Fibonacci generator")) algorithm   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/dsc_subtract_with_carry_engine&action=edit)  
+(class template)   
 [ philox_engine](../numeric/random/philox_engine.html "cpp/numeric/random/philox engine")(C++26) |  a counter-based parallelizable generator   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/dsc_philox_engine&action=edit)  
+(class template)   
 [ discard_block_engine](../numeric/random/discard_block_engine.html "cpp/numeric/random/discard block engine")(C++11) |  discards some output of a random number engine   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/dsc_discard_block_engine&action=edit)  
+(class template)   
 [ independent_bits_engine](../numeric/random/independent_bits_engine.html "cpp/numeric/random/independent bits engine")(C++11) |  packs the output of a random number engine into blocks of a specified number of bits   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/dsc_independent_bits_engine&action=edit)  
+(class template)   
 [ shuffle_order_engine](../numeric/random/shuffle_order_engine.html "cpp/numeric/random/shuffle order engine")(C++11) |  delivers the output of a random number engine in a different order   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/dsc_shuffle_order_engine&action=edit)  
+(class template)   
   
 The following standard library facilities satisfy [UniformRandomBitGenerator](UniformRandomBitGenerator.html "cpp/named req/UniformRandomBitGenerator") but not RandomNumberEngine: 
 
 [ random_device](../numeric/random/random_device.html "cpp/numeric/random/random device")(C++11) |  non-deterministic random number generator using hardware entropy source   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/dsc_random_device&action=edit)  
+(class)   
 ---|---

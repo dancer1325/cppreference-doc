@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::enumerate_view`](../enumerate_view.html "cpp/ranges/enumerate view")
 
@@ -261,7 +261,7 @@ operator-(enumerate_view::_iterator_)](iterator/operator_arith2.html "cpp/ranges
 [operator==(enumerate_view::_iterator_ ,enumerate_view::_sentinel_)](sentinel/operator_cmp.html "cpp/ranges/enumerate view/sentinel/operator cmp")  
 [operator-(enumerate_view::_iterator_ ,enumerate_view::_sentinel_)](sentinel/operator-.html "cpp/ranges/enumerate view/sentinel/operator-")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/enumerate_view/navbar_content&action=edit)
+
 
 constexpr auto reserve_hint()  
 requires ranges::approximately_sized_range<V> |  (1)  |  (since C++26)  
@@ -282,26 +282,26 @@ Equivalent to return ranges::reserve_hint(`_[base_](../enumerate_view.html#base 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/reserve_hint&action=edit&section=T-1 "Template:cpp/ranges/reserve hint")] Return value
+### Return value
 
 The approximate size of the resulting range. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/reserve_hint&action=edit&section=T-2 "Template:cpp/ranges/reserve hint")] Notes
+### Notes
 
 [Feature-test](../../utility/feature_test.html "cpp/utility/feature test") macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_ranges_reserve_hint`](../../experimental/feature_test.html#cpp_lib_ranges_reserve_hint "cpp/feature test") | [`202502L`](../../compiler_support/26.html#cpp_lib_ranges_reserve_hint_202502L "cpp/compiler support/26") | (C++26) | ranges::approximately_sized_range and `reserve_hint` (1,2)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/reserve_hint&action=edit&section=T-3 "Template:cpp/ranges/reserve hint")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/reserve_hint&action=edit&section=T-4 "Template:cpp/ranges/reserve hint")] See also
+### See also
 
 [ size](size.html "cpp/ranges/enumerate view/size") |  returns the number of elements, provided only if the underlying (adapted) range satisfies [`sized_range`](../sized_range.html "cpp/ranges/sized range")   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/dsc_size&action=edit)  
+(public member function)   
 ---|---
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

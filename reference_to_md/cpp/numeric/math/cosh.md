@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [Common mathematical functions](../math.html "cpp/numeric/math")
 
@@ -230,7 +230,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/navbar_content&action=edit)
+
 
 Defined in header `[<cmath>](../../header/cmath.html "cpp/header/cmath")` |  |   
 ---|---|---  
@@ -280,12 +280,12 @@ A) Additional overloads are provided for all integer types, which are treated as
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/cosh&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 num  |  \-  |  floating-point or integer value   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/cosh&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 If no errors occur, the hyperbolic cosine of num (cosh(num), or enum  
 +e-num  
@@ -296,7 +296,7 @@ If no errors occur, the hyperbolic cosine of num (cosh(num), or enum
 
 If a range error due to overflow occurs, [+HUGE_VAL](HUGE_VALL.html "cpp/numeric/math/HUGE VAL"), `+HUGE_VALF`, or `+HUGE_VALL` is returned. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/cosh&action=edit&section=3 "Edit section: Error handling")] Error handling
+### Error handling
 
 Errors are reported as specified in [math_errhandling](math_errhandling.html "cpp/numeric/math/math errhandling"). 
 
@@ -308,13 +308,13 @@ If the implementation supports IEEE floating-point arithmetic (IEC 60559),
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/cosh&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 For the IEEE-compatible type double, if |num| > 710.5, then std::cosh(num) overflows. 
 
 The additional overloads are not required to be provided exactly as (A). They only need to be sufficient to ensure that for their argument num of integer type, std::cosh(num) has the same effect as std::cosh(static_cast<double>(num)). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/cosh&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -363,17 +363,17 @@ Possible output:
         errno == ERANGE: Numerical result out of range
         FE_OVERFLOW raised
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/cosh&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ sinhsinhfsinhl](sinh.html "cpp/numeric/math/sinh")(C++11)(C++11) |  computes hyperbolic sine (\\({\small\sinh{x}}\\)sinh(x))   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_sinh&action=edit)  
+(function)   
 ---|---  
 [ tanhtanhftanhl](tanh.html "cpp/numeric/math/tanh")(C++11)(C++11) |  computes hyperbolic tangent (\\({\small\tanh{x}}\\)tanh(x))   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_tanh&action=edit)  
+(function)   
 [ acoshacoshfacoshl](acosh.html "cpp/numeric/math/acosh")(C++11)(C++11)(C++11) |  computes the inverse hyperbolic cosine (\\({\small\operatorname{arcosh}{x}}\\)arcosh(x))   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_acosh&action=edit)  
+(function)   
 [ cosh(std::complex)](../complex/cosh.html "cpp/numeric/complex/cosh") |  computes hyperbolic cosine of a complex number (\\({\small\cosh{z}}\\)cosh(z))   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_cosh&action=edit)  
+(function template)   
 [ cosh(std::valarray)](../valarray/cosh.html "cpp/numeric/valarray/cosh") |  applies the function **std::cosh** to each element of valarray   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_cosh&action=edit)  
+(function template)   
 [C documentation](../../../c/numeric/math/cosh.html "c/numeric/math/cosh") for cosh

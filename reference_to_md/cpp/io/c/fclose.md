@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [C-style I/O](../c.html "cpp/io/c")
 
@@ -176,7 +176,7 @@ Operations on files
 [tmpfile](tmpfile.html "cpp/io/c/tmpfile")  
 [tmpnam](tmpnam.html "cpp/io/c/tmpnam")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/navbar_content&action=edit)
+
 
 Defined in header `[<cstdio>](../../header/cstdio.html "cpp/header/cstdio")` |  |   
 ---|---|---  
@@ -202,16 +202,16 @@ The behavior is undefined if the value of the pointer stream is used after `std:
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/fclose&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 stream  |  \-  |  the file stream to close   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/fclose&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 ​0​ on success, [EOF](../c.html) otherwise. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/fclose&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -250,13 +250,13 @@ Output:
     
     End of file reached successfully
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/fclose&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ fopen](fopen.html "cpp/io/c/fopen") |  opens a file   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_fopen&action=edit)  
+(function)   
 ---|---  
 [ freopen](freopen.html "cpp/io/c/freopen") |  open an existing stream with a different name   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_freopen&action=edit)  
+(function)   
 [ close](../basic_filebuf/close.html "cpp/io/basic filebuf/close") |  flushes the put area buffer and closes the associated file   
-(public member function of `std::basic_filebuf<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_filebuf/dsc_close&action=edit)  
+(public member function of `std::basic_filebuf<CharT,Traits>`)   
 [C documentation](../../../c/io/fclose.html "c/io/fclose") for fclose

@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::chunk_view`](../../chunk_view.html "cpp/ranges/chunk view")
 
@@ -299,7 +299,7 @@ operator-(chunk_view::_iterator_)](operator_arith2.html "cpp/ranges/chunk view/i
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/chunk_view/navbar_content&action=edit)
+
 
 /*iterator*/() = default; |  (1)  |  (since C++23)  
 ---|---|---  
@@ -343,7 +343,7 @@ Construct an iterator.
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/chunk_view/iterator/iterator&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 i  |  \-  |  an /*iterator*/<false>  
 ---|---|---  
@@ -351,7 +351,7 @@ parent  |  \-  |  a pointer to owning `chunk_view`
 current  |  \-  |  an iterator to the begin of current chunk   
 missing  |  \-  |  a difference between expected ([`_n__`](../iterator.html#Data_members "cpp/ranges/chunk view/iterator")) and actual size of current chunk   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/chunk_view/iterator/iterator&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

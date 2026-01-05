@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Function objects](../../functional.html "cpp/utility/functional")
 
@@ -255,7 +255,7 @@ Identity function object
 [unary_negate](unary_negate.html "cpp/utility/functional/unary negate")(until C++20*)  
 [binary_negate](binary_negate.html "cpp/utility/functional/binary negate")(until C++20*)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/navbar_content&action=edit)
+
 
 Defined in header `[<functional>](../../header/functional.html "cpp/header/functional")` |  |   
 ---|---|---  
@@ -280,22 +280,22 @@ Function object for performing bitwise NOT. Effectively calls operator~ on type 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/bit_not&action=edit&section=1 "Edit section: Specializations")] Specializations
+### Specializations
 
 The standard library provides a specialization of `std::bit_not` when `T` is not specified, which leaves the parameter types and return type to be deduced. 
 
 [ bit_not<void>](bit_not_void.html "cpp/utility/functional/bit not void")(C++14) |  function object implementing ~x deducing parameter and return types   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_bit_not_void&action=edit)  
+(class template specialization)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/member_types&action=edit&section=T-1 "Template:cpp/utility/functional/member types")] Member types
+### Member types
 
 Type  |  Definition   
 ---|---  
 `result_type` (deprecated in C++17)(removed in C++20) |  `T`  
 `argument_type` (deprecated in C++17)(removed in C++20) |  `T`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/bit_not&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 operator()(C++14) |  returns the result of bitwise NOT of its argument   
 (public member function)  
@@ -318,7 +318,7 @@ arg  |  \-  |  value to compute bitwise NOT of
 
 The result of ~arg. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/impldef_exception&action=edit&section=T-1 "Template:cpp/impldef exception")] Exceptions
+### Exceptions
 
 May throw implementation-defined exceptions. 
 
@@ -332,6 +332,6 @@ May throw implementation-defined exceptions.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/bit_not&action=edit&section=6 "Edit section: Notes")] Notes
+### Notes
 
 Although `std::bit_not` is added via post-C++11 proposal [N3421](https://wg21.link/N3421), it is treated as a part of the resolution for [LWG issue 660](https://cplusplus.github.io/LWG/issue660) (except for its transparent specialization [`std::bit_not<>`](bit_not_void.html "cpp/utility/functional/bit not void")) by common implementations, and thus available in their C++98/03 mode. 

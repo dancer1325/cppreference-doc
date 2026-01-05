@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::forward_list`](../forward_list.html "cpp/container/forward list")
 
@@ -128,7 +128,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/forward list/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/forward_list/navbar_content&action=edit)
+
 
 void reverse() noexcept; |  | (since C++11)   
 (constexpr since C++26)  
@@ -139,11 +139,11 @@ Reverses the order of the elements in the container.
 
 No references or iterators become invalidated. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/reverse&action=edit&section=T-1 "Template:cpp/container/reverse")] Complexity
+### Complexity
 
 Linear in the size of the container. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/reverse&action=edit&section=T-2 "Template:cpp/container/reverse")] Example
+### Example
 
 Run this code
     
@@ -177,8 +177,8 @@ Output:
     ascending:  0 1 2 3 4 5 6 7 8 9
     descending: 9 8 7 6 5 4 3 2 1 0
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/reverse&action=edit&section=T-4 "Template:cpp/container/reverse")] See also
+### See also
 
 [ sort](sort.html "cpp/container/forward list/sort") |  sorts the elements   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_sort&action=edit)  
+(public member function)   
 ---|---

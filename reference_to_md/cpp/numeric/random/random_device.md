@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [Pseudo-random number generation](../random.html "cpp/numeric/random")
 
@@ -161,7 +161,7 @@
 [piecewise_constant_distribution](piecewise_constant_distribution.html "cpp/numeric/random/piecewise constant distribution")(C++11)  
 [piecewise_linear_distribution](piecewise_linear_distribution.html "cpp/numeric/random/piecewise linear distribution")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/navbar_content&action=edit)
+
 
 **`std::random_device`**
 
@@ -175,7 +175,7 @@ Characteristics
 [random_device::min](random_device/min.html "cpp/numeric/random/random device/min")  
 [random_device::max](random_device/max.html "cpp/numeric/random/random device/max")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/random_device/navbar_content&action=edit)
+
 
 Defined in header `[<random>](../../header/random.html "cpp/header/random")` |  |   
 ---|---|---  
@@ -199,41 +199,41 @@ class random_device; |  |  (since C++11)
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/random/random_device&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Member type  |  Definition   
 ---|---  
 `result_type` (C++11) |  unsigned int  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/random/random_device&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 #####  Construction   
   
 ---  
 [ (constructor)](random_device/random_device.html "cpp/numeric/random/random device/random device") |  constructs the engine   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/engine/dsc_constructor&action=edit)  
+(public member function)   
 operator=(deleted) (C++11) |  the assignment operator is deleted   
 (public member function)  
   
 #####  Generation   
   
 [ operator()](random_device/operator\(\).html "cpp/numeric/random/random device/operator\(\)") |  advances the engine's state and returns the generated value   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/engine/dsc_operator\(\)&action=edit)  
+(public member function) &action=edit)  
   
 #####  Characteristics   
   
 [ entropy](random_device/entropy.html "cpp/numeric/random/random device/entropy")(C++11) |  obtains the entropy estimate for the non-deterministic random number generator   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/random_device/dsc_entropy&action=edit)  
+(public member function)   
 [ min](random_device/min.html "cpp/numeric/random/random device/min")[static] |  gets the smallest possible value in the output range   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/engine/dsc_min&action=edit)  
+(public static member function)   
 [ max](random_device/max.html "cpp/numeric/random/random device/max")[static] |  gets the largest possible value in the output range   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/engine/dsc_max&action=edit)  
+(public static member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/random/random_device&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 A notable implementation where [`std::random_device`](random_device.html#top) is deterministic in old versions of MinGW-w64 ([bug 338](https://sourceforge.net/p/mingw-w64/bugs/338/), fixed since GCC 9.2). The latest MinGW-w64 versions can be downloaded from [GCC with the MCF thread model](https://gcc-mcf.lhmouse.com/). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/random/random_device&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     

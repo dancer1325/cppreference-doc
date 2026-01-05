@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header is part of the [containers](../container.html "cpp/container") library. 
 
@@ -213,20 +213,20 @@ This header is part of the [containers](../container.html "cpp/container") libra
   
 ###  Includes  
   
-[ <compare>](compare.html "cpp/header/compare")(C++20) |  [Three-way comparison operator](../language/operator_comparison.html#Three-way_comparison "cpp/language/operator comparison") support[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/dsc_compare&action=edit)  
-[ <initializer_list>](initializer_list.html "cpp/header/initializer list")(C++11) |  [std::initializer_list](../utility/initializer_list.html "cpp/utility/initializer list") class template[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/dsc_initializer_list&action=edit)  
+[ <compare>](compare.html "cpp/header/compare")(C++20) |  [Three-way comparison operator](../language/operator_comparison.html#Three-way_comparison "cpp/language/operator comparison") support  
+[ <initializer_list>](initializer_list.html "cpp/header/initializer list")(C++11) |  [std::initializer_list](../utility/initializer_list.html "cpp/utility/initializer list") class template  
   
 ###  Classes  
   
 [ inplace_vector](../container/inplace_vector.html "cpp/container/inplace vector")(C++26) |  resizable, fixed capacity, inplace contiguous array   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_inplace_vector&action=edit)  
+(class template)   
   
 ###  Functions  
   
 [ erase(std::inplace_vector)erase_if(std::inplace_vector)](../container/inplace_vector/erase2.html "cpp/container/inplace vector/erase2")(C++26) |  erases all elements satisfying specific criteria   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_erase_seq&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/inplace_vector&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     // mostly freestanding
@@ -247,7 +247,7 @@ This header is part of the [containers](../container.html "cpp/container") libra
                                                                   Predicate pred);
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/inplace_vector&action=edit&section=T-1 "Template:cpp/synopsis/inplace vector")] Class template [std::inplace_vector](../container/inplace_vector.html)
+#### Class template [std::inplace_vector](../container/inplace_vector.html)
     
     
     namespace std {

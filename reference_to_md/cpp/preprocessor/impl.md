@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](../language/history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [Preprocessor](../preprocessor.html "cpp/preprocessor")
 
@@ -233,7 +233,7 @@ Miscellaneous
 [#line](line.html "cpp/preprocessor/line")  
 [#embed](embed.html "cpp/preprocessor/embed")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/preprocessor/navbar_content&action=edit)
+
 
 Implementation defined behavior is controlled by #pragma directive. 
 
@@ -252,7 +252,7 @@ Implementation defined behavior is controlled by #pragma directive.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/preprocessor/impl&action=edit&section=1 "Edit section: Syntax")] Syntax  
+### Syntax  
   
 ---  
 `**#pragma**` pragma-params |  (1)  |   
@@ -262,15 +262,15 @@ Implementation defined behavior is controlled by #pragma directive.
 
 2) Removes the `L` prefix (if any), the outer quotes, and leading/trailing whitespace from string-literal, replaces each \" with " and each \\\ with \, then tokenizes the result (as in [translation phase 3](../language/translation_phases.html#Phase_3 "cpp/language/translation phases")), and then uses the result as if the input to #pragma in (1).
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/preprocessor/impl&action=edit&section=2 "Edit section: Explanation")] Explanation
+### Explanation
 
 Pragma directive controls implementation-specific behavior of the compiler, such as disabling compiler warnings or changing alignment requirements. Any pragma that is not recognized is ignored. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/preprocessor/impl&action=edit&section=3 "Edit section: Non-standard pragmas")] Non-standard pragmas
+### Non-standard pragmas
 
 The ISO C++ language standard does not require the compilers to support any pragmas. However, several non-standard pragmas are supported by multiple implementations: 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/preprocessor/impl&action=edit&section=4 "Edit section: #pragma STDC")] #pragma STDC
+#### #pragma STDC
 
 ISO C language standard requires that C compilers support the following three pragmas, and some C++ compiler vendors support them, to varying degrees, in their C++ frontends:   
   
@@ -295,7 +295,7 @@ The behavior of the program is undefined if any of the three pragmas above appea
 
 Note: compilers that do not support these pragmas may provide equivalent compile-time options, such as gcc's `-fcx-limited-range` and `-ffp-contract`. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/preprocessor/impl&action=edit&section=5 "Edit section: #pragma once")] #pragma once
+#### #pragma once
 
 #pragma once is a non-standard pragma that is supported by the [vast majority of modern compilers](https://en.wikipedia.org/wiki/Pragma_once#Portability "enwiki:Pragma once"). If it appears in a header file, it indicates that it is only to be parsed once, even if it is (directly or indirectly) included multiple times in the same source file. 
 
@@ -317,7 +317,7 @@ With #pragma once, the same header appears as
 
 Unlike header guards, this pragma makes it impossible to erroneously use the same macro name in more than one file. On the other hand, since with #pragma once files are excluded based on their filesystem-level identity, this can't protect against including a header twice if it exists in more than one location in a project. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/preprocessor/impl&action=edit&section=6 "Edit section: #pragma pack")] #pragma pack
+#### #pragma pack
 
 This family of pragmas control the maximum alignment for subsequently defined class and union members.   
   
@@ -355,7 +355,7 @@ Reason: Explain the effects of this pragmas on data members and also the pros an
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/preprocessor/impl&action=edit&section=7 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -417,12 +417,12 @@ Reason: no example
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/preprocessor/impl&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [C documentation](../../c/preprocessor/impl.html "c/preprocessor/impl") for Implementation defined behavior control  
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/preprocessor/impl&action=edit&section=9 "Edit section: External links")] External links
+### External links
 
 1\.  | [C++ pragmas in Visual Studio](https://docs.microsoft.com/en-us/cpp/preprocessor/pragma-directives-and-the-pragma-keyword)  
 ---|---  

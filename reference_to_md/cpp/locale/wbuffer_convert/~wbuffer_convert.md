@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Localization library](../../locale.html "cpp/locale")
 
@@ -152,7 +152,7 @@ base classes](../../locale.html#Facet_category_base_classes "cpp/locale")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/navbar_content&action=edit)
+
 
 [`std::wbuffer_convert`](../wbuffer_convert.html "cpp/locale/wbuffer convert")
 
@@ -163,7 +163,7 @@ Member functions
 [wbuffer_convert::rdbuf](rdbuf.html "cpp/locale/wbuffer convert/rdbuf")  
 [wbuffer_convert::state](state.html "cpp/locale/wbuffer convert/state")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/wbuffer_convert/navbar_content&action=edit)
+
 
 ~wbuffer_convert(); |  |   
 ---|---|---  
@@ -171,11 +171,11 @@ Member functions
   
 Destroys the `wbuffer_convert` object and deletes `_[cvtptr](../wbuffer_convert.html#cvtptr "cpp/locale/wbuffer convert")_` ﻿. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/wbuffer_convert/%7Ewbuffer_convert&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 Some implementations are able to delete any facet, including the locale-specific facets with protected destructors. Other implementations require the facet to have a public destructor, similar to the locale-independent facets from [`<codecvt>`](../../header/codecvt.html "cpp/header/codecvt"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/wbuffer_convert/%7Ewbuffer_convert&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -208,8 +208,8 @@ Run this code
             gbto32([std::cout](../../io/cout.html).rdbuf(), new gbfacet_t("zh_CN.gb18030"));
     } // destructor called here
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/wbuffer_convert/%7Ewbuffer_convert&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ (destructor)](../wstring_convert/~wstring_convert.html "cpp/locale/wstring convert/~wstring convert") |  destructs the `wstring_convert` and its conversion facet   
-(public member function of `std::wstring_convert<Codecvt,Elem,Wide_alloc,Byte_alloc>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/wstring_convert/dsc_%7Ewstring_convert&action=edit)  
+(public member function of `std::wstring_convert<Codecvt,Elem,Wide_alloc,Byte_alloc>`)   
 ---|---

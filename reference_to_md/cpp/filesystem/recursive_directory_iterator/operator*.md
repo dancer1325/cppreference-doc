@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Filesystem library](../../filesystem.html "cpp/filesystem")
 
@@ -100,7 +100,7 @@ filesystem::symlink_status](../status.html "cpp/filesystem/status")
 [filesystem::is_socket](../is_socket.html "cpp/filesystem/is socket")  
 [filesystem::is_symlink](../is_symlink.html "cpp/filesystem/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/navbar_content&action=edit)
+
 
 [`std::filesystem::recursive_directory_iterator`](../recursive_directory_iterator.html "cpp/filesystem/recursive directory iterator")
 
@@ -118,7 +118,7 @@ Member functions
 Non-member functions  
 [begin(std::filesystem::recursive_directory_iterator)end(std::filesystem::recursive_directory_iterator)](begin.html "cpp/filesystem/recursive directory iterator/begin")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/recursive_directory_iterator/navbar_content&action=edit)
+
 
 const [std::filesystem::directory_entry](../directory_entry.html)& operator*() const; |  (1)  |  (since C++17)  
 ---|---|---  
@@ -139,22 +139,22 @@ The result of `operator*` or `operator->` on the end iterator is undefined behav
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/recursive_directory_iterator/operator*&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/recursive_directory_iterator/operator*&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) Value of the [`directory_entry`](../directory_entry.html "cpp/filesystem/directory entry") referred to by this iterator.
 
 2) Pointer to the [`directory_entry`](../directory_entry.html "cpp/filesystem/directory entry") referred to by this iterator.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/impldef_exception&action=edit&section=T-1 "Template:cpp/impldef exception")] Exceptions
+### Exceptions
 
 May throw implementation-defined exceptions. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/recursive_directory_iterator/operator*&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ operator*operator->](../directory_iterator/operator*.html "cpp/filesystem/directory iterator/operator*") |  accesses the pointed-to entry   
-(public member function of `std::filesystem::directory_iterator`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/directory_iterator/dsc_operator*&action=edit)  
+(public member function of `std::filesystem::directory_iterator`)   
 ---|---

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](../empty.html "cpp/iterator/empty")(C++17)  
 [data](../data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 [`std::counted_iterator`](../counted_iterator.html "cpp/iterator/counted iterator")
 
@@ -218,7 +218,7 @@
 [Helper classes](../counted_iterator.html#Helper_classes "cpp/iterator/counted iterator")  
 [iterator_traits<std::counted_iterator>](iterator_traits.html "cpp/iterator/counted iterator/iterator traits")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/counted_iterator/navbar_content&action=edit)
+
 
 friend constexpr [std::iter_difference_t](../iter_t.html)<I> operator-(  
 const counted_iterator& x, [std::default_sentinel_t](../default_sentinel.html) ); |  (1)  |  (since C++20)  
@@ -243,18 +243,18 @@ This function template is not visible to ordinary [unqualified](../../language/u
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/counted_iterator/operator-2&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 x, y  |  \-  |  iterator adaptors to compute the difference of   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/counted_iterator/operator-2&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) -x.count()
 
 2) y.count()
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/counted_iterator/operator-2&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -273,14 +273,14 @@ Run this code
         static_assert(d2 == +3); // (2)
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/counted_iterator/operator-2&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ operator++operator++(int)operator+=operator+operator--operator--(int)operator-=operator-](operator_arith.html "cpp/iterator/counted iterator/operator arith") |  advances or decrements the `counted_iterator`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_operator_arith&action=edit)  
+(public member function)   
 ---|---  
 [ operator+](operator+.html "cpp/iterator/counted iterator/operator+")(C++20) |  advances the iterator   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_operator%2B&action=edit)  
+(function template)   
 [ operator-](operator-.html "cpp/iterator/counted iterator/operator-")(C++20) |  computes the distance between two iterator adaptors   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_operator-&action=edit)  
+(function template)   
 [ default_sentinel_t](../default_sentinel.html "cpp/iterator/default sentinel t")(C++20) |  default sentinel for use with iterators that know the bound of their range   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_default_sentinel_t&action=edit)
+(class) 

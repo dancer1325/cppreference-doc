@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 **`std::barrier`**
 
@@ -188,7 +188,7 @@ Member functions
 Constants  
 [barrier::max](barrier/max.html "cpp/thread/barrier/max")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/barrier/navbar_content&action=edit)
+
 
 Defined in header `[<barrier>](../header/barrier.html "cpp/header/barrier")` |  |   
 ---|---|---  
@@ -226,7 +226,7 @@ Concurrent invocations of the member functions of `barrier`, except for the dest
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/barrier&action=edit&section=1 "Edit section: Template parameters")] Template parameters
+### Template parameters
 
 CompletionFunction  |  \-  |  a function object type   
 ---|---|---  
@@ -234,43 +234,43 @@ CompletionFunction  |  \-  |  a function object type
   
 The default template argument of `CompletionFunction` is an unspecified function object type that additionally meets the requirements of [DefaultConstructible](../named_req/DefaultConstructible.html "cpp/named req/DefaultConstructible"). Calling an lvalue of it with no arguments has no effects. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/barrier&action=edit&section=2 "Edit section: Member types")] Member types
+### Member types
 
 Name  |  Definition   
 ---|---  
 `arrival_token` |  an unspecified object type meeting requirements of [MoveConstructible](../named_req/MoveConstructible.html "cpp/named req/MoveConstructible"), [MoveAssignable](../named_req/MoveAssignable.html "cpp/named req/MoveAssignable") and [Destructible](../named_req/Destructible.html "cpp/named req/Destructible")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/barrier&action=edit&section=3 "Edit section: Data members")] Data members
+### Data members
 
 Member  |  Definition   
 ---|---  
 `CompletionFunction` `_completion_` |  a completion function object which is called on every phase completion step  
 (exposition-only member object*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/barrier&action=edit&section=4 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](barrier/barrier.html "cpp/thread/barrier/barrier") |  constructs a `barrier`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/barrier/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ (destructor)](barrier/~barrier.html "cpp/thread/barrier/~barrier") |  destroys the `barrier`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/barrier/dsc_destructor&action=edit)  
+(public member function)   
 operator=[deleted] |  `barrier` is not assignable   
 (public member function)  
 [ arrive](barrier/arrive.html "cpp/thread/barrier/arrive") |  arrives at barrier and decrements the expected count   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/barrier/dsc_arrive&action=edit)  
+(public member function)   
 [ wait](barrier/wait.html "cpp/thread/barrier/wait") |  blocks at the phase synchronization point until its phase completion step is run   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/barrier/dsc_wait&action=edit)  
+(public member function)   
 [ arrive_and_wait](barrier/arrive_and_wait.html "cpp/thread/barrier/arrive and wait") |  arrives at barrier and decrements the expected count by one, then blocks until current phase completes   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/barrier/dsc_arrive_and_wait&action=edit)  
+(public member function)   
 [ arrive_and_drop](barrier/arrive_and_drop.html "cpp/thread/barrier/arrive and drop") |  decrements both the initial expected count for subsequent phases and the expected count for current phase by one   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/barrier/dsc_arrive_and_drop&action=edit)  
+(public member function)   
   
 #####  Constants   
   
 [ max](barrier/max.html "cpp/thread/barrier/max")[static] |  the maximum value of expected count supported by the implementation   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/barrier/dsc_max&action=edit)  
+(public static member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/barrier&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../utility/feature_test.html "cpp/utility/feature test") macro  | Value | Std | Feature   
 ---|---|---|---  
@@ -278,7 +278,7 @@ operator=[deleted] |  `barrier` is not assignable
 [`202302L`](../compiler_support/20.html#cpp_lib_barrier_202302L "cpp/compiler support/20") | (C++20)  
 (DR) | Relaxed guarantees for phase completion   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/barrier&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -338,7 +338,7 @@ Possible output:
       Anil cleaned
     ... done
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/barrier&action=edit&section=7 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -346,10 +346,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [P2588R3](https://wg21.link/P2588R3) | C++20  | old phase completion guarantees might prevent hardware acceleration  | relaxed   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/barrier&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [ latch](latch.html "cpp/thread/latch")(C++20) |  single-use thread barrier   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_latch&action=edit)  
+(class)   
 ---|---
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

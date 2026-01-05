@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::atomic_flag`](../atomic_flag.html "cpp/atomic/atomic flag")
 
@@ -188,7 +188,7 @@ Member functions
 [atomic_flag::notify_one](notify_one.html "cpp/atomic/atomic flag/notify one")(C++20)  
 [atomic_flag::notify_all](notify_all.html "cpp/atomic/atomic flag/notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic_flag/navbar_content&action=edit)
+
 
 Defined in header `[<atomic>](../../header/atomic.html "cpp/header/atomic")` |  |   
 ---|---|---  
@@ -209,8 +209,8 @@ Constructs a new [std::atomic_flag](../atomic_flag.html "cpp/atomic/atomic flag"
 
 In addition, [std::atomic_flag](../atomic_flag.html "cpp/atomic/atomic flag") can be value-initialized to clear state with the expression [ATOMIC_FLAG_INIT](../ATOMIC_FLAG_INIT.html "cpp/atomic/ATOMIC FLAG INIT"). For an `atomic_flag` with static [storage duration](../../language/storage_duration.html#Storage_duration "cpp/language/storage duration"), this guarantees [static initialization](../../language/initialization.html#Static_initialization "cpp/language/initialization"): the flag can be used in constructors of static objects. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_flag/atomic_flag&action=edit&section=1 "Edit section: See also")] See also
+### See also
 
 [ ATOMIC_FLAG_INIT](../ATOMIC_FLAG_INIT.html "cpp/atomic/ATOMIC FLAG INIT")(C++11) |  initializes an [std::atomic_flag](../atomic_flag.html "cpp/atomic/atomic flag") to false   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/dsc_ATOMIC_FLAG_INIT&action=edit)  
+(macro constant)   
 ---|---

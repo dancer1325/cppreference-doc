@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range**(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 Defined in header `[<ranges>](../header/ranges.html "cpp/header/ranges")` |  |   
 ---|---|---  
@@ -248,7 +248,7 @@ The corresponding type `std::from_range_t` can be used in the constructor's para
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/from_range&action=edit&section=1 "Edit section: Standard library")] Standard library
+### Standard library
 
 The following standard library types use `std::from_range_t` type in their constructors: 
 
@@ -303,13 +303,13 @@ The following standard library types use `std::from_range_t` type in their const
 [ (constructor)](../string/basic_string/basic_string.html "cpp/string/basic string/basic string")(C++23) |  constructs the `basic_string` from a range   
 (public member function of `std::basic_string<CharT,Traits,Allocator>`)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/from_range&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../utility/feature_test.html "cpp/utility/feature test") macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_containers_ranges`](../experimental/feature_test.html#cpp_lib_containers_ranges "cpp/feature test") | [`202202L`](../compiler_support/23.html#cpp_lib_containers_ranges_202202L "cpp/compiler support/23") | (C++23) | Tagged constructors to construct from [container compatible range](to.html#container_compatible_range "cpp/ranges/to")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/from_range&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -326,16 +326,16 @@ Run this code
     #endif
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/from_range&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ in_placein_place_typein_place_indexin_place_tin_place_type_tin_place_index_t](../utility/in_place.html "cpp/utility/in place")(C++17) |  in-place construction tag  
-(tag)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_in_place&action=edit)  
+(tag)  
 ---|---  
 [ sorted_equivalentsorted_equivalent_t](../container/sorted_equivalent.html "cpp/container/sorted equivalent")(C++23) |  indicates that elements of a range are sorted (uniqueness is not required)  
-(tag)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_sorted_equivalent&action=edit)  
+(tag)  
 [ sorted_uniquesorted_unique_t](../container/sorted_unique.html "cpp/container/sorted unique")(C++23) |  indicates that elements of a range are sorted and unique  
-(tag)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_sorted_unique&action=edit)  
+(tag)  
 [ ranges::to](to.html "cpp/ranges/to")(C++23) |  constructs a new non-view object from an input range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_to&action=edit)
+(function template) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

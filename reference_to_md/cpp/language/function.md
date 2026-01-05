@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Functions](functions.html "cpp/language/functions")
 
@@ -245,7 +245,7 @@ Overloading
 [Operator overloading](operators.html "cpp/language/operators")  
 [Address of an overload set](overloaded_address.html "cpp/language/overloaded address")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/functions/navbar_content&action=edit)
+
 
 A function declaration introduces the function name and its type. A function definition associates the function name/type with the function body. 
 
@@ -279,7 +279,7 @@ A function declaration introduces the function name and its type. A function def
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/function&action=edit&section=1 "Edit section: Function declaration")] Function declaration
+### Function declaration
 
 Function declarations may appear in any scope. A function declaration at class scope introduces a class member function (unless the friend specifier is used), see [member functions](member_functions.html "cpp/language/member functions") and [friend functions](friend.html "cpp/language/friend") for details.   
   
@@ -453,7 +453,7 @@ Similarly, redeclarations or specializations of functions or function templates 
 
 | (since C++14)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/function&action=edit&section=3 "Edit section: Parameter list")] Parameter list
+### Parameter list
 
 The parameter list determines the arguments that can be specified when the function is called. It is a comma-separated list of _parameter declarations_ , each of which has the following syntax:   
   
@@ -553,7 +553,7 @@ An ambiguity arises in a parameter list when a type name is nested in parenthese
 
 Parameter type cannot be a type that includes a reference or a pointer to array of unknown bound, including a multi-level pointers/arrays of such types, or a pointer to functions whose parameters are such types. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/function&action=edit&section=4 "Edit section: Using an ellipsis")] Using an ellipsis
+#### Using an ellipsis
 
 The last parameter in the parameter list can be an ellipsis (...); this declares a [variadic function](variadic_arguments.html "cpp/language/variadic arguments"). The comma preceding the ellipsis can be omitted(deprecated in C++26): 
     
@@ -570,9 +570,9 @@ The last parameter in the parameter list can be an ellipsis (...); this declares
     template<typename... Args>
     void f(Args......);   // same as above, but deprecated since C++26
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/function&action=edit&section=5 "Edit section: Function type")] Function type
+### Function type
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/function&action=edit&section=6 "Edit section: Parameter-type-list")] Parameter-type-list
+#### Parameter-type-list
 
 A function’s _parameter-type-list_ is determined as follows: 
 
@@ -596,7 +596,7 @@ A function’s _parameter-type-list_ is determined as follows:
     void h(int x(const int)); // #3
     void h(int (*)(int)) {}   // defines #3
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/function&action=edit&section=7 "Edit section: Determining function type")] Determining function type
+#### Determining function type
 
 In syntax (1), assuming noptr-declarator as a standalone declaration, given the type of the qualified-id or unqualified-id in noptr-declarator as “derived-declarator-type-list `T`”: 
 
@@ -642,7 +642,7 @@ attr, if present, applies to the function type.  | (since C++11)
         const int f3() const;
     };
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/function&action=edit&section=8 "Edit section: Trailing qualifiers")] Trailing qualifiers
+#### Trailing qualifiers
 
 A function type with cv ﻿ or ref ﻿ ﻿(since C++11) (including a type named by [`typedef`](typedef.html "cpp/language/typedef") name) can appear only as: 
 
@@ -665,7 +665,7 @@ A function type with cv ﻿ or ref ﻿ ﻿(since C++11) (including a type named 
      
     FIC S::*pm = &S::f; // OK
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/function&action=edit&section=9 "Edit section: Function signature")] Function signature
+### Function signature
 
 Every function has a signature. 
 
@@ -701,7 +701,7 @@ The signature of a function consists of its name and [parameter-type-list](funct
   
 except and attr(since C++11) doesn't involve function signature, although [noexcept specification](noexcept_spec.html "cpp/language/noexcept spec") affects the function type(since C++17). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/function&action=edit&section=10 "Edit section: Function definition")] Function definition
+### Function definition
 
 A non-member function definition may appear at namespace scope only (there are no nested functions). A [member function](member_functions.html "cpp/language/member functions") definition may also appear in the body of a [class definition](class.html "cpp/language/class"). They have the following syntax:   
   
@@ -1082,7 +1082,7 @@ If this condition is not met solely due to the comparison of two lambda expressi
 
 (since C++26)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/function&action=edit&section=20 "Edit section: Notes")] Notes
+### Notes
 
 In case of ambiguity between a variable declaration using the direct-initialization syntax and a function declaration, the compiler always chooses function declaration; see [direct-initialization](direct_initialization.html#Notes "cpp/language/direct initialization"). 
 
@@ -1093,11 +1093,11 @@ Feature-test macro  | Value | Std | Feature
 [`__cpp_explicit_this_parameter`](../experimental/feature_test.html#cpp_explicit_this_parameter "cpp/feature test") | [`202110L`](../compiler_support/23.html#cpp_explicit_this_parameter_202110L "cpp/compiler support/23") | (C++23) | [explicit object parameters](function.html#Explicit_object_parameter) ([deducing this](member_functions.html#Explicit_object_member_functions "cpp/language/member functions"))   
 [`__cpp_deleted_function`](../experimental/feature_test.html#cpp_deleted_function "cpp/feature test") | [`202403L`](../compiler_support/26.html#cpp_deleted_function_202403L "cpp/compiler support/26") | (C++26) | deleted function with a reason   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/function&action=edit&section=21 "Edit section: Keywords")] Keywords
+### Keywords
 
 [`default`](../keyword/default.html "cpp/keyword/default"), [`delete`](../keyword/delete.html "cpp/keyword/delete"), [`pre`](../identifier_with_special_meaning/pre.html "cpp/identifier with special meaning/pre"), [`post`](../identifier_with_special_meaning/post.html "cpp/identifier with special meaning/post")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/function&action=edit&section=22 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -1172,7 +1172,7 @@ Possible output:
     f2("bad"): 0
     f2("42"): 42
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/function&action=edit&section=23 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -1225,7 +1225,7 @@ could define a non-templated function  | prohibited
 [CWG 2846](https://cplusplus.github.io/CWG/issues/2846.html) | C++23  | explicit object member functions could not have out-of-class definitions  | allowed   
 [CWG 2915](https://cplusplus.github.io/CWG/issues/2915.html) | C++23  | unnamed explicit object parameters could have type void | prohibited   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/function&action=edit&section=24 "Edit section: See also")] See also
+### See also
 
 [C documentation](../../c/language/function_declaration.html "c/language/function declaration") for Declaring functions  
 ---

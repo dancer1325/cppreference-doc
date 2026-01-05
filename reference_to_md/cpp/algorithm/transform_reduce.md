@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](ranges/copy.html "cpp/algorithm/ra
 [uninitialized_default_construct_n](../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 [Numerics library](../numeric.html "cpp/numeric")
 
@@ -353,7 +353,7 @@ Constrained algorithms, e.g. [`ranges::copy`](ranges/copy.html "cpp/algorithm/ra
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 Defined in header `[<numeric>](../header/numeric.html "cpp/header/numeric")` |  |   
 ---|---|---  
@@ -456,7 +456,7 @@ These overloads participate in overload resolution only if all following conditi
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/transform_reduce&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first1, last1  |  \-  |  the pair of iterators defining the [range](../iterator.html#Ranges "cpp/iterator") of elements to be taken as the left operand of transform  
 ---|---|---  
@@ -470,7 +470,7 @@ Type requirements
 -`InputIt1, InputIt2, InputIt` must meet the requirements of [LegacyInputIterator](../named_req/InputIterator.html "cpp/named req/InputIterator").   
 -`ForwardIt1, ForwardIt2, ForwardIt` must meet the requirements of [LegacyForwardIterator](../named_req/ForwardIterator.html "cpp/named req/ForwardIterator").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/transform_reduce&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1,2) The generalized sum of init and values over [std::plus](../utility/functional/plus.html)<>(), where values are the values transformed by [std::multiplies](../utility/functional/multiplies.html)<>(), each value is transformed from a pair of elements from the two input ranges.
 
@@ -490,7 +490,7 @@ The _generalized sum_ of a group of elements over an binary operation binary_op 
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/transform_reduce&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Given \\(\scriptsize N\\)N as [std::distance](../iterator/distance.html)(first1, last1) (or [std::distance](../iterator/distance.html)(first, last) for overloads (5,6)): 
 
@@ -498,7 +498,7 @@ Given \\(\scriptsize N\\)N as [std::distance](../iterator/distance.html)(first1,
 
 3-6) \\(\scriptsize O(N)\\)O(N) applications of reduce and transform respectively.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/transform_reduce&action=edit&section=4 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 The overloads with a template parameter named `ExecutionPolicy` report errors as follows: 
 
@@ -507,13 +507,13 @@ The overloads with a template parameter named `ExecutionPolicy` report errors as
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/transform_reduce&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 transform is never applied to init. 
 
 If first == last or first1 == last1, init is returned, unmodified. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/transform_reduce&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 `transform_reduce` can be used to parallelize [std::inner_product](inner_product.html "cpp/algorithm/inner product"). Some systems may need additional support to get advantages of parallel execution. E.g., on GNU/Linux, the [Intel TBB](https://en.wikipedia.org/wiki/Threading_Building_Blocks "enwiki:Threading Building Blocks") be installed and -ltbb option be provided to gcc/clang compiler.
 
@@ -592,12 +592,12 @@ Possible output:
     // Compile-options for parallel execution on POSIX:
     // g++ -O2 -std=c++17 -Wall -Wextra -pedantic -DPARALLEL ./example.cpp -ltbb -o tr; ./tr
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/transform_reduce&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ accumulate](accumulate.html "cpp/algorithm/accumulate") |  sums up or folds a range of elements   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_accumulate&action=edit)  
+(function template)   
 ---|---  
 [ transform](transform.html "cpp/algorithm/transform") |  applies a function to a range of elements, storing results in a destination range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_transform&action=edit)  
+(function template)   
 [ reduce](reduce.html "cpp/algorithm/reduce")(C++17) |  similar to [std::accumulate](accumulate.html "cpp/algorithm/accumulate"), except out of order   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_reduce&action=edit)
+(function template) 

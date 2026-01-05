@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](copy.html "cpp/algorithm/ranges/co
 [uninitialized_default_construct_n](../../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 [Constrained algorithms](../ranges.html "cpp/algorithm/ranges")
 
@@ -550,7 +550,7 @@ All names in this menu belong to namespace `std::ranges`
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -613,14 +613,14 @@ The function-like entities described on this page are [_algorithm function objec
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/shift&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  the iterator-sentinel pair defining the [range](../../iterator.html#Ranges "cpp/iterator") of elements to shift   
 ---|---|---  
 r  |  \-  |  the range of elements to shift   
 n  |  \-  |  the number of positions to shift   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/shift&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1,2) {first, /*NEW_LAST*/}, where `_NEW_LAST_` is the end of the resulting range and equivalent to: 
 
@@ -636,13 +636,13 @@ n  |  \-  |  the number of positions to shift
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/shift&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 1,2) At most [ranges::distance](../../iterator/ranges/distance.html)(first, last) - n assignments.
 
 3,4) At most [ranges::distance](../../iterator/ranges/distance.html)(first, last) - n assignment or swaps.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/shift&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 `ranges::shift_left` / `ranges::shift_right` has better efficiency on common implementations if `I` models [`bidirectional_iterator`](../../iterator/bidirectional_iterator.html "cpp/iterator/bidirectional iterator") or (better) [`random_access_iterator`](../../iterator/random_access_iterator.html "cpp/iterator/random access iterator"). 
 
@@ -652,7 +652,7 @@ Implementations (e.g. [MSVC STL](https://github.com/microsoft/STL/blob/main/stl/
 ---|---|---|---  
 [`__cpp_lib_shift`](../../experimental/feature_test.html#cpp_lib_shift "cpp/feature test") | [`202202L`](../../compiler_support/23.html#cpp_lib_shift_202202L "cpp/compiler support/23") | (C++23) | [`std::ranges::shift_left`](shift.html#Top) and [`std::ranges::shift_right`](shift.html#Top)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/shift&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -737,16 +737,16 @@ Possible output:
     . . 4 5 6 7 .   4 5 4 5 6 7 5   . . δ ε ζ η .
     . . 4 5 6 7 .   4 5 4 5 6 7 5   . . δ ε ζ η .
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/shift&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ ranges::move](move.html "cpp/algorithm/ranges/move")(C++20) |  moves a range of elements to a new location  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_move&action=edit)  
+(algorithm function object)  
 ---|---  
 [ ranges::move_backward](move_backward.html "cpp/algorithm/ranges/move backward")(C++20) |  moves a range of elements to a new location in backwards order  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_move_backward&action=edit)  
+(algorithm function object)  
 [ ranges::rotate](rotate.html "cpp/algorithm/ranges/rotate")(C++20) |  rotates the order of elements in a range  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_rotate&action=edit)  
+(algorithm function object)  
 [ shift_leftshift_right](../shift.html "cpp/algorithm/shift")(C++20) |  shifts elements in a range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_shift&action=edit)
+(function template) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

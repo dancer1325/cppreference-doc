@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](../empty.html "cpp/iterator/empty")(C++17)  
 [data](../data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 [`std::reverse_iterator`](../reverse_iterator.html "cpp/iterator/reverse iterator")
 
@@ -214,7 +214,7 @@
 [iter_swap](iter_swap.html "cpp/iterator/reverse iterator/iter swap")(C++20)  
 [make_reverse_iterator](../make_reverse_iterator.html "cpp/iterator/make reverse iterator")(C++14)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/reverse_iterator/navbar_content&action=edit)
+
 
 friend constexpr [std::iter_rvalue_reference_t](../iter_t.html)<Iter>  
 iter_move( const [std::reverse_iterator](../reverse_iterator.html)& i ) noexcept(/* see below */); |  |  (since C++20)  
@@ -240,20 +240,20 @@ This function template is not visible to ordinary [unqualified](../../language/u
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/reverse_iterator/iter_move&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 i  |  \-  |  a source reverse iterator   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/reverse_iterator/iter_move&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 An rvalue reference or a prvalue temporary. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/reverse_iterator/iter_move&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Constant. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/reverse_iterator/iter_move&action=edit&section=4 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 [`noexcept`](../../language/noexcept_spec.html "cpp/language/noexcept spec") specification: 
 
@@ -266,7 +266,7 @@ noexcept(std::[ranges::iter_move](../ranges/iter_move.html)(\--[std::declval](..
 
 )
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/reverse_iterator/iter_move&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -307,20 +307,20 @@ Possible output:
     p[3] { "", "", "" }
     q[3] { "Charlie", "Bravo", "Alpha" }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/reverse_iterator/iter_move&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ iter_move](../ranges/iter_move.html "cpp/iterator/ranges/iter move")(C++20) |  casts the result of dereferencing an object to its associated rvalue reference type  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/ranges/dsc_iter_move&action=edit)  
+(customization point object)  
 ---|---  
 [ iter_move](../move_iterator/iter_move.html "cpp/iterator/move iterator/iter move")(C++20) |  casts the result of dereferencing the underlying iterator to its associated rvalue reference type   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_iter_move&action=edit)  
+(function)   
 [ move](../../utility/move.html "cpp/utility/move")(C++11) |  converts the argument to an xvalue   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_move&action=edit)  
+(function template)   
 [ move_if_noexcept](../../utility/move_if_noexcept.html "cpp/utility/move if noexcept")(C++11) |  converts the argument to an xvalue if the move constructor does not throw   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_move_if_noexcept&action=edit)  
+(function template)   
 [ forward](../../utility/forward.html "cpp/utility/forward")(C++11) |  forwards a function argument and use the type template argument to preserve its value category   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_forward&action=edit)  
+(function template)   
 [ ranges::move](../../algorithm/ranges/move.html "cpp/algorithm/ranges/move")(C++20) |  moves a range of elements to a new location  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_move&action=edit)  
+(algorithm function object)  
 [ ranges::move_backward](../../algorithm/ranges/move_backward.html "cpp/algorithm/ranges/move backward")(C++20) |  moves a range of elements to a new location in backwards order  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_move_backward&action=edit)
+(algorithm function object)

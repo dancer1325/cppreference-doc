@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::shared_ptr`](../shared_ptr.html "cpp/memory/shared ptr")
 
@@ -220,7 +220,7 @@ Helper classes
 [hash<std::shared_ptr>](hash.html "cpp/memory/shared ptr/hash")  
 [Deduction guides](deduction_guides.html "cpp/memory/shared ptr/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/navbar_content&action=edit)
+
 
 void reset() noexcept; |  (1)  |  (since C++11)  
 ---|---|---  
@@ -259,24 +259,24 @@ If the object pointed to by ptr is already owned, the function generally results
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/reset&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 ptr  |  \-  |  pointer to an object to acquire ownership of   
 ---|---|---  
 d  |  \-  |  deleter to store for deletion of the object   
 alloc  |  \-  |  allocator to use for internal allocations   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/reset&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/reset&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 2) [std::bad_alloc](../new/bad_alloc.html "cpp/memory/new/bad alloc") if required additional memory could not be obtained. May throw implementation-defined exception for other errors. delete ptr is called if an exception occurs.
 
 3,4) [std::bad_alloc](../new/bad_alloc.html "cpp/memory/new/bad alloc") if required additional memory could not be obtained. May throw implementation-defined exception for other errors. d(ptr) is called if an exception occurs.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/reset&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -390,8 +390,8 @@ Possible output:
     Foo::~Foo(), bar = 300 @ 0x23c5080
     Foo::~Foo(), bar = 333 @ 0x23c5050
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/reset&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ (constructor)](shared_ptr.html "cpp/memory/shared ptr/shared ptr") |  constructs new `shared_ptr`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/dsc_constructor&action=edit)  
+(public member function)   
 ---|---

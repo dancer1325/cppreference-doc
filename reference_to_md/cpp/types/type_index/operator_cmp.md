@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Type support](../../utility/rtti.html "cpp/types")
 
@@ -161,7 +161,7 @@ Runtime type information
 ---  
 [bad_cast](../bad_cast.html "cpp/types/bad cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/navbar_content&action=edit)
+
 
 [`std::type_index`](../type_index.html "cpp/types/type index")
 
@@ -174,7 +174,7 @@ Member functions
 Helper classes  
 [hash<std::type_index>](hash.html "cpp/types/type index/hash")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/type_index/navbar_content&action=edit)
+
 
 bool operator==( const type_index& rhs ) const noexcept; |  (1)  |  (since C++11)  
 ---|---|---  
@@ -196,12 +196,12 @@ Compares the underlying [std::type_info](../type_info.html "cpp/types/type info"
 The `!=` operator is [synthesized](../../language/default_comparisons.html#Other_defaulted_comparison_operators "cpp/language/default comparisons") from `operator==`.  | (since C++20)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/type_index/operator_cmp&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 rhs  |  \-  |  another `type_index` object to compare to   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/type_index/operator_cmp&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) true if the underlying [std::type_info](../type_info.html "cpp/types/type info") objects refer to the same type, false otherwise.
 

@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::deque`](../deque.html "cpp/container/deque")
 
@@ -134,7 +134,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/deque/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/deque/navbar_content&action=edit)
+
 
 template< class... Args >  
 void emplace_front( Args&&... args ); |  |  (since C++11)   
@@ -160,29 +160,29 @@ All iterators (including the [`end()`](end.html "cpp/container/deque/end") itera
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/emplace_front&action=edit&section=T-1 "Template:cpp/container/emplace front")] Parameters
+### Parameters
 
 args  |  \-  |  arguments to forward to the constructor of the element   
 ---|---|---  
 Type requirements   
 -If `T` is not [EmplaceConstructible](../../named_req/EmplaceConstructible.html "cpp/named req/EmplaceConstructible") into `deque` from args..., the behavior is undefined.   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/emplace_front&action=edit&section=T-2 "Template:cpp/container/emplace front")] Return value
+### Return value
 
 (none) | (until C++17)  
 ---|---  
 A reference to the inserted element. | (since C++17)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/emplace_front&action=edit&section=T-3 "Template:cpp/container/emplace front")] Complexity
+### Complexity
 
 Constant. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/emplace_front&action=edit&section=T-4 "Template:cpp/container/emplace front")] Exceptions
+### Exceptions
 
 If an exception is thrown for any reason, this function has no effect ([strong exception safety guarantee](../../language/exceptions.html#Exception_safety "cpp/language/exceptions")). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/emplace_front&action=edit&section=T-5 "Template:cpp/container/emplace front")] See also
+### See also
 
 [ push_front](push_front.html "cpp/container/deque/push front") |  inserts an element to the beginning   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_push_front&action=edit)  
+(public member function)   
 ---|---

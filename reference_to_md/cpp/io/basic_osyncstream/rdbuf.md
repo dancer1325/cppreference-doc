@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_osyncstream`](../basic_osyncstream.html "cpp/io/basic osyncstream")
 
@@ -90,7 +90,7 @@ Public member functions
 [basic_osyncstream::get_wrapped](get_wrapped.html "cpp/io/basic osyncstream/get wrapped")(C++20)  
 [basic_osyncstream::emit](emit.html "cpp/io/basic osyncstream/emit")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_osyncstream/navbar_content&action=edit)
+
 
 syncbuf_type* rdbuf() const noexcept; |  |   
 ---|---|---  
@@ -98,20 +98,20 @@ syncbuf_type* rdbuf() const noexcept; |  |
   
 Returns a pointer to the underlying [std::basic_syncbuf](../basic_syncbuf.html). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_osyncstream/rdbuf&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_osyncstream/rdbuf&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_osyncstream/rdbuf&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ get_wrapped](get_wrapped.html "cpp/io/basic osyncstream/get wrapped") |  obtains a pointer to the final destination stream buffer   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_osyncstream/dsc_get_wrapped&action=edit)  
+(public member function)   
 ---|---  
 [ rdbuf](../basic_ios/rdbuf.html "cpp/io/basic ios/rdbuf") |  manages associated stream buffer   
-(public member function of `std::basic_ios<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ios/dsc_rdbuf&action=edit)
+(public member function of `std::basic_ios<CharT,Traits>`) 

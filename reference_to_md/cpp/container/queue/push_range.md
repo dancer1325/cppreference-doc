@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 `[std::queue](../queue.html "cpp/container/queue")`
 
@@ -102,7 +102,7 @@ Tables
 [formatter<std::queue>](formatter.html "cpp/container/queue/formatter")(C++23)  
 [Deduction guides](deduction_guides.html "cpp/container/queue/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/queue/navbar_content&action=edit)
+
 
 template< [container-compatible-range](../../ranges/to.html)<value_type> R >  
 void push_range( R&& rg ); |  |  (since C++23)  
@@ -130,22 +130,22 @@ Each iterator in the range rg is dereferenced exactly once.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/push_range_ad&action=edit&section=T-1 "Template:cpp/container/push range ad")] Parameters
+### Parameters
 
 rg  |  \-  |  a [container compatible range](../../ranges/to.html#container_compatible_range "cpp/ranges/to"), that is, an [`input_range`](../../ranges/input_range.html "cpp/ranges/input range") whose elements are convertible to `T`  
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/push_range_ad&action=edit&section=T-2 "Template:cpp/container/push range ad")] Complexity
+### Complexity
 
 Identical to the complexity of c.append_range or [ranges::copy](http://en.cppreference.com/w/cpp/ranges-algorithm-placeholder/copy)(rg, [std::back_inserter](../../iterator/back_inserter.html)(c)) (depending on what function is used internally). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/push_range_ad&action=edit&section=T-3 "Template:cpp/container/push range ad")] Notes
+### Notes
 
 [Feature-test](../../utility/feature_test.html "cpp/utility/feature test") macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_containers_ranges`](../../experimental/feature_test.html#cpp_lib_containers_ranges "cpp/feature test") | [`202202L`](../../compiler_support/23.html#cpp_lib_containers_ranges_202202L "cpp/compiler support/23") | (C++23) | [Ranges-aware](../../ranges/to.html#container_compatible_range "cpp/ranges/to") construction and insertion   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/push_range_ad&action=edit&section=T-4 "Template:cpp/container/push range ad")] Example
+### Example
 
 Run this code
     
@@ -182,10 +182,10 @@ Output:
     
     [1, 3, 2, 4]
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/push_range_ad&action=edit&section=T-5 "Template:cpp/container/push range ad")] See also
+### See also
 
 [ push](push.html "cpp/container/queue/push") |  inserts element at the end   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_push&action=edit)  
+(public member function)   
 ---|---
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

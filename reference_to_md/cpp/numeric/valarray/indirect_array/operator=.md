@@ -32,7 +32,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../../numeric.html "cpp/numeric")
 
@@ -89,7 +89,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [`std::valarray`](../../valarray.html "cpp/numeric/valarray")
 
@@ -157,7 +157,7 @@
   
 [Deduction guides](../deduction_guides.html "cpp/numeric/valarray/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/navbar_content&action=edit)
+
 
 [`std::indirect_array`](../indirect_array.html "cpp/numeric/valarray/indirect array")
 
@@ -168,7 +168,7 @@ Member functions
 **indirect_array::operator=**  
 [indirect_array::operator+=indirect_array::operator-=indirect_array::operator*=indirect_array::operator/=indirect_array::operator%=indirect_array::operator&=indirect_array::operator|=indirect_array::operator^=indirect_array::operator<<=indirect_array::operator>>=](operator_arith.html "cpp/numeric/valarray/indirect array/operator arith")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/indirect_array/navbar_content&action=edit)
+
 
 void operator=( const T& value ) const; |  (1)  |   
 ---|---|---  
@@ -194,20 +194,20 @@ Assigns values to all referred elements.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/array/operator%3D&action=edit&section=T-1 "Template:cpp/numeric/valarray/array/operator=")] Parameters
+### Parameters
 
 value  |  \-  |  a value to assign to all of the referred elements   
 ---|---|---  
 val_arr  |  \-  |  [std::valarray](../../valarray.html "cpp/numeric/valarray") to assign   
 other_arr  |  \-  |  [std::indirect_array](../indirect_array.html "cpp/numeric/valarray/indirect array") to assign   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/array/operator%3D&action=edit&section=T-2 "Template:cpp/numeric/valarray/array/operator=")] Return value
+### Return value
 
 1,2) (none)
 
 3) *this
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/array/operator%3D&action=edit&section=T-3 "Template:cpp/numeric/valarray/array/operator=")] Example
+### Example
 
 Run this code
     
@@ -258,7 +258,7 @@ Output:
     3:  0 -1  2 -2  4 -3  6 -4
     4:  0  0  2  2  4  4  6  6
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/array/operator%3D&action=edit&section=T-4 "Template:cpp/numeric/valarray/array/operator=")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

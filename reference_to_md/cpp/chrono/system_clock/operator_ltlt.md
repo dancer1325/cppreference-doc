@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::system_clock`](../system_clock.html "cpp/chrono/system clock")
 
@@ -115,7 +115,7 @@ Time point I/O
 [formatter<std::chrono::sys_time>](formatter.html "cpp/chrono/system clock/formatter")  
 [from_stream](from_stream.html "cpp/chrono/system clock/from stream")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/system_clock/navbar_content&action=edit)
+
 
 Defined in header `[<chrono>](../../header/chrono.html "cpp/header/chrono")` |  |   
 ---|---|---  
@@ -143,11 +143,11 @@ This overload participates in overload resolution only if [std::chrono::treat_as
 
 2) Equivalent to os << [std::chrono::year_month_day](../year_month_day.html)(tp);.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/system_clock/operator_ltlt&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 os
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/system_clock/operator_ltlt&action=edit&section=2 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -155,12 +155,12 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [P2372R3](https://wg21.link/P2372R3) | C++20  | the given locale was used by default  | `**L**` is needed to use the given locale   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/system_clock/operator_ltlt&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ std::formatter<std::chrono::sys_time>](formatter.html "cpp/chrono/system clock/formatter")(C++20) |  formatting support for `sys_time`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_formatter&action=edit)  
+(class template specialization)   
 ---|---  
 [ format](../../utility/format/format.html "cpp/utility/format/format")(C++20) |  stores formatted representation of the arguments in a new string   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/dsc_format&action=edit)  
+(function template)   
 [ operator<<](../year_month_day/operator_ltlt.html "cpp/chrono/year month day/operator ltlt")(C++20) |  outputs a `year_month_day` into a stream   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/year_month_day/dsc_operator_ltlt&action=edit)
+(function template) 

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Metaprogramming library](../meta.html "cpp/meta")
 
@@ -167,7 +167,7 @@ Type transformations
 Compile-time integer sequences  
 [integer_sequence](../utility/integer_sequence.html "cpp/utility/integer sequence")(C++14)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/meta/navbar_content&action=edit)
+
 
 Defined in header `[<type_traits>](../header/type_traits.html "cpp/header/type traits")` |  |   
 ---|---|---  
@@ -196,19 +196,19 @@ If the program adds specializations for `std::is_reference` or `std::is_referenc
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/traits/is&action=edit&section=T-1 "Template:cpp/types/traits/is")] Template parameters
+### Template parameters
 
 T  |  \-  |  a type to check   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/traits/is&action=edit&section=T-2 "Template:cpp/types/traits/is")] Helper variable template
+### Helper variable template
 
 template< class T >  
 constexpr bool is_reference_v = is_reference<T>::value; |  |  (since C++17)  
 ---|---|---  
 | |   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/integral_constant/inherit2&action=edit)
+
 
 ##  Inherited from [ std::integral_constant](integral_constant.html "cpp/types/integral constant")
 
@@ -233,7 +233,7 @@ Type  |  Definition
 `value_type` |  bool  
 `type` |  [std::integral_constant](integral_constant.html)<bool, value>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_reference&action=edit&section=1 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     template<class T> struct is_reference : [std::false_type](integral_constant.html) {};
@@ -242,7 +242,7 @@ Type  |  Definition
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_reference&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -281,10 +281,10 @@ Output:
     std::is_reference_v<double*&> ?: true
     std::is_reference_v<double*&&> ?: true
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_reference&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ is_lvalue_reference](is_lvalue_reference.html "cpp/types/is lvalue reference")(C++11) |  checks if a type is an _lvalue reference_   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_lvalue_reference&action=edit)  
+(class template)   
 ---|---  
 [ is_rvalue_reference](is_rvalue_reference.html "cpp/types/is rvalue reference")(C++11) |  checks if a type is an _rvalue reference_   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_rvalue_reference&action=edit)
+(class template) 

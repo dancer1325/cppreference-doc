@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](ranges/copy.html "cpp/algorithm/ra
 [uninitialized_default_construct_n](../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 Defined in header `[<execution>](../header/execution.html "cpp/header/execution")` |  |   
 ---|---|---  
@@ -332,7 +332,7 @@ These instances are used to specify the execution policy of parallel algorithms,
 
 Additional execution policies may be provided by a standard library implementation (possible future additions may include `std::parallel::cuda` and `std::parallel::opencl`). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/execution_policy_tag&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -391,8 +391,8 @@ Possible output:
     30ms
     27ms
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/execution_policy_tag&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ sequenced_policyparallel_policyparallel_unsequenced_policyunsequenced_policy](execution_policy_tag_t.html "cpp/algorithm/execution policy tag t")(C++17)(C++17)(C++17)(C++20) |  execution policy types   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_execution_policy_tag_t&action=edit)  
+(class)   
 ---|---

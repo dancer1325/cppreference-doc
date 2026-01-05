@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::indirect`](../indirect.html "cpp/memory/indirect")
 
@@ -206,7 +206,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
 [Helper classes](../indirect.html#Helper_classes "cpp/memory/indirect")  
 [hash<std::indirect>](hash.html "cpp/memory/indirect/hash")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/indirect/navbar_content&action=edit)
+
 
 constexpr explicit indirect(); |  (1) | (since C++26)  
 ---|---|---  
@@ -250,7 +250,7 @@ Constructs a new `indirect` object.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/indirect/indirect&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 a  |  \-  |  the allocator to be associated   
 ---|---|---  
@@ -259,7 +259,7 @@ args  |  \-  |  arguments with which to initialize the owned value
 il  |  \-  |  initializer list with which to initialize the owned value   
 other  |  \-  |  another `indirect` object whose owned value (if exists) is copied   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/indirect/indirect&action=edit&section=2 "Edit section: Effects")] Effects
+### Effects
 
 The construction of a new `indirect` object consists of the following steps: 
 
@@ -310,7 +310,7 @@ after construction
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/indirect/indirect&action=edit&section=3 "Edit section: Constraints and supplement information")] Constraints and supplement information
+### Constraints and supplement information
 
 1,2) If [std::is_default_constructible_v](../../types/is_default_constructible.html)<T> is false, the program is ill-formed.
 
@@ -339,7 +339,7 @@ after construction
 
 12) If [std::allocator_traits](../allocator_traits.html)<Allocator>::is_always_equal::value is false and `T` is an [incomplete type](../../language/type-id.html#Incomplete_type "cpp/language/type"), the program is ill-formed.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/indirect/indirect&action=edit&section=4 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Throws nothing unless [std::allocator_traits](../allocator_traits.html)<Allocator>::allocate or [std::allocator_traits](../allocator_traits.html)<Allocator>::construct throws. 
 
@@ -349,16 +349,16 @@ Throws nothing unless [std::allocator_traits](../allocator_traits.html)<Allocato
 
 noexcept([std::allocator_traits](../allocator_traits.html)<Allocator>::is_always_equal::value)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/indirect/indirect&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/indirect/indirect&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ allocator_arg_t](../allocator_arg_t.html "cpp/memory/allocator arg t")(C++11) |  tag type used to select allocator-aware constructor overloads   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_allocator_arg_t&action=edit)  
+(class)   
 ---|---  
 [ in_placein_place_typein_place_indexin_place_tin_place_type_tin_place_index_t](../../utility/in_place.html "cpp/utility/in place")(C++17) |  in-place construction tag  
-(tag)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_in_place&action=edit)
+(tag)

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 [Experimental library headers](../experimental.html "cpp/header/experimental")
 
@@ -292,7 +292,7 @@ Networking TS
 Reflection TS  
 [`<experimental/reflect>`](reflect.html "cpp/header/experimental/reflect")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/experimental/navbar_content&action=edit)
+
 
 This header is part of the [filesystem](../../experimental/fs.html "cpp/experimental/fs") library. 
 
@@ -303,115 +303,115 @@ Defined in inline namespace `std::experimental::filesystem::v1`
 ###  Classes  
   
 [ path](../../experimental/fs/path.html "cpp/experimental/fs/path") |  represents a path   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_path&action=edit)  
+(class)   
 [ filesystem_error](../../experimental/fs/filesystem_error.html "cpp/experimental/fs/filesystem error") |  an exception thrown on file system errors   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_filesystem_error&action=edit)  
+(class)   
 [ directory_entry](../../experimental/fs/directory_entry.html "cpp/experimental/fs/directory entry") |  a directory entry   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_directory_entry&action=edit)  
+(class)   
 [ directory_iterator](../../experimental/fs/directory_iterator.html "cpp/experimental/fs/directory iterator") |  an iterator to the contents of the directory   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_directory_iterator&action=edit)  
+(class)   
 [ recursive_directory_iterator](../../experimental/fs/recursive_directory_iterator.html "cpp/experimental/fs/recursive directory iterator") |  an iterator to the contents of a directory and its subdirectories   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_recursive_directory_iterator&action=edit)  
+(class)   
 [ file_status](../../experimental/fs/file_status.html "cpp/experimental/fs/file status") |  represents file type and permissions   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_file_status&action=edit)  
+(class)   
 [ space_info](../../experimental/fs/space_info.html "cpp/experimental/fs/space info") |  information about free and available space on the filesystem   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_space_info&action=edit)  
+(class)   
 [ file_type](../../experimental/fs/file_type.html "cpp/experimental/fs/file type") |  the type of a file   
-(enum) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_file_type&action=edit)  
+(enum)   
 [ perms](../../experimental/fs/perms.html "cpp/experimental/fs/perms") |  identifies file system permissions   
-(enum) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_perms&action=edit)  
+(enum)   
 [ copy_options](../../experimental/fs/copy_options.html "cpp/experimental/fs/copy options") |  specifies semantics of copy operations   
-(enum) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_copy_options&action=edit)  
+(enum)   
 [ directory_options](../../experimental/fs/directory_options.html "cpp/experimental/fs/directory options") |  options for iterating directory contents   
-(enum) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_directory_options&action=edit)  
+(enum)   
 [ file_time_type](../../experimental/fs/file_time_type.html "cpp/experimental/fs/file time type") |  represents file time values   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_file_time_type&action=edit)  
+(typedef)   
   
 ###  Functions  
   
 [ swap(std::experimental::filesystem::path)](../../experimental/fs/path/swap2.html "cpp/experimental/fs/path/swap2") |  swaps two paths   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/path/dsc_swap2&action=edit)  
+(function)   
 [ hash_value](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/path/hash_value&action=edit&redlink=1 "cpp/experimental/fs/path/hash value \(page does not exist\)") |  calculates a hash value for a path object   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/path/dsc_hash_value&action=edit)  
+(function)   
 [ operator==operator!=operator<operator<=operator>operator>=](../../experimental/fs/path/operator_cmp.html "cpp/experimental/fs/path/operator cmp") |  lexicographically compares two paths   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/path/dsc_operator_cmp&action=edit)  
+(function)   
 [ operator/](../../experimental/fs/path/operator_slash.html "cpp/experimental/fs/path/operator slash") |  concatenates two paths with a directory separator   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/path/dsc_operator/&action=edit)  
+(function)   
 [ operator<<operator>>](../../experimental/fs/path/operator_ltltgtgt.html "cpp/experimental/fs/path/operator ltltgtgt") |  performs stream input and output on a path   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/path/dsc_operator_ltltgtgt&action=edit)  
+(function)   
 [ u8path](../../experimental/fs/path/u8path.html "cpp/experimental/fs/path/u8path") |  creates a `path` from a UTF-8 encoded source   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/path/dsc_u8path&action=edit)  
+(function)   
 [ filesystem::begin(filesystem::directory_iterator)filesystem::end(filesystem::directory_iterator)](../../experimental/fs/directory_iterator/begin.html "cpp/experimental/fs/directory iterator/begin") |  range-based for loop support   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/directory_iterator/dsc_begin&action=edit)  
+(function)   
 [ filesystem::begin(filesystem::recursive_directory_iterator)filesystem::end(filesystem::recursive_directory_iterator)](../../experimental/fs/recursive_directory_iterator/begin.html "cpp/experimental/fs/recursive directory iterator/begin") |  range-based for loop support   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/recursive_directory_iterator/dsc_begin&action=edit)  
+(function)   
 [ absolutesystem_complete](../../experimental/fs/absolute.html "cpp/experimental/fs/absolute") |  composes an absolute path  
 converts a path to an absolute path replicating OS-specific behavior   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_absolute&action=edit)  
+(function)   
 [ canonical](../../experimental/fs/canonical.html "cpp/experimental/fs/canonical") |  composes a canonical path   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_canonical&action=edit)  
+(function)   
 [ copy](../../experimental/fs/copy.html "cpp/experimental/fs/copy") |  copies files or directories   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_copy&action=edit)  
+(function)   
 [ copy_file](../../experimental/fs/copy_file.html "cpp/experimental/fs/copy file") |  copies file contents   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_copy_file&action=edit)  
+(function)   
 [ copy_symlink](../../experimental/fs/copy_symlink.html "cpp/experimental/fs/copy symlink") |  copies a symbolic link   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_copy_symlink&action=edit)  
+(function)   
 [ create_directorycreate_directories](../../experimental/fs/create_directory.html "cpp/experimental/fs/create directory") |  creates new directory   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_create_directory&action=edit)  
+(function)   
 [ create_hard_link](../../experimental/fs/create_hard_link.html "cpp/experimental/fs/create hard link") |  creates a hard link   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_create_hard_link&action=edit)  
+(function)   
 [ create_symlinkcreate_directory_symlink](../../experimental/fs/create_symlink.html "cpp/experimental/fs/create symlink") |  creates a symbolic link   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_create_symlink&action=edit)  
+(function)   
 [ current_path](../../experimental/fs/current_path.html "cpp/experimental/fs/current path") |  return current working directory   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_current_path&action=edit)  
+(function)   
 [ exists](../../experimental/fs/exists.html "cpp/experimental/fs/exists") |  checks whether path refers to existing file system object   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_exists&action=edit)  
+(function)   
 [ equivalent](../../experimental/fs/equivalent.html "cpp/experimental/fs/equivalent") |  checks whether two paths refer to the same file system object   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_equivalent&action=edit)  
+(function)   
 [ file_size](../../experimental/fs/file_size.html "cpp/experimental/fs/file size") |  returns the size of a file   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_file_size&action=edit)  
+(function)   
 [ hard_link_count](../../experimental/fs/hard_link_count.html "cpp/experimental/fs/hard link count") |  returns the number of hard links referring to the specific file   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_hard_link_count&action=edit)  
+(function)   
 [ last_write_time](../../experimental/fs/last_write_time.html "cpp/experimental/fs/last write time") |  gets or sets the time of the last data modification   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_last_write_time&action=edit)  
+(function)   
 [ permissions](../../experimental/fs/permissions.html "cpp/experimental/fs/permissions") |  modifies file access permissions   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_permissions&action=edit)  
+(function)   
 [ read_symlink](../../experimental/fs/read_symlink.html "cpp/experimental/fs/read symlink") |  obtains the target of a symbolic link   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_read_symlink&action=edit)  
+(function)   
 [ removeremove_all](../../experimental/fs/remove.html "cpp/experimental/fs/remove") |  removes a file or empty directory  
 removes a file or directory and all its contents, recursively   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_remove&action=edit)  
+(function)   
 [ rename](../../experimental/fs/rename.html "cpp/experimental/fs/rename") |  moves or renames a file or directory   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_rename&action=edit)  
+(function)   
 [ resize_file](../../experimental/fs/resize_file.html "cpp/experimental/fs/resize file") |  changes the size of a regular file by truncation or zero-fill   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_resize_file&action=edit)  
+(function)   
 [ space](../../experimental/fs/space.html "cpp/experimental/fs/space") |  determines available free space on the file system   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_space&action=edit)  
+(function)   
 [ statussymlink_status](../../experimental/fs/status.html "cpp/experimental/fs/status") |  determines file attributes  
 determines file attributes, checking the symlink target   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_status&action=edit)  
+(function)   
 [ temp_directory_path](../../experimental/fs/temp_directory_path.html "cpp/experimental/fs/temp directory path") |  returns a directory suitable for temporary files   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_temp_directory_path&action=edit)  
+(function)   
   
 #####  File types   
   
 [ is_block_file](../../experimental/fs/is_block_file.html "cpp/experimental/fs/is block file") |  checks whether the given path refers to block device   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_is_block_file&action=edit)  
+(function)   
 [ is_character_file](../../experimental/fs/is_character_file.html "cpp/experimental/fs/is character file") |  checks whether the given path refers to a character device   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_is_character_file&action=edit)  
+(function)   
 [ is_directory](../../experimental/fs/is_directory.html "cpp/experimental/fs/is directory") |  checks whether the given path refers to a directory   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_is_directory&action=edit)  
+(function)   
 [ is_empty](../../experimental/fs/is_empty.html "cpp/experimental/fs/is empty") |  checks whether the given path refers to an empty file or directory   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_is_empty&action=edit)  
+(function)   
 [ is_fifo](../../experimental/fs/is_fifo.html "cpp/experimental/fs/is fifo") |  checks whether the given path refers to a named pipe   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_is_fifo&action=edit)  
+(function)   
 [ is_other](../../experimental/fs/is_other.html "cpp/experimental/fs/is other") |  checks whether the argument refers to an _other_ file   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_is_other&action=edit)  
+(function)   
 [ is_regular_file](../../experimental/fs/is_regular_file.html "cpp/experimental/fs/is regular file") |  checks whether the argument refers to a regular file   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_is_regular_file&action=edit)  
+(function)   
 [ is_socket](../../experimental/fs/is_socket.html "cpp/experimental/fs/is socket") |  checks whether the argument refers to a named IPC socket   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_is_socket&action=edit)  
+(function)   
 [ is_symlink](../../experimental/fs/is_symlink.html "cpp/experimental/fs/is symlink") |  checks whether the argument refers to a symbolic link   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_is_symlink&action=edit)  
+(function)   
 [ status_known](../../experimental/fs/status_known.html "cpp/experimental/fs/status known") |  checks whether file status is known   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_status_known&action=edit)
+(function) 

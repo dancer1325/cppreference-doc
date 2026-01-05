@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Filesystem library](../fs.html "cpp/experimental/fs")
 
@@ -124,7 +124,7 @@ File types
 [filesystem::is_socket](is_socket.html "cpp/experimental/fs/is socket")  
 [filesystem::is_symlink](is_symlink.html "cpp/experimental/fs/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/navbar_content&action=edit)
+
 
 Defined in header `[<experimental/filesystem>](../../header/experimental/filesystem.html "cpp/header/experimental/filesystem")` |  |   
 ---|---|---  
@@ -171,17 +171,17 @@ file_status symlink_status( const path& p, error_code& ec ) noexcept; |  (2)  | 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/status&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 p  |  \-  |  path to examine   
 ---|---|---  
 ec  |  \-  |  out-parameter for error reporting in the non-throwing overload   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/status&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The file status (a [file_status](file_status.html "cpp/experimental/fs/file status") object). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/status&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 The overload that does not take an error_code& parameter throws [filesystem_error](filesystem_error.html "cpp/experimental/fs/filesystem error") on underlying OS API errors, constructed with p as the first argument and the OS error code as the error code argument. [std::bad_alloc](../../memory/new/bad_alloc.html) may be thrown if memory allocation fails. The overload taking an error_code& parameter sets it to the OS API error code if an OS API call fails, and executes ec.clear() if no errors occur. This overload has 
 
@@ -189,11 +189,11 @@ The overload that does not take an error_code& parameter throws [filesystem_erro
 
 noexcept
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/status&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 The information provided by this function is usually also provided as a byproduct of directory iteration, and may be obtained by the member functions of [directory_entry](directory_entry.html "cpp/experimental/fs/directory entry"). During directory iteration, calling `status` again is unnecessary. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/status&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -270,31 +270,31 @@ Possible output:
     "dev/sda" is a block device
     "sandbox/no" does not exist
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/status&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ file_status](file_status.html "cpp/experimental/fs/file status") |  represents file type and permissions   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_file_status&action=edit)  
+(class)   
 ---|---  
 [ status_known](status_known.html "cpp/experimental/fs/status known") |  checks whether file status is known   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_status_known&action=edit)  
+(function)   
 [ is_block_file](is_block_file.html "cpp/experimental/fs/is block file") |  checks whether the given path refers to block device   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_is_block_file&action=edit)  
+(function)   
 [ is_character_file](is_character_file.html "cpp/experimental/fs/is character file") |  checks whether the given path refers to a character device   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_is_character_file&action=edit)  
+(function)   
 [ is_directory](is_directory.html "cpp/experimental/fs/is directory") |  checks whether the given path refers to a directory   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_is_directory&action=edit)  
+(function)   
 [ is_fifo](is_fifo.html "cpp/experimental/fs/is fifo") |  checks whether the given path refers to a named pipe   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_is_fifo&action=edit)  
+(function)   
 [ is_other](is_other.html "cpp/experimental/fs/is other") |  checks whether the argument refers to an _other_ file   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_is_other&action=edit)  
+(function)   
 [ is_regular_file](is_regular_file.html "cpp/experimental/fs/is regular file") |  checks whether the argument refers to a regular file   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_is_regular_file&action=edit)  
+(function)   
 [ is_socket](is_socket.html "cpp/experimental/fs/is socket") |  checks whether the argument refers to a named IPC socket   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_is_socket&action=edit)  
+(function)   
 [ is_symlink](is_symlink.html "cpp/experimental/fs/is symlink") |  checks whether the argument refers to a symbolic link   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_is_symlink&action=edit)  
+(function)   
 [ exists](exists.html "cpp/experimental/fs/exists") |  checks whether path refers to existing file system object   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_exists&action=edit)  
+(function)   
 [ statussymlink_status](directory_entry/status.html "cpp/experimental/fs/directory entry/status") |  cached status of the file designated by this directory entry  
 cached symlink_status of the file designated by this directory entry   
-(public member function of `std::experimental::filesystem::directory_entry`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/directory_entry/dsc_status&action=edit)
+(public member function of `std::experimental::filesystem::directory_entry`) 

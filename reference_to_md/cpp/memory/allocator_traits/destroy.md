@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::allocator_traits`](../allocator_traits.html "cpp/memory/allocator traits")
 
@@ -199,7 +199,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
 [allocator_traits::max_size](max_size.html "cpp/memory/allocator traits/max size")  
 [allocator_traits::select_on_container_copy_construction](select_on_container_copy_construction.html "cpp/memory/allocator traits/select on container copy construction")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/allocator_traits/navbar_content&action=edit)
+
 
 Defined in header `[<memory>](../../header/memory.html "cpp/header/memory")` |  |   
 ---|---|---  
@@ -221,28 +221,28 @@ Calls the destructor of the object pointed to by p. If possible, does so by call
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/allocator_traits/destroy&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 a  |  \-  |  allocator to use for destruction   
 ---|---|---  
 p  |  \-  |  pointer to the object being destroyed   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/allocator_traits/destroy&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/allocator_traits/destroy&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Because this function provides the automatic fall back to direct call to the destructor, the member function `destroy()` is an optional [Allocator](../../named_req/Allocator.html "cpp/named req/Allocator") requirement since C++11. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/allocator_traits/destroy&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/allocator_traits/destroy&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ destroy](../allocator/destroy.html "cpp/memory/allocator/destroy")(until C++20) |  destructs an object in allocated storage   
-(public member function of `std::allocator<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/allocator/dsc_destroy&action=edit)  
+(public member function of `std::allocator<T>`)   
 ---|---

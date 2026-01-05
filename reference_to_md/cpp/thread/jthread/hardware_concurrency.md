@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -175,7 +175,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::jthread`](../jthread.html "cpp/thread/jthread")
 
@@ -200,7 +200,7 @@ Stop token handling
 Non-member functions  
 [swap(std::jthread)](swap2.html "cpp/thread/jthread/swap2")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/jthread/navbar_content&action=edit)
+
 
 static unsigned int hardware_concurrency() noexcept; |  |  (since C++20)  
 ---|---|---  
@@ -218,15 +218,15 @@ Returns the number of concurrent threads supported by the implementation. The va
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/hardware_concurrency&action=edit&section=T-1 "Template:cpp/thread/thread/hardware concurrency")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/hardware_concurrency&action=edit&section=T-2 "Template:cpp/thread/thread/hardware concurrency")] Return value
+### Return value
 
 Number of concurrent threads supported. If the value is not well defined or not computable, returns ​0​. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/hardware_concurrency&action=edit&section=T-3 "Template:cpp/thread/thread/hardware concurrency")] Example
+### Example
 
 Run this code
     
@@ -245,9 +245,9 @@ Possible output:
     
     4 concurrent threads are supported.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/hardware_concurrency&action=edit&section=T-4 "Template:cpp/thread/thread/hardware concurrency")] See also
+### See also
 
 [ hardware_destructive_interference_sizehardware_constructive_interference_size](../hardware_destructive_interference_size.html "cpp/thread/hardware destructive interference size")(C++17) |  min offset to avoid false sharing  
 max offset to promote true sharing   
-(constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_hardware_destructive_interference_size&action=edit)  
+(constant)   
 ---|---

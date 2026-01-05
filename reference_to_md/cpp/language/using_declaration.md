@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Classes](classes.html "cpp/language/classes")
 
@@ -261,7 +261,7 @@ Inheritance
 [`override` specifier](override.html "cpp/language/override") (C++11)  
 [`final` specifier](final.html "cpp/language/final") (C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/classes/navbar_content&action=edit)
+
 
 Introduces a name that is defined elsewhere into the declarative region where this using-declaration appears. See [using enum](enum.html#Using-enum-declaration "cpp/language/enum") and (since C++20)[using namespace](namespace.html#Using-directives "cpp/language/namespace") for other related declarations.   
   
@@ -289,14 +289,14 @@ declarator-list |  \-  |  comma-separated list of one or more declarators of the
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/using_declaration&action=edit&section=1 "Edit section: Explanation")] Explanation
+### Explanation
 
 Using-declarations can be used to introduce namespace members into other namespaces and block scopes, or to introduce base class members into derived class definitions, or to introduce [enumerators](enum.html "cpp/language/enum") into namespaces, block, and class scopes(since C++20). 
 
 A using-declaration with more than one using-declarator is equivalent to a corresponding sequence of using-declarations with one using-declarator.  | (since C++17)  
 ---|---  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/using_declaration&action=edit&section=2 "Edit section: In namespace and block scope")] In namespace and block scope
+#### In namespace and block scope
 
 [Using-declarations](namespace.html#Using-declarations "cpp/language/namespace") introduce a member of another namespace into the current namespace or block scope. 
     
@@ -315,7 +315,7 @@ A using-declaration with more than one using-declarator is equivalent to a corre
 
 See [namespace](namespace.html "cpp/language/namespace") for details. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/using_declaration&action=edit&section=3 "Edit section: In class definition")] In class definition
+#### In class definition
 
 Using-declaration introduces a member of a base class into the derived class definition, such as to expose a protected member of base as public member of derived. In this case, nested-name-specifier must name a base class of the one being defined. If the name is the name of an overloaded member function of the base class, all base class member functions with that name are introduced. If the derived class already has a member with the same name, parameter list, and qualifications, the derived class member hides or overrides (doesn't conflict with) the member that is introduced from the base class. 
 
@@ -565,7 +565,7 @@ In addition to members of another namespace and members of base classes, using-d
 | (since C++20)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/using_declaration&action=edit&section=6 "Edit section: Notes")] Notes
+### Notes
 
 Only the name explicitly mentioned in the using-declaration is transferred into the declarative scope: in particular, enumerators are not transferred when the enumeration type name is using-declared. 
 
@@ -695,11 +695,11 @@ Feature-test macro  | Value | Std | Feature
 (DR11) | Rewording inheriting constructors   
 [`__cpp_variadic_using`](../experimental/feature_test.html#cpp_variadic_using "cpp/feature test") | [`201611L`](../compiler_support/17.html#cpp_variadic_using_201611L "cpp/compiler support/17") | (C++17) | [Pack expansions](parameter_pack.html "cpp/language/parameter pack") in `using`-declarations   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/using_declaration&action=edit&section=7 "Edit section: Keywords")] Keywords
+### Keywords
 
 [`using`](../keyword/using.html "cpp/keyword/using")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/using_declaration&action=edit&section=8 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -717,7 +717,7 @@ from virtual base classes was unclear  | made clear
 additional constructors in the derived class  | causes base class constructors  
 to be found by name lookup   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/using_declaration&action=edit&section=9 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 

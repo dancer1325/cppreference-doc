@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Null-terminated multibyte strings](../multibyte.html "cpp/string/multibyte")
 
@@ -100,7 +100,7 @@ MB_CUR_MAX](../multibyte.html#Macros "cpp/string/multibyte")
 [__STDC_UTF_16__  
 __STDC_UTF_32__](../multibyte.html#Macros "cpp/string/multibyte")(C++11)(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/navbar_content&action=edit)
+
 
 Defined in header `[<cwchar>](../../header/cwchar.html "cpp/header/cwchar")` |  |   
 ---|---|---  
@@ -121,18 +121,18 @@ Most multibyte character encodings use single-byte codes to represent the charac
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/multibyte/btowc&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 c  |  \-  |  single-byte character to widen   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/multibyte/btowc&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 WEOF if c is [EOF](../../io/c.html "cpp/io/c"). 
 
 Wide character representation of c if (unsigned char)c is a valid single-byte character in the initial shift state, WEOF otherwise. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/multibyte/btowc&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -179,11 +179,11 @@ Possible output:
     The single-byte character 0xdf failed to widen
     The single-byte character 0xf9 failed to widen
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/multibyte/btowc&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ wctob](wctob.html "cpp/string/multibyte/wctob") |  narrows a wide character to a single-byte narrow character, if possible   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/dsc_wctob&action=edit)  
+(function)   
 ---|---  
 [ do_widen](../../locale/ctype/widen.html "cpp/locale/ctype/widen")[virtual] |  converts a character or characters from char to `CharT`   
-(virtual protected member function of `std::ctype<CharT>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/ctype/dsc_do_widen&action=edit)  
+(virtual protected member function of `std::ctype<CharT>`)   
 [C documentation](../../../c/string/multibyte/btowc.html "c/string/multibyte/btowc") for btowc

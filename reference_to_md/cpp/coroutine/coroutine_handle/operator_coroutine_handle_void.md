@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Coroutine support](../../coroutine.html "cpp/coroutine")
 
@@ -146,7 +146,7 @@ Trivial awaitables
 Range generators  
 [generator](../generator.html "cpp/coroutine/generator")(C++23)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/coroutine/navbar_content&action=edit)
+
 
 [`std::coroutine_handle`](../coroutine_handle.html "cpp/coroutine/coroutine handle")
 
@@ -173,7 +173,7 @@ Non-member functions
 Helper classes  
 [hash<std::coroutine_handle>](hash.html "cpp/coroutine/coroutine handle/hash")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/coroutine/coroutine_handle/navbar_content&action=edit)
+
 
 constexpr operator coroutine_handle<>() const noexcept; |  |  (since C++20)  
 ---|---|---  
@@ -181,16 +181,16 @@ constexpr operator coroutine_handle<>() const noexcept; |  |  (since C++20)
   
 This conversion function converts a [std::coroutine_handle](../coroutine_handle.html)<Promise> value to a [std::coroutine_handle](../coroutine_handle.html)<> holding the same underlying address. It effectively erases the promise type. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/coroutine/coroutine_handle/operator_coroutine_handle_void&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/coroutine/coroutine_handle/operator_coroutine_handle_void&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 [std::coroutine_handle](../coroutine_handle.html)<>::from_address(address())
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/coroutine/coroutine_handle/operator_coroutine_handle_void&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ operator==operator<=>](operator_cmp.html "cpp/coroutine/coroutine handle/operator cmp")(C++20) |  compares two `coroutine_handle` objects   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/coroutine/coroutine_handle/dsc_operator_cmp&action=edit)  
+(function)   
 ---|---

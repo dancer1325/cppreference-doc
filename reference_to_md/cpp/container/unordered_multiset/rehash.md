@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 `[std::unordered_multiset](../unordered_multiset.html "cpp/container/unordered multiset")`
 
@@ -135,7 +135,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/unordered multiset/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/unordered_multiset/navbar_content&action=edit)
+
 
 void rehash( size_type count ); |  |  (since C++11)  
 ---|---|---  
@@ -154,25 +154,25 @@ Changes the number of buckets to a value `n` that is not less than count and sat
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/rehash&action=edit&section=T-1 "Template:cpp/container/rehash")] Parameters
+### Parameters
 
 count  |  \-  |  lower bound for the new number of buckets   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/rehash&action=edit&section=T-2 "Template:cpp/container/rehash")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/rehash&action=edit&section=T-3 "Template:cpp/container/rehash")] Complexity
+### Complexity
 
 Average case linear in the size of the container, worst case quadratic. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/rehash&action=edit&section=T-4 "Template:cpp/container/rehash")] Notes
+### Notes
 
 `rehash(0)` may be used to force an unconditional rehash, such as after suspension of automatic rehashing by temporarily increasing max_load_factor(). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/rehash&action=edit&section=T-5 "Template:cpp/container/rehash")] See also
+### See also
 
 [ reserve](reserve.html "cpp/container/unordered multiset/reserve") |  reserves space for at least the specified number of elements and regenerates the hash table   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_reserve&action=edit)  
+(public member function)   
 ---|---

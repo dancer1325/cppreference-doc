@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 **`std::chrono::tzdb`**
 
@@ -110,7 +110,7 @@ Member functions
 [tzdb::locate_zone](tzdb/locate_zone.html "cpp/chrono/tzdb/locate zone")  
 [tzdb::current_zone](tzdb/current_zone.html "cpp/chrono/tzdb/current zone")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/tzdb/navbar_content&action=edit)
+
 
 Defined in header `[<chrono>](../header/chrono.html "cpp/header/chrono")` |  |   
 ---|---|---  
@@ -119,7 +119,7 @@ struct tzdb; |  |  (since C++20)
   
 The class `tzdb` represents a copy of the [IANA time zone database](https://www.iana.org/time-zones). Users cannot construct a `tzdb` and can only obtain read-only access to one via the free functions std::chrono::get_tzdb_list and std::chrono::get_tzdb. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/tzdb&action=edit&section=1 "Edit section: Member objects")] Member objects
+### Member objects
 
 Member object  |  Description   
 ---|---  
@@ -128,10 +128,10 @@ Member object  |  Description
 `links` |  A sorted [std::vector](../container/vector.html)<[std::chrono::time_zone_link](time_zone_link.html)> containing description of alternative names of time zones (links)   
 `leap_seconds` |  A sorted [std::vector](../container/vector.html)<[std::chrono::leap_second](leap_second.html)> containing description of leap seconds   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/tzdb&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ locate_zone](tzdb/locate_zone.html "cpp/chrono/tzdb/locate zone") |  locate a time zone with the given name   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/tzdb/dsc_locate_zone&action=edit)  
+(public member function)   
 ---|---  
 [ current_zone](tzdb/current_zone.html "cpp/chrono/tzdb/current zone") |  return the local time zone   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/tzdb/dsc_current_zone&action=edit)
+(public member function) 

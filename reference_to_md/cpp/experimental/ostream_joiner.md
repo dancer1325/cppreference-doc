@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Library fundamentals v2](lib_extensions_2.html "cpp/experimental/lib extensions 2")
 
@@ -74,7 +74,7 @@
 [uniform container erasure](lib_extensions_2.html#Uniform_container_erasure "cpp/experimental/lib extensions 2")  
 [logical operator type traits](lib_extensions_2.html#Logical_operator_type_traits "cpp/experimental/lib extensions 2")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions_2/navbar_content&action=edit)
+
 
 **`std::experimental::ostream_joiner`**
 
@@ -87,7 +87,7 @@ Member functions
 Non-member functions  
 [make_ostream_joiner](ostream_joiner/make_ostream_joiner.html "cpp/experimental/ostream joiner/make ostream joiner")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ostream_joiner/navbar_content&action=edit)
+
 
 Defined in header `[<experimental/iterator>](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/iterator&action=edit&redlink=1 "cpp/header/experimental/iterator \(page does not exist\)")` |  |   
 ---|---|---  
@@ -116,7 +116,7 @@ Compared to [std::ostream_iterator](../iterator/ostream_iterator.html "cpp/itera
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ostream_joiner&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Member type  |  Definition   
 ---|---  
@@ -129,27 +129,27 @@ Member type  |  Definition
 `reference` |  void  
 `iterator_category` |  [std::output_iterator_tag](../iterator/iterator_tags.html)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ostream_joiner&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](ostream_joiner/ostream_joiner.html "cpp/experimental/ostream joiner/ostream joiner") |  constructs a new `ostream_joiner`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ostream_joiner/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 (destructor)(implicitly declared) |  destructs an `ostream_joiner`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ostream_joiner/dsc_destructor&action=edit)  
+(public member function)   
 [ operator=](ostream_joiner/operator=.html "cpp/experimental/ostream joiner/operator=") |  writes an object to the associated output sequence   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ostream_joiner/dsc_operator%3D&action=edit)  
+(public member function)   
 [ operator*](ostream_joiner/operator*.html "cpp/experimental/ostream joiner/operator*") |  no-op   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ostream_joiner/dsc_operator*&action=edit)  
+(public member function)   
 [ operator++operator++(int)](ostream_joiner/operator_arith.html "cpp/experimental/ostream joiner/operator arith") |  no-op   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ostream_joiner/dsc_operator_arith&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ostream_joiner&action=edit&section=3 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ make_ostream_joiner](ostream_joiner/make_ostream_joiner.html "cpp/experimental/ostream joiner/make ostream joiner") |  creates an `ostream_joiner` object, deducing the template's type arguments from the function arguments   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ostream_joiner/dsc_make_ostream_joiner&action=edit)  
+(function template)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ostream_joiner&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -172,12 +172,12 @@ Output:
     
     1, 2, 3, 4, 5
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ostream_joiner&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ ostreambuf_iterator](../iterator/ostreambuf_iterator.html "cpp/iterator/ostreambuf iterator") |  output iterator that writes to [std::basic_streambuf](../io/basic_streambuf.html "cpp/io/basic streambuf")   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_ostreambuf_iterator&action=edit)  
+(class template)   
 ---|---  
 [ ostream_iterator](../iterator/ostream_iterator.html "cpp/iterator/ostream iterator") |  output iterator that writes to [std::basic_ostream](../io/basic_ostream.html "cpp/io/basic ostream")   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_ostream_iterator&action=edit)  
+(class template)   
 [ istream_iterator](../iterator/istream_iterator.html "cpp/iterator/istream iterator") |  input iterator that reads from [std::basic_istream](../io/basic_istream.html "cpp/io/basic istream")   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_istream_iterator&action=edit)
+(class template) 

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 **`std::condition_variable_any`**
 
@@ -189,7 +189,7 @@ Waiting
 [condition_variable_any::wait_for](condition_variable_any/wait_for.html "cpp/thread/condition variable any/wait for")  
 [condition_variable_any::wait_until](condition_variable_any/wait_until.html "cpp/thread/condition variable any/wait until")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/condition_variable_any/navbar_content&action=edit)
+
 
 Defined in header `[<condition_variable>](../header/condition_variable.html "cpp/header/condition variable")` |  |   
 ---|---|---  
@@ -216,45 +216,45 @@ If the lock is [std::unique_lock](unique_lock.html)<[std::mutex](mutex.html)>, [
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/condition_variable_any&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](condition_variable_any/condition_variable_any.html "cpp/thread/condition variable any/condition variable any") |  constructs the object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/condition_variable/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ (destructor)](condition_variable_any/~condition_variable_any.html "cpp/thread/condition variable any/~condition variable any") |  destructs the object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/condition_variable/dsc_destructor&action=edit)  
+(public member function)   
 operator=[deleted] |  not copy-assignable   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/condition_variable/dsc_operator%3D&action=edit)  
+(public member function)   
   
 #####  Notification   
   
 [ notify_one](condition_variable_any/notify_one.html "cpp/thread/condition variable any/notify one") |  notifies one waiting thread   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/condition_variable/dsc_notify_one&action=edit)  
+(public member function)   
 [ notify_all](condition_variable_any/notify_all.html "cpp/thread/condition variable any/notify all") |  notifies all waiting threads   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/condition_variable/dsc_notify_all&action=edit)  
+(public member function)   
   
 #####  Waiting   
   
 [ wait](condition_variable_any/wait.html "cpp/thread/condition variable any/wait") |  blocks the current thread until the condition variable is awakened   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/condition_variable/dsc_wait&action=edit)  
+(public member function)   
 [ wait_for](condition_variable_any/wait_for.html "cpp/thread/condition variable any/wait for") |  blocks the current thread until the condition variable is awakened or after the specified timeout duration   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/condition_variable/dsc_wait_for&action=edit)  
+(public member function)   
 [ wait_until](condition_variable_any/wait_until.html "cpp/thread/condition variable any/wait until") |  blocks the current thread until the condition variable is awakened or until specified time point has been reached   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/condition_variable/dsc_wait_until&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/condition_variable_any&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 `std::condition_variable_any` can be used with [std::shared_lock](shared_lock.html "cpp/thread/shared lock") in order to wait on a [std::shared_mutex](shared_mutex.html "cpp/thread/shared mutex") in shared ownership mode. 
 
 A possible use for `std::condition_variable_any` with custom [Lockable](../named_req/Lockable.html "cpp/named req/Lockable") types is to provide convenient interruptible waits: the custom lock operation would both lock the associated mutex as expected, and also perform the necessary setup to notify this condition variable when the interrupting signal is received.[[1]](condition_variable_any.html#cite_note-1)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/condition_variable_any&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ condition_variable](condition_variable.html "cpp/thread/condition variable")(C++11) |  provides a condition variable associated with a [std::unique_lock](unique_lock.html "cpp/thread/unique lock")   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_condition_variable&action=edit)  
+(class)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/condition_variable_any&action=edit&section=4 "Edit section: External links")] External links
+### External links
 
   1. [↑](condition_variable_any.html#cite_ref-1) Anthony Williams (2012, 1st ed./ 2019, 2nd ed.), “C++ Concurrency in Action”, 9.2.4 “Interrupting a wait on `std::condition_variable_any`”.
 

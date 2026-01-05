@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::subrange`](../subrange.html "cpp/ranges/subrange")
 
@@ -249,7 +249,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
 [tuple_size<std::ranges::subrange>](tuple_size.html "cpp/ranges/subrange/tuple size")  
 [tuple_element<std::ranges::subrange>](tuple_element.html "cpp/ranges/subrange/tuple element")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/subrange/navbar_content&action=edit)
+
 
 constexpr S end() const; |  |  (since C++20)  
 ---|---|---  
@@ -259,22 +259,22 @@ Returns the sentinel indicating the end of the [`subrange`](../subrange.html "cp
 
 ![range-begin-end.svg](https://upload.cppreference.com/mwiki/images/1/1b/range-begin-end.svg)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/subrange/end&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 `_[end_](../subrange.html#end "cpp/ranges/subrange")_`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/subrange/end&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/subrange/end&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ begin](begin.html "cpp/ranges/subrange/begin") |  obtains the iterator   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/subrange/dsc_begin&action=edit)  
+(public member function)   
 ---|---  
 [ endcend](../../iterator/end.html "cpp/iterator/end")(C++11)(C++14) |  returns an iterator to the end of a container or array   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_end&action=edit)  
+(function template)   
 [ ranges::end](../end.html "cpp/ranges/end")(C++20) |  returns a sentinel indicating the end of a range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_end&action=edit)
+(customization point object)

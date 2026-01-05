@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Localization library](../../locale.html "cpp/locale")
 
@@ -152,7 +152,7 @@ base classes](../../locale.html#Facet_category_base_classes "cpp/locale")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/navbar_content&action=edit)
+
 
 [`std::time_get`](../time_get.html "cpp/locale/time get")
 
@@ -168,7 +168,7 @@ Member functions
 [time_get::get_yeartime_get::do_get_year](get_year.html "cpp/locale/time get/get year")  
 **time_get::get time_get::do_get**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/time_get/navbar_content&action=edit)
+
 
 Defined in header `[<locale>](../../header/locale.html "cpp/header/locale")` |  |   
 ---|---|---  
@@ -221,7 +221,7 @@ c) If the next character in the format string is equivalent to the next characte
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/time_get/get&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 beg  |  \-  |  iterator designating the start of the sequence to parse   
 ---|---|---  
@@ -297,11 +297,11 @@ Other
   
 Note: `tm_isdst` is not written to, and needs to be set explicitly for use with functions such as `mktime`
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/time_get/get&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Iterator pointing one past the last character in [beg, end) that was parsed successfully. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/time_get/get&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 The case-insensitive comparison for the non-whitespace non-'%' characters in the format string, the [std::collate](../collate.html "cpp/locale/collate") facet of the locale provided by str is typically, but not necessarily, used. 
 
@@ -309,7 +309,7 @@ If a parsing error is encountered, many implementations of this function leave *
 
 It's unspecified if these functions zero out the fields in *t that they do not set directly: portable programs should initialize every field to zero before calling `get()`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/time_get/get&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -357,8 +357,8 @@ Output:
     Successfully parsed as Sun Mar 12 23:45:56 2026
     The input was fully consumed.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/time_get/get&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ get_time](../../io/manip/get_time.html "cpp/io/manip/get time")(C++11) |  parses a date/time value of specified format   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_get_time&action=edit)  
+(function template)   
 ---|---

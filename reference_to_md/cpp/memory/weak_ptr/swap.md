@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::weak_ptr`](../weak_ptr.html "cpp/memory/weak ptr")
 
@@ -209,7 +209,7 @@ Helper classes
 [atomic<std::weak_ptr>](atomic2.html "cpp/memory/weak ptr/atomic2")(C++20)  
 [Deduction guides](deduction_guides.html "cpp/memory/weak ptr/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/weak_ptr/navbar_content&action=edit)
+
 
 void swap( weak_ptr& r ) noexcept; |  |  (since C++11)  
 ---|---|---  
@@ -217,16 +217,16 @@ void swap( weak_ptr& r ) noexcept; |  |  (since C++11)
   
 Exchanges the stored pointer values and the ownerships of *this and r. Reference counts, if any, are not adjusted. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/weak_ptr/swap&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 r  |  \-  |  smart pointer to exchange the contents with   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/weak_ptr/swap&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/weak_ptr/swap&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     

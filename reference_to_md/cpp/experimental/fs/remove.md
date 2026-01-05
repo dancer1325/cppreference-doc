@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Filesystem library](../fs.html "cpp/experimental/fs")
 
@@ -124,7 +124,7 @@ File types
 [filesystem::is_socket](is_socket.html "cpp/experimental/fs/is socket")  
 [filesystem::is_symlink](is_symlink.html "cpp/experimental/fs/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/navbar_content&action=edit)
+
 
 Defined in header `[<experimental/filesystem>](../../header/experimental/filesystem.html "cpp/header/experimental/filesystem")` |  |   
 ---|---|---  
@@ -150,19 +150,19 @@ bool remove( const path& p, error_code& ec ); |  (1)  |  (filesystem TS)
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/remove&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 p  |  \-  |  path to delete   
 ---|---|---  
 ec  |  \-  |  out-parameter for error reporting in the non-throwing overload   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/remove&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) true if the file was deleted, false if it did not exist. The overload that takes error_code& argument returns false on errors.
 
 2) Returns the number of files and directories that were deleted (which may be zero if p did not exist to begin with). The overload that takes error_code& argument returns static_cast<[std::uintmax_t](../../types/integer.html)>(-1) on error.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/remove&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 The overload that does not take an error_code& parameter throws [filesystem_error](filesystem_error.html "cpp/experimental/fs/filesystem error") on underlying OS API errors, constructed with p as the first argument and the OS error code as the error code argument. [std::bad_alloc](../../memory/new/bad_alloc.html) may be thrown if memory allocation fails. The overload taking an error_code& parameter sets it to the OS API error code if an OS API call fails, and executes ec.clear() if no errors occur. This overload has 
 
@@ -170,11 +170,11 @@ The overload that does not take an error_code& parameter throws [filesystem_erro
 
 noexcept
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/remove&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 On POSIX systems, this function typically calls `unlink` and `rmdir` as needed, on Windows `RemoveDirectoryW` and `DeleteFileW`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/remove&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -197,8 +197,8 @@ Possible output:
     
     Deleted 2 files or directories
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/remove&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ remove](../../io/c/remove.html "cpp/io/c/remove") |  erases a file   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_remove&action=edit)  
+(function)   
 ---|---

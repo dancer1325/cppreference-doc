@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](ranges/copy.html "cpp/algorithm/ra
 [uninitialized_default_construct_n](../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -339,7 +339,7 @@ If any of the following conditions is satisfied, the behavior is undefined:
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/swap_ranges&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first1, last1  |  \-  |  the pair of iterators defining the [range](../iterator.html#Ranges "cpp/iterator") of elements to swap   
 ---|---|---  
@@ -348,15 +348,15 @@ policy  |  \-  |  the [execution policy](execution_policy_tag_t.html "cpp/algori
 Type requirements   
 -`ForwardIt1, ForwardIt2` must meet the requirements of [LegacyForwardIterator](../named_req/ForwardIterator.html "cpp/named req/ForwardIterator").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/swap_ranges&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Iterator to the element past the last element exchanged in the range beginning with first2. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/swap_ranges&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Exactly [std::distance](../iterator/distance.html)(first1, last1) swaps. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/swap_ranges&action=edit&section=4 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 The overload with a template parameter named `ExecutionPolicy` reports errors as follows: 
 
@@ -365,11 +365,11 @@ The overload with a template parameter named `ExecutionPolicy` reports errors as
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/swap_ranges&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 Implementations (e.g. [MSVC STL](https://github.com/microsoft/STL/blob/main/stl/src/vector_algorithms.cpp)) may enable vectorization when the iterator type satisfies [LegacyContiguousIterator](../named_req/ContiguousIterator.html "cpp/named req/ContiguousIterator") and swapping its value type calls neither non-trivial special member function nor [ADL](../language/adl.html "cpp/language/adl")-found `swap`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/swap_ranges&action=edit&section=6 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     template<class ForwardIt1, class ForwardIt2>
@@ -384,7 +384,7 @@ Implementations (e.g. [MSVC STL](https://github.com/microsoft/STL/blob/main/stl/
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/swap_ranges&action=edit&section=7 "Edit section: Example")] Example
+### Example
 
 Demonstrates swapping of subranges from different containers.
 
@@ -428,12 +428,12 @@ Output:
     v: 1 2 3 d e
     l: a b c 4 5
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/swap_ranges&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [ iter_swap](iter_swap.html "cpp/algorithm/iter swap") |  swaps the elements pointed to by two iterators   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_iter_swap&action=edit)  
+(function template)   
 ---|---  
 [ swap](../utility/swap.html "cpp/algorithm/swap") |  swaps the values of two objects   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_swap&action=edit)  
+(function template)   
 [ ranges::swap_ranges](ranges/swap_ranges.html "cpp/algorithm/ranges/swap ranges")(C++20) |  swaps two ranges of elements  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_swap_ranges&action=edit)
+(algorithm function object)

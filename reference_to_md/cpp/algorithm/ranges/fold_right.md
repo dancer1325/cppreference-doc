@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](copy.html "cpp/algorithm/ranges/co
 [uninitialized_default_construct_n](../../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 [Constrained algorithms](../ranges.html "cpp/algorithm/ranges")
 
@@ -550,7 +550,7 @@ All names in this menu belong to namespace `std::ranges`
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -652,7 +652,7 @@ The function-like entities described on this page are [_algorithm function objec
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/fold_right&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  the iterator-sentinel pair defining the [range](../../iterator.html#Ranges "cpp/iterator") of elements to fold   
 ---|---|---  
@@ -660,13 +660,13 @@ r  |  \-  |  the range of elements to fold
 init  |  \-  |  the initial value of the fold   
 f  |  \-  |  the binary function object   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/fold_right&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 An object of type U that contains the result of right-[fold](https://en.wikipedia.org/wiki/Fold_\(higher-order_function\) "enwiki:Fold \(higher-order function\)") of the given range over f, where U is equivalent to [std::decay_t](../../types/decay.html)<[std::invoke_result_t](../../types/result_of.html)<F&, [std::iter_reference_t](../../iterator/iter_t.html)<I>, T>>;. 
 
 If the range is empty, U(std::move(init)) is returned. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/fold_right&action=edit&section=3 "Edit section: Possible implementations")] Possible implementations
+### Possible implementations
     
     
     struct fold_right_fn
@@ -698,11 +698,11 @@ If the range is empty, U(std::move(init)) is returned.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/fold_right&action=edit&section=4 "Edit section: Complexity")] Complexity
+### Complexity
 
 Exactly [ranges::distance](../../iterator/ranges/distance.html)(first, last) applications of the function object f. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/fold_right&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 The following table compares all constrained folding algorithms: 
 
@@ -719,7 +719,7 @@ ranges::fold_right | right | init | U
 [`__cpp_lib_ranges_fold`](../../experimental/feature_test.html#cpp_lib_ranges_fold "cpp/feature test") | [`202207L`](../../compiler_support/23.html#cpp_lib_ranges_fold_202207L "cpp/compiler support/23") | (C++23) | `std::ranges` [fold algorithms](../ranges.html#Constrained_fold_operations "cpp/algorithm/ranges")  
 [`__cpp_lib_algorithm_default_value_type`](../../experimental/feature_test.html#cpp_lib_algorithm_default_value_type "cpp/feature test") | [`202403L`](../../compiler_support/26.html#cpp_lib_algorithm_default_value_type_202403L "cpp/compiler support/26") | (C++26) | [List-initialization](../../language/list_initialization.html "cpp/language/list initialization") for algorithms ([1,2](fold_right.html#Version_1))  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/fold_right&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -781,7 +781,7 @@ Output:
     r4: 42
     r5: (42,42)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/fold_right&action=edit&section=7 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -793,22 +793,22 @@ Output:
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/fold_right&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [ ranges::fold_right_last](fold_right_last.html "cpp/algorithm/ranges/fold right last")(C++23) |  right-folds a range of elements using the last element as an initial value  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_fold_right_last&action=edit)  
+(algorithm function object)  
 ---|---  
 [ ranges::fold_left](fold_left.html "cpp/algorithm/ranges/fold left")(C++23) |  left-folds a range of elements  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_fold_left&action=edit)  
+(algorithm function object)  
 [ ranges::fold_left_first](fold_left_first.html "cpp/algorithm/ranges/fold left first")(C++23) |  left-folds a range of elements using the first element as an initial value  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_fold_left_first&action=edit)  
+(algorithm function object)  
 [ ranges::fold_left_with_iter](fold_left_with_iter.html "cpp/algorithm/ranges/fold left with iter")(C++23) |  left-folds a range of elements, and returns a [pair](return_types/in_value_result.html "cpp/algorithm/ranges/return types/in value result") (iterator, value)  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_fold_left_with_iter&action=edit)  
+(algorithm function object)  
 [ ranges::fold_left_first_with_iter](fold_left_first_with_iter.html "cpp/algorithm/ranges/fold left first with iter")(C++23) |  left-folds a range of elements using the first element as an initial value, and returns a [pair](return_types/in_value_result.html "cpp/algorithm/ranges/return types/in value result") (iterator, [optional](../../utility/optional.html "cpp/utility/optional"))  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_fold_left_first_with_iter&action=edit)  
+(algorithm function object)  
 [ accumulate](../accumulate.html "cpp/algorithm/accumulate") |  sums up or folds a range of elements   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_accumulate&action=edit)  
+(function template)   
 [ reduce](../reduce.html "cpp/algorithm/reduce")(C++17) |  similar to [std::accumulate](../accumulate.html "cpp/algorithm/accumulate"), except out of order   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_reduce&action=edit)
+(function template) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

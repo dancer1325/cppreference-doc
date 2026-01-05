@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ named requirements](../iterator/concepts.html "cpp/named req")
 
@@ -147,11 +147,11 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/named_req/navbar_content&action=edit)
+
 
 Two objects of this type can be dereferenced and the resulting values can be swapped using unqualified function call swap() in the context where both [std::swap](../utility/swap.html "cpp/algorithm/swap") and the user-defined swap()s are visible. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/ValueSwappable&action=edit&section=1 "Edit section: Requirements")] Requirements
+### Requirements
 
 A type T is ValueSwappable if 
 
@@ -162,7 +162,7 @@ A type T is ValueSwappable if
 
 Many standard library functions expect their arguments to satisfy ValueSwappable, which means that any time the standard library performs a swap, it uses the equivalent of using [std::swap](../algorithm/swap.html); swap(*iter1, *iter2);. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/ValueSwappable&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -196,8 +196,8 @@ Run this code
     //  std::swap(v1, v2); // compiler error! std::swap requires MoveAssignable
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/ValueSwappable&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ indirectly_swappable](../iterator/indirectly_swappable.html "cpp/iterator/indirectly swappable")(C++20) |  specifies that the values referenced by two [`indirectly_readable`](../iterator/indirectly_readable.html "cpp/iterator/indirectly readable") types can be swapped   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_indirectly_swappable&action=edit)  
+(concept)   
 ---|---

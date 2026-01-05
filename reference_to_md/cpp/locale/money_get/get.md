@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Localization library](../../locale.html "cpp/locale")
 
@@ -152,7 +152,7 @@ base classes](../../locale.html#Facet_category_base_classes "cpp/locale")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/navbar_content&action=edit)
+
 
 [`std::money_get`](../money_get.html "cpp/locale/money get")
 
@@ -162,7 +162,7 @@ Member functions
 [money_get::~money_get](~money_get.html "cpp/locale/money get/~money get")  
 **money_get::get money_get::do_get**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/money_get/navbar_content&action=edit)
+
 
 Defined in header `[<locale>](../../header/locale.html "cpp/header/locale")` |  |   
 ---|---|---  
@@ -221,11 +221,11 @@ Digits from the input are extracted in order in which they appear and are placed
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/money_get/get&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 An iterator pointing immediately after the last character recognized as a valid part of the monetary string input. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/money_get/get&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 The currency units are assumed to be the smallest non-fractional units of the currency: cents in the U.S, yen in Japan. Thus, the input sequence "$1,056.23" in a U.S. locale produces the number 105623.0 in units or a string "105623" in digits. 
 
@@ -233,7 +233,7 @@ Because currency symbol is optional if `showbase` is off but the entire multicha
 
 The I/O manipulator [std::get_money](../../io/manip/get_money.html "cpp/io/manip/get money") offers a simpler interface to this function. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/money_get/get&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -292,12 +292,12 @@ Output:
     Successfully parsed '(RM5.12) def' as -5.12 units
     Remaining content: ' def'
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/money_get/get&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ moneypunct](../moneypunct.html "cpp/locale/moneypunct") |  defines monetary formatting parameters used by [std::money_get](../money_get.html "cpp/locale/money get") and [std::money_put](../money_put.html "cpp/locale/money put")   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_moneypunct&action=edit)  
+(class template)   
 ---|---  
 [ money_get](../money_get.html "cpp/locale/money get") |  parses and constructs a monetary value from an input character sequence   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_money_get&action=edit)  
+(class template)   
 [ get_money](../../io/manip/get_money.html "cpp/io/manip/get money")(C++11) |  parses a monetary value   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_get_money&action=edit)
+(function template) 

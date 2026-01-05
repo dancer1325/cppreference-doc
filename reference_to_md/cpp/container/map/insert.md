@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -71,7 +71,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 `[std::map](../map.html "cpp/container/map")`
 
@@ -136,7 +136,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/map/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/map/navbar_content&action=edit)
+
 
 [std::pair](../../utility/pair.html)<iterator, bool> insert( const value_type& value ); |  (1) |   
 ---|---|---  
@@ -190,7 +190,7 @@ No iterators or references are invalidated. If the insertion is successful, poin
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/map/insert&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 pos  |  \-  |  iterator to the position before which the new element will be inserted   
 ---|---|---  
@@ -201,7 +201,7 @@ nh  |  \-  |  a compatible [node handle](../node_handle.html "cpp/container/node
 Type requirements   
 -`InputIt` must meet the requirements of [LegacyInputIterator](../../named_req/InputIterator.html "cpp/named req/InputIterator").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/map/insert&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1-3) A pair consisting of an iterator to the inserted element (or to the element that prevented the insertion) and a bool value set to true if and only if the insertion took place.
 
@@ -219,7 +219,7 @@ Type requirements
 
 10) End iterator if nh was empty, iterator pointing to the inserted element if insertion took place, and iterator pointing to an element with a key equivalent to nh.key() if it failed.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/map/insert&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 1-6) If an exception is thrown by any operation, the insertion has no effect.
 
@@ -227,7 +227,7 @@ Type requirements
 Reason: cases 7-10   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/map/insert&action=edit&section=4 "Edit section: Complexity")] Complexity
+### Complexity
 
 1-3) Logarithmic in the size of the container, `O(log(size()))`.
 
@@ -239,11 +239,11 @@ Reason: cases 7-10
 
 10) Amortized constant if the insertion happens in the position just _before_ pos, logarithmic in the size of the container otherwise.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/map/insert&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 The hinted insert (([4-6](insert.html#Version_4)) and ([10](insert.html#Version_10))) does not return a boolean in order to be signature-compatible with positional insert on sequential containers, such as [std::vector::insert](../vector/insert.html "cpp/container/vector/insert"). This makes it possible to create generic inserters such as [std::inserter](../../iterator/inserter.html "cpp/iterator/inserter"). One way to check success of a hinted insert is to compare [`size()`](size.html "cpp/container/map/size") before and after. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/map/insert&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -344,7 +344,7 @@ Output:
     Kuroo      | 187.7cm
     Tsukishima | 188.3cm
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/map/insert&action=edit&section=7 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -361,14 +361,14 @@ which bool value indicates a successful insertion  | success is
 indicated by true  
 [LWG 2005](https://cplusplus.github.io/LWG/issue2005) | C++11  | overloads ([2](insert.html#Version_2)) and ([5](insert.html#Version_5)) were poorly described  | improved the description   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/map/insert&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [ emplace](emplace.html "cpp/container/map/emplace")(C++11) |  constructs element in-place   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_emplace&action=edit)  
+(public member function)   
 ---|---  
 [ emplace_hint](emplace_hint.html "cpp/container/map/emplace hint")(C++11) |  constructs elements in-place using a hint   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_emplace_hint&action=edit)  
+(public member function)   
 [ insert_or_assign](insert_or_assign.html "cpp/container/map/insert or assign")(C++17) |  inserts an element or assigns to the current element if the key already exists   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_insert_or_assign&action=edit)  
+(public member function)   
 [ inserter](../../iterator/inserter.html "cpp/iterator/inserter") |  creates a [std::insert_iterator](../../iterator/insert_iterator.html "cpp/iterator/insert iterator") of type inferred from the argument   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_inserter&action=edit)
+(function template) 

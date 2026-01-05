@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Filesystem library](../filesystem.html "cpp/filesystem")
 
@@ -100,7 +100,7 @@ filesystem::symlink_status](status.html "cpp/filesystem/status")
 [filesystem::is_socket](is_socket.html "cpp/filesystem/is socket")  
 [filesystem::is_symlink](is_symlink.html "cpp/filesystem/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/navbar_content&action=edit)
+
 
 Defined in header `[<filesystem>](../header/filesystem.html "cpp/header/filesystem")` |  |   
 ---|---|---  
@@ -123,7 +123,7 @@ Access permissions model [POSIX permission bits](https://pubs.opengroup.org/onli
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/perms&action=edit&section=1 "Edit section: Member constants")] Member constants
+### Member constants
 
 Member constant  | Value (octal)  | POSIX equivalent  | Meaning   
 ---|---|---|---  
@@ -152,13 +152,13 @@ Member constant  | Value (hex)  | Meaning
 ---|---|---  
 `unknown` | 0xFFFF | Unknown permissions (e.g. when [filesystem::file_status](file_status.html "cpp/filesystem/file status") is created without permissions)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/perms&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 Permissions may not necessarily be implemented as bits, but they are treated that way conceptually. 
 
 Some permission bits may be ignored on some systems, and changing some bits may automatically change others (e.g. on platforms without owner/group/all distinction, setting any of the three write bits set all three). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/perms&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -211,11 +211,11 @@ Possible output:
     Created file with permissions: rw-r--r--
     After adding u+rwx and g+wrx:  rwxrwxr--
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/perms&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ statussymlink_status](status.html "cpp/filesystem/status")(C++17)(C++17) |  determines file attributes  
 determines file attributes, checking the symlink target   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_status&action=edit)  
+(function)   
 ---|---  
 [ permissions](permissions.html "cpp/filesystem/permissions")(C++17) |  modifies file access permissions   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_permissions&action=edit)
+(function) 

@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 `[std::priority_queue](../priority_queue.html "cpp/container/priority queue")`
 
@@ -100,7 +100,7 @@ Tables
 [formatter<std::priority_queue>](formatter.html "cpp/container/priority queue/formatter")(C++23)  
 [Deduction guides](deduction_guides.html "cpp/container/priority queue/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/priority_queue/navbar_content&action=edit)
+
 
 priority_queue& operator=( const priority_queue& other ); |  (1)  |  (implicitly declared)  
 ---|---|---  
@@ -125,27 +125,27 @@ Replaces the contents of the container adaptor with the contents of given argume
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/operator%3D_ad&action=edit&section=T-1 "Template:cpp/container/operator= ad")] Parameters
+### Parameters
 
 other  |  \-  |  another container adaptor to be used as source   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/operator%3D_ad&action=edit&section=T-2 "Template:cpp/container/operator= ad")] Return value
+### Return value
 
 *this
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/operator%3D_ad&action=edit&section=T-3 "Template:cpp/container/operator= ad")] Complexity
+### Complexity
 
 1,2) Equivalent to that of operator= of the underlying container.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/operator%3D_ad&action=edit&section=T-4 "Template:cpp/container/operator= ad")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/operator%3D_ad&action=edit&section=T-5 "Template:cpp/container/operator= ad")] See also
+### See also
 
 [ (constructor)](priority_queue.html "cpp/container/priority queue/priority queue") |  constructs the `priority_queue`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_constructor&action=edit)  
+(public member function)   
 ---|---

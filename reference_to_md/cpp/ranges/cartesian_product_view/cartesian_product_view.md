@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::cartesian_product_view`](../cartesian_product_view.html "cpp/ranges/cartesian product view")
 
@@ -257,7 +257,7 @@ operator-(cartesian_product_view::_iterator_)](iterator/operator_arith2.html "cp
 [iter_move(cartesian_product_view::_iterator_)](iterator/iter_move.html "cpp/ranges/cartesian product view/iterator/iter move")  
 [iter_swap(cartesian_product_view::_iterator_)](iterator/iter_swap.html "cpp/ranges/cartesian product view/iterator/iter swap")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/cartesian_product_view/navbar_content&action=edit)
+
 
 constexpr cartesian_product_view() = default; |  (1)  |  (since C++23)  
 ---|---|---  
@@ -270,13 +270,13 @@ Constructs an [`cartesian_product_view`](../cartesian_product_view.html "cpp/ran
 
 2) Move constructs the underlying [`_base__`](../cartesian_product_view.html#Data_members "cpp/ranges/cartesian product view") by initializing it with std::move(first_base), std::move(bases)....
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/cartesian_product_view/cartesian_product_view&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first_base  |  \-  |  the first view object to adapt   
 ---|---|---  
 bases  |  \-  |  the pack of views objects to adapt   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/cartesian_product_view/cartesian_product_view&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [Declarations](declarations.html "cpp/language/declarations")
 
@@ -280,7 +280,7 @@ Other declarations
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/declarations/navbar_content&action=edit)
+
 
 [ Expressions](expressions.html "cpp/language/expressions")
 
@@ -349,7 +349,7 @@ Conversions
 [`dynamic_cast`](dynamic_cast.html "cpp/language/dynamic cast")  
 [`reinterpret_cast`](reinterpret_cast.html "cpp/language/reinterpret cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/expressions/navbar_content&action=edit)
+
 
 [ Templates](templates.html "cpp/language/templates")
 
@@ -373,7 +373,7 @@ Conversions
 **Constraints and concepts** (C++20)  
 [requires expression](requires.html "cpp/language/requires") (C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/templates/navbar_content&action=edit)
+
 
 [Class templates](class_template.html "cpp/language/class template"), [function templates](function_template.html "cpp/language/function template") (including [generic lambdas](lambda.html "cpp/language/lambda")), and other [templated functions](templates.html#Templated_entity "cpp/language/templates") (typically members of class templates) might be associated with a _constraint ﻿_ , which specifies the requirements on template arguments, which can be used to select the most appropriate function overloads and template specializations. 
 
@@ -458,7 +458,7 @@ The intent of concepts is to model semantic categories (Number, Range, RegularFu
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/constraints&action=edit&section=1 "Edit section: Concepts")] Concepts
+### Concepts
 
 A concept is a named set of [requirements](requires.html "cpp/language/requires"). The definition of a concept must appear at namespace scope. 
 
@@ -508,7 +508,7 @@ In a type-constraint, a concept takes one less template argument than its parame
     template<Derived<Base> T>
     void f(T); // T is constrained by Derived<T, Base>
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/constraints&action=edit&section=2 "Edit section: Constraints")] Constraints
+### Constraints
 
 A constraint is a sequence of logical operations and operands that specifies requirements on template arguments. They can appear within [requires expressions](requires.html "cpp/language/requires") or directly as bodies of concepts. 
 
@@ -534,7 +534,7 @@ The constraint associated with a declaration is determined by [normalizing](cons
 
 This order determines the order in which constraints are instantiated when checking for satisfaction. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/constraints&action=edit&section=3 "Edit section: Redeclarations")] Redeclarations
+#### Redeclarations
 
 A constrained declaration may only be redeclared using the same syntactic form. No diagnostic is required: 
     
@@ -563,7 +563,7 @@ A constrained declaration may only be redeclared using the same syntactic form. 
     template<Decrementable T> 
     void g(T) requires Incrementable<T>; // ill-formed, no diagnostic required
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/constraints&action=edit&section=4 "Edit section: Conjunctions")] Conjunctions
+#### Conjunctions
 
 The conjunction of two constraints is formed by using the `&&` operator in the constraint expression: 
     
@@ -593,7 +593,7 @@ A conjunction of two constraints is satisfied only if both constraints are satis
                 // 'sizeof(char) > 1' is not satisfied, so get_value<T>() is not checked
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/constraints&action=edit&section=5 "Edit section: Disjunctions")] Disjunctions
+#### Disjunctions
 
 The disjunction of two constraints is formed by using the `||` operator in the constraint expression. 
 
@@ -604,7 +604,7 @@ A disjunction of two constraints is satisfied if either constraint is satisfied.
         requires EqualityComparable<T> || Same<T, void>
     struct equal_to;
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/constraints&action=edit&section=6 "Edit section: Atomic constraints")] Atomic constraints
+#### Atomic constraints
 
 An atomic constraint consists of an expression E and a mapping from the template parameters that appear within E to template arguments involving the template parameters of the constrained entity, called its _parameter mapping ﻿_. 
 
@@ -711,7 +711,7 @@ A _fold expanded constraint_ is formed from a constraint `C` and a fold operator
 | (since C++26)  
 ---|---  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/constraints&action=edit&section=8 "Edit section: Constraint normalization")] Constraint normalization
+#### Constraint normalization
 
 _Constraint normalization_ is the process that transforms a constraint expression into a sequence of conjunctions and disjunctions of atomic constraints. The _normal form_ of an expression is defined as follows: 
 
@@ -760,7 +760,7 @@ _Constraint normalization_ is the process that transforms a constraint expressio
 
 User-defined overloads of `&&` or `||` have no effect on constraint normalization. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/constraints&action=edit&section=9 "Edit section: requires clauses")] requires clauses
+### requires clauses
 
 The keyword [`requires`](../keyword/requires.html "cpp/keyword/requires") is used to introduce a _requires clause ﻿_, which specifies constraints on template arguments or on a function declaration. 
     
@@ -797,7 +797,7 @@ The expression must have one of the following forms:
     template<class T>
     void h(T) requires (is_purrable<T>()); // OK
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/constraints&action=edit&section=10 "Edit section: Partial ordering of constraints")] Partial ordering of constraints
+### Partial ordering of constraints
 
 Before any further analysis, constraints are [normalized](constraints.html#Constraint_normalization) by substituting the body of every named concept and every [requires expression](requires.html "cpp/language/requires") until what is left is a sequence of conjunctions and disjunctions on atomic constraints. 
 
@@ -876,18 +876,18 @@ If all following conditions are satisfied, a non-template function `F1` is _more
      
     h((int*)0); // ambiguous
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/constraints&action=edit&section=11 "Edit section: Notes")] Notes
+### Notes
 
 Feature-test macro  | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_concepts`](../experimental/feature_test.html#cpp_concepts "cpp/feature test") | [`201907L`](../compiler_support/20.html#cpp_concepts_201907L "cpp/compiler support/20") | (C++20) | Constraints   
 [`202002L`](../compiler_support/20.html#cpp_concepts_202002L "cpp/compiler support/20") | (C++20) | Conditionally trivial [special member functions](member_functions.html#Special_member_functions "cpp/language/member functions")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/constraints&action=edit&section=12 "Edit section: Keywords")] Keywords
+### Keywords
 
 [`concept`](../keyword/concept.html "cpp/keyword/concept"), [`requires`](../keyword/requires.html "cpp/keyword/requires"), [`typename`](../keyword/typename.html "cpp/keyword/typename")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/constraints&action=edit&section=13 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -895,12 +895,12 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [CWG 2428](https://cplusplus.github.io/CWG/issues/2428.html) | C++20  | could not apply attributes to concepts  | allowed   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/constraints&action=edit&section=14 "Edit section: See also")] See also
+### See also
 
   * [Concepts TS](../experimental/constraints.html "cpp/experimental/constraints")
   * [Named requirements](../iterator/concepts.html "cpp/named req")
 
-[Requires expression](requires.html "cpp/language/requires")(C++20) |  yields a prvalue expression of type bool that describes the constraints[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_requires&action=edit)  
+[Requires expression](requires.html "cpp/language/requires")(C++20) |  yields a prvalue expression of type bool that describes the constraints  
 ---|---
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

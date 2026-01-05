@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Formatting library](../format.html "cpp/utility/format")
 
@@ -91,7 +91,7 @@ Formatting arguments
 [Format error](format.html#Format_error "cpp/utility/format/format")  
 [format_error](format_error.html "cpp/utility/format/format error")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/navbar_content&action=edit)
+
 
 Defined in header `[<format>](../../header/format.html "cpp/header/format")` |  |   
 ---|---|---  
@@ -107,7 +107,7 @@ debug_string
   
 Specifies how a range should be formatted. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/range_format&action=edit&section=1 "Edit section: Constants")] Constants
+### Constants
 
 Enumerator  |  Meaning   
 ---|---  
@@ -121,10 +121,10 @@ Enumerator  |  Meaning
 `string` |  allows to format range as string   
 `debug_string` |  allows to format range as escaped string   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/range_format&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ formatter](formatter.html "cpp/utility/format/formatter")(C++20) |  defines formatting rules for a given type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/dsc_formatter&action=edit)  
+(class template)   
 ---|---  
 [ format_kind](format_kind.html "cpp/utility/format/format kind")(C++23) |  selects a suited std::range_format for a range  
-(variable template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/dsc_format_kind&action=edit)
+(variable template)

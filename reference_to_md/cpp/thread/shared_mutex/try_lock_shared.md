@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::shared_mutex`](../shared_mutex.html "cpp/thread/shared mutex")
 
@@ -192,7 +192,7 @@ Shared locking
 Native handle  
 [shared_mutex::native_handle](native_handle.html "cpp/thread/shared mutex/native handle")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/shared_mutex/navbar_content&action=edit)
+
 
 bool try_lock_shared(); |  |  (since C++17)  
 ---|---|---  
@@ -217,30 +217,30 @@ The behavior is undefined if the calling thread already owns the mutex in any mo
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/shared_mutex/try_lock_shared&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/shared_mutex/try_lock_shared&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 true if the lock was acquired successfully, otherwise false. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/shared_mutex/try_lock_shared&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Throws nothing. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/shared_mutex/try_lock_shared&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/shared_mutex/try_lock_shared&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ lock](lock.html "cpp/thread/shared mutex/lock") |  locks the mutex, blocks if the mutex is not available   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/mutex/dsc_lock&action=edit)  
+(public member function)   
 ---|---  
 [ try_lock](try_lock.html "cpp/thread/shared mutex/try lock") |  tries to lock the mutex, returns if the mutex is not available   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/mutex/dsc_try_lock&action=edit)  
+(public member function)   
 [ unlock_shared](unlock_shared.html "cpp/thread/shared mutex/unlock shared") |  unlocks the mutex (shared ownership)   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/mutex/dsc_unlock_shared&action=edit)
+(public member function) 

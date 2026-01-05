@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Metaprogramming library](../meta.html "cpp/meta")
 
@@ -167,7 +167,7 @@ Type transformations
 Compile-time integer sequences  
 [integer_sequence](../utility/integer_sequence.html "cpp/utility/integer sequence")(C++14)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/meta/navbar_content&action=edit)
+
 
 Defined in header `[<type_traits>](../header/type_traits.html "cpp/header/type traits")` |  |   
 ---|---|---  
@@ -198,13 +198,13 @@ If the program adds specializations for `std::aligned_storage`, the behavior is 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/aligned_storage&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Name  |  Definition   
 ---|---  
 `type` |  a [trivial](../named_req/TrivialType.html "cpp/named req/TrivialType") and [standard-layout](../named_req/StandardLayoutType.html "cpp/named req/StandardLayoutType") type of at least size `Len` with alignment requirement `Align`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/aligned_storage&action=edit&section=2 "Edit section: Helper types")] Helper types
+### Helper types
 
 template< [std::size_t](size_t.html) Len, [std::size_t](size_t.html) Align = /* default-alignment */ >  
 using aligned_storage_t = typename aligned_storage<Len, Align>::type; |  |  (since C++14)   
@@ -212,13 +212,13 @@ using aligned_storage_t = typename aligned_storage<Len, Align>::type; |  |  (sin
 ---|---|---  
 | |   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/aligned_storage&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 The type defined by `std::aligned_storage<>::type` can be used to create uninitialized memory blocks suitable to hold the objects of given type, optionally aligned stricter than their natural alignment requirement, for example on a cache or page boundary. 
 
 As with any other uninitialized storage, the objects are created using [placement new](../language/new.html "cpp/language/new") and destroyed with explicit destructor calls. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/aligned_storage&action=edit&section=4 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
 
 Except for default argument, aligned_storage is expressible in terms of alignas: 
     
@@ -234,7 +234,7 @@ Except for default argument, aligned_storage is expressible in terms of alignas:
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/aligned_storage&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 A primitive static vector class, demonstrating creation, access, and destruction of objects in aligned storage.
 
@@ -296,18 +296,18 @@ Output:
     *****
     **********
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/aligned_storage&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 `**[alignas](../language/alignas.html "cpp/language/alignas")**` (C++11) |  specifies that the storage for the variable should be aligned by specific amount  
-(specifier)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_alignas&action=edit)  
+(specifier)  
 ---|---  
 [ alignment_of](alignment_of.html "cpp/types/alignment of")(C++11) |  obtains the type's alignment requirements   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_alignment_of&action=edit)  
+(class template)   
 [ aligned_alloc](../memory/c/aligned_alloc.html "cpp/memory/c/aligned alloc")(C++17) |  allocates aligned memory   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/c/dsc_aligned_alloc&action=edit)  
+(function)   
 [ aligned_union](aligned_union.html "cpp/types/aligned union")(since C++11)(deprecated in C++23) |  defines the type suitable for use as uninitialized storage for all given types   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_aligned_union&action=edit)  
+(class template)   
 [ max_align_t](max_align_t.html "cpp/types/max align t")(C++11) |  trivial type with alignment requirement as great as any other scalar type   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_max_align_t&action=edit)  
+(typedef)   
 [ launder](../utility/launder.html "cpp/utility/launder")(C++17) |  pointer optimization barrier   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_launder&action=edit)
+(function template) 

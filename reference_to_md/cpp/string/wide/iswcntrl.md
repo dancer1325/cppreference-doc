@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Null-terminated wide strings](../wide.html "cpp/string/wide")
 
@@ -153,7 +153,7 @@
 WCHAR_MAX  
 WEOF](../wide.html#Macros "cpp/string/wide")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/navbar_content&action=edit)
+
 
 Defined in header `[<cwctype>](../../header/cwctype.html "cpp/header/cwctype")` |  |   
 ---|---|---  
@@ -175,20 +175,20 @@ If the value of ch is neither representable as a wchar_t nor equal to the value 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/iswcntrl&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 ch  |  \-  |  wide character   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/iswcntrl&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Non-zero value if the wide character is a control character, zero otherwise. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/iswcntrl&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 ISO 30112 defines POSIX control characters as Unicode characters U+0000..U+001F, U+007F..U+009F, U+2028, and U+2029 (Unicode classes Cc, Zl, and Zp). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/iswcntrl&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -215,13 +215,13 @@ Output:
     in the default locale, iswcntrl(0x2028) = false
     in Unicode locale, iswcntrl(0x2028) = true
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/iswcntrl&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ iscntrl(std::locale)](../../locale/iscntrl.html "cpp/locale/iscntrl") |  checks if a character is classified as a control character by a locale   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_iscntrl&action=edit)  
+(function template)   
 ---|---  
 [ iscntrl](../byte/iscntrl.html "cpp/string/byte/iscntrl") |  checks if a character is a control character   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_iscntrl&action=edit)  
+(function)   
 [C documentation](../../../c/string/wide/iswcntrl.html "c/string/wide/iswcntrl") for iswcntrl  
 ASCII values  | characters  |  [`iscntrl`](../byte/iscntrl.html "cpp/string/byte/iscntrl")  
 **`iswcntrl`** |  [`isprint`](../byte/isprint.html "cpp/string/byte/isprint")  

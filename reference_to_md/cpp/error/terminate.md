@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Diagnostics library](../error.html "cpp/error")
 
@@ -89,7 +89,7 @@ Exception handling failures
 [breakpoint_if_debugging](../utility/breakpoint_if_debugging.html "cpp/utility/breakpoint if debugging")(C++26)  
 [breakpoint](../utility/breakpoint.html "cpp/utility/breakpoint")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/navbar_content&action=edit)
+
 
 Defined in header `[<exception>](../header/exception.html "cpp/header/exception")` |  |   
 ---|---|---  
@@ -124,13 +124,13 @@ If a destructor reset the terminate handler during stack unwinding and the unwin
 ---|---  
 If a destructor reset the terminate handler during stack unwinding, it is unspecified which handler is called if the unwinding later led to `terminate` being called.  | (since C++11)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/terminate&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 If the handler mechanism is not wanted, e.g. because it requires atomic operations which may bloat binary size, a direct call to [std::abort](../utility/program/abort.html "cpp/utility/program/abort") is preferred when terminating the program abnormally. 
 
 Some compiler intrinsics, e.g. [`__builtin_trap`](https://gcc.gnu.org/onlinedocs/gcc/Other-Builtins.html) (gcc, clang, and icc) or [`__debugbreak`](https://docs.microsoft.com/en-us/cpp/intrinsics/debugbreak?view=msvc-160) (msvc), can be used to terminate the program as fast as possible. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/terminate&action=edit&section=2 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -139,12 +139,12 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [LWG 2111](https://cplusplus.github.io/LWG/issue2111) | C++11  | effect of calling [std::set_terminate](set_terminate.html "cpp/error/set terminate") during stack  
 unwinding differs from C++98 and breaks some ABIs  | made unspecified   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/terminate&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ terminate_handler](terminate_handler.html "cpp/error/terminate handler") |  the type of the function called by **std::terminate**   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_terminate_handler&action=edit)  
+(typedef)   
 ---|---  
 [ abort](../utility/program/abort.html "cpp/utility/program/abort") |  causes abnormal program termination (without cleaning up)   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/program/dsc_abort&action=edit)  
+(function)   
 [ breakpoint](../utility/breakpoint.html "cpp/utility/breakpoint")(C++26) |  pauses the running program when called   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_breakpoint&action=edit)
+(function) 

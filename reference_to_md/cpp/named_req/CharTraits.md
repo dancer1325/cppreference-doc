@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ named requirements](../iterator/concepts.html "cpp/named req")
 
@@ -147,7 +147,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/named_req/navbar_content&action=edit)
+
 
 **CharTraits** is a traits class that abstracts basic character and string operations for a given character type. Most standard library string and input/output classes require a CharTraits template type parameter alongside a corresponding character template type parameter. 
 
@@ -167,7 +167,7 @@
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/CharTraits&action=edit&section=1 "Edit section: Requirements")] Requirements
+### Requirements
 
 No operation listed below on CharTraits may throw an exception. 
 
@@ -186,7 +186,7 @@ Given
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/CharTraits&action=edit&section=2 "Edit section: Types")] Types
+### Types
 
 Type | Semantics   
 ---|---  
@@ -202,7 +202,7 @@ Type | Semantics
   
 `X::state_type` |  [Destructible](Destructible.html "cpp/named req/Destructible"), [CopyAssignable](CopyAssignable.html "cpp/named req/CopyAssignable"), [CopyConstructible](CopyConstructible.html "cpp/named req/CopyConstructible"), [DefaultConstructible](DefaultConstructible.html "cpp/named req/DefaultConstructible")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/CharTraits&action=edit&section=3 "Edit section: Expressions")] Expressions
+### Expressions
 
 Expression | Return type | Semantics |  Complexity   
 ---|---|---|---  
@@ -271,7 +271,7 @@ X::to_int_type(d))
 |  Constant   
 X::eof() |  `X::int_type` |  Returns: a value e such that X::eq_int_type(e, X::to_int_type(c)) is false for all values c |  Constant   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/CharTraits&action=edit&section=4 "Edit section: Standard library")] Standard library
+### Standard library
 
 CharTraits is required by the following standard library class templates as a template type parameter: 
 
@@ -279,70 +279,70 @@ CharTraits is required by the following standard library class templates as a te
   
 ---  
 [ basic_string](../string/basic_string.html "cpp/string/basic string") |  stores and manipulates sequences of characters   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/dsc_basic_string&action=edit)  
+(class template)   
 [ basic_string_view](../string/basic_string_view.html "cpp/string/basic string view")(C++17) |  read-only string view   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/dsc_basic_string_view&action=edit)  
+(class template)   
   
 #####  Streams   
   
 [ basic_ios](../io/basic_ios.html "cpp/io/basic ios") |  manages an arbitrary stream buffer   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_basic_ios&action=edit)  
+(class template)   
 [ basic_istream](../io/basic_istream.html "cpp/io/basic istream") |  wraps a given abstract device ([std::basic_streambuf](../io/basic_streambuf.html "cpp/io/basic streambuf"))  
 and provides high-level input interface   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_basic_istream&action=edit)  
+(class template)   
 [ basic_ifstream](../io/basic_ifstream.html "cpp/io/basic ifstream") |  implements high-level file stream input operations   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_basic_ifstream&action=edit)  
+(class template)   
 [ basic_istringstream](../io/basic_istringstream.html "cpp/io/basic istringstream") |  implements high-level string stream input operations   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_basic_istringstream&action=edit)  
+(class template)   
 [ basic_ispanstream](../io/basic_ispanstream.html "cpp/io/basic ispanstream")(C++23) |  implements fixed character buffer input operations   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_basic_ispanstream&action=edit)  
+(class template)   
 [ basic_ostream](../io/basic_ostream.html "cpp/io/basic ostream") |  wraps a given abstract device ([std::basic_streambuf](../io/basic_streambuf.html "cpp/io/basic streambuf"))  
 and provides high-level output interface   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_basic_ostream&action=edit)  
+(class template)   
 [ basic_ofstream](../io/basic_ofstream.html "cpp/io/basic ofstream") |  implements high-level file stream output operations   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_basic_ofstream&action=edit)  
+(class template)   
 [ basic_ostringstream](../io/basic_ostringstream.html "cpp/io/basic ostringstream") |  implements high-level string stream output operations   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_basic_ostringstream&action=edit)  
+(class template)   
 [ basic_osyncstream](../io/basic_osyncstream.html "cpp/io/basic osyncstream")(C++20) |  synchronized output stream wrapper   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_basic_osyncstream&action=edit)  
+(class template)   
 [ basic_ospanstream](../io/basic_ospanstream.html "cpp/io/basic ospanstream")(C++23) |  implements fixed character buffer output operations   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_basic_ospanstream&action=edit)  
+(class template)   
 [ basic_iostream](../io/basic_iostream.html "cpp/io/basic iostream") |  wraps a given abstract device ([std::basic_streambuf](../io/basic_streambuf.html "cpp/io/basic streambuf"))  
 and provides high-level input/output interface   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_basic_iostream&action=edit)  
+(class template)   
 [ basic_fstream](../io/basic_fstream.html "cpp/io/basic fstream") |  implements high-level file stream input/output operations   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_basic_fstream&action=edit)  
+(class template)   
 [ basic_stringstream](../io/basic_stringstream.html "cpp/io/basic stringstream") |  implements high-level string stream input/output operations   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_basic_stringstream&action=edit)  
+(class template)   
 [ basic_spanstream](../io/basic_spanstream.html "cpp/io/basic spanstream")(C++23) |  implements fixed character buffer input/output operations   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_basic_spanstream&action=edit)  
+(class template)   
   
 #####  Stream iterators   
   
 [ istream_iterator](../iterator/istream_iterator.html "cpp/iterator/istream iterator") |  input iterator that reads from [std::basic_istream](../io/basic_istream.html "cpp/io/basic istream")   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_istream_iterator&action=edit)  
+(class template)   
 [ ostream_iterator](../iterator/ostream_iterator.html "cpp/iterator/ostream iterator") |  output iterator that writes to [std::basic_ostream](../io/basic_ostream.html "cpp/io/basic ostream")   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_ostream_iterator&action=edit)  
+(class template)   
   
 #####  Stream buffers   
   
 [ basic_streambuf](../io/basic_streambuf.html "cpp/io/basic streambuf") |  abstracts a raw device   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_basic_streambuf&action=edit)  
+(class template)   
 [ basic_filebuf](../io/basic_filebuf.html "cpp/io/basic filebuf") |  implements raw file device   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_basic_filebuf&action=edit)  
+(class template)   
 [ basic_stringbuf](../io/basic_stringbuf.html "cpp/io/basic stringbuf") |  implements raw string device   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_basic_stringbuf&action=edit)  
+(class template)   
 [ basic_syncbuf](../io/basic_syncbuf.html "cpp/io/basic syncbuf")(C++20) |  synchronized output device wrapper   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_basic_syncbuf&action=edit)  
+(class template)   
 [ basic_spanbuf](../io/basic_spanbuf.html "cpp/io/basic spanbuf")(C++23) |  implements raw fixed character buffer device   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_basic_spanbuf&action=edit)  
+(class template)   
   
 #####  Stream buffer iterators   
   
 [ istreambuf_iterator](../iterator/istreambuf_iterator.html "cpp/iterator/istreambuf iterator") |  input iterator that reads from [std::basic_streambuf](../io/basic_streambuf.html "cpp/io/basic streambuf")   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_istreambuf_iterator&action=edit)  
+(class template)   
 [ ostreambuf_iterator](../iterator/ostreambuf_iterator.html "cpp/iterator/ostreambuf iterator") |  output iterator that writes to [std::basic_streambuf](../io/basic_streambuf.html "cpp/io/basic streambuf")   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_ostreambuf_iterator&action=edit)  
+(class template)   
   
   
 CharTraits is satisfied by the following standard library explicit specializations of [std::char_traits](../string/char_traits.html "cpp/string/char traits"): 
@@ -359,7 +359,7 @@ template<> class char_traits<char32_t>; |  |
 ---|---|---  
 | |   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/CharTraits&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Filesystem library](../../filesystem.html "cpp/filesystem")
 
@@ -100,7 +100,7 @@ filesystem::symlink_status](../status.html "cpp/filesystem/status")
 [filesystem::is_socket](../is_socket.html "cpp/filesystem/is socket")  
 [filesystem::is_symlink](../is_symlink.html "cpp/filesystem/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/navbar_content&action=edit)
+
 
 [`std::filesystem::file_status`](../file_status.html "cpp/filesystem/file status")
 
@@ -113,7 +113,7 @@ Member functions
 Non-member functions  
 [operator==](operator==.html "cpp/filesystem/file status/operator==")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/file_status/navbar_content&action=edit)
+
 
 file_status() noexcept : file_status([std::filesystem::file_type::none](../file_type.html)) {} |  (1)  |  (since C++17)  
 ---|---|---  
@@ -132,13 +132,13 @@ Constructs a new `file_status` object.
 
 4) Initializes the file status object with `type` as type and `permissions` as permissions.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/file_status/file_status&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 type  |  \-  |  type of the file status   
 ---|---|---  
 permissions  |  \-  |  permissions of the file status   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/file_status/file_status&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

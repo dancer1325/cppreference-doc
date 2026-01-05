@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -79,7 +79,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_spanstream`](../basic_spanstream.html "cpp/io/basic spanstream")
 
@@ -94,7 +94,7 @@ Error category interface
 [Non-member functions](../basic_spanstream.html#Non-member_functions "cpp/io/basic spanstream")  
 [swap(std::basic_spanstream)](swap2.html "cpp/io/basic spanstream/swap2")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_spanstream/navbar_content&action=edit)
+
 
 basic_spanstream& operator=( basic_spanstream&& other ); |  (1)  |  (since C++23)  
 ---|---|---  
@@ -120,29 +120,29 @@ It is implementation-defined whether the std::basic_spanbuf wrapped in other sti
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_spanstream/operator%3D&action=edit&section=T-1 "Template:cpp/io/basic spanstream/operator=")] Parameters
+### Parameters
 
 other  |  \-  |  another stream to move from   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_spanstream/operator%3D&action=edit&section=T-2 "Template:cpp/io/basic spanstream/operator=")] Return value
+### Return value
 
 *this
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/impldef_exception&action=edit&section=T-1 "Template:cpp/impldef exception")] Exceptions
+### Exceptions
 
 May throw implementation-defined exceptions. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_spanstream/operator%3D&action=edit&section=T-3 "Template:cpp/io/basic spanstream/operator=")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_spanstream/operator%3D&action=edit&section=T-4 "Template:cpp/io/basic spanstream/operator=")] See also
+### See also
 
 [ operator=](../basic_spanbuf/operator=.html "cpp/io/basic spanbuf/operator=") |  assigns a `basic_spanbuf` object   
-(public member function of `std::basic_spanbuf<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_spanbuf/dsc_operator%3D&action=edit)  
+(public member function of `std::basic_spanbuf<CharT,Traits>`)   
 ---|---  
 [ operator=](../basic_iostream/operator=.html "cpp/io/basic iostream/operator=")(C++11) |  move-assigns another `basic_iostream`   
-(protected member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_iostream/dsc_operator%3D&action=edit)
+(protected member function) 

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Formatting library](../format.html "cpp/utility/format")
 
@@ -91,7 +91,7 @@ Formatting arguments
 [Format error](format.html#Format_error "cpp/utility/format/format")  
 [format_error](format_error.html "cpp/utility/format/format error")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/navbar_content&action=edit)
+
 
 Defined in header `[<format>](../../header/format.html "cpp/header/format")` |  |   
 ---|---|---  
@@ -123,12 +123,12 @@ The program is ill-formed if for any type `Ti` in `Args`, `Ti` does not satisfy 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/make_format_args&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 args...  |  \-  |  values to be used as formatting arguments   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/make_format_args&action=edit&section=2 "Edit section: Returns")] Returns
+### Returns
 
 An object that holds the formatting arguments. 
 
@@ -148,7 +148,7 @@ For each argument `t` of type `T`, let `TD` be [std::remove_const_t](../../types
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/make_format_args&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 A formatting argument has reference semantics for user-defined types and does not extend the lifetime of args. It is the programmer's responsibility to ensure that args outlive the return value. Usually, the result is only used as argument to formatting function. 
 
@@ -157,7 +157,7 @@ A formatting argument has reference semantics for user-defined types and does no
 [`__cpp_lib_format_uchar`](../../experimental/feature_test.html#cpp_lib_format_uchar "cpp/feature test") | [`202311L`](../../compiler_support/20.html#cpp_lib_format_uchar_202311L "cpp/compiler support/20") | (C++20)  
 (DR) | Formatting of code units as unsigned integers   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/make_format_args&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -210,7 +210,7 @@ Output:
     0002 : For example: 1 2.0 3 *42*
     0003 : 01 │ 2.0 │ 3 │ 4
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/make_format_args&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -224,14 +224,14 @@ out-of-range unsigned integer values  | code units are converted to the correspo
 unsigned type before such formatting   
 [LWG 3631](https://cplusplus.github.io/LWG/issue3631) | C++20  | cv-qualified arguments were incorrectly handled after P2418R2  | handling corrected   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/make_format_args&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ basic_format_argsformat_argswformat_args](basic_format_args.html "cpp/utility/format/basic format args")(C++20)(C++20)(C++20) |  class that provides access to all formatting arguments   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/dsc_basic_format_args&action=edit)  
+(class template)   
 ---|---  
 [ vformat](vformat.html "cpp/utility/format/vformat")(C++20) |  non-template variant of [std::format](format.html "cpp/utility/format/format") using type-erased argument representation   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/dsc_vformat&action=edit)  
+(function)   
 [ vformat_to](vformat_to.html "cpp/utility/format/vformat to")(C++20) |  non-template variant of [std::format_to](format_to.html "cpp/utility/format/format to") using type-erased argument representation   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/dsc_vformat_to&action=edit)
+(function template) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

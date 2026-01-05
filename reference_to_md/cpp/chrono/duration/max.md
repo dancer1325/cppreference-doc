@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::duration`](../duration.html "cpp/chrono/duration")
 
@@ -156,7 +156,7 @@ Helper classes
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/duration/navbar_content&action=edit)
+
 
 static constexpr duration max(); |  | (until C++20)  
 ---|---|---  
@@ -177,15 +177,15 @@ If the representation `rep` of the duration requires some other implementation t
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/duration/max&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/duration/max&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 duration([std::chrono::duration_values](../duration_values.html)<rep>::max())
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/duration/max&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -232,10 +232,10 @@ Possible output:
     chrono::seconds::max() = 9223372036854775807, sizeof(chrono::seconds) = 8 bytes.
     chrono::seconds CAN keep the Age of the Universe in SECONDS.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/duration/max&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ zero](zero.html "cpp/chrono/duration/zero")[static] |  returns the special duration value zero   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/duration/dsc_zero&action=edit)  
+(public static member function)   
 ---|---  
 [ min](min.html "cpp/chrono/duration/min")[static] |  returns the special duration value min   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/duration/dsc_min&action=edit)
+(public static member function) 

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [C-style date and time utilities](../c.html "cpp/chrono/c")
 
@@ -128,7 +128,7 @@ Types
 [clock_t](clock_t.html "cpp/chrono/c/clock t")  
 [timespec](timespec.html "cpp/chrono/c/timespec")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/c/navbar_content&action=edit)
+
 
 Defined in header `[<ctime>](../../header/ctime.html "cpp/header/ctime")` |  |   
 ---|---|---  
@@ -147,7 +147,7 @@ Structure holding a calendar date and time broken down into its components.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/c/tm&action=edit&section=1 "Edit section: Member objects")] Member objects
+### Member objects
 
 int tm_sec |  seconds after the minute – `[`​0​`, `61`]`(until C++11) `[`​0​`, `60`]`(since C++11)[[note 1]](tm.html#cite_note-leapsecond-1)   
 (public member object)  
@@ -173,7 +173,7 @@ int tm_isdst |  Daylight Saving Time flag. The value is positive if DST is in ef
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/c/tm&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 BSD, GNU and musl C library support two additional members, which are standardized in [POSIX.1-2024](https://pubs.opengroup.org/onlinepubs/9799919799/basedefs/time.h.html). 
 
@@ -183,7 +183,7 @@ long tm_gmtoff |  seconds east of UTC
 const char* tm_zone |  timezone abbreviation   
 (public member object)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/c/tm&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -206,11 +206,11 @@ Possible output:
     
     Sat Jan  1 00:00:00 2022
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/c/tm&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ localtime](localtime.html "cpp/chrono/c/localtime") |  converts time since epoch to calendar time expressed as local time   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/c/dsc_localtime&action=edit)  
+(function)   
 ---|---  
 [ gmtime](gmtime.html "cpp/chrono/c/gmtime") |  converts time since epoch to calendar time expressed as Universal Coordinated Time   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/c/dsc_gmtime&action=edit)  
+(function)   
 [C documentation](../../../c/chrono/tm.html "c/chrono/tm") for tm

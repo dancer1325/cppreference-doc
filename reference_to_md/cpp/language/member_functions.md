@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Classes](classes.html "cpp/language/classes")
 
@@ -261,7 +261,7 @@ Inheritance
 [`override` specifier](override.html "cpp/language/override") (C++11)  
 [`final` specifier](final.html "cpp/language/final") (C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/classes/navbar_content&action=edit)
+
 
 A non-static member function is a function that is declared in a [member specification](class.html "cpp/language/class") of a class without a [`static`](static.html "cpp/language/static") or [`friend`](friend.html "cpp/language/friend") specifier (see [static member functions](static.html#Static_member_functions "cpp/language/static") and [friend declaration](friend.html "cpp/language/friend") for the effect of those keywords). 
     
@@ -305,7 +305,7 @@ An _implicit object member function_ is a non-static member function without an 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/member_functions&action=edit&section=1 "Edit section: Explanation")] Explanation
+### Explanation
 
 Any [function declarations](function.html "cpp/language/function") are allowed, with additional syntax elements that are only available for non-static member functions: [pure-specifiers](abstract_class.html "cpp/language/abstract class"), cv-qualifiers, ref-qualifiers, [`final`](final.html "cpp/language/final") and [`override`](override.html "cpp/language/override") specifiers(since C++11), and [member initialization lists](initializer_list.html "cpp/language/initializer list"). 
 
@@ -361,7 +361,7 @@ Within the body of a non-static member function of `X`, any unqualified-id that 
         s1.f(); // changes S::n
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/member_functions&action=edit&section=2 "Edit section: Member functions with cv-qualifiers")] Member functions with cv-qualifiers
+#### Member functions with cv-qualifiers
 
 An implicit object member function can be declared with a [cv-qualifier](cv.html "cpp/language/cv") sequence (const, volatile, or a combination of const and volatile), this sequence appears after the parameter list in the [function declaration](function.html "cpp/language/function"). Functions with different cv-qualifier sequences (or no sequence) have different types and so may overload each other. 
 
@@ -426,7 +426,7 @@ An implicit object member function can be declared with no ref-qualifier, with a
 Note: unlike cv-qualification, ref-qualification does not change the properties of the [`this`](this.html "cpp/language/this") pointer: within an rvalue ref-qualified function, *this remains an lvalue expression.  | (since C++11)  
 ---|---  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/member_functions&action=edit&section=4 "Edit section: Virtual and pure virtual functions")] Virtual and pure virtual functions
+#### Virtual and pure virtual functions
 
 A non-static member function may be declared _virtual_ or _pure virtual_. See [virtual functions](virtual.html "cpp/language/virtual") and [abstract classes](abstract_class.html "cpp/language/abstract class") for details. 
 
@@ -498,7 +498,7 @@ A pointer to an explicit object member function is an ordinary pointer to functi
 | (since C++23)  
 ---|---  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/member_functions&action=edit&section=6 "Edit section: Special member functions")] Special member functions
+#### Special member functions
 
 Some member functions are _special_ : under certain circumstances they are defined by the compiler even if not defined by the user. They are: 
 
@@ -527,14 +527,14 @@ Some member functions are _special_ : under certain circumstances they are defin
 
 Special member functions along with the [comparison operators](default_comparisons.html "cpp/language/default comparisons")(since C++20) are the only functions that can be _defaulted_ , that is, defined using = default instead of the function body (see their pages for details). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/member_functions&action=edit&section=7 "Edit section: Notes")] Notes
+### Notes
 
 Feature-test macro  | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_ref_qualifiers`](../experimental/feature_test.html#cpp_ref_qualifiers "cpp/feature test") | [`200710L`](../compiler_support/11.html#cpp_ref_qualifiers_200710L "cpp/compiler support/11") | (C++11) | [ref-qualifiers](function.html#Function_declaration "cpp/language/function")  
 [`__cpp_explicit_this_parameter`](../experimental/feature_test.html#cpp_explicit_this_parameter "cpp/feature test") | [`202110L`](../compiler_support/23.html#cpp_explicit_this_parameter_202110L "cpp/compiler support/23") | (C++23) | [explicit object parameter](function.html#explicit_object_parameter "cpp/language/function") ([deducing `this`](member_functions.html#Explicit_object_member_functions))   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/member_functions&action=edit&section=8 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -620,7 +620,7 @@ Output:
     2
     ctor1 called, data = 3
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/member_functions&action=edit&section=9 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -629,7 +629,7 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [CWG 194](https://cplusplus.github.io/CWG/issues/194.html) | C++98  | ambiguous whether a non-static member function  
 could have the same name as the enclosing class name  | explicit naming restriction added   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/member_functions&action=edit&section=10 "Edit section: See also")] See also
+### See also
 
   * [classes](classes.html "cpp/language/classes")
   * [non-static data members](data_members.html "cpp/language/data members")

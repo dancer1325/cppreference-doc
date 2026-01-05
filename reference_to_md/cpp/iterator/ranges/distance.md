@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](../empty.html "cpp/iterator/empty")(C++17)  
 [data](../data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 Defined in header `[<iterator>](../../header/iterator.html "cpp/header/iterator")` |  |   
 ---|---|---  
@@ -236,14 +236,14 @@ The function-like entities described on this page are [_algorithm function objec
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/ranges/distance&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first  |  \-  |  iterator pointing to the first element   
 ---|---|---  
 last  |  \-  |  sentinel denoting the end of the range first is an iterator to   
 r  |  \-  |  range to calculate the distance of   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/ranges/distance&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) The number of increments needed to go from first to last.
 
@@ -251,7 +251,7 @@ r  |  \-  |  range to calculate the distance of
 
 3) If `R` models [ranges::sized_range](../../ranges/sized_range.html), returns [ranges::size](../../ranges/size.html)(r); otherwise ranges::distance([ranges::begin](../../ranges/begin.html)(r), [ranges::end](../../ranges/end.html)(r)).
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/ranges/distance&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 1) Linear.
 
@@ -259,7 +259,7 @@ r  |  \-  |  range to calculate the distance of
 
 3) If `R` models [ranges::sized_range](../../ranges/sized_range.html) or if [std::sized_sentinel_for](../sized_sentinel_for.html)<[ranges::sentinel_t](../../ranges/iterator_t.html)<R>, [ranges::iterator_t](../../ranges/iterator_t.html)<R>> is modeled, complexity is constant; otherwise linear.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/ranges/distance&action=edit&section=4 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     struct distance_fn
@@ -297,7 +297,7 @@ r  |  \-  |  range to calculate the distance of
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/ranges/distance&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -320,7 +320,7 @@ Run this code
         [assert](../../error/assert.html)(size == 3);
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/ranges/distance&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -331,12 +331,12 @@ iterator lvalue with a sized sentinel was rejected  | added overload (2)
 [LWG 3664](https://cplusplus.github.io/LWG/issue3664) | C++20  | the resolution of [LWG issue 3392](https://cplusplus.github.io/LWG/issue3392) made  
 `ranges::distance` reject array arguments  | accepts them   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/ranges/distance&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ ranges::advance](advance.html "cpp/iterator/ranges/advance")(C++20) |  advances an iterator by given distance or to a given bound  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/ranges/dsc_advance&action=edit)  
+(algorithm function object)  
 ---|---  
 [ ranges::countranges::count_if](../../algorithm/ranges/count.html "cpp/algorithm/ranges/count")(C++20)(C++20) |  returns the number of elements satisfying specific criteria  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_count&action=edit)  
+(algorithm function object)  
 [ distance](../distance.html "cpp/iterator/distance") |  returns the distance between two iterators   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_distance&action=edit)
+(function template) 

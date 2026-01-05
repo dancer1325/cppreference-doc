@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 **`std::chrono::weekday_indexed`**
 
@@ -118,7 +118,7 @@ Helper classes
 [formatter<std::chrono::weekday_indexed>](weekday_indexed/formatter.html "cpp/chrono/weekday indexed/formatter")  
 [hash<std::chrono::weekday_indexed>](weekday_indexed/hash.html "cpp/chrono/weekday indexed/hash")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/weekday_indexed/navbar_content&action=edit)
+
 
 Defined in header `[<chrono>](../header/chrono.html "cpp/header/chrono")` |  |   
 ---|---|---  
@@ -139,35 +139,35 @@ The class `weekday_indexed` combines a [`weekday`](weekday.html "cpp/chrono/week
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/weekday_indexed&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](weekday_indexed/weekday_indexed.html "cpp/chrono/weekday indexed/weekday indexed") |  constructs a `weekday_indexed`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/weekday_indexed/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ weekday](weekday_indexed/weekday.html "cpp/chrono/weekday indexed/weekday") |  access the stored [`weekday`](weekday.html "cpp/chrono/weekday")   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/weekday_indexed/dsc_weekday&action=edit)  
+(public member function)   
 [ index](weekday_indexed/index.html "cpp/chrono/weekday indexed/index") |  access the stored index   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/weekday_indexed/dsc_index&action=edit)  
+(public member function)   
 [ ok](weekday_indexed/ok.html "cpp/chrono/weekday indexed/ok") |  checks if the weekday and index are both valid   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/weekday_indexed/dsc_ok&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/weekday_indexed&action=edit&section=2 "Edit section: Nonmember functions")] Nonmember functions
+### Nonmember functions
 
 [ operator==](weekday_indexed/operator_cmp.html "cpp/chrono/weekday indexed/operator cmp")(C++20) |  compares two `weekday_indexed` values   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/weekday_indexed/dsc_operator_cmp&action=edit)  
+(function)   
 ---|---  
 [ operator<<](weekday_indexed/operator_ltlt.html "cpp/chrono/weekday indexed/operator ltlt")(C++20) |  outputs a `weekday_indexed` into a stream   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/weekday_indexed/dsc_operator_ltlt&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/weekday_indexed&action=edit&section=3 "Edit section: Helper classes")] Helper classes
+### Helper classes
 
 [ std::formatter<std::chrono::weekday_indexed>](weekday_indexed/formatter.html "cpp/chrono/weekday indexed/formatter")(C++20) |  formatting support for `weekday_indexed`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_formatter&action=edit)  
+(class template specialization)   
 ---|---  
 [ std::hash<std::chrono::weekday_indexed>](weekday_indexed/hash.html "cpp/chrono/weekday indexed/hash")(C++26) |  hash support for **`std::chrono::weekday_indexed`**   
 (class template specialization)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/weekday_indexed&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::time_zone`](../time_zone.html "cpp/chrono/time zone")
 
@@ -114,7 +114,7 @@ Member functions
 Nonmember functions  
 [operator==operator<=>](operator_cmp.html "cpp/chrono/time zone/operator cmp")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_zone/navbar_content&action=edit)
+
 
 template< class Duration >  
 auto to_local( const [std::chrono::sys_time](../system_clock.html)<Duration>& tp ) const  
@@ -134,20 +134,20 @@ Converts the `sys_time` tp to the corresponding `local_time` in this [time zone]
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/time_zone/to_local&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 tp  |  \-  |  a time point to be converted   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/time_zone/to_local&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The [`local_time`](../local_t.html "cpp/chrono/local t") associated with tp and this time zone. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/time_zone/to_local&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 The precision of the result is at least [std::chrono::seconds](../duration.html "cpp/chrono/duration"), and will be finer if the argument has finer precision. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/time_zone/to_local&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     

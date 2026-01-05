@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](ranges/copy.html "cpp/algorithm/ra
 [uninitialized_default_construct_n](../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -327,7 +327,7 @@ This overload participates in overload resolution only if all following conditio
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/generate&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  the pair of iterators defining the [range](../iterator.html#Ranges "cpp/iterator") of elements to generate   
 ---|---|---  
@@ -342,11 +342,11 @@ The type Ret must be such that an object of type ForwardIt can be dereferenced a
 Type requirements   
 -`ForwardIt` must meet the requirements of [LegacyForwardIterator](../named_req/ForwardIterator.html "cpp/named req/ForwardIterator").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/generate&action=edit&section=2 "Edit section: Complexity")] Complexity
+### Complexity
 
 Exactly [std::distance](../iterator/distance.html)(first, last) invocations of g() and assignments. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/generate&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 The overload with a template parameter named `ExecutionPolicy` reports errors as follows: 
 
@@ -355,7 +355,7 @@ The overload with a template parameter named `ExecutionPolicy` reports errors as
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/generate&action=edit&section=4 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     template<class ForwardIt, class Generator>
@@ -368,7 +368,7 @@ The overload with a template parameter named `ExecutionPolicy` reports errors as
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/generate&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -410,14 +410,14 @@ Output:
     v: 1 2 3 4 5
     v: 0 1 2 3 4
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/generate&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ fill](fill.html "cpp/algorithm/fill") |  copy-assigns the given value to every element in a range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_fill&action=edit)  
+(function template)   
 ---|---  
 [ generate_n](generate_n.html "cpp/algorithm/generate n") |  assigns the results of successive function calls to N elements in a range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_generate_n&action=edit)  
+(function template)   
 [ iota](iota.html "cpp/algorithm/iota")(C++11) |  fills a range with successive increments of the starting value   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_iota&action=edit)  
+(function template)   
 [ ranges::generate](ranges/generate.html "cpp/algorithm/ranges/generate")(C++20) |  saves the result of a function in a range  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_generate&action=edit)
+(algorithm function object)

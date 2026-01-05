@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::any`](../any.html "cpp/utility/any")
 
@@ -151,7 +151,7 @@ Common vocabulary types
 [Helper classes](../any.html#Helper_classes "cpp/utility/any")  
 [bad_any_cast](bad_any_cast.html "cpp/utility/any/bad any cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/any/navbar_content&action=edit)
+
 
 bool has_value() const noexcept; |  |  (since C++17)  
 ---|---|---  
@@ -169,15 +169,15 @@ Checks whether the object contains a value.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/any/has_value&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/any/has_value&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 true if and only if the instance contains a value. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/any/has_value&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -204,8 +204,8 @@ Run this code
         [assert](../../error/assert.html)(a2.has_value() == false);
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/any/has_value&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ reset](reset.html "cpp/utility/any/reset") |  destroys contained object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/any/dsc_reset&action=edit)  
+(public member function)   
 ---|---

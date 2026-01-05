@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Function objects](../../functional.html "cpp/utility/functional")
 
@@ -255,7 +255,7 @@ Identity function object
 [unary_negate](unary_negate.html "cpp/utility/functional/unary negate")(until C++20*)  
 [binary_negate](binary_negate.html "cpp/utility/functional/binary negate")(until C++20*)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/navbar_content&action=edit)
+
 
 Defined in header `[<functional>](../../header/functional.html "cpp/header/functional")` |  |   
 ---|---|---  
@@ -284,13 +284,13 @@ Function object for performing comparisons. The main template invokes operator< 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/less&action=edit&section=1 "Edit section: Specializations")] Specializations
+### Specializations
 
 [ less<void>](less_void.html "cpp/utility/functional/less void")(C++14) |  function object implementing x < y deducing parameter and return types   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_less_void&action=edit)  
+(class template specialization)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/member_types&action=edit&section=T-1 "Template:cpp/utility/functional/member types")] Member types
+### Member types
 
 Type  |  Definition   
 ---|---  
@@ -300,7 +300,7 @@ Type  |  Definition
 These member types are obtained via publicly inheriting [std::binary_function](binary_function.html)<T, T, bool>.  | (until C++11)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/less&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 operator() |  checks whether the first argument is _less_ than the second   
 (public member function)  
@@ -325,7 +325,7 @@ lhs < rhs.
 
 If `T` is a pointer type, the result is consistent with the [implementation-defined strict total order over pointers](../../language/operator_comparison.html#Pointer_total_order "cpp/language/operator comparison"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/impldef_exception&action=edit&section=T-1 "Template:cpp/impldef exception")] Exceptions
+### Exceptions
 
 May throw implementation-defined exceptions. 
 
@@ -339,7 +339,7 @@ May throw implementation-defined exceptions.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/less&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -362,7 +362,7 @@ Run this code
      
     int main() {}
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/less&action=edit&section=7 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -370,12 +370,12 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 2562](https://cplusplus.github.io/LWG/issue2562) | C++98  | the pointer total order might be inconsistent  | guaranteed to be consistent   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/less&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [ equal_to](equal_to.html "cpp/utility/functional/equal to") |  function object implementing x == y   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_equal_to&action=edit)  
+(class template)   
 ---|---  
 [ greater](greater.html "cpp/utility/functional/greater") |  function object implementing x > y   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_greater&action=edit)  
+(class template)   
 [ ranges::less](ranges/less.html "cpp/utility/functional/ranges/less")(C++20) |  constrained function object implementing x < y   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/ranges/dsc_less&action=edit)
+(class) 

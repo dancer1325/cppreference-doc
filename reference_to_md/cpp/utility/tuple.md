@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 **`std::tuple`**
 
@@ -157,7 +157,7 @@ Common vocabulary types
 [ignore](tuple/ignore.html "cpp/utility/tuple/ignore")  
 [Deduction guides](tuple/deduction_guides.html "cpp/utility/tuple/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/navbar_content&action=edit)
+
 
 Defined in header `[<tuple>](../header/tuple.html "cpp/header/tuple")` |  |   
 ---|---|---  
@@ -189,65 +189,65 @@ If a program declares an [explicit](../language/template_specialization.html "cp
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/tuple&action=edit&section=1 "Edit section: Template parameters")] Template parameters
+### Template parameters
 
 Types...  |  \-  |  the types of the elements that the tuple stores. Empty list is supported.   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/tuple&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](tuple/tuple.html "cpp/utility/tuple/tuple") |  constructs a new `tuple`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ operator=](tuple/operator=.html "cpp/utility/tuple/operator=") |  assigns the contents of one `tuple` to another   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/dsc_operator%3D&action=edit)  
+(public member function)   
 [ swap](tuple/swap.html "cpp/utility/tuple/swap") |  swaps the contents of two `tuple`s   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/dsc_swap&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/tuple&action=edit&section=3 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ make_tuple](tuple/make_tuple.html "cpp/utility/tuple/make tuple")(C++11) |  creates a `tuple` object of the type defined by the argument types   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/dsc_make_tuple&action=edit)  
+(function template)   
 ---|---  
 [ tie](tuple/tie.html "cpp/utility/tuple/tie")(C++11) |  creates a **tuple** of lvalue references or unpacks a tuple into individual objects   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/dsc_tie&action=edit)  
+(function template)   
 [ forward_as_tuple](tuple/forward_as_tuple.html "cpp/utility/tuple/forward as tuple")(C++11) |  creates a `tuple` of [forwarding references](../language/reference.html#Forwarding_references "cpp/language/reference")   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/dsc_forward_as_tuple&action=edit)  
+(function template)   
 [ tuple_cat](tuple/tuple_cat.html "cpp/utility/tuple/tuple cat")(C++11) |  creates a `tuple` by concatenating any number of tuples   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/dsc_tuple_cat&action=edit)  
+(function template)   
 [ get(std::tuple)](tuple/get.html "cpp/utility/tuple/get")(C++11) |  tuple accesses specified element   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/dsc_get&action=edit)  
+(function template)   
 [ operator==operator!=operator<operator<=operator>operator>=operator<=>](tuple/operator_cmp.html "cpp/utility/tuple/operator cmp")(removed in C++20)(removed in C++20)(removed in C++20)(removed in C++20)(removed in C++20)(C++20) |  lexicographically compares the values in the tuple   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/dsc_operator_cmp&action=edit)  
+(function template)   
 [ std::swap(std::tuple)](tuple/swap2.html "cpp/utility/tuple/swap2")(C++11) |  specializes the [std::swap](swap.html "cpp/algorithm/swap") algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/dsc_swap2&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/tuple&action=edit&section=4 "Edit section: Helper concepts")] Helper concepts
+### Helper concepts
 
 [_tuple-like pair-like_](tuple/tuple-like.html "cpp/utility/tuple/tuple-like")(C++23) |  specifies that a type implemented the _tuple protocol_  
 ([`std::get`](tuple/get.html "cpp/utility/tuple/get"), [`std::tuple_element`](tuple_element.html "cpp/utility/tuple element"), [`std::tuple_size`](tuple_size.html "cpp/utility/tuple size"))  
-(exposition-only concept*)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/dsc_tuple-like&action=edit)  
+(exposition-only concept*)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/tuple&action=edit&section=5 "Edit section: Helper classes")] Helper classes
+### Helper classes
 
 [ std::tuple_size<std::tuple>](tuple/tuple_size.html "cpp/utility/tuple/tuple size")(C++11) |  obtains the size of a `tuple`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/dsc_tuple_size&action=edit)  
+(class template specialization)   
 ---|---  
 [ std::tuple_element<std::tuple>](tuple/tuple_element.html "cpp/utility/tuple/tuple element")(C++11) |  obtains the type of the specified element   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/dsc_tuple_element&action=edit)  
+(class template specialization)   
 [ std::uses_allocator<std::tuple>](tuple/uses_allocator.html "cpp/utility/tuple/uses allocator")(C++11) |  specializes the [std::uses_allocator](../memory/uses_allocator.html "cpp/memory/uses allocator") type trait   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/dsc_uses_allocator&action=edit)  
+(class template specialization)   
 [ std::basic_common_reference<_tuple-like_ >](tuple/basic_common_reference.html "cpp/utility/tuple/basic common reference")(C++23) |  determines the common reference type of a `tuple` and a `_tuple-like_` type   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/dsc_basic_common_reference&action=edit)  
+(class template specialization)   
 [ std::common_type<_tuple-like_ >](tuple/common_type.html "cpp/utility/tuple/common type")(C++23) |  determines the common type of a `tuple` and a `_tuple-like_` type   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/dsc_common_type&action=edit)  
+(class template specialization)   
 [ std::formatter<std::tuple>](format/tuple_formatter.html "cpp/utility/format/tuple formatter")(C++23) |  formatting support for `tuple`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/dsc_tuple_formatter&action=edit)  
+(class template specialization)   
 [ ignore](tuple/ignore.html "cpp/utility/tuple/ignore")(C++11) |  placeholder to skip an element when unpacking a `tuple` using [`tie`](tuple/tie.html "cpp/utility/tuple/tie")   
-(constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/dsc_ignore&action=edit)  
+(constant)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/tuple&action=edit&section=6 "Edit section: Helper specializations")] Helper specializations
+### Helper specializations
 
 template< class... Ts >  
 constexpr bool enable_nonlocking_formatter_optimization<std::tuple<Ts...>>   
@@ -257,9 +257,9 @@ constexpr bool enable_nonlocking_formatter_optimization<std::tuple<Ts...>>
   
 This specialization of [`std::enable_nonlocking_formatter_optimization`](format/enable_nonlocking_formatter_optimization.html "cpp/utility/format/enable nonlocking formatter optimization") enables efficient implementation of [`std::print`](../io/print.html "cpp/io/print") and [`std::println`](../io/println.html "cpp/io/println") for printing a `tuple` object when each element type enables it. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/tuple&action=edit&section=7 "Edit section: Deduction guides \(since C++17\)")] [Deduction guides](tuple/deduction_guides.html "cpp/utility/tuple/deduction guides") (since C++17)
+### [Deduction guides](tuple/deduction_guides.html "cpp/utility/tuple/deduction guides") (since C++17)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/tuple&action=edit&section=8 "Edit section: Notes")] Notes
+### Notes
 
 Since the "shape" of a tuple – its size, the types of its elements, and the ordering of those types – are part of its type signature, they must all be available at compile time and can only depend on other compile-time information. This means that many conditional operations on tuples – in particular, conditional prepend/append and filter – are only possible if the conditions can be evaluated at compile time. For example, given a std::tuple<int, double, int>, it is possible to filter on types – e.g. returning a std::tuple<int, int> – but not to filter on whether or not each element is positive (which would have a different type signature depending on runtime values of the tuple), unless all the elements were themselves constexpr. 
 
@@ -275,7 +275,7 @@ Until [N4387](https://wg21.link/N4387) (applied as a defect report for C++11), a
         return [std::make_tuple](tuple/make_tuple.html)(1, -1); // Always works
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/tuple&action=edit&section=9 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -337,7 +337,7 @@ Output:
     ID: 2, GPA: 1.7, grade: D, name: Ralph Wiggum
     ID: 3, GPA: 0.6, grade: F, name: Bart Simpson
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/tuple&action=edit&section=10 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -348,7 +348,7 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 partial specialization of `std::tuple` | the program is ill-formed in this  
 case (no diagnostic required)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/tuple&action=edit&section=11 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -400,8 +400,8 @@ case (no diagnostic required)
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/tuple&action=edit&section=12 "Edit section: See also")] See also
+### See also
 
 [ pair](pair.html "cpp/utility/pair") |  implements binary tuple, i.e. a pair of values   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_pair&action=edit)  
+(class template)   
 ---|---

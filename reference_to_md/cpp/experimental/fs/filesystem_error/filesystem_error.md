@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Filesystem library](../../fs.html "cpp/experimental/fs")
 
@@ -99,7 +99,7 @@ File types
 [filesystem::is_socket](../is_socket.html "cpp/experimental/fs/is socket")  
 [filesystem::is_symlink](../is_symlink.html "cpp/experimental/fs/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/navbar_content&action=edit)
+
 
 [`filesystem_error`](../filesystem_error.html "cpp/experimental/fs/filesystem error")
 
@@ -111,7 +111,7 @@ Member functions
 Inherited from [std::system_error](../../../error/system_error.html "cpp/error/system error")  
 [system_error::code](../../../error/system_error/code.html "cpp/error/system error/code")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/filesystem_error/navbar_content&action=edit)
+
 
 filesystem_error( const string& what_arg, error_code ec ); |  (1)  |  (filesystem TS)  
 ---|---|---  
@@ -121,12 +121,12 @@ filesystem_error( const string& what_arg, const path& p1, const path& p2, error_
   
 Constructs a new filesystem error object. The explanatory string is set to what_arg, error code is set to ec and optionally, the paths that were involved in the operation that resulted in the error, are set to p1 and p2. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/filesystem_error/filesystem_error&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 | This section is incomplete   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/filesystem_error/filesystem_error&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 | This section is incomplete   
 ---|---

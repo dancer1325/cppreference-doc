@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Type support](../../utility/rtti.html "cpp/types")
 
@@ -161,7 +161,7 @@ Runtime type information
 ---  
 [bad_cast](../bad_cast.html "cpp/types/bad cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/navbar_content&action=edit)
+
 
 [`std::numeric_limits`](../numeric_limits.html "cpp/types/numeric limits")
 
@@ -204,7 +204,7 @@ Helper types
 **float_round_style**  
 [float_denorm_style](float_denorm_style.html "cpp/types/numeric limits/float denorm style")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/navbar_content&action=edit)
+
 
 Defined in header `[<limits>](../../header/limits.html "cpp/header/limits")` |  |   
 ---|---|---  
@@ -219,7 +219,7 @@ round_toward_neg_infinity = 3
   
 Enumeration constants of type `std::float_round_style` indicate the rounding style used by floating-point arithmetic whenever a result of an expression is stored in an object of a floating-point type. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/numeric_limits/float_round_style&action=edit&section=1 "Edit section: Enumeration constants")] Enumeration constants
+### Enumeration constants
 
 Enumerator  |  Meaning   
 ---|---  
@@ -229,10 +229,10 @@ Enumerator  |  Meaning
 **std::round_toward_infinity** |  rounding toward positive infinity   
 **std::round_toward_neg_infinity** |  rounding toward negative infinity   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/numeric_limits/float_round_style&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ round_style](round_style.html "cpp/types/numeric limits/round style")[static] |  identifies the rounding style used by the type   
-(public static member constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/dsc_round_style&action=edit)  
+(public static member constant)   
 ---|---  
 [ FE_DOWNWARDFE_TONEARESTFE_TOWARDZEROFE_UPWARD](../../numeric/fenv/FE_round.html "cpp/numeric/fenv/FE round")(C++11) |  floating-point rounding direction   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/fenv/dsc_FE_round&action=edit)
+(macro constant) 

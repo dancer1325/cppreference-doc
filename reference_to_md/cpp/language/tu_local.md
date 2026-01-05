@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [Declarations](declarations.html "cpp/language/declarations")
 
@@ -280,7 +280,7 @@ Other declarations
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/declarations/navbar_content&action=edit)
+
 
 Translation-unit-local (TU-local) entities are introduced to prevent entities that are supposed to be local (not used in any other translation unit) being exposed and used in other translation units. 
 
@@ -326,7 +326,7 @@ An example from [Understanding C++ Modules: Part 2](https://vector-of-bool.githu
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/tu_local&action=edit&section=1 "Edit section: TU-local entities")] TU-local entities
+### TU-local entities
 
 An entity is _TU-local_ if it is 
 
@@ -382,7 +382,7 @@ A value or object is _TU-local_ if either
     struct tul_class { int mem; };
     tul_class tul_obj{tul_const};       // TU-local: has member constexpr TU-local object
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/tu_local&action=edit&section=2 "Edit section: Exposures")] Exposures
+### Exposures
 
 A declaration D _names_ an entity E if 
 
@@ -430,7 +430,7 @@ or defines a constexpr variable initialized to a TU-local value.
 Reason: missing examples for exposures   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/tu_local&action=edit&section=3 "Edit section: TU-local constraints")] TU-local constraints
+### TU-local constraints
 
 If a (possibly instantiated) [declaration](declarations.html "cpp/language/declarations") of, or a [deduction guide](ctad.html#Deduction_for_class_templates "cpp/language/class template argument deduction") for, a non-TU-local entity in a [module interface unit](modules.html "cpp/language/modules") (outside the private-module-fragment, if any) or module partition is an exposure, the program is ill-formed. Such a declaration in any other context is deprecated. 
 
@@ -440,7 +440,7 @@ If a declaration that appears in one translation unit names a TU-local entity de
 Reason: missing examples for constraints   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/tu_local&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Translation unit #1: 
     

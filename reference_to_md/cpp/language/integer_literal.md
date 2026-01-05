@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Expressions](expressions.html "cpp/language/expressions")
 
@@ -289,7 +289,7 @@ Conversions
 [`dynamic_cast`](dynamic_cast.html "cpp/language/dynamic cast")  
 [`reinterpret_cast`](reinterpret_cast.html "cpp/language/reinterpret cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/expressions/navbar_content&action=edit)
+
 
 Allows values of integer type to be used in expressions directly. 
 
@@ -307,7 +307,7 @@ Allows values of integer type to be used in expressions directly.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/integer_literal&action=edit&section=1 "Edit section: Syntax")] Syntax
+### Syntax
 
 An integer literal has the form   
   
@@ -365,7 +365,7 @@ Optional single quotes (') may be inserted between the digits as a separator; th
   
 An integer literal (as any literal) is a [primary expression](expressions.html#Primary_expressions "cpp/language/expressions"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/integer_literal&action=edit&section=2 "Edit section: Explanation")] Explanation
+### Explanation
 
 1) Decimal integer literal (base 10).
 
@@ -394,7 +394,7 @@ Example. The following variables are also initialized to the same value:
     unsigned long long l3 = 1844'6744'0737'0955'0592uLL;   // C++14
     unsigned long long l4 = 184467'440737'0'95505'92LLU;   // C++14
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/integer_literal&action=edit&section=3 "Edit section: The type of the literal")] The type of the literal
+### The type of the literal
 
 The type of the integer literal is the first type in which the value can fit, from the list of types which depends on which numeric base and which integer-suffix was used: 
 
@@ -498,7 +498,7 @@ and `u`/`U` |
   
 If the value of the integer literal that does not have size-suffix(since C++23) is too big to fit in any of the types allowed by suffix/base combination and the compiler supports an extended integer type (such as __int128) which can represent the value of the literal, the literal may be given that extended integer type — otherwise the program is ill-formed. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/integer_literal&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 Letters in the integer literals are case-insensitive: `0xDeAdBeEfU` and `0XdeadBEEFu` represent the same number (one exception is the long-long-suffix, which is either `ll` or `LL`, never `lL` or `Ll`)(since C++11). 
 
@@ -524,7 +524,7 @@ Otherwise, a single invalid preprocessing number token is formed, which causes f
 [`__cpp_binary_literals`](../experimental/feature_test.html#cpp_binary_literals "cpp/feature test") | [`201304L`](../compiler_support/14.html#cpp_binary_literals_201304L "cpp/compiler support/14") | (C++14) | [Binary literals](integer_literal.html#Syntax)  
 [`__cpp_size_t_suffix`](../experimental/feature_test.html#cpp_size_t_suffix "cpp/feature test") | [`202011L`](../compiler_support/23.html#cpp_size_t_suffix_202011L "cpp/compiler support/23") | (C++23) | Literal suffixes for [std::size_t](../types/size_t.html "cpp/types/size t") and its signed version   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/integer_literal&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -569,7 +569,7 @@ Output:
     9223372036854775808
     -9223372036854775808
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/integer_literal&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -577,7 +577,7 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [CWG 2698](https://cplusplus.github.io/CWG/issues/2698.html) | C++23  | an integer literal with size-suffix could have an extended integer type  | ill-formed if too large   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/integer_literal&action=edit&section=7 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -639,9 +639,9 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/integer_literal&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
-[ user-defined literals](user_literal.html "cpp/language/user literal")(C++11) |  literals with user-defined suffix[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_user_literal&action=edit)  
+[ user-defined literals](user_literal.html "cpp/language/user literal")(C++11) |  literals with user-defined suffix  
 ---|---  
 [C documentation](../../c/language/integer_constant.html "c/language/integer constant") for integer constant
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.

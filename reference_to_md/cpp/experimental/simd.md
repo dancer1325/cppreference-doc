@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Extensions for parallelism v2](parallelism_2.html "cpp/experimental/parallelism 2")
 
@@ -92,7 +92,7 @@ Task blocks
 [define_task_blockdefine_task_block_restore_thread](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/define_task_block&action=edit&redlink=1 "cpp/experimental/define task block \(page does not exist\)")  
 **Data-parallel vectors**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/parallelism_2/navbar_content&action=edit)
+
 
 **SIMD library**
 
@@ -186,7 +186,7 @@ Task blocks
   
 [Math functions](simd.html#Math_functions "cpp/experimental/simd")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/simd/navbar_content&action=edit)
+
 
 ![](https://upload.cppreference.com/mwiki/images/3/31/Imbox_notice.png) |  **Merged into ISO C++** The functionality described on this page was merged into the mainline ISO C++ standard as of 11/2024; see [the data-parallel types (SIMD)](../numeric/simd.html "cpp/numeric/simd") (since C++26)  
 ---|---  
@@ -233,42 +233,42 @@ Defined in header `[<experimental/simd>](../header/experimental/simd.html "cpp/h
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/simd&action=edit&section=1 "Edit section: Main classes")] Main classes
+### Main classes
 
 [ simd](simd/simd.html "cpp/experimental/simd/simd")(parallelism TS v2) |  data-parallel vector type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/simd/dsc_simd&action=edit)  
+(class template)   
 ---|---  
 [ simd_mask](simd/simd_mask.html "cpp/experimental/simd/simd mask")(parallelism TS v2) |  data-parallel type with the element type bool   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/simd/dsc_simd_mask&action=edit)  
+(class template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/simd&action=edit&section=2 "Edit section: ABI tags")] ABI tags
+### ABI tags
 
 Defined in namespace `std::experimental::simd_abi`  
 ---  
 [ scalar](simd/scalar.html "cpp/experimental/simd/scalar")(parallelism TS v2) |  tag type for storing a single element   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/simd/dsc_scalar&action=edit)  
+(typedef)   
 [ fixed_size](simd/fixed_size.html "cpp/experimental/simd/fixed size")(parallelism TS v2) |  tag type for storing specified number of elements  
-(alias template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/simd/dsc_fixed_size&action=edit)  
+(alias template)  
 [ compatible](simd/compatible.html "cpp/experimental/simd/compatible")(parallelism TS v2) |  tag type that ensures ABI compatibility  
-(alias template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/simd/dsc_compatible&action=edit)  
+(alias template)  
 [ native](simd/native.html "cpp/experimental/simd/native")(parallelism TS v2) |  tag type that is most efficient  
-(alias template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/simd/dsc_native&action=edit)  
+(alias template)  
 [ max_fixed_size](simd/max_fixed_size.html "cpp/experimental/simd/max fixed size")(parallelism TS v2) |  the maximum number of elements guaranteed to be supported by fixed   
-(constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/simd/dsc_max_fixed_size&action=edit)  
+(constant)   
 [ deducededuce_t](simd/deduce.html "cpp/experimental/simd/deduce")(parallelism TS v2) |  obtains an ABI type for given element type and number of elements   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/simd/dsc_deduce&action=edit)  
+(class template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/simd&action=edit&section=3 "Edit section: Alignment tags")] Alignment tags
+### Alignment tags
 
 [ element_aligned_tagelement_aligned](simd/element_aligned.html "cpp/experimental/simd/element aligned")(parallelism TS v2) |  flag indicating alignment of the load/store address to element alignment   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/simd/element_aligned&action=edit)  
+(class)   
 ---|---  
 [ vector_aligned_tagvector_aligned](simd/vector_aligned.html "cpp/experimental/simd/vector aligned")(parallelism TS v2) |  flag indicating alignment of the load/store address to vector alignment   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/simd/vector_aligned&action=edit)  
+(class)   
 [ overaligned_tagoveraligned](simd/overaligned.html "cpp/experimental/simd/overaligned")(parallelism TS v2) |  flag indicating alignment of the load/store address to the specified alignment   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/simd/overaligned&action=edit)  
+(class template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/simd&action=edit&section=4 "Edit section: Where expression")] Where expression
+### Where expression
 
 [ const_where_expression](simd/const_where_expression.html "cpp/experimental/simd/const where expression")(parallelism TS v2) |  selected elements with non-mutating operations   
 (class template)  
@@ -278,7 +278,7 @@ Defined in namespace `std::experimental::simd_abi`
 [ where](simd/where.html "cpp/experimental/simd/where")(parallelism TS v2) |  produces const_where_expression and where_expression   
 (function template)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/simd&action=edit&section=5 "Edit section: Casts")] Casts
+### Casts
 
 [ simd_caststatic_simd_cast](simd/simd_cast.html "cpp/experimental/simd/simd cast")(parallelism TS v2) |  element-wise static_cast   
 (function template)  
@@ -290,7 +290,7 @@ Defined in namespace `std::experimental::simd_abi`
 [ concat](simd/concat.html "cpp/experimental/simd/concat")(parallelism TS v2) |  concatenates multiple simd objects to a single one   
 (function template)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/simd&action=edit&section=6 "Edit section: Algorithms")] Algorithms
+### Algorithms
 
 [ min](simd/min.html "cpp/experimental/simd/min")(parallelism TS v2) |  element-wise min operation   
 (function template)  
@@ -302,43 +302,43 @@ Defined in namespace `std::experimental::simd_abi`
 [ clamp](simd/clamp.html "cpp/experimental/simd/clamp")(parallelism TS v2) |  element-wise clamp operation   
 (function template)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/simd&action=edit&section=7 "Edit section: Reduction")] Reduction
+### Reduction
 
 [ reducehminhmax](simd/reduce.html "cpp/experimental/simd/reduce")(parallelism TS v2) |  reduces the vector to a single element   
 (function template)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/simd&action=edit&section=8 "Edit section: Mask reduction")] Mask reduction
+### Mask reduction
 
 [ all_ofany_ofnone_ofsome_of](simd/all_of.html "cpp/experimental/simd/all of")(parallelism TS v2) |  reductions of [`simd_mask`](simd/simd_mask.html "cpp/experimental/simd/simd mask") to bool   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/simd/dsc_all_of&action=edit)  
+(function template)   
 ---|---  
 [ popcount](simd/popcount.html "cpp/experimental/simd/popcount")(parallelism TS v2) |  reduction of [`simd_mask`](simd/simd_mask.html "cpp/experimental/simd/simd mask") to the number of true values   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/simd/dsc_popcount&action=edit)  
+(function template)   
 [ find_first_setfind_last_set](simd/find_first_set.html "cpp/experimental/simd/find first set")(parallelism TS v2) |  reductions of [`simd_mask`](simd/simd_mask.html "cpp/experimental/simd/simd mask") to the index of the first or last true value   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/simd/dsc_find_first_set&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/simd&action=edit&section=9 "Edit section: Traits")] Traits
+### Traits
 
 [ is_simdis_simd_mask](simd/is_simd.html "cpp/experimental/simd/is simd")(parallelism TS v2) |  checks if a type is a [`simd`](simd/simd.html "cpp/experimental/simd/simd") or [`simd_mask`](simd/simd_mask.html "cpp/experimental/simd/simd mask") type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/simd/dsc_is_simd&action=edit)  
+(class template)   
 ---|---  
 [ is_abi_tag](simd/is_abi_tag.html "cpp/experimental/simd/is abi tag")(parallelism TS v2) |  checks if a type is an ABI tag type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/simd/dsc_is_abi_tag&action=edit)  
+(class template)   
 [ is_simd_flag_type](simd/is_simd_flag_type.html "cpp/experimental/simd/is simd flag type")(parallelism TS v2) |  checks if a type is a simd flag type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/simd/dsc_is_simd_flag_type&action=edit)  
+(class template)   
 [ simd_size](simd/simd_size.html "cpp/experimental/simd/simd size")(parallelism TS v2) |  obtains the number of elements of a given element type and ABI tag   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/simd/dsc_simd_size&action=edit)  
+(class template)   
 [ memory_alignment](simd/memory_alignment.html "cpp/experimental/simd/memory alignment")(parallelism TS v2) |  obtains an appropriate alignment for [`vector_aligned`](simd/vector_aligned.html "cpp/experimental/simd/vector aligned")   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/simd/dsc_memory_alignment&action=edit)  
+(class template)   
 [ rebind_simdresize_simd](simd/rebind_simd.html "cpp/experimental/simd/rebind simd")(parallelism TS v2) |  change element type or the number of elements of [`simd`](simd/simd.html "cpp/experimental/simd/simd") or [`simd_mask`](simd/simd_mask.html "cpp/experimental/simd/simd mask")   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/simd/dsc_rebind_simd&action=edit)  
+(class template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/simd&action=edit&section=10 "Edit section: Math functions")] Math functions
+### Math functions
 
 All functions in [`<cmath>`](../header/cmath.html "cpp/header/cmath"), except for the special math functions, are overloaded for `simd`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/simd&action=edit&section=11 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -400,13 +400,13 @@ Output:
     x: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
     cos²(x) + sin²(x): 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/simd&action=edit&section=12 "Edit section: See also")] See also
+### See also
 
 [ valarray](../numeric/valarray.html "cpp/numeric/valarray") |  numeric arrays, array masks and array slices   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/dsc_valarray&action=edit)  
+(class template)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/simd&action=edit&section=13 "Edit section: External links")] External links
+### External links
 
 1\.  | [The implementation of ISO/IEC TS 19570:2018 Section 9 "Data-Parallel Types"](https://github.com/VcDevel/std-simd) — github.com   
 ---|---  

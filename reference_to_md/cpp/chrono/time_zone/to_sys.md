@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::time_zone`](../time_zone.html "cpp/chrono/time zone")
 
@@ -114,7 +114,7 @@ Member functions
 Nonmember functions  
 [operator==operator<=>](operator_cmp.html "cpp/chrono/time zone/operator cmp")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_zone/navbar_content&action=edit)
+
 
 template< class Duration >  
 auto to_sys( const [std::chrono::local_time](../local_t.html)<Duration>& tp ) const  
@@ -148,11 +148,11 @@ If tp represents a nonexistent time between two UTC `time_point`s, those two `ti
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/time_zone/to_sys&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 The UTC equivalent of tp according to the rules of this time zone. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/time_zone/to_sys&action=edit&section=2 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 1) Throws: 
 
@@ -161,13 +161,13 @@ The UTC equivalent of tp according to the rules of this time zone.
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/time_zone/to_sys&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 The precision of the result is at least [std::chrono::seconds](../duration.html "cpp/chrono/duration"), and will be finer if the argument has finer precision. 
 
 Ambiguous and nonexistent local times can occur as a result of time zone transitions (such as daylight saving time). For example, "2016-03-13 02:30:00" does not exist in the "America/New_York" time zone, while "2016-11-06 01:30:00" in that time zone can correspond to two UTC time points: 2016-11-06 05:30:00 UTC and 2016-11-06 06:30:00 UTC. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/time_zone/to_sys&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

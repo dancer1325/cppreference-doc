@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::view_interface`](../view_interface.html "cpp/ranges/view interface")
 
@@ -240,7 +240,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
 [back](back.html "cpp/ranges/view interface/back")  
 [operator[]](operator_at.html "cpp/ranges/view interface/operator at")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/navbar_content&action=edit)
+
 
 constexpr auto cend(); |  (1)  |  (since C++23)  
 ---|---|---  
@@ -265,24 +265,24 @@ The default implementation of `cend()` member function returns the sentinel for 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/view_interface/cend&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 The sentinel for the constant iterator of the range. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/view_interface/cend&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 All range adaptors and range factories in the standard library and [std::ranges::subrange](../subrange.html "cpp/ranges/subrange") use the default implementation of `cend`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/view_interface/cend&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/view_interface/cend&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ endcend](../../iterator/end.html "cpp/iterator/end")(C++11)(C++14) |  returns an iterator to the end of a container or array   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_end&action=edit)  
+(function template)   
 ---|---  
 [ ranges::cend](../cend.html "cpp/ranges/cend")(C++20) |  returns a sentinel indicating the end of a read-only range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_cend&action=edit)
+(customization point object)

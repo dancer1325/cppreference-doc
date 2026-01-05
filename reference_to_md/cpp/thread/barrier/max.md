@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::barrier`](../barrier.html "cpp/thread/barrier")
 
@@ -188,7 +188,7 @@ Member functions
 Constants  
 **barrier::max**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/barrier/navbar_content&action=edit)
+
 
 static constexpr [std::ptrdiff_t](../../types/ptrdiff_t.html) max() noexcept; |  |  (since C++20)  
 ---|---|---  
@@ -196,10 +196,10 @@ static constexpr [std::ptrdiff_t](../../types/ptrdiff_t.html) max() noexcept; | 
   
 Returns the maximum value of the expected count supported by the implementation. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/barrier/max&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/barrier/max&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The maximum value of the expected count supported by the implementation. 

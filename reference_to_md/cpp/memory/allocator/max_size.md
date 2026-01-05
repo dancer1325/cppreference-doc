@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::allocator`](../allocator.html "cpp/memory/allocator")
 
@@ -202,7 +202,7 @@ Member functions
 Non-member functions  
 [operator==operator!=](operator_cmp.html "cpp/memory/allocator/operator cmp")(until C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/allocator/navbar_content&action=edit)
+
 
 size_type max_size() const throw(); |  |  (until C++11)  
 ---|---|---  
@@ -215,16 +215,16 @@ Returns the maximum theoretically possible value of `n`, for which the call [all
 
 In most implementations, this returns [std::numeric_limits](../../types/numeric_limits.html)<size_type>::max() / sizeof(value_type). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/allocator/max_size&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/allocator/max_size&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The maximum supported allocation size. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/allocator/max_size&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ max_size](../allocator_traits/max_size.html "cpp/memory/allocator traits/max size")[static] |  returns the maximum object size supported by the allocator   
-(public static member function of `std::allocator_traits<Alloc>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/allocator_traits/dsc_max_size&action=edit)  
+(public static member function of `std::allocator_traits<Alloc>`)   
 ---|---

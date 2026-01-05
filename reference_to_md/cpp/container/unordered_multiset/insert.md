@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -71,7 +71,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 `[std::unordered_multiset](../unordered_multiset.html "cpp/container/unordered multiset")`
 
@@ -133,7 +133,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/unordered multiset/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/unordered_multiset/navbar_content&action=edit)
+
 
 iterator insert( const value_type& value ); |  (1)  |  (since C++11)  
 ---|---|---  
@@ -176,7 +176,7 @@ If rehashing occurs (due to the insertion), all iterators are invalidated. Other
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/unordered_multiset/insert&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 hint  |  \-  |  iterator, used as a suggestion as to where to insert the content   
 ---|---|---  
@@ -187,7 +187,7 @@ nh  |  \-  |  a compatible [node handle](../node_handle.html "cpp/container/node
 Type requirements   
 -`InputIt` must meet the requirements of [LegacyInputIterator](../../named_req/InputIterator.html "cpp/named req/InputIterator").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/unordered_multiset/insert&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1-4) An iterator to the inserted element.
 
@@ -195,7 +195,7 @@ Type requirements
 
 7,8) End iterator if nh was empty, iterator pointing to the inserted element otherwise.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/unordered_multiset/insert&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 1-4) If an exception is thrown by any operation, the insertion has no effect.
 
@@ -203,7 +203,7 @@ Type requirements
 Reason: cases 5,6   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/unordered_multiset/insert&action=edit&section=4 "Edit section: Complexity")] Complexity
+### Complexity
 
 1-4) Average case: `O(1)`, worst case `O(size())`.
 
@@ -211,18 +211,18 @@ Reason: cases 5,6
 
 7,8) Average case: `O(1)`, worst case `O(size())`.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/unordered_multiset/insert&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/unordered_multiset/insert&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ emplace](emplace.html "cpp/container/unordered multiset/emplace") |  constructs element in-place   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_emplace&action=edit)  
+(public member function)   
 ---|---  
 [ emplace_hint](emplace_hint.html "cpp/container/unordered multiset/emplace hint") |  constructs elements in-place using a hint   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_emplace_hint&action=edit)  
+(public member function)   
 [ inserter](../../iterator/inserter.html "cpp/iterator/inserter") |  creates a [std::insert_iterator](../../iterator/insert_iterator.html "cpp/iterator/insert iterator") of type inferred from the argument   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_inserter&action=edit)
+(function template) 

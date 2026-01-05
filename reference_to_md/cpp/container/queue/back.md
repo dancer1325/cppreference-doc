@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -71,7 +71,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 `[std::queue](../queue.html "cpp/container/queue")`
 
@@ -100,7 +100,7 @@ Tables
 [formatter<std::queue>](formatter.html "cpp/container/queue/formatter")(C++23)  
 [Deduction guides](deduction_guides.html "cpp/container/queue/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/queue/navbar_content&action=edit)
+
 
 reference back(); |  |   
 ---|---|---  
@@ -119,22 +119,22 @@ Returns reference to the last element in the queue. This is the most recently pu
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/queue/back&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/queue/back&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Reference to the last element. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/queue/back&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Constant. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/queue/back&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ front](front.html "cpp/container/queue/front") |  access the first element   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_front&action=edit)  
+(public member function)   
 ---|---  
 [ push](push.html "cpp/container/queue/push") |  inserts element at the end   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_push&action=edit)
+(public member function) 

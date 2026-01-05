@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Null-terminated wide strings](../wide.html "cpp/string/wide")
 
@@ -153,7 +153,7 @@
 WCHAR_MAX  
 WEOF](../wide.html#Macros "cpp/string/wide")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/navbar_content&action=edit)
+
 
 Defined in header `[<cwchar>](../../header/cwchar.html "cpp/header/cwchar")` |  |   
 ---|---|---  
@@ -173,17 +173,17 @@ Finds the first occurrence of the wide string src in the wide string pointed to 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/wcsstr&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 dest  |  \-  |  pointer to the null-terminated wide string to examine   
 ---|---|---  
 src  |  \-  |  pointer to the null-terminated wide string to search for   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/wcsstr&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Pointer to the first character of the found substring in dest, or a null pointer if no such substring is found. If src points to an empty string, dest is returned. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/wcsstr&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -215,15 +215,15 @@ Possible output:
     Found: "ベータ, ガンマ, アルファ, ベータ, ガンマ."
     Found: "ベータ, ガンマ."
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/wcsstr&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ find](../basic_string/find.html "cpp/string/basic string/find") |  finds the first occurrence of the given substring   
-(public member function of `std::basic_string<CharT,Traits,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_find&action=edit)  
+(public member function of `std::basic_string<CharT,Traits,Allocator>`)   
 ---|---  
 [ strstr](../byte/strstr.html "cpp/string/byte/strstr") |  finds the first occurrence of a substring of characters   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strstr&action=edit)  
+(function)   
 [ wcschr](wcschr.html "cpp/string/wide/wcschr") |  finds the first occurrence of a wide character in a wide string   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wcschr&action=edit)  
+(function)   
 [ wcsrchr](wcsrchr.html "cpp/string/wide/wcsrchr") |  finds the last occurrence of a wide character in a wide string   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wcsrchr&action=edit)  
+(function)   
 [C documentation](../../../c/string/wide/wcsstr.html "c/string/wide/wcsstr") for wcsstr

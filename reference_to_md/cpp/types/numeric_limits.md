@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Type support](../utility/rtti.html "cpp/types")
 
@@ -161,7 +161,7 @@ Runtime type information
 ---  
 [bad_cast](bad_cast.html "cpp/types/bad cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/navbar_content&action=edit)
+
 
 **`std::numeric_limits`**
 
@@ -204,7 +204,7 @@ Helper types
 [float_round_style](numeric_limits/float_round_style.html "cpp/types/numeric limits/float round style")  
 [float_denorm_style](numeric_limits/float_denorm_style.html "cpp/types/numeric limits/float denorm style")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/navbar_content&action=edit)
+
 
 Defined in header `[<limits>](../header/limits.html "cpp/header/limits")` |  |   
 ---|---|---  
@@ -263,92 +263,92 @@ Implementations may provide specializations of `std::numeric_limits` for impleme
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/numeric_limits&action=edit&section=1 "Edit section: Template parameters")] Template parameters
+### Template parameters
 
 T  |  \-  |  a type to retrieve numeric properties for   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/numeric_limits&action=edit&section=2 "Edit section: Member constants")] Member constants
+### Member constants
 
 [ is_specialized](numeric_limits/is_specialized.html "cpp/types/numeric limits/is specialized")[static] |  identifies types for which **std::numeric_limits** is specialized   
-(public static member constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/dsc_is_specialized&action=edit)  
+(public static member constant)   
 ---|---  
 [ is_signed](numeric_limits/is_signed.html "cpp/types/numeric limits/is signed")[static] |  identifies signed types   
-(public static member constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/dsc_is_signed&action=edit)  
+(public static member constant)   
 [ is_integer](numeric_limits/is_integer.html "cpp/types/numeric limits/is integer")[static] |  identifies integer types   
-(public static member constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/dsc_is_integer&action=edit)  
+(public static member constant)   
 [ is_exact](numeric_limits/is_exact.html "cpp/types/numeric limits/is exact")[static] |  identifies exact types   
-(public static member constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/dsc_is_exact&action=edit)  
+(public static member constant)   
 [ has_infinity](numeric_limits/has_infinity.html "cpp/types/numeric limits/has infinity")[static] |  identifies floating-point types that can represent the special value "positive infinity"   
-(public static member constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/dsc_has_infinity&action=edit)  
+(public static member constant)   
 [ has_quiet_NaN](numeric_limits/has_quiet_NaN.html "cpp/types/numeric limits/has quiet NaN")[static] |  identifies floating-point types that can represent the special value "quiet not-a-number" (NaN)   
-(public static member constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/dsc_has_quiet_NaN&action=edit)  
+(public static member constant)   
 [ has_signaling_NaN](numeric_limits/has_signaling_NaN.html "cpp/types/numeric limits/has signaling NaN")[static] |  identifies floating-point types that can represent the special value "signaling not-a-number" (NaN)   
-(public static member constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/dsc_has_signaling_NaN&action=edit)  
+(public static member constant)   
 [ has_denorm](numeric_limits/has_denorm.html "cpp/types/numeric limits/has denorm")[static] |  identifies the denormalization style used by the floating-point type   
-(public static member constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/dsc_has_denorm&action=edit)  
+(public static member constant)   
 [ has_denorm_loss](numeric_limits/has_denorm_loss.html "cpp/types/numeric limits/has denorm loss")[static] |  identifies the floating-point types that detect loss of precision as denormalization loss rather than inexact result   
-(public static member constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/dsc_has_denorm_loss&action=edit)  
+(public static member constant)   
 [ round_style](numeric_limits/round_style.html "cpp/types/numeric limits/round style")[static] |  identifies the rounding style used by the type   
-(public static member constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/dsc_round_style&action=edit)  
+(public static member constant)   
 [ is_iec559](numeric_limits/is_iec559.html "cpp/types/numeric limits/is iec559")[static] |  identifies the IEC 559/IEEE 754 floating-point types   
-(public static member constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/dsc_is_iec559&action=edit)  
+(public static member constant)   
 [ is_bounded](numeric_limits/is_bounded.html "cpp/types/numeric limits/is bounded")[static] |  identifies types that represent a finite set of values   
-(public static member constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/dsc_is_bounded&action=edit)  
+(public static member constant)   
 [ is_modulo](numeric_limits/is_modulo.html "cpp/types/numeric limits/is modulo")[static] |  identifies types that handle overflows with modulo arithmetic   
-(public static member constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/dsc_is_modulo&action=edit)  
+(public static member constant)   
 [ digits](numeric_limits/digits.html "cpp/types/numeric limits/digits")[static] |  number of `radix` digits that can be represented without change   
-(public static member constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/dsc_digits&action=edit)  
+(public static member constant)   
 [ digits10](numeric_limits/digits10.html "cpp/types/numeric limits/digits10")[static] |  number of decimal digits that can be represented without change   
-(public static member constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/dsc_digits10&action=edit)  
+(public static member constant)   
 [ max_digits10](numeric_limits/max_digits10.html "cpp/types/numeric limits/max digits10")[static] (C++11) |  number of decimal digits necessary to differentiate all values of this type   
-(public static member constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/dsc_max_digits10&action=edit)  
+(public static member constant)   
 [ radix](numeric_limits/radix.html "cpp/types/numeric limits/radix")[static] |  the radix or integer base used by the representation of the given type   
-(public static member constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/dsc_radix&action=edit)  
+(public static member constant)   
 [ min_exponent](numeric_limits/min_exponent.html "cpp/types/numeric limits/min exponent")[static] |  one more than the smallest negative power of the radix that is a valid normalized floating-point value   
-(public static member constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/dsc_min_exponent&action=edit)  
+(public static member constant)   
 [ min_exponent10](numeric_limits/min_exponent10.html "cpp/types/numeric limits/min exponent10")[static] |  the smallest negative power of ten that is a valid normalized floating-point value   
-(public static member constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/dsc_min_exponent10&action=edit)  
+(public static member constant)   
 [ max_exponent](numeric_limits/max_exponent.html "cpp/types/numeric limits/max exponent")[static] |  one more than the largest integer power of the radix that is a valid finite floating-point value   
-(public static member constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/dsc_max_exponent&action=edit)  
+(public static member constant)   
 [ max_exponent10](numeric_limits/max_exponent10.html "cpp/types/numeric limits/max exponent10")[static] |  the largest integer power of 10 that is a valid finite floating-point value   
-(public static member constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/dsc_max_exponent10&action=edit)  
+(public static member constant)   
 [ traps](numeric_limits/traps.html "cpp/types/numeric limits/traps")[static] |  identifies types which can cause arithmetic operations to trap   
-(public static member constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/dsc_traps&action=edit)  
+(public static member constant)   
 [ tinyness_before](numeric_limits/tinyness_before.html "cpp/types/numeric limits/tinyness before")[static] |  identifies floating-point types that detect tinyness before rounding   
-(public static member constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/dsc_tinyness_before&action=edit)  
+(public static member constant)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/numeric_limits&action=edit&section=3 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ min](numeric_limits/min.html "cpp/types/numeric limits/min")[static] |  returns the smallest finite value of the given non-floating-point type, or the smallest positive normal value of the given floating-point type   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/dsc_min&action=edit)  
+(public static member function)   
 ---|---  
 [ lowest](numeric_limits/lowest.html "cpp/types/numeric limits/lowest")[static] (C++11) |  returns the lowest finite value of the given type, i.e. the most negative value for signed types, ​0​ for unsigned types   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/dsc_lowest&action=edit)  
+(public static member function)   
 [ max](numeric_limits/max.html "cpp/types/numeric limits/max")[static] |  returns the largest finite value of the given type   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/dsc_max&action=edit)  
+(public static member function)   
 [ epsilon](numeric_limits/epsilon.html "cpp/types/numeric limits/epsilon")[static] |  returns the difference between `1.0` and the next representable value of the given floating-point type   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/dsc_epsilon&action=edit)  
+(public static member function)   
 [ round_error](numeric_limits/round_error.html "cpp/types/numeric limits/round error")[static] |  returns the maximum rounding error of the given floating-point type   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/dsc_round_error&action=edit)  
+(public static member function)   
 [ infinity](numeric_limits/infinity.html "cpp/types/numeric limits/infinity")[static] |  returns the positive infinity value of the given floating-point type   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/dsc_infinity&action=edit)  
+(public static member function)   
 [ quiet_NaN](numeric_limits/quiet_NaN.html "cpp/types/numeric limits/quiet NaN")[static] |  returns a quiet NaN value of the given floating-point type   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/dsc_quiet_NaN&action=edit)  
+(public static member function)   
 [ signaling_NaN](numeric_limits/signaling_NaN.html "cpp/types/numeric limits/signaling NaN")[static] |  returns a signaling NaN value of the given floating-point type   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/dsc_signaling_NaN&action=edit)  
+(public static member function)   
 [ denorm_min](numeric_limits/denorm_min.html "cpp/types/numeric limits/denorm min")[static] |  returns the smallest positive subnormal value of the given floating-point type   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/dsc_denorm_min&action=edit)  
+(public static member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/numeric_limits&action=edit&section=4 "Edit section: Helper classes")] Helper classes
+### Helper classes
 
 [ float_round_style](numeric_limits/float_round_style.html "cpp/types/numeric limits/float round style") |  indicates floating-point rounding modes   
-(enum) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/dsc_float_round_style&action=edit)  
+(enum)   
 ---|---  
 [ float_denorm_style](numeric_limits/float_denorm_style.html "cpp/types/numeric limits/float denorm style") |  indicates floating-point denormalization modes   
-(enum) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/dsc_float_denorm_style&action=edit)  
+(enum)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/numeric_limits&action=edit&section=5 "Edit section: Relationship with C library macro constants")] Relationship with C library macro constants
+### Relationship with C library macro constants
 
 Specialization  
 `std::numeric_limits<T>`  
@@ -394,7 +394,7 @@ float | [FLT_MIN_EXP](climits.html "cpp/types/climits") | [FLT_MIN_10_EXP](climi
 double | [DBL_MIN_EXP](climits.html "cpp/types/climits") | [DBL_MIN_10_EXP](climits.html "cpp/types/climits") | [DBL_MAX_EXP](climits.html "cpp/types/climits") | [DBL_MAX_10_EXP](climits.html "cpp/types/climits") | [FLT_RADIX](climits.html "cpp/types/climits")  
 long double | [LDBL_MIN_EXP](climits.html "cpp/types/climits") | [LDBL_MIN_10_EXP](climits.html "cpp/types/climits") | [LDBL_MAX_EXP](climits.html "cpp/types/climits") | [LDBL_MAX_10_EXP](climits.html "cpp/types/climits") | [FLT_RADIX](climits.html "cpp/types/climits")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/numeric_limits&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -437,7 +437,7 @@ Possible output:
     float	│ -3.40282e+38	│ 1.17549e-38	│ 3.40282e+38
     double	│ -1.79769e+308	│ 2.22507e-308	│ 1.79769e+308
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/numeric_limits&action=edit&section=7 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -449,7 +449,7 @@ specialization for a cv-qualified type behaves as the same as
 the corresponding specialization for the cv-unqualified type  | they have the  
 same behavior   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/numeric_limits&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
   * [Fixed width integer types](integer.html "cpp/types/integer")
   * [Arithmetic types](../language/types.html "cpp/language/types")

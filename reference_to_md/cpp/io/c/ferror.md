@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [C-style I/O](../c.html "cpp/io/c")
 
@@ -176,7 +176,7 @@ Operations on files
 [tmpfile](tmpfile.html "cpp/io/c/tmpfile")  
 [tmpnam](tmpnam.html "cpp/io/c/tmpnam")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/navbar_content&action=edit)
+
 
 Defined in header `[<cstdio>](../../header/cstdio.html "cpp/header/cstdio")` |  |   
 ---|---|---  
@@ -195,16 +195,16 @@ Checks the given stream for errors.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/ferror&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 stream  |  \-  |  the file stream to check   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/ferror&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Nonzero value if the file stream has errors occurred, ​0​ otherwise. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/ferror&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -238,13 +238,13 @@ Output:
     
     Error indicator set
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/ferror&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ clearerr](clearerr.html "cpp/io/c/clearerr") |  clears errors   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_clearerr&action=edit)  
+(function)   
 ---|---  
 [ feof](feof.html "cpp/io/c/feof") |  checks for the end-of-file   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_feof&action=edit)  
+(function)   
 [ fail](../basic_ios/fail.html "cpp/io/basic ios/fail") |  checks if an error has occurred   
-(public member function of `std::basic_ios<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ios/dsc_fail&action=edit)  
+(public member function of `std::basic_ios<CharT,Traits>`)   
 [C documentation](../../../c/io/ferror.html "c/io/ferror") for ferror

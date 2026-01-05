@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Program support utilities](../program.html "cpp/utility/program")
 
@@ -181,7 +181,7 @@ Common vocabulary types
 [Types](../program.html#Types "cpp/utility/program")  
 [jmp_buf](jmp_buf.html "cpp/utility/program/jmp buf")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/program/navbar_content&action=edit)
+
 
 Defined in header `[<csignal>](../../header/csignal.html "cpp/header/csignal")` |  |   
 ---|---|---  
@@ -211,10 +211,10 @@ For some of the signals, the implementation may call std::signal(sig, [SIG_IGN](
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/program/signal&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 sig  |  \-  |  the signal to set the signal handler to. It can be an implementation-defined value or one of the following values:  |  [ SIGABRTSIGFPESIGILLSIGINTSIGSEGVSIGTERM](SIG_types.html "cpp/utility/program/SIG types") |  defines signal types   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/program/dsc_SIG_types&action=edit)  
+(macro constant)   
 ---|---  
 handler  |  \-  |  the signal handler. This must be one of the following: 
 
@@ -229,11 +229,11 @@ handler  |  \-  |  the signal handler. This must be one of the following:
   
   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/program/signal&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Previous signal handler on success or [SIG_ERR](SIG_ERR.html "cpp/utility/program/SIG ERR") on failure (setting a signal handler can be disabled on some implementations). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/program/signal&action=edit&section=3 "Edit section: Signal handler")] Signal handler
+### Signal handler
 
 The following limitations are imposed on the user-defined function that is installed as a signal handler. 
 
@@ -315,13 +315,13 @@ On return from a signal handler, the value of any object modified by the signal 
 (until C++14)  
 A call to the function `signal()` [synchronizes-with](../../atomic/memory_order.html "cpp/atomic/memory order") any resulting invocation of the signal handler. If a signal handler is executed as a result of a call to [std::raise](raise.html "cpp/utility/program/raise") (synchronously), then the execution of the handler is _sequenced-after_ the invocation of `std::raise` and _sequenced-before_ the return from it and runs on the same thread as std::raise. Execution of the handlers for other signals is _unsequenced_ with respect to the rest of the program and runs on an unspecified thread. Two accesses to the same object of type volatile [std::sig_atomic_t](sig_atomic_t.html) do not result in a data race if both occur in the same thread, even if one or more occurs in a signal handler. For each signal handler invocation, evaluations performed by the thread invoking a signal handler can be divided into two groups A and B, such that no evaluations in B _happen-before_ evaluations in A, and the evaluations of such volatile [std::sig_atomic_t](sig_atomic_t.html) objects take values as though all evaluations in A [happened-before](../../atomic/memory_order.html "cpp/atomic/memory order") the execution of the signal handler and the execution of the signal handler _happened-before_ all evaluations in B.  | (since C++14)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/program/signal&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 POSIX requires that `signal` is thread-safe, and [specifies a list of async-signal-safe library functions](https://pubs.opengroup.org/onlinepubs/9699919799/functions/V2_chap02.html#tag_15_04) that may be called from any signal handler. 
 
 Signal handlers are expected to have [C linkage](../../language/language_linkage.html "cpp/language/language linkage") and, in general, only use the features from the common subset of C and C++. However, common implementations allow a function with C++ linkage to be used as a signal handler. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/program/signal&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -357,7 +357,7 @@ Possible output:
     Sending signal: 2
     SignalValue: 2
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/program/signal&action=edit&section=6 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -389,7 +389,7 @@ Possible output:
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/program/signal&action=edit&section=7 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -397,11 +397,11 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 3756](https://cplusplus.github.io/LWG/issue3756) | C++17  | it was unclear whether [std::atomic_flag](../../atomic/atomic_flag.html "cpp/atomic/atomic flag") is signal-safe  | it is   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/program/signal&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [ raise](raise.html "cpp/utility/program/raise") |  runs the signal handler for particular signal   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/program/dsc_raise&action=edit)  
+(function)   
 ---|---  
 [ atomic_signal_fence](../../atomic/atomic_signal_fence.html "cpp/atomic/atomic signal fence")(C++11) |  fence between a thread and a signal handler executed in the same thread   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/dsc_atomic_signal_fence&action=edit)  
+(function)   
 [C documentation](../../../c/program/signal.html "c/program/signal") for signal

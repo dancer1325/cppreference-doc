@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::drop_view`](../drop_view.html "cpp/ranges/drop view")
 
@@ -238,7 +238,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
 [drop_view::reserve_hint](reserve_hint.html "cpp/ranges/drop view/reserve hint")(C++26)  
 [Deduction guides](deduction_guides.html "cpp/ranges/drop view/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/drop_view/navbar_content&action=edit)
+
 
 constexpr auto end() requires (!/*simple-view*/<V>); |  (1)  |  (since C++20)  
 ---|---|---  
@@ -247,11 +247,11 @@ constexpr auto end() const requires [ranges::range](../range.html)<const V>; |  
   
 Returns a sentinel or an iterator representing the end of the `drop_view`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/drop_view/end&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 [ranges::end](../end.html)(`_[base_](../drop_view.html#base "cpp/ranges/drop view")_`). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/drop_view/end&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -279,12 +279,12 @@ Output:
     
     cppreference.com
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/drop_view/end&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ begin](begin.html "cpp/ranges/drop view/begin") |  returns an iterator to the beginning   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/dsc_begin&action=edit)  
+(public member function)   
 ---|---  
 [ ranges::begin](../begin.html "cpp/ranges/begin")(C++20) |  returns an iterator to the beginning of a range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_begin&action=edit)  
+(customization point object)  
 [ ranges::end](../end.html "cpp/ranges/end")(C++20) |  returns a sentinel indicating the end of a range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_end&action=edit)
+(customization point object)

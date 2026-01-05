@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](../empty.html "cpp/iterator/empty")(C++17)  
 [data](../data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 [`std::move_sentinel`](../move_sentinel.html "cpp/iterator/move sentinel")
 
@@ -207,7 +207,7 @@
 [operator==(move_iterator)](../move_iterator/operator_cmp2.html "cpp/iterator/move iterator/operator cmp2")(C++20)  
 [operator-(move_iterator)](../move_iterator/operator-2.html "cpp/iterator/move iterator/operator-2")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/move_sentinel/navbar_content&action=edit)
+
 
 constexpr move_sentinel(); |  (1)  |  (since C++20)  
 ---|---|---  
@@ -225,20 +225,20 @@ Constructs a new sentinel adaptor.
 
 3) The underlying sentinel is initialized with that of other.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/move_sentinel/move_sentinel&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 x  |  \-  |  sentinel to adapt   
 ---|---|---  
 other  |  \-  |  sentinel adaptor to copy   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/move_sentinel/move_sentinel&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/move_sentinel/move_sentinel&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ (constructor)](../move_iterator/move_iterator.html "cpp/iterator/move iterator/move iterator") |  constructs a new `move_iterator`   
-(public member function of `std::move_iterator<Iter>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_constructor&action=edit)  
+(public member function of `std::move_iterator<Iter>`)   
 ---|---

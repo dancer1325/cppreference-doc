@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 [Experimental library headers](../experimental.html "cpp/header/experimental")
 
@@ -292,7 +292,7 @@ Networking TS
 Reflection TS  
 [`<experimental/reflect>`](reflect.html "cpp/header/experimental/reflect")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/experimental/navbar_content&action=edit)
+
 
 This header is part of the Library Fundamentals TS ([v1](../../experimental/memory.html "cpp/experimental/lib extensions"), [v2](../../experimental/lib_extensions_2.html "cpp/experimental/lib extensions 2")). 
 
@@ -308,39 +308,39 @@ This header is part of the Library Fundamentals TS ([v1](../../experimental/memo
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/optional&action=edit&section=1 "Edit section: Classes")] Classes
+### Classes
 
 Name  |  Description   
 ---|---  
 [ optional](../../experimental/optional.html "cpp/experimental/optional")(library fundamentals TS) |  a wrapper that may or may not hold an object   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/optional/dsc_optional&action=edit)  
+(class template)   
 [ bad_optional_access](../../experimental/optional/bad_optional_access.html "cpp/experimental/optional/bad optional access")(library fundamentals TS) |  exception indicating checked access to an optional that doesn't contain a value   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/optional/dsc_bad_optional_access&action=edit)  
+(class)   
 [ in_place_t](../../experimental/optional/in_place_t.html "cpp/experimental/optional/in place t")(library fundamentals TS) |  disambiguation tag type for in-place construction of optional types   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/optional/dsc_in_place_t&action=edit)  
+(class)   
 [ std::hash<std::experimental::optional>](../../experimental/optional/hash.html "cpp/experimental/optional/hash") |  specializes the [std::hash](../../utility/hash.html "cpp/utility/hash") algorithm   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/optional/dsc_hash&action=edit)  
+(class template specialization)   
 [ nullopt_t](../../experimental/optional/nullopt_t.html "cpp/experimental/optional/nullopt t")(library fundamentals TS) |  indicator of optional type with uninitialized state   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/optional/dsc_nullopt_t&action=edit)  
+(class)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/optional&action=edit&section=2 "Edit section: Functions")] Functions
+### Functions
 
 #####  Comparison   
   
 ---  
 [ operator==operator!=operator<operator<=operator>operator>=](../../experimental/optional/operator_cmp.html "cpp/experimental/optional/operator cmp") |  compares `optional` objects   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/optional/dsc_operator_cmp&action=edit)  
+(function template)   
   
 #####  Specialized algorithms   
   
 [ std::swap(std::experimental::optional)](../../experimental/optional/swap2.html "cpp/experimental/optional/swap2") |  specializes the [std::swap](../../utility/swap.html "cpp/algorithm/swap") algorithm   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/optional/dsc_swap2&action=edit)  
+(function)   
 [ make_optional](../../experimental/optional/make_optional.html "cpp/experimental/optional/make optional") |  creates an `optional` object   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/optional/dsc_make_optional&action=edit)  
+(function template)   
   
 #####  Hash support   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/optional&action=edit&section=3 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     namespace std {

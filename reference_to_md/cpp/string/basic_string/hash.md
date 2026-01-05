@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Strings library](../../string.html "cpp/string")
 
@@ -40,7 +40,7 @@ Classes
 [basic_string_view](../basic_string_view.html "cpp/string/basic string view")(C++17)  
 [char_traits](../char_traits.html "cpp/string/char traits")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/navbar_content&action=edit)
+
 
 [`std::basic_string`](../basic_string.html "cpp/string/basic string")
 
@@ -133,7 +133,7 @@ basic_string_view](operator_basic_string_view.html "cpp/string/basic string/oper
 **hash <std::basic_string>**(C++11)  
 [Deduction guides](deduction_guides.html "cpp/string/basic string/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/navbar_content&action=edit)
+
 
 Defined in header `[<string>](../../header/string.html "cpp/header/string")` |  |   
 ---|---|---  
@@ -154,7 +154,7 @@ The template specializations of [std::hash](../../utility/hash.html "cpp/utility
 These hashes equal the hashes of corresponding [std::basic_string_view](../basic_string_view.html "cpp/string/basic string view") classes: If `S` is one of these string types, `SV` is the corresponding string view type, and `s` is an object of type `S`, then [std::hash](../../utility/hash.html)<S>()(s) == [std::hash](../../utility/hash.html)<SV>()(SV(s)).  | (since C++17)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/hash&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
 The following code shows one possible output of a hash function used on a string:
 
@@ -186,7 +186,7 @@ Possible output:
     3544599705012401047
     3544599705012401047
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/hash&action=edit&section=2 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -194,10 +194,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 3705](https://cplusplus.github.io/LWG/issue3705) | C++11  | hash support for [std::basic_string](../basic_string.html "cpp/string/basic string") with customized allocators was not enabled  | enabled   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/hash&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ hash](../../utility/hash.html "cpp/utility/hash")(C++11) |  hash function object   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_hash&action=edit)  
+(class template)   
 ---|---  
 [ std::hash<std::string_view>std::hash<std::wstring_view>std::hash<std::u8string_view>std::hash<std::u16string_view>std::hash<std::u32string_view>](../basic_string_view/hash.html "cpp/string/basic string view/hash")(C++17)(C++17)(C++20)(C++17)(C++17) |  hash support for string views   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/dsc_hash&action=edit)
+(class template specialization) 

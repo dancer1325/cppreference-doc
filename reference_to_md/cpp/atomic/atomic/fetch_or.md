@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::atomic`](../atomic.html "cpp/atomic/atomic")
 
@@ -210,7 +210,7 @@ pointer types only](../atomic.html#Specialized_for_integral_and_pointer_types_on
 [atomic::fetch_xor](fetch_xor.html "cpp/atomic/atomic/fetch xor")  
 [atomic::operator&=atomic::operator|=atomic::operator^=](operator_arith3.html "cpp/atomic/atomic/operator arith3")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/navbar_content&action=edit)
+
 
 member only of `atomic<_Integral_` ﻿`>` specializations |  |   
 ---|---|---  
@@ -225,18 +225,18 @@ Atomically replaces the current value with the result of bitwise OR of the value
 It is deprecated if [std::atomic](../atomic.html)<T>::is_always_lock_free is false and overload (2) participates in overload resolution.  | (since C++20)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic/fetch_or&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 arg  |  \-  |  the other argument of bitwise OR   
 ---|---|---  
 order  |  \-  |  memory order constraints to enforce   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic/fetch_or&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The value immediately preceding the effects of this function in the [modification order](../memory_order.html "cpp/atomic/memory order") of *this. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic/fetch_or&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ atomic_fetch_oratomic_fetch_or_explicit](../atomic_fetch_or.html "cpp/atomic/atomic fetch or")(C++11)(C++11) |  replaces the atomic object with the result of bitwise OR with a non-atomic argument and obtains the previous value of the atomic   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/dsc_atomic_fetch_or&action=edit)  
+(function template)   
 ---|---

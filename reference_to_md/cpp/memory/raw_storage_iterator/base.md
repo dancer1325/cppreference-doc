@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::raw_storage_iterator`](../raw_storage_iterator.html "cpp/memory/raw storage iterator")
 
@@ -196,7 +196,7 @@ Member functions
 **raw_storage_iterator::base**(C++17)  
 [raw_storage_iterator::operator++raw_storage_iterator::operator++(int)](operator_arith.html "cpp/memory/raw storage iterator/operator arith")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/raw_storage_iterator/navbar_content&action=edit)
+
 
 OutputIt base() const; |  |  (since C++17)  
 ---|---|---  
@@ -204,10 +204,10 @@ OutputIt base() const; |  |  (since C++17)
   
 Provides access to the iterator passed in the constructor of this raw_storage_iterator. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/raw_storage_iterator/base&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/raw_storage_iterator/base&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 An iterator pointing at the same object as *this. 

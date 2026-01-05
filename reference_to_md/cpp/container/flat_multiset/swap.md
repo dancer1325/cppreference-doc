@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::flat_multiset`](../flat_multiset.html "cpp/container/flat multiset")
 
@@ -136,7 +136,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/flat multiset/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/flat_multiset/navbar_content&action=edit)
+
 
 void swap( flat_multiset& other ) noexcept; |  |  (since C++23)  
 ---|---|---  
@@ -159,31 +159,31 @@ Exchanges the contents of the container adaptor with those of `other`. Effective
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/swap_ad&action=edit&section=T-1 "Template:cpp/container/swap ad")] Parameters
+### Parameters
 
 other  |  \-  |  container adaptor to exchange the contents with   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/swap_ad&action=edit&section=T-2 "Template:cpp/container/swap ad")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/swap_ad&action=edit&section=T-3 "Template:cpp/container/swap ad")] Exceptions
+### Exceptions
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/swap_ad&action=edit&section=T-4 "Template:cpp/container/swap ad")] Complexity
+### Complexity
 
 Same as underlying container (typically constant). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/swap_ad&action=edit&section=T-6 "Template:cpp/container/swap ad")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/swap_ad&action=edit&section=T-8 "Template:cpp/container/swap ad")] See also
+### See also
 
 [ std::swap(std::flat_multiset)](swap2.html "cpp/container/flat multiset/swap2")(C++23) |  specializes the [std::swap](../../utility/swap.html "cpp/algorithm/swap") algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_swap2&action=edit)  
+(function template)   
 ---|---

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Coroutine support](../coroutine.html "cpp/coroutine")
 
@@ -146,7 +146,7 @@ Trivial awaitables
 Range generators  
 [generator](generator.html "cpp/coroutine/generator")(C++23)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/coroutine/navbar_content&action=edit)
+
 
 Defined in header `[<coroutine>](../header/coroutine.html "cpp/header/coroutine")` |  |   
 ---|---|---  
@@ -174,16 +174,16 @@ Some operations of a no-op coroutines are determined no-op at compile time throu
 Reason: usage of no-op coroutines   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/coroutine/noop_coroutine_promise&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/coroutine/noop_coroutine_promise&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ noop_coroutine](noop_coroutine.html "cpp/coroutine/noop coroutine")(C++20) |  creates a coroutine handle that has no observable effects when resumed or destroyed   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/coroutine/dsc_noop_coroutine&action=edit)  
+(function)   
 ---|---  
 [ noop_coroutine_handle](coroutine_handle.html "cpp/coroutine/coroutine handle")(C++20) |  [std::coroutine_handle](coroutine_handle.html)<std::noop_coroutine_promise>, intended to refer to a no-op coroutine   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/coroutine/dsc_noop_coroutine_handle&action=edit)
+(typedef) 

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 | 
 
@@ -217,31 +217,31 @@
   
 Defined in namespace `std::pmr`  
 [ polymorphic_allocator](../memory/polymorphic_allocator.html "cpp/memory/polymorphic allocator")(C++17) |  an allocator that supports run-time polymorphism based on the [std::pmr::memory_resource](../memory/memory_resource.html "cpp/memory/memory resource") it is constructed with   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_polymorphic_allocator&action=edit)  
+(class template)   
 [ memory_resource](../memory/memory_resource.html "cpp/memory/memory resource")(C++17) |  an abstract interface for classes that encapsulate memory resources   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_memory_resource&action=edit)  
+(class)   
 [ pool_options](../memory/pool_options.html "cpp/memory/pool options")(C++17) |  a set of constructor options for pool resources   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_pool_options&action=edit)  
+(class)   
 [ synchronized_pool_resource](../memory/synchronized_pool_resource.html "cpp/memory/synchronized pool resource")(C++17) |  a thread-safe [std::pmr::memory_resource](../memory/memory_resource.html "cpp/memory/memory resource") for managing allocations in pools of different block sizes   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_synchronized_pool_resource&action=edit)  
+(class)   
 [ unsynchronized_pool_resource](../memory/unsynchronized_pool_resource.html "cpp/memory/unsynchronized pool resource")(C++17) |  a thread-unsafe [std::pmr::memory_resource](../memory/memory_resource.html "cpp/memory/memory resource") for managing allocations in pools of different block sizes   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_unsynchronized_pool_resource&action=edit)  
+(class)   
 [ monotonic_buffer_resource](../memory/monotonic_buffer_resource.html "cpp/memory/monotonic buffer resource")(C++17) |  a special-purpose [std::pmr::memory_resource](../memory/memory_resource.html "cpp/memory/memory resource") that releases the allocated memory only when the resource is destroyed   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_monotonic_buffer_resource&action=edit)  
+(class)   
   
 ###  Functions  
   
 Defined in namespace `std::pmr`  
 [ new_delete_resource](../memory/new_delete_resource.html "cpp/memory/new delete resource")(C++17) |  returns a static program-wide [std::pmr::memory_resource](../memory/memory_resource.html "cpp/memory/memory resource") that uses the global [operator new](../memory/new/operator_new.html "cpp/memory/new/operator new") and [operator delete](../memory/new/operator_delete.html "cpp/memory/new/operator delete") to allocate and deallocate memory   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_new_delete_resource&action=edit)  
+(function)   
 [ null_memory_resource](../memory/null_memory_resource.html "cpp/memory/null memory resource")(C++17) |  returns a static [std::pmr::memory_resource](../memory/memory_resource.html "cpp/memory/memory resource") that performs no allocation   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_null_memory_resource&action=edit)  
+(function)   
 [ get_default_resource](../memory/get_default_resource.html "cpp/memory/get default resource")(C++17) |  gets the default [std::pmr::memory_resource](../memory/memory_resource.html "cpp/memory/memory resource")   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_get_default_resource&action=edit)  
+(function)   
 [ set_default_resource](../memory/set_default_resource.html "cpp/memory/set default resource")(C++17) |  sets the default [std::pmr::memory_resource](../memory/memory_resource.html "cpp/memory/memory resource")   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_set_default_resource&action=edit)  
+(function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/memory_resource&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     namespace std::pmr {
@@ -270,7 +270,7 @@ Defined in namespace `std::pmr`
       class monotonic_buffer_resource;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/memory_resource&action=edit&section=T-1 "Template:cpp/synopsis/memory resource")] Class [std::pmr::memory_resource](../memory/memory_resource.html "cpp/memory/memory resource")
+#### Class [std::pmr::memory_resource](../memory/memory_resource.html "cpp/memory/memory resource")
     
     
     namespace std::pmr {
@@ -297,7 +297,7 @@ Defined in namespace `std::pmr`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/memory_resource&action=edit&section=T-2 "Template:cpp/synopsis/memory resource")] Class template [std::pmr::polymorphic_allocator](../memory/polymorphic_allocator.html "cpp/memory/polymorphic allocator")
+#### Class template [std::pmr::polymorphic_allocator](../memory/polymorphic_allocator.html "cpp/memory/polymorphic allocator")
     
     
     namespace std::pmr {
@@ -342,7 +342,7 @@ Defined in namespace `std::pmr`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/memory_resource&action=edit&section=T-3 "Template:cpp/synopsis/memory resource")] Class [std::pmr::pool_options](../memory/pool_options.html "cpp/memory/pool options")
+#### Class [std::pmr::pool_options](../memory/pool_options.html "cpp/memory/pool options")
     
     
     namespace std::pmr {
@@ -352,7 +352,7 @@ Defined in namespace `std::pmr`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/memory_resource&action=edit&section=T-4 "Template:cpp/synopsis/memory resource")] Class [std::pmr::synchronized_pool_resource](../memory/synchronized_pool_resource.html "cpp/memory/synchronized pool resource")
+#### Class [std::pmr::synchronized_pool_resource](../memory/synchronized_pool_resource.html "cpp/memory/synchronized pool resource")
     
     
     namespace std::pmr {
@@ -384,7 +384,7 @@ Defined in namespace `std::pmr`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/memory_resource&action=edit&section=T-5 "Template:cpp/synopsis/memory resource")] Class [std::pmr::unsynchronized_pool_resource](../memory/unsynchronized_pool_resource.html "cpp/memory/unsynchronized pool resource")
+#### Class [std::pmr::unsynchronized_pool_resource](../memory/unsynchronized_pool_resource.html "cpp/memory/unsynchronized pool resource")
     
     
     namespace std::pmr {
@@ -416,7 +416,7 @@ Defined in namespace `std::pmr`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/memory_resource&action=edit&section=T-6 "Template:cpp/synopsis/memory resource")] Class [std::pmr::monotonic_buffer_resource](../memory/monotonic_buffer_resource.html "cpp/memory/monotonic buffer resource")
+#### Class [std::pmr::monotonic_buffer_resource](../memory/monotonic_buffer_resource.html "cpp/memory/monotonic buffer resource")
     
     
     namespace std::pmr {

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 **`std::any`**
 
@@ -151,7 +151,7 @@ Common vocabulary types
 [Helper classes](any.html#Helper_classes "cpp/utility/any")  
 [bad_any_cast](any/bad_any_cast.html "cpp/utility/any/bad any cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/any/navbar_content&action=edit)
+
 
 Defined in header `[<any>](../header/any.html "cpp/header/any")` |  |   
 ---|---|---  
@@ -180,55 +180,55 @@ Typically, implementations apply small objects optimization (avoid dynamic alloc
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/any&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](any/any.html "cpp/utility/any/any") |  constructs an `any` object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/any/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ operator=](any/operator=.html "cpp/utility/any/operator=") |  assigns an `any` object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/any/dsc_operator%3D&action=edit)  
+(public member function)   
 [ (destructor)](any/~any.html "cpp/utility/any/~any") |  destroys an `any` object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/any/dsc_destructor&action=edit)  
+(public member function)   
   
 #####  Modifiers   
   
 [ emplace](any/emplace.html "cpp/utility/any/emplace") |  change the contained object, constructing the new object directly   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/any/dsc_emplace&action=edit)  
+(public member function)   
 [ reset](any/reset.html "cpp/utility/any/reset") |  destroys contained object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/any/dsc_reset&action=edit)  
+(public member function)   
 [ swap](any/swap.html "cpp/utility/any/swap") |  swaps two `any` objects   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/any/dsc_swap&action=edit)  
+(public member function)   
   
 #####  Observers   
   
 [ has_value](any/has_value.html "cpp/utility/any/has value") |  checks if object holds a value   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/any/dsc_has_value&action=edit)  
+(public member function)   
 [ type](any/type.html "cpp/utility/any/type") |  returns the `typeid` of the contained value   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/any/dsc_type&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/any&action=edit&section=2 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ std::swap(std::any)](any/swap2.html "cpp/utility/any/swap2")(C++17) |  specializes the [std::swap](swap.html "cpp/algorithm/swap") algorithm   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/any/dsc_swap2&action=edit)  
+(function)   
 ---|---  
 [ any_cast](any/any_cast.html "cpp/utility/any/any cast")(C++17) |  type-safe access to the contained object   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/any/dsc_any_cast&action=edit)  
+(function template)   
 [ make_any](any/make_any.html "cpp/utility/any/make any")(C++17) |  creates an `any` object   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/any/dsc_make_any&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/any&action=edit&section=3 "Edit section: Helper classes")] Helper classes
+### Helper classes
 
 [ bad_any_cast](any/bad_any_cast.html "cpp/utility/any/bad any cast")(C++17) |  exception thrown by the value-returning forms of `any_cast` on a type mismatch   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/any/dsc_bad_any_cast&action=edit)  
+(class)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/any&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](feature_test.html "cpp/utility/feature test") macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_any`](../experimental/feature_test.html#cpp_lib_any "cpp/feature test") | [`201606L`](../compiler_support/17.html#cpp_lib_any_201606L "cpp/compiler support/17") | (C++17) | [`std::any`](any.html#top)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/any&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -286,22 +286,22 @@ Possible output:
     no value
     3
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/any&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ function](functional/function.html "cpp/utility/functional/function")(C++11) |  copyable wrapper of any copy constructible callable object   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_function&action=edit)  
+(class template)   
 ---|---  
 [ move_only_function](functional/move_only_function.html "cpp/utility/functional/move only function")(C++23) |  move-only wrapper of any callable object that supports qualifiers in a given call signature   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_move_only_function&action=edit)  
+(class template)   
 [ variant](variant.html "cpp/utility/variant")(C++17) |  a type-safe discriminated union   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_variant&action=edit)  
+(class template)   
 [ optional](optional.html "cpp/utility/optional")(C++17) |  a wrapper that may or may not hold an object   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_optional&action=edit)  
+(class template)   
 [ unique_ptr](../memory/unique_ptr.html "cpp/memory/unique ptr")(C++11) |  smart pointer with unique object ownership semantics   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_unique_ptr&action=edit)  
+(class template)   
 [ indirect](../memory/indirect.html "cpp/memory/indirect")(C++26) |  a wrapper containing dynamically-allocated object with value-like semantics   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_indirect&action=edit)  
+(class template)   
 [ polymorphic](../memory/polymorphic.html "cpp/memory/polymorphic")(C++26) |  a polymorphic wrapper containing dynamically-allocated object with value-like semantics   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_polymorphic&action=edit)
+(class template) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 **`std::pair`**
 
@@ -151,7 +151,7 @@ Common vocabulary types
 [piecewise_construct_t](piecewise_construct.html "cpp/utility/piecewise construct")(C++11)  
 [Deduction guides](pair/deduction_guides.html "cpp/utility/pair/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/pair/navbar_content&action=edit)
+
 
 Defined in header `[<utility>](../header/utility.html "cpp/header/utility")` |  |   
 ---|---|---  
@@ -181,62 +181,62 @@ If neither `T1` nor `T2` is a possibly cv-qualified class type with non-trivial 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/pair&action=edit&section=1 "Edit section: Template parameters")] Template parameters
+### Template parameters
 
 T1, T2  |  \-  |  the types of the elements that the pair stores.   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/pair&action=edit&section=2 "Edit section: Member types")] Member types
+### Member types
 
 Member type  |  Definition   
 ---|---  
 `first_type` |  `T1`  
 `second_type` |  `T2`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/pair&action=edit&section=3 "Edit section: Member objects")] Member objects
+### Member objects
 
 Member name  |  Type   
 ---|---  
 `first` |  `T1`  
 `second` |  `T2`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/pair&action=edit&section=4 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](pair/pair.html "cpp/utility/pair/pair") |  constructs new `pair`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/pair/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ operator=](pair/operator=.html "cpp/utility/pair/operator=") |  assigns the contents   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/pair/dsc_operator%3D&action=edit)  
+(public member function)   
 [ swap](pair/swap.html "cpp/utility/pair/swap")(C++11) |  swaps the contents   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/pair/dsc_swap&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/pair&action=edit&section=5 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ make_pair](pair/make_pair.html "cpp/utility/pair/make pair") |  creates a `pair` object of type, determined by the argument types   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/pair/dsc_make_pair&action=edit)  
+(function template)   
 ---|---  
 [ operator==operator!=operator<operator<=operator>operator>=operator<=>](pair/operator_cmp.html "cpp/utility/pair/operator cmp")(removed in C++20)(removed in C++20)(removed in C++20)(removed in C++20)(removed in C++20)(C++20) |  lexicographically compares the values in the `pair`   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/pair/dsc_operator_cmp&action=edit)  
+(function template)   
 [ std::swap(std::pair)](pair/swap2.html "cpp/utility/pair/swap2")(C++11) |  specializes the [std::swap](swap.html "cpp/algorithm/swap") algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/pair/dsc_swap2&action=edit)  
+(function template)   
 [ get(std::pair)](pair/get.html "cpp/utility/pair/get")(C++11) |  accesses an element of a `pair`   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/pair/dsc_get&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/pair&action=edit&section=6 "Edit section: Helper classes")] Helper classes
+### Helper classes
 
 [ std::tuple_size<std::pair>](pair/tuple_size.html "cpp/utility/pair/tuple size")(C++11) |  obtains the size of a `pair`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/pair/dsc_tuple_size&action=edit)  
+(class template specialization)   
 ---|---  
 [ std::tuple_element<std::pair>](pair/tuple_element.html "cpp/utility/pair/tuple element")(C++11) |  obtains the type of the elements of `pair`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/pair/dsc_tuple_element&action=edit)  
+(class template specialization)   
 [ std::basic_common_reference<std::pair>](pair/basic_common_reference.html "cpp/utility/pair/basic common reference")(C++23) |  determines the common reference type of two `pair`s   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/pair/dsc_basic_common_reference&action=edit)  
+(class template specialization)   
 [ std::common_type<std::pair>](pair/common_type.html "cpp/utility/pair/common type")(C++23) |  determines the common type of two `pair`s   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/pair/dsc_common_type&action=edit)  
+(class template specialization)   
 [ std::formatter<std::pair>](format/tuple_formatter.html "cpp/utility/format/tuple formatter")(C++23) |  formatting support for `pair`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/dsc_tuple_formatter&action=edit)  
+(class template specialization)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/pair&action=edit&section=7 "Edit section: Helper specializations")] Helper specializations
+### Helper specializations
 
 template< class T, class U >  
 constexpr bool enable_nonlocking_formatter_optimization<std::pair<T, U>> =  
@@ -247,9 +247,9 @@ enable_nonlocking_formatter_optimization<U>; |  |  (since C++23)
   
 This specialization of [`std::enable_nonlocking_formatter_optimization`](format/enable_nonlocking_formatter_optimization.html "cpp/utility/format/enable nonlocking formatter optimization") enables efficient implementation of [`std::print`](../io/print.html "cpp/io/print") and [`std::println`](../io/println.html "cpp/io/println") for printing a `pair` object when both `T` and `U` enable it. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/pair&action=edit&section=8 "Edit section: Deduction guides\(since C++17\)")] [Deduction guides](pair/deduction_guides.html "cpp/utility/pair/deduction guides")(since C++17)
+### [Deduction guides](pair/deduction_guides.html "cpp/utility/pair/deduction guides")(since C++17)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/pair&action=edit&section=9 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -257,10 +257,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 2796](https://cplusplus.github.io/LWG/issue2796) | C++98  | triviality of the destructor of `pair` was unspecified  | specified   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/pair&action=edit&section=10 "Edit section: See also")] See also
+### See also
 
 [ tuple](tuple.html "cpp/utility/tuple")(C++11) |  implements fixed size container, which holds elements of possibly different types   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_tuple&action=edit)  
+(class template)   
 ---|---  
 [ tie](tuple/tie.html "cpp/utility/tuple/tie")(C++11) |  creates a [tuple](tuple.html "cpp/utility/tuple") of lvalue references or unpacks a tuple into individual objects   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/dsc_tie&action=edit)
+(function template) 

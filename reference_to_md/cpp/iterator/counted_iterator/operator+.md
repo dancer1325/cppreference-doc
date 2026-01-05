@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](../empty.html "cpp/iterator/empty")(C++17)  
 [data](../data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 [`std::counted_iterator`](../counted_iterator.html "cpp/iterator/counted iterator")
 
@@ -218,7 +218,7 @@
 [Helper classes](../counted_iterator.html#Helper_classes "cpp/iterator/counted iterator")  
 [iterator_traits<std::counted_iterator>](iterator_traits.html "cpp/iterator/counted iterator/iterator traits")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/counted_iterator/navbar_content&action=edit)
+
 
 friend constexpr counted_iterator operator+(  
 [std::iter_difference_t](../iter_t.html)<I> n, const counted_iterator& x )  
@@ -240,17 +240,17 @@ This function is not visible to ordinary [unqualified](../../language/unqualifie
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/counted_iterator/operator%2B&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 n  |  \-  |  the number of positions to increment the iterator   
 ---|---|---  
 x  |  \-  |  the iterator adaptor to increment   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/counted_iterator/operator%2B&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 An iterator adaptor equal to x + n. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/counted_iterator/operator%2B&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -282,12 +282,12 @@ Output:
     *q:3, count:2
     *r:6, count:3
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/counted_iterator/operator%2B&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ operator++operator++(int)operator+=operator+operator--operator--(int)operator-=operator-](operator_arith.html "cpp/iterator/counted iterator/operator arith") |  advances or decrements the `counted_iterator`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_operator_arith&action=edit)  
+(public member function)   
 ---|---  
 [ operator-](operator-.html "cpp/iterator/counted iterator/operator-")(C++20) |  computes the distance between two iterator adaptors   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_operator-&action=edit)  
+(function template)   
 [ operator-(std::default_sentinel_t)](operator-2.html "cpp/iterator/counted iterator/operator-2")(C++20) |  computes the signed distance to the end   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/counted_iterator/dsc_operator-2&action=edit)
+(function template) 

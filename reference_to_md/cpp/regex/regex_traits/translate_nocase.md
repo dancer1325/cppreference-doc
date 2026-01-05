@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Regular expressions library](../../regex.html "cpp/regex")
 
@@ -81,7 +81,7 @@ Constants
 Regex Grammar  
 [Modified ECMAScript-262](../ecmascript.html "cpp/regex/ecmascript")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/navbar_content&action=edit)
+
 
 [`std::regex_traits`](../regex_traits.html "cpp/regex/regex traits")
 
@@ -100,7 +100,7 @@ Member functions
 [regex_traits::imbue](imbue.html "cpp/regex/regex traits/imbue")  
 [regex_traits::getloc](getloc.html "cpp/regex/regex traits/getloc")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/regex_traits/navbar_content&action=edit)
+
 
 CharT translate_nocase( CharT c ) const; |  |   
 ---|---|---  
@@ -112,16 +112,16 @@ When the regex library needs to match two characters `c1` and `c2` and the flag 
 
 Standard library specializations of [std::regex_traits](../regex_traits.html "cpp/regex/regex traits") return [std::use_facet](../../locale/use_facet.html)<[std::ctype](../../locale/ctype.html)<CharT>>(getloc()).tolower(c), that is, convert c to lowercase, using the currently imbued locale. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/regex_traits/translate_nocase&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 c  |  \-  |  character that needs to be examined for equivalence, ignoring case   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/regex_traits/translate_nocase&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The case-insensitive comparison key for c in the currently imbued locale. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/regex_traits/translate_nocase&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

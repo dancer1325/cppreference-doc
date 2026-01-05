@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Library fundamentals v2](lib_extensions_2.html "cpp/experimental/lib extensions 2")
 
@@ -74,7 +74,7 @@
 [uniform container erasure](lib_extensions_2.html#Uniform_container_erasure "cpp/experimental/lib extensions 2")  
 [logical operator type traits](lib_extensions_2.html#Logical_operator_type_traits "cpp/experimental/lib extensions 2")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions_2/navbar_content&action=edit)
+
 
 ![](https://upload.cppreference.com/mwiki/images/3/31/Imbox_notice.png) |  **Merged into ISO C++** The functionality described on this page was merged into the mainline ISO C++ standard as of 7/2019, see [`std::to_array`](../container/array/to_array.html "cpp/container/array/to array") (since C++20)  
 ---|---  
@@ -97,16 +97,16 @@ Creates a [std::array](../container/array.html "cpp/container/array") from the b
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/to_array&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 a  |  \-  |  the built-in array to be used to initialize the [std::array](../container/array.html "cpp/container/array")  
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/to_array&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 An [std::array](../container/array.html "cpp/container/array") object whose elements are copy-initialized from the corresponding element of a. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/to_array&action=edit&section=3 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     namespace detail
@@ -127,7 +127,7 @@ An [std::array](../container/array.html "cpp/container/array") object whose elem
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/to_array&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -156,8 +156,8 @@ Run this code
         [assert](../error/assert.html)(rt == 0);
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/to_array&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ make_array](make_array.html "cpp/experimental/make array")(library fundamentals TS v2) |  creates a [std::array](../container/array.html "cpp/container/array") object whose size and optionally element type are deduced from the arguments   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/dsc_make_array&action=edit)  
+(function template)   
 ---|---

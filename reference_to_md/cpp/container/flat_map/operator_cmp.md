@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::flat_map`](../flat_map.html "cpp/container/flat map")
 
@@ -143,7 +143,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/flat map/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/flat_map/navbar_content&action=edit)
+
 
 friend bool operator==( const [std::flat_map](../flat_map.html)& lhs,  
 const [std::flat_map](../flat_map.html)& rhs ); |  (1)  |  (since C++23)  
@@ -166,25 +166,25 @@ Reason: For "flat" containers only: copy parts of [Template:cpp/container/operat
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container_adaptor/operator_cmp&action=edit&section=T-1 "Template:cpp/container adaptor/operator cmp")] Parameters
+### Parameters
 
 lhs, rhs  |  \-  |  container adaptors whose contents to compare | | This section is incomplete  
 Reason: Add named requirements to "flat" container inner types   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container_adaptor/operator_cmp&action=edit&section=T-2 "Template:cpp/container adaptor/operator cmp")] Return value
+### Return value
 
 1) true if the corresponding comparison yields true, false otherwise.
 
 2) Result of three-way comparison on underlying containers.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container_adaptor/operator_cmp&action=edit&section=T-3 "Template:cpp/container adaptor/operator cmp")] Complexity
+### Complexity
 
 1) Constant if lhs and rhs are of different size, otherwise linear in the size of the `flat_map`.
 
 2) Linear in the size of the container.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container_adaptor/operator_cmp&action=edit&section=T-4 "Template:cpp/container adaptor/operator cmp")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

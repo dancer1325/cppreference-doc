@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Localization library](../locale.html "cpp/locale")
 
@@ -152,7 +152,7 @@ base classes](../locale.html#Facet_category_base_classes "cpp/locale")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/navbar_content&action=edit)
+
 
 **`std::num_get`**
 
@@ -162,7 +162,7 @@ Member functions
 [num_get::~num_get](num_get/~num_get.html "cpp/locale/num get/~num get")  
 [num_get::getnum_get::do_get](num_get/get.html "cpp/locale/num get/get")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/num_get/navbar_content&action=edit)
+
 
 Defined in header `[<locale>](../header/locale.html "cpp/header/locale")` |  |   
 ---|---|---  
@@ -194,7 +194,7 @@ If a `std::num_get` specialization is not guaranteed to be provided by the stand
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/num_get&action=edit&section=1 "Edit section: Specializations")] Specializations
+### Specializations
 
 The standard library is guaranteed to provide the following specializations (they are [required to be implemented by any locale object](locale.html "cpp/locale/locale")): 
 
@@ -213,20 +213,20 @@ In addition, the standard library is also guaranteed to provide every specializa
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/num_get&action=edit&section=2 "Edit section: Nested types")] Nested types
+### Nested types
 
 Type  |  Definition   
 ---|---  
 `char_type` |  `CharT`  
 `iter_type` |  `InputIt`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/facet_data_members&action=edit&section=T-1 "Template:cpp/locale/facet data members")] Data members
+### Data members
 
 Member  |  Description   
 ---|---  
 [std::locale::id](locale/id.html "cpp/locale/locale/id") `id` [static] |  the identifier of the [facet](locale/facet.html#Facet_class "cpp/locale/locale/facet")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/num_get&action=edit&section=3 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](num_get/num_get.html "cpp/locale/num get/num get") |  constructs a new `num_get` facet   
 (public member function)  
@@ -234,7 +234,7 @@ Member  |  Description
 [ get](num_get/get.html "cpp/locale/num get/get") |  invokes `do_get`   
 (public member function)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/num_get&action=edit&section=4 "Edit section: Protected member functions")] Protected member functions
+### Protected member functions
 
 [ (destructor)](num_get/~num_get.html "cpp/locale/num get/~num get") |  destructs a `num_get` facet   
 (protected member function)  
@@ -242,7 +242,7 @@ Member  |  Description
 [ do_get](num_get/get.html "cpp/locale/num get/get")[virtual] |  parses a number from an input stream   
 (virtual protected member function)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/num_get&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -292,7 +292,7 @@ Output:
     Parsing 1.234.567,89 as double gives 1234567.890000 in de_DE locale and 1.234000 in en_US
     parsing 1,234,567.89 as double using raw en_US facet gives 1234567.890000
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/num_get&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -307,12 +307,12 @@ defined character types
 guaranteed to be accepted by `num_get` | can guarantee to accept implementation-  
 defined character container types   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/num_get&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ numpunct](numpunct.html "cpp/locale/numpunct") |  defines numeric punctuation rules   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_numpunct&action=edit)  
+(class template)   
 ---|---  
 [ num_put](num_put.html "cpp/locale/num put") |  formats numeric values for output as character sequence   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_num_put&action=edit)  
+(class template)   
 [ operator>>](../io/basic_istream/operator_gtgt.html "cpp/io/basic istream/operator gtgt") |  extracts formatted data   
-(public member function of `std::basic_istream<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_istream/dsc_operator_gtgt&action=edit)
+(public member function of `std::basic_istream<CharT,Traits>`) 

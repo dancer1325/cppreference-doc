@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Null-terminated wide strings](../wide.html "cpp/string/wide")
 
@@ -153,7 +153,7 @@
 WCHAR_MAX  
 WEOF](../wide.html#Macros "cpp/string/wide")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/navbar_content&action=edit)
+
 
 Defined in header `[<cwctype>](../../header/cwctype.html "cpp/header/cwctype")` |  |   
 ---|---|---  
@@ -175,20 +175,20 @@ If the value of ch is neither representable as a wchar_t nor equal to the value 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/iswblank&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 ch  |  \-  |  wide character   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/iswblank&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Non-zero value if the wide character is a blank character, zero otherwise. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/iswblank&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 [ISO 30112](https://www.open-std.org/JTC1/SC35/WG5/docs/30112d10.pdf) defines POSIX blank characters as Unicode characters U+0009, U+0020, U+1680, U+180E, U+2000..U+2006, U+2008, U+200A, U+205F, and U+3000. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/iswblank&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -215,13 +215,13 @@ Output:
     in the default locale, iswblank(0x3000) = false
     in Unicode locale, iswblank(0x3000) = true
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/iswblank&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ isblank(std::locale)](../../locale/isblank.html "cpp/locale/isblank")(C++11) |  checks if a character is classified as a blank character by a locale   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_isblank&action=edit)  
+(function template)   
 ---|---  
 [ isblank](../byte/isblank.html "cpp/string/byte/isblank")(C++11) |  checks if a character is a blank character   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_isblank&action=edit)  
+(function)   
 [C documentation](../../../c/string/wide/iswblank.html "c/string/wide/iswblank") for iswblank  
 ASCII values  | characters  |  [`iscntrl`](../byte/iscntrl.html "cpp/string/byte/iscntrl")  
 [`iswcntrl`](iswcntrl.html "cpp/string/wide/iswcntrl") |  [`isprint`](../byte/isprint.html "cpp/string/byte/isprint")  

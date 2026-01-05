@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [Pseudo-random number generation](../../random.html "cpp/numeric/random")
 
@@ -161,7 +161,7 @@
 [piecewise_constant_distribution](../piecewise_constant_distribution.html "cpp/numeric/random/piecewise constant distribution")(C++11)  
 [piecewise_linear_distribution](../piecewise_linear_distribution.html "cpp/numeric/random/piecewise linear distribution")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/navbar_content&action=edit)
+
 
 [`std::seed_seq`](../seed_seq.html "cpp/numeric/random/seed seq")
 
@@ -172,7 +172,7 @@ Member functions
 [seed_seq::size](size.html "cpp/numeric/random/seed seq/size")  
 **seed_seq::param**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/seed_seq/navbar_content&action=edit)
+
 
 template< class OutputIt >  
 void param( OutputIt dest ) const; |  |  (since C++11)  
@@ -195,16 +195,16 @@ If `OutputIt` does not satisfy the requirements of [LegacyOutputIterator](../../
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/random/seed_seq/param&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 dest  |  \-  |  the beginning iterator of the output range   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/random/seed_seq/param&action=edit&section=2 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Only throws the exceptions thrown by the operations on dest. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/random/seed_seq/param&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -224,7 +224,7 @@ Output:
     
     -1 0 1
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/random/seed_seq/param&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

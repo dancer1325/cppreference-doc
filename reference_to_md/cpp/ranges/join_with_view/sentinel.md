@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::join_with_view`](../join_with_view.html "cpp/ranges/join with view")
 
@@ -251,7 +251,7 @@ join_with_view::_iterator_ ::operator--(int)](iterator/operator_arith.html "cpp/
 [join_with_view::_sentinel_ ::_sentinel_](sentinel/sentinel.html "cpp/ranges/join with view/sentinel/sentinel")  
 [operator==(join_with_view::_sentinel_)](sentinel/operator_cmp.html "cpp/ranges/join with view/sentinel/operator cmp")(C++23)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/join_with_view/navbar_content&action=edit)
+
 
 template< bool Const >  
 class /*sentinel*/ |  |  (exposition only*)  
@@ -273,12 +273,12 @@ If an iterator compares equal with a sentinel, the iterator is a past-the-end it
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/join_with_view/sentinel&action=edit&section=1 "Edit section: Template parameters")] Template parameters
+### Template parameters
 
 Const  |  \-  |  whether the sentinel corresponds to a constant iterator   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/join_with_view/sentinel&action=edit&section=2 "Edit section: Nested types")] Nested types
+### Nested types
 
 Name  |  Definition   
 ---|---  
@@ -287,21 +287,21 @@ Name  |  Definition
 `_Base_` |  `_[maybe-const](../../ranges.html#maybe-const "cpp/ranges")_` ﻿<Const, V>  
 (exposition-only member type*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/join_with_view/sentinel&action=edit&section=3 "Edit section: Data members")] Data members
+### Data members
 
 Member  |  Description   
 ---|---  
 [ranges::sentinel_t](../iterator_t.html)<`_Base_` ﻿> `_end__` |  the sentinel of the parent range  
 (exposition-only member object*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/join_with_view/sentinel&action=edit&section=4 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](sentinel/sentinel.html "cpp/ranges/join with view/sentinel/sentinel") |  constructs a sentinel   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/sentinel/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/join_with_view/sentinel&action=edit&section=5 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ operator==](sentinel/operator_cmp.html "cpp/ranges/join with view/sentinel/operator cmp")(C++23) |  compares a sentinel with an iterator returned from [`join_with_view::begin`](begin.html "cpp/ranges/join with view/begin")   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/sentinel/dsc_operator_cmp&action=edit)  
+(function)   
 ---|---

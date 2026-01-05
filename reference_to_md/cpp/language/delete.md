@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Expressions](expressions.html "cpp/language/expressions")
 
@@ -289,7 +289,7 @@ Conversions
 [`dynamic_cast`](dynamic_cast.html "cpp/language/dynamic cast")  
 [`reinterpret_cast`](reinterpret_cast.html "cpp/language/reinterpret cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/expressions/navbar_content&action=edit)
+
 
 Destroys object(s) previously allocated by the [new-expression](new.html "cpp/language/new") and releases obtained memory area. 
 
@@ -305,7 +305,7 @@ Destroys object(s) previously allocated by the [new-expression](new.html "cpp/la
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/delete&action=edit&section=1 "Edit section: Syntax")] Syntax  
+### Syntax  
   
 ---  
 `**::**`(optional) `**delete**` expression |  (1)  |   
@@ -322,7 +322,7 @@ expression |  \-  |  one of the following:
 
 2) Destroys an array created by a [new[]-expression](new.html "cpp/language/new").
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/delete&action=edit&section=2 "Edit section: Explanation")] Explanation
+### Explanation
 
 Given the pointer evaluated from expression (after possible conversions) as ptr. 
 
@@ -397,7 +397,7 @@ If ptr is a null pointer value, no destructors are called, and the deallocation 
 
 If ptr is a pointer to a base class subobject of the object that was allocated with [new](new.html "cpp/language/new"), the destructor of the base class must be [virtual](virtual.html "cpp/language/virtual"), otherwise the behavior is undefined. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/delete&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 A pointer to void cannot be deleted because it is not a pointer to an object type. 
 
@@ -410,11 +410,11 @@ Because a pair of brackets following the keyword delete is always interpreted as
 | (since C++11)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/delete&action=edit&section=4 "Edit section: Keywords")] Keywords
+### Keywords
 
 [`delete`](../keyword/delete.html "cpp/keyword/delete")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/delete&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -436,7 +436,7 @@ different type resulted in undefined behavior  | made well-defined
 [CWG 2758](https://cplusplus.github.io/CWG/issues/2758.html) | C++98  | it was unclear how access control was done for  
 the deallocation function and the destructor  | made clear   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/delete&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
   * [new](new.html "cpp/language/new")
 

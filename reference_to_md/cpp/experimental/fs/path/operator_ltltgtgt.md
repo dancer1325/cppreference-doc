@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Filesystem library](../../fs.html "cpp/experimental/fs")
 
@@ -124,7 +124,7 @@ File types
 [filesystem::is_socket](../is_socket.html "cpp/experimental/fs/is socket")  
 [filesystem::is_symlink](../is_symlink.html "cpp/experimental/fs/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/navbar_content&action=edit)
+
 
 [`path`](../path.html "cpp/experimental/fs/path")
 
@@ -174,7 +174,7 @@ Non-member functions
 **operator <<operator>>**  
 [u8path](u8path.html "cpp/experimental/fs/path/u8path")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/path/navbar_content&action=edit)
+
 
 template< class CharT, class Traits >  
 [std::basic_ostream](../../../io/basic_ostream.html)<CharT,Traits>&  
@@ -198,24 +198,24 @@ Performs stream input or output on the path p. [std::quoted](../../../io/manip/q
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/path/operator_ltltgtgt&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 os  |  \-  |  stream to perform output on   
 ---|---|---  
 is  |  \-  |  stream to perform input on   
 p  |  \-  |  path to insert or extract   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/path/operator_ltltgtgt&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) os
 
 2) is
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/impldef_exception&action=edit&section=T-1 "Template:cpp/impldef exception")] Exceptions
+### Exceptions
 
 May throw implementation-defined exceptions. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/path/operator_ltltgtgt&action=edit&section=3 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
 
 First version   
 ---  
@@ -242,7 +242,7 @@ Second version
         return is;
     }  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/path/operator_ltltgtgt&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

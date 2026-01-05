@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ named requirements](../iterator/concepts.html "cpp/named req")
 
@@ -147,7 +147,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/named_req/navbar_content&action=edit)
+
 
 The **TimedMutex** requirements extend the [TimedLockable](TimedLockable.html "cpp/named req/TimedLockable") requirements to include inter-thread synchronization. 
 
@@ -161,7 +161,7 @@ The **TimedMutex** requirements extend the [TimedLockable](TimedLockable.html "c
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/TimedMutex&action=edit&section=1 "Edit section: Requirements")] Requirements
+### Requirements
 
   * [TimedLockable](TimedLockable.html "cpp/named req/TimedLockable")
   * [Mutex](Mutex.html "cpp/named req/Mutex")
@@ -198,20 +198,20 @@ Additionally, for an object `**m**` of TimedMutex type:
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/TimedMutex&action=edit&section=2 "Edit section: Standard library")] Standard library
+### Standard library
 
 The following standard library types satisfy TimedMutex requirements: 
 
 [ recursive_timed_mutex](../thread/recursive_timed_mutex.html "cpp/thread/recursive timed mutex")(C++11) |  provides mutual exclusion facility which can be locked recursively  
 by the same thread and implements locking with a timeout   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_recursive_timed_mutex&action=edit)  
+(class)   
 ---|---  
 [ shared_timed_mutex](../thread/shared_timed_mutex.html "cpp/thread/shared timed mutex")(C++14) |  provides shared mutual exclusion facility and implements locking with a timeout   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_shared_timed_mutex&action=edit)  
+(class)   
 [ timed_mutex](../thread/timed_mutex.html "cpp/thread/timed mutex")(C++11) |  provides mutual exclusion facility which implements locking with a timeout   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_timed_mutex&action=edit)  
+(class)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/TimedMutex&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -219,7 +219,7 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 2093](https://cplusplus.github.io/LWG/issue2093) | C++11  | timeout-related exceptions were missing in the specification  | mentioned   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/TimedMutex&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
   * [Thread support library](../atomic.html "cpp/thread")
   * [TimedLockable](TimedLockable.html "cpp/named req/TimedLockable")

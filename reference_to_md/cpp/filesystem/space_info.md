@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Filesystem library](../filesystem.html "cpp/filesystem")
 
@@ -100,7 +100,7 @@ filesystem::symlink_status](status.html "cpp/filesystem/status")
 [filesystem::is_socket](is_socket.html "cpp/filesystem/is socket")  
 [filesystem::is_symlink](is_symlink.html "cpp/filesystem/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/navbar_content&action=edit)
+
 
 Defined in header `[<filesystem>](../header/filesystem.html "cpp/header/filesystem")` |  |   
 ---|---|---  
@@ -124,7 +124,7 @@ Represents the filesystem information as determined by [`filesystem::space`](spa
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/space_info&action=edit&section=1 "Edit section: Member objects")] Member objects
+### Member objects
 
 capacity |  total size of the filesystem, in bytes   
 (public member object)  
@@ -134,7 +134,7 @@ free |  free space on the filesystem, in bytes
 available |  free space available to a non-privileged process (may be equal or less than `free`)   
 (public member object)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/space_info&action=edit&section=2 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 ** operator==**(C++20) |  compares two `space_info`s   
 (function)  
@@ -152,7 +152,7 @@ This function is not visible to ordinary [unqualified](../language/unqualified_l
 
 The `!=` operator is [synthesized](../language/default_comparisons.html#Other_defaulted_comparison_operators "cpp/language/default comparisons") from `operator==`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/space_info&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -215,8 +215,8 @@ Possible output:
     │ 0              │ 0              │ 0              │ 100            │ /proc
     │ -1             │ -1             │ -1             │ 100            │ /null
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/space_info&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ space](space.html "cpp/filesystem/space")(C++17) |  determines available free space on the file system   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_space&action=edit)  
+(function)   
 ---|---

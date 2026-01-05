@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [`std::complex`](../complex.html "cpp/numeric/complex")
 
@@ -164,7 +164,7 @@
 [tuple_size<std::complex>](tuple_size.html "cpp/numeric/complex/tuple size")(C++26)  
 [tuple_element<std::complex>](tuple_element.html "cpp/numeric/complex/tuple element")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/navbar_content&action=edit)
+
 
 Defined in header `[<complex>](../../header/complex.html "cpp/header/complex")` |  |   
 ---|---|---  
@@ -185,18 +185,18 @@ Computes complex arc tangent of a complex value z. Branch cut exists outside the
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/atan&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 z  |  \-  |  complex value   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/atan&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 If no errors occur, complex arc tangent of z is returned, in the range of a strip unbounded along the imaginary axis and in the interval [−π/2, +π/2] along the real axis. 
 
 Errors and special cases are handled as if the operation is implemented by -i *` `[`std::atanh`](atanh.html "cpp/numeric/complex/atanh")(i * z), where `i` is the imaginary unit. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/atan&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Inverse tangent (or arc tangent) is a multivalued function and requires a branch cut on the complex plane. The branch cut is conventionally placed at the line segments (-∞i,-i) and (+i,+∞i) of the imaginary axis. 
 
@@ -205,7 +205,7 @@ The mathematical definition of the principal value of inverse tangent is atan z 
 2  
 i [ln(1 - iz) - ln (1 + iz)]. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/atan&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -235,17 +235,17 @@ Output:
     atan(-0.000000,2.000000) (the other side of the cut) = (-1.570796,0.549306)
     2 * atan(0.000000,inf) = (3.141593,0.000000)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/atan&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ asin(std::complex)](asin.html "cpp/numeric/complex/asin")(C++11) |  computes arc sine of a complex number (\\({\small\arcsin{z}}\\)arcsin(z))   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_asin&action=edit)  
+(function template)   
 ---|---  
 [ acos(std::complex)](acos.html "cpp/numeric/complex/acos")(C++11) |  computes arc cosine of a complex number (\\({\small\arccos{z}}\\)arccos(z))   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_acos&action=edit)  
+(function template)   
 [ tan(std::complex)](tan.html "cpp/numeric/complex/tan") |  computes tangent of a complex number (\\({\small\tan{z}}\\)tan(z))   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_tan&action=edit)  
+(function template)   
 [ atanatanfatanl](../math/atan.html "cpp/numeric/math/atan")(C++11)(C++11) |  computes arc tangent (\\({\small\arctan{x}}\\)arctan(x))   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_atan&action=edit)  
+(function)   
 [ atan(std::valarray)](../valarray/atan.html "cpp/numeric/valarray/atan") |  applies the function [std::atan](../math/atan.html "cpp/numeric/math/atan") to each element of valarray   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_atan&action=edit)  
+(function template)   
 [C documentation](../../../c/numeric/complex/catan.html "c/numeric/complex/catan") for catan

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [Declarations](declarations.html "cpp/language/declarations")
 
@@ -280,7 +280,7 @@ Other declarations
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/declarations/navbar_content&action=edit)
+
 
 [ Expressions](expressions.html "cpp/language/expressions")
 
@@ -349,7 +349,7 @@ Conversions
 [`dynamic_cast`](dynamic_cast.html "cpp/language/dynamic cast")  
 [`reinterpret_cast`](reinterpret_cast.html "cpp/language/reinterpret cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/expressions/navbar_content&action=edit)
+
 
 [ Templates](templates.html "cpp/language/templates")
 
@@ -373,7 +373,7 @@ Conversions
 [Constraints and concepts](constraints.html "cpp/language/constraints") (C++20)  
 [requires expression](requires.html "cpp/language/requires") (C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/templates/navbar_content&action=edit)
+
 
 Allows customizing class and variable(since C++14) templates for a given category of template arguments. 
 
@@ -390,7 +390,7 @@ Allows customizing class and variable(since C++14) templates for a given categor
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/partial_specialization&action=edit&section=1 "Edit section: Syntax")] Syntax  
+### Syntax  
   
 ---  
 `**template**` `**<**` parameter-list `**>**` class-key class-head-name `**<**` argument-list `**>**` declaration |  (1)  |   
@@ -421,7 +421,7 @@ For example,
 
 Examples of partial specializations in the standard library include [std::unique_ptr](../memory/unique_ptr.html "cpp/memory/unique ptr"), which has a partial specialization for array types. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/partial_specialization&action=edit&section=2 "Edit section: The argument list")] The argument list
+### The argument list
 
 The following restrictions apply to the argument-list of a partial template specialization: 
 
@@ -465,7 +465,7 @@ Moreover, the specialization has to be more specialized than the primary templat
     template<int X> class B<X, &array> {}; // error: type of the argument &array is
                                            // int(*)[X], which depends on the parameter X
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/partial_specialization&action=edit&section=3 "Edit section: Name lookup")] Name lookup
+### Name lookup
 
 Partial template specializations are not found by name lookup. Only if the primary template is found by name lookup, its partial specializations are considered. In particular, a using declaration that makes a primary template visible, makes partial specializations visible as well: 
     
@@ -483,7 +483,7 @@ Partial template specializations are not found by name lookup. Only if the prima
     Z<int, int*> z; // name lookup finds N::Z (the primary template), the
                     // partial specialization with T = int is then used
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/partial_specialization&action=edit&section=4 "Edit section: Partial ordering")] Partial ordering
+### Partial ordering
 
 When a class or variable(since C++14) template is instantiated, and there are partial specializations available, the compiler has to decide if the primary template is going to be used or one of its partial specializations. 
 
@@ -541,7 +541,7 @@ The function templates are then ranked as if for [function template overloading]
         [std::cout](../io/cout.html) << x.s << '\n'; // prints 2
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/partial_specialization&action=edit&section=5 "Edit section: Members of partial specializations")] Members of partial specializations
+### Members of partial specializations
 
 The template parameter list and the template argument list of a member of a partial specialization must match the parameter list and the argument list of the partial specialization. 
 
@@ -615,7 +615,7 @@ If a partial specialization of the member template is explicitly specialized for
     A<short>::B<int*> absip; // uses full specialization of the primary (ignores partial)
     A<char>::B<int> abci;    // uses primary
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/partial_specialization&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -631,7 +631,7 @@ template arguments other than id-expressions  | expressions ok as long as deduci
 in the same scope with primary templates   
 [CWG 2330](https://cplusplus.github.io/CWG/issues/2330.html) | C++14  | missing references to variable templates  | add support for variable templates   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/partial_specialization&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
   * [templates](templates.html "cpp/language/templates")
   * [class template](class_template.html "cpp/language/class template")

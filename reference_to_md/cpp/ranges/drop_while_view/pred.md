@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::drop_while_view`](../drop_while_view.html "cpp/ranges/drop while view")
 
@@ -237,7 +237,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
 [drop_while_view::end](end.html "cpp/ranges/drop while view/end")  
 [Deduction guides](deduction_guides.html "cpp/ranges/drop while view/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/drop_while_view/navbar_content&action=edit)
+
 
 constexpr const Pred& pred() const; |  |  (since C++20)  
 ---|---|---  
@@ -247,15 +247,15 @@ Returns a reference to the stored predicate.
 
 If *this does not store a predicate (e.g. an exception is thrown on the assignment to *this, which copy-constructs or move-constructs a `Pred`), the behavior is undefined. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/drop_while_view/pred&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/drop_while_view/pred&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 A reference to the stored predicate [`_pred__`](../drop_while_view.html#Data_members "cpp/ranges/drop while view"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/drop_while_view/pred&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     

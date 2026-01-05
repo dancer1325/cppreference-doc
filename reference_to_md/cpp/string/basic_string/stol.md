@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Strings library](../../string.html "cpp/string")
 
@@ -40,7 +40,7 @@ Classes
 [basic_string_view](../basic_string_view.html "cpp/string/basic string view")(C++17)  
 [char_traits](../char_traits.html "cpp/string/char traits")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/navbar_content&action=edit)
+
 
 [`std::basic_string`](../basic_string.html "cpp/string/basic string")
 
@@ -133,7 +133,7 @@ basic_string_view](operator_basic_string_view.html "cpp/string/basic string/oper
 [hash<std::basic_string>](hash.html "cpp/string/basic string/hash")(C++11)  
 [Deduction guides](deduction_guides.html "cpp/string/basic string/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/navbar_content&action=edit)
+
 
 Defined in header `[<string>](../../header/string.html "cpp/header/string")` |  |   
 ---|---|---  
@@ -198,25 +198,25 @@ If pos is not a null pointer, then ptr will receive an address of the first unco
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/stol&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 str  |  \-  |  the string to convert   
 ---|---|---  
 pos  |  \-  |  address of an integer to store the number of characters processed   
 base  |  \-  |  the number base   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/stol&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Integer value corresponding to the content of str. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/stol&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
   * [std::invalid_argument](../../error/invalid_argument.html "cpp/error/invalid argument") if no conversion could be performed. 
   * [std::out_of_range](../../error/out_of_range.html "cpp/error/out of range") if the converted value would fall out of the range of the result type or if the underlying function ([std::strtol](../byte/strtol.html "cpp/string/byte/strtol") or [std::strtoll](../byte/strtol.html "cpp/string/byte/strtol")) sets [errno](../../error/errno.html "cpp/error/errno") to [ERANGE](../../error/errno_macros.html "cpp/error/errno macros"). 
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/stol&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -295,7 +295,7 @@ Possible output:
     std::stoi("jJ", nullptr, 20): 399
     std::stoi("Zz", nullptr, 36): 1295
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/stol&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -304,24 +304,24 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [LWG 2009](https://cplusplus.github.io/LWG/issue2009) | C++11  | [std::out_of_range](../../error/out_of_range.html "cpp/error/out of range") would not be thrown if  
 [std::strtol](../byte/strtol.html "cpp/string/byte/strtol") or [std::strtoll](../byte/strtol.html "cpp/string/byte/strtol") sets [errno](../../error/errno.html "cpp/error/errno") to [ERANGE](../../error/errno_macros.html "cpp/error/errno macros") | will throw   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/stol&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ stoulstoull](stoul.html "cpp/string/basic string/stoul")(C++11)(C++11) |  converts a string to an unsigned integer   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_stoul&action=edit)  
+(function)   
 ---|---  
 [ stofstodstold](stof.html "cpp/string/basic string/stof")(C++11)(C++11)(C++11) |  converts a string to a floating point value   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_stof&action=edit)  
+(function)   
 [ strtolstrtoll](../byte/strtol.html "cpp/string/byte/strtol")(C++11) |  converts a byte string to an integer value   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strtol&action=edit)  
+(function)   
 [ strtoulstrtoull](../byte/strtoul.html "cpp/string/byte/strtoul")(C++11) |  converts a byte string to an unsigned integer value   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strtoul&action=edit)  
+(function)   
 [ strtoimaxstrtoumax](../byte/strtoimax.html "cpp/string/byte/strtoimax")(C++11)(C++11) |  converts a byte string to [std::intmax_t](../../types/integer.html "cpp/types/integer") or [std::uintmax_t](../../types/integer.html "cpp/types/integer")   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strtoimax&action=edit)  
+(function)   
 [ from_chars](../../utility/from_chars.html "cpp/utility/from chars")(C++17) |  converts a character sequence to an integer or floating-point value   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_from_chars&action=edit)  
+(function)   
 [ atoiatolatoll](../byte/atoi.html "cpp/string/byte/atoi")(C++11) |  converts a byte string to an integer value   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_atoi&action=edit)  
+(function)   
 [ to_string](to_string.html "cpp/string/basic string/to string")(C++11) |  converts an integral or floating-point value to `string`   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_to_string&action=edit)  
+(function)   
 [ to_wstring](to_wstring.html "cpp/string/basic string/to wstring")(C++11) |  converts an integral or floating-point value to `wstring`   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_to_wstring&action=edit)
+(function) 

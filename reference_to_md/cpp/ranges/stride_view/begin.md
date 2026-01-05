@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::stride_view`](../stride_view.html "cpp/ranges/stride view")
 
@@ -263,7 +263,7 @@ operator-(stride_view::_iterator_)](iterator/operator_arith2.html "cpp/ranges/st
 [iter_move(stride_view::_iterator_)](iterator/iter_move.html "cpp/ranges/stride view/iterator/iter move")  
 [iter_swap(stride_view::_iterator_)](iterator/iter_swap.html "cpp/ranges/stride view/iterator/iter swap")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/stride_view/navbar_content&action=edit)
+
 
 constexpr auto begin() requires (!__simple_view<V>); |  (1)  |  (since C++23)  
 ---|---|---  
@@ -288,15 +288,15 @@ Overload (1) does not participate in overload resolution if V is a [simple view]
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/stride_view/begin&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/stride_view/begin&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 [Iterator](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/stride_view/Iterator&action=edit&redlink=1 "cpp/ranges/stride view/Iterator \(page does not exist\)") to the first element of the view. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/stride_view/begin&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 A link to test: [Compiler Explorer](https://godbolt.org/z/36zTEETx1).
 
@@ -320,8 +320,8 @@ Output:
     
     A C C
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/stride_view/begin&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ end](end.html "cpp/ranges/stride view/end") |  returns an iterator or a sentinel to the end   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/dsc_end&action=edit)  
+(public member function)   
 ---|---

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](copy.html "cpp/algorithm/ranges/co
 [uninitialized_default_construct_n](../../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 [Constrained algorithms](../ranges.html "cpp/algorithm/ranges")
 
@@ -550,7 +550,7 @@ All names in this menu belong to namespace `std::ranges`
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -590,7 +590,7 @@ The function-like entities described on this page are [_algorithm function objec
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/partition_point&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  the iterator-sentinel pair defining the partially-ordered [range](../../iterator.html#Ranges "cpp/iterator") of elements to examine   
 ---|---|---  
@@ -598,21 +598,21 @@ r  |  \-  |  the partially-ordered range to examine
 pred  |  \-  |  predicate to apply to the projected elements   
 proj  |  \-  |  projection to apply to the elements   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/partition_point&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The iterator past the end of the first partition within `[`first`, `last`)` or the iterator equal to last if all projected elements satisfy pred. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/partition_point&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Given N = [ranges::distance](../../iterator/ranges/distance.html)(first, last), performs O(log N) applications of the predicate pred and projection proj. 
 
 However, if sentinels don't model [std::sized_sentinel_for](../../iterator/sized_sentinel_for.html)<I>, the number of iterator increments is O(N). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/partition_point&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 This algorithm is a more general form of `ranges::lower_bound`, which can be expressed in terms of `ranges::partition_point` with the predicate [&](auto const& e) { return [std::invoke](../../utility/functional/invoke.html)(pred, e, value); });. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/partition_point&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -653,12 +653,12 @@ Possible output:
     First partition (all even elements): 2 4 6 8
     Second partition (all odd elements): 5 3 7 1 9
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/partition_point&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ ranges::is_sorted](is_sorted.html "cpp/algorithm/ranges/is sorted")(C++20) |  checks whether a range is sorted into ascending order  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_is_sorted&action=edit)  
+(algorithm function object)  
 ---|---  
 [ ranges::lower_bound](lower_bound.html "cpp/algorithm/ranges/lower bound")(C++20) |  returns an iterator to the first element _not less_ than the given value  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_lower_bound&action=edit)  
+(algorithm function object)  
 [ partition_point](../partition_point.html "cpp/algorithm/partition point")(C++11) |  locates the partition point of a partitioned range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_partition_point&action=edit)
+(function template) 

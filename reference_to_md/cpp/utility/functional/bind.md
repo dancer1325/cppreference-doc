@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Function objects](../../functional.html "cpp/utility/functional")
 
@@ -255,7 +255,7 @@ Identity function object
 [unary_negate](unary_negate.html "cpp/utility/functional/unary negate")(until C++20*)  
 [binary_negate](binary_negate.html "cpp/utility/functional/binary negate")(until C++20*)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/navbar_content&action=edit)
+
 
 Defined in header `[<functional>](../../header/functional.html "cpp/header/functional")` |  |   
 ---|---|---  
@@ -296,13 +296,13 @@ If [std::decay](../../types/decay.html)<Ti>::type or any type in `Args` is not [
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/bind&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 f  |  \-  |  [Callable](../../named_req/Callable.html "cpp/named req/Callable") object (function object, pointer to function, reference to function, pointer to member function, or pointer to data member) that will be bound to some arguments   
 ---|---|---  
 args  |  \-  |  list of arguments to bind, with the unbound arguments replaced by the [placeholders](placeholders.html "cpp/utility/functional/placeholders") _1, _2, _3... of namespace `std::placeholders`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/bind&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 A function object g of unspecified type `T`, for which [std::is_bind_expression](is_bind_expression.html)<T>::value is true. It has the following members: 
 
@@ -339,31 +339,31 @@ If g is [volatile](../../language/cv.html "cpp/language/cv")-qualified, the prog
 
 If [`_INVOKE_`](../../functional.html "cpp/utility/functional")(fd, w1, w2, ..., wN) can never be a valid expression for any possible values w1`, `w2`, ..., `wN, the behavior is undefined. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/bind&action=edit&section=7 "Edit section: Bound arguments")] Bound arguments
+### Bound arguments
 
 For each stored argument arg_i, the corresponding bound argument v_i in the [`_INVOKE_`](../../functional.html "cpp/utility/functional") or [`_INVOKE <R>_`](../../functional.html "cpp/utility/functional") operation is determined as follows: 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/bind&action=edit&section=8 "Edit section: Case 1: reference wrappers")] Case 1: reference wrappers
+#### Case 1: reference wrappers
 
 If arg_i is of type [std::reference_wrapper](reference_wrapper.html)<T> (for example, [std::ref](ref.html "cpp/utility/functional/ref") or [std::cref](ref.html "cpp/utility/functional/ref") was used in the initial call to `std::bind`), then v_i is arg_i.get() and its type `V_i` is `T&`: the stored argument is passed by reference into the invoked function object. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/bind&action=edit&section=9 "Edit section: Case 2: bind expressions")] Case 2: bind expressions
+#### Case 2: bind expressions
 
 If arg_i is of type `T` for which [std::is_bind_expression](is_bind_expression.html)<T>::value is true (for example, another `std::bind` expression was passed directly into the initial call to `std::bind`), then `std::bind` performs function composition: instead of passing the function object that the bind subexpression would return, the subexpression is invoked eagerly, and its return value is passed to the outer invokable object. If the bind subexpression has any placeholder arguments, they are shared with the outer bind (picked out of u1`, `u2`, ...`). Specifically, v_i is arg_i([std::forward](../forward.html)<Uj>(uj)...) and its type `V_i` is [std::result_of](../../types/result_of.html)<T _cv_ ﻿&(Uj&&...)>::type&&(until C++17)[std::invoke_result_t](../../types/result_of.html)<T _cv_ ﻿&, Uj&&...>&&(since C++17) (cv-qualification is the same as that of g). 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/bind&action=edit&section=10 "Edit section: Case 3: placeholders")] Case 3: placeholders
+#### Case 3: placeholders
 
 If arg_i is of type `T`, for which [std::is_placeholder](is_placeholder.html)<T>::value is not ​0​ (meaning, a placeholder such as `std::placeholders::_1, _2, _3, ...` was used as the argument to the initial call to `std::bind`), then the argument indicated by the placeholder (u1 for _1, u2 for _2, etc) is passed to the invokable object: v_i is [std::forward](../forward.html)<Uj>(uj) and its type `V_i` is `Uj&&`. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/bind&action=edit&section=11 "Edit section: Case 4: ordinary arguments")] Case 4: ordinary arguments
+#### Case 4: ordinary arguments
 
 Otherwise, arg_i is passed to the invokable object as lvalue argument: v_i is simply arg_i and its type `V_i` is `T` _cv_ ﻿`&`, where _cv_ is the same cv-qualification as that of g. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/bind&action=edit&section=12 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Only throws if construction of [std::decay](../../types/decay.html)<F>::type from [std::forward](../forward.html)<F>(f) throws, or any of the constructors for [std::decay](../../types/decay.html)<Arg_i>::type from the corresponding [std::forward](../forward.html)<Arg_i>(arg_i) throws where `Arg_i` is the ith type and arg_i is the ith argument in `Args... args`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/bind&action=edit&section=13 "Edit section: Notes")] Notes
+### Notes
 
 As described in [Callable](../../named_req/Callable.html "cpp/named req/Callable"), when invoking a pointer to non-static member function or pointer to non-static data member, the first argument has to be a reference or pointer (including, possibly, smart pointer such as [std::shared_ptr](../../memory/shared_ptr.html "cpp/memory/shared ptr") and [std::unique_ptr](../../memory/unique_ptr.html "cpp/memory/unique ptr")) to an object whose member will be accessed. 
 
@@ -371,7 +371,7 @@ The arguments to bind are copied or moved, and are never passed by reference unl
 
 Duplicate placeholders in the same bind expression (multiple _1's for example) are allowed, but the results are only well defined if the corresponding argument (u1) is an lvalue or non-movable rvalue. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/bind&action=edit&section=14 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -472,7 +472,7 @@ Output:
     8) bind to a mem_fn that is a pointer to data member: 10
     9) use smart pointers to call members of the referenced objects: 10 10
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/bind&action=edit&section=15 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -485,12 +485,12 @@ were not forwarded to fd
 2\. changed to  
 [std::result_of](../../types/result_of.html)<T _cv_ ﻿&(Uj&&...)>::type&&  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/bind&action=edit&section=16 "Edit section: See also")] See also
+### See also
 
 [ bind_frontbind_back](bind_front.html "cpp/utility/functional/bind front")(C++20)(C++23) |  bind a variable number of arguments, in order, to a function object   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_bind_front&action=edit)  
+(function template)   
 ---|---  
 [ _1, _2, _3, _4, ...](placeholders.html "cpp/utility/functional/placeholders")(C++11) |  placeholders for the unbound arguments in a `std::bind` expression   
-(constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_placeholders&action=edit)  
+(constant)   
 [ mem_fn](mem_fn.html "cpp/utility/functional/mem fn")(C++11) |  creates a function object out of a pointer to a member   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_mem_fn&action=edit)
+(function template) 

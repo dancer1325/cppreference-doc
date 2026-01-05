@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -175,7 +175,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::condition_variable`](../condition_variable.html "cpp/thread/condition variable")
 
@@ -193,7 +193,7 @@ Waiting
 Native handle  
 **condition_variable::native handle**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/condition_variable/navbar_content&action=edit)
+
 
 native_handle_type native_handle(); |  |  (since C++11)  
 ---|---|---  
@@ -203,18 +203,18 @@ Accesses the native handle of *this.
 
 The meaning and the type of the result of this function is implementation-defined. On a POSIX system, this may be a value of type pthread_cond_t*. On a Windows system, this may be a PCONDITION_VARIABLE. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/condition_variable/native_handle&action=edit&section=T-1 "Template:cpp/thread/condition variable/native handle")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/condition_variable/native_handle&action=edit&section=T-2 "Template:cpp/thread/condition variable/native handle")] Return value
+### Return value
 
 The native handle of this condition variable. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/condition_variable/native_handle&action=edit&section=T-3 "Template:cpp/thread/condition variable/native handle")] See also
+### See also
 
 [ native_handle](../thread/native_handle.html "cpp/thread/thread/native handle") |  returns the underlying implementation-defined thread handle   
-(public member function of `std::thread`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/dsc_native_handle&action=edit)  
+(public member function of `std::thread`)   
 ---|---  
 [ native_handle](../jthread/native_handle.html "cpp/thread/jthread/native handle") |  returns the underlying implementation-defined thread handle   
-(public member function of `std::jthread`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/dsc_native_handle&action=edit)
+(public member function of `std::jthread`) 

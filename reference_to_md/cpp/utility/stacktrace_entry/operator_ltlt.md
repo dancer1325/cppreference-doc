@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Diagnostics library](../../error.html "cpp/error")
 
@@ -89,7 +89,7 @@ Exception handling failures
 [breakpoint_if_debugging](../breakpoint_if_debugging.html "cpp/utility/breakpoint if debugging")(C++26)  
 [breakpoint](../breakpoint.html "cpp/utility/breakpoint")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/navbar_content&action=edit)
+
 
 [`std::stacktrace_entry`](../stacktrace_entry.html "cpp/utility/stacktrace entry")
 
@@ -113,7 +113,7 @@ operator<=>](operator_cmp.html "cpp/utility/stacktrace entry/operator cmp")
 [hash<std::stacktrace_entry>](hash.html "cpp/utility/stacktrace entry/hash")  
 [formatter<std::stacktrace_entry>](formatter.html "cpp/utility/stacktrace entry/formatter")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/stacktrace_entry/navbar_content&action=edit)
+
 
 Defined in header `[<stacktrace>](../../header/stacktrace.html "cpp/header/stacktrace")` |  |   
 ---|---|---  
@@ -133,21 +133,21 @@ Inserts the description of f into the output stream os. Equivalent to return os 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/stacktrace_entry/operator_ltlt&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 os  |  \-  |  an output stream   
 ---|---|---  
 f  |  \-  |  a `stacktrace_entry` whose description is to be inserted   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/stacktrace_entry/operator_ltlt&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 os
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/impldef_exception&action=edit&section=T-1 "Template:cpp/impldef exception")] Exceptions
+### Exceptions
 
 May throw implementation-defined exceptions. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/stacktrace_entry/operator_ltlt&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -168,8 +168,8 @@ Possible output:
     __libc_start_main in /lib/x86_64-linux-gnu/libc.so.6
     0x00000000004029B9 in ./prog.exe
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/stacktrace_entry/operator_ltlt&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ operator<<](../basic_stacktrace/operator_ltlt.html "cpp/utility/basic stacktrace/operator ltlt")(C++23) |  performs stream output of `basic_stracktrace`   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/basic_stacktrace/dsc_operator_ltlt&action=edit)  
+(function template)   
 ---|---

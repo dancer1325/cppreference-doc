@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Filesystem library](../fs.html "cpp/experimental/fs")
 
@@ -124,7 +124,7 @@ File types
 [filesystem::is_socket](is_socket.html "cpp/experimental/fs/is socket")  
 [filesystem::is_symlink](is_symlink.html "cpp/experimental/fs/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/navbar_content&action=edit)
+
 
 Defined in header `[<experimental/filesystem>](../../header/experimental/filesystem.html "cpp/header/experimental/filesystem")` |  |   
 ---|---|---  
@@ -133,29 +133,29 @@ class directory_entry; |  |  (filesystem TS)
   
 Represents a directory entry. The objects stores a `path` and two `file_status` objects: one for file status and the second for the pointed-to file status if the directory entry refers to a symbolic link. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/directory_entry&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](directory_entry/directory_entry.html "cpp/experimental/fs/directory entry/directory entry") |  constructs a directory entry   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/directory_entry/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 (destructor) |  default destructor   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/directory_entry/dsc_destructor&action=edit)  
+(public member function)   
   
 #####  Modifiers   
   
 [ operator=](directory_entry/operator=.html "cpp/experimental/fs/directory entry/operator=") |  assigns contents   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/directory_entry/dsc_operator%3D&action=edit)  
+(public member function)   
 [ assign](directory_entry/assign.html "cpp/experimental/fs/directory entry/assign") |  assigns contents   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/directory_entry/dsc_assign&action=edit)  
+(public member function)   
 [ replace_filename](directory_entry/replace_filename.html "cpp/experimental/fs/directory entry/replace filename") |  sets the filename   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/directory_entry/dsc_replace_filename&action=edit)  
+(public member function)   
   
 #####  Observers   
   
 [ pathoperator const path&](directory_entry/path.html "cpp/experimental/fs/directory entry/path") |  returns the path the entry refers to   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/directory_entry/dsc_path&action=edit)  
+(public member function)   
 [ statussymlink_status](directory_entry/status.html "cpp/experimental/fs/directory entry/status") |  cached status of the file designated by this directory entry  
 cached symlink_status of the file designated by this directory entry   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/directory_entry/dsc_status&action=edit)  
+(public member function)   
 [ operator==operator!=operator<operator<=operator>operator>=](directory_entry/operator_cmp.html "cpp/experimental/fs/directory entry/operator cmp") |  compares two directory entries   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/directory_entry/dsc_operator_cmp&action=edit)
+(public member function) 

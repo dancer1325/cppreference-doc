@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [Declarations](declarations.html "cpp/language/declarations")
 
@@ -280,7 +280,7 @@ Other declarations
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/declarations/navbar_content&action=edit)
+
 
     
 
@@ -300,7 +300,7 @@ Other declarations
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/constinit&action=edit&section=1 "Edit section: Explanation")] Explanation
+### Explanation
 
 The constinit specifier declares a variable with static or thread [storage duration](storage_duration.html "cpp/language/storage duration"). 
 
@@ -326,17 +326,17 @@ constinit can also be used in a non-initializing declaration to tell the compile
     extern thread_local constinit int x;
     int f() { return x; } // no check of a guard variable needed
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/constinit&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 Feature-test macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_constinit`](../experimental/feature_test.html#cpp_constinit "cpp/feature test") | [`201907L`](../compiler_support/20.html#cpp_constinit_201907L "cpp/compiler support/20") | (C++20) | constinit  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/constinit&action=edit&section=3 "Edit section: Keywords")] Keywords
+### Keywords
 
 [`constinit`](../keyword/constinit.html "cpp/keyword/constinit")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/constinit&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -378,7 +378,7 @@ Run this code
         [assert](../error/assert.html)(square_4_gen() == 65536);
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/constinit&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -388,11 +388,11 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 is dynamically initialized as part of static initialization  | the program is ill-  
 formed in this case   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/constinit&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
-[ `consteval` specifier](consteval.html "cpp/language/consteval")(C++20) |  specifies that a function is an _immediate function_ , that is, every call to the function must be in a constant evaluation[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_consteval&action=edit)  
+[ `consteval` specifier](consteval.html "cpp/language/consteval")(C++20) |  specifies that a function is an _immediate function_ , that is, every call to the function must be in a constant evaluation  
 ---|---  
-[ `constexpr` specifier](constexpr.html "cpp/language/constexpr")(C++11) |  specifies that the value of a variable or function can be computed at compile time[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_constexpr&action=edit)  
+[ `constexpr` specifier](constexpr.html "cpp/language/constexpr")(C++11) |  specifies that the value of a variable or function can be computed at compile time  
 [constant expression](constant_expression.html "cpp/language/constant expression") |  defines an [expression](expressions.html "cpp/language/expressions") that can be evaluated at compile time   
 [constant initialization](constant_initialization.html "cpp/language/constant initialization") |  sets the initial values of the [static](storage_duration.html "cpp/language/storage duration") variables to a compile-time constant   
 [zero initialization](zero_initialization.html "cpp/language/zero initialization") |  sets the initial value of an object to zero 

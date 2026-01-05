@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [`std::valarray`](../valarray.html "cpp/numeric/valarray")
 
@@ -155,7 +155,7 @@
   
 [Deduction guides](deduction_guides.html "cpp/numeric/valarray/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/navbar_content&action=edit)
+
 
 Defined in header `[<valarray>](../../header/valarray.html "cpp/header/valarray")` |  |   
 ---|---|---  
@@ -177,16 +177,16 @@ For each element in va computes the square root of the value of the element.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/sqrt&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 va  |  \-  |  value array to apply the operation to   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/sqrt&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Value array containing square roots of the values in va. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/sqrt&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Unqualified function (sqrt) is used to perform the computation. If such function is not available, [std::sqrt](../math/sqrt.html) is used due to [argument-dependent lookup](../../language/adl.html "cpp/language/adl"). 
 
@@ -202,7 +202,7 @@ The function can be implemented with the return type different from [std::valarr
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/sqrt&action=edit&section=4 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     template<class T>
@@ -217,7 +217,7 @@ The function can be implemented with the return type different from [std::valarr
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/sqrt&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Finds all three roots (two of which can be complex conjugates) of several [Cubic equations](https://en.wikipedia.org/wiki/Cubic_equation "enwiki:Cubic equation") at once.
 
@@ -318,12 +318,12 @@ Output:
     x³ + (7,0)·x + (7,0) = 0  (-0.896922,0.000000)  (0.448461,2.757418)  (0.448461,-2.757418)
     x³ + (8,0)·x + (8,0) = 0  (-0.906795,0.000000)  (0.453398,2.935423)  (0.453398,-2.935423)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/sqrt&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ pow(std::valarray)](pow.html "cpp/numeric/valarray/pow") |  applies the function [std::pow](../math/pow.html "cpp/numeric/math/pow") to two valarrays or a valarray and a value   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_pow&action=edit)  
+(function template)   
 ---|---  
 [ sqrtsqrtfsqrtl](../math/sqrt.html "cpp/numeric/math/sqrt")(C++11)(C++11) |  computes square root (\\(\small{\sqrt{x}}\\)√x)   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_sqrt&action=edit)  
+(function)   
 [ sqrt(std::complex)](../complex/sqrt.html "cpp/numeric/complex/sqrt") |  complex square root in the range of the right half-plane   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_sqrt&action=edit)
+(function template) 

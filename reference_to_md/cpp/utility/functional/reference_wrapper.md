@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Function objects](../../functional.html "cpp/utility/functional")
 
@@ -255,7 +255,7 @@ Identity function object
 [unary_negate](unary_negate.html "cpp/utility/functional/unary negate")(until C++20*)  
 [binary_negate](binary_negate.html "cpp/utility/functional/binary negate")(until C++20*)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/navbar_content&action=edit)
+
 
 **`std::reference_wrapper`**
 
@@ -271,7 +271,7 @@ Non-member functions
 Helper classes  
 [basic_common_reference<std::reference_wrapper>](reference_wrapper/basic_common_reference.html "cpp/utility/functional/reference wrapper/basic common reference")(C++23)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/reference_wrapper/navbar_content&action=edit)
+
 
 Defined in header `[<functional>](../../header/functional.html "cpp/header/functional")` |  |   
 ---|---|---  
@@ -308,7 +308,7 @@ Helper functions [std::ref](ref.html "cpp/utility/functional/ref") and [std::cre
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/reference_wrapper&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 type  |  definition   
 ---|---  
@@ -350,33 +350,33 @@ type  |  definition
 
   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/reference_wrapper&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](reference_wrapper/reference_wrapper.html "cpp/utility/functional/reference wrapper/reference wrapper") |  stores a reference in a new **std::reference_wrapper** object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/reference_wrapper/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ operator=](reference_wrapper/operator=.html "cpp/utility/functional/reference wrapper/operator=") |  rebinds a **std::reference_wrapper**   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/reference_wrapper/dsc_operator%3D&action=edit)  
+(public member function)   
 [ getoperator T&](reference_wrapper/get.html "cpp/utility/functional/reference wrapper/get") |  accesses the stored reference   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/reference_wrapper/dsc_get&action=edit)  
+(public member function)   
 [ operator()](reference_wrapper/operator\(\).html "cpp/utility/functional/reference wrapper/operator\(\)") |  calls the stored function   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/reference_wrapper/dsc_operator\(\)&action=edit)  
+(public member function) &action=edit)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/reference_wrapper&action=edit&section=3 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ operator==operator<=>](reference_wrapper/operator_cmp.html "cpp/utility/functional/reference wrapper/operator cmp")(C++26) |  compares `reference_wrapper` objects as their stored references   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/reference_wrapper/dsc_operator_cmp&action=edit)  
+(function)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/reference_wrapper&action=edit&section=4 "Edit section: Deduction guides\(since C++17\)")] [Deduction guides](reference_wrapper/deduction_guides.html "cpp/utility/functional/reference wrapper/deduction guides")(since C++17)
+### [Deduction guides](reference_wrapper/deduction_guides.html "cpp/utility/functional/reference wrapper/deduction guides")(since C++17)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/reference_wrapper&action=edit&section=5 "Edit section: Helper classes")] Helper classes
+### Helper classes
 
 [ std::basic_common_reference<std::reference_wrapper>](reference_wrapper/basic_common_reference.html "cpp/utility/functional/reference wrapper/basic common reference")(C++23) |  determines the common reference type of `reference_wrapper` and non-`reference_wrapper`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/reference_wrapper/dsc_basic_common_reference&action=edit)  
+(class template specialization)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/reference_wrapper&action=edit&section=6 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     namespace detail
@@ -428,7 +428,7 @@ type  |  definition
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/reference_wrapper&action=edit&section=7 "Edit section: Example")] Example
+### Example
 
 Demonstrates the use of `std::reference_wrapper` as a container of references, which makes it possible to access the same container using multiple indices.
 
@@ -477,12 +477,12 @@ Possible output:
     Doubling the values in the initial list...
     Contents of the list, as seen through a shuffled vector: -2 4 -4 2 10 0 6 -6 -8 8
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/reference_wrapper&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [ refcref](ref.html "cpp/utility/functional/ref")(C++11)(C++11) |  creates a **std::reference_wrapper** with a type deduced from its argument   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_ref&action=edit)  
+(function template)   
 ---|---  
 [ bind](bind.html "cpp/utility/functional/bind")(C++11) |  binds one or more arguments to a function object   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_bind&action=edit)  
+(function template)   
 [ unwrap_referenceunwrap_ref_decay](unwrap_reference.html "cpp/utility/functional/unwrap reference")(C++20)(C++20) |  get the reference type wrapped in **std::reference_wrapper**   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_unwrap_reference&action=edit)
+(class template) 

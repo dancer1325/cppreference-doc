@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::atomic_flag`](../atomic_flag.html "cpp/atomic/atomic flag")
 
@@ -188,7 +188,7 @@ Member functions
 [atomic_flag::notify_one](notify_one.html "cpp/atomic/atomic flag/notify one")(C++20)  
 [atomic_flag::notify_all](notify_all.html "cpp/atomic/atomic flag/notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic_flag/navbar_content&action=edit)
+
 
 bool test( [std::memory_order](../memory_order.html) order =  
 [std::memory_order_seq_cst](../memory_order.html) ) const volatile noexcept; |  (1)  |  (since C++20)  
@@ -211,23 +211,23 @@ If order is one of [std::memory_order_release](../memory_order.html) and [std::m
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_flag/test&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 order  |  \-  |  the memory synchronization ordering   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_flag/test&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The value atomically read. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_flag/test&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_flag/test&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ atomic_flag_testatomic_flag_test_explicit](../atomic_flag_test.html "cpp/atomic/atomic flag test")(C++20)(C++20) |  atomically returns the value of the flag   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/dsc_atomic_flag_test&action=edit)  
+(function)   
 ---|---

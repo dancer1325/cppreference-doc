@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Classes](classes.html "cpp/language/classes")
 
@@ -261,7 +261,7 @@ Inheritance
 [`override` specifier](override.html "cpp/language/override") (C++11)  
 [`final` specifier](final.html "cpp/language/final") (C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/classes/navbar_content&action=edit)
+
 
 Non-static data members are declared in a [member specification](class.html "cpp/language/class") of a class. 
     
@@ -317,7 +317,7 @@ In addition, [bit-field](bit_field.html "cpp/language/bit field") declarations a
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/data_members&action=edit&section=1 "Edit section: Layout")] Layout
+### Layout
 
 When an object of some class `C` is created, each non-static data member of non-reference type is allocated in some part of the object representation of `C`. Whether reference members occupy any storage is implementation-defined, but their [storage duration](storage_duration.html "cpp/language/storage duration") is the same as that of the object in which they are members. 
 
@@ -327,7 +327,7 @@ For non-[union](union.html "cpp/language/union") class types, [non-zero-sized](o
   
 Alignment requirements may necessitate padding between members, or after the last member of a class. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/data_members&action=edit&section=2 "Edit section: Standard-layout")] Standard-layout
+### Standard-layout
 
 A class is considered to be _standard-layout_ and to have properties described below if and only if it is a [POD class](classes.html#POD_class "cpp/language/classes").  | (until C++11)  
 ---|---  
@@ -374,7 +374,7 @@ Standard-layout types have the following special properties:
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/data_members&action=edit&section=3 "Edit section: Member initialization")] Member initialization
+### Member initialization
 
 Non-static data members may be initialized in one of two ways: 
 
@@ -476,7 +476,7 @@ If a reference member is initialized from its default member initializer(until C
 | (since C++17)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/data_members&action=edit&section=4 "Edit section: Usage")] Usage
+### Usage
 
 The name of a non-static data member or a non-static member function can only appear in the following three situations: 
 
@@ -523,14 +523,14 @@ The name of a non-static data member or a non-static member function can only ap
 
 Notes: such uses are allowed via the resolution of [CWG issue 613](https://cplusplus.github.io/CWG/issues/613.html) in [N2253](https://wg21.link/N2253), which is treated as a change in C++11 by some compilers (e.g. clang).
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/data_members&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 Feature-test macro  | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_nsdmi`](../experimental/feature_test.html#cpp_nsdmi "cpp/feature test") | [`200809L`](../compiler_support/11.html#cpp_nsdmi_200809L "cpp/compiler support/11") | (C++11) | [Non-static data member initializers](data_members.html#Member_initialization)  
 [`__cpp_aggregate_nsdmi`](../experimental/feature_test.html#cpp_aggregate_nsdmi "cpp/feature test") | [`201304L`](../compiler_support/14.html#cpp_aggregate_nsdmi_201304L "cpp/compiler support/14") | (C++14) | [Aggregate classes](aggregate_initialization.html "cpp/language/aggregate initialization") with [default member initializers](data_members.html#Member_initialization)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/data_members&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -565,15 +565,15 @@ consider alignment requirements  | considered
 [CWG 2759](https://cplusplus.github.io/CWG/issues/2759.html) | C++20  | common initial sequence could include  
 members declared `[[[no_unique_address](attributes/no_unique_address.html "cpp/language/attributes/no unique address")]]` | they are not included   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/data_members&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [classes](classes.html "cpp/language/classes")  
 ---  
 [static members](static.html "cpp/language/static")  
 [non-static member functions](member_functions.html "cpp/language/member functions")  
 [ is_standard_layout](../types/is_standard_layout.html "cpp/types/is standard layout")(C++11) |  checks if a type is a [standard-layout](data_members.html#Standard-layout "cpp/language/data members") type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_standard_layout&action=edit)  
+(class template)   
 [ offsetof](../types/offsetof.html "cpp/types/offsetof") |  byte offset from the beginning of a [standard-layout](../named_req/StandardLayoutType.html "cpp/named req/StandardLayoutType") type to specified member   
-(function macro) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_offsetof&action=edit)
+(function macro) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

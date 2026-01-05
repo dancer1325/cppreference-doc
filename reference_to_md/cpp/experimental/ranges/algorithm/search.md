@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Ranges](../../ranges.html "cpp/experimental/ranges")
 
@@ -66,7 +66,7 @@
 [Ranges](../../ranges.html#Ranges "cpp/experimental/ranges")  
 [Algorithms](../../ranges.html#Algorithms "cpp/experimental/ranges")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/navbar_content&action=edit)
+
 
 [Algorithms library](../../ranges.html#Algorithms "cpp/experimental/ranges")
 
@@ -224,7 +224,7 @@ Permutations
 | [prev_permutation](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/prev_permutation&action=edit&redlink=1 "cpp/experimental/ranges/algorithm/prev permutation \(page does not exist\)")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/navbar_content&action=edit)
+
 
 Defined in header `[<experimental/ranges/algorithm>](../../../header/experimental/ranges/algorithm.html "cpp/header/experimental/ranges/algorithm")` |  |   
 ---|---|---  
@@ -260,7 +260,7 @@ Notwithstanding the declarations depicted above, the actual number and order of 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/search&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first1, last1  |  \-  |  the range of elements to examine   
 ---|---|---  
@@ -271,15 +271,15 @@ pred  |  \-  |  predicate to apply to the projected elements
 proj1  |  \-  |  projection to apply to the elements in the first range   
 proj2  |  \-  |  projection to apply to the elements in the second range   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/search&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 An iterator to the beginning of first occurrence of the sequence `[`first2`, `last2`)` in the range `[`first1`, `last1`)`. If `[`first2`, `last2`)` is empty, first1 is returned. If no such occurrence is found, an iterator that compares equal to last1 is returned. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/search&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 At most `S * N` applications of the predicate and each projection, where S = last2 - first2 and N = last1 - first1. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/search&action=edit&section=4 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     template<ForwardIterator I1, Sentinel<I1> S1,
@@ -307,28 +307,28 @@ At most `S * N` applications of the predicate and each projection, where S = las
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/search&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/search&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ search](../../../algorithm/search.html "cpp/algorithm/search") |  searches for the first occurrence of a range of elements   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_search&action=edit)  
+(function template)   
 ---|---  
 [ find_end](find_end.html "cpp/experimental/ranges/algorithm/find end") |  finds the last sequence of elements in a certain range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_find_end&action=edit)  
+(function template)   
 [ includes](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/includes&action=edit&redlink=1 "cpp/experimental/ranges/algorithm/includes \(page does not exist\)") |  returns true if one set is a subset of another   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_includes&action=edit)  
+(function template)   
 [ equal](equal.html "cpp/experimental/ranges/algorithm/equal") |  determines if two sets of elements are the same   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_equal&action=edit)  
+(function template)   
 [ findfind_iffind_if_not](find.html "cpp/experimental/ranges/algorithm/find") |  finds the first element satisfying specific criteria   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_find&action=edit)  
+(function template)   
 [ lexicographical_compare](lexicographical_compare.html "cpp/experimental/ranges/algorithm/lexicographical compare") |  returns true if one range is lexicographically less than another   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_lexicographical_compare&action=edit)  
+(function template)   
 [ mismatch](mismatch.html "cpp/experimental/ranges/algorithm/mismatch") |  finds the first position where two ranges differ   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_mismatch&action=edit)  
+(function template)   
 [ search_n](search_n.html "cpp/experimental/ranges/algorithm/search n") |  searches for a number consecutive copies of an element in a range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_search_n&action=edit)
+(function template) 

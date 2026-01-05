@@ -30,7 +30,7 @@
 [Symbols index](symbol_index.html "cpp/symbol index")  
 [External libraries](links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 **Coroutine support**
 
@@ -146,7 +146,7 @@ Trivial awaitables
 Range generators  
 [generator](coroutine/generator.html "cpp/coroutine/generator")(C++23)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/coroutine/navbar_content&action=edit)
+
 
 The coroutine support library defines several types that provide compile and run-time support for [coroutines](language/coroutines.html "cpp/language/coroutines"). 
 
@@ -162,50 +162,50 @@ The coroutine support library defines several types that provide compile and run
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/coroutine&action=edit&section=1 "Edit section: Coroutine traits")] Coroutine traits
+### Coroutine traits
 
 Defined in header `[<coroutine>](header/coroutine.html "cpp/header/coroutine")`  
 ---  
 [ coroutine_traits](coroutine/coroutine_traits.html "cpp/coroutine/coroutine traits")(C++20) |  trait type for discovering coroutine promise types   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/coroutine/dsc_coroutine_traits&action=edit)  
+(class template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/coroutine&action=edit&section=2 "Edit section: Coroutine handle")] Coroutine handle
+### Coroutine handle
 
 Defined in header `[<coroutine>](header/coroutine.html "cpp/header/coroutine")`  
 ---  
 [ coroutine_handle](coroutine/coroutine_handle.html "cpp/coroutine/coroutine handle")(C++20) |  used to refer to a suspended or executing coroutine   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/coroutine/dsc_coroutine_handle&action=edit)  
+(class template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/coroutine&action=edit&section=3 "Edit section: No-op coroutines")] No-op coroutines
+### No-op coroutines
 
 Defined in header `[<coroutine>](header/coroutine.html "cpp/header/coroutine")`  
 ---  
 [ noop_coroutine](coroutine/noop_coroutine.html "cpp/coroutine/noop coroutine")(C++20) |  creates a coroutine handle that has no observable effects when resumed or destroyed   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/coroutine/dsc_noop_coroutine&action=edit)  
+(function)   
 [ noop_coroutine_promise](coroutine/noop_coroutine_promise.html "cpp/coroutine/noop coroutine promise")(C++20) |  used for coroutines with no observable effects   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/coroutine/dsc_noop_coroutine_promise&action=edit)  
+(class)   
 [ noop_coroutine_handle](coroutine/coroutine_handle.html "cpp/coroutine/coroutine handle")(C++20) |  [std::coroutine_handle](coroutine/coroutine_handle.html)<[std::noop_coroutine_promise](coroutine/noop_coroutine_promise.html)>, intended to refer to a no-op coroutine   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/coroutine/dsc_noop_coroutine_handle&action=edit)  
+(typedef)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/coroutine&action=edit&section=4 "Edit section: Trivial awaitables")] Trivial awaitables
+### Trivial awaitables
 
 Defined in header `[<coroutine>](header/coroutine.html "cpp/header/coroutine")`  
 ---  
 [ suspend_never](coroutine/suspend_never.html "cpp/coroutine/suspend never")(C++20) |  indicates that an await-expression should never suspend   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/coroutine/dsc_suspend_never&action=edit)  
+(class)   
 [ suspend_always](coroutine/suspend_always.html "cpp/coroutine/suspend always")(C++20) |  indicates that an await-expression should always suspend   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/coroutine/dsc_suspend_always&action=edit)  
+(class)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/coroutine&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](utility/feature_test.html "cpp/utility/feature test") macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_coroutine`](experimental/feature_test.html#cpp_lib_coroutine "cpp/feature test") | [`201902L`](compiler_support/20.html#cpp_lib_coroutine_201902L "cpp/compiler support/20") | (C++20) | Coroutine support library   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/coroutine&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ generator](coroutine/generator.html "cpp/coroutine/generator")(C++23) |  A [`view`](ranges/view.html "cpp/ranges/view") that represents synchronous [coroutine](language/coroutines.html "cpp/language/coroutines") generator   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_generator&action=edit)  
+(class template)   
 ---|---
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

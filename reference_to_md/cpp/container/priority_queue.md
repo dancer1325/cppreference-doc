@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../container.html "cpp/container")
 
@@ -71,7 +71,7 @@ Tables
 [Member function table](../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 `**std::priority_queue**`
 
@@ -98,7 +98,7 @@ Tables
 [formatter<std::priority_queue>](priority_queue/formatter.html "cpp/container/priority queue/formatter")(C++23)  
 [Deduction guides](priority_queue/deduction_guides.html "cpp/container/priority queue/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/priority_queue/navbar_content&action=edit)
+
 
 Defined in header `[<queue>](../header/queue.html "cpp/header/queue")` |  |   
 ---|---|---  
@@ -138,7 +138,7 @@ All member functions of `std::priority_queue` are constexpr: it is possible to c
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/priority_queue&action=edit&section=1 "Edit section: Template parameters")] Template parameters
+### Template parameters
 
 T  |  \-  |  The type of the stored elements. The program is ill-formed if `T` is not the same type as `Container::value_type`.   
 ---|---|---  
@@ -151,88 +151,88 @@ Container  |  \-  |  The type of the underlying container to use to store the el
 The standard containers [std::vector](vector.html "cpp/container/vector") (not including [`std::vector<bool>`](vector_bool.html "cpp/container/vector bool")) and [std::deque](deque.html "cpp/container/deque") satisfy these requirements.   
 Compare  |  \-  |  A [Compare](../named_req/Compare.html "cpp/named req/Compare") type providing a strict weak ordering. Note that the [Compare](../named_req/Compare.html "cpp/named req/Compare") parameter is defined such that it returns true if its first argument comes _before_ its second argument in a weak ordering. But because the priority queue outputs largest elements first, the elements that "come before" are actually output last. That is, the front of the queue contains the "last" element according to the weak ordering imposed by [Compare](../named_req/Compare.html "cpp/named req/Compare").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/priority_queue&action=edit&section=2 "Edit section: Member types")] Member types
+### Member types
 
 Member type  |  Definition   
 ---|---  
-`container_type` |  `Container`[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_container_type&action=edit)  
+`container_type` |  `Container`  
 `value_compare` |  `Compare`  
-`value_type` |  `Container::value_type`[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_value_type&action=edit)  
-`size_type` |  Container::size_type[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_size_type&action=edit)  
-`reference` |  `Container::reference`[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_reference&action=edit)  
-`const_reference` |  `Container::const_reference`[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_const_reference&action=edit)  
+`value_type` |  `Container::value_type`  
+`size_type` |  Container::size_type  
+`reference` |  `Container::reference`  
+`const_reference` |  `Container::const_reference`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/priority_queue&action=edit&section=3 "Edit section: Member objects")] Member objects
+### Member objects
 
 Member name  |  Definition   
 ---|---  
 Container c |  the underlying container   
-(protected member object) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_c&action=edit)  
+(protected member object)   
 Compare comp |  the comparison function object   
 (protected member object)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/priority_queue&action=edit&section=4 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](priority_queue/priority_queue.html "cpp/container/priority queue/priority queue") |  constructs the `priority_queue`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ (destructor)](priority_queue/~priority_queue.html "cpp/container/priority queue/~priority queue") |  destructs the `priority_queue`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_destructor&action=edit)  
+(public member function)   
 [ operator=](priority_queue/operator=.html "cpp/container/priority queue/operator=") |  assigns values to the container adaptor   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_operator%3D&action=edit)  
+(public member function)   
   
 #####  Element access   
   
 [ top](priority_queue/top.html "cpp/container/priority queue/top") |  accesses the top element   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_top&action=edit)  
+(public member function)   
   
 #####  Capacity   
   
 [ empty](priority_queue/empty.html "cpp/container/priority queue/empty") |  checks whether the container adaptor is empty   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_empty&action=edit)  
+(public member function)   
 [ size](priority_queue/size.html "cpp/container/priority queue/size") |  returns the number of elements   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_size&action=edit)  
+(public member function)   
   
 #####  Modifiers   
   
 [ push](priority_queue/push.html "cpp/container/priority queue/push") |  inserts element and sorts the underlying container   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_push&action=edit)  
+(public member function)   
 [ push_range](priority_queue/push_range.html "cpp/container/priority queue/push range")(C++23) |  inserts a range of elements and sorts the underlying container   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_push_range&action=edit)  
+(public member function)   
 [ emplace](priority_queue/emplace.html "cpp/container/priority queue/emplace")(C++11) |  constructs element in-place and sorts the underlying container   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_emplace&action=edit)  
+(public member function)   
 [ pop](priority_queue/pop.html "cpp/container/priority queue/pop") |  removes the top element   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_pop&action=edit)  
+(public member function)   
 [ swap](priority_queue/swap.html "cpp/container/priority queue/swap")(C++11) |  swaps the contents   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_swap&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/priority_queue&action=edit&section=5 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ std::swap(std::priority_queue)](priority_queue/swap2.html "cpp/container/priority queue/swap2")(C++11) |  specializes the [std::swap](../utility/swap.html "cpp/algorithm/swap") algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_swap2&action=edit)  
+(function template)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/priority_queue&action=edit&section=6 "Edit section: Helper classes")] Helper classes
+### Helper classes
 
 [ std::uses_allocator<std::priority_queue>](priority_queue/uses_allocator.html "cpp/container/priority queue/uses allocator")(C++11) |  specializes the [std::uses_allocator](../memory/uses_allocator.html "cpp/memory/uses allocator") type trait   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_uses_allocator&action=edit)  
+(class template specialization)   
 ---|---  
 [ std::formatter<std::priority_queue>](priority_queue/formatter.html "cpp/container/priority queue/formatter")(C++23) |  formatting support for `std::priority_queue`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_adaptor_formatter&action=edit)  
+(class template specialization)   
   
 ###  [Deduction guides](priority_queue/deduction_guides.html "cpp/container/priority queue/deduction guides")
 
 | (since C++17)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/priority_queue&action=edit&section=8 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../utility/feature_test.html "cpp/utility/feature test") macro  | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_containers_ranges`](../experimental/feature_test.html#cpp_lib_containers_ranges "cpp/feature test") | [`202202L`](../compiler_support/23.html#cpp_lib_containers_ranges_202202L "cpp/compiler support/23") | (C++23) | [Ranges-aware](../ranges/to.html#container_compatible_range "cpp/ranges/to") construction and insertion for containers   
 [`__cpp_lib_constexpr_queue`](../experimental/feature_test.html#cpp_lib_constexpr_queue "cpp/feature test") | [`202502L`](../compiler_support/26.html#cpp_lib_constexpr_queue_202502L "cpp/compiler support/26") | (C++26) | constexpr `std::priority_queue`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/priority_queue&action=edit&section=9 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -315,7 +315,7 @@ Output:
     custom_priority_queue: 0 1 2 3 4 5 6 7 8 9
     lambda_priority_queue: 8 9 6 7 4 5 2 3 0 1
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/priority_queue&action=edit&section=10 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -326,14 +326,14 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [LWG 2684](https://cplusplus.github.io/LWG/issue2684) | C++98  | `priority_queue` takes a comparator  
 but lacked member typedef for it  | added   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/priority_queue&action=edit&section=11 "Edit section: See also")] See also
+### See also
 
 [ vector](vector.html "cpp/container/vector") |  resizable contiguous array   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_vector&action=edit)  
+(class template)   
 ---|---  
 [ vector<bool>](vector_bool.html "cpp/container/vector bool") |  space-efficient dynamic bitset   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_vector_bool&action=edit)  
+(class template specialization)   
 [ deque](deque.html "cpp/container/deque") |  double-ended queue   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_deque&action=edit)
+(class template) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

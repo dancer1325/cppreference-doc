@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 **`std::shared_mutex`**
 
@@ -192,7 +192,7 @@ Shared locking
 Native handle  
 [shared_mutex::native_handle](shared_mutex/native_handle.html "cpp/thread/shared mutex/native handle")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/shared_mutex/navbar_content&action=edit)
+
 
 Defined in header `[<shared_mutex>](../header/shared_mutex.html "cpp/header/shared mutex")` |  |   
 ---|---|---  
@@ -233,46 +233,46 @@ The `shared_mutex` class satisfies all requirements of [SharedMutex](../named_re
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/shared_mutex&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Member type  |  Definition   
 ---|---  
-`native_handle_type` (optional*) |  implementation-defined[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_native_handle_type&action=edit)  
+`native_handle_type` (optional*) |  implementation-defined  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/shared_mutex&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](shared_mutex/shared_mutex.html "cpp/thread/shared mutex/shared mutex") |  constructs the mutex   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/mutex/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ (destructor)](shared_mutex/~shared_mutex.html "cpp/thread/shared mutex/~shared mutex") |  destroys the mutex   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/mutex/dsc_destructor&action=edit)  
+(public member function)   
 operator=[deleted] |  not copy-assignable   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/mutex/dsc_operator%3D&action=edit)  
+(public member function)   
   
 #####  Exclusive locking   
   
 [ lock](shared_mutex/lock.html "cpp/thread/shared mutex/lock") |  locks the mutex, blocks if the mutex is not available   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/mutex/dsc_lock&action=edit)  
+(public member function)   
 [ try_lock](shared_mutex/try_lock.html "cpp/thread/shared mutex/try lock") |  tries to lock the mutex, returns if the mutex is not available   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/mutex/dsc_try_lock&action=edit)  
+(public member function)   
 [ unlock](shared_mutex/unlock.html "cpp/thread/shared mutex/unlock") |  unlocks the mutex   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/mutex/dsc_unlock&action=edit)  
+(public member function)   
   
 #####  Shared locking   
   
 [ lock_shared](shared_mutex/lock_shared.html "cpp/thread/shared mutex/lock shared") |  locks the mutex for shared ownership, blocks if the mutex is not available   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/mutex/dsc_lock_shared&action=edit)  
+(public member function)   
 [ try_lock_shared](shared_mutex/try_lock_shared.html "cpp/thread/shared mutex/try lock shared") |  tries to lock the mutex for shared ownership, returns if the mutex is not available   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/mutex/dsc_try_lock_shared&action=edit)  
+(public member function)   
 [ unlock_shared](shared_mutex/unlock_shared.html "cpp/thread/shared mutex/unlock shared") |  unlocks the mutex (shared ownership)   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/mutex/dsc_unlock_shared&action=edit)  
+(public member function)   
   
 #####  Native handle   
   
 [ native_handle](shared_mutex/native_handle.html "cpp/thread/shared mutex/native handle") |  returns the underlying implementation-defined native handle object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/mutex/dsc_native_handle&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/shared_mutex&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 The output below was generated on a single-core machine. When `thread1` starts, it enters the loop for the first time and calls `increment()` followed by `get()`. However, before it can print the returned value to [std::cout](../io/cout.html), the scheduler puts `thread1` to sleep and wakes up `thread2`, which obviously has time enough to run all three loop iterations at once. Back to `thread1`, still in the first loop iteration, it finally prints its local copy of the counter's value, which is 1, to `std::cout` and then runs the remaining two loop iterations. On a multi-core machine, none of the threads is put to sleep and the output is more likely to be in ascending order.
 
@@ -347,12 +347,12 @@ Possible output:
     123084185655040 5
     123084185655040 6
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/shared_mutex&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ shared_timed_mutex](shared_timed_mutex.html "cpp/thread/shared timed mutex")(C++14) |  provides shared mutual exclusion facility and implements locking with a timeout   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_shared_timed_mutex&action=edit)  
+(class)   
 ---|---  
 [ shared_lock](shared_lock.html "cpp/thread/shared lock")(C++14) |  implements movable shared mutex ownership wrapper   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_shared_lock&action=edit)  
+(class template)   
 [ unique_lock](unique_lock.html "cpp/thread/unique lock")(C++11) |  implements movable mutex ownership wrapper   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_unique_lock&action=edit)
+(class template) 

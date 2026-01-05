@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 **`std::auto_ptr`**
 
@@ -199,7 +199,7 @@ Member functions
 [auto_ptr::reset](auto_ptr/reset.html "cpp/memory/auto ptr/reset")  
 [auto_ptr::operator auto_ptr<Y>auto_ptr::operator auto_ptr_ref<Y>](auto_ptr/operator_auto_ptr.html "cpp/memory/auto ptr/operator auto ptr")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/auto_ptr/navbar_content&action=edit)
+
 
 Defined in header `[<memory>](../header/memory.html "cpp/header/memory")` |  |   
 ---|---|---  
@@ -227,34 +227,34 @@ An additional class template `auto_ptr_ref` is referred to throughout the docume
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/auto_ptr&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Member type  |  Definition   
 ---|---  
 element_type |  T  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/auto_ptr&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](auto_ptr/auto_ptr.html "cpp/memory/auto ptr/auto ptr") |  creates a new `auto_ptr`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/auto_ptr/dsc_auto_ptr&action=edit)  
+(public member function)   
 ---|---  
 [ (destructor)](auto_ptr/~auto_ptr.html "cpp/memory/auto ptr/~auto ptr") |  destroys an `auto_ptr` and the managed object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/auto_ptr/dsc_%7Eauto_ptr&action=edit)  
+(public member function)   
 [ operator=](auto_ptr/operator=.html "cpp/memory/auto ptr/operator=") |  transfers ownership from another `auto_ptr`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/auto_ptr/dsc_operator%3D&action=edit)  
+(public member function)   
 [ operator auto_ptr<Y>operator auto_ptr_ref<Y>](auto_ptr/operator_auto_ptr.html "cpp/memory/auto ptr/operator auto ptr") |  converts the managed pointer to a pointer to different type   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/auto_ptr/dsc_operator_auto_ptr&action=edit)  
+(public member function)   
   
 #####  Observers   
   
 [ get](auto_ptr/get.html "cpp/memory/auto ptr/get") |  returns a pointer to the managed object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/auto_ptr/dsc_get&action=edit)  
+(public member function)   
 [ operator*operator->](auto_ptr/operator*.html "cpp/memory/auto ptr/operator*") |  accesses the managed object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/auto_ptr/dsc_operator*&action=edit)  
+(public member function)   
   
 #####  Modifiers   
   
 [ reset](auto_ptr/reset.html "cpp/memory/auto ptr/reset") |  replaces the managed object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/auto_ptr/dsc_reset&action=edit)  
+(public member function)   
 [ release](auto_ptr/release.html "cpp/memory/auto ptr/release") |  releases ownership of the managed object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/auto_ptr/dsc_release&action=edit)
+(public member function) 

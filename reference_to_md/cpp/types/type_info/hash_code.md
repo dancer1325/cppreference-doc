@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Type support](../../utility/rtti.html "cpp/types")
 
@@ -161,7 +161,7 @@ Runtime type information
 ---  
 [bad_cast](../bad_cast.html "cpp/types/bad cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/navbar_content&action=edit)
+
 
 [`std::type_info`](../type_info.html "cpp/types/type info")
 
@@ -173,7 +173,7 @@ Member functions
 **type_info::hash_code**(C++11)  
 [type_info::name](name.html "cpp/types/type info/name")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/type_info/navbar_content&action=edit)
+
 
 [std::size_t](../size_t.html) hash_code() const noexcept; |  |  (since C++11)  
 ---|---|---  
@@ -193,15 +193,15 @@ No other guarantees are given: [std::type_info](../type_info.html "cpp/types/typ
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/type_info/hash_code&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/type_info/hash_code&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 A value that is identical for all [std::type_info](../type_info.html "cpp/types/type info") objects referring to the same type. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/type_info/hash_code&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 The following program is an example of an efficient type-value mapping without using [std::type_index](../type_index.html "cpp/types/type index").
 
@@ -275,10 +275,10 @@ Output:
     *b is B
     *c is C
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/type_info/hash_code&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ operator==operator!=](operator_cmp.html "cpp/types/type info/operator cmp")(removed in C++20) |  checks whether the objects refer to the same type   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/type_info/dsc_operator_cmp&action=edit)  
+(public member function)   
 ---|---  
 [ name](name.html "cpp/types/type info/name") |  implementation defined name of the type   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/type_info/dsc_name&action=edit)
+(public member function) 

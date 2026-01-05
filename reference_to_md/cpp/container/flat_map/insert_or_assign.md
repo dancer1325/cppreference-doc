@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -71,7 +71,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::flat_map`](../flat_map.html "cpp/container/flat map")
 
@@ -141,7 +141,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/flat map/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/flat_map/navbar_content&action=edit)
+
 
 template< class M >  
 [std::pair](../../utility/pair.html)<iterator, bool> insert_or_assign( const key_type& k, M&& obj ); |  (1)  |  (since C++23)  
@@ -200,30 +200,30 @@ These overloads participate in overload resolution only if :
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/flat_map/insert_or_assign&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 k  |  \-  |  the key used both to look up and to insert if not found   
 ---|---|---  
 hint  |  \-  |  iterator to the position before which the new element will be inserted   
 obj  |  \-  |  the value to insert or assign   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/flat_map/insert_or_assign&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1-3) The bool component is true if the insertion took place and false if the assignment took place. The iterator component is pointing at the element that was inserted or updated.
 
 4-6) Iterator pointing at the element that was inserted or updated.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/flat_map/insert_or_assign&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 1-3) Same as for [`emplace`](emplace.html "cpp/container/flat map/emplace").
 
 4-6) Same as for [`emplace_hint`](emplace_hint.html "cpp/container/flat map/emplace hint").
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/flat_map/insert_or_assign&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 `insert_or_assign` returns more information than [`operator`](operator_at.html "cpp/container/flat map/operator at")[] and does not require default-constructibility of the mapped type. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/flat_map/insert_or_assign&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -267,16 +267,16 @@ Output:
     [b] = banana
     [c] = clementine
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/flat_map/insert_or_assign&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ operator[]](operator_at.html "cpp/container/flat map/operator at") |  access or insert specified element   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_operator_at&action=edit)  
+(public member function)   
 ---|---  
 [ at](at.html "cpp/container/flat map/at") |  access specified element with bounds checking   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_at&action=edit)  
+(public member function)   
 [ insert](insert.html "cpp/container/flat map/insert") |  inserts elements   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_insert&action=edit)  
+(public member function)   
 [ emplace](emplace.html "cpp/container/flat map/emplace") |  constructs element in-place   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_emplace&action=edit)  
+(public member function)   
 [ try_emplace](try_emplace.html "cpp/container/flat map/try emplace") |  inserts in-place if the key does not exist, does nothing if the key exists   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_try_emplace&action=edit)
+(public member function) 

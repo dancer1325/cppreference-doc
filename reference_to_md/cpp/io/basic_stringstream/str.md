@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -79,7 +79,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_stringstream`](../basic_stringstream.html "cpp/io/basic stringstream")
 
@@ -95,7 +95,7 @@ String operations
 Non-member functions  
 [swap(std::basic_stringstream)](swap2.html "cpp/io/basic stringstream/swap2")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_stringstream/navbar_content&action=edit)
+
 
 | (1) |   
 ---|---|---  
@@ -139,14 +139,14 @@ This overload participates in overload resolution only if is_convertible_v<const
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_stringstream/str&action=edit&section=T-1 "Template:cpp/io/basic stringstream/str")] Parameters
+### Parameters
 
 s  |  \-  |  new contents of the underlying string   
 ---|---|---  
 t  |  \-  |  an object (convertible to [std::basic_string_view](../../string/basic_string_view.html "cpp/string/basic string view")) to use as the new contents of the underlying string   
 a  |  \-  |  allocator used to construct the returned string   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_stringstream/str&action=edit&section=T-2 "Template:cpp/io/basic stringstream/str")] Return value
+### Return value
 
 1,2) A copy of the underlying string object.
 
@@ -154,7 +154,7 @@ a  |  \-  |  allocator used to construct the returned string
 
 4-7) (none)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_stringstream/str&action=edit&section=T-3 "Template:cpp/io/basic stringstream/str")] Notes
+### Notes
 
 The copy of the underlying string returned by [`str`](str.html#top) is a temporary object that will be destructed at the end of the expression, so directly calling [`c_str()`](../../string/basic_string/c_str.html "cpp/string/basic string/c str") on the result of str() (for example in auto *ptr = out.str().c_str();) results in a dangling pointer. 
 
@@ -162,7 +162,7 @@ The copy of the underlying string returned by [`str`](str.html#top) is a tempora
 ---|---|---|---  
 [`__cpp_lib_sstream_from_string_view`](../../experimental/feature_test.html#cpp_lib_sstream_from_string_view "cpp/feature test") | [`202306L`](../../compiler_support/26.html#cpp_lib_sstream_from_string_view_202306L "cpp/compiler support/26") | (C++26) | Interfacing [std::stringstream](../basic_stringstream.html "cpp/io/basic stringstream")s with [std::string_view](../../string/basic_string_view.html "cpp/string/basic string view"), ([7](str.html#Version_7))  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_stringstream/str&action=edit&section=T-4 "Template:cpp/io/basic stringstream/str")] Example
+### Example
 
 Run this code
     
@@ -198,12 +198,12 @@ Output:
     After writing the int '3' to output stream "1 2", str() = "3 2"
     After writing the int '3' to append stream "1 2", str() = "1 23"
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_stringstream/str&action=edit&section=T-5 "Template:cpp/io/basic stringstream/str")] See also
+### See also
 
 [ rdbuf](rdbuf.html "cpp/io/basic stringstream/rdbuf") |  returns the underlying raw string device object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_stringstream/dsc_rdbuf&action=edit)  
+(public member function)   
 ---|---  
 [ str](../basic_stringbuf/str.html "cpp/io/basic stringbuf/str") |  replaces or obtains a copy of the associated character string   
-(public member function of `std::basic_stringbuf<CharT,Traits,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_stringbuf/dsc_str&action=edit)
+(public member function of `std::basic_stringbuf<CharT,Traits,Allocator>`) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

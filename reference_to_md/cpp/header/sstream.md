@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header is part of the [Input/Output](../io.html "cpp/io") library. 
 
@@ -217,13 +217,13 @@ This header is part of the [Input/Output](../io.html "cpp/io") library.
 ###  Classes  
   
 [ basic_stringbuf](../io/basic_stringbuf.html "cpp/io/basic stringbuf") |  implements raw string device   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_basic_stringbuf&action=edit)  
+(class template)   
 [ basic_istringstream](../io/basic_istringstream.html "cpp/io/basic istringstream") |  implements high-level string stream input operations   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_basic_istringstream&action=edit)  
+(class template)   
 [ basic_ostringstream](../io/basic_ostringstream.html "cpp/io/basic ostringstream") |  implements high-level string stream output operations   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_basic_ostringstream&action=edit)  
+(class template)   
 [ basic_stringstream](../io/basic_stringstream.html "cpp/io/basic stringstream") |  implements high-level string stream input/output operations   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_basic_stringstream&action=edit)  
+(class template)   
 `**stringbuf**` |  [std::basic_stringbuf](../io/basic_stringbuf.html)<char>  
 (typedef)  
 `**wstringbuf**` |  [std::basic_stringbuf](../io/basic_stringbuf.html)<wchar_t>  
@@ -244,15 +244,15 @@ This header is part of the [Input/Output](../io.html "cpp/io") library.
 ###  Functions  
   
 [ std::swap(std::basic_stringbuf)](../io/basic_stringbuf/swap2.html "cpp/io/basic stringbuf/swap2")(C++11) |  specializes the [std::swap](../utility/swap.html "cpp/algorithm/swap") algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_stringbuf/dsc_swap2&action=edit)  
+(function template)   
 [ std::swap(std::basic_istringstream)](../io/basic_istringstream/swap2.html "cpp/io/basic istringstream/swap2")(C++11) |  specializes the [std::swap](../utility/swap.html "cpp/algorithm/swap") algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_stringstream/dsc_swap2&action=edit)  
+(function template)   
 [ std::swap(std::basic_ostringstream)](../io/basic_ostringstream/swap2.html "cpp/io/basic ostringstream/swap2")(C++11) |  specializes the [std::swap](../utility/swap.html "cpp/algorithm/swap") algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_stringstream/dsc_swap2&action=edit)  
+(function template)   
 [ std::swap(std::basic_stringstream)](../io/basic_stringstream/swap2.html "cpp/io/basic stringstream/swap2")(C++11) |  specializes the [std::swap](../utility/swap.html "cpp/algorithm/swap") algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_stringstream/dsc_swap2&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/sstream&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     namespace std {
@@ -283,7 +283,7 @@ This header is part of the [Input/Output](../io.html "cpp/io") library.
       using wstringstream = basic_stringstream<wchar_t>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/sstream&action=edit&section=T-1 "Template:cpp/synopsis/sstream")] Class template [std::basic_stringbuf](../io/basic_stringbuf.html "cpp/io/basic stringbuf")
+#### Class template [std::basic_stringbuf](../io/basic_stringbuf.html "cpp/io/basic stringbuf")
     
     
     namespace std {
@@ -370,7 +370,7 @@ This header is part of the [Input/Output](../io.html "cpp/io") library.
                   basic_stringbuf<CharT, Traits, Allocator>& y) noexcept(noexcept(x.swap(y)));
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/sstream&action=edit&section=T-2 "Template:cpp/synopsis/sstream")] Class template [std::basic_istringstream](../io/basic_istringstream.html "cpp/io/basic istringstream")
+#### Class template [std::basic_istringstream](../io/basic_istringstream.html "cpp/io/basic istringstream")
     
     
     namespace std {
@@ -437,7 +437,7 @@ This header is part of the [Input/Output](../io.html "cpp/io") library.
                   basic_istringstream<CharT, Traits, Allocator>& y);
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/sstream&action=edit&section=T-3 "Template:cpp/synopsis/sstream")] Class template [std::basic_ostringstream](../io/basic_ostringstream.html "cpp/io/basic ostringstream")
+#### Class template [std::basic_ostringstream](../io/basic_ostringstream.html "cpp/io/basic ostringstream")
     
     
     namespace std {
@@ -505,7 +505,7 @@ This header is part of the [Input/Output](../io.html "cpp/io") library.
                   basic_ostringstream<CharT, Traits, Allocator>& y);
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/sstream&action=edit&section=T-4 "Template:cpp/synopsis/sstream")] Class template [std::basic_stringstream](../io/basic_stringstream.html "cpp/io/basic stringstream")
+#### Class template [std::basic_stringstream](../io/basic_stringstream.html "cpp/io/basic stringstream")
     
     
     namespace std {
@@ -573,7 +573,7 @@ This header is part of the [Input/Output](../io.html "cpp/io") library.
                   basic_stringstream<CharT, Traits, Allocator>& y);
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/sstream&action=edit&section=2 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

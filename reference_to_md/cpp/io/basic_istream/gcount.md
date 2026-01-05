@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_istream`](../basic_istream.html "cpp/io/basic istream")
 
@@ -111,7 +111,7 @@ Member classes
 Non-member functions  
 [operator>>(std::basic_istream)](operator_gtgt2.html "cpp/io/basic istream/operator gtgt2")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_istream/navbar_content&action=edit)
+
 
 [std::streamsize](../streamsize.html) gcount() const; |  |   
 ---|---|---  
@@ -151,15 +151,15 @@ The following functions set `gcount()` to zero:
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_istream/gcount&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_istream/gcount&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The number of characters extracted by the last unformatted input operation, or the maximum representable value of [std::streamsize](../streamsize.html "cpp/io/streamsize") if the number is not representable. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_istream/gcount&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -181,7 +181,7 @@ Output:
     
     Characters extracted: 11
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_istream/gcount&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

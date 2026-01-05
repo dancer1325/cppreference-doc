@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [`std::text_encoding`](../../locale/text_encoding.html "cpp/text/text encoding")
 
@@ -79,7 +79,7 @@
 [Helper classes](../../locale/text_encoding.html#Helper_classes "cpp/text/text encoding")  
 [hash<std::text_encoding>](hash.html "cpp/text/text encoding/hash")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/text_encoding/navbar_content&action=edit)
+
 
 static text_encoding environment(); |  |  (since C++26)  
 ---|---|---  
@@ -102,15 +102,15 @@ This function is deleted unless the [CHAR_BIT](../../types/climits.html) is 8.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/text/text_encoding/environment&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/text/text_encoding/environment&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The object holding the representation of the environment character encoding. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/text/text_encoding/environment&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 The environment encoding may differ from the global locale-associated encoding that is accessible via [std::locale](../../locale/locale.html)().encoding(). 
 
@@ -118,14 +118,14 @@ On Windows platforms, the environment encoding can be determined by [`GetACP()`]
 
 On POSIX platforms, the environment encoding is associated with the POSIX locale "" which can be implemented to correspond to a value of [`nl_langinfo_l()`](https://pubs.opengroup.org/onlinepubs/9699919799/functions/nl_langinfo.html) when the environment locale "" is set before the [global C++ locale](../../locale/locale/global.html "cpp/locale/locale/global") is set to "C" at program startup. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/text/text_encoding/environment&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/text/text_encoding/environment&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ encoding](../../locale/locale/encoding.html "cpp/locale/locale/encoding")(C++26) |  returns the character encoding scheme associated with the locale   
-(public member function of `std::locale`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/locale/dsc_encoding&action=edit)  
+(public member function of `std::locale`)   
 ---|---

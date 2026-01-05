@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](copy.html "cpp/algorithm/ranges/co
 [uninitialized_default_construct_n](../../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 [Constrained algorithms](../ranges.html "cpp/algorithm/ranges")
 
@@ -550,7 +550,7 @@ All names in this menu belong to namespace `std::ranges`
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -610,7 +610,7 @@ The function-like entities described on this page are [_algorithm function objec
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/merge&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first1, last1  |  \-  |  the iterator-sentinel pair defining the first input sorted [range](../../iterator.html#Ranges "cpp/iterator") of elements to merge   
 ---|---|---  
@@ -620,19 +620,19 @@ comp  |  \-  |  comparison to apply to the projected elements
 proj1  |  \-  |  projection to apply to the elements in the first range   
 proj2  |  \-  |  projection to apply to the elements in the second range   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/merge&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 {last1, last2, result_last}, where result_last is the end of the constructed range. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/merge&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 At most N − 1 comparisons and applications of each projection, where N = [ranges::distance](../../iterator/ranges/distance.html)(first1, last1) + [ranges::distance](../../iterator/ranges/distance.html)(first2, last12). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/merge&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 This algorithm performs a similar task as [ranges::set_union](set_union.html) does. Both consume two sorted input ranges and produce a sorted output with elements from both inputs. The difference between these two algorithms is with handling values from both input ranges which compare equivalent (see notes on [LessThanComparable](../../named_req/LessThanComparable.html "cpp/named req/LessThanComparable")). If any equivalent values appeared n times in the first range and m times in the second, **ranges::merge** would output all n + m occurrences whereas [ranges::set_union](set_union.html "cpp/algorithm/ranges/set union") would output max(n, m) ones only. So **ranges::merge** outputs exactly N values and [ranges::set_union](set_union.html "cpp/algorithm/ranges/set union") may produce fewer. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/merge&action=edit&section=5 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     struct merge_fn
@@ -679,7 +679,7 @@ This algorithm performs a similar task as [ranges::set_union](set_union.html) do
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/merge&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -732,18 +732,18 @@ Output:
     { 3 4 5 6 7 } =
     { 1 2 3 3 4 4 5 5 5 5 6 7 }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/merge&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ ranges::inplace_merge](inplace_merge.html "cpp/algorithm/ranges/inplace merge")(C++20) |  merges two ordered ranges in-place  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_inplace_merge&action=edit)  
+(algorithm function object)  
 ---|---  
 [ ranges::is_sorted](is_sorted.html "cpp/algorithm/ranges/is sorted")(C++20) |  checks whether a range is sorted into ascending order  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_is_sorted&action=edit)  
+(algorithm function object)  
 [ ranges::set_union](set_union.html "cpp/algorithm/ranges/set union")(C++20) |  computes the union of two sets  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_set_union&action=edit)  
+(algorithm function object)  
 [ ranges::sort](sort.html "cpp/algorithm/ranges/sort")(C++20) |  sorts a range into ascending order  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_sort&action=edit)  
+(algorithm function object)  
 [ ranges::stable_sort](stable_sort.html "cpp/algorithm/ranges/stable sort")(C++20) |  sorts a range of elements while preserving order between equal elements  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_stable_sort&action=edit)  
+(algorithm function object)  
 [ merge](../merge.html "cpp/algorithm/merge") |  merges two sorted ranges   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_merge&action=edit)
+(function template) 

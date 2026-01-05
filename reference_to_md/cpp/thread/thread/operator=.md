@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::thread`](../thread.html "cpp/thread/thread")
 
@@ -196,7 +196,7 @@
 [Non-member functions](../thread.html#Non-member_functions "cpp/thread/thread")  
 [swap(std::thread)](swap2.html "cpp/thread/thread/swap2")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/navbar_content&action=edit)
+
 
 thread& operator=( thread&& other ) noexcept; |  |  (since C++11)  
 ---|---|---  
@@ -206,11 +206,11 @@ If *this still has an associated running thread (i.e. joinable() == true), calls
 
 After this call, [this->get_id()](get_id.html "cpp/thread/thread/get id") is equal to the value of [other.get_id()](get_id.html "cpp/thread/thread/get id") prior to the call, and other no longer represents a thread of execution. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/thread/operator%3D&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 other  |  \-  |  another thread object to assign to this thread object   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/thread/operator%3D&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 *this

@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::cartesian_product_view`](../../cartesian_product_view.html "cpp/ranges/cartesian product view")
 
@@ -257,7 +257,7 @@ operator-(cartesian_product_view::_iterator_)](operator_arith2.html "cpp/ranges/
 [iter_move(cartesian_product_view::_iterator_)](iter_move.html "cpp/ranges/cartesian product view/iterator/iter move")  
 [iter_swap(cartesian_product_view::_iterator_)](iter_swap.html "cpp/ranges/cartesian product view/iterator/iter swap")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/cartesian_product_view/navbar_content&action=edit)
+
 
 /*iterator*/() = default; |  (1)  |  (since C++23)  
 ---|---|---  
@@ -282,12 +282,12 @@ Construct an iterator.
 
 3) A private constructor which is used by cartesian_product_view::begin and cartesian_product_view::end. This constructor is not accessible to users. Initializes [`_parent__`](../iterator.html#Data_members "cpp/ranges/cartesian product view/iterator") with [std::addressof](../../../memory/addressof.html)(parent) and [`_current__`](../iterator.html#Data_members "cpp/ranges/cartesian product view/iterator") with std::move(current).
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/cartesian_product_view/iterator/iterator&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 i  |  \-  |  an /*iterator*/<false>  
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/cartesian_product_view/iterator/iterator&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

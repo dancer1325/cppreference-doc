@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](../empty.html "cpp/iterator/empty")(C++17)  
 [data](../data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 [`std::common_iterator`](../common_iterator.html "cpp/iterator/common iterator")
 
@@ -213,7 +213,7 @@
 [incrementable_traits<std::common_iterator>](incrementable_traits.html "cpp/iterator/common iterator/incrementable traits")(C++20)  
 [iterator_traits<std::common_iterator>](iterator_traits.html "cpp/iterator/common iterator/iterator traits")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/common_iterator/navbar_content&action=edit)
+
 
 template< class I2, class S2 >  
 requires [std::convertible_to](../../concepts/convertible_to.html)<const I2&, I> &&  
@@ -246,16 +246,16 @@ The behavior is undefined if x is in an invalid state, that is, x.var.valueless_
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/common_iterator/operator%3D&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 x  |  \-  |  iterator adaptor to assign from   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/common_iterator/operator%3D&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 *this
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/common_iterator/operator%3D&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -287,7 +287,7 @@ Output:
     2 3 4 5 6 
     3 4 5 6
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/common_iterator/operator%3D&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -295,8 +295,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 3574](https://cplusplus.github.io/LWG/issue3574) | C++20  | `variant` was fully constexpr (P2231R1) but `common_iterator` was not  | also made constexpr   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/common_iterator/operator%3D&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ (constructor)](common_iterator.html "cpp/iterator/common iterator/common iterator") |  constructs a new `common_iterator`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_constructor&action=edit)  
+(public member function)   
 ---|---

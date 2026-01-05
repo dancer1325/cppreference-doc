@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Filesystem library](../../filesystem.html "cpp/filesystem")
 
@@ -100,7 +100,7 @@ filesystem::symlink_status](../status.html "cpp/filesystem/status")
 [filesystem::is_socket](../is_socket.html "cpp/filesystem/is socket")  
 [filesystem::is_symlink](../is_symlink.html "cpp/filesystem/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/navbar_content&action=edit)
+
 
 [`std::filesystem::directory_iterator`](../directory_iterator.html "cpp/filesystem/directory iterator")
 
@@ -113,7 +113,7 @@ Member functions
 Non-member functions  
 [begin(std::filesystem::directory_iterator)end(std::filesystem::directory_iterator)](begin.html "cpp/filesystem/directory iterator/begin")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/directory_iterator/navbar_content&action=edit)
+
 
 directory_iterator& operator=(const directory_iterator&) = default;  
   
@@ -123,16 +123,16 @@ directory_iterator& operator=(directory_iterator&&) = default; |  |  (since C++1
 | This section is incomplete   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/directory_iterator/operator%3D&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 | This section is incomplete   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/directory_iterator/operator%3D&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 *this
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/directory_iterator/operator%3D&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 | This section is incomplete   
 ---|---

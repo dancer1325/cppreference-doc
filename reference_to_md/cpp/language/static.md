@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Classes](classes.html "cpp/language/classes")
 
@@ -261,7 +261,7 @@ Inheritance
 [`override` specifier](override.html "cpp/language/override") (C++11)  
 [`final` specifier](final.html "cpp/language/final") (C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/classes/navbar_content&action=edit)
+
 
 Inside a class definition, the keyword [`static`](../keywords/static.html "cpp/keywords/static") declares members that are not bound to class instances. 
 
@@ -282,13 +282,13 @@ Outside a class definition, it has a different meaning: see [storage duration](s
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/static&action=edit&section=1 "Edit section: Syntax")] Syntax
+### Syntax
 
 A declaration for a static member is a [member declaration](class.html#Member_specification "cpp/language/class") whose declaration specifiers contain the keyword static. The keyword static usually appears before other specifiers (which is why the syntax is often informally described as static data-member or static member-function), but may appear anywhere in the specifier sequence. 
 
 The name of any static data member and static member function must be different from the name of the containing class. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/static&action=edit&section=2 "Edit section: Explanation")] Explanation
+### Explanation
 
 Static members of a class are not associated with the objects of the class: they are independent variables with static or thread(since C++11) [storage duration](storage_duration.html "cpp/language/storage duration") or regular functions. 
 
@@ -344,7 +344,7 @@ To refer to a static member `m` of class `T`, two forms may be used: qualified n
 
 Static members obey the [class member access rules (private, protected, public)](access.html "cpp/language/access"). 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/static&action=edit&section=3 "Edit section: Static member functions")] Static member functions
+#### Static member functions
 
 Static member functions are not associated with any object. When called, they have no this pointer. 
 
@@ -352,7 +352,7 @@ Static member functions cannot be virtual, const, volatile, or [ref-qualified](m
 
 The address of a static member function may be stored in a regular [pointer to function](pointer.html#Pointers_to_functions "cpp/language/pointer"), but not in a [pointer to member function](pointer.html#Pointers_to_member_functions "cpp/language/pointer"). 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/static&action=edit&section=4 "Edit section: Static data members")] Static data members
+#### Static data members
 
 Static data members are not associated with any object. They exist even if no objects of the class have been defined. There is only one instance of the static data member in the entire program with static [storage duration](storage_duration.html "cpp/language/storage duration"), unless the keyword [`thread_local`](../keyword/thread_local.html "cpp/keyword/thread local") is used, in which case there is one such object per thread with thread storage duration(since C++11). 
 
@@ -377,7 +377,7 @@ A static data member may be declared [`inline`](inline.html "cpp/language/inline
 | (since C++17)  
 ---|---  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/static&action=edit&section=5 "Edit section: Constant static members")] Constant static members
+#### Constant static members
 
 If a static data member of integral or enumeration type is declared const (and not volatile), it can be initialized with an [initializer](initialization.html "cpp/language/initialization") in which every expression is a [constant expression](constexpr.html "cpp/language/constexpr"), right inside the class definition: 
     
@@ -419,11 +419,11 @@ A constexpr static data member is implicitly inline and does not need to be rede
     const int X::n;             // … so a definition is necessary
     constexpr int X::m;         // … (except for X::m in C++17)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/static&action=edit&section=6 "Edit section: Keywords")] Keywords
+### Keywords
 
 [`static`](../keywords/static.html "cpp/keyword/static")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/static&action=edit&section=7 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -432,7 +432,7 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [CWG 194](https://cplusplus.github.io/CWG/issues/194.html) | C++98  | (static) member function names can be the same as the class name  | naming restriction added (including  
 [non-static member functions](member_functions.html#Defect_report "cpp/language/member functions"))   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/static&action=edit&section=8 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -494,7 +494,7 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/static&action=edit&section=9 "Edit section: See also")] See also
+### See also
 
   * [`static` storage specifier](storage_duration.html "cpp/language/storage duration")
 

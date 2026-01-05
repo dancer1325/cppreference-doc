@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header is part of the [Input/Output](../io.html "cpp/io") library. 
 
@@ -214,14 +214,14 @@ This header is part of the [Input/Output](../io.html "cpp/io") library.
   
 ###  Includes  
   
-[ <ostream>](ostream.html "cpp/header/ostream") |  [std::basic_ostream](../io/basic_ostream.html "cpp/io/basic ostream"), [std::basic_iostream](../io/basic_iostream.html "cpp/io/basic iostream") class templates and typedefs[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/dsc_ostream&action=edit)  
+[ <ostream>](ostream.html "cpp/header/ostream") |  [std::basic_ostream](../io/basic_ostream.html "cpp/io/basic ostream"), [std::basic_iostream](../io/basic_iostream.html "cpp/io/basic iostream") class templates and typedefs  
   
 ###  Classes  
   
 [ basic_syncbuf](../io/basic_syncbuf.html "cpp/io/basic syncbuf")(C++20) |  synchronized output device wrapper   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_basic_syncbuf&action=edit)  
+(class template)   
 [ basic_osyncstream](../io/basic_osyncstream.html "cpp/io/basic osyncstream")(C++20) |  synchronized output stream wrapper   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_basic_osyncstream&action=edit)  
+(class template)   
 `syncbuf` (C++20) |  [std::basic_syncbuf](../io/basic_syncbuf.html)<char>  
 (typedef)  
 `wsyncbuf` (C++20) |  [std::basic_syncbuf](../io/basic_syncbuf.html)<wchar_t>  
@@ -234,9 +234,9 @@ This header is part of the [Input/Output](../io.html "cpp/io") library.
 ###  Functions  
   
 [ std::swap(std::basic_syncbuf)](../io/basic_syncbuf/swap2.html "cpp/io/basic syncbuf/swap2")(C++20) |  specializes the [std::swap](../utility/swap.html "cpp/algorithm/swap") algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_syncbuf/dsc_swap2&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/syncstream&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     #include <ostream>
@@ -257,7 +257,7 @@ This header is part of the [Input/Output](../io.html "cpp/io") library.
       using wosyncstream = basic_osyncstream<wchar_t>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/syncstream&action=edit&section=T-1 "Template:cpp/synopsis/syncstream")] Class template std::basic_syncbuf
+#### Class template std::basic_syncbuf
     
     
     namespace std {
@@ -308,7 +308,7 @@ This header is part of the [Input/Output](../io.html "cpp/io") library.
                   basic_syncbuf<CharT, Traits, Allocator>&);
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/syncstream&action=edit&section=T-2 "Template:cpp/synopsis/syncstream")] Class template std::basic_osyncstream
+#### Class template std::basic_osyncstream
     
     
     namespace std {

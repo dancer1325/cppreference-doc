@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Expressions](expressions.html "cpp/language/expressions")
 
@@ -289,7 +289,7 @@ Conversions
 [`dynamic_cast`](dynamic_cast.html "cpp/language/dynamic cast")  
 [`reinterpret_cast`](reinterpret_cast.html "cpp/language/reinterpret cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/expressions/navbar_content&action=edit)
+
 
 [ Exceptions](exceptions.html "cpp/language/exceptions")
 
@@ -302,7 +302,7 @@ Exception specification
 [dynamic specification](except_spec.html "cpp/language/except spec") (until C++17*)  
 **noexcept operator** (C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/exceptions/navbar_content&action=edit)
+
 
 The noexcept operator performs a compile-time check that returns true if an expression is declared to not throw any exceptions. 
 
@@ -320,7 +320,7 @@ It can be used within a function template's [noexcept specifier](noexcept_spec.h
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/noexcept&action=edit&section=1 "Edit section: Syntax")] Syntax  
+### Syntax  
   
 ---  
 `**noexcept(**` expression `**)**` |  |   
@@ -332,18 +332,18 @@ expression is an [unevaluated operand](expressions.html#Potentially-evaluated_ex
 If expression is a prvalue, [temporary materialization](implicit_cast.html#Temporary_materialization "cpp/language/implicit conversion") is applied.  | (since C++17)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/noexcept&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 Even if noexcept(expr) is true, an evaluation of expr may still throw as the result of encountering undefined behavior. 
 
 If expression is of a class type or (possibly multidimensional) array thereof, temporary materialization requires the destructor be non-deleted and accessible.  | (since C++17)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/noexcept&action=edit&section=3 "Edit section: Keywords")] Keywords
+### Keywords
 
 [`noexcept`](../keyword/noexcept.html "cpp/keyword/noexcept")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/noexcept&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -415,7 +415,7 @@ Output:
     V(rvalue V) is noexcept(true)
     V(lvalue V) is noexcept(false)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/noexcept&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -427,8 +427,8 @@ in this case
 [CWG 2792](https://cplusplus.github.io/CWG/issues/2792.html) | C++11  | the noexcept operator was required to determine whether exceptions  
 may be thrown in the case of encountering undefined behavior  | not required   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/noexcept&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
-[ `noexcept` specifier](noexcept_spec.html "cpp/language/noexcept spec")(C++11) |  specifies whether a function could throw exceptions[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_noexcept_spec&action=edit)  
+[ `noexcept` specifier](noexcept_spec.html "cpp/language/noexcept spec")(C++11) |  specifies whether a function could throw exceptions  
 ---|---  
-[ Dynamic exception specification](except_spec.html "cpp/language/except spec")(until C++17) |  specifies what exceptions are thrown by a function (deprecated in C++11) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_except_spec&action=edit)
+[ Dynamic exception specification](except_spec.html "cpp/language/except spec")(until C++17) |  specifies what exceptions are thrown by a function (deprecated in C++11) 

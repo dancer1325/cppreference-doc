@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [Common mathematical functions](../math.html "cpp/numeric/math")
 
@@ -230,7 +230,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/navbar_content&action=edit)
+
 
 Defined in header `[<cmath>](../../header/cmath.html "cpp/header/cmath")` |  |   
 ---|---|---  
@@ -268,19 +268,19 @@ A) Additional overloads are provided for all integer types, which are treated as
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/modf&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 num  |  \-  |  floating-point or integer value   
 ---|---|---  
 iptr  |  \-  |  pointer to floating-point value to store the integral part to   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/modf&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 If no errors occur, returns the fractional part of num with the same sign as num. The integral part is put into the value pointed to by iptr. 
 
 The sum of the returned value and the value stored in *iptr gives num (allowing for rounding). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/modf&action=edit&section=3 "Edit section: Error handling")] Error handling
+### Error handling
 
 This function is not subject to any errors specified in [math_errhandling](math_errhandling.html "cpp/numeric/math/math errhandling"). 
 
@@ -293,7 +293,7 @@ If the implementation supports IEEE floating-point arithmetic (IEC 60559),
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/modf&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 This function behaves as if implemented as follows: 
     
@@ -310,7 +310,7 @@ This function behaves as if implemented as follows:
 
 The additional overloads are not required to be provided exactly as (A). They only need to be sufficient to ensure that for their argument num of integer type, std::modf(num, iptr) has the same effect as std::modf(static_cast<double>(num), iptr). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/modf&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Compares different floating-point decomposition functions:
 
@@ -357,9 +357,9 @@ Possible output:
     modf(-0) makes -0 + -0
     modf(-Inf) makes -INF + -0
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/modf&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ trunctruncftruncl](trunc.html "cpp/numeric/math/trunc")(C++11)(C++11)(C++11) |  nearest integer not greater in magnitude than the given value   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_trunc&action=edit)  
+(function)   
 ---|---  
 [C documentation](../../../c/numeric/math/modf.html "c/numeric/math/modf") for modf

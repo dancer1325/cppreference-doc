@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -282,7 +282,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [Low level memory management](../new.html "cpp/memory/new")
 
@@ -304,7 +304,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
 [Object access](../new.html#Object_access "cpp/memory/new")  
 [launder](../../utility/launder.html "cpp/utility/launder")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/new/navbar_content&action=edit)
+
 
 Defined in header `[<new>](../../header/new.html "cpp/header/new")` |  |   
 ---|---|---  
@@ -315,20 +315,20 @@ Returns the currently installed new-handler, which may be a null pointer.
 
 This function is thread-safe. Previous call to [std::set_new_handler](set_new_handler.html "cpp/memory/new/set new handler") _synchronizes-with_ (see [std::memory_order](../../atomic/memory_order.html "cpp/atomic/memory order")) the subsequent calls to `std::get_new_handler`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/new/get_new_handler&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/new/get_new_handler&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The currently installed _new-handler_ , which may be a null pointer value. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/new/get_new_handler&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ operator newoperator new[]](operator_new.html "cpp/memory/new/operator new") |  allocation functions   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/new/dsc_operator_new&action=edit)  
+(function)   
 ---|---  
 [ set_new_handler](set_new_handler.html "cpp/memory/new/set new handler") |  registers a new handler   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/new/dsc_set_new_handler&action=edit)  
+(function)   
 [ new_handler](new_handler.html "cpp/memory/new/new handler") |  function pointer type of the new handler   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/new/dsc_new_handler&action=edit)
+(typedef) 

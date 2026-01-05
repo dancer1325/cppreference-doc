@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ named requirements](../iterator/concepts.html "cpp/named req")
 
@@ -147,7 +147,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/named_req/navbar_content&action=edit)
+
 
 A **LegacyForwardIterator** is a [LegacyIterator](Iterator.html "cpp/named req/Iterator") that can read data from the pointed-to element. 
 
@@ -168,7 +168,7 @@ If a **LegacyForwardIterator** it originates from a [Container](Container.html "
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/ForwardIterator&action=edit&section=1 "Edit section: Requirements")] Requirements
+### Requirements
 
 Type  |  Definition   
 ---|---  
@@ -197,14 +197,14 @@ r++ | convertible to const X& | Equivalent to X x = r;
 return x;.   
 *i++ | `Ref` |   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/ForwardIterator&action=edit&section=2 "Edit section: Equality domain")] Equality domain
+### Equality domain
 
 The [domain](InputIterator.html#Equality_domain "cpp/named req/InputIterator") of == for forward iterators is that of iterators over the same [underlying sequence](../iterator.html#Dereferenceability_and_validity "cpp/iterator"). 
 
 However, [value-initialized](../language/value_initialization.html "cpp/language/value initialization") forward iterators can be compared, and must compare equal to other value-initialized iterators of the same type. In other words, value-initialized forward iterators behave as if they refer past the end of the same empty sequence.  | (since C++14)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/ForwardIterator&action=edit&section=3 "Edit section: Multi-pass guarantee")] Multi-pass guarantee
+### Multi-pass guarantee
 
 Two dereferenceable iterators a and b of type `X` offer the _multi-pass guarantee_ if all following conditions are satisfied: 
 
@@ -240,11 +240,11 @@ where the exposition-only concept `__LegacyInputIterator<T>` is described in [Le
 
 (since C++20)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/ForwardIterator&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 Unlike the [std::forward_iterator](../iterator/forward_iterator.html "cpp/iterator/forward iterator") concept, the LegacyForwardIterator requirements requires dereference to return a reference. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/ForwardIterator&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -267,9 +267,9 @@ reference types
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/ForwardIterator&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ forward_iterator](../iterator/forward_iterator.html "cpp/iterator/forward iterator")(C++20) |  specifies that an [`input_iterator`](../iterator/input_iterator.html "cpp/iterator/input iterator") is a forward iterator, supporting equality comparison and multi-pass   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_forward_iterator&action=edit)  
+(concept)   
 ---|---  
 [**Iterator library**](../iterator.html "cpp/iterator") |  provides definitions for iterators, iterator traits, adaptors, and utility functions 

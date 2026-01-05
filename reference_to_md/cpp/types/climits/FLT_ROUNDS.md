@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Type support](../../utility/rtti.html "cpp/types")
 
@@ -161,7 +161,7 @@ Runtime type information
 ---  
 [bad_cast](../bad_cast.html "cpp/types/bad cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/navbar_content&action=edit)
+
 
 [ C numeric limits interface](../climits.html "cpp/types/climits")
 
@@ -169,7 +169,7 @@ Runtime type information
 ---  
 [FLT_EVAL_METHOD](FLT_EVAL_METHOD.html "cpp/types/climits/FLT EVAL METHOD")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/climits/navbar_content&action=edit)
+
 
 Defined in header `[<cfloat>](../../header/cfloat.html "cpp/header/cfloat")` |  |   
 ---|---|---  
@@ -187,19 +187,19 @@ Value  |  Explanation
 `3` |  towards negative infinity; same meaning as [FE_DOWNWARD](../../numeric/fenv/FE_round.html "cpp/numeric/fenv/FE round")  
 other values  |  implementation-defined behavior   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/climits/FLT_ROUNDS&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 The rounding mode can be changed with [std::fesetround](../../numeric/fenv/feround.html "cpp/numeric/fenv/feround") and **FLT_ROUNDS** reflects that change. 
 
 The possible values of FLT_ROUNDS match the possible values of [std::float_round_style](../numeric_limits/float_round_style.html "cpp/types/numeric limits/float round style"), returned by [std::numeric_limits::round_style](../numeric_limits/round_style.html "cpp/types/numeric limits/round style"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/climits/FLT_ROUNDS&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ float_round_style](../numeric_limits/float_round_style.html "cpp/types/numeric limits/float round style") |  indicates floating-point rounding modes   
-(enum) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/dsc_float_round_style&action=edit)  
+(enum)   
 ---|---  
 [ fegetroundfesetround](../../numeric/fenv/feround.html "cpp/numeric/fenv/feround")(C++11)(C++11) |  gets or sets rounding direction   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/fenv/dsc_feround&action=edit)  
+(function)   
 [ FE_DOWNWARDFE_TONEARESTFE_TOWARDZEROFE_UPWARD](../../numeric/fenv/FE_round.html "cpp/numeric/fenv/FE round")(C++11) |  floating-point rounding direction   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/fenv/dsc_FE_round&action=edit)  
+(macro constant)   
 [C documentation](../../../c/types/limits/FLT_ROUNDS.html "c/types/limits/FLT ROUNDS") for FLT_ROUNDS

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 **iostream_category**(C++11)  
 [io_errc](io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 Defined in header `[<ios>](../header/ios.html "cpp/header/ios")` |  |   
 ---|---|---  
@@ -97,15 +97,15 @@ Obtains a reference to the static error category object for iostream errors. The
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/iostream_category&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/iostream_category&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 A reference to the static object of unspecified runtime type, derived from [std::error_category](../error/error_category.html "cpp/error/error category"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/iostream_category&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -137,7 +137,7 @@ Possible output:
     Error code: 1 (unspecified iostream_category error)
     Error category: iostream
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/iostream_category&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -145,10 +145,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 2087](https://cplusplus.github.io/LWG/issue2087) | C++11  | `iostream_category` was not declared noexcept | declared noexcept  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/iostream_category&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ failure](ios_base/failure.html "cpp/io/ios base/failure") |  stream exception   
-(public member class of `std::ios_base`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/ios_base/dsc_failure&action=edit)  
+(public member class of `std::ios_base`)   
 ---|---  
 [ io_errc](io_errc.html "cpp/io/io errc")(C++11) |  the IO stream error codes   
-(enum) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_io_errc&action=edit)
+(enum) 

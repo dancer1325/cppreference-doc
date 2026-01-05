@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Formatting library](../format.html "cpp/utility/format")
 
@@ -91,7 +91,7 @@ Formatting arguments
 [Format error](format.html#Format_error "cpp/utility/format/format")  
 [format_error](format_error.html "cpp/utility/format/format error")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/navbar_content&action=edit)
+
 
 Defined in header `[<format>](../../header/format.html "cpp/header/format")` |  |   
 ---|---|---  
@@ -116,7 +116,7 @@ Format arguments held by args according to the format string fmt, and return the
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/vformat&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 fmt  |  \-  |  an object that represents the format string. The format string consists of 
 
@@ -161,15 +161,15 @@ format-spec |  \-  |  the format specification defined by the [std::formatter](f
 args  |  \-  |  arguments to be formatted   
 loc  |  \-  |  [std::locale](../../locale/locale.html "cpp/locale/locale") used for locale-specific formatting   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/vformat&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 A string object holding the formatted result. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/vformat&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Throws [std::format_error](format_error.html "cpp/utility/format/format error") if fmt is not a valid format string for the provided arguments, or [std::bad_alloc](../../memory/new/bad_alloc.html "cpp/memory/new/bad alloc") on allocation failure. Also propagates any exception thrown by formatter or iterator operations. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/vformat&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -193,4 +193,4 @@ Output:
     
     Hello, C++23
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/vformat&action=edit&section=5 "Edit section: See also")] See also
+### See also

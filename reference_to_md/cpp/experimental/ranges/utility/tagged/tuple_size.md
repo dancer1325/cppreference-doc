@@ -30,7 +30,7 @@
 [Symbols index](../../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Ranges](../../../ranges.html "cpp/experimental/ranges")
 
@@ -66,7 +66,7 @@
 [Ranges](../../../ranges.html#Ranges "cpp/experimental/ranges")  
 [Algorithms](../../../ranges.html#Algorithms "cpp/experimental/ranges")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/navbar_content&action=edit)
+
 
 [General utilities library](../../../ranges.html#General_utilities "cpp/experimental/ranges")
 
@@ -125,7 +125,7 @@ Tagged pairs and tuples
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/utility/navbar_content&action=edit)
+
 
 [`std::experimental::ranges::tagged`](../tagged.html "cpp/experimental/ranges/utility/tagged")
 
@@ -141,7 +141,7 @@ Helper classes
 **tuple_size**  
 [tuple_element](tuple_element.html "cpp/experimental/ranges/utility/tagged/tuple element")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/utility/tagged/navbar_content&action=edit)
+
 
 template< class Base, class... Tags >  
 struct tuple_size<std::experimental::[ranges::tagged](../tagged.html)<Base, Tags...>>  
@@ -185,14 +185,14 @@ Type  |  Definition
 `value_type` |  [std::size_t](../../../../types/size_t.html)  
 `type` |  [std::integral_constant](../../../../types/integral_constant.html)<[std::size_t](../../../../types/size_t.html), value>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/utility/tagged/tuple_size&action=edit&section=1 "Edit section: See also")] See also
+### See also
 
 [ std::tuple_size<std::tuple>](../../../../utility/tuple/tuple_size.html "cpp/utility/tuple/tuple size")(C++11) |  obtains the size of a `tuple`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/dsc_tuple_size&action=edit)  
+(class template specialization)   
 ---|---  
 [ std::tuple_size<std::array>](../../../../container/array/tuple_size.html "cpp/container/array/tuple size")(C++11) |  obtains the size of an `array`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/array/dsc_tuple_size&action=edit)  
+(class template specialization)   
 [ std::tuple_size<std::pair>](../../../../utility/pair/tuple_size.html "cpp/utility/pair/tuple size")(C++11) |  obtains the size of a `pair`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/pair/dsc_tuple_size&action=edit)  
+(class template specialization)   
 [ std::tuple_element<std::experimental::ranges::tagged>](tuple_element.html "cpp/experimental/ranges/utility/tagged/tuple element") |  obtains the types of the elements of a `tagged`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/utility/tagged/dsc_tuple_element&action=edit)
+(class template specialization) 

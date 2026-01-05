@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Library fundamentals](../memory.html "cpp/experimental/lib extensions")
 
@@ -75,7 +75,7 @@
 [Type-erased and polymorphic allocators](../memory.html "cpp/experimental/memory")  
 [Variable templates for type traits](../type_trait_variable_templates.html "cpp/experimental/type trait variable templates")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions/navbar_content&action=edit)
+
 
 [`std::experimental::shared_ptr`](../shared_ptr.html "cpp/experimental/shared ptr")
 
@@ -90,7 +90,7 @@ Non-member functions
 [std::hash](hash.html "cpp/experimental/shared ptr/hash")  
 [Members and non-members identical to those of `std::shared_ptr`](../shared_ptr.html#identical-shared_ptr "cpp/experimental/shared ptr")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/shared_ptr/navbar_content&action=edit)
+
 
 constexpr shared_ptr() noexcept; |  (1)  |   
 ---|---|---  
@@ -159,13 +159,13 @@ If `D` is a reference type, equivalent to shared_ptr(r.release(), [std::ref](../
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/shared_ptr/shared_ptr&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 When constructing a `shared_ptr` from a raw pointer to an object of a type derived from std::experimental::enable_shared_from_this, the constructors of `shared_ptr` update the private `weak_ptr` member of the std::experimental::enable_shared_from_this base so that future calls to [`shared_from_this()`](../../memory/enable_shared_from_this/shared_from_this.html "cpp/memory/enable shared from this/shared from this") would share ownership with the `shared_ptr` created by this raw pointer constructor. 
 
 The raw pointer overloads assume ownership of the pointed-to object, and so constructing a `shared_ptr` using the raw pointer overload for an object that is already managed by a `shared_ptr` may lead to undefined behavior, even if the object is of a type derived from std::experimental::enable_shared_from_this. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/shared_ptr/shared_ptr&action=edit&section=2 "Edit section: Parameters")] Parameters
+### Parameters
 
 ptr  |  \-  |  a pointer to an object to manage   
 ---|---|---  
@@ -173,7 +173,7 @@ d  |  \-  |  a deleter to use to destroy the object
 alloc  |  \-  |  an allocator to use for allocations of data for internal use   
 r  |  \-  |  another smart pointer to share the ownership to or acquire the ownership from   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/shared_ptr/shared_ptr&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 3) [std::bad_alloc](../../memory/new/bad_alloc.html "cpp/memory/new/bad alloc") if required additional memory could not be obtained. May throw implementation-defined exception for other errors. The applicable delete-expression (delete ptr if `T` is not an array type, delete[] ptr otherwise) is called if an exception occurs.
 
@@ -185,16 +185,16 @@ r  |  \-  |  another smart pointer to share the ownership to or acquire the owne
 
 13) If an exception is thrown, the constructor has no effects.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/shared_ptr/shared_ptr&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/shared_ptr/shared_ptr&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ make_sharedmake_shared_for_overwrite](../../memory/shared_ptr/make_shared.html "cpp/memory/shared ptr/make shared")(C++20) |  creates a shared pointer that manages a new object   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/dsc_make_shared&action=edit)  
+(function template)   
 ---|---  
 [ allocate_sharedallocate_shared_for_overwrite](../../memory/shared_ptr/allocate_shared.html "cpp/memory/shared ptr/allocate shared")(C++20) |  creates a shared pointer that manages a new object allocated using an allocator   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/dsc_allocate_shared&action=edit)
+(function template) 

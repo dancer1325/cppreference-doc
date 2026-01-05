@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::take_while_view`](../../take_while_view.html "cpp/ranges/take while view")
 
@@ -241,7 +241,7 @@ std::from_range](../../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
 [take_while_view::_sentinel_ ::base](base.html "cpp/ranges/take while view/sentinel/base")  
 **operator==(take_while_view::_sentinel_)**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/take_while_view/navbar_content&action=edit)
+
 
 friend constexpr bool operator==( const [ranges::iterator_t](../../iterator_t.html)<Base>& x,  
 const /*sentinel*/& y ); |  |  (since C++20)  
@@ -256,17 +256,17 @@ This function is not visible to ordinary [unqualified](../../../language/unquali
 
 The `!=` operator is [synthesized](../../../language/default_comparisons.html#Other_defaulted_comparison_operators "cpp/language/default comparisons") from `operator==`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/take_while_view/sentinel/operator_cmp&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 x  |  \-  |  iterator to compare   
 ---|---|---  
 y  |  \-  |  sentinel to compare   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/take_while_view/sentinel/operator_cmp&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 y.end_ == x || ![std::invoke](../../../utility/functional/invoke.html)(*y.pred_, *x), where `_end__` denotes the stored sentinel and `_pred__` denotes the stored pointer to predicate. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/take_while_view/sentinel/operator_cmp&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

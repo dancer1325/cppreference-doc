@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Extensions for parallelism v2](../../parallelism_2.html "cpp/experimental/parallelism 2")
 
@@ -92,7 +92,7 @@ Task blocks
 [define_task_blockdefine_task_block_restore_thread](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/define_task_block&action=edit&redlink=1 "cpp/experimental/define task block \(page does not exist\)")  
 [Data-parallel vectors](../../simd.html "cpp/experimental/simd")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/parallelism_2/navbar_content&action=edit)
+
 
 [SIMD library](../../simd.html "cpp/experimental/simd")
 
@@ -186,7 +186,7 @@ Task blocks
   
 [Math functions](../../simd.html#Math_functions "cpp/experimental/simd")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/simd/navbar_content&action=edit)
+
 
 [`std::experimental::simd`](../simd.html "cpp/experimental/simd/simd")
 
@@ -225,7 +225,7 @@ Non-member functions
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/simd/simd/navbar_content&action=edit)
+
 
 friend simd& operator+=( simd& lhs, const simd& rhs ) noexcept; |  (1)  |  (parallelism TS v2)  
 ---|---|---  
@@ -278,18 +278,18 @@ Applies the given compound assignment operator element-wise to each correspondin
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/simd/simd/operator_compound&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 lhs  |  \-  |  left operands   
 ---|---|---  
 rhs  |  \-  |  right operands   
 n  |  \-  |  number of bits to shift each element in lhs  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/simd/simd/operator_compound&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 lhs
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/simd/simd/operator_compound&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Computes cosh(β)² - sinh(β)² (== 1) for some arbitrary angle β, on SIMD data.
 
@@ -352,8 +352,8 @@ Output:
      
     reduce(z) = 32.000000
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/simd/simd/operator_compound&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ operator+  operator-  operator*  operator/  operator%  operator& operator|  operator^  operator<< operator>>](operator_arith.html "cpp/experimental/simd/simd/operator arith")(parallelism TS v2) |  element-wise binary operators   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/simd/simd/dsc_operator_arith&action=edit)  
+(function)   
 ---|---

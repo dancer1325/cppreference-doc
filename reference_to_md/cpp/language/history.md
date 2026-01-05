@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | **History of C++**  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 ## Contents
 
@@ -238,7 +238,7 @@ Miscellaneous
   
 ---  
   
-## [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/history&action=edit&section=1 "Edit section: Early C++")] Early C++
+## Early C++
 
   * 1979: C with Classes first implemented 
 
@@ -280,7 +280,7 @@ This book described the language as designed, including some features that were 
 
 
 
-## [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/history&action=edit&section=2 "Edit section: Standard C++")] Standard C++
+## Standard C++
 
   * 1990: ANSI C++ Committee founded 
   * 1991: ISO C++ Committee founded 
@@ -288,7 +288,7 @@ This book described the language as designed, including some features that were 
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/history&action=edit&section=3 "Edit section: C++98/03 period")] C++98/03 period
+### C++98/03 period
 
   * 1998: **C++98** (ISO/IEC 14882:1998) 
 
@@ -557,7 +557,7 @@ All of TR1 except for the special functions was included in C++11, with minor ch
 
 This international standard is a C++ standard library extension, which adds the special functions that were part of TR1, but were not included in C++11: elliptic integrals, exponential integral, Laguerre polynomials, Legendre polynomials, Hermite polynomials, Bessel functions, Neumann functions, beta function, and Riemann zeta function. This standard was [merged into C++17](../numeric/special_math.html "cpp/numeric/special functions"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/history&action=edit&section=4 "Edit section: C++11 period")] C++11 period
+### C++11 period
 
   * 2011: **C++11** (ISO/IEC 14882:2011) ([ISO Store](https://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=50372)) ([2012 post-publication draft](https://wg21.link/n3337)). 
 
@@ -578,7 +578,7 @@ This TR implements the decimal floating-point types from IEEE 754-2008 Standard 
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/history&action=edit&section=5 "Edit section: C++14 period")] C++14 period
+### C++14 period
 
   * 2014: **C++14** ([ISO Store](https://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=64029)) ([ANSI Store](https://webstore.ansi.org/RecordDetail.aspx?sku=INCITS%2fISO%2fIEC+14882%3a2014+\(2016\))) ([2014 final draft](https://github.com/cplusplus/draft/blob/master/papers/n4140.pdf?raw=true)) 
 
@@ -624,7 +624,7 @@ This TS extends the C++ core language with concepts (named type requirements) an
 
 This TS extends the C++ library to include [several extensions](../experimental/concurrency.html "cpp/experimental/concurrency") to [std::future](../thread/future.html "cpp/thread/future"), [latches](../thread/latch.html "cpp/thread/latch") and [barriers](../thread/barrier.html "cpp/thread/barrier"), and atomic smart pointers. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/history&action=edit&section=6 "Edit section: C++17 period")] C++17 period
+### C++17 period
 
   * 2017: **C++17** ([ISO Store](https://www.iso.org/standard/68564.html)) ([ANSI Store](https://webstore.ansi.org/RecordDetail.aspx?sku=INCITS%2fISO%2fIEC+14882%3a2017+\(2018\))) ([n4659 2017-03-21 final draft](https://wg21.link/n4659)) 
 
@@ -664,7 +664,7 @@ This TS extends the C++ core language to include modules. This adds the special 
 
 This TS extends the C++ library to include two new execution policies (unseq and vec), additional parallel algorithms such as reduction_plus or for_loop_strided, task blocks for forking and joining parallel tasks, SIMD types and operations on those types. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/history&action=edit&section=7 "Edit section: C++20 period")] C++20 period
+### C++20 period
 
   * 2020: **C++20** ([ISO Store](https://www.iso.org/standard/79358.html)) (final draft [n4860 2020-03-31](https://wg21.link/n4860)) 
 
@@ -680,7 +680,7 @@ The major revision of the C++ standard after C++17
 
 This TS extends C++ with the facilities to inspect program entities such as variables, enumerations, classes and their members, lambdas and their captures, etc. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/history&action=edit&section=8 "Edit section: Future development")] Future development
+### Future development
 
   * [Experimental technical specifications](../experimental.html "cpp/experimental")
   * 2026: **C++** latest draft [n5008 (2025-03-15)](https://wg21.link/n5008)
@@ -691,12 +691,12 @@ This TS extends C++ with the facilities to inspect program entities such as vari
 
 The next major revision of the C++ standard 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/history&action=edit&section=9 "Edit section: See also")] See also
+### See also
 
 [C documentation](../../c/language/history.html "c/language/history") for History of C  
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/history&action=edit&section=10 "Edit section: External links")] External links
+### External links
 
 1\.  | [A History of C++: 1979-1991](https://www.stroustrup.com/hopl2.pdf)  
 ---|---  

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Type support](../../utility/rtti.html "cpp/types")
 
@@ -161,7 +161,7 @@ Runtime type information
 ---  
 [bad_cast](../bad_cast.html "cpp/types/bad cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/navbar_content&action=edit)
+
 
 [`std::numeric_limits`](../numeric_limits.html "cpp/types/numeric limits")
 
@@ -204,7 +204,7 @@ Helper types
 [float_round_style](float_round_style.html "cpp/types/numeric limits/float round style")  
 [float_denorm_style](float_denorm_style.html "cpp/types/numeric limits/float denorm style")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/navbar_content&action=edit)
+
 
 static const int min_exponent10; |  | (until C++11)  
 ---|---|---  
@@ -214,7 +214,7 @@ static constexpr int min_exponent10; |  |  (since C++11)
 The value of [std::numeric_limits](../numeric_limits.html)<T>::min_exponent10 is the lowest negative number n such that \\(\scriptsize 10^n\\)10n  
 is a valid normalized value of the floating-point type `T`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/numeric_limits/min_exponent10&action=edit&section=1 "Edit section: Standard specializations")] Standard specializations
+### Standard specializations
 
 `T` |  value of [std::numeric_limits](../numeric_limits.html)<T>::min_exponent10  
 ---|---  
@@ -239,7 +239,7 @@ float |  [FLT_MIN_10_EXP](../climits.html "cpp/types/climits")
 double |  [DBL_MIN_10_EXP](../climits.html "cpp/types/climits")  
 long double |  [LDBL_MIN_10_EXP](../climits.html "cpp/types/climits")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/numeric_limits/min_exponent10&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Demonstrates the relationships of [min_exponent](min_exponent.html "cpp/types/numeric limits/min exponent"), `min_exponent10`, [min()](min.html "cpp/types/numeric limits/min"), and [radix](radix.html "cpp/types/numeric limits/radix") for the type float:
 
@@ -267,12 +267,12 @@ Output:
     min() = 0x1p-126
     min_exponent = -125
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/numeric_limits/min_exponent10&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ min_exponent](min_exponent.html "cpp/types/numeric limits/min exponent")[static] |  one more than the smallest negative power of the radix that is a valid normalized floating-point value   
-(public static member constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/dsc_min_exponent&action=edit)  
+(public static member constant)   
 ---|---  
 [ max_exponent](max_exponent.html "cpp/types/numeric limits/max exponent")[static] |  one more than the largest integer power of the radix that is a valid finite floating-point value   
-(public static member constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/dsc_max_exponent&action=edit)  
+(public static member constant)   
 [ max_exponent10](max_exponent10.html "cpp/types/numeric limits/max exponent10")[static] |  the largest integer power of 10 that is a valid finite floating-point value   
-(public static member constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/dsc_max_exponent10&action=edit)
+(public static member constant) 

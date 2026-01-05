@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Function objects](../../../functional.html "cpp/utility/functional")
 
@@ -255,7 +255,7 @@ Identity function object
 [unary_negate](../unary_negate.html "cpp/utility/functional/unary negate")(until C++20*)  
 [binary_negate](../binary_negate.html "cpp/utility/functional/binary negate")(until C++20*)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/navbar_content&action=edit)
+
 
 [`std::function`](../function.html "cpp/utility/functional/function")
 
@@ -277,7 +277,7 @@ Identity function object
 [uses_allocator<std::function>](uses_allocator.html "cpp/utility/functional/function/uses allocator")(until C++17)  
 [Deduction guides](deduction_guides.html "cpp/utility/functional/function/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/function/navbar_content&action=edit)
+
 
 Defined in header `[<functional>](../../../header/functional.html "cpp/header/functional")` |  |   
 ---|---|---  
@@ -313,18 +313,18 @@ The `!=` operator is [synthesized](../../../language/default_comparisons.html#Ot
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/function/operator_cmp&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 f  |  \-  |  `std::function` to compare   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/function/operator_cmp&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1,2) !f
 
 3,4) (bool) f
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/function/operator_cmp&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -367,8 +367,8 @@ Output:
     7
     8
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/function/operator_cmp&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ operator==](../move_only_function/operator==.html "cpp/utility/functional/move only function/operator==")(C++23) |  compares a `std::move_only_function` with nullptr   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/move_only_function/dsc_operator%3D%3D&action=edit)  
+(function)   
 ---|---

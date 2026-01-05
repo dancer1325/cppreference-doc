@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Type support](../utility/rtti.html "cpp/types")
 
@@ -161,7 +161,7 @@ Runtime type information
 ---  
 [bad_cast](bad_cast.html "cpp/types/bad cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/navbar_content&action=edit)
+
 
 Defined in header `[<cstddef>](../header/cstddef.html "cpp/header/cstddef")` |  |   
 ---|---|---  
@@ -205,7 +205,7 @@ The bit width of `std::size_t` is not less than 16.  | (since C++11)
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/size_t&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 `std::size_t` can store the maximum size of a theoretically possible object of any type (including array). On many platforms (an exception is systems with segmented addressing) `std::size_t` can safely store the value of any non-member pointer, in which case it is synonymous with [std::uintptr_t](integer.html "cpp/types/integer"). 
 
@@ -218,11 +218,11 @@ It is unspecified whether the declaration of `std::size_t` is available in any o
 The [integer literal suffix](../language/integer_literal.html "cpp/language/integer literal") for `std::size_t` is any combination of `z` or `Z` with `u` or `U` (i.e. `zu`, `zU`, `Zu`, `ZU`, `uz`, `uZ`, `Uz`, or `UZ`).  | (since C++23)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/size_t&action=edit&section=2 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
 
 using size_t = decltype(sizeof 0);
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/size_t&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -256,7 +256,7 @@ Output:
     0 1 2 3 4 5 6 7 8 9
     9 8 7 6 5 4 3 2 1 0
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/size_t&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -269,7 +269,7 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/size_t&action=edit&section=5 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -425,12 +425,12 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/size_t&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ ptrdiff_t](ptrdiff_t.html "cpp/types/ptrdiff t") |  signed integer type returned when subtracting two pointers   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_ptrdiff_t&action=edit)  
+(typedef)   
 ---|---  
 [ offsetof](offsetof.html "cpp/types/offsetof") |  byte offset from the beginning of a [standard-layout](../named_req/StandardLayoutType.html "cpp/named req/StandardLayoutType") type to specified member   
-(function macro) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_offsetof&action=edit)  
-[integer literals ](../language/integer_literal.html "cpp/language/integer literal") |  binary,(since C++14) decimal, octal, or hexadecimal numbers of integer type[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_integer_literal&action=edit)  
+(function macro)   
+[integer literals ](../language/integer_literal.html "cpp/language/integer literal") |  binary,(since C++14) decimal, octal, or hexadecimal numbers of integer type  
 [C documentation](../../c/types/size_t.html "c/types/size t") for size_t

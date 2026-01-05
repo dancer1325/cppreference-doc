@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Ranges](../../ranges.html "cpp/experimental/ranges")
 
@@ -66,7 +66,7 @@
 [Ranges](../../ranges.html#Ranges "cpp/experimental/ranges")  
 [Algorithms](../../ranges.html#Algorithms "cpp/experimental/ranges")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/navbar_content&action=edit)
+
 
 [Iterators library](../../ranges.html#Iterators "cpp/experimental/ranges")
 
@@ -210,7 +210,7 @@ Stream iterators
 | [ostreambuf_iterator](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/iterator/ostreambuf_iterator&action=edit&redlink=1 "cpp/experimental/ranges/iterator/ostreambuf iterator \(page does not exist\)")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/iterator/navbar_content&action=edit)
+
 
 Defined in header `[<experimental/ranges/iterator>](../../../header/experimental/ranges/iterator.html "cpp/header/experimental/ranges/iterator")` |  |   
 ---|---|---  
@@ -237,7 +237,7 @@ Let `E` be an expression such that decltype((E)) is `T`, and o be a dereferencea
 
 o is not required to be dereferenceable after evaluating any of the assignment expressions above. If `E` is an xvalue, the resulting state of the object it denotes is valid but unspecified. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/equality_preservation&action=edit&section=T-1 "Template:cpp/experimental/ranges/equality preservation")] Equality preservation 
+### Equality preservation 
 
 An expression is _equality preserving_ if it results in equal outputs given equal inputs. 
 
@@ -248,7 +248,7 @@ An expression is _equality preserving_ if it results in equal outputs given equa
 
 Every expression required to be equality preserving is further required to be _stable_ : two evaluations of such an expression with the same input objects must have equal outputs absent any explicit intervening modification of those input objects. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/iterator/Writable&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 The only valid use of operator* is on the left side of an assignment expression. Assignment through the same value of a writable type may happen only once. 
 

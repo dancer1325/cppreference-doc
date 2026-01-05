@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Strings library](../../string.html "cpp/string")
 
@@ -40,7 +40,7 @@ Classes
 [basic_string_view](../basic_string_view.html "cpp/string/basic string view")(C++17)  
 [char_traits](../char_traits.html "cpp/string/char traits")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/navbar_content&action=edit)
+
 
 [`std::basic_string`](../basic_string.html "cpp/string/basic string")
 
@@ -133,7 +133,7 @@ basic_string_view](operator_basic_string_view.html "cpp/string/basic string/oper
 [hash<std::basic_string>](hash.html "cpp/string/basic string/hash")(C++11)  
 [Deduction guides](deduction_guides.html "cpp/string/basic string/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/navbar_content&action=edit)
+
 
 Defined in header `[<string>](../../header/string.html "cpp/header/string")` |  |   
 ---|---|---  
@@ -185,18 +185,18 @@ c) str.max_size() characters have been stored, in which case `getline` sets [`fa
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/getline&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 input  |  \-  |  the stream to get data from   
 ---|---|---  
 str  |  \-  |  the string to put the data into   
 delim  |  \-  |  the delimiter character   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/getline&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 input
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/getline&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 When consuming whitespace-delimited input (e.g. int n; [std::cin](../../io/cin.html) >> n;) any whitespace that follows, including a newline character, will be left on the input stream. Then when switching to line-oriented input, the first line retrieved with `getline` will be just that whitespace. In the likely case that this is unwanted behaviour, possible solutions include: 
 
@@ -206,7 +206,7 @@ When consuming whitespace-delimited input (e.g. int n; [std::cin](../../io/cin.h
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/getline&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 The following example demonstrates how to use the `getline` function to read user input, and to process a stream line by line, or by parts of a line using the delim parameter.
 
@@ -253,7 +253,7 @@ Possible output:
     c
     d
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/getline&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -261,8 +261,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 91](https://cplusplus.github.io/LWG/issue91) | C++98  | `getline` did not behave as an unformatted input function  | behaves as an unformatted input function   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/getline&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ getline](../../io/basic_istream/getline.html "cpp/io/basic istream/getline") |  extracts characters until the given character is found   
-(public member function of `std::basic_istream<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_istream/dsc_getline&action=edit)  
+(public member function of `std::basic_istream<CharT,Traits>`)   
 ---|---

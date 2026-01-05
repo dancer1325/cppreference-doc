@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::strstreambuf`](../strstreambuf.html "cpp/io/strstreambuf")
 
@@ -96,7 +96,7 @@ Protected member functions
 [strstreambuf::seekoff](seekoff.html "cpp/io/strstreambuf/seekoff")  
 [strstreambuf::seekpos](seekpos.html "cpp/io/strstreambuf/seekpos")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/strstreambuf/navbar_content&action=edit)
+
 
 protected:  
 virtual int_type overflow( int_type c = [EOF](../c.html) ); |  |  (deprecated in C++98)   
@@ -124,16 +124,16 @@ Appends the character c to the put area of the buffer, reallocating if possible.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/strstreambuf/overflow&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 c  |  \-  |  the character to store in the put area   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/strstreambuf/overflow&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 If c == [EOF](../c.html), returns some value other than [EOF](../c.html). Otherwise, returns (unsigned char)(c) on success, [EOF](../c.html "cpp/io/c") on failure. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/strstreambuf/overflow&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -173,16 +173,16 @@ Possible output:
     Before overflow(): size of the put area is 64 with 0 write positions available
     After overflow(): size of the put area is 128 with 63 write positions available
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/strstreambuf/overflow&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ overflow](../basic_streambuf/overflow.html "cpp/io/basic streambuf/overflow")[virtual] |  writes characters to the associated output sequence from the put area   
-(virtual protected member function of `std::basic_streambuf<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_streambuf/dsc_overflow&action=edit)  
+(virtual protected member function of `std::basic_streambuf<CharT,Traits>`)   
 ---|---  
 [ overflow](../basic_stringbuf/overflow.html "cpp/io/basic stringbuf/overflow")[virtual] |  appends a character to the output sequence   
-(virtual protected member function of `std::basic_stringbuf<CharT,Traits,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_stringbuf/dsc_overflow&action=edit)  
+(virtual protected member function of `std::basic_stringbuf<CharT,Traits,Allocator>`)   
 [ overflow](../basic_filebuf/overflow.html "cpp/io/basic filebuf/overflow")[virtual] |  writes characters to the associated file from the put area   
-(virtual protected member function of `std::basic_filebuf<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_filebuf/dsc_overflow&action=edit)  
+(virtual protected member function of `std::basic_filebuf<CharT,Traits>`)   
 [ sputc](../basic_streambuf/sputc.html "cpp/io/basic streambuf/sputc") |  writes one character to the put area and advances the next pointer   
-(public member function of `std::basic_streambuf<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_streambuf/dsc_sputc&action=edit)  
+(public member function of `std::basic_streambuf<CharT,Traits>`)   
 [ put](../basic_ostream/put.html "cpp/io/basic ostream/put") |  inserts a character   
-(public member function of `std::basic_ostream<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ostream/dsc_put&action=edit)
+(public member function of `std::basic_ostream<CharT,Traits>`) 

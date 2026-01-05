@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Ranges](../../ranges.html "cpp/experimental/ranges")
 
@@ -66,7 +66,7 @@
 [Ranges](../../ranges.html#Ranges "cpp/experimental/ranges")  
 [Algorithms](../../ranges.html#Algorithms "cpp/experimental/ranges")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/navbar_content&action=edit)
+
 
 [Iterators library](../../ranges.html#Iterators "cpp/experimental/ranges")
 
@@ -210,7 +210,7 @@ Stream iterators
 | [ostreambuf_iterator](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/iterator/ostreambuf_iterator&action=edit&redlink=1 "cpp/experimental/ranges/iterator/ostreambuf iterator \(page does not exist\)")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/iterator/navbar_content&action=edit)
+
 
 Defined in header `[<experimental/ranges/iterator>](../../../header/experimental/ranges/iterator.html "cpp/header/experimental/ranges/iterator")` |  |   
 ---|---|---  
@@ -255,29 +255,29 @@ Computes the associated value type of the type `I`, if any. Users may specialize
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/iterator/value_type&action=edit&section=1 "Edit section: Helper alias template")] Helper alias template
+### Helper alias template
 
 template< class T >   
 using value_type_t = typename ranges::value_type<T>::type; |  |  (ranges TS)  
 ---|---|---  
 | |   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/iterator/value_type&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 If a type contains both a `value_type` member and a `element_type` member, then the specializations (5) and (6) are ambiguous. 
 
 `value_type` is intended for use with [`Readable`](Readable.html "cpp/experimental/ranges/iterator/Readable") types such as iterators. It is not intended for use with ranges. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/iterator/value_type&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/iterator/value_type&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ Readable](Readable.html "cpp/experimental/ranges/iterator/Readable") |  specifies that a type is readable by applying operator `*`   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/iterator/dsc_Readable&action=edit)  
+(concept)   
 ---|---  
 [ iterator_traits](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/iterator/iterator_traits&action=edit&redlink=1 "cpp/experimental/ranges/iterator/iterator traits \(page does not exist\)") |  compatibility traits class that collects an iterator’s associated types  
-(alias template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/iterator/dsc_iterator_traits&action=edit)
+(alias template)

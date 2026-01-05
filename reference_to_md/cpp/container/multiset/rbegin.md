@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::multiset`](../multiset.html "cpp/container/multiset")
 
@@ -133,7 +133,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/multiset/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/multiset/navbar_content&action=edit)
+
 
 reverse_iterator rbegin(); |  (1) | (noexcept since C++11)   
 (constexpr since C++26)  
@@ -161,15 +161,15 @@ If *this is empty, the returned iterator is equal to [rend()](rend.html "cpp/con
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/rbegin&action=edit&section=T-1 "Template:cpp/container/rbegin")] Return value
+### Return value
 
 Reverse iterator to the first element. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/rbegin&action=edit&section=T-2 "Template:cpp/container/rbegin")] Complexity
+### Complexity
 
 Constant. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/rbegin&action=edit&section=T-3 "Template:cpp/container/rbegin")] Notes
+### Notes
 
 Because both `iterator` and `const_iterator` are constant iterators (and may in fact be the same type), it is not possible to mutate the elements of the container through an iterator returned by any of these member functions. 
 
@@ -177,7 +177,7 @@ The [underlying iterator](../../iterator/reverse_iterator/base.html "cpp/iterato
 
 libc++ backports `crbegin()` to C++98 mode.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/rbegin&action=edit&section=T-4 "Template:cpp/container/rbegin")] Example
+### Example
 
 Run this code
     
@@ -209,10 +209,10 @@ Output:
     ⏼
     ⏼
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/rbegin&action=edit&section=T-5 "Template:cpp/container/rbegin")] See also
+### See also
 
 [ rendcrend](rend.html "cpp/container/multiset/rend")(C++11) |  returns a reverse iterator to the end   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_rend&action=edit)  
+(public member function)   
 ---|---  
 [ rbegincrbegin](../../iterator/rbegin.html "cpp/iterator/rbegin")(C++14) |  returns a reverse iterator to the beginning of a container or array   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_rbegin&action=edit)
+(function template) 

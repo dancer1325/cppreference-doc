@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](empty.html "cpp/iterator/empty")(C++17)  
 [data](data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 **`std::ostream_iterator`**
 
@@ -206,7 +206,7 @@ Member functions
 [ostream_iterator::operator*](ostream_iterator/operator*.html "cpp/iterator/ostream iterator/operator*")  
 [ostream_iterator::operator++ostream_iterator::operator++(int)](ostream_iterator/operator_arith.html "cpp/iterator/ostream iterator/operator arith")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/ostream_iterator/navbar_content&action=edit)
+
 
 Defined in header `[<iterator>](../header/iterator.html "cpp/header/iterator")` |  |   
 ---|---|---  
@@ -237,7 +237,7 @@ When writing characters, [std::ostreambuf_iterator](ostreambuf_iterator.html "cp
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/iterator/inherit&action=edit&section=T-1 "Template:cpp/iterator/iterator/inherit")] Member types
+### Member types
 
 Member type  |  Definition   
 ---|---  
@@ -254,21 +254,21 @@ Member type  |  Definition
 Member types `iterator_category`, `value_type`, `difference_type`, `pointer` and `reference` are required to be obtained by inheriting from [std::iterator](iterator.html)<[std::output_iterator_tag](iterator_tags.html), void, void, void, void>.  | (until C++17)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/ostream_iterator&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](ostream_iterator/ostream_iterator.html "cpp/iterator/ostream iterator/ostream iterator") |  constructs a new ostream_iterator   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/ostream_iterator/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ (destructor)](ostream_iterator/~ostream_iterator.html "cpp/iterator/ostream iterator/~ostream iterator") |  destructs an `ostream_iterator`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/ostream_iterator/dsc_destructor&action=edit)  
+(public member function)   
 [ operator=](ostream_iterator/operator=.html "cpp/iterator/ostream iterator/operator=") |  writes an object to the associated output sequence   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/ostream_iterator/dsc_operator%3D&action=edit)  
+(public member function)   
 [ operator*](ostream_iterator/operator*.html "cpp/iterator/ostream iterator/operator*") |  no-op   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/ostream_iterator/dsc_operator*&action=edit)  
+(public member function)   
 [ operator++operator++(int)](ostream_iterator/operator_arith.html "cpp/iterator/ostream iterator/operator arith") |  no-op   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/ostream_iterator/dsc_operator_arith&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/ostream_iterator&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -293,12 +293,12 @@ Output:
     
     0.11, 0.33, 0.66, 1.1,
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/ostream_iterator&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ ostreambuf_iterator](ostreambuf_iterator.html "cpp/iterator/ostreambuf iterator") |  output iterator that writes to [std::basic_streambuf](../io/basic_streambuf.html "cpp/io/basic streambuf")   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_ostreambuf_iterator&action=edit)  
+(class template)   
 ---|---  
 [ istream_iterator](istream_iterator.html "cpp/iterator/istream iterator") |  input iterator that reads from [std::basic_istream](../io/basic_istream.html "cpp/io/basic istream")   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_istream_iterator&action=edit)  
+(class template)   
 [ std::experimental::ostream_joiner](../experimental/ostream_joiner.html "cpp/experimental/ostream joiner")(library fundamentals TS v2) |  an output iterator that writes successive elements into an output stream, separating adjacent elements with a delimiter   
 (class template)

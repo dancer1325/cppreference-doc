@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 `[std::unordered_multimap](../unordered_multimap.html "cpp/container/unordered multimap")`
 
@@ -135,7 +135,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/unordered multimap/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/unordered_multimap/navbar_content&action=edit)
+
 
 template< class Key, class T, class Hash, class KeyEqual, class Alloc >  
 bool operator==( const [std::unordered_multimap](../unordered_multimap.html)<Key, T, Hash, KeyEqual, Alloc>& lhs,  
@@ -169,17 +169,17 @@ The behavior is also undefined if `hash_function()` and `key_eq()` do(until C++2
 The `!=` operator is [synthesized](../../language/default_comparisons.html#Other_defaulted_comparison_operators "cpp/language/default comparisons") from `operator==`.  | (since C++20)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/operator_cmp_unord&action=edit&section=T-1 "Template:cpp/container/operator cmp unord")] Parameters
+### Parameters
 
 lhs, rhs  |  \-  |  unordered containers to compare   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/operator_cmp_unord&action=edit&section=T-2 "Template:cpp/container/operator cmp unord")] Return value
+### Return value
 
 1) true if the contents of the containers are equal, false otherwise.
 
 2) true if the contents of the containers are not equal, false otherwise.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/operator_cmp_unord&action=edit&section=T-3 "Template:cpp/container/operator cmp unord")] Complexity
+### Complexity
 
 Proportional to _ΣS i2_ calls to operator== on `value_type`, calls to the predicate returned by [`key_eq`](key_eq.html "cpp/container/unordered multimap/key eq"), and calls to the hasher returned by [`hash_function`](hash_function.html "cpp/container/unordered multimap/hash function") in the average case, where _S_ is the size of the _i_ th equivalent key group. Proportional to _N 2_ in the worst case, where _N_ is the size of the container. Average case becomes proportional to _N_ if the elements within each equivalent key group are arranged in the same order (happens when the containers are copies of each other). 

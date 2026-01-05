@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 Defined in header `[<compare>](../../header/compare.html "cpp/header/compare")` |  |   
 ---|---|---  
@@ -166,23 +166,23 @@ Specifically, these functions return
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/compare/named_comparison_functions&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 cmp  |  \-  |  result of 3-way comparison   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/compare/named_comparison_functions&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 bool result of the corresponding relational operation 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/compare/named_comparison_functions&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/compare/named_comparison_functions&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ partial_ordering](partial_ordering.html "cpp/utility/compare/partial ordering")(C++20) |  the result type of 3-way comparison that supports all 6 operators, is not substitutable, and allows incomparable values   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/compare/dsc_partial_ordering&action=edit)  
+(class)   
 ---|---

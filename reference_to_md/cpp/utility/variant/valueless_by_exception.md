@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::variant`](../variant.html "cpp/utility/variant")
 
@@ -161,7 +161,7 @@ Common vocabulary types
 [Helper objects](../variant.html#Helper_objects "cpp/utility/variant")  
 [variant_npos](variant_npos.html "cpp/utility/variant/variant npos")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variant/navbar_content&action=edit)
+
 
 constexpr bool valueless_by_exception() const noexcept; |  |  (since C++17)  
 ---|---|---  
@@ -169,7 +169,7 @@ constexpr bool valueless_by_exception() const noexcept; |  |  (since C++17)
   
 Returns false if and only if the variant holds a value. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variant/valueless_by_exception&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 A variant may become valueless when initializing the contained value in the following situations: 
 
@@ -200,7 +200,7 @@ A variant that is _valueless by exception_ — that is, has no value due to a pr
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variant/valueless_by_exception&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -260,12 +260,12 @@ Possible output:
     1) Exception: copy ctor
     2) Exception: std::get: variant is valueless
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variant/valueless_by_exception&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ get(std::variant)](get.html "cpp/utility/variant/get")(C++17) |  reads the value of the variant given the index or the type (if the type is unique), throws on error   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variant/dsc_get&action=edit)  
+(function template)   
 ---|---  
 [ index](index.html "cpp/utility/variant/index") |  returns the zero-based index of the alternative held by the `variant`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variant/dsc_index&action=edit)  
+(public member function)   
 [ bad_variant_access](bad_variant_access.html "cpp/utility/variant/bad variant access")(C++17) |  exception thrown on invalid accesses to the value of a `variant`   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variant/dsc_bad_variant_access&action=edit)
+(class) 

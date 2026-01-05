@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](copy.html "cpp/algorithm/ranges/co
 [uninitialized_default_construct_n](../../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 [Constrained algorithms](../ranges.html "cpp/algorithm/ranges")
 
@@ -550,7 +550,7 @@ All names in this menu belong to namespace `std::ranges`
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -618,7 +618,7 @@ The function-like entities described on this page are [_algorithm function objec
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/ends_with&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first1, last1  |  \-  |  the iterator-sentinel pair defining the [range](../../iterator.html#Ranges "cpp/iterator") of elements to examine   
 ---|---|---  
@@ -629,17 +629,17 @@ pred  |  \-  |  the binary predicate that compares the projected elements
 proj1  |  \-  |  the projection to apply to the elements of the range to examine   
 proj2  |  \-  |  the projection to apply to the elements of the range to be used as the suffix   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/ends_with&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 true if the second range matches the suffix of the first range, false otherwise. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/ends_with&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Generally linear: at most \\(\scriptsize \min(N1,N2) \\)min(N1,N2) applications of the predicate and both projections. The predicate and both projections are not applied if N1 < N2 is true. 
 
 If both N1 and N2 can be calculated in constant time (i.e. both iterator-sentinel type pairs model [`sized_sentinel_for`](../../iterator/sized_sentinel_for.html "cpp/iterator/sized sentinel for"), or both range types model [`sized_range`](../../ranges/sized_range.html "cpp/ranges/sized range")) and N1 < N2 is true, the time complexity is constant. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/ends_with&action=edit&section=4 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     struct ends_with_fn
@@ -689,13 +689,13 @@ If both N1 and N2 can be calculated in constant time (i.e. both iterator-sentine
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/ends_with&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../../utility/feature_test.html "cpp/utility/feature test") macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_ranges_starts_ends_with`](../../experimental/feature_test.html#cpp_lib_ranges_starts_ends_with "cpp/feature test") | [`202106L`](../../compiler_support/23.html#cpp_lib_ranges_starts_ends_with_202106L "cpp/compiler support/23") | (C++23) | std::ranges::starts_with, `std::ranges::ends_with`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/ends_with&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -716,7 +716,7 @@ Run this code
      
     int main() {}
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/ends_with&action=edit&section=7 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -730,14 +730,14 @@ N1 - static_cast<decltype(N1)>(N2)
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/ends_with&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [ ranges::starts_with](starts_with.html "cpp/algorithm/ranges/starts with")(C++23) |  checks whether a range starts with another range  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_starts_with&action=edit)  
+(algorithm function object)  
 ---|---  
 [ ends_with](../../string/basic_string/ends_with.html "cpp/string/basic string/ends with")(C++20) |  checks if the string ends with the given suffix   
-(public member function of `std::basic_string<CharT,Traits,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_ends_with&action=edit)  
+(public member function of `std::basic_string<CharT,Traits,Allocator>`)   
 [ ends_with](../../string/basic_string_view/ends_with.html "cpp/string/basic string view/ends with")(C++20) |  checks if the string view ends with the given suffix   
-(public member function of `std::basic_string_view<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/dsc_ends_with&action=edit)
+(public member function of `std::basic_string_view<CharT,Traits>`) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

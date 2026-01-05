@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Strings library](../../string.html "cpp/string")
 
@@ -40,7 +40,7 @@ Classes
 [basic_string_view](../basic_string_view.html "cpp/string/basic string view")(C++17)  
 [char_traits](../char_traits.html "cpp/string/char traits")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/navbar_content&action=edit)
+
 
 [`std::basic_string_view`](../basic_string_view.html "cpp/string/basic string view")
 
@@ -92,7 +92,7 @@ Constants
 [hash<std::string_view>hash<std::wstring_view>hash<std::u8string_view>hash<std::u16string_view>hash<std::u32string_view>](hash.html "cpp/string/basic string view/hash")(C++20)  
 [Deduction guides](deduction_guides.html "cpp/string/basic string view/deduction guides") (C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/navbar_content&action=edit)
+
 
 constexpr int compare( basic_string_view v ) const noexcept; |  (1)  |  (since C++17)  
 ---|---|---  
@@ -140,7 +140,7 @@ Condition  | Result  | Return value
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string_view/compare&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 v  |  \-  |  view to compare   
 ---|---|---  
@@ -150,15 +150,15 @@ pos1  |  \-  |  position of the first character in this view to compare
 count2  |  \-  |  number of characters of the given view to compare   
 pos2  |  \-  |  position of the first character of the given view to compare   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string_view/compare&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Negative value if this view is less than the other character sequence, zero if the both character sequences are equal, positive value if this view is greater than the other character sequence. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string_view/compare&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 1) Linear in the number of characters compared. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string_view/compare&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -174,10 +174,10 @@ Run this code
         static_assert(""sv.compare(""sv) == 0);
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string_view/compare&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ compare](../basic_string/compare.html "cpp/string/basic string/compare") |  compares two strings   
-(public member function of `std::basic_string<CharT,Traits,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_compare&action=edit)  
+(public member function of `std::basic_string<CharT,Traits,Allocator>`)   
 ---|---  
 [ operator==operator!=operator<operator>operator<=operator>=operator<=>](operator_cmp.html "cpp/string/basic string view/operator cmp")(C++17)(removed in C++20)(removed in C++20)(removed in C++20)(removed in C++20)(removed in C++20)(C++20) |  lexicographically compares two string views   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/dsc_operator_cmp&action=edit)
+(function template) 

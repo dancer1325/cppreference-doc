@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](../empty.html "cpp/iterator/empty")(C++17)  
 [data](../data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 [`std::basic_const_iterator`](../basic_const_iterator.html "cpp/iterator/basic const iterator")
 
@@ -215,7 +215,7 @@
 [Helper classes](../basic_const_iterator.html#Helper_classes "cpp/iterator/basic const iterator")  
 [common_type<std::basic_const_iterator>](common_type.html "cpp/iterator/basic const iterator/common type")(C++23)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/basic_const_iterator/navbar_content&action=edit)
+
 
 template< [std::sized_sentinel_for](../sized_sentinel_for.html)<Iter> S >  
 constexpr difference_type operator-( const S& s ) const; |  (1)  |  (since C++23)  
@@ -230,18 +230,18 @@ Returns the distance between `basic_const_iterator` and its sentinel.
 
 S satisfies the exposition-only concept /*not-a-const-iterator*/ if and only if it's not a specialization of `basic_const_iterator`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/basic_const_iterator/operator-&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 i, s  |  \-  |  iterator and sentinel to compute the difference of   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/basic_const_iterator/operator-&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) base() - s
 
 2) s - i.base()
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/basic_const_iterator/operator-&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

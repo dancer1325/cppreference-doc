@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 `[std::unordered_multiset](../unordered_multiset.html "cpp/container/unordered multiset")`
 
@@ -135,7 +135,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/unordered multiset/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/unordered_multiset/navbar_content&action=edit)
+
 
 key_equal key_eq() const; |  |  (since C++11)  
 ---|---|---  
@@ -153,20 +153,20 @@ Returns the function that compares keys for equality.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/key_eq&action=edit&section=T-1 "Template:cpp/container/key eq")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/key_eq&action=edit&section=T-2 "Template:cpp/container/key eq")] Return value
+### Return value
 
 The key comparison function. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/key_eq&action=edit&section=T-3 "Template:cpp/container/key eq")] Complexity
+### Complexity
 
 Constant. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/key_eq&action=edit&section=T-4 "Template:cpp/container/key eq")] See also
+### See also
 
 [ hash_function](hash_function.html "cpp/container/unordered multiset/hash function") |  returns function used to hash the keys   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_hash_function&action=edit)  
+(public member function)   
 ---|---

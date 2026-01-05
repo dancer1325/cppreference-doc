@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::scoped_allocator_adaptor`](../scoped_allocator_adaptor.html "cpp/memory/scoped allocator adaptor")
 
@@ -208,7 +208,7 @@ Non-member functions
 [operator==operator!=](operator_cmp.html "cpp/memory/scoped allocator adaptor/operator cmp")(until C++20)  
 [Deduction guides](deduction_guides.html "cpp/memory/scoped allocator adaptor/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/scoped_allocator_adaptor/navbar_content&action=edit)
+
 
 Defined in header `[<scoped_allocator>](../../header/scoped_allocator.html "cpp/header/scoped allocator")` |  |   
 ---|---|---  
@@ -222,19 +222,19 @@ Uses the outer allocator to call the destructor of the object pointed to by p, b
 
 where OUTERMOST is the type that would be returned by calling this->outer_allocator(), and then calling the `outer_allocator()` member function recursively on the result of this call until reaching the type that has no such member function. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/scoped_allocator_adaptor/destroy&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 p  |  \-  |  pointer to the object that is going to be destroyed   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/scoped_allocator_adaptor/destroy&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/scoped_allocator_adaptor/destroy&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ destroy](../allocator_traits/destroy.html "cpp/memory/allocator traits/destroy")[static] |  destructs an object stored in the allocated storage   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/allocator_traits/dsc_destroy&action=edit)  
+(function template)   
 ---|---  
 [ destroy](../allocator/destroy.html "cpp/memory/allocator/destroy")(until C++20) |  destructs an object in allocated storage   
-(public member function of `std::allocator<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/allocator/dsc_destroy&action=edit)
+(public member function of `std::allocator<T>`) 

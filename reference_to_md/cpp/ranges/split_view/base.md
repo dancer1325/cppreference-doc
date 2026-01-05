@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::split_view`](../split_view.html "cpp/ranges/split view")
 
@@ -240,7 +240,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
 [split_view::_sentinel_](sentinel.html "cpp/ranges/split view/sentinel")  
 [Deduction guides](deduction_guides.html "cpp/ranges/split view/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/split_view/navbar_content&action=edit)
+
 
 constexpr V base() const& requires [std::copy_constructible](../../concepts/copy_constructible.html)<V>; |  (1)  |  (since C++20)  
 ---|---|---  
@@ -263,13 +263,13 @@ Returns a copy of the underlying view `_[base_](../split_view.html#base "cpp/ran
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/split_view/base&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 1) A copy of the underlying view.
 
 2) A view move-constructed from the underlying view.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/split_view/base&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -296,7 +296,7 @@ Output:
     base() = "this throw true try typedef typeid"
     substrings: "this" "throw" "true" "try" "typedef" "typeid"
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/split_view/base&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -304,8 +304,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 3590](https://cplusplus.github.io/LWG/issue3590) | C++20  | the const& overload additionally required validity of copy-assignment  | constraints relaxed   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/split_view/base&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ base](../lazy_split_view/base.html "cpp/ranges/lazy split view/base") |  returns a copy of the underlying (adapted) view   
-(public member function of `std::ranges::lazy_split_view<V,Pattern>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/dsc_base&action=edit)  
+(public member function of `std::ranges::lazy_split_view<V,Pattern>`)   
 ---|---

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_ios`](../basic_ios.html "cpp/io/basic ios")
 
@@ -111,7 +111,7 @@ Protected member functions
 **basic_ios::swap**(C++11)  
 [basic_ios::set_rdbuf](set_rdbuf.html "cpp/io/basic ios/set rdbuf")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ios/navbar_content&action=edit)
+
 
 protected:  
 void swap( basic_ios& other ) noexcept; |  |  (since C++11)  
@@ -122,13 +122,13 @@ Exchanges the states of *this and other, except for the associated `rdbuf` objec
 
 This swap function is protected: it is called by the swap member functions of the derived stream classes such as [std::basic_ofstream](../basic_ofstream.html "cpp/io/basic ofstream") or [std::basic_istringstream](../basic_istringstream.html "cpp/io/basic istringstream"), which know how to correctly swap the associated stream buffers. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_ios/swap&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 other  |  \-  |  the `basic_ios` object to exchange the state with   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_ios/swap&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ move](move.html "cpp/io/basic ios/move")(C++11) |  moves from another [std::basic_ios](../basic_ios.html "cpp/io/basic ios") except for `rdbuf`   
-(protected member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ios/dsc_move&action=edit)  
+(protected member function)   
 ---|---

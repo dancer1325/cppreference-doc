@@ -30,7 +30,7 @@
 [Symbols index](symbol_index.html "cpp/symbol index")  
 [External libraries](links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](language.html "cpp/language")
 
@@ -220,13 +220,13 @@ Miscellaneous
 | [History of C++](language/history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 "No diagnostic required" indicates that some phraseology is ill-formed according to the language rules, but a compiler need not issue any diagnostic or error message. Usually, the reason is that trying to detect these situations would result in prohibitively long compile times. 
 
 If such a program is executed, [the behavior is undefined](language/ub.html "cpp/language/ub"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/ndr&action=edit&section=1 "Edit section: See also")] See also
+### See also
 
 [C documentation](../c/language/ndr.html "c/language/ndr") for No Diagnostic Required  
 ---

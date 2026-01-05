@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Metaprogramming library](../meta.html "cpp/meta")
 
@@ -167,7 +167,7 @@ Type transformations
 Compile-time integer sequences  
 [integer_sequence](../utility/integer_sequence.html "cpp/utility/integer sequence")(C++14)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/meta/navbar_content&action=edit)
+
 
 Defined in header `[<type_traits>](../header/type_traits.html "cpp/header/type traits")` |  |   
 ---|---|---  
@@ -197,19 +197,19 @@ If the program adds specializations for `std::is_unbounded_array` or `std::is_un
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/traits/is&action=edit&section=T-1 "Template:cpp/types/traits/is")] Template parameters
+### Template parameters
 
 T  |  \-  |  a type to check   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/traits/is&action=edit&section=T-2 "Template:cpp/types/traits/is")] Helper variable template
+### Helper variable template
 
 template< class T >  
 constexpr bool is_unbounded_array_v = is_unbounded_array<T>::value; |  |  (since C++20)  
 ---|---|---  
 | |   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/integral_constant/inherit2&action=edit)
+
 
 ##  Inherited from [ std::integral_constant](integral_constant.html "cpp/types/integral constant")
 
@@ -234,7 +234,7 @@ Type  |  Definition
 `value_type` |  bool  
 `type` |  [std::integral_constant](integral_constant.html)<bool, value>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_unbounded_array&action=edit&section=1 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     template<class T>
@@ -245,13 +245,13 @@ Type  |  Definition
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_unbounded_array&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../utility/feature_test.html "cpp/utility/feature test") macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_bounded_array_traits`](../experimental/feature_test.html#cpp_lib_bounded_array_traits "cpp/feature test") | [`201902L`](../compiler_support/20.html#cpp_lib_bounded_array_traits_201902L "cpp/compiler support/20") | (C++20) | [std::is_bounded_array](is_bounded_array.html "cpp/types/is bounded array"), `std::is_unbounded_array`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_unbounded_array&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -273,14 +273,14 @@ Run this code
      
     int main() {}
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_unbounded_array&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ is_array](is_array.html "cpp/types/is array")(C++11) |  checks if a type is an array type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_array&action=edit)  
+(class template)   
 ---|---  
 [ is_bounded_array](is_bounded_array.html "cpp/types/is bounded array")(C++20) |  checks if a type is an array type of known bound   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_bounded_array&action=edit)  
+(class template)   
 [ extent](extent.html "cpp/types/extent")(C++11) |  obtains the size of an array type along a specified dimension   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_extent&action=edit)
+(class template) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

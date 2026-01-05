@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [Input/output manipulators](../manip.html "cpp/io/manip")
 
@@ -154,7 +154,7 @@ Time and money I/O
 Quoted manipulator  
 [quoted](quoted.html "cpp/io/manip/quoted")(C++14)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/navbar_content&action=edit)
+
 
 Defined in header `[<iomanip>](../../header/iomanip.html "cpp/header/iomanip")` |  |   
 ---|---|---  
@@ -175,13 +175,13 @@ When used in an expression out << put_time(tmb, fmt), converts the date and time
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/put_time&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 tmb  |  \-  |  pointer to the calendar time structure as obtained from [std::localtime](../../chrono/c/localtime.html "cpp/chrono/c/localtime") or [std::gmtime](../../chrono/c/gmtime.html "cpp/chrono/c/gmtime")  
 ---|---|---  
 fmt  |  \-  |  pointer to a null-terminated `CharT` string specifying the [format of conversion](put_time.html#Format_string)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/put_time&action=edit&section=2 "Edit section: Format string")] Format string
+### Format string
 
 The format string consists of zero or more conversion specifiers and ordinary characters (except `%`). All ordinary characters, including the terminating null character, are copied to the output string without modification. Each conversion specification begins with `%` character, optionally followed by `E` or `O` modifier (ignored if unsupported by the locale), followed by the character that determines the behavior of the specifier. The following format specifiers are available: 
 
@@ -301,7 +301,7 @@ Other
 (C++11) |  writes **offset from UTC** in the ISO 8601 format (e.g. `-0430`), or no characters if the time zone information is not available  |  `**tm_isdst**`  
 `Z` |  writes locale-dependent **time zone name or abbreviation** , or no characters if the time zone information is not available  |  `**tm_isdst**`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/put_time&action=edit&section=3 "Edit section: Return value")] Return value
+### Return value
 
 An object of unspecified type such that 
 
@@ -329,7 +329,7 @@ where the function f is defined as:
             str.setstate([std::ios_base::badbit](../ios_base/iostate.html));
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/put_time&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -356,14 +356,14 @@ Possible output:
     ru_RU: Ср. 28 дек. 2011 10:21:16 EST
     ja_JP: 2011年12月28日 10時21分16秒 EST
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/put_time&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ time_put](../../locale/time_put.html "cpp/locale/time put") |  formats contents of [std::tm](../../chrono/c/tm.html "cpp/chrono/c/tm") for output as character sequence   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_time_put&action=edit)  
+(class template)   
 ---|---  
 [ get_time](get_time.html "cpp/io/manip/get time")(C++11) |  parses a date/time value of specified format   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_get_time&action=edit)  
+(function template)   
 [ strftime](../../chrono/c/strftime.html "cpp/chrono/c/strftime") |  converts a [std::tm](../../chrono/c/tm.html "cpp/chrono/c/tm") object to custom textual representation   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/c/dsc_strftime&action=edit)  
+(function)   
 [ wcsftime](../../chrono/c/wcsftime.html "cpp/chrono/c/wcsftime") |  converts a [std::tm](../../chrono/c/tm.html "cpp/chrono/c/tm") object to custom wide string textual representation   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/c/dsc_wcsftime&action=edit)
+(function) 

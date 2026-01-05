@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [C-style date and time utilities](../c.html "cpp/chrono/c")
 
@@ -128,7 +128,7 @@ Types
 [clock_t](clock_t.html "cpp/chrono/c/clock t")  
 **timespec**(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/c/navbar_content&action=edit)
+
 
 Defined in header `[<ctime>](../../header/ctime.html "cpp/header/ctime")` |  |   
 ---|---|---  
@@ -147,7 +147,7 @@ Structure holding an interval broken down into seconds and nanoseconds.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/c/timespec&action=edit&section=1 "Edit section: Data members")] Data members
+### Data members
 
 Member  |  Description   
 ---|---  
@@ -158,11 +158,11 @@ long `tv_nsec` |  nanoseconds, the value is in range `[`​0​`, `999999999`]`
   
 The declaration order of `tv_sec` and `tv_nsec` is unspecified. Implementation may add other data members to `timespec`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/c/timespec&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 The type of `tv_nsec` is long long on some platforms, which is currently non-conforming in C++, but is allowed in C since C23. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/c/timespec&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -192,11 +192,11 @@ Possible output:
     Raw timespec.tv_sec: 1680782611
     Raw timespec.tv_nsec: 678437213
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/c/timespec&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ timespec_get](timespec_get.html "cpp/chrono/c/timespec get")(C++17) |  returns the calendar time in seconds and nanoseconds based on a given time base   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/c/dsc_timespec_get&action=edit)  
+(function)   
 ---|---  
 [ tm](tm.html "cpp/chrono/c/tm") |  calendar time type   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/c/dsc_tm&action=edit)  
+(class)   
 [C documentation](../../../c/chrono/timespec.html "c/chrono/timespec") for timespec

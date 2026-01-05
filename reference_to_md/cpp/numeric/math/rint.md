@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [Common mathematical functions](../math.html "cpp/numeric/math")
 
@@ -230,7 +230,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/navbar_content&action=edit)
+
 
 Defined in header `[<cmath>](../../header/cmath.html "cpp/header/cmath")` |  |   
 ---|---|---  
@@ -289,16 +289,16 @@ A-C) Additional overloads are provided for all integer types, which are treated 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/rint&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 num  |  \-  |  floating-point or integer value   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/rint&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 If no errors occur, the nearest integer value to num, according to the [current rounding mode](../fenv/FE_round.html "cpp/numeric/fenv/FE round"), is returned. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/rint&action=edit&section=3 "Edit section: Error handling")] Error handling
+### Error handling
 
 Errors are reported as specified in [math_errhandling](math_errhandling.html "cpp/numeric/math/math errhandling"). 
 
@@ -322,7 +322,7 @@ If the implementation supports IEEE floating-point arithmetic (IEC 60559),
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/rint&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 [POSIX specifies](https://pubs.opengroup.org/onlinepubs/9699919799/functions/lrint.html) that all cases where `std::lrint` or `std::llrint` raise [FE_INEXACT](../fenv/FE_exceptions.html "cpp/numeric/fenv/FE exceptions") are domain errors. 
 
@@ -349,7 +349,7 @@ The additional overloads are not required to be provided exactly as (A-C). They 
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/rint&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -437,13 +437,13 @@ Possible output:
     std::lrint(LONG_MIN-2048.0) = 0x8000000000000000
       FE_INVALID was raised
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/rint&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ trunctruncftruncl](trunc.html "cpp/numeric/math/trunc")(C++11)(C++11)(C++11) |  nearest integer not greater in magnitude than the given value   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_trunc&action=edit)  
+(function)   
 ---|---  
 [ nearbyintnearbyintfnearbyintl](nearbyint.html "cpp/numeric/math/nearbyint")(C++11)(C++11)(C++11) |  nearest integer using current rounding mode   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_nearbyint&action=edit)  
+(function)   
 [ fegetroundfesetround](../fenv/feround.html "cpp/numeric/fenv/feround")(C++11)(C++11) |  gets or sets rounding direction   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/fenv/dsc_feround&action=edit)  
+(function)   
 [C documentation](../../../c/numeric/math/rint.html "c/numeric/math/rint") for rint

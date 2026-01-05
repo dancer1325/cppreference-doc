@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::year_month_weekday`](../year_month_weekday.html "cpp/chrono/year month weekday")
 
@@ -120,7 +120,7 @@ Helper classes
 [formatter<std::chrono::year_month_weekday>](formatter.html "cpp/chrono/year month weekday/formatter")  
 [hash<std::chrono::year_month_weekday>](hash.html "cpp/chrono/year month weekday/hash")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/year_month_weekday/navbar_content&action=edit)
+
 
 year_month_weekday() = default; |  (1)  |  (since C++20)  
 ---|---|---  
@@ -141,12 +141,12 @@ Constructs a `year_month_weekday` object.
 
 4) Constructs a `year_month_weekday` object corresponding to the date represented by dp. Equivalent to year_month_weekday(sys_days(dp.time_since_epoch())).
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/year_month_weekday/year_month_weekday&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 A `year_month_weekday` can also be created by combining one of the partial-date types std::chrono::year_month and std::chrono::month_weekday with the missing component (indexed weekday and year, respectively) using `operator/`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/year_month_weekday/year_month_weekday&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ operator/](../operator_slash.html "cpp/chrono/operator slash")(C++20) |  conventional syntax for Gregorian calendar date creation   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_operator/&action=edit)  
+(function)   
 ---|---

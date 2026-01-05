@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Localization library](../locale.html "cpp/locale")
 
@@ -152,7 +152,7 @@ base classes](../locale.html#Facet_category_base_classes "cpp/locale")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/navbar_content&action=edit)
+
 
 Defined in header `[<clocale>](../header/clocale.html "cpp/header/clocale")` |  |   
 ---|---|---  
@@ -172,23 +172,23 @@ The `localeconv` function obtains a pointer to a static object of type [std::lco
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/localeconv&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/localeconv&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Pointer to the current [std::lconv](lconv.html "cpp/locale/lconv") object. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/localeconv&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Modifying the object references through the returned pointer is undefined behavior. 
 
 `std::localeconv` modifies a static object, calling it from different threads without synchronization is undefined behavior. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/localeconv&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/example1&action=edit)
+
 
 Run this code
     
@@ -209,11 +209,11 @@ Output:
     
     Japanese currency symbol: ￥(JPY )
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/localeconv&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ setlocale](setlocale.html "cpp/locale/setlocale") |  gets and sets the current C locale   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_setlocale&action=edit)  
+(function)   
 ---|---  
 [ lconv](lconv.html "cpp/locale/lconv") |  formatting details, returned by **std::localeconv**   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_lconv&action=edit)  
+(class)   
 [C documentation](../../c/locale/localeconv.html "c/locale/localeconv") for localeconv

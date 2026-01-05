@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::lock_guard`](../lock_guard.html "cpp/thread/lock guard")
 
@@ -182,7 +182,7 @@ Member functions
 **lock_guard::lock_guard**  
 [lock_guard::~lock_guard](~lock_guard.html "cpp/thread/lock guard/~lock guard")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/lock_guard/navbar_content&action=edit)
+
 
 explicit lock_guard( mutex_type& m ); |  (1)  |  (since C++11)  
 ---|---|---  
@@ -200,13 +200,13 @@ Acquires ownership of the given mutex m.
 
 The behavior is undefined if m is destroyed before the `lock_guard` object is. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/lock_guard/lock_guard&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 m  |  \-  |  mutex to acquire ownership of   
 ---|---|---  
 t  |  \-  |  tag parameter used to select non-locking version of the constructor   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/lock_guard/lock_guard&action=edit&section=2 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 1) Throws any exceptions thrown by m.lock().
 

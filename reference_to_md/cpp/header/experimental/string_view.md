@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 [Experimental library headers](../experimental.html "cpp/header/experimental")
 
@@ -292,7 +292,7 @@ Networking TS
 Reflection TS  
 [`<experimental/reflect>`](reflect.html "cpp/header/experimental/reflect")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/experimental/navbar_content&action=edit)
+
 
 This header is part of the Library Fundamentals TS ([v1](../../experimental/memory.html "cpp/experimental/lib extensions"), [v2](../../experimental/lib_extensions_2.html "cpp/experimental/lib extensions 2")). 
 
@@ -306,7 +306,7 @@ This header is part of the Library Fundamentals TS ([v1](../../experimental/memo
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/string_view&action=edit&section=1 "Edit section: Classes")] Classes
+### Classes
 
 Name  |  Description   
 ---|---  
@@ -320,18 +320,18 @@ Name  |  Description
 [std::hash](../../utility/hash.html)<[std::experimental::u32string_view](../../experimental/basic_string_view.html)> (library fundamentals TS) |  (class template specialization)  
 [std::hash](../../utility/hash.html)<[std::experimental::wstring_view](../../experimental/basic_string_view.html)> (library fundamentals TS) |  (class template specialization)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/string_view&action=edit&section=2 "Edit section: Functions")] Functions
+### Functions
 
 [ operator==operator!=operator<operator>operator<=operator>=](../../experimental/basic_string_view/operator_cmp.html "cpp/experimental/basic string view/operator cmp") |  lexicographically compares two views   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/basic_string_view/dsc_operator_cmp&action=edit)  
+(function template)   
 ---|---  
   
 #####  Output   
   
 [ operator<<](../../experimental/basic_string_view/operator_ltlt.html "cpp/experimental/basic string view/operator ltlt") |  performs stream output on views   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/basic_string_view/dsc_operator_ltlt&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/string_view&action=edit&section=3 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     namespace std {

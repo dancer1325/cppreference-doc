@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Formatting library](../format.html "cpp/utility/format")
 
@@ -91,7 +91,7 @@ Formatting arguments
 [Format error](format.html#Format_error "cpp/utility/format/format")  
 [format_error](format_error.html "cpp/utility/format/format error")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/navbar_content&action=edit)
+
 
 Defined in header `[<format>](../../header/format.html "cpp/header/format")` |  |   
 ---|---|---  
@@ -125,7 +125,7 @@ Disabled specializations do not meet the [Formatter](../../named_req/Formatter.h
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/formatter&action=edit&section=1 "Edit section: Basic standard specializations")] Basic standard specializations
+### Basic standard specializations
 
 In the following list, `CharT` is either char or wchar_t, `ArithmeticT` is any cv-unqualified arithmetic type other than char, wchar_t, char8_t, char16_t, or char32_t: 
 
@@ -184,89 +184,89 @@ Each formatter specialization for string or character type is _debug-enabled_.
 
 (since C++23)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/formatter&action=edit&section=2 "Edit section: Standard format specification")] Standard format specification
+### Standard format specification
 
 | This section is incomplete  
 Reason: The standard format specification is moved to a separate [page](spec.html "cpp/utility/format/spec"). The section title is temporarily preserved for links to this section. This section will be removed after all those links are settled.   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/formatter&action=edit&section=3 "Edit section: Standard specializations for library types")] Standard specializations for library types
+### Standard specializations for library types
 
 [ std::formatter<std::chrono::duration>](../../chrono/duration/formatter.html "cpp/chrono/duration/formatter")(C++20) |  formatting support for `duration`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_formatter&action=edit)  
+(class template specialization)   
 ---|---  
 [ std::formatter<std::chrono::sys_time>](../../chrono/system_clock/formatter.html "cpp/chrono/system clock/formatter")(C++20) |  formatting support for `sys_time`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_formatter&action=edit)  
+(class template specialization)   
 [ std::formatter<std::chrono::utc_time>](../../chrono/utc_clock/formatter.html "cpp/chrono/utc clock/formatter")(C++20) |  formatting support for `utc_time`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_formatter&action=edit)  
+(class template specialization)   
 [ std::formatter<std::chrono::tai_time>](../../chrono/tai_clock/formatter.html "cpp/chrono/tai clock/formatter")(C++20) |  formatting support for `tai_time`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_formatter&action=edit)  
+(class template specialization)   
 [ std::formatter<std::chrono::gps_time>](../../chrono/gps_clock/formatter.html "cpp/chrono/gps clock/formatter")(C++20) |  formatting support for `gps_time`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_formatter&action=edit)  
+(class template specialization)   
 [ std::formatter<std::chrono::file_time>](../../chrono/file_clock/formatter.html "cpp/chrono/file clock/formatter")(C++20) |  formatting support for `file_time`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_formatter&action=edit)  
+(class template specialization)   
 [ std::formatter<std::chrono::local_time>](../../chrono/local_t/formatter.html "cpp/chrono/local t/formatter")(C++20) |  formatting support for `local_time`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_formatter&action=edit)  
+(class template specialization)   
 [ std::formatter<std::chrono::day>](../../chrono/day/formatter.html "cpp/chrono/day/formatter")(C++20) |  formatting support for `day`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_formatter&action=edit)  
+(class template specialization)   
 [ std::formatter<std::chrono::month>](../../chrono/month/formatter.html "cpp/chrono/month/formatter")(C++20) |  formatting support for `month`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_formatter&action=edit)  
+(class template specialization)   
 [ std::formatter<std::chrono::year>](../../chrono/year/formatter.html "cpp/chrono/year/formatter")(C++20) |  formatting support for `year`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_formatter&action=edit)  
+(class template specialization)   
 [ std::formatter<std::chrono::weekday>](../../chrono/weekday/formatter.html "cpp/chrono/weekday/formatter")(C++20) |  formatting support for `weekday`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_formatter&action=edit)  
+(class template specialization)   
 [ std::formatter<std::chrono::weekday_indexed>](../../chrono/weekday_indexed/formatter.html "cpp/chrono/weekday indexed/formatter")(C++20) |  formatting support for `weekday_indexed`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_formatter&action=edit)  
+(class template specialization)   
 [ std::formatter<std::chrono::weekday_last>](../../chrono/weekday_last/formatter.html "cpp/chrono/weekday last/formatter")(C++20) |  formatting support for `weekday_last`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_formatter&action=edit)  
+(class template specialization)   
 [ std::formatter<std::chrono::month_day>](../../chrono/month_day/formatter.html "cpp/chrono/month day/formatter")(C++20) |  formatting support for `month_day`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_formatter&action=edit)  
+(class template specialization)   
 [ std::formatter<std::chrono::month_day_last>](../../chrono/month_day_last/formatter.html "cpp/chrono/month day last/formatter")(C++20) |  formatting support for `month_day_last`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_formatter&action=edit)  
+(class template specialization)   
 [ std::formatter<std::chrono::month_weekday>](../../chrono/month_weekday/formatter.html "cpp/chrono/month weekday/formatter")(C++20) |  formatting support for `month_weekday`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_formatter&action=edit)  
+(class template specialization)   
 [ std::formatter<std::chrono::month_weekday_last>](../../chrono/month_weekday_last/formatter.html "cpp/chrono/month weekday last/formatter")(C++20) |  formatting support for `month_weekday_last`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_formatter&action=edit)  
+(class template specialization)   
 [ std::formatter<std::chrono::year_month>](../../chrono/year_month/formatter.html "cpp/chrono/year month/formatter")(C++20) |  formatting support for `year_month`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_formatter&action=edit)  
+(class template specialization)   
 [ std::formatter<std::chrono::year_month_day>](../../chrono/year_month_day/formatter.html "cpp/chrono/year month day/formatter")(C++20) |  formatting support for `year_month_day`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_formatter&action=edit)  
+(class template specialization)   
 [ std::formatter<std::chrono::year_month_day_last>](../../chrono/year_month_day_last/formatter.html "cpp/chrono/year month day last/formatter")(C++20) |  formatting support for `year_month_day_last`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_formatter&action=edit)  
+(class template specialization)   
 [ std::formatter<std::chrono::year_month_weekday>](../../chrono/year_month_weekday/formatter.html "cpp/chrono/year month weekday/formatter")(C++20) |  formatting support for `year_month_weekday`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_formatter&action=edit)  
+(class template specialization)   
 [ std::formatter<std::chrono::year_month_weekday_last>](../../chrono/year_month_weekday_last/formatter.html "cpp/chrono/year month weekday last/formatter")(C++20) |  formatting support for `year_month_weekday_last`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_formatter&action=edit)  
+(class template specialization)   
 [ std::formatter<std::chrono::hh_mm_ss>](../../chrono/hh_mm_ss/formatter.html "cpp/chrono/hh mm ss/formatter")(C++20) |  formatting support for `hh_mm_ss`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_formatter&action=edit)  
+(class template specialization)   
 [ std::formatter<std::chrono::sys_info>](../../chrono/sys_info/formatter.html "cpp/chrono/sys info/formatter")(C++20) |  formatting support for `sys_info`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_formatter&action=edit)  
+(class template specialization)   
 [ std::formatter<std::chrono::local_info>](../../chrono/local_info/formatter.html "cpp/chrono/local info/formatter")(C++20) |  formatting support for `local_info`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_formatter&action=edit)  
+(class template specialization)   
 [ std::formatter<std::chrono::zoned_time>](../../chrono/zoned_time/formatter.html "cpp/chrono/zoned time/formatter")(C++20) |  formatting support for `zoned_time`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_formatter&action=edit)  
+(class template specialization)   
 [ std::formatter<std::basic_stacktrace>](../basic_stacktrace/formatter.html "cpp/utility/basic stacktrace/formatter")(C++23) |  formatting support for `basic_stacktrace`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/basic_stacktrace/dsc_formatter&action=edit)  
+(class template specialization)   
 [ std::formatter<std::stacktrace_entry>](../stacktrace_entry/formatter.html "cpp/utility/stacktrace entry/formatter")(C++23) |  formatting support for `stacktrace_entry`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/stacktrace_entry/dsc_formatter&action=edit)  
+(class template specialization)   
 [ std::formatter<std::thread::id>](../../thread/thread/id/formatter.html "cpp/thread/thread/id/formatter")(C++23) |  formatting support for `thread::id`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/id/dsc_formatter&action=edit)  
+(class template specialization)   
 [ std::formatter<std::vector<bool>::reference>](../../container/vector_bool/reference.html#Helper_classes "cpp/container/vector bool/reference")(C++23) |  formatting support for `vector<bool>::reference`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/vector_bool/reference/dsc_formatter&action=edit)  
+(class template specialization)   
 [ std::formatter<_pair-or-tuple_ >](tuple_formatter.html "cpp/utility/format/tuple formatter")(C++23) |  formatting support for `pair` and `tuple`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/dsc_tuple_formatter&action=edit)  
+(class template specialization)   
 [ std::formatter<_range_ >](ranges_formatter.html "cpp/utility/format/ranges formatter")(C++23) |  formatting support for ranges   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/dsc_ranges_formatter&action=edit)  
+(class template specialization)   
 [ std::formatter<std::stack>](../../container/stack/formatter.html "cpp/container/stack/formatter")(C++23) |  formatting support for `std::stack`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_adaptor_formatter&action=edit)  
+(class template specialization)   
 [ std::formatter<std::queue>](../../container/queue/formatter.html "cpp/container/queue/formatter")(C++23) |  formatting support for `std::queue`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_adaptor_formatter&action=edit)  
+(class template specialization)   
 [ std::formatter<std::priority_queue>](../../container/priority_queue/formatter.html "cpp/container/priority queue/formatter")(C++23) |  formatting support for `std::priority_queue`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_adaptor_formatter&action=edit)  
+(class template specialization)   
 [ std::formatter<std::filesystem::path>](../../filesystem/path/formatter.html "cpp/filesystem/path/formatter")(C++26) |  formatting support for `filesystem::path`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/path/dsc_formatter&action=edit)  
+(class template specialization)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/formatter&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -333,7 +333,7 @@ Output:
     To be or not to be, that is a question.
     To " \" be \" " or not to " \" be \" ", that is "a question".
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/formatter&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -341,12 +341,12 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 3944](https://cplusplus.github.io/LWG/issue3944) | C++23  | some char sequences were formattable as ranges of wchar_t | disable specializations added   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/formatter&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ basic_format_contextformat_contextwformat_context](basic_format_context.html "cpp/utility/format/basic format context")(C++20)(C++20)(C++20) |  formatting state, including all formatting arguments and the output iterator   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/dsc_basic_format_context&action=edit)  
+(class template)   
 ---|---  
 [ formattable](formattable.html "cpp/utility/format/formattable")(C++23) |  specifies that a type is formattable, that is, it specializes **std::formatter** and provides member functions `parse` and `format`   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/dsc_formattable&action=edit)  
+(concept)   
 [ range_formatter](range_formatter.html "cpp/utility/format/range formatter")(C++23) |  class template that helps implementing **std::formatter** specializations for range types   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/dsc_range_formatter&action=edit)
+(class template) 

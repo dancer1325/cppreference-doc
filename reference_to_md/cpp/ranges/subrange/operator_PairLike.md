@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::subrange`](../subrange.html "cpp/ranges/subrange")
 
@@ -249,7 +249,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
 [tuple_size<std::ranges::subrange>](tuple_size.html "cpp/ranges/subrange/tuple size")  
 [tuple_element<std::ranges::subrange>](tuple_element.html "cpp/ranges/subrange/tuple element")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/subrange/navbar_content&action=edit)
+
 
 template< /*different-from*/<subrange> PairLike >  
 requires /*pair-like-convertible-from*/<PairLike, const I&, const S&>  
@@ -322,11 +322,11 @@ Equivalent to:
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/subrange/operator_PairLike&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 PairLike(`_[begin_](../subrange.html#begin "cpp/ranges/subrange")_` ﻿,` `` _[end_](../subrange.html#end "cpp/ranges/subrange")_` ﻿)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/subrange/operator_PairLike&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 Following types in the standard library are pair-like: 
 
@@ -357,7 +357,7 @@ Since `subrange` specializations are [`range`](../range.html "cpp/ranges/range")
 
 [std::array](../../container/array.html "cpp/container/array") specializations cannot be converted from `subrange`, since they are [`range`](../range.html "cpp/ranges/range") types. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/subrange/operator_PairLike&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -397,9 +397,9 @@ Output:
     A B 
     A
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/subrange/operator_PairLike&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [_tuple-like pair-like_](../../utility/tuple/tuple-like.html "cpp/utility/tuple/tuple-like")(C++23) |  specifies that a type implemented the _tuple protocol_  
 ([`std::get`](../../utility/tuple/get.html "cpp/utility/tuple/get"), [`std::tuple_element`](../../utility/tuple_element.html "cpp/utility/tuple element"), [`std::tuple_size`](../../utility/tuple_size.html "cpp/utility/tuple size"))  
-(exposition-only concept*)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/dsc_tuple-like&action=edit)  
+(exposition-only concept*)  
 ---|---

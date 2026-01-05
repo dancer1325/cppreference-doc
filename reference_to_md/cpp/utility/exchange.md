@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 Defined in header `[<utility>](../header/utility.html "cpp/header/utility")` |  |   
 ---|---|---  
@@ -153,7 +153,7 @@ Replaces the value of obj with new_value and returns the old value of obj.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/exchange&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 obj  |  \-  |  object whose value to replace   
 ---|---|---  
@@ -161,11 +161,11 @@ new_value  |  \-  |  the value to assign to obj
 Type requirements   
 -`T` must meet the requirements of [MoveConstructible](../named_req/MoveConstructible.html "cpp/named req/MoveConstructible"). Also, it must be possible to move-assign objects of type `U` to objects of type `T`.   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/exchange&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The old value of obj. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/exchange&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 (none)  | (until C++23)  
 ---|---  
@@ -174,7 +174,7 @@ The old value of obj.
 [std::is_nothrow_assignable_v](../types/is_assignable.html)<T&, U>  
 ) | (since C++23)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/exchange&action=edit&section=4 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     template<class T, class U = T>
@@ -192,7 +192,7 @@ The old value of obj.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/exchange&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 `std::exchange` can be used when implementing [move constructors](../language/move_constructor.html "cpp/language/move constructor") and, for the members that don't require [special cleanup](../language/rule_of_three.html "cpp/language/rule of three"), [move assignment operators](../language/move_operator.html "cpp/language/move assignment"): 
     
@@ -217,7 +217,7 @@ The old value of obj.
 ---|---|---|---  
 [`__cpp_lib_exchange_function`](../experimental/feature_test.html#cpp_lib_exchange_function "cpp/feature test") | [`201304L`](../compiler_support/14.html#cpp_lib_exchange_function_201304L "cpp/compiler support/14") | (C++14) | [`std::exchange`](exchange.html#Top)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/exchange&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -291,12 +291,12 @@ Output:
      
     Fibonacci sequence: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, ...
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/exchange&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ swap](swap.html "cpp/algorithm/swap") |  swaps the values of two objects   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_swap&action=edit)  
+(function template)   
 ---|---  
 [ atomic_exchangeatomic_exchange_explicit](../atomic/atomic_exchange.html "cpp/atomic/atomic exchange")(C++11)(C++11) |  atomically replaces the value of the atomic object with non-atomic argument and returns the old value of the atomic   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/dsc_atomic_exchange&action=edit)
+(function template) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 `[std::unordered_set](../unordered_set.html "cpp/container/unordered set")`
 
@@ -137,7 +137,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/unordered set/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/unordered_set/navbar_content&action=edit)
+
 
 | (1) |   
 ---|---|---  
@@ -189,7 +189,7 @@ The iterator pos must be dereferenceable. Thus the [end()](end.html "cpp/contain
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/erase_assoc&action=edit&section=T-1 "Template:cpp/container/erase assoc")] Parameters
+### Parameters
 
 pos  |  \-  |  iterator to the element to remove   
 ---|---|---  
@@ -197,7 +197,7 @@ first, last  |  \-  |  the pair of iterators defining the [range](../../iterator
 key  |  \-  |  key value of the elements to remove   
 x  |  \-  |  a value of any type that can be transparently compared with a key denoting the elements to remove   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/erase_assoc&action=edit&section=T-2 "Template:cpp/container/erase assoc")] Return value
+### Return value
 
 1-3) Iterator following the last removed element.
 
@@ -205,13 +205,13 @@ x  |  \-  |  a value of any type that can be transparently compared with a key d
 
 5) Number of elements removed.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/erase_assoc&action=edit&section=T-3 "Template:cpp/container/erase assoc")] Exceptions
+### Exceptions
 
 1-3) Throws nothing.
 
 4,5) Any exceptions thrown by the `Hash` and `KeyEqual` object.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/erase_assoc&action=edit&section=T-4 "Template:cpp/container/erase assoc")] Complexity
+### Complexity
 
 Given an instance c of `unordered_set`: 
 
@@ -229,7 +229,7 @@ Given an instance c of `unordered_set`:
 ---|---|---|---  
 [`__cpp_lib_associative_heterogeneous_erasure`](../../experimental/feature_test.html#cpp_lib_associative_heterogeneous_erasure "cpp/feature test") | [`202110L`](../../compiler_support/23.html#cpp_lib_associative_heterogeneous_erasure_202110L "cpp/compiler support/23") | (C++23) | Heterogeneous erasure in [associative containers](../../container.html#Associative_containers "cpp/container") and [unordered associative containers](../../container.html#Unordered_associative_containers "cpp/container"); overload ([5](erase.html#Version_5))  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/erase_assoc&action=edit&section=T-6 "Template:cpp/container/erase assoc")] Example
+### Example
 
 Run this code
     
@@ -287,10 +287,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [LWG 2356](https://cplusplus.github.io/LWG/issue2356) | C++11  | the order of non-equivalent elements that are  
 not erased was not guaranteed to be preserved  | required to be preserved   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/erase_assoc&action=edit&section=T-8 "Template:cpp/container/erase assoc")] See also
+### See also
 
 [ clear](clear.html "cpp/container/unordered set/clear") |  clears the contents   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_clear&action=edit)  
+(public member function)   
 ---|---
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

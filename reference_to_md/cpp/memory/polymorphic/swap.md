@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::polymorphic`](../polymorphic.html "cpp/memory/polymorphic")
 
@@ -202,7 +202,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
 [Non-member functions](../polymorphic.html#Non-member_functions "cpp/memory/polymorphic")  
 [swap(std::polymorphic)](swap2.html "cpp/memory/polymorphic/swap2")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/polymorphic/navbar_content&action=edit)
+
 
 constexpr void swap( polymorphic& other ) noexcept(/* see below */); |  |  (since C++26)  
 ---|---|---  
@@ -237,26 +237,26 @@ If one of the following conditions is satisfied, the behavior is undefined:
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/polymorphic/swap&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 other  |  \-  |  the `polymorphic` object to exchange the contents with   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/polymorphic/swap&action=edit&section=2 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 [`noexcept`](../../language/noexcept_spec.html "cpp/language/noexcept spec") specification: 
 
 noexcept([std::allocator_traits](../allocator_traits.html)<Allocator>::propagate_on_container_swap::value  
 || [std::allocator_traits](../allocator_traits.html)<Allocator>::is_always_equal::value)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/polymorphic/swap&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/polymorphic/swap&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ std::swap(std::polymorphic)](swap2.html "cpp/memory/polymorphic/swap2")(C++26) |  specializes the [std::swap](../../utility/swap.html "cpp/algorithm/swap") algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/polymorphic/dsc_swap2&action=edit)  
+(function template)   
 ---|---

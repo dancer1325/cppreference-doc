@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Library fundamentals v3](../lib_extensions_3.html "cpp/experimental/lib extensions 3")
 
@@ -65,7 +65,7 @@
 [experimental::scope_success](../scope_success.html "cpp/experimental/scope success")  
 [experimental::unique_resource](../unique_resource.html "cpp/experimental/unique resource")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions_3/navbar_content&action=edit)
+
 
 [`std::experimental::unique_resource`](../unique_resource.html "cpp/experimental/unique resource")
 
@@ -85,7 +85,7 @@ Non-member functions
 [make_unique_resource_checked](make_unique_resource_checked.html "cpp/experimental/unique resource/make unique resource checked")  
 [Deduction guides](deduction_guides.html "cpp/experimental/unique resource/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/unique_resource/navbar_content&action=edit)
+
 
 unique_resource(); |  (1)  |  (library fundamentals TS v3)  
 ---|---|---  
@@ -131,14 +131,14 @@ After construction, the constructed `unique_resource` owns its resource if and o
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/unique_resource/unique_resource&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 r  |  \-  |  a resource handle   
 ---|---|---  
 d  |  \-  |  a deleter to use to dispose the resource   
 other  |  \-  |  another `unique_resource` to acquire the ownership from   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/unique_resource/unique_resource&action=edit&section=2 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Any exception thrown during initialization of the stored resource handle or the deleter. 
 
@@ -169,18 +169,18 @@ noexcept(
 
 )
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/unique_resource/unique_resource&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 The mechanism of these constructors ensures no leaking of resources. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/unique_resource/unique_resource&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/unique_resource/unique_resource&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ (constructor)](../../memory/unique_ptr/unique_ptr.html "cpp/memory/unique ptr/unique ptr") |  constructs a new `unique_ptr`   
-(public member function of `std::unique_ptr<T,Deleter>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/unique_ptr/dsc_constructor&action=edit)  
+(public member function of `std::unique_ptr<T,Deleter>`)   
 ---|---

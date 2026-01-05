@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -103,7 +103,7 @@
 [get_leap_second_info](get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::utc_clock`](../utc_clock.html "cpp/chrono/utc clock")
 
@@ -120,7 +120,7 @@ Leap second insertion information
 [leap_second_info](leap_second_info.html "cpp/chrono/utc clock/leap second info")  
 [get_leap_second_info](get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/utc_clock/navbar_content&action=edit)
+
 
 static [std::chrono::time_point](../time_point.html)<[std::chrono::utc_clock](../utc_clock.html)> now(); |  |  (since C++20)  
 ---|---|---  
@@ -128,11 +128,11 @@ static [std::chrono::time_point](../time_point.html)<[std::chrono::utc_clock](..
   
 Returns a time point representing the current point in time. The result is calculated as if by [std::chrono::utc_clock::from_sys](from_sys.html)([std::chrono::system_clock::now](../system_clock/now.html)()). Implementations may use a more accurate value of UTC time. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/clock/now&action=edit&section=T-1 "Template:cpp/chrono/clock/now")] Return value
+### Return value
 
 A time point representing the current time. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/clock/now&action=edit&section=T-2 "Template:cpp/chrono/clock/now")] Example
+### Example
 
 Run this code
     

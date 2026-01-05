@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 **Type support**
 
@@ -161,7 +161,7 @@ Runtime type information
 ---  
 [bad_cast](../types/bad_cast.html "cpp/types/bad cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/navbar_content&action=edit)
+
 
 See also [type system overview](../language/type-id.html "cpp/language/type") and [fundamental types defined by the language](../language/types.html "cpp/language/types"). 
 
@@ -179,64 +179,64 @@ See also [type system overview](../language/type-id.html "cpp/language/type") an
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types&action=edit&section=1 "Edit section: Additional basic types and macros")] Additional basic types and macros
+### Additional basic types and macros
 
 Defined in header `[<cstddef>](../header/cstddef.html "cpp/header/cstddef")`  
 ---  
 [ size_t](../types/size_t.html "cpp/types/size t") |  unsigned integer type returned by the [`sizeof`](../language/sizeof.html "cpp/language/sizeof") operator   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_size_t&action=edit)  
+(typedef)   
 [ ptrdiff_t](../types/ptrdiff_t.html "cpp/types/ptrdiff t") |  signed integer type returned when subtracting two pointers   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_ptrdiff_t&action=edit)  
+(typedef)   
 [ nullptr_t](../types/nullptr_t.html "cpp/types/nullptr t")(C++11) |  the type of the null pointer literal [`nullptr`](../language/nullptr.html "cpp/language/nullptr")   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_nullptr_t&action=edit)  
+(typedef)   
 [ NULL](../types/NULL.html "cpp/types/NULL") |  implementation-defined null pointer constant   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_NULL&action=edit)  
+(macro constant)   
 [ max_align_t](../types/max_align_t.html "cpp/types/max align t")(C++11) |  trivial type with alignment requirement as great as any other scalar type   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_max_align_t&action=edit)  
+(typedef)   
 [ offsetof](../types/offsetof.html "cpp/types/offsetof") |  byte offset from the beginning of a [standard-layout](../named_req/StandardLayoutType.html "cpp/named req/StandardLayoutType") type to specified member   
-(function macro) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_offsetof&action=edit)  
+(function macro)   
 [ byte](../types/byte.html "cpp/types/byte")(C++17) |  the byte type   
-(enum) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_byte&action=edit)  
+(enum)   
 ---  
 Defined in header `[<cstdbool>](../header/cstdbool.html "cpp/header/cstdbool")`(deprecated) (until C++20)  
 Defined in header `[<stdbool.h>](../header/cstdbool.html "cpp/header/cstdbool")`  
 __bool_true_false_are_defined(C++11)(deprecated) |  C compatibility macro constant, expands to integer literal 1   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_bool_true_false_are_defined&action=edit)  
+(macro constant)   
 Defined in header `[<cstdalign>](../header/cstdalign.html "cpp/header/cstdalign")`(deprecated) (until C++20)  
 Defined in header `[<stdalign.h>](../header/cstdalign.html "cpp/header/cstdalign")`  
 __alignas_is_defined(C++11)(deprecated) |  C compatibility macro constant, expands to integer literal 1   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_alignas_is_defined&action=edit)  
+(macro constant)   
 __alignof_is_defined(C++11)(deprecated) |  C compatibility macro constant, expands to integer literal 1   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_alignof_is_defined&action=edit)  
+(macro constant)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types&action=edit&section=2 "Edit section: Fixed width integer types \(since C++11\)")] [Fixed width integer types](../types/integer.html "cpp/types/integer") (since C++11)
+### [Fixed width integer types](../types/integer.html "cpp/types/integer") (since C++11)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types&action=edit&section=3 "Edit section: Fixed width floating-point types \(since C++23\)")] [Fixed width floating-point types](../types/floating-point.html "cpp/types/floating-point") (since C++23)
+### [Fixed width floating-point types](../types/floating-point.html "cpp/types/floating-point") (since C++23)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types&action=edit&section=4 "Edit section: Numeric limits")] Numeric limits
+### Numeric limits
 
 Defined in header `[<limits>](../header/limits.html "cpp/header/limits")`  
 ---  
 [ numeric_limits](../types/numeric_limits.html "cpp/types/numeric limits") |  provides an interface to query properties of all fundamental numeric types   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_numeric_limits&action=edit)  
+(class template)   
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types&action=edit&section=5 "Edit section: C numeric limits interface")] [C numeric limits interface](../types/climits.html "cpp/types/climits")
+#### [C numeric limits interface](../types/climits.html "cpp/types/climits")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types&action=edit&section=6 "Edit section: Runtime type identification")] Runtime type identification
+### Runtime type identification
 
 Defined in header `[<typeinfo>](../header/typeinfo.html "cpp/header/typeinfo")`  
 ---  
 [ type_info](../types/type_info.html "cpp/types/type info") |  contains some type’s information, the class returned by the typeid operator   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_type_info&action=edit)  
+(class)   
 [ bad_typeid](../types/bad_typeid.html "cpp/types/bad typeid") |  exception that is thrown if an argument in a [typeid expression](../language/typeid.html "cpp/language/typeid") is null   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_bad_typeid&action=edit)  
+(class)   
 [ bad_cast](../types/bad_cast.html "cpp/types/bad cast") |  exception that is thrown by an invalid [`dynamic_cast`](../language/dynamic_cast.html "cpp/language/dynamic cast") expression, i.e. a cast of reference type fails   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_bad_cast&action=edit)  
+(class)   
 Defined in header `[<typeindex>](../header/typeindex.html "cpp/header/typeindex")`  
 [ type_index](../types/type_index.html "cpp/types/type index")(C++11) |  wrapper around a `type_info` object, that can be used as index in associative and unordered associative containers   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_type_index&action=edit)  
+(class)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types&action=edit&section=7 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -244,7 +244,7 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 4036](https://cplusplus.github.io/LWG/issue4036) | C++11  | `__alignof_is_defined` was underspecified in the C++ standard  | specified and deprecated   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [Type traits and metaprogramming library](../meta.html#Type_traits "cpp/meta")  
 ---  

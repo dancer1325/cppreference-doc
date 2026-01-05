@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Metaprogramming library](../meta.html "cpp/meta")
 
@@ -167,7 +167,7 @@ Type transformations
 Compile-time integer sequences  
 [integer_sequence](../utility/integer_sequence.html "cpp/utility/integer sequence")(C++14)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/meta/navbar_content&action=edit)
+
 
 Defined in header `[<type_traits>](../header/type_traits.html "cpp/header/type traits")` |  |   
 ---|---|---  
@@ -197,7 +197,7 @@ If the program adds specializations for `std::reference_converts_from_temporary`
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/reference_converts_from_temporary&action=edit&section=1 "Edit section: Helper variable template")] Helper variable template
+### Helper variable template
 
 template< class T, class U >  
 inline constexpr bool reference_converts_from_temporary_v =  
@@ -205,7 +205,7 @@ std::reference_converts_from_temporary<T, U>::value; |  |  (since C++23)
 ---|---|---  
 | |   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/integral_constant/inherit2&action=edit)
+
 
 ##  Inherited from [ std::integral_constant](integral_constant.html "cpp/types/integral constant")
 
@@ -230,11 +230,11 @@ Type  |  Definition
 `value_type` |  bool  
 `type` |  [std::integral_constant](integral_constant.html)<bool, value>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/reference_converts_from_temporary&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 `std::reference_converts_from_temporary` can be used for rejecting some cases that always produce dangling references. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/reference_converts_from_temporary&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -251,20 +251,20 @@ Run this code
         std::reference_converts_from_temporary_v<int&&, long&&> == true &&
         std::reference_converts_from_temporary_v<int&&, long> == true);
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/reference_converts_from_temporary&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ is_convertibleis_nothrow_convertible](is_convertible.html "cpp/types/is convertible")(C++11)(C++20) |  checks if a type can be converted to the other type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_convertible&action=edit)  
+(class template)   
 ---|---  
 [ invokeinvoke_r](../utility/functional/invoke.html "cpp/utility/functional/invoke")(C++17)(C++23) |  invokes any [Callable](../named_req/Callable.html "cpp/named req/Callable") object with given arguments and possibility to specify return type(since C++23)   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_invoke&action=edit)  
+(function template)   
 [ bind](../utility/functional/bind.html "cpp/utility/functional/bind")(C++11) |  binds one or more arguments to a function object   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_bind&action=edit)  
+(function template)   
 [ visit](../utility/variant/visit2.html "cpp/utility/variant/visit2")(C++17) |  calls the provided functor with the arguments held by one or more `variant`s   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variant/dsc_visit2&action=edit)  
+(function template)   
 [ (constructor)](../utility/functional/function/function.html "cpp/utility/functional/function/function") |  constructs a new `std::function` instance   
-(public member function of `std::function<R(Args...)>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/function/dsc_constructor&action=edit)  
+(public member function of `std::function<R(Args...)>`)   
 [ (constructor)](../utility/functional/move_only_function/move_only_function.html "cpp/utility/functional/move only function/move only function") |  constructs a new `std::move_only_function` object   
-(public member function of `std::move_only_function`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/move_only_function/dsc_constructor&action=edit)  
+(public member function of `std::move_only_function`)   
 [ (constructor)](../thread/packaged_task/packaged_task.html "cpp/thread/packaged task/packaged task") |  constructs the task object   
-(public member function of `std::packaged_task<R(Args...)>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/packaged_task/dsc_constructor&action=edit)
+(public member function of `std::packaged_task<R(Args...)>`) 

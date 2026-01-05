@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_stringbuf`](../basic_stringbuf.html "cpp/io/basic stringbuf")
 
@@ -101,7 +101,7 @@ Non-member functions
 Exposition-only member functions  
 [basic_stringbuf::_init_buf_ptrs_](init_buf_ptrs.html "cpp/io/basic stringbuf/init buf ptrs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_stringbuf/navbar_content&action=edit)
+
 
 | (1) |   
 ---|---|---  
@@ -165,20 +165,20 @@ This overload participates in overload resolution only if [std::is_convertible_v
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_stringbuf/str&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 s  |  \-  |  a [std::basic_string](../../string/basic_string.html "cpp/string/basic string") object holding the replacement character sequence   
 ---|---|---  
 t  |  \-  |  an object (convertible to [std::basic_string_view](../../string/basic_string_view.html "cpp/string/basic string view")) holding the replacement character sequence   
 a  |  \-  |  allocator to use for all memory allocations of the returned [std::basic_string](../../string/basic_string.html "cpp/string/basic string")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_stringbuf/str&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1-3) A [std::basic_string](../../string/basic_string.html "cpp/string/basic string") object holding this buffer's underlying character sequence.
 
 4-7) (none)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_stringbuf/str&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 This function is typically accessed through [std::basic_istringstream::str()](../basic_istringstream/str.html "cpp/io/basic istringstream/str"), [std::basic_ostringstream::str()](../basic_ostringstream/str.html "cpp/io/basic ostringstream/str"), or [std::basic_stringstream::str()](../basic_stringstream/str.html "cpp/io/basic stringstream/str"). 
 
@@ -186,7 +186,7 @@ This function is typically accessed through [std::basic_istringstream::str()](..
 ---|---|---|---  
 [`__cpp_lib_sstream_from_string_view`](../../experimental/feature_test.html#cpp_lib_sstream_from_string_view "cpp/feature test") | [`202306L`](../../compiler_support/26.html#cpp_lib_sstream_from_string_view_202306L "cpp/compiler support/26") | (C++26) | Interfacing string streams with [std::string_view](../../string/basic_string_view.html "cpp/string/basic string view")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_stringbuf/str&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -222,7 +222,7 @@ Output:
     after writing the int '3' to output stream "1 2", str() = "3 2"
     after writing the int '3' to append stream "1 2", str() = "1 23"
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_stringbuf/str&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -236,12 +236,12 @@ input and output sequences are initialized  | both specified
 character if bool(mode & [std::ios_base::out](../ios_base/openmode.html)) == true | [epptr()](../basic_streambuf/pptr.html "cpp/io/basic streambuf/pptr") can be set  
 beyond that position   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_stringbuf/str&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ str](../basic_stringstream/str.html "cpp/io/basic stringstream/str") |  gets or sets the contents of underlying string device object   
-(public member function of `std::basic_stringstream<CharT,Traits,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_stringstream/dsc_str&action=edit)  
+(public member function of `std::basic_stringstream<CharT,Traits,Allocator>`)   
 ---|---  
 [ view](view.html "cpp/io/basic stringbuf/view")(C++20) |  obtains a view over the underlying character sequence   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_stringbuf/dsc_view&action=edit)
+(public member function) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

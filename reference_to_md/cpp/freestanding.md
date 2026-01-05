@@ -30,7 +30,7 @@
 [Symbols index](symbol_index.html "cpp/symbol index")  
 [External libraries](links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 There are two kinds of implementations defined by the C++ standard: _**hosted**_ and _**freestanding**_ implementations. For _hosted_ implementations, the set of standard library headers required by the C++ standard is much larger than for _freestanding_ ones. In a _freestanding_ implementation, execution may happen without an operating system. 
 
@@ -59,13 +59,13 @@ _freestanding_ |  _hosted_
 Under a _freestanding_ implementation, it is implementation-defined whether a program can have more than one [thread of execution](atomic.html "cpp/thread").  |  Under a _hosted_ implementation, a C++ program can have more than one [thread](atomic.html "cpp/thread") running concurrently.   
 (since C++11)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/freestanding&action=edit&section=2 "Edit section: Requirements on the main function")] Requirements on the [`main`](language/main_function.html "cpp/language/main function") function
+### Requirements on the [`main`](language/main_function.html "cpp/language/main function") function
 
 _freestanding_ |  _hosted_  
 ---|---  
 In a _freestanding_ implementation, it is implementation-defined whether a program is required to define a [`main`](language/main_function.html "cpp/language/main function") function. Start-up and termination is implementation-defined; start-up contains the execution of [constructors](language/initializer_list.html "cpp/language/constructor") for objects of [namespace scope](language/scope.html#Namespace_scope "cpp/language/scope") with static storage duration; termination contains the execution of [destructors](language/destructor.html "cpp/language/destructor") for objects with static [storage duration](language/storage_duration.html "cpp/language/storage duration").  |  In a _hosted_ implementation, a program must contain a global function called [`main`](language/main_function.html "cpp/language/main function"). Executing a program starts a main [thread of execution](atomic.html "cpp/thread") in which the `main` function is invoked, and in which variables of static [storage duration](language/storage_duration.html "cpp/language/storage duration") might be initialized and destroyed.   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/freestanding&action=edit&section=3 "Edit section: Requirements on standard library headers")] Requirements on [standard library headers](headers.html "cpp/header")
+### Requirements on [standard library headers](headers.html "cpp/header")
 
 A _freestanding_ implementation has an implementation-defined set of headers. This set includes at least the headers in the following table. 
 
@@ -84,7 +84,7 @@ For partially freestanding headers, freestanding implementations only needs to p
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/freestanding&action=edit&section=4 "Edit section: Headers required for a freestanding implementation")] Headers required for a freestanding implementation
+#### Headers required for a freestanding implementation
 
 Library  | Component  | Headers  |  Freestanding   
 ---|---|---|---  
@@ -135,7 +135,7 @@ Random number generation  | [`<random>`](header/random.html "cpp/header/random")
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/freestanding&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 Some compiler vendors may not fully support freestanding implementation. For example, GCC libstdc++ has had implementation and build issues before version 13, while LLVM libcxx and MSVC STL do not support freestanding. 
 
@@ -173,7 +173,7 @@ GCC 13 provides more headers, such as [`<optional>`](header/optional.html "cpp/h
 [`__cpp_lib_freestanding_utility`](experimental/feature_test.html#cpp_lib_freestanding_utility "cpp/feature test") | [`202306L`](compiler_support/26.html#cpp_lib_freestanding_utility_202306L "cpp/compiler support/26") | (C++26) | freestanding [`<utility>`](header/utility.html "cpp/header/utility")  
 [`__cpp_lib_freestanding_variant`](experimental/feature_test.html#cpp_lib_freestanding_variant "cpp/feature test") | [`202311L`](compiler_support/26.html#cpp_lib_freestanding_variant_202311L "cpp/compiler support/26") | (C++26) | freestanding [`<variant>`](header/variant.html "cpp/header/variant")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/freestanding&action=edit&section=6 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -337,7 +337,7 @@ GCC 13 provides more headers, such as [`<optional>`](header/optional.html "cpp/h
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/freestanding&action=edit&section=7 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -351,7 +351,7 @@ defined (thus requires a documentation)
 uses [std::hash](utility/hash.html "cpp/utility/hash") which was not  | made [`<functional>`](header/functional.html "cpp/header/functional") being  
 partially freestanding   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/freestanding&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [C documentation](../c/language/conformance.html "c/language/conformance") for Conformance  
 ---

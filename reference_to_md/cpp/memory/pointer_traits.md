@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 **`std::pointer_traits`**
 
@@ -193,7 +193,7 @@ Member functions
 [pointer_traits::pointer_to](pointer_traits/pointer_to.html "cpp/memory/pointer traits/pointer to")(C++11)  
 [pointer_traits::to_address](pointer_traits/to_address.html "cpp/memory/pointer traits/to address")(C++20)(optional)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/pointer_traits/navbar_content&action=edit)
+
 
 Defined in header `[<memory>](../header/memory.html "cpp/header/memory")` |  |   
 ---|---|---  
@@ -234,7 +234,7 @@ If /*element-type-of*/<Ptr> is not defined, the primary template has no members 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/pointer_traits&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Type  |  Definition   
 ---|---  
@@ -242,21 +242,21 @@ Type  |  Definition
 `element_type` |  /*element-type-of*/<Ptr>  
 `difference_type` |  Ptr::difference_type if present, otherwise [std::ptrdiff_t](../types/ptrdiff_t.html "cpp/types/ptrdiff t")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/pointer_traits&action=edit&section=2 "Edit section: Member alias templates")] Member alias templates
+### Member alias templates
 
 Template  |  Definition   
 ---|---  
 template< class U > using rebind |  Ptr::rebind<U> if exists, otherwise Template<U, Args...> if `Ptr` is a template specialization Template<T, Args...>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/pointer_traits&action=edit&section=3 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ pointer_to](pointer_traits/pointer_to.html "cpp/memory/pointer traits/pointer to")[static] |  obtains a dereferenceable pointer to its argument   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/pointer_traits/dsc_pointer_to&action=edit)  
+(public static member function)   
 ---|---  
   
 2) A specialization is provided for pointer types, T*, which declares the following members: 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/pointer_traits&action=edit&section=4 "Edit section: Member types")] Member types
+### Member types
 
 Type  |  Definition   
 ---|---  
@@ -264,25 +264,25 @@ Type  |  Definition
 `element_type` |  T  
 `difference_type` |  [std::ptrdiff_t](../types/ptrdiff_t.html "cpp/types/ptrdiff t")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/pointer_traits&action=edit&section=5 "Edit section: Member alias templates")] Member alias templates
+### Member alias templates
 
 Template  |  Definition   
 ---|---  
 template< class U > using rebind |  U*  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/pointer_traits&action=edit&section=6 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ pointer_to](pointer_traits/pointer_to.html "cpp/memory/pointer traits/pointer to")[static] |  obtains a dereferenceable pointer to its argument   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/pointer_traits/dsc_pointer_to&action=edit)  
+(public static member function)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/pointer_traits&action=edit&section=7 "Edit section: Optional member functions of program-defined specializations")] Optional member functions of program-defined specializations
+### Optional member functions of program-defined specializations
 
 [ to_address](pointer_traits/to_address.html "cpp/memory/pointer traits/to address")[static] (C++20)(optional) |  obtains a raw pointer from a fancy pointer (inverse of `pointer_to`)   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/pointer_traits/dsc_to_address&action=edit)  
+(public static member function)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/pointer_traits&action=edit&section=8 "Edit section: Notes")] Notes
+### Notes
 
 The rebind member template alias makes it possible, given a pointer-like type that points to `T`, to obtain the same pointer-like type that points to `U`. For example, 
     
@@ -296,7 +296,7 @@ A specialization for user-defined fancy pointer types may provide an additional 
 ---|---|---|---  
 [`__cpp_lib_constexpr_memory`](../experimental/feature_test.html#cpp_lib_constexpr_memory "cpp/feature test") | [`201811L`](../compiler_support/20.html#cpp_lib_constexpr_memory_201811L "cpp/compiler support/20") | (C++20) | constexpr in `std::pointer_traits`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/pointer_traits&action=edit&section=9 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -341,7 +341,7 @@ Output:
     
     ​0​
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/pointer_traits&action=edit&section=10 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -349,12 +349,12 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 3545](https://cplusplus.github.io/LWG/issue3545) | C++11  | primary template caused hard error when `element_type` is invalid  | made SFINAE-friendly   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/pointer_traits&action=edit&section=11 "Edit section: See also")] See also
+### See also
 
 [ allocator_traits](allocator_traits.html "cpp/memory/allocator traits")(C++11) |  provides information about allocator types   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_allocator_traits&action=edit)  
+(class template)   
 ---|---  
 [ addressof](addressof.html "cpp/memory/addressof")(C++11) |  obtains actual address of an object, even if the `**&**` operator is overloaded   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_addressof&action=edit)
+(function template) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

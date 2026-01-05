@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ named requirements](../iterator/concepts.html "cpp/named req")
 
@@ -147,7 +147,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/named_req/navbar_content&action=edit)
+
 
 Specifies that an object of the type can be constructed into uninitialized storage from an rvalue of that type by a given allocator. 
 
@@ -161,7 +161,7 @@ Specifies that an object of the type can be constructed into uninitialized stora
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/MoveInsertable&action=edit&section=1 "Edit section: Requirements")] Requirements
+### Requirements
 
 Given the following types, values and expressions: 
 
@@ -189,7 +189,7 @@ expr |  [std::allocator_traits](../memory/allocator_traits.html)<A>::construct(m
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/MoveInsertable&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 If `A` is [std::allocator](../memory/allocator.html)<T>, then this will call placement new, as by ::new((void*)p) T(rv)(until C++20)[std::construct_at](../memory/construct_at.html)(p, rv)(since C++20). This effectively requires `T` to be move constructible. 
 
@@ -197,7 +197,7 @@ If [std::allocator](../memory/allocator.html)<T> or a similar allocator is used,
 
 Although it is required that customized `construct` is used when constructing elements of [std::basic_string](../string/basic_string.html "cpp/string/basic string") until C++23, all implementations only used the default mechanism. The requirement is corrected by [P1072R10](https://wg21.link/P1072R10) to match existing practice. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/MoveInsertable&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -205,7 +205,7 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 2177](https://cplusplus.github.io/LWG/issue2177) | C++11  | evaluting expr did not have any postcondition  | added   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/MoveInsertable&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [CopyInsertable](CopyInsertable.html "cpp/named req/CopyInsertable")  
 ---

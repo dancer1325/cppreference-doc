@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -71,7 +71,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::vector`](../vector.html "cpp/container/vector")
 
@@ -133,7 +133,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/vector/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/vector/navbar_content&action=edit)
+
 
 void reserve( size_type new_cap ); |  |  (constexpr since C++20)  
 ---|---|---  
@@ -161,18 +161,18 @@ After a call to `reserve()`, insertions will not trigger reallocation unless the
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/vector/reserve&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 new_cap  |  \-  |  new capacity of the vector, in number of elements   
 ---|---|---  
 Type requirements   
 -`T` must meet the requirements of [MoveInsertable](../../named_req/MoveInsertable.html "cpp/named req/MoveInsertable") into *this. (since C++11)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/vector/reserve&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/vector/reserve&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
   * [std::length_error](../../error/length_error.html "cpp/error/length error") if new_cap > max_size(). 
   * Any exception thrown by `Allocator::allocate()` (typically [std::bad_alloc](../../memory/new/bad_alloc.html "cpp/memory/new/bad alloc")). 
@@ -184,11 +184,11 @@ If an exception is thrown, this function has no effect ([strong exception guaran
 If `T`'s move constructor is not noexcept and T is not [CopyInsertable](../../named_req/CopyInsertable.html "cpp/named req/CopyInsertable") into *this, vector will use the throwing move constructor. If it throws, the guarantee is waived and the effects are unspecified.  | (since C++11)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/vector/reserve&action=edit&section=4 "Edit section: Complexity")] Complexity
+### Complexity
 
 At most linear in the [size()](size.html "cpp/container/vector/size") of the container. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/vector/reserve&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 Correctly using `reserve()` can prevent unnecessary reallocations, but inappropriate uses of `reserve()` (for instance, calling it before every [push_back()](push_back.html "cpp/container/vector/push back") call) may actually increase the number of reallocations (by causing the capacity to grow linearly rather than exponentially) and result in increased computational complexity and decreased performance. For example, a function that receives an arbitrary vector by reference and appends elements to it should usually _not_ call `reserve()` on the vector, since it does not know of the vector's usage characteristics. 
 
@@ -196,7 +196,7 @@ When inserting a range, the range version of [insert()](insert.html "cpp/contain
 
 `reserve()` cannot be used to reduce the capacity of the container; to that end [shrink_to_fit()](shrink_to_fit.html "cpp/container/vector/shrink to fit") is provided. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/vector/reserve&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -296,7 +296,7 @@ Possible output:
      
     deallocating 128 bytes @ 0xa6f900
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/vector/reserve&action=edit&section=7 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -309,14 +309,14 @@ of the vector becomes
 greater than [capacity()](capacity.html "cpp/container/vector/capacity")  
 [LWG 2033](https://cplusplus.github.io/LWG/issue2033) | C++11  | `T` was not required to be [MoveInsertable](../../named_req/MoveInsertable.html "cpp/named req/MoveInsertable") | required   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/vector/reserve&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [ capacity](capacity.html "cpp/container/vector/capacity") |  returns the number of elements that can be held in currently allocated storage   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_capacity&action=edit)  
+(public member function)   
 ---|---  
 [ max_size](max_size.html "cpp/container/vector/max size") |  returns the maximum possible number of elements   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_max_size&action=edit)  
+(public member function)   
 [ resize](resize.html "cpp/container/vector/resize") |  changes the number of elements stored   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_resize&action=edit)  
+(public member function)   
 [ shrink_to_fit](shrink_to_fit.html "cpp/container/vector/shrink to fit")(DR*) |  reduces memory usage by freeing unused memory   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_shrink_to_fit&action=edit)
+(public member function) 

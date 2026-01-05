@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::month_day_last`](../month_day_last.html "cpp/chrono/month day last")
 
@@ -117,7 +117,7 @@ Helper classes
 [formatter<std::chrono::month_day_last>](formatter.html "cpp/chrono/month day last/formatter")  
 [hash<std::chrono::month_day_last>](hash.html "cpp/chrono/month day last/hash")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/month_day_last/navbar_content&action=edit)
+
 
 Defined in header `[<chrono>](../../header/chrono.html "cpp/header/chrono")` |  |   
 ---|---|---  
@@ -131,13 +131,13 @@ Compares the two `month_day_last` values x and y.
 
 The `<`, `<=`, `>`, `>=`, and `!=` operators are [synthesized](../../language/operators.html#Comparison_operators "cpp/language/operators") from operator<=> and operator== respectively. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/month_day_last/operator_cmp&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 1) x.month() == y.month()
 
 2) x.month() <=> y.month()
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/month_day_last/operator_cmp&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     

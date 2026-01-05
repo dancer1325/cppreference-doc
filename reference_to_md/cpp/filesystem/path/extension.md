@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Filesystem library](../../filesystem.html "cpp/filesystem")
 
@@ -100,7 +100,7 @@ filesystem::symlink_status](../status.html "cpp/filesystem/status")
 [filesystem::is_socket](../is_socket.html "cpp/filesystem/is socket")  
 [filesystem::is_symlink](../is_symlink.html "cpp/filesystem/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/navbar_content&action=edit)
+
 
 [`std::filesystem::path`](../path.html "cpp/filesystem/path")
 
@@ -169,7 +169,7 @@ filesystem::symlink_status](../status.html "cpp/filesystem/status")
 | [formatter<std::filesystem::path>](formatter.html "cpp/filesystem/path/formatter")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/path/navbar_content&action=edit)
+
 
 path extension() const; |  |  (since C++17)  
 ---|---|---  
@@ -197,25 +197,25 @@ Additional behavior may be defined by the implementations for file systems which
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/extension&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/extension&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The extension of the current pathname or an empty path if there's no extension. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/impldef_exception&action=edit&section=T-1 "Template:cpp/impldef exception")] Exceptions
+### Exceptions
 
 May throw implementation-defined exceptions. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/extension&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 The extension as returned by this function includes a period to make it possible to distinguish the file that ends with a period (function returns ".") from a file with no extension (function returns ""). 
 
 On a non-POSIX system, it is possible that p.stem() + p.extension() != p.filename() even though generic-format versions are the same. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/extension&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -252,14 +252,14 @@ Output:
     ""
     ".bar"
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/extension&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ filename](filename.html "cpp/filesystem/path/filename") |  returns the filename path component   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/path/dsc_filename&action=edit)  
+(public member function)   
 ---|---  
 [ stem](stem.html "cpp/filesystem/path/stem") |  returns the stem path component (filename without the final extension)   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/path/dsc_stem&action=edit)  
+(public member function)   
 [ replace_extension](replace_extension.html "cpp/filesystem/path/replace extension") |  replaces the extension   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/path/dsc_replace_extension&action=edit)  
+(public member function)   
 [ has_extension](has_path.html "cpp/filesystem/path/has path") |  checks if the corresponding path element is not empty   
 (public member function)

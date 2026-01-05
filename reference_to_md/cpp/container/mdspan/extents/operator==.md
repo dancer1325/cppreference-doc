@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../../container.html "cpp/container")
 
@@ -71,7 +71,7 @@ Tables
 [Member function table](../../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::mdspan`](../../mdspan.html "cpp/container/mdspan")
 
@@ -120,7 +120,7 @@ Tables
 [submdspan_mapping_result](../submdspan_mapping_result.html "cpp/container/mdspan/submdspan mapping result")(C++26)  
 [Deduction guides](../deduction_guides.html "cpp/container/mdspan/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/navbar_content&action=edit)
+
 
 [`std::extents`](../extents.html "cpp/container/mdspan/extents")
 
@@ -142,7 +142,7 @@ Tables
 **extents::operator==**  
 [Deduction guides](deduction_guides.html "cpp/container/mdspan/extents/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/extents/navbar_content&action=edit)
+
 
 template< class OtherIndexType, [std::size_t](../../../types/size_t.html)... OtherExtents >  
 friend constexpr bool operator==(  
@@ -152,16 +152,16 @@ const extents& lhs, const extents<OtherIndexType, OtherExtents...>& rhs ) noexce
   
 Compares two `extents`. Returns true if lhs.rank() equals rhs.rank() and lhs.extent(r) equals rhs.extent(r) for every rank index r of rhs; otherwise returns false. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/extents/operator%3D%3D&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 lhs, rhs  |  \-  |  extents whose values to compare   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/extents/operator%3D%3D&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 true if the extents represented by lhs and rhs are equal, false otherwise 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/extents/operator%3D%3D&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

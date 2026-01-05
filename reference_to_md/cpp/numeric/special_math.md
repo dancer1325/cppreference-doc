@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 **Mathematical special functions**
 
@@ -118,7 +118,7 @@
 [sph_legendresph_legendrefsph_legendrel](special_functions/sph_legendre.html "cpp/numeric/special functions/sph legendre")  
 [sph_neumannsph_neumannfsph_neumannl](special_functions/sph_neumann.html "cpp/numeric/special functions/sph neumann")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/special_functions/navbar_content&action=edit)
+
 
 The Mathematical Special Functions library was originally part of Library TR1 ISO/IEC TR 19768:2007, then published as an independent ISO standard, ISO/IEC 29124:2010, and finally merged to ISO C++ as of C++17. 
 
@@ -134,54 +134,54 @@ See [Mathematical special functions](../experimental/special_math.html "cpp/expe
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/special_functions&action=edit&section=1 "Edit section: Functions")] Functions
+### Functions
 
 Defined in header `[<cmath>](../header/cmath.html "cpp/header/cmath")`  
 ---  
 [ assoc_laguerreassoc_laguerrefassoc_laguerrel](special_functions/assoc_laguerre.html "cpp/numeric/special functions/assoc laguerre")(C++17)(C++17)(C++17) |  associated Laguerre polynomials   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/special_functions/dsc_assoc_laguerre&action=edit)  
+(function)   
 [ assoc_legendreassoc_legendrefassoc_legendrel](special_functions/assoc_legendre.html "cpp/numeric/special functions/assoc legendre")(C++17)(C++17)(C++17) |  associated Legendre polynomials   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/special_functions/dsc_assoc_legendre&action=edit)  
+(function)   
 [ betabetafbetal](special_functions/beta.html "cpp/numeric/special functions/beta")(C++17)(C++17)(C++17) |  beta function   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/special_functions/dsc_beta&action=edit)  
+(function)   
 [ comp_ellint_1comp_ellint_1fcomp_ellint_1l](special_functions/comp_ellint_1.html "cpp/numeric/special functions/comp ellint 1")(C++17)(C++17)(C++17) |  (complete) elliptic integral of the first kind   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/special_functions/dsc_comp_ellint_1&action=edit)  
+(function)   
 [ comp_ellint_2comp_ellint_2fcomp_ellint_2l](special_functions/comp_ellint_2.html "cpp/numeric/special functions/comp ellint 2")(C++17)(C++17)(C++17) |  (complete) elliptic integral of the second kind   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/special_functions/dsc_comp_ellint_2&action=edit)  
+(function)   
 [ comp_ellint_3comp_ellint_3fcomp_ellint_3l](special_functions/comp_ellint_3.html "cpp/numeric/special functions/comp ellint 3")(C++17)(C++17)(C++17) |  (complete) elliptic integral of the third kind   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/special_functions/dsc_comp_ellint_3&action=edit)  
+(function)   
 [ cyl_bessel_icyl_bessel_ifcyl_bessel_il](special_functions/cyl_bessel_i.html "cpp/numeric/special functions/cyl bessel i")(C++17)(C++17)(C++17) |  regular modified cylindrical Bessel functions   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/special_functions/dsc_cyl_bessel_i&action=edit)  
+(function)   
 [ cyl_bessel_jcyl_bessel_jfcyl_bessel_jl](special_functions/cyl_bessel_j.html "cpp/numeric/special functions/cyl bessel j")(C++17)(C++17)(C++17) |  cylindrical Bessel functions (of the first kind)   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/special_functions/dsc_cyl_bessel_j&action=edit)  
+(function)   
 [ cyl_bessel_kcyl_bessel_kfcyl_bessel_kl](special_functions/cyl_bessel_k.html "cpp/numeric/special functions/cyl bessel k")(C++17)(C++17)(C++17) |  irregular modified cylindrical Bessel functions   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/special_functions/dsc_cyl_bessel_k&action=edit)  
+(function)   
 [ cyl_neumanncyl_neumannfcyl_neumannl](special_functions/cyl_neumann.html "cpp/numeric/special functions/cyl neumann")(C++17)(C++17)(C++17) |  cylindrical Neumann functions   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/special_functions/dsc_cyl_neumann&action=edit)  
+(function)   
 [ ellint_1ellint_1fellint_1l](special_functions/ellint_1.html "cpp/numeric/special functions/ellint 1")(C++17)(C++17)(C++17) |  (incomplete) elliptic integral of the first kind   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/special_functions/dsc_ellint_1&action=edit)  
+(function)   
 [ ellint_2ellint_2fellint_2l](special_functions/ellint_2.html "cpp/numeric/special functions/ellint 2")(C++17)(C++17)(C++17) |  (incomplete) elliptic integral of the second kind   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/special_functions/dsc_ellint_2&action=edit)  
+(function)   
 [ ellint_3ellint_3fellint_3l](special_functions/ellint_3.html "cpp/numeric/special functions/ellint 3")(C++17)(C++17)(C++17) |  (incomplete) elliptic integral of the third kind   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/special_functions/dsc_ellint_3&action=edit)  
+(function)   
 [ expintexpintfexpintl](special_functions/expint.html "cpp/numeric/special functions/expint")(C++17)(C++17)(C++17) |  exponential integral   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/special_functions/dsc_expint&action=edit)  
+(function)   
 [ hermitehermitefhermitel](special_functions/hermite.html "cpp/numeric/special functions/hermite")(C++17)(C++17)(C++17) |  Hermite polynomials   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/special_functions/dsc_hermite&action=edit)  
+(function)   
 [ legendrelegendreflegendrel](special_functions/legendre.html "cpp/numeric/special functions/legendre")(C++17)(C++17)(C++17) |  Legendre polynomials   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/special_functions/dsc_legendre&action=edit)  
+(function)   
 [ laguerrelaguerreflaguerrel](special_functions/laguerre.html "cpp/numeric/special functions/laguerre")(C++17)(C++17)(C++17) |  Laguerre polynomials   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/special_functions/dsc_laguerre&action=edit)  
+(function)   
 [ riemann_zetariemann_zetafriemann_zetal](special_functions/riemann_zeta.html "cpp/numeric/special functions/riemann zeta")(C++17)(C++17)(C++17) |  Riemann zeta function   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/special_functions/dsc_riemann_zeta&action=edit)  
+(function)   
 [ sph_besselsph_besselfsph_bessell](special_functions/sph_bessel.html "cpp/numeric/special functions/sph bessel")(C++17)(C++17)(C++17) |  spherical Bessel functions (of the first kind)   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/special_functions/dsc_sph_bessel&action=edit)  
+(function)   
 [ sph_legendresph_legendrefsph_legendrel](special_functions/sph_legendre.html "cpp/numeric/special functions/sph legendre")(C++17)(C++17)(C++17) |  spherical associated Legendre functions   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/special_functions/dsc_sph_legendre&action=edit)  
+(function)   
 [ sph_neumannsph_neumannfsph_neumannl](special_functions/sph_neumann.html "cpp/numeric/special functions/sph neumann")(C++17)(C++17)(C++17) |  spherical Neumann functions   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/special_functions/dsc_sph_neumann&action=edit)  
+(function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/special_functions&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 The float and long double overloads for math special functions without the "`f`" or "`l`" suffix are present in the final draft of ISO/IEC 29124:2010 ([N3060](https://wg21.link/N3060)), but absent in the published C++17/20 standard (see [LWG issue 3234](https://cplusplus.github.io/LWG/issue3234)). These overloads were not provided by MSVC STL until VS 2022 17.3. 
 
@@ -191,7 +191,7 @@ These functions are unrelated to [special member functions](../language/member_f
 ---|---|---|---  
 [`__cpp_lib_math_special_functions`](../experimental/feature_test.html#cpp_lib_math_special_functions "cpp/feature test") | [`201603L`](../compiler_support/17.html#cpp_lib_math_special_functions_201603L "cpp/compiler support/17") | (C++17) | [Mathematical special functions](special_math.html#Top)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/special_functions&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -200,7 +200,7 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [LWG 3234](https://cplusplus.github.io/LWG/issue3234)  
 ([P1467R9](https://wg21.link/P1467R9))  | C++17  | additional overloads for math special functions were missing  | these overloads are required   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/special_functions&action=edit&section=4 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](../history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [Declarations](../declarations.html "cpp/language/declarations")
 
@@ -280,7 +280,7 @@ Other declarations
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/declarations/navbar_content&action=edit)
+
 
 [Attributes](../attributes.html "cpp/language/attributes")
 
@@ -298,7 +298,7 @@ Other declarations
 [optimize_for_synchronized](optimize_for_synchronized.html "cpp/language/attributes/optimize for synchronized")(TM TS)  
 [unlikely](likely.html "cpp/language/attributes/likely")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/attributes/navbar_content&action=edit)
+
 
 Allows this data member to be overlapped with other non-static data members or base class subobjects of its class. 
 
@@ -313,22 +313,22 @@ Allows this data member to be overlapped with other non-static data members or b
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/attributes/no_unique_address&action=edit&section=1 "Edit section: Syntax")] Syntax  
+### Syntax  
   
 ---  
 `**[[no_unique_address]]**` |  |   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/attributes/no_unique_address&action=edit&section=2 "Edit section: Explanation")] Explanation
+### Explanation
 
 Applies to the name being declared in the declaration of a non-static data member that is not a bit-field. 
 
 Makes this member subobject [potentially-overlapping](../objects.html#Subobjects "cpp/language/object"), i.e., allows this member to be overlapped with other non-static data members or base class subobjects of its class. This means that if the member has an empty class type (e.g. stateless allocator), the compiler may optimize it to occupy no space, just like if it were an [empty base](../ebo.html "cpp/language/ebo"). If the member is not empty, any tail padding in it may be also reused to store other data members. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/attributes/no_unique_address&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 [[no_unique_address]] is ignored by MSVC even in C++20 mode; instead, [[msvc::no_unique_address]] is provided. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/attributes/no_unique_address&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -399,7 +399,7 @@ Possible output:
     sizeof(Z) == 2
     sizeof(W) == 3
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/attributes/no_unique_address&action=edit&section=5 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 

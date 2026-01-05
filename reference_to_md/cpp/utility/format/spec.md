@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Formatting library](../format.html "cpp/utility/format")
 
@@ -91,7 +91,7 @@ Formatting arguments
 [Format error](format.html#Format_error "cpp/utility/format/format")  
 [format_error](format_error.html "cpp/utility/format/format error")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/navbar_content&action=edit)
+
 
 For basic types and string types, the format specification is based on the [format specification in Python](https://docs.python.org/3/library/string.html#formatspec). 
 
@@ -116,7 +116,7 @@ The sign, `**#**` and `**0**` options are only valid when an integer or floating
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/spec&action=edit&section=1 "Edit section: Fill and align")] Fill and align
+### Fill and align
 
 fill-and-align is an optional _fill_ character (which can be any character other than `**{**` or `**}**`), followed by one of the _align_ options `**<**`, `**>**`, `**^**`. 
 
@@ -156,7 +156,7 @@ Run this code
         [assert](../../error/assert.html)([std::format](format.html)("{:6}", true)  == "true  ");
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/spec&action=edit&section=2 "Edit section: Sign, #, and 0")] Sign, #, and 0
+### Sign, #, and 0
 
 The sign option can be one of following: 
 
@@ -210,7 +210,7 @@ Run this code
         [assert](../../error/assert.html)([std::format](format.html)("{:<06}", -42)  == "-42   "); // 0 is ignored because of '<'
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/spec&action=edit&section=3 "Edit section: Width and precision")] Width and precision
+### Width and precision
 
 width is either a positive decimal number, or a nested replacement field (`**{}**` or `**{**`_n_`**}**`). If present, it specifies the minimum field width. 
 
@@ -260,7 +260,7 @@ Run this code
         [assert](../../error/assert.html)([std::format](format.html)("{:.<5.5s}", "🐱🐱🐱") == "🐱🐱.");
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/spec&action=edit&section=4 "Edit section: L \(locale-specific formatting\)")] L (locale-specific formatting)
+### L (locale-specific formatting)
 
 The `**L**` option causes the locale-specific form to be used. This option is only valid for arithmetic types. 
 
@@ -270,7 +270,7 @@ The `**L**` option causes the locale-specific form to be used. This option is on
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/spec&action=edit&section=5 "Edit section: Type")] Type
+### Type
 
 The type option determines how the data should be presented. 
 
@@ -438,7 +438,7 @@ Run this code
 
 (since C++23)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/spec&action=edit&section=7 "Edit section: Notes")] Notes
+### Notes
 
 In most of the cases the syntax is similar to the old `**%**`-formatting, with the addition of the `**{}**` and with `**:**` used instead of `**%**`. For example, "%03.2f" can be translated to "{:03.2f}". 
 
@@ -447,7 +447,7 @@ In most of the cases the syntax is similar to the old `**%**`-formatting, with t
 [`__cpp_lib_format_uchar`](../../experimental/feature_test.html#cpp_lib_format_uchar "cpp/feature test") | [`202311L`](../../compiler_support/20.html#cpp_lib_format_uchar_202311L "cpp/compiler support/20") | (C++20)  
 (DR) | Formatting of code units as unsigned integers   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/spec&action=edit&section=8 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

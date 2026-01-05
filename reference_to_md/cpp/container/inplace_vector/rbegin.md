@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::inplace_vector`](../inplace_vector.html "cpp/container/inplace vector")
 
@@ -134,7 +134,7 @@ Tables
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/inplace_vector/navbar_content&action=edit)
+
 
 constexpr reverse_iterator rbegin() noexcept; |  (1) | (since C++26)  
 ---|---|---  
@@ -159,19 +159,19 @@ If *this is empty, the returned iterator is equal to rend().
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/rbegin&action=edit&section=T-1 "Template:cpp/container/rbegin")] Return value
+### Return value
 
 Reverse iterator to the first element. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/rbegin&action=edit&section=T-2 "Template:cpp/container/rbegin")] Complexity
+### Complexity
 
 Constant. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/rbegin&action=edit&section=T-3 "Template:cpp/container/rbegin")] Notes
+### Notes
 
 The [underlying iterator](../../iterator/reverse_iterator/base.html "cpp/iterator/reverse iterator/base") of the returned reverse iterator is the [end iterator](end.html "cpp/container/inplace vector/end"). Hence the returned iterator is invalidated if and when the end iterator is invalidated.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/rbegin&action=edit&section=T-4 "Template:cpp/container/rbegin")] Example
+### Example
 
 Run this code
     
@@ -208,10 +208,10 @@ Output:
      
     Print “arr” in reverse order using [crbegin, crend):	 █ ▇ ▆ ▅ ▄ ▃ ▂ ▁
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/rbegin&action=edit&section=T-5 "Template:cpp/container/rbegin")] See also
+### See also
 
 [ rendcrend](rend.html "cpp/container/inplace vector/rend") |  returns a reverse iterator to the end   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_rend&action=edit)  
+(public member function)   
 ---|---  
 [ rbegincrbegin](../../iterator/rbegin.html "cpp/iterator/rbegin")(C++14) |  returns a reverse iterator to the beginning of a container or array   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_rbegin&action=edit)
+(function template) 

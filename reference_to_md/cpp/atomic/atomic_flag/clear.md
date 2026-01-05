@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::atomic_flag`](../atomic_flag.html "cpp/atomic/atomic flag")
 
@@ -188,7 +188,7 @@ Member functions
 [atomic_flag::notify_one](notify_one.html "cpp/atomic/atomic flag/notify one")(C++20)  
 [atomic_flag::notify_all](notify_all.html "cpp/atomic/atomic flag/notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic_flag/navbar_content&action=edit)
+
 
 Defined in header `[<atomic>](../../header/atomic.html "cpp/header/atomic")` |  |   
 ---|---|---  
@@ -202,12 +202,12 @@ Atomically changes the state of a [std::atomic_flag](../atomic_flag.html "cpp/at
 
 If order is one of [std::memory_order_consume](../memory_order.html), [std::memory_order_acquire](../memory_order.html) and [std::memory_order_acq_rel](../memory_order.html), the behavior is undefined. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_flag/clear&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 order  |  \-  |  the memory synchronization ordering   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_flag/clear&action=edit&section=2 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -215,12 +215,12 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 2138](https://cplusplus.github.io/LWG/issue2138) | C++11  | order could be [std::memory_order_consume](../memory_order.html) | the behavior is undefined in this case   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_flag/clear&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ test_and_set](test_and_set.html "cpp/atomic/atomic flag/test and set") |  atomically sets the flag to true and obtains its previous value   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic_flag/dsc_test_and_set&action=edit)  
+(public member function)   
 ---|---  
 [ atomic_flag_clearatomic_flag_clear_explicit](../atomic_flag_clear.html "cpp/atomic/atomic flag clear")(C++11)(C++11) |  atomically sets the value of the flag to false   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/dsc_atomic_flag_clear&action=edit)  
+(function)   
 [ memory_order](../memory_order.html "cpp/atomic/memory order")(C++11) |  defines memory ordering constraints for the given atomic operation   
-(enum) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/dsc_memory_order&action=edit)
+(enum) 

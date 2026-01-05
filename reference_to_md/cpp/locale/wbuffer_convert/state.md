@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Localization library](../../locale.html "cpp/locale")
 
@@ -152,7 +152,7 @@ base classes](../../locale.html#Facet_category_base_classes "cpp/locale")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/navbar_content&action=edit)
+
 
 [`std::wbuffer_convert`](../wbuffer_convert.html "cpp/locale/wbuffer convert")
 
@@ -163,7 +163,7 @@ Member functions
 [wbuffer_convert::rdbuf](rdbuf.html "cpp/locale/wbuffer convert/rdbuf")  
 **wbuffer_convert::state**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/wbuffer_convert/navbar_content&action=edit)
+
 
 state_type state() const; |  |   
 ---|---|---  
@@ -171,20 +171,20 @@ state_type state() const; |  |
   
 Returns the current value of the conversion state, which is stored in this `wbuffer_convert` object. The conversion state may be explicitly set in the constructor and is updated by all conversion operations. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/wbuffer_convert/state&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 `_[cvtstate](../wbuffer_convert.html#cvtstate "cpp/locale/wbuffer convert")_`
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/wbuffer_convert/state&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/wbuffer_convert/state&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ state](../wstring_convert/state.html "cpp/locale/wstring convert/state") |  returns the current conversion state   
-(public member function of `std::wstring_convert<Codecvt,Elem,Wide_alloc,Byte_alloc>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/wstring_convert/dsc_state&action=edit)  
+(public member function of `std::wstring_convert<Codecvt,Elem,Wide_alloc,Byte_alloc>`)   
 ---|---  
 [ mbsinit](../../string/multibyte/mbsinit.html "cpp/string/multibyte/mbsinit") |  checks if the [std::mbstate_t](../../string/multibyte/mbstate_t.html "cpp/string/multibyte/mbstate t") object represents initial shift state   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/dsc_mbsinit&action=edit)
+(function) 

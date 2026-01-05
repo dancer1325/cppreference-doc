@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Null-terminated byte strings](../byte.html "cpp/string/byte")
 
@@ -143,7 +143,7 @@
 | [strerror](strerror.html "cpp/string/byte/strerror")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/navbar_content&action=edit)
+
 
 Defined in header `[<cstring>](../../header/cstring.html "cpp/header/cstring")` |  |   
 ---|---|---  
@@ -187,17 +187,17 @@ If str or delim is not a pointer to a null-terminated byte string, the behavior 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/strtok&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 str  |  \-  |  pointer to the null-terminated byte string to tokenize   
 ---|---|---  
 delim  |  \-  |  pointer to the null-terminated byte string identifying delimiters   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/strtok&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Returns a pointer to the first character of the next token, or a null pointer if there is no token. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/strtok&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 This function is destructive: it writes the '\0' characters in the elements of the string str. In particular, a [string literal](../../language/string_literal.html "cpp/language/string literal") cannot be used as the first argument of `std::strtok`. 
 
@@ -205,7 +205,7 @@ Each call to this function modifies a static variable: is not thread safe.
 
 Unlike most other tokenizers, the delimiters in `std::strtok` can be different for each subsequent token, and can even depend on the contents of the previous tokens. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/strtok&action=edit&section=4 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     char* strtok(char* str, const char* delim)
@@ -234,7 +234,7 @@ Unlike most other tokenizers, the delimiters in `std::strtok` can be different f
   
 Actual C++ library implementations of this function delegate to the C library, where it may be implemented directly (as in [MUSL libc](https://github.com/bminor/musl/blob/master/src/string/strtok.c)), or in terms of its reentrant version (as in [GNU libc](https://github.com/bminor/glibc/blob/master/string/strtok.c)). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/strtok&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -272,17 +272,17 @@ Output:
     Contents of the input string now:
     "one\0+ two\0* (three\0- four\0!\0"
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/strtok&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ strpbrk](strpbrk.html "cpp/string/byte/strpbrk") |  finds the first location of any character from a set of separators   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strpbrk&action=edit)  
+(function)   
 ---|---  
 [ strcspn](strcspn.html "cpp/string/byte/strcspn") |  returns the length of the maximum initial segment that consists  
 of only the characters not found in another byte string   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strcspn&action=edit)  
+(function)   
 [ strspn](strspn.html "cpp/string/byte/strspn") |  returns the length of the maximum initial segment that consists  
 of only the characters found in another byte string   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strspn&action=edit)  
+(function)   
 [ ranges::split_viewviews::split](../../ranges/split_view.html "cpp/ranges/split view")(C++20) |  a [`view`](../../ranges/view.html "cpp/ranges/view") over the subranges obtained from splitting another [`view`](../../ranges/view.html "cpp/ranges/view") using a delimiter  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_split_view&action=edit)  
+(class template) (range adaptor object)  
 [C documentation](../../../c/string/byte/strtok.html "c/string/byte/strtok") for strtok

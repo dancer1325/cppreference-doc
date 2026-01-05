@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 Defined in header `[<tuple>](../header/tuple.html "cpp/header/tuple")` |  |   
 ---|---|---  
@@ -179,33 +179,33 @@ Provides compile-time indexed access to the types of the elements of a [tuple-li
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/tuple_element&action=edit&section=1 "Edit section: Specializations")] Specializations
+### Specializations
 
 The standard library provides following specializations for standard library types: 
 
 [ std::tuple_element<std::tuple>](tuple/tuple_element.html "cpp/utility/tuple/tuple element")(C++11) |  obtains the type of the specified element   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/dsc_tuple_element&action=edit)  
+(class template specialization)   
 ---|---  
 [ std::tuple_element<std::pair>](pair/tuple_element.html "cpp/utility/pair/tuple element")(C++11) |  obtains the type of the elements of `pair`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/pair/dsc_tuple_element&action=edit)  
+(class template specialization)   
 [ std::tuple_element<std::array>](../container/array/tuple_element.html "cpp/container/array/tuple element")(C++11) |  obtains the type of the elements of `array`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/array/dsc_tuple_element&action=edit)  
+(class template specialization)   
 [ std::tuple_element<std::ranges::subrange>](../ranges/subrange/tuple_element.html "cpp/ranges/subrange/tuple element")(C++20) |  obtains the type of the iterator or the sentinel of a [std::ranges::subrange](../ranges/subrange.html "cpp/ranges/subrange")   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/subrange/dsc_tuple_element&action=edit)  
+(class template specialization)   
 [ std::tuple_element<std::complex>](../numeric/complex/tuple_element.html "cpp/numeric/complex/tuple element")(C++26) |  obtains the underlying real and imaginary number type of a [std::complex](../numeric/complex.html "cpp/numeric/complex")   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_tuple_element&action=edit)  
+(class template specialization)   
   
 Users may specialize `std::tuple_element` for program-defined types to make them tuple-like. 
 
 In normal cases where the `get` functions returns reference members or reference to subobjects, only specializations for cv-unqualified types are needed to be customized. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/tuple_element&action=edit&section=2 "Edit section: Member types")] Member types
+### Member types
 
 Member type  |  Definition   
 ---|---  
 type  |  for a standard specialization, the type of `I`th element of the [tuple-like](tuple/tuple-like.html "cpp/utility/tuple/tuple-like") type `T`, where `I` is in `[`​0​`, `[std::tuple_size](tuple_size.html)<T>::value`)`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/tuple_element&action=edit&section=3 "Edit section: Helper types")] Helper types
+### Helper types
 
 Defined in header `[<tuple>](../header/tuple.html "cpp/header/tuple")` |  |   
 ---|---|---  
@@ -213,13 +213,13 @@ template< [std::size_t](../types/size_t.html) I, class T >
 using tuple_element_t = typename tuple_element<I, T>::type; |  |  (since C++14)  
 | |   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/tuple_element&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](feature_test.html "cpp/utility/feature test") macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_tuple_element_t`](../experimental/feature_test.html#cpp_lib_tuple_element_t "cpp/feature test") | [`201402L`](../compiler_support/14.html#cpp_lib_tuple_element_t_201402L "cpp/compiler support/14") | (C++14) | `std::tuple_element_t`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/tuple_element&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -293,7 +293,7 @@ Output:
     
     42
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/tuple_element&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -301,13 +301,13 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 2212](https://cplusplus.github.io/LWG/issue2212) | C++11  | specializations for cv types were not required in some headers, which led to ambiguity  | required   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/tuple_element&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
-[Structured binding](../language/structured_binding.html "cpp/language/structured binding") (C++17) |  binds the specified names to sub-objects or tuple elements of the initializer[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_structured_binding&action=edit)  
+[Structured binding](../language/structured_binding.html "cpp/language/structured binding") (C++17) |  binds the specified names to sub-objects or tuple elements of the initializer  
 ---|---  
 [ tuple_size](tuple_size.html "cpp/utility/tuple size")(C++11) |  obtains the number of elements of a tuple-like type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_tuple_size&action=edit)  
+(class template)   
 [ tuple_cat](tuple/tuple_cat.html "cpp/utility/tuple/tuple cat")(C++11) |  creates a `tuple` by concatenating any number of tuples   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/dsc_tuple_cat&action=edit)
+(function template) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

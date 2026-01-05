@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header is part of the [Input/output](../io.html "cpp/io") library. 
 
@@ -216,7 +216,7 @@ This header is part of the [Input/output](../io.html "cpp/io") library.
   
 [ basic_ostream](../io/basic_ostream.html "cpp/io/basic ostream") |  wraps a given abstract device ([std::basic_streambuf](../io/basic_streambuf.html "cpp/io/basic streambuf"))  
 and provides high-level output interface   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_basic_ostream&action=edit)  
+(class template)   
 [std::ostream](../io/basic_ostream.html "cpp/io/basic ostream") |  [std::basic_ostream](../io/basic_ostream.html)<char>  
 (typedef)  
 [std::wostream](../io/basic_ostream.html "cpp/io/basic ostream") |  [std::basic_ostream](../io/basic_ostream.html)<wchar_t>  
@@ -225,30 +225,30 @@ and provides high-level output interface
 ###  Functions  
   
 [ operator<<(std::basic_ostream)](../io/basic_ostream/operator_ltlt2.html "cpp/io/basic ostream/operator ltlt2") |  inserts character data or insert into rvalue stream   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ostream/dsc_operator_ltlt2&action=edit)  
+(function template)   
 [ print(std::ostream)](../io/basic_ostream/print.html "cpp/io/basic ostream/print")(C++23) |  outputs [formatted](../utility/format.html "cpp/utility/format") representation of the arguments   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ostream/dsc_print&action=edit)  
+(function template)   
 [ println(std::ostream)](../io/basic_ostream/println.html "cpp/io/basic ostream/println")(C++23) |  outputs [formatted](../utility/format.html "cpp/utility/format") representation of the arguments with appended '\n'   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ostream/dsc_println&action=edit)  
+(function template)   
 [ vprint_unicode(std::ostream)](../io/basic_ostream/vprint_unicode.html "cpp/io/basic ostream/vprint unicode")(C++23) |  performs Unicode aware output using [type-erased](../utility/format/basic_format_args.html "cpp/utility/format/basic format args") argument representation   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ostream/dsc_vprint_unicode&action=edit)  
+(function)   
 [ vprint_nonunicode(std::ostream)](../io/basic_ostream/vprint_nonunicode.html "cpp/io/basic ostream/vprint nonunicode")(C++23) |  outputs character data using [type-erased](../utility/format/basic_format_args.html "cpp/utility/format/basic format args") argument representation   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ostream/dsc_vprint_nonunicode&action=edit)  
+(function)   
   
 #####  Manipulators   
   
 [ endl](../io/manip/endl.html "cpp/io/manip/endl") |  outputs '\n' and flushes the output stream   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_endl&action=edit)  
+(function template)   
 [ ends](../io/manip/ends.html "cpp/io/manip/ends") |  outputs '\0'   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_ends&action=edit)  
+(function template)   
 [ flush](../io/manip/flush.html "cpp/io/manip/flush") |  flushes the output stream   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_flush&action=edit)  
+(function template)   
 [ emit_on_flushnoemit_on_flush](../io/manip/emit_on_flush.html "cpp/io/manip/emit on flush")(C++20) |  controls whether a stream's [`basic_syncbuf`](../io/basic_syncbuf.html "cpp/io/basic syncbuf") emits on flush   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_emit_on_flush&action=edit)  
+(function template)   
 [ flush_emit](../io/manip/flush_emit.html "cpp/io/manip/flush emit")(C++20) |  flushes a stream and emits the content if it is using a [`basic_syncbuf`](../io/basic_syncbuf.html "cpp/io/basic syncbuf")   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_flush_emit&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/ostream&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     namespace std {
@@ -286,7 +286,7 @@ and provides high-level output interface
       void vprint_nonunicode(ostream& os, string_view fmt, format_args args);
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ostream&action=edit&section=T-1 "Template:cpp/synopsis/ostream")] Class template [std::basic_ostream](../io/basic_ostream.html "cpp/io/basic ostream")
+#### Class template [std::basic_ostream](../io/basic_ostream.html "cpp/io/basic ostream")
     
     
     namespace std {
@@ -425,7 +425,7 @@ and provides high-level output interface
           operator<<(basic_ostream<wchar_t, Traits>&, const char32_t*) = delete;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ostream&action=edit&section=T-2 "Template:cpp/synopsis/ostream")] Class [std::basic_ostream::sentry](../io/basic_ostream/sentry.html "cpp/io/basic ostream/sentry")
+#### Class [std::basic_ostream::sentry](../io/basic_ostream/sentry.html "cpp/io/basic ostream/sentry")
     
     
     namespace std {

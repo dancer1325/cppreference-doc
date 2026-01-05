@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Strings library](../../string.html "cpp/string")
 
@@ -40,7 +40,7 @@ Classes
 [basic_string_view](../basic_string_view.html "cpp/string/basic string view")(C++17)  
 [char_traits](../char_traits.html "cpp/string/char traits")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/navbar_content&action=edit)
+
 
 [`std::basic_string_view`](../basic_string_view.html "cpp/string/basic string view")
 
@@ -92,7 +92,7 @@ Constants
 **hash <std::string_view>hash<std::wstring_view>hash<std::u8string_view>hash<std::u16string_view>hash<std::u32string_view>**(C++20)  
 [Deduction guides](deduction_guides.html "cpp/string/basic string view/deduction guides") (C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/navbar_content&action=edit)
+
 
 Defined in header `[<string_view>](../../header/string_view.html "cpp/header/string view")` |  |   
 ---|---|---  
@@ -107,7 +107,7 @@ Template specializations of [std::hash](../../utility/hash.html "cpp/utility/has
 
 These hashes equal the hashes of corresponding [std::basic_string](../basic_string.html "cpp/string/basic string") classes: If S is one of the standard basic_string types, SV is the corresponding string view type, and s is an object of type S, then [std::hash](../../utility/hash.html)<S>()(s) == [std::hash](../../utility/hash.html)<SV>()(SV(s)). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string_view/hash&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -147,11 +147,11 @@ Possible output:
     U"E"  #: 18073225910249204957
     Arcturus Vega Capella Rigel
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string_view/hash&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ hash](../../utility/hash.html "cpp/utility/hash")(C++11) |  hash function object   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_hash&action=edit)  
+(class template)   
 ---|---  
 [ std::hash<std::basic_string>](../basic_string/hash.html "cpp/string/basic string/hash")(C++11) |  hash support for strings   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_hash&action=edit)  
+(class template specialization)   
 ---|---

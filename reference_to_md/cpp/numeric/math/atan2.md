@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [Common mathematical functions](../math.html "cpp/numeric/math")
 
@@ -230,7 +230,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/navbar_content&action=edit)
+
 
 Defined in header `[<cmath>](../../header/cmath.html "cpp/header/cmath")` |  |   
 ---|---|---  
@@ -281,12 +281,12 @@ A) Additional overloads are provided for all integer types, which are treated as
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/atan2&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 y, x  |  \-  |  floating-point or integer values   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/atan2&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 If no errors occur, the arc tangent of y / x (arctan(y  
 ---  
@@ -305,7 +305,7 @@ If a domain error occurs, an implementation-defined value is returned (NaN where
 
 If a range error occurs due to underflow, the correct result (after rounding) is returned. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/atan2&action=edit&section=3 "Edit section: Error handling")] Error handling
+### Error handling
 
 Errors are reported as specified in [math_errhandling](math_errhandling.html "cpp/numeric/math/math errhandling"). 
 
@@ -331,7 +331,7 @@ If the implementation supports IEEE floating-point arithmetic (IEC 60559),
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/atan2&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 std::atan2(y, x) is equivalent to [std::arg](../complex/arg.html)([std::complex](../complex.html)<[std::common_type_t](../../types/common_type.html)<decltype(x), decltype(y)>>(x, y)). 
 
@@ -351,7 +351,7 @@ static_cast<float>(num2)).
 If num1 and num2 have arithmetic types, then std::atan2(num1, num2) has the same effect as std::atan2(static_cast</*common-floating-point-type*/>(num1),  
 static_cast</*common-floating-point-type*/>(num2)), where /*common-floating-point-type*/ is the floating-point type with the greatest [floating-point conversion rank](../../language/usual_arithmetic_conversions.html#Floating-point_conversion_rank "cpp/language/usual arithmetic conversions") and greatest [floating-point conversion subrank](../../language/usual_arithmetic_conversions.html#Floating-point_conversion_subrank "cpp/language/usual arithmetic conversions") between the types of num1 and num2, arguments of integer type are considered to have the same floating-point conversion rank as double. If no such floating-point type with the greatest rank and subrank exists, then [overload resolution](../../language/overload_resolution.html "cpp/language/overload resolution") does not result in a usable candidate from the overloads provided.  | (since C++23)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/atan2&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -395,17 +395,17 @@ Output:
     atan2(7, 0) = 1.5708
     atan2(7,-0) = 1.5708
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/atan2&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ asinasinfasinl](asin.html "cpp/numeric/math/asin")(C++11)(C++11) |  computes arc sine (\\({\small\arcsin{x}}\\)arcsin(x))   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_asin&action=edit)  
+(function)   
 ---|---  
 [ acosacosfacosl](acos.html "cpp/numeric/math/acos")(C++11)(C++11) |  computes arc cosine (\\({\small\arccos{x}}\\)arccos(x))   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_acos&action=edit)  
+(function)   
 [ atanatanfatanl](atan.html "cpp/numeric/math/atan")(C++11)(C++11) |  computes arc tangent (\\({\small\arctan{x}}\\)arctan(x))   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_atan&action=edit)  
+(function)   
 [ arg](../complex/arg.html "cpp/numeric/complex/arg") |  returns the phase angle   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_arg&action=edit)  
+(function template)   
 [ atan2(std::valarray)](../valarray/atan2.html "cpp/numeric/valarray/atan2") |  applies the function **std::atan2** to a valarray and a value   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_atan2&action=edit)  
+(function template)   
 [C documentation](../../../c/numeric/math/atan2.html "c/numeric/math/atan2") for atan2

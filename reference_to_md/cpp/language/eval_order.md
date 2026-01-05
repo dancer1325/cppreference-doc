@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Expressions](expressions.html "cpp/language/expressions")
 
@@ -289,7 +289,7 @@ Conversions
 [`dynamic_cast`](dynamic_cast.html "cpp/language/dynamic cast")  
 [`reinterpret_cast`](reinterpret_cast.html "cpp/language/reinterpret cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/expressions/navbar_content&action=edit)
+
 
 Order of evaluation of any part of any expression, including order of evaluation of function arguments is _unspecified_ (with some exceptions listed below). The compiler can evaluate operands and other subexpressions in any order, and may choose another order when the same expression is evaluated again. 
 
@@ -340,9 +340,9 @@ Possible output:
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/eval_order&action=edit&section=1 "Edit section: "Sequenced before" rules \(since C++11\)")] "Sequenced before" rules (since C++11)
+### "Sequenced before" rules (since C++11)
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/eval_order&action=edit&section=2 "Edit section: Evaluation of Expressions")] Evaluation of Expressions
+#### Evaluation of Expressions
 
 Evaluation of each expression includes: 
 
@@ -351,7 +351,7 @@ Evaluation of each expression includes:
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/eval_order&action=edit&section=3 "Edit section: Ordering")] Ordering
+#### Ordering
 
 _Sequenced before_ is an asymmetric, transitive, pair-wise relationship between evaluations `A` and `B` within the same thread. 
 
@@ -365,7 +365,7 @@ _Sequenced before_ is an asymmetric, transitive, pair-wise relationship between 
 
 An expression X is said to be _sequenced before_ an expression Y if every value computation and every side effect associated with X is sequenced before every value computation and every side effect associated with the expression Y. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/eval_order&action=edit&section=4 "Edit section: Rules")] Rules
+#### Rules
 
 1) Each [full-expression](expressions.html#Full-expressions "cpp/language/expressions") is sequenced before the next full-expression.
 
@@ -413,7 +413,7 @@ An expression X is said to be _sequenced before_ an expression Y if every value 
 13) In a function-call expression, the expression that names the function is sequenced before every argument expression and every default argument. 14) In a function call, value computations and side effects of the initialization of every parameter are indeterminately sequenced with respect to value computations and side effects of any other parameter. 15) Every overloaded operator obeys the sequencing rules of the built-in operator it overloads when called using operator notation. 16) In a subscript expression E1[E2], E1 is sequenced before E2. 17) In a pointer-to-member expression E1.*E2 or E1->*E2, E1 is sequenced before E2 (unless the dynamic type of E1 does not contain the member to which E2 refers). 18) In a shift operator expression E1 << E2 and E1 >> E2, E1 is sequenced before E2. 19) In every simple assignment expression E1 = E2 and every compound assignment expression E1 @= E2, E2 is sequenced before E1. 20) Every expression in a comma-separated list of expressions in a parenthesized initializer is evaluated as if for a function call (indeterminately-sequenced).  | (since C++17)  
 ---|---  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/eval_order&action=edit&section=5 "Edit section: Undefined behavior")] Undefined behavior
+#### Undefined behavior
 
 The behavior is [undefined](ub.html "cpp/language/ub") in the following cases: 
 
@@ -445,15 +445,15 @@ The behavior is [undefined](ub.html "cpp/language/ub") in the following cases:
     union U { int x, y; } u;
     (u.x = 1, 0) + (u.y = 2, 0); // undefined behavior
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/eval_order&action=edit&section=6 "Edit section: Sequence point rules \(until C++11\)")] Sequence point rules (until C++11)
+### Sequence point rules (until C++11)
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/eval_order&action=edit&section=7 "Edit section: Pre-C++11 Definitions")] Pre-C++11 Definitions
+#### Pre-C++11 Definitions
 
 Evaluation of an expression might produce side effects, which are: accessing an object designated by a volatile lvalue, modifying an object, calling a library I/O function, or calling a function that does any of those operations. 
 
 A _sequence point_ is a point in the execution sequence where all side effects from the previous evaluations in the sequence are complete, and no side effects of the subsequent evaluations started. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/eval_order&action=edit&section=8 "Edit section: Pre-C++11 Rules")] Pre-C++11 Rules
+#### Pre-C++11 Rules
 
 1) There is a sequence point at the end of each [full-expression](expressions.html#Full-expressions "cpp/language/expressions") (typically, at the semicolon).
 
@@ -473,7 +473,7 @@ A _sequence point_ is a point in the execution sequence where all side effects f
     a ? b : c
     a , b
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/eval_order&action=edit&section=9 "Edit section: Pre-C++11 Undefined behavior")] Pre-C++11 Undefined behavior
+#### Pre-C++11 Undefined behavior
 
 The behavior is [undefined](ub.html "cpp/language/ub") in the following cases: 
 
@@ -493,7 +493,7 @@ The behavior is [undefined](ub.html "cpp/language/ub") in the following cases:
     cout << i << i++; // undefined behavior
     a[i] = i++;       // undefined behavior
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/eval_order&action=edit&section=10 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -509,7 +509,7 @@ the lifetime of an object in the same memory location  | the behavior is
 undefined in this case   
 [CWG 2146](https://cplusplus.github.io/CWG/issues/2146.html) | C++98  | the cases involving undefined behaviors did not consider bit-fields  | considered   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/eval_order&action=edit&section=11 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -801,7 +801,7 @@ undefined in this case
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/eval_order&action=edit&section=12 "Edit section: See also")] See also
+### See also
 
   * [Operator precedence](operator_precedence.html "cpp/language/operator precedence") which defines how expressions are built from their source code representation. 
 

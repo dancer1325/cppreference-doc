@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 Defined in header `[<ranges>](../header/ranges.html "cpp/header/ranges")` |  |   
 ---|---|---  
@@ -258,7 +258,7 @@ constexpr empty_view<T> empty{};
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/empty_view&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 begin[static] |  returns nullptr   
 (public static member function)  
@@ -275,17 +275,17 @@ empty[static] |  returns true
 #####  Inherited from [std::ranges::view_interface](view_interface.html "cpp/ranges/view interface")  
   
 [ cbegin](view_interface/cbegin.html "cpp/ranges/view interface/cbegin")(C++23) |  returns a constant iterator to the beginning of the range   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_cbegin&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ cend](view_interface/cend.html "cpp/ranges/view interface/cend")(C++23) |  returns a sentinel for the constant iterator of the range   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_cend&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ operator bool](view_interface/operator_bool.html "cpp/ranges/view interface/operator bool") |  returns whether the derived view is not empty, provided only if [ranges::empty](empty.html "cpp/ranges/empty") is applicable to it   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_operator_bool&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ front](view_interface/front.html "cpp/ranges/view interface/front") |  returns the first element in the derived view, provided if it satisfies [`forward_range`](forward_range.html "cpp/ranges/forward range")   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_front&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ back](view_interface/back.html "cpp/ranges/view interface/back") |  returns the last element in the derived view, provided only if it satisfies [`bidirectional_range`](bidirectional_range.html "cpp/ranges/bidirectional range") and [`common_range`](common_range.html "cpp/ranges/common range")   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_back&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ operator[]](view_interface/operator_at.html "cpp/ranges/view interface/operator at") |  returns the `n`th element in the derived view, provided only if it satisfies [`random_access_range`](random_access_range.html "cpp/ranges/random access range")   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_operator_at&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
   
 ##  std::ranges::empty_view::begin
 
@@ -327,7 +327,7 @@ static constexpr bool empty() noexcept { return true; } |  |  (since C++20)
   
 `empty_view` is always empty. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/empty_view&action=edit&section=2 "Edit section: Helper templates")] Helper templates
+### Helper templates
 
 template<class T>  
 constexpr bool [ranges::enable_borrowed_range](borrowed_range.html)<ranges::empty_view<T>> = true; |  |  (since C++20)  
@@ -336,13 +336,13 @@ constexpr bool [ranges::enable_borrowed_range](borrowed_range.html)<ranges::empt
   
 This specialization of [ranges::enable_borrowed_range](borrowed_range.html) makes `empty_view` satisfy [`borrowed_range`](borrowed_range.html "cpp/ranges/borrowed range"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/empty_view&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Although `empty_view` obtains `front`, `back`, and operator[] member functions from `view_interface`, calls to them always result in undefined behavior since an `empty_view` is always empty. 
 
 The inherited operator bool conversion function always returns false. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/empty_view&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -363,14 +363,14 @@ Run this code
         static_assert(nullptr == e.cend());
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/empty_view&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ optional](../utility/optional.html "cpp/utility/optional")(C++17) |  a wrapper that may or may not hold an object   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_optional&action=edit)  
+(class template)   
 ---|---  
 [ ranges::single_viewviews::single](single_view.html "cpp/ranges/single view")(C++20) |  a [`view`](view.html "cpp/ranges/view") that contains a single element of a specified value  
-(class template) (customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_single_view&action=edit)  
+(class template) (customization point object)  
 [ views::all_tviews::all](all_view.html "cpp/ranges/all view")(C++20) |  a [`view`](view.html "cpp/ranges/view") that includes all elements of a [`range`](range.html "cpp/ranges/range")  
-(alias template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_all_view&action=edit)  
+(alias template) (range adaptor object)  
 [ ranges::ref_view](ref_view.html "cpp/ranges/ref view")(C++20) |  a [`view`](view.html "cpp/ranges/view") of the elements of some other [`range`](range.html "cpp/ranges/range")   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_ref_view&action=edit)
+(class template) 

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::latch`](../latch.html "cpp/thread/latch")
 
@@ -188,7 +188,7 @@ Member functions
 Constants  
 [latch::max](max.html "cpp/thread/latch/max")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/latch/navbar_content&action=edit)
+
 
 constexpr explicit latch( [std::ptrdiff_t](../../types/ptrdiff_t.html) expected ); |  (1)  |  (since C++20)  
 ---|---|---  
@@ -199,11 +199,11 @@ latch( const latch& ) = delete; |  (2)  |  (since C++20)
 
 2) Copy constructor is deleted. `latch` is neither copyable nor movable.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/latch/latch&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 expected  |  \-  |  the initial value of the internal counter   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/latch/latch&action=edit&section=2 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Throws nothing. 

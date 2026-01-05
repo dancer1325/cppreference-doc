@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Filesystem library](../fs.html "cpp/experimental/fs")
 
@@ -124,7 +124,7 @@ File types
 [filesystem::is_socket](is_socket.html "cpp/experimental/fs/is socket")  
 [filesystem::is_symlink](is_symlink.html "cpp/experimental/fs/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/navbar_content&action=edit)
+
 
 Defined in header `[<experimental/filesystem>](../../header/experimental/filesystem.html "cpp/header/experimental/filesystem")` |  |   
 ---|---|---  
@@ -146,7 +146,7 @@ This type represents available options that control the behavior of the [`copy()
 
 `copy_options` satisfies the requirements of [BitmaskType](../../named_req/BitmaskType.html "cpp/named req/BitmaskType") (which means the bitwise operators operator&, operator|, operator^, operator~, operator&=, operator|=, and operator^= are defined for this type). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/copy_options&action=edit&section=1 "Edit section: Member constants")] Member constants
+### Member constants
 
 At most one copy option in each of the following options groups may be present, otherwise the behavior of the copy functions is undefined. 
 
@@ -170,7 +170,7 @@ options controlling the kind of copying [`copy()`](copy.html "cpp/experimental/f
 `create_symlinks` | 128 | Instead of creating copies of files, create symlinks pointing to the originals. Note: the source path must be an absolute path unless the destination path is in the current directory.   
 `create_hard_links` | 256 | Instead of creating copies of files, create hardlinks that resolve to the same files as the originals.   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/copy_options&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -197,10 +197,10 @@ Run this code
         fs::remove_all("sandbox");
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/copy_options&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ copy](copy.html "cpp/experimental/fs/copy") |  copies files or directories   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_copy&action=edit)  
+(function)   
 ---|---  
 [ copy_file](copy_file.html "cpp/experimental/fs/copy file") |  copies file contents   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_copy_file&action=edit)
+(function) 

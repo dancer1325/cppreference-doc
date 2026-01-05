@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Metaprogramming library](../meta.html "cpp/meta")
 
@@ -167,7 +167,7 @@ Type transformations
 Compile-time integer sequences  
 [integer_sequence](../utility/integer_sequence.html "cpp/utility/integer sequence")(C++14)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/meta/navbar_content&action=edit)
+
 
 Defined in header `[<type_traits>](../header/type_traits.html "cpp/header/type traits")` |  |   
 ---|---|---  
@@ -196,7 +196,7 @@ If the program adds specializations for `std::integral_constant`, the behavior i
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/integral_constant&action=edit&section=1 "Edit section: Helper alias templates")] Helper alias templates
+### Helper alias templates
 
 A helper alias template `std::bool_constant` is defined for the common case where `T` is bool. 
 
@@ -205,7 +205,7 @@ using bool_constant = integral_constant<bool, B>; |  |  (since C++17)
 ---|---|---  
 | |   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/integral_constant&action=edit&section=2 "Edit section: Specializations")] Specializations
+### Specializations
 
 Two typedefs for the common case where `T` is bool are provided: 
 
@@ -215,27 +215,27 @@ Name  |  Definition
 `true_type` |  std::integral_constant<bool, true>  
 `false_type` |  std::integral_constant<bool, false>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/integral_constant&action=edit&section=3 "Edit section: Member types")] Member types
+### Member types
 
 Name  |  Definition   
 ---|---  
 `value_type` |  T  
 `type` |  std::integral_constant<T, v>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/integral_constant&action=edit&section=4 "Edit section: Member constants")] Member constants
+### Member constants
 
 Name  |  Value   
 ---|---  
 constexpr T value[static] |  v   
 (public static member constant)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/integral_constant&action=edit&section=5 "Edit section: Member functions")] Member functions
+### Member functions
 
 ** operator value_type** |  returns the wrapped value   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/integral_constant/dsc_operator_value_type&action=edit)  
+(public member function)   
 ---|---  
 ** operator()**(C++14) |  returns the wrapped value   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/integral_constant/dsc_operator\(\)&action=edit)  
+(public member function) &action=edit)  
   
 ##  std::integral_constant::operator value_type
 
@@ -253,7 +253,7 @@ constexpr value_type operator()() const noexcept; |  |  (since C++14)
   
 Returns the wrapped value. This function enables `std::integral_constant` to serve as a source of compile-time function objects. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/integral_constant&action=edit&section=6 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     template<class T, T v>
@@ -268,14 +268,14 @@ Returns the wrapped value. This function enables `std::integral_constant` to ser
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/integral_constant&action=edit&section=7 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../utility/feature_test.html "cpp/utility/feature test") macro  | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_integral_constant_callable`](../experimental/feature_test.html#cpp_lib_integral_constant_callable "cpp/feature test") | [`201304L`](../compiler_support/14.html#cpp_lib_integral_constant_callable_201304L "cpp/compiler support/14") | (C++14) | `std::integral_constant::operator()`  
 [`__cpp_lib_bool_constant`](../experimental/feature_test.html#cpp_lib_bool_constant "cpp/feature test") | [`201505L`](../compiler_support/17.html#cpp_lib_bool_constant_201505L "cpp/compiler support/17") | (C++17) | `std::bool_constant`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/integral_constant&action=edit&section=8 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -298,10 +298,10 @@ Run this code
      
     int main() {}
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/integral_constant&action=edit&section=9 "Edit section: See also")] See also
+### See also
 
 [ integer_sequence](../utility/integer_sequence.html "cpp/utility/integer sequence")(C++14) |  implements compile-time sequence of integers   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_integer_sequence&action=edit)  
+(class template)   
 ---|---
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

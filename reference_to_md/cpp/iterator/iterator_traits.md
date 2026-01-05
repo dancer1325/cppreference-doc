@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](empty.html "cpp/iterator/empty")(C++17)  
 [data](data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 Defined in header `[<iterator>](../header/iterator.html "cpp/header/iterator")` |  |   
 ---|---|---  
@@ -227,12 +227,12 @@ User specializations may define the nested type `iterator_concept` to one of [it
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/iterator_traits&action=edit&section=1 "Edit section: Template parameters")] Template parameters
+### Template parameters
 
 Iter  |  \-  |  the iterator type to retrieve properties for   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/iterator_traits&action=edit&section=2 "Edit section: Member types")] Member types
+### Member types
 
 Nested type  |  Definition   
 ---|---  
@@ -306,14 +306,14 @@ Otherwise, this template has no members by any of those names (`std::iterator_tr
 
 (since C++20)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/iterator_traits&action=edit&section=3 "Edit section: Specializations")] Specializations
+### Specializations
 
 This type trait may be specialized for user-provided types that may be used as iterators. The standard library provides partial specializations for pointer types `T*`, which makes it possible to use all iterator-based algorithms with raw pointers. 
 
 The standard library also provides partial specializations for some standard iterator adaptors.  | (since C++20)  
 ---|---  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/iterator_traits&action=edit&section=4 "Edit section: T* specialization nested types")] `T*` specialization nested types
+#### `T*` specialization nested types
 
 Only specialized if [std::is_object_v](../types/is_object.html)<T> is true.  | (since C++20)  
 ---|---  
@@ -344,15 +344,15 @@ Nested type  |  Definition
 `iterator_category` |  [std::random_access_iterator_tag](iterator_tags.html "cpp/iterator/iterator tags")  
 (until C++20)  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/iterator_traits&action=edit&section=6 "Edit section: Specializations for library types")] Specializations for library types
+#### Specializations for library types
 
 [ std::iterator_traits<std::common_iterator>](common_iterator/iterator_traits.html "cpp/iterator/common iterator/iterator traits")(C++20) |  provides uniform interface to the properties of the [std::common_iterator](common_iterator.html "cpp/iterator/common iterator") type   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/common_iterator/dsc_iterator_traits&action=edit)  
+(class template specialization)   
 ---|---  
 [ std::iterator_traits<std::counted_iterator>](counted_iterator/iterator_traits.html "cpp/iterator/counted iterator/iterator traits")(C++20) |  provides uniform interface to the properties of the [std::counted_iterator](counted_iterator.html "cpp/iterator/counted iterator") type   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/counted_iterator/dsc_iterator_traits&action=edit)  
+(class template specialization)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/iterator_traits&action=edit&section=7 "Edit section: Example")] Example
+### Example
 
 Shows a general-purpose [std::reverse](../algorithm/reverse.html)() implementation for bidirectional iterators.
 
@@ -407,12 +407,12 @@ Output:
     5 4 3 2 1
     5 4 3 2 1
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/iterator_traits&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [ iterator](iterator.html "cpp/iterator/iterator")(deprecated in C++17) |  base class to ease the definition of required types for simple iterators   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_iterator&action=edit)  
+(class template)   
 ---|---  
 [ input_iterator_tagoutput_iterator_tagforward_iterator_tagbidirectional_iterator_tagrandom_access_iterator_tagcontiguous_iterator_tag](iterator_tags.html "cpp/iterator/iterator tags")(C++20) |  empty class types used to indicate iterator categories   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_iterator_tags&action=edit)  
+(class)   
 [ iter_value_titer_reference_titer_const_reference_titer_difference_titer_rvalue_reference_titer_common_reference_t](iter_t.html "cpp/iterator/iter t")(C++20)(C++20)(C++23)(C++20)(C++20)(C++20) |  computes the associated types of an iterator  
-(alias template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_iter_t&action=edit)
+(alias template)

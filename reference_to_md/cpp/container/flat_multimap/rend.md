@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::flat_multimap`](../flat_multimap.html "cpp/container/flat multimap")
 
@@ -138,7 +138,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/flat multimap/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/flat_multimap/navbar_content&action=edit)
+
 
 reverse_iterator rend() noexcept; |  (1) | (since C++23)   
 (constexpr since C++26)  
@@ -165,15 +165,15 @@ This returned iterator only acts as a sentinel. It is not guaranteed to be [dere
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/rend&action=edit&section=T-1 "Template:cpp/container/rend")] Return value
+### Return value
 
 Reverse iterator to the element following the last element. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/rend&action=edit&section=T-2 "Template:cpp/container/rend")] Complexity
+### Complexity
 
 Constant. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/rend&action=edit&section=T-4 "Template:cpp/container/rend")] Example
+### Example
 
 Run this code
     
@@ -222,10 +222,10 @@ Possible output:
     2020-04-01 : 24
     2020-04-01 : 42
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/rend&action=edit&section=T-5 "Template:cpp/container/rend")] See also
+### See also
 
 [ rbegincrbegin](rbegin.html "cpp/container/flat multimap/rbegin") |  returns a reverse iterator to the beginning   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_rbegin&action=edit)  
+(public member function)   
 ---|---  
 [ rendcrend](../../iterator/rend.html "cpp/iterator/rend")(C++14) |  returns a reverse end iterator for a container or array   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_rend&action=edit)
+(function template) 

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header is part of the [filesystem support](../filesystem.html "cpp/filesystem") library. 
 
@@ -220,126 +220,126 @@ This header is part of the [filesystem support](../filesystem.html "cpp/filesyst
   
 ###  Includes  
   
-[ <compare>](compare.html "cpp/header/compare")(C++20) |  [Three-way comparison operator](../language/operator_comparison.html#Three-way_comparison "cpp/language/operator comparison") support[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/dsc_compare&action=edit)  
+[ <compare>](compare.html "cpp/header/compare")(C++20) |  [Three-way comparison operator](../language/operator_comparison.html#Three-way_comparison "cpp/language/operator comparison") support  
   
 ###  Classes  
   
 Defined in namespace `std::filesystem`  
 [ path](../filesystem/path.html "cpp/filesystem/path")(C++17) |  represents a path   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_path&action=edit)  
+(class)   
 [ filesystem_error](../filesystem/filesystem_error.html "cpp/filesystem/filesystem error")(C++17) |  an exception thrown on file system errors   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_filesystem_error&action=edit)  
+(class)   
 [ directory_entry](../filesystem/directory_entry.html "cpp/filesystem/directory entry")(C++17) |  a directory entry   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_directory_entry&action=edit)  
+(class)   
 [ directory_iterator](../filesystem/directory_iterator.html "cpp/filesystem/directory iterator")(C++17) |  an iterator to the contents of the directory   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_directory_iterator&action=edit)  
+(class)   
 [ recursive_directory_iterator](../filesystem/recursive_directory_iterator.html "cpp/filesystem/recursive directory iterator")(C++17) |  an iterator to the contents of a directory and its subdirectories   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_recursive_directory_iterator&action=edit)  
+(class)   
 [ file_status](../filesystem/file_status.html "cpp/filesystem/file status")(C++17) |  represents file type and permissions   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_file_status&action=edit)  
+(class)   
 [ space_info](../filesystem/space_info.html "cpp/filesystem/space info")(C++17) |  information about free and available space on the filesystem   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_space_info&action=edit)  
+(class)   
 [ file_type](../filesystem/file_type.html "cpp/filesystem/file type")(C++17) |  the type of a file   
-(enum) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_file_type&action=edit)  
+(enum)   
 [ perms](../filesystem/perms.html "cpp/filesystem/perms")(C++17) |  identifies file system permissions   
-(enum) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_perms&action=edit)  
+(enum)   
 [ perm_options](../filesystem/perm_options.html "cpp/filesystem/perm options")(C++17) |  specifies semantics of permissions operations   
-(enum) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_perm_options&action=edit)  
+(enum)   
 [ copy_options](../filesystem/copy_options.html "cpp/filesystem/copy options")(C++17) |  specifies semantics of copy operations   
-(enum) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_copy_options&action=edit)  
+(enum)   
 [ directory_options](../filesystem/directory_options.html "cpp/filesystem/directory options")(C++17) |  options for iterating directory contents   
-(enum) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_directory_options&action=edit)  
+(enum)   
 [ file_time_type](../filesystem/file_time_type.html "cpp/filesystem/file time type")(C++17) |  represents file time values   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_file_time_type&action=edit)  
+(typedef)   
 Defined in namespace `std`  
 [ std::hash<std::filesystem::path>](../filesystem/path/hash.html "cpp/filesystem/path/hash")(C++17) |  hash support for [`std::filesystem::path`](../filesystem/path.html "cpp/filesystem/path")   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/path/dsc_hash&action=edit)  
+(class template specialization)   
   
 #####  Forward declarations   
   
 Defined in header `[<functional>](functional.html "cpp/header/functional")`  
 Defined in namespace `std`  
 [ hash](../utility/hash.html "cpp/utility/hash")(C++11) |  hash function object   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_hash&action=edit)  
+(class template)   
   
 ###  Functions  
   
 Defined in namespace `std::filesystem`  
 [ u8path](../filesystem/path/u8path.html "cpp/filesystem/path/u8path")(C++17)(deprecated in C++20) |  creates a `path` from a UTF-8 encoded source   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/path/dsc_u8path&action=edit)  
+(function)   
 [ absolute](../filesystem/absolute.html "cpp/filesystem/absolute")(C++17) |  composes an absolute path   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_absolute&action=edit)  
+(function)   
 [ canonicalweakly_canonical](../filesystem/canonical.html "cpp/filesystem/canonical")(C++17) |  composes a canonical path   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_canonical&action=edit)  
+(function)   
 [ relativeproximate](../filesystem/relative.html "cpp/filesystem/relative")(C++17) |  composes a relative path   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_relative&action=edit)  
+(function)   
 [ copy](../filesystem/copy.html "cpp/filesystem/copy")(C++17) |  copies files or directories   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_copy&action=edit)  
+(function)   
 [ copy_file](../filesystem/copy_file.html "cpp/filesystem/copy file")(C++17) |  copies file contents   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_copy_file&action=edit)  
+(function)   
 [ copy_symlink](../filesystem/copy_symlink.html "cpp/filesystem/copy symlink")(C++17) |  copies a symbolic link   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_copy_symlink&action=edit)  
+(function)   
 [ create_directorycreate_directories](../filesystem/create_directory.html "cpp/filesystem/create directory")(C++17)(C++17) |  creates new directory   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_create_directory&action=edit)  
+(function)   
 [ create_hard_link](../filesystem/create_hard_link.html "cpp/filesystem/create hard link")(C++17) |  creates a hard link   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_create_hard_link&action=edit)  
+(function)   
 [ create_symlinkcreate_directory_symlink](../filesystem/create_symlink.html "cpp/filesystem/create symlink")(C++17)(C++17) |  creates a symbolic link   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_create_symlink&action=edit)  
+(function)   
 [ current_path](../filesystem/current_path.html "cpp/filesystem/current path")(C++17) |  returns or sets the current working directory   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_current_path&action=edit)  
+(function)   
 [ exists](../filesystem/exists.html "cpp/filesystem/exists")(C++17) |  checks whether path refers to existing file system object   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_exists&action=edit)  
+(function)   
 [ equivalent](../filesystem/equivalent.html "cpp/filesystem/equivalent")(C++17) |  checks whether two paths refer to the same file system object   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_equivalent&action=edit)  
+(function)   
 [ file_size](../filesystem/file_size.html "cpp/filesystem/file size")(C++17) |  returns the size of a file   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_file_size&action=edit)  
+(function)   
 [ hard_link_count](../filesystem/hard_link_count.html "cpp/filesystem/hard link count")(C++17) |  returns the number of hard links referring to the specific file   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_hard_link_count&action=edit)  
+(function)   
 [ last_write_time](../filesystem/last_write_time.html "cpp/filesystem/last write time")(C++17) |  gets or sets the time of the last data modification   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_last_write_time&action=edit)  
+(function)   
 [ permissions](../filesystem/permissions.html "cpp/filesystem/permissions")(C++17) |  modifies file access permissions   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_permissions&action=edit)  
+(function)   
 [ read_symlink](../filesystem/read_symlink.html "cpp/filesystem/read symlink")(C++17) |  obtains the target of a symbolic link   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_read_symlink&action=edit)  
+(function)   
 [ removeremove_all](../filesystem/remove.html "cpp/filesystem/remove")(C++17)(C++17) |  removes a file or empty directory  
 removes a file or directory and all its contents, recursively   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_remove&action=edit)  
+(function)   
 [ rename](../filesystem/rename.html "cpp/filesystem/rename")(C++17) |  moves or renames a file or directory   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_rename&action=edit)  
+(function)   
 [ resize_file](../filesystem/resize_file.html "cpp/filesystem/resize file")(C++17) |  changes the size of a regular file by truncation or zero-fill   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_resize_file&action=edit)  
+(function)   
 [ space](../filesystem/space.html "cpp/filesystem/space")(C++17) |  determines available free space on the file system   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_space&action=edit)  
+(function)   
 [ statussymlink_status](../filesystem/status.html "cpp/filesystem/status")(C++17)(C++17) |  determines file attributes  
 determines file attributes, checking the symlink target   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_status&action=edit)  
+(function)   
 [ temp_directory_path](../filesystem/temp_directory_path.html "cpp/filesystem/temp directory path")(C++17) |  returns a directory suitable for temporary files   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_temp_directory_path&action=edit)  
+(function)   
   
 #####  File types   
   
 [ is_block_file](../filesystem/is_block_file.html "cpp/filesystem/is block file")(C++17) |  checks whether the given path refers to block device   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_is_block_file&action=edit)  
+(function)   
 [ is_character_file](../filesystem/is_character_file.html "cpp/filesystem/is character file")(C++17) |  checks whether the given path refers to a character device   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_is_character_file&action=edit)  
+(function)   
 [ is_directory](../filesystem/is_directory.html "cpp/filesystem/is directory")(C++17) |  checks whether the given path refers to a directory   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_is_directory&action=edit)  
+(function)   
 [ is_empty](../filesystem/is_empty.html "cpp/filesystem/is empty")(C++17) |  checks whether the given path refers to an empty file or directory   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_is_empty&action=edit)  
+(function)   
 [ is_fifo](../filesystem/is_fifo.html "cpp/filesystem/is fifo")(C++17) |  checks whether the given path refers to a named pipe   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_is_fifo&action=edit)  
+(function)   
 [ is_other](../filesystem/is_other.html "cpp/filesystem/is other")(C++17) |  checks whether the argument refers to an _other_ file   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_is_other&action=edit)  
+(function)   
 [ is_regular_file](../filesystem/is_regular_file.html "cpp/filesystem/is regular file")(C++17) |  checks whether the argument refers to a regular file   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_is_regular_file&action=edit)  
+(function)   
 [ is_socket](../filesystem/is_socket.html "cpp/filesystem/is socket")(C++17) |  checks whether the argument refers to a named IPC socket   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_is_socket&action=edit)  
+(function)   
 [ is_symlink](../filesystem/is_symlink.html "cpp/filesystem/is symlink")(C++17) |  checks whether the argument refers to a symbolic link   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_is_symlink&action=edit)  
+(function)   
 [ status_known](../filesystem/status_known.html "cpp/filesystem/status known")(C++17) |  checks whether file status is known   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_status_known&action=edit)  
+(function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/filesystem&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     #include <compare>
@@ -560,7 +560,7 @@ determines file attributes, checking the symlink target
       inline constexpr bool enable_view<filesystem::recursive_directory_iterator> = true;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/filesystem&action=edit&section=T-1 "Template:cpp/synopsis/filesystem")] Class [std::filesystem::path](../filesystem/path.html "cpp/filesystem/path")
+#### Class [std::filesystem::path](../filesystem/path.html "cpp/filesystem/path")
     
     
     namespace std::filesystem {
@@ -715,7 +715,7 @@ determines file attributes, checking the symlink target
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/filesystem&action=edit&section=T-2 "Template:cpp/synopsis/filesystem")] Class [std::filesystem::filesystem_error](../filesystem/filesystem_error.html "cpp/filesystem/filesystem error")
+#### Class [std::filesystem::filesystem_error](../filesystem/filesystem_error.html "cpp/filesystem/filesystem error")
     
     
     namespace std::filesystem {
@@ -733,7 +733,7 @@ determines file attributes, checking the symlink target
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/filesystem&action=edit&section=T-3 "Template:cpp/synopsis/filesystem")] Class [std::filesystem::directory_entry](../filesystem/directory_entry.html "cpp/filesystem/directory entry")
+#### Class [std::filesystem::directory_entry](../filesystem/directory_entry.html "cpp/filesystem/directory entry")
     
     
     namespace std::filesystem {
@@ -805,7 +805,7 @@ determines file attributes, checking the symlink target
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/filesystem&action=edit&section=T-4 "Template:cpp/synopsis/filesystem")] Class [std::filesystem::directory_iterator](../filesystem/directory_iterator.html "cpp/filesystem/directory iterator")
+#### Class [std::filesystem::directory_iterator](../filesystem/directory_iterator.html "cpp/filesystem/directory iterator")
     
     
     namespace std::filesystem {
@@ -844,7 +844,7 @@ determines file attributes, checking the symlink target
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/filesystem&action=edit&section=T-5 "Template:cpp/synopsis/filesystem")] Class [std::filesystem::recursive_directory_iterator](../filesystem/recursive_directory_iterator.html "cpp/filesystem/recursive directory iterator")
+#### Class [std::filesystem::recursive_directory_iterator](../filesystem/recursive_directory_iterator.html "cpp/filesystem/recursive directory iterator")
     
     
     namespace std::filesystem {
@@ -896,7 +896,7 @@ determines file attributes, checking the symlink target
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/filesystem&action=edit&section=T-6 "Template:cpp/synopsis/filesystem")] Class [std::filesystem::file_status](../filesystem/file_status.html "cpp/filesystem/file status")
+#### Class [std::filesystem::file_status](../filesystem/file_status.html "cpp/filesystem/file status")
     
     
     namespace std::filesystem {

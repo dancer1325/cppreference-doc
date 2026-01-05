@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 **Input/output manipulators**
 
@@ -154,7 +154,7 @@ Time and money I/O
 Quoted manipulator  
 [quoted](manip/quoted.html "cpp/io/manip/quoted")(C++14)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/navbar_content&action=edit)
+
 
 Manipulators are helper functions that make it possible to control input/output streams using operator<< or operator>>. 
 
@@ -165,59 +165,59 @@ The manipulators that are invoked with arguments (e.g. [std::cout](cout.html) <<
 Defined in header `[<ios>](../header/ios.html "cpp/header/ios")`  
 ---  
 [ boolalphanoboolalpha](manip/boolalpha.html "cpp/io/manip/boolalpha") |  switches between textual and numeric representation of booleans   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_boolalpha&action=edit)  
+(function)   
 [ showbasenoshowbase](manip/showbase.html "cpp/io/manip/showbase") |  controls whether prefix is used to indicate numeric base   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_showbase&action=edit)  
+(function)   
 [ showpointnoshowpoint](manip/showpoint.html "cpp/io/manip/showpoint") |  controls whether decimal point is always included in floating-point representation   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_showpoint&action=edit)  
+(function)   
 [ showposnoshowpos](manip/showpos.html "cpp/io/manip/showpos") |  controls whether the `**+**` sign used with non-negative numbers   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_showpos&action=edit)  
+(function)   
 [ skipwsnoskipws](manip/skipws.html "cpp/io/manip/skipws") |  controls whether leading whitespace is skipped on input   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_skipws&action=edit)  
+(function)   
 [ uppercasenouppercase](manip/uppercase.html "cpp/io/manip/uppercase") |  controls whether uppercase characters are used with some output formats   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_uppercase&action=edit)  
+(function)   
 [ unitbufnounitbuf](manip/unitbuf.html "cpp/io/manip/unitbuf") |  controls whether output is flushed after each operation   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_unitbuf&action=edit)  
+(function)   
 [ internalleftright](manip/left.html "cpp/io/manip/left") |  sets the placement of fill characters   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_left&action=edit)  
+(function)   
 [ dechexoct](manip/hex.html "cpp/io/manip/hex") |  changes the base used for integer I/O   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_hex&action=edit)  
+(function)   
 [ fixedscientifichexfloatdefaultfloat](manip/fixed.html "cpp/io/manip/fixed")(C++11)(C++11) |  changes formatting used for floating-point I/O   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_fixed&action=edit)  
+(function)   
 Defined in header `[<istream>](../header/istream.html "cpp/header/istream")`  
 [ ws](manip/ws.html "cpp/io/manip/ws") |  consumes whitespace   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_ws&action=edit)  
+(function template)   
 Defined in header `[<ostream>](../header/ostream.html "cpp/header/ostream")`  
 [ ends](manip/ends.html "cpp/io/manip/ends") |  outputs '\0'   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_ends&action=edit)  
+(function template)   
 [ flush](manip/flush.html "cpp/io/manip/flush") |  flushes the output stream   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_flush&action=edit)  
+(function template)   
 [ endl](manip/endl.html "cpp/io/manip/endl") |  outputs '\n' and flushes the output stream   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_endl&action=edit)  
+(function template)   
 [ emit_on_flushnoemit_on_flush](manip/emit_on_flush.html "cpp/io/manip/emit on flush")(C++20) |  controls whether a stream's [`basic_syncbuf`](basic_syncbuf.html "cpp/io/basic syncbuf") emits on flush   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_emit_on_flush&action=edit)  
+(function template)   
 [ flush_emit](manip/flush_emit.html "cpp/io/manip/flush emit")(C++20) |  flushes a stream and emits the content if it is using a [`basic_syncbuf`](basic_syncbuf.html "cpp/io/basic syncbuf")   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_flush_emit&action=edit)  
+(function template)   
 Defined in header `[<iomanip>](../header/iomanip.html "cpp/header/iomanip")`  
 [ resetiosflags](manip/resetiosflags.html "cpp/io/manip/resetiosflags") |  clears the specified ios_base flags   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_resetiosflags&action=edit)  
+(function)   
 [ setiosflags](manip/setiosflags.html "cpp/io/manip/setiosflags") |  sets the specified `ios_base` flags   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_setiosflags&action=edit)  
+(function)   
 [ setbase](manip/setbase.html "cpp/io/manip/setbase") |  changes the base used for integer I/O   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_setbase&action=edit)  
+(function)   
 [ setfill](manip/setfill.html "cpp/io/manip/setfill") |  changes the fill character   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_setfill&action=edit)  
+(function template)   
 [ setprecision](manip/setprecision.html "cpp/io/manip/setprecision") |  changes floating-point precision   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_setprecision&action=edit)  
+(function)   
 [ setw](manip/setw.html "cpp/io/manip/setw") |  changes the width of the next input/output field   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_setw&action=edit)  
+(function)   
 [ get_money](manip/get_money.html "cpp/io/manip/get money")(C++11) |  parses a monetary value   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_get_money&action=edit)  
+(function template)   
 [ put_money](manip/put_money.html "cpp/io/manip/put money")(C++11) |  formats and outputs a monetary value   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_put_money&action=edit)  
+(function template)   
 [ get_time](manip/get_time.html "cpp/io/manip/get time")(C++11) |  parses a date/time value of specified format   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_get_time&action=edit)  
+(function template)   
 [ put_time](manip/put_time.html "cpp/io/manip/put time")(C++11) |  formats and outputs a date/time value according to the specified format   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_put_time&action=edit)  
+(function template)   
 [ quoted](manip/quoted.html "cpp/io/manip/quoted")(C++14) |  inserts and extracts quoted strings with embedded spaces   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_quoted&action=edit)
+(function template) 

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](../language/history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [Keywords](../keywords.html "cpp/keyword")
 
@@ -340,23 +340,23 @@ Identifiers with special meaning
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/keyword/navbar_content&action=edit)
+
 
 The unary operator co_await suspends a [`coroutine`](../coroutine.html "cpp/coroutine") and returns control to the caller. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/keyword/co_await&action=edit&section=1 "Edit section: Usage")] Usage
+### Usage
 
   * [`co_await` expression](../language/coroutines.html#co_await "cpp/language/coroutines")
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/keyword/co_await&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 Feature-test macro  | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_impl_coroutine`](../experimental/feature_test.html#cpp_impl_coroutine "cpp/feature test") | [`201902L`](../compiler_support/20.html#cpp_impl_coroutine_201902L "cpp/compiler support/20") | (C++20) | [Coroutines](../language/coroutines.html "cpp/language/coroutines") (compiler support)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/keyword/co_await&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
   * [`co_return`](co_return.html "cpp/keyword/co return")
   * [`co_yield`](co_yield.html "cpp/keyword/co yield")

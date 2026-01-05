@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::polymorphic`](../polymorphic.html "cpp/memory/polymorphic")
 
@@ -202,7 +202,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
 [Non-member functions](../polymorphic.html#Non-member_functions "cpp/memory/polymorphic")  
 [swap(std::polymorphic)](swap2.html "cpp/memory/polymorphic/swap2")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/polymorphic/navbar_content&action=edit)
+
 
 constexpr polymorphic& operator=( const polymorphic& other ); |  (1) | (since C++26)  
 ---|---|---  
@@ -258,16 +258,16 @@ If all following conditions are satisfied, the program is ill-formed:
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/polymorphic/operator%3D&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 other  |  \-  |  another `polymorphic` object whose owned value (if exists) is used for assignment   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/polymorphic/operator%3D&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 *this
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/polymorphic/operator%3D&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 1) If any exception is thrown, there are no effects on *this.
 
@@ -283,7 +283,7 @@ propagate_on_container_move_assignment::value
 
 || [std::allocator_traits](../allocator_traits.html)<Allocator>::is_always_equal::value)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/polymorphic/operator%3D&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

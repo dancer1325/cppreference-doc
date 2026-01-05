@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Regular expressions library](../regex.html "cpp/regex")
 
@@ -81,7 +81,7 @@ Constants
 Regex Grammar  
 [Modified ECMAScript-262](ecmascript.html "cpp/regex/ecmascript")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/navbar_content&action=edit)
+
 
 Defined in header `[<regex>](../header/regex.html "cpp/header/regex")` |  |   
 ---|---|---  
@@ -183,7 +183,7 @@ return result;.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/regex_replace&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  the target character range   
 ---|---|---  
@@ -194,15 +194,15 @@ fmt  |  \-  |  the regex replacement format string, exact syntax depends on the 
 flags  |  \-  |  flags used to determine how the match will be performed   
 out  |  \-  |  output iterator to store the result of the replacement   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/regex_replace&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 As described above. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/regex_replace&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 May throw [std::regex_error](regex_error.html "cpp/regex/regex error") to indicate an [error condition](error_type.html "cpp/regex/error type"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/regex_replace&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -231,7 +231,7 @@ Output:
     Q**ck br*wn f*x
     Q[u][i]ck br[o]wn f[o]x
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/regex_replace&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -239,12 +239,12 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 2213](https://cplusplus.github.io/LWG/issue2213) | C++11  | out was not updated by the replacements  | out is updated   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/regex_replace&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ regex_search](regex_search.html "cpp/regex/regex search")(C++11) |  attempts to match a regular expression to any part of a character sequence   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/dsc_regex_search&action=edit)  
+(function template)   
 ---|---  
 [ match_flag_type](match_flag_type.html "cpp/regex/match flag type")(C++11) |  options specific to matching   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/dsc_match_flag_type&action=edit)  
+(typedef)   
 [ replace](../string/basic_string/replace.html "cpp/string/basic string/replace") |  replaces specified portion of a string   
-(public member function of `std::basic_string<CharT,Traits,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_replace&action=edit)
+(public member function of `std::basic_string<CharT,Traits,Allocator>`) 

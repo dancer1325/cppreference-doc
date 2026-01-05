@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::jthread`](../jthread.html "cpp/thread/jthread")
 
@@ -198,7 +198,7 @@ Stop token handling
 Non-member functions  
 [swap(std::jthread)](swap2.html "cpp/thread/jthread/swap2")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/jthread/navbar_content&action=edit)
+
 
 bool request_stop() noexcept; |  |  (since C++20)  
 ---|---|---  
@@ -226,19 +226,19 @@ However, see the Notes section.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/jthread/request_stop&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/jthread/request_stop&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 true if this invocation made a stop request, otherwise false. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/jthread/request_stop&action=edit&section=3 "Edit section: Postconditions")] Postconditions
+### Postconditions
 
 For a [std::stop_token](../stop_token.html "cpp/thread/stop token") retrieved by get_stop_token() or a [std::stop_source](../stop_source.html "cpp/thread/stop source") retrieved by get_stop_source(), stop_requested() is true. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/jthread/request_stop&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 If the request_stop() does issue a stop request (i.e., returns true), then any std::stop_callbacks registered for the same associated stop-state will be invoked synchronously, on the same thread request_stop() is issued on. If an invocation of a callback exits via an exception, [std::terminate](../../error/terminate.html "cpp/error/terminate") is called. 
 
@@ -246,7 +246,7 @@ If a stop request has already been made, this function returns false. However th
 
 If the request_stop() does issue a stop request (i.e., returns true), then all condition variables of base type [std::condition_variable_any](../condition_variable_any.html "cpp/thread/condition variable any") registered with an interruptible wait for [std::stop_token](../stop_token.html "cpp/thread/stop token")s associated with the `jthread`'s internal stop-state will be awoken. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/jthread/request_stop&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     

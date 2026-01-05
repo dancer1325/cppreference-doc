@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::stride_view`](../../stride_view.html "cpp/ranges/stride view")
 
@@ -263,7 +263,7 @@ operator-(stride_view::_iterator_)](operator_arith2.html "cpp/ranges/stride view
 [iter_move(stride_view::_iterator_)](iter_move.html "cpp/ranges/stride view/iterator/iter move")  
 [iter_swap(stride_view::_iterator_)](iter_swap.html "cpp/ranges/stride view/iterator/iter swap")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/stride_view/navbar_content&action=edit)
+
 
 constexpr decltype(auto) operator*() const; |  |  (since C++23)  
 ---|---|---  
@@ -284,19 +284,19 @@ Equivalent to: return *current_;.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/stride_view/iterator/operator*&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/stride_view/iterator/operator*&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The current element. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/stride_view/iterator/operator*&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 operator-> is not provided. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/stride_view/iterator/operator*&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -312,7 +312,7 @@ Run this code
         static_assert(*(view.begin() + 2) == 'e');
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/stride_view/iterator/operator*&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ operator[]](operator_at.html "cpp/ranges/stride view/iterator/operator at")(C++23) |  accesses an element by index   
 (public member function)  

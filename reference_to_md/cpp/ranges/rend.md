@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 Defined in header `[<ranges>](../header/ranges.html "cpp/header/ranges")` |  |   
 ---|---|---  
@@ -271,7 +271,7 @@ In all other cases, a call to `ranges::rend` is ill-formed, which can result in 
 
 The name `ranges::rend` denotes a _customization point object_ , which is a const [function object](../named_req/FunctionObject.html "cpp/named req/FunctionObject") of a [literal](../named_req/LiteralType.html "cpp/named req/LiteralType") [`semiregular`](../concepts/semiregular.html "cpp/concepts/semiregular") class type. See [CustomizationPointObject](../named_req/CustomizationPointObject.html "cpp/named req/CustomizationPointObject") for details. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/rend&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 If the argument is an rvalue (i.e. `T` is an object type) and [ranges::enable_borrowed_range](borrowed_range.html)<[std::remove_cv_t](../types/remove_cv.html)<T>> is false, or if it is of an array type of unknown bound, the call to `ranges::rend` is ill-formed, which also results in substitution failure. 
 
@@ -279,7 +279,7 @@ If ranges::rend([std::forward](../utility/forward.html)<T>(t)) is valid, then de
 
 The C++20 standard requires that if the underlying `rend` function call returns a prvalue, the return value is move-constructed from the materialized temporary object. All implementations directly return the prvalue instead. The requirement is corrected by the post-C++20 proposal [P0849R8](https://wg21.link/P0849R8) to match the implementations. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/rend&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -306,7 +306,7 @@ Output:
     
     found a 5 in array a!
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/rend&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -314,12 +314,12 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [P2602R2](https://wg21.link/P2602R2) | C++20  | there's machinery to prohibit certain non-member `rend` found by [ADL](../language/adl.html "cpp/language/adl") | removed such machinery   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/rend&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ ranges::crend](crend.html "cpp/ranges/crend")(C++20) |  returns a reverse end iterator to a read-only range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_crend&action=edit)  
+(customization point object)  
 ---|---  
 [ ranges::rbegin](rbegin.html "cpp/ranges/rbegin")(C++20) |  returns a reverse iterator to a range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_rbegin&action=edit)  
+(customization point object)  
 [ rendcrend](../iterator/rend.html "cpp/iterator/rend")(C++14) |  returns a reverse end iterator for a container or array   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_rend&action=edit)
+(function template) 

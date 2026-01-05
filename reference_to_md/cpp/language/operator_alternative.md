@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Expressions](expressions.html "cpp/language/expressions")
 
@@ -289,7 +289,7 @@ Conversions
 [`dynamic_cast`](dynamic_cast.html "cpp/language/dynamic cast")  
 [`reinterpret_cast`](reinterpret_cast.html "cpp/language/reinterpret cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/expressions/navbar_content&action=edit)
+
 
 C++ (and C) source code may be written in any non-ASCII 7-bit character set that includes the [ISO 646:1983](https://en.wikipedia.org/wiki/ISO_646 "enwiki:ISO 646") invariant character set. However, several C++ operators and punctuators require characters that are outside of the ISO 646 codeset: `{, }, [, ], #, \, ^, |, ~`. To be able to use character encodings where some or all of these symbols do not exist (such as the German [DIN 66003](https://en.wikipedia.org/wiki/DIN_66003 "enwiki:DIN 66003")), C++ defines the following alternatives composed of ISO 646 compatible characters. 
 
@@ -307,7 +307,7 @@ C++ (and C) source code may be written in any non-ASCII 7-bit character set that
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_alternative&action=edit&section=1 "Edit section: Alternative tokens")] Alternative tokens
+### Alternative tokens
 
 There are alternative spellings for several operators and other tokens that use non-ISO646 characters. In all respects of the language, each alternative token behaves exactly the same as its primary token, except for its spelling (the [stringification operator](../preprocessor/replace.html "cpp/preprocessor/replace") can make the spelling visible). The two-letter alternative tokens are sometimes called "digraphs". Despite being four-letters long, %:%: is also considered a digraph. 
 
@@ -331,7 +331,7 @@ Primary  | Alternative
 `#` | `%:`  
 `##` | `%:%:`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_alternative&action=edit&section=2 "Edit section: Trigraphs \(removed in C++17\)")] Trigraphs (removed in C++17)
+### Trigraphs (removed in C++17)
 
 The following three-character groups (trigraphs) are [parsed before comments and string literals are recognized](translation_phases.html "cpp/language/translation phases"), and each appearance of a trigraph is replaced by the corresponding primary character: 
 
@@ -349,21 +349,21 @@ Primary  | Trigraph
   
 Because trigraphs are processed early, a comment such as // Will the next line be executed?????/ will effectively comment out the following line, and the string literal such as "Enter date ??/??/??" is parsed as "Enter date \\\??". 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_alternative&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 The characters & and ! are invariant under ISO-646, but alternatives are provided for the tokens that use these characters anyway to accommodate even more restrictive historical charsets. 
 
 There is no alternative spelling (such as eq) for the equality operator == because the character = was present in all supported charsets. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_alternative&action=edit&section=4 "Edit section: Compatibility with C")] Compatibility with C
+### Compatibility with C
 
 The same words are defined in the C programming language in the include file [`<iso646.h>`](../../c/header/iso646.html "c/header/iso646") as macros. Because in C++ these are built into the language, the C++ version of [`<iso646.h>`](../header/ciso646.html "cpp/header/ciso646"), as well as [`<ciso646>`](../header/ciso646.html "cpp/header/ciso646"), does not define anything. The non-word digraphs (e.g <%), however, are part of the core language and can be used without including any header (otherwise, they would be unusable on any charset that lacks #). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_alternative&action=edit&section=5 "Edit section: Keywords")] Keywords
+### Keywords
 
 [`and`](../keyword/and.html "cpp/keyword/and"), [`and_eq`](../keyword/and_eq.html "cpp/keyword/and eq"), [`bitand`](../keyword/bitand.html "cpp/keyword/bitand"), [`bitor`](../keyword/bitor.html "cpp/keyword/bitor"), [`compl`](../keyword/compl.html "cpp/keyword/compl"), [`not`](../keyword/not.html "cpp/keyword/not"), [`not_eq`](../keyword/not_eq.html "cpp/keyword/not eq"), [`or`](../keyword/or.html "cpp/keyword/or"), [`or_eq`](../keyword/or_eq.html "cpp/keyword/or eq"), [`xor`](../keyword/xor.html "cpp/keyword/xor"), [`xor_eq`](../keyword/xor_eq.html "cpp/keyword/xor eq")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_alternative&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 The following example demonstrates the use of several alternative tokens.
 
@@ -405,7 +405,7 @@ Possible output:
     
     Hello Anon from ./a.out
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_alternative&action=edit&section=7 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -501,7 +501,7 @@ Possible output:
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_alternative&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [C documentation](../../c/language/operator_alternative.html "c/language/operator alternative") for Alternative operators and tokens  
 ---

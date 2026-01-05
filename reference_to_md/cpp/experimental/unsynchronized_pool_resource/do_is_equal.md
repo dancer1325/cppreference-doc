@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Library fundamentals](../memory.html "cpp/experimental/lib extensions")
 
@@ -50,7 +50,7 @@
 [Type-erased and polymorphic allocators](../memory.html "cpp/experimental/memory")  
 [Variable templates for type traits](../type_trait_variable_templates.html "cpp/experimental/type trait variable templates")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions/navbar_content&action=edit)
+
 
 [Polymorphic allocator library](../memory.html "cpp/experimental/memory")
 
@@ -73,7 +73,7 @@ Type-erased allocator support for existing classes
 [packaged_task](../lib_extensions/packaged_task.html "cpp/experimental/lib extensions/packaged task")  
 [promise](../lib_extensions/promise.html "cpp/experimental/lib extensions/promise")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions/pmr/navbar_content&action=edit)
+
 
 [`std::experimental::pmr::unsynchronized_pool_resource`](../unsynchronized_pool_resource.html "cpp/experimental/unsynchronized pool resource")
 
@@ -89,7 +89,7 @@ Protected member functions
 [unsynchronized_pool_resource::do_deallocate](do_deallocate.html "cpp/experimental/unsynchronized pool resource/do deallocate")  
 **unsynchronized_pool_resource::do_is_equal**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions/pmr/unsynchronized_pool_resource/navbar_content&action=edit)
+
 
 virtual bool do_is_equal( const memory_resource& other ) const noexcept; |  |  (library fundamentals TS)  
 ---|---|---  
@@ -97,12 +97,12 @@ virtual bool do_is_equal( const memory_resource& other ) const noexcept; |  |  (
   
 Compare *this with other for identity - memory allocated using an `unsynchronized_pool_resource` can only be deallocated using that same resource. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/unsynchronized_pool_resource/do_is_equal&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 this == dynamic_cast<const unsynchronized_pool_resource*>(&other)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/unsynchronized_pool_resource/do_is_equal&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ do_is_equal](../memory_resource/do_is_equal.html "cpp/experimental/memory resource/do is equal")[virtual] |  compare for equality with another `memory_resource`   
-(virtual protected member function of `std::experimental::pmr::memory_resource`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/memory_resource/dsc_do_is_equal&action=edit)  
+(virtual protected member function of `std::experimental::pmr::memory_resource`)   
 ---|---

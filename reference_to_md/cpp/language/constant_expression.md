@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Expressions](expressions.html "cpp/language/expressions")
 
@@ -289,7 +289,7 @@ Conversions
 [`dynamic_cast`](dynamic_cast.html "cpp/language/dynamic cast")  
 [`reinterpret_cast`](reinterpret_cast.html "cpp/language/reinterpret cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/expressions/navbar_content&action=edit)
+
 
 Defines an [expression](expressions.html "cpp/language/expressions") that can be evaluated at compile time. 
 
@@ -326,7 +326,7 @@ Such expressions can be used as constant template arguments, array sizes, and in
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/constant_expression&action=edit&section=1 "Edit section: Definition")] Definition
+### Definition
 
 An expression that belongs to any of the constant expression categories listed below is a _constant expression_.  | C++98 constant expression categories  
 ---  
@@ -526,7 +526,7 @@ When determining whether an expression is a constant expression, [copy elision](
 
 The C++98 definition of constant expressions is entirely within the collapse box. The following description applies to C++11 and later C++ versions. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/constant_expression&action=edit&section=4 "Edit section: Literal type")] Literal type
+### Literal type
 
 The following types are collectively called _literal types_ ﻿: 
 
@@ -588,7 +588,7 @@ The following types are collectively called _literal types_ ﻿:
 
 Only objects of literal types can be created within a constant expression. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/constant_expression&action=edit&section=5 "Edit section: Core constant expression")] Core constant expression
+### Core constant expression
 
 A _core constant expression_ is any expression whose evaluation **would not** evaluate any one of the following language constructs: 
 
@@ -760,7 +760,7 @@ note that if the odr-use takes place in a function call to a closure, it does no
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/constant_expression&action=edit&section=6 "Edit section: Extra requirements")] Extra requirements
+#### Extra requirements
 
 Even if an expression E does not evaluate anything stated above, it is implementation-defined whether E is a core constant expression if evaluating E would result in [runtime-undefined behavior](ub.html "cpp/language/ub"). 
 
@@ -791,13 +791,13 @@ During the evaluation of the expression as a core constant expression, all ident
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/constant_expression&action=edit&section=7 "Edit section: Integral constant expression")] Integral constant expression
+### Integral constant expression
 
 _Integral constant expression_ is an expression of integral or unscoped enumeration type implicitly converted to a prvalue, where the converted expression is a core constant expression. 
 
 If an expression of class type is used where an integral constant expression is expected, the expression is [contextually implicitly converted](implicit_cast.html "cpp/language/implicit cast") to an integral or unscoped enumeration type. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/constant_expression&action=edit&section=8 "Edit section: Converted constant expression")] Converted constant expression
+### Converted constant expression
 
 A _converted constant expression_ of type `T` is an expression [implicitly converted](implicit_cast.html "cpp/language/implicit cast") to type `T`, where the converted expression is a constant expression, and the implicit conversion sequence contains only: 
 
@@ -976,7 +976,7 @@ Whether an evaluation occurs in a manifestly constant-evaluated context can be d
 
 (since C++20)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/constant_expression&action=edit&section=14 "Edit section: Functions and variables needed for constant evaluation")] Functions and variables needed for constant evaluation
+### Functions and variables needed for constant evaluation
 
 Following expressions or conversions are _potentially constant evaluated_ : 
 
@@ -994,7 +994,7 @@ A variable is _needed for constant evaluation_ if it is either a constexpr varia
 
 Definition of a defaulted function and instantiation of a [function template](function_template.html "cpp/language/function template") specialization or [variable template](variable_template.html "cpp/language/variable template") specialization(since C++14) are triggered if the function or variable(since C++14) is needed for constant evaluation. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/constant_expression&action=edit&section=15 "Edit section: Constant subexpression")] Constant subexpression
+### Constant subexpression
 
 A _constant subexpression_ is an expression whose evaluation as [subexpression](expressions.html#Full-expressions "cpp/language/expressions") of an expression e would not prevent e from being a [core constant expression](constant_expression.html#Core_constant_expressions), where e is not any of the following expressions: 
 
@@ -1012,7 +1012,7 @@ A _constant subexpression_ is an expression whose evaluation as [subexpression](
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/constant_expression&action=edit&section=16 "Edit section: Notes")] Notes
+### Notes
 
 Feature-test macro  | Value | Std | Feature   
 ---|---|---|---  
@@ -1023,13 +1023,13 @@ Feature-test macro  | Value | Std | Feature
 [`202406L`](../compiler_support/26.html#cpp_constexpr_202406L "cpp/compiler support/26") | (C++26) | constexpr placement new and new[]  
 [`__cpp_constexpr_exceptions`](../experimental/feature_test.html#cpp_constexpr_exceptions "cpp/feature test") | [`202411L`](../compiler_support/26.html#cpp_constexpr_exceptions_202411L "cpp/compiler support/26") | (C++26) | constexpr exceptions: [[1]](constant_expression.html#P3068_1), [[2]](constant_expression.html#P3068_2)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/constant_expression&action=edit&section=17 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/constant_expression&action=edit&section=18 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -1124,12 +1124,12 @@ or *this that refers to an object or reference whose lifetime
 began outside this evaluation is not a constant expression  | it can be a  
 constant expression   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/constant_expression&action=edit&section=19 "Edit section: See also")] See also
+### See also
 
-[ `constexpr` specifier](constexpr.html "cpp/language/constexpr")(C++11) |  specifies that the value of a variable or function can be computed at compile time[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_constexpr&action=edit)  
+[ `constexpr` specifier](constexpr.html "cpp/language/constexpr")(C++11) |  specifies that the value of a variable or function can be computed at compile time  
 ---|---  
 [ is_literal_type](../types/is_literal_type.html "cpp/types/is literal type")(C++11)(deprecated in C++17)(removed in C++20) |  checks if a type is a literal type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_literal_type&action=edit)  
+(class template)   
 [C documentation](../../c/language/constant_expression.html "c/language/constant expression") for Constant expressions
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Localization library](../../locale.html "cpp/locale")
 
@@ -152,7 +152,7 @@ base classes](../../locale.html#Facet_category_base_classes "cpp/locale")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/navbar_content&action=edit)
+
 
 [`std::wstring_convert`](../wstring_convert.html "cpp/locale/wstring convert")
 
@@ -165,7 +165,7 @@ Member functions
 [wstring_convert::converted](converted.html "cpp/locale/wstring convert/converted")  
 [wstring_convert::state](state.html "cpp/locale/wstring convert/state")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/wstring_convert/navbar_content&action=edit)
+
 
 ~wstring_convert(); |  |   
 ---|---|---  
@@ -173,11 +173,11 @@ Member functions
   
 Destroys the `wstring_convert` object and deletes `_[cvtptr](../wstring_convert.html#cvtptr "cpp/locale/wstring convert")_` ﻿. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/wstring_convert/%7Ewstring_convert&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 Some implementations are able to delete any facet, including the locale-specific facets with protected destructors. Other implementations require the facet to have a public destructor, similar to the locale-independent facets from [`<codecvt>`](../../header/codecvt.html "cpp/header/codecvt"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/wstring_convert/%7Ewstring_convert&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     

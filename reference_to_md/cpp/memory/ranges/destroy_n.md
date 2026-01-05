@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 Defined in header `[<memory>](../../header/memory.html "cpp/header/memory")` |  |   
 ---|---|---  
@@ -219,21 +219,21 @@ The function-like entities described on this page are [_algorithm function objec
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/ranges/destroy_n&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first  |  \-  |  the beginning of the range of elements to destroy   
 ---|---|---  
 n  |  \-  |  the number of elements to destroy   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/ranges/destroy_n&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The end of the range of objects that has been destroyed. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/ranges/destroy_n&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Linear in n. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/ranges/destroy_n&action=edit&section=4 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     struct destroy_n_fn
@@ -252,7 +252,7 @@ Linear in n.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/ranges/destroy_n&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 The following example demonstrates how to use `ranges::destroy_n` to destroy a contiguous sequence of elements.
 
@@ -293,12 +293,12 @@ Output:
     6 destructed
     7 destructed
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/ranges/destroy_n&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ ranges::destroy_at](destroy_at.html "cpp/memory/ranges/destroy at")(C++20) |  destroys an object at a given address  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/ranges/dsc_destroy_at&action=edit)  
+(algorithm function object)  
 ---|---  
 [ ranges::destroy](destroy.html "cpp/memory/ranges/destroy")(C++20) |  destroys a range of objects  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/ranges/dsc_destroy&action=edit)  
+(algorithm function object)  
 [ destroy_n](../destroy_n.html "cpp/memory/destroy n")(C++17) |  destroys a number of objects in a range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_destroy_n&action=edit)
+(function template) 

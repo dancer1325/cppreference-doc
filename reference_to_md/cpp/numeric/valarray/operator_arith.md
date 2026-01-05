@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [`std::valarray`](../valarray.html "cpp/numeric/valarray")
 
@@ -155,7 +155,7 @@
   
 [Deduction guides](deduction_guides.html "cpp/numeric/valarray/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/navbar_content&action=edit)
+
 
 valarray<T> operator+() const; |  (1)  |   
 ---|---|---  
@@ -178,19 +178,19 @@ Applies unary operators to each element in the numeric array.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/operator_arith&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/operator_arith&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 A numeric array containing elements with values obtained by applying corresponding operator to the values in *this. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/impldef_exception&action=edit&section=T-1 "Template:cpp/impldef exception")] Exceptions
+### Exceptions
 
 May throw implementation-defined exceptions. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/operator_arith&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Each of the operators can only be instantiated if the following requirements are met: 
 
@@ -213,7 +213,7 @@ The function can be implemented with the return type different from [std::valarr
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/operator_arith&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -270,10 +270,10 @@ Possible output:
     !z:     false   true
     !!z:    true    false
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/operator_arith&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ operator+=operator-=operator*=operator/=operator%=operator&=operator|=operator^=operator<<=operator>>=](operator_arith2.html "cpp/numeric/valarray/operator arith2") |  applies compound assignment operator to each element of the valarray   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_operator_arith2&action=edit)  
+(public member function)   
 ---|---  
 [ operator+operator-operator*operator/operator%operator&operator|operator^operator<<operator>>operator&&operator||](operator_arith3.html "cpp/numeric/valarray/operator arith3") |  applies binary operators to each element of two valarrays, or a valarray and a value   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_operator_arith3&action=edit)
+(function template) 

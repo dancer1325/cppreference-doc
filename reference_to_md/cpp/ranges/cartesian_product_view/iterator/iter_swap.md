@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::cartesian_product_view`](../../cartesian_product_view.html "cpp/ranges/cartesian product view")
 
@@ -257,7 +257,7 @@ operator-(cartesian_product_view::_iterator_)](operator_arith2.html "cpp/ranges/
 [iter_move(cartesian_product_view::_iterator_)](iter_move.html "cpp/ranges/cartesian product view/iterator/iter move")  
 **iter_swap(cartesian_product_view::_iterator_)**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/cartesian_product_view/navbar_content&action=edit)
+
 
 friend constexpr void iter_swap( const /*iterator*/& x, const /*iterator*/& y )  
 noexcept (/* see description */)  
@@ -281,23 +281,23 @@ This function is not visible to ordinary [unqualified](../../../language/unquali
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/cartesian_product_view/iterator/iter_swap&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 x, y  |  \-  |  iterators to the elements to swap   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/cartesian_product_view/iterator/iter_swap&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/cartesian_product_view/iterator/iter_swap&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 The exception specification is equivalent to the logical AND of the expression noexcept([ranges::iter_swap](../../../iterator/ranges/iter_swap.html)(std::get<i>(x.current_), std::get<i>(y.current_))) for every integer 0 ≤ i ≤ sizeof...(Vs). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/cartesian_product_view/iterator/iter_swap&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ iter_swap](../../../iterator/ranges/iter_swap.html "cpp/iterator/ranges/iter swap")(C++20) |  swaps the values referenced by two dereferenceable objects  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/ranges/dsc_iter_swap&action=edit)  
+(customization point object)  
 ---|---  
 [ iter_swap](../../../algorithm/iter_swap.html "cpp/algorithm/iter swap") |  swaps the elements pointed to by two iterators   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_iter_swap&action=edit)
+(function template) 

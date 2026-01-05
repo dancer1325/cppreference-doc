@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](ranges/copy.html "cpp/algorithm/ra
 [uninitialized_default_construct_n](../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -345,7 +345,7 @@ These overloads participate in overload resolution only if all following conditi
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/find_end&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  the pair of iterators defining the [range](../iterator.html#Ranges "cpp/iterator") of elements to examine   
 ---|---|---  
@@ -358,13 +358,13 @@ Type requirements
 -`ForwardIt1` must meet the requirements of [LegacyForwardIterator](../named_req/ForwardIterator.html "cpp/named req/ForwardIterator").   
 -`ForwardIt2` must meet the requirements of [LegacyForwardIterator](../named_req/ForwardIterator.html "cpp/named req/ForwardIterator").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/find_end&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Iterator to the beginning of last occurrence of the sequence `[`s_first`, `s_last`)` in range `[`first`, `last`)`. 
 
 If `[`s_first`, `s_last`)` is empty or if no such sequence is found, last is returned. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/find_end&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Given \\(\scriptsize N\\)N as [std::distance](../iterator/distance.html)(first, last) and \\(\scriptsize S\\)S as [std::distance](../iterator/distance.html)(s_first, s_last): 
 
@@ -372,7 +372,7 @@ Given \\(\scriptsize N\\)N as [std::distance](../iterator/distance.html)(first, 
 
 3,4) At most \\(\scriptsize S\cdot(N-S+1)\\)S·(N-S+1) applications of the predicate p.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/find_end&action=edit&section=4 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 The overloads with a template parameter named `ExecutionPolicy` report errors as follows: 
 
@@ -381,7 +381,7 @@ The overloads with a template parameter named `ExecutionPolicy` report errors as
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/find_end&action=edit&section=5 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
 
 [find_end (1)](find_end.html#Version_1)  
 ---  
@@ -439,7 +439,7 @@ The overloads with a template parameter named `ExecutionPolicy` report errors as
         return result;
     }  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/find_end&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -486,7 +486,7 @@ Output:
     Last occurrence is at: 8
     Sequence not found
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/find_end&action=edit&section=7 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -495,20 +495,20 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [LWG 1205](https://cplusplus.github.io/LWG/issue1205) | C++98  | the return value was unclear if `[`s_first`, `s_last`)` is empty  | returns last in this case   
 [LWG 2150](https://cplusplus.github.io/LWG/issue2150) | C++98  | the condition of “sequence occurence” was incorrect  | corrected   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/find_end&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [ search](search.html "cpp/algorithm/search") |  searches for the first occurrence of a range of elements   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_search&action=edit)  
+(function template)   
 ---|---  
 [ includes](includes.html "cpp/algorithm/includes") |  returns true if one sequence is a subsequence of another   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_includes&action=edit)  
+(function template)   
 [ adjacent_find](adjacent_find.html "cpp/algorithm/adjacent find") |  finds the first two adjacent items that are equal (or satisfy a given predicate)   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_adjacent_find&action=edit)  
+(function template)   
 [ findfind_iffind_if_not](find.html "cpp/algorithm/find")(C++11) |  finds the first element satisfying specific criteria   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_find&action=edit)  
+(function template)   
 [ find_first_of](find_first_of.html "cpp/algorithm/find first of") |  searches for any one of a set of elements   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_find_first_of&action=edit)  
+(function template)   
 [ search_n](search_n.html "cpp/algorithm/search n") |  searches for the first occurrence of a number consecutive copies of an element in a range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_search_n&action=edit)  
+(function template)   
 [ ranges::find_end](ranges/find_end.html "cpp/algorithm/ranges/find end")(C++20) |  finds the last sequence of elements in a certain range  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_find_end&action=edit)
+(algorithm function object)

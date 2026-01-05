@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Ranges](../../ranges.html "cpp/experimental/ranges")
 
@@ -66,7 +66,7 @@
 [Ranges](../../ranges.html#Ranges "cpp/experimental/ranges")  
 [Algorithms](../../ranges.html#Algorithms "cpp/experimental/ranges")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/navbar_content&action=edit)
+
 
 [Algorithms library](../../ranges.html#Algorithms "cpp/experimental/ranges")
 
@@ -224,7 +224,7 @@ Permutations
 | [prev_permutation](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/prev_permutation&action=edit&redlink=1 "cpp/experimental/ranges/algorithm/prev permutation \(page does not exist\)")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/navbar_content&action=edit)
+
 
 Defined in header `[<experimental/ranges/algorithm>](../../../header/experimental/ranges/algorithm.html "cpp/header/experimental/ranges/algorithm")` |  |   
 ---|---|---  
@@ -268,7 +268,7 @@ Notwithstanding the declarations depicted above, the actual number and order of 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/count&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  the range of elements to examine   
 ---|---|---  
@@ -277,19 +277,19 @@ value  |  \-  |  the value to search for
 pred  |  \-  |  predicate to apply to the projected elements   
 proj  |  \-  |  projection to apply to the elements   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/count&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Number of elements satisfying the condition. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/count&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Exactly last \- first comparisons / applications of the predicate, and the same number of applications of the projection. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/count&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 For the number of elements in the range `[`first`, `last`)` without any additional criteria, see [ranges::distance](../../../iterator/ranges/distance.html "cpp/iterator/ranges/distance"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/count&action=edit&section=5 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
 
 First version   
 ---  
@@ -320,16 +320,16 @@ Second version
         return ret;
     }  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/count&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/count&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ countcount_if](../../../algorithm/count.html "cpp/algorithm/count") |  returns the number of elements satisfying specific criteria   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_count&action=edit)  
+(function template)   
 ---|---  
 [ distance](../iterator/distance.html "cpp/experimental/ranges/iterator/distance") |  returns the distance between an iterator and a sentinel, or between the beginning and the end of a range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/iterator/dsc_distance&action=edit)
+(function template) 

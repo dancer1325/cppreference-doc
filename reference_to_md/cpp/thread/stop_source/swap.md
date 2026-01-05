@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::stop_source`](../stop_source.html "cpp/thread/stop source")
 
@@ -195,7 +195,7 @@ Non-member functions
 Helper tags  
 [std::nostopstatestd::nostopstate_t](nostopstate_t.html "cpp/thread/stop source/nostopstate")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/stop_source/navbar_content&action=edit)
+
 
 void swap( [std::stop_source](../stop_source.html)& other ) noexcept; |  |  (since C++20)  
 ---|---|---  
@@ -203,11 +203,11 @@ void swap( [std::stop_source](../stop_source.html)& other ) noexcept; |  |  (sin
   
 Exchanges the stop-state of *this and other. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/stop_source/swap&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 other  |  \-  |  `stop_source` to exchange the contents with   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/stop_source/swap&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 (none) 

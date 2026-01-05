@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../../../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 [Experimental library headers](../../experimental.html "cpp/header/experimental")
 
@@ -292,32 +292,32 @@ Networking TS
 Reflection TS  
 [`<experimental/reflect>`](../reflect.html "cpp/header/experimental/reflect")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/experimental/navbar_content&action=edit)
+
 
 This header is part of the [ranges](../../../experimental/ranges.html "cpp/experimental/ranges") library. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/ranges/functional&action=edit&section=1 "Edit section: Function objects")] Function objects 
+### Function objects 
 
 Defined in namespace `std::experimental::ranges`  
 ---  
 [ invoke](../../../experimental/ranges/functional/invoke.html "cpp/experimental/ranges/functional/invoke") |  invokes a [Callable](../../../named_req/Callable.html "cpp/named req/Callable") object with the given arguments   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/functional/dsc_invoke&action=edit)  
+(function template)   
 [ equal_to](../../../experimental/ranges/functional/equal_to.html "cpp/experimental/ranges/functional/equal to") |  function object implementing x == y   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/functional/dsc_equal_to&action=edit)  
+(class template)   
 [ not_equal_to](../../../experimental/ranges/functional/not_equal_to.html "cpp/experimental/ranges/functional/not equal to") |  function object implementing x != y   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/functional/dsc_not_equal_to&action=edit)  
+(class template)   
 [ greater](../../../experimental/ranges/functional/greater.html "cpp/experimental/ranges/functional/greater") |  function object implementing x > y   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/functional/dsc_greater&action=edit)  
+(class template)   
 [ less](../../../experimental/ranges/functional/less.html "cpp/experimental/ranges/functional/less") |  function object implementing x < y   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/functional/dsc_less&action=edit)  
+(class template)   
 [ greater_equal](../../../experimental/ranges/functional/greater_equal.html "cpp/experimental/ranges/functional/greater equal") |  function object implementing x >= y   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/functional/dsc_greater_equal&action=edit)  
+(class template)   
 [ less_equal](../../../experimental/ranges/functional/less_equal.html "cpp/experimental/ranges/functional/less equal") |  function object implementing x <= y   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/functional/dsc_less_equal&action=edit)  
+(class template)   
 [ identity](../../../experimental/ranges/functional/identity.html "cpp/experimental/ranges/functional/identity") |  function object that returns its argument unchanged   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/functional/dsc_identity&action=edit)  
+(class)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/ranges/functional&action=edit&section=2 "Edit section: Synopsis")] Synopsis 
+### Synopsis 
     
     
     namespace std { namespace experimental { namespace ranges { inline namespace v1 {

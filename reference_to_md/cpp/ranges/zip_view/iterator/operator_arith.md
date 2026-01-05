@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::zip_view`](../../zip_view.html "cpp/ranges/zip view")
 
@@ -264,7 +264,7 @@ Non-member functions
 [operator==(zip_view::_iterator_ ,zip_view::_sentinel_)](../sentinel/operator_cmp.html "cpp/ranges/zip view/sentinel/operator cmp")  
 [operator-(zip_view::_iterator_ ,zip_view::_sentinel_)](../sentinel/operator-.html "cpp/ranges/zip view/sentinel/operator-")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/zip_view/navbar_content&action=edit)
+
 
 constexpr /*iterator*/& operator++(); |  (1)  |  (since C++23)  
 ---|---|---  
@@ -297,12 +297,12 @@ Increments or decrements each of the underlying `_is_..._` iterators in the unde
 
 7) Equivalent to /*tuple-for-each*/([&]<class I>(I& i) { i -= iter_difference_t<I>(x); }, current_); return *this;
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/zip_view/iterator/operator_arith&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 n  |  \-  |  position relative to current location   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/zip_view/iterator/operator_arith&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1,4,6,7) *this
 
@@ -310,7 +310,7 @@ n  |  \-  |  position relative to current location
 
 3,5) a copy of *this that was made before the change
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/zip_view/iterator/operator_arith&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

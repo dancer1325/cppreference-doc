@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Diagnostics library](../error.html "cpp/error")
 
@@ -187,7 +187,7 @@ Exception handling failures
 [breakpoint_if_debugging](../utility/breakpoint_if_debugging.html "cpp/utility/breakpoint if debugging")(C++26)  
 [breakpoint](../utility/breakpoint.html "cpp/utility/breakpoint")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/navbar_content&action=edit)
+
 
 **`std::error_category`**
 
@@ -201,7 +201,7 @@ Member functions
 [error_category::message](error_category/message.html "cpp/error/error category/message")  
 [error_category::operator==error_category::operator!=error_category::operator<error_category::operator<=>](error_category/operator_cmp.html "cpp/error/error category/operator cmp")(until C++20)(until C++20)(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/error_category/navbar_content&action=edit)
+
 
 Defined in header `[<system_error>](../header/system_error.html "cpp/header/system error")` |  |   
 ---|---|---  
@@ -210,42 +210,42 @@ class error_category; |  |  (since C++11)
   
 `std::error_category` serves as the base class for specific error category types, such as [std::system_category](system_category.html "cpp/error/system category"), [std::iostream_category](../io/iostream_category.html "cpp/io/iostream category"), etc. Each specific category class defines the `error_code` \- `error_condition` mapping and holds the explanatory strings for all error_conditions. The objects of error category classes are treated as singletons, passed by reference. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/error_category&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](error_category/error_category.html "cpp/error/error category/error category") |  constructs an `error_category`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/error_category/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ (destructor)](error_category/~error_category.html "cpp/error/error category/~error category")[virtual] |  destructs an `error_category`   
-(virtual public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/error_category/dsc_destructor&action=edit)  
+(virtual public member function)   
 operator=[deleted] |  not copy assignable   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/error_category/dsc_operator%3D&action=edit)  
+(public member function)   
 [ name](error_category/name.html "cpp/error/error category/name")[virtual] |  obtains the name of the category   
-(virtual public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/error_category/dsc_name&action=edit)  
+(virtual public member function)   
 [ default_error_condition](error_category/default_error_condition.html "cpp/error/error category/default error condition")[virtual] |  maps `error_code` to `error_condition`   
-(virtual public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/error_category/dsc_default_error_condition&action=edit)  
+(virtual public member function)   
 [ equivalent](error_category/equivalent.html "cpp/error/error category/equivalent")[virtual] |  compares `error_code` and `error_condition` for equivalence   
-(virtual public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/error_category/dsc_equivalent&action=edit)  
+(virtual public member function)   
 [ message](error_category/message.html "cpp/error/error category/message")[virtual] |  obtains the explanatory string   
-(virtual public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/error_category/dsc_message&action=edit)  
+(virtual public member function)   
 [ operator==operator!=operator<operator<=>](error_category/operator_cmp.html "cpp/error/error category/operator cmp")(removed in C++20)(removed in C++20)(C++20) |  compares two error categories   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/error_category/dsc_operator_cmp&action=edit)  
+(function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/error_category&action=edit&section=2 "Edit section: Specific error categories")] Specific error categories
+### Specific error categories
 
 [ generic_category](generic_category.html "cpp/error/generic category")(C++11) |  identifies the generic error category   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_generic_category&action=edit)  
+(function)   
 ---|---  
 [ system_category](system_category.html "cpp/error/system category")(C++11) |  identifies the operating system error category   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_system_category&action=edit)  
+(function)   
 [ iostream_category](../io/iostream_category.html "cpp/io/iostream category")(C++11) |  identifies the iostream error category   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_iostream_category&action=edit)  
+(function)   
 [ future_category](../thread/future_category.html "cpp/thread/future category")(C++11) |  identifies the future error category   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_future_category&action=edit)  
+(function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/error_category&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ error_condition](error_condition.html "cpp/error/error condition")(C++11) |  holds a portable error code   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_error_condition&action=edit)  
+(class)   
 ---|---  
 [ error_code](error_code.html "cpp/error/error code")(C++11) |  holds a platform-dependent error code   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_error_code&action=edit)
+(class) 

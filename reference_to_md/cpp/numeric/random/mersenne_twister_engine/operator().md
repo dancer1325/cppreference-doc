@@ -32,7 +32,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../../numeric.html "cpp/numeric")
 
@@ -89,7 +89,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [Pseudo-random number generation](../../random.html "cpp/numeric/random")
 
@@ -163,7 +163,7 @@
 [piecewise_constant_distribution](../piecewise_constant_distribution.html "cpp/numeric/random/piecewise constant distribution")(C++11)  
 [piecewise_linear_distribution](../piecewise_linear_distribution.html "cpp/numeric/random/piecewise linear distribution")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/navbar_content&action=edit)
+
 
 [`std::mersenne_twister_engine`](../mersenne_twister_engine.html "cpp/numeric/random/mersenne twister engine")
 
@@ -181,7 +181,7 @@ Non-member functions
 [operator==operator!=](operator_cmp.html "cpp/numeric/random/mersenne twister engine/operator cmp")(C++11)(C++11)(until C++20)  
 [operator<<operator>>](operator_ltltgtgt.html "cpp/numeric/random/mersenne twister engine/operator ltltgtgt")(C++11)(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/mersenne_twister_engine/navbar_content&action=edit)
+
 
 result_type operator()(); |  |  (since C++11)  
 ---|---|---  
@@ -189,16 +189,16 @@ result_type operator()(); |  |  (since C++11)
   
 Advances the state of the engine, and generates a pseudo-random value from the new state. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/engine/operator\(\)&action=edit&section=T-1 "Template:cpp/numeric/random/engine/operator\(\)")] Return value
+### Return value
 
 A pseudo-random number in `[`min()`, `max()`]`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/engine/operator\(\)&action=edit&section=T-2 "Template:cpp/numeric/random/engine/operator\(\)")] Complexity
+### Complexity
 
 Amortized constant. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/engine/operator\(\)&action=edit&section=T-3 "Template:cpp/numeric/random/engine/operator\(\)")] See also
+### See also
 
 [ discard](discard.html "cpp/numeric/random/mersenne twister engine/discard") |  advances the engine's state by a specified amount   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/engine/dsc_discard&action=edit)  
+(public member function)   
 ---|---

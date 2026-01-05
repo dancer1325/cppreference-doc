@@ -30,7 +30,7 @@
 [Symbols index](symbol_index.html "cpp/symbol index")  
 [External libraries](links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
   
 
@@ -74,7 +74,7 @@ For a list of symbols defined in the C++ standard library, see [std Symbol index
   
 
 
-## [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/index&action=edit&section=2 "Edit section: A")] A
+## A
 
 [abstract class](language/abstract_class.html "cpp/language/abstract class")  
 [alignas](language/alignas.html "cpp/language/alignas")  
@@ -90,14 +90,14 @@ For a list of symbols defined in the C++ standard library, see [std Symbol index
 [attribute](language/attributes.html "cpp/language/attributes") (C++11)  
 
 
-## [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/index&action=edit&section=3 "Edit section: B")] B
+## B
 
 [bit-field](language/bit_field.html "cpp/language/bit field")  
 [bool](language/types.html#Boolean_type "cpp/language/types")  
 [byte](language/memory_model.html#Byte "cpp/language/memory model")  
 
 
-## [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/index&action=edit&section=4 "Edit section: C")] C
+## C
 
 [casting operator](language/expressions.html#Conversions "cpp/language/expressions") (see also [conversion, type](language/expressions.html#Conversions "cpp/language/expressions"))  
 [character type](language/types.html#Character_types "cpp/language/types")  
@@ -135,28 +135,28 @@ For a list of symbols defined in the C++ standard library, see [std Symbol index
 [conversion, type](language/expressions.html#Conversions "cpp/language/expressions")  
 
 
-## [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/index&action=edit&section=5 "Edit section: D")] D
+## D
 
 [decltype](language/decltype.html "cpp/language/decltype") (C++11)  
 
 
-## [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/index&action=edit&section=6 "Edit section: E")] E
+## E
 
 [expression](language/expressions.html "cpp/language/expressions")  
 [explicit](language/explicit.html "cpp/language/explicit")
 
-## [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/index&action=edit&section=7 "Edit section: F")] F
+## F
 
 [final](language/final.html "cpp/language/final")  
 [floating-point type](language/type-id.html#Floating_point_types "cpp/language/type")  
 
 
-## [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/index&action=edit&section=8 "Edit section: G")] G
+## G
 
 [glvalue](language/value_category.html#glvalue "cpp/language/value category")  
 
 
-## [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/index&action=edit&section=9 "Edit section: H")] H
+## H
 
 [header](headers.html "cpp/header")  
 
@@ -237,7 +237,7 @@ For a list of symbols defined in the C++ standard library, see [std Symbol index
 [`<vector>`](header/vector.html "cpp/header/vector")  
 
 
-## [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/index&action=edit&section=10 "Edit section: I")] I
+## I
 
 [identifier](language/name.html "cpp/language/identifiers")  
 [initialization](language/initialization.html "cpp/language/initialization")
@@ -265,17 +265,17 @@ For a list of symbols defined in the C++ standard library, see [std Symbol index
 [`<iterator>`](header/iterator.html "cpp/header/iterator")  
 
 
-## [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/index&action=edit&section=11 "Edit section: K")] K
+## K
 
 [keyword, c++](keywords.html "cpp/keyword")  
 
 
-## [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/index&action=edit&section=12 "Edit section: L")] L
+## L
 
 [lvalue](language/value_category.html#lvalue "cpp/language/value category")  
 
 
-## [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/index&action=edit&section=13 "Edit section: M")] M
+## M
 
 [main()](language/main_function.html "cpp/language/main function")  
 [member function](language/member_functions.html "cpp/language/member functions")  
@@ -283,26 +283,26 @@ For a list of symbols defined in the C++ standard library, see [std Symbol index
 [mutable](language/cv.html "cpp/language/cv")  
 
 
-## [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/index&action=edit&section=14 "Edit section: O")] O
+## O
 
 [object](language/objects.html "cpp/language/object")  
 [operator](language/expressions.html#Operators "cpp/language/expressions")  
 [operator precedence](language/operator_precedence.html "cpp/language/operator precedence")  
 
 
-## [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/index&action=edit&section=15 "Edit section: P")] P
+## P
 
 [pointer](language/pointer.html "cpp/language/pointer")  
 [preprocessor](preprocessor.html "cpp/preprocessor")  
 [prvalue](language/value_category.html#rvalue_.28until_C.2B.2B11.29_.2F_prvalue_.28since_C.2B.2B11.29 "cpp/language/value category") (since C++11)  
 
 
-## [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/index&action=edit&section=16 "Edit section: R")] R
+## R
 
 [rvalue](language/value_category.html#rvalue "cpp/language/value category") (until C++11)  
 
 
-## [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/index&action=edit&section=17 "Edit section: S")] S
+## S
 
 [scope](language/scope.html "cpp/language/scope")  
 
@@ -331,7 +331,7 @@ For a list of symbols defined in the C++ standard library, see [std Symbol index
 [static data members](language/static.html#Static_data_members "cpp/language/static")  
 
 
-## [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/index&action=edit&section=18 "Edit section: T")] T
+## T
 
 [template](language/templates.html "cpp/language/templates")  
 [this](language/this.html "cpp/language/this")  
@@ -341,20 +341,20 @@ For a list of symbols defined in the C++ standard library, see [std Symbol index
 [typeid](language/typeid.html "cpp/language/typeid")  
 
 
-## [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/index&action=edit&section=19 "Edit section: U")] U
+## U
 
 [union](language/union.html "cpp/language/union")  
 [user-defined literals](language/user_literal.html "cpp/language/user literal") (since C++11)  
 
 
-## [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/index&action=edit&section=20 "Edit section: V")] V
+## V
 
 [value category](language/value_category.html "cpp/language/value category")  
 [variadic_arguments](language/variadic_arguments.html "cpp/language/variadic arguments")  
 [void](language/types.html#Void_type "cpp/language/types")  
 
 
-## [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/index&action=edit&section=21 "Edit section: X")] X
+## X
 
 [xvalue](language/value_category.html#xvalue "cpp/language/value category")  
 

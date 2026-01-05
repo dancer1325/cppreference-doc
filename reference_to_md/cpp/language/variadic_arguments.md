@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Functions](functions.html "cpp/language/functions")
 
@@ -245,7 +245,7 @@ Overloading
 [Operator overloading](operators.html "cpp/language/operators")  
 [Address of an overload set](overloaded_address.html "cpp/language/overloaded address")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/functions/navbar_content&action=edit)
+
 
 Allows a function to accept any number of extra arguments. 
 
@@ -280,7 +280,7 @@ This is different from a function [parameter pack](parameter_pack.html "cpp/lang
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/variadic_arguments&action=edit&section=1 "Edit section: Default argument promotions")] Default argument promotions
+### Default argument promotions
 
 When a variadic function is called, after lvalue-to-rvalue, array-to-pointer, and function-to-pointer [conversions](implicit_cast.html#Value_transformations "cpp/language/implicit conversion"), each argument that is a part of the variable argument list undergoes additional conversions known as _default argument promotions_ : 
 
@@ -303,22 +303,22 @@ Within the body of a function that uses variadic arguments, the values of these 
 Defined in header `[<cstdarg>](../header/cstdarg.html "cpp/header/cstdarg")`  
 ---  
 [ va_start](../utility/variadic/va_start.html "cpp/utility/variadic/va start") |  enables access to variadic function arguments   
-(function macro) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variadic/dsc_va_start&action=edit)  
+(function macro)   
 [ va_arg](../utility/variadic/va_arg.html "cpp/utility/variadic/va arg") |  accesses the next variadic function argument   
-(function macro) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variadic/dsc_va_arg&action=edit)  
+(function macro)   
 [ va_copy](../utility/variadic/va_copy.html "cpp/utility/variadic/va copy")(C++11) |  makes a copy of the variadic function arguments   
-(function macro) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variadic/dsc_va_copy&action=edit)  
+(function macro)   
 [ va_end](../utility/variadic/va_end.html "cpp/utility/variadic/va end") |  ends traversal of the variadic function arguments   
-(function macro) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variadic/dsc_va_end&action=edit)  
+(function macro)   
 [ va_list](../utility/variadic/va_list.html "cpp/utility/variadic/va list") |  holds the information needed by [va_start](../utility/variadic/va_start.html "cpp/utility/variadic/va start"), [va_arg](../utility/variadic/va_arg.html "cpp/utility/variadic/va arg"), [va_end](../utility/variadic/va_end.html "cpp/utility/variadic/va end"), and [va_copy](../utility/variadic/va_copy.html "cpp/utility/variadic/va copy")   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variadic/dsc_va_list&action=edit)  
+(typedef)   
   
 The behavior of the [va_start](../utility/variadic/va_start.html "cpp/utility/variadic/va start") macro is undefined if the last parameter before the ellipsis has reference type, or has type that is not [compatible](../../c/language/compatible_type.html#Compatible_types "c/language/type") with the type that results from default argument promotions. 
 
 If the a [pack expansion](parameter_pack.html#Pack_expansion "cpp/language/parameter pack") or an entity resulting from a [lambda capture](lambda.html#Lambda_capture "cpp/language/lambda") is used as the last parameter in [va_start](../utility/variadic/va_start.html "cpp/utility/variadic/va start"), the program is ill-formed, no diagnostic required.  | (since C++11)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/variadic_arguments&action=edit&section=2 "Edit section: Alternatives")] Alternatives
+### Alternatives
 
   * [Variadic templates](parameter_pack.html "cpp/language/parameter pack") can also be used to create functions that take variable number of arguments. They are often the better choice because they do not impose restrictions on the types of the arguments, do not perform integral and floating-point promotions, and are type safe. 
   * If all variable arguments share a common type, a [std::initializer_list](../utility/initializer_list.html "cpp/utility/initializer list") provides a convenient mechanism (albeit with a different syntax) for accessing variable arguments. In this case however the arguments cannot be modified since [std::initializer_list](../utility/initializer_list.html "cpp/utility/initializer list") can only provide a const pointer to its elements. 
@@ -326,7 +326,7 @@ If the a [pack expansion](parameter_pack.html#Pack_expansion "cpp/language/param
 | (since C++11)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/variadic_arguments&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 In the C programming language until C23, at least one named parameter must appear before the ellipsis parameter, so R printz(...); is not valid until C23. In C++, this form is allowed even though the arguments passed to such function are not accessible, and is commonly used as the fallback overload in [SFINAE](sfinae.html "cpp/language/sfinae"), exploiting the lowest priority of the ellipsis conversion in [overload resolution](overload_resolution.html "cpp/language/overload resolution"). 
 
@@ -336,7 +336,7 @@ The comma can be used in abbreviated function templates to make the ellipsis sig
 void f2(auto, ...); // same as template<class T> void f3(T, ...) | (since C++20)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/variadic_arguments&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -356,7 +356,7 @@ an ellipsis are subject to default argument promotions  | passing scoped enumera
 is conditionally-supported with  
 implementation-defined semantics   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/variadic_arguments&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [C documentation](../../c/language/variadic.html "c/language/variadic") for Variadic arguments  
 ---  

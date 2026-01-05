@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -79,7 +79,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_ispanstream`](../basic_ispanstream.html "cpp/io/basic ispanstream")
 
@@ -94,7 +94,7 @@ Error category interface
 [Non-member functions](../basic_ispanstream.html#Non-member_functions "cpp/io/basic ispanstream")  
 [swap(std::basic_ipanstream)](swap2.html "cpp/io/basic ispanstream/swap2")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ispanstream/navbar_content&action=edit)
+
 
 void swap( basic_ispanstream& other ); |  |  (since C++23)  
 ---|---|---  
@@ -115,27 +115,27 @@ This is done by calling [std::basic_istream](../basic_istream.html)<CharT, Trait
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_spanstream/swap&action=edit&section=T-1 "Template:cpp/io/basic spanstream/swap")] Parameters
+### Parameters
 
 other  |  \-  |  stream to exchange the state with   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_spanstream/swap&action=edit&section=T-2 "Template:cpp/io/basic spanstream/swap")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/impldef_exception&action=edit&section=T-1 "Template:cpp/impldef exception")] Exceptions
+### Exceptions
 
 May throw implementation-defined exceptions. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_spanstream/swap&action=edit&section=T-3 "Template:cpp/io/basic spanstream/swap")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_spanstream/swap&action=edit&section=T-4 "Template:cpp/io/basic spanstream/swap")] See also
+### See also
 
 [ swap](../basic_spanbuf/swap.html "cpp/io/basic spanbuf/swap") |  swaps two `basic_spanbuf` objects   
-(public member function of `std::basic_spanbuf<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_spanbuf/dsc_swap&action=edit)  
+(public member function of `std::basic_spanbuf<CharT,Traits>`)   
 ---|---

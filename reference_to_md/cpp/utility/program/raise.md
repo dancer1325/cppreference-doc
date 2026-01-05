@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Program support utilities](../program.html "cpp/utility/program")
 
@@ -181,7 +181,7 @@ Common vocabulary types
 [Types](../program.html#Types "cpp/utility/program")  
 [jmp_buf](jmp_buf.html "cpp/utility/program/jmp buf")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/program/navbar_content&action=edit)
+
 
 Defined in header `[<csignal>](../../header/csignal.html "cpp/header/csignal")` |  |   
 ---|---|---  
@@ -202,20 +202,20 @@ If the user-defined signal handling strategy is not set using [std::signal()](si
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/program/raise&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 sig  |  \-  |  the signal to be sent. It can be an implementation-defined value or one of the following values:  |  [ SIGABRTSIGFPESIGILLSIGINTSIGSEGVSIGTERM](SIG_types.html "cpp/utility/program/SIG types") |  defines signal types   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/program/dsc_SIG_types&action=edit)  
+(macro constant)   
 ---|---  
   
   
   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/program/raise&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 ​0​ upon success, non-zero value on failure. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/program/raise&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -243,9 +243,9 @@ Possible output:
     Sending signal 15
     Received signal 15
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/program/raise&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ signal](signal.html "cpp/utility/program/signal") |  sets a signal handler for particular signal   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/program/dsc_signal&action=edit)  
+(function)   
 ---|---  
 [C documentation](../../../c/program/raise.html "c/program/raise") for raise

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Null-terminated byte strings](../byte.html "cpp/string/byte")
 
@@ -143,7 +143,7 @@
 | [strerror](strerror.html "cpp/string/byte/strerror")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/navbar_content&action=edit)
+
 
 Defined in header `[<cstring>](../../header/cstring.html "cpp/header/cstring")` |  |   
 ---|---|---  
@@ -176,18 +176,18 @@ If any of the following conditions is satisfied, the behavior is undefined:
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/memcpy&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 dest  |  \-  |  pointer to the memory location to copy to   
 ---|---|---  
 src  |  \-  |  pointer to the memory location to copy from   
 count  |  \-  |  number of bytes to copy   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/memcpy&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 If there is a [suitable created object](../../language/objects.html#Object_creation "cpp/language/object"), returns a pointer to it; otherwise returns dest. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/memcpy&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 `std::memcpy` is meant to be the fastest library routine for memory-to-memory copy. It is usually more efficient than [std::strcpy](strcpy.html "cpp/string/byte/strcpy"), which must scan the data it copies or [std::memmove](memmove.html "cpp/string/byte/memmove"), which must take precautions to handle overlapping inputs. 
 
@@ -195,7 +195,7 @@ Several C++ compilers transform suitable memory-copying loops to `std::memcpy` c
 
 Where [strict aliasing](../../language/objects.html#Strict_aliasing "cpp/language/object") prohibits examining the same memory as values of two different types, `std::memcpy` may be used to convert the values. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/memcpy&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -242,7 +242,7 @@ Output:
     0x1.999999999999ap-4 is 3fb999999999999a as a std::int64_t
     {42}
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/memcpy&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -250,21 +250,21 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 4064](https://cplusplus.github.io/LWG/issue4064) | C++98  | it was unclear whether the returned pointer points to a suitable created object  | made clear   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/memcpy&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ memmove](memmove.html "cpp/string/byte/memmove") |  moves one buffer to another   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_memmove&action=edit)  
+(function)   
 ---|---  
 [ memset](memset.html "cpp/string/byte/memset") |  fills a buffer with a character   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_memset&action=edit)  
+(function)   
 [ wmemcpy](../wide/wmemcpy.html "cpp/string/wide/wmemcpy") |  copies a certain amount of wide characters between two non-overlapping arrays   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wmemcpy&action=edit)  
+(function)   
 [ copy](../basic_string/copy.html "cpp/string/basic string/copy") |  copies characters   
-(public member function of `std::basic_string<CharT,Traits,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_copy&action=edit)  
+(public member function of `std::basic_string<CharT,Traits,Allocator>`)   
 [ copycopy_if](../../algorithm/copy.html "cpp/algorithm/copy")(C++11) |  copies a range of elements to a new location   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_copy&action=edit)  
+(function template)   
 [ copy_backward](../../algorithm/copy_backward.html "cpp/algorithm/copy backward") |  copies a range of elements in backwards order   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_copy_backward&action=edit)  
+(function template)   
 [ is_trivially_copyable](../../types/is_trivially_copyable.html "cpp/types/is trivially copyable")(C++11) |  checks if a type is trivially copyable   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_trivially_copyable&action=edit)  
+(class template)   
 [C documentation](../../../c/string/byte/memcpy.html "c/string/byte/memcpy") for memcpy

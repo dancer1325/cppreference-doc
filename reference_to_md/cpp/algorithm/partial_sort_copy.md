@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](ranges/copy.html "cpp/algorithm/ra
 [uninitialized_default_construct_n](../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -363,7 +363,7 @@ If any of the following conditions is satisfied, the behavior is undefined:
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/partial_sort_copy&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  the pair of iterators defining the [range](../iterator.html#Ranges "cpp/iterator") of elements to sort   
 ---|---|---  
@@ -378,11 +378,11 @@ Type requirements
 -`RandomIt` must meet the requirements of [LegacyRandomAccessIterator](../named_req/RandomAccessIterator.html "cpp/named req/RandomAccessIterator").   
 -`Compare` must meet the requirements of [Compare](../named_req/Compare.html "cpp/named req/Compare").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/partial_sort_copy&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 An iterator to the element defining the upper boundary of the sorted range, i.e. d_first + [std::min](min.html)([std::distance](../iterator/distance.html)(first, last), d_last - d_first). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/partial_sort_copy&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Given \\(\scriptsize N\\)N as [std::distance](../iterator/distance.html)(first, last), \\(\scriptsize D\\)D as d_last - d_first: 
 
@@ -390,7 +390,7 @@ Given \\(\scriptsize N\\)N as [std::distance](../iterator/distance.html)(first, 
 
 3,4) Approximately \\(\scriptsize N \cdot \log(\min(N,D))\\)N·log(min(N,D)) applications of the comparator comp.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/partial_sort_copy&action=edit&section=4 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 The overloads with a template parameter named `ExecutionPolicy` report errors as follows: 
 
@@ -399,11 +399,11 @@ The overloads with a template parameter named `ExecutionPolicy` report errors as
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/partial_sort_copy&action=edit&section=5 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
 
 See also the implementations in [libstdc++](https://github.com/gcc-mirror/gcc/blob/d9375e490072d1aae73a93949aa158fcd2a27018/libstdc%2B%2B-v3/include/bits/stl_algo.h#L1669) and [libc++](https://github.com/llvm-mirror/libcxx/blob/a12cb9d211019d99b5875b6d8034617cbc24c2cc/include/algorithm#L5064). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/partial_sort_copy&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 The following code sorts a vector of integers and copies them into a smaller and a larger vector.
 
@@ -456,7 +456,7 @@ Output:
     Writing to the larger vector in descending order gives: 5 4 3 2 1 15 16
     The return value is the iterator to 15
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/partial_sort_copy&action=edit&section=7 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -464,14 +464,14 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [P0896R4](https://wg21.link/P0896R4) | C++98  | *first was not required to be writable to d_first | the program is ill-formed if not writable   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/partial_sort_copy&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [ partial_sort](partial_sort.html "cpp/algorithm/partial sort") |  sorts the first N elements of a range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_partial_sort&action=edit)  
+(function template)   
 ---|---  
 [ sort](sort.html "cpp/algorithm/sort") |  sorts a range into ascending order   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_sort&action=edit)  
+(function template)   
 [ stable_sort](stable_sort.html "cpp/algorithm/stable sort") |  sorts a range of elements while preserving order between equal elements   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_stable_sort&action=edit)  
+(function template)   
 [ ranges::partial_sort_copy](ranges/partial_sort_copy.html "cpp/algorithm/ranges/partial sort copy")(C++20) |  copies and partially sorts a range of elements  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_partial_sort_copy&action=edit)
+(algorithm function object)

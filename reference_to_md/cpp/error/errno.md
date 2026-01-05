@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Diagnostics library](../error.html "cpp/error")
 
@@ -89,7 +89,7 @@ Exception handling failures
 [breakpoint_if_debugging](../utility/breakpoint_if_debugging.html "cpp/utility/breakpoint if debugging")(C++26)  
 [breakpoint](../utility/breakpoint.html "cpp/utility/breakpoint")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/navbar_content&action=edit)
+
 
 Defined in header `[<cerrno>](../header/cerrno.html "cpp/header/cerrno")` |  |   
 ---|---|---  
@@ -102,7 +102,7 @@ Several standard library functions indicate errors by writing positive integers 
 
 The value of errno is ​0​ at program startup, and although library functions are allowed to write positive integers to errno whether or not an error occurred, library functions never store ​0​ in errno. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/errno&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -133,7 +133,7 @@ Possible output:
     log(-1) failed: Numerical argument out of domain
     Or, in German, Das numerische Argument ist ausserhalb des Definitionsbereiches
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/errno&action=edit&section=2 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -143,13 +143,13 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 or an identifier with external linkage  | errno must  
 be a macro   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/errno&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ E2BIG, EACCES, ..., EXDEV](errno_macros.html "cpp/error/errno macros") |  macros for standard POSIX-compatible error conditions   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_errno_macros&action=edit)  
+(macro constant)   
 ---|---  
 [ perror](../io/c/perror.html "cpp/io/c/perror") |  displays a character string corresponding of the current error to [stderr](../io/c/std_streams.html "cpp/io/c/std streams")   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_perror&action=edit)  
+(function)   
 [ strerror](../string/byte/strerror.html "cpp/string/byte/strerror") |  returns a text version of a given error code   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strerror&action=edit)  
+(function)   
 [C documentation](../../c/error/errno.html "c/error/errno") for errno

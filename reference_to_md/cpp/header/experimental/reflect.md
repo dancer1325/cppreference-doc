@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 [Experimental library headers](../experimental.html "cpp/header/experimental")
 
@@ -292,7 +292,7 @@ Networking TS
 Reflection TS  
 **`< experimental/reflect>`**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/experimental/navbar_content&action=edit)
+
 
 This header is part of the [Reflection TS](../../experimental/reflect.html "cpp/experimental/reflect"). 
 
@@ -607,7 +607,7 @@ Defined in inline namespace `std::experimental::reflect::v1`
 [ is_init_capture](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/reflect/is_init_capture&action=edit&redlink=1 "cpp/experimental/reflect/is init capture \(page does not exist\)")(reflection TS) |  checks if the reflected lambda capture is an init-capture   
 (class template)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/reflect&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     namespace std::experimental::reflect {

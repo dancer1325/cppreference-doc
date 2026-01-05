@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Filesystem library](../filesystem.html "cpp/filesystem")
 
@@ -100,7 +100,7 @@ filesystem::symlink_status](status.html "cpp/filesystem/status")
 [filesystem::is_socket](is_socket.html "cpp/filesystem/is socket")  
 [filesystem::is_symlink](is_symlink.html "cpp/filesystem/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/navbar_content&action=edit)
+
 
 **`std::filesystem::directory_entry`**
 
@@ -131,7 +131,7 @@ Observers
 Non-member functions  
 [operator<<](directory_entry/operator_ltlt.html "cpp/filesystem/directory entry/operator ltlt")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/directory_entry/navbar_content&action=edit)
+
 
 Defined in header `[<filesystem>](../header/filesystem.html "cpp/header/filesystem")` |  |   
 ---|---|---  
@@ -151,66 +151,66 @@ Represents a directory entry. The object stores a `path` as a member and may als
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/directory_entry&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](directory_entry/directory_entry.html "cpp/filesystem/directory entry/directory entry") |  constructs a directory entry   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/directory_entry/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 (destructor) |  default destructor   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/directory_entry/dsc_destructor&action=edit)  
+(public member function)   
   
 #####  Modifiers   
   
 [ operator=](directory_entry/operator=.html "cpp/filesystem/directory entry/operator=") |  assigns contents   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/directory_entry/dsc_operator%3D&action=edit)  
+(public member function)   
 [ assign](directory_entry/assign.html "cpp/filesystem/directory entry/assign") |  assigns contents   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/directory_entry/dsc_assign&action=edit)  
+(public member function)   
 [ replace_filename](directory_entry/replace_filename.html "cpp/filesystem/directory entry/replace filename") |  sets the filename   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/directory_entry/dsc_replace_filename&action=edit)  
+(public member function)   
 [ refresh](directory_entry/refresh.html "cpp/filesystem/directory entry/refresh") |  updates the cached file attributes   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/directory_entry/dsc_refresh&action=edit)  
+(public member function)   
   
 #####  Observers   
   
 [ pathoperator const path&](directory_entry/path.html "cpp/filesystem/directory entry/path") |  returns the path the entry refers to   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/directory_entry/dsc_path&action=edit)  
+(public member function)   
 [ exists](directory_entry/exists.html "cpp/filesystem/directory entry/exists") |  checks whether directory entry refers to existing file system object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/directory_entry/dsc_exists&action=edit)  
+(public member function)   
 [ is_block_file](directory_entry/is_block_file.html "cpp/filesystem/directory entry/is block file") |  checks whether the directory entry refers to block device   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/directory_entry/dsc_is_block_file&action=edit)  
+(public member function)   
 [ is_character_file](directory_entry/is_character_file.html "cpp/filesystem/directory entry/is character file") |  checks whether the directory entry refers to a character device   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/directory_entry/dsc_is_character_file&action=edit)  
+(public member function)   
 [ is_directory](directory_entry/is_directory.html "cpp/filesystem/directory entry/is directory") |  checks whether the directory entry refers to a directory   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/directory_entry/dsc_is_directory&action=edit)  
+(public member function)   
 [ is_fifo](directory_entry/is_fifo.html "cpp/filesystem/directory entry/is fifo") |  checks whether the directory entry refers to a named pipe   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/directory_entry/dsc_is_fifo&action=edit)  
+(public member function)   
 [ is_other](directory_entry/is_other.html "cpp/filesystem/directory entry/is other") |  checks whether the directory entry refers to an _other_ file   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/directory_entry/dsc_is_other&action=edit)  
+(public member function)   
 [ is_regular_file](directory_entry/is_regular_file.html "cpp/filesystem/directory entry/is regular file") |  checks whether the directory entry refers to a regular file   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/directory_entry/dsc_is_regular_file&action=edit)  
+(public member function)   
 [ is_socket](directory_entry/is_socket.html "cpp/filesystem/directory entry/is socket") |  checks whether the directory entry refers to a named IPC socket   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/directory_entry/dsc_is_socket&action=edit)  
+(public member function)   
 [ is_symlink](directory_entry/is_symlink.html "cpp/filesystem/directory entry/is symlink") |  checks whether the directory entry refers to a symbolic link   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/directory_entry/dsc_is_symlink&action=edit)  
+(public member function)   
 [ file_size](directory_entry/file_size.html "cpp/filesystem/directory entry/file size") |  returns the size of the file to which the directory entry refers   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/directory_entry/dsc_file_size&action=edit)  
+(public member function)   
 [ hard_link_count](directory_entry/hard_link_count.html "cpp/filesystem/directory entry/hard link count") |  returns the number of hard links referring to the file to which the directory entry refers   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/directory_entry/dsc_hard_link_count&action=edit)  
+(public member function)   
 [ last_write_time](directory_entry/last_write_time.html "cpp/filesystem/directory entry/last write time") |  gets the time of the last data modification of the file to which the directory entry refers   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/directory_entry/dsc_last_write_time&action=edit)  
+(public member function)   
 [ statussymlink_status](directory_entry/status.html "cpp/filesystem/directory entry/status") |  status of the file designated by this directory entry;  
 status of the file/symlink designated by this directory entry   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/directory_entry/dsc_status&action=edit)  
+(public member function)   
 [ operator==operator!=operator<operator<=operator>operator>=operator<=>](directory_entry/operator_cmp.html "cpp/filesystem/directory entry/operator cmp")(removed in C++20)(removed in C++20)(removed in C++20)(removed in C++20)(removed in C++20)(C++20) |  compares two directory entries   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/directory_entry/dsc_operator_cmp&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/directory_entry&action=edit&section=2 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ operator<<](directory_entry/operator_ltlt.html "cpp/filesystem/directory entry/operator ltlt") |  performs stream output on a directory entry   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/directory_entry/dsc_operator_ltlt&action=edit)  
+(function)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/directory_entry&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

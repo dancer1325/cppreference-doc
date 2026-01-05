@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 Defined in header `[<type_traits>](../header/type_traits.html "cpp/header/type traits")` |  |   
 ---|---|---  
@@ -168,15 +168,15 @@ It is not recommended to depend on the result in this case.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_constant_evaluated&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_constant_evaluated&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 true if the evaluation of the call occurs within the evaluation of an expression or conversion that is manifestly constant-evaluated; otherwise false. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_constant_evaluated&action=edit&section=3 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     // This implementation requires C++23 if consteval.
@@ -194,7 +194,7 @@ true if the evaluation of the call occurs within the evaluation of an expression
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_constant_evaluated&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 When directly used as the condition of [`static_assert`](../language/static_assert.html "cpp/language/static assert") declaration or [constexpr if statement](../language/if.html#constexpr_if "cpp/language/if"), std::is_constant_evaluated() always returns true. 
 
@@ -204,7 +204,7 @@ Because [`if consteval`](../language/if.html#Consteval_if "cpp/language/if") is 
 ---|---|---|---  
 [`__cpp_lib_is_constant_evaluated`](../experimental/feature_test.html#cpp_lib_is_constant_evaluated "cpp/feature test") | [`201811L`](../compiler_support/20.html#cpp_lib_is_constant_evaluated_201811L "cpp/compiler support/20") | (C++20) | `std::is_constant_evaluated`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_constant_evaluated&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -255,11 +255,11 @@ Output:
     
     1000 1000
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_constant_evaluated&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
-[ `constexpr` specifier](../language/constexpr.html "cpp/language/constexpr")(C++11) |  specifies that the value of a variable or function can be computed at compile time[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_constexpr&action=edit)  
+[ `constexpr` specifier](../language/constexpr.html "cpp/language/constexpr")(C++11) |  specifies that the value of a variable or function can be computed at compile time  
 ---|---  
-[ `consteval` specifier](../language/consteval.html "cpp/language/consteval")(C++20) |  specifies that a function is an _immediate function_ , that is, every call to the function must be in a constant evaluation[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_consteval&action=edit)  
-[ `constinit` specifier](../language/constinit.html "cpp/language/constinit")(C++20) |  asserts that a variable has static initialization, i.e. [zero initialization](../language/zero_initialization.html "cpp/language/zero initialization") and [constant initialization](../language/constant_initialization.html "cpp/language/constant initialization")[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_constinit&action=edit)
+[ `consteval` specifier](../language/consteval.html "cpp/language/consteval")(C++20) |  specifies that a function is an _immediate function_ , that is, every call to the function must be in a constant evaluation  
+[ `constinit` specifier](../language/constinit.html "cpp/language/constinit")(C++20) |  asserts that a variable has static initialization, i.e. [zero initialization](../language/zero_initialization.html "cpp/language/zero initialization") and [constant initialization](../language/constant_initialization.html "cpp/language/constant initialization")
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

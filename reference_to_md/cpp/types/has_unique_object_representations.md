@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Metaprogramming library](../meta.html "cpp/meta")
 
@@ -167,7 +167,7 @@ Type transformations
 Compile-time integer sequences  
 [integer_sequence](../utility/integer_sequence.html "cpp/utility/integer sequence")(C++14)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/meta/navbar_content&action=edit)
+
 
 Defined in header `[<type_traits>](../header/type_traits.html "cpp/header/type traits")` |  |   
 ---|---|---  
@@ -203,12 +203,12 @@ If the program adds specializations for `std::has_unique_object_representations`
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/traits/is&action=edit&section=T-1 "Template:cpp/types/traits/is")] Template parameters
+### Template parameters
 
 T  |  \-  |  a type to check   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/traits/is&action=edit&section=T-2 "Template:cpp/types/traits/is")] Helper variable template
+### Helper variable template
 
 template< class T >  
 constexpr bool has_unique_object_representations_v =  
@@ -216,7 +216,7 @@ has_unique_object_representations<T>::value; |  |  (since C++17)
 ---|---|---  
 | |   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/integral_constant/inherit2&action=edit)
+
 
 ##  Inherited from [ std::integral_constant](integral_constant.html "cpp/types/integral constant")
 
@@ -241,7 +241,7 @@ Type  |  Definition
 `value_type` |  bool  
 `type` |  [std::integral_constant](integral_constant.html)<bool, value>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/has_unique_object_representations&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 This trait was introduced to make it possible to determine whether a type can be correctly hashed by hashing its object representation as a byte array. 
 
@@ -249,7 +249,7 @@ This trait was introduced to make it possible to determine whether a type can be
 ---|---|---|---  
 [`__cpp_lib_has_unique_object_representations`](../experimental/feature_test.html#cpp_lib_has_unique_object_representations "cpp/feature test") | [`201606L`](../compiler_support/17.html#cpp_lib_has_unique_object_representations_201606L "cpp/compiler support/17") | (C++17) | `std::has_unique_object_representations`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/has_unique_object_representations&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -289,7 +289,7 @@ Run this code
      // static_assert(!std::has_unique_object_representations_v<bool>); // ARM
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/has_unique_object_representations&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -299,12 +299,12 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 even if its element type is incomplete  | required the element  
 type to be complete   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/has_unique_object_representations&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ is_standard_layout](is_standard_layout.html "cpp/types/is standard layout")(C++11) |  checks if a type is a [standard-layout](../language/data_members.html#Standard-layout "cpp/language/data members") type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_standard_layout&action=edit)  
+(class template)   
 ---|---  
 [ hash](../utility/hash.html "cpp/utility/hash")(C++11) |  hash function object   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_hash&action=edit)
+(class template) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

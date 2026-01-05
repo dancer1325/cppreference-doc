@@ -21,7 +21,7 @@
 [Removed symbols (Zombie names)](zombie_names.html "cpp/symbol index/zombie names")  
 [Exposition-only symbols](expos.html "cpp/symbol index/expos")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/symbol_index/navbar_content&action=edit)
+
 
 This page tries to list all the symbols that are available from the [standard library](../standard_library.html "cpp/standard library") ([numerics library](../numeric.html "cpp/numeric")) in the namespace std::numbers. The symbols are written as follows: 
 
@@ -49,7 +49,7 @@ This page tries to list all the symbols that are available from the [standard li
   
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/numbers&action=edit&section=2 "Edit section: E")] E
+### E
 
 [`e`](../numeric/constants.html "cpp/numeric/constants") (since C++20)  
 [`e_v`](../numeric/constants.html "cpp/numeric/constants")<> (since C++20)  
@@ -57,7 +57,7 @@ This page tries to list all the symbols that are available from the [standard li
 [`egamma_v`](../numeric/constants.html "cpp/numeric/constants")<> (since C++20)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/numbers&action=edit&section=3 "Edit section: I")] I
+### I
 
 [`inv_pi`](../numeric/constants.html "cpp/numeric/constants") (since C++20)  
 [`inv_pi_v`](../numeric/constants.html "cpp/numeric/constants")<> (since C++20)  
@@ -67,7 +67,7 @@ This page tries to list all the symbols that are available from the [standard li
 [`inv_sqrtpi_v`](../numeric/constants.html "cpp/numeric/constants")<> (since C++20)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/numbers&action=edit&section=4 "Edit section: L")] L
+### L
 
 [`ln10`](../numeric/constants.html "cpp/numeric/constants") (since C++20)  
 [`ln10_v`](../numeric/constants.html "cpp/numeric/constants")<> (since C++20)  
@@ -79,7 +79,7 @@ This page tries to list all the symbols that are available from the [standard li
 [`log2e_v`](../numeric/constants.html "cpp/numeric/constants")<> (since C++20)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/numbers&action=edit&section=5 "Edit section: P")] P
+### P
 
 [`phi`](../numeric/constants.html "cpp/numeric/constants") (since C++20)  
 [`phi_v`](../numeric/constants.html "cpp/numeric/constants")<> (since C++20)  
@@ -87,7 +87,7 @@ This page tries to list all the symbols that are available from the [standard li
 [`pi_v`](../numeric/constants.html "cpp/numeric/constants")<> (since C++20)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/numbers&action=edit&section=6 "Edit section: S")] S
+### S
 
 [`sqrt2`](../numeric/constants.html "cpp/numeric/constants") (since C++20)  
 [`sqrt2_v`](../numeric/constants.html "cpp/numeric/constants")<> (since C++20)  

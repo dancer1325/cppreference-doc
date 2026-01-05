@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::transform_view`](../transform_view.html "cpp/ranges/transform view")
 
@@ -263,7 +263,7 @@ operator-(transform_view::_iterator_)](iterator/operator_arith2.html "cpp/ranges
 [operator==(transform_view::_iterator_ ,transform_view::_sentinel_)](sentinel/operator_cmp.html "cpp/ranges/transform view/sentinel/operator cmp")  
 [operator-(transform_view::_iterator_ ,transform_view::_sentinel_)](sentinel/operator-.html "cpp/ranges/transform view/sentinel/operator-")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/transform_view/navbar_content&action=edit)
+
 
 template< bool Const >  
 class /*iterator*/ |  |  (since C++20)   
@@ -286,7 +286,7 @@ The type /*iterator*/<true> is returned by the const-qualified overloads. The ty
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/transform_view/iterator&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Member type  |  Definition   
 ---|---  
@@ -317,7 +317,7 @@ Otherwise, let `_C_` be [std::iterator_traits](../../iterator/iterator_traits.ht
 `value_type` |  [std::remove_cvref_t](../../types/remove_cvref.html)<[std::invoke_result_t](../../types/result_of.html)<MCF&, [ranges::range_reference_t](../range_reference_t.html)<Base>>>, where `MCF` denotes `_[maybe-const](../../ranges.html#maybe-const "cpp/ranges")_` ﻿<Const, F>  
 `difference_type` |  [ranges::range_difference_t](../range_size_t.html)<Base>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/transform_view/iterator&action=edit&section=2 "Edit section: Data members")] Data members
+### Data members
 
 Member name  |  Definition   
 ---|---  
@@ -326,7 +326,7 @@ Member name  |  Definition
 `_parent__` (private) |  A pointer to parent `transform_view`.  
 (exposition-only member object*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/transform_view/iterator&action=edit&section=3 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](iterator/iterator.html "cpp/ranges/transform view/iterator/iterator") |  constructs an iterator   
 (public member function)  
@@ -340,7 +340,7 @@ Member name  |  Definition
 [ operator++operator++(int)operator--operator--(int)operator+=operator-=](iterator/operator_arith.html "cpp/ranges/transform view/iterator/operator arith") |  advances or decrements the underlying iterator   
 (public member function)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/transform_view/iterator&action=edit&section=4 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ operator==operator<operator>operator<=operator>=operator<=>](iterator/operator_cmp.html "cpp/ranges/transform view/iterator/operator cmp")(C++20) |  compares the underlying iterators   
 (function)  
@@ -350,7 +350,7 @@ Member name  |  Definition
 [ iter_move](iterator/iter_move.html "cpp/ranges/transform view/iterator/iter move")(C++20) |  obtains an rvalue reference to the transformed element   
 (function)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/transform_view/iterator&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

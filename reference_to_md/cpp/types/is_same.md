@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Metaprogramming library](../meta.html "cpp/meta")
 
@@ -167,7 +167,7 @@ Type transformations
 Compile-time integer sequences  
 [integer_sequence](../utility/integer_sequence.html "cpp/utility/integer sequence")(C++14)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/meta/navbar_content&action=edit)
+
 
 Defined in header `[<type_traits>](../header/type_traits.html "cpp/header/type traits")` |  |   
 ---|---|---  
@@ -195,14 +195,14 @@ If the program adds specializations for `std::is_same` or `std::is_same_v`(since
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_same&action=edit&section=1 "Edit section: Helper variable template")] Helper variable template
+### Helper variable template
 
 template< class T, class U >  
 constexpr bool is_same_v = is_same<T, U>::value; |  |  (since C++17)  
 ---|---|---  
 | |   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/integral_constant/inherit2&action=edit)
+
 
 ##  Inherited from [ std::integral_constant](integral_constant.html "cpp/types/integral constant")
 
@@ -227,7 +227,7 @@ Type  |  Definition
 `value_type` |  bool  
 `type` |  [std::integral_constant](integral_constant.html)<bool, value>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_same&action=edit&section=2 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     template<class T, class U>
@@ -238,7 +238,7 @@ Type  |  Definition
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_same&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -295,9 +295,9 @@ Possible output:
     std::is_same_v<int, std::int32_t> : true
     std::is_same_v<int, std::int64_t> : false
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_same&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ same_as](../concepts/same_as.html "cpp/concepts/same as")(C++20) |  specifies that a type is the same as another type   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_same_as&action=edit)  
+(concept)   
 ---|---  
-[ `decltype` specifier](../language/decltype.html "cpp/language/decltype")(C++11) |  obtains the type of an expression or an entity[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_decltype&action=edit)
+[ `decltype` specifier](../language/decltype.html "cpp/language/decltype")(C++11) |  obtains the type of an expression or an entity

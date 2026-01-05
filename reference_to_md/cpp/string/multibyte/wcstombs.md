@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Null-terminated multibyte strings](../multibyte.html "cpp/string/multibyte")
 
@@ -100,7 +100,7 @@ MB_CUR_MAX](../multibyte.html#Macros "cpp/string/multibyte")
 [__STDC_UTF_16__  
 __STDC_UTF_32__](../multibyte.html#Macros "cpp/string/multibyte")(C++11)(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/navbar_content&action=edit)
+
 
 Defined in header `[<cstdlib>](../../header/cstdlib.html "cpp/header/cstdlib")` |  |   
 ---|---|---  
@@ -128,26 +128,26 @@ Each character is converted as if by a call to [std::wctomb](wctomb.html "cpp/st
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/multibyte/wcstombs&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 In most implementations, this function updates a global static object of type [std::mbstate_t](mbstate_t.html "cpp/string/multibyte/mbstate t") as it processes through the string, and cannot be called simultaneously by two threads, [std::wcsrtombs](wcsrtombs.html) should be used in such cases. 
 
 POSIX specifies a common extension: if dst is a null pointer, this function returns the number of bytes that would be written to dst, if converted. Similar behavior is standard for [std::wcsrtombs](wcsrtombs.html). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/multibyte/wcstombs&action=edit&section=2 "Edit section: Parameters")] Parameters
+### Parameters
 
 dst  |  \-  |  pointer to narrow character array where the multibyte character will be stored   
 ---|---|---  
 src  |  \-  |  pointer to the first element of a null-terminated wide string to convert   
 len  |  \-  |  number of byte available in the array pointed to by dst   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/multibyte/wcstombs&action=edit&section=3 "Edit section: Return value")] Return value
+### Return value
 
 On success, returns the number of bytes (including any shift sequences, but excluding the terminating '\0') written to the character array whose first element is pointed to by dst. 
 
 On conversion error (if invalid wide character was encountered), returns static_cast<[std::size_t](../../types/size_t.html)>(-1). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/multibyte/wcstombs&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -171,13 +171,13 @@ Output:
     
     multibyte string: zß水𝄋
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/multibyte/wcstombs&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ wcsrtombs](wcsrtombs.html "cpp/string/multibyte/wcsrtombs") |  converts a wide string to narrow multibyte character string, given state   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/dsc_wcsrtombs&action=edit)  
+(function)   
 ---|---  
 [ mbstowcs](mbstowcs.html "cpp/string/multibyte/mbstowcs") |  converts a narrow multibyte character string to wide string   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/dsc_mbstowcs&action=edit)  
+(function)   
 [ do_out](../../locale/codecvt/out.html "cpp/locale/codecvt/out")[virtual] |  converts a string from `InternT` to `ExternT`, such as when writing to file   
-(virtual protected member function of `std::codecvt<InternT,ExternT,StateT>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/codecvt/dsc_do_out&action=edit)  
+(virtual protected member function of `std::codecvt<InternT,ExternT,StateT>`)   
 [C documentation](../../../c/string/multibyte/wcstombs.html "c/string/multibyte/wcstombs") for wcstombs

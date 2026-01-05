@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Library fundamentals](../memory.html "cpp/experimental/lib extensions")
 
@@ -50,7 +50,7 @@
 [Type-erased and polymorphic allocators](../memory.html "cpp/experimental/memory")  
 [Variable templates for type traits](../type_trait_variable_templates.html "cpp/experimental/type trait variable templates")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions/navbar_content&action=edit)
+
 
 [Polymorphic allocator library](../memory.html "cpp/experimental/memory")
 
@@ -73,7 +73,7 @@ Type-erased allocator support for existing classes
 [packaged_task](../lib_extensions/packaged_task.html "cpp/experimental/lib extensions/packaged task")  
 [promise](../lib_extensions/promise.html "cpp/experimental/lib extensions/promise")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions/pmr/navbar_content&action=edit)
+
 
 [`std::experimental::pmr::polymorphic_allocator`](../polymorphic_allocator.html "cpp/experimental/polymorphic allocator")
 
@@ -90,7 +90,7 @@ Member functions
 Non-member functions  
 [operator==operator!=](operator_eq.html "cpp/experimental/polymorphic allocator/operator eq")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions/pmr/polymorphic_allocator/navbar_content&action=edit)
+
 
 template< class U, class... Args >  
 void construct( U* p, Args&&... args ); |  (1)  |  (library fundamentals TS)  
@@ -161,7 +161,7 @@ construct(p, [std::piecewise_construct](../../utility/piecewise_construct.html),
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/polymorphic_allocator/construct&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 p  |  \-  |  pointer to allocated, but not initialized storage   
 ---|---|---  
@@ -170,18 +170,18 @@ x  |  \-  |  the constructor arguments to pass to the constructor of `T1`
 y  |  \-  |  the constructor arguments to pass to the constructor of `T2`  
 xy  |  \-  |  the pair whose two members are the constructor arguments for `T1` and `T2`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/polymorphic_allocator/construct&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/polymorphic_allocator/construct&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 This function is called (through [std::allocator_traits](../../memory/allocator_traits.html "cpp/memory/allocator traits")) by any allocator-aware object, such as [std::vector](../../container/vector.html "cpp/container/vector"), that was given a [std::polymorphic_allocator](../../memory/polymorphic_allocator.html "cpp/memory/polymorphic allocator") as the allocator to use. Since `memory_resource*` implicitly converts to `polymorphic_allocator`, the memory resource pointer will propagate to any allocator-aware subobjects using polymorphic allocators. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/polymorphic_allocator/construct&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ construct](../../memory/allocator_traits/construct.html "cpp/memory/allocator traits/construct")[static] |  constructs an object in the allocated storage   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/allocator_traits/dsc_construct&action=edit)  
+(function template)   
 ---|---  
 [ construct](../../memory/allocator/construct.html "cpp/memory/allocator/construct")(until C++20) |  constructs an object in allocated storage   
-(public member function of `std::allocator<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/allocator/dsc_construct&action=edit)
+(public member function of `std::allocator<T>`) 

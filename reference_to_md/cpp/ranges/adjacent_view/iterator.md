@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::adjacent_view`](../adjacent_view.html "cpp/ranges/adjacent view")
 
@@ -264,7 +264,7 @@ Non-member functions
 [operator==(adjacent_view::_iterator_ ,adjacent_view::_sentinel_)](sentinel/operator_cmp.html "cpp/ranges/adjacent view/sentinel/operator cmp")  
 [operator-(adjacent_view::_iterator_ ,adjacent_view::_sentinel_)](sentinel/operator-.html "cpp/ranges/adjacent view/sentinel/operator-")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adjacent_view/navbar_content&action=edit)
+
 
 template< bool Const >  
 class /*iterator*/ |  |  (since C++23)   
@@ -289,7 +289,7 @@ The type /*iterator*/<true> is returned by the const-qualified overloads. The ty
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/adjacent_view/iterator&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Member type  |  Definition   
 ---|---  
@@ -306,14 +306,14 @@ Member type  |  Definition
 `value_type` |  [std::tuple](../../utility/tuple.html)</*REPEAT*/([ranges::range_value_t](../range_size_t.html)<Base>, N)...>;  
 `difference_type` |  [ranges::range_difference_t](../range_size_t.html)<Base>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/adjacent_view/iterator&action=edit&section=2 "Edit section: Data members")] Data members
+### Data members
 
 Member object  |  Definition   
 ---|---  
 `_current__` (private) |  [std::array](../../container/array.html)<[ranges::iterator_t](../iterator_t.html)<Base>, N>.  
 (exposition-only member object*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/adjacent_view/iterator&action=edit&section=3 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](iterator/iterator.html "cpp/ranges/adjacent view/iterator/iterator") |  constructs an iterator   
 (public member function)  
@@ -323,9 +323,9 @@ Member object  |  Definition
 [ operator[]](iterator/operator_at.html "cpp/ranges/adjacent view/iterator/operator at") |  accesses an element by index   
 (public member function)  
 [ operator++operator++(int)operator--operator--(int)operator+=operator-=](iterator/operator_arith.html "cpp/ranges/adjacent view/iterator/operator arith") |  advances or decrements the underlying iterators   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/iterator/dsc_operator_arith&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/adjacent_view/iterator&action=edit&section=4 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ operator==operator<operator>operator<=operator>=operator<=>](iterator/operator_cmp.html "cpp/ranges/adjacent view/iterator/operator cmp")(C++23) |  compares the underlying iterators   
 (function)  
@@ -337,7 +337,7 @@ Member object  |  Definition
 [ iter_swap](iterator/iter_swap.html "cpp/ranges/adjacent view/iterator/iter swap")(C++23) |  swaps the objects pointed to by two underlying iterators   
 (function)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/adjacent_view/iterator&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -375,7 +375,7 @@ Run this code
         // std::ignore() = j[1]; //        for bidirectional iterator
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/adjacent_view/iterator&action=edit&section=6 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -387,6 +387,6 @@ Run this code
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/adjacent_view/iterator&action=edit&section=7 "Edit section: See also")] See also  
+### See also  
   
 ---

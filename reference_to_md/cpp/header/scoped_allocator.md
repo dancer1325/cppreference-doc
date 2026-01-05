@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header is part of the [dynamic memory management](../memory.html "cpp/memory") library. 
 
@@ -213,14 +213,14 @@ This header is part of the [dynamic memory management](../memory.html "cpp/memor
 ###  Classes  
   
 [ scoped_allocator_adaptor](../memory/scoped_allocator_adaptor.html "cpp/memory/scoped allocator adaptor")(C++11) |  implements multi-level allocator for multi-level containers   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_scoped_allocator_adaptor&action=edit)  
+(class template)   
   
 ###  Functions  
   
 [ operator==operator!=](../memory/scoped_allocator_adaptor/operator_cmp.html "cpp/memory/scoped allocator adaptor/operator cmp")(removed in C++20) |  compares two `scoped_allocator_adaptor` objects   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/scoped_allocator_adaptor/dsc_operator_cmp&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/scoped_allocator&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     namespace std {
@@ -234,7 +234,7 @@ This header is part of the [dynamic memory management](../memory.html "cpp/memor
                         const scoped_allocator_adaptor<OuterA2, InnerAllocs...>& b) noexcept;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/scoped_allocator&action=edit&section=T-1 "Template:cpp/synopsis/scoped allocator")] Class template [std::scoped_allocator_adaptor](../memory/scoped_allocator_adaptor.html "cpp/memory/scoped allocator adaptor")
+#### Class template [std::scoped_allocator_adaptor](../memory/scoped_allocator_adaptor.html "cpp/memory/scoped allocator adaptor")
     
     
     namespace std {

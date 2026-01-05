@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::indirect`](../indirect.html "cpp/memory/indirect")
 
@@ -206,7 +206,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
 [Helper classes](../indirect.html#Helper_classes "cpp/memory/indirect")  
 [hash<std::indirect>](hash.html "cpp/memory/indirect/hash")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/indirect/navbar_content&action=edit)
+
 
 constexpr const_pointer operator->() const noexcept; |  (1)  |  (since C++26)  
 ---|---|---  
@@ -225,7 +225,7 @@ Accesses the owned value.
 
 If *this is valueless, the behavior is undefined. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/indirect/operator*&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 1,2) `_[p](../indirect.html#p "cpp/memory/indirect")_`
 
@@ -233,11 +233,11 @@ If *this is valueless, the behavior is undefined.
 
 5,6) std::move(*`_[p](../indirect.html#p "cpp/memory/indirect")_` ﻿)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/indirect/operator*&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 This operator does not check whether *this is valueless, users can do so manually by using [`valueless_after_move()`](valueless_after_move.html "cpp/memory/indirect/valueless after move"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/indirect/operator*&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../experimental.html "cpp/experimental")
 
@@ -57,7 +57,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Library fundamentals v3](../lib_extensions_3.html "cpp/experimental/lib extensions 3")
 
@@ -67,7 +67,7 @@
 [experimental::scope_success](../scope_success.html "cpp/experimental/scope success")  
 [experimental::unique_resource](../unique_resource.html "cpp/experimental/unique resource")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions_3/navbar_content&action=edit)
+
 
 [`std::experimental::scope_fail`](../scope_fail.html "cpp/experimental/scope fail")
 
@@ -79,7 +79,7 @@ Modifiers
 [scope_fail::release](release.html "cpp/experimental/scope fail/release")  
 [Deduction guides](deduction_guides.html "cpp/experimental/scope fail/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/scope_fail/navbar_content&action=edit)
+
 
 template< class Fn >  
 explicit scope_fail( Fn&& fn ) noexcept(/*see below*/); |  (1)  |  (library fundamentals TS v3)  
@@ -129,13 +129,13 @@ The behavior is undefined if
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/scope_guard/constructor&action=edit&section=T-1 "Template:cpp/experimental/scope guard/constructor")] Parameters
+### Parameters
 
 fn  |  \-  |  function or function object used for initializing the stored `EF`  
 ---|---|---  
 other  |  \-  |  `scope_fail` to move from   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/scope_guard/constructor&action=edit&section=T-2 "Template:cpp/experimental/scope guard/constructor")] Exceptions
+### Exceptions
 
 Any exception thrown during the initialization of the stored `EF`. 
 
@@ -153,16 +153,16 @@ noexcept([std::is_nothrow_constructible_v](../../types/is_constructible.html)<EF
 noexcept([std::is_nothrow_move_constructible_v](../../types/is_move_constructible.html)<EF> ||  
 [std::is_nothrow_copy_constructible_v](../../types/is_copy_constructible.html)<EF>)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/scope_guard/constructor&action=edit&section=T-3 "Template:cpp/experimental/scope guard/constructor")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/scope_guard/constructor&action=edit&section=T-4 "Template:cpp/experimental/scope guard/constructor")] See also
+### See also
 
 [ uncaught_exceptionuncaught_exceptions](../../error/exception/uncaught_exception.html "cpp/error/uncaught exception")(removed in C++20*)(C++17) |  checks if exception handling is currently in progress   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_uncaught_exception&action=edit)  
+(function)   
 ---|---  
 [ release](release.html "cpp/experimental/scope fail/release") |  makes the `scope_fail` inactive   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/scope_guard/dsc_release&action=edit)
+(public member function) 

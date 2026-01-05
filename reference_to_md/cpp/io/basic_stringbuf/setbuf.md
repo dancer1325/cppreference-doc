@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_stringbuf`](../basic_stringbuf.html "cpp/io/basic stringbuf")
 
@@ -101,7 +101,7 @@ Non-member functions
 Exposition-only member functions  
 [basic_stringbuf::_init_buf_ptrs_](init_buf_ptrs.html "cpp/io/basic stringbuf/init buf ptrs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_stringbuf/navbar_content&action=edit)
+
 
 protected:  
 virtual [std::basic_streambuf](../basic_streambuf.html)<CharT, Traits>* setbuf( char_type* s, [std::streamsize](../streamsize.html) n ) |  |   
@@ -125,21 +125,21 @@ This function is protected virtual, it may only be called through `pubsetbuf()` 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_stringbuf/setbuf&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 s  |  \-  |  pointer to the first CharT in the user-provided buffer or null   
 ---|---|---  
 n  |  \-  |  the number of CharT elements in the user-provided buffer or zero   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_stringbuf/setbuf&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 this
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_stringbuf/setbuf&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 The deprecated stream buffer [std::strstreambuf](../strstreambuf.html) or the boost.IOStreams device [`boost::basic_array`](https://www.boost.org/doc/libs/release/libs/iostreams/doc/classes/array.html#array) may be used to implement I/O buffering over a user-provided char array in portable manner. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_stringbuf/setbuf&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Test for the stringstream's setbuf functionality.
 
@@ -164,8 +164,8 @@ Output:
     3.14 (on GNU g++/libstdc++ and SunPro C++/roguewave)
     <nothing> (on MS Visual Studio 2010, SunPro C++/stlport4, CLang++/libc++)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_stringbuf/setbuf&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ pubsetbuf](../basic_streambuf/pubsetbuf.html "cpp/io/basic streambuf/pubsetbuf") |  invokes setbuf()   
-(public member function of `std::basic_streambuf<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_streambuf/dsc_pubsetbuf&action=edit)  
+(public member function of `std::basic_streambuf<CharT,Traits>`)   
 ---|---

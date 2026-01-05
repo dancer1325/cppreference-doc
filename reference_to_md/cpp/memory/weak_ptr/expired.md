@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::weak_ptr`](../weak_ptr.html "cpp/memory/weak ptr")
 
@@ -209,7 +209,7 @@ Helper classes
 [atomic<std::weak_ptr>](atomic2.html "cpp/memory/weak ptr/atomic2")(C++20)  
 [Deduction guides](deduction_guides.html "cpp/memory/weak ptr/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/weak_ptr/navbar_content&action=edit)
+
 
 bool expired() const noexcept; |  |  (since C++11)  
 ---|---|---  
@@ -228,19 +228,19 @@ Equivalent to use_count() == 0. The destructor for the managed object may not ye
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/weak_ptr/expired&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/weak_ptr/expired&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 true if the managed object has already been deleted, false otherwise. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/weak_ptr/expired&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 If the managed object is shared among threads, it is only meaningful when `expired()` returns true. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/weak_ptr/expired&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Demonstrates how `expired` is used to check validity of the pointer.
 
@@ -278,10 +278,10 @@ Output:
     gw is valid
     gw is expired
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/weak_ptr/expired&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ lock](lock.html "cpp/memory/weak ptr/lock") |  creates a `shared_ptr` that manages the referenced object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/weak_ptr/dsc_lock&action=edit)  
+(public member function)   
 ---|---  
 [ use_count](use_count.html "cpp/memory/weak ptr/use count") |  returns the number of `shared_ptr` objects that manage the object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/weak_ptr/dsc_use_count&action=edit)
+(public member function) 

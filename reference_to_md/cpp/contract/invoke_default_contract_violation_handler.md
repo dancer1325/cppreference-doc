@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Contract support](../contract.html "cpp/contract")
 
@@ -141,7 +141,7 @@ Contract-violation information
 Helper functions  
 **invoke_default_contract_violation_handler**(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/contract/navbar_content&action=edit)
+
 
 Defined in header `[<contracts>](../header/contracts.html "cpp/header/contracts")` |  |   
 ---|---|---  
@@ -151,12 +151,12 @@ void invoke_default_contract_violation_handler
   
 Invokes the default [contract-violation handler](../language/contracts.html#Contract-violation_handler "cpp/language/contracts") with violation as the argument. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/contract/invoke_default_contract_violation_handler&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 violation  |  \-  |  the object holding the information of the contract violation currently being handled   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/contract/invoke_default_contract_violation_handler&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 Since objects of type std::contracts::contract_violation cannot be constructed or copied by the user, this function can only be called only during the execution of a user-defined contract-violation handler, where violation refers to the same object as the parameter of the user-defined handler. 
 

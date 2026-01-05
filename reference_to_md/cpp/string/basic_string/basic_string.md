@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Strings library](../../string.html "cpp/string")
 
@@ -40,7 +40,7 @@ Classes
 [basic_string_view](../basic_string_view.html "cpp/string/basic string view")(C++17)  
 [char_traits](../char_traits.html "cpp/string/char traits")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/navbar_content&action=edit)
+
 
 [`std::basic_string`](../basic_string.html "cpp/string/basic string")
 
@@ -133,7 +133,7 @@ basic_string_view](operator_basic_string_view.html "cpp/string/basic string/oper
 [hash<std::basic_string>](hash.html "cpp/string/basic string/hash")(C++11)  
 [Deduction guides](deduction_guides.html "cpp/string/basic string/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/navbar_content&action=edit)
+
 
 | (1) |   
 ---|---|---  
@@ -263,7 +263,7 @@ If `CharT` is not [MoveInsertable](../../named_req/MoveInsertable.html "cpp/name
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/basic_string&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 alloc  |  \-  |  allocator to use for all memory allocations of this string   
 ---|---|---  
@@ -277,7 +277,7 @@ ilist  |  \-  |  [std::initializer_list](../../utility/initializer_list.html "cp
 t  |  \-  |  object (convertible to [std::basic_string_view](../basic_string_view.html "cpp/string/basic string view")) to initialize the string with   
 rg  |  \-  |  a container compatible range   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/basic_string&action=edit&section=2 "Edit section: Complexity")] Complexity
+### Complexity
 
 1,2) Constant.
 
@@ -293,7 +293,7 @@ rg  |  \-  |  a container compatible range
 
 15-19) Linear in the size of the string.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/basic_string&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 10) [std::out_of_range](../../error/out_of_range.html "cpp/error/out of range") if pos is out of range.
 
@@ -305,7 +305,7 @@ Throws [std::length_error](../../error/length_error.html "cpp/error/length error
 
 If an exception is thrown for any reason, these functions have no effect ([strong exception safety guarantee](../../language/exceptions.html#Exception_safety "cpp/language/exceptions")). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/basic_string&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 Initialization with a [string literal](../../language/string_literal.html "cpp/language/string literal") that contains embedded '\0' characters uses the overload (7), which stops at the first null character. This can be avoided by specifying a different constructor or by using [`operator""s`](operator""s.html "cpp/string/basic string/operator""s"): 
     
@@ -318,7 +318,7 @@ Initialization with a [string literal](../../language/string_literal.html "cpp/l
 ---|---|---|---  
 [`__cpp_lib_containers_ranges`](../../experimental/feature_test.html#cpp_lib_containers_ranges "cpp/feature test") | [`202202L`](../../compiler_support/23.html#cpp_lib_containers_ranges_202202L "cpp/compiler support/23") | (C++23) | Tagged constructor (5) to construct from [container compatible range](../../ranges/to.html#container_compatible_range "cpp/ranges/to")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/basic_string&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -392,7 +392,7 @@ Possible output:
     17) string(const string& other, size_type pos, size_type count): "Exemplar"
     19) string(std::initializer_list<CharT>): "C-style"
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/basic_string&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -422,18 +422,18 @@ defined in this case[[1]](basic_string.html#cite_note-1)
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/basic_string&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ assign](assign.html "cpp/string/basic string/assign") |  assign characters to a string   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_assign&action=edit)  
+(public member function)   
 ---|---  
 [ operator=](operator=.html "cpp/string/basic string/operator=") |  assigns values to the string   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_operator%3D&action=edit)  
+(public member function)   
 [ to_string](to_string.html "cpp/string/basic string/to string")(C++11) |  converts an integral or floating-point value to `string`   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_to_string&action=edit)  
+(function)   
 [ to_wstring](to_wstring.html "cpp/string/basic string/to wstring")(C++11) |  converts an integral or floating-point value to `wstring`   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_to_wstring&action=edit)  
+(function)   
 [ (constructor)](../basic_string_view/basic_string_view.html "cpp/string/basic string view/basic string view") |  constructs a `basic_string_view`   
-(public member function of `std::basic_string_view<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/dsc_constructor&action=edit)
+(public member function of `std::basic_string_view<CharT,Traits>`) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

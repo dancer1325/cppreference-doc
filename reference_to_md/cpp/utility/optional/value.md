@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::optional`](../optional.html "cpp/utility/optional")
 
@@ -167,7 +167,7 @@ Common vocabulary types
 [nullopt](nullopt.html "cpp/utility/optional/nullopt")  
 [in_place](../in_place.html "cpp/utility/in place")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/navbar_content&action=edit)
+
 
 constexpr T& value() &;  
 constexpr const T& value() const &; |  (1)  |  (since C++17)  
@@ -192,23 +192,23 @@ Otherwise, throws a [std::bad_optional_access](../bad_optional_access.html "cpp/
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/value&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/value&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 A reference to the contained value. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/value&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 [std::bad_optional_access](../bad_optional_access.html "cpp/utility/optional/bad optional access") if *this does not contain a value. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/value&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 The dereference operator [operator*()](operator*.html "cpp/utility/optional/operator*") does not check if this optional contains a value, which may be more efficient than `value()`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/value&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -253,12 +253,12 @@ Output:
     43
     44
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/value&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ value_or](value_or.html "cpp/utility/optional/value or") |  returns the contained value if available, another value otherwise   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/dsc_value_or&action=edit)  
+(public member function)   
 ---|---  
 [ operator->operator*](operator*.html "cpp/utility/optional/operator*") |  accesses the contained value   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/dsc_operator*&action=edit)  
+(public member function)   
 [ bad_optional_access](../bad_optional_access.html "cpp/utility/optional/bad optional access")(C++17) |  exception indicating checked access to an optional that doesn't contain a value   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/dsc_bad_optional_access&action=edit)
+(class) 

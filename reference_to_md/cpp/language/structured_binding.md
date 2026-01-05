@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [Declarations](declarations.html "cpp/language/declarations")
 
@@ -280,7 +280,7 @@ Other declarations
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/declarations/navbar_content&action=edit)
+
 
 Binds the specified names to subobjects or elements of the initializer. 
 
@@ -344,7 +344,7 @@ A structured binding is an identifier in the sb-identifier-list ﻿ that is not 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/structured_binding&action=edit&section=1 "Edit section: Binding process")] Binding process
+### Binding process
 
 A structured binding declaration first introduces a uniquely-named variable (here denoted by e) to hold the value of the initializer, as follows: 
 
@@ -401,7 +401,7 @@ Each of the three cases is described in more detail below.
 
 Each structured binding has a _referenced type_ , defined in the description below. This type is the type returned by [`decltype`](decltype.html "cpp/language/decltype") when applied to an unparenthesized structured binding. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/structured_binding&action=edit&section=2 "Edit section: Case 1: binding an array")] Case 1: binding an array
+#### Case 1: binding an array
 
 Each structured binding in the sb-identifier-list becomes the name of an lvalue that refers to the corresponding element of the array. The structured binding size of `E` is equal to the number of array elements. 
 
@@ -414,7 +414,7 @@ The _referenced type_ for each structured binding is the array element type. Not
                         // then x refers to e[0], y refers to e[1]
     auto& [xr, yr] = a; // xr refers to a[0], yr refers to a[1]
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/structured_binding&action=edit&section=3 "Edit section: Case 2: binding a type implementing the tuple operations")] Case 2: binding a type implementing the tuple operations
+#### Case 2: binding a type implementing the tuple operations
 
 The expression [std::tuple_size](../utility/tuple_size.html)<E>::value must be a well-formed [integral constant expression](constant_expression.html#Integral_constant_expression "cpp/language/constant expression"), and the structured binding size of `E` is equal to [std::tuple_size](../utility/tuple_size.html)<E>::value. 
 
@@ -448,7 +448,7 @@ The _referenced type_ for the Ith structured binding is [std::tuple_element](../
     // c names a structured binding that refers to the third component of tpl, get<2>(tpl)
     // decltype(c) is std::tuple_element<2, Tpl>::type, i.e. const int
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/structured_binding&action=edit&section=4 "Edit section: Case 3: binding to data members")] Case 3: binding to data members
+#### Case 3: binding to data members
 
 Every non-static data member of `E` must be a direct member of `E` or the same base class of `E`, and must be well-formed in the context of the structured binding when named as e.name. `E` may not have an anonymous union member. The structured binding size of `E` is equal to the number of non-static data members. 
 
@@ -477,7 +477,7 @@ The _referenced type_ of the Ith structured binding is the type of e.mI if it is
         [std::cout](../io/cout.html) << x << ' ' << y << '\n';  // -2 2.3
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/structured_binding&action=edit&section=5 "Edit section: Initialization order")] Initialization order
+#### Initialization order
 
 Let valI be the object or reference named by the Ith structured binding in sb-identifier-list ﻿: 
 
@@ -486,7 +486,7 @@ Let valI be the object or reference named by the Ith structured binding in sb-id
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/structured_binding&action=edit&section=6 "Edit section: Notes")] Notes
+### Notes
 
 Structured bindings cannot be [constrained](constraints.html "cpp/language/constraints"): 
     
@@ -583,11 +583,11 @@ Feature-test macro  | Value | Std | Feature
 [`202406L`](../compiler_support/26.html#cpp_structured_bindings_202406L "cpp/compiler support/26") | (C++26) | Structured binding declaration as a condition   
 [`202411L`](../compiler_support/26.html#cpp_structured_bindings_202411L "cpp/compiler support/26") | (C++26) | Structured bindings can introduce a pack   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/structured_binding&action=edit&section=7 "Edit section: Keywords")] Keywords
+### Keywords
 
 [`auto`](../keyword/auto.html "cpp/keyword/auto")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/structured_binding&action=edit&section=8 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -648,7 +648,7 @@ Output:
     1 2 3 4
     4 3 2 1
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/structured_binding&action=edit&section=9 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -675,7 +675,7 @@ template with a constant parameter
 [P0969R0](https://wg21.link/P0969R0) | C++17  | in case 3, the members were required to be public  | only required to be accessible  
 in the context of the declaration   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/structured_binding&action=edit&section=10 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -707,10 +707,10 @@ in the context of the declaration
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/structured_binding&action=edit&section=11 "Edit section: See also")] See also
+### See also
 
 [ tie](../utility/tuple/tie.html "cpp/utility/tuple/tie")(C++11) |  creates a [tuple](../utility/tuple.html "cpp/utility/tuple") of lvalue references or unpacks a tuple into individual objects   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/dsc_tie&action=edit)  
+(function template)   
 ---|---
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

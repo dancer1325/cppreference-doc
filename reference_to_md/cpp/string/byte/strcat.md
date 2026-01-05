@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Null-terminated byte strings](../byte.html "cpp/string/byte")
 
@@ -143,7 +143,7 @@
 | [strerror](strerror.html "cpp/string/byte/strerror")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/navbar_content&action=edit)
+
 
 Defined in header `[<cstring>](../../header/cstring.html "cpp/header/cstring")` |  |   
 ---|---|---  
@@ -167,21 +167,21 @@ The behavior is undefined if the strings overlap.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/strcat&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 dest  |  \-  |  pointer to the null-terminated byte string to append to   
 ---|---|---  
 src  |  \-  |  pointer to the null-terminated byte string to copy from   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/strcat&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 dest
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/strcat&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Because `strcat` needs to seek to the end of dest on each call, it is inefficient to concatenate many strings into one using `strcat`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/strcat&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -203,11 +203,11 @@ Output:
     
     Hello World! Goodbye World!
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/strcat&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ strncat](strncat.html "cpp/string/byte/strncat") |  concatenates a certain amount of characters of two strings   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strncat&action=edit)  
+(function)   
 ---|---  
 [ strcpy](strcpy.html "cpp/string/byte/strcpy") |  copies one string to another   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strcpy&action=edit)  
+(function)   
 [C documentation](../../../c/string/byte/strcat.html "c/string/byte/strcat") for strcat

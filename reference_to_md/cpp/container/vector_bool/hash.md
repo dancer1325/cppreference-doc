@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -71,7 +71,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::vector<bool>`](../vector_bool.html "cpp/container/vector bool")
 
@@ -133,7 +133,7 @@ Tables
 **hash <std::vector<bool>>**(C++11)  
 [Deduction guides](../vector/deduction_guides.html "cpp/container/vector/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/vector_bool/navbar_content&action=edit)
+
 
 Defined in header `[<vector>](../../header/vector.html "cpp/header/vector")` |  |   
 ---|---|---  
@@ -143,7 +143,7 @@ struct hash<[std::vector](../vector.html)<bool, Allocator>>; |  |  (since C++11)
   
 The template specialization of [std::hash](../../utility/hash.html "cpp/utility/hash") for [std::vector](../vector.html)<bool> allows users to obtain hashes of objects of type [std::vector](../vector.html)<bool>. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/vector_bool/hash&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -206,8 +206,8 @@ Possible output:
     E2E622597C18899D { 1 1 1 }
     { 1 1 } { 1 0 } { 1 } { 0 0 } { 0 }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/vector_bool/hash&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ hash](../../utility/hash.html "cpp/utility/hash")(C++11) |  hash function object   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_hash&action=edit)  
+(class template)   
 ---|---

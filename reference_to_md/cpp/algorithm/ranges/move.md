@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](copy.html "cpp/algorithm/ranges/co
 [uninitialized_default_construct_n](../../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 [Constrained algorithms](../ranges.html "cpp/algorithm/ranges")
 
@@ -550,7 +550,7 @@ All names in this menu belong to namespace `std::ranges`
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -595,14 +595,14 @@ The function-like entities described on this page are [_algorithm function objec
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/move&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  the iterator-sentinel pair defining the [range](../../iterator.html#Ranges "cpp/iterator") of elements to move   
 ---|---|---  
 r  |  \-  |  the range of the elements to move   
 result  |  \-  |  the beginning of the destination range   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/move&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 {last, result + N}, where 
 
@@ -610,15 +610,15 @@ result  |  \-  |  the beginning of the destination range
 
 2) N = [ranges::distance](../../iterator/ranges/distance.html)(r).
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/move&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Exactly N move assignments. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/move&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 When moving overlapping ranges, **ranges::move** is appropriate when moving to the left (beginning of the destination range is outside the source range) while [ranges::move_backward](move_backward.html "cpp/algorithm/ranges/move backward") is appropriate when moving to the right (end of the destination range is outside the source range). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/move&action=edit&section=5 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     struct move_fn
@@ -645,7 +645,7 @@ When moving overlapping ranges, **ranges::move** is appropriate when moving to t
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/move&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 The following code moves thread objects (which themselves are _non copyable_) from one container to another.
 
@@ -687,16 +687,16 @@ Output:
     thread with n=600ms ended
     thread with n=800ms ended
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/move&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ ranges::move_backward](move_backward.html "cpp/algorithm/ranges/move backward")(C++20) |  moves a range of elements to a new location in backwards order  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_move_backward&action=edit)  
+(algorithm function object)  
 ---|---  
 [ ranges::copyranges::copy_if](copy.html "cpp/algorithm/ranges/copy")(C++20)(C++20) |  copies a range of elements to a new location  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_copy&action=edit)  
+(algorithm function object)  
 [ ranges::copy_backward](copy_backward.html "cpp/algorithm/ranges/copy backward")(C++20) |  copies a range of elements in backwards order  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_copy_backward&action=edit)  
+(algorithm function object)  
 [ move](../move.html "cpp/algorithm/move")(C++11) |  moves a range of elements to a new location   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_move&action=edit)  
+(function template)   
 [ move](../../utility/move.html "cpp/utility/move")(C++11) |  converts the argument to an xvalue   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_move&action=edit)
+(function template) 

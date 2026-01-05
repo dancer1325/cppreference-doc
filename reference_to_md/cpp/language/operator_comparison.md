@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Expressions](expressions.html "cpp/language/expressions")
 
@@ -289,7 +289,7 @@ Conversions
 [`dynamic_cast`](dynamic_cast.html "cpp/language/dynamic cast")  
 [`reinterpret_cast`](reinterpret_cast.html "cpp/language/reinterpret cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/expressions/navbar_content&action=edit)
+
 
 Compares the arguments. 
 
@@ -336,11 +336,11 @@ Three-way comparison (C++20) | `a <=> b` | Yes  | `_R_` T::operator<=>(const U& 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_comparison&action=edit&section=1 "Edit section: Two-way comparison")] Two-way comparison
+### Two-way comparison
 
 The two-way comparison operator expressions have the form 
 
-##### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_comparison&action=edit&section=2 "Edit section: Relational operators")] Relational operators  
+##### Relational operators  
   
 ---  
 lhs `**<**` rhs |  (1)  |   
@@ -348,7 +348,7 @@ lhs `**>**` rhs |  (2)  |
 lhs `**< =**` rhs |  (3)  |   
 lhs `**> =**` rhs |  (4)  |   
   
-##### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_comparison&action=edit&section=3 "Edit section: Equality operators")] Equality operators  
+##### Equality operators  
   
 ---  
 lhs `**==**` rhs |  (5)  |   
@@ -366,7 +366,7 @@ lhs `**!=**` rhs |  (6)  |
 
 6) Returns true if lhs is not equal to rhs, false otherwise.
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_comparison&action=edit&section=4 "Edit section: Built-in two-way comparison operators")] Built-in two-way comparison operators
+#### Built-in two-way comparison operators
 
 For built-in two-way comparison operators, [lvalue-to-rvalue conversions](implicit_cast.html#Lvalue-to-rvalue_conversion "cpp/language/implicit conversion"), [array-to-pointer conversions](implicit_cast.html#Array-to-pointer_conversion "cpp/language/implicit conversion")(until C++26) and [function-to-pointer conversions](implicit_cast.html#Function-to-pointer_conversion "cpp/language/implicit conversion") are applied to lhs and rhs ﻿. 
 
@@ -377,7 +377,7 @@ For built-in relational operators, if one of the operands is a pointer, the [arr
   
 For built-in two-way comparison operators, the result is a bool prvalue. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_comparison&action=edit&section=5 "Edit section: Built-in arithmetic comparison")] Built-in arithmetic comparison
+#### Built-in arithmetic comparison
 
 If the converted operands both have arithmetic or enumeration type (scoped or unscoped), [usual arithmetic conversions](usual_arithmetic_conversions.html "cpp/language/usual arithmetic conversions") are performed on both operands. The values are compared after conversions: 
 
@@ -429,7 +429,7 @@ Output:
      -1 <  1 ? true
      -1 >  1 ? false
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_comparison&action=edit&section=6 "Edit section: Built-in pointer equality comparison")] Built-in pointer equality comparison
+#### Built-in pointer equality comparison
 
 The converted operands of equality operators `==` and `!=` can also have the type [std::nullptr_t](../types/nullptr_t.html "cpp/types/nullptr t"),(since C++11) pointer type or pointer-to-member type. 
 
@@ -503,7 +503,7 @@ If at least one of converted lhs and rhs is a pointer to member, [pointer-to-mem
 Two operands of type [std::nullptr_t](../types/nullptr_t.html "cpp/types/nullptr t") or one operand of type [std::nullptr_t](../types/nullptr_t.html "cpp/types/nullptr t") and the other a null pointer constant compare equal.  | (since C++11)  
 ---|---  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_comparison&action=edit&section=7 "Edit section: Built-in pointer relational comparison")] Built-in pointer relational comparison
+#### Built-in pointer relational comparison
 
 The converted operands of relational operators `>`, `<`, `>=` and `<=` can also have pointer type. 
 
@@ -541,7 +541,7 @@ If converted lhs and rhs are both pointers, [pointer conversions](implicit_cast.
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_comparison&action=edit&section=8 "Edit section: Pointer total order")] Pointer total order
+#### Pointer total order
 
 There exists an _implementation-defined strict total order over pointers_ in each program. The strict total order is consistent with the partial order described above: unspecified results become implementation-defined, while other results stay the same. 
 
@@ -562,7 +562,7 @@ Pointer comparison with the strict total order is applied in the following cases
 
 | (since C++20)  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_comparison&action=edit&section=9 "Edit section: Overloads")] Overloads
+#### Overloads
 
 In [overload resolution against user-defined operators](overload_resolution.html#Call_to_an_overloaded_operator "cpp/language/overload resolution"), for every pair of promoted arithmetic types `L` and `R`, including enumeration types, the following function signatures participate in overload resolution: 
 
@@ -748,7 +748,7 @@ Output:
 
 (since C++20)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_comparison&action=edit&section=12 "Edit section: Notes")] Notes
+### Notes
 
 Because comparison operators group left-to-right, the expression a < b < c is parsed (a < b) < c, and not a < (b < c) or (a < b) && (b < c). 
 
@@ -803,99 +803,99 @@ If both of the operands are arrays, three-way comparison is ill-formed.
 [`__cpp_impl_three_way_comparison`](../experimental/feature_test.html#cpp_impl_three_way_comparison "cpp/feature test") | [`201907L`](../compiler_support/20.html#cpp_impl_three_way_comparison_201907L "cpp/compiler support/20") | (C++20) | Three-way comparison (compiler support)   
 [`__cpp_lib_three_way_comparison`](../experimental/feature_test.html#cpp_lib_three_way_comparison "cpp/feature test") | [`201907L`](../compiler_support/20.html#cpp_lib_three_way_comparison_201907L "cpp/compiler support/20") | (C++20) | Three-way comparison (library support); adding three-way comparison to the library   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_comparison&action=edit&section=13 "Edit section: Standard library")] Standard library
+### Standard library
 
 Comparison operators are overloaded for many classes in the standard library. 
 
 [ operator==operator!=](../types/type_info/operator_cmp.html "cpp/types/type info/operator cmp")(removed in C++20) |  checks whether the objects refer to the same type   
-(public member function of `std::type_info`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/type_info/dsc_operator_cmp&action=edit)  
+(public member function of `std::type_info`)   
 ---|---  
 [ operator==operator!=operator<operator<=>](../error/error_code/operator_cmp.html "cpp/error/error code/operator cmp")(removed in C++20)(removed in C++20)(C++20) |  compares two `error_code`s   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/error_code/dsc_operator_cmp&action=edit)  
+(function)   
 [ operator==operator!=operator<operator<=>](../error/error_condition/operator_cmp.html "cpp/error/error condition/operator cmp")(removed in C++20)(removed in C++20)(C++20) |  compares `error_condition`s and `error_code`s   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/error_condition/dsc_operator_cmp&action=edit)  
+(function)   
 [ operator==operator!=operator<operator<=operator>operator>=operator<=>](../utility/pair/operator_cmp.html "cpp/utility/pair/operator cmp")(removed in C++20)(removed in C++20)(removed in C++20)(removed in C++20)(removed in C++20)(C++20) |  lexicographically compares the values in the `pair`   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/pair/dsc_operator_cmp&action=edit)  
+(function template)   
 [ operator==operator!=operator<operator<=operator>operator>=operator<=>](../utility/tuple/operator_cmp.html "cpp/utility/tuple/operator cmp")(removed in C++20)(removed in C++20)(removed in C++20)(removed in C++20)(removed in C++20)(C++20) |  lexicographically compares the values in the tuple   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/dsc_operator_cmp&action=edit)  
+(function template)   
 [ operator==operator!=](../utility/bitset/operator_cmp.html "cpp/utility/bitset/operator cmp")(removed in C++20) |  compares the contents   
-(public member function of `std::bitset<N>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/bitset/dsc_operator_cmp&action=edit)  
+(public member function of `std::bitset<N>`)   
 [ operator==operator!=](../memory/allocator/operator_cmp.html "cpp/memory/allocator/operator cmp")(removed in C++20) |  compares two allocator instances   
-(public member function of `std::allocator<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/allocator/dsc_operator_cmp&action=edit)  
+(public member function of `std::allocator<T>`)   
 [ operator==operator!=operator<operator<=operator>operator>=operator<=>](../memory/unique_ptr/operator_cmp.html "cpp/memory/unique ptr/operator cmp")(removed in C++20)(C++20) |  compares to another `unique_ptr` or with nullptr   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/unique_ptr/dsc_operator_cmp&action=edit)  
+(function template)   
 [ operator==operator!=operator<operator<=operator>operator>=operator<=>](../memory/shared_ptr/operator_cmp.html "cpp/memory/shared ptr/operator cmp")(removed in C++20)(removed in C++20)(removed in C++20)(removed in C++20)(removed in C++20)(C++20) |  compares with another `shared_ptr` or with nullptr   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/dsc_operator_cmp&action=edit)  
+(function template)   
 [ operator==operator!=](../utility/functional/function/operator_cmp.html "cpp/utility/functional/function/operator cmp")(removed in C++20) |  compares a [std::function](../utility/functional/function.html "cpp/utility/functional/function") with nullptr   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/function/dsc_operator_cmp&action=edit)  
+(function template)   
 [ operator==operator!=operator<operator<=operator>operator>=operator<=>](../chrono/duration/operator_cmp.html "cpp/chrono/duration/operator cmp")(C++11)(C++11)(removed in C++20)(C++11)(C++11)(C++11)(C++11)(C++20) |  compares two durations   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/duration/dsc_operator_cmp&action=edit)  
+(function template)   
 [ operator==operator!=operator<operator<=operator>operator>=operator<=>](../chrono/time_point/operator_cmp.html "cpp/chrono/time point/operator cmp")(C++11)(C++11)(removed in C++20)(C++11)(C++11)(C++11)(C++11)(C++20) |  compares two time points   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_point/dsc_operator_cmp&action=edit)  
+(function template)   
 [ operator==operator!=](../memory/scoped_allocator_adaptor/operator_cmp.html "cpp/memory/scoped allocator adaptor/operator cmp")(removed in C++20) |  compares two `scoped_allocator_adaptor` objects   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/scoped_allocator_adaptor/dsc_operator_cmp&action=edit)  
+(function template)   
 [ operator==operator!=operator<operator<=operator>operator>=operator<=>](../types/type_index/operator_cmp.html "cpp/types/type index/operator cmp")(removed in C++20)(C++20) |  compares the underlying [std::type_index](../types/type_index.html "cpp/types/type index") objects   
-(public member function of `std::type_index`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/type_index/dsc_operator_cmp&action=edit)  
+(public member function of `std::type_index`)   
 [ operator==operator!=operator<operator>operator<=operator>=operator<=>](../string/basic_string/operator_cmp.html "cpp/string/basic string/operator cmp")(removed in C++20)(removed in C++20)(removed in C++20)(removed in C++20)(removed in C++20)(C++20) |  lexicographically compares two strings   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_operator_cmp&action=edit)  
+(function template)   
 [ operator==operator!=](../locale/locale/operator_cmp.html "cpp/locale/locale/operator cmp")(removed in C++20) |  equality comparison between locale objects   
-(public member function of `std::locale`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/locale/dsc_operator_cmp&action=edit)  
+(public member function of `std::locale`)   
 [ operator==operator!=operator<operator<=operator>operator>=operator<=>](../container/array/operator_cmp.html "cpp/container/array/operator cmp")(C++11)(C++11)(removed in C++20)(C++11)(removed in C++20)(C++11)(removed in C++20)(C++11)(removed in C++20)(C++11)(removed in C++20)(C++20) |  lexicographically compares the values of two `array`s   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_operator_cmp&action=edit)  
+(function template)   
 [ operator==operator!=operator<operator<=operator>operator>=operator<=>](../container/deque/operator_cmp.html "cpp/container/deque/operator cmp")(removed in C++20)(removed in C++20)(removed in C++20)(removed in C++20)(removed in C++20)(C++20) |  lexicographically compares the values of two `deque`s   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_operator_cmp&action=edit)  
+(function template)   
 [ operator==operator!=operator<operator<=operator>operator>=operator<=>](../container/forward_list/operator_cmp.html "cpp/container/forward list/operator cmp")(C++11)(C++11)(removed in C++20)(C++11)(removed in C++20)(C++11)(removed in C++20)(C++11)(removed in C++20)(C++11)(removed in C++20)(C++20) |  lexicographically compares the values of two `forward_list`s   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_operator_cmp&action=edit)  
+(function template)   
 [ operator==operator!=operator<operator<=operator>operator>=operator<=>](../container/list/operator_cmp.html "cpp/container/list/operator cmp")(removed in C++20)(removed in C++20)(removed in C++20)(removed in C++20)(removed in C++20)(C++20) |  lexicographically compares the values of two `list`s   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_operator_cmp&action=edit)  
+(function template)   
 [ operator==operator!=operator<operator<=operator>operator>=operator<=>](../container/vector/operator_cmp.html "cpp/container/vector/operator cmp")(removed in C++20)(removed in C++20)(removed in C++20)(removed in C++20)(removed in C++20)(C++20) |  lexicographically compares the values of two `vector`s   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_operator_cmp&action=edit)  
+(function template)   
 [ operator==operator!=operator<operator<=operator>operator>=operator<=>](../container/map/operator_cmp.html "cpp/container/map/operator cmp")(removed in C++20)(removed in C++20)(removed in C++20)(removed in C++20)(removed in C++20)(C++20) |  lexicographically compares the values of two `map`s   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_operator_cmp&action=edit)  
+(function template)   
 [ operator==operator!=operator<operator<=operator>operator>=operator<=>](../container/multimap/operator_cmp.html "cpp/container/multimap/operator cmp")(removed in C++20)(removed in C++20)(removed in C++20)(removed in C++20)(removed in C++20)(C++20) |  lexicographically compares the values of two `multimap`s   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_operator_cmp&action=edit)  
+(function template)   
 [ operator==operator!=operator<operator<=operator>operator>=operator<=>](../container/set/operator_cmp.html "cpp/container/set/operator cmp")(removed in C++20)(removed in C++20)(removed in C++20)(removed in C++20)(removed in C++20)(C++20) |  lexicographically compares the values of two `set`s   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_operator_cmp&action=edit)  
+(function template)   
 [ operator==operator!=operator<operator<=operator>operator>=operator<=>](../container/multiset/operator_cmp.html "cpp/container/multiset/operator cmp")(removed in C++20)(removed in C++20)(removed in C++20)(removed in C++20)(removed in C++20)(C++20) |  lexicographically compares the values of two `multiset`s   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_operator_cmp&action=edit)  
+(function template)   
 [ operator==operator!=](../container/unordered_map/operator_cmp.html "cpp/container/unordered map/operator cmp")(C++11)(C++11)(removed in C++20) |  compares the values in the unordered_map   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_operator_cmp_unord&action=edit)  
+(function template)   
 [ operator==operator!=](../container/unordered_multimap/operator_cmp.html "cpp/container/unordered multimap/operator cmp")(C++11)(C++11)(removed in C++20) |  compares the values in the unordered_multimap   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_operator_cmp_unord&action=edit)  
+(function template)   
 [ operator==operator!=](../container/unordered_set/operator_cmp.html "cpp/container/unordered set/operator cmp")(C++11)(C++11)(removed in C++20) |  compares the values in the unordered_set   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_operator_cmp_unord&action=edit)  
+(function template)   
 [ operator==operator!=](../container/unordered_multiset/operator_cmp.html "cpp/container/unordered multiset/operator cmp")(C++11)(C++11)(removed in C++20) |  compares the values in the unordered_multiset   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_operator_cmp_unord&action=edit)  
+(function template)   
 [ operator==operator!=operator<operator<=operator>operator>=operator<=>](../container/queue/operator_cmp.html "cpp/container/queue/operator cmp")(C++20) |  lexicographically compares the values of two `queue`s   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_operator_cmp&action=edit)  
+(function template)   
 [ operator==operator!=operator<operator<=operator>operator>=operator<=>](../container/stack/operator_cmp.html "cpp/container/stack/operator cmp")(C++20) |  lexicographically compares the values of two `stack`s   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_operator_cmp&action=edit)  
+(function template)   
 [ operator==operator!=operator<operator<=operator>operator>=operator<=>](../iterator/reverse_iterator/operator_cmp.html "cpp/iterator/reverse iterator/operator cmp")(C++20) |  compares the underlying iterators   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_operator_cmp&action=edit)  
+(function template)   
 [ operator==operator!=operator<operator<=operator>operator>=operator<=>](../iterator/move_iterator/operator_cmp.html "cpp/iterator/move iterator/operator cmp")(C++11)(C++11)(removed in C++20)(C++11)(C++11)(C++11)(C++11)(C++20) |  compares the underlying iterators   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_operator_cmp&action=edit)  
+(function template)   
 [ operator==operator!=](../iterator/istream_iterator/operator_cmp.html "cpp/iterator/istream iterator/operator cmp")(removed in C++20) |  compares two `istream_iterator`s   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/istream_iterator/dsc_operator_cmp&action=edit)  
+(function template)   
 [ operator==operator!=](../iterator/istreambuf_iterator/operator_cmp.html "cpp/iterator/istreambuf iterator/operator cmp")(removed in C++20) |  compares two `istreambuf_iterator`s   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/istreambuf_iterator/dsc_operator_cmp&action=edit)  
+(function template)   
 [ operator==operator!=](../numeric/complex/operator_cmp.html "cpp/numeric/complex/operator cmp")(removed in C++20) |  compares two complex numbers or a complex and a scalar   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_operator_cmp&action=edit)  
+(function template)   
 [ operator==operator!=operator<operator<=operator>operator>=](../numeric/valarray/operator_cmp.html "cpp/numeric/valarray/operator cmp") |  compares two valarrays or a valarray with a value   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_operator_cmp&action=edit)  
+(function template)   
 [ operator==operator!=](../numeric/random/linear_congruential_engine/operator_cmp.html "cpp/numeric/random/linear congruential engine/operator cmp")(C++11)(C++11)(removed in C++20) |  compares the internal states of two pseudo-random number engines   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/engine/dsc_operator_cmp&action=edit)  
+(function)   
 [ operator==operator!=](../numeric/random/poisson_distribution/operator_cmp.html "cpp/numeric/random/poisson distribution/operator cmp")(C++11)(C++11)(removed in C++20) |  compares two distribution objects   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/distribution/dsc_operator_cmp&action=edit)  
+(function)   
 [ operator==operator!=operator<operator<=operator>operator>=operator<=>](../regex/sub_match/operator_cmp.html "cpp/regex/sub match/operator cmp")(removed in C++20)(removed in C++20)(removed in C++20)(removed in C++20)(removed in C++20)(C++20) |  compares a `sub_match` with another `sub_match`, a string, or a character   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/sub_match/dsc_operator_cmp&action=edit)  
+(function template)   
 [ operator==operator!=](../regex/match_results/operator_cmp.html "cpp/regex/match results/operator cmp")(removed in C++20) |  lexicographically compares the values in the two match result   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/match_results/dsc_operator_cmp&action=edit)  
+(function template)   
 [ operator==operator!=](../regex/regex_iterator/operator_cmp.html "cpp/regex/regex iterator/operator cmp")(removed in C++20) |  compares two `regex_iterator`s   
-(public member function of `std::regex_iterator<BidirIt,CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/regex_iterator/dsc_operator_cmp&action=edit)  
+(public member function of `std::regex_iterator<BidirIt,CharT,Traits>`)   
 [ operator==operator!=](../regex/regex_token_iterator/operator_cmp.html "cpp/regex/regex token iterator/operator cmp")(removed in C++20) |  compares two `regex_token_iterator`s   
-(public member function of `std::regex_token_iterator<BidirIt,CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/regex_token_iterator/dsc_operator_cmp&action=edit)  
+(public member function of `std::regex_token_iterator<BidirIt,CharT,Traits>`)   
 [ operator==operator!=operator<operator<=operator>operator>=operator<=>](../thread/thread/id/operator_cmp.html "cpp/thread/thread/id/operator cmp")(removed in C++20)(removed in C++20)(removed in C++20)(removed in C++20)(removed in C++20)(C++20) |  compares two `thread::id` objects   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/id/dsc_operator_cmp&action=edit)  
+(function)   
   
 The namespace [`std::rel_ops`](../utility/rel_ops/operator_cmp.html "cpp/utility/rel ops/operator cmp") provides generic operators !=, >, <=, and >=: 
 
@@ -903,9 +903,9 @@ Defined in header `[<utility>](../header/utility.html "cpp/header/utility")`
 ---  
 Defined in namespace `std::rel_ops`  
 [ operator!=operator>operator<=operator>=](../utility/rel_ops/operator_cmp.html "cpp/utility/rel ops/operator cmp")(deprecated in C++20) |  automatically generates comparison operators based on user-defined operator== and operator<   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/rel_ops/dsc_operator_cmp&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_comparison&action=edit&section=14 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -942,7 +942,7 @@ pointers to void and function pointers were removed by [N3624](https://wg21.link
 pointer operands during built-in pointer relational comparisons  | performs these  
 conversions in this case   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_comparison&action=edit&section=15 "Edit section: See also")] See also
+### See also
 
   * [Operator precedence](operator_precedence.html "cpp/language/operator precedence")
   * [Operator overloading](operators.html "cpp/language/operators")

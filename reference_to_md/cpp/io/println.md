@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [ Print functions](../io.html#Print_functions_.28since_C.2B.2B23.29 "cpp/io")
 
@@ -88,7 +88,7 @@ Print functions
 [vprint_unicodevprint_unicode_buffered](vprint_unicode.html "cpp/io/vprint unicode")(C++23)(C++23)  
 [vprint_nonunicodevprint_nonunicode_buffered](vprint_nonunicode.html "cpp/io/vprint nonunicode")(C++23)(C++23)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/print/navbar_content&action=edit)
+
 
 Defined in header `[<print>](../header/print.html "cpp/header/print")` |  |   
 ---|---|---  
@@ -127,11 +127,11 @@ If [std::formatter](../utility/format/formatter.html)<Ti, char> does not meet th
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/println&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 stream  |  \-  |  output file stream to write to   
 ---|---|---  
-fmt  |  \-  |  [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/format_string&action=edit)an object that represents the format string. The format string consists of 
+fmt  |  \-  |  an object that represents the format string. The format string consists of 
 
   * ordinary characters (except { and }), which are copied unchanged to the output, 
   * escape sequences {{ and }}, which are replaced with { and } respectively in the output, and 
@@ -173,7 +173,7 @@ format-spec |  \-  |  the format specification defined by the [std::formatter](.
   
 args...  |  \-  |  arguments to be formatted   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/println&action=edit&section=2 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
   * [std::bad_alloc](../memory/new/bad_alloc.html "cpp/memory/new/bad alloc") on allocation failure. 
   * [std::system_error](../error/system_error.html "cpp/error/system error"), if writing to the stream fails. 
@@ -181,7 +181,7 @@ args...  |  \-  |  arguments to be formatted
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/println&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Although overloads ([3,4](println.html#Version_3)) are added in C++26, all known implementations make them available in C++23 mode. 
 
@@ -195,7 +195,7 @@ Although overloads ([3,4](println.html#Version_3)) are added in C++26, all known
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/println&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -223,16 +223,16 @@ Output:
      
     
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/println&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ print](print.html "cpp/io/print")(C++23) |  prints to [stdout](c/std_streams.html "cpp/io/c/std streams") or a file stream using [formatted](../utility/format.html "cpp/utility/format") representation of the arguments   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_print&action=edit)  
+(function template)   
 ---|---  
 [ println(std::ostream)](basic_ostream/println.html "cpp/io/basic ostream/println")(C++23) |  outputs [formatted](../utility/format.html "cpp/utility/format") representation of the arguments with appended '\n'   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ostream/dsc_println&action=edit)  
+(function template)   
 [ format](../utility/format/format.html "cpp/utility/format/format")(C++20) |  stores formatted representation of the arguments in a new string   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/dsc_format&action=edit)  
+(function template)   
 [ printffprintfsprintfsnprintf](c/printf.html "cpp/io/c/fprintf")(C++11) |  prints formatted output to [stdout](c/std_streams.html "cpp/io/c/std streams"), a file stream or a buffer   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_fprintf&action=edit)
+(function) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

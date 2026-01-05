@@ -32,7 +32,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../../numeric.html "cpp/numeric")
 
@@ -89,7 +89,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [Pseudo-random number generation](../../random.html "cpp/numeric/random")
 
@@ -163,7 +163,7 @@
 [piecewise_constant_distribution](../piecewise_constant_distribution.html "cpp/numeric/random/piecewise constant distribution")(C++11)  
 [piecewise_linear_distribution](../piecewise_linear_distribution.html "cpp/numeric/random/piecewise linear distribution")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/navbar_content&action=edit)
+
 
 [`std::uniform_real_distribution`](../uniform_real_distribution.html "cpp/numeric/random/uniform real distribution")
 
@@ -182,7 +182,7 @@ Non-member functions
 [operator==operator!=](operator_cmp.html "cpp/numeric/random/uniform real distribution/operator cmp")(C++11)(C++11)(until C++20)  
 **operator <<operator>>**(C++11)(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/uniform_real_distribution/navbar_content&action=edit)
+
 
 template< class CharT, class Traits >  
 friend [std::basic_ostream](../../../io/basic_ostream.html)<CharT,Traits>&  
@@ -213,26 +213,26 @@ These function templates are not visible to ordinary [unqualified](../../../lang
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/distribution/operator_ltltgtgt&action=edit&section=T-1 "Template:cpp/numeric/random/distribution/operator ltltgtgt")] Parameters
+### Parameters
 
 ost  |  \-  |  output stream to insert the data to   
 ---|---|---  
 ist  |  \-  |  input stream to extract the data from   
 d  |  \-  |  pseudo-random number distribution   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/distribution/operator_ltltgtgt&action=edit&section=T-2 "Template:cpp/numeric/random/distribution/operator ltltgtgt")] Return value
+### Return value
 
 1) ost
 
 2) ist
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/distribution/operator_ltltgtgt&action=edit&section=T-3 "Template:cpp/numeric/random/distribution/operator ltltgtgt")] Exceptions
+### Exceptions
 
 1) May throw implementation-defined exceptions.
 
 2) May throw [std::ios_base::failure](../../../io/ios_base/failure.html "cpp/io/ios base/failure") on bad input.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/distribution/operator_ltltgtgt&action=edit&section=T-4 "Template:cpp/numeric/random/distribution/operator ltltgtgt")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

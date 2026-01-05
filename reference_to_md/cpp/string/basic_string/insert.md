@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Strings library](../../string.html "cpp/string")
 
@@ -40,7 +40,7 @@ Classes
 [basic_string_view](../basic_string_view.html "cpp/string/basic string view")(C++17)  
 [char_traits](../char_traits.html "cpp/string/char traits")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/navbar_content&action=edit)
+
 
 [`std::basic_string`](../basic_string.html "cpp/string/basic string")
 
@@ -133,7 +133,7 @@ basic_string_view](operator_basic_string_view.html "cpp/string/basic string/oper
 [hash<std::basic_string>](hash.html "cpp/string/basic string/hash")(C++11)  
 [Deduction guides](deduction_guides.html "cpp/string/basic string/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/navbar_content&action=edit)
+
 
 basic_string& insert( size_type index, size_type count, CharT ch ); |  (1)  |  (constexpr since C++20)  
 ---|---|---  
@@ -221,7 +221,7 @@ If pos is not a valid iterator on *this, the behavior is undefined.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/insert&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 index  |  \-  |  position at which the content will be inserted   
 ---|---|---  
@@ -238,7 +238,7 @@ t_index  |  \-  |  position of the first character in t to insert
 Type requirements   
 -`InputIt` must meet the requirements of [LegacyInputIterator](../../named_req/InputIterator.html "cpp/named req/InputIterator").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/insert&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1-5) *this
 
@@ -246,7 +246,7 @@ Type requirements
 
 10,11) *this
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/insert&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 1-4,10) Throws [std::out_of_range](../../error/out_of_range.html "cpp/error/out of range") if index > size().
 
@@ -261,7 +261,7 @@ In all cases, if [std::allocator_traits](../../memory/allocator_traits.html)<All
   
 If an exception is thrown for any reason, this function has no effect ([strong exception safety guarantee](../../language/exceptions.html#Exception_safety "cpp/language/exceptions")). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/insert&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -314,7 +314,7 @@ Run this code
         [assert](../../error/assert.html)("Exemplar is an:== example string." == s);
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/insert&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -324,12 +324,12 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [LWG 847](https://cplusplus.github.io/LWG/issue847) | C++98  | there was no exception safety guarantee  | added strong exception safety guarantee   
 [LWG 2946](https://cplusplus.github.io/LWG/issue2946) | C++17  | overload (10) caused ambiguity in some cases  | avoided by making it a template   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/insert&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ insert_range](insert_range.html "cpp/string/basic string/insert range")(C++23) |  inserts a range of characters   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_insert_range&action=edit)  
+(public member function)   
 ---|---  
 [ append](append.html "cpp/string/basic string/append") |  appends characters to the end   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_append&action=edit)  
+(public member function)   
 [ push_back](push_back.html "cpp/string/basic string/push back") |  appends a character to the end   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_push_back&action=edit)
+(public member function) 

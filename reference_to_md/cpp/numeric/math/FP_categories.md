@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [Common mathematical functions](../math.html "cpp/numeric/math")
 
@@ -230,7 +230,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/navbar_content&action=edit)
+
 
 Defined in header `[<cmath>](../../header/cmath.html "cpp/header/cmath")` |  |   
 ---|---|---  
@@ -251,7 +251,7 @@ Constant  |  Explanation
 `FP_INFINITE` |  indicates that the value is not representable by the underlying type (positive or negative infinity)   
 `FP_NAN` |  indicates that the value is not-a-number (NaN)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/FP_categories&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -297,9 +297,9 @@ Output:
     -0.0 is zero
     1.0 is normal
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/FP_categories&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ fpclassify](fpclassify.html "cpp/numeric/math/fpclassify")(C++11) |  categorizes the given floating-point value   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_fpclassify&action=edit)  
+(function)   
 ---|---  
 [C documentation](../../../c/numeric/math/FP_categories.html "c/numeric/math/FP categories") for FP_categories

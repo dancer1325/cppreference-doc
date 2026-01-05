@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 **`std::condition_variable`**
 
@@ -191,7 +191,7 @@ Waiting
 Native handle  
 [condition_variable::native handle](condition_variable/native_handle.html "cpp/thread/condition variable/native handle")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/condition_variable/navbar_content&action=edit)
+
 
 Defined in header `[<condition_variable>](../header/condition_variable.html "cpp/header/condition variable")` |  |   
 ---|---|---  
@@ -250,44 +250,44 @@ The class `std::condition_variable` is a [StandardLayoutType](../named_req/Stand
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/condition_variable&action=edit&section=1 "Edit section: Nested types")] Nested types
+### Nested types
 
 Name  |  Definition   
 ---|---  
 `native_handle_type` |  implementation-defined   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/condition_variable&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](condition_variable/condition_variable.html "cpp/thread/condition variable/condition variable") |  constructs the object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/condition_variable/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ (destructor)](condition_variable/~condition_variable.html "cpp/thread/condition variable/~condition variable") |  destructs the object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/condition_variable/dsc_destructor&action=edit)  
+(public member function)   
 operator=[deleted] |  not copy-assignable   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/condition_variable/dsc_operator%3D&action=edit)  
+(public member function)   
   
 #####  Notification   
   
 [ notify_one](condition_variable/notify_one.html "cpp/thread/condition variable/notify one") |  notifies one waiting thread   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/condition_variable/dsc_notify_one&action=edit)  
+(public member function)   
 [ notify_all](condition_variable/notify_all.html "cpp/thread/condition variable/notify all") |  notifies all waiting threads   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/condition_variable/dsc_notify_all&action=edit)  
+(public member function)   
   
 #####  Waiting   
   
 [ wait](condition_variable/wait.html "cpp/thread/condition variable/wait") |  blocks the current thread until the condition variable is awakened   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/condition_variable/dsc_wait&action=edit)  
+(public member function)   
 [ wait_for](condition_variable/wait_for.html "cpp/thread/condition variable/wait for") |  blocks the current thread until the condition variable is awakened or after the specified timeout duration   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/condition_variable/dsc_wait_for&action=edit)  
+(public member function)   
 [ wait_until](condition_variable/wait_until.html "cpp/thread/condition variable/wait until") |  blocks the current thread until the condition variable is awakened or until specified time point has been reached   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/condition_variable/dsc_wait_until&action=edit)  
+(public member function)   
   
 #####  Native handle   
   
 [ native_handle](condition_variable/native_handle.html "cpp/thread/condition variable/native handle") |  returns the native handle   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/condition_variable/dsc_native_handle&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/condition_variable&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 `std::condition_variable` is used in combination with a [std::mutex](mutex.html "cpp/thread/mutex") to facilitate inter-thread communication.
 
@@ -357,14 +357,14 @@ Output:
     Worker thread signals data processing completed
     Back in main(), data = Example data after processing
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/condition_variable&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ condition_variable_any](condition_variable_any.html "cpp/thread/condition variable any")(C++11) |  provides a condition variable associated with any lock type   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_condition_variable_any&action=edit)  
+(class)   
 ---|---  
 [ mutex](mutex.html "cpp/thread/mutex")(C++11) |  provides basic mutual exclusion facility   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_mutex&action=edit)  
+(class)   
 [ lock_guard](lock_guard.html "cpp/thread/lock guard")(C++11) |  implements a strictly scope-based mutex ownership wrapper   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_lock_guard&action=edit)  
+(class template)   
 [ unique_lock](unique_lock.html "cpp/thread/unique lock")(C++11) |  implements movable mutex ownership wrapper   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_unique_lock&action=edit)
+(class template) 

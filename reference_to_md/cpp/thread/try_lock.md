@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 Defined in header `[<mutex>](../header/mutex.html "cpp/header/mutex")` |  |   
 ---|---|---  
@@ -197,16 +197,16 @@ If a call to `try_lock` results in an exception, `unlock` is called for any lock
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/try_lock&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 lock1, lock2, ..., lockn  |  \-  |  the [Lockable](../named_req/Lockable.html "cpp/named req/Lockable") objects to lock   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/try_lock&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 -1 on success, or ​0​-based index value of the object that failed to lock. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/try_lock&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 The following example uses `std::try_lock` to periodically tally and reset counters running in separate threads.
 
@@ -315,8 +315,8 @@ Possible output:
     bar: 0
     overall: 20
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/try_lock&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ lock](lock.html "cpp/thread/lock")(C++11) |  locks specified mutexes, blocks if any are unavailable   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_lock&action=edit)  
+(function template)   
 ---|---

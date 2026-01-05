@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../container.html "cpp/container")
 
@@ -71,7 +71,7 @@ Tables
 [Member function table](../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 `**std::unordered_multiset**`
 
@@ -133,7 +133,7 @@ Tables
   
 [Deduction guides](unordered_multiset/deduction_guides.html "cpp/container/unordered multiset/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/unordered_multiset/navbar_content&action=edit)
+
 
 Defined in header `[<unordered_set>](../header/unordered_set.html "cpp/header/unordered set")` |  |   
 ---|---|---  
@@ -186,146 +186,146 @@ All member functions of `std::unordered_multiset` are constexpr: it is possible 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/unordered_multiset&action=edit&section=1 "Edit section: Template parameters")] Template parameters
+### Template parameters
 
 | This section is incomplete  
 Reason: Add descriptions of the template parameters.   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/unordered_multiset&action=edit&section=2 "Edit section: Member types")] Member types
+### Member types
 
 Type  |  Definition   
 ---|---  
-`key_type` |  `Key`[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_key_type&action=edit)  
-`value_type` |  `Key`[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_value_type&action=edit)  
-`size_type` |  Unsigned integer type (usually [std::size_t](../types/size_t.html "cpp/types/size t"))[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_size_type&action=edit)  
-`difference_type` |  Signed integer type (usually [std::ptrdiff_t](../types/ptrdiff_t.html "cpp/types/ptrdiff t"))[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_difference_type&action=edit)  
-`hasher` |  `Hash`[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_hasher&action=edit)  
-`key_equal` |  `KeyEqual`[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_key_equal&action=edit)  
-`allocator_type` |  `Allocator`[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_allocator_type&action=edit)  
-`reference` |  value_type&[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_reference&action=edit)  
-`const_reference` |  const value_type&[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_const_reference&action=edit)  
-`pointer` |  [std::allocator_traits](../memory/allocator_traits.html)<Allocator>::pointer[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_pointer&action=edit)  
-`const_pointer` |  [std::allocator_traits](../memory/allocator_traits.html)<Allocator>::const_pointer[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_const_pointer&action=edit)  
-`iterator` |  Constant [LegacyForwardIterator](../named_req/ForwardIterator.html "cpp/named req/ForwardIterator") and [ConstexprIterator](../named_req/ConstexprIterator.html "cpp/named req/ConstexprIterator")(since C++26) to `value_type`[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_iterator&action=edit)  
-`const_iterator` |  [LegacyForwardIterator](../named_req/ForwardIterator.html "cpp/named req/ForwardIterator") and [ConstexprIterator](../named_req/ConstexprIterator.html "cpp/named req/ConstexprIterator")(since C++26) to const value_type[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_const_iterator&action=edit)  
+`key_type` |  `Key`  
+`value_type` |  `Key`  
+`size_type` |  Unsigned integer type (usually [std::size_t](../types/size_t.html "cpp/types/size t"))  
+`difference_type` |  Signed integer type (usually [std::ptrdiff_t](../types/ptrdiff_t.html "cpp/types/ptrdiff t"))  
+`hasher` |  `Hash`  
+`key_equal` |  `KeyEqual`  
+`allocator_type` |  `Allocator`  
+`reference` |  value_type&  
+`const_reference` |  const value_type&  
+`pointer` |  [std::allocator_traits](../memory/allocator_traits.html)<Allocator>::pointer  
+`const_pointer` |  [std::allocator_traits](../memory/allocator_traits.html)<Allocator>::const_pointer  
+`iterator` |  Constant [LegacyForwardIterator](../named_req/ForwardIterator.html "cpp/named req/ForwardIterator") and [ConstexprIterator](../named_req/ConstexprIterator.html "cpp/named req/ConstexprIterator")(since C++26) to `value_type`  
+`const_iterator` |  [LegacyForwardIterator](../named_req/ForwardIterator.html "cpp/named req/ForwardIterator") and [ConstexprIterator](../named_req/ConstexprIterator.html "cpp/named req/ConstexprIterator")(since C++26) to const value_type  
 `local_iterator` |  An iterator type whose category, value, difference, pointer and  
 reference types are the same as `iterator`. This iterator  
-can be used to iterate through a single bucket but not across buckets[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_local_iterator&action=edit)  
+can be used to iterate through a single bucket but not across buckets  
 `const_local_iterator` |  An iterator type whose category, value, difference, pointer and  
 reference types are the same as `const_iterator`. This iterator  
-can be used to iterate through a single bucket but not across buckets[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_const_local_iterator&action=edit)  
-`node_type` (since C++17) |  a specialization of [node handle](node_handle.html "cpp/container/node handle") representing a container node[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_node_type&action=edit)  
+can be used to iterate through a single bucket but not across buckets  
+`node_type` (since C++17) |  a specialization of [node handle](node_handle.html "cpp/container/node handle") representing a container node  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/unordered_multiset&action=edit&section=3 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](unordered_multiset/unordered_multiset.html "cpp/container/unordered multiset/unordered multiset") |  constructs the `unordered_multiset`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ (destructor)](unordered_multiset/~unordered_multiset.html "cpp/container/unordered multiset/~unordered multiset") |  destructs the `unordered_multiset`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_destructor&action=edit)  
+(public member function)   
 [ operator=](unordered_multiset/operator=.html "cpp/container/unordered multiset/operator=") |  assigns values to the container   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_operator%3D&action=edit)  
+(public member function)   
 [ get_allocator](unordered_multiset/get_allocator.html "cpp/container/unordered multiset/get allocator") |  returns the associated allocator   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_get_allocator&action=edit)  
+(public member function)   
   
 #####  Iterators   
   
 [ begincbegin](unordered_multiset/begin.html "cpp/container/unordered multiset/begin") |  returns an iterator to the beginning   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_begin&action=edit)  
+(public member function)   
 [ endcend](unordered_multiset/end.html "cpp/container/unordered multiset/end") |  returns an iterator to the end   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_end&action=edit)  
+(public member function)   
   
 #####  Capacity   
   
 [ empty](unordered_multiset/empty.html "cpp/container/unordered multiset/empty") |  checks whether the container is empty   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_empty&action=edit)  
+(public member function)   
 [ size](unordered_multiset/size.html "cpp/container/unordered multiset/size") |  returns the number of elements   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_size&action=edit)  
+(public member function)   
 [ max_size](unordered_multiset/max_size.html "cpp/container/unordered multiset/max size") |  returns the maximum possible number of elements   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_max_size&action=edit)  
+(public member function)   
   
 #####  Modifiers   
   
 [ clear](unordered_multiset/clear.html "cpp/container/unordered multiset/clear") |  clears the contents   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_clear&action=edit)  
+(public member function)   
 [ insert](unordered_multiset/insert.html "cpp/container/unordered multiset/insert") |  inserts elements or nodes(since C++17)   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_insert&action=edit)  
+(public member function)   
 [ insert_range](unordered_multiset/insert_range.html "cpp/container/unordered multiset/insert range")(C++23) |  inserts a range of elements   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_insert_range&action=edit)  
+(public member function)   
 [ emplace](unordered_multiset/emplace.html "cpp/container/unordered multiset/emplace") |  constructs element in-place   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_emplace&action=edit)  
+(public member function)   
 [ emplace_hint](unordered_multiset/emplace_hint.html "cpp/container/unordered multiset/emplace hint") |  constructs elements in-place using a hint   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_emplace_hint&action=edit)  
+(public member function)   
 [ erase](unordered_multiset/erase.html "cpp/container/unordered multiset/erase") |  erases elements   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_erase&action=edit)  
+(public member function)   
 [ swap](unordered_multiset/swap.html "cpp/container/unordered multiset/swap") |  swaps the contents   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_swap&action=edit)  
+(public member function)   
 [ extract](unordered_multiset/extract.html "cpp/container/unordered multiset/extract")(C++17) |  extracts nodes from the container   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_extract&action=edit)  
+(public member function)   
 [ merge](unordered_multiset/merge.html "cpp/container/unordered multiset/merge")(C++17) |  splices nodes from another container   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_merge&action=edit)  
+(public member function)   
   
 #####  Lookup   
   
 [ count](unordered_multiset/count.html "cpp/container/unordered multiset/count") |  returns the number of elements matching specific key   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_count&action=edit)  
+(public member function)   
 [ find](unordered_multiset/find.html "cpp/container/unordered multiset/find") |  finds element with specific key   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_find&action=edit)  
+(public member function)   
 [ contains](unordered_multiset/contains.html "cpp/container/unordered multiset/contains")(C++20) |  checks if the container contains element with specific key   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_contains&action=edit)  
+(public member function)   
 [ equal_range](unordered_multiset/equal_range.html "cpp/container/unordered multiset/equal range") |  returns range of elements matching a specific key   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_equal_range&action=edit)  
+(public member function)   
   
 #####  Bucket interface   
   
 [ begin(size_type)cbegin(size_type)](unordered_multiset/begin2.html "cpp/container/unordered multiset/begin2") |  returns an iterator to the beginning of the specified bucket   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_begin\(int\)&action=edit)  
+(public member function) &action=edit)  
 [ end(size_type)cend(size_type)](unordered_multiset/end2.html "cpp/container/unordered multiset/end2") |  returns an iterator to the end of the specified bucket   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_end\(int\)&action=edit)  
+(public member function) &action=edit)  
 [ bucket_count](unordered_multiset/bucket_count.html "cpp/container/unordered multiset/bucket count") |  returns the number of buckets   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_bucket_count&action=edit)  
+(public member function)   
 [ max_bucket_count](unordered_multiset/max_bucket_count.html "cpp/container/unordered multiset/max bucket count") |  returns the maximum number of buckets   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_max_bucket_count&action=edit)  
+(public member function)   
 [ bucket_size](unordered_multiset/bucket_size.html "cpp/container/unordered multiset/bucket size") |  returns the number of elements in specific bucket   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_bucket_size&action=edit)  
+(public member function)   
 [ bucket](unordered_multiset/bucket.html "cpp/container/unordered multiset/bucket") |  returns the bucket for specific key   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_bucket&action=edit)  
+(public member function)   
   
 #####  Hash policy   
   
 [ load_factor](unordered_multiset/load_factor.html "cpp/container/unordered multiset/load factor") |  returns average number of elements per bucket   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_load_factor&action=edit)  
+(public member function)   
 [ max_load_factor](unordered_multiset/max_load_factor.html "cpp/container/unordered multiset/max load factor") |  manages maximum average number of elements per bucket   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_max_load_factor&action=edit)  
+(public member function)   
 [ rehash](unordered_multiset/rehash.html "cpp/container/unordered multiset/rehash") |  reserves at least the specified number of buckets and regenerates the hash table   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_rehash&action=edit)  
+(public member function)   
 [ reserve](unordered_multiset/reserve.html "cpp/container/unordered multiset/reserve") |  reserves space for at least the specified number of elements and regenerates the hash table   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_reserve&action=edit)  
+(public member function)   
   
 #####  Observers   
   
 [ hash_function](unordered_multiset/hash_function.html "cpp/container/unordered multiset/hash function") |  returns function used to hash the keys   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_hash_function&action=edit)  
+(public member function)   
 [ key_eq](unordered_multiset/key_eq.html "cpp/container/unordered multiset/key eq") |  returns the function used to compare keys for equality   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_key_eq&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/unordered_multiset&action=edit&section=4 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ operator==operator!=](unordered_multiset/operator_cmp.html "cpp/container/unordered multiset/operator cmp")(C++11)(C++11)(removed in C++20) |  compares the values in the unordered_multiset   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_operator_cmp_unord&action=edit)  
+(function template)   
 ---|---  
 [ std::swap(std::unordered_multiset)](unordered_multiset/swap2.html "cpp/container/unordered multiset/swap2")(C++11) |  specializes the [std::swap](../utility/swap.html "cpp/algorithm/swap") algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_swap2&action=edit)  
+(function template)   
 [ erase_if(std::unordered_multiset)](unordered_multiset/erase_if.html "cpp/container/unordered multiset/erase if")(C++20) |  erases all elements satisfying specific criteria   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_erase_if&action=edit)  
+(function template)   
   
 ###  [Deduction guides](unordered_multiset/deduction_guides.html "cpp/container/unordered multiset/deduction guides")
 
 | (since C++17)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/unordered_multiset&action=edit&section=6 "Edit section: Notes")] Notes
+### Notes
 
 The member types `iterator` and `const_iterator` may be aliases to the same type. This means defining a pair of function overloads using the two types as parameter types may violate the [One Definition Rule](../language/definition.html#One_Definition_Rule "cpp/language/definition"). Since `iterator` is convertible to `const_iterator`, a single function with a `const_iterator` as parameter type will work instead. 
 
@@ -334,13 +334,13 @@ The member types `iterator` and `const_iterator` may be aliases to the same type
 [`__cpp_lib_containers_ranges`](../experimental/feature_test.html#cpp_lib_containers_ranges "cpp/feature test") | [`202202L`](../compiler_support/23.html#cpp_lib_containers_ranges_202202L "cpp/compiler support/23") | (C++23) | Ranges construction and insertion for containers   
 [`__cpp_lib_constexpr_unordered_set`](../experimental/feature_test.html#cpp_lib_constexpr_unordered_set "cpp/feature test") | [`202502L`](../compiler_support/26.html#cpp_lib_constexpr_unordered_set_202502L "cpp/compiler support/26") | (C++26) | constexpr `std::unordered_muliset`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/unordered_multiset&action=edit&section=7 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/unordered_multiset&action=edit&section=8 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -350,14 +350,14 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 and `const_pointer` were based on `allocator_type` | based on `value_type` and  
 [std::allocator_traits](../memory/allocator_traits.html "cpp/memory/allocator traits")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/unordered_multiset&action=edit&section=9 "Edit section: See also")] See also
+### See also
 
 [ unordered_set](unordered_set.html "cpp/container/unordered set")(C++11) |  collection of unique keys, hashed by keys   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_unordered_set&action=edit)  
+(class template)   
 ---|---  
 [ multiset](multiset.html "cpp/container/multiset") |  collection of keys, sorted by keys   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_multiset&action=edit)  
+(class template)   
 [ flat_multiset](flat_multiset.html "cpp/container/flat multiset")(C++23) |  adapts a container to provide a collection of keys, sorted by keys   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_flat_multiset&action=edit)
+(class template) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

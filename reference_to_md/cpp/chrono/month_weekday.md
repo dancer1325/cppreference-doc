@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 **`std::chrono::month_weekday`**
 
@@ -117,7 +117,7 @@ Helper classes
 [formatter<std::chrono::month_weekday>](month_weekday/formatter.html "cpp/chrono/month weekday/formatter")  
 [hash<std::chrono::month_weekday>](month_weekday/hash.html "cpp/chrono/month weekday/hash")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/month_weekday/navbar_content&action=edit)
+
 
 Defined in header `[<chrono>](../header/chrono.html "cpp/header/chrono")` |  |   
 ---|---|---  
@@ -128,28 +128,28 @@ The class `month_weekday` represents the nth weekday of a specific month, of som
 
 `month_weekday` is a [TriviallyCopyable](../named_req/TriviallyCopyable.html "cpp/named req/TriviallyCopyable") [StandardLayoutType](../named_req/StandardLayoutType.html "cpp/named req/StandardLayoutType"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/month_weekday&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](month_weekday/month_weekday.html "cpp/chrono/month weekday/month weekday") |  constructs a `month_weekday`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/month_weekday/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ monthweekday_indexed](month_weekday/accessors.html "cpp/chrono/month weekday/accessors") |  retrieves the stored [`month`](month.html "cpp/chrono/month") and [`weekday_indexed`](weekday_indexed.html "cpp/chrono/weekday indexed") values   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/month_weekday/dsc_accessors&action=edit)  
+(public member function)   
 [ ok](month_weekday/ok.html "cpp/chrono/month weekday/ok") |  checks whether the contained [`month`](month.html "cpp/chrono/month") and [`weekday_indexed`](weekday_indexed.html "cpp/chrono/weekday indexed") are valid   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/month_weekday/dsc_ok&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/month_weekday&action=edit&section=2 "Edit section: Nonmember functions")] Nonmember functions
+### Nonmember functions
 
 [ operator==](month_weekday/operator_cmp.html "cpp/chrono/month weekday/operator cmp")(C++20) |  compares two `month_weekday` values   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/month_weekday/dsc_operator_cmp&action=edit)  
+(function)   
 ---|---  
 [ operator<<](month_weekday/operator_ltlt.html "cpp/chrono/month weekday/operator ltlt")(C++20) |  outputs a `month_weekday` into a stream   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/month_weekday/dsc_operator_ltlt&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/month_weekday&action=edit&section=3 "Edit section: Helper classes")] Helper classes
+### Helper classes
 
 [ std::formatter<std::chrono::month_weekday>](month_weekday/formatter.html "cpp/chrono/month weekday/formatter")(C++20) |  formatting support for `month_weekday`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_formatter&action=edit)  
+(class template specialization)   
 ---|---  
 [ std::hash<std::chrono::month_weekday>](month_weekday/hash.html "cpp/chrono/month weekday/hash")(C++26) |  hash support for **`std::chrono::month_weekday`**   
 (class template specialization)

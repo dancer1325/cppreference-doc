@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::year_month_day`](../year_month_day.html "cpp/chrono/year month day")
 
@@ -121,7 +121,7 @@ Helper classes
 [formatter<std::chrono::year_month_day>](formatter.html "cpp/chrono/year month day/formatter")  
 [hash<std::chrono::year_month_day>](hash.html "cpp/chrono/year month day/hash")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/year_month_day/navbar_content&action=edit)
+
 
 constexpr operator [std::chrono::sys_days](../system_clock.html)() const noexcept; |  (1)  |  (since C++20)  
 ---|---|---  
@@ -140,7 +140,7 @@ A std::chrono::sys_days in the range [[std::chrono::days](../duration.html){-126
 
 2) Same as (1) but returns local_days instead. Equivalent to return local_days(sys_days(*this).time_since_epoch());.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/year_month_day/operator_days&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 Converting to std::chrono::sys_days and back can be used to normalize a [`year_month_day`](../year_month_day.html "cpp/chrono/year month day") that contains an invalid day but a valid year and month: 
     
@@ -161,7 +161,7 @@ Normalizing the year and month can be done by adding (or subtracting) zero std::
     }
     static_assert(normalize(2017y/33/59) == 2019y/10/29);
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/year_month_day/operator_days&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     

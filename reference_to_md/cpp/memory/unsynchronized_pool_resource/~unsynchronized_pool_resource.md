@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::pmr::unsynchronized_pool_resource`](../unsynchronized_pool_resource.html "cpp/memory/unsynchronized pool resource")
 
@@ -200,7 +200,7 @@ Protected member functions
 [unsynchronized_pool_resource::do_deallocate](do_deallocate.html "cpp/memory/unsynchronized pool resource/do deallocate")  
 [unsynchronized_pool_resource::do_is_equal](do_is_equal.html "cpp/memory/unsynchronized pool resource/do is equal")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/unsynchronized_pool_resource/navbar_content&action=edit)
+
 
 virtual ~unsynchronized_pool_resource(); |  |  (since C++17)  
 ---|---|---  
@@ -210,8 +210,8 @@ Destroys an `unsynchronized_pool_resource`.
 
 Deallocates all memory owned by this resource by calling this->release(). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/unsynchronized_pool_resource/%7Eunsynchronized_pool_resource&action=edit&section=1 "Edit section: See also")] See also 
+### See also 
 
 [ release](release.html "cpp/memory/unsynchronized pool resource/release") |  release all allocated memory   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/unsynchronized_pool_resource/dsc_release&action=edit)  
+(public member function)   
 ---|---

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ named requirements](../iterator/concepts.html "cpp/named req")
 
@@ -147,7 +147,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/named_req/navbar_content&action=edit)
+
 
 **AccessorPolicy** defines how elements are accessed from a given data handle to such elements and an index. It is used as a policy in [std::mdspan](../container/mdspan.html) to specify the access to a reference of an element using an underlying 1D index. 
 
@@ -163,7 +163,7 @@
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/AccessorPolicy&action=edit&section=1 "Edit section: Requirements")] Requirements
+### Requirements
 
 A type `A` satisfies AccessorPolicy if it models [`copyable`](../concepts/copyable.html "cpp/concepts/copyable"), and the following are true: 
 
@@ -175,7 +175,7 @@ A type `A` satisfies AccessorPolicy if it models [`copyable`](../concepts/copyab
 
 And, given the following types and values, the expressions shown in the table below are valid and have the indicated semantics: 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/AccessorPolicy&action=edit&section=2 "Edit section: Legend")] Legend
+#### Legend
 
 Type  |  Definition   
 ---|---  
@@ -186,7 +186,7 @@ a |  a value of type (possibly const-qualified) `A`
 p |  a value of type (possibly const-qualified) `A::data_handle_type`  
 i, j, n |  values of type [std::size_t](../types/size_t.html)  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/AccessorPolicy&action=edit&section=3 "Edit section: Member types")] Member types
+#### Member types
 
 Type  | Definition  | Requirements   
 ---|---|---  
@@ -231,7 +231,7 @@ typename A::element_type&> is true
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/AccessorPolicy&action=edit&section=4 "Edit section: Member functions")] Member functions
+#### Member functions
 
 Expression  | Return type  | Semantics   
 ---|---|---  
@@ -258,21 +258,21 @@ a.offset(p, i) | typename A::offset_policy
 
   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/AccessorPolicy&action=edit&section=5 "Edit section: Accessible range")] Accessible range
+### Accessible range
 
 A range of indices `[`​0​`, `N`)` is an _accessible range_ of a given data handle and an accessor if, for each index in the range, the access member function produces a valid reference to an element. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/AccessorPolicy&action=edit&section=6 "Edit section: Standard library")] Standard library
+### Standard library
 
 The following standard library types satisfy AccessorPolicy requirements: 
 
 [ default_accessor](../container/mdspan/default_accessor.html "cpp/container/mdspan/default accessor")(C++23) |  a type for indexed access to elements of `mdspan`   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/dsc_default_accessor&action=edit)  
+(class template)   
 ---|---  
 [ aligned_accessor](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/aligned_accessor&action=edit&redlink=1 "cpp/container/mdspan/aligned accessor（页面不存在）")(C++26) |  a type for aligned access to elements of `mdspan`   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/dsc_aligned_accessor&action=edit)  
+(class template)   
 Defined in namespace `std::linalg`  
 [ scaled_accessor](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/linalg/scaled_accessor&action=edit&redlink=1 "cpp/numeric/linalg/scaled accessor（页面不存在）")(C++26) |  std::mdspan accessor policy whose reference represents the product of a scaling factor that is fixed and its nested std::mdspan accessor's reference   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/linalg/dsc_scaled_accessor&action=edit)  
+(class template)   
 [ conjugated_accessor](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/linalg/conjugated_accessor&action=edit&redlink=1 "cpp/numeric/linalg/conjugated accessor（页面不存在）")(C++26) |  std::mdspan accessor policy whose reference represents the complex conjugate of its nested std::mdspan accessor's reference   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/linalg/dsc_conjugated_accessor&action=edit)
+(class template) 

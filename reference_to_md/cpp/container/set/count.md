@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::set`](../set.html "cpp/container/set")
 
@@ -133,7 +133,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/set/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/set/navbar_content&action=edit)
+
 
 size_type count( const Key& key ) const; |  (1) | (constexpr since C++26)  
 ---|---|---  
@@ -162,17 +162,17 @@ This overload participates in overload resolution only if `Compare` is [transpar
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/count_ord&action=edit&section=T-1 "Template:cpp/container/count ord")] Parameters
+### Parameters
 
 key  |  \-  |  key value of the elements to count   
 ---|---|---  
 x  |  \-  |  alternative value to compare to the keys   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/count_ord&action=edit&section=T-2 "Template:cpp/container/count ord")] Return value
+### Return value
 
 Number of elements with key that compares equivalent to key or x. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/count_ord&action=edit&section=T-3 "Template:cpp/container/count ord")] Complexity
+### Complexity
 
 Logarithmic in the size of the container plus linear in the number of elements found. 
 
@@ -182,7 +182,7 @@ Logarithmic in the size of the container plus linear in the number of elements f
 ---|---|---|---  
 [`__cpp_lib_generic_associative_lookup`](../../experimental/feature_test.html#cpp_lib_generic_associative_lookup "cpp/feature test") | [`201304L`](../../compiler_support/14.html#cpp_lib_generic_associative_lookup_201304L "cpp/compiler support/14") | (C++14) | Heterogeneous comparison lookup in [associative containers](../../container.html#Associative_containers "cpp/container"); overload (2)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/count_ord&action=edit&section=T-5 "Template:cpp/container/count ord")] Example
+### Example
 
 Run this code
     
@@ -232,12 +232,12 @@ Output:
     S{3} S{1} S{4} S{1} S{5} : S{1} 1, S{2} 0.
     R{3} R{1} R{4} R{1} R{5} : 1, 0.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/count_ord&action=edit&section=T-6 "Template:cpp/container/count ord")] See also
+### See also
 
 [ find](find.html "cpp/container/set/find") |  finds element with specific key   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_find&action=edit)  
+(public member function)   
 ---|---  
 [ equal_range](equal_range.html "cpp/container/set/equal range") |  returns range of elements matching a specific key   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_equal_range&action=edit)
+(public member function) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

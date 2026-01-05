@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Classes](classes.html "cpp/language/classes")
 
@@ -261,7 +261,7 @@ Inheritance
 [`override` specifier](override.html "cpp/language/override") (C++11)  
 [`final` specifier](final.html "cpp/language/final") (C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/classes/navbar_content&action=edit)
+
 
 Specifies that a class is _replaceable ﻿_ (replaceable_if_eligible), _trivially relocatable ﻿_ (trivially_relocatable_if_eligible), or that a class cannot be [derived from](derived_class.html "cpp/language/derived class") (final). 
 
@@ -286,7 +286,7 @@ Specifies that a class is _replaceable ﻿_ (replaceable_if_eligible), _triviall
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/class_property_specifiers&action=edit&section=1 "Edit section: Syntax")] Syntax
+### Syntax
 
 **Class property specifiers** appear at the beginning of the class definition, immediately after the name of the class, and cannot appear in a class declaration.   
   
@@ -298,23 +298,23 @@ class-prop-specifier |  \-  |  one of [`final`](../identifier_with_special_meani
   
 Before (C++26), there was the class-virt-specifier ﻿(optional) in place of class-prop-specifier-seq ﻿(optional), which only allowed the final for [`final` specifier](final.html "cpp/language/final") (since C++11). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/class_property_specifiers&action=edit&section=2 "Edit section: Explanation")] Explanation
+### Explanation
 
 final, replaceable_if_eligible and trivially_relocatable_if_eligible are identifiers with a special meaning when used in a class head. In other contexts, it is not reserved and may be used to name objects and functions. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/class_property_specifiers&action=edit&section=3 "Edit section: final specifier")] final specifier
+#### final specifier
 
 final specifies that this class may not appear in the base-specifier-list of another class definition (in other words, cannot be derived from). The program is ill-formed otherwise (a compile-time error is generated). final can also be used with a [union](union.html "cpp/language/union") definition, in which case it has no effect (other than on the outcome of [std::is_final](../types/is_final.html "cpp/types/is final"))(since C++14), since unions cannot be derived from. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/class_property_specifiers&action=edit&section=4 "Edit section: replaceable if eligible specifier")] replaceable_if_eligible specifier
+#### replaceable_if_eligible specifier
 
 replaceable_if_eligible specifies that this class is [_replaceable ﻿_](class_property_specifiers.html#Replaceability) if it is [_eligible for replacement ﻿_](class_property_specifiers.html#Eligibility_for_replacement). 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/class_property_specifiers&action=edit&section=5 "Edit section: trivially relocatable if eligible specifier")] trivially_relocatable_if_eligible specifier
+#### trivially_relocatable_if_eligible specifier
 
 trivially_relocatable_if_eligible specifies that this class is [_trivially relocatable ﻿_](class_property_specifiers.html#Trivial_relocatability) if it is [_eligible for trivial relocation ﻿_](class_property_specifiers.html#Eligibility_for_trivial_relocation). 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/class_property_specifiers&action=edit&section=6 "Edit section: Replaceability")] Replaceability
+#### Replaceability
 
 A class `C` is _replaceable ﻿_ if it is [_eligible for replacement ﻿_](class_property_specifiers.html#Eligibility_for_replacement) and either: 
 
@@ -324,7 +324,7 @@ A class `C` is _replaceable ﻿_ if it is [_eligible for replacement ﻿_](class
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/class_property_specifiers&action=edit&section=7 "Edit section: Eligibility for replacement")] Eligibility for replacement
+#### Eligibility for replacement
 
 A class `C` is _eligible for replacement ﻿_ unless either: 
 
@@ -336,7 +336,7 @@ A class `C` is _eligible for replacement ﻿_ unless either:
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/class_property_specifiers&action=edit&section=8 "Edit section: Trivial relocatability")] Trivial relocatability
+#### Trivial relocatability
 
 A class is _trivially relocatable ﻿_ if it is [_eligible for trivial relocation ﻿_](class_property_specifiers.html#Eligibility_for_trivial_relocation) and either: 
 
@@ -346,7 +346,7 @@ A class is _trivially relocatable ﻿_ if it is [_eligible for trivial relocatio
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/class_property_specifiers&action=edit&section=9 "Edit section: Eligibility for trivial relocation")] Eligibility for trivial relocation
+#### Eligibility for trivial relocation
 
 A class is _eligible for trivial relocation ﻿_ unless it has either: 
 
@@ -359,7 +359,7 @@ A class is _eligible for trivial relocation ﻿_ unless it has either:
 
 except that it is implementation-defined whether an otherwise-eligible [`union`](union.html "cpp/language/union") having one or more subobjects of polymorphic class type is _eligible for trivial relocation ﻿_. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/class_property_specifiers&action=edit&section=10 "Edit section: Default movability")] Default movability
+#### Default movability
 
 A class `C` is _default movable ﻿_ if all following conditions are met: 
 
@@ -369,11 +369,11 @@ A class `C` is _default movable ﻿_ if all following conditions are met:
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/class_property_specifiers&action=edit&section=11 "Edit section: Keywords")] Keywords
+### Keywords
 
 [`final`](../identifier_with_special_meaning/final.html "cpp/identifier with special meaning/final"), [`replaceable_if_eligible`](../identifier_with_special_meaning/replaceable_if_eligible.html "cpp/identifier with special meaning/replaceable if eligible"), [`trivially_relocatable_if_eligible`](../identifier_with_special_meaning/trivially_relocatable_if_eligible.html "cpp/identifier with special meaning/trivially relocatable if eligible"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/class_property_specifiers&action=edit&section=12 "Edit section: Note")] Note
+### Note
 
   * Not all [TriviallyCopyable](../named_req/TriviallyCopyable.html "cpp/named req/TriviallyCopyable") classes are _replaceable ﻿_ or [_trivially relocatable ﻿_](class_property_specifiers.html#Trivial_relocatability). 
   * [Accessibility](access.html "cpp/language/access") of the [special member functions](member_functions.html#Special_member_functions "cpp/language/member functions") is not considered when establishing [_trivial relocatability ﻿_](class_property_specifiers.html#Trivial_relocatability) or [_replaceability ﻿_](class_property_specifiers.html#Replaceability). 
@@ -384,7 +384,7 @@ Feature-test macro | Value | Std | Feature
 ---|---|---|---  
 [`__cpp_trivial_relocatability`](../experimental/feature_test.html#cpp_trivial_relocatability "cpp/feature test") | [`202502L`](../compiler_support/26.html#cpp_trivial_relocatability_202502L "cpp/compiler support/26") | (C++26) | [Trivial relocatability](class_property_specifiers.html#Trivial_relocatability)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/class_property_specifiers&action=edit&section=13 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -410,7 +410,7 @@ Run this code
      
     int main() {}
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/class_property_specifiers&action=edit&section=14 "Edit section: References")] References
+### References
 
   * C++26 standard (ISO/IEC 14882:2026): 
 
@@ -422,11 +422,11 @@ Run this code
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/class_property_specifiers&action=edit&section=15 "Edit section: See also")] See also
+### See also
 
-[`final` specifier](final.html "cpp/language/final") (C++11) |  declares that a method cannot be overridden or a class be derived from[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_final&action=edit)  
+[`final` specifier](final.html "cpp/language/final") (C++11) |  declares that a method cannot be overridden or a class be derived from  
 ---|---  
 [ is_final](../types/is_final.html "cpp/types/is final")(C++14) |  checks if a type is a final class type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_final&action=edit)
+(class template) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

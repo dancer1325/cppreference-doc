@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [Common mathematical functions](../math.html "cpp/numeric/math")
 
@@ -230,7 +230,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/navbar_content&action=edit)
+
 
 Defined in header `[<cmath>](../../header/cmath.html "cpp/header/cmath")` |  |   
 ---|---|---  
@@ -281,19 +281,19 @@ A) Additional overloads are provided for all integer types, which are treated as
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/acosh&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 num  |  \-  |  floating-point or integer value   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/acosh&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 If no errors occur, the inverse hyperbolic cosine of num (cosh-1  
 (num), or arcosh(num)) on the interval [0, +∞], is returned. 
 
 If a domain error occurs, an implementation-defined value is returned (NaN where supported). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/acosh&action=edit&section=3 "Edit section: Error handling")] Error handling
+### Error handling
 
 Errors are reported as specified in [math_errhandling](math_errhandling.html "cpp/numeric/math/math errhandling"). 
 
@@ -308,13 +308,13 @@ If the implementation supports IEEE floating-point arithmetic (IEC 60559),
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/acosh&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 Although the C standard (to which C++ refers for this function) names this function "arc hyperbolic cosine", the inverse functions of the hyperbolic functions are the area functions. Their argument is the area of a hyperbolic sector, not an arc. The correct name is "inverse hyperbolic cosine" (used by POSIX) or "area hyperbolic cosine". 
 
 The additional overloads are not required to be provided exactly as (A). They only need to be sufficient to ensure that for their argument num of integer type, std::acosh(num) has the same effect as std::acosh(static_cast<double>(num)). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/acosh&action=edit&section=5 "Edit section: Examples")] Examples
+### Examples
 
 Run this code
     
@@ -358,20 +358,20 @@ Possible output:
         errno == EDOM: Numerical argument out of domain
         FE_INVALID raised
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/acosh&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ asinhasinhfasinhl](asinh.html "cpp/numeric/math/asinh")(C++11)(C++11)(C++11) |  computes the inverse hyperbolic sine (\\({\small\operatorname{arsinh}{x}}\\)arsinh(x))   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_asinh&action=edit)  
+(function)   
 ---|---  
 [ atanhatanhfatanhl](atanh.html "cpp/numeric/math/atanh")(C++11)(C++11)(C++11) |  computes the inverse hyperbolic tangent (\\({\small\operatorname{artanh}{x}}\\)artanh(x))   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_atanh&action=edit)  
+(function)   
 [ coshcoshfcoshl](cosh.html "cpp/numeric/math/cosh")(C++11)(C++11) |  computes hyperbolic cosine (\\({\small\cosh{x}}\\)cosh(x))   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_cosh&action=edit)  
+(function)   
 [ acosh(std::complex)](../complex/acosh.html "cpp/numeric/complex/acosh")(C++11) |  computes area hyperbolic cosine of a complex number (\\({\small\operatorname{arcosh}{z}}\\)arcosh(z))   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_acosh&action=edit)  
+(function template)   
 [C documentation](../../../c/numeric/math/acosh.html "c/numeric/math/acosh") for acosh  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/acosh&action=edit&section=7 "Edit section: External links")] External links
+### External links
 
 [Weisstein, Eric W. "Inverse Hyperbolic Cosine."](https://mathworld.wolfram.com/InverseHyperbolicCosine.html) From MathWorld — A Wolfram Web Resource.   
 ---

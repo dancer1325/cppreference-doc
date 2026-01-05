@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ named requirements](../iterator/concepts.html "cpp/named req")
 
@@ -147,11 +147,11 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/named_req/navbar_content&action=edit)
+
 
 Specifies that the type can be used as the template argument of [std::complex](../numeric/complex.html "cpp/numeric/complex") and [std::valarray](../numeric/valarray.html "cpp/numeric/valarray"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/NumericType&action=edit&section=1 "Edit section: Requirements")] Requirements 
+### Requirements 
 
 For a type `**T**` to be a NumericType, it must be a cv-unqualified object type that: 
 

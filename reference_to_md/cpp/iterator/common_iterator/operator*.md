@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](../empty.html "cpp/iterator/empty")(C++17)  
 [data](../data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 [`std::common_iterator`](../common_iterator.html "cpp/iterator/common iterator")
 
@@ -213,7 +213,7 @@
 [incrementable_traits<std::common_iterator>](incrementable_traits.html "cpp/iterator/common iterator/incrementable traits")(C++20)  
 [iterator_traits<std::common_iterator>](iterator_traits.html "cpp/iterator/common iterator/iterator traits")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/common_iterator/navbar_content&action=edit)
+
 
 constexpr decltype(auto) operator*(); |  (1)  |  (since C++20)  
 ---|---|---  
@@ -271,17 +271,17 @@ requires(const I& i) { i.operator->(); } ||
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/common_iterator/operator*&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/common_iterator/operator*&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1,2) Reference to the current element, or prvalue temporary. Equivalent to *it.
 
 3) Pointer or iterator to the current element or proxy holding it as described above.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/common_iterator/operator*&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -311,7 +311,7 @@ Output:
     
     (3.14,2) 3.14
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/common_iterator/operator*&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -321,8 +321,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [LWG 3595](https://cplusplus.github.io/LWG/issue3595) | C++20  | functions of the proxy type lacked constexpr and noexcept  | added   
 [LWG 3672](https://cplusplus.github.io/LWG/issue3672) | C++20  | `operator->` might return by reference in usual cases  | always returns by value   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/common_iterator/operator*&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ (constructor)](common_iterator.html "cpp/iterator/common iterator/common iterator") |  constructs a new `common_iterator`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_constructor&action=edit)  
+(public member function)   
 ---|---

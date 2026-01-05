@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Type support](../utility/rtti.html "cpp/types")
 
@@ -161,7 +161,7 @@ Runtime type information
 ---  
 [bad_cast](bad_cast.html "cpp/types/bad cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/navbar_content&action=edit)
+
 
 **`std::type_info`**
 
@@ -173,7 +173,7 @@ Member functions
 [type_info::hash_code](type_info/hash_code.html "cpp/types/type info/hash code")(C++11)  
 [type_info::name](type_info/name.html "cpp/types/type info/name")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/type_info/navbar_content&action=edit)
+
 
 Defined in header `[<typeinfo>](../header/typeinfo.html "cpp/header/typeinfo")` |  |   
 ---|---|---  
@@ -184,7 +184,7 @@ The class `type_info` holds implementation-specific information about a type, in
 
 The `type_info` class is neither [CopyConstructible](../named_req/CopyConstructible.html "cpp/named req/CopyConstructible") nor [CopyAssignable](../named_req/CopyAssignable.html "cpp/named req/CopyAssignable"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/type_info&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 (constructor)[deleted] |  has neither default nor copy constructors   
 (public member function)  
@@ -194,19 +194,19 @@ The `type_info` class is neither [CopyConstructible](../named_req/CopyConstructi
 operator=[deleted] |  can not be copy-assigned   
 (public member function)  
 [ operator==operator!=](type_info/operator_cmp.html "cpp/types/type info/operator cmp")(removed in C++20) |  checks whether the objects refer to the same type   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/type_info/dsc_operator_cmp&action=edit)  
+(public member function)   
 [ before](type_info/before.html "cpp/types/type info/before") |  checks whether the referred type precedes referred type of another `type_info`  
 object in the implementation defined order, i.e. orders the referred types   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/type_info/dsc_before&action=edit)  
+(public member function)   
 [ hash_code](type_info/hash_code.html "cpp/types/type info/hash code")(C++11) |  returns a value which is identical for the same types   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/type_info/dsc_hash_code&action=edit)  
+(public member function)   
 [ name](type_info/name.html "cpp/types/type info/name") |  implementation defined name of the type   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/type_info/dsc_name&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/type_info&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ type_index](type_index.html "cpp/types/type index")(C++11) |  wrapper around a `type_info` object, that can be used as index in associative and unordered associative containers   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_type_index&action=edit)  
+(class)   
 ---|---  
 [``**typeid**``](../language/typeid.html "cpp/language/typeid") |  Queries information of a type, returning a `std::type_info` object representing the type  
 (built-in operator)

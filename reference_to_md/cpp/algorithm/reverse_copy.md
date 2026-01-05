@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](ranges/copy.html "cpp/algorithm/ra
 [uninitialized_default_construct_n](../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -336,7 +336,7 @@ This overload participates in overload resolution only if all following conditio
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/reverse_copy&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  the pair of iterators defining the source [range](../iterator.html#Ranges "cpp/iterator") of elements to copy   
 ---|---|---  
@@ -346,15 +346,15 @@ Type requirements
 -`OutputIt` must meet the requirements of [LegacyOutputIterator](../named_req/OutputIterator.html "cpp/named req/OutputIterator").   
 -`ForwardIt` must meet the requirements of [LegacyForwardIterator](../named_req/ForwardIterator.html "cpp/named req/ForwardIterator").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/reverse_copy&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Output iterator to the element past the last element copied. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/reverse_copy&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Exactly \\(\scriptsize N\\)N assignments. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/reverse_copy&action=edit&section=4 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 The overload with a template parameter named `ExecutionPolicy` reports errors as follows: 
 
@@ -363,7 +363,7 @@ The overload with a template parameter named `ExecutionPolicy` reports errors as
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/reverse_copy&action=edit&section=5 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
 
 See also the implementations in [libstdc++](https://github.com/gcc-mirror/gcc/blob/14d8a5ae472ca5743016f37da2dd4770d83dea21/libstdc%2B%2B-v3/include/bits/stl_algo.h#L1170-L1190), [libc++](https://github.com/llvm/llvm-project/tree/134723edd5bf06ff6ec8aca7b87c56e5bd70ccae/libcxx/include/__algorithm/reverse_copy.h), and [MSVC STL](https://github.com/microsoft/STL/blob/472161105d596192194d4715ccad307c6c163b4a/stl/inc/algorithm#L4184-L4229). 
     
@@ -379,11 +379,11 @@ See also the implementations in [libstdc++](https://github.com/gcc-mirror/gcc/bl
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/reverse_copy&action=edit&section=6 "Edit section: Notes")] Notes
+### Notes
 
 Implementations (e.g. [MSVC STL](https://github.com/microsoft/STL/blob/main/stl/src/vector_algorithms.cpp)) may enable vectorization when the both iterator types satisfy [LegacyContiguousIterator](../named_req/ContiguousIterator.html "cpp/named req/ContiguousIterator") and have the same value type, and the value type is [TriviallyCopyable](../named_req/TriviallyCopyable.html "cpp/named req/TriviallyCopyable"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/reverse_copy&action=edit&section=7 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -419,7 +419,7 @@ Output:
     3 2 1 
     1 2 3
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/reverse_copy&action=edit&section=8 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -434,10 +434,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/reverse_copy&action=edit&section=9 "Edit section: See also")] See also
+### See also
 
 [ reverse](reverse.html "cpp/algorithm/reverse") |  reverses the order of elements in a range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_reverse&action=edit)  
+(function template)   
 ---|---  
 [ ranges::reverse_copy](ranges/reverse_copy.html "cpp/algorithm/ranges/reverse copy")(C++20) |  creates a copy of a range that is reversed  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_reverse_copy&action=edit)
+(algorithm function object)

@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 `[std::unordered_set](../unordered_set.html "cpp/container/unordered set")`
 
@@ -137,7 +137,7 @@ Tables
   
 **Deduction guides** (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/unordered_set/navbar_content&action=edit)
+
 
 Defined in header `[<unordered_set>](../../header/unordered_set.html "cpp/header/unordered set")` |  |   
 ---|---|---  
@@ -209,13 +209,13 @@ Note: the extent to which the library determines that a type does not satisfy [L
 
 The size_type parameter type in these guides refers to the size_type member type of the type deduced by the deduction guide. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/unord_set_deduction_guides&action=edit&section=T-1 "Template:cpp/container/unord set deduction guides")] Notes
+### Notes
 
 [Feature-test](../../utility/feature_test.html "cpp/utility/feature test") macro  | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_containers_ranges`](../../experimental/feature_test.html#cpp_lib_containers_ranges "cpp/feature test") | [`202202L`](../../compiler_support/23.html#cpp_lib_containers_ranges_202202L "cpp/compiler support/23") | (C++23) | [Ranges-aware](../../ranges/to.html#container_compatible_range "cpp/ranges/to") construction and insertion; overloads (7-10)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/unord_set_deduction_guides&action=edit&section=T-2 "Template:cpp/container/unord set deduction guides")] Example
+### Example
 
 Run this code
     

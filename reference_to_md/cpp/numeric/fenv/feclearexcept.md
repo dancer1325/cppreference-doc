@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [Floating-point environment](../fenv.html "cpp/numeric/fenv")
 
@@ -106,7 +106,7 @@ Macro constants
 [FE_DOWNWARDFE_TONEARESTFE_TOWARDZEROFE_UPWARD](FE_round.html "cpp/numeric/fenv/FE round")(C++11)(C++11)(C++11)(C++11)  
 [FE_DFL_ENV](FE_DFL_ENV.html "cpp/numeric/fenv/FE DFL ENV")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/fenv/navbar_content&action=edit)
+
 
 Defined in header `[<cfenv>](../../header/cfenv.html "cpp/header/cfenv")` |  |   
 ---|---|---  
@@ -125,18 +125,18 @@ Attempts to clear the floating-point exceptions that are listed in the bitmask a
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/fenv/feclearexcept&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 excepts  |  \-  |  bitmask listing the exception flags to clear   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/fenv/feclearexcept&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 ​0​ if all indicated exceptions were successfully cleared or if `excepts` is zero. Returns a non-zero value on error. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/fenv/feclearexcept&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/fenv/example1&action=edit)
+
 
 Run this code
     
@@ -184,9 +184,9 @@ Possible output:
     sqrt(-1) = -nan
     invalid result reported
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/fenv/feclearexcept&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ fetestexcept](fetestexcept.html "cpp/numeric/fenv/fetestexcept")(C++11) |  determines which of the specified floating-point status flags are set   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/fenv/dsc_fetestexcept&action=edit)  
+(function)   
 ---|---  
 [C documentation](../../../c/numeric/fenv/feclearexcept.html "c/numeric/fenv/feclearexcept") for feclearexcept

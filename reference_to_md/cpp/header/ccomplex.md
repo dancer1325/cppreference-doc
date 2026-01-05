@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,15 +194,15 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header was originally in the C standard library as [`<complex.h>`](../../c/header/complex.html "c/header/complex"). 
 
 ###  Includes  
   
 ---  
-[ <complex>](complex.html "cpp/header/complex")(C++11) |  [Complex number type](../numeric/complex.html "cpp/numeric/complex")[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/dsc_complex&action=edit)  
+[ <complex>](complex.html "cpp/header/complex")(C++11) |  [Complex number type](../numeric/complex.html "cpp/numeric/complex")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/ccomplex&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 `<ccomplex>` is deprecated in C++17 and removed in C++20. Corresponding `<complex.h>` is still available in C++20. 

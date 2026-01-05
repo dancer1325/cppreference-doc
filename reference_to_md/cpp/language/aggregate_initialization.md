@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Initialization](initialization.html "cpp/language/initialization")
 
@@ -244,7 +244,7 @@ Miscellaneous
 [Member initializer list](initializer_list.html "cpp/language/initializer list")  
 [Default member initializer](data_members.html#Member_initialization "cpp/language/data members") (C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/initialization/navbar_content&action=edit)
+
 
 Initializes an aggregate from an initializer list. It is a form of [list-initialization](list_initialization.html "cpp/language/list initialization")(since C++11). 
 
@@ -270,7 +270,7 @@ Initializes an aggregate from an initializer list. It is a form of [list-initial
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/aggregate_initialization&action=edit&section=1 "Edit section: Syntax")] Syntax  
+### Syntax  
   
 ---  
 T object` ``**= {**` arg1, arg2, ... `**};**` |  (1)  |   
@@ -282,9 +282,9 @@ T object `**{ .**` des1` ``**=**`` `arg1 `**, .**` des2 `**{**` arg2 `**}**` ...
 
 3,4) Initializing an aggregate with [designated initializers](aggregate_initialization.html#Designated_initializers) (aggregate class only).
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/aggregate_initialization&action=edit&section=2 "Edit section: Definitions")] Definitions
+### Definitions
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/aggregate_initialization&action=edit&section=3 "Edit section: Aggregate")] Aggregate
+#### Aggregate
 
 An _aggregate_ is one of the following types: 
 
@@ -353,7 +353,7 @@ An _aggregate_ is one of the following types:
 (until C++14)  
 ---|---  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/aggregate_initialization&action=edit&section=4 "Edit section: Element")] Element
+#### Element
 
 The _elements_ of an aggregate are: 
 
@@ -370,7 +370,7 @@ The _elements_ of an aggregate are:
 
 | (since C++17)  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/aggregate_initialization&action=edit&section=5 "Edit section: Appertainment")] Appertainment
+#### Appertainment
 
 Each [initializer clause](initialization.html "cpp/language/initialization") in a brace-enclosed initializer list is said to _appertain_ to an element of the aggregate being initialized or to an element of one of its subaggregates. 
 
@@ -436,9 +436,9 @@ The analysis is complete when all initializer clauses have been exhausted. If an
      
     char cv[4] = {'a', 's', 'd', 'f', 0}; // Error: too many initializer clauses
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/aggregate_initialization&action=edit&section=6 "Edit section: Initialization process")] Initialization process
+### Initialization process
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/aggregate_initialization&action=edit&section=7 "Edit section: Determining element kind")] Determining element kind
+#### Determining element kind
 
 The effects of aggregate initialization are: 
 
@@ -474,7 +474,7 @@ The effects of aggregate initialization are:
 
 2) Initialize each element of the aggregate in the element order. That is, all value computations and side effects associated with a given element are [sequenced before](eval_order.html "cpp/language/eval order") those of any element that follows it in order(since C++11).
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/aggregate_initialization&action=edit&section=8 "Edit section: Explicitly initialized elements")] Explicitly initialized elements
+#### Explicitly initialized elements
 
 For each explicitly initialized element: 
 
@@ -559,7 +559,7 @@ For each explicitly initialized element:
     derived d2{{}, {}, 4};     // initializes d2.b1 with 0, d2.b2 with 42,
                                //             d2.b3 with 42, d2.d with 4
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/aggregate_initialization&action=edit&section=9 "Edit section: Implicitly initialized elements")] Implicitly initialized elements
+#### Implicitly initialized elements
 
 For a non-union aggregate, each element that is not an explicitly initialized element is initialized as follows: 
 
@@ -599,7 +599,7 @@ If the aggregate is a union and the initializer list is empty, then
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/aggregate_initialization&action=edit&section=10 "Edit section: Arrays with unknown bounds")] Arrays with unknown bounds
+### Arrays with unknown bounds
 
 The number of elements in an array of unknown bound initialized with a brace-enclosed initializer list is the number of explicitly initialized elements of the array. An array of unknown bound cannot be initialized with {}. 
     
@@ -668,7 +668,7 @@ If the aggregate that is initialized with a designated initializer clause has an
 | (since C++20)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/aggregate_initialization&action=edit&section=12 "Edit section: Character arrays")] Character arrays
+### Character arrays
 
 Arrays of ordinary character types (char, signed char, unsigned char), char8_t(since C++20), char16_t, char32_t(since C++11), or wchar_t can be initialized from ordinary [string literals](string_literal.html "cpp/language/string literal"), UTF-8 string literals(since C++20), UTF-16 string literals, UTF-32 string literals(since C++11), or wide string literals, respectively, optionally enclosed in braces. Additionally, an array of char or unsigned char may be initialized by a UTF-8 string literal, optionally enclosed in braces(since C++20). Successive characters of the string literal (which includes the implicit terminating null character) initialize the elements of the array, with an [integral conversion](implicit_cast.html#Integral_conversions "cpp/language/implicit conversion") if necessary for the source and destination value(since C++20). If the size of the array is specified and it is larger than the number of characters in the string literal, the remaining characters are zero-initialized. 
     
@@ -683,7 +683,7 @@ Arrays of ordinary character types (char, signed char, unsigned char), char8_t(s
     wchar_t c[] = {L"кошка"}; // optional braces
     // equivalent to wchar_t c[6] = {L'к', L'о', L'ш', L'к', L'а', L'\0'};
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/aggregate_initialization&action=edit&section=13 "Edit section: Notes")] Notes
+### Notes
 
 An aggregate class or array may include non-aggregate public bases(since C++17), members, or elements, which are initialized as described above (e.g. copy-initialization from the corresponding initializer clause). 
 
@@ -702,7 +702,7 @@ Feature-test macro  | Value | Std | Feature
 (DR20) | char8_t compatibility and portability fix ([allow initialization of (unsigned char arrays](aggregate_initialization.html#Character_arrays) from [UTF-8 string literals](string_literal.html "cpp/language/string literal"))   
 [`__cpp_designated_initializers`](../experimental/feature_test.html#cpp_designated_initializers "cpp/feature test") | [`201707L`](../compiler_support/20.html#cpp_designated_initializers_201707L "cpp/compiler support/20") | (C++20) | [Designated initializers](aggregate_initialization.html#Designated_initializers)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/aggregate_initialization&action=edit&section=14 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -788,7 +788,7 @@ Output:
     
     Garbage collecting unused variables... Done.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/aggregate_initialization&action=edit&section=15 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -817,7 +817,7 @@ kind of the initializer
 or unsigned char, which was incompatible with C or C++17  | such initialization  
 is valid   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/aggregate_initialization&action=edit&section=16 "Edit section: See also")] See also
+### See also
 
   * [copy elision](copy_elision.html "cpp/language/copy elision")
   * [initialization](initialization.html "cpp/language/initialization")

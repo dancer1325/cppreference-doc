@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::inout_ptr_t`](../inout_ptr_t.html "cpp/memory/inout ptr t")
 
@@ -196,7 +196,7 @@ Member functions
 Non-member functions  
 [inout_ptr](inout_ptr.html "cpp/memory/inout ptr t/inout ptr")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/inout_ptr_t/navbar_content&action=edit)
+
 
 explicit inout_ptr_t( Smart &sp, Args... args ); |  (1)  |  (since C++23)  
 ---|---|---  
@@ -218,21 +218,21 @@ inout_ptr_t( const inout_ptr_t& ) = delete; |  (2)  |  (since C++23)
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/inout_ptr_t/inout_ptr_t&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 sp  |  \-  |  the object (typically a smart pointer) to adapt   
 ---|---|---  
 args...  |  \-  |  the arguments used for resetting to capture   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/inout_ptr_t/inout_ptr_t&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/impldef_exception&action=edit&section=T-1 "Template:cpp/impldef exception")] Exceptions
+### Exceptions
 
 May throw implementation-defined exceptions. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/inout_ptr_t/inout_ptr_t&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 If `Smart` is not a pointer type and sp.release() is not called by the constructor, it may be called by the destructor before resetting sp. 
 
@@ -240,7 +240,7 @@ Every argument in args... is moved into the created `inout_ptr_t` if it is of an
 
 The constructor of `inout_ptr_t` is allowed to throw exceptions. For example, when sp is an intrusive pointer with a control block, the allocation for the new control block may be performed within the constructor rather than the destructor. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/inout_ptr_t/inout_ptr_t&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

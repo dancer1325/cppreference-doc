@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -71,7 +71,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::vector<bool>`](../vector_bool.html "cpp/container/vector bool")
 
@@ -133,7 +133,7 @@ Tables
 [hash<std::vector<bool>>](hash.html "cpp/container/vector bool/hash")(C++11)  
 [Deduction guides](../vector/deduction_guides.html "cpp/container/vector/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/vector_bool/navbar_content&action=edit)
+
 
 class reference; |  |   
 ---|---|---  
@@ -166,7 +166,7 @@ Any reads or writes to a vector that happen via a [`std::vector`](../vector_bool
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/vector_bool/reference&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 (constructor) |  constructs the reference   
 (public member function)  
@@ -176,7 +176,7 @@ Any reads or writes to a vector that happen via a [`std::vector`](../vector_bool
 operator= |  assigns a value to the referenced bit   
 (public member function)  
 ** operator bool** |  returns the referenced bit   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/vector_bool/reference/dsc_operator_bool&action=edit)  
+(public member function)   
 flip |  flips the referenced bit   
 (public member function)  
   
@@ -245,7 +245,7 @@ void flip(); |  | (noexcept since C++11)
   
 Inverts the referenced bit. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/vector_bool/reference&action=edit&section=5 "Edit section: Helper classes")] Helper classes
+### Helper classes
 
 ##  std::formatter<std::vector<bool, Alloc>::reference>
 
@@ -272,21 +272,21 @@ FormatContext::iterator format( const T& r, FormatContext& ctx ) const; |  (2)  
 
 2) Equivalent to return` `` _underlying__`.format(r, ctx);. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/vector_bool/reference&action=edit&section=7 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/vector_bool/reference&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [ operator[]](../vector/operator_at.html "cpp/container/vector/operator at") |  access specified element   
-(public member function of `std::vector<T,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_operator_at&action=edit)  
+(public member function of `std::vector<T,Allocator>`)   
 ---|---  
 [ swap](swap.html "cpp/container/vector bool/swap")[static] |  swaps two `std::vector<bool>::`**`reference` s**   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/vector_bool/dsc_swap&action=edit)  
+(public static member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/vector_bool/reference&action=edit&section=9 "Edit section: External links")] External links
+### External links
 
 "Effective Modern C++" by Scott Meyers (2015), Chapter 2, Item 6: "Use the explicitly typed initializer idiom when auto deduces undesired types." (p.43-46) — describes a possible misuse of the proxy class [`std::vector<bool>::reference`](reference.html#top)).   
 ---

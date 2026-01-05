@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ named requirements](../iterator/concepts.html "cpp/named req")
 
@@ -147,7 +147,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/named_req/navbar_content&action=edit)
+
 
 The **Lockable** requirements extends the [BasicLockable](BasicLockable.html "cpp/named req/BasicLockable") requirements to include attempted locking. 
 
@@ -161,7 +161,7 @@ The **Lockable** requirements extends the [BasicLockable](BasicLockable.html "cp
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/Lockable&action=edit&section=1 "Edit section: Requirements")] Requirements
+### Requirements
 
   * [BasicLockable](BasicLockable.html "cpp/named req/BasicLockable")
 
@@ -173,30 +173,30 @@ Expression | Effects | Return value
 ---|---|---  
 m.try_lock() | Attempts to acquire the lock for the current execution agent (thread, process, task) without blocking. If an exception is thrown, no lock is obtained.  | true if the lock was acquired, false otherwise   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/Lockable&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 The `try_lock` member functions obtains a non-shared lock on m on success. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/Lockable&action=edit&section=3 "Edit section: Standard library")] Standard library
+### Standard library
 
 The following standard library types satisfy Lockable requirements: 
 
 [ mutex](../thread/mutex.html "cpp/thread/mutex")(C++11) |  provides basic mutual exclusion facility   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_mutex&action=edit)  
+(class)   
 ---|---  
 [ recursive_mutex](../thread/recursive_mutex.html "cpp/thread/recursive mutex")(C++11) |  provides mutual exclusion facility which can be locked recursively by the same thread   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_recursive_mutex&action=edit)  
+(class)   
 [ recursive_timed_mutex](../thread/recursive_timed_mutex.html "cpp/thread/recursive timed mutex")(C++11) |  provides mutual exclusion facility which can be locked recursively  
 by the same thread and implements locking with a timeout   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_recursive_timed_mutex&action=edit)  
+(class)   
 [ shared_mutex](../thread/shared_mutex.html "cpp/thread/shared mutex")(C++17) |  provides shared mutual exclusion facility   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_shared_mutex&action=edit)  
+(class)   
 [ shared_timed_mutex](../thread/shared_timed_mutex.html "cpp/thread/shared timed mutex")(C++14) |  provides shared mutual exclusion facility and implements locking with a timeout   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_shared_timed_mutex&action=edit)  
+(class)   
 [ timed_mutex](../thread/timed_mutex.html "cpp/thread/timed mutex")(C++11) |  provides mutual exclusion facility which implements locking with a timeout   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_timed_mutex&action=edit)  
+(class)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/Lockable&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
   * [Thread support library](../atomic.html "cpp/thread")
   * [Mutex](Mutex.html "cpp/named req/Mutex")

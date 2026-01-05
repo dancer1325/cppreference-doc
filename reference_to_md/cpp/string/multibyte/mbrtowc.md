@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Null-terminated multibyte strings](../multibyte.html "cpp/string/multibyte")
 
@@ -100,7 +100,7 @@ MB_CUR_MAX](../multibyte.html#Macros "cpp/string/multibyte")
 [__STDC_UTF_16__  
 __STDC_UTF_32__](../multibyte.html#Macros "cpp/string/multibyte")(C++11)(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/navbar_content&action=edit)
+
 
 Defined in header `[<cwchar>](../../header/cwchar.html "cpp/header/cwchar")` |  |   
 ---|---|---  
@@ -128,7 +128,7 @@ If the wide character produced is the null character, the conversion state store
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/multibyte/mbrtowc&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 pwc  |  \-  |  pointer to the location where the resulting wide character will be written   
 ---|---|---  
@@ -136,7 +136,7 @@ s  |  \-  |  pointer to the multibyte character string used as input
 n  |  \-  |  limit on the number of bytes in s that can be examined   
 ps  |  \-  |  pointer to the conversion state used when interpreting the multibyte string   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/multibyte/mbrtowc&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The first of the following that applies: 
 
@@ -147,7 +147,7 @@ The first of the following that applies:
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/multibyte/mbrtowc&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -187,13 +187,13 @@ Output:
     Next 3 bytes are the character 水
     Next 4 bytes are the character 𝄋
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/multibyte/mbrtowc&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ mbtowc](mbtowc.html "cpp/string/multibyte/mbtowc") |  converts the next multibyte character to wide character   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/dsc_mbtowc&action=edit)  
+(function)   
 ---|---  
 [ wcrtomb](wcrtomb.html "cpp/string/multibyte/wcrtomb") |  converts a wide character to its multibyte representation, given state   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/dsc_wcrtomb&action=edit)  
+(function)   
 [ do_in](../../locale/codecvt/in.html "cpp/locale/codecvt/in")[virtual] |  converts a string from `ExternT` to `InternT`, such as when reading from file   
-(virtual protected member function of `std::codecvt<InternT,ExternT,StateT>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/codecvt/dsc_do_in&action=edit)  
+(virtual protected member function of `std::codecvt<InternT,ExternT,StateT>`)   
 [C documentation](../../../c/string/multibyte/mbrtowc.html "c/string/multibyte/mbrtowc") for mbrtowc

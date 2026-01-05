@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header is part of the [containers](../container.html "cpp/container") library. 
 
@@ -216,35 +216,35 @@ This header is part of the [containers](../container.html "cpp/container") libra
   
 ###  Includes  
   
-[ <compare>](compare.html "cpp/header/compare")(C++20) |  [Three-way comparison operator](../language/operator_comparison.html#Three-way_comparison "cpp/language/operator comparison") support[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/dsc_compare&action=edit)  
-[ <initializer_list>](initializer_list.html "cpp/header/initializer list")(C++11) |  [std::initializer_list](../utility/initializer_list.html "cpp/utility/initializer list") class template[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/dsc_initializer_list&action=edit)  
+[ <compare>](compare.html "cpp/header/compare")(C++20) |  [Three-way comparison operator](../language/operator_comparison.html#Three-way_comparison "cpp/language/operator comparison") support  
+[ <initializer_list>](initializer_list.html "cpp/header/initializer list")(C++11) |  [std::initializer_list](../utility/initializer_list.html "cpp/utility/initializer list") class template  
   
 ###  Classes  
   
 [ flat_set](../container/flat_set.html "cpp/container/flat set")(C++23) |  adapts a container to provide a collection of unique keys, sorted by keys   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_flat_set&action=edit)  
+(class template)   
 [ flat_multiset](../container/flat_multiset.html "cpp/container/flat multiset")(C++23) |  adapts a container to provide a collection of keys, sorted by keys   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_flat_multiset&action=edit)  
+(class template)   
 [ std::uses_allocator<std::flat_set>](../container/flat_set/uses_allocator.html "cpp/container/flat set/uses allocator")(C++23) |  specializes the [std::uses_allocator](../memory/uses_allocator.html "cpp/memory/uses allocator") type trait   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_uses_allocator&action=edit)  
+(class template specialization)   
 [ std::uses_allocator<std::flat_multiset>](../container/flat_multiset/uses_allocator.html "cpp/container/flat multiset/uses allocator")(C++23) |  specializes the [std::uses_allocator](../memory/uses_allocator.html "cpp/memory/uses allocator") type trait   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_uses_allocator&action=edit)  
+(class template specialization)   
   
 ###  Functions  
   
 [ erase_if(std::flat_set)](../container/flat_set/erase_if.html "cpp/container/flat set/erase if")(C++23) |  erases all elements satisfying specific criteria   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_erase_if&action=edit)  
+(function template)   
 [ erase_if(std::flat_multiset)](../container/flat_multiset/erase_if.html "cpp/container/flat multiset/erase if")(C++23) |  erases all elements satisfying specific criteria   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_erase_if&action=edit)  
+(function template)   
   
 ###  Tags  
   
 [ sorted_uniquesorted_unique_t](../container/sorted_unique.html "cpp/container/sorted unique")(C++23) |  indicates that elements of a range are sorted and unique  
-(tag)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_sorted_unique&action=edit)  
+(tag)  
 [ sorted_equivalentsorted_equivalent_t](../container/sorted_equivalent.html "cpp/container/sorted equivalent")(C++23) |  indicates that elements of a range are sorted (uniqueness is not required)  
-(tag)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_sorted_equivalent&action=edit)  
+(tag)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/flat_set&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     #include <compare>
@@ -290,7 +290,7 @@ This header is part of the [containers](../container.html "cpp/container") libra
         Predicate pred);
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/flat_set&action=edit&section=T-1 "Template:cpp/synopsis/flat set")] Class template [std::flat_set](../container/flat_set.html)
+#### Class template [std::flat_set](../container/flat_set.html)
     
     
     namespace std {
@@ -609,7 +609,7 @@ This header is part of the [containers](../container.html "cpp/container") libra
       {};
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/flat_set&action=edit&section=T-2 "Template:cpp/synopsis/flat set")] Class template [std::flat_multiset](../container/flat_multiset.html)
+#### Class template [std::flat_multiset](../container/flat_multiset.html)
     
     
     namespace std {
@@ -934,7 +934,7 @@ This header is part of the [containers](../container.html "cpp/container") libra
       {};
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/flat_set&action=edit&section=2 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Statements](statements.html "cpp/language/statements")
 
@@ -253,7 +253,7 @@ Miscellaneous
 [Transactional memory](transactional_memory.html "cpp/language/transactional memory")  
 [`synchronized`](transactional_memory.html#Synchronized_blocks "cpp/language/transactional memory"), [`atomic_commit`](transactional_memory.html#Atomic_blocks "cpp/language/transactional memory"), etc (TM TS)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/statements/navbar_content&action=edit)
+
 
 Executes a for loop over a range. 
 
@@ -273,7 +273,7 @@ Used as a more readable equivalent to the traditional [for loop](for.html "cpp/l
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/range-for&action=edit&section=1 "Edit section: Syntax")] Syntax  
+### Syntax  
   
 ---  
 attr ﻿(optional) `**for (**` init-statement ﻿(optional) item-declaration `**:**` range-initializer `**)**` statement |  |   
@@ -297,7 +297,7 @@ item-declaration |  \-  |  a declaration for each range item
 range-initializer |  \-  |  an [expression](expressions.html "cpp/language/expressions") or [brace-enclosed initializer list](initialization.html "cpp/language/initialization")  
 statement |  \-  |  any [statement](statements.html "cpp/language/statements") (typically a compound statement)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/range-for&action=edit&section=2 "Edit section: Explanation")] Explanation
+### Explanation
 
 The above syntax produces code equivalent to the following  except for the lifetime expansion of temporaries of range-initializer (see [below](range-for.html#Temporary_range_initializer))(since C++23) (the variables and expressions wrapped in /* */ are for exposition only): 
 
@@ -409,7 +409,7 @@ If a name introduced in init-statement is redeclared in the outermost block of s
     for (int i : {1, 2, 3})
         int i = 1; // error: redeclaration
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/range-for&action=edit&section=3 "Edit section: Temporary range initializer")] Temporary range initializer
+### Temporary range initializer
 
 If range-initializer returns a temporary, its lifetime is extended until the end of the loop, as indicated by binding to the forwarding reference /* range */. 
 
@@ -447,7 +447,7 @@ Note that even in C++23 non-reference parameters of intermediate function calls 
 | (since C++23)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/range-for&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 If the range-initializer is a [braced-enclosed initializer list](initialization.html "cpp/language/initialization"), /* range */ is deduced to be a reference to a [std::initializer_list](../utility/initializer_list.html "cpp/utility/initializer list"). 
 
@@ -480,11 +480,11 @@ Feature-test macro  | Value | Std | Feature
 [`201603L`](../compiler_support/17.html#cpp_range_based_for_201603L "cpp/compiler support/17") | (C++17) | Range-based for loop with [different `begin`/`end`](range-for.html#Explanation) types   
 [`202211L`](../compiler_support/23.html#cpp_range_based_for_202211L "cpp/compiler support/23") | (C++23) | Lifetime extension for all temporary objects in range-initializer  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/range-for&action=edit&section=5 "Edit section: Keywords")] Keywords
+### Keywords
 
 [`for`](../keyword/for.html "cpp/keyword/for")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/range-for&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -557,7 +557,7 @@ Output:
     0 1 2 3 4 5 
     0 1 2 3 4 5
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/range-for&action=edit&section=7 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -572,10 +572,10 @@ and “`end`” in this case
 [P0962R1](https://wg21.link/P0962R1) | C++11  | member interpretation was used if either  
 member “`begin`” and “`end`” is present  | only used if both are present   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/range-for&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [ for_each](../algorithm/for_each.html "cpp/algorithm/for each") |  applies a unary [function object](../named_req/FunctionObject.html "cpp/named req/FunctionObject") to elements from a [range](../iterator.html#Ranges "cpp/iterator")   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_for_each&action=edit)  
+(function template)   
 ---|---
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

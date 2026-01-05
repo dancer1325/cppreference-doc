@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Functions](functions.html "cpp/language/functions")
 
@@ -245,7 +245,7 @@ Overloading
 [Operator overloading](operators.html "cpp/language/operators")  
 [Address of an overload set](overloaded_address.html "cpp/language/overloaded address")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/functions/navbar_content&action=edit)
+
 
 Argument-dependent lookup (ADL), also known as Koenig lookup[[1]](adl.html#cite_note-1), is the set of rules for looking up the unqualified function names in [function-call expressions](operator_other.html "cpp/language/operator other"), including implicit function calls to [overloaded operators](operators.html "cpp/language/operators"). These function names are looked up in the namespaces of their arguments in addition to the scopes and namespaces considered by the usual [unqualified name lookup](lookup.html "cpp/language/lookup"). 
 
@@ -286,7 +286,7 @@ Run this code
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/adl&action=edit&section=1 "Edit section: Details")] Details
+### Details
 
 First, the argument-dependent lookup is not considered if the lookup set produced by usual [unqualified lookup](lookup.html "cpp/language/lookup") contains any of the following: 
 
@@ -347,7 +347,7 @@ The set of declarations found by ordinary [unqualified lookup](lookup.html "cpp/
 
 3) all names except for the functions and function templates are ignored (no collision with variables).
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/adl&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 Because of argument-dependent lookup, non-member functions and non-member operators defined in the same namespace as a class are considered part of the public interface of that class (if they are found through ADL) [[2]](adl.html#cite_note-2). 
 
@@ -426,7 +426,7 @@ In the following contexts ADL-only lookup (that is, lookup in associated namespa
 | (since C++17)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/adl&action=edit&section=3 "Edit section: Examples")] Examples
+### Examples
 
 | This section is incomplete  
 Reason: more examples   
@@ -466,7 +466,7 @@ Run this code
         }
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/adl&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -495,7 +495,7 @@ enclosing namespaces
 [CWG 2857](https://cplusplus.github.io/CWG/issues/2857.html) | C++98  | the associated classes of an incomplete  
 class type included its base classes  | not included   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/adl&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
   * [Name lookup](lookup.html "cpp/language/lookup")
   * [Template argument deduction](function_template.html "cpp/language/function template")
@@ -503,7 +503,7 @@ class type included its base classes  | not included
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/adl&action=edit&section=6 "Edit section: External links")] External links
+### External links
 
   1. [↑](adl.html#cite_ref-1) Andrew Koenig: ["A Personal Note About Argument-Dependent Lookup"](https://www.drdobbs.com/cpp/a-personal-note-about-argument-dependent/232901443)
   2. [↑](adl.html#cite_ref-2) H. Sutter (1998) ["What's In a Class? - The Interface Principle"](http://www.gotw.ca/publications/mill02.htm) in C++ Report, 10(3)

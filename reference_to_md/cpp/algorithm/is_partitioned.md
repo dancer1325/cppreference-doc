@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](ranges/copy.html "cpp/algorithm/ra
 [uninitialized_default_construct_n](../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -329,7 +329,7 @@ This overload participates in overload resolution only if all following conditio
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/is_partitioned&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  the pair of iterators defining the [range](../iterator.html#Ranges "cpp/iterator") of elements to examine   
 ---|---|---  
@@ -341,15 +341,15 @@ Type requirements
 -`ForwardIt` must meet the requirements of [LegacyForwardIterator](../named_req/ForwardIterator.html "cpp/named req/ForwardIterator"). and its value type must be convertible to `UnaryPred`'s parameter type.   
 -`UnaryPred` must meet the requirements of [Predicate](../named_req/Predicate.html "cpp/named req/Predicate").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/is_partitioned&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 true if the elements e of `[`first`, `last`)` are [partitioned](../algorithm.html#Requirements "cpp/algorithm") with respect to the expression p(e). false otherwise. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/is_partitioned&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 At most [std::distance](../iterator/distance.html)(first, last) applications of p. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/is_partitioned&action=edit&section=4 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 The overload with a template parameter named `ExecutionPolicy` reports errors as follows: 
 
@@ -358,7 +358,7 @@ The overload with a template parameter named `ExecutionPolicy` reports errors as
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/is_partitioned&action=edit&section=5 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     template<class InputIt, class UnaryPred>
@@ -375,7 +375,7 @@ The overload with a template parameter named `ExecutionPolicy` reports errors as
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/is_partitioned&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -405,12 +405,12 @@ Output:
     
     false true false true
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/is_partitioned&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ partition](partition.html "cpp/algorithm/partition") |  divides a range of elements into two groups   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_partition&action=edit)  
+(function template)   
 ---|---  
 [ partition_point](partition_point.html "cpp/algorithm/partition point")(C++11) |  locates the partition point of a partitioned range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_partition_point&action=edit)  
+(function template)   
 [ ranges::is_partitioned](ranges/is_partitioned.html "cpp/algorithm/ranges/is partitioned")(C++20) |  determines if the range is partitioned by the given predicate  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_is_partitioned&action=edit)
+(algorithm function object)

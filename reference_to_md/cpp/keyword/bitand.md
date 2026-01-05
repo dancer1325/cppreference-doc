@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](../language/history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [Keywords](../keywords.html "cpp/keyword")
 
@@ -340,15 +340,15 @@ Identifiers with special meaning
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/keyword/navbar_content&action=edit)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/keyword/bitand&action=edit&section=1 "Edit section: Usage")] Usage
+
+### Usage
 
   * [alternative operators](../language/operator_alternative.html "cpp/language/operator alternative"): as an alternative for `&`
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/keyword/bitand&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -381,7 +381,7 @@ Output:
     │ x bitand y │ 00011000 │
     └────────────┴──────────┘
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/keyword/bitand&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
   * [`and`](and.html "cpp/keyword/and"), [`and_eq`](and_eq.html "cpp/keyword/and eq")
   * [`bitor`](bitor.html "cpp/keyword/bitor")

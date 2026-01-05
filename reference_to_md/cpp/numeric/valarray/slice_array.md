@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [`std::valarray`](../valarray.html "cpp/numeric/valarray")
 
@@ -155,7 +155,7 @@
   
 [Deduction guides](deduction_guides.html "cpp/numeric/valarray/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/navbar_content&action=edit)
+
 
 **`std::slice_array`**
 
@@ -166,7 +166,7 @@ Member functions
 [slice_array::operator=](slice_array/operator=.html "cpp/numeric/valarray/slice array/operator=")  
 [slice_array::operator+=slice_array::operator-=slice_array::operator*=slice_array::operator/=slice_array::operator%=slice_array::operator&=slice_array::operator|=slice_array::operator^=slice_array::operator<<=slice_array::operator>>=](slice_array/operator_arith.html "cpp/numeric/valarray/slice array/operator arith")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/slice_array/navbar_content&action=edit)
+
 
 Defined in header `[<valarray>](../../header/valarray.html "cpp/header/valarray")` |  |   
 ---|---|---  
@@ -185,25 +185,25 @@ template< class T > class slice_array; |  |
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/slice_array&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Type  |  Definition   
 ---|---  
 `value_type` |  `T`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/slice_array&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](slice_array/slice_array.html "cpp/numeric/valarray/slice array/slice array") |  constructs a `slice_array`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/array/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ (destructor)](slice_array/~slice_array.html "cpp/numeric/valarray/slice array/~slice array") |  destroys a `slice_array`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/array/dsc_destructor&action=edit)  
+(public member function)   
 [ operator=](slice_array/operator=.html "cpp/numeric/valarray/slice array/operator=") |  assigns contents   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/array/dsc_operator%3D&action=edit)  
+(public member function)   
 [ operator+=operator-=operator*=operator/=operator%=operator&=operator|=operator^=operator<<=operator>>=](slice_array/operator_arith.html "cpp/numeric/valarray/slice array/operator arith") |  performs arithmetic operation on the array referred by slice.   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/array/dsc_operator_arith&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/slice_array&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -314,8 +314,8 @@ Output:
     0 1 0 │ 1 3 1 │ 0 0 0 │ 2 2 2 │ 0 0 0 │ 1 0 0 │ 0 2 0 │ 0 0 3 │ 4 5 6 │ 0 8 0 │
     0 0 1 │ 3 1 1 │ 0 0 0 │ 0 0 0 │ 3 3 3 │ 1 0 0 │ 0 2 0 │ 0 0 3 │ 0 0 0 │ 0 9 0 │
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/slice_array&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ gslice_array](gslice_array.html "cpp/numeric/valarray/gslice array") |  proxy to a subset of a valarray after applying a gslice   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_gslice_array&action=edit)  
+(class template)   
 ---|---

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 Defined in header `[<memory>](../header/memory.html "cpp/header/memory")` |  |   
 ---|---|---  
@@ -206,13 +206,13 @@ This function object provides owner-based (as opposed to value-based) hashing of
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/owner_hash&action=edit&section=1 "Edit section: Nested types")] Nested types
+### Nested types
 
 Nested type  |  Definition   
 ---|---  
 `is_transparent` |  [unspecified](../functional.html#Transparent_function_objects "cpp/utility/functional")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/owner_hash&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 ** operator()** |  calculates the hash of the shared-ownership pointer   
 (function)  
@@ -238,18 +238,18 @@ key  |  \-  |  shared-ownership pointer to be hashed
 
 A hash value that is identical for any [std::shared_ptr](shared_ptr.html "cpp/memory/shared ptr") or [std::weak_ptr](weak_ptr.html "cpp/memory/weak ptr") object sharing the same ownership. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/owner_hash&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../utility/feature_test.html "cpp/utility/feature test") macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_smart_ptr_owner_equality`](../experimental/feature_test.html#cpp_lib_smart_ptr_owner_equality "cpp/feature test") | [`202306L`](../compiler_support/26.html#cpp_lib_smart_ptr_owner_equality_202306L "cpp/compiler support/26") | (C++26) | Enabling the use of `std::shared_ptr` and `std::weak_ptr` as keys in [unordered associative containers](../container.html#Unordered_associative_containers "cpp/container")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/owner_hash&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ owner_hash](shared_ptr/owner_hash.html "cpp/memory/shared ptr/owner hash")(C++26) |  provides owner-based hashing of shared pointers   
-(public member function of `std::shared_ptr<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/dsc_owner_hash&action=edit)  
+(public member function of `std::shared_ptr<T>`)   
 ---|---  
 [ owner_hash](weak_ptr/owner_hash.html "cpp/memory/weak ptr/owner hash")(C++26) |  provides owner-based hashing of weak pointers   
-(public member function of `std::weak_ptr<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/weak_ptr/dsc_owner_hash&action=edit)
+(public member function of `std::weak_ptr<T>`) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 Defined in header `[<memory>](../header/memory.html "cpp/header/memory")` |  |   
 ---|---|---  
@@ -197,7 +197,7 @@ constexpr [std::allocator_arg_t](allocator_arg_t.html) allocator_arg {}; |  (2) 
 
 2) `std::allocator_arg` is an instance of ([1](allocator_arg.html#Version_1)) that can be passed to the constructors and member functions of such permitted types.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/allocator_arg&action=edit&section=1 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -205,8 +205,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 2510](https://cplusplus.github.io/LWG/issue2510) | C++11  | the default constructor was non-explicit, which could lead to ambiguity  | made explicit   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/allocator_arg&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ uses_allocator](uses_allocator.html "cpp/memory/uses allocator")(C++11) |  checks if the specified type supports uses-allocator construction   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_uses_allocator&action=edit)  
+(class template)   
 ---|---

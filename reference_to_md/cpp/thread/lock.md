@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 Defined in header `[<mutex>](../header/mutex.html "cpp/header/mutex")` |  |   
 ---|---|---  
@@ -196,22 +196,22 @@ The objects are locked by an unspecified series of calls to `lock`, `try_lock`, 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/lock&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 lock1, lock2, ... , lockn  |  \-  |  the [Lockable](../named_req/Lockable.html "cpp/named req/Lockable") objects to lock   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/lock&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/lock&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 [Boost provides a version of this function](https://www.boost.org/doc/libs/release/doc/html/thread/synchronization.html#thread.synchronization.lock_functions.lock_range) that takes a sequence of [Lockable](../named_req/Lockable.html "cpp/named req/Lockable") objects defined by a pair of iterators. 
 
 [`std::scoped_lock`](scoped_lock.html "cpp/thread/scoped lock") offers a [RAII](../language/raii.html "cpp/language/raii") wrapper for this function, and is generally preferred to a naked call to `std::lock`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/lock&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 The following example uses `std::lock` to lock pairs of mutexes without deadlock.
 
@@ -315,12 +315,12 @@ Possible output:
     Employee Christina has lunch partners: Bob, Alice 
     Employee Dave has lunch partners: Bob
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/lock&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ unique_lock](unique_lock.html "cpp/thread/unique lock")(C++11) |  implements movable mutex ownership wrapper   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_unique_lock&action=edit)  
+(class template)   
 ---|---  
 [ try_lock](try_lock.html "cpp/thread/try lock")(C++11) |  attempts to obtain ownership of mutexes via repeated calls to `try_lock`   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_try_lock&action=edit)  
+(function template)   
 [ scoped_lock](scoped_lock.html "cpp/thread/scoped lock")(C++17) |  deadlock-avoiding RAII wrapper for multiple mutexes   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_scoped_lock&action=edit)
+(class template) 

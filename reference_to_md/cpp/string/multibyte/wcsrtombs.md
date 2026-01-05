@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Null-terminated multibyte strings](../multibyte.html "cpp/string/multibyte")
 
@@ -100,7 +100,7 @@ MB_CUR_MAX](../multibyte.html#Macros "cpp/string/multibyte")
 [__STDC_UTF_16__  
 __STDC_UTF_32__](../multibyte.html#Macros "cpp/string/multibyte")(C++11)(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/navbar_content&action=edit)
+
 
 Defined in header `[<cwchar>](../../header/cwchar.html "cpp/header/cwchar")` |  |   
 ---|---|---  
@@ -130,7 +130,7 @@ Each character is converted as if by a call to [std::wcrtomb](wcrtomb.html "cpp/
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/multibyte/wcsrtombs&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 dst  |  \-  |  pointer to narrow character array where the multibyte characters will be stored   
 ---|---|---  
@@ -138,13 +138,13 @@ src  |  \-  |  pointer to pointer to the first element of a null-terminated wide
 len  |  \-  |  number of bytes available in the array pointed to by dst   
 ps  |  \-  |  pointer to the conversion state object   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/multibyte/wcsrtombs&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 On success, returns the number of bytes (including any shift sequences, but excluding the terminating '\0') written to the character array whose first element is pointed to by dst. If dst is a null pointer, returns the number of bytes that would have been written (again, excluding the terminating null character '\0'). 
 
 On conversion error (if invalid wide character was encountered), returns static_cast<[std::size_t](../../types/size_t.html)>(-1), stores [EILSEQ](../../error/errno_macros.html "cpp/error/errno macros") in [errno](../../error/errno.html "cpp/error/errno"), and leaves *ps in unspecified state. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/multibyte/wcsrtombs&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -179,13 +179,13 @@ Output:
     multibyte string: zß水𝄋
     Length, including '\0': 11
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/multibyte/wcsrtombs&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ wcrtomb](wcrtomb.html "cpp/string/multibyte/wcrtomb") |  converts a wide character to its multibyte representation, given state   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/dsc_wcrtomb&action=edit)  
+(function)   
 ---|---  
 [ mbsrtowcs](mbsrtowcs.html "cpp/string/multibyte/mbsrtowcs") |  converts a narrow multibyte character string to wide string, given state   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/dsc_mbsrtowcs&action=edit)  
+(function)   
 [ do_out](../../locale/codecvt/out.html "cpp/locale/codecvt/out")[virtual] |  converts a string from `InternT` to `ExternT`, such as when writing to file   
-(virtual protected member function of `std::codecvt<InternT,ExternT,StateT>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/codecvt/dsc_do_out&action=edit)  
+(virtual protected member function of `std::codecvt<InternT,ExternT,StateT>`)   
 [C documentation](../../../c/string/multibyte/wcsrtombs.html "c/string/multibyte/wcsrtombs") for wcsrtombs

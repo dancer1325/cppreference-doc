@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [C-style date and time utilities](../c.html "cpp/chrono/c")
 
@@ -128,7 +128,7 @@ Types
 [clock_t](clock_t.html "cpp/chrono/c/clock t")  
 [timespec](timespec.html "cpp/chrono/c/timespec")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/c/navbar_content&action=edit)
+
 
 Defined in header `[<ctime>](../../header/ctime.html "cpp/header/ctime")` |  |   
 ---|---|---  
@@ -148,20 +148,20 @@ Computes difference between two calendar times as [std::time_t](time_t.html "cpp
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/c/difftime&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 time_beg, time_end  |  \-  |  times to compare   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/c/difftime&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Difference between two times in seconds. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/c/difftime&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 On POSIX systems, [std::time_t](time_t.html "cpp/chrono/c/time t") is measured in seconds, and `difftime` is equivalent to arithmetic subtraction, but C and C++ allow fractional units for `time_t`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/c/difftime&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -188,9 +188,9 @@ Possible output:
     
     Wall time passed: 9 s.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/c/difftime&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ duration](../duration.html "cpp/chrono/duration")(C++11) |  a time interval   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_duration&action=edit)  
+(class template)   
 ---|---  
 [C documentation](../../../c/chrono/difftime.html "c/chrono/difftime") for difftime

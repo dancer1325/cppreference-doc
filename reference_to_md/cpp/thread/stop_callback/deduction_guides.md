@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::stop_callback`](../stop_callback.html "cpp/thread/stop callback")
 
@@ -183,7 +183,7 @@ Member functions
 [stop_callback::~stop_callback](~stop_callback.html "cpp/thread/stop callback/~stop callback")  
 **Deduction guides**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/stop_callback/navbar_content&action=edit)
+
 
 Defined in header `[<stop_token>](../../header/stop_token.html "cpp/header/stop token")` |  |   
 ---|---|---  
@@ -193,7 +193,7 @@ stop_callback( [std::stop_token](../stop_token.html), Callback ) -> stop_callbac
   
 One [deduction guide](../../language/ctad.html "cpp/language/class template argument deduction") is provided for [std::stop_callback](../stop_callback.html "cpp/thread/stop callback") to permit deduction from argument of invocable types. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/stop_callback/deduction_guides&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

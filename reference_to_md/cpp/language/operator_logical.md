@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Expressions](expressions.html "cpp/language/expressions")
 
@@ -289,7 +289,7 @@ Conversions
 [`dynamic_cast`](dynamic_cast.html "cpp/language/dynamic cast")  
 [`reinterpret_cast`](reinterpret_cast.html "cpp/language/reinterpret cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/expressions/navbar_content&action=edit)
+
 
 Returns the result of a boolean operation. 
 
@@ -320,7 +320,7 @@ inclusive OR  | a or b a || b | Yes  | bool T::operator||(const T2 &b) const; | 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_logical&action=edit&section=1 "Edit section: Explanation")] Explanation
+### Explanation
 
 The logic operator expressions have the form   
   
@@ -347,7 +347,7 @@ For the built-in logical OR operator, the result is true if either the first or 
 
 Note that [bitwise logic operators](operator_arithmetic.html "cpp/language/operator arithmetic") do not perform short-circuiting. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_logical&action=edit&section=2 "Edit section: Results")] Results
+### Results
 
 a | true | false  
 ---|---|---  
@@ -371,7 +371,7 @@ bool operator&&(bool, bool) |  |
 bool operator||(bool, bool) |  |   
 | |   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_logical&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -409,7 +409,7 @@ Output:
     > 1...
     >
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_logical&action=edit&section=4 "Edit section: Standard library")] Standard library
+### Standard library
 
 Because the short-circuiting properties of `operator&&` and `operator||` do not apply to overloads, and because types with boolean semantics are uncommon, only two standard library classes overload these operators: 
 
@@ -419,21 +419,21 @@ Because the short-circuiting properties of `operator&&` and `operator||` do not 
 [ operator&&operator||](../numeric/valarray/operator_arith3.html "cpp/numeric/valarray/operator arith3") |  applies binary operators to each element of two valarrays, or a valarray and a value   
 (function template)  
 [ operator!](../io/basic_ios/operator!.html "cpp/io/basic ios/operator!") |  checks if an error has occurred (synonym of [fail()](../io/basic_ios/fail.html "cpp/io/basic ios/fail"))   
-(public member function of `std::basic_ios<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ios/dsc_operator!&action=edit)  
+(public member function of `std::basic_ios<CharT,Traits>`)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_logical&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [Operator precedence](operator_precedence.html "cpp/language/operator precedence")
 
 [Operator overloading](operators.html "cpp/language/operators")
 
 [ logical_and](../utility/functional/logical_and.html "cpp/utility/functional/logical and") |  function object implementing x && y   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_logical_and&action=edit)  
+(class template)   
 ---|---  
 [ logical_or](../utility/functional/logical_or.html "cpp/utility/functional/logical or") |  function object implementing x || y   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_logical_or&action=edit)  
+(class template)   
 [ logical_not](../utility/functional/logical_not.html "cpp/utility/functional/logical not") |  function object implementing !x   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_logical_not&action=edit)  
+(class template)   
 Common operators   
 ---  
 [assignment](operator_assignment.html "cpp/language/operator assignment") | [increment  

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concepts library](../concepts.html "cpp/concepts")
 
@@ -73,7 +73,7 @@
 ---  
 [_boolean-testable_](boolean-testable.html "cpp/concepts/boolean-testable") ﻿(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/navbar_content&action=edit)
+
 
 Defined in header `[<concepts>](../header/concepts.html "cpp/header/concepts")` |  |   
 ---|---|---  
@@ -93,7 +93,7 @@ The concept `strict_weak_order<R, T, U>` specifies that the [`relation`](relatio
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/concepts/strict_weak_order&action=edit&section=1 "Edit section: Semantic requirements")] Semantic requirements
+### Semantic requirements
 
 A relation r is a strict weak ordering if 
 
@@ -105,11 +105,11 @@ A relation r is a strict weak ordering if
 
 Under these conditions, it can be shown that e is an equivalence relation, and r induces a strict total ordering on the equivalence classes determined by e. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/concepts/strict_weak_order&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 The distinction between [`relation`](relation.html "cpp/concepts/relation") and `strict_weak_order` is purely semantic. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/concepts/strict_weak_order&action=edit&section=3 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -131,7 +131,7 @@ The distinction between [`relation`](relation.html "cpp/concepts/relation") and 
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/concepts/strict_weak_order&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
   * [LessThanComparable](../named_req/LessThanComparable.html "cpp/named req/LessThanComparable")
 

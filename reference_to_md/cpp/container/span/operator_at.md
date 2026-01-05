@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -71,7 +71,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::span`](../span.html "cpp/container/span")
 
@@ -104,7 +104,7 @@ Tables
 [dynamic_extent](dynamic_extent.html "cpp/container/span/dynamic extent")  
 [Deduction guides](deduction_guides.html "cpp/container/span/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/span/navbar_content&action=edit)
+
 
 constexpr reference operator[]( size_type idx ) const; |  |  (since C++20)  
 ---|---|---  
@@ -132,20 +132,20 @@ If idx < size() is false:
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/span/operator_at&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 idx  |  \-  |  the index of the element to access   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/span/operator_at&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 data()[idx]
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/span/operator_at&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Throws nothing. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/span/operator_at&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -185,14 +185,14 @@ Output:
     1 2 3 4 5
     5 4 3 2 1
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/span/operator_at&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ at](at.html "cpp/container/span/at")(C++26) |  access specified element with bounds checking   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_at&action=edit)  
+(public member function)   
 ---|---  
 [ data](data.html "cpp/container/span/data") |  direct access to the underlying contiguous storage   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_data&action=edit)  
+(public member function)   
 [ size](size.html "cpp/container/span/size") |  returns the number of elements   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_size&action=edit)  
+(public member function)   
 [ as_bytesas_writable_bytes](as_bytes.html "cpp/container/span/as bytes")(C++20) |  converts a `span` into a view of its underlying bytes   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/span/dsc_as_bytes&action=edit)
+(function template) 

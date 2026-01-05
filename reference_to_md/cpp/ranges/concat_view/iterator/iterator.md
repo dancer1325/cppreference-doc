@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::concat_view`](../../concat_view.html "cpp/ranges/concat view")
 
@@ -262,7 +262,7 @@ operator-(concat_view::_iterator_)](operator_arith2.html "cpp/ranges/concat view
 [iter_move(concat_view::_iterator_)](iter_move.html "cpp/ranges/concat view/iterator/iter move")  
 [iter_swap(concat_view::_iterator_)](iter_swap.html "cpp/ranges/concat view/iterator/iter swap")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/concat_view/navbar_content&action=edit)
+
 
 /*iterator*/() = default; |  (1)  |  (since C++26)  
 ---|---|---  
@@ -292,14 +292,14 @@ Overload  | [Data members](../iterator.html#Data_members "cpp/ranges/concat view
   
 2) If it.`_[it_](../iterator.html#it "cpp/ranges/concat view/iterator")_` ﻿.valueless_by_exception() is true, the behavior is undefined.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/concat_view/iterator/iterator&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 it  |  \-  |  a mutable iterator   
 ---|---|---  
 parent  |  \-  |  a pointer to ranges::concat_view  
 args  |  \-  |  the arguments to initialize `_[it_](../iterator.html#it "cpp/ranges/concat view/iterator")_`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/concat_view/iterator/iterator&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

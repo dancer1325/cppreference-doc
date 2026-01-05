@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ named requirements](../iterator/concepts.html "cpp/named req")
 
@@ -147,7 +147,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/named_req/navbar_content&action=edit)
+
 
 A **LegacyBidirectionalIterator** is a [LegacyForwardIterator](ForwardIterator.html "cpp/named req/ForwardIterator") that can be moved in both directions (i.e. incremented and decremented). 
 
@@ -164,7 +164,7 @@ If a **LegacyBidirectionalIterator** it originates from a [Container](Container.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/BidirectionalIterator&action=edit&section=1 "Edit section: Requirements")] Requirements
+### Requirements
 
 The type `It` satisfies LegacyBidirectionalIterator if 
 
@@ -202,7 +202,7 @@ return temp; |
   
 A _mutable_ LegacyBidirectionalIterator is a LegacyBidirectionalIterator that additionally satisfies the [LegacyOutputIterator](OutputIterator.html "cpp/named req/OutputIterator") requirements. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/BidirectionalIterator&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 The begin iterator is not decrementable and the behavior is undefined if \--container.begin() is evaluated. 
 
@@ -225,7 +225,7 @@ where the exposition-only concept `__LegacyForwardIterator` is described in [Leg
 
 (since C++20)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/BidirectionalIterator&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -245,9 +245,9 @@ type to `reference`
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/BidirectionalIterator&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ bidirectional_iterator](../iterator/bidirectional_iterator.html "cpp/iterator/bidirectional iterator")(C++20) |  specifies that a [`forward_iterator`](../iterator/forward_iterator.html "cpp/iterator/forward iterator") is a bidirectional iterator, supporting movement backwards   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_bidirectional_iterator&action=edit)  
+(concept)   
 ---|---  
 [**Iterator library**](../iterator.html "cpp/iterator") |  provides definitions for iterators, iterator traits, adaptors, and utility functions 

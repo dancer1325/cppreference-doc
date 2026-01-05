@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::chunk_view`](../../chunk_view.html "cpp/ranges/chunk view")
 
@@ -299,7 +299,7 @@ operator-(chunk_view::_iterator_)](../iterator/operator_arith2.html "cpp/ranges/
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/chunk_view/navbar_content&action=edit)
+
 
 Defined in header `[<ranges>](../../../header/ranges.html "cpp/header/ranges")` |  |   
 ---|---|---  
@@ -325,14 +325,14 @@ A value type of the iterator [`chunk_view::_outer-iterator_`](../outer_iterator.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/chunk_view/outer_iterator/value_type&action=edit&section=1 "Edit section: Data members")] Data members
+### Data members
 
 Member object  |  Definition   
 ---|---  
 `_parent__` (private) |  A pointer to the "parent object" of type [ranges::chunk_view](../../chunk_view.html)*  
 (exposition-only member object*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/chunk_view/outer_iterator/value_type&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](value_type.html#ctor "cpp/ranges/chunk view/outer iterator/value type")(C++23) |  constructs an `value_type`   
 (public member function)  
@@ -347,13 +347,13 @@ Member object  |  Definition
 #####  Inherited from [std::ranges::view_interface](../../view_interface.html "cpp/ranges/view interface")  
   
 [ empty](../../view_interface/empty.html "cpp/ranges/view interface/empty") |  returns whether the derived view is empty, provided only if it satisfies [`sized_range`](../../sized_range.html "cpp/ranges/sized range") or [`forward_range`](../../forward_range.html "cpp/ranges/forward range")   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_empty&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ cbegin](../../view_interface/cbegin.html "cpp/ranges/view interface/cbegin")(C++23) |  returns a constant iterator to the beginning of the range   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_cbegin&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ cend](../../view_interface/cend.html "cpp/ranges/view interface/cend")(C++23) |  returns a sentinel for the constant iterator of the range   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_cend&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ operator bool](../../view_interface/operator_bool.html "cpp/ranges/view interface/operator bool") |  returns whether the derived view is not empty, provided only if [ranges::empty](../../empty.html "cpp/ranges/empty") is applicable to it   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_operator_bool&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
   
 ##  std::ranges::chunk_view::_outer-iterator_ ::value_type::value_type
 
@@ -399,13 +399,13 @@ Equivalent to
 return /*to-unsigned-like*/(  
 [ranges::min](../../../algorithm/ranges/min.html)(parent_->remainder_, [ranges::end](../../end.html)(parent_->base_) - *parent_->current_));
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/chunk_view/outer_iterator/value_type&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/chunk_view/outer_iterator/value_type&action=edit&section=5 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -417,7 +417,7 @@ Reason: example
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/chunk_view/outer_iterator/value_type&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [_outer_iterator_](../outer_iterator.html "cpp/ranges/chunk view/outer iterator")(C++23) |  the output ("chunk-wise") iterator type when V models [`input_range`](../../input_range.html "cpp/ranges/input range")  
 (exposition-only member class of `std::ranges::chunk_view<V>`*)  

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [Common mathematical functions](../math.html "cpp/numeric/math")
 
@@ -230,7 +230,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/navbar_content&action=edit)
+
 
 Defined in header `[<cstdlib>](../../header/cstdlib.html "cpp/header/cstdlib")` |  |   
 ---|---|---  
@@ -269,20 +269,20 @@ Overload (6) of `std::abs` for [std::intmax_t](../../types/integer.html "cpp/typ
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/abs&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 num  |  \-  |  integer value   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/abs&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The absolute value of num (i.e. `|num|`), if it is representable. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/abs&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 In [2's complement](../../language/types.html#Range_of_values "cpp/language/types") systems, the absolute value of the most-negative value is out of range, e.g. for 32-bit 2's complement type int, [INT_MIN](../../types/climits.html "cpp/types/climits") is -2147483648, but the would-be result 2147483648 is greater than [INT_MAX](../../types/climits.html "cpp/types/climits"), which is 2147483647. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/abs&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -306,7 +306,7 @@ Output:
     abs(+3) = +3
     abs(-3) = +3
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/abs&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -316,13 +316,13 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 inconsistently declared in two headers  | declared these overloads  
 in both headers   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/abs&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ abs(float)fabsfabsffabsl](fabs.html "cpp/numeric/math/fabs")(C++11)(C++11) |  absolute value of a floating point value (\\(\small{|x|}\\)|x|)   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_fabs&action=edit)  
+(function)   
 ---|---  
 [ abs(std::complex)](../complex/abs.html "cpp/numeric/complex/abs") |  returns the magnitude of a complex number   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_abs&action=edit)  
+(function template)   
 [ abs(std::valarray)](../valarray/abs.html "cpp/numeric/valarray/abs") |  applies the function abs to each element of valarray   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_abs&action=edit)  
+(function template)   
 [C documentation](../../../c/numeric/math/abs.html "c/numeric/math/abs") for abs, labs, llabs

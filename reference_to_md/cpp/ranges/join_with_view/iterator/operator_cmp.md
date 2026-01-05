@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::join_with_view`](../../join_with_view.html "cpp/ranges/join with view")
 
@@ -251,7 +251,7 @@ join_with_view::_iterator_ ::operator--(int)](operator_arith.html "cpp/ranges/jo
 [join_with_view::_sentinel_ ::_sentinel_](../sentinel/sentinel.html "cpp/ranges/join with view/sentinel/sentinel")  
 [operator==(join_with_view::_sentinel_)](../sentinel/operator_cmp.html "cpp/ranges/join with view/sentinel/operator cmp")(C++23)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/join_with_view/navbar_content&action=edit)
+
 
 friend constexpr bool operator==( const /*iterator*/& x, const /*iterator*/& y )  
 requires [std::is_reference_v](../../../types/is_reference.html)<InnerBase> &&  
@@ -266,17 +266,17 @@ This function is not visible to ordinary [unqualified](../../../language/unquali
 
 The `!=` operator is [synthesized](../../../language/default_comparisons.html#Other_defaulted_comparison_operators "cpp/language/default comparisons") from `operator==`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/join_with_view/iterator/operator_cmp&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 x, y  |  \-  |  iterators to compare   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/join_with_view/iterator/operator_cmp&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 x.`_[outer_it_](../iterator.html#outer_it "cpp/ranges/join with view/iterator")_`` `== y.`_[outer_it_](../iterator.html#outer_it "cpp/ranges/join with view/iterator")_`` `&& x.`_[inner_it_](../iterator.html#inner_it "cpp/ranges/join with view/iterator")_`` `== y.`_[inner_it_](../iterator.html#inner_it "cpp/ranges/join with view/iterator")_`
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/join_with_view/iterator/operator_cmp&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ operator==](../sentinel/operator_cmp.html "cpp/ranges/join with view/sentinel/operator cmp")(C++23) |  compares a sentinel with an iterator returned from [`join_with_view::begin`](../begin.html "cpp/ranges/join with view/begin")   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/sentinel/dsc_operator_cmp&action=edit)  
+(function)   
 ---|---

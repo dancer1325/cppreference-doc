@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 **`std::shared_timed_mutex`**
 
@@ -194,7 +194,7 @@ Shared locking
 [shared_timed_mutex::try_lock_shared_until](shared_timed_mutex/try_lock_shared_until.html "cpp/thread/shared timed mutex/try lock shared until")  
 [shared_timed_mutex::unlock_shared](shared_timed_mutex/unlock_shared.html "cpp/thread/shared timed mutex/unlock shared")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/shared_timed_mutex/navbar_content&action=edit)
+
 
 Defined in header `[<shared_mutex>](../header/shared_mutex.html "cpp/header/shared mutex")` |  |   
 ---|---|---  
@@ -227,53 +227,53 @@ The `shared_timed_mutex` class satisfies all requirements of [SharedTimedMutex](
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/shared_timed_mutex&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](shared_timed_mutex/shared_timed_mutex.html "cpp/thread/shared timed mutex/shared timed mutex") |  constructs the mutex   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/mutex/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ (destructor)](shared_timed_mutex/~shared_timed_mutex.html "cpp/thread/shared timed mutex/~shared timed mutex") |  destroys the mutex   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/mutex/dsc_destructor&action=edit)  
+(public member function)   
 operator=[deleted] |  not copy-assignable   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/mutex/dsc_operator%3D&action=edit)  
+(public member function)   
   
 #####  Exclusive locking   
   
 [ lock](shared_timed_mutex/lock.html "cpp/thread/shared timed mutex/lock") |  locks the mutex, blocks if the mutex is not available   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/mutex/dsc_lock&action=edit)  
+(public member function)   
 [ try_lock](shared_timed_mutex/try_lock.html "cpp/thread/shared timed mutex/try lock") |  tries to lock the mutex, returns if the mutex is not available   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/mutex/dsc_try_lock&action=edit)  
+(public member function)   
 [ try_lock_for](shared_timed_mutex/try_lock_for.html "cpp/thread/shared timed mutex/try lock for") |  tries to lock the mutex, returns if the mutex has been  
 unavailable for the specified timeout duration   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/mutex/dsc_try_lock_for&action=edit)  
+(public member function)   
 [ try_lock_until](shared_timed_mutex/try_lock_until.html "cpp/thread/shared timed mutex/try lock until") |  tries to lock the mutex, returns if the mutex has been  
 unavailable until specified time point has been reached   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/mutex/dsc_try_lock_until&action=edit)  
+(public member function)   
 [ unlock](shared_timed_mutex/unlock.html "cpp/thread/shared timed mutex/unlock") |  unlocks the mutex   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/mutex/dsc_unlock&action=edit)  
+(public member function)   
   
 #####  Shared locking   
   
 [ lock_shared](shared_timed_mutex/lock_shared.html "cpp/thread/shared timed mutex/lock shared") |  locks the mutex for shared ownership, blocks if the mutex is not available   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/mutex/dsc_lock_shared&action=edit)  
+(public member function)   
 [ try_lock_shared](shared_timed_mutex/try_lock_shared.html "cpp/thread/shared timed mutex/try lock shared") |  tries to lock the mutex for shared ownership, returns if the mutex is not available   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/mutex/dsc_try_lock_shared&action=edit)  
+(public member function)   
 [ try_lock_shared_for](shared_timed_mutex/try_lock_shared_for.html "cpp/thread/shared timed mutex/try lock shared for") |  tries to lock the mutex for shared ownership, returns if the mutex has been  
 unavailable for the specified timeout duration   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/mutex/dsc_try_lock_shared_for&action=edit)  
+(public member function)   
 [ try_lock_shared_until](shared_timed_mutex/try_lock_shared_until.html "cpp/thread/shared timed mutex/try lock shared until") |  tries to lock the mutex for shared ownership, returns if the mutex has been  
 unavailable until specified time point has been reached   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/mutex/dsc_try_lock_shared_until&action=edit)  
+(public member function)   
 [ unlock_shared](shared_timed_mutex/unlock_shared.html "cpp/thread/shared timed mutex/unlock shared") |  unlocks the mutex (shared ownership)   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/mutex/dsc_unlock_shared&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/shared_timed_mutex&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../utility/feature_test.html "cpp/utility/feature test") macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_shared_timed_mutex`](../experimental/feature_test.html#cpp_lib_shared_timed_mutex "cpp/feature test") | [`201402L`](../compiler_support/14.html#cpp_lib_shared_timed_mutex_201402L "cpp/compiler support/14") | (C++14) | `std::shared_timed_mutex`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/shared_timed_mutex&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: build a motivating example   

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](ranges/copy.html "cpp/algorithm/ra
 [uninitialized_default_construct_n](../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -340,7 +340,7 @@ If any of the following conditions is satisfied, the behavior is undefined:
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/rotate_copy&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  the pair of iterators defining the source [range](../iterator.html#Ranges "cpp/iterator") of elements to copy   
 ---|---|---  
@@ -351,15 +351,15 @@ Type requirements
 -`ForwardIt, ForwardIt1, ForwardIt2` must meet the requirements of [LegacyForwardIterator](../named_req/ForwardIterator.html "cpp/named req/ForwardIterator").   
 -`OutputIt` must meet the requirements of [LegacyOutputIterator](../named_req/OutputIterator.html "cpp/named req/OutputIterator").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/rotate_copy&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Output iterator to the element past the last element copied. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/rotate_copy&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Exactly [std::distance](../iterator/distance.html)(first, last) assignments. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/rotate_copy&action=edit&section=4 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 The overload with a template parameter named `ExecutionPolicy` reports errors as follows: 
 
@@ -368,7 +368,7 @@ The overload with a template parameter named `ExecutionPolicy` reports errors as
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/rotate_copy&action=edit&section=5 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
 
 See also the implementations in [libstdc++](https://github.com/gcc-mirror/gcc/blob/14d8a5ae472ca5743016f37da2dd4770d83dea21/libstdc%2B%2B-v3/include/bits/stl_algo.h#L1440-L1455), [libc++](https://github.com/llvm/llvm-project/tree/f221d905b131158cbe3cbc4320d1ecd1376c3f22/libcxx/include/__algorithm/rotate_copy.h), and [MSVC STL](https://github.com/microsoft/STL/blob/472161105d596192194d4715ccad307c6c163b4a/stl/inc/algorithm#L4438-L4459). 
     
@@ -384,7 +384,7 @@ See also the implementations in [libstdc++](https://github.com/gcc-mirror/gcc/bl
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/rotate_copy&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -418,10 +418,10 @@ Output:
     3 4 5 1 2
     1 2 3 4 5
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/rotate_copy&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ rotate](rotate.html "cpp/algorithm/rotate") |  rotates the order of elements in a range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_rotate&action=edit)  
+(function template)   
 ---|---  
 [ ranges::rotate_copy](ranges/rotate_copy.html "cpp/algorithm/ranges/rotate copy")(C++20) |  copies and rotate a range of elements  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_rotate_copy&action=edit)
+(algorithm function object)

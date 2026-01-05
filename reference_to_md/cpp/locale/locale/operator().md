@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Localization library](../../locale.html "cpp/locale")
 
@@ -152,7 +152,7 @@ base classes](../../locale.html#Facet_category_base_classes "cpp/locale")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/navbar_content&action=edit)
+
 
 [`std::locale`](../locale.html "cpp/locale/locale")
 
@@ -173,7 +173,7 @@ Static member functions
 [locale::global](global.html "cpp/locale/locale/global")  
 [locale::classic](classic.html "cpp/locale/locale/classic")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/locale/navbar_content&action=edit)
+
 
 template< class CharT, class Traits, class Alloc >  
 bool operator()( const [std::basic_string](../../string/basic_string.html)<CharT,Traits,Alloc>& s1,  
@@ -194,17 +194,17 @@ Compares two string arguments s1 and s2 according to the lexicographic compariso
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/locale/operator\(\)&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 s1  |  \-  |  the first string to compare   
 ---|---|---  
 s2  |  \-  |  the second string to compare   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/locale/operator\(\)&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 true if s1 is lexicographically less than s2, false otherwise. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/locale/operator\(\)&action=edit&section=3 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     template<class CharT, class Traits, class Alloc>
@@ -218,7 +218,7 @@ true if s1 is lexicographically less than s2, false otherwise.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/locale/operator\(\)&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 A [vector](../../container/vector.html "cpp/container/vector") of [string](../../string/basic_string.html "cpp/string/basic string")s can be sorted according to a non-default locale by using the locale object as comparator:
 
@@ -240,8 +240,8 @@ Run this code
         [assert](../../error/assert.html)(v[2] == L"пёс");
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/locale/operator\(\)&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ collate](../collate.html "cpp/locale/collate") |  defines lexicographical comparison and hashing of strings   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_collate&action=edit)  
+(class template)   
 ---|---

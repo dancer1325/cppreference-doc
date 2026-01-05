@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Diagnostics library](../../error.html "cpp/error")
 
@@ -89,7 +89,7 @@ Exception handling failures
 [breakpoint_if_debugging](../breakpoint_if_debugging.html "cpp/utility/breakpoint if debugging")(C++26)  
 [breakpoint](../breakpoint.html "cpp/utility/breakpoint")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/navbar_content&action=edit)
+
 
 [`std::basic_stacktrace`](../basic_stacktrace.html "cpp/utility/basic stacktrace")
 
@@ -124,7 +124,7 @@ operator<=>](operator_cmp.html "cpp/utility/basic stacktrace/operator cmp")
 [hash<std::basic_stacktrace>](hash.html "cpp/utility/basic stacktrace/hash")  
 [formatter<std::basic_stacktrace>](formatter.html "cpp/utility/basic stacktrace/formatter")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/basic_stacktrace/navbar_content&action=edit)
+
 
 allocator_type get_allocator() const noexcept; |  |  (since C++23)  
 ---|---|---  
@@ -132,14 +132,14 @@ allocator_type get_allocator() const noexcept; |  |  (since C++23)
   
 Returns the allocator associated with the `basic_stacktrace`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/basic_stacktrace/get_allocator&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/basic_stacktrace/get_allocator&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The associated allocator. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/basic_stacktrace/get_allocator&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Constant. 

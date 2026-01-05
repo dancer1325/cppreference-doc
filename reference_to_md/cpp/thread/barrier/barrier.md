@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::barrier`](../barrier.html "cpp/thread/barrier")
 
@@ -188,7 +188,7 @@ Member functions
 Constants  
 [barrier::max](max.html "cpp/thread/barrier/max")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/barrier/navbar_content&action=edit)
+
 
 constexpr explicit barrier( [std::ptrdiff_t](../../types/ptrdiff_t.html) expected,  
 CompletionFunction f = CompletionFunction()); |  (1)  |  (since C++20)  
@@ -200,16 +200,16 @@ barrier( const barrier& ) = delete; |  (2)  |  (since C++20)
 
 2) Copy constructor is deleted. `barrier` is neither copyable nor movable.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/barrier/barrier&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 expected  |  \-  |  initial value of the expected count   
 ---|---|---  
 f  |  \-  |  completion function object to be called on phase completion step   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/barrier/barrier&action=edit&section=2 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 1) Any exception thrown by `CompletionFunction`'s move constructor.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/barrier/barrier&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 expected is permitted to be zero. However, calling any non-static member function other than the destructor on such `barrier` results in undefined behavior. In other words, such `barrier` can only be destroyed. 

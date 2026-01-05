@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::source_location`](../source_location.html "cpp/utility/source location")
 
@@ -143,7 +143,7 @@ Field access
 [source_location::file_name](file_name.html "cpp/utility/source location/file name")  
 [source_location::function_name](function_name.html "cpp/utility/source location/function name")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/source_location/navbar_content&action=edit)
+
 
 static consteval source_location current() noexcept; |  |  (since C++20)  
 ---|---|---  
@@ -162,11 +162,11 @@ Constructs a new `source_location` object corresponding to the location of the c
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/source_location/current&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/source_location/current&action=edit&section=2 "Edit section: Return value")] Return value 
+### Return value 
 
 If `current()` is invoked directly (via a function call that names `current()`), it returns a `source_location` object with implementation-defined values representing the location of the call. The values should be affected by the [`#line` preprocessor directive](../../preprocessor/line.html "cpp/preprocessor/line") in the same manner as the predefined macros __LINE__ and __FILE__. 
 
@@ -176,11 +176,11 @@ If `current()` is used in a default argument, the return value corresponds to th
 
 If `current()` is invoked in any other manner, the return value is unspecified. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/source_location/current&action=edit&section=3 "Edit section: Notes")] Notes 
+### Notes 
 
 `std::source_location::current` typically requires compiler's built-in implementation. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/source_location/current&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -244,10 +244,10 @@ Possible output:
     36 int main()
     25 std::source_location src_make()
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/source_location/current&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ (constructor)](source_location.html "cpp/utility/source location/source location") |  constructs a new `source_location` with implementation-defined values   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/source_location/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ current](../basic_stacktrace/current.html "cpp/utility/basic stacktrace/current")[static] |  obtains the current stacktrace or its given part   
-(public static member function of `std::basic_stacktrace<Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/basic_stacktrace/dsc_current&action=edit)
+(public static member function of `std::basic_stacktrace<Allocator>`) 

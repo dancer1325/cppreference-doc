@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Filesystem library](../fs.html "cpp/experimental/fs")
 
@@ -124,7 +124,7 @@ File types
 [filesystem::is_socket](is_socket.html "cpp/experimental/fs/is socket")  
 [filesystem::is_symlink](is_symlink.html "cpp/experimental/fs/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/navbar_content&action=edit)
+
 
 Defined in header `[<experimental/filesystem>](../../header/experimental/filesystem.html "cpp/header/experimental/filesystem")` |  |   
 ---|---|---  
@@ -158,18 +158,18 @@ path system_complete( const path& p, error_code& ec ); |  (2)  |  (filesystem TS
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/absolute&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 p  |  \-  |  path to convert to absolute form   
 ---|---|---  
 base  |  \-  |  path (not necessarily absolute) to serve as the starting location   
 ec  |  \-  |  out-parameter for error reporting in the non-throwing overload   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/absolute&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Returns an absolute (although not necessarily canonical) path formed by combining p and base as described above. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/absolute&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 The overload that does not take an error_code& parameter throws [filesystem_error](filesystem_error.html "cpp/experimental/fs/filesystem error") on underlying OS API errors, constructed with p as the first argument, base as the second argument, and the OS error code as the error code argument. [std::bad_alloc](../../memory/new/bad_alloc.html) may be thrown if memory allocation fails. The overload taking an error_code& parameter sets it to the OS API error code if an OS API call fails, and executes ec.clear() if no errors occur. This overload has 
 
@@ -177,11 +177,11 @@ The overload that does not take an error_code& parameter throws [filesystem_erro
 
 noexcept
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/absolute&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 On systems that support root names (e.g. Windows), the result of calling `absolute` on a relative path that has a root name (e.g. "D:file.txt" when the root name of base is different will usually result in a non-existent path. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/absolute&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -206,8 +206,8 @@ Possible output:
     Absolute path for "C:cl.exe" is "C:/local/ConsoleApplication1/cl.exe"
     System complete path for "C:cl.exe" is "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\cl.exe"
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/absolute&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ canonical](canonical.html "cpp/experimental/fs/canonical") |  composes a canonical path   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_canonical&action=edit)  
+(function)   
 ---|---

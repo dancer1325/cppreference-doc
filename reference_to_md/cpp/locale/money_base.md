@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Localization library](../locale.html "cpp/locale")
 
@@ -152,7 +152,7 @@ base classes](../locale.html#Facet_category_base_classes "cpp/locale")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/navbar_content&action=edit)
+
 
 Defined in header `[<locale>](../header/locale.html "cpp/header/locale")` |  |   
 ---|---|---  
@@ -161,7 +161,7 @@ class money_base; |  |
   
 The class **std::money_base** provides constants which are inherited and used by the [std::moneypunct](moneypunct.html "cpp/locale/moneypunct"), [std::money_get](money_get.html "cpp/locale/money get") and [std::money_put](money_put.html "cpp/locale/money put") facets. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/money_base&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Type  |  Definition   
 ---|---  
@@ -175,18 +175,18 @@ Enumeration constant  |  Definition
 `sign` |  the first of the characters returned by moneypunct::positive_sign or moneypunct::negative_sign is required   
 `value` |  the absolute numeric monetary value is required   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/money_base&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 The monetary format is an array of four chars convertible to `std::money_base::part`. In that sequence, each of symbol, sign, and value appears exactly once, and either space or none appears in the remaining position. The value none, if present, is not first; the value space, if present, is neither first nor last. 
 
 The default format, returned by the standard specializations of [std::moneypunct](moneypunct.html "cpp/locale/moneypunct") is {symbol, sign, none, value}. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/money_base&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ moneypunct](moneypunct.html "cpp/locale/moneypunct") |  defines monetary formatting parameters used by [std::money_get](money_get.html "cpp/locale/money get") and [std::money_put](money_put.html "cpp/locale/money put")   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_moneypunct&action=edit)  
+(class template)   
 ---|---  
 [ money_get](money_get.html "cpp/locale/money get") |  parses and constructs a monetary value from an input character sequence   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_money_get&action=edit)  
+(class template)   
 [ money_put](money_put.html "cpp/locale/money put") |  formats a monetary value for output as a character sequence   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_money_put&action=edit)
+(class template) 

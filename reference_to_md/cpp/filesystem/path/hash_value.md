@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Filesystem library](../../filesystem.html "cpp/filesystem")
 
@@ -100,7 +100,7 @@ filesystem::symlink_status](../status.html "cpp/filesystem/status")
 [filesystem::is_socket](../is_socket.html "cpp/filesystem/is socket")  
 [filesystem::is_symlink](../is_symlink.html "cpp/filesystem/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/navbar_content&action=edit)
+
 
 [`std::filesystem::path`](../path.html "cpp/filesystem/path")
 
@@ -169,7 +169,7 @@ filesystem::symlink_status](../status.html "cpp/filesystem/status")
 | [formatter<std::filesystem::path>](formatter.html "cpp/filesystem/path/formatter")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/path/navbar_content&action=edit)
+
 
 Defined in header `[<filesystem>](../../header/filesystem.html "cpp/header/filesystem")` |  |   
 ---|---|---  
@@ -187,24 +187,24 @@ Defined in header `[<filesystem>](../../header/filesystem.html "cpp/header/files
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/hash_value&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 p  |  \-  |  a [std::filesystem::path](../path.html "cpp/filesystem/path") object   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/hash_value&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 A hash value such that if for two paths, p1 == p2 then hash_value(p1) == hash_value(p2). 
 
 The return value is consistent with [`std::hash`](hash.html "cpp/filesystem/path/hash"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/hash_value&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Equality of two paths is determined by comparing each component separately, so, for example "a//b" equals "a/b" and has the same `hash_value`. 
 
 `hash_value` originates from the [Boost.filesystem](https://www.boost.org/doc/libs/release/libs/filesystem/doc/index.htm) library where it was used for interoperability with boost.hash (which calls `hash_value` found by [argument-dependent lookup](../../language/adl.html "cpp/language/adl") or [`boost::hash_value`](https://www.boost.org/doc/libs/1_76_0/doc/html/hash/reference.html#id-1_3_11_11_2_2_27-bb) where available). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/hash_value&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -264,16 +264,16 @@ Possible output:
                    0 : ""
     "/tmp/../tmp" "/opt" "/lib" "/tmp" "/bin"
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/hash_value&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ compare](compare.html "cpp/filesystem/path/compare") |  compares the lexical representations of two paths lexicographically   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/path/dsc_compare&action=edit)  
+(public member function)   
 ---|---  
 [ operator==operator!=operator<operator<=operator>operator>=operator<=>](operator_cmp.html "cpp/filesystem/path/operator cmp")(C++17)(C++17)(until C++20)(C++17)(until C++20)(C++17)(until C++20)(C++17)(until C++20)(C++17)(until C++20)(C++20) |  lexicographically compares two paths   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/path/dsc_operator_cmp&action=edit)  
+(function)   
 [ equivalent](../equivalent.html "cpp/filesystem/equivalent")(C++17) |  checks whether two paths refer to the same file system object   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_equivalent&action=edit)  
+(function)   
 [ hash](../../utility/hash.html "cpp/utility/hash")(C++11) |  hash function object   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_hash&action=edit)  
+(class template)   
 [ std::hash<std::filesystem::path>](hash.html "cpp/filesystem/path/hash")(C++17) |  hash support for [`std::filesystem::path`](../path.html "cpp/filesystem/path")   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/path/dsc_hash&action=edit)
+(class template specialization) 

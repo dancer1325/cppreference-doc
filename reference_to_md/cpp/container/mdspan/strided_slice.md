@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -71,7 +71,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::mdspan`](../mdspan.html "cpp/container/mdspan")
 
@@ -120,7 +120,7 @@ Tables
 [submdspan_mapping_result](submdspan_mapping_result.html "cpp/container/mdspan/submdspan mapping result")(C++26)  
 [Deduction guides](deduction_guides.html "cpp/container/mdspan/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/navbar_content&action=edit)
+
 
 Defined in header `[<mdspan>](../../header/mdspan.html "cpp/header/mdspan")` |  |   
 ---|---|---  
@@ -148,7 +148,7 @@ This class template has no base classes or declared members other than those sho
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/strided_slice&action=edit&section=1 "Edit section: Template parameters")] Template parameters
+### Template parameters
 
 OffsetType  |  \-  |  the type of offset   
 ---|---|---  
@@ -159,7 +159,7 @@ Type requirements
   
 The program is ill-formed if the type requirement is not satisfied. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/strided_slice&action=edit&section=2 "Edit section: Member types")] Member types
+### Member types
 
 Member type  |  Definition   
 ---|---  
@@ -167,7 +167,7 @@ Member type  |  Definition
 `extent_type` |  `ExtentType`  
 `stride_type` |  `StrideType`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/strided_slice&action=edit&section=3 "Edit section: Data members")] Data members
+### Data members
 
 Member name  |  Definition   
 ---|---  
@@ -180,13 +180,13 @@ stride |  an increment value of type `stride_type` which is equivalent to the di
   
 All these members are declared with `[[[no_unique_address](../../language/attributes/no_unique_address.html "cpp/language/attributes/no unique address")]]` attribute and have default member initializers where each data member is value initialized. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/strided_slice&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 Every specialization of `strided_slice` is an aggregate class which allows [aggregate initialization](../../language/aggregate_initialization.html "cpp/language/aggregate initialization") (including designated initialization) of data members (for instance, std::strided_slice{.offset = 2, .extent = 10, .stride = 3}). 
 
 The slice specification of `strided_slice` takes advantage of the data member extent, as opposed to other slice specifications that use end to indicate the upper bound value. This is because it can directly generate a static extent for subview of std::mdspan if both extent and stride are of types that satisfy [`_integral-constant-like_`](../../header/span.html#Concept_integral-constant-like "cpp/header/span"). This enables efficient extraction of subviews with static extents by mixing compile time values with a runtime value of `offset`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/strided_slice&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -254,10 +254,10 @@ Output:
     [A, F, K] extracted from indices [0, 5, 10]
     [G, L, Q] extracted from indices [6, 11, 16]
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/strided_slice&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ slice](../../numeric/valarray/slice.html "cpp/numeric/valarray/slice") |  BLAS-like slice of a valarray: starting index, length, stride   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_slice&action=edit)  
+(class)   
 ---|---  
 [ submdspan](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/submdspan&action=edit&redlink=1 "cpp/container/mdspan/submdspan \(page does not exist\)")(C++26) |  returns a view of a subset of an existing `mdspan`   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/dsc_submdspan&action=edit)
+(function template) 

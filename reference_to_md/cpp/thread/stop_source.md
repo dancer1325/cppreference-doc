@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 **`std::stop_source`**
 
@@ -195,7 +195,7 @@ Non-member functions
 Helper tags  
 [std::nostopstatestd::nostopstate_t](stop_source/nostopstate_t.html "cpp/thread/stop source/nostopstate")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/stop_source/navbar_content&action=edit)
+
 
 Defined in header `[<stop_token>](../header/stop_token.html "cpp/header/stop token")` |  |   
 ---|---|---  
@@ -219,47 +219,47 @@ Once a stop is requested, it cannot be withdrawn. Additional stop requests have 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/stop_source&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](stop_source/stop_source.html "cpp/thread/stop source/stop source") |  constructs new `stop_source` object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/stop_source/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ (destructor)](stop_source/~stop_source.html "cpp/thread/stop source/~stop source") |  destructs the `stop_source` object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/stop_source/dsc_destructor&action=edit)  
+(public member function)   
 [ operator=](stop_source/operator=.html "cpp/thread/stop source/operator=") |  assigns the `stop_source` object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/stop_source/dsc_operator%3D&action=edit)  
+(public member function)   
   
 #####  Modifiers   
   
 [ request_stop](stop_source/request_stop.html "cpp/thread/stop source/request stop") |  makes a stop request for the associated stop-state, if any   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/stop_source/dsc_request_stop&action=edit)  
+(public member function)   
 [ swap](stop_source/swap.html "cpp/thread/stop source/swap") |  swaps two `stop_source` objects   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/stop_source/dsc_swap&action=edit)  
+(public member function)   
   
 #####  Observers   
   
 [ get_token](stop_source/get_token.html "cpp/thread/stop source/get token") |  returns a `stop_token` for the associated stop-state   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/stop_source/dsc_get_token&action=edit)  
+(public member function)   
 [ stop_requested](stop_source/stop_requested.html "cpp/thread/stop source/stop requested") |  checks whether the associated stop-state has been requested to stop   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/stop_source/dsc_stop_requested&action=edit)  
+(public member function)   
 [ stop_possible](stop_source/stop_possible.html "cpp/thread/stop source/stop possible") |  checks whether associated stop-state can be requested to stop   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/stop_source/dsc_stop_possible&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/stop_source&action=edit&section=2 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ operator==](stop_source/operator_cmp.html "cpp/thread/stop source/operator cmp")(C++20) |  compares two `std::stop_source` objects   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/stop_source/dsc_operator_cmp&action=edit)  
+(function)   
 ---|---  
 [ swap(std::stop_source)](stop_source/swap2.html "cpp/thread/stop source/swap2")(C++20) |  specializes the [std::swap](../utility/swap.html "cpp/algorithm/swap") algorithm   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/stop_source/dsc_swap2&action=edit)  
+(function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/stop_source&action=edit&section=3 "Edit section: Helper tags")] Helper tags
+### Helper tags
 
 [ nostopstatenostopstate_t](stop_source/nostopstate_t.html "cpp/thread/stop source/nostopstate")(C++20) |  a tag used for `stop_source` to indicate no associated stop-state upon construction  
-(tag)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/stop_source/dsc_nostopstate&action=edit)  
+(tag)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/stop_source&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 For the purposes of [std::jthread](jthread.html "cpp/thread/jthread") cancellation the `stop_source` object should be retrieved from the [std::jthread](jthread.html "cpp/thread/jthread") object using [`get_stop_source()`](jthread/get_stop_source.html "cpp/thread/jthread/get stop source"); or stop should be requested directly from the [std::jthread](jthread.html "cpp/thread/jthread") object using [`request_stop()`](jthread/request_stop.html "cpp/thread/jthread/request stop"). This will then use the same associated stop-state as that passed into the [std::jthread](jthread.html "cpp/thread/jthread")'s invoked function argument (i.e., the function being executed on its thread). 
 
@@ -269,7 +269,7 @@ For other uses, however, a `stop_source` can be constructed separately using the
 ---|---|---|---  
 [`__cpp_lib_jthread`](../experimental/feature_test.html#cpp_lib_jthread "cpp/feature test") | [`201911L`](../compiler_support/20.html#cpp_lib_jthread_201911L "cpp/compiler support/20") | (C++20) | [Stop token](stop_token.html "cpp/thread/stop token") and [joining thread](jthread.html "cpp/thread/jthread")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/stop_source&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     

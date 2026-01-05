@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Localization library](../locale.html "cpp/locale")
 
@@ -152,7 +152,7 @@ base classes](../locale.html#Facet_category_base_classes "cpp/locale")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/navbar_content&action=edit)
+
 
 **`std::money_put`**
 
@@ -162,7 +162,7 @@ Member functions
 [money_put::~money_put](money_put/~money_put.html "cpp/locale/money put/~money put")  
 [money_put::putmoney_put::do_put](money_put/put.html "cpp/locale/money put/put")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/money_put/navbar_content&action=edit)
+
 
 Defined in header `[<locale>](../header/locale.html "cpp/header/locale")` |  |   
 ---|---|---  
@@ -194,7 +194,7 @@ If a `std::money_put` specialization is not guaranteed to be provided by the sta
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/money_put&action=edit&section=1 "Edit section: Specializations")] Specializations
+### Specializations
 
 The standard library is guaranteed to provide the following specializations (they are [required to be implemented by any locale object](locale.html "cpp/locale/locale")): 
 
@@ -213,7 +213,7 @@ In addition, the standard library is also guaranteed to provide every specializa
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/money_put&action=edit&section=2 "Edit section: Nested types")] Nested types
+### Nested types
 
 Type  |  Definition   
 ---|---  
@@ -221,13 +221,13 @@ Type  |  Definition
 `string_type` |  [std::basic_string](../string/basic_string.html)<CharT>  
 `iter_type` |  `OutputIt`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/facet_data_members&action=edit&section=T-1 "Template:cpp/locale/facet data members")] Data members
+### Data members
 
 Member  |  Description   
 ---|---  
 [std::locale::id](locale/id.html "cpp/locale/locale/id") `id` [static] |  the identifier of the [facet](locale/facet.html#Facet_class "cpp/locale/locale/facet")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/money_put&action=edit&section=3 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](money_put/money_put.html "cpp/locale/money put/money put") |  constructs a new `money_put` facet   
 (public member function)  
@@ -235,15 +235,15 @@ Member  |  Description
 [ put](money_put/put.html "cpp/locale/money put/put") |  invokes `do_put`   
 (public member function)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/money_put&action=edit&section=4 "Edit section: Protected member functions")] Protected member functions
+### Protected member functions
 
 [ (destructor)](money_put/~money_put.html "cpp/locale/money put/~money put") |  destructs a `money_put` facet   
 (protected member function)  
 ---|---  
 [ do_put](money_put/put.html "cpp/locale/money put/put")[virtual] |  formats a monetary value and writes to output stream   
-(virtual protected member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/money_put/dsc_do_put&action=edit)  
+(virtual protected member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/money_put&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -274,7 +274,7 @@ Output:
     American locale: $123,456.79
     German locale: 123.456,79 €
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/money_put&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -289,12 +289,12 @@ defined character types
 guaranteed to be accepted by `money_put` | can guarantee to accept implementation-  
 defined character container types   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/money_put&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ moneypunct](moneypunct.html "cpp/locale/moneypunct") |  defines monetary formatting parameters used by [std::money_get](money_get.html "cpp/locale/money get") and **std::money_put**   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_moneypunct&action=edit)  
+(class template)   
 ---|---  
 [ money_get](money_get.html "cpp/locale/money get") |  parses and constructs a monetary value from an input character sequence   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_money_get&action=edit)  
+(class template)   
 [ put_money](../io/manip/put_money.html "cpp/io/manip/put money")(C++11) |  formats and outputs a monetary value   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_put_money&action=edit)
+(function template) 

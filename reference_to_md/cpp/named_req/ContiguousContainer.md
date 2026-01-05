@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ named requirements](../iterator/concepts.html "cpp/named req")
 
@@ -147,11 +147,11 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/named_req/navbar_content&action=edit)
+
 
 A **ContiguousContainer** is a [Container](Container.html "cpp/named req/Container") that stores objects in contiguous memory locations. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/ContiguousContainer&action=edit&section=1 "Edit section: Requirements")] Requirements
+### Requirements
 
 The type `X` satisfies ContiguousContainer if 
 
@@ -161,16 +161,16 @@ The type `X` satisfies ContiguousContainer if
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/ContiguousContainer&action=edit&section=2 "Edit section: Standard library")] Standard library
+### Standard library
 
 The following standard library string types and containers satisfy the ContiguousContainer requirements: 
 
 [ basic_string](../string/basic_string.html "cpp/string/basic string") |  stores and manipulates sequences of characters   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/dsc_basic_string&action=edit)  
+(class template)   
 ---|---  
 [ vector](../container/vector.html "cpp/container/vector") |  resizable contiguous array   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_vector&action=edit)  
+(class template)   
 [ array](../container/array.html "cpp/container/array")(C++11) |  fixed-sized inplace contiguous array   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_array&action=edit)  
+(class template)   
 [ inplace_vector](../container/inplace_vector.html "cpp/container/inplace vector")(C++26) |  resizable, fixed capacity, inplace contiguous array   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_inplace_vector&action=edit)
+(class template) 

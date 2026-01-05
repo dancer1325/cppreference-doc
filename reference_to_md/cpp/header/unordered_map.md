@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header is part of the [containers](../container.html "cpp/container") library. 
 
@@ -215,49 +215,49 @@ This header is part of the [containers](../container.html "cpp/container") libra
   
 ###  Includes  
   
-[ <compare>](compare.html "cpp/header/compare")(C++20) |  [Three-way comparison operator](../language/operator_comparison.html#Three-way_comparison "cpp/language/operator comparison") support[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/dsc_compare&action=edit)  
-[ <initializer_list>](initializer_list.html "cpp/header/initializer list")(C++11) |  [std::initializer_list](../utility/initializer_list.html "cpp/utility/initializer list") class template[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/dsc_initializer_list&action=edit)  
+[ <compare>](compare.html "cpp/header/compare")(C++20) |  [Three-way comparison operator](../language/operator_comparison.html#Three-way_comparison "cpp/language/operator comparison") support  
+[ <initializer_list>](initializer_list.html "cpp/header/initializer list")(C++11) |  [std::initializer_list](../utility/initializer_list.html "cpp/utility/initializer list") class template  
   
 ###  Classes  
   
 [ unordered_map](../container/unordered_map.html "cpp/container/unordered map")(C++11) |  collection of key-value pairs, hashed by keys, keys are unique   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_unordered_map&action=edit)  
+(class template)   
 [ unordered_multimap](../container/unordered_multimap.html "cpp/container/unordered multimap")(C++11) |  collection of key-value pairs, hashed by keys   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_unordered_multimap&action=edit)  
+(class template)   
   
 ###  Functions  
   
 [ operator==operator!=](../container/unordered_map/operator_cmp.html "cpp/container/unordered map/operator cmp")(C++11)(C++11)(removed in C++20) |  compares the values in the unordered_map   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_operator_cmp_unord&action=edit)  
+(function template)   
 [ std::swap(std::unordered_map)](../container/unordered_map/swap2.html "cpp/container/unordered map/swap2")(C++11) |  specializes the [std::swap](../utility/swap.html "cpp/algorithm/swap") algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_swap2&action=edit)  
+(function template)   
 [ erase_if(std::unordered_map)](../container/unordered_map/erase_if.html "cpp/container/unordered map/erase if")(C++20) |  erases all elements satisfying specific criteria   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_erase_if&action=edit)  
+(function template)   
 [ operator==operator!=](../container/unordered_multimap/operator_cmp.html "cpp/container/unordered multimap/operator cmp")(C++11)(C++11)(removed in C++20) |  compares the values in the unordered_multimap   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_operator_cmp_unord&action=edit)  
+(function template)   
 [ std::swap(std::unordered_multimap)](../container/unordered_multimap/swap2.html "cpp/container/unordered multimap/swap2")(C++11) |  specializes the [std::swap](../utility/swap.html "cpp/algorithm/swap") algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_swap2&action=edit)  
+(function template)   
 [ erase_if(std::unordered_multimap)](../container/unordered_multimap/erase_if.html "cpp/container/unordered multimap/erase if")(C++20) |  erases all elements satisfying specific criteria   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_erase_if&action=edit)  
+(function template)   
   
 #####  Range access   
   
 [ begincbegin](../iterator/begin.html "cpp/iterator/begin")(C++11)(C++14) |  returns an iterator to the beginning of a container or array   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_begin&action=edit)  
+(function template)   
 [ endcend](../iterator/end.html "cpp/iterator/end")(C++11)(C++14) |  returns an iterator to the end of a container or array   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_end&action=edit)  
+(function template)   
 [ rbegincrbegin](../iterator/rbegin.html "cpp/iterator/rbegin")(C++14) |  returns a reverse iterator to the beginning of a container or array   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_rbegin&action=edit)  
+(function template)   
 [ rendcrend](../iterator/rend.html "cpp/iterator/rend")(C++14) |  returns a reverse end iterator for a container or array   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_rend&action=edit)  
+(function template)   
 [ sizessize](../iterator/size.html "cpp/iterator/size")(C++17)(C++20) |  returns the size of a container or array   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_size&action=edit)  
+(function template)   
 [ empty](../iterator/empty.html "cpp/iterator/empty")(C++17) |  checks whether the container is empty   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_empty&action=edit)  
+(function template)   
 [ data](../iterator/data.html "cpp/iterator/data")(C++17) |  obtains the pointer to the underlying array   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_data&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/unordered_map&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     #include <compare>
@@ -320,7 +320,7 @@ This header is part of the [containers](../container.html "cpp/container") libra
       }
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/unordered_map&action=edit&section=T-1 "Template:cpp/synopsis/unordered map")] Class template [std::unordered_map](../container/unordered_map.html "cpp/container/unordered map")
+#### Class template [std::unordered_map](../container/unordered_map.html "cpp/container/unordered map")
     
     
     namespace std {
@@ -694,7 +694,7 @@ This header is part of the [containers](../container.html "cpp/container") libra
                     Allocator) -> unordered_map<Key, T, Hash, equal_to<Key>, Allocator>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/unordered_map&action=edit&section=T-2 "Template:cpp/synopsis/unordered map")] Class template [std::unordered_multimap](../container/unordered_multimap.html "cpp/container/unordered multimap")
+#### Class template [std::unordered_multimap](../container/unordered_multimap.html "cpp/container/unordered multimap")
     
     
     namespace std {

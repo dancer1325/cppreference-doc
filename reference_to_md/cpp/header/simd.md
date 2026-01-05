@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header is part of the [numeric](../numeric.html "cpp/numeric") library. 
 
@@ -216,59 +216,59 @@ This header is part of the [numeric](../numeric.html "cpp/numeric") library.
 ###  Classes  
   
 [ datapar::basic_simd](../numeric/simd/basic_simd.html "cpp/numeric/simd/basic simd")(C++26) |  data-parallel vector type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/simd/dsc_basic_simd&action=edit)  
+(class template)   
 [ datapar::simd](../numeric/simd/basic_simd.html "cpp/numeric/simd/basic simd")(C++26) |  convenience alias template for `basic_simd` that can specify its width  
-(alias template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/simd/dsc_simd&action=edit)  
+(alias template)  
 [ datapar::basic_simd_mask](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/simd/basic_simd_mask&action=edit&redlink=1 "cpp/numeric/simd/basic simd mask \(page does not exist\)")(C++26) |  data-parallel type with the element type bool   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/simd/dsc_basic_simd_mask&action=edit)  
+(class template)   
 [ datapar::simd_mask](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/simd/basic_simd_mask&action=edit&redlink=1 "cpp/numeric/simd/basic simd mask \(page does not exist\)")(C++26) |  convenience alias template for `basic_simd_mask` that can specify its width  
-(alias template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/simd/dsc_simd_mask&action=edit)  
+(alias template)  
 [ datapar::flags](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/simd/flags&action=edit&redlink=1 "cpp/numeric/simd/flags \(page does not exist\)")(C++26) |  load and store flags for data-parallel types   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/simd/dsc_flags&action=edit)  
+(class template)   
 [ datapar::alignment](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/simd/alignment&action=edit&redlink=1 "cpp/numeric/simd/alignment \(page does not exist\)")(C++26) |  obtains an appropriate alignment for `datapar::flag_aligned`   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/simd/dsc_alignment&action=edit)  
+(class template)   
 [ datapar::rebind](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/simd/rebind&action=edit&redlink=1 "cpp/numeric/simd/rebind \(page does not exist\)")(C++26) |  changes element type of the data-parallel type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/simd/dsc_rebind&action=edit)  
+(class template)   
 [ datapar::resize](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/simd/resize&action=edit&redlink=1 "cpp/numeric/simd/resize \(page does not exist\)")(C++26) |  changes the width of the data-parallel type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/simd/dsc_resize&action=edit)  
+(class template)   
   
 ###  Functions  
   
 [ datapar::unchecked_loaddatapar::partial_load](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/simd/load&action=edit&redlink=1 "cpp/numeric/simd/load \(page does not exist\)")(C++26) |  loads elements from a contiguous range to `basic_simd`   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/simd/dsc_load&action=edit)  
+(function template)   
 [ datapar::unchecked_storedatapar::partial_store](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/simd/store&action=edit&redlink=1 "cpp/numeric/simd/store \(page does not exist\)")(C++26) |  stores elements from `basic_simd` to a contiguous range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/simd/dsc_store&action=edit)  
+(function template)   
 [ datapar::chunk](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/simd/chunk&action=edit&redlink=1 "cpp/numeric/simd/chunk \(page does not exist\)")(C++26) |  splits single data-parallel object to multiple ones   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/simd/dsc_chunk&action=edit)  
+(function template)   
 [ datapar::cat](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/simd/cat&action=edit&redlink=1 "cpp/numeric/simd/cat \(page does not exist\)")(C++26) |  concatenates multiple data-parallel objects into a single one   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/simd/dsc_cat&action=edit)  
+(function template)   
 [ datapar::all_ofdatapar::any_ofdatapar::none_of](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/simd/all_any_none_of&action=edit&redlink=1 "cpp/numeric/simd/all any none of \(page does not exist\)")(C++26) |  reductions of `basic_simd_mask` to bool   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/simd/dsc_all_any_none_of&action=edit)  
+(function template)   
 [ datapar::reduce_count](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/simd/reduce_count&action=edit&redlink=1 "cpp/numeric/simd/reduce count \(page does not exist\)")(C++26) |  reduction of `basic_simd_mask` to number of true values   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/simd/dsc_reduce_count&action=edit)  
+(function template)   
 [ datapar::reduce_min_indexdatapar::reduce_max_index](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/simd/reduce_min_max_index&action=edit&redlink=1 "cpp/numeric/simd/reduce min max index \(page does not exist\)")(C++26) |  reductions of `basic_simd_mask` to the index of first or last true value   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/simd/dsc_reduce_min_max_index&action=edit)  
+(function template)   
 [ datapar::reducedatapar::reduce_mindatapar::reduce_max](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/simd/reduce&action=edit&redlink=1 "cpp/numeric/simd/reduce \(page does not exist\)")(C++26) |  reduces all values in `basic_simd` over a specified binary operation to a single value   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/simd/dsc_reduce&action=edit)  
+(function template)   
 [ datapar::mindatapar::maxdatapar::minmax](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/simd/min_max&action=edit&redlink=1 "cpp/numeric/simd/min max \(page does not exist\)")(C++26) |  element-wise min/max operations for `basic_simd`   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/simd/dsc_min_max&action=edit)  
+(function template)   
 [ datapar::clamp](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/simd/clamp&action=edit&redlink=1 "cpp/numeric/simd/clamp \(page does not exist\)")(C++26) |  element-wise clamp operation for `basic_simd`   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/simd/dsc_clamp&action=edit)  
+(function template)   
 [ datapar::select](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/simd/select&action=edit&redlink=1 "cpp/numeric/simd/select \(page does not exist\)")(C++26) |  element-wise selection using conditional operator   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/simd/dsc_select&action=edit)  
+(function template)   
   
 ###  Constants  
   
 [ datapar::flag_default](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/simd/flags&action=edit&redlink=1 "cpp/numeric/simd/flags \(page does not exist\)")(C++26) |  default flag used on load and store operations   
-(constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/simd/dsc_flag_default&action=edit)  
+(constant)   
 [ datapar::flag_convert](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/simd/flags&action=edit&redlink=1 "cpp/numeric/simd/flags \(page does not exist\)")(C++26) |  flag enabling conversions that are not value-preserving on load and store operations   
-(constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/simd/dsc_flag_convert&action=edit)  
+(constant)   
 [ datapar::flag_aligned](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/simd/flags&action=edit&redlink=1 "cpp/numeric/simd/flags \(page does not exist\)")(C++26) |  flag indicating alignment of the load-store address to some specified storage to the value of `datapar::alignment`   
-(constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/simd/dsc_flag_aligned&action=edit)  
+(constant)   
 [ datapar::flag_overaligned](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/simd/flags&action=edit&redlink=1 "cpp/numeric/simd/flags \(page does not exist\)")(C++26) |  flag indicating alignment of the load-store address to some specified storage to the specified alignment  
-(variable template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/simd/dsc_flag_overaligned&action=edit)  
+(variable template)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/simd&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     namespace std::datapar {
@@ -931,7 +931,7 @@ This header is part of the [numeric](../numeric.html "cpp/numeric") library.
     using datapar::real;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/simd&action=edit&section=T-1 "Template:cpp/synopsis/simd")] Class template std::datapar::flags
+#### Class template std::datapar::flags
     
     
     namespace std::datapar {
@@ -942,7 +942,7 @@ This header is part of the [numeric](../numeric.html "cpp/numeric") library.
     };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/simd&action=edit&section=T-2 "Template:cpp/synopsis/simd")] Class template std::datapar::basic_simd
+#### Class template std::datapar::basic_simd
     
     
     namespace std::datapar {
@@ -1066,7 +1066,7 @@ This header is part of the [numeric](../numeric.html "cpp/numeric") library.
     template <class R, class... Ts> basic_simd(R &&r, Ts...)->/* see description */;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/simd&action=edit&section=T-3 "Template:cpp/synopsis/simd")] Class template std::datapar::basic_simd_mask
+#### Class template std::datapar::basic_simd_mask
     
     
     namespace std::datapar {

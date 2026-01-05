@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 **`std::pmr::monotonic_buffer_resource`**
 
@@ -199,7 +199,7 @@ Protected member functions
 [monotonic_buffer_resource::do_deallocate](monotonic_buffer_resource/do_deallocate.html "cpp/memory/monotonic buffer resource/do deallocate")  
 [monotonic_buffer_resource::do_is_equal](monotonic_buffer_resource/do_is_equal.html "cpp/memory/monotonic buffer resource/do is equal")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/monotonic_buffer_resource/navbar_content&action=edit)
+
 
 Defined in header `[<memory_resource>](../header/memory_resource.html "cpp/header/memory resource")` |  |   
 ---|---|---  
@@ -222,33 +222,33 @@ The class `std::pmr::monotonic_buffer_resource` is a special-purpose memory reso
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/monotonic_buffer_resource&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](monotonic_buffer_resource/monotonic_buffer_resource.html "cpp/memory/monotonic buffer resource/monotonic buffer resource") |  constructs a `monotonic_buffer_resource`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/monotonic_buffer_resource/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ (destructor)](monotonic_buffer_resource/~monotonic_buffer_resource.html "cpp/memory/monotonic buffer resource/~monotonic buffer resource")[virtual] |  destroys a `monotonic_buffer_resource`, releasing all allocated memory   
-(virtual public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/monotonic_buffer_resource/dsc_destructor&action=edit)  
+(virtual public member function)   
 operator=[deleted] |  copy assignment operator is deleted. `monotonic_buffer_resource` is not copy assignable   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/monotonic_buffer_resource/dsc_operator%3D&action=edit)  
+(public member function)   
   
 #####  Public member functions   
   
 [ release](monotonic_buffer_resource/release.html "cpp/memory/monotonic buffer resource/release") |  release all allocated memory   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/monotonic_buffer_resource/dsc_release&action=edit)  
+(public member function)   
 [ upstream_resource](monotonic_buffer_resource/upstream_resource.html "cpp/memory/monotonic buffer resource/upstream resource") |  returns a pointer to the upstream memory resource   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/monotonic_buffer_resource/dsc_upstream_resource&action=edit)  
+(public member function)   
   
 #####  Protected member functions   
   
 [ do_allocate](monotonic_buffer_resource/do_allocate.html "cpp/memory/monotonic buffer resource/do allocate")[virtual] |  allocate memory   
-(virtual protected member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/monotonic_buffer_resource/dsc_do_allocate&action=edit)  
+(virtual protected member function)   
 [ do_deallocate](monotonic_buffer_resource/do_deallocate.html "cpp/memory/monotonic buffer resource/do deallocate")[virtual] |  no-op   
-(virtual protected member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/monotonic_buffer_resource/dsc_do_deallocate&action=edit)  
+(virtual protected member function)   
 [ do_is_equal](monotonic_buffer_resource/do_is_equal.html "cpp/memory/monotonic buffer resource/do is equal")[virtual] |  compare for equality with another [std::pmr::memory_resource](memory_resource.html "cpp/memory/memory resource")   
-(virtual protected member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/monotonic_buffer_resource/dsc_do_is_equal&action=edit)  
+(virtual protected member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/monotonic_buffer_resource&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 The program measures the time of creating huge double-linked lists using the following allocators: 
 

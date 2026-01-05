@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](../language/history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [Keywords](../keywords.html "cpp/keyword")
 
@@ -340,7 +340,7 @@ Identifiers with special meaning
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/keyword/navbar_content&action=edit)
+
 
 ## Contents
 
@@ -352,17 +352,17 @@ Identifiers with special meaning
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/identifier_with_special_meaning/post&action=edit&section=1 "Edit section: Usage")] Usage
+### Usage
 
 [function contract specifier](../language/functions/function_contract_specifiers.html#Postcondition "cpp/language/functions/function contract specifiers"): as function postcondition 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/identifier_with_special_meaning/post&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 Feature-test macro  | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_contracts`](../experimental/feature_test.html#cpp_contracts "cpp/feature test") | [`202502L`](../compiler_support/26.html#cpp_contracts_202502L "cpp/compiler support/26") | (C++26) | [Contracts](../language/contracts.html "cpp/language/contracts")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/identifier_with_special_meaning/post&action=edit&section=3 "Edit section: Support status")] Support status
+### Support status
 
 C++26 feature  
   
@@ -373,7 +373,7 @@ C++26 feature
 ---|---|---|---|---|---|---|---|---|---|---  
 [Contracts](../language/contracts.html "cpp/language/contracts") ([FTM](../experimental/feature_test.html#cpp_contracts "cpp/feature test"))* | [P2900R14](https://wg21.link/P2900R14) |  |  |  |  |  |  |  |  |   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/identifier_with_special_meaning/post&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
   * [`pre`](pre.html "cpp/identifier with special meaning/pre"), [`contract_assert`](../keyword/contract_assert.html "cpp/keyword/contract assert")
 

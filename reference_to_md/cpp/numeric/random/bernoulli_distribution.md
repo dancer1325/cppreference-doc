@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [Pseudo-random number generation](../random.html "cpp/numeric/random")
 
@@ -161,7 +161,7 @@
 [piecewise_constant_distribution](piecewise_constant_distribution.html "cpp/numeric/random/piecewise constant distribution")(C++11)  
 [piecewise_linear_distribution](piecewise_linear_distribution.html "cpp/numeric/random/piecewise linear distribution")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/navbar_content&action=edit)
+
 
 **`std::bernoulli_distribution`**
 
@@ -180,7 +180,7 @@ Non-member functions
 [operator==operator!=](bernoulli_distribution/operator_cmp.html "cpp/numeric/random/bernoulli distribution/operator cmp")(C++11)(C++11)(until C++20)  
 [operator<<operator>>](bernoulli_distribution/operator_ltltgtgt.html "cpp/numeric/random/bernoulli distribution/operator ltltgtgt")(C++11)(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/bernoulli_distribution/navbar_content&action=edit)
+
 
 Defined in header `[<random>](../../header/random.html "cpp/header/random")` |  |   
 ---|---|---  
@@ -209,46 +209,46 @@ Produces random boolean values, according to the discrete probability function. 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/random/bernoulli_distribution&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Member type  |  Definition   
 ---|---  
 `result_type` (C++11) |  bool  
 `param_type` (C++11) |  the type of the parameter set, see [RandomNumberDistribution](../../named_req/RandomNumberDistribution.html "cpp/named req/RandomNumberDistribution").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/random/bernoulli_distribution&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](bernoulli_distribution/bernoulli_distribution.html "cpp/numeric/random/bernoulli distribution/bernoulli distribution")(C++11) |  constructs new distribution   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/distribution/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ reset](bernoulli_distribution/reset.html "cpp/numeric/random/bernoulli distribution/reset")(C++11) |  resets the internal state of the distribution   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/distribution/dsc_reset&action=edit)  
+(public member function)   
   
 #####  Generation   
   
 [ operator()](bernoulli_distribution/operator\(\).html "cpp/numeric/random/bernoulli distribution/operator\(\)")(C++11) |  generates the next random number in the distribution   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/distribution/dsc_operator\(\)&action=edit)  
+(public member function) &action=edit)  
   
 #####  Characteristics   
   
 [ p](bernoulli_distribution/p.html "cpp/numeric/random/bernoulli distribution/p")(C++11) |  returns the _p_ distribution parameter (probability of generating true)   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/bernoulli_distribution/dsc_p&action=edit)  
+(public member function)   
 [ param](bernoulli_distribution/param.html "cpp/numeric/random/bernoulli distribution/param")(C++11) |  gets or sets the distribution parameter object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/distribution/dsc_param&action=edit)  
+(public member function)   
 [ min](bernoulli_distribution/min.html "cpp/numeric/random/bernoulli distribution/min")(C++11) |  returns the minimum potentially generated value   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/distribution/dsc_min&action=edit)  
+(public member function)   
 [ max](bernoulli_distribution/max.html "cpp/numeric/random/bernoulli distribution/max")(C++11) |  returns the maximum potentially generated value   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/distribution/dsc_max&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/random/bernoulli_distribution&action=edit&section=3 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ operator==operator!=](bernoulli_distribution/operator_cmp.html "cpp/numeric/random/bernoulli distribution/operator cmp")(C++11)(C++11)(removed in C++20) |  compares two distribution objects   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/distribution/dsc_operator_cmp&action=edit)  
+(function)   
 ---|---  
 [ operator<<operator>>](bernoulli_distribution/operator_ltltgtgt.html "cpp/numeric/random/bernoulli distribution/operator ltltgtgt")(C++11) |  performs stream input and output on pseudo-random number distribution   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/distribution/dsc_operator_ltltgtgt&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/random/bernoulli_distribution&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -283,7 +283,7 @@ Possible output:
     false ***************
      true ****
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/random/bernoulli_distribution&action=edit&section=5 "Edit section: External links")] External links
+### External links
 
 [Weisstein, Eric W. "Bernoulli Distribution."](https://mathworld.wolfram.com/BernoulliDistribution.html) From MathWorld — A Wolfram Web Resource.   
 ---

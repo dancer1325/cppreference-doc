@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](empty.html "cpp/iterator/empty")(C++17)  
 [data](data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 Defined in header `[<iterator>](../header/iterator.html "cpp/header/iterator")` |  |   
 ---|---|---  
@@ -219,7 +219,7 @@ class Reference = T&
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/iterator&action=edit&section=1 "Edit section: Template parameters")] Template parameters
+### Template parameters
 
 Category  |  \-  |  the category of the iterator. Must be one of [iterator category tags](iterator_tags.html "cpp/iterator/iterator tags").   
 ---|---|---  
@@ -228,7 +228,7 @@ Distance  |  \-  |  a type that can be used to identify distance between iterato
 Pointer  |  \-  |  defines a pointer to the type iterated over (`T`)   
 Reference  |  \-  |  defines a reference to the type iterated over (`T`)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/iterator&action=edit&section=2 "Edit section: Member types")] Member types
+### Member types
 
 Member type  |  Definition   
 ---|---  
@@ -238,7 +238,7 @@ Member type  |  Definition
 `pointer` |  `Pointer`  
 `reference` |  `Reference`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/iterator&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 The following example shows how to implement an [input iterator](../named_req/InputIterator.html "cpp/named req/InputIterator") by inheriting from std::iterator
 
@@ -292,10 +292,10 @@ Output:
     18
     3 4 5
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/iterator&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ iterator_traits](iterator_traits.html "cpp/iterator/iterator traits") |  provides uniform interface to the properties of an iterator   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_iterator_traits&action=edit)  
+(class template)   
 ---|---  
 [ input_iterator_tagoutput_iterator_tagforward_iterator_tagbidirectional_iterator_tagrandom_access_iterator_tagcontiguous_iterator_tag](iterator_tags.html "cpp/iterator/iterator tags")(C++20) |  empty class types used to indicate iterator categories   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_iterator_tags&action=edit)
+(class) 

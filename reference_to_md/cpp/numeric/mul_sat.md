@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [Saturation arithmetic](../numeric.html#Saturation_arithmetic "cpp/numeric")
 
@@ -99,7 +99,7 @@ Functions
 [div_sat](div_sat.html "cpp/numeric/div sat")(C++26)  
 [saturate_cast](saturate_cast.html "cpp/numeric/saturate cast")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/sat_math/navbar_content&action=edit)
+
 
 Defined in header `[<numeric>](../header/numeric.html "cpp/header/numeric")` |  |   
 ---|---|---  
@@ -129,16 +129,16 @@ This overload participates in overload resolution only if `T` is an [integer typ
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/op_sat&action=edit&section=T-1 "Template:cpp/numeric/op sat")] Parameters
+### Parameters
 
 x, y  |  \-  |  integer values   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/op_sat&action=edit&section=T-2 "Template:cpp/numeric/op sat")] Return value
+### Return value
 
 Saturated x × y. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/op_sat&action=edit&section=T-3 "Template:cpp/numeric/op sat")] Notes
+### Notes
 
 Unlike the built-in arithmetic operators on integers, the [integral promotion](../language/implicit_cast.html#Integral_promotion "cpp/language/implicit conversion") does not apply to the x and y arguments. 
 
@@ -150,11 +150,11 @@ Most modern hardware architectures have efficient support for saturation arithme
 ---|---|---|---  
 [`__cpp_lib_saturation_arithmetic`](../experimental/feature_test.html#cpp_lib_saturation_arithmetic "cpp/feature test") | [`202311L`](../compiler_support/26.html#cpp_lib_saturation_arithmetic_202311L "cpp/compiler support/26") | (C++26) | Saturation arithmetic   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/op_sat&action=edit&section=T-4 "Template:cpp/numeric/op sat")] Possible implementation
+### Possible implementation
 
 See [libstdc++ (gcc)](https://github.com/gcc-mirror/gcc/tree/master/libstdc%2B%2B-v3/include/bits/sat_arith.h#L42). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/op_sat&action=edit&section=T-5 "Template:cpp/numeric/op sat")] Example
+### Example
 
 Can be previewed on [Compiler Explorer](https://godbolt.org/z/T58GEKPM6).
 
@@ -176,27 +176,27 @@ Run this code
      
     int main() {}
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/op_sat&action=edit&section=T-6 "Template:cpp/numeric/op sat")] See also
+### See also
 
 [ add_sat](add_sat.html "cpp/numeric/add sat")(C++26) |  saturating addition operation on two integers   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/dsc_add_sat&action=edit)  
+(function template)   
 ---|---  
 [ sub_sat](sub_sat.html "cpp/numeric/sub sat")(C++26) |  saturating subtraction operation on two integers   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/dsc_sub_sat&action=edit)  
+(function template)   
 [ div_sat](div_sat.html "cpp/numeric/div sat")(C++26) |  saturating division operation on two integers   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/dsc_div_sat&action=edit)  
+(function template)   
 [ saturate_cast](saturate_cast.html "cpp/numeric/saturate cast")(C++26) |  returns an integer value clamped to the range of another integer type   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/dsc_saturate_cast&action=edit)  
+(function template)   
 [ clamp](../algorithm/clamp.html "cpp/algorithm/clamp")(C++17) |  clamps a value between a pair of boundary values   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_clamp&action=edit)  
+(function template)   
 [ in_range](../utility/in_range.html "cpp/utility/in range")(C++20) |  checks if an integer value is in the range of a given integer type   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_in_range&action=edit)  
+(function template)   
 [ min](../types/numeric_limits/min.html "cpp/types/numeric limits/min")[static] |  returns the smallest finite value of the given non-floating-point type, or the smallest positive normal value of the given floating-point type   
-(public static member function of `std::numeric_limits<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/dsc_min&action=edit)  
+(public static member function of `std::numeric_limits<T>`)   
 [ max](../types/numeric_limits/max.html "cpp/types/numeric limits/max")[static] |  returns the largest finite value of the given type   
-(public static member function of `std::numeric_limits<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/dsc_max&action=edit)  
+(public static member function of `std::numeric_limits<T>`)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/op_sat&action=edit&section=T-7 "Template:cpp/numeric/op sat")] External links
+### External links
 
 1\.  | [A branch-free implementation of saturation arithmetic](http://locklessinc.com/articles/sat_arithmetic/) — Locklessinc.com, 2012   
 ---|---  

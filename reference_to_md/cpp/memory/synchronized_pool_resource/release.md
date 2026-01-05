@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::pmr::synchronized_pool_resource`](../synchronized_pool_resource.html "cpp/memory/synchronized pool resource")
 
@@ -200,7 +200,7 @@ Protected member functions
 [synchronized_pool_resource::do_deallocate](do_deallocate.html "cpp/memory/synchronized pool resource/do deallocate")  
 [synchronized_pool_resource::do_is_equal](do_is_equal.html "cpp/memory/synchronized pool resource/do is equal")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/synchronized_pool_resource/navbar_content&action=edit)
+
 
 void release(); |  |  (since C++17)  
 ---|---|---  
@@ -210,8 +210,8 @@ Releases all memory owned by this resource by calling the `deallocate` function 
 
 Memory is released back to the upstream resource even if `deallocate` has not been called for some of the allocated blocks. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/synchronized_pool_resource/release&action=edit&section=1 "Edit section: See also")] See also 
+### See also 
 
 [ deallocate](../memory_resource/deallocate.html "cpp/memory/memory resource/deallocate") |  deallocates memory   
-(public member function of `std::pmr::memory_resource`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/memory_resource/dsc_deallocate&action=edit)  
+(public member function of `std::pmr::memory_resource`)   
 ---|---

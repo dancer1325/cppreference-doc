@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [Common mathematical functions](../math.html "cpp/numeric/math")
 
@@ -230,7 +230,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/navbar_content&action=edit)
+
 
 Defined in header `[<cmath>](../../header/cmath.html "cpp/header/cmath")` |  |   
 ---|---|---  
@@ -249,7 +249,7 @@ Constant  |  Explanation
   
 On implementations that support floating-point infinities, these macros always expand to the positive infinities of float, double, and long double, respectively. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/HUGE_VAL&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 On implementations that do not support floating-point infinities, these macros expand to the maximum finite number of their respective types. 
 
@@ -257,9 +257,9 @@ C++98 added float and long double overloads of mathematical functions. There is 
 
 [LWG issue 357](https://cplusplus.github.io/LWG/issue357) was raised to target this problem. LWG found that C99 has the same problem (float and long double overloads were also added in C99), and C99 introduced new macros HUGE_VALF and HUGE_VALL to solve the problem. Therefore the issue was closed and the C99 resolution was adopted in C++11. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/HUGE_VAL&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ INFINITY](INFINITY.html "cpp/numeric/math/INFINITY")(C++11) |  evaluates to positive infinity or the value guaranteed to overflow a float   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_INFINITY&action=edit)  
+(macro constant)   
 ---|---  
 [C documentation](../../../c/numeric/math/HUGE_VALL.html "c/numeric/math/HUGE VAL") for HUGE_VAL

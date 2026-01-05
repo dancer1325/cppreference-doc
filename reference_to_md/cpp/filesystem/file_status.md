@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Filesystem library](../filesystem.html "cpp/filesystem")
 
@@ -100,7 +100,7 @@ filesystem::symlink_status](status.html "cpp/filesystem/status")
 [filesystem::is_socket](is_socket.html "cpp/filesystem/is socket")  
 [filesystem::is_symlink](is_symlink.html "cpp/filesystem/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/navbar_content&action=edit)
+
 
 **`std::filesystem::file_status`**
 
@@ -113,7 +113,7 @@ Member functions
 Non-member functions  
 [operator==](file_status/operator==.html "cpp/filesystem/file status/operator==")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/file_status/navbar_content&action=edit)
+
 
 Defined in header `[<filesystem>](../header/filesystem.html "cpp/header/filesystem")` |  |   
 ---|---|---  
@@ -122,32 +122,32 @@ class file_status; |  |  (since C++17)
   
 Stores information about the type and permissions of a file. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/file_status&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](file_status/file_status.html "cpp/filesystem/file status/file status") |  constructs a `file_status` object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/file_status/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ operator=](file_status/operator=.html "cpp/filesystem/file status/operator=") |  assigns contents   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/file_status/dsc_operator%3D&action=edit)  
+(public member function)   
 (destructor) |  implicit destructor   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/file_status/dsc_destructor&action=edit)  
+(public member function)   
 [ type](file_status/type.html "cpp/filesystem/file status/type") |  gets or sets the type of the file   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/file_status/dsc_type&action=edit)  
+(public member function)   
 [ permissions](file_status/permissions.html "cpp/filesystem/file status/permissions") |  gets or sets the permissions of the file   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/file_status/dsc_permissions&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/file_status&action=edit&section=2 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ operator==](file_status/operator==.html "cpp/filesystem/file status/operator==")(C++20) |  compares two `file_status` objects   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/file_status/dsc_operator%3D%3D&action=edit)  
+(function)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/file_status&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ statussymlink_status](status.html "cpp/filesystem/status")(C++17)(C++17) |  determines file attributes  
 determines file attributes, checking the symlink target   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_status&action=edit)  
+(function)   
 ---|---  
 [ statussymlink_status](directory_entry/status.html "cpp/filesystem/directory entry/status") |  status of the file designated by this directory entry;  
 status of the file/symlink designated by this directory entry   
-(public member function of `std::filesystem::directory_entry`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/directory_entry/dsc_status&action=edit)
+(public member function of `std::filesystem::directory_entry`) 

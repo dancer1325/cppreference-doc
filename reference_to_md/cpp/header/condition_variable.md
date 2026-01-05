@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header is part of the [thread support](../atomic.html "cpp/thread") library. 
 
@@ -214,18 +214,18 @@ This header is part of the [thread support](../atomic.html "cpp/thread") library
 ###  Classes  
   
 [ condition_variable](../thread/condition_variable.html "cpp/thread/condition variable")(C++11) |  provides a condition variable associated with a [std::unique_lock](../thread/unique_lock.html "cpp/thread/unique lock")   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_condition_variable&action=edit)  
+(class)   
 [ condition_variable_any](../thread/condition_variable_any.html "cpp/thread/condition variable any")(C++11) |  provides a condition variable associated with any lock type   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_condition_variable_any&action=edit)  
+(class)   
 [ cv_status](../thread/cv_status.html "cpp/thread/cv status")(C++11) |  lists the possible results of timed waits on condition variables   
-(enum) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_cv_status&action=edit)  
+(enum)   
   
 ###  Functions  
   
 [ notify_all_at_thread_exit](../thread/notify_all_at_thread_exit.html "cpp/thread/notify all at thread exit")(C++11) |  schedules a call to `notify_all` to be invoked when this thread is completely finished   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_notify_all_at_thread_exit&action=edit)  
+(function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/condition_variable&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     namespace std {
@@ -237,7 +237,7 @@ This header is part of the [thread support](../atomic.html "cpp/thread") library
       enum class cv_status { no_timeout, timeout };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/condition_variable&action=edit&section=T-1 "Template:cpp/synopsis/condition variable")] Class [std::condition_variable](../thread/condition_variable.html "cpp/thread/condition variable")
+#### Class [std::condition_variable](../thread/condition_variable.html "cpp/thread/condition variable")
     
     
     namespace std {
@@ -272,7 +272,7 @@ This header is part of the [thread support](../atomic.html "cpp/thread") library
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/condition_variable&action=edit&section=T-2 "Template:cpp/synopsis/condition variable")] Class [std::condition_variable_any](../thread/condition_variable_any.html "cpp/thread/condition variable any")
+#### Class [std::condition_variable_any](../thread/condition_variable_any.html "cpp/thread/condition variable any")
     
     
     namespace std {

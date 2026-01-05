@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::view_interface`](../view_interface.html "cpp/ranges/view interface")
 
@@ -240,7 +240,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
 [back](back.html "cpp/ranges/view interface/back")  
 [operator[]](operator_at.html "cpp/ranges/view interface/operator at")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/navbar_content&action=edit)
+
 
 constexpr auto data()  
 requires [std::contiguous_iterator](../../iterator/contiguous_iterator.html)<[ranges::iterator_t](../iterator_t.html)<D>>; |  (1)  |  (since C++20)  
@@ -266,11 +266,11 @@ The default implementation of `data()` member function obtains the address denot
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/view_interface/data&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 The address denoted by the beginning iterator. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/view_interface/data&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 Following derived types may use the default implementation of `data()`: 
 
@@ -298,7 +298,7 @@ Following types are derived from [std::ranges::view_interface](../view_interface
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/view_interface/data&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -321,14 +321,14 @@ Output:
     
     C++20!
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/view_interface/data&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ data](../../iterator/data.html "cpp/iterator/data")(C++17) |  obtains the pointer to the underlying array   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_data&action=edit)  
+(function template)   
 ---|---  
 [ ranges::data](../data.html "cpp/ranges/data")(C++20) |  obtains a pointer to the beginning of a contiguous range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_data&action=edit)  
+(customization point object)  
 [ ranges::cdata](../cdata.html "cpp/ranges/cdata")(C++20) |  obtains a pointer to the beginning of a read-only contiguous range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_cdata&action=edit)  
+(customization point object)  
 [ to_address](../../memory/to_address.html "cpp/memory/to address")(C++20) |  obtains a raw pointer from a pointer-like type   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_to_address&action=edit)
+(function template) 

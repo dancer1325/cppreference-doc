@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header was originally in the C standard library as [`<inttypes.h>`](../../c/header/inttypes.html "c/header/inttypes"). 
 
@@ -215,23 +215,23 @@ This header was originally in the C standard library as [`<inttypes.h>`](../../c
   
 ###  Includes  
   
-[ <cstdint>](cstdint.html "cpp/header/cstdint")(C++11) |  [Fixed-width integer types](../types/integer.html "cpp/types/integer") and [limits of other types](../types/climits.html "cpp/types/climits")[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/dsc_cstdint&action=edit)  
+[ <cstdint>](cstdint.html "cpp/header/cstdint")(C++11) |  [Fixed-width integer types](../types/integer.html "cpp/types/integer") and [limits of other types](../types/climits.html "cpp/types/climits")  
   
 ###  Types  
   
 [ imaxdiv_t](../numeric/math/div.html "cpp/numeric/math/div")(C++11) |  structure type, returned by [std::imaxdiv](../numeric/math/div.html "cpp/numeric/math/div")   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_imaxdiv_t&action=edit)  
+(typedef)   
   
 ###  Functions  
   
 [ abs(std::intmax_t)imaxabs](../numeric/math/abs.html "cpp/numeric/math/abs")(C++11)(C++11) |  computes absolute value of an integral value (\\(\small{|x|}\\)|x|)   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_imaxabs&action=edit)  
+(function)   
 [ div(std::intmax_t)imaxdiv](../numeric/math/div.html "cpp/numeric/math/div")(C++11)(C++11) |  computes quotient and remainder of integer division   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_imaxdiv&action=edit)  
+(function)   
 [ strtoimaxstrtoumax](../string/byte/strtoimax.html "cpp/string/byte/strtoimax")(C++11)(C++11) |  converts a byte string to [std::intmax_t](../types/integer.html "cpp/types/integer") or [std::uintmax_t](../types/integer.html "cpp/types/integer")   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strtoimax&action=edit)  
+(function)   
 [ wcstoimaxwcstoumax](../string/wide/wcstoimax.html "cpp/string/wide/wcstoimax")(C++11)(C++11) |  converts a wide string to [std::intmax_t](../types/integer.html "cpp/types/integer") or [std::uintmax_t](../types/integer.html "cpp/types/integer")   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wcstoimax&action=edit)  
+(function)   
   
 ###  Macros  
   
@@ -263,7 +263,7 @@ SCNo8SCNo16SCNo32SCNo64SCNoLEAST8SCNoLEAST16SCNoLEAST32SCNoLEAST64SCNoFAST8SCNoF
 SCNx8SCNx16SCNx32SCNx64SCNxLEAST8SCNxLEAST16SCNxLEAST32SCNxLEAST64SCNxFAST8SCNxFAST16SCNxFAST32SCNxFAST64SCNxMAXSCNxPTR(C++11) |  format conversion specifier to input an unsigned hexadecimal integer value of type [std::uint8_t](../types/integer.html "cpp/types/integer"), [std::uint16_t](../types/integer.html "cpp/types/integer"), [std::uint32_t](../types/integer.html "cpp/types/integer"), [std::uint64_t](../types/integer.html "cpp/types/integer"), [std::uint_least8_t](../types/integer.html "cpp/types/integer"), [std::uint_least16_t](../types/integer.html "cpp/types/integer"), [std::uint_least32_t](../types/integer.html "cpp/types/integer"), [std::uint_least64_t](../types/integer.html "cpp/types/integer"), [std::uint_fast8_t](../types/integer.html "cpp/types/integer"), [std::uint_fast16_t](../types/integer.html "cpp/types/integer"), [std::uint_fast32_t](../types/integer.html "cpp/types/integer"), [std::uint_fast64_t](../types/integer.html "cpp/types/integer"), [std::uintmax_t](../types/integer.html "cpp/types/integer"), [std::uintptr_t](../types/integer.html "cpp/types/integer") respectively, equivalent to `x` for unsigned int   
 (macro constant)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/cinttypes&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     #include <cstdint>

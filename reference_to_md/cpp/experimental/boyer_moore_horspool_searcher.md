@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Library fundamentals](memory.html "cpp/experimental/lib extensions")
 
@@ -75,7 +75,7 @@
 [Type-erased and polymorphic allocators](memory.html "cpp/experimental/memory")  
 [Variable templates for type traits](type_trait_variable_templates.html "cpp/experimental/type trait variable templates")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions/navbar_content&action=edit)
+
 
 Defined in header `[<experimental/functional>](../header/experimental/functional.html "cpp/header/experimental/functional")` |  |   
 ---|---|---  
@@ -109,7 +109,7 @@ A searcher suitable for use with [`std::experimental::search`](search.html "cpp/
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/boyer_moore_horspool_searcher&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 ##  std::experimental::boyer_moore_horspool_searcher::boyer_moore_horspool_searcher 
 
@@ -169,7 +169,7 @@ If the pattern `[`pat_first`, `pat_last`)` is empty, returns first. Otherwise, a
 ---|---  
 If the pattern `[`pat_first`, `pat_last`)` is empty, returns make_pair(first, first). Otherwise, returns a pair of iterators to the first and one past last positions in `[`first`, `last`)` where a subsequence that compares equal to `[`pat_first`, `pat_last`)` as defined by pred is located, or make_pair(last, last) otherwise.  | (since C++17)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/boyer_moore_horspool_searcher&action=edit&section=6 "Edit section: Helper Functions")] Helper Functions
+### Helper Functions
 
 template< class RandomIt,   
 class Hash = [std::hash](../utility/hash.html)<typename [std::iterator_traits](../iterator/iterator_traits.html)<RandomIt>::value_type>,  
@@ -184,18 +184,18 @@ BinaryPredicate pred = BinaryPredicate() ); |  |  (library fundamentals TS)
   
 Helper function that constructs a `std::experimental::boyer_moore_horspool_searcher` using template argument deduction. Equivalent to return boyer_moore_horspool_searcher<RandomIt, Hash, BinaryPredicate>(pat_first, pat_last, hf, pred);
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/boyer_moore_horspool_searcher&action=edit&section=7 "Edit section: Parameters")] Parameters
+### Parameters
 
 pat_first, pat_last  |  \-  |  a pair of iterators designating the string to be searched for   
 ---|---|---  
 hf  |  \-  |  a callable object used to hash the elements of the string   
 pred  |  \-  |  a callable object used to determine equality   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/boyer_moore_horspool_searcher&action=edit&section=8 "Edit section: Return value")] Return value
+### Return value
 
 A `boyer_moore_horspool_searcher` constructed with the arguments pat_first, pat_last, hf, and pred. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/boyer_moore_horspool_searcher&action=edit&section=9 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -225,8 +225,8 @@ Output:
     
     The string pisci found at offset 43
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/boyer_moore_horspool_searcher&action=edit&section=10 "Edit section: See also")] See also
+### See also
 
 [ search](../algorithm/search.html "cpp/algorithm/search") |  searches for the first occurrence of a range of elements   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_search&action=edit)  
+(function template)   
 ---|---

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 **Extensions for reflection**
 
@@ -196,7 +196,7 @@ Meta-object operations
 [is_explicitly_captured](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/reflect/is_explicitly_captured&action=edit&redlink=1 "cpp/experimental/reflect/is explicitly captured \(page does not exist\)")  
 [is_init_capture](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/reflect/is_init_capture&action=edit&redlink=1 "cpp/experimental/reflect/is init capture \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/reflect/navbar_content&action=edit)
+
 
 The C++ Extensions for Reflection, ISO/IEC TS 23619:2021, specifies modifications to the core language and defines new components for the C++ standard library listed on this page. 
 
@@ -249,9 +249,9 @@ The Reflection TS is based on the C++20 standard (except that the definition of 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/reflect&action=edit&section=1 "Edit section: Core language changes")] Core language changes
+### Core language changes
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/reflect&action=edit&section=2 "Edit section: reflexpr-specifier")] reflexpr-specifier
+#### reflexpr-specifier
 
 A reflexpr-specifier is of form `**reflexpr**` `**(**` reflexpr-operand `**)**`, and specifies a meta-object type (see below). 
 
@@ -289,7 +289,7 @@ If the operand designates both an alias and a class name, the type represented b
 
 If the operand designates a name whose declaration is enclosed in a block scope and the named entity is neither captured nor a function parameter, the program is ill-formed. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/reflect&action=edit&section=3 "Edit section: Meta-object types")] Meta-object types
+#### Meta-object types
 
 A _meta-object type_ is an unnamed, incomplete namespace-scope class type. A type satisfies the concept `reflect::Object` if and only if it is a meta-object type. Meta-object types may satisfy other concepts, depending on the operand to `reflexpr`. 
 
@@ -297,7 +297,7 @@ It is unspecified whether repeatedly applying `reflexpr` to the same operand yie
 
 A meta-object type allows inspection of some properties of the operand to `reflexpr` through type traits or type transformations on it. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/reflect&action=edit&section=4 "Edit section: Overload resolution")] Overload resolution
+#### Overload resolution
 
 If the postfix-expression of the function-call-expression is of class type, i.e. e in the function-call-expression e(args) is of class type, then the [user-defined conversion function](../language/cast_operator.html "cpp/language/cast operator") of the type of the postfix-expression (e) shall not be used. 
 
@@ -315,7 +315,7 @@ If postfix-expression is not of class type, it shall name a function that is the
     using Meta0 = reflexpr(Functor{}(0));          // OK
     // using Meta1 = reflexpr(Functor{}(nullptr)); // error: conversion function used
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/reflect&action=edit&section=5 "Edit section: Reflection-related")] Reflection-related
+#### Reflection-related
 
 An _alias_ is a name introduced by a [`typedef`](../language/typedef.html "cpp/language/typedef") declaration, an [alias-declaration](../language/type_alias.html "cpp/language/type alias"), or a [using-declaration](../language/using_declaration.html "cpp/language/using declaration"). 
 
@@ -356,7 +356,7 @@ Zero or more successive applications of type transformations that yield meta-obj
     };
     // ::X, but not B::X or B::Y is reflection-related to D::Y
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/reflect&action=edit&section=6 "Edit section: Miscellaneous")] Miscellaneous
+#### Miscellaneous
 
   * An expression used as reflexpr-operand is an [unevaluated expressions](../language/expressions.html#Unevaluated_expression "cpp/language/expressions") and [potentially constant evaluated](../language/constant_expression.html "cpp/language/constant expression"). 
   * For the purpose of determination of variables [captured in a lambda expression](../language/lambda.html#Lambda_capture "cpp/language/lambda") by a capture-default, a `reflexpr` operand is not considered to be an unevaluated operand. 
@@ -368,19 +368,19 @@ Zero or more successive applications of type transformations that yield meta-obj
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/reflect&action=edit&section=7 "Edit section: Keywords")] Keywords
+#### Keywords
 
 [`reflexpr`](../keyword/reflexpr.html "cpp/keyword/reflexpr")
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/reflect&action=edit&section=8 "Edit section: Predefined feature testing macros")] Predefined feature testing macros
+#### Predefined feature testing macros
 
 __cpp_reflection(reflection TS) |  a value of at least 201902 indicates that the Reflection TS is supported   
 (macro constant)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/reflect&action=edit&section=9 "Edit section: Library support")] Library support
+### Library support
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/reflect&action=edit&section=10 "Edit section: Concepts")] Concepts
+#### Concepts
 
 Defined in header `[<experimental/reflect>](../header/experimental/reflect.html "cpp/header/experimental/reflect")`  
 ---  
@@ -455,7 +455,7 @@ Defined in inline namespace `std::experimental::reflect::v1`
 [ LambdaCapture](reflect/LambdaCapture.html "cpp/experimental/reflect/LambdaCapture")(reflection TS) |  specifies that a meta-object type reflects a lambda capture   
 (concept)  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/reflect&action=edit&section=11 "Edit section: Meta-object operations")] Meta-object operations
+#### Meta-object operations
 
 Defined in header `[<experimental/reflect>](../header/experimental/reflect.html "cpp/header/experimental/reflect")`  
 ---  
@@ -659,14 +659,14 @@ Defined in inline namespace `std::experimental::reflect::v1`
 [ is_init_capture](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/reflect/is_init_capture&action=edit&redlink=1 "cpp/experimental/reflect/is init capture \(page does not exist\)")(reflection TS) |  checks if the reflected lambda capture is an init-capture   
 (class template)  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/reflect&action=edit&section=12 "Edit section: Library feature testing macros")] Library feature testing macros
+#### Library feature testing macros
 
 Defined in header `[<experimental/reflect>](../header/experimental/reflect.html "cpp/header/experimental/reflect")`  
 ---  
 __cpp_lib_reflection(reflection TS) |  a value of at least 201902 indicates that the support library of the Reflection TS is supported   
 (macro constant)  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/reflect&action=edit&section=13 "Edit section: Satisfaction of concepts")] Satisfaction of concepts
+#### Satisfaction of concepts
 
 The following table lists that whether a meta-object type reflecting an operand satisfies concepts introduced by the Reflection TS. 
 
@@ -697,9 +697,9 @@ If the operand of the form id-expression is a constant expression, the type spec
 
 If the reflexpr-operand designates a class member, the type represented by the reflexpr-specifier also satisfies `reflect::RecordMember`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/reflect&action=edit&section=14 "Edit section: See also")] See also
+### See also
 
 [ type_info](../types/type_info.html "cpp/types/type info") |  contains some type’s information, the class returned by the typeid operator   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_type_info&action=edit)  
+(class)   
 ---|---  
-[ <type_traits>](../header/type_traits.html "cpp/header/type traits")(C++11) |  [Compile-time type information utilities](../utility/rtti.html "cpp/types")[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/dsc_type_traits&action=edit)
+[ <type_traits>](../header/type_traits.html "cpp/header/type traits")(C++11) |  [Compile-time type information utilities](../utility/rtti.html "cpp/types")

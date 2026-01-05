@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Null-terminated wide strings](../wide.html "cpp/string/wide")
 
@@ -153,7 +153,7 @@
 WCHAR_MAX  
 WEOF](../wide.html#Macros "cpp/string/wide")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/navbar_content&action=edit)
+
 
 Defined in header `[<cwchar>](../../header/cwchar.html "cpp/header/cwchar")` |  |   
 ---|---|---  
@@ -177,22 +177,22 @@ If count is zero, the function does nothing.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/wmemset&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 dest  |  \-  |  pointer to the wide character array to fill   
 ---|---|---  
 ch  |  \-  |  fill wide character   
 count  |  \-  |  number of wide characters to fill   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/wmemset&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Returns a copy of dest. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/wmemset&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 This function is not locale-sensitive and pays no attention to the values of the wchar_t objects it writes: nulls as well as invalid wide characters are written too. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/wmemset&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -218,13 +218,13 @@ Possible output:
     
     🍌🍌蕉蕉
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/wmemset&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ memset](../byte/memset.html "cpp/string/byte/memset") |  fills a buffer with a character   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_memset&action=edit)  
+(function)   
 ---|---  
 [ wmemcpy](wmemcpy.html "cpp/string/wide/wmemcpy") |  copies a certain amount of wide characters between two non-overlapping arrays   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wmemcpy&action=edit)  
+(function)   
 [ fill_n](../../algorithm/fill_n.html "cpp/algorithm/fill n") |  copy-assigns the given value to N elements in a range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_fill_n&action=edit)  
+(function template)   
 [C documentation](../../../c/string/wide/wmemset.html "c/string/wide/wmemset") for wmemset

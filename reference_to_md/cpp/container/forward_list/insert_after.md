@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -71,7 +71,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::forward_list`](../forward_list.html "cpp/container/forward list")
 
@@ -126,7 +126,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/forward list/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/forward_list/navbar_content&action=edit)
+
 
 iterator insert_after( const_iterator pos, const T& value ); |  (1) | (since C++11)   
 (constexpr since C++26)  
@@ -188,7 +188,7 @@ No iterators or references are invalidated.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/forward_list/insert_after&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 pos  |  \-  |  iterator after which the content will be inserted   
 ---|---|---  
@@ -197,7 +197,7 @@ count  |  \-  |  number of copies to insert
 first, last  |  \-  |  the pair of iterators defining the source [range](../../iterator.html#Ranges "cpp/iterator") of elements to insert   
 ilist  |  \-  |  initializer list to insert the values from   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/forward_list/insert_after&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1,2) Iterator to the inserted element.
 
@@ -207,11 +207,11 @@ ilist  |  \-  |  initializer list to insert the values from
 
 5) Iterator to the last element inserted, or pos if ilist is empty.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/forward_list/insert_after&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 If an exception is thrown for any reason, these functions have no effect ([strong exception safety guarantee](../../language/exceptions.html#Exception_safety "cpp/language/exceptions")). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/forward_list/insert_after&action=edit&section=4 "Edit section: Complexity")] Complexity
+### Complexity
 
 1,2) Constant.
 
@@ -221,7 +221,7 @@ If an exception is thrown for any reason, these functions have no effect ([stron
 
 5) Linear in ilist.size().
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/forward_list/insert_after&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -277,10 +277,10 @@ Output:
     list: {1, -6, -7, -7, -8, -9, -10, 2, 3, 4, 5}
     list: {1, -6, -7, -7, -8, -9, -10, -11, -12, -13, -14, 2, 3, 4, 5}
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/forward_list/insert_after&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ emplace_after](emplace_after.html "cpp/container/forward list/emplace after") |  constructs elements in-place after an element   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_emplace_after&action=edit)  
+(public member function)   
 ---|---  
 [ push_front](push_front.html "cpp/container/forward list/push front") |  inserts an element to the beginning   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_push_front&action=edit)
+(public member function) 

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Null-terminated byte strings](../byte.html "cpp/string/byte")
 
@@ -143,7 +143,7 @@
 | [strerror](strerror.html "cpp/string/byte/strerror")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/navbar_content&action=edit)
+
 
 Defined in header `[<cstring>](../../header/cstring.html "cpp/header/cstring")` |  |   
 ---|---|---  
@@ -167,13 +167,13 @@ The behavior is undefined when access occurs past the end of either array lhs or
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/strncmp&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 lhs, rhs  |  \-  |  pointers to the possibly null-terminated arrays to compare   
 ---|---|---  
 count  |  \-  |  maximum number of characters to compare   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/strncmp&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Negative value if lhs appears before rhs in lexicographical order. 
 
@@ -181,11 +181,11 @@ Zero if lhs and rhs compare equal, or if count is zero.
 
 Positive value if lhs appears after rhs in lexicographical order. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/strncmp&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 This function is not locale-sensitive, unlike [std::strcoll](strcoll.html "cpp/string/byte/strcoll") and [std::strxfrm](strxfrm.html "cpp/string/byte/strxfrm"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/strncmp&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -223,15 +223,15 @@ Output:
     First 7 chars of [Hello, everybody!] equal [Hello, world!]
     First 5 chars of [body!] equal [body!]
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/strncmp&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ strcmp](strcmp.html "cpp/string/byte/strcmp") |  compares two strings   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strcmp&action=edit)  
+(function)   
 ---|---  
 [ wcsncmp](../wide/wcsncmp.html "cpp/string/wide/wcsncmp") |  compares a certain amount of characters from two wide strings   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wcsncmp&action=edit)  
+(function)   
 [ memcmp](memcmp.html "cpp/string/byte/memcmp") |  compares two buffers   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_memcmp&action=edit)  
+(function)   
 [ strcoll](strcoll.html "cpp/string/byte/strcoll") |  compares two strings in accordance to the current locale   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strcoll&action=edit)  
+(function)   
 [C documentation](../../../c/string/byte/strncmp.html "c/string/byte/strncmp") for strncmp

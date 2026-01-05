@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::variant`](../variant.html "cpp/utility/variant")
 
@@ -161,7 +161,7 @@ Common vocabulary types
 [Helper objects](../variant.html#Helper_objects "cpp/utility/variant")  
 [variant_npos](variant_npos.html "cpp/utility/variant/variant npos")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variant/navbar_content&action=edit)
+
 
 void swap( variant& rhs ) noexcept(/* see below */); |  | (since C++17)   
 (constexpr since C++20)  
@@ -191,16 +191,16 @@ The program is ill-formed unless type `T_i` are [Swappable](../../named_req/Swap
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variant/swap&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 rhs  |  \-  |  a `variant` object to swap with   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variant/swap&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variant/swap&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 If this->index() == rhs.index(), may throw any exception thrown by swap(*[std::get_if](get_if.html)<i>(this), *[std::get_if](get_if.html)<i>([std::addressof](../../memory/addressof.html)(rhs))) with i being [`index()`](index.html "cpp/utility/variant/index"). 
 
@@ -211,14 +211,14 @@ Otherwise, may throw any exception thrown by the move constructors of the altern
 noexcept((([std::is_nothrow_move_constructible_v](../../types/is_move_constructible.html)<Types> &&  
 [std::is_nothrow_swappable_v](../../types/is_swappable.html)<Types>) && ...))
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variant/swap&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../feature_test.html "cpp/utility/feature test") macro  | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_variant`](../../experimental/feature_test.html#cpp_lib_variant "cpp/feature test") | [`202106L`](../../compiler_support/20.html#cpp_lib_variant_202106L "cpp/compiler support/20") | (C++20)  
 (DR) | Fully constexpr `std::variant`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variant/swap&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -243,7 +243,7 @@ Output:
     2 abc
     abc 2
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variant/swap&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -251,10 +251,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [P2231R1](https://wg21.link/P2231R1) | C++20  | `swap` was not constexpr while non-trivial destructors can be constexpr in C++20  | made constexpr  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variant/swap&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ std::swap(std::variant)](swap2.html "cpp/utility/variant/swap2")(C++17) |  specializes the [std::swap](../swap.html "cpp/algorithm/swap") algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variant/dsc_swap2&action=edit)  
+(function template)   
 ---|---
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

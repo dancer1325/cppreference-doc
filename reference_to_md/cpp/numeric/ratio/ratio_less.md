@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Metaprogramming library](../../meta.html "cpp/meta")
 
@@ -167,7 +167,7 @@ Type transformations
 Compile-time integer sequences  
 [integer_sequence](../../utility/integer_sequence.html "cpp/utility/integer sequence")(C++14)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/meta/navbar_content&action=edit)
+
 
 [Compile time rational arithmetic](../../utility/ratio.html "cpp/numeric/ratio")
 
@@ -186,7 +186,7 @@ Comparison
 [ratio_greater](ratio_greater.html "cpp/numeric/ratio/ratio greater")(C++11)  
 [ratio_greater_equal](ratio_greater_equal.html "cpp/numeric/ratio/ratio greater equal")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/ratio/navbar_content&action=edit)
+
 
 Defined in header `[<ratio>](../../header/ratio.html "cpp/header/ratio")` |  |   
 ---|---|---  
@@ -209,14 +209,14 @@ If the ratio `R1` is less than the ratio `R2`, provides the member constant valu
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/ratio/ratio_less&action=edit&section=1 "Edit section: Helper variable template")] Helper variable template
+### Helper variable template
 
 template< class R1, class R2 >  
 constexpr bool ratio_less_v = ratio_less<R1, R2>::value; |  |  (since C++17)  
 ---|---|---  
 | |   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/integral_constant/inherit2&action=edit)
+
 
 ##  Inherited from [ std::integral_constant](../../types/integral_constant.html "cpp/types/integral constant")
 
@@ -241,7 +241,7 @@ Type  |  Definition
 `value_type` |  bool  
 `type` |  [std::integral_constant](../../types/integral_constant.html)<bool, value>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/ratio/ratio_less&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -264,8 +264,8 @@ Output:
     
     23/30 < 7/9
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/ratio/ratio_less&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ ratio_greater](ratio_greater.html "cpp/numeric/ratio/ratio greater")(C++11) |  compares two `ratio` objects for _greater than_ at compile-time   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/ratio/dsc_ratio_greater&action=edit)  
+(class template)   
 ---|---

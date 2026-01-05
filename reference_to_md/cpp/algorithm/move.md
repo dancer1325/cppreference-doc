@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](ranges/copy.html "cpp/algorithm/ra
 [uninitialized_default_construct_n](../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -334,7 +334,7 @@ If d_first is within the range `[`first`, `last`)`, the behavior is undefined. I
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/move&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  the pair of iterators defining the source [range](../iterator.html#Ranges "cpp/iterator") of elements to move   
 ---|---|---  
@@ -345,15 +345,15 @@ Type requirements
 -`OutputIt` must meet the requirements of [LegacyOutputIterator](../named_req/OutputIterator.html "cpp/named req/OutputIterator").   
 -`ForwardIt1, ForwardIt2` must meet the requirements of [LegacyForwardIterator](../named_req/ForwardIterator.html "cpp/named req/ForwardIterator").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/move&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The iterator to the element past the last element moved. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/move&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Exactly [std::distance](../iterator/distance.html)(first, last) move assignments. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/move&action=edit&section=4 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 The overload with a template parameter named `ExecutionPolicy` reports errors as follows: 
 
@@ -362,7 +362,7 @@ The overload with a template parameter named `ExecutionPolicy` reports errors as
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/move&action=edit&section=5 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     template<class InputIt, class OutputIt>
@@ -376,11 +376,11 @@ The overload with a template parameter named `ExecutionPolicy` reports errors as
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/move&action=edit&section=6 "Edit section: Notes")] Notes
+### Notes
 
 When moving overlapping ranges, `std::move` is appropriate when moving to the left (beginning of the destination range is outside the source range) while [std::move_backward](move_backward.html "cpp/algorithm/move backward") is appropriate when moving to the right (end of the destination range is outside the source range). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/move&action=edit&section=7 "Edit section: Example")] Example
+### Example
 
 The following code moves thread objects (which themselves are not copyable) from one container to another. 
 
@@ -420,12 +420,12 @@ Output:
     thread 2 ended
     thread 3 ended
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/move&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [ move_backward](move_backward.html "cpp/algorithm/move backward")(C++11) |  moves a range of elements to a new location in backwards order   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_move_backward&action=edit)  
+(function template)   
 ---|---  
 [ move](../utility/move.html "cpp/utility/move")(C++11) |  converts the argument to an xvalue   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_move&action=edit)  
+(function template)   
 [ ranges::move](ranges/move.html "cpp/algorithm/ranges/move")(C++20) |  moves a range of elements to a new location  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_move&action=edit)
+(algorithm function object)

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](../empty.html "cpp/iterator/empty")(C++17)  
 [data](../data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 [`std::common_iterator`](../common_iterator.html "cpp/iterator/common iterator")
 
@@ -213,7 +213,7 @@
 **incrementable_traits <std::common_iterator>**(C++20)  
 [iterator_traits<std::common_iterator>](iterator_traits.html "cpp/iterator/common iterator/iterator traits")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/common_iterator/navbar_content&action=edit)
+
 
 Defined in header `[<iterator>](../../header/iterator.html "cpp/header/iterator")` |  |   
 ---|---|---  
@@ -225,7 +225,7 @@ using difference_type = [std::iter_difference_t](../iter_t.html)<I>;
   
 Provides the uniform interface to the associated difference type of the [std::common_iterator](../common_iterator.html "cpp/iterator/common iterator") type. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/common_iterator/incrementable_traits&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -252,12 +252,12 @@ Run this code
                          [std::ptrdiff_t](../../types/ptrdiff_t.html)>);
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/common_iterator/incrementable_traits&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ incrementable_traits](../incrementable_traits.html "cpp/iterator/incrementable traits")(C++20) |  computes the difference type of a [`weakly_incrementable`](../weakly_incrementable.html "cpp/iterator/weakly incrementable") type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_incrementable_traits&action=edit)  
+(class template)   
 ---|---  
 [ iter_value_titer_reference_titer_const_reference_titer_difference_titer_rvalue_reference_titer_common_reference_t](../iter_t.html "cpp/iterator/iter t")(C++20)(C++20)(C++23)(C++20)(C++20)(C++20) |  computes the associated types of an iterator  
-(alias template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_iter_t&action=edit)  
+(alias template)  
 [ std::iterator_traits<std::common_iterator>](iterator_traits.html "cpp/iterator/common iterator/iterator traits")(C++20) |  provides uniform interface to the properties of the [std::common_iterator](../common_iterator.html "cpp/iterator/common iterator") type   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/common_iterator/dsc_iterator_traits&action=edit)
+(class template specialization) 

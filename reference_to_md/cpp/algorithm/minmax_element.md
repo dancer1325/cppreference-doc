@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](ranges/copy.html "cpp/algorithm/ra
 [uninitialized_default_construct_n](../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -344,7 +344,7 @@ These overloads participate in overload resolution only if all following conditi
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/minmax_element&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  the pair of iterators defining the [range](../iterator.html#Ranges "cpp/iterator") of elements to examine   
 ---|---|---  
@@ -355,11 +355,11 @@ The types Type1 and Type2 must be such that an object of type ForwardIt can be d
 Type requirements   
 -`ForwardIt` must meet the requirements of [LegacyForwardIterator](../named_req/ForwardIterator.html "cpp/named req/ForwardIterator").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/minmax_element&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 a pair consisting of an iterator to the smallest element as the first element and an iterator to the greatest element as the second. Returns [std::make_pair](../utility/pair/make_pair.html)(first, first) if the range is empty. If several elements are equivalent to the smallest element, the iterator to the first such element is returned. If several elements are equivalent to the largest element, the iterator to the last such element is returned. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/minmax_element&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Given \\(\scriptsize N\\)N as [std::distance](../iterator/distance.html)(first, last): 
 
@@ -373,7 +373,7 @@ Given \\(\scriptsize N\\)N as [std::distance](../iterator/distance.html)(first, 
 2  
 (N-1)⌋,0) applications of the comparison function comp.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/minmax_element&action=edit&section=4 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 The overloads with a template parameter named `ExecutionPolicy` report errors as follows: 
 
@@ -382,7 +382,7 @@ The overloads with a template parameter named `ExecutionPolicy` report errors as
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/minmax_element&action=edit&section=5 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
 
 [minmax_element](minmax_element.html#Version_1)  
 ---  
@@ -445,11 +445,11 @@ The overloads with a template parameter named `ExecutionPolicy` report errors as
         return {min, max};
     }  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/minmax_element&action=edit&section=6 "Edit section: Notes")] Notes
+### Notes
 
 This algorithm is different from [std::make_pair](../utility/pair/make_pair.html)([std::min_element](min_element.html)(), [std::max_element](max_element.html)()), not only in efficiency, but also in that this algorithm finds the _last_ biggest element while [std::max_element](max_element.html "cpp/algorithm/max element") finds the _first_ biggest element. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/minmax_element&action=edit&section=7 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -470,12 +470,12 @@ Output:
     
     min = 1, max = 9
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/minmax_element&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [ min_element](min_element.html "cpp/algorithm/min element") |  returns the smallest element in a range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_min_element&action=edit)  
+(function template)   
 ---|---  
 [ max_element](max_element.html "cpp/algorithm/max element") |  returns the largest element in a range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_max_element&action=edit)  
+(function template)   
 [ ranges::minmax_element](ranges/minmax_element.html "cpp/algorithm/ranges/minmax element")(C++20) |  returns the smallest and the largest elements in a range  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_minmax_element&action=edit)
+(algorithm function object)

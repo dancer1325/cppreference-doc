@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::packaged_task`](../packaged_task.html "cpp/thread/packaged task")
 
@@ -196,7 +196,7 @@ Helper classes
 [uses_allocator<std::packaged_task>](uses_allocator.html "cpp/thread/packaged task/uses allocator")(until C++17)  
 [Deduction guides](deduction_guides.html "cpp/thread/packaged task/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/packaged_task/navbar_content&action=edit)
+
 
 ~packaged_task(); |  |   
 ---|---|---  
@@ -206,11 +206,11 @@ Abandons the shared state and destroys the stored task object.
 
 As with [std::promise::~promise](../promise/~promise.html "cpp/thread/promise/~promise"), if the shared state is abandoned before it was made ready, an [std::future_error](../future_error.html "cpp/thread/future error") exception is stored with the error code [std::future_errc::broken_promise](../future_errc.html "cpp/thread/future errc")). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/packaged_task/%7Epackaged_task&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/packaged_task/%7Epackaged_task&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

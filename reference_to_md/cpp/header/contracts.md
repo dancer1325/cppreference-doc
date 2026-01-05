@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header is part of the [language support](../utility.html "cpp/utility") library. 
 
@@ -214,21 +214,21 @@ This header is part of the [language support](../utility.html "cpp/utility") lib
   
 Defined in namespace `std::contracts`  
 [ assertion_kind](../contract/assertion_kind.html "cpp/contract/assertion kind")(C++26) |  the kind of the contract assertion violated   
-(enum) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/contract/dsc_assertion_kind&action=edit)  
+(enum)   
 [ evaluation_semantic](../contract/evaluation_semantic.html "cpp/contract/evaluation semantic")(C++26) |  the evaluation semantic when the contract violation occurs   
-(enum) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/contract/dsc_evaluation_semantic&action=edit)  
+(enum)   
 [ detection_mode](../contract/detection_mode.html "cpp/contract/detection mode")(C++26) |  the reason that causes the contract violation   
-(enum) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/contract/dsc_detection_mode&action=edit)  
+(enum)   
 [ contract_violation](../contract/contract_violation.html "cpp/contract/contract violation")(C++26) |  the type holding the contract-violation information   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/contract/dsc_contract_violation&action=edit)  
+(class)   
   
 ###  Functions  
   
 Defined in namespace `std::contracts`  
 [ invoke_default_contract_violation_handler](../contract/invoke_default_contract_violation_handler.html "cpp/contract/invoke default contract violation handler")(C++26) |  invokes the default contract-violation handler   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/contract/dsc_invoke_default_contract_violation_handler&action=edit)  
+(function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/contracts&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     // all freestanding
@@ -258,7 +258,7 @@ Defined in namespace `std::contracts`
       void invoke_default_contract_violation_handler(const contract_violation&);
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/contracts&action=edit&section=T-1 "Template:cpp/synopsis/contracts")] Class std::contracts::contract_violation
+#### Class std::contracts::contract_violation
     
     
     namespace std::contracts {

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 The following chart contains all 128 ASCII decimal **(dec)** , octal **(oct)** , hexadecimal **(hex)** and character **(ch)** codes. 
 
@@ -261,7 +261,7 @@ The following chart contains all 128 ASCII decimal **(dec)** , octal **(oct)** ,
   
 Note: in Unicode, the ASCII character block is known as [`U+0000..U+007F` Basic Latin](https://www.unicode.org/charts/PDF/U0000.pdf). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/ascii&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -284,7 +284,7 @@ Possible output:
     @ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z [ \ ] ^ _
     ` a b c d e f g h i j k l m n o p q r s t u v w x y z { | } ~
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/ascii&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [C documentation](../../c/language/ascii.html "c/language/ascii") for ASCII Chart  
 ---

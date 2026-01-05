@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::weak_ptr`](../weak_ptr.html "cpp/memory/weak ptr")
 
@@ -209,7 +209,7 @@ Helper classes
 [atomic<std::weak_ptr>](atomic2.html "cpp/memory/weak ptr/atomic2")(C++20)  
 [Deduction guides](deduction_guides.html "cpp/memory/weak ptr/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/weak_ptr/navbar_content&action=edit)
+
 
 ~weak_ptr(); |  |  (since C++11)  
 ---|---|---  
@@ -217,7 +217,7 @@ Helper classes
   
 Destroys the `weak_ptr` object. Results in no effect to the managed object. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/weak_ptr/%7Eweak_ptr&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
 The program shows the effect of "non-breaking" the cycle of [std::shared_ptr](../shared_ptr.html "cpp/memory/shared ptr")s.
 
@@ -282,8 +282,8 @@ Output:
     All links are shared pointers
     Leaving...
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/weak_ptr/%7Eweak_ptr&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ (destructor)](../shared_ptr/~shared_ptr.html "cpp/memory/shared ptr/~shared ptr") |  destructs the owned object if no more `shared_ptr`s link to it   
-(public member function of `std::shared_ptr<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/dsc_destructor&action=edit)  
+(public member function of `std::shared_ptr<T>`)   
 ---|---

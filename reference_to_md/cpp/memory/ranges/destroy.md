@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 Defined in header `[<memory>](../../header/memory.html "cpp/header/memory")` |  |   
 ---|---|---  
@@ -226,21 +226,21 @@ The function-like entities described on this page are [_algorithm function objec
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/ranges/destroy&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  the iterator-sentinel pair defining the [range](../../iterator.html#Ranges "cpp/iterator") of elements to destroy   
 ---|---|---  
 r  |  \-  |  the [`range`](../../ranges/range.html "cpp/ranges/range") to destroy   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/ranges/destroy&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 An iterator compares equal to last. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/ranges/destroy&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Linear in the distance between first and last. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/ranges/destroy&action=edit&section=4 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     struct destroy_fn
@@ -266,7 +266,7 @@ Linear in the distance between first and last.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/ranges/destroy&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 The following example demonstrates how to use `ranges::destroy` to destroy a contiguous sequence of elements.
 
@@ -307,12 +307,12 @@ Output:
     6 destructed
     7 destructed
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/ranges/destroy&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ ranges::destroy_n](destroy_n.html "cpp/memory/ranges/destroy n")(C++20) |  destroys a number of objects in a range  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/ranges/dsc_destroy_n&action=edit)  
+(algorithm function object)  
 ---|---  
 [ ranges::destroy_at](destroy_at.html "cpp/memory/ranges/destroy at")(C++20) |  destroys an object at a given address  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/ranges/dsc_destroy_at&action=edit)  
+(algorithm function object)  
 [ destroy](../destroy.html "cpp/memory/destroy")(C++17) |  destroys a range of objects   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_destroy&action=edit)
+(function template) 

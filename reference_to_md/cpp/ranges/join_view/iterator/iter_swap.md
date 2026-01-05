@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::join_view`](../../join_view.html "cpp/ranges/join view")
 
@@ -251,7 +251,7 @@ join_view::_iterator_ ::operator--(int)](operator_arith.html "cpp/ranges/join vi
 [join_view::_sentinel_ ::_sentinel_](../sentinel/sentinel.html "cpp/ranges/join view/sentinel/sentinel")  
 [operator==(join_view::_iterator_ ,join_view::_sentinel_)](../sentinel/operator_cmp.html "cpp/ranges/join view/sentinel/operator cmp")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/join_view/navbar_content&action=edit)
+
 
 friend constexpr void iter_swap( const /*iterator*/& x, const /*iterator*/& y )  
 noexcept( /*see below*/ )  
@@ -275,25 +275,25 @@ This function is not visible to ordinary [unqualified](../../../language/unquali
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/join_view/iterator/iter_swap&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 x, y  |  \-  |  iterators   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/join_view/iterator/iter_swap&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/join_view/iterator/iter_swap&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 [`noexcept`](../../../language/noexcept_spec.html "cpp/language/noexcept spec") specification: 
 
 noexcept(noexcept([ranges::iter_swap](../../../iterator/ranges/iter_swap.html)(x.inner_, y.inner_)))
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/join_view/iterator/iter_swap&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ iter_swap](../../../iterator/ranges/iter_swap.html "cpp/iterator/ranges/iter swap")(C++20) |  swaps the values referenced by two dereferenceable objects  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/ranges/dsc_iter_swap&action=edit)  
+(customization point object)  
 ---|---  
 [ iter_swap](../../../algorithm/iter_swap.html "cpp/algorithm/iter swap") |  swaps the elements pointed to by two iterators   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_iter_swap&action=edit)
+(function template) 

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [C-style I/O](../c.html "cpp/io/c")
 
@@ -176,7 +176,7 @@ Operations on files
 [tmpfile](tmpfile.html "cpp/io/c/tmpfile")  
 [tmpnam](tmpnam.html "cpp/io/c/tmpnam")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/navbar_content&action=edit)
+
 
 Defined in header `[<cstdio>](../../header/cstdio.html "cpp/header/cstdio")` |  |   
 ---|---|---  
@@ -200,19 +200,19 @@ In C, [putc()](../../../c/io/putc.html "c/io/putc") may be implemented as a macr
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/fputc&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 ch  |  \-  |  character to be written   
 ---|---|---  
 stream  |  \-  |  output stream   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/fputc&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 On success, returns the written character. 
 
 On failure, returns [EOF](../c.html "cpp/io/c") and sets the _error_ indicator (see [std::ferror()](ferror.html "cpp/io/c/ferror")) on stream. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/fputc&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -240,9 +240,9 @@ Possible output:
     *
     r = 0x2A
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/fputc&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ putchar](putchar.html "cpp/io/c/putchar") |  writes a character to [stdout](std_streams.html "cpp/io/c/std streams")   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_putchar&action=edit)  
+(function)   
 ---|---  
 [C documentation](../../../c/io/putc.html "c/io/fputc") for fputc, putc

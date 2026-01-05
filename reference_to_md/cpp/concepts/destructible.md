@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concepts library](../concepts.html "cpp/concepts")
 
@@ -73,7 +73,7 @@
 ---  
 [_boolean-testable_](boolean-testable.html "cpp/concepts/boolean-testable") ﻿(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/navbar_content&action=edit)
+
 
 Defined in header `[<concepts>](../header/concepts.html "cpp/header/concepts")` |  |   
 ---|---|---  
@@ -83,11 +83,11 @@ concept destructible = [std::is_nothrow_destructible_v](../types/is_destructible
   
 The concept `destructible` specifies the concept of all types whose instances can safely be destroyed at the end of their lifetime (including reference types). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/concepts/destructible&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 Unlike the [Destructible](../named_req/Destructible.html "cpp/named req/Destructible") named requirement, `std::destructible` requires the destructor to be noexcept(true), not merely non-throwing when invoked, and allows reference types and array types. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/concepts/destructible&action=edit&section=2 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -109,8 +109,8 @@ Unlike the [Destructible](../named_req/Destructible.html "cpp/named req/Destruct
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/concepts/destructible&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ is_destructibleis_trivially_destructibleis_nothrow_destructible](../types/is_destructible.html "cpp/types/is destructible")(C++11)(C++11)(C++11) |  checks if a type has a non-deleted destructor   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_destructible&action=edit)  
+(class template)   
 ---|---

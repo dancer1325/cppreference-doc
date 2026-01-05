@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [`std::text_encoding`](../../locale/text_encoding.html "cpp/text/text encoding")
 
@@ -79,7 +79,7 @@
 [Helper classes](../../locale/text_encoding.html#Helper_classes "cpp/text/text encoding")  
 [hash<std::text_encoding>](hash.html "cpp/text/text encoding/hash")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/text_encoding/navbar_content&action=edit)
+
 
 friend constexpr bool operator==( const text_encoding& a,   
 const text_encoding& b ) noexcept; |  (1)  |  (since C++26)  
@@ -107,13 +107,13 @@ The `!=` operator is [synthesized](../../language/default_comparisons.html#Other
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/text/text_encoding/operator_eq&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 a, b  |  \-  |  `text_encoding` objects to compare   
 ---|---|---  
 i  |  \-  |  `id` value to compare with the MIBenum value contained in a  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/text/text_encoding/operator_eq&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) a.mib() == id::other && b.mib() == id::other  
 ` `?` `` _comp-name_` (a.name(), b.name())  
@@ -121,14 +121,14 @@ i  |  \-  |  `id` value to compare with the MIBenum value contained in a
 
 2) a.mib() == i.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/text/text_encoding/operator_eq&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/text/text_encoding/operator_eq&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ operator==operator!=](../../locale/locale/operator_cmp.html "cpp/locale/locale/operator cmp")(removed in C++20) |  equality comparison between locale objects   
-(public member function of `std::locale`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/locale/dsc_operator_cmp&action=edit)  
+(public member function of `std::locale`)   
 ---|---

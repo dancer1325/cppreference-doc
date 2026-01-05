@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 Defined in header `[<ranges>](../header/ranges.html "cpp/header/ranges")` |  |   
 ---|---|---  
@@ -235,7 +235,7 @@ concept common_range =
   
 The `common_range` concept is a refinement of [`range`](range.html "cpp/ranges/range") for which [std::ranges::begin()](begin.html "cpp/ranges/begin") and [std::ranges::end()](end.html "cpp/ranges/end") return the same type (e.g. all standard library containers). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/common_range&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -264,8 +264,8 @@ Run this code
      
     int main() {}
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/common_range&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ ranges::common_viewviews::common](common_view.html "cpp/ranges/common view")(C++20) |  converts a [`view`](view.html "cpp/ranges/view") into a **`common_range`**  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_common_view&action=edit)  
+(class template) (range adaptor object)  
 ---|---

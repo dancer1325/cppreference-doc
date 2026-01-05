@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Strings library](../../string.html "cpp/string")
 
@@ -40,7 +40,7 @@ Classes
 [basic_string_view](../basic_string_view.html "cpp/string/basic string view")(C++17)  
 [char_traits](../char_traits.html "cpp/string/char traits")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/navbar_content&action=edit)
+
 
 [`std::basic_string`](../basic_string.html "cpp/string/basic string")
 
@@ -133,7 +133,7 @@ basic_string_view](operator_basic_string_view.html "cpp/string/basic string/oper
 [hash<std::basic_string>](hash.html "cpp/string/basic string/hash")(C++11)  
 [Deduction guides](deduction_guides.html "cpp/string/basic string/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/navbar_content&action=edit)
+
 
 basic_string& replace( size_type pos, size_type count,  
 const basic_string& str ); |  (1)  |  (constexpr since C++20)  
@@ -223,7 +223,7 @@ If `[`begin()`, `first`)` or `[`first`, `last`)` is not a [valid range](../../it
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/replace&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 pos  |  \-  |  start of the substring that is going to be replaced   
 ---|---|---  
@@ -240,11 +240,11 @@ t  |  \-  |  object (convertible to [std::basic_string_view](../basic_string_vie
 Type requirements   
 -`InputIt` must meet the requirements of [LegacyInputIterator](../../named_req/InputIterator.html "cpp/named req/InputIterator").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/replace&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 *this. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/replace&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 1) Throws [std::out_of_range](../../error/out_of_range.html "cpp/error/out of range") if pos > size().
 
@@ -258,13 +258,13 @@ If the operation would cause [`size()`](size.html "cpp/string/basic string/size"
 
 If an exception is thrown for any reason, these functions have no effect ([strong exception safety guarantee](../../language/exceptions.html#Exception_safety "cpp/language/exceptions")). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/replace&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/replace&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -274,12 +274,12 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [LWG 1323](https://cplusplus.github.io/LWG/issue1323) | C++98  | the types of first and last were `iterator` | changed to `const_iterator`  
 [LWG 2946](https://cplusplus.github.io/LWG/issue2946) | C++17  | overloads (12,13) caused ambiguity in some cases  | avoided by making them templates   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/replace&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ replace_with_range](replace_with_range.html "cpp/string/basic string/replace with range")(C++23) |  replaces specified portion of a string with a range of characters   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_replace_with_range&action=edit)  
+(public member function)   
 ---|---  
 [ regex_replace](../../regex/regex_replace.html "cpp/regex/regex replace")(C++11) |  replaces occurrences of a regular expression with formatted replacement text   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/dsc_regex_replace&action=edit)  
+(function template)   
 [ replacereplace_if](../../algorithm/replace.html "cpp/algorithm/replace") |  replaces all values satisfying specific criteria with another value   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_replace&action=edit)
+(function template) 

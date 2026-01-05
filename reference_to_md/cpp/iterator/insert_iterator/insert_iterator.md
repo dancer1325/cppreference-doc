@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../../iterator.html "cpp/iterator")
 
@@ -196,7 +196,7 @@
 [empty](../empty.html "cpp/iterator/empty")(C++17)  
 [data](../data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 [`std::insert_iterator`](../insert_iterator.html "cpp/iterator/insert iterator")
 
@@ -207,7 +207,7 @@ Member functions
 [insert_iterator::operator*](operator*.html "cpp/iterator/insert iterator/operator*")  
 [insert_iterator::operator++insert_iterator::operator++(int)](operator++.html "cpp/iterator/insert iterator/operator++")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/insert_iterator/navbar_content&action=edit)
+
 
 insert_iterator( Container& c, typename Container::iterator i ); |  | (until C++20)  
 ---|---|---  
@@ -216,13 +216,13 @@ constexpr insert_iterator( Container& c, [ranges::iterator_t](../../ranges/itera
   
 Initializes the underlying pointer to the container to [std::addressof](../../memory/addressof.html)(c) and the underlying iterator to i. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/inserter/constructor&action=edit&section=T-1 "Template:cpp/iterator/inserter/constructor")] Parameters
+### Parameters
 
 c  |  \-  |  container to initialize the inserter with   
 ---|---|---  
 i  |  \-  |  iterator to initialize the inserter with   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/inserter/constructor&action=edit&section=T-2 "Template:cpp/iterator/inserter/constructor")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

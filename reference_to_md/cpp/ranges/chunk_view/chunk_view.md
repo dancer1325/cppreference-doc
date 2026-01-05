@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::chunk_view`](../chunk_view.html "cpp/ranges/chunk view")
 
@@ -299,7 +299,7 @@ operator-(chunk_view::_iterator_)](iterator/operator_arith2.html "cpp/ranges/chu
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/chunk_view/navbar_content&action=edit)
+
 
 constexpr explicit chunk_view( V base, [ranges::range_difference_t](../range_size_t.html)<V> n ); |  |  (since C++23)  
 ---|---|---  
@@ -321,13 +321,13 @@ In addition, if `V` models exactly the [`input_range`](../input_range.html "cpp/
 
 The behavior is undefined if n is less than or equal to ​0​. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/chunk_view/chunk_view&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 base  |  \-  |  the adapted view   
 ---|---|---  
 n  |  \-  |  the chunk size   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/chunk_view/chunk_view&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     

@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::deque`](../deque.html "cpp/container/deque")
 
@@ -134,7 +134,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/deque/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/deque/navbar_content&action=edit)
+
 
 void assign( size_type count, const T& value ); |  (1) | (constexpr since C++26)  
 ---|---|---  
@@ -171,7 +171,7 @@ All iterators (including the [`end()`](end.html "cpp/container/deque/end") itera
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/assign&action=edit&section=T-1 "Template:cpp/container/assign")] Parameters
+### Parameters
 
 count  |  \-  |  the new size of the container   
 ---|---|---  
@@ -179,7 +179,7 @@ value  |  \-  |  the value to initialize elements of the container with
 first, last  |  \-  |  the pair of iterators defining the source [range](../../iterator.html#Ranges "cpp/iterator") of elements to copy   
 ilist  |  \-  |  [std::initializer_list](../../utility/initializer_list.html "cpp/utility/initializer list") to copy the values from   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/assign&action=edit&section=T-2 "Template:cpp/container/assign")] Complexity
+### Complexity
 
 1) Linear in count.
 
@@ -187,7 +187,7 @@ ilist  |  \-  |  [std::initializer_list](../../utility/initializer_list.html "cp
 
 3) Linear in ilist.size().
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/assign&action=edit&section=T-4 "Template:cpp/container/assign")] Example
+### Example
 
 The following code uses `assign` to add several characters to a [std::deque](../deque.html)<char>:
 
@@ -237,10 +237,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 erasing all existing elements followed by inserting the given elements  | removed the  
 requirement   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/assign&action=edit&section=T-6 "Template:cpp/container/assign")] See also
+### See also
 
 [ assign_range](assign_range.html "cpp/container/deque/assign range")(C++23) |  assigns a range of values to the container   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_assign_range&action=edit)  
+(public member function)   
 ---|---  
 [ operator=](operator=.html "cpp/container/deque/operator=") |  assigns values to the container   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_operator%3D&action=edit)
+(public member function) 

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -71,7 +71,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::inplace_vector`](../inplace_vector.html "cpp/container/inplace vector")
 
@@ -132,7 +132,7 @@ Tables
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/inplace_vector/navbar_content&action=edit)
+
 
 template< class... Args >  
 constexpr pointer try_emplace_back( Args&&... args ); |  |  (since C++26)  
@@ -158,32 +158,32 @@ No iterators or references are invalidated, except [`end()`](end.html "cpp/conta
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/inplace_vector/try_emplace_back&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 args  |  \-  |  arguments to forward to the constructor of the element   
 ---|---|---  
 Type requirements   
 -`T` must be [EmplaceConstructible](../../named_req/EmplaceConstructible.html "cpp/named req/EmplaceConstructible") into `inplace_vector` from [std::forward](../../utility/forward.html)<Args>(args)....   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/inplace_vector/try_emplace_back&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 [std::addressof](../../memory/addressof.html)(back()) if size() < capacity(), nullptr otherwise. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/inplace_vector/try_emplace_back&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Constant. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/inplace_vector/try_emplace_back&action=edit&section=4 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Any exception thrown by initialization of inserted element. If an exception is thrown for any reason, this function has no effect ([strong exception safety guarantee](../../language/exceptions.html#Exception_safety "cpp/language/exceptions")). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/inplace_vector/try_emplace_back&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 | This section is incomplete  
 Reason: Explain the purpose of this API.   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/inplace_vector/try_emplace_back&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -208,22 +208,22 @@ Run this code
         [assert](../../error/assert.html)((v == I{1.0 + 2.0i, 3.0 + 4.0i, 5.0 + 6.0i}));
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/inplace_vector/try_emplace_back&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ emplace_back](emplace_back.html "cpp/container/inplace vector/emplace back") |  constructs an element in-place at the end   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_emplace_back&action=edit)  
+(public member function)   
 ---|---  
 [ push_back](push_back.html "cpp/container/inplace vector/push back") |  adds an element to the end   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_push_back&action=edit)  
+(public member function)   
 [ append_range](append_range.html "cpp/container/inplace vector/append range") |  adds a range of elements to the end   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_append_range&action=edit)  
+(public member function)   
 [ try_append_range](try_append_range.html "cpp/container/inplace vector/try append range") |  tries to add a range of elements to the end   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_try_append_range&action=edit)  
+(public member function)   
 [ unchecked_emplace_back](unchecked_emplace_back.html "cpp/container/inplace vector/unchecked emplace back") |  unconditionally constructs an element in-place at the end   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_unchecked_emplace_back&action=edit)  
+(public member function)   
 [ unchecked_push_back](unchecked_push_back.html "cpp/container/inplace vector/unchecked push back") |  unconditionally adds an element to the end   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_unchecked_push_back&action=edit)  
+(public member function)   
 [ pop_back](pop_back.html "cpp/container/inplace vector/pop back") |  removes the last element   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_pop_back&action=edit)  
+(public member function)   
 [ back_inserter](../../iterator/back_inserter.html "cpp/iterator/back inserter") |  creates a [std::back_insert_iterator](../../iterator/back_insert_iterator.html "cpp/iterator/back insert iterator") of type inferred from the argument   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_back_inserter&action=edit)
+(function template) 

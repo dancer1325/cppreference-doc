@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Function objects](../../functional.html "cpp/utility/functional")
 
@@ -255,7 +255,7 @@ Identity function object
 [unary_negate](unary_negate.html "cpp/utility/functional/unary negate")(until C++20*)  
 [binary_negate](binary_negate.html "cpp/utility/functional/binary negate")(until C++20*)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/navbar_content&action=edit)
+
 
 **`std::function`**
 
@@ -277,7 +277,7 @@ Identity function object
 [uses_allocator<std::function>](function/uses_allocator.html "cpp/utility/functional/function/uses allocator")(until C++17)  
 [Deduction guides](function/deduction_guides.html "cpp/utility/functional/function/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/function/navbar_content&action=edit)
+
 
 Defined in header `[<functional>](../../header/functional.html "cpp/header/functional")` |  |   
 ---|---|---  
@@ -308,7 +308,7 @@ The stored callable object is called the _target_ of `std::function`. If a `std:
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/function&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Type  |  Definition   
 ---|---  
@@ -320,48 +320,48 @@ Type  |  Definition
 `second_argument_type`  
 (deprecated in C++17)(removed in C++20) |  `T2` if sizeof...(Args)==2 and `T2` is the second of the two types in `Args...`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/function&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](function/function.html "cpp/utility/functional/function/function") |  constructs a new `std::function` instance   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/function/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ (destructor)](function/~function.html "cpp/utility/functional/function/~function") |  destroys a `std::function` instance   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/function/dsc_destructor&action=edit)  
+(public member function)   
 [ operator=](function/operator=.html "cpp/utility/functional/function/operator=") |  assigns a new target   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/function/dsc_operator%3D&action=edit)  
+(public member function)   
 [ swap](function/swap.html "cpp/utility/functional/function/swap") |  swaps the contents   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/function/dsc_swap&action=edit)  
+(public member function)   
 [ assign](function/assign.html "cpp/utility/functional/function/assign")(removed in C++17) |  assigns a new target   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/function/dsc_assign&action=edit)  
+(public member function)   
 [ operator bool](function/operator_bool.html "cpp/utility/functional/function/operator bool") |  checks if a target is contained   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/function/dsc_operator_bool&action=edit)  
+(public member function)   
 [ operator()](function/operator\(\).html "cpp/utility/functional/function/operator\(\)") |  invokes the target   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/function/dsc_operator\(\)&action=edit)  
+(public member function) &action=edit)  
   
 #####  Target access   
   
 [ target_type](function/target_type.html "cpp/utility/functional/function/target type") |  obtains the typeid of the stored target   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/function/dsc_target_type&action=edit)  
+(public member function)   
 [ target](function/target.html "cpp/utility/functional/function/target") |  obtains a pointer to the stored target   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/function/dsc_target&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/function&action=edit&section=3 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ std::swap(std::function)](function/swap2.html "cpp/utility/functional/function/swap2")(C++11) |  specializes the [std::swap](../swap.html "cpp/algorithm/swap") algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/function/dsc_swap2&action=edit)  
+(function template)   
 ---|---  
 [ operator==operator!=](function/operator_cmp.html "cpp/utility/functional/function/operator cmp")(removed in C++20) |  compares a **std::function** with nullptr   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/function/dsc_operator_cmp&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/function&action=edit&section=4 "Edit section: Helper classes")] Helper classes
+### Helper classes
 
 [ std::uses_allocator<std::function>](function/uses_allocator.html "cpp/utility/functional/function/uses allocator")(C++11) (until C++17) |  specializes the [std::uses_allocator](../../memory/uses_allocator.html "cpp/memory/uses allocator") type trait   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/function/dsc_uses_allocator&action=edit)  
+(class template specialization)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/function&action=edit&section=5 "Edit section: Deduction guides\(since C++17\)")] [Deduction guides](function/deduction_guides.html "cpp/utility/functional/function/deduction guides")(since C++17)
+### [Deduction guides](function/deduction_guides.html "cpp/utility/functional/function/deduction guides")(since C++17)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/function&action=edit&section=6 "Edit section: Notes")] Notes
+### Notes
 
 Care should be taken when a `std::function`, whose result type is a reference, is initialized from a lambda expression without a trailing-return-type. Due to the way auto deduction works, such lambda expression will always return a prvalue. Hence, the resulting reference will usually bind to a temporary whose lifetime ends when [`std::function::operator()`](function/operator\(\).html "cpp/utility/functional/function/operator\(\)") returns.  | (until C++23)  
 ---|---  
@@ -376,7 +376,7 @@ If a `std::function` returning a reference is initialized from a function or fun
      
     std::function<const int&()> H([i{052}] -> const int& { return i; }); // OK
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/function&action=edit&section=7 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -467,17 +467,17 @@ Possible output:
     18
     5! = 120;  6! = 720;  7! = 5040;
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/function&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [ move_only_function](move_only_function.html "cpp/utility/functional/move only function")(C++23) |  move-only wrapper of any callable object that supports qualifiers in a given call signature   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_move_only_function&action=edit)  
+(class template)   
 ---|---  
 [ copyable_function](copyable_function.html "cpp/utility/functional/copyable function")(C++26) |  copyable wrapper of any copy constructible callable object that supports qualifiers in a given call signature   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_copyable_function&action=edit)  
+(class template)   
 [ function_ref](function_ref.html "cpp/utility/functional/function ref")(C++26) |  non-owning wrapper of any callable object   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_function_ref&action=edit)  
+(class template)   
 [ bad_function_call](bad_function_call.html "cpp/utility/functional/bad function call")(C++11) |  the exception thrown when invoking an empty **std::function**   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_bad_function_call&action=edit)  
+(class)   
 [ mem_fn](mem_fn.html "cpp/utility/functional/mem fn")(C++11) |  creates a function object out of a pointer to a member   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_mem_fn&action=edit)  
+(function template)   
 [`**typeid**`](../../language/typeid.html "cpp/language/typeid") |  queries information of a type, returning a [std::type_info](../../types/type_info.html "cpp/types/type info") object representing the type 

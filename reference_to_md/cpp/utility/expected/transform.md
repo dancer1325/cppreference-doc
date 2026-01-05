@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::expected`](../expected.html "cpp/utility/expected")
 
@@ -160,7 +160,7 @@ Common vocabulary types
 [bad_expected_access](bad_expected_access.html "cpp/utility/expected/bad expected access")  
 [unexpect_tunexpect](unexpect_t.html "cpp/utility/expected/unexpect t")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/expected/navbar_content&action=edit)
+
 
 Primary template |  |   
 ---|---|---  
@@ -232,12 +232,12 @@ If any of the following conditions is satisfied, the program is ill-formed:
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/transform&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 f  |  \-  |  a suitable function or [Callable](../../named_req/Callable.html "cpp/named req/Callable") object whose call signature returns a non-reference type   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/transform&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Given expression expr as: 
 
@@ -265,13 +265,13 @@ true | false
 ([7,8](transform.html#Version_7)) | [std::expected](../expected.html)<U, E>  
 ` `([std::unexpect](unexpect_t.html), std::move(error()))  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/transform&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/transform&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -285,8 +285,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/transform&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ transform_error](transform_error.html "cpp/utility/expected/transform error") |  returns the `expected` itself if it contains an expected value; otherwise, returns an `expected` containing the transformed unexpected value   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/expected/dsc_transform_error&action=edit)  
+(public member function)   
 ---|---

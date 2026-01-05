@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 **Program support utilities**
 
@@ -181,7 +181,7 @@ Common vocabulary types
 [Types](program.html#Types "cpp/utility/program")  
 [jmp_buf](program/jmp_buf.html "cpp/utility/program/jmp buf")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/program/navbar_content&action=edit)
+
 
 ## Contents
 
@@ -197,81 +197,81 @@ Common vocabulary types
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/program&action=edit&section=1 "Edit section: Program termination")] Program termination
+### Program termination
 
 The following functions manage program termination and resource cleanup. 
 
 Defined in header `[<cstdlib>](../header/cstdlib.html "cpp/header/cstdlib")`  
 ---  
 [ abort](program/abort.html "cpp/utility/program/abort") |  causes abnormal program termination (without cleaning up)   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/program/dsc_abort&action=edit)  
+(function)   
 [ exit](program/exit.html "cpp/utility/program/exit") |  causes normal program termination with cleaning up   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/program/dsc_exit&action=edit)  
+(function)   
 [ quick_exit](program/quick_exit.html "cpp/utility/program/quick exit")(C++11) |  causes quick program termination without completely cleaning up   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/program/dsc_quick_exit&action=edit)  
+(function)   
 [ _Exit](program/_Exit.html "cpp/utility/program/ Exit")(C++11) |  causes normal program termination without cleaning up   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/program/dsc_Exit&action=edit)  
+(function)   
 [ atexit](program/atexit.html "cpp/utility/program/atexit") |  registers a function to be called on [std::exit()](program/exit.html "cpp/utility/program/exit") invocation   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/program/dsc_atexit&action=edit)  
+(function)   
 [ at_quick_exit](program/at_quick_exit.html "cpp/utility/program/at quick exit")(C++11) |  registers a function to be called on [std::quick_exit](program/quick_exit.html "cpp/utility/program/quick exit") invocation   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/program/dsc_at_quick_exit&action=edit)  
+(function)   
 [ EXIT_SUCCESSEXIT_FAILURE](program/EXIT_status.html "cpp/utility/program/EXIT status") |  indicates program execution status   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/program/dsc_EXIT_status&action=edit)  
+(macro constant)   
   
 ###  Unreachable control flow
 
 |  Defined in header `[<utility>](../header/utility.html "cpp/header/utility")`  
 ---  
 [ unreachable](unreachable.html "cpp/utility/unreachable")(C++23) |  marks unreachable point of execution   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_unreachable&action=edit)  
+(function)   
 (since C++23)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/program&action=edit&section=3 "Edit section: Communicating with the environment")] Communicating with the environment
+### Communicating with the environment
 
 Defined in header `[<cstdlib>](../header/cstdlib.html "cpp/header/cstdlib")`  
 ---  
 [ system](program/system.html "cpp/utility/program/system") |  calls the host environment's command processor   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/program/dsc_system&action=edit)  
+(function)   
 [ getenv](program/getenv.html "cpp/utility/program/getenv") |  access to the list of environment variables   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/program/dsc_getenv&action=edit)  
+(function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/program&action=edit&section=4 "Edit section: Signals")] Signals
+### Signals
 
 Several functions and macro constants for signal management are provided. 
 
 Defined in header `[<csignal>](../header/csignal.html "cpp/header/csignal")`  
 ---  
 [ signal](program/signal.html "cpp/utility/program/signal") |  sets a signal handler for particular signal   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/program/dsc_signal&action=edit)  
+(function)   
 [ raise](program/raise.html "cpp/utility/program/raise") |  runs the signal handler for particular signal   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/program/dsc_raise&action=edit)  
+(function)   
 [ sig_atomic_t](program/sig_atomic_t.html "cpp/utility/program/sig atomic t") |  the integer type that can be accessed as an atomic entity from an asynchronous signal handler   
 (typedef)  
 [ SIG_DFLSIG_IGN](program/SIG_strategies.html "cpp/utility/program/SIG strategies") |  defines signal handling strategies   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/program/dsc_SIG_strategies&action=edit)  
+(macro constant)   
 [ SIG_ERR](program/SIG_ERR.html "cpp/utility/program/SIG ERR") |  return value of [`signal`](program/signal.html "cpp/utility/program/signal") specifying that an error was encountered   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/program/dsc_SIG_ERR&action=edit)  
+(macro constant)   
   
 #####  Signal types   
   
 [ SIGABRTSIGFPESIGILLSIGINTSIGSEGVSIGTERM](program/SIG_types.html "cpp/utility/program/SIG types") |  defines signal types   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/program/dsc_SIG_types&action=edit)  
+(macro constant)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/program&action=edit&section=5 "Edit section: Non-local jumps")] Non-local jumps
+### Non-local jumps
 
 Defined in header `[<csetjmp>](../header/csetjmp.html "cpp/header/csetjmp")`  
 ---  
 [ setjmp](program/setjmp.html "cpp/utility/program/setjmp") |  saves the context   
-(function macro) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/program/dsc_setjmp&action=edit)  
+(function macro)   
 [ longjmp](program/longjmp.html "cpp/utility/program/longjmp") |  jumps to specified location   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/program/dsc_longjmp&action=edit)  
+(function)   
   
 #####  Types   
   
 [ jmp_buf](program/jmp_buf.html "cpp/utility/program/jmp buf") |  execution context type   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/program/dsc_jmp_buf&action=edit)  
+(typedef)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/program&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [C documentation](../../c/program.html "c/program") for Program support utilities  
 ---

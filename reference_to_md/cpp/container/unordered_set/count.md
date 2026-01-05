@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 `[std::unordered_set](../unordered_set.html "cpp/container/unordered set")`
 
@@ -137,7 +137,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/unordered set/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/unordered_set/navbar_content&action=edit)
+
 
 size_type count( const Key& key ) const; |  (1)  |  (since C++11)  
 ---|---|---  
@@ -161,29 +161,29 @@ size_type count( const K& x ) const; |  (2)  |  (since C++20)
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/count_unord&action=edit&section=T-1 "Template:cpp/container/count unord")] Parameters
+### Parameters
 
 key  |  \-  |  key value of the elements to count   
 ---|---|---  
 x  |  \-  |  a value of any type that can be transparently compared with a key   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/count_unord&action=edit&section=T-2 "Template:cpp/container/count unord")] Return value
+### Return value
 
 1) Number of elements with key key, that is either 1 or ​0​.
 
 2) Number of elements with key that compares equivalent to x.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/count_unord&action=edit&section=T-3 "Template:cpp/container/count unord")] Complexity
+### Complexity
 
 Constant on average, worst case linear in the size of the container. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/count_unord&action=edit&section=T-4 "Template:cpp/container/count unord")] Notes
+### Notes
 
 [Feature-test](../../utility/feature_test.html "cpp/utility/feature test") macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_generic_unordered_lookup`](../../experimental/feature_test.html#cpp_lib_generic_unordered_lookup "cpp/feature test") | [`201811L`](../../compiler_support/20.html#cpp_lib_generic_unordered_lookup_201811L "cpp/compiler support/20") | (C++20) | Heterogeneous comparison lookup in [unordered associative containers](../../container.html#Unordered_associative_containers "cpp/container"), overload (2)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/count_unord&action=edit&section=T-5 "Template:cpp/container/count unord")] Example
+### Example
 
 Run this code
     
@@ -215,14 +215,14 @@ Possible output:
     The set is: 8 1 7 2
     Numbers from 1 to 8 that are in the set: 1 2 7 8
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/count_unord&action=edit&section=T-6 "Template:cpp/container/count unord")] See also
+### See also
 
 [ find](find.html "cpp/container/unordered set/find") |  finds element with specific key   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_find&action=edit)  
+(public member function)   
 ---|---  
 [ contains](contains.html "cpp/container/unordered set/contains")(C++20) |  checks if the container contains element with specific key   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_contains&action=edit)  
+(public member function)   
 [ equal_range](equal_range.html "cpp/container/unordered set/equal range") |  returns range of elements matching a specific key   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_equal_range&action=edit)
+(public member function) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

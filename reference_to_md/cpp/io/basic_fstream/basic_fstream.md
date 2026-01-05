@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -79,7 +79,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_fstream`](../basic_fstream.html "cpp/io/basic fstream")
 
@@ -97,7 +97,7 @@ File operations
 Non-member functions  
 [swap(std::basic_fstream)](swap2.html "cpp/io/basic fstream/swap2")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_fstream/navbar_content&action=edit)
+
 
 basic_fstream(); |  (1)  |   
 ---|---|---  
@@ -140,7 +140,7 @@ Constructs new file stream.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_fstream/constructor&action=edit&section=T-1 "Template:cpp/io/basic fstream/constructor")] Parameters
+### Parameters
 
 filename  |  \-  |  the name of the file to be opened   
 ---|---|---  
@@ -155,7 +155,7 @@ mode  |  \-  |  specifies stream open mode. Following constants and bit-wise OR 
 [`noreplace`](../ios_base/openmode.html "cpp/io/ios base/openmode") (C++23) |  open in exclusive mode   
 other  |  \-  |  another file stream to use as source   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_fstream/constructor&action=edit&section=T-2 "Template:cpp/io/basic fstream/constructor")] Example
+### Example
 
 Run this code
     
@@ -173,7 +173,7 @@ Run this code
         [std::fstream](../basic_fstream.html) f3(std::move(f1));
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_fstream/constructor&action=edit&section=T-3 "Template:cpp/io/basic fstream/constructor")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -183,14 +183,14 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 was missing (it is present in the [synopsis](../../header/fstream.html "cpp/header/fstream"))  | added   
 [LWG 3430](https://cplusplus.github.io/LWG/issue3430) | C++17  | [std::filesystem::path](../../filesystem/path.html "cpp/filesystem/path") overload led to unwanted conversions  | avoided by making it a template   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_fstream/constructor&action=edit&section=T-4 "Template:cpp/io/basic fstream/constructor")] See also
+### See also
 
 [ open](open.html "cpp/io/basic fstream/open") |  opens a file and associates it with the stream   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_fstream/dsc_open&action=edit)  
+(public member function)   
 ---|---  
 [ open](../basic_filebuf/open.html "cpp/io/basic filebuf/open") |  opens a file and configures it as the associated character sequence   
-(public member function of `std::basic_filebuf<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_filebuf/dsc_open&action=edit)  
+(public member function of `std::basic_filebuf<CharT,Traits>`)   
 [ set_rdbuf](../basic_ios/set_rdbuf.html "cpp/io/basic ios/set rdbuf") |  replaces the `rdbuf` without clearing its error state   
-(protected member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ios/dsc_set_rdbuf&action=edit)  
+(protected member function)   
 [ (constructor)](../basic_iostream/basic_iostream.html "cpp/io/basic iostream/basic iostream") |  constructs the object   
-(public member function of `std::basic_iostream<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_iostream/dsc_constructor&action=edit)
+(public member function of `std::basic_iostream<CharT,Traits>`) 

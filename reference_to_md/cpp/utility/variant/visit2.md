@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::variant`](../variant.html "cpp/utility/variant")
 
@@ -161,7 +161,7 @@ Common vocabulary types
 [Helper objects](../variant.html#Helper_objects "cpp/utility/variant")  
 [variant_npos](variant_npos.html "cpp/utility/variant/variant npos")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variant/navbar_content&action=edit)
+
 
 Defined in header `[<variant>](../../header/variant.html "cpp/header/variant")` |  |   
 ---|---|---  
@@ -220,13 +220,13 @@ These overloads participate in overload resolution only if every type in `Varian
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variant/visit2&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 v  |  \-  |  a [Callable](../../named_req/Callable.html "cpp/named req/Callable") that accepts every possible alternative from every variant in Variants  
 ---|---|---  
 values  |  \-  |  list of variants to pass to the visitor   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variant/visit2&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) The result of the [`_INVOKE_`](../../functional.html "cpp/utility/functional") operation. The return type is the type obtained from applying [`decltype`](../../language/decltype.html "cpp/language/decltype") to the result.
 
@@ -234,17 +234,17 @@ values  |  \-  |  list of variants to pass to the visitor
 
 3-6) A [std::variant](../variant.html "cpp/utility/variant") value converted from value.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variant/visit2&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Throws [std::bad_variant_access](bad_variant_access.html "cpp/utility/variant/bad variant access") if `_as-variant_`(value_i).valueless_by_exception() is true for any variant value_i in values. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variant/visit2&action=edit&section=4 "Edit section: Complexity")] Complexity
+### Complexity
 
 When the number of variants is zero or one, the invocation of the callable object is implemented in constant time; i.e., it does not depend on the number of types can be stored in the variant. 
 
 If the number of variants is larger than one, the invocation of the callable object has no complexity requirements. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variant/visit2&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 Let n be (1 * ... * [std::variant_size_v](variant_size.html)<[std::remove_reference_t](../../types/remove_reference.html)<VariantBases>>), implementations usually generate a table equivalent to an (possibly multidimensional) array of n function pointers for every specialization of `std::visit`, which is similar to the implementation of [virtual functions](../../language/virtual.html "cpp/language/virtual"). 
 
@@ -257,7 +257,7 @@ On typical implementations, the time complexity of the invocation of v can be co
 [`__cpp_lib_variant`](../../experimental/feature_test.html#cpp_lib_variant "cpp/feature test") | [`202102L`](../../compiler_support/23.html#cpp_lib_variant_202102L "cpp/compiler support/23") | (C++23)  
 (DR17) | `std::visit` for classes derived from [std::variant](../variant.html "cpp/utility/variant")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variant/visit2&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -334,7 +334,7 @@ Output:
     hello. After doubling, variant holds std::string with value "hellohello"
     10 15 1.500000 "hello"
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variant/visit2&action=edit&section=7 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -346,12 +346,12 @@ value category of the result of the `_INVOKE_` operation  | preserves
 ([P2162R2](https://wg21.link/P2162R2))  | C++17  | the effects were unspecified if any type  
 in `Variants` is not a [std::variant](../variant.html "cpp/utility/variant") | specified   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variant/visit2&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [ visit](visit.html "cpp/utility/variant/visit")(C++26) |  calls the provided functor with the argument held by the `variant`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variant/dsc_visit&action=edit)  
+(public member function)   
 ---|---  
 [ swap](swap.html "cpp/utility/variant/swap") |  swaps with another `variant`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variant/dsc_swap&action=edit)
+(public member function) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [`std::valarray`](../valarray.html "cpp/numeric/valarray")
 
@@ -155,7 +155,7 @@
   
 [Deduction guides](deduction_guides.html "cpp/numeric/valarray/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/navbar_content&action=edit)
+
 
 **`std::mask_array`**
 
@@ -166,7 +166,7 @@ Member functions
 [mask_array::operator=](mask_array/operator=.html "cpp/numeric/valarray/mask array/operator=")  
 [mask_array::operator+=mask_array::operator-=mask_array::operator*=mask_array::operator/=mask_array::operator%=mask_array::operator&=mask_array::operator|=mask_array::operator^=mask_array::operator<<=mask_array::operator>>=](mask_array/operator_arith.html "cpp/numeric/valarray/mask array/operator arith")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/mask_array/navbar_content&action=edit)
+
 
 Defined in header `[<valarray>](../../header/valarray.html "cpp/header/valarray")` |  |   
 ---|---|---  
@@ -185,25 +185,25 @@ template< class T > class mask_array; |  |
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/mask_array&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Type  |  Definition   
 ---|---  
 `value_type` |  `T`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/mask_array&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](mask_array/mask_array.html "cpp/numeric/valarray/mask array/mask array") |  constructs a `mask_array`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/array/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ (destructor)](mask_array/~mask_array.html "cpp/numeric/valarray/mask array/~mask array") |  destroys a `mask_array`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/array/dsc_destructor&action=edit)  
+(public member function)   
 [ operator=](mask_array/operator=.html "cpp/numeric/valarray/mask array/operator=") |  assigns contents   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/array/dsc_operator%3D&action=edit)  
+(public member function)   
 [ operator+=operator-=operator*=operator/=operator%=operator&=operator|=operator^=operator<<=operator>>=](mask_array/operator_arith.html "cpp/numeric/valarray/mask array/operator arith") |  performs arithmetic operation on the array referred by mask.   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/array/dsc_operator_arith&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/mask_array&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -237,10 +237,10 @@ Output:
     Initial valarray: 0 1 2 3 4 5 6 7 8 9
     After v[v>5]=-1:  0 1 2 3 4 5 -1 -1 -1 -1
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/mask_array&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ datapar::simd_mask](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/simd/basic_simd_mask&action=edit&redlink=1 "cpp/numeric/simd/basic simd mask \(page does not exist\)")(C++26) |  convenience alias template for `basic_simd_mask` that can specify its width  
-(alias template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/simd/dsc_simd_mask&action=edit)  
+(alias template)  
 ---|---  
 [ simd_mask](../../experimental/simd/simd_mask.html "cpp/experimental/simd/simd mask")(parallelism TS v2) |  data-parallel type with the element type bool   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/simd/dsc_simd_mask&action=edit)
+(class template) 

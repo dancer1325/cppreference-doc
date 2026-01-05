@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::tuple`](../tuple.html "cpp/utility/tuple")
 
@@ -157,7 +157,7 @@ Common vocabulary types
 [ignore](ignore.html "cpp/utility/tuple/ignore")  
 [Deduction guides](deduction_guides.html "cpp/utility/tuple/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/navbar_content&action=edit)
+
 
 Defined in header `[<tuple>](../../header/tuple.html "cpp/header/tuple")` |  |   
 ---|---|---  
@@ -179,20 +179,20 @@ Constructs a tuple of references to the arguments in args suitable for forwardin
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/tuple/forward_as_tuple&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 args  |  \-  |  zero or more arguments to construct the tuple from   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/tuple/forward_as_tuple&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 A [std::tuple](../tuple.html "cpp/utility/tuple") object created as if by [std::tuple](../tuple.html)<Types&&...>([std::forward](../forward.html)<Types>(args)...)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/tuple/forward_as_tuple&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 If the arguments are temporaries, `forward_as_tuple` does not extend their lifetime; they have to be used before the end of the full expression. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/tuple/forward_as_tuple&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -223,14 +223,14 @@ Output:
     
     m[6] = ggggggggg
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/tuple/forward_as_tuple&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ make_tuple](make_tuple.html "cpp/utility/tuple/make tuple")(C++11) |  creates a `tuple` object of the type defined by the argument types   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/dsc_make_tuple&action=edit)  
+(function template)   
 ---|---  
 [ tie](tie.html "cpp/utility/tuple/tie")(C++11) |  creates a [tuple](../tuple.html "cpp/utility/tuple") of lvalue references or unpacks a tuple into individual objects   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/dsc_tie&action=edit)  
+(function template)   
 [ tuple_cat](tuple_cat.html "cpp/utility/tuple/tuple cat")(C++11) |  creates a `tuple` by concatenating any number of tuples   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/dsc_tuple_cat&action=edit)  
+(function template)   
 [ apply](../apply.html "cpp/utility/apply")(C++17) |  calls a function with a tuple of arguments   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_apply&action=edit)
+(function template) 

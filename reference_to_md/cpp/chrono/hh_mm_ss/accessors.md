@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::hh_mm_ss`](../hh_mm_ss.html "cpp/chrono/hh mm ss")
 
@@ -115,7 +115,7 @@
 [Helper classes](../hh_mm_ss.html#Helper_classes "cpp/chrono/hh mm ss")  
 [formatter<std::chrono::hh_mm_ss>](formatter.html "cpp/chrono/hh mm ss/formatter")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/hh_mm_ss/navbar_content&action=edit)
+
 
 constexpr bool is_negative() const noexcept; |  (1)  |   
 ---|---|---  
@@ -127,7 +127,7 @@ constexpr precision subseconds() const noexcept; |  (5)  |
   
 Obtains the components of the stored "broken down" time. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/hh_mm_ss/accessors&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 Let `d` be the represented duration: 
 
@@ -141,7 +141,7 @@ Let `d` be the represented duration:
 
 5) abs(d) - hours() - minutes() - seconds() if [std::chrono::treat_as_floating_point_v](../treat_as_floating_point.html)<precision::rep> is true; otherwise [std::chrono::duration_cast](../duration/duration_cast.html)<precision>(abs(d) - hours() - minutes() - seconds()).
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/hh_mm_ss/accessors&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::unique_ptr`](../unique_ptr.html "cpp/memory/unique ptr")
 
@@ -211,7 +211,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
 [Helper classes](../unique_ptr.html#Helper_classes "cpp/memory/unique ptr")  
 [hash<std::unique_ptr>](hash.html "cpp/memory/unique ptr/hash")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/unique_ptr/navbar_content&action=edit)
+
 
 Defined in header `[<memory>](../../header/memory.html "cpp/header/memory")` |  |   
 ---|---|---  
@@ -292,21 +292,21 @@ Constructs an object of type `T` and wraps it in a [std::unique_ptr](../unique_p
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/unique_ptr/make_unique&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 args  |  \-  |  list of arguments with which an instance of `T` will be constructed   
 ---|---|---  
 size  |  \-  |  the length of the array to construct   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/unique_ptr/make_unique&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 [std::unique_ptr](../unique_ptr.html "cpp/memory/unique ptr") of an instance of type `T`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/unique_ptr/make_unique&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 May throw [std::bad_alloc](../new/bad_alloc.html "cpp/memory/new/bad alloc") or any exception thrown by the constructor of `T`. If an exception is thrown, this function has no effect. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/unique_ptr/make_unique&action=edit&section=4 "Edit section: Possible Implementation")] Possible Implementation
+### Possible Implementation
 
 [make_unique (1-3)](make_unique.html#Version_1)  
 ---  
@@ -365,7 +365,7 @@ May throw [std::bad_alloc](../new/bad_alloc.html "cpp/memory/new/bad alloc") or 
         requires [std::is_bounded_array_v](../../types/is_bounded_array.html)<T>
     void make_unique_for_overwrite(Args&&...) = delete;  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/unique_ptr/make_unique&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 Unlike [std::make_shared](../shared_ptr/make_shared.html "cpp/memory/shared ptr/make shared") (which has [std::allocate_shared](../shared_ptr/allocate_shared.html "cpp/memory/shared ptr/allocate shared")), `std::make_unique` does not have an allocator-aware counterpart. `allocate_unique` proposed in [P0211](https://wg21.link/P0211) would be required to invent the deleter type `D` for the [std::unique_ptr](../unique_ptr.html)<T,D> it returns which would contain an allocator object and invoke both `destroy` and `deallocate` in its operator(). 
 
@@ -375,7 +375,7 @@ Unlike [std::make_shared](../shared_ptr/make_shared.html "cpp/memory/shared ptr/
 [`__cpp_lib_smart_ptr_for_overwrite`](../../experimental/feature_test.html#cpp_lib_smart_ptr_for_overwrite "cpp/feature test") | [`202002L`](../../compiler_support/20.html#cpp_lib_smart_ptr_for_overwrite_202002L "cpp/compiler support/20") | (C++20) | Smart pointer creation with default initialization ([std::allocate_shared_for_overwrite](../shared_ptr/allocate_shared.html "cpp/memory/shared ptr/allocate shared"), [std::make_shared_for_overwrite](../shared_ptr/make_shared.html "cpp/memory/shared ptr/make shared"), `std::make_unique_for_overwrite`); overloads ([4-6](make_unique.html#Version_4))  
 [`__cpp_lib_constexpr_memory`](../../experimental/feature_test.html#cpp_lib_constexpr_memory "cpp/feature test") | [`202202L`](../../compiler_support/23.html#cpp_lib_constexpr_memory_202202L "cpp/compiler support/23") | (C++23) | `constexpr` for overloads ([1,2,4,5](make_unique.html#Version_1))  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/unique_ptr/make_unique&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: add more make_unique_for_overwrite() demos   
@@ -455,12 +455,12 @@ Output:
      
     make_unique_for_overwrite<int[]>(10), fibonacci(...): [1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/unique_ptr/make_unique&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ (constructor)](unique_ptr.html "cpp/memory/unique ptr/unique ptr") |  constructs a new `unique_ptr`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/unique_ptr/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ make_sharedmake_shared_for_overwrite](../shared_ptr/make_shared.html "cpp/memory/shared ptr/make shared")(C++20) |  creates a shared pointer that manages a new object   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/dsc_make_shared&action=edit)
+(function template) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

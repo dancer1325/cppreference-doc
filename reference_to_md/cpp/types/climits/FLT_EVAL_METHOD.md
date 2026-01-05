@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Type support](../../utility/rtti.html "cpp/types")
 
@@ -161,7 +161,7 @@ Runtime type information
 ---  
 [bad_cast](../bad_cast.html "cpp/types/bad cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/navbar_content&action=edit)
+
 
 [ C numeric limits interface](../climits.html "cpp/types/climits")
 
@@ -169,7 +169,7 @@ Runtime type information
 ---  
 **FLT_EVAL_METHOD**(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/climits/navbar_content&action=edit)
+
 
 Defined in header `[<cfloat>](../../header/cfloat.html "cpp/header/cfloat")` |  |   
 ---|---|---  
@@ -186,13 +186,13 @@ negative values except -1 |  implementation-defined behavior
 1 |  all operations and constants evaluate in the range and precision of double. Additionally, both float_t and double_t are equivalent to double  
 2 |  all operations and constants evaluate in the range and precision of long double. Additionally, both float_t and double_t are equivalent to long double  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/climits/FLT_EVAL_METHOD&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 Regardless of the value of FLT_EVAL_METHOD, any floating-point expression may be _contracted_ , that is, calculated as if all intermediate results have infinite range and precision (unless [` #pragma`](../../preprocessor/impl.html "cpp/preprocessor/impl") STDC FP_CONTRACT is off). 
 
 Cast and assignment strip away any extraneous range and precision: this models the action of storing a value from an extended-precision FPU register into a standard-sized memory location. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/climits/FLT_EVAL_METHOD&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [C documentation](../../../c/types/limits/FLT_EVAL_METHOD.html "c/types/limits/FLT EVAL METHOD") for FLT_EVAL_METHOD  
 ---

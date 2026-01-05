@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -71,7 +71,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::span`](../span.html "cpp/container/span")
 
@@ -104,7 +104,7 @@ Tables
 [dynamic_extent](dynamic_extent.html "cpp/container/span/dynamic extent")  
 [Deduction guides](deduction_guides.html "cpp/container/span/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/span/navbar_content&action=edit)
+
 
 constexpr size_type size() const noexcept; |  |  (since C++20)  
 ---|---|---  
@@ -122,17 +122,17 @@ Returns the number of elements in the span.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/span/size&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 The number of elements in the span. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/span/size&action=edit&section=2 "Edit section: Note")] Note
+### Note
 
 [Feature-test](../../utility/feature_test.html "cpp/utility/feature test") macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_ssize`](../../experimental/feature_test.html#cpp_lib_ssize "cpp/feature test") | [`201902L`](../../compiler_support/20.html#cpp_lib_ssize_201902L "cpp/compiler support/20") | (C++20) | [std::ssize](../../iterator/size.html "cpp/iterator/size") and unsigned `std::span::size`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/span/size&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -155,12 +155,12 @@ Run this code
         static_assert(1 == span.subspan<7>().size());
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/span/size&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ (constructor)](span.html "cpp/container/span/span") |  constructs a `span`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/span/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ size_bytes](size_bytes.html "cpp/container/span/size bytes") |  returns the size of the sequence in bytes   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/span/dsc_size_bytes&action=edit)
+(public member function) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

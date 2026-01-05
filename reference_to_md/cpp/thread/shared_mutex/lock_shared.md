@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::shared_mutex`](../shared_mutex.html "cpp/thread/shared mutex")
 
@@ -192,7 +192,7 @@ Shared locking
 Native handle  
 [shared_mutex::native_handle](native_handle.html "cpp/thread/shared mutex/native handle")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/shared_mutex/navbar_content&action=edit)
+
 
 void lock_shared(); |  |  (since C++17)  
 ---|---|---  
@@ -218,23 +218,23 @@ A prior [unlock()](unlock.html "cpp/thread/shared mutex/unlock") operation on th
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/shared_mutex/lock_shared&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/shared_mutex/lock_shared&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/shared_mutex/lock_shared&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Throws [std::system_error](../../error/system_error.html "cpp/error/system error") when errors occur, including errors from the underlying operating system that would prevent `lock` from meeting its specifications. The mutex is not locked in the case of any exception being thrown. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/shared_mutex/lock_shared&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 `lock_shared()` is usually not called directly: [std::shared_lock](../shared_lock.html "cpp/thread/shared lock") is used to manage shared locking. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/shared_mutex/lock_shared&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -323,12 +323,12 @@ Possible output:
     119363136 saw: 42 2 3 4 46 5 6 7 7 8 9 9 10 11 11 12 12 -999
     136148544 saw: 2 44 3 4 46 5 6 48 7 8 9 51 10 11 11 12 12 -999
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/shared_mutex/lock_shared&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ lock](lock.html "cpp/thread/shared mutex/lock") |  locks the mutex, blocks if the mutex is not available   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/mutex/dsc_lock&action=edit)  
+(public member function)   
 ---|---  
 [ try_lock_shared](try_lock_shared.html "cpp/thread/shared mutex/try lock shared") |  tries to lock the mutex for shared ownership, returns if the mutex is not available   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/mutex/dsc_try_lock_shared&action=edit)  
+(public member function)   
 [ unlock_shared](unlock_shared.html "cpp/thread/shared mutex/unlock shared") |  unlocks the mutex (shared ownership)   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/mutex/dsc_unlock_shared&action=edit)
+(public member function) 

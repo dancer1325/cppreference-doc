@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_istream`](../basic_istream.html "cpp/io/basic istream")
 
@@ -111,7 +111,7 @@ Member classes
 Non-member functions  
 [operator>>(std::basic_istream)](operator_gtgt2.html "cpp/io/basic istream/operator gtgt2")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_istream/navbar_content&action=edit)
+
 
 protected:  
 basic_istream& operator=( const basic_istream& rhs ) = delete; |  (1)  |   
@@ -124,12 +124,12 @@ basic_istream& operator=( basic_istream&& rhs ); |  (2)  |  (since C++11)
 
 2) The move assignment operator exchanges the [`gcount()`](gcount.html "cpp/io/basic istream/gcount") values and all data members of the base class, except for [`rdbuf()`](../basic_ios/rdbuf.html "cpp/io/basic ios/rdbuf"), with rhs, as if by calling swap(*rhs). This move assignment operator is protected: it is only called by the move assignment operators of the derived movable input stream classes [std::basic_ifstream](../basic_ifstream.html "cpp/io/basic ifstream") and [std::basic_istringstream](../basic_istringstream.html "cpp/io/basic istringstream"), which know how to correctly move-assign the associated streambuffers.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_istream/operator%3D&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 rhs  |  \-  |  the basic_istream object from which to assign to *this  
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_istream/operator%3D&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     

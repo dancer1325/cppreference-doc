@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Diagnostics library](../../error.html "cpp/error")
 
@@ -187,7 +187,7 @@ Exception handling failures
 [breakpoint_if_debugging](../../utility/breakpoint_if_debugging.html "cpp/utility/breakpoint if debugging")(C++26)  
 [breakpoint](../../utility/breakpoint.html "cpp/utility/breakpoint")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/navbar_content&action=edit)
+
 
 [`std::error_category`](../error_category.html "cpp/error/error category")
 
@@ -201,7 +201,7 @@ Member functions
 [error_category::message](message.html "cpp/error/error category/message")  
 [error_category::operator==error_category::operator!=error_category::operator<error_category::operator<=>](operator_cmp.html "cpp/error/error category/operator cmp")(until C++20)(until C++20)(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/error_category/navbar_content&action=edit)
+
 
 virtual const char* name() const noexcept = 0; |  |  (since C++11)  
 ---|---|---  
@@ -209,10 +209,10 @@ virtual const char* name() const noexcept = 0; |  |  (since C++11)
   
 Returns a pointer to a null-terminated byte string that specifies the name of the error category. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/error_category/name&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/error_category/name&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Null-terminated byte string specifying the name of the error category. 

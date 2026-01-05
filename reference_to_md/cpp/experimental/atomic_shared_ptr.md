@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Extensions for concurrency](concurrency.html "cpp/experimental/concurrency")
 
@@ -75,7 +75,7 @@ Atomic smart pointers
 **experimental::atomic_shared_ptr**  
 [experimental::atomic_weak_ptr](atomic_weak_ptr.html "cpp/experimental/atomic weak ptr")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/concurrency/navbar_content&action=edit)
+
 
 **`std::experimental::atomic_shared_ptr`**
 
@@ -89,7 +89,7 @@ Atomic smart pointers
 [atomic_shared_ptr::exchange](atomic_shared_ptr/exchange.html "cpp/experimental/atomic shared ptr/exchange")  
 [atomic_shared_ptr::compare_exchange_weakatomic_shared_ptr::compare_exchange_strong](atomic_shared_ptr/compare_exchange.html "cpp/experimental/atomic shared ptr/compare exchange")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/concurrency/atomic_shared_ptr/navbar_content&action=edit)
+
 
 ![](https://upload.cppreference.com/mwiki/images/3/31/Imbox_notice.png) |  **Merged into ISO C++** The functionality described on this page was merged into the mainline ISO C++ standard as of 11/2017; see [`std::atomic<shared_ptr<T>>`](../memory/shared_ptr/atomic2.html "cpp/memory/shared ptr/atomic2") (since C++20)  
 ---|---  
@@ -101,22 +101,22 @@ class atomic_shared_ptr; |  |  (concurrency TS)
   
 The class template `atomic_shared_ptr` provides thread-safe atomic pointer operations over a [std::shared_ptr](../memory/shared_ptr.html "cpp/memory/shared ptr"). It provides a better alternative to [the non-member `shared_ptr` atomic access functions](../memory/shared_ptr/atomic.html "cpp/memory/shared ptr/atomic"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/atomic_shared_ptr&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](atomic_shared_ptr/atomic_shared_ptr.html "cpp/experimental/atomic shared ptr/atomic shared ptr") |  constructs an `atomic_shared_ptr` object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/atomic_shared_ptr/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ operator=](atomic_shared_ptr/operator=.html "cpp/experimental/atomic shared ptr/operator=") |  stores a value into an `atomic_shared_ptr` object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/atomic_shared_ptr/dsc_operator%3D&action=edit)  
+(public member function)   
 [ is_lock_free](atomic_shared_ptr/is_lock_free.html "cpp/experimental/atomic shared ptr/is lock free") |  checks if the `atomic_shared_ptr` object is lock-free   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/atomic_shared_ptr/dsc_is_lock_free&action=edit)  
+(public member function)   
 [ store](atomic_shared_ptr/store.html "cpp/experimental/atomic shared ptr/store") |  atomically replaces the value of the atomic object with a non-atomic argument   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/atomic_shared_ptr/dsc_store&action=edit)  
+(public member function)   
 [ load](atomic_shared_ptr/load.html "cpp/experimental/atomic shared ptr/load") |  atomically obtains the value of the atomic object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/atomic_shared_ptr/dsc_load&action=edit)  
+(public member function)   
 [ operator shared_ptr<T>](atomic_shared_ptr/operator_shared_ptr.html "cpp/experimental/atomic shared ptr/operator shared ptr") |  loads a value from an atomic object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/atomic_shared_ptr/dsc_operator_shared_ptr&action=edit)  
+(public member function)   
 [ exchange](atomic_shared_ptr/exchange.html "cpp/experimental/atomic shared ptr/exchange") |  atomically replaces the value of the atomic object and obtains the value held previously   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/atomic_shared_ptr/dsc_exchange&action=edit)  
+(public member function)   
 [ compare_exchange_weakcompare_exchange_strong](atomic_shared_ptr/compare_exchange.html "cpp/experimental/atomic shared ptr/compare exchange") |  atomically compares the value of the atomic object with non-atomic argument and performs atomic exchange if equal or atomic load if not   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/atomic_shared_ptr/dsc_compare_exchange&action=edit)
+(public member function) 

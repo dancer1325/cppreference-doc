@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Filesystem library](../fs.html "cpp/experimental/fs")
 
@@ -124,7 +124,7 @@ File types
 [filesystem::is_socket](is_socket.html "cpp/experimental/fs/is socket")  
 [filesystem::is_symlink](is_symlink.html "cpp/experimental/fs/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/navbar_content&action=edit)
+
 
 Defined in header `[<experimental/filesystem>](../../header/experimental/filesystem.html "cpp/header/experimental/filesystem")` |  |   
 ---|---|---  
@@ -139,7 +139,7 @@ This type represents available options that control the behavior of the [`direct
 
 `directory_options` satisfies the requirements of [BitmaskType](../../named_req/BitmaskType.html "cpp/named req/BitmaskType") (which means the bitwise operators operator&, operator|, operator^, operator~, operator&=, operator|=, and operator^= are defined for this type). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/directory_options&action=edit&section=1 "Edit section: Member constants")] Member constants
+### Member constants
 
 Member constant  | Value  | Meaning   
 ---|---|---  
@@ -147,10 +147,10 @@ Member constant  | Value  | Meaning
 `follow_directory_symlink` | 1 | Follow rather than skip directory symlinks.   
 `skip_permission_denied` | 2 | Skip directories that would otherwise result in permission denied errors.   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/directory_options&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ (constructor)](directory_iterator/directory_iterator.html "cpp/experimental/fs/directory iterator/directory iterator") |  constructs a directory iterator   
-(public member function of `std::experimental::filesystem::directory_iterator`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/directory_iterator/dsc_constructor&action=edit)  
+(public member function of `std::experimental::filesystem::directory_iterator`)   
 ---|---  
 [ (constructor)](recursive_directory_iterator/recursive_directory_iterator.html "cpp/experimental/fs/recursive directory iterator/recursive directory iterator") |  constructs a recursive directory iterator   
-(public member function of `std::experimental::filesystem::recursive_directory_iterator`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/recursive_directory_iterator/dsc_constructor&action=edit)
+(public member function of `std::experimental::filesystem::recursive_directory_iterator`) 

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Strings library](../../string.html "cpp/string")
 
@@ -40,7 +40,7 @@ Classes
 [basic_string_view](../basic_string_view.html "cpp/string/basic string view")(C++17)  
 [char_traits](../char_traits.html "cpp/string/char traits")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/navbar_content&action=edit)
+
 
 [`std::basic_string`](../basic_string.html "cpp/string/basic string")
 
@@ -133,7 +133,7 @@ basic_string_view](operator_basic_string_view.html "cpp/string/basic string/oper
 [hash<std::basic_string>](hash.html "cpp/string/basic string/hash")(C++11)  
 [Deduction guides](deduction_guides.html "cpp/string/basic string/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/navbar_content&action=edit)
+
 
 Defined in header `[<string>](../../header/string.html "cpp/header/string")` |  |   
 ---|---|---  
@@ -178,26 +178,26 @@ Finally, calls is.width(0) to cancel the effects of [std::setw](../../io/manip/s
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/operator_ltltgtgt&action=edit&section=1 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 1) May throw [std::ios_base::failure](../../io/ios_base/failure.html "cpp/io/ios base/failure") if an exception is thrown during output.
 
 2) May throw [std::ios_base::failure](../../io/ios_base/failure.html "cpp/io/ios base/failure") if no characters are extracted from is (e.g. the stream is at end of file, or consists of whitespace only), or if an exception is thrown during input.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/operator_ltltgtgt&action=edit&section=2 "Edit section: Parameters")] Parameters
+### Parameters
 
 os  |  \-  |  a character output stream   
 ---|---|---  
 is  |  \-  |  a character input stream   
 str  |  \-  |  the string to be inserted or extracted   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/operator_ltltgtgt&action=edit&section=3 "Edit section: Return value")] Return value
+### Return value
 
 1) os
 
 2) is
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/operator_ltltgtgt&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -236,7 +236,7 @@ Output:
     +Hello,
     +whirled!
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/operator_ltltgtgt&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -259,8 +259,8 @@ character sequence instead
 as a [FormattedOutputFunction](../../named_req/FormattedOutputFunction.html "cpp/named req/FormattedOutputFunction") | behaves as a  
 [FormattedOutputFunction](../../named_req/FormattedOutputFunction.html "cpp/named req/FormattedOutputFunction")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/operator_ltltgtgt&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ operator<<](../basic_string_view/operator_ltlt.html "cpp/string/basic string view/operator ltlt")(C++17) |  performs stream output on string views   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/dsc_operator_ltlt&action=edit)  
+(function template)   
 ---|---

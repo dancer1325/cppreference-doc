@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](../empty.html "cpp/iterator/empty")(C++17)  
 [data](../data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 [`std::reverse_iterator`](../reverse_iterator.html "cpp/iterator/reverse iterator")
 
@@ -214,7 +214,7 @@
 [iter_swap](iter_swap.html "cpp/iterator/reverse iterator/iter swap")(C++20)  
 [make_reverse_iterator](../make_reverse_iterator.html "cpp/iterator/make reverse iterator")(C++14)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/reverse_iterator/navbar_content&action=edit)
+
 
 reverse_iterator& operator++(); |  (1) | (constexpr since C++17)  
 ---|---|---  
@@ -250,16 +250,16 @@ Overload  | Equivalent to
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/reverse_iterator/operator_arith&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 n  |  \-  |  position relative to current location   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/reverse_iterator/operator_arith&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 As described above. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/reverse_iterator/operator_arith&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -298,10 +298,10 @@ Output:
     3 4 1 1 4
     7 8
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/reverse_iterator/operator_arith&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ operator+](operator+.html "cpp/iterator/reverse iterator/operator+") |  advances the iterator   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_operator%2B&action=edit)  
+(function template)   
 ---|---  
 [ operator-](operator-.html "cpp/iterator/reverse iterator/operator-") |  computes the distance between two iterator adaptors   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_operator-&action=edit)
+(function template) 

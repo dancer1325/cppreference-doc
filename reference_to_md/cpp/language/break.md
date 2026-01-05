@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Statements](statements.html "cpp/language/statements")
 
@@ -253,7 +253,7 @@ Miscellaneous
 [Transactional memory](transactional_memory.html "cpp/language/transactional memory")  
 [`synchronized`](transactional_memory.html#Synchronized_blocks "cpp/language/transactional memory"), [`atomic_commit`](transactional_memory.html#Atomic_blocks "cpp/language/transactional memory"), etc (TM TS)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/statements/navbar_content&action=edit)
+
 
 Causes the enclosing [for](for.html "cpp/language/for"), [range-for](range-for.html "cpp/language/range-for"), [while](while.html "cpp/language/while") or [do-while](do.html "cpp/language/do") loop or [switch statement](switch.html "cpp/language/switch") to terminate. 
 
@@ -271,26 +271,26 @@ Used when it is otherwise awkward to terminate the loop using the condition expr
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/break&action=edit&section=1 "Edit section: Syntax")] Syntax  
+### Syntax  
   
 ---  
 attr ﻿(optional) `**break**` `**;**` |  |   
 attr |  \-  |  (since C++11) any number of [attributes](attributes.html "cpp/language/attributes")  
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/break&action=edit&section=2 "Edit section: Explanation")] Explanation
+### Explanation
 
 Appears only within the statement of a loop body ([`while`](while.html "cpp/language/while"), [`do-while`](do.html "cpp/language/do"), [`for`](for.html "cpp/language/for")) or within the statement of a [`switch`](switch.html "cpp/language/switch"). After this statement the control is transferred to the statement immediately following the enclosing loop or switch. As with any block exit, all automatic storage objects declared in enclosing compound statement or in the condition of a loop/switch are destroyed, in reverse order of construction, before the execution of the first line following the enclosing loop. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/break&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 A break statement cannot be used to break out of multiple nested loops. The [goto statement](goto.html "cpp/language/goto") may be used for this purpose. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/break&action=edit&section=4 "Edit section: Keywords")] Keywords
+### Keywords
 
 [`break`](../keyword/break.html "cpp/keyword/break")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/break&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -330,9 +330,9 @@ Possible output:
     2345
     a0 a1 b0 b1
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/break&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 `[[[fallthrough](attributes/fallthrough.html "cpp/language/attributes/fallthrough")]]`(C++17) |  indicates that the fall through from the previous case label is intentional and should not be diagnosed by a compiler that warns on fall-through  
-(attribute specifier)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/attributes/dsc_fallthrough&action=edit)  
+(attribute specifier)  
 ---|---  
 [C documentation](../../c/language/break.html "c/language/break") for break

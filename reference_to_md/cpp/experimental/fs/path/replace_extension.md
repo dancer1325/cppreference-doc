@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Filesystem library](../../fs.html "cpp/experimental/fs")
 
@@ -124,7 +124,7 @@ File types
 [filesystem::is_socket](../is_socket.html "cpp/experimental/fs/is socket")  
 [filesystem::is_symlink](../is_symlink.html "cpp/experimental/fs/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/navbar_content&action=edit)
+
 
 [`path`](../path.html "cpp/experimental/fs/path")
 
@@ -174,7 +174,7 @@ Non-member functions
 [operator<<operator>>](operator_ltltgtgt.html "cpp/experimental/fs/path/operator ltltgtgt")  
 [u8path](u8path.html "cpp/experimental/fs/path/u8path")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/path/navbar_content&action=edit)
+
 
 path& replace_extension( const path& replacement = path() ); |  (1)  |  (filesystem TS)  
 ---|---|---  
@@ -199,20 +199,20 @@ Then replacement is appended to the path.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/path/replace_extension&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 replacement  |  \-  |  the extension to replace with   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/path/replace_extension&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 *this
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/impldef_exception&action=edit&section=T-1 "Template:cpp/impldef exception")] Exceptions
+### Exceptions
 
 May throw implementation-defined exceptions. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/path/replace_extension&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -235,14 +235,14 @@ Output:
     Was: "/foo/bar.jpeg"
     Now: "/foo/bar.jpg"
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/path/replace_extension&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ extension](extension.html "cpp/experimental/fs/path/extension") |  returns the file extension path component   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/path/dsc_extension&action=edit)  
+(public member function)   
 ---|---  
 [ filename](filename.html "cpp/experimental/fs/path/filename") |  returns the filename path component   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/path/dsc_filename&action=edit)  
+(public member function)   
 [ stem](stem.html "cpp/experimental/fs/path/stem") |  returns the stem path component   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/path/dsc_stem&action=edit)  
+(public member function)   
 [ has_extension](has_path.html "cpp/experimental/fs/path/has path") |  checks if the corresponding path element is not empty   
 (public member function)

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [C-style I/O](../c.html "cpp/io/c")
 
@@ -176,7 +176,7 @@ Operations on files
 [tmpfile](tmpfile.html "cpp/io/c/tmpfile")  
 [tmpnam](tmpnam.html "cpp/io/c/tmpnam")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/navbar_content&action=edit)
+
 
 Defined in header `[<cstdio>](../../header/cstdio.html "cpp/header/cstdio")` |  |   
 ---|---|---  
@@ -197,22 +197,22 @@ Reads [stdin](std_streams.html "cpp/io/c/std streams") into given character stri
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/gets&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 str  |  \-  |  character string to be written   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/gets&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 `str` on success, a null pointer on failure. 
 
 If the failure has been caused by end of file condition, additionally sets the _eof_ indicator (see [std::feof()](feof.html "cpp/io/c/feof")) on [stdin](std_streams.html "cpp/io/c/std streams"). If the failure has been caused by some other error, sets the _error_ indicator (see [std::ferror()](ferror.html "cpp/io/c/ferror")) on [stdin](std_streams.html "cpp/io/c/std streams"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/gets&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 The `std::gets()` function does not perform bounds checking. Therefore, this function is extremely vulnerable to buffer-overflow attacks. It cannot be used safely (unless the program runs in an environment which restricts what can appear on `stdin`). For this reason, the function was deprecated in C++11 and removed altogether in C++14. [std::fgets()](fgets.html "cpp/io/c/fgets") may be used instead. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/gets&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -260,13 +260,13 @@ Possible output:
     The input string:
     [Living on Earth] is truncated and has the length 15 characters.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/gets&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ scanffscanfsscanf](scanf.html "cpp/io/c/fscanf") |  reads formatted input from [stdin](std_streams.html "cpp/io/c/std streams"), a file stream or a buffer   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_fscanf&action=edit)  
+(function)   
 ---|---  
 [ fgets](fgets.html "cpp/io/c/fgets") |  gets a character string from a file stream   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_fgets&action=edit)  
+(function)   
 [ fputs](fputs.html "cpp/io/c/fputs") |  writes a character string to a file stream   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_fputs&action=edit)  
+(function)   
 [C documentation](../../../c/io/gets.html "c/io/gets") for gets

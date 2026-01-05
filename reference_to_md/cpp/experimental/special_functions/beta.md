@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Mathematical special functions](../special_math.html "cpp/experimental/special functions")
 
@@ -86,7 +86,7 @@
 [sph_legendresph_legendrefsph_legendrel](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/special_functions/sph_legendre&action=edit&redlink=1 "cpp/experimental/special functions/sph legendre \(page does not exist\)")  
 [sph_neumannsph_neumannfsph_neumannl](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/special_functions/sph_neumann&action=edit&redlink=1 "cpp/experimental/special functions/sph neumann \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/special_functions/navbar_content&action=edit)
+
 
 double beta( double x, double y );  
 float betaf( float x, float y );  
@@ -114,12 +114,12 @@ As all special functions, `beta` is only guaranteed to be available in `<cmath>`
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/special_functions/beta&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 x, y  |  \-  |  values of a floating-point or integral type   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/special_functions/beta&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 If no errors occur, value of the beta function of x and y, that is ∫1  
 0tx-1  
@@ -129,7 +129,7 @@ d _t_ , or, equivalently, Γ(x)Γ(y)
 Γ(x + y)  
 is returned. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/special_functions/beta&action=edit&section=3 "Edit section: Error handling")] Error handling
+### Error handling
 
 Errors may be reported as specified in [math_errhandling](../../numeric/math/math_errhandling.html "cpp/numeric/math/math errhandling"). 
 
@@ -138,7 +138,7 @@ Errors may be reported as specified in [math_errhandling](../../numeric/math/mat
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/special_functions/beta&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 Implementations that do not support TR 29124 but support TR 19768, provide this function in the header `tr1/cmath` and namespace `std::tr1`. 
 
@@ -159,7 +159,7 @@ k⎞
 (n + 1)Β(n - k + 1, k + 1)  
 . 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/special_functions/beta&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 (works as shown with gcc 6.0)
 
@@ -203,12 +203,12 @@ Output:
           8  28  56  70  56  28   8 
         9  36  84 126 126  84  36   9
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/special_functions/beta&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ tgammatgammaftgammal](../../numeric/math/tgamma.html "cpp/numeric/math/tgamma")(C++11)(C++11)(C++11) |  gamma function   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_tgamma&action=edit)  
+(function)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/special_functions/beta&action=edit&section=7 "Edit section: External links")] External links
+### External links
 
 [Weisstein, Eric W. "Beta Function."](https://mathworld.wolfram.com/BetaFunction.html) From MathWorld--A Wolfram Web Resource. 

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ named requirements](../iterator/concepts.html "cpp/named req")
 
@@ -147,7 +147,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/named_req/navbar_content&action=edit)
+
 
 The **Predicate** requirements describe a callable that returns a [BooleanTestable](BooleanTestable.html "cpp/named req/BooleanTestable") value. 
 
@@ -166,7 +166,7 @@ In other words, if an algorithm takes a Predicate `pred` and an iterator `first`
 
 The function object `pred` shall not apply any non-constant function through the dereferenced iterator and must accept a `const` argument, with the same behavior regardless of whether the argument is `const` or non-`const`. This function object may be a pointer to function or an object of a type with an appropriate function call operator. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/Predicate&action=edit&section=1 "Edit section: Requirements")] Requirements
+### Requirements
 
   * [FunctionObject](FunctionObject.html "cpp/named req/FunctionObject")
 
@@ -174,7 +174,7 @@ The function object `pred` shall not apply any non-constant function through the
 Reason: better describe actual requirements   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/Predicate&action=edit&section=2 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -182,8 +182,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 3031](https://cplusplus.github.io/LWG/issue3031) | C++98  | requirements on `const` values were insufficent  | requirements strengthened   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/Predicate&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ predicate](../concepts/predicate.html "cpp/concepts/predicate")(C++20) |  specifies that a callable type is a Boolean predicate   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_predicate&action=edit)  
+(concept)   
 ---|---

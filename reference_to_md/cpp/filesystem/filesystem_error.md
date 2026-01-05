@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Filesystem library](../filesystem.html "cpp/filesystem")
 
@@ -100,7 +100,7 @@ filesystem::symlink_status](status.html "cpp/filesystem/status")
 [filesystem::is_socket](is_socket.html "cpp/filesystem/is socket")  
 [filesystem::is_symlink](is_symlink.html "cpp/filesystem/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/navbar_content&action=edit)
+
 
 **`filesystem_error`**
 
@@ -113,7 +113,7 @@ Member functions
 Inherited from [std::system_error](../error/system_error.html "cpp/error/system error")  
 [system_error::code](../error/system_error/code.html "cpp/error/system error/code")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/filesystem_error/navbar_content&action=edit)
+
 
 Defined in header `[<filesystem>](../header/filesystem.html "cpp/header/filesystem")` |  |   
 ---|---|---  
@@ -140,27 +140,27 @@ Inheritance diagram
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/filesystem_error&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](filesystem_error/filesystem_error.html "cpp/filesystem/filesystem error/filesystem error") |  constructs the exception object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/filesystem_error/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ operator=](filesystem_error/operator=.html "cpp/filesystem/filesystem error/operator=") |  replaces the exception object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/filesystem_error/dsc_operator%3D&action=edit)  
+(public member function)   
 [ path1path2](filesystem_error/path.html "cpp/filesystem/filesystem error/path") |  returns the paths that were involved in the operation that caused the error   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/filesystem_error/dsc_path&action=edit)  
+(public member function)   
 [ what](filesystem_error/what.html "cpp/filesystem/filesystem error/what") |  returns the explanatory string   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/filesystem_error/dsc_what&action=edit)  
+(public member function)   
   
 ##  Inherited from [std::system_error](../error/system_error.html "cpp/error/system error")
 
 ###  Member functions
 
 [ code](../error/system_error/code.html "cpp/error/system error/code") |  returns error code   
-(public member function of `std::system_error`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/system_error/dsc_code&action=edit)  
+(public member function of `std::system_error`)   
 ---|---  
 [ what](../error/system_error/what.html "cpp/error/system error/what")[virtual] |  returns an explanatory string   
-(virtual public member function of `std::system_error`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/system_error/dsc_what&action=edit)  
+(virtual public member function of `std::system_error`)   
   
 ##  Inherited from [std::runtime_error](../error/runtime_error.html "cpp/error/runtime error")
 
@@ -172,18 +172,18 @@ Inheritance diagram
 ###  Member functions
 
 [ (destructor)](../error/exception/~exception.html "cpp/error/exception/~exception")[virtual] |  destroys the exception object   
-(virtual public member function of `std::exception`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/exception/dsc_destructor&action=edit)  
+(virtual public member function of `std::exception`)   
 ---|---  
 [ what](../error/exception/what.html "cpp/error/exception/what")[virtual] |  returns an explanatory string   
-(virtual public member function of `std::exception`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/exception/dsc_what&action=edit)  
+(virtual public member function of `std::exception`)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/filesystem_error&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 In order to ensure that copy functions of `filesystem_error` are noexcept, typical implementations store an object holding the return value of [what()](filesystem_error/what.html "cpp/filesystem/filesystem error/what") and two [std::filesystem::path](path.html "cpp/filesystem/path") objects referenced by [path1()](filesystem_error/path.html "cpp/filesystem/filesystem error/path") and [path2()](filesystem_error/path.html "cpp/filesystem/filesystem error/path") respectively in a separately-allocated reference-counted storage. 
 
 Currently the [MS STL implementation](https://github.com/microsoft/STL/blob/master/stl/inc/filesystem#L1749) is non-conforming: objects mentioned above are stored directly in the `filesystem` object, which makes the copy functions not noexcept. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/filesystem_error&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     

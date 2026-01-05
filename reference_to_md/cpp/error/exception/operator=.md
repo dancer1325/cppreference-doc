@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Diagnostics library](../../error.html "cpp/error")
 
@@ -187,7 +187,7 @@ Exception handling failures
 [breakpoint_if_debugging](../../utility/breakpoint_if_debugging.html "cpp/utility/breakpoint if debugging")(C++26)  
 [breakpoint](../../utility/breakpoint.html "cpp/utility/breakpoint")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/navbar_content&action=edit)
+
 
 [`std::exception`](../exception.html "cpp/error/exception")
 
@@ -198,7 +198,7 @@ Member functions
 **exception::operator=**  
 [exception::what](what.html "cpp/error/exception/what")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/exception/navbar_content&action=edit)
+
 
 exception& operator=( const exception& other ) throw(); |  | (until C++11)  
 ---|---|---  
@@ -210,12 +210,12 @@ Copy assignment operator. Assigns the contents of other.
 
 If *this and other both have dynamic type `std::exception` then [std::strcmp](../../string/byte/strcmp.html)(what(), other.what()) == 0 after assignment. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/exception/operator%3D&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 other  |  \-  |  another exception to assign the contents of   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/exception/operator%3D&action=edit&section=2 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

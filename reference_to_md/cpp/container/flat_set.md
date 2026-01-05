@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../container.html "cpp/container")
 
@@ -71,7 +71,7 @@ Tables
 [Member function table](../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 **`std::flat_set`**
 
@@ -132,7 +132,7 @@ Tables
   
 [Deduction guides](flat_set/deduction_guides.html "cpp/container/flat set/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/flat_set/navbar_content&action=edit)
+
 
 Defined in header `[<flat_set>](../header/flat_set.html "cpp/header/flat set")` |  |   
 ---|---|---  
@@ -185,37 +185,37 @@ All member functions of `std::flat_set` are constexpr: it is possible to create 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/flat_set&action=edit&section=1 "Edit section: Iterator invalidation")] Iterator invalidation
+### Iterator invalidation
 
 | This section is incomplete   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/flat_set&action=edit&section=2 "Edit section: Template parameters")] Template parameters
+### Template parameters
 
 Key  |  \-  |  The type of the stored elements. The program is ill-formed if `Key` is not the same type as `KeyContainer::value_type`.   
 ---|---|---  
 Compare  |  \-  |  A [Compare](../named_req/Compare.html "cpp/named req/Compare") type providing a strict weak ordering.   
 KeyContainer  |  \-  |  The type of the underlying [SequenceContainer](../named_req/SequenceContainer.html "cpp/named req/SequenceContainer") to store the elements. The iterators of such container should satisfy [LegacyRandomAccessIterator](../named_req/RandomAccessIterator.html "cpp/named req/RandomAccessIterator") or model [`random_access_iterator`](../iterator/random_access_iterator.html "cpp/iterator/random access iterator"). The standard containers [std::vector](vector.html "cpp/container/vector") and [std::deque](deque.html "cpp/container/deque") satisfy these requirements.   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/flat_set&action=edit&section=3 "Edit section: Member types")] Member types
+### Member types
 
 Type  |  Definition   
 ---|---  
-`container_type` |  `Key``Container`[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_container_type&action=edit)  
-`key_type` |  `Key`[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_key_type&action=edit)  
-`value_type` |  `Key`[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_value_type&action=edit)  
-`key_compare` |  `Compare`[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_key_compare&action=edit)  
-`value_compare` |  `Compare`[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_value_compare2&action=edit)  
-`reference` |  value_type&[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_reference&action=edit)  
-`const_reference` |  const value_type&[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_const_reference&action=edit)  
-`size_type` |  typename KeyContainer::size_type[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_size_type&action=edit)  
-`difference_type` |  typename KeyContainer::difference_type[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_difference_type&action=edit)  
-`iterator` |  implementation-defined [LegacyRandomAccessIterator](../named_req/RandomAccessIterator.html "cpp/named req/RandomAccessIterator"), [ConstexprIterator](../named_req/ConstexprIterator.html "cpp/named req/ConstexprIterator")(since C++26) and [`random_access_iterator`](../iterator/random_access_iterator.html "cpp/iterator/random access iterator") to `value_type`[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_iterator&action=edit)  
-`const_iterator` |  implementation-defined [LegacyRandomAccessIterator](../named_req/RandomAccessIterator.html "cpp/named req/RandomAccessIterator"), [ConstexprIterator](../named_req/ConstexprIterator.html "cpp/named req/ConstexprIterator")(since C++26) and [`random_access_iterator`](../iterator/random_access_iterator.html "cpp/iterator/random access iterator") to const value_type[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_const_iterator&action=edit)  
-`reverse_iterator` |  [std::reverse_iterator](../iterator/reverse_iterator.html)<iterator>[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_reverse_iterator&action=edit)  
-`const_reverse_iterator` |  [std::reverse_iterator](../iterator/reverse_iterator.html)<const_iterator>[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_const_reverse_iterator&action=edit)  
+`container_type` |  `Key``Container`  
+`key_type` |  `Key`  
+`value_type` |  `Key`  
+`key_compare` |  `Compare`  
+`value_compare` |  `Compare`  
+`reference` |  value_type&  
+`const_reference` |  const value_type&  
+`size_type` |  typename KeyContainer::size_type  
+`difference_type` |  typename KeyContainer::difference_type  
+`iterator` |  implementation-defined [LegacyRandomAccessIterator](../named_req/RandomAccessIterator.html "cpp/named req/RandomAccessIterator"), [ConstexprIterator](../named_req/ConstexprIterator.html "cpp/named req/ConstexprIterator")(since C++26) and [`random_access_iterator`](../iterator/random_access_iterator.html "cpp/iterator/random access iterator") to `value_type`  
+`const_iterator` |  implementation-defined [LegacyRandomAccessIterator](../named_req/RandomAccessIterator.html "cpp/named req/RandomAccessIterator"), [ConstexprIterator](../named_req/ConstexprIterator.html "cpp/named req/ConstexprIterator")(since C++26) and [`random_access_iterator`](../iterator/random_access_iterator.html "cpp/iterator/random access iterator") to const value_type  
+`reverse_iterator` |  [std::reverse_iterator](../iterator/reverse_iterator.html)<iterator>  
+`const_reverse_iterator` |  [std::reverse_iterator](../iterator/reverse_iterator.html)<const_iterator>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/flat_set&action=edit&section=4 "Edit section: Member objects")] Member objects
+### Member objects
 
 Member  |  Description   
 ---|---  
@@ -224,104 +224,104 @@ Member  |  Description
 `key_compare` `_compare_` (private) |  the comparison function object  
 (exposition-only member object*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/flat_set&action=edit&section=5 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](flat_set/flat_set.html "cpp/container/flat set/flat set") |  constructs the `flat_set`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 (destructor)(implicitly declared) |  destroys every element of the container adaptor   
 (public member function)  
 [ operator=](flat_set/operator=.html "cpp/container/flat set/operator=") |  assigns values to the container adaptor   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_operator%3D&action=edit)  
+(public member function)   
   
 #####  Iterators   
   
 [ begincbegin](flat_set/begin.html "cpp/container/flat set/begin") |  returns an iterator to the beginning   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_begin&action=edit)  
+(public member function)   
 [ endcend](flat_set/end.html "cpp/container/flat set/end") |  returns an iterator to the end   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_end&action=edit)  
+(public member function)   
 [ rbegincrbegin](flat_set/rbegin.html "cpp/container/flat set/rbegin") |  returns a reverse iterator to the beginning   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_rbegin&action=edit)  
+(public member function)   
 [ rendcrend](flat_set/rend.html "cpp/container/flat set/rend") |  returns a reverse iterator to the end   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_rend&action=edit)  
+(public member function)   
   
 #####  Capacity   
   
 [ empty](flat_set/empty.html "cpp/container/flat set/empty") |  checks whether the container adaptor is empty   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_empty&action=edit)  
+(public member function)   
 [ size](flat_set/size.html "cpp/container/flat set/size") |  returns the number of elements   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_size&action=edit)  
+(public member function)   
 [ max_size](flat_set/max_size.html "cpp/container/flat set/max size") |  returns the maximum possible number of elements   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_max_size&action=edit)  
+(public member function)   
   
 #####  Modifiers   
   
 [ emplace](flat_set/emplace.html "cpp/container/flat set/emplace") |  constructs element in-place   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_emplace&action=edit)  
+(public member function)   
 [ emplace_hint](flat_set/emplace_hint.html "cpp/container/flat set/emplace hint") |  constructs elements in-place using a hint   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_emplace_hint&action=edit)  
+(public member function)   
 [ insert](flat_set/insert.html "cpp/container/flat set/insert") |  inserts elements   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_insert&action=edit)  
+(public member function)   
 [ insert_range](flat_set/insert_range.html "cpp/container/flat set/insert range") |  inserts a range of elements   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_insert_range&action=edit)  
+(public member function)   
 [ extract](flat_set/extract.html "cpp/container/flat set/extract") |  extracts the underlying container   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_extract&action=edit)  
+(public member function)   
 [ replace](flat_set/replace.html "cpp/container/flat set/replace") |  replaces the underlying container   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_replace&action=edit)  
+(public member function)   
 [ erase](flat_set/erase.html "cpp/container/flat set/erase") |  erases elements   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_erase&action=edit)  
+(public member function)   
 [ swap](flat_set/swap.html "cpp/container/flat set/swap") |  swaps the contents   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_swap&action=edit)  
+(public member function)   
 [ clear](flat_set/clear.html "cpp/container/flat set/clear") |  clears the contents   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_clear&action=edit)  
+(public member function)   
   
 #####  Lookup   
   
 [ find](flat_set/find.html "cpp/container/flat set/find") |  finds element with specific key   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_find&action=edit)  
+(public member function)   
 [ count](flat_set/count.html "cpp/container/flat set/count") |  returns the number of elements matching specific key   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_count&action=edit)  
+(public member function)   
 [ contains](flat_set/contains.html "cpp/container/flat set/contains") |  checks if the container contains element with specific key   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_contains&action=edit)  
+(public member function)   
 [ lower_bound](flat_set/lower_bound.html "cpp/container/flat set/lower bound") |  returns an iterator to the first element _not less_ than the given key   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_lower_bound&action=edit)  
+(public member function)   
 [ upper_bound](flat_set/upper_bound.html "cpp/container/flat set/upper bound") |  returns an iterator to the first element _greater_ than the given key   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_upper_bound&action=edit)  
+(public member function)   
 [ equal_range](flat_set/equal_range.html "cpp/container/flat set/equal range") |  returns range of elements matching a specific key   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_equal_range&action=edit)  
+(public member function)   
   
 #####  Observers   
   
 [ key_comp](flat_set/key_comp.html "cpp/container/flat set/key comp") |  returns the function that compares keys   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_key_comp&action=edit)  
+(public member function)   
 [ value_comp](flat_set/value_comp.html "cpp/container/flat set/value comp") |  returns the function that compares keys in objects of type `value_type`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_value_comp&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/flat_set&action=edit&section=6 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ operator==operator<=>](flat_set/operator_cmp.html "cpp/container/flat set/operator cmp")(C++23) |  lexicographically compares the values of two `flat_set`s   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_operator_cmp&action=edit)  
+(function template)   
 ---|---  
 [ std::swap(std::flat_set)](flat_set/swap2.html "cpp/container/flat set/swap2")(C++23) |  specializes the [std::swap](../utility/swap.html "cpp/algorithm/swap") algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_swap2&action=edit)  
+(function template)   
 [ erase_if(std::flat_set)](flat_set/erase_if.html "cpp/container/flat set/erase if")(C++23) |  erases all elements satisfying specific criteria   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_erase_if&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/flat_set&action=edit&section=7 "Edit section: Helper classes")] Helper classes
+### Helper classes
 
 [ std::uses_allocator<std::flat_set>](flat_set/uses_allocator.html "cpp/container/flat set/uses allocator")(C++23) |  specializes the [std::uses_allocator](../memory/uses_allocator.html "cpp/memory/uses allocator") type trait   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_uses_allocator&action=edit)  
+(class template specialization)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/flat_set&action=edit&section=8 "Edit section: Tags")] Tags
+### Tags
 
 [ sorted_uniquesorted_unique_t](sorted_unique.html "cpp/container/sorted unique")(C++23) |  indicates that elements of a range are sorted and unique  
-(tag)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_sorted_unique&action=edit)  
+(tag)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/flat_set&action=edit&section=9 "Edit section: Deduction guides")] [Deduction guides](flat_set/deduction_guides.html "cpp/container/flat set/deduction guides")
+### [Deduction guides](flat_set/deduction_guides.html "cpp/container/flat set/deduction guides")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/flat_set&action=edit&section=10 "Edit section: Notes")] Notes
+### Notes
 
 The member types `iterator` and `const_iterator` may be aliases to the same type. This means defining a pair of function overloads using the two types as parameter types may violate the [One Definition Rule](../language/definition.html#One_Definition_Rule "cpp/language/definition"). Since `iterator` is convertible to `const_iterator`, a single function with a `const_iterator` as parameter type will work instead. 
 
@@ -346,20 +346,20 @@ Some disadvantages of flat set are:
 [`__cpp_lib_flat_set`](../experimental/feature_test.html#cpp_lib_flat_set "cpp/feature test") | [`202207L`](../compiler_support/23.html#cpp_lib_flat_set_202207L "cpp/compiler support/23") | (C++23) | `std::flat_set` and std::flat_multiset  
 [`__cpp_lib_constexpr_flat_set`](../experimental/feature_test.html#cpp_lib_constexpr_flat_set "cpp/feature test") | [`202502L`](../compiler_support/26.html#cpp_lib_constexpr_flat_set_202502L "cpp/compiler support/26") | (C++26) | constexpr `std::flat_set`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/flat_set&action=edit&section=11 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/flat_set&action=edit&section=12 "Edit section: See also")] See also
+### See also
 
 [ flat_multiset](flat_multiset.html "cpp/container/flat multiset")(C++23) |  adapts a container to provide a collection of keys, sorted by keys   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_flat_multiset&action=edit)  
+(class template)   
 ---|---  
 [ set](set.html "cpp/container/set") |  collection of unique keys, sorted by keys   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_set&action=edit)  
+(class template)   
 [ unordered_set](unordered_set.html "cpp/container/unordered set")(C++11) |  collection of unique keys, hashed by keys   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_unordered_set&action=edit)
+(class template) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

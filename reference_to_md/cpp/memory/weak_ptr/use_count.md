@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::weak_ptr`](../weak_ptr.html "cpp/memory/weak ptr")
 
@@ -209,7 +209,7 @@ Helper classes
 [atomic<std::weak_ptr>](atomic2.html "cpp/memory/weak ptr/atomic2")(C++20)  
 [Deduction guides](deduction_guides.html "cpp/memory/weak ptr/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/weak_ptr/navbar_content&action=edit)
+
 
 long use_count() const noexcept; |  |  (since C++11)  
 ---|---|---  
@@ -228,19 +228,19 @@ Returns the number of `shared_ptr` instances that share ownership of the managed
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/weak_ptr/use_count&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/weak_ptr/use_count&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The number of `shared_ptr` instances sharing the ownership of the managed object at the instant of the call. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/weak_ptr/use_count&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 The usage and behavior of this function are similar to [std::shared_ptr::use_count](../shared_ptr/use_count.html "cpp/memory/shared ptr/use count"), but it returns a different count. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/weak_ptr/use_count&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -294,8 +294,8 @@ Output:
     use_count(): 1   id: 42
     use_count(): 0   id: ??
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/weak_ptr/use_count&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ expired](expired.html "cpp/memory/weak ptr/expired") |  checks whether the referenced object was already deleted   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/weak_ptr/dsc_expired&action=edit)  
+(public member function)   
 ---|---

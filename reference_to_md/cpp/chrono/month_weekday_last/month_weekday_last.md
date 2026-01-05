@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::month_weekday_last`](../month_weekday_last.html "cpp/chrono/month weekday last")
 
@@ -117,7 +117,7 @@ Helper classes
 [formatter<std::chrono::month_weekday_last>](formatter.html "cpp/chrono/month weekday last/formatter")  
 [hash<std::chrono::month_weekday_last>](hash.html "cpp/chrono/month weekday last/hash")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/month_weekday_last/navbar_content&action=edit)
+
 
 constexpr month_weekday_last( const [std::chrono::month](../month.html)& m,  
 const [std::chrono::weekday_last](../weekday_last.html)& wdl ) noexcept; |  |  (since C++20)  
@@ -126,12 +126,12 @@ const [std::chrono::weekday_last](../weekday_last.html)& wdl ) noexcept; |  |  (
   
 Constructs a `month_weekday_last` object that stores the [`month`](../month.html "cpp/chrono/month") m and the [`weekday_last`](../weekday_last.html "cpp/chrono/weekday last") wdl. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/month_weekday_last/month_weekday_last&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 A more convenient way to construct a `month_weekday_last` is with operator/, e.g., [std::chrono::April](../month.html)/[std::chrono::Sunday](../weekday.html)[[std::chrono::last](../last_spec.html)]. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/month_weekday_last/month_weekday_last&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ operator/](../operator_slash.html "cpp/chrono/operator slash")(C++20) |  conventional syntax for Gregorian calendar date creation   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_operator/&action=edit)  
+(function)   
 ---|---

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Null-terminated byte strings](../byte.html "cpp/string/byte")
 
@@ -143,7 +143,7 @@
 | [strerror](strerror.html "cpp/string/byte/strerror")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/navbar_content&action=edit)
+
 
 Defined in header `[<cstring>](../../header/cstring.html "cpp/header/cstring")` |  |   
 ---|---|---  
@@ -163,16 +163,16 @@ Returns the length of the given byte string, that is, the number of characters i
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/strlen&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 str  |  \-  |  pointer to the null-terminated byte string to be examined   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/strlen&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The length of the null-terminated string str. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/strlen&action=edit&section=3 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     [std::size_t](../../types/size_t.html) strlen(const char* start)
@@ -186,7 +186,7 @@ The length of the null-terminated string str.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/strlen&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -208,11 +208,11 @@ Output:
     without null character: 7
     with null character: 14
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/strlen&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ wcslen](../wide/wcslen.html "cpp/string/wide/wcslen") |  returns the length of a wide string   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wcslen&action=edit)  
+(function)   
 ---|---  
 [ mblen](../multibyte/mblen.html "cpp/string/multibyte/mblen") |  returns the number of bytes in the next multibyte character   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/dsc_mblen&action=edit)  
+(function)   
 [C documentation](../../../c/string/byte/strlen.html "c/string/byte/strlen") for strlen

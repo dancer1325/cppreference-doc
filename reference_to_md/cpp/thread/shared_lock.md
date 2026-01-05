@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 **`std::shared_lock`**
 
@@ -198,7 +198,7 @@ Observers
 Non-member functions  
 [swap(std::shared_lock)](shared_lock/swap2.html "cpp/thread/shared lock/swap2")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/shared_lock/navbar_content&action=edit)
+
 
 Defined in header `[<shared_mutex>](../header/shared_mutex.html "cpp/header/shared mutex")` |  |   
 ---|---|---  
@@ -228,63 +228,63 @@ In order to wait in a shared mutex in shared ownership mode, [std::condition_var
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/shared_lock&action=edit&section=1 "Edit section: Template parameters")] Template parameters
+### Template parameters
 
 Mutex  |  \-  |  the type of the shared mutex to lock. The type must meet the [SharedLockable](../named_req/SharedLockable.html "cpp/named req/SharedLockable") requirements   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/shared_lock&action=edit&section=2 "Edit section: Member types")] Member types
+### Member types
 
 Type  |  Definition   
 ---|---  
 `mutex_type` |  `Mutex`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/shared_lock&action=edit&section=3 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](shared_lock/shared_lock.html "cpp/thread/shared lock/shared lock") |  constructs a `shared_lock`, optionally locking the supplied mutex   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/shared_lock/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ (destructor)](shared_lock/~shared_lock.html "cpp/thread/shared lock/~shared lock") |  unlocks the associated mutex   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/shared_lock/dsc_destructor&action=edit)  
+(public member function)   
 [ operator=](shared_lock/operator=.html "cpp/thread/shared lock/operator=") |  unlocks the mutex, if owned, and acquires ownership of another   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/shared_lock/dsc_operator%3D&action=edit)  
+(public member function)   
   
 #####  Shared locking   
   
 [ lock](shared_lock/lock.html "cpp/thread/shared lock/lock") |  locks the associated mutex   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/shared_lock/dsc_lock&action=edit)  
+(public member function)   
 [ try_lock](shared_lock/try_lock.html "cpp/thread/shared lock/try lock") |  tries to lock the associated mutex   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/shared_lock/dsc_try_lock&action=edit)  
+(public member function)   
 [ try_lock_for](shared_lock/try_lock_for.html "cpp/thread/shared lock/try lock for") |  tries to lock the associated mutex, for the specified duration   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/shared_lock/dsc_try_lock_for&action=edit)  
+(public member function)   
 [ try_lock_until](shared_lock/try_lock_until.html "cpp/thread/shared lock/try lock until") |  tries to lock the associated mutex, until a specified time point   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/shared_lock/dsc_try_lock_until&action=edit)  
+(public member function)   
 [ unlock](shared_lock/unlock.html "cpp/thread/shared lock/unlock") |  unlocks the associated mutex   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/shared_lock/dsc_unlock&action=edit)  
+(public member function)   
   
 #####  Modifiers   
   
 [ swap](shared_lock/swap.html "cpp/thread/shared lock/swap") |  swaps the data members with another `shared_lock`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/shared_lock/dsc_swap&action=edit)  
+(public member function)   
 [ release](shared_lock/release.html "cpp/thread/shared lock/release") |  disassociates the mutex without unlocking   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/shared_lock/dsc_release&action=edit)  
+(public member function)   
   
 #####  Observers   
   
 [ mutex](shared_lock/mutex.html "cpp/thread/shared lock/mutex") |  returns a pointer to the associated mutex   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/shared_lock/dsc_mutex&action=edit)  
+(public member function)   
 [ owns_lock](shared_lock/owns_lock.html "cpp/thread/shared lock/owns lock") |  tests whether the lock owns its associated mutex   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/shared_lock/dsc_owns_lock&action=edit)  
+(public member function)   
 [ operator bool](shared_lock/operator_bool.html "cpp/thread/shared lock/operator bool") |  tests whether the lock owns its associated mutex   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/shared_lock/dsc_operator_bool&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/shared_lock&action=edit&section=4 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ std::swap(std::shared_lock)](shared_lock/swap2.html "cpp/thread/shared lock/swap2")(C++14) |  specializes the [std::swap](../utility/swap.html "cpp/algorithm/swap") algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/shared_lock/dsc_swap2&action=edit)  
+(function template)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/shared_lock&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

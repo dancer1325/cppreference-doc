@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Statements](statements.html "cpp/language/statements")
 
@@ -253,7 +253,7 @@ Miscellaneous
 [Transactional memory](transactional_memory.html "cpp/language/transactional memory")  
 [`synchronized`](transactional_memory.html#Synchronized_blocks "cpp/language/transactional memory"), [`atomic_commit`](transactional_memory.html#Atomic_blocks "cpp/language/transactional memory"), etc (TM TS)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/statements/navbar_content&action=edit)
+
 
 Terminates the current function and returns the specified value (if any) to the caller. 
 
@@ -272,7 +272,7 @@ Terminates the current function and returns the specified value (if any) to the 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/return&action=edit&section=1 "Edit section: Syntax")] Syntax  
+### Syntax  
   
 ---  
 attr ﻿(optional) `**return**` expression ﻿(optional) `**;**` |  (1)  |   
@@ -284,7 +284,7 @@ attr |  \-  |  (since C++11) sequence of any number of [attributes](attributes.h
 expression |  \-  |  [expression](expressions.html "cpp/language/expressions"), convertible to the function return type   
 braced-init-list |  \-  |  [brace-enclosed initializer list](initialization.html "cpp/language/initialization")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/return&action=edit&section=2 "Edit section: Explanation")] Explanation
+### Explanation
 
 1) Evaluates the expression, terminates the current function and returns the result of the expression to the caller, after [implicit conversion](implicit_cast.html "cpp/language/implicit cast") to the function return type. The expression is optional in functions whose return type is (possibly cv-qualified) void, and disallowed in constructors and in destructors.
 
@@ -319,7 +319,7 @@ In a function returning (possibly cv-qualified) void, the return statement with 
 If the return type of a function is specified as a [placeholder type](auto.html "cpp/language/auto"), it will be [deduced](function.html#Return_type_deduction "cpp/language/function") from the return value. If decltype(auto) is used, the type deduction treats an expression that can be an entity as an entity.  | (since C++14)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/return&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Returning by value may involve construction and copy/move of a temporary object, unless [copy elision](copy_elision.html "cpp/language/copy elision") is used. Specifically, the conditions for copy/move are as follows: 
 
@@ -376,11 +376,11 @@ Feature-test macro | Value | Std | Feature
 ---|---|---|---  
 [`__cpp_implicit_move`](../experimental/feature_test.html#cpp_implicit_move "cpp/feature test") | [`202207L`](../compiler_support/23.html#cpp_implicit_move_202207L "cpp/compiler support/23") | (C++23) | Simpler [implicit move](return.html#Automatic_move_from_local_variables_and_parameters)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/return&action=edit&section=6 "Edit section: Keywords")] Keywords
+### Keywords
 
 [`return`](../keyword/return.html "cpp/keyword/return"), [`co_return`](../keyword/co_return.html "cpp/keyword/co return")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/return&action=edit&section=7 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -457,7 +457,7 @@ Output:
     fc(~).second = 7
     fa(10)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/return&action=edit&section=8 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -468,7 +468,7 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 constructor lookup enabled   
 [CWG 1885](https://cplusplus.github.io/CWG/issues/1885.html) | C++98  | sequencing of the destruction of automatic variables was not explicit  | sequencing rules added   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/return&action=edit&section=9 "Edit section: See also")] See also
+### See also
 
   * [copy elision](copy_elision.html "cpp/language/copy elision")
 

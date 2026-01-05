@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Null-terminated wide strings](../wide.html "cpp/string/wide")
 
@@ -153,7 +153,7 @@
 WCHAR_MAX  
 WEOF](../wide.html#Macros "cpp/string/wide")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/navbar_content&action=edit)
+
 
 Defined in header `[<cwchar>](../../header/cwchar.html "cpp/header/cwchar")` |  |   
 ---|---|---  
@@ -203,18 +203,18 @@ This function is designed to be called multiples times to obtain successive toke
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/wcstok&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 str  |  \-  |  pointer to the null-terminated wide string to tokenize   
 ---|---|---  
 delim  |  \-  |  pointer to the null-terminated wide string identifying delimiters   
 ptr  |  \-  |  pointer to an object of type wchar_t*, which is used by wcstok to store its internal state   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/wcstok&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Pointer to the beginning of the next token or null pointer if there are no more tokens. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/wcstok&action=edit&section=3 "Edit section: Note")] Note
+### Note
 
 This function is destructive: it writes the L'\0' characters in the elements of the string str. In particular, a wide string literal cannot be used as the first argument of `std::wcstok`. 
 
@@ -222,7 +222,7 @@ Unlike [std::strtok](../byte/strtok.html "cpp/string/byte/strtok"), this functio
 
 Unlike most other tokenizers, the delimiters in `std::wcstok` can be different for each subsequent token, and can even depend on the contents of the previous tokens. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/wcstok&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -252,9 +252,9 @@ Output:
     the
     walk
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/wcstok&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ strtok](../byte/strtok.html "cpp/string/byte/strtok") |  finds the next token in a byte string   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strtok&action=edit)  
+(function)   
 ---|---  
 [C documentation](../../../c/string/wide/wcstok.html "c/string/wide/wcstok") for wcstok

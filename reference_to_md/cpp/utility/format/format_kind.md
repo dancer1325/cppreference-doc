@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Formatting library](../format.html "cpp/utility/format")
 
@@ -91,7 +91,7 @@ Formatting arguments
 [Format error](format.html#Format_error "cpp/utility/format/format")  
 [format_error](format_error.html "cpp/utility/format/format error")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/navbar_content&action=edit)
+
 
 Defined in header `[<format>](../../header/format.html "cpp/header/format")` |  |   
 ---|---|---  
@@ -128,7 +128,7 @@ A program that instantiates the primary template of the `format_kind` variable t
 
 Given a cv-unqualified [program-defined type](../../language/type-id.html#Program-defined_type "cpp/language/type") `T` that models [`input_range`](../../ranges/input_range.html "cpp/ranges/input range"), a program can specialize `format_kind` for `T`. Such specializations are usable in constant expressions, and have type const [std::range_format](range_format.html). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/format_kind&action=edit&section=1 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     namespace detail
@@ -175,7 +175,7 @@ Given a cv-unqualified [program-defined type](../../language/type-id.html#Progra
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/format_kind&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -197,8 +197,8 @@ Run this code
      
     int main() {}
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/format_kind&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ range_format](range_format.html "cpp/utility/format/range format")(C++23) |  specifies how a range should be formatted   
-(enum) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/dsc_range_format&action=edit)  
+(enum)   
 ---|---

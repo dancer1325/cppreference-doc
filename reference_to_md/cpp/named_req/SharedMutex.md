@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ named requirements](../iterator/concepts.html "cpp/named req")
 
@@ -147,11 +147,11 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/named_req/navbar_content&action=edit)
+
 
 The **SharedMutex** requirements extend the [Mutex](Mutex.html "cpp/named req/Mutex") requirements to include shared lock ownership mode. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/SharedMutex&action=edit&section=1 "Edit section: Requirements")] Requirements
+### Requirements
 
   * [Mutex](Mutex.html "cpp/named req/Mutex")
 
@@ -202,17 +202,17 @@ Additionally, an object `**m**` of SharedMutex type supports another mode of own
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/SharedMutex&action=edit&section=2 "Edit section: Standard library")] Standard library
+### Standard library
 
 The following standard library types satisfy SharedMutex requirements: 
 
 [ shared_mutex](../thread/shared_mutex.html "cpp/thread/shared mutex")(C++17) |  provides shared mutual exclusion facility   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_shared_mutex&action=edit)  
+(class)   
 ---|---  
 [ shared_timed_mutex](../thread/shared_timed_mutex.html "cpp/thread/shared timed mutex")(C++14) |  provides shared mutual exclusion facility and implements locking with a timeout   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_shared_timed_mutex&action=edit)  
+(class)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/SharedMutex&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
   * [Thread support library](../atomic.html "cpp/thread")
   * [Mutex](Mutex.html "cpp/named req/Mutex")

@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::unordered_map`](../unordered_map.html "cpp/container/unordered map")
 
@@ -139,7 +139,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/unordered map/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/unordered_map/navbar_content&action=edit)
+
 
 local_iterator end( size_type n ); |  |  (since C++11)  
 ---|---|---  
@@ -159,21 +159,21 @@ Returns an iterator to the element following the last element of the bucket with
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/end2&action=edit&section=T-1 "Template:cpp/container/end2")] Parameters
+### Parameters
 
 n  |  \-  |  the index of the bucket to access   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/end2&action=edit&section=T-2 "Template:cpp/container/end2")] Return value
+### Return value
 
 Iterator to the element following the last element. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/end2&action=edit&section=T-3 "Template:cpp/container/end2")] Complexity
+### Complexity
 
 Constant. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/end2&action=edit&section=T-4 "Template:cpp/container/end2")] See also
+### See also
 
 [ begin(size_type)cbegin(size_type)](begin2.html "cpp/container/unordered map/begin2") |  returns an iterator to the beginning of the specified bucket   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_begin\(int\)&action=edit)  
+(public member function) &action=edit)  
 ---|---

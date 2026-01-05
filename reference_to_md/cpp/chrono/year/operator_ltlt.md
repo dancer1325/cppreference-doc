@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::year`](../year.html "cpp/chrono/year")
 
@@ -126,7 +126,7 @@ Helper classes
 [formatter<std::chrono::year>](formatter.html "cpp/chrono/year/formatter")  
 [hash<std::chrono::year>](hash.html "cpp/chrono/year/hash")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/year/navbar_content&action=edit)
+
 
 Defined in header `[<chrono>](../../header/chrono.html "cpp/header/chrono")` |  |   
 ---|---|---  
@@ -145,11 +145,11 @@ return os << (y.ok() ?
 
 where STATICALLY_WIDEN<CharT>("...") is "..." if `CharT` is `char`, and L"..." if `CharT` is `wchar_t`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/year/operator_ltlt&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 os
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/year/operator_ltlt&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -172,10 +172,10 @@ Possible output:
     -0016
     -32768 is not a valid year
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/year/operator_ltlt&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ format](../../utility/format/format.html "cpp/utility/format/format")(C++20) |  stores formatted representation of the arguments in a new string   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/dsc_format&action=edit)  
+(function template)   
 ---|---  
 [ std::formatter<std::chrono::year>](formatter.html "cpp/chrono/year/formatter")(C++20) |  formatting support for `year`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_formatter&action=edit)
+(class template specialization) 

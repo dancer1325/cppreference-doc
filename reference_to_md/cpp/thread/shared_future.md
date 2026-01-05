@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 **`std::shared_future`**
 
@@ -190,7 +190,7 @@ State
 [shared_future::wait_for](shared_future/wait_for.html "cpp/thread/shared future/wait for")  
 [shared_future::wait_until](shared_future/wait_until.html "cpp/thread/shared future/wait until")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/shared_future/navbar_content&action=edit)
+
 
 Defined in header `[<future>](../header/future.html "cpp/header/future")` |  |   
 ---|---|---  
@@ -214,10 +214,10 @@ Access to the same shared state from multiple threads is safe if each thread doe
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/shared_future&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](shared_future/shared_future.html "cpp/thread/shared future/shared future") |  constructs the future object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/future/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ (destructor)](shared_future/~shared_future.html "cpp/thread/shared future/~shared future") |  destructs the future object   
 (public member function)  
@@ -227,20 +227,20 @@ Access to the same shared state from multiple threads is safe if each thread doe
 #####  Getting the result   
   
 [ get](shared_future/get.html "cpp/thread/shared future/get") |  returns the result   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/future/dsc_get&action=edit)  
+(public member function)   
   
 #####  State   
   
 [ valid](shared_future/valid.html "cpp/thread/shared future/valid") |  checks if the future has a shared state   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/future/dsc_valid&action=edit)  
+(public member function)   
 [ wait](shared_future/wait.html "cpp/thread/shared future/wait") |  waits for the result to become available   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/future/dsc_wait&action=edit)  
+(public member function)   
 [ wait_for](shared_future/wait_for.html "cpp/thread/shared future/wait for") |  waits for the result, returns if it is not available for the specified timeout duration   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/future/dsc_wait_for&action=edit)  
+(public member function)   
 [ wait_until](shared_future/wait_until.html "cpp/thread/shared future/wait until") |  waits for the result, returns if it is not available until specified time point has been reached   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/future/dsc_wait_until&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/shared_future&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 A `shared_future` may be used to signal multiple threads simultaneously, similar to [std::condition_variable::notify_all()](condition_variable/notify_all.html "cpp/thread/condition variable/notify all").
 
@@ -301,10 +301,10 @@ Possible output:
     Thread 1 received the signal 0.072 ms after start
     Thread 2 received the signal 0.041 ms after start
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/shared_future&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ async](async.html "cpp/thread/async")(C++11) |  runs a function asynchronously (potentially in a new thread) and returns a [std::future](future.html "cpp/thread/future") that will hold the result   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_async&action=edit)  
+(function template)   
 ---|---  
 [ future](future.html "cpp/thread/future")(C++11) |  waits for a value that is set asynchronously   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_future&action=edit)
+(class template) 

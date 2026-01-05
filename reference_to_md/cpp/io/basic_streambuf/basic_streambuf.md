@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_streambuf`](../basic_streambuf.html "cpp/io/basic streambuf")
 
@@ -152,7 +152,7 @@ Put area
 Putback  
 [basic_streambuf::pbackfail](pbackfail.html "cpp/io/basic streambuf/pbackfail")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_streambuf/navbar_content&action=edit)
+
 
 protected:  
 basic_streambuf(); |  (1)  |   
@@ -177,27 +177,27 @@ Both constructors are protected, and are only called by the concrete streambuf c
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_streambuf/basic_streambuf&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 rhs  |  \-  |  a streambuf object to copy   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_streambuf/basic_streambuf&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 Until C++11, it was unspecified whether `basic_streambuf` or any of its derived classes is [CopyConstructible](../../named_req/CopyConstructible.html "cpp/named req/CopyConstructible") ([LWG issue 421](https://cplusplus.github.io/LWG/issue421)), and different C++ library implementations provided different options. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_streambuf/basic_streambuf&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_streambuf/basic_streambuf&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ (constructor)](../basic_filebuf/basic_filebuf.html "cpp/io/basic filebuf/basic filebuf") |  constructs a `basic_filebuf` object   
-(public member function of `std::basic_filebuf<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_filebuf/dsc_basic_filebuf&action=edit)  
+(public member function of `std::basic_filebuf<CharT,Traits>`)   
 ---|---  
 [ (constructor)](../basic_stringbuf/basic_stringbuf.html "cpp/io/basic stringbuf/basic stringbuf") |  constructs a `basic_stringbuf` object   
-(public member function of `std::basic_stringbuf<CharT,Traits,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_stringbuf/dsc_constructor&action=edit)  
+(public member function of `std::basic_stringbuf<CharT,Traits,Allocator>`)   
 [ (constructor)](../strstreambuf/strstreambuf.html "cpp/io/strstreambuf/strstreambuf") |  constructs a `strstreambuf` object   
-(public member function of `std::strstreambuf`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/strstreambuf/dsc_strstreambuf&action=edit)
+(public member function of `std::strstreambuf`) 

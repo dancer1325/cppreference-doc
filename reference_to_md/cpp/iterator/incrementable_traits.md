@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](empty.html "cpp/iterator/empty")(C++17)  
 [data](data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 Defined in header `[<iterator>](../header/iterator.html "cpp/header/iterator")` |  |   
 ---|---|---  
@@ -233,22 +233,22 @@ Provides a member type `difference_type` same as `T::difference_type`.
 
 Provides a member type `difference_type` same as [std::make_signed_t](../types/make_signed.html)<decltype([std::declval](../utility/declval.html)<T>() - [std::declval](../utility/declval.html)<T>())>. The implicit expression variations rule (see below) applies to the expression a - b.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/implicit_expression_variations&action=edit&section=T-1 "Template:cpp/concepts/implicit expression variations")] Implicit expression variations
+### Implicit expression variations
 
 A [requires expression](../language/requires.html "cpp/language/requires") that uses an expression that is non-modifying for some constant lvalue operand also requires [implicit expression variations](../concepts.html#Implicit_expression_variations "cpp/concepts"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/incrementable_traits&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/incrementable_traits&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ weakly_incrementable](weakly_incrementable.html "cpp/iterator/weakly incrementable")(C++20) |  specifies that a [`semiregular`](../concepts/semiregular.html "cpp/concepts/semiregular") type can be incremented with pre- and post-increment operators   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_weakly_incrementable&action=edit)  
+(concept)   
 ---|---  
 [ iter_value_titer_reference_titer_const_reference_titer_difference_titer_rvalue_reference_titer_common_reference_t](iter_t.html "cpp/iterator/iter t")(C++20)(C++20)(C++23)(C++20)(C++20)(C++20) |  computes the associated types of an iterator  
-(alias template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_iter_t&action=edit)  
+(alias template)  
 [ iterator_traits](iterator_traits.html "cpp/iterator/iterator traits") |  provides uniform interface to the properties of an iterator   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_iterator_traits&action=edit)
+(class template) 

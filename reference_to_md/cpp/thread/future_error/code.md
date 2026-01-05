@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::future_error`](../future_error.html "cpp/thread/future error")
 
@@ -184,7 +184,7 @@ Member functions
 **future_error::code**  
 [future_error::what](what.html "cpp/thread/future error/what")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/future_error/navbar_content&action=edit)
+
 
 const [std::error_code](../../error/error_code.html)& code() const noexcept; |  |  (since C++11)  
 ---|---|---  
@@ -192,16 +192,16 @@ const [std::error_code](../../error/error_code.html)& code() const noexcept; |  
   
 Returns the stored error code. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/future_error/code&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/future_error/code&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The stored error code. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/future_error/code&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ what](what.html "cpp/thread/future error/what") |  returns the explanatory string specific to the error code   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/future_error/dsc_what&action=edit)  
+(public member function)   
 ---|---

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Metaprogramming library](../meta.html "cpp/meta")
 
@@ -167,7 +167,7 @@ Type transformations
 Compile-time integer sequences  
 [integer_sequence](../utility/integer_sequence.html "cpp/utility/integer sequence")(C++14)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/meta/navbar_content&action=edit)
+
 
 Defined in header `[<type_traits>](../header/type_traits.html "cpp/header/type traits")` |  |   
 ---|---|---  
@@ -197,7 +197,7 @@ If the program adds specializations for `std::reference_constructs_from_temporar
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/reference_constructs_from_temporary&action=edit&section=1 "Edit section: Helper variable template")] Helper variable template
+### Helper variable template
 
 template< class T, class U >  
 inline constexpr bool reference_constructs_from_temporary_v =  
@@ -205,7 +205,7 @@ std::reference_constructs_from_temporary<T, U>::value; |  |  (since C++23)
 ---|---|---  
 | |   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/integral_constant/inherit2&action=edit)
+
 
 ##  Inherited from [ std::integral_constant](integral_constant.html "cpp/types/integral constant")
 
@@ -230,13 +230,13 @@ Type  |  Definition
 `value_type` |  bool  
 `type` |  [std::integral_constant](integral_constant.html)<bool, value>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/reference_constructs_from_temporary&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 `std::reference_constructs_from_temporary` can be used for rejecting some cases that always produce dangling references. 
 
 It is also possible to use member initializer list to reject binding a temporary object to a reference if the compiler has implemented [CWG1696](https://cplusplus.github.io/CWG/issues/1696.html). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/reference_constructs_from_temporary&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -252,14 +252,14 @@ Run this code
      
     int main() {}
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/reference_constructs_from_temporary&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ is_constructibleis_trivially_constructibleis_nothrow_constructible](is_constructible.html "cpp/types/is constructible")(C++11)(C++11)(C++11) |  checks if a type has a constructor for specific arguments   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_constructible&action=edit)  
+(class template)   
 ---|---  
 [ (constructor)](../utility/tuple/tuple.html "cpp/utility/tuple/tuple") |  constructs a new `tuple`   
-(public member function of `std::tuple<Types...>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/dsc_constructor&action=edit)  
+(public member function of `std::tuple<Types...>`)   
 [ (constructor)](../utility/pair/pair.html "cpp/utility/pair/pair") |  constructs new `pair`   
-(public member function of `std::pair<T1,T2>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/pair/dsc_constructor&action=edit)  
+(public member function of `std::pair<T1,T2>`)   
 [ make_from_tuple](../utility/make_from_tuple.html "cpp/utility/make from tuple")(C++17) |  construct an object with a tuple of arguments   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_make_from_tuple&action=edit)
+(function template) 

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](../language/history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [Preprocessor](../preprocessor.html "cpp/preprocessor")
 
@@ -233,7 +233,7 @@ Miscellaneous
 [#line](line.html "cpp/preprocessor/line")  
 [#embed](embed.html "cpp/preprocessor/embed")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/preprocessor/navbar_content&action=edit)
+
 
 The preprocessor supports conditional compilation of parts of source file. This behavior is controlled by `#if`, `#else`, `#elif`, `#ifdef`, `#ifndef`, `#elifdef`, `#elifndef`(since C++23), and `#endif` directives. 
 
@@ -252,7 +252,7 @@ The preprocessor supports conditional compilation of parts of source file. This 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/preprocessor/conditional&action=edit&section=1 "Edit section: Syntax")] Syntax  
+### Syntax  
   
 ---  
 `**#if**` expression |  |   
@@ -264,7 +264,7 @@ The preprocessor supports conditional compilation of parts of source file. This 
 `**#else**` |  |   
 `**#endif**` |  |   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/preprocessor/conditional&action=edit&section=2 "Edit section: Explanation")] Explanation
+### Explanation
 
 The conditional preprocessing block starts with `#if`, `#ifdef` or `#ifndef` directive, then optionally includes any number of `#elif`, `#elifdef`, or `#elifndef`(since C++23) directives, then optionally includes at most one `#else` directive and is terminated with `#endif` directive. Any inner conditional preprocessing blocks are processed separately. 
 
@@ -272,9 +272,9 @@ Each of `#if`, `#ifdef`, `#ifndef`, `#elif`, `#elifdef`, `#elifndef`(since C++23
 
 `#if`, `#ifdef` and `#ifndef` directives test the specified condition (see below) and if it evaluates to true, compiles the controlled code block. In that case subsequent `#else`, `#elifdef`, `#elifndef`,(since C++23) and `#elif` directives are ignored. Otherwise, if the specified condition evaluates false, the controlled code block is skipped and the subsequent `#else`, `#elifdef`, `#elifndef`,(since C++23) or `#elif` directive (if any) is processed. If the subsequent directive is `#else`, the code block controlled by the `#else` directive is unconditionally compiled. Otherwise, the `#elif`, `#elifdef`, or `#elifndef`(since C++23) directive acts as if it was `#if` directive: checks for condition, compiles or skips the controlled code block based on the result, and in the latter case processes subsequent `#elif`, `#elifdef`, `#elifndef`,(since C++23) and `#else` directives. The conditional preprocessing block is terminated by `#endif` directive. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/preprocessor/conditional&action=edit&section=3 "Edit section: Condition evaluation")] Condition evaluation
+### Condition evaluation
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/preprocessor/conditional&action=edit&section=4 "Edit section: #if, #elif")] #if, #elif
+#### #if, #elif
 
 expression may contain unary operators in form `**defined**` identifier or `**defined (**` identifier`**)**`. The result is 1 if the identifier was [defined as a macro name](replace.html "cpp/preprocessor/replace"), otherwise the result is ​0​. 
 
@@ -305,7 +305,7 @@ If the expression evaluates to nonzero value, the controlled code block is inclu
 
 Note: Until the resolution of [CWG issue 1955](https://cplusplus.github.io/CWG/issues/1955.html), `#if _cond1_` ... `#elif _cond2_` is different from `#if _cond1_` ... `#else` followed by `#if _cond2_` because if `_cond1_` is true, the second `#if` is skipped and `_cond2_` does not need to be well-formed, while `#elif`'s `_cond2_` must be a valid expression. As of CWG 1955, `#elif` that leads the skipped code block is also skipped. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/preprocessor/conditional&action=edit&section=5 "Edit section: Combined directives")] Combined directives
+#### Combined directives
 
 Checks if the identifier was [defined as a macro name](replace.html "cpp/preprocessor/replace"). 
 
@@ -316,11 +316,11 @@ Checks if the identifier was [defined as a macro name](replace.html "cpp/preproc
 `#elifdef` identifier is essentially equivalent to `#elif defined` identifier. `#elifndef` identifier is essentially equivalent to `#elif !defined` identifier.  | (since C++23)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/preprocessor/conditional&action=edit&section=6 "Edit section: Notes")] Notes
+### Notes
 
 While `#elifdef` and `#elifndef` directives target C++23, implementations are encouraged to backport them to the older language modes as conforming extensions. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/preprocessor/conditional&action=edit&section=7 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -405,7 +405,7 @@ Possible output:
     4: no!
     4: yes
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/preprocessor/conditional&action=edit&section=8 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -413,7 +413,7 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [CWG 1955](https://cplusplus.github.io/CWG/issues/1955.html) | C++98  | failed #elif's expression was required to be valid  | failed #elif is skipped   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/preprocessor/conditional&action=edit&section=9 "Edit section: See also")] See also
+### See also
 
 [C documentation](../../c/preprocessor/conditional.html "c/preprocessor/conditional") for Conditional inclusion  
 ---

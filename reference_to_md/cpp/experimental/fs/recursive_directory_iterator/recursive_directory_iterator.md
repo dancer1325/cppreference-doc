@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Filesystem library](../../fs.html "cpp/experimental/fs")
 
@@ -124,7 +124,7 @@ File types
 [filesystem::is_socket](../is_socket.html "cpp/experimental/fs/is socket")  
 [filesystem::is_symlink](../is_symlink.html "cpp/experimental/fs/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/navbar_content&action=edit)
+
 
 [`recursive_directory_iterator`](../recursive_directory_iterator.html "cpp/experimental/fs/recursive directory iterator")
 
@@ -142,7 +142,7 @@ Member functions
 Non-member functions  
 [begin(recursive_directory_iterator)end(recursive_directory_iterator)](begin.html "cpp/experimental/fs/recursive directory iterator/begin")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/recursive_directory_iterator/navbar_content&action=edit)
+
 
 recursive_directory_iterator(); |  (1)  |  (filesystem TS)  
 ---|---|---  
@@ -167,12 +167,12 @@ Constructs new recursive directory iterator.
 Reason: errors   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/recursive_directory_iterator/recursive_directory_iterator&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 | This section is incomplete   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/recursive_directory_iterator/recursive_directory_iterator&action=edit&section=2 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 1,5,6)
 
@@ -183,6 +183,6 @@ noexcept
 | This section is incomplete   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/recursive_directory_iterator/recursive_directory_iterator&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Recursive directory iterators do not follow directory symlinks by default. To enable this behavior, specify `directory_options::follow_directory_symlink` among the options option set. 

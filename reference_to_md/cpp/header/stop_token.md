@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header is part of the [thread support](../atomic.html "cpp/thread") library. 
 
@@ -222,38 +222,38 @@ This header is part of the [thread support](../atomic.html "cpp/thread") library
 ###  Classes  
   
 [ stop_token](../thread/stop_token.html "cpp/thread/stop token")(C++20) |  an interface for querying if a [std::jthread](../thread/jthread.html "cpp/thread/jthread") cancellation request has been made   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_stop_token&action=edit)  
+(class)   
 [ stop_source](../thread/stop_source.html "cpp/thread/stop source")(C++20) |  class representing a request to stop one or more [std::jthread](../thread/jthread.html "cpp/thread/jthread")s   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_stop_source&action=edit)  
+(class)   
 [ stop_callback](../thread/stop_callback.html "cpp/thread/stop callback")(C++20) |  an interface for registering callbacks on [std::jthread](../thread/jthread.html "cpp/thread/jthread") cancellation   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_stop_callback&action=edit)  
+(class template)   
 [ never_stop_token](../thread/never_stop_token.html "cpp/thread/never stop token")(C++26) |  provides a stop token interface that a stop is never possible nor requested   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_never_stop_token&action=edit)  
+(class)   
 [ inplace_stop_token](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/inplace_stop_token&action=edit&redlink=1 "cpp/thread/inplace stop token \(page does not exist\)")(C++26) |  a stop token that references stop state of its associated `std::inplace_stop_source` object   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_inplace_stop_token&action=edit)  
+(class)   
 [ inplace_stop_source](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/inplace_stop_source&action=edit&redlink=1 "cpp/thread/inplace stop source \(page does not exist\)")(C++26) |  a `_stoppable-source_` that is the sole owner of the stop state   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_inplace_stop_source&action=edit)  
+(class)   
 [ inplace_stop_callback](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/inplace_stop_callback&action=edit&redlink=1 "cpp/thread/inplace stop callback \(page does not exist\)")(C++26) |  a stop callback for `std::inplace_stop_token`   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_inplace_stop_callback&action=edit)  
+(class template)   
   
 ###  Alias templates  
   
 [ stop_callback_for_t](../thread/stop_callback_for_t.html "cpp/thread/stop callback for t")(C++26) |  obtains the callback type for a given stop token type  
-(alias template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_stop_callback_for_t&action=edit)  
+(alias template)  
   
 ###  Concepts  
   
 [ stoppable_token](../thread/stoppable_token.html "cpp/thread/stoppable token")(C++26) |  specifies the basic interface of stop tokens which allows queries for stop requests and whether the stop request is possible   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_stoppable_token&action=edit)  
+(concept)   
 [ unstoppable_token](../thread/unstoppable_token.html "cpp/thread/unstoppable token")(C++26) |  specifies a stop token that does not allow stopping   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_unstoppable_token&action=edit)  
+(concept)   
   
 ###  Tags  
   
 [ nostopstatenostopstate_t](../thread/stop_source/nostopstate_t.html "cpp/thread/stop source/nostopstate")(C++20) |  a tag used for `stop_source` to indicate no associated stop-state upon construction  
-(tag)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/stop_source/dsc_nostopstate&action=edit)  
+(tag)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/stop_token&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     namespace std {
@@ -303,7 +303,7 @@ This header is part of the [thread support](../atomic.html "cpp/thread") library
         using stop_callback_for_t = T::template callback_type<CallbackFn>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/stop_token&action=edit&section=T-1 "Template:cpp/synopsis/stop token")] Stop token concepts
+#### Stop token concepts
     
     
     namespace std {
@@ -345,7 +345,7 @@ This header is part of the [thread support](../atomic.html "cpp/thread") library
           };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/stop_token&action=edit&section=T-2 "Template:cpp/synopsis/stop token")] Class [std::stop_token](../thread/stop_token.html "cpp/thread/stop token")
+#### Class [std::stop_token](../thread/stop_token.html "cpp/thread/stop token")
     
     
     namespace std {
@@ -372,7 +372,7 @@ This header is part of the [thread support](../atomic.html "cpp/thread") library
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/stop_token&action=edit&section=T-3 "Template:cpp/synopsis/stop token")] Class [std::stop_source](../thread/stop_source.html "cpp/thread/stop source")
+#### Class [std::stop_source](../thread/stop_source.html "cpp/thread/stop source")
     
     
     namespace std {
@@ -400,7 +400,7 @@ This header is part of the [thread support](../atomic.html "cpp/thread") library
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/stop_token&action=edit&section=T-4 "Template:cpp/synopsis/stop token")] Class template [std::stop_callback](../thread/stop_callback.html "cpp/thread/stop callback")
+#### Class template [std::stop_callback](../thread/stop_callback.html "cpp/thread/stop callback")
     
     
     namespace std {
@@ -431,7 +431,7 @@ This header is part of the [thread support](../atomic.html "cpp/thread") library
       stop_callback(stop_token, CallbackFn) -> stop_callback<CallbackFn>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/stop_token&action=edit&section=T-5 "Template:cpp/synopsis/stop token")] Class template std::never_stop_token
+#### Class template std::never_stop_token
     
     
     namespace std {
@@ -451,7 +451,7 @@ This header is part of the [thread support](../atomic.html "cpp/thread") library
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/stop_token&action=edit&section=T-6 "Template:cpp/synopsis/stop token")] Class template std::inplace_stop_token
+#### Class template std::inplace_stop_token
     
     
     namespace std {
@@ -473,7 +473,7 @@ This header is part of the [thread support](../atomic.html "cpp/thread") library
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/stop_token&action=edit&section=T-7 "Template:cpp/synopsis/stop token")] Class template std::inplace_stop_source
+#### Class template std::inplace_stop_source
     
     
     namespace std {
@@ -495,7 +495,7 @@ This header is part of the [thread support](../atomic.html "cpp/thread") library
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/stop_token&action=edit&section=T-8 "Template:cpp/synopsis/stop token")] Class template std::inplace_stop_callback
+#### Class template std::inplace_stop_callback
     
     
     namespace std {

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::shared_ptr`](../shared_ptr.html "cpp/memory/shared ptr")
 
@@ -220,7 +220,7 @@ Helper classes
 [hash<std::shared_ptr>](hash.html "cpp/memory/shared ptr/hash")  
 [Deduction guides](deduction_guides.html "cpp/memory/shared ptr/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/navbar_content&action=edit)
+
 
 Defined in header `[<memory>](../../header/memory.html "cpp/header/memory")` |  |   
 ---|---|---  
@@ -311,13 +311,13 @@ The `<`, `<=`, `>`, `>=`, and `!=` operators are [synthesized](../../language/op
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/operator_cmp&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 lhs  |  \-  |  the left-hand `shared_ptr` to compare   
 ---|---|---  
 rhs  |  \-  |  the right-hand `shared_ptr` to compare   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/operator_cmp&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) lhs.get() == rhs.get()
 
@@ -359,11 +359,11 @@ rhs  |  \-  |  the right-hand `shared_ptr` to compare
 
 20) [std::compare_three_way](../../utility/compare/compare_three_way.html){}(x.get(), static_cast<[std::shared_ptr](../shared_ptr.html)<T>::element_type*>(nullptr))
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/operator_cmp&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 In all cases, it is the stored pointer (the one returned by [get()](get.html "cpp/memory/shared ptr/get")) that is compared, rather than the managed pointer (the one passed to the deleter when [use_count](use_count.html "cpp/memory/shared ptr/use count") goes to zero). The two pointers may differ in a [shared_ptr](../shared_ptr.html "cpp/memory/shared ptr") created using the aliasing constructor. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/operator_cmp&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -397,7 +397,7 @@ Possible output:
     (p1 <=> p2) < 0  : true
     (p1 <=> p2) == 0 : false
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/operator_cmp&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -405,8 +405,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 3427](https://cplusplus.github.io/LWG/issue3427) | C++20  | `operator<=>(shared_ptr, nullptr_t)` was ill-formed  | definition fixed   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/operator_cmp&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ get](get.html "cpp/memory/shared ptr/get") |  returns the stored pointer   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/dsc_get&action=edit)  
+(public member function)   
 ---|---

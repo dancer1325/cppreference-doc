@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -71,7 +71,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 `[std::stack](../stack.html "cpp/container/stack")`
 
@@ -99,7 +99,7 @@ Tables
 [formatter<std::stack>](formatter.html "cpp/container/stack/formatter")(C++23)  
 [Deduction guides](deduction_guides.html "cpp/container/stack/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/stack/navbar_content&action=edit)
+
 
 reference top(); |  (1)  |   
 ---|---|---  
@@ -119,19 +119,19 @@ Returns reference to the top element in the stack. This is the most recently pus
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/stack/top&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/stack/top&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Reference to the last element. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/stack/top&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Constant. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/stack/top&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -176,10 +176,10 @@ Output:
     2 elements on stack
     Top element: 6
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/stack/top&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ push](push.html "cpp/container/stack/push") |  inserts element at the top   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_push&action=edit)  
+(public member function)   
 ---|---  
 [ pop](pop.html "cpp/container/stack/pop") |  removes the top element   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_pop&action=edit)
+(public member function) 

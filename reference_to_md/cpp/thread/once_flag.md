@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 Defined in header `[<mutex>](../header/mutex.html "cpp/header/mutex")` |  |   
 ---|---|---  
@@ -196,7 +196,7 @@ An object of type `std::once_flag` that is passed to multiple calls to [std::cal
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/once_flag&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 ##  std::once_flag::once_flag 
 
@@ -213,9 +213,9 @@ Constructs an `once_flag` object. The internal state is set to indicate that no 
   
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/once_flag&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ call_once](call_once.html "cpp/thread/call once")(C++11) |  invokes a function only once even if called from multiple threads   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_call_once&action=edit)  
+(function template)   
 ---|---  
 [C documentation](../../c/thread/ONCE_FLAG_INIT.html "c/thread/call once") for once_flag

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::variant`](../variant.html "cpp/utility/variant")
 
@@ -161,7 +161,7 @@ Common vocabulary types
 [Helper objects](../variant.html#Helper_objects "cpp/utility/variant")  
 [variant_npos](variant_npos.html "cpp/utility/variant/variant npos")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variant/navbar_content&action=edit)
+
 
 ~variant(); |  | (since C++17)   
 (constexpr since C++20)  
@@ -172,14 +172,14 @@ If [`valueless_by_exception()`](valueless_by_exception.html "cpp/utility/variant
 
 This destructor is trivial if [std::is_trivially_destructible_v](../../types/is_destructible.html)<T_i> is true for all `T_i` in `Types...`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variant/%7Evariant&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../feature_test.html "cpp/utility/feature test") macro  | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_variant`](../../experimental/feature_test.html#cpp_lib_variant "cpp/feature test") | [`202106L`](../../compiler_support/20.html#cpp_lib_variant_202106L "cpp/compiler support/20") | (C++20)  
 (DR) | Fully constexpr `std::variant`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variant/%7Evariant&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -215,7 +215,7 @@ Output:
     leaving block #2
     Y::~Y();
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variant/%7Evariant&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

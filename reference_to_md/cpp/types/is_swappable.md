@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Metaprogramming library](../meta.html "cpp/meta")
 
@@ -167,7 +167,7 @@ Type transformations
 Compile-time integer sequences  
 [integer_sequence](../utility/integer_sequence.html "cpp/utility/integer sequence")(C++14)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/meta/navbar_content&action=edit)
+
 
 Defined in header `[<type_traits>](../header/type_traits.html "cpp/header/type traits")` |  |   
 ---|---|---  
@@ -213,7 +213,7 @@ If the program adds specializations for any of the templates described on this p
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_swappable&action=edit&section=1 "Edit section: Helper variable templates")] Helper variable templates
+### Helper variable templates
 
 template< class T, class U >   
 inline constexpr bool is_swappable_with_v = is_swappable_with<T, U>::value; |  |  (since C++17)  
@@ -228,7 +228,7 @@ inline constexpr bool is_nothrow_swappable_v =
 is_nothrow_swappable<T>::value; |  |  (since C++17)  
 | |   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/integral_constant/inherit2&action=edit)
+
 
 ##  Inherited from [ std::integral_constant](integral_constant.html "cpp/types/integral constant")
 
@@ -253,22 +253,22 @@ Type  |  Definition
 `value_type` |  bool  
 `type` |  [std::integral_constant](integral_constant.html)<bool, value>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_swappable&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 This trait does not check anything outside the immediate context of the swap expressions: if the use of `T` or `U` would trigger template specializations, generation of implicitly-defined special member functions etc, and those have errors, the actual swap may not compile even if std::is_swappable_with<T, U>::value compiles and evaluates to true. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_swappable&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_swappable&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ swap](../utility/swap.html "cpp/algorithm/swap") |  swaps the values of two objects   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_swap&action=edit)  
+(function template)   
 ---|---  
 [ is_move_assignableis_trivially_move_assignableis_nothrow_move_assignable](is_move_assignable.html "cpp/types/is move assignable")(C++11)(C++11)(C++11) |  checks if a type has a move assignment operator   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_move_assignable&action=edit)  
+(class template)   
 [ swappableswappable_with](../concepts/swappable.html "cpp/concepts/swappable")(C++20) |  specifies that a type can be swapped or that two types can be swapped with each other   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_swappable&action=edit)
+(concept) 

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [Common mathematical functions](../math.html "cpp/numeric/math")
 
@@ -230,7 +230,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/navbar_content&action=edit)
+
 
 Defined in header `[<cmath>](../../header/cmath.html "cpp/header/cmath")` |  |   
 ---|---|---  
@@ -268,13 +268,13 @@ A) Additional overloads are provided for all integer types, which are treated as
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/ldexp&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 num  |  \-  |  floating-point or integer value   
 ---|---|---  
 exp  |  \-  |  integer value   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/ldexp&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 If no errors occur, num multiplied by 2 to the power of exp (num×2exp  
 ) is returned. 
@@ -283,7 +283,7 @@ If a range error due to overflow occurs, [±HUGE_VAL](HUGE_VALL.html "cpp/numeri
 
 If a range error due to underflow occurs, the correct result (after rounding) is returned. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/ldexp&action=edit&section=3 "Edit section: Error handling")] Error handling
+### Error handling
 
 Errors are reported as specified in [math_errhandling](math_errhandling.html "cpp/numeric/math/math errhandling"). 
 
@@ -298,7 +298,7 @@ If the implementation supports IEEE floating-point arithmetic (IEC 60559),
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/ldexp&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 On binary systems (where [FLT_RADIX](../../types/climits.html "cpp/types/climits") is 2), `std::ldexp` is equivalent to [std::scalbn](scalbn.html "cpp/numeric/math/scalbn"). 
 
@@ -310,7 +310,7 @@ The additional overloads are not required to be provided exactly as (A). They on
 
 For exponentiation of 2 by a floating point exponent, [std::exp2](exp2.html "cpp/numeric/math/exp2") can be used. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/ldexp&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -363,13 +363,13 @@ Possible output:
         errno == ERANGE: Numerical result out of range
         FE_OVERFLOW raised
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/ldexp&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ frexpfrexpffrexpl](frexp.html "cpp/numeric/math/frexp")(C++11)(C++11) |  decomposes a number into significand and base-2 exponent   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_frexp&action=edit)  
+(function)   
 ---|---  
 [ scalbnscalbnfscalbnlscalblnscalblnfscalblnl](scalbn.html "cpp/numeric/math/scalbn")(C++11)(C++11)(C++11)(C++11)(C++11)(C++11) |  multiplies a number by [FLT_RADIX](../../types/climits.html "cpp/types/climits") raised to a power   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_scalbn&action=edit)  
+(function)   
 [ exp2exp2fexp2l](exp2.html "cpp/numeric/math/exp2")(C++11)(C++11)(C++11) |  returns 2 raised to the given power (\\({\small 2^x}\\)2x)   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_exp2&action=edit)  
+(function)   
 [C documentation](../../../c/numeric/math/ldexp.html "c/numeric/math/ldexp") for ldexp

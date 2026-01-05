@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::year`](../year.html "cpp/chrono/year")
 
@@ -126,7 +126,7 @@ Helper classes
 [formatter<std::chrono::year>](formatter.html "cpp/chrono/year/formatter")  
 [hash<std::chrono::year>](hash.html "cpp/chrono/year/hash")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/year/navbar_content&action=edit)
+
 
 constexpr [std::chrono::year](../year.html) operator+( const [std::chrono::year](../year.html)& y,  
 const [std::chrono::years](../duration.html)& ys ) noexcept; |  (1)  |  (since C++20)  
@@ -155,7 +155,7 @@ const [std::chrono::year](../year.html)& y2 ) noexcept; |  (4)  |  (since C++20)
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/year/operator_arith_2&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 1,2) [std::chrono::year](../year.html)(int(y) + ys.count())
 
@@ -163,13 +163,13 @@ const [std::chrono::year](../year.html)& y2 ) noexcept; |  (4)  |  (since C++20)
 
 4) [std::chrono::years](../duration.html)(int(y1) - int(y2))
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/year/operator_arith_2&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 If the resulting year value for (1-3) is outside the range `[`-32767`, `32767`]`, the actual value stored is unspecified. 
 
 The result of subtracting two `year` values is a duration of type std::chrono::years. This duration unit represents the length of the average Gregorian year, and the resulting duration bears no relationship to the number of days in the particular years represented by the operands. For example, the result of 2018y - 2017y is [std::chrono::years](../duration.html)(1), which represents 365.2425 days, not 365 days. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/year/operator_arith_2&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -194,10 +194,10 @@ Run this code
         static_assert(ys == [std::chrono::years](../duration.html)(5));
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/year/operator_arith_2&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ operator++operator++(int)operator--operator--(int)](../month/operator_inc_dec.html "cpp/chrono/month/operator inc dec") |  increments or decrements the month   
-(public member function of `std::chrono::month`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/month/dsc_operator_inc_dec&action=edit)  
+(public member function of `std::chrono::month`)   
 ---|---  
 [ operator+=operator-=](../month/operator_arith.html "cpp/chrono/month/operator arith") |  adds or subtracts a number of months   
-(public member function of `std::chrono::month`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/month/dsc_operator_arith&action=edit)
+(public member function of `std::chrono::month`) 

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Program support utilities](../program.html "cpp/utility/program")
 
@@ -181,7 +181,7 @@ Common vocabulary types
 [Types](../program.html#Types "cpp/utility/program")  
 [jmp_buf](jmp_buf.html "cpp/utility/program/jmp buf")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/program/navbar_content&action=edit)
+
 
 Defined in header `[<csignal>](../../header/csignal.html "cpp/header/csignal")` |  |   
 ---|---|---  
@@ -190,15 +190,15 @@ typedef /* unspecified */ sig_atomic_t; |  |
   
 An integer type which can be accessed as an atomic entity even in the presence of asynchronous interrupts made by signals. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/program/sig_atomic_t&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 Until C++11, which introduced [std::atomic](../../atomic/atomic.html "cpp/atomic/atomic") and [std::atomic_signal_fence](../../atomic/atomic_signal_fence.html "cpp/atomic/atomic signal fence"), about the only thing a strictly conforming program could do in a signal handler was to assign a value to a volatile static std::sig_atomic_t variable and promptly return. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/program/sig_atomic_t&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ signal](signal.html "cpp/utility/program/signal") |  sets a signal handler for particular signal   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/program/dsc_signal&action=edit)  
+(function)   
 ---|---  
 [ atomic_signal_fence](../../atomic/atomic_signal_fence.html "cpp/atomic/atomic signal fence")(C++11) |  fence between a thread and a signal handler executed in the same thread   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/dsc_atomic_signal_fence&action=edit)  
+(function)   
 [C documentation](../../../c/program/sig_atomic_t.html "c/program/sig atomic t") for sig_atomic_t

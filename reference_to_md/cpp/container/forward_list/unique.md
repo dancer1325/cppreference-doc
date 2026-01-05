@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::forward_list`](../forward_list.html "cpp/container/forward list")
 
@@ -128,7 +128,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/forward list/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/forward_list/navbar_content&action=edit)
+
 
 | (1) |   
 ---|---|---  
@@ -167,7 +167,7 @@ Invalidates only the iterators and references to the removed elements.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/unique&action=edit&section=T-1 "Template:cpp/container/unique")] Parameters
+### Parameters
 
 p  |  \-  |  binary predicate which returns ​true if the elements should be treated as equal.   
 The signature of the predicate function should be equivalent to the following:  bool pred(const Type1 &a, const Type2 &b); While the signature does not need to have const &, the function must not modify the objects passed to it and must be able to accept all values of type (possibly const) `Type1` and `Type2` regardless of [value category](../../language/value_category.html "cpp/language/value category") (thus, Type1 & is not allowed, nor is Type1 unless for `Type1` a move is equivalent to a copy(since C++11)).  
@@ -176,13 +176,13 @@ The types Type1 and Type2 must be such that an object of type forward_list<T,All
 Type requirements   
 -`BinaryPred` must meet the requirements of [BinaryPredicate](../../named_req/BinaryPredicate.html "cpp/named req/BinaryPredicate").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/unique&action=edit&section=T-2 "Template:cpp/container/unique")] Return value
+### Return value
 
 (none)  | (until C++20)  
 ---|---  
 The number of elements removed.  | (since C++20)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/unique&action=edit&section=T-3 "Template:cpp/container/unique")] Complexity
+### Complexity
 
 If [empty()](empty.html "cpp/container/forward list/empty") is true, no comparison is performed. 
 
@@ -192,13 +192,13 @@ Otherwise, given \\(\scriptsize N\\)N as [std::distance](../../iterator/distance
 
 2) Exactly \\(\scriptsize N-1\\)N-1 applications of the predicate p.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/unique&action=edit&section=T-4 "Template:cpp/container/unique")] Notes
+### Notes
 
 [Feature-test](../../utility/feature_test.html "cpp/utility/feature test") macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_list_remove_return_type`](../../experimental/feature_test.html#cpp_lib_list_remove_return_type "cpp/feature test") | [`201806L`](../../compiler_support/20.html#cpp_lib_list_remove_return_type_201806L "cpp/compiler support/20") | (C++20) | Change the return type   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/unique&action=edit&section=T-5 "Template:cpp/container/unique")] Example
+### Example
 
 Run this code
     
@@ -244,10 +244,10 @@ Output:
     After unique(pred):  1 2 23 2 51 2
     4 elements were removed
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/unique&action=edit&section=T-7 "Template:cpp/container/unique")] See also
+### See also
 
 [ unique](../../algorithm/unique.html "cpp/algorithm/unique") |  removes consecutive duplicate elements in a range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_unique&action=edit)  
+(function template)   
 ---|---
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

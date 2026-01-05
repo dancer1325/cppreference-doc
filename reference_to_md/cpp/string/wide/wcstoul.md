@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Null-terminated wide strings](../wide.html "cpp/string/wide")
 
@@ -153,7 +153,7 @@
 WCHAR_MAX  
 WEOF](../wide.html#Macros "cpp/string/wide")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/navbar_content&action=edit)
+
 
 Defined in header `[<cwchar>](../../header/cwchar.html "cpp/header/cwchar")` |  |   
 ---|---|---  
@@ -192,18 +192,18 @@ The functions sets the pointer pointed to by str_end to point to the wide charac
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/wcstoul&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 str  |  \-  |  pointer to the null-terminated wide string to be interpreted   
 ---|---|---  
 str_end  |  \-  |  pointer to a pointer to a wide character   
 base  |  \-  |  _base_ of the interpreted integer value   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/wcstoul&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Integer value corresponding to the contents of str on success. If the converted value falls out of range of corresponding return type, range error occurs and [ULONG_MAX](../../types/climits.html "cpp/types/climits") or [ULLONG_MAX](../../types/climits.html "cpp/types/climits") is returned. If no conversion can be performed, ​0​ is returned. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/wcstoul&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -242,11 +242,11 @@ Possible output:
     ' 30' -> 30
     ' 40' -> 40
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/wcstoul&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ strtoulstrtoull](../byte/strtoul.html "cpp/string/byte/strtoul")(C++11) |  converts a byte string to an unsigned integer value   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strtoul&action=edit)  
+(function)   
 ---|---  
 [ wcstolwcstoll](wcstol.html "cpp/string/wide/wcstol") |  converts a wide string to an integer value   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wcstol&action=edit)  
+(function)   
 [C documentation](../../../c/string/wide/wcstoul.html "c/string/wide/wcstoul") for wcstoul, wcstoull

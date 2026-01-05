@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::adjacent_view`](../../adjacent_view.html "cpp/ranges/adjacent view")
 
@@ -264,7 +264,7 @@ Non-member functions
 [operator==(adjacent_view::_iterator_ ,adjacent_view::_sentinel_)](../sentinel/operator_cmp.html "cpp/ranges/adjacent view/sentinel/operator cmp")  
 [operator-(adjacent_view::_iterator_ ,adjacent_view::_sentinel_)](../sentinel/operator-.html "cpp/ranges/adjacent view/sentinel/operator-")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adjacent_view/navbar_content&action=edit)
+
 
 constexpr auto operator*() const; |  |  (since C++23)  
 ---|---|---  
@@ -290,19 +290,19 @@ Equivalent to:
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/adjacent_view/iterator/operator*&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/adjacent_view/iterator/operator*&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The current element, which is a [std::tuple](../../../utility/tuple.html "cpp/utility/tuple") of references to underlying elements. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/adjacent_view/iterator/operator*&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 operator-> is not provided. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/adjacent_view/iterator/operator*&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -322,7 +322,7 @@ Run this code
         static_assert(*iter == [std::tuple](../../../utility/tuple.html){2, 3, 4});
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/adjacent_view/iterator/operator*&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ operator[]](operator_at.html "cpp/ranges/adjacent view/iterator/operator at")(C++23) |  accesses an element by index   
 (public member function)  

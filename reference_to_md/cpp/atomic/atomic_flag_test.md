@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 Defined in header `[<atomic>](../header/atomic.html "cpp/header/atomic")` |  |   
 ---|---|---  
@@ -204,32 +204,32 @@ If order is one of std::memory_order::release and std::memory_order::acq_rel, th
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_flag_test&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 object  |  \-  |  pointer to the `atomic_flag` object to read   
 ---|---|---  
 order  |  \-  |  the memory synchronization ordering   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_flag_test&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The value atomically read. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_flag_test&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../utility/feature_test.html "cpp/utility/feature test") macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_atomic_flag_test`](../experimental/feature_test.html#cpp_lib_atomic_flag_test "cpp/feature test") | [`201907L`](../compiler_support/20.html#cpp_lib_atomic_flag_test_201907L "cpp/compiler support/20") | (C++20) | `std::atomic_flag::test`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_flag_test&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_flag_test&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ test](atomic_flag/test.html "cpp/atomic/atomic flag/test")(C++20) |  atomically returns the value of the flag   
-(public member function of `std::atomic_flag`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic_flag/dsc_test&action=edit)  
+(public member function of `std::atomic_flag`)   
 ---|---
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

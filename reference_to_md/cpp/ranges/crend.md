@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 Defined in header `[<ranges>](../header/ranges.html "cpp/header/ranges")` |  |   
 ---|---|---  
@@ -262,7 +262,7 @@ If ranges::crend(e) is valid for an expression e, where decltype((e)) is `T`, th
 
 The name `ranges::crend` denotes a _customization point object_ , which is a const [function object](../named_req/FunctionObject.html "cpp/named req/FunctionObject") of a [literal](../named_req/LiteralType.html "cpp/named req/LiteralType") [`semiregular`](../concepts/semiregular.html "cpp/concepts/semiregular") class type. See [CustomizationPointObject](../named_req/CustomizationPointObject.html "cpp/named req/CustomizationPointObject") for details. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/crend&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -294,10 +294,10 @@ Output:
     Array backwards: 10 9 -3 6 4
     Vector backwards: 10 9 -3 6 4
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/crend&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ ranges::rend](rend.html "cpp/ranges/rend")(C++20) |  returns a reverse end iterator to a range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_rend&action=edit)  
+(customization point object)  
 ---|---  
 [ rendcrend](../iterator/rend.html "cpp/iterator/rend")(C++14) |  returns a reverse end iterator for a container or array   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_rend&action=edit)
+(function template) 

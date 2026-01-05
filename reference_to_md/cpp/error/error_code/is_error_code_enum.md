@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Diagnostics library](../../error.html "cpp/error")
 
@@ -187,7 +187,7 @@ Exception handling failures
 [breakpoint_if_debugging](../../utility/breakpoint_if_debugging.html "cpp/utility/breakpoint if debugging")(C++26)  
 [breakpoint](../../utility/breakpoint.html "cpp/utility/breakpoint")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/navbar_content&action=edit)
+
 
 [`std::error_code`](../error_code.html "cpp/error/error code")
 
@@ -211,7 +211,7 @@ Helper classes
 **is_error_code_enum**  
 [hash<std::error_code>](hash.html "cpp/error/error code/hash")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/error_code/navbar_content&action=edit)
+
 
 Defined in header `[<system_error>](../../header/system_error.html "cpp/header/system error")` |  |   
 ---|---|---  
@@ -235,14 +235,14 @@ This template may be specialized for a [program-defined type](../../language/typ
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/error_code/is_error_code_enum&action=edit&section=1 "Edit section: Helper variable template")] Helper variable template
+### Helper variable template
 
 template< class T >  
 constexpr bool is_error_code_enum_v = is_error_code_enum<T>::value; |  |  (since C++17)  
 ---|---|---  
 | |   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/integral_constant/inherit2&action=edit)
+
 
 ##  Inherited from [ std::integral_constant](../../types/integral_constant.html "cpp/types/integral constant")
 
@@ -278,8 +278,8 @@ Run this code
      
     int main() {}
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/error_code/is_error_code_enum&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ is_error_condition_enum](../error_condition/is_error_condition_enum.html "cpp/error/error condition/is error condition enum")(C++11) |  identifies an enumeration as an [std::error_condition](../error_condition.html "cpp/error/error condition")   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/error_condition/dsc_is_error_condition_enum&action=edit)  
+(class template)   
 ---|---

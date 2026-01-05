@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 **`std::chrono::month`**
 
@@ -121,7 +121,7 @@ Helper classes
 [formatter<std::chrono::month>](month/formatter.html "cpp/chrono/month/formatter")  
 [hash<std::chrono::month>](month/hash.html "cpp/chrono/month/hash")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/month/navbar_content&action=edit)
+
 
 Defined in header `[<chrono>](../header/chrono.html "cpp/header/chrono")` |  |   
 ---|---|---  
@@ -144,36 +144,36 @@ The class `month` represents a month in a year. Its normal range is `[`1`, `12`]
 
 `month` is a [TriviallyCopyable](../named_req/TriviallyCopyable.html "cpp/named req/TriviallyCopyable") [StandardLayoutType](../named_req/StandardLayoutType.html "cpp/named req/StandardLayoutType"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/month&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](month/month.html "cpp/chrono/month/month") |  constructs a `month`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/month/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ operator++operator++(int)operator--operator--(int)](month/operator_inc_dec.html "cpp/chrono/month/operator inc dec") |  increments or decrements the month   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/month/dsc_operator_inc_dec&action=edit)  
+(public member function)   
 [ operator+=operator-=](month/operator_arith.html "cpp/chrono/month/operator arith") |  adds or subtracts a number of months   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/month/dsc_operator_arith&action=edit)  
+(public member function)   
 [ operator unsigned](month/operator_unsigned.html "cpp/chrono/month/operator unsigned") |  retrieves the stored month value   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/month/dsc_operator_unsigned&action=edit)  
+(public member function)   
 [ ok](month/ok.html "cpp/chrono/month/ok") |  checks if the stored month value is in the normal range   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/month/dsc_ok&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/month&action=edit&section=2 "Edit section: Nonmember functions")] Nonmember functions
+### Nonmember functions
 
 [ operator==operator<=>](month/operator_cmp.html "cpp/chrono/month/operator cmp")(C++20) |  compares two `month` values   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/month/dsc_operator_cmp&action=edit)  
+(function)   
 ---|---  
 [ operator+operator-](month/operator_arith_2.html "cpp/chrono/month/operator arith 2")(C++20) |  performs arithmetic on `month`s   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/month/dsc_operator_arith_2&action=edit)  
+(function)   
 [ operator<<](month/operator_ltlt.html "cpp/chrono/month/operator ltlt")(C++20) |  outputs a `month` into a stream   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/month/dsc_operator_ltlt&action=edit)  
+(function template)   
 [ from_stream](month/from_stream.html "cpp/chrono/month/from stream")(C++20) |  parses a `month` from a stream according to the provided format   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/month/dsc_from_stream&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/month&action=edit&section=3 "Edit section: Helper classes")] Helper classes
+### Helper classes
 
 [ std::formatter<std::chrono::month>](month/formatter.html "cpp/chrono/month/formatter")(C++20) |  formatting support for `month`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_formatter&action=edit)  
+(class template specialization)   
 ---|---  
 [ std::hash<std::chrono::month>](month/hash.html "cpp/chrono/month/hash")(C++26) |  hash support for **`std::chrono::month`**   
 (class template specialization)

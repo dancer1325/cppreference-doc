@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Strings library](../../string.html "cpp/string")
 
@@ -40,7 +40,7 @@ Classes
 [basic_string_view](../basic_string_view.html "cpp/string/basic string view")(C++17)  
 [char_traits](../char_traits.html "cpp/string/char traits")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/navbar_content&action=edit)
+
 
 [`std::basic_string`](../basic_string.html "cpp/string/basic string")
 
@@ -133,7 +133,7 @@ basic_string_view**(C++17)
 [hash<std::basic_string>](hash.html "cpp/string/basic string/hash")(C++11)  
 [Deduction guides](deduction_guides.html "cpp/string/basic string/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/navbar_content&action=edit)
+
 
 operator [std::basic_string_view](../basic_string_view.html)<CharT, Traits>() const noexcept; |  |  (since C++17)   
 (constexpr since C++20)  
@@ -153,15 +153,15 @@ Returns a [std::basic_string_view](../basic_string_view.html "cpp/string/basic s
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/operator_basic_string_view&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/operator_basic_string_view&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 A string view representing the entire contents of the string. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/operator_basic_string_view&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 It is the programmer's responsibility to ensure that the resulting string view does not outlive the string. 
     
@@ -172,7 +172,7 @@ It is the programmer's responsibility to ensure that the resulting string view d
     int x = f(get_string()); // OK
     [std::string_view](../basic_string_view.html) sv = get_string(); // Bad: holds a dangling pointer
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/operator_basic_string_view&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -210,8 +210,8 @@ Output:
     12 code units
     4 code points
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/operator_basic_string_view&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ (constructor)](../basic_string_view/basic_string_view.html "cpp/string/basic string view/basic string view") |  constructs a `basic_string_view`   
-(public member function of `std::basic_string_view<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/dsc_constructor&action=edit)  
+(public member function of `std::basic_string_view<CharT,Traits>`)   
 ---|---

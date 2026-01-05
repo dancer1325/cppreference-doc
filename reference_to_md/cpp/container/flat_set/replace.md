@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::flat_set`](../flat_set.html "cpp/container/flat set")
 
@@ -134,7 +134,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/flat set/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/flat_set/navbar_content&action=edit)
+
 
 void replace( container_type&& cont ); |  |  (since C++23)  
 ---|---|---  
@@ -155,20 +155,20 @@ The elements of cont must be sorted with respect to [`_compare_`](../flat_set.ht
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/replace_ad&action=edit&section=T-1 "Template:cpp/container/replace ad")] Parameters
+### Parameters
 
 cont  |  \-  |  a sorted container of type `KeyContainer`, the contents of which will be moved into *this  
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/replace_ad&action=edit&section=T-2 "Template:cpp/container/replace ad")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/replace_ad&action=edit&section=T-3 "Template:cpp/container/replace ad")] Complexity
+### Complexity
 
 Equals to complexity of [`std::move`](../../utility/move.html "cpp/utility/move") applied to adapted container. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/replace_ad&action=edit&section=T-4 "Template:cpp/container/replace ad")] Example
+### Example
 
 Run this code
     
@@ -199,8 +199,8 @@ Output:
     
     [1, 2, 3]
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/replace_ad&action=edit&section=T-5 "Template:cpp/container/replace ad")] See also
+### See also
 
 [ extract](extract.html "cpp/container/flat set/extract") |  extracts the underlying container   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_extract&action=edit)  
+(public member function)   
 ---|---

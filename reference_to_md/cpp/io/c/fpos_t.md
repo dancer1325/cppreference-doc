@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [C-style I/O](../c.html "cpp/io/c")
 
@@ -176,7 +176,7 @@ Operations on files
 [tmpfile](tmpfile.html "cpp/io/c/tmpfile")  
 [tmpnam](tmpnam.html "cpp/io/c/tmpnam")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/navbar_content&action=edit)
+
 
 Defined in header `[<cstdio>](../../header/cstdio.html "cpp/header/cstdio")` |  |   
 ---|---|---  
@@ -187,15 +187,15 @@ typedef /* implementation-defined */ fpos_t; |  |
 
 The multibyte parser state of a wide-oriented C stream is represented by a [std::mbstate_t](../../string/multibyte/mbstate_t.html "cpp/string/multibyte/mbstate t") object, whose value is stored as part of the value of a `std::fpos_t` object by [std::fgetpos](fgetpos.html "cpp/io/c/fgetpos"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/fpos_t&action=edit&section=1 "Edit section: See also")] See also
+### See also
 
 [ fgetpos](fgetpos.html "cpp/io/c/fgetpos") |  gets the file position indicator   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_fgetpos&action=edit)  
+(function)   
 ---|---  
 [ fsetpos](fsetpos.html "cpp/io/c/fsetpos") |  moves the file position indicator to a specific location in a file   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_fsetpos&action=edit)  
+(function)   
 [ mbstate_t](../../string/multibyte/mbstate_t.html "cpp/string/multibyte/mbstate t") |  conversion state information necessary to iterate multibyte character strings   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/dsc_mbstate_t&action=edit)  
+(class)   
 [ fpos](../fpos.html "cpp/io/fpos") |  represents absolute position in a stream or a file   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_fpos&action=edit)  
+(class template)   
 [C documentation](../../../c/io/fpos_t.html "c/io/fpos t") for fpos_t

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [Input/output manipulators](../manip.html "cpp/io/manip")
 
@@ -154,7 +154,7 @@ Time and money I/O
 Quoted manipulator  
 [quoted](quoted.html "cpp/io/manip/quoted")(C++14)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/navbar_content&action=edit)
+
 
 Defined in header `[<iomanip>](../../header/iomanip.html "cpp/header/iomanip")` |  |   
 ---|---|---  
@@ -176,12 +176,12 @@ When used in an expression out << setfill(c) sets the fill character of the stre
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/setfill&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 c  |  \-  |  new value for the fill character   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/setfill&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 An object of unspecified type such that 
 
@@ -202,11 +202,11 @@ where the function f is defined as:
         str.fill(c);
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/setfill&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 The current fill character may be obtained with [std::ostream::fill](../basic_ios/fill.html "cpp/io/basic ios/fill"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/setfill&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -227,7 +227,7 @@ Output:
     default fill: [        42]
     setfill('*'): [********42]
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/setfill&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -237,12 +237,12 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 streams of type [std::ostream](../basic_ostream.html "cpp/io/basic ostream") | usable with any output  
 character stream   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/setfill&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ fill](../basic_ios/fill.html "cpp/io/basic ios/fill") |  manages the fill character   
-(public member function of `std::basic_ios<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ios/dsc_fill&action=edit)  
+(public member function of `std::basic_ios<CharT,Traits>`)   
 ---|---  
 [ internalleftright](left.html "cpp/io/manip/left") |  sets the placement of fill characters   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_left&action=edit)  
+(function)   
 [ setw](setw.html "cpp/io/manip/setw") |  changes the width of the next input/output field   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_setw&action=edit)
+(function) 

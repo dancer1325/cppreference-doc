@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Diagnostics library](../error.html "cpp/error")
 
@@ -89,7 +89,7 @@ Exception handling failures
 [breakpoint_if_debugging](../utility/breakpoint_if_debugging.html "cpp/utility/breakpoint if debugging")(C++26)  
 [breakpoint](../utility/breakpoint.html "cpp/utility/breakpoint")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/navbar_content&action=edit)
+
 
 Each of the macros defined in [`<cerrno>`](../header/cerrno.html "cpp/header/cerrno") expands to integer constant expressions with type int, each with a positive value, matching most of the [POSIX error codes](https://pubs.opengroup.org/onlinepubs/9699919799/basedefs/errno.h.html). The following constants are defined (the implementation may define more, as long as they begin with 'E' followed by digits or uppercase letters). 
 
@@ -254,7 +254,7 @@ EXDEV(C++11) |  Cross-device link
   
 All values are required to be unique except that the values of `EOPNOTSUPP` and `ENOTSUP` may be identical and the values of `EAGAIN` and `EWOULDBLOCK` may be identical. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/errno_macros&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -434,15 +434,15 @@ Possible output:
         EWOULDBLOCK: Resource temporarily unavailable
               EXDEV: Invalid cross-device link
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/errno_macros&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ errc](errc.html "cpp/error/errc")(C++11) |  the [std::error_condition](error_condition.html "cpp/error/error condition") enumeration listing all standard [`<cerrno>`](../header/cerrno.html "cpp/header/cerrno") macro constants   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_errc&action=edit)  
+(class)   
 ---|---  
 [ errno](errno.html "cpp/error/errno") |  macro which expands to POSIX-compatible thread-local error number variable  
-(macro variable)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_errno&action=edit)  
+(macro variable)  
 [ perror](../io/c/perror.html "cpp/io/c/perror") |  displays a character string corresponding of the current error to [stderr](../io/c/std_streams.html "cpp/io/c/std streams")   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_perror&action=edit)  
+(function)   
 [ strerror](../string/byte/strerror.html "cpp/string/byte/strerror") |  returns a text version of a given error code   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strerror&action=edit)  
+(function)   
 [C documentation](../../c/error/errno_macros.html "c/error/errno macros") for Error numbers

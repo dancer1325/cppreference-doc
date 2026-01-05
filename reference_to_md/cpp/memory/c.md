@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../memory.html "cpp/memory")
 
@@ -184,24 +184,24 @@ management](new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/c&action=edit&section=1 "Edit section: Functions")] Functions
+
+### Functions
 
 Defined in header `[<cstdlib>](../header/cstdlib.html "cpp/header/cstdlib")`  
 ---  
 [ malloc](c/malloc.html "cpp/memory/c/malloc") |  allocates memory   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/c/dsc_malloc&action=edit)  
+(function)   
 [ aligned_alloc](c/aligned_alloc.html "cpp/memory/c/aligned alloc")(C++17) |  allocates aligned memory   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/c/dsc_aligned_alloc&action=edit)  
+(function)   
 [ calloc](c/calloc.html "cpp/memory/c/calloc") |  allocates and zeroes memory   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/c/dsc_calloc&action=edit)  
+(function)   
 [ realloc](c/realloc.html "cpp/memory/c/realloc") |  expands or shrinks previously allocated memory block   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/c/dsc_realloc&action=edit)  
+(function)   
 [ free](c/free.html "cpp/memory/c/free") |  deallocates previously allocated memory   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/c/dsc_free&action=edit)  
+(function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/c&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [C documentation](../../c/memory.html "c/memory") for C memory management library  
 ---

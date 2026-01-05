@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Function objects](../../../functional.html "cpp/utility/functional")
 
@@ -255,7 +255,7 @@ Identity function object
 [unary_negate](../unary_negate.html "cpp/utility/functional/unary negate")(until C++20*)  
 [binary_negate](../binary_negate.html "cpp/utility/functional/binary negate")(until C++20*)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/navbar_content&action=edit)
+
 
 [`std::reference_wrapper`](../reference_wrapper.html "cpp/utility/functional/reference wrapper")
 
@@ -271,7 +271,7 @@ Non-member functions
 Helper classes  
 **basic_common_reference <std::reference_wrapper>**(C++23)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/reference_wrapper/navbar_content&action=edit)
+
 
 Defined in header `[<functional>](../../../header/functional.html "cpp/header/functional")` |  |   
 ---|---|---  
@@ -309,19 +309,19 @@ The exposition-only constant /*is-ref-wrapper*/<R> is true if and only if R is a
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/reference_wrapper/basic_common_reference&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Member type  |  Definition   
 ---|---  
 `type` |  [std::common_reference_t](../../../types/common_reference.html)<typename R::type&, TQual<T>> ([1,2](basic_common_reference.html#Version_1))  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/reference_wrapper/basic_common_reference&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../../feature_test.html "cpp/utility/feature test") macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_common_reference_wrapper`](../../../experimental/feature_test.html#cpp_lib_common_reference_wrapper "cpp/feature test") | [`202302L`](../../../compiler_support/23.html#cpp_lib_common_reference_wrapper_202302L "cpp/compiler support/23") | (C++23) | Make std::common_reference_t of [std::reference_wrapper](../reference_wrapper.html "cpp/utility/functional/reference wrapper") a reference type   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/reference_wrapper/basic_common_reference&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -340,10 +340,10 @@ Run this code
                                                        int&>);
     int main() {}
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/reference_wrapper/basic_common_reference&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ common_referencebasic_common_reference](../../../types/common_reference.html "cpp/types/common reference")(C++20) |  determines the common reference type of a group of types   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_common_reference&action=edit)  
+(class template)   
 ---|---
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

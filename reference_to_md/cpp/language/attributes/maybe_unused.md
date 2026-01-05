@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](../history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [Declarations](../declarations.html "cpp/language/declarations")
 
@@ -280,7 +280,7 @@ Other declarations
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/declarations/navbar_content&action=edit)
+
 
 [Attributes](../attributes.html "cpp/language/attributes")
 
@@ -298,7 +298,7 @@ Other declarations
 [optimize_for_synchronized](optimize_for_synchronized.html "cpp/language/attributes/optimize for synchronized")(TM TS)  
 [unlikely](likely.html "cpp/language/attributes/likely")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/attributes/navbar_content&action=edit)
+
 
 Suppresses warnings on unused entities. 
 
@@ -314,12 +314,12 @@ Suppresses warnings on unused entities.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/attributes/maybe_unused&action=edit&section=1 "Edit section: Syntax")] Syntax  
+### Syntax  
   
 ---  
 `**[[maybe_unused]]**` |  |   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/attributes/maybe_unused&action=edit&section=2 "Edit section: Explanation")] Explanation
+### Explanation
 
 This attribute can appear in the declaration of the following entities: 
 
@@ -344,7 +344,7 @@ For entities declared [[maybe_unused]], if the entities or their structured bind
 For labels declared [[maybe_unused]], if they are unused, the warning on unused labels issued by the compiler is suppressed.  | (since C++26)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/attributes/maybe_unused&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -362,7 +362,7 @@ Run this code
      
     int main() {}
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/attributes/maybe_unused&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -370,7 +370,7 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [CWG 2360](https://cplusplus.github.io/CWG/issues/2360.html) | C++17  | could not apply [[maybe_unused]] to structured bindings  | allowed   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/attributes/maybe_unused&action=edit&section=5 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -402,7 +402,7 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/attributes/maybe_unused&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [C documentation](../../../c/language/attributes/maybe_unused.html "c/language/attributes/maybe unused") for maybe_unused  
 ---

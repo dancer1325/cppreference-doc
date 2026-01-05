@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 Defined in header `[<memory>](../../header/memory.html "cpp/header/memory")` |  |   
 ---|---|---  
@@ -246,7 +246,7 @@ The function-like entities described on this page are [_algorithm function objec
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/ranges/uninitialized_move&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 ifirst, ilast  |  \-  |  the iterator-sentinel pair defining the input [range](../../iterator.html#Ranges "cpp/iterator") of elements to move from   
 ---|---|---  
@@ -254,19 +254,19 @@ in_range  |  \-  |  the input [`range`](../../ranges/range.html "cpp/ranges/rang
 ofirst, olast  |  \-  |  the iterator-sentinel pair defining the output [range](../../iterator.html#Ranges "cpp/iterator") of elements to initialize   
 out_range  |  \-  |  the output [`range`](../../ranges/range.html "cpp/ranges/range") to initialize   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/ranges/uninitialized_move&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 As described above. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/ranges/uninitialized_move&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Linear in \\(\scriptsize N\\)N. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/ranges/uninitialized_move&action=edit&section=4 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Any exception thrown on construction of the elements in the destination range. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/ranges/uninitialized_move&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 An implementation may improve the efficiency of the `ranges::uninitialized_move`, e.g. by using [ranges::copy_n](../../algorithm/ranges/copy_n.html "cpp/algorithm/ranges/copy n"), if the value type of the output range is [TrivialType](../../named_req/TrivialType.html "cpp/named req/TrivialType"). 
 
@@ -274,7 +274,7 @@ An implementation may improve the efficiency of the `ranges::uninitialized_move`
 ---|---|---|---  
 [`__cpp_lib_raw_memory_algorithms`](../../experimental/feature_test.html#cpp_lib_raw_memory_algorithms "cpp/feature test") | [`202411L`](../../compiler_support/26.html#cpp_lib_raw_memory_algorithms_202411L "cpp/compiler support/26") | (C++26) | constexpr for [specialized memory algorithms](../../memory.html#Uninitialized_memory_algorithms "cpp/memory"), ([1,2](uninitialized_move.html#Version_1))  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/ranges/uninitialized_move&action=edit&section=6 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     struct uninitialized_move_fn
@@ -319,7 +319,7 @@ An implementation may improve the efficiency of the `ranges::uninitialized_move`
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/ranges/uninitialized_move&action=edit&section=7 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -371,7 +371,7 @@ Possible output:
     after move, in: "" ""
     after move, out: "Home" "World"
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/ranges/uninitialized_move&action=edit&section=8 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -379,12 +379,12 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 3870](https://cplusplus.github.io/LWG/issue3870) | C++20  | this algorithm might create objects on a const storage  | kept disallowed   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/ranges/uninitialized_move&action=edit&section=9 "Edit section: See also")] See also
+### See also
 
 [ ranges::uninitialized_move_n](uninitialized_move_n.html "cpp/memory/ranges/uninitialized move n")(C++20) |  moves a number of objects to an uninitialized area of memory  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/ranges/dsc_uninitialized_move_n&action=edit)  
+(algorithm function object)  
 ---|---  
 [ uninitialized_move](../uninitialized_move.html "cpp/memory/uninitialized move")(C++17) |  moves a range of objects to an uninitialized area of memory   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_uninitialized_move&action=edit)
+(function template) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::zip_transform_view`](../zip_transform_view.html "cpp/ranges/zip transform view")
 
@@ -258,7 +258,7 @@ Non-member functions
 [operator==(zip_transform_view::_sentinel_)](sentinel/operator_cmp.html "cpp/ranges/zip transform view/sentinel/operator cmp")  
 [operator-(zip_transform_view::_sentinel_)](sentinel/operator-.html "cpp/ranges/zip transform view/sentinel/operator-")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/zip_transform_view/navbar_content&action=edit)
+
 
 zip_transform_view() = default; |  (1)  |  (since C++23)  
 ---|---|---  
@@ -277,13 +277,13 @@ The default constructor is deleted if
 
 2) Move constructs the stored invocable object from `fun` and every adapted [`view`](../view.html "cpp/ranges/view") object from the corresponding view in `views...`.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/zip_transform_view/zip_transform_view&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 f  |  \-  |  invocable object used for generation of elements of `zip_transform_view`  
 ---|---|---  
 views  |  \-  |  view objects to adapt   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/zip_transform_view/zip_transform_view&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

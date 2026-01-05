@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Filesystem library](../../filesystem.html "cpp/filesystem")
 
@@ -100,7 +100,7 @@ filesystem::symlink_status](../status.html "cpp/filesystem/status")
 [filesystem::is_socket](../is_socket.html "cpp/filesystem/is socket")  
 [filesystem::is_symlink](../is_symlink.html "cpp/filesystem/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/navbar_content&action=edit)
+
 
 [`std::filesystem::path`](../path.html "cpp/filesystem/path")
 
@@ -169,7 +169,7 @@ filesystem::symlink_status](../status.html "cpp/filesystem/status")
 | [formatter<std::filesystem::path>](formatter.html "cpp/filesystem/path/formatter")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/path/navbar_content&action=edit)
+
 
 template< class CharT, class Traits = [std::char_traits](../../string/char_traits.html)<CharT>,  
 class Alloc = [std::allocator](../../memory/allocator.html)<CharT> >  
@@ -212,19 +212,19 @@ Returns the internal pathname in native pathname format, converted to specific s
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/string&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/string&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The internal pathname in native pathname format, converted to specified string type. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/impldef_exception&action=edit&section=T-1 "Template:cpp/impldef exception")] Exceptions
+### Exceptions
 
 May throw implementation-defined exceptions. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/string&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -273,8 +273,8 @@ Possible output:
     File name in narrow multibyte encoding: 要らない.txt
     File name in wide encoding: 要らない.txt
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/string&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ generic_stringgeneric_wstringgeneric_u8stringgeneric_u16stringgeneric_u32string](generic_string.html "cpp/filesystem/path/generic string") |  returns the path in generic pathname format converted to a string   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/path/dsc_generic_string&action=edit)  
+(public member function)   
 ---|---

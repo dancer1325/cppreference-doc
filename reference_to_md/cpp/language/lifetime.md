@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Basic Concepts](basics.html "cpp/language/basic concepts")
 
@@ -249,7 +249,7 @@ Miscellaneous
 [Modules](modules.html "cpp/language/modules") (C++20)  
 [Contracts](contracts.html "cpp/language/contracts") (C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/basics/navbar_content&action=edit)
+
 
 Every [object](objects.html "cpp/language/object") and [reference](reference.html "cpp/language/reference") has a _lifetime_ , which is a runtime property: for any object or reference, there is a point of execution of a program when its lifetime begins, and there is a moment when it ends. 
 
@@ -300,7 +300,7 @@ Lifetimes of non-static data members and base subobjects begin and end following
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/lifetime&action=edit&section=1 "Edit section: Temporary object lifetime")] Temporary object lifetime
+### Temporary object lifetime
 
 Temporary objects are created when a prvalue is [materialized](implicit_cast.html#Temporary_materialization "cpp/language/implicit conversion") so that it can be used as a glvalue, which occurs(since C++17) in the following situations: 
 
@@ -382,7 +382,7 @@ There are the following exceptions from that:
 
 | (since C++23)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/lifetime&action=edit&section=2 "Edit section: Storage reuse")] Storage reuse
+### Storage reuse
 
 A program is not required to call the destructor of an object to end its lifetime if the object is [trivially-destructible](destructor.html#Trivial_destructor "cpp/language/destructor") (be careful that the correct behavior of the program may depend on the destructor). However, if a program ends the lifetime of a non-trivially destructible object that is a variable explicitly, it must ensure that a new object of the same type is constructed in-place (e.g. via placement new) before the destructor may be called implicitly, i.e. due to scope exit or exception for automatic objects, due to thread exit for thread-local objects,(since C++11) or due to program exit for static objects; otherwise the behavior is undefined. 
     
@@ -519,7 +519,7 @@ Reason: an appropriate example
 ---|---  
 (since C++17)  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/lifetime&action=edit&section=3 "Edit section: Providing storage")] Providing storage
+#### Providing storage
 
 As a special case, objects can be created in arrays of unsigned char or [`std::byte`](../types/byte.html "cpp/types/byte")(since C++17) (in which case it is said that the array _provides storage_ for the object) if 
 
@@ -547,7 +547,7 @@ If that portion of the array previously provided storage for another object, the
         return *c + *d; // OK
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/lifetime&action=edit&section=4 "Edit section: Access outside of lifetime")] Access outside of lifetime
+### Access outside of lifetime
 
 Before the lifetime of an object has started but after the storage which the object will occupy has been allocated or, after the lifetime of an object has ended and before the storage which the object occupied is reused or released, the behaviors of the following uses of the glvalue expression that identifies that object are undefined, unless the object is being constructed or destructed (separate set of rules applies): 
 
@@ -567,7 +567,7 @@ The above rules apply to pointers as well (binding a reference to virtual base i
 
 During construction and destruction it is generally allowed to call non-static member functions, access non-static data members, and use [`typeid`](typeid.html "cpp/language/typeid") and [`dynamic_cast`](dynamic_cast.html "cpp/language/dynamic cast"). However, because the lifetime either has not begun yet (during construction) or has already ended (during destruction), only specific operations are allowed. For one restriction, see [virtual function calls during construction and destruction](virtual.html#During_construction_and_destruction "cpp/language/virtual"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/lifetime&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 Until the resolution of [CWG issue 2256](https://cplusplus.github.io/CWG/issues/2256.html), the end of lifetime rules are different between non-class objects (end of storage duration) and class objects (reverse order of construction): 
     
@@ -603,7 +603,7 @@ Until the resolution of [RU007](https://wg21.link/p1971r0#RU007), a non-static m
         [assert](../error/assert.html)(*[std::launder](../utility/launder.html)(&u.x.n) == 2); // OK even until RU007
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/lifetime&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -658,7 +658,7 @@ of the declaration
 prevented its containing object from being transparently replaceable  | restriction removed   
 [P2103R0](https://wg21.link/P2103R0) | C++98  | transparently replaceability did not require keeping the original structure  | requires   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/lifetime&action=edit&section=7 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -772,7 +772,7 @@ prevented its containing object from being transparently replaceable  | restrict
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/lifetime&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [C documentation](../../c/language/lifetime.html "c/language/lifetime") for Lifetime  
 ---

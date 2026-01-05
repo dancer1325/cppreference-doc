@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -79,7 +79,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_ifstream`](../basic_ifstream.html "cpp/io/basic ifstream")
 
@@ -97,7 +97,7 @@ File operations
 Non-member functions  
 [swap(std::basic_ifstream)](swap2.html "cpp/io/basic ifstream/swap2")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ifstream/navbar_content&action=edit)
+
 
 bool is_open() const; |  |   
 ---|---|---  
@@ -118,15 +118,15 @@ Effectively calls [`rdbuf()->is_open()`](../basic_filebuf/is_open.html "cpp/io/b
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_fstream/is_open&action=edit&section=T-1 "Template:cpp/io/basic fstream/is open")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_fstream/is_open&action=edit&section=T-2 "Template:cpp/io/basic fstream/is open")] Return value
+### Return value
 
 true if the file stream has an associated file, false otherwise. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_fstream/is_open&action=edit&section=T-3 "Template:cpp/io/basic fstream/is open")] Example
+### Example
 
 Run this code
     
@@ -156,7 +156,7 @@ Possible output:
     true
     false
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_fstream/is_open&action=edit&section=T-4 "Template:cpp/io/basic fstream/is open")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -164,10 +164,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 365](https://cplusplus.github.io/LWG/issue365) | C++98  | `is_open` was not declared with const qualifier  | declared with const qualifier   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_fstream/is_open&action=edit&section=T-5 "Template:cpp/io/basic fstream/is open")] See also
+### See also
 
 [ open](open.html "cpp/io/basic ifstream/open") |  opens a file and associates it with the stream   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_fstream/dsc_open&action=edit)  
+(public member function)   
 ---|---  
 [ close](close.html "cpp/io/basic ifstream/close") |  closes the associated file   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_fstream/dsc_close&action=edit)
+(public member function) 

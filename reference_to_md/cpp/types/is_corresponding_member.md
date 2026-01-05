@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Metaprogramming library](../meta.html "cpp/meta")
 
@@ -167,7 +167,7 @@ Type transformations
 Compile-time integer sequences  
 [integer_sequence](../utility/integer_sequence.html "cpp/utility/integer sequence")(C++14)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/meta/navbar_content&action=edit)
+
 
 Defined in header `[<type_traits>](../header/type_traits.html "cpp/header/type traits")` |  |   
 ---|---|---  
@@ -190,20 +190,20 @@ If either `S1` or `S2` is not a [StandardLayoutType](../named_req/StandardLayout
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_corresponding_member&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 mp, mq  |  \-  |  pointers-to-member to detect   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_corresponding_member&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 true if mp and mq refer corresponding members in the common initial sequence of `S1` and `S2`, otherwise false. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_corresponding_member&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 The type of a pointer-to-member expression &S::m is not always M S::*, where `m` is of type `M`, because `m` may be a member inherited from a base class of `S`. The template arguments can be specified in order to avoid potentially surprising results. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_corresponding_member&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -235,12 +235,12 @@ Run this code
      
     int main() {}
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_corresponding_member&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ is_standard_layout](is_standard_layout.html "cpp/types/is standard layout")(C++11) |  checks if a type is a [standard-layout](../language/data_members.html#Standard-layout "cpp/language/data members") type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_standard_layout&action=edit)  
+(class template)   
 ---|---  
 [ is_layout_compatible](is_layout_compatible.html "cpp/types/is layout compatible")(C++20) |  checks if two types are [_layout-compatible_](../language/data_members.html#Standard_layout "cpp/language/data members")   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_layout_compatible&action=edit)  
+(class template)   
 [ is_member_object_pointer](is_member_object_pointer.html "cpp/types/is member object pointer")(C++11) |  checks if a type is a non-static member object pointer   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_member_object_pointer&action=edit)
+(class template) 

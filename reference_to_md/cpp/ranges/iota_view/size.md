@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::iota_view`](../iota_view.html "cpp/ranges/iota view")
 
@@ -268,7 +268,7 @@ operator<=>(iota_view::_iterator_)](iterator.html#Non-member_functions "cpp/rang
 [operator==(iota_view::_iterator_ ,iota_view::_sentinel_)](sentinel.html#Non-member_functions "cpp/ranges/iota view/sentinel")  
 [operator-(iota_view::_iterator_ ,iota_view::_sentinel_)](sentinel.html#Non-member_functions "cpp/ranges/iota view/sentinel")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/iota_view/navbar_content&action=edit)
+
 
 constexpr auto size() const  
 requires ([std::same_as](../../concepts/same_as.html)<W, Bound> && /*advanceable*/<W>) ||  
@@ -291,7 +291,7 @@ For the definitions of /*advanceable*/ and /*is-integer-like*/, see `_[advanceab
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/iota_view/size&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 If any of `W` and `Bound` is not a [integer-like type](../../iterator/is-integer-like.html "cpp/iterator/is-integer-like"), returns `_[to-unsigned-like](../../ranges.html#to-unsigned-like "cpp/ranges")_` ﻿(`_[bound_](../iota_view.html#bound "cpp/ranges/iota view")_`` `-` `` _[value_](../iota_view.html#value "cpp/ranges/iota view")_` ﻿). 
 
@@ -303,7 +303,7 @@ Otherwise, returns  (`_[value_](../iota_view.html#value "cpp/ranges/iota view")_
 ` `) :  
 ` `` _[to-unsigned-like](../../ranges.html#to-unsigned-like "cpp/ranges")_` ﻿(`_[bound_](../iota_view.html#bound "cpp/ranges/iota view")_` ﻿) -` `` _[to-unsigned-like](../../ranges.html#to-unsigned-like "cpp/ranges")_` ﻿(`_[value_](../iota_view.html#value "cpp/ranges/iota view")_` ﻿) . 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/iota_view/size&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -321,7 +321,7 @@ Run this code
         // assert(u.size()); // Error: size() is not present since “u” is unbounded
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/iota_view/size&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -329,10 +329,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 3610](https://cplusplus.github.io/LWG/issue3610) | C++20  | `size` might reject integer-class types  | accept if possible   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/iota_view/size&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ ranges::size](../size.html "cpp/ranges/size")(C++20) |  returns an integer equal to the size of a range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_size&action=edit)  
+(customization point object)  
 ---|---  
 [ ranges::ssize](../ssize.html "cpp/ranges/ssize")(C++20) |  returns a signed integer equal to the size of a range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_ssize&action=edit)
+(customization point object)

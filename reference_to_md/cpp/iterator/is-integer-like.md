@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](empty.html "cpp/iterator/empty")(C++17)  
 [data](data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 template< class T >  
 constexpr bool /*is-integer-like*/ = /* see description */; |  (1) | (since C++20)   
@@ -220,7 +220,7 @@ constexpr bool /*is-signed-integer-like*/ = /* see description */; |  (2) | (sin
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/is-integer-like&action=edit&section=1 "Edit section: Integer-class type")] Integer-class type
+### Integer-class type
 
 A type `T` is an _integer-class type_ if it is in a set of implementation-defined types that behave as [integer types](../language/types.html#Integral_types "cpp/language/types") do, as defined [below](is-integer-like.html#Required_behaviors). An integer-class type is not necessarily a [class type](../language/classes.html "cpp/language/classes"). 
 
@@ -243,7 +243,7 @@ A [value-initialized](../language/value_initialization.html "cpp/language/value 
 
 An expression E of integer-class type `T` is [contextually convertible](../language/implicit_cast.html#Contextual_conversions "cpp/language/implicit conversion") to bool as if by bool(E != T(0)). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/is-integer-like&action=edit&section=2 "Edit section: Integer-like type")] Integer-like type
+### Integer-like type
 
 A type other than (possibly cv-qualified) bool is _integer-like_ if it models [`integral`](../concepts/integral.html "cpp/concepts/integral") or if it is an integer-class type. 
 
@@ -252,7 +252,7 @@ A type other than (possibly cv-qualified) bool is _integer-like_ if it models [`
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/is-integer-like&action=edit&section=3 "Edit section: Required behaviors")] Required behaviors
+### Required behaviors
 
 Expressions of integer-class type are explicitly convertible to any integer-like type, and implicitly convertible to any integer-class type of equal or greater width and the same signedness. Expressions of integral type are both implicitly and explicitly convertible to any integer-class type. Conversions between integral and integer-class types and between two integer-class types do not exit via an exception. The result of such a conversion is the unique value of the destination type that is congruent to the source modulo \\(\scriptsize 2^N \\)2N  
 , where N is the width of the destination type. 
@@ -310,7 +310,7 @@ b @ a | y @ x is well-formed  | same as y @ x, but the result type is different:
 
 | same as y @ x  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/is-integer-like&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -326,8 +326,8 @@ non-class types
 [LWG 3575](https://cplusplus.github.io/LWG/issue3575)  
 ([P2393R1](https://wg21.link/P2393R1))  | C++20  | integer-class types were not guaranteed to be three-way-comparable  | guaranteed   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/is-integer-like&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ weakly_incrementable](weakly_incrementable.html "cpp/iterator/weakly incrementable")(C++20) |  specifies that a [`semiregular`](../concepts/semiregular.html "cpp/concepts/semiregular") type can be incremented with pre- and post-increment operators   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_weakly_incrementable&action=edit)  
+(concept)   
 ---|---

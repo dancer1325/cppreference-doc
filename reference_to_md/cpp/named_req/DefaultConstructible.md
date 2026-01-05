@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ named requirements](../iterator/concepts.html "cpp/named req")
 
@@ -147,7 +147,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/named_req/navbar_content&action=edit)
+
 
 Specifies that an instance of the type can be default constructed. 
 
@@ -161,7 +161,7 @@ Specifies that an instance of the type can be default constructed.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/DefaultConstructible&action=edit&section=1 "Edit section: Requirements")] Requirements
+### Requirements
 
 The type `T` satisfies DefaultConstructible if all following statements and expressions are valid and have their specified effects: 
 
@@ -171,7 +171,7 @@ T u; | The object u is [default-initialized](../language/default_initialization.
 T u{}; | The object u is [value-initialized](../language/value_initialization.html "cpp/language/value initialization") or [aggregate-initialized](../language/aggregate_initialization.html "cpp/language/aggregate initialization").   
 T() T{} | A temporary object of type `T` is [value-initialized](../language/value_initialization.html "cpp/language/value initialization") or [aggregate-initialized](../language/aggregate_initialization.html "cpp/language/aggregate initialization").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/DefaultConstructible&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 For objects of non-aggregate class type, a public [default constructor](../language/default_constructor.html "cpp/language/default constructor") must be defined (either user-defined or implicitly defined) to satisfy DefaultConstructible. 
 
@@ -183,7 +183,7 @@ Const aggregate types are not DefaultConstructible if any of their members is an
 
 Non-object types (function types, reference types, and the (possibly cv-qualified) type void) as well as the const non-object types are never DefaultConstructible. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/DefaultConstructible&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -194,10 +194,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 empty initializer could only result in value-initialization  | can also lead to  
 aggregate-initialization   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/DefaultConstructible&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ is_default_constructibleis_trivially_default_constructibleis_nothrow_default_constructible](../types/is_default_constructible.html "cpp/types/is default constructible")(C++11)(C++11)(C++11) |  checks if a type has a default constructor   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_default_constructible&action=edit)  
+(class template)   
 ---|---  
 [ default_initializable](../concepts/default_initializable.html "cpp/concepts/default initializable")(C++20) |  specifies that an object of a type can be default constructed   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_default_initializable&action=edit)
+(concept) 

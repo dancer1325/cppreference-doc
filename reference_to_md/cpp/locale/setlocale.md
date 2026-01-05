@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Localization library](../locale.html "cpp/locale")
 
@@ -152,7 +152,7 @@ base classes](../locale.html#Facet_category_base_classes "cpp/locale")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/navbar_content&action=edit)
+
 
 Defined in header `[<clocale>](../header/clocale.html "cpp/header/clocale")` |  |   
 ---|---|---  
@@ -173,19 +173,19 @@ The `setlocale` function installs the specified system locale or its portion as 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/setlocale&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 category  |  \-  |  locale category identifier, one of the [`LC_xxx`](LC_categories.html "cpp/locale/LC categories") macros. May be ​0​.   
 ---|---|---  
 locale  |  \-  |  system-specific locale identifier. Can be "" for the user-preferred locale or "C" for the minimal locale   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/setlocale&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Pointer to a narrow null-terminated string identifying the C locale after applying the changes, if any, or null pointer on failure. 
 
 A copy of the returned string along with the category used in this call to `std::setlocale` may be used later in the program to restore the locale back to the state at the end of this call. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/setlocale&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 During program startup, the equivalent of std::setlocale([LC_ALL](LC_categories.html), "C"); is executed before any user code is run. 
 
@@ -197,7 +197,7 @@ POSIX also defines a locale named "POSIX", which is always accessible and is exa
 
 POSIX also specifies that the returned pointer, not just the contents of the pointed-to string, may be invalidated by subsequent calls to `setlocale`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/setlocale&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -244,16 +244,16 @@ Possible output:
     Date: 日曜日 2022年11月06日 20時40分59秒
     Restorred LC_ALL locale: C
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/setlocale&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ LC_ALLLC_COLLATELC_CTYPELC_MONETARYLC_NUMERICLC_TIME](LC_categories.html "cpp/locale/LC categories") |  locale categories for **std::setlocale**   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_LC_categories&action=edit)  
+(macro constant)   
 ---|---  
 [ locale](locale.html "cpp/locale/locale") |  set of polymorphic facets that encapsulate cultural differences   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_locale&action=edit)  
+(class)   
 [C documentation](../../c/locale/setlocale.html "c/locale/setlocale") for setlocale  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/setlocale&action=edit&section=6 "Edit section: External links")] External links
+### External links
 
 1\.  | [List of Windows locale names](https://ss64.com/locale.html).   
 ---|---  

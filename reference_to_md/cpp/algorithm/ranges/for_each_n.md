@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](copy.html "cpp/algorithm/ranges/co
 [uninitialized_default_construct_n](../../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 [Constrained algorithms](../ranges.html "cpp/algorithm/ranges")
 
@@ -550,7 +550,7 @@ All names in this menu belong to namespace `std::ranges`
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -588,7 +588,7 @@ The function-like entities described on this page are [_algorithm function objec
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/for_each_n&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first  |  \-  |  iterator denoting the begin of the range to apply the function to   
 ---|---|---  
@@ -596,15 +596,15 @@ n  |  \-  |  the number of elements to apply the function to
 f  |  \-  |  the function to apply to the projected range `[`first`, `first + n`)`  
 proj  |  \-  |  projection to apply to the elements   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/for_each_n&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 An object {first + n, std::move(f)}, where first + n may be evaluated as std::[ranges::next](../../iterator/ranges/next.html)(std::move(first), n) depending on iterator category. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/for_each_n&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Exactly n applications of f and proj. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/for_each_n&action=edit&section=4 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     struct for_each_n_fn
@@ -622,7 +622,7 @@ Exactly n applications of f and proj.
      
     inline constexpr for_each_n_fn for_each_n {};
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/for_each_n&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -677,13 +677,13 @@ Output:
     s: {-1,'a'}, {-2,'b'}, {3,'c'}, {4,'d'}
     s: {-1,'A'}, {-2,'B'}, {3,'C'}, {4,'d'}
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/for_each_n&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
-[ range-`for` loop](../../language/range-for.html "cpp/language/range-for")(C++11) |  executes loop over range[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_range-for&action=edit)  
+[ range-`for` loop](../../language/range-for.html "cpp/language/range-for")(C++11) |  executes loop over range  
 ---|---  
 [ ranges::for_each](for_each.html "cpp/algorithm/ranges/for each")(C++20) |  applies a unary [function object](../../named_req/FunctionObject.html "cpp/named req/FunctionObject") to elements from a [range](../../iterator.html#Ranges "cpp/iterator")  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_for_each&action=edit)  
+(algorithm function object)  
 [ for_each_n](../for_each_n.html "cpp/algorithm/for each n")(C++17) |  applies a function object to the first N elements of a sequence   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_for_each_n&action=edit)  
+(function template)   
 [ for_each](../for_each.html "cpp/algorithm/for each") |  applies a unary [function object](../../named_req/FunctionObject.html "cpp/named req/FunctionObject") to elements from a [range](../../iterator.html#Ranges "cpp/iterator")   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_for_each&action=edit)
+(function template) 

@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -175,7 +175,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::recursive_timed_mutex`](../recursive_timed_mutex.html "cpp/thread/recursive timed mutex")
 
@@ -192,7 +192,7 @@ Locking
 Native handle  
 **recursive_timed_mutex::native_handle**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/recursive_timed_mutex/navbar_content&action=edit)
+
 
 native_handle_type native_handle(); |  |  (since C++11)   
 (not always present)  
@@ -211,19 +211,19 @@ Returns the underlying implementation-defined native handle object.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/mutex/native_handle&action=edit&section=T-1 "Template:cpp/thread/mutex/native handle")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/mutex/native_handle&action=edit&section=T-2 "Template:cpp/thread/mutex/native handle")] Return value
+### Return value
 
 Implementation-defined native handle object. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/mutex/native_handle&action=edit&section=T-3 "Template:cpp/thread/mutex/native handle")] Exceptions
+### Exceptions
 
 Implementation-defined. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/mutex/native_handle&action=edit&section=T-4 "Template:cpp/thread/mutex/native handle")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

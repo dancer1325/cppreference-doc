@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_filebuf`](../basic_filebuf.html "cpp/io/basic filebuf")
 
@@ -105,7 +105,7 @@ Protected member functions
 Non-member functions  
 [swap(std::basic_filebuf)](swap2.html "cpp/io/basic filebuf/swap2")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_filebuf/navbar_content&action=edit)
+
 
 protected:  
 virtual pos_type seekpos( pos_type sp,  
@@ -137,7 +137,7 @@ If sp was not obtained by calling [seekoff()](../basic_streambuf/pubseekoff.html
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_filebuf/seekpos&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 sp  |  \-  |  file position obtained by [seekoff()](../basic_streambuf/pubseekoff.html "cpp/io/basic streambuf/pubseekoff") or `seekpos()` called earlier on the same file   
 ---|---|---  
@@ -146,17 +146,17 @@ which  |  \-  |  defines which of the input and/or output sequences to affect. I
 [`in`](../ios_base/openmode.html "cpp/io/ios base/openmode") |  affect the input sequence   
 [`out`](../ios_base/openmode.html "cpp/io/ios base/openmode") |  affect the output sequence   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_filebuf/seekpos&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 sp on success or pos_type(off_type(-1)) on failure. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_filebuf/seekpos&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 `seekpos()` is called by [std::basic_streambuf::pubseekpos()](../basic_streambuf/pubseekpos.html "cpp/io/basic streambuf/pubseekpos"), which is called by the single-argument versions of [std::basic_istream::seekg()](../basic_istream/seekg.html "cpp/io/basic istream/seekg") and [std::basic_ostream::seekp()](../basic_ostream/seekp.html "cpp/io/basic ostream/seekp"). 
 
 Many implementations do not update the get area in `seekpos()`, delegating to [underflow()](../basic_streambuf/underflow.html "cpp/io/basic streambuf/underflow") that is called by the next [sgetc()](../basic_streambuf/sgetc.html "cpp/io/basic streambuf/sgetc"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_filebuf/seekpos&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 On some implementations, the get area is emptied by `seekpos()` and the second `underflow()` is necessary to observe the effects.
 
@@ -206,7 +206,7 @@ Possible output:
     seekpos() returns 2.
     After the call, size of the get area is 110 with 108 read positions available.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_filebuf/seekpos&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -217,12 +217,12 @@ invalid stream position on failure  | pos_type(off_type(-1))
 is returned on failure   
 [LWG 171](https://cplusplus.github.io/LWG/issue171) | C++98  | the sequence of the operations of reposition was not clear  | made clear   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_filebuf/seekpos&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ pubseekpos](../basic_streambuf/pubseekpos.html "cpp/io/basic streambuf/pubseekpos") |  invokes seekpos()   
-(public member function of `std::basic_streambuf<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_streambuf/dsc_pubseekpos&action=edit)  
+(public member function of `std::basic_streambuf<CharT,Traits>`)   
 ---|---  
 [ seekoff](seekoff.html "cpp/io/basic filebuf/seekoff")[virtual] |  repositions the file position, using relative addressing   
-(virtual protected member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_filebuf/dsc_seekoff&action=edit)  
+(virtual protected member function)   
 [ fseek](../c/fseek.html "cpp/io/c/fseek") |  moves the file position indicator to a specific location in a file   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_fseek&action=edit)
+(function) 

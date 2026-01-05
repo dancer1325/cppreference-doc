@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::weekday`](../weekday.html "cpp/chrono/weekday")
 
@@ -122,7 +122,7 @@ Helper classes
 [formatter<std::chrono::weekday>](formatter.html "cpp/chrono/weekday/formatter")  
 [formatter<std::chrono::hash>](hash.html "cpp/chrono/weekday/hash")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/weekday/navbar_content&action=edit)
+
 
 constexpr [std::chrono::weekday](../weekday.html)& operator++() noexcept; |  (1)  |  (since C++20)  
 ---|---|---  
@@ -148,21 +148,21 @@ Adds or subtracts 1 from the weekday value, reducing the result modulo 7 to an i
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/weekday/operator_inc_dec&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/weekday/operator_inc_dec&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1,3) A reference to this `weekday` after modification.
 
 2,4) A copy of the `weekday` made before modification.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/weekday/operator_inc_dec&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 After a call to one of these functions, [`ok()`](ok.html "cpp/chrono/weekday/ok") is always true. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/weekday/operator_inc_dec&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -194,10 +194,10 @@ Output:
     
     true true
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/weekday/operator_inc_dec&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ operator+=operator-=](operator_arith.html "cpp/chrono/weekday/operator arith") |  adds or subtracts a number of days   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/weekday/dsc_operator_arith&action=edit)  
+(public member function)   
 ---|---  
 [ operator+operator-](operator_arith_2.html "cpp/chrono/weekday/operator arith 2")(C++20) |  performs arithmetic on `weekday`s   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/weekday/dsc_operator_arith_2&action=edit)
+(function) 

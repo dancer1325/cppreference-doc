@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -71,7 +71,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::forward_list`](../forward_list.html "cpp/container/forward list")
 
@@ -126,7 +126,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/forward list/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/forward_list/navbar_content&action=edit)
+
 
 void splice_after( const_iterator pos, forward_list& other ); |  (1) | (since C++11)   
 (constexpr since C++26)  
@@ -192,7 +192,7 @@ No iterators or references become invalidated. If *this and other refer to diffe
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/forward_list/splice_after&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 pos  |  \-  |  element after which the content will be inserted   
 ---|---|---  
@@ -200,11 +200,11 @@ other  |  \-  |  another container to transfer the content from
 it  |  \-  |  iterator preceding the iterator to the element to transfer from other to *this  
 first, last  |  \-  |  the pair of iterators defining the [range](../../iterator.html#Ranges "cpp/iterator") of elements to transfer from other to *this  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/forward_list/splice_after&action=edit&section=2 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 1-4) Throws nothing.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/forward_list/splice_after&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 1,2) Linear in the size of other.
 
@@ -212,7 +212,7 @@ first, last  |  \-  |  the pair of iterators defining the [range](../../iterator
 
 5,6) Linear in [std::distance](../../iterator/distance.html)(first, last).
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/forward_list/splice_after&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -259,7 +259,7 @@ Run this code
         [assert](../../error/assert.html)((y == F{10}));
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/forward_list/splice_after&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -272,12 +272,12 @@ undefined in this case
 iterators referring to it would refer to an element in *this after splicing  | still refer to the  
 element in other  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/forward_list/splice_after&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ merge](merge.html "cpp/container/forward list/merge") |  merges two sorted lists   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_merge&action=edit)  
+(public member function)   
 ---|---  
 [ removeremove_if](remove.html "cpp/container/forward list/remove") |  removes elements satisfying specific criteria   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_remove&action=edit)  
+(public member function)   
 [ before_begincbefore_begin](before_begin.html "cpp/container/forward list/before begin") |  returns an iterator to the element before beginning   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_before_begin&action=edit)
+(public member function) 

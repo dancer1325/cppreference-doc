@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header is part of the [concepts](../concepts.html "cpp/concepts") library. 
 
@@ -251,75 +251,75 @@ This header is part of the [concepts](../concepts.html "cpp/concepts") library.
 #####  Core language concepts   
   
 [ same_as](../concepts/same_as.html "cpp/concepts/same as")(C++20) |  specifies that a type is the same as another type   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_same_as&action=edit)  
+(concept)   
 [ derived_from](../concepts/derived_from.html "cpp/concepts/derived from")(C++20) |  specifies that a type is derived from another type   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_derived_from&action=edit)  
+(concept)   
 [ convertible_to](../concepts/convertible_to.html "cpp/concepts/convertible to")(C++20) |  specifies that a type is implicitly convertible to another type   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_convertible_to&action=edit)  
+(concept)   
 [ common_reference_with](../concepts/common_reference_with.html "cpp/concepts/common reference with")(C++20) |  specifies that two types share a common reference type   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_common_reference_with&action=edit)  
+(concept)   
 [ common_with](../concepts/common_with.html "cpp/concepts/common with")(C++20) |  specifies that two types share a common type   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_common_with&action=edit)  
+(concept)   
 [ integral](../concepts/integral.html "cpp/concepts/integral")(C++20) |  specifies that a type is an integral type   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_integral&action=edit)  
+(concept)   
 [ signed_integral](../concepts/signed_integral.html "cpp/concepts/signed integral")(C++20) |  specifies that a type is an integral type that is signed   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_signed_integral&action=edit)  
+(concept)   
 [ unsigned_integral](../concepts/unsigned_integral.html "cpp/concepts/unsigned integral")(C++20) |  specifies that a type is an integral type that is unsigned   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_unsigned_integral&action=edit)  
+(concept)   
 [ floating_point](../concepts/floating_point.html "cpp/concepts/floating point")(C++20) |  specifies that a type is a floating-point type   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_floating_point&action=edit)  
+(concept)   
 [ assignable_from](../concepts/assignable_from.html "cpp/concepts/assignable from")(C++20) |  specifies that a type is assignable from another type   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_assignable_from&action=edit)  
+(concept)   
 [ swappableswappable_with](../concepts/swappable.html "cpp/concepts/swappable")(C++20) |  specifies that a type can be swapped or that two types can be swapped with each other   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_swappable&action=edit)  
+(concept)   
 [ destructible](../concepts/destructible.html "cpp/concepts/destructible")(C++20) |  specifies that an object of the type can be destroyed   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_destructible&action=edit)  
+(concept)   
 [ constructible_from](../concepts/constructible_from.html "cpp/concepts/constructible from")(C++20) |  specifies that a variable of the type can be constructed from or bound to a set of argument types   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_constructible_from&action=edit)  
+(concept)   
 [ default_initializable](../concepts/default_initializable.html "cpp/concepts/default initializable")(C++20) |  specifies that an object of a type can be default constructed   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_default_initializable&action=edit)  
+(concept)   
 [ move_constructible](../concepts/move_constructible.html "cpp/concepts/move constructible")(C++20) |  specifies that an object of a type can be move constructed   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_move_constructible&action=edit)  
+(concept)   
 [ copy_constructible](../concepts/copy_constructible.html "cpp/concepts/copy constructible")(C++20) |  specifies that an object of a type can be copy constructed and move constructed   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_copy_constructible&action=edit)  
+(concept)   
   
 #####  Comparison concepts   
   
 [ equality_comparableequality_comparable_with](../concepts/equality_comparable.html "cpp/concepts/equality comparable")(C++20) |  specifies that operator == is an equivalence relation   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_equality_comparable&action=edit)  
+(concept)   
 [ totally_orderedtotally_ordered_with](../concepts/totally_ordered.html "cpp/concepts/totally ordered")(C++20) |  specifies that the comparison operators on the type yield a total order   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_totally_ordered&action=edit)  
+(concept)   
   
 #####  Object concepts   
   
 [ movable](../concepts/movable.html "cpp/concepts/movable")(C++20) |  specifies that an object of a type can be moved and swapped   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_movable&action=edit)  
+(concept)   
 [ copyable](../concepts/copyable.html "cpp/concepts/copyable")(C++20) |  specifies that an object of a type can be copied, moved, and swapped   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_copyable&action=edit)  
+(concept)   
 [ semiregular](../concepts/semiregular.html "cpp/concepts/semiregular")(C++20) |  specifies that an object of a type can be copied, moved, swapped, and default constructed   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_semiregular&action=edit)  
+(concept)   
 [ regular](../concepts/regular.html "cpp/concepts/regular")(C++20) |  specifies that a type is regular, that is, it is both [`semiregular`](../concepts/semiregular.html "cpp/concepts/semiregular") and [`equality_comparable`](../concepts/equality_comparable.html "cpp/concepts/equality comparable")   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_regular&action=edit)  
+(concept)   
   
 #####  Callable concepts   
   
 [ invocableregular_invocable](../concepts/invocable.html "cpp/concepts/invocable")(C++20) |  specifies that a callable type can be invoked with a given set of argument types   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_invocable&action=edit)  
+(concept)   
 [ predicate](../concepts/predicate.html "cpp/concepts/predicate")(C++20) |  specifies that a callable type is a Boolean predicate   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_predicate&action=edit)  
+(concept)   
 [ relation](../concepts/relation.html "cpp/concepts/relation")(C++20) |  specifies that a callable type is a binary relation   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_relation&action=edit)  
+(concept)   
 [ equivalence_relation](../concepts/equivalence_relation.html "cpp/concepts/equivalence relation")(C++20) |  specifies that a [`relation`](../concepts/relation.html "cpp/concepts/relation") imposes an equivalence relation   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_equivalence_relation&action=edit)  
+(concept)   
 [ strict_weak_order](../concepts/strict_weak_order.html "cpp/concepts/strict weak order")(C++20) |  specifies that a [`relation`](../concepts/relation.html "cpp/concepts/relation") imposes a strict weak ordering   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_strict_weak_order&action=edit)  
+(concept)   
   
 ###  Customization point objects  
   
 [ ranges::swap](../utility/ranges/swap.html "cpp/utility/ranges/swap")(C++20) |  swaps the values of two objects  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/ranges/dsc_swap&action=edit)  
+(customization point object)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/concepts&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     // all freestanding
@@ -439,7 +439,7 @@ This header is part of the [concepts](../concepts.html "cpp/concepts") library.
       concept strict_weak_order = /* see description */;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/concepts&action=edit&section=T-1 "Template:cpp/synopsis/concepts")] Helper concept [`_boolean-testable_`](../concepts/boolean-testable.html "cpp/concepts/boolean-testable")
+#### Helper concept [`_boolean-testable_`](../concepts/boolean-testable.html "cpp/concepts/boolean-testable")
     
     
     template<class T>
@@ -453,7 +453,7 @@ This header is part of the [concepts](../concepts.html "cpp/concepts") library.
         } -> /*boolean-testable-impl*/;
       };
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/concepts&action=edit&section=T-2 "Template:cpp/synopsis/concepts")] Concept [`same_as`](../concepts/same_as.html "cpp/concepts/same as")
+#### Concept [`same_as`](../concepts/same_as.html "cpp/concepts/same as")
     
     
     template<class T, class U>
@@ -462,21 +462,21 @@ This header is part of the [concepts](../concepts.html "cpp/concepts") library.
     template<class T, class U>
     concept same_as = /*same-as-impl*/<T, U> && /*same-as-impl*/<U, T>;
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/concepts&action=edit&section=T-3 "Template:cpp/synopsis/concepts")] Concept [`derived_from`](../concepts/derived_from.html "cpp/concepts/derived from")
+#### Concept [`derived_from`](../concepts/derived_from.html "cpp/concepts/derived from")
     
     
     template<class Derived, class Base>
     concept derived_from = is_base_of_v<Base, Derived> &&
                            is_convertible_v<const volatile Derived*, const volatile Base*>;
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/concepts&action=edit&section=T-4 "Template:cpp/synopsis/concepts")] Concept [`convertible_to`](../concepts/convertible_to.html "cpp/concepts/convertible to")
+#### Concept [`convertible_to`](../concepts/convertible_to.html "cpp/concepts/convertible to")
     
     
     template<class From, class To>
     concept convertible_to =
       is_convertible_v<From, To> && requires { static_cast<To>(declval<From>()); };
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/concepts&action=edit&section=T-5 "Template:cpp/synopsis/concepts")] Concept [`common_reference_with`](../concepts/common_reference_with.html "cpp/concepts/common reference with")
+#### Concept [`common_reference_with`](../concepts/common_reference_with.html "cpp/concepts/common reference with")
     
     
     template<class T, class U>
@@ -485,7 +485,7 @@ This header is part of the [concepts](../concepts.html "cpp/concepts") library.
       convertible_to<T, common_reference_t<T, U>> &&
       convertible_to<U, common_reference_t<T, U>>;
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/concepts&action=edit&section=T-6 "Template:cpp/synopsis/concepts")] Concept [`common_with`](../concepts/common_with.html "cpp/concepts/common with")
+#### Concept [`common_with`](../concepts/common_with.html "cpp/concepts/common with")
     
     
     template<class T, class U>
@@ -501,31 +501,31 @@ This header is part of the [concepts](../concepts.html "cpp/concepts") library.
         add_lvalue_reference_t<common_type_t<T, U>>,
         common_reference_t<add_lvalue_reference_t<const T>, add_lvalue_reference_t<const U>>>;
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/concepts&action=edit&section=T-7 "Template:cpp/synopsis/concepts")] Concept [`integral`](../concepts/integral.html "cpp/concepts/integral")
+#### Concept [`integral`](../concepts/integral.html "cpp/concepts/integral")
     
     
     template<class T>
     concept integral = is_integral_v<T>;
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/concepts&action=edit&section=T-8 "Template:cpp/synopsis/concepts")] Concept [`signed_integral`](../concepts/signed_integral.html "cpp/concepts/signed integral")
+#### Concept [`signed_integral`](../concepts/signed_integral.html "cpp/concepts/signed integral")
     
     
     template<class T>
     concept signed_integral = integral<T> && is_signed_v<T>;
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/concepts&action=edit&section=T-9 "Template:cpp/synopsis/concepts")] Concept [`unsigned_integral`](../concepts/unsigned_integral.html "cpp/concepts/unsigned integral")
+#### Concept [`unsigned_integral`](../concepts/unsigned_integral.html "cpp/concepts/unsigned integral")
     
     
     template<class T>
     concept unsigned_integral = integral<T> && !signed_integral<T>;
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/concepts&action=edit&section=T-10 "Template:cpp/synopsis/concepts")] Concept [`floating_point`](../concepts/floating_point.html "cpp/concepts/floating point")
+#### Concept [`floating_point`](../concepts/floating_point.html "cpp/concepts/floating point")
     
     
     template<class T>
     concept floating_point = is_floating_point_v<T>;
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/concepts&action=edit&section=T-11 "Template:cpp/synopsis/concepts")] Concept [`assignable_from`](../concepts/assignable_from.html "cpp/concepts/assignable from")
+#### Concept [`assignable_from`](../concepts/assignable_from.html "cpp/concepts/assignable from")
     
     
     template<class LHS, class RHS>
@@ -538,13 +538,13 @@ This header is part of the [concepts](../concepts.html "cpp/concepts") library.
         } -> same_as<LHS>;
       };
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/concepts&action=edit&section=T-12 "Template:cpp/synopsis/concepts")] Concept [`swappable`](../concepts/swappable.html "cpp/concepts/swappable")
+#### Concept [`swappable`](../concepts/swappable.html "cpp/concepts/swappable")
     
     
     template<class T>
     concept swappable = requires(T& a, T& b) { [ranges::swap](http://en.cppreference.com/w/cpp/ranges-utility-placeholder/swap)(a, b); };
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/concepts&action=edit&section=T-13 "Template:cpp/synopsis/concepts")] Concept [`swappable_with`](../concepts/swappable.html "cpp/concepts/swappable")
+#### Concept [`swappable_with`](../concepts/swappable.html "cpp/concepts/swappable")
     
     
     template<class T, class U>
@@ -555,19 +555,19 @@ This header is part of the [concepts](../concepts.html "cpp/concepts") library.
       [ranges::swap](http://en.cppreference.com/w/cpp/ranges-utility-placeholder/swap)([std::forward](../utility/forward.html)<U>(u), [std::forward](../utility/forward.html)<T>(t));
     };
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/concepts&action=edit&section=T-14 "Template:cpp/synopsis/concepts")] Concept [`destructible`](../concepts/destructible.html "cpp/concepts/destructible")
+#### Concept [`destructible`](../concepts/destructible.html "cpp/concepts/destructible")
     
     
     template<class T>
     concept destructible = is_nothrow_destructible_v<T>;
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/concepts&action=edit&section=T-15 "Template:cpp/synopsis/concepts")] Concept [`constructible_from`](../concepts/constructible_from.html "cpp/concepts/constructible from")
+#### Concept [`constructible_from`](../concepts/constructible_from.html "cpp/concepts/constructible from")
     
     
     template<class T, class... Args>
     concept constructible_from = destructible<T> && is_constructible_v<T, Args...>;
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/concepts&action=edit&section=T-16 "Template:cpp/synopsis/concepts")] Concept [`default_initializable`](../concepts/default_initializable.html "cpp/concepts/default initializable")
+#### Concept [`default_initializable`](../concepts/default_initializable.html "cpp/concepts/default initializable")
     
     
     template<class T>
@@ -577,13 +577,13 @@ This header is part of the [concepts](../concepts.html "cpp/concepts") library.
     concept default_initializable =
       constructible_from<T> && requires { T{}; } && /*is-default-initializable*/<T>;
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/concepts&action=edit&section=T-17 "Template:cpp/synopsis/concepts")] Concept [`move_constructible`](../concepts/move_constructible.html "cpp/concepts/move constructible")
+#### Concept [`move_constructible`](../concepts/move_constructible.html "cpp/concepts/move constructible")
     
     
     template<class T>
     concept move_constructible = constructible_from<T, T> && convertible_to<T, T>;
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/concepts&action=edit&section=T-18 "Template:cpp/synopsis/concepts")] Concept [`copy_constructible`](../concepts/copy_constructible.html "cpp/concepts/copy constructible")
+#### Concept [`copy_constructible`](../concepts/copy_constructible.html "cpp/concepts/copy constructible")
     
     
     template<class T>
@@ -592,7 +592,7 @@ This header is part of the [concepts](../concepts.html "cpp/concepts") library.
       constructible_from<T, const T&> && convertible_to<const T&, T> &&
       constructible_from<T, const T> && convertible_to<const T, T>;
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/concepts&action=edit&section=T-19 "Template:cpp/synopsis/concepts")] Concept [`equality_comparable`](../concepts/equality_comparable.html "cpp/concepts/equality comparable")
+#### Concept [`equality_comparable`](../concepts/equality_comparable.html "cpp/concepts/equality comparable")
     
     
     template<class T, class U>
@@ -607,7 +607,7 @@ This header is part of the [concepts](../concepts.html "cpp/concepts") library.
     template<class T>
     concept equality_comparable = /*weakly-equality-comparable-with*/<T, T>;
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/concepts&action=edit&section=T-20 "Template:cpp/synopsis/concepts")] Concept [`equality_comparable_with`](../concepts/equality_comparable.html "cpp/concepts/equality comparable")
+#### Concept [`equality_comparable_with`](../concepts/equality_comparable.html "cpp/concepts/equality comparable")
     
     
     template<class T, class U, class C = common_reference_t<const T&, const U&>>
@@ -631,7 +631,7 @@ This header is part of the [concepts](../concepts.html "cpp/concepts") library.
         common_reference_t<const remove_reference_t<T>&, const remove_reference_t<U>&>> &&
       /*weakly-equality-comparable-with*/<T, U>;
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/concepts&action=edit&section=T-21 "Template:cpp/synopsis/concepts")] Helper concept [`_partially-ordered-with_`](../concepts/totally_ordered.html "cpp/concepts/totally ordered")
+#### Helper concept [`_partially-ordered-with_`](../concepts/totally_ordered.html "cpp/concepts/totally ordered")
 
 Defined in header [`<compare>`](compare.html#Concept_three_way_comparable "cpp/header/compare")
     
@@ -649,13 +649,13 @@ Defined in header [`<compare>`](compare.html#Concept_three_way_comparable "cpp/h
         { u >= t } -> [boolean-testable](../concepts/boolean-testable.html);
       };
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/concepts&action=edit&section=T-22 "Template:cpp/synopsis/concepts")] Concept [`totally_ordered`](../concepts/totally_ordered.html "cpp/concepts/totally ordered")
+#### Concept [`totally_ordered`](../concepts/totally_ordered.html "cpp/concepts/totally ordered")
     
     
     template<class T>
     concept totally_ordered = equality_comparable<T> && /*partially-ordered-with*/<T, T>;
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/concepts&action=edit&section=T-23 "Template:cpp/synopsis/concepts")] Concept [`totally_ordered_with`](../concepts/totally_ordered.html "cpp/concepts/totally ordered")
+#### Concept [`totally_ordered_with`](../concepts/totally_ordered.html "cpp/concepts/totally ordered")
     
     
     template<class T, class U>
@@ -665,33 +665,33 @@ Defined in header [`<compare>`](compare.html#Concept_three_way_comparable "cpp/h
         common_reference_t<const remove_reference_t<T>&, const remove_reference_t<U>&>> &&
       /*partially-ordered-with*/<T, U>;
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/concepts&action=edit&section=T-24 "Template:cpp/synopsis/concepts")] Concept [`movable`](../concepts/movable.html "cpp/concepts/movable")
+#### Concept [`movable`](../concepts/movable.html "cpp/concepts/movable")
     
     
     template<class T>
     concept movable =
       is_object_v<T> && move_constructible<T> && assignable_from<T&, T> && swappable<T>;
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/concepts&action=edit&section=T-25 "Template:cpp/synopsis/concepts")] Concept [`copyable`](../concepts/copyable.html "cpp/concepts/copyable")
+#### Concept [`copyable`](../concepts/copyable.html "cpp/concepts/copyable")
     
     
     template<class T>
     concept copyable = copy_constructible<T> && movable<T> && assignable_from<T&, T&> &&
                        assignable_from<T&, const T&> && assignable_from<T&, const T>;
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/concepts&action=edit&section=T-26 "Template:cpp/synopsis/concepts")] Concept [`semiregular`](../concepts/semiregular.html "cpp/concepts/semiregular")
+#### Concept [`semiregular`](../concepts/semiregular.html "cpp/concepts/semiregular")
     
     
     template<class T>
     concept semiregular = copyable<T> && default_initializable<T>;
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/concepts&action=edit&section=T-27 "Template:cpp/synopsis/concepts")] Concept [`regular`](../concepts/regular.html "cpp/concepts/regular")
+#### Concept [`regular`](../concepts/regular.html "cpp/concepts/regular")
     
     
     template<class T>
     concept regular = semiregular<T> && equality_comparable<T>;
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/concepts&action=edit&section=T-28 "Template:cpp/synopsis/concepts")] Concept [`invocable`](../concepts/invocable.html "cpp/concepts/invocable")
+#### Concept [`invocable`](../concepts/invocable.html "cpp/concepts/invocable")
     
     
     template<class F, class... Args>
@@ -700,33 +700,33 @@ Defined in header [`<compare>`](compare.html#Concept_three_way_comparable "cpp/h
              [std::forward](../utility/forward.html)<Args>(args)...); // not required to be equality-preserving
     };
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/concepts&action=edit&section=T-29 "Template:cpp/synopsis/concepts")] Concept [`regular_invocable`](../concepts/invocable.html "cpp/concepts/invocable")
+#### Concept [`regular_invocable`](../concepts/invocable.html "cpp/concepts/invocable")
     
     
     template<class F, class... Args>
       concept regular_invocable = invocable<F, Args...>;
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/concepts&action=edit&section=T-30 "Template:cpp/synopsis/concepts")] Concept [`predicate`](../concepts/predicate.html "cpp/concepts/predicate")
+#### Concept [`predicate`](../concepts/predicate.html "cpp/concepts/predicate")
     
     
     template<class F, class... Args>
     concept predicate =
       regular_invocable<F, Args...> && [boolean-testable](../concepts/boolean-testable.html)<invoke_result_t<F, Args...>>;
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/concepts&action=edit&section=T-31 "Template:cpp/synopsis/concepts")] Concept [`relation`](../concepts/relation.html "cpp/concepts/relation")
+#### Concept [`relation`](../concepts/relation.html "cpp/concepts/relation")
     
     
     template<class R, class T, class U>
     concept relation =
       predicate<R, T, T> && predicate<R, U, U> && predicate<R, T, U> && predicate<R, U, T>;
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/concepts&action=edit&section=T-32 "Template:cpp/synopsis/concepts")] Concept [`equivalence_relation`](../concepts/equivalence_relation.html "cpp/concepts/equivalence relation")
+#### Concept [`equivalence_relation`](../concepts/equivalence_relation.html "cpp/concepts/equivalence relation")
     
     
     template<class R, class T, class U>
     concept equivalence_relation = relation<R, T, U>;
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/concepts&action=edit&section=T-33 "Template:cpp/synopsis/concepts")] Concept [`strict_weak_order`](../concepts/strict_weak_order.html "cpp/concepts/strict weak order")
+#### Concept [`strict_weak_order`](../concepts/strict_weak_order.html "cpp/concepts/strict weak order")
     
     
     template<class R, class T, class U>

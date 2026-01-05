@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Extensions for parallelism v2](../parallelism_2.html "cpp/experimental/parallelism 2")
 
@@ -92,7 +92,7 @@ Task blocks
 [define_task_blockdefine_task_block_restore_thread](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/define_task_block&action=edit&redlink=1 "cpp/experimental/define task block \(page does not exist\)")  
 [Data-parallel vectors](../simd.html "cpp/experimental/simd")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/parallelism_2/navbar_content&action=edit)
+
 
 [SIMD library](../simd.html "cpp/experimental/simd")
 
@@ -186,7 +186,7 @@ Task blocks
   
 [Math functions](../simd.html#Math_functions "cpp/experimental/simd")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/simd/navbar_content&action=edit)
+
 
 **`std::experimental::simd`**
 
@@ -225,7 +225,7 @@ Non-member functions
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/simd/simd/navbar_content&action=edit)
+
 
 Defined in header `[<experimental/simd>](../../header/experimental/simd.html "cpp/header/experimental/simd")` |  |   
 ---|---|---  
@@ -250,13 +250,13 @@ An ABI tag is a type in the `simd_abi` namespace that indicates a choice of size
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/simd/simd&action=edit&section=1 "Edit section: Template parameters")] Template parameters
+### Template parameters
 
 T  |  \-  |  element type; an arithmetic type other than bool  
 ---|---|---  
 Abi  |  \-  |  tag type used to determine the number of elements and storage   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/simd/simd&action=edit&section=2 "Edit section: Helper alias templates")] Helper alias templates
+### Helper alias templates
 
 template< class T, int N >  
 using fixed_size_simd = std::experimental::simd<T, std::experimental::simd_abi::fixed_size<N>>; |  |   
@@ -265,7 +265,7 @@ template< class T >
 using native_simd = std::experimental::simd<T, std::experimental::simd_abi::native<T>>; |  |   
 | |   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/simd/simd&action=edit&section=3 "Edit section: Member types")] Member types
+### Member types
 
 Member type  |  Definition   
 ---|---  
@@ -274,44 +274,44 @@ Member type  |  Definition
 `mask_type` |  simd_mask<T, Abi>  
 `abi_type` |  Abi  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/simd/simd&action=edit&section=4 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](simd/simd.html "cpp/experimental/simd/simd/simd")(parallelism TS v2) |  constructs a **`simd`** object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/simd/simd/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ copy_from](simd/copy_from.html "cpp/experimental/simd/simd/copy from")(parallelism TS v2) |  loads **`simd`** elements from contiguous memory   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/simd/simd/dsc_copy_from&action=edit)  
+(public member function)   
 [ copy_to](simd/copy_to.html "cpp/experimental/simd/simd/copy to")(parallelism TS v2) |  stores **`simd`** elements to contiguous memory   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/simd/simd/dsc_copy_to&action=edit)  
+(public member function)   
 [ operator[]](simd/operator_at.html "cpp/experimental/simd/simd/operator at")(parallelism TS v2) |  accesses specified element   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/simd/simd/dsc_operator_at&action=edit)  
+(public member function)   
 [ operator++  operator--](simd/operator_mem_arith.html "cpp/experimental/simd/simd/operator mem arith")(parallelism TS v2) |  element-wise increment and decrement   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/simd/simd/dsc_operator_mem_arith&action=edit)  
+(public member function)   
 [ operator!  operator~  operator+  operator-](simd/operator_mem_arith2.html "cpp/experimental/simd/simd/operator mem arith2")(parallelism TS v2) |  element-wise unary operators   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/simd/simd/dsc_operator_mem_arith2&action=edit)  
+(public member function)   
 [ size](simd/size.html "cpp/experimental/simd/simd/size")[static] (parallelism TS v2) |  returns the width / number of elements   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/simd/simd/dsc_size&action=edit)  
+(public static member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/simd/simd&action=edit&section=5 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ operator+  operator-  operator*  operator/  operator%  operator& operator|  operator^  operator<< operator>>](simd/operator_arith.html "cpp/experimental/simd/simd/operator arith")(parallelism TS v2) |  element-wise binary operators   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/simd/simd/dsc_operator_arith&action=edit)  
+(function)   
 ---|---  
 [ operator+=  operator-=  operator*=  operator/=  operator%=  operator&=  operator|=  operator^=  operator<<=  operator>>=](simd/operator_compound.html "cpp/experimental/simd/simd/operator compound")(parallelism TS v2) |  element-wise compound binary operators   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/simd/simd/dsc_operator_compound&action=edit)  
+(function)   
 [ operator==  operator!=  operator>=  operator<=  operator> operator<](simd/operator_cmp.html "cpp/experimental/simd/simd/operator cmp")(parallelism TS v2) |  element-wise relational operators   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/simd/simd/dsc_operator_cmp&action=edit)  
+(function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/simd/simd&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/simd/simd&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ simd_mask](simd_mask.html "cpp/experimental/simd/simd mask")(parallelism TS v2) |  data-parallel type with the element type bool   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/simd/dsc_simd_mask&action=edit)  
+(class template)   
 ---|---  
 [ valarray](../../numeric/valarray.html "cpp/numeric/valarray") |  numeric arrays, array masks and array slices   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/dsc_valarray&action=edit)
+(class template) 

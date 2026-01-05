@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 Defined in header `[<ranges>](../header/ranges.html "cpp/header/ranges")` |  |   
 ---|---|---  
@@ -245,7 +245,7 @@ Given an expression e of type `R`, the expression views::all(e) is [expression-e
 
 2) Calculates the suitable [`view`](view.html "cpp/ranges/view") type of a [`viewable_range`](viewable_range.html "cpp/ranges/viewable range") type.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/all_view&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -289,7 +289,7 @@ Output:
     
     0 1
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/all_view&action=edit&section=2 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -298,12 +298,12 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [LWG 3724](https://cplusplus.github.io/LWG/issue3724) | C++20  | `views::all` might result in hard error for some move-only views  | it gets well-constrained   
 [P2415R2](https://wg21.link/P2415R2) | C++20  | `views::all` returned a `subrange` for a non-[`view`](view.html "cpp/ranges/view") rvalue [`range`](range.html "cpp/ranges/range") | returns an `owning_view` for it   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/all_view&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ ranges::empty_viewviews::empty](empty_view.html "cpp/ranges/empty view")(C++20) |  an empty [`view`](view.html "cpp/ranges/view") with no elements  
-(class template) (variable template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_empty_view&action=edit)  
+(class template) (variable template)  
 ---|---  
 [ ranges::single_viewviews::single](single_view.html "cpp/ranges/single view")(C++20) |  a [`view`](view.html "cpp/ranges/view") that contains a single element of a specified value  
-(class template) (customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_single_view&action=edit)  
+(class template) (customization point object)  
 [ ranges::owning_view](owning_view.html "cpp/ranges/owning view")(C++20) |  a [`view`](view.html "cpp/ranges/view") with unique ownership of some [`range`](range.html "cpp/ranges/range")   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_owning_view&action=edit)
+(class template) 

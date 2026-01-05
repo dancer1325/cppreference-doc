@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [C-style I/O](../c.html "cpp/io/c")
 
@@ -176,7 +176,7 @@ Operations on files
 [tmpfile](tmpfile.html "cpp/io/c/tmpfile")  
 [tmpnam](tmpnam.html "cpp/io/c/tmpnam")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/navbar_content&action=edit)
+
 
 Defined in header `[<cstdio>](../../header/cstdio.html "cpp/header/cstdio")` |  |   
 ---|---|---  
@@ -209,7 +209,7 @@ If a call to `sprintf` or `snprintf` causes copying to take place between object
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/fprintf&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 stream  |  \-  |  output file stream to write to   
 ---|---|---  
@@ -378,7 +378,7 @@ Only available since C++11→  | Yes |  |  |  | Yes | Yes | Yes | Yes |
 Notes  
 The floating-point conversion functions convert infinity to `inf` or `infinity`. Which one is used is implementation defined. Not-a-number is converted to `nan` or `nan(_char_sequence_)`. Which one is used is implementation defined. The conversions `**F**`, `**E**`, `**G**`, `**A**` output `INF`, `INFINITY`, `NAN` instead. The conversion specifier used to print char, unsigned char, signed char, short, and unsigned short expects promoted types of [default argument promotions](../../language/variadic_arguments.html#Default_argument_promotions "cpp/language/variadic arguments"), but before printing its value will be converted to char, unsigned char, signed char, short, and unsigned short. It is safe to pass values of these types because of the promotion that takes place when a variadic function is called. The correct conversion specifications for the fixed-width character types ([std::int8_t](../../types/integer.html "cpp/types/integer"), etc) are defined in the header [`<cinttypes>`](../../header/cinttypes.html "cpp/header/cinttypes") (although [PRIdMAX](../../types/integer.html "cpp/types/integer"), [PRIuMAX](../../types/integer.html "cpp/types/integer"), etc is synonymous with `%jd`, `%ju`, etc). The memory-writing conversion specifier `%n` is a common target of security exploits where format strings depend on user input. There is a [sequence point](../../language/eval_order.html "cpp/language/eval order") after the action of each conversion specifier; this permits storing multiple `%n` results in the same variable or, as an edge case, printing a string modified by an earlier `%n` within the same call. If a conversion specification is invalid, the behavior is undefined.   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/fprintf&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1,2) Number of characters written if successful or a negative value if an error occurred.
 
@@ -386,7 +386,7 @@ The floating-point conversion functions convert infinity to `inf` or `infinity`.
 
 4) Number of characters that would have been written for a sufficiently large buffer if successful (not including the terminating null character), or a negative value if an error occurred. Thus, the (null-terminated) output has been completely written if and only if the returned value is nonnegative and less than buf_size.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/fprintf&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 [POSIX specifies](https://pubs.opengroup.org/onlinepubs/9699919799/functions/fprintf.html) that [errno](../../error/errno.html "cpp/error/errno") is set on error. It also specifies additional conversion specifications, most notably support for argument reordering (n$ immediately after % indicates `n`th argument). 
 
@@ -398,7 +398,7 @@ Calling `std::snprintf` with zero buf_size and null pointer for buffer is useful
     [std::vector](../../container/vector.html)<char> buf(sz + 1); // note +1 for null terminator
     std::sprintf(buf.data(), fmt, [std::sqrt](../../numeric/math/sqrt.html)(2)); // certain to fit
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/fprintf&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -473,22 +473,22 @@ Possible output:
     Fixed-width types:
     	Largest 32-bit value is 4294967295 or 0xffffffff
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/fprintf&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ wprintffwprintfswprintf](fwprintf.html "cpp/io/c/fwprintf") |  prints formatted wide character output to [stdout](std_streams.html "cpp/io/c/std streams"), a file stream or a buffer   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_fwprintf&action=edit)  
+(function)   
 ---|---  
 [ vprintfvfprintfvsprintfvsnprintf](vfprintf.html "cpp/io/c/vfprintf")(C++11) |  prints formatted output to [stdout](std_streams.html "cpp/io/c/std streams"), a file stream or a buffer  
 using variable argument list   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_vfprintf&action=edit)  
+(function)   
 [ fputs](fputs.html "cpp/io/c/fputs") |  writes a character string to a file stream   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_fputs&action=edit)  
+(function)   
 [ scanffscanfsscanf](scanf.html "cpp/io/c/fscanf") |  reads formatted input from [stdin](std_streams.html "cpp/io/c/std streams"), a file stream or a buffer   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_fscanf&action=edit)  
+(function)   
 [ to_chars](../../utility/to_chars.html "cpp/utility/to chars")(C++17) |  converts an integer or floating-point value to a character sequence   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_to_chars&action=edit)  
+(function)   
 [ print](../print.html "cpp/io/print")(C++23) |  prints to [stdout](std_streams.html "cpp/io/c/std streams") or a file stream using [formatted](../../utility/format.html "cpp/utility/format") representation of the arguments   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_print&action=edit)  
+(function template)   
 [ println](../println.html "cpp/io/println")(C++23) |  same as std::print except that each print is terminated by additional new line   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_println&action=edit)  
+(function template)   
 [C documentation](../../../c/io/fprintf.html "c/io/fprintf") for printf, fprintf, sprintf, snprintf

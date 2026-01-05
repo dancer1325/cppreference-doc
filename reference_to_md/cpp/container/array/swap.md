@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -71,7 +71,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::array`](../array.html "cpp/container/array")
 
@@ -127,7 +127,7 @@ Tables
 [tuple_element<std::array>](tuple_element.html "cpp/container/array/tuple element")  
 [Deduction guides](deduction_guides.html "cpp/container/array/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/array/navbar_content&action=edit)
+
 
 void swap( array& other ) noexcept(/* see below */); |  |  (since C++11)   
 (constexpr since C++20)  
@@ -149,16 +149,16 @@ Exchanges the contents of the container with those of other. Does not cause iter
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/array/swap&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 other  |  \-  |  container to exchange the contents with   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/array/swap&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/array/swap&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 [`noexcept`](../../language/noexcept_spec.html "cpp/language/noexcept spec") specification: noexcept(noexcept(swap([std::declval](../../utility/declval.html)<T&>(), [std::declval](../../utility/declval.html)<T&>()))) In the expression above, the identifier `swap` is looked up in the same manner as the one used by the C++17 [std::is_nothrow_swappable](../../types/is_swappable.html "cpp/types/is swappable") trait.  | (until C++17)  
 ---|---  
@@ -169,11 +169,11 @@ For zero-sized arrays,
 
 noexcept
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/array/swap&action=edit&section=4 "Edit section: Complexity")] Complexity
+### Complexity
 
 Linear in size of the container. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/array/swap&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -212,7 +212,7 @@ Output:
     { 1 2 3 } { 4 5 6 } 1 4 2 5
     { 4 5 6 } { 1 2 3 } 4 1 5 2
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/array/swap&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -220,8 +220,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 2456](https://cplusplus.github.io/LWG/issue2456) | C++11  | the `noexcept` specification is ill-formed  | made to work   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/array/swap&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ std::swap(std::array)](swap2.html "cpp/container/array/swap2")(C++11) |  specializes the [std::swap](../../utility/swap.html "cpp/algorithm/swap") algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_swap2&action=edit)  
+(function template)   
 ---|---

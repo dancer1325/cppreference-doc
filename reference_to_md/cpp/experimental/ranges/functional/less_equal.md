@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Ranges](../../ranges.html "cpp/experimental/ranges")
 
@@ -66,7 +66,7 @@
 [Ranges](../../ranges.html#Ranges "cpp/experimental/ranges")  
 [Algorithms](../../ranges.html#Algorithms "cpp/experimental/ranges")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/navbar_content&action=edit)
+
 
 [General utilities library](../../ranges.html#General_utilities "cpp/experimental/ranges")
 
@@ -125,7 +125,7 @@ Tagged pairs and tuples
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/utility/navbar_content&action=edit)
+
 
 Defined in header `[<experimental/ranges/functional>](../../../header/experimental/ranges/functional.html "cpp/header/experimental/ranges/functional")` |  |   
 ---|---|---  
@@ -154,13 +154,13 @@ All specializations of `less_equal` are [`Semiregular`](../concepts/Semiregular.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/functional/less_equal&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Member type  |  Definition   
 ---|---  
 `is_transparent` (member only of `less_equal<void>` specialization) |  /* unspecified */   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/functional/less_equal&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 operator() |  checks if the first argument is _less_ than or _equal_ to the second   
 (public member function)  
@@ -181,18 +181,18 @@ constexpr bool operator()(T&& t, U&& u) const; |  (2)  |  (member only of `less_
 
 2) Compares `t` and `u`. Equivalent to return ![ranges::less](http://en.cppreference.com/w/cpp/ranges-functional-placeholder/less)<>{}([std::forward](../../../utility/forward.html)<U>(u), [std::forward](../../../utility/forward.html)<T>(t));. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/functional/less_equal&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Unlike [std::less_equal](../../../utility/functional/less_equal.html "cpp/utility/functional/less equal"), `ranges::less_equal` requires all six comparison operators `<`, `<=`, `>`, `>=`, `==` and `!=` to be valid (via the [`StrictTotallyOrdered`](../concepts/StrictTotallyOrdered.html "cpp/experimental/ranges/concepts/StrictTotallyOrdered") and [`StrictTotallyOrderedWith`](../concepts/StrictTotallyOrdered.html "cpp/experimental/ranges/concepts/StrictTotallyOrdered") constraints) and is entirely defined in terms of ranges::less. However, the implementation is free to use operator<= directly, because those concepts require the results of the comparison operators to be consistent. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/functional/less_equal&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/functional/less_equal&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ less_equal](../../../utility/functional/less_equal.html "cpp/utility/functional/less equal") |  function object implementing x <= y   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_less_equal&action=edit)  
+(class template)   
 ---|---

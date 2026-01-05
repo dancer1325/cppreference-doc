@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 Defined in header `[<memory>](../../header/memory.html "cpp/header/memory")` |  |   
 ---|---|---  
@@ -214,12 +214,12 @@ The function-like entities described on this page are [_algorithm function objec
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/ranges/destroy_at&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 p  |  \-  |  a pointer to the object to be destroyed   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/ranges/destroy_at&action=edit&section=2 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     struct destroy_at_fn
@@ -239,13 +239,13 @@ p  |  \-  |  a pointer to the object to be destroyed
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/ranges/destroy_at&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 `destroy_at` deduces the type of object to be destroyed and hence avoids writing it explicitly in the destructor call. 
 
 When `destroy_at` is called in the evaluation of some [constant expression](../../language/constant_expression.html "cpp/language/constant expression") e, the argument p must point to an object whose lifetime began within the evaluation of e. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/ranges/destroy_at&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 The following example demonstrates how to use `ranges::destroy_at` to destroy a contiguous sequence of elements.
 
@@ -287,14 +287,14 @@ Output:
     6 destructed
     7 destructed
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/ranges/destroy_at&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ ranges::destroy](destroy.html "cpp/memory/ranges/destroy")(C++20) |  destroys a range of objects  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/ranges/dsc_destroy&action=edit)  
+(algorithm function object)  
 ---|---  
 [ ranges::destroy_n](destroy_n.html "cpp/memory/ranges/destroy n")(C++20) |  destroys a number of objects in a range  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/ranges/dsc_destroy_n&action=edit)  
+(algorithm function object)  
 [ ranges::construct_at](construct_at.html "cpp/memory/ranges/construct at")(C++20) |  creates an object at a given address  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/ranges/dsc_construct_at&action=edit)  
+(algorithm function object)  
 [ destroy_at](../destroy_at.html "cpp/memory/destroy at")(C++17) |  destroys an object at a given address   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_destroy_at&action=edit)
+(function template) 

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Filesystem library](../../filesystem.html "cpp/filesystem")
 
@@ -100,7 +100,7 @@ filesystem::symlink_status](../status.html "cpp/filesystem/status")
 [filesystem::is_socket](../is_socket.html "cpp/filesystem/is socket")  
 [filesystem::is_symlink](../is_symlink.html "cpp/filesystem/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/navbar_content&action=edit)
+
 
 [`std::filesystem::path`](../path.html "cpp/filesystem/path")
 
@@ -169,7 +169,7 @@ filesystem::symlink_status](../status.html "cpp/filesystem/status")
 | [formatter<std::filesystem::path>](formatter.html "cpp/filesystem/path/formatter")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/path/navbar_content&action=edit)
+
 
 friend path operator/( const path& lhs, const path& rhs ); |  |  (since C++17)  
 ---|---|---  
@@ -192,16 +192,16 @@ This function is not visible to ordinary [unqualified](../../language/unqualifie
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/operator_slash&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 lhs, rhs  |  \-  |  paths to concatenate   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/operator_slash&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The result of path concatenation. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/operator_slash&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -235,7 +235,7 @@ Possible output:
     Linux etc specific output:
     "/home" / "tux" / ".fonts" == "/home/tux/.fonts"
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/operator_slash&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -243,8 +243,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 3065](https://cplusplus.github.io/LWG/issue3065) | C++17  | allowed concatenating everything convertible to `path` in the presence of a _using-directive_ | made hidden friend   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/operator_slash&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ appendoperator/=](append.html "cpp/filesystem/path/append") |  appends elements to the path with a directory separator   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/path/dsc_append&action=edit)  
+(public member function)   
 ---|---

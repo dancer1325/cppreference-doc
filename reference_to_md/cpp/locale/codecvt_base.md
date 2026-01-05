@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Localization library](../locale.html "cpp/locale")
 
@@ -152,7 +152,7 @@ base classes](../locale.html#Facet_category_base_classes "cpp/locale")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/navbar_content&action=edit)
+
 
 Defined in header `[<locale>](../header/locale.html "cpp/header/locale")` |  |   
 ---|---|---  
@@ -161,7 +161,7 @@ class codecvt_base; |  |
   
 The class **std::codecvt_base** provides the conversion status constants which are inherited and used by the [std::codecvt](codecvt.html "cpp/locale/codecvt") facets. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/codecvt_base&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Member type  |  Definition   
 ---|---  
@@ -173,12 +173,12 @@ Value  |  Explanation
 `error` |  encountered an invalid character   
 `noconv` |  no conversion required, input and output types are the same   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/codecvt_base&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 The value **std::codecvt_base::partial** is used to indicate that either the destination range is too short to receive the results of the conversion or the input is truncated in the middle of an otherwise valid multibyte character. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/codecvt_base&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ codecvt](codecvt.html "cpp/locale/codecvt") |  converts between character encodings, including UTF-8, UTF-16, UTF-32   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_codecvt&action=edit)  
+(class template)   
 ---|---

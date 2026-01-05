@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Strings library](../../string.html "cpp/string")
 
@@ -40,7 +40,7 @@ Classes
 [basic_string_view](../basic_string_view.html "cpp/string/basic string view")(C++17)  
 [char_traits](../char_traits.html "cpp/string/char traits")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/navbar_content&action=edit)
+
 
 [`std::char_traits`](../char_traits.html "cpp/string/char traits")
 
@@ -59,7 +59,7 @@ Member functions
 [char_traits::eof](eof.html "cpp/string/char traits/eof")  
 [char_traits::not_eof](not_eof.html "cpp/string/char traits/not eof")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/char_traits/navbar_content&action=edit)
+
 
 static int compare( const char_type* s1, const char_type* s2,  
 [std::size_t](../../types/size_t.html) count ); |  |  (constexpr since C++17)  
@@ -72,13 +72,13 @@ If count is zero, strings are considered equal.
 
 See [CharTraits](../../named_req/CharTraits.html "cpp/named req/CharTraits") for the general requirements on character traits for `X::compare`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/char_traits/compare&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 s1, s2  |  \-  |  pointers to character strings to compare   
 ---|---|---  
 count  |  \-  |  the number of characters to compare from each character string   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/char_traits/compare&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Negative value if s1 is _less than_ s2. 
 
@@ -86,6 +86,6 @@ Negative value if s1 is _less than_ s2.
 
 Positive value if s1 is _greater than_ s2. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/char_traits/compare&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Linear in count. 

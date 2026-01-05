@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Extensions for concurrency](../concurrency.html "cpp/experimental/concurrency")
 
@@ -75,7 +75,7 @@ Atomic smart pointers
 [experimental::atomic_shared_ptr](../atomic_shared_ptr.html "cpp/experimental/atomic shared ptr")  
 [experimental::atomic_weak_ptr](../atomic_weak_ptr.html "cpp/experimental/atomic weak ptr")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/concurrency/navbar_content&action=edit)
+
 
 [`std::experimental::shared_future`](../shared_future.html "cpp/experimental/shared future")
 
@@ -85,7 +85,7 @@ Atomic smart pointers
 [shared_future::is_ready](is_ready.html "cpp/experimental/shared future/is ready")  
 [shared_future::then](then.html "cpp/experimental/shared future/then")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/concurrency/shared_future/navbar_content&action=edit)
+
 
 [std::experimental::shared_future](../shared_future.html)<T>& operator=( const [std::experimental::shared_future](../shared_future.html)<T>& other ); |  (1)  |   
 ---|---|---  
@@ -98,11 +98,11 @@ Assigns the contents of another `std::experimental::shared_future` object.
 
 2) Releases any shared state and move-assigns the contents of other to *this. After the assignment, other.valid() == false and this->valid() will yield the same value as other.valid() before the assignment.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/shared_future/operator%3D&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 other  |  \-  |  a `std::experimental::shared_future` object to assign from   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/shared_future/operator%3D&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 *this

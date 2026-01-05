@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 Defined in header `[<atomic>](../header/atomic.html "cpp/header/atomic")` |  |   
 ---|---|---  
@@ -208,18 +208,18 @@ typename [std::atomic](atomic.html)<T>::value_type desired,
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_exchange&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 obj  |  \-  |  pointer to the atomic object to modify   
 ---|---|---  
 desired  |  \-  |  the value to store in the atomic object   
 order  |  \-  |  the memory synchronization ordering   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_exchange&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The value held previously by the atomic object pointed to by obj. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_exchange&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 A spinlock mutex can be implemented in userspace using an atomic exchange operation, similar to [std::atomic_flag_test_and_set](atomic_flag_test_and_set.html):
 
@@ -270,7 +270,7 @@ Possible output:
     66666666666666666666666666666666666666666666666666666666666677777777777777777777
     77777777777777777777777777777777777777777777777777777777777777777777777777777777
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_exchange&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -280,13 +280,13 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 `T` was deduced from multiple arguments  | `T` is only deduced  
 from obj  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_exchange&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ exchange](atomic/exchange.html "cpp/atomic/atomic/exchange") |  atomically replaces the value of the atomic object and obtains the value held previously   
-(public member function of `std::atomic<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_exchange&action=edit)  
+(public member function of `std::atomic<T>`)   
 ---|---  
 [ atomic_compare_exchange_weakatomic_compare_exchange_weak_explicitatomic_compare_exchange_strongatomic_compare_exchange_strong_explicit](atomic_compare_exchange.html "cpp/atomic/atomic compare exchange")(C++11)(C++11)(C++11)(C++11) |  atomically compares the value of the atomic object with non-atomic argument and performs atomic exchange if equal or atomic load if not   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/dsc_atomic_compare_exchange&action=edit)  
+(function template)   
 [ std::atomic_exchange(std::shared_ptr) std::atomic_exchange_explicit(std::shared_ptr)](../memory/shared_ptr/atomic.html "cpp/memory/shared ptr/atomic")(deprecated in C++20)(removed in C++26) |  specializes atomic operations for [std::shared_ptr](../memory/shared_ptr.html "cpp/memory/shared ptr")   
 (function template)  
 ---|---  

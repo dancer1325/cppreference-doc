@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Diagnostics library](../error.html "cpp/error")
 
@@ -89,7 +89,7 @@ Exception handling failures
 [breakpoint_if_debugging](../utility/breakpoint_if_debugging.html "cpp/utility/breakpoint if debugging")(C++26)  
 [breakpoint](../utility/breakpoint.html "cpp/utility/breakpoint")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/navbar_content&action=edit)
+
 
 Defined in header `[<exception>](../header/exception.html "cpp/header/exception")` |  |   
 ---|---|---  
@@ -110,24 +110,24 @@ This function is thread-safe. Prior call to [std::set_terminate](set_terminate.h
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/get_terminate&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/get_terminate&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The currently installed [std::terminate_handler](terminate_handler.html "cpp/error/terminate handler"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/get_terminate&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/get_terminate&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ terminate_handler](terminate_handler.html "cpp/error/terminate handler") |  the type of the function called by [std::terminate](terminate.html "cpp/error/terminate")   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_terminate_handler&action=edit)  
+(typedef)   
 ---|---  
 [ set_terminate](set_terminate.html "cpp/error/set terminate") |  changes the function to be called by [std::terminate](terminate.html "cpp/error/terminate")   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_set_terminate&action=edit)
+(function) 

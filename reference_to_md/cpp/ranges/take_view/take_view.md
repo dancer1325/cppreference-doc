@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::take_view`](../take_view.html "cpp/ranges/take view")
 
@@ -244,7 +244,7 @@ Non-member functions
 [take_view::_sentinel_ ::base](sentinel/base.html "cpp/ranges/take view/sentinel/base")  
 [operator==(std::counted_iterator,take_view::_sentinel_)](sentinel/operator_cmp.html "cpp/ranges/take view/sentinel/operator cmp")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/take_view/navbar_content&action=edit)
+
 
 take_view() requires [std::default_initializable](../../concepts/default_initializable.html)<V> = default; |  (1)  |  (since C++20)  
 ---|---|---  
@@ -257,13 +257,13 @@ Constructs a `take_view`.
 
 2) Initializes the underlying view `_base__` with std::move(base) and the `_count__` with count. After construction, [`base()`](base.html "cpp/ranges/take view/base") returns a copy of base and [`size()`](size.html "cpp/ranges/take view/size") returns the smaller of count and [ranges::size](../size.html)(base).
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/take_view/take_view&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 base  |  \-  |  the underlying view   
 ---|---|---  
 count  |  \-  |  number of elements to take   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/take_view/take_view&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Prints first n prime numbers that are generated using [Sieve of Eratosthenes](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes "enwiki:Sieve of Eratosthenes") method.
 
@@ -334,7 +334,7 @@ Output:
     109 113 127 131 137 139 149
     151 157 163 167 173 179 181
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/take_view/take_view&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

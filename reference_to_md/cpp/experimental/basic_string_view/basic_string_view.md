@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Library fundamentals](../memory.html "cpp/experimental/lib extensions")
 
@@ -75,7 +75,7 @@
 [Type-erased and polymorphic allocators](../memory.html "cpp/experimental/memory")  
 [Variable templates for type traits](../type_trait_variable_templates.html "cpp/experimental/type trait variable templates")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions/navbar_content&action=edit)
+
 
 [`std::experimental::basic_string_view`](../basic_string_view.html "cpp/experimental/basic string view")
 
@@ -123,7 +123,7 @@ Non-member functions
 Helper classes  
 [hash<std::string_view>hash<std::wstring_view>hash<std::u16string_view>hash<std::u32string_view>](hash.html "cpp/experimental/basic string view/hash")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/basic_string_view/navbar_content&action=edit)
+
 
 constexpr basic_string_view() noexcept; |  (1)  |  (library fundamentals TS)  
 ---|---|---  
@@ -155,7 +155,7 @@ constexpr basic_string_view( const CharT* s ); |  (5)  |  (library fundamentals 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/basic_string_view/basic_string_view&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 other  |  \-  |  another view to initialize the view with   
 ---|---|---  
@@ -163,17 +163,17 @@ str  |  \-  |  a C++ string object to initialize view with
 s  |  \-  |  pointer to a character array or a C string to initialize the view with   
 count  |  \-  |  number of characters to include in the view   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/basic_string_view/basic_string_view&action=edit&section=2 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 4,5) Throws nothing.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/basic_string_view/basic_string_view&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 1-4) Constant.
 
 5) Linear in length of s.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/basic_string_view/basic_string_view&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -203,8 +203,8 @@ Output:
     Bar
     5
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/basic_string_view/basic_string_view&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ operator=](operator=.html "cpp/experimental/basic string view/operator=") |  assigns a view   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/basic_string_view/dsc_operator%3D&action=edit)  
+(public member function)   
 ---|---

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::ios_base`](../ios_base.html "cpp/io/ios base")
 
@@ -113,7 +113,7 @@ Member types
 [ios_base::event](event.html "cpp/io/ios base/event")  
 [ios_base::event_callback](event_callback.html "cpp/io/ios base/event callback")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/ios_base/navbar_content&action=edit)
+
 
 static bool sync_with_stdio( bool sync = true ); |  |   
 ---|---|---  
@@ -154,16 +154,16 @@ If this function is called after I/O has occurred on the standard stream, the be
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/ios_base/sync_with_stdio&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 sync  |  \-  |  the new synchronization setting   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/ios_base/sync_with_stdio&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Synchronization state before the call to the function. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/ios_base/sync_with_stdio&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -186,7 +186,7 @@ Possible output:
     a
     c
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/ios_base/sync_with_stdio&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -195,12 +195,12 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [LWG 49](https://cplusplus.github.io/LWG/issue49) | C++98  | it was unspecified (1) which state is actually returned and  
 (2) what does 'synchronized' between standard C and C++ streams mean  | both specified   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/ios_base/sync_with_stdio&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ coutwcout](../cout.html "cpp/io/cout") |  writes to the standard C output stream [stdout](../c/std_streams.html "cpp/io/c/std streams")  
-(global object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_cout&action=edit)  
+(global object)  
 ---|---  
 [ cerrwcerr](../cerr.html "cpp/io/cerr") |  writes to the standard C error stream [stderr](../c/std_streams.html "cpp/io/c/std streams"), unbuffered  
-(global object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_cerr&action=edit)  
+(global object)  
 [ clogwclog](../clog.html "cpp/io/clog") |  writes to the standard C error stream [stderr](../c/std_streams.html "cpp/io/c/std streams")  
-(global object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_clog&action=edit)
+(global object)

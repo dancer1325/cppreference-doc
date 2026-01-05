@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [`std::complex`](../complex.html "cpp/numeric/complex")
 
@@ -164,7 +164,7 @@
 [tuple_size<std::complex>](tuple_size.html "cpp/numeric/complex/tuple size")(C++26)  
 [tuple_element<std::complex>](tuple_element.html "cpp/numeric/complex/tuple element")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/navbar_content&action=edit)
+
 
 Defined in header `[<complex>](../../header/complex.html "cpp/header/complex")` |  |   
 ---|---|---  
@@ -202,30 +202,30 @@ If an error occurs calls is.setstate(ios_base::failbit).
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/operator_ltltgtgt&action=edit&section=1 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 May throw [std::ios_base::failure](../../io/ios_base/failure.html "cpp/io/ios base/failure") on stream errors. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/operator_ltltgtgt&action=edit&section=2 "Edit section: Parameters")] Parameters
+### Parameters
 
 os  |  \-  |  a character output stream   
 ---|---|---  
 is  |  \-  |  a character input stream   
 x  |  \-  |  the complex number to be inserted or extracted   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/operator_ltltgtgt&action=edit&section=3 "Edit section: Return value")] Return value
+### Return value
 
 1) os
 
 2) is
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/operator_ltltgtgt&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 1) As the comma may be used in the current locale as decimal separator, the output may be ambiguous. This can be solved with [std::showpoint](../../io/manip/showpoint.html "cpp/io/manip/showpoint") which forces the decimal separator to be visible.
 
 2) The input is performed as a series of simple formatted extractions. Whitespace skipping is the same for each of them.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/operator_ltltgtgt&action=edit&section=5 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     template<class T, class CharT, class Traits>
@@ -242,7 +242,7 @@ x  |  \-  |  the complex number to be inserted or extracted
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/operator_ltltgtgt&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     

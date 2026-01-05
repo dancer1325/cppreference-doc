@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Function objects](../../../functional.html "cpp/utility/functional")
 
@@ -255,7 +255,7 @@ Identity function object
 [unary_negate](../unary_negate.html "cpp/utility/functional/unary negate")(until C++20*)  
 [binary_negate](../binary_negate.html "cpp/utility/functional/binary negate")(until C++20*)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/navbar_content&action=edit)
+
 
 [`std::copyable_function`](../copyable_function.html "cpp/utility/functional/copyable function")
 
@@ -271,7 +271,7 @@ Identity function object
 [operator==](operator==.html "cpp/utility/functional/copyable function/operator==")  
 [swap(std::copyable_function)](swap2.html "cpp/utility/functional/copyable function/swap2")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/copyable_function/navbar_content&action=edit)
+
 
 void swap( copyable_function& other ) noexcept; |  |  (since C++26)  
 ---|---|---  
@@ -279,19 +279,19 @@ void swap( copyable_function& other ) noexcept; |  |  (since C++26)
   
 Exchanges the stored callable objects of *this and `other`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/copyable_function/swap&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 other  |  \-  |  function wrapper to exchange the stored callable object with   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/copyable_function/swap&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/copyable_function/swap&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ swap](../function/swap.html "cpp/utility/functional/function/swap") |  swaps the contents   
-(public member function of `std::function<R(Args...)>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/function/dsc_swap&action=edit)  
+(public member function of `std::function<R(Args...)>`)   
 ---|---  
 [ swap](../move_only_function/swap.html "cpp/utility/functional/move only function/swap") |  swaps the targets of two `std::move_only_function` objects   
-(public member function of `std::move_only_function`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/move_only_function/dsc_swap&action=edit)
+(public member function of `std::move_only_function`) 

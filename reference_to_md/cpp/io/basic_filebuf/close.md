@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_filebuf`](../basic_filebuf.html "cpp/io/basic filebuf")
 
@@ -105,7 +105,7 @@ Protected member functions
 Non-member functions  
 [swap(std::basic_filebuf)](swap2.html "cpp/io/basic filebuf/swap2")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_filebuf/navbar_content&action=edit)
+
 
 [std::basic_filebuf](../basic_filebuf.html)<CharT, Traits>* close(); |  |   
 ---|---|---  
@@ -133,25 +133,25 @@ In any case, updates the private member variable that is accessed by [is_open()]
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_filebuf/close&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_filebuf/close&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 this on success, a null pointer on failure. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_filebuf/close&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 `close()` is typically called through the destructor of [std::basic_filebuf](../basic_filebuf.html "cpp/io/basic filebuf") (which, in turn, is typically called by the destructor of [std::basic_fstream](../basic_fstream.html "cpp/io/basic fstream"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_filebuf/close&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_filebuf/close&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -161,10 +161,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [LWG 622](https://cplusplus.github.io/LWG/issue622) | C++98  | it was unclear how to handle the  
 exception thrown during closing  | it is rethrown after closing the file   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_filebuf/close&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ is_open](is_open.html "cpp/io/basic filebuf/is open") |  checks if the associated file is open   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_filebuf/dsc_is_open&action=edit)  
+(public member function)   
 ---|---  
 [ (destructor)](~basic_filebuf.html "cpp/io/basic filebuf/~basic filebuf")[virtual] |  destructs a `basic_filebuf` object and closes the file if it is open   
-(virtual public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_filebuf/dsc_%7Ebasic_filebuf&action=edit)
+(virtual public member function) 

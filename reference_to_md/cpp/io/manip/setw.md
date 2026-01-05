@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [Input/output manipulators](../manip.html "cpp/io/manip")
 
@@ -154,7 +154,7 @@ Time and money I/O
 Quoted manipulator  
 [quoted](quoted.html "cpp/io/manip/quoted")(C++14)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/navbar_content&action=edit)
+
 
 Defined in header `[<iomanip>](../../header/iomanip.html "cpp/header/iomanip")` |  |   
 ---|---|---  
@@ -177,12 +177,12 @@ Some operations reset the width to zero (see [below](setw.html#Notes)), so `std:
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/setw&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 n  |  \-  |  new value for width   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/setw&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 An object of unspecified type such that 
 
@@ -206,7 +206,7 @@ where the function f is defined as:
         str.width(n);
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/setw&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 The width property of the stream will be reset to zero (meaning "unspecified") if any of the following functions are called: 
 
@@ -237,7 +237,7 @@ The width property of the stream will be reset to zero (meaning "unspecified") i
 
 The exact effects this modifier has on the input and output vary between the individual I/O functions and are described at each operator<< and operator>> overload page individually. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/setw&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -270,7 +270,7 @@ Output:
     setw(6), several elements: [89    1234]
     Input from "hello, world" with setw(6) gave "hello"
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/setw&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -280,14 +280,14 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 type [std::ostream](../basic_ostream.html "cpp/io/basic ostream") or [std::istream](../basic_istream.html "cpp/io/basic istream") | usable with any  
 character stream   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/setw&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ width](../ios_base/width.html "cpp/io/ios base/width") |  manages field width   
-(public member function of `std::ios_base`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/ios_base/dsc_width&action=edit)  
+(public member function of `std::ios_base`)   
 ---|---  
 [ setfill](setfill.html "cpp/io/manip/setfill") |  changes the fill character   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_setfill&action=edit)  
+(function template)   
 [ internalleftright](left.html "cpp/io/manip/left") |  sets the placement of fill characters   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_left&action=edit)  
+(function)   
 [ showbasenoshowbase](showbase.html "cpp/io/manip/showbase") |  controls whether prefix is used to indicate numeric base   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_showbase&action=edit)
+(function) 

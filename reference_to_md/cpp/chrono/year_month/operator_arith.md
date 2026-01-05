@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -103,7 +103,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::year_month`](../year_month.html "cpp/chrono/year month")
 
@@ -122,7 +122,7 @@ Helper classes
 [formatter<std::chrono::year_month>](formatter.html "cpp/chrono/year month/formatter")  
 [hash<std::chrono::year_month>](hash.html "cpp/chrono/year month/hash")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/year_month/navbar_content&action=edit)
+
 
 constexpr [std::chrono::year_month](../year_month.html)&  
 operator+=( const [std::chrono::years](../duration.html)& dy ) const noexcept; |  (1)  |  (since C++20)  
@@ -147,7 +147,7 @@ Modifies the time point *this represents by the duration dy or dm.
 
 For durations that are convertible to both std::chrono::years and std::chrono::months, the `years` overloads (1,3) are preferred if the call would otherwise be ambiguous. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/year_month/operator_arith&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -168,8 +168,8 @@ Run this code
         [assert](../../error/assert.html)(ym.year() == [std::chrono::year](../year.html)(2022));
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/year_month/operator_arith&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ operator+operator-](operator_arith_2.html "cpp/chrono/year month/operator arith 2")(C++20) |  performs arithmetic on `year_month`   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/year_month/dsc_operator_arith_2&action=edit)  
+(function)   
 ---|---

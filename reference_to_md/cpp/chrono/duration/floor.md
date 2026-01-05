@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::duration`](../duration.html "cpp/chrono/duration")
 
@@ -156,7 +156,7 @@ Helper classes
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/duration/navbar_content&action=edit)
+
 
 Defined in header `[<chrono>](../../header/chrono.html "cpp/header/chrono")` |  |   
 ---|---|---  
@@ -179,16 +179,16 @@ The function does not participate in the overload resolution unless `ToDuration`
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/duration/floor&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 d  |  \-  |  duration to convert   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/duration/floor&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 d rounded down to a duration of type `ToDuration`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/duration/floor&action=edit&section=3 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     namespace detail
@@ -210,7 +210,7 @@ d rounded down to a duration of type `ToDuration`.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/duration/floor&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -249,16 +249,16 @@ Output:
     -5500ms		-6s	-6s	-5s
     -5999ms		-6s	-6s	-5s
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/duration/floor&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ duration_cast](duration_cast.html "cpp/chrono/duration/duration cast")(C++11) |  converts a duration to another, with a different tick interval   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/duration/dsc_duration_cast&action=edit)  
+(function template)   
 ---|---  
 [ ceil(std::chrono::duration)](ceil.html "cpp/chrono/duration/ceil")(C++17) |  converts a duration to another, rounding up   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/duration/dsc_ceil&action=edit)  
+(function template)   
 [ round(std::chrono::duration)](round.html "cpp/chrono/duration/round")(C++17) |  converts a duration to another, rounding to nearest, ties to even   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/duration/dsc_round&action=edit)  
+(function template)   
 [ floor(std::chrono::time_point)](../time_point/floor.html "cpp/chrono/time point/floor")(C++17) |  converts a time_point to another, rounding down   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_point/dsc_floor&action=edit)  
+(function template)   
 [ floorfloorffloorl](../../numeric/math/floor.html "cpp/numeric/math/floor")(C++11)(C++11) |  nearest integer not greater than the given value   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_floor&action=edit)
+(function) 

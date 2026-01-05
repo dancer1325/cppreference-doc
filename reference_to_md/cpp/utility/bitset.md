@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 **`std::bitset`**
 
@@ -167,7 +167,7 @@ Common vocabulary types
 [Helper classes](bitset.html#Helper_classes "cpp/utility/bitset")  
 [std::hash](bitset/hash.html "cpp/utility/bitset/hash")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/bitset/navbar_content&action=edit)
+
 
 Defined in header `[<bitset>](../header/bitset.html "cpp/header/bitset")` |  |   
 ---|---|---  
@@ -200,78 +200,78 @@ All member functions of `std::bitset` are constexpr: it is possible to create an
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/bitset&action=edit&section=1 "Edit section: Template parameters")] Template parameters
+### Template parameters
 
 N  |  \-  |  the number of bits to allocate storage for   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/bitset&action=edit&section=2 "Edit section: Member types")] Member types
+### Member types
 
 [ reference](bitset/reference.html "cpp/utility/bitset/reference") |  proxy class representing a reference to a bit   
 (class)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/bitset&action=edit&section=3 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](bitset/bitset.html "cpp/utility/bitset/bitset") |  constructs the bitset   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/bitset/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ operator==operator!=](bitset/operator_cmp.html "cpp/utility/bitset/operator cmp")(removed in C++20) |  compares the contents   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/bitset/dsc_operator_cmp&action=edit)  
+(public member function)   
   
 #####  Element access   
   
 [ operator[]](bitset/operator_at.html "cpp/utility/bitset/operator at") |  accesses specific bit   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/bitset/dsc_operator_at&action=edit)  
+(public member function)   
 [ test](bitset/test.html "cpp/utility/bitset/test") |  accesses specific bit   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/bitset/dsc_test&action=edit)  
+(public member function)   
 [ allanynone](bitset/all_any_none.html "cpp/utility/bitset/all any none") |  checks if all, any or none of the bits are set to true   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/bitset/dsc_all_any_none&action=edit)  
+(public member function)   
 [ count](bitset/count.html "cpp/utility/bitset/count") |  returns the number of bits set to true   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/bitset/dsc_count&action=edit)  
+(public member function)   
   
 #####  Capacity   
   
 [ size](bitset/size.html "cpp/utility/bitset/size") |  returns the number of bits that the bitset holds   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/bitset/dsc_size&action=edit)  
+(public member function)   
   
 #####  Modifiers   
   
 [ operator&=operator|=operator^=operator~](bitset/operator_logic.html "cpp/utility/bitset/operator logic") |  performs binary AND, OR, XOR and NOT   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/bitset/dsc_operator_logic&action=edit)  
+(public member function)   
 [ operator<<=operator>>=operator<<operator>>](bitset/operator_ltltgtgt.html "cpp/utility/bitset/operator ltltgtgt") |  performs binary shift left and shift right   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/bitset/dsc_operator_ltltgtgt&action=edit)  
+(public member function)   
 [ set](bitset/set.html "cpp/utility/bitset/set") |  sets bits to true or given value   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/bitset/dsc_set&action=edit)  
+(public member function)   
 [ reset](bitset/reset.html "cpp/utility/bitset/reset") |  sets bits to false   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/bitset/dsc_reset&action=edit)  
+(public member function)   
 [ flip](bitset/flip.html "cpp/utility/bitset/flip") |  toggles the values of bits   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/bitset/dsc_flip&action=edit)  
+(public member function)   
   
 #####  Conversions   
   
 [ to_string](bitset/to_string.html "cpp/utility/bitset/to string") |  returns a string representation of the data   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/bitset/dsc_to_string&action=edit)  
+(public member function)   
 [ to_ulong](bitset/to_ulong.html "cpp/utility/bitset/to ulong") |  returns an unsigned long integer representation of the data   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/bitset/dsc_to_ulong&action=edit)  
+(public member function)   
 [ to_ullong](bitset/to_ullong.html "cpp/utility/bitset/to ullong")(C++11) |  returns an unsigned long long integer representation of the data   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/bitset/dsc_to_ullong&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/bitset&action=edit&section=4 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ operator&operator|operator^](bitset/operator_logic2.html "cpp/utility/bitset/operator logic2") |  performs binary logic operations on bitsets   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/bitset/dsc_operator_logic2&action=edit)  
+(function template)   
 ---|---  
 [ operator<<operator>>](bitset/operator_ltltgtgt2.html "cpp/utility/bitset/operator ltltgtgt2") |  performs stream input and output of bitsets   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/bitset/dsc_operator_ltltgtgt2&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/bitset&action=edit&section=5 "Edit section: Helper classes")] Helper classes
+### Helper classes
 
 [ std::hash<std::bitset>](bitset/hash.html "cpp/utility/bitset/hash")(C++11) |  hash support for **`std::bitset`**   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/bitset/dsc_hash&action=edit)  
+(class template specialization)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/bitset&action=edit&section=6 "Edit section: Notes")] Notes
+### Notes
 
 If the size of a bit-set is not known at compile time, or it is necessary to change its size at run-time, the dynamic types such as [`std::vector<bool>`](../container/vector_bool.html "cpp/container/vector bool") or [`boost::dynamic_bitset<>`](https://www.boost.org/doc/libs/release/libs/dynamic_bitset/dynamic_bitset.html) may be used instead. 
 
@@ -280,7 +280,7 @@ If the size of a bit-set is not known at compile time, or it is necessary to cha
 [`__cpp_lib_constexpr_bitset`](../experimental/feature_test.html#cpp_lib_constexpr_bitset "cpp/feature test") | [`202207L`](../compiler_support/23.html#cpp_lib_constexpr_bitset_202207L "cpp/compiler support/23") | (C++23) | A more constexpr `std::bitset`  
 [`__cpp_lib_bitset`](../experimental/feature_test.html#cpp_lib_bitset "cpp/feature test") | [`202306L`](../compiler_support/26.html#cpp_lib_bitset_202306L "cpp/compiler support/26") | (C++26) | Interfacing `std::bitset` with [std::string_view](../string/basic_string_view.html "cpp/string/basic string view")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/bitset&action=edit&section=7 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -335,10 +335,10 @@ Output:
     
     b1:0000; b2:1010; b3:0011; b4:00000110
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/bitset&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [ vector<bool>](../container/vector_bool.html "cpp/container/vector bool") |  space-efficient dynamic bitset   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_vector_bool&action=edit)  
+(class template specialization)   
 ---|---  
 [**Bit manipulation**](../numeric.html#Bit_manipulation_.28since_C.2B.2B20.29 "cpp/numeric") (C++20) |  utilities to access, manipulate, and process individual bits and bit sequences 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.

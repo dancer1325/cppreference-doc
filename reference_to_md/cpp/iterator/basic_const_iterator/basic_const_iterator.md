@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](../empty.html "cpp/iterator/empty")(C++17)  
 [data](../data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 [`std::basic_const_iterator`](../basic_const_iterator.html "cpp/iterator/basic const iterator")
 
@@ -215,7 +215,7 @@
 [Helper classes](../basic_const_iterator.html#Helper_classes "cpp/iterator/basic const iterator")  
 [common_type<std::basic_const_iterator>](common_type.html "cpp/iterator/basic const iterator/common type")(C++23)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/basic_const_iterator/navbar_content&action=edit)
+
 
 basic_const_iterator() requires [std::default_initializable](../../concepts/default_initializable.html)<Iter> = default; |  (1)  |  (since C++23)  
 ---|---|---  
@@ -237,20 +237,20 @@ Constructs a new iterator adaptor.
 
 4) The underlying iterator is initialized with [std::forward](../../utility/forward.html)<T>(x).
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/basic_const_iterator/basic_const_iterator&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 x  |  \-  |  iterator to adapt   
 ---|---|---  
 other  |  \-  |  iterator adaptor to copy   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/basic_const_iterator/basic_const_iterator&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/basic_const_iterator/basic_const_iterator&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ operator=](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/basic_const_iterator/operator%3D&action=edit&redlink=1 "cpp/iterator/basic const iterator/operator= \(page does not exist\)") |  assigns another `basic_const_iterator`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_operator%3D&action=edit)  
+(public member function)   
 ---|---

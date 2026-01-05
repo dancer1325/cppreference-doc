@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Localization library](../../locale.html "cpp/locale")
 
@@ -152,7 +152,7 @@ base classes](../../locale.html#Facet_category_base_classes "cpp/locale")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/navbar_content&action=edit)
+
 
 [`std::time_get`](../time_get.html "cpp/locale/time get")
 
@@ -168,7 +168,7 @@ Member functions
 [time_get::get_yeartime_get::do_get_year](get_year.html "cpp/locale/time get/get year")  
 [time_get::gettime_get::do_get](get.html "cpp/locale/time get/get")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/time_get/navbar_content&action=edit)
+
 
 Defined in header `[<locale>](../../header/locale.html "cpp/header/locale")` |  |   
 ---|---|---  
@@ -201,15 +201,15 @@ The valid values (inherited from [std::time_base](../time_base.html "cpp/locale/
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/time_get/date_order&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 A value of type `dateorder`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/time_get/date_order&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 This function is optional, it may return `no_order` in every case. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/time_get/date_order&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 The output below was obtained using clang (libc++).
 
@@ -265,10 +265,10 @@ Possible output:
     In Japanese locale, the default date order is: year, month, day
     In German locale, the default date order is: day, month, year
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/time_get/date_order&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ do_get_date](get_date.html "cpp/locale/time get/get date")[virtual] |  extracts month, day, and year from input stream   
-(virtual protected member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/time_get/dsc_do_get_date&action=edit)  
+(virtual protected member function)   
 ---|---  
 [ time_base](../time_base.html "cpp/locale/time base") |  defines date format constants   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_time_base&action=edit)
+(class) 

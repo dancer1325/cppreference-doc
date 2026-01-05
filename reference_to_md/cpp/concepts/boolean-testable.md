@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concepts library](../concepts.html "cpp/concepts")
 
@@ -73,7 +73,7 @@
 ---  
 **_boolean-testable_** ﻿(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/navbar_content&action=edit)
+
 
 template< class B >  
 concept __boolean_testable_impl = [std::convertible_to](convertible_to.html)<B, bool>; |  (1) | (since C++20)   
@@ -92,15 +92,15 @@ The exposition-only concept `_boolean-testable_` specifies the requirements for 
 
 Formally, to model the exposition-only concept `___boolean_testable_impl_`, the type must not define any member operator&& and operator||, and no viable non-member operator&& and operator|| may be visible by [argument-dependent lookup](../language/adl.html "cpp/language/adl"). Additionally, given an expression `e` such that decltype((e)) is `B`, `_boolean-testable_` is modeled only if bool(e) == !bool(!e). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/equality_preservation&action=edit&section=T-1 "Template:cpp/concepts/equality preservation")] Equality preservation
+### Equality preservation
 
 Expressions declared in [requires expressions](../language/requires.html "cpp/language/requires") of the standard library concepts are required to be [equality-preserving](../concepts.html#Equality_preservation "cpp/concepts") (except where stated otherwise). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/concepts/boolean-testable&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 Examples of `_boolean-testable_` types include bool, [std::true_type](../types/integral_constant.html "cpp/types/integral constant"), [std::bitset](../utility/bitset.html)<N>::[`reference`](../utility/bitset/reference.html "cpp/utility/bitset/reference"), and int*. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/concepts/boolean-testable&action=edit&section=2 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 

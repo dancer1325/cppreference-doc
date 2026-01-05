@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Filesystem library](../../filesystem.html "cpp/filesystem")
 
@@ -100,7 +100,7 @@ filesystem::symlink_status](../status.html "cpp/filesystem/status")
 [filesystem::is_socket](../is_socket.html "cpp/filesystem/is socket")  
 [filesystem::is_symlink](../is_symlink.html "cpp/filesystem/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/navbar_content&action=edit)
+
 
 [`std::filesystem::path`](../path.html "cpp/filesystem/path")
 
@@ -169,7 +169,7 @@ filesystem::symlink_status](../status.html "cpp/filesystem/status")
 | [formatter<std::filesystem::path>](formatter.html "cpp/filesystem/path/formatter")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/path/navbar_content&action=edit)
+
 
 enum format {  
 native_format,  
@@ -181,7 +181,7 @@ auto_format
   
 Determines how string representations of pathnames are interpreted by the constructors of [`std::filesystem::path`](../path.html "cpp/filesystem/path") that accept strings. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/format&action=edit&section=1 "Edit section: Constants")] Constants
+### Constants
 
 Name  |  Explanation   
 ---|---  
@@ -189,12 +189,12 @@ Name  |  Explanation
 `generic_format` |  Generic pathname format   
 `auto_format` |  Implementation-defined pathname format, auto-detected where possible   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/format&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 On POSIX systems, there is no difference between native and generic format. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/format&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ (constructor)](path.html "cpp/filesystem/path/path") |  constructs a `path`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/path/dsc_constructor&action=edit)  
+(public member function)   
 ---|---

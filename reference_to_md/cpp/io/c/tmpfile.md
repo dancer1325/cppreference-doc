@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [C-style I/O](../c.html "cpp/io/c")
 
@@ -176,7 +176,7 @@ Operations on files
 **tmpfile**  
 [tmpnam](tmpnam.html "cpp/io/c/tmpnam")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/navbar_content&action=edit)
+
 
 Defined in header `[<cstdio>](../../header/cstdio.html "cpp/header/cstdio")` |  |   
 ---|---|---  
@@ -204,21 +204,21 @@ If the program terminates abnormally, it is implementation-defined if these temp
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/tmpfile&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/tmpfile&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The associated file stream or a null pointer if an error has occurred. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/tmpfile&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 On some implementations (e.g. older Linux), this function actually creates, opens, and immediately deletes the file from the file system: as long as an open file descriptor to a deleted file is held by a program, the file exists, but since it was deleted, its name does not appear in any directory, so that no other process can open it. Once the file descriptor is closed, or once the program terminates (normally or abnormally), the space occupied by the file is reclaimed by the filesystem. Newer Linux (since 3.11 or later, depending on filesystem) creates such invisible temporary files in one step, via special flag in the [`open()`](https://man7.org/linux/man-pages/man2/open.2.html) syscall. 
 
 On some implementations (e.g. Windows), elevated privileges are required as the function may create the temporary file in a system directory. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/tmpfile&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -254,11 +254,11 @@ Possible output:
     Hello
     "/tmp/tmpfBlY1lI (deleted)"
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/tmpfile&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ tmpnam](tmpnam.html "cpp/io/c/tmpnam") |  returns a unique filename   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_tmpnam&action=edit)  
+(function)   
 ---|---  
 [ temp_directory_path](../../filesystem/temp_directory_path.html "cpp/filesystem/temp directory path")(C++17) |  returns a directory suitable for temporary files   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_temp_directory_path&action=edit)  
+(function)   
 [C documentation](../../../c/io/tmpfile.html "c/io/tmpfile") for tmpfile

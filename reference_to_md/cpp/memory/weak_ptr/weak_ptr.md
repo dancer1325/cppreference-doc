@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::weak_ptr`](../weak_ptr.html "cpp/memory/weak ptr")
 
@@ -209,7 +209,7 @@ Helper classes
 [atomic<std::weak_ptr>](atomic2.html "cpp/memory/weak ptr/atomic2")(C++20)  
 [Deduction guides](deduction_guides.html "cpp/memory/weak ptr/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/weak_ptr/navbar_content&action=edit)
+
 
 constexpr weak_ptr() noexcept; |  (1)  |  (since C++11)  
 ---|---|---  
@@ -242,16 +242,16 @@ Constructs new `weak_ptr` that potentially shares an object with r.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/weak_ptr/weak_ptr&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 r  |  \-  |  a [std::shared_ptr](../shared_ptr.html "cpp/memory/shared ptr") or [std::weak_ptr](../weak_ptr.html "cpp/memory/weak ptr") that will be viewed by this [std::weak_ptr](../weak_ptr.html "cpp/memory/weak ptr")  
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/weak_ptr/weak_ptr&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 Because the default constructor is `constexpr`, static [std::weak_ptr](../weak_ptr.html "cpp/memory/weak ptr")s are initialized as part of [static non-local initialization](../../language/initialization.html#Non-local_variables "cpp/language/initialization"), before any dynamic non-local initialization begins. This makes it safe to use a [std::weak_ptr](../weak_ptr.html "cpp/memory/weak ptr") in a constructor of any static object. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/weak_ptr/weak_ptr&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -283,7 +283,7 @@ Output:
     w_ptr.use_count() out of scope: 0
     w_ptr.expired() out of scope: true
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/weak_ptr/weak_ptr&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -291,8 +291,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 2315](https://cplusplus.github.io/LWG/issue2315) | C++11  | move semantic was not enabled for `weak_ptr` | enabled   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/weak_ptr/weak_ptr&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ operator=](operator=.html "cpp/memory/weak ptr/operator=") |  assigns the `weak_ptr`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/weak_ptr/dsc_operator%3D&action=edit)  
+(public member function)   
 ---|---

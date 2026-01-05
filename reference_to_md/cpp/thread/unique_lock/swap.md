@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::unique_lock`](../unique_lock.html "cpp/thread/unique lock")
 
@@ -198,7 +198,7 @@ Observers
 Non-member functions  
 [swap(std::unique_lock)](swap2.html "cpp/thread/unique lock/swap2")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/unique_lock/navbar_content&action=edit)
+
 
 void swap( unique_lock& other ) noexcept; |  |  (since C++11)  
 ---|---|---  
@@ -216,16 +216,16 @@ Exchanges the internal states of the lock objects.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/unique_lock/swap&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 other  |  \-  |  the lock to swap the state with   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/unique_lock/swap&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/unique_lock/swap&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -251,8 +251,8 @@ Output:
     
     swapped success
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/unique_lock/swap&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ std::swap(std::unique_lock)](swap2.html "cpp/thread/unique lock/swap2")(C++11) |  specializes the [std::swap](../../utility/swap.html "cpp/algorithm/swap") algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/unique_lock/dsc_swap2&action=edit)  
+(function template)   
 ---|---

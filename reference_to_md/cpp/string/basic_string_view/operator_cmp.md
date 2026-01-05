@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Strings library](../../string.html "cpp/string")
 
@@ -40,7 +40,7 @@ Classes
 [basic_string_view](../basic_string_view.html "cpp/string/basic string view")(C++17)  
 [char_traits](../char_traits.html "cpp/string/char traits")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/navbar_content&action=edit)
+
 
 [`std::basic_string_view`](../basic_string_view.html "cpp/string/basic string view")
 
@@ -92,7 +92,7 @@ Constants
 [hash<std::string_view>hash<std::wstring_view>hash<std::u8string_view>hash<std::u16string_view>hash<std::u32string_view>](hash.html "cpp/string/basic string view/hash")(C++20)  
 [Deduction guides](deduction_guides.html "cpp/string/basic string view/deduction guides") (C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/navbar_content&action=edit)
+
 
 Defined in header `[<string_view>](../../header/string_view.html "cpp/header/string view")` |  |   
 ---|---|---  
@@ -156,28 +156,28 @@ The return type of three-way comparison operators (/*comp-cat*/) is Traits::comp
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string_view/operator_cmp&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 lhs, rhs  |  \-  |  views to compare   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string_view/operator_cmp&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1-6) true if the corresponding comparison holds, false otherwise.
 
 7) static_cast</*comp-cat*/>(lhs.compare(rhs) <=> 0).
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string_view/operator_cmp&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Linear in the size of the views. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string_view/operator_cmp&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 Sufficient additional overloads can be implemented through non-deduced context in one parameter type.  | (until C++20)  
 ---|---  
 Three-way comparison result type of [std::string_view](../basic_string_view.html "cpp/string/basic string view"), [std::wstring_view](../basic_string_view.html "cpp/string/basic string view"), [std::u8string_view](../basic_string_view.html "cpp/string/basic string view"), [std::u16string_view](../basic_string_view.html "cpp/string/basic string view") and [std::u32string_view](../basic_string_view.html "cpp/string/basic string view") is std::strong_ordering. std::type_identity_t is used for non-deduced context, which makes arguments that implicitly convertible to the string view type comparable with the string view.  | (since C++20)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string_view/operator_cmp&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -204,7 +204,7 @@ Run this code
                                      "Uses a rewritten candidate since C++20.");
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string_view/operator_cmp&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

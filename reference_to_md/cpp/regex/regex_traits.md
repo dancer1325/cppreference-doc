@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Regular expressions library](../regex.html "cpp/regex")
 
@@ -81,7 +81,7 @@ Constants
 Regex Grammar  
 [Modified ECMAScript-262](ecmascript.html "cpp/regex/ecmascript")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/navbar_content&action=edit)
+
 
 **`std::regex_traits`**
 
@@ -100,7 +100,7 @@ Member functions
 [regex_traits::imbue](regex_traits/imbue.html "cpp/regex/regex traits/imbue")  
 [regex_traits::getloc](regex_traits/getloc.html "cpp/regex/regex traits/getloc")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/regex_traits/navbar_content&action=edit)
+
 
 Defined in header `[<regex>](../header/regex.html "cpp/header/regex")` |  |   
 ---|---|---  
@@ -112,7 +112,7 @@ The type trait template `regex_traits` supplies [std::basic_regex](basic_regex.h
 
 Since many of regex operations are locale-sensitive (when [std::regex_constants::collate](syntax_option_type.html "cpp/regex/syntax option type") flag is set), the regex_traits class typically holds an instance of a [std::locale](../locale/locale.html "cpp/locale/locale") as a private member. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/regex_traits&action=edit&section=1 "Edit section: Standard specializations")] Standard specializations
+### Standard specializations
 
 Two specializations of `std::regex_traits` are defined by the standard library: 
 
@@ -122,7 +122,7 @@ Two specializations of `std::regex_traits` are defined by the standard library:
   
 These specializations make it possible to use [std::basic_regex](basic_regex.html)<char> (aka [std::regex](basic_regex.html "cpp/regex/basic regex")) and [std::basic_regex](basic_regex.html)<wchar_t> (aka [std::wregex](basic_regex.html "cpp/regex/basic regex")). To use [std::basic_regex](basic_regex.html "cpp/regex/basic regex") with other character types (for example, char32_t), a user-provided trait class must be used. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/regex_traits&action=edit&section=2 "Edit section: Member types")] Member types
+### Member types
 
 Type  |  Definition   
 ---|---  
@@ -131,30 +131,30 @@ Type  |  Definition
 `locale_type` |  The locale used for localized behavior in the regular expression. Must be [CopyConstructible](../named_req/CopyConstructible.html "cpp/named req/CopyConstructible")  
 `char_class_type` |  Represents a character classification and is capable of holding an implementation specific set returned by `lookup_classname`. Must be a [BitmaskType](../named_req/BitmaskType.html "cpp/named req/BitmaskType").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/regex_traits&action=edit&section=3 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](regex_traits/regex_traits.html "cpp/regex/regex traits/regex traits") |  constructs the regex_traits object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/regex_traits/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ length](regex_traits/length.html "cpp/regex/regex traits/length")[static] |  calculates the length of a null-terminated character string   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/regex_traits/dsc_length&action=edit)  
+(public static member function)   
 [ translate](regex_traits/translate.html "cpp/regex/regex traits/translate") |  determines the equivalence key for a character   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/regex_traits/dsc_translate&action=edit)  
+(public member function)   
 [ translate_nocase](regex_traits/translate_nocase.html "cpp/regex/regex traits/translate nocase") |  determines the case-insensitive equivalence key for a character   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/regex_traits/dsc_translate_nocase&action=edit)  
+(public member function)   
 [ transform](regex_traits/transform.html "cpp/regex/regex traits/transform") |  determines the sort key for the given string, used to provide collation order   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/regex_traits/dsc_transform&action=edit)  
+(public member function)   
 [ transform_primary](regex_traits/transform_primary.html "cpp/regex/regex traits/transform primary") |  determines the primary sort key for the character sequence, used to determine equivalence class   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/regex_traits/dsc_transform_primary&action=edit)  
+(public member function)   
 [ lookup_collatename](regex_traits/lookup_collatename.html "cpp/regex/regex traits/lookup collatename") |  gets a collation element by name   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/regex_traits/dsc_lookup_collatename&action=edit)  
+(public member function)   
 [ lookup_classname](regex_traits/lookup_classname.html "cpp/regex/regex traits/lookup classname") |  gets a character class by name   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/regex_traits/dsc_lookup_classname&action=edit)  
+(public member function)   
 [ isctype](regex_traits/isctype.html "cpp/regex/regex traits/isctype") |  indicates membership in a localized character class   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/regex_traits/dsc_isctype&action=edit)  
+(public member function)   
 [ value](regex_traits/value.html "cpp/regex/regex traits/value") |  translates the character representing a numeric digit into an integral value   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/regex_traits/dsc_value&action=edit)  
+(public member function)   
 [ imbue](regex_traits/imbue.html "cpp/regex/regex traits/imbue") |  sets the locale   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/regex_traits/dsc_imbue&action=edit)  
+(public member function)   
 [ getloc](regex_traits/getloc.html "cpp/regex/regex traits/getloc") |  gets the locale   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/regex_traits/dsc_getloc&action=edit)
+(public member function) 

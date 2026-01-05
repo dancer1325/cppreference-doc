@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Ranges](../../ranges.html "cpp/experimental/ranges")
 
@@ -66,7 +66,7 @@
 [Ranges](../../ranges.html#Ranges "cpp/experimental/ranges")  
 [Algorithms](../../ranges.html#Algorithms "cpp/experimental/ranges")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/navbar_content&action=edit)
+
 
 [General utilities library](../../ranges.html#General_utilities "cpp/experimental/ranges")
 
@@ -125,7 +125,7 @@ Tagged pairs and tuples
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/utility/navbar_content&action=edit)
+
 
 **`std::experimental::ranges::tagged`**
 
@@ -141,7 +141,7 @@ Helper classes
 [tuple_size](tagged/tuple_size.html "cpp/experimental/ranges/utility/tagged/tuple size")  
 [tuple_element](tagged/tuple_element.html "cpp/experimental/ranges/utility/tagged/tuple element")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/utility/tagged/navbar_content&action=edit)
+
 
 Defined in header `[<experimental/ranges/utility>](../../../header/experimental/ranges/utility.html "cpp/header/experimental/ranges/utility")` |  |   
 ---|---|---  
@@ -167,17 +167,17 @@ It is not possible to delete an instance of `tagged` through a pointer to any ba
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/utility/tagged&action=edit&section=1 "Edit section: Member functions")] Member functions 
+### Member functions 
 
 [ (constructor)](tagged/tagged.html "cpp/experimental/ranges/utility/tagged/tagged") |  construct a `tagged` object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/utility/tagged/dsc_ctor&action=edit)  
+(public member function)   
 ---|---  
 [ operator=](tagged/operator=.html "cpp/experimental/ranges/utility/tagged/operator=") |  assigns a `tagged` object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/utility/tagged/dsc_operator%3D&action=edit)  
+(public member function)   
 [ swap](tagged/swap.html "cpp/experimental/ranges/utility/tagged/swap") |  swaps the contents of two `tagged` objects   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/utility/tagged/dsc_swap&action=edit)  
+(public member function)   
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/utility/tagged&action=edit&section=2 "Edit section: Named element accessors")] Named element accessors 
+#### Named element accessors 
 
 For the _N_ -th tag specifier in `Tags...` whose corresponding element name is _name_ , `tagged` provides accessors named _name_ as follows: 
     
@@ -186,32 +186,32 @@ For the _N_ -th tag specifier in `Tags...` whose corresponding element name is _
     constexpr decltype(auto) name() const & { return std::get<N>(*this); }
     constexpr decltype(auto) name() &&      { return std::get<N>(std::move(*this)); }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/utility/tagged&action=edit&section=3 "Edit section: Non-member functions")] Non-member functions 
+### Non-member functions 
 
 [ ranges::swap(ranges::tagged)](tagged/swap2.html "cpp/experimental/ranges/utility/tagged/swap2") |  specializes `swap` for `tagged` objects   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/utility/tagged/dsc_swap2&action=edit)  
+(function)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/utility/tagged&action=edit&section=4 "Edit section: Tuple-like access")] Tuple-like access 
+### Tuple-like access 
 
 [ std::tuple_size<std::experimental::ranges::tagged>](tagged/tuple_size.html "cpp/experimental/ranges/utility/tagged/tuple size") |  obtains the size of a `tagged`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/utility/tagged/dsc_tuple_size&action=edit)  
+(class template specialization)   
 ---|---  
 [ std::tuple_element<std::experimental::ranges::tagged>](tagged/tuple_element.html "cpp/experimental/ranges/utility/tagged/tuple element") |  obtains the types of the elements of a `tagged`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/utility/tagged/dsc_tuple_element&action=edit)  
+(class template specialization)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/utility/tagged&action=edit&section=5 "Edit section: See also")] See also 
+### See also 
 
 [ TagSpecifier](TagSpecifier.html "cpp/experimental/ranges/utility/TagSpecifier") |  specifies that a type is a tag specifier   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/utility/dsc_TagSpecifier&action=edit)  
+(concept)   
 ---|---  
 [ tagged_pair](tagged_pair.html "cpp/experimental/ranges/utility/tagged pair") |  alias template for a tagged [std::pair](../../../utility/pair.html "cpp/utility/pair")  
-(alias template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/utility/dsc_tagged_pair&action=edit)  
+(alias template)  
 [ make_tagged_pair](make_tagged_pair.html "cpp/experimental/ranges/utility/make tagged pair") |  convenience function for creating a `tagged_pair`   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/utility/dsc_make_tagged_pair&action=edit)  
+(function template)   
 [ tagged_tuple](tagged_tuple.html "cpp/experimental/ranges/utility/tagged tuple") |  alias template for a tagged [std::tuple](../../../utility/tuple.html "cpp/utility/tuple")  
-(alias template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/utility/dsc_tagged_tuple&action=edit)  
+(alias template)  
 [ make_tagged_tuple](make_tagged_tuple.html "cpp/experimental/ranges/utility/make tagged tuple") |  convenience function for creating a `tagged_tuple`   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/utility/dsc_make_tagged_tuple&action=edit)  
+(function template)   
 [ inin1in2outout1out2funminmaxbeginend](../algorithm/tags.html "cpp/experimental/ranges/algorithm/tags") |  tag specifiers for use with ranges::tagged   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_tags&action=edit)
+(class) 

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Classes](classes.html "cpp/language/classes")
 
@@ -261,7 +261,7 @@ Inheritance
 [`override` specifier](override.html "cpp/language/override") (C++11)  
 [`final` specifier](final.html "cpp/language/final") (C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/classes/navbar_content&action=edit)
+
 
 A constructor that is not declared with the specifier [explicit](explicit.html "cpp/language/explicit") and which can be called with a single parameter(until C++11) is called a _converting constructor_. 
 
@@ -271,7 +271,7 @@ It is said that a converting constructor specifies an implicit conversion from t
 
 Implicitly-declared and user-defined non-explicit [copy constructors](copy_constructor.html "cpp/language/copy constructor") and [move constructors](move_constructor.html "cpp/language/move constructor") are converting constructors. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/converting_constructor&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -312,7 +312,7 @@ Run this code
         [](...){}(a1, a4, a4, a5, b5); // may suppress "unused variable" warnings
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/converting_constructor&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
   * [copy assignment](as_operator.html "cpp/language/copy assignment")
   * [copy constructor](copy_constructor.html "cpp/language/copy constructor")

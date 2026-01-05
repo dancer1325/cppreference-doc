@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::multimap`](../multimap.html "cpp/container/multimap")
 
@@ -133,7 +133,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/multimap/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/multimap/navbar_content&action=edit)
+
 
 Defined in header `[<map>](../../header/map.html "cpp/header/map")` |  |   
 ---|---|---  
@@ -217,12 +217,12 @@ The `<`, `<=`, `>`, `>=`, and `!=` operators are [synthesized](../../language/op
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/operator_cmp&action=edit&section=T-1 "Template:cpp/container/operator cmp")] Parameters
+### Parameters
 
 lhs, rhs  |  \-  |  `multimap`s whose contents to compare   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/operator_cmp&action=edit&section=T-2 "Template:cpp/container/operator cmp")] Return value
+### Return value
 
 Operator  | lhs and rhs  
 are equal  | lhs is  
@@ -237,13 +237,13 @@ operator> | false | true | false
 operator>= | true  
 operator<=> |  a value equal to ​0​ | a value greater then ​0​ | a value less than ​0​  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/operator_cmp&action=edit&section=T-3 "Template:cpp/container/operator cmp")] Complexity
+### Complexity
 
 1,2) Constant if lhs and rhs are of different size, otherwise linear in the size of the `multimap`.
 
 3-7) Linear in the size of the `multimap`.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/operator_cmp&action=edit&section=T-4 "Template:cpp/container/operator cmp")] Notes
+### Notes
 
 The relational operators are defined in terms of `value_type`'s operator<.  | (until C++20)  
 ---|---  
@@ -251,7 +251,7 @@ The relational operators are not defined. The rewritten candidate operator<=> wi
   
 These non-member comparison operators do not use `Compare` to compare elements. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/operator_cmp&action=edit&section=T-5 "Template:cpp/container/operator cmp")] Example
+### Example
 
 Run this code
     
@@ -298,7 +298,7 @@ Run this code
         "");
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/operator_cmp&action=edit&section=T-6 "Template:cpp/container/operator cmp")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

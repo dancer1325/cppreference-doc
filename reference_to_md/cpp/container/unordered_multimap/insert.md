@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -71,7 +71,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 `[std::unordered_multimap](../unordered_multimap.html "cpp/container/unordered multimap")`
 
@@ -133,7 +133,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/unordered multimap/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/unordered_multimap/navbar_content&action=edit)
+
 
 Defined in header `[<unordered_map>](../../header/unordered_map.html "cpp/header/unordered map")` |  |   
 ---|---|---  
@@ -188,7 +188,7 @@ If rehashing occurs (due to the insertion), all iterators are invalidated. Other
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/unordered_multimap/insert&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 hint  |  \-  |  iterator, used as a suggestion as to where to insert the content   
 ---|---|---  
@@ -199,7 +199,7 @@ nh  |  \-  |  a compatible [node handle](../node_handle.html "cpp/container/node
 Type requirements   
 -`InputIt` must meet the requirements of [LegacyInputIterator](../../named_req/InputIterator.html "cpp/named req/InputIterator").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/unordered_multimap/insert&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1-6) An iterator to the inserted element.
 
@@ -207,7 +207,7 @@ Type requirements
 
 9,10) End iterator if nh was empty, iterator pointing to the inserted element otherwise.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/unordered_multimap/insert&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 1-6) If an exception is thrown for any reason, these functions have no effect ([strong exception safety guarantee](../../language/exceptions.html#Exception_safety "cpp/language/exceptions")).
 
@@ -215,7 +215,7 @@ Type requirements
 
 9,10) If an exception is thrown for any reason, these functions have no effect ([strong exception safety guarantee](../../language/exceptions.html#Exception_safety "cpp/language/exceptions")).
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/unordered_multimap/insert&action=edit&section=4 "Edit section: Complexity")] Complexity
+### Complexity
 
 1-6) Average case: `O(1)`, worst case `O(size())`.
 
@@ -223,13 +223,13 @@ Type requirements
 
 9,10) Average case: `O(1)`, worst case `O(size())`.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/unordered_multimap/insert&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/unordered_multimap/insert&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -239,12 +239,12 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 resolution if `P` is implicitly convertible to `value_type` | only participates if `value_type`  
 is constructible from `P&&`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/unordered_multimap/insert&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ emplace](emplace.html "cpp/container/unordered multimap/emplace") |  constructs element in-place   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_emplace&action=edit)  
+(public member function)   
 ---|---  
 [ emplace_hint](emplace_hint.html "cpp/container/unordered multimap/emplace hint") |  constructs elements in-place using a hint   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_emplace_hint&action=edit)  
+(public member function)   
 [ inserter](../../iterator/inserter.html "cpp/iterator/inserter") |  creates a [std::insert_iterator](../../iterator/insert_iterator.html "cpp/iterator/insert iterator") of type inferred from the argument   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_inserter&action=edit)
+(function template) 

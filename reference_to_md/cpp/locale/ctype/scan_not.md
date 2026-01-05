@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Localization library](../../locale.html "cpp/locale")
 
@@ -152,7 +152,7 @@ base classes](../../locale.html#Facet_category_base_classes "cpp/locale")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/navbar_content&action=edit)
+
 
 [`std::ctype`](../ctype.html "cpp/locale/ctype")
 
@@ -176,7 +176,7 @@ Member functions of ctype<char>
 [ctype<char>::scan_is](../ctype_char/scan_is.html "cpp/locale/ctype char/scan is")  
 [ctype<char>::scan_not](../ctype_char/scan_not.html "cpp/locale/ctype char/scan not")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/ctype/navbar_content&action=edit)
+
 
 Defined in header `[<locale>](../../header/locale.html "cpp/header/locale")` |  |   
 ---|---|---  
@@ -200,18 +200,18 @@ virtual const CharT* do_scan_not( mask m, const CharT* beg, const CharT* end ) c
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/ctype/scan_not&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 m  |  \-  |  mask to search for   
 ---|---|---  
 beg  |  \-  |  pointer to the first character in an array of characters to search   
 end  |  \-  |  one past the end pointer for the array of characters to search   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/ctype/scan_not&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Pointer to the first character in `[`beg`, `end`)` that doesn't satisfy the mask, or end if no such character was found. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/ctype/scan_not&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -244,10 +244,10 @@ Output:
     'Кошка'
     'ネプネプ'
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/ctype/scan_not&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ scan_not](../ctype_char/scan_not.html "cpp/locale/ctype char/scan not") |  locates the first character in a sequence that fails given classification, using the classification table   
-(public member function of `std::ctype<char>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/ctype_char/dsc_scan_not&action=edit)  
+(public member function of `std::ctype<char>`)   
 ---|---  
 [ do_scan_is](scan_is.html "cpp/locale/ctype/scan is")[virtual] |  locates the first character in a sequence that conforms to given classification   
-(virtual protected member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/ctype/dsc_do_scan_is&action=edit)
+(virtual protected member function) 

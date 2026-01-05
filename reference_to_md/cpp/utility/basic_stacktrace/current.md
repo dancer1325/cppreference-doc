@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Diagnostics library](../../error.html "cpp/error")
 
@@ -89,7 +89,7 @@ Exception handling failures
 [breakpoint_if_debugging](../breakpoint_if_debugging.html "cpp/utility/breakpoint if debugging")(C++26)  
 [breakpoint](../breakpoint.html "cpp/utility/breakpoint")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/navbar_content&action=edit)
+
 
 [`std::basic_stacktrace`](../basic_stacktrace.html "cpp/utility/basic stacktrace")
 
@@ -124,7 +124,7 @@ operator<=>](operator_cmp.html "cpp/utility/basic stacktrace/operator cmp")
 [hash<std::basic_stacktrace>](hash.html "cpp/utility/basic stacktrace/hash")  
 [formatter<std::basic_stacktrace>](formatter.html "cpp/utility/basic stacktrace/formatter")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/basic_stacktrace/navbar_content&action=edit)
+
 
 static basic_stacktrace current( const allocator_type& alloc =  
 allocator_type() ) noexcept; |  (1)  |  (since C++23)  
@@ -156,29 +156,29 @@ In all cases, `alloc` is stored into the created `basic_stacktrace` and used to 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/basic_stacktrace/current&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 alloc  |  \-  |  allocator to use for all memory allocations of the constructed `basic_stacktrace`  
 ---|---|---  
 skip  |  \-  |  the number of stacktrace entries to skip   
 max_depth  |  \-  |  the maximum depth of the stacktrace entries   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/basic_stacktrace/current&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 If the allocation succeeds, the `basic_stacktrace` described above. 
 
 Otherwise, an empty `basic_stacktrace`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/basic_stacktrace/current&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/basic_stacktrace/current&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ (constructor)](basic_stacktrace.html "cpp/utility/basic stacktrace/basic stacktrace") |  creates a new `basic_stacktrace`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/basic_stacktrace/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ current](../source_location/current.html "cpp/utility/source location/current")[static] |  constructs a new `source_location` corresponding to the location of the call site   
-(public static member function of `std::source_location`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/source_location/dsc_current&action=edit)
+(public static member function of `std::source_location`) 

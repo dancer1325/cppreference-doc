@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../container.html "cpp/container")
 
@@ -71,7 +71,7 @@ Tables
 [Member function table](../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 **`std::unordered_map`**
 
@@ -137,7 +137,7 @@ Tables
   
 [Deduction guides](unordered_map/deduction_guides.html "cpp/container/unordered map/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/unordered_map/navbar_content&action=edit)
+
 
 Defined in header `[<unordered_map>](../header/unordered_map.html "cpp/header/unordered map")` |  |   
 ---|---|---  
@@ -195,7 +195,7 @@ All member functions of `std::unordered_map` are constexpr: it is possible to cr
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/unordered_map&action=edit&section=1 "Edit section: Iterator invalidation")] Iterator invalidation
+### Iterator invalidation
 
 Operations  | Invalidated   
 ---|---  
@@ -204,7 +204,7 @@ All read only operations, [swap](unordered_map/swap.html "cpp/container/unordere
 [insert](unordered_map/insert.html "cpp/container/unordered map/insert"), [emplace](unordered_map/emplace.html "cpp/container/unordered map/emplace"), [emplace_hint](unordered_map/emplace_hint.html "cpp/container/unordered map/emplace hint"), [operator[]](unordered_map/operator_at.html "cpp/container/unordered map/operator at") | Only if causes rehash   
 [erase](unordered_map/erase.html "cpp/container/unordered map/erase") | Only to the element erased   
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/unordered_map&action=edit&section=2 "Edit section: Notes")] Notes
+#### Notes
 
   * The swap functions do not invalidate any of the iterators inside the container, but they do invalidate the iterator marking the end of the swap region. 
 
@@ -213,37 +213,37 @@ All read only operations, [swap](unordered_map/swap.html "cpp/container/unordere
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/unordered_map&action=edit&section=3 "Edit section: Template parameters")] Template parameters
+### Template parameters
 
 | This section is incomplete  
 Reason: Add descriptions of the template parameters.   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/unordered_map&action=edit&section=4 "Edit section: Member types")] Member types
+### Member types
 
 Type  |  Definition   
 ---|---  
-`key_type` |  `Key`[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_key_type&action=edit)  
-`mapped_type` |  `T`[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_mapped_type&action=edit)  
-`value_type` |  [std::pair](../utility/pair.html)<const Key, T>[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_value_type&action=edit)  
-`size_type` |  Unsigned integer type (usually [std::size_t](../types/size_t.html "cpp/types/size t"))[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_size_type&action=edit)  
-`difference_type` |  Signed integer type (usually [std::ptrdiff_t](../types/ptrdiff_t.html "cpp/types/ptrdiff t"))[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_difference_type&action=edit)  
-`hasher` |  `Hash`[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_hasher&action=edit)  
-`key_equal` |  `KeyEqual`[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_key_equal&action=edit)  
-`allocator_type` |  `Allocator`[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_allocator_type&action=edit)  
-`reference` |  value_type&[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_reference&action=edit)  
-`const_reference` |  const value_type&[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_const_reference&action=edit)  
-`pointer` |  [std::allocator_traits](../memory/allocator_traits.html)<Allocator>::pointer[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_pointer&action=edit)  
-`const_pointer` |  [std::allocator_traits](../memory/allocator_traits.html)<Allocator>::const_pointer[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_const_pointer&action=edit)  
-`iterator` |  [LegacyForwardIterator](../named_req/ForwardIterator.html "cpp/named req/ForwardIterator") and [ConstexprIterator](../named_req/ConstexprIterator.html "cpp/named req/ConstexprIterator")(since C++26) to `value_type`[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_iterator&action=edit)  
-`const_iterator` |  [LegacyForwardIterator](../named_req/ForwardIterator.html "cpp/named req/ForwardIterator") and [ConstexprIterator](../named_req/ConstexprIterator.html "cpp/named req/ConstexprIterator")(since C++26) to const value_type[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_const_iterator&action=edit)  
+`key_type` |  `Key`  
+`mapped_type` |  `T`  
+`value_type` |  [std::pair](../utility/pair.html)<const Key, T>  
+`size_type` |  Unsigned integer type (usually [std::size_t](../types/size_t.html "cpp/types/size t"))  
+`difference_type` |  Signed integer type (usually [std::ptrdiff_t](../types/ptrdiff_t.html "cpp/types/ptrdiff t"))  
+`hasher` |  `Hash`  
+`key_equal` |  `KeyEqual`  
+`allocator_type` |  `Allocator`  
+`reference` |  value_type&  
+`const_reference` |  const value_type&  
+`pointer` |  [std::allocator_traits](../memory/allocator_traits.html)<Allocator>::pointer  
+`const_pointer` |  [std::allocator_traits](../memory/allocator_traits.html)<Allocator>::const_pointer  
+`iterator` |  [LegacyForwardIterator](../named_req/ForwardIterator.html "cpp/named req/ForwardIterator") and [ConstexprIterator](../named_req/ConstexprIterator.html "cpp/named req/ConstexprIterator")(since C++26) to `value_type`  
+`const_iterator` |  [LegacyForwardIterator](../named_req/ForwardIterator.html "cpp/named req/ForwardIterator") and [ConstexprIterator](../named_req/ConstexprIterator.html "cpp/named req/ConstexprIterator")(since C++26) to const value_type  
 `local_iterator` |  An iterator type whose category, value, difference, pointer and  
 reference types are the same as `iterator`. This iterator  
-can be used to iterate through a single bucket but not across buckets[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_local_iterator&action=edit)  
+can be used to iterate through a single bucket but not across buckets  
 `const_local_iterator` |  An iterator type whose category, value, difference, pointer and  
 reference types are the same as `const_iterator`. This iterator  
-can be used to iterate through a single bucket but not across buckets[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_const_local_iterator&action=edit)  
-`node_type` (since C++17) |  a specialization of [node handle](node_handle.html "cpp/container/node handle") representing a container node[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_node_type&action=edit)  
+can be used to iterate through a single bucket but not across buckets  
+`node_type` (since C++17) |  a specialization of [node handle](node_handle.html "cpp/container/node handle") representing a container node  
 `insert_return_type` (since C++17) |  type describing the result of inserting a `node_type`, a specialization of  
 template<class Iter, class NodeType>  
 struct /*unspecified*/  
@@ -252,132 +252,132 @@ Iter position;
 bool inserted;  
 NodeType node;  
 };  
-instantiated with template arguments `iterator` and `node_type`.[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_insert_return_type&action=edit)  
+instantiated with template arguments `iterator` and `node_type`.  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/unordered_map&action=edit&section=5 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](unordered_map/unordered_map.html "cpp/container/unordered map/unordered map") |  constructs the `unordered_map`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ (destructor)](unordered_map/~unordered_map.html "cpp/container/unordered map/~unordered map") |  destructs the `unordered_map`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_destructor&action=edit)  
+(public member function)   
 [ operator=](unordered_map/operator=.html "cpp/container/unordered map/operator=") |  assigns values to the container   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_operator%3D&action=edit)  
+(public member function)   
 [ get_allocator](unordered_map/get_allocator.html "cpp/container/unordered map/get allocator") |  returns the associated allocator   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_get_allocator&action=edit)  
+(public member function)   
   
 #####  Iterators   
   
 [ begincbegin](unordered_map/begin.html "cpp/container/unordered map/begin") |  returns an iterator to the beginning   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_begin&action=edit)  
+(public member function)   
 [ endcend](unordered_map/end.html "cpp/container/unordered map/end") |  returns an iterator to the end   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_end&action=edit)  
+(public member function)   
   
 #####  Capacity   
   
 [ empty](unordered_map/empty.html "cpp/container/unordered map/empty") |  checks whether the container is empty   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_empty&action=edit)  
+(public member function)   
 [ size](unordered_map/size.html "cpp/container/unordered map/size") |  returns the number of elements   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_size&action=edit)  
+(public member function)   
 [ max_size](unordered_map/max_size.html "cpp/container/unordered map/max size") |  returns the maximum possible number of elements   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_max_size&action=edit)  
+(public member function)   
   
 #####  Modifiers   
   
 [ clear](unordered_map/clear.html "cpp/container/unordered map/clear") |  clears the contents   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_clear&action=edit)  
+(public member function)   
 [ insert](unordered_map/insert.html "cpp/container/unordered map/insert") |  inserts elements or nodes(since C++17)   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_insert&action=edit)  
+(public member function)   
 [ insert_range](unordered_map/insert_range.html "cpp/container/unordered map/insert range")(C++23) |  inserts a range of elements   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_insert_range&action=edit)  
+(public member function)   
 [ insert_or_assign](unordered_map/insert_or_assign.html "cpp/container/unordered map/insert or assign")(C++17) |  inserts an element or assigns to the current element if the key already exists   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_insert_or_assign&action=edit)  
+(public member function)   
 [ emplace](unordered_map/emplace.html "cpp/container/unordered map/emplace") |  constructs element in-place   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_emplace&action=edit)  
+(public member function)   
 [ emplace_hint](unordered_map/emplace_hint.html "cpp/container/unordered map/emplace hint") |  constructs elements in-place using a hint   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_emplace_hint&action=edit)  
+(public member function)   
 [ try_emplace](unordered_map/try_emplace.html "cpp/container/unordered map/try emplace")(C++17) |  inserts in-place if the key does not exist, does nothing if the key exists   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_try_emplace&action=edit)  
+(public member function)   
 [ erase](unordered_map/erase.html "cpp/container/unordered map/erase") |  erases elements   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_erase&action=edit)  
+(public member function)   
 [ swap](unordered_map/swap.html "cpp/container/unordered map/swap") |  swaps the contents   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_swap&action=edit)  
+(public member function)   
 [ extract](unordered_map/extract.html "cpp/container/unordered map/extract")(C++17) |  extracts nodes from the container   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_extract&action=edit)  
+(public member function)   
 [ merge](unordered_map/merge.html "cpp/container/unordered map/merge")(C++17) |  splices nodes from another container   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_merge&action=edit)  
+(public member function)   
   
 #####  Lookup   
   
 [ at](unordered_map/at.html "cpp/container/unordered map/at") |  access specified element with bounds checking   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_at&action=edit)  
+(public member function)   
 [ operator[]](unordered_map/operator_at.html "cpp/container/unordered map/operator at") |  access or insert specified element   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_operator_at&action=edit)  
+(public member function)   
 [ count](unordered_map/count.html "cpp/container/unordered map/count") |  returns the number of elements matching specific key   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_count&action=edit)  
+(public member function)   
 [ find](unordered_map/find.html "cpp/container/unordered map/find") |  finds element with specific key   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_find&action=edit)  
+(public member function)   
 [ contains](unordered_map/contains.html "cpp/container/unordered map/contains")(C++20) |  checks if the container contains element with specific key   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_contains&action=edit)  
+(public member function)   
 [ equal_range](unordered_map/equal_range.html "cpp/container/unordered map/equal range") |  returns range of elements matching a specific key   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_equal_range&action=edit)  
+(public member function)   
   
 #####  Bucket interface   
   
 [ begin(size_type)cbegin(size_type)](unordered_map/begin2.html "cpp/container/unordered map/begin2") |  returns an iterator to the beginning of the specified bucket   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_begin\(int\)&action=edit)  
+(public member function) &action=edit)  
 [ end(size_type)cend(size_type)](unordered_map/end2.html "cpp/container/unordered map/end2") |  returns an iterator to the end of the specified bucket   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_end\(int\)&action=edit)  
+(public member function) &action=edit)  
 [ bucket_count](unordered_map/bucket_count.html "cpp/container/unordered map/bucket count") |  returns the number of buckets   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_bucket_count&action=edit)  
+(public member function)   
 [ max_bucket_count](unordered_map/max_bucket_count.html "cpp/container/unordered map/max bucket count") |  returns the maximum number of buckets   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_max_bucket_count&action=edit)  
+(public member function)   
 [ bucket_size](unordered_map/bucket_size.html "cpp/container/unordered map/bucket size") |  returns the number of elements in specific bucket   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_bucket_size&action=edit)  
+(public member function)   
 [ bucket](unordered_map/bucket.html "cpp/container/unordered map/bucket") |  returns the bucket for specific key   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_bucket&action=edit)  
+(public member function)   
   
 #####  Hash policy   
   
 [ load_factor](unordered_map/load_factor.html "cpp/container/unordered map/load factor") |  returns average number of elements per bucket   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_load_factor&action=edit)  
+(public member function)   
 [ max_load_factor](unordered_map/max_load_factor.html "cpp/container/unordered map/max load factor") |  manages maximum average number of elements per bucket   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_max_load_factor&action=edit)  
+(public member function)   
 [ rehash](unordered_map/rehash.html "cpp/container/unordered map/rehash") |  reserves at least the specified number of buckets and regenerates the hash table   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_rehash&action=edit)  
+(public member function)   
 [ reserve](unordered_map/reserve.html "cpp/container/unordered map/reserve") |  reserves space for at least the specified number of elements and regenerates the hash table   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_reserve&action=edit)  
+(public member function)   
   
 #####  Observers   
   
 [ hash_function](unordered_map/hash_function.html "cpp/container/unordered map/hash function") |  returns function used to hash the keys   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_hash_function&action=edit)  
+(public member function)   
 [ key_eq](unordered_map/key_eq.html "cpp/container/unordered map/key eq") |  returns the function used to compare keys for equality   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_key_eq&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/unordered_map&action=edit&section=6 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ operator==operator!=](unordered_map/operator_cmp.html "cpp/container/unordered map/operator cmp")(C++11)(C++11)(removed in C++20) |  compares the values in the unordered_map   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_operator_cmp_unord&action=edit)  
+(function template)   
 ---|---  
 [ std::swap(std::unordered_map)](unordered_map/swap2.html "cpp/container/unordered map/swap2")(C++11) |  specializes the [std::swap](../utility/swap.html "cpp/algorithm/swap") algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_swap2&action=edit)  
+(function template)   
 [ erase_if(std::unordered_map)](unordered_map/erase_if.html "cpp/container/unordered map/erase if")(C++20) |  erases all elements satisfying specific criteria   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_erase_if&action=edit)  
+(function template)   
   
 ###  [Deduction guides](unordered_map/deduction_guides.html "cpp/container/unordered map/deduction guides")
 
 | (since C++17)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/unordered_map&action=edit&section=8 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../utility/feature_test.html "cpp/utility/feature test") macro  | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_containers_ranges`](../experimental/feature_test.html#cpp_lib_containers_ranges "cpp/feature test") | [`202202L`](../compiler_support/23.html#cpp_lib_containers_ranges_202202L "cpp/compiler support/23") | (C++23) | Ranges construction and insertion for containers   
 [`__cpp_lib_constexpr_unordered_map`](../experimental/feature_test.html#cpp_lib_constexpr_unordered_map "cpp/feature test") | [`202502L`](../compiler_support/26.html#cpp_lib_constexpr_unordered_map_202502L "cpp/compiler support/26") | (C++26) | constexpr `std::unordered_map`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/unordered_map&action=edit&section=9 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -458,7 +458,7 @@ Possible output:
     Key:[GREEN] Value:[#00FF00]
     Key:[RED] Value:[#FF0000]
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/unordered_map&action=edit&section=10 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -468,14 +468,14 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 and `const_pointer` were based on `allocator_type` | based on `value_type` and  
 [std::allocator_traits](../memory/allocator_traits.html "cpp/memory/allocator traits")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/unordered_map&action=edit&section=11 "Edit section: See also")] See also
+### See also
 
 [ unordered_multimap](unordered_multimap.html "cpp/container/unordered multimap")(C++11) |  collection of key-value pairs, hashed by keys   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_unordered_multimap&action=edit)  
+(class template)   
 ---|---  
 [ map](map.html "cpp/container/map") |  collection of key-value pairs, sorted by keys, keys are unique   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_map&action=edit)  
+(class template)   
 [ flat_map](flat_map.html "cpp/container/flat map")(C++23) |  adapts two containers to provide a collection of key-value pairs, sorted by unique keys   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_flat_map&action=edit)
+(class template) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

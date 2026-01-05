@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](copy.html "cpp/algorithm/ranges/co
 [uninitialized_default_construct_n](../../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 [Constrained algorithms](../ranges.html "cpp/algorithm/ranges")
 
@@ -550,7 +550,7 @@ All names in this menu belong to namespace `std::ranges`
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -608,7 +608,7 @@ The function-like entities described on this page are [_algorithm function objec
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/unique_copy&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  the iterator-sentinel pair defining the source [range](../../iterator.html#Ranges "cpp/iterator") of elements to process   
 ---|---|---  
@@ -617,15 +617,15 @@ result  |  \-  |  the destination range of elements
 comp  |  \-  |  the binary predicate to compare the projected elements   
 proj  |  \-  |  the projection to apply to the elements   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/unique_copy&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 {last, result + N}
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/unique_copy&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Exactly N - 1 applications of the corresponding predicate comp and no more than twice as many applications of any projection proj. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/unique_copy&action=edit&section=4 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
 
 See also the implementations in [libstdc++](https://github.com/gcc-mirror/gcc/blob/master/libstdc%2B%2B-v3/include/bits/ranges_algo.h#L1198-L1276) and [MSVC STL](https://github.com/microsoft/STL/blob/472161105d596192194d4715ccad307c6c163b4a/stl/inc/algorithm#L4022-L4113) (and third-party libraries: [cmcstl2](https://github.com/CaseyCarter/cmcstl2/blob/master/include/stl2/detail/algorithm/unique_copy.hpp), [NanoRange](https://github.com/tcbrindle/NanoRange/blob/master/include/nanorange/algorithm/unique_copy.hpp), and [range-v3](https://github.com/ericniebler/range-v3/blob/master/include/range/v3/algorithm/unique_copy.hpp)). 
     
@@ -684,7 +684,7 @@ See also the implementations in [libstdc++](https://github.com/gcc-mirror/gcc/bl
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/unique_copy&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -738,14 +738,14 @@ Output:
     v1: -1 +1 +2 -2 -3 +3 -3 
     v2: -1 +2 -3
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/unique_copy&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ ranges::unique](unique.html "cpp/algorithm/ranges/unique")(C++20) |  removes consecutive duplicate elements in a range  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_unique&action=edit)  
+(algorithm function object)  
 ---|---  
 [ ranges::copyranges::copy_if](copy.html "cpp/algorithm/ranges/copy")(C++20)(C++20) |  copies a range of elements to a new location  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_copy&action=edit)  
+(algorithm function object)  
 [ ranges::adjacent_find](adjacent_find.html "cpp/algorithm/ranges/adjacent find")(C++20) |  finds the first two adjacent items that are equal (or satisfy a given predicate)  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_adjacent_find&action=edit)  
+(algorithm function object)  
 [ unique_copy](../unique_copy.html "cpp/algorithm/unique copy") |  creates a copy of some range of elements that contains no consecutive duplicates   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_unique_copy&action=edit)
+(function template) 

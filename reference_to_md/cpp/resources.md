@@ -30,7 +30,7 @@
 [Symbols index](symbol_index.html "cpp/symbol index")  
 [External libraries](links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 ## Contents
 
@@ -47,7 +47,7 @@
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/links&action=edit&section=1 "Edit section: Standard C++ Foundation")] Standard C++ Foundation
+### Standard C++ Foundation
 
   * [isocpp.org](https://isocpp.org/) — Non-profit hub for C++ news, articles, and events. 
 
@@ -60,7 +60,7 @@
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/links&action=edit&section=2 "Edit section: C++ FAQs")] C++ FAQs
+### C++ FAQs
 
   * [Bjarne Stroustrup FAQ](https://www.stroustrup.com/bs_faq.html) — Answers to the frequently asked questions from the creator of the language. 
   * [Bjarne Stroustrup C++11 FAQ](https://www.stroustrup.com/C++11FAQ.html) — Additional FAQ regarding the recent changes to the C++ language standards. 
@@ -68,7 +68,7 @@
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/links&action=edit&section=3 "Edit section: C++ standard documents and drafts")] C++ standard documents and drafts
+### C++ standard documents and drafts
 
   * [JTC1/SC22/WG21](https://open-std.org/jtc1/sc22/wg21/) — The C++ Standards Committee, includes draft C++ language standards, proposals, and defect reports. 
     * N1146 ([PDF](https://open-std.org/JTC1/SC22/WG21/docs/wp/pdf/nov97-2/)) — C++98 final working draft. 
@@ -84,7 +84,7 @@
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/links&action=edit&section=4 "Edit section: C++ language and library references")] C++ language and library references
+### C++ language and library references
 
   * [Apache](https://stdcxx.apache.org/doc/stdlibref/index.html) — Reference manual for the Apache implementation of the C++ standard library. 
   * [IBM AIX 16.1](https://www.ibm.com/docs/en/xl-c-and-cpp-aix/16.1) [IBM zOS 3.1.0](https://www.ibm.com/docs/en/zos/3.1.0) — Reference manual for the IBM implementation of C and C++ core languages. 
@@ -104,7 +104,7 @@
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/links&action=edit&section=5 "Edit section: C++ ABIs")] C++ ABIs
+### C++ ABIs
 
   * [Itanium C++ ABI](https://itanium-cxx-abi.github.io/cxx-abi/) — De-facto C++ ABI standard, adopted by 
 
@@ -117,7 +117,7 @@
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/links&action=edit&section=6 "Edit section: Patterns, idioms, tips and tricks")] Patterns, idioms, tips and tricks
+### Patterns, idioms, tips and tricks
 
   * [C++ Core Guidelines](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines) — By Bjarne Stroustrup and Herb Sutter. 
   * [C++ Patterns](https://cpppatterns.com) — Modern C++ examples created by the community. 
@@ -127,7 +127,7 @@
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/links&action=edit&section=7 "Edit section: Related standards")] Related standards
+### Related standards
 
   * [JTC1/SC22/WG14](https://www.open-std.org/jtc1/sc22/wg14/) — The C Standards Committee, includes draft C language standards, proposals, and defect reports. 
   * [POSIX.1-2024/IEEE Std 1003.1-2024](https://pubs.opengroup.org/onlinepubs/9799919799/functions/contents.html) — The operating system API of the Unix-compatible systems. 
@@ -135,7 +135,7 @@
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/links&action=edit&section=8 "Edit section: Might be also useful")] Might be also useful
+### Might be also useful
 
   * [C++17 in Tony Tables](https://github.com/tvaneerd/cpp17_in_TTs/blob/master/ALL_IN_ONE.md) — New features in C++17 with examples. 
 
@@ -143,7 +143,7 @@
 Reason: Maybe add stuff like less formal but influential articles, blogs, sites.   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/links&action=edit&section=9 "Edit section: See also")] See also
+### See also
 
   * [List of Non-ANSI/ISO C++ libraries](links/libs.html "cpp/links/libs")
 

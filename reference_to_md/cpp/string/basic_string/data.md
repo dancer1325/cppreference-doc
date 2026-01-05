@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Strings library](../../string.html "cpp/string")
 
@@ -40,7 +40,7 @@ Classes
 [basic_string_view](../basic_string_view.html "cpp/string/basic string view")(C++17)  
 [char_traits](../char_traits.html "cpp/string/char traits")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/navbar_content&action=edit)
+
 
 [`std::basic_string`](../basic_string.html "cpp/string/basic string")
 
@@ -133,7 +133,7 @@ basic_string_view](operator_basic_string_view.html "cpp/string/basic string/oper
 [hash<std::basic_string>](hash.html "cpp/string/basic string/hash")(C++11)  
 [Deduction guides](deduction_guides.html "cpp/string/basic string/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/navbar_content&action=edit)
+
 
 const CharT* data() const; |  (1)  |  (noexcept since C++11)  
 (constexpr since C++20)  
@@ -176,11 +176,11 @@ The pointer obtained from `data()` may be invalidated by:
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/data&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/data&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 A pointer to the underlying character storage. 
 
@@ -188,11 +188,11 @@ data()[i] == operator[](i) for every `i` in `[`​0​`, `size()`)`.  | (until C
 ---|---  
 data() + i == [std::addressof](../../memory/addressof.html)(operator[](i)) for every `i` in `[`​0​`, `size()`]`.  | (since C++11)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/data&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Constant. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/data&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -211,14 +211,14 @@ Run this code
         [assert](../../error/assert.html)('\0' == *(s.data() + s.size()));
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/data&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ front](front.html "cpp/string/basic string/front")(DR*) |  accesses the first character   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_front&action=edit)  
+(public member function)   
 ---|---  
 [ back](back.html "cpp/string/basic string/back")(DR*) |  accesses the last character   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_back&action=edit)  
+(public member function)   
 [ c_str](c_str.html "cpp/string/basic string/c str") |  returns a non-modifiable standard C character array version of the string   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_c_str&action=edit)  
+(public member function)   
 [ data](../basic_string_view/data.html "cpp/string/basic string view/data") |  returns a pointer to the first character of a view   
-(public member function of `std::basic_string_view<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/dsc_data&action=edit)
+(public member function of `std::basic_string_view<CharT,Traits>`) 

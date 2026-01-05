@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Type support](../../utility/rtti.html "cpp/types")
 
@@ -161,7 +161,7 @@ Runtime type information
 ---  
 [bad_cast](../bad_cast.html "cpp/types/bad cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/navbar_content&action=edit)
+
 
 [`std::type_info`](../type_info.html "cpp/types/type info")
 
@@ -173,7 +173,7 @@ Member functions
 [type_info::hash_code](hash_code.html "cpp/types/type info/hash code")(C++11)  
 **type_info::name**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/type_info/navbar_content&action=edit)
+
 
 const char* name() const; |  | (noexcept since C++11)  
 ---|---|---  
@@ -192,21 +192,21 @@ Returns an implementation defined null-terminated character string containing th
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/type_info/name&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/type_info/name&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 [Null-terminated character string](../../string/byte.html "cpp/string/byte") containing the name of the type. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/type_info/name&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 The lifetime of the array pointed to by the returned pointer is not specified, but in practice it persists as long as the RTTI data structure for the given type exists, which has application lifetime unless loaded from a dynamic library (that can be unloaded). 
 
 Some implementations (such as MSVC, IBM, Oracle) produce a human-readable type name. Others, most notably gcc and clang, return the mangled name, which is specified by the [Itanium C++ ABI](https://itanium-cxx-abi.github.io/cxx-abi/abi.html#typeid). The mangled name can be converted to human-readable form using implementation-specific API such as [`abi::__cxa_demangle`](https://gcc.gnu.org/onlinedocs/libstdc++/manual/ext_demangling.html) directly or through [`boost::core::demangle`](https://www.boost.org/doc/libs/release/libs/core/doc/html/core/demangle.html). It can also be piped through the command-line utility c++filt -t. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/type_info/name&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -252,8 +252,8 @@ Possible output:
     struct Derived
     struct Base const * __ptr64 => struct Base const * __ptr64
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/type_info/name&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ hash_code](hash_code.html "cpp/types/type info/hash code")(C++11) |  returns a value which is identical for the same types   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/type_info/dsc_hash_code&action=edit)  
+(public member function)   
 ---|---

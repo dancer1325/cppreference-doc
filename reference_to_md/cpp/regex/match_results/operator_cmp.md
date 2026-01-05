@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Regular expressions library](../../regex.html "cpp/regex")
 
@@ -81,7 +81,7 @@ Constants
 Regex Grammar  
 [Modified ECMAScript-262](../ecmascript.html "cpp/regex/ecmascript")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/navbar_content&action=edit)
+
 
 [`std::match_results`](../match_results.html "cpp/regex/match results")
 
@@ -114,7 +114,7 @@ Non-member functions
 **operator== operator!=**(until C++20)  
 [swap(std::match_results)](swap2.html "cpp/regex/match results/swap2")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/match_results/navbar_content&action=edit)
+
 
 Defined in header `[<regex>](../../header/regex.html "cpp/header/regex")` |  |   
 ---|---|---  
@@ -168,7 +168,7 @@ The `!=` operator is [synthesized](../../language/default_comparisons.html#Other
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/match_results/operator_cmp&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 lhs, rhs  |  \-  |  match results to compare   
 ---|---|---  
@@ -176,17 +176,17 @@ Type requirements
 -`BidirIt` must meet the requirements of [LegacyBidirectionalIterator](../../named_req/BidirectionalIterator.html "cpp/named req/BidirectionalIterator").   
 -`Alloc` must meet the requirements of [Allocator](../../named_req/Allocator.html "cpp/named req/Allocator").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/match_results/operator_cmp&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) true if lhs and rhs are equal, false otherwise.
 
 2) true if lhs and rhs are not equal, false otherwise.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/impldef_exception&action=edit&section=T-1 "Template:cpp/impldef exception")] Exceptions
+### Exceptions
 
 May throw implementation-defined exceptions. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/match_results/operator_cmp&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

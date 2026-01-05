@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Function objects](../../../functional.html "cpp/utility/functional")
 
@@ -255,7 +255,7 @@ Identity function object
 [unary_negate](../unary_negate.html "cpp/utility/functional/unary negate")(until C++20*)  
 [binary_negate](../binary_negate.html "cpp/utility/functional/binary negate")(until C++20*)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/navbar_content&action=edit)
+
 
 [`std::function`](../function.html "cpp/utility/functional/function")
 
@@ -277,7 +277,7 @@ Identity function object
 **uses_allocator <std::function>**(until C++17)  
 [Deduction guides](deduction_guides.html "cpp/utility/functional/function/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/function/navbar_content&action=edit)
+
 
 Defined in header `[<functional>](../../../header/functional.html "cpp/header/functional")` |  |   
 ---|---|---  
@@ -300,7 +300,7 @@ This specialization of [std::uses_allocator](../../../memory/uses_allocator.html
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/function/uses_allocator&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 `std::function`'s allocator support was poorly specified and inconsistently implemented. Some implementations do not support uses-allocator construction at all, some provide the needed constructor overloads but ignore the supplied allocator argument, and some provide the overloads and use the supplied allocator for construction but not when the `std::function` is reassigned. As a result, allocator support was removed in C++17. 
 
@@ -327,8 +327,8 @@ Type  |  Definition
 `value_type` |  bool  
 `type` |  [std::integral_constant](../../../types/integral_constant.html)<bool, value>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/function/uses_allocator&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ uses_allocator](../../../memory/uses_allocator.html "cpp/memory/uses allocator")(C++11) |  checks if the specified type supports uses-allocator construction   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_uses_allocator&action=edit)  
+(class template)   
 ---|---

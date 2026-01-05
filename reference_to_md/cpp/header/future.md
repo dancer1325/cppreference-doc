@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header is part of the [thread support](../atomic.html "cpp/thread") library. 
 
@@ -217,38 +217,38 @@ This header is part of the [thread support](../atomic.html "cpp/thread") library
 ###  Classes  
   
 [ promise](../thread/promise.html "cpp/thread/promise")(C++11) |  stores a value for asynchronous retrieval   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_promise&action=edit)  
+(class template)   
 [ packaged_task](../thread/packaged_task.html "cpp/thread/packaged task")(C++11) |  packages a function to store its return value for asynchronous retrieval   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_packaged_task&action=edit)  
+(class template)   
 [ future](../thread/future.html "cpp/thread/future")(C++11) |  waits for a value that is set asynchronously   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_future&action=edit)  
+(class template)   
 [ shared_future](../thread/shared_future.html "cpp/thread/shared future")(C++11) |  waits for a value (possibly referenced by other futures) that is set asynchronously   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_shared_future&action=edit)  
+(class template)   
 [ launch](../thread/launch.html "cpp/thread/launch")(C++11) |  specifies the launch policy for [std::async](../thread/async.html "cpp/thread/async")   
-(enum) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_launch&action=edit)  
+(enum)   
 [ future_status](../thread/future_status.html "cpp/thread/future status")(C++11) |  specifies the results of timed waits performed on [std::future](../thread/future.html "cpp/thread/future") and [std::shared_future](../thread/shared_future.html "cpp/thread/shared future")   
-(enum) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_future_status&action=edit)  
+(enum)   
 [ future_error](../thread/future_error.html "cpp/thread/future error")(C++11) |  reports an error related to futures or promises   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_future_error&action=edit)  
+(class)   
 [ future_errc](../thread/future_errc.html "cpp/thread/future errc")(C++11) |  identifies the future error codes   
-(enum) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_future_errc&action=edit)  
+(enum)   
 [ std::uses_allocator<std::promise>](../thread/promise/uses_allocator.html "cpp/thread/promise/uses allocator")(C++11) |  specializes the [std::uses_allocator](../memory/uses_allocator.html "cpp/memory/uses allocator") type trait   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/promise/dsc_uses_allocator&action=edit)  
+(class template specialization)   
 [ std::uses_allocator<std::packaged_task>](../thread/packaged_task/uses_allocator.html "cpp/thread/packaged task/uses allocator")(C++11) (until C++17) |  specializes the [std::uses_allocator](../memory/uses_allocator.html "cpp/memory/uses allocator") type trait   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/packaged_task/dsc_uses_allocator&action=edit)  
+(class template specialization)   
   
 ###  Functions  
   
 [ async](../thread/async.html "cpp/thread/async")(C++11) |  runs a function asynchronously (potentially in a new thread) and returns a [std::future](../thread/future.html "cpp/thread/future") that will hold the result   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_async&action=edit)  
+(function template)   
 [ future_category](../thread/future_category.html "cpp/thread/future category")(C++11) |  identifies the future error category   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_future_category&action=edit)  
+(function)   
 [ std::swap(std::promise)](../thread/promise/swap2.html "cpp/thread/promise/swap2")(C++11) |  specializes the [std::swap](../utility/swap.html "cpp/algorithm/swap") algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/promise/dsc_swap2&action=edit)  
+(function template)   
 [ std::swap(std::packaged_task)](../thread/packaged_task/swap2.html "cpp/thread/packaged task/swap2")(C++11) |  specializes the [std::swap](../utility/swap.html "cpp/algorithm/swap") algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/packaged_task/dsc_swap2&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/future&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     namespace std {
@@ -312,7 +312,7 @@ This header is part of the [thread support](../atomic.html "cpp/thread") library
           async(launch policy, F&& f, Args&&... args);
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/future&action=edit&section=T-1 "Template:cpp/synopsis/future")] Class [std::future_error](../thread/future_error.html "cpp/thread/future error")
+#### Class [std::future_error](../thread/future_error.html "cpp/thread/future error")
     
     
     namespace std {
@@ -328,7 +328,7 @@ This header is part of the [thread support](../atomic.html "cpp/thread") library
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/future&action=edit&section=T-2 "Template:cpp/synopsis/future")] Class template [std::promise](../thread/promise.html "cpp/thread/promise")
+#### Class template [std::promise](../thread/promise.html "cpp/thread/promise")
     
     
     namespace std {
@@ -366,7 +366,7 @@ This header is part of the [thread support](../atomic.html "cpp/thread") library
         struct uses_allocator<promise<R>, Alloc>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/future&action=edit&section=T-3 "Template:cpp/synopsis/future")] Class template [std::future](../thread/future.html "cpp/thread/future")
+#### Class template [std::future](../thread/future.html "cpp/thread/future")
     
     
     namespace std {
@@ -395,7 +395,7 @@ This header is part of the [thread support](../atomic.html "cpp/thread") library
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/future&action=edit&section=T-4 "Template:cpp/synopsis/future")] Class template [std::shared_future](../thread/shared_future.html "cpp/thread/shared future")
+#### Class template [std::shared_future](../thread/shared_future.html "cpp/thread/shared future")
     
     
     namespace std {
@@ -424,7 +424,7 @@ This header is part of the [thread support](../atomic.html "cpp/thread") library
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/future&action=edit&section=T-5 "Template:cpp/synopsis/future")] Class template [std::packaged_task](../thread/packaged_task.html "cpp/thread/packaged task")
+#### Class template [std::packaged_task](../thread/packaged_task.html "cpp/thread/packaged task")
     
     
     namespace std {

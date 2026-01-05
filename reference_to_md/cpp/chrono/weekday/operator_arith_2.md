@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::weekday`](../weekday.html "cpp/chrono/weekday")
 
@@ -122,7 +122,7 @@ Helper classes
 [formatter<std::chrono::weekday>](formatter.html "cpp/chrono/weekday/formatter")  
 [formatter<std::chrono::hash>](hash.html "cpp/chrono/weekday/hash")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/weekday/navbar_content&action=edit)
+
 
 Defined in header `[<chrono>](../../header/chrono.html "cpp/header/chrono")` |  |   
 ---|---|---  
@@ -152,17 +152,17 @@ const [std::chrono::weekday](../weekday.html)& wd2 ) noexcept; |  (4)  |  (since
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/weekday/operator_arith_2&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 1-3) A std::chrono::weekday holding a weekday value calculated as described above.
 
 4) A std::chrono::days representing the distance between wd1 and wd2.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/weekday/operator_arith_2&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 As long as the computation doesn't overflow, (1-3) always return a valid `weekday` even if wd.ok() is false. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/weekday/operator_arith_2&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -196,10 +196,10 @@ Output:
     
     true true true true true true
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/weekday/operator_arith_2&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ operator++operator++(int)operator--operator--(int)](operator_inc_dec.html "cpp/chrono/weekday/operator inc dec") |  increments or decrements the weekday   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/weekday/dsc_operator_inc_dec&action=edit)  
+(public member function)   
 ---|---  
 [ operator+=operator-=](operator_arith.html "cpp/chrono/weekday/operator arith") |  adds or subtracts a number of days   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/weekday/dsc_operator_arith&action=edit)
+(public member function) 

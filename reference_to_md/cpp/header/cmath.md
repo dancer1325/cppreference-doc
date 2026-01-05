@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header was originally in the C standard library as [`<math.h>`](../../c/header/math.html "c/header/math"). 
 
@@ -227,238 +227,238 @@ This header is part of the [numeric](../numeric.html "cpp/numeric") library.
 ###  Types  
   
 float_t(C++11) |  most efficient floating-point type at least as wide as float   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_float_t&action=edit)  
+(typedef)   
 double_t(C++11) |  most efficient floating-point type at least as wide as double   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_double_t&action=edit)  
+(typedef)   
   
 ###  Macros  
   
 [ HUGE_VALFHUGE_VALHUGE_VALL](../numeric/math/HUGE_VALL.html "cpp/numeric/math/HUGE VAL")(C++11)(C++11) |  indicates the overflow value for float, double and long double respectively   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_HUGE_VAL&action=edit)  
+(macro constant)   
 [ INFINITY](../numeric/math/INFINITY.html "cpp/numeric/math/INFINITY")(C++11) |  evaluates to positive infinity or the value guaranteed to overflow a float   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_INFINITY&action=edit)  
+(macro constant)   
 [ NAN](../numeric/math/NAN.html "cpp/numeric/math/NAN")(C++11) |  evaluates to a quiet NaN of type float   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_NAN&action=edit)  
+(macro constant)   
 [ math_errhandlingMATH_ERRNOMATH_ERREXCEPT](../numeric/math/math_errhandling.html "cpp/numeric/math/math errhandling")(C++11)(C++11)(C++11) |  defines the error handling mechanism used by the common mathematical functions   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_math_errhandling&action=edit)  
+(macro constant)   
   
 #####  Classification   
   
 [ FP_NORMALFP_SUBNORMALFP_ZEROFP_INFINITEFP_NAN](../numeric/math/FP_categories.html "cpp/numeric/math/FP categories")(C++11)(C++11)(C++11)(C++11)(C++11) |  indicates a floating-point category   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_FP_categories&action=edit)  
+(macro constant)   
   
 ###  Functions  
   
 #####  Basic operations   
   
 [ abs(float)fabsfabsffabsl](../numeric/math/fabs.html "cpp/numeric/math/fabs")(C++11)(C++11) |  absolute value of a floating point value (\\(\small{|x|}\\)|x|)   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_fabs&action=edit)  
+(function)   
 [ fmodfmodffmodl](../numeric/math/fmod.html "cpp/numeric/math/fmod")(C++11)(C++11) |  remainder of the floating point division operation   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_fmod&action=edit)  
+(function)   
 [ remainderremainderfremainderl](../numeric/math/remainder.html "cpp/numeric/math/remainder")(C++11)(C++11)(C++11) |  signed remainder of the division operation   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_remainder&action=edit)  
+(function)   
 [ remquoremquofremquol](../numeric/math/remquo.html "cpp/numeric/math/remquo")(C++11)(C++11)(C++11) |  signed remainder as well as the three last bits of the division operation   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_remquo&action=edit)  
+(function)   
 [ fmafmaffmal](../numeric/math/fma.html "cpp/numeric/math/fma")(C++11)(C++11)(C++11) |  fused multiply-add operation   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_fma&action=edit)  
+(function)   
 [ fmaxfmaxffmaxl](../numeric/math/fmax.html "cpp/numeric/math/fmax")(C++11)(C++11)(C++11) |  larger of two floating-point values   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_fmax&action=edit)  
+(function)   
 [ fminfminffminl](../numeric/math/fmin.html "cpp/numeric/math/fmin")(C++11)(C++11)(C++11) |  smaller of two floating point values   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_fmin&action=edit)  
+(function)   
 [ fdimfdimffdiml](../numeric/math/fdim.html "cpp/numeric/math/fdim")(C++11)(C++11)(C++11) |  positive difference of two floating point values (\\({\small\max{(0, x-y)}}\\)max(0, x-y))   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_fdim&action=edit)  
+(function)   
 [ nannanfnanl](../numeric/math/nan.html "cpp/numeric/math/nan")(C++11)(C++11)(C++11) |  not-a-number (NaN)   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_fnan&action=edit)  
+(function)   
   
 #####  Linear interpolation   
   
 [ lerp](../numeric/lerp.html "cpp/numeric/lerp")(C++20) |  linear interpolation function   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/dsc_lerp&action=edit)  
+(function)   
   
 #####  Exponential functions   
   
 [ expexpfexpl](../numeric/math/exp.html "cpp/numeric/math/exp")(C++11)(C++11) |  returns e raised to the given power (\\({\small e^x}\\)ex)   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_exp&action=edit)  
+(function)   
 [ exp2exp2fexp2l](../numeric/math/exp2.html "cpp/numeric/math/exp2")(C++11)(C++11)(C++11) |  returns 2 raised to the given power (\\({\small 2^x}\\)2x)   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_exp2&action=edit)  
+(function)   
 [ expm1expm1fexpm1l](../numeric/math/expm1.html "cpp/numeric/math/expm1")(C++11)(C++11)(C++11) |  returns e raised to the given power, minus 1 (\\({\small e^x-1}\\)ex-1)   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_expm1&action=edit)  
+(function)   
 [ loglogflogl](../numeric/math/log.html "cpp/numeric/math/log")(C++11)(C++11) |  computes natural (base e) logarithm (\\({\small\ln{x}}\\)ln(x))   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_log&action=edit)  
+(function)   
 [ log10log10flog10l](../numeric/math/log10.html "cpp/numeric/math/log10")(C++11)(C++11) |  computes common (base 10) logarithm (\\({\small\log_{10}{x}}\\)log10(x))   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_log10&action=edit)  
+(function)   
 [ log2log2flog2l](../numeric/math/log2.html "cpp/numeric/math/log2")(C++11)(C++11)(C++11) |  base 2 logarithm of the given number (\\({\small\log_{2}{x}}\\)log2(x))   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_log2&action=edit)  
+(function)   
 [ log1plog1pflog1pl](../numeric/math/log1p.html "cpp/numeric/math/log1p")(C++11)(C++11)(C++11) |  natural logarithm (to base e) of 1 plus the given number (\\({\small\ln{(1+x)}}\\)ln(1+x))   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_log1p&action=edit)  
+(function)   
   
 #####  Power functions   
   
 [ powpowfpowl](../numeric/math/pow.html "cpp/numeric/math/pow")(C++11)(C++11) |  raises a number to the given power (\\(\small{x^y}\\)xy)   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_pow&action=edit)  
+(function)   
 [ sqrtsqrtfsqrtl](../numeric/math/sqrt.html "cpp/numeric/math/sqrt")(C++11)(C++11) |  computes square root (\\(\small{\sqrt{x}}\\)√x)   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_sqrt&action=edit)  
+(function)   
 [ cbrtcbrtfcbrtl](../numeric/math/cbrt.html "cpp/numeric/math/cbrt")(C++11)(C++11)(C++11) |  computes cube root (\\(\small{\sqrt[3]{x}}\\)3√x)   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_cbrt&action=edit)  
+(function)   
 [ hypothypotfhypotl](../numeric/math/hypot.html "cpp/numeric/math/hypot")(C++11)(C++11)(C++11) |  computes hypotenuse \\(\scriptsize{\sqrt{x^2+y^2}}\\)√x2  
 +y2  
 and \\(\scriptsize{\sqrt{x^2+y^2+z^2}}\\)√x2  
 +y2  
 +z2  
 (since C++17)   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_hypot&action=edit)  
+(function)   
   
 #####  Trigonometric functions   
   
 [ sinsinfsinl](../numeric/math/sin.html "cpp/numeric/math/sin")(C++11)(C++11) |  computes sine (\\({\small\sin{x}}\\)sin(x))   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_sin&action=edit)  
+(function)   
 [ coscosfcosl](../numeric/math/cos.html "cpp/numeric/math/cos")(C++11)(C++11) |  computes cosine (\\({\small\cos{x}}\\)cos(x))   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_cos&action=edit)  
+(function)   
 [ tantanftanl](../numeric/math/tan.html "cpp/numeric/math/tan")(C++11)(C++11) |  computes tangent (\\({\small\tan{x}}\\)tan(x))   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_tan&action=edit)  
+(function)   
 [ asinasinfasinl](../numeric/math/asin.html "cpp/numeric/math/asin")(C++11)(C++11) |  computes arc sine (\\({\small\arcsin{x}}\\)arcsin(x))   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_asin&action=edit)  
+(function)   
 [ acosacosfacosl](../numeric/math/acos.html "cpp/numeric/math/acos")(C++11)(C++11) |  computes arc cosine (\\({\small\arccos{x}}\\)arccos(x))   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_acos&action=edit)  
+(function)   
 [ atanatanfatanl](../numeric/math/atan.html "cpp/numeric/math/atan")(C++11)(C++11) |  computes arc tangent (\\({\small\arctan{x}}\\)arctan(x))   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_atan&action=edit)  
+(function)   
 [ atan2atan2fatan2l](../numeric/math/atan2.html "cpp/numeric/math/atan2")(C++11)(C++11) |  arc tangent, using signs to determine quadrants   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_atan2&action=edit)  
+(function)   
   
 #####  Hyperbolic functions   
   
 [ sinhsinhfsinhl](../numeric/math/sinh.html "cpp/numeric/math/sinh")(C++11)(C++11) |  computes hyperbolic sine (\\({\small\sinh{x}}\\)sinh(x))   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_sinh&action=edit)  
+(function)   
 [ coshcoshfcoshl](../numeric/math/cosh.html "cpp/numeric/math/cosh")(C++11)(C++11) |  computes hyperbolic cosine (\\({\small\cosh{x}}\\)cosh(x))   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_cosh&action=edit)  
+(function)   
 [ tanhtanhftanhl](../numeric/math/tanh.html "cpp/numeric/math/tanh")(C++11)(C++11) |  computes hyperbolic tangent (\\({\small\tanh{x}}\\)tanh(x))   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_tanh&action=edit)  
+(function)   
 [ asinhasinhfasinhl](../numeric/math/asinh.html "cpp/numeric/math/asinh")(C++11)(C++11)(C++11) |  computes the inverse hyperbolic sine (\\({\small\operatorname{arsinh}{x}}\\)arsinh(x))   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_asinh&action=edit)  
+(function)   
 [ acoshacoshfacoshl](../numeric/math/acosh.html "cpp/numeric/math/acosh")(C++11)(C++11)(C++11) |  computes the inverse hyperbolic cosine (\\({\small\operatorname{arcosh}{x}}\\)arcosh(x))   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_acosh&action=edit)  
+(function)   
 [ atanhatanhfatanhl](../numeric/math/atanh.html "cpp/numeric/math/atanh")(C++11)(C++11)(C++11) |  computes the inverse hyperbolic tangent (\\({\small\operatorname{artanh}{x}}\\)artanh(x))   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_atanh&action=edit)  
+(function)   
   
 #####  Error and gamma functions   
   
 [ erferfferfl](../numeric/math/erf.html "cpp/numeric/math/erf")(C++11)(C++11)(C++11) |  error function   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_erf&action=edit)  
+(function)   
 [ erfcerfcferfcl](../numeric/math/erfc.html "cpp/numeric/math/erfc")(C++11)(C++11)(C++11) |  complementary error function   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_erfc&action=edit)  
+(function)   
 [ tgammatgammaftgammal](../numeric/math/tgamma.html "cpp/numeric/math/tgamma")(C++11)(C++11)(C++11) |  gamma function   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_tgamma&action=edit)  
+(function)   
 [ lgammalgammaflgammal](../numeric/math/lgamma.html "cpp/numeric/math/lgamma")(C++11)(C++11)(C++11) |  natural logarithm of the gamma function   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_lgamma&action=edit)  
+(function)   
   
 #####  Nearest integer floating-point operations   
   
 [ ceilceilfceill](../numeric/math/ceil.html "cpp/numeric/math/ceil")(C++11)(C++11) |  nearest integer not less than the given value   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_ceil&action=edit)  
+(function)   
 [ floorfloorffloorl](../numeric/math/floor.html "cpp/numeric/math/floor")(C++11)(C++11) |  nearest integer not greater than the given value   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_floor&action=edit)  
+(function)   
 [ trunctruncftruncl](../numeric/math/trunc.html "cpp/numeric/math/trunc")(C++11)(C++11)(C++11) |  nearest integer not greater in magnitude than the given value   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_trunc&action=edit)  
+(function)   
 [ roundroundfroundllroundlroundflroundlllroundllroundfllroundl](../numeric/math/round.html "cpp/numeric/math/round")(C++11)(C++11)(C++11)(C++11)(C++11)(C++11)(C++11)(C++11)(C++11) |  nearest integer, rounding away from zero in halfway cases   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_round&action=edit)  
+(function)   
 [ nearbyintnearbyintfnearbyintl](../numeric/math/nearbyint.html "cpp/numeric/math/nearbyint")(C++11)(C++11)(C++11) |  nearest integer using current rounding mode   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_nearbyint&action=edit)  
+(function)   
 [ rintrintfrintllrintlrintflrintlllrintllrintfllrintl](../numeric/math/rint.html "cpp/numeric/math/rint")(C++11)(C++11)(C++11)(C++11)(C++11)(C++11)(C++11)(C++11)(C++11) |  nearest integer using current rounding mode with  
 exception if the result differs   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_rint&action=edit)  
+(function)   
   
 #####  Floating-point manipulation functions   
   
 [ frexpfrexpffrexpl](../numeric/math/frexp.html "cpp/numeric/math/frexp")(C++11)(C++11) |  decomposes a number into significand and base-2 exponent   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_frexp&action=edit)  
+(function)   
 [ ldexpldexpfldexpl](../numeric/math/ldexp.html "cpp/numeric/math/ldexp")(C++11)(C++11) |  multiplies a number by 2 raised to an integral power   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_ldexp&action=edit)  
+(function)   
 [ modfmodffmodfl](../numeric/math/modf.html "cpp/numeric/math/modf")(C++11)(C++11) |  decomposes a number into integer and fractional parts   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_modf&action=edit)  
+(function)   
 [ scalbnscalbnfscalbnlscalblnscalblnfscalblnl](../numeric/math/scalbn.html "cpp/numeric/math/scalbn")(C++11)(C++11)(C++11)(C++11)(C++11)(C++11) |  multiplies a number by [FLT_RADIX](../types/climits.html "cpp/types/climits") raised to a power   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_scalbn&action=edit)  
+(function)   
 [ ilogbilogbfilogbl](../numeric/math/ilogb.html "cpp/numeric/math/ilogb")(C++11)(C++11)(C++11) |  extracts exponent of the number   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_ilogb&action=edit)  
+(function)   
 [ logblogbflogbl](../numeric/math/logb.html "cpp/numeric/math/logb")(C++11)(C++11)(C++11) |  extracts exponent of the number   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_logb&action=edit)  
+(function)   
 [ nextafternextafterfnextafterlnexttowardnexttowardfnexttowardl](../numeric/math/nextafter.html "cpp/numeric/math/nextafter")(C++11)(C++11)(C++11)(C++11)(C++11)(C++11) |  next representable floating-point value towards the given value   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_nextafter&action=edit)  
+(function)   
 [ copysigncopysignfcopysignl](../numeric/math/copysign.html "cpp/numeric/math/copysign")(C++11)(C++11)(C++11) |  copies the sign of a floating point value   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_copysign&action=edit)  
+(function)   
   
 #####  Classification and comparison   
   
 [ fpclassify](../numeric/math/fpclassify.html "cpp/numeric/math/fpclassify")(C++11) |  categorizes the given floating-point value   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_fpclassify&action=edit)  
+(function)   
 [ isfinite](../numeric/math/isfinite.html "cpp/numeric/math/isfinite")(C++11) |  checks if the given number has finite value   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_isfinite&action=edit)  
+(function)   
 [ isinf](../numeric/math/isinf.html "cpp/numeric/math/isinf")(C++11) |  checks if the given number is infinite   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_isinf&action=edit)  
+(function)   
 [ isnan](../numeric/math/isnan.html "cpp/numeric/math/isnan")(C++11) |  checks if the given number is NaN   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_isnan&action=edit)  
+(function)   
 [ isnormal](../numeric/math/isnormal.html "cpp/numeric/math/isnormal")(C++11) |  checks if the given number is normal   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_isnormal&action=edit)  
+(function)   
 [ signbit](../numeric/math/signbit.html "cpp/numeric/math/signbit")(C++11) |  checks if the given number is negative   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_signbit&action=edit)  
+(function)   
 [ isgreater](../numeric/math/isgreater.html "cpp/numeric/math/isgreater")(C++11) |  checks if the first floating-point argument is greater than the second   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_isgreater&action=edit)  
+(function)   
 [ isgreaterequal](../numeric/math/isgreaterequal.html "cpp/numeric/math/isgreaterequal")(C++11) |  checks if the first floating-point argument is greater or equal than the second   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_isgreaterequal&action=edit)  
+(function)   
 [ isless](../numeric/math/isless.html "cpp/numeric/math/isless")(C++11) |  checks if the first floating-point argument is less than the second   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_isless&action=edit)  
+(function)   
 [ islessequal](../numeric/math/islessequal.html "cpp/numeric/math/islessequal")(C++11) |  checks if the first floating-point argument is less or equal than the second   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_islessequal&action=edit)  
+(function)   
 [ islessgreater](../numeric/math/islessgreater.html "cpp/numeric/math/islessgreater")(C++11) |  checks if the first floating-point argument is less or greater than the second   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_islessgreater&action=edit)  
+(function)   
 [ isunordered](../numeric/math/isunordered.html "cpp/numeric/math/isunordered")(C++11) |  checks if two floating-point values are unordered   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_isunordered&action=edit)  
+(function)   
   
 #####  Mathematical special functions   
   
 [ assoc_laguerreassoc_laguerrefassoc_laguerrel](../numeric/special_functions/assoc_laguerre.html "cpp/numeric/special functions/assoc laguerre")(C++17)(C++17)(C++17) |  associated Laguerre polynomials   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/special_functions/dsc_assoc_laguerre&action=edit)  
+(function)   
 [ assoc_legendreassoc_legendrefassoc_legendrel](../numeric/special_functions/assoc_legendre.html "cpp/numeric/special functions/assoc legendre")(C++17)(C++17)(C++17) |  associated Legendre polynomials   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/special_functions/dsc_assoc_legendre&action=edit)  
+(function)   
 [ betabetafbetal](../numeric/special_functions/beta.html "cpp/numeric/special functions/beta")(C++17)(C++17)(C++17) |  beta function   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/special_functions/dsc_beta&action=edit)  
+(function)   
 [ comp_ellint_1comp_ellint_1fcomp_ellint_1l](../numeric/special_functions/comp_ellint_1.html "cpp/numeric/special functions/comp ellint 1")(C++17)(C++17)(C++17) |  (complete) elliptic integral of the first kind   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/special_functions/dsc_comp_ellint_1&action=edit)  
+(function)   
 [ comp_ellint_2comp_ellint_2fcomp_ellint_2l](../numeric/special_functions/comp_ellint_2.html "cpp/numeric/special functions/comp ellint 2")(C++17)(C++17)(C++17) |  (complete) elliptic integral of the second kind   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/special_functions/dsc_comp_ellint_2&action=edit)  
+(function)   
 [ comp_ellint_3comp_ellint_3fcomp_ellint_3l](../numeric/special_functions/comp_ellint_3.html "cpp/numeric/special functions/comp ellint 3")(C++17)(C++17)(C++17) |  (complete) elliptic integral of the third kind   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/special_functions/dsc_comp_ellint_3&action=edit)  
+(function)   
 [ cyl_bessel_icyl_bessel_ifcyl_bessel_il](../numeric/special_functions/cyl_bessel_i.html "cpp/numeric/special functions/cyl bessel i")(C++17)(C++17)(C++17) |  regular modified cylindrical Bessel functions   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/special_functions/dsc_cyl_bessel_i&action=edit)  
+(function)   
 [ cyl_bessel_jcyl_bessel_jfcyl_bessel_jl](../numeric/special_functions/cyl_bessel_j.html "cpp/numeric/special functions/cyl bessel j")(C++17)(C++17)(C++17) |  cylindrical Bessel functions (of the first kind)   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/special_functions/dsc_cyl_bessel_j&action=edit)  
+(function)   
 [ cyl_bessel_kcyl_bessel_kfcyl_bessel_kl](../numeric/special_functions/cyl_bessel_k.html "cpp/numeric/special functions/cyl bessel k")(C++17)(C++17)(C++17) |  irregular modified cylindrical Bessel functions   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/special_functions/dsc_cyl_bessel_k&action=edit)  
+(function)   
 [ cyl_neumanncyl_neumannfcyl_neumannl](../numeric/special_functions/cyl_neumann.html "cpp/numeric/special functions/cyl neumann")(C++17)(C++17)(C++17) |  cylindrical Neumann functions   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/special_functions/dsc_cyl_neumann&action=edit)  
+(function)   
 [ ellint_1ellint_1fellint_1l](../numeric/special_functions/ellint_1.html "cpp/numeric/special functions/ellint 1")(C++17)(C++17)(C++17) |  (incomplete) elliptic integral of the first kind   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/special_functions/dsc_ellint_1&action=edit)  
+(function)   
 [ ellint_2ellint_2fellint_2l](../numeric/special_functions/ellint_2.html "cpp/numeric/special functions/ellint 2")(C++17)(C++17)(C++17) |  (incomplete) elliptic integral of the second kind   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/special_functions/dsc_ellint_2&action=edit)  
+(function)   
 [ ellint_3ellint_3fellint_3l](../numeric/special_functions/ellint_3.html "cpp/numeric/special functions/ellint 3")(C++17)(C++17)(C++17) |  (incomplete) elliptic integral of the third kind   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/special_functions/dsc_ellint_3&action=edit)  
+(function)   
 [ expintexpintfexpintl](../numeric/special_functions/expint.html "cpp/numeric/special functions/expint")(C++17)(C++17)(C++17) |  exponential integral   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/special_functions/dsc_expint&action=edit)  
+(function)   
 [ hermitehermitefhermitel](../numeric/special_functions/hermite.html "cpp/numeric/special functions/hermite")(C++17)(C++17)(C++17) |  Hermite polynomials   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/special_functions/dsc_hermite&action=edit)  
+(function)   
 [ legendrelegendreflegendrel](../numeric/special_functions/legendre.html "cpp/numeric/special functions/legendre")(C++17)(C++17)(C++17) |  Legendre polynomials   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/special_functions/dsc_legendre&action=edit)  
+(function)   
 [ laguerrelaguerreflaguerrel](../numeric/special_functions/laguerre.html "cpp/numeric/special functions/laguerre")(C++17)(C++17)(C++17) |  Laguerre polynomials   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/special_functions/dsc_laguerre&action=edit)  
+(function)   
 [ riemann_zetariemann_zetafriemann_zetal](../numeric/special_functions/riemann_zeta.html "cpp/numeric/special functions/riemann zeta")(C++17)(C++17)(C++17) |  Riemann zeta function   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/special_functions/dsc_riemann_zeta&action=edit)  
+(function)   
 [ sph_besselsph_besselfsph_bessell](../numeric/special_functions/sph_bessel.html "cpp/numeric/special functions/sph bessel")(C++17)(C++17)(C++17) |  spherical Bessel functions (of the first kind)   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/special_functions/dsc_sph_bessel&action=edit)  
+(function)   
 [ sph_legendresph_legendrefsph_legendrel](../numeric/special_functions/sph_legendre.html "cpp/numeric/special functions/sph legendre")(C++17)(C++17)(C++17) |  spherical associated Legendre functions   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/special_functions/dsc_sph_legendre&action=edit)  
+(function)   
 [ sph_neumannsph_neumannfsph_neumannl](../numeric/special_functions/sph_neumann.html "cpp/numeric/special functions/sph neumann")(C++17)(C++17)(C++17) |  spherical Neumann functions   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/special_functions/dsc_sph_neumann&action=edit)  
+(function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/cmath&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+### Synopsis
 
 For each function with at least one parameter of type /* floating-point-type */, an overload for each cv-unqualified floating-point type is provided where all uses of /* floating-point-type */ in the function signature are replaced with that floating-point type. 
 

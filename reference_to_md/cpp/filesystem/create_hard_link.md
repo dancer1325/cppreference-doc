@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Filesystem library](../filesystem.html "cpp/filesystem")
 
@@ -100,7 +100,7 @@ filesystem::symlink_status](status.html "cpp/filesystem/status")
 [filesystem::is_socket](is_socket.html "cpp/filesystem/is socket")  
 [filesystem::is_symlink](is_symlink.html "cpp/filesystem/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/navbar_content&action=edit)
+
 
 Defined in header `[<filesystem>](../header/filesystem.html "cpp/header/filesystem")` |  |   
 ---|---|---  
@@ -127,18 +127,18 @@ Once created, link and target are two logical names that refer to the same file 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/create_hard_link&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 target  |  \-  |  path of the file or directory to link to   
 ---|---|---  
 link  |  \-  |  path of the new hard link   
 ec  |  \-  |  out-parameter for error reporting in the non-throwing overload   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/create_hard_link&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/create_hard_link&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Any overload not marked `noexcept` may throw [std::bad_alloc](../memory/new/bad_alloc.html "cpp/memory/new/bad alloc") if memory allocation fails.  
 
@@ -147,7 +147,7 @@ Any overload not marked `noexcept` may throw [std::bad_alloc](../memory/new/bad_
 
 2) Sets a [std::error_code](../error/error_code.html)& parameter to the OS API error code if an OS API call fails, and executes ec.[`clear`](../error/error_code/clear.html "cpp/error/error code/clear")() if no errors occur.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/create_hard_link&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 Some operating systems do not support hard links at all or support them only for regular files. 
 
@@ -161,7 +161,7 @@ Hard links typically cannot cross filesystem boundaries.
 
 The special pathname dot (".") is a hard link to its parent directory. The special pathname dot-dot ".." is a hard link to the directory that is the parent of its parent. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/create_hard_link&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -188,10 +188,10 @@ Output:
     
     a
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/create_hard_link&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ create_symlinkcreate_directory_symlink](create_symlink.html "cpp/filesystem/create symlink")(C++17)(C++17) |  creates a symbolic link   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_create_symlink&action=edit)  
+(function)   
 ---|---  
 [ hard_link_count](hard_link_count.html "cpp/filesystem/hard link count")(C++17) |  returns the number of hard links referring to the specific file   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_hard_link_count&action=edit)
+(function) 

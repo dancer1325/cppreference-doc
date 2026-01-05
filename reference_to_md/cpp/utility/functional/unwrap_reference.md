@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Function objects](../../functional.html "cpp/utility/functional")
 
@@ -255,7 +255,7 @@ Identity function object
 [unary_negate](unary_negate.html "cpp/utility/functional/unary negate")(until C++20*)  
 [binary_negate](binary_negate.html "cpp/utility/functional/binary negate")(until C++20*)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/navbar_content&action=edit)
+
 
 Defined in header `[<type_traits>](../../header/type_traits.html "cpp/header/type traits")` |  |   
 ---|---|---  
@@ -286,14 +286,14 @@ If the program adds specializations for any of the templates described on this p
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/unwrap_reference&action=edit&section=1 "Edit section: Nested types")] Nested types
+### Nested types
 
 Type  |  Definition   
 ---|---  
 `type` |  (1) `U&` if `T` is [std::reference_wrapper](reference_wrapper.html)<U>; `T` otherwise  
 (2) `U&` if [std::decay_t](../../types/decay.html)<T> is [std::reference_wrapper](reference_wrapper.html)<U>; [std::decay_t](../../types/decay.html)<T> otherwise   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/unwrap_reference&action=edit&section=2 "Edit section: Helper types")] Helper types
+### Helper types
 
 template<class T>  
 using unwrap_reference_t = unwrap_reference<T>::type; |  (1)  |  (since C++20)  
@@ -302,7 +302,7 @@ template<class T>
 using unwrap_ref_decay_t = unwrap_ref_decay<T>::type; |  (2)  |  (since C++20)  
 | |   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/unwrap_reference&action=edit&section=3 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     template<class T>
@@ -315,7 +315,7 @@ using unwrap_ref_decay_t = unwrap_ref_decay<T>::type; |  (2)  |  (since C++20)
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/unwrap_reference&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 `std::unwrap_ref_decay` performs the same transformation as used by [std::make_pair](../pair/make_pair.html "cpp/utility/pair/make pair") and [std::make_tuple](../tuple/make_tuple.html "cpp/utility/tuple/make tuple"). 
 
@@ -323,7 +323,7 @@ using unwrap_ref_decay_t = unwrap_ref_decay<T>::type; |  (2)  |  (since C++20)
 ---|---|---|---  
 [`__cpp_lib_unwrap_ref`](../../experimental/feature_test.html#cpp_lib_unwrap_ref "cpp/feature test") | [`201811L`](../../compiler_support/20.html#cpp_lib_unwrap_ref_201811L "cpp/compiler support/20") | (C++20) | `std::unwrap_ref_decay` and `std::unwrap_reference`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/unwrap_reference&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -389,14 +389,14 @@ Output:
     r: 1
     r: 2
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/unwrap_reference&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ reference_wrapper](reference_wrapper.html "cpp/utility/functional/reference wrapper")(C++11) |  [CopyConstructible](../../named_req/CopyConstructible.html "cpp/named req/CopyConstructible") and [CopyAssignable](../../named_req/CopyAssignable.html "cpp/named req/CopyAssignable") reference wrapper   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_reference_wrapper&action=edit)  
+(class template)   
 ---|---  
 [ make_pair](../pair/make_pair.html "cpp/utility/pair/make pair") |  creates a `pair` object of type, determined by the argument types   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/pair/dsc_make_pair&action=edit)  
+(function template)   
 [ make_tuple](../tuple/make_tuple.html "cpp/utility/tuple/make tuple")(C++11) |  creates a `tuple` object of the type defined by the argument types   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/dsc_make_tuple&action=edit)
+(function template) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Basic Concepts](basics.html "cpp/language/basic concepts")
 
@@ -249,7 +249,7 @@ Miscellaneous
 [Modules](modules.html "cpp/language/modules") (C++20)  
 [Contracts](contracts.html "cpp/language/contracts") (C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/basics/navbar_content&action=edit)
+
 
 For an _unqualified_ name, that is a name that does not appear to the right of a scope resolution operator `**::**`, name lookup examines the [scopes](scope.html "cpp/language/scope") as described below, until it finds at least one declaration of any kind, at which time the lookup stops and no further scopes are examined. (Note: lookup from some contexts skips some declarations, for example, lookup of the name used to the left of `**::**` ignores function, variable, and enumerator declarations, lookup of a name used as a base class specifier ignores all non-type declarations). 
 
@@ -283,7 +283,7 @@ Unqualified name lookup of the name used to the left of the function-call operat
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/unqualified_lookup&action=edit&section=1 "Edit section: File scope")] File scope
+### File scope
 
 For a name used in global (top-level namespace) scope, outside of any function, class, or user-declared namespace, the global scope before the use of the name is examined: 
     
@@ -294,7 +294,7 @@ For a name used in global (top-level namespace) scope, outside of any function, 
     int z = y - 1; // Error: lookup fails
     int y = 2;     // declaration of y
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/unqualified_lookup&action=edit&section=2 "Edit section: Namespace scope")] Namespace scope
+### Namespace scope
 
 For a name used in a user-declared namespace outside of any function or class, this namespace is searched before the use of the name, then the namespace enclosing this namespace before the declaration of this namespace, etc until the global namespace is reached. 
     
@@ -315,7 +315,7 @@ For a name used in a user-declared namespace outside of any function or class, t
         int k = 3;
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/unqualified_lookup&action=edit&section=3 "Edit section: Definition outside of its namespace")] Definition outside of its namespace
+### Definition outside of its namespace
 
 For a name used in the definition of a namespace-member variable outside the namespace, lookup proceeds the same way as for a name used inside the namespace: 
     
@@ -329,7 +329,7 @@ For a name used in the definition of a namespace-member variable outside the nam
     int n = 2;        // found 2nd
     int X::x = n;     // finds X::n, sets X::x to 1
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/unqualified_lookup&action=edit&section=4 "Edit section: Non-member function definition")] Non-member function definition
+### Non-member function definition
 
 For a name used in the definition of a function, either in its body or as part of default argument, where the function is a member of user-declared or global namespace, the block in which the name is used is searched before the use of the name, then the enclosing block is searched before the start of that block, etc, until reaching the block that is the function body. Then the namespace in which the function is declared is searched until the definition (not necessarily the declaration) of the function that uses the name, then the enclosing namespaces, etc. 
     
@@ -368,7 +368,7 @@ For a name used in the definition of a function, either in its body or as part o
         }
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/unqualified_lookup&action=edit&section=5 "Edit section: Class definition")] Class definition
+### Class definition
 
 For a name used anywhere in [class definition](class.html "cpp/language/class") (including base class specifiers and nested class definitions), except inside a member function body, a default argument of a member function, exception specification of a member function, or default member initializer, where the member may belong to a nested class whose definition is in the body of the enclosing class, the following scopes are searched: 
 
@@ -420,11 +420,11 @@ For a [friend](friend.html "cpp/language/friend") declaration, the lookup to det
      
     // const int i = 5;                    // never found
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/unqualified_lookup&action=edit&section=6 "Edit section: Injected class name")] Injected class name
+### Injected class name
 
 For the name of a class or class template used within the definition of that class or template or derived from one, unqualified name lookup finds the class that's being defined as if the name was introduced by a member declaration (with public member access). For more detail, see [injected-class-name](injected-class-name.html "cpp/language/injected-class-name"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/unqualified_lookup&action=edit&section=7 "Edit section: Member function definition")] Member function definition
+### Member function definition
 
 For a name used inside a member function body, a default argument of a member function, exception specification of a member function, or a default member initializer, the scopes searched are the same as in [class definition](unqualified_lookup.html#Class_definition), except that the entire scope of the class is considered, not just the part prior to the declaration that uses the name. For nested classes the entire body of the enclosing class is searched. 
     
@@ -544,7 +544,7 @@ A _lookup set_ is constructed, which consists of the declarations and the subobj
         ++pd.a;       // error, ambiguous: B::a in B1 and B::a in B2 
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/unqualified_lookup&action=edit&section=8 "Edit section: Friend function definition")] Friend function definition
+### Friend function definition
 
 For a name used in a [friend](friend.html "cpp/language/friend") function definition inside the body of the class that is granting friendship, unqualified name lookup proceeds the same way as for a member function. For a name used in a [friend](friend.html "cpp/language/friend") function which is defined outside the body of a class, unqualified name lookup proceeds the same way as for a function in a namespace. 
     
@@ -572,7 +572,7 @@ For a name used in a [friend](friend.html "cpp/language/friend") function defini
         i = x;                     // finds and modifies ::i
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/unqualified_lookup&action=edit&section=9 "Edit section: Friend function declaration")] Friend function declaration
+### Friend function declaration
 
 For a name used in the declarator of a [friend](friend.html "cpp/language/friend") function declaration that friends a member function from another class, if the name is not a part of any template argument in the [declarator](declarations.html#Declarators "cpp/language/declarations") identifier, the unqualified lookup first examines the entire scope of the member function's class. If not found in that scope (or if the name is a part of a template argument in the declarator identifier), the lookup continues as if for a member function of the class that is granting friendship. 
     
@@ -614,7 +614,7 @@ For a name used in the declarator of a [friend](friend.html "cpp/language/friend
                                   // (AT is not in the declarator identifier A::f4)
     };
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/unqualified_lookup&action=edit&section=10 "Edit section: Default argument")] Default argument
+### Default argument
 
 For a name used in a [default argument](default_arguments.html "cpp/language/default arguments") in a function declaration, or name used in the expression part of a [member-initializer](initializer_list.html "cpp/language/initializer list") of a constructor, the function parameter names are found first, before the enclosing block, class, or namespace scopes are examined: 
     
@@ -636,7 +636,7 @@ For a name used in a [default argument](default_arguments.html "cpp/language/def
     int f(int a, int b = a); // error: lookup for a finds the parameter a, not ::a
                              // and parameters are not allowed as default arguments
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/unqualified_lookup&action=edit&section=11 "Edit section: Static data member definition")] Static data member definition
+### Static data member definition
 
 For a name used in the definition of a [static data member](static.html "cpp/language/static"), lookup proceeds the same way as for a name used in the definition of a member function. 
     
@@ -650,7 +650,7 @@ For a name used in the definition of a [static data member](static.html "cpp/lan
     int n = 2;                  // found 2nd
     int X::x = n;               // finds X::n, sets X::x to 1, not 2
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/unqualified_lookup&action=edit&section=12 "Edit section: Enumerator declaration")] Enumerator declaration
+### Enumerator declaration
 
 For a name used in the initializer part of the [enumerator declaration](enum.html "cpp/language/enum"), previously declared enumerators in the same enumeration are found first, before the unqualified name lookup proceeds to examine the enclosing block, class, or namespace scope. 
     
@@ -664,7 +664,7 @@ For a name used in the initializer part of the [enumerator declaration](enum.htm
         BLUE = ::RED + 4 // qualified lookup finds ::RED, BLUE = 11
     };
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/unqualified_lookup&action=edit&section=13 "Edit section: Handler of a function try block")] Handler of a function try block
+### Handler of a function try block
 
 For a name used in the [handler](catch.html "cpp/language/catch") of a [function try block](try.html#Function_try_block "cpp/language/try"), lookup proceeds as if for a name used in the very beginning of the outermost block of the function body (in particular, function parameters are visible, but names declared in that outermost block are not) 
     
@@ -683,7 +683,7 @@ For a name used in the [handler](catch.html "cpp/language/catch") of a [function
         throw;
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/unqualified_lookup&action=edit&section=14 "Edit section: Overloaded operator")] Overloaded operator
+### Overloaded operator
 
 For an [operator](expressions.html#Operators "cpp/language/expressions") used in expression (e.g., operator+ used in a + b), the lookup rules are slightly different from the operator used in an explicit function-call expression such as operator+(a, b): when parsing an expression, two separate lookups are performed: for the non-member operator overloads and for the member operator overloads (for the operators where both forms are permitted). Those sets are then merged with the built-in operator overloads on equal grounds as described in [overload resolution](overload_resolution.html "cpp/language/overload resolution"). If explicit function call syntax is used, regular unqualified name lookup is performed: 
     
@@ -709,7 +709,7 @@ For an [operator](expressions.html#Operators "cpp/language/expressions") used in
                // finds ::operator+(A, A), overload resolution selects ::operator+(A, A)
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/unqualified_lookup&action=edit&section=15 "Edit section: Template definition")] Template definition
+### Template definition
 
 For a [non-dependent name](dependent_name.html "cpp/language/dependent name") used in a template definition, unqualified name lookup takes place when the template definition is examined. The binding to the declarations made at that point is not affected by declarations visible at the point of instantiation. For a [dependent name](dependent_name.html "cpp/language/dependent name") used in a template definition, the lookup is postponed until the template arguments are known, at which time [ADL](adl.html "cpp/language/adl") examines function declarations with external linkage(until C++11) that are visible from the template definition context as well as in the template instantiation context, while non-ADL lookup only examines function declarations with external linkage(until C++11) that are visible from the template definition context (in other words, adding a new function declaration after template definition does not make it visible except via ADL). The behavior is undefined if there is a better match with external linkage in the namespaces examined by the ADL lookup, declared in some other translation unit, or if the lookup would have been ambiguous if those translation units were examined. In any case, if a base class depends on a template parameter, its scope is not examined by unqualified name lookup (neither at the point of definition nor at the point of instantiation). 
     
@@ -761,18 +761,18 @@ For a [non-dependent name](dependent_name.html "cpp/language/dependent name") us
 
 Note: see [dependent name lookup rules](dependent_name.html#Lookup_rules "cpp/language/dependent name") for the reasoning and implications of this rule. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/unqualified_lookup&action=edit&section=16 "Edit section: Template name")] Template name
+### Template name
 
 | This section is incomplete  
 Reason: dual-scope lookup of the template name after -> and .   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/unqualified_lookup&action=edit&section=17 "Edit section: Member of a class template outside of template")] Member of a class template outside of template
+### Member of a class template outside of template
 
 | This section is incomplete   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/unqualified_lookup&action=edit&section=18 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -788,7 +788,7 @@ scope was first looked up in that scope  | the unqualified names used to define 
 namespace variable member outside that  
 namespace are first looked up in that namespace   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/unqualified_lookup&action=edit&section=19 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -922,7 +922,7 @@ namespace are first looked up in that namespace
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/unqualified_lookup&action=edit&section=20 "Edit section: See also")] See also
+### See also
 
   * [Qualified name lookup](qualified_lookup.html "cpp/language/qualified lookup")
   * [Scope](scope.html "cpp/language/scope")

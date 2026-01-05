@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::array`](../array.html "cpp/container/array")
 
@@ -129,7 +129,7 @@ Tables
 [tuple_element<std::array>](tuple_element.html "cpp/container/array/tuple element")  
 [Deduction guides](deduction_guides.html "cpp/container/array/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/array/navbar_content&action=edit)
+
 
 reference front(); |  (1) | (since C++11)   
 (constexpr since C++17)  
@@ -160,19 +160,19 @@ If [empty()](empty.html "cpp/container/array/empty") is true:
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/front&action=edit&section=T-1 "Template:cpp/container/front")] Return value
+### Return value
 
 Reference to the first element. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/front&action=edit&section=T-2 "Template:cpp/container/front")] Complexity
+### Complexity
 
 Constant. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/front&action=edit&section=T-3 "Template:cpp/container/front")] Notes
+### Notes
 
 For a container c, the expression c.front() is equivalent to *c.begin(). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/front&action=edit&section=T-4 "Template:cpp/container/front")] Example
+### Example
 
 The following code uses `front` to display the first element of a [std::array](../array.html)<char, 4>:
 
@@ -188,14 +188,14 @@ Run this code
         [assert](../../error/assert.html)(letters.front() == 'a');
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/front&action=edit&section=T-5 "Template:cpp/container/front")] See also
+### See also
 
 [ back](back.html "cpp/container/array/back") |  access the last element   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_back&action=edit)  
+(public member function)   
 ---|---  
 [ rendcrend](rend.html "cpp/container/array/rend") |  returns a reverse iterator to the end   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_rend&action=edit)  
+(public member function)   
 [ begincbegin](begin.html "cpp/container/array/begin") |  returns an iterator to the beginning   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_begin&action=edit)  
+(public member function)   
 [ data](data.html "cpp/container/array/data") |  direct access to the underlying contiguous storage   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_data&action=edit)
+(public member function) 

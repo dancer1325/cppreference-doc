@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::inplace_vector`](../inplace_vector.html "cpp/container/inplace vector")
 
@@ -134,7 +134,7 @@ Tables
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/inplace_vector/navbar_content&action=edit)
+
 
 constexpr ~inplace_vector(); |  | (since C++26)  
 ---|---|---  
@@ -144,10 +144,10 @@ Destructs the `inplace_vector`. The destructors of the elements are called and t
 
 If [std::is_trivially_destructible_v](../../types/is_destructible.html)<T> is true, the destructor is [trivial](../../language/destructor.html#Trivial_destructor "cpp/language/destructor"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/destructor&action=edit&section=T-1 "Template:cpp/container/destructor")] Complexity
+### Complexity
 
 Linear in the size of *this. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/destructor&action=edit&section=T-2 "Template:cpp/container/destructor")] Notes
+### Notes
 
 If the elements are pointers, the pointed-to objects are not destroyed. 

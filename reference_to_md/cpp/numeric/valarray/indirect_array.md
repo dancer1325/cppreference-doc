@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [`std::valarray`](../valarray.html "cpp/numeric/valarray")
 
@@ -155,7 +155,7 @@
   
 [Deduction guides](deduction_guides.html "cpp/numeric/valarray/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/navbar_content&action=edit)
+
 
 **`std::indirect_array`**
 
@@ -166,7 +166,7 @@ Member functions
 [indirect_array::operator=](indirect_array/operator=.html "cpp/numeric/valarray/indirect array/operator=")  
 [indirect_array::operator+=indirect_array::operator-=indirect_array::operator*=indirect_array::operator/=indirect_array::operator%=indirect_array::operator&=indirect_array::operator|=indirect_array::operator^=indirect_array::operator<<=indirect_array::operator>>=](indirect_array/operator_arith.html "cpp/numeric/valarray/indirect array/operator arith")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/indirect_array/navbar_content&action=edit)
+
 
 Defined in header `[<valarray>](../../header/valarray.html "cpp/header/valarray")` |  |   
 ---|---|---  
@@ -175,25 +175,25 @@ template< class T > class indirect_array; |  |
   
 `std::indirect_array` is a helper template used by the [valarray subscript operator](operator_at.html "cpp/numeric/valarray/operator at") with [std::valarray](../valarray.html)<[std::size_t](../../types/size_t.html)> argument. It has reference semantics to a subset of the array whose indices specified by the [std::valarray](../valarray.html)<[std::size_t](../../types/size_t.html)> object. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/indirect_array&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Type  |  Definition   
 ---|---  
 `value_type` |  `T`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/indirect_array&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](indirect_array/indirect_array.html "cpp/numeric/valarray/indirect array/indirect array") |  constructs a `indirect_array`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/array/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ (destructor)](indirect_array/~indirect_array.html "cpp/numeric/valarray/indirect array/~indirect array") |  destroys a `indirect_array`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/array/dsc_destructor&action=edit)  
+(public member function)   
 [ operator=](indirect_array/operator=.html "cpp/numeric/valarray/indirect array/operator=") |  assigns contents   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/array/dsc_operator%3D&action=edit)  
+(public member function)   
 [ operator+=operator-=operator*=operator/=operator%=operator&=operator|=operator^=operator<<=operator>>=](indirect_array/operator_arith.html "cpp/numeric/valarray/indirect array/operator arith") |  performs arithmetic operation on the array referred by indirect array.   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/array/dsc_operator_arith&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/indirect_array&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     

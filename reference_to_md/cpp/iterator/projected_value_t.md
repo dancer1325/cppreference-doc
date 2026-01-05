@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](empty.html "cpp/iterator/empty")(C++17)  
 [data](data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 Defined in header `[<iterator>](../header/iterator.html "cpp/header/iterator")` |  |   
 ---|---|---  
@@ -218,30 +218,30 @@ The alias template `projected_value_t` obtains the value type by stripping any r
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/projected_value_t&action=edit&section=1 "Edit section: Template parameters")] Template parameters
+### Template parameters
 
 I  |  \-  |  an indirectly readable type   
 ---|---|---  
 Proj  |  \-  |  projection applied to an lvalue reference to value type of `I`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/projected_value_t&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../utility/feature_test.html "cpp/utility/feature test") macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_algorithm_default_value_type`](../experimental/feature_test.html#cpp_lib_algorithm_default_value_type "cpp/feature test") | [`202403L`](../compiler_support/26.html#cpp_lib_algorithm_default_value_type_202403L "cpp/compiler support/26") | (C++26) | default template type for algorithm values using `std::projected_value_t`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/projected_value_t&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/projected_value_t&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ indirect_result_t](indirect_result_t.html "cpp/iterator/indirect result t")(C++20) |  computes the result of invoking a callable object on the result of dereferencing some set of [`indirectly_readable`](indirectly_readable.html "cpp/iterator/indirectly readable") types  
-(alias template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_indirect_result_t&action=edit)  
+(alias template)  
 ---|---  
 [ projected](projected.html "cpp/iterator/projected")(C++20) |  helper template for specifying the constraints on algorithms that accept projections  
-(alias template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_projected&action=edit)
+(alias template)
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

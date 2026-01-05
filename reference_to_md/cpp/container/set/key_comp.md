@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::set`](../set.html "cpp/container/set")
 
@@ -133,7 +133,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/set/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/set/navbar_content&action=edit)
+
 
 key_compare key_comp() const; |  | (constexpr since C++26)  
 ---|---|---  
@@ -151,15 +151,15 @@ Returns the function object that compares the keys, which is a copy of the key c
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/key_comp&action=edit&section=T-1 "Template:cpp/container/key comp")] Return value
+### Return value
 
 The key comparison function object. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/key_comp&action=edit&section=T-2 "Template:cpp/container/key comp")] Complexity
+### Complexity
 
 Constant. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/key_comp&action=edit&section=T-3 "Template:cpp/container/key comp")] Example
+### Example
 
 Run this code
     
@@ -209,8 +209,8 @@ Output:
     Key (4) goes after key (100)
     Key (5) goes after key (100)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/key_comp&action=edit&section=T-4 "Template:cpp/container/key comp")] See also
+### See also
 
 [ value_comp](value_comp.html "cpp/container/set/value comp") |  returns the function that compares keys in objects of type `value_type`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_value_comp&action=edit)  
+(public member function)   
 ---|---

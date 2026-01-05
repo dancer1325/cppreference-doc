@@ -5,8 +5,8 @@
       * may include "enumerators"
       * of the _underlying type_ of the enumeration
     * 's [size](sizeof.md) == _underlying type_'s size
-    * 's [value representation](objects.md#Object_representation_and_value_representation) == _underlying type_'s value representation 
-    * 's [alignment requirements](objects.md#Alignment "cpp/language/object") == _underlying type_'s alignment requirements
+    * 's [value representation](objects.md#object-representation-and-value-representation) == _underlying type_'s value representation 
+    * 's [alignment requirements](objects.md#alignment) == _underlying type_'s alignment requirements
 
 * "enumerators"
   * := explicitly named constants
@@ -15,23 +15,59 @@
 * _underlying type_ of the enumeration
   * == [integral type](type-id.md)
 
-    
-* Furthermore, each value of an enumeration has the same representation as the corresponding value of the underlying type. 
+## syntax   
+### (1)
 
-An enumeration is (re)declared using the following syntax:   
-  
+```c++
+  enum-key attr enum-head-name enum-base
+  { enumerator-list }
+```
+* `attr`
+  * OPTIONAL
+* `enum-head-name`
+  * OPTIONAL
+* `enum-base`
+  * OPTIONAL  
+* `enumerator-list`
+  * OPTIONAL   
 
-enum-key attr ﻿(optional) enum-head-name ﻿(optional) enum-base ﻿(optional)  
-`**{**` enumerator-list ﻿(optional) `**}**` |  (1)  |   
-enum-key attr ﻿(optional) enum-head-name ﻿(optional) enum-base ﻿(optional)  
-`**{**` enumerator-list `**, }**` |  (2)  |   
-enum-key attr ﻿(optional) enum-head-name enum-base ﻿(optional) `**;**` |  (3)  |  (since C++11)  
-  
-1) enum-specifier, which appears in decl-specifier-seq of the [declaration](declarations.html "cpp/language/declarations") syntax: defines the enumeration type and its enumerators.
+1) enum-specifier, which appears in decl-specifier-seq of the [declaration](declarations.md) syntax: defines the enumeration type and its enumerators.
+
+### (2)
+
+```c++
+  enum-key attr enum-head-name enum-base
+  { enumerator-list, }
+```
+* `attr`
+  * OPTIONAL
+* `enum-head-name`
+  * OPTIONAL
+* `enum-base`
+  * OPTIONAL
 
 2) A trailing comma can follow the enumerator-list.
 
+### (3)
+
+```c++
+  enum-key attr enum-head-name enum-base;
+```
+* requirements
+  * C++11)
+* `attr`
+  * OPTIONAL
+* `enum-base`
+  * OPTIONAL
+* `enumerator-list`
+  * OPTIONAL
+
 3) Opaque enum declaration: defines the enumeration type but not its enumerators: after this declaration, the type is a complete type and its size is known.
+
+
+
+
+
 
 enum-key |  \-  |  |  `**enum**` | (until C++11)  
 ---|---  

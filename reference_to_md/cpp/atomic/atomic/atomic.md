@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::atomic`](../atomic.html "cpp/atomic/atomic")
 
@@ -210,7 +210,7 @@ pointer types only](../atomic.html#Specialized_for_integral_and_pointer_types_on
 [atomic::fetch_xor](fetch_xor.html "cpp/atomic/atomic/fetch xor")  
 [atomic::operator&=atomic::operator|=atomic::operator^=](operator_arith3.html "cpp/atomic/atomic/operator arith3")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/navbar_content&action=edit)
+
 
 | (1) |   
 ---|---|---  
@@ -231,17 +231,17 @@ Constructs a new atomic variable.
 
 3) Atomic variables are not [CopyConstructible](../../named_req/CopyConstructible.html "cpp/named req/CopyConstructible").
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic/atomic&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 desired  |  \-  |  value to initialize with   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic/atomic&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 The default-initialized [std::atomic](../atomic.html)<T> does not contain a `T` object, and its only valid uses are destruction and initialization by [std::atomic_init](../atomic_init.html "cpp/atomic/atomic init"), see [LWG issue 2334](https://cplusplus.github.io/LWG/issue2334).  | (until C++20)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic/atomic&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

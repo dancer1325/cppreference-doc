@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Localization library](../locale.html "cpp/locale")
 
@@ -152,7 +152,7 @@ base classes](../locale.html#Facet_category_base_classes "cpp/locale")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/navbar_content&action=edit)
+
 
 Defined in header `[<locale>](../header/locale.html "cpp/header/locale")` |  |   
 ---|---|---  
@@ -173,17 +173,17 @@ Checks if the given character is classified as a hexadecimal digit by the given 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/isxdigit&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 ch  |  \-  |  character   
 ---|---|---  
 loc  |  \-  |  locale   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/isxdigit&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Returns true if the character is classified as a hexadecimal digit, false otherwise. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/isxdigit&action=edit&section=3 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     template<class CharT>
@@ -194,7 +194,7 @@ Returns true if the character is classified as a hexadecimal digit, false otherw
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/isxdigit&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -243,10 +243,10 @@ Output:
     Hexadecimal digits in text: 0 1 2 3 4 5 6 7 8 9 a b c d e f A B C D E F α β γ δ ε ζ
     Not hexadecimal digits in text: η θ ι κ λ μ
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/isxdigit&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ isxdigit](../string/byte/isxdigit.html "cpp/string/byte/isxdigit") |  checks if a character is a hexadecimal character   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_isxdigit&action=edit)  
+(function)   
 ---|---  
 [ iswxdigit](../string/wide/iswxdigit.html "cpp/string/wide/iswxdigit") |  checks if a wide character is a hexadecimal character   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_iswxdigit&action=edit)
+(function) 

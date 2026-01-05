@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Regular expressions library](../regex.html "cpp/regex")
 
@@ -81,7 +81,7 @@ Constants
 Regex Grammar  
 [Modified ECMAScript-262](ecmascript.html "cpp/regex/ecmascript")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/navbar_content&action=edit)
+
 
 Defined in header `[<regex>](../header/regex.html "cpp/header/regex")` |  |   
 ---|---|---  
@@ -209,7 +209,7 @@ m[`[n]`](match_results/operator_at.html "cpp/regex/match results/operator at").m
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/regex_match&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  the target character range   
 ---|---|---  
@@ -219,11 +219,11 @@ m  |  \-  |  the match results
 e  |  \-  |  the regular expression   
 flags  |  \-  |  flags used to determine how the match will be performed   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/regex_match&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Returns true if the entire target sequence matches e, false otherwise. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/regex_match&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Because `regex_match` only considers full matches, the same regex may give different matches between `regex_match` and [std::regex_search](regex_search.html "cpp/regex/regex search"): 
     
@@ -235,7 +235,7 @@ Because `regex_match` only considers full matches, the same regex may give diffe
     [std::regex_search](regex_search.html)("GetValues", m, re); // returns true, and m[0] contains "Get"
     std::regex_match ("GetValues", m, re); // returns false
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/regex_match&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -308,7 +308,7 @@ Output:
       submatch 1: baz
       submatch 2: dat
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/regex_match&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -319,12 +319,12 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [LWG 2329](https://cplusplus.github.io/LWG/issue2329) | C++11  | overload (5) accepted `basic_string` rvalues,  
 which could result in dangling iterators  | rejected via deleted overload (7)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/regex_match&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ basic_regex](basic_regex.html "cpp/regex/basic regex")(C++11) |  regular expression object   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/dsc_basic_regex&action=edit)  
+(class template)   
 ---|---  
 [ match_results](match_results.html "cpp/regex/match results")(C++11) |  identifies one regular expression match, including all sub-expression matches   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/dsc_match_results&action=edit)  
+(class template)   
 [ regex_search](regex_search.html "cpp/regex/regex search")(C++11) |  attempts to match a regular expression to any part of a character sequence   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/dsc_regex_search&action=edit)
+(function template) 

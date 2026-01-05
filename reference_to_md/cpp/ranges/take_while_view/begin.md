@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::take_while_view`](../take_while_view.html "cpp/ranges/take while view")
 
@@ -241,7 +241,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
 [take_while_view::_sentinel_ ::base](sentinel/base.html "cpp/ranges/take while view/sentinel/base")  
 [operator==(take_while_view::_sentinel_)](sentinel/operator_cmp.html "cpp/ranges/take while view/sentinel/operator cmp")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/take_while_view/navbar_content&action=edit)
+
 
 constexpr auto begin() requires (!/*simple-view*/<V>); |  (1)  |  (since C++20)  
 ---|---|---  
@@ -265,21 +265,21 @@ Overload (1) does not participate in overload resolution if `V` is a [simple vie
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/take_while_view/begin&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/take_while_view/begin&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 [ranges::begin](../begin.html)(base_), where [`_base__`](../take_while_view.html#Data_members "cpp/ranges/take while view") is the underlying view. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/take_while_view/begin&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/take_while_view/begin&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -287,10 +287,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 3450](https://cplusplus.github.io/LWG/issue3450) | C++20  | the const overload might return an iterator non-comparable to the sentinel  | constrained   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/take_while_view/begin&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ end](end.html "cpp/ranges/take while view/end") |  returns a sentinel representing the end   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/dsc_end&action=edit)  
+(public member function)   
 ---|---  
 [ operator==](sentinel/operator_cmp.html "cpp/ranges/take while view/sentinel/operator cmp")(C++20) |  compares a sentinel with an iterator returned from **`take_while_view::begin`**   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/sentinel/dsc_operator_cmp&action=edit)
+(function) 

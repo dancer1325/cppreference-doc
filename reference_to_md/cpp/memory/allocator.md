@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 **`std::allocator`**
 
@@ -202,7 +202,7 @@ Member functions
 Non-member functions  
 [operator==operator!=](allocator/operator_cmp.html "cpp/memory/allocator/operator cmp")(until C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/allocator/navbar_content&action=edit)
+
 
 Defined in header `[<memory>](../header/memory.html "cpp/header/memory")` |  |   
 ---|---|---  
@@ -233,7 +233,7 @@ The default allocator satisfies [allocator completeness requirements](../named_r
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/allocator&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Type  |  Definition   
 ---|---  
@@ -252,41 +252,41 @@ typedef allocator<U> other;
 };  
 `is_always_equal` (C++11)(deprecated in C++23)(removed in C++26) |  [std::true_type](../types/integral_constant.html "cpp/types/integral constant")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/allocator&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](allocator/allocator.html "cpp/memory/allocator/allocator") |  creates a new allocator instance   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/allocator/dsc_allocator&action=edit)  
+(public member function)   
 ---|---  
 [ (destructor)](allocator/~allocator.html "cpp/memory/allocator/~allocator") |  destructs an allocator instance   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/allocator/dsc_%7Eallocator&action=edit)  
+(public member function)   
 [ address](allocator/address.html "cpp/memory/allocator/address")(until C++20) |  obtains the address of an object, even if operator& is overloaded   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/allocator/dsc_address&action=edit)  
+(public member function)   
 [ allocate](allocator/allocate.html "cpp/memory/allocator/allocate") |  allocates uninitialized storage   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/allocator/dsc_allocate&action=edit)  
+(public member function)   
 [ allocate_at_least](allocator/allocate_at_least.html "cpp/memory/allocator/allocate at least")(C++23) |  allocates uninitialized storage at least as large as requested size   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/allocator/dsc_allocate_at_least&action=edit)  
+(public member function)   
 [ deallocate](allocator/deallocate.html "cpp/memory/allocator/deallocate") |  deallocates storage   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/allocator/dsc_deallocate&action=edit)  
+(public member function)   
 [ max_size](allocator/max_size.html "cpp/memory/allocator/max size")(until C++20) |  returns the largest supported allocation size   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/allocator/dsc_max_size&action=edit)  
+(public member function)   
 [ construct](allocator/construct.html "cpp/memory/allocator/construct")(until C++20) |  constructs an object in allocated storage   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/allocator/dsc_construct&action=edit)  
+(public member function)   
 [ destroy](allocator/destroy.html "cpp/memory/allocator/destroy")(until C++20) |  destructs an object in allocated storage   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/allocator/dsc_destroy&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/allocator&action=edit&section=3 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ operator==operator!=](allocator/operator_cmp.html "cpp/memory/allocator/operator cmp")(removed in C++20) |  compares two allocator instances   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/allocator/dsc_operator_cmp&action=edit)  
+(public member function)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/allocator&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 The member template class `rebind` provides a way to obtain an allocator for a different type. For example, [std::list](../container/list.html)<T, A> allocates nodes of some internal type `Node<T>`, using the allocator `A::rebind<Node<T>>::other`(until C++11)[std::allocator_traits](allocator_traits.html)<A>::rebind_alloc<Node<T>>, which is implemented in terms of `A::rebind<Node<T>>::other` if A is an `std::allocator`(since C++11). 
 
 Member type `is_always_equal` is deprecated via [LWG issue 3170](https://cplusplus.github.io/LWG/issue3170), because it makes custom allocators derived from `std::allocator` treated as always equal by default. [std::allocator_traits](allocator_traits.html)<std::allocator<T>>::is_always_equal is not deprecated and its member constant `value` is true for any `T`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/allocator&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -338,7 +338,7 @@ Output:
     7
     foo bar
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/allocator&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -347,12 +347,12 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [LWG 2103](https://cplusplus.github.io/LWG/issue2103) | C++11  | redundant comparison between `allocator` might be required  | `propagate_on_container_move_assignment` provided   
 [LWG 2108](https://cplusplus.github.io/LWG/issue2108) | C++11  | there was no way to show `allocator` is stateless  | `is_always_equal` provided   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/allocator&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ allocator_traits](allocator_traits.html "cpp/memory/allocator traits")(C++11) |  provides information about allocator types   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_allocator_traits&action=edit)  
+(class template)   
 ---|---  
 [ scoped_allocator_adaptor](scoped_allocator_adaptor.html "cpp/memory/scoped allocator adaptor")(C++11) |  implements multi-level allocator for multi-level containers   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_scoped_allocator_adaptor&action=edit)  
+(class template)   
 [ uses_allocator](uses_allocator.html "cpp/memory/uses allocator")(C++11) |  checks if the specified type supports uses-allocator construction   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_uses_allocator&action=edit)
+(class template) 

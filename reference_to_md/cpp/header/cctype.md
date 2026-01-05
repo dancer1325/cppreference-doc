@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header was originally in the C standard library as [`<ctype.h>`](../../c/header/ctype.html "c/header/ctype"). 
 
@@ -204,35 +204,35 @@ This header is part of the [null-terminated byte strings](../string/byte.html "c
   
 ---  
 [ isalnum](../string/byte/isalnum.html "cpp/string/byte/isalnum") |  checks if a character is alphanumeric   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_isalnum&action=edit)  
+(function)   
 [ isalpha](../string/byte/isalpha.html "cpp/string/byte/isalpha") |  checks if a character is alphabetic   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_isalpha&action=edit)  
+(function)   
 [ islower](../string/byte/islower.html "cpp/string/byte/islower") |  checks if a character is lowercase   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_islower&action=edit)  
+(function)   
 [ isupper](../string/byte/isupper.html "cpp/string/byte/isupper") |  checks if a character is an uppercase character   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_isupper&action=edit)  
+(function)   
 [ isdigit](../string/byte/isdigit.html "cpp/string/byte/isdigit") |  checks if a character is a digit   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_isdigit&action=edit)  
+(function)   
 [ isxdigit](../string/byte/isxdigit.html "cpp/string/byte/isxdigit") |  checks if a character is a hexadecimal character   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_isxdigit&action=edit)  
+(function)   
 [ iscntrl](../string/byte/iscntrl.html "cpp/string/byte/iscntrl") |  checks if a character is a control character   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_iscntrl&action=edit)  
+(function)   
 [ isgraph](../string/byte/isgraph.html "cpp/string/byte/isgraph") |  checks if a character is a graphical character   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_isgraph&action=edit)  
+(function)   
 [ isspace](../string/byte/isspace.html "cpp/string/byte/isspace") |  checks if a character is a space character   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_isspace&action=edit)  
+(function)   
 [ isblank](../string/byte/isblank.html "cpp/string/byte/isblank")(C++11) |  checks if a character is a blank character   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_isblank&action=edit)  
+(function)   
 [ isprint](../string/byte/isprint.html "cpp/string/byte/isprint") |  checks if a character is a printing character   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_isprint&action=edit)  
+(function)   
 [ ispunct](../string/byte/ispunct.html "cpp/string/byte/ispunct") |  checks if a character is a punctuation character   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_ispunct&action=edit)  
+(function)   
 [ tolower](../string/byte/tolower.html "cpp/string/byte/tolower") |  converts a character to lowercase   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_tolower&action=edit)  
+(function)   
 [ toupper](../string/byte/toupper.html "cpp/string/byte/toupper") |  converts a character to uppercase   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_toupper&action=edit)  
+(function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/cctype&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     namespace std {

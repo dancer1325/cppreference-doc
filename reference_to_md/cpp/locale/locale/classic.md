@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Localization library](../../locale.html "cpp/locale")
 
@@ -152,7 +152,7 @@ base classes](../../locale.html#Facet_category_base_classes "cpp/locale")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/navbar_content&action=edit)
+
 
 [`std::locale`](../locale.html "cpp/locale/locale")
 
@@ -173,7 +173,7 @@ Static member functions
 [locale::global](global.html "cpp/locale/locale/global")  
 **locale::classic**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/locale/navbar_content&action=edit)
+
 
 static const locale& classic(); |  |   
 ---|---|---  
@@ -192,26 +192,26 @@ Obtains a reference to the C++ locale that implements the classic "C" locale sem
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/locale/classic&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 none 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/locale/classic&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Returns a reference to the "C" locale. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/locale/classic&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Some of the standard-required facets, such as the UTF-8/UTF-32 conversion facet [std::codecvt](../codecvt.html)<char32_t, char, [std::mbstate_t](../../string/multibyte/mbstate_t.html)>, have no equivalents in the "C" locale, but they are nevertheless present in the locale returned by std::locale::classic(), as in any other locale constructed in a C++ program. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/locale/classic&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/locale/classic&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ global](global.html "cpp/locale/locale/global")[static] |  changes the global locale   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/locale/dsc_global&action=edit)  
+(public static member function)   
 ---|---

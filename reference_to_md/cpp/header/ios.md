@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header is part of the [Input/Output](../io.html "cpp/io") library. 
 
@@ -218,57 +218,57 @@ This header is part of the [Input/Output](../io.html "cpp/io") library.
   
 ###  Includes  
   
-[ <iosfwd>](iosfwd.html "cpp/header/iosfwd") |  Forward declarations of all classes in the input/output library[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/dsc_iosfwd&action=edit)  
+[ <iosfwd>](iosfwd.html "cpp/header/iosfwd") |  Forward declarations of all classes in the input/output library  
   
 ###  Classes  
   
 [ ios_base](../io/ios_base.html "cpp/io/ios base") |  manages formatting flags and input/output exceptions   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_ios_base&action=edit)  
+(class)   
 [ basic_ios](../io/basic_ios.html "cpp/io/basic ios") |  manages an arbitrary stream buffer   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_basic_ios&action=edit)  
+(class template)   
 [`std::ios`](../io/basic_ios.html "cpp/io/basic ios") |  [std::basic_ios](../io/basic_ios.html)<char> (typedef)  
 [`std::wios`](../io/basic_ios.html "cpp/io/basic ios") |  [std::basic_ios](../io/basic_ios.html)<wchar_t> (typedef)  
 [ fpos](../io/fpos.html "cpp/io/fpos") |  represents absolute position in a stream or a file   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_fpos&action=edit)  
+(class template)   
 [ io_errc](../io/io_errc.html "cpp/io/io errc")(C++11) |  the IO stream error codes   
-(enum) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_io_errc&action=edit)  
+(enum)   
 [ is_error_code_enum<std::io_errc>](../io/io_errc/is_error_code_enum.html "cpp/io/io errc/is error code enum")(C++11) |  extends the type trait [std::is_error_code_enum](../error/error_code/is_error_code_enum.html "cpp/error/error code/is error code enum") to identify iostream error codes   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/io_errc/dsc_is_error_code_enum&action=edit)  
+(class template specialization)   
 [ streamoff](../io/streamoff.html "cpp/io/streamoff") |  represents relative file/stream position (offset from fpos), sufficient to represent any file size   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_streamoff&action=edit)  
+(typedef)   
 [ streamsize](../io/streamsize.html "cpp/io/streamsize") |  represents the number of characters transferred in an I/O operation or the size of an I/O buffer   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_streamsize&action=edit)  
+(typedef)   
   
 ###  Functions  
   
 [ iostream_category](../io/iostream_category.html "cpp/io/iostream category")(C++11) |  identifies the iostream error category   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_iostream_category&action=edit)  
+(function)   
 [ make_error_code(std::io_errc)](../io/io_errc/make_error_code.html "cpp/io/io errc/make error code")(C++11) |  constructs an iostream error code   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/io_errc/dsc_make_error_code&action=edit)  
+(function)   
 [ make_error_condition(std::io_errc)](../io/io_errc/make_error_condition.html "cpp/io/io errc/make error condition")(C++11) |  constructs an iostream error condition   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/io_errc/dsc_make_error_condition&action=edit)  
+(function)   
 [ boolalphanoboolalpha](../io/manip/boolalpha.html "cpp/io/manip/boolalpha") |  switches between textual and numeric representation of booleans   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_boolalpha&action=edit)  
+(function)   
 [ showbasenoshowbase](../io/manip/showbase.html "cpp/io/manip/showbase") |  controls whether prefix is used to indicate numeric base   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_showbase&action=edit)  
+(function)   
 [ showpointnoshowpoint](../io/manip/showpoint.html "cpp/io/manip/showpoint") |  controls whether decimal point is always included in floating-point representation   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_showpoint&action=edit)  
+(function)   
 [ showposnoshowpos](../io/manip/showpos.html "cpp/io/manip/showpos") |  controls whether the `**+**` sign used with non-negative numbers   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_showpos&action=edit)  
+(function)   
 [ skipwsnoskipws](../io/manip/skipws.html "cpp/io/manip/skipws") |  controls whether leading whitespace is skipped on input   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_skipws&action=edit)  
+(function)   
 [ uppercasenouppercase](../io/manip/uppercase.html "cpp/io/manip/uppercase") |  controls whether uppercase characters are used with some output formats   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_uppercase&action=edit)  
+(function)   
 [ unitbufnounitbuf](../io/manip/unitbuf.html "cpp/io/manip/unitbuf") |  controls whether output is flushed after each operation   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_unitbuf&action=edit)  
+(function)   
 [ internalleftright](../io/manip/left.html "cpp/io/manip/left") |  sets the placement of fill characters   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_left&action=edit)  
+(function)   
 [ dechexoct](../io/manip/hex.html "cpp/io/manip/hex") |  changes the base used for integer I/O   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_hex&action=edit)  
+(function)   
 [ fixedscientifichexfloatdefaultfloat](../io/manip/fixed.html "cpp/io/manip/fixed")(C++11)(C++11) |  changes formatting used for floating-point I/O   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_fixed&action=edit)  
+(function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/ios&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     #include <iosfwd>
@@ -331,7 +331,7 @@ This header is part of the [Input/Output](../io.html "cpp/io") library.
       const error_category& iostream_category() noexcept;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ios&action=edit&section=T-1 "Template:cpp/synopsis/ios")] Class [std::ios_base](../io/ios_base.html "cpp/io/ios base")
+#### Class [std::ios_base](../io/ios_base.html "cpp/io/ios base")
     
     
     namespace std {
@@ -429,7 +429,7 @@ This header is part of the [Input/Output](../io.html "cpp/io") library.
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ios&action=edit&section=T-2 "Template:cpp/synopsis/ios")] Class [std::ios_base::failure](../io/ios_base/failure.html "cpp/io/ios base/failure")
+#### Class [std::ios_base::failure](../io/ios_base/failure.html "cpp/io/ios base/failure")
     
     
     namespace std {
@@ -440,7 +440,7 @@ This header is part of the [Input/Output](../io.html "cpp/io") library.
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ios&action=edit&section=T-3 "Template:cpp/synopsis/ios")] Class [std::ios_base::Init](../io/ios_base/Init.html "cpp/io/ios base/Init")
+#### Class [std::ios_base::Init](../io/ios_base/Init.html "cpp/io/ios base/Init")
     
     
     namespace std {
@@ -455,7 +455,7 @@ This header is part of the [Input/Output](../io.html "cpp/io") library.
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ios&action=edit&section=T-4 "Template:cpp/synopsis/ios")] Class template [std::fpos](../io/fpos.html "cpp/io/fpos")
+#### Class template [std::fpos](../io/fpos.html "cpp/io/fpos")
     
     
     namespace std {
@@ -469,7 +469,7 @@ This header is part of the [Input/Output](../io.html "cpp/io") library.
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ios&action=edit&section=T-5 "Template:cpp/synopsis/ios")] Class template [std::basic_ios](../io/basic_ios.html "cpp/io/basic ios")
+#### Class template [std::basic_ios](../io/basic_ios.html "cpp/io/basic ios")
     
     
     namespace std {
@@ -530,7 +530,7 @@ This header is part of the [Input/Output](../io.html "cpp/io") library.
       };
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/ios&action=edit&section=2 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

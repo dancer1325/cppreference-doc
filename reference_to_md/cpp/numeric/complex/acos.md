@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [`std::complex`](../complex.html "cpp/numeric/complex")
 
@@ -164,7 +164,7 @@
 [tuple_size<std::complex>](tuple_size.html "cpp/numeric/complex/tuple size")(C++26)  
 [tuple_element<std::complex>](tuple_element.html "cpp/numeric/complex/tuple element")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/navbar_content&action=edit)
+
 
 Defined in header `[<complex>](../../header/complex.html "cpp/header/complex")` |  |   
 ---|---|---  
@@ -186,16 +186,16 @@ Computes complex arc cosine of a complex value z. Branch cuts exist outside the 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/acos&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 z  |  \-  |  complex value   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/acos&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 If no errors occur, complex arc cosine of z is returned, in the range of a strip unbounded along the imaginary axis and in the interval [0, +π] along the real axis. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/acos&action=edit&section=3 "Edit section: Error handling and special values")] Error handling and special values
+### Error handling and special values
 
 Errors are reported consistent with [math_errhandling](../math/math_errhandling.html "cpp/numeric/math/math errhandling"). 
 
@@ -217,7 +217,7 @@ If the implementation supports IEEE floating-point arithmetic,
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/acos&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 Inverse cosine (or arc cosine) is a multivalued function and requires a branch cut on the complex plane. The branch cut is conventionally placed at the line segments (-∞,-1) and (1,∞) of the real axis. 
 
@@ -229,7 +229,7 @@ The mathematical definition of the principal value of arc cosine is acos z = 1
 
 For any z, acos(z) = π - acos(-z). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/acos&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -261,17 +261,17 @@ Output:
     acos(-2.000000,-0.000000) (the other side of the cut) = (3.141593,1.316958)
     cos(pi - acos(-2.000000,-0.000000)) = (2.000000,0.000000)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/acos&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ asin(std::complex)](asin.html "cpp/numeric/complex/asin")(C++11) |  computes arc sine of a complex number (\\({\small\arcsin{z}}\\)arcsin(z))   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_asin&action=edit)  
+(function template)   
 ---|---  
 [ atan(std::complex)](atan.html "cpp/numeric/complex/atan")(C++11) |  computes arc tangent of a complex number (\\({\small\arctan{z}}\\)arctan(z))   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_atan&action=edit)  
+(function template)   
 [ cos(std::complex)](cos.html "cpp/numeric/complex/cos") |  computes cosine of a complex number (\\({\small\cos{z}}\\)cos(z))   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_cos&action=edit)  
+(function template)   
 [ acosacosfacosl](../math/acos.html "cpp/numeric/math/acos")(C++11)(C++11) |  computes arc cosine (\\({\small\arccos{x}}\\)arccos(x))   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_acos&action=edit)  
+(function)   
 [ acos(std::valarray)](../valarray/acos.html "cpp/numeric/valarray/acos") |  applies the function [std::acos](../math/acos.html "cpp/numeric/math/acos") to each element of valarray   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_acos&action=edit)  
+(function template)   
 [C documentation](../../../c/numeric/complex/cacos.html "c/numeric/complex/cacos") for cacos

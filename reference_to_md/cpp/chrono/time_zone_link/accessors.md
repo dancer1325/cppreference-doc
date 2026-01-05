@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::time_zone_link`](../time_zone_link.html "cpp/chrono/time zone link")
 
@@ -111,7 +111,7 @@ Member functions
 Nonmember functions  
 [operator==operator<=>](operator_cmp.html "cpp/chrono/time zone link/operator cmp")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_zone_link/navbar_content&action=edit)
+
 
 [std::string_view](../../string/basic_string_view.html) name() const noexcept; |  (1)  |   
 ---|---|---  
@@ -120,7 +120,7 @@ Nonmember functions
   
 Accesses the name and target of this `time_zone_link` object. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/time_zone_link/accessors&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 1) The alternative name this `time_zone_link` object represents.
 

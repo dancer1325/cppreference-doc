@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::scoped_lock`](../scoped_lock.html "cpp/thread/scoped lock")
 
@@ -182,7 +182,7 @@ Member functions
 **scoped_lock::scoped_lock**  
 [scoped_lock::~scoped_lock](~scoped_lock.html "cpp/thread/scoped lock/~scoped lock")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/scoped_lock/navbar_content&action=edit)
+
 
 explicit scoped_lock( MutexTypes&... m ); |  (1)  |  (since C++17)  
 ---|---|---  
@@ -200,18 +200,18 @@ Acquires ownership of the given mutexes m.
 
 The behavior is undefined if m is destroyed before the `scoped_lock` object is. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/scoped_lock/scoped_lock&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 m  |  \-  |  mutexes to acquire ownership of   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/scoped_lock/scoped_lock&action=edit&section=2 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 1) Throws any exceptions thrown by m.lock().
 
 2) Throws nothing.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/scoped_lock/scoped_lock&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

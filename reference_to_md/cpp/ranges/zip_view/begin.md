@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::zip_view`](../zip_view.html "cpp/ranges/zip view")
 
@@ -264,7 +264,7 @@ Non-member functions
 [operator==(zip_view::_iterator_ ,zip_view::_sentinel_)](sentinel/operator_cmp.html "cpp/ranges/zip view/sentinel/operator cmp")  
 [operator-(zip_view::_iterator_ ,zip_view::_sentinel_)](sentinel/operator-.html "cpp/ranges/zip view/sentinel/operator-")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/zip_view/navbar_content&action=edit)
+
 
 constexpr auto begin()  
 requires (!(/*simple-view*/<Views> && ...)); |  (1)  |  (since C++23)  
@@ -285,26 +285,26 @@ Obtains the beginning [iterator](iterator.html "cpp/ranges/zip view/iterator") o
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/zip_view/begin&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 1) [`_iterator_`](iterator.html "cpp/ranges/zip view/iterator") ﻿<false>(`_[tuple-transform](../../ranges.html#tuple-transform "cpp/ranges")_`([ranges::begin](../begin.html),` `` _[views_](../zip_view.html#views "cpp/ranges/zip view")_` ﻿));.
 
 2) [`_iterator_`](iterator.html "cpp/ranges/zip view/iterator") ﻿<true>(`_[tuple-transform](../../ranges.html#tuple-transform "cpp/ranges")_`([ranges::begin](../begin.html),` `` _[views_](../zip_view.html#views "cpp/ranges/zip view")_` ﻿));.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/zip_view/begin&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 [ranges::range](../range.html)<const [ranges::zip_view](../zip_view.html)<Views...>> is modeled if and only if for every type `Vi` in `Views...`, const Vi models [`range`](../range.html "cpp/ranges/range"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/zip_view/begin&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/zip_view/begin&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ end](end.html "cpp/ranges/zip view/end") |  returns an iterator or a sentinel to the end   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/dsc_end&action=edit)  
+(public member function)   
 ---|---  
 [ ranges::begin](../begin.html "cpp/ranges/begin")(C++20) |  returns an iterator to the beginning of a range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_begin&action=edit)
+(customization point object)

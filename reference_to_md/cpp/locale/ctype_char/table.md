@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Localization library](../../locale.html "cpp/locale")
 
@@ -152,7 +152,7 @@ base classes](../../locale.html#Facet_category_base_classes "cpp/locale")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/navbar_content&action=edit)
+
 
 [`std::ctype`](../ctype.html "cpp/locale/ctype")
 
@@ -176,7 +176,7 @@ Member functions of ctype<char>
 [ctype<char>::scan_is](scan_is.html "cpp/locale/ctype char/scan is")  
 [ctype<char>::scan_not](scan_not.html "cpp/locale/ctype char/scan not")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/ctype/navbar_content&action=edit)
+
 
 Defined in header `[<locale>](../../header/locale.html "cpp/header/locale")` |  |   
 ---|---|---  
@@ -186,15 +186,15 @@ const mask* table() const noexcept; |  |  (since C++11)
   
 Returns the classification table that was provided in the constructor of this instance of [std::ctype](../ctype.html)<char>, or returns a copy of classic_table() if none was provided. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/ctype_char/table&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/ctype_char/table&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 A pointer to the first element in the classification table (which an array of size `std::ctype<char>::table_size`). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/ctype_char/table&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

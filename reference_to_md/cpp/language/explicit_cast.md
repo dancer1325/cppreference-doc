@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Expressions](expressions.html "cpp/language/expressions")
 
@@ -289,7 +289,7 @@ Conversions
 [`dynamic_cast`](dynamic_cast.html "cpp/language/dynamic cast")  
 [`reinterpret_cast`](reinterpret_cast.html "cpp/language/reinterpret cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/expressions/navbar_content&action=edit)
+
 
 Converts between types using a combination of explicit and implicit conversions. 
 
@@ -310,7 +310,7 @@ Converts between types using a combination of explicit and implicit conversions.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/explicit_cast&action=edit&section=1 "Edit section: Syntax")] Syntax  
+### Syntax  
   
 ---  
 `**(**` type-id `**)**` unary-expression |  (1)  |   
@@ -338,7 +338,7 @@ initializer-list |  \-  |  a comma-separated list of [initializer clauses](initi
 designated-initializer-list |  \-  |  a comma-separated list of [designated initializer clauses](aggregate_initialization.html#Designated_initializers "cpp/language/aggregate initialization")  
 identifier |  \-  |  a (possibly qualified) identifier (including [template identifiers](templates.html#Template_identifiers "cpp/language/templates"))   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/explicit_cast&action=edit&section=2 "Edit section: Explanation")] Explanation
+### Explanation
 
 1) When the C-style cast is encountered, the compiler attempts to interpret it as the following cast expressions, in this order:
 
@@ -419,9 +419,9 @@ The conversion result is determined as follows:
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/explicit_cast&action=edit&section=3 "Edit section: Ambiguity Resolution")] Ambiguity Resolution
+### Ambiguity Resolution
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/explicit_cast&action=edit&section=4 "Edit section: Ambiguous declaration statement")] Ambiguous declaration statement
+#### Ambiguous declaration statement
 
 In the case of an ambiguity between an expression statement with a function-style cast expression as its leftmost subexpression and a declaration statement, the ambiguity is resolved by treating it as a declaration. This disambiguation is purely syntactic: it does not consider the meaning of names occurring in the statement other than whether they are type names: 
     
@@ -469,7 +469,7 @@ However, if the outermost declarator in the ambiguous declaration statement has 
 | (since C++11)  
 ---|---  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/explicit_cast&action=edit&section=5 "Edit section: Ambiguous function parameter")] Ambiguous function parameter
+#### Ambiguous function parameter
 
 The ambiguity above can also occur in the context of a declaration. In that context, the choice is between an object declaration with a function-style cast as the initializer and a declaration involving a function declarator with a redundant set of parentheses around a parameter name. The resolution is also to consider any construct, such as the potential parameter declaration, that could possibly be a declaration to be a declaration: 
     
@@ -506,7 +506,7 @@ However, if the outermost declarator in the ambiguous parameter declaration has 
 | (since C++11)  
 ---|---  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/explicit_cast&action=edit&section=6 "Edit section: Ambiguous type-id")] Ambiguous type-id
+#### Ambiguous type-id
 
 An ambiguity can arise from the similarity between a function-style cast and a [type-id](type-id.html#Type_naming "cpp/language/type"). The resolution is that any construct that could possibly be a type-id in its syntactic context shall be considered a type-id: 
     
@@ -541,13 +541,13 @@ However, if the outermost abstract-declarator in the ambiguous [type-id](type-id
 | (since C++11)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/explicit_cast&action=edit&section=7 "Edit section: Notes")] Notes
+### Notes
 
 Feature-test macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_auto_cast`](../experimental/feature_test.html#cpp_auto_cast "cpp/feature test") | [`202110L`](../compiler_support/23.html#cpp_auto_cast_202110L "cpp/compiler support/23") | (C++23) | auto(x) and auto{x}  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/explicit_cast&action=edit&section=8 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -604,7 +604,7 @@ Output:
     x:2 y:2
     x:2 y:1
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/explicit_cast&action=edit&section=9 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -623,7 +623,7 @@ conversions
 possibly being used   
 [CWG 2894](https://cplusplus.github.io/CWG/issues/2894.html) | C++98  | function-style casts could create reference rvalues  | can only create reference lvalues   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/explicit_cast&action=edit&section=10 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -737,14 +737,14 @@ possibly being used
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/explicit_cast&action=edit&section=11 "Edit section: See also")] See also
+### See also
 
-[ `const_cast` conversion ](const_cast.html "cpp/language/const cast") |  adds or removes const[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_const_cast&action=edit)  
+[ `const_cast` conversion ](const_cast.html "cpp/language/const cast") |  adds or removes const  
 ---|---  
-[ `static_cast` conversion ](static_cast.html "cpp/language/static cast") |  performs basic conversions[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_static_cast&action=edit)  
-[ `dynamic_cast` conversion ](dynamic_cast.html "cpp/language/dynamic cast") |  performs checked polymorphic conversions[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_dynamic_cast&action=edit)  
-[ `reinterpret_cast` conversion ](reinterpret_cast.html "cpp/language/reinterpret cast") |  performs general low-level conversions[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_reinterpret_cast&action=edit)  
-[ standard conversions ](implicit_cast.html "cpp/language/implicit cast") |  implicit conversions from one type to another[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_implicit_cast&action=edit)  
+[ `static_cast` conversion ](static_cast.html "cpp/language/static cast") |  performs basic conversions  
+[ `dynamic_cast` conversion ](dynamic_cast.html "cpp/language/dynamic cast") |  performs checked polymorphic conversions  
+[ `reinterpret_cast` conversion ](reinterpret_cast.html "cpp/language/reinterpret cast") |  performs general low-level conversions  
+[ standard conversions ](implicit_cast.html "cpp/language/implicit cast") |  implicit conversions from one type to another  
 [C documentation](../../c/language/cast.html "c/language/cast") for cast operator
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

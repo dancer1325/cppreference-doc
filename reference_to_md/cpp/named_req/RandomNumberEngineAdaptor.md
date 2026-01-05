@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ named requirements](../iterator/concepts.html "cpp/named req")
 
@@ -147,11 +147,11 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/named_req/navbar_content&action=edit)
+
 
 A **RandomNumberEngineAdaptor** is a [RandomNumberEngine](RandomNumberEngine.html "cpp/named req/RandomNumberEngine") that transforms the output of another [RandomNumberEngine](RandomNumberEngine.html "cpp/named req/RandomNumberEngine"), the latter of which is termed a _base engine_. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/RandomNumberEngineAdaptor&action=edit&section=1 "Edit section: Requirements")] Requirements
+### Requirements
 
 Given 
 
@@ -180,14 +180,14 @@ Furthermore
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/RandomNumberEngineAdaptor&action=edit&section=2 "Edit section: Standard library")] Standard library
+### Standard library
 
 The following standard library facilities satisfy **RandomNumberEngineAdaptor** : 
 
 [ discard_block_engine](../numeric/random/discard_block_engine.html "cpp/numeric/random/discard block engine")(C++11) |  discards some output of a random number engine   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/dsc_discard_block_engine&action=edit)  
+(class template)   
 ---|---  
 [ independent_bits_engine](../numeric/random/independent_bits_engine.html "cpp/numeric/random/independent bits engine")(C++11) |  packs the output of a random number engine into blocks of a specified number of bits   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/dsc_independent_bits_engine&action=edit)  
+(class template)   
 [ shuffle_order_engine](../numeric/random/shuffle_order_engine.html "cpp/numeric/random/shuffle order engine")(C++11) |  delivers the output of a random number engine in a different order   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/dsc_shuffle_order_engine&action=edit)
+(class template) 

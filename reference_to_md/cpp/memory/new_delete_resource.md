@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 Defined in header `[<memory_resource>](../header/memory_resource.html "cpp/header/memory resource")` |  |   
 ---|---|---  
@@ -193,7 +193,7 @@ Defined in header `[<memory_resource>](../header/memory_resource.html "cpp/heade
   
 Returns a pointer to a `memory_resource` that uses the global [operator new](new/operator_new.html "cpp/memory/new/operator new") and [operator delete](new/operator_delete.html "cpp/memory/new/operator delete") to allocate memory. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/new_delete_resource&action=edit&section=1 "Edit section: Return value")] Return value 
+### Return value 
 
 Returns a pointer `p` to a static storage duration object of a type derived from [std::pmr::memory_resource](memory_resource.html "cpp/memory/memory resource"), with the following properties: 
 

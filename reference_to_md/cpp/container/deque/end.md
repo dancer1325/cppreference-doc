@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::deque`](../deque.html "cpp/container/deque")
 
@@ -134,7 +134,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/deque/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/deque/navbar_content&action=edit)
+
 
 iterator end(); |  (1) | (noexcept since C++11)   
 (constexpr since C++26)  
@@ -162,11 +162,11 @@ This returned iterator only acts as a sentinel. It is not guaranteed to be [dere
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/end&action=edit&section=T-1 "Template:cpp/container/end")] Return value
+### Return value
 
 Iterator past the last element. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/end&action=edit&section=T-2 "Template:cpp/container/end")] Complexity
+### Complexity
 
 Constant. 
 
@@ -174,7 +174,7 @@ Constant.
 
 libc++ backports `cend()` to C++98 mode.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/end&action=edit&section=T-4 "Template:cpp/container/end")] Example
+### Example
 
 Run this code
     
@@ -215,10 +215,10 @@ Output:
     First fruit: orange
     deque 'empty' is indeed empty.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/end&action=edit&section=T-5 "Template:cpp/container/end")] See also
+### See also
 
 [ begincbegin](begin.html "cpp/container/deque/begin")(C++11) |  returns an iterator to the beginning   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_begin&action=edit)  
+(public member function)   
 ---|---  
 [ endcend](../../iterator/end.html "cpp/iterator/end")(C++11)(C++14) |  returns an iterator to the end of a container or array   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_end&action=edit)
+(function template) 

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header was originally in the C standard library ([`<stdckdint.h>`](../../c/header/stdckdint.html "c/header/stdckdint")). 
 
@@ -206,13 +206,13 @@ It is unspecified whether **`< stdckdint.h>`** provides any declarations in name
   
 ---  
 [ ckd_add](../numeric/ckd_add.html "cpp/numeric/ckd add")(C++26) |  checked addition operation on two integers   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/dsc_ckd_add&action=edit)  
+(function template)   
 [ ckd_sub](../numeric/ckd_sub.html "cpp/numeric/ckd sub")(C++26) |  checked subtraction operation on two integers   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/dsc_ckd_sub&action=edit)  
+(function template)   
 [ ckd_mul](../numeric/ckd_mul.html "cpp/numeric/ckd mul")(C++26) |  checked multiplication operation on two integers   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/dsc_ckd_mul&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/stdckdint.h&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     #define __STDC_VERSION_STDCKDINT_H__ 202311L

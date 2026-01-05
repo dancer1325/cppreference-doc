@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Type support](../../utility/rtti.html "cpp/types")
 
@@ -161,7 +161,7 @@ Runtime type information
 ---  
 [bad_cast](../bad_cast.html "cpp/types/bad cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/navbar_content&action=edit)
+
 
 [`std::type_index`](../type_index.html "cpp/types/type index")
 
@@ -174,7 +174,7 @@ Member functions
 Helper classes  
 **hash <std::type_index>**(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/type_index/navbar_content&action=edit)
+
 
 Defined in header `[<typeindex>](../../header/typeindex.html "cpp/header/typeindex")` |  |   
 ---|---|---  
@@ -185,8 +185,8 @@ The template specialization of [std::hash](../../utility/hash.html "cpp/utility/
 
 The member operator() effectively returns the same value as [hash_code()](hash_code.html "cpp/types/type index/hash code"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/type_index/hash&action=edit&section=1 "Edit section: See also")] See also
+### See also
 
 [ hash_code](hash_code.html "cpp/types/type index/hash code") |  returns hashed code   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/type_index/dsc_hash_code&action=edit)  
+(public member function)   
 ---|---

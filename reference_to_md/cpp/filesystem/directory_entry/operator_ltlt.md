@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Filesystem library](../../filesystem.html "cpp/filesystem")
 
@@ -100,7 +100,7 @@ filesystem::symlink_status](../status.html "cpp/filesystem/status")
 [filesystem::is_socket](../is_socket.html "cpp/filesystem/is socket")  
 [filesystem::is_symlink](../is_symlink.html "cpp/filesystem/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/navbar_content&action=edit)
+
 
 [`std::filesystem::directory_entry`](../directory_entry.html "cpp/filesystem/directory entry")
 
@@ -131,7 +131,7 @@ Observers
 Non-member functions  
 **operator <<**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/directory_entry/navbar_content&action=edit)
+
 
 template< class CharT, class Traits >  
 friend [std::basic_ostream](../../io/basic_ostream.html)<CharT,Traits>&  
@@ -154,21 +154,21 @@ This function template is not visible to ordinary [unqualified](../../language/u
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/directory_entry/operator_ltlt&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 os  |  \-  |  stream to perform output on   
 ---|---|---  
 d  |  \-  |  `directory_entry` to be inserted   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/directory_entry/operator_ltlt&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 os
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/impldef_exception&action=edit&section=T-1 "Template:cpp/impldef exception")] Exceptions
+### Exceptions
 
 May throw implementation-defined exceptions. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/directory_entry/operator_ltlt&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -192,8 +192,8 @@ Possible output:
     "/home/猫"
     "/tmp"
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/directory_entry/operator_ltlt&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ operator<<operator>>](../path/operator_ltltgtgt.html "cpp/filesystem/path/operator ltltgtgt")(C++17) |  performs stream input and output on a quoted path   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/path/dsc_operator_ltltgtgt&action=edit)  
+(function)   
 ---|---

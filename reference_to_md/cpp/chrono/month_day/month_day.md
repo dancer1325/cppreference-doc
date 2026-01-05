@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::month_day`](../month_day.html "cpp/chrono/month day")
 
@@ -118,7 +118,7 @@ Helper classes
 [formatter<std::chrono::month_day>](formatter.html "cpp/chrono/month day/formatter")  
 [hash<std::chrono::month_day>](hash.html "cpp/chrono/month day/hash")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/month_day/navbar_content&action=edit)
+
 
 month_day() = default; |  (1)  |  (since C++20)  
 ---|---|---  
@@ -132,11 +132,11 @@ Constructs a `month_day`.
 
 2) Constructs a `month_day` that stores the month m and the day d.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/month_day/month_day&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 A more convenient way to construct a `month_day` is with operator/, e.g., [std::chrono::April](../month.html)/1. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/month_day/month_day&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -157,8 +157,8 @@ Output:
     
     29/2
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/month_day/month_day&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ operator/](../operator_slash.html "cpp/chrono/operator slash")(C++20) |  conventional syntax for Gregorian calendar date creation   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_operator/&action=edit)  
+(function)   
 ---|---

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Basic Concepts](basics.html "cpp/language/basic concepts")
 
@@ -249,7 +249,7 @@ Miscellaneous
 [Modules](modules.html "cpp/language/modules") (C++20)  
 [Contracts](contracts.html "cpp/language/contracts") (C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/basics/navbar_content&action=edit)
+
 
 Allows any and all code transformations that do not change the observable behavior of the program. 
 
@@ -263,7 +263,7 @@ Allows any and all code transformations that do not change the observable behavi
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/as_if&action=edit&section=1 "Edit section: Explanation")] Explanation
+### Explanation
 
 _Observable behavior_ of a program includes the following: 
 
@@ -294,7 +294,7 @@ The C++ compiler is permitted to perform any changes to the program as long as g
 ---|---  
 A program may contain _observable checkpoints ﻿_. An operation `OP` is _undefined-free_ if for every undefined operation `U`, there is an observable checkpoint `CP` such that `OP` happens before `CP` and `CP` happens before `U`. The _defined prefix_ of the program with a given input comprises all its undefined-free operations. The C++ compiler is permitted to perform any changes to the program as long as given the same input, the observable behavior of the defined prefix of the program is one of the possible observable behaviors corresponding to that defined prefix. If certain input will result in [undefined behavior](ub.html "cpp/language/ub"), the compiler cannot guarantee any observable behavior of the program with that input that does not belong to the defined prefix.  | (since C++26)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/as_if&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 Because the compiler is (usually) unable to analyze the code of an external library to determine whether it does or does not perform I/O or volatile access, third-party library calls also aren't affected by optimization. However, standard library calls may be replaced by other calls, eliminated, or added to the program during optimization. Statically-linked third-party library code may be subject to link-time optimization. 
 
@@ -316,7 +316,7 @@ The count and order of floating-point exceptions can be changed by optimization 
     if (0 < n)
         x + 1;
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/as_if&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -375,7 +375,7 @@ Output:
     # in all cases, the side effects of preinc() were eliminated, and the
     # entire main() function was reduced to the equivalent of result = 2 * input + 3;
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/as_if&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
   * [copy elision](copy_elision.html "cpp/language/copy elision")
 

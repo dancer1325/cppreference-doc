@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [C-style date and time utilities](../c.html "cpp/chrono/c")
 
@@ -128,7 +128,7 @@ Types
 [clock_t](clock_t.html "cpp/chrono/c/clock t")  
 [timespec](timespec.html "cpp/chrono/c/timespec")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/c/navbar_content&action=edit)
+
 
 Defined in header `[<ctime>](../../header/ctime.html "cpp/header/ctime")` |  |   
 ---|---|---  
@@ -148,20 +148,20 @@ Returns the current calendar time encoded as a [std::time_t](time_t.html "cpp/ch
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/c/time&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 arg  |  \-  |  pointer to a [std::time_t](time_t.html "cpp/chrono/c/time t") object to store the time, or a null pointer   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/c/time&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Current calendar time encoded as [std::time_t](time_t.html "cpp/chrono/c/time t") object on success, ([std::time_t](time_t.html))(-1) on error. If arg is not null, the return value is also stored in the object pointed to by arg. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/c/time&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 The encoding of calendar time in [std::time_t](time_t.html "cpp/chrono/c/time t") is unspecified, but most systems conform to the [POSIX specification](https://pubs.opengroup.org/onlinepubs/9799919799/functions/time.html) and return a value of integral type holding 86400 times the number of calendar days since [the Epoch](https://pubs.opengroup.org/onlinepubs/9799919799/basedefs/V1_chap04.html#tag_04_16) plus the number of seconds that have passed since the last midnight UTC. Most notably, POSIX time does not (and can not) take leap seconds into account, so that this integral value is not equal to the number of [S.I. seconds](https://en.wikipedia.org/wiki/SI_base_unit#Definitions "enwiki:SI base unit") that have passed since the epoch, but rather is reduced with the number of leap seconds that have occurred since the epoch. Implementations in which [std::time_t](time_t.html "cpp/chrono/c/time t") is a 32-bit signed integer (many historical implementations) fail in the year [2038](https://en.wikipedia.org/wiki/Year_2038_problem "enwiki:Year 2038 problem"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/c/time&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -182,15 +182,15 @@ Possible output:
     Wed Sep 21 10:27:52 2011
     1316615272 seconds since the Epoch
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/c/time&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ timespec_get](timespec_get.html "cpp/chrono/c/timespec get")(C++17) |  returns the calendar time in seconds and nanoseconds based on a given time base   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/c/dsc_timespec_get&action=edit)  
+(function)   
 ---|---  
 [ localtime](localtime.html "cpp/chrono/c/localtime") |  converts time since epoch to calendar time expressed as local time   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/c/dsc_localtime&action=edit)  
+(function)   
 [ gmtime](gmtime.html "cpp/chrono/c/gmtime") |  converts time since epoch to calendar time expressed as Universal Coordinated Time   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/c/dsc_gmtime&action=edit)  
+(function)   
 [ system_clock](../system_clock.html "cpp/chrono/system clock")(C++11) |  wall clock time from the system-wide realtime clock   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_system_clock&action=edit)  
+(class)   
 [C documentation](../../../c/chrono/time.html "c/chrono/time") for time

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Function objects](../../functional.html "cpp/utility/functional")
 
@@ -255,7 +255,7 @@ Identity function object
 [unary_negate](unary_negate.html "cpp/utility/functional/unary negate")(until C++20*)  
 [binary_negate](binary_negate.html "cpp/utility/functional/binary negate")(until C++20*)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/navbar_content&action=edit)
+
 
 **`std::move_only_function`**
 
@@ -271,7 +271,7 @@ Identity function object
 [operator==](move_only_function/operator==.html "cpp/utility/functional/move only function/operator==")  
 [swap(std::move_only_function)](move_only_function/swap2.html "cpp/utility/functional/move only function/swap2")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/move_only_function/navbar_content&action=edit)
+
 
 Defined in header `[<functional>](../../header/functional.html "cpp/header/functional")` |  |   
 ---|---|---  
@@ -323,37 +323,37 @@ The stored callable object is called the _target_ of `std::move_only_function`. 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/move_only_function&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Type  |  Definition   
 ---|---  
 `result_type` |  `R`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/move_only_function&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](move_only_function/move_only_function.html "cpp/utility/functional/move only function/move only function") |  constructs a new `std::move_only_function` object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/move_only_function/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ (destructor)](move_only_function/~move_only_function.html "cpp/utility/functional/move only function/~move only function") |  destroys a `std::move_only_function` object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/move_only_function/dsc_destructor&action=edit)  
+(public member function)   
 [ operator=](move_only_function/operator=.html "cpp/utility/functional/move only function/operator=") |  replaces or destroys the target   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/move_only_function/dsc_operator%3D&action=edit)  
+(public member function)   
 [ swap](move_only_function/swap.html "cpp/utility/functional/move only function/swap") |  swaps the targets of two `std::move_only_function` objects   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/move_only_function/dsc_swap&action=edit)  
+(public member function)   
 [ operator bool](move_only_function/operator_bool.html "cpp/utility/functional/move only function/operator bool") |  checks if the `std::move_only_function` has a target   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/move_only_function/dsc_operator_bool&action=edit)  
+(public member function)   
 [ operator()](move_only_function/operator\(\).html "cpp/utility/functional/move only function/operator\(\)") |  invokes the target   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/move_only_function/dsc_operator\(\)&action=edit)  
+(public member function) &action=edit)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/move_only_function&action=edit&section=3 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ swap(std::move_only_function)](move_only_function/swap2.html "cpp/utility/functional/move only function/swap2")(C++23) |  specializes the [std::swap](../swap.html "cpp/algorithm/swap") algorithm   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/move_only_function/dsc_swap2&action=edit)  
+(function)   
 ---|---  
 [ operator==](move_only_function/operator==.html "cpp/utility/functional/move only function/operator==")(C++23) |  compares a `std::move_only_function` with nullptr   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/move_only_function/dsc_operator%3D%3D&action=edit)  
+(function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/move_only_function&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 Implementations may store a callable object of small size within the `std::move_only_function` object. Such small object optimization is effectively required for function pointers and [std::reference_wrapper](reference_wrapper.html "cpp/utility/functional/reference wrapper") specializations, and can only be applied to types `T` for which [std::is_nothrow_move_constructible_v](../../types/is_move_constructible.html)<T> is true. 
 
@@ -363,7 +363,7 @@ If a `std::move_only_function` returning a reference is initialized from a funct
 ---|---|---|---  
 [`__cpp_lib_move_only_function`](../../experimental/feature_test.html#cpp_lib_move_only_function "cpp/feature test") | [`202110L`](../../compiler_support/23.html#cpp_lib_move_only_function_202110L "cpp/compiler support/23") | (C++23) | `std::move_only_function`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/move_only_function&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -393,14 +393,14 @@ Output:
     
     3.14159
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/move_only_function&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ function](function.html "cpp/utility/functional/function")(C++11) |  copyable wrapper of any copy constructible callable object   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_function&action=edit)  
+(class template)   
 ---|---  
 [ function_ref](function_ref.html "cpp/utility/functional/function ref")(C++26) |  non-owning wrapper of any callable object   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_function_ref&action=edit)  
+(class template)   
 [ copyable_function](copyable_function.html "cpp/utility/functional/copyable function")(C++26) |  copyable wrapper of any copy constructible callable object that supports qualifiers in a given call signature   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_copyable_function&action=edit)
+(class template) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

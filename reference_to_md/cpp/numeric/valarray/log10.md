@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [`std::valarray`](../valarray.html "cpp/numeric/valarray")
 
@@ -155,7 +155,7 @@
   
 [Deduction guides](deduction_guides.html "cpp/numeric/valarray/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/navbar_content&action=edit)
+
 
 Defined in header `[<valarray>](../../header/valarray.html "cpp/header/valarray")` |  |   
 ---|---|---  
@@ -177,16 +177,16 @@ For each element in va computes common (base 10) logarithm of the value of the e
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/log10&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 va  |  \-  |  value array to apply the operation to   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/log10&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Value array containing common logarithms of the values in va. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/log10&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Unqualified function (log10) is used to perform the computation. If such function is not available, [std::log10](../math/log10.html) is used due to [argument-dependent lookup](../../language/adl.html "cpp/language/adl"). 
 
@@ -202,7 +202,7 @@ The function can be implemented with the return type different from [std::valarr
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/log10&action=edit&section=4 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     template<class T>
@@ -217,7 +217,7 @@ The function can be implemented with the return type different from [std::valarr
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/log10&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -253,12 +253,12 @@ Output:
     10ⁿ     :   0.01   0.1     1    10   100  1000   inf
     lg(10ⁿ) :     -2    -1     0     1     2     3   inf
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/log10&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ log(std::valarray)](log.html "cpp/numeric/valarray/log") |  applies the function [std::log](../math/log.html "cpp/numeric/math/log") to each element of valarray   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_log&action=edit)  
+(function template)   
 ---|---  
 [ log10log10flog10l](../math/log10.html "cpp/numeric/math/log10")(C++11)(C++11) |  computes common (base 10) logarithm (\\({\small\log_{10}{x}}\\)log10(x))   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_log10&action=edit)  
+(function)   
 [ log10(std::complex)](../complex/log10.html "cpp/numeric/complex/log10") |  complex common logarithm with the branch cuts along the negative real axis   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_log10&action=edit)
+(function template) 

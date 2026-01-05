@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -71,7 +71,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::mdspan`](../mdspan.html "cpp/container/mdspan")
 
@@ -120,7 +120,7 @@ Tables
 [submdspan_mapping_result](submdspan_mapping_result.html "cpp/container/mdspan/submdspan mapping result")(C++26)  
 [Deduction guides](deduction_guides.html "cpp/container/mdspan/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/navbar_content&action=edit)
+
 
 **`std::extents`**
 
@@ -142,7 +142,7 @@ Tables
 [extents::operator==](extents/operator==.html "cpp/container/mdspan/extents/operator==")  
 [Deduction guides](extents/deduction_guides.html "cpp/container/mdspan/extents/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/extents/navbar_content&action=edit)
+
 
 Defined in header `[<mdspan>](../../header/mdspan.html "cpp/header/mdspan")` |  |   
 ---|---|---  
@@ -178,14 +178,14 @@ Each specialization of `extents` models [`regular`](../../concepts/regular.html 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/extents&action=edit&section=1 "Edit section: Template parameters")] Template parameters
+### Template parameters
 
 IndexType  |  \-  |  the type of each non-dynamic `Extents`. Shall be a signed or unsigned integer type. Otherwise, the program is ill-formed   
 ---|---|---  
 Extents  |  \-  |  represents extent (size of an integer interval) for each rank index. Each element of it is either equal to [std::dynamic_extent](../span/dynamic_extent.html) (in this case, it represents a _dynamic extent_ and the extent size will be determined dynamically), or is representable as a value of type `IndexType` (then it represents a _static extent_ and the extent size is just the value of it), or else the program is ill-formed   
 Rank  |  \-  |  denotes the rank of an all-dynamic `extents`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/extents&action=edit&section=2 "Edit section: Member types")] Member types
+### Member types
 
 Member type  |  Definition   
 ---|---  
@@ -193,61 +193,61 @@ Member type  |  Definition
 `size_type` |  [std::make_unsigned_t](../../types/make_unsigned.html)<index_type>  
 `rank_type` |  [std::size_t](../../types/size_t.html "cpp/types/size t")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/extents&action=edit&section=3 "Edit section: Data members")] Data members
+### Data members
 
 Member name  |  Definition   
 ---|---  
 [std::array](../array.html)<index_type, rank_dynamic()> `_dynamic-extents_` (private) |  An array which stores the size of each dynamic extents.  
 (exposition-only member object*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/extents&action=edit&section=4 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](extents/extents.html "cpp/container/mdspan/extents/extents") |  constructs an `extents`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/extents/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
   
 #####  Observers   
   
 [ rank](extents/rank.html "cpp/container/mdspan/extents/rank")[static] |  returns the static rank of an `extents`   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/extents/dsc_rank&action=edit)  
+(public static member function)   
 [ rank_dynamic](extents/rank_dynamic.html "cpp/container/mdspan/extents/rank dynamic")[static] |  returns the dynamic rank of an `extents`   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/extents/dsc_rank_dynamic&action=edit)  
+(public static member function)   
 [ static_extent](extents/static_extent.html "cpp/container/mdspan/extents/static extent")[static] |  returns static extent size of an `extents` at a certain rank index   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/extents/dsc_static_extent&action=edit)  
+(public static member function)   
 [ extent](extents/extent.html "cpp/container/mdspan/extents/extent") |  returns dynamic extent size of an `extents` at a certain rank index   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/extents/dsc_extent&action=edit)  
+(public member function)   
   
 #####  Helpers   
   
 [_fwd-prod-of-extents_](extents/fwd-prod-of-extents.html "cpp/container/mdspan/extents/fwd-prod-of-extents") |  returns the product of extent size in range `[`​0​`, `i`)`  
-(exposition-only member function*)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/extents/dsc_fwd-prod-of-extents&action=edit)  
+(exposition-only member function*)  
 [_rev-prod-of-extents_](extents/rev-prod-of-extents.html "cpp/container/mdspan/extents/rev-prod-of-extents") |  returns the product of extents size in range `[`i + 1`, `rank()`)`  
-(exposition-only member function*)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/extents/dsc_rev-prod-of-extents&action=edit)  
+(exposition-only member function*)  
 [_index-cast_](extents/index-cast.html "cpp/container/mdspan/extents/index-cast") |  casts the input into an integer type  
-(exposition-only member function*)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/extents/dsc_index-cast&action=edit)  
+(exposition-only member function*)  
 [_dynamic-index_](extents/dynamic-index.html "cpp/container/mdspan/extents/dynamic-index")(private) |  returns the number of dynamic extents below a certain rank index  
-(exposition-only member function*)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/extents/dsc_dynamic-index&action=edit)  
+(exposition-only member function*)  
 [_dynamic-index-inv_](extents/dynamic-index-inv.html "cpp/container/mdspan/extents/dynamic-index-inv")(private) |  returns the number `r` such that in range `[`​0​`, `r + 1`)` there is exactly `i + 1` dynamic extents for a certain argument `i`  
-(exposition-only member function*)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/extents/dsc_dynamic-index-inv&action=edit)  
+(exposition-only member function*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/extents&action=edit&section=5 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ operator==](extents/operator==.html "cpp/container/mdspan/extents/operator==")(C++23) |  compare underlying extents in each dimension of two `extents`   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/extents/dsc_operator%3D%3D&action=edit)  
+(function)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/extents&action=edit&section=6 "Edit section: Deduction guides\(C++23\)")] [Deduction guides](extents/deduction_guides.html "cpp/container/mdspan/extents/deduction guides")(C++23)
+### [Deduction guides](extents/deduction_guides.html "cpp/container/mdspan/extents/deduction guides")(C++23)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/extents&action=edit&section=7 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/extents&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [ rank](../../types/rank.html "cpp/types/rank")(C++11) |  obtains the number of dimensions of an array type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_rank&action=edit)  
+(class template)   
 ---|---  
 [ extent](../../types/extent.html "cpp/types/extent")(C++11) |  obtains the size of an array type along a specified dimension   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_extent&action=edit)
+(class template) 

@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 `[std::stack](../stack.html "cpp/container/stack")`
 
@@ -101,7 +101,7 @@ Tables
 [formatter<std::stack>](formatter.html "cpp/container/stack/formatter")(C++23)  
 [Deduction guides](deduction_guides.html "cpp/container/stack/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/stack/navbar_content&action=edit)
+
 
 void push( const value_type& value ); |  (1)  |   
 ---|---|---  
@@ -125,20 +125,20 @@ Pushes the given element value to the top of the stack.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/push&action=edit&section=T-1 "Template:cpp/container/push")] Parameters
+### Parameters
 
 value  |  \-  |  the value of the element to push   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/push&action=edit&section=T-2 "Template:cpp/container/push")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/push&action=edit&section=T-3 "Template:cpp/container/push")] Complexity
+### Complexity
 
 Equal to the complexity of Container::push_back. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/push&action=edit&section=T-4 "Template:cpp/container/push")] Example
+### Example
 
 This program implements the [BrainHack](https://en.wikipedia.org/wiki/Brainfuck "enwiki:Brainfuck") [DSL](https://en.wikipedia.org/wiki/Domain-specific_language "enwiki:Domain-specific language"), when the use of [std::stack](../stack.html "cpp/container/stack") is an idiomatic way to process paired brackets.
 
@@ -243,10 +243,10 @@ Output:
     
     Hi, cppreference!
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/push&action=edit&section=T-5 "Template:cpp/container/push")] See also
+### See also
 
 [ emplace](emplace.html "cpp/container/stack/emplace")(C++11) |  constructs element in-place at the top   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_emplace&action=edit)  
+(public member function)   
 ---|---  
 [ pop](pop.html "cpp/container/stack/pop") |  removes the top element   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_pop&action=edit)
+(public member function) 

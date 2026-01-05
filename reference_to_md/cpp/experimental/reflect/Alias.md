@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Extensions for reflection](../reflect.html "cpp/experimental/reflect")
 
@@ -196,7 +196,7 @@ Meta-object operations
 [is_explicitly_captured](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/reflect/is_explicitly_captured&action=edit&redlink=1 "cpp/experimental/reflect/is explicitly captured \(page does not exist\)")  
 [is_init_capture](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/reflect/is_init_capture&action=edit&redlink=1 "cpp/experimental/reflect/is init capture \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/reflect/navbar_content&action=edit)
+
 
 Defined in header `[<experimental/reflect>](../../header/experimental/reflect.html "cpp/header/experimental/reflect")` |  |   
 ---|---|---  
@@ -206,13 +206,13 @@ concept Alias = Named<T> && ScopedMember<T> && /* see below */; |  |  (reflectio
   
 The `Alias` [concept](../../language/constraints.html "cpp/language/constraints") is satisfied if and only if T reflects a [`typedef` declaration](../../language/typedef.html "cpp/language/typedef"), an [alias-declaration](../../language/type_alias.html "cpp/language/type alias"), a [namespace alias](../../language/namespace_alias.html "cpp/language/namespace alias"), a [template type parameter](../../language/template_parameters.html "cpp/language/template parameters"), a [decltype-specifier](../../language/decltype.html "cpp/language/decltype"), or a declaration introduced by [using-declaration](../../language/using_declaration.html "cpp/language/using declaration") (Note: The `Scope` of an `Alias` is the scope that the alias was injected into). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/reflect/Alias&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: examples   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/reflect/Alias&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 | This section is incomplete  
 Reason: templatization   

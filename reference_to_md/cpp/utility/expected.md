@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 **`std::expected`**
 
@@ -160,7 +160,7 @@ Common vocabulary types
 [bad_expected_access](expected/bad_expected_access.html "cpp/utility/expected/bad expected access")  
 [unexpect_tunexpect](expected/unexpect_t.html "cpp/utility/expected/unexpect t")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/expected/navbar_content&action=edit)
+
 
 Defined in header `[<expected>](../header/expected.html "cpp/header/expected")` |  |   
 ---|---|---  
@@ -200,13 +200,13 @@ A program is ill-formed if it instantiates an `expected` with a reference type, 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected&action=edit&section=1 "Edit section: Template parameters")] Template parameters
+### Template parameters
 
 T  |  \-  |  the type of the expected value. The type must either be (possibly cv-qualified) void, or meet the [Destructible](../named_req/Destructible.html "cpp/named req/Destructible") requirements (in particular, array and reference types are not allowed).   
 ---|---|---  
 E  |  \-  |  the type of the unexpected value. The type must meet the [Destructible](../named_req/Destructible.html "cpp/named req/Destructible") requirements, and must be a valid template argument for [`std::unexpected`](expected/unexpected.html "cpp/utility/expected/unexpected") (in particular, arrays, non-object types, and cv-qualified types are not allowed).   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected&action=edit&section=2 "Edit section: Nested types")] Nested types
+### Nested types
 
 Type  |  Definition   
 ---|---  
@@ -214,13 +214,13 @@ Type  |  Definition
 `error_type` |  `E`  
 `unexpected_type` |  [`std::unexpected<E>`](expected/unexpected.html "cpp/utility/expected/unexpected")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected&action=edit&section=3 "Edit section: Member templates")] Member templates
+### Member templates
 
 Template  |  Definition   
 ---|---  
 rebind<U> |  std::expected<U, error_type>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected&action=edit&section=4 "Edit section: Data members")] Data members
+### Data members
 
 Member  |  Description   
 ---|---  
@@ -231,68 +231,68 @@ bool `_has_val_` |  whether the `expected` object currently represents the expec
 `E` `_unex_` |  the unexpected value  
 (exposition-only variant member object*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected&action=edit&section=5 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](expected/expected.html "cpp/utility/expected/expected") |  constructs the `expected` object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/expected/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ (destructor)](expected/~expected.html "cpp/utility/expected/~expected") |  destroys the `expected` object, along with its contained value   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/expected/dsc_destructor&action=edit)  
+(public member function)   
 [ operator=](expected/operator=.html "cpp/utility/expected/operator=") |  assigns contents   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/expected/dsc_operator%3D&action=edit)  
+(public member function)   
   
 #####  Observers   
   
 [ operator->operator*](expected/operator*.html "cpp/utility/expected/operator*") |  accesses the expected value   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/expected/dsc_operator*&action=edit)  
+(public member function)   
 [ operator boolhas_value](expected/operator_bool.html "cpp/utility/expected/operator bool") |  checks whether the object contains an expected value   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/expected/dsc_operator_bool&action=edit)  
+(public member function)   
 [ value](expected/value.html "cpp/utility/expected/value") |  returns the expected value   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/expected/dsc_value&action=edit)  
+(public member function)   
 [ error](expected/error.html "cpp/utility/expected/error") |  returns the unexpected value   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/expected/dsc_error&action=edit)  
+(public member function)   
 [ value_or](expected/value_or.html "cpp/utility/expected/value or") |  returns the expected value if present, another value otherwise   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/expected/dsc_value_or&action=edit)  
+(public member function)   
 [ error_or](expected/error_or.html "cpp/utility/expected/error or") |  returns the unexpected value if present, another value otherwise   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/expected/dsc_error_or&action=edit)  
+(public member function)   
   
 #####  Monadic operations   
   
 [ and_then](expected/and_then.html "cpp/utility/expected/and then") |  returns the result of the given function on the expected value if it exists; otherwise, returns the `expected` itself   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/expected/dsc_and_then&action=edit)  
+(public member function)   
 [ transform](expected/transform.html "cpp/utility/expected/transform") |  returns an `expected` containing the transformed expected value if it exists; otherwise, returns the `expected` itself   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/expected/dsc_transform&action=edit)  
+(public member function)   
 [ or_else](expected/or_else.html "cpp/utility/expected/or else") |  returns the `expected` itself if it contains an expected value; otherwise, returns the result of the given function on the unexpected value   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/expected/dsc_or_else&action=edit)  
+(public member function)   
 [ transform_error](expected/transform_error.html "cpp/utility/expected/transform error") |  returns the `expected` itself if it contains an expected value; otherwise, returns an `expected` containing the transformed unexpected value   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/expected/dsc_transform_error&action=edit)  
+(public member function)   
   
 #####  Modifiers   
   
 [ emplace](expected/emplace.html "cpp/utility/expected/emplace") |  constructs the expected value in-place   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/expected/dsc_emplace&action=edit)  
+(public member function)   
 [ swap](expected/swap.html "cpp/utility/expected/swap") |  exchanges the contents   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/expected/dsc_swap&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected&action=edit&section=6 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ operator==](expected/operator_cmp.html "cpp/utility/expected/operator cmp")(C++23) |  compares `expected` objects   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/expected/dsc_operator_cmp&action=edit)  
+(function template)   
 ---|---  
 [ swap(std::expected)](expected/swap2.html "cpp/utility/expected/swap2")(C++23) |  specializes the [std::swap](swap.html "cpp/algorithm/swap") algorithm   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/expected/dsc_swap2&action=edit)  
+(function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected&action=edit&section=7 "Edit section: Helper classes")] Helper classes
+### Helper classes
 
 [ unexpected](expected/unexpected.html "cpp/utility/expected/unexpected")(C++23) |  represented as an unexpected value   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/expected/dsc_unexpected&action=edit)  
+(class template)   
 ---|---  
 [ bad_expected_access](expected/bad_expected_access.html "cpp/utility/expected/bad expected access")(C++23) |  exception indicating checked access to an `expected` that contains an unexpected value   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/expected/dsc_bad_expected_access&action=edit)  
+(class template)   
 [ unexpectunexpect_t](expected/unexpect_t.html "cpp/utility/expected/unexpect t")(C++23) |  in-place construction tag for unexpected value in `expected`  
-(tag)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/expected/dsc_unexpect_t&action=edit)  
+(tag)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected&action=edit&section=8 "Edit section: Notes")] Notes
+### Notes
 
 Types with the same functionality are called [`Result`](https://doc.rust-lang.org/std/result/enum.Result.html) in Rust and [`Either`](https://hackage.haskell.org/package/base-4.17.0.0/docs/Data-Either.html) in Haskell. 
 
@@ -301,7 +301,7 @@ Types with the same functionality are called [`Result`](https://doc.rust-lang.or
 [`__cpp_lib_expected`](../experimental/feature_test.html#cpp_lib_expected "cpp/feature test") | [`202202L`](../compiler_support/23.html#cpp_lib_expected_202202L "cpp/compiler support/23") | (C++23) | class template `std::expected` and associated [helper classes](expected.html#Helper_classes)  
 [`202211L`](../compiler_support/23.html#cpp_lib_expected_202211L "cpp/compiler support/23") | (C++23) | Monadic functions for `std::expected`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected&action=edit&section=9 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -364,7 +364,7 @@ Output:
     str: "meow", error: invalid input
     str: "inf", error: overflow
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected&action=edit&section=10 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -374,7 +374,7 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 allocation was confusing  | the contained object must be  
 nested within the `expected` object   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected&action=edit&section=11 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -386,12 +386,12 @@ nested within the `expected` object
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected&action=edit&section=12 "Edit section: See also")] See also
+### See also
 
 [ variant](variant.html "cpp/utility/variant")(C++17) |  a type-safe discriminated union   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_variant&action=edit)  
+(class template)   
 ---|---  
 [ optional](optional.html "cpp/utility/optional")(C++17) |  a wrapper that may or may not hold an object   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_optional&action=edit)
+(class template) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

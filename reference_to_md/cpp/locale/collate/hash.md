@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Localization library](../../locale.html "cpp/locale")
 
@@ -152,7 +152,7 @@ base classes](../../locale.html#Facet_category_base_classes "cpp/locale")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/navbar_content&action=edit)
+
 
 [`std::collate`](../collate.html "cpp/locale/collate")
 
@@ -164,7 +164,7 @@ Member functions
 [collate::transformcollate::do_transform](transform.html "cpp/locale/collate/transform")  
 **collate::hash collate::do_hash**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/collate/navbar_content&action=edit)
+
 
 Defined in header `[<locale>](../../header/locale.html "cpp/header/locale")` |  |   
 ---|---|---  
@@ -189,21 +189,21 @@ virtual long do_hash( const CharT* beg, const CharT* end ) const; |  (2)  |
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/collate/hash&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 beg  |  \-  |  pointer to the first character in the sequence to hash   
 ---|---|---  
 end  |  \-  |  one past the end pointer for the sequence to hash   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/collate/hash&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The hash value that respects collation order. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/collate/hash&action=edit&section=3 "Edit section: Note")] Note
+### Note
 
 The system-supplied locales normally do not collate two strings as equivalent ([compare()](compare.html "cpp/locale/collate/compare") does not return ​0​) if [`basic_string::operator==`](../../string/basic_string/operator_cmp.html "cpp/string/basic string/operator cmp") returns false, but a user-installed [std::collate](../collate.html "cpp/locale/collate") facet may provide different collation rules, for example, it may treat strings as equivalent if they have the same Unicode normalized form. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/collate/hash&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Demonstrates a locale-aware unordered container.
 
@@ -254,8 +254,8 @@ Possible output:
     
     Bar Foo
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/collate/hash&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ std::hash<std::basic_string>](../../string/basic_string/hash.html "cpp/string/basic string/hash")(C++11) |  hash support for strings   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_hash&action=edit)  
+(class template specialization)   
 ---|---

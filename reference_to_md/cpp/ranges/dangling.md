@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 Defined in header `[<ranges>](../header/ranges.html "cpp/header/ranges")` |  |   
 ---|---|---  
@@ -245,7 +245,7 @@ When some [constrained algorithms](../algorithm/ranges.html "cpp/algorithm/range
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/dangling&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 ##  std::ranges::dangling::dangling 
 
@@ -261,7 +261,7 @@ constexpr dangling(Args&&...) noexcept { } |  (2)  |
 
 In other words, after replacing the type (e.g. an iterator type) in a well-formed non-aggregate initialization with `dangling`, the resulting initialization is also well-formed. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/dangling&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -302,10 +302,10 @@ Output:
     
     1 'a'
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/dangling&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ ranges::borrowed_iterator_tranges::borrowed_subrange_t](borrowed_iterator_t.html "cpp/ranges/borrowed iterator t")(C++20) |  obtains iterator type or `subrange` type of a [`borrowed_range`](borrowed_range.html "cpp/ranges/borrowed range")  
-(alias template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_borrowed_iterator_t&action=edit)  
+(alias template)  
 ---|---  
 [ ranges::borrowed_range](borrowed_range.html "cpp/ranges/borrowed range")(C++20) |  specifies that a type is a [`range`](range.html "cpp/ranges/range") and iterators obtained from an expression of it can be safely returned without danger of dangling   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_borrowed_range&action=edit)
+(concept) 

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header was originally in the C standard library as [`<assert.h>`](../../c/header/assert.html "c/header/assert"). 
 
@@ -204,9 +204,9 @@ This header is part of the [error handling](../error.html "cpp/error") library.
   
 ---  
 [ assert](../error/assert.html "cpp/error/assert") |  aborts the program if the user-specified condition is not true. May be disabled for release builds.   
-(function macro) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_assert&action=edit)  
+(function macro)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/cassert&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     #define assert(E) /* see description */

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Filesystem library](../../filesystem.html "cpp/filesystem")
 
@@ -100,7 +100,7 @@ filesystem::symlink_status](../status.html "cpp/filesystem/status")
 [filesystem::is_socket](../is_socket.html "cpp/filesystem/is socket")  
 [filesystem::is_symlink](../is_symlink.html "cpp/filesystem/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/navbar_content&action=edit)
+
 
 [`std::filesystem::path`](../path.html "cpp/filesystem/path")
 
@@ -169,7 +169,7 @@ filesystem::symlink_status](../status.html "cpp/filesystem/status")
 | [formatter<std::filesystem::path>](formatter.html "cpp/filesystem/path/formatter")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/path/navbar_content&action=edit)
+
 
 path& make_preferred(); |  |  (since C++17)  
 ---|---|---  
@@ -190,19 +190,19 @@ For example, on Windows, where \ is the preferred separator, the path foo/bar wi
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/make_preferred&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/make_preferred&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 *this
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/impldef_exception&action=edit&section=T-1 "Template:cpp/impldef exception")] Exceptions
+### Exceptions
 
 May throw implementation-defined exceptions. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/make_preferred&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Windows can use / as a separator, but prefers \, so make_preferred converts the forward slashes to backslashes. On the other hand, POSIX does not use \ as a separator, because backslashes are valid filename characters — the Windows path on POSIX actually refers to a file with the name "a\\\b\\\c". For this reason the "separators" are not converted.
 
@@ -238,8 +238,8 @@ Output:
     Windows path: "a\\b\\c" -> "a\\b\\c"
     POSIX path: "a/b/c" -> "a/b/c"
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/make_preferred&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 constexpr value_type preferred_separator[static] |  alternative directory separator which may be used in addition to the portable /. On Windows, this is the backslash character \. On POSIX, this is the same forward slash / as the portable separator   
-(public static member constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/path/dsc_preferred_separator&action=edit)  
+(public static member constant)   
 ---|---

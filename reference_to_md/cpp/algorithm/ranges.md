@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](ranges/copy.html "cpp/algorithm/ra
 [uninitialized_default_construct_n](../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 **Constrained algorithms**
 
@@ -550,7 +550,7 @@ All names in this menu belong to namespace `std::ranges`
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/navbar_content&action=edit)
+
 
 C++20 provides [constrained](../language/constraints.html "cpp/language/constraints") versions of most algorithms in the namespace `std::ranges`. In these algorithms, a range can be specified as either an [iterator](../iterator/input_or_output_iterator.html "cpp/iterator/input or output iterator")-[sentinel](../iterator/sentinel_for.html "cpp/iterator/sentinel for") pair or as a single [`range`](../ranges/range.html "cpp/ranges/range") argument, and projections and pointer-to-member callables are supported. Additionally, the [return types](ranges.html#Return_types "cpp/algorithm/ranges") of most algorithms have been changed to return all potentially useful information computed during the execution of the algorithm. 
 
@@ -578,7 +578,7 @@ C++20 provides [constrained](../language/constraints.html "cpp/language/constrai
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges&action=edit&section=1 "Edit section: Algorithm function objects")] Algorithm function objects
+### Algorithm function objects
 
 An _algorithm function object_ (AFO), informally known as _niebloid_ , is a [customization point object](../ranges/cpo.html "cpp/standard library/cpo") (CPO) that is specified as one or more overloaded function templates. The name of these function templates designates the corresponding algorithm function object. 
 
@@ -592,7 +592,7 @@ The constrained algorithms in the namespace `std::ranges` are defined as algorit
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges&action=edit&section=2 "Edit section: Constrained algorithms")] Constrained algorithms
+### Constrained algorithms
 
 Defined in header `[<algorithm>](../header/algorithm.html "cpp/header/algorithm")`  
 ---  
@@ -601,283 +601,283 @@ Defined in namespace `std::ranges`
 #####  Non-modifying sequence operations   
   
 [ ranges::all_ofranges::any_ofranges::none_of](ranges/all_any_none_of.html "cpp/algorithm/ranges/all any none of")(C++20)(C++20)(C++20) |  checks if a predicate is true for all, any or none of the elements in a range  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_all_any_none_of&action=edit)  
+(algorithm function object)  
 [ ranges::for_each](ranges/for_each.html "cpp/algorithm/ranges/for each")(C++20) |  applies a unary [function object](../named_req/FunctionObject.html "cpp/named req/FunctionObject") to elements from a [range](../iterator.html#Ranges "cpp/iterator")  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_for_each&action=edit)  
+(algorithm function object)  
 [ ranges::for_each_n](ranges/for_each_n.html "cpp/algorithm/ranges/for each n")(C++20) |  applies a function object to the first N elements of a sequence  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_for_each_n&action=edit)  
+(algorithm function object)  
 [ ranges::countranges::count_if](ranges/count.html "cpp/algorithm/ranges/count")(C++20)(C++20) |  returns the number of elements satisfying specific criteria  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_count&action=edit)  
+(algorithm function object)  
 [ ranges::mismatch](ranges/mismatch.html "cpp/algorithm/ranges/mismatch")(C++20) |  finds the first position where two ranges differ  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_mismatch&action=edit)  
+(algorithm function object)  
 [ ranges::equal](ranges/equal.html "cpp/algorithm/ranges/equal")(C++20) |  determines if two sets of elements are the same  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_equal&action=edit)  
+(algorithm function object)  
 [ ranges::lexicographical_compare](ranges/lexicographical_compare.html "cpp/algorithm/ranges/lexicographical compare")(C++20) |  returns true if one range is lexicographically less than another  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_lexicographical_compare&action=edit)  
+(algorithm function object)  
 [ ranges::findranges::find_ifranges::find_if_not](ranges/find.html "cpp/algorithm/ranges/find")(C++20)(C++20)(C++20) |  finds the first element satisfying specific criteria  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_find&action=edit)  
+(algorithm function object)  
 [ ranges::find_lastranges::find_last_ifranges::find_last_if_not](ranges/find_last.html "cpp/algorithm/ranges/find last")(C++23)(C++23)(C++23) |  finds the last element satisfying specific criteria  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_find_last&action=edit)  
+(algorithm function object)  
 [ ranges::find_end](ranges/find_end.html "cpp/algorithm/ranges/find end")(C++20) |  finds the last sequence of elements in a certain range  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_find_end&action=edit)  
+(algorithm function object)  
 [ ranges::find_first_of](ranges/find_first_of.html "cpp/algorithm/ranges/find first of")(C++20) |  searches for any one of a set of elements  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_find_first_of&action=edit)  
+(algorithm function object)  
 [ ranges::adjacent_find](ranges/adjacent_find.html "cpp/algorithm/ranges/adjacent find")(C++20) |  finds the first two adjacent items that are equal (or satisfy a given predicate)  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_adjacent_find&action=edit)  
+(algorithm function object)  
 [ ranges::search](ranges/search.html "cpp/algorithm/ranges/search")(C++20) |  searches for the first occurrence of a range of elements  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_search&action=edit)  
+(algorithm function object)  
 [ ranges::search_n](ranges/search_n.html "cpp/algorithm/ranges/search n")(C++20) |  searches for the first occurrence of a number consecutive copies of an element in a range  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_search_n&action=edit)  
+(algorithm function object)  
 [ ranges::containsranges::contains_subrange](ranges/contains.html "cpp/algorithm/ranges/contains")(C++23)(C++23) |  checks if the range contains the given element or subrange  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_contains&action=edit)  
+(algorithm function object)  
 [ ranges::starts_with](ranges/starts_with.html "cpp/algorithm/ranges/starts with")(C++23) |  checks whether a range starts with another range  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_starts_with&action=edit)  
+(algorithm function object)  
 [ ranges::ends_with](ranges/ends_with.html "cpp/algorithm/ranges/ends with")(C++23) |  checks whether a range ends with another range  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_ends_with&action=edit)  
+(algorithm function object)  
   
 #####  Modifying sequence operations   
   
 [ ranges::copyranges::copy_if](ranges/copy.html "cpp/algorithm/ranges/copy")(C++20)(C++20) |  copies a range of elements to a new location  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_copy&action=edit)  
+(algorithm function object)  
 [ ranges::copy_n](ranges/copy_n.html "cpp/algorithm/ranges/copy n")(C++20) |  copies a number of elements to a new location  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_copy_n&action=edit)  
+(algorithm function object)  
 [ ranges::copy_backward](ranges/copy_backward.html "cpp/algorithm/ranges/copy backward")(C++20) |  copies a range of elements in backwards order  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_copy_backward&action=edit)  
+(algorithm function object)  
 [ ranges::move](ranges/move.html "cpp/algorithm/ranges/move")(C++20) |  moves a range of elements to a new location  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_move&action=edit)  
+(algorithm function object)  
 [ ranges::move_backward](ranges/move_backward.html "cpp/algorithm/ranges/move backward")(C++20) |  moves a range of elements to a new location in backwards order  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_move_backward&action=edit)  
+(algorithm function object)  
 [ ranges::fill](ranges/fill.html "cpp/algorithm/ranges/fill")(C++20) |  assigns a range of elements a certain value  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_fill&action=edit)  
+(algorithm function object)  
 [ ranges::fill_n](ranges/fill_n.html "cpp/algorithm/ranges/fill n")(C++20) |  assigns a value to a number of elements  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_fill_n&action=edit)  
+(algorithm function object)  
 [ ranges::transform](ranges/transform.html "cpp/algorithm/ranges/transform")(C++20) |  applies a function to a range of elements  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_transform&action=edit)  
+(algorithm function object)  
 [ ranges::generate](ranges/generate.html "cpp/algorithm/ranges/generate")(C++20) |  saves the result of a function in a range  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_generate&action=edit)  
+(algorithm function object)  
 [ ranges::generate_n](ranges/generate_n.html "cpp/algorithm/ranges/generate n")(C++20) |  saves the result of N applications of a function  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_generate_n&action=edit)  
+(algorithm function object)  
 [ ranges::removeranges::remove_if](ranges/remove.html "cpp/algorithm/ranges/remove")(C++20)(C++20) |  removes elements satisfying specific criteria  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_remove&action=edit)  
+(algorithm function object)  
 [ ranges::remove_copyranges::remove_copy_if](ranges/remove_copy.html "cpp/algorithm/ranges/remove copy")(C++20)(C++20) |  copies a range of elements omitting those that satisfy specific criteria  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_remove_copy&action=edit)  
+(algorithm function object)  
 [ ranges::replaceranges::replace_if](ranges/replace.html "cpp/algorithm/ranges/replace")(C++20)(C++20) |  replaces all values satisfying specific criteria with another value  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_replace&action=edit)  
+(algorithm function object)  
 [ ranges::replace_copyranges::replace_copy_if](ranges/replace_copy.html "cpp/algorithm/ranges/replace copy")(C++20)(C++20) |  copies a range, replacing elements satisfying specific criteria with another value  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_replace_copy&action=edit)  
+(algorithm function object)  
 [ ranges::swap_ranges](ranges/swap_ranges.html "cpp/algorithm/ranges/swap ranges")(C++20) |  swaps two ranges of elements  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_swap_ranges&action=edit)  
+(algorithm function object)  
 [ ranges::reverse](ranges/reverse.html "cpp/algorithm/ranges/reverse")(C++20) |  reverses the order of elements in a range  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_reverse&action=edit)  
+(algorithm function object)  
 [ ranges::reverse_copy](ranges/reverse_copy.html "cpp/algorithm/ranges/reverse copy")(C++20) |  creates a copy of a range that is reversed  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_reverse_copy&action=edit)  
+(algorithm function object)  
 [ ranges::rotate](ranges/rotate.html "cpp/algorithm/ranges/rotate")(C++20) |  rotates the order of elements in a range  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_rotate&action=edit)  
+(algorithm function object)  
 [ ranges::rotate_copy](ranges/rotate_copy.html "cpp/algorithm/ranges/rotate copy")(C++20) |  copies and rotate a range of elements  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_rotate_copy&action=edit)  
+(algorithm function object)  
 [ ranges::shuffle](ranges/shuffle.html "cpp/algorithm/ranges/shuffle")(C++20) |  randomly re-orders elements in a range  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_shuffle&action=edit)  
+(algorithm function object)  
 [ ranges::shift_leftranges::shift_right](ranges/shift.html "cpp/algorithm/ranges/shift")(C++23) |  shifts elements in a range  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_shift&action=edit)  
+(algorithm function object)  
 [ ranges::sample](ranges/sample.html "cpp/algorithm/ranges/sample")(C++20) |  selects N random elements from a sequence  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_sample&action=edit)  
+(algorithm function object)  
 [ ranges::unique](ranges/unique.html "cpp/algorithm/ranges/unique")(C++20) |  removes consecutive duplicate elements in a range  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_unique&action=edit)  
+(algorithm function object)  
 [ ranges::unique_copy](ranges/unique_copy.html "cpp/algorithm/ranges/unique copy")(C++20) |  creates a copy of some range of elements that contains no consecutive duplicates  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_unique_copy&action=edit)  
+(algorithm function object)  
   
 #####  Partitioning operations   
   
 [ ranges::is_partitioned](ranges/is_partitioned.html "cpp/algorithm/ranges/is partitioned")(C++20) |  determines if the range is partitioned by the given predicate  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_is_partitioned&action=edit)  
+(algorithm function object)  
 [ ranges::partition](ranges/partition.html "cpp/algorithm/ranges/partition")(C++20) |  divides a range of elements into two groups  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_partition&action=edit)  
+(algorithm function object)  
 [ ranges::partition_copy](ranges/partition_copy.html "cpp/algorithm/ranges/partition copy")(C++20) |  copies a range dividing the elements into two groups  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_partition_copy&action=edit)  
+(algorithm function object)  
 [ ranges::stable_partition](ranges/stable_partition.html "cpp/algorithm/ranges/stable partition")(C++20) |  divides elements into two groups while preserving their relative order  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_stable_partition&action=edit)  
+(algorithm function object)  
 [ ranges::partition_point](ranges/partition_point.html "cpp/algorithm/ranges/partition point")(C++20) |  locates the partition point of a partitioned range  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_partition_point&action=edit)  
+(algorithm function object)  
   
 #####  Sorting operations   
   
 [ ranges::is_sorted](ranges/is_sorted.html "cpp/algorithm/ranges/is sorted")(C++20) |  checks whether a range is sorted into ascending order  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_is_sorted&action=edit)  
+(algorithm function object)  
 [ ranges::is_sorted_until](ranges/is_sorted_until.html "cpp/algorithm/ranges/is sorted until")(C++20) |  finds the largest sorted subrange  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_is_sorted_until&action=edit)  
+(algorithm function object)  
 [ ranges::sort](ranges/sort.html "cpp/algorithm/ranges/sort")(C++20) |  sorts a range into ascending order  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_sort&action=edit)  
+(algorithm function object)  
 [ ranges::partial_sort](ranges/partial_sort.html "cpp/algorithm/ranges/partial sort")(C++20) |  sorts the first N elements of a range  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_partial_sort&action=edit)  
+(algorithm function object)  
 [ ranges::partial_sort_copy](ranges/partial_sort_copy.html "cpp/algorithm/ranges/partial sort copy")(C++20) |  copies and partially sorts a range of elements  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_partial_sort_copy&action=edit)  
+(algorithm function object)  
 [ ranges::stable_sort](ranges/stable_sort.html "cpp/algorithm/ranges/stable sort")(C++20) |  sorts a range of elements while preserving order between equal elements  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_stable_sort&action=edit)  
+(algorithm function object)  
 [ ranges::nth_element](ranges/nth_element.html "cpp/algorithm/ranges/nth element")(C++20) |  partially sorts the given range making sure that it is partitioned by the given element  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_nth_element&action=edit)  
+(algorithm function object)  
   
 #####  Binary search operations (on sorted ranges)   
   
 [ ranges::lower_bound](ranges/lower_bound.html "cpp/algorithm/ranges/lower bound")(C++20) |  returns an iterator to the first element _not less_ than the given value  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_lower_bound&action=edit)  
+(algorithm function object)  
 [ ranges::upper_bound](ranges/upper_bound.html "cpp/algorithm/ranges/upper bound")(C++20) |  returns an iterator to the first element _greater_ than a certain value  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_upper_bound&action=edit)  
+(algorithm function object)  
 [ ranges::binary_search](ranges/binary_search.html "cpp/algorithm/ranges/binary search")(C++20) |  determines if an element exists in a partially-ordered range  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_binary_search&action=edit)  
+(algorithm function object)  
 [ ranges::equal_range](ranges/equal_range.html "cpp/algorithm/ranges/equal range")(C++20) |  returns range of elements matching a specific key  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_equal_range&action=edit)  
+(algorithm function object)  
   
 #####  Set operations (on sorted ranges)   
   
 [ ranges::merge](ranges/merge.html "cpp/algorithm/ranges/merge")(C++20) |  merges two sorted ranges  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_merge&action=edit)  
+(algorithm function object)  
 [ ranges::inplace_merge](ranges/inplace_merge.html "cpp/algorithm/ranges/inplace merge")(C++20) |  merges two ordered ranges in-place  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_inplace_merge&action=edit)  
+(algorithm function object)  
 [ ranges::includes](ranges/includes.html "cpp/algorithm/ranges/includes")(C++20) |  returns true if one sequence is a subsequence of another  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_includes&action=edit)  
+(algorithm function object)  
 [ ranges::set_difference](ranges/set_difference.html "cpp/algorithm/ranges/set difference")(C++20) |  computes the difference between two sets  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_set_difference&action=edit)  
+(algorithm function object)  
 [ ranges::set_intersection](ranges/set_intersection.html "cpp/algorithm/ranges/set intersection")(C++20) |  computes the intersection of two sets  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_set_intersection&action=edit)  
+(algorithm function object)  
 [ ranges::set_symmetric_difference](ranges/set_symmetric_difference.html "cpp/algorithm/ranges/set symmetric difference")(C++20) |  computes the symmetric difference between two sets  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_set_symmetric_difference&action=edit)  
+(algorithm function object)  
 [ ranges::set_union](ranges/set_union.html "cpp/algorithm/ranges/set union")(C++20) |  computes the union of two sets  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_set_union&action=edit)  
+(algorithm function object)  
   
 #####  Heap operations   
   
 [ ranges::is_heap](ranges/is_heap.html "cpp/algorithm/ranges/is heap")(C++20) |  checks if the given range is a max heap  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_is_heap&action=edit)  
+(algorithm function object)  
 [ ranges::is_heap_until](ranges/is_heap_until.html "cpp/algorithm/ranges/is heap until")(C++20) |  finds the largest subrange that is a max heap  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_is_heap_until&action=edit)  
+(algorithm function object)  
 [ ranges::make_heap](ranges/make_heap.html "cpp/algorithm/ranges/make heap")(C++20) |  creates a max heap out of a range of elements  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_make_heap&action=edit)  
+(algorithm function object)  
 [ ranges::push_heap](ranges/push_heap.html "cpp/algorithm/ranges/push heap")(C++20) |  adds an element to a max heap  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_push_heap&action=edit)  
+(algorithm function object)  
 [ ranges::pop_heap](ranges/pop_heap.html "cpp/algorithm/ranges/pop heap")(C++20) |  removes the largest element from a max heap  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_pop_heap&action=edit)  
+(algorithm function object)  
 [ ranges::sort_heap](ranges/sort_heap.html "cpp/algorithm/ranges/sort heap")(C++20) |  turns a max heap into a range of elements sorted in ascending order  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_sort_heap&action=edit)  
+(algorithm function object)  
   
 #####  Minimum/maximum operations   
   
 [ ranges::max](ranges/max.html "cpp/algorithm/ranges/max")(C++20) |  returns the greater of the given values  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_max&action=edit)  
+(algorithm function object)  
 [ ranges::max_element](ranges/max_element.html "cpp/algorithm/ranges/max element")(C++20) |  returns the largest element in a range  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_max_element&action=edit)  
+(algorithm function object)  
 [ ranges::min](ranges/min.html "cpp/algorithm/ranges/min")(C++20) |  returns the smaller of the given values  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_min&action=edit)  
+(algorithm function object)  
 [ ranges::min_element](ranges/min_element.html "cpp/algorithm/ranges/min element")(C++20) |  returns the smallest element in a range  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_min_element&action=edit)  
+(algorithm function object)  
 [ ranges::minmax](ranges/minmax.html "cpp/algorithm/ranges/minmax")(C++20) |  returns the smaller and larger of two elements  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_minmax&action=edit)  
+(algorithm function object)  
 [ ranges::minmax_element](ranges/minmax_element.html "cpp/algorithm/ranges/minmax element")(C++20) |  returns the smallest and the largest elements in a range  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_minmax_element&action=edit)  
+(algorithm function object)  
 [ ranges::clamp](ranges/clamp.html "cpp/algorithm/ranges/clamp")(C++20) |  clamps a value between a pair of boundary values  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_clamp&action=edit)  
+(algorithm function object)  
   
 #####  Permutation operations   
   
 [ ranges::is_permutation](ranges/is_permutation.html "cpp/algorithm/ranges/is permutation")(C++20) |  determines if a sequence is a permutation of another sequence  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_is_permutation&action=edit)  
+(algorithm function object)  
 [ ranges::next_permutation](ranges/next_permutation.html "cpp/algorithm/ranges/next permutation")(C++20) |  generates the next greater lexicographic permutation of a range of elements  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_next_permutation&action=edit)  
+(algorithm function object)  
 [ ranges::prev_permutation](ranges/prev_permutation.html "cpp/algorithm/ranges/prev permutation")(C++20) |  generates the next smaller lexicographic permutation of a range of elements  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_prev_permutation&action=edit)  
+(algorithm function object)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges&action=edit&section=3 "Edit section: Constrained numeric operations")] Constrained numeric operations
+### Constrained numeric operations
 
 Defined in header `[<numeric>](../header/numeric.html "cpp/header/numeric")`  
 ---  
 Defined in namespace `std::ranges`  
 [ ranges::iota](ranges/iota.html "cpp/algorithm/ranges/iota")(C++23) |  fills a range with successive increments of the starting value  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_iota&action=edit)  
+(algorithm function object)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges&action=edit&section=4 "Edit section: Constrained fold operations")] Constrained fold operations
+### Constrained fold operations
 
 Defined in header `[<algorithm>](../header/algorithm.html "cpp/header/algorithm")`  
 ---  
 Defined in namespace `std::ranges`  
 [ ranges::fold_left](ranges/fold_left.html "cpp/algorithm/ranges/fold left")(C++23) |  left-folds a range of elements  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_fold_left&action=edit)  
+(algorithm function object)  
 [ ranges::fold_left_first](ranges/fold_left_first.html "cpp/algorithm/ranges/fold left first")(C++23) |  left-folds a range of elements using the first element as an initial value  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_fold_left_first&action=edit)  
+(algorithm function object)  
 [ ranges::fold_right](ranges/fold_right.html "cpp/algorithm/ranges/fold right")(C++23) |  right-folds a range of elements  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_fold_right&action=edit)  
+(algorithm function object)  
 [ ranges::fold_right_last](ranges/fold_right_last.html "cpp/algorithm/ranges/fold right last")(C++23) |  right-folds a range of elements using the last element as an initial value  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_fold_right_last&action=edit)  
+(algorithm function object)  
 [ ranges::fold_left_with_iter](ranges/fold_left_with_iter.html "cpp/algorithm/ranges/fold left with iter")(C++23) |  left-folds a range of elements, and returns a [pair](ranges/return_types/in_value_result.html "cpp/algorithm/ranges/return types/in value result") (iterator, value)  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_fold_left_with_iter&action=edit)  
+(algorithm function object)  
 [ ranges::fold_left_first_with_iter](ranges/fold_left_first_with_iter.html "cpp/algorithm/ranges/fold left first with iter")(C++23) |  left-folds a range of elements using the first element as an initial value, and returns a [pair](ranges/return_types/in_value_result.html "cpp/algorithm/ranges/return types/in value result") (iterator, [optional](../utility/optional.html "cpp/utility/optional"))  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_fold_left_first_with_iter&action=edit)  
+(algorithm function object)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges&action=edit&section=5 "Edit section: Constrained uninitialized memory algorithms")] Constrained uninitialized memory algorithms
+### Constrained uninitialized memory algorithms
 
 Defined in header `[<memory>](../header/memory.html "cpp/header/memory")`  
 ---  
 Defined in namespace `std::ranges`  
 [ ranges::uninitialized_copy](../memory/ranges/uninitialized_copy.html "cpp/memory/ranges/uninitialized copy")(C++20) |  copies a range of objects to an uninitialized area of memory  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/ranges/dsc_uninitialized_copy&action=edit)  
+(algorithm function object)  
 [ ranges::uninitialized_copy_n](../memory/ranges/uninitialized_copy_n.html "cpp/memory/ranges/uninitialized copy n")(C++20) |  copies a number of objects to an uninitialized area of memory  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/ranges/dsc_uninitialized_copy_n&action=edit)  
+(algorithm function object)  
 [ ranges::uninitialized_fill](../memory/ranges/uninitialized_fill.html "cpp/memory/ranges/uninitialized fill")(C++20) |  copies an object to an uninitialized area of memory, defined by a range  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/ranges/dsc_uninitialized_fill&action=edit)  
+(algorithm function object)  
 [ ranges::uninitialized_fill_n](../memory/ranges/uninitialized_fill_n.html "cpp/memory/ranges/uninitialized fill n")(C++20) |  copies an object to an uninitialized area of memory, defined by a start and a count  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/ranges/dsc_uninitialized_fill_n&action=edit)  
+(algorithm function object)  
 [ ranges::uninitialized_move](../memory/ranges/uninitialized_move.html "cpp/memory/ranges/uninitialized move")(C++20) |  moves a range of objects to an uninitialized area of memory  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/ranges/dsc_uninitialized_move&action=edit)  
+(algorithm function object)  
 [ ranges::uninitialized_move_n](../memory/ranges/uninitialized_move_n.html "cpp/memory/ranges/uninitialized move n")(C++20) |  moves a number of objects to an uninitialized area of memory  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/ranges/dsc_uninitialized_move_n&action=edit)  
+(algorithm function object)  
 [ ranges::uninitialized_default_construct](../memory/ranges/uninitialized_default_construct.html "cpp/memory/ranges/uninitialized default construct")(C++20) |  constructs objects by [default-initialization](../language/default_initialization.html "cpp/language/default initialization") in an uninitialized area of memory, defined by a range  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/ranges/dsc_uninitialized_default_construct&action=edit)  
+(algorithm function object)  
 [ ranges::uninitialized_default_construct_n](../memory/ranges/uninitialized_default_construct_n.html "cpp/memory/ranges/uninitialized default construct n")(C++20) |  constructs objects by [default-initialization](../language/default_initialization.html "cpp/language/default initialization") in an uninitialized area of memory, defined by a start and count  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/ranges/dsc_uninitialized_default_construct_n&action=edit)  
+(algorithm function object)  
 [ ranges::uninitialized_value_construct](../memory/ranges/uninitialized_value_construct.html "cpp/memory/ranges/uninitialized value construct")(C++20) |  constructs objects by [value-initialization](../language/value_initialization.html "cpp/language/value initialization") in an uninitialized area of memory, defined by a range  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/ranges/dsc_uninitialized_value_construct&action=edit)  
+(algorithm function object)  
 [ ranges::uninitialized_value_construct_n](../memory/ranges/uninitialized_value_construct_n.html "cpp/memory/ranges/uninitialized value construct n")(C++20) |  constructs objects by [value-initialization](../language/value_initialization.html "cpp/language/value initialization") in an uninitialized area of memory, defined by a start and a count  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/ranges/dsc_uninitialized_value_construct_n&action=edit)  
+(algorithm function object)  
 [ ranges::destroy](../memory/ranges/destroy.html "cpp/memory/ranges/destroy")(C++20) |  destroys a range of objects  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/ranges/dsc_destroy&action=edit)  
+(algorithm function object)  
 [ ranges::destroy_n](../memory/ranges/destroy_n.html "cpp/memory/ranges/destroy n")(C++20) |  destroys a number of objects in a range  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/ranges/dsc_destroy_n&action=edit)  
+(algorithm function object)  
 [ ranges::destroy_at](../memory/ranges/destroy_at.html "cpp/memory/ranges/destroy at")(C++20) |  destroys an object at a given address  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/ranges/dsc_destroy_at&action=edit)  
+(algorithm function object)  
 [ ranges::construct_at](../memory/ranges/construct_at.html "cpp/memory/ranges/construct at")(C++20) |  creates an object at a given address  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/ranges/dsc_construct_at&action=edit)  
+(algorithm function object)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges&action=edit&section=6 "Edit section: Constrained random number algorithms")] Constrained random number algorithms
+### Constrained random number algorithms
 
 Defined in header `[<random>](../header/random.html "cpp/header/random")`  
 ---  
 Defined in namespace `std::ranges`  
 [ ranges::generate_random](ranges/generate_random.html "cpp/algorithm/ranges/generate random")(C++26) |  fills a range with random numbers from a uniform random bit generator  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_generate_random&action=edit)  
+(algorithm function object)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges&action=edit&section=7 "Edit section: Return types")] Return types
+### Return types
 
 Defined in header `[<algorithm>](../header/algorithm.html "cpp/header/algorithm")`  
 ---  
 Defined in namespace `std::ranges`  
 [ ranges::in_fun_result](ranges/return_types/in_fun_result.html "cpp/algorithm/ranges/return types/in fun result")(C++20) |  provides a way to store an iterator and a function object as a single unit   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/return_types/dsc_in_fun_result&action=edit)  
+(class template)   
 [ ranges::in_in_result](ranges/return_types/in_in_result.html "cpp/algorithm/ranges/return types/in in result")(C++20) |  provides a way to store two iterators as a single unit   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/return_types/dsc_in_in_result&action=edit)  
+(class template)   
 [ ranges::in_out_result](ranges/return_types/in_out_result.html "cpp/algorithm/ranges/return types/in out result")(C++20) |  provides a way to store two iterators as a single unit   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/return_types/dsc_in_out_result&action=edit)  
+(class template)   
 [ ranges::in_in_out_result](ranges/return_types/in_in_out_result.html "cpp/algorithm/ranges/return types/in in out result")(C++20) |  provides a way to store three iterators as a single unit   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/return_types/dsc_in_in_out_result&action=edit)  
+(class template)   
 [ ranges::in_out_out_result](ranges/return_types/in_out_out_result.html "cpp/algorithm/ranges/return types/in out out result")(C++20) |  provides a way to store three iterators as a single unit   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/return_types/dsc_in_out_out_result&action=edit)  
+(class template)   
 [ ranges::min_max_result](ranges/return_types/min_max_result.html "cpp/algorithm/ranges/return types/min max result")(C++20) |  provides a way to store two objects or references of the same type as a single unit   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/return_types/dsc_min_max_result&action=edit)  
+(class template)   
 [ ranges::in_found_result](ranges/return_types/in_found_result.html "cpp/algorithm/ranges/return types/in found result")(C++20) |  provides a way to store an iterator and a boolean flag as a single unit   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/return_types/dsc_in_found_result&action=edit)  
+(class template)   
 [ ranges::in_value_result](ranges/return_types/in_value_result.html "cpp/algorithm/ranges/return types/in value result")(C++23) |  provides a way to store an iterator and a value as a single unit   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/return_types/dsc_in_value_result&action=edit)  
+(class template)   
 [ ranges::out_value_result](ranges/return_types/out_value_result.html "cpp/algorithm/ranges/return types/out value result")(C++23) |  provides a way to store an iterator and a value as a single unit   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/return_types/dsc_out_value_result&action=edit)  
+(class template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges&action=edit&section=8 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../utility/feature_test.html "cpp/utility/feature test") macro  | Value | Std | Feature   
 ---|---|---|---  
@@ -892,7 +892,7 @@ Defined in namespace `std::ranges`
 [`202202L`](../compiler_support/23.html#cpp_lib_shift_202202L "cpp/compiler support/23") | (C++23) | std::ranges::shift_left, std::ranges::shift_right  
 [`__cpp_lib_ranges_generate_random`](../experimental/feature_test.html#cpp_lib_ranges_generate_random "cpp/feature test") | [`202403L`](../compiler_support/26.html#cpp_lib_ranges_generate_random_202403L "cpp/compiler support/26") | (C++26) | std::ranges::generate_random  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges&action=edit&section=9 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::chunk_by_view`](../chunk_by_view.html "cpp/ranges/chunk by view")
 
@@ -247,7 +247,7 @@ chunk_by_view::_iterator_ ::operator--
 chunk_by_view::_iterator_ ::operator--(int)](iterator/operator_arith.html "cpp/ranges/chunk by view/iterator/operator arith")  
 [operator==(chunk_by_view::_iterator_)](iterator/operator_cmp.html "cpp/ranges/chunk by view/iterator/operator cmp")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/chunk_by_view/navbar_content&action=edit)
+
 
 constexpr auto end(); |  |  (since C++23)  
 ---|---|---  
@@ -274,28 +274,28 @@ Equivalent to:
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/chunk_by_view/end&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/chunk_by_view/end&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 An [iterator](iterator.html "cpp/ranges/chunk by view/iterator") to the element following the last element, or a sentinel which compares equal to the end iterator. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/chunk_by_view/end&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 `end()` returns an iterator if and only if the underlying view is a [`common_range`](../common_range.html "cpp/ranges/common range"): chunk_by_view<V,Pred> models [`common_range`](../common_range.html "cpp/ranges/common range") whenever V does. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/chunk_by_view/end&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/chunk_by_view/end&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ begin](begin.html "cpp/ranges/chunk by view/begin") |  returns an iterator to the beginning   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/dsc_begin&action=edit)  
+(public member function)   
 ---|---  
 [ ranges::end](../end.html "cpp/ranges/end")(C++20) |  returns a sentinel indicating the end of a range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_end&action=edit)
+(customization point object)

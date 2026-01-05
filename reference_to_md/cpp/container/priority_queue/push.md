@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 `[std::priority_queue](../priority_queue.html "cpp/container/priority queue")`
 
@@ -100,7 +100,7 @@ Tables
 [formatter<std::priority_queue>](formatter.html "cpp/container/priority queue/formatter")(C++23)  
 [Deduction guides](deduction_guides.html "cpp/container/priority queue/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/priority_queue/navbar_content&action=edit)
+
 
 void push( const value_type& value ); |  (1)  |   
 ---|---|---  
@@ -124,20 +124,20 @@ Pushes the given element value to the priority queue.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/push&action=edit&section=T-1 "Template:cpp/container/push")] Parameters
+### Parameters
 
 value  |  \-  |  the value of the element to push   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/push&action=edit&section=T-2 "Template:cpp/container/push")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/push&action=edit&section=T-3 "Template:cpp/container/push")] Complexity
+### Complexity
 
 Logarithmic number of comparisons plus the complexity of Container::push_back. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/push&action=edit&section=T-4 "Template:cpp/container/push")] Example
+### Example
 
 Run this code
     
@@ -190,10 +190,10 @@ Output:
     Fill the events queue:  {6, 'L'} {8, 'I'} {9, 'S'} {1, 'T'} {5, 'E'} {3, 'N'}
     Process events:         {9, 'S'} {8, 'I'} {6, 'L'} {5, 'E'} {3, 'N'} {1, 'T'}
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/push&action=edit&section=T-5 "Template:cpp/container/push")] See also
+### See also
 
 [ emplace](emplace.html "cpp/container/priority queue/emplace")(C++11) |  constructs element in-place and sorts the underlying container   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_emplace&action=edit)  
+(public member function)   
 ---|---  
 [ pop](pop.html "cpp/container/priority queue/pop") |  removes the top element   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_pop&action=edit)
+(public member function) 

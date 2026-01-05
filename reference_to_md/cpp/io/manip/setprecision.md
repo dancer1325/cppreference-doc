@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [Input/output manipulators](../manip.html "cpp/io/manip")
 
@@ -154,7 +154,7 @@ Time and money I/O
 Quoted manipulator  
 [quoted](quoted.html "cpp/io/manip/quoted")(C++14)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/navbar_content&action=edit)
+
 
 Defined in header `[<iomanip>](../../header/iomanip.html "cpp/header/iomanip")` |  |   
 ---|---|---  
@@ -174,12 +174,12 @@ When used in an expression out << setprecision(n) or in >> setprecision(n), sets
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/setprecision&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 n  |  \-  |  new value for precision   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/setprecision&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 An object of unspecified type such that 
 
@@ -203,7 +203,7 @@ where the function f is defined as:
         str.precision(n);
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/setprecision&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -258,7 +258,7 @@ Output:
     18  3.14159265358979324
     19  3.141592653589793239
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/setprecision&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -268,10 +268,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 of type [std::ostream](../basic_ostream.html "cpp/io/basic ostream") or [std::istream](../basic_istream.html "cpp/io/basic istream") | usable with any  
 character stream   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/setprecision&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ fixedscientifichexfloatdefaultfloat](fixed.html "cpp/io/manip/fixed")(C++11)(C++11) |  changes formatting used for floating-point I/O   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_fixed&action=edit)  
+(function)   
 ---|---  
 [ precision](../ios_base/precision.html "cpp/io/ios base/precision") |  manages decimal precision of floating point operations   
-(public member function of `std::ios_base`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/ios_base/dsc_precision&action=edit)
+(public member function of `std::ios_base`) 

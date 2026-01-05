@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Regular expressions library](../../regex.html "cpp/regex")
 
@@ -81,7 +81,7 @@ Constants
 Regex Grammar  
 [Modified ECMAScript-262](../ecmascript.html "cpp/regex/ecmascript")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/navbar_content&action=edit)
+
 
 [`std::regex_iterator`](../regex_iterator.html "cpp/regex/regex iterator")
 
@@ -96,7 +96,7 @@ Observers
 Modifiers  
 **regex_iterator::operator++ regex_iterator::operator++(int)**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/regex_iterator/navbar_content&action=edit)
+
 
 regex_iterator& operator++(); |  |  (since C++11)  
 ---|---|---  
@@ -137,11 +137,11 @@ It is unspecified how the implementation makes these adjustments. This means tha
 
 The behavior is undefined if the iterator is end-of-sequence iterator. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/regex_iterator/operator_arith&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/regex_iterator/operator_arith&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) *this
 

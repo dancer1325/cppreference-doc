@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../container.html "cpp/container")
 
@@ -71,7 +71,7 @@ Tables
 [Member function table](../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 `**std::map**`
 
@@ -136,7 +136,7 @@ Tables
   
 [Deduction guides](map/deduction_guides.html "cpp/container/map/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/map/navbar_content&action=edit)
+
 
 Defined in header `[<map>](../header/map.html "cpp/header/map")` |  |   
 ---|---|---  
@@ -206,28 +206,28 @@ Reason: Add descriptions of the template parameters.
 
 Type  |  Definition   
 ---|---  
-`key_type` |  `Key`[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_key_type&action=edit)  
-`mapped_type` |  `T`[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_mapped_type&action=edit)  
-`value_type` |  [std::pair](../utility/pair.html)<const Key, T>[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_value_type&action=edit)  
-`size_type` |  Unsigned integer type (usually [std::size_t](../types/size_t.html "cpp/types/size t"))[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_size_type&action=edit)  
-`difference_type` |  Signed integer type (usually [std::ptrdiff_t](../types/ptrdiff_t.html "cpp/types/ptrdiff t"))[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_difference_type&action=edit)  
-`key_compare` |  `Compare`[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_key_compare&action=edit)  
-`allocator_type` |  `Allocator`[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_allocator_type&action=edit)  
-`reference` |  value_type&[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_reference&action=edit)  
-`const_reference` |  const value_type&[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_const_reference&action=edit)  
+`key_type` |  `Key`  
+`mapped_type` |  `T`  
+`value_type` |  [std::pair](../utility/pair.html)<const Key, T>  
+`size_type` |  Unsigned integer type (usually [std::size_t](../types/size_t.html "cpp/types/size t"))  
+`difference_type` |  Signed integer type (usually [std::ptrdiff_t](../types/ptrdiff_t.html "cpp/types/ptrdiff t"))  
+`key_compare` |  `Compare`  
+`allocator_type` |  `Allocator`  
+`reference` |  value_type&  
+`const_reference` |  const value_type&  
 `pointer` |  |  `Allocator::pointer` | (until C++11)  
 ---|---  
 [std::allocator_traits](../memory/allocator_traits.html)<Allocator>::pointer | (since C++11)  
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_pointer&action=edit)  
+  
 `const_pointer` |  |  `Allocator::const_pointer` | (until C++11)  
 ---|---  
 [std::allocator_traits](../memory/allocator_traits.html)<Allocator>::const_pointer | (since C++11)  
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_const_pointer&action=edit)  
-`iterator` |  [LegacyBidirectionalIterator](../named_req/BidirectionalIterator.html "cpp/named req/BidirectionalIterator") and [ConstexprIterator](../named_req/ConstexprIterator.html "cpp/named req/ConstexprIterator")(since C++26) to `value_type`[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_iterator&action=edit)  
-`const_iterator` |  [LegacyBidirectionalIterator](../named_req/BidirectionalIterator.html "cpp/named req/BidirectionalIterator") and [ConstexprIterator](../named_req/ConstexprIterator.html "cpp/named req/ConstexprIterator")(since C++26) to const value_type[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_const_iterator&action=edit)  
-`reverse_iterator` |  [std::reverse_iterator](../iterator/reverse_iterator.html)<iterator>[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_reverse_iterator&action=edit)  
-`const_reverse_iterator` |  [std::reverse_iterator](../iterator/reverse_iterator.html)<const_iterator>[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_const_reverse_iterator&action=edit)  
-`node_type` (since C++17) |  a specialization of [node handle](node_handle.html "cpp/container/node handle") representing a container node[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_node_type&action=edit)  
+  
+`iterator` |  [LegacyBidirectionalIterator](../named_req/BidirectionalIterator.html "cpp/named req/BidirectionalIterator") and [ConstexprIterator](../named_req/ConstexprIterator.html "cpp/named req/ConstexprIterator")(since C++26) to `value_type`  
+`const_iterator` |  [LegacyBidirectionalIterator](../named_req/BidirectionalIterator.html "cpp/named req/BidirectionalIterator") and [ConstexprIterator](../named_req/ConstexprIterator.html "cpp/named req/ConstexprIterator")(since C++26) to const value_type  
+`reverse_iterator` |  [std::reverse_iterator](../iterator/reverse_iterator.html)<iterator>  
+`const_reverse_iterator` |  [std::reverse_iterator](../iterator/reverse_iterator.html)<const_iterator>  
+`node_type` (since C++17) |  a specialization of [node handle](node_handle.html "cpp/container/node handle") representing a container node  
 `insert_return_type` (since C++17) |  type describing the result of inserting a `node_type`, a specialization of  
 template<class Iter, class NodeType>  
 struct /*unspecified*/  
@@ -236,109 +236,109 @@ Iter position;
 bool inserted;  
 NodeType node;  
 };  
-instantiated with template arguments `iterator` and `node_type`.[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_insert_return_type&action=edit)  
+instantiated with template arguments `iterator` and `node_type`.  
   
 ###  Member classes
 
 [ value_compare](map/value_compare.html "cpp/container/map/value compare") |  compares objects of type `value_type`   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_value_compare&action=edit)  
+(class)   
 ---|---  
   
 ###  Member functions
 
 [ (constructor)](map/map.html "cpp/container/map/map") |  constructs the `map`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ (destructor)](map/~map.html "cpp/container/map/~map") |  destructs the `map`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_destructor&action=edit)  
+(public member function)   
 [ operator=](map/operator=.html "cpp/container/map/operator=") |  assigns values to the container   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_operator%3D&action=edit)  
+(public member function)   
 [ get_allocator](map/get_allocator.html "cpp/container/map/get allocator") |  returns the associated allocator   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_get_allocator&action=edit)  
+(public member function)   
   
 #####  Element access   
   
 [ at](map/at.html "cpp/container/map/at") |  access specified element with bounds checking   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_at&action=edit)  
+(public member function)   
 [ operator[]](map/operator_at.html "cpp/container/map/operator at") |  access or insert specified element   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_operator_at&action=edit)  
+(public member function)   
   
 #####  Iterators   
   
 [ begincbegin](map/begin.html "cpp/container/map/begin")(C++11) |  returns an iterator to the beginning   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_begin&action=edit)  
+(public member function)   
 [ endcend](map/end.html "cpp/container/map/end")(C++11) |  returns an iterator to the end   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_end&action=edit)  
+(public member function)   
 [ rbegincrbegin](map/rbegin.html "cpp/container/map/rbegin")(C++11) |  returns a reverse iterator to the beginning   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_rbegin&action=edit)  
+(public member function)   
 [ rendcrend](map/rend.html "cpp/container/map/rend")(C++11) |  returns a reverse iterator to the end   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_rend&action=edit)  
+(public member function)   
   
 #####  Capacity   
   
 [ empty](map/empty.html "cpp/container/map/empty") |  checks whether the container is empty   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_empty&action=edit)  
+(public member function)   
 [ size](map/size.html "cpp/container/map/size") |  returns the number of elements   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_size&action=edit)  
+(public member function)   
 [ max_size](map/max_size.html "cpp/container/map/max size") |  returns the maximum possible number of elements   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_max_size&action=edit)  
+(public member function)   
   
 #####  Modifiers   
   
 [ clear](map/clear.html "cpp/container/map/clear") |  clears the contents   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_clear&action=edit)  
+(public member function)   
 [ insert](map/insert.html "cpp/container/map/insert") |  inserts elements or nodes(since C++17)   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_insert&action=edit)  
+(public member function)   
 [ insert_range](map/insert_range.html "cpp/container/map/insert range")(C++23) |  inserts a range of elements   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_insert_range&action=edit)  
+(public member function)   
 [ insert_or_assign](map/insert_or_assign.html "cpp/container/map/insert or assign")(C++17) |  inserts an element or assigns to the current element if the key already exists   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_insert_or_assign&action=edit)  
+(public member function)   
 [ emplace](map/emplace.html "cpp/container/map/emplace")(C++11) |  constructs element in-place   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_emplace&action=edit)  
+(public member function)   
 [ emplace_hint](map/emplace_hint.html "cpp/container/map/emplace hint")(C++11) |  constructs elements in-place using a hint   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_emplace_hint&action=edit)  
+(public member function)   
 [ try_emplace](map/try_emplace.html "cpp/container/map/try emplace")(C++17) |  inserts in-place if the key does not exist, does nothing if the key exists   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_try_emplace&action=edit)  
+(public member function)   
 [ erase](map/erase.html "cpp/container/map/erase") |  erases elements   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_erase&action=edit)  
+(public member function)   
 [ swap](map/swap.html "cpp/container/map/swap") |  swaps the contents   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_swap&action=edit)  
+(public member function)   
 [ extract](map/extract.html "cpp/container/map/extract")(C++17) |  extracts nodes from the container   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_extract&action=edit)  
+(public member function)   
 [ merge](map/merge.html "cpp/container/map/merge")(C++17) |  splices nodes from another container   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_merge&action=edit)  
+(public member function)   
   
 #####  Lookup   
   
 [ count](map/count.html "cpp/container/map/count") |  returns the number of elements matching specific key   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_count&action=edit)  
+(public member function)   
 [ find](map/find.html "cpp/container/map/find") |  finds element with specific key   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_find&action=edit)  
+(public member function)   
 [ contains](map/contains.html "cpp/container/map/contains")(C++20) |  checks if the container contains element with specific key   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_contains&action=edit)  
+(public member function)   
 [ equal_range](map/equal_range.html "cpp/container/map/equal range") |  returns range of elements matching a specific key   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_equal_range&action=edit)  
+(public member function)   
 [ lower_bound](map/lower_bound.html "cpp/container/map/lower bound") |  returns an iterator to the first element _not less_ than the given key   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_lower_bound&action=edit)  
+(public member function)   
 [ upper_bound](map/upper_bound.html "cpp/container/map/upper bound") |  returns an iterator to the first element _greater_ than the given key   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_upper_bound&action=edit)  
+(public member function)   
   
 #####  Observers   
   
 [ key_comp](map/key_comp.html "cpp/container/map/key comp") |  returns the function that compares keys   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_key_comp&action=edit)  
+(public member function)   
 [ value_comp](map/value_comp.html "cpp/container/map/value comp") |  returns the function that compares keys in objects of type `value_type`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_value_comp&action=edit)  
+(public member function)   
   
 ###  Non-member functions
 
 [ operator==operator!=operator<operator<=operator>operator>=operator<=>](map/operator_cmp.html "cpp/container/map/operator cmp")(removed in C++20)(removed in C++20)(removed in C++20)(removed in C++20)(removed in C++20)(C++20) |  lexicographically compares the values of two `map`s   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_operator_cmp&action=edit)  
+(function template)   
 ---|---  
 [ std::swap(std::map)](map/swap2.html "cpp/container/map/swap2") |  specializes the [std::swap](../utility/swap.html "cpp/algorithm/swap") algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_swap2&action=edit)  
+(function template)   
 [ erase_if(std::map)](map/erase_if.html "cpp/container/map/erase if")(C++20) |  erases all elements satisfying specific criteria   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_erase_if&action=edit)  
+(function template)   
   
 ###  [Deduction guides](map/deduction_guides.html "cpp/container/map/deduction guides")
 
@@ -432,11 +432,11 @@ be [CopyConstructible](../named_req/CopyConstructible.html "cpp/named req/CopyCo
 ###  See also
 
 [ multimap](multimap.html "cpp/container/multimap") |  collection of key-value pairs, sorted by keys   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_multimap&action=edit)  
+(class template)   
 ---|---  
 [ unordered_map](unordered_map.html "cpp/container/unordered map")(C++11) |  collection of key-value pairs, hashed by keys, keys are unique   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_unordered_map&action=edit)  
+(class template)   
 [ flat_map](flat_map.html "cpp/container/flat map")(C++23) |  adapts two containers to provide a collection of key-value pairs, sorted by unique keys   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_flat_map&action=edit)
+(class template) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

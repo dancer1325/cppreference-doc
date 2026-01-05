@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Regular expressions library](../../regex.html "cpp/regex")
 
@@ -81,7 +81,7 @@ Constants
 Regex Grammar  
 [Modified ECMAScript-262](../ecmascript.html "cpp/regex/ecmascript")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/navbar_content&action=edit)
+
 
 [`std::regex_traits`](../regex_traits.html "cpp/regex/regex traits")
 
@@ -100,7 +100,7 @@ Member functions
 [regex_traits::imbue](imbue.html "cpp/regex/regex traits/imbue")  
 [regex_traits::getloc](getloc.html "cpp/regex/regex traits/getloc")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/regex_traits/navbar_content&action=edit)
+
 
 int value( CharT ch, int radix ) const; |  |  (since C++11)  
 ---|---|---  
@@ -108,17 +108,17 @@ int value( CharT ch, int radix ) const; |  |  (since C++11)
   
 Determines the value represented by the digit ch in the numeric base radix, given the currently imbued locale. This function is called by [std::regex](../basic_regex.html "cpp/regex/basic regex") when processing [Quantifiers](../ecmascript.html#Quantifiers "cpp/regex/ecmascript") such as `{1`} or `{2,5`}, [Backreferences](../ecmascript.html#Backreferences "cpp/regex/ecmascript") such as `\1`, and hexadecimal and Unicode character escapes. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/regex_traits/value&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 ch  |  \-  |  the character that may represent a digit   
 ---|---|---  
 radix  |  \-  |  either 8, 10, or 16   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/regex_traits/value&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The numeric value if ch indeed represents a digit in the currently imbued locale that is valid for the numeric base radix, or -1 on error. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/regex_traits/value&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     

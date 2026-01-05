@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::future_error`](../future_error.html "cpp/thread/future error")
 
@@ -184,7 +184,7 @@ Member functions
 [future_error::code](code.html "cpp/thread/future error/code")  
 [future_error::what](what.html "cpp/thread/future error/what")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/future_error/navbar_content&action=edit)
+
 
 future_error( const future_error& other ) noexcept; |  (1)  |  (since C++11)  
 ---|---|---  
@@ -195,12 +195,12 @@ explicit future_error( [std::future_errc](../future_errc.html) ec ); |  (2)  |  
 
 2) Constructs a new `future_error` object containing the error code [std::make_error_code](../../error/errc/make_error_code.html)(ec).
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/future_error/future_error&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 other  |  \-  |  another `future_error` object to copy   
 ---|---|---  
 ec  |  \-  |  error code   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/future_error/future_error&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 There is no standard-compliant way for the user to construct a `future_error` other than copying from another `future_error` prior to C++17. C++11 and C++14 depict an exposition-only public constructor taking a [std::error_code](../../error/error_code.html "cpp/error/error code"), and some implementations provide such a constructor. 

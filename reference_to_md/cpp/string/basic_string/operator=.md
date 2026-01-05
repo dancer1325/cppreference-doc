@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Strings library](../../string.html "cpp/string")
 
@@ -40,7 +40,7 @@ Classes
 [basic_string_view](../basic_string_view.html "cpp/string/basic string view")(C++17)  
 [char_traits](../char_traits.html "cpp/string/char traits")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/navbar_content&action=edit)
+
 
 [`std::basic_string`](../basic_string.html "cpp/string/basic string")
 
@@ -133,7 +133,7 @@ basic_string_view](operator_basic_string_view.html "cpp/string/basic string/oper
 [hash<std::basic_string>](hash.html "cpp/string/basic string/hash")(C++11)  
 [Deduction guides](deduction_guides.html "cpp/string/basic string/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/navbar_content&action=edit)
+
 
 basic_string& operator=( const basic_string& str ); |  (1) | (constexpr since C++20)  
 ---|---|---  
@@ -184,7 +184,7 @@ This overload participates in overload resolution only if [std::is_convertible_v
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/operator%3D&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 ch  |  \-  |  value to initialize characters of the string with   
 ---|---|---  
@@ -193,11 +193,11 @@ s  |  \-  |  pointer to a null-terminated character string to use as source to i
 ilist  |  \-  |  [std::initializer_list](../../utility/initializer_list.html "cpp/utility/initializer list") to initialize the string with   
 t  |  \-  |  object convertible to [std::basic_string_view](../basic_string_view.html "cpp/string/basic string view") to initialize the string with   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/operator%3D&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 *this
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/operator%3D&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 1) Linear in size of str.
 
@@ -211,7 +211,7 @@ t  |  \-  |  object convertible to [std::basic_string_view](../basic_string_view
 
 6) Linear in size of t.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/operator%3D&action=edit&section=4 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 2)
 
@@ -229,7 +229,7 @@ If the operation would cause [`size()`](size.html "cpp/string/basic string/size"
 
 If an exception is thrown for any reason, this function has no effect ([strong exception safety guarantee](../../language/exceptions.html#Exception_safety "cpp/language/exceptions")). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/operator%3D&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -280,7 +280,7 @@ Possible output:
     "gamma"
     "#"
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/operator%3D&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -291,12 +291,12 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [SequenceContainer](../../named_req/SequenceContainer.html "cpp/named req/SequenceContainer")'s semantic requirement  | follows   
 [LWG 2946](https://cplusplus.github.io/LWG/issue2946) | C++17  | overload ([6](operator=.html#Version_6)) caused ambiguity in some cases  | avoided by making it a template   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/operator%3D&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ (constructor)](basic_string.html "cpp/string/basic string/basic string") |  constructs a `basic_string`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ assign](assign.html "cpp/string/basic string/assign") |  assign characters to a string   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_assign&action=edit)  
+(public member function)   
 [ operator=](../basic_string_view/operator=.html "cpp/string/basic string view/operator=") |  assigns a view   
-(public member function of `std::basic_string_view<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/dsc_operator%3D&action=edit)
+(public member function of `std::basic_string_view<CharT,Traits>`) 

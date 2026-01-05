@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -79,7 +79,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::ostrstream`](../ostrstream.html "cpp/io/ostrstream")
 
@@ -92,7 +92,7 @@ Member functions
 [ostrstream::freeze](freeze.html "cpp/io/ostrstream/freeze")  
 [ostrstream::pcount](pcount.html "cpp/io/ostrstream/pcount")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/ostrstream/navbar_content&action=edit)
+
 
 strstreambuf* rdbuf() const; |  |  (deprecated in C++98)   
 (removed in C++26)  
@@ -101,15 +101,15 @@ strstreambuf* rdbuf() const; |  |  (deprecated in C++98)
   
 Returns a pointer to the associated [std::strstreambuf](../strstreambuf.html), casting away its constness (despite the const qualifier on the member function). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/strstream/rdbuf&action=edit&section=T-1 "Template:cpp/io/strstream/rdbuf")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/strstream/rdbuf&action=edit&section=T-2 "Template:cpp/io/strstream/rdbuf")] Return value
+### Return value
 
 Pointer to the associated [std::strstreambuf](../strstreambuf.html), with constness cast away. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/strstream/rdbuf&action=edit&section=T-3 "Template:cpp/io/strstream/rdbuf")] Example
+### Example
 
 Run this code
     

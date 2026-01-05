@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Program support utilities](../program.html "cpp/utility/program")
 
@@ -181,7 +181,7 @@ Common vocabulary types
 [Types](../program.html#Types "cpp/utility/program")  
 [jmp_buf](jmp_buf.html "cpp/utility/program/jmp buf")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/program/navbar_content&action=edit)
+
 
 Defined in header `[<cstdlib>](../../header/cstdlib.html "cpp/header/cstdlib")` |  |   
 ---|---|---  
@@ -203,16 +203,16 @@ If `command` is a null pointer, checks if the host environment has a command pro
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/program/system&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 command  |  \-  |  character string identifying the command to be run in the command processor. If a null pointer is given, command processor is checked for existence   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/program/system&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Implementation-defined value. If `command` is a null pointer, returns a nonzero value if and only if the command processor exists. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/program/system&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 On POSIX systems, the return value can be decomposed using [`WEXITSTATUS` and `WSTOPSIG`](https://pubs.opengroup.org/onlinepubs/9699919799/functions/wait.html). 
 
@@ -220,7 +220,7 @@ The related POSIX function [`popen`](https://pubs.opengroup.org/onlinepubs/96999
 
 An explicit flush of [std::cout](../../io/cout.html "cpp/io/cout") is also necessary before a call to **std::system** , if the spawned process performs any screen I/O. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/program/system&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -243,7 +243,7 @@ Possible output:
     -rw-rw-rw- 1 2001 2000  161 Sep 30 20:52 main.cpp
     -rw-r--r-- 1 2001 2000    0 Sep 30 20:52 test.txt
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/program/system&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [C documentation](../../../c/program/system.html "c/program/system") for system  
 ---

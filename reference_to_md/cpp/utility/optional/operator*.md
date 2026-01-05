@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::optional`](../optional.html "cpp/utility/optional")
 
@@ -167,7 +167,7 @@ Common vocabulary types
 [nullopt](nullopt.html "cpp/utility/optional/nullopt")  
 [in_place](../in_place.html "cpp/utility/in place")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/navbar_content&action=edit)
+
 
 constexpr const T* operator->() const noexcept; |  (1)  |  (since C++17)  
 ---|---|---  
@@ -204,7 +204,7 @@ If [has_value()](operator_bool.html "cpp/utility/optional/operator bool") is fal
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/operator*&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 1,2) `_[val](../optional.html#val "cpp/utility/optional")_`
 
@@ -212,11 +212,11 @@ If [has_value()](operator_bool.html "cpp/utility/optional/operator bool") is fal
 
 5,6) std::move(*`_[val](../optional.html#val "cpp/utility/optional")_` ﻿)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/operator*&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 This operator does not check whether *this contains a value, users can do so manually by using [has_value()](operator_bool.html "cpp/utility/optional/operator bool") or [operator bool()](operator_bool.html "cpp/utility/optional/operator bool"). Alternatively, if checked access is needed, [value()](value.html "cpp/utility/optional/value") or [value_or()](value_or.html "cpp/utility/optional/value or") may be used. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/operator*&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -254,7 +254,7 @@ Output:
     taken: "abc"
     opt2: "", size: 0
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/operator*&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -262,10 +262,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 2762](https://cplusplus.github.io/LWG/issue2762) | C++17  | `operator->` and `operator*` might be potentially-throwing  | made noexcept   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/operator*&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ value](value.html "cpp/utility/optional/value") |  returns the contained value   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/dsc_value&action=edit)  
+(public member function)   
 ---|---  
 [ value_or](value_or.html "cpp/utility/optional/value or") |  returns the contained value if available, another value otherwise   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/dsc_value_or&action=edit)
+(public member function) 

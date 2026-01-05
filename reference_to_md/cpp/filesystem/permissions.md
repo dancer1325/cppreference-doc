@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Filesystem library](../filesystem.html "cpp/filesystem")
 
@@ -100,7 +100,7 @@ filesystem::symlink_status](status.html "cpp/filesystem/status")
 [filesystem::is_socket](is_socket.html "cpp/filesystem/is socket")  
 [filesystem::is_symlink](is_symlink.html "cpp/filesystem/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/navbar_content&action=edit)
+
 
 Defined in header `[<filesystem>](../header/filesystem.html "cpp/header/filesystem")` |  |   
 ---|---|---  
@@ -144,7 +144,7 @@ The non-throwing overload has no special action on error.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/permissions&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 p  |  \-  |  path to examine   
 ---|---|---  
@@ -152,11 +152,11 @@ prms  |  \-  |  permissions to set, add, or remove
 opts  |  \-  |  options controlling the action taken by this function   
 ec  |  \-  |  out-parameter for error reporting in the non-throwing overload   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/permissions&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/permissions&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Any overload not marked `noexcept` may throw [std::bad_alloc](../memory/new/bad_alloc.html "cpp/memory/new/bad alloc") if memory allocation fails.  
 
@@ -165,13 +165,13 @@ Any overload not marked `noexcept` may throw [std::bad_alloc](../memory/new/bad_
 
 2,3) Sets a [std::error_code](../error/error_code.html)& parameter to the OS API error code if an OS API call fails, and executes ec.[`clear`](../error/error_code/clear.html "cpp/error/error code/clear")() if no errors occur.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/permissions&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 Permissions may not necessarily be implemented as bits, but they are treated that way conceptually. 
 
 Some permission bits may be ignored on some systems, and changing some bits may automatically change others (e.g. on platforms without owner/group/all distinction, setting any of the three write bits set all three). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/permissions&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -224,11 +224,11 @@ Possible output:
     Created file with permissions: rw-r--r--
     After adding u+rwx and g+wrx:  rwxrwxr--
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/permissions&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ perms](perms.html "cpp/filesystem/perms")(C++17) |  identifies file system permissions   
-(enum) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_perms&action=edit)  
+(enum)   
 ---|---  
 [ statussymlink_status](status.html "cpp/filesystem/status")(C++17)(C++17) |  determines file attributes  
 determines file attributes, checking the symlink target   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_status&action=edit)
+(function) 

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::tuple`](../tuple.html "cpp/utility/tuple")
 
@@ -157,7 +157,7 @@ Common vocabulary types
 [ignore](ignore.html "cpp/utility/tuple/ignore")  
 [Deduction guides](deduction_guides.html "cpp/utility/tuple/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/navbar_content&action=edit)
+
 
 Defined in header `[<tuple>](../../header/tuple.html "cpp/header/tuple")` |  |   
 ---|---|---  
@@ -202,7 +202,7 @@ Type  |  Definition
 `value_type` |  bool  
 `type` |  [std::integral_constant](../../types/integral_constant.html)<bool, value>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/tuple/uses_allocator&action=edit&section=1 "Edit section: Example")] Example
+### Example
     
     
     // myalloc is a stateful Allocator with a single-argument constructor
@@ -217,8 +217,8 @@ Type  |  Definition
         v.resize(1);                  // uses allocator #1 for elements of v
         std::get<1>(v[0]).resize(10); // uses allocator #2 for innervector_t
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/tuple/uses_allocator&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ uses_allocator](../../memory/uses_allocator.html "cpp/memory/uses allocator")(C++11) |  checks if the specified type supports uses-allocator construction   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_uses_allocator&action=edit)  
+(class template)   
 ---|---

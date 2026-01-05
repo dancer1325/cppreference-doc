@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Statements](statements.html "cpp/language/statements")
 
@@ -253,7 +253,7 @@ Miscellaneous
 [Transactional memory](transactional_memory.html "cpp/language/transactional memory")  
 [`synchronized`](transactional_memory.html#Synchronized_blocks "cpp/language/transactional memory"), [`atomic_commit`](transactional_memory.html#Atomic_blocks "cpp/language/transactional memory"), etc (TM TS)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/statements/navbar_content&action=edit)
+
 
 Conditionally executes a statement repeatedly (at least once). 
 
@@ -269,7 +269,7 @@ Conditionally executes a statement repeatedly (at least once).
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/do&action=edit&section=1 "Edit section: Syntax")] Syntax  
+### Syntax  
   
 ---  
 attr ﻿(optional) `**do**` statement `**while (**` expression `**);**` |  |   
@@ -278,7 +278,7 @@ attr |  \-  |  (since C++11) any number of [attributes](attributes.html "cpp/lan
 expression |  \-  |  an [expression](expressions.html "cpp/language/expressions")  
 statement |  \-  |  a [statement](statements.html "cpp/language/statements") (typically a compound statement)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/do&action=edit&section=2 "Edit section: Explanation")] Explanation
+### Explanation
 
 When control reaches a do statement, its statement will be executed unconditionally. 
 
@@ -288,15 +288,15 @@ If the loop needs to be terminated within statement, a [break statement](break.h
 
 If the current iteration needs to be terminated within statement, a [continue statement](continue.html "cpp/language/continue") can be used as shortcut. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/do&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 As part of the C++ [forward progress guarantee](multithread.html#Progress_guarantee "cpp/language/multithread"), the behavior is [undefined](ub.html "cpp/language/ub") if a loop that is not a [trivial infinite loop](multithread.html#Trivial_infinite_loops "cpp/language/multithread")(since C++26) without [observable behavior](as_if.html "cpp/language/as if") does not terminate. Compilers are permitted to remove such loops. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/do&action=edit&section=4 "Edit section: Keywords")] Keywords
+### Keywords
 
 [`do`](../keyword/do.html "cpp/keyword/do"), [`while`](../keyword/while.html "cpp/keyword/while")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/do&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -332,7 +332,7 @@ Output:
     aba
     baa
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/do&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [C documentation](../../c/language/do.html "c/language/do") for do-while  
 ---

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Diagnostics library](../../error.html "cpp/error")
 
@@ -187,7 +187,7 @@ Exception handling failures
 [breakpoint_if_debugging](../../utility/breakpoint_if_debugging.html "cpp/utility/breakpoint if debugging")(C++26)  
 [breakpoint](../../utility/breakpoint.html "cpp/utility/breakpoint")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/navbar_content&action=edit)
+
 
 [`std::exception`](../exception.html "cpp/error/exception")
 
@@ -198,7 +198,7 @@ Member functions
 [exception::operator=](operator=.html "cpp/error/exception/operator=")  
 **exception::what**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/exception/navbar_content&action=edit)
+
 
 virtual const char* what() const throw(); |  | (until C++11)  
 ---|---|---  
@@ -208,18 +208,18 @@ virtual const char* what() const noexcept; |  |  (since C++11)
   
 Returns the explanatory string. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/exception/what&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/exception/what&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Pointer to a null-terminated string with explanatory information. The pointer is guaranteed to be valid at least until the exception object from which it is obtained is destroyed, or until a non-const member function on the exception object is called. 
 
 The returned string is encoded with the ordinary literal encoding during constant evaluation.  | (since C++26)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/exception/what&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [Common mathematical functions](../math.html "cpp/numeric/math")
 
@@ -230,7 +230,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/navbar_content&action=edit)
+
 
 Defined in header `[<cstdlib>](../../header/cstdlib.html "cpp/header/cstdlib")` |  |   
 ---|---|---  
@@ -273,12 +273,12 @@ The quotient is the result of the expression x / y. The remainder is the result 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/div&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 x, y  |  \-  |  integer values   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/div&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 If both the remainder and the quotient can be represented as objects of the corresponding type (int, long, long long, [std::intmax_t](../../types/integer.html "cpp/types/integer"), respectively), returns both as an object of type `std::div_t`, `std::ldiv_t`, `std::lldiv_t`, `std::imaxdiv_t` defined as follows: 
 
@@ -324,13 +324,13 @@ or
 
 If either the remainder or the quotient cannot be represented, the behavior is undefined. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/div&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Until [CWG issue 614](https://cplusplus.github.io/CWG/issues/614.html) was resolved ([N2757](https://wg21.link/n2757)), the rounding direction of the quotient and the sign of the remainder in the [built-in division and remainder operators](../../language/operator_arithmetic.html "cpp/language/operator arithmetic") was implementation-defined if either of the operands was negative, but it was well-defined in `std::div`. 
 
 On many platforms, a single CPU instruction obtains both the quotient and the remainder, and this function may leverage that, although compilers are generally able to merge nearby `/` and `%` where suitable. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/div&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -401,18 +401,18 @@ Output:
     101010
     ffff
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/div&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ fmodfmodffmodl](fmod.html "cpp/numeric/math/fmod")(C++11)(C++11) |  remainder of the floating point division operation   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_fmod&action=edit)  
+(function)   
 ---|---  
 [ remainderremainderfremainderl](remainder.html "cpp/numeric/math/remainder")(C++11)(C++11)(C++11) |  signed remainder of the division operation   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_remainder&action=edit)  
+(function)   
 [ remquoremquofremquol](remquo.html "cpp/numeric/math/remquo")(C++11)(C++11)(C++11) |  signed remainder as well as the three last bits of the division operation   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_remquo&action=edit)  
+(function)   
 [C documentation](../../../c/numeric/math/div.html "c/numeric/math/div") for div  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/div&action=edit&section=6 "Edit section: External links")] External links
+### External links
 
 1\.  | [Euclidean division](https://en.wikipedia.org/wiki/Euclidean_division "enwiki:Euclidean division") — From Wikipedia.   
 ---|---  

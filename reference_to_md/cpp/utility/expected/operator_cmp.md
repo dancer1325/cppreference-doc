@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::expected`](../expected.html "cpp/utility/expected")
 
@@ -160,7 +160,7 @@ Common vocabulary types
 [bad_expected_access](bad_expected_access.html "cpp/utility/expected/bad expected access")  
 [unexpect_tunexpect](unexpect_t.html "cpp/utility/expected/unexpect t")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/expected/navbar_content&action=edit)
+
 
 Primary template |  |   
 ---|---|---  
@@ -231,14 +231,14 @@ The `!=` operator is [synthesized](../../language/default_comparisons.html#Other
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/operator_cmp&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 lhs, rhs  |  \-  |  std::expected object(s) to compare   
 ---|---|---  
 unex  |  \-  |  [std::unexpected](../../error/unexpected.html "cpp/error/unexpected") value to compare to lhs  
 val  |  \-  |  value to compare to the expected value contained in lhs  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/operator_cmp&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1)
 
@@ -256,17 +256,17 @@ lhs.has_value() || static_cast<bool>(lhs.error() == rhs.error())
 
 5) !lhs.has_value() && static_cast<bool>(lhs.error() == unex.error())
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/operator_cmp&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Throws when and what the comparison throws. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/operator_cmp&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../feature_test.html "cpp/utility/feature test") macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_constrained_equality`](../../experimental/feature_test.html#cpp_lib_constrained_equality "cpp/feature test") | [`202411L`](../../compiler_support/26.html#cpp_lib_constrained_equality_202411L "cpp/compiler support/26") | (C++26) | constrained comparison operators for std::expected  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/operator_cmp&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -316,7 +316,7 @@ Output:
     💚 == 💚
     💚 != ❌
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/operator_cmp&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ operator==](unexpected.html#compare "cpp/utility/expected/unexpected")(C++23) |  compares [std::unexpected](../../error/unexpected.html "cpp/error/unexpected") objects   
 (function template)  

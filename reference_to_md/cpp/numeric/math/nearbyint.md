@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [Common mathematical functions](../math.html "cpp/numeric/math")
 
@@ -230,7 +230,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/navbar_content&action=edit)
+
 
 Defined in header `[<cmath>](../../header/cmath.html "cpp/header/cmath")` |  |   
 ---|---|---  
@@ -277,16 +277,16 @@ A) Additional overloads are provided for all integer types, which are treated as
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/nearbyint&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 num  |  \-  |  floating-point or integer value   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/nearbyint&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The nearest integer value to num, according to the [current rounding mode](../fenv/FE_round.html "cpp/numeric/fenv/FE round"), is returned. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/nearbyint&action=edit&section=3 "Edit section: Error handling")] Error handling
+### Error handling
 
 This function is not subject to any of the errors specified in [math_errhandling](math_errhandling.html "cpp/numeric/math/math errhandling"). 
 
@@ -299,7 +299,7 @@ If the implementation supports IEEE floating-point arithmetic (IEC 60559),
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/nearbyint&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 The only difference between `std::nearbyint` and [std::rint](rint.html "cpp/numeric/math/rint") is that `std::nearbyint` never raises [FE_INEXACT](../fenv/FE_exceptions.html "cpp/numeric/fenv/FE exceptions"). 
 
@@ -309,7 +309,7 @@ If the current rounding mode is [FE_TONEAREST](../fenv/FE_round.html "cpp/numeri
 
 The additional overloads are not required to be provided exactly as (A). They only need to be sufficient to ensure that for their argument num of integer type, std::nearbyint(num) has the same effect as std::nearbyint(static_cast<double>(num)). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/nearbyint&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -355,14 +355,14 @@ Output:
     nearbyint(-0.0) = -0
     nearbyint(-Inf) = -inf
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/nearbyint&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ rintrintfrintllrintlrintflrintlllrintllrintfllrintl](rint.html "cpp/numeric/math/rint")(C++11)(C++11)(C++11)(C++11)(C++11)(C++11)(C++11)(C++11)(C++11) |  nearest integer using current rounding mode with  
 exception if the result differs   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_rint&action=edit)  
+(function)   
 ---|---  
 [ roundroundfroundllroundlroundflroundlllroundllroundfllroundl](round.html "cpp/numeric/math/round")(C++11)(C++11)(C++11)(C++11)(C++11)(C++11)(C++11)(C++11)(C++11) |  nearest integer, rounding away from zero in halfway cases   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_round&action=edit)  
+(function)   
 [ fegetroundfesetround](../fenv/feround.html "cpp/numeric/fenv/feround")(C++11)(C++11) |  gets or sets rounding direction   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/fenv/dsc_feround&action=edit)  
+(function)   
 [C documentation](../../../c/numeric/math/nearbyint.html "c/numeric/math/nearbyint") for nearbyint

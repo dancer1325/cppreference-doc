@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::stop_source`](../stop_source.html "cpp/thread/stop source")
 
@@ -195,7 +195,7 @@ Non-member functions
 Helper tags  
 [std::nostopstatestd::nostopstate_t](nostopstate_t.html "cpp/thread/stop source/nostopstate")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/stop_source/navbar_content&action=edit)
+
 
 bool stop_possible() const noexcept; |  |  (since C++20)  
 ---|---|---  
@@ -213,19 +213,19 @@ Checks if the `stop_source` object has a stop-state.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/stop_source/stop_possible&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/stop_source/stop_possible&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 true if the `stop_source` object has a stop-state, otherwise false. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/stop_source/stop_possible&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 If the `stop_source` object has a stop-state and a stop request has already been made, this function still returns true. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/stop_source/stop_possible&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

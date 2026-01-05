@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [Common mathematical functions](../math.html "cpp/numeric/math")
 
@@ -230,7 +230,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/navbar_content&action=edit)
+
 
 Defined in header `[<cmath>](../../header/cmath.html "cpp/header/cmath")` |  |   
 ---|---|---  
@@ -290,12 +290,12 @@ The value computed by the three-argument version of this function is the distanc
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/hypot&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 x, y, z  |  \-  |  floating-point or integer values   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/hypot&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1-3,A) If no errors occur, the hypotenuse of a right-angled triangle, \\(\scriptsize{\sqrt{x^2+y^2} }\\)√x2  
 +y2  
@@ -310,7 +310,7 @@ If a range error due to overflow occurs, [+HUGE_VAL](HUGE_VALL.html "cpp/numeric
 
 If a range error due to underflow occurs, the correct result (after rounding) is returned. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/hypot&action=edit&section=3 "Edit section: Error handling")] Error handling
+### Error handling
 
 Errors are reported as specified in [math_errhandling](math_errhandling.html "cpp/numeric/math/math errhandling"). 
 
@@ -323,7 +323,7 @@ If the implementation supports IEEE floating-point arithmetic (IEC 60559),
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/hypot&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 Implementations usually guarantee precision of less than 1 [ulp](https://en.wikipedia.org/wiki/Unit_in_the_last_place "enwiki:Unit in the last place") (Unit in the Last Place — Unit of Least Precision): [GNU](https://sourceware.org/git/?p=glibc.git;a=blob_plain;f=sysdeps/ieee754/dbl-64/e_hypot.c), [BSD](https://www.freebsd.org/cgi/cvsweb.cgi/src/lib/msun/src/e_hypot.c). 
 
@@ -392,7 +392,7 @@ where /*common-floating-point-type*/ is the floating-point type with the greates
 ---|---|---|---  
 [`__cpp_lib_hypot`](../../experimental/feature_test.html#cpp_lib_hypot "cpp/feature test") | [`201603L`](../../compiler_support/17.html#cpp_lib_hypot_201603L "cpp/compiler support/17") | (C++17) | 3-argument overload of `std::hypot` (4,B)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/hypot&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -443,17 +443,17 @@ Output:
         errno = ERANGE Numerical result out of range
         FE_OVERFLOW raised
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/hypot&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ powpowfpowl](pow.html "cpp/numeric/math/pow")(C++11)(C++11) |  raises a number to the given power (\\(\small{x^y}\\)xy)   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_pow&action=edit)  
+(function)   
 ---|---  
 [ sqrtsqrtfsqrtl](sqrt.html "cpp/numeric/math/sqrt")(C++11)(C++11) |  computes square root (\\(\small{\sqrt{x}}\\)√x)   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_sqrt&action=edit)  
+(function)   
 [ cbrtcbrtfcbrtl](cbrt.html "cpp/numeric/math/cbrt")(C++11)(C++11)(C++11) |  computes cube root (\\(\small{\sqrt[3]{x}}\\)3√x)   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_cbrt&action=edit)  
+(function)   
 [ abs(std::complex)](../complex/abs.html "cpp/numeric/complex/abs") |  returns the magnitude of a complex number   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_abs&action=edit)  
+(function template)   
 [C documentation](../../../c/numeric/math/hypot.html "c/numeric/math/hypot") for hypot
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](copy.html "cpp/algorithm/ranges/co
 [uninitialized_default_construct_n](../../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 [Constrained algorithms](../ranges.html "cpp/algorithm/ranges")
 
@@ -550,7 +550,7 @@ All names in this menu belong to namespace `std::ranges`
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -594,7 +594,7 @@ The function-like entities described on this page are [_algorithm function objec
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/is_heap_until&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  the range of elements to examine   
 ---|---|---  
@@ -602,7 +602,7 @@ r  |  \-  |  the range of elements to examine
 pred  |  \-  |  predicate to apply to the projected elements   
 proj  |  \-  |  projection to apply to the elements   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/is_heap_until&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The last iterator iter in the specified range for which: 
 
@@ -610,7 +610,7 @@ The last iterator iter in the specified range for which:
 
 2) The range `[`[ranges::begin](../../ranges/begin.html)(r)`, `iter`)` is a heap with respect to comp and proj.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/is_heap_until&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 \\(\scriptsize O(N) \\)O(N) applications of comp and proj, where \\(\scriptsize N \\)N is: 
 
@@ -618,7 +618,7 @@ The last iterator iter in the specified range for which:
 
 2) [ranges::distance](../../iterator/ranges/distance.html)(r)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/is_heap_until&action=edit&section=4 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     struct is_heap_until_fn
@@ -655,7 +655,7 @@ The last iterator iter in the specified range for which:
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/is_heap_until&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 The example renders a given vector as a (balanced) [Binary tree](https://en.wikipedia.org/wiki/Binary_tree "enwiki:Binary tree").
 
@@ -742,18 +742,18 @@ Output:
     ┌┴┐ ┌┴┐ 
     1 1 3 2
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/is_heap_until&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ ranges::is_heap](is_heap.html "cpp/algorithm/ranges/is heap")(C++20) |  checks if the given range is a max heap  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_is_heap&action=edit)  
+(algorithm function object)  
 ---|---  
 [ ranges::make_heap](make_heap.html "cpp/algorithm/ranges/make heap")(C++20) |  creates a max heap out of a range of elements  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_make_heap&action=edit)  
+(algorithm function object)  
 [ ranges::push_heap](push_heap.html "cpp/algorithm/ranges/push heap")(C++20) |  adds an element to a max heap  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_push_heap&action=edit)  
+(algorithm function object)  
 [ ranges::pop_heap](pop_heap.html "cpp/algorithm/ranges/pop heap")(C++20) |  removes the largest element from a max heap  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_pop_heap&action=edit)  
+(algorithm function object)  
 [ ranges::sort_heap](sort_heap.html "cpp/algorithm/ranges/sort heap")(C++20) |  turns a max heap into a range of elements sorted in ascending order  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_sort_heap&action=edit)  
+(algorithm function object)  
 [ is_heap_until](../is_heap_until.html "cpp/algorithm/is heap until")(C++11) |  finds the largest subrange that is a max heap   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_is_heap_until&action=edit)
+(function template) 

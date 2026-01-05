@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::weekday_indexed`](../weekday_indexed.html "cpp/chrono/weekday indexed")
 
@@ -118,7 +118,7 @@ Helper classes
 [formatter<std::chrono::weekday_indexed>](formatter.html "cpp/chrono/weekday indexed/formatter")  
 [hash<std::chrono::weekday_indexed>](hash.html "cpp/chrono/weekday indexed/hash")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/weekday_indexed/navbar_content&action=edit)
+
 
 weekday_indexed() = default; |  (1)  |  (since C++20)  
 ---|---|---  
@@ -131,11 +131,11 @@ Constructs a `weekday_indexed`.
 
 2) Constructs a weekday_indexed storing the weekday wd and the index index. The values held are unspecified if !wd.ok() || index > 7.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/weekday_indexed/weekday_indexed&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 A more convenient way to construct a weekday_indexed is with weekday's operator[], i.e., wd[index]. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/weekday_indexed/weekday_indexed&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -158,8 +158,8 @@ Possible output:
     
     2019-10-08
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/weekday_indexed/weekday_indexed&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ operator[]](../weekday/operator_at.html "cpp/chrono/weekday/operator at") |  convenience syntax for constructing a [`weekday_indexed`](../weekday_indexed.html "cpp/chrono/weekday indexed") or [`weekday_last`](../weekday_last.html "cpp/chrono/weekday last") from this `weekday`   
-(public member function of `std::chrono::weekday`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/weekday/dsc_operator_at&action=edit)  
+(public member function of `std::chrono::weekday`)   
 ---|---

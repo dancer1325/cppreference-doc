@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::enable_shared_from_this`](../enable_shared_from_this.html "cpp/memory/enable shared from this")
 
@@ -197,7 +197,7 @@ Public member functions
 [enable_shared_from_this::shared_from_this](shared_from_this.html "cpp/memory/enable shared from this/shared from this")  
 **enable_shared_from_this::weak_from_this**(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/enable_shared_from_this/navbar_content&action=edit)
+
 
 [std::weak_ptr](../weak_ptr.html)<T> weak_from_this() noexcept; |  (1)  |  (since C++17)  
 ---|---|---  
@@ -216,26 +216,26 @@ Returns a [std::weak_ptr](../weak_ptr.html)<T> that tracks ownership of *this by
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/enable_shared_from_this/weak_from_this&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 `_[weak_this](../enable_shared_from_this.html#weak_this "cpp/memory/enable shared from this")_`
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/enable_shared_from_this/weak_from_this&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../../utility/feature_test.html "cpp/utility/feature test") macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_enable_shared_from_this`](../../experimental/feature_test.html#cpp_lib_enable_shared_from_this "cpp/feature test") | [`201603L`](../../compiler_support/17.html#cpp_lib_enable_shared_from_this_201603L "cpp/compiler support/17") | (C++17) | `std::enable_shared_from_this::weak_from_this`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/enable_shared_from_this/weak_from_this&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/enable_shared_from_this/weak_from_this&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ shared_ptr](../shared_ptr.html "cpp/memory/shared ptr")(C++11) |  smart pointer with shared object ownership semantics   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_shared_ptr&action=edit)  
+(class template)   
 ---|---
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

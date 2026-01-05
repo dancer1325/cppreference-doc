@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 **`std::chrono::time_point`**
 
@@ -124,7 +124,7 @@ Helper classes
 [common_type](time_point/common_type.html "cpp/chrono/time point/common type")  
 [hash<std::chrono::time_point>](time_point/hash.html "cpp/chrono/time point/hash")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_point/navbar_content&action=edit)
+
 
 Defined in header `[<chrono>](../header/chrono.html "cpp/header/chrono")` |  |   
 ---|---|---  
@@ -151,7 +151,7 @@ Class template `std::chrono::time_point` represents a point in time. It is imple
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/time_point&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Type  |  Description   
 ---|---  
@@ -164,47 +164,47 @@ Type  |  Description
 `duration::period` `period` |  a [std::ratio](../numeric/ratio/ratio.html "cpp/numeric/ratio/ratio") type representing the tick period of the duration   
 (typedef)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/time_point&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](time_point/time_point.html "cpp/chrono/time point/time point") |  constructs a new time point   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_point/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ time_since_epoch](time_point/time_since_epoch.html "cpp/chrono/time point/time since epoch") |  returns the time point as duration since the start of its clock   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_poind/dsc_time_since_epoch&action=edit)  
+(public member function)   
 [ operator+=operator-=](time_point/operator_arith.html "cpp/chrono/time point/operator arith") |  modifies the time point by the given duration   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_point/dsc_operator_arith&action=edit)  
+(public member function)   
 [ operator++operator++(int)operator--operator--(int)](time_point/operator_inc_dec.html "cpp/chrono/time point/operator inc dec")(C++20) |  increments or decrements the duration   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_point/dsc_operator_inc_dec&action=edit)  
+(public member function)   
 [ min](time_point/min.html "cpp/chrono/time point/min")[static] |  returns the time point corresponding to the smallest duration   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_point/dsc_min&action=edit)  
+(public static member function)   
 [ max](time_point/max.html "cpp/chrono/time point/max")[static] |  returns the time point corresponding to the largest duration   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_point/dsc_max&action=edit)  
+(public static member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/time_point&action=edit&section=3 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ operator+operator-](time_point/operator_arith2.html "cpp/chrono/time point/operator arith2")(C++11) |  performs add and subtract operations involving a time point   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_point/dsc_operator_arith2&action=edit)  
+(function template)   
 ---|---  
 [ operator==operator!=operator<operator<=operator>operator>=operator<=>](time_point/operator_cmp.html "cpp/chrono/time point/operator cmp")(C++11)(C++11)(removed in C++20)(C++11)(C++11)(C++11)(C++11)(C++20) |  compares two time points   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_point/dsc_operator_cmp&action=edit)  
+(function template)   
 [ time_point_cast](time_point/time_point_cast.html "cpp/chrono/time point/time point cast")(C++11) |  converts a time point to another time point on the same clock, with a different duration   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_point/dsc_time_point_cast&action=edit)  
+(function template)   
 [ floor(std::chrono::time_point)](time_point/floor.html "cpp/chrono/time point/floor")(C++17) |  converts a time_point to another, rounding down   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_point/dsc_floor&action=edit)  
+(function template)   
 [ ceil(std::chrono::time_point)](time_point/ceil.html "cpp/chrono/time point/ceil")(C++17) |  converts a time_point to another, rounding up   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_point/dsc_ceil&action=edit)  
+(function template)   
 [ round(std::chrono::time_point)](time_point/round.html "cpp/chrono/time point/round")(C++17) |  converts a time_point to another, rounding to nearest, ties to even   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_point/dsc_round&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/time_point&action=edit&section=4 "Edit section: Helper classes")] Helper classes
+### Helper classes
 
 [ std::common_type<std::chrono::time_point>](time_point/common_type.html "cpp/chrono/time point/common type")(C++11) |  specializes the [std::common_type](../types/common_type.html "cpp/types/common type") trait   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_point/dsc_common_type&action=edit)  
+(class template specialization)   
 ---|---  
 [ std::hash<std::chrono::time_point>](time_point/hash.html "cpp/chrono/time point/hash")(C++26) |  hash support for **`std::chrono::time_point`**   
 (class template specialization)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/time_point&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -259,10 +259,10 @@ Possible output:
       Steady time: 413668317434475ns
     Slow calculations took 2090448µs ≈ 2090ms ≈ 2s.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/time_point&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ duration](duration.html "cpp/chrono/duration")(C++11) |  a time interval   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_duration&action=edit)  
+(class template)   
 ---|---  
 [ year_month_day](year_month_day.html "cpp/chrono/year month day")(C++20) |  represents a specific [`year`](year.html "cpp/chrono/year"), [`month`](month.html "cpp/chrono/month"), and [`day`](day.html "cpp/chrono/day")   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_year_month_day&action=edit)
+(class) 

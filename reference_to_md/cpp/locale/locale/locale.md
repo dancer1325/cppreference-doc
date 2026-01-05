@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Localization library](../../locale.html "cpp/locale")
 
@@ -152,7 +152,7 @@ base classes](../../locale.html#Facet_category_base_classes "cpp/locale")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/navbar_content&action=edit)
+
 
 [`std::locale`](../locale.html "cpp/locale/locale")
 
@@ -173,7 +173,7 @@ Static member functions
 [locale::global](global.html "cpp/locale/locale/global")  
 [locale::classic](classic.html "cpp/locale/locale/classic")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/locale/navbar_content&action=edit)
+
 
 | (1) |   
 ---|---|---  
@@ -226,7 +226,7 @@ If cats is equal to `locale::none`, the constructed locale has a name if and onl
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/locale/locale&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 other  |  \-  |  another locale to copy   
 ---|---|---  
@@ -235,17 +235,17 @@ f  |  \-  |  pointer to a facet to merge with other
 cats  |  \-  |  the facet categories used to identify the facets to merge with other  
 one  |  \-  |  another locale to take facets from   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/locale/locale&action=edit&section=2 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 3,5) [std::runtime_error](../../error/runtime_error.html "cpp/error/runtime error") if the operating system has no locale named std_name or if std_name is a null pointer.
 
 4,6) [std::runtime_error](../../error/runtime_error.html "cpp/error/runtime error") if the operating system has no locale named std_name.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/locale/locale&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Overload ([7](locale.html#Version_7)) is typically called with its second argument, f, obtained directly from a new-expression: the locale is responsible for calling the matching delete from its own destructor. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/locale/locale&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -300,7 +300,7 @@ Possible output:
       LC_MEASUREMENT=C;
       LC_IDENTIFICATION=C
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/locale/locale&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -311,13 +311,13 @@ whether `Facet` can be cv-qualified  | it can be const-qualified,
 but not volatile-qualified   
 [LWG 2295](https://cplusplus.github.io/LWG/issue2295) | C++98  | for overload ([7](locale.html#Version_7)), the constructed locale had no name even if f is null  | it has the name of other  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/locale/locale&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ (destructor)](~locale.html "cpp/locale/locale/~locale") |  destructs the locale and the facets whose reference count becomes zero   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/locale/dsc_%7Elocale&action=edit)  
+(public member function)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/locale/locale&action=edit&section=7 "Edit section: External links")] External links
+### External links
 
 1\.  | [List of Windows locale names](https://ss64.com/locale.html).   
 ---|---  

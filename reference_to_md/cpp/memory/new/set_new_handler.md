@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -282,7 +282,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [Low level memory management](../new.html "cpp/memory/new")
 
@@ -304,7 +304,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
 [Object access](../new.html#Object_access "cpp/memory/new")  
 [launder](../../utility/launder.html "cpp/utility/launder")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/new/navbar_content&action=edit)
+
 
 Defined in header `[<new>](../../header/new.html "cpp/header/new")` |  |   
 ---|---|---  
@@ -341,16 +341,16 @@ This function is thread-safe. Every call to `std::set_new_handler` _synchronizes
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/new/set_new_handler&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 new_p  |  \-  |  pointer to function of type [std::new_handler](new_handler.html "cpp/memory/new/new handler"), or null pointer   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/new/set_new_handler&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The previously-installed new handler, or a null pointer value if none was installed. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/new/set_new_handler&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -386,14 +386,14 @@ Possible output:
     Memory allocation failed, terminating
     std::bad_alloc
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/new/set_new_handler&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ operator newoperator new[]](operator_new.html "cpp/memory/new/operator new") |  allocation functions   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/new/dsc_operator_new&action=edit)  
+(function)   
 ---|---  
 [ get_new_handler](get_new_handler.html "cpp/memory/new/get new handler")(C++11) |  obtains the current new handler   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/new/dsc_get_new_handler&action=edit)  
+(function)   
 [ new_handler](new_handler.html "cpp/memory/new/new handler") |  function pointer type of the new handler   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/new/dsc_new_handler&action=edit)  
+(typedef)   
 [ bad_alloc](bad_alloc.html "cpp/memory/new/bad alloc") |  exception thrown when memory allocation fails   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/new/dsc_bad_alloc&action=edit)
+(class) 

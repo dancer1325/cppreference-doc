@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header is part of the [Input/output](../io/manip.html "cpp/io/manip") library. 
 
@@ -202,29 +202,29 @@ This header is part of the [Input/output](../io/manip.html "cpp/io/manip") libra
   
 ---  
 [ resetiosflags](../io/manip/resetiosflags.html "cpp/io/manip/resetiosflags") |  clears the specified ios_base flags   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_resetiosflags&action=edit)  
+(function)   
 [ setiosflags](../io/manip/setiosflags.html "cpp/io/manip/setiosflags") |  sets the specified `ios_base` flags   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_setiosflags&action=edit)  
+(function)   
 [ setbase](../io/manip/setbase.html "cpp/io/manip/setbase") |  changes the base used for integer I/O   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_setbase&action=edit)  
+(function)   
 [ setfill](../io/manip/setfill.html "cpp/io/manip/setfill") |  changes the fill character   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_setfill&action=edit)  
+(function template)   
 [ setprecision](../io/manip/setprecision.html "cpp/io/manip/setprecision") |  changes floating-point precision   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_setprecision&action=edit)  
+(function)   
 [ setw](../io/manip/setw.html "cpp/io/manip/setw") |  changes the width of the next input/output field   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_setw&action=edit)  
+(function)   
 [ get_money](../io/manip/get_money.html "cpp/io/manip/get money")(C++11) |  parses a monetary value   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_get_money&action=edit)  
+(function template)   
 [ put_money](../io/manip/put_money.html "cpp/io/manip/put money")(C++11) |  formats and outputs a monetary value   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_put_money&action=edit)  
+(function template)   
 [ get_time](../io/manip/get_time.html "cpp/io/manip/get time")(C++11) |  parses a date/time value of specified format   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_get_time&action=edit)  
+(function template)   
 [ put_time](../io/manip/put_time.html "cpp/io/manip/put time")(C++11) |  formats and outputs a date/time value according to the specified format   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_put_time&action=edit)  
+(function template)   
 [ quoted](../io/manip/quoted.html "cpp/io/manip/quoted")(C++14) |  inserts and extracts quoted strings with embedded spaces   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_quoted&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/iomanip&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     namespace std {

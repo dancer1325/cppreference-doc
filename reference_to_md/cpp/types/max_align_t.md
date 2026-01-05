@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Type support](../utility/rtti.html "cpp/types")
 
@@ -161,7 +161,7 @@ Runtime type information
 ---  
 [bad_cast](bad_cast.html "cpp/types/bad cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/navbar_content&action=edit)
+
 
 Defined in header `[<cstddef>](../header/cstddef.html "cpp/header/cstddef")` |  |   
 ---|---|---  
@@ -182,11 +182,11 @@ typedef /* implementation-defined */ max_align_t; |  |  (since C++11)
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/max_align_t&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 Pointers returned by allocation functions such as [std::malloc](../memory/c/malloc.html "cpp/memory/c/malloc") are suitably aligned for any object, which means they are aligned at least as strictly as `std::max_align_t`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/max_align_t&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -204,7 +204,7 @@ Possible output:
     
     16
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/max_align_t&action=edit&section=3 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -256,13 +256,13 @@ Possible output:
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/max_align_t&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 `**[alignof](../language/alignof.html "cpp/language/alignof")**` (C++11) |  queries alignment requirements of a type  
-(operator)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_alignof&action=edit)  
+(operator)  
 ---|---  
 [ alignment_of](alignment_of.html "cpp/types/alignment of")(C++11) |  obtains the type's alignment requirements   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_alignment_of&action=edit)  
+(class template)   
 [ is_scalar](is_scalar.html "cpp/types/is scalar")(C++11) |  checks if a type is a scalar type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_scalar&action=edit)  
+(class template)   
 [C documentation](../../c/types/max_align_t.html "c/types/max align t") for max_align_t

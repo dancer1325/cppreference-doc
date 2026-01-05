@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::expected`](../expected.html "cpp/utility/expected")
 
@@ -160,7 +160,7 @@ Common vocabulary types
 [bad_expected_access](bad_expected_access.html "cpp/utility/expected/bad expected access")  
 [unexpect_tunexpect](unexpect_t.html "cpp/utility/expected/unexpect t")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/expected/navbar_content&action=edit)
+
 
 Primary template |  |   
 ---|---|---  
@@ -189,24 +189,24 @@ The void partial specialization does not have these member functions.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/value_or&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 default_value  |  \-  |  the value to use in case *this does not contain an expected value   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/value_or&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) has_value() ? **this : static_cast<T>([std::forward](../forward.html)<U>(default_value))
 
 2) has_value() ? std::move(**this) : static_cast<T>([std::forward](../forward.html)<U>(default_value))
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/value_or&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/value_or&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -214,10 +214,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 3886](https://cplusplus.github.io/LWG/issue3886) | C++23  | `U` does not have a default template argument  | specified   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/value_or&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ value](value.html "cpp/utility/expected/value") |  returns the expected value   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/expected/dsc_value&action=edit)  
+(public member function)   
 ---|---  
 [ error_or](error_or.html "cpp/utility/expected/error or") |  returns the unexpected value if present, another value otherwise   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/expected/dsc_error_or&action=edit)
+(public member function) 

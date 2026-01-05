@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 **`std::chrono::system_clock`**
 
@@ -115,7 +115,7 @@ Time point I/O
 [formatter<std::chrono::sys_time>](system_clock/formatter.html "cpp/chrono/system clock/formatter")  
 [from_stream](system_clock/from_stream.html "cpp/chrono/system clock/from stream")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/system_clock/navbar_content&action=edit)
+
 
 Defined in header `[<chrono>](../header/chrono.html "cpp/header/chrono")` |  |   
 ---|---|---  
@@ -154,14 +154,14 @@ using sys_seconds = sys_time<[std::chrono::seconds](duration.html)>; |  |  (sinc
 using sys_days = sys_time<[std::chrono::days](duration.html)>; |  |  (since C++20)  
 | |   
 [ operator<<(std::chrono::sys_time)](system_clock/operator_ltlt.html "cpp/chrono/system clock/operator ltlt")(C++20) |  performs stream output on a `sys_time`   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_point/dsc_operator_ltlt&action=edit)  
+(function template)   
 ---|---  
 [ from_stream(std::chrono::sys_time)](system_clock/from_stream.html "cpp/chrono/system clock/from stream")(C++20) |  parses a `sys_time` from a stream according to the provided format   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_point/dsc_from_stream&action=edit)  
+(function template)   
 [ std::formatter<std::chrono::sys_time>](system_clock/formatter.html "cpp/chrono/system clock/formatter")(C++20) |  formatting support for `sys_time`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_formatter&action=edit)  
+(class template specialization)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/clock_member_types&action=edit&section=T-1 "Template:cpp/chrono/clock member types")] Member types
+### Member types
 
 Member type  |  Definition   
 ---|---  
@@ -170,30 +170,30 @@ Member type  |  Definition
 `duration` |  [std::chrono::duration](duration.html)<rep, period>, capable of representing negative durations   
 `time_point` |  [std::chrono::time_point](time_point.html)<std::chrono::system_clock>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/clock_is_steady&action=edit&section=T-1 "Template:cpp/chrono/clock is steady")] Member constants
+### Member constants
 
 constexpr bool is_steady[static] |  true if the time between ticks is always constant, i.e. calls to [`now()`](system_clock/now.html "cpp/chrono/system clock/now") return values that increase monotonically even in case of some external clock adjustment, otherwise false   
 (public static member constant)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/system_clock&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ now](system_clock/now.html "cpp/chrono/system clock/now")[static] |  returns a [std::chrono::time_point](time_point.html "cpp/chrono/time point") representing the current point in time   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/system_clock/dsc_now&action=edit)  
+(public static member function)   
 ---|---  
 [ to_time_t](system_clock/to_time_t.html "cpp/chrono/system clock/to time t")[static] |  converts a system clock time point to [std::time_t](c/time_t.html "cpp/chrono/c/time t")   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/system_clock/dsc_to_time_t&action=edit)  
+(public static member function)   
 [ from_time_t](system_clock/from_time_t.html "cpp/chrono/system clock/from time t")[static] |  converts [std::time_t](c/time_t.html "cpp/chrono/c/time t") to a system clock time point   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/system_clock/dsc_from_time_t&action=edit)  
+(public static member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/system_clock&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 The `system_clock`'s time value can be internally adjusted at any time by the operating system, for example due to NTP synchronization or the user changing the system's clock. Daylight Saving Time and time zone changes, however, do not affect it since it is based on the [UTC](https://en.wikipedia.org/wiki/Coordinated_Universal_Time) time-zone. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/system_clock&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ steady_clock](steady_clock.html "cpp/chrono/steady clock")(C++11) |  monotonic clock that will never be adjusted   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_steady_clock&action=edit)  
+(class)   
 ---|---  
 [ high_resolution_clock](high_resolution_clock.html "cpp/chrono/high resolution clock")(C++11) |  the clock with the shortest tick period available   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_high_resolution_clock&action=edit)
+(class) 

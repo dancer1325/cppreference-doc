@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [`std::text_encoding`](../../locale/text_encoding.html "cpp/text/text encoding")
 
@@ -79,7 +79,7 @@
 [Helper classes](../../locale/text_encoding.html#Helper_classes "cpp/text/text encoding")  
 [hash<std::text_encoding>](hash.html "cpp/text/text encoding/hash")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/text_encoding/navbar_content&action=edit)
+
 
 constexpr id mib() const noexcept; |  |  (since C++26)  
 ---|---|---  
@@ -87,15 +87,15 @@ constexpr id mib() const noexcept; |  |  (since C++26)
   
 Returns the MIBenum value of *this. Equivalent to return` `` _[mib_](../../locale/text_encoding.html#mib "cpp/text/text encoding")_` ;. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/text/text_encoding/mib&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/text/text_encoding/mib&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 MIBenum value `_[mib_](../../locale/text_encoding.html#mib "cpp/text/text encoding")_`
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/text/text_encoding/mib&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

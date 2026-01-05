@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Null-terminated multibyte strings](../multibyte.html "cpp/string/multibyte")
 
@@ -100,7 +100,7 @@ MB_CUR_MAX](../multibyte.html#Macros "cpp/string/multibyte")
 [__STDC_UTF_16__  
 __STDC_UTF_32__](../multibyte.html#Macros "cpp/string/multibyte")(C++11)(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/navbar_content&action=edit)
+
 
 Defined in header `[<cwchar>](../../header/cwchar.html "cpp/header/cwchar")` |  |   
 ---|---|---  
@@ -125,20 +125,20 @@ If wc is the null wide character L'\0', a null byte is stored, preceded by any s
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/multibyte/wcrtomb&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 s  |  \-  |  pointer to narrow character array where the multibyte character will be stored   
 ---|---|---  
 wc  |  \-  |  the wide character to convert   
 ps  |  \-  |  pointer to the conversion state object used when interpreting the multibyte string   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/multibyte/wcrtomb&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 On success, returns the number of bytes (including any shift sequences) written to the character array whose first element is pointed to by s. 
 
 On failure (if wc is not a valid wide character), returns static_cast<[std::size_t](../../types/size_t.html)>(-1), stores [EILSEQ](../../error/errno_macros.html "cpp/error/errno macros") in [errno](../../error/errno.html "cpp/error/errno"), and leaves *ps in unspecified state. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/multibyte/wcrtomb&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -174,13 +174,13 @@ Output:
     multibyte char 水 is 3 bytes
     multibyte char 🍌 is 4 bytes
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/multibyte/wcrtomb&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ wctomb](wctomb.html "cpp/string/multibyte/wctomb") |  converts a wide character to its multibyte representation   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/dsc_wctomb&action=edit)  
+(function)   
 ---|---  
 [ mbrtowc](mbrtowc.html "cpp/string/multibyte/mbrtowc") |  converts the next multibyte character to wide character, given state   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/dsc_mbrtowc&action=edit)  
+(function)   
 [ do_out](../../locale/codecvt/out.html "cpp/locale/codecvt/out")[virtual] |  converts a string from `InternT` to `ExternT`, such as when writing to file   
-(virtual protected member function of `std::codecvt<InternT,ExternT,StateT>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/codecvt/dsc_do_out&action=edit)  
+(virtual protected member function of `std::codecvt<InternT,ExternT,StateT>`)   
 [C documentation](../../../c/string/multibyte/wcrtomb.html "c/string/multibyte/wcrtomb") for wcrtomb

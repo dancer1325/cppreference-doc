@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Ranges](../../ranges.html "cpp/experimental/ranges")
 
@@ -66,7 +66,7 @@
 [Ranges](../../ranges.html#Ranges "cpp/experimental/ranges")  
 [Algorithms](../../ranges.html#Algorithms "cpp/experimental/ranges")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/navbar_content&action=edit)
+
 
 [Algorithms library](../../ranges.html#Algorithms "cpp/experimental/ranges")
 
@@ -224,7 +224,7 @@ Permutations
 | [prev_permutation](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/prev_permutation&action=edit&redlink=1 "cpp/experimental/ranges/algorithm/prev permutation \(page does not exist\)")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/navbar_content&action=edit)
+
 
 Defined in header `[<experimental/ranges/algorithm>](../../../header/experimental/ranges/algorithm.html "cpp/header/experimental/ranges/algorithm")` |  |   
 ---|---|---  
@@ -271,7 +271,7 @@ Lexicographical comparison is an operation with the following properties:
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/lexicographical_compare&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first1, last1  |  \-  |  the first range of elements to examine   
 ---|---|---  
@@ -282,15 +282,15 @@ comp  |  \-  |  comparison function to apply to the projected elements
 proj1  |  \-  |  projection to apply to the elements in the first range   
 proj2  |  \-  |  projection to apply to the elements in the second range   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/lexicographical_compare&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 true if the first range is lexicographically _less_ than the second. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/lexicographical_compare&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 At most 2·min(N1, N2) applications of the comparison operation, where N1 = last1 - first1 and N2 = last2 - first2. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/lexicographical_compare&action=edit&section=4 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     template<InputIterator I1, Sentinel<I1> S1, InputIterator I2, Sentinel<I2> S2,
@@ -315,16 +315,16 @@ At most 2·min(N1, N2) applications of the comparison operation, where N1 = last
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/lexicographical_compare&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/lexicographical_compare&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ lexicographical_compare](../../../algorithm/lexicographical_compare.html "cpp/algorithm/lexicographical compare") |  returns true if one range is lexicographically less than another   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_lexicographical_compare&action=edit)  
+(function template)   
 ---|---  
 [ equal](equal.html "cpp/experimental/ranges/algorithm/equal") |  determines if two sets of elements are the same   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_equal&action=edit)
+(function template) 

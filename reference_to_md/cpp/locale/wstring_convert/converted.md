@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Localization library](../../locale.html "cpp/locale")
 
@@ -152,7 +152,7 @@ base classes](../../locale.html#Facet_category_base_classes "cpp/locale")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/navbar_content&action=edit)
+
 
 [`std::wstring_convert`](../wstring_convert.html "cpp/locale/wstring convert")
 
@@ -165,7 +165,7 @@ Member functions
 **wstring_convert::converted**  
 [wstring_convert::state](state.html "cpp/locale/wstring convert/state")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/wstring_convert/navbar_content&action=edit)
+
 
 Defined in header `[<locale>](../../header/locale.html "cpp/header/locale")` |  |   
 ---|---|---  
@@ -184,11 +184,11 @@ Returns the number of source characters that were successfully processed by the 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/wstring_convert/converted&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 `_[cvtcount](../wstring_convert.html#cvtcount "cpp/locale/wstring convert")_`
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/wstring_convert/converted&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -227,7 +227,7 @@ Output:
     new UTF-8 string size: 10
     converted() == 4
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/wstring_convert/converted&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -235,10 +235,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 2174](https://cplusplus.github.io/LWG/issue2174) | C++11  | `wstring_convert::converted` was not required to be noexcept  | required   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/wstring_convert/converted&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ to_bytes](to_bytes.html "cpp/locale/wstring convert/to bytes") |  converts a wide string into a byte string   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/wstring_convert/dsc_to_bytes&action=edit)  
+(public member function)   
 ---|---  
 [ from_bytes](from_bytes.html "cpp/locale/wstring convert/from bytes") |  converts a byte string into a wide string   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/wstring_convert/dsc_from_bytes&action=edit)
+(public member function) 

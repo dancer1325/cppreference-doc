@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header is part of the [language support](../utility.html "cpp/utility") library. 
 
@@ -220,42 +220,42 @@ This header is part of the [language support](../utility.html "cpp/utility") lib
   
 ###  Includes  
   
-[ <compare>](compare.html "cpp/header/compare")(C++20) |  [Three-way comparison operator](../language/operator_comparison.html#Three-way_comparison "cpp/language/operator comparison") support[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/dsc_compare&action=edit)  
+[ <compare>](compare.html "cpp/header/compare")(C++20) |  [Three-way comparison operator](../language/operator_comparison.html#Three-way_comparison "cpp/language/operator comparison") support  
   
 ###  Classes  
   
 [ coroutine_traits](../coroutine/coroutine_traits.html "cpp/coroutine/coroutine traits")(C++20) |  trait type for discovering coroutine promise types   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/coroutine/dsc_coroutine_traits&action=edit)  
+(class template)   
 [ coroutine_handle](../coroutine/coroutine_handle.html "cpp/coroutine/coroutine handle")(C++20) |  used to refer to a suspended or executing coroutine   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/coroutine/dsc_coroutine_handle&action=edit)  
+(class template)   
 [ std::hash<std::coroutine_handle>](../coroutine/coroutine_handle/hash.html "cpp/coroutine/coroutine handle/hash")(C++20) |  hash support for [`std::coroutine_handle`](../coroutine/coroutine_handle.html "cpp/coroutine/coroutine handle")   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/coroutine/coroutine_handle/dsc_hash&action=edit)  
+(class template specialization)   
   
 #####  No-op Coroutines   
   
 [ noop_coroutine_promise](../coroutine/noop_coroutine_promise.html "cpp/coroutine/noop coroutine promise")(C++20) |  used for coroutines with no observable effects   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/coroutine/dsc_noop_coroutine_promise&action=edit)  
+(class)   
 [ noop_coroutine_handle](../coroutine/coroutine_handle.html "cpp/coroutine/coroutine handle")(C++20) |  [std::coroutine_handle](../coroutine/coroutine_handle.html)<[std::noop_coroutine_promise](../coroutine/noop_coroutine_promise.html)>, intended to refer to a no-op coroutine   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/coroutine/dsc_noop_coroutine_handle&action=edit)  
+(typedef)   
   
 #####  Trivial Awaitables   
   
 [ suspend_never](../coroutine/suspend_never.html "cpp/coroutine/suspend never")(C++20) |  indicates that an await-expression should never suspend   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/coroutine/dsc_suspend_never&action=edit)  
+(class)   
 [ suspend_always](../coroutine/suspend_always.html "cpp/coroutine/suspend always")(C++20) |  indicates that an await-expression should always suspend   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/coroutine/dsc_suspend_always&action=edit)  
+(class)   
   
 ###  Functions  
   
 [ operator==operator<=>](../coroutine/coroutine_handle/operator_cmp.html "cpp/coroutine/coroutine handle/operator cmp")(C++20) |  compares two `coroutine_handle` objects   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/coroutine/coroutine_handle/dsc_operator_cmp&action=edit)  
+(function)   
   
 #####  No-op Coroutines   
   
 [ noop_coroutine](../coroutine/noop_coroutine.html "cpp/coroutine/noop coroutine")(C++20) |  creates a coroutine handle that has no observable effects when resumed or destroyed   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/coroutine/dsc_noop_coroutine&action=edit)  
+(function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/coroutine&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     #include <compare>
@@ -291,7 +291,7 @@ This header is part of the [language support](../utility.html "cpp/utility") lib
       struct suspend_always;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/coroutine&action=edit&section=T-1 "Template:cpp/synopsis/coroutine")] Class template [std::coroutine_handle](../coroutine/coroutine_handle.html "cpp/coroutine/coroutine handle")
+#### Class template [std::coroutine_handle](../coroutine/coroutine_handle.html "cpp/coroutine/coroutine handle")
     
     
     namespace std {
@@ -353,14 +353,14 @@ This header is part of the [language support](../utility.html "cpp/utility") lib
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/coroutine&action=edit&section=T-2 "Template:cpp/synopsis/coroutine")] Class [std::noop_coroutine_promise](../coroutine/noop_coroutine_promise.html "cpp/coroutine/noop coroutine promise")
+#### Class [std::noop_coroutine_promise](../coroutine/noop_coroutine_promise.html "cpp/coroutine/noop coroutine promise")
     
     
     namespace std {
       struct noop_coroutine_promise {};
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/coroutine&action=edit&section=T-3 "Template:cpp/synopsis/coroutine")] Class [std::coroutine_handle](../coroutine/coroutine_handle.html)<[std::noop_coroutine_promise](../coroutine/noop_coroutine_promise.html)>
+#### Class [std::coroutine_handle](../coroutine/coroutine_handle.html)<[std::noop_coroutine_promise](../coroutine/noop_coroutine_promise.html)>
     
     
     namespace std {
@@ -390,7 +390,7 @@ This header is part of the [language support](../utility.html "cpp/utility") lib
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/coroutine&action=edit&section=T-4 "Template:cpp/synopsis/coroutine")] Class [std::suspend_never](../coroutine/suspend_never.html "cpp/coroutine/suspend never")
+#### Class [std::suspend_never](../coroutine/suspend_never.html "cpp/coroutine/suspend never")
     
     
     namespace std {
@@ -401,7 +401,7 @@ This header is part of the [language support](../utility.html "cpp/utility") lib
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/coroutine&action=edit&section=T-5 "Template:cpp/synopsis/coroutine")] Class [std::suspend_always](../coroutine/suspend_always.html "cpp/coroutine/suspend always")
+#### Class [std::suspend_always](../coroutine/suspend_always.html "cpp/coroutine/suspend always")
     
     
     namespace std {

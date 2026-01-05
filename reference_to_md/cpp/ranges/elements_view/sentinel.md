@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::elements_view`](../elements_view.html "cpp/ranges/elements view")
 
@@ -262,7 +262,7 @@ operator-(elements_view::_iterator_)](iterator/operator_arith2.html "cpp/ranges/
 [operator==(elements_view::_iterator_ ,elements_view::_sentinel_)](sentinel/operator_cmp.html "cpp/ranges/elements view/sentinel/operator cmp")  
 [operator-(elements_view::_iterator_ ,elements_view::_sentinel_)](sentinel/operator-.html "cpp/ranges/elements view/sentinel/operator-")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/elements_view/navbar_content&action=edit)
+
 
 template< bool Const >  
 class /*sentinel*/; |  |  (exposition only*)  
@@ -283,32 +283,32 @@ The type /*sentinel*/<true> is returned by the const-qualified overload. The typ
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/elements_view/sentinel&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Member type  |  Definition   
 ---|---  
 `_Base_` (private) |  const V if `Const` is true, otherwise V.  
 (exposition-only member type*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/elements_view/sentinel&action=edit&section=2 "Edit section: Data members")] Data members
+### Data members
 
 Member object  |  Definition   
 ---|---  
 `_end__` (private) |  A sentinel obtained from (possibly const-qualified) V.  
 (exposition-only member object*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/elements_view/sentinel&action=edit&section=3 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](sentinel/sentinel.html "cpp/ranges/elements view/sentinel/sentinel") |  constructs a sentinel   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/sentinel/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ base](sentinel/base.html "cpp/ranges/elements view/sentinel/base") |  returns the underlying sentinel   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/sentinel/dsc_base&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/elements_view/sentinel&action=edit&section=4 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ operator==](sentinel/operator_cmp.html "cpp/ranges/elements view/sentinel/operator cmp")(C++20) |  compares a sentinel with an iterator returned from [`elements_view::begin`](begin.html "cpp/ranges/elements view/begin")   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/sentinel/dsc_operator_cmp&action=edit)  
+(function)   
 ---|---  
 [ operator-](sentinel/operator-.html "cpp/ranges/elements view/sentinel/operator-")(C++20) |  computes the distance between a sentinel and an iterator returned from [`elements_view::begin`](begin.html "cpp/ranges/elements view/begin")   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/sentinel/dsc_operator-&action=edit)
+(function) 

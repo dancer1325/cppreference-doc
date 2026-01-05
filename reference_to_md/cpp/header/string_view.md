@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header is part of the [strings](../string.html "cpp/string") library. 
 
@@ -216,59 +216,59 @@ This header is part of the [strings](../string.html "cpp/string") library.
   
 ###  Includes  
   
-[ <compare>](compare.html "cpp/header/compare")(C++20) |  [Three-way comparison operator](../language/operator_comparison.html#Three-way_comparison "cpp/language/operator comparison") support[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/dsc_compare&action=edit)  
+[ <compare>](compare.html "cpp/header/compare")(C++20) |  [Three-way comparison operator](../language/operator_comparison.html#Three-way_comparison "cpp/language/operator comparison") support  
   
 ###  Classes  
   
 [ basic_string_view](../string/basic_string_view.html "cpp/string/basic string view")(C++17) |  read-only string view   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/dsc_basic_string_view&action=edit)  
+(class template)   
 [std::string_view](../string/basic_string_view.html "cpp/string/basic string view") (C++17) |  [std::basic_string_view](../string/basic_string_view.html)<char>  
 [std::u8string_view](../string/basic_string_view.html "cpp/string/basic string view") (C++20) |  [std::basic_string_view](../string/basic_string_view.html)<char8_t>  
 [std::u16string_view](../string/basic_string_view.html "cpp/string/basic string view") (C++17) |  [std::basic_string_view](../string/basic_string_view.html)<char16_t>  
 [std::u32string_view](../string/basic_string_view.html "cpp/string/basic string view") (C++17) |  [std::basic_string_view](../string/basic_string_view.html)<char32_t>  
 [std::wstring_view](../string/basic_string_view.html "cpp/string/basic string view") (C++17) |  [std::basic_string_view](../string/basic_string_view.html)<wchar_t>  
 [ std::hash<std::string_view>std::hash<std::wstring_view>std::hash<std::u8string_view>std::hash<std::u16string_view>std::hash<std::u32string_view>](../string/basic_string_view/hash.html "cpp/string/basic string view/hash")(C++17)(C++17)(C++20)(C++17)(C++17) |  hash support for string views   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/dsc_hash&action=edit)  
+(class template specialization)   
   
 #####  Forward declarations   
   
 Defined in header `[<functional>](functional.html "cpp/header/functional")`  
 [ hash](../utility/hash.html "cpp/utility/hash")(C++11) |  hash function object   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_hash&action=edit)  
+(class template)   
   
 ###  Functions  
   
 [ operator==operator!=operator<operator>operator<=operator>=operator<=>](../string/basic_string_view/operator_cmp.html "cpp/string/basic string view/operator cmp")(C++17)(removed in C++20)(removed in C++20)(removed in C++20)(removed in C++20)(removed in C++20)(C++20) |  lexicographically compares two string views   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/dsc_operator_cmp&action=edit)  
+(function template)   
 [ operator<<](../string/basic_string_view/operator_ltlt.html "cpp/string/basic string view/operator ltlt")(C++17) |  performs stream output on string views   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/dsc_operator_ltlt&action=edit)  
+(function template)   
 [ swap](../utility/swap.html "cpp/algorithm/swap") |  swaps the values of two objects   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_swap&action=edit)  
+(function template)   
   
 #####  Range access   
   
 [ begincbegin](../iterator/begin.html "cpp/iterator/begin")(C++11)(C++14) |  returns an iterator to the beginning of a container or array   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_begin&action=edit)  
+(function template)   
 [ endcend](../iterator/end.html "cpp/iterator/end")(C++11)(C++14) |  returns an iterator to the end of a container or array   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_end&action=edit)  
+(function template)   
 [ rbegincrbegin](../iterator/rbegin.html "cpp/iterator/rbegin")(C++14) |  returns a reverse iterator to the beginning of a container or array   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_rbegin&action=edit)  
+(function template)   
 [ rendcrend](../iterator/rend.html "cpp/iterator/rend")(C++14) |  returns a reverse end iterator for a container or array   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_rend&action=edit)  
+(function template)   
 [ sizessize](../iterator/size.html "cpp/iterator/size")(C++17)(C++20) |  returns the size of a container or array   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_size&action=edit)  
+(function template)   
 [ empty](../iterator/empty.html "cpp/iterator/empty")(C++17) |  checks whether the container is empty   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_empty&action=edit)  
+(function template)   
 [ data](../iterator/data.html "cpp/iterator/data")(C++17) |  obtains the pointer to the underlying array   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_data&action=edit)  
+(function template)   
   
 #####  Literals   
   
 Defined in inline namespace `std::literals::string_view_literals`  
 [ operator""sv](../string/basic_string_view/operator""sv.html "cpp/string/basic string view/operator""sv")(C++17) |  creates a string view of a character array literal   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/dsc_operator%22%22sv&action=edit)  
+(function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/string_view&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     #include <compare>
@@ -328,7 +328,7 @@ Defined in inline namespace `std::literals::string_view_literals`
       }
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/string_view&action=edit&section=T-1 "Template:cpp/synopsis/string view")] Class template [std::basic_string_view](../string/basic_string_view.html "cpp/string/basic string view")
+#### Class template [std::basic_string_view](../string/basic_string_view.html "cpp/string/basic string view")
     
     
     namespace std {

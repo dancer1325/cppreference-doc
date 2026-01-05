@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header was originally in the C standard library as [`<stdbool.h>`](../../c/header/stdbool.html "c/header/stdbool"). 
 
@@ -204,13 +204,13 @@ Compatibility header. true, false and bool are [keywords](../keywords.html "cpp/
   
 ---  
 __bool_true_false_are_defined(C++11)(deprecated) |  C compatibility macro constant, expands to integer literal 1   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_bool_true_false_are_defined&action=edit)  
+(macro constant)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/cstdbool&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 `<cstdbool>` is deprecated in C++17 and removed in C++20. Corresponding `<stdbool.h>` is still available in C++20. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/cstdbool&action=edit&section=2 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

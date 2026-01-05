@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::view_interface`](../view_interface.html "cpp/ranges/view interface")
 
@@ -240,7 +240,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
 [back](back.html "cpp/ranges/view interface/back")  
 [operator[]](operator_at.html "cpp/ranges/view interface/operator at")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/navbar_content&action=edit)
+
 
 constexpr bool empty()  
 requires [ranges::sized_range](../sized_range.html)<D> || [ranges::forward_range](../forward_range.html)<D>; |  (1)  |  (since C++20)  
@@ -266,11 +266,11 @@ The default implementation of `empty()` member function checks whether the objec
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/view_interface/empty&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 true if the size of the object of the derived type is ​0​ (if `D` satisfies [std::ranges::sized_range](../sized_range.html "cpp/ranges/sized range")), or its beginning iterator and the sentinel compare equal, false otherwise. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/view_interface/empty&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 Following derived types may use the default implementation of `empty`: 
 
@@ -316,7 +316,7 @@ Following derived types may use the default implementation of `empty`:
   
 Although [std::ranges::basic_istream_view](../basic_istream_view.html "cpp/ranges/basic istream view") inherits from [std::ranges::view_interface](../view_interface.html "cpp/ranges/view interface") and does not declare the `empty()` member function, it cannot use the default implementation, because it never satisfies neither [std::ranges::sized_range](../sized_range.html "cpp/ranges/sized range") nor [std::ranges::forward_range](../forward_range.html "cpp/ranges/forward range"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/view_interface/empty&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -336,7 +336,7 @@ Run this code
         static_assert(!std::[views::iota](../iota_view.html)(0).empty());
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/view_interface/empty&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -344,10 +344,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 3715](https://cplusplus.github.io/LWG/issue3715) | C++20  | `empty()` only supported [`forward_range`](../forward_range.html "cpp/ranges/forward range") types  | [`sized_range`](../sized_range.html "cpp/ranges/sized range")-only types are also supported   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/view_interface/empty&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ empty](../../iterator/empty.html "cpp/iterator/empty")(C++17) |  checks whether the container is empty   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_empty&action=edit)  
+(function template)   
 ---|---  
 [ ranges::empty](../empty.html "cpp/ranges/empty")(C++20) |  checks whether a range is empty  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_empty&action=edit)
+(customization point object)

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 Defined in header `[<compare>](../../header/compare.html "cpp/header/compare")` |  |   
 ---|---|---  
@@ -158,20 +158,20 @@ Let t and u be expressions and `T` and `U` denote decltype((t)) and decltype((u)
 
 The name `std::partial_order` denotes a _customization point object_ , which is a const [function object](../../named_req/FunctionObject.html "cpp/named req/FunctionObject") of a [literal](../../named_req/LiteralType.html "cpp/named req/LiteralType") [`semiregular`](../../concepts/semiregular.html "cpp/concepts/semiregular") class type. See [CustomizationPointObject](../../named_req/CustomizationPointObject.html "cpp/named req/CustomizationPointObject") for details. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/compare/partial_order&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/compare/partial_order&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ partial_ordering](partial_ordering.html "cpp/utility/compare/partial ordering")(C++20) |  the result type of 3-way comparison that supports all 6 operators, is not substitutable, and allows incomparable values   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/compare/dsc_partial_ordering&action=edit)  
+(class)   
 ---|---  
 [ strong_order](strong_order.html "cpp/utility/compare/strong order")(C++20) |  performs 3-way comparison and produces a result of type `std::strong_ordering`  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/compare/dsc_strong_order&action=edit)  
+(customization point object)  
 [ weak_order](weak_order.html "cpp/utility/compare/weak order")(C++20) |  performs 3-way comparison and produces a result of type `std::weak_ordering`  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/compare/dsc_weak_order&action=edit)  
+(customization point object)  
 [ compare_partial_order_fallback](compare_partial_order_fallback.html "cpp/utility/compare/compare partial order fallback")(C++20) |  performs 3-way comparison and produces a result of type `std::partial_ordering`, even if operator<=> is unavailable  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/compare/dsc_compare_partial_order_fallback&action=edit)
+(customization point object)

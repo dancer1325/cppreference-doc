@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::span`](../span.html "cpp/container/span")
 
@@ -106,7 +106,7 @@ Tables
 [dynamic_extent](dynamic_extent.html "cpp/container/span/dynamic extent")  
 [Deduction guides](deduction_guides.html "cpp/container/span/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/span/navbar_content&action=edit)
+
 
 constexpr reference at( size_type pos ) const; |  |  (since C++26)  
 ---|---|---  
@@ -129,20 +129,20 @@ If pos is not within the range of the span, an exception of type [std::out_of_ra
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/at&action=edit&section=T-1 "Template:cpp/container/at")] Parameters
+### Parameters
 
 pos  |  \-  |  position of the element to return   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/at&action=edit&section=T-2 "Template:cpp/container/at")] Return value
+### Return value
 
 Reference to the requested element. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/at&action=edit&section=T-3 "Template:cpp/container/at")] Exceptions
+### Exceptions
 
 [std::out_of_range](../../error/out_of_range.html "cpp/error/out of range") if pos >= size(). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/at&action=edit&section=T-4 "Template:cpp/container/at")] Complexity
+### Complexity
 
 Constant. 
 
@@ -152,7 +152,7 @@ Constant.
 ---|---|---|---  
 [`__cpp_lib_span`](../../experimental/feature_test.html#cpp_lib_span "cpp/feature test") | [`202311L`](../../compiler_support/26.html#cpp_lib_span_202311L "cpp/compiler support/26") | (C++26) | `std::span::at`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/at&action=edit&section=T-6 "Template:cpp/container/at")] Example
+### Example
 
 Run this code
     
@@ -205,10 +205,10 @@ Possible output:
     std::out_of_range: pos (which is 8) >= size() (which is 6)
     data: 1 88 4 5 5 6
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/at&action=edit&section=T-7 "Template:cpp/container/at")] See also
+### See also
 
 [ operator[]](operator_at.html "cpp/container/span/operator at") |  access specified element   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_operator_at&action=edit)  
+(public member function)   
 ---|---
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

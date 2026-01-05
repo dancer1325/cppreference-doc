@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::flat_multiset`](../flat_multiset.html "cpp/container/flat multiset")
 
@@ -136,7 +136,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/flat multiset/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/flat_multiset/navbar_content&action=edit)
+
 
 size_type count( const Key& key ) const; |  (1) | (since C++23)   
 (constexpr since C++26)  
@@ -165,30 +165,30 @@ This overload participates in overload resolution only if `Compare` is [transpar
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/count_ord&action=edit&section=T-1 "Template:cpp/container/count ord")] Parameters
+### Parameters
 
 key  |  \-  |  key value of the elements to count   
 ---|---|---  
 x  |  \-  |  alternative value to compare to the keys   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/count_ord&action=edit&section=T-2 "Template:cpp/container/count ord")] Return value
+### Return value
 
 Number of elements with key that compares equivalent to key or x. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/count_ord&action=edit&section=T-3 "Template:cpp/container/count ord")] Complexity
+### Complexity
 
 Logarithmic in the size of the container plus linear in the number of elements found. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/count_ord&action=edit&section=T-5 "Template:cpp/container/count ord")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/count_ord&action=edit&section=T-6 "Template:cpp/container/count ord")] See also
+### See also
 
 [ find](find.html "cpp/container/flat multiset/find") |  finds element with specific key   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_find&action=edit)  
+(public member function)   
 ---|---  
 [ equal_range](equal_range.html "cpp/container/flat multiset/equal range") |  returns range of elements matching a specific key   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_equal_range&action=edit)
+(public member function) 

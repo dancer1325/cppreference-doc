@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::allocator`](../allocator.html "cpp/memory/allocator")
 
@@ -202,7 +202,7 @@ Member functions
 Non-member functions  
 [operator==operator!=](operator_cmp.html "cpp/memory/allocator/operator cmp")(until C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/allocator/navbar_content&action=edit)
+
 
 void deallocate( T* p, [std::size_t](../../types/size_t.html) n ); |  |  (constexpr since C++20)  
 ---|---|---  
@@ -227,17 +227,17 @@ In evaluation of a constant expression, this function must deallocate storage al
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/allocator/deallocate&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 p  |  \-  |  pointer obtained from [allocate()](allocate.html "cpp/memory/allocator/allocate") or [`allocate_at_least()`](allocate_at_least.html "cpp/memory/allocator/allocate at least")(since C++23)  
 ---|---|---  
 n  |  \-  |  number of objects earlier passed to [allocate()](allocate.html "cpp/memory/allocator/allocate"), or a number between requested and actually allocated number of objects via [`allocate_at_least()`](allocate_at_least.html "cpp/memory/allocator/allocate at least") (may be equal to either bound)(since C++23)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/allocator/deallocate&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/allocator/deallocate&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -295,12 +295,12 @@ Output:
     #3   S::~S();
     #4    S::~S();
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/allocator/deallocate&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ allocate](allocate.html "cpp/memory/allocator/allocate") |  allocates uninitialized storage   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/allocator/dsc_allocate&action=edit)  
+(public member function)   
 ---|---  
 [ allocate_at_least](allocate_at_least.html "cpp/memory/allocator/allocate at least")(C++23) |  allocates uninitialized storage at least as large as requested size   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/allocator/dsc_allocate_at_least&action=edit)  
+(public member function)   
 [ deallocate](../allocator_traits/deallocate.html "cpp/memory/allocator traits/deallocate")[static] |  deallocates storage using the allocator   
-(public static member function of `std::allocator_traits<Alloc>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/allocator_traits/dsc_deallocate&action=edit)
+(public static member function of `std::allocator_traits<Alloc>`) 

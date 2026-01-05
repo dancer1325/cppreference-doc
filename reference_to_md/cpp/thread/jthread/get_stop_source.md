@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::jthread`](../jthread.html "cpp/thread/jthread")
 
@@ -198,7 +198,7 @@ Stop token handling
 Non-member functions  
 [swap(std::jthread)](swap2.html "cpp/thread/jthread/swap2")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/jthread/navbar_content&action=edit)
+
 
 [std::stop_source](../stop_source.html) get_stop_source() noexcept; |  |  (since C++20)  
 ---|---|---  
@@ -206,15 +206,15 @@ Non-member functions
   
 Returns a [std::stop_source](../stop_source.html "cpp/thread/stop source") associated with the same shared stop-state as held internally by the `jthread` object. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/jthread/get_stop_source&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/jthread/get_stop_source&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 A value of type [std::stop_source](../stop_source.html "cpp/thread/stop source") associated with stop-state held internally by `jthread` object. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/jthread/get_stop_source&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     

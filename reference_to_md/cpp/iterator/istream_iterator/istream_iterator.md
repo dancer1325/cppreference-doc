@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](../empty.html "cpp/iterator/empty")(C++17)  
 [data](../data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 [`std::istream_iterator`](../istream_iterator.html "cpp/iterator/istream iterator")
 
@@ -207,7 +207,7 @@ Member functions
 Non-member functions  
 [operator==operator!=](operator_cmp.html "cpp/iterator/istream iterator/operator cmp")(until C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/istream_iterator/navbar_content&action=edit)
+
 
 | (1) |   
 ---|---|---  
@@ -226,13 +226,13 @@ istream_iterator( const istream_iterator& other ) = default; |  |  (since C++11)
 
 4) Constructs a copy of other. If [std::is_trivially_copy_constructible](../../types/is_copy_constructible.html)<T>::value is true, this copy constructor is a trivial copy constructor.(since C++11)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/istream_iterator/istream_iterator&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 stream  |  \-  |  stream to initialize the `istream_iterator` with   
 ---|---|---  
 other  |  \-  |  another `istream_iterator` of the same type   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/istream_iterator/istream_iterator&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -257,7 +257,7 @@ Output:
     
     1 2 3 4 5
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/istream_iterator/istream_iterator&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

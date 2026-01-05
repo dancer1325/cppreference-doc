@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::split_view`](../split_view.html "cpp/ranges/split view")
 
@@ -240,7 +240,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
 [split_view::_sentinel_](sentinel.html "cpp/ranges/split view/sentinel")  
 [Deduction guides](deduction_guides.html "cpp/ranges/split view/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/split_view/navbar_content&action=edit)
+
 
 constexpr [ranges::subrange](../subrange.html)<[ranges::iterator_t](../iterator_t.html)<V>>  
 /*find_next*/( [ranges::iterator_t](../iterator_t.html)<V> it ); |  | (exposition only*)  
@@ -259,11 +259,11 @@ if (b != [ranges::end](../end.html)(`_[base_](../split_view.html#base "cpp/range
   
 return {b, e};
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/split_view/find_next&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 it  |  \-  |  an iterator to the position at which to start the search   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/split_view/find_next&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 A subrange that represents the next position of the pattern, if it was found. An empty subrange otherwise. 

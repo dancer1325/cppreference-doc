@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Null-terminated byte strings](../byte.html "cpp/string/byte")
 
@@ -143,7 +143,7 @@
 | [strerror](strerror.html "cpp/string/byte/strerror")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/navbar_content&action=edit)
+
 
 Defined in header `[<cstdlib>](../../header/cstdlib.html "cpp/header/cstdlib")` |  |   
 ---|---|---  
@@ -174,18 +174,18 @@ If the value of the result cannot be represented, i.e. the converted value falls
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/atoi&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 str  |  \-  |  pointer to the null-terminated byte string to be interpreted   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/atoi&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Integer value corresponding to the contents of str on success. 
 
 If no conversion can be performed, ​0​ is returned. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/atoi&action=edit&section=3 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     template<typename T>
@@ -234,7 +234,7 @@ If no conversion can be performed, ​0​ is returned.
   
 Actual C++ library implementations fall back to C library implementations of `atoi`, `atoil`, and `atoll`, which either implement it directly (as in [MUSL libc](https://github.com/bminor/musl/blob/master/src/stdlib/atoi.c)) or delegate to [strtol](strtol.html "cpp/string/byte/strtol")/[strtoll](strtol.html "cpp/string/byte/strtol") (as in [GNU libc](https://github.com/bminor/glibc/blob/master/stdlib/atoi.c)). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/atoi&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -276,19 +276,19 @@ Possible output:
     std::atoi('10000000000') is 1410065408
     std::atoll('10000000000') is 10000000000
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/atoi&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ stoistolstoll](../basic_string/stol.html "cpp/string/basic string/stol")(C++11)(C++11)(C++11) |  converts a string to a signed integer   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_stol&action=edit)  
+(function)   
 ---|---  
 [ stoulstoull](../basic_string/stoul.html "cpp/string/basic string/stoul")(C++11)(C++11) |  converts a string to an unsigned integer   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_stoul&action=edit)  
+(function)   
 [ strtolstrtoll](strtol.html "cpp/string/byte/strtol")(C++11) |  converts a byte string to an integer value   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strtol&action=edit)  
+(function)   
 [ strtoulstrtoull](strtoul.html "cpp/string/byte/strtoul")(C++11) |  converts a byte string to an unsigned integer value   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strtoul&action=edit)  
+(function)   
 [ strtoimaxstrtoumax](strtoimax.html "cpp/string/byte/strtoimax")(C++11)(C++11) |  converts a byte string to [std::intmax_t](../../types/integer.html "cpp/types/integer") or [std::uintmax_t](../../types/integer.html "cpp/types/integer")   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strtoimax&action=edit)  
+(function)   
 [ from_chars](../../utility/from_chars.html "cpp/utility/from chars")(C++17) |  converts a character sequence to an integer or floating-point value   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_from_chars&action=edit)  
+(function)   
 [C documentation](../../../c/string/byte/atoi.html "c/string/byte/atoi") for atoi, atol, atoll

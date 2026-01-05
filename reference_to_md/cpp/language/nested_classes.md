@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Classes](classes.html "cpp/language/classes")
 
@@ -261,11 +261,11 @@ Inheritance
 [`override` specifier](override.html "cpp/language/override") (C++11)  
 [`final` specifier](final.html "cpp/language/final") (C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/classes/navbar_content&action=edit)
+
 
 A declaration of a [class/struct](class.html "cpp/language/class") or [union](union.html "cpp/language/union") may appear within another class. Such declaration declares a _nested class_. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/nested_types&action=edit&section=1 "Edit section: Explanation")] Explanation
+### Explanation
 
 The name of the nested class exists in the scope of the enclosing class, and name lookup from a member function of a nested class visits the scope of the enclosing class after examining the scope of the nested class. Like any member of its enclosing class, the nested class has access to all names (private, protected, etc) to which the enclosing class has access, but it is otherwise independent and has no special access to the [`this` pointer](this.html "cpp/language/this") of the enclosing class. Declarations in a nested class can use any members of the enclosing class, following the [usual usage rules](data_members.html#Usage "cpp/language/data members") for the non-static members. 
     
@@ -348,7 +348,7 @@ Nested class declarations obey [member access](access.html "cpp/language/access"
         n2.g();
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/nested_types&action=edit&section=2 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -359,7 +359,7 @@ access the enclosing class and its friends  | they have the same access rights a
 other members of the enclosing class  
 (also resolves CWG issues #8 and #10)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/nested_types&action=edit&section=3 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 

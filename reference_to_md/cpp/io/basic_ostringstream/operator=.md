@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_ostringstream`](../basic_ostringstream.html "cpp/io/basic ostringstream")
 
@@ -93,7 +93,7 @@ String operations
 Non-member functions  
 [swap(std::basic_ostringstream)](swap2.html "cpp/io/basic ostringstream/swap2")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ostringstream/navbar_content&action=edit)
+
 
 basic_ostringstream& operator=( basic_ostringstream&& other ); |  |  (since C++11)  
 ---|---|---  
@@ -113,27 +113,27 @@ Note that the base class move assignment swaps all stream state variables (excep
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_stringstream/operator%3D&action=edit&section=T-1 "Template:cpp/io/basic stringstream/operator=")] Parameters
+### Parameters
 
 other  |  \-  |  string stream to move from   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_stringstream/operator%3D&action=edit&section=T-2 "Template:cpp/io/basic stringstream/operator=")] Return value
+### Return value
 
 *this
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_stringstream/operator%3D&action=edit&section=T-3 "Template:cpp/io/basic stringstream/operator=")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_stringstream/operator%3D&action=edit&section=T-4 "Template:cpp/io/basic stringstream/operator=")] See also
+### See also
 
 [ swap](swap.html "cpp/io/basic ostringstream/swap")(C++11) |  swaps two string streams   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_stringstream/dsc_swap&action=edit)  
+(public member function)   
 ---|---  
 [ operator=](../basic_stringbuf/operator=.html "cpp/io/basic stringbuf/operator=")(C++11) |  assigns a `basic_stringbuf` object   
-(public member function of `std::basic_stringbuf<CharT,Traits,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_stringbuf/dsc_operator%3D&action=edit)  
+(public member function of `std::basic_stringbuf<CharT,Traits,Allocator>`)   
 [ operator=](../basic_ostream/operator=.html "cpp/io/basic ostream/operator=")(C++11) |  move-assigns from another `basic_ostream`   
-(protected member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ostream/dsc_operator%3D&action=edit)
+(protected member function) 

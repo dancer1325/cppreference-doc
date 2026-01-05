@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Statements](statements.html "cpp/language/statements")
 
@@ -253,7 +253,7 @@ Miscellaneous
 [Transactional memory](transactional_memory.html "cpp/language/transactional memory")  
 [`synchronized`](transactional_memory.html#Synchronized_blocks "cpp/language/transactional memory"), [`atomic_commit`](transactional_memory.html#Atomic_blocks "cpp/language/transactional memory"), etc (TM TS)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/statements/navbar_content&action=edit)
+
 
 Causes the remaining portion of the enclosing [for](for.html "cpp/language/for"), [range-for](range-for.html "cpp/language/range-for"), [while](while.html "cpp/language/while") or [do-while](do.html "cpp/language/do") loop body to be skipped. 
 
@@ -270,12 +270,12 @@ Used when it is otherwise awkward to ignore the remaining portion of the loop us
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/continue&action=edit&section=1 "Edit section: Syntax")] Syntax  
+### Syntax  
   
 ---  
 attr ﻿(optional) `**continue**` `**;**` |  |   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/continue&action=edit&section=2 "Edit section: Explanation")] Explanation
+### Explanation
 
 The `continue` statement causes a jump, as if by [goto](goto.html "cpp/language/goto") to the end of the loop body (it may only appear within the loop body of [for](for.html "cpp/language/for"), [range-for](range-for.html "cpp/language/range-for"), [while](while.html "cpp/language/while"), and [do-while](do.html "cpp/language/do") loops). 
 
@@ -314,11 +314,11 @@ For [for](for.html "cpp/language/for") and [range-for](range-for.html "cpp/langu
         contin:;
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/continue&action=edit&section=3 "Edit section: Keywords")] Keywords
+### Keywords
 
 [`continue`](../keyword/continue.html "cpp/keyword/continue")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/continue&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -352,7 +352,7 @@ Output:
     5
     (0,0) (0,1) (0,2) (0,4) (1,0) (1,1) (1,2) (1,4)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/continue&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [C documentation](../../c/language/continue.html "c/language/continue") for continue  
 ---

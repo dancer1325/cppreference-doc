@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](../empty.html "cpp/iterator/empty")(C++17)  
 [data](../data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 [`std::ostream_iterator`](../ostream_iterator.html "cpp/iterator/ostream iterator")
 
@@ -206,7 +206,7 @@ Member functions
 [ostream_iterator::operator*](operator*.html "cpp/iterator/ostream iterator/operator*")  
 [ostream_iterator::operator++ostream_iterator::operator++(int)](operator_arith.html "cpp/iterator/ostream iterator/operator arith")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/ostream_iterator/navbar_content&action=edit)
+
 
 ~ostream_iterator() |  |   
 ---|---|---  

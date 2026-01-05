@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ named requirements](../iterator/concepts.html "cpp/named req")
 
@@ -147,7 +147,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/named_req/navbar_content&action=edit)
+
 
 A **ReversibleContainer** is a [Container](Container.html "cpp/named req/Container") that has iterators that meet the requirements of either [LegacyBidirectionalIterator](BidirectionalIterator.html "cpp/named req/BidirectionalIterator") or [LegacyRandomAccessIterator](RandomAccessIterator.html "cpp/named req/RandomAccessIterator"). Such iterators allow a ReversibleContainer to be iterated over in reverse. 
 
@@ -163,7 +163,7 @@ A **ReversibleContainer** is a [Container](Container.html "cpp/named req/Contain
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/ReversibleContainer&action=edit&section=1 "Edit section: Requirements")] Requirements
+### Requirements
 
 A type satisfies ReversibleContainer if it satisfies [Container](Container.html "cpp/named req/Container"), its iterator type belongs to the bidirectional or random access [iterator categories](../iterator.html "cpp/iterator") and, given the following types and values, the semantic and complexity requirements in the tables below are satisfied: 
 
@@ -174,14 +174,14 @@ Type  |  Definition
 Value  |  Definition   
 a |  a value of type `X`  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/ReversibleContainer&action=edit&section=2 "Edit section: Types")] Types
+#### Types
 
 Name  | Type  | Requirements   
 ---|---|---  
 typename X::reverse_iterator | [std::reverse_iterator](../iterator/reverse_iterator.html)<X::iterator> | an iterator type whose [value type](../iterator.html "cpp/iterator") is `T`  
 typename X::const_reverse_iterator | [std::reverse_iterator](../iterator/reverse_iterator.html)<X::const_iterator> | a constant iterator type whose [value type](../iterator.html "cpp/iterator") is `T`  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/ReversibleContainer&action=edit&section=3 "Edit section: Expressions")] Expressions
+#### Expressions
 
 The types `reverse_iterator` and `const_reverse_iterator` in the following table denote typename X::reverse_iterator and typename X::const_reverse_iterator respectively. 
 
@@ -194,31 +194,31 @@ a.rend() | `reverse_iterator`
 a.crbegin() | `const_reverse_iterator` | const_cast<const X&>(a).rbegin() | Constant   
 a.crend() | `const_reverse_iterator` | const_cast<const X&>(a).rend() | Constant   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/ReversibleContainer&action=edit&section=4 "Edit section: Library types")] Library types
+### Library types
 
 The following standard library types satisfy ReversibleContainer requirements: 
 
 [ array](../container/array.html "cpp/container/array")(C++11) |  fixed-sized inplace contiguous array   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_array&action=edit)  
+(class template)   
 ---|---  
 [ deque](../container/deque.html "cpp/container/deque") |  double-ended queue   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_deque&action=edit)  
+(class template)   
 [ list](../container/list.html "cpp/container/list") |  doubly-linked list   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_list&action=edit)  
+(class template)   
 [ vector](../container/vector.html "cpp/container/vector") |  resizable contiguous array   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_vector&action=edit)  
+(class template)   
 [ inplace_vector](../container/inplace_vector.html "cpp/container/inplace vector")(C++26) |  resizable, fixed capacity, inplace contiguous array   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_inplace_vector&action=edit)  
+(class template)   
 [ map](../container/map.html "cpp/container/map") |  collection of key-value pairs, sorted by keys, keys are unique   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_map&action=edit)  
+(class template)   
 [ multimap](../container/multimap.html "cpp/container/multimap") |  collection of key-value pairs, sorted by keys   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_multimap&action=edit)  
+(class template)   
 [ set](../container/set.html "cpp/container/set") |  collection of unique keys, sorted by keys   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_set&action=edit)  
+(class template)   
 [ multiset](../container/multiset.html "cpp/container/multiset") |  collection of keys, sorted by keys   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_multiset&action=edit)  
+(class template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/ReversibleContainer&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 The following example iterates over a [vector](../container/vector.html "cpp/container/vector") (which has [legacy random-access iterators](../container/vector.html#Member_types "cpp/container/vector")) in reverse.
 
@@ -242,7 +242,7 @@ Output:
     
     9 5 1 4 1 3
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/ReversibleContainer&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

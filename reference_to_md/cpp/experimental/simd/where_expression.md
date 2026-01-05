@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Extensions for parallelism v2](../parallelism_2.html "cpp/experimental/parallelism 2")
 
@@ -67,7 +67,7 @@ Task blocks
 [define_task_blockdefine_task_block_restore_thread](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/define_task_block&action=edit&redlink=1 "cpp/experimental/define task block \(page does not exist\)")  
 [Data-parallel vectors](../simd.html "cpp/experimental/simd")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/parallelism_2/navbar_content&action=edit)
+
 
 [SIMD library](../simd.html "cpp/experimental/simd")
 
@@ -161,7 +161,7 @@ Task blocks
   
 [Math functions](../simd.html#Math_functions "cpp/experimental/simd")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/simd/navbar_content&action=edit)
+
 
 **`std::experimental::where_expression`**
 
@@ -201,7 +201,7 @@ operator--](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/s
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/simd/where_expression/navbar_content&action=edit)
+
 
 Defined in header `[<experimental/simd>](../../header/experimental/simd.html "cpp/header/experimental/simd")` |  |   
 ---|---|---  
@@ -213,7 +213,7 @@ The class template `where_expression` abstracts the notion of selected elements 
 
 Use the [`where`](where.html "cpp/experimental/simd/where") function to construct `where_expression` objects. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/simd/where_expression&action=edit&section=1 "Edit section: Template parameters")] Template parameters
+### Template parameters
 
 M  |  \-  |  The mask type   
 ---|---|---  
@@ -227,7 +227,7 @@ Valid combinations of `(`M`, `V`)` are:
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/simd/where_expression&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ operator=](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/simd/where_expression/operator%3D&action=edit&redlink=1 "cpp/experimental/simd/where expression/operator= \(page does not exist\)") |  assigns to selected positions   
 (public member function)  
@@ -239,7 +239,7 @@ Valid combinations of `(`M`, `V`)` are:
 [ copy_from](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/simd/where_expression/copy_from&action=edit&redlink=1 "cpp/experimental/simd/where expression/copy from \(page does not exist\)") |  loads from address to selected positions   
 (public member function)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/simd/where_expression&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::duration`](duration.html "cpp/chrono/duration")
 
@@ -156,7 +156,7 @@ Helper classes
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/duration/navbar_content&action=edit)
+
 
 Defined in header `[<chrono>](../header/chrono.html "cpp/header/chrono")` |  |   
 ---|---|---  
@@ -184,16 +184,16 @@ Forms a [std::chrono::duration](duration.html "cpp/chrono/duration") literal rep
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/operator%22%22h&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 hrs  |  \-  |  the number of hours   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/operator%22%22h&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The [std::chrono::duration](duration.html "cpp/chrono/duration") literal. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/operator%22%22h&action=edit&section=3 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     constexpr [std::chrono::hours](duration.html) operator""h(unsigned long long h)
@@ -208,7 +208,7 @@ The [std::chrono::duration](duration.html "cpp/chrono/duration") literal.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/operator%22%22h&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 This operator is declared in the namespace std::literals::chrono_literals, where both literals and chrono_literals are [inline namespaces](../language/namespace.html#Inline_namespaces "cpp/language/namespace"). Access to this operator can be gained with: 
 
@@ -220,7 +220,7 @@ This operator is declared in the namespace std::literals::chrono_literals, where
 
 In addition, within the namespace std::chrono, the directive using namespace literals::chrono_literals; is provided by the [standard library](../standard_library.html "cpp/standard library"), so that if a programmer uses using namespace std::chrono; to gain access to the classes in the [chrono library](../chrono.html "cpp/chrono"), the corresponding literal operators become visible as well. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/operator%22%22h&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -244,8 +244,8 @@ Output:
     one day is 24 hours (24h)
     half an hour is 0.5 hours (0.5h)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/operator%22%22h&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ (constructor)](duration/duration.html "cpp/chrono/duration/duration") |  constructs new duration   
-(public member function of `std::chrono::duration<Rep,Period>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/duration/dsc_constructor&action=edit)  
+(public member function of `std::chrono::duration<Rep,Period>`)   
 ---|---

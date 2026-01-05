@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Diagnostics library](../../error.html "cpp/error")
 
@@ -89,7 +89,7 @@ Exception handling failures
 [breakpoint_if_debugging](../breakpoint_if_debugging.html "cpp/utility/breakpoint if debugging")(C++26)  
 [breakpoint](../breakpoint.html "cpp/utility/breakpoint")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/navbar_content&action=edit)
+
 
 [`std::stacktrace_entry`](../stacktrace_entry.html "cpp/utility/stacktrace entry")
 
@@ -113,7 +113,7 @@ operator<=>](operator_cmp.html "cpp/utility/stacktrace entry/operator cmp")
 [hash<std::stacktrace_entry>](hash.html "cpp/utility/stacktrace entry/hash")  
 **formatter <std::stacktrace_entry>**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/stacktrace_entry/navbar_content&action=edit)
+
 
 Defined in header `[<stacktrace>](../../header/stacktrace.html "cpp/header/stacktrace")` |  |   
 ---|---|---  
@@ -123,7 +123,7 @@ struct formatter<[std::stacktrace_entry](../stacktrace_entry.html)>; |  |  (sinc
   
 The template specialization of [std::formatter](../format/formatter.html "cpp/utility/format/formatter") for std::stacktrace_entry allows users to convert a stacktrace entry object to string using [formatting functions](../format.html "cpp/utility/format") such as [std::format](../format/format.html "cpp/utility/format/format"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/stacktrace_entry/formatter&action=edit&section=1 "Edit section: Format specification")] Format specification
+### Format specification
 
 The syntax of format specifications is:   
   
@@ -134,16 +134,16 @@ fill-and-align and width have the same meaning as in [standard format specificat
 
 The formatted output matches the result of [`to_string`](to_string.html "cpp/utility/stacktrace entry/to string"), adjusted as appropriate for the format specifiers. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/stacktrace_entry/formatter&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/stacktrace_entry/formatter&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ formatter](../format/formatter.html "cpp/utility/format/formatter")(C++20) |  defines formatting rules for a given type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/dsc_formatter&action=edit)  
+(class template)   
 ---|---  
 [ print](../../io/print.html "cpp/io/print")(C++23) |  prints to [stdout](../../io/c/std_streams.html "cpp/io/c/std streams") or a file stream using [formatted](../format.html "cpp/utility/format") representation of the arguments   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_print&action=edit)
+(function template) 

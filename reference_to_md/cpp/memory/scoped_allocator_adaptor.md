@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 **`std::scoped_allocator_adaptor`**
 
@@ -208,7 +208,7 @@ Non-member functions
 [operator==operator!=](scoped_allocator_adaptor/operator_cmp.html "cpp/memory/scoped allocator adaptor/operator cmp")(until C++20)  
 [Deduction guides](scoped_allocator_adaptor/deduction_guides.html "cpp/memory/scoped allocator adaptor/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/scoped_allocator_adaptor/navbar_content&action=edit)
+
 
 Defined in header `[<scoped_allocator>](../header/scoped_allocator.html "cpp/header/scoped allocator")` |  |   
 ---|---|---  
@@ -242,7 +242,7 @@ Note that [`std::pmr::polymorphic_allocator`s](polymorphic_allocator.html "cpp/m
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/scoped_allocator_adaptor&action=edit&section=1 "Edit section: Nested types")] Nested types
+### Nested types
 
 Type  |  Definition   
 ---|---  
@@ -295,31 +295,31 @@ is_always_equal::value is true
 
   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/scoped_allocator_adaptor&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](scoped_allocator_adaptor/scoped_allocator_adaptor.html "cpp/memory/scoped allocator adaptor/scoped allocator adaptor") |  creates a new `scoped_allocator_adaptor` object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/scoped_allocator_adaptor/dsc_scoped_allocator_adaptor&action=edit)  
+(public member function)   
 ---|---  
 [ (destructor)](scoped_allocator_adaptor/~scoped_allocator_adaptor.html "cpp/memory/scoped allocator adaptor/~scoped allocator adaptor") |  destructs a `scoped_allocator_adaptor` object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/scoped_allocator_adaptor/dsc_%7Escoped_allocator_adaptor&action=edit)  
+(public member function)   
 [ operator=](scoped_allocator_adaptor/operator=.html "cpp/memory/scoped allocator adaptor/operator=") |  assigns a `scoped_allocator_adaptor`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/scoped_allocator_adaptor/dsc_operator%3D&action=edit)  
+(public member function)   
 [ inner_allocator](scoped_allocator_adaptor/inner_allocator.html "cpp/memory/scoped allocator adaptor/inner allocator") |  obtains an `inner_allocator` reference   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/scoped_allocator_adaptor/dsc_inner_allocator&action=edit)  
+(public member function)   
 [ outer_allocator](scoped_allocator_adaptor/outer_allocator.html "cpp/memory/scoped allocator adaptor/outer allocator") |  obtains an `outer_allocator` reference   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/scoped_allocator_adaptor/dsc_outer_allocator&action=edit)  
+(public member function)   
 [ allocate](scoped_allocator_adaptor/allocate.html "cpp/memory/scoped allocator adaptor/allocate") |  allocates uninitialized storage using the outer allocator   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/scoped_allocator_adaptor/dsc_allocate&action=edit)  
+(public member function)   
 [ deallocate](scoped_allocator_adaptor/deallocate.html "cpp/memory/scoped allocator adaptor/deallocate") |  deallocates storage using the outer allocator   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/scoped_allocator_adaptor/dsc_deallocate&action=edit)  
+(public member function)   
 [ max_size](scoped_allocator_adaptor/max_size.html "cpp/memory/scoped allocator adaptor/max size") |  returns the largest allocation size supported by the outer allocator   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/scoped_allocator_adaptor/dsc_max_size&action=edit)  
+(public member function)   
 [ construct](scoped_allocator_adaptor/construct.html "cpp/memory/scoped allocator adaptor/construct") |  constructs an object in allocated storage, passing the inner allocator to its constructor if appropriate   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/scoped_allocator_adaptor/dsc_construct&action=edit)  
+(public member function)   
 [ destroy](scoped_allocator_adaptor/destroy.html "cpp/memory/scoped allocator adaptor/destroy") |  destructs an object in allocated storage   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/scoped_allocator_adaptor/dsc_destroy&action=edit)  
+(public member function)   
 [ select_on_container_copy_construction](scoped_allocator_adaptor/select_on_container_copy_construction.html "cpp/memory/scoped allocator adaptor/select on container copy construction") |  copies the state of `scoped_allocator_adaptor` and all its allocators   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/scoped_allocator_adaptor/dsc_select_on_container_copy_construction&action=edit)  
+(public member function)   
   
 #####  Exposition-only function templates   
   
@@ -330,15 +330,15 @@ is_always_equal::value is true
 [__outermost-destroy__](scoped_allocator_adaptor/helpers.html "cpp/memory/scoped allocator adaptor/helpers") |  destroys an object using the outermost allocator  
 (exposition-only member function*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/scoped_allocator_adaptor&action=edit&section=3 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ operator==operator!=](scoped_allocator_adaptor/operator_cmp.html "cpp/memory/scoped allocator adaptor/operator cmp")(removed in C++20) |  compares two `scoped_allocator_adaptor` objects   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/scoped_allocator_adaptor/dsc_operator_cmp&action=edit)  
+(function template)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/scoped_allocator_adaptor&action=edit&section=4 "Edit section: Deduction guides\(since C++17\)")] [Deduction guides](scoped_allocator_adaptor/deduction_guides.html "cpp/memory/scoped allocator adaptor/deduction guides")(since C++17)
+### [Deduction guides](scoped_allocator_adaptor/deduction_guides.html "cpp/memory/scoped allocator adaptor/deduction guides")(since C++17)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/scoped_allocator_adaptor&action=edit&section=5 "Edit section: Nested classes")] Nested classes
+### Nested classes
 
 Class  |  Definition   
 ---|---  
@@ -350,7 +350,7 @@ using other = scoped_allocator_adaptor
 InnerAllocs...>;  
 };  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/scoped_allocator_adaptor&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -387,7 +387,7 @@ Run this code
         bi::shared_memory_object::remove("Demo");
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/scoped_allocator_adaptor&action=edit&section=7 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -395,12 +395,12 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 2108](https://cplusplus.github.io/LWG/issue2108) | C++11  | there was no way to show if `scoped_allocator_adaptor` is stateless  | provided `is_always_equal`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/scoped_allocator_adaptor&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [ allocator_traits](allocator_traits.html "cpp/memory/allocator traits")(C++11) |  provides information about allocator types   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_allocator_traits&action=edit)  
+(class template)   
 ---|---  
 [ uses_allocator](uses_allocator.html "cpp/memory/uses allocator")(C++11) |  checks if the specified type supports uses-allocator construction   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_uses_allocator&action=edit)  
+(class template)   
 [ allocator](allocator.html "cpp/memory/allocator") |  the default allocator   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_allocator&action=edit)
+(class template) 

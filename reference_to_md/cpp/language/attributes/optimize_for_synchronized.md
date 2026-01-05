@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](../history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [Declarations](../declarations.html "cpp/language/declarations")
 
@@ -280,7 +280,7 @@ Other declarations
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/declarations/navbar_content&action=edit)
+
 
 [Attributes](../attributes.html "cpp/language/attributes")
 
@@ -298,7 +298,7 @@ Other declarations
 **optimize_for_synchronized**(TM TS)  
 [unlikely](likely.html "cpp/language/attributes/likely")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/attributes/navbar_content&action=edit)
+
 
 Indicates that the function definition should be optimized for invocation from a [synchronized statement](../transactional_memory.html "cpp/language/transactional memory"). 
 
@@ -312,24 +312,24 @@ Indicates that the function definition should be optimized for invocation from a
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/attributes/optimize_for_synchronized&action=edit&section=1 "Edit section: Syntax")] Syntax  
+### Syntax  
   
 ---  
 `**[[optimize_for_synchronized]]**` |  |   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/attributes/optimize_for_synchronized&action=edit&section=2 "Edit section: Explanation")] Explanation
+### Explanation
 
 Applies to the name being declared in a function declaration, which must be the first declaration of the function. 
 
 Indicates that the function definition should be optimized for invocation from a [synchronized statement](../transactional_memory.html "cpp/language/transactional memory"). In particular, it avoids serializing synchronized blocks that make a call to a function that is transaction-safe for the majority of calls, but not for all calls. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/attributes/optimize_for_synchronized&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/attributes/optimize_for_synchronized&action=edit&section=4 "Edit section: References")] References
+### References
 
   * Transactional Memory TS (ISO/IEC TS 19841:2015): 
 

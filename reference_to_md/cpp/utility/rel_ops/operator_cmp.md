@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 Defined in header `[<utility>](../../header/utility.html "cpp/header/utility")` |  |   
 ---|---|---  
@@ -163,13 +163,13 @@ Given a user-defined operator== and operator< for objects of type `T`, implement
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/rel_ops/operator_cmp&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 lhs  |  \-  |  left-hand argument   
 ---|---|---  
 rhs  |  \-  |  right-hand argument   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/rel_ops/operator_cmp&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) Returns true if lhs is _not equal_ to rhs.
 
@@ -179,7 +179,7 @@ rhs  |  \-  |  right-hand argument
 
 4) Returns true if lhs is _greater or equal_ to rhs.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/rel_ops/operator_cmp&action=edit&section=3 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
 
 [(1) `operator!=`](operator_cmp.html#Version_1)  
 ---  
@@ -230,13 +230,13 @@ rhs  |  \-  |  right-hand argument
         }
     }  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/rel_ops/operator_cmp&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 [Boost.operators](https://www.boost.org/doc/libs/release/libs/utility/operators.htm) provides a more versatile alternative to `std::rel_ops`. 
 
 As of C++20, `std::rel_ops` are deprecated in favor of [`operator<=>`](../../language/default_comparisons.html "cpp/language/default comparisons"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/rel_ops/operator_cmp&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     

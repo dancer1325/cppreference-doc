@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Extensions for concurrency](concurrency.html "cpp/experimental/concurrency")
 
@@ -75,7 +75,7 @@ Atomic smart pointers
 [experimental::atomic_shared_ptr](atomic_shared_ptr.html "cpp/experimental/atomic shared ptr")  
 [experimental::atomic_weak_ptr](atomic_weak_ptr.html "cpp/experimental/atomic weak ptr")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/concurrency/navbar_content&action=edit)
+
 
 Defined in header `[<experimental/future>](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/future&action=edit&redlink=1 "cpp/header/experimental/future \(page does not exist\)")` |  |   
 ---|---|---  
@@ -90,12 +90,12 @@ Creates a shared state of type `V` that is immediately ready, with the result co
 
 2) Creates a shared state of type void that is immediately ready, then returns a std::experimental::future associated with that shared state.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/make_ready_future&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 A `std::experimental::future` associated with the shared state that is created. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/make_ready_future&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ make_exceptional_future](make_exceptional_future.html "cpp/experimental/make exceptional future")(concurrency TS) |  produces a future that is ready immediately and holds the given exception   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/dsc_make_exceptional_future&action=edit)  
+(function template)   
 ---|---

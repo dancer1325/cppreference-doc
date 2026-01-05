@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Type support](../../utility/rtti.html "cpp/types")
 
@@ -161,7 +161,7 @@ Runtime type information
 ---  
 [bad_cast](../bad_cast.html "cpp/types/bad cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/navbar_content&action=edit)
+
 
 [`std::numeric_limits`](../numeric_limits.html "cpp/types/numeric limits")
 
@@ -204,7 +204,7 @@ Helper types
 [float_round_style](float_round_style.html "cpp/types/numeric limits/float round style")  
 [float_denorm_style](float_denorm_style.html "cpp/types/numeric limits/float denorm style")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/navbar_content&action=edit)
+
 
 static const bool is_integer; |  | (until C++11)  
 ---|---|---  
@@ -213,7 +213,7 @@ static constexpr bool is_integer; |  |  (since C++11)
   
 The value of [std::numeric_limits](../numeric_limits.html)<T>::is_integer is true for all integer arithmetic types `T` and false otherwise. This constant is meaningful for all specializations. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/numeric_limits/is_integer&action=edit&section=1 "Edit section: Standard specializations")] Standard specializations
+### Standard specializations
 
 `T` |  value of [std::numeric_limits](../numeric_limits.html)<T>::is_integer  
 ---|---  
@@ -238,7 +238,7 @@ float |  false
 double |  false  
 long double |  false  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/numeric_limits/is_integer&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -263,14 +263,14 @@ Run this code
      
     int main() {}
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/numeric_limits/is_integer&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ is_integral](../is_integral.html "cpp/types/is integral")(C++11) |  checks if a type is an integral type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_integral&action=edit)  
+(class template)   
 ---|---  
 [ is_signed](is_signed.html "cpp/types/numeric limits/is signed")[static] |  identifies signed types   
-(public static member constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/dsc_is_signed&action=edit)  
+(public static member constant)   
 [ is_exact](is_exact.html "cpp/types/numeric limits/is exact")[static] |  identifies exact types   
-(public static member constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/dsc_is_exact&action=edit)  
+(public static member constant)   
 [ is_bounded](is_bounded.html "cpp/types/numeric limits/is bounded")[static] |  identifies types that represent a finite set of values   
-(public static member constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/dsc_is_bounded&action=edit)
+(public static member constant) 

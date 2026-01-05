@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](copy.html "cpp/algorithm/ranges/co
 [uninitialized_default_construct_n](../../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 [Constrained algorithms](../ranges.html "cpp/algorithm/ranges")
 
@@ -550,7 +550,7 @@ All names in this menu belong to namespace `std::ranges`
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -590,7 +590,7 @@ The function-like entities described on this page are [_algorithm function objec
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/min_element&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  the iterator-sentinel pair defining the [range](../../iterator.html#Ranges "cpp/iterator") of elements to examine   
 ---|---|---  
@@ -598,15 +598,15 @@ r  |  \-  |  the [`range`](../../ranges/range.html "cpp/ranges/range") to examin
 comp  |  \-  |  comparison to apply to the projected elements   
 proj  |  \-  |  projection to apply to the elements   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/min_element&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Iterator to the smallest element in the range `[`first`, `last`)`. If several elements in the range are equivalent to the smallest element, returns the iterator to the first such element. Returns the iterator that compares equal to last if the range is empty (i.e., first == last). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/min_element&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Exactly max(N - 1, 0) comparisons, where N = [ranges::distance](../../iterator/ranges/distance.html)(first, last). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/min_element&action=edit&section=4 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     struct min_element_fn
@@ -638,7 +638,7 @@ Exactly max(N - 1, 0) comparisons, where N = [ranges::distance](../../iterator/r
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/min_element&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -670,14 +670,14 @@ Output:
     min element is v[2] == -13
     |min| element is v[1] == 1
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/min_element&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ ranges::max_element](max_element.html "cpp/algorithm/ranges/max element")(C++20) |  returns the largest element in a range  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_max_element&action=edit)  
+(algorithm function object)  
 ---|---  
 [ ranges::minmax_element](minmax_element.html "cpp/algorithm/ranges/minmax element")(C++20) |  returns the smallest and the largest elements in a range  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_minmax_element&action=edit)  
+(algorithm function object)  
 [ ranges::max](max.html "cpp/algorithm/ranges/max")(C++20) |  returns the greater of the given values  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_max&action=edit)  
+(algorithm function object)  
 [ min_element](../min_element.html "cpp/algorithm/min element") |  returns the smallest element in a range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_min_element&action=edit)
+(function template) 

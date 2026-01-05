@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_osyncstream`](../basic_osyncstream.html "cpp/io/basic osyncstream")
 
@@ -90,7 +90,7 @@ Public member functions
 [basic_osyncstream::get_wrapped](get_wrapped.html "cpp/io/basic osyncstream/get wrapped")(C++20)  
 [basic_osyncstream::emit](emit.html "cpp/io/basic osyncstream/emit")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_osyncstream/navbar_content&action=edit)
+
 
 basic_osyncstream( streambuf_type* buf, const Allocator& a ); |  (1)  |   
 ---|---|---  
@@ -106,7 +106,7 @@ Constructs new synchronized output stream.
 
 5) Move constructor. Move-constructs the [std::basic_ostream](../basic_ostream.html) base and the std::basic_syncbuf member from the corresponding subobjects of other, then calls [`set_rdbuf`](../basic_ios/set_rdbuf.html "cpp/io/basic ios/set rdbuf") with the pointer to the newly-constructed underlying [std::basic_syncbuf](../basic_syncbuf.html) to complete the initialization of the base. After this move constructor, other.get_wrapped() returns nullptr and destruction of other produces no output.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_osyncstream/basic_osyncstream&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 buf  |  \-  |  pointer to the [std::basic_streambuf](../basic_streambuf.html "cpp/io/basic streambuf") that will be wrapped   
 ---|---|---  
@@ -114,7 +114,7 @@ os  |  \-  |  reference to a [std::basic_ostream](../basic_ostream.html "cpp/io/
 a  |  \-  |  the allocator to pass to the constructor of the member std::basic_syncbuf  
 other  |  \-  |  another osyncstream to move from   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_osyncstream/basic_osyncstream&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -183,8 +183,8 @@ Possible output:
     ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░▒▒░░░░░░░░░░░░░░░░░░░░░░░░░░░░▒▒▒▒▒▒
     ░░░░░░
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_osyncstream/basic_osyncstream&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ (constructor)](../basic_syncbuf/basic_syncbuf.html "cpp/io/basic syncbuf/basic syncbuf") |  constructs a `basic_syncbuf` object   
-(public member function of `std::basic_syncbuf<CharT,Traits,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_syncbuf/dsc_constructor&action=edit)  
+(public member function of `std::basic_syncbuf<CharT,Traits,Allocator>`)   
 ---|---

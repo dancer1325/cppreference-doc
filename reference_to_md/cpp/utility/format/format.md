@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Formatting library](../format.html "cpp/utility/format")
 
@@ -91,7 +91,7 @@ Formatting arguments
 [Format error](format.html#Format_error "cpp/utility/format/format")  
 [format_error](format_error.html "cpp/utility/format/format error")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/navbar_content&action=edit)
+
 
 Defined in header `[<format>](../../header/format.html "cpp/header/format")` |  |   
 ---|---|---  
@@ -139,9 +139,9 @@ The following requirements apply to each type `T` in `Args`, where `CharT` is ch
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/format&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
-fmt  |  \-  |  [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/format_string&action=edit)an object that represents the format string. The format string consists of 
+fmt  |  \-  |  an object that represents the format string. The format string consists of 
 
   * ordinary characters (except { and }), which are copied unchanged to the output, 
   * escape sequences {{ and }}, which are replaced with { and } respectively in the output, and 
@@ -184,15 +184,15 @@ format-spec |  \-  |  the format specification defined by the [std::formatter](f
 args...  |  \-  |  arguments to be formatted   
 loc  |  \-  |  [std::locale](../../locale/locale.html "cpp/locale/locale") used for locale-specific formatting   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/format&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 A string object holding the formatted result. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/format&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Throws [std::bad_alloc](../../memory/new/bad_alloc.html "cpp/memory/new/bad alloc") on allocation failure. Also propagates exception thrown by any formatter. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/format&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 It is not an error to provide more arguments than the format string requires: 
     
@@ -215,7 +215,7 @@ It is an error if the format string is not a constant expression unless it is in
         return std::format([std::runtime_format](runtime_format.html)(runtime_format_string), "x", 42); // OK (C++26)
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/format&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -263,7 +263,7 @@ Possible output:
     {} {}  : alpha Z
     {} {} {}  : alpha Z 3.14
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/format&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -274,10 +274,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 (such as generator-like objects) are not formattable  | allow formatting these objects   
 [P2508R1](https://wg21.link/P2508R1) | C++20  | there's no user-visible name for this facility  | the name `basic_format_string` is exposed   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/format&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ format_to](format_to.html "cpp/utility/format/format to")(C++20) |  writes out formatted representation of its arguments through an output iterator   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/dsc_format_to&action=edit)  
+(function template)   
 ---|---  
 [ format_to_n](format_to_n.html "cpp/utility/format/format to n")(C++20) |  writes out formatted representation of its arguments through an output iterator, not exceeding specified size   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/dsc_format_to_n&action=edit)
+(function template) 

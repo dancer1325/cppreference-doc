@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Extensions for parallelism v2](../parallelism_2.html "cpp/experimental/parallelism 2")
 
@@ -92,7 +92,7 @@ Task blocks
 [define_task_blockdefine_task_block_restore_thread](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/define_task_block&action=edit&redlink=1 "cpp/experimental/define task block \(page does not exist\)")  
 [Data-parallel vectors](../simd.html "cpp/experimental/simd")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/parallelism_2/navbar_content&action=edit)
+
 
 [SIMD library](../simd.html "cpp/experimental/simd")
 
@@ -186,7 +186,7 @@ Task blocks
   
 [Math functions](../simd.html#Math_functions "cpp/experimental/simd")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/simd/navbar_content&action=edit)
+
 
 Defined in header `[<experimental/simd>](../../header/experimental/simd.html "cpp/header/experimental/simd")` |  |   
 ---|---|---  
@@ -217,16 +217,16 @@ Cast a simd object to another simd object. If V is T, returns simd<T, Abi>; othe
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/simd/simd_cast&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 v  |  \-  |  the input simd object   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/simd/simd_cast&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 A simd object with the i-th element initialized to static_cast<To>(v[i]), where To is the output element type as specified. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/simd/simd_cast&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 The TS specification is missing simd_cast and static_simd_cast overloads for simd_mask. The libstdc++ implementation provides the missing overloads in the std::experimental::__proposed namespace. If you already use the 
     
@@ -243,7 +243,7 @@ shortcut, you might be interested to use
 
 instead. Alternatively, libstdc++ implements a __cvt() member function in simd_mask, which allows implicit conversion of the mask. See also: <https://github.com/VcDevel/std-simd/issues/41>
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/simd/simd_cast&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

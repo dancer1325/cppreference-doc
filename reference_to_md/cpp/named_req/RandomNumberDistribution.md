@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ named requirements](../iterator/concepts.html "cpp/named req")
 
@@ -147,11 +147,11 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/named_req/navbar_content&action=edit)
+
 
 A **RandomNumberDistribution** is a function object returning random numbers according to a [probability density function](https://en.wikipedia.org/wiki/Probability_density_function "enwiki:Probability density function") p(x) or a [discrete probability distribution](https://en.wikipedia.org/wiki/Discrete_probability_distribution "enwiki:Discrete probability distribution") P(xi). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/RandomNumberDistribution&action=edit&section=1 "Edit section: Requirements")] Requirements
+### Requirements
 
 The type `D` satisfies RandomNumberDistribution if 
 
@@ -207,23 +207,23 @@ Expression | Type | Notes | Complexity
 `os << x` | Reference to the type of `os` | Writes a textual representation of the distribution parameters and internal state to `os`. The formatting flags and fill character of `os` are unchanged |   
 `is >> d` | Reference to the type of `is` | Restores the distribution parameters and internal state with data read from `is`. The formatting flags of `is` are unchanged. The data must have been written using a stream with the same locale, `CharT` and `Traits` stream template parameters, otherwise the behavior is undefined. If bad input is encountered, is.setstate(std::ios::failbit) is called, which may throw [std::ios_base::failure](../io/ios_base/failure.html "cpp/io/ios base/failure"). `d` is unchanged in that case |   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/RandomNumberDistribution&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 The parameters of a distribution object may be changed either permanently, by using d.param(p) or just for the duration of a single operator() call, by using d(g,p). 
 
 Calls to const member functions of the distribution and os << d do not affect the sequence of numbers produced by repeated d(g). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/RandomNumberDistribution&action=edit&section=3 "Edit section: Standard library")] Standard library
+### Standard library
 
 The following standard library components satisfy RandomNumberDistribution
 
 [ uniform_int_distribution](../numeric/random/uniform_int_distribution.html "cpp/numeric/random/uniform int distribution")(C++11) |  produces integer values evenly distributed across a range   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/dsc_uniform_int_distribution&action=edit)  
+(class template)   
 ---|---  
 [ uniform_real_distribution](../numeric/random/uniform_real_distribution.html "cpp/numeric/random/uniform real distribution")(C++11) |  produces real values evenly distributed across a range   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/dsc_uniform_real_distribution&action=edit)  
+(class template)   
 [ bernoulli_distribution](../numeric/random/bernoulli_distribution.html "cpp/numeric/random/bernoulli distribution")(C++11) |  produces bool values on a [Bernoulli distribution](https://en.wikipedia.org/wiki/Bernoulli_distribution "enwiki:Bernoulli distribution")   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/dsc_bernoulli_distribution&action=edit)  
+(class)   
 [ binomial_distribution](../numeric/random/binomial_distribution.html "cpp/numeric/random/binomial distribution")(C++11) |  produces integer values on a [Binomial distribution](https://en.wikipedia.org/wiki/Binomial_distribution "enwiki:Binomial distribution")   
 (class template)  
 [ negative_binomial_distribution](../numeric/random/negative_binomial_distribution.html "cpp/numeric/random/negative binomial distribution")(C++11) |  produces integer values on a [Negative binomial distribution](https://en.wikipedia.org/wiki/Negative_binomial_distribution "enwiki:Negative binomial distribution")   

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 Defined in header `[<thread>](../header/thread.html "cpp/header/thread")` |  |   
 ---|---|---  
@@ -192,15 +192,15 @@ Returns the _id_ of the current thread.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/get_id&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/get_id&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 _id_ of the current thread. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/get_id&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -232,9 +232,9 @@ Possible output:
     thread 140113018054400 sleeping...
     thread 140113009661696 sleeping...
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/get_id&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ get_id](thread/get_id.html "cpp/thread/thread/get id") |  returns the _id_ of the thread   
-(public member function of `std::thread`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/dsc_get_id&action=edit)  
+(public member function of `std::thread`)   
 ---|---  
 [C documentation](../../c/thread/thrd_current.html "c/thread/thrd current") for thrd_current

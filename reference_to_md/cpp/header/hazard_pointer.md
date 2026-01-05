@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header is part of the [thread support](../atomic.html "cpp/thread") library. 
 
@@ -214,18 +214,18 @@ This header is part of the [thread support](../atomic.html "cpp/thread") library
 ###  Classes  
   
 [ hazard_pointer_obj_base](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/hazard_pointer_obj_base&action=edit&redlink=1 "cpp/thread/hazard pointer obj base \(page does not exist\)")(C++26) |  allows an object to be hazard-protectable   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_hazard_pointer_obj_base&action=edit)  
+(class template)   
 [ hazard_pointer](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/hazard_pointer&action=edit&redlink=1 "cpp/thread/hazard pointer \(page does not exist\)")(C++26) |  single-writer multi-reader pointer that can be owned by at most one thread at any point of time   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_hazard_pointer&action=edit)  
+(class)   
   
 ###  Functions  
   
 [ make_hazard_pointer](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/make_hazard_pointer&action=edit&redlink=1 "cpp/thread/make hazard pointer \(page does not exist\)")(C++26) |  constructs a hazard pointer   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_make_hazard_pointer&action=edit)  
+(function)   
 [ std::swap(std::hazard_pointer)](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/hazard_pointer/swap2&action=edit&redlink=1 "cpp/thread/hazard pointer/swap2 \(page does not exist\)")(C++26) |  specializes the [std::swap](../utility/swap.html "cpp/algorithm/swap") algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/hazard_pointer/dsc_swap2&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/hazard_pointer&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     namespace std {
@@ -240,7 +240,7 @@ This header is part of the [thread support](../atomic.html "cpp/thread") library
       void swap(hazard_pointer&, hazard_pointer&) noexcept;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/hazard_pointer&action=edit&section=T-1 "Template:cpp/synopsis/hazard pointer")] Class template std::hazard_pointer_obj_base
+#### Class template std::hazard_pointer_obj_base
     
     
     namespace std {
@@ -260,7 +260,7 @@ This header is part of the [thread support](../atomic.html "cpp/thread") library
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/hazard_pointer&action=edit&section=T-2 "Template:cpp/synopsis/hazard pointer")] Class std::hazard_pointer
+#### Class std::hazard_pointer
     
     
     namespace std {

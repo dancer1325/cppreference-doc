@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::stop_token`](../stop_token.html "cpp/thread/stop token")
 
@@ -191,7 +191,7 @@ Non-member functions
 [swap(std::stop_token)](swap2.html "cpp/thread/stop token/swap2")  
 [operator==](operator_cmp.html "cpp/thread/stop token/operator cmp")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/stop_token/navbar_content&action=edit)
+
 
 [std::stop_token](../stop_token.html)& operator=( const [std::stop_token](../stop_token.html)& other ) noexcept; |  (1)  |  (since C++20)  
 ---|---|---  
@@ -204,7 +204,7 @@ Replaces the associated stop-state with that of other.
 
 2) Move-assigns the associated stop-state of other to that of *this. After the assignment, *this contains the previous associated stop-state of other, and other has no associated stop-state. Equivalent to stop_token(std::move(other)).swap(*this).
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/stop_token/operator%3D&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 other  |  \-  |  another `stop_token` object to share the stop-state with to or acquire the stop-state from   
 ---|---|---

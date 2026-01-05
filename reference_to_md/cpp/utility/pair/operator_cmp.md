@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::pair`](../pair.html "cpp/utility/pair")
 
@@ -151,7 +151,7 @@ Common vocabulary types
 [piecewise_construct_t](../piecewise_construct.html "cpp/utility/piecewise construct")(C++11)  
 [Deduction guides](deduction_guides.html "cpp/utility/pair/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/pair/navbar_content&action=edit)
+
 
 Defined in header `[<utility>](../../header/utility.html "cpp/header/utility")` |  |   
 ---|---|---  
@@ -226,12 +226,12 @@ The `<`, `<=`, `>`, `>=`, and `!=` operators are [synthesized](../../language/op
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/pair/operator_cmp&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 lhs, rhs  |  \-  |  pairs to compare   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/pair/operator_cmp&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) true if both lhs.first == rhs.first and lhs.second == rhs.second, otherwise false.
 
@@ -247,7 +247,7 @@ lhs, rhs  |  \-  |  pairs to compare
 
 7) [`_synth-three-way_`](../../standard_library/synth-three-way.html "cpp/standard library/synth-three-way")(lhs.first, rhs.first) if it is not equal to ​0​, otherwise [`_synth-three-way_`](../../standard_library/synth-three-way.html "cpp/standard library/synth-three-way")(lhs.second, rhs.second).
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/pair/operator_cmp&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 The relational operators are defined in terms of each element's operator<.  | (until C++20)  
 ---|---  
@@ -256,7 +256,7 @@ The relational operators are defined in terms of [`_synth-three-way_`](../../sta
 ---|---|---|---  
 [`__cpp_lib_constrained_equality`](../../experimental/feature_test.html#cpp_lib_constrained_equality "cpp/feature test") | [`202403L`](../../compiler_support/26.html#cpp_lib_constrained_equality_202403L "cpp/compiler support/26") | (C++26) | Constrained operator== for [std::pair](../pair.html "cpp/utility/pair")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/pair/operator_cmp&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Because operator< is defined for pairs, containers of pairs can be sorted.
 
@@ -286,7 +286,7 @@ Output:
     {2, "bar"}
     {2, "baz"}
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/pair/operator_cmp&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -297,10 +297,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ([P2167R3](https://wg21.link/P2167R3))  | C++98  | type preconditions for boolean operations were missing  | added   
 [LWG 3865](https://cplusplus.github.io/LWG/issue3865) | C++98  | comparison operators only accepted `pair`s of the same type  | accept `pair`s of different types   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/pair/operator_cmp&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ operator==operator!=operator<operator<=operator>operator>=operator<=>](../tuple/operator_cmp.html "cpp/utility/tuple/operator cmp")(removed in C++20)(removed in C++20)(removed in C++20)(removed in C++20)(removed in C++20)(C++20) |  lexicographically compares the values in the tuple   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/dsc_operator_cmp&action=edit)  
+(function template)   
 ---|---
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

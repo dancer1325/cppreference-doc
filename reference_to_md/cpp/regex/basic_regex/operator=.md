@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Regular expressions library](../../regex.html "cpp/regex")
 
@@ -81,7 +81,7 @@ Constants
 Regex Grammar  
 [Modified ECMAScript-262](../ecmascript.html "cpp/regex/ecmascript")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/navbar_content&action=edit)
+
 
 [`std::basic_regex`](../basic_regex.html "cpp/regex/basic regex")
 
@@ -104,7 +104,7 @@ Non-member Functions
 [swap(std::basic_regex)](swap2.html "cpp/regex/basic regex/swap2")  
 [Deduction guides](deduction_guides.html "cpp/regex/basic regex/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/basic_regex/navbar_content&action=edit)
+
 
 Defined in header `[<regex>](../../header/regex.html "cpp/header/regex")` |  |   
 ---|---|---  
@@ -138,7 +138,7 @@ Assigns the contents.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/basic_regex/operator%3D&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 other  |  \-  |  another regex object   
 ---|---|---  
@@ -146,18 +146,18 @@ ptr  |  \-  |  pointer to a null-terminated character string
 il  |  \-  |  initializer list containing characters to assign   
 p  |  \-  |  string containing characters to assign   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/basic_regex/operator%3D&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 *this
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/basic_regex/operator%3D&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 1) May throw implementation-defined exceptions.
 
 3-5) [std::regex_error](../regex_error.html "cpp/regex/regex error") if the supplied regular expression is not valid. The object is not modified in that case.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/basic_regex/operator%3D&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ assign](assign.html "cpp/regex/basic regex/assign") |  assigns the contents   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/basic_regex/dsc_assign&action=edit)  
+(public member function)   
 ---|---

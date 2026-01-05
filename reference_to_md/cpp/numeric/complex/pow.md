@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [`std::complex`](../complex.html "cpp/numeric/complex")
 
@@ -164,7 +164,7 @@
 [tuple_size<std::complex>](tuple_size.html "cpp/numeric/complex/tuple size")(C++26)  
 [tuple_element<std::complex>](tuple_element.html "cpp/numeric/complex/tuple element")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/navbar_content&action=edit)
+
 
 Defined in header `[<complex>](../../header/complex.html "cpp/header/complex")` |  |   
 ---|---|---  
@@ -217,13 +217,13 @@ A-C) Additional overloads are provided. `NonComplex` is not a specialization of 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/pow&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 x  |  \-  |  base   
 ---|---|---  
 y  |  \-  |  exponent   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/pow&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1-4) If no errors occur, the complex power xy  
 , is returned.
@@ -234,7 +234,7 @@ The result of [std::pow](../math/pow.html)(0, 0) is implementation-defined.
 
 A-C) Same as (2-4).
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/pow&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Overload (1) was provided in C++98 to match the extra overloads (2) of [std::pow](../math/pow.html "cpp/numeric/math/pow"). Those overloads were removed by the resolution of [LWG issue 550](https://cplusplus.github.io/LWG/issue550), and overload (1) was removed by the resolution of [LWG issue 844](https://cplusplus.github.io/LWG/issue844). 
 
@@ -254,7 +254,7 @@ If base and/or exponent has type [std::complex](../complex.html)<T>:
 If one argument has type [std::complex](../complex.html)<T1> and the other argument has type `T2` or [std::complex](../complex.html)<T2>, then `std::pow(base, exponent)` has the same effect as `std::pow`([std::complex](../complex.html)<[std::common_type_t](../../types/common_type.html)<T1, T2>>(base),  
 [std::complex](../complex.html)<[std::common_type_t](../../types/common_type.html)<T1, T2>>(exponent)). If [std::common_type_t](../../types/common_type.html)<T1, T2> is not well-formed, then the program is ill-formed.  | (since C++23)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/pow&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -287,13 +287,13 @@ Output:
     (-1,-0)^0.5 = (0.000000,-1.000000)
     i^i = (0.207880,0.000000)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/pow&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ sqrt(std::complex)](sqrt.html "cpp/numeric/complex/sqrt") |  complex square root in the range of the right half-plane   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_sqrt&action=edit)  
+(function template)   
 ---|---  
 [ powpowfpowl](../math/pow.html "cpp/numeric/math/pow")(C++11)(C++11) |  raises a number to the given power (\\(\small{x^y}\\)xy)   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_pow&action=edit)  
+(function)   
 [ pow(std::valarray)](../valarray/pow.html "cpp/numeric/valarray/pow") |  applies the function [std::pow](../math/pow.html "cpp/numeric/math/pow") to two valarrays or a valarray and a value   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_pow&action=edit)  
+(function template)   
 [C documentation](../../../c/numeric/complex/cpow.html "c/numeric/complex/cpow") for cpow

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Formatting library](../format.html "cpp/utility/format")
 
@@ -91,7 +91,7 @@ Formatting arguments
 [Format error](format.html#Format_error "cpp/utility/format/format")  
 [format_error](format_error.html "cpp/utility/format/format error")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/navbar_content&action=edit)
+
 
 Defined in header `[<format>](../../header/format.html "cpp/header/format")` |  |   
 ---|---|---  
@@ -120,7 +120,7 @@ This specialization meets the [Formatter](../../named_req/Formatter.html "cpp/na
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/tuple_formatter&action=edit&section=1 "Edit section: Format specification")] Format specification
+### Format specification
 
 The syntax of tuple-format-spec is:   
   
@@ -149,7 +149,7 @@ The available tuple presentation types are:
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/tuple_formatter&action=edit&section=2 "Edit section: Member objects")] Member objects
+### Member objects
 
 Member name  |  Definition   
 ---|---  
@@ -162,7 +162,7 @@ Member name  |  Definition
 `_closing-bracket__` (private) |  a string representing the closing bracket of the tuple formatted result (defaults to ")")  
 (exposition-only member object*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/tuple_formatter&action=edit&section=3 "Edit section: Member functions")] Member functions
+### Member functions
 
 set_separator |  sets a specified separator for the tuple formatted result   
 (public member function)  
@@ -241,7 +241,7 @@ Writes the following into ctx.out() as specified by tuple-format-spec, in order:
 
 Returns an iterator past the end of the output range. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/tuple_formatter&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -249,8 +249,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 3892](https://cplusplus.github.io/LWG/issue3892) | C++23  | the formatting of nested tuples was incorrect  | corrected   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/tuple_formatter&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ formatter](formatter.html "cpp/utility/format/formatter")(C++20) |  defines formatting rules for a given type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/dsc_formatter&action=edit)  
+(class template)   
 ---|---

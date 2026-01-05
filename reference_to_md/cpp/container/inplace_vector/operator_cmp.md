@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -71,7 +71,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::inplace_vector`](../inplace_vector.html "cpp/container/inplace vector")
 
@@ -132,7 +132,7 @@ Tables
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/inplace_vector/navbar_content&action=edit)
+
 
 constexpr friend bool operator==( const [std::inplace_vector](../inplace_vector.html)<T, N>& lhs,  
 const [std::inplace_vector](../inplace_vector.html)<T, N>& rhs ); |  (1)  |  (since C++26)  
@@ -172,31 +172,31 @@ The `<`, `<=`, `>`, `>=`, and `!=` operators are [synthesized](../../language/op
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/inplace_vector/operator_cmp&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 lhs, rhs  |  \-  |  std::inplace_vectors whose contents to compare   
 ---|---|---  
 -`T` must meet the requirements of [EqualityComparable](../../named_req/EqualityComparable.html "cpp/named req/EqualityComparable") in order to use overloads (1).   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/inplace_vector/operator_cmp&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) true if the contents of the std::inplace_vectors are equal, false otherwise.
 
 2) The relative order of the first pair of non-equivalent elements in lhs and rhs if there are such elements, lhs.size() <=> rhs.size() otherwise.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/inplace_vector/operator_cmp&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 1) Constant if lhs and rhs are of different size, otherwise linear in the size of the std::inplace_vector.
 
 2) Linear in the size of the std::inplace_vector.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/inplace_vector/operator_cmp&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 The relational operators are defined in terms of [`_synth-three-way_`](../../standard_library/synth-three-way.html "cpp/standard library/synth-three-way"), which uses operator<=> if possible, or operator< otherwise. 
 
 Notably, if the element does not itself provide operator<=>, but is implicitly convertible to a three-way comparable type, that conversion will be used instead of operator<. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/inplace_vector/operator_cmp&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     

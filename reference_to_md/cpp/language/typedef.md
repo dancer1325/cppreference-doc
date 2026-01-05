@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [Declarations](declarations.html "cpp/language/declarations")
 
@@ -280,7 +280,7 @@ Other declarations
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/declarations/navbar_content&action=edit)
+
 
     
 
@@ -301,7 +301,7 @@ Other declarations
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/typedef&action=edit&section=1 "Edit section: Explanation")] Explanation
+### Explanation
 
 The typedef specifier, when used in a [declaration](declarations.html "cpp/language/declarations"), specifies that the declaration is a _typedef declaration_ rather than a variable or function declaration. 
 
@@ -322,7 +322,7 @@ The typedef specifier may not appear in a declaration that does not contain a de
     
     typedef struct X {}; // ill-formed
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/typedef&action=edit&section=2 "Edit section: typedef name for linkage purposes")] typedef name for linkage purposes
+### typedef name for linkage purposes
 
 If a typedef declaration defines an unnamed [class](classes.html "cpp/language/classes") or [enumeration](enum.html "cpp/language/enum"), the first typedef name of the class type or enumeration type declared by the declaration is the _typedef name for linkage purposes_ of that type. 
 
@@ -337,16 +337,16 @@ An unnamed class defined in this way should only contain C-compatible constructs
 and all member classes must also satisfy these requirements (recursively).  | (since C++20)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/typedef&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 [Type aliases](type_alias.html "cpp/language/type alias") provide the same functionality as typedef declarations using a different syntax, and are also applicable to template names.  | (since C++11)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/typedef&action=edit&section=4 "Edit section: Keywords")] Keywords
+### Keywords
 
 [`typedef`](../keyword/typedef.html "cpp/keyword/typedef")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/typedef&action=edit&section=5 "Edit section: Example")] Example
+### Example
     
     
     // simple typedef
@@ -396,7 +396,7 @@ and all member classes must also satisfy these requirements (recursively).  | (s
     // C++20 error: "struct with typedef name for linkage" has member functions
     typedef struct { void f() {} } C_Incompatible;
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/typedef&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -405,7 +405,7 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [CWG 576](https://cplusplus.github.io/CWG/issues/576.html) | C++98  | typedef was not allowed in the entire function definition  | allowed in function body   
 [CWG 2071](https://cplusplus.github.io/CWG/issues/2071.html) | C++98  | typedef could appear in a declaration that does not contain a declarator  | now disallowed   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/typedef&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
   * [Type alias](type_alias.html "cpp/language/type alias")
   * [Alias template](type_alias.html "cpp/language/type alias")

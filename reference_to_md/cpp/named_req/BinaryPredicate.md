@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ named requirements](../iterator/concepts.html "cpp/named req")
 
@@ -147,7 +147,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/named_req/navbar_content&action=edit)
+
 
 **BinaryPredicate** is a set of requirements expected by some of the standard library facilities from the user-provided arguments. 
 
@@ -155,54 +155,54 @@ Given a BinaryPredicate `bin_pred` and a pair of iterators `iter1` and `iter2` o
 
 In addition, evaluation of that expression is not allowed to call non-const member functions of the dereferenced iterators; syntactically, the predicate must accept `const` object arguments, with the same behavior regardless of whether its arguments are `const` or non-`const`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/BinaryPredicate&action=edit&section=1 "Edit section: Requirements")] Requirements
+### Requirements
 
   * [Predicate](Predicate.html "cpp/named req/Predicate")
   * [CopyConstructible](CopyConstructible.html "cpp/named req/CopyConstructible") (unless otherwise specified) 
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/BinaryPredicate&action=edit&section=2 "Edit section: Standard library")] Standard library
+### Standard library
 
 The following standard library facilities expect a BinaryPredicate which isn't a [Compare](Compare.html "cpp/named req/Compare") type. 
 
 [ unique](../container/forward_list/unique.html "cpp/container/forward list/unique") |  removes consecutive duplicate elements   
-(public member function of `std::forward_list<T,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_unique&action=edit)  
+(public member function of `std::forward_list<T,Allocator>`)   
 ---|---  
 [ unique](../container/list/unique.html "cpp/container/list/unique") |  removes consecutive duplicate elements   
-(public member function of `std::list<T,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_unique&action=edit)  
+(public member function of `std::list<T,Allocator>`)   
 [ find_end](../algorithm/find_end.html "cpp/algorithm/find end") |  finds the last sequence of elements in a certain range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_find_end&action=edit)  
+(function template)   
 [ find_first_of](../algorithm/find_first_of.html "cpp/algorithm/find first of") |  searches for any one of a set of elements   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_find_first_of&action=edit)  
+(function template)   
 [ adjacent_find](../algorithm/adjacent_find.html "cpp/algorithm/adjacent find") |  finds the first two adjacent items that are equal (or satisfy a given predicate)   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_adjacent_find&action=edit)  
+(function template)   
 [ mismatch](../algorithm/mismatch.html "cpp/algorithm/mismatch") |  finds the first position where two ranges differ   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_mismatch&action=edit)  
+(function template)   
 [ equal](../algorithm/equal.html "cpp/algorithm/equal") |  determines if two sets of elements are the same   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_equal&action=edit)  
+(function template)   
 [ is_permutation](../algorithm/is_permutation.html "cpp/algorithm/is permutation")(C++11) |  determines if a sequence is a permutation of another sequence   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_is_permutation&action=edit)  
+(function template)   
 [ search](../algorithm/search.html "cpp/algorithm/search") |  searches for the first occurrence of a range of elements   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_search&action=edit)  
+(function template)   
 [ search_n](../algorithm/search_n.html "cpp/algorithm/search n") |  searches for the first occurrence of a number consecutive copies of an element in a range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_search_n&action=edit)  
+(function template)   
 [ unique](../algorithm/unique.html "cpp/algorithm/unique") |  removes consecutive duplicate elements in a range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_unique&action=edit)  
+(function template)   
 [ unique_copy](../algorithm/unique_copy.html "cpp/algorithm/unique copy") |  creates a copy of some range of elements that contains no consecutive duplicates   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_unique_copy&action=edit)  
+(function template)   
 [ not2](../utility/functional/not2.html "cpp/utility/functional/not2")(deprecated in C++17)(removed in C++20) |  constructs custom [std::binary_negate](../utility/functional/binary_negate.html "cpp/utility/functional/binary negate") object   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_not2&action=edit)  
+(function template)   
 [ unordered_set](../container/unordered_set.html "cpp/container/unordered set")(C++11) |  collection of unique keys, hashed by keys   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_unordered_set&action=edit)  
+(class template)   
 [ unordered_map](../container/unordered_map.html "cpp/container/unordered map")(C++11) |  collection of key-value pairs, hashed by keys, keys are unique   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_unordered_map&action=edit)  
+(class template)   
 [ unordered_multiset](../container/unordered_multiset.html "cpp/container/unordered multiset")(C++11) |  collection of keys, hashed by keys   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_unordered_multiset&action=edit)  
+(class template)   
 [ unordered_multimap](../container/unordered_multimap.html "cpp/container/unordered multimap")(C++11) |  collection of key-value pairs, hashed by keys   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_unordered_multimap&action=edit)  
+(class template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/BinaryPredicate&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

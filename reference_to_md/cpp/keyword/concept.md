@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](../language/history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [Keywords](../keywords.html "cpp/keyword")
 
@@ -340,22 +340,22 @@ Identifiers with special meaning
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/keyword/navbar_content&action=edit)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/keyword/concept&action=edit&section=1 "Edit section: Usage")] Usage
+
+### Usage
 
   * Declares a [named type requirement](../language/constraints.html "cpp/language/constraints"). 
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/keyword/concept&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 Feature-test macro  | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_concepts`](../experimental/feature_test.html#cpp_concepts "cpp/feature test") | [`201907L`](../compiler_support/20.html#cpp_concepts_201907L "cpp/compiler support/20") | (C++20) | [Constraints](../language/constraints.html "cpp/language/constraints")  
 [`202002L`](../compiler_support/20.html#cpp_concepts_202002L "cpp/compiler support/20") | (C++20) | Conditionally trivial [special member functions](../language/member_functions.html#Special_member_functions "cpp/language/member functions")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/keyword/concept&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
   * [`class`](class.html "cpp/keyword/class"), [`typename`](typename.html "cpp/keyword/typename")
   * [`template`](template.html "cpp/keyword/template")

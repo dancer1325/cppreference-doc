@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::ios_base`](../ios_base.html "cpp/io/ios base")
 
@@ -113,7 +113,7 @@ Member types
 [ios_base::event](event.html "cpp/io/ios base/event")  
 [ios_base::event_callback](event_callback.html "cpp/io/ios base/event callback")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/ios_base/navbar_content&action=edit)
+
 
 void unsetf( fmtflags flags ); |  |   
 ---|---|---  
@@ -132,13 +132,13 @@ Unsets the formatting flags identified by flags.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/ios_base/unsetf&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 flags  |  \-  |  formatting flags to unset. It can be a combination of the [formatting flags](unsetf.html#Formatting_flags) constants.   
   
 ---|---|---  
   
-##### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/ios_base/unsetf&action=edit&section=2 "Edit section: Formatting flags")] Formatting flags
+##### Formatting flags
 
 Constant  |  Explanation   
 ---|---  
@@ -161,20 +161,20 @@ Constant  |  Explanation
 [`unitbuf`](fmtflags.html "cpp/io/ios base/fmtflags") |  flush the output after each output operation: see [std::unitbuf](../manip/unitbuf.html "cpp/io/manip/unitbuf")  
 [`uppercase`](fmtflags.html "cpp/io/ios base/fmtflags") |  replace certain lowercase letters with their uppercase equivalents in certain output operations: see [std::uppercase](../manip/uppercase.html "cpp/io/manip/uppercase")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/ios_base/unsetf&action=edit&section=3 "Edit section: Return value")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/ios_base/unsetf&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/ios_base/unsetf&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ flags](flags.html "cpp/io/ios base/flags") |  manages format flags   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/ios_base/dsc_flags&action=edit)  
+(public member function)   
 ---|---  
 [ setf](setf.html "cpp/io/ios base/setf") |  sets specific format flag   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/ios_base/dsc_setf&action=edit)
+(public member function) 

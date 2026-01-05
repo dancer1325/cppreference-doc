@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Metaprogramming library](../meta.html "cpp/meta")
 
@@ -167,7 +167,7 @@ Type transformations
 Compile-time integer sequences  
 [integer_sequence](../utility/integer_sequence.html "cpp/utility/integer sequence")(C++14)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/meta/navbar_content&action=edit)
+
 
 Defined in header `[<type_traits>](../header/type_traits.html "cpp/header/type traits")` |  |   
 ---|---|---  
@@ -177,7 +177,7 @@ using void_t = void; |  |  (since C++17)
   
 Utility metafunction that maps a sequence of any types to the type void. This metafunction is a convenient way to leverage [SFINAE](../language/sfinae.html "cpp/language/sfinae") prior to C++20's [concepts](../language/constraints.html "cpp/language/constraints"), in particular for conditionally removing functions from the [candidate set](../language/overload_resolution.html "cpp/language/overload resolution") based on whether an expression is valid in the [unevaluated context](../language/expressions.html#Unevaluated_expressions "cpp/language/expressions") (such as operand to [`decltype`](../language/decltype.html "cpp/language/decltype") expression), allowing to exist separate function overloads or specializations based on supported operations. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/void_t&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 This metafunction is used in template metaprogramming to detect ill-formed types in SFINAE context: 
     
@@ -216,7 +216,7 @@ Until the resolution of [CWG issue 1558](https://cplusplus.github.io/CWG/issues/
 ---|---|---|---  
 [`__cpp_lib_void_t`](../experimental/feature_test.html#cpp_lib_void_t "cpp/feature test") | [`201411L`](../compiler_support/17.html#cpp_lib_void_t_201411L "cpp/compiler support/17") | (C++17) | [`std::void_t`](void_t.html#Top)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/void_t&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -279,10 +279,10 @@ Output:
     is_range<double>                == false
     is_range<A>                     == false
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/void_t&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ enable_if](enable_if.html "cpp/types/enable if")(C++11) |  conditionally [removes](../language/sfinae.html "cpp/language/sfinae") a function overload or template specialization from overload resolution   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_enable_if&action=edit)  
+(class template)   
 ---|---
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

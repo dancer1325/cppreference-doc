@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Function objects](../../../functional.html "cpp/utility/functional")
 
@@ -255,7 +255,7 @@ Identity function object
 [unary_negate](../unary_negate.html "cpp/utility/functional/unary negate")(until C++20*)  
 [binary_negate](../binary_negate.html "cpp/utility/functional/binary negate")(until C++20*)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/navbar_content&action=edit)
+
 
 [`std::reference_wrapper`](../reference_wrapper.html "cpp/utility/functional/reference wrapper")
 
@@ -271,7 +271,7 @@ Non-member functions
 Helper classes  
 [basic_common_reference<std::reference_wrapper>](basic_common_reference.html "cpp/utility/functional/reference wrapper/basic common reference")(C++23)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/reference_wrapper/navbar_content&action=edit)
+
 
 template< class U >  
 reference_wrapper( U&& x ) noexcept(/*see below*/) ; |  (1)  |  (since C++11)   
@@ -301,13 +301,13 @@ Constructs a new reference wrapper.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/reference_wrapper/reference_wrapper&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 x  |  \-  |  an object to wrap   
 ---|---|---  
 other  |  \-  |  another reference wrapper   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/reference_wrapper/reference_wrapper&action=edit&section=2 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 1)
 
@@ -317,13 +317,13 @@ noexcept(noexcept(FUN([std::declval](../../declval.html)<U>())))
 
 where `FUN` is the set of imaginary functions described in the description above.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/reference_wrapper/reference_wrapper&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/reference_wrapper/reference_wrapper&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

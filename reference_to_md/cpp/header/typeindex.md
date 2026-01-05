@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header is part of the [type support](../utility/rtti.html "cpp/types") library. 
 
@@ -213,22 +213,22 @@ This header is part of the [type support](../utility/rtti.html "cpp/types") libr
   
 ###  Includes  
   
-[ <compare>](compare.html "cpp/header/compare")(C++20) |  [Three-way comparison operator](../language/operator_comparison.html#Three-way_comparison "cpp/language/operator comparison") support[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/dsc_compare&action=edit)  
+[ <compare>](compare.html "cpp/header/compare")(C++20) |  [Three-way comparison operator](../language/operator_comparison.html#Three-way_comparison "cpp/language/operator comparison") support  
   
 ###  Classes  
   
 [ type_index](../types/type_index.html "cpp/types/type index")(C++11) |  wrapper around a `type_info` object, that can be used as index in associative and unordered associative containers   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_type_index&action=edit)  
+(class)   
 [ std::hash<std::type_index>](../types/type_index/hash.html "cpp/types/type index/hash")(C++11) |  hash support for [`std::type_index`](../types/type_index.html "cpp/types/type index")   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/type_index/dsc_hash&action=edit)  
+(class template specialization)   
   
 #####  Forward declarations   
   
 Defined in header `[<functional>](functional.html "cpp/header/functional")`  
 [ hash](../utility/hash.html "cpp/utility/hash")(C++11) |  hash function object   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_hash&action=edit)  
+(class template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/typeindex&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     #include <compare>
@@ -239,7 +239,7 @@ Defined in header `[<functional>](functional.html "cpp/header/functional")`
       template<> struct hash<type_index>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/typeindex&action=edit&section=T-1 "Template:cpp/synopsis/typeindex")] Class [std::type_index](../types/type_index.html "cpp/types/type index")
+#### Class [std::type_index](../types/type_index.html "cpp/types/type index")
     
     
     namespace std {

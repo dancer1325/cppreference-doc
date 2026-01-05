@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Ranges](../../ranges.html "cpp/experimental/ranges")
 
@@ -66,7 +66,7 @@
 [Ranges](../../ranges.html#Ranges "cpp/experimental/ranges")  
 [Algorithms](../../ranges.html#Algorithms "cpp/experimental/ranges")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/navbar_content&action=edit)
+
 
 [General utilities library](../../ranges.html#General_utilities "cpp/experimental/ranges")
 
@@ -125,7 +125,7 @@ Tagged pairs and tuples
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/utility/navbar_content&action=edit)
+
 
 Defined in header `[<experimental/ranges/utility>](../../../header/experimental/ranges/utility.html "cpp/header/experimental/ranges/utility")` |  |   
 ---|---|---  
@@ -171,7 +171,7 @@ If the function selected by overload resolution does not exchange the values ref
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/cpo&action=edit&section=T-1 "Template:cpp/experimental/ranges/cpo")] Customization point objects 
+### Customization point objects 
 
 The name `ranges::swap` denotes a _customization point object_ , which is a [function object](../../../named_req/FunctionObject.html "cpp/named req/FunctionObject") of a [literal](../../../named_req/LiteralType.html "cpp/named req/LiteralType") [`Semiregular`](../concepts/Semiregular.html "cpp/experimental/ranges/concepts/Semiregular") class type (denoted, for exposition purposes, as `SwapT`). All instances of `SwapT` are equal. Thus, `ranges::swap` can be copied freely and its copies can be used interchangeably. 
 
@@ -179,7 +179,7 @@ Given a set of types `Args...`, if [std::declval](../../../utility/declval.html)
 
 In every translation unit in which `ranges::swap` is defined, it refers to the same instance of the customization point object. (This means that it can be used freely in things like inline functions and function templates without violating the [one-definition rule](../../../language/definition.html#One_Definition_Rule "cpp/language/definition").) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/utility/swap&action=edit&section=1 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 1)
 
@@ -202,14 +202,14 @@ noexcept(noexcept([ranges::swap](http://en.cppreference.com/w/cpp/ranges-utility
 noexcept([std::is_nothrow_move_constructible](../../../types/is_move_constructible.html)<V>::value &&  
 [std::is_nothrow_move_assignable](../../../types/is_move_assignable.html)<V>::value)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/utility/swap&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/utility/swap&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ swap](../../../utility/swap.html "cpp/algorithm/swap") |  swaps the values of two objects   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_swap&action=edit)  
+(function template)   
 ---|---

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Execution control library](../experimental/execution.html "cpp/execution")
 
@@ -155,7 +155,7 @@ schedule_result_t](schedule.html "cpp/execution/schedule")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/execution/navbar_content&action=edit)
+
 
 Defined in header `[<execution>](../header/execution.html "cpp/header/execution")` |  |   
 ---|---|---  
@@ -188,7 +188,7 @@ struct scheduler_t {}; |  (2)  |  (since C++26)
   
 The concept `scheduler` is modeled by types that are _schedulers_ , that is, lightweight handlers to execution resources such as thread pools that work with the C++ execution library. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/execution/scheduler&action=edit&section=1 "Edit section: Semantic requirements")] Semantic requirements
+### Semantic requirements
 
 Given a scheduler of type `Sch` and execution environment of type `Env` such that sender_in<schedule_result_t<Sch>, Env> is satisfied, then /*sender-in-of*/<schedule_result_t<Sch>, Env> is modeled. 
 
@@ -204,7 +204,7 @@ For a given scheduler `sch`, if the expression get_domain(sch) is well-formed, t
 
 The destructor of a scheduler must not block pending completion of any receivers connected to the sender objects returned from schedule (the underlying resource may provide a separate API to wait for completion of submitted function objects) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/execution/scheduler&action=edit&section=2 "Edit section: Examples")] Examples
+### Examples
 
 simple wrapper for std::execution::run_loop that constantly polls run_loop's queue on a single dedicated thread. Demo using draft reference implementation: <https://godbolt.org/z/146fY4Y91>
 
@@ -261,8 +261,8 @@ Output:
     Hello world! Have an int.
     Back in the main thread, result is 55
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/execution/scheduler&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ execution::schedule](schedule.html "cpp/execution/schedule")(C++26) |  prepares a task graph for execution on a given scheduler  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/execution/dsc_schedule&action=edit)  
+(customization point object)  
 ---|---

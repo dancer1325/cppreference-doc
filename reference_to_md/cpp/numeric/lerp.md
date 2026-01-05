@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 Defined in header `[<cmath>](../header/cmath.html "cpp/header/cmath")` |  |   
 ---|---|---  
@@ -123,12 +123,12 @@ A) Additional overloads are provided for all other combinations of arithmetic ty
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/lerp&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 a, b, t  |  \-  |  floating-point or integer values   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/lerp&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 \\(a + t(b − a)\\)a + t(b − a)
 
@@ -152,7 +152,7 @@ Let CMP(x, y) be 1 if x > y, -1 if x < y, and ​0​ otherwise. For any t1 and 
 
 is non-negative. (That is, `std::lerp` is monotonic.) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/lerp&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 The additional overloads are not required to be provided exactly as (A). They only need to be sufficient to ensure that for their first argument num1, second argument num2 and third argument num3: 
 
@@ -175,7 +175,7 @@ static_cast</*common-floating-point-type*/>(num3)), where /*common-floating-poin
 ---|---|---|---  
 [`__cpp_lib_interpolate`](../experimental/feature_test.html#cpp_lib_interpolate "cpp/feature test") | [`201902L`](../compiler_support/20.html#cpp_lib_interpolate_201902L "cpp/compiler support/20") | (C++20) | `std::lerp`, [std::midpoint](midpoint.html "cpp/numeric/midpoint")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/lerp&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -230,10 +230,10 @@ Possible output:
     Extrapolation demo, given std::lerp(5, 10, t):
     -5 -2.5 0 2.5 5 7.5 10 12.5 15
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/lerp&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ midpoint](midpoint.html "cpp/numeric/midpoint")(C++20) |  midpoint between two numbers or pointers   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/dsc_midpoint&action=edit)  
+(function template)   
 ---|---
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

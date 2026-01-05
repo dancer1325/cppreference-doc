@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 Defined in header `[<ranges>](../header/ranges.html "cpp/header/ranges")` |  |   
 ---|---|---  
@@ -265,11 +265,11 @@ Given the [subexpression](../language/expressions.html#Full-expressions "cpp/lan
 
 The name `ranges::ssize` denotes a _customization point object_ , which is a const [function object](../named_req/FunctionObject.html "cpp/named req/FunctionObject") of a [literal](../named_req/LiteralType.html "cpp/named req/LiteralType") [`semiregular`](../concepts/semiregular.html "cpp/concepts/semiregular") class type. See [CustomizationPointObject](../named_req/CustomizationPointObject.html "cpp/named req/CustomizationPointObject") for details. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/ssize&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 If ranges::ssize(e) is valid for an expression e, the return type is a [signed-integer-like type](../iterator/is-integer-like.html "cpp/iterator/is-integer-like"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/ssize&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -305,7 +305,7 @@ Output:
     reversed arr: 5 4 3 2 1
     s = -1
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/ssize&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -313,14 +313,14 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 3403](https://cplusplus.github.io/LWG/issue3403) | C++20  | `ranges::size` worked for some non-range types but `ranges::ssize` did not  | made work   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/ssize&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ ranges::size](size.html "cpp/ranges/size")(C++20) |  returns an integer equal to the size of a range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_size&action=edit)  
+(customization point object)  
 ---|---  
 [ ranges::sized_range](sized_range.html "cpp/ranges/sized range")(C++20) |  specifies that a range knows its size in constant time   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_sized_range&action=edit)  
+(concept)   
 [ ranges::distance](../iterator/ranges/distance.html "cpp/iterator/ranges/distance")(C++20) |  returns the distance between an iterator and a sentinel, or between the beginning and end of a range  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/ranges/dsc_distance&action=edit)  
+(algorithm function object)  
 [ sizessize](../iterator/size.html "cpp/iterator/size")(C++17)(C++20) |  returns the size of a container or array   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_size&action=edit)
+(function template) 

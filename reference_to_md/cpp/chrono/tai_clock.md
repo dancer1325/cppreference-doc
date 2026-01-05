@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 **`std::chrono::tai_clock`**
 
@@ -115,7 +115,7 @@ Time point I/O
 [formatter<std::chrono::tai_time>](tai_clock/formatter.html "cpp/chrono/tai clock/formatter")  
 [from_stream](tai_clock/from_stream.html "cpp/chrono/tai clock/from stream")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/tai_clock/navbar_content&action=edit)
+
 
 Defined in header `[<chrono>](../header/chrono.html "cpp/header/chrono")` |  |   
 ---|---|---  
@@ -147,14 +147,14 @@ using tai_time = [std::chrono::time_point](time_point.html)<std::chrono::tai_clo
 using tai_seconds = tai_time<[std::chrono::seconds](duration.html)>; |  |  (since C++20)  
 | |   
 [ operator<<(std::chrono::tai_time)](tai_clock/operator_ltlt.html "cpp/chrono/tai clock/operator ltlt")(C++20) |  performs stream output on a `tai_time`   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_point/dsc_operator_ltlt&action=edit)  
+(function template)   
 ---|---  
 [ from_stream(std::chrono::tai_time)](tai_clock/from_stream.html "cpp/chrono/tai clock/from stream")(C++20) |  parses a `tai_time` from a stream according to the provided format   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_point/dsc_from_stream&action=edit)  
+(function template)   
 [ std::formatter<std::chrono::tai_time>](tai_clock/formatter.html "cpp/chrono/tai clock/formatter")(C++20) |  formatting support for `tai_time`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_formatter&action=edit)  
+(class template specialization)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/clock_member_types&action=edit&section=T-1 "Template:cpp/chrono/clock member types")] Member types
+### Member types
 
 Member type  |  Definition   
 ---|---  
@@ -163,18 +163,18 @@ Member type  |  Definition
 `duration` |  [std::chrono::duration](duration.html)<rep, period>, capable of representing negative durations   
 `time_point` |  [std::chrono::time_point](time_point.html)<std::chrono::tai_clock>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/clock_is_steady&action=edit&section=T-1 "Template:cpp/chrono/clock is steady")] Member constants
+### Member constants
 
 constexpr bool is_steady[static] |  true if the time between ticks is always constant, i.e. calls to [`now()`](tai_clock/now.html "cpp/chrono/tai clock/now") return values that increase monotonically even in case of some external clock adjustment, otherwise false   
 (public static member constant)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/tai_clock&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ now](tai_clock/now.html "cpp/chrono/tai clock/now")[static] |  returns a [std::chrono::time_point](time_point.html "cpp/chrono/time point") representing the current point in time   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/tai_clock/dsc_now&action=edit)  
+(public static member function)   
 ---|---  
 [ to_utc](tai_clock/to_utc.html "cpp/chrono/tai clock/to utc")[static] |  converts `tai_time` to `utc_time`   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/tai_clock/dsc_to_utc&action=edit)  
+(public static member function)   
 [ from_utc](tai_clock/from_utc.html "cpp/chrono/tai clock/from utc")[static] |  converts `utc_time` to `tai_time`   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/tai_clock/dsc_from_utc&action=edit)
+(public static member function) 

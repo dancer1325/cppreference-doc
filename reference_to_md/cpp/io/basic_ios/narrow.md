@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_ios`](../basic_ios.html "cpp/io/basic ios")
 
@@ -111,7 +111,7 @@ Protected member functions
 [basic_ios::swap](swap.html "cpp/io/basic ios/swap")(C++11)  
 [basic_ios::set_rdbuf](set_rdbuf.html "cpp/io/basic ios/set rdbuf")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ios/navbar_content&action=edit)
+
 
 char narrow( char_type c, char dfault ) const; |  |   
 ---|---|---  
@@ -121,22 +121,22 @@ Converts a current locale-specific character c to its standard equivalent. The r
 
 Effectively calls [std::use_facet](../../locale/use_facet.html)< [std::ctype](../../locale/ctype.html)<char_type> >(getloc()).narrow(c, dfault);. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_ios/narrow&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 c  |  \-  |  character to convert   
 ---|---|---  
 dfault  |  \-  |  character to return if the conversion was unsuccessful   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_ios/narrow&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Character converted to its standard equivalent and then to char. dfault is returned if the conversion fails. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_ios/narrow&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ widen](widen.html "cpp/io/basic ios/widen") |  widens characters   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ios/dsc_widen&action=edit)  
+(public member function)   
 ---|---  
 [ narrow](../../locale/ctype/narrow.html "cpp/locale/ctype/narrow") |  invokes `do_narrow`   
-(public member function of `std::ctype<CharT>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/ctype/dsc_narrow&action=edit)  
+(public member function of `std::ctype<CharT>`)   
 [ wctob](../../string/multibyte/wctob.html "cpp/string/multibyte/wctob") |  narrows a wide character to a single-byte narrow character, if possible   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/dsc_wctob&action=edit)
+(function) 

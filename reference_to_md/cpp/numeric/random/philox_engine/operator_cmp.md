@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [Pseudo-random number generation](../../random.html "cpp/numeric/random")
 
@@ -161,7 +161,7 @@
 [piecewise_constant_distribution](../piecewise_constant_distribution.html "cpp/numeric/random/piecewise constant distribution")(C++11)  
 [piecewise_linear_distribution](../piecewise_linear_distribution.html "cpp/numeric/random/piecewise linear distribution")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/navbar_content&action=edit)
+
 
 [`std::philox_engine`](../philox_engine.html "cpp/numeric/random/philox engine")
 
@@ -180,7 +180,7 @@ Non-member functions
 **operator==**(C++26)  
 [operator<<operator>>](operator_ltltgtgt.html "cpp/numeric/random/philox engine/operator ltltgtgt")(C++26)(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/philox_engine/navbar_content&action=edit)
+
 
 friend bool operator==( const philox_engine& lhs, const philox_engine& rhs ); |  |  (since C++26)  
 ---|---|---  
@@ -192,11 +192,11 @@ This function is not visible to ordinary [unqualified](../../../language/unquali
 
 The `!=` operator is [synthesized](../../../language/default_comparisons.html#Other_defaulted_comparison_operators "cpp/language/default comparisons") from `operator==`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/random/philox_engine/operator_cmp&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 lhs, rhs  |  \-  |  engines to compare   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/random/philox_engine/operator_cmp&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 true if the engines are equal, false otherwise. 

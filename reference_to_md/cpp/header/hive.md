@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header is part of the [containers](../container.html "cpp/container") library. 
 
@@ -213,24 +213,24 @@ This header is part of the [containers](../container.html "cpp/container") libra
   
 ###  Includes  
   
-[ <compare>](compare.html "cpp/header/compare")(C++20) |  [Three-way comparison operator](../language/operator_comparison.html#Three-way_comparison "cpp/language/operator comparison") support[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/dsc_compare&action=edit)  
-[ <initializer_list>](initializer_list.html "cpp/header/initializer list")(C++11) |  [std::initializer_list](../utility/initializer_list.html "cpp/utility/initializer list") class template[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/dsc_initializer_list&action=edit)  
+[ <compare>](compare.html "cpp/header/compare")(C++20) |  [Three-way comparison operator](../language/operator_comparison.html#Three-way_comparison "cpp/language/operator comparison") support  
+[ <initializer_list>](initializer_list.html "cpp/header/initializer list")(C++11) |  [std::initializer_list](../utility/initializer_list.html "cpp/utility/initializer list") class template  
   
 ###  Classes  
   
 [ hive_limits](https://en.cppreference.com/mwiki/index.php?title=cpp/container/hive/hive_limits&action=edit&redlink=1 "cpp/container/hive/hive limits \(page does not exist\)")(C++26) |  layout information about block capacity limits in `std::hive`   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/hive/dsc_hive_limits&action=edit)  
+(class)   
 [ hive](https://en.cppreference.com/mwiki/index.php?title=cpp/container/hive&action=edit&redlink=1 "cpp/container/hive \(page does not exist\)")(C++26) |  collection that reuses erased elements' memory   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_hive&action=edit)  
+(class template)   
   
 ###  Functions  
   
 [ std::swap(std::hive)](https://en.cppreference.com/mwiki/index.php?title=cpp/container/hive/swap2&action=edit&redlink=1 "cpp/container/hive/swap2 \(page does not exist\)")(C++26) |  specializes the [std::swap](../utility/swap.html "cpp/algorithm/swap") algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_swap2&action=edit)  
+(function template)   
 [ erase(std::hive)erase_if(std::hive)](https://en.cppreference.com/mwiki/index.php?title=cpp/container/hive/erase2&action=edit&redlink=1 "cpp/container/hive/erase2 \(page does not exist\)")(C++26) |  erases all elements satisfying specific criteria   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_erase_seq&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/hive&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     #include <compare>
@@ -266,7 +266,7 @@ This header is part of the [containers](../container.html "cpp/container") libra
       }
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/hive&action=edit&section=T-1 "Template:cpp/synopsis/hive")] Class template std::hive
+#### Class template std::hive
     
     
     namespace std {

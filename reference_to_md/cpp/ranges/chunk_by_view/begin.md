@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::chunk_by_view`](../chunk_by_view.html "cpp/ranges/chunk by view")
 
@@ -247,7 +247,7 @@ chunk_by_view::_iterator_ ::operator--
 chunk_by_view::_iterator_ ::operator--(int)](iterator/operator_arith.html "cpp/ranges/chunk by view/iterator/operator arith")  
 [operator==(chunk_by_view::_iterator_)](iterator/operator_cmp.html "cpp/ranges/chunk by view/iterator/operator cmp")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/chunk_by_view/navbar_content&action=edit)
+
 
 constexpr /*iterator*/ begin(); |  |  (since C++23)  
 ---|---|---  
@@ -283,28 +283,28 @@ The behavior is undefined if the underlying predicate `_[pred_](../chunk_by_view
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/chunk_by_view/begin&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/chunk_by_view/begin&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 [Iterator](iterator.html "cpp/ranges/chunk by view/iterator") to the first element. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/chunk_by_view/begin&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 In order to provide the amortized constant-time complexity required by the [`range`](../range.html "cpp/ranges/range") concept, this function caches the result within the data member `_[begin_](../chunk_by_view.html#begin "cpp/ranges/chunk by view")_` for use on subsequent calls. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/chunk_by_view/begin&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/chunk_by_view/begin&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ end](end.html "cpp/ranges/chunk by view/end") |  returns an iterator or a sentinel to the end   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/dsc_end&action=edit)  
+(public member function)   
 ---|---  
 [ ranges::begin](../begin.html "cpp/ranges/begin")(C++20) |  returns an iterator to the beginning of a range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_begin&action=edit)
+(customization point object)

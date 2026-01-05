@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -71,7 +71,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::mdspan`](../mdspan.html "cpp/container/mdspan")
 
@@ -120,7 +120,7 @@ Tables
 [submdspan_mapping_result](submdspan_mapping_result.html "cpp/container/mdspan/submdspan mapping result")(C++26)  
 [Deduction guides](deduction_guides.html "cpp/container/mdspan/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/navbar_content&action=edit)
+
 
 template< class... OtherIndexTypes >  
 constexpr reference operator[]( OtherIndexTypes... indices ) const; |  (1)  |  (since C++23)  
@@ -175,22 +175,22 @@ This overload participates in overload resolution only if all following values a
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/operator_at&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 indices  |  \-  |  the indices of the element to access   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/operator_at&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 A reference to the element. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/operator_at&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/operator_at&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -198,7 +198,7 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 3974](https://cplusplus.github.io/LWG/issue3974) | C++23  | overloads (2,3) did not apply `extents_type::``_index-cast_` | applies   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/operator_at&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 | This section is incomplete   
 ---|---

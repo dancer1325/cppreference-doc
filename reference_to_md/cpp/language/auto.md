@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [Declarations](declarations.html "cpp/language/declarations")
 
@@ -280,7 +280,7 @@ Other declarations
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/declarations/navbar_content&action=edit)
+
 
 A placeholder type specifier designates a _placeholder type_ that will be replaced later, typically by deduction from an [initializer](initialization.html "cpp/language/initialization"). 
 
@@ -303,7 +303,7 @@ A placeholder type specifier designates a _placeholder type_ that will be replac
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/auto&action=edit&section=1 "Edit section: Syntax")] Syntax  
+### Syntax  
   
 ---  
 type-constraint ﻿(optional) `**auto**` |  (1)  |   
@@ -325,7 +325,7 @@ If type-constraint is present, let `T` be the type deduced for the placeholder, 
 Deduction fails if the constraint expression is invalid or returns false.  | (since C++20)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/auto&action=edit&section=2 "Edit section: Explanation")] Explanation
+### Explanation
 
 A placeholder type specifier may appear in the following contexts: 
 
@@ -346,7 +346,7 @@ In the following parameter declarations, the type of the parameter declared can 
 
 | (since C++20)  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/auto&action=edit&section=4 "Edit section: Function declarations")] Function declarations
+#### Function declarations
 
 A placeholder type can appear in the [declaration specifiers](declarations.html#Specifiers "cpp/language/declarations") for a [function declarator](function.html "cpp/language/function") that includes a trailing return type. 
 
@@ -358,7 +358,7 @@ A placeholder type can appear in the declaration specifiers or [type specifiers]
     auto g() { return 0.0; } // OK since C++14: g returns double
     auto h(); // OK since C++14: h’s return type will be deduced when it is defined
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/auto&action=edit&section=5 "Edit section: Variable declarations")] Variable declarations
+#### Variable declarations
 
 The type of a variable declared using a placeholder type is deduced from its [initializer](initialization.html "cpp/language/initialization"). This use is allowed in an initializing declaration of a variable. 
 
@@ -379,7 +379,7 @@ The placeholder type can only appear as one of the [declaration specifiers](decl
 The auto specifier can be used in a [structured binding](structured_binding.html "cpp/language/structured binding") declaration.  | (since C++17)  
 ---|---  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/auto&action=edit&section=7 "Edit section: new expressions")] new expressions
+#### new expressions
 
 A placeholder type can be used in the type specifier sequence of the type-id of a [new expression](new.html "cpp/language/new"). In such a type-id, the placeholder type must appear as one of the type specifiers in the type specifier sequence or a trailing return type that specifies the type that replaces such a type specifier. 
 
@@ -388,7 +388,7 @@ A placeholder type can be used in the type specifier sequence of the type-id of 
 The auto type specifier can be used as the type specifier of a [function-style cast](explicit_cast.html "cpp/language/explicit cast").  | (since C++23)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/auto&action=edit&section=9 "Edit section: Notes")] Notes
+### Notes
 
 Until C++11, auto had the semantic of a [storage duration specifier](storage_duration.html "cpp/language/storage duration"). 
 
@@ -426,11 +426,11 @@ Feature-test macro | Value | Std | Feature
 ---|---|---|---  
 [`__cpp_decltype_auto`](../experimental/feature_test.html#cpp_decltype_auto "cpp/feature test") | [`201304L`](../compiler_support/14.html#cpp_decltype_auto_201304L "cpp/compiler support/14") | (C++14) | decltype(auto)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/auto&action=edit&section=10 "Edit section: Keywords")] Keywords
+### Keywords
 
 [`auto`](../keyword/auto.html "cpp/keyword/auto"), [`decltype`](../keywords/decltype.html "cpp/keyword/decltype")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/auto&action=edit&section=11 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -492,7 +492,7 @@ Possible output:
     before modification through c2, a = 3
      after modification through c2, a = 4
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/auto&action=edit&section=12 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -512,7 +512,7 @@ of the return type of function pointer variables from initializers  | allowed
 elements, deduce element  
 type for single element   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/auto&action=edit&section=13 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::drop_while_view`](../drop_while_view.html "cpp/ranges/drop while view")
 
@@ -237,7 +237,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
 **drop_while_view::end**  
 [Deduction guides](deduction_guides.html "cpp/ranges/drop while view/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/drop_while_view/navbar_content&action=edit)
+
 
 constexpr auto end(); |  |  (since C++20)  
 ---|---|---  
@@ -257,15 +257,15 @@ Effectively returns [ranges::end](../end.html)(base_), where [`_base__`](../drop
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/drop_while_view/end&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/drop_while_view/end&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 A sentinel or an iterator representing the end of the view. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/drop_while_view/end&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -281,8 +281,8 @@ Run this code
         [assert](../../error/assert.html)(view.end()[-1] == 5);
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/drop_while_view/end&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ begin](begin.html "cpp/ranges/drop while view/begin") |  returns an iterator to the beginning   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/dsc_begin&action=edit)  
+(public member function)   
 ---|---

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -71,7 +71,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::forward_list`](../forward_list.html "cpp/container/forward list")
 
@@ -126,7 +126,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/forward list/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/forward_list/navbar_content&action=edit)
+
 
 iterator erase_after( const_iterator pos ); |  (1) | (since C++11)   
 (constexpr since C++26)  
@@ -157,29 +157,29 @@ If any iterator in the range `(`first`, `last`)` is not dereferceable, the behav
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/forward_list/erase_after&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 pos  |  \-  |  iterator to the element preceding the element to remove   
 ---|---|---  
 first, last  |  \-  |  the pair of iterators defining the [range](../../iterator.html#Ranges "cpp/iterator") of elements to remove   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/forward_list/erase_after&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) Iterator to the element following the erased one, or [end()](end.html "cpp/container/forward list/end") if no such element exists.
 
 2) last
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/forward_list/erase_after&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 1) Constant.
 
 2) Linear in distance between first and last.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/forward_list/erase_after&action=edit&section=4 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Throws nothing. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/forward_list/erase_after&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -216,8 +216,8 @@ Output:
     2 3 4 5 6 7 8 9
     2 3 6 7 8 9
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/forward_list/erase_after&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ clear](clear.html "cpp/container/forward list/clear") |  clears the contents   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_clear&action=edit)  
+(public member function)   
 ---|---

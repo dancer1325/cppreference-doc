@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::variant`](../variant.html "cpp/utility/variant")
 
@@ -161,7 +161,7 @@ Common vocabulary types
 [Helper objects](../variant.html#Helper_objects "cpp/utility/variant")  
 [variant_npos](variant_npos.html "cpp/utility/variant/variant npos")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variant/navbar_content&action=edit)
+
 
 constexpr [std::size_t](../../types/size_t.html) index() const noexcept; |  |  (since C++17)  
 ---|---|---  
@@ -171,7 +171,7 @@ Returns the zero-based index of the alternative that is currently held by the va
 
 If the variant is [`valueless_by_exception`](valueless_by_exception.html "cpp/utility/variant/valueless by exception"), returns [`variant_npos`](variant_npos.html "cpp/utility/variant/variant npos"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variant/index&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -194,10 +194,10 @@ Output:
     v.index = 1
     v.index = 0
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variant/index&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ holds_alternative](holds_alternative.html "cpp/utility/variant/holds alternative")(C++17) |  checks if a `variant` currently holds a given type   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variant/dsc_holds_alternative&action=edit)  
+(function template)   
 ---|---  
 [ get(std::variant)](get.html "cpp/utility/variant/get")(C++17) |  reads the value of the variant given the index or the type (if the type is unique), throws on error   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variant/dsc_get&action=edit)
+(function template) 

@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::flat_map`](../flat_map.html "cpp/container/flat map")
 
@@ -143,7 +143,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/flat map/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/flat_map/navbar_content&action=edit)
+
 
 T& at( const Key& key ); |  (1)  |  (since C++23)  
 ---|---|---  
@@ -176,27 +176,27 @@ These overloads participate in overload resolution only if `Compare` is [transpa
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/at_assoc&action=edit&section=T-1 "Template:cpp/container/at assoc")] Parameters
+### Parameters
 
 key  |  \-  |  the key of the element to find   
 ---|---|---  
 x  |  \-  |  a value of any type that can be transparently compared with a key   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/at_assoc&action=edit&section=T-2 "Template:cpp/container/at assoc")] Return value
+### Return value
 
 A reference to the mapped value of the requested element. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/at_assoc&action=edit&section=T-3 "Template:cpp/container/at assoc")] Exceptions
+### Exceptions
 
 1,2) [std::out_of_range](../../error/out_of_range.html "cpp/error/out of range") if the container does not have an element with the specified key.
 
 3,4) [std::out_of_range](../../error/out_of_range.html "cpp/error/out of range") if the container does not have the specified element, that is, if find(x) == end() is true.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/at_assoc&action=edit&section=T-4 "Template:cpp/container/at assoc")] Complexity
+### Complexity
 
 Logarithmic in the size of the container. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/at_assoc&action=edit&section=T-6 "Template:cpp/container/at assoc")] Example
+### Example
 
 Run this code
     
@@ -251,10 +251,10 @@ Possible output:
     1) out_of_range::what(): map::at:  key not found
     2) out_of_range::what(): map::at:  key not found
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/at_assoc&action=edit&section=T-8 "Template:cpp/container/at assoc")] See also
+### See also
 
 [ operator[]](operator_at.html "cpp/container/flat map/operator at") |  access or insert specified element   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_operator_at&action=edit)  
+(public member function)   
 ---|---  
 [ find](find.html "cpp/container/flat map/find") |  finds element with specific key   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_find&action=edit)
+(public member function) 

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Bit manipulation](../utility/bit.html "cpp/utility/bit")
 
@@ -152,7 +152,7 @@ Common vocabulary types
 [Endian](../utility/bit.html#Endian "cpp/utility/bit")  
 [endian](../types/endian.html "cpp/types/endian")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/bit/navbar_content&action=edit)
+
 
 Defined in header `[<bit>](../header/bit.html "cpp/header/bit")` |  |   
 ---|---|---  
@@ -176,16 +176,16 @@ This overload participates in overload resolution only if `T` is an unsigned int
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/has_single_bit&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 x  |  \-  |  value of unsigned integer type   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/has_single_bit&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 true if x is an integral power of two; otherwise false. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/has_single_bit&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Prior to [P1956R1](https://wg21.link/P1956R1), the proposed name for this function template was `ispow2`.
 
@@ -193,7 +193,7 @@ Prior to [P1956R1](https://wg21.link/P1956R1), the proposed name for this functi
 ---|---|---|---  
 [`__cpp_lib_int_pow2`](../experimental/feature_test.html#cpp_lib_int_pow2 "cpp/feature test") | [`202002L`](../compiler_support/20.html#cpp_lib_int_pow2_202002L "cpp/compiler support/20") | (C++20) | [Integral power-of-2 operations](../utility/bit.html "cpp/utility/bit")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/has_single_bit&action=edit&section=4 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     template<typename T, typename ... U>
@@ -217,7 +217,7 @@ Prior to [P1956R1](https://wg21.link/P1956R1), the proposed name for this functi
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/has_single_bit&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -252,14 +252,14 @@ Output:
     u = 8 = 1000 = 2^3 (is power of two)
     u = 9 = 1001
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/has_single_bit&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ popcount](popcount.html "cpp/numeric/popcount")(C++20) |  counts the number of 1 bits in an unsigned integer   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/dsc_popcount&action=edit)  
+(function template)   
 ---|---  
 [ count](../utility/bitset/count.html "cpp/utility/bitset/count") |  returns the number of bits set to true   
-(public member function of `std::bitset<N>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/bitset/dsc_count&action=edit)  
+(public member function of `std::bitset<N>`)   
 [ test](../utility/bitset/test.html "cpp/utility/bitset/test") |  accesses specific bit   
-(public member function of `std::bitset<N>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/bitset/dsc_test&action=edit)
+(public member function of `std::bitset<N>`) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 Defined in header `[<ranges>](../header/ranges.html "cpp/header/ranges")` |  |   
 ---|---|---  
@@ -254,7 +254,7 @@ Users may specialize `enable_view` to true for cv-unqualified program-defined ty
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/view&action=edit&section=1 "Edit section: Semantic requirements")] Semantic requirements
+### Semantic requirements
 
 1) `T` models `view` only if: 
 
@@ -265,7 +265,7 @@ Users may specialize `enable_view` to true for cv-unqualified program-defined ty
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/view&action=edit&section=2 "Edit section: Specializations")] Specializations
+### Specializations
 
 Specializations of `enable_view` for all specializations of the following standard templates are defined as true: 
 
@@ -279,7 +279,7 @@ Specializations of `enable_view` for all specializations of the following standa
 | (since C++26)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/view&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Examples of `view` types are: 
 
@@ -295,7 +295,7 @@ While views were originally described as cheaply copyable and non-owning ranges,
 
 By default, a type modeling [`movable`](../concepts/movable.html "cpp/concepts/movable") and [`range`](range.html "cpp/ranges/range") is considered a view if it is publicly and unambiguously derived from `view_base`, or exactly one specialization of std::ranges::view_interface. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/view&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 A minimum view. 
     
@@ -310,7 +310,7 @@ A minimum view.
      
     static_assert(std::ranges::view<ArchetypalView>);
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/view&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

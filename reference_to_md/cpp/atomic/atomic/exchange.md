@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::atomic`](../atomic.html "cpp/atomic/atomic")
 
@@ -210,7 +210,7 @@ pointer types only](../atomic.html#Specialized_for_integral_and_pointer_types_on
 [atomic::fetch_xor](fetch_xor.html "cpp/atomic/atomic/fetch xor")  
 [atomic::operator&=atomic::operator|=atomic::operator^=](operator_arith3.html "cpp/atomic/atomic/operator arith3")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/navbar_content&action=edit)
+
 
 T exchange( T desired, [std::memory_order](../memory_order.html) order =  
 [std::memory_order_seq_cst](../memory_order.html) ) noexcept; |  (1)  |  (since C++11)  
@@ -234,17 +234,17 @@ It is deprecated if [std::atomic](../atomic.html)<T>::is_always_lock_free is fal
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic/exchange&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 desired  |  \-  |  value to assign   
 ---|---|---  
 order  |  \-  |  memory order constraints to enforce   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic/exchange&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The value of the atomic variable before the call. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic/exchange&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -317,10 +317,10 @@ Possible output:
     Thread #0 (id=139722340726528) wrote 4 replacing the old value 3.
     5 threads take 19 times in total to increment 0 to 5.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic/exchange&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ atomic_exchangeatomic_exchange_explicit](../atomic_exchange.html "cpp/atomic/atomic exchange")(C++11)(C++11) |  atomically replaces the value of the atomic object with non-atomic argument and returns the old value of the atomic   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/dsc_atomic_exchange&action=edit)  
+(function template)   
 ---|---  
 [ exchange](../../utility/exchange.html "cpp/utility/exchange")(C++14) |  replaces the argument with a new value and returns its previous value   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_exchange&action=edit)
+(function template) 

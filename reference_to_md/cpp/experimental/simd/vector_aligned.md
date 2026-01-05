@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Extensions for parallelism v2](../parallelism_2.html "cpp/experimental/parallelism 2")
 
@@ -92,7 +92,7 @@ Task blocks
 [define_task_blockdefine_task_block_restore_thread](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/define_task_block&action=edit&redlink=1 "cpp/experimental/define task block \(page does not exist\)")  
 [Data-parallel vectors](../simd.html "cpp/experimental/simd")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/parallelism_2/navbar_content&action=edit)
+
 
 [SIMD library](../simd.html "cpp/experimental/simd")
 
@@ -186,7 +186,7 @@ Task blocks
   
 [Math functions](../simd.html#Math_functions "cpp/experimental/simd")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/simd/navbar_content&action=edit)
+
 
 Defined in header `[<experimental/simd>](../../header/experimental/simd.html "cpp/header/experimental/simd")` |  |   
 ---|---|---  
@@ -196,16 +196,16 @@ inline constexpr vector_aligned_tag vector_aligned{}; |  |  (parallelism TS v2)
   
 This tag type indicates that the buffer of copy_from and copy_to is aligned to memory_alignment_v<T, U>, where the copy operation operates on the simd/simd_mask type T, and the buffer with element type U. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/simd/vector_aligned&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 This tag type allows to implement vector-aligned load and store. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/simd/vector_aligned&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ element_aligned_tagelement_aligned](element_aligned.html "cpp/experimental/simd/element aligned")(parallelism TS v2) |  flag indicating alignment of the load/store address to element alignment   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/simd/element_aligned&action=edit)  
+(class)   
 ---|---  
 [ overaligned_tagoveraligned](overaligned.html "cpp/experimental/simd/overaligned")(parallelism TS v2) |  flag indicating alignment of the load/store address to the specified alignment   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/simd/overaligned&action=edit)  
+(class template)   
 [ memory_alignment](memory_alignment.html "cpp/experimental/simd/memory alignment")(parallelism TS v2) |  obtains an appropriate alignment for **`vector_aligned`**   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/simd/dsc_memory_alignment&action=edit)
+(class template) 

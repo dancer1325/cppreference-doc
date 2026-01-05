@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::vector`](../vector.html "cpp/container/vector")
 
@@ -135,7 +135,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/vector/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/vector/navbar_content&action=edit)
+
 
 template< [container-compatible-range](../../ranges/to.html)<T> R >  
 constexpr void append_range( R&& rg ); |  | (since C++23)  
@@ -160,7 +160,7 @@ Each iterator in rg is dereferenced exactly once.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/append_range&action=edit&section=T-1 "Template:cpp/container/append range")] Parameters
+### Parameters
 
 rg  |  \-  |  a [container compatible range](../../ranges/to.html#container_compatible_range "cpp/ranges/to"), that is, an [`input_range`](../../ranges/input_range.html "cpp/ranges/input range") whose elements are convertible to `T`  
 ---|---|---  
@@ -174,7 +174,7 @@ Type requirements
 
   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/append_range&action=edit&section=T-2 "Template:cpp/container/append range")] Complexity
+### Complexity
 
 If reallocation happens, linear in the number of elements of the resulting `vector`; otherwise, linear in the number of elements inserted plus the distance to the [`end()`](end.html "cpp/container/vector/end"). 
 
@@ -186,7 +186,7 @@ If one of the following conditions is satisfied, performs at most one reallocati
 | (since C++26)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/append_range&action=edit&section=T-3 "Template:cpp/container/append range")] Exceptions
+### Exceptions
 
 If an exception is thrown other than by the copy constructor, move constructor, assignment operator, or move assignment operator of `T` or by any `InputIterator` operation there are no effects. If an exception is thrown while inserting a single element at the end and `T` is [CopyInsertable](../../named_req/CopyInsertable.html "cpp/named req/CopyInsertable") or [std::is_nothrow_move_constructible_v](../../types/is_move_constructible.html "cpp/types/is move constructible")`<T>` is true, there are no effects. Otherwise, if an exception is thrown by the move constructor of a non-[CopyInsertable](../../named_req/CopyInsertable.html "cpp/named req/CopyInsertable") `T`, the effects are unspecified. 
 
@@ -196,7 +196,7 @@ If an exception is thrown other than by the copy constructor, move constructor, 
 ---|---|---|---  
 [`__cpp_lib_containers_ranges`](../../experimental/feature_test.html#cpp_lib_containers_ranges "cpp/feature test") | [`202202L`](../../compiler_support/23.html#cpp_lib_containers_ranges_202202L "cpp/compiler support/23") | (C++23) | [Ranges-aware](../../ranges/to.html#container_compatible_range "cpp/ranges/to") construction and insertion   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/append_range&action=edit&section=T-5 "Template:cpp/container/append range")] Example
+### Example
 
 Run this code
     
@@ -217,7 +217,7 @@ Run this code
         [assert](../../error/assert.html)((head == [std::vector](../vector.html){1, 2, 3, 4, -5, -6, -7}));
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/append_range&action=edit&section=T-6 "Template:cpp/container/append range")] See also
+### See also
 
 [ insert_range](insert_range.html "cpp/container/vector/insert range")(C++23) |  inserts a range of elements   
 (public member function)  

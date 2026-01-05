@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Execution control library](../experimental/execution.html "cpp/execution")
 
@@ -155,7 +155,7 @@ schedule_result_t](schedule.html "cpp/execution/schedule")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/execution/navbar_content&action=edit)
+
 
 Defined in header `[<execution>](../header/execution.html "cpp/header/execution")` |  |   
 ---|---|---  
@@ -163,17 +163,17 @@ template< [std::move_constructible](../concepts/move_constructible.html) Error >
 execution::sender auto stopped_as_error( execution::sender auto snd, Error err ); |  |  (since C++26)  
 | |   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/execution/stopped_as_error&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 snd  |  \-  |  input sender of which the stopped channel is mapped into err  
 ---|---|---  
 err  |  \-  |  error to which the stop channel is mapped into   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/execution/stopped_as_error&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Returns a sender that maps the stopped channel to an error of err. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/execution/stopped_as_error&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::duration`](../duration.html "cpp/chrono/duration")
 
@@ -156,7 +156,7 @@ Helper classes
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/duration/navbar_content&action=edit)
+
 
 constexpr duration() = default; |  (1)  |  (since C++11)  
 ---|---|---  
@@ -220,13 +220,13 @@ This overload participates in overload resolution only if no overflow is induced
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/duration/duration&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 r  |  \-  |  a tick count   
 ---|---|---  
 d  |  \-  |  a duration to copy from   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/duration/duration&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 The following code shows several examples (both valid and invalid) of how to construct durations:
 
@@ -255,7 +255,7 @@ Run this code
         [std::chrono::duration](../duration.html)<double, [std::milli](../../numeric/ratio/ratio.html)> ms2 = us; // 3.0 milliseconds
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/duration/duration&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -268,8 +268,8 @@ participate in overload
 resolution in this case   
 [LWG 3050](https://cplusplus.github.io/LWG/issue3050) | C++11  | convertibility constraint used non-const xvalue  | use const lvalues instead   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/duration/duration&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ operator=](operator=.html "cpp/chrono/duration/operator=") |  assigns the contents   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/duration/dsc_operator%3D&action=edit)  
+(public member function)   
 ---|---

@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Ranges](../../ranges.html "cpp/experimental/ranges")
 
@@ -66,7 +66,7 @@
 [Ranges](../../ranges.html#Ranges "cpp/experimental/ranges")  
 [Algorithms](../../ranges.html#Algorithms "cpp/experimental/ranges")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/navbar_content&action=edit)
+
 
 [Algorithms library](../../ranges.html#Algorithms "cpp/experimental/ranges")
 
@@ -224,7 +224,7 @@ Permutations
 | [prev_permutation](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/prev_permutation&action=edit&redlink=1 "cpp/experimental/ranges/algorithm/prev permutation \(page does not exist\)")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/navbar_content&action=edit)
+
 
 Defined in header `[<experimental/ranges/algorithm>](../../../header/experimental/ranges/algorithm.html "cpp/header/experimental/ranges/algorithm")` |  |   
 ---|---|---  
@@ -270,7 +270,7 @@ Notwithstanding the declarations depicted above, the actual number and order of 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/all_any_none_of&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  the range of the elements to examine   
 ---|---|---  
@@ -278,7 +278,7 @@ r  |  \-  |  the range of the elements to examine
 pred  |  \-  |  predicate to apply to the projected elements   
 proj  |  \-  |  projection to apply to the elements   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/all_any_none_of&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1,2) true if pred returns true for all elements in the range, false otherwise. Returns true if the range is empty.
 
@@ -286,11 +286,11 @@ proj  |  \-  |  projection to apply to the elements
 
 5,6) true if pred returns true for no elements in the range, false otherwise. Returns true if the range is empty.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/all_any_none_of&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 1-6) At most last - first applications of the predicate and last - first applications of the projection.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/all_any_none_of&action=edit&section=4 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
 
 First version   
 ---  
@@ -347,7 +347,7 @@ Third version
                                [std::ref](../../../utility/functional/ref.html)(pred), [std::ref](../../../utility/functional/ref.html)(proj));
     }  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/all_any_none_of&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -394,8 +394,8 @@ Output:
     None of them are odd
     At least one number is divisible by 7
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/all_any_none_of&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ all_ofany_ofnone_of](../../../algorithm/none_of.html "cpp/algorithm/all any none of")(C++11)(C++11)(C++11) |  checks if a predicate is true for all, any or none of the elements in a range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_all_any_none_of&action=edit)  
+(function template)   
 ---|---

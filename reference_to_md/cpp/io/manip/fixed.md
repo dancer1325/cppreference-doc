@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [Input/output manipulators](../manip.html "cpp/io/manip")
 
@@ -154,7 +154,7 @@ Time and money I/O
 Quoted manipulator  
 [quoted](quoted.html "cpp/io/manip/quoted")(C++14)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/navbar_content&action=edit)
+
 
 Defined in header `[<ios>](../../header/ios.html "cpp/header/ios")` |  |   
 ---|---|---  
@@ -187,22 +187,22 @@ This is an I/O manipulator, it may be called with an expression such as out << s
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/fixed&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 str  |  \-  |  reference to I/O stream   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/fixed&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 str (reference to the stream after manipulation). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/fixed&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Hexadecimal floating-point formatting ignores the stream precision specification, as required by the specification of [std::num_put::do_put](../../locale/num_put/put.html "cpp/locale/num put/put"). 
 
 These manipulators do not affect floating-point parsing. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/fixed&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -273,8 +273,8 @@ Output:
     Parsing 0x1.8p+0 gives 1.5
     Parsing 0x1P-1022 gives 2.22507e-308
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/fixed&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ setprecision](setprecision.html "cpp/io/manip/setprecision") |  changes floating-point precision   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_setprecision&action=edit)  
+(function)   
 ---|---

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 Defined in header `[<ranges>](../header/ranges.html "cpp/header/ranges")` |  |   
 ---|---|---  
@@ -253,15 +253,15 @@ constexpr bool enable_borrowed_range = false; |  (2)  |  (since C++20)
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/borrowed_range&action=edit&section=1 "Edit section: Semantic requirements")] Semantic requirements
+### Semantic requirements
 
 Let `U` be [std::remove_reference_t](../types/remove_reference.html)<T> if `T` is an rvalue reference type, and `T` otherwise. Given a variable u of type `U`, `T` models `borrowed_range` only if the validity of iterators obtained from u is not tied to the lifetime of that variable. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/borrowed_range&action=edit&section=2 "Edit section: Specializations")] Specializations
+### Specializations
 
 A program may specialize `enable_borrowed_range` to true for cv-unqualified [program-defined types](../language/type-id.html#Program-defined_type "cpp/language/type") which model `borrowed_range`, and false for types which do not. Such specializations shall be usable in [constant expression](../language/constant_expression.html "cpp/language/constant expression") and have type const bool. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/borrowed_range&action=edit&section=3 "Edit section: Unconditionally borrowed ranges in the standard library")] Unconditionally borrowed ranges in the standard library
+#### Unconditionally borrowed ranges in the standard library
 
 Specializations of `enable_borrowed_range` for all specializations of the following standard templates are defined as true: 
 
@@ -274,7 +274,7 @@ Specializations of `enable_borrowed_range` for all specializations of the follow
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/borrowed_range&action=edit&section=4 "Edit section: Conditionally borrowed ranges in the standard library")] Conditionally borrowed ranges in the standard library
+#### Conditionally borrowed ranges in the standard library
 
 Specialization of `enable_borrowed_range` for the following standard range adaptors are defined as true if and only if std::ranges::enable_borrowed_range<V> is true, where `V` is the underlying view type: 
 
@@ -327,7 +327,7 @@ Specialization of `enable_borrowed_range` for the following standard range adapt
 | (since C++23)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/borrowed_range&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Demonstrates the specializations of `enable_borrowed_range` for program defined types. Such specializations protect against potentially dangling results.
 
@@ -384,8 +384,8 @@ Output:
     
     42 42
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/borrowed_range&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ ranges::dangling](dangling.html "cpp/ranges/dangling")(C++20) |  a placeholder type indicating that an iterator or a `subrange` should not be returned since it would be dangling   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_dangling&action=edit)  
+(class)   
 ---|---

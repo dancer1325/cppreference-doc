@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Filesystem library](../../fs.html "cpp/experimental/fs")
 
@@ -99,13 +99,13 @@ File types
 [filesystem::is_socket](../is_socket.html "cpp/experimental/fs/is socket")  
 [filesystem::is_symlink](../is_symlink.html "cpp/experimental/fs/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/navbar_content&action=edit)
+
 
 [`file_status`](../file_status.html "cpp/experimental/fs/file status")
 
 [Template:cpp/experimental/fs/file status/navbar content](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/file_status/navbar_content&action=edit&redlink=1 "Template:cpp/experimental/fs/file status/navbar content \(page does not exist\)")
 
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/file_status/navbar_content&action=edit)
+
 
 file_status( const file_status& ) = default; |  (1)  |  (filesystem TS)  
 ---|---|---  
@@ -122,12 +122,12 @@ Constructs a new `file_status` object.
 
 3) Initializes the file status object with type as type and permissions as permissions.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/file_status/file_status&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 | This section is incomplete   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/file_status/file_status&action=edit&section=2 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 [`noexcept`](../../../language/noexcept_spec.html "cpp/language/noexcept spec") specification: 
 

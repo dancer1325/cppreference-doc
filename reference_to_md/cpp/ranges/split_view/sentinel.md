@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::split_view`](../split_view.html "cpp/ranges/split view")
 
@@ -240,7 +240,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
 **split_view::_sentinel_**  
 [Deduction guides](deduction_guides.html "cpp/ranges/split view/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/split_view/navbar_content&action=edit)
+
 
 class /*sentinel*/; |  | (since C++20)   
 (exposition only*)  
@@ -260,14 +260,14 @@ The return type of [`split_view::end`](../split_view.html "cpp/ranges/split view
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/split_view/sentinel&action=edit&section=1 "Edit section: Data members")] Data members
+### Data members
 
 Member  |  Description   
 ---|---  
 [ranges::sentinel_t](../iterator_t.html)<V> `_end__` (private) |  the sentinel for the underlying [`view`](../view.html "cpp/ranges/view")  
 (exposition-only member object*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/split_view/sentinel&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 (constructor)(C++20) |  constructs a sentinel   
 (public member function)  
@@ -284,7 +284,7 @@ constexpr explicit /*sentinel*/( [ranges::split_view](../split_view.html)& paren
 
 2) Initializes `_[end_](sentinel.html#end)_` with [ranges::end](../end.html)(parent.base_). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/split_view/sentinel&action=edit&section=3 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 operator==(C++20) |  compares the underlying iterator and the underlying sentinel   
 (function)  

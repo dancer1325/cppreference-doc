@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [`std::valarray`](../valarray.html "cpp/numeric/valarray")
 
@@ -155,7 +155,7 @@
   
 [Deduction guides](deduction_guides.html "cpp/numeric/valarray/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/navbar_content&action=edit)
+
 
 template< class T >   
 /* see below */ begin( valarray<T>& v ); |  (1)  |  (since C++11)  
@@ -213,26 +213,26 @@ The iterator returned from this function is invalidated when the member function
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/begin2&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 v  |  \-  |  a numeric array   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/begin2&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Iterator to the first value in the numeric array. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/impldef_exception&action=edit&section=T-1 "Template:cpp/impldef exception")] Exceptions
+### Exceptions
 
 May throw implementation-defined exceptions. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/begin2&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Unlike other functions that take `std::valarray` arguments, `begin()` cannot accept the replacement types (such as the types produced by expression templates) that may be returned from expressions involving valarrays: [std::begin](../../iterator/begin.html)(v1 + v2) is not portable, [std::begin](../../iterator/begin.html)([std::valarray](../valarray.html)<T>(v1 + v2)) has to be used instead. 
 
 The intent of this function is to allow [range for loops](../../language/range-for.html "cpp/language/range-for") to work with valarrays, not to provide container semantics. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/begin2&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -271,7 +271,7 @@ Output:
     25 31 71 56 21 21 15 34 21 27 12 6 
     Hello, C++!
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/begin2&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -281,8 +281,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 2\. it was unspecified when the returned iterators will be invalidated  | 1\. not required  
 2\. specified   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/begin2&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ std::end(std::valarray)](end2.html "cpp/numeric/valarray/end2")(C++11) |  specializes [std::end](../../iterator/end.html "cpp/iterator/end")   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_end2&action=edit)  
+(function template)   
 ---|---

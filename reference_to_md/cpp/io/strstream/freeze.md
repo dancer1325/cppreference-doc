@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -79,7 +79,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::strstream`](../strstream.html "cpp/io/strstream")
 
@@ -92,7 +92,7 @@ Member functions
 [strstream::pcount](pcount.html "cpp/io/strstream/pcount")  
 **strstream::freeze**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/strstream/navbar_content&action=edit)
+
 
 void freeze( bool flag = true ); |  |  (deprecated in C++98)   
 (removed in C++26)  
@@ -112,20 +112,20 @@ If the stream is using a dynamically-allocated array for output, disables (flag 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/strstream/freeze&action=edit&section=T-1 "Template:cpp/io/strstream/freeze")] Notes
+### Notes
 
 After a call to [str()](str.html "cpp/io/strstream/str"), dynamic streams become frozen automatically. A call to freeze(false) is required before exiting the scope in which this strstream object was created, otherwise the destructor will leak memory. Also, additional output to a frozen stream may be truncated once it reaches the end of the allocated buffer. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/strstream/freeze&action=edit&section=T-2 "Template:cpp/io/strstream/freeze")] Parameters
+### Parameters
 
 flag  |  \-  |  desired status   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/strstream/freeze&action=edit&section=T-3 "Template:cpp/io/strstream/freeze")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/strstream/freeze&action=edit&section=T-4 "Template:cpp/io/strstream/freeze")] Example
+### Example
 
 Run this code
     
@@ -163,8 +163,8 @@ Possible output:
     The output stream contains "Test: 1.23"
     The output stream contains "Test: 1.23 More text"
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/strstream/freeze&action=edit&section=T-5 "Template:cpp/io/strstream/freeze")] See also
+### See also
 
 [ freeze](../strstreambuf/freeze.html "cpp/io/strstreambuf/freeze") |  sets/clears the frozen state of the buffer   
-(public member function of `std::strstreambuf`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/strstreambuf/dsc_freeze&action=edit)  
+(public member function of `std::strstreambuf`)   
 ---|---

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Regular expressions library](../../regex.html "cpp/regex")
 
@@ -81,7 +81,7 @@ Constants
 Regex Grammar  
 [Modified ECMAScript-262](../ecmascript.html "cpp/regex/ecmascript")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/navbar_content&action=edit)
+
 
 [`std::match_results`](../match_results.html "cpp/regex/match results")
 
@@ -114,7 +114,7 @@ Non-member functions
 [operator==operator!=](operator_cmp.html "cpp/regex/match results/operator cmp")(until C++20)  
 [swap(std::match_results)](swap2.html "cpp/regex/match results/swap2")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/match_results/navbar_content&action=edit)
+
 
 iterator end() noexcept; |  |  (since C++11)  
 ---|---|---  
@@ -134,20 +134,20 @@ Returns an iterator to the end of the list of sub-matches.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/match_results/end&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/match_results/end&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Iterator to the element past the last sub-match. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/match_results/end&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Constant. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/match_results/end&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ begincbegin](begin.html "cpp/regex/match results/begin") |  returns iterator to the beginning of the list of sub-matches   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/match_results/dsc_begin&action=edit)  
+(public member function)   
 ---|---

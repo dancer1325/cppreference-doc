@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](../empty.html "cpp/iterator/empty")(C++17)  
 [data](../data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 [`std::istreambuf_iterator`](../istreambuf_iterator.html "cpp/iterator/istreambuf iterator")
 
@@ -207,7 +207,7 @@ Member functions
 Non-member functions  
 [operator==operator!=](operator_cmp.html "cpp/iterator/istreambuf iterator/operator cmp")(until C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/istreambuf_iterator/navbar_content&action=edit)
+
 
 bool equal( const istreambuf_iterator& it ) const; |  |   
 ---|---|---  
@@ -225,20 +225,20 @@ Checks whether both *this and it are valid, or both are invalid, regardless of t
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/istreambuf_iterator/equal&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 it  |  \-  |  another stream buffer iterator to compare to   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/istreambuf_iterator/equal&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 true if both *this and it are valid, or both are invalid, false otherwise. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/impldef_exception&action=edit&section=T-1 "Template:cpp/impldef exception")] Exceptions
+### Exceptions
 
 May throw implementation-defined exceptions. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/istreambuf_iterator/equal&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

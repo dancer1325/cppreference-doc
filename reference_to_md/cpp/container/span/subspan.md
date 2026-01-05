@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -71,7 +71,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::span`](../span.html "cpp/container/span")
 
@@ -104,7 +104,7 @@ Tables
 [dynamic_extent](dynamic_extent.html "cpp/container/span/dynamic extent")  
 [Deduction guides](deduction_guides.html "cpp/container/span/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/span/navbar_content&action=edit)
+
 
 template< [std::size_t](../../types/size_t.html) Offset,  
 [std::size_t](../../types/size_t.html) Count = [std::dynamic_extent](dynamic_extent.html) >  
@@ -161,7 +161,7 @@ If offset <= size() && (count == [std::dynamic_extent](dynamic_extent.html) || c
 
 | (since C++26)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/span/subspan&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 1) [std::span](../span.html)<element_type, FinalExtent>  
 (data() + Offset, Count != [std::dynamic_extent](dynamic_extent.html) ? Count : size() - Offset))
@@ -169,7 +169,7 @@ If offset <= size() && (count == [std::dynamic_extent](dynamic_extent.html) || c
 2) [std::span](../span.html)<element_type, [std::dynamic_extent](dynamic_extent.html)>  
 (data() + offset, count != [std::dynamic_extent](dynamic_extent.html) ? count : size() - offset))
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/span/subspan&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -210,10 +210,10 @@ Output:
     FGHIJKLMNOPQRSTUVWXY
     GHIJKLMNOPQRSTUVWXYZ
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/span/subspan&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ first](first.html "cpp/container/span/first") |  obtains a subspan consisting of the first `N` elements of the sequence   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/span/dsc_first&action=edit)  
+(public member function)   
 ---|---  
 [ last](last.html "cpp/container/span/last") |  obtains a subspan consisting of the last `N` elements of the sequence   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/span/dsc_last&action=edit)
+(public member function) 

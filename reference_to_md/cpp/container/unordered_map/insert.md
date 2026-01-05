@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -71,7 +71,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::unordered_map`](../unordered_map.html "cpp/container/unordered map")
 
@@ -137,7 +137,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/unordered map/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/unordered_map/navbar_content&action=edit)
+
 
 [std::pair](../../utility/pair.html)<iterator, bool> insert( const value_type& value ); |  (1)  |  (since C++11)  
 ---|---|---  
@@ -192,7 +192,7 @@ If rehashing occurs (due to the insertion), all iterators are invalidated. Other
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/unordered_map/insert&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 hint  |  \-  |  iterator, used as a suggestion as to where to insert the content   
 ---|---|---  
@@ -203,7 +203,7 @@ nh  |  \-  |  a compatible [node handle](../node_handle.html "cpp/container/node
 Type requirements   
 -`InputIt` must meet the requirements of [LegacyInputIterator](../../named_req/InputIterator.html "cpp/named req/InputIterator").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/unordered_map/insert&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1-3) A pair consisting of an iterator to the inserted element (or to the element that prevented the insertion) and a bool value set to true if and only if the insertion took place.
 
@@ -221,7 +221,7 @@ Type requirements
 
 10) End iterator if nh was empty, iterator pointing to the inserted element if insertion took place, and iterator pointing to an element with a key equivalent to nh.key() if it failed.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/unordered_map/insert&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 1-6) If an exception is thrown for any reason, these functions have no effect ([strong exception safety guarantee](../../language/exceptions.html#Exception_safety "cpp/language/exceptions")).
 
@@ -229,7 +229,7 @@ Type requirements
 
 9,10) If an exception is thrown for any reason, these functions have no effect ([strong exception safety guarantee](../../language/exceptions.html#Exception_safety "cpp/language/exceptions")).
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/unordered_map/insert&action=edit&section=4 "Edit section: Complexity")] Complexity
+### Complexity
 
 1-6) Average case: `O(1)`, worst case `O(size())`.
 
@@ -237,11 +237,11 @@ Type requirements
 
 9,10) Average case: `O(1)`, worst case `O(size())`.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/unordered_map/insert&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 The hinted insert (([4-6](insert.html#Version_4)) and ([10](insert.html#Version_10))) does not return a boolean in order to be signature-compatible with positional insert on sequential containers, such as [std::vector::insert](../vector/insert.html "cpp/container/vector/insert"). This makes it possible to create generic inserters such as [std::inserter](../../iterator/inserter.html "cpp/iterator/inserter"). One way to check success of a hinted insert is to compare [`size()`](size.html "cpp/container/unordered map/size") before and after. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/unordered_map/insert&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -277,7 +277,7 @@ Possible output:
      3 => three
      4 => four
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/unordered_map/insert&action=edit&section=7 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -287,14 +287,14 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 resolution if `P` is implicitly convertible to `value_type` | only participates if `value_type`  
 is constructible from P&&  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/unordered_map/insert&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [ emplace](emplace.html "cpp/container/unordered map/emplace") |  constructs element in-place   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_emplace&action=edit)  
+(public member function)   
 ---|---  
 [ emplace_hint](emplace_hint.html "cpp/container/unordered map/emplace hint") |  constructs elements in-place using a hint   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_emplace_hint&action=edit)  
+(public member function)   
 [ insert_or_assign](insert_or_assign.html "cpp/container/unordered map/insert or assign")(C++17) |  inserts an element or assigns to the current element if the key already exists   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_insert_or_assign&action=edit)  
+(public member function)   
 [ inserter](../../iterator/inserter.html "cpp/iterator/inserter") |  creates a [std::insert_iterator](../../iterator/insert_iterator.html "cpp/iterator/insert iterator") of type inferred from the argument   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_inserter&action=edit)
+(function template) 

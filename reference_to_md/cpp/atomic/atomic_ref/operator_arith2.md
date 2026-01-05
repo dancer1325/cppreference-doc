@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::atomic_ref`](../atomic_ref.html "cpp/atomic/atomic ref")
 
@@ -211,7 +211,7 @@
 [atomic_ref::is_always_lock_free](is_always_lock_free.html "cpp/atomic/atomic ref/is always lock free")  
 [atomic_ref::required_alignment](required_alignment.html "cpp/atomic/atomic ref/required alignment")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic_ref/navbar_content&action=edit)
+
 
 Provided only when `T` is an arithmetic type other than _cv_ bool or a pointer-to-object type |  |   
 ---|---|---  
@@ -246,26 +246,26 @@ These overloads participate in overload resolution only if [std::is_const_v](../
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_ref/operator_arith2&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 arg  |  \-  |  the argument for the arithmetic operation   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_ref/operator_arith2&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The resulting value (that is, the result of applying the corresponding binary operator to the value referenced by *`_[ptr](../atomic_ref.html#ptr "cpp/atomic/atomic ref")_` immediately preceding the effects of the corresponding member function). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_ref/operator_arith2&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Unlike most compound assignment operators, the compound assignment operators for `atomic_ref` return a copy of the stored value instead of a reference to arg. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_ref/operator_arith2&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_ref/operator_arith2&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -274,14 +274,14 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [LWG 3508](https://cplusplus.github.io/LWG/issue3508)  
 ([P3323R1](https://wg21.link/P3323R1))  | C++20  | compound assignment operators were meaningless for const T | constrained to accept only non-const `T`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_ref/operator_arith2&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ fetch_add](fetch_add.html "cpp/atomic/atomic ref/fetch add") |  atomically adds the argument to the value stored in the referenced object and obtains the value held previously   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic_ref/dsc_fetch_add&action=edit)  
+(public member function)   
 ---|---  
 [ fetch_sub](fetch_sub.html "cpp/atomic/atomic ref/fetch sub") |  atomically subtracts the argument from the value stored in the referenced object and obtains the value held previously   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic_ref/dsc_fetch_sub&action=edit)  
+(public member function)   
 [ operator++operator++(int)operator--operator--(int)](operator_arith.html "cpp/atomic/atomic ref/operator arith") |  atomically increments or decrements the referenced object by one   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic_ref/dsc_operator_arith&action=edit)  
+(public member function)   
 [ operator&=operator|=operator^=](operator_arith3.html "cpp/atomic/atomic ref/operator arith3") |  atomically performs bitwise AND, OR, XOR with the referenced value   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic_ref/dsc_operator_arith3&action=edit)
+(public member function) 

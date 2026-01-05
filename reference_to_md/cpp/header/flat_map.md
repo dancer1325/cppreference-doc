@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header is part of the [containers](../container.html "cpp/container") library. 
 
@@ -216,35 +216,35 @@ This header is part of the [containers](../container.html "cpp/container") libra
   
 ###  Includes  
   
-[ <compare>](compare.html "cpp/header/compare")(C++20) |  [Three-way comparison operator](../language/operator_comparison.html#Three-way_comparison "cpp/language/operator comparison") support[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/dsc_compare&action=edit)  
-[ <initializer_list>](initializer_list.html "cpp/header/initializer list")(C++11) |  [std::initializer_list](../utility/initializer_list.html "cpp/utility/initializer list") class template[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/dsc_initializer_list&action=edit)  
+[ <compare>](compare.html "cpp/header/compare")(C++20) |  [Three-way comparison operator](../language/operator_comparison.html#Three-way_comparison "cpp/language/operator comparison") support  
+[ <initializer_list>](initializer_list.html "cpp/header/initializer list")(C++11) |  [std::initializer_list](../utility/initializer_list.html "cpp/utility/initializer list") class template  
   
 ###  Classes  
   
 [ flat_map](../container/flat_map.html "cpp/container/flat map")(C++23) |  adapts two containers to provide a collection of key-value pairs, sorted by unique keys   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_flat_map&action=edit)  
+(class template)   
 [ flat_multimap](../container/flat_multimap.html "cpp/container/flat multimap")(C++23) |  adapts two containers to provide a collection of key-value pairs, sorted by keys   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_flat_multimap&action=edit)  
+(class template)   
 [ std::uses_allocator<std::flat_map>](../container/flat_map/uses_allocator.html "cpp/container/flat map/uses allocator")(C++23) |  specializes the [std::uses_allocator](../memory/uses_allocator.html "cpp/memory/uses allocator") type trait   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_uses_allocator&action=edit)  
+(class template specialization)   
 [ std::uses_allocator<std::flat_multimap>](../container/flat_multimap/uses_allocator.html "cpp/container/flat multimap/uses allocator")(C++23) |  specializes the [std::uses_allocator](../memory/uses_allocator.html "cpp/memory/uses allocator") type trait   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_uses_allocator&action=edit)  
+(class template specialization)   
   
 ###  Functions  
   
 [ erase_if(std::flat_map)](../container/flat_map/erase_if.html "cpp/container/flat map/erase if")(C++23) |  erases all elements satisfying specific criteria   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_erase_if&action=edit)  
+(function template)   
 [ erase_if(std::flat_multimap)](../container/flat_multimap/erase_if.html "cpp/container/flat multimap/erase if")(C++23) |  erases all elements satisfying specific criteria   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_erase_if&action=edit)  
+(function template)   
   
 ###  Tags  
   
 [ sorted_uniquesorted_unique_t](../container/sorted_unique.html "cpp/container/sorted unique")(C++23) |  indicates that elements of a range are sorted and unique  
-(tag)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_sorted_unique&action=edit)  
+(tag)  
 [ sorted_equivalentsorted_equivalent_t](../container/sorted_equivalent.html "cpp/container/sorted equivalent")(C++23) |  indicates that elements of a range are sorted (uniqueness is not required)  
-(tag)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_sorted_equivalent&action=edit)  
+(tag)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/flat_map&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     #include <compare>
@@ -320,7 +320,7 @@ This header is part of the [containers](../container.html "cpp/container") libra
                Predicate pred);
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/flat_map&action=edit&section=T-1 "Template:cpp/synopsis/flat map")] Class template [std::flat_map](../container/flat_map.html)
+#### Class template [std::flat_map](../container/flat_map.html)
     
     
     namespace std {
@@ -767,7 +767,7 @@ This header is part of the [containers](../container.html "cpp/container") libra
       {};
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/flat_map&action=edit&section=T-2 "Template:cpp/synopsis/flat map")] Class template [std::flat_multimap](../container/flat_multimap.html)
+#### Class template [std::flat_multimap](../container/flat_multimap.html)
     
     
     namespace std {
@@ -1177,7 +1177,7 @@ This header is part of the [containers](../container.html "cpp/container") libra
       {};
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/flat_map&action=edit&section=2 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 

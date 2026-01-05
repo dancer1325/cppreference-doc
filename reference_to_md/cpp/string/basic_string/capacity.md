@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Strings library](../../string.html "cpp/string")
 
@@ -40,7 +40,7 @@ Classes
 [basic_string_view](../basic_string_view.html "cpp/string/basic string view")(C++17)  
 [char_traits](../char_traits.html "cpp/string/char traits")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/navbar_content&action=edit)
+
 
 [`std::basic_string`](../basic_string.html "cpp/string/basic string")
 
@@ -133,7 +133,7 @@ basic_string_view](operator_basic_string_view.html "cpp/string/basic string/oper
 [hash<std::basic_string>](hash.html "cpp/string/basic string/hash")(C++11)  
 [Deduction guides](deduction_guides.html "cpp/string/basic string/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/navbar_content&action=edit)
+
 
 size_type capacity() const; |  | (noexcept since C++11)   
 (constexpr since C++20)  
@@ -154,23 +154,23 @@ Returns the number of characters that the string has currently allocated space f
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/capacity&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/capacity&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Capacity of the currently allocated storage, i.e. the storage available for storing elements. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/capacity&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Constant. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/capacity&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 Memory locations obtained from the allocator but not available for storing any element are not counted in the allocated storage. Note that the null terminator is not an element of the [std::basic_string](../basic_string.html "cpp/string/basic string"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/capacity&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -229,10 +229,10 @@ Possible output:
     121    240        2
     241    480        2
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/capacity&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ sizelength](size.html "cpp/string/basic string/size") |  returns the number of characters   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_size&action=edit)  
+(public member function)   
 ---|---  
 [ reserve](reserve.html "cpp/string/basic string/reserve") |  reserves storage   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_reserve&action=edit)
+(public member function) 

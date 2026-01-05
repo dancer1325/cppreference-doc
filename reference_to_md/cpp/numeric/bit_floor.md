@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Bit manipulation](../utility/bit.html "cpp/utility/bit")
 
@@ -152,7 +152,7 @@ Common vocabulary types
 [Endian](../utility/bit.html#Endian "cpp/utility/bit")  
 [endian](../types/endian.html "cpp/types/endian")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/bit/navbar_content&action=edit)
+
 
 Defined in header `[<bit>](../header/bit.html "cpp/header/bit")` |  |   
 ---|---|---  
@@ -176,16 +176,16 @@ This overload participates in overload resolution only if `T` is an unsigned int
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/bit_floor&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 x  |  \-  |  unsigned integer value   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/bit_floor&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Zero if x is zero; otherwise, the largest integral power of two that is not greater than x. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/bit_floor&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Prior to [P1956R1](https://wg21.link/P1956R1), the proposed name for this function template was `floor2`.
 
@@ -193,7 +193,7 @@ Prior to [P1956R1](https://wg21.link/P1956R1), the proposed name for this functi
 ---|---|---|---  
 [`__cpp_lib_int_pow2`](../experimental/feature_test.html#cpp_lib_int_pow2 "cpp/feature test") | [`202002L`](../compiler_support/20.html#cpp_lib_int_pow2_202002L "cpp/compiler support/20") | (C++20) | [Integral power-of-2 operations](../utility/bit.html "cpp/utility/bit")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/bit_floor&action=edit&section=4 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     template<typename T, typename ... U>
@@ -210,7 +210,7 @@ Prior to [P1956R1](https://wg21.link/P1956R1), the proposed name for this functi
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/bit_floor&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -241,16 +241,16 @@ Output:
     bit_floor( 00001000 ) = 00001000
     bit_floor( 00001001 ) = 00001000
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/bit_floor&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ bit_ceil](bit_ceil.html "cpp/numeric/bit ceil")(C++20) |  finds the smallest integral power of 2 not less than the given value   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/dsc_bit_ceil&action=edit)  
+(function template)   
 ---|---  
 [ rotr](rotr.html "cpp/numeric/rotr")(C++20) |  computes the result of bitwise right-rotation   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/dsc_rotr&action=edit)  
+(function template)   
 [ bit_width](bit_width.html "cpp/numeric/bit width")(C++20) |  finds the smallest number of bits needed to represent the given value   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/dsc_bit_width&action=edit)  
+(function template)   
 [ has_single_bit](has_single_bit.html "cpp/numeric/has single bit")(C++20) |  checks if a number is an integral power of 2   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/dsc_has_single_bit&action=edit)
+(function template) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

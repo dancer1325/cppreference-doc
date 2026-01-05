@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Diagnostics library](../error.html "cpp/error")
 
@@ -187,7 +187,7 @@ Exception handling failures
 [breakpoint_if_debugging](../utility/breakpoint_if_debugging.html "cpp/utility/breakpoint if debugging")(C++26)  
 [breakpoint](../utility/breakpoint.html "cpp/utility/breakpoint")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/navbar_content&action=edit)
+
 
 **`std::bad_exception`**
 
@@ -197,7 +197,7 @@ Member functions
 [bad_exception::operator=](bad_exception/operator=.html "cpp/error/bad exception/operator=")  
 [bad_exception::what](bad_exception/what.html "cpp/error/bad exception/what")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/bad_exception/navbar_content&action=edit)
+
 
 Defined in header `[<exception>](../header/exception.html "cpp/header/exception")` |  |   
 ---|---|---  
@@ -233,7 +233,7 @@ All member functions of `std::bad_exception` are constexpr.  | (since C++26)
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/bad_exception&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](bad_exception/bad_exception.html "cpp/error/bad exception/bad exception") |  constructs the `bad_exception` object   
 (public member function)  
@@ -248,18 +248,18 @@ All member functions of `std::bad_exception` are constexpr.  | (since C++26)
 ###  Member functions
 
 [ (destructor)](exception/~exception.html "cpp/error/exception/~exception")[virtual] |  destroys the exception object   
-(virtual public member function of `std::exception`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/exception/dsc_destructor&action=edit)  
+(virtual public member function of `std::exception`)   
 ---|---  
 [ what](exception/what.html "cpp/error/exception/what")[virtual] |  returns an explanatory string   
-(virtual public member function of `std::exception`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/exception/dsc_what&action=edit)  
+(virtual public member function of `std::exception`)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/bad_exception&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../utility/feature_test.html "cpp/utility/feature test") macro  | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_constexpr_exceptions`](../experimental/feature_test.html#cpp_lib_constexpr_exceptions "cpp/feature test") | [`202411L`](../compiler_support/26.html#cpp_lib_constexpr_exceptions_202411L "cpp/compiler support/26") | (C++26) | constexpr for exception types   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/bad_exception&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Compiles only in C++14 or earlier modes (may issue warnings).
 

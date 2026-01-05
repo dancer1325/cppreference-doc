@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_filebuf`](../basic_filebuf.html "cpp/io/basic filebuf")
 
@@ -105,7 +105,7 @@ Protected member functions
 Non-member functions  
 [swap(std::basic_filebuf)](swap2.html "cpp/io/basic filebuf/swap2")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_filebuf/navbar_content&action=edit)
+
 
 [std::basic_filebuf](../basic_filebuf.html)& operator=( [std::basic_filebuf](../basic_filebuf.html)&& rhs ); |  (1)  |  (since C++11)  
 ---|---|---  
@@ -128,16 +128,16 @@ Assigns another `basic_filebuf` object.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_filebuf/operator%3D&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 rhs  |  \-  |  another `basic_filebuf` that will be moved from   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_filebuf/operator%3D&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 *this
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_filebuf/operator%3D&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -171,10 +171,10 @@ Output:
     s = [test]
     s = []
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_filebuf/operator%3D&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ (constructor)](basic_filebuf.html "cpp/io/basic filebuf/basic filebuf") |  constructs a `basic_filebuf` object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_filebuf/dsc_basic_filebuf&action=edit)  
+(public member function)   
 ---|---  
 [ swap](swap.html "cpp/io/basic filebuf/swap")(C++11) |  swaps two `basic_filebuf` objects   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_filebuf/dsc_swap&action=edit)
+(public member function) 

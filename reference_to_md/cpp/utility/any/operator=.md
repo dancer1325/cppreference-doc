@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::any`](../any.html "cpp/utility/any")
 
@@ -151,7 +151,7 @@ Common vocabulary types
 [Helper classes](../any.html#Helper_classes "cpp/utility/any")  
 [bad_any_cast](bad_any_cast.html "cpp/utility/any/bad any cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/any/navbar_content&action=edit)
+
 
 any& operator=( const any& rhs ); |  (1)  |  (since C++17)  
 ---|---|---  
@@ -180,27 +180,27 @@ Assigns contents to the contained value.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/any/operator%3D&action=edit&section=1 "Edit section: Template parameters")] Template parameters
+### Template parameters
 
 ValueType  |  \-  |  contained value type   
 ---|---|---  
 Type requirements   
 -`[std::decay_t](../../types/decay.html)<ValueType>` must meet the requirements of [CopyConstructible](../../named_req/CopyConstructible.html "cpp/named req/CopyConstructible").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/any/operator%3D&action=edit&section=2 "Edit section: Parameters")] Parameters
+### Parameters
 
 rhs  |  \-  |  object whose contained value to assign   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/any/operator%3D&action=edit&section=3 "Edit section: Return value")] Return value
+### Return value
 
 *this
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/any/operator%3D&action=edit&section=4 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 1,3) Throws [std::bad_alloc](../../memory/new/bad_alloc.html "cpp/memory/new/bad alloc") or any exception thrown by the constructor of the contained type. If an exception is thrown for any reason, these functions have no effect ([strong exception safety guarantee](../../language/exceptions.html#Exception_safety "cpp/language/exceptions")).
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/any/operator%3D&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -249,8 +249,8 @@ Possible output:
     a2.type(): "void"
     cat: ""
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/any/operator%3D&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ (constructor)](any.html "cpp/utility/any/any") |  constructs an `any` object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/any/dsc_constructor&action=edit)  
+(public member function)   
 ---|---

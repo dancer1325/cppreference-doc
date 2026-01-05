@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Constrained algorithms](../../ranges.html "cpp/algorithm/ranges")
 
@@ -284,7 +284,7 @@ All names in this menu belong to namespace `std::ranges`
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/navbar_content&action=edit)
+
 
 [ Return types of constrained algorithms](../../ranges.html#Return_types "cpp/algorithm/ranges")
 
@@ -300,7 +300,7 @@ Return types
 [ranges::min_max_result](min_max_result.html "cpp/algorithm/ranges/return types/min max result")  
 [ranges::out_value_result](out_value_result.html "cpp/algorithm/ranges/return types/out value result")(C++23)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/return_types/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../../../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -331,12 +331,12 @@ All special member functions of this class template are implicitly declared, whi
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/return_types/in_out_result&action=edit&section=1 "Edit section: Template parameters")] Template parameters
+### Template parameters
 
 I, O  |  \-  |  the types of the objects that the `ranges::in_out_result` stores.   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/return_types/in_out_result&action=edit&section=2 "Edit section: Data members")] Data members
+### Data members
 
 Member name  |  Definition   
 ---|---  
@@ -347,7 +347,7 @@ out |  a value (that is supposed to be an iterator) of type `O`.
   
 All these members are declared with `[[[no_unique_address](../../../language/attributes/no_unique_address.html "cpp/language/attributes/no unique address")]]` attribute. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/return_types/in_out_result&action=edit&section=3 "Edit section: Member functions")] Member functions
+### Member functions
 
 ##  std::ranges::in_out_result::operator in_out_result<I2, O2>
 
@@ -366,7 +366,7 @@ Converts *this to the result by constructing every data member of the result fro
 
 2) Equivalent to return {std::move(in), std::move(out)};. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/return_types/in_out_result&action=edit&section=4 "Edit section: Standard library")] Standard library
+### Standard library
 
 The following standard library functions use `ranges::in_out_result` as the return type: 
 
@@ -374,44 +374,44 @@ The following standard library functions use `ranges::in_out_result` as the retu
   
 ---  
 [ ranges::copyranges::copy_if](../copy.html "cpp/algorithm/ranges/copy")(C++20)(C++20) |  copies a range of elements to a new location  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_copy&action=edit)  
+(algorithm function object)  
 [ ranges::copy_n](../copy_n.html "cpp/algorithm/ranges/copy n")(C++20) |  copies a number of elements to a new location  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_copy_n&action=edit)  
+(algorithm function object)  
 [ ranges::copy_backward](../copy_backward.html "cpp/algorithm/ranges/copy backward")(C++20) |  copies a range of elements in backwards order  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_copy_backward&action=edit)  
+(algorithm function object)  
 [ ranges::move](../move.html "cpp/algorithm/ranges/move")(C++20) |  moves a range of elements to a new location  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_move&action=edit)  
+(algorithm function object)  
 [ ranges::move_backward](../move_backward.html "cpp/algorithm/ranges/move backward")(C++20) |  moves a range of elements to a new location in backwards order  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_move_backward&action=edit)  
+(algorithm function object)  
 [ ranges::transform](../transform.html "cpp/algorithm/ranges/transform")(C++20) |  applies a function to a range of elements  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_transform&action=edit)  
+(algorithm function object)  
 [ ranges::replace_copyranges::replace_copy_if](../replace_copy.html "cpp/algorithm/ranges/replace copy")(C++20)(C++20) |  copies a range, replacing elements satisfying specific criteria with another value  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_replace_copy&action=edit)  
+(algorithm function object)  
 [ ranges::remove_copyranges::remove_copy_if](../remove_copy.html "cpp/algorithm/ranges/remove copy")(C++20)(C++20) |  copies a range of elements omitting those that satisfy specific criteria  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_remove_copy&action=edit)  
+(algorithm function object)  
 [ ranges::unique_copy](../unique_copy.html "cpp/algorithm/ranges/unique copy")(C++20) |  creates a copy of some range of elements that contains no consecutive duplicates  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_unique_copy&action=edit)  
+(algorithm function object)  
 [ ranges::reverse_copy](../reverse_copy.html "cpp/algorithm/ranges/reverse copy")(C++20) |  creates a copy of a range that is reversed  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_reverse_copy&action=edit)  
+(algorithm function object)  
 [ ranges::rotate_copy](../rotate_copy.html "cpp/algorithm/ranges/rotate copy")(C++20) |  copies and rotate a range of elements  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_rotate_copy&action=edit)  
+(algorithm function object)  
 [ ranges::partial_sort_copy](../partial_sort_copy.html "cpp/algorithm/ranges/partial sort copy")(C++20) |  copies and partially sorts a range of elements  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_partial_sort_copy&action=edit)  
+(algorithm function object)  
 [ ranges::set_difference](../set_difference.html "cpp/algorithm/ranges/set difference")(C++20) |  computes the difference between two sets  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_set_difference&action=edit)  
+(algorithm function object)  
   
 #####  Memory functions   
   
 [ ranges::uninitialized_copy](../../../memory/ranges/uninitialized_copy.html "cpp/memory/ranges/uninitialized copy")(C++20) |  copies a range of objects to an uninitialized area of memory  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/ranges/dsc_uninitialized_copy&action=edit)  
+(algorithm function object)  
 [ ranges::uninitialized_copy_n](../../../memory/ranges/uninitialized_copy_n.html "cpp/memory/ranges/uninitialized copy n")(C++20) |  copies a number of objects to an uninitialized area of memory  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/ranges/dsc_uninitialized_copy_n&action=edit)  
+(algorithm function object)  
 [ ranges::uninitialized_move](../../../memory/ranges/uninitialized_move.html "cpp/memory/ranges/uninitialized move")(C++20) |  moves a range of objects to an uninitialized area of memory  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/ranges/dsc_uninitialized_move&action=edit)  
+(algorithm function object)  
 [ ranges::uninitialized_move_n](../../../memory/ranges/uninitialized_move_n.html "cpp/memory/ranges/uninitialized move n")(C++20) |  moves a number of objects to an uninitialized area of memory  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/ranges/dsc_uninitialized_move_n&action=edit)  
+(algorithm function object)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/return_types/in_out_result&action=edit&section=5 "Edit section: Synopsis")] Synopsis 
+### Synopsis 
     
     
     namespace std::ranges
@@ -438,7 +438,7 @@ The following standard library functions use `ranges::in_out_result` as the retu
         };
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/return_types/in_out_result&action=edit&section=6 "Edit section: Notes")] Notes
+### Notes
 
 Each standard library algorithm that uses this family of return types declares a new [alias type](../../../language/type_alias.html "cpp/language/type alias"), e.g. using merge_result = in_in_out_result<I1, I2, O>;. 
 
@@ -446,7 +446,7 @@ The names for such aliases are formed by adding the suffix "_`_result`_ " to the
 
 Unlike [std::pair](../../../utility/pair.html "cpp/utility/pair") and [std::tuple](../../../utility/tuple.html "cpp/utility/tuple"), this class template has data members of meaningful names. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/return_types/in_out_result&action=edit&section=7 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -476,10 +476,10 @@ Output:
     transform
     TRANSFORM
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/return_types/in_out_result&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [ pair](../../../utility/pair.html "cpp/utility/pair") |  implements binary tuple, i.e. a pair of values   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_pair&action=edit)  
+(class template)   
 ---|---  
 [ tuple](../../../utility/tuple.html "cpp/utility/tuple")(C++11) |  implements fixed size container, which holds elements of possibly different types   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_tuple&action=edit)
+(class template) 

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Library fundamentals](../memory.html "cpp/experimental/lib extensions")
 
@@ -50,7 +50,7 @@
 [Type-erased and polymorphic allocators](../memory.html "cpp/experimental/memory")  
 [Variable templates for type traits](../type_trait_variable_templates.html "cpp/experimental/type trait variable templates")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions/navbar_content&action=edit)
+
 
 [Polymorphic allocator library](../memory.html "cpp/experimental/memory")
 
@@ -73,7 +73,7 @@ Type-erased allocator support for existing classes
 [packaged_task](../lib_extensions/packaged_task.html "cpp/experimental/lib extensions/packaged task")  
 [promise](../lib_extensions/promise.html "cpp/experimental/lib extensions/promise")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions/pmr/navbar_content&action=edit)
+
 
 [`std::experimental::pmr::memory_resource`](../memory_resource.html "cpp/experimental/memory resource")
 
@@ -90,7 +90,7 @@ Protected member functions
 Non-member functions  
 **operator== operator!=**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions/pmr/memory_resource/navbar_content&action=edit)
+
 
 bool operator==( const memory_resource& a, const memory_resource& b ) noexcept; |  (1)  |  (library fundamentals TS)  
 ---|---|---  
@@ -99,14 +99,14 @@ bool operator!=( const memory_resource& a, const memory_resource& b ) noexcept; 
   
 Compares the `memory_resource`s a and b for equality. Two `memory_resource`s compare equal if and only if memory allocated from one `memory_resource` can be deallocated from the other and vice versa. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/memory_resource/operator_eq&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 1) &a == &b || a.is_equal(b)
 
 2) !(a == b)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/memory_resource/operator_eq&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ is_equal](is_equal.html "cpp/experimental/memory resource/is equal") |  compare for equality with another `memory_resource`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/memory_resource/dsc_is_equal&action=edit)  
+(public member function)   
 ---|---

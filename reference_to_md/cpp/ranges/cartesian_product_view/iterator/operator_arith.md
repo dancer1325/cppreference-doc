@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::cartesian_product_view`](../../cartesian_product_view.html "cpp/ranges/cartesian product view")
 
@@ -257,7 +257,7 @@ operator-(cartesian_product_view::_iterator_)](operator_arith2.html "cpp/ranges/
 [iter_move(cartesian_product_view::_iterator_)](iter_move.html "cpp/ranges/cartesian product view/iterator/iter move")  
 [iter_swap(cartesian_product_view::_iterator_)](iter_swap.html "cpp/ranges/cartesian product view/iterator/iter swap")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/cartesian_product_view/navbar_content&action=edit)
+
 
 constexpr /*iterator*/& operator++(); |  (1)  |  (since C++23)  
 ---|---|---  
@@ -309,12 +309,12 @@ The behavior is undefined if n is not in the range `[`[ranges::distance](../../.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/cartesian_product_view/iterator/operator_arith&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 n  |  \-  |  position relative to current location   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/cartesian_product_view/iterator/operator_arith&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1,4,6,7) *this
 
@@ -322,17 +322,17 @@ n  |  \-  |  position relative to current location
 
 3,5) a copy of *this that was made before the change.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/cartesian_product_view/iterator/operator_arith&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 6) Constant.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/cartesian_product_view/iterator/operator_arith&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/cartesian_product_view/iterator/operator_arith&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ operator+operator-](operator_arith2.html "cpp/ranges/cartesian product view/iterator/operator arith2")(C++23) |  performs iterator arithmetic   
 (function)  

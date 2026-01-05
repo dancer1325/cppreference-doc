@@ -30,7 +30,7 @@
 [Symbols index](symbol_index.html "cpp/symbol index")  
 [External libraries](links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 **Concepts library**
 
@@ -73,7 +73,7 @@
 ---  
 [_boolean-testable_](concepts/boolean-testable.html "cpp/concepts/boolean-testable") ﻿(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/navbar_content&action=edit)
+
 
 The concepts library provides definitions of fundamental library concepts that can be used to perform compile-time validation of template arguments and perform function dispatch based on properties of types. These concepts provide a foundation for equational reasoning in programs. 
 
@@ -95,7 +95,7 @@ In general, only the syntactic requirements can be checked by the compiler. If t
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/concepts&action=edit&section=1 "Edit section: Equality preservation")] Equality preservation
+### Equality preservation
 
 An expression is _equality-preserving_ if it results in equal outputs given equal inputs, where 
 
@@ -122,7 +122,7 @@ In the standard library, the following concepts are allowed to have non equality
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/concepts&action=edit&section=2 "Edit section: Implicit expression variations")] Implicit expression variations
+### Implicit expression variations
 
 A [requires expression](language/requires.html "cpp/language/requires") that uses an expression that is non-modifying for some constant lvalue operand also implicitly requires additional variations of that expression that accept a non-constant lvalue or (possibly constant) rvalue for the given operand unless such an expression variation is explicitly required with differing semantics. 
 
@@ -172,7 +172,7 @@ These _implicit expression variations_ must meet the same semantic requirements 
         bool operator==(T&) = delete;
     };
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/concepts&action=edit&section=3 "Edit section: Standard library concepts")] Standard library concepts
+### Standard library concepts
 
 Defined in namespace `std`  
 ---  
@@ -181,80 +181,80 @@ Defined in namespace `std`
   
 Defined in header `[<concepts>](header/concepts.html "cpp/header/concepts")`  
 [ same_as](concepts/same_as.html "cpp/concepts/same as")(C++20) |  specifies that a type is the same as another type   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_same_as&action=edit)  
+(concept)   
 [ derived_from](concepts/derived_from.html "cpp/concepts/derived from")(C++20) |  specifies that a type is derived from another type   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_derived_from&action=edit)  
+(concept)   
 [ convertible_to](concepts/convertible_to.html "cpp/concepts/convertible to")(C++20) |  specifies that a type is implicitly convertible to another type   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_convertible_to&action=edit)  
+(concept)   
 [ common_reference_with](concepts/common_reference_with.html "cpp/concepts/common reference with")(C++20) |  specifies that two types share a common reference type   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_common_reference_with&action=edit)  
+(concept)   
 [ common_with](concepts/common_with.html "cpp/concepts/common with")(C++20) |  specifies that two types share a common type   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_common_with&action=edit)  
+(concept)   
 [ integral](concepts/integral.html "cpp/concepts/integral")(C++20) |  specifies that a type is an integral type   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_integral&action=edit)  
+(concept)   
 [ signed_integral](concepts/signed_integral.html "cpp/concepts/signed integral")(C++20) |  specifies that a type is an integral type that is signed   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_signed_integral&action=edit)  
+(concept)   
 [ unsigned_integral](concepts/unsigned_integral.html "cpp/concepts/unsigned integral")(C++20) |  specifies that a type is an integral type that is unsigned   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_unsigned_integral&action=edit)  
+(concept)   
 [ floating_point](concepts/floating_point.html "cpp/concepts/floating point")(C++20) |  specifies that a type is a floating-point type   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_floating_point&action=edit)  
+(concept)   
 [ assignable_from](concepts/assignable_from.html "cpp/concepts/assignable from")(C++20) |  specifies that a type is assignable from another type   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_assignable_from&action=edit)  
+(concept)   
 [ swappableswappable_with](concepts/swappable.html "cpp/concepts/swappable")(C++20) |  specifies that a type can be swapped or that two types can be swapped with each other   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_swappable&action=edit)  
+(concept)   
 [ destructible](concepts/destructible.html "cpp/concepts/destructible")(C++20) |  specifies that an object of the type can be destroyed   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_destructible&action=edit)  
+(concept)   
 [ constructible_from](concepts/constructible_from.html "cpp/concepts/constructible from")(C++20) |  specifies that a variable of the type can be constructed from or bound to a set of argument types   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_constructible_from&action=edit)  
+(concept)   
 [ default_initializable](concepts/default_initializable.html "cpp/concepts/default initializable")(C++20) |  specifies that an object of a type can be default constructed   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_default_initializable&action=edit)  
+(concept)   
 [ move_constructible](concepts/move_constructible.html "cpp/concepts/move constructible")(C++20) |  specifies that an object of a type can be move constructed   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_move_constructible&action=edit)  
+(concept)   
 [ copy_constructible](concepts/copy_constructible.html "cpp/concepts/copy constructible")(C++20) |  specifies that an object of a type can be copy constructed and move constructed   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_copy_constructible&action=edit)  
+(concept)   
   
 #####  Comparison concepts   
   
 Defined in header `[<concepts>](header/concepts.html "cpp/header/concepts")`  
 [_boolean-testable_](concepts/boolean-testable.html "cpp/concepts/boolean-testable") ﻿(C++20) |  specifies that a type can be used in Boolean contexts  
-(exposition-only concept*)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_boolean-testable&action=edit)  
+(exposition-only concept*)  
 [ equality_comparableequality_comparable_with](concepts/equality_comparable.html "cpp/concepts/equality comparable")(C++20) |  specifies that operator == is an equivalence relation   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_equality_comparable&action=edit)  
+(concept)   
 [ totally_orderedtotally_ordered_with](concepts/totally_ordered.html "cpp/concepts/totally ordered")(C++20) |  specifies that the comparison operators on the type yield a total order   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_totally_ordered&action=edit)  
+(concept)   
 Defined in header `[<compare>](header/compare.html "cpp/header/compare")`  
 [ three_way_comparablethree_way_comparable_with](utility/compare/three_way_comparable.html "cpp/utility/compare/three way comparable")(C++20) |  specifies that operator <=> produces consistent result on given types   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/compare/dsc_three_way_comparable&action=edit)  
+(concept)   
   
 #####  Object concepts   
   
 Defined in header `[<concepts>](header/concepts.html "cpp/header/concepts")`  
 [ movable](concepts/movable.html "cpp/concepts/movable")(C++20) |  specifies that an object of a type can be moved and swapped   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_movable&action=edit)  
+(concept)   
 [ copyable](concepts/copyable.html "cpp/concepts/copyable")(C++20) |  specifies that an object of a type can be copied, moved, and swapped   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_copyable&action=edit)  
+(concept)   
 [ semiregular](concepts/semiregular.html "cpp/concepts/semiregular")(C++20) |  specifies that an object of a type can be copied, moved, swapped, and default constructed   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_semiregular&action=edit)  
+(concept)   
 [ regular](concepts/regular.html "cpp/concepts/regular")(C++20) |  specifies that a type is regular, that is, it is both [`semiregular`](concepts/semiregular.html "cpp/concepts/semiregular") and [`equality_comparable`](concepts/equality_comparable.html "cpp/concepts/equality comparable")   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_regular&action=edit)  
+(concept)   
   
 #####  Callable concepts   
   
 Defined in header `[<concepts>](header/concepts.html "cpp/header/concepts")`  
 [ invocableregular_invocable](concepts/invocable.html "cpp/concepts/invocable")(C++20) |  specifies that a callable type can be invoked with a given set of argument types   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_invocable&action=edit)  
+(concept)   
 [ predicate](concepts/predicate.html "cpp/concepts/predicate")(C++20) |  specifies that a callable type is a Boolean predicate   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_predicate&action=edit)  
+(concept)   
 [ relation](concepts/relation.html "cpp/concepts/relation")(C++20) |  specifies that a callable type is a binary relation   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_relation&action=edit)  
+(concept)   
 [ equivalence_relation](concepts/equivalence_relation.html "cpp/concepts/equivalence relation")(C++20) |  specifies that a [`relation`](concepts/relation.html "cpp/concepts/relation") imposes an equivalence relation   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_equivalence_relation&action=edit)  
+(concept)   
 [ strict_weak_order](concepts/strict_weak_order.html "cpp/concepts/strict weak order")(C++20) |  specifies that a [`relation`](concepts/relation.html "cpp/concepts/relation") imposes a strict weak ordering   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_strict_weak_order&action=edit)  
+(concept)   
   
 Additional concepts can be found in [the iterators library](iterator.html#C.2B.2B20_iterator_concepts "cpp/iterator"), [the algorithms library](iterator.html#Algorithm_concepts_and_utilities "cpp/iterator"), and [the ranges library](ranges.html#Range_concepts "cpp/ranges"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/concepts&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
   * [Named Requirements](iterator/concepts.html "cpp/named req")
 

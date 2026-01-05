@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header is part of the [text processing](../text.html "cpp/text") library. 
 
@@ -249,120 +249,120 @@ This header is part of the [text processing](../text.html "cpp/text") library.
 ###  Classes  
   
 [ locale](../locale/locale.html "cpp/locale/locale") |  set of polymorphic facets that encapsulate cultural differences   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_locale&action=edit)  
+(class)   
   
 #####  String and stream conversions   
   
 [ wstring_convert](../locale/wstring_convert.html "cpp/locale/wstring convert")(C++11)(deprecated in C++17)(removed in C++26) |  performs conversions between a wide string and a byte string   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_wstring_convert&action=edit)  
+(class template)   
 [ wbuffer_convert](../locale/wbuffer_convert.html "cpp/locale/wbuffer convert")(C++11)(deprecated in C++17)(removed in C++26) |  performs conversion between a byte stream buffer and a wide stream buffer   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_wbuffer_convert&action=edit)  
+(class template)   
   
 #####  Facet category base classes   
   
 [ ctype_base](../locale/ctype_base.html "cpp/locale/ctype base") |  defines character classification categories   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_ctype_base&action=edit)  
+(class)   
 [ codecvt_base](../locale/codecvt_base.html "cpp/locale/codecvt base") |  defines character conversion errors   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_codecvt_base&action=edit)  
+(class)   
 [ messages_base](../locale/messages_base.html "cpp/locale/messages base") |  defines messages catalog type   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_messages_base&action=edit)  
+(class)   
 [ time_base](../locale/time_base.html "cpp/locale/time base") |  defines date format constants   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_time_base&action=edit)  
+(class)   
 [ money_base](../locale/money_base.html "cpp/locale/money base") |  defines monetary formatting patterns   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_money_base&action=edit)  
+(class)   
   
 #####  Facet categories   
   
 [ ctype](../locale/ctype.html "cpp/locale/ctype") |  defines character classification tables   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_ctype&action=edit)  
+(class template)   
 [ ctype<char>](../locale/ctype_char.html "cpp/locale/ctype char") |  specialization of [std::ctype](../locale/ctype.html "cpp/locale/ctype") for type char   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_ctype_char&action=edit)  
+(class template specialization)   
 [ codecvt](../locale/codecvt.html "cpp/locale/codecvt") |  converts between character encodings, including UTF-8, UTF-16, UTF-32   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_codecvt&action=edit)  
+(class template)   
 [ collate](../locale/collate.html "cpp/locale/collate") |  defines lexicographical comparison and hashing of strings   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_collate&action=edit)  
+(class template)   
 [ messages](../locale/messages.html "cpp/locale/messages") |  implements retrieval of strings from message catalogs   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_messages&action=edit)  
+(class template)   
 [ time_get](../locale/time_get.html "cpp/locale/time get") |  parses time/date values from an input character sequence into [std::tm](../chrono/c/tm.html "cpp/chrono/c/tm")   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_time_get&action=edit)  
+(class template)   
 [ time_put](../locale/time_put.html "cpp/locale/time put") |  formats contents of [std::tm](../chrono/c/tm.html "cpp/chrono/c/tm") for output as character sequence   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_time_put&action=edit)  
+(class template)   
 [ num_get](../locale/num_get.html "cpp/locale/num get") |  parses numeric values from an input character sequence   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_num_get&action=edit)  
+(class template)   
 [ num_put](../locale/num_put.html "cpp/locale/num put") |  formats numeric values for output as character sequence   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_num_put&action=edit)  
+(class template)   
 [ numpunct](../locale/numpunct.html "cpp/locale/numpunct") |  defines numeric punctuation rules   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_numpunct&action=edit)  
+(class template)   
 [ money_get](../locale/money_get.html "cpp/locale/money get") |  parses and constructs a monetary value from an input character sequence   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_money_get&action=edit)  
+(class template)   
 [ money_put](../locale/money_put.html "cpp/locale/money put") |  formats a monetary value for output as a character sequence   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_money_put&action=edit)  
+(class template)   
 [ moneypunct](../locale/moneypunct.html "cpp/locale/moneypunct") |  defines monetary formatting parameters used by [std::money_get](../locale/money_get.html "cpp/locale/money get") and [std::money_put](../locale/money_put.html "cpp/locale/money put")   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_moneypunct&action=edit)  
+(class template)   
   
 #####  Locale-specific facet categories   
   
 [ ctype_byname](../locale/ctype_byname.html "cpp/locale/ctype byname") |  represents the system-supplied [std::ctype](../locale/ctype.html "cpp/locale/ctype") for the named locale   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_ctype_byname&action=edit)  
+(class template)   
 [ codecvt_byname](../locale/codecvt_byname.html "cpp/locale/codecvt byname") |  represents the system-supplied [std::codecvt](../locale/codecvt.html "cpp/locale/codecvt") for the named locale   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_codecvt_byname&action=edit)  
+(class template)   
 [ messages_byname](../locale/messages_byname.html "cpp/locale/messages byname") |  represents the system-supplied [std::messages](../locale/messages.html "cpp/locale/messages") for the named locale   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_messages_byname&action=edit)  
+(class template)   
 [ collate_byname](../locale/collate_byname.html "cpp/locale/collate byname") |  represents the system-supplied [std::collate](../locale/collate.html "cpp/locale/collate") for the named locale   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_collate_byname&action=edit)  
+(class template)   
 [ time_get_byname](../locale/time_get_byname.html "cpp/locale/time get byname") |  represents the system-supplied [std::time_get](../locale/time_get.html "cpp/locale/time get") for the named locale   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_time_get_byname&action=edit)  
+(class template)   
 [ time_put_byname](../locale/time_put_byname.html "cpp/locale/time put byname") |  represents the system-supplied [std::time_put](../locale/time_put.html "cpp/locale/time put") for the named locale   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_time_put_byname&action=edit)  
+(class template)   
 [ numpunct_byname](../locale/numpunct_byname.html "cpp/locale/numpunct byname") |  represents the system-supplied [std::numpunct](../locale/numpunct.html "cpp/locale/numpunct") for the named locale   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_numpunct_byname&action=edit)  
+(class template)   
 [ moneypunct_byname](../locale/moneypunct_byname.html "cpp/locale/moneypunct byname") |  represents the system-supplied [std::moneypunct](../locale/moneypunct.html "cpp/locale/moneypunct") for the named locale   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_moneypunct_byname&action=edit)  
+(class template)   
   
 ###  Functions  
   
 #####  Locales and facets   
   
 [ use_facet](../locale/use_facet.html "cpp/locale/use facet") |  obtains a facet from a locale   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_use_facet&action=edit)  
+(function template)   
 [ has_facet](../locale/has_facet.html "cpp/locale/has facet") |  checks if a locale implements a specific facet   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_has_facet&action=edit)  
+(function template)   
   
 #####  Character classification   
   
 [ isspace(std::locale)](../locale/isspace.html "cpp/locale/isspace") |  checks if a character is classified as whitespace by a locale   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_isspace&action=edit)  
+(function template)   
 [ isblank(std::locale)](../locale/isblank.html "cpp/locale/isblank")(C++11) |  checks if a character is classified as a blank character by a locale   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_isblank&action=edit)  
+(function template)   
 [ iscntrl(std::locale)](../locale/iscntrl.html "cpp/locale/iscntrl") |  checks if a character is classified as a control character by a locale   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_iscntrl&action=edit)  
+(function template)   
 [ isupper(std::locale)](../locale/isupper.html "cpp/locale/isupper") |  checks if a character is classified as uppercase by a locale   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_isupper&action=edit)  
+(function template)   
 [ islower(std::locale)](../locale/islower.html "cpp/locale/islower") |  checks if a character is classified as lowercase by a locale   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_islower&action=edit)  
+(function template)   
 [ isalpha(std::locale)](../locale/isalpha.html "cpp/locale/isalpha") |  checks if a character is classified as alphabetic by a locale   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_isalpha&action=edit)  
+(function template)   
 [ isdigit(std::locale)](../locale/isdigit.html "cpp/locale/isdigit") |  checks if a character is classified as a digit by a locale   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_isdigit&action=edit)  
+(function template)   
 [ ispunct(std::locale)](../locale/ispunct.html "cpp/locale/ispunct") |  checks if a character is classified as punctuation by a locale   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_ispunct&action=edit)  
+(function template)   
 [ isxdigit(std::locale)](../locale/isxdigit.html "cpp/locale/isxdigit") |  checks if a character is classified as a hexadecimal digit by a locale   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_isxdigit&action=edit)  
+(function template)   
 [ isalnum(std::locale)](../locale/isalnum.html "cpp/locale/isalnum") |  checks if a character is classified as alphanumeric by a locale   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_isalnum&action=edit)  
+(function template)   
 [ isprint(std::locale)](../locale/isprint.html "cpp/locale/isprint") |  checks if a character is classified as printable by a locale   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_isprint&action=edit)  
+(function template)   
 [ isgraph(std::locale)](../locale/isgraph.html "cpp/locale/isgraph") |  checks if a character is classified as graphical by a locale   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_isgraph&action=edit)  
+(function template)   
   
 #####  Character conversions   
   
 [ toupper(std::locale)](../locale/toupper.html "cpp/locale/toupper") |  converts a character to uppercase using the ctype facet of a locale   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_toupper&action=edit)  
+(function template)   
 [ tolower(std::locale)](../locale/tolower.html "cpp/locale/tolower") |  converts a character to lowercase using the `ctype` facet of a locale   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_tolower&action=edit)  
+(function template)   
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/locale&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+#### Synopsis
     
     
     namespace std {
@@ -437,7 +437,7 @@ This header is part of the [text processing](../text.html "cpp/text") library.
         template <class CharT> class messages_byname;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/locale&action=edit&section=T-1 "Template:cpp/synopsis/locale")] Class [std::locale](../locale/locale.html "cpp/locale/locale")
+#### Class [std::locale](../locale/locale.html "cpp/locale/locale")
     
     
     class locale
@@ -487,7 +487,7 @@ This header is part of the [text processing](../text.html "cpp/text") library.
         static const locale& classic();
     };
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/locale&action=edit&section=T-2 "Template:cpp/synopsis/locale")] Class [std::ctype_base](../locale/ctype_base.html "cpp/locale/ctype base")
+#### Class [std::ctype_base](../locale/ctype_base.html "cpp/locale/ctype base")
     
     
     class ctype_base
@@ -510,7 +510,7 @@ This header is part of the [text processing](../text.html "cpp/text") library.
         static const mask graph = alnum | punct;
     };
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/locale&action=edit&section=T-3 "Template:cpp/synopsis/locale")] Class [std::ctype](../locale/ctype.html "cpp/locale/ctype")
+#### Class [std::ctype](../locale/ctype.html "cpp/locale/ctype")
     
     
     template <class CharT>
@@ -563,7 +563,7 @@ This header is part of the [text processing](../text.html "cpp/text") library.
                                        char dfault, char* dest) const;
     };
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/locale&action=edit&section=T-4 "Template:cpp/synopsis/locale")] Class [std::ctype_byname](../locale/ctype_byname.html "cpp/locale/ctype byname")
+#### Class [std::ctype_byname](../locale/ctype_byname.html "cpp/locale/ctype byname")
     
     
     template <class CharT>
@@ -577,7 +577,7 @@ This header is part of the [text processing](../text.html "cpp/text") library.
         ~ctype_byname();
     };
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/locale&action=edit&section=T-5 "Template:cpp/synopsis/locale")] Class [std::ctype](../locale/ctype.html)<char>
+#### Class [std::ctype](../locale/ctype.html)<char>
     
     
     template <> class ctype<char>
@@ -625,7 +625,7 @@ This header is part of the [text processing](../text.html "cpp/text") library.
                                       char dfault, char* to) const;
     };
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/locale&action=edit&section=T-6 "Template:cpp/synopsis/locale")] Class [std::codecvt_base](../locale/codecvt_base.html "cpp/locale/codecvt base")
+#### Class [std::codecvt_base](../locale/codecvt_base.html "cpp/locale/codecvt base")
     
     
     class codecvt_base
@@ -634,7 +634,7 @@ This header is part of the [text processing](../text.html "cpp/text") library.
         enum result { ok, partial, error, noconv };
     };
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/locale&action=edit&section=T-7 "Template:cpp/synopsis/locale")] Class [std::codecvt](../locale/codecvt.html "cpp/locale/codecvt")
+#### Class [std::codecvt](../locale/codecvt.html "cpp/locale/codecvt")
     
     
     template <class internT, class externT, class stateT>
@@ -684,7 +684,7 @@ This header is part of the [text processing](../text.html "cpp/text") library.
         virtual int do_max_length() const noexcept;
     };
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/locale&action=edit&section=T-8 "Template:cpp/synopsis/locale")] Class [std::codecvt_byname](../locale/codecvt_byname.html "cpp/locale/codecvt byname")
+#### Class [std::codecvt_byname](../locale/codecvt_byname.html "cpp/locale/codecvt byname")
     
     
     template <class internT, class externT, class stateT>
@@ -697,7 +697,7 @@ This header is part of the [text processing](../text.html "cpp/text") library.
         ~codecvt_byname();
     };
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/locale&action=edit&section=T-9 "Template:cpp/synopsis/locale")] Class [std::num_get](../locale/num_get.html "cpp/locale/num get")
+#### Class [std::num_get](../locale/num_get.html "cpp/locale/num get")
     
     
     template <class CharT, class InputIter = istreambuf_iterator<CharT>>
@@ -759,7 +759,7 @@ This header is part of the [text processing](../text.html "cpp/text") library.
                                  ios_base::iostate& err, void*& v) const;
     };
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/locale&action=edit&section=T-10 "Template:cpp/synopsis/locale")] Class [std::num_put](../locale/num_put.html "cpp/locale/num put")
+#### Class [std::num_put](../locale/num_put.html "cpp/locale/num put")
     
     
     template <class CharT, class OutputIter = ostreambuf_iterator<CharT>>
@@ -811,7 +811,7 @@ This header is part of the [text processing](../text.html "cpp/text") library.
                                  const void* v) const;
     };
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/locale&action=edit&section=T-11 "Template:cpp/synopsis/locale")] Class [std::numpunct](../locale/numpunct.html "cpp/locale/numpunct")
+#### Class [std::numpunct](../locale/numpunct.html "cpp/locale/numpunct")
     
     
     template <class CharT>
@@ -841,7 +841,7 @@ This header is part of the [text processing](../text.html "cpp/text") library.
         virtual string_type do_falsename()     const; // for bool
     };
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/locale&action=edit&section=T-12 "Template:cpp/synopsis/locale")] Class [std::numpunct_byname](../locale/numpunct_byname.html "cpp/locale/numpunct byname")
+#### Class [std::numpunct_byname](../locale/numpunct_byname.html "cpp/locale/numpunct byname")
     
     
     template <class CharT>
@@ -858,7 +858,7 @@ This header is part of the [text processing](../text.html "cpp/text") library.
         ~numpunct_byname();
     };
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/locale&action=edit&section=T-13 "Template:cpp/synopsis/locale")] Class [std::collate](../locale/collate.html "cpp/locale/collate")
+#### Class [std::collate](../locale/collate.html "cpp/locale/collate")
     
     
     template <class CharT>
@@ -887,7 +887,7 @@ This header is part of the [text processing](../text.html "cpp/text") library.
         virtual long do_hash (const CharT* low, const CharT* high) const;
     };
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/locale&action=edit&section=T-14 "Template:cpp/synopsis/locale")] Class [std::collate_byname](../locale/collate_byname.html "cpp/locale/collate byname")
+#### Class [std::collate_byname](../locale/collate_byname.html "cpp/locale/collate byname")
     
     
     template <class CharT>
@@ -903,7 +903,7 @@ This header is part of the [text processing](../text.html "cpp/text") library.
         ~collate_byname();
     };
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/locale&action=edit&section=T-15 "Template:cpp/synopsis/locale")] Class [std::time_base](../locale/time_base.html "cpp/locale/time base")
+#### Class [std::time_base](../locale/time_base.html "cpp/locale/time base")
     
     
     class time_base
@@ -912,7 +912,7 @@ This header is part of the [text processing](../text.html "cpp/text") library.
         enum dateorder { no_order, dmy, mdy, ymd, ydm };
     };
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/locale&action=edit&section=T-16 "Template:cpp/synopsis/locale")] Class [std::time_get](../locale/time_get.html "cpp/locale/time get")
+#### Class [std::time_get](../locale/time_get.html "cpp/locale/time get")
     
     
     template <class CharT, class InputIter = istreambuf_iterator<CharT>>
@@ -963,7 +963,7 @@ This header is part of the [text processing](../text.html "cpp/text") library.
                                  char format, char modifier) const;
     };
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/locale&action=edit&section=T-17 "Template:cpp/synopsis/locale")] Class [std::time_get_byname](../locale/time_get_byname.html "cpp/locale/time get byname")
+#### Class [std::time_get_byname](../locale/time_get_byname.html "cpp/locale/time get byname")
     
     
     template <class CharT, class InputIter = istreambuf_iterator<CharT>>
@@ -980,7 +980,7 @@ This header is part of the [text processing](../text.html "cpp/text") library.
         ~time_get_byname();
     };
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/locale&action=edit&section=T-18 "Template:cpp/synopsis/locale")] Class [std::time_put](../locale/time_put.html "cpp/locale/time put")
+#### Class [std::time_put](../locale/time_put.html "cpp/locale/time put")
     
     
     template <class CharT, class OutputIter = ostreambuf_iterator<CharT>>
@@ -1007,7 +1007,7 @@ This header is part of the [text processing](../text.html "cpp/text") library.
                                  char format, char modifier) const;
     };
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/locale&action=edit&section=T-19 "Template:cpp/synopsis/locale")] Class [std::time_put_byname](../locale/time_put_byname.html "cpp/locale/time put byname")
+#### Class [std::time_put_byname](../locale/time_put_byname.html "cpp/locale/time put byname")
     
     
     template <class CharT, class OutputIter = ostreambuf_iterator<CharT>>
@@ -1024,7 +1024,7 @@ This header is part of the [text processing](../text.html "cpp/text") library.
         ~time_put_byname();
     };
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/locale&action=edit&section=T-20 "Template:cpp/synopsis/locale")] Class [std::money_get](../locale/money_get.html "cpp/locale/money get")
+#### Class [std::money_get](../locale/money_get.html "cpp/locale/money get")
     
     
     template <class CharT, class InputIter = istreambuf_iterator<CharT>>
@@ -1055,7 +1055,7 @@ This header is part of the [text processing](../text.html "cpp/text") library.
                                  string_type& digits) const;
     };
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/locale&action=edit&section=T-21 "Template:cpp/synopsis/locale")] Class [std::money_put](../locale/money_put.html "cpp/locale/money put")
+#### Class [std::money_put](../locale/money_put.html "cpp/locale/money put")
     
     
     template <class CharT, class OutputIter = ostreambuf_iterator<CharT>>
@@ -1084,7 +1084,7 @@ This header is part of the [text processing](../text.html "cpp/text") library.
                                  const string_type& digits) const;
     };
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/locale&action=edit&section=T-22 "Template:cpp/synopsis/locale")] Class [std::money_base](../locale/money_base.html "cpp/locale/money base")
+#### Class [std::money_base](../locale/money_base.html "cpp/locale/money base")
     
     
     class money_base
@@ -1094,7 +1094,7 @@ This header is part of the [text processing](../text.html "cpp/text") library.
         struct pattern { char field[4]; };
     };
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/locale&action=edit&section=T-23 "Template:cpp/synopsis/locale")] Class [std::moneypunct](../locale/moneypunct.html "cpp/locale/moneypunct")
+#### Class [std::moneypunct](../locale/moneypunct.html "cpp/locale/moneypunct")
     
     
     template <class CharT, bool International = false>
@@ -1133,7 +1133,7 @@ This header is part of the [text processing](../text.html "cpp/text") library.
         virtual pattern     do_neg_format()    const;
     };
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/locale&action=edit&section=T-24 "Template:cpp/synopsis/locale")] Class [std::moneypunct_byname](../locale/moneypunct_byname.html "cpp/locale/moneypunct byname")
+#### Class [std::moneypunct_byname](../locale/moneypunct_byname.html "cpp/locale/moneypunct byname")
     
     
     template <class CharT, bool Intl = false>
@@ -1150,7 +1150,7 @@ This header is part of the [text processing](../text.html "cpp/text") library.
         ~moneypunct_byname();
     };
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/locale&action=edit&section=T-25 "Template:cpp/synopsis/locale")] Class [std::messages_base](../locale/messages_base.html "cpp/locale/messages base")
+#### Class [std::messages_base](../locale/messages_base.html "cpp/locale/messages base")
     
     
     class messages_base
@@ -1159,7 +1159,7 @@ This header is part of the [text processing](../text.html "cpp/text") library.
         typedef /* unspecified signed integer type */ catalog;
     };
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/locale&action=edit&section=T-26 "Template:cpp/synopsis/locale")] Class [std::messages](../locale/messages.html "cpp/locale/messages")
+#### Class [std::messages](../locale/messages.html "cpp/locale/messages")
     
     
     template <class CharT>
@@ -1186,7 +1186,7 @@ This header is part of the [text processing](../text.html "cpp/text") library.
         virtual void do_close(catalog) const;
     };
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/locale&action=edit&section=T-27 "Template:cpp/synopsis/locale")] Class [std::messages_byname](../locale/messages_byname.html "cpp/locale/messages byname")
+#### Class [std::messages_byname](../locale/messages_byname.html "cpp/locale/messages byname")
     
     
     template <class CharT>
@@ -1203,7 +1203,7 @@ This header is part of the [text processing](../text.html "cpp/text") library.
         ~messages_byname();
     };
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/locale&action=edit&section=T-28 "Template:cpp/synopsis/locale")] Class [std::wstring_convert](../locale/wstring_convert.html "cpp/locale/wstring convert")
+#### Class [std::wstring_convert](../locale/wstring_convert.html "cpp/locale/wstring convert")
     
     
     template<class Codecvt, class Elem = wchar_t,
@@ -1245,7 +1245,7 @@ This header is part of the [text processing](../text.html "cpp/text") library.
         size_t cvtcount;             // exposition only
     };
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/locale&action=edit&section=T-29 "Template:cpp/synopsis/locale")] Class [std::wbuffer_convert](../locale/wbuffer_convert.html "cpp/locale/wbuffer convert")
+#### Class [std::wbuffer_convert](../locale/wbuffer_convert.html "cpp/locale/wbuffer convert")
     
     
     template<class Codecvt,
@@ -1273,7 +1273,7 @@ This header is part of the [text processing](../text.html "cpp/text") library.
         state_type cvtstate;    // exposition only
     };
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/locale&action=edit&section=2 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

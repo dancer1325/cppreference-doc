@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Filesystem library](../filesystem.html "cpp/filesystem")
 
@@ -100,7 +100,7 @@ filesystem::symlink_status](status.html "cpp/filesystem/status")
 [filesystem::is_socket](is_socket.html "cpp/filesystem/is socket")  
 [filesystem::is_symlink](is_symlink.html "cpp/filesystem/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/navbar_content&action=edit)
+
 
 Defined in header `[<filesystem>](../header/filesystem.html "cpp/header/filesystem")` |  |   
 ---|---|---  
@@ -139,14 +139,14 @@ const [std::filesystem::path](path.html)& base,
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/relative&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 p  |  \-  |  an existing path   
 ---|---|---  
 base  |  \-  |  base path, against which p will be made relative/proximate   
 ec  |  \-  |  error code to store error status to   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/relative&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) p made relative against current_path().
 
@@ -156,7 +156,7 @@ ec  |  \-  |  error code to store error status to
 
 5,6) p made proximate against base.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/relative&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Any overload not marked `noexcept` may throw [std::bad_alloc](../memory/new/bad_alloc.html "cpp/memory/new/bad alloc") if memory allocation fails.  
 
@@ -165,7 +165,7 @@ Any overload not marked `noexcept` may throw [std::bad_alloc](../memory/new/bad_
 
 1,3,4,6) Sets a [std::error_code](../error/error_code.html)& parameter to the OS API error code if an OS API call fails, and executes ec.[`clear`](../error/error_code/clear.html "cpp/error/error code/clear")() if no errors occur.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/relative&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -213,16 +213,16 @@ Possible output:
     relative(x, y):  ""
     proximate(x, y): "/a/b"
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/relative&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ path](path.html "cpp/filesystem/path")(C++17) |  represents a path   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_path&action=edit)  
+(class)   
 ---|---  
 [ absolute](absolute.html "cpp/filesystem/absolute")(C++17) |  composes an absolute path   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_absolute&action=edit)  
+(function)   
 [ canonicalweakly_canonical](canonical.html "cpp/filesystem/canonical")(C++17) |  composes a canonical path   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_canonical&action=edit)  
+(function)   
 [ lexically_normallexically_relativelexically_proximate](path/lexically_normal.html "cpp/filesystem/path/lexically normal") |  converts path to normal form  
 converts path to relative form  
 converts path to proximate form   
-(public member function of `std::filesystem::path`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/path/dsc_lexically_normal&action=edit)
+(public member function of `std::filesystem::path`) 

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::shared_lock`](../shared_lock.html "cpp/thread/shared lock")
 
@@ -198,7 +198,7 @@ Observers
 Non-member functions  
 [swap(std::shared_lock)](swap2.html "cpp/thread/shared lock/swap2")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/shared_lock/navbar_content&action=edit)
+
 
 bool owns_lock() const noexcept; |  |  (since C++14)  
 ---|---|---  
@@ -206,16 +206,16 @@ bool owns_lock() const noexcept; |  |  (since C++14)
   
 Checks whether *this owns a locked mutex or not. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/shared_lock/owns_lock&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/shared_lock/owns_lock&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 true if *this has an associated mutex and has acquired shared ownership of it, false otherwise. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/shared_lock/owns_lock&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ operator bool](operator_bool.html "cpp/thread/shared lock/operator bool") |  tests whether the lock owns its associated mutex   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/shared_lock/dsc_operator_bool&action=edit)  
+(public member function)   
 ---|---

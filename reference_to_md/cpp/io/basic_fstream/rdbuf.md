@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -79,7 +79,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_fstream`](../basic_fstream.html "cpp/io/basic fstream")
 
@@ -97,7 +97,7 @@ File operations
 Non-member functions  
 [swap(std::basic_fstream)](swap2.html "cpp/io/basic fstream/swap2")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_fstream/navbar_content&action=edit)
+
 
 [std::basic_filebuf](../basic_filebuf.html)<CharT, Traits>* rdbuf() const; |  |  (since C++11)  
 ---|---|---  
@@ -105,15 +105,15 @@ Non-member functions
   
 Returns pointer to the underlying raw file device object. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_fstream/rdbuf&action=edit&section=T-1 "Template:cpp/io/basic fstream/rdbuf")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_fstream/rdbuf&action=edit&section=T-2 "Template:cpp/io/basic fstream/rdbuf")] Return value
+### Return value
 
 Pointer to the underlying raw file device. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_fstream/rdbuf&action=edit&section=T-3 "Template:cpp/io/basic fstream/rdbuf")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

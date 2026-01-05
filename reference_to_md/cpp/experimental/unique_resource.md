@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Library fundamentals v3](lib_extensions_3.html "cpp/experimental/lib extensions 3")
 
@@ -65,7 +65,7 @@
 [experimental::scope_success](scope_success.html "cpp/experimental/scope success")  
 **experimental::unique_resource**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions_3/navbar_content&action=edit)
+
 
 **`std::experimental::unique_resource`**
 
@@ -85,7 +85,7 @@ Non-member functions
 [make_unique_resource_checked](unique_resource/make_unique_resource_checked.html "cpp/experimental/unique resource/make unique resource checked")  
 [Deduction guides](unique_resource/deduction_guides.html "cpp/experimental/unique resource/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/unique_resource/navbar_content&action=edit)
+
 
 Defined in header `[<experimental/scope>](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/scope&action=edit&redlink=1 "cpp/header/experimental/scope \(page does not exist\)")` |  |   
 ---|---|---  
@@ -124,7 +124,7 @@ Let type `RS` be `R` if `R` is an object type, or [std::reference_wrapper](../ut
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/unique_resource&action=edit&section=1 "Edit section: Template parameters")] Template parameters
+### Template parameters
 
 R  |  \-  |  resource handle type   
 ---|---|---  
@@ -133,52 +133,52 @@ Type requirements
 -`R` shall be an object type or an lvalue reference to an object type. Let `UnrefR` be [std::remove_reference_t](../types/remove_reference.html)<R>, `UnrefR` shall be [MoveConstructible](../named_req/MoveConstructible.html "cpp/named req/MoveConstructible"), and if `UnrefR` is not [CopyConstructible](../named_req/CopyConstructible.html "cpp/named req/CopyConstructible"), [std::is_nothrow_move_constructible_v](../types/is_move_constructible.html)<UnrefR> shall be true.   
 -`D` shall be a [Destructible](../named_req/Destructible.html "cpp/named req/Destructible") and [MoveConstructible](../named_req/MoveConstructible.html "cpp/named req/MoveConstructible") [FunctionObject](../named_req/FunctionObject.html "cpp/named req/FunctionObject") type, and if `D` is not [CopyConstructible](../named_req/CopyConstructible.html "cpp/named req/CopyConstructible"), [std::is_nothrow_move_constructible_v](../types/is_move_constructible.html)<D> shall be true. Given an lvalue `d` of type `D` and an lvalue `r` of type `UnrefR`, the expression d(r) shall be well-formed.   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/unique_resource&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](unique_resource/unique_resource.html "cpp/experimental/unique resource/unique resource") |  constructs a new `unique_resource`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/unique_resource/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ (destructor)](unique_resource/~unique_resource.html "cpp/experimental/unique resource/~unique resource") |  disposes the managed resource if such is present   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/unique_resource/dsc_destructor&action=edit)  
+(public member function)   
 [ operator=](unique_resource/operator=.html "cpp/experimental/unique resource/operator=") |  assigns a `unique_resource`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/unique_resource/dsc_operator%3D&action=edit)  
+(public member function)   
   
 #####  Modifiers   
   
 [ release](unique_resource/release.html "cpp/experimental/unique resource/release") |  releases the ownership   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/unique_resource/dsc_release&action=edit)  
+(public member function)   
 [ reset](unique_resource/reset.html "cpp/experimental/unique resource/reset") |  disposes or replaces the managed resource   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/unique_resource/dsc_reset&action=edit)  
+(public member function)   
   
 #####  Observers   
   
 [ get](unique_resource/get.html "cpp/experimental/unique resource/get") |  accesses the underlying resource handle   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/unique_resource/dsc_get&action=edit)  
+(public member function)   
 [ get_deleter](unique_resource/get_deleter.html "cpp/experimental/unique resource/get deleter") |  accesses the deleter used for disposing of the managed resource   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/unique_resource/dsc_get_deleter&action=edit)  
+(public member function)   
 [ operator*operator->](unique_resource/operator*.html "cpp/experimental/unique resource/operator*") |  accesses the pointee if the resource handle is a pointer   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/unique_resource/dsc_operator*&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/unique_resource&action=edit&section=3 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ make_unique_resource_checked](unique_resource/make_unique_resource_checked.html "cpp/experimental/unique resource/make unique resource checked") |  creates a `unique_resource`, checking invalid value   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/unique_resource/dsc_make_unique_resource_checked&action=edit)  
+(function template)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/unique_resource&action=edit&section=4 "Edit section: Deduction guides")] [Deduction guides](unique_resource/deduction_guides.html "cpp/experimental/unique resource/deduction guides")
+### [Deduction guides](unique_resource/deduction_guides.html "cpp/experimental/unique resource/deduction guides")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/unique_resource&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 Resource handle types satisfying [NullablePointer](../named_req/NullablePointer.html "cpp/named req/NullablePointer") can also be managed by [std::unique_ptr](../memory/unique_ptr.html "cpp/memory/unique ptr"). Unlike `unique_ptr`, `unique_resource` does not require [NullablePointer](../named_req/NullablePointer.html "cpp/named req/NullablePointer"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/unique_resource&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/unique_resource&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ unique_ptr](../memory/unique_ptr.html "cpp/memory/unique ptr")(C++11) |  smart pointer with unique object ownership semantics   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_unique_ptr&action=edit)  
+(class template)   
 ---|---

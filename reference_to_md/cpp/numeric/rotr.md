@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Bit manipulation](../utility/bit.html "cpp/utility/bit")
 
@@ -152,7 +152,7 @@ Common vocabulary types
 [Endian](../utility/bit.html#Endian "cpp/utility/bit")  
 [endian](../types/endian.html "cpp/types/endian")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/bit/navbar_content&action=edit)
+
 
 Defined in header `[<bit>](../header/bit.html "cpp/header/bit")` |  |   
 ---|---|---  
@@ -183,23 +183,23 @@ This overload participates in overload resolution only if `T` is an unsigned int
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/rotr&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 x  |  \-  |  value of unsigned integer type   
 ---|---|---  
 s  |  \-  |  number of positions to shift   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/rotr&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The result of bitwise right-rotating x by s positions. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/rotr&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../utility/feature_test.html "cpp/utility/feature test") macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_bitops`](../experimental/feature_test.html#cpp_lib_bitops "cpp/feature test") | [`201907L`](../compiler_support/20.html#cpp_lib_bitops_201907L "cpp/compiler support/20") | (C++20) | [Bit operations](../utility/bit.html "cpp/utility/bit")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/rotr&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -228,12 +228,12 @@ Output:
     00111010 <- rotr(x, -1)
     01000111 <- rotr(x, 2)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/rotr&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ rotl](rotl.html "cpp/numeric/rotl")(C++20) |  computes the result of bitwise left-rotation   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/dsc_rotl&action=edit)  
+(function template)   
 ---|---  
 [ operator<<=operator>>=operator<<operator>>](../utility/bitset/operator_ltltgtgt.html "cpp/utility/bitset/operator ltltgtgt") |  performs binary shift left and shift right   
-(public member function of `std::bitset<N>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/bitset/dsc_operator_ltltgtgt&action=edit)
+(public member function of `std::bitset<N>`) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

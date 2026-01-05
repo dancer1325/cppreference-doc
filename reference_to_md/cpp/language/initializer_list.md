@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Classes](classes.html "cpp/language/classes")
 
@@ -261,7 +261,7 @@ Inheritance
 [`override` specifier](override.html "cpp/language/override") (C++11)  
 [`final` specifier](final.html "cpp/language/final") (C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/classes/navbar_content&action=edit)
+
 
 _Constructors_ are non-static [member functions](member_functions.html "cpp/language/member functions") declared with a special declarator syntax, they are used to initialize objects of their class types. 
 
@@ -287,7 +287,7 @@ A constructor cannot have an [explicit object parameter](member_functions.html#E
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/constructor&action=edit&section=1 "Edit section: Syntax")] Syntax
+### Syntax
 
 Constructors are declared using member [function declarators](function.html "cpp/language/function") of the following form:   
   
@@ -324,7 +324,7 @@ The identifier expression of class-name must have one of the following forms:
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/constructor&action=edit&section=2 "Edit section: Member initializer list")] Member initializer list
+### Member initializer list
 
 The body of a [function definition](function.html "cpp/language/function") of any constructor of class `T`, before the opening brace of the compound statement, may include the _member initializer list ﻿_ , whose syntax is the colon character `**:**`, followed by the comma-separated list of one or more member-initializer ﻿s, each of which has the following syntax:   
   
@@ -376,7 +376,7 @@ Run this code
         S s2(10); // calls S::S(int)
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/constructor&action=edit&section=3 "Edit section: Explanation")] Explanation
+### Explanation
 
 Constructors have no names and cannot be called directly. They are invoked when [initialization](initialization.html "cpp/language/initialization") takes place, and they are selected according to the rules of initialization. The constructors without explicit specifier are [converting constructors](converting_constructor.html "cpp/language/converting constructor"). The constructors with a constexpr specifier make their type a [literal type](constant_expression.html#Literal_type "cpp/language/constant expression"). Constructors that may be called without any argument are [default constructors](default_constructor.html "cpp/language/default constructor"). Constructors that take another object of the same type as the argument are [copy constructors](copy_constructor.html "cpp/language/copy constructor") and [move constructors](move_constructor.html "cpp/language/move constructor"). 
 
@@ -425,7 +425,7 @@ Reference members cannot be bound to temporaries in a member initializer list:
 
 Note: same applies to [default member initializer](data_members.html#Member_initialization "cpp/language/data members"). 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/constructor&action=edit&section=4 "Edit section: Operations during construction and destruction")] Operations during construction and destruction
+#### Operations during construction and destruction
 
 Member functions (including [virtual member functions](virtual.html#During_construction_and_destruction "cpp/language/virtual")) can be called for an object under construction or destruction. Similarly, an object under construction or destruction can be the operand of [`typeid`](typeid.html "cpp/language/typeid") or [`dynamic_cast`](dynamic_cast.html "cpp/language/dynamic cast"). 
 
@@ -458,7 +458,7 @@ If the name of the class itself appears as class-or-identifier in the member ini
 See [using declaration](using_declaration.html#Inheriting_constructors "cpp/language/using declaration").  | (since C++11)  
 ---|---  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/constructor&action=edit&section=7 "Edit section: Initialization order")] Initialization order
+#### Initialization order
 
 The order of member initializers in the list is irrelevant, the actual order of initialization is as follows: 
 
@@ -472,13 +472,13 @@ The order of member initializers in the list is irrelevant, the actual order of 
 
 (Note: if initialization order was controlled by the appearance in the member initializer lists of different constructors, then the [destructor](destructor.html "cpp/language/destructor") wouldn't be able to ensure that the order of destruction is the reverse of the order of construction.) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/constructor&action=edit&section=8 "Edit section: Notes")] Notes
+### Notes
 
 Feature-test macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_delegating_constructors`](../experimental/feature_test.html#cpp_delegating_constructors "cpp/feature test") | [`200604L`](../compiler_support/11.html#cpp_delegating_constructors_200604L "cpp/compiler support/11") | (C++11) | [Delegating constructors](initializer_list.html#Delegating_constructor)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/constructor&action=edit&section=9 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -535,7 +535,7 @@ Run this code
         Class c2(0.1);
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/constructor&action=edit&section=10 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -561,7 +561,7 @@ function declarator syntax
 (whose lifetime would end at the end of constructor)  | such initialization  
 is ill-formed   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/constructor&action=edit&section=11 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -659,7 +659,7 @@ is ill-formed
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/constructor&action=edit&section=12 "Edit section: See also")] See also
+### See also
 
   * [copy elision](copy_elision.html "cpp/language/copy elision")
   * [converting constructor](converting_constructor.html "cpp/language/converting constructor")

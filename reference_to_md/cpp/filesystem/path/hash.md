@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Filesystem library](../../filesystem.html "cpp/filesystem")
 
@@ -100,7 +100,7 @@ filesystem::symlink_status](../status.html "cpp/filesystem/status")
 [filesystem::is_socket](../is_socket.html "cpp/filesystem/is socket")  
 [filesystem::is_symlink](../is_symlink.html "cpp/filesystem/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/navbar_content&action=edit)
+
 
 [`std::filesystem::path`](../path.html "cpp/filesystem/path")
 
@@ -169,7 +169,7 @@ filesystem::symlink_status](../status.html "cpp/filesystem/status")
 | [formatter<std::filesystem::path>](formatter.html "cpp/filesystem/path/formatter")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/path/navbar_content&action=edit)
+
 
 Defined in header `[<filesystem>](../../header/filesystem.html "cpp/header/filesystem")` |  |   
 ---|---|---  
@@ -183,7 +183,7 @@ The operator() of this specialization is noexcept. For every [std::filesystem::p
 
 This specialization was absent from the C++17 standard publication, see [LWG issue 3657](https://cplusplus.github.io/LWG/issue3657). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/hash&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -235,10 +235,10 @@ Possible output:
                    0 : ""
     "/tmp/../tmp" "/opt" "/lib" "/tmp" "/bin"
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/hash&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ hash](../../utility/hash.html "cpp/utility/hash")(C++11) |  hash function object   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_hash&action=edit)  
+(class template)   
 ---|---  
 [ hash_value](hash_value.html "cpp/filesystem/path/hash value")(C++17) |  calculates a hash value for a path object   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/path/dsc_hash_value&action=edit)
+(function) 

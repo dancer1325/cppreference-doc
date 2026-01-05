@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_syncbuf`](../basic_syncbuf.html "cpp/io/basic syncbuf")
 
@@ -96,7 +96,7 @@ Protected member functions
 Non-member functions  
 [swap(std::basic_syncbuf)](swap2.html "cpp/io/basic syncbuf/swap2")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_syncbuf/navbar_content&action=edit)
+
 
 allocator_type get_allocator() const noexcept; |  |   
 ---|---|---  
@@ -104,20 +104,20 @@ allocator_type get_allocator() const noexcept; |  |
   
 Returns a copy of the allocator that was passed in as the constructor argument or replaced through the assignment operator. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_syncbuf/get_allocator&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_syncbuf/get_allocator&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_syncbuf/get_allocator&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ (constructor)](basic_syncbuf.html "cpp/io/basic syncbuf/basic syncbuf") |  constructs a `basic_syncbuf` object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_syncbuf/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ operator=](operator=.html "cpp/io/basic syncbuf/operator=") |  assigns a `basic_syncbuf` object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_syncbuf/dsc_operator%3D&action=edit)
+(public member function) 

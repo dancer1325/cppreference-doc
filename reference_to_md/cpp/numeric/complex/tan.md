@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [`std::complex`](../complex.html "cpp/numeric/complex")
 
@@ -164,7 +164,7 @@
 [tuple_size<std::complex>](tuple_size.html "cpp/numeric/complex/tuple size")(C++26)  
 [tuple_element<std::complex>](tuple_element.html "cpp/numeric/complex/tuple element")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/navbar_content&action=edit)
+
 
 Defined in header `[<complex>](../../header/complex.html "cpp/header/complex")` |  |   
 ---|---|---  
@@ -185,18 +185,18 @@ Computes complex tangent of a complex value z.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/tan&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 z  |  \-  |  complex value   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/tan&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 If no errors occur, the complex tangent of z is returned. 
 
 Errors and special cases are handled as if the operation is implemented by -i *` `[`std::tanh`](tanh.html "cpp/numeric/complex/tanh")(i * z), where `i` is the imaginary unit. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/tan&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Tangent is an analytical function on the complex plain and has no branch cuts. It is periodic with respect to the real component, with period πi, and has poles of the first order along the real line, at coordinates (π(1/2 + n), 0). However no common floating-point representation is able to represent π/2 exactly, thus there is no value of the argument for which a pole error occurs. 
 
@@ -209,7 +209,7 @@ e-iz
   
 . 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/tan&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -236,17 +236,17 @@ Output:
     tan(1.000000,0.000000) = (1.557408,0.000000) ( tan(1) = 1.557408)
     tan(0.000000,1.000000) = (0.000000,0.761594) (tanh(1) = 0.761594)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/tan&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ sin(std::complex)](sin.html "cpp/numeric/complex/sin") |  computes sine of a complex number (\\({\small\sin{z}}\\)sin(z))   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_sin&action=edit)  
+(function template)   
 ---|---  
 [ cos(std::complex)](cos.html "cpp/numeric/complex/cos") |  computes cosine of a complex number (\\({\small\cos{z}}\\)cos(z))   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_cos&action=edit)  
+(function template)   
 [ atan(std::complex)](atan.html "cpp/numeric/complex/atan")(C++11) |  computes arc tangent of a complex number (\\({\small\arctan{z}}\\)arctan(z))   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_atan&action=edit)  
+(function template)   
 [ tantanftanl](../math/tan.html "cpp/numeric/math/tan")(C++11)(C++11) |  computes tangent (\\({\small\tan{x}}\\)tan(x))   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_tan&action=edit)  
+(function)   
 [ tan(std::valarray)](../valarray/tan.html "cpp/numeric/valarray/tan") |  applies the function [std::tan](../math/tan.html "cpp/numeric/math/tan") to each element of valarray   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_tan&action=edit)  
+(function template)   
 [C documentation](../../../c/numeric/complex/ctan.html "c/numeric/complex/ctan") for ctan

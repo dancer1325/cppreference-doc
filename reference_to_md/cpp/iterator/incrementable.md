@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](empty.html "cpp/iterator/empty")(C++17)  
 [data](data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 Defined in header `[<iterator>](../header/iterator.html "cpp/header/iterator")` |  |   
 ---|---|---  
@@ -211,7 +211,7 @@ This concept specifies requirements on types that can be incremented with the pr
 
 Unlike with [std::weakly_incrementable](weakly_incrementable.html "cpp/iterator/weakly incrementable"), which only support single-pass algorithms, multi-pass one-directional algorithms can be used with types that model `std::incrementable`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/incrementable&action=edit&section=1 "Edit section: Semantic requirements")] Semantic requirements
+### Semantic requirements
 
 `I` models `std::incrementable` only if given any two incrementable objects `a` and `b` of type `I`: 
 
@@ -220,14 +220,14 @@ Unlike with [std::weakly_incrementable](weakly_incrementable.html "cpp/iterator/
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/equality_preservation&action=edit&section=T-1 "Template:cpp/concepts/equality preservation")] Equality preservation
+### Equality preservation
 
 Expressions declared in [requires expressions](../language/requires.html "cpp/language/requires") of the standard library concepts are required to be [equality-preserving](../concepts.html#Equality_preservation "cpp/concepts") (except where stated otherwise). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/incrementable&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ weakly_incrementable](weakly_incrementable.html "cpp/iterator/weakly incrementable")(C++20) |  specifies that a [`semiregular`](../concepts/semiregular.html "cpp/concepts/semiregular") type can be incremented with pre- and post-increment operators   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_weakly_incrementable&action=edit)  
+(concept)   
 ---|---  
 [ same_as](../concepts/same_as.html "cpp/concepts/same as")(C++20) |  specifies that a type is the same as another type   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_same_as&action=edit)
+(concept) 

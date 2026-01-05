@@ -21,7 +21,7 @@
 [Removed symbols (Zombie names)](zombie_names.html "cpp/symbol index/zombie names")  
 [Exposition-only symbols](expos.html "cpp/symbol index/expos")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/symbol_index/navbar_content&action=edit)
+
 
 This page tries to list all the symbols that are available from the [standard library](../standard_library.html "cpp/standard library") ([algorithms library](../algorithm.html "cpp/algorithm")) in the namespace std::execution. The symbols are written as follows: 
 
@@ -47,7 +47,7 @@ This page tries to list all the symbols that are available from the [standard li
   
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/execution&action=edit&section=2 "Edit section: P")] P
+### P
 
 [`par`](../algorithm/execution_policy_tag.html "cpp/algorithm/execution policy tag") (since C++17)  
 [`par_unseq`](../algorithm/execution_policy_tag.html "cpp/algorithm/execution policy tag") (since C++17)  
@@ -55,13 +55,13 @@ This page tries to list all the symbols that are available from the [standard li
 [`parallel_unsequenced_policy`](../algorithm/execution_policy_tag_t.html "cpp/algorithm/execution policy tag t") (since C++17)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/execution&action=edit&section=3 "Edit section: S")] S
+### S
 
 [`seq`](../algorithm/execution_policy_tag.html "cpp/algorithm/execution policy tag") (since C++17)  
 [`sequenced_policy`](../algorithm/execution_policy_tag_t.html "cpp/algorithm/execution policy tag t") (since C++17)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/execution&action=edit&section=4 "Edit section: U")] U
+### U
 
 [`unseq`](../algorithm/execution_policy_tag.html "cpp/algorithm/execution policy tag") (since C++20)  
 [`unsequenced_policy`](../algorithm/execution_policy_tag_t.html "cpp/algorithm/execution policy tag t") (since C++20)  

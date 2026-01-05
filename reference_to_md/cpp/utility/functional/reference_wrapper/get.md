@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Function objects](../../../functional.html "cpp/utility/functional")
 
@@ -255,7 +255,7 @@ Identity function object
 [unary_negate](../unary_negate.html "cpp/utility/functional/unary negate")(until C++20*)  
 [binary_negate](../binary_negate.html "cpp/utility/functional/binary negate")(until C++20*)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/navbar_content&action=edit)
+
 
 [`std::reference_wrapper`](../reference_wrapper.html "cpp/utility/functional/reference wrapper")
 
@@ -271,7 +271,7 @@ Non-member functions
 Helper classes  
 [basic_common_reference<std::reference_wrapper>](basic_common_reference.html "cpp/utility/functional/reference wrapper/basic common reference")(C++23)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/reference_wrapper/navbar_content&action=edit)
+
 
 operator T& () const noexcept; |  (1)  |  (since C++11)   
 (constexpr since C++20)  
@@ -292,15 +292,15 @@ Returns the stored reference.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/reference_wrapper/get&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/reference_wrapper/get&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The stored reference. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/reference_wrapper/get&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -332,8 +332,8 @@ Run this code
         [assert](../../../error/assert.html)(m["C"] == 42);
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/reference_wrapper/get&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ operator()](operator\(\).html "cpp/utility/functional/reference wrapper/operator\(\)") |  calls the stored function   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/reference_wrapper/dsc_operator\(\)&action=edit)  
+(public member function) &action=edit)  
 ---|---

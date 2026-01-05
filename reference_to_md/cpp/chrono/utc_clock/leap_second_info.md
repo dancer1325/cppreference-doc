@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::utc_clock`](../utc_clock.html "cpp/chrono/utc clock")
 
@@ -118,7 +118,7 @@ Leap second insertion information
 **leap_second_info**  
 [get_leap_second_info](get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/utc_clock/navbar_content&action=edit)
+
 
 Defined in header `[<chrono>](../../header/chrono.html "cpp/header/chrono")` |  |   
 ---|---|---  
@@ -132,7 +132,7 @@ A `leap_second_info` indicates whether a UTC time is during a positive leap seco
 
 `leap_second_info` has no base classes or members other than is_leap_second, elapsed, and implicitly declared special member functions. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/utc_clock/leap_second_info&action=edit&section=1 "Edit section: Member objects")] Member objects
+### Member objects
 
 is_leap_second |  whether the UTC time is during a positive leap second insertion   
 (public member object)  
@@ -140,12 +140,12 @@ is_leap_second |  whether the UTC time is during a positive leap second insertio
 elapsed |  the sum of leap seconds between 1 January 1970 and the UTC time   
 (public member object)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/utc_clock/leap_second_info&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 `leap_second_info` is typically obtained from [std::chrono::get_leap_second_info](get_leap_second_info.html "cpp/chrono/utc clock/get leap second info"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/utc_clock/leap_second_info&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ leap_second](../leap_second.html "cpp/chrono/leap second")(C++20) |  contains information about a leap second insertion   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_leap_second&action=edit)  
+(class)   
 ---|---

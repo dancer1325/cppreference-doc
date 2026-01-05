@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::join_view`](../join_view.html "cpp/ranges/join view")
 
@@ -251,7 +251,7 @@ join_view::_iterator_ ::operator--(int)](iterator/operator_arith.html "cpp/range
 [join_view::_sentinel_ ::_sentinel_](sentinel/sentinel.html "cpp/ranges/join view/sentinel/sentinel")  
 [operator==(join_view::_iterator_ ,join_view::_sentinel_)](sentinel/operator_cmp.html "cpp/ranges/join view/sentinel/operator cmp")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/join_view/navbar_content&action=edit)
+
 
 template< bool Const >  
 class /*iterator*/ |  |  (since C++20)   
@@ -273,7 +273,7 @@ If `V` is not a [simple view](../../ranges.html#Helper_concepts "cpp/ranges") (e
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/join_view/iterator&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Member  |  Definition   
 ---|---  
@@ -311,7 +311,7 @@ iterator_category.
 `difference_type` |  [std::common_type_t](../../types/common_type.html)<[ranges::range_difference_t](../range_size_t.html)<Base>,  
 [ranges::range_difference_t](../range_size_t.html)<[ranges::range_reference_t](../range_reference_t.html)<Base>>>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/join_view/iterator&action=edit&section=2 "Edit section: Data members")] Data members
+### Data members
 
 Member  |  Definition   
 ---|---  
@@ -322,7 +322,7 @@ Member  |  Definition
 `_Parent*_` `_parent__` (private) |  A pointer to the parent object  
 (exposition-only member object*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/join_view/iterator&action=edit&section=3 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](iterator/iterator.html "cpp/ranges/join view/iterator/iterator") |  constructs an iterator   
 (public member function)  
@@ -334,7 +334,7 @@ Member  |  Definition
 [_satisfy_](iterator/satisfy.html "cpp/ranges/join view/iterator/satisfy") |  skips over empty inner ranges  
 (exposition-only member function*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/join_view/iterator&action=edit&section=4 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ operator==](iterator/operator_cmp.html "cpp/ranges/join view/iterator/operator cmp")(C++20) |  compares the underlying iterators   
 (function)  

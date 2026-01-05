@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](empty.html "cpp/iterator/empty")(C++17)  
 [data](data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 Defined in header `[<iterator>](../header/iterator.html "cpp/header/iterator")` |  |   
 ---|---|---  
@@ -206,13 +206,13 @@ using indirect_result_t = [std::invoke_result_t](../types/result_of.html)<F, [st
   
 The alias template `indirect_result_t` obtains the result type of invoking an [`invocable`](../concepts/invocable.html "cpp/concepts/invocable") type `F` on the result of dereferencing [`indirectly_readable`](indirectly_readable.html "cpp/iterator/indirectly readable") types `Is...`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/indirect_result_t&action=edit&section=1 "Edit section: Template parameters")] Template parameters
+### Template parameters
 
 F  |  \-  |  an invocable type   
 ---|---|---  
 Is  |  \-  |  indirectly readable types that are dereferenced to arguments   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/indirect_result_t&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -239,10 +239,10 @@ Run this code
      
     int main() {}
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/indirect_result_t&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ result_ofinvoke_result](../types/result_of.html "cpp/types/result of")(C++11)(removed in C++20)(C++17) |  deduces the result type of invoking a callable object with a set of arguments   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_result_of&action=edit)  
+(class template)   
 ---|---  
 [ projected_value_t](projected_value_t.html "cpp/iterator/projected value t")(C++26) |  computes the value type of an [`indirectly_readable`](indirectly_readable.html "cpp/iterator/indirectly readable") type by projection  
-(alias template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_projected_value_t&action=edit)
+(alias template)

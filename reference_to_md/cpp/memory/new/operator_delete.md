@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -282,7 +282,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [Low level memory management](../new.html "cpp/memory/new")
 
@@ -304,7 +304,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
 [Object access](../new.html#Object_access "cpp/memory/new")  
 [launder](../../utility/launder.html "cpp/utility/launder")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/new/navbar_content&action=edit)
+
 
 Defined in header `[<new>](../../header/new.html "cpp/header/new")` |  |   
 ---|---|---  
@@ -403,7 +403,7 @@ See [delete expression](../../language/delete.html "cpp/language/delete") for th
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/new/operator_delete&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 ptr  |  \-  |  pointer to a memory block to deallocate or a null pointer   
 ---|---|---  
@@ -413,14 +413,14 @@ tag  |  \-  |  overload disambiguation tag matching the tag used by non-throwing
 al  |  \-  |  alignment of the object or array element that was allocated   
 args  |  \-  |  arbitrary parameters matching a placement allocation function (may include [std::size_t](../../types/size_t.html "cpp/types/size t") and [std::align_val_t](align_val_t.html "cpp/memory/new/align val t"))   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/new/operator_delete&action=edit&section=2 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 All deallocation functions are noexcept(true) unless specified otherwise in the declaration.  | (since C++11)  
 ---|---  
   
 If a deallocation function terminates by throwing an exception, the behavior is undefined, even if it is declared with noexcept(false)(since C++11). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/new/operator_delete&action=edit&section=3 "Edit section: Global replacements")] Global replacements
+### Global replacements
 
 Overloads ([1-12](operator_delete.html#Version_1)) are [replaceable](../../language/replacement_function.html "cpp/language/replacement function"). The effects of the default versions are: 
 
@@ -529,7 +529,7 @@ Overloads of operator delete and operator delete[] with additional user-defined 
 
 The standard library placement forms of operator delete and operator delete[] ([13,14](operator_delete.html#Version_13)) cannot be replaced and can only be customized if the placement new expression did not use the ::new syntax, by providing a class-specific placement delete ([25,26](operator_delete.html#Version_25)) with matching signature: void T::operator delete(void*, void*) or void T::operator delete[](void*, void*). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/new/operator_delete&action=edit&section=4 "Edit section: Class-specific overloads")] Class-specific overloads
+### Class-specific overloads
 
 Deallocation functions ([17-24](operator_delete.html#Version_17)) may be defined as static member functions of a class. These deallocation functions, if provided, are called by delete expressions when deleting objects ([17,19,21](operator_delete.html#Version_17)) and arrays ([18,20,22](operator_delete.html#Version_18)) of this class, unless the delete expression used the form ::delete which bypasses class-scope lookup. The keyword static is optional for these function declarations: whether the keyword is used or not, the deallocation function is always a static member function. 
 
@@ -625,7 +625,7 @@ Output:
 
 If class-level operator delete is a template function, it must have the return type of void, the first argument void*, and it must have two or more parameters. In other words, only placement forms can be templates. A template instance is never a usual deallocation function, regardless of its signature. The specialization of the template operator delete is chosen with [template argument deduction](../../language/template_argument_deduction.html "cpp/language/template argument deduction"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/new/operator_delete&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 The call to the class-specific T::operator delete on a polymorphic class is the only case where a static member function is called through dynamic dispatch. 
 
@@ -643,7 +643,7 @@ Calls to these functions that allocate or deallocate a particular unit of storag
 [`__cpp_impl_destroying_delete`](../../experimental/feature_test.html#cpp_impl_destroying_delete "cpp/feature test") | [`201806L`](../../compiler_support/20.html#cpp_impl_destroying_delete_201806L "cpp/compiler support/20") | (C++20) | Destroying operator delete (compiler support)   
 [`__cpp_lib_destroying_delete`](../../experimental/feature_test.html#cpp_lib_destroying_delete "cpp/feature test") | [`201806L`](../../compiler_support/20.html#cpp_lib_destroying_delete_201806L "cpp/compiler support/20") | (C++20) | Destroying operator delete (library support)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/new/operator_delete&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -661,16 +661,16 @@ functions could be declared inline | prohibited, no diagnostic required
 [LWG 2458](https://cplusplus.github.io/LWG/issue2458) | C++14  | overloads taking (void*, [std::size_t](../../types/size_t.html), const  
 [std::nothrow_t](nothrow_t.html)&) were specified, but could never be called  | removed spurious overloads   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/new/operator_delete&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ operator delete](../../coroutine/generator/promise_type/operator_delete.html "cpp/coroutine/generator/promise type/operator delete")[static] (C++23) |  deallocates memory previously obtained from `operator new`   
-(public static member function of `std::generator<Ref,V,Allocator>::promise_type`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/coroutine/generator/promise_type/dsc_operator_delete&action=edit)  
+(public static member function of `std::generator<Ref,V,Allocator>::promise_type`)   
 ---|---  
 [ operator newoperator new[]](operator_new.html "cpp/memory/new/operator new") |  allocation functions   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/new/dsc_operator_new&action=edit)  
+(function)   
 [ return_temporary_buffer](../return_temporary_buffer.html "cpp/memory/return temporary buffer")(deprecated in C++17)(removed in C++20) |  frees uninitialized storage   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_return_temporary_buffer&action=edit)  
+(function template)   
 [ free](../c/free.html "cpp/memory/c/free") |  deallocates previously allocated memory   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/c/dsc_free&action=edit)
+(function) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

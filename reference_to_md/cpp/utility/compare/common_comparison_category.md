@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 Defined in header `[<compare>](../../header/compare.html "cpp/header/compare")` |  |   
 ---|---|---  
@@ -162,25 +162,25 @@ In detail, the common comparison type of a list of n types `T`0...`T`n-1 is defi
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/compare/common_comparison_category&action=edit&section=1 "Edit section: Template parameters")] Template parameters
+### Template parameters
 
 ...Ts  |  \-  |  a possibly empty list of types   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/compare/common_comparison_category&action=edit&section=2 "Edit section: Helper template")] Helper template
+### Helper template
 
 template< class... Ts >  
 using common_comparison_category_t = common_comparison_category<Ts...>::type; |  |  (since C++20)  
 ---|---|---  
 | |   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/compare/common_comparison_category&action=edit&section=3 "Edit section: Member types")] Member types
+### Member types
 
 Member type  |  Definition   
 ---|---  
 `type` |  the strongest common comparison category (as defined above)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/compare/common_comparison_category&action=edit&section=4 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     namespace detail
@@ -207,18 +207,18 @@ Member type  |  Definition
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/compare/common_comparison_category&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/compare/common_comparison_category&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ strong_ordering](strong_ordering.html "cpp/utility/compare/strong ordering")(C++20) |  the result type of 3-way comparison that supports all 6 operators and is substitutable   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/compare/dsc_strong_ordering&action=edit)  
+(class)   
 ---|---  
 [ weak_ordering](weak_ordering.html "cpp/utility/compare/weak ordering")(C++20) |  the result type of 3-way comparison that supports all 6 operators and is not substitutable   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/compare/dsc_weak_ordering&action=edit)  
+(class)   
 [ partial_ordering](partial_ordering.html "cpp/utility/compare/partial ordering")(C++20) |  the result type of 3-way comparison that supports all 6 operators, is not substitutable, and allows incomparable values   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/compare/dsc_partial_ordering&action=edit)
+(class) 

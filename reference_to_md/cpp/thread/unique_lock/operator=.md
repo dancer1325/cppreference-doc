@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::unique_lock`](../unique_lock.html "cpp/thread/unique lock")
 
@@ -198,7 +198,7 @@ Observers
 Non-member functions  
 [swap(std::unique_lock)](swap2.html "cpp/thread/unique lock/swap2")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/unique_lock/navbar_content&action=edit)
+
 
 unique_lock& operator=( unique_lock&& other ) noexcept; |  |  (since C++11)  
 ---|---|---  
@@ -218,22 +218,22 @@ If other is the same object as *this, there is no effect. Otherwise, if prior to
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/unique_lock/operator%3D&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 other  |  \-  |  another `unique_lock` to replace the state with   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/unique_lock/operator%3D&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 *this
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/unique_lock/operator%3D&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 With a recursive mutex it is possible for both *this and other to own the same mutex before the assignment. In this case, *this will own the mutex after the assignment and other will not. 
 
 The move assignment possibly raises undefined behavior. For example, when *this is constructed with [std::adopt_lock](../lock_tag_t.html "cpp/thread/lock tag"), but the calling thread does not have the ownership of the associated mutex, the ownership of the associated mutex cannot be properly released. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/unique_lock/operator%3D&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

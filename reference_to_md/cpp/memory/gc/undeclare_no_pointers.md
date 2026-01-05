@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 Defined in header `[<memory>](../../header/memory.html "cpp/header/memory")` |  |   
 ---|---|---  
@@ -204,22 +204,22 @@ Unregisters a range earlier registered with [std::declare_no_pointers](declare_n
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/gc/undeclare_no_pointers&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 p  |  \-  |  pointer to the beginning of the range previously registered with [std::declare_no_pointers](declare_no_pointers.html "cpp/memory/gc/declare no pointers")  
 ---|---|---  
 n  |  \-  |  the number of bytes in the range, same value as previously used with [std::declare_no_pointers](declare_no_pointers.html "cpp/memory/gc/declare no pointers")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/gc/undeclare_no_pointers&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/gc/undeclare_no_pointers&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Throws nothing. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/gc/undeclare_no_pointers&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ declare_no_pointers](declare_no_pointers.html "cpp/memory/gc/declare no pointers")(C++11)(removed in C++23) |  declares that a memory area does not contain traceable pointers   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/gc/dsc_declare_no_pointers&action=edit)  
+(function)   
 ---|---

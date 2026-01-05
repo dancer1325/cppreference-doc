@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Filesystem library](../../filesystem.html "cpp/filesystem")
 
@@ -100,7 +100,7 @@ filesystem::symlink_status](../status.html "cpp/filesystem/status")
 [filesystem::is_socket](../is_socket.html "cpp/filesystem/is socket")  
 [filesystem::is_symlink](../is_symlink.html "cpp/filesystem/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/navbar_content&action=edit)
+
 
 [`std::filesystem::directory_entry`](../directory_entry.html "cpp/filesystem/directory entry")
 
@@ -131,7 +131,7 @@ Observers
 Non-member functions  
 [operator<<](operator_ltlt.html "cpp/filesystem/directory entry/operator ltlt")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/directory_entry/navbar_content&action=edit)
+
 
 bool operator==( const directory_entry& rhs ) const noexcept; |  (1)  |  (since C++17)  
 ---|---|---  
@@ -153,12 +153,12 @@ Compares the path with the directory entry rhs.
 The `<`, `<=`, `>`, `>=`, and `!=` operators are [synthesized](../../language/operators.html#Comparison_operators "cpp/language/operators") from operator<=> and operator== respectively.  | (since C++20)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/directory_entry/operator_cmp&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 rhs  |  \-  |  directory_entry to compare   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/directory_entry/operator_cmp&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) true if path() == rhs.path(), false otherwise.
 
@@ -174,8 +174,8 @@ rhs  |  \-  |  directory_entry to compare
 
 7) The result of path() <=> rhs.path().
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/directory_entry/operator_cmp&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ pathoperator const path&](path.html "cpp/filesystem/directory entry/path") |  returns the path the entry refers to   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/directory_entry/dsc_path&action=edit)  
+(public member function)   
 ---|---

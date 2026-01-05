@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](empty.html "cpp/iterator/empty")(C++17)  
 [data](data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 **`std::counted_iterator`**
 
@@ -218,7 +218,7 @@
 [Helper classes](counted_iterator.html#Helper_classes "cpp/iterator/counted iterator")  
 [iterator_traits<std::counted_iterator>](counted_iterator/iterator_traits.html "cpp/iterator/counted iterator/iterator traits")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/counted_iterator/navbar_content&action=edit)
+
 
 Defined in header `[<iterator>](../header/iterator.html "cpp/header/iterator")` |  |   
 ---|---|---  
@@ -242,7 +242,7 @@ class counted_iterator; |  |  (since C++20)
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/counted_iterator&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Member type  |  Definition   
 ---|---  
@@ -255,7 +255,7 @@ Member type  |  Definition
 `iterator_category`  
 (conditionally present) |  I::iterator_category if present; otherwise, not defined   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/counted_iterator&action=edit&section=2 "Edit section: Member objects")] Member objects
+### Member objects
 
 Member name  |  Definition   
 ---|---  
@@ -264,49 +264,49 @@ Member name  |  Definition
 `_length_` (private) |  the distance between the underlying iterator and the end of its range  
 (exposition-only member object*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/counted_iterator&action=edit&section=3 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](counted_iterator/counted_iterator.html "cpp/iterator/counted iterator/counted iterator") |  constructs a new `counted_iterator`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ operator=](counted_iterator/operator=.html "cpp/iterator/counted iterator/operator=") |  assigns another `counted_iterator`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_operator%3D&action=edit)  
+(public member function)   
 [ base](counted_iterator/base.html "cpp/iterator/counted iterator/base") |  accesses the underlying iterator   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_base&action=edit)  
+(public member function)   
 [ count](counted_iterator/count.html "cpp/iterator/counted iterator/count") |  returns the distance to the end   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/counted_iterator/dsc_count&action=edit)  
+(public member function)   
 [ operator*operator->](counted_iterator/operator*.html "cpp/iterator/counted iterator/operator*") |  accesses the pointed-to element   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_operator*&action=edit)  
+(public member function)   
 [ operator[]](counted_iterator/operator_at.html "cpp/iterator/counted iterator/operator at") |  accesses an element by index   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_operator_at&action=edit)  
+(public member function)   
 [ operator++operator++(int)operator+=operator+operator--operator--(int)operator-=operator-](counted_iterator/operator_arith.html "cpp/iterator/counted iterator/operator arith") |  advances or decrements the `counted_iterator`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_operator_arith&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/counted_iterator&action=edit&section=4 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ operator==operator<=>](counted_iterator/operator_cmp.html "cpp/iterator/counted iterator/operator cmp")(C++20) |  compares the distances to the end   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_operator_cmp&action=edit)  
+(function template)   
 ---|---  
 [ operator==(std::default_sentinel)](counted_iterator/operator_cmp2.html "cpp/iterator/counted iterator/operator cmp2")(C++20) |  checks if the distance to the end is equal to `​0​`   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/counted_iterator/dsc_operator_cmp2&action=edit)  
+(function template)   
 [ operator+](counted_iterator/operator+.html "cpp/iterator/counted iterator/operator+")(C++20) |  advances the iterator   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_operator%2B&action=edit)  
+(function template)   
 [ operator-](counted_iterator/operator-.html "cpp/iterator/counted iterator/operator-")(C++20) |  computes the distance between two iterator adaptors   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_operator-&action=edit)  
+(function template)   
 [ operator-(std::default_sentinel_t)](counted_iterator/operator-2.html "cpp/iterator/counted iterator/operator-2")(C++20) |  computes the signed distance to the end   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/counted_iterator/dsc_operator-2&action=edit)  
+(function template)   
 [ iter_move](counted_iterator/iter_move.html "cpp/iterator/counted iterator/iter move")(C++20) |  casts the result of dereferencing the underlying iterator to its associated rvalue reference type   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_iter_move&action=edit)  
+(function)   
 [ iter_swap](counted_iterator/iter_swap.html "cpp/iterator/counted iterator/iter swap")(C++20) |  swaps the objects pointed to by two underlying iterators   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_iter_swap&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/counted_iterator&action=edit&section=5 "Edit section: Helper classes")] Helper classes
+### Helper classes
 
 [ std::iterator_traits<std::counted_iterator>](counted_iterator/iterator_traits.html "cpp/iterator/counted iterator/iterator traits")(C++20) |  provides uniform interface to the properties of the **std::counted_iterator** type   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/counted_iterator/dsc_iterator_traits&action=edit)  
+(class template specialization)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/counted_iterator&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -346,7 +346,7 @@ Output:
     src[5] { Arcturus, Betelgeuse, Canopus, Deneb, Elnath }
     dst[3] { Arcturus, Betelgeuse, Canopus }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/counted_iterator&action=edit&section=7 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -356,12 +356,12 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 is specialized for `counted_iterator` | member typedefs are added to account for [`iterator_traits`](counted_iterator/iterator_traits.html "cpp/iterator/counted iterator/iterator traits") fix  
 redundant [std::incrementable_traits](incrementable_traits.html "cpp/iterator/incrementable traits") specialization is removed   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/counted_iterator&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [ default_sentinel_t](default_sentinel.html "cpp/iterator/default sentinel t")(C++20) |  default sentinel for use with iterators that know the bound of their range   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_default_sentinel_t&action=edit)  
+(class)   
 ---|---  
 [ views::counted](../ranges/counted_view.html "cpp/ranges/view counted")(C++20) |  creates a subrange from an iterator and a count  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_view_counted&action=edit)  
+(customization point object)  
 [ ranges::take_viewviews::take](../ranges/take_view.html "cpp/ranges/take view")(C++20) |  a [`view`](../ranges/view.html "cpp/ranges/view") consisting of the first N elements of another [`view`](../ranges/view.html "cpp/ranges/view")  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_take_view&action=edit)
+(class template) (range adaptor object)

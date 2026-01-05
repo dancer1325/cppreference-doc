@@ -32,7 +32,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../../numeric.html "cpp/numeric")
 
@@ -89,7 +89,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [Pseudo-random number generation](../../random.html "cpp/numeric/random")
 
@@ -163,7 +163,7 @@
 [piecewise_constant_distribution](../piecewise_constant_distribution.html "cpp/numeric/random/piecewise constant distribution")(C++11)  
 [piecewise_linear_distribution](../piecewise_linear_distribution.html "cpp/numeric/random/piecewise linear distribution")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/navbar_content&action=edit)
+
 
 [`std::shuffle_order_engine`](../shuffle_order_engine.html "cpp/numeric/random/shuffle order engine")
 
@@ -182,7 +182,7 @@ Non-member functions
 [operator==operator!=](operator_cmp.html "cpp/numeric/random/shuffle order engine/operator cmp")(C++11)(C++11)(until C++20)  
 [operator<<operator>>](operator_ltltgtgt.html "cpp/numeric/random/shuffle order engine/operator ltltgtgt")(C++11)(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/shuffle_order_engine/navbar_content&action=edit)
+
 
 result_type operator()(); |  |  (since C++11)  
 ---|---|---  
@@ -200,20 +200,20 @@ Generates a random value. The state of the underlying engine is advanced one or 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/adaptor/operator\(\)&action=edit&section=T-1 "Template:cpp/numeric/random/adaptor/operator\(\)")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/adaptor/operator\(\)&action=edit&section=T-2 "Template:cpp/numeric/random/adaptor/operator\(\)")] Return value
+### Return value
 
 A pseudo-random number in [min(), max()]. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/adaptor/operator\(\)&action=edit&section=T-3 "Template:cpp/numeric/random/adaptor/operator\(\)")] Exceptions
+### Exceptions
 
 Throws nothing. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/adaptor/operator\(\)&action=edit&section=T-4 "Template:cpp/numeric/random/adaptor/operator\(\)")] See also
+### See also
 
 [ discard](discard.html "cpp/numeric/random/shuffle order engine/discard")(C++11) |  advances the adaptor's state by a specified amount   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/adaptor/dsc_discard&action=edit)  
+(public member function)   
 ---|---

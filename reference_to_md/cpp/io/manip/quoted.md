@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [Input/output manipulators](../manip.html "cpp/io/manip")
 
@@ -154,7 +154,7 @@ Time and money I/O
 Quoted manipulator  
 **quoted**(C++14)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/navbar_content&action=edit)
+
 
 Defined in header `[<iomanip>](../../header/iomanip.html "cpp/header/iomanip")` |  |   
 ---|---|---  
@@ -214,28 +214,28 @@ b) Otherwise (if the first character is the delimiter):
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/quoted&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 s  |  \-  |  the string to insert or extract   
 ---|---|---  
 delim  |  \-  |  the character to use as the delimiter, defaults to "  
 escape  |  \-  |  the character to use as the escape character, defaults to \  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/quoted&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Returns an object of unspecified type such that the described behavior takes place. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/quoted&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Throws [std::ios_base::failure](../ios_base/failure.html "cpp/io/ios base/failure") if operator>> or operator<< throws. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/quoted&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../../utility/feature_test.html "cpp/utility/feature test") macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_quoted_string_io`](../../experimental/feature_test.html#cpp_lib_quoted_string_io "cpp/feature test") | [`201304L`](../../compiler_support/14.html#cpp_lib_quoted_string_io_201304L "cpp/compiler support/14") | (C++14) | `std::quoted`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/quoted&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -294,10 +294,10 @@ Output:
     stored as   [$std::quoted() quotes this string and embedded %$quotes%$ %$too$]
     written out [std::quoted() quotes this string and embedded $quotes$ $too]
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/quoted&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ format](../../utility/format/format.html "cpp/utility/format/format")(C++20) |  stores formatted representation of the arguments in a new string   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/dsc_format&action=edit)  
+(function template)   
 ---|---
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

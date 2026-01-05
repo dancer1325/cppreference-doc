@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::month_day`](../month_day.html "cpp/chrono/month day")
 
@@ -118,7 +118,7 @@ Helper classes
 [formatter<std::chrono::month_day>](formatter.html "cpp/chrono/month day/formatter")  
 [hash<std::chrono::month_day>](hash.html "cpp/chrono/month day/hash")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/month_day/navbar_content&action=edit)
+
 
 constexpr bool ok() const noexcept; |  |  (since C++20)  
 ---|---|---  
@@ -128,11 +128,11 @@ Determines whether this `month_day` stores a valid month-day combination.
 
 The combination is valid if month() represents a valid month (month().ok() == true), unsigned{day()} >= 1, and unsigned{day()} <= D, where D is the number of days in the month represented by `month()`. The number of days in February is considered to be 29. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/month_day/ok&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 true if the month and day combination is valid, otherwise false. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/month_day/ok&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     

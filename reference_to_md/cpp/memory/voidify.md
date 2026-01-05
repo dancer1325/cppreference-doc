@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 template< class T >  
 void* voidify( T& obj ) noexcept; |  | (exposition only*)   
@@ -205,24 +205,24 @@ Returns the address of obj (implicitly converted to void*).
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/voidify&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 obj  |  \-  |  the object whose address will be taken   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/voidify&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 &obj | (until C++11)  
 ---|---  
 [std::addressof](addressof.html)(obj) | (since C++11)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/voidify&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 This exposition-only function is introduced by [P0896R4](https://wg21.link/P0896R4). It is used to describe the effects of [uninitialized memory algorithms](../memory.html#Uninitialized_memory_algorithms "cpp/memory") which construct objects in uninitialized memory areas. The result pointer is used as the placement-params of a [placement new expression](../language/new.html#Placement_new "cpp/language/new"). 
 
 Initially, the return value was const_cast<void*>(static_cast<const volatile void*>([std::addressof](addressof.html)(obj))), which breaks const-correctness. The explicit casts were removed by the resolution of [LWG issue 3870](https://cplusplus.github.io/LWG/issue3870), and the only conversion left is the implicit conversion to void*. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/voidify&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -230,30 +230,30 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 3870](https://cplusplus.github.io/LWG/issue3870) | C++98  | the explicit casts broke const-correctness  | removed these casts   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/voidify&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ uninitialized_copy](uninitialized_copy.html "cpp/memory/uninitialized copy") |  copies a range of objects to an uninitialized area of memory   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_uninitialized_copy&action=edit)  
+(function template)   
 ---|---  
 [ ranges::uninitialized_copy](ranges/uninitialized_copy.html "cpp/memory/ranges/uninitialized copy")(C++20) |  copies a range of objects to an uninitialized area of memory  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/ranges/dsc_uninitialized_copy&action=edit)  
+(algorithm function object)  
 [ uninitialized_fill](uninitialized_fill.html "cpp/memory/uninitialized fill") |  copies an object to an uninitialized area of memory, defined by a range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_uninitialized_fill&action=edit)  
+(function template)   
 [ ranges::uninitialized_fill](ranges/uninitialized_fill.html "cpp/memory/ranges/uninitialized fill")(C++20) |  copies an object to an uninitialized area of memory, defined by a range  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/ranges/dsc_uninitialized_fill&action=edit)  
+(algorithm function object)  
 [ uninitialized_move](uninitialized_move.html "cpp/memory/uninitialized move")(C++17) |  moves a range of objects to an uninitialized area of memory   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_uninitialized_move&action=edit)  
+(function template)   
 [ ranges::uninitialized_move](ranges/uninitialized_move.html "cpp/memory/ranges/uninitialized move")(C++20) |  moves a range of objects to an uninitialized area of memory  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/ranges/dsc_uninitialized_move&action=edit)  
+(algorithm function object)  
 [ uninitialized_default_construct](uninitialized_default_construct.html "cpp/memory/uninitialized default construct")(C++17) |  constructs objects by [default-initialization](../language/default_initialization.html "cpp/language/default initialization") in an uninitialized area of memory, defined by a range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_uninitialized_default_construct&action=edit)  
+(function template)   
 [ ranges::uninitialized_default_construct](ranges/uninitialized_default_construct.html "cpp/memory/ranges/uninitialized default construct")(C++20) |  constructs objects by [default-initialization](../language/default_initialization.html "cpp/language/default initialization") in an uninitialized area of memory, defined by a range  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/ranges/dsc_uninitialized_default_construct&action=edit)  
+(algorithm function object)  
 [ uninitialized_value_construct](uninitialized_value_construct.html "cpp/memory/uninitialized value construct")(C++17) |  constructs objects by [value-initialization](../language/value_initialization.html "cpp/language/value initialization") in an uninitialized area of memory, defined by a range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_uninitialized_value_construct&action=edit)  
+(function template)   
 [ ranges::uninitialized_value_construct](ranges/uninitialized_value_construct.html "cpp/memory/ranges/uninitialized value construct")(C++20) |  constructs objects by [value-initialization](../language/value_initialization.html "cpp/language/value initialization") in an uninitialized area of memory, defined by a range  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/ranges/dsc_uninitialized_value_construct&action=edit)  
+(algorithm function object)  
 [ construct_at](construct_at.html "cpp/memory/construct at")(C++20) |  creates an object at a given address   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_construct_at&action=edit)  
+(function template)   
 [ ranges::construct_at](ranges/construct_at.html "cpp/memory/ranges/construct at")(C++20) |  creates an object at a given address  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/ranges/dsc_construct_at&action=edit)
+(algorithm function object)

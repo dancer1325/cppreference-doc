@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 Defined in header `[<atomic>](../header/atomic.html "cpp/header/atomic")` |  |   
 ---|---|---  
@@ -251,7 +251,7 @@ If failure is stronger than success or(until C++17) is one of [std::memory_order
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_compare_exchange&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 obj  |  \-  |  pointer to the atomic object to test and modify   
 ---|---|---  
@@ -260,11 +260,11 @@ desired  |  \-  |  the value to store in the atomic object if it is as expected
 success  |  \-  |  the memory synchronization ordering for the read-modify-write operation if the comparison succeeds   
 failure  |  \-  |  the memory synchronization ordering for the load operation if the comparison fails   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_compare_exchange&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The result of the comparison: true if *obj was equal to *expected, false otherwise. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_compare_exchange&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 `std::atomic_compare_exchange_weak` and `std::atomic_compare_exchange_weak_explicit` (the weak versions) are allowed to fail spuriously, that is, act as if *obj != *expected even if they are equal. When a compare-and-exchange is in a loop, they will yield better performance on some platforms. 
 
@@ -275,7 +275,7 @@ For a union with bits that participate in the value representations of some memb
 Padding bits that never participate in an object's value representation are ignored.  | (since C++20)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_compare_exchange&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Compare and exchange operations are often used as basic building blocks of lockfree data structures.
 
@@ -326,7 +326,7 @@ Run this code
         s.push(3);
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_compare_exchange&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -336,13 +336,13 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 `T` was deduced from multiple arguments  | `T` is only deduced  
 from obj  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_compare_exchange&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ compare_exchange_weakcompare_exchange_strong](atomic/compare_exchange.html "cpp/atomic/atomic/compare exchange") |  atomically compares the value of the atomic object with non-atomic argument and performs atomic exchange if equal or atomic load if not   
-(public member function of `std::atomic<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_compare_exchange&action=edit)  
+(public member function of `std::atomic<T>`)   
 ---|---  
 [ atomic_exchangeatomic_exchange_explicit](atomic_exchange.html "cpp/atomic/atomic exchange")(C++11)(C++11) |  atomically replaces the value of the atomic object with non-atomic argument and returns the old value of the atomic   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/dsc_atomic_exchange&action=edit)  
+(function template)   
 [ std::atomic_compare_exchange_weak(std::shared_ptr) std::atomic_compare_exchange_strong(std::shared_ptr)](../memory/shared_ptr/atomic.html "cpp/memory/shared ptr/atomic")(deprecated in C++20)(removed in C++26) |  specializes atomic operations for std::shared_ptr   
 (function template)  
 ---|---  

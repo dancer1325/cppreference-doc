@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::gps_clock`](../gps_clock.html "cpp/chrono/gps clock")
 
@@ -115,7 +115,7 @@ Time point I/O
 [formatter<std::chrono::gps_time>](formatter.html "cpp/chrono/gps clock/formatter")  
 [from_stream](from_stream.html "cpp/chrono/gps clock/from stream")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/gps_clock/navbar_content&action=edit)
+
 
 template< class Duration >  
 static [std::chrono::utc_time](../utc_clock.html)<[std::common_type_t](../../types/common_type.html)<Duration, [std::chrono::seconds](../duration.html)>>  
@@ -125,20 +125,20 @@ to_utc( const [std::chrono::gps_time](../gps_clock.html)<Duration>& t ) noexcept
   
 Converts the `gps_time` t to a `utc_time` representing the same point in time. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/gps_clock/to_utc&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 A std::chrono::utc_time representing the same point in time as `t`, computed as if by constructing a value of the return type from t.time_since_epoch() and adding 315964809s (315964809 is the number of seconds between the epochs of the two clocks: 1980-01-06 00:00:00 UTC for `gps_clock` and 1970-01-01 00:00:00 UTC for `utc_clock`). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/gps_clock/to_utc&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/gps_clock/to_utc&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ from_utc](from_utc.html "cpp/chrono/gps clock/from utc")[static] |  converts a `utc_time` to `gps_time`   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/gps_clock/dsc_from_utc&action=edit)  
+(public static member function)   
 ---|---  
 [ clock_cast](../clock_cast.html "cpp/chrono/clock cast")(C++20) |  convert time points of one clock to another   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_clock_cast&action=edit)
+(function template) 

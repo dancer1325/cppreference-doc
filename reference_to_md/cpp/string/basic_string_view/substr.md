@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Strings library](../../string.html "cpp/string")
 
@@ -40,7 +40,7 @@ Classes
 [basic_string_view](../basic_string_view.html "cpp/string/basic string view")(C++17)  
 [char_traits](../char_traits.html "cpp/string/char traits")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/navbar_content&action=edit)
+
 
 [`std::basic_string_view`](../basic_string_view.html "cpp/string/basic string view")
 
@@ -92,7 +92,7 @@ Constants
 [hash<std::string_view>hash<std::wstring_view>hash<std::u8string_view>hash<std::u16string_view>hash<std::u32string_view>](hash.html "cpp/string/basic string view/hash")(C++20)  
 [Deduction guides](deduction_guides.html "cpp/string/basic string view/deduction guides") (C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/navbar_content&action=edit)
+
 
 constexpr basic_string_view substr( size_type pos = 0,  
 size_type count = npos ) const; |  |  (since C++17)  
@@ -113,25 +113,25 @@ Returns a view of the substring `[`pos`, `pos + rlen`)`, where `rlen` is the sma
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string_view/substr&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 pos  |  \-  |  position of the first character   
 ---|---|---  
 count  |  \-  |  requested length   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string_view/substr&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 View of the substring `[`pos`, `pos + rlen`)`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string_view/substr&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 [std::out_of_range](../../error/out_of_range.html "cpp/error/out of range") if pos > size(). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string_view/substr&action=edit&section=4 "Edit section: Complexity")] Complexity
+### Complexity
 
 Constant. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string_view/substr&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -172,12 +172,12 @@ Possible output:
     EF
     basic_string_view::substr: __pos (which is 666) > __size (which is 6)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string_view/substr&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ copy](copy.html "cpp/string/basic string view/copy") |  copies characters   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/dsc_copy&action=edit)  
+(public member function)   
 ---|---  
 [ find](find.html "cpp/string/basic string view/find") |  find characters in the view   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/dsc_find&action=edit)  
+(public member function)   
 [ substr](../basic_string/substr.html "cpp/string/basic string/substr") |  returns a substring   
-(public member function of `std::basic_string<CharT,Traits,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_substr&action=edit)
+(public member function of `std::basic_string<CharT,Traits,Allocator>`) 

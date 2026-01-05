@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 Defined in header `[<cstdlib>](../../header/cstdlib.html "cpp/header/cstdlib")` |  |   
 ---|---|---  
@@ -225,19 +225,19 @@ Calls to these functions that allocate or deallocate a particular unit of storag
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/c/realloc&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 ptr  |  \-  |  pointer to the memory area to be reallocated   
 ---|---|---  
 new_size  |  \-  |  new size of the array   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/c/realloc&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 On success, returns a pointer to the beginning of newly allocated memory. To avoid a memory leak, the returned pointer must be deallocated with [std::free](free.html "cpp/memory/c/free") or `std::realloc`. The original pointer ptr is invalidated and any access to it is [undefined behavior](../../language/ub.html "cpp/language/ub") (even if reallocation was in-place). 
 
 On failure, returns a null pointer. The original pointer ptr remains valid and may need to be deallocated with [std::free](free.html "cpp/memory/c/free"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/c/realloc&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Because reallocation may involve bytewise copying (regardless of whether it expands or contracts the area), it is necessary (but not sufficient) for those objects to be of [TriviallyCopyable](../../named_req/TriviallyCopyable.html "cpp/named req/TriviallyCopyable") type. 
 
@@ -250,7 +250,7 @@ Some non-standard libraries define a type trait "BitwiseMovable" or "Relocatable
 
 Objects of such type can be accessed after their storage is reallocated even if their copy constructors are not trivial. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/c/realloc&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -300,7 +300,7 @@ Run this code
         [assert](../../error/assert.html)(buf1[5] == 'f');
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/c/realloc&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [C documentation](../../../c/memory/realloc.html "c/memory/realloc") for realloc  
 ---

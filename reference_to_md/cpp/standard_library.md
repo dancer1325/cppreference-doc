@@ -30,7 +30,7 @@
 [Symbols index](symbol_index.html "cpp/symbol index")  
 [External libraries](links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 **Standard library**
 
@@ -40,7 +40,7 @@ Exposition-only entities
 [_decay-copy_](standard_library/decay-copy.html "cpp/standard library/decay-copy")(C++11)  
 [_synth-three-way_ _synth-three-way-result_](standard_library/synth-three-way.html "cpp/standard library/synth-three-way")(C++20)(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/standard_library/navbar_content&action=edit)
+
 
 The C++ standard library provides a wide range of facilities that are usable in standard C++. 
 
@@ -67,7 +67,7 @@ The C++ standard library provides a wide range of facilities that are usable in 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/standard_library&action=edit&section=1 "Edit section: Category")] Category
+### Category
 
 The [language support library](utility.html#Language_support "cpp/utility") provides components that are required by certain parts of the C++ language, such as memory allocation ([new](language/new.html "cpp/language/new")/[delete](language/delete.html "cpp/language/delete")) and [exception processing](language/exceptions.html "cpp/language/exceptions"). 
 
@@ -101,13 +101,13 @@ The [thread support library](atomic.html "cpp/thread") provides components to cr
 The [execution support](experimental/execution.html "cpp/execution") library provides a framework for managing asynchronous execution on generic execution resources.  | (since C++26)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/standard_library&action=edit&section=2 "Edit section: Library contents")] Library contents
+### Library contents
 
 The C++ standard library provides definitions for the [entities](language/basics.html "cpp/language/basic concepts") and [macros](preprocessor/replace.html "cpp/preprocessor/replace") described in the synopses of the [C++ standard library headers](headers.html "cpp/headers"), unless otherwise specified. 
 
 All library entities except [operator new](memory/new/operator_new.html "cpp/memory/new/operator new") and [operator delete](memory/new/operator_delete.html "cpp/memory/new/operator delete") are defined within the namespace std or [namespaces](language/namespace.html "cpp/language/namespace") nested within namespace std (except the entities for the C standard library facilities, see below). It is unspecified whether names declared in a specific namespace are declared directly in that namespace or in an [inline namespace](language/namespace.html#Inline_namespaces "cpp/language/namespace") inside that namespace.(since C++11)
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/standard_library&action=edit&section=3 "Edit section: Headers")] Headers
+#### Headers
 
 Each element of the C++ standard library is declared or defined (as appropriate) in a _header_. A header is not necessarily a source file, nor are the sequences delimited by `**<**` and `**>**` in header names necessarily valid source file names. 
 
@@ -163,7 +163,7 @@ Removed headers
   
 A [freestanding implementation](freestanding.html "cpp/freestanding") has an implementation-defined set of headers, see [here](freestanding.html#header_requirements "cpp/freestanding") for the minimal requirement on the set of headers. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/standard_library&action=edit&section=4 "Edit section: C standard library")] C standard library
+### C standard library
 
 The C++ standard library also makes available the facilities of the C standard library, suitably adjusted to ensure static type safety. The descriptions of many library functions rely on the C standard library for the semantics of those functions. 
 
@@ -194,7 +194,7 @@ Names that are defined as functions in C must be defined as functions in the C++
 
 Identifiers that are keywords or operators in C++ cannot be defined as macros in C++ standard library headers. In particular, including the standard header [`<iso646.h>`](header/ciso646.html "cpp/header/ciso646") has no effect. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/standard_library&action=edit&section=5 "Edit section: Names associated with safe functions in standard C \(since C++17\)")] Names associated with safe functions in standard C (since C++17)
+#### Names associated with safe functions in standard C (since C++17)
 
 If any C++ header is included, it is implementation-defined whether any of the following C standard Annex K names is declared in the global namespace (none of them is declared in namespace std): 
 
@@ -220,9 +220,9 @@ C standard Annex K names
 [`L_tmpnam_s`](../c/io/tmpnam.html "c/io/tmpnam") | [`strerror_s`](../c/string/byte/strerror.html "c/string/byte/strerror") | [`vsscanf_s`](../c/io/vfscanf.html "c/io/vfscanf") |   
 [`mbsrtowcs_s`](../c/string/multibyte/mbsrtowcs.html "c/string/multibyte/mbsrtowcs") | [`strlen_s`](../c/string/byte/strlen.html "c/string/byte/strlen") | [`vswprintf_s`](../c/io/vfwprintf.html "c/io/vfwprintf") |   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/standard_library&action=edit&section=6 "Edit section: Using the library")] Using the library
+### Using the library
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/standard_library&action=edit&section=7 "Edit section: Including headers")] Including headers
+#### Including headers
 
 The entities in the C++ standard library are defined in headers, whose contents are made available to a translation unit when it contains the appropriate [` #include`](preprocessor/include.html "cpp/preprocessor/include") preprocessing directive. 
 
@@ -252,7 +252,7 @@ For each declaration in the standard library,
 
 | (since C++23)  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/standard_library&action=edit&section=10 "Edit section: Linkage")] Linkage
+#### Linkage
 
 Entities in the C++ standard library have [storage duration#external linkage](language/storage_duration.html#external_linkage "cpp/language/storage duration"). Unless otherwise specified, objects and functions have the default extern "C++" [linkage](language/language_linkage.html "cpp/language/language linkage"). 
 
@@ -260,9 +260,9 @@ Whether a name from the C standard library declared with external linkage has ex
 
 Objects and functions defined in the library and required by a C++ program are included in the program prior to program startup. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/standard_library&action=edit&section=11 "Edit section: Requirements on standard library implementations")] Requirements on standard library implementations
+### Requirements on standard library implementations
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/standard_library&action=edit&section=12 "Edit section: Guarantees")] Guarantees
+#### Guarantees
 
 A C++ header must provide [declarations](language/declarations.html "cpp/language/declarations") and [definitions](language/definition.html "cpp/language/definition") that appear in 
 
@@ -315,7 +315,7 @@ Destructor operations defined in the C++ standard library never throw exceptions
 If a function in the C++ standard library report errors via a [std::error_code](error/error_code.html "cpp/error/error code") object, that object's [`category()`](error/error_code/category.html "cpp/error/error code/category") member must return [std::system_category()](error/system_category.html "cpp/error/system category") for errors originating from the operating system, or a reference to an implementation-defined [std::error_category](error/error_category.html "cpp/error/error category") object for errors originating elsewhere. The possible values of [`value()`](error/error_code/value.html "cpp/error/error code/value") for each of these error categories should be defined. Objects of types defined in the C++ standard library may be [moved from](language/move_constructor.html "cpp/language/move constructor"). Move operations can either be explicitly specified or implicitly generated. Unless otherwise specified, such moved-from objects will be placed in a valid but unspecified state. An object of a type defined in the C++ standard library may be [move-assigned](language/move_operator.html "cpp/language/move assignment") to itself. Unless otherwise specified, such an assignment places the object in a valid but unspecified state.  | (since C++11)  
 ---|---  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/standard_library&action=edit&section=13 "Edit section: Implementation freedom")] Implementation freedom
+#### Implementation freedom
 
 It is unspecified whether any member or non-member functions in the C++ standard library are defined as [inline](language/inline.html "cpp/language/inline"). 
 
@@ -374,7 +374,7 @@ Modifiers  | `pop_front` |  |  |  | [`pop_front`](container/deque/pop_front.html
   
 (since C++26)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/standard_library&action=edit&section=16 "Edit section: Notes")] Notes
+### Notes
 
 [libstdc++](https://www.gnu.org/software/gcc/gcc-15/changes.html#libstdcxx), [libc++](https://releases.llvm.org/19.1.0/projects/libcxx/docs/UsingLibcxx.html#extensions-to-the-c-23-modules-std-and-std-compat), and [STL](https://github.com/microsoft/STL/issues/3945) all support using standard library modules in C++20 mode. 
 
@@ -397,7 +397,7 @@ Hardened implementation only
 [`__cpp_lib_hardened_valarray`](experimental/feature_test.html#cpp_lib_hardened_valarray "cpp/feature test") | [`202502L`](compiler_support/26.html#cpp_lib_hardened_valarray_202502L "cpp/compiler support/26") | (C++26) | Hardened [std::valarray](numeric/valarray.html "cpp/numeric/valarray")  
 [`__cpp_lib_hardened_vector`](experimental/feature_test.html#cpp_lib_hardened_vector "cpp/feature test") | [`202502L`](compiler_support/26.html#cpp_lib_hardened_vector_202502L "cpp/compiler support/26") | (C++26) | Hardened [std::vector](container/vector.html "cpp/container/vector")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/standard_library&action=edit&section=17 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

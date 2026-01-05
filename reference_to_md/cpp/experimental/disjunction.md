@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Library fundamentals v2](lib_extensions_2.html "cpp/experimental/lib extensions 2")
 
@@ -74,7 +74,7 @@
 [uniform container erasure](lib_extensions_2.html#Uniform_container_erasure "cpp/experimental/lib extensions 2")  
 [logical operator type traits](lib_extensions_2.html#Logical_operator_type_traits "cpp/experimental/lib extensions 2")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions_2/navbar_content&action=edit)
+
 
 ![](https://upload.cppreference.com/mwiki/images/3/31/Imbox_notice.png) |  **Merged into ISO C++** The functionality described on this page was merged into the mainline ISO C++ standard as of 2/2016, see [`std::disjunction`](../types/disjunction.html "cpp/types/disjunction") (since C++17)  
 ---|---  
@@ -109,19 +109,19 @@ Disjunction is short-circuiting: if there is a template type argument `Bi` with 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/disjunction&action=edit&section=1 "Edit section: Template parameters")] Template parameters
+### Template parameters
 
 B...  |  \-  |  every template argument `Bi` for which Bi::value is instantiated must be usable as a base class and define member `value` that is convertible to bool  
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/disjunction&action=edit&section=2 "Edit section: Helper variable template")] Helper variable template 
+### Helper variable template 
 
 template< class... B >  
 constexpr bool disjunction_v = disjunction<B...>::value; |  |  (library fundamentals TS v2)  
 ---|---|---  
 | |   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/disjunction&action=edit&section=3 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     template<class...> struct disjunction : [std::false_type](../types/integral_constant.html) {};
@@ -132,18 +132,18 @@ constexpr bool disjunction_v = disjunction<B...>::value; |  |  (library fundamen
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/disjunction&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 A specialization of `disjunction` does not necessarily inherit from of either [std::true_type](../types/integral_constant.html) or [std::false_type](../types/integral_constant.html): it simply inherits from the first `B` whose `::value`, explicitly converted to `bool`, is true, or from the very last B when all of them convert to false. For example, disjunction<[std::integral_constant](../types/integral_constant.html)<int, 2>, [std::integral_constant](../types/integral_constant.html)<int, 4>>::value is 2. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/disjunction&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/disjunction&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ disjunction](../types/disjunction.html "cpp/types/disjunction")(C++17) |  variadic logical OR metafunction   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_disjunction&action=edit)  
+(class template)   
 ---|---

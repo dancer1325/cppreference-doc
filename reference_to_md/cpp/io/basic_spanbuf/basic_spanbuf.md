@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_spanbuf`](../basic_spanbuf.html "cpp/io/basic spanbuf")
 
@@ -94,7 +94,7 @@ Protected member functions
 Non-member functions  
 [swap(std::basic_spanbuf)](swap2.html "cpp/io/basic spanbuf/swap2")(C++23)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_spanbuf/navbar_content&action=edit)
+
 
 basic_spanbuf() : basic_spanbuf([std::ios_base::in](../ios_base/openmode.html) | [std::ios_base::out](../ios_base/openmode.html)) {} |  (1)  |  (since C++23)  
 ---|---|---  
@@ -136,7 +136,7 @@ It is implementation-defined whether rhs still holds the underlying buffer after
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_spanbuf/basic_spanbuf&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 buf  |  \-  |  a [`std::span`](../../container/span.html "cpp/container/span") referencing the underlying buffer   
 ---|---|---  
@@ -151,22 +151,22 @@ which  |  \-  |  specifies stream open mode. It is bitmask type, the following c
 [`ate`](../ios_base/openmode.html "cpp/io/ios base/openmode") |  seek to the end of stream immediately after open   
 [`noreplace`](../ios_base/openmode.html "cpp/io/ios base/openmode") (C++23) |  open in exclusive mode   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_spanbuf/basic_spanbuf&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 These constructors are typically called by the constructors of std::basic_ispanstream, std::basic_ospanstream, and std::basic_spanstream. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_spanbuf/basic_spanbuf&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_spanbuf/basic_spanbuf&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ (constructor)](../basic_ispanstream/basic_ispanstream.html "cpp/io/basic ispanstream/basic ispanstream") |  constructs the `basic_ispanstream`   
-(public member function of `std::basic_ispanstream<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_spanstream/dsc_constructor&action=edit)  
+(public member function of `std::basic_ispanstream<CharT,Traits>`)   
 ---|---  
 [ (constructor)](../basic_ospanstream/basic_ospanstream.html "cpp/io/basic ospanstream/basic ospanstream") |  constructs the `basic_ospanstream`   
-(public member function of `std::basic_ospanstream<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_spanstream/dsc_constructor&action=edit)  
+(public member function of `std::basic_ospanstream<CharT,Traits>`)   
 [ (constructor)](../basic_spanstream/basic_spanstream.html "cpp/io/basic spanstream/basic spanstream") |  constructs the `basic_spanstream`   
-(public member function of `std::basic_spanstream<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_spanstream/dsc_constructor&action=edit)
+(public member function of `std::basic_spanstream<CharT,Traits>`) 

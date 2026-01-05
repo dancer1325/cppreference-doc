@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [C-style I/O](../c.html "cpp/io/c")
 
@@ -176,7 +176,7 @@ Operations on files
 [tmpfile](tmpfile.html "cpp/io/c/tmpfile")  
 [tmpnam](tmpnam.html "cpp/io/c/tmpnam")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/navbar_content&action=edit)
+
 
 Defined in header `[<cstdio>](../../header/cstdio.html "cpp/header/cstdio")` |  |   
 ---|---|---  
@@ -206,18 +206,18 @@ If a read or write error occurs, the error indicator for the stream ([std::ferro
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/fseek&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 stream  |  \-  |  file stream to modify   
 ---|---|---  
 offset  |  \-  |  number of characters to shift the position relative to origin   
 origin  |  \-  |  position to which offset is added. It can have one of the following values: [SEEK_SET](../c.html "cpp/io/c"), [SEEK_CUR](../c.html "cpp/io/c"), [SEEK_END](../c.html "cpp/io/c")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/fseek&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 ​0​ upon success, nonzero value otherwise. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/fseek&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 After seeking to a non-end position in a wide stream, the next call to any output function may render the remainder of the file undefined, e.g. by outputting a multibyte sequence of a different length. 
 
@@ -229,7 +229,7 @@ POSIX specifies, that [`fseek`](https://pubs.opengroup.org/onlinepubs/9699919799
 
 On Windows, [`_fseeki64`](https://learn.microsoft.com/en-us/cpp/c-runtime-library/reference/fseek-fseeki64) can be used to work with files larger than 2 GiB. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/fseek&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -263,15 +263,15 @@ Possible output:
     
     I've read 8 bytes
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/fseek&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ fsetpos](fsetpos.html "cpp/io/c/fsetpos") |  moves the file position indicator to a specific location in a file   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_fsetpos&action=edit)  
+(function)   
 ---|---  
 [ fgetpos](fgetpos.html "cpp/io/c/fgetpos") |  gets the file position indicator   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_fgetpos&action=edit)  
+(function)   
 [ ftell](ftell.html "cpp/io/c/ftell") |  returns the current file position indicator   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_ftell&action=edit)  
+(function)   
 [ rewind](rewind.html "cpp/io/c/rewind") |  moves the file position indicator to the beginning in a file   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_rewind&action=edit)  
+(function)   
 [C documentation](../../../c/io/fseek.html "c/io/fseek") for fseek

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Mathematical special functions](../special_math.html "cpp/experimental/special functions")
 
@@ -86,7 +86,7 @@
 [sph_legendresph_legendrefsph_legendrel](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/special_functions/sph_legendre&action=edit&redlink=1 "cpp/experimental/special functions/sph legendre \(page does not exist\)")  
 [sph_neumannsph_neumannfsph_neumannl](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/special_functions/sph_neumann&action=edit&redlink=1 "cpp/experimental/special functions/sph neumann \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/special_functions/navbar_content&action=edit)
+
 
 double legendre( unsigned int n, double x );  
 double legendre( unsigned int n, float x );  
@@ -116,13 +116,13 @@ As all special functions, `legendre` is only guaranteed to be available in `<cma
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/special_functions/legendre&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 n  |  \-  |  the degree of the polynomial   
 ---|---|---  
 x  |  \-  |  the argument, a value of a floating-point or integral type   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/special_functions/legendre&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 If no errors occur, value of the order-`n` unassociated Legendre polynomial of `x`, that is 1  
 ---  
@@ -137,7 +137,7 @@ dxn
 \- 1)n  
 , is returned. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/special_functions/legendre&action=edit&section=3 "Edit section: Error handling")] Error handling
+### Error handling
 
 Errors may be reported as specified in [math_errhandling](../../numeric/math/math_errhandling.html "cpp/numeric/math/math errhandling"). 
 
@@ -147,7 +147,7 @@ Errors may be reported as specified in [math_errhandling](../../numeric/math/mat
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/special_functions/legendre&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 Implementations that do not support TR 29124 but support TR 19768, provide this function in the header `tr1/cmath` and namespace `std::tr1`. 
 
@@ -176,7 +176,7 @@ The first few Legendre polynomials are:
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/special_functions/legendre&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 (works as shown with gcc 6.0)
 
@@ -210,15 +210,15 @@ Output:
     -0.335938=-0.335938
     0.157715=0.157715
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/special_functions/legendre&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ laguerrelaguerreflaguerrel](laguerre.html "cpp/experimental/special functions/laguerre") |  Laguerre polynomials   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/special_functions/dsc_laguerre&action=edit)  
+(function)   
 ---|---  
 [ hermitehermitefhermitel](hermite.html "cpp/experimental/special functions/hermite") |  Hermite polynomials   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/special_functions/dsc_hermite&action=edit)  
+(function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/special_functions/legendre&action=edit&section=7 "Edit section: External links")] External links
+### External links
 
 [Weisstein, Eric W. "Legendre Polynomial."](https://mathworld.wolfram.com/LegendrePolynomial.html) From MathWorld — A Wolfram Web Resource.   
 ---

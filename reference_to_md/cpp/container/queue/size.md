@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 `[std::queue](../queue.html "cpp/container/queue")`
 
@@ -102,7 +102,7 @@ Tables
 [formatter<std::queue>](formatter.html "cpp/container/queue/formatter")(C++23)  
 [Deduction guides](deduction_guides.html "cpp/container/queue/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/queue/navbar_content&action=edit)
+
 
 size_type size() const; |  |   
 ---|---|---  
@@ -121,19 +121,19 @@ Returns the number of elements in the container adaptor. Equivalent to: return` 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/size_ad&action=edit&section=T-1 "Template:cpp/container/size ad")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/size_ad&action=edit&section=T-2 "Template:cpp/container/size ad")] Return value
+### Return value
 
 The number of elements in the container adaptor. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/size_ad&action=edit&section=T-3 "Template:cpp/container/size ad")] Complexity
+### Complexity
 
 Constant. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/size_ad&action=edit&section=T-4 "Template:cpp/container/size ad")] Example
+### Example
 
 Run this code
     
@@ -152,10 +152,10 @@ Run this code
         [assert](../../error/assert.html)(queue.size() == count);
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/size_ad&action=edit&section=T-5 "Template:cpp/container/size ad")] See also
+### See also
 
 [ empty](empty.html "cpp/container/queue/empty") |  checks whether the container adaptor is empty   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_empty&action=edit)  
+(public member function)   
 ---|---  
 [ sizessize](../../iterator/size.html "cpp/iterator/size")(C++17)(C++20) |  returns the size of a container or array   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_size&action=edit)
+(function template) 

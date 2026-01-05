@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Basic Concepts](basics.html "cpp/language/basic concepts")
 
@@ -249,7 +249,7 @@ Miscellaneous
 [Modules](modules.html "cpp/language/modules") (C++20)  
 [Contracts](contracts.html "cpp/language/contracts") (C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/basics/navbar_content&action=edit)
+
 
 Each [declaration](declarations.html "cpp/language/declarations") that appears in a C++ program is only visible in some possibly discontiguous _scopes ﻿_. 
 
@@ -274,7 +274,7 @@ Within a scope, [unqualified name lookup](lookup.html "cpp/language/lookup") can
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/scope&action=edit&section=1 "Edit section: General")] General
+### General
 
 Each program has a _global scope ﻿_ , which _contains_ the entire program. 
 
@@ -360,7 +360,7 @@ In the program above:
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/scope&action=edit&section=2 "Edit section: Block scope")] Block scope
+### Block scope
 
 Each 
 
@@ -419,7 +419,7 @@ If a declaration that is not a [name-independent declaration](conflicting_declar
         extern int i; // error: redeclaration of “i”
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/scope&action=edit&section=3 "Edit section: Function parameter scope")] Function parameter scope
+### Function parameter scope
 
 Each [parameter declaration](function.html#Parameter_list "cpp/language/function") `P` introduces a _function parameter scope_ that includes `P`. 
 
@@ -467,7 +467,7 @@ Each [lambda expression](lambda.html "cpp/language/lambda") introduces a _lambda
 | (since C++14)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/scope&action=edit&section=5 "Edit section: Namespace scope")] Namespace scope
+### Namespace scope
 
 Every [namespace definition](namespace.html "cpp/language/namespace") for a namespace `N` introduces a _namespace scope_ `S` that includes the declarations for every namespace definition for `N`. 
 
@@ -494,7 +494,7 @@ The [global scope](scope.html#General) is the namespace scope of the [global nam
         void h(); // declares V::h
     }             // the second part of scope “S” ends here
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/scope&action=edit&section=6 "Edit section: Class scope")] Class scope
+### Class scope
 
 Each declaration of a class or class template `C` introduces a _class scope_ `S` that includes the member-specification of the [class definition](class.html "cpp/language/class") of `C`. 
 
@@ -519,7 +519,7 @@ For each non-friend redeclaration or specialization whose target scope is `S` or
         /* ... */
     }             // the second part of scope “S” ends here
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/scope&action=edit&section=7 "Edit section: Enumeration scope")] Enumeration scope
+### Enumeration scope
 
 Each declaration of an enumeration `E` introduces an _enumeration scope_ that includes the enumerator-list of the non-opaque(since C++11) [enumeration declaration](enum.html "cpp/language/enum") of `E` (if present). 
     
@@ -531,7 +531,7 @@ Each declaration of an enumeration `E` introduces an _enumeration scope_ that in
         // scope “S” ends here
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/scope&action=edit&section=8 "Edit section: Template parameter scope")] Template parameter scope
+### Template parameter scope
 
 Each [template template parameter](template_parameters.html#Template_template_parameter "cpp/language/template parameters") introduces a _template parameter scope_ that includes the entire template parameter list and the [require clauses](constraints.html#Requires_clauses "cpp/language/constraints")(since C++20) of that template template parameter. 
 
@@ -573,7 +573,7 @@ Each [contract assertion](contracts.html "cpp/language/contracts") `C` introduce
 | (since C++26)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/scope&action=edit&section=10 "Edit section: Point of declaration")] Point of declaration
+### Point of declaration
 
 In general, a name is visible after the _locus_ of its first declaration, which is located as follows. 
 
@@ -725,7 +725,7 @@ The locus of a named [namespace definition](namespace.html "cpp/language/namespa
 Reason: remainder of [basic.scope.pdecl]   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/scope&action=edit&section=11 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -734,7 +734,7 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [CWG 2793](https://cplusplus.github.io/CWG/issues/2793.html) | C++98  | an extern declaration in a block scope could  
 conflict with another declaration in the parent scope  | prohibited   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/scope&action=edit&section=12 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -796,7 +796,7 @@ conflict with another declaration in the parent scope  | prohibited
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/scope&action=edit&section=13 "Edit section: See also")] See also
+### See also
 
 [C documentation](../../c/language/scope.html "c/language/scope") for Scope  
 ---

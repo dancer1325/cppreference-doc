@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Null-terminated wide strings](../wide.html "cpp/string/wide")
 
@@ -153,7 +153,7 @@
 WCHAR_MAX  
 WEOF](../wide.html#Macros "cpp/string/wide")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/navbar_content&action=edit)
+
 
 Defined in header `[<cwchar>](../../header/cwchar.html "cpp/header/cwchar")` |  |   
 ---|---|---  
@@ -173,17 +173,17 @@ Finds the last occurrence of the wide character ch in the wide string pointed to
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/wcsrchr&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 str  |  \-  |  pointer to the null-terminated wide string to be analyzed   
 ---|---|---  
 ch  |  \-  |  wide character to search for   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/wcsrchr&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Pointer to the found character in str, or a null pointer if no such character is found. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/wcsrchr&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -217,13 +217,13 @@ Output:
     The character 猫 found at position 4
     The character 犬 not found
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/wcsrchr&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ wcschr](wcschr.html "cpp/string/wide/wcschr") |  finds the first occurrence of a wide character in a wide string   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wcschr&action=edit)  
+(function)   
 ---|---  
 [ strrchr](../byte/strrchr.html "cpp/string/byte/strrchr") |  finds the last occurrence of a character   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strrchr&action=edit)  
+(function)   
 [ rfind](../basic_string/rfind.html "cpp/string/basic string/rfind") |  find the last occurrence of a substring   
-(public member function of `std::basic_string<CharT,Traits,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_rfind&action=edit)  
+(public member function of `std::basic_string<CharT,Traits,Allocator>`)   
 [C documentation](../../../c/string/wide/wcsrchr.html "c/string/wide/wcsrchr") for wcsrchr

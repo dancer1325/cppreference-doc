@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header is part of the [text processing](../text.html "cpp/text") library. 
 
@@ -232,68 +232,68 @@ This header is part of the [text processing](../text.html "cpp/text") library.
 ###  Concepts  
   
 [ formattable](../utility/format/formattable.html "cpp/utility/format/formattable")(C++23) |  specifies that a type is formattable, that is, it specializes [std::formatter](../utility/format/formatter.html "cpp/utility/format/formatter") and provides member functions `parse` and `format`   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/dsc_formattable&action=edit)  
+(concept)   
   
 ###  Enumerations  
   
 [ range_format](../utility/format/range_format.html "cpp/utility/format/range format")(C++23) |  specifies how a range should be formatted   
-(enum) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/dsc_range_format&action=edit)  
+(enum)   
   
 ###  Classes  
   
 [ formatter](../utility/format/formatter.html "cpp/utility/format/formatter")(C++20) |  defines formatting rules for a given type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/dsc_formatter&action=edit)  
+(class template)   
 [ range_formatter](../utility/format/range_formatter.html "cpp/utility/format/range formatter")(C++23) |  class template that helps implementing [std::formatter](../utility/format/formatter.html "cpp/utility/format/formatter") specializations for range types   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/dsc_range_formatter&action=edit)  
+(class template)   
 [ basic_format_parse_contextformat_parse_contextwformat_parse_context](../utility/format/basic_format_parse_context.html "cpp/utility/format/basic format parse context")(C++20)(C++20)(C++20) |  formatting string parser state   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/dsc_basic_format_parse_context&action=edit)  
+(class template)   
 [ basic_format_contextformat_contextwformat_context](../utility/format/basic_format_context.html "cpp/utility/format/basic format context")(C++20)(C++20)(C++20) |  formatting state, including all formatting arguments and the output iterator   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/dsc_basic_format_context&action=edit)  
+(class template)   
 [ basic_format_arg](../utility/format/basic_format_arg.html "cpp/utility/format/basic format arg")(C++20) |  class template that provides access to a formatting argument for user-defined formatters   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/dsc_basic_format_arg&action=edit)  
+(class template)   
 [ basic_format_argsformat_argswformat_args](../utility/format/basic_format_args.html "cpp/utility/format/basic format args")(C++20)(C++20)(C++20) |  class that provides access to all formatting arguments   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/dsc_basic_format_args&action=edit)  
+(class template)   
 [ basic_format_stringformat_stringwformat_string](../utility/format/basic_format_string.html "cpp/utility/format/basic format string")(C++20)(C++20)(C++20) |  class template that performs compile-time format string checks at construction time   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/dsc_basic_format_string&action=edit)  
+(class template)   
 [ format_error](../utility/format/format_error.html "cpp/utility/format/format error")(C++20) |  exception type thrown on formatting errors   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/dsc_format_error&action=edit)  
+(class)   
   
 #####  Formatter specializations   
   
 [ std::formatter<_pair-or-tuple_ >](../utility/format/tuple_formatter.html "cpp/utility/format/tuple formatter")(C++23) |  formatting support for `pair` and `tuple`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/dsc_tuple_formatter&action=edit)  
+(class template specialization)   
 [ std::formatter<_range_ >](../utility/format/ranges_formatter.html "cpp/utility/format/ranges formatter")(C++23) |  formatting support for ranges   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/dsc_ranges_formatter&action=edit)  
+(class template specialization)   
   
 ###  Functions  
   
 [ format](../utility/format/format.html "cpp/utility/format/format")(C++20) |  stores formatted representation of the arguments in a new string   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/dsc_format&action=edit)  
+(function template)   
 [ format_to](../utility/format/format_to.html "cpp/utility/format/format to")(C++20) |  writes out formatted representation of its arguments through an output iterator   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/dsc_format_to&action=edit)  
+(function template)   
 [ format_to_n](../utility/format/format_to_n.html "cpp/utility/format/format to n")(C++20) |  writes out formatted representation of its arguments through an output iterator, not exceeding specified size   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/dsc_format_to_n&action=edit)  
+(function template)   
 [ formatted_size](../utility/format/formatted_size.html "cpp/utility/format/formatted size")(C++20) |  determines the number of characters necessary to store the formatted representation of its arguments   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/dsc_formatted_size&action=edit)  
+(function template)   
 [ runtime_format](../utility/format/runtime_format.html "cpp/utility/format/runtime format")(C++26) |  creates runtime format strings directly usable in user-oriented formatting functions   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/dsc_runtime_format&action=edit)  
+(function)   
 [ vformat](../utility/format/vformat.html "cpp/utility/format/vformat")(C++20) |  non-template variant of [std::format](../utility/format/format.html "cpp/utility/format/format") using type-erased argument representation   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/dsc_vformat&action=edit)  
+(function)   
 [ vformat_to](../utility/format/vformat_to.html "cpp/utility/format/vformat to")(C++20) |  non-template variant of [std::format_to](../utility/format/format_to.html "cpp/utility/format/format to") using type-erased argument representation   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/dsc_vformat_to&action=edit)  
+(function template)   
 [ visit_format_arg](../utility/format/visit_format_arg.html "cpp/utility/format/visit format arg")(C++20) (deprecated in C++26) |  argument visitation interface for user-defined formatters   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/dsc_visit_format_arg&action=edit)  
+(function template)   
 [ make_format_argsmake_wformat_args](../utility/format/make_format_args.html "cpp/utility/format/make format args")(C++20)(C++20) |  creates a type-erased object referencing all formatting arguments, convertible to `format_args`   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/dsc_make_format_args&action=edit)  
+(function template)   
   
 ###  Helpers  
   
 [ format_kind](../utility/format/format_kind.html "cpp/utility/format/format kind")(C++23) |  selects a suited std::range_format for a range  
-(variable template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/dsc_format_kind&action=edit)  
+(variable template)  
 [ enable_nonlocking_formatter_optimization](../utility/format/enable_nonlocking_formatter_optimization.html "cpp/utility/format/enable nonlocking formatter optimization")(C++23) |  indicates the argument type can be efficiently printed  
-(variable template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/dsc_enable_nonlocking_formatter_optimization&action=edit)  
+(variable template)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/format&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     namespace std {
@@ -477,7 +477,7 @@ This header is part of the [text processing](../text.html "cpp/text") library.
       class format_error;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/format&action=edit&section=T-1 "Template:cpp/synopsis/format")] Class template std::basic_format_string
+#### Class template std::basic_format_string
     
     
     namespace std {
@@ -501,7 +501,7 @@ This header is part of the [text processing](../text.html "cpp/text") library.
 Reason: create page: `concept formattable`  
 ---|---  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/format&action=edit&section=T-2 "Template:cpp/synopsis/format")] Concept `std::formattable`
+#### Concept `std::formattable`
     
     
     template<class T, class CharT>
@@ -516,7 +516,7 @@ Reason: create page: `concept formattable`
             { cf.format(t, fc) } -> same_as<__fmt_iter_for<CharT>>;
         };
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/format&action=edit&section=T-3 "Template:cpp/synopsis/format")] Class template [std::basic_format_parse_context](../utility/format/basic_format_parse_context.html "cpp/utility/format/basic format parse context")
+#### Class template [std::basic_format_parse_context](../utility/format/basic_format_parse_context.html "cpp/utility/format/basic format parse context")
     
     
     namespace std {
@@ -558,7 +558,7 @@ Reason: create page: `concept formattable`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/format&action=edit&section=T-4 "Template:cpp/synopsis/format")] Class template [std::basic_format_context](../utility/format/basic_format_context.html "cpp/utility/format/basic format context")
+#### Class template [std::basic_format_context](../utility/format/basic_format_context.html "cpp/utility/format/basic format context")
     
     
     namespace std {
@@ -583,14 +583,14 @@ Reason: create page: `concept formattable`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/format&action=edit&section=T-5 "Template:cpp/synopsis/format")] Variable template std::format_kind
+#### Variable template std::format_kind
     
     
     template<[ranges::input_range](../ranges/input_range.html) R>
       requires same_as<R, remove_cvref_t<R>>
     constexpr range_format format_kind<R> = /* see description */;
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/format&action=edit&section=T-6 "Template:cpp/synopsis/format")] Class template std::range_formatter
+#### Class template std::range_formatter
     
     
     namespace std {
@@ -626,7 +626,7 @@ Reason: create page: `concept formattable`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/format&action=edit&section=T-7 "Template:cpp/synopsis/format")] Class template ___range_default_formatter_
+#### Class template ___range_default_formatter_
     
     
     namespace std {
@@ -653,7 +653,7 @@ Reason: create page: `concept formattable`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/format&action=edit&section=T-8 "Template:cpp/synopsis/format")] Specialization of ___range_default_formatter_ for maps
+#### Specialization of ___range_default_formatter_ for maps
     
     
     namespace std {
@@ -678,7 +678,7 @@ Reason: create page: `concept formattable`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/format&action=edit&section=T-9 "Template:cpp/synopsis/format")] Specialization of ___range_default_formatter_ for sets
+#### Specialization of ___range_default_formatter_ for sets
     
     
     namespace std {
@@ -703,7 +703,7 @@ Reason: create page: `concept formattable`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/format&action=edit&section=T-10 "Template:cpp/synopsis/format")] Specialization of ___range_default_formatter_ for strings
+#### Specialization of ___range_default_formatter_ for strings
     
     
     namespace std {
@@ -724,7 +724,7 @@ Reason: create page: `concept formattable`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/format&action=edit&section=T-11 "Template:cpp/synopsis/format")] Class template [std::basic_format_arg](../utility/format/basic_format_arg.html "cpp/utility/format/basic format arg")
+#### Class template [std::basic_format_arg](../utility/format/basic_format_arg.html "cpp/utility/format/basic format arg")
     
     
     namespace std {
@@ -765,7 +765,7 @@ Reason: create page: `concept formattable`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/format&action=edit&section=T-12 "Template:cpp/synopsis/format")] Class std::basic_format_arg::handle
+#### Class std::basic_format_arg::handle
     
     
     namespace std {
@@ -783,7 +783,7 @@ Reason: create page: `concept formattable`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/format&action=edit&section=T-13 "Template:cpp/synopsis/format")] Class template ___format_arg_store_
+#### Class template ___format_arg_store_
     
     
     namespace std {
@@ -793,7 +793,7 @@ Reason: create page: `concept formattable`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/format&action=edit&section=T-14 "Template:cpp/synopsis/format")] Class template [std::basic_format_args](../utility/format/basic_format_args.html "cpp/utility/format/basic format args")
+#### Class template [std::basic_format_args](../utility/format/basic_format_args.html "cpp/utility/format/basic format args")
     
     
     namespace std {
@@ -813,7 +813,7 @@ Reason: create page: `concept formattable`
       basic_format_args(/*format-arg-store*/<Context, Args...>) -> basic_format_args<Context>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/format&action=edit&section=T-15 "Template:cpp/synopsis/format")] Tuple formatter
+#### Tuple formatter
     
     
     namespace std {
@@ -847,7 +847,7 @@ Reason: create page: `concept formattable`
         (enable_nonlocking_formatter_optimization<Ts> && ...);
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/format&action=edit&section=T-16 "Template:cpp/synopsis/format")] Class [std::format_error](../utility/format/format_error.html "cpp/utility/format/format error")
+#### Class [std::format_error](../utility/format/format_error.html "cpp/utility/format/format error")
     
     
     namespace std {

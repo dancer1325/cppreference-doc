@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::shared_ptr`](../shared_ptr.html "cpp/memory/shared ptr")
 
@@ -220,7 +220,7 @@ Helper classes
 [hash<std::shared_ptr>](hash.html "cpp/memory/shared ptr/hash")  
 [Deduction guides](deduction_guides.html "cpp/memory/shared ptr/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/navbar_content&action=edit)
+
 
 bool unique() const noexcept; |  |  (deprecated in C++17)   
 (removed in C++20)  
@@ -240,19 +240,19 @@ Checks if *this is the only `shared_ptr` instance managing the current object, i
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/unique&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/unique&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 true if *this is the only `shared_ptr` instance managing the current object, false otherwise. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/unique&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 This function was deprecated in C++17 and removed in C++20 because use_count() == 1 is meaningless in multithreaded environment (see [Notes](use_count.html#Notes "cpp/memory/shared ptr/use count") in [use_count](use_count.html "cpp/memory/shared ptr/use count")). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/unique&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -276,8 +276,8 @@ Output:
     sp1.unique() == true
     sp1.unique() == false
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/unique&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ use_count](use_count.html "cpp/memory/shared ptr/use count") |  returns the number of `shared_ptr` objects referring to the same managed object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/dsc_use_count&action=edit)  
+(public member function)   
 ---|---

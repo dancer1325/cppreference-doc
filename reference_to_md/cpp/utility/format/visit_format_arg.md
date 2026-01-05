@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Formatting library](../format.html "cpp/utility/format")
 
@@ -91,7 +91,7 @@ Formatting arguments
 [Format error](format.html#Format_error "cpp/utility/format/format")  
 [format_error](format_error.html "cpp/utility/format/format error")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/navbar_content&action=edit)
+
 
 Defined in header `[<format>](../../header/format.html "cpp/header/format")` |  |   
 ---|---|---  
@@ -115,28 +115,28 @@ Equivalent to [std::visit](../variant/visit.html)([std::forward](../forward.html
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/visit_format_arg&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 vis  |  \-  |  a [Callable](../../named_req/Callable.html "cpp/named req/Callable") that accepts every possible alternative from `arg`  
 ---|---|---  
 arg  |  \-  |  a [std::basic_format_arg](basic_format_arg.html "cpp/utility/format/basic format arg") to be visited   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/visit_format_arg&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The value returned by the selected invocation of the visitor. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/visit_format_arg&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 As of C++26, `std::visit_format_arg` is deprecated in favor of the `visit` member functions of [std::basic_format_arg](basic_format_arg.html "cpp/utility/format/basic format arg"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/visit_format_arg&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/visit_format_arg&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ make_format_argsmake_wformat_args](make_format_args.html "cpp/utility/format/make format args")(C++20)(C++20) |  creates a type-erased object referencing all formatting arguments, convertible to `format_args`   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/dsc_make_format_args&action=edit)  
+(function template)   
 ---|---

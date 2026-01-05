@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](ranges/copy.html "cpp/algorithm/ra
 [uninitialized_default_construct_n](../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -337,7 +337,7 @@ If the return type is not one of the three comparison category types, the progra
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/lexicographical_compare_three_way&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first1, last1  |  \-  |  the pair of iterators defining the first [range](../iterator.html#Ranges "cpp/iterator") of elements to examine   
 ---|---|---  
@@ -346,11 +346,11 @@ comp  |  \-  |  a function object
 Type requirements   
 -`InputIt1, InputIt2` must meet the requirements of [LegacyInputIterator](../named_req/InputIterator.html "cpp/named req/InputIterator").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/lexicographical_compare_three_way&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The value of a comparison category type specified above. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/lexicographical_compare_three_way&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Given \\(\scriptsize N_1\\)N1 as [std::distance](../iterator/distance.html)(first1, last1) and \\(\scriptsize N_2\\)N2 as [std::distance](../iterator/distance.html)(first2, last2): 
 
@@ -358,7 +358,7 @@ Given \\(\scriptsize N_1\\)N1 as [std::distance](../iterator/distance.html)(firs
 
 2) At most \\(\scriptsize \min(N_1,N_2)\\)min(N1,N2) applications of [std::compare_three_way](../utility/compare/compare_three_way.html)().
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/lexicographical_compare_three_way&action=edit&section=4 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     template<class I1, class I2, class Cmp>
@@ -385,7 +385,7 @@ Given \\(\scriptsize N_1\\)N1 as [std::distance](../iterator/distance.html)(firs
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/lexicographical_compare_three_way&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -434,7 +434,7 @@ Output:
     "two" is greater than "four"
     "three" is less than "two"
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/lexicographical_compare_three_way&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -442,12 +442,12 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 3410](https://cplusplus.github.io/LWG/issue3410) | C++20  | extraneous comparisons between iterators were required  | such requirement removed   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/lexicographical_compare_three_way&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ lexicographical_compare](lexicographical_compare.html "cpp/algorithm/lexicographical compare") |  returns true if one range is lexicographically less than another   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_lexicographical_compare&action=edit)  
+(function template)   
 ---|---  
 [ compare_three_way](../utility/compare/compare_three_way.html "cpp/utility/compare/compare three way")(C++20) |  constrained function object implementing x <=> y   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/compare/dsc_compare_three_way&action=edit)  
+(class)   
 [ ranges::lexicographical_compare](ranges/lexicographical_compare.html "cpp/algorithm/ranges/lexicographical compare")(C++20) |  returns true if one range is lexicographically less than another  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_lexicographical_compare&action=edit)
+(algorithm function object)

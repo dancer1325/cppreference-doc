@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -71,7 +71,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::mdspan`](../mdspan.html "cpp/container/mdspan")
 
@@ -120,7 +120,7 @@ Tables
 **submdspan_mapping_result**(C++26)  
 [Deduction guides](deduction_guides.html "cpp/container/mdspan/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/navbar_content&action=edit)
+
 
 Defined in header `[<mdspan>](../../header/mdspan.html "cpp/header/mdspan")` |  |   
 ---|---|---  
@@ -132,12 +132,12 @@ Specializations of `submdspan_mapping_result` are result types returned by overl
 
 This class template has no base classes or declared members other than those shown below. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/submdspan_mapping_result&action=edit&section=1 "Edit section: Template parameters")] Template parameters
+### Template parameters
 
 LayoutMapping  |  \-  |  a layout mapping type that meets the requirements of [LayoutMapping](../../named_req/LayoutMapping.html "cpp/named req/LayoutMapping")  
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/submdspan_mapping_result&action=edit&section=2 "Edit section: Data members")] Data members
+### Data members
 
 Member name  |  Definition   
 ---|---  
@@ -148,14 +148,14 @@ offset |  calculated offset of type [std::size_t](../../types/size_t.html "cpp/t
   
 All these members have default member initializers where each data member is value initialized. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/submdspan_mapping_result&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ submdspan](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/submdspan&action=edit&redlink=1 "cpp/container/mdspan/submdspan \(page does not exist\)")(C++26) |  returns a view of a subset of an existing `mdspan`   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/dsc_submdspan&action=edit)  
+(function template)   
 ---|---  
 [ submdspan_mapping(std::layout_left::mapping)](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/layout_left/mapping/submdspan_mapping&action=edit&redlink=1 "cpp/container/mdspan/layout left/mapping/submdspan mapping \(page does not exist\)")(C++26) |  calculates the mapping and data handle offset used for `subdmspan`   
-(public member function of `std::layout_left::mapping<Extents>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/layout_mapping/dsc_submdspan_mapping&action=edit)  
+(public member function of `std::layout_left::mapping<Extents>`)   
 [ submdspan_mapping(std::layout_right::mapping)](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/layout_right/mapping/submdspan_mapping&action=edit&redlink=1 "cpp/container/mdspan/layout right/mapping/submdspan mapping \(page does not exist\)")(C++26) |  calculates the mapping and data handle offset used for `subdmspan`   
-(public member function of `std::layout_right::mapping<Extents>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/layout_mapping/dsc_submdspan_mapping&action=edit)  
+(public member function of `std::layout_right::mapping<Extents>`)   
 [ submdspan_mapping(std::layout_stride::mapping)](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/layout_stride/mapping/submdspan_mapping&action=edit&redlink=1 "cpp/container/mdspan/layout stride/mapping/submdspan mapping \(page does not exist\)")(C++26) |  calculates the mapping and data handle offset used for `subdmspan`   
-(public member function of `std::layout_stride::mapping<Extents>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/layout_mapping/dsc_submdspan_mapping&action=edit)
+(public member function of `std::layout_stride::mapping<Extents>`) 

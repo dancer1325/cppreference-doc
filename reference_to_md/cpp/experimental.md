@@ -30,7 +30,7 @@
 [Symbols index](symbol_index.html "cpp/symbol index")  
 [External libraries](links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 **Experimental**
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 The C++ standards committee publishes experimental C++ language and library extensions for future standardization. 
 
@@ -71,7 +71,7 @@ Note: until 2012, these publications used the **TR** (technical report) format. 
   
 ---  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental&action=edit&section=1 "Edit section: TR/TS specifications")] TR/TS specifications
+#### TR/TS specifications
 
 ISO number | Name | Status | Links, headers   
 ---|---|---|---  
@@ -120,7 +120,7 @@ ISO/IEC TS 19568:2024  | C++ Extensions for Library Fundamentals, Version 3  | P
 ISO/IEC DTS 12907  | Transactional Memory TS, Version 2  | Early development. Draft: [N4923](https://wg21.link/n4923) (2022-10-14).  |   
 ISO/IEC NP 19569  | Array Extensions TS  | **×** Withdrawn. Abandoned draft: [N3820](https://wg21.link/n3820) (2013-10-10).  |   
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental&action=edit&section=2 "Edit section: Non-TS proposals")] Non-TS proposals
+#### Non-TS proposals
 
 Name | Status | Links, Headers   
 ---|---|---  
@@ -424,12 +424,12 @@ Graph Library  | Early development.  | More proposals:
   
 2D Graphics  | Early development. Draft [P0267R10](https://wg21.link/P0267R10) (2019-10-07).  |   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [C documentation](../c/experimental.html "c/experimental") for Experimental C features  
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental&action=edit&section=4 "Edit section: External links")] External links
+### External links
 
 1\.  | [PL22.16/WG21 document list](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2024/sd-1.htm) \- All C++ committee documents (TS/proposals) for 2016-2025.   
 ---|---  

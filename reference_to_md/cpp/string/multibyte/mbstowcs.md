@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Null-terminated multibyte strings](../multibyte.html "cpp/string/multibyte")
 
@@ -100,7 +100,7 @@ MB_CUR_MAX](../multibyte.html#Macros "cpp/string/multibyte")
 [__STDC_UTF_16__  
 __STDC_UTF_32__](../multibyte.html#Macros "cpp/string/multibyte")(C++11)(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/navbar_content&action=edit)
+
 
 Defined in header `[<cstdlib>](../../header/cstdlib.html "cpp/header/cstdlib")` |  |   
 ---|---|---  
@@ -128,26 +128,26 @@ Each character is converted as if by a call to [std::mbtowc](mbtowc.html "cpp/st
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/multibyte/mbstowcs&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 In most implementations, this function updates a global static object of type [std::mbstate_t](mbstate_t.html "cpp/string/multibyte/mbstate t") as it processes through the string, and cannot be called simultaneously by two threads, [std::mbsrtowcs](mbsrtowcs.html "cpp/string/multibyte/mbsrtowcs") should be used in such cases. 
 
 POSIX specifies a common extension: if dst is a null pointer, this function returns the number of wide characters that would be written to dst, if converted. Similar behavior is standard for [std::mbsrtowcs](mbsrtowcs.html "cpp/string/multibyte/mbsrtowcs"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/multibyte/mbstowcs&action=edit&section=2 "Edit section: Parameters")] Parameters
+### Parameters
 
 dst  |  \-  |  pointer to wide character array where the wide string will be stored   
 ---|---|---  
 src  |  \-  |  pointer to the first element of a null-terminated multibyte string to convert   
 len  |  \-  |  number of wide characters available in the array pointed to by dst   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/multibyte/mbstowcs&action=edit&section=3 "Edit section: Return value")] Return value
+### Return value
 
 On success, returns the number of wide characters, excluding the terminating L'\0', written to the destination array. 
 
 On conversion error (if invalid multibyte character was encountered), returns static_cast<[std::size_t](../../types/size_t.html)> (-1). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/multibyte/mbstowcs&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -172,13 +172,13 @@ Output:
     
     wide string: zß水🍌
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/multibyte/mbstowcs&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ mbsrtowcs](mbsrtowcs.html "cpp/string/multibyte/mbsrtowcs") |  converts a narrow multibyte character string to wide string, given state   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/dsc_mbsrtowcs&action=edit)  
+(function)   
 ---|---  
 [ wcstombs](wcstombs.html "cpp/string/multibyte/wcstombs") |  converts a wide string to narrow multibyte character string   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/dsc_wcstombs&action=edit)  
+(function)   
 [ do_in](../../locale/codecvt/in.html "cpp/locale/codecvt/in")[virtual] |  converts a string from `ExternT` to `InternT`, such as when reading from file   
-(virtual protected member function of `std::codecvt<InternT,ExternT,StateT>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/codecvt/dsc_do_in&action=edit)  
+(virtual protected member function of `std::codecvt<InternT,ExternT,StateT>`)   
 [C documentation](../../../c/string/multibyte/mbstowcs.html "c/string/multibyte/mbstowcs") for mbstowcs

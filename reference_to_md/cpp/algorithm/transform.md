@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](ranges/copy.html "cpp/algorithm/ra
 [uninitialized_default_construct_n](../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -363,7 +363,7 @@ These overloads participate in overload resolution only if all following conditi
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/transform&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first1, last1  |  \-  |  the pair of iterators defining the source [range](../iterator.html#Ranges "cpp/iterator") of elements to transform   
 ---|---|---  
@@ -381,11 +381,11 @@ Type requirements
 -`OutputIt` must meet the requirements of [LegacyOutputIterator](../named_req/OutputIterator.html "cpp/named req/OutputIterator").   
 -`ForwardIt1, ForwardIt2, ForwardIt3` must meet the requirements of [LegacyForwardIterator](../named_req/ForwardIterator.html "cpp/named req/ForwardIterator").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/transform&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Output iterator to the element that follows the last element transformed. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/transform&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Given \\(\scriptsize N\\)N as [std::distance](../iterator/distance.html)(first1, last1): 
 
@@ -393,7 +393,7 @@ Given \\(\scriptsize N\\)N as [std::distance](../iterator/distance.html)(first1,
 
 3,4) Exactly \\(\scriptsize N\\)N applications of binary_op.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/transform&action=edit&section=4 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 The overloads with a template parameter named `ExecutionPolicy` report errors as follows: 
 
@@ -402,7 +402,7 @@ The overloads with a template parameter named `ExecutionPolicy` report errors as
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/transform&action=edit&section=5 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
 
 [transform (1)](transform.html#Version_1)  
 ---  
@@ -434,11 +434,11 @@ The overloads with a template parameter named `ExecutionPolicy` report errors as
         return d_first;
     }  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/transform&action=edit&section=6 "Edit section: Notes")] Notes
+### Notes
 
 `std::transform` does not guarantee in-order application of unary_op or binary_op. To apply a function to a sequence in-order or to apply a function that modifies the elements of a sequence, use [std::for_each](for_each.html "cpp/algorithm/for each"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/transform&action=edit&section=7 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -511,7 +511,7 @@ Output:
     ordinals:  72  69  76  76  79 
     ordinals: 144 138 152 152 158
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/transform&action=edit&section=8 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -519,10 +519,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 242](https://cplusplus.github.io/LWG/issue242) | C++98  | unary_op and binary_op could not have side effects  | they cannot modify the ranges involved   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/transform&action=edit&section=9 "Edit section: See also")] See also
+### See also
 
 [ for_each](for_each.html "cpp/algorithm/for each") |  applies a unary [function object](../named_req/FunctionObject.html "cpp/named req/FunctionObject") to elements from a [range](../iterator.html#Ranges "cpp/iterator")   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_for_each&action=edit)  
+(function template)   
 ---|---  
 [ ranges::transform](ranges/transform.html "cpp/algorithm/ranges/transform")(C++20) |  applies a function to a range of elements  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_transform&action=edit)
+(algorithm function object)

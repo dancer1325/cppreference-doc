@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [`std::complex`](../complex.html "cpp/numeric/complex")
 
@@ -164,7 +164,7 @@
 [tuple_size<std::complex>](tuple_size.html "cpp/numeric/complex/tuple size")(C++26)  
 [tuple_element<std::complex>](tuple_element.html "cpp/numeric/complex/tuple element")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/navbar_content&action=edit)
+
 
 Defined in header `[<complex>](../../header/complex.html "cpp/header/complex")` |  |   
 ---|---|---  
@@ -187,16 +187,16 @@ Computes the square root of the complex number z with a branch cut along the neg
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/sqrt&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 z  |  \-  |  complex number to take the square root of   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/sqrt&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 If no errors occur, returns the square root of z, in the range of the right half-plane, including the imaginary axis ([0; +∞) along the real axis and (−∞; +∞) along the imaginary axis). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/sqrt&action=edit&section=3 "Edit section: Error handling and special values")] Error handling and special values
+### Error handling and special values
 
 Errors are reported consistent with [math_errhandling](../math/math_errhandling.html "cpp/numeric/math/math errhandling"). 
 
@@ -216,11 +216,11 @@ If the implementation supports IEEE floating-point arithmetic,
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/sqrt&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 The semantics of this function are intended to be consistent with the C function [`csqrt`](../../../c/numeric/complex/csqrt.html "c/numeric/complex/csqrt"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/sqrt&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -243,7 +243,7 @@ Output:
     Square root of -4 is (0,2)
     Square root of (-4,-0) is (0,-2) (the other side of the cut)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/sqrt&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -251,13 +251,13 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 2597](https://cplusplus.github.io/LWG/issue2597) | C++98  | specification mishandles signed zero imaginary parts  | erroneous requirement removed   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/sqrt&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ pow(std::complex)](pow.html "cpp/numeric/complex/pow") |  complex power, one or both arguments may be a complex number   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_pow&action=edit)  
+(function template)   
 ---|---  
 [ sqrtsqrtfsqrtl](../math/sqrt.html "cpp/numeric/math/sqrt")(C++11)(C++11) |  computes square root (\\(\small{\sqrt{x}}\\)√x)   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_sqrt&action=edit)  
+(function)   
 [ sqrt(std::valarray)](../valarray/sqrt.html "cpp/numeric/valarray/sqrt") |  applies the function [std::sqrt](../math/sqrt.html "cpp/numeric/math/sqrt") to each element of valarray   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_sqrt&action=edit)  
+(function template)   
 [C documentation](../../../c/numeric/complex/csqrt.html "c/numeric/complex/csqrt") for csqrt

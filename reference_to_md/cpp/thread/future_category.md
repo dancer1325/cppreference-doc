@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 Defined in header `[<future>](../header/future.html "cpp/header/future")` |  |   
 ---|---|---  
@@ -192,26 +192,26 @@ Obtains a reference to the static error category object for the errors related t
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/future_category&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/future_category&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 A reference to the static object of unspecified runtime type, derived from [std::error_category](../error/error_category.html "cpp/error/error category"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/future_category&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/future_category&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ future_errc](future_errc.html "cpp/thread/future errc")(C++11) |  identifies the future error codes   
-(enum) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_future_errc&action=edit)  
+(enum)   
 ---|---  
 [ future_error](future_error.html "cpp/thread/future error")(C++11) |  reports an error related to futures or promises   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_future_error&action=edit)  
+(class)   
 [ error_category](../error/error_category.html "cpp/error/error category")(C++11) |  base class for error categories   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_error_category&action=edit)
+(class) 

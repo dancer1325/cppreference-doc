@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Filesystem library](../../filesystem.html "cpp/filesystem")
 
@@ -100,7 +100,7 @@ filesystem::symlink_status](../status.html "cpp/filesystem/status")
 [filesystem::is_socket](../is_socket.html "cpp/filesystem/is socket")  
 [filesystem::is_symlink](../is_symlink.html "cpp/filesystem/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/navbar_content&action=edit)
+
 
 [`std::filesystem::recursive_directory_iterator`](../recursive_directory_iterator.html "cpp/filesystem/recursive directory iterator")
 
@@ -118,7 +118,7 @@ Member functions
 Non-member functions  
 [begin(std::filesystem::recursive_directory_iterator)end(std::filesystem::recursive_directory_iterator)](begin.html "cpp/filesystem/recursive directory iterator/begin")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/recursive_directory_iterator/navbar_content&action=edit)
+
 
 recursive_directory_iterator& operator=( const recursive_directory_iterator& other ) = default; |  |  (since C++17)  
 ---|---|---  
@@ -127,16 +127,16 @@ recursive_directory_iterator& operator=( recursive_directory_iterator&& other ) 
   
 Assigns a recursive directory iterator. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/recursive_directory_iterator/operator%3D&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 other  |  \-  |  another directory iterator to assign   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/recursive_directory_iterator/operator%3D&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 *this
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/impldef_exception&action=edit&section=T-1 "Template:cpp/impldef exception")] Exceptions
+### Exceptions
 
 May throw implementation-defined exceptions. 
 

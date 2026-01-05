@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::transform_view`](../../transform_view.html "cpp/ranges/transform view")
 
@@ -263,7 +263,7 @@ operator-(transform_view::_iterator_)**
 [operator==(transform_view::_iterator_ ,transform_view::_sentinel_)](../sentinel/operator_cmp.html "cpp/ranges/transform view/sentinel/operator cmp")  
 [operator-(transform_view::_iterator_ ,transform_view::_sentinel_)](../sentinel/operator-.html "cpp/ranges/transform view/sentinel/operator-")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/transform_view/navbar_content&action=edit)
+
 
 friend constexpr /*iterator*/ operator+( /*iterator*/ i, difference_type n )  
 requires [ranges::random_access_range](../../random_access_range.html)<Base>; |  (1)  |  (since C++20)  
@@ -296,13 +296,13 @@ These functions are not visible to ordinary [unqualified](../../../language/unqu
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/transform_view/iterator/operator_arith2&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 i, x, y  |  \-  |  the iterators.   
 ---|---|---  
 n  |  \-  |  position relative to current location.   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/transform_view/iterator/operator_arith2&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Let `parent_` denote the pointer to the parent `transform_view`, `current_` denote the underlying iterator. 
 
@@ -312,13 +312,13 @@ Let `parent_` denote the pointer to the parent `transform_view`, `current_` deno
 
 4) x.current_ - y.current_
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/transform_view/iterator/operator_arith2&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/transform_view/iterator/operator_arith2&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Diagnostics library](../../error.html "cpp/error")
 
@@ -187,7 +187,7 @@ Exception handling failures
 [breakpoint_if_debugging](../../utility/breakpoint_if_debugging.html "cpp/utility/breakpoint if debugging")(C++26)  
 [breakpoint](../../utility/breakpoint.html "cpp/utility/breakpoint")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/navbar_content&action=edit)
+
 
 [`std::system_error`](../system_error.html "cpp/error/system error")
 
@@ -198,7 +198,7 @@ Member functions
 [system_error::code](code.html "cpp/error/system error/code")  
 **system_error::what**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/system_error/navbar_content&action=edit)
+
 
 virtual const char* what() const noexcept; |  |  (since C++11)  
 ---|---|---  
@@ -206,16 +206,16 @@ virtual const char* what() const noexcept; |  |  (since C++11)
   
 Returns the explanatory string. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/system_error/what&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/system_error/what&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Pointer to a null-terminated string with explanatory information. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/system_error/what&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ code](code.html "cpp/error/system error/code") |  returns error code   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/system_error/dsc_code&action=edit)  
+(public member function)   
 ---|---

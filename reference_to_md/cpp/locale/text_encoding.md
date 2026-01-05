@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | **text_encoding**(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 **`std::text_encoding`**
 
@@ -79,7 +79,7 @@
 [Helper classes](text_encoding.html#Helper_classes "cpp/text/text encoding")  
 [hash<std::text_encoding>](../text/text_encoding/hash.html "cpp/text/text encoding/hash")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/text_encoding/navbar_content&action=edit)
+
 
 Defined in header `[<text_encoding>](../header/text_encoding.html "cpp/header/text encoding")` |  |   
 ---|---|---  
@@ -134,22 +134,22 @@ A `text_encoding` object e whose MIBenum value is neither id::other nor id::unkn
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/text/text_encoding&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 [ id](../text/text_encoding/id.html "cpp/text/text encoding/id") |  represents the MIBenum value of the character encoding  
-(public member enum)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/text_encoding/dsc_id&action=edit)  
+(public member enum)  
 ---|---  
 [ aliases_view](../text/text_encoding/aliases_view.html "cpp/text/text encoding/aliases view") |  a [`view`](../ranges/view.html "cpp/ranges/view") over aliases of the character encoding   
-(public member class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/text_encoding/dsc_aliases_view&action=edit)  
+(public member class)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/text/text_encoding&action=edit&section=2 "Edit section: Member constant")] Member constant
+### Member constant
 
 Name  |  Value   
 ---|---  
 constexpr [std::size_t](../types/size_t.html) max_name_length[static] |  63   
 (public static member constant)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/text/text_encoding&action=edit&section=3 "Edit section: Data members")] Data members
+### Data members
 
 Member  |  Description   
 ---|---  
@@ -158,47 +158,47 @@ std::text_encoding::id `_mib__` (private) |  a MIBenum value with id::unknown as
 char[max_name_length + 1] `_name__` (private) |  a stored primary name  
 (exposition-only member object*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/text/text_encoding&action=edit&section=4 "Edit section: Member functions")] Member functions
+### Member functions
 
 #####  Creation   
   
 ---  
 [ (constructor)](../text/text_encoding/text_encoding.html "cpp/text/text encoding/text encoding") |  constructs new `text_encoding` object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/text_encoding/dsc_constructor&action=edit)  
+(public member function)   
 [ literal](../text/text_encoding/literal.html "cpp/text/text encoding/literal")[static] |  constructs a new `text_encoding` representing the [ordinary character literal encoding](../language/charset.html#Code_unit_and_literal_encoding "cpp/language/charset")   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/text_encoding/dsc_literal&action=edit)  
+(public static member function)   
 [ environment](../text/text_encoding/environment.html "cpp/text/text encoding/environment")[static] |  constructs a new `text_encoding` representing the implementation-defined character encoding scheme of the execution environment   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/text_encoding/dsc_environment&action=edit)  
+(public static member function)   
   
 #####  Observers   
   
 [ mib](../text/text_encoding/mib.html "cpp/text/text encoding/mib") |  returns the MIBenum value of the current character encoding   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/text_encoding/dsc_mib&action=edit)  
+(public member function)   
 [ name](../text/text_encoding/name.html "cpp/text/text encoding/name") |  returns the primary name of the current character encoding   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/text_encoding/dsc_name&action=edit)  
+(public member function)   
 [ aliases](../text/text_encoding/aliases.html "cpp/text/text encoding/aliases") |  returns a [`view`](../ranges/view.html "cpp/ranges/view") over aliases of the current character encoding   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/text_encoding/dsc_aliases&action=edit)  
+(public member function)   
 [ environment_is](../text/text_encoding/environment_is.html "cpp/text/text encoding/environment is")[static] |  checks the character encoding scheme of the execution environment with the specified MIB value   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/text_encoding/dsc_environment_is&action=edit)  
+(public static member function)   
   
 #####  Helpers   
   
 [_comp-name_](../text/text_encoding/comp-name.html "cpp/text/text encoding/comp-name")[static](private) |  compares two alias names using [Charset Alias Matching](https://www.unicode.org/reports/tr22/tr22-8.html#Charset_Alias_Matching)  
-(exposition-only static member function*)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/text_encoding/dsc_comp-name&action=edit)  
+(exposition-only static member function*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/text/text_encoding&action=edit&section=5 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ operator==(std::text_encoding)](../text/text_encoding/operator_eq.html "cpp/text/text encoding/operator eq")(C++26) |  compares two `text_encoding` objects.   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/text_encoding/dsc_operator_eq&action=edit)  
+(public member function)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/text/text_encoding&action=edit&section=6 "Edit section: Helper classes")] Helper classes
+### Helper classes
 
 [ std::hash<std::text_encoding>](../text/text_encoding/hash.html "cpp/text/text encoding/hash")(C++26) |  hash support for **`std::text_encoding`**   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/text_encoding/dsc_hash&action=edit)  
+(class template specialization)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/text/text_encoding&action=edit&section=7 "Edit section: Notes")] Notes
+### Notes
 
 When working with character encodings, it is important to note that the primary names or aliases of two distinct registered character encodings are not equivalent when compared using [Charset Alias Matching](https://www.unicode.org/reports/tr22/tr22-8.html#Charset_Alias_Matching) as described by the Unicode Technical Standard. 
 
@@ -210,7 +210,7 @@ It is recommended that the implementation should treat registered encodings as n
 ---|---|---|---  
 [`__cpp_lib_text_encoding`](../experimental/feature_test.html#cpp_lib_text_encoding "cpp/feature test") | [`202306L`](../compiler_support/26.html#cpp_lib_text_encoding_202306L "cpp/compiler support/26") | (C++26) | `std::text_encoding`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/text/text_encoding&action=edit&section=8 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -270,10 +270,10 @@ Possible output:
      -> csASCII
      -> ASCII
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/text/text_encoding&action=edit&section=9 "Edit section: See also")] See also
+### See also
 
 [ locale](locale.html "cpp/locale/locale") |  set of polymorphic facets that encapsulate cultural differences   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_locale&action=edit)  
+(class)   
 ---|---
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

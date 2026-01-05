@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](ranges/copy.html "cpp/algorithm/ra
 [uninitialized_default_construct_n](../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 Defined in header `[<execution>](../header/execution.html "cpp/header/execution")` |  |   
 ---|---|---  
@@ -323,12 +323,12 @@ If the program adds specializations for `std::is_execution_policy` or `std::is_e
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/is_execution_policy&action=edit&section=1 "Edit section: Template parameters")] Template parameters
+### Template parameters
 
 T  |  \-  |  a type to check   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/is_execution_policy&action=edit&section=2 "Edit section: Helper template")] Helper template
+### Helper template
 
 Defined in header `[<execution>](../header/execution.html "cpp/header/execution")` |  |   
 ---|---|---  
@@ -336,7 +336,7 @@ template< class T >
 constexpr bool is_execution_policy_v = std::is_execution_policy<T>::value; |  |  (since C++17)  
 | |   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/integral_constant/inherit2&action=edit)
+
 
 ##  Inherited from [ std::integral_constant](../types/integral_constant.html "cpp/types/integral constant")
 
@@ -371,10 +371,10 @@ Run this code
      
     int main() {}
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/is_execution_policy&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ sequenced_policyparallel_policyparallel_unsequenced_policyunsequenced_policy](execution_policy_tag_t.html "cpp/algorithm/execution policy tag t")(C++17)(C++17)(C++17)(C++20) |  execution policy types   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_execution_policy_tag_t&action=edit)  
+(class)   
 ---|---  
 [ seqparpar_unsequnseq](execution_policy_tag.html "cpp/algorithm/execution policy tag")(C++17)(C++17)(C++17)(C++20) |  global execution policy objects   
-(constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_execution_policy_tag&action=edit)
+(constant) 

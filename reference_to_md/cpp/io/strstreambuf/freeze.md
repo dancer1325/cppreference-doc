@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::strstreambuf`](../strstreambuf.html "cpp/io/strstreambuf")
 
@@ -96,7 +96,7 @@ Protected member functions
 [strstreambuf::seekoff](seekoff.html "cpp/io/strstreambuf/seekoff")  
 [strstreambuf::seekpos](seekpos.html "cpp/io/strstreambuf/seekpos")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/strstreambuf/navbar_content&action=edit)
+
 
 void freeze( bool freezefl = true ); |  |  (deprecated in C++98)   
 (removed in C++26)  
@@ -118,20 +118,20 @@ While the stream is frozen, [overflow()](overflow.html "cpp/io/strstreambuf/over
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/strstreambuf/freeze&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 freezefl  |  \-  |  new value to set the freeze status to   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/strstreambuf/freeze&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/strstreambuf/freeze&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Every call to [str()](str.html "cpp/io/strstreambuf/str") freezes the stream to preserve the validity of the pointer it returns. To allow the destructor to deallocate the buffer, freeze(false) needs to be called explicitly. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/strstreambuf/freeze&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 In this example, initial allocation of the underlying array was for 16 bytes.
 
@@ -181,14 +181,14 @@ Output:
     static buffer holds 4 characters: '1.23'
     static buffer holds 20 characters: '1.23more output, hop'
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/strstreambuf/freeze&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ freeze](../strstream/freeze.html "cpp/io/strstream/freeze") |  disables/enables automatic reallocation   
-(public member function of `std::strstream`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/strstream/dsc_freeze&action=edit)  
+(public member function of `std::strstream`)   
 ---|---  
 [ freeze](../ostrstream/freeze.html "cpp/io/ostrstream/freeze") |  disables/enables automatic reallocation   
-(public member function of `std::ostrstream`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/strstream/dsc_freeze&action=edit)  
+(public member function of `std::ostrstream`)   
 [ (destructor)](~strstreambuf.html "cpp/io/strstreambuf/~strstreambuf")[virtual] |  destructs a `strstreambuf` object, optionally deallocating the character array   
-(virtual public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/strstreambuf/dsc_%7Estrstreambuf&action=edit)  
+(virtual public member function)   
 [ overflow](overflow.html "cpp/io/strstreambuf/overflow")[virtual] |  appends a character to the output sequence, may reallocate or initially allocate the buffer if dynamic and not frozen   
-(virtual protected member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/strstreambuf/dsc_overflow&action=edit)
+(virtual protected member function) 

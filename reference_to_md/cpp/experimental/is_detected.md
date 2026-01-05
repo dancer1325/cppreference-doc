@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Library fundamentals v2](lib_extensions_2.html "cpp/experimental/lib extensions 2")
 
@@ -74,7 +74,7 @@
 [uniform container erasure](lib_extensions_2.html#Uniform_container_erasure "cpp/experimental/lib extensions 2")  
 [logical operator type traits](lib_extensions_2.html#Logical_operator_type_traits "cpp/experimental/lib extensions 2")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions_2/navbar_content&action=edit)
+
 
 Defined in header `[<experimental/type_traits>](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/type_traits&action=edit&redlink=1 "cpp/header/experimental/type traits \(page does not exist\)")` |  |   
 ---|---|---  
@@ -97,7 +97,7 @@ The alias template `is_detected` is equivalent to typename detected_or<[std::exp
 
 The alias template `detected_t` is equivalent to typename detected_or<[std::experimental::nonesuch](nonesuch.html), Op, Args...>::type. It is an alias for Op<Args...> if that _template-id_ denotes a valid type; otherwise it is an alias for the class [`std::experimental::nonesuch`](nonesuch.html "cpp/experimental/nonesuch"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/is_detected&action=edit&section=1 "Edit section: Additional utilities")] Additional utilities
+### Additional utilities
 
 template< template<class...> class Op, class... Args >  
 constexpr bool is_detected_v = is_detected<Op, Args...>::value; |  |  (library fundamentals TS v2)  
@@ -129,7 +129,7 @@ The alias template `is_detected_exact` checks whether detected_t<Op, Args...> is
 
 The alias template `is_detected_convertible` checks whether detected_t<Op, Args...> is convertible to `To`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/is_detected&action=edit&section=2 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     namespace detail
@@ -158,7 +158,7 @@ The alias template `is_detected_convertible` checks whether detected_t<Op, Args.
     template<class Default, template<class...> class Op, class... Args>
     using detected_or = detail::detector<Default, void, Op, Args...>;
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/is_detected&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     

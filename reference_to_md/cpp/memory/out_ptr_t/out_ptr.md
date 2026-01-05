@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::out_ptr_t`](../out_ptr_t.html "cpp/memory/out ptr t")
 
@@ -196,7 +196,7 @@ Member functions
 Non-member functions  
 **out_ptr**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/out_ptr_t/navbar_content&action=edit)
+
 
 Defined in header `[<memory>](../../header/memory.html "cpp/header/memory")` |  |   
 ---|---|---  
@@ -219,13 +219,13 @@ The program is ill-formed if construction of the return value (see below) is ill
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/out_ptr_t/out_ptr&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 s  |  \-  |  the object (typically a smart pointer) to adapt   
 ---|---|---  
 args...  |  \-  |  the arguments for resetting to capture   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/out_ptr_t/out_ptr&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 [std::out_ptr_t](../out_ptr_t.html)<Smart, P, Args&&>(s, [std::forward](../../utility/forward.html)<Args>(args)...), where `P` is 
 
@@ -236,7 +236,7 @@ args...  |  \-  |  the arguments for resetting to capture
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/out_ptr_t/out_ptr&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Users may specify the template argument for the template parameter `Pointer`, in order to interoperate with foreign functions that take a Pointer*. 
 
@@ -247,7 +247,7 @@ As all arguments for resetting are captured by reference, the returned `out_ptr_
 [`__cpp_lib_out_ptr`](../../experimental/feature_test.html#cpp_lib_out_ptr "cpp/feature test") | [`202106L`](../../compiler_support/23.html#cpp_lib_out_ptr_202106L "cpp/compiler support/23") | (C++23) | `std::out_ptr`, std::inout_ptr  
 [`202311L`](../../compiler_support/26.html#cpp_lib_out_ptr_202311L "cpp/compiler support/26") | (C++26) | freestanding `std::out_ptr` and std::inout_ptr  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/out_ptr_t/out_ptr&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Use `std::out_ptr` to adapt a smart pointer for [`sqlite3_open`](https://www.sqlite.org/c3ref/open.html), which expects a `sqlite3**` as an out parameter.
 
@@ -279,14 +279,14 @@ Run this code
         }
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/out_ptr_t/out_ptr&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ inout_ptr](../inout_ptr_t/inout_ptr.html "cpp/memory/inout ptr t/inout ptr")(C++23) |  creates an `inout_ptr_t` with an associated smart pointer and resetting arguments   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/inout_ptr_t/dsc_inout_ptr&action=edit)  
+(function template)   
 ---|---  
 [ make_uniquemake_unique_for_overwrite](../unique_ptr/make_unique.html "cpp/memory/unique ptr/make unique")(C++14)(C++20) |  creates a unique pointer that manages a new object   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/unique_ptr/dsc_make_unique&action=edit)  
+(function template)   
 [ make_sharedmake_shared_for_overwrite](../shared_ptr/make_shared.html "cpp/memory/shared ptr/make shared")(C++20) |  creates a shared pointer that manages a new object   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/dsc_make_shared&action=edit)
+(function template) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

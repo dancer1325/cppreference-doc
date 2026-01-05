@@ -21,7 +21,7 @@
 [Removed symbols (Zombie names)](zombie_names.html "cpp/symbol index/zombie names")  
 [Exposition-only symbols](expos.html "cpp/symbol index/expos")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/symbol_index/navbar_content&action=edit)
+
 
 This page tries to list all the symbols that are available from the [standard library](../standard_library.html "cpp/standard library") in the namespace [std::placeholders](../utility/functional/placeholders.html). The symbols are written as follows: 
 
@@ -37,7 +37,7 @@ This page tries to list all the symbols that are available from the [standard li
   
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/placeholders&action=edit&section=2 "Edit section: \(underscore\)")] _ (underscore)
+### _ (underscore)
 
 [`_1, _2, ..., _N`](../utility/functional/placeholders.html "cpp/utility/functional/placeholders") (since C++11)  
 

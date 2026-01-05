@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Null-terminated byte strings](../byte.html "cpp/string/byte")
 
@@ -143,7 +143,7 @@
 | [strerror](strerror.html "cpp/string/byte/strerror")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/navbar_content&action=edit)
+
 
 Defined in header `[<cstring>](../../header/cstring.html "cpp/header/cstring")` |  |   
 ---|---|---  
@@ -164,21 +164,21 @@ Scans the null-terminated byte string pointed to by dest for any character from 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/strpbrk&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 dest  |  \-  |  pointer to the null-terminated byte string to be analyzed   
 ---|---|---  
 breakset  |  \-  |  pointer to the null-terminated byte string that contains the characters to search for   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/strpbrk&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Pointer to the first character in dest, that is also in breakset, or null pointer if no such character exists. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/strpbrk&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 The name stands for "string pointer break", because it returns a pointer to the first of the separator ("break") characters. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/strpbrk&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -215,16 +215,16 @@ Output:
     "!"
     There are 5 words
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/strpbrk&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ strcspn](strcspn.html "cpp/string/byte/strcspn") |  returns the length of the maximum initial segment that consists  
 of only the characters not found in another byte string   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strcspn&action=edit)  
+(function)   
 ---|---  
 [ strtok](strtok.html "cpp/string/byte/strtok") |  finds the next token in a byte string   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strtok&action=edit)  
+(function)   
 [ strchr](strchr.html "cpp/string/byte/strchr") |  finds the first occurrence of a character   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strchr&action=edit)  
+(function)   
 [ wcspbrk](../wide/wcspbrk.html "cpp/string/wide/wcspbrk") |  finds the first location of any wide character in one wide string, in another wide string   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wcspbrk&action=edit)  
+(function)   
 [C documentation](../../../c/string/byte/strpbrk.html "c/string/byte/strpbrk") for strpbrk

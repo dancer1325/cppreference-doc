@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Extensions for parallelism v2](../parallelism_2.html "cpp/experimental/parallelism 2")
 
@@ -92,7 +92,7 @@ Task blocks
 [define_task_blockdefine_task_block_restore_thread](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/define_task_block&action=edit&redlink=1 "cpp/experimental/define task block \(page does not exist\)")  
 [Data-parallel vectors](../simd.html "cpp/experimental/simd")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/parallelism_2/navbar_content&action=edit)
+
 
 [SIMD library](../simd.html "cpp/experimental/simd")
 
@@ -186,7 +186,7 @@ Task blocks
   
 [Math functions](../simd.html#Math_functions "cpp/experimental/simd")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/simd/navbar_content&action=edit)
+
 
 Defined in header `[<experimental/simd>](../../header/experimental/simd.html "cpp/header/experimental/simd")` |  |   
 ---|---|---  
@@ -221,39 +221,39 @@ Let `DA` denote deduce<T, N, Abis...>::type when it presents, then
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/simd/deduce&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Name  |  Definition   
 ---|---  
 `type` |  an ABI tag type suitable for specified element type `T` and size `N`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/simd/deduce&action=edit&section=2 "Edit section: Helper types")] Helper types
+### Helper types
 
 template< class T, [std::size_t](../../types/size_t.html) N, class ...Abis >  
 using deduce_t = typename deduce<T, N, Abis...>::type; |  |  (parallelism TS v2)  
 ---|---|---  
 | |   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/simd/deduce&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 `simd_abi::deduce` is SFINAE-friendly. 
 
 The ABI tag deduced via this facility is a Quality-of-Implementation feature. Implementations can base the choice on Abis..., but can also ignore the Abis... arguments. A simple implementation might simply return fixed_size<N> unconditionally. An optimized implementation might return an implementation-defined extended ABI tag for most inputs. Consequently, if you need an ABI tag for a certain number of elements, use [`fixed_size`](fixed_size.html "cpp/experimental/simd/fixed size") if ABI stability is of concern, and prefer `deduce_t` otherwise. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/simd/deduce&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/simd/deduce&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ scalar](scalar.html "cpp/experimental/simd/scalar")(parallelism TS v2) |  tag type for storing a single element   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/simd/dsc_scalar&action=edit)  
+(typedef)   
 ---|---  
 [ fixed_size](fixed_size.html "cpp/experimental/simd/fixed size")(parallelism TS v2) |  tag type for storing specified number of elements  
-(alias template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/simd/dsc_fixed_size&action=edit)  
+(alias template)  
 [ compatible](compatible.html "cpp/experimental/simd/compatible")(parallelism TS v2) |  tag type that ensures ABI compatibility  
-(alias template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/simd/dsc_compatible&action=edit)  
+(alias template)  
 [ native](native.html "cpp/experimental/simd/native")(parallelism TS v2) |  tag type that is most efficient  
-(alias template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/simd/dsc_native&action=edit)
+(alias template)

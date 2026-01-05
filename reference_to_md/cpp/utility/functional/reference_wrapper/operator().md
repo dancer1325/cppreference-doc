@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Function objects](../../../functional.html "cpp/utility/functional")
 
@@ -255,7 +255,7 @@ Identity function object
 [unary_negate](../unary_negate.html "cpp/utility/functional/unary negate")(until C++20*)  
 [binary_negate](../binary_negate.html "cpp/utility/functional/binary negate")(until C++20*)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/navbar_content&action=edit)
+
 
 [`std::reference_wrapper`](../reference_wrapper.html "cpp/utility/functional/reference wrapper")
 
@@ -271,7 +271,7 @@ Non-member functions
 Helper classes  
 [basic_common_reference<std::reference_wrapper>](basic_common_reference.html "cpp/utility/functional/reference wrapper/basic common reference")(C++23)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/reference_wrapper/navbar_content&action=edit)
+
 
 template< class... ArgTypes >  
 typename [std::result_of](../../../types/result_of.html)<T&(ArgTypes&&...)>::type  
@@ -300,23 +300,23 @@ Calls the [Callable](../../../named_req/Callable.html "cpp/named req/Callable") 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/reference_wrapper/operator\(\)&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 args  |  \-  |  arguments to pass to the called function   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/reference_wrapper/operator\(\)&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The return value of the called function. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/reference_wrapper/operator\(\)&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 May throw implementation-defined exceptions.  | (since C++11)  
 (until C++17)  
 ---|---  
 [`noexcept`](../../../language/noexcept_spec.html "cpp/language/noexcept spec") specification: noexcept([std::is_nothrow_invocable_v](../../../types/is_invocable.html)<T&, ArgTypes...>) | (since C++17)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/reference_wrapper/operator\(\)&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -355,7 +355,7 @@ Output:
     bind expression called with 7 as the argument
     lambda function called
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/reference_wrapper/operator\(\)&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -363,8 +363,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 3764](https://cplusplus.github.io/LWG/issue3764) | C++17  | operator() is not noexcept | propagate noexcept  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/reference_wrapper/operator\(\)&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ getoperator T&](get.html "cpp/utility/functional/reference wrapper/get") |  accesses the stored reference   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/reference_wrapper/dsc_get&action=edit)  
+(public member function)   
 ---|---

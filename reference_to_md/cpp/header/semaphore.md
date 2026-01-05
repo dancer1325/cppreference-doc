@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header is part of the [thread support](../atomic.html "cpp/thread") library. 
 
@@ -202,11 +202,11 @@ This header is part of the [thread support](../atomic.html "cpp/thread") library
   
 ---  
 [ counting_semaphore](../thread/counting_semaphore.html "cpp/thread/counting semaphore")(C++20) |  semaphore that models a non-negative resource count   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_counting_semaphore&action=edit)  
+(class template)   
 [ binary_semaphore](../thread/counting_semaphore.html "cpp/thread/counting semaphore")(C++20) |  semaphore that has only two states   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_binary_semaphore&action=edit)  
+(typedef)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/semaphore&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     namespace std {
@@ -216,7 +216,7 @@ This header is part of the [thread support](../atomic.html "cpp/thread") library
       using binary_semaphore = counting_semaphore<1>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/semaphore&action=edit&section=T-1 "Template:cpp/synopsis/semaphore")] Class template [std::counting_semaphore](../thread/counting_semaphore.html "cpp/thread/counting semaphore")
+#### Class template [std::counting_semaphore](../thread/counting_semaphore.html "cpp/thread/counting semaphore")
     
     
     namespace std {

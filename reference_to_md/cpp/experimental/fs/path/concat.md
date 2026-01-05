@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Filesystem library](../../fs.html "cpp/experimental/fs")
 
@@ -124,7 +124,7 @@ File types
 [filesystem::is_socket](../is_socket.html "cpp/experimental/fs/is socket")  
 [filesystem::is_symlink](../is_symlink.html "cpp/experimental/fs/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/navbar_content&action=edit)
+
 
 [`path`](../path.html "cpp/experimental/fs/path")
 
@@ -174,7 +174,7 @@ Non-member functions
 [operator<<operator>>](operator_ltltgtgt.html "cpp/experimental/fs/path/operator ltltgtgt")  
 [u8path](u8path.html "cpp/experimental/fs/path/u8path")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/path/navbar_content&action=edit)
+
 
 path& operator+=( const path& p ); |  (1)  |  (filesystem TS)  
 ---|---|---  
@@ -221,7 +221,7 @@ Concatenates the current path and the argument.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/path/concat&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 p  |  \-  |  path to append   
 ---|---|---  
@@ -235,19 +235,19 @@ Type requirements
 -The value type of `InputIt` must be one of the encoded character types (char, wchar_t, char16_t and char32_t).   
 -`CharT` must be one of the encoded character types (char, wchar_t, char16_t and char32_t).   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/path/concat&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 *this
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/path/concat&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 May throw [`filesystem_error`](../filesystem_error.html "cpp/experimental/fs/filesystem error") on underlying OS API errors or [std::bad_alloc](../../../memory/new/bad_alloc.html) if memory allocation fails. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/path/concat&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 Unlike with [append()](append.html "cpp/experimental/fs/path/append") or [operator/=](append.html "cpp/experimental/fs/path/append"), additional directory separators are never introduced. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/path/concat&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -271,10 +271,10 @@ Output:
     "" + "var" == "var"
     "" + "var" + "lib" == "varlib"
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/path/concat&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ appendoperator/=](append.html "cpp/experimental/fs/path/append") |  appends elements to the path   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/path/dsc_append&action=edit)  
+(public member function)   
 ---|---  
 [ operator/](operator_slash.html "cpp/experimental/fs/path/operator slash") |  concatenates two paths with a directory separator   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/path/dsc_operator/&action=edit)
+(function) 

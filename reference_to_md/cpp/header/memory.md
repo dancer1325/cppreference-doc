@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header is part of the [dynamic memory management](../memory.html "cpp/memory") library. 
 
@@ -251,212 +251,212 @@ This header is part of the [dynamic memory management](../memory.html "cpp/memor
   
 ###  Includes  
   
-[ <compare>](compare.html "cpp/header/compare")(C++20) |  [Three-way comparison operator](../language/operator_comparison.html#Three-way_comparison "cpp/language/operator comparison") support[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/dsc_compare&action=edit)  
+[ <compare>](compare.html "cpp/header/compare")(C++20) |  [Three-way comparison operator](../language/operator_comparison.html#Three-way_comparison "cpp/language/operator comparison") support  
   
 ###  Classes  
   
 #####  Pointer traits   
   
 [ pointer_traits](../memory/pointer_traits.html "cpp/memory/pointer traits")(C++11) |  provides information about pointer-like types   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_pointer_traits&action=edit)  
+(class template)   
   
 #####  Garbage collector support   
   
 [ pointer_safety](../memory/gc/pointer_safety.html "cpp/memory/gc/pointer safety")(C++11)(removed in C++23) |  lists pointer safety models   
-(enum) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/gc/dsc_pointer_safety&action=edit)  
+(enum)   
   
 #####  Allocators   
   
 [ allocator](../memory/allocator.html "cpp/memory/allocator") |  the default allocator   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_allocator&action=edit)  
+(class template)   
 [ allocator_traits](../memory/allocator_traits.html "cpp/memory/allocator traits")(C++11) |  provides information about allocator types   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_allocator_traits&action=edit)  
+(class template)   
 [ allocation_result](../memory/allocation_result.html "cpp/memory/allocation result")(C++23) |  records the address and the actual size of storage allocated by `allocate_at_least`   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_allocation_result&action=edit)  
+(class template)   
 [ uses_allocator](../memory/uses_allocator.html "cpp/memory/uses allocator")(C++11) |  checks if the specified type supports uses-allocator construction   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_uses_allocator&action=edit)  
+(class template)   
   
 #####  Uninitialized storage   
   
 [ raw_storage_iterator](../memory/raw_storage_iterator.html "cpp/memory/raw storage iterator")(deprecated in C++17)(removed in C++20) |  an iterator that allows standard algorithms to store results in uninitialized memory   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_raw_storage_iterator&action=edit)  
+(class template)   
   
 #####  Smart pointers   
   
 [ unique_ptr](../memory/unique_ptr.html "cpp/memory/unique ptr")(C++11) |  smart pointer with unique object ownership semantics   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_unique_ptr&action=edit)  
+(class template)   
 [ shared_ptr](../memory/shared_ptr.html "cpp/memory/shared ptr")(C++11) |  smart pointer with shared object ownership semantics   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_shared_ptr&action=edit)  
+(class template)   
 [ weak_ptr](../memory/weak_ptr.html "cpp/memory/weak ptr")(C++11) |  weak reference to an object managed by [std::shared_ptr](../memory/shared_ptr.html "cpp/memory/shared ptr")   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_weak_ptr&action=edit)  
+(class template)   
 [ auto_ptr](../memory/auto_ptr.html "cpp/memory/auto ptr")(deprecated in C++11)(removed in C++17) |  smart pointer with strict object ownership semantics   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_auto_ptr&action=edit)  
+(class template)   
   
 #####  Smart pointer adaptors   
   
 [ out_ptr_t](../memory/out_ptr_t.html "cpp/memory/out ptr t")(C++23) |  interoperates with foreign pointer setters and resets a smart pointer on destruction   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_out_ptr_t&action=edit)  
+(class template)   
 [ inout_ptr_t](../memory/inout_ptr_t.html "cpp/memory/inout ptr t")(C++23) |  interoperates with foreign pointer setters, obtains the initial pointer value from a smart pointer, and resets it on destruction   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_inout_ptr_t&action=edit)  
+(class template)   
   
 #####  Types for composite class design   
   
 [ indirect](../memory/indirect.html "cpp/memory/indirect")(C++26) |  a wrapper containing dynamically-allocated object with value-like semantics   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_indirect&action=edit)  
+(class template)   
 [ polymorphic](../memory/polymorphic.html "cpp/memory/polymorphic")(C++26) |  a polymorphic wrapper containing dynamically-allocated object with value-like semantics   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_polymorphic&action=edit)  
+(class template)   
   
 #####  Helper classes   
   
 [ std::atomic<std::shared_ptr>](../memory/shared_ptr/atomic2.html "cpp/memory/shared ptr/atomic2")(C++20) |  atomic shared pointer   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/dsc_atomic2&action=edit)  
+(class template specialization)   
 [ std::atomic<std::weak_ptr>](../memory/weak_ptr/atomic2.html "cpp/memory/weak ptr/atomic2")(C++20) |  atomic weak pointer   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/weak_ptr/dsc_atomic2&action=edit)  
+(class template specialization)   
 [ owner_less](../memory/owner_less.html "cpp/memory/owner less")(C++11) |  provides mixed-type owner-based ordering of shared and weak pointers   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_owner_less&action=edit)  
+(class template)   
 [ owner_hash](../memory/owner_hash.html "cpp/memory/owner hash")(C++26) |  provides owner-based hashing for shared and weak pointers   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_owner_hash&action=edit)  
+(class)   
 [ owner_equal](../memory/owner_equal.html "cpp/memory/owner equal")(C++26) |  provides mixed-type owner-based equal comparisons of shared and weak pointers   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_owner_equal&action=edit)  
+(class)   
 [ enable_shared_from_this](../memory/enable_shared_from_this.html "cpp/memory/enable shared from this")(C++11) |  allows an object to create a `shared_ptr` referring to itself   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_enable_shared_from_this&action=edit)  
+(class template)   
 [ bad_weak_ptr](../memory/bad_weak_ptr.html "cpp/memory/bad weak ptr")(C++11) |  exception thrown when accessing a `weak_ptr` which refers to already destroyed object   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_bad_weak_ptr&action=edit)  
+(class)   
 [ default_delete](../memory/default_delete.html "cpp/memory/default delete")(C++11) |  default deleter for [unique_ptr](../memory/unique_ptr.html "cpp/memory/unique ptr")   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_default_delete&action=edit)  
+(class template)   
 [ std::hash<std::unique_ptr>](../memory/unique_ptr/hash.html "cpp/memory/unique ptr/hash")(C++11) |  hash support for [`std::unique_ptr`](../memory/unique_ptr.html "cpp/memory/unique ptr")   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/unique_ptr/dsc_hash&action=edit)  
+(class template specialization)   
 [ std::hash<std::shared_ptr>](../memory/shared_ptr/hash.html "cpp/memory/shared ptr/hash")(C++11) |  hash support for [`std::shared_ptr`](../memory/shared_ptr.html "cpp/memory/shared ptr")   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/dsc_hash&action=edit)  
+(class template specialization)   
 [ std::hash<std::indirect>](../memory/indirect/hash.html "cpp/memory/indirect/hash")(C++26) |  hash support for [`std::indirect`](../memory/indirect.html "cpp/memory/indirect")   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/indirect/dsc_hash&action=edit)  
+(class template specialization)   
   
 #####  Forward declarations   
   
 Defined in header `[<functional>](functional.html "cpp/header/functional")`  
 [ hash](../utility/hash.html "cpp/utility/hash")(C++11) |  hash function object   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_hash&action=edit)  
+(class template)   
 Defined in header `[<atomic>](atomic.html "cpp/header/atomic")`  
 [ atomic](../atomic/atomic.html "cpp/atomic/atomic")(C++11) |  atomic class template and specializations for bool, integral, floating-point,(since C++20) and pointer types   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/dsc_atomic&action=edit)  
+(class template)   
   
 ###  Tags  
   
 [ allocator_argallocator_arg_t](../memory/allocator_arg.html "cpp/memory/allocator arg")(C++11) |  a tag used to select allocator-aware constructors  
-(tag)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_allocator_arg&action=edit)  
+(tag)  
   
 ###  Functions  
   
 #####  Uses-allocator construction   
   
 [ uses_allocator_construction_args](../memory/uses_allocator_construction_args.html "cpp/memory/uses allocator construction args")(C++20) |  prepares the argument list matching the flavor of uses-allocator construction required by the given type   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_uses_allocator_construction_args&action=edit)  
+(function template)   
 [ make_obj_using_allocator](../memory/make_obj_using_allocator.html "cpp/memory/make obj using allocator")(C++20) |  creates an object of the given type by means of uses-allocator construction   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_make_obj_using_allocator&action=edit)  
+(function template)   
 [ uninitialized_construct_using_allocator](../memory/uninitialized_construct_using_allocator.html "cpp/memory/uninitialized construct using allocator")(C++20) |  creates an object of the given type at specified memory location by means of uses-allocator construction   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_uninitialized_construct_using_allocator&action=edit)  
+(function template)   
   
 #####  Miscellaneous   
   
 [ to_address](../memory/to_address.html "cpp/memory/to address")(C++20) |  obtains a raw pointer from a pointer-like type   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_to_address&action=edit)  
+(function template)   
 [ addressof](../memory/addressof.html "cpp/memory/addressof")(C++11) |  obtains actual address of an object, even if the `**&**` operator is overloaded   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_addressof&action=edit)  
+(function template)   
 [ align](../memory/align.html "cpp/memory/align")(C++11) |  aligns a pointer in a buffer   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_align&action=edit)  
+(function)   
 [ assume_aligned](../memory/assume_aligned.html "cpp/memory/assume aligned")(C++20) |  informs the compiler that a pointer is aligned   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_assume_aligned&action=edit)  
+(function template)   
 [ is_sufficiently_aligned](../memory/is_sufficiently_aligned.html "cpp/memory/is sufficiently aligned")(C++26) |  checks whether the pointer points to an object whose alignment has at least the given value   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_is_sufficiently_aligned&action=edit)  
+(function template)   
   
 #####  Explicit lifetime management   
   
 [ start_lifetime_asstart_lifetime_as_array](../memory/start_lifetime_as.html "cpp/memory/start lifetime as")(C++23) |  implicitly creates objects in given storage with the object representation reused   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_start_lifetime_as&action=edit)  
+(function template)   
   
 #####  Garbage collector support   
   
 [ declare_reachable](../memory/gc/declare_reachable.html "cpp/memory/gc/declare reachable")(C++11)(removed in C++23) |  declares that an object can not be recycled   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/gc/dsc_declare_reachable&action=edit)  
+(function)   
 [ undeclare_reachable](../memory/gc/undeclare_reachable.html "cpp/memory/gc/undeclare reachable")(C++11)(removed in C++23) |  declares that an object can be recycled   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/gc/dsc_undeclare_reachable&action=edit)  
+(function template)   
 [ declare_no_pointers](../memory/gc/declare_no_pointers.html "cpp/memory/gc/declare no pointers")(C++11)(removed in C++23) |  declares that a memory area does not contain traceable pointers   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/gc/dsc_declare_no_pointers&action=edit)  
+(function)   
 [ undeclare_no_pointers](../memory/gc/undeclare_no_pointers.html "cpp/memory/gc/undeclare no pointers")(C++11)(removed in C++23) |  cancels the effect of [std::declare_no_pointers](../memory/gc/declare_no_pointers.html "cpp/memory/gc/declare no pointers")   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/gc/dsc_undeclare_no_pointers&action=edit)  
+(function)   
 [ get_pointer_safety](../memory/gc/get_pointer_safety.html "cpp/memory/gc/get pointer safety")(C++11)(removed in C++23) |  returns the current pointer safety model   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/gc/dsc_get_pointer_safety&action=edit)  
+(function)   
   
 #####  Uninitialized storage   
   
 [ uninitialized_copy](../memory/uninitialized_copy.html "cpp/memory/uninitialized copy") |  copies a range of objects to an uninitialized area of memory   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_uninitialized_copy&action=edit)  
+(function template)   
 [ uninitialized_copy_n](../memory/uninitialized_copy_n.html "cpp/memory/uninitialized copy n")(C++11) |  copies a number of objects to an uninitialized area of memory   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_uninitialized_copy_n&action=edit)  
+(function template)   
 [ uninitialized_fill](../memory/uninitialized_fill.html "cpp/memory/uninitialized fill") |  copies an object to an uninitialized area of memory, defined by a range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_uninitialized_fill&action=edit)  
+(function template)   
 [ uninitialized_fill_n](../memory/uninitialized_fill_n.html "cpp/memory/uninitialized fill n") |  copies an object to an uninitialized area of memory, defined by a start and a count   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_uninitialized_fill_n&action=edit)  
+(function template)   
 [ uninitialized_move](../memory/uninitialized_move.html "cpp/memory/uninitialized move")(C++17) |  moves a range of objects to an uninitialized area of memory   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_uninitialized_move&action=edit)  
+(function template)   
 [ uninitialized_move_n](../memory/uninitialized_move_n.html "cpp/memory/uninitialized move n")(C++17) |  moves a number of objects to an uninitialized area of memory   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_uninitialized_move_n&action=edit)  
+(function template)   
 [ uninitialized_default_construct](../memory/uninitialized_default_construct.html "cpp/memory/uninitialized default construct")(C++17) |  constructs objects by [default-initialization](../language/default_initialization.html "cpp/language/default initialization") in an uninitialized area of memory, defined by a range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_uninitialized_default_construct&action=edit)  
+(function template)   
 [ uninitialized_default_construct_n](../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17) |  constructs objects by [default-initialization](../language/default_initialization.html "cpp/language/default initialization") in an uninitialized area of memory, defined by a start and a count   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_uninitialized_default_construct_n&action=edit)  
+(function template)   
 [ uninitialized_value_construct](../memory/uninitialized_value_construct.html "cpp/memory/uninitialized value construct")(C++17) |  constructs objects by [value-initialization](../language/value_initialization.html "cpp/language/value initialization") in an uninitialized area of memory, defined by a range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_uninitialized_value_construct&action=edit)  
+(function template)   
 [ uninitialized_value_construct_n](../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17) |  constructs objects by [value-initialization](../language/value_initialization.html "cpp/language/value initialization") in an uninitialized area of memory, defined by a start and a count   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_uninitialized_value_construct_n&action=edit)  
+(function template)   
 [ construct_at](../memory/construct_at.html "cpp/memory/construct at")(C++20) |  creates an object at a given address   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_construct_at&action=edit)  
+(function template)   
 [ destroy_at](../memory/destroy_at.html "cpp/memory/destroy at")(C++17) |  destroys an object at a given address   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_destroy_at&action=edit)  
+(function template)   
 [ destroy](../memory/destroy.html "cpp/memory/destroy")(C++17) |  destroys a range of objects   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_destroy&action=edit)  
+(function template)   
 [ destroy_n](../memory/destroy_n.html "cpp/memory/destroy n")(C++17) |  destroys a number of objects in a range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_destroy_n&action=edit)  
+(function template)   
 [ get_temporary_buffer](../memory/get_temporary_buffer.html "cpp/memory/get temporary buffer")(deprecated in C++17)(removed in C++20) |  obtains uninitialized storage   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_get_temporary_buffer&action=edit)  
+(function template)   
 [ return_temporary_buffer](../memory/return_temporary_buffer.html "cpp/memory/return temporary buffer")(deprecated in C++17)(removed in C++20) |  frees uninitialized storage   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_return_temporary_buffer&action=edit)  
+(function template)   
   
 #####  Smart pointer non-member operations   
   
 [ make_uniquemake_unique_for_overwrite](../memory/unique_ptr/make_unique.html "cpp/memory/unique ptr/make unique")(C++14)(C++20) |  creates a unique pointer that manages a new object   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/unique_ptr/dsc_make_unique&action=edit)  
+(function template)   
 [ operator==operator!=operator<operator<=operator>operator>=operator<=>](../memory/unique_ptr/operator_cmp.html "cpp/memory/unique ptr/operator cmp")(removed in C++20)(C++20) |  compares to another `unique_ptr` or with nullptr   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/unique_ptr/dsc_operator_cmp&action=edit)  
+(function template)   
 [ make_sharedmake_shared_for_overwrite](../memory/shared_ptr/make_shared.html "cpp/memory/shared ptr/make shared")(C++20) |  creates a shared pointer that manages a new object   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/dsc_make_shared&action=edit)  
+(function template)   
 [ allocate_sharedallocate_shared_for_overwrite](../memory/shared_ptr/allocate_shared.html "cpp/memory/shared ptr/allocate shared")(C++20) |  creates a shared pointer that manages a new object allocated using an allocator   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/dsc_allocate_shared&action=edit)  
+(function template)   
 [ static_pointer_castdynamic_pointer_castconst_pointer_castreinterpret_pointer_cast](../memory/shared_ptr/pointer_cast.html "cpp/memory/shared ptr/pointer cast")(C++17) |  applies [`static_cast`](../language/static_cast.html "cpp/language/static cast"), [`dynamic_cast`](../language/dynamic_cast.html "cpp/language/dynamic cast"), [`const_cast`](../language/const_cast.html "cpp/language/const cast"), or [`reinterpret_cast`](../language/reinterpret_cast.html "cpp/language/reinterpret cast") to the stored pointer   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/dsc_pointer_cast&action=edit)  
+(function template)   
 [ get_deleter](../memory/shared_ptr/get_deleter.html "cpp/memory/shared ptr/get deleter") |  returns the deleter of specified type, if owned   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/dsc_get_deleter&action=edit)  
+(function template)   
 [ operator==operator!=operator<operator<=operator>operator>=operator<=>](../memory/shared_ptr/operator_cmp.html "cpp/memory/shared ptr/operator cmp")(removed in C++20)(removed in C++20)(removed in C++20)(removed in C++20)(removed in C++20)(C++20) |  compares with another `shared_ptr` or with nullptr   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/dsc_operator_cmp&action=edit)  
+(function template)   
 [ operator<<(std::shared_ptr)](../memory/shared_ptr/operator_ltlt.html "cpp/memory/shared ptr/operator ltlt") |  outputs the value of the stored pointer to an output stream   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/dsc_operator_ltlt&action=edit)  
+(function template)   
 [ operator<<(std::unique_ptr)](../memory/unique_ptr/operator_ltlt.html "cpp/memory/unique ptr/operator ltlt")(C++20) |  outputs the value of the managed pointer to an output stream   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/unique_ptr/dsc_operator_ltlt&action=edit)  
+(function template)   
 [ std::swap(std::unique_ptr)](../memory/unique_ptr/swap2.html "cpp/memory/unique ptr/swap2")(C++11) |  specializes the [std::swap](../utility/swap.html "cpp/algorithm/swap") algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/unique_ptr/dsc_swap2&action=edit)  
+(function template)   
 [ std::swap(std::shared_ptr)](../memory/shared_ptr/swap2.html "cpp/memory/shared ptr/swap2")(C++11) |  specializes the [std::swap](../utility/swap.html "cpp/algorithm/swap") algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/dsc_swap2&action=edit)  
+(function template)   
 [ std::swap(std::weak_ptr)](../memory/weak_ptr/swap2.html "cpp/memory/weak ptr/swap2")(C++11) |  specializes the [std::swap](../utility/swap.html "cpp/algorithm/swap") algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/weak_ptr/dsc_swap2&action=edit)  
+(function template)   
   
 #####  Smart pointer adaptor creation   
   
 [ out_ptr](../memory/out_ptr_t/out_ptr.html "cpp/memory/out ptr t/out ptr")(C++23) |  creates an `out_ptr_t` with an associated smart pointer and resetting arguments   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/out_ptr_t/dsc_out_ptr&action=edit)  
+(function template)   
 [ inout_ptr](../memory/inout_ptr_t/inout_ptr.html "cpp/memory/inout ptr t/inout ptr")(C++23) |  creates an `inout_ptr_t` with an associated smart pointer and resetting arguments   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/inout_ptr_t/dsc_inout_ptr&action=edit)  
+(function template)   
 [ std::atomic_is_lock_free(std::shared_ptr)std::atomic_load(std::shared_ptr)std::atomic_load_explicit(std::shared_ptr)std::atomic_store(std::shared_ptr)std::atomic_store_explicit(std::shared_ptr)std::atomic_exchange(std::shared_ptr)std::atomic_exchange_explicit(std::shared_ptr)std::atomic_compare_exchange_weak(std::shared_ptr)std::atomic_compare_exchange_strong(std::shared_ptr)std::atomic_compare_exchange_weak_explicit(std::shared_ptr)std::atomic_compare_exchange_strong_explicit(std::shared_ptr)](../memory/shared_ptr/atomic.html "cpp/memory/shared ptr/atomic")(deprecated in C++20)(removed in C++26) |  specializes atomic operations for `std::shared_ptr`   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/dsc_atomic&action=edit)  
+(function template)   
 ---|---  
   
 ###  Function-like entities  
@@ -467,35 +467,35 @@ Defined in namespace `std::ranges`
 #####  Uninitialized storage   
   
 [ ranges::uninitialized_copy](../memory/ranges/uninitialized_copy.html "cpp/memory/ranges/uninitialized copy")(C++20) |  copies a range of objects to an uninitialized area of memory  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/ranges/dsc_uninitialized_copy&action=edit)  
+(algorithm function object)  
 [ ranges::uninitialized_copy_n](../memory/ranges/uninitialized_copy_n.html "cpp/memory/ranges/uninitialized copy n")(C++20) |  copies a number of objects to an uninitialized area of memory  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/ranges/dsc_uninitialized_copy_n&action=edit)  
+(algorithm function object)  
 [ ranges::uninitialized_fill](../memory/ranges/uninitialized_fill.html "cpp/memory/ranges/uninitialized fill")(C++20) |  copies an object to an uninitialized area of memory, defined by a range  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/ranges/dsc_uninitialized_fill&action=edit)  
+(algorithm function object)  
 [ ranges::uninitialized_fill_n](../memory/ranges/uninitialized_fill_n.html "cpp/memory/ranges/uninitialized fill n")(C++20) |  copies an object to an uninitialized area of memory, defined by a start and a count  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/ranges/dsc_uninitialized_fill_n&action=edit)  
+(algorithm function object)  
 [ ranges::uninitialized_move](../memory/ranges/uninitialized_move.html "cpp/memory/ranges/uninitialized move")(C++20) |  moves a range of objects to an uninitialized area of memory  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/ranges/dsc_uninitialized_move&action=edit)  
+(algorithm function object)  
 [ ranges::uninitialized_move_n](../memory/ranges/uninitialized_move_n.html "cpp/memory/ranges/uninitialized move n")(C++20) |  moves a number of objects to an uninitialized area of memory  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/ranges/dsc_uninitialized_move_n&action=edit)  
+(algorithm function object)  
 [ ranges::uninitialized_default_construct](../memory/ranges/uninitialized_default_construct.html "cpp/memory/ranges/uninitialized default construct")(C++20) |  constructs objects by [default-initialization](../language/default_initialization.html "cpp/language/default initialization") in an uninitialized area of memory, defined by a range  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/ranges/dsc_uninitialized_default_construct&action=edit)  
+(algorithm function object)  
 [ ranges::uninitialized_default_construct_n](../memory/ranges/uninitialized_default_construct_n.html "cpp/memory/ranges/uninitialized default construct n")(C++20) |  constructs objects by [default-initialization](../language/default_initialization.html "cpp/language/default initialization") in an uninitialized area of memory, defined by a start and count  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/ranges/dsc_uninitialized_default_construct_n&action=edit)  
+(algorithm function object)  
 [ ranges::uninitialized_value_construct](../memory/ranges/uninitialized_value_construct.html "cpp/memory/ranges/uninitialized value construct")(C++20) |  constructs objects by [value-initialization](../language/value_initialization.html "cpp/language/value initialization") in an uninitialized area of memory, defined by a range  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/ranges/dsc_uninitialized_value_construct&action=edit)  
+(algorithm function object)  
 [ ranges::uninitialized_value_construct_n](../memory/ranges/uninitialized_value_construct_n.html "cpp/memory/ranges/uninitialized value construct n")(C++20) |  constructs objects by [value-initialization](../language/value_initialization.html "cpp/language/value initialization") in an uninitialized area of memory, defined by a start and a count  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/ranges/dsc_uninitialized_value_construct_n&action=edit)  
+(algorithm function object)  
 [ ranges::construct_at](../memory/ranges/construct_at.html "cpp/memory/ranges/construct at")(C++20) |  creates an object at a given address  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/ranges/dsc_construct_at&action=edit)  
+(algorithm function object)  
 [ ranges::destroy_at](../memory/ranges/destroy_at.html "cpp/memory/ranges/destroy at")(C++20) |  destroys an object at a given address  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/ranges/dsc_destroy_at&action=edit)  
+(algorithm function object)  
 [ ranges::destroy](../memory/ranges/destroy.html "cpp/memory/ranges/destroy")(C++20) |  destroys a range of objects  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/ranges/dsc_destroy&action=edit)  
+(algorithm function object)  
 [ ranges::destroy_n](../memory/ranges/destroy_n.html "cpp/memory/ranges/destroy n")(C++20) |  destroys a number of objects in a range  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/ranges/dsc_destroy_n&action=edit)  
+(algorithm function object)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/memory&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     #include <compare>
@@ -1112,7 +1112,7 @@ Defined in namespace `std::ranges`
       }
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/memory&action=edit&section=T-1 "Template:cpp/synopsis/memory")] Helper concepts
+#### Helper concepts
 
 Note: [These names](../memory/ranges/nothrow_concepts.html "cpp/memory/ranges/nothrow concepts") are only for exposition, they are not part of the interface. 
     
@@ -1143,7 +1143,7 @@ Note: [These names](../memory/ranges/nothrow_concepts.html "cpp/memory/ranges/no
       [no-throw-input-range](../memory/ranges/nothrow_concepts.html)<R> &&
       [no-throw-forward-iterator](../memory/ranges/nothrow_concepts.html)<[ranges::iterator_t](../ranges/iterator_t.html)<R>>;
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/memory&action=edit&section=T-2 "Template:cpp/synopsis/memory")] Class template [std::pointer_traits](../memory/pointer_traits.html "cpp/memory/pointer traits")
+#### Class template [std::pointer_traits](../memory/pointer_traits.html "cpp/memory/pointer traits")
     
     
     namespace std {
@@ -1167,7 +1167,7 @@ Note: [These names](../memory/ranges/nothrow_concepts.html "cpp/memory/ranges/no
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/memory&action=edit&section=T-3 "Template:cpp/synopsis/memory")] Class [std::allocator_arg_t](../memory/allocator_arg_t.html "cpp/memory/allocator arg t")
+#### Class [std::allocator_arg_t](../memory/allocator_arg_t.html "cpp/memory/allocator arg t")
     
     
     namespace std {
@@ -1175,7 +1175,7 @@ Note: [These names](../memory/ranges/nothrow_concepts.html "cpp/memory/ranges/no
       inline constexpr allocator_arg_t allocator_arg{};
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/memory&action=edit&section=T-4 "Template:cpp/synopsis/memory")] Class template [std::allocator_traits](../memory/allocator_traits.html "cpp/memory/allocator traits")
+#### Class template [std::allocator_traits](../memory/allocator_traits.html "cpp/memory/allocator traits")
     
     
     namespace std {
@@ -1223,7 +1223,7 @@ Note: [These names](../memory/ranges/nothrow_concepts.html "cpp/memory/ranges/no
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/memory&action=edit&section=T-5 "Template:cpp/synopsis/memory")] Class template [std::allocator](../memory/allocator.html "cpp/memory/allocator")
+#### Class template [std::allocator](../memory/allocator.html "cpp/memory/allocator")
     
     
     namespace std {
@@ -1249,7 +1249,7 @@ Note: [These names](../memory/ranges/nothrow_concepts.html "cpp/memory/ranges/no
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/memory&action=edit&section=T-6 "Template:cpp/synopsis/memory")] Class template [std::default_delete](../memory/default_delete.html "cpp/memory/default delete")
+#### Class template [std::default_delete](../memory/default_delete.html "cpp/memory/default delete")
     
     
     namespace std {
@@ -1273,7 +1273,7 @@ Note: [These names](../memory/ranges/nothrow_concepts.html "cpp/memory/ranges/no
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/memory&action=edit&section=T-7 "Template:cpp/synopsis/memory")] Class template [std::unique_ptr](../memory/unique_ptr.html "cpp/memory/unique ptr")
+#### Class template [std::unique_ptr](../memory/unique_ptr.html "cpp/memory/unique ptr")
     
     
     namespace std {
@@ -1372,7 +1372,7 @@ Note: [These names](../memory/ranges/nothrow_concepts.html "cpp/memory/ranges/no
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/memory&action=edit&section=T-8 "Template:cpp/synopsis/memory")] Class [std::bad_weak_ptr](../memory/bad_weak_ptr.html "cpp/memory/bad weak ptr")
+#### Class [std::bad_weak_ptr](../memory/bad_weak_ptr.html "cpp/memory/bad weak ptr")
     
     
     namespace std {
@@ -1384,7 +1384,7 @@ Note: [These names](../memory/ranges/nothrow_concepts.html "cpp/memory/ranges/no
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/memory&action=edit&section=T-9 "Template:cpp/synopsis/memory")] Class template [std::shared_ptr](../memory/shared_ptr.html "cpp/memory/shared ptr")
+#### Class template [std::shared_ptr](../memory/shared_ptr.html "cpp/memory/shared ptr")
     
     
     namespace std {
@@ -1473,7 +1473,7 @@ Note: [These names](../memory/ranges/nothrow_concepts.html "cpp/memory/ranges/no
       shared_ptr(unique_ptr<T, D>) -> shared_ptr<T>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/memory&action=edit&section=T-10 "Template:cpp/synopsis/memory")] Class template [std::weak_ptr](../memory/weak_ptr.html "cpp/memory/weak ptr")
+#### Class template [std::weak_ptr](../memory/weak_ptr.html "cpp/memory/weak ptr")
     
     
     namespace std {
@@ -1530,7 +1530,7 @@ Note: [These names](../memory/ranges/nothrow_concepts.html "cpp/memory/ranges/no
       weak_ptr(shared_ptr<T>) -> weak_ptr<T>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/memory&action=edit&section=T-11 "Template:cpp/synopsis/memory")] Class template [std::owner_less](../memory/owner_less.html "cpp/memory/owner less")
+#### Class template [std::owner_less](../memory/owner_less.html "cpp/memory/owner less")
     
     
     namespace std {
@@ -1569,7 +1569,7 @@ Note: [These names](../memory/ranges/nothrow_concepts.html "cpp/memory/ranges/no
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/memory&action=edit&section=T-12 "Template:cpp/synopsis/memory")] Class std::owner_hash
+#### Class std::owner_hash
     
     
     namespace std {
@@ -1585,7 +1585,7 @@ Note: [These names](../memory/ranges/nothrow_concepts.html "cpp/memory/ranges/no
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/memory&action=edit&section=T-13 "Template:cpp/synopsis/memory")] Class std::owner_equal
+#### Class std::owner_equal
     
     
     namespace std {
@@ -1604,7 +1604,7 @@ Note: [These names](../memory/ranges/nothrow_concepts.html "cpp/memory/ranges/no
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/memory&action=edit&section=T-14 "Template:cpp/synopsis/memory")] Class template [std::enable_shared_from_this](../memory/enable_shared_from_this.html "cpp/memory/enable shared from this")
+#### Class template [std::enable_shared_from_this](../memory/enable_shared_from_this.html "cpp/memory/enable shared from this")
     
     
     namespace std {
@@ -1628,7 +1628,7 @@ Note: [These names](../memory/ranges/nothrow_concepts.html "cpp/memory/ranges/no
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/memory&action=edit&section=T-15 "Template:cpp/synopsis/memory")] Class template [std::atomic](../atomic/atomic.html "cpp/atomic/atomic")'s specialization for [std::shared_ptr](../memory/shared_ptr.html "cpp/memory/shared ptr")
+#### Class template [std::atomic](../atomic/atomic.html "cpp/atomic/atomic")'s specialization for [std::shared_ptr](../memory/shared_ptr.html "cpp/memory/shared ptr")
     
     
     namespace std {
@@ -1665,7 +1665,7 @@ Note: [These names](../memory/ranges/nothrow_concepts.html "cpp/memory/ranges/no
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/memory&action=edit&section=T-16 "Template:cpp/synopsis/memory")] Class template [std::atomic](../atomic/atomic.html "cpp/atomic/atomic")'s specialization for [std::weak_ptr](../memory/weak_ptr.html "cpp/memory/weak ptr")
+#### Class template [std::atomic](../atomic/atomic.html "cpp/atomic/atomic")'s specialization for [std::weak_ptr](../memory/weak_ptr.html "cpp/memory/weak ptr")
     
     
     namespace std {
@@ -1702,7 +1702,7 @@ Note: [These names](../memory/ranges/nothrow_concepts.html "cpp/memory/ranges/no
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/memory&action=edit&section=T-17 "Template:cpp/synopsis/memory")] Class template [std::out_ptr_t](../memory/out_ptr_t.html)
+#### Class template [std::out_ptr_t](../memory/out_ptr_t.html)
     
     
     namespace std {
@@ -1725,7 +1725,7 @@ Note: [These names](../memory/ranges/nothrow_concepts.html "cpp/memory/ranges/no
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/memory&action=edit&section=T-18 "Template:cpp/synopsis/memory")] Class template [std::inout_ptr_t](../memory/inout_ptr_t.html)
+#### Class template [std::inout_ptr_t](../memory/inout_ptr_t.html)
     
     
     namespace std {
@@ -1748,7 +1748,7 @@ Note: [These names](../memory/ranges/nothrow_concepts.html "cpp/memory/ranges/no
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/memory&action=edit&section=T-19 "Template:cpp/synopsis/memory")] Class template std::indirect
+#### Class template std::indirect
     
     
     namespace std {
@@ -1843,7 +1843,7 @@ Note: [These names](../memory/ranges/nothrow_concepts.html "cpp/memory/ranges/no
                     typename allocator_traits<Allocator>::template rebind_alloc<Value>>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/memory&action=edit&section=T-20 "Template:cpp/synopsis/memory")] Class template std::polymorphic
+#### Class template std::polymorphic
     
     
     namespace std {

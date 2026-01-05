@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Basic Concepts](basics.html "cpp/language/basic concepts")
 
@@ -249,7 +249,7 @@ Miscellaneous
 [Modules](modules.html "cpp/language/modules") (C++20)  
 [Contracts](contracts.html "cpp/language/contracts") (C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/basics/navbar_content&action=edit)
+
 
 This page describes several character sets specified by the C++ standard. 
 
@@ -282,7 +282,7 @@ The translation character set is a superset of the basic character set and the b
 
 (since C++23)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/charset&action=edit&section=2 "Edit section: Basic character set")] Basic character set
+### Basic character set
 
 The _basic character set_ consists of the following 96(until C++26)99(since C++26) characters: 
 
@@ -332,7 +332,7 @@ U+0040 | Commercial At | `**@**`
 U+0060 | Grave Accent | `**`**`  
 (since C++26)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/charset&action=edit&section=3 "Edit section: Basic literal character set")] Basic literal character set
+### Basic literal character set
 
 The _basic literal character set_ consists of all characters of the basic character set, plus the following control characters: 
 
@@ -343,11 +343,11 @@ U+0007 | Bell
 U+0008 | Backspace   
 U+000D | Carriage return (CR)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/charset&action=edit&section=4 "Edit section: Execution character set")] Execution character set
+### Execution character set
 
 The execution character set and the execution wide-character set are supersets of the basic literal character set. The encodings of the execution character sets and the sets of additional elements (if any) are locale-specific. Each element of execution wide-character set must be representable as a distinct wchar_t code unit. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/charset&action=edit&section=5 "Edit section: Code unit and literal encoding")] Code unit and literal encoding
+### Code unit and literal encoding
 
 A _code unit_ is an integer value of character type. Characters in a [character literal](character_literal.html "cpp/language/character literal") other than a multicharacter or non-encodable character literal or in a [string literal](string_literal.html "cpp/language/string literal") are encoded as a sequence of one or more code units, as determined by the encoding prefix; this is termed the respective _literal encoding_. 
 
@@ -359,7 +359,7 @@ The U+0000 NULL character is encoded as the value 0. No other element of the tra
 
 For a UTF-8, UTF-16, or UTF-32 literal, the UCS scalar value corresponding to each character of the translation character set is encoded as specified in ISO/IEC 10646 for the respective UCS encoding form. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/charset&action=edit&section=6 "Edit section: Notes")] Notes
+### Notes
 
 The standard names of some character sets are changed in C++23 via [P2314R4](https://wg21.link/P2314R4). 
 
@@ -371,7 +371,7 @@ basic execution wide-character set
   
 Mapping from source file (other than a UTF-8 source file)(since C++23) characters to the basic character set(until C++23)translation character set(since C++23) during [translation phase 1](translation_phases.html#Phase1 "cpp/language/translation phases") is implementation-defined, so an implementation is required to document how the basic source characters are represented in source files. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/charset&action=edit&section=7 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -382,7 +382,7 @@ were implementation-defined, but were not locale-specific  | they are locale-spe
 [CWG 1796](https://cplusplus.github.io/CWG/issues/1796.html) | C++98  | the representation of the null (wide) character in  
 basic execution (wide-)character set had all zero bits  | only required value to be zero   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/charset&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [ASCII chart](ascii.html "cpp/language/ascii")  
 ---  

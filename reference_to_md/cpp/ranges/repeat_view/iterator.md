@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::repeat_view`](../repeat_view.html "cpp/ranges/repeat view")
 
@@ -254,7 +254,7 @@ operator<=>(repeat_view::_iterator_)](iterator.html#Non-member_functions "cpp/ra
 [operator+(repeat_view::_iterator_)](iterator.html#Non-member_functions "cpp/ranges/repeat view/iterator")  
 [operator-(repeat_view::_iterator_)](iterator.html#Non-member_functions "cpp/ranges/repeat view/iterator")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/repeat_view/navbar_content&action=edit)
+
 
 struct /*iterator*/; |  | (exposition only*)  
 ---|---|---  
@@ -285,7 +285,7 @@ struct /*iterator*/; |  | (exposition only*)
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/repeat_view/iterator&action=edit&section=1 "Edit section: Nested types")] Nested types
+### Nested types
 
 #####  Exposition-only types   
   
@@ -304,7 +304,7 @@ Type  |  Definition
 `difference_type` |  [std::conditional_t](../../types/conditional.html)<[`_is-signed-integer-like_`](../../iterator/is-integer-like.html "cpp/iterator/is-integer-like") ﻿<`_index-type_` ﻿>,  
 ` `` _index-type_` ﻿,` `[` _iota-diff-t_`](../iota_view/iterator.html "cpp/ranges/iota view/iterator") ﻿<`_index-type_` ﻿>>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/repeat_view/iterator&action=edit&section=2 "Edit section: Data members")] Data members
+### Data members
 
 Member  |  Definition   
 ---|---  
@@ -313,7 +313,7 @@ const W* `_value__` |  a pointer to the value to repeat
 `_index-type_` `_current__` |  the current position  
 (exposition-only member object*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/repeat_view/iterator&action=edit&section=3 "Edit section: Member functions")] Member functions
+### Member functions
 
 ##  std::ranges::repeat_view::_iterator_ ::_iterator_
 
@@ -392,7 +392,7 @@ Equivalent to `_[current_](iterator.html#current)_`` `-= n; return *this;.
 
 If `Bound` is not [std::unreachable_sentinel_t](../../iterator/unreachable_sentinel_t.html "cpp/iterator/unreachable sentinel t") and `_[current_](iterator.html#current)_`` `- n is negative, the behavior is undefined. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/repeat_view/iterator&action=edit&section=4 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 ##  operator==, <=>(std::ranges::repeat_view::_iterator_)
 
@@ -440,6 +440,6 @@ friend constexpr difference_type operator-
 
 These functions are not visible to ordinary [unqualified](../../language/unqualified_lookup.html "cpp/language/unqualified lookup") or [qualified lookup](../../language/qualified_lookup.html "cpp/language/qualified lookup"), and can only be found by [argument-dependent lookup](../../language/adl.html "cpp/language/adl") when `_iterator_` is an associated class of the arguments. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/repeat_view/iterator&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 `_iterator_` is always [`random_access_iterator`](../../iterator/random_access_iterator.html "cpp/iterator/random access iterator"). 

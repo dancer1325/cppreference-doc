@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Formatting library](../format.html "cpp/utility/format")
 
@@ -91,7 +91,7 @@ Formatting arguments
 [Format error](format.html#Format_error "cpp/utility/format/format")  
 [format_error](format_error.html "cpp/utility/format/format error")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/navbar_content&action=edit)
+
 
 Defined in header `[<format>](../../header/format.html "cpp/header/format")` |  |   
 ---|---|---  
@@ -118,7 +118,7 @@ If `std::enable_nonlocking_formatter_optimization<T>` is true, printing an argum
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/enable_nonlocking_formatter_optimization&action=edit&section=1 "Edit section: Basic standard specializations")] Basic standard specializations
+### Basic standard specializations
 
 In the following list, `CharT` is either char or wchar_t, `ArithmeticT` is any cv-unqualified arithmetic type other than char, wchar_t, char8_t, char16_t, or char32_t: 
 
@@ -151,7 +151,7 @@ template<>
 constexpr bool enable_nonlocking_formatter_optimization<const void*> = true; |  (10)  |   
 | |   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/enable_nonlocking_formatter_optimization&action=edit&section=2 "Edit section: Standard specializations for library types")] Standard specializations for library types
+### Standard specializations for library types
 
 Specializations of `enable_nonlocking_formatter_optimization` for all specializations of the following standard templates are defined as true: 
 
@@ -169,7 +169,7 @@ Specializations of `enable_nonlocking_formatter_optimization` for all specializa
 
 Specialization of `enable_nonlocking_formatter_optimization` for all [formattable range types](ranges_formatter.html "cpp/utility/format/ranges formatter") are always defined as false for which the range format kind is not std::range_format::disabled. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/enable_nonlocking_formatter_optimization&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../feature_test.html "cpp/utility/feature test") macro  | Value | Std | Feature   
 ---|---|---|---  
@@ -178,14 +178,14 @@ Specialization of `enable_nonlocking_formatter_optimization` for all [formattabl
 [`202406L`](../../compiler_support/26.html#cpp_lib_print_202406L "cpp/compiler support/26") | (C++26)  
 (DR23) | Enabling nonlocking formatter optimization for more formattable types   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/enable_nonlocking_formatter_optimization&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ formatter](formatter.html "cpp/utility/format/formatter")(C++20) |  defines formatting rules for a given type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/dsc_formatter&action=edit)  
+(class template)   
 ---|---  
 [ print](../../io/print.html "cpp/io/print")(C++23) |  prints to [stdout](../../io/c/std_streams.html "cpp/io/c/std streams") or a file stream using [formatted](../format.html "cpp/utility/format") representation of the arguments   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_print&action=edit)  
+(function template)   
 [ println](../../io/println.html "cpp/io/println")(C++23) |  same as std::print except that each print is terminated by additional new line   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_println&action=edit)
+(function template) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

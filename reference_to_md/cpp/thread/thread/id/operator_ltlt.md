@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::thread`](../../thread.html "cpp/thread/thread")
 
@@ -196,7 +196,7 @@
 [Non-member functions](../../thread.html#Non-member_functions "cpp/thread/thread")  
 [swap(std::thread)](../swap2.html "cpp/thread/thread/swap2")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/navbar_content&action=edit)
+
 
 [`std::thread::id`](../id.html "cpp/thread/thread/id")
 
@@ -210,7 +210,7 @@ Helper classes
 [hash<std::thread::id>](hash.html "cpp/thread/thread/id/hash")  
 [formatter<std::thread::id>](formatter.html "cpp/thread/thread/id/formatter")(C++23)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/id/navbar_content&action=edit)
+
 
 Defined in header `[<thread>](../../../header/thread.html "cpp/header/thread")` |  |   
 ---|---|---  
@@ -233,21 +233,21 @@ If two thread identifiers compare equal, they have identical textual representat
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/thread/id/operator_ltlt&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 ost  |  \-  |  output stream to insert the data into   
 ---|---|---  
 id  |  \-  |  thread identifier   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/thread/id/operator_ltlt&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 ost
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/impldef_exception&action=edit&section=T-1 "Template:cpp/impldef exception")] Exceptions
+### Exceptions
 
 May throw implementation-defined exceptions. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/thread/id/operator_ltlt&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     

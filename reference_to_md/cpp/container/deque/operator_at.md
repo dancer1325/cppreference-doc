@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::deque`](../deque.html "cpp/container/deque")
 
@@ -134,7 +134,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/deque/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/deque/navbar_content&action=edit)
+
 
 reference operator[]( size_type pos ); |  (1) | (constexpr since C++26)  
 ---|---|---  
@@ -164,24 +164,24 @@ If pos < size() is false:
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/operator_at&action=edit&section=T-1 "Template:cpp/container/operator at")] Parameters
+### Parameters
 
 pos  |  \-  |  position of the element to return   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/operator_at&action=edit&section=T-2 "Template:cpp/container/operator at")] Return value
+### Return value
 
 Reference to the requested element. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/operator_at&action=edit&section=T-3 "Template:cpp/container/operator at")] Complexity
+### Complexity
 
 Constant. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/operator_at&action=edit&section=T-4 "Template:cpp/container/operator at")] Notes
+### Notes
 
 Unlike [std::map::operator[]](../map/operator_at.html "cpp/container/map/operator at"), this operator never inserts a new element into the container. Accessing a nonexistent element through this operator is undefined behavior, unless the implementation is hardened(since C++26). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/operator_at&action=edit&section=T-5 "Template:cpp/container/operator at")] Example
+### Example
 
 The following code uses operator[] to read from and write to a [std::deque](../deque.html)<int>:
 
@@ -211,8 +211,8 @@ Output:
     Second element: 4
     All numbers: 5 4 6 8
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/operator_at&action=edit&section=T-6 "Template:cpp/container/operator at")] See also
+### See also
 
 [ at](at.html "cpp/container/deque/at") |  access specified element with bounds checking   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_at&action=edit)  
+(public member function)   
 ---|---

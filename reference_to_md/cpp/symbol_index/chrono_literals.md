@@ -21,7 +21,7 @@
 [Removed symbols (Zombie names)](zombie_names.html "cpp/symbol index/zombie names")  
 [Exposition-only symbols](expos.html "cpp/symbol index/expos")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/symbol_index/navbar_content&action=edit)
+
 
 [`std::literals`](literals.html "cpp/symbol index/literals")
 
@@ -31,7 +31,7 @@
 [std::literals::string_literals](string_literals.html "cpp/symbol index/string literals")(C++14)  
 [std::literals::string_view_literals](string_view_literals.html "cpp/symbol index/string view literals")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/symbol_index/literals/navbar_content&action=edit)
+
 
 This page tries to list all the symbols that are available from the [standard library](../standard_library.html "cpp/standard library") ([date and time library](../chrono.html "cpp/chrono")) in the namespace std::literals::chrono_literals. The symbols are written as follows: 
 
@@ -55,7 +55,7 @@ This page tries to list all the symbols that are available from the [standard li
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/chrono_literals&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 These operators are declared in the namespace std::literals::chrono_literals, where both literals and chrono_literals are [inline namespaces](../language/namespace.html#Inline_namespaces "cpp/language/namespace"). Access to these operators can be gained with: 
 
@@ -74,38 +74,38 @@ In addition, within the namespace std::chrono, the directive using namespace lit
   
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/chrono_literals&action=edit&section=3 "Edit section: D")] D
+### D
 
 [`d`](../chrono/operator""d.html "cpp/chrono/operator""d") (since C++20)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/chrono_literals&action=edit&section=4 "Edit section: H")] H
+### H
 
 [`h`](../chrono/operator""h.html "cpp/chrono/operator""h") (since C++14)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/chrono_literals&action=edit&section=5 "Edit section: M")] M
+### M
 
 [`min`](../chrono/operator""min.html "cpp/chrono/operator""min") (since C++14)  
 [`ms`](../chrono/operator""ms.html "cpp/chrono/operator""ms") (since C++14)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/chrono_literals&action=edit&section=6 "Edit section: N")] N
+### N
 
 [`ns`](../chrono/operator""ns.html "cpp/chrono/operator""ns") (since C++14)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/chrono_literals&action=edit&section=7 "Edit section: S")] S
+### S
 
 [`s`](../chrono/operator""s.html "cpp/chrono/operator""s") (since C++14)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/chrono_literals&action=edit&section=8 "Edit section: U")] U
+### U
 
 [`us`](../chrono/operator""us.html "cpp/chrono/operator""us") (since C++14)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/chrono_literals&action=edit&section=9 "Edit section: Y")] Y
+### Y
 
 [`y`](../chrono/operator""y.html "cpp/chrono/operator""y") (since C++20)  
 

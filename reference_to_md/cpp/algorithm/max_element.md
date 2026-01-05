@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](ranges/copy.html "cpp/algorithm/ra
 [uninitialized_default_construct_n](../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -340,7 +340,7 @@ These overloads participate in overload resolution only if all following conditi
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/max_element&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  the pair of iterators defining the [range](../iterator.html#Ranges "cpp/iterator") of elements to examine   
 ---|---|---  
@@ -351,11 +351,11 @@ The types Type1 and Type2 must be such that an object of type ForwardIt can be d
 Type requirements   
 -`ForwardIt` must meet the requirements of [LegacyForwardIterator](../named_req/ForwardIterator.html "cpp/named req/ForwardIterator").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/max_element&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Iterator to the greatest element in the range `[`first`, `last`)`. If several elements in the range are equivalent to the greatest element, returns the iterator to the first such element. Returns last if the range is empty. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/max_element&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Given \\(\scriptsize N\\)N as [std::distance](../iterator/distance.html)(first, last): 
 
@@ -363,7 +363,7 @@ Given \\(\scriptsize N\\)N as [std::distance](../iterator/distance.html)(first, 
 
 3,4) Exactly \\(\scriptsize \max(N-1,0)\\)max(N-1,0) applications of the comparison function comp.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/max_element&action=edit&section=4 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 The overloads with a template parameter named `ExecutionPolicy` report errors as follows: 
 
@@ -372,7 +372,7 @@ The overloads with a template parameter named `ExecutionPolicy` report errors as
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/max_element&action=edit&section=5 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
 
 [max_element (1)](max_element.html#Version_1)  
 ---  
@@ -411,7 +411,7 @@ The overloads with a template parameter named `ExecutionPolicy` report errors as
         return largest;
     }  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/max_element&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -446,7 +446,7 @@ Output:
     Max element found at index 5 has value 9
     Absolute max element found at index 2 has value -14
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/max_element&action=edit&section=7 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -455,14 +455,14 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [LWG 212](https://cplusplus.github.io/LWG/issue212) | C++98  | the return value was not specified if `[`first`, `last`)` is empty  | returns last in this case   
 [LWG 2150](https://cplusplus.github.io/LWG/issue2150) | C++98  | the iterator to the first non-smallest element was returned  | corrected the return value   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/max_element&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [ min_element](min_element.html "cpp/algorithm/min element") |  returns the smallest element in a range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_min_element&action=edit)  
+(function template)   
 ---|---  
 [ minmax_element](minmax_element.html "cpp/algorithm/minmax element")(C++11) |  returns the smallest and the largest elements in a range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_minmax_element&action=edit)  
+(function template)   
 [ max](max.html "cpp/algorithm/max") |  returns the greater of the given values   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_max&action=edit)  
+(function template)   
 [ ranges::max_element](ranges/max_element.html "cpp/algorithm/ranges/max element")(C++20) |  returns the largest element in a range  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_max_element&action=edit)
+(algorithm function object)

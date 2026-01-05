@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](empty.html "cpp/iterator/empty")(C++17)  
 [data](data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 Defined in header `[<iterator>](../header/iterator.html "cpp/header/iterator")` |  |   
 ---|---|---  
@@ -229,7 +229,7 @@ The concept `random_access_iterator` refines [`bidirectional_iterator`](bidirect
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/iter_concept&action=edit&section=T-1 "Template:cpp/iterator/iter concept")] Iterator concept determination
+### Iterator concept determination
 
 Definition of this concept is specified via an exposition-only alias template /*ITER_CONCEPT*/. 
 
@@ -243,7 +243,7 @@ In order to determine /*ITER_CONCEPT*/<I>, let ITER_TRAITS<I> denote I if the sp
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/random_access_iterator&action=edit&section=1 "Edit section: Semantic requirements")] Semantic requirements
+### Semantic requirements
 
 Let a and b be valid iterators of type `I` such that b is reachable from a, and let n be a value of type [std::iter_difference_t](iter_t.html)<I> equal to b - a. std::random_access_iterator<I> is modeled only if all the concepts it subsumes are modeled and: 
 
@@ -265,19 +265,19 @@ Let a and b be valid iterators of type `I` such that b is reachable from a, and 
 
 Note that [std::addressof](../memory/addressof.html "cpp/memory/addressof") returns the address of the iterator object, not the address of the object the iterator points to. I.e. `operator+=` and `operator-=` must return a reference to *this.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/equality_preservation&action=edit&section=T-1 "Template:cpp/concepts/equality preservation")] Equality preservation
+### Equality preservation
 
 Expressions declared in [requires expressions](../language/requires.html "cpp/language/requires") of the standard library concepts are required to be [equality-preserving](../concepts.html#Equality_preservation "cpp/concepts") (except where stated otherwise). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/implicit_expression_variations&action=edit&section=T-1 "Template:cpp/concepts/implicit expression variations")] Implicit expression variations
+### Implicit expression variations
 
 A [requires expression](../language/requires.html "cpp/language/requires") that uses an expression that is non-modifying for some constant lvalue operand also requires [implicit expression variations](../concepts.html#Implicit_expression_variations "cpp/concepts"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/random_access_iterator&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 Unlike the [LegacyRandomAccessIterator](../named_req/RandomAccessIterator.html "cpp/named req/RandomAccessIterator") requirements, the `random_access_iterator` concept does not require dereference to return an lvalue. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/random_access_iterator&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Demonstrates a possible implementation of [std::distance](distance.html "cpp/iterator/distance") via C++20 concepts.
 
@@ -312,10 +312,10 @@ Run this code
                       cxx20::distance(il.end(), il.begin()) == -3);
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/random_access_iterator&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ bidirectional_iterator](bidirectional_iterator.html "cpp/iterator/bidirectional iterator")(C++20) |  specifies that a [`forward_iterator`](forward_iterator.html "cpp/iterator/forward iterator") is a bidirectional iterator, supporting movement backwards   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_bidirectional_iterator&action=edit)  
+(concept)   
 ---|---  
 [ contiguous_iterator](contiguous_iterator.html "cpp/iterator/contiguous iterator")(C++20) |  specifies that a **`random_access_iterator`** is a contiguous iterator, referring to elements that are contiguous in memory   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_contiguous_iterator&action=edit)
+(concept) 

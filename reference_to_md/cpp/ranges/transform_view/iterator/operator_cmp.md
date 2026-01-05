@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::transform_view`](../../transform_view.html "cpp/ranges/transform view")
 
@@ -263,7 +263,7 @@ operator-(transform_view::_iterator_)](operator_arith2.html "cpp/ranges/transfor
 [operator==(transform_view::_iterator_ ,transform_view::_sentinel_)](../sentinel/operator_cmp.html "cpp/ranges/transform view/sentinel/operator cmp")  
 [operator-(transform_view::_iterator_ ,transform_view::_sentinel_)](../sentinel/operator-.html "cpp/ranges/transform view/sentinel/operator-")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/transform_view/navbar_content&action=edit)
+
 
 friend constexpr bool operator==( const /*iterator*/& x, const /*iterator*/& y )  
 requires [std::equality_comparable](../../../concepts/equality_comparable.html)<[ranges::iterator_t](../../iterator_t.html)<Base>>; |  (1)  |  (since C++20)  
@@ -299,17 +299,17 @@ These functions are not visible to ordinary [unqualified](../../../language/unqu
 
 The `!=` operator is [synthesized](../../../language/default_comparisons.html#Other_defaulted_comparison_operators "cpp/language/default comparisons") from `operator==`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/transform_view/iterator/operator_cmp&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 x, y  |  \-  |  iterators to compare   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/transform_view/iterator/operator_cmp&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 result of comparison 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/transform_view/iterator/operator_cmp&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ operator==](../sentinel/operator_cmp.html "cpp/ranges/transform view/sentinel/operator cmp")(C++20) |  compares a sentinel with an iterator returned from [`transform_view::begin`](../begin.html "cpp/ranges/transform view/begin")   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/sentinel/dsc_operator_cmp&action=edit)  
+(function)   
 ---|---

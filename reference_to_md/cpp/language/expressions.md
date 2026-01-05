@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 **Expressions**
 
@@ -289,7 +289,7 @@ Conversions
 [`dynamic_cast`](dynamic_cast.html "cpp/language/dynamic cast")  
 [`reinterpret_cast`](reinterpret_cast.html "cpp/language/reinterpret cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/expressions/navbar_content&action=edit)
+
 
 An expression is a sequence of _operators_ and their _operands_ , that specifies a computation. 
 
@@ -316,14 +316,14 @@ Each C++ expression is characterized by two independent properties: A type and a
   
 ---  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/expressions&action=edit&section=1 "Edit section: General")] General
+#### General
 
   * [value categories](value_category.html "cpp/language/value category") (lvalue, rvalue, glvalue, prvalue, xvalue(since C++11)) classify expressions by their values 
   * [order of evaluation](eval_order.html "cpp/language/eval order") of arguments and subexpressions specify the order in which intermediate results are obtained 
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/expressions&action=edit&section=2 "Edit section: Operators")] Operators
+### Operators
 
 Common operators   
 ---  
@@ -398,7 +398,7 @@ Special operators
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/expressions&action=edit&section=3 "Edit section: Conversions")] Conversions
+#### Conversions
 
   * [standard conversions](implicit_cast.html "cpp/language/implicit conversion") implicit conversions from one type to another 
   * [`const_cast` conversion](const_cast.html "cpp/language/const cast")
@@ -410,14 +410,14 @@ Special operators
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/expressions&action=edit&section=4 "Edit section: Memory allocation")] Memory allocation
+#### Memory allocation
 
   * [new expression](new.html "cpp/language/new") allocates memory dynamically 
   * [delete expression](delete.html "cpp/language/delete") deallocates memory dynamically 
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/expressions&action=edit&section=5 "Edit section: Other")] Other
+#### Other
 
   * [constant expressions](constant_expression.html "cpp/language/constant expression") can be evaluated at compile time and used in compile-time context (template arguments, array sizes, etc) 
   * [`sizeof`](sizeof.html "cpp/language/sizeof")
@@ -427,7 +427,7 @@ Special operators
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/expressions&action=edit&section=6 "Edit section: Primary expressions")] Primary expressions
+### Primary expressions
 
 The operands of any operator may be other expressions or primary expressions (e.g. in 1 + 2 * 3, the operands of operator+ are the [subexpression](expressions.html#Full-expressions) 2 * 3 and the primary expression 1). 
 
@@ -465,7 +465,7 @@ Primary expressions are any of the following:
   
 Any expression in parentheses is also classified as a primary expression: this guarantees that the parentheses have higher precedence than any operator. Parentheses preserve value, type, and value category. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/expressions&action=edit&section=7 "Edit section: Literals")] Literals
+#### Literals
 
 Literals are the tokens of a C++ program that represent constant values embedded in the source code. 
 
@@ -531,7 +531,7 @@ Literals are the tokens of a C++ program that represent constant values embedded
 | (since C++11)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/expressions&action=edit&section=8 "Edit section: Full-expressions")] Full-expressions
+### Full-expressions
 
 A _constituent expression_ is defined as follows: 
 
@@ -603,7 +603,7 @@ If a language construct is defined to produce an implicit call of a function, a 
 
 For an initializer, performing the initialization of the entity (including evaluating default member initializers of an aggregate)(since C++14) is also considered part of the full-expression. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/expressions&action=edit&section=9 "Edit section: Potentially-evaluated expressions")] Potentially-evaluated expressions
+### Potentially-evaluated expressions
 
 An expression is _potentially evaluated_ unless 
 
@@ -641,7 +641,7 @@ Potentially-evaluated expressions are [ODR-use](definition.html#ODR-use "cpp/lan
 Reason: example of unevaluated operands   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/expressions&action=edit&section=10 "Edit section: Discarded-value expressions")] Discarded-value expressions
+### Discarded-value expressions
 
 A _discarded-value expression_ is an expression that is used for its side-effects only. The value calculated from such expression is discarded. Such expressions include the full-expression of any [expression statement](statements.html#Expression_statements "cpp/language/statements"), the left-hand operand of the built-in comma operator, or the operand of a cast-expression that casts to the type void. 
 
@@ -675,7 +675,7 @@ A number of expressions e1, e2, ..., eN are _expression-equivalent_ if all follo
 e1 is _expression-equivalent to_ e2 if and only if e1 and e2 are expression-equivalent (which means e2 is also expression-equivalent to e1).  | (since C++20)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/expressions&action=edit&section=12 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -701,7 +701,7 @@ were not id-expressions  | they are
 [CWG 2431](https://cplusplus.github.io/CWG/issues/2431.html) | C++11  | the invocations of the destructors of temporaries that  
 are bound to references were not full-expressions  | they are   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/expressions&action=edit&section=13 "Edit section: See also")] See also
+### See also
 
 [C documentation](../../c/language/operators.html "c/language/expressions") for Expressions  
 ---

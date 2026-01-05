@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Filesystem library](../fs.html "cpp/experimental/fs")
 
@@ -124,7 +124,7 @@ File types
 [filesystem::is_socket](is_socket.html "cpp/experimental/fs/is socket")  
 [filesystem::is_symlink](is_symlink.html "cpp/experimental/fs/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/navbar_content&action=edit)
+
 
 **`recursive_directory_iterator`**
 
@@ -142,7 +142,7 @@ Member functions
 Non-member functions  
 [begin(recursive_directory_iterator)end(recursive_directory_iterator)](recursive_directory_iterator/begin.html "cpp/experimental/fs/recursive directory iterator/begin")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/recursive_directory_iterator/navbar_content&action=edit)
+
 
 ![](https://upload.cppreference.com/mwiki/images/3/31/Imbox_notice.png) |  **Merged into ISO C++** The functionality described on this page was merged into the mainline ISO C++ standard as of 3/2016; see [std::filesystem::recursive_directory_iterator](../../filesystem/recursive_directory_iterator.html "cpp/filesystem/recursive directory iterator") (since C++17)  
 ---|---  
@@ -177,7 +177,7 @@ If the directory structure contains cycles, the end iterator may be unreachable.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/recursive_directory_iterator&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Member type  |  Definition   
 ---|---  
@@ -187,45 +187,45 @@ Member type  |  Definition
 `reference` |  `const filesystem::directory_entry&`  
 `iterator_category` |  `std::input_iterator_tag`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/recursive_directory_iterator&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](recursive_directory_iterator/recursive_directory_iterator.html "cpp/experimental/fs/recursive directory iterator/recursive directory iterator") |  constructs a recursive directory iterator   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/recursive_directory_iterator/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 (destructor) |  default destructor   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/recursive_directory_iterator/dsc_destructor&action=edit)  
+(public member function)   
   
 #####  Observers   
   
 [ operator*operator->](recursive_directory_iterator/operator*.html "cpp/experimental/fs/recursive directory iterator/operator*") |  accesses the pointed-to entry   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/recursive_directory_iterator/dsc_operator*&action=edit)  
+(public member function)   
 [ options](recursive_directory_iterator/options.html "cpp/experimental/fs/recursive directory iterator/options") |  returns the currently active options that affect the iteration   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/recursive_directory_iterator/dsc_options&action=edit)  
+(public member function)   
 [ depth](recursive_directory_iterator/depth.html "cpp/experimental/fs/recursive directory iterator/depth") |  returns the current recursion depth   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/recursive_directory_iterator/dsc_depth&action=edit)  
+(public member function)   
 [ recursion_pending](recursive_directory_iterator/recursion_pending.html "cpp/experimental/fs/recursive directory iterator/recursion pending") |  checks whether the recursion is disabled for the current directory   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/recursive_directory_iterator/dsc_recursion_pending&action=edit)  
+(public member function)   
   
 #####  Modifiers   
   
 [ operator=](recursive_directory_iterator/operator=.html "cpp/experimental/fs/recursive directory iterator/operator=") |  assigns contents   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/recursive_directory_iterator/dsc_operator%3D&action=edit)  
+(public member function)   
 [ incrementoperator++](recursive_directory_iterator/increment.html "cpp/experimental/fs/recursive directory iterator/increment") |  advances to the next entry   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/recursive_directory_iterator/dsc_increment&action=edit)  
+(public member function)   
 [ pop](recursive_directory_iterator/pop.html "cpp/experimental/fs/recursive directory iterator/pop") |  moves the iterator one level up in the directory hierarchy   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/recursive_directory_iterator/dsc_pop&action=edit)  
+(public member function)   
 [ disable_recursion_pending](recursive_directory_iterator/disable_recursion_pending.html "cpp/experimental/fs/recursive directory iterator/disable recursion pending") |  disables recursion until the next increment   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/recursive_directory_iterator/dsc_disable_recursion_pending&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/recursive_directory_iterator&action=edit&section=3 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ filesystem::begin(filesystem::recursive_directory_iterator)filesystem::end(filesystem::recursive_directory_iterator)](recursive_directory_iterator/begin.html "cpp/experimental/fs/recursive directory iterator/begin") |  range-based for loop support   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/recursive_directory_iterator/dsc_begin&action=edit)  
+(function)   
 ---|---  
   
 Additionally, `operator==` and `operator!=` are provided, either as members or as non-members, as required by [LegacyInputIterator](../../named_req/InputIterator.html "cpp/named req/InputIterator"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/recursive_directory_iterator&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 A `recursive_directory_iterator` typically holds a reference-counted _pointer_ (to satisfy shallow-copy semantics of [LegacyInputIterator](../../named_req/InputIterator.html "cpp/named req/InputIterator")) to an implementation object, which holds: 
 
@@ -236,7 +236,7 @@ A `recursive_directory_iterator` typically holds a reference-counted _pointer_ (
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/recursive_directory_iterator&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -264,12 +264,12 @@ Possible output:
     "sandbox/file1.txt"
     "sandbox/syma"
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/recursive_directory_iterator&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ directory_iterator](directory_iterator.html "cpp/experimental/fs/directory iterator") |  an iterator to the contents of the directory   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_directory_iterator&action=edit)  
+(class)   
 ---|---  
 [ directory_entry](directory_entry.html "cpp/experimental/fs/directory entry") |  a directory entry   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_directory_entry&action=edit)  
+(class)   
 [ directory_options](directory_options.html "cpp/experimental/fs/directory options") |  options for iterating directory contents   
-(enum) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_directory_options&action=edit)
+(enum) 

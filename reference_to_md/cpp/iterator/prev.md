@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](empty.html "cpp/iterator/empty")(C++17)  
 [data](data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 Defined in header `[<iterator>](../header/iterator.html "cpp/header/iterator")` |  |   
 ---|---|---  
@@ -221,7 +221,7 @@ Return the nth predecessor (or -nth successor if n is negative) of iterator it.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/prev&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 it  |  \-  |  an iterator   
 ---|---|---  
@@ -229,17 +229,17 @@ n  |  \-  |  number of elements it should be descended
 Type requirements   
 -`BidirIt` must meet the requirements of [LegacyBidirectionalIterator](../named_req/BidirectionalIterator.html "cpp/named req/BidirectionalIterator").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/prev&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 An iterator of type `BidirIt` that holds the nth predecessor (or -nth successor if n is negative) of iterator it. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/prev&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Linear. 
 
 However, if `BidirIt` additionally meets the requirements of [LegacyRandomAccessIterator](../named_req/RandomAccessIterator.html "cpp/named req/RandomAccessIterator"), complexity is constant. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/prev&action=edit&section=4 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     template<class BidirIt>
@@ -252,11 +252,11 @@ However, if `BidirIt` additionally meets the requirements of [LegacyRandomAccess
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/prev&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 Although the expression \--c.end() often compiles, it is not guaranteed to do so: c.end() is an rvalue expression, and there is no iterator requirement that specifies that decrement of an rvalue is guaranteed to work. In particular, when iterators are implemented as pointers or its operator\-- is lvalue-ref-qualified, \--c.end() does not compile, while std::prev(c.end()) does. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/prev&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -284,14 +284,14 @@ Output:
     1
     4
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/prev&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ next](next.html "cpp/iterator/next")(C++11) |  increment an iterator   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_next&action=edit)  
+(function template)   
 ---|---  
 [ advance](advance.html "cpp/iterator/advance") |  advances an iterator by given distance   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_advance&action=edit)  
+(function template)   
 [ distance](distance.html "cpp/iterator/distance") |  returns the distance between two iterators   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_distance&action=edit)  
+(function template)   
 [ ranges::prev](ranges/prev.html "cpp/iterator/ranges/prev")(C++20) |  decrement an iterator by a given distance or to a bound  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/ranges/dsc_prev&action=edit)
+(algorithm function object)

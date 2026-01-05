@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::inplace_vector`](../inplace_vector.html "cpp/container/inplace vector")
 
@@ -134,7 +134,7 @@ Tables
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/inplace_vector/navbar_content&action=edit)
+
 
 constexpr size_type max_size() const noexcept; |  | (since C++26)  
 ---|---|---  
@@ -153,19 +153,19 @@ Returns the maximum number of elements the container is able to hold.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/max_size&action=edit&section=T-1 "Template:cpp/container/max size")] Return value
+### Return value
 
 Maximum number of elements, i.e. N. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/max_size&action=edit&section=T-2 "Template:cpp/container/max size")] Complexity
+### Complexity
 
 Constant. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/max_size&action=edit&section=T-3 "Template:cpp/container/max size")] Notes
+### Notes
 
 Because each [std::inplace_vector](../inplace_vector.html)<T, N> is a fixed-capacity container, the value returned by `max_size` equals N (which is also the value returned by capacity()). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/max_size&action=edit&section=T-4 "Template:cpp/container/max size")] Example
+### Example
 
 Run this code
     
@@ -196,7 +196,7 @@ Output:
 ###  See also
 
 [ size](size.html "cpp/container/inplace vector/size") |  returns the number of elements   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_size&action=edit)  
+(public member function)   
 ---|---  
 [ capacity](capacity.html "cpp/container/inplace vector/capacity")[static] |  returns the number of elements that can be held in currently allocated storage   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_capacity&action=edit)
+(public static member function) 

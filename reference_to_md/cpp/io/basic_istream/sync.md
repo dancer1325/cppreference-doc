@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_istream`](../basic_istream.html "cpp/io/basic istream")
 
@@ -111,7 +111,7 @@ Member classes
 Non-member functions  
 [operator>>(std::basic_istream)](operator_gtgt2.html "cpp/io/basic istream/operator gtgt2")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_istream/navbar_content&action=edit)
+
 
 int sync(); |  |   
 ---|---|---  
@@ -137,19 +137,19 @@ Otherwise, calls rdbuf()->pubsync(). If that function returns -1, calls setstate
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_istream/sync&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_istream/sync&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 ​0​ on success, -1 on failure or if the stream does not support this operation (is unbuffered). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_istream/sync&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 As with [readsome()](readsome.html "cpp/io/basic istream/readsome"), it is implementation-defined whether this function does anything with library-supplied streams. The intent is typically for the next read operation to pick up any changes that may have been made to the associated input sequence after the stream buffer last filled its get area. To achieve that, `sync()` may empty the get area, or it may refill it, or it may do nothing. A notable exception is Visual Studio, where this operation discards the unprocessed input when called with a standard input stream. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_istream/sync&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Demonstrates the use of input stream `sync()` with file input. Note that output here is implementation-defined, since calls to [`std::basic_filebuf::sync`](../basic_filebuf/sync.html "cpp/io/basic filebuf/sync") are implementation-defined for reads.
 
@@ -207,7 +207,7 @@ Possible output:
     Reading from the file, with sync()
     a23
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_istream/sync&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -215,10 +215,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 62](https://cplusplus.github.io/LWG/issue62) | C++98  | `sync()` returned traits::eof() if rdbuf()->pubsync() returns -1 | returns -1 in this case   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_istream/sync&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ sync](../basic_streambuf/pubsync.html "cpp/io/basic streambuf/pubsync")[virtual] |  synchronizes the buffers with the associated character sequence   
-(virtual protected member function of `std::basic_streambuf<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_streambuf/dsc_sync&action=edit)  
+(virtual protected member function of `std::basic_streambuf<CharT,Traits>`)   
 ---|---  
 [ flush](../basic_ostream/flush.html "cpp/io/basic ostream/flush") |  synchronizes with the underlying storage device   
-(public member function of `std::basic_ostream<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ostream/dsc_flush&action=edit)
+(public member function of `std::basic_ostream<CharT,Traits>`) 

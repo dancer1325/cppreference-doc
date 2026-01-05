@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Localization library](../locale.html "cpp/locale")
 
@@ -152,7 +152,7 @@ base classes](../locale.html#Facet_category_base_classes "cpp/locale")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/navbar_content&action=edit)
+
 
 Defined in header `[<locale>](../header/locale.html "cpp/header/locale")` |  |   
 ---|---|---  
@@ -185,7 +185,7 @@ class InputIt = [std::istreambuf_iterator](../iterator/istreambuf_iterator.html)
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/time_get_byname&action=edit&section=1 "Edit section: Specializations")] Specializations
+### Specializations
 
 The standard library is guaranteed to provide every specialization that satisfies the following type requirements: 
 
@@ -194,22 +194,22 @@ The standard library is guaranteed to provide every specialization that satisfie
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/time_get_byname&action=edit&section=2 "Edit section: Nested types")] Nested types
+### Nested types
 
 Type  |  Definition   
 ---|---  
 `char_type` |  `CharT`  
 `iter_type` |  `InputIt`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/time_get_byname&action=edit&section=3 "Edit section: Member functions")] Member functions
+### Member functions
 
 **(constructor)** |  constructs a new `time_get_byname` facet   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/byname/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 **(destructor)** |  destroys a `time_get_byname` facet   
-(protected member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/byname/dsc_destructor&action=edit)  
+(protected member function)   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/byname/constructor&action=edit)
+
 
 ##  std::time_get_byname::time_get_byname
 
@@ -228,7 +228,7 @@ name  |  \-  |  the name of the locale
 ---|---|---  
 refs  |  \-  |  the number of references that link to the facet   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/byname/destructor&action=edit)
+
 
 ##  std::time_get_byname::~time_get_byname 
 
@@ -248,7 +248,7 @@ Type  |  Definition
 `char_type` |  `CharT`  
 `iter_type` |  `InputIt`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/facet_data_members&action=edit&section=T-1 "Template:cpp/locale/facet data members")] Data members
+### Data members
 
 Member  |  Description   
 ---|---  
@@ -257,38 +257,38 @@ Member  |  Description
 ###  Member functions
 
 [ date_order](time_get/date_order.html "cpp/locale/time get/date order") |  invokes `do_date_order`   
-(public member function of `std::time_get<CharT,InputIt>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/time_get/dsc_date_order&action=edit)  
+(public member function of `std::time_get<CharT,InputIt>`)   
 ---|---  
 [ get_time](time_get/get_time.html "cpp/locale/time get/get time") |  invokes `do_get_time`   
-(public member function of `std::time_get<CharT,InputIt>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/time_get/dsc_get_time&action=edit)  
+(public member function of `std::time_get<CharT,InputIt>`)   
 [ get_date](time_get/get_date.html "cpp/locale/time get/get date") |  invokes `do_get_date`   
-(public member function of `std::time_get<CharT,InputIt>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/time_get/dsc_get_date&action=edit)  
+(public member function of `std::time_get<CharT,InputIt>`)   
 [ get_weekday](time_get/get_weekday.html "cpp/locale/time get/get weekday") |  invokes `do_get_weekday`   
-(public member function of `std::time_get<CharT,InputIt>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/time_get/dsc_get_weekday&action=edit)  
+(public member function of `std::time_get<CharT,InputIt>`)   
 [ get_monthname](time_get/get_monthname.html "cpp/locale/time get/get monthname") |  invokes `do_get_monthname`   
-(public member function of `std::time_get<CharT,InputIt>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/time_get/dsc_get_monthname&action=edit)  
+(public member function of `std::time_get<CharT,InputIt>`)   
 [ get_year](time_get/get_year.html "cpp/locale/time get/get year") |  invokes `do_get_year`   
-(public member function of `std::time_get<CharT,InputIt>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/time_get/dsc_get_year&action=edit)  
+(public member function of `std::time_get<CharT,InputIt>`)   
 [ get](time_get/get.html "cpp/locale/time get/get")(C++11) |  invokes `do_get`   
-(public member function of `std::time_get<CharT,InputIt>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/time_get/dsc_get&action=edit)  
+(public member function of `std::time_get<CharT,InputIt>`)   
   
 ###  Protected member functions
 
 [ do_date_order](time_get/date_order.html "cpp/locale/time get/date order")[virtual] |  obtains preferred ordering of day, month, and year   
-(virtual protected member function of `std::time_get<CharT,InputIt>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/time_get/dsc_do_date_order&action=edit)  
+(virtual protected member function of `std::time_get<CharT,InputIt>`)   
 ---|---  
 [ do_get_time](time_get/get_time.html "cpp/locale/time get/get time")[virtual] |  extracts hours, minutes, and seconds from input stream   
-(virtual protected member function of `std::time_get<CharT,InputIt>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/time_get/dsc_do_get_time&action=edit)  
+(virtual protected member function of `std::time_get<CharT,InputIt>`)   
 [ do_get_date](time_get/get_date.html "cpp/locale/time get/get date")[virtual] |  extracts month, day, and year from input stream   
-(virtual protected member function of `std::time_get<CharT,InputIt>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/time_get/dsc_do_get_date&action=edit)  
+(virtual protected member function of `std::time_get<CharT,InputIt>`)   
 [ do_get_weekday](time_get/get_weekday.html "cpp/locale/time get/get weekday")[virtual] |  extracts the name of a day of the week from input stream   
-(virtual protected member function of `std::time_get<CharT,InputIt>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/time_get/dsc_do_get_weekday&action=edit)  
+(virtual protected member function of `std::time_get<CharT,InputIt>`)   
 [ do_get_monthname](time_get/get_monthname.html "cpp/locale/time get/get monthname")[virtual] |  extracts a month name from input stream   
-(virtual protected member function of `std::time_get<CharT,InputIt>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/time_get/dsc_do_get_monthname&action=edit)  
+(virtual protected member function of `std::time_get<CharT,InputIt>`)   
 [ do_get_year](time_get/get_year.html "cpp/locale/time get/get year")[virtual] |  extracts a year from input stream   
-(virtual protected member function of `std::time_get<CharT,InputIt>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/time_get/dsc_do_get_year&action=edit)  
+(virtual protected member function of `std::time_get<CharT,InputIt>`)   
 [ do_get](time_get/get.html "cpp/locale/time get/get")[virtual] (C++11) |  extracts date/time components from input stream, according to the specified format   
-(virtual protected member function of `std::time_get<CharT,InputIt>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/time_get/dsc_do_get&action=edit)  
+(virtual protected member function of `std::time_get<CharT,InputIt>`)   
   
 ##  Inherited from [std::time_base](time_base.html "cpp/locale/time base")
 
@@ -298,16 +298,16 @@ Type  |  Definition
 ---|---  
 `dateorder` |  date order enumeration type, defining the values `no_order`, `dmy`, `mdy`, `ymd`, and `ydm`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/time_get_byname&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/time_get_byname&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ time_get](time_get.html "cpp/locale/time get") |  parses time/date values from an input character sequence into [std::tm](../chrono/c/tm.html "cpp/chrono/c/tm")   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_time_get&action=edit)  
+(class template)   
 ---|---  
 [ get_time](../io/manip/get_time.html "cpp/io/manip/get time")(C++11) |  parses a date/time value of specified format   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_get_time&action=edit)
+(function template) 

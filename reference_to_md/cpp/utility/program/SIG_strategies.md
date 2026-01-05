@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Program support utilities](../program.html "cpp/utility/program")
 
@@ -181,7 +181,7 @@ Common vocabulary types
 [Types](../program.html#Types "cpp/utility/program")  
 [jmp_buf](jmp_buf.html "cpp/utility/program/jmp buf")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/program/navbar_content&action=edit)
+
 
 Defined in header `[<csignal>](../../header/csignal.html "cpp/header/csignal")` |  |   
 ---|---|---  
@@ -196,7 +196,7 @@ Constant  |  Explanation
 `SIG_DFL` |  default signal handling   
 `SIG_IGN` |  signal is ignored   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/program/SIG_strategies&action=edit&section=1 "Edit section: See also")] See also
+### See also
 
 [C documentation](../../../c/program/SIG_strategies.html "c/program/SIG strategies") for SIG_DFL, SIG_IGN  
 ---

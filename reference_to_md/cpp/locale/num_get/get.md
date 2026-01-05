@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Localization library](../../locale.html "cpp/locale")
 
@@ -152,7 +152,7 @@ base classes](../../locale.html#Facet_category_base_classes "cpp/locale")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/navbar_content&action=edit)
+
 
 [`std::num_get`](../num_get.html "cpp/locale/num get")
 
@@ -162,7 +162,7 @@ Member functions
 [num_get::~num_get](~num_get.html "cpp/locale/num get/~num get")  
 **num_get::get num_get::do_get**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/num_get/navbar_content&action=edit)
+
 
 | (1) |   
 ---|---|---  
@@ -236,7 +236,7 @@ Conversion occurs in three stages:
   
 ---  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/num_get/get&action=edit&section=1 "Edit section: Stage 1: conversion specifier selection")] Stage 1: conversion specifier selection
+#### Stage 1: conversion specifier selection
 
   * I/O format flags are obtained, as if by 
 
@@ -267,7 +267,7 @@ Conversion occurs in three stages:
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/num_get/get&action=edit&section=2 "Edit section: Stage 2: character extraction")] Stage 2: character extraction
+#### Stage 2: character extraction
 
   * If in == end, stage 2 is terminated immediately, no further characters are extracted. 
   * The next character is extracted from in as if by char_type ct = *in;: 
@@ -278,7 +278,7 @@ Conversion occurs in three stages:
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/num_get/get&action=edit&section=3 "Edit section: Stage 3: conversion and storage")] Stage 3: conversion and storage
+#### Stage 3: conversion and storage
 
   * The sequence of chars accumulated in stage 2 is converted to a numeric value: 
 
@@ -310,11 +310,11 @@ Conversion occurs in three stages:
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/num_get/get&action=edit&section=4 "Edit section: Return value")] Return value
+### Return value
 
 in
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/num_get/get&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 Before the resolutions of [LWG issue 23](https://cplusplus.github.io/LWG/issue23) and [LWG issue 696](https://cplusplus.github.io/LWG/issue696), v was left unchanged if an error occurs. 
 
@@ -325,7 +325,7 @@ Before the resolution of [LWG issue 1169](https://cplusplus.github.io/LWG/issue1
 Before the resolution of [LWG issue 2381](https://cplusplus.github.io/LWG/issue2381), strings representing hexadecimal floating-point numbers with exponents (e.g. "0x1.23p-10") were rejected by `do_get(double)` even if they are valid input to [`strtod`](../../string/byte/strtof.html "cpp/string/byte/strtof") because stage 2 filters out characters 'P' and 'p'. The strings representing infinity or not-a-number (e.g. "NaN" and "inf") are rejected by `do_get(double)` even if they are valid input to `strtod` because stage 2 filters out characters such as 'N' or 'i'.  | (since C++11)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/num_get/get&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 An implementation of `operator>>` for a user-defined type.
 
@@ -365,7 +365,7 @@ Run this code
         [std::cin](../../io/cin.html) >> b;
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/num_get/get&action=edit&section=7 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -383,8 +383,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 with `strtof`/`strtod`  
 [LWG 2381](https://cplusplus.github.io/LWG/issue2381) | C++11  | `do_get` did not parse 'p' and 'P' while [`strtod`](../../string/byte/strtof.html "cpp/string/byte/strtof") parsed them  | made 'p' and 'P' parsed   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/num_get/get&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [ operator>>](../../io/basic_istream/operator_gtgt.html "cpp/io/basic istream/operator gtgt") |  extracts formatted data   
-(public member function of `std::basic_istream<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_istream/dsc_operator_gtgt&action=edit)  
+(public member function of `std::basic_istream<CharT,Traits>`)   
 ---|---

@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 `[std::queue](../queue.html "cpp/container/queue")`
 
@@ -102,7 +102,7 @@ Tables
 [formatter<std::queue>](formatter.html "cpp/container/queue/formatter")(C++23)  
 [Deduction guides](deduction_guides.html "cpp/container/queue/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/queue/navbar_content&action=edit)
+
 
 void push( const value_type& value ); |  (1)  |   
 ---|---|---  
@@ -126,29 +126,29 @@ Pushes the given element value to the end of the queue.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/push&action=edit&section=T-1 "Template:cpp/container/push")] Parameters
+### Parameters
 
 value  |  \-  |  the value of the element to push   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/push&action=edit&section=T-2 "Template:cpp/container/push")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/push&action=edit&section=T-3 "Template:cpp/container/push")] Complexity
+### Complexity
 
 Equal to the complexity of Container::push_back. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/push&action=edit&section=T-4 "Template:cpp/container/push")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/push&action=edit&section=T-5 "Template:cpp/container/push")] See also
+### See also
 
 [ emplace](emplace.html "cpp/container/queue/emplace")(C++11) |  constructs element in-place at the end   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_emplace&action=edit)  
+(public member function)   
 ---|---  
 [ pop](pop.html "cpp/container/queue/pop") |  removes the first element   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_pop&action=edit)
+(public member function) 

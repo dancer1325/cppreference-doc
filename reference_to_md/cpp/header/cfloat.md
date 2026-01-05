@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,50 +194,50 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header was originally in the C standard library as [`<float.h>`](../../c/header/float.html "c/header/float"). 
 
 This header is part of the [type support](../utility/rtti.html "cpp/types") library, in particular, it is a part of the [C numeric limits interface](../types/climits.html "cpp/types/climits"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/cfloat&action=edit&section=1 "Edit section: Macros")] Macros
+### Macros
 
 FLT_RADIX |  the radix (integer base) used by the representation of all three floating-point types   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_FLT_RADIX&action=edit)  
+(macro constant)   
 ---|---  
 DECIMAL_DIG(C++11) |  conversion from long double to decimal with at least [DECIMAL_DIG](../types/climits.html) digits and back to long double is the identity conversion: this is the decimal precision required to serialize/deserialize a long double (see also [std::numeric_limits::max_digits10](../types/numeric_limits/max_digits10.html "cpp/types/numeric limits/max digits10"))   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_DECIMAL_DIG&action=edit)  
+(macro constant)   
 FLT_DECIMAL_DIGDBL_DECIMAL_DIGLDBL_DECIMAL_DIG(C++17) |  conversion from float/double/long double to decimal with at least [FLT_DECIMAL_DIG](../types/climits.html)/[DBL_DECIMAL_DIG](../types/climits.html)/[LDBL_DECIMAL_DIG](../types/climits.html) digits and back is the identity conversion: this is the decimal precision required to serialize/deserialize a floating-point value (see also [std::numeric_limits::max_digits10](../types/numeric_limits/max_digits10.html "cpp/types/numeric limits/max digits10")). Defined to at least 6, 10, and 10 respectively, or 9 for IEEE float and 17 for IEEE double.   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_fp_DECIMAL_DIG&action=edit)  
+(macro constant)   
 FLT_MINDBL_MINLDBL_MIN |  minimum normalized positive value of float, double and long double respectively   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_fp_MIN&action=edit)  
+(macro constant)   
 FLT_TRUE_MINDBL_TRUE_MINLDBL_TRUE_MIN(C++17) |  minimum positive value of float, double and long double respectively   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_fp_TRUE_MIN&action=edit)  
+(macro constant)   
 FLT_MAXDBL_MAXLDBL_MAX |  maximum finite value of float, double and long double respectively   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_fp_MAX&action=edit)  
+(macro constant)   
 FLT_EPSILONDBL_EPSILONLDBL_EPSILON |  difference between 1.0 and the next representable value for float, double and long double respectively   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_fp_EPSILON&action=edit)  
+(macro constant)   
 FLT_DIGDBL_DIGLDBL_DIG |  number of decimal digits that are guaranteed to be preserved in text → float/double/long double → text roundtrip without change due to rounding or overflow (see [std::numeric_limits::digits10](../types/numeric_limits/digits10.html "cpp/types/numeric limits/digits10") for explanation)   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_fp_DIG&action=edit)  
+(macro constant)   
 FLT_MANT_DIGDBL_MANT_DIGLDBL_MANT_DIG |  number of base [FLT_RADIX](../types/climits.html) digits that can be represented without losing precision for float, double and long double respectively   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_fp_MANT_DIG&action=edit)  
+(macro constant)   
 FLT_MIN_EXPDBL_MIN_EXPLDBL_MIN_EXP |  minimum negative integer such that [FLT_RADIX](../types/climits.html) raised by power one less than that integer is a normalized float, double and long double respectively   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_fp_MIN_EXP&action=edit)  
+(macro constant)   
 FLT_MIN_10_EXPDBL_MIN_10_EXPLDBL_MIN_10_EXP |  minimum negative integer such that 10 raised to that power is a normalized float, double and long double respectively   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_fp_MIN_10_EXP&action=edit)  
+(macro constant)   
 FLT_MAX_EXPDBL_MAX_EXPLDBL_MAX_EXP |  maximum positive integer such that [FLT_RADIX](../types/climits.html) raised by power one less than that integer is a representable finite float, double and long double respectively   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_fp_MAX_EXP&action=edit)  
+(macro constant)   
 FLT_MAX_10_EXPDBL_MAX_10_EXPLDBL_MAX_10_EXP |  maximum positive integer such that 10 raised to that power is a representable finite float, double and long double respectively   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_fp_MAX_10_EXP&action=edit)  
+(macro constant)   
 [ FLT_ROUNDS](../types/climits/FLT_ROUNDS.html "cpp/types/climits/FLT ROUNDS") |  default rounding mode of floating-point arithmetic   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_FLT_ROUNDS&action=edit)  
+(macro constant)   
 [ FLT_EVAL_METHOD](../types/climits/FLT_EVAL_METHOD.html "cpp/types/climits/FLT EVAL METHOD")(C++11) |  specifies in what precision all arithmetic operations are done   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_FLT_EVAL_METHOD&action=edit)  
+(macro constant)   
 FLT_HAS_SUBNORMDBL_HAS_SUBNORMLDBL_HAS_SUBNORM(C++17) |  specifies whether the type supports subnormal ([denormal](https://en.wikipedia.org/wiki/Denormal_number "enwiki:Denormal number")) numbers:  
 -1 – indeterminable, ​0​ – absent, 1 – present   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_fp_HAS_SUBNORM&action=edit)  
+(macro constant)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/cfloat&action=edit&section=2 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     #define FLT_ROUNDS           /* see definition */
@@ -281,7 +281,7 @@ FLT_HAS_SUBNORMDBL_HAS_SUBNORMLDBL_HAS_SUBNORM(C++17) |  specifies whether the t
     #define DBL_TRUE_MIN         /* see definition */
     #define LDBL_TRUE_MIN        /* see definition */
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/cfloat&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [C documentation](../../c/types/limits.html#Limits_of_floating-point_types "c/types/limits") for Limits of floating-point types  
 ---

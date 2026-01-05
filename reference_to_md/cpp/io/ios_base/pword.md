@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::ios_base`](../ios_base.html "cpp/io/ios base")
 
@@ -113,7 +113,7 @@ Member types
 [ios_base::event](event.html "cpp/io/ios base/event")  
 [ios_base::event_callback](event_callback.html "cpp/io/ios base/event callback")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/ios_base/navbar_content&action=edit)
+
 
 void*& pword( int index ); |  |   
 ---|---|---  
@@ -138,26 +138,26 @@ If the function fails (possibly caused by an allocation failure) and *this is a 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/ios_base/pword&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 index  |  \-  |  index value of the element   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/ios_base/pword&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 A reference to the element. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/ios_base/pword&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 May throw [std::ios_base::failure](failure.html "cpp/io/ios base/failure") when setting the badbit. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/ios_base/pword&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 If the pointers stored in `pword` require management, [register_callback()](register_callback.html "cpp/io/ios base/register callback") may be used to install handlers that execute deep copy or deallocation as needed. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/ios_base/pword&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/ios_base/xalloc_example&action=edit)
+
 
 Uses base class pword storage for runtime type identification of derived stream objects.
 
@@ -219,7 +219,7 @@ Output:
     wcout, wide-character test
     mywout, wide-character test [special handling for mystream]
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/ios_base/pword&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -232,10 +232,10 @@ until the next call of `copyfmt()`
 but `ios_base` does not provide such interface  | badbit is set by `basic_ios`  
 (if *this is its base class subobject)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/ios_base/pword&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ iword](iword.html "cpp/io/ios base/iword") |  resizes the private storage if necessary and access to the long element at the given index   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/ios_base/dsc_iword&action=edit)  
+(public member function)   
 ---|---  
 [ xalloc](xalloc.html "cpp/io/ios base/xalloc")[static] |  returns a program-wide unique integer that is safe to use as index to **`pword()`** and [`iword()`](iword.html "cpp/io/ios base/iword")   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/ios_base/dsc_xalloc&action=edit)
+(public static member function) 

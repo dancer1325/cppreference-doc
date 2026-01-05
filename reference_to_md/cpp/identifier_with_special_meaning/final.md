@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](../language/history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [Keywords](../keywords.html "cpp/keyword")
 
@@ -340,15 +340,15 @@ Identifiers with special meaning
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/keyword/navbar_content&action=edit)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/identifier_with_special_meaning/final&action=edit&section=1 "Edit section: Usage")] Usage
+
+### Usage
 
   * [`final`](../language/final.html "cpp/language/final") specifier 
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/identifier_with_special_meaning/final&action=edit&section=2 "Edit section: Example")] Example
+### Example
     
     
     struct b0 final {};
@@ -366,7 +366,7 @@ Identifiers with special meaning
         void f1(); // OK
     };
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/identifier_with_special_meaning/final&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
   * [`class`](../keyword/class.html "cpp/keyword/class"), [`struct`](../keyword/struct.html "cpp/keyword/struct"), [`union`](../keyword/union.html "cpp/keyword/union")
   * [`virtual`](../keyword/virtual.html "cpp/keyword/virtual"), [`override`](override.html "cpp/identifier with special meaning/override")

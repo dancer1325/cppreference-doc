@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::view_interface`](../view_interface.html "cpp/ranges/view interface")
 
@@ -240,7 +240,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
 [back](back.html "cpp/ranges/view interface/back")  
 [operator[]](operator_at.html "cpp/ranges/view interface/operator at")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/navbar_content&action=edit)
+
 
 constexpr auto size() requires [ranges::forward_range](../forward_range.html)<D> &&  
 [std::sized_sentinel_for](../../iterator/sized_sentinel_for.html)<[ranges::sentinel_t](../iterator_t.html)<D>,  
@@ -263,7 +263,7 @@ The default implementation of `size()` member function obtains the size of the r
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/view_interface/size&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 1) `_[to-unsigned-like](../../ranges.html#to-unsigned-like "cpp/ranges")_` ﻿([ranges::end](../end.html)(static_cast<D&>(this)) -  
 ` `[ranges::begin](../begin.html)(static_cast<D&>(this))).
@@ -271,7 +271,7 @@ The default implementation of `size()` member function obtains the size of the r
 2) `_[to-unsigned-like](../../ranges.html#to-unsigned-like "cpp/ranges")_` ﻿([ranges::end](../end.html)(static_cast<const D&>(this)) -  
 ` `[ranges::begin](../begin.html)(static_cast<const D&>(this))).
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/view_interface/size&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 Following derived types may use the default implementation of `size()`: 
 
@@ -290,7 +290,7 @@ Following types are derived from [std::ranges::view_interface](../view_interface
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/view_interface/size&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -298,12 +298,12 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 3646](https://cplusplus.github.io/LWG/issue3646) | C++20  | the default implementations of `size` functions returned a signed type  | they return unsigned type   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/view_interface/size&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ sizessize](../../iterator/size.html "cpp/iterator/size")(C++17)(C++20) |  returns the size of a container or array   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_size&action=edit)  
+(function template)   
 ---|---  
 [ ranges::size](../size.html "cpp/ranges/size")(C++20) |  returns an integer equal to the size of a range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_size&action=edit)  
+(customization point object)  
 [ ranges::ssize](../ssize.html "cpp/ranges/ssize")(C++20) |  returns a signed integer equal to the size of a range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_ssize&action=edit)
+(customization point object)

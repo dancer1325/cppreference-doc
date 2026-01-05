@@ -21,7 +21,7 @@
 [Removed symbols (Zombie names)](zombie_names.html "cpp/symbol index/zombie names")  
 [Exposition-only symbols](expos.html "cpp/symbol index/expos")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/symbol_index/navbar_content&action=edit)
+
 
 **`std::literals`**
 
@@ -31,7 +31,7 @@
 [std::literals::string_literals](string_literals.html "cpp/symbol index/string literals")(C++14)  
 [std::literals::string_view_literals](string_view_literals.html "cpp/symbol index/string view literals")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/symbol_index/literals/navbar_content&action=edit)
+
 
 This page tries to list all the symbols that are available from the [standard library](../standard_library.html "cpp/standard library") in the namespace std::literals. The symbols are written as follows: 
 
@@ -47,13 +47,13 @@ This page tries to list all the symbols that are available from the [standard li
   
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/literals&action=edit&section=2 "Edit section: C")] C
+### C
 
 ▶ [`chrono_literals`](chrono_literals.html "cpp/symbol index/chrono literals") (since C++14)  
 ▶ [`complex_literals`](complex_literals.html "cpp/symbol index/complex literals") (since C++14)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/literals&action=edit&section=3 "Edit section: S")] S
+### S
 
 ▶ [`string_literals`](string_literals.html "cpp/symbol index/string literals") (since C++14)  
 ▶ [`string_view_literals`](string_view_literals.html "cpp/symbol index/string view literals") (since C++17)  

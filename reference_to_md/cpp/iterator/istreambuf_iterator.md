@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](empty.html "cpp/iterator/empty")(C++17)  
 [data](data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 **`std::istreambuf_iterator`**
 
@@ -207,7 +207,7 @@ Member functions
 Non-member functions  
 [operator==operator!=](istreambuf_iterator/operator_cmp.html "cpp/iterator/istreambuf iterator/operator cmp")(until C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/istreambuf_iterator/navbar_content&action=edit)
+
 
 Defined in header `[<iterator>](../header/iterator.html "cpp/header/iterator")` |  |   
 ---|---|---  
@@ -240,7 +240,7 @@ The default-constructed `std::istreambuf_iterator` is known as the _end-of-strea
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/iterator/inherit&action=edit&section=T-1 "Template:cpp/iterator/iterator/inherit")] Member types
+### Member types
 
 Member type  |  Definition   
 ---|---  
@@ -263,27 +263,27 @@ Member types `iterator_category`, `value_type`, `difference_type`, `pointer` and
   
 The member type `pointer` is usually `CharT*` (see [below](istreambuf_iterator.html#Notes)). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/istreambuf_iterator&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](istreambuf_iterator/istreambuf_iterator.html "cpp/iterator/istreambuf iterator/istreambuf iterator") |  constructs a new `istreambuf_iterator`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/istreambuf_iterator/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 (destructor)(implicitly declared) |  destructs an `istreambuf_iterator`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/istreambuf_iterator/dsc_destructor&action=edit)  
+(public member function)   
 [ operator*](istreambuf_iterator/operator*.html "cpp/iterator/istreambuf iterator/operator*") |  obtains a copy of the current character   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/istreambuf_iterator/dsc_operator*&action=edit)  
+(public member function)   
 [ operator++operator++(int)](istreambuf_iterator/operator_arith.html "cpp/iterator/istreambuf iterator/operator arith") |  advances the iterator   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/istreambuf_iterator/dsc_operator_arith&action=edit)  
+(public member function)   
 [ equal](istreambuf_iterator/equal.html "cpp/iterator/istreambuf iterator/equal") |  tests if both `istreambuf_iterator`s are end-of-stream or if both are valid   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/istreambuf_iterator/dsc_equal&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/istreambuf_iterator&action=edit&section=2 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ operator==operator!=](istreambuf_iterator/operator_cmp.html "cpp/iterator/istreambuf iterator/operator cmp")(removed in C++20) |  compares two `istreambuf_iterator`s   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/istreambuf_iterator/dsc_operator_cmp&action=edit)  
+(function template)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/istreambuf_iterator&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 The resolution of [LWG issue 659](https://cplusplus.github.io/LWG/issue659) introduced operator->. It is expected that given an `std::istreambuf_iterator` i, the expressions (*i).m and i->m have the same effect. 
 
@@ -291,7 +291,7 @@ However, the resolution does not provide a formal specification of its behavior.
 
 The resolution of [LWG issue 659](https://cplusplus.github.io/LWG/issue659) also made the member type `pointer` unspecified in order to allow `operator->` to return a proxy. This is to allow `operator->` to compile when `CharT` is not a class type. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/istreambuf_iterator&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -340,7 +340,7 @@ Output:
     i1 returns 'c'
     i2 returns 'c'
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/istreambuf_iterator&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -351,10 +351,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 2\. made unspecified   
 [LWG 2790](https://cplusplus.github.io/LWG/issue2790) | C++98  | the operator-> added by [LWG issue 659](https://cplusplus.github.io/LWG/issue659) was not useful  | removed   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/istreambuf_iterator&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ ostreambuf_iterator](ostreambuf_iterator.html "cpp/iterator/ostreambuf iterator") |  output iterator that writes to [std::basic_streambuf](../io/basic_streambuf.html "cpp/io/basic streambuf")   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_ostreambuf_iterator&action=edit)  
+(class template)   
 ---|---  
 [ istream_iterator](istream_iterator.html "cpp/iterator/istream iterator") |  input iterator that reads from [std::basic_istream](../io/basic_istream.html "cpp/io/basic istream")   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_istream_iterator&action=edit)
+(class template) 

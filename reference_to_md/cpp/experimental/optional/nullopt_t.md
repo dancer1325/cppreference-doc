@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Library fundamentals](../memory.html "cpp/experimental/lib extensions")
 
@@ -75,7 +75,7 @@
 [Type-erased and polymorphic allocators](../memory.html "cpp/experimental/memory")  
 [Variable templates for type traits](../type_trait_variable_templates.html "cpp/experimental/type trait variable templates")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions/navbar_content&action=edit)
+
 
 [`std::experimental::optional`](../optional.html "cpp/experimental/optional")
 
@@ -105,7 +105,7 @@ Helper objects
 [nullopt](nullopt.html "cpp/experimental/optional/nullopt")  
 [in_place](in_place.html "cpp/experimental/optional/in place")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/optional/navbar_content&action=edit)
+
 
 Defined in header `[<experimental/optional>](../../header/experimental/optional.html "cpp/header/experimental/optional")` |  |   
 ---|---|---  
@@ -118,7 +118,7 @@ struct nullopt_t; |  |  (library fundamentals TS)
 
 It must have a `constexpr` constructor that takes some implementation-defined literal type. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/optional/nullopt_t&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 `nullopt_t` is not [DefaultConstructible](../../named_req/DefaultConstructible.html "cpp/named req/DefaultConstructible") to support both op = {}; and op = nullopt; as the syntax for disengaging an optional object. 
 
@@ -130,8 +130,8 @@ A possible implementation of this class is
         constexpr nullopt_t(int) {}
     };
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/optional/nullopt_t&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ nullopt](../../utility/optional/nullopt.html "cpp/utility/optional/nullopt")(C++17) |  an object of type `nullopt_t`   
-(constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_nullopt&action=edit)  
+(constant)   
 ---|---

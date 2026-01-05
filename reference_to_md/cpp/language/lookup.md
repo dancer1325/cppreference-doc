@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Basic Concepts](basics.html "cpp/language/basic concepts")
 
@@ -249,7 +249,7 @@ Miscellaneous
 [Modules](modules.html "cpp/language/modules") (C++20)  
 [Contracts](contracts.html "cpp/language/contracts") (C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/basics/navbar_content&action=edit)
+
 
 Name lookup is the procedure by which a [name](name.html "cpp/language/name"), when encountered in a program, is associated with the [declaration](declarations.html "cpp/language/declarations") that introduced it. 
 
@@ -266,7 +266,7 @@ For function and function template names, name lookup can associate multiple dec
 
 For all other names (variables, namespaces, classes, etc), name lookup can associate multiple declarations only if they declare the same [entity](basics.html "cpp/language/basic concepts"), otherwise it must produce a single declaration in order for the program to compile. Lookup for a name in a scope finds all declarations of that name, with one exception, known as the "struct hack" or "type/non-type hiding": Within the same scope, some occurrences of a name may refer to a declaration of a class/struct/union/enum that is not a typedef, while all other occurrences of the same name either all refer to the same variable, non-static data member, or enumerator, or they all refer to possibly overloaded function or function template names. In this case, there is no error, but the type name is hidden from lookup (the code must use [elaborated type specifier](elaborated_type_specifier.html "cpp/language/elaborated type specifier") to access it). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/lookup&action=edit&section=1 "Edit section: Types of lookup")] Types of lookup
+### Types of lookup
 
 If the name appears immediately to the right of the scope resolution operator `**::**` or possibly after `**::**` followed by the disambiguating keyword `template`, see 
 
@@ -286,7 +286,7 @@ Otherwise, see
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/lookup&action=edit&section=2 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -296,7 +296,7 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [CWG 2218](https://cplusplus.github.io/CWG/issues/2218.html) | C++98  | lookup for non-function (template) names could not associate  
 multiple declarations, even if they declare the same entity  | allowed   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/lookup&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
   * [Scope](scope.html "cpp/language/scope")
   * [Argument-dependent lookup](adl.html "cpp/language/adl") (ADL) 

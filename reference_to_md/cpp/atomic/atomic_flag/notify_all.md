@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -175,7 +175,7 @@
 [atomic_flag_notify_one](../atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::atomic_flag`](../atomic_flag.html "cpp/atomic/atomic flag")
 
@@ -190,7 +190,7 @@ Member functions
 [atomic_flag::notify_one](notify_one.html "cpp/atomic/atomic flag/notify one")(C++20)  
 **atomic_flag::notify_all**(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic_flag/navbar_content&action=edit)
+
 
 void notify_all() noexcept; |  (1) | (since C++20)   
 (constexpr since C++26)  
@@ -202,22 +202,22 @@ Performs atomic notifying operations.
 
 Unblocks all threads blocked in atomic waiting operations (i.e. wait()) on *this, if there are any; otherwise does nothing. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/notify_all&action=edit&section=T-1 "Template:cpp/atomic/atomic/notify all")] Notes
+### Notes
 
 This form of change-detection is often more efficient than simple polling or pure spinlocks. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/notify_all&action=edit&section=T-2 "Template:cpp/atomic/atomic/notify all")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/notify_all&action=edit&section=T-4 "Template:cpp/atomic/atomic/notify all")] See also
+### See also
 
 [ wait](wait.html "cpp/atomic/atomic flag/wait")(C++20) |  blocks the thread until notified and the atomic value changes   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_wait&action=edit)  
+(public member function)   
 ---|---  
 [ atomic_flag_waitatomic_flag_wait_explicit](../atomic_flag_wait.html "cpp/atomic/atomic flag wait")(C++20)(C++20) |  blocks the thread until notified and the flag changes   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/dsc_atomic_flag_wait&action=edit)  
+(function)   
 [ atomic_flag_notify_one](../atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20) |  notifies a thread blocked in atomic_flag_wait   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/dsc_atomic_flag_notify_one&action=edit)
+(function) 

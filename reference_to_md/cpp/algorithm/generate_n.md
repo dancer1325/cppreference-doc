@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](ranges/copy.html "cpp/algorithm/ra
 [uninitialized_default_construct_n](../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -332,7 +332,7 @@ If `Size` is not [convertible](../language/implicit_cast.html "cpp/language/impl
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/generate_n&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first  |  \-  |  the beginning of the range of elements to generate   
 ---|---|---  
@@ -349,15 +349,15 @@ Type requirements
 -`OutputIt` must meet the requirements of [LegacyOutputIterator](../named_req/OutputIterator.html "cpp/named req/OutputIterator").   
 -`ForwardIt` must meet the requirements of [LegacyForwardIterator](../named_req/ForwardIterator.html "cpp/named req/ForwardIterator").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/generate_n&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Iterator one past the last element assigned if count > 0, first otherwise. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/generate_n&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Exactly [std::max](max.html)(0, count) invocations of g() and assignments. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/generate_n&action=edit&section=4 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 The overload with a template parameter named `ExecutionPolicy` reports errors as follows: 
 
@@ -366,7 +366,7 @@ The overload with a template parameter named `ExecutionPolicy` reports errors as
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/generate_n&action=edit&section=5 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     template<class OutputIt, class Size, class Generator>
@@ -381,7 +381,7 @@ The overload with a template parameter named `ExecutionPolicy` reports errors as
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/generate_n&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -405,7 +405,7 @@ Output:
     
     3499211612 581869302 3890346734 3586334585 545404204
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/generate_n&action=edit&section=7 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -417,12 +417,12 @@ if count is non-positive
 [LWG 865](https://cplusplus.github.io/LWG/issue865) | C++98  | the location of the first element following  
 the generation range was not returned  | returned   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/generate_n&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [ fill_n](fill_n.html "cpp/algorithm/fill n") |  copy-assigns the given value to N elements in a range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_fill_n&action=edit)  
+(function template)   
 ---|---  
 [ generate](generate.html "cpp/algorithm/generate") |  assigns the results of successive function calls to every element in a range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_generate&action=edit)  
+(function template)   
 [ ranges::generate_n](ranges/generate_n.html "cpp/algorithm/ranges/generate n")(C++20) |  saves the result of N applications of a function  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_generate_n&action=edit)
+(algorithm function object)

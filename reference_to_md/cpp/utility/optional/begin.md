@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::optional`](../optional.html "cpp/utility/optional")
 
@@ -167,7 +167,7 @@ Common vocabulary types
 [nullopt](nullopt.html "cpp/utility/optional/nullopt")  
 [in_place](../in_place.html "cpp/utility/in place")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/navbar_content&action=edit)
+
 
 constexpr iterator begin() noexcept; |  |  (since C++26)  
 ---|---|---  
@@ -189,21 +189,21 @@ If *this contains a value, returns an iterator to the contained value. Otherwise
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/begin&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 Iterator to the contained value if has_value() is true. Otherwise, a past-the-end iterator. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/begin&action=edit&section=2 "Edit section: Complexity")] Complexity
+### Complexity
 
 Constant. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/begin&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../feature_test.html "cpp/utility/feature test") macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_optional_range_support`](../../experimental/feature_test.html#cpp_lib_optional_range_support "cpp/feature test") | [`202406L`](../../compiler_support/26.html#cpp_lib_optional_range_support_202406L "cpp/compiler support/26") | (C++26) | Range support for `std::optional`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/begin&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -238,10 +238,10 @@ Output:
     'some' has a value of 42
     'many' has a value of [0, 1, 2]
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/begin&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ end](end.html "cpp/utility/optional/end")(C++26) |  returns an iterator to the end   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/dsc_end&action=edit)  
+(public member function)   
 ---|---
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

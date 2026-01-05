@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Type support](../../utility/rtti.html "cpp/types")
 
@@ -161,7 +161,7 @@ Runtime type information
 ---  
 [bad_cast](../bad_cast.html "cpp/types/bad cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/navbar_content&action=edit)
+
 
 [`std::numeric_limits`](../numeric_limits.html "cpp/types/numeric limits")
 
@@ -204,7 +204,7 @@ Helper types
 [float_round_style](float_round_style.html "cpp/types/numeric limits/float round style")  
 [float_denorm_style](float_denorm_style.html "cpp/types/numeric limits/float denorm style")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/navbar_content&action=edit)
+
 
 static T signaling_NaN() throw(); |  | (until C++11)  
 ---|---|---  
@@ -223,7 +223,7 @@ Returns the special value "signaling [not-a-number](https://en.wikipedia.org/wik
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/numeric_limits/signaling_NaN&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 `T` |  [std::numeric_limits](../numeric_limits.html)<T>::signaling_NaN()  
 ---|---  
@@ -248,13 +248,13 @@ float |  implementation-defined (may be FLT_SNAN)
 double |  implementation-defined (may be DBL_SNAN)   
 long double |  implementation-defined (may be LDBL_SNAN)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/numeric_limits/signaling_NaN&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 A NaN never compares equal to itself. Copying a NaN is not required, by IEEE-754, to preserve its bit representation (sign and [payload](../../numeric/math/nan.html "cpp/numeric/math/nan")), though most implementation do. 
 
 When a signaling NaN is used as an argument to an arithmetic expression, the appropriate floating-point exception may be raised and the NaN is "quieted", that is, the expression returns a quiet NaN. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/numeric_limits/signaling_NaN&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Demonstrates the use of a signaling NaN to raise a floating-point exception:
 
@@ -304,12 +304,12 @@ Output:
     After the quieted NaN was multiplied by 2, no exceptions are raised
     The result is nan
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/numeric_limits/signaling_NaN&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ has_signaling_NaN](has_signaling_NaN.html "cpp/types/numeric limits/has signaling NaN")[static] |  identifies floating-point types that can represent the special value "signaling not-a-number" (NaN)   
-(public static member constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/dsc_has_signaling_NaN&action=edit)  
+(public static member constant)   
 ---|---  
 [ quiet_NaN](quiet_NaN.html "cpp/types/numeric limits/quiet NaN")[static] |  returns a quiet NaN value of the given floating-point type   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/dsc_quiet_NaN&action=edit)  
+(public static member function)   
 [ isnan](../../numeric/math/isnan.html "cpp/numeric/math/isnan")(C++11) |  checks if the given number is NaN   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_isnan&action=edit)
+(function) 

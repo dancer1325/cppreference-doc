@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Metaprogramming library](../meta.html "cpp/meta")
 
@@ -167,7 +167,7 @@ Type transformations
 Compile-time integer sequences  
 [integer_sequence](../utility/integer_sequence.html "cpp/utility/integer sequence")(C++14)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/meta/navbar_content&action=edit)
+
 
 Defined in header `[<type_traits>](../header/type_traits.html "cpp/header/type traits")` |  |   
 ---|---|---  
@@ -209,7 +209,7 @@ If the program adds specializations for any of the templates described on this p
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_invocable&action=edit&section=1 "Edit section: Helper variable templates")] Helper variable templates
+### Helper variable templates
 
 Defined in header `[<type_traits>](../header/type_traits.html "cpp/header/type traits")` |  |   
 ---|---|---  
@@ -227,7 +227,7 @@ inline constexpr bool is_nothrow_invocable_r_v =
 std::is_nothrow_invocable_r<R, Fn, ArgTypes...>::value; |  (4)  |  (since C++17)  
 | |   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/integral_constant/inherit2&action=edit)
+
 
 ##  Inherited from [ std::integral_constant](integral_constant.html "cpp/types/integral constant")
 
@@ -252,13 +252,13 @@ Type  |  Definition
 `value_type` |  bool  
 `type` |  [std::integral_constant](integral_constant.html)<bool, value>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_invocable&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../utility/feature_test.html "cpp/utility/feature test") macro  | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_is_invocable`](../experimental/feature_test.html#cpp_lib_is_invocable "cpp/feature test") | [`201703L`](../compiler_support/17.html#cpp_lib_is_invocable_201703L "cpp/compiler support/17") | (C++17) | `std::is_invocable`, [std::invoke_result](result_of.html "cpp/types/result of")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_invocable&action=edit&section=3 "Edit section: Examples")] Examples
+### Examples
 
 Run this code
     
@@ -282,16 +282,16 @@ Run this code
         static_assert(not std::is_invocable_r_v<int(*)(), decltype(func2), void>);
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_invocable&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ invokeinvoke_r](../utility/functional/invoke.html "cpp/utility/functional/invoke")(C++17)(C++23) |  invokes any [Callable](../named_req/Callable.html "cpp/named req/Callable") object with given arguments and possibility to specify return type(since C++23)   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_invoke&action=edit)  
+(function template)   
 ---|---  
 [ result_ofinvoke_result](result_of.html "cpp/types/result of")(C++11)(removed in C++20)(C++17) |  deduces the result type of invoking a callable object with a set of arguments   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_result_of&action=edit)  
+(class template)   
 [ declval](../utility/declval.html "cpp/utility/declval")(C++11) |  obtains a reference to an object of the template type argument for use in an unevaluated context   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_declval&action=edit)  
+(function template)   
 [ invocableregular_invocable](../concepts/invocable.html "cpp/concepts/invocable")(C++20) |  specifies that a callable type can be invoked with a given set of argument types   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_invocable&action=edit)
+(concept) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

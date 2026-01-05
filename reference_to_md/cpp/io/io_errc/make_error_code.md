@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::io_errc`](../io_errc.html "cpp/io/io errc")
 
@@ -88,7 +88,7 @@ Non-member functions
 Helper classes  
 [is_error_code_enum<std::io_errc>](is_error_code_enum.html "cpp/io/io errc/is error code enum")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/io_errc/navbar_content&action=edit)
+
 
 Defined in header `[<ios>](../../header/ios.html "cpp/header/ios")` |  |   
 ---|---|---  
@@ -110,16 +110,16 @@ This function is called by the constructor of [std::error_code](../../error/erro
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/io_errc/make_error_code&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 e  |  \-  |  error code number   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/io_errc/make_error_code&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 A value of type [std::error_code](../../error/error_code.html "cpp/error/error code") that holds the error code number from e associated with the error category "iostream". 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/io_errc/make_error_code&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -144,7 +144,7 @@ Output:
     
     Error code from io_errc::stream has category iostream
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/io_errc/make_error_code&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -152,14 +152,14 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 2087](https://cplusplus.github.io/LWG/issue2087) | C++11  | `make_error_code(io_errc)` was not declared noexcept | declared noexcept  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/io_errc/make_error_code&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ error_code](../../error/error_code.html "cpp/error/error code")(C++11) |  holds a platform-dependent error code   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_error_code&action=edit)  
+(class)   
 ---|---  
 [ io_errc](../io_errc.html "cpp/io/io errc")(C++11) |  the IO stream error codes   
-(enum) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_io_errc&action=edit)  
+(enum)   
 [ make_error_code(std::errc)](../../error/errc/make_error_code.html "cpp/error/errc/make error code")(C++11) |  creates error code value for `errc` enum e   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/errc/dsc_make_error_code&action=edit)  
+(function)   
 [ make_error_code(std::future_errc)](../../thread/future_errc/make_error_code.html "cpp/thread/future errc/make error code")(C++11) |  constructs a future error code   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/future_errc/dsc_make_error_code&action=edit)
+(function) 

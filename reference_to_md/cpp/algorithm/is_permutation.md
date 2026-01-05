@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](ranges/copy.html "cpp/algorithm/ra
 [uninitialized_default_construct_n](../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -349,7 +349,7 @@ If the comparison function is not an [equivalence relation](https://en.wikipedia
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/is_permutation&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first1, last1  |  \-  |  the pair of iterators defining the first [range](../iterator.html#Ranges "cpp/iterator") of elements to compare   
 ---|---|---  
@@ -360,11 +360,11 @@ The types Type1 and Type2 must be such that objects of types InputIt1 and InputI
 Type requirements   
 -`ForwardIt1, ForwardIt2` must meet the requirements of [LegacyForwardIterator](../named_req/ForwardIterator.html "cpp/named req/ForwardIterator").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/is_permutation&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 true if the range `[`first1`, `last1`)` is a permutation of the range `[`first2`, `last2`)`, false otherwise. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/is_permutation&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Given \\(\scriptsize N\\)N as [std::distance](../iterator/distance.html)(first1, last1): 
 
@@ -384,7 +384,7 @@ Otherwise:
 4) Exactly \\(\scriptsize N\\)N applications of the predicate p if the two ranges are equal, otherwise \\(\scriptsize O(N^2)\\)O(N2  
 ) applications in the worst case.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/is_permutation&action=edit&section=4 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     template<class ForwardIt1, class ForwardIt2>
@@ -414,11 +414,11 @@ Otherwise:
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/is_permutation&action=edit&section=5 "Edit section: Note")] Note
+### Note
 
 The `std::is_permutation` can be used in _testing_ , namely to check the correctness of rearranging algorithms (e.g. sorting, shuffling, partitioning). If `x` is an original range and `y` is a _permuted_ range then std::is_permutation(x, y) == true means that `y` consist of _"the same"_ elements, maybe staying at other positions. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/is_permutation&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -453,14 +453,14 @@ Output:
     { 3 5 4 1 2 } is a permutation of { 1 2 3 4 5 }: true
     { 3 5 4 1 1 } is a permutation of { 1 2 3 4 5 }: false
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/is_permutation&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ next_permutation](next_permutation.html "cpp/algorithm/next permutation") |  generates the next greater lexicographic permutation of a range of elements   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_next_permutation&action=edit)  
+(function template)   
 ---|---  
 [ prev_permutation](prev_permutation.html "cpp/algorithm/prev permutation") |  generates the next smaller lexicographic permutation of a range of elements   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_prev_permutation&action=edit)  
+(function template)   
 [ equivalence_relation](../concepts/equivalence_relation.html "cpp/concepts/equivalence relation")(C++20) |  specifies that a [`relation`](../concepts/relation.html "cpp/concepts/relation") imposes an equivalence relation   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_equivalence_relation&action=edit)  
+(concept)   
 [ ranges::is_permutation](ranges/is_permutation.html "cpp/algorithm/ranges/is permutation")(C++20) |  determines if a sequence is a permutation of another sequence  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_is_permutation&action=edit)
+(algorithm function object)

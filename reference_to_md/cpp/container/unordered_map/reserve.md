@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::unordered_map`](../unordered_map.html "cpp/container/unordered map")
 
@@ -139,7 +139,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/unordered map/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/unordered_map/navbar_content&action=edit)
+
 
 void reserve( size_type count ); |  |  (since C++11)  
 ---|---|---  
@@ -157,21 +157,21 @@ Sets the number of buckets to the number needed to accommodate at least count el
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/reserve_unord&action=edit&section=T-1 "Template:cpp/container/reserve unord")] Parameters
+### Parameters
 
 count  |  \-  |  new capacity of the container   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/reserve_unord&action=edit&section=T-2 "Template:cpp/container/reserve unord")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/reserve_unord&action=edit&section=T-3 "Template:cpp/container/reserve unord")] Complexity
+### Complexity
 
 Average case linear in the size of the container, worst case quadratic. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/reserve_unord&action=edit&section=T-4 "Template:cpp/container/reserve unord")] See also
+### See also
 
 [ rehash](rehash.html "cpp/container/unordered map/rehash") |  reserves at least the specified number of buckets and regenerates the hash table   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_rehash&action=edit)  
+(public member function)   
 ---|---

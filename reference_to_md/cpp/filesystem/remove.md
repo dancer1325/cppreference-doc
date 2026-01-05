@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Filesystem library](../filesystem.html "cpp/filesystem")
 
@@ -100,7 +100,7 @@ filesystem::symlink_status](status.html "cpp/filesystem/status")
 [filesystem::is_socket](is_socket.html "cpp/filesystem/is socket")  
 [filesystem::is_symlink](is_symlink.html "cpp/filesystem/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/navbar_content&action=edit)
+
 
 Defined in header `[<filesystem>](../header/filesystem.html "cpp/header/filesystem")` |  |   
 ---|---|---  
@@ -127,19 +127,19 @@ bool remove( const [std::filesystem::path](path.html)& p, [std::error_code](../e
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/remove&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 p  |  \-  |  path to delete   
 ---|---|---  
 ec  |  \-  |  out-parameter for error reporting in the non-throwing overload.   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/remove&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1,2) true if the file was deleted, false if it did not exist. The overload that takes `error_code&` argument returns false on errors.
 
 3,4) Returns the number of files and directories that were deleted (which may be zero if p did not exist to begin with). The overload that takes `error_code&` argument returns static_cast<[std::uintmax_t](../types/integer.html)>(-1) on error.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/remove&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Any overload not marked `noexcept` may throw [std::bad_alloc](../memory/new/bad_alloc.html "cpp/memory/new/bad alloc") if memory allocation fails.  
 
@@ -148,13 +148,13 @@ Any overload not marked `noexcept` may throw [std::bad_alloc](../memory/new/bad_
 
 2,4) Sets a [std::error_code](../error/error_code.html)& parameter to the OS API error code if an OS API call fails, and executes ec.[`clear`](../error/error_code/clear.html "cpp/error/error code/clear")() if no errors occur.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/remove&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 On POSIX systems, this function typically calls [`unlink`](https://pubs.opengroup.org/onlinepubs/9699919799/functions/unlink.html) and [`rmdir`](https://pubs.opengroup.org/onlinepubs/9699919799/functions/rmdir.html) as needed, on Windows [`DeleteFileW`](https://learn.microsoft.com/en-us/windows/win32/api/fileapi/nf-fileapi-deletefilew) and [`RemoveDirectoryW`](https://learn.microsoft.com/en-us/windows/win32/api/fileapi/nf-fileapi-removedirectoryw). 
 
 If p did not exist, this function returns false and does not report an error. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/remove&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -188,7 +188,7 @@ Possible output:
     remove(): false
     remove_all(): 2 files or directories
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/remove&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -196,8 +196,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 3014](https://cplusplus.github.io/LWG/issue3014) | C++17  | `error_code` overload of `remove_all` marked noexcept but can allocate memory  | noexcept removed   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/remove&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ remove](../io/c/remove.html "cpp/io/c/remove") |  erases a file   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_remove&action=edit)  
+(function)   
 ---|---

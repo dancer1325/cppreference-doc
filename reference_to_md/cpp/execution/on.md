@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Execution control library](../experimental/execution.html "cpp/execution")
 
@@ -155,7 +155,7 @@ schedule_result_t](schedule.html "cpp/execution/schedule")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/execution/navbar_content&action=edit)
+
 
 Defined in header `[<execution>](../header/execution.html "cpp/header/execution")` |  |   
 ---|---|---  
@@ -163,19 +163,19 @@ execution::sender auto on( execution::scheduler auto sched,
 execution::sender auto snd ); |  |  (since C++26)  
 | |   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/execution/on&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 sched  |  \-  |  provides execution agent on which the sender will be executed   
 ---|---|---  
 snd  |  \-  |  work to be executed on the execution resource associated with sched   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/execution/on&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Returns a sender which, when started, will start the provided sender on an execution agent belonging to the execution resource associated with the provided scheduler. 
 
 The returned sender has no completion schedulers. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/execution/on&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

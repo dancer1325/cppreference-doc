@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::forward_list`](../forward_list.html "cpp/container/forward list")
 
@@ -128,7 +128,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/forward list/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/forward_list/navbar_content&action=edit)
+
 
 reference front(); |  (1) | (since C++11)   
 (constexpr since C++26)  
@@ -159,19 +159,19 @@ If [empty()](empty.html "cpp/container/forward list/empty") is true:
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/front&action=edit&section=T-1 "Template:cpp/container/front")] Return value
+### Return value
 
 Reference to the first element. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/front&action=edit&section=T-2 "Template:cpp/container/front")] Complexity
+### Complexity
 
 Constant. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/front&action=edit&section=T-3 "Template:cpp/container/front")] Notes
+### Notes
 
 For a container c, the expression c.front() is equivalent to *c.begin(). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/front&action=edit&section=T-4 "Template:cpp/container/front")] Example
+### Example
 
 The following code uses `front` to display the first element of a [std::forward_list](../forward_list.html)<char>:
 
@@ -187,10 +187,10 @@ Run this code
         [assert](../../error/assert.html)(letters.front() == 'a');
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/front&action=edit&section=T-5 "Template:cpp/container/front")] See also
+### See also
 
 [ before_begincbefore_begin](before_begin.html "cpp/container/forward list/before begin") |  returns an iterator to the element before beginning   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_before_begin&action=edit)  
+(public member function)   
 ---|---  
 [ begincbegin](begin.html "cpp/container/forward list/begin") |  returns an iterator to the beginning   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_begin&action=edit)
+(public member function) 

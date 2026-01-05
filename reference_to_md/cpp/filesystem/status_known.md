@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Filesystem library](../filesystem.html "cpp/filesystem")
 
@@ -100,7 +100,7 @@ filesystem::symlink_status](status.html "cpp/filesystem/status")
 [filesystem::is_socket](is_socket.html "cpp/filesystem/is socket")  
 [filesystem::is_symlink](is_symlink.html "cpp/filesystem/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/navbar_content&action=edit)
+
 
 Defined in header `[<filesystem>](../header/filesystem.html "cpp/header/filesystem")` |  |   
 ---|---|---  
@@ -119,25 +119,25 @@ Checks if the given file status is known, equivalent to s.type() != file_type::n
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/status_known&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 s  |  \-  |  file status to check   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/status_known&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 true if the given file status is a known file status. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/status_known&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Despite the name, the function checks for the file status of [file_type::none](file_type.html "cpp/filesystem/file type") (meaning an error occurred), not [file_type::unknown](file_type.html "cpp/filesystem/file type") (meaning file exists, but its type cannot be determined). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/status_known&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ statussymlink_status](status.html "cpp/filesystem/status")(C++17)(C++17) |  determines file attributes  
 determines file attributes, checking the symlink target   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_status&action=edit)  
+(function)   
 ---|---  
 [ statussymlink_status](directory_entry/status.html "cpp/filesystem/directory entry/status") |  status of the file designated by this directory entry;  
 status of the file/symlink designated by this directory entry   
-(public member function of `std::filesystem::directory_entry`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/directory_entry/dsc_status&action=edit)
+(public member function of `std::filesystem::directory_entry`) 

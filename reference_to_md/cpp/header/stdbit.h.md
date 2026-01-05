@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header was originally in the C standard library ([`<stdbit.h>`](../../c/header/stdbit.html "c/header/stdbit")). 
 
@@ -226,7 +226,7 @@ Reason: add descriptors for functions and constants
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/stdbit.h&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     #define __STDC_VERSION_STDBIT_H__ 202311L
@@ -347,7 +347,7 @@ Reason: add descriptors for functions and constants
     template<class T>
     T stdc_bit_ceil(T value);
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/stdbit.h&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
-[ <bit>](bit.html "cpp/header/bit")(C++20) |  [Bit manipulation](../numeric.html#Bit_manipulation_.28since_C.2B.2B20.29 "cpp/numeric") functions[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/dsc_bit&action=edit)  
+[ <bit>](bit.html "cpp/header/bit")(C++20) |  [Bit manipulation](../numeric.html#Bit_manipulation_.28since_C.2B.2B20.29 "cpp/numeric") functions  
 ---|---

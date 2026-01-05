@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [Declarations](declarations.html "cpp/language/declarations")
 
@@ -280,7 +280,7 @@ Other declarations
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/declarations/navbar_content&action=edit)
+
 
 [ Expressions](expressions.html "cpp/language/expressions")
 
@@ -349,7 +349,7 @@ Conversions
 [`dynamic_cast`](dynamic_cast.html "cpp/language/dynamic cast")  
 [`reinterpret_cast`](reinterpret_cast.html "cpp/language/reinterpret cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/expressions/navbar_content&action=edit)
+
 
 [ Templates](templates.html "cpp/language/templates")
 
@@ -373,7 +373,7 @@ Conversions
 [Constraints and concepts](constraints.html "cpp/language/constraints") (C++20)  
 [requires expression](requires.html "cpp/language/requires") (C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/templates/navbar_content&action=edit)
+
 
 Accesses the element of a [pack](parameter_pack.html "cpp/language/pack") at a specified index. 
 
@@ -389,7 +389,7 @@ Accesses the element of a [pack](parameter_pack.html "cpp/language/pack") at a s
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/pack_indexing&action=edit&section=1 "Edit section: Syntax")] Syntax  
+### Syntax  
   
 ---  
 id-expression `**...[**` expression `**]**` |  (1)  |   
@@ -404,7 +404,7 @@ typedef-name |  \-  |  an [identifier](name.html "cpp/language/identifiers") or 
 id-expression |  \-  |  an [id-expression](expressions.html#Primary_expressions "cpp/language/expressions") that names a pack   
 expression |  \-  |  a [converted constant expression](constant_expression.html "cpp/language/constant expression") I of type [std::size_t](../types/size_t.html) designated as index where I is within the range `[`​0​`, `sizeof...(P)`)` for some pack P in pack indexing   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/pack_indexing&action=edit&section=2 "Edit section: Explanation")] Explanation
+### Explanation
 
 Pack indexing is a _pack expansion_ of the unexpanded pack followed by an ellipsis and index inside the subscript. There are two kinds of pack indexing: pack indexing expression and pack indexing specifier. 
 
@@ -435,7 +435,7 @@ Indexing a pack of template template parameters is not possible.
     using B = Temps<>...[0]; // error: 'Temps<>' doesn't denote pack name 
                              // although it is a simple-template-id
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/pack_indexing&action=edit&section=3 "Edit section: Pack indexing expression")] Pack indexing expression  
+### Pack indexing expression  
   
 ---  
 id-expression `**...[**` expression `**]**` |  |   
@@ -522,7 +522,7 @@ Applying [`decltype`](decltype.html "cpp/language/decltype") to pack indexing ex
         }(3.14);
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/pack_indexing&action=edit&section=4 "Edit section: Pack indexing specifier")] Pack indexing specifier  
+### Pack indexing specifier  
   
 ---  
 typedef-name `**...[**` expression `**]**` |  |   
@@ -565,7 +565,7 @@ Pack indexing specifier can be used in function or constructor parameter list to
     // Error: "Ok" is not convertible to 'int'
     [std::same_as](../concepts/same_as.html)<int> auto b = f("Ok", type_seq<int, const char*>{});
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/pack_indexing&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 Before C++26, Ts...[N] was a valid syntax for declaring function parameter pack of unnamed arrays of size N, where the parameter types were further adjusted to pointers. Since C++26, Ts...[1] is interpreted as a pack indexing specifier which would change the behavior below to #2. To preserve the first behavior, the function parameter pack must be named, or manually adjusted to a pack of pointer types. 
     
@@ -599,7 +599,7 @@ Feature-test macro | Value | Std | Feature
 ---|---|---|---  
 [`__cpp_pack_indexing`](../experimental/feature_test.html#cpp_pack_indexing "cpp/feature test") | [`202311L`](../compiler_support/26.html#cpp_pack_indexing_202311L "cpp/compiler support/26") | (C++26) | [Pack indexing](pack_indexing.html#top)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/pack_indexing&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     

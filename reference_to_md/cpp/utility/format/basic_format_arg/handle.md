@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Formatting library](../../format.html "cpp/utility/format")
 
@@ -91,7 +91,7 @@ Formatting arguments
 [Format error](../format.html#Format_error "cpp/utility/format/format")  
 [format_error](../format_error.html "cpp/utility/format/format error")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/navbar_content&action=edit)
+
 
 Defined in header `[<format>](../../../header/format.html "cpp/header/format")` |  |   
 ---|---|---  
@@ -114,7 +114,7 @@ A type-erased wrapper that allows formatting an object of a user-defined type.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/basic_format_arg/handle&action=edit&section=1 "Edit section: Data members")] Data members
+### Data members
 
 A typical implementation of `handle` is [TriviallyCopyable](../../../named_req/TriviallyCopyable.html "cpp/named req/TriviallyCopyable") and only stores two non-static data members: 
 
@@ -123,7 +123,7 @@ A typical implementation of `handle` is [TriviallyCopyable](../../../named_req/T
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/basic_format_arg/handle&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 format(C++20) |  formats the referenced object with the given contexts   
 (public member function)  
@@ -149,14 +149,14 @@ Equivalent to: typename Context::template formatter_type<TD> f;
 parse_ctx.advance_to(f.parse(parse_ctx));  
 format_ctx.advance_to(f.format(const_cast<TQ&>(static_cast<const TD&>(ref)), format_ctx));
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/basic_format_arg/handle&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 A `handle` has reference semantics for the formatted argument and does not extend its lifetime. It is the programmer's responsibility to ensure that the argument outlives the `handle`. Usually, a `handle` is only used within formatting functions. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/basic_format_arg/handle&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ basic_format_arg](../basic_format_arg.html "cpp/utility/format/basic format arg")(C++20) |  class template that provides access to a formatting argument for user-defined formatters   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/dsc_basic_format_arg&action=edit)  
+(class template)   
 ---|---  
 [ make_format_argsmake_wformat_args](../make_format_args.html "cpp/utility/format/make format args")(C++20)(C++20) |  creates a type-erased object referencing all formatting arguments, convertible to `format_args`   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/dsc_make_format_args&action=edit)
+(function template) 

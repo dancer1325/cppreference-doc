@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [Declarations](declarations.html "cpp/language/declarations")
 
@@ -280,7 +280,7 @@ Other declarations
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/declarations/navbar_content&action=edit)
+
 
 Declares a named variable as a reference, that is, an alias to an already-existing object or function. 
 
@@ -301,7 +301,7 @@ Declares a named variable as a reference, that is, an alias to an already-existi
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/reference&action=edit&section=1 "Edit section: Syntax")] Syntax
+### Syntax
 
 A reference variable declaration is any simple declaration whose [declarator](declarations.html "cpp/language/declarations") has the form   
   
@@ -349,7 +349,7 @@ It is permitted to form references to references through type manipulations in t
 (This, along with special rules for [template argument deduction](template_argument_deduction.html "cpp/language/template argument deduction") when `T&&` is used in a function template, forms the rules that make [std::forward](../utility/forward.html "cpp/utility/forward") possible.)  | (since C++11)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/reference&action=edit&section=3 "Edit section: Lvalue references")] Lvalue references
+### Lvalue references
 
 Lvalue references can be used to alias an existing object (optionally with different cv-qualification): 
 
@@ -531,7 +531,7 @@ Forwarding references are a special kind of references that preserve the value c
 See also [template argument deduction](template_argument_deduction.html#Deduction_from_a_function_call "cpp/language/template argument deduction") and [std::forward](../utility/forward.html "cpp/utility/forward").  | (since C++11)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/reference&action=edit&section=6 "Edit section: Dangling references")] Dangling references
+### Dangling references
 
 Although references always refer to valid objects or functions upon initialization, it is possible to create a program where the [lifetime](lifetime.html "cpp/language/lifetime") of the referred-to object ends, but the reference remains accessible (_dangling_). 
 
@@ -558,7 +558,7 @@ Note that rvalue references and lvalue references to const extend the lifetimes 
 
 If the referred-to object was destroyed (e.g., by explicit destructor call), but the storage was not deallocated, a reference to the out-of-lifetime object may be used in limited ways, and may become valid if the object is recreated in the same storage (see [Access outside of lifetime](lifetime.html#Access_outside_of_lifetime "cpp/language/lifetime") for details). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/reference&action=edit&section=7 "Edit section: Type-inaccessible references")] Type-inaccessible references
+### Type-inaccessible references
 
 Attempting to bind a reference to an object where the converted initializer is an lvalue(until C++11)a glvalue(since C++11) through which the object is not [type-accessible](reinterpret_cast.html#Type_accessibility "cpp/language/reinterpret cast") results in undefined behavior: 
     
@@ -568,7 +568,7 @@ Attempting to bind a reference to an object where the converted initializer is a
     int& ir = *reinterpret_cast<int*>(&x); // undefined behavior:
                                            // initializer refers to char object
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/reference&action=edit&section=8 "Edit section: Call-incompatible references")] Call-incompatible references
+### Call-incompatible references
 
 Attempting to bind a reference to a function where the converted initializer is an lvalue(until C++11)a glvalue(since C++11) whose type is not [call-compatible](reinterpret_cast.html#Call_compatibility "cpp/language/reinterpret cast") with the type of the function's definition results in undefined behavior: 
     
@@ -579,13 +579,13 @@ Attempting to bind a reference to a function where the converted initializer is 
     F& ir = *reinterpret_cast<F*>(&f); // undefined behavior:
                                        // initializer refers to void(int) function
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/reference&action=edit&section=9 "Edit section: Notes")] Notes
+### Notes
 
 Feature-test macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_rvalue_references`](../experimental/feature_test.html#cpp_rvalue_references "cpp/feature test") | [`200610L`](../compiler_support/11.html#cpp_rvalue_references_200610L "cpp/compiler support/11") | (C++11) | [Rvalue references](reference.html#Rvalue_references)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/reference&action=edit&section=10 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -596,7 +596,7 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [CWG 2550](https://cplusplus.github.io/CWG/issues/2550.html) | C++98  | parameters could have type “reference to void”  | disallowed   
 [CWG 2933](https://cplusplus.github.io/CWG/issues/2933.html) | C++98  | the behavior of accessing dangling references was unclear  | made clear   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/reference&action=edit&section=11 "Edit section: External links")] External links
+### External links
 
 Thomas Becker, 2013 - [C++ Rvalue References Explained](http://thbecker.net/articles/rvalue_references/section_01.html)  
 ---

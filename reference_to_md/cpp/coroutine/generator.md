@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Coroutine support](../coroutine.html "cpp/coroutine")
 
@@ -146,7 +146,7 @@ Trivial awaitables
 Range generators  
 **generator**(C++23)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/coroutine/navbar_content&action=edit)
+
 
 [Ranges library](../ranges.html "cpp/ranges")
 
@@ -340,7 +340,7 @@ std::from_range](../ranges/from_range.html "cpp/ranges/from range")(C++23)(C++23
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 **`std::generator`**
 
@@ -368,7 +368,7 @@ std::from_range](../ranges/from_range.html "cpp/ranges/from range")(C++23)(C++23
 generator::_iterator_ ::operator++(int)](generator/iterator.html#increment "cpp/coroutine/generator/iterator")  
 [operator==(generator::_iterator_ , std::default_sentinel_t)](generator/iterator.html#compare "cpp/coroutine/generator/iterator")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/coroutine/generator/navbar_content&action=edit)
+
 
 Defined in header `[<generator>](../header/generator.html "cpp/header/generator")` |  |   
 ---|---|---  
@@ -411,7 +411,7 @@ The behavior of a program that adds a specialization for `std::generator` is und
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/coroutine/generator&action=edit&section=1 "Edit section: Template parameters")] Template parameters
+### Template parameters
 
 Ref  |  \-  |  the reference type (ranges::range_reference_t) of the generator. If `V` is void, both the reference type and the value type are inferred from `Ref`  
 ---|---|---  
@@ -420,7 +420,7 @@ Allocator  |  \-  |  an allocator type or void
   
 If `Allocator` is not void, then the behavior is undefined if `Allocator` does not meet the [Allocator](../named_req/Allocator.html "cpp/named req/Allocator") requirements. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/coroutine/generator&action=edit&section=2 "Edit section: Member types")] Member types
+### Member types
 
 Member  |  Definition   
 ---|---  
@@ -444,7 +444,7 @@ Type requirements
   
 The program is ill-formed if any of these type requirements is not satisfied. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/coroutine/generator&action=edit&section=3 "Edit section: Data members")] Data members
+### Data members
 
 Member  |  Definition   
 ---|---  
@@ -460,32 +460,32 @@ Member  |  Definition
 `_coroutine__` (private) |  a handle of type [std::coroutine_handle](coroutine_handle.html)<promise_type>  
 (exposition-only member object*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/coroutine/generator&action=edit&section=4 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](generator/generator.html "cpp/coroutine/generator/generator") |  constructs a `generator` object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/coroutine/generator/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ (destructor)](generator/~generator.html "cpp/coroutine/generator/~generator") |  effectively destroys the entire stack of yielded `generator`s   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/coroutine/generator/dsc_destructor&action=edit)  
+(public member function)   
 [ operator=](generator/operator=.html "cpp/coroutine/generator/operator=") |  assigns a `generator` object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/coroutine/generator/dsc_operator%3D&action=edit)  
+(public member function)   
 [ begin](generator/begin.html "cpp/coroutine/generator/begin") |  resumes the initially suspended coroutine and returns an iterator to its handle   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/coroutine/generator/dsc_begin&action=edit)  
+(public member function)   
 [ end](generator/end.html "cpp/coroutine/generator/end") |  returns [std::default_sentinel](../iterator/default_sentinel.html "cpp/iterator/default sentinel")   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/coroutine/generator/dsc_end&action=edit)  
+(public member function)   
   
 #####  Inherited from [std::ranges::view_interface](../ranges/view_interface.html "cpp/ranges/view interface")  
   
 [ empty](../ranges/view_interface/empty.html "cpp/ranges/view interface/empty") |  returns whether the derived view is empty, provided only if it satisfies [`sized_range`](../ranges/sized_range.html "cpp/ranges/sized range") or [`forward_range`](../ranges/forward_range.html "cpp/ranges/forward range")   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_empty&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ cbegin](../ranges/view_interface/cbegin.html "cpp/ranges/view interface/cbegin")(C++23) |  returns a constant iterator to the beginning of the range   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_cbegin&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ cend](../ranges/view_interface/cend.html "cpp/ranges/view interface/cend")(C++23) |  returns a sentinel for the constant iterator of the range   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_cend&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ operator bool](../ranges/view_interface/operator_bool.html "cpp/ranges/view interface/operator bool") |  returns whether the derived view is not empty, provided only if [ranges::empty](../ranges/empty.html "cpp/ranges/empty") is applicable to it   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_operator_bool&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/coroutine/generator&action=edit&section=5 "Edit section: Nested classes")] Nested classes
+### Nested classes
 
 [ promise_type](generator/promise_type.html "cpp/coroutine/generator/promise type") |  the promise type   
 (public member class)  
@@ -493,13 +493,13 @@ Member  |  Definition
 [_iterator_](generator/iterator.html "cpp/coroutine/generator/iterator") |  the iterator type  
 (exposition-only member class*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/coroutine/generator&action=edit&section=6 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../utility/feature_test.html "cpp/utility/feature test") macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_generator`](../experimental/feature_test.html#cpp_lib_generator "cpp/feature test") | [`202207L`](../compiler_support/23.html#cpp_lib_generator_202207L "cpp/compiler support/23") | (C++23) | [`std::generator`](generator.html#top) – synchronous [coroutine](../coroutine.html "cpp/coroutine") generator for [ranges](../ranges.html "cpp/ranges")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/coroutine/generator&action=edit&section=7 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -550,7 +550,7 @@ Output:
     
     A B C D E F G
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/coroutine/generator&action=edit&section=8 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -562,10 +562,10 @@ Output:
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/coroutine/generator&action=edit&section=9 "Edit section: See also")] See also
+### See also
 
 [ noop_coroutine](noop_coroutine.html "cpp/coroutine/noop coroutine")(C++20) |  creates a coroutine handle that has no observable effects when resumed or destroyed   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/coroutine/dsc_noop_coroutine&action=edit)  
+(function)   
 ---|---
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::hash`](../hash.html "cpp/utility/hash")
 
@@ -136,7 +136,7 @@ Common vocabulary types
 ---  
 **hash::operator()**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/hash/navbar_content&action=edit)
+
 
 Specializations of [std::hash](../hash.html "cpp/utility/hash") should define an `operator()` that: 
 
@@ -157,20 +157,20 @@ Specializations of [std::hash](../hash.html "cpp/utility/hash") should define an
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/hash/operator\(\)&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 key  |  \-  |  the object to be hashed   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/hash/operator\(\)&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 A [std::size_t](../../types/size_t.html) representing the hash value. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/hash/operator\(\)&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Hash functions should not throw exceptions. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/hash/operator\(\)&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 The following code shows how to specialize the [std::hash](../hash.html "cpp/utility/hash") template for a custom class. The hash function uses [Fowler–Noll–Vo](https://en.wikipedia.org/wiki/Fowler%E2%80%93Noll%E2%80%93Vo_hash_function "enwiki:Fowler–Noll–Vo hash function") hash algorithm.
 

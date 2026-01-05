@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [Declarations](declarations.html "cpp/language/declarations")
 
@@ -280,7 +280,7 @@ Other declarations
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/declarations/navbar_content&action=edit)
+
 
 [ Expressions](expressions.html "cpp/language/expressions")
 
@@ -349,7 +349,7 @@ Conversions
 [`dynamic_cast`](dynamic_cast.html "cpp/language/dynamic cast")  
 [`reinterpret_cast`](reinterpret_cast.html "cpp/language/reinterpret cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/expressions/navbar_content&action=edit)
+
 
 [ Templates](templates.html "cpp/language/templates")
 
@@ -373,7 +373,7 @@ Conversions
 [Constraints and concepts](constraints.html "cpp/language/constraints") (C++20)  
 [requires expression](requires.html "cpp/language/requires") (C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/templates/navbar_content&action=edit)
+
 
 A variable template defines a family of variables or static data members. 
 
@@ -387,7 +387,7 @@ A variable template defines a family of variables or static data members.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/variable_template&action=edit&section=1 "Edit section: Syntax")] Syntax  
+### Syntax  
   
 ---  
 `**template**` `**<**` parameter-list `**>**` variable-declaration |  (1)  |   
@@ -397,7 +397,7 @@ variable-declaration |  \-  |  a [declaration](declarations.html "cpp/language/d
 parameter-list |  \-  |  a non-empty comma-separated list of the [template parameters](template_parameters.html "cpp/language/template parameters"), each of which is either [constant parameter](template_parameters.html#Constant_template_parameter "cpp/language/template parameters"), a [type parameter](template_parameters.html#Type_template_parameter "cpp/language/template parameters"), a [template parameter](template_parameters.html#Template_template_parameter "cpp/language/template parameters"), or a [parameter pack](parameter_pack.html "cpp/language/parameter pack") of any of those.   
 constraint |  \-  |  a [constraint expression](constraints.html "cpp/language/constraints") which restricts the template parameters accepted by this variable template   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/variable_template&action=edit&section=2 "Edit section: Explanation")] Explanation
+### Explanation
 
 A variable instantiated from a variable template is called an _instantiated variable_. A static data member instantiated from a static data member template is called an _instantiated static data member_. 
 
@@ -457,7 +457,7 @@ Unless a variable template was [explicitly specialized](template_specialization.
 
 The existence of a definition of a variable is considered to affect the semantics of the program if the variable is needed for constant evaluation by an expression, even if constant evaluation of the expression is not required or if constant expression evaluation does not use the definition. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/variable_template&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Until variable templates were introduced in C++14, parametrized variables were typically implemented as either static data members of class templates or as constexpr function templates returning the desired values. 
 
@@ -467,7 +467,7 @@ Feature-test macro | Value | Std | Feature
 ---|---|---|---  
 [`__cpp_variable_templates`](../experimental/feature_test.html#cpp_variable_templates "cpp/feature test") | [`201304L`](../compiler_support/14.html#cpp_variable_templates_201304L "cpp/compiler support/14") | (C++14) | Variable templates   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/variable_template&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

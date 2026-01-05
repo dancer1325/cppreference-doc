@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::promise`](../promise.html "cpp/thread/promise")
 
@@ -195,7 +195,7 @@ Non-member Functions
 Helper Classes  
 [uses_allocator<std::promise>](uses_allocator.html "cpp/thread/promise/uses allocator")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/promise/navbar_content&action=edit)
+
 
 void swap( promise& other ) noexcept; |  |  (since C++11)  
 ---|---|---  
@@ -213,23 +213,23 @@ Exchanges the shared states of two promise objects.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/promise/swap&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 other  |  \-  |  the promise to swap with   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/promise/swap&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/promise/swap&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/promise/swap&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ std::swap(std::promise)](swap2.html "cpp/thread/promise/swap2")(C++11) |  specializes the [std::swap](../../utility/swap.html "cpp/algorithm/swap") algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/promise/dsc_swap2&action=edit)  
+(function template)   
 ---|---

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ named requirements](../iterator/concepts.html "cpp/named req")
 
@@ -147,11 +147,11 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/named_req/navbar_content&action=edit)
+
 
 Specifies that an instance of the type can be destructed. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/Destructible&action=edit&section=1 "Edit section: Requirements")] Requirements
+### Requirements
 
 The type `T` satisfies Destructible if 
 
@@ -167,16 +167,16 @@ Expression | Post-conditions
 ---|---  
 u.~T() | All resources owned by `u` are reclaimed, no exceptions are thrown.   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/Destructible&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 Destructors are called implicitly at the end of [object lifetime](../language/lifetime.html "cpp/language/lifetime") such as when leaving [scope](../language/scope.html "cpp/language/scope") or by the [delete-expression](../language/delete.html "cpp/language/delete"). Explicit destructor call as shown in the type requirement table is rare. 
 
 Thanks to [pseudo destructor call](../language/operator_member_access.html#Built-in_member_access_operators "cpp/language/operator member access"), all scalar types meet the requirement of Destructible, while array types and reference types do not. Note that [std::is_destructible](../types/is_destructible.html "cpp/types/is destructible") allows arrays and reference types. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/Destructible&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ is_destructibleis_trivially_destructibleis_nothrow_destructible](../types/is_destructible.html "cpp/types/is destructible")(C++11)(C++11)(C++11) |  checks if a type has a non-deleted destructor   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_destructible&action=edit)  
+(class template)   
 ---|---  
 [ destructible](../concepts/destructible.html "cpp/concepts/destructible")(C++20) |  specifies that an object of the type can be destroyed   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_destructible&action=edit)
+(concept) 

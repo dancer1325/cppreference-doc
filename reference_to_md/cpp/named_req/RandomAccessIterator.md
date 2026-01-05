@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ named requirements](../iterator/concepts.html "cpp/named req")
 
@@ -147,7 +147,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/named_req/navbar_content&action=edit)
+
 
 A **LegacyRandomAccessIterator** is a [LegacyBidirectionalIterator](BidirectionalIterator.html "cpp/named req/BidirectionalIterator") that can be moved to point to any element in constant time. 
 
@@ -165,7 +165,7 @@ A pointer to an element of an array satisfies all requirements of LegacyRandomAc
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/RandomAccessIterator&action=edit&section=1 "Edit section: Requirements")] Requirements
+### Requirements
 
 The type `It` satisfies LegacyRandomAccessIterator if 
 
@@ -273,7 +273,7 @@ where the exposition-only concept `__LegacyBidirectionalIterator` is described i
 
 (since C++20)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/RandomAccessIterator&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -295,9 +295,9 @@ resulted in circular definition  | removed a < b from the definition
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/RandomAccessIterator&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ random_access_iterator](../iterator/random_access_iterator.html "cpp/iterator/random access iterator")(C++20) |  specifies that a [`bidirectional_iterator`](../iterator/bidirectional_iterator.html "cpp/iterator/bidirectional iterator") is a random-access iterator, supporting advancement in constant time and subscripting   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_random_access_iterator&action=edit)  
+(concept)   
 ---|---  
 [**Iterator library**](../iterator.html "cpp/iterator") |  provides definitions for iterators, iterator traits, adaptors, and utility functions 

@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -186,7 +186,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::shared_ptr`](../shared_ptr.html "cpp/memory/shared ptr")
 
@@ -222,7 +222,7 @@ Helper classes
 [hash<std::shared_ptr>](hash.html "cpp/memory/shared ptr/hash")  
 [Deduction guides](deduction_guides.html "cpp/memory/shared ptr/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/navbar_content&action=edit)
+
 
 template< class Y >   
 bool owner_before( const shared_ptr<Y>& other ) const noexcept; |  |   
@@ -246,16 +246,16 @@ This ordering is used to make shared and weak pointers usable as keys in associa
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/owner_before&action=edit&section=T-1 "Template:cpp/memory/owner before")] Parameters
+### Parameters
 
 other  |  \-  |  the [std::shared_ptr](../shared_ptr.html "cpp/memory/shared ptr") or [std::weak_ptr](../weak_ptr.html "cpp/memory/weak ptr") to be compared   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/owner_before&action=edit&section=T-2 "Template:cpp/memory/owner before")] Return value
+### Return value
 
 true if *this precedes other, false otherwise. Common implementations compare the addresses of the control blocks. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/owner_before&action=edit&section=T-3 "Template:cpp/memory/owner before")] Example
+### Example
 
 Run this code
     
@@ -301,7 +301,7 @@ Output:
     w2.owner_before(w3) false
     w3.owner_before(w2) false
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/owner_before&action=edit&section=T-4 "Template:cpp/memory/owner before")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -309,8 +309,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 2873](https://cplusplus.github.io/LWG/issue2873) | C++11  | `owner_before` was not declared noexcept | declared noexcept  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/owner_before&action=edit&section=T-5 "Template:cpp/memory/owner before")] See also
+### See also
 
 [ owner_less](../owner_less.html "cpp/memory/owner less")(C++11) |  provides mixed-type owner-based ordering of shared and weak pointers   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_owner_less&action=edit)  
+(class template)   
 ---|---

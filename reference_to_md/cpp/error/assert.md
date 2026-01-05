@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Diagnostics library](../error.html "cpp/error")
 
@@ -89,7 +89,7 @@ Exception handling failures
 [breakpoint_if_debugging](../utility/breakpoint_if_debugging.html "cpp/utility/breakpoint if debugging")(C++26)  
 [breakpoint](../utility/breakpoint.html "cpp/utility/breakpoint")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/navbar_content&action=edit)
+
 
 Defined in header `[<cassert>](../header/cassert.html "cpp/header/cassert")` |  |   
 ---|---|---  
@@ -155,12 +155,12 @@ The expression assert(E) is guaranteed to be a [constant subexpression](../langu
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/assert&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 condition  |  \-  |  expression of scalar type   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/assert&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 Because `assert` is a [function-like macro](../preprocessor/replace.html "cpp/preprocessor/replace"), commas anywhere in the argument that are not protected by parentheses are interpreted as macro argument separators. Such commas are often found in template argument lists and list-initialization: 
     
@@ -188,7 +188,7 @@ Since C++20, the values needed for the diagnostic message can also be obtained f
 
 Even though the change of `assert` in C23/C++26 is not formally a defect report, the C committee [recommends](https://www.open-std.org/jtc1/sc22/wg14/www/previous.html) implementations to backport the change to old modes. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/assert&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -229,7 +229,7 @@ Possible output:
     main.cpp:23: int main(): Assertion `((void)"Failed", 2 + 2 == 5)' failed.
     Aborted
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/assert&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -237,11 +237,11 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 2234](https://cplusplus.github.io/LWG/issue2234) | C++11  | `assert` could not be used in constant expression  | can be used   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/assert&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
-[`contract_assert` statement](../language/contract_assert.html "cpp/language/contract assert") (C++26) |  verifies an internal condition during execution[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_contract_assert&action=edit)  
+[`contract_assert` statement](../language/contract_assert.html "cpp/language/contract assert") (C++26) |  verifies an internal condition during execution  
 ---|---  
-[`static_assert` declaration](../language/static_assert.html "cpp/language/static assert") (C++11) |  performs compile-time assertion checking[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_static_assert&action=edit)  
+[`static_assert` declaration](../language/static_assert.html "cpp/language/static assert") (C++11) |  performs compile-time assertion checking  
 [ abort](../utility/program/abort.html "cpp/utility/program/abort") |  causes abnormal program termination (without cleaning up)   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/program/dsc_abort&action=edit)  
+(function)   
 [C documentation](../../c/error/assert.html "c/error/assert") for assert

@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Function objects](../../../functional.html "cpp/utility/functional")
 
@@ -255,7 +255,7 @@ Identity function object
 [unary_negate](../unary_negate.html "cpp/utility/functional/unary negate")(until C++20*)  
 [binary_negate](../binary_negate.html "cpp/utility/functional/binary negate")(until C++20*)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/navbar_content&action=edit)
+
 
 [`std::function`](../function.html "cpp/utility/functional/function")
 
@@ -277,7 +277,7 @@ Identity function object
 [uses_allocator<std::function>](uses_allocator.html "cpp/utility/functional/function/uses allocator")(until C++17)  
 [Deduction guides](deduction_guides.html "cpp/utility/functional/function/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/function/navbar_content&action=edit)
+
 
 function() noexcept; |  (1)  |  (since C++11)  
 ---|---|---  
@@ -357,7 +357,7 @@ When the target is a function pointer or a [std::reference_wrapper](../reference
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/function/function&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 other  |  \-  |  the function object used to initialize *this  
 ---|---|---  
@@ -366,7 +366,7 @@ alloc  |  \-  |  an [Allocator](../../../named_req/Allocator.html "cpp/named req
 Type requirements   
 -`Alloc` must meet the requirements of [Allocator](../../../named_req/Allocator.html "cpp/named req/Allocator").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/function/function&action=edit&section=2 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 3,8,9) Does not throw if other's target is a function pointer or a [std::reference_wrapper](../reference_wrapper.html "cpp/utility/functional/reference wrapper"), otherwise may throw [std::bad_alloc](../../../memory/new/bad_alloc.html "cpp/memory/new/bad alloc") or any exception thrown by the constructor used to copy or move the stored callable object.
 
@@ -375,11 +375,11 @@ Type requirements
   
 5,10) Does not throw if f is a function pointer or a [std::reference_wrapper](../reference_wrapper.html "cpp/utility/functional/reference wrapper"), otherwise may throw [std::bad_alloc](../../../memory/new/bad_alloc.html "cpp/memory/new/bad alloc") or any exception thrown by the copy constructor of the stored callable object.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/function/function&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 `std::function`'s allocator support was poorly specified and inconsistently implemented. Some implementations do not provide overloads ([6-10](function.html#Version_6)) at all, some provide the overloads but ignore the supplied allocator argument, and some provide the overloads and use the supplied allocator for construction but not when the `std::function` is reassigned. As a result, allocator support was removed in C++17. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/function/function&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -439,7 +439,7 @@ Possible output:
     print_num(55)
     lambda(66)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/function/function&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -448,8 +448,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [LWG 2132](https://cplusplus.github.io/LWG/issue2132) | C++11  | overloads ([5,10](function.html#Version_5)) might be ambiguous  | constrained   
 [LWG 2774](https://cplusplus.github.io/LWG/issue2774) | C++11  | ([5,10](function.html#Version_5)) performed an additional move  | eliminated   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/function/function&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ (constructor)](../move_only_function/move_only_function.html "cpp/utility/functional/move only function/move only function") |  constructs a new `std::move_only_function` object   
-(public member function of `std::move_only_function`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/move_only_function/dsc_constructor&action=edit)  
+(public member function of `std::move_only_function`)   
 ---|---

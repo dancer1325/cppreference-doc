@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [Pseudo-random number generation](../../random.html "cpp/numeric/random")
 
@@ -161,7 +161,7 @@
 [piecewise_constant_distribution](../piecewise_constant_distribution.html "cpp/numeric/random/piecewise constant distribution")(C++11)  
 [piecewise_linear_distribution](../piecewise_linear_distribution.html "cpp/numeric/random/piecewise linear distribution")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/navbar_content&action=edit)
+
 
 [`std::seed_seq`](../seed_seq.html "cpp/numeric/random/seed seq")
 
@@ -172,7 +172,7 @@ Member functions
 [seed_seq::size](size.html "cpp/numeric/random/seed seq/size")  
 [seed_seq::param](param.html "cpp/numeric/random/seed seq/param")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/seed_seq/navbar_content&action=edit)
+
 
 template< class RandomIt >  
 void generate( RandomIt begin, RandomIt end ); |  |  (since C++11)  
@@ -202,7 +202,7 @@ If `RandomIt` does not meet the requirements of [LegacyRandomAccessIterator](../
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/random/seed_seq/generate&action=edit&section=1 "Edit section: Generation algorithm")] Generation algorithm
+### Generation algorithm
 
 Given the following values and operations: 
 
@@ -259,20 +259,20 @@ The generation algorithm consists of the following steps, where \\(\scriptsize S
 5) Set \\(\scriptsize S_k \\)Sk to \\(\scriptsize r_4 \mod 2^{32} \\)r4 mod 232  
 .
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/random/seed_seq/generate&action=edit&section=2 "Edit section: Parameters")] Parameters
+### Parameters
 
 begin, end  |  \-  |  the iterators denoting the output range   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/random/seed_seq/generate&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Only throws the exceptions thrown by the `RandomIt` operations on begin and end. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/random/seed_seq/generate&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 The generation algorithm is adapted from the initialization sequence of the Mersenne Twister generator by [Makoto Matsumoto and Takuji Nishimura](http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/emt.html), incorporating the improvements made by [Mutsuo Saito in 2007](http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/SFMT/M062821.pdf). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/random/seed_seq/generate&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -416,7 +416,7 @@ Output:
     1534123438
     1495905678
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/random/seed_seq/generate&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

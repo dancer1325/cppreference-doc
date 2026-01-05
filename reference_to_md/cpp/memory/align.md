@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 Defined in header `[<memory>](../header/memory.html "cpp/header/memory")` |  |   
 ---|---|---  
@@ -211,7 +211,7 @@ The behavior is undefined if alignment is not a power of two.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/align&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 alignment  |  \-  |  the desired alignment   
 ---|---|---  
@@ -219,11 +219,11 @@ size  |  \-  |  the size of the storage to be aligned
 ptr  |  \-  |  pointer to contiguous storage (a buffer) of at least `space` bytes   
 space  |  \-  |  the size of the buffer in which to operate   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/align&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The adjusted value of ptr, or null pointer value if the space provided is too small. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/align&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Demonstrates the use of `std::align` to place objects of different type in memory.
 
@@ -294,7 +294,7 @@ Possible output:
     allocated an int at 0x7ffc654e8534
     allocated an int at 0x7ffc654e8540 (32-byte alignment)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/align&action=edit&section=4 "Edit section: Defect reports")] Defect reports 
+### Defect reports 
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -302,14 +302,14 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 2377](https://cplusplus.github.io/LWG/issue2377) | C++11  | `alignment` required to be a fundamental or supported extended alignment value  | only need to be a power of two   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/align&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 `**[alignof](../language/alignof.html "cpp/language/alignof")**` (C++11) |  queries alignment requirements of a type  
-(operator)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_alignof&action=edit)  
+(operator)  
 ---|---  
 `**[alignas](../language/alignas.html "cpp/language/alignas")**` (C++11) |  specifies that the storage for the variable should be aligned by specific amount  
-(specifier)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_alignas&action=edit)  
+(specifier)  
 [ aligned_storage](../types/aligned_storage.html "cpp/types/aligned storage")(since C++11)(deprecated in C++23) |  defines the type suitable for use as uninitialized storage for types of given size   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_aligned_storage&action=edit)  
+(class template)   
 [ assume_aligned](assume_aligned.html "cpp/memory/assume aligned")(C++20) |  informs the compiler that a pointer is aligned   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_assume_aligned&action=edit)
+(function template) 

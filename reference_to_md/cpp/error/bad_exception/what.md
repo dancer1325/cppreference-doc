@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Diagnostics library](../../error.html "cpp/error")
 
@@ -187,7 +187,7 @@ Exception handling failures
 [breakpoint_if_debugging](../../utility/breakpoint_if_debugging.html "cpp/utility/breakpoint if debugging")(C++26)  
 [breakpoint](../../utility/breakpoint.html "cpp/utility/breakpoint")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/navbar_content&action=edit)
+
 
 [`std::bad_exception`](../bad_exception.html "cpp/error/bad exception")
 
@@ -197,7 +197,7 @@ Member functions
 [bad_exception::operator=](operator=.html "cpp/error/bad exception/operator=")  
 **bad_exception::what**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/bad_exception/navbar_content&action=edit)
+
 
 virtual const char* what() const noexcept; |  | (constexpr since C++26)  
 ---|---|---  
@@ -205,6 +205,6 @@ virtual const char* what() const noexcept; |  | (constexpr since C++26)
   
 Returns the explanatory string. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/bad_exception/what&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 Pointer to a null-terminated string with explanatory information. 

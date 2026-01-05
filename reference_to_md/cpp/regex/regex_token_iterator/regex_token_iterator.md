@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Regular expressions library](../../regex.html "cpp/regex")
 
@@ -81,7 +81,7 @@ Constants
 Regex Grammar  
 [Modified ECMAScript-262](../ecmascript.html "cpp/regex/ecmascript")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/navbar_content&action=edit)
+
 
 [`std::regex_token_iterator`](../regex_token_iterator.html "cpp/regex/regex token iterator")
 
@@ -96,7 +96,7 @@ Observers
 Modifiers  
 [regex_token_iterator::operator++regex_token_iterator::operator++(int)](operator_arith.html "cpp/regex/regex token iterator/operator arith")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/regex_token_iterator/navbar_content&action=edit)
+
 
 regex_token_iterator(); |  (1)  |  (since C++11)  
 ---|---|---  
@@ -163,7 +163,7 @@ The behavior is undefined if any value in submatches is less than -1.
 
 7-10) The overloads (2-5) are prohibited from being called with a temporary regex since otherwise the returned iterator would be immediately invalidated.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/regex_token_iterator/regex_token_iterator&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 a  |  \-  |  [LegacyBidirectionalIterator](../../named_req/BidirectionalIterator.html "cpp/named req/BidirectionalIterator") to the beginning of the target character sequence   
 ---|---|---  
@@ -173,13 +173,13 @@ submatch  |  \-  |  the index of the submatch that should be returned. "0" repre
 submatches  |  \-  |  the sequence of submatch indices that should be iterated over within each match, may include the special value -1 for the non-matched fragments   
 m  |  \-  |  flags that govern the behavior of re  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/regex_token_iterator/regex_token_iterator&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/regex_token_iterator/regex_token_iterator&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

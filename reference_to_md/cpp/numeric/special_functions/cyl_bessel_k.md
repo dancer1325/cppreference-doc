@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [Mathematical special functions](../special_math.html "cpp/numeric/special functions")
 
@@ -118,7 +118,7 @@
 [sph_legendresph_legendrefsph_legendrel](sph_legendre.html "cpp/numeric/special functions/sph legendre")  
 [sph_neumannsph_neumannfsph_neumannl](sph_neumann.html "cpp/numeric/special functions/sph neumann")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/special_functions/navbar_content&action=edit)
+
 
 Defined in header `[<cmath>](../../header/cmath.html "cpp/header/cmath")` |  |   
 ---|---|---  
@@ -155,13 +155,13 @@ A) Additional overloads are provided for all other combinations of arithmetic ty
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/special_functions/cyl_bessel_k&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 nu  |  \-  |  the order of the function   
 ---|---|---  
 x  |  \-  |  the argument of the function   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/special_functions/cyl_bessel_k&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 If no errors occur, value of the irregular modified cylindrical Bessel function (modified Bessel function of the second kind) of nu and x, is returned, that is Knu(x) = π  
 ---  
@@ -171,7 +171,7 @@ I-nu(x)-Inu(x)
 sin(nuπ)  
 (where Inu(x) is [std::cyl_bessel_i](cyl_bessel_i.html)(nu, x)) for x≥0 and non-integer nu; for integer nu a limit is used. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/special_functions/cyl_bessel_k&action=edit&section=3 "Edit section: Error handling")] Error handling
+### Error handling
 
 Errors may be reported as specified in [math_errhandling](../math/math_errhandling.html "cpp/numeric/math/math errhandling"): 
 
@@ -180,7 +180,7 @@ Errors may be reported as specified in [math_errhandling](../math/math_errhandli
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/special_functions/cyl_bessel_k&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 Implementations that do not support C++17, but support [ISO 29124:2010](../../experimental/special_math.html "cpp/experimental/special math"), provide this function if `__STDCPP_MATH_SPEC_FUNCS__` is defined by the implementation to a value at least 201003L and if the user defines `__STDCPP_WANT_MATH_SPEC_FUNCS__` before including any standard library headers. 
 
@@ -202,7 +202,7 @@ static_cast<float>(num2)).
 If num1 and num2 have arithmetic types, then std::cyl_bessel_k(num1, num2) has the same effect as std::cyl_bessel_k(static_cast</* common-floating-point-type */>(num1),  
 static_cast</* common-floating-point-type */>(num2)), where /* common-floating-point-type */ is the floating-point type with the greatest [floating-point conversion rank](../../language/usual_arithmetic_conversions.html#Floating-point_conversion_rank "cpp/language/usual arithmetic conversions") and greatest [floating-point conversion subrank](../../language/usual_arithmetic_conversions.html#Floating-point_conversion_subrank "cpp/language/usual arithmetic conversions") between the types of num1 and num2, arguments of integer type are considered to have the same floating-point conversion rank as double. If no such floating-point type with the greatest rank and subrank exists, then [overload resolution](../../language/overload_resolution.html "cpp/language/overload resolution") does not result in a usable candidate from the overloads provided.  | (since C++23)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/special_functions/cyl_bessel_k&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -229,15 +229,15 @@ Output:
     K_.5(1.2345) = 0.32823
     calculated via I = 0.32823
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/special_functions/cyl_bessel_k&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ cyl_bessel_icyl_bessel_ifcyl_bessel_il](cyl_bessel_i.html "cpp/numeric/special functions/cyl bessel i")(C++17)(C++17)(C++17) |  regular modified cylindrical Bessel functions   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/special_functions/dsc_cyl_bessel_i&action=edit)  
+(function)   
 ---|---  
 [ cyl_bessel_jcyl_bessel_jfcyl_bessel_jl](cyl_bessel_j.html "cpp/numeric/special functions/cyl bessel j")(C++17)(C++17)(C++17) |  cylindrical Bessel functions (of the first kind)   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/special_functions/dsc_cyl_bessel_j&action=edit)  
+(function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/special_functions/cyl_bessel_k&action=edit&section=7 "Edit section: External links")] External links
+### External links
 
 [Weisstein, Eric W. "Modified Bessel Function of the Second Kind."](https://mathworld.wolfram.com/ModifiedBesselFunctionoftheSecondKind.html) From MathWorld — A Wolfram Web Resource.   
 ---

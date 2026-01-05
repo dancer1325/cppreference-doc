@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::slide_view`](../slide_view.html "cpp/ranges/slide view")
 
@@ -263,7 +263,7 @@ Non-member functions
 [operator==(slide_view::_iterator_ ,slide_view::_sentinel_)](sentinel/operator_cmp.html "cpp/ranges/slide view/sentinel/operator cmp")  
 [operator-(slide_view::_iterator_ ,slide_view::_sentinel_)](sentinel/operator-.html "cpp/ranges/slide view/sentinel/operator-")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/slide_view/navbar_content&action=edit)
+
 
 class /*sentinel*/; |  |  (since C++23)   
 (exposition only*)  
@@ -286,34 +286,34 @@ The /*sentinel*/ is used only when /*slide-caches-first*/<V> is true.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/slide_view/sentinel&action=edit&section=1 "Edit section: Data members")] Data members
+### Data members
 
 Member object  |  Definition   
 ---|---  
 `_end__` (private) |  A sentinel of type [ranges::sentinel_t](../iterator_t.html)<V>.  
 (exposition-only member object*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/slide_view/sentinel&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](sentinel/sentinel.html "cpp/ranges/slide view/sentinel/sentinel") |  constructs a sentinel   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/sentinel/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/slide_view/sentinel&action=edit&section=3 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ operator==](sentinel/operator_cmp.html "cpp/ranges/slide view/sentinel/operator cmp")(C++23) |  compares a sentinel with an iterator returned from [`slide_view::begin`](begin.html "cpp/ranges/slide view/begin")   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/sentinel/dsc_operator_cmp&action=edit)  
+(function)   
 ---|---  
 [ operator-](sentinel/operator-.html "cpp/ranges/slide view/sentinel/operator-")(C++23) |  computes the distance between a sentinel and an iterator returned from [`slide_view::begin`](begin.html "cpp/ranges/slide view/begin")   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/sentinel/dsc_operator-&action=edit)  
+(function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/slide_view/sentinel&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/slide_view/sentinel&action=edit&section=5 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -325,6 +325,6 @@ Reason: no example
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/slide_view/sentinel&action=edit&section=6 "Edit section: See also")] See also  
+### See also  
   
 ---

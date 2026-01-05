@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::atomic_ref`](../atomic_ref.html "cpp/atomic/atomic ref")
 
@@ -211,7 +211,7 @@
 **atomic_ref::is_always_lock_free**  
 [atomic_ref::required_alignment](required_alignment.html "cpp/atomic/atomic ref/required alignment")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic_ref/navbar_content&action=edit)
+
 
 static constexpr bool is_always_lock_free = /*implementation-defined*/; |  |  (since C++20)  
 ---|---|---  
@@ -221,8 +221,8 @@ Equals true if the operations on this `atomic_ref` type is always lock-free and 
 
 The value of this constant is consistent with the result of member function is_lock_free. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_ref/is_always_lock_free&action=edit&section=1 "Edit section: See also")] See also
+### See also
 
 [ is_lock_free](is_lock_free.html "cpp/atomic/atomic ref/is lock free") |  checks if the `atomic_ref` object is lock-free   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic_ref/dsc_is_lock_free&action=edit)  
+(public member function)   
 ---|---

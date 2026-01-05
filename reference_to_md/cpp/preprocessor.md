@@ -30,7 +30,7 @@
 [Symbols index](symbol_index.html "cpp/symbol index")  
 [External libraries](links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](language/history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 **Preprocessor**
 
@@ -233,7 +233,7 @@ Miscellaneous
 [#line](preprocessor/line.html "cpp/preprocessor/line")  
 [#embed](preprocessor/embed.html "cpp/preprocessor/embed")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/preprocessor/navbar_content&action=edit)
+
 
 The preprocessor is executed at [translation phase 4](language/translation_phases.html#Phase_4 "cpp/language/translation phases"), before the compilation. The result of preprocessing is a single file which is then passed to the actual compiler. 
 
@@ -247,7 +247,7 @@ The preprocessor is executed at [translation phase 4](language/translation_phase
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/preprocessor&action=edit&section=1 "Edit section: Directives")] Directives
+### Directives
 
 The preprocessing directives control the behavior of the preprocessor. Each directive occupies one line and has the following format: 
 
@@ -275,7 +275,7 @@ Preprocessing directives must not come from macro expansion.
     #define EMPTY
     EMPTY   #   include <file.h> // not a preprocessing directive
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/preprocessor&action=edit&section=2 "Edit section: Capabilities")] Capabilities
+### Capabilities
 
 The preprocessor has the source file translation capabilities: 
 
@@ -293,7 +293,7 @@ The following aspects of the preprocessor can be controlled:
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/preprocessor&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -301,7 +301,7 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [CWG 2001](https://cplusplus.github.io/CWG/issues/2001.html) | C++98  | the behavior of using non-standard-defined directives was not clear  | made conditionally-supported   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/preprocessor&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [C++ documentation](preprocessor/replace.html#Predefined_macros "cpp/preprocessor/replace") for Predefined Macro Symbols  
 ---  

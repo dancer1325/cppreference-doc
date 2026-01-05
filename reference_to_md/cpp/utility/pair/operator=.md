@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::pair`](../pair.html "cpp/utility/pair")
 
@@ -151,7 +151,7 @@ Common vocabulary types
 [piecewise_construct_t](../piecewise_construct.html "cpp/utility/piecewise construct")(C++11)  
 [Deduction guides](deduction_guides.html "cpp/utility/pair/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/pair/navbar_content&action=edit)
+
 
 | (1) |   
 ---|---|---  
@@ -251,7 +251,7 @@ This overload participates in overload resolution only if
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/pair/operator%3D&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 other  |  \-  |  pair of values to replace the contents of this pair   
 ---|---|---  
@@ -261,11 +261,11 @@ Type requirements
 -`T1` must meet the requirements of [CopyAssignable](../../named_req/CopyAssignable.html "cpp/named req/CopyAssignable") from `U1`. (until C++11)  
 -`T2` must meet the requirements of [CopyAssignable](../../named_req/CopyAssignable.html "cpp/named req/CopyAssignable") from `U2`. (until C++11)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/pair/operator%3D&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 *this
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/pair/operator%3D&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 1-4) May throw implementation-defined exceptions.
 
@@ -284,7 +284,7 @@ noexcept(
 
 6-10) May throw implementation-defined exceptions.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/pair/operator%3D&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -347,7 +347,7 @@ Output:
     (7) p = std::move(r);  p: {4, {7, 8, 9}}  r: {4, {}}
     
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/pair/operator%3D&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -357,8 +357,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [LWG 2729](https://cplusplus.github.io/LWG/issue2729) | C++11  | `pair::operator=` was unconstrained and might  
 result in unnecessary undefined behavior  | constrained   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/pair/operator%3D&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ operator=](../tuple/operator=.html "cpp/utility/tuple/operator=") |  assigns the contents of one `tuple` to another   
-(public member function of `std::tuple<Types...>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/dsc_operator%3D&action=edit)  
+(public member function of `std::tuple<Types...>`)   
 ---|---

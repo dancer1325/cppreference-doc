@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Metaprogramming library](../meta.html "cpp/meta")
 
@@ -167,7 +167,7 @@ Type transformations
 Compile-time integer sequences  
 [integer_sequence](../utility/integer_sequence.html "cpp/utility/integer sequence")(C++14)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/meta/navbar_content&action=edit)
+
 
 Defined in header `[<type_traits>](../header/type_traits.html "cpp/header/type traits")` |  |   
 ---|---|---  
@@ -203,12 +203,12 @@ If the program adds specializations for `std::is_literal_type` or `std::is_liter
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/traits/is&action=edit&section=T-1 "Template:cpp/types/traits/is")] Template parameters
+### Template parameters
 
 T  |  \-  |  a type to check   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/traits/is&action=edit&section=T-2 "Template:cpp/types/traits/is")] Helper variable template
+### Helper variable template
 
 template< class T >  
 constexpr bool is_literal_type_v = is_literal_type<T>::value; |  |  (since C++17)   
@@ -217,7 +217,7 @@ constexpr bool is_literal_type_v = is_literal_type<T>::value; |  |  (since C++17
 ---|---|---  
 | |   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/integral_constant/inherit2&action=edit)
+
 
 ##  Inherited from [ std::integral_constant](integral_constant.html "cpp/types/integral constant")
 
@@ -242,11 +242,11 @@ Type  |  Definition
 `value_type` |  bool  
 `type` |  [std::integral_constant](integral_constant.html)<bool, value>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_literal_type&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 Only literal types may be used as parameters to or returned from [constexpr functions](../language/constexpr.html#constexpr_function "cpp/language/constexpr"). Only literal classes may have constexpr member functions. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_literal_type&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -261,7 +261,7 @@ Run this code
      
     int main() {}
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_literal_type&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -271,7 +271,7 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 class type with unknown bound  | the behavior is  
 undefined in this case   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_literal_type&action=edit&section=4 "Edit section: External links")] External links
+### External links
 
   1. [↑](is_literal_type.html#cite_ref-1) Alisdair Meredith. ["Deprecate the `is_literal` Trait"](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0174r2.html#2.3). [_Deprecating Vestigial Library Parts in C++17_](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0174r2.html). "The `is_literal` type trait offers negligible value to generic code, as what is really needed is the ability to know that a specific construction would produce constant initialization."
   2. [↑](is_literal_type.html#cite_ref-2) Alisdair Meredith, Stephan T. Lavavej, Tomasz Kamiński. ["Deprecated type traits"](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2018/p0619r4.html#3.12). [_Reviewing Deprecated Facilities of C++17 for C++20_](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2018/p0619r4.html). "**Strong recommendation:** Remove the traits that can live on as zombies. [...] **Toronto Review:** Accept strong recommendation, strike from C++20."

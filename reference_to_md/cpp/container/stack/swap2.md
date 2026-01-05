@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 `[std::stack](../stack.html "cpp/container/stack")`
 
@@ -101,7 +101,7 @@ Tables
 [formatter<std::stack>](formatter.html "cpp/container/stack/formatter")(C++23)  
 [Deduction guides](deduction_guides.html "cpp/container/stack/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/stack/navbar_content&action=edit)
+
 
 Defined in header `[<stack>](../../header/stack.html "cpp/header/stack")` |  |   
 ---|---|---  
@@ -130,12 +130,12 @@ Specializes the [std::swap](../../utility/swap.html "cpp/algorithm/swap") algori
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/swap2&action=edit&section=T-1 "Template:cpp/container/swap2")] Parameters
+### Parameters
 
 lhs, rhs  |  \-  |  containers whose contents to swap   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/swap2&action=edit&section=T-2 "Template:cpp/container/swap2")] Complexity
+### Complexity
 
 Same as swapping the underlying containers. 
 
@@ -148,7 +148,7 @@ Same as swapping the underlying containers.
 
 Although the overloads of [std::swap](../../utility/swap.html "cpp/algorithm/swap") for container adaptors are introduced in C++11, container adaptors can already be swapped by [std::swap](../../utility/swap.html "cpp/algorithm/swap") in C++98. Such calls to [std::swap](../../utility/swap.html "cpp/algorithm/swap") usually have linear time complexity, but better complexity may be provided. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/swap2&action=edit&section=T-5 "Template:cpp/container/swap2")] Example
+### Example
 
 Run this code
     
@@ -194,8 +194,8 @@ Output:
     Alice: size=4 top=10
     Bobby: size=3 top=3
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/swap2&action=edit&section=T-6 "Template:cpp/container/swap2")] See also
+### See also
 
 [ swap](swap.html "cpp/container/stack/swap")(C++11) |  swaps the contents   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_swap&action=edit)  
+(public member function)   
 ---|---

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header was originally in the C standard library as [`<time.h>`](../../c/header/time.html "c/header/time"). 
 
@@ -219,52 +219,52 @@ This header is part of the [C-style date and time](../chrono/c.html "cpp/chrono/
 ###  Macro constants  
   
 [ CLOCKS_PER_SEC](../chrono/c/CLOCKS_PER_SEC.html "cpp/chrono/c/CLOCKS PER SEC") |  number of processor clock ticks per second   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/c/dsc_CLOCKS_PER_SEC&action=edit)  
+(macro constant)   
 [ NULL](../types/NULL.html "cpp/types/NULL") |  implementation-defined null pointer constant   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_NULL&action=edit)  
+(macro constant)   
   
 ###  Types  
   
 [ clock_t](../chrono/c/clock_t.html "cpp/chrono/c/clock t") |  process running time   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/c/dsc_clock_t&action=edit)  
+(typedef)   
 [ size_t](../types/size_t.html "cpp/types/size t") |  unsigned integer type returned by the [`sizeof`](../language/sizeof.html "cpp/language/sizeof") operator   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_size_t&action=edit)  
+(typedef)   
 [ time_t](../chrono/c/time_t.html "cpp/chrono/c/time t") |  time since epoch type   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/c/dsc_time_t&action=edit)  
+(typedef)   
 [ tm](../chrono/c/tm.html "cpp/chrono/c/tm") |  calendar time type   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/c/dsc_tm&action=edit)  
+(class)   
 [ timespec](../chrono/c/timespec.html "cpp/chrono/c/timespec")(C++17) |  time in seconds and nanoseconds  
-(struct)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/c/dsc_timespec&action=edit)  
+(struct)  
   
 ###  Functions  
   
 #####  Time manipulation   
   
 [ clock](../chrono/c/clock.html "cpp/chrono/c/clock") |  returns raw processor clock time since the program is started   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/c/dsc_clock&action=edit)  
+(function)   
 [ time](../chrono/c/time.html "cpp/chrono/c/time") |  returns the current time of the system as time since epoch   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/c/dsc_time&action=edit)  
+(function)   
 [ difftime](../chrono/c/difftime.html "cpp/chrono/c/difftime") |  computes the difference between times   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/c/dsc_difftime&action=edit)  
+(function)   
 [ timespec_get](../chrono/c/timespec_get.html "cpp/chrono/c/timespec get")(C++17) |  returns the calendar time in seconds and nanoseconds based on a given time base   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/c/dsc_timespec_get&action=edit)  
+(function)   
   
 #####  Format conversions   
   
 [ ctime](../chrono/c/ctime.html "cpp/chrono/c/ctime") |  converts a [std::time_t](../chrono/c/time_t.html "cpp/chrono/c/time t") object to a textual representation   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/c/dsc_ctime&action=edit)  
+(function)   
 [ asctime](../chrono/c/asctime.html "cpp/chrono/c/asctime") |  converts a [std::tm](../chrono/c/tm.html "cpp/chrono/c/tm") object to a textual representation   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/c/dsc_asctime&action=edit)  
+(function)   
 [ strftime](../chrono/c/strftime.html "cpp/chrono/c/strftime") |  converts a [std::tm](../chrono/c/tm.html "cpp/chrono/c/tm") object to custom textual representation   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/c/dsc_strftime&action=edit)  
+(function)   
 [ gmtime](../chrono/c/gmtime.html "cpp/chrono/c/gmtime") |  converts time since epoch to calendar time expressed as Universal Coordinated Time   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/c/dsc_gmtime&action=edit)  
+(function)   
 [ localtime](../chrono/c/localtime.html "cpp/chrono/c/localtime") |  converts time since epoch to calendar time expressed as local time   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/c/dsc_localtime&action=edit)  
+(function)   
 [ mktime](../chrono/c/mktime.html "cpp/chrono/c/mktime") |  converts calendar time to time since epoch   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/c/dsc_mktime&action=edit)  
+(function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/ctime&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     #define NULL /* see description */
@@ -291,7 +291,7 @@ This header is part of the [C-style date and time](../chrono/c.html "cpp/chrono/
       size_t strftime(char* s, size_t maxsize, const char* format, const tm* timeptr);
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/ctime&action=edit&section=2 "Edit section: Class std::timespec")] Class [std::timespec](../chrono/c/timespec.html "cpp/chrono/c/timespec")
+### Class [std::timespec](../chrono/c/timespec.html "cpp/chrono/c/timespec")
     
     
     struct timespec {
@@ -299,7 +299,7 @@ This header is part of the [C-style date and time](../chrono/c.html "cpp/chrono/
       long tv_nsec;
     };
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/ctime&action=edit&section=3 "Edit section: Class std::tm")] Class [std::tm](../chrono/c/tm.html "cpp/chrono/c/tm")
+### Class [std::tm](../chrono/c/tm.html "cpp/chrono/c/tm")
     
     
     struct tm {

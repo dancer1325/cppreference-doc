@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ named requirements](../iterator/concepts.html "cpp/named req")
 
@@ -147,7 +147,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/named_req/navbar_content&action=edit)
+
 
 The **LegacyIterator** requirements describe types that can be used to identify and traverse the elements of a container. 
 
@@ -166,7 +166,7 @@ All the categories of iterators require only those functions that are realizable
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/Iterator&action=edit&section=1 "Edit section: Requirements")] Requirements
+### Requirements
 
 The type `It` satisfies LegacyIterator if 
 
@@ -199,7 +199,7 @@ where the exposition-only concept __Referenceable<T> is satisfied if and only if
 
 (since C++20)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/Iterator&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Note on terminology: The following table shows the names used on this site and corresponding C++ Standard names (with the same meaning). The "Legacy" (and “Cpp17”) prefix emphasizes compatibility with pre-C++20 standards and is used to distinguish these requirements from the new [iterator concepts](../iterator.html#Iterator_concepts "cpp/iterator") introduced with C++20. 
 
@@ -217,7 +217,7 @@ cppreference names  | C++ Standard names  | C++20 iterator concepts
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/Iterator&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -226,9 +226,9 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [LWG 2437](https://cplusplus.github.io/LWG/issue2437) | C++98  | *r is required to be `reference` | not required for output iterators   
 [LWG 3420](https://cplusplus.github.io/LWG/issue3420) | C++20  | the exposition-only concept checks `copyable` first  | `copyable` is checked only if the requires-expression yields true   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/Iterator&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ input_or_output_iterator](../iterator/input_or_output_iterator.html "cpp/iterator/input or output iterator")(C++20) |  specifies that objects of a type can be incremented and dereferenced   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_input_or_output_iterator&action=edit)  
+(concept)   
 ---|---  
 [**Iterator library**](../iterator.html "cpp/iterator") |  provides definitions for iterators, iterator traits, adaptors, and utility functions 

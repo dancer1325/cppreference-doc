@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Expressions](expressions.html "cpp/language/expressions")
 
@@ -289,7 +289,7 @@ Conversions
 [`dynamic_cast`](dynamic_cast.html "cpp/language/dynamic cast")  
 [`reinterpret_cast`](reinterpret_cast.html "cpp/language/reinterpret cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/expressions/navbar_content&action=edit)
+
 
 ## Contents
 
@@ -304,25 +304,25 @@ Conversions
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/bool_literal&action=edit&section=1 "Edit section: Syntax")] Syntax  
+### Syntax  
   
 ---  
 `**true**` |  (1)  |   
 `**false**` |  (2)  |   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/bool_literal&action=edit&section=2 "Edit section: Explanation")] Explanation
+### Explanation
 
 The Boolean literals are the keywords true and false. They are [prvalues](value_category.html#prvalue "cpp/language/value category") of type [`bool`](types.html#Boolean_type "cpp/language/types"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/bool_literal&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 See [Integral conversions](implicit_cast.html#Integral_conversions "cpp/language/implicit cast") for implicit conversions from `bool` to other types and [boolean conversions](implicit_cast.html#Boolean_conversions "cpp/language/implicit cast") for the implicit conversions from other types to `bool`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/bool_literal&action=edit&section=4 "Edit section: Keywords")] Keywords
+### Keywords
 
 [`false`](../keyword/false.html "cpp/keyword/false"), [`true`](../keyword/true.html "cpp/keyword/true")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/bool_literal&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -347,7 +347,7 @@ Output:
     1
     0
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/bool_literal&action=edit&section=6 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -409,7 +409,7 @@ Output:
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/bool_literal&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [C documentation](../../c/language/bool_constant.html "c/language/bool constant") for Predefined Boolean constants  
 ---

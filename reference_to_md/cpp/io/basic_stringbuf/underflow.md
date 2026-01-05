@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_stringbuf`](../basic_stringbuf.html "cpp/io/basic stringbuf")
 
@@ -101,7 +101,7 @@ Non-member functions
 Exposition-only member functions  
 [basic_stringbuf::_init_buf_ptrs_](init_buf_ptrs.html "cpp/io/basic stringbuf/init buf ptrs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_stringbuf/navbar_content&action=edit)
+
 
 protected:  
 virtual int_type underflow() |  |   
@@ -131,15 +131,15 @@ Any character in the buffer which has been initialized, regardless of whether it
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_stringbuf/underflow&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_stringbuf/underflow&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Traits::to_int_type(*gptr()) (the next character to read in the get area) in case of success, or Traits::eof() in case of failure. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_stringbuf/underflow&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -223,7 +223,7 @@ Possible output:
     underflow() returns EOF
     n = 456
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_stringbuf/underflow&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -232,14 +232,14 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [LWG 432](https://cplusplus.github.io/LWG/issue432) | C++98  | it was unclear whether characters appended by [overflow()](overflow.html "cpp/io/basic stringbuf/overflow")  
 are considered to be part of the input sequence  | made clear   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_stringbuf/underflow&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ underflow](../basic_streambuf/underflow.html "cpp/io/basic streambuf/underflow")[virtual] |  reads characters from the associated input sequence to the get area   
-(virtual protected member function of `std::basic_streambuf<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_streambuf/dsc_underflow&action=edit)  
+(virtual protected member function of `std::basic_streambuf<CharT,Traits>`)   
 ---|---  
 [ underflow](../basic_filebuf/underflow.html "cpp/io/basic filebuf/underflow")[virtual] |  reads from the associated file   
-(virtual protected member function of `std::basic_filebuf<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_filebuf/dsc_underflow&action=edit)  
+(virtual protected member function of `std::basic_filebuf<CharT,Traits>`)   
 [ underflow](../strstreambuf/underflow.html "cpp/io/strstreambuf/underflow")[virtual] |  reads a character from the input sequence without advancing the next pointer   
-(virtual protected member function of `std::strstreambuf`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/strstreambuf/dsc_underflow&action=edit)  
+(virtual protected member function of `std::strstreambuf`)   
 [ sgetc](../basic_streambuf/sgetc.html "cpp/io/basic streambuf/sgetc") |  reads one character from the input sequence without advancing the sequence   
-(public member function of `std::basic_streambuf<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_streambuf/dsc_sgetc&action=edit)
+(public member function of `std::basic_streambuf<CharT,Traits>`) 

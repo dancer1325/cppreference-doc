@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Function objects](../../functional.html "cpp/utility/functional")
 
@@ -255,7 +255,7 @@ Identity function object
 [unary_negate](unary_negate.html "cpp/utility/functional/unary negate")(until C++20*)  
 [binary_negate](binary_negate.html "cpp/utility/functional/binary negate")(until C++20*)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/navbar_content&action=edit)
+
 
 Defined in header `[<functional>](../../header/functional.html "cpp/header/functional")` |  |   
 ---|---|---  
@@ -287,7 +287,7 @@ A searcher suitable for use with the [Searcher](https://en.cppreference.com/mwik
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/boyer_moore_searcher&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 ##  std::boyer_moore_searcher::boyer_moore_searcher
 
@@ -345,13 +345,13 @@ If the pattern `[`pat_first`, `pat_last`)` is empty, returns [std::make_pair](..
 
 Otherwise, returns a pair of iterators to the first and one past last positions in `[`first`, `last`)` where a subsequence that compares equal to `[`pat_first`, `pat_last`)` as defined by pred is located, or [std::make_pair](../pair/make_pair.html)(last, last) otherwise. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/boyer_moore_searcher&action=edit&section=6 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../feature_test.html "cpp/utility/feature test") macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_boyer_moore_searcher`](../../experimental/feature_test.html#cpp_lib_boyer_moore_searcher "cpp/feature test") | [`201603L`](../../compiler_support/17.html#cpp_lib_boyer_moore_searcher_201603L "cpp/compiler support/17") | (C++17) | [searchers](../../functional.html#Searchers "cpp/utility/functional")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/boyer_moore_searcher&action=edit&section=7 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -385,14 +385,14 @@ Output:
     
     The string "pisci" found at offset 43
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/boyer_moore_searcher&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [ search](../../algorithm/search.html "cpp/algorithm/search") |  searches for the first occurrence of a range of elements   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_search&action=edit)  
+(function template)   
 ---|---  
 [ default_searcher](default_searcher.html "cpp/utility/functional/default searcher")(C++17) |  standard C++ library search algorithm implementation   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_default_searcher&action=edit)  
+(class template)   
 [ boyer_moore_horspool_searcher](boyer_moore_horspool_searcher.html "cpp/utility/functional/boyer moore horspool searcher")(C++17) |  Boyer-Moore-Horspool search algorithm implementation   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_boyer_moore_horspool_searcher&action=edit)
+(class template) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

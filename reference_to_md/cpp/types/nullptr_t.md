@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Type support](../utility/rtti.html "cpp/types")
 
@@ -161,7 +161,7 @@ Runtime type information
 ---  
 [bad_cast](bad_cast.html "cpp/types/bad cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/navbar_content&action=edit)
+
 
 Defined in header `[<cstddef>](../header/cstddef.html "cpp/header/cstddef")` |  |   
 ---|---|---  
@@ -172,7 +172,7 @@ using nullptr_t = decltype(nullptr); |  |  (since C++11)
 
 sizeof(std::nullptr_t) is equal to sizeof(void *). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/nullptr_t&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 The C++ standard requires [`<stddef.h>`](../../c/header/stddef.html "c/header/stddef") to place the contents of [`<cstddef>`](../header/cstddef.html "cpp/header/cstddef") in the global namespace, and thereby requires `nullptr_t` to be available in the global namespace when [`<stddef.h>`](../../c/header/stddef.html "c/header/stddef") is included. 
 
@@ -180,7 +180,7 @@ The C++ standard requires [`<stddef.h>`](../../c/header/stddef.html "c/header/st
 
 It is unspecified whether the declaration of `std::nullptr_t` is available in any other standard library header. An implementation may avoid introducing this name even when the standard requires `std::nullptr_t` to be used, by e.g. spelling decltype(nullptr) instead. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/nullptr_t&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 If two or more overloads accept different pointer types, an overload for `std::nullptr_t` is necessary to accept a null pointer argument.
 
@@ -225,12 +225,12 @@ Output:
     Pointer to double overload
     null pointer overload
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/nullptr_t&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
-[`nullptr`](../language/nullptr.html "cpp/language/nullptr") (C++11) |  the pointer literal which specifies a null pointer value[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_nullptr&action=edit)  
+[`nullptr`](../language/nullptr.html "cpp/language/nullptr") (C++11) |  the pointer literal which specifies a null pointer value  
 ---|---  
 [ NULL](NULL.html "cpp/types/NULL") |  implementation-defined null pointer constant   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_NULL&action=edit)  
+(macro constant)   
 [ is_null_pointer](is_null_pointer.html "cpp/types/is null pointer")(C++11)(DR*) |  checks if a type is **std::nullptr_t**   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_null_pointer&action=edit)  
+(class template)   
 [C documentation](../../c/types/nullptr_t.html "c/types/nullptr t") for nullptr_t

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [`std::complex`](../complex.html "cpp/numeric/complex")
 
@@ -164,7 +164,7 @@
 [tuple_size<std::complex>](tuple_size.html "cpp/numeric/complex/tuple size")(C++26)  
 [tuple_element<std::complex>](tuple_element.html "cpp/numeric/complex/tuple element")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/navbar_content&action=edit)
+
 
 Defined in header `[<complex>](../../header/complex.html "cpp/header/complex")` |  |   
 ---|---|---  
@@ -188,17 +188,17 @@ The behavior is undefined if r is negative or NaN, or if theta is infinite.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/polar&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 r  |  \-  |  magnitude   
 ---|---|---  
 theta  |  \-  |  phase angle   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/polar&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 A complex number determined by r and theta. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/polar&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 std::polar(r, theta) is equivalent to any of the following expressions: 
 
@@ -210,7 +210,7 @@ std::polar(r, theta) is equivalent to any of the following expressions:
 
 Using polar instead of exp can be about **4.5x** faster in vectorized loops. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/polar&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -250,7 +250,7 @@ Output:
     +180° │ (-1.0,+0.0) │ (-1.0,+0.0) │ (-1.0,+0.0) │ (-1.0,+0.0)
     +270° │ (-0.0,-1.0) │ (-0.0,-1.0) │ (-0.0,-1.0) │ (-0.0,-1.0)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/polar&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -259,12 +259,12 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [LWG 2459](https://cplusplus.github.io/LWG/issue2459) | C++98  | behavior unclear for some inputs  | made undefined   
 [LWG 2870](https://cplusplus.github.io/LWG/issue2870) | C++98  | default value of parameter theta not dependent  | made dependent   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/polar&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ abs(std::complex)](abs.html "cpp/numeric/complex/abs") |  returns the magnitude of a complex number   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_abs&action=edit)  
+(function template)   
 ---|---  
 [ arg](arg.html "cpp/numeric/complex/arg") |  returns the phase angle   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_arg&action=edit)  
+(function template)   
 [ exp(std::complex)](exp.html "cpp/numeric/complex/exp") |  complex base _e_ exponential   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_exp&action=edit)
+(function template) 

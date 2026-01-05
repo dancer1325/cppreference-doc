@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Localization library](../locale.html "cpp/locale")
 
@@ -152,7 +152,7 @@ base classes](../locale.html#Facet_category_base_classes "cpp/locale")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/navbar_content&action=edit)
+
 
 Defined in header `[<locale>](../header/locale.html "cpp/header/locale")` |  |   
 ---|---|---  
@@ -177,20 +177,20 @@ The program is ill-formed if Facet is not a [facet](locale/facet.html#Facet_clas
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/use_facet&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 loc  |  \-  |  the locale object to query   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/use_facet&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Returns a reference to the facet. The reference returned by this function is valid as long as any [std::locale](locale.html "cpp/locale/locale") object refers to that facet. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/use_facet&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 [std::bad_cast](../types/bad_cast.html "cpp/types/bad cast") if [std::has_facet](has_facet.html)<Facet>(loc) == false. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/use_facet&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 A [std::locale](locale.html "cpp/locale/locale") object should not be a temporary if a reference to the `Facet` object obtained from `use_facet` is used after the end of statement: 
     
@@ -204,7 +204,7 @@ A [std::locale](locale.html "cpp/locale/locale") object should not be a temporar
     auto& f = std::use_facet<[std::moneypunct](moneypunct.html)<char, true>>(loc);
     foo(f.curr_symbol()); // OK: f internally uses a reference to existing locale object.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/use_facet&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Display the 3-letter currency name used by the user's preferred locale.
 
@@ -229,7 +229,7 @@ Output:
     Your currency string is EUR
     Your currency string is GBP
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/use_facet&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -241,10 +241,10 @@ long as some locale object refers to that facet
 [LWG 38](https://cplusplus.github.io/LWG/issue38) | C++98  | `Facet` was not required to have a direct member `**id**` | required   
 [LWG 436](https://cplusplus.github.io/LWG/issue436) | C++98  | it was unclear whether `Facet` can be cv-qualified  | it can be const-qualified, but not volatile-qualified   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/use_facet&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ locale](locale.html "cpp/locale/locale") |  set of polymorphic facets that encapsulate cultural differences   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_locale&action=edit)  
+(class)   
 ---|---  
 [ has_facet](has_facet.html "cpp/locale/has facet") |  checks if a locale implements a specific facet   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_has_facet&action=edit)
+(function template) 

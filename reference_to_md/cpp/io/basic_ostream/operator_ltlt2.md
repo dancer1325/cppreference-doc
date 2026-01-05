@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_ostream`](../basic_ostream.html "cpp/io/basic ostream")
 
@@ -116,7 +116,7 @@ Non-member functions
 [vprint_unicode(std::ostream)](vprint_unicode.html "cpp/io/basic ostream/vprint unicode")(C++23)  
 [vprint_nonunicode(std::ostream)](vprint_nonunicode.html "cpp/io/basic ostream/vprint nonunicode")(C++23)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ostream/navbar_content&action=edit)
+
 
 Defined in header `[<ostream>](../../header/ostream.html "cpp/header/ostream")` |  |   
 ---|---|---  
@@ -251,24 +251,24 @@ If s is a null pointer, the behavior is undefined.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_ostream/operator_ltlt2&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 os  |  \-  |  output stream to insert data to   
 ---|---|---  
 ch  |  \-  |  reference to a character to insert   
 s  |  \-  |  pointer to a character string to insert   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_ostream/operator_ltlt2&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1,2) os
 
 3) std::move(os)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_ostream/operator_ltlt2&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Before [LWG issue 1203](https://cplusplus.github.io/LWG/issue1203), code such as ([std::ostringstream](../basic_ostringstream.html)() << 1.2).str() does not compile. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_ostream/operator_ltlt2&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -302,7 +302,7 @@ Output:
     Hello, world
     !
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_ostream/operator_ltlt2&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -317,12 +317,12 @@ to the derived class
 [LWG 2011](https://cplusplus.github.io/LWG/issue2011) | C++98  | padding was determined by [std::num_put::do_put()](../../locale/num_put/put.html "cpp/locale/num put/put") | determined by the operator itself   
 [LWG 2534](https://cplusplus.github.io/LWG/issue2534) | C++11  | overload for rvalue stream was not constrained  | constrained   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_ostream/operator_ltlt2&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ operator<<](operator_ltlt.html "cpp/io/basic ostream/operator ltlt") |  inserts formatted data   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ostream/dsc_operator_ltlt&action=edit)  
+(public member function)   
 ---|---  
 [ print(std::ostream)](print.html "cpp/io/basic ostream/print")(C++23) |  outputs [formatted](../../utility/format.html "cpp/utility/format") representation of the arguments   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ostream/dsc_print&action=edit)  
+(function template)   
 [ widen](../basic_ios/widen.html "cpp/io/basic ios/widen") |  widens characters   
-(public member function of `std::basic_ios<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ios/dsc_widen&action=edit)
+(public member function of `std::basic_ios<CharT,Traits>`) 

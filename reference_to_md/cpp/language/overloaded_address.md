@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Functions](functions.html "cpp/language/functions")
 
@@ -245,7 +245,7 @@ Overloading
 [Operator overloading](operators.html "cpp/language/operators")  
 **Address of an overload set**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/functions/navbar_content&action=edit)
+
 
 Besides [function-call expressions](operator_other.html "cpp/language/operator other"), where [overload resolution](overload_resolution.html "cpp/language/overload resolution") takes place, the name of an overloaded function may appear in the following 7 contexts: 
 
@@ -275,7 +275,7 @@ If the target type contains a [placeholder type](auto.html "cpp/language/auto"),
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/overloaded_address&action=edit&section=1 "Edit section: Selecting functions")] Selecting functions
+### Selecting functions
 
 When the address of an overloaded function is taken, a set `S` of functions is selected from the overload set referred to by the name of the overload function: 
 
@@ -291,7 +291,7 @@ If the target is of function pointer type or reference to function type, `S` can
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/overloaded_address&action=edit&section=2 "Edit section: Eliminating functions")] Eliminating functions
+### Eliminating functions
 
 After forming the set `S`, functions are elimiated in the following order: 
 
@@ -315,7 +315,7 @@ After forming the set `S`, functions are elimiated in the following order:
 
 After such eliminations (if any), exactly one selected function should remain in `S`. Otherwise, the program is ill-formed. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/overloaded_address&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -373,7 +373,7 @@ Run this code
         [](...){}(pf, rf, mpf, foo, p, t);
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/overloaded_address&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -387,7 +387,7 @@ template arguments were not selected from the overload set  | also selected
 [CWG 1563](https://cplusplus.github.io/CWG/issues/1563.html) | C++11  | it was unclear whether list-initialization is a context  
 of taking the address of an overloaded function  | made clear   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/overloaded_address&action=edit&section=5 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 

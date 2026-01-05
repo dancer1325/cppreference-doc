@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Classes](classes.html "cpp/language/classes")
 
@@ -261,7 +261,7 @@ Inheritance
 [`override` specifier](override.html "cpp/language/override") (C++11)  
 [`final` specifier](final.html "cpp/language/final") (C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/classes/navbar_content&action=edit)
+
 
 Allows the size of an empty base subobject to be zero. 
 
@@ -275,7 +275,7 @@ Allows the size of an empty base subobject to be zero.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/ebo&action=edit&section=1 "Edit section: Explanation")] Explanation
+### Explanation
 
 The size of any [object](objects.html "cpp/language/object") or member subobject is required to be at least 1 even if the type is an empty [class type](class.html "cpp/language/class") (that is, a class or struct that has no non-static data members), (unless with `[[[no_unique_address](attributes/no_unique_address.html "cpp/language/attributes/no unique address")]]`, see below)(since C++20) in order to be able to guarantee that the addresses of distinct objects of the same type are always distinct. 
 
@@ -365,13 +365,13 @@ The empty member subobjects are permitted to be optimized out just like the empt
 | (since C++20)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/ebo&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 Empty base optimization is commonly used by allocator-aware standard library classes ([std::vector](../container/vector.html "cpp/container/vector"), [std::function](../utility/functional/function.html "cpp/utility/functional/function"), [std::shared_ptr](../memory/shared_ptr.html "cpp/memory/shared ptr"), etc) to avoid occupying any additional storage for its allocator member if the allocator is stateless. This is achieved by storing one of the required data members (e.g., `begin`, `end`, or `capacity` pointer for the `vector`) in an equivalent of [`boost::compressed_pair`](https://www.boost.org/doc/libs/release/libs/utility/doc/html/utility/utilities/compressed_pair.html) with the allocator. 
 
 In MSVC, empty base optimization is not fully compliant with the standard requirements ([Why is the empty base class optimization (EBO) is not working in MSVC?](https://stackoverflow.com/questions/12701469/why-is-the-empty-base-class-optimization-ebo-is-not-working-in-msvc)). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/ebo&action=edit&section=3 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -535,7 +535,7 @@ In MSVC, empty base optimization is not fully compliant with the standard requir
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/ebo&action=edit&section=4 "Edit section: External links")] External links
+### External links
 
 [More C++ Idioms/Empty Base Optimization](https://en.wikibooks.org/wiki/More_C%2B%2B_Idioms/Empty_Base_Optimization) — A wikibook   
 ---

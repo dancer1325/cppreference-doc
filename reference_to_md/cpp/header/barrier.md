@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header is part of the [thread support](../atomic.html "cpp/thread") library. 
 
@@ -202,9 +202,9 @@ This header is part of the [thread support](../atomic.html "cpp/thread") library
   
 ---  
 [ barrier](../thread/barrier.html "cpp/thread/barrier")(C++20) |  reusable thread barrier   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_barrier&action=edit)  
+(class template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/barrier&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     namespace std {
@@ -212,7 +212,7 @@ This header is part of the [thread support](../atomic.html "cpp/thread") library
         class barrier;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/barrier&action=edit&section=T-1 "Template:cpp/synopsis/barrier")] Class template [std::barrier](../thread/barrier.html "cpp/thread/barrier")
+#### Class template [std::barrier](../thread/barrier.html "cpp/thread/barrier")
     
     
     namespace std {

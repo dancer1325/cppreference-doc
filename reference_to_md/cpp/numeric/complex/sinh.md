@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [`std::complex`](../complex.html "cpp/numeric/complex")
 
@@ -164,7 +164,7 @@
 [tuple_size<std::complex>](tuple_size.html "cpp/numeric/complex/tuple size")(C++26)  
 [tuple_element<std::complex>](tuple_element.html "cpp/numeric/complex/tuple element")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/navbar_content&action=edit)
+
 
 Defined in header `[<complex>](../../header/complex.html "cpp/header/complex")` |  |   
 ---|---|---  
@@ -186,16 +186,16 @@ Computes complex hyperbolic sine of a complex value z.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/sinh&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 z  |  \-  |  complex value   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/sinh&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 If no errors occur, complex hyperbolic sine of z is returned. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/sinh&action=edit&section=3 "Edit section: Error handling and special values")] Error handling and special values
+### Error handling and special values
 
 Errors are reported consistent with [math_errhandling](../math/math_errhandling.html "cpp/numeric/math/math errhandling"). 
 
@@ -220,7 +220,7 @@ If the implementation supports IEEE floating-point arithmetic,
 
 where cis(y) is cos(y) + i sin(y). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/sinh&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 Mathematical definition of hyperbolic sine is sinh z = ez  
 -e-z  
@@ -231,7 +231,7 @@ Mathematical definition of hyperbolic sine is sinh z = ez
 
 Hyperbolic sine is an entire function in the complex plane and has no branch cuts. It is periodic with respect to the imaginary component, with period 2πi. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/sinh&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -258,17 +258,17 @@ Output:
     sinh(1.000000,0.000000) = (1.175201,0.000000) (sinh(1) = 1.175201)
     sinh(0.000000,1.000000) = (0.000000,0.841471) ( sin(1) = 0.841471)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/sinh&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ cosh(std::complex)](cosh.html "cpp/numeric/complex/cosh") |  computes hyperbolic cosine of a complex number (\\({\small\cosh{z}}\\)cosh(z))   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_cosh&action=edit)  
+(function template)   
 ---|---  
 [ tanh(std::complex)](tanh.html "cpp/numeric/complex/tanh") |  computes hyperbolic tangent of a complex number (\\({\small\tanh{z}}\\)tanh(z))   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_tanh&action=edit)  
+(function template)   
 [ asinh(std::complex)](asinh.html "cpp/numeric/complex/asinh")(C++11) |  computes area hyperbolic sine of a complex number (\\({\small\operatorname{arsinh}{z}}\\)arsinh(z))   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_asinh&action=edit)  
+(function template)   
 [ sinhsinhfsinhl](../math/sinh.html "cpp/numeric/math/sinh")(C++11)(C++11) |  computes hyperbolic sine (\\({\small\sinh{x}}\\)sinh(x))   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_sinh&action=edit)  
+(function)   
 [ sinh(std::valarray)](../valarray/sinh.html "cpp/numeric/valarray/sinh") |  applies the function [std::sinh](../math/sinh.html "cpp/numeric/math/sinh") to each element of valarray   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_sinh&action=edit)  
+(function template)   
 [C documentation](../../../c/numeric/complex/csinh.html "c/numeric/complex/csinh") for csinh

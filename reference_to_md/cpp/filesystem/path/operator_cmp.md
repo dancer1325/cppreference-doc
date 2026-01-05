@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Filesystem library](../../filesystem.html "cpp/filesystem")
 
@@ -100,7 +100,7 @@ filesystem::symlink_status](../status.html "cpp/filesystem/status")
 [filesystem::is_socket](../is_socket.html "cpp/filesystem/is socket")  
 [filesystem::is_symlink](../is_symlink.html "cpp/filesystem/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/navbar_content&action=edit)
+
 
 [`std::filesystem::path`](../path.html "cpp/filesystem/path")
 
@@ -169,7 +169,7 @@ filesystem::symlink_status](../status.html "cpp/filesystem/status")
 | [formatter<std::filesystem::path>](formatter.html "cpp/filesystem/path/formatter")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/path/navbar_content&action=edit)
+
 
 friend bool operator==( const path& lhs, const path& rhs ) noexcept; |  (1)  |  (since C++17)  
 ---|---|---  
@@ -220,18 +220,18 @@ The `<`, `<=`, `>`, `>=`, and `!=` operators are [synthesized](../../language/op
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/operator_cmp&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 lhs, rhs  |  \-  |  the paths to compare   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/operator_cmp&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1-6) true if the corresponding comparison yields, false otherwise.
 
 7) std::strong_ordering::less if lhs is less than rhs, otherwise std::strong_ordering::greater if rhs is less than lhs, otherwise std::strong_ordering::equal.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/operator_cmp&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Path equality and equivalence have different semantics. 
 
@@ -239,13 +239,13 @@ In the case of equality, as determined by `operator==`, only lexical representat
 
 In the case of equivalence, as determined by [std::filesystem::equivalent()](../equivalent.html "cpp/filesystem/equivalent"), it is checked whether two paths _resolve_ to the same file system object. Thus equivalent("a", "b") will return true if the paths resolve to the same file. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/operator_cmp&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/operator_cmp&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -253,10 +253,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 3065](https://cplusplus.github.io/LWG/issue3065) | C++17  | allowed comparison of everything convertible to `path` in the presence of a _using-directive_ | made hidden friend   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/operator_cmp&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ compare](compare.html "cpp/filesystem/path/compare") |  compares the lexical representations of two paths lexicographically   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/path/dsc_compare&action=edit)  
+(public member function)   
 ---|---  
 [ equivalent](../equivalent.html "cpp/filesystem/equivalent")(C++17) |  checks whether two paths refer to the same file system object   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_equivalent&action=edit)
+(function) 

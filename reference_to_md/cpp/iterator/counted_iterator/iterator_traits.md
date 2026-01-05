@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](../empty.html "cpp/iterator/empty")(C++17)  
 [data](../data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 [`std::counted_iterator`](../counted_iterator.html "cpp/iterator/counted iterator")
 
@@ -218,7 +218,7 @@
 [Helper classes](../counted_iterator.html#Helper_classes "cpp/iterator/counted iterator")  
 **iterator_traits <std::counted_iterator>**(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/counted_iterator/navbar_content&action=edit)
+
 
 Defined in header `[<iterator>](../../header/iterator.html "cpp/header/iterator")` |  |   
 ---|---|---  
@@ -247,13 +247,13 @@ The condition in the requires-clause is true if and only if [std::iterator_trait
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/counted_iterator/iterator_traits&action=edit&section=1 "Edit section: Note")] Note
+### Note
 
 Before [P2259R1](https://wg21.link/P2259R1), this specialization is used even if [std::iterator_traits](../iterator_traits.html)<I> is generated from the primary template. As a result, when testing [std::counted_iterator](../counted_iterator.html)<I> against an iterator concept (e.g. [`forward_iterator`](../forward_iterator.html "cpp/iterator/forward iterator")), the determination of /*ITER_CONCEPT*/ does not take `I::iterator_concept` into account, and thus [std::counted_iterator](../counted_iterator.html)<I> sometimes erroneously behaves as if it cannot model that concept. This incorrect behavior is implemented in libstdc++ prior to 10.4, and in MSVC STL prior to VS 2022 17.0 Preview 3. 
 
 The standard library provides partial specializations of [std::iterator_traits](../iterator_traits.html "cpp/iterator/iterator traits") for pointer types, [std::counted_iterator](../counted_iterator.html "cpp/iterator/counted iterator"), and [std::common_iterator](../common_iterator.html "cpp/iterator/common iterator"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/counted_iterator/iterator_traits&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -273,7 +273,7 @@ Run this code
         static_assert([std::is_same](../../types/is_same.html)<void, [std::iterator_traits](../iterator_traits.html)<decltype(il)>::pointer>());
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/counted_iterator/iterator_traits&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -282,7 +282,7 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [P2259R1](https://wg21.link/P2259R1) | C++20  | there's no requires-clause  
 `pointer` is unconditionally defined as `void` | constraint added   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/counted_iterator/iterator_traits&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ iterator_traits](../iterator_traits.html "cpp/iterator/iterator traits") |  provides uniform interface to the properties of an iterator   
 (class template)  

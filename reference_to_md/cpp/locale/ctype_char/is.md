@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Localization library](../../locale.html "cpp/locale")
 
@@ -152,7 +152,7 @@ base classes](../../locale.html#Facet_category_base_classes "cpp/locale")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/navbar_content&action=edit)
+
 
 [`std::ctype`](../ctype.html "cpp/locale/ctype")
 
@@ -176,7 +176,7 @@ Member functions of ctype<char>
 [ctype<char>::scan_is](scan_is.html "cpp/locale/ctype char/scan is")  
 [ctype<char>::scan_not](scan_not.html "cpp/locale/ctype char/scan not")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/ctype/navbar_content&action=edit)
+
 
 Defined in header `[<locale>](../../header/locale.html "cpp/header/locale")` |  |   
 ---|---|---  
@@ -202,7 +202,7 @@ If (unsigned char)c >= [std::ctype](../ctype.html)<char>::table_size, then an im
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/ctype_char/is&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 c  |  \-  |  character to classify   
 ---|---|---  
@@ -211,23 +211,23 @@ low  |  \-  |  pointer to the first character in an array of characters to class
 high  |  \-  |  one past the end pointer for the array of characters to classify   
 vec  |  \-  |  pointer to the first element of the array of masks to fill   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/ctype_char/is&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) true if c is classified by m in table(), false otherwise.
 
 2) high
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/ctype_char/is&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Unlike the primary template [std::ctype](../ctype.html), this specialization does not perform a virtual function call when classifying characters. To customize the behavior, a derived class may provide a non-default classification table to the base class constructor. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/ctype_char/is&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/ctype_char/is&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -236,8 +236,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [LWG 28](https://cplusplus.github.io/LWG/issue28) | C++98  | overload (2) copied the values from vec into table(),  
 which is the reverse of the intended behavior  | corrected   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/ctype_char/is&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ do_is](../ctype/is.html "cpp/locale/ctype/is")[virtual] |  classifies a character or a character sequence   
-(virtual protected member function of `std::ctype<CharT>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/ctype/dsc_do_is&action=edit)  
+(virtual protected member function of `std::ctype<CharT>`)   
 ---|---

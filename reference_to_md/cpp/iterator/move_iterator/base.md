@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](../empty.html "cpp/iterator/empty")(C++17)  
 [data](../data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 [`std::move_iterator`](../move_iterator.html "cpp/iterator/move iterator")
 
@@ -216,7 +216,7 @@ Non-member functions
 [iter_swap](iter_swap.html "cpp/iterator/move iterator/iter swap")(C++20)  
 [make_move_iterator](../make_move_iterator.html "cpp/iterator/make move iterator")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/move_iterator/navbar_content&action=edit)
+
 
 | (1) |   
 ---|---|---  
@@ -242,13 +242,13 @@ Returns the underlying iterator.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/move_iterator/base&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 1) `_[current](../move_iterator.html#current "cpp/iterator/move iterator")_`
 
 2) std::move(`_[current](../move_iterator.html#current "cpp/iterator/move iterator")_` ﻿)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/move_iterator/base&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -274,7 +274,7 @@ Output:
     
     4 3 2 1 0
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/move_iterator/base&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -283,8 +283,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [LWG 3391](https://cplusplus.github.io/LWG/issue3391) | C++20  | overload ([1](base.html#Version_1)) returned a copy of the underlying iterator  | returns a reference   
 [LWG 3593](https://cplusplus.github.io/LWG/issue3593) | C++20  | overload ([1](base.html#Version_1)) was not noexcept  | made noexcept   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/move_iterator/base&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ operator*operator->](operator*.html "cpp/iterator/move iterator/operator*") |  accesses the pointed-to element   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_operator*&action=edit)  
+(public member function)   
 ---|---

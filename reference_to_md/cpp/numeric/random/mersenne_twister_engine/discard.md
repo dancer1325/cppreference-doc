@@ -32,7 +32,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../../numeric.html "cpp/numeric")
 
@@ -89,7 +89,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [Pseudo-random number generation](../../random.html "cpp/numeric/random")
 
@@ -163,7 +163,7 @@
 [piecewise_constant_distribution](../piecewise_constant_distribution.html "cpp/numeric/random/piecewise constant distribution")(C++11)  
 [piecewise_linear_distribution](../piecewise_linear_distribution.html "cpp/numeric/random/piecewise linear distribution")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/navbar_content&action=edit)
+
 
 [`std::mersenne_twister_engine`](../mersenne_twister_engine.html "cpp/numeric/random/mersenne twister engine")
 
@@ -181,7 +181,7 @@ Non-member functions
 [operator==operator!=](operator_cmp.html "cpp/numeric/random/mersenne twister engine/operator cmp")(C++11)(C++11)(until C++20)  
 [operator<<operator>>](operator_ltltgtgt.html "cpp/numeric/random/mersenne twister engine/operator ltltgtgt")(C++11)(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/mersenne_twister_engine/navbar_content&action=edit)
+
 
 void discard( unsigned long long z ); |  |   
 ---|---|---  
@@ -199,21 +199,21 @@ Advances the internal state by z times.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/engine/discard&action=edit&section=T-1 "Template:cpp/numeric/random/engine/discard")] Parameters
+### Parameters
 
 z  |  \-  |  integer value specifying the number of times to advance the state by   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/engine/discard&action=edit&section=T-2 "Template:cpp/numeric/random/engine/discard")] Complexity
+### Complexity
 
 No worse than the complexity of z consecutive calls to [operator()](operator\(\).html "cpp/numeric/random/mersenne twister engine/operator\(\)"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/engine/discard&action=edit&section=T-3 "Template:cpp/numeric/random/engine/discard")] Notes
+### Notes
 
 This function can use “fast jump” algorithms which advance the state by many steps (order of millions) without calculating intermediate state transitions can be used instead of naive loops that calls [operator()](operator\(\).html "cpp/numeric/random/mersenne twister engine/operator\(\)") z times and discarding the result. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/engine/discard&action=edit&section=T-4 "Template:cpp/numeric/random/engine/discard")] See also
+### See also
 
 [ operator()](operator\(\).html "cpp/numeric/random/mersenne twister engine/operator\(\)") |  advances the engine's state and returns the generated value   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/engine/dsc_operator\(\)&action=edit)  
+(public member function) &action=edit)  
 ---|---

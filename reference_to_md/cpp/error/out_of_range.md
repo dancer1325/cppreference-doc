@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Diagnostics library](../error.html "cpp/error")
 
@@ -89,7 +89,7 @@ Exception handling failures
 [breakpoint_if_debugging](../utility/breakpoint_if_debugging.html "cpp/utility/breakpoint if debugging")(C++26)  
 [breakpoint](../utility/breakpoint.html "cpp/utility/breakpoint")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/navbar_content&action=edit)
+
 
 Defined in header `[<stdexcept>](../header/stdexcept.html "cpp/header/stdexcept")` |  |   
 ---|---|---  
@@ -128,7 +128,7 @@ Inheritance diagram
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/out_of_range&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 (constructor) |  constructs a new `out_of_range` object with the given message   
 (public member function)  
@@ -198,12 +198,12 @@ After the resolution of [LWG issue 471](https://cplusplus.github.io/LWG/issue471
 ###  Member functions
 
 [ (destructor)](exception/~exception.html "cpp/error/exception/~exception")[virtual] |  destroys the exception object   
-(virtual public member function of `std::exception`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/exception/dsc_destructor&action=edit)  
+(virtual public member function of `std::exception`)   
 ---|---  
 [ what](exception/what.html "cpp/error/exception/what")[virtual] |  returns an explanatory string   
-(virtual public member function of `std::exception`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/exception/dsc_what&action=edit)  
+(virtual public member function of `std::exception`)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/out_of_range&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 The standard error condition [std::errc::result_out_of_range](errc.html "cpp/error/errc") typically indicates the condition where the result, rather than the input, is out of range, and is more closely related to [std::range_error](range_error.html "cpp/error/range error") and [ERANGE](errno_macros.html "cpp/error/errno macros"). 
 
@@ -211,7 +211,7 @@ The standard error condition [std::errc::result_out_of_range](errc.html "cpp/err
 ---|---|---|---  
 [`__cpp_lib_constexpr_exceptions`](../experimental/feature_test.html#cpp_lib_constexpr_exceptions "cpp/feature test") | [`202502L`](../compiler_support/26.html#cpp_lib_constexpr_exceptions_202502L "cpp/compiler support/26") | (C++26) | constexpr exception types   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/out_of_range&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -222,24 +222,24 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 copies were implementation-defined  | they are the same as that of the  
 original `std::out_of_range` object   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/out_of_range&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ at](../string/basic_string/at.html "cpp/string/basic string/at") |  accesses the specified character with bounds checking   
-(public member function of `std::basic_string<CharT,Traits,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_at&action=edit)  
+(public member function of `std::basic_string<CharT,Traits,Allocator>`)   
 ---|---  
 [ at](../string/basic_string_view/at.html "cpp/string/basic string view/at") |  accesses the specified character with bounds checking   
-(public member function of `std::basic_string_view<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/dsc_at&action=edit)  
+(public member function of `std::basic_string_view<CharT,Traits>`)   
 [ at](../container/deque/at.html "cpp/container/deque/at") |  access specified element with bounds checking   
-(public member function of `std::deque<T,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_at&action=edit)  
+(public member function of `std::deque<T,Allocator>`)   
 [ at](../container/map/at.html "cpp/container/map/at") |  access specified element with bounds checking   
-(public member function of `std::map<Key,T,Compare,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_at&action=edit)  
+(public member function of `std::map<Key,T,Compare,Allocator>`)   
 [ at](../container/unordered_map/at.html "cpp/container/unordered map/at") |  access specified element with bounds checking   
-(public member function of `std::unordered_map<Key,T,Hash,KeyEqual,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_at&action=edit)  
+(public member function of `std::unordered_map<Key,T,Hash,KeyEqual,Allocator>`)   
 [ at](../container/vector/at.html "cpp/container/vector/at") |  access specified element with bounds checking   
-(public member function of `std::vector<T,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_at&action=edit)  
+(public member function of `std::vector<T,Allocator>`)   
 [ at](../container/array/at.html "cpp/container/array/at") |  access specified element with bounds checking   
-(public member function of `std::array<T,N>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_at&action=edit)  
+(public member function of `std::array<T,N>`)   
 [ at](../container/span/at.html "cpp/container/span/at")(C++26) |  access specified element with bounds checking   
-(public member function of `std::span<T,Extent>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_at&action=edit)
+(public member function of `std::span<T,Extent>`) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

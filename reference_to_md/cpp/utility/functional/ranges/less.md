@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Function objects](../../../functional.html "cpp/utility/functional")
 
@@ -255,7 +255,7 @@ Identity function object
 [unary_negate](../unary_negate.html "cpp/utility/functional/unary negate")(until C++20*)  
 [binary_negate](../binary_negate.html "cpp/utility/functional/binary negate")(until C++20*)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/navbar_content&action=edit)
+
 
 Defined in header `[<functional>](../../../header/functional.html "cpp/header/functional")` |  |   
 ---|---|---  
@@ -277,13 +277,13 @@ Function object for performing comparisons. Deduces the parameter types of the f
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/ranges/less&action=edit&section=1 "Edit section: Nested types")] Nested types
+### Nested types
 
 Nested type  |  Definition   
 ---|---  
 `is_transparent` |  [unspecified](../../../functional.html#Transparent_function_objects "cpp/utility/functional")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/ranges/less&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 operator() |  checks if the first argument is _less_ than the second   
 (public member function)  
@@ -332,17 +332,17 @@ The comparison results of expr1 and expr2 follow strict total ordering only if *
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/ranges/less&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Unlike [std::less](../less.html "cpp/utility/functional/less"), `std::ranges::less` requires all six comparison operators `<`, `<=`, `>`, `>=`, `==` and `!=` to be valid (via the [`totally_ordered_with`](../../../concepts/totally_ordered.html "cpp/concepts/totally ordered") constraint). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/ranges/less&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/ranges/less&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -350,8 +350,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 3530](https://cplusplus.github.io/LWG/issue3530) | C++20  | syntactic checks were relaxed while comparing pointers  | only semantic requirements are relaxed   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/ranges/less&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ less](../less.html "cpp/utility/functional/less") |  function object implementing x < y   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_less&action=edit)  
+(class template)   
 ---|---

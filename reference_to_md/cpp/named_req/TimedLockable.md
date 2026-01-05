@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ named requirements](../iterator/concepts.html "cpp/named req")
 
@@ -147,7 +147,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/named_req/navbar_content&action=edit)
+
 
 The **TimedLockable** requirements describe the characteristics of types that provide timed exclusive blocking semantics for execution agents (threads, processes, tasks). 
 
@@ -161,7 +161,7 @@ The **TimedLockable** requirements describe the characteristics of types that pr
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/TimedLockable&action=edit&section=1 "Edit section: Requirements")] Requirements
+### Requirements
 
   * [Lockable](Lockable.html "cpp/named req/Lockable")
 
@@ -181,24 +181,24 @@ Expression | Effects | Return value
 m.try_lock_for(rel_time) | Blocks for the provided duration `rel_time` or until a lock on `**m**` is acquired.  | true if the lock was acquired, false otherwise.   
 m.try_lock_until(abs_time) | Blocks until the provided time point `abs_time` is reached or a lock on `**m**` is acquired.  | true if the lock was acquired, false otherwise.   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/TimedLockable&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 The `try_lock_for` and `try_lock_until` member functions obtain a non-shared lock on m on success. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/TimedLockable&action=edit&section=3 "Edit section: Standard library")] Standard library
+### Standard library
 
 The following standard library types satisfy TimedLockable: 
 
 [ timed_mutex](../thread/timed_mutex.html "cpp/thread/timed mutex")(C++11) |  provides mutual exclusion facility which implements locking with a timeout   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_timed_mutex&action=edit)  
+(class)   
 ---|---  
 [ recursive_timed_mutex](../thread/recursive_timed_mutex.html "cpp/thread/recursive timed mutex")(C++11) |  provides mutual exclusion facility which can be locked recursively  
 by the same thread and implements locking with a timeout   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_recursive_timed_mutex&action=edit)  
+(class)   
 [ shared_timed_mutex](../thread/shared_timed_mutex.html "cpp/thread/shared timed mutex")(C++14) |  provides shared mutual exclusion facility and implements locking with a timeout   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_shared_timed_mutex&action=edit)  
+(class)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/TimedLockable&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
   * [Thread support library](../atomic.html "cpp/thread")
   * [TimedMutex](TimedMutex.html "cpp/named req/TimedMutex")

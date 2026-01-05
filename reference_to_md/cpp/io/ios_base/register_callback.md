@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::ios_base`](../ios_base.html "cpp/io/ios base")
 
@@ -113,7 +113,7 @@ Member types
 [ios_base::event](event.html "cpp/io/ios base/event")  
 [ios_base::event_callback](event_callback.html "cpp/io/ios base/event callback")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/ios_base/navbar_content&action=edit)
+
 
 void register_callback( event_callback function, int index ); |  |   
 ---|---|---  
@@ -135,17 +135,17 @@ The user-defined callback function is not allowed to throw exceptions.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/ios_base/register_callback&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 function  |  \-  |  the function which will be called on event, supplied as a function pointer of type [event_callback](event_callback.html "cpp/io/ios base/event callback")  
 ---|---|---  
 index  |  \-  |  custom parameter which will be passed to the function   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/ios_base/register_callback&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/ios_base/register_callback&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Once registered, a callback cannot be deregistered: it remains a part of the stream object for the rest of its lifetime. If the behavior of a callback needs to change, it may be controlled through [iword()](iword.html "cpp/io/ios base/iword") or [pword()](pword.html "cpp/io/ios base/pword"). 
 
@@ -153,7 +153,7 @@ If the same function is registered multiple times, it is called multiple times.
 
 The integer value that is stored together with the callback is typically an index obtained from [xalloc()](xalloc.html "cpp/io/ios base/xalloc"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/ios_base/register_callback&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Demonstrates the use of `register_callback` to update locale-dependent cached values that are used by a custom output operator.
 

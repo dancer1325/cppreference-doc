@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](ranges/copy.html "cpp/algorithm/ra
 [uninitialized_default_construct_n](../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -350,7 +350,7 @@ If `T` is not [LessThanComparable](../named_req/LessThanComparable.html "cpp/nam
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/minmax&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 a, b  |  \-  |  the values to compare   
 ---|---|---  
@@ -359,13 +359,13 @@ comp  |  \-  |  comparison function object (i.e. an object that satisfies the re
 The signature of the comparison function should be equivalent to the following: bool cmp(const Type1& a, const Type2& b); While the signature does not need to have const&, the function must not modify the objects passed to it and must be able to accept all values of type (possibly const) `Type1` and `Type2` regardless of [value category](../language/value_category.html "cpp/language/value category") (thus, Type1& is not allowed, nor is Type1 unless for `Type1` a move is equivalent to a copy(since C++11)).  
 The types Type1 and Type2 must be such that an object of type T can be implicitly converted to both of them.   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/minmax&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1,2) Returns the result of [std::pair](../utility/pair.html)<const T&, const T&>(a, b) if a < b or if a is equivalent to b. Returns the result of [std::pair](../utility/pair.html)<const T&, const T&>(b, a) if b < a.
 
 3,4) A pair with the smallest value in ilist as the first element and the greatest as the second. If several elements are equivalent to the smallest, the leftmost such element is returned. If several elements are equivalent to the largest, the rightmost such element is returned.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/minmax&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 1) Exactly one comparison using operator<.
 
@@ -383,7 +383,7 @@ comparisons using operator<.
 2  
 applications of the comparison function comp.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/minmax&action=edit&section=4 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
 
 [minmax (1)](minmax.html#Version_1)  
 ---  
@@ -426,7 +426,7 @@ applications of the comparison function comp.
         return [std::pair](../utility/pair.html)(*p.first, *p.second);
     }  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/minmax&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 For overloads ([1,2](minmax.html#Version_1)), if one of the parameters is a temporary, the reference returned becomes a dangling reference at the end of the full expression that contains the call to `minmax`: 
     
@@ -440,7 +440,7 @@ For overloads ([1,2](minmax.html#Version_1)), if one of the parameters is a temp
     auto [mm, xx] = std::minmax(n, n + 1);
     xx; // undefined behavior
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/minmax&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -469,7 +469,7 @@ Possible output:
     
     v[2,7]: 4 1 5 9 2
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/minmax&action=edit&section=7 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -477,14 +477,14 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 2239](https://cplusplus.github.io/LWG/issue2239) | C++11  | `T` was required to be [LessThanComparable](../named_req/LessThanComparable.html "cpp/named req/LessThanComparable") for overloads ([2,4](minmax.html#Version_2)) | not required   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/minmax&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [ min](min.html "cpp/algorithm/min") |  returns the smaller of the given values   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_min&action=edit)  
+(function template)   
 ---|---  
 [ max](max.html "cpp/algorithm/max") |  returns the greater of the given values   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_max&action=edit)  
+(function template)   
 [ minmax_element](minmax_element.html "cpp/algorithm/minmax element")(C++11) |  returns the smallest and the largest elements in a range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_minmax_element&action=edit)  
+(function template)   
 [ ranges::minmax](ranges/minmax.html "cpp/algorithm/ranges/minmax")(C++20) |  returns the smaller and larger of two elements  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_minmax&action=edit)
+(algorithm function object)

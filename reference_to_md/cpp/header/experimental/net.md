@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 [Experimental library headers](../experimental.html "cpp/header/experimental")
 
@@ -292,7 +292,7 @@ Networking TS
 Reflection TS  
 [`<experimental/reflect>`](reflect.html "cpp/header/experimental/reflect")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/experimental/navbar_content&action=edit)
+
 
 This header is part of [Networking TS](../../experimental/networking.html "cpp/experimental/networking"). 
 
@@ -301,14 +301,14 @@ It is a convenience header that includes every other Networking TS header
 ###  Includes  
   
 ---  
-[ <experimental/executor>](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/executor&action=edit&redlink=1 "cpp/header/experimental/executor \(page does not exist\)")(networking TS) |  Asynchronous model[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/dsc_exp_executor&action=edit)  
-[ <experimental/io_context>](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/io_context&action=edit&redlink=1 "cpp/header/experimental/io context \(page does not exist\)")(networking TS) |  Basic I/O services[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/dsc_exp_io_context&action=edit)  
-[ <experimental/timer>](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/timer&action=edit&redlink=1 "cpp/header/experimental/timer \(page does not exist\)")(networking TS) |  Timer operations[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/dsc_exp_timer&action=edit)  
-[ <experimental/buffer>](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/buffer&action=edit&redlink=1 "cpp/header/experimental/buffer \(page does not exist\)")(networking TS) |  Buffers and buffer-oriented streams[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/dsc_exp_buffer&action=edit)  
-[ <experimental/socket>](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/socket&action=edit&redlink=1 "cpp/header/experimental/socket \(page does not exist\)")(networking TS) |  Sockets and socket streams[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/dsc_exp_socket&action=edit)  
-[ <experimental/internet>](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/internet&action=edit&redlink=1 "cpp/header/experimental/internet \(page does not exist\)")(networking TS) |  Internet protocol[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/dsc_exp_internet&action=edit)  
+[ <experimental/executor>](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/executor&action=edit&redlink=1 "cpp/header/experimental/executor \(page does not exist\)")(networking TS) |  Asynchronous model  
+[ <experimental/io_context>](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/io_context&action=edit&redlink=1 "cpp/header/experimental/io context \(page does not exist\)")(networking TS) |  Basic I/O services  
+[ <experimental/timer>](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/timer&action=edit&redlink=1 "cpp/header/experimental/timer \(page does not exist\)")(networking TS) |  Timer operations  
+[ <experimental/buffer>](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/buffer&action=edit&redlink=1 "cpp/header/experimental/buffer \(page does not exist\)")(networking TS) |  Buffers and buffer-oriented streams  
+[ <experimental/socket>](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/socket&action=edit&redlink=1 "cpp/header/experimental/socket \(page does not exist\)")(networking TS) |  Sockets and socket streams  
+[ <experimental/internet>](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/internet&action=edit&redlink=1 "cpp/header/experimental/internet \(page does not exist\)")(networking TS) |  Internet protocol  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/net&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     #include <experimental/executor>

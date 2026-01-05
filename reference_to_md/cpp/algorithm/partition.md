@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](ranges/copy.html "cpp/algorithm/ra
 [uninitialized_default_construct_n](../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -331,7 +331,7 @@ If the type of *first is not [Swappable](../named_req/Swappable.html "cpp/named 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/partition&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  the pair of iterators defining the [range](../iterator.html#Ranges "cpp/iterator") of elements to reorder   
 ---|---|---  
@@ -342,11 +342,11 @@ Type requirements
 -`ForwardIt` must meet the requirements of [LegacyForwardIterator](../named_req/ForwardIterator.html "cpp/named req/ForwardIterator").   
 -`UnaryPred` must meet the requirements of [Predicate](../named_req/Predicate.html "cpp/named req/Predicate").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/partition&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Iterator to the first element of the second group. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/partition&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Given \\(\scriptsize N\\)N as [std::distance](../iterator/distance.html)(first, last): 
 
@@ -358,7 +358,7 @@ At most \\(\scriptsize N/2\\)N/2 swaps if `ForwardIt` meets the requirements of 
 
 \\(\scriptsize O(N \cdot log(N))\\)O(N·log(N)) swaps.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/partition&action=edit&section=4 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 The overload with a template parameter named `ExecutionPolicy` reports errors as follows: 
 
@@ -367,7 +367,7 @@ The overload with a template parameter named `ExecutionPolicy` reports errors as
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/partition&action=edit&section=5 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
 
 Implements overload (1) preserving C++11 compatibility. 
     
@@ -391,7 +391,7 @@ Implements overload (1) preserving C++11 compatibility.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/partition&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -456,7 +456,7 @@ Possible output:
     Unsorted list: 1 30 -4 3 5 -4 1 6 -8 2 -5 64 1 92 
     Sorted using quicksort: -8 -5 -4 -4 1 1 1 2 3 5 6 30 64 92
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/partition&action=edit&section=7 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -469,12 +469,12 @@ last to be [LegacyBidirectionalIterator](../named_req/BidirectionalIterator.html
 satisfying p before one element not satisfying p | corrected the  
 requirement   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/partition&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [ is_partitioned](is_partitioned.html "cpp/algorithm/is partitioned")(C++11) |  determines if the range is partitioned by the given predicate   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_is_partitioned&action=edit)  
+(function template)   
 ---|---  
 [ stable_partition](stable_partition.html "cpp/algorithm/stable partition") |  divides elements into two groups while preserving their relative order   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_stable_partition&action=edit)  
+(function template)   
 [ ranges::partition](ranges/partition.html "cpp/algorithm/ranges/partition")(C++20) |  divides a range of elements into two groups  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_partition&action=edit)
+(algorithm function object)

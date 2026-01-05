@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::inplace_vector`](../inplace_vector.html "cpp/container/inplace vector")
 
@@ -134,7 +134,7 @@ Tables
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/inplace_vector/navbar_content&action=edit)
+
 
 template< [container-compatible-range](../../ranges/to.html)<T> R >  
 constexpr iterator insert_range( const_iterator pos, R&& rg ); |  | (since C++26)  
@@ -161,7 +161,7 @@ If rg overlaps with *this, the behavior is undefined.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/insert_range&action=edit&section=T-1 "Template:cpp/container/insert range")] Parameters
+### Parameters
 
 pos  |  \-  |  iterator before which the content will be inserted (pos may be the [`end()`](end.html "cpp/container/inplace vector/end") iterator)   
 ---|---|---  
@@ -177,7 +177,7 @@ Type requirements
 
   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/insert_range&action=edit&section=T-2 "Template:cpp/container/insert range")] Return value
+### Return value
 
 An iterator to the first element inserted into *this, or pos if rg is empty. 
 
@@ -188,7 +188,7 @@ An iterator to the first element inserted into *this, or pos if rg is empty.
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/insert_range&action=edit&section=T-6 "Template:cpp/container/insert range")] Example
+### Example
 
 Run this code
     
@@ -225,7 +225,7 @@ Possible output:
     [0, 1, -1, -2, -3, 2, 3]
     std::bad_alloc
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/insert_range&action=edit&section=T-7 "Template:cpp/container/insert range")] See also
+### See also
 
 [ insert](insert.html "cpp/container/inplace vector/insert") |  inserts elements   
 (public member function)  

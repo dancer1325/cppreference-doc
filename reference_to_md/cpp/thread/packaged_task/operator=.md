@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::packaged_task`](../packaged_task.html "cpp/thread/packaged task")
 
@@ -196,7 +196,7 @@ Helper classes
 [uses_allocator<std::packaged_task>](uses_allocator.html "cpp/thread/packaged task/uses allocator")(until C++17)  
 [Deduction guides](deduction_guides.html "cpp/thread/packaged task/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/packaged_task/navbar_content&action=edit)
+
 
 packaged_task& operator=( const packaged_task& ) = delete; |  (1)  |  (since C++11)  
 ---|---|---  
@@ -207,18 +207,18 @@ packaged_task& operator=( packaged_task&& rhs ) noexcept; |  (2)  |  (since C++1
 
 2) Releases the shared state, if any, destroys the previously-held task, and moves the shared state and the task owned by rhs into *this. rhs is left without a shared state and with a moved-from task.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/packaged_task/operator%3D&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 rhs  |  \-  |  the `std::packaged_task` to move from   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/packaged_task/operator%3D&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/packaged_task/operator%3D&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

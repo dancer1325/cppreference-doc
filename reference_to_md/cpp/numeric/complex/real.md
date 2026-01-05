@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [`std::complex`](../complex.html "cpp/numeric/complex")
 
@@ -164,7 +164,7 @@
 [tuple_size<std::complex>](tuple_size.html "cpp/numeric/complex/tuple size")(C++26)  
 [tuple_element<std::complex>](tuple_element.html "cpp/numeric/complex/tuple element")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/navbar_content&action=edit)
+
 
 primary template [std::complex](../complex.html)<T> |  |   
 ---|---|---  
@@ -214,22 +214,22 @@ Accesses the real part of the complex number.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/real&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 value  |  \-  |  the value to set the real part to   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/real&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) The real part of *this.
 
 2) (none)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/real&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 In C++11, overload (1) in [std::complex](../complex.html "cpp/numeric/complex") specializations used to be specified without const qualifier. However, in C++11, a [`constexpr`](../../language/constexpr.html "cpp/language/constexpr") specifier used in a non-static member function implies const, and thus the behavior is as if const is specified. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/real&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -237,10 +237,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 387](https://cplusplus.github.io/LWG/issue387) | C++98  | the real part could not be set directly  | can be set directly via a new `real` overload   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/real&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ real](real2.html "cpp/numeric/complex/real2") |  returns the real part   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_real2&action=edit)  
+(function template)   
 ---|---  
 [ imag](imag.html "cpp/numeric/complex/imag") |  accesses the imaginary part of the complex number   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_imag&action=edit)
+(public member function) 

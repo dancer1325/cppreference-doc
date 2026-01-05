@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::weekday_last`](../weekday_last.html "cpp/chrono/weekday last")
 
@@ -117,7 +117,7 @@ Helper classes
 [formatter<std::chrono::weekday_last>](formatter.html "cpp/chrono/weekday last/formatter")  
 [hash<std::chrono::weekday_last>](hash.html "cpp/chrono/weekday last/hash")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/weekday_last/navbar_content&action=edit)
+
 
 constexpr explicit weekday_last( const [std::chrono::weekday](../weekday.html)& wd ) noexcept; |  |  (since C++20)  
 ---|---|---  
@@ -125,11 +125,11 @@ constexpr explicit weekday_last( const [std::chrono::weekday](../weekday.html)& 
   
 Constructs a `weekday_last` object storing the weekday wd. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/weekday_last/weekday_last&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 A more convenient way to construct a `weekday_last` is with `weekday`'s operator[], i.e., wd[[std::chrono::last](../last_spec.html)]. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/weekday_last/weekday_last&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     

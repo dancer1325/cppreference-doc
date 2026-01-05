@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::stride_view`](../../stride_view.html "cpp/ranges/stride view")
 
@@ -263,7 +263,7 @@ operator-(stride_view::_iterator_)](operator_arith2.html "cpp/ranges/stride view
 [iter_move(stride_view::_iterator_)](iter_move.html "cpp/ranges/stride view/iterator/iter move")  
 [iter_swap(stride_view::_iterator_)](iter_swap.html "cpp/ranges/stride view/iterator/iter swap")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/stride_view/navbar_content&action=edit)
+
 
 /*iterator*/()  
 requires [std::default_initializable](../../../concepts/default_initializable.html)<[ranges::iterator_t](../../iterator_t.html)<Base>> = default; |  (1)  |  (since C++23)  
@@ -307,12 +307,12 @@ Constructs an [iterator](../iterator.html "cpp/ranges/stride view/iterator").
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/stride_view/iterator/iterator&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 i  |  \-  |  an /*iterator*/<false>  
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/stride_view/iterator/iterator&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

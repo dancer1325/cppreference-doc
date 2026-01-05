@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Localization library](../../locale.html "cpp/locale")
 
@@ -152,7 +152,7 @@ base classes](../../locale.html#Facet_category_base_classes "cpp/locale")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/navbar_content&action=edit)
+
 
 [`std::moneypunct`](../moneypunct.html "cpp/locale/moneypunct")
 
@@ -168,7 +168,7 @@ Member functions
 **moneypunct::positive_sign moneypunct::do_positive_signmoneypunct::negative_signmoneypunct::do_negative_sign**  
 [moneypunct::pos_formatmoneypunct::do_pos_formatmoneypunct::neg_formatmoneypunct::do_neg_format](pos_format.html "cpp/locale/moneypunct/pos format")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/moneypunct/navbar_content&action=edit)
+
 
 Defined in header `[<locale>](../../header/locale.html "cpp/header/locale")` |  |   
 ---|---|---  
@@ -194,11 +194,11 @@ Only the first character of the string returned is the character that appears in
 
 In particular, for negative_sign of "-", the formatting may appear as "-1.23 €", while for negative_sign of "()" it would appear as "(1.23 €)". 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/moneypunct/positive_sign&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 The string of type `string_type` holding the characters to be used as positive or negative sign. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/moneypunct/positive_sign&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -239,8 +239,8 @@ Output:
     ms_MY.utf8 negative sign is '()' for example: (RM12.34)
     de_DE.utf8 with negative_sign set to "()": (12,34 €)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/moneypunct/positive_sign&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ do_pos_formatdo_neg_format](pos_format.html "cpp/locale/moneypunct/pos format")[virtual] |  provides the formatting pattern for currency values   
-(virtual protected member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/moneypunct/dsc_do_pos_format&action=edit)  
+(virtual protected member function)   
 ---|---

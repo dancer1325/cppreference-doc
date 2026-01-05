@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 `[std::stack](../stack.html "cpp/container/stack")`
 
@@ -101,7 +101,7 @@ Tables
 [formatter<std::stack>](formatter.html "cpp/container/stack/formatter")(C++23)  
 [Deduction guides](deduction_guides.html "cpp/container/stack/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/stack/navbar_content&action=edit)
+
 
 stack() : stack(Container()) {} |  (1)  |  (since C++11)  
 ---|---|---  
@@ -176,7 +176,7 @@ Constructs new underlying container of the container adaptor from a variety of d
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/constructor_ad&action=edit&section=T-1 "Template:cpp/container/constructor ad")] Parameters
+### Parameters
 
 alloc  |  \-  |  allocator to use for all memory allocations of the underlying container   
 ---|---|---  
@@ -189,18 +189,18 @@ Type requirements
 -`Container` must meet the requirements of [Container](../../named_req/Container.html "cpp/named req/Container"). The constructors taking an allocator parameter participate in overload resolution only if `Container` meets the requirements of [AllocatorAwareContainer](../../named_req/AllocatorAwareContainer.html "cpp/named req/AllocatorAwareContainer").   
 -`InputIt` must meet the requirements of [LegacyInputIterator](../../named_req/InputIterator.html "cpp/named req/InputIterator").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/constructor_ad&action=edit&section=T-2 "Template:cpp/container/constructor ad")] Complexity
+### Complexity
 
 Same as the corresponding operation on the wrapped container. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/constructor_ad&action=edit&section=T-3 "Template:cpp/container/constructor ad")] Notes
+### Notes
 
 [Feature-test](../../utility/feature_test.html "cpp/utility/feature test") macro  | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_adaptor_iterator_pair_constructor`](../../experimental/feature_test.html#cpp_lib_adaptor_iterator_pair_constructor "cpp/feature test") | [`202106L`](../../compiler_support/23.html#cpp_lib_adaptor_iterator_pair_constructor_202106L "cpp/compiler support/23") | (C++23) | Iterator pair constructors for [std::queue](../queue.html "cpp/container/queue") and [std::stack](../stack.html "cpp/container/stack"); overloads ([6](stack.html#Version_6)) and ([12](stack.html#Version_12))  
 [`__cpp_lib_containers_ranges`](../../experimental/feature_test.html#cpp_lib_containers_ranges "cpp/feature test") | [`202202L`](../../compiler_support/23.html#cpp_lib_containers_ranges_202202L "cpp/compiler support/23") | (C++23) | [Ranges-aware](../../ranges/to.html#container_compatible_range "cpp/ranges/to") construction and insertion; overloads ([13](stack.html#Version_13)) and ([14](stack.html#Version_14))  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/constructor_ad&action=edit&section=T-4 "Template:cpp/container/constructor ad")] Example
+### Example
 
 Run this code
     
@@ -252,7 +252,7 @@ Run this code
     # endif
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/constructor_ad&action=edit&section=T-5 "Template:cpp/container/constructor ad")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -260,10 +260,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [P0935R0](https://wg21.link/P0935R0) | C++11  | default constructor was explicit  | made implicit   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/constructor_ad&action=edit&section=T-6 "Template:cpp/container/constructor ad")] See also
+### See also
 
 [ operator=](operator=.html "cpp/container/stack/operator=") |  assigns values to the container adaptor   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_operator%3D&action=edit)  
+(public member function)   
 ---|---
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

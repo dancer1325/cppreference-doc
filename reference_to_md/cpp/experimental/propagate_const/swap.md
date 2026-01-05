@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Library fundamentals v2](../lib_extensions_2.html "cpp/experimental/lib extensions 2")
 
@@ -74,7 +74,7 @@
 [uniform container erasure](../lib_extensions_2.html#Uniform_container_erasure "cpp/experimental/lib extensions 2")  
 [logical operator type traits](../lib_extensions_2.html#Logical_operator_type_traits "cpp/experimental/lib extensions 2")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions_2/navbar_content&action=edit)
+
 
 [`std::experimental::propagate_const`](../propagate_const.html "cpp/experimental/propagate const")
 
@@ -96,7 +96,7 @@ Helper classes
 [std::hash](hash.html "cpp/experimental/propagate const/hash")  
 [std::equal_tostd::not_equal_tostd::lessstd::greaterstd::less_equalstd::greater_equal](cmp_func.html "cpp/experimental/propagate const/cmp func")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/propagate_const/navbar_content&action=edit)
+
 
 constexpr void swap( propagate_const & pt ) noexcept(/* see below */); |  |  (library fundamentals TS v2)  
 ---|---|---  
@@ -106,18 +106,18 @@ Swaps the wrapped pointer with that of pt. Let `t_` designate the private data m
 
 The behavior is undefined if lvalues of `T` do not satisfy [Swappable](../../named_req/Swappable.html "cpp/named req/Swappable"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/propagate_const/swap&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 pt  |  \-  |  another `propagate_const` object to swap with   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/propagate_const/swap&action=edit&section=2 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 [`noexcept`](../../language/noexcept_spec.html "cpp/language/noexcept spec") specification: noexcept(noexcept(swap(t_, pt.t_)))The lookup for the identifier `swap` in the exception specification finds overloads described above, and does not find the member function itself, making the exception specification equivalent to C++17 [std::is_nothrow_swappable](../../types/is_swappable.html "cpp/types/is swappable").  | (library fundamentals TS v2)  
 ---|---  
 [`noexcept`](../../language/noexcept_spec.html "cpp/language/noexcept spec") specification: noexcept([std::is_nothrow_swappable_v](../../types/is_swappable.html)<T>) | (library fundamentals TS v3)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/propagate_const/swap&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

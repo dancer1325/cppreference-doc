@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Formatting library](../format.html "cpp/utility/format")
 
@@ -91,7 +91,7 @@ Formatting arguments
 [Format error](format.html#Format_error "cpp/utility/format/format")  
 [format_error](format_error.html "cpp/utility/format/format error")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/navbar_content&action=edit)
+
 
 Defined in header `[<format>](../../header/format.html "cpp/header/format")` |  |   
 ---|---|---  
@@ -122,7 +122,7 @@ The constructor of `std::basic_format_string` performs compile-time format strin
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/basic_format_string&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 (constructor) |  constructs a `basic_format_string`, raising compile error if the argument is not a format string   
 (public member function)  
@@ -195,7 +195,7 @@ constexpr [std::basic_string_view](../../string/basic_string_view.html)<CharT> g
   
 Returns the stored string view. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/basic_format_string&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 The alias templates `format_string` and `wformat_string` use std::type_identity_t to inhibit template argument deduction. Typically, when they appear as a function parameter, their template arguments are deduced from other function arguments. 
     
@@ -208,13 +208,13 @@ The alias templates `format_string` and `wformat_string` use std::type_identity_
     // Due to the use of type_identity_t in format_string, template argument deduction
     // does not consider the type of the format string.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/basic_format_string&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/basic_format_string&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](empty.html "cpp/iterator/empty")(C++17)  
 [data](data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 Defined in header `[<iterator>](../header/iterator.html "cpp/header/iterator")` |  |   
 ---|---|---  
@@ -215,7 +215,7 @@ This concept specifies requirements on types that can be incremented with the pr
 
 For `std::weakly_incrementable` types, a == b does not imply that ++a == ++b. Algorithms on weakly incrementable types must be single-pass algorithms. These algorithms can be used with istreams as the source of the input data through [std::istream_iterator](istream_iterator.html "cpp/iterator/istream iterator"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/weakly_incrementable&action=edit&section=1 "Edit section: Semantic requirements")] Semantic requirements
+### Semantic requirements
 
 For an object i of type `I`, `I` models `std::weakly_incrementable` only if all following conditions are satisfied: 
 
@@ -225,7 +225,7 @@ For an object i of type `I`, `I` models `std::weakly_incrementable` only if all 
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/weakly_incrementable&action=edit&section=2 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -233,8 +233,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [P2325R3](https://wg21.link/P2325R3) | C++20  | [`default_initializable`](../concepts/default_initializable.html "cpp/concepts/default initializable") was required  | not required   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/weakly_incrementable&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ incrementable](incrementable.html "cpp/iterator/incrementable")(C++20) |  specifies that the increment operation on a **`weakly_incrementable`** type is [equality-preserving](../concepts.html#Equality_preservation "cpp/concepts") and that the type is [`equality_comparable`](../concepts/equality_comparable.html "cpp/concepts/equality comparable")   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_incrementable&action=edit)  
+(concept)   
 ---|---

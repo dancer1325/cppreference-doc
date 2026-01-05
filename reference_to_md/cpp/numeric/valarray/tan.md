@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [`std::valarray`](../valarray.html "cpp/numeric/valarray")
 
@@ -155,7 +155,7 @@
   
 [Deduction guides](deduction_guides.html "cpp/numeric/valarray/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/navbar_content&action=edit)
+
 
 Defined in header `[<valarray>](../../header/valarray.html "cpp/header/valarray")` |  |   
 ---|---|---  
@@ -177,16 +177,16 @@ For each element in va computes tangent of the value of the element.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/tan&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 va  |  \-  |  value array to apply the operation to   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/tan&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Value array containing tangents of the values in va. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/tan&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Unqualified function (tan) is used to perform the computation. If such function is not available, [std::tan](../math/tan.html) is used due to [argument-dependent lookup](../../language/adl.html "cpp/language/adl"). 
 
@@ -202,7 +202,7 @@ The function can be implemented with the return type different from [std::valarr
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/tan&action=edit&section=4 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     template<class T>
@@ -217,7 +217,7 @@ The function can be implemented with the return type different from [std::valarr
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/tan&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -252,16 +252,16 @@ Output:
     y = tan(x)  :  0.000000  0.100335  0.202710  0.309336
     z = atan(y) :  0.000000  0.100000  0.200000  0.300000
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/tan&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ sin(std::valarray)](sin.html "cpp/numeric/valarray/sin") |  applies the function [std::sin](../math/sin.html "cpp/numeric/math/sin") to each element of valarray   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_sin&action=edit)  
+(function template)   
 ---|---  
 [ cos(std::valarray)](cos.html "cpp/numeric/valarray/cos") |  applies the function [std::cos](../math/cos.html "cpp/numeric/math/cos") to each element of valarray   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_cos&action=edit)  
+(function template)   
 [ atan(std::valarray)](atan.html "cpp/numeric/valarray/atan") |  applies the function [std::atan](../math/atan.html "cpp/numeric/math/atan") to each element of valarray   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_atan&action=edit)  
+(function template)   
 [ tantanftanl](../math/tan.html "cpp/numeric/math/tan")(C++11)(C++11) |  computes tangent (\\({\small\tan{x}}\\)tan(x))   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_tan&action=edit)  
+(function)   
 [ tan(std::complex)](../complex/tan.html "cpp/numeric/complex/tan") |  computes tangent of a complex number (\\({\small\tan{z}}\\)tan(z))   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_tan&action=edit)
+(function template) 

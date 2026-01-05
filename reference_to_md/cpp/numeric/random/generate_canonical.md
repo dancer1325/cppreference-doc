@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [Pseudo-random number generation](../random.html "cpp/numeric/random")
 
@@ -161,7 +161,7 @@
 [piecewise_constant_distribution](piecewise_constant_distribution.html "cpp/numeric/random/piecewise constant distribution")(C++11)  
 [piecewise_linear_distribution](piecewise_linear_distribution.html "cpp/numeric/random/piecewise linear distribution")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/navbar_content&action=edit)
+
 
 Defined in header `[<random>](../../header/random.html "cpp/header/random")` |  |   
 ---|---|---  
@@ -190,24 +190,24 @@ To generate enough entropy, generate_canonical() will call g() exactly \\(\small
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/random/generate_canonical&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 g  |  \-  |  generator to use to acquire entropy   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/random/generate_canonical&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Floating point value in range `[`​0​`, `1`)`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/random/generate_canonical&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 None except from those thrown by g. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/random/generate_canonical&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 Some existing implementations have a bug where they may occasionally return 1.0 if `RealType` is float [GCC #63176](https://gcc.gnu.org/bugzilla/show_bug.cgi?id=63176) [LLVM #18767](https://bugs.llvm.org/show_bug.cgi?id=18767) [MSVC STL #1074](https://github.com/microsoft/STL/issues/1074). This is [LWG issue 2524](https://cplusplus.github.io/LWG/issue2524). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/random/generate_canonical&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Produce random numbers with 10 bits of randomness: this may produce only k * R distinct values.
 
@@ -231,8 +231,8 @@ Possible output:
     
     0.208143 0.824147 0.0278604 0.343183 0.0173263 0.864057 0.647037 0.539467 0.0583497 0.609219
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/random/generate_canonical&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ uniform_real_distribution](uniform_real_distribution.html "cpp/numeric/random/uniform real distribution")(C++11) |  produces real values evenly distributed across a range   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/dsc_uniform_real_distribution&action=edit)  
+(class template)   
 ---|---

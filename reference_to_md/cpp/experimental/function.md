@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Library fundamentals](memory.html "cpp/experimental/lib extensions")
 
@@ -75,7 +75,7 @@
 [Type-erased and polymorphic allocators](memory.html "cpp/experimental/memory")  
 [Variable templates for type traits](type_trait_variable_templates.html "cpp/experimental/type trait variable templates")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions/navbar_content&action=edit)
+
 
 [Polymorphic allocator library](memory.html "cpp/experimental/memory")
 
@@ -98,7 +98,7 @@ Type-erased allocator support for existing classes
 [packaged_task](lib_extensions/packaged_task.html "cpp/experimental/lib extensions/packaged task")  
 [promise](lib_extensions/promise.html "cpp/experimental/lib extensions/promise")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions/pmr/navbar_content&action=edit)
+
 
 Defined in header `[<experimental/functional>](../header/experimental/functional.html "cpp/header/experimental/functional")` |  |   
 ---|---|---  
@@ -125,7 +125,7 @@ class function<R(Args...)> |  |  (library fundamentals TS)
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/function&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Type  |  Definition   
 ---|---  
@@ -134,32 +134,32 @@ Type  |  Definition
 ---|---  
 [std::pmr::polymorphic_allocator](../memory/polymorphic_allocator.html)<> | (library fundamentals TS v3)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/function&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](function/function.html "cpp/experimental/function/function") |  constructs a new `std::experimental::function` instance   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/function/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ operator=](function/operator=.html "cpp/experimental/function/operator=") |  assigns a new target   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/function/dsc_operator%3D&action=edit)  
+(public member function)   
 [ swap](function/swap.html "cpp/experimental/function/swap") |  swaps the contents   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/function/dsc_swap&action=edit)  
+(public member function)   
 [ get_memory_resource](function/get_memory_resource.html "cpp/experimental/function/get memory resource")(removed in library fundamentals TS v3) |  retrieves a pointer to the memory resource used by this object to allocate memory   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/function/dsc_get_memory_resource&action=edit)  
+(public member function)   
 [ get_allocator](function/get_allocator.html "cpp/experimental/function/get allocator")(library fundamentals TS v3) |  retrieves a type-erased [std::pmr::polymorphic_allocator](../memory/polymorphic_allocator.html "cpp/memory/polymorphic allocator") used by this object to allocate memory   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/function/dsc_get_allocator&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/function&action=edit&section=3 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ std::experimental::swap(std::experimental::function)](function/swap2.html "cpp/experimental/function/swap2") |  specializes the `swap` algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/function/dsc_swap2&action=edit)  
+(function template)   
 ---|---  
 [ operator==operator!=](function/operator_cmp.html "cpp/experimental/function/operator cmp")(removed in library fundamentals TS v3) |  compares an std::experimental::function with nullptr   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/function/dsc_operator_cmp&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/function&action=edit&section=4 "Edit section: Helper classes")] Helper classes
+### Helper classes
 
 [ std::uses_allocator<std::experimental::function>](function/uses_allocator.html "cpp/experimental/function/uses allocator")(removed in library fundamentals TS v3) |  specializes the [std::uses_allocator](../memory/uses_allocator.html "cpp/memory/uses allocator") type trait   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/function/dsc_uses_allocator&action=edit)  
+(class template specialization)   
 ---|---  
   
 ##  Members identical to std::function 
@@ -181,16 +181,16 @@ Member types `argument_type`, `first_argument_type`, and `second_argument_type` 
 ###  Member functions
 
 [ (destructor)](../utility/functional/function/~function.html "cpp/utility/functional/function/~function") |  destroys a `std::function` instance   
-(public member function of `std::function<R(Args...)>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/function/dsc_destructor&action=edit)  
+(public member function of `std::function<R(Args...)>`)   
 ---|---  
 [ operator bool](../utility/functional/function/operator_bool.html "cpp/utility/functional/function/operator bool") |  checks if a target is contained   
-(public member function of `std::function<R(Args...)>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/function/dsc_operator_bool&action=edit)  
+(public member function of `std::function<R(Args...)>`)   
 [ operator()](../utility/functional/function/operator\(\).html "cpp/utility/functional/function/operator\(\)") |  invokes the target   
-(public member function of `std::function<R(Args...)>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/function/dsc_operator\(\)&action=edit)  
+(public member function of `std::function<R(Args...)>`) &action=edit)  
   
 #####  Target access   
   
 [ target_type](../utility/functional/function/target_type.html "cpp/utility/functional/function/target type") |  obtains the typeid of the stored target   
-(public member function of `std::function<R(Args...)>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/function/dsc_target_type&action=edit)  
+(public member function of `std::function<R(Args...)>`)   
 [ target](../utility/functional/function/target.html "cpp/utility/functional/function/target") |  obtains a pointer to the stored target   
-(public member function of `std::function<R(Args...)>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/function/dsc_target&action=edit)
+(public member function of `std::function<R(Args...)>`) 

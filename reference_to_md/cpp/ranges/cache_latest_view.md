@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 **`std::ranges::cache_latest_view`**
 
@@ -255,7 +255,7 @@ cache_latest_view::_iterator_ ::operator++(int)](https://en.cppreference.com/mwi
 [operator-(cache_latest_view::_iterator_ , cache_latest_view::_sentinel_)](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/cache_latest_view/sentinel&action=edit&redlink=1 "cpp/ranges/cache latest view/sentinel \(page does not exist\)")  
 [operator-(cache_latest_view::_sentinel_ , cache_latest_view::_iterator_)](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/cache_latest_view/sentinel&action=edit&redlink=1 "cpp/ranges/cache latest view/sentinel \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/cache_latest_view/navbar_content&action=edit)
+
 
 Defined in header `[<ranges>](../header/ranges.html "cpp/header/ranges")` |  |   
 ---|---|---  
@@ -298,7 +298,7 @@ constexpr [ranges::view](view.html) auto cache_latest( R&& r ); |  |  (since C++
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/cache_latest_view&action=edit&section=1 "Edit section: Nested types")] Nested types
+### Nested types
 
 Type  |  Definition   
 ---|---  
@@ -307,7 +307,7 @@ Type  |  Definition
 [ranges::range_reference_t](range_reference_t.html)<V>>  
 (exposition-only member type*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/cache_latest_view&action=edit&section=2 "Edit section: Data members")] Data members
+### Data members
 
 Member  |  Description   
 ---|---  
@@ -316,7 +316,7 @@ Member  |  Description
 [`_non-propagating-cache_`](non-propagating-cache.html "cpp/ranges/non-propagating-cache") <CacheT> `_cache__` (private) |  an object that caches the result of the last indirection of the current iterator  
 (exposition-only member object*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/cache_latest_view&action=edit&section=3 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](cache_latest_view.html#ctor "cpp/ranges/cache latest view") |  constructs a `cache_latest_view`   
 (public member function)  
@@ -333,21 +333,21 @@ Member  |  Description
 #####  Inherited from [std::ranges::view_interface](view_interface.html "cpp/ranges/view interface")  
   
 [ empty](view_interface/empty.html "cpp/ranges/view interface/empty") |  returns whether the derived view is empty, provided only if it satisfies [`sized_range`](sized_range.html "cpp/ranges/sized range") or [`forward_range`](forward_range.html "cpp/ranges/forward range")   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_empty&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ cbegin](view_interface/cbegin.html "cpp/ranges/view interface/cbegin")(C++23) |  returns a constant iterator to the beginning of the range   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_cbegin&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ cend](view_interface/cend.html "cpp/ranges/view interface/cend")(C++23) |  returns a sentinel for the constant iterator of the range   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_cend&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ operator bool](view_interface/operator_bool.html "cpp/ranges/view interface/operator bool") |  returns whether the derived view is not empty, provided only if [ranges::empty](empty.html "cpp/ranges/empty") is applicable to it   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_operator_bool&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ data](view_interface/data.html "cpp/ranges/view interface/data") |  gets the address of derived view's data, provided only if its iterator type satisfies [`contiguous_iterator`](../iterator/contiguous_iterator.html "cpp/iterator/contiguous iterator")   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_data&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ front](view_interface/front.html "cpp/ranges/view interface/front") |  returns the first element in the derived view, provided if it satisfies [`forward_range`](forward_range.html "cpp/ranges/forward range")   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_front&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ back](view_interface/back.html "cpp/ranges/view interface/back") |  returns the last element in the derived view, provided only if it satisfies [`bidirectional_range`](bidirectional_range.html "cpp/ranges/bidirectional range") and [`common_range`](common_range.html "cpp/ranges/common range")   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_back&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ operator[]](view_interface/operator_at.html "cpp/ranges/view interface/operator at") |  returns the `n`th element in the derived view, provided only if it satisfies [`random_access_range`](random_access_range.html "cpp/ranges/random access range")   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_operator_at&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
   
 ##  std::ranges::cache_latest_view::cache_latest_view
 
@@ -401,14 +401,14 @@ constexpr auto size() const requires [ranges::sized_range](sized_range.html)<con
   
 1,2) Equivalent to return [ranges::size](size.html)(base_);
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/cache_latest_view&action=edit&section=5 "Edit section: Deduction guides")] Deduction guides
+### Deduction guides
 
 template< class R >  
 cache_latest_view( R&& ) -> cache_latest_view<[views::all_t](all_view.html)<R>>; |  |  (since C++26)  
 ---|---|---  
 | |   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/cache_latest_view&action=edit&section=6 "Edit section: Nested classes")] Nested classes
+### Nested classes
 
 [_iterator_](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/cache_latest_view/iterator&action=edit&redlink=1 "cpp/ranges/cache latest view/iterator \(page does not exist\)") |  the iterator type  
 (exposition-only member class template*)  
@@ -416,7 +416,7 @@ cache_latest_view( R&& ) -> cache_latest_view<[views::all_t](all_view.html)<R>>;
 [_sentinel_](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/cache_latest_view/sentinel&action=edit&redlink=1 "cpp/ranges/cache latest view/sentinel \(page does not exist\)") |  the sentinel type  
 (exposition-only member class template*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/cache_latest_view&action=edit&section=7 "Edit section: Notes")] Notes
+### Notes
 
 `cache_latest_view` is useful if the computation of the element to produce is expensive. 
 
@@ -424,7 +424,7 @@ cache_latest_view( R&& ) -> cache_latest_view<[views::all_t](all_view.html)<R>>;
 ---|---|---|---  
 [`__cpp_lib_ranges_cache_latest`](../experimental/feature_test.html#cpp_lib_ranges_cache_latest "cpp/feature test") | [`202411L`](../compiler_support/26.html#cpp_lib_ranges_cache_latest_202411L "cpp/compiler support/26") | (C++26) | `std::ranges::cache_latest_view`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/cache_latest_view&action=edit&section=8 "Edit section: Example")] Example
+### Example
 
 Run this code
     

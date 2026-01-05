@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Execution control library](../experimental/execution.html "cpp/execution")
 
@@ -155,18 +155,18 @@ schedule_result_t](schedule.html "cpp/execution/schedule")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/execution/navbar_content&action=edit)
+
 
 Defined in header `[<execution>](../header/execution.html "cpp/header/execution")` |  |   
 ---|---|---  
 execution::sender auto into_variant( execution::sender auto snd ); |  |  (since C++26)  
 | |   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/execution/into_variant&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 snd  |  \-  |  input sender which can send multiple sets of values depending on runtime conditions.   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/execution/into_variant&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Returns a sender that sends a variant of tuples of all the possible sets of types sent by the input sender. The helper function turns them into a single variant value. 

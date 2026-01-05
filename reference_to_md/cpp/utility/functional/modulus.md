@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Function objects](../../functional.html "cpp/utility/functional")
 
@@ -255,7 +255,7 @@ Identity function object
 [unary_negate](unary_negate.html "cpp/utility/functional/unary negate")(until C++20*)  
 [binary_negate](binary_negate.html "cpp/utility/functional/binary negate")(until C++20*)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/navbar_content&action=edit)
+
 
 Defined in header `[<functional>](../../header/functional.html "cpp/header/functional")` |  |   
 ---|---|---  
@@ -282,14 +282,14 @@ Function object for computing remainders of divisions. Implements operator% for 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/modulus&action=edit&section=1 "Edit section: Specializations")] Specializations
+### Specializations
 
 The standard library provides a specialization of `std::modulus` when `T` is not specified, which leaves the parameter types and return type to be deduced.  |  [ modulus<void>](modulus_void.html "cpp/utility/functional/modulus void")(C++14) |  function object implementing x % y deducing parameter and return types   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_modulus_void&action=edit)  
+(class template specialization)   
 ---|---  
 (since C++14)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/member_types&action=edit&section=T-1 "Template:cpp/utility/functional/member types")] Member types
+### Member types
 
 Type  |  Definition   
 ---|---  
@@ -299,7 +299,7 @@ Type  |  Definition
 These member types are obtained via publicly inheriting [std::binary_function](binary_function.html)<T, T, T>.  | (until C++11)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/modulus&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 operator() |  returns the remainder from the division of the first argument by the second argument   
 (public member function)  
@@ -322,7 +322,7 @@ lhs, rhs  |  \-  |  values to divide one by another
 
 The result of lhs % rhs. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/impldef_exception&action=edit&section=T-1 "Template:cpp/impldef exception")] Exceptions
+### Exceptions
 
 May throw implementation-defined exceptions. 
 
@@ -336,10 +336,10 @@ May throw implementation-defined exceptions.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/modulus&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ fmodfmodffmodl](../../numeric/math/fmod.html "cpp/numeric/math/fmod")(C++11)(C++11) |  remainder of the floating point division operation   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_fmod&action=edit)  
+(function)   
 ---|---  
 [ remainderremainderfremainderl](../../numeric/math/remainder.html "cpp/numeric/math/remainder")(C++11)(C++11)(C++11) |  signed remainder of the division operation   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_remainder&action=edit)
+(function) 

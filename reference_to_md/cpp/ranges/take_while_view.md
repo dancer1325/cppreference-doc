@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 **`std::ranges::take_while_view`**
 
@@ -241,7 +241,7 @@ std::from_range](from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
 [take_while_view::_sentinel_ ::base](take_while_view/sentinel/base.html "cpp/ranges/take while view/sentinel/base")  
 [operator==(take_while_view::_sentinel_)](take_while_view/sentinel/operator_cmp.html "cpp/ranges/take while view/sentinel/operator cmp")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/take_while_view/navbar_content&action=edit)
+
 
 Defined in header `[<ranges>](../header/ranges.html "cpp/header/ranges")` |  |   
 ---|---|---  
@@ -282,7 +282,7 @@ constexpr /*range adaptor closure*/ take_while( Pred&& pred ); |  |  (since C++2
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/take_while_view&action=edit&section=1 "Edit section: Data members")] Data members
+### Data members
 
 Member  |  Description   
 ---|---  
@@ -291,50 +291,50 @@ Member  |  Description
 [`_copyable-box_`](copyable_wrapper.html "cpp/ranges/copyable wrapper")`<Pred>`(until C++23)[`_movable-box_`](copyable_wrapper.html "cpp/ranges/copyable wrapper")`<Pred>`(since C++23) `_pred__` (private) |  the underlying function object  
 (exposition-only member object*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/take_while_view&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](take_while_view/take_while_view.html "cpp/ranges/take while view/take while view") |  constructs a `take_while_view`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ base](take_while_view/base.html "cpp/ranges/take while view/base") |  returns a copy of the underlying (adapted) view   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/dsc_base&action=edit)  
+(public member function)   
 [ pred](take_while_view/pred.html "cpp/ranges/take while view/pred") |  returns a reference to the stored predicate   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/dsc_pred&action=edit)  
+(public member function)   
 [ begin](take_while_view/begin.html "cpp/ranges/take while view/begin") |  returns an iterator to the beginning   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/dsc_begin&action=edit)  
+(public member function)   
 [ end](take_while_view/end.html "cpp/ranges/take while view/end") |  returns a sentinel representing the end   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/dsc_end&action=edit)  
+(public member function)   
   
 #####  Inherited from [std::ranges::view_interface](view_interface.html "cpp/ranges/view interface")  
   
 [ empty](view_interface/empty.html "cpp/ranges/view interface/empty") |  returns whether the derived view is empty, provided only if it satisfies [`sized_range`](sized_range.html "cpp/ranges/sized range") or [`forward_range`](forward_range.html "cpp/ranges/forward range")   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_empty&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ cbegin](view_interface/cbegin.html "cpp/ranges/view interface/cbegin")(C++23) |  returns a constant iterator to the beginning of the range   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_cbegin&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ cend](view_interface/cend.html "cpp/ranges/view interface/cend")(C++23) |  returns a sentinel for the constant iterator of the range   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_cend&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ operator bool](view_interface/operator_bool.html "cpp/ranges/view interface/operator bool") |  returns whether the derived view is not empty, provided only if [ranges::empty](empty.html "cpp/ranges/empty") is applicable to it   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_operator_bool&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ data](view_interface/data.html "cpp/ranges/view interface/data") |  gets the address of derived view's data, provided only if its iterator type satisfies [`contiguous_iterator`](../iterator/contiguous_iterator.html "cpp/iterator/contiguous iterator")   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_data&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ front](view_interface/front.html "cpp/ranges/view interface/front") |  returns the first element in the derived view, provided if it satisfies [`forward_range`](forward_range.html "cpp/ranges/forward range")   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_front&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ operator[]](view_interface/operator_at.html "cpp/ranges/view interface/operator at") |  returns the `n`th element in the derived view, provided only if it satisfies [`random_access_range`](random_access_range.html "cpp/ranges/random access range")   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_operator_at&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/take_while_view&action=edit&section=3 "Edit section: Deduction guides")] [Deduction guides](take_while_view/deduction_guides.html "cpp/ranges/take while view/deduction guides")
+### [Deduction guides](take_while_view/deduction_guides.html "cpp/ranges/take while view/deduction guides")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/take_while_view&action=edit&section=4 "Edit section: Nested classes")] Nested classes
+### Nested classes
 
 [_sentinel_](take_while_view/sentinel.html "cpp/ranges/take while view/sentinel") |  the sentinel type  
 (exposition-only member class template*)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/take_while_view&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 For [`forward_iterator`s](../iterator/forward_iterator.html "cpp/iterator/forward iterator"), views::take_while(v, pred) is similar to [ranges::subrange](subrange.html){[ranges::begin](begin.html)(v), [ranges::find_if_not](../algorithm/ranges/find.html)(v, pred)}, but the latter invokes pred only during construction (while the former invokes pred each time a valid `take_while` iterator is compared to a sentinel). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/take_while_view&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -362,10 +362,10 @@ Output:
     2020 2021 2022 2023 2024 2025
     Today is yesterday's tomorrow!
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/take_while_view&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ ranges::take_viewviews::take](take_view.html "cpp/ranges/take view")(C++20) |  a [`view`](view.html "cpp/ranges/view") consisting of the first N elements of another [`view`](view.html "cpp/ranges/view")  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_take_view&action=edit)  
+(class template) (range adaptor object)  
 ---|---  
 [ ranges::drop_while_viewviews::drop_while](drop_while_view.html "cpp/ranges/drop while view")(C++20) |  a [`view`](view.html "cpp/ranges/view") consisting of the elements of another [`view`](view.html "cpp/ranges/view"), skipping the initial subsequence of elements until the first element where the predicate returns false  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_drop_while_view&action=edit)
+(class template) (range adaptor object)

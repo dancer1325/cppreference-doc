@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::variant`](../variant.html "cpp/utility/variant")
 
@@ -161,7 +161,7 @@ Common vocabulary types
 [Helper objects](../variant.html#Helper_objects "cpp/utility/variant")  
 [variant_npos](variant_npos.html "cpp/utility/variant/variant npos")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variant/navbar_content&action=edit)
+
 
 template< class Self, class Visitor >  
 constexpr decltype(auto) visit( this Self&& self, Visitor&& vis ); |  (1)  |  (since C++26)  
@@ -190,29 +190,29 @@ Given type V as decltype([std::forward_like](../forward_like.html)<Self>([std::d
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variant/visit&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 vis  |  \-  |  a [Callable](../../named_req/Callable.html "cpp/named req/Callable") that accepts every possible alternative from the variant   
 ---|---|---  
 self  |  \-  |  variant to pass to the visitor   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variant/visit&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) The result of the std::visit invocation.
 
 2) Nothing if `R` is (possibly cv-qualified) void; otherwise the result of the std::visit<R> invocation.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variant/visit&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Only throws if the call to std::visit throws. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variant/visit&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../feature_test.html "cpp/utility/feature test") macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_variant`](../../experimental/feature_test.html#cpp_lib_variant "cpp/feature test") | [`202306L`](../../compiler_support/26.html#cpp_lib_variant_202306L "cpp/compiler support/26") | (C++26) | member `visit`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variant/visit&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -261,10 +261,10 @@ Output:
     string = “abc”
     base
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variant/visit&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ visit](visit2.html "cpp/utility/variant/visit2")(C++17) |  calls the provided functor with the arguments held by one or more `variant`s   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variant/dsc_visit2&action=edit)  
+(function template)   
 ---|---
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

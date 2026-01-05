@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Metaprogramming library](../meta.html "cpp/meta")
 
@@ -167,7 +167,7 @@ Type transformations
 Compile-time integer sequences  
 [integer_sequence](../utility/integer_sequence.html "cpp/utility/integer sequence")(C++14)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/meta/navbar_content&action=edit)
+
 
 Defined in header `[<type_traits>](../header/type_traits.html "cpp/header/type traits")` |  |   
 ---|---|---  
@@ -195,20 +195,20 @@ If the program adds specializations for `std::underlying_type`, the behavior is 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/underlying_type&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Name  |  Definition   
 ---|---  
 `type` |  the underlying type of `T`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/underlying_type&action=edit&section=2 "Edit section: Helper types")] Helper types
+### Helper types
 
 template< class T >  
 using underlying_type_t = typename underlying_type<T>::type; |  |  (since C++14)  
 ---|---|---  
 | |   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/underlying_type&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Each [enumeration type](../language/enum.html "cpp/language/enum") has an _underlying type_ , which can be 
 
@@ -217,7 +217,7 @@ Each [enumeration type](../language/enum.html "cpp/language/enum") has an _under
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/underlying_type&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -252,7 +252,7 @@ Possible output:
     underlying type for 'e3' is non-int
     underlying type for 'e4' is int
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/underlying_type&action=edit&section=5 "Edit section: Defect reports")] Defect reports 
+### Defect reports 
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -260,12 +260,12 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 2396](https://cplusplus.github.io/LWG/issue2396) | C++11  | incomplete enumeration types were allowed  | complete enumeration type required   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/underlying_type&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ is_enum](is_enum.html "cpp/types/is enum")(C++11) |  checks if a type is an enumeration type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_enum&action=edit)  
+(class template)   
 ---|---  
 [ is_scoped_enum](is_scoped_enum.html "cpp/types/is scoped enum")(C++23) |  checks if a type is a scoped enumeration type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_scoped_enum&action=edit)  
+(class template)   
 [ to_underlying](../utility/to_underlying.html "cpp/utility/to underlying")(C++23) |  converts an enumeration to its underlying type   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_to_underlying&action=edit)
+(function template) 

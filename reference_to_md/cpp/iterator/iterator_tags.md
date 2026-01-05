@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](empty.html "cpp/iterator/empty")(C++17)  
 [data](data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 Defined in header `[<iterator>](../header/iterator.html "cpp/header/iterator")` |  |   
 ---|---|---  
@@ -219,7 +219,7 @@ Defines the category of an iterator. Each tag is an empty type.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/iterator_tags&action=edit&section=1 "Edit section: Iterator category")] Iterator category
+### Iterator category
 
 For every [LegacyIterator](../named_req/Iterator.html "cpp/named req/Iterator") type `It`, a `typedef` [std::iterator_traits](iterator_traits.html)<It>::iterator_category must be defined to be an alias to one of these tag types, to indicate the most specific category that `It` is in. 
 
@@ -246,13 +246,13 @@ For every [`input_iterator`](input_iterator.html "cpp/iterator/input iterator") 
 If `iterator_concept` is not provided, `iterator_category` is used as a fallback. If `iterator_category` is not provided either (i.e. `It` is not a [LegacyIterator](../named_req/Iterator.html "cpp/named req/Iterator")), and [std::iterator_traits](iterator_traits.html)<It> is not specialized, `random_access_iterator_tag` is assumed. In any case, each concept is not satisfied if the required operations are not supported, regardless of the tag.  | (since C++20)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/iterator_tags&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 There is no separate tag for [LegacyContiguousIterator](../named_req/ContiguousIterator.html "cpp/named req/ContiguousIterator"). That is, it is not possible to tell a [LegacyContiguousIterator](../named_req/ContiguousIterator.html "cpp/named req/ContiguousIterator") based on its `iterator_category`. To define specialized algorithm for contiguous iterators, use the [`contiguous_iterator`](contiguous_iterator.html "cpp/iterator/contiguous iterator") concept.(since C++20)
 
 There are no correspondences between `output_iterator_tag` and the [`output_iterator`](output_iterator.html "cpp/iterator/output iterator") concept. Setting `iterator_concept` to `output_iterator_tag` only indicates that the type does not model [`input_iterator`](input_iterator.html "cpp/iterator/input iterator"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/iterator_tags&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Common technique for algorithm selection based on iterator category tags is to use a dispatcher function (the alternative is [std::enable_if](../types/enable_if.html "cpp/types/enable if")). The iterator tag classes are also used in the corresponding concepts definitions to denote the requirements, which can't be expressed in terms of usage patterns alone.(since C++20)
 
@@ -329,10 +329,10 @@ Output:
     2. alg() 	 called for random-access iterator
     4. legacy::alg() called for random-access iterator
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/iterator_tags&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ iterator](iterator.html "cpp/iterator/iterator")(deprecated in C++17) |  base class to ease the definition of required types for simple iterators   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_iterator&action=edit)  
+(class template)   
 ---|---  
 [ iterator_traits](iterator_traits.html "cpp/iterator/iterator traits") |  provides uniform interface to the properties of an iterator   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_iterator_traits&action=edit)
+(class template) 

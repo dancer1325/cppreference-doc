@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Null-terminated wide strings](../wide.html "cpp/string/wide")
 
@@ -153,7 +153,7 @@
 WCHAR_MAX  
 WEOF](../wide.html#Macros "cpp/string/wide")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/navbar_content&action=edit)
+
 
 Defined in header `[<cwctype>](../../header/cwctype.html "cpp/header/cwctype")` |  |   
 ---|---|---  
@@ -162,7 +162,7 @@ Defined in header `[<cwctype>](../../header/cwctype.html "cpp/header/cwctype")` 
   
 Constructs a value of type [std::wctype_t](../wide.html) that describes a [LC_CTYPE](../../locale/LC_categories.html "cpp/locale/LC categories") category of wide character classification. It may be one of the standard classification categories, or a locale-specific category, such as `"jkanji"`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/wctype&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 str  |  \-  |  C string holding the name of the desired category   
 ---|---|---  
@@ -183,13 +183,13 @@ value of `str` |  effect
 `"upper"` |  identifies the category used by [std::iswupper](iswupper.html "cpp/string/wide/iswupper")  
 `"xdigit"` |  identifies the category used by [std::iswxdigit](iswxdigit.html "cpp/string/wide/iswxdigit")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/wctype&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 [std::wctype_t](../wide.html) object suitable for use with [std::iswctype](iswctype.html "cpp/string/wide/iswctype") to classify wide characters according to the named category of the current C locale or zero if str does not name a category supported by the current C locale. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/wctype&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ iswctype](iswctype.html "cpp/string/wide/iswctype") |  classifies a wide character according to the specified [`LC_CTYPE`](../../locale/LC_categories.html "cpp/locale/LC categories") category   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_iswctype&action=edit)  
+(function)   
 ---|---  
 [C documentation](../../../c/string/wide/wctype.html "c/string/wide/wctype") for wctype

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Library fundamentals v3](../lib_extensions_3.html "cpp/experimental/lib extensions 3")
 
@@ -65,7 +65,7 @@
 [experimental::scope_success](../scope_success.html "cpp/experimental/scope success")  
 [experimental::unique_resource](../unique_resource.html "cpp/experimental/unique resource")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions_3/navbar_content&action=edit)
+
 
 [`std::experimental::unique_resource`](../unique_resource.html "cpp/experimental/unique resource")
 
@@ -85,7 +85,7 @@ Non-member functions
 [make_unique_resource_checked](make_unique_resource_checked.html "cpp/experimental/unique resource/make unique resource checked")  
 [Deduction guides](deduction_guides.html "cpp/experimental/unique resource/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/unique_resource/navbar_content&action=edit)
+
 
 void release() noexcept; |  |  (library fundamentals TS v3)  
 ---|---|---  
@@ -105,22 +105,22 @@ Unlike [std::unique_ptr::release](../../memory/unique_ptr/release.html "cpp/memo
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/unique_resource/release&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/unique_resource/release&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/unique_resource/release&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/unique_resource/release&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ release](../../memory/unique_ptr/release.html "cpp/memory/unique ptr/release") |  returns a pointer to the managed object and releases the ownership   
-(public member function of `std::unique_ptr<T,Deleter>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/unique_ptr/dsc_release&action=edit)  
+(public member function of `std::unique_ptr<T,Deleter>`)   
 ---|---

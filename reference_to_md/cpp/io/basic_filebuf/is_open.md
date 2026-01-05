@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_filebuf`](../basic_filebuf.html "cpp/io/basic filebuf")
 
@@ -105,7 +105,7 @@ Protected member functions
 Non-member functions  
 [swap(std::basic_filebuf)](swap2.html "cpp/io/basic filebuf/swap2")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_filebuf/navbar_content&action=edit)
+
 
 bool is_open() const; |  |   
 ---|---|---  
@@ -124,19 +124,19 @@ Returns true if the most recent call to [open()](open.html "cpp/io/basic filebuf
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_filebuf/is_open&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_filebuf/is_open&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 true if the associated file is open, false otherwise. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_filebuf/is_open&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 This function is typically called by [std::basic_fstream::is_open()](../basic_fstream/is_open.html "cpp/io/basic fstream/is open"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_filebuf/is_open&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -162,10 +162,10 @@ Output:
     through streambuf: true
     through fstream: true
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_filebuf/is_open&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ open](open.html "cpp/io/basic filebuf/open") |  opens a file and configures it as the associated character sequence   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_filebuf/dsc_open&action=edit)  
+(public member function)   
 ---|---  
 [ close](close.html "cpp/io/basic filebuf/close") |  flushes the put area buffer and closes the associated file   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_filebuf/dsc_close&action=edit)
+(public member function) 

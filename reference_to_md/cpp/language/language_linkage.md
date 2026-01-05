@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [Declarations](declarations.html "cpp/language/declarations")
 
@@ -280,7 +280,7 @@ Other declarations
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/declarations/navbar_content&action=edit)
+
 
 Provides for linkage between program units written in different programming languages. 
 
@@ -311,7 +311,7 @@ declaration |  \-  |  a declaration
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/language_linkage&action=edit&section=1 "Edit section: Explanation")] Explanation
+### Explanation
 
 Every function type, every function name with [external linkage](storage_duration.html "cpp/language/storage duration"), and every variable name with [external linkage](storage_duration.html "cpp/language/storage duration"), has a property called _language linkage_. Language linkage encapsulates the set of requirements necessary to link with a program unit written in another programming language: [calling convention](https://en.wikipedia.org/wiki/calling_convention "enwiki:calling convention"), [name mangling](https://en.wikipedia.org/wiki/name_mangling "enwiki:name mangling") (name decoration) algorithm, etc. 
 
@@ -374,7 +374,7 @@ If [two declarations of an entity](conflicting_declarations.html#Multiple_declar
     int h(); // has C++ language linkage by default
     extern "C" int h(); // Error: different language linkages
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/language_linkage&action=edit&section=2 "Edit section: Special rules for "C" linkage")] Special rules for "C" linkage
+#### Special rules for "C" linkage
 
 When class members, friend functions with a trailing [requires clause](constraints.html#Requires_clauses "cpp/language/constraints"),(since C++20) or non-static member functions appear in a "C" language block, the linkage of their types remains "C++" (but parameter types, if any, remain "C"): 
     
@@ -447,7 +447,7 @@ However, the [restrictions](conflicting_declarations.html#Restrictions "cpp/lang
         void y(); // Error: redeclares “y” with a different type
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/language_linkage&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Language specifications can only appear in [namespace scope](scope.html#Namespace_scope "cpp/language/scope"). 
 
@@ -492,11 +492,11 @@ The only modern compiler that differentiates function types with "C" and "C++" l
     void qsort(void* base, [std::size_t](../types/size_t.html) nmemb, [std::size_t](../types/size_t.html) size, c_predfun*   compar);
     void qsort(void* base, [std::size_t](../types/size_t.html) nmemb, [std::size_t](../types/size_t.html) size, cpp_predfun* compar);
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/language_linkage&action=edit&section=4 "Edit section: Keywords")] Keywords
+### Keywords
 
 [`extern`](../keyword/extern.html "cpp/keyword/extern")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/language_linkage&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -517,7 +517,7 @@ is ignored in this case
 [CWG 2483](https://cplusplus.github.io/CWG/issues/2483.html) | C++98  | the linkage of the types of static member functions  
 appear in "C" language blocks was "C++" | the linkage is "C"  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/language_linkage&action=edit&section=6 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Library fundamentals](memory.html "cpp/experimental/lib extensions")
 
@@ -75,7 +75,7 @@
 [Type-erased and polymorphic allocators](memory.html "cpp/experimental/memory")  
 [Variable templates for type traits](type_trait_variable_templates.html "cpp/experimental/type trait variable templates")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions/navbar_content&action=edit)
+
 
 **`std::experimental::weak_ptr`**
 
@@ -83,7 +83,7 @@
 ---  
 [Members and non-members identical to those of `std::weak_ptr`](weak_ptr.html#identical-weak_ptr "cpp/experimental/weak ptr")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/weak_ptr/navbar_content&action=edit)
+
 
 Defined in header `[<experimental/memory>](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/memory&action=edit&redlink=1 "cpp/header/experimental/memory \(page does not exist\)")` |  |   
 ---|---|---  
@@ -106,16 +106,16 @@ template< class T > class weak_ptr; |  |  (library fundamentals TS)
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/weak_ptr&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Member type  |  Definition   
 ---|---  
 element_type |  [std::remove_extent_t](../types/remove_extent.html)<T>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/weak_ptr&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](weak_ptr/weak_ptr.html "cpp/experimental/weak ptr/weak ptr") |  constructs new `weak_ptr`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/weak_ptr/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
   
 ##  Members and non-members identical to std::weak_ptr 
@@ -125,38 +125,38 @@ element_type |  [std::remove_extent_t](../types/remove_extent.html)<T>
 The following member functions work with std::experimental::shared_ptr instead of [std::shared_ptr](../memory/shared_ptr.html "cpp/memory/shared ptr") and std::experimental::weak_ptr instead of [std::weak_ptr](../memory/weak_ptr.html "cpp/memory/weak ptr"). The behavior is otherwise identical. 
 
 [ (destructor)](../memory/weak_ptr/~weak_ptr.html "cpp/memory/weak ptr/~weak ptr") |  destroys a `weak_ptr`   
-(public member function of `std::weak_ptr<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/weak_ptr/dsc_destructor&action=edit)  
+(public member function of `std::weak_ptr<T>`)   
 ---|---  
 [ operator=](../memory/weak_ptr/operator=.html "cpp/memory/weak ptr/operator=") |  assigns the `weak_ptr`   
-(public member function of `std::weak_ptr<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/weak_ptr/dsc_operator%3D&action=edit)  
+(public member function of `std::weak_ptr<T>`)   
   
 #####  Modifiers   
   
 [ reset](../memory/weak_ptr/reset.html "cpp/memory/weak ptr/reset") |  releases the ownership of the managed object   
-(public member function of `std::weak_ptr<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/weak_ptr/dsc_reset&action=edit)  
+(public member function of `std::weak_ptr<T>`)   
 [ swap](../memory/weak_ptr/swap.html "cpp/memory/weak ptr/swap") |  swaps the managed objects   
-(public member function of `std::weak_ptr<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/weak_ptr/dsc_swap&action=edit)  
+(public member function of `std::weak_ptr<T>`)   
   
 #####  Observers   
   
 [ use_count](../memory/weak_ptr/use_count.html "cpp/memory/weak ptr/use count") |  returns the number of `shared_ptr` objects that manage the object   
-(public member function of `std::weak_ptr<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/weak_ptr/dsc_use_count&action=edit)  
+(public member function of `std::weak_ptr<T>`)   
 [ expired](../memory/weak_ptr/expired.html "cpp/memory/weak ptr/expired") |  checks whether the referenced object was already deleted   
-(public member function of `std::weak_ptr<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/weak_ptr/dsc_expired&action=edit)  
+(public member function of `std::weak_ptr<T>`)   
 [ lock](../memory/weak_ptr/lock.html "cpp/memory/weak ptr/lock") |  creates a `shared_ptr` that manages the referenced object   
-(public member function of `std::weak_ptr<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/weak_ptr/dsc_lock&action=edit)  
+(public member function of `std::weak_ptr<T>`)   
 [ owner_before](../memory/weak_ptr/owner_before.html "cpp/memory/weak ptr/owner before") |  provides owner-based ordering of weak pointers   
-(public member function of `std::weak_ptr<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/weak_ptr/dsc_owner_before&action=edit)  
+(public member function of `std::weak_ptr<T>`)   
   
 ###  Non-member functions
 
 This non-member function is declared in the `std::experimental` namespace, and work with `std::experimental::weak_ptr` rather than [std::weak_ptr](../memory/weak_ptr.html "cpp/memory/weak ptr"), but otherwise behaves identically to the corresponding C++14 function. 
 
 [ std::swap(std::weak_ptr)](../memory/weak_ptr/swap2.html "cpp/memory/weak ptr/swap2")(C++11) |  specializes the [std::swap](../utility/swap.html "cpp/algorithm/swap") algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/weak_ptr/dsc_swap2&action=edit)  
+(function template)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/weak_ptr&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Strings library](../../string.html "cpp/string")
 
@@ -40,7 +40,7 @@ Classes
 [basic_string_view](../basic_string_view.html "cpp/string/basic string view")(C++17)  
 [char_traits](../char_traits.html "cpp/string/char traits")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/navbar_content&action=edit)
+
 
 [`std::basic_string`](../basic_string.html "cpp/string/basic string")
 
@@ -133,7 +133,7 @@ basic_string_view](operator_basic_string_view.html "cpp/string/basic string/oper
 [hash<std::basic_string>](hash.html "cpp/string/basic string/hash")(C++11)  
 [Deduction guides](deduction_guides.html "cpp/string/basic string/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/navbar_content&action=edit)
+
 
 constexpr bool  
 starts_with( [std::basic_string_view](../basic_string_view.html)<CharT,Traits> sv ) const noexcept; |  (1)  |  (since C++20)  
@@ -165,24 +165,24 @@ All three overloads effectively return [std::basic_string_view](../basic_string_
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/starts_with&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 sv  |  \-  |  a string view which may be a result of implicit conversion from another `std::basic_string`  
 ---|---|---  
 ch  |  \-  |  a single character   
 s  |  \-  |  a null-terminated character string   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/starts_with&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 true if the string begins with the provided prefix, false otherwise. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/starts_with&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../../utility/feature_test.html "cpp/utility/feature test") macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_starts_ends_with`](../../experimental/feature_test.html#cpp_lib_starts_ends_with "cpp/feature test") | [`201711L`](../../compiler_support/20.html#cpp_lib_starts_ends_with_201711L "cpp/compiler support/20") | (C++20) | String prefix and suffix checking: starts_with() and ends_with()  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/starts_with&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -210,22 +210,22 @@ Run this code
         );
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/starts_with&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ ends_with](ends_with.html "cpp/string/basic string/ends with")(C++20) |  checks if the string ends with the given suffix   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_ends_with&action=edit)  
+(public member function)   
 ---|---  
 [ starts_with](../basic_string_view/starts_with.html "cpp/string/basic string view/starts with")(C++20) |  checks if the string view starts with the given prefix   
-(public member function of `std::basic_string_view<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/dsc_starts_with&action=edit)  
+(public member function of `std::basic_string_view<CharT,Traits>`)   
 [ ends_with](../basic_string_view/ends_with.html "cpp/string/basic string view/ends with")(C++20) |  checks if the string view ends with the given suffix   
-(public member function of `std::basic_string_view<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/dsc_ends_with&action=edit)  
+(public member function of `std::basic_string_view<CharT,Traits>`)   
 [ contains](contains.html "cpp/string/basic string/contains")(C++23) |  checks if the string contains the given substring or character   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_contains&action=edit)  
+(public member function)   
 [ contains](../basic_string_view/contains.html "cpp/string/basic string view/contains")(C++23) |  checks if the string view contains the given substring or character   
-(public member function of `std::basic_string_view<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/dsc_contains&action=edit)  
+(public member function of `std::basic_string_view<CharT,Traits>`)   
 [ compare](compare.html "cpp/string/basic string/compare") |  compares two strings   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_compare&action=edit)  
+(public member function)   
 [ substr](substr.html "cpp/string/basic string/substr") |  returns a substring   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_substr&action=edit)
+(public member function) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Regular expressions library](../../regex.html "cpp/regex")
 
@@ -81,7 +81,7 @@ Constants
 Regex Grammar  
 [Modified ECMAScript-262](../ecmascript.html "cpp/regex/ecmascript")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/navbar_content&action=edit)
+
 
 [`std::regex_traits`](../regex_traits.html "cpp/regex/regex traits")
 
@@ -100,7 +100,7 @@ Member functions
 [regex_traits::imbue](imbue.html "cpp/regex/regex traits/imbue")  
 [regex_traits::getloc](getloc.html "cpp/regex/regex traits/getloc")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/regex_traits/navbar_content&action=edit)
+
 
 template< class ForwardIt >  
 string_type transform_primary( ForwardIt first, ForwardIt last ) const; |  |   
@@ -113,18 +113,18 @@ The regex library uses this trait to match characters against equivalence classe
 
 There is no portable way to define primary sort key in terms of [std::locale](../../locale/locale.html "cpp/locale/locale") since the conversion from the collation key returned by std::collate::transform() to the primary equivalence key is locale-specific, and if the user replaces the [std::collate](../../locale/collate.html "cpp/locale/collate") facet, that conversion is no longer known to the standard library's [std::regex_traits](../regex_traits.html "cpp/regex/regex traits"). Standard library specializations of [std::regex_traits](../regex_traits.html "cpp/regex/regex traits") return an empty string unless the [std::collate](../../locale/collate.html "cpp/locale/collate") facet of the currently-imbued locale was not replaced by the user, and still matches the system-supplied [std::collate](../../locale/collate.html "cpp/locale/collate") facet), in which case [std::collate_byname](../../locale/collate_byname.html)<CharT>::transform(first, last) is executed and the sort key it produces is converted to the expected primary sort key using a locale-specific conversion. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/regex_traits/transform_primary&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  a pair of iterators which determines the sequence of characters to compare   
 ---|---|---  
 Type requirements   
 -`ForwardIt` must meet the requirements of [LegacyForwardIterator](../../named_req/ForwardIterator.html "cpp/named req/ForwardIterator").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/regex_traits/transform_primary&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The primary sort key for the character sequence `[`first`, `last`)` in the currently imbued locale, ignoring case, variant, diacritics, etc. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/regex_traits/transform_primary&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Demonstrates the regex feature that works through `transform_primary()`.
 

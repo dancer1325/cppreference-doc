@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Extensions for parallelism](parallelism.html "cpp/experimental/parallelism")
 
@@ -77,7 +77,7 @@ New algorithms
 [parallel::transform_exclusive_scan](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/transform_exclusive_scan&action=edit&redlink=1 "cpp/experimental/transform exclusive scan \(page does not exist\)")  
 [parallel::transform_inclusive_scan](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/transform_inclusive_scan&action=edit&redlink=1 "cpp/experimental/transform inclusive scan \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/parallelism/navbar_content&action=edit)
+
 
 Defined in header `[<experimental/execution_policy>](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/execution_policy&action=edit&redlink=1 "cpp/header/experimental/execution policy \(page does not exist\)")` |  |   
 ---|---|---  

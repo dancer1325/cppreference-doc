@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::join_with_view`](../join_with_view.html "cpp/ranges/join with view")
 
@@ -251,7 +251,7 @@ join_with_view::_iterator_ ::operator--(int)](iterator/operator_arith.html "cpp/
 [join_with_view::_sentinel_ ::_sentinel_](sentinel/sentinel.html "cpp/ranges/join with view/sentinel/sentinel")  
 [operator==(join_with_view::_sentinel_)](sentinel/operator_cmp.html "cpp/ranges/join with view/sentinel/operator cmp")(C++23)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/join_with_view/navbar_content&action=edit)
+
 
 join_with_view()  
 requires [std::default_initializable](../../concepts/default_initializable.html)<V> &&  
@@ -276,14 +276,14 @@ Overload  | [Data members](../join_with_view.html#Data_members "cpp/ranges/join 
 (2) | initialized with std::move(base) | initialized with std::move(pattern)  
 (3) |  initialized with [views::all](../all_view.html)([std::forward](../../utility/forward.html)<R>(r)) |  initialized with [views::single](../single_view.html)(std::move(e))  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/join_with_view/join_with_view&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 base  |  \-  |  a view of ranges to be flattened   
 ---|---|---  
 pattern  |  \-  |  view to be used as the delimiter   
 e  |  \-  |  element to be used as the delimiter   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/join_with_view/join_with_view&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

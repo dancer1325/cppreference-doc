@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Diagnostics library](../error.html "cpp/error")
 
@@ -89,7 +89,7 @@ Exception handling failures
 [breakpoint_if_debugging](breakpoint_if_debugging.html "cpp/utility/breakpoint if debugging")(C++26)  
 [breakpoint](breakpoint.html "cpp/utility/breakpoint")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/navbar_content&action=edit)
+
 
 **`std::basic_stacktrace`**
 
@@ -124,7 +124,7 @@ operator<=>](basic_stacktrace/operator_cmp.html "cpp/utility/basic stacktrace/op
 [hash<std::basic_stacktrace>](basic_stacktrace/hash.html "cpp/utility/basic stacktrace/hash")  
 [formatter<std::basic_stacktrace>](basic_stacktrace/formatter.html "cpp/utility/basic stacktrace/formatter")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/basic_stacktrace/navbar_content&action=edit)
+
 
 Defined in header `[<stacktrace>](../header/stacktrace.html "cpp/header/stacktrace")` |  |   
 ---|---|---  
@@ -168,12 +168,12 @@ A _stacktrace entry_ represents an evaluation in a stacktrace. It is represented
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/basic_stacktrace&action=edit&section=1 "Edit section: Template parameters")] Template parameters
+### Template parameters
 
 Allocator  |  \-  |  An allocator that is used to acquire/release memory and to construct/destroy the elements in that memory. The type must meet the requirements of [Allocator](../named_req/Allocator.html "cpp/named req/Allocator"). The program is ill-formed if `Allocator::value_type` is not std::stacktrace_entry.   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/basic_stacktrace&action=edit&section=2 "Edit section: Member types")] Member types
+### Member types
 
 Member type  |  Definition   
 ---|---  
@@ -188,73 +188,73 @@ Member type  |  Definition
 `size_type` |  implementation-defined unsigned integer type   
 `allocator_type` |  `Allocator`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/basic_stacktrace&action=edit&section=3 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](basic_stacktrace/basic_stacktrace.html "cpp/utility/basic stacktrace/basic stacktrace") |  creates a new `basic_stacktrace`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/basic_stacktrace/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ (destructor)](basic_stacktrace/~basic_stacktrace.html "cpp/utility/basic stacktrace/~basic stacktrace") |  destroys the `basic_stacktrace`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/basic_stacktrace/dsc_destructor&action=edit)  
+(public member function)   
 [ operator=](basic_stacktrace/operator=.html "cpp/utility/basic stacktrace/operator=") |  assigns to the `basic_stacktrace`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/basic_stacktrace/dsc_operator%3D&action=edit)  
+(public member function)   
 [ current](basic_stacktrace/current.html "cpp/utility/basic stacktrace/current")[static] |  obtains the current stacktrace or its given part   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/basic_stacktrace/dsc_current&action=edit)  
+(public static member function)   
 [ get_allocator](basic_stacktrace/get_allocator.html "cpp/utility/basic stacktrace/get allocator") |  returns the associated allocator   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/basic_stacktrace/dsc_get_allocator&action=edit)  
+(public member function)   
   
 #####  Iterators   
   
 [ begincbegin](basic_stacktrace/begin.html "cpp/utility/basic stacktrace/begin") |  returns an iterator to the beginning   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/basic_stacktrace/dsc_begin&action=edit)  
+(public member function)   
 [ endcend](basic_stacktrace/end.html "cpp/utility/basic stacktrace/end") |  returns an iterator to the end   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/basic_stacktrace/dsc_end&action=edit)  
+(public member function)   
 [ rbegincrbegin](basic_stacktrace/rbegin.html "cpp/utility/basic stacktrace/rbegin") |  returns a reverse iterator to the beginning   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/basic_stacktrace/dsc_rbegin&action=edit)  
+(public member function)   
 [ rendcrend](basic_stacktrace/rend.html "cpp/utility/basic stacktrace/rend") |  returns a reverse iterator to the end   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/basic_stacktrace/dsc_rend&action=edit)  
+(public member function)   
   
 #####  Capacity   
   
 [ empty](basic_stacktrace/empty.html "cpp/utility/basic stacktrace/empty") |  checks whether the `basic_stacktrace` is empty   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/basic_stacktrace/dsc_empty&action=edit)  
+(public member function)   
 [ size](basic_stacktrace/size.html "cpp/utility/basic stacktrace/size") |  returns the number of stacktrace entries   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/basic_stacktrace/dsc_size&action=edit)  
+(public member function)   
 [ max_size](basic_stacktrace/max_size.html "cpp/utility/basic stacktrace/max size") |  returns the maximum possible number of stacktrace entries   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/basic_stacktrace/dsc_max_size&action=edit)  
+(public member function)   
   
 #####  Element access   
   
 [ operator[]](basic_stacktrace/operator_at.html "cpp/utility/basic stacktrace/operator at") |  access specified stacktrace entry   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/basic_stacktrace/dsc_operator_at&action=edit)  
+(public member function)   
 [ at](basic_stacktrace/at.html "cpp/utility/basic stacktrace/at") |  access specified stacktrace entry with bounds checking   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/basic_stacktrace/dsc_at&action=edit)  
+(public member function)   
   
 #####  Modifiers   
   
 [ swap](basic_stacktrace/swap.html "cpp/utility/basic stacktrace/swap") |  swaps the contents   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/basic_stacktrace/dsc_swap&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/basic_stacktrace&action=edit&section=4 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ operator==operator<=>](basic_stacktrace/operator_cmp.html "cpp/utility/basic stacktrace/operator cmp")(C++23) |  compares the sizes and the contents of two `basic_stacktrace` values   
 (function template)  
 ---|---  
 [ std::swap(std::basic_stacktrace)](basic_stacktrace/swap2.html "cpp/utility/basic stacktrace/swap2")(C++23) |  specializes the [std::swap](swap.html "cpp/algorithm/swap") algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/basic_stacktrace/dsc_swap2&action=edit)  
+(function template)   
 [ to_string](basic_stacktrace/to_string.html "cpp/utility/basic stacktrace/to string")(C++23) |  returns a string with a description of the `basic_stacktrace`   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/basic_stacktrace/dsc_to_string&action=edit)  
+(function template)   
 [ operator<<](basic_stacktrace/operator_ltlt.html "cpp/utility/basic stacktrace/operator ltlt")(C++23) |  performs stream output of `basic_stracktrace`   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/basic_stacktrace/dsc_operator_ltlt&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/basic_stacktrace&action=edit&section=5 "Edit section: Helper classes")] Helper classes
+### Helper classes
 
 [ std::hash<std::basic_stacktrace>](basic_stacktrace/hash.html "cpp/utility/basic stacktrace/hash")(C++23) |  hash support for **`std::basic_stacktrace`**   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/basic_stacktrace/dsc_hash&action=edit)  
+(class template specialization)   
 ---|---  
 [ std::formatter<std::basic_stacktrace>](basic_stacktrace/formatter.html "cpp/utility/basic stacktrace/formatter")(C++23) |  formatting support for `basic_stacktrace`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/basic_stacktrace/dsc_formatter&action=edit)  
+(class template specialization)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/basic_stacktrace&action=edit&section=6 "Edit section: Notes")] Notes
+### Notes
 
 Support for custom allocators is provided for using `basic_stacktrace` on a hot path or in embedded environments. Users can allocate `stacktrace_entry` objects on the stack or in some other place, where appropriate. 
 
@@ -267,7 +267,7 @@ boost::stacktrace::basic_stacktrace (available in [Boost.Stacktrace](https://www
 [`__cpp_lib_stacktrace`](../experimental/feature_test.html#cpp_lib_stacktrace "cpp/feature test") | [`202011L`](../compiler_support/23.html#cpp_lib_stacktrace_202011L "cpp/compiler support/23") | (C++23) | [Stacktrace](basic_stacktrace.html#top) library   
 [`__cpp_lib_formatters`](../experimental/feature_test.html#cpp_lib_formatters "cpp/feature test") | [`202302L`](../compiler_support/23.html#cpp_lib_formatters_202302L "cpp/compiler support/23") | (C++23) | Formatting [std::thread::id](../thread/thread/id.html "cpp/thread/thread/id") and std::stacktrace  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/basic_stacktrace&action=edit&section=7 "Edit section: Example")] Example
+### Example
 
 The output obtained using Compiler Explorer: [msvc](https://godbolt.org/z/sjxvc97a7) and [gcc](https://godbolt.org/z/v117ccshs).
 
@@ -319,10 +319,10 @@ Possible output:
      
     779
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/basic_stacktrace&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [ stacktrace_entry](stacktrace_entry.html "cpp/utility/stacktrace entry")(C++23) |  representation of an evaluation in a stacktrace   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_stacktrace_entry&action=edit)  
+(class)   
 ---|---
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

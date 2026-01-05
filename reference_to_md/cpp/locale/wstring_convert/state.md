@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Localization library](../../locale.html "cpp/locale")
 
@@ -152,7 +152,7 @@ base classes](../../locale.html#Facet_category_base_classes "cpp/locale")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/navbar_content&action=edit)
+
 
 [`std::wstring_convert`](../wstring_convert.html "cpp/locale/wstring convert")
 
@@ -165,7 +165,7 @@ Member functions
 [wstring_convert::converted](converted.html "cpp/locale/wstring convert/converted")  
 **wstring_convert::state**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/wstring_convert/navbar_content&action=edit)
+
 
 Defined in header `[<locale>](../../header/locale.html "cpp/header/locale")` |  |   
 ---|---|---  
@@ -174,22 +174,22 @@ state_type state() const; |  |
   
 Returns the current value of the conversion state, which is stored in this `wstring_convert` object. The conversion state may be explicitly set in the constructor and is updated by all conversion operations. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/wstring_convert/state&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 `_[cvtstate](../wstring_convert.html#cvtstate "cpp/locale/wstring convert")_`
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/wstring_convert/state&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/wstring_convert/state&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ to_bytes](to_bytes.html "cpp/locale/wstring convert/to bytes") |  converts a wide string into a byte string   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/wstring_convert/dsc_to_bytes&action=edit)  
+(public member function)   
 ---|---  
 [ from_bytes](from_bytes.html "cpp/locale/wstring convert/from bytes") |  converts a byte string into a wide string   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/wstring_convert/dsc_from_bytes&action=edit)  
+(public member function)   
 [ mbsinit](../../string/multibyte/mbsinit.html "cpp/string/multibyte/mbsinit") |  checks if the [std::mbstate_t](../../string/multibyte/mbstate_t.html "cpp/string/multibyte/mbstate t") object represents initial shift state   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/dsc_mbsinit&action=edit)
+(function) 

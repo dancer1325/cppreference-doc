@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 Defined in header `[<ranges>](../header/ranges.html "cpp/header/ranges")` |  |   
 ---|---|---  
@@ -272,14 +272,14 @@ constexpr [ranges::view](view.html) auto as_rvalue( R&& r ); |  |  (since C++23)
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/as_rvalue_view&action=edit&section=1 "Edit section: Data members")] Data members
+### Data members
 
 Member  |  Description   
 ---|---  
 `V` `_base__` (private) |  the underlying view  
 (exposition-only member object*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/as_rvalue_view&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](as_rvalue_view.html#ctor "cpp/ranges/as rvalue view") |  constructs an `as_rvalue_view`   
 (public member function)  
@@ -298,19 +298,19 @@ Member  |  Description
 #####  Inherited from [std::ranges::view_interface](view_interface.html "cpp/ranges/view interface")  
   
 [ empty](view_interface/empty.html "cpp/ranges/view interface/empty") |  returns whether the derived view is empty, provided only if it satisfies [`sized_range`](sized_range.html "cpp/ranges/sized range") or [`forward_range`](forward_range.html "cpp/ranges/forward range")   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_empty&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ cbegin](view_interface/cbegin.html "cpp/ranges/view interface/cbegin")(C++23) |  returns a constant iterator to the beginning of the range   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_cbegin&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ cend](view_interface/cend.html "cpp/ranges/view interface/cend")(C++23) |  returns a sentinel for the constant iterator of the range   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_cend&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ operator bool](view_interface/operator_bool.html "cpp/ranges/view interface/operator bool") |  returns whether the derived view is not empty, provided only if [ranges::empty](empty.html "cpp/ranges/empty") is applicable to it   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_operator_bool&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ front](view_interface/front.html "cpp/ranges/view interface/front") |  returns the first element in the derived view, provided if it satisfies [`forward_range`](forward_range.html "cpp/ranges/forward range")   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_front&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ back](view_interface/back.html "cpp/ranges/view interface/back") |  returns the last element in the derived view, provided only if it satisfies [`bidirectional_range`](bidirectional_range.html "cpp/ranges/bidirectional range") and [`common_range`](common_range.html "cpp/ranges/common range")   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_back&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ operator[]](view_interface/operator_at.html "cpp/ranges/view interface/operator at") |  returns the `n`th element in the derived view, provided only if it satisfies [`random_access_range`](random_access_range.html "cpp/ranges/random access range")   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_operator_at&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
   
 ##  std::ranges::as_rvalue_view::as_rvalue_view
 
@@ -381,14 +381,14 @@ requires ranges::approximately_sized_range<const V>; |  (2)  |  (since C++26)
   
 Returns ranges::reserve_hint(`_[base_](as_rvalue_view.html#base)_` ﻿). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/as_rvalue_view&action=edit&section=4 "Edit section: Deduction guides")] Deduction guides
+### Deduction guides
 
 template< class R >  
 as_rvalue_view( R&& ) -> as_rvalue_view<[views::all_t](all_view.html)<R>>; |  |  (since C++23)  
 ---|---|---  
 | |   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/as_rvalue_view&action=edit&section=5 "Edit section: Helper templates")] Helper templates
+### Helper templates
 
 template< class T >  
 constexpr bool enable_borrowed_range<std::ranges::as_rvalue_view<T>> =  
@@ -398,14 +398,14 @@ constexpr bool enable_borrowed_range<std::ranges::as_rvalue_view<T>> =
   
 This specialization of [ranges::enable_borrowed_range](borrowed_range.html "cpp/ranges/borrowed range") makes `as_rvalue_view` satisfy [`borrowed_range`](borrowed_range.html "cpp/ranges/borrowed range") when the underlying view satisfies it. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/as_rvalue_view&action=edit&section=6 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../utility/feature_test.html "cpp/utility/feature test") macro  | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_ranges_as_rvalue`](../experimental/feature_test.html#cpp_lib_ranges_as_rvalue "cpp/feature test") | [`202207L`](../compiler_support/23.html#cpp_lib_ranges_as_rvalue_202207L "cpp/compiler support/23") | (C++23) | `std::ranges::as_rvalue_view`  
 [`__cpp_lib_ranges_reserve_hint`](../experimental/feature_test.html#cpp_lib_ranges_reserve_hint "cpp/feature test") | [`202502L`](../compiler_support/26.html#cpp_lib_ranges_reserve_hint_202502L "cpp/compiler support/26") | (C++26) | ranges::approximately_sized_range and `[reserve_hint](as_rvalue_view.html#reserve_hint)`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/as_rvalue_view&action=edit&section=7 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -443,7 +443,7 @@ Possible output:
     Old words: “” “” “” “” “” “” “” 
     New words: “Quick” “red” “🦊” “jumped” “over” “a” “pterodactyl”
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/as_rvalue_view&action=edit&section=8 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -451,16 +451,16 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 4083](https://cplusplus.github.io/LWG/issue4083) | C++23  | `views::as_rvalue` used to accept non-input ranges  | made rejected   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/as_rvalue_view&action=edit&section=9 "Edit section: See also")] See also
+### See also
 
 [ iter_move](../iterator/ranges/iter_move.html "cpp/iterator/ranges/iter move")(C++20) |  casts the result of dereferencing an object to its associated rvalue reference type  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/ranges/dsc_iter_move&action=edit)  
+(customization point object)  
 ---|---  
 [ move_iterator](../iterator/move_iterator.html "cpp/iterator/move iterator")(C++11) |  iterator adaptor which dereferences to an rvalue   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_move_iterator&action=edit)  
+(class template)   
 [ move_sentinel](../iterator/move_sentinel.html "cpp/iterator/move sentinel")(C++20) |  sentinel adaptor for [std::move_iterator](../iterator/move_iterator.html "cpp/iterator/move iterator")   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_move_sentinel&action=edit)  
+(class template)   
 [ ranges::as_const_viewviews::as_const](as_const_view.html "cpp/ranges/as const view")(C++23) |  converts a [`view`](view.html "cpp/ranges/view") into a [`constant_range`](constant_range.html "cpp/ranges/constant range")  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_as_const_view&action=edit)
+(class template) (range adaptor object)
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../../../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 [Experimental library headers](../../experimental.html "cpp/header/experimental")
 
@@ -292,22 +292,22 @@ Networking TS
 Reflection TS  
 [`<experimental/reflect>`](../reflect.html "cpp/header/experimental/reflect")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/experimental/navbar_content&action=edit)
+
 
 This header is part of the [ranges](../../../experimental/ranges.html "cpp/experimental/ranges") library. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/ranges/type_traits&action=edit&section=1 "Edit section: Metaprogramming and type traits")] Metaprogramming and type traits 
+### Metaprogramming and type traits 
 
 Defined in namespace `std::experimental::ranges`  
 ---  
 [ is_swappable_withis_swappableis_nothrow_swappable_withis_nothrow_swappable](../../../experimental/ranges/type_traits/is_swappable.html "cpp/experimental/ranges/type traits/is swappable") |  checks if objects of a type can be swapped with objects of same or different type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/type_traits/dsc_is_swappable&action=edit)  
+(class template)   
 [ common_reference](../../../experimental/ranges/type_traits/common_reference.html "cpp/experimental/ranges/type traits/common reference") |  determine the common reference type of a set of types   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/type_traits/dsc_common_reference&action=edit)  
+(class template)   
 [ common_type](../../../experimental/ranges/type_traits/common_type.html "cpp/experimental/ranges/type traits/common type") |  determine the common type of a set of types   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/type_traits/dsc_common_type&action=edit)  
+(class template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/ranges/type_traits&action=edit&section=2 "Edit section: Synopsis")] Synopsis 
+### Synopsis 
     
     
     namespace std { namespace experimental { namespace ranges { inline namespace v1 {

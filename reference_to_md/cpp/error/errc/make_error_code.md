@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Diagnostics library](../../error.html "cpp/error")
 
@@ -187,7 +187,7 @@ Exception handling failures
 [breakpoint_if_debugging](../../utility/breakpoint_if_debugging.html "cpp/utility/breakpoint if debugging")(C++26)  
 [breakpoint](../../utility/breakpoint.html "cpp/utility/breakpoint")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/navbar_content&action=edit)
+
 
 [`std::errc`](../errc.html "cpp/error/errc")
 
@@ -198,7 +198,7 @@ Non-member functions
 Helper classes  
 [is_error_condition_enum](is_error_condition_enum.html "cpp/error/errc/is error condition enum")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/errc/navbar_content&action=edit)
+
 
 Defined in header `[<system_error>](../../header/system_error.html "cpp/header/system error")` |  |   
 ---|---|---  
@@ -209,19 +209,19 @@ Creates error code value for `errc` enum e.
 
 Equivalent to [std::error_code](../error_code.html)(static_cast<int>(e), [std::generic_category](../generic_category.html)())
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/errc/make_error_code&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 e  |  \-  |  error code enum to create error code for   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/errc/make_error_code&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Error code corresponding to e. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/errc/make_error_code&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ make_error_code(std::io_errc)](../../io/io_errc/make_error_code.html "cpp/io/io errc/make error code")(C++11) |  constructs an iostream error code   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/io_errc/dsc_make_error_code&action=edit)  
+(function)   
 ---|---  
 [ make_error_code(std::future_errc)](../../thread/future_errc/make_error_code.html "cpp/thread/future errc/make error code")(C++11) |  constructs a future error code   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/future_errc/dsc_make_error_code&action=edit)
+(function) 

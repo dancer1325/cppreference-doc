@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Library fundamentals](../memory.html "cpp/experimental/lib extensions")
 
@@ -75,7 +75,7 @@
 [Type-erased and polymorphic allocators](../memory.html "cpp/experimental/memory")  
 [Variable templates for type traits](../type_trait_variable_templates.html "cpp/experimental/type trait variable templates")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions/navbar_content&action=edit)
+
 
 [`std::experimental::basic_string_view`](../basic_string_view.html "cpp/experimental/basic string view")
 
@@ -123,7 +123,7 @@ Non-member functions
 Helper classes  
 [hash<std::string_view>hash<std::wstring_view>hash<std::u16string_view>hash<std::u32string_view>](hash.html "cpp/experimental/basic string view/hash")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/basic_string_view/navbar_content&action=edit)
+
 
 size_type copy( CharT* dest,  
 size_type count,  
@@ -144,27 +144,27 @@ Copies the substring `[pos, pos + rcount)` to the character string pointed to by
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/basic_string_view/copy&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 dest  |  \-  |  pointer to the destination character string   
 ---|---|---  
 pos  |  \-  |  position of the first character   
 count  |  \-  |  requested substring length   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/basic_string_view/copy&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Number of characters copied 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/basic_string_view/copy&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 [std::out_of_range](../../error/out_of_range.html "cpp/error/out of range") if pos > size(). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/basic_string_view/copy&action=edit&section=4 "Edit section: Complexity")] Complexity
+### Complexity
 
 Linear in `rcount`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/basic_string_view/copy&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ substr](substr.html "cpp/experimental/basic string view/substr") |  returns a substring   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/basic_string_view/dsc_substr&action=edit)  
+(public member function)   
 ---|---

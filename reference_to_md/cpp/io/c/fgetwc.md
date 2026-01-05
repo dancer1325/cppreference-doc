@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [C-style I/O](../c.html "cpp/io/c")
 
@@ -176,7 +176,7 @@ Operations on files
 [tmpfile](tmpfile.html "cpp/io/c/tmpfile")  
 [tmpnam](tmpnam.html "cpp/io/c/tmpnam")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/navbar_content&action=edit)
+
 
 Defined in header `[<cwchar>](../../header/cwchar.html "cpp/header/cwchar")` |  |   
 ---|---|---  
@@ -186,24 +186,24 @@ Defined in header `[<cwchar>](../../header/cwchar.html "cpp/header/cwchar")` |  
   
 Reads the next wide character from the given input stream. getwc() may be implemented as a macro and may evaluate `stream` more than once. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/fgetwc&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 stream  |  \-  |  to read the wide character from   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/fgetwc&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The next wide character from the stream or WEOF if an error has occurred or the end of file has been reached. If an encoding error occurred, [errno](../../error/errno.html "cpp/error/errno") is set to [EILSEQ](../../error/errno_macros.html "cpp/error/errno macros"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/fgetwc&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ fgetcgetc](fgetc.html "cpp/io/c/fgetc") |  gets a character from a file stream   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_fgetc&action=edit)  
+(function)   
 ---|---  
 [ fgetws](fgetws.html "cpp/io/c/fgetws") |  gets a wide string from a file stream   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_fgetws&action=edit)  
+(function)   
 [ fputwcputwc](fputwc.html "cpp/io/c/fputwc") |  writes a wide character to a file stream   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_fputwc&action=edit)  
+(function)   
 [ ungetwc](ungetwc.html "cpp/io/c/ungetwc") |  puts a wide character back into a file stream   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_ungetwc&action=edit)  
+(function)   
 [C documentation](../../../c/io/fgetwc.html "c/io/fgetwc") for fgetwc

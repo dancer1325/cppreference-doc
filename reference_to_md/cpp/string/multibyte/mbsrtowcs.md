@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Null-terminated multibyte strings](../multibyte.html "cpp/string/multibyte")
 
@@ -100,7 +100,7 @@ MB_CUR_MAX](../multibyte.html#Macros "cpp/string/multibyte")
 [__STDC_UTF_16__  
 __STDC_UTF_32__](../multibyte.html#Macros "cpp/string/multibyte")(C++11)(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/navbar_content&action=edit)
+
 
 Defined in header `[<cwchar>](../../header/cwchar.html "cpp/header/cwchar")` |  |   
 ---|---|---  
@@ -131,7 +131,7 @@ Each multibyte character is converted as if by a call to [std::mbrtowc](mbrtowc.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/multibyte/mbsrtowcs&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 dst  |  \-  |  pointer to wide character array where the results will be stored   
 ---|---|---  
@@ -139,17 +139,17 @@ src  |  \-  |  pointer to pointer to the first element of a null-terminated mult
 len  |  \-  |  number of wide characters available in the array pointed to by dst   
 ps  |  \-  |  pointer to the conversion state object   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/multibyte/mbsrtowcs&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 On success, returns the number of wide characters, excluding the terminating L'\0', written to the character array. If dst is a null pointer, returns the number of wide characters that would have been written given unlimited length. 
 
 On conversion error (if invalid multibyte character was encountered), returns static_cast<[std::size_t](../../types/size_t.html)>(-1), stores [EILSEQ](../../error/errno_macros.html "cpp/error/errno macros") in [errno](../../error/errno.html "cpp/error/errno"), and leaves *ps in unspecified state. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/multibyte/mbsrtowcs&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 This function moves the src pointer to the end of the converted multibyte string. This doesn't happen if dst is a null pointer. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/multibyte/mbsrtowcs&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -182,13 +182,13 @@ Output:
     Wide string: zß水🍌
     The length, including '\0': 5
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/multibyte/mbsrtowcs&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ mbrtowc](mbrtowc.html "cpp/string/multibyte/mbrtowc") |  converts the next multibyte character to wide character, given state   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/dsc_mbrtowc&action=edit)  
+(function)   
 ---|---  
 [ wcsrtombs](wcsrtombs.html "cpp/string/multibyte/wcsrtombs") |  converts a wide string to narrow multibyte character string, given state   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/dsc_wcsrtombs&action=edit)  
+(function)   
 [ do_in](../../locale/codecvt/in.html "cpp/locale/codecvt/in")[virtual] |  converts a string from `ExternT` to `InternT`, such as when reading from file   
-(virtual protected member function of `std::codecvt<InternT,ExternT,StateT>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/codecvt/dsc_do_in&action=edit)  
+(virtual protected member function of `std::codecvt<InternT,ExternT,StateT>`)   
 [C documentation](../../../c/string/multibyte/mbsrtowcs.html "c/string/multibyte/mbsrtowcs") for mbsrtowcs

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header is part of the [Input/Output](../io.html "cpp/io") library. 
 
@@ -202,15 +202,15 @@ This header is part of the [Input/Output](../io.html "cpp/io") library.
   
 ---  
 [ print](../io/print.html "cpp/io/print")(C++23) |  prints to [stdout](../io/c/std_streams.html "cpp/io/c/std streams") or a file stream using [formatted](../utility/format.html "cpp/utility/format") representation of the arguments   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_print&action=edit)  
+(function template)   
 [ println](../io/println.html "cpp/io/println")(C++23) |  same as std::print except that each print is terminated by additional new line   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_println&action=edit)  
+(function template)   
 [ vprint_unicodevprint_unicode_buffered](../io/vprint_unicode.html "cpp/io/vprint unicode")(C++23) |  prints to Unicode capable [stdout](../io/c/std_streams.html "cpp/io/c/std streams") or a file stream using [type-erased](../utility/format/basic_format_args.html "cpp/utility/format/basic format args") argument representation   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_vprint_unicode&action=edit)  
+(function)   
 [ vprint_nonunicodevprint_nonunicode_buffered](../io/vprint_nonunicode.html "cpp/io/vprint nonunicode")(C++23) |  prints to [stdout](../io/c/std_streams.html "cpp/io/c/std streams") or a file stream using [type-erased](../utility/format/basic_format_args.html "cpp/utility/format/basic format args") argument representation   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_vprint_nonunicode&action=edit)  
+(function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/print&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     namespace std {
@@ -238,7 +238,7 @@ This header is part of the [Input/Output](../io.html "cpp/io") library.
       void vprint_nonunicode_locking(FILE* stream, string_view fmt, format_args args);
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/print&action=edit&section=2 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 

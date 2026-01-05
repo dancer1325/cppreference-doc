@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [`std::valarray`](../valarray.html "cpp/numeric/valarray")
 
@@ -155,7 +155,7 @@
   
 [Deduction guides](deduction_guides.html "cpp/numeric/valarray/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/navbar_content&action=edit)
+
 
 [std::size_t](../../types/size_t.html) size() const; |  |   
 ---|---|---  
@@ -173,15 +173,15 @@ Returns the number of elements in the valarray.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/size&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/size&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Number of elements in the valarray. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/size&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -200,8 +200,8 @@ Output:
     
     Average: 5.5
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/size&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ resize](resize.html "cpp/numeric/valarray/resize") |  changes the size of valarray   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_resize&action=edit)  
+(public member function)   
 ---|---

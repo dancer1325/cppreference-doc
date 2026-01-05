@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header is part of the [general utility](../utility.html "cpp/utility") library. 
 
@@ -216,15 +216,15 @@ This header is part of the [general utility](../utility.html "cpp/utility") libr
 ###  Classes  
   
 [ expected](../utility/expected.html "cpp/utility/expected")(C++23) |  a wrapper that contains either an expected or error value   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_expected&action=edit)  
+(class template)   
 [ unexpected](../utility/expected/unexpected.html "cpp/utility/expected/unexpected")(C++23) |  represented as an unexpected value   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/expected/dsc_unexpected&action=edit)  
+(class template)   
 [ bad_expected_access](../utility/expected/bad_expected_access.html "cpp/utility/expected/bad expected access")(C++23) |  exception indicating checked access to an `expected` that contains an unexpected value   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/expected/dsc_bad_expected_access&action=edit)  
+(class template)   
 [ unexpectunexpect_t](../utility/expected/unexpect_t.html "cpp/utility/expected/unexpect t")(C++23) |  in-place construction tag for unexpected value in `expected`  
-(tag)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/expected/dsc_unexpect_t&action=edit)  
+(tag)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/expected&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     // mostly freestanding
@@ -258,7 +258,7 @@ This header is part of the [general utility](../utility.html "cpp/utility") libr
       class expected<T, E>; // partially freestanding
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/expected&action=edit&section=T-1 "Template:cpp/synopsis/expected")] Class template std::unexpected
+#### Class template std::unexpected
     
     
     namespace std {
@@ -300,7 +300,7 @@ This header is part of the [general utility](../utility.html "cpp/utility") libr
       unexpected(E) -> unexpected<E>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/expected&action=edit&section=T-2 "Template:cpp/synopsis/expected")] Class template std::bad_expected_access
+#### Class template std::bad_expected_access
     
     
     namespace std {
@@ -320,7 +320,7 @@ This header is part of the [general utility](../utility.html "cpp/utility") libr
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/expected&action=edit&section=T-3 "Template:cpp/synopsis/expected")] Class template specialization std::bad_expected_access<void>
+#### Class template specialization std::bad_expected_access<void>
     
     
     namespace std {
@@ -340,7 +340,7 @@ This header is part of the [general utility](../utility.html "cpp/utility") libr
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/expected&action=edit&section=T-4 "Template:cpp/synopsis/expected")] Class template std::expected
+#### Class template std::expected
     
     
     namespace std {
@@ -482,7 +482,7 @@ This header is part of the [general utility](../utility.html "cpp/utility") libr
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/expected&action=edit&section=T-5 "Template:cpp/synopsis/expected")] Partial specialization of std::expected for void types
+#### Partial specialization of std::expected for void types
     
     
     template<class T, class E>

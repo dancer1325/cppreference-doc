@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Type support](../../utility/rtti.html "cpp/types")
 
@@ -161,7 +161,7 @@ Runtime type information
 ---  
 [bad_cast](../bad_cast.html "cpp/types/bad cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/navbar_content&action=edit)
+
 
 [`std::type_info`](../type_info.html "cpp/types/type info")
 
@@ -173,7 +173,7 @@ Member functions
 [type_info::hash_code](hash_code.html "cpp/types/type info/hash code")(C++11)  
 [type_info::name](name.html "cpp/types/type info/name")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/type_info/navbar_content&action=edit)
+
 
 virtual ~type_info(); |  |   
 ---|---|---  
@@ -181,7 +181,7 @@ virtual ~type_info(); |  |
   
 Destructs an object of type [std::type_info](../type_info.html "cpp/types/type info"). This destructor is public virtual, making the [std::type_info](../type_info.html "cpp/types/type info") a polymorphic class. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/type_info/%7Etype_info&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 The dynamic type of a [std::type_info](../type_info.html "cpp/types/type info") subobject may be examined by the [`typeid`](../../language/typeid.html "cpp/language/typeid") operator. 
 

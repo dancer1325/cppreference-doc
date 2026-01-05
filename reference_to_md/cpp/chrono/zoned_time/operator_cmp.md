@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::zoned_time`](../zoned_time.html "cpp/chrono/zoned time")
 
@@ -121,7 +121,7 @@ Helper classes
 [hash<std::chrono::zoned_time>](hash.html "cpp/chrono/zoned time/hash")(C++26)  
 [Deduction guides](deduction_guides.html "cpp/chrono/zoned time/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/zoned_time/navbar_content&action=edit)
+
 
 Defined in header `[<chrono>](../../header/chrono.html "cpp/header/chrono")` |  |   
 ---|---|---  
@@ -134,6 +134,6 @@ Compares the two `zoned_time` values x and y. Two `zoned_time` objects compare e
 
 The `!=` operator is [synthesized](../../language/default_comparisons.html#Other_defaulted_comparison_operators "cpp/language/default comparisons") from `operator==`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/zoned_time/operator_cmp&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 x.get_time_zone() == y.get_time_zone() && x.get_sys_time() == y.get_sys_time(), except that the comparisons are performed on the nonstatic data members of x and y directly and no copying is performed. 

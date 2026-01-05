@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Filesystem library](../filesystem.html "cpp/filesystem")
 
@@ -100,7 +100,7 @@ filesystem::symlink_status](status.html "cpp/filesystem/status")
 [filesystem::is_socket](is_socket.html "cpp/filesystem/is socket")  
 [filesystem::is_symlink](is_symlink.html "cpp/filesystem/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/navbar_content&action=edit)
+
 
 Defined in header `[<filesystem>](../header/filesystem.html "cpp/header/filesystem")` |  |   
 ---|---|---  
@@ -126,17 +126,17 @@ The non-throwing overload returns an empty path on errors.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/read_symlink&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 p  |  \-  |  path to a symlink   
 ---|---|---  
 ec  |  \-  |  out-parameter for error reporting in the non-throwing overload   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/read_symlink&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The target of the symlink (which may not necessarily exist). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/read_symlink&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Any overload not marked `noexcept` may throw [std::bad_alloc](../memory/new/bad_alloc.html "cpp/memory/new/bad alloc") if memory allocation fails.  
 
@@ -145,7 +145,7 @@ Any overload not marked `noexcept` may throw [std::bad_alloc](../memory/new/bad_
 
 2) Sets a [std::error_code](../error/error_code.html)& parameter to the OS API error code if an OS API call fails, and executes ec.[`clear`](../error/error_code/clear.html "cpp/error/error code/clear")() if no errors occur.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/read_symlink&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -175,15 +175,15 @@ Possible output:
     "/bin/cat" exists but it is not a symlink
     "/bin/mouse" does not exist
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/read_symlink&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ is_symlink](is_symlink.html "cpp/filesystem/is symlink")(C++17) |  checks whether the argument refers to a symbolic link   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_is_symlink&action=edit)  
+(function)   
 ---|---  
 [ create_symlinkcreate_directory_symlink](create_symlink.html "cpp/filesystem/create symlink")(C++17)(C++17) |  creates a symbolic link   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_create_symlink&action=edit)  
+(function)   
 [ copy_symlink](copy_symlink.html "cpp/filesystem/copy symlink")(C++17) |  copies a symbolic link   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_copy_symlink&action=edit)  
+(function)   
 [ statussymlink_status](status.html "cpp/filesystem/status")(C++17)(C++17) |  determines file attributes  
 determines file attributes, checking the symlink target   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_status&action=edit)
+(function) 

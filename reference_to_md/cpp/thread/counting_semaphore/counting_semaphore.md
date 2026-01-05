@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::counting_semaphore`](../counting_semaphore.html "cpp/thread/counting semaphore")
 
@@ -190,7 +190,7 @@ Operations
 Constants  
 [counting_semaphore::max](max.html "cpp/thread/counting semaphore/max")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/counting_semaphore/navbar_content&action=edit)
+
 
 constexpr explicit counting_semaphore( [std::ptrdiff_t](../../types/ptrdiff_t.html) desired ); |  (1)  |  (since C++20)  
 ---|---|---  
@@ -201,15 +201,15 @@ counting_semaphore( const counting_semaphore& ) = delete; |  (2)  |  (since C++2
 
 2) Copy constructor is deleted.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/counting_semaphore/counting_semaphore&action=edit&section=1 "Edit section: Preconditions")] Preconditions
+### Preconditions
 
 1) Both desired >= 0 and desired <= max() are true.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/counting_semaphore/counting_semaphore&action=edit&section=2 "Edit section: Parameters")] Parameters
+### Parameters
 
 desired  |  \-  |  the value to initialize `counting_semaphore`'s counter with   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/counting_semaphore/counting_semaphore&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Throws nothing. 

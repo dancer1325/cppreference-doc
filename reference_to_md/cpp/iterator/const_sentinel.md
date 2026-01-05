@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](empty.html "cpp/iterator/empty")(C++17)  
 [data](data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 **`std::basic_const_iterator`**
 
@@ -215,7 +215,7 @@
 [Helper classes](basic_const_iterator.html#Helper_classes "cpp/iterator/basic const iterator")  
 [common_type<std::basic_const_iterator>](basic_const_iterator/common_type.html "cpp/iterator/basic const iterator/common type")(C++23)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/basic_const_iterator/navbar_content&action=edit)
+
 
 Defined in header `[<iterator>](../header/iterator.html "cpp/header/iterator")` |  |   
 ---|---|---  
@@ -241,7 +241,7 @@ class basic_const_iterator; |  |  (since C++23)
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/basic_const_iterator&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Member type  |  Definition   
 ---|---  
@@ -269,50 +269,50 @@ Otherwise, there is no member `iterator_category`.
 `_reference_` (private) |  [std::iter_const_reference_t](iter_t.html)<Iter>  
 (exposition-only member type*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/basic_const_iterator&action=edit&section=2 "Edit section: Member objects")] Member objects
+### Member objects
 
 Member name  |  Definition   
 ---|---  
 `_current_` (private) |  the underlying iterator from which [`base()`](basic_const_iterator/base.html "cpp/iterator/basic const iterator/base") copies or moves  
 (exposition-only member object*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/basic_const_iterator&action=edit&section=3 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](basic_const_iterator/basic_const_iterator.html "cpp/iterator/basic const iterator/basic const iterator") |  constructs a new `basic_const_iterator`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ base](basic_const_iterator/base.html "cpp/iterator/basic const iterator/base") |  accesses the underlying iterator   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_base&action=edit)  
+(public member function)   
 [ operator*operator->](basic_const_iterator/operator*.html "cpp/iterator/basic const iterator/operator*") |  accesses the pointed-to element   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_operator*&action=edit)  
+(public member function)   
 [ operator[]](basic_const_iterator/operator_at.html "cpp/iterator/basic const iterator/operator at") |  accesses an element by index   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_operator_at&action=edit)  
+(public member function)   
 [ operator++operator++(int)operator+=operator--operator--(int)operator-=](basic_const_iterator/operator_arith.html "cpp/iterator/basic const iterator/operator arith") |  advances or decrements the iterator   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/basic_const_iterator/dsc_operator_arith&action=edit)  
+(public member function)   
 [ operator _constant-iterator_](basic_const_iterator/operator_constant_iterator.html "cpp/iterator/basic const iterator/operator constant iterator") |  converts into any constant iterator to which an underlying iterator can be convertible   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/basic_const_iterator/dsc_operator_constant_iterator&action=edit)  
+(public member function)   
 [ operator==operator<operator>operator<=operator>=operator<=>](basic_const_iterator/operator_cmp.html "cpp/iterator/basic const iterator/operator cmp") |  compares the underlying iterators   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/basic_const_iterator/dsc_operator_cmp&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/basic_const_iterator&action=edit&section=4 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ operator<operator>operator<=operator>=operator<=>](basic_const_iterator/operator_cmp2.html "cpp/iterator/basic const iterator/operator cmp2")(C++23) |  compares `basic_const_iterator` with non-`basic_const_iterator`   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/basic_const_iterator/dsc_operator_cmp2&action=edit)  
+(function template)   
 ---|---  
 [ operator+operator-](basic_const_iterator/operator_arith2.html "cpp/iterator/basic const iterator/operator arith2")(C++23) |  advances or decrements the iterator   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/basic_const_iterator/dsc_operator_arith2&action=edit)  
+(function template)   
 [ operator-](basic_const_iterator/operator-.html "cpp/iterator/basic const iterator/operator-")(C++23) |  computes the distance between two iterator adaptors   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_operator-&action=edit)  
+(function template)   
 [ iter_move](basic_const_iterator/iter_move.html "cpp/iterator/basic const iterator/iter move")(C++23) |  casts the result of dereferencing the underlying iterator to its associated rvalue reference type   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_iter_move&action=edit)  
+(function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/basic_const_iterator&action=edit&section=5 "Edit section: Helper classes")] Helper classes
+### Helper classes
 
 [ std::common_type<std::basic_const_iterator>](basic_const_iterator/common_type.html "cpp/iterator/basic const iterator/common type")(C++23) |  determines the common type of an iterator and an adapted `basic_const_iterator` type   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/basic_const_iterator/dsc_common_type&action=edit)  
+(class template specialization)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/basic_const_iterator&action=edit&section=6 "Edit section: Helper alias templates")] Helper alias templates
+### Helper alias templates
 
 template< [std::input_iterator](input_iterator.html) I >  
 using const_iterator = /* see description */; |  |  (since C++23)  
@@ -328,7 +328,7 @@ using const_sentinel = /* see description */; |  |  (since C++23)
   
 If `S` models [`input_iterator`](input_iterator.html "cpp/iterator/input iterator"), then const_sentinel<S> denotes a type const_iterator<S>. Otherwise, `S`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/basic_const_iterator&action=edit&section=7 "Edit section: Helper function templates")] Helper function templates
+### Helper function templates
 
 template< [std::input_iterator](input_iterator.html) T >  
 constexpr const_iterator<T> make_const_iterator( I it ) { return it; } |  |  (since C++23)  
@@ -337,7 +337,7 @@ template< [std::semiregular](../concepts/semiregular.html) S >
 constexpr const_sentinel<S> make_const_sentinel( S s ) { return s; } |  |  (since C++23)  
 | |   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/basic_const_iterator&action=edit&section=8 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../utility/feature_test.html "cpp/utility/feature test") macro  | Value | Std | Feature   
 ---|---|---|---  
@@ -345,7 +345,7 @@ constexpr const_sentinel<S> make_const_sentinel( S s ) { return s; } |  |  (sinc
 [`202311L`](../compiler_support/23.html#cpp_lib_ranges_as_const_202311L "cpp/compiler support/23") | (C++23)  
 (DR) | `std::basic_const_iterator` should follow its underlying type's convertibility   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/basic_const_iterator&action=edit&section=9 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -370,7 +370,7 @@ Run this code
         [assert](../error/assert.html)(*ci == 42);  // OK, underlying location v[0] was modified
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/basic_const_iterator&action=edit&section=10 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header is part of the [text processing](../text.html "cpp/text") library. 
 
@@ -224,96 +224,96 @@ This header is part of the [text processing](../text.html "cpp/text") library.
   
 ###  Includes  
   
-[ <compare>](compare.html "cpp/header/compare")(C++20) |  [Three-way comparison operator](../language/operator_comparison.html#Three-way_comparison "cpp/language/operator comparison") support[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/dsc_compare&action=edit)  
-[ <initializer_list>](initializer_list.html "cpp/header/initializer list")(C++11) |  [std::initializer_list](../utility/initializer_list.html "cpp/utility/initializer list") class template[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/dsc_initializer_list&action=edit)  
+[ <compare>](compare.html "cpp/header/compare")(C++20) |  [Three-way comparison operator](../language/operator_comparison.html#Three-way_comparison "cpp/language/operator comparison") support  
+[ <initializer_list>](initializer_list.html "cpp/header/initializer list")(C++11) |  [std::initializer_list](../utility/initializer_list.html "cpp/utility/initializer list") class template  
   
 ###  Classes  
   
 [ basic_regex](../regex/basic_regex.html "cpp/regex/basic regex")(C++11) |  regular expression object   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/dsc_basic_regex&action=edit)  
+(class template)   
 [std::regex](../regex/basic_regex.html "cpp/regex/basic regex") |  [std::basic_regex](../regex/basic_regex.html)<char> (typedef)  
 [std::wregex](../regex/basic_regex.html "cpp/regex/basic regex") |  [std::basic_regex](../regex/basic_regex.html)<wchar_t> (typedef)  
 [ sub_match](../regex/sub_match.html "cpp/regex/sub match")(C++11) |  identifies the sequence of characters matched by a sub-expression   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/dsc_sub_match&action=edit)  
+(class template)   
 [std::csub_match](../regex/sub_match.html "cpp/regex/sub match") |  [std::sub_match](../regex/sub_match.html)<const char*> (typedef)  
 [std::wcsub_match](../regex/sub_match.html "cpp/regex/sub match") |  [std::sub_match](../regex/sub_match.html)<const wchar_t*> (typedef)  
 [std::ssub_match](../regex/sub_match.html "cpp/regex/sub match") |  [std::sub_match](../regex/sub_match.html)<std::string::const_iterator> (typedef)  
 [std::wssub_match](../regex/sub_match.html "cpp/regex/sub match") |  [std::sub_match](../regex/sub_match.html)<std::wstring::const_iterator> (typedef)  
 [ match_results](../regex/match_results.html "cpp/regex/match results")(C++11) |  identifies one regular expression match, including all sub-expression matches   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/dsc_match_results&action=edit)  
+(class template)   
 [std::cmatch](../regex/match_results.html "cpp/regex/match results") |  [std::match_results](../regex/match_results.html)<const char*> (typedef)  
 [std::wcmatch](../regex/match_results.html "cpp/regex/match results") |  [std::match_results](../regex/match_results.html)<const wchar_t*> (typedef)  
 [std::smatch](../regex/match_results.html "cpp/regex/match results") |  [std::match_results](../regex/match_results.html)<std::string::const_iterator> (typedef)  
 [std::wsmatch](../regex/match_results.html "cpp/regex/match results") |  [std::match_results](../regex/match_results.html)<std::wstring::const_iterator> (typedef)  
 [ regex_iterator](../regex/regex_iterator.html "cpp/regex/regex iterator")(C++11) |  iterates through all regex matches within a character sequence   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/dsc_regex_iterator&action=edit)  
+(class template)   
 [std::cregex_iterator](../regex/regex_iterator.html "cpp/regex/regex iterator") |  [std::regex_iterator](../regex/regex_iterator.html)<const char*> (typedef)  
 [std::wcregex_iterator](../regex/regex_iterator.html "cpp/regex/regex iterator") |  [std::regex_iterator](../regex/regex_iterator.html)<const wchar_t*> (typedef)  
 [std::sregex_iterator](../regex/regex_iterator.html "cpp/regex/regex iterator") |  [std::regex_iterator](../regex/regex_iterator.html)<std::string::const_iterator> (typedef)  
 [std::wsregex_iterator](../regex/regex_iterator.html "cpp/regex/regex iterator") |  [std::regex_iterator](../regex/regex_iterator.html)<std::wstring::const_iterator> (typedef)  
 [ regex_token_iterator](../regex/regex_token_iterator.html "cpp/regex/regex token iterator")(C++11) |  iterates through the specified sub-expressions within all regex matches in a given string or through unmatched substrings   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/dsc_regex_token_iterator&action=edit)  
+(class template)   
 [std::cregex_token_iterator](../regex/regex_token_iterator.html "cpp/regex/regex token iterator") |  [std::regex_token_iterator](../regex/regex_token_iterator.html)<const char*> (typedef)  
 [std::wcregex_token_iterator](../regex/regex_token_iterator.html "cpp/regex/regex token iterator") |  [std::regex_token_iterator](../regex/regex_token_iterator.html)<const wchar_t*> (typedef)  
 [std::sregex_token_iterator](../regex/regex_token_iterator.html "cpp/regex/regex token iterator") |  [std::regex_token_iterator](../regex/regex_token_iterator.html)<std::string::const_iterator> (typedef)  
 [std::wsregex_token_iterator](../regex/regex_token_iterator.html "cpp/regex/regex token iterator") |  [std::regex_token_iterator](../regex/regex_token_iterator.html)<std::wstring::const_iterator> (typedef)  
 [ regex_error](../regex/regex_error.html "cpp/regex/regex error")(C++11) |  reports errors generated by the regular expressions library   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/dsc_regex_error&action=edit)  
+(class)   
 [ regex_traits](../regex/regex_traits.html "cpp/regex/regex traits")(C++11) |  provides metainformation about a character type, required by the regex library   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/dsc_regex_traits&action=edit)  
+(class template)   
   
 #####  regex constant types   
   
 Defined in namespace `std::regex_constants`  
 [ syntax_option_type](../regex/syntax_option_type.html "cpp/regex/syntax option type")(C++11) |  general options controlling regex behavior   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/dsc_syntax_option_type&action=edit)  
+(typedef)   
 [ match_flag_type](../regex/match_flag_type.html "cpp/regex/match flag type")(C++11) |  options specific to matching   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/dsc_match_flag_type&action=edit)  
+(typedef)   
 [ error_type](../regex/error_type.html "cpp/regex/error type")(C++11) |  describes different types of matching errors   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/dsc_error_type&action=edit)  
+(typedef)   
   
 ###  Functions  
   
 #####  Algorithm   
   
 [ regex_match](../regex/regex_match.html "cpp/regex/regex match")(C++11) |  attempts to match a regular expression to an entire character sequence   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/dsc_regex_match&action=edit)  
+(function template)   
 [ regex_search](../regex/regex_search.html "cpp/regex/regex search")(C++11) |  attempts to match a regular expression to any part of a character sequence   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/dsc_regex_search&action=edit)  
+(function template)   
 [ regex_replace](../regex/regex_replace.html "cpp/regex/regex replace")(C++11) |  replaces occurrences of a regular expression with formatted replacement text   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/dsc_regex_replace&action=edit)  
+(function template)   
   
 #####  Non-member operations   
   
 [ std::swap(std::basic_regex)](../regex/basic_regex/swap2.html "cpp/regex/basic regex/swap2")(C++11) |  specializes the [std::swap](../utility/swap.html "cpp/algorithm/swap") algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/basic_regex/dsc_swap2&action=edit)  
+(function template)   
 [ operator==operator!=operator<operator<=operator>operator>=operator<=>](../regex/sub_match/operator_cmp.html "cpp/regex/sub match/operator cmp")(removed in C++20)(removed in C++20)(removed in C++20)(removed in C++20)(removed in C++20)(C++20) |  compares a `sub_match` with another `sub_match`, a string, or a character   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/sub_match/dsc_operator_cmp&action=edit)  
+(function template)   
 [ operator<<](../regex/sub_match/operator_ltlt.html "cpp/regex/sub match/operator ltlt") |  outputs the matched character subsequence   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/sub_match/dsc_operator_ltlt&action=edit)  
+(function template)   
 [ operator==operator!=](../regex/match_results/operator_cmp.html "cpp/regex/match results/operator cmp")(removed in C++20) |  lexicographically compares the values in the two match result   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/match_results/dsc_operator_cmp&action=edit)  
+(function template)   
 [ std::swap(std::match_results)](../regex/match_results/swap2.html "cpp/regex/match results/swap2")(C++11) |  specializes the [`std::swap`](../utility/swap.html "cpp/algorithm/swap") algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/match_results/dsc_swap2&action=edit)  
+(function template)   
   
 #####  Range access   
   
 [ begincbegin](../iterator/begin.html "cpp/iterator/begin")(C++11)(C++14) |  returns an iterator to the beginning of a container or array   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_begin&action=edit)  
+(function template)   
 [ endcend](../iterator/end.html "cpp/iterator/end")(C++11)(C++14) |  returns an iterator to the end of a container or array   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_end&action=edit)  
+(function template)   
 [ rbegincrbegin](../iterator/rbegin.html "cpp/iterator/rbegin")(C++14) |  returns a reverse iterator to the beginning of a container or array   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_rbegin&action=edit)  
+(function template)   
 [ rendcrend](../iterator/rend.html "cpp/iterator/rend")(C++14) |  returns a reverse end iterator for a container or array   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_rend&action=edit)  
+(function template)   
 [ sizessize](../iterator/size.html "cpp/iterator/size")(C++17)(C++20) |  returns the size of a container or array   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_size&action=edit)  
+(function template)   
 [ empty](../iterator/empty.html "cpp/iterator/empty")(C++17) |  checks whether the container is empty   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_empty&action=edit)  
+(function template)   
 [ data](../iterator/data.html "cpp/iterator/data")(C++17) |  obtains the pointer to the underlying array   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_data&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/regex&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     #include <compare>
@@ -570,7 +570,7 @@ Defined in namespace `std::regex_constants`
       }
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/regex&action=edit&section=T-1 "Template:cpp/synopsis/regex")] Bitmask type [std::regex_constants::syntax_option_type](../regex/syntax_option_type.html "cpp/regex/syntax option type")
+#### Bitmask type [std::regex_constants::syntax_option_type](../regex/syntax_option_type.html "cpp/regex/syntax option type")
     
     
     namespace std::regex_constants {
@@ -588,7 +588,7 @@ Defined in namespace `std::regex_constants`
       inline constexpr syntax_option_type multiline = /* unspecified */;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/regex&action=edit&section=T-2 "Template:cpp/synopsis/regex")] Bitmask type [std::regex_constants::match_flag_type](../regex/match_flag_type.html "cpp/regex/match flag type")
+#### Bitmask type [std::regex_constants::match_flag_type](../regex/match_flag_type.html "cpp/regex/match flag type")
     
     
     namespace std::regex_constants {
@@ -608,7 +608,7 @@ Defined in namespace `std::regex_constants`
       inline constexpr match_flag_type format_first_only = /* unspecified */;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/regex&action=edit&section=T-3 "Template:cpp/synopsis/regex")] Enumerated type [std::regex_constants::error_type](../regex/error_type.html "cpp/regex/error type")
+#### Enumerated type [std::regex_constants::error_type](../regex/error_type.html "cpp/regex/error type")
     
     
     namespace std::regex_constants {
@@ -628,7 +628,7 @@ Defined in namespace `std::regex_constants`
       inline constexpr error_type error_stack = /* unspecified */;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/regex&action=edit&section=T-4 "Template:cpp/synopsis/regex")] Class [std::regex_error](../regex/regex_error.html "cpp/regex/regex error")
+#### Class [std::regex_error](../regex/regex_error.html "cpp/regex/regex error")
     
     
     namespace std {
@@ -639,7 +639,7 @@ Defined in namespace `std::regex_constants`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/regex&action=edit&section=T-5 "Template:cpp/synopsis/regex")] Class template [std::regex_traits](../regex/regex_traits.html "cpp/regex/regex traits")
+#### Class template [std::regex_traits](../regex/regex_traits.html "cpp/regex/regex traits")
     
     
     namespace std {
@@ -670,7 +670,7 @@ Defined in namespace `std::regex_constants`
         };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/regex&action=edit&section=T-6 "Template:cpp/synopsis/regex")] Class template [std::basic_regex](../regex/basic_regex.html "cpp/regex/basic regex")
+#### Class template [std::basic_regex](../regex/basic_regex.html "cpp/regex/basic regex")
     
     
     namespace std {
@@ -753,7 +753,7 @@ Defined in namespace `std::regex_constants`
           -> basic_regex<typename iterator_traits<ForwardIt>::value_type>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/regex&action=edit&section=T-7 "Template:cpp/synopsis/regex")] Class template [std::sub_match](../regex/sub_match.html "cpp/regex/sub match")
+#### Class template [std::sub_match](../regex/sub_match.html "cpp/regex/sub match")
     
     
     namespace std {
@@ -781,7 +781,7 @@ Defined in namespace `std::regex_constants`
         };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/regex&action=edit&section=T-8 "Template:cpp/synopsis/regex")] Class template [std::match_results](../regex/match_results.html "cpp/regex/match results")
+#### Class template [std::match_results](../regex/match_results.html "cpp/regex/match results")
     
     
     namespace std {

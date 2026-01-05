@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Initialization](initialization.html "cpp/language/initialization")
 
@@ -244,7 +244,7 @@ Miscellaneous
 [Member initializer list](initializer_list.html "cpp/language/initializer list")  
 [Default member initializer](data_members.html#Member_initialization "cpp/language/data members") (C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/initialization/navbar_content&action=edit)
+
 
 Initializes an object from another object. 
 
@@ -260,7 +260,7 @@ Initializes an object from another object.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/copy_initialization&action=edit&section=1 "Edit section: Syntax")] Syntax  
+### Syntax  
   
 ---  
 T object `**=**` other`**;**` |  (1)  |   
@@ -270,7 +270,7 @@ f`**(**` other`**)**` |  (3)  |
 `**throw**` object`**;**` `**catch (**` T object`**)**` |  (5)  |   
 T array`**[**` N`**] = {**` other-sequence`**};**` |  (6)  |   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/copy_initialization&action=edit&section=2 "Edit section: Explanation")] Explanation
+### Explanation
 
 Copy-initialization is performed in the following situations: 
 
@@ -303,7 +303,7 @@ The effects of copy-initialization are:
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/copy_initialization&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Copy-initialization is less permissive than direct-initialization: [explicit constructors](explicit.html "cpp/language/explicit") are not [converting constructors](converting_constructor.html "cpp/language/converting constructor") and are not considered for copy-initialization. 
     
@@ -330,7 +330,7 @@ If other is an rvalue expression, a [move constructor](move_constructor.html "cp
 
 The equals sign, `**=**`, in copy-initialization of a named variable is not related to the assignment operator. Assignment operator overloads have no effect on copy-initialization. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/copy_initialization&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -373,7 +373,7 @@ Run this code
         [](...){}(c, b0, b3, b4); // pretend these variables are used
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/copy_initialization&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -384,7 +384,7 @@ the temporary initialized by a converting constructor  | the temporary is not cv
 [CWG 177](https://cplusplus.github.io/CWG/issues/177.html) | C++98  | the value category of the temporary created during  
 copy-initialization of a class object is unspecified  | specified as rvalue   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/copy_initialization&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
   * [copy elision](copy_elision.html "cpp/language/copy elision")
   * [converting constructor](converting_constructor.html "cpp/language/converting constructor")

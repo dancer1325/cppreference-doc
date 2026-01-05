@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::optional`](../optional.html "cpp/utility/optional")
 
@@ -167,7 +167,7 @@ Common vocabulary types
 [nullopt](nullopt.html "cpp/utility/optional/nullopt")  
 [in_place](../in_place.html "cpp/utility/in place")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/navbar_content&action=edit)
+
 
 Defined in header `[<optional>](../../header/optional.html "cpp/header/optional")` |  |   
 ---|---|---  
@@ -294,13 +294,13 @@ This overload participates in overload resolution only if all following conditio
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/operator_cmp&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 lhs, rhs, opt  |  \-  |  an `optional` object to compare   
 ---|---|---  
 value  |  \-  |  value to compare to the contained value   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/operator_cmp&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) lhs.has_value() != rhs.has_value() ? false :  
 (lhs.has_value() == false ? true : *lhs == *rhs)
@@ -366,19 +366,19 @@ value  |  \-  |  value to compare to the contained value
 
 33) opt.has_value() ? *opt <=> value : std::strong_ordering::less
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/operator_cmp&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 1-7) May throw implementation-defined exceptions.
 
 21-33) Throws when and what the comparison throws.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/operator_cmp&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../feature_test.html "cpp/utility/feature test") macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_constrained_equality`](../../experimental/feature_test.html#cpp_lib_constrained_equality "cpp/feature test") | [`202403L`](../../compiler_support/26.html#cpp_lib_constrained_equality_202403L "cpp/compiler support/26") | (C++26) | constrained comparison operators for [std::optional](../optional.html "cpp/utility/optional")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/operator_cmp&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

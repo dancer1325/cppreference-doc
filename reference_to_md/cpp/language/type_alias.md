@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [Declarations](declarations.html "cpp/language/declarations")
 
@@ -280,7 +280,7 @@ Other declarations
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/declarations/navbar_content&action=edit)
+
 
 Type alias is a name that refers to a previously defined type (similar to [`typedef`](typedef.html "cpp/language/typedef")). 
 
@@ -299,7 +299,7 @@ Alias template is a name that refers to a family of types.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/type_alias&action=edit&section=1 "Edit section: Syntax")] Syntax
+### Syntax
 
 Alias declarations are [declarations](declarations.html "cpp/language/declarations") with the following syntax:   
   
@@ -314,7 +314,7 @@ template-parameter-list |  \-  |  [template parameter list](template_parameters.
 constraint |  \-  |  a [constraint expression](constraints.html "cpp/language/constraints") which restricts the template parameters accepted by this alias template   
 type-id |  \-  |  abstract declarator or any other valid type-id (which may introduce a new type, as noted in [type-id](type-id.html#Type_naming "cpp/language/type")). The type-id cannot directly or indirectly refer to identifier. Note that the [point of declaration](scope.html#Point_of_declaration "cpp/language/scope") of the identifier is at the semicolon following type-id.   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/type_alias&action=edit&section=2 "Edit section: Explanation")] Explanation
+### Explanation
 
 1) A type alias declaration introduces a name which can be used as a synonym for the type denoted by type-id. It does not introduce a new type and it cannot change the meaning of an existing type name. There is no difference between a type alias declaration and [typedef](typedef.html "cpp/language/typedef") declaration. This declaration may appear in block scope, class scope, or namespace scope.
 
@@ -369,17 +369,17 @@ The type of a [lambda expression](lambda.html "cpp/language/lambda") appearing i
 | (since C++20)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/type_alias&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Feature-test macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_alias_templates`](../experimental/feature_test.html#cpp_alias_templates "cpp/feature test") | [`200704L`](../compiler_support/11.html#cpp_alias_templates_200704L "cpp/compiler support/11") | (C++11) | Alias templates   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/type_alias&action=edit&section=4 "Edit section: Keywords")] Keywords
+### Keywords
 
 [`using`](../keyword/using.html "cpp/keyword/using")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/type_alias&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -455,7 +455,7 @@ Possible output:
     ContainerT is `struct Container<int>`
     value_type is `int`
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/type_alias&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -465,10 +465,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 participate in substitution was not specified  | substitution  
 is performed   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/type_alias&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
-[ `typedef` declaration](typedef.html "cpp/language/typedef") |  creates a synonym for a type[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_typedef&action=edit)  
+[ `typedef` declaration](typedef.html "cpp/language/typedef") |  creates a synonym for a type  
 ---|---  
-[ namespace alias ](namespace_alias.html "cpp/language/namespace alias") |  creates an alias of an existing namespace[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_namespace_alias&action=edit)
+[ namespace alias ](namespace_alias.html "cpp/language/namespace alias") |  creates an alias of an existing namespace
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

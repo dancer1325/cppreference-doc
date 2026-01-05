@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Localization library](../../locale.html "cpp/locale")
 
@@ -152,7 +152,7 @@ base classes](../../locale.html#Facet_category_base_classes "cpp/locale")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/navbar_content&action=edit)
+
 
 [`std::locale`](../locale.html "cpp/locale/locale")
 
@@ -173,7 +173,7 @@ Static member functions
 [locale::global](global.html "cpp/locale/locale/global")  
 [locale::classic](classic.html "cpp/locale/locale/classic")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/locale/navbar_content&action=edit)
+
 
 template< class Facet >  
 locale combine( const locale& other ) const; |  |   
@@ -195,15 +195,15 @@ The program is ill-formed if Facet is not a [facet](facet.html#Facet_class "cpp/
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/locale/combine&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 The new, nameless, locale. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/locale/combine&action=edit&section=2 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 [std::runtime_error](../../error/runtime_error.html "cpp/error/runtime error") if other does not implement `Facet`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/locale/combine&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -227,7 +227,7 @@ Output:
     "C" locale: 1000.25
     "C" locale with en_US numpunct: 1,000.25
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/locale/combine&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -236,8 +236,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [LWG 14](https://cplusplus.github.io/LWG/issue14) | C++98  | `locale::combine` was non-const  | made const   
 [LWG 436](https://cplusplus.github.io/LWG/issue436) | C++98  | it was unclear whether `Facet` can be cv-qualified  | it can be const-qualified, but not volatile-qualified   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/locale/combine&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ (constructor)](locale.html "cpp/locale/locale/locale") |  constructs a new locale   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/locale/dsc_locale&action=edit)  
+(public member function)   
 ---|---

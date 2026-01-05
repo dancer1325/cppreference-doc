@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](../empty.html "cpp/iterator/empty")(C++17)  
 [data](../data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 Defined in header `[<iterator>](../../header/iterator.html "cpp/header/iterator")` |  |   
 ---|---|---  
@@ -232,14 +232,14 @@ The function-like entities described on this page are [_algorithm function objec
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/ranges/next&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 i  |  \-  |  an iterator   
 ---|---|---  
 n  |  \-  |  number of elements to advance   
 bound  |  \-  |  sentinel denoting the end of the range i points to   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/ranges/next&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) The successor of iterator i.
 
@@ -249,7 +249,7 @@ bound  |  \-  |  sentinel denoting the end of the range i points to
 
 4) The nth successor of iterator i, or the first iterator equivalent to bound, whichever is first.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/ranges/next&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 1) Constant.
 
@@ -259,7 +259,7 @@ bound  |  \-  |  sentinel denoting the end of the range i points to
 
 4) Constant if `I` and `S` models both [std::random_access_iterator](../random_access_iterator.html)<I> and [std::sized_sentinel_for](../sized_sentinel_for.html)<S, I>; otherwise linear.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/ranges/next&action=edit&section=4 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     struct next_fn
@@ -297,11 +297,11 @@ bound  |  \-  |  sentinel denoting the end of the range i points to
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/ranges/next&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 Although the expression ++x.begin() often compiles, it is not guaranteed to do so: x.begin() is an rvalue expression, and there is no requirement that specifies that increment of an rvalue is guaranteed to work. In particular, when iterators are implemented as pointers or its `operator++` is lvalue-ref-qualified, ++x.begin() does not compile, while ranges::next(x.begin()) does. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/ranges/next&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -330,12 +330,12 @@ Run this code
         }
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/ranges/next&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ ranges::prev](prev.html "cpp/iterator/ranges/prev")(C++20) |  decrement an iterator by a given distance or to a bound  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/ranges/dsc_prev&action=edit)  
+(algorithm function object)  
 ---|---  
 [ ranges::advance](advance.html "cpp/iterator/ranges/advance")(C++20) |  advances an iterator by given distance or to a given bound  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/ranges/dsc_advance&action=edit)  
+(algorithm function object)  
 [ next](../next.html "cpp/iterator/next")(C++11) |  increment an iterator   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_next&action=edit)
+(function template) 

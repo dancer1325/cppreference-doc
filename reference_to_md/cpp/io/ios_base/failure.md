@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::ios_base`](../ios_base.html "cpp/io/ios base")
 
@@ -113,7 +113,7 @@ Member types
 [ios_base::event](event.html "cpp/io/ios base/event")  
 [ios_base::event_callback](event_callback.html "cpp/io/ios base/event callback")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/ios_base/navbar_content&action=edit)
+
 
 Defined in header `[<ios>](../../header/ios.html "cpp/header/ios")` |  |   
 ---|---|---  
@@ -153,7 +153,7 @@ The class `std::ios_base::failure` defines an exception object that is thrown on
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/ios_base/failure&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 (constructor) |  constructs a new `failure` object with the given message   
 (public member function)  
@@ -232,10 +232,10 @@ Implementations are allowed but not required to override `what()`.
 ###  Member functions
 
 [ code](../../error/system_error/code.html "cpp/error/system error/code") |  returns error code   
-(public member function of `std::system_error`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/system_error/dsc_code&action=edit)  
+(public member function of `std::system_error`)   
 ---|---  
 [ what](../../error/system_error/what.html "cpp/error/system error/what")[virtual] |  returns an explanatory string   
-(virtual public member function of `std::system_error`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/system_error/dsc_what&action=edit)  
+(virtual public member function of `std::system_error`)   
   
 ##  Inherited from [std::runtime_error](../../error/runtime_error.html "cpp/error/runtime error")
 
@@ -247,12 +247,12 @@ Implementations are allowed but not required to override `what()`.
 ###  Member functions
 
 [ (destructor)](../../error/exception/~exception.html "cpp/error/exception/~exception")[virtual] |  destroys the exception object   
-(virtual public member function of `std::exception`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/exception/dsc_destructor&action=edit)  
+(virtual public member function of `std::exception`)   
 ---|---  
 [ what](../../error/exception/what.html "cpp/error/exception/what")[virtual] |  returns an explanatory string   
-(virtual public member function of `std::exception`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/exception/dsc_what&action=edit)  
+(virtual public member function of `std::exception`)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/ios_base/failure&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 Before the resolution of [LWG issue 331](https://cplusplus.github.io/LWG/issue331), `std::ios_base::failure` declared a destructor without throw(), where [`std::exception::~exception()`](../../error/exception/~exception.html "cpp/error/exception/~exception") was declared with throw()[[1]](failure.html#cite_note-1). This means the `std::ios_base::failure::~failure()` had a weaker exception specification. The resolution is to remove that declaration so that the non-throwing exception specification is kept. 
 
@@ -262,7 +262,7 @@ Before the resolution of [LWG issue 331](https://cplusplus.github.io/LWG/issue33
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/ios_base/failure&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -293,7 +293,7 @@ Possible output:
     Explanatory string: ios_base::clear: unspecified iostream_category error
     Error code: iostream:1
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/ios_base/failure&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -304,8 +304,8 @@ with msg, but the base class does not have a matching constructor  | correspondi
 description removed   
 [LWG 331](https://cplusplus.github.io/LWG/issue331) | C++98  | `std::ios_base::failure` declared a destructor without throw() | removed the destructor declaration   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/ios_base/failure&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ io_errc](../io_errc.html "cpp/io/io errc")(C++11) |  the IO stream error codes   
-(enum) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_io_errc&action=edit)  
+(enum)   
 ---|---

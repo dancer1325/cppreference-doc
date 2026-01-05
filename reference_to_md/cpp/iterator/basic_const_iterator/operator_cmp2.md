@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](../empty.html "cpp/iterator/empty")(C++17)  
 [data](../data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 [`std::basic_const_iterator`](../basic_const_iterator.html "cpp/iterator/basic const iterator")
 
@@ -215,7 +215,7 @@
 [Helper classes](../basic_const_iterator.html#Helper_classes "cpp/iterator/basic const iterator")  
 [common_type<std::basic_const_iterator>](common_type.html "cpp/iterator/basic const iterator/common type")(C++23)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/basic_const_iterator/navbar_content&action=edit)
+
 
 template< /*not-a-const-iterator*/ I >  
 friend constexpr bool operator<( const I& x, const basic_const_iterator& y )  
@@ -249,12 +249,12 @@ These functions are not visible to ordinary [unqualified](../../language/unquali
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/basic_const_iterator/operator_cmp2&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 x, y  |  \-  |  iterators to compare   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/basic_const_iterator/operator_cmp2&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) x < y.base()
 
@@ -264,11 +264,11 @@ x, y  |  \-  |  iterators to compare
 
 4) x >= y.base()
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/basic_const_iterator/operator_cmp2&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 If the left operand is a `basic_const_iterator`, the [member comparison functions](operator_cmp.html "cpp/iterator/basic const iterator/operator cmp") are used. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/basic_const_iterator/operator_cmp2&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -282,7 +282,7 @@ Run this code
         static_assert(arr < it);
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/basic_const_iterator/operator_cmp2&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 | | This section is incomplete   
 ---|---

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ named requirements](../iterator/concepts.html "cpp/named req")
 
@@ -147,7 +147,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/named_req/navbar_content&action=edit)
+
 
 A Container is an object used to store other objects and taking care of the management of the memory used by the objects it contains. 
 
@@ -164,7 +164,7 @@ A Container is an object used to store other objects and taking care of the mana
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/Container&action=edit&section=1 "Edit section: Requirements")] Requirements
+### Requirements
 
 Given the following types and values: 
 
@@ -181,7 +181,7 @@ i, j |  values of type `C::iterator` or const C::iterator
   
 `C` satisfies the requirements of Container if the following types, statements, and expressions are well-formed and have the specified semantics: 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/Container&action=edit&section=2 "Edit section: Types")] Types
+#### Types
 
 Type  | Definition  | Requirements   
 ---|---|---  
@@ -198,7 +198,7 @@ typename C::const_iterator | a constant iterator type  | `C::const_iterator` is 
 typename C::difference_type | a signed integer type  | `C::difference_type` is the same as the [difference type](../iterator.html#Types_and_writability "cpp/iterator") of `C::iterator` and `C::const_iterator`.   
 typename C::size_type | an unsigned integer type  | `C::size_type` is large enough to represent all non-negative values of `C::difference_type`.   
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/Container&action=edit&section=3 "Edit section: Statements")] Statements
+#### Statements
 
 Statement  | Semantics  |  Complexity   
 ---|---|---  
@@ -218,7 +218,7 @@ Notes
 
   
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/Container&action=edit&section=4 "Edit section: Expressions")] Expressions
+#### Expressions
 
 Expression  | Type  | Semantics  |  Complexity   
 ---|---|---|---  
@@ -282,11 +282,11 @@ Notes
   
 In the expressions i == j, i != j, i < j, i <= j, i >= j, i > j and i - j, if i and/or j are replaced by iterators of type `C::const_iterator` pointing to the same element respectively, the semantics remain the same. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/Container&action=edit&section=5 "Edit section: Container data races")] Container data races
+### Container data races
 
 See [container thread safety](../container.html#Thread_safety "cpp/container"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/Container&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -316,7 +316,7 @@ time in this case
 result is unspecified   
 [N3346](https://wg21.link/N3346) | C++11  | `C::value_type` was required to be [Destructible](Destructible.html "cpp/named req/Destructible") | required to be [Erasable](Erasable.html "cpp/named req/Erasable") from `C`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/Container&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [C++ documentation](../container.html "cpp/container") for Containers library  
 ---

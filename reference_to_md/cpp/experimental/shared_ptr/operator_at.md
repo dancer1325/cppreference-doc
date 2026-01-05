@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Library fundamentals](../memory.html "cpp/experimental/lib extensions")
 
@@ -75,7 +75,7 @@
 [Type-erased and polymorphic allocators](../memory.html "cpp/experimental/memory")  
 [Variable templates for type traits](../type_trait_variable_templates.html "cpp/experimental/type trait variable templates")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions/navbar_content&action=edit)
+
 
 [`std::experimental::shared_ptr`](../shared_ptr.html "cpp/experimental/shared ptr")
 
@@ -90,7 +90,7 @@ Non-member functions
 [std::hash](hash.html "cpp/experimental/shared ptr/hash")  
 [Members and non-members identical to those of `std::shared_ptr`](../shared_ptr.html#identical-shared_ptr "cpp/experimental/shared ptr")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/shared_ptr/navbar_content&action=edit)
+
 
 element_type& operator[]( [std::ptrdiff_t](../../types/ptrdiff_t.html) i ) const noexcept; |  |  (library fundamentals TS)  
 ---|---|---  
@@ -113,27 +113,27 @@ If `T` (the template parameter of `shared_ptr`) is an array type `U[N]`, i shall
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/shared_ptr/operator_at&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 i  |  \-  |  the array index   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/shared_ptr/operator_at&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 A reference to the i-th element of the array, i.e., get()[i]. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/shared_ptr/operator_at&action=edit&section=3 "Edit section: Remarks")] Remarks
+### Remarks
 
 When `T` is not an array type, it is unspecified whether this function is declared. If the function is declared, it is unspecified what its return type is, except that the declaration (although not necessarily the definition) of the function is guaranteed to be legal. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/shared_ptr/operator_at&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/shared_ptr/operator_at&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ get](get.html "cpp/experimental/shared ptr/get") |  returns the stored pointer   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/shared_ptr/dsc_get&action=edit)  
+(public member function)   
 ---|---

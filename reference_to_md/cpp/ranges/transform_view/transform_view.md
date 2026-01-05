@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::transform_view`](../transform_view.html "cpp/ranges/transform view")
 
@@ -263,7 +263,7 @@ operator-(transform_view::_iterator_)](iterator/operator_arith2.html "cpp/ranges
 [operator==(transform_view::_iterator_ ,transform_view::_sentinel_)](sentinel/operator_cmp.html "cpp/ranges/transform view/sentinel/operator cmp")  
 [operator-(transform_view::_iterator_ ,transform_view::_sentinel_)](sentinel/operator-.html "cpp/ranges/transform view/sentinel/operator-")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/transform_view/navbar_content&action=edit)
+
 
 transform_view() requires [std::default_initializable](../../concepts/default_initializable.html)<V> &&  
 [std::default_initializable](../../concepts/default_initializable.html)<F> = default; |  (1)  |  (since C++20)  
@@ -277,13 +277,13 @@ Constructs a `transform_view`.
 
 2) Move constructs the underlying view `_[base_](../transform_view.html#base "cpp/ranges/transform view")_` from `base` and the transformation function `_[fun_](../transform_view.html#fun "cpp/ranges/transform view")_` from fun.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/transform_view/transform_view&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 base  |  \-  |  view   
 ---|---|---  
 fun  |  \-  |  transformation function   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/transform_view/transform_view&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Demonstrates π approximation using serial expansion of arc tangent of 1: atan(1) = π/4 ≈ 1 - 1/3 + 1/5 - 1/7 + 1/9 - 1/11 + ...
 
@@ -327,7 +327,7 @@ Possible output:
     π ≈ 3.141591653589774 (iterations: 1000000)
     π ≈ 3.141592653589793 (std::numbers::pi)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/transform_view/transform_view&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

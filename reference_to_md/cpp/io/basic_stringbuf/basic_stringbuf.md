@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_stringbuf`](../basic_stringbuf.html "cpp/io/basic stringbuf")
 
@@ -101,7 +101,7 @@ Non-member functions
 Exposition-only member functions  
 [basic_stringbuf::_init_buf_ptrs_](init_buf_ptrs.html "cpp/io/basic stringbuf/init buf ptrs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_stringbuf/navbar_content&action=edit)
+
 
 | (1) |   
 ---|---|---  
@@ -230,7 +230,7 @@ When the construction is complete, rhs is empty but usable, and
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_stringbuf/basic_stringbuf&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 s  |  \-  |  a [std::basic_string](../../string/basic_string.html "cpp/string/basic string") used to initialize the buffer   
 ---|---|---  
@@ -247,7 +247,7 @@ which  |  \-  |  specifies stream open mode. It is bitmask type, the following c
 [`ate`](../ios_base/openmode.html "cpp/io/ios base/openmode") |  seek to the end of stream immediately after open   
 [`noreplace`](../ios_base/openmode.html "cpp/io/ios base/openmode") (C++23) |  open in exclusive mode   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_stringbuf/basic_stringbuf&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 Typically called by the constructor of [std::basic_stringstream](../basic_stringstream.html "cpp/io/basic stringstream"). 
 
@@ -257,7 +257,7 @@ The level of support for the open modes other than [std::ios_base::in](../ios_ba
 ---|---|---|---  
 [`__cpp_lib_sstream_from_string_view`](../../experimental/feature_test.html#cpp_lib_sstream_from_string_view "cpp/feature test") | [`202306L`](../../compiler_support/26.html#cpp_lib_sstream_from_string_view_202306L "cpp/compiler support/26") | (C++26) | Interfacing string streams with [std::string_view](../../string/basic_string_view.html "cpp/string/basic string view")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_stringbuf/basic_stringbuf&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Demonstrates calling the constructor of `std::basic_stringbuf` directly:
 
@@ -298,7 +298,7 @@ Output:
     test1
     est12 (Sun Studio) 2st1 (GCC)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_stringbuf/basic_stringbuf&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -313,10 +313,10 @@ character if bool(which & [std::ios_base::out](../ios_base/openmode.html)) == tr
 beyond that position   
 [P0935R0](https://wg21.link/P0935R0) | C++11  | the default constructor was explicit  | made implicit   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_stringbuf/basic_stringbuf&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ (constructor)](../basic_stringstream/basic_stringstream.html "cpp/io/basic stringstream/basic stringstream") |  constructs the string stream   
-(public member function of `std::basic_stringstream<CharT,Traits,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_stringstream/dsc_constructor&action=edit)  
+(public member function of `std::basic_stringstream<CharT,Traits,Allocator>`)   
 ---|---
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

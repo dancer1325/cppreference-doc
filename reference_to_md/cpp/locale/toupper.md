@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Localization library](../locale.html "cpp/locale")
 
@@ -152,7 +152,7 @@ base classes](../locale.html#Facet_category_base_classes "cpp/locale")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/navbar_content&action=edit)
+
 
 Defined in header `[<locale>](../header/locale.html "cpp/header/locale")` |  |   
 ---|---|---  
@@ -174,21 +174,21 @@ Converts the character ch to uppercase if possible, using the conversion rules s
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/toupper&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 ch  |  \-  |  character   
 ---|---|---  
 loc  |  \-  |  locale   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/toupper&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Returns the uppercase form of ch if one is listed in the locale, otherwise returns ch unchanged. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/toupper&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Only 1:1 character mapping can be performed by this function, e.g. the uppercase form of 'ß' is (with some exceptions) the two-character string "SS", which cannot be obtained by std::toupper. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/toupper&action=edit&section=4 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     template<class CharT>
@@ -199,7 +199,7 @@ Only 1:1 character mapping can be performed by this function, e.g. the uppercase
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/toupper&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -227,12 +227,12 @@ Possible output:
     in the default locale, toupper(0x17f) = 0x17f
     in Unicode locale, toupper(0x17f) = 0x53
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/toupper&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ tolower(std::locale)](tolower.html "cpp/locale/tolower") |  converts a character to lowercase using the `ctype` facet of a locale   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_tolower&action=edit)  
+(function template)   
 ---|---  
 [ toupper](../string/byte/toupper.html "cpp/string/byte/toupper") |  converts a character to uppercase   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_toupper&action=edit)  
+(function)   
 [ towupper](../string/wide/towupper.html "cpp/string/wide/towupper") |  converts a wide character to uppercase   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_towupper&action=edit)
+(function) 

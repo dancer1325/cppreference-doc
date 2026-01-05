@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](../empty.html "cpp/iterator/empty")(C++17)  
 [data](../data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 [`std::reverse_iterator`](../reverse_iterator.html "cpp/iterator/reverse iterator")
 
@@ -214,7 +214,7 @@
 [iter_swap](iter_swap.html "cpp/iterator/reverse iterator/iter swap")(C++20)  
 [make_reverse_iterator](../make_reverse_iterator.html "cpp/iterator/make reverse iterator")(C++14)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/reverse_iterator/navbar_content&action=edit)
+
 
 reverse_iterator(); |  (1) | (constexpr since C++17)  
 ---|---|---  
@@ -244,13 +244,13 @@ Overload  | `[current](../reverse_iterator.html#current "cpp/iterator/reverse it
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/reverse_iterator/reverse_iterator&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 x  |  \-  |  iterator to adapt   
 ---|---|---  
 other  |  \-  |  iterator adaptor to copy   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/reverse_iterator/reverse_iterator&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -283,7 +283,7 @@ Run this code
         // i4[0] = 5; // Error: assignment of read-only location
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/reverse_iterator/reverse_iterator&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -293,10 +293,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [LWG 1012](https://cplusplus.github.io/LWG/issue1012) | C++98  | overload ([1](reverse_iterator.html#Version_1)) default-initialized `[current](../reverse_iterator.html#current "cpp/iterator/reverse iterator")` | it is value-initialized   
 [LWG 3435](https://cplusplus.github.io/LWG/issue3435) | C++20  | overload ([3](reverse_iterator.html#Version_3)) was not constrained  | constrained   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/reverse_iterator/reverse_iterator&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ operator=](operator=.html "cpp/iterator/reverse iterator/operator=") |  assigns another `reverse_iterator`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_operator%3D&action=edit)  
+(public member function)   
 ---|---  
 [ make_reverse_iterator](../make_reverse_iterator.html "cpp/iterator/make reverse iterator")(C++14) |  creates a [std::reverse_iterator](../reverse_iterator.html "cpp/iterator/reverse iterator") of type inferred from the argument   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_make_reverse_iterator&action=edit)
+(function template) 

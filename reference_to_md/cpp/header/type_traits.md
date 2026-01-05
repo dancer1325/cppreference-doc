@@ -49,236 +49,236 @@
 #####  Primary type categories   
   
 [ is_void](../types/is_void.md)(C++11) |  checks if a type is void   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_is_void&action=edit)  
+(class template)   
 [ is_null_pointer](../types/is_null_pointer.md)(C++11)(DR*) |  checks if a type is [std::nullptr_t](../types/nullptr_t.md)   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_is_null_pointer&action=edit)  
+(class template)   
 [ is_integral](../types/is_integral.md)(C++11) |  checks if a type is an integral type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_is_integral&action=edit)  
+(class template)   
 [ is_floating_point](../types/is_floating_point.md)(C++11) |  checks if a type is a floating-point type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_is_floating_point&action=edit)  
+(class template)   
 [ is_array](../types/is_array.md)(C++11) |  checks if a type is an array type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_is_array&action=edit)  
+(class template)   
 [ is_enum](../types/is_enum.md)(C++11) |  checks if a type is an enumeration type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_is_enum&action=edit)  
+(class template)   
 [ is_union](../types/is_union.md)(C++11) |  checks if a type is a union type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_is_union&action=edit)  
+(class template)   
 [ is_class](../types/is_class.md)(C++11) |  checks if a type is a non-union class type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_is_class&action=edit)  
+(class template)   
 [ is_function](../types/is_function.md)(C++11) |  checks if a type is a function type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_is_function&action=edit)  
+(class template)   
 [ is_pointer](../types/is_pointer.md)(C++11) |  checks if a type is a pointer type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_is_pointer&action=edit)  
+(class template)   
 [ is_lvalue_reference](../types/is_lvalue_reference.md)(C++11) |  checks if a type is an _lvalue reference_   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_is_lvalue_reference&action=edit)  
+(class template)   
 [ is_rvalue_reference](../types/is_rvalue_reference.md)(C++11) |  checks if a type is an _rvalue reference_   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_is_rvalue_reference&action=edit)  
+(class template)   
 [ is_member_object_pointer](../types/is_member_object_pointer.md)(C++11) |  checks if a type is a non-static member object pointer   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_is_member_object_pointer&action=edit)  
+(class template)   
 [ is_member_function_pointer](../types/is_member_function_pointer.md)(C++11) |  checks if a type is a non-static member function pointer   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_is_member_function_pointer&action=edit)  
+(class template)   
   
 #####  Composite type categories   
   
 [ is_fundamental](../types/is_fundamental.md)(C++11) |  checks if a type is a fundamental type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_is_fundamental&action=edit)  
+(class template)   
 [ is_arithmetic](../types/is_arithmetic.md)(C++11) |  checks if a type is an arithmetic type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_is_arithmetic&action=edit)  
+(class template)   
 [ is_scalar](../types/is_scalar.md)(C++11) |  checks if a type is a scalar type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_is_scalar&action=edit)  
+(class template)   
 [ is_object](../types/is_object.md)(C++11) |  checks if a type is an object type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_is_object&action=edit)  
+(class template)   
 [ is_compound](../types/is_compound.md)(C++11) |  checks if a type is a compound type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_is_compound&action=edit)  
+(class template)   
 [ is_reference](../types/is_reference.md)(C++11) |  checks if a type is either an _lvalue reference_ or _rvalue reference_   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_is_reference&action=edit)  
+(class template)   
 [ is_member_pointer](../types/is_member_pointer.md)(C++11) |  checks if a type is a pointer to a non-static member function or object   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_is_member_pointer&action=edit)  
+(class template)   
   
 #####  Type properties   
   
 [ is_const](../types/is_const.md)(C++11) |  checks if a type is const-qualified   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_is_const&action=edit)  
+(class template)   
 [ is_volatile](../types/is_volatile.md)(C++11) |  checks if a type is volatile-qualified   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_is_volatile&action=edit)  
+(class template)   
 [ is_trivial](../types/is_trivial.md)(C++11)(deprecated in C++26) |  checks if a type is trivial   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_is_trivial&action=edit)  
+(class template)   
 [ is_trivially_copyable](../types/is_trivially_copyable.md)(C++11) |  checks if a type is trivially copyable   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_is_trivially_copyable&action=edit)  
+(class template)   
 [ is_standard_layout](../types/is_standard_layout.md)(C++11) |  checks if a type is a [standard-layout](../language/data_members.md#Standard-layout) type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_is_standard_layout&action=edit)  
+(class template)   
 [ is_pod](../types/is_pod.md)(C++11)(deprecated in C++20) |  checks if a type is a plain-old data (POD) type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_is_pod&action=edit)  
+(class template)   
 [ is_literal_type](../types/is_literal_type.md)(C++11)(deprecated in C++17)(removed in C++20) |  checks if a type is a literal type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_is_literal_type&action=edit)  
+(class template)   
 [ has_unique_object_representations](../types/has_unique_object_representations.md)(C++17) |  checks if every bit in the type's object representation contributes to its value   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_has_unique_object_representations&action=edit)  
+(class template)   
 [ is_empty](../types/is_empty.md)(C++11) |  checks if a type is a class (but not union) type and has no non-static data members   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_is_empty&action=edit)  
+(class template)   
 [ is_polymorphic](../types/is_polymorphic.md)(C++11) |  checks if a type is a polymorphic class type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_is_polymorphic&action=edit)  
+(class template)   
 [ is_abstract](../types/is_abstract.md)(C++11) |  checks if a type is an abstract class type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_is_abstract&action=edit)  
+(class template)   
 [ is_final](../types/is_final.md)(C++14) |  checks if a type is a final class type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_is_final&action=edit)  
+(class template)   
 [ is_aggregate](../types/is_aggregate.md)(C++17) |  checks if a type is an aggregate type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_is_aggregate&action=edit)  
+(class template)   
 [ is_implicit_lifetime](../types/is_implicit_lifetime.md)(C++23) |  checks if a type is an implicit-lifetime type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_is_implicit_lifetime&action=edit)  
+(class template)   
 [ is_signed](../types/is_signed.md)(C++11) |  checks if a type is a signed arithmetic type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_is_signed&action=edit)  
+(class template)   
 [ is_unsigned](../types/is_unsigned.md)(C++11) |  checks if a type is an unsigned arithmetic type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_is_unsigned&action=edit)  
+(class template)   
 [ is_bounded_array](../types/is_bounded_array.md)(C++20) |  checks if a type is an array type of known bound   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_is_bounded_array&action=edit)  
+(class template)   
 [ is_unbounded_array](../types/is_unbounded_array.md)(C++20) |  checks if a type is an array type of unknown bound   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_is_unbounded_array&action=edit)  
+(class template)   
 [ is_scoped_enum](../types/is_scoped_enum.md)(C++23) |  checks if a type is a scoped enumeration type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_is_scoped_enum&action=edit)  
+(class template)   
   
 #####  Supported operations   
 
 [ is_constructibleis_trivially_constructibleis_nothrow_constructible](../types/is_constructible.md)(C++11)(C++11)(C++11) |  checks if a type has a constructor for specific arguments   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_is_constructible&action=edit)  
+(class template)   
 [ is_default_constructibleis_trivially_default_constructibleis_nothrow_default_constructible](../types/is_default_constructible.md)(C++11)(C++11)(C++11) |  checks if a type has a default constructor   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_is_default_constructible&action=edit)  
+(class template)   
 [ is_copy_constructibleis_trivially_copy_constructibleis_nothrow_copy_constructible](../types/is_copy_constructible.md)(C++11)(C++11)(C++11) |  checks if a type has a copy constructor   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_is_copy_constructible&action=edit)  
+(class template)   
 [ is_move_constructibleis_trivially_move_constructibleis_nothrow_move_constructible](../types/is_move_constructible.md)(C++11)(C++11)(C++11) |  checks if a type can be constructed from an rvalue reference   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_is_move_constructible&action=edit)  
+(class template)   
 [ is_assignableis_trivially_assignableis_nothrow_assignable](../types/is_assignable.md)(C++11)(C++11)(C++11) |  checks if a type has an assignment operator for a specific argument   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_is_assignable&action=edit)  
+(class template)   
 [ is_copy_assignableis_trivially_copy_assignableis_nothrow_copy_assignable](../types/is_copy_assignable.md)(C++11)(C++11)(C++11) |  checks if a type has a copy assignment operator   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_is_copy_assignable&action=edit)  
+(class template)   
 [ is_move_assignableis_trivially_move_assignableis_nothrow_move_assignable](../types/is_move_assignable.md)(C++11)(C++11)(C++11) |  checks if a type has a move assignment operator   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_is_move_assignable&action=edit)  
+(class template)   
 [ is_destructibleis_trivially_destructibleis_nothrow_destructible](../types/is_destructible.md)(C++11)(C++11)(C++11) |  checks if a type has a non-deleted destructor   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_is_destructible&action=edit)  
+(class template)   
 [ has_virtual_destructor](../types/has_virtual_destructor.md)(C++11) |  checks if a type has a virtual destructor   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_has_virtual_destructor&action=edit)  
+(class template)   
 [ is_swappable_withis_swappableis_nothrow_swappable_withis_nothrow_swappable](../types/is_swappable.md)(C++17)(C++17)(C++17)(C++17) |  checks if objects of a type can be swapped with objects of same or different type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_is_swappable&action=edit)  
+(class template)   
 [ reference_converts_from_temporary](../types/reference_converts_from_temporary.md)(C++23) |  checks if a reference is bound to a temporary in copy-initialization   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_reference_converts_from_temporary&action=edit)  
+(class template)   
 [ reference_constructs_from_temporary](../types/reference_constructs_from_temporary.md)(C++23) |  checks if a reference is bound to a temporary in direct-initialization   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_reference_constructs_from_temporary&action=edit)  
+(class template)   
   
 #####  Property queries   
 
 [ alignment_of](../types/alignment_of.md)(C++11) |  obtains the type's alignment requirements   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_alignment_of&action=edit)  
+(class template)   
 [ rank](../types/rank.md)(C++11) |  obtains the number of dimensions of an array type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_rank&action=edit)  
+(class template)   
 [ extent](../types/extent.md)(C++11) |  obtains the size of an array type along a specified dimension   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_extent&action=edit)  
+(class template)   
   
 #####  Type relationships   
 
 [ is_same](../types/is_same.md)(C++11) |  checks if two types are the same   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_is_same&action=edit)  
+(class template)   
 [ is_base_of](../types/is_base_of.md)(C++11) |  checks if a type is a base of the other type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_is_base_of&action=edit)  
+(class template)   
 [ is_virtual_base_of](../types/is_virtual_base_of.md)(C++26) |  checks if a type is a virtual base of the other type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_is_virtual_base_of&action=edit)  
+(class template)   
 [ is_convertibleis_nothrow_convertible](../types/is_convertible.md)(C++11)(C++20) |  checks if a type can be converted to the other type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_is_convertible&action=edit)  
+(class template)   
 [ is_layout_compatible](../types/is_layout_compatible.md)(C++20) |  checks if two types are [_layout-compatible_](../language/data_members.md#Standard_layout)   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_is_layout_compatible&action=edit)  
+(class template)   
 [ is_pointer_interconvertible_base_of](../types/is_pointer_interconvertible_base_of.md)(C++20) |  checks if a type is a _[pointer-interconvertible](../language/static_cast.md#pointer-interconvertible)_ (initial) base of another type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_is_pointer_interconvertible_base_of&action=edit)  
+(class template)   
 [ is_invocableis_invocable_ris_nothrow_invocableis_nothrow_invocable_r](../types/is_invocable.md)(C++17) |  checks if a type can be invoked (as if by [std::invoke](../utility/functional/invoke.md)) with the given argument types   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_is_invocable&action=edit)  
+(class template)   
   
 #####  Const-volatility specifiers   
   
 [ remove_cvremove_constremove_volatile](../types/remove_cv.md)(C++11)(C++11)(C++11) |  removes const and/or volatile specifiers from the given type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_remove_cv&action=edit)  
+(class template)   
 [ add_cvadd_constadd_volatile](../types/add_cv.md)(C++11)(C++11)(C++11) |  adds const and/or volatile specifiers to the given type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_add_cv&action=edit)  
+(class template)   
   
 #####  References   
   
 [ remove_reference](../types/remove_reference.md)(C++11) |  removes a reference from the given type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_remove_reference&action=edit)  
+(class template)   
 [ add_lvalue_referenceadd_rvalue_reference](../types/add_reference.md)(C++11)(C++11) |  adds an _lvalue_ or _rvalue_ reference to the given type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_add_reference&action=edit)  
+(class template)   
   
 #####  Pointers   
   
 [ remove_pointer](../types/remove_pointer.md)(C++11) |  removes a pointer from the given type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_remove_pointer&action=edit)  
+(class template)   
 [ add_pointer](../types/add_pointer.md)(C++11) |  adds a pointer to the given type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_add_pointer&action=edit)  
+(class template)   
   
 #####  Sign modifiers   
   
 [ make_signed](../types/make_signed.md)(C++11) |  obtains the corresponding signed type for the given integral type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_make_signed&action=edit)  
+(class template)   
 [ make_unsigned](../types/make_unsigned.md)(C++11) |  obtains the corresponding signed type for the given integral type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_make_unsigned&action=edit)  
+(class template)   
   
 #####  Arrays   
   
 [ remove_extent](../types/remove_extent.md)(C++11) |  removes one extent from the given array type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_remove_extent&action=edit)  
+(class template)   
 [ remove_all_extents](../types/remove_all_extents.md)(C++11) |  removes all extents from the given array type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_remove_all_extents&action=edit)  
+(class template)   
   
 #####  Miscellaneous transformations   
   
 [ aligned_storage](../types/aligned_storage.md)(since C++11)(deprecated in C++23) |  defines the type suitable for use as uninitialized storage for types of given size   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_aligned_storage&action=edit)  
+(class template)   
 [ aligned_union](../types/aligned_union.md)(since C++11)(deprecated in C++23) |  defines the type suitable for use as uninitialized storage for all given types   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_aligned_union&action=edit)  
+(class template)   
 [ decay](../types/decay.md)(C++11) |  applies type transformations as when passing a function argument by value   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_decay&action=edit)  
+(class template)   
 [ remove_cvref](../types/remove_cvref.md)(C++20) |  combines [std::remove_cv](../types/remove_cv.md) and [std::remove_reference](../types/remove_reference.md)   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_remove_cvref&action=edit)  
+(class template)   
 [ enable_if](../types/enable_if.md)(C++11) |  conditionally [removes](../language/sfinae.md) a function overload or template specialization from overload resolution   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_enable_if&action=edit)  
+(class template)   
 [ conditional](../types/conditional.md)(C++11) |  chooses one type or another based on compile-time boolean   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_conditional&action=edit)  
+(class template)   
 [ common_type](../types/common_type.md)(C++11) |  determines the common type of a group of types   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_common_type&action=edit)  
+(class template)   
 [ common_referencebasic_common_reference](../types/common_reference.md)(C++20) |  determines the common reference type of a group of types   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_common_reference&action=edit)  
+(class template)   
 * [`underlying_type`](../types/underlying_type.md)
   * == class template /
     * obtains the underlying integer type / given enumeration type
   * requirements
     * C++11
 * [ result_ofinvoke_result](../types/result_of.md)(C++11)(removed in C++20)(C++17) |  deduces the result type of invoking a callable object with a set of arguments   
-  (class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_result_of&action=edit)  
+  (class template)   
   [ void_t](../types/void_t.md)(C++17) |  void variadic alias template   
-  (alias template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_void_t&action=edit)  
+  (alias template)  
   [ type_identity](../types/type_identity.md)(C++20) |  returns the type argument unchanged   
-  (class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_type_identity&action=edit)  
+  (class template)   
   [ unwrap_referenceunwrap_ref_decay](../utility/functional/unwrap_reference.md)(C++20)(C++20) |  get the reference type wrapped in [std::reference_wrapper](../utility/functional/reference_wrapper.md)   
-  (class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:utility/functional/dsc_unwrap_reference&action=edit)  
+  (class template)   
   
 #####  Operations on traits   
   
 [ conjunction](../types/conjunction.md)(C++17) |  variadic logical AND metafunction   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_conjunction&action=edit)  
+(class template)   
 [ disjunction](../types/disjunction.md)(C++17) |  variadic logical OR metafunction   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_disjunction&action=edit)  
+(class template)   
 [ negation](../types/negation.md)(C++17) |  logical NOT metafunction   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_negation&action=edit)  
+(class template)   
   
 ###  Functions  
   
 #####  Member relationships   
   
 [ is_pointer_interconvertible_with_class](../types/is_pointer_interconvertible_with_class.md)(C++20) |  checks if objects of a type are _[pointer-interconvertible](../language/static_cast.md#pointer-interconvertible)_ with the specified subobject of that type   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_is_pointer_interconvertible_with_class&action=edit)  
+(function template)   
 [ is_corresponding_member](../types/is_corresponding_member.md)(C++20) |  checks if two specified members correspond to each other in the common initial subsequence of two specified types   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_is_corresponding_member&action=edit)  
+(function template)   
   
 #####  Constant evaluation context   
   
 [ is_constant_evaluated](../types/is_constant_evaluated.md)(C++20) |  detects whether the call occurs within a constant-evaluated context   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_is_constant_evaluated&action=edit)  
+(function)   
 [ is_within_lifetime](../types/is_within_lifetime.md)(C++26) |  checks whether a pointer is within the object's lifetime at compile time   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:types/dsc_is_within_lifetime&action=edit)  
+(function)   
   
 ### Synopsis
     

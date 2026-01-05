@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::day`](../day.html "cpp/chrono/day")
 
@@ -122,7 +122,7 @@ Helper classes
 [formatter<std::chrono::day>](formatter.html "cpp/chrono/day/formatter")  
 [hash<std::chrono::day>](hash.html "cpp/chrono/day/hash")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/day/navbar_content&action=edit)
+
 
 constexpr explicit operator unsigned() const noexcept; |  |  (since C++20)  
 ---|---|---  
@@ -130,11 +130,11 @@ constexpr explicit operator unsigned() const noexcept; |  |  (since C++20)
   
 Returns the day value stored in *this. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/day/operator_unsigned&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 The day value stored in *this. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/day/operator_unsigned&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     

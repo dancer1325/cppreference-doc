@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 Defined in header `[<memory>](../header/memory.html "cpp/header/memory")` |  |   
 ---|---|---  
@@ -329,7 +329,7 @@ This overload is equivalent to return [std::make_tuple](../utility/tuple/make_tu
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/uses_allocator_construction_args&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 alloc  |  \-  |  the allocator to use   
 ---|---|---  
@@ -341,23 +341,23 @@ v  |  \-  |  single argument to pass to the constructor of `T`'s `second` data m
 pr  |  \-  |  a pair whose `first` data member will be passed to the constructor of `T`'s `first` data member and `second` data member will be passed to the constructor of `T`'s `second` data member   
 non_pair  |  \-  |  single argument to convert to a [std::pair](../utility/pair.html "cpp/utility/pair") for further construction   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/uses_allocator_construction_args&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 [std::tuple](../utility/tuple.html "cpp/utility/tuple") of arguments suitable for passing to the constructor of `T`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/uses_allocator_construction_args&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 The overloads (2-9) provide allocator propagation into [std::pair](../utility/pair.html "cpp/utility/pair"), which supports neither leading-allocator nor trailing-allocator calling conventions (unlike, e.g. [std::tuple](../utility/tuple.html "cpp/utility/tuple"), which uses leading-allocator convention). 
 
 When used in uses-allocator construction, the conversion function of `_pair-constructor_` converts the provided argument to [std::pair](../utility/pair.html "cpp/utility/pair") at first, and then constructs the result from that [std::pair](../utility/pair.html "cpp/utility/pair") by uses-allocator construction. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/uses_allocator_construction_args&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/uses_allocator_construction_args&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -365,12 +365,12 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 3525](https://cplusplus.github.io/LWG/issue3525) | C++20  | no overload could handle non-`pair` types convertible to `pair` | reconstructing overload added   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/uses_allocator_construction_args&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ uses_allocator](uses_allocator.html "cpp/memory/uses allocator")(C++11) |  checks if the specified type supports uses-allocator construction   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_uses_allocator&action=edit)  
+(class template)   
 ---|---  
 [ make_obj_using_allocator](make_obj_using_allocator.html "cpp/memory/make obj using allocator")(C++20) |  creates an object of the given type by means of uses-allocator construction   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_make_obj_using_allocator&action=edit)  
+(function template)   
 [ uninitialized_construct_using_allocator](uninitialized_construct_using_allocator.html "cpp/memory/uninitialized construct using allocator")(C++20) |  creates an object of the given type at specified memory location by means of uses-allocator construction   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_uninitialized_construct_using_allocator&action=edit)
+(function template) 

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ named requirements](../iterator/concepts.html "cpp/named req")
 
@@ -147,11 +147,11 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/named_req/navbar_content&action=edit)
+
 
 Specifies that an object of the type can be constructed from a given set of arguments in uninitialized storage by a given allocator. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/EmplaceConstructible&action=edit&section=1 "Edit section: Requirements")] Requirements
+### Requirements
 
 The type `**T**` is **EmplaceConstructible** into the [Container](Container.html "cpp/named req/Container") `**X**` (whose `value_type` is identical to `T`) from the arguments `**args**` if, given 
 
@@ -170,11 +170,11 @@ the following expression is well-formed:
 
 If `**X**` is not allocator-aware or is a [std::basic_string](../string/basic_string.html "cpp/string/basic string") specialization, the term is defined as if `**A**` were std::allocator<T>, except that no allocator object needs to be created, and user-defined specializations of [std::allocator](../memory/allocator.html "cpp/memory/allocator") are not instantiated. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/EmplaceConstructible&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 Although it is required that customized `construct` is used when constructing elements of [std::basic_string](../string/basic_string.html "cpp/string/basic string") until C++23, all implementations only used the default mechanism. The requirement is corrected by [P1072R10](https://wg21.link/P1072R10) to match existing practice. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/EmplaceConstructible&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [CopyInsertable](CopyInsertable.html "cpp/named req/CopyInsertable")  
 ---  

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::shared_ptr`](../shared_ptr.html "cpp/memory/shared ptr")
 
@@ -220,7 +220,7 @@ Helper classes
 [hash<std::shared_ptr>](hash.html "cpp/memory/shared ptr/hash")  
 [Deduction guides](deduction_guides.html "cpp/memory/shared ptr/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/navbar_content&action=edit)
+
 
 long use_count() const noexcept; |  |   
 ---|---|---  
@@ -241,15 +241,15 @@ In multithreaded environment, use_count atomically retrieves the number of insta
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/use_count&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/use_count&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The number of [std::shared_ptr](../shared_ptr.html "cpp/memory/shared ptr") instances managing the current object or ​0​ if there is no managed object. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/use_count&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Common use cases include 
 
@@ -262,7 +262,7 @@ In multithreaded environment
 
 The value returned by `use_count` should be considered approximate, as the number of shared owners might change in other threads between the atomic retrieval and meaningful use of the value. When `use_count` returns 1, it does not imply that the object is safe to modify because accesses to the managed object by former shared owners may not have completed, and because new shared owners may be introduced concurrently, such as by [std::weak_ptr::lock](../weak_ptr/lock.html "cpp/memory/weak ptr/lock"). Only when `use_count` returns 0 is the count accurate. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/use_count&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -291,8 +291,8 @@ Possible output:
     in main(): sp1.use_count() == 1 (object @ 0x20eec30)
     in fun(): sp.use_count() == 2 (object @ 0x20eec30)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/use_count&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ unique](unique.html "cpp/memory/shared ptr/unique")(until C++20) |  checks whether the managed object is managed only by the current `shared_ptr` object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/dsc_unique&action=edit)  
+(public member function)   
 ---|---

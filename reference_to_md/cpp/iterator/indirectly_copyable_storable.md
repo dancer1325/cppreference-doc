@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](empty.html "cpp/iterator/empty")(C++17)  
 [data](data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 Defined in header `[<iterator>](../header/iterator.html "cpp/header/iterator")` |  |   
 ---|---|---  
@@ -212,7 +212,7 @@ concept indirectly_copyable_storable =
   
 The `indirectly_copyable_storable` concept specifies the relationship between an [`indirectly_readable`](indirectly_readable.html "cpp/iterator/indirectly readable") type and an [`indirectly_writable`](indirectly_writable.html "cpp/iterator/indirectly writable") type. In addition to [`indirectly_copyable`](indirectly_copyable.html "cpp/iterator/indirectly copyable"), this concept specifies that the copy from the `indirectly_readable` type can be performed via an intermediate object. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/indirectly_copyable_storable&action=edit&section=1 "Edit section: Semantic requirements")] Semantic requirements
+### Semantic requirements
 
 `In` and `Out` model std::indirectly_copyable_storable<In, Out> only if given a dereferenceable value `i` of type `In`: 
 
@@ -221,14 +221,14 @@ The `indirectly_copyable_storable` concept specifies the relationship between an
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/equality_preservation&action=edit&section=T-1 "Template:cpp/concepts/equality preservation")] Equality preservation
+### Equality preservation
 
 Expressions declared in [requires expressions](../language/requires.html "cpp/language/requires") of the standard library concepts are required to be [equality-preserving](../concepts.html#Equality_preservation "cpp/concepts") (except where stated otherwise). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/indirectly_copyable_storable&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ indirectly_copyable](indirectly_copyable.html "cpp/iterator/indirectly copyable")(C++20) |  specifies that values may be copied from an [`indirectly_readable`](indirectly_readable.html "cpp/iterator/indirectly readable") type to an [`indirectly_writable`](indirectly_writable.html "cpp/iterator/indirectly writable") type   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_indirectly_copyable&action=edit)  
+(concept)   
 ---|---  
 [ indirectly_movable_storable](indirectly_movable_storable.html "cpp/iterator/indirectly movable storable")(C++20) |  specifies that values may be moved from an [`indirectly_readable`](indirectly_readable.html "cpp/iterator/indirectly readable") type to an [`indirectly_writable`](indirectly_writable.html "cpp/iterator/indirectly writable") type and that the move may be performed via an intermediate object   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_indirectly_movable_storable&action=edit)
+(concept) 

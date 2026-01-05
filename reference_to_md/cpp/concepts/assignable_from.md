@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concepts library](../concepts.html "cpp/concepts")
 
@@ -73,7 +73,7 @@
 ---  
 [_boolean-testable_](boolean-testable.html "cpp/concepts/boolean-testable") ﻿(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/navbar_content&action=edit)
+
 
 Defined in header `[<concepts>](../header/concepts.html "cpp/header/concepts")` |  |   
 ---|---|---  
@@ -102,7 +102,7 @@ The concept `assignable_from<LHS, RHS>` specifies that an expression of the type
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/concepts/assignable_from&action=edit&section=1 "Edit section: Semantic requirements")] Semantic requirements
+### Semantic requirements
 
 Given 
 
@@ -123,15 +123,15 @@ Given
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/equality_preservation&action=edit&section=T-1 "Template:cpp/concepts/equality preservation")] Equality preservation
+### Equality preservation
 
 Expressions declared in [requires expressions](../language/requires.html "cpp/language/requires") of the standard library concepts are required to be [equality-preserving](../concepts.html#Equality_preservation "cpp/concepts") (except where stated otherwise). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/concepts/assignable_from&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 Assignment need not be a total function. In particular, if assigning to some object `x` can cause some other object `y` to be modified, then x = y is likely not in the domain of `**=**`. This typically happens if the right operand is owned directly or indirectly by the left operand (e.g., with smart pointers to nodes in a node-based data structure, or with something like [std::vector](../container/vector.html)<[std::any](../utility/any.html)>). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/concepts/assignable_from&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -168,7 +168,7 @@ Run this code
         static_assert(!std::assignable_from<[std::atomic](../atomic/atomic.html)<int>&, int>);
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/concepts/assignable_from&action=edit&section=4 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -190,8 +190,8 @@ Run this code
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/concepts/assignable_from&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ is_assignableis_trivially_assignableis_nothrow_assignable](../types/is_assignable.html "cpp/types/is assignable")(C++11)(C++11)(C++11) |  checks if a type has an assignment operator for a specific argument   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_assignable&action=edit)  
+(class template)   
 ---|---

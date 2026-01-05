@@ -59,13 +59,13 @@ it is not guaranteed that `std::cout` has been initialized to a usable state bef
 ###  See also
 
 [ Init](ios_base/Init.html "cpp/io/ios base/Init") |  initializes standard stream objects   
-(public member class of `std::ios_base`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/ios_base/dsc_Init&action=edit)  
+(public member class of `std::ios_base`)   
 ---|---  
 [ cerrwcerr](cerr.html "cpp/io/cerr") |  writes to the standard C error stream [stderr](c/std_streams.html "cpp/io/c/std streams"), unbuffered  
-(global object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_cerr&action=edit)  
+(global object)  
 [ clogwclog](clog.html "cpp/io/clog") |  writes to the standard C error stream [stderr](c/std_streams.html "cpp/io/c/std streams")  
-(global object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_clog&action=edit)  
+(global object)  
 [ stdinstdoutstderr](c/std_streams.html "cpp/io/c/std streams") |  expression of type FILE* associated with the input stream  
 expression of type FILE* associated with the output stream  
 expression of type FILE* associated with the error output stream   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_std_streams&action=edit)
+(macro constant) 

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Extensions for parallelism v2](../parallelism_2.html "cpp/experimental/parallelism 2")
 
@@ -92,7 +92,7 @@ Task blocks
 [define_task_blockdefine_task_block_restore_thread](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/define_task_block&action=edit&redlink=1 "cpp/experimental/define task block \(page does not exist\)")  
 [Data-parallel vectors](../simd.html "cpp/experimental/simd")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/parallelism_2/navbar_content&action=edit)
+
 
 [SIMD library](../simd.html "cpp/experimental/simd")
 
@@ -186,7 +186,7 @@ Task blocks
   
 [Math functions](../simd.html#Math_functions "cpp/experimental/simd")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/simd/navbar_content&action=edit)
+
 
 **`std::experimental::simd_mask`**
 
@@ -219,7 +219,7 @@ Non-member functions
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/simd/simd_mask/navbar_content&action=edit)
+
 
 Defined in header `[<experimental/simd>](../../header/experimental/simd.html "cpp/header/experimental/simd")` |  |   
 ---|---|---  
@@ -242,20 +242,20 @@ The class template `simd_mask` is a data-parallel type with the element type boo
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/simd/simd_mask&action=edit&section=1 "Edit section: Template parameters")] Template parameters
+### Template parameters
 
 T  |  \-  |  the element type `simd_mask` applies on   
 ---|---|---  
 Abi  |  \-  |  the ABI type `simd_mask` applies on   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/simd/simd_mask&action=edit&section=2 "Edit section: Helper alias templates")] Helper alias templates
+### Helper alias templates
 
 Template  |  Definition   
 ---|---  
 template< class T, int N > using fixed_size_simd_mask |  simd_mask<T, simd_abi::fixed_size<N>>  
 template< class T > using native_simd_mask |  simd_mask<T, simd_abi::native<T>>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/simd/simd_mask&action=edit&section=3 "Edit section: Member types")] Member types
+### Member types
 
 Member type  |  Definition   
 ---|---  
@@ -264,44 +264,44 @@ Member type  |  Definition
 `simd_type` |  simd<T, Abi>  
 `abi_type` |  Abi  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/simd/simd_mask&action=edit&section=4 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](simd_mask/simd_mask.html "cpp/experimental/simd/simd mask/simd mask")(parallelism TS v2) |  constructs a **`simd_mask`** object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/simd/simd_mask/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ copy_from](simd_mask/copy_from.html "cpp/experimental/simd/simd mask/copy from")(parallelism TS v2) |  loads **`simd_mask`** elements from contiguous memory   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/simd/simd_mask/dsc_copy_from&action=edit)  
+(public member function)   
 [ copy_to](simd_mask/copy_to.html "cpp/experimental/simd/simd mask/copy to")(parallelism TS v2) |  stores **`simd_mask`** elements to contiguous memory   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/simd/simd_mask/dsc_copy_to&action=edit)  
+(public member function)   
 [ operator[]](simd_mask/operator_at.html "cpp/experimental/simd/simd mask/operator at")(parallelism TS v2) |  accesses specified element   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/simd/simd_mask/dsc_operator_at&action=edit)  
+(public member function)   
 [ operator!](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/simd/simd_mask/operator_mem_logic&action=edit&redlink=1 "cpp/experimental/simd/simd mask/operator mem logic \(page does not exist\)")(parallelism TS v2) |  negates each element   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/simd/simd_mask/dsc_operator_mem_logic&action=edit)  
+(public member function)   
 [ size](simd_mask/size.html "cpp/experimental/simd/simd mask/size")[static] (parallelism TS v2) |  returns the width / number of elements   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/simd/simd_mask/dsc_size&action=edit)  
+(public static member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/simd/simd_mask&action=edit&section=5 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ operator&& operator||](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/simd/simd_mask/operator_logic&action=edit&redlink=1 "cpp/experimental/simd/simd mask/operator logic \(page does not exist\)")(parallelism TS v2) |  element-wise logic operators   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/simd/simd_mask/dsc_operator_logic&action=edit)  
+(function)   
 ---|---  
 [ operator& operator|  operator^](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/simd/simd_mask/operator_bitwise&action=edit&redlink=1 "cpp/experimental/simd/simd mask/operator bitwise \(page does not exist\)")(parallelism TS v2) |  element-wise bitwise operators   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/simd/simd_mask/dsc_operator_bitwise&action=edit)  
+(function)   
 [ operator&=  operator|=  operator^=](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/simd/simd_mask/operator_compound&action=edit&redlink=1 "cpp/experimental/simd/simd mask/operator compound \(page does not exist\)")(parallelism TS v2) |  element-wise compound operators   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/simd/simd_mask/dsc_operator_compound&action=edit)  
+(function)   
 [ operator==  operator!=](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/simd/simd_mask/operator_relation&action=edit&redlink=1 "cpp/experimental/simd/simd mask/operator relation \(page does not exist\)")(parallelism TS v2) |  element-wise relation operators   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/simd/simd_mask/dsc_operator_relation&action=edit)  
+(function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/simd/simd_mask&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/simd/simd_mask&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ simd](simd.html "cpp/experimental/simd/simd")(parallelism TS v2) |  data-parallel vector type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/simd/dsc_simd&action=edit)  
+(class template)   
 ---|---  
 [ mask_array](../../numeric/valarray/mask_array.html "cpp/numeric/valarray/mask array") |  proxy to a subset of a valarray after applying a boolean mask `operator[]`   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_mask_array&action=edit)
+(class template) 

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 Defined in header `[<memory>](../header/memory.html "cpp/header/memory")` |  |   
 ---|---|---  
@@ -234,7 +234,7 @@ If d_first` + ``[`​0​`, `count`)` overlaps with first` + ``[`​0​`, `coun
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/uninitialized_copy_n&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first  |  \-  |  the beginning of the range of the elements to copy   
 ---|---|---  
@@ -247,15 +247,15 @@ Type requirements
 -`NoThrowForwardIt` must meet the requirements of [LegacyForwardIterator](../named_req/ForwardIterator.html "cpp/named req/ForwardIterator").   
 -No increment, assignment, comparison, or indirection through valid instances of `NoThrowForwardIt` may throw exceptions.   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/uninitialized_copy_n&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Iterator to the element past the last element copied. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/uninitialized_copy_n&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Linear in count. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/uninitialized_copy_n&action=edit&section=4 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 The overload with a template parameter named `ExecutionPolicy` reports errors as follows: 
 
@@ -264,13 +264,13 @@ The overload with a template parameter named `ExecutionPolicy` reports errors as
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/uninitialized_copy_n&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../utility/feature_test.html "cpp/utility/feature test") macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_raw_memory_algorithms`](../experimental/feature_test.html#cpp_lib_raw_memory_algorithms "cpp/feature test") | [`202411L`](../compiler_support/26.html#cpp_lib_raw_memory_algorithms_202411L "cpp/compiler support/26") | (C++26) | constexpr for [specialized memory algorithms](../memory.html#Uninitialized_memory_algorithms "cpp/memory"), ([1](uninitialized_copy_n.html#Version_1))  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/uninitialized_copy_n&action=edit&section=6 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     template<class InputIt, class Size, class NoThrowForwardIt>
@@ -295,7 +295,7 @@ The overload with a template parameter named `ExecutionPolicy` reports errors as
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/uninitialized_copy_n&action=edit&section=7 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -333,7 +333,7 @@ Possible output:
     
     This is an example
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/uninitialized_copy_n&action=edit&section=8 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -347,12 +347,12 @@ disable those ADLs
 [LWG 2433](https://cplusplus.github.io/LWG/issue2433) | C++11  | this algorithm might be hijacked by overloaded operator& | uses [std::addressof](addressof.html "cpp/memory/addressof")  
 [LWG 3870](https://cplusplus.github.io/LWG/issue3870) | C++20  | this algorithm might create objects on a const storage  | kept disallowed   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/uninitialized_copy_n&action=edit&section=9 "Edit section: See also")] See also
+### See also
 
 [ uninitialized_copy](uninitialized_copy.html "cpp/memory/uninitialized copy") |  copies a range of objects to an uninitialized area of memory   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_uninitialized_copy&action=edit)  
+(function template)   
 ---|---  
 [ ranges::uninitialized_copy_n](ranges/uninitialized_copy_n.html "cpp/memory/ranges/uninitialized copy n")(C++20) |  copies a number of objects to an uninitialized area of memory  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/ranges/dsc_uninitialized_copy_n&action=edit)
+(algorithm function object)
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

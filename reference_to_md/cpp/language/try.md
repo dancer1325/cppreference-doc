@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Statements](statements.html "cpp/language/statements")
 
@@ -253,7 +253,7 @@ Miscellaneous
 [Transactional memory](transactional_memory.html "cpp/language/transactional memory")  
 [`synchronized`](transactional_memory.html#Synchronized_blocks "cpp/language/transactional memory"), [`atomic_commit`](transactional_memory.html#Atomic_blocks "cpp/language/transactional memory"), etc (TM TS)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/statements/navbar_content&action=edit)
+
 
 [ Exceptions](exceptions.html "cpp/language/exceptions")
 
@@ -266,7 +266,7 @@ Exception specification
 [dynamic specification](except_spec.html "cpp/language/except spec") (until C++17*)  
 [noexcept operator](noexcept.html "cpp/language/noexcept") (C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/exceptions/navbar_content&action=edit)
+
 
 An [exception](exceptions.html "cpp/language/exceptions") thrown in a try block can possibly be handled by an associated handler. 
 
@@ -284,7 +284,7 @@ An [exception](exceptions.html "cpp/language/exceptions") thrown in a try block 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/try&action=edit&section=1 "Edit section: Syntax")] Syntax  
+### Syntax  
   
 ---  
 `**try**` compound-statement handler-seq |  (1)  |   
@@ -299,7 +299,7 @@ compound-statement |  \-  |  a [compound statement](statements.html#Compound_sta
 handler-seq |  \-  |  a non-empty sequence of [handlers](catch.html "cpp/language/catch")  
 ctor-initializer |  \-  |  member initializer list (for [constructors](initializer_list.html#Member_initializer_list "cpp/language/constructor") only)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/try&action=edit&section=2 "Edit section: Ordinary try block")] Ordinary try block
+### Ordinary try block
 
 An ordinary try block is a [statement](statements.html "cpp/language/statements"). 
 
@@ -320,7 +320,7 @@ If an exception is thrown from its compound-statement, the exception will be mat
         throw 3;     // NOT handled by the handler above
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/try&action=edit&section=3 "Edit section: Function try block")] Function try block
+### Function try block
 
 A function try block is a special kind of [function body](function.html#Function_definition "cpp/language/function"). 
 
@@ -361,7 +361,7 @@ Exceptions thrown in destructors of objects with thread storage duration or in c
   
 Flowing off the end of the compound-statement of a [handler](catch.html "cpp/language/catch") of a function try block is equivalent to flowing off the end of the compound-statement of that function try block, unless the function is a constructor or destructor (see below). 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/try&action=edit&section=4 "Edit section: Constructor and destructor try block")] Constructor and destructor try block
+#### Constructor and destructor try block
 
 For a class `C`, if the function body of its constuctor or destructor definition is a function try block, and an exception is thrown during the initialization or destruction, respectively, of `C`’s subobjects, the exception will also be matched against the [handlers](catch.html "cpp/language/catch") in the handler-seq ﻿ of the function try block: 
     
@@ -406,7 +406,7 @@ If a [return statement](return.html "cpp/language/return") appears in a handler 
 
 The [currently handled exception](catch.html#Activating_the_handler "cpp/language/catch") is rethrown if control reaches the end of a handler of the function try block of a constructor or destructor. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/try&action=edit&section=5 "Edit section: Control flow")] Control flow
+### Control flow
 
 The compound-statement of a try block is a [control-flow-limited statement](statements.html#Control-flow-limited_statements "cpp/language/statements"): 
     
@@ -447,11 +447,11 @@ A [jump statement](statements.html#Jump_statements "cpp/language/statements") ([
     }
     label: ;
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/try&action=edit&section=6 "Edit section: Keywords")] Keywords
+### Keywords
 
 [`try`](../keyword/try.html "cpp/keyword/try")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/try&action=edit&section=7 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -463,7 +463,7 @@ into the compound-statement of a try block  | prohibited
 will catch exceptions from a base or member destructor  | such exceptions  
 are caught   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/try&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
   * [Throwing exceptions](throw.html "cpp/language/throw")
   * [Handling exceptions](catch.html "cpp/language/catch")

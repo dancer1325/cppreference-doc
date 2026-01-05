@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Filesystem library](../../filesystem.html "cpp/filesystem")
 
@@ -100,7 +100,7 @@ filesystem::symlink_status](../status.html "cpp/filesystem/status")
 [filesystem::is_socket](../is_socket.html "cpp/filesystem/is socket")  
 [filesystem::is_symlink](../is_symlink.html "cpp/filesystem/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/navbar_content&action=edit)
+
 
 [`std::filesystem::recursive_directory_iterator`](../recursive_directory_iterator.html "cpp/filesystem/recursive directory iterator")
 
@@ -118,7 +118,7 @@ Member functions
 Non-member functions  
 [begin(std::filesystem::recursive_directory_iterator)end(std::filesystem::recursive_directory_iterator)](begin.html "cpp/filesystem/recursive directory iterator/begin")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/recursive_directory_iterator/navbar_content&action=edit)
+
 
 [std::filesystem::directory_options](../directory_options.html) options() const; |  |  (since C++17)  
 ---|---|---  
@@ -128,14 +128,14 @@ Returns the options that affect the directory iteration. The options can only be
 
 If the options argument was not supplied, returns [std::filesystem::directory_options::none](../directory_options.html "cpp/filesystem/directory options"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/recursive_directory_iterator/options&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/recursive_directory_iterator/options&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The effective options that affect the directory iteration. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/recursive_directory_iterator/options&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Throws nothing. 

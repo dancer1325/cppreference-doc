@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Localization library](../../locale.html "cpp/locale")
 
@@ -152,7 +152,7 @@ base classes](../../locale.html#Facet_category_base_classes "cpp/locale")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/navbar_content&action=edit)
+
 
 [`std::wbuffer_convert`](../wbuffer_convert.html "cpp/locale/wbuffer convert")
 
@@ -163,7 +163,7 @@ Member functions
 [wbuffer_convert::rdbuf](rdbuf.html "cpp/locale/wbuffer convert/rdbuf")  
 [wbuffer_convert::state](state.html "cpp/locale/wbuffer convert/state")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/wbuffer_convert/navbar_content&action=edit)
+
 
 wbuffer_convert() : wbuffer_convert(nullptr) {} |  (1)  |   
 ---|---|---  
@@ -182,14 +182,14 @@ Overload  | [Data members](../wbuffer_convert.html#Data_members "cpp/locale/wbuf
 
 3) The copy constructor is deleted, `wbuffer_convert` is not [CopyConstructible](../../named_req/CopyConstructible.html "cpp/named req/CopyConstructible").
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/wbuffer_convert/wbuffer_convert&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 bytebuf  |  \-  |  pointer to the underlying buffer   
 ---|---|---  
 pcvt  |  \-  |  pointer to a standalone (not managed by a locale) facet   
 state  |  \-  |  the initial value of the character conversion state   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/wbuffer_convert/wbuffer_convert&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -225,7 +225,7 @@ Output:
     Reading from a UTF-8 stringbuf via wbuffer_convert: 0x7a 0xdf 0x6c34 0x1f34c 
     Sending UCS4 data to std::cout via wbuffer_convert: zß水🍌
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/wbuffer_convert/wbuffer_convert&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

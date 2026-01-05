@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Classes](classes.html "cpp/language/classes")
 
@@ -261,7 +261,7 @@ Inheritance
 [`override` specifier](override.html "cpp/language/override") (C++11)  
 [`final` specifier](final.html "cpp/language/final") (C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/classes/navbar_content&action=edit)
+
 
 The injected-class-name is the unqualified name of a class within the scope of said class. 
 
@@ -277,7 +277,7 @@ In a [class template](class_template.html "cpp/language/class template"), the in
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/injected-class-name&action=edit&section=1 "Edit section: Explanation")] Explanation
+### Explanation
 
 In a [class scope](scope.html#Class_scope "cpp/language/scope"), the class name of the current class or the template name of the current class template is treated as if it were a public member name; this is called _injected-class-name_. The point of declaration of the name is immediately following the opening brace of the class (template) definition. 
     
@@ -314,7 +314,7 @@ Like other members, injected-class-names are inherited. In the presence of priva
         ::A* q; // OK, does not use the injected-class-name
     };
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/injected-class-name&action=edit&section=2 "Edit section: In class template")] In class template
+### In class template
 
 The injected-class-name of a class template can be used as a template-name or a type-name. 
 
@@ -413,7 +413,7 @@ A lookup that finds an injected-class-name can result in an ambiguity in certain
         typename Derived::Base<double> d; // OK
     };
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/injected-class-name&action=edit&section=3 "Edit section: injected-class-name and constructors")] injected-class-name and constructors
+### injected-class-name and constructors
 
 Constructors do not have names, but the injected-class-name of the enclosing class is considered to name a constructor in constructor declarations and definitions. 
 
@@ -450,7 +450,7 @@ the qualified name is always considered to name `C`'s constructor. Such a name c
     struct A::A a2; // OK, same as 'A a2;'
     B::A b;         // OK, same as 'A b;'
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/injected-class-name&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

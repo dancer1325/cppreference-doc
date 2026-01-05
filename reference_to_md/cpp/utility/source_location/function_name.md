@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::source_location`](../source_location.html "cpp/utility/source location")
 
@@ -143,7 +143,7 @@ Field access
 [source_location::file_name](file_name.html "cpp/utility/source location/file name")  
 **source_location::function_name**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/source_location/navbar_content&action=edit)
+
 
 constexpr const char* function_name() const noexcept; |  |  (since C++20)  
 ---|---|---  
@@ -161,17 +161,17 @@ Returns the name of the function associated with the position represented by thi
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/source_location/function_name&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/source_location/function_name&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 If this object represents a position in a body of a function, returns an implementation-defined null-terminated byte string corresponding to the name of the function. 
 
 Otherwise, an empty string is returned. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/source_location/function_name&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 `std::source_location::function_name` may help to obtain the names of functions (including the special functions) alongside with their signatures.
 
@@ -230,12 +230,12 @@ Possible output:
     S::~S()
     S::~S()
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/source_location/function_name&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ line](line.html "cpp/utility/source location/line") |  return the line number represented by this object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/source_location/dsc_line&action=edit)  
+(public member function)   
 ---|---  
 [ column](column.html "cpp/utility/source location/column") |  return the column number represented by this object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/source_location/dsc_column&action=edit)  
+(public member function)   
 [ file_name](file_name.html "cpp/utility/source location/file name") |  return the file name represented by this object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/source_location/dsc_file_name&action=edit)
+(public member function) 

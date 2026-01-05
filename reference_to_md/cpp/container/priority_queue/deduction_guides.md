@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -71,7 +71,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 `[std::priority_queue](../priority_queue.html "cpp/container/priority queue")`
 
@@ -98,7 +98,7 @@ Tables
 [formatter<std::priority_queue>](formatter.html "cpp/container/priority queue/formatter")(C++23)  
 **Deduction guides**(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/priority_queue/navbar_content&action=edit)
+
 
 Defined in header `[<queue>](../../header/queue.html "cpp/header/queue")` |  |   
 ---|---|---  
@@ -162,13 +162,13 @@ These overloads participate in overload resolution only if
 
 Note: the extent to which the library determines that a type does not satisfy [LegacyInputIterator](../../named_req/InputIterator.html "cpp/named req/InputIterator") is unspecified, except that as a minimum integral types do not qualify as input iterators. Likewise, the extent to which it determines that a type does not satisfy [Allocator](../../named_req/Allocator.html "cpp/named req/Allocator") is unspecified, except that as a minimum the member type `Alloc::value_type` must exist and the expression [std::declval](../../utility/declval.html)<Alloc&>().allocate([std::size_t](../../types/size_t.html){}) must be well-formed when treated as an unevaluated operand. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/priority_queue/deduction_guides&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../../utility/feature_test.html "cpp/utility/feature test") macro  | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_containers_ranges`](../../experimental/feature_test.html#cpp_lib_containers_ranges "cpp/feature test") | [`202202L`](../../compiler_support/23.html#cpp_lib_containers_ranges_202202L "cpp/compiler support/23") | (C++23) | [Ranges-aware](../../ranges/to.html#container_compatible_range "cpp/ranges/to") construction and insertion; overloads ([7-9](deduction_guides.html#Version_7))  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/priority_queue/deduction_guides&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -201,7 +201,7 @@ Output:
     1 2 3 4
     4 3 2 1
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/priority_queue/deduction_guides&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

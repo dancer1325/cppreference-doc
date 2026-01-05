@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Type support](../../utility/rtti.html "cpp/types")
 
@@ -161,7 +161,7 @@ Runtime type information
 ---  
 [bad_cast](../bad_cast.html "cpp/types/bad cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/navbar_content&action=edit)
+
 
 [`std::numeric_limits`](../numeric_limits.html "cpp/types/numeric limits")
 
@@ -204,7 +204,7 @@ Helper types
 [float_round_style](float_round_style.html "cpp/types/numeric limits/float round style")  
 [float_denorm_style](float_denorm_style.html "cpp/types/numeric limits/float denorm style")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/navbar_content&action=edit)
+
 
 static const bool has_infinity; |  |  (until C++11)  
 ---|---|---  
@@ -213,7 +213,7 @@ static constexpr bool has_infinity; |  |  (since C++11)
   
 The value of [std::numeric_limits](../numeric_limits.html)<T>::has_infinity is true for all types `T` capable of representing the positive infinity as a distinct special value. This constant is meaningful for all floating-point types and is guaranteed to be true if [std::numeric_limits](../numeric_limits.html)<T>::is_iec559 == true. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/numeric_limits/has_infinity&action=edit&section=1 "Edit section: Standard specializations")] Standard specializations
+### Standard specializations
 
 `T` |  value of [std::numeric_limits](../numeric_limits.html)<T>::has_infinity  
 ---|---  
@@ -238,7 +238,7 @@ float |  usually true
 double |  usually true  
 long double |  usually true  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/numeric_limits/has_infinity&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -263,12 +263,12 @@ Possible output:
     true
     true
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/numeric_limits/has_infinity&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ infinity](infinity.html "cpp/types/numeric limits/infinity")[static] |  returns the positive infinity value of the given floating-point type   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/dsc_infinity&action=edit)  
+(public static member function)   
 ---|---  
 [ has_quiet_NaN](has_quiet_NaN.html "cpp/types/numeric limits/has quiet NaN")[static] |  identifies floating-point types that can represent the special value "quiet not-a-number" (NaN)   
-(public static member constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/dsc_has_quiet_NaN&action=edit)  
+(public static member constant)   
 [ has_signaling_NaN](has_signaling_NaN.html "cpp/types/numeric limits/has signaling NaN")[static] |  identifies floating-point types that can represent the special value "signaling not-a-number" (NaN)   
-(public static member constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/dsc_has_signaling_NaN&action=edit)
+(public static member constant) 

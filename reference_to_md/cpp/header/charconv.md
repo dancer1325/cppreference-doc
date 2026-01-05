@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header is part of the [text processing](../text.html "cpp/text") library. 
 
@@ -202,20 +202,20 @@ This header is part of the [text processing](../text.html "cpp/text") library.
   
 ---  
 [ chars_format](../utility/chars_format.html "cpp/utility/chars format")(C++17) |  specifies formatting for std::to_chars and std::from_chars   
-(enum) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_chars_format&action=edit)  
+(enum)   
 [ from_chars_result](../utility/from_chars_result.html "cpp/utility/from chars result")(C++17) |  the return type of [`std::from_chars`](../utility/from_chars.html "cpp/utility/from chars")   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_from_chars_result&action=edit)  
+(class)   
 [ to_chars_result](../utility/to_chars_result.html "cpp/utility/to chars result")(C++17) |  the return type of [`std::to_chars`](../utility/to_chars.html "cpp/utility/to chars")   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_to_chars_result&action=edit)  
+(class)   
   
 ###  Functions  
   
 [ from_chars](../utility/from_chars.html "cpp/utility/from chars")(C++17) |  converts a character sequence to an integer or floating-point value   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_from_chars&action=edit)  
+(function)   
 [ to_chars](../utility/to_chars.html "cpp/utility/to chars")(C++17) |  converts an integer or floating-point value to a character sequence   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_to_chars&action=edit)  
+(function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/charconv&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     namespace std {

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Library fundamentals v2](../lib_extensions_2.html "cpp/experimental/lib extensions 2")
 
@@ -74,7 +74,7 @@
 [uniform container erasure](../lib_extensions_2.html#Uniform_container_erasure "cpp/experimental/lib extensions 2")  
 [logical operator type traits](../lib_extensions_2.html#Logical_operator_type_traits "cpp/experimental/lib extensions 2")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions_2/navbar_content&action=edit)
+
 
 [`std::experimental::propagate_const`](../propagate_const.html "cpp/experimental/propagate const")
 
@@ -96,7 +96,7 @@ Helper classes
 [std::hash](hash.html "cpp/experimental/propagate const/hash")  
 **std::equal_to std::not_equal_tostd::lessstd::greaterstd::less_equalstd::greater_equal**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/propagate_const/navbar_content&action=edit)
+
 
 Defined in header `[<experimental/propagate_const>](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/propagate_const&action=edit&redlink=1 "cpp/header/experimental/propagate const \(page does not exist\)")` |  |   
 ---|---|---  
@@ -121,28 +121,28 @@ Let p.t_ denote the pointer-like object wrapped by a [std::experimental::propaga
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/propagate_const/cmp_func&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 These specializations ensure that when `T` is a pointer type, specializations of these class templates for [std::experimental::propagate_const](../propagate_const.html)<T> yield a total order, even if the corresponding built-in operators do not. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/propagate_const/cmp_func&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/propagate_const/cmp_func&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ equal_to](../../utility/functional/equal_to.html "cpp/utility/functional/equal to") |  function object implementing x == y   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_equal_to&action=edit)  
+(class template)   
 ---|---  
 [ not_equal_to](../../utility/functional/not_equal_to.html "cpp/utility/functional/not equal to") |  function object implementing x != y   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_not_equal_to&action=edit)  
+(class template)   
 [ less](../../utility/functional/less.html "cpp/utility/functional/less") |  function object implementing x < y   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_less&action=edit)  
+(class template)   
 [ greater](../../utility/functional/greater.html "cpp/utility/functional/greater") |  function object implementing x > y   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_greater&action=edit)  
+(class template)   
 [ less_equal](../../utility/functional/less_equal.html "cpp/utility/functional/less equal") |  function object implementing x <= y   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_less_equal&action=edit)  
+(class template)   
 [ greater_equal](../../utility/functional/greater_equal.html "cpp/utility/functional/greater equal") |  function object implementing x >= y   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_greater_equal&action=edit)
+(class template) 

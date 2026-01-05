@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::local_t`](../local_t.html "cpp/chrono/local t")
 
@@ -111,7 +111,7 @@ Time point I/O
 [formatter<std::chrono::local_time>](formatter.html "cpp/chrono/local t/formatter")  
 [from_stream](from_stream.html "cpp/chrono/local t/from stream")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/local_t/navbar_content&action=edit)
+
 
 template< class CharT, class Traits, class Duration >  
 [std::basic_ostream](../../io/basic_ostream.html)<CharT, Traits>&  
@@ -122,12 +122,12 @@ const [std::chrono::local_time](../local_t.html)<Duration>& tp ); |  |  (since C
   
 Outputs tp into the stream os, as if by os << [std::chrono::sys_time](../system_clock.html)<Duration>(tp.time_since_epoch());. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/local_t/operator_ltlt&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 os
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/local_t/operator_ltlt&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ operator<<(std::chrono::sys_time)](../system_clock/operator_ltlt.html "cpp/chrono/system clock/operator ltlt")(C++20) |  performs stream output on a `sys_time`   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_point/dsc_operator_ltlt&action=edit)  
+(function template)   
 ---|---

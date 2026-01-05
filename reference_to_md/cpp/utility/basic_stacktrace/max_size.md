@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Diagnostics library](../../error.html "cpp/error")
 
@@ -89,7 +89,7 @@ Exception handling failures
 [breakpoint_if_debugging](../breakpoint_if_debugging.html "cpp/utility/breakpoint if debugging")(C++26)  
 [breakpoint](../breakpoint.html "cpp/utility/breakpoint")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/navbar_content&action=edit)
+
 
 [`std::basic_stacktrace`](../basic_stacktrace.html "cpp/utility/basic stacktrace")
 
@@ -124,7 +124,7 @@ operator<=>](operator_cmp.html "cpp/utility/basic stacktrace/operator cmp")
 [hash<std::basic_stacktrace>](hash.html "cpp/utility/basic stacktrace/hash")  
 [formatter<std::basic_stacktrace>](formatter.html "cpp/utility/basic stacktrace/formatter")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/basic_stacktrace/navbar_content&action=edit)
+
 
 size_type max_size() const noexcept; |  |  (since C++23)  
 ---|---|---  
@@ -144,23 +144,23 @@ Returns the maximum number of elements the underlying container (typically a [st
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/basic_stacktrace/max_size&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/basic_stacktrace/max_size&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Maximum number of elements. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/basic_stacktrace/max_size&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Constant. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/basic_stacktrace/max_size&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 This value typically reflects the theoretical limit on the size of the underlying container, at most [std::numeric_limits](../../types/numeric_limits.html)<difference_type>::max(). At runtime, the size of the container may be limited to a value smaller than `max_size()` by the amount of RAM available. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/basic_stacktrace/max_size&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -179,8 +179,8 @@ Possible output:
     
     Maximum size of a 'basic_stacktrace' is 1152921504606846975
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/basic_stacktrace/max_size&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ size](size.html "cpp/utility/basic stacktrace/size") |  returns the number of stacktrace entries   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/basic_stacktrace/dsc_size&action=edit)  
+(public member function)   
 ---|---

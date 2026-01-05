@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Library fundamentals](../memory.html "cpp/experimental/lib extensions")
 
@@ -50,7 +50,7 @@
 [Type-erased and polymorphic allocators](../memory.html "cpp/experimental/memory")  
 [Variable templates for type traits](../type_trait_variable_templates.html "cpp/experimental/type trait variable templates")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions/navbar_content&action=edit)
+
 
 [Polymorphic allocator library](../memory.html "cpp/experimental/memory")
 
@@ -73,7 +73,7 @@ Type-erased allocator support for existing classes
 [packaged_task](../lib_extensions/packaged_task.html "cpp/experimental/lib extensions/packaged task")  
 [promise](../lib_extensions/promise.html "cpp/experimental/lib extensions/promise")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions/pmr/navbar_content&action=edit)
+
 
 [`std::experimental::pmr::polymorphic_allocator`](../polymorphic_allocator.html "cpp/experimental/polymorphic allocator")
 
@@ -90,7 +90,7 @@ Member functions
 Non-member functions  
 [operator==operator!=](operator_eq.html "cpp/experimental/polymorphic allocator/operator eq")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions/pmr/polymorphic_allocator/navbar_content&action=edit)
+
 
 template< class U >  
 void destroy( U* p ); |  |  (library fundamentals TS)  
@@ -99,13 +99,13 @@ void destroy( U* p ); |  |  (library fundamentals TS)
   
 Destroys the object pointed to by p, as if by calling p->~U(). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/polymorphic_allocator/destroy&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 p  |  \-  |  pointer to the object being destroyed   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/polymorphic_allocator/destroy&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ destroy](../../memory/allocator_traits/destroy.html "cpp/memory/allocator traits/destroy")[static] |  destructs an object stored in the allocated storage   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/allocator_traits/dsc_destroy&action=edit)  
+(function template)   
 ---|---

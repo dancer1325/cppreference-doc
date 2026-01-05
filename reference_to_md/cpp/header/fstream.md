@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header is part of the [Input/Output](../io.html "cpp/io") library. 
 
@@ -216,13 +216,13 @@ This header is part of the [Input/Output](../io.html "cpp/io") library.
 ###  Classes  
   
 [ basic_filebuf](../io/basic_filebuf.html "cpp/io/basic filebuf") |  implements raw file device   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_basic_filebuf&action=edit)  
+(class template)   
 [ basic_ifstream](../io/basic_ifstream.html "cpp/io/basic ifstream") |  implements high-level file stream input operations   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_basic_ifstream&action=edit)  
+(class template)   
 [ basic_ofstream](../io/basic_ofstream.html "cpp/io/basic ofstream") |  implements high-level file stream output operations   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_basic_ofstream&action=edit)  
+(class template)   
 [ basic_fstream](../io/basic_fstream.html "cpp/io/basic fstream") |  implements high-level file stream input/output operations   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_basic_fstream&action=edit)  
+(class template)   
 `filebuf` |  [std::basic_filebuf](../io/basic_filebuf.html)<char>  
 (typedef)  
 `wfilebuf` |  [std::basic_filebuf](../io/basic_filebuf.html)<wchar_t>  
@@ -243,15 +243,15 @@ This header is part of the [Input/Output](../io.html "cpp/io") library.
 ###  Functions  
   
 [ std::swap(std::basic_filebuf)](../io/basic_filebuf/swap2.html "cpp/io/basic filebuf/swap2")(C++11) |  specializes the [std::swap](../utility/swap.html "cpp/algorithm/swap") algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_filebuf/dsc_swap2&action=edit)  
+(function template)   
 [ std::swap(std::basic_ifstream)](../io/basic_ifstream/swap2.html "cpp/io/basic ifstream/swap2")(C++11) |  specializes the [std::swap](../utility/swap.html "cpp/algorithm/swap") algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_fstream/dsc_swap2&action=edit)  
+(function template)   
 [ std::swap(std::basic_ofstream)](../io/basic_ofstream/swap2.html "cpp/io/basic ofstream/swap2")(C++11) |  specializes the [std::swap](../utility/swap.html "cpp/algorithm/swap") algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_fstream/dsc_swap2&action=edit)  
+(function template)   
 [ std::swap(std::basic_fstream)](../io/basic_fstream/swap2.html "cpp/io/basic fstream/swap2")(C++11) |  specializes the [std::swap](../utility/swap.html "cpp/algorithm/swap") algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_fstream/dsc_swap2&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/fstream&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     namespace std {
@@ -276,7 +276,7 @@ This header is part of the [Input/Output](../io.html "cpp/io") library.
       using wfstream = basic_fstream<wchar_t>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/fstream&action=edit&section=T-1 "Template:cpp/synopsis/fstream")] Class template [std::basic_filebuf](../io/basic_filebuf.html "cpp/io/basic filebuf")
+#### Class template [std::basic_filebuf](../io/basic_filebuf.html "cpp/io/basic filebuf")
     
     
     namespace std {
@@ -336,7 +336,7 @@ This header is part of the [Input/Output](../io.html "cpp/io") library.
                   basic_filebuf<CharT, Traits>& y);
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/fstream&action=edit&section=T-2 "Template:cpp/synopsis/fstream")] Class template [std::basic_ifstream](../io/basic_ifstream.html "cpp/io/basic ifstream")
+#### Class template [std::basic_ifstream](../io/basic_ifstream.html "cpp/io/basic ifstream")
     
     
     namespace std {
@@ -386,7 +386,7 @@ This header is part of the [Input/Output](../io.html "cpp/io") library.
                   basic_ifstream<CharT, Traits>& y);
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/fstream&action=edit&section=T-3 "Template:cpp/synopsis/fstream")] Class template [std::basic_ofstream](../io/basic_ofstream.html "cpp/io/basic ofstream")
+#### Class template [std::basic_ofstream](../io/basic_ofstream.html "cpp/io/basic ofstream")
     
     
     namespace std {
@@ -436,7 +436,7 @@ This header is part of the [Input/Output](../io.html "cpp/io") library.
                   basic_ofstream<CharT, Traits>& y);
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/fstream&action=edit&section=T-4 "Template:cpp/synopsis/fstream")] Class template [std::basic_fstream](../io/basic_fstream.html "cpp/io/basic fstream")
+#### Class template [std::basic_fstream](../io/basic_fstream.html "cpp/io/basic fstream")
     
     
     namespace std {

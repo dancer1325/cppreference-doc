@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ named requirements](../iterator/concepts.html "cpp/named req")
 
@@ -147,11 +147,11 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/named_req/navbar_content&action=edit)
+
 
 The **TrivialClock** requirements describe the requirements satisfied by several clocks in the [chrono library](../chrono.html "cpp/chrono"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/TrivialClock&action=edit&section=1 "Edit section: Requirements")] Requirements
+### Requirements
 
 For a type TC: 
 
@@ -162,18 +162,18 @@ For a type TC:
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/TrivialClock&action=edit&section=2 "Edit section: Standard library")] Standard library
+### Standard library
 
 The following types in the standard library satisfy TrivialClock requirements: 
 
 [ system_clock](../chrono/system_clock.html "cpp/chrono/system clock")(C++11) |  wall clock time from the system-wide realtime clock   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_system_clock&action=edit)  
+(class)   
 ---|---  
 [ steady_clock](../chrono/steady_clock.html "cpp/chrono/steady clock")(C++11) |  monotonic clock that will never be adjusted   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_steady_clock&action=edit)  
+(class)   
 [ high_resolution_clock](../chrono/high_resolution_clock.html "cpp/chrono/high resolution clock")(C++11) |  the clock with the shortest tick period available   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_high_resolution_clock&action=edit)  
+(class)   
 [ file_clock](../chrono/file_clock.html "cpp/chrono/file clock")(C++20) |  [Clock](Clock.html "cpp/named req/Clock") used for [file time](../filesystem/file_time_type.html "cpp/filesystem/file time type")   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_file_clock&action=edit)  
+(typedef)   
 [ file_time_type](../filesystem/file_time_type.html "cpp/filesystem/file time type")(C++17) |  represents file time values   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_file_time_type&action=edit)
+(typedef) 

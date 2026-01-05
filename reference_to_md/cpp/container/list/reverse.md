@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::list`](../list.html "cpp/container/list")
 
@@ -135,7 +135,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/list/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/list/navbar_content&action=edit)
+
 
 void reverse(); |  | (noexcept since C++11)   
 (constexpr since C++26)  
@@ -156,11 +156,11 @@ No references or iterators become invalidated.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/reverse&action=edit&section=T-1 "Template:cpp/container/reverse")] Complexity
+### Complexity
 
 Linear in the size of the container. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/reverse&action=edit&section=T-2 "Template:cpp/container/reverse")] Example
+### Example
 
 Run this code
     
@@ -202,8 +202,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 1207](https://cplusplus.github.io/LWG/issue1207) | C++98  | it was unclear whether iterators and/or references will be invalidated  | keep valid   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/reverse&action=edit&section=T-4 "Template:cpp/container/reverse")] See also
+### See also
 
 [ sort](sort.html "cpp/container/list/sort") |  sorts the elements   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_sort&action=edit)  
+(public member function)   
 ---|---

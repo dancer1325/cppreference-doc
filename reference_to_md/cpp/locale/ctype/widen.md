@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Localization library](../../locale.html "cpp/locale")
 
@@ -152,7 +152,7 @@ base classes](../../locale.html#Facet_category_base_classes "cpp/locale")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/navbar_content&action=edit)
+
 
 [`std::ctype`](../ctype.html "cpp/locale/ctype")
 
@@ -176,7 +176,7 @@ Member functions of ctype<char>
 [ctype<char>::scan_is](../ctype_char/scan_is.html "cpp/locale/ctype char/scan is")  
 [ctype<char>::scan_not](../ctype_char/scan_not.html "cpp/locale/ctype char/scan not")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/ctype/navbar_content&action=edit)
+
 
 Defined in header `[<locale>](../../header/locale.html "cpp/header/locale")` |  |   
 ---|---|---  
@@ -211,7 +211,7 @@ Widening, if successful, preserves all character classification categories known
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/ctype/widen&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 c  |  \-  |  character to convert   
 ---|---|---  
@@ -220,13 +220,13 @@ beg  |  \-  |  pointer to the first character in an array of characters to conve
 end  |  \-  |  one past the end pointer for the array of characters to convert   
 dst  |  \-  |  pointer to the first element of the array of characters to fill   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/ctype/widen&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1,3) Widened character.
 
 2,4) end
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/ctype/widen&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -270,7 +270,7 @@ Possible output:
     The single-byte character 0xdf widens to 0xffffffff
     The single-byte character 0xec widens to 0xffffffff
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/ctype/widen&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -278,12 +278,12 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 153](https://cplusplus.github.io/LWG/issue153) | C++98  | `widen` always called overload (4)  | calls the corresponding overload   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/ctype/widen&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ narrow](narrow.html "cpp/locale/ctype/narrow") |  invokes `do_narrow`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/ctype/dsc_narrow&action=edit)  
+(public member function)   
 ---|---  
 [ widen](../../io/basic_ios/widen.html "cpp/io/basic ios/widen") |  widens characters   
-(public member function of `std::basic_ios<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ios/dsc_widen&action=edit)  
+(public member function of `std::basic_ios<CharT,Traits>`)   
 [ btowc](../../string/multibyte/btowc.html "cpp/string/multibyte/btowc") |  widens a single-byte narrow character to wide character, if possible   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/dsc_btowc&action=edit)
+(function) 

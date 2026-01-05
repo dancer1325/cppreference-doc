@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Diagnostics library](../error.html "cpp/error")
 
@@ -89,7 +89,7 @@ Exception handling failures
 [breakpoint_if_debugging](../utility/breakpoint_if_debugging.html "cpp/utility/breakpoint if debugging")(C++26)  
 [breakpoint](../utility/breakpoint.html "cpp/utility/breakpoint")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/navbar_content&action=edit)
+
 
 Defined in header `[<exception>](../header/exception.html "cpp/header/exception")` |  |   
 ---|---|---  
@@ -117,12 +117,12 @@ Otherwise, performs
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/rethrow_if_nested&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 e  |  \-  |  the exception object to rethrow   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/rethrow_if_nested&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 Unlike many related functions, this function is _not_ intended to be called with a [std::exception_ptr](exception_ptr.html) but rather an actual exception reference. 
 
@@ -130,7 +130,7 @@ Unlike many related functions, this function is _not_ intended to be called with
 ---|---|---|---  
 [`__cpp_lib_constexpr_exceptions`](../experimental/feature_test.html#cpp_lib_constexpr_exceptions "cpp/feature test") | [`202411L`](../compiler_support/26.html#cpp_lib_constexpr_exceptions_202411L "cpp/compiler support/26") | (C++26) | constexpr for exception types   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/rethrow_if_nested&action=edit&section=3 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     namespace details
@@ -162,9 +162,9 @@ Unlike many related functions, this function is _not_ intended to be called with
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/rethrow_if_nested&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/example_nested_exception&action=edit)
+
 
 Demonstrates construction and recursion through a nested exception object.
 
@@ -240,12 +240,12 @@ Possible output:
      exception: Couldn't open nonexistent.file
       exception: basic_ios::clear
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/rethrow_if_nested&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ nested_exception](nested_exception.html "cpp/error/nested exception")(C++11) |  a mixin type to capture and store current exceptions   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_nested_exception&action=edit)  
+(class)   
 ---|---  
 [ throw_with_nested](throw_with_nested.html "cpp/error/throw with nested")(C++11) |  throws its argument with [std::nested_exception](nested_exception.html "cpp/error/nested exception") mixed in   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_throw_with_nested&action=edit)
+(function template) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 The [Curiously Recurring Template Pattern](https://en.wikipedia.org/wiki/Curiously_Recurring_Template_Pattern "enwiki:Curiously Recurring Template Pattern") is an idiom in which a class `X` derives from a class template `Y`, taking a template parameter `Z`, where `Y` is instantiated with Z = X. For example, 
     
@@ -230,7 +230,7 @@ The [Curiously Recurring Template Pattern](https://en.wikipedia.org/wiki/Curious
      
     class X : public Y<X> {};
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/crtp&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
 CRTP may be used to implement "compile-time polymorphism", when a base class exposes an interface, and derived classes implement such interface.
 
@@ -271,16 +271,16 @@ Output:
     D1::impl()
     D2::impl()
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/crtp&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [Explicit object member functions (deducing `this`)](member_functions.html#Explicit_object_member_functions "cpp/language/member functions") (C++23)  
 ---  
 [ enable_shared_from_this](../memory/enable_shared_from_this.html "cpp/memory/enable shared from this")(C++11) |  allows an object to create a `shared_ptr` referring to itself   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_enable_shared_from_this&action=edit)  
+(class template)   
 [ ranges::view_interface](../ranges/view_interface.html "cpp/ranges/view interface")(C++20) |  helper class template for defining a [`view`](../ranges/view.html "cpp/ranges/view"), using the **curiously recurring template pattern**   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_view_interface&action=edit)  
+(class template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/crtp&action=edit&section=3 "Edit section: External links")] External links
+### External links
 
 1\.  | [Replace CRTP with concepts?](https://www.sandordargo.com/blog/2024/12/04/crtp-vs-concepts) — Sandor Drago's blog   
 ---|---  

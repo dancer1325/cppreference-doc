@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::optional`](../optional.html "cpp/utility/optional")
 
@@ -167,7 +167,7 @@ Common vocabulary types
 [nullopt](nullopt.html "cpp/utility/optional/nullopt")  
 [in_place](../in_place.html "cpp/utility/in place")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/navbar_content&action=edit)
+
 
 Defined in header `[<optional>](../../header/optional.html "cpp/header/optional")` |  |   
 ---|---|---  
@@ -183,12 +183,12 @@ When enabled, for an object `o` of type [std::optional](../optional.html)<T> tha
 
 The member functions of this specialization are not guaranteed to be noexcept because the hash of the underlying type might throw. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/hash&action=edit&section=1 "Edit section: Template parameters")] Template parameters
+### Template parameters
 
 T  |  \-  |  the type of the value contained in `optional` object   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/hash&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -222,8 +222,8 @@ Possible output:
     abc     3663726644998027833
     ABC     11746482041453314842
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/hash&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ hash](../hash.html "cpp/utility/hash")(C++11) |  hash function object   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_hash&action=edit)  
+(class template)   
 ---|---

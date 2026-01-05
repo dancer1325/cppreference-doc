@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Function objects](../../functional.html "cpp/utility/functional")
 
@@ -255,7 +255,7 @@ Identity function object
 [unary_negate](unary_negate.html "cpp/utility/functional/unary negate")(until C++20*)  
 [binary_negate](binary_negate.html "cpp/utility/functional/binary negate")(until C++20*)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/navbar_content&action=edit)
+
 
 Defined in header `[<functional>](../../header/functional.html "cpp/header/functional")` |  |   
 ---|---|---  
@@ -299,10 +299,10 @@ Wrapper around a member function pointer. The class instance whose member functi
 
 4) Wraps a const member function with a single parameter.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/mem_fun_ref_t&action=edit&section=1 "Edit section: See also")] See also
+### See also
 
 [ mem_fun_ref](mem_fun_ref.html "cpp/utility/functional/mem fun ref")(deprecated in C++11)(removed in C++17) |  creates a wrapper from a pointer to member function, callable with a reference to object   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_mem_fun_ref&action=edit)  
+(function template)   
 ---|---  
 [ mem_fun_tmem_fun1_tconst_mem_fun_tconst_mem_fun1_t](mem_fun_t.html "cpp/utility/functional/mem fun t")(deprecated in C++11)(removed in C++17) |  wrapper for a pointer to nullary or unary member function, callable with a pointer to object   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_mem_fun_t&action=edit)
+(class template) 

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [Pseudo-random number generation](../random.html "cpp/numeric/random")
 
@@ -161,7 +161,7 @@
 [piecewise_constant_distribution](piecewise_constant_distribution.html "cpp/numeric/random/piecewise constant distribution")(C++11)  
 [piecewise_linear_distribution](piecewise_linear_distribution.html "cpp/numeric/random/piecewise linear distribution")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/navbar_content&action=edit)
+
 
 Defined in header `[<random>](../../header/random.html "cpp/header/random")` |  |   
 ---|---|---  
@@ -177,7 +177,7 @@ requires [std::bool_constant](../../types/integral_constant.html)<(G::min() < G:
   
 The concept `uniform_random_bit_generator<G>` specifies that `G` is the type of a uniform random bit generator, that is, objects of type `G` is a function object returning unsigned integer values such that each value in the range of possible results has (ideally) equal probability of being returned. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/random/uniform_random_bit_generator&action=edit&section=1 "Edit section: Semantic requirements")] Semantic requirements
+### Semantic requirements
 
 `uniform_random_bit_generator<G>` is modeled only if, given any object `g` of type `G`: 
 
@@ -186,6 +186,6 @@ The concept `uniform_random_bit_generator<G>` specifies that `G` is the type of 
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/random/uniform_random_bit_generator&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 In order to satisfy the requirement [std::bool_constant](../../types/integral_constant.html)<(G::min() < G::max())>::value, both G::min() and G::max() must be constant expressions, and the result of the comparison must be true. 

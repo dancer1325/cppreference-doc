@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header is part of the [text processing](../text.html "cpp/text") library. 
 
@@ -214,11 +214,11 @@ This header is part of the [text processing](../text.html "cpp/text") library.
 ###  Types  
   
 [ text_encoding](../locale/text_encoding.html "cpp/text/text encoding")(C++26) |  describes an interface for accessing the [IANA Character Sets registry](https://www.iana.org/assignments/character-sets/character-sets.xhtml)   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/dsc_text_encoding&action=edit)  
+(class)   
 [ std::hash<std::text_encoding>](../text/text_encoding/hash.html "cpp/text/text encoding/hash")(C++26) |  hash support for [`std::text_encoding`](../locale/text_encoding.html "cpp/text/text encoding")   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/text_encoding/dsc_hash&action=edit)  
+(class template specialization)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/text_encoding&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     namespace std {
@@ -230,7 +230,7 @@ This header is part of the [text processing](../text.html "cpp/text") library.
       template<> struct hash<text_encoding>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/text_encoding&action=edit&section=T-1 "Template:cpp/synopsis/text encoding")] Class std::text_encoding
+#### Class std::text_encoding
     
     
     namespace std {
@@ -270,7 +270,7 @@ This header is part of the [text processing](../text.html "cpp/text") library.
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/text_encoding&action=edit&section=T-2 "Template:cpp/synopsis/text encoding")] Class std::text_encoding::aliases_view
+#### Class std::text_encoding::aliases_view
     
     
     struct text_encoding::aliases_view : [ranges::view_interface](../ranges/view_interface.html)<text_encoding::aliases_view> {
@@ -278,7 +278,7 @@ This header is part of the [text processing](../text.html "cpp/text") library.
       constexpr /* implementation-defined */ end() const;
     };
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/text_encoding&action=edit&section=T-3 "Template:cpp/synopsis/text encoding")] Enumeration std::text_encoding::id
+#### Enumeration std::text_encoding::id
     
     
     namespace std {

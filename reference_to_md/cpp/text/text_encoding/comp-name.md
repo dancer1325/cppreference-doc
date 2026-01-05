@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [`std::text_encoding`](../../locale/text_encoding.html "cpp/text/text encoding")
 
@@ -79,7 +79,7 @@
 [Helper classes](../../locale/text_encoding.html#Helper_classes "cpp/text/text encoding")  
 [hash<std::text_encoding>](hash.html "cpp/text/text encoding/hash")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/text_encoding/navbar_content&action=edit)
+
 
 static constexpr bool /*comp-name*/( [std::string_view](../../string/basic_string_view.html) a, [std::string_view](../../string/basic_string_view.html) b ); |  |  (since C++26)   
 (exposition only*)  
@@ -105,11 +105,11 @@ Here are the following examples:
     static_assert(/*comp-name*/("ut8", "utf8") == false);
     static_assert(/*comp-name*/("utf-80", "utf8") == false);
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/text/text_encoding/comp-name&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 a, b  |  \-  |  strings to compare   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/text/text_encoding/comp-name&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 true if two strings compare equal as described above; false otherwise. 

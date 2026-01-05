@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Basic Concepts](basics.html "cpp/language/basic concepts")
 
@@ -249,7 +249,7 @@ Miscellaneous
 [Modules](modules.html "cpp/language/modules") (C++20)  
 [Contracts](contracts.html "cpp/language/contracts") (C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/basics/navbar_content&action=edit)
+
 
 A _qualified_ name is a name that appears on the right hand side of the scope resolution operator `**::**` (see also [qualified identifiers](name.html#Qualified_identifiers "cpp/language/identifiers")). A qualified name may refer to a 
 
@@ -375,7 +375,7 @@ If the lookup of the left-hand side name comes up with an [enumeration](enum.htm
 
 (since C++11)  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/qualified_lookup&action=edit&section=2 "Edit section: Class members")] Class members
+#### Class members
 
 If the lookup of the left hand side name comes up with a class/struct or union name, the name on the right hand side of `**::**` is looked up in the scope of that class (and so may find a declaration of a member of that class or of its base), with the following exceptions: 
 
@@ -421,7 +421,7 @@ Qualified name lookup can be used to access a class member that is hidden by a n
         b.B::foo(); // Calls B::foo (static dispatch)
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/qualified_lookup&action=edit&section=3 "Edit section: Namespace members")] Namespace members
+#### Namespace members
 
 If the name on the left of `**::**` refers to a namespace or if there is nothing on the left of `**::**` (in which case it refers to the global namespace), the name that appears on the right hand side of `**::**` is looked up in the scope of that namespace, except that 
 
@@ -526,7 +526,7 @@ It is allowed for the same declaration to be found more than once:
 Reason: the rest of N4861 6.5.3.2[namespace.qual], try to shorten their examples   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/qualified_lookup&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -541,7 +541,7 @@ considered to name the constructor of that class  | only name the constructor
 when acceptable (e.g. not in  
 an elaborated type specifier)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/qualified_lookup&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
   * [Unqualified name lookup](unqualified_lookup.html "cpp/language/unqualified lookup")
   * [Scope](scope.html "cpp/language/scope")

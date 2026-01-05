@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 Defined in header `[<ios>](../header/ios.html "cpp/header/ios")` |  |   
 ---|---|---  
@@ -86,11 +86,11 @@ typedef /*implementation-defined*/ streamsize; |  |
   
 The type `std::streamsize` is a signed integral type used to represent the number of characters transferred in an I/O operation or the size of an I/O buffer. It is used as a signed counterpart of [std::size_t](../types/size_t.html "cpp/types/size t"), similar to the POSIX type `ssize_t`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/streamsize&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 Except in the constructors of [std::strstreambuf](strstreambuf.html "cpp/io/strstreambuf"), negative values of `std::streamsize` are never used. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/streamsize&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -110,14 +110,14 @@ Possible output:
     
     8
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/streamsize&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ gcount](basic_istream/gcount.html "cpp/io/basic istream/gcount") |  returns number of characters extracted by last unformatted input operation   
-(public member function of `std::basic_istream<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_istream/dsc_gcount&action=edit)  
+(public member function of `std::basic_istream<CharT,Traits>`)   
 ---|---  
 [ ignore](basic_istream/ignore.html "cpp/io/basic istream/ignore") |  extracts and discards characters until the given character is found   
-(public member function of `std::basic_istream<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_istream/dsc_ignore&action=edit)  
+(public member function of `std::basic_istream<CharT,Traits>`)   
 [ read](basic_istream/read.html "cpp/io/basic istream/read") |  extracts blocks of characters   
-(public member function of `std::basic_istream<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_istream/dsc_read&action=edit)  
+(public member function of `std::basic_istream<CharT,Traits>`)   
 [ write](basic_ostream/write.html "cpp/io/basic ostream/write") |  inserts blocks of characters   
-(public member function of `std::basic_ostream<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ostream/dsc_write&action=edit)
+(public member function of `std::basic_ostream<CharT,Traits>`) 

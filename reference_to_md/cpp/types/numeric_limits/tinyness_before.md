@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Type support](../../utility/rtti.html "cpp/types")
 
@@ -161,7 +161,7 @@ Runtime type information
 ---  
 [bad_cast](../bad_cast.html "cpp/types/bad cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/navbar_content&action=edit)
+
 
 [`std::numeric_limits`](../numeric_limits.html "cpp/types/numeric limits")
 
@@ -204,7 +204,7 @@ Helper types
 [float_round_style](float_round_style.html "cpp/types/numeric limits/float round style")  
 [float_denorm_style](float_denorm_style.html "cpp/types/numeric limits/float denorm style")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/navbar_content&action=edit)
+
 
 static const bool tinyness_before; |  | (until C++11)  
 ---|---|---  
@@ -223,7 +223,7 @@ The value of [std::numeric_limits](../numeric_limits.html)<T>::tinyness_before i
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/numeric_limits/tinyness_before&action=edit&section=1 "Edit section: Standard specializations")] Standard specializations
+### Standard specializations
 
 `T` |  value of [std::numeric_limits](../numeric_limits.html)<T>::tinyness_before  
 ---|---  
@@ -248,7 +248,7 @@ float |  implementation-defined
 double |  implementation-defined   
 long double |  implementation-defined   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/numeric_limits/tinyness_before&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 Standard-compliant IEEE 754 floating-point implementations are required to detect the floating-point underflow, and have two alternative situations where this can be done 
 
@@ -257,7 +257,7 @@ Standard-compliant IEEE 754 floating-point implementations are required to detec
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/numeric_limits/tinyness_before&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Multiplication of the largest subnormal number by the number one machine epsilon greater than 1.0 gives the tiny value 0x0.fffffffffffff8p-1022 before rounding, but normal value 1p-1022 after rounding. The implementation used to execute this test ([IBM Power7](https://en.wikipedia.org/wiki/IBM_Power_microprocessors#POWER7 "enwiki:IBM Power microprocessors")) detects tinyness before rounding.
 
@@ -295,10 +295,10 @@ Possible output:
     Underflow detected
     0xf.ffffffffffffp-1030 x 0x1.0000000000001p+0 = 0x1p-1022
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/numeric_limits/tinyness_before&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ has_denorm_loss](has_denorm_loss.html "cpp/types/numeric limits/has denorm loss")[static] |  identifies the floating-point types that detect loss of precision as denormalization loss rather than inexact result   
-(public static member constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/dsc_has_denorm_loss&action=edit)  
+(public static member constant)   
 ---|---  
 [ has_denorm](has_denorm.html "cpp/types/numeric limits/has denorm")[static] |  identifies the denormalization style used by the floating-point type   
-(public static member constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/dsc_has_denorm&action=edit)
+(public static member constant) 

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Extensions for parallelism v2](../parallelism_2.html "cpp/experimental/parallelism 2")
 
@@ -67,7 +67,7 @@ Task blocks
 [define_task_blockdefine_task_block_restore_thread](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/define_task_block&action=edit&redlink=1 "cpp/experimental/define task block \(page does not exist\)")  
 [Data-parallel vectors](../simd.html "cpp/experimental/simd")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/parallelism_2/navbar_content&action=edit)
+
 
 [SIMD library](../simd.html "cpp/experimental/simd")
 
@@ -161,7 +161,7 @@ Task blocks
   
 [Math functions](../simd.html#Math_functions "cpp/experimental/simd")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/simd/navbar_content&action=edit)
+
 
 **`std::experimental::const_where_expression`**
 
@@ -173,7 +173,7 @@ operator~](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/si
 ---  
 [copy_to](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/simd/const_where_expression/copy_to&action=edit&redlink=1 "cpp/experimental/simd/const where expression/copy to \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/simd/const_where_expression/navbar_content&action=edit)
+
 
 Defined in header `[<experimental/simd>](../../header/experimental/simd.html "cpp/header/experimental/simd")` |  |   
 ---|---|---  
@@ -183,7 +183,7 @@ class const_where_expression; |  |  (parallelism TS v2)
   
 The class template `const_where_expression` abstracts the notion of selected elements of a given const object of arithmetic or data-parallel type. Selected elements signifies the elements data[i] for all i ∈ `{` j ∈ ℕ | j < M::size() ⋀ mask[j] `}`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/simd/const_where_expression&action=edit&section=1 "Edit section: Template parameters")] Template parameters
+### Template parameters
 
 M  |  \-  |  The mask type   
 ---|---|---  
@@ -191,7 +191,7 @@ V  |  \-  |  The value type M applies on
   
 Valid combinations of `(M, V)` are: (simd_mask<T, Abi>, const simd<T, Abi>), (simd_mask<T, Abi>, const simd_mask<T, Abi>), (bool, const T). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/simd/const_where_expression&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ operator-operator+operator~](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/simd/const_where_expression/operator_arith&action=edit&redlink=1 "cpp/experimental/simd/const where expression/operator arith \(page does not exist\)") |  unary operators   
 (public member function)  
@@ -199,7 +199,7 @@ Valid combinations of `(M, V)` are: (simd_mask<T, Abi>, const simd<T, Abi>), (si
 [ copy_to](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/simd/const_where_expression/copy_to&action=edit&redlink=1 "cpp/experimental/simd/const where expression/copy to \(page does not exist\)") |  stores selected elements to address   
 (public member function)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/simd/const_where_expression&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

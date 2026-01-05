@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::duration`](../duration.html "cpp/chrono/duration")
 
@@ -156,7 +156,7 @@ Helper classes
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/duration/navbar_content&action=edit)
+
 
 template< class Rep1, class Period1, class Rep2, class Period2 >  
 constexpr bool operator==( const [std::chrono::duration](../duration.html)<Rep1, Period1>& lhs,  
@@ -195,13 +195,13 @@ Compares two durations. Let `CT` be [std::common_type](../../types/common_type.h
 The `!=` operator is [synthesized](../../language/default_comparisons.html#Other_defaulted_comparison_operators "cpp/language/default comparisons") from `operator==`.  | (since C++20)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/duration/operator_cmp&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 lhs  |  \-  |  duration on the left-hand side of the operator   
 ---|---|---  
 rhs  |  \-  |  duration on the right-hand side of the operator   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/duration/operator_cmp&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) CT(lhs).count() == CT(rhs).count()
 
@@ -217,7 +217,7 @@ rhs  |  \-  |  duration on the right-hand side of the operator
 
 7) CT(lhs).count() <=> CT(rhs).count()
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/duration/operator_cmp&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     

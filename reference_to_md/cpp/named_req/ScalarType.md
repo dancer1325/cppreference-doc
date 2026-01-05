@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ named requirements](../iterator/concepts.html "cpp/named req")
 
@@ -147,11 +147,11 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/named_req/navbar_content&action=edit)
+
 
 Note: the standard doesn't define a named requirement with this name. This is a type category defined by the core language. It is included here as a named requirement only for consistency. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/ScalarType&action=edit&section=1 "Edit section: Requirements")] Requirements
+### Requirements
 
 The following types are collectively called _scalar types_ : 
 
@@ -171,8 +171,8 @@ The following types are collectively called _scalar types_ :
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/ScalarType&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ is_scalar](../types/is_scalar.html "cpp/types/is scalar")(C++11) |  checks if a type is a scalar type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_scalar&action=edit)  
+(class template)   
 ---|---

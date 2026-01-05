@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 **`std::hash`**
 
@@ -136,7 +136,7 @@ Common vocabulary types
 ---  
 [hash::operator()](hash/operator\(\).html "cpp/utility/hash/operator\(\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/hash/navbar_content&action=edit)
+
 
 Defined in header `[<bitset>](../header/bitset.html "cpp/header/bitset")` |  |   
 ---|---|---  
@@ -250,7 +250,7 @@ Type  |  Definition
 `result_type` (deprecated in C++17) |  [std::size_t](../types/size_t.html "cpp/types/size t")  
 (until C++20)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/hash&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](hash/hash.html "cpp/utility/hash/hash") |  constructs a hash function object   
 (public member function)  
@@ -258,7 +258,7 @@ Type  |  Definition
 [ operator()](hash/operator\(\).html "cpp/utility/hash/operator\(\)") |  calculates the hash of the argument   
 (public member function)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/hash&action=edit&section=3 "Edit section: Standard library specializations")] Standard library specializations
+### Standard library specializations
 
 Each header that declares the template `std::hash` also provides enabled specializations of `std::hash` for the following types: 
 
@@ -289,46 +289,46 @@ For all `std::hash` specializations provided by the standard library except the 
 ---|---  
 (since C++17)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/hash&action=edit&section=4 "Edit section: Specializations for library types")] Specializations for library types
+### Specializations for library types
 
 #####  Language support library   
   
 ---  
 [ std::hash<std::coroutine_handle>](../coroutine/coroutine_handle/hash.html "cpp/coroutine/coroutine handle/hash")(C++20) |  hash support for [`std::coroutine_handle`](../coroutine/coroutine_handle.html "cpp/coroutine/coroutine handle")   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/coroutine/coroutine_handle/dsc_hash&action=edit)  
+(class template specialization)   
   
 #####  Dianostics library   
   
 [ std::hash<std::error_code>](../error/error_code/hash.html "cpp/error/error code/hash")(C++11) |  hash support for [`std::error_code`](../error/error_code.html "cpp/error/error code")   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/error_code/dsc_hash&action=edit)  
+(class template specialization)   
 [ std::hash<std::error_condition>](../error/error_condition/hash.html "cpp/error/error condition/hash")(C++17) |  hash support for [`std::error_condition`](../error/error_condition.html "cpp/error/error condition")   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/error_condition/dsc_hash&action=edit)  
+(class template specialization)   
 [ std::hash<std::type_index>](../types/type_index/hash.html "cpp/types/type index/hash")(C++11) |  hash support for [`std::type_index`](../types/type_index.html "cpp/types/type index")   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/type_index/dsc_hash&action=edit)  
+(class template specialization)   
 [ std::hash<std::stacktrace_entry>](stacktrace_entry/hash.html "cpp/utility/stacktrace entry/hash")(C++23) |  hash support for [`std::stacktrace_entry`](stacktrace_entry.html "cpp/utility/stacktrace entry")   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/stacktrace_entry/dsc_hash&action=edit)  
+(class template specialization)   
 [ std::hash<std::basic_stacktrace>](basic_stacktrace/hash.html "cpp/utility/basic stacktrace/hash")(C++23) |  hash support for [`std::basic_stacktrace`](basic_stacktrace.html "cpp/utility/basic stacktrace")   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/basic_stacktrace/dsc_hash&action=edit)  
+(class template specialization)   
   
 #####  Memory management library   
   
 [ std::hash<std::unique_ptr>](../memory/unique_ptr/hash.html "cpp/memory/unique ptr/hash")(C++11) |  hash support for [`std::unique_ptr`](../memory/unique_ptr.html "cpp/memory/unique ptr")   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/unique_ptr/dsc_hash&action=edit)  
+(class template specialization)   
 [ std::hash<std::shared_ptr>](../memory/shared_ptr/hash.html "cpp/memory/shared ptr/hash")(C++11) |  hash support for [`std::shared_ptr`](../memory/shared_ptr.html "cpp/memory/shared ptr")   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/dsc_hash&action=edit)  
+(class template specialization)   
 [ std::hash<std::indirect>](../memory/indirect/hash.html "cpp/memory/indirect/hash")(C++26) |  hash support for [`std::indirect`](../memory/indirect.html "cpp/memory/indirect")   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/indirect/dsc_hash&action=edit)  
+(class template specialization)   
   
 #####  General utilities library   
   
 [ std::hash<std::optional>](optional/hash.html "cpp/utility/optional/hash")(C++17) |  hash support for [`std::optional`](optional.html "cpp/utility/optional")   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/dsc_hash&action=edit)  
+(class template specialization)   
 [ std::hash<std::variant>](variant/hash.html "cpp/utility/variant/hash")(C++17) |  hash support for [`std::variant`](variant.html "cpp/utility/variant")   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variant/dsc_hash&action=edit)  
+(class template specialization)   
 [ std::hash<std::monostate>](variant/monostate.html#Helper_classes "cpp/utility/variant/monostate")(C++17) |  hash support for [std::monostate](variant/monostate.html "cpp/utility/variant/monostate")   
 (class template specialization)  
 [ std::hash<std::bitset>](bitset/hash.html "cpp/utility/bitset/hash")(C++11) |  hash support for [`std::bitset`](bitset.html "cpp/utility/bitset")   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/bitset/dsc_hash&action=edit)  
+(class template specialization)   
   
 #####  Containers library   
   
@@ -338,14 +338,14 @@ For all `std::hash` specializations provided by the standard library except the 
 #####  Strings library   
   
 [ std::hash<std::basic_string>](../string/basic_string/hash.html "cpp/string/basic string/hash")(C++11) |  hash support for strings   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_hash&action=edit)  
+(class template specialization)   
 [ std::hash<std::string_view>std::hash<std::wstring_view>std::hash<std::u8string_view>std::hash<std::u16string_view>std::hash<std::u32string_view>](../string/basic_string_view/hash.html "cpp/string/basic string view/hash")(C++17)(C++17)(C++20)(C++17)(C++17) |  hash support for string views   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/dsc_hash&action=edit)  
+(class template specialization)   
   
 #####  Text processing library   
   
 [ std::hash<std::text_encoding>](../text/text_encoding/hash.html "cpp/text/text encoding/hash")(C++26) |  hash support for [`std::text_encoding`](../locale/text_encoding.html "cpp/text/text encoding")   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/text_encoding/dsc_hash&action=edit)  
+(class template specialization)   
   
 #####  Time library   
   
@@ -393,14 +393,14 @@ For all `std::hash` specializations provided by the standard library except the 
   
 ---  
 [ std::hash<std::filesystem::path>](../filesystem/path/hash.html "cpp/filesystem/path/hash")(C++17) |  hash support for [`std::filesystem::path`](../filesystem/path.html "cpp/filesystem/path")   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/path/dsc_hash&action=edit)  
+(class template specialization)   
   
 #####  Concurrency support library   
   
 [ std::hash<std::thread::id>](../thread/thread/id/hash.html "cpp/thread/thread/id/hash")(C++11) |  hash support for [`std::thread::id`](../thread/thread/id.html "cpp/thread/thread/id")   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/id/dsc_hash&action=edit)  
+(class template specialization)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/hash&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 The actual hash functions are implementation-dependent and are not required to fulfill any other quality criteria except those specified above. Notably, some implementations use trivial (identity) hash functions which map an integer to itself. In other words, these hash functions are designed to work with unordered associative containers, but not as cryptographic hashes, for example. 
 
@@ -410,7 +410,7 @@ There is no specialization for C strings. std::hash<const char*> produces a hash
 
 Additional specializations for [std::pair](pair.html "cpp/utility/pair") and the standard container types, as well as utility functions to compose hashes are available in [`boost::hash`](https://www.boost.org/doc/libs/release/libs/container_hash/doc/html/hash.html#ref). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/hash&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -490,7 +490,7 @@ Possible output:
     "Turanga" "Leela"
     "Hubert" "Farnsworth"
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/hash&action=edit&section=7 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

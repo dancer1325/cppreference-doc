@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_syncbuf`](../basic_syncbuf.html "cpp/io/basic syncbuf")
 
@@ -96,7 +96,7 @@ Protected member functions
 Non-member functions  
 **swap(std::basic_syncbuf)**(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_syncbuf/navbar_content&action=edit)
+
 
 template< class CharT, class Traits, class Allocator >  
 void swap( [std::basic_syncbuf](../basic_syncbuf.html)<CharT, Traits, Allocator>& lhs,  
@@ -116,25 +116,25 @@ Overloads the [std::swap](../../utility/swap.html "cpp/algorithm/swap") algorith
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_syncbuf/swap2&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 lhs, rhs  |  \-  |  std::basic_syncbuf objects whose states to swap   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_syncbuf/swap2&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_syncbuf/swap2&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_syncbuf/swap2&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ swap](swap.html "cpp/io/basic syncbuf/swap") |  swaps two `basic_syncbuf` objects   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_syncbuf/dsc_swap&action=edit)  
+(public member function)   
 ---|---  
 [ swap](../../utility/swap.html "cpp/algorithm/swap") |  swaps the values of two objects   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_swap&action=edit)
+(function template) 

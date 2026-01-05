@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header is part of the [general utility](../utility.html "cpp/utility") library. 
 
@@ -214,20 +214,20 @@ This header is part of the [general utility](../utility.html "cpp/utility") libr
 ###  Classes  
   
 [ any](../utility/any.html "cpp/utility/any")(C++17) |  objects that hold instances of any [CopyConstructible](../named_req/CopyConstructible.html "cpp/named req/CopyConstructible") type   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_any&action=edit)  
+(class)   
 [ bad_any_cast](../utility/any/bad_any_cast.html "cpp/utility/any/bad any cast")(C++17) |  exception thrown by the value-returning forms of `any_cast` on a type mismatch   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/any/dsc_bad_any_cast&action=edit)  
+(class)   
   
 ###  Functions  
   
 [ std::swap(std::any)](../utility/any/swap2.html "cpp/utility/any/swap2")(C++17) |  specializes the [std::swap](../utility/swap.html "cpp/algorithm/swap") algorithm   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/any/dsc_swap2&action=edit)  
+(function)   
 [ make_any](../utility/any/make_any.html "cpp/utility/any/make any")(C++17) |  creates an `any` object   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/any/dsc_make_any&action=edit)  
+(function template)   
 [ any_cast](../utility/any/any_cast.html "cpp/utility/any/any cast")(C++17) |  type-safe access to the contained object   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/any/dsc_any_cast&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/any&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     namespace std {
@@ -258,7 +258,7 @@ This header is part of the [general utility](../utility.html "cpp/utility") libr
         T* any_cast(any* operand) noexcept;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/any&action=edit&section=T-1 "Template:cpp/synopsis/any")] Class [std::bad_any_cast](../utility/any/bad_any_cast.html "cpp/utility/any/bad any cast")
+#### Class [std::bad_any_cast](../utility/any/bad_any_cast.html "cpp/utility/any/bad any cast")
     
     
     namespace std {
@@ -269,7 +269,7 @@ This header is part of the [general utility](../utility.html "cpp/utility") libr
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/any&action=edit&section=T-2 "Template:cpp/synopsis/any")] Class [std::any](../utility/any.html "cpp/utility/any")
+#### Class [std::any](../utility/any.html "cpp/utility/any")
     
     
     namespace std {

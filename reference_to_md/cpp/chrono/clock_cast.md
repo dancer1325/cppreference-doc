@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 Defined in header `[<chrono>](../header/chrono.html "cpp/header/chrono")` |  |   
 ---|---|---  
@@ -160,18 +160,18 @@ Converts the time point `t` of a clock `Source` to an equivalent time point of t
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/clock_cast&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 The result of the conversion, determined as described above. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/clock_cast&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/clock_cast&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ clock_time_conversion](clock_time_conversion.html "cpp/chrono/clock time conversion")(C++20) |  traits class defining how to convert time points of one clock to another   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_clock_time_conversion&action=edit)  
+(class template)   
 ---|---

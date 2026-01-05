@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Metaprogramming library](../meta.html "cpp/meta")
 
@@ -167,7 +167,7 @@ Type transformations
 Compile-time integer sequences  
 [integer_sequence](../utility/integer_sequence.html "cpp/utility/integer sequence")(C++14)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/meta/navbar_content&action=edit)
+
 
 Defined in header `[<type_traits>](../header/type_traits.html "cpp/header/type traits")` |  |   
 ---|---|---  
@@ -193,7 +193,7 @@ If the program adds specializations for `std::extent` or `std::extent_v`(since C
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/extent&action=edit&section=1 "Edit section: Helper variable template")] Helper variable template
+### Helper variable template
 
 template< class T, unsigned N = 0 >  
 constexpr [std::size_t](size_t.html) extent_v = extent<T, N>::value; |  |  (since C++17)  
@@ -223,7 +223,7 @@ Type  |  Definition
 `value_type` |  [std::size_t](size_t.html)  
 `type` |  [std::integral_constant](integral_constant.html)<[std::size_t](size_t.html), value>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/extent&action=edit&section=2 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     template<class T, unsigned N = 0>
@@ -243,7 +243,7 @@ Type  |  Definition
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/extent&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -278,16 +278,16 @@ Run this code
         static_assert(std::extent_v<[std::remove_cvref_t](remove_cvref.html)<decltype(ary[0])>> == 3);
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/extent&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ is_array](is_array.html "cpp/types/is array")(C++11) |  checks if a type is an array type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_array&action=edit)  
+(class template)   
 ---|---  
 [ rank](rank.html "cpp/types/rank")(C++11) |  obtains the number of dimensions of an array type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_rank&action=edit)  
+(class template)   
 [ remove_extent](remove_extent.html "cpp/types/remove extent")(C++11) |  removes one extent from the given array type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_remove_extent&action=edit)  
+(class template)   
 [ remove_all_extents](remove_all_extents.html "cpp/types/remove all extents")(C++11) |  removes all extents from the given array type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_remove_all_extents&action=edit)  
+(class template)   
 [ extents](../container/mdspan/extents.html "cpp/container/mdspan/extents")(C++23) |  a descriptor of a multidimensional index space of some rank   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/dsc_extents&action=edit)
+(class template) 

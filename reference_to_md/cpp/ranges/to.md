@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 Defined in header `[<ranges>](../header/ranges.html "cpp/header/ranges")` |  |   
 ---|---|---  
@@ -390,7 +390,7 @@ c.insert(c.end(), [std::forward](../utility/forward.html)<Reference>(ref));
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/to&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 r  |  \-  |  a source range object   
 ---|---|---  
@@ -398,7 +398,7 @@ args  |  \-  |  list of the arguments to ([1,2](to.html#Version_1)) construct a 
 Type requirements   
 -`C` must be cv-unqualified class type ([1,3](to.html#Version_1))  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/to&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1,2) A constructed non-view object.
 
@@ -433,11 +433,11 @@ Given an object `G` obtained from an earlier call to range::to</* see below */>(
 
 The program is ill-formed if g has volatile-qualified type. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/to&action=edit&section=6 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Only throws if construction of a non-view object throws. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/to&action=edit&section=7 "Edit section: Notes")] Notes
+### Notes
 
 The insertion of elements into the container may involve copy which can be less efficient than move because lvalue references are produced during the indirection call. Users can opt-in to use [views::as_rvalue](as_rvalue_view.html) to adapt the range in order for their elements to always produce an rvalue reference during the indirection call which implies move. 
 
@@ -452,7 +452,7 @@ The parentheses are mandatory when using the pipe syntax.
 [`__cpp_lib_ranges_to_container`](../experimental/feature_test.html#cpp_lib_ranges_to_container "cpp/feature test") | [`202202L`](../compiler_support/23.html#cpp_lib_ranges_to_container_202202L "cpp/compiler support/23") | (C++23) | `std::ranges::to`  
 [`__cpp_lib_ranges_reserve_hint`](../experimental/feature_test.html#cpp_lib_ranges_reserve_hint "cpp/feature test") | [`202502L`](../compiler_support/26.html#cpp_lib_ranges_reserve_hint_202502L "cpp/compiler support/26") | (C++26) | ranges::approximately_sized_range, ranges::reserve_hint, and [changes](to.html#reserve_hint) to `std::ranges::to`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/to&action=edit&section=8 "Edit section: Example")] Example
+### Example
 
 A preview link: [Compiler Explorer](https://godbolt.org/z/s4E3n8ed5)
 
@@ -588,7 +588,7 @@ Output:
     [2, 4, 6, 8]
     [2, 4, 6]
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/to&action=edit&section=9 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -600,7 +600,7 @@ program ill-formed if `R&` does not model [`viewable_range`](viewable_range.html
 `ranges::to` involved use of insert iterators  | replaced with direct appending  
 of elements to container   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/to&action=edit&section=10 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 

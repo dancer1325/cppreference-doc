@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](copy.html "cpp/algorithm/ranges/co
 [uninitialized_default_construct_n](../../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 [Constrained algorithms](../ranges.html "cpp/algorithm/ranges")
 
@@ -550,7 +550,7 @@ All names in this menu belong to namespace `std::ranges`
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -600,7 +600,7 @@ The function-like entities described on this page are [_algorithm function objec
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/nth_element&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  the iterator-sentinel pair defining the [range](../../iterator.html#Ranges "cpp/iterator") of elements to reorder   
 ---|---|---  
@@ -609,25 +609,25 @@ nth  |  \-  |  the iterator defining the partition point
 comp  |  \-  |  comparator used to compare the projected elements   
 proj  |  \-  |  projection to apply to the elements   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/nth_element&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) An iterator equal to last.
 
 2) Same as (1) if r is an lvalue or of a [`borrowed_range`](../../ranges/borrowed_range.html "cpp/ranges/borrowed range") type. Otherwise returns [std::ranges::dangling](../../ranges/dangling.html "cpp/ranges/dangling").
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/nth_element&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Linear in [ranges::distance](../../iterator/ranges/distance.html)(first, last) on average. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/nth_element&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 The algorithm used is typically [introselect](https://en.wikipedia.org/wiki/Introselect "enwiki:Introselect") although other [selection algorithms](https://en.wikipedia.org/wiki/Selection_algorithm "enwiki:Selection algorithm") with suitable average-case complexity are allowed. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/nth_element&action=edit&section=5 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
 
 See also the implementation in [msvc stl](https://github.com/microsoft/STL/blob/e97bb2b50a12816ce68cc5147b7a3a21fb68bfa3/stl/inc/algorithm#L8896-L8969), [libstdc++](https://github.com/gcc-mirror/gcc/blob/a87819b8f1b890d36a3f05bd9de80be20e9525dd/libstdc%2B%2B-v3/include/bits/ranges_algo.h#L2016-L2044), and libc++: [(1)](https://github.com/llvm/llvm-project/blob/ed2d3644abee9535eb07333beb1562a651001281/libcxx/include/__algorithm/ranges_nth_element.h) / [(2)](https://github.com/llvm/llvm-project/blob/ed2d364/libcxx/include/__algorithm/nth_element.h). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/nth_element&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -687,16 +687,16 @@ Output:
     After nth_element:  Diva Cornelius Bender Korben Leeloo Rhod Munro Zorg 
     The 5th element is: Leeloo
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/nth_element&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ ranges::max_element](max_element.html "cpp/algorithm/ranges/max element")(C++20) |  returns the largest element in a range  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_max_element&action=edit)  
+(algorithm function object)  
 ---|---  
 [ ranges::min_element](min_element.html "cpp/algorithm/ranges/min element")(C++20) |  returns the smallest element in a range  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_min_element&action=edit)  
+(algorithm function object)  
 [ ranges::partition](partition.html "cpp/algorithm/ranges/partition")(C++20) |  divides a range of elements into two groups  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_partition&action=edit)  
+(algorithm function object)  
 [ ranges::partial_sort](partial_sort.html "cpp/algorithm/ranges/partial sort")(C++20) |  sorts the first N elements of a range  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_partial_sort&action=edit)  
+(algorithm function object)  
 [ nth_element](../nth_element.html "cpp/algorithm/nth element") |  partially sorts the given range making sure that it is partitioned by the given element   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_nth_element&action=edit)
+(function template) 

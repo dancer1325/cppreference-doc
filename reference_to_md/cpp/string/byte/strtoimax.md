@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Null-terminated byte strings](../byte.html "cpp/string/byte")
 
@@ -143,7 +143,7 @@
 | [strerror](strerror.html "cpp/string/byte/strerror")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/navbar_content&action=edit)
+
 
 Defined in header `[<cinttypes>](../../header/cinttypes.html "cpp/header/cinttypes")` |  |   
 ---|---|---  
@@ -184,14 +184,14 @@ If the nptr is empty or does not have the expected form, no conversion is perfor
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/strtoimax&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 nptr  |  \-  |  pointer to the null-terminated byte string to be interpreted   
 ---|---|---  
 endptr  |  \-  |  pointer to a pointer to character.   
 base  |  \-  |  _base_ of the interpreted integer value   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/strtoimax&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
   * If successful, an integer value corresponding to the contents of str is returned. 
   * If the converted value falls out of range of corresponding return type, a range error occurs (setting [errno](../../error/errno.html "cpp/error/errno") to [ERANGE](../../error/errno_macros.html "cpp/error/errno macros")) and [INTMAX_MAX](../../types/integer.html "cpp/types/integer"), [INTMAX_MIN](../../types/integer.html "cpp/types/integer"), [UINTMAX_MAX](../../types/integer.html "cpp/types/integer") or ​0​ is returned, as appropriate. 
@@ -199,7 +199,7 @@ base  |  \-  |  _base_ of the interpreted integer value
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/strtoimax&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -227,23 +227,23 @@ Output:
     helloworld in base 36 is 1767707668033969 in base 10
     helloworld in base 30 is invalid. The first invalid digit is 'w'
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/strtoimax&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ stoistolstoll](../basic_string/stol.html "cpp/string/basic string/stol")(C++11)(C++11)(C++11) |  converts a string to a signed integer   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_stol&action=edit)  
+(function)   
 ---|---  
 [ stoulstoull](../basic_string/stoul.html "cpp/string/basic string/stoul")(C++11)(C++11) |  converts a string to an unsigned integer   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_stoul&action=edit)  
+(function)   
 [ strtolstrtoll](strtol.html "cpp/string/byte/strtol")(C++11) |  converts a byte string to an integer value   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strtol&action=edit)  
+(function)   
 [ strtoulstrtoull](strtoul.html "cpp/string/byte/strtoul")(C++11) |  converts a byte string to an unsigned integer value   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strtoul&action=edit)  
+(function)   
 [ wcstoimaxwcstoumax](../wide/wcstoimax.html "cpp/string/wide/wcstoimax")(C++11)(C++11) |  converts a wide string to [std::intmax_t](../../types/integer.html "cpp/types/integer") or [std::uintmax_t](../../types/integer.html "cpp/types/integer")   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wcstoimax&action=edit)  
+(function)   
 [ strtofstrtodstrtold](strtof.html "cpp/string/byte/strtof") |  converts a byte string to a floating-point value   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strtof&action=edit)  
+(function)   
 [ from_chars](../../utility/from_chars.html "cpp/utility/from chars")(C++17) |  converts a character sequence to an integer or floating-point value   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_from_chars&action=edit)  
+(function)   
 [ atoiatolatoll](atoi.html "cpp/string/byte/atoi")(C++11) |  converts a byte string to an integer value   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_atoi&action=edit)  
+(function)   
 [C documentation](../../../c/string/byte/strtoimax.html "c/string/byte/strtoimax") for strtoimax, strtoumax

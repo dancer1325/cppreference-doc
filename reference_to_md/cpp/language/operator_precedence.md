@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Expressions](expressions.html "cpp/language/expressions")
 
@@ -289,7 +289,7 @@ Conversions
 [`dynamic_cast`](dynamic_cast.html "cpp/language/dynamic cast")  
 [`reinterpret_cast`](reinterpret_cast.html "cpp/language/reinterpret cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/expressions/navbar_content&action=edit)
+
 
 The following table lists the precedence and associativity of C++ operators. Operators are listed top to bottom, in descending precedence. a, b and c are operands. 
 
@@ -346,7 +346,7 @@ Associativity specification is redundant for unary operators and is only shown f
 
 Operator precedence is unaffected by [operator overloading](operators.html "cpp/language/operators"). For example, [std::cout](../io/cout.html) << a ? b : c; parses as ([std::cout](../io/cout.html) << a) ? b : c; because the precedence of arithmetic left shift is higher than the conditional operator. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_precedence&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 Precedence and associativity are compile-time concepts and are independent from [order of evaluation](eval_order.html "cpp/language/eval order"), which is a runtime concept. 
 
@@ -358,7 +358,7 @@ Some of the operators have [alternate spellings](operator_alternative.html "cpp/
 
 In C, the ternary conditional operator has higher precedence than assignment operators. Therefore, the expression e = a < d ? a++ : a = d, which is parsed in C++ as e = ((a < d) ? (a++) : (a = d)), will fail to compile in C due to grammatical or semantic constraints in C. See the corresponding C page for details. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_precedence&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 Common operators   
 ---  

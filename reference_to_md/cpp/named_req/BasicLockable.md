@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ named requirements](../iterator/concepts.html "cpp/named req")
 
@@ -147,7 +147,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/named_req/navbar_content&action=edit)
+
 
 The **BasicLockable** requirements describe the minimal characteristics of types that provide exclusive blocking semantics for execution agents (i.e. threads). 
 
@@ -161,7 +161,7 @@ The **BasicLockable** requirements describe the minimal characteristics of types
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/BasicLockable&action=edit&section=1 "Edit section: Requirements")] Requirements
+### Requirements
 
 For type `**L**` to be BasicLockable, the following conditions have to be satisfied for an object `**m**` of type `**L**`: 
 
@@ -170,30 +170,30 @@ Expression | Preconditions | Effects
 m.lock() |  | Blocks until a lock can be acquired for the current execution agent (thread, process, task). If an exception is thrown, no lock is acquired.   
 m.unlock() | The current execution agent holds a non-shared lock on `m`.  | Releases the non-shared lock held by the execution agent. Throws no exceptions.   
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/BasicLockable&action=edit&section=2 "Edit section: Non-shared locks")] Non-shared locks
+#### Non-shared locks
 
 A lock on an object is said to be _non-shared lock_ if it is acquired by a call to `lock`, `try_lock`, `try_lock_for`, or `try_lock_until` member function. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/BasicLockable&action=edit&section=3 "Edit section: Standard library")] Standard library
+### Standard library
 
 The following standard library types satisfy BasicLockable requirements: 
 
 [ mutex](../thread/mutex.html "cpp/thread/mutex")(C++11) |  provides basic mutual exclusion facility   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_mutex&action=edit)  
+(class)   
 ---|---  
 [ recursive_mutex](../thread/recursive_mutex.html "cpp/thread/recursive mutex")(C++11) |  provides mutual exclusion facility which can be locked recursively by the same thread   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_recursive_mutex&action=edit)  
+(class)   
 [ recursive_timed_mutex](../thread/recursive_timed_mutex.html "cpp/thread/recursive timed mutex")(C++11) |  provides mutual exclusion facility which can be locked recursively  
 by the same thread and implements locking with a timeout   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_recursive_timed_mutex&action=edit)  
+(class)   
 [ shared_mutex](../thread/shared_mutex.html "cpp/thread/shared mutex")(C++17) |  provides shared mutual exclusion facility   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_shared_mutex&action=edit)  
+(class)   
 [ shared_timed_mutex](../thread/shared_timed_mutex.html "cpp/thread/shared timed mutex")(C++14) |  provides shared mutual exclusion facility and implements locking with a timeout   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_shared_timed_mutex&action=edit)  
+(class)   
 [ timed_mutex](../thread/timed_mutex.html "cpp/thread/timed mutex")(C++11) |  provides mutual exclusion facility which implements locking with a timeout   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_timed_mutex&action=edit)  
+(class)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/BasicLockable&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
   * [Thread support library](../atomic.html "cpp/thread")
   * [Mutex](Mutex.html "cpp/named req/Mutex")

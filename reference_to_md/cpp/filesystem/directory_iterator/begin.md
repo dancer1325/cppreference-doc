@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Filesystem library](../../filesystem.html "cpp/filesystem")
 
@@ -100,7 +100,7 @@ filesystem::symlink_status](../status.html "cpp/filesystem/status")
 [filesystem::is_socket](../is_socket.html "cpp/filesystem/is socket")  
 [filesystem::is_symlink](../is_symlink.html "cpp/filesystem/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/navbar_content&action=edit)
+
 
 [`std::filesystem::directory_iterator`](../directory_iterator.html "cpp/filesystem/directory iterator")
 
@@ -113,7 +113,7 @@ Member functions
 Non-member functions  
 **begin(std::filesystem::directory_iterator)end(std::filesystem::directory_iterator)**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/directory_iterator/navbar_content&action=edit)
+
 
 Defined in header `[<filesystem>](../../header/filesystem.html "cpp/header/filesystem")` |  |   
 ---|---|---  
@@ -138,18 +138,18 @@ These non-member functions enable the use of `directory_iterator`s with range-ba
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/directory_iterator/begin&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 iter  |  \-  |  a `directory_iterator`  
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/directory_iterator/begin&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) iter unchanged.
 
 2) End iterator (default-constructed `directory_iterator`).
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/directory_iterator/begin&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -176,7 +176,7 @@ Possible output:
     "sandbox/file1.txt"
     "sandbox/file2.txt"
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/directory_iterator/begin&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -184,8 +184,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 3480](https://cplusplus.github.io/LWG/issue3480) | C++17  | `end` took the argument by reference  | takes the argument by value   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/directory_iterator/begin&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ begin(std::filesystem::recursive_directory_iterator)end(std::filesystem::recursive_directory_iterator)](../recursive_directory_iterator/begin.html "cpp/filesystem/recursive directory iterator/begin") |  range-based for loop support   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/recursive_directory_iterator/dsc_begin&action=edit)  
+(function)   
 ---|---

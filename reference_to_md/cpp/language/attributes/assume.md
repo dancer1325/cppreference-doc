@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](../history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [Declarations](../declarations.html "cpp/language/declarations")
 
@@ -280,7 +280,7 @@ Other declarations
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/declarations/navbar_content&action=edit)
+
 
 [Attributes](../attributes.html "cpp/language/attributes")
 
@@ -298,7 +298,7 @@ Other declarations
 [optimize_for_synchronized](optimize_for_synchronized.html "cpp/language/attributes/optimize for synchronized")(TM TS)  
 [unlikely](likely.html "cpp/language/attributes/likely")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/attributes/navbar_content&action=edit)
+
 
 Specifies that the given expression is assumed to always evaluate to true at a given point in order to allow compiler optimizations based on the information given. 
 
@@ -316,14 +316,14 @@ Specifies that the given expression is assumed to always evaluate to true at a g
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/attributes/assume&action=edit&section=1 "Edit section: Syntax")] Syntax  
+### Syntax  
   
 ---  
 `**[[assume(**` expression `**)]]**` |  |   
 expression |  \-  |  any expression (except unparenthesized [comma expressions](../operator_other.html#Built-in_comma_operator "cpp/language/operator other"))   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/attributes/assume&action=edit&section=2 "Edit section: Explanation")] Explanation
+### Explanation
 
 [[assume]] an only be applied to a [null statement](../statements.html#Expression_statements "cpp/language/statements"), as in [[assume(x > 0)]];. This statement is called an _assumption_. 
 
@@ -334,7 +334,7 @@ expression is [contextually converted to bool](../implicit_cast.html#Contextual_
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/attributes/assume&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Since assumptions cause runtime-undefined behavior if they do not hold, they should be used sparingly. 
 
@@ -344,7 +344,7 @@ One correct way to use them is to follow assertions with assumptions:
     [assert](../../error/assert.html)(x > 0);     // trigger an assertion when NDEBUG is not defined and x > 0 is false
     [[assume(x > 0)]]; // provide optimization opportunities when NDEBUG is defined
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/attributes/assume&action=edit&section=4 "Edit section: Example")] Example
+### Example
     
     
     #include <cmath>
@@ -385,7 +385,7 @@ One correct way to use them is to follow assertions with assumptions:
         g(x); // Compiler may replace this with g(5);
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/attributes/assume&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -393,7 +393,7 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [CWG 2924](https://cplusplus.github.io/CWG/issues/2924.html) | C++23  | violating an assumption would result in undefined behavior  | results in runtime-undefined behavior   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/attributes/assume&action=edit&section=6 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -405,14 +405,14 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/attributes/assume&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ unreachable](../../utility/unreachable.html "cpp/utility/unreachable")(C++23) |  marks unreachable point of execution   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_unreachable&action=edit)  
+(function)   
 ---|---  
-[`contract_assert` statement](../contract_assert.html "cpp/language/contract assert") (C++26) |  verifies an internal condition during execution[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_contract_assert&action=edit)  
+[`contract_assert` statement](../contract_assert.html "cpp/language/contract assert") (C++26) |  verifies an internal condition during execution  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/attributes/assume&action=edit&section=8 "Edit section: External links")] External links
+### External links
 
 1\.  | Clang language extensions doc: [`__builtin_assume`](https://clang.llvm.org/docs/LanguageExtensions.html#langext-builtin-assume).   
 ---|---  

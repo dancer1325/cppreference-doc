@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 **Null-terminated multibyte strings**
 
@@ -100,7 +100,7 @@ MB_CUR_MAX](multibyte.html#Macros "cpp/string/multibyte")
 [__STDC_UTF_16__  
 __STDC_UTF_32__](multibyte.html#Macros "cpp/string/multibyte")(C++11)(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/navbar_content&action=edit)
+
 
 A null-terminated multibyte string (NTMBS), or "multibyte string", is a sequence of nonzero bytes followed by a byte with value zero (the terminating null character). 
 
@@ -121,76 +121,76 @@ A multibyte character string is layout-compatible with null-terminated byte stri
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/multibyte&action=edit&section=1 "Edit section: Functions")] Functions
+### Functions
 
 #####  Multibyte/wide character conversions   
   
 ---  
 Defined in header `[<cstdlib>](../header/cstdlib.html "cpp/header/cstdlib")`  
 [ mblen](multibyte/mblen.html "cpp/string/multibyte/mblen") |  returns the number of bytes in the next multibyte character   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/dsc_mblen&action=edit)  
+(function)   
 [ mbtowc](multibyte/mbtowc.html "cpp/string/multibyte/mbtowc") |  converts the next multibyte character to wide character   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/dsc_mbtowc&action=edit)  
+(function)   
 [ wctomb](multibyte/wctomb.html "cpp/string/multibyte/wctomb") |  converts a wide character to its multibyte representation   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/dsc_wctomb&action=edit)  
+(function)   
 [ mbstowcs](multibyte/mbstowcs.html "cpp/string/multibyte/mbstowcs") |  converts a narrow multibyte character string to wide string   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/dsc_mbstowcs&action=edit)  
+(function)   
 [ wcstombs](multibyte/wcstombs.html "cpp/string/multibyte/wcstombs") |  converts a wide string to narrow multibyte character string   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/dsc_wcstombs&action=edit)  
+(function)   
 Defined in header `[<cwchar>](../header/cwchar.html "cpp/header/cwchar")`  
 [ mbrlen](multibyte/mbrlen.html "cpp/string/multibyte/mbrlen") |  returns the number of bytes in the next multibyte character, given state   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/dsc_mbrlen&action=edit)  
+(function)   
 [ mbsinit](multibyte/mbsinit.html "cpp/string/multibyte/mbsinit") |  checks if the [std::mbstate_t](multibyte/mbstate_t.html "cpp/string/multibyte/mbstate t") object represents initial shift state   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/dsc_mbsinit&action=edit)  
+(function)   
 [ btowc](multibyte/btowc.html "cpp/string/multibyte/btowc") |  widens a single-byte narrow character to wide character, if possible   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/dsc_btowc&action=edit)  
+(function)   
 [ wctob](multibyte/wctob.html "cpp/string/multibyte/wctob") |  narrows a wide character to a single-byte narrow character, if possible   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/dsc_wctob&action=edit)  
+(function)   
 [ mbrtowc](multibyte/mbrtowc.html "cpp/string/multibyte/mbrtowc") |  converts the next multibyte character to wide character, given state   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/dsc_mbrtowc&action=edit)  
+(function)   
 [ wcrtomb](multibyte/wcrtomb.html "cpp/string/multibyte/wcrtomb") |  converts a wide character to its multibyte representation, given state   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/dsc_wcrtomb&action=edit)  
+(function)   
 [ mbsrtowcs](multibyte/mbsrtowcs.html "cpp/string/multibyte/mbsrtowcs") |  converts a narrow multibyte character string to wide string, given state   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/dsc_mbsrtowcs&action=edit)  
+(function)   
 [ wcsrtombs](multibyte/wcsrtombs.html "cpp/string/multibyte/wcsrtombs") |  converts a wide string to narrow multibyte character string, given state   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/dsc_wcsrtombs&action=edit)  
+(function)   
 Defined in header `[<cuchar>](../header/cuchar.html "cpp/header/cuchar")`  
 [ mbrtoc8](multibyte/mbrtoc8.html "cpp/string/multibyte/mbrtoc8")(C++20) |  converts a narrow multibyte character to UTF-8 encoding   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/dsc_mbrtoc8&action=edit)  
+(function)   
 [ c8rtomb](multibyte/c8rtomb.html "cpp/string/multibyte/c8rtomb")(C++20) |  converts UTF-8 string to narrow multibyte encoding   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/dsc_c8rtomb&action=edit)  
+(function)   
 [ mbrtoc16](multibyte/mbrtoc16.html "cpp/string/multibyte/mbrtoc16")(C++11) |  converts a narrow multibyte character to UTF-16 encoding   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/dsc_mbrtoc16&action=edit)  
+(function)   
 [ c16rtomb](multibyte/c16rtomb.html "cpp/string/multibyte/c16rtomb")(C++11) |  converts a UTF-16 character to narrow multibyte encoding   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/dsc_c16rtomb&action=edit)  
+(function)   
 [ mbrtoc32](multibyte/mbrtoc32.html "cpp/string/multibyte/mbrtoc32")(C++11) |  converts a narrow multibyte character to UTF-32 encoding   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/dsc_mbrtoc32&action=edit)  
+(function)   
 [ c32rtomb](multibyte/c32rtomb.html "cpp/string/multibyte/c32rtomb")(C++11) |  converts a UTF-32 character to narrow multibyte encoding   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/dsc_c32rtomb&action=edit)  
+(function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/multibyte&action=edit&section=2 "Edit section: Types")] Types
+### Types
 
 Defined in header `[<cwchar>](../header/cwchar.html "cpp/header/cwchar")`  
 ---  
 [ mbstate_t](multibyte/mbstate_t.html "cpp/string/multibyte/mbstate t") |  conversion state information necessary to iterate multibyte character strings   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/dsc_mbstate_t&action=edit)  
+(class)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/multibyte&action=edit&section=3 "Edit section: Macros")] Macros
+### Macros
 
 Defined in header `[<climits>](../header/climits.html "cpp/header/climits")`  
 ---  
 MB_LEN_MAX |  maximum number of bytes in a multibyte character   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/dsc_MB_LEN_MAX&action=edit)  
+(macro constant)   
 Defined in header `[<cstdlib>](../header/cstdlib.html "cpp/header/cstdlib")`  
 MB_CUR_MAX |  maximum number of bytes in a multibyte character in the current C locale  
-(macro variable)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/dsc_MB_CUR_MAX&action=edit)  
+(macro variable)  
 Defined in header `[<cuchar>](../header/cuchar.html "cpp/header/cuchar")`  
 __STDC_UTF_16__(C++11) |  indicates that UTF-16 encoding is used by mbrtoc16 and c16rtomb   
 (macro constant)  
 __STDC_UTF_32__(C++11) |  indicates that UTF-32 encoding is used by mbrtoc32 and c32rtomb   
 (macro constant)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/multibyte&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [C documentation](../../c/string/multibyte.html "c/string/multibyte") for Null-terminated multibyte strings  
 ---

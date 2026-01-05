@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::year_month_day_last`](../year_month_day_last.html "cpp/chrono/year month day last")
 
@@ -120,7 +120,7 @@ Helper classes
 [formatter<std::chrono::year_month_day_last>](formatter.html "cpp/chrono/year month day last/formatter")  
 [hash<std::chrono::year_month_day_last>](hash.html "cpp/chrono/year month day last/hash")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/year_month_day_last/navbar_content&action=edit)
+
 
 Defined in header `[<chrono>](../../header/chrono.html "cpp/header/chrono")` |  |   
 ---|---|---  
@@ -154,7 +154,7 @@ const [std::chrono::years](../duration.html)& dy ) noexcept; |  |  (since C++20)
 
 For durations that are convertible to both std::chrono::years and std::chrono::months, the `years` overloads (3,4,6) are preferred if the call would otherwise be ambiguous. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/year_month_day_last/operator_arith_2&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
 Run this code
     

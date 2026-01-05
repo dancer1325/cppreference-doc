@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 Defined in header `[<chrono>](../header/chrono.html "cpp/header/chrono")` |  |   
 ---|---|---  
@@ -154,19 +154,19 @@ If the program adds specializations for `std::is_clock` or `std::is_clock_v`, th
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/is_clock&action=edit&section=1 "Edit section: Template parameters")] Template parameters
+### Template parameters
 
 T  |  \-  |  a type to check   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/is_clock&action=edit&section=2 "Edit section: Helper variable template")] Helper variable template
+### Helper variable template
 
 template< class T >  
 constexpr bool is_clock_v = is_clock<T>::value; |  |  (since C++20)  
 ---|---|---  
 | |   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/integral_constant/inherit2&action=edit)
+
 
 ##  Inherited from [ std::integral_constant](../types/integral_constant.html "cpp/types/integral constant")
 
@@ -191,7 +191,7 @@ Type  |  Definition
 `value_type` |  bool  
 `type` |  [std::integral_constant](../types/integral_constant.html)<bool, value>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/is_clock&action=edit&section=3 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     template<class>
@@ -212,11 +212,11 @@ Type  |  Definition
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/is_clock&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 If `T` otherwise meets the [Clock](../named_req/Clock.html "cpp/named req/Clock") requirements, but `T::is_steady` is not of type const bool, or `T::now()` is not of type T::time_point, the result of `is_clock_v<T>` is unspecified. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/is_clock&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     

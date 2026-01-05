@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Strings library](../../string.html "cpp/string")
 
@@ -40,7 +40,7 @@ Classes
 [basic_string_view](../basic_string_view.html "cpp/string/basic string view")(C++17)  
 [char_traits](../char_traits.html "cpp/string/char traits")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/navbar_content&action=edit)
+
 
 [`std::basic_string_view`](../basic_string_view.html "cpp/string/basic string view")
 
@@ -92,7 +92,7 @@ Constants
 [hash<std::string_view>hash<std::wstring_view>hash<std::u8string_view>hash<std::u16string_view>hash<std::u32string_view>](hash.html "cpp/string/basic string view/hash")(C++20)  
 [Deduction guides](deduction_guides.html "cpp/string/basic string view/deduction guides") (C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/navbar_content&action=edit)
+
 
 constexpr const_pointer data() const noexcept; |  |  (since C++17)  
 ---|---|---  
@@ -112,23 +112,23 @@ Returns a pointer to the underlying character array. The pointer is such that th
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string_view/data&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string_view/data&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 A pointer to the underlying character array. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string_view/data&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Constant. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string_view/data&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 Unlike [std::basic_string::data()](../basic_string/data.html "cpp/string/basic string/data") and string literals, `std::basic_string_view::data()` returns a pointer to a buffer that is not necessarily null-terminated, for example a substring view (e.g. from [`remove_suffix`](remove_suffix.html "cpp/string/basic string view/remove suffix")). Therefore, it is typically a mistake to pass `data()` to a routine that takes just a const CharT* and expects a null-terminated string. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string_view/data&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -161,12 +161,12 @@ Output:
     5
     3
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string_view/data&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ front](front.html "cpp/string/basic string view/front") |  accesses the first character   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/dsc_front&action=edit)  
+(public member function)   
 ---|---  
 [ back](back.html "cpp/string/basic string view/back") |  accesses the last character   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/dsc_back&action=edit)  
+(public member function)   
 [ data](../basic_string/data.html "cpp/string/basic string/data") |  returns a pointer to the first character of a string   
-(public member function of `std::basic_string<CharT,Traits,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_data&action=edit)
+(public member function of `std::basic_string<CharT,Traits,Allocator>`) 

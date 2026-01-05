@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::packaged_task`](../packaged_task.html "cpp/thread/packaged task")
 
@@ -196,7 +196,7 @@ Helper classes
 [uses_allocator<std::packaged_task>](uses_allocator.html "cpp/thread/packaged task/uses allocator")(until C++17)  
 [Deduction guides](deduction_guides.html "cpp/thread/packaged task/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/packaged_task/navbar_content&action=edit)
+
 
 [std::future](../future.html)<R> get_future(); |  |  (since C++11)  
 ---|---|---  
@@ -206,15 +206,15 @@ Returns a `future` which shares the same shared state as *this.
 
 `get_future` can be called only once for each `packaged_task`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/packaged_task/get_future&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/packaged_task/get_future&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 A future which shares the same shared state as *this. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/packaged_task/get_future&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 [std::future_error](../future_error.html "cpp/thread/future error") on the following error conditions: 
 

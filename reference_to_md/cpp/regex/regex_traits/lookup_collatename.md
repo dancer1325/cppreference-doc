@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Regular expressions library](../../regex.html "cpp/regex")
 
@@ -81,7 +81,7 @@ Constants
 Regex Grammar  
 [Modified ECMAScript-262](../ecmascript.html "cpp/regex/ecmascript")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/navbar_content&action=edit)
+
 
 [`std::regex_traits`](../regex_traits.html "cpp/regex/regex traits")
 
@@ -100,7 +100,7 @@ Member functions
 [regex_traits::imbue](imbue.html "cpp/regex/regex traits/imbue")  
 [regex_traits::getloc](getloc.html "cpp/regex/regex traits/getloc")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/regex_traits/navbar_content&action=edit)
+
 
 template< class ForwardIt >  
 string_type lookup_collatename( ForwardIt first, ForwardIt last ) const; |  |   
@@ -111,18 +111,18 @@ If the character sequence `[`first`, `last`)` represents the name of a valid col
 
 Collating elements are the symbols found in POSIX regular expressions between `[.` and `.]`. For example, `[.a.]` matches the character `a` in the C locale. `[.tilde.]` matches the character `~` in the C locale as well. `[.ch.]` matches the digraph `ch` in Czech locale, but generates [std::regex_error](../regex_error.html "cpp/regex/regex error") with error code [std::regex_constants::error_collate](../error_type.html "cpp/regex/error type") in most other locales. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/regex_traits/lookup_collatename&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  a pair of iterators which determines the sequence of characters that represents a collating element name   
 ---|---|---  
 Type requirements   
 -`ForwardIt` must meet the requirements of [LegacyForwardIterator](../../named_req/ForwardIterator.html "cpp/named req/ForwardIterator").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/regex_traits/lookup_collatename&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The representation of the named collating element as a character string. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/regex_traits/lookup_collatename&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     

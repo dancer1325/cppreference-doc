@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](ranges/copy.html "cpp/algorithm/ra
 [uninitialized_default_construct_n](../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -350,7 +350,7 @@ If any of the following conditions is satisfied, the behavior is undefined:
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/stable_sort&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  the pair of iterators defining the [range](../iterator.html#Ranges "cpp/iterator") of elements to sort   
 ---|---|---  
@@ -362,7 +362,7 @@ Type requirements
 -`RandomIt` must meet the requirements of [LegacyRandomAccessIterator](../named_req/RandomAccessIterator.html "cpp/named req/RandomAccessIterator").   
 -`Compare` must meet the requirements of [Compare](../named_req/Compare.html "cpp/named req/Compare").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/stable_sort&action=edit&section=2 "Edit section: Complexity")] Complexity
+### Complexity
 
 Given \\(\scriptsize N\\)N as last - first: 
 
@@ -372,7 +372,7 @@ Given \\(\scriptsize N\\)N as last - first:
 3,4) \\(\scriptsize O(N \cdot \log(N))\\)O(N·log(N)) applications of the comparator comp if enough extra memory is available, otherwise \\(\scriptsize O(N \cdot \log^{2}(N))\\)O(N·log2  
 (N)) applications.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/stable_sort&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 The overloads with a template parameter named `ExecutionPolicy` report errors as follows: 
 
@@ -381,11 +381,11 @@ The overloads with a template parameter named `ExecutionPolicy` report errors as
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/stable_sort&action=edit&section=4 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
 
 See also the implementations in [libstdc++](https://github.com/gcc-mirror/gcc/blob/d9375e490072d1aae73a93949aa158fcd2a27018/libstdc%2B%2B-v3/include/bits/stl_algo.h#L4977) and [libc++](https://github.com/llvm-mirror/libcxx/blob/a12cb9d211019d99b5875b6d8034617cbc24c2cc/include/algorithm#L4696). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/stable_sort&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 This function attempts to allocate a temporary buffer equal in size to the sequence to be sorted. If the allocation fails, the less efficient algorithm is chosen. 
 
@@ -393,7 +393,7 @@ This function attempts to allocate a temporary buffer equal in size to the seque
 ---|---|---|---  
 [`__cpp_lib_constexpr_algorithms`](../experimental/feature_test.html#cpp_lib_constexpr_algorithms "cpp/feature test") | [`202306L`](../compiler_support/26.html#cpp_lib_constexpr_algorithms_202306L "cpp/compiler support/26") | (C++26) | constexpr stable sorting, overloads ([1](stable_sort.html#Version_1)), ([3](stable_sort.html#Version_3))  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/stable_sort&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -442,16 +442,16 @@ Output:
     108, Zaphod
     108, Ford
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/stable_sort&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ sort](sort.html "cpp/algorithm/sort") |  sorts a range into ascending order   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_sort&action=edit)  
+(function template)   
 ---|---  
 [ partial_sort](partial_sort.html "cpp/algorithm/partial sort") |  sorts the first N elements of a range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_partial_sort&action=edit)  
+(function template)   
 [ stable_partition](stable_partition.html "cpp/algorithm/stable partition") |  divides elements into two groups while preserving their relative order   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_stable_partition&action=edit)  
+(function template)   
 [ ranges::stable_sort](ranges/stable_sort.html "cpp/algorithm/ranges/stable sort")(C++20) |  sorts a range of elements while preserving order between equal elements  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_stable_sort&action=edit)
+(algorithm function object)
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

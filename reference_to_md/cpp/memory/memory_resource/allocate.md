@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::pmr::memory_resource`](../memory_resource.html "cpp/memory/memory resource")
 
@@ -201,7 +201,7 @@ Private member functions
 Non-member functions  
 [operator==operator!=](operator_eq.html "cpp/memory/memory resource/operator eq")(until C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/memory_resource/navbar_content&action=edit)
+
 
 void* allocate( [std::size_t](../../types/size_t.html) bytes,  
 [std::size_t](../../types/size_t.html) alignment = alignof([std::max_align_t](../../types/max_align_t.html)) ); |  |  (since C++17)  
@@ -212,11 +212,11 @@ Allocates storage with a size of at least bytes bytes, aligned to the specified 
 
 Equivalent to return do_allocate(bytes, alignment);. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/memory_resource/allocate&action=edit&section=1 "Edit section: Exceptions")] Exceptions 
+### Exceptions 
 
 Throws an exception if storage of the requested size and alignment cannot be obtained. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/memory_resource/allocate&action=edit&section=2 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -224,8 +224,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 2843](https://cplusplus.github.io/LWG/issue2843) | C++17  | over-alignment was allowed to be unsupported  | alignment must be honoured   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/memory_resource/allocate&action=edit&section=3 "Edit section: See also")] See also 
+### See also 
 
 [ do_allocate](do_allocate.html "cpp/memory/memory resource/do allocate")[virtual] |  allocates memory  
-(virtual private member function)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/memory_resource/dsc_do_allocate&action=edit)  
+(virtual private member function)  
 ---|---

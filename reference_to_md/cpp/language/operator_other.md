@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Expressions](expressions.html "cpp/language/expressions")
 
@@ -289,7 +289,7 @@ Conversions
 [`dynamic_cast`](dynamic_cast.html "cpp/language/dynamic cast")  
 [`reinterpret_cast`](reinterpret_cast.html "cpp/language/reinterpret cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/expressions/navbar_content&action=edit)
+
 
 Operator  
 name  | Syntax  | [Over​load​able](operators.html "cpp/language/operators") | Prototype examples (for class T)   
@@ -322,7 +322,7 @@ The _conditional operator_ (colloquially referred to as _ternary conditional_ �
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_other&action=edit&section=1 "Edit section: Built-in function call operator")] Built-in function call operator
+### Built-in function call operator
 
 Function call expressions have the following form:   
   
@@ -404,7 +404,7 @@ Output:
     function called
     7.000000
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_other&action=edit&section=2 "Edit section: Built-in comma operator")] Built-in comma operator
+### Built-in comma operator
 
 Comma expressions have the following form:   
   
@@ -467,7 +467,7 @@ Output:
     n = 2
     m = 7
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_other&action=edit&section=3 "Edit section: Conditional operator")] Conditional operator
+### Conditional operator
 
 The conditional operator expressions have the form   
   
@@ -478,7 +478,7 @@ E1 is evaluated and [contextually converted](implicit_cast.html "cpp/language/im
 
 The type and value category of the conditional expression E1 ? E2 : E3 are determined as follows: 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_other&action=edit&section=4 "Edit section: Stage 1")] Stage 1
+#### Stage 1
 
 If both E2 and E3 are of type void, the result is an rvalue(until C++11)a prvalue(since C++11) of type void. 
 
@@ -497,7 +497,7 @@ If neither of E2 and E3 is of type void, proceed to the next stage.
     2 + 2 != 4 ? "OK" : throw "error";  // the result is of type “const char[3]”
                                         // even if an exception is always thrown
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_other&action=edit&section=5 "Edit section: Stage 2")] Stage 2
+#### Stage 2
 
 If E2 or E3 are lvalue bit-fields(until C++11)glvalue bit-fields of the same value category(since C++11) and of types _cv1_ `T` and _cv2_ `T`, respectively, the operands are considered to be of type _cv_ `T` for the remaining process, where _cv_ is the union of _cv1_ and _cv2_. 
 
@@ -510,7 +510,7 @@ If E2 and E3 have different types, and any of the following conditions is satisf
 
 Otherwise, proceed to stage 4. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_other&action=edit&section=6 "Edit section: Stage 3")] Stage 3
+#### Stage 3
 
 Attempts are made to form an [implicit conversion sequence](implicit_cast.html "cpp/language/implicit conversion")[[2]](operator_other.html#cite_note-2) from an operand expression X of type `TX` to a _target type_ related to the type `TY` of the operand expression Y as follows: 
 
@@ -552,7 +552,7 @@ Using this process, it is determined whether an implicit conversion sequence can
      
     A a = true ? A() : T(); // Y = A(), TY = A, X = T(), TX = const B, Target = const A
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_other&action=edit&section=7 "Edit section: Stage 4")] Stage 4
+#### Stage 4
 
 If E2 and E3 are lvalues of the same type, then the result is an lvalue of that type, and is a bit-field if at least one of E2 and E3 is a bit-field.  | (until C++11)  
 ---|---  
@@ -565,7 +565,7 @@ Otherwise, the result is an rvalue(until C++11)a prvalue(since C++11).
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_other&action=edit&section=8 "Edit section: Stage 5")] Stage 5
+#### Stage 5
 
 [Overload resolution](overload_resolution.html "cpp/language/overload resolution") is performed using the [built-in candidates](operator_other.html#Overloads) to attempt to convert the operands to built-in types: 
 
@@ -574,7 +574,7 @@ Otherwise, the result is an rvalue(until C++11)a prvalue(since C++11).
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_other&action=edit&section=9 "Edit section: Stage 6")] Stage 6
+#### Stage 6
 
 The array-to-pointer and function-to-pointer conversions are applied to (possibly-converted) E2 and E3. After those conversions, at least one of the following conditions must hold, otherwise the program is ill-formed: 
 
@@ -616,7 +616,7 @@ The array-to-pointer and function-to-pointer conversions are applied to (possibl
 The result type of a conditional operator is also accessible as the binary type trait [std::common_type](../types/common_type.html "cpp/types/common type").  | (since C++11)  
 ---|---  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_other&action=edit&section=10 "Edit section: Overloads")] Overloads
+#### Overloads
 
 For every pair of promoted arithmetic types `L` and `R` and for every type `P`, where `P` is a pointer, pointer-to-member, or scoped enumeration type, the following function signatures participate in overload resolution: 
 
@@ -670,79 +670,79 @@ Output:
     n = 11
     m = 7
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_other&action=edit&section=11 "Edit section: Standard library")] Standard library
+### Standard library
 
 Many classes in the standard library overload `operator()` to be used as function objects. 
 
 [ operator()](../memory/default_delete.html "cpp/memory/default delete") |  deletes the object or array   
-(public member function of `std::default_delete<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/default_delete/dsc_operator\(\)&action=edit)  
+(public member function of `std::default_delete<T>`) &action=edit)  
 ---|---  
 [ operator()](../utility/functional/plus.html "cpp/utility/functional/plus") |  returns the sum of two arguments   
-(public member function of `std::plus<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/plus/dsc_operator\(\)&action=edit)  
+(public member function of `std::plus<T>`) &action=edit)  
 [ operator()](../utility/functional/minus.html "cpp/utility/functional/minus") |  returns the difference between two arguments   
-(public member function of `std::minus<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/minus/dsc_operator\(\)&action=edit)  
+(public member function of `std::minus<T>`) &action=edit)  
 [ operator()](../utility/functional/multiplies.html "cpp/utility/functional/multiplies") |  returns the product of two arguments   
-(public member function of `std::multiplies<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/multiplies/dsc_operator\(\)&action=edit)  
+(public member function of `std::multiplies<T>`) &action=edit)  
 [ operator()](../utility/functional/divides.html "cpp/utility/functional/divides") |  returns the result of the division of the first argument by the second argument   
-(public member function of `std::divides<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/divides/dsc_operator\(\)&action=edit)  
+(public member function of `std::divides<T>`) &action=edit)  
 [ operator()](../utility/functional/modulus.html "cpp/utility/functional/modulus") |  returns the remainder from the division of the first argument by the second argument   
-(public member function of `std::modulus<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/modulus/dsc_operator\(\)&action=edit)  
+(public member function of `std::modulus<T>`) &action=edit)  
 [ operator()](../utility/functional/negate.html "cpp/utility/functional/negate") |  returns the negation of the argument   
-(public member function of `std::negate<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/negate/dsc_operator\(\)&action=edit)  
+(public member function of `std::negate<T>`) &action=edit)  
 [ operator()](../utility/functional/equal_to.html "cpp/utility/functional/equal to") |  checks if the arguments are equal   
-(public member function of `std::equal_to<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/equal_to/dsc_operator\(\)&action=edit)  
+(public member function of `std::equal_to<T>`) &action=edit)  
 [ operator()](../utility/functional/not_equal_to.html "cpp/utility/functional/not equal to") |  checks if the arguments are not equal   
-(public member function of `std::not_equal_to<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/not_equal_to/dsc_operator\(\)&action=edit)  
+(public member function of `std::not_equal_to<T>`) &action=edit)  
 [ operator()](../utility/functional/greater.html "cpp/utility/functional/greater") |  checks if the first argument is greater than the second   
-(public member function of `std::greater<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/greater/dsc_operator\(\)&action=edit)  
+(public member function of `std::greater<T>`) &action=edit)  
 [ operator()](../utility/functional/less.html "cpp/utility/functional/less") |  checks if the first argument is less than the second   
-(public member function of `std::less<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/less/dsc_operator\(\)&action=edit)  
+(public member function of `std::less<T>`) &action=edit)  
 [ operator()](../utility/functional/greater_equal.html "cpp/utility/functional/greater equal") |  checks if the first argument is greater than or equal to the second   
-(public member function of `std::greater_equal<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/greater_equal/dsc_operator\(\)&action=edit)  
+(public member function of `std::greater_equal<T>`) &action=edit)  
 [ operator()](../utility/functional/less_equal.html "cpp/utility/functional/less equal") |  checks if the first argument is less than or equal to the second   
-(public member function of `std::less_equal<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/less_equal/dsc_operator\(\)&action=edit)  
+(public member function of `std::less_equal<T>`) &action=edit)  
 [ operator()](../utility/functional/logical_and.html "cpp/utility/functional/logical and") |  returns the logical AND of the two arguments   
-(public member function of `std::logical_and<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/logical_and/dsc_operator\(\)&action=edit)  
+(public member function of `std::logical_and<T>`) &action=edit)  
 [ operator()](../utility/functional/logical_or.html "cpp/utility/functional/logical or") |  returns the logical OR of the two arguments   
-(public member function of `std::logical_or<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/logical_or/dsc_operator\(\)&action=edit)  
+(public member function of `std::logical_or<T>`) &action=edit)  
 [ operator()](../utility/functional/logical_not.html "cpp/utility/functional/logical not") |  returns the logical NOT of the argument   
-(public member function of `std::logical_not<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/logical_not/dsc_operator\(\)&action=edit)  
+(public member function of `std::logical_not<T>`) &action=edit)  
 [ operator()](../utility/functional/bit_and.html "cpp/utility/functional/bit and") |  returns the result of bitwise AND of two arguments   
-(public member function of `std::bit_and<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/bit_and/dsc_operator\(\)&action=edit)  
+(public member function of `std::bit_and<T>`) &action=edit)  
 [ operator()](../utility/functional/bit_or.html "cpp/utility/functional/bit or") |  returns the result of bitwise OR of two arguments   
-(public member function of `std::bit_or<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/bit_or/dsc_operator\(\)&action=edit)  
+(public member function of `std::bit_or<T>`) &action=edit)  
 [ operator()](../utility/functional/bit_xor.html "cpp/utility/functional/bit xor") |  returns the result of bitwise XOR of two arguments   
-(public member function of `std::bit_xor<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/bit_xor/dsc_operator\(\)&action=edit)  
+(public member function of `std::bit_xor<T>`) &action=edit)  
 [ operator()](../utility/functional/unary_negate.html "cpp/utility/functional/unary negate") |  returns the logical complement of the result of a call to the stored predicate   
-(public member function of `std::unary_negate<Predicate>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/unary_negate/dsc_operator\(\)&action=edit)  
+(public member function of `std::unary_negate<Predicate>`) &action=edit)  
 [ operator()](../utility/functional/binary_negate.html "cpp/utility/functional/binary negate") |  returns the logical complement of the result of a call to the stored predicate   
-(public member function of `std::binary_negate<Predicate>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/binary_negate/dsc_operator\(\)&action=edit)  
+(public member function of `std::binary_negate<Predicate>`) &action=edit)  
 [ operator()](../utility/functional/reference_wrapper/operator\(\).html "cpp/utility/functional/reference wrapper/operator\(\)") |  calls the stored function   
-(public member function of `std::reference_wrapper<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/reference_wrapper/dsc_operator\(\)&action=edit)  
+(public member function of `std::reference_wrapper<T>`) &action=edit)  
 [ operator()](../utility/functional/function/operator\(\).html "cpp/utility/functional/function/operator\(\)") |  invokes the target   
-(public member function of `std::function<R(Args...)>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/function/dsc_operator\(\)&action=edit)  
+(public member function of `std::function<R(Args...)>`) &action=edit)  
 [ operator()](../utility/functional/move_only_function/operator\(\).html "cpp/utility/functional/move only function/operator\(\)") |  invokes the target   
-(public member function of `std::move_only_function`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/move_only_function/dsc_operator\(\)&action=edit)  
+(public member function of `std::move_only_function`) &action=edit)  
 [ operator()](../utility/functional/copyable_function/operator\(\).html "cpp/utility/functional/copyable function/operator\(\)") |  invokes the target   
-(public member function of `std::copyable_function`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/copyable_function/dsc_operator\(\)&action=edit)  
+(public member function of `std::copyable_function`) &action=edit)  
 [ operator()](https://en.cppreference.com/mwiki/index.php?title=cpp/coroutine/coroutine_handle/operator\(\)&action=edit&redlink=1 "cpp/coroutine/coroutine handle/operator\(\) \(page does not exist\)") |  resumes execution of the coroutine   
-(public member function of `std::coroutine_handle<Promise>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/coroutine/coroutine_handle/dsc_operator\(\)&action=edit)  
+(public member function of `std::coroutine_handle<Promise>`) &action=edit)  
 [ operator()](../locale/locale/operator\(\).html "cpp/locale/locale/operator\(\)") |  lexicographically compares two strings using this locale's collate facet   
-(public member function of `std::locale`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/locale/dsc_operator\(\)&action=edit)  
+(public member function of `std::locale`) &action=edit)  
 [ operator()](../container/map/value_compare.html "cpp/container/map/value compare") |  compares two values of type `value_type`   
-(public member function of `std::map<Key,T,Compare,Allocator>::value_compare`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/value_compare/dsc_operator\(\)&action=edit)  
+(public member function of `std::map<Key,T,Compare,Allocator>::value_compare`) &action=edit)  
 [ operator()](../container/multimap/value_compare.html "cpp/container/multimap/value compare") |  compares two values of type `value_type`   
-(public member function of `std::multimap<Key,T,Compare,Allocator>::value_compare`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/value_compare/dsc_operator\(\)&action=edit)  
+(public member function of `std::multimap<Key,T,Compare,Allocator>::value_compare`) &action=edit)  
 [ operator()](../thread/packaged_task/operator\(\).html "cpp/thread/packaged task/operator\(\)") |  executes the function   
-(public member function of `std::packaged_task<R(Args...)>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/packaged_task/dsc_operator\(\)&action=edit)  
+(public member function of `std::packaged_task<R(Args...)>`) &action=edit)  
 [ operator()](../numeric/random/linear_congruential_engine/operator\(\).html "cpp/numeric/random/linear congruential engine/operator\(\)") |  advances the engine's state and returns the generated value   
-(public member function of `std::linear_congruential_engine<UIntType,a,c,m>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/engine/dsc_operator\(\)&action=edit)  
+(public member function of `std::linear_congruential_engine<UIntType,a,c,m>`) &action=edit)  
 [ operator()](../numeric/random/uniform_int_distribution/operator\(\).html "cpp/numeric/random/uniform int distribution/operator\(\)")(C++11) |  generates the next random number in the distribution   
-(public member function of `std::uniform_int_distribution<IntType>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/distribution/dsc_operator\(\)&action=edit)  
+(public member function of `std::uniform_int_distribution<IntType>`) &action=edit)  
   
 The comma operator is not overloaded by any class in the standard library. The boost library uses operator, in [boost.assign](https://www.boost.org/doc/libs/release/libs/assign/doc/index.html#intro), [boost.spirit](https://www.boost.org/doc/libs/release/libs/spirit/doc/html/index.html), and other libraries. The database access library [SOCI](https://soci.sourceforge.net/doc.html) also overloads operator,. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_other&action=edit&section=12 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -805,7 +805,7 @@ in the rvalue result case for the conditional operator  | only applied in some c
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_other&action=edit&section=13 "Edit section: See also")] See also
+### See also
 
 [Operator precedence](operator_precedence.html "cpp/language/operator precedence")  
 [Operator overloading](operators.html "cpp/language/operators")

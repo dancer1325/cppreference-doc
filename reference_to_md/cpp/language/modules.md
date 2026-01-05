@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Basic Concepts](basics.html "cpp/language/basic concepts")
 
@@ -249,7 +249,7 @@ Miscellaneous
 **Modules** (C++20)  
 [Contracts](contracts.html "cpp/language/contracts") (C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/basics/navbar_content&action=edit)
+
 
 Most C++ projects use multiple translation units, and so they need to share [declarations](declarations.html "cpp/language/declarations") and [definitions](definition.html "cpp/language/definition") across those units. The usage of [headers](../standard_library.html#Headers "cpp/standard library") is prominent for this purpose, an example being the [standard library](../standard_library.html "cpp/standard library") whose declarations can be provided by [including the corresponding header](../standard_library.html#Including_headers "cpp/standard library"). 
 
@@ -294,7 +294,7 @@ Modules are orthogonal to [namespaces](namespace.html "cpp/language/namespace").
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/modules&action=edit&section=1 "Edit section: Syntax")] Syntax   
+### Syntax   
   
 ---  
 `**export**`(optional) `**module**` module-name module-partition ﻿(optional) attr ﻿(optional) `**;**` |  (1)  |   
@@ -316,7 +316,7 @@ Modules are orthogonal to [namespaces](namespace.html "cpp/language/namespace").
 
 8) Starts a [private module fragment](modules.html#Private_module_fragment).
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/modules&action=edit&section=2 "Edit section: Module declarations")] Module declarations
+### Module declarations
 
 A translation unit may have a module declaration, in which case it is considered a _module unit_. The _module declaration_ , if provided, must be the first declaration of the translation unit (excepted the _global module fragment_ , which is covered later on). Each module unit is associated to a _module name_ (and optionally a partition), provided in the module declaration.   
   
@@ -342,7 +342,7 @@ For every named module, there must be exactly one module interface unit that spe
     export module A.B; // declares the primary module interface unit for named module 'A.B'
     module A.B;        // declares a module implementation unit for named module 'A.B'
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/modules&action=edit&section=3 "Edit section: Exporting declarations and definitions")] Exporting declarations and definitions
+### Exporting declarations and definitions
 
 Module interface units can export declarations (including definitions), which can be imported by other translation units. To export a declaration, either prefix it with the export keyword, or else place it inside an export block.   
   
@@ -373,7 +373,7 @@ Module interface units can export declarations (including definitions), which ca
         char const* french()  { return "Salut!"; }
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/modules&action=edit&section=4 "Edit section: Importing modules and header units")] Importing modules and header units
+### Importing modules and header units
 
 Modules are imported via an _import declaration_ :   
   
@@ -438,7 +438,7 @@ However, contrary to #include, preprocessing macros already defined at the point
         print(message);
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/modules&action=edit&section=5 "Edit section: Global module fragment")] Global module fragment
+### Global module fragment
 
 Module units can be prefixed by a _global module fragment_ , which can be used to include headers when importing the headers is not possible (notably when the header uses preprocessing macros as configuration).   
   
@@ -483,7 +483,7 @@ If a module-unit has a global module fragment, then its first declaration must b
         [std::cout](../io/cout.html) << "Random value between 0 and 1: " << weak_random() << '\n';
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/modules&action=edit&section=6 "Edit section: Private module fragment")] Private module fragment
+### Private module fragment
 
 Primary module interface unit can be suffixed by a _private module fragment_ , which allows a module to be represented as a single translation unit without making all of the contents of the module reachable to importers.   
   
@@ -506,7 +506,7 @@ _Private module fragment_ ends the portion of the module interface unit that can
         return 42;
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/modules&action=edit&section=7 "Edit section: Module partitions")] Module partitions
+### Module partitions
 
 A module can have _module partition units_. They are module units whose module declarations include a module partition, which starts with a colon `**:**` and is placed after the module name. 
     
@@ -583,7 +583,7 @@ Module partitions can be module interface units (when their module declarations 
         // WorldImpl(); // ERROR: WorldImpl() is not visible.
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/modules&action=edit&section=8 "Edit section: Module ownership")] Module ownership
+### Module ownership
 
 In general, if a declaration appears after the module declaration in a module unit, it is _attached to_ that module. 
 
@@ -645,18 +645,18 @@ The following declarations are not attached to any named module (and thus the de
     // ns::h must be defined in lib_A, but ns::f and ns::g can be defined elsewhere (e.g.
     // in a traditional source file).
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/modules&action=edit&section=9 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../utility/feature_test.html "cpp/utility/feature test") macro  | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_modules`](../experimental/feature_test.html#cpp_modules "cpp/feature test") | [`201907L`](../compiler_support/20.html#cpp_modules_201907L "cpp/compiler support/20") | (C++20) | Modules — core language support   
 [`__cpp_lib_modules`](../experimental/feature_test.html#cpp_lib_modules "cpp/feature test") | [`202207L`](../compiler_support/23.html#cpp_lib_modules_202207L "cpp/compiler support/23") | (C++23) | [Standard library modules](../standard_library.html#Importing_modules "cpp/standard library") std and std.compat  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/modules&action=edit&section=10 "Edit section: Keywords")] Keywords
+### Keywords
 
 [`private`](../keyword/private.html "cpp/keyword/private"), [`module`](../identifier_with_special_meaning/module.html "cpp/identifier with special meaning/module"), [`import`](../identifier_with_special_meaning/import.html "cpp/identifier with special meaning/import"), [`export`](../keyword/export.html "cpp/keyword/export")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/modules&action=edit&section=11 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::weak_ptr`](../weak_ptr.html "cpp/memory/weak ptr")
 
@@ -209,7 +209,7 @@ Helper classes
 [atomic<std::weak_ptr>](atomic2.html "cpp/memory/weak ptr/atomic2")(C++20)  
 [Deduction guides](deduction_guides.html "cpp/memory/weak ptr/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/weak_ptr/navbar_content&action=edit)
+
 
 [std::shared_ptr](../shared_ptr.html)<T> lock() const noexcept; |  |  (since C++11)  
 ---|---|---  
@@ -230,15 +230,15 @@ Effectively returns expired() ? shared_ptr<T>() : shared_ptr<T>(*this), executed
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/weak_ptr/lock&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 A `shared_ptr` which shares ownership of the owned object if [std::weak_ptr::expired](expired.html "cpp/memory/weak ptr/expired") returns false. Else returns default-constructed `shared_ptr` of type `T`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/weak_ptr/lock&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 Both this function and the constructor of [std::shared_ptr](../shared_ptr.html "cpp/memory/shared ptr") may be used to acquire temporary ownership of the managed object referred to by a `std::weak_ptr`. The difference is that the constructor of [std::shared_ptr](../shared_ptr.html "cpp/memory/shared ptr") throws an exception when its `std::weak_ptr` argument is empty, while std::weak_ptr<T>::lock() constructs an empty std::shared_ptr<T>. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/weak_ptr/lock&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -281,7 +281,7 @@ Output:
     shared_ptr<> has been destructed due to scope exit
             observe() is unable to lock weak_ptr<>
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/weak_ptr/lock&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -289,8 +289,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 2316](https://cplusplus.github.io/LWG/issue2316) | C++11  | lock() was not required to be atomic, but required to be noexcept, which led to a contradiction  | specified to be atomic   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/weak_ptr/lock&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ expired](expired.html "cpp/memory/weak ptr/expired") |  checks whether the referenced object was already deleted   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/weak_ptr/dsc_expired&action=edit)  
+(public member function)   
 ---|---

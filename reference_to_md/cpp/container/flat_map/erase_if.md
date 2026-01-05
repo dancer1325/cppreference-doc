@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::flat_map`](../flat_map.html "cpp/container/flat map")
 
@@ -143,7 +143,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/flat map/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/flat_map/navbar_content&action=edit)
+
 
 Defined in header `[<flat_map>](../../header/flat_map.html "cpp/header/flat map")` |  |   
 ---|---|---  
@@ -176,17 +176,17 @@ If `Key` or `T` is not [MoveAssignable](../../named_req/MoveAssignable.html "cpp
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/erase_if&action=edit&section=T-1 "Template:cpp/container/erase if")] Parameters
+### Parameters
 
 c  |  \-  |  container adaptor from which to erase   
 ---|---|---  
 pred  |  \-  |  predicate that returns true if the element should be erased   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/erase_if&action=edit&section=T-2 "Template:cpp/container/erase if")] Return value
+### Return value
 
 The number of erased elements. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/erase_if&action=edit&section=T-3 "Template:cpp/container/erase if")] Complexity
+### Complexity
 
 Exactly c.size() applications of the predicate pred. 
 
@@ -198,7 +198,7 @@ If `erase_if` throws, c remains in valid but unspecified (maybe empty) state.
 
 The algorithm is stable, that is, the order of elements that are not deleted remains unchanged. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/erase_if&action=edit&section=T-6 "Template:cpp/container/erase if")] Example
+### Example
 
 Run this code
     
@@ -242,10 +242,10 @@ Output:
     {{2, b}, {4, d}}
     3 items removed.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/erase_if&action=edit&section=T-7 "Template:cpp/container/erase if")] See also
+### See also
 
 [ removeremove_if](../../algorithm/remove.html "cpp/algorithm/remove") |  removes elements satisfying specific criteria   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_remove&action=edit)  
+(function template)   
 ---|---  
 [ ranges::removeranges::remove_if](../../algorithm/ranges/remove.html "cpp/algorithm/ranges/remove")(C++20)(C++20) |  removes elements satisfying specific criteria  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_remove&action=edit)
+(algorithm function object)

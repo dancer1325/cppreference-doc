@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Null-terminated wide strings](../wide.html "cpp/string/wide")
 
@@ -153,7 +153,7 @@
 WCHAR_MAX  
 WEOF](../wide.html#Macros "cpp/string/wide")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/navbar_content&action=edit)
+
 
 Defined in header `[<cinttypes>](../../header/cinttypes.html "cpp/header/cinttypes")` |  |   
 ---|---|---  
@@ -192,18 +192,18 @@ The functions sets the pointer pointed to by endptr to point to the wide charact
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/wcstoimax&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 nptr  |  \-  |  pointer to the null-terminated wide string to be interpreted   
 ---|---|---  
 endptr  |  \-  |  pointer to a pointer to a wide character   
 base  |  \-  |  _base_ of the interpreted integer value   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/wcstoimax&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Integer value corresponding to the contents of str on success. If the converted value falls out of range of corresponding return type, range error occurs and [INTMAX_MAX](../../types/integer.html "cpp/types/integer"), [INTMAX_MIN](../../types/integer.html "cpp/types/integer"), [UINTMAX_MAX](../../types/integer.html "cpp/types/integer"), or ​0​ is returned, as appropriate. If no conversion can be performed, ​0​ is returned. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/wcstoimax&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -231,13 +231,13 @@ Output:
     helloworld in base 36 is 1767707668033969 in base 10
     helloworld in base 30 is invalid. The first invalid digit is w
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/wcstoimax&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ strtoimaxstrtoumax](../byte/strtoimax.html "cpp/string/byte/strtoimax")(C++11)(C++11) |  converts a byte string to [std::intmax_t](../../types/integer.html "cpp/types/integer") or [std::uintmax_t](../../types/integer.html "cpp/types/integer")   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strtoimax&action=edit)  
+(function)   
 ---|---  
 [ wcstolwcstoll](wcstol.html "cpp/string/wide/wcstol") |  converts a wide string to an integer value   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wcstol&action=edit)  
+(function)   
 [ wcstoulwcstoull](wcstoul.html "cpp/string/wide/wcstoul") |  converts a wide string to an unsigned integer value   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wcstoul&action=edit)  
+(function)   
 [C documentation](../../../c/string/wide/wcstoimax.html "c/string/wide/wcstoimax") for wcstoimax, wcstoumax

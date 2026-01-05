@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Program support utilities](program.html "cpp/utility/program")
 
@@ -181,7 +181,7 @@ Common vocabulary types
 [Types](program.html#Types "cpp/utility/program")  
 [jmp_buf](program/jmp_buf.html "cpp/utility/program/jmp buf")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/program/navbar_content&action=edit)
+
 
 Defined in header `[<utility>](../header/utility.html "cpp/header/utility")` |  |   
 ---|---|---  
@@ -203,13 +203,13 @@ An implementation may use this to optimize impossible code branches away (typica
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/unreachable&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](feature_test.html "cpp/utility/feature test") macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_unreachable`](../experimental/feature_test.html#cpp_lib_unreachable "cpp/feature test") | [`202202L`](../compiler_support/23.html#cpp_lib_unreachable_202202L "cpp/compiler support/23") | (C++23) | `std::unreachable`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/unreachable&action=edit&section=2 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     [[noreturn]] inline void unreachable()
@@ -226,7 +226,7 @@ An implementation may use this to optimize impossible code branches away (typica
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/unreachable&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -268,16 +268,16 @@ Possible output:
     
     Segmentation fault
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/unreachable&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 `[[[assume](../language/attributes/assume.html "cpp/language/attributes/assume")(_expression_)]]`(C++23) |  specifies that the _expression_ will always evaluate to true at a given point  
-(attribute specifier)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/attributes/dsc_assume&action=edit)  
+(attribute specifier)  
 ---|---  
 [ assume_aligned](../memory/assume_aligned.html "cpp/memory/assume aligned")(C++20) |  informs the compiler that a pointer is aligned   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_assume_aligned&action=edit)  
+(function template)   
 [C documentation](../../c/program/unreachable.html "c/program/unreachable") for unreachable  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/unreachable&action=edit&section=5 "Edit section: External Links")] External Links
+### External Links
 
 1\.  | [GCC docs: `__builtin_unreachable`](https://gcc.gnu.org/onlinedocs/gcc/Other-Builtins.html#index-_005f_005fbuiltin_005funreachable)  
 ---|---  

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [Common mathematical functions](../math.html "cpp/numeric/math")
 
@@ -230,7 +230,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/navbar_content&action=edit)
+
 
 Defined in header `[<cmath>](../../header/cmath.html "cpp/header/cmath")` |  |   
 ---|---|---  
@@ -241,15 +241,15 @@ If the implementation supports floating-point infinities, the macro `INFINITY` e
 
 If the implementation does not support floating-point infinities, the macro `INFINITY` expands to a positive value that is guaranteed to overflow a float at compile time, and the use of this macro generates a compiler warning. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/INFINITY&action=edit&section=1 "Edit section: See also")] See also
+### See also
 
 [ isinf](isinf.html "cpp/numeric/math/isinf")(C++11) |  checks if the given number is infinite   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_isinf&action=edit)  
+(function)   
 ---|---  
 [ HUGE_VALFHUGE_VALHUGE_VALL](HUGE_VALL.html "cpp/numeric/math/HUGE VAL")(C++11)(C++11) |  indicates the overflow value for float, double and long double respectively   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_HUGE_VAL&action=edit)  
+(macro constant)   
 [ has_infinity](../../types/numeric_limits/has_infinity.html "cpp/types/numeric limits/has infinity")[static] |  identifies floating-point types that can represent the special value "positive infinity"   
-(public static member constant of `std::numeric_limits<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/dsc_has_infinity&action=edit)  
+(public static member constant of `std::numeric_limits<T>`)   
 [ infinity](../../types/numeric_limits/infinity.html "cpp/types/numeric limits/infinity")[static] |  returns the positive infinity value of the given floating-point type   
-(public static member function of `std::numeric_limits<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/dsc_infinity&action=edit)  
+(public static member function of `std::numeric_limits<T>`)   
 [C documentation](../../../c/numeric/math/INFINITY.html "c/numeric/math/INFINITY") for INFINITY

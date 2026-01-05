@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 ## Contents
 
@@ -238,7 +238,7 @@ Miscellaneous
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/extending_std&action=edit&section=1 "Edit section: Adding declarations to std")] Adding declarations to `std`
+### Adding declarations to `std`
 
 It is undefined behavior to add declarations or definitions to namespace `std` or to any namespace nested within `std`, with a few exceptions noted below. 
     
@@ -254,9 +254,9 @@ It is undefined behavior to add declarations or definitions to namespace `std` o
         }
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/extending_std&action=edit&section=2 "Edit section: Adding template specializations")] Adding template specializations
+### Adding template specializations
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/extending_std&action=edit&section=3 "Edit section: Class templates")] Class templates
+#### Class templates
 
 It is allowed to add template specializations for any standard library class template to the namespace `std` only if the declaration depends on at least one [program-defined type](type-id.html#Program-defined_type "cpp/language/type") and the specialization satisfies all requirements for the original template, except where such specializations are prohibited. 
     
@@ -313,7 +313,7 @@ It is undefined behavior to declare a full or partial specialization of any memb
 Reason: mini-example   
 ---|---  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/extending_std&action=edit&section=4 "Edit section: Function templates and member functions of templates")] Function templates and member functions of templates
+#### Function templates and member functions of templates
 
 It is allowed to add template specializations for any standard library function template to the namespace `std` only if the declaration depends on at least one [program-defined type](type-id.html#Program-defined_type "cpp/language/type") and the specialization satisfies all requirements for the original template, except where such specializations are prohibited.  | (until C++20)  
 ---|---  
@@ -334,7 +334,7 @@ It is undefined behavior to declare a full specialization of any member function
 Reason: mini-example   
 ---|---  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/extending_std&action=edit&section=5 "Edit section: Variable templates")] Variable templates
+#### Variable templates
 
 It is undefined behavior to declare a full or partial specialization of any standard library variable template, except where explicitly allowed.  | | This section is incomplete  
 Reason: mini-example   
@@ -349,7 +349,7 @@ Reason: mini-example
 ---|---  
 (since C++14)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/extending_std&action=edit&section=6 "Edit section: Explicit instantiation of templates")] Explicit instantiation of templates
+### Explicit instantiation of templates
 
 It is allowed to explicitly instantiate a class (since C++20)template defined in the standard library only if the declaration depends on the name of at least one [program-defined type](type-id.html#Program-defined_type "cpp/language/type") and the instantiation meets the standard library requirements for the original template. 
 
@@ -357,7 +357,7 @@ It is allowed to explicitly instantiate a class (since C++20)template defined in
 Reason: mini-example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/extending_std&action=edit&section=7 "Edit section: Other restrictions")] Other restrictions
+### Other restrictions
 
 The namespace `std` may not be declared as an [inline namespace](namespace.html#Inline_namespaces "cpp/language/namespace"). 
 
@@ -428,7 +428,7 @@ The behavior of a C++ program is unspecified (possibly ill-formed) if it explici
 | (since C++20)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/extending_std&action=edit&section=10 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

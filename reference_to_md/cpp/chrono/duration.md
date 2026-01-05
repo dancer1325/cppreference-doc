@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 **`std::chrono::duration`**
 
@@ -156,7 +156,7 @@ Helper classes
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/duration/navbar_content&action=edit)
+
 
 Defined in header `[<chrono>](../header/chrono.html "cpp/header/chrono")` |  |   
 ---|---|---  
@@ -187,58 +187,58 @@ The only data stored in a `duration` is a tick count of type `Rep`. If `Rep` is 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/duration&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Member type  |  Definition   
 ---|---  
 `rep` |  `Rep`, an arithmetic type, or a class emulating an arithmetic type, representing the number of ticks   
 `period` |  `Period`(until C++17)typename Period::type(since C++17), a [std::ratio](../numeric/ratio/ratio.html "cpp/numeric/ratio/ratio") representing the tick period (i.e. the number of second's fractions per tick)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/duration&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](duration/duration.html "cpp/chrono/duration/duration") |  constructs new duration   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/duration/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ operator=](duration/operator=.html "cpp/chrono/duration/operator=") |  assigns the contents   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/duration/dsc_operator%3D&action=edit)  
+(public member function)   
 [ count](duration/count.html "cpp/chrono/duration/count") |  returns the count of ticks   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/duration/dsc_count&action=edit)  
+(public member function)   
 [ zero](duration/zero.html "cpp/chrono/duration/zero")[static] |  returns the special duration value zero   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/duration/dsc_zero&action=edit)  
+(public static member function)   
 [ min](duration/min.html "cpp/chrono/duration/min")[static] |  returns the special duration value min   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/duration/dsc_min&action=edit)  
+(public static member function)   
 [ max](duration/max.html "cpp/chrono/duration/max")[static] |  returns the special duration value max   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/duration/dsc_max&action=edit)  
+(public static member function)   
 [ operator+operator-](duration/operator_arith.html "cpp/chrono/duration/operator arith") |  implements unary + and unary -   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/duration/dsc_operator_arith&action=edit)  
+(public member function)   
 [ operator++operator++(int)operator--operator--(int)](duration/operator_arith2.html "cpp/chrono/duration/operator arith2") |  increments or decrements the tick count   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/duration/dsc_operator_arith2&action=edit)  
+(public member function)   
 [ operator+=operator-=operator*=operator/=operator%=](duration/operator_arith3.html "cpp/chrono/duration/operator arith3") |  implements compound assignment between two durations   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/duration/dsc_operator_arith3&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/duration&action=edit&section=3 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ operator+operator-operator*operator/operator%](duration/operator_arith4.html "cpp/chrono/duration/operator arith4")(C++11) |  implements arithmetic operations with durations as arguments   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/duration/dsc_operator_arith4&action=edit)  
+(function template)   
 ---|---  
 [ operator==operator!=operator<operator<=operator>operator>=operator<=>](duration/operator_cmp.html "cpp/chrono/duration/operator cmp")(C++11)(C++11)(removed in C++20)(C++11)(C++11)(C++11)(C++11)(C++20) |  compares two durations   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/duration/dsc_operator_cmp&action=edit)  
+(function template)   
 [ duration_cast](duration/duration_cast.html "cpp/chrono/duration/duration cast")(C++11) |  converts a duration to another, with a different tick interval   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/duration/dsc_duration_cast&action=edit)  
+(function template)   
 [ floor(std::chrono::duration)](duration/floor.html "cpp/chrono/duration/floor")(C++17) |  converts a duration to another, rounding down   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/duration/dsc_floor&action=edit)  
+(function template)   
 [ ceil(std::chrono::duration)](duration/ceil.html "cpp/chrono/duration/ceil")(C++17) |  converts a duration to another, rounding up   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/duration/dsc_ceil&action=edit)  
+(function template)   
 [ round(std::chrono::duration)](duration/round.html "cpp/chrono/duration/round")(C++17) |  converts a duration to another, rounding to nearest, ties to even   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/duration/dsc_round&action=edit)  
+(function template)   
 [ abs(std::chrono::duration)](duration/abs.html "cpp/chrono/duration/abs")(C++17) |  obtains the absolute value of the duration   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/duration/dsc_abs&action=edit)  
+(function template)   
 [ operator<<](duration/operator_ltlt.html "cpp/chrono/duration/operator ltlt")(C++20) |  performs stream output on a `duration`   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/duration/dsc_operator_ltlt&action=edit)  
+(function template)   
 [ from_stream](duration/from_stream.html "cpp/chrono/duration/from stream")(C++20) |  parses a `duration` from a stream according to the provided format   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/duration/dsc_from_stream&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/duration&action=edit&section=4 "Edit section: Helper types")] Helper types
+### Helper types
 
 A type /* intXX */ used in the table below means a signed integer type of at least XX bits. 
 
@@ -260,21 +260,21 @@ Note: each of the predefined duration types up to `hours` covers a range of at l
 Each of the predefined duration types `days`, `weeks`, `months` and `years` covers a range of at least ±40000 years. `years` is equal to 365.2425 `days` (the average length of a Gregorian year). `months` is equal to 30.436875 `days` (exactly 1/12 of `years`).  | (since C++20)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/duration&action=edit&section=5 "Edit section: Helper classes")] Helper classes
+### Helper classes
 
 [ std::common_type<std::chrono::duration>](duration/common_type.html "cpp/chrono/duration/common type")(C++11) |  specializes the [std::common_type](../types/common_type.html "cpp/types/common type") trait   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/duration/dsc_common_type&action=edit)  
+(class template specialization)   
 ---|---  
 [ treat_as_floating_point](treat_as_floating_point.html "cpp/chrono/treat as floating point")(C++11) |  indicates that a duration is convertible to duration with different tick period   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_treat_as_floating_point&action=edit)  
+(class template)   
 [ duration_values](duration_values.html "cpp/chrono/duration values")(C++11) |  constructs zero, min, and max values of a tick count of given type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_duration_values&action=edit)  
+(class template)   
 [ std::formatter<std::chrono::duration>](duration/formatter.html "cpp/chrono/duration/formatter")(C++20) |  formatting support for `duration`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_formatter&action=edit)  
+(class template specialization)   
 [ std::hash<std::chrono::duration>](duration/hash.html "cpp/chrono/duration/hash")(C++26) |  hash support for **`std::chrono::duration`**   
 (class template specialization)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/duration&action=edit&section=6 "Edit section: Helper specializations")] Helper specializations
+### Helper specializations
 
 template< class Rep, class Period >  
 constexpr bool enable_nonlocking_formatter_optimization<chrono::duration<Rep, Period>>   
@@ -284,26 +284,26 @@ constexpr bool enable_nonlocking_formatter_optimization<chrono::duration<Rep, Pe
   
 This specialization of [`std::enable_nonlocking_formatter_optimization`](../utility/format/enable_nonlocking_formatter_optimization.html "cpp/utility/format/enable nonlocking formatter optimization") enables efficient implementation of [`std::print`](../io/print.html "cpp/io/print") and [`std::println`](../io/println.html "cpp/io/println") for printing a `chrono::duration` object when the template parameter `Rep` enables it. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/duration&action=edit&section=7 "Edit section: Literals")] Literals
+### Literals
 
 Defined in inline namespace `std::literals::chrono_literals`  
 ---  
 [ operator""h](operator""h.html "cpp/chrono/operator""h")(C++14) |  a **std::chrono::duration** literal representing hours   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_operator%22%22h&action=edit)  
+(function)   
 [ operator""min](operator""min.html "cpp/chrono/operator""min")(C++14) |  a **std::chrono::duration** literal representing minutes   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_operator%22%22min&action=edit)  
+(function)   
 [ operator""s](operator""s.html "cpp/chrono/operator""s")(C++14) |  a **std::chrono::duration** literal representing seconds   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_operator%22%22s&action=edit)  
+(function)   
 [ operator""ms](operator""ms.html "cpp/chrono/operator""ms")(C++14) |  a **std::chrono::duration** literal representing milliseconds   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_operator%22%22ms&action=edit)  
+(function)   
 [ operator""us](operator""us.html "cpp/chrono/operator""us")(C++14) |  a **std::chrono::duration** literal representing microseconds   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_operator%22%22us&action=edit)  
+(function)   
 [ operator""ns](operator""ns.html "cpp/chrono/operator""ns")(C++14) |  a **std::chrono::duration** literal representing nanoseconds   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_operator%22%22ns&action=edit)  
+(function)   
 Note: the literal suffixes `d` and `y` do not refer to `days` and `years` but to [`day`](day.html "cpp/chrono/day") and [`year`](year.html "cpp/chrono/year"), respectively.  | (since C++20)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/duration&action=edit&section=8 "Edit section: Notes")] Notes
+### Notes
 
 The actual time interval (in seconds) that is held by a duration object d is roughly equal to d.count() * D::period::num / D::period::den, where `D` is of type `chrono::duration<>` and d is an object of such type. 
 
@@ -311,7 +311,7 @@ The actual time interval (in seconds) that is held by a duration object d is rou
 ---|---|---|---  
 [`__cpp_lib_chrono_udls`](../experimental/feature_test.html#cpp_lib_chrono_udls "cpp/feature test") | [`201304L`](../compiler_support/14.html#cpp_lib_chrono_udls_201304L "cpp/compiler support/14") | (C++14) | [User-defined literals for time types](duration.html#Literals)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/duration&action=edit&section=9 "Edit section: Example")] Example
+### Example
 
 This example shows how to define several custom duration types and convert between types:
 

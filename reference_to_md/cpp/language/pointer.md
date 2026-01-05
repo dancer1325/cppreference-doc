@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [Declarations](declarations.html "cpp/language/declarations")
 
@@ -280,7 +280,7 @@ Other declarations
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/declarations/navbar_content&action=edit)
+
 
 Declares a variable of a pointer or pointer-to-member type. 
 
@@ -304,7 +304,7 @@ Declares a variable of a pointer or pointer-to-member type.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/pointer&action=edit&section=1 "Edit section: Syntax")] Syntax
+### Syntax
 
 A pointer declaration is any simple declaration whose [declarator](declarations.html "cpp/language/declarations") has the form   
   
@@ -324,7 +324,7 @@ declarator |  \-  |  any [declarator](declarations.html "cpp/language/declaratio
   
 There are no pointers to [references](reference.html "cpp/language/reference") and there are no pointers to [bit-fields](bit_field.html "cpp/language/bit field"). Typically, mentions of "pointers" without elaboration do not include pointers to (non-static) members. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/pointer&action=edit&section=2 "Edit section: Pointers")] Pointers
+### Pointers
 
 Every value of pointer type is one of the following: 
 
@@ -356,7 +356,7 @@ Note that two pointers that represent the same address may nonetheless have diff
 
 Indirection through an invalid pointer value and passing an invalid pointer value to a deallocation function have undefined behavior. Any other use of an invalid pointer value has implementation-defined behavior. Some implementations might define that copying an invalid pointer value causes a system-generated runtime fault. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/pointer&action=edit&section=3 "Edit section: Pointers to objects")] Pointers to objects
+#### Pointers to objects
 
 A pointer to object can be initialized with the return value of the [address-of operator](operator_member_access.html "cpp/language/operator member access") applied to any expression of object type, including another pointer type: 
     
@@ -411,7 +411,7 @@ Certain [addition, subtraction](operator_arithmetic.html#Additive_operators "cpp
 
 Many implementations also provide [strict total ordering](https://en.wikipedia.org/wiki/Total_order#Strict_total_order "enwiki:Total order") of pointers of random origin, e.g. if they are implemented as addresses within continuous virtual address space. Those implementations that do not (e.g. where not all bits of the pointer are part of a memory address and have to be ignored for comparison, or an additional calculation is required or otherwise pointer and integer is not a 1 to 1 relationship), provide a specialization of [std::less](../utility/functional/less.html "cpp/utility/functional/less") for pointers that has that guarantee. This makes it possible to use all pointers of random origin as keys in standard associative containers such as [std::set](../container/set.html "cpp/container/set") or [std::map](../container/map.html "cpp/container/map"). 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/pointer&action=edit&section=4 "Edit section: Pointers to void")] Pointers to void
+#### Pointers to void
 
 Pointer to object of any type can be [implicitly converted](implicit_cast.html "cpp/language/implicit cast") to pointer to (possibly [cv-qualified](cv.html "cpp/language/cv")) void; the pointer value is unchanged. The reverse conversion, which requires [`static_cast`](static_cast.html "cpp/language/static cast") or [explicit cast](explicit_cast.html "cpp/language/explicit cast"), yields the original pointer value: 
     
@@ -428,7 +428,7 @@ Pointers to void have the same size, representation and alignment as pointers to
 
 Pointers to void are used to pass objects of unknown type, which is common in C interfaces: [std::malloc](../memory/c/malloc.html "cpp/memory/c/malloc") returns void*, [std::qsort](../algorithm/qsort.html "cpp/algorithm/qsort") expects a user-provided callback that accepts two const void* arguments. [`pthread_create`](https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_create.html) expects a user-provided callback that accepts and returns void*. In all cases, it is the caller's responsibility to cast the pointer to the correct type before use. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/pointer&action=edit&section=5 "Edit section: Pointers to functions")] Pointers to functions
+#### Pointers to functions
 
 A pointer to function can be initialized with an address of a non-member function or a static member function. Because of the [function-to-pointer](implicit_cast.html "cpp/language/implicit cast") implicit conversion, the address-of operator is optional: 
     
@@ -492,9 +492,9 @@ A pointer to function may be initialized from an overload set which may include 
 
 [Equality comparison operators](operator_comparison.html#Pointer_comparison_operators "cpp/language/operator comparison") are defined for pointers to functions (they compare equal if pointing to the same function). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/pointer&action=edit&section=6 "Edit section: Pointers to members")] Pointers to members
+### Pointers to members
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/pointer&action=edit&section=7 "Edit section: Pointers to data members")] Pointers to data members
+#### Pointers to data members
 
 A pointer to non-static member object `m` which is a member of class `C` can be initialized with the expression &C::m exactly. Expressions such as &(C::m) or &m inside `C`'s member function do not form pointers to members. 
 
@@ -570,7 +570,7 @@ The pointed-to type of a pointer-to-member may be a pointer-to-member itself: po
         [std::cout](../io/cout.html) << a.**p2 << '\n'; // prints 1
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/pointer&action=edit&section=8 "Edit section: Pointers to member functions")] Pointers to member functions
+#### Pointers to member functions
 
 A pointer to non-static member function f which is a member of class `C` can be initialized with the expression &C::f exactly. Expressions such as &(C::f) or &f inside `C`'s member function do not form pointers to member functions. 
 
@@ -658,7 +658,7 @@ Output:
     
     1 2 3
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/pointer&action=edit&section=9 "Edit section: Null pointers")] Null pointers
+### Null pointers
 
 Pointers of every type have a special value known as _null pointer value_ of that type. A pointer whose value is null does not point to an object or a function (the behavior of dereferencing a null pointer is undefined), and compares equal to all pointers of the same type whose value is also _null_. 
 
@@ -679,7 +679,7 @@ The macro [NULL](../types/NULL.html "cpp/types/NULL") can also be used, it expan
 
 Null pointers can be used to indicate the absence of an object (e.g. [`std::function::target()`](../utility/functional/function/target.html "cpp/utility/functional/function/target")), or as other error condition indicators (e.g. [dynamic_cast](dynamic_cast.html "cpp/language/dynamic cast")). In general, a function that receives a pointer argument almost always needs to check if the value is null and handle that case differently (for example, the [delete expression](delete.html "cpp/language/delete") does nothing when a null pointer is passed). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/pointer&action=edit&section=10 "Edit section: Invalid pointers")] Invalid pointers
+### Invalid pointers
 
 A pointer value p is _valid in the context of_ an evaluation e if one of the following condition is satisfied: 
 
@@ -715,7 +715,7 @@ If a pointer value p is used in an evaluation e, and p is not valid in the conte
     *ptr = 2;        // undefined behavior: indirection of an invalid pointer
     delete ptr;      // undefined behavior: deallocating storage from an invalid pointer
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/pointer&action=edit&section=11 "Edit section: Constness")] Constness
+### Constness
 
   * If cv appears before `*****` in the pointer declaration, it is part of the declaration specifier sequence and applies to the pointed-to object. 
   * If cv appears after `*****` in the pointer declaration, it is part of the [declarator](declarations.html#Declarators "cpp/language/declarations") and applies to the pointer that's being declared. 
@@ -755,7 +755,7 @@ T const* const | constant pointer to constant object
 
 In general, implicit conversion from one multi-level pointer to another follows the rules described in [qualification conversions](implicit_cast.html#Qualification_conversions "cpp/language/implicit cast"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/pointer&action=edit&section=12 "Edit section: Composite pointer type")] Composite pointer type
+### Composite pointer type
 
 When an operand of a [comparison operator](operator_comparison.html "cpp/language/operator comparison") or any of the second and third operands of a [conditional operator](operator_other.html#Conditional_operator "cpp/language/operator other") is a pointer or pointer-to-member, a composite pointer type is determined to be the common type of these operands. 
 
@@ -898,7 +898,7 @@ The _composite pointer type_ `C` of p1 and p2 is determined as follows:
     // the composite pointer type is the qualification-combined type
     // of “p1” and “pc1” (or that of “pci” and “pi”): “const int**”
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/pointer&action=edit&section=13 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -926,7 +926,7 @@ of storage could invalidate pointer values  | pointer validity is based
 on the evaluation context   
 [CWG 2933](https://cplusplus.github.io/CWG/issues/2933.html) | C++98  | pointers to functions were always invalid  | they are always valid   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/pointer&action=edit&section=14 "Edit section: See also")] See also
+### See also
 
 [C documentation](../../c/language/pointer.html "c/language/pointer") for Pointer declaration  
 ---

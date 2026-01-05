@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](empty.html "cpp/iterator/empty")(C++17)  
 [data](data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 Defined in header `[<iterator>](../header/iterator.html "cpp/header/iterator")` |  |   
 ---|---|---  
@@ -222,7 +222,7 @@ The concept `bidirectional_iterator` refines [`forward_iterator`](forward_iterat
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/iter_concept&action=edit&section=T-1 "Template:cpp/iterator/iter concept")] Iterator concept determination
+### Iterator concept determination
 
 Definition of this concept is specified via an exposition-only alias template /*ITER_CONCEPT*/. 
 
@@ -236,7 +236,7 @@ In order to determine /*ITER_CONCEPT*/<I>, let ITER_TRAITS<I> denote I if the sp
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/bidirectional_iterator&action=edit&section=1 "Edit section: Semantic requirements")] Semantic requirements
+### Semantic requirements
 
 A bidirectional iterator `r` is said to be _decrementable_ if and only if there exists some `s` such that ++s == r. 
 
@@ -257,15 +257,15 @@ std::bidirectional_iterator<I> is modeled only if all the concepts it subsumes a
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/equality_preservation&action=edit&section=T-1 "Template:cpp/concepts/equality preservation")] Equality preservation
+### Equality preservation
 
 Expressions declared in [requires expressions](../language/requires.html "cpp/language/requires") of the standard library concepts are required to be [equality-preserving](../concepts.html#Equality_preservation "cpp/concepts") (except where stated otherwise). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/bidirectional_iterator&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 Unlike the [LegacyBidirectionalIterator](../named_req/BidirectionalIterator.html "cpp/named req/BidirectionalIterator") requirements, the `bidirectional_iterator` concept does not require dereference to return an lvalue. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/bidirectional_iterator&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 A minimum bidirectional iterator. 
     
@@ -309,10 +309,10 @@ A minimum bidirectional iterator.
      
     static_assert(std::bidirectional_iterator<SimpleBidiIterator>);
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/bidirectional_iterator&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ forward_iterator](forward_iterator.html "cpp/iterator/forward iterator")(C++20) |  specifies that an [`input_iterator`](input_iterator.html "cpp/iterator/input iterator") is a forward iterator, supporting equality comparison and multi-pass   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_forward_iterator&action=edit)  
+(concept)   
 ---|---  
 [ random_access_iterator](random_access_iterator.html "cpp/iterator/random access iterator")(C++20) |  specifies that a **`bidirectional_iterator`** is a random-access iterator, supporting advancement in constant time and subscripting   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_random_access_iterator&action=edit)
+(concept) 

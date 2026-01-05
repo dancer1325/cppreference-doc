@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Localization library](../locale.html "cpp/locale")
 
@@ -152,7 +152,7 @@ base classes](../locale.html#Facet_category_base_classes "cpp/locale")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/navbar_content&action=edit)
+
 
 Defined in header `[<locale>](../header/locale.html "cpp/header/locale")` |  |   
 ---|---|---  
@@ -161,13 +161,13 @@ class ctype_base; |  |
   
 The class **std::ctype_base** lists the character classification categories which are inherited by the [std::ctype](ctype.html "cpp/locale/ctype") facets. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/ctype_base&action=edit&section=1 "Edit section: Member types")] Member types 
+### Member types 
 
 mask |  unspecified [BitmaskType](../named_req/BitmaskType.html "cpp/named req/BitmaskType") (enumeration, integer type, or bitset)   
 (typedef)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/ctype_base&action=edit&section=2 "Edit section: Member constants")] Member constants
+### Member constants
 
 space[static] |  the value of `mask` identifying whitespace character classification   
 (public static member constant)  
@@ -195,12 +195,12 @@ alnum[static] |  alpha | digit
 graph[static] |  alnum | punct   
 (public static member constant)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/ctype_base&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ ctype](ctype.html "cpp/locale/ctype") |  defines character classification tables   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_ctype&action=edit)  
+(class template)   
 ---|---  
 [ ctype<char>](ctype_char.html "cpp/locale/ctype char") |  specialization of [std::ctype](ctype.html "cpp/locale/ctype") for type char   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_ctype_char&action=edit)  
+(class template specialization)   
 [ ctype_byname](ctype_byname.html "cpp/locale/ctype byname") |  represents the system-supplied [std::ctype](ctype.html "cpp/locale/ctype") for the named locale   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_ctype_byname&action=edit)
+(class template) 

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](../empty.html "cpp/iterator/empty")(C++17)  
 [data](../data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 [`std::move_iterator`](../move_iterator.html "cpp/iterator/move iterator")
 
@@ -216,7 +216,7 @@ Non-member functions
 [iter_swap](iter_swap.html "cpp/iterator/move iterator/iter swap")(C++20)  
 [make_move_iterator](../make_move_iterator.html "cpp/iterator/make move iterator")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/move_iterator/navbar_content&action=edit)
+
 
 template< [std::sized_sentinel_for](../sized_sentinel_for.html)<Iter> S >  
 friend constexpr [std::iter_difference_t](../iter_t.html)<Iter>  
@@ -241,26 +241,26 @@ These function templates are not visible to ordinary [unqualified](../../languag
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/move_iterator/operator-2&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 i  |  \-  |  [std::move_iterator](../move_iterator.html)<Iter>  
 ---|---|---  
 s  |  \-  |  [std::move_sentinel](../move_sentinel.html)<S>, where `S` models [std::sized_sentinel_for](../sized_sentinel_for.html)<Iter>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/move_iterator/operator-2&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) s.base() - i.base()
 
 2) i.base() - s.base()
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/move_iterator/operator-2&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/move_iterator/operator-2&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ operator-](operator-.html "cpp/iterator/move iterator/operator-")(C++11) |  computes the distance between two iterator adaptors   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_operator-&action=edit)  
+(function template)   
 ---|---

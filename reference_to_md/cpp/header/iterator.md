@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header is part of the [iterator](../iterator.html "cpp/iterator") library. 
 
@@ -280,231 +280,231 @@ This header is a partial [freestanding](../freestanding.html "cpp/freestanding")
 #####  Iterator concepts   
   
 [ indirectly_readable](../iterator/indirectly_readable.html "cpp/iterator/indirectly readable")(C++20) |  specifies that a type is indirectly readable by applying operator `*`   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_indirectly_readable&action=edit)  
+(concept)   
 [ indirectly_writable](../iterator/indirectly_writable.html "cpp/iterator/indirectly writable")(C++20) |  specifies that a value can be written to an iterator's referenced object   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_indirectly_writable&action=edit)  
+(concept)   
 [ weakly_incrementable](../iterator/weakly_incrementable.html "cpp/iterator/weakly incrementable")(C++20) |  specifies that a [`semiregular`](../concepts/semiregular.html "cpp/concepts/semiregular") type can be incremented with pre- and post-increment operators   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_weakly_incrementable&action=edit)  
+(concept)   
 [ incrementable](../iterator/incrementable.html "cpp/iterator/incrementable")(C++20) |  specifies that the increment operation on a [`weakly_incrementable`](../iterator/weakly_incrementable.html "cpp/iterator/weakly incrementable") type is [equality-preserving](../concepts.html#Equality_preservation "cpp/concepts") and that the type is [`equality_comparable`](../concepts/equality_comparable.html "cpp/concepts/equality comparable")   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_incrementable&action=edit)  
+(concept)   
 [ input_or_output_iterator](../iterator/input_or_output_iterator.html "cpp/iterator/input or output iterator")(C++20) |  specifies that objects of a type can be incremented and dereferenced   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_input_or_output_iterator&action=edit)  
+(concept)   
 [ sentinel_for](../iterator/sentinel_for.html "cpp/iterator/sentinel for")(C++20) |  specifies a type is a sentinel for an [`input_or_output_iterator`](../iterator/input_or_output_iterator.html "cpp/iterator/input or output iterator") type   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_sentinel_for&action=edit)  
+(concept)   
 [ sized_sentinel_for](../iterator/sized_sentinel_for.html "cpp/iterator/sized sentinel for")(C++20) |  specifies that the - operator can be applied to an iterator and a sentinel to calculate their difference in constant time   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_sized_sentinel_for&action=edit)  
+(concept)   
 [ input_iterator](../iterator/input_iterator.html "cpp/iterator/input iterator")(C++20) |  specifies that a type is an input iterator, that is, its referenced values can be read and it can be both pre- and post-incremented   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_input_iterator&action=edit)  
+(concept)   
 [ output_iterator](../iterator/output_iterator.html "cpp/iterator/output iterator")(C++20) |  specifies that a type is an output iterator for a given value type, that is, values of that type can be written to it and it can be both pre- and post-incremented   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_output_iterator&action=edit)  
+(concept)   
 [ forward_iterator](../iterator/forward_iterator.html "cpp/iterator/forward iterator")(C++20) |  specifies that an [`input_iterator`](../iterator/input_iterator.html "cpp/iterator/input iterator") is a forward iterator, supporting equality comparison and multi-pass   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_forward_iterator&action=edit)  
+(concept)   
 [ bidirectional_iterator](../iterator/bidirectional_iterator.html "cpp/iterator/bidirectional iterator")(C++20) |  specifies that a [`forward_iterator`](../iterator/forward_iterator.html "cpp/iterator/forward iterator") is a bidirectional iterator, supporting movement backwards   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_bidirectional_iterator&action=edit)  
+(concept)   
 [ random_access_iterator](../iterator/random_access_iterator.html "cpp/iterator/random access iterator")(C++20) |  specifies that a [`bidirectional_iterator`](../iterator/bidirectional_iterator.html "cpp/iterator/bidirectional iterator") is a random-access iterator, supporting advancement in constant time and subscripting   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_random_access_iterator&action=edit)  
+(concept)   
 [ contiguous_iterator](../iterator/contiguous_iterator.html "cpp/iterator/contiguous iterator")(C++20) |  specifies that a [`random_access_iterator`](../iterator/random_access_iterator.html "cpp/iterator/random access iterator") is a contiguous iterator, referring to elements that are contiguous in memory   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_contiguous_iterator&action=edit)  
+(concept)   
   
 #####  Indirect callable concepts   
   
 [ indirectly_unary_invocableindirectly_regular_unary_invocable](../iterator/indirectly_unary_invocable.html "cpp/iterator/indirectly unary invocable")(C++20)(C++20) |  specifies that a callable type can be invoked with the result of dereferencing an [`indirectly_readable`](../iterator/indirectly_readable.html "cpp/iterator/indirectly readable") type   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_indirectly_unary_invocable&action=edit)  
+(concept)   
 [ indirect_unary_predicate](../iterator/indirect_unary_predicate.html "cpp/iterator/indirect unary predicate")(C++20) |  specifies that a callable type, when invoked with the result of dereferencing an [`indirectly_readable`](../iterator/indirectly_readable.html "cpp/iterator/indirectly readable") type, satisfies [`predicate`](../concepts/predicate.html "cpp/concepts/predicate")   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_indirect_unary_predicate&action=edit)  
+(concept)   
 [ indirect_binary_predicate](../iterator/indirect_binary_predicate.html "cpp/iterator/indirect binary predicate")(C++20) |  specifies that a callable type, when invoked with the result of dereferencing two [`indirectly_readable`](../iterator/indirectly_readable.html "cpp/iterator/indirectly readable") types, satisfies [`predicate`](../concepts/predicate.html "cpp/concepts/predicate")   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_indirect_binary_predicate&action=edit)  
+(concept)   
 [ indirect_equivalence_relation](../iterator/indirect_equivalence_relation.html "cpp/iterator/indirect equivalence relation")(C++20) |  specifies that a callable type, when invoked with the result of dereferencing two [`indirectly_readable`](../iterator/indirectly_readable.html "cpp/iterator/indirectly readable") types, satisfies [`equivalence_relation`](../concepts/equivalence_relation.html "cpp/concepts/equivalence relation")   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_indirect_equivalence_relation&action=edit)  
+(concept)   
 [ indirect_strict_weak_order](../iterator/indirect_strict_weak_order.html "cpp/iterator/indirect strict weak order")(C++20) |  specifies that a callable type, when invoked with the result of dereferencing two [`indirectly_readable`](../iterator/indirectly_readable.html "cpp/iterator/indirectly readable") types, satisfies [`strict_weak_order`](../concepts/strict_weak_order.html "cpp/concepts/strict weak order")   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_indirect_strict_weak_order&action=edit)  
+(concept)   
   
 #####  Common algorithm requirements   
   
 [ indirectly_movable](../iterator/indirectly_movable.html "cpp/iterator/indirectly movable")(C++20) |  specifies that values may be moved from an [`indirectly_readable`](../iterator/indirectly_readable.html "cpp/iterator/indirectly readable") type to an [`indirectly_writable`](../iterator/indirectly_writable.html "cpp/iterator/indirectly writable") type   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_indirectly_movable&action=edit)  
+(concept)   
 [ indirectly_movable_storable](../iterator/indirectly_movable_storable.html "cpp/iterator/indirectly movable storable")(C++20) |  specifies that values may be moved from an [`indirectly_readable`](../iterator/indirectly_readable.html "cpp/iterator/indirectly readable") type to an [`indirectly_writable`](../iterator/indirectly_writable.html "cpp/iterator/indirectly writable") type and that the move may be performed via an intermediate object   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_indirectly_movable_storable&action=edit)  
+(concept)   
 [ indirectly_copyable](../iterator/indirectly_copyable.html "cpp/iterator/indirectly copyable")(C++20) |  specifies that values may be copied from an [`indirectly_readable`](../iterator/indirectly_readable.html "cpp/iterator/indirectly readable") type to an [`indirectly_writable`](../iterator/indirectly_writable.html "cpp/iterator/indirectly writable") type   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_indirectly_copyable&action=edit)  
+(concept)   
 [ indirectly_copyable_storable](../iterator/indirectly_copyable_storable.html "cpp/iterator/indirectly copyable storable")(C++20) |  specifies that values may be copied from an [`indirectly_readable`](../iterator/indirectly_readable.html "cpp/iterator/indirectly readable") type to an [`indirectly_writable`](../iterator/indirectly_writable.html "cpp/iterator/indirectly writable") type and that the copy may be performed via an intermediate object   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_indirectly_copyable_storable&action=edit)  
+(concept)   
 [ indirectly_swappable](../iterator/indirectly_swappable.html "cpp/iterator/indirectly swappable")(C++20) |  specifies that the values referenced by two [`indirectly_readable`](../iterator/indirectly_readable.html "cpp/iterator/indirectly readable") types can be swapped   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_indirectly_swappable&action=edit)  
+(concept)   
 [ indirectly_comparable](../iterator/indirectly_comparable.html "cpp/iterator/indirectly comparable")(C++20) |  specifies that the values referenced by two [`indirectly_readable`](../iterator/indirectly_readable.html "cpp/iterator/indirectly readable") types can be compared   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_indirectly_comparable&action=edit)  
+(concept)   
 [ permutable](../iterator/permutable.html "cpp/iterator/permutable")(C++20) |  specifies the common requirements of algorithms that reorder elements in place   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_permutable&action=edit)  
+(concept)   
 [ mergeable](../iterator/mergeable.html "cpp/iterator/mergeable")(C++20) |  specifies the requirements of algorithms that merge sorted sequences into an output sequence by copying elements   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_mergeable&action=edit)  
+(concept)   
 [ sortable](../iterator/sortable.html "cpp/iterator/sortable")(C++20) |  specifies the common requirements of algorithms that permute sequences into ordered sequences   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_sortable&action=edit)  
+(concept)   
   
 ###  Classes  
   
 #####  Algorithm utilities   
   
 [ indirect_result_t](../iterator/indirect_result_t.html "cpp/iterator/indirect result t")(C++20) |  computes the result of invoking a callable object on the result of dereferencing some set of [`indirectly_readable`](../iterator/indirectly_readable.html "cpp/iterator/indirectly readable") types  
-(alias template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_indirect_result_t&action=edit)  
+(alias template)  
 [ projected](../iterator/projected.html "cpp/iterator/projected")(C++20) |  helper template for specifying the constraints on algorithms that accept projections  
-(alias template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_projected&action=edit)  
+(alias template)  
 [ projected_value_t](../iterator/projected_value_t.html "cpp/iterator/projected value t")(C++26) |  computes the value type of an [`indirectly_readable`](../iterator/indirectly_readable.html "cpp/iterator/indirectly readable") type by projection  
-(alias template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_projected_value_t&action=edit)  
+(alias template)  
   
 #####  Associated types   
   
 [ incrementable_traits](../iterator/incrementable_traits.html "cpp/iterator/incrementable traits")(C++20) |  computes the difference type of a [`weakly_incrementable`](../iterator/weakly_incrementable.html "cpp/iterator/weakly incrementable") type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_incrementable_traits&action=edit)  
+(class template)   
 [ indirectly_readable_traits](../iterator/readable_traits.html "cpp/iterator/indirectly readable traits")(C++20) |  computes the value type of an [`indirectly_readable`](../iterator/indirectly_readable.html "cpp/iterator/indirectly readable") type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_indirectly_readable_traits&action=edit)  
+(class template)   
 [ iter_value_titer_reference_titer_const_reference_titer_difference_titer_rvalue_reference_titer_common_reference_t](../iterator/iter_t.html "cpp/iterator/iter t")(C++20)(C++20)(C++23)(C++20)(C++20)(C++20) |  computes the associated types of an iterator  
-(alias template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_iter_t&action=edit)  
+(alias template)  
   
 #####  Primitives   
   
 [ iterator_traits](../iterator/iterator_traits.html "cpp/iterator/iterator traits") |  provides uniform interface to the properties of an iterator   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_iterator_traits&action=edit)  
+(class template)   
 [ input_iterator_tagoutput_iterator_tagforward_iterator_tagbidirectional_iterator_tagrandom_access_iterator_tagcontiguous_iterator_tag](../iterator/iterator_tags.html "cpp/iterator/iterator tags")(C++20) |  empty class types used to indicate iterator categories   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_iterator_tags&action=edit)  
+(class)   
 [ iterator](../iterator/iterator.html "cpp/iterator/iterator")(deprecated in C++17) |  base class to ease the definition of required types for simple iterators   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_iterator&action=edit)  
+(class template)   
   
 #####  Adaptors   
   
 [ reverse_iterator](../iterator/reverse_iterator.html "cpp/iterator/reverse iterator") |  iterator adaptor for reverse-order traversal   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_reverse_iterator&action=edit)  
+(class template)   
 [ move_iterator](../iterator/move_iterator.html "cpp/iterator/move iterator")(C++11) |  iterator adaptor which dereferences to an rvalue   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_move_iterator&action=edit)  
+(class template)   
 [ move_sentinel](../iterator/move_sentinel.html "cpp/iterator/move sentinel")(C++20) |  sentinel adaptor for [std::move_iterator](../iterator/move_iterator.html "cpp/iterator/move iterator")   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_move_sentinel&action=edit)  
+(class template)   
 [ basic_const_iterator](../iterator/basic_const_iterator.html "cpp/iterator/basic const iterator")(C++23) |  iterator adaptor that converts an iterator into a constant iterator   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_basic_const_iterator&action=edit)  
+(class template)   
 [ const_iterator](../iterator/const_iterator.html#Helper_alias_templates "cpp/iterator/const iterator")(C++23) |  computes a constant iterator type for a given type  
-(alias template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_const_iterator&action=edit)  
+(alias template)  
 [ const_sentinel](../iterator/const_sentinel.html#Helper_alias_templates "cpp/iterator/const sentinel")(C++23) |  computes a sentinel type to be used with constant iterators  
-(alias template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_const_sentinel&action=edit)  
+(alias template)  
 [ common_iterator](../iterator/common_iterator.html "cpp/iterator/common iterator")(C++20) |  adapts an iterator type and its sentinel into a common iterator type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_common_iterator&action=edit)  
+(class template)   
 [ default_sentinel_t](../iterator/default_sentinel.html "cpp/iterator/default sentinel t")(C++20) |  default sentinel for use with iterators that know the bound of their range   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_default_sentinel_t&action=edit)  
+(class)   
 [ counted_iterator](../iterator/counted_iterator.html "cpp/iterator/counted iterator")(C++20) |  iterator adaptor that tracks the distance to the end of the range   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_counted_iterator&action=edit)  
+(class template)   
 [ unreachable_sentinel_t](../iterator/unreachable_sentinel_t.html "cpp/iterator/unreachable sentinel t")(C++20) |  sentinel that always compares unequal to any [`weakly_incrementable`](../iterator/weakly_incrementable.html "cpp/iterator/weakly incrementable") type   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_unreachable_sentinel_t&action=edit)  
+(class)   
 [ back_insert_iterator](../iterator/back_insert_iterator.html "cpp/iterator/back insert iterator") |  iterator adaptor for insertion at the end of a container   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_back_insert_iterator&action=edit)  
+(class template)   
 [ front_insert_iterator](../iterator/front_insert_iterator.html "cpp/iterator/front insert iterator") |  iterator adaptor for insertion at the front of a container   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_front_insert_iterator&action=edit)  
+(class template)   
 [ insert_iterator](../iterator/insert_iterator.html "cpp/iterator/insert iterator") |  iterator adaptor for insertion into a container   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_insert_iterator&action=edit)  
+(class template)   
   
 #####  Stream Iterators   
   
 [ istream_iterator](../iterator/istream_iterator.html "cpp/iterator/istream iterator") |  input iterator that reads from [std::basic_istream](../io/basic_istream.html "cpp/io/basic istream")   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_istream_iterator&action=edit)  
+(class template)   
 [ ostream_iterator](../iterator/ostream_iterator.html "cpp/iterator/ostream iterator") |  output iterator that writes to [std::basic_ostream](../io/basic_ostream.html "cpp/io/basic ostream")   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_ostream_iterator&action=edit)  
+(class template)   
 [ istreambuf_iterator](../iterator/istreambuf_iterator.html "cpp/iterator/istreambuf iterator") |  input iterator that reads from [std::basic_streambuf](../io/basic_streambuf.html "cpp/io/basic streambuf")   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_istreambuf_iterator&action=edit)  
+(class template)   
 [ ostreambuf_iterator](../iterator/ostreambuf_iterator.html "cpp/iterator/ostreambuf iterator") |  output iterator that writes to [std::basic_streambuf](../io/basic_streambuf.html "cpp/io/basic streambuf")   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_ostreambuf_iterator&action=edit)  
+(class template)   
   
 ###  Customization point objects  
   
 Defined in namespace `std::ranges`  
 [ iter_move](../iterator/ranges/iter_move.html "cpp/iterator/ranges/iter move")(C++20) |  casts the result of dereferencing an object to its associated rvalue reference type  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/ranges/dsc_iter_move&action=edit)  
+(customization point object)  
 [ iter_swap](../iterator/ranges/iter_swap.html "cpp/iterator/ranges/iter swap")(C++20) |  swaps the values referenced by two dereferenceable objects  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/ranges/dsc_iter_swap&action=edit)  
+(customization point object)  
   
 ###  Constants  
   
 [ unreachable_sentinel](../iterator/unreachable_sentinel_t.html "cpp/iterator/unreachable sentinel t")(C++20) |  an object of type `unreachable_sentinel_t` that always compares unequal to any [`weakly_incrementable`](../iterator/weakly_incrementable.html "cpp/iterator/weakly incrementable") type   
-(constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_unreachable_sentinel&action=edit)  
+(constant)   
 [ default_sentinel](../iterator/default_sentinel.html "cpp/iterator/default sentinel t")(C++20) |  an object of type `default_sentinel_t` used with iterators that know the bound of their range   
-(constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_default_sentinel&action=edit)  
+(constant)   
   
 ###  Functions  
   
 #####  Adaptors   
   
 [ make_reverse_iterator](../iterator/make_reverse_iterator.html "cpp/iterator/make reverse iterator")(C++14) |  creates a [std::reverse_iterator](../iterator/reverse_iterator.html "cpp/iterator/reverse iterator") of type inferred from the argument   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_make_reverse_iterator&action=edit)  
+(function template)   
 [ make_move_iterator](../iterator/make_move_iterator.html "cpp/iterator/make move iterator")(C++11) |  creates a [std::move_iterator](../iterator/move_iterator.html "cpp/iterator/move iterator") of type inferred from the argument   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_make_move_iterator&action=edit)  
+(function template)   
 [ make_const_iterator](../iterator/make_const_iterator.html#Helper_function_templates "cpp/iterator/make const iterator")(C++23) |  creates a std::const_iterator of type inferred from the argument   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_make_const_iterator&action=edit)  
+(function template)   
 [ make_const_sentinel](../iterator/make_const_sentinel.html#Helper_function_templates "cpp/iterator/make const sentinel")(C++23) |  creates a std::const_sentinel of type inferred from the argument   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_make_const_sentinel&action=edit)  
+(function template)   
 [ front_inserter](../iterator/front_inserter.html "cpp/iterator/front inserter") |  creates a [std::front_insert_iterator](../iterator/front_insert_iterator.html "cpp/iterator/front insert iterator") of type inferred from the argument   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_front_inserter&action=edit)  
+(function template)   
 [ back_inserter](../iterator/back_inserter.html "cpp/iterator/back inserter") |  creates a [std::back_insert_iterator](../iterator/back_insert_iterator.html "cpp/iterator/back insert iterator") of type inferred from the argument   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_back_inserter&action=edit)  
+(function template)   
 [ inserter](../iterator/inserter.html "cpp/iterator/inserter") |  creates a [std::insert_iterator](../iterator/insert_iterator.html "cpp/iterator/insert iterator") of type inferred from the argument   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_inserter&action=edit)  
+(function template)   
   
 #####  Non-member operators   
   
 [ operator==operator!=operator<operator<=operator>operator>=operator<=>](../iterator/move_iterator/operator_cmp.html "cpp/iterator/move iterator/operator cmp")(C++11)(C++11)(removed in C++20)(C++11)(C++11)(C++11)(C++11)(C++20) |  compares the underlying iterators   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_operator_cmp&action=edit)  
+(function template)   
 [ operator+](../iterator/move_iterator/operator+.html "cpp/iterator/move iterator/operator+")(C++11) |  advances the iterator   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_operator%2B&action=edit)  
+(function template)   
 [ operator-](../iterator/move_iterator/operator-.html "cpp/iterator/move iterator/operator-")(C++11) |  computes the distance between two iterator adaptors   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_operator-&action=edit)  
+(function template)   
 [ operator==operator!=operator<operator<=operator>operator>=operator<=>](../iterator/reverse_iterator/operator_cmp.html "cpp/iterator/reverse iterator/operator cmp")(C++20) |  compares the underlying iterators   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_operator_cmp&action=edit)  
+(function template)   
 [ operator+](../iterator/reverse_iterator/operator+.html "cpp/iterator/reverse iterator/operator+") |  advances the iterator   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_operator%2B&action=edit)  
+(function template)   
 [ operator-](../iterator/reverse_iterator/operator-.html "cpp/iterator/reverse iterator/operator-") |  computes the distance between two iterator adaptors   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_operator-&action=edit)  
+(function template)   
 [ operator==operator<=>](../iterator/counted_iterator/operator_cmp.html "cpp/iterator/counted iterator/operator cmp")(C++20) |  compares the distances to the end   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_operator_cmp&action=edit)  
+(function template)   
 [ operator+](../iterator/counted_iterator/operator+.html "cpp/iterator/counted iterator/operator+")(C++20) |  advances the iterator   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_operator%2B&action=edit)  
+(function template)   
 [ operator-](../iterator/counted_iterator/operator-.html "cpp/iterator/counted iterator/operator-")(C++20) |  computes the distance between two iterator adaptors   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_operator-&action=edit)  
+(function template)   
 [ operator==operator!=](../iterator/istream_iterator/operator_cmp.html "cpp/iterator/istream iterator/operator cmp")(removed in C++20) |  compares two `istream_iterator`s   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/istream_iterator/dsc_operator_cmp&action=edit)  
+(function template)   
 [ operator==operator!=](../iterator/istreambuf_iterator/operator_cmp.html "cpp/iterator/istreambuf iterator/operator cmp")(removed in C++20) |  compares two `istreambuf_iterator`s   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/istreambuf_iterator/dsc_operator_cmp&action=edit)  
+(function template)   
   
 #####  Operations   
   
 [ advance](../iterator/advance.html "cpp/iterator/advance") |  advances an iterator by given distance   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_advance&action=edit)  
+(function template)   
 [ distance](../iterator/distance.html "cpp/iterator/distance") |  returns the distance between two iterators   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_distance&action=edit)  
+(function template)   
 [ next](../iterator/next.html "cpp/iterator/next")(C++11) |  increment an iterator   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_next&action=edit)  
+(function template)   
 [ prev](../iterator/prev.html "cpp/iterator/prev")(C++11) |  decrement an iterator   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_prev&action=edit)  
+(function template)   
 [ ranges::advance](../iterator/ranges/advance.html "cpp/iterator/ranges/advance")(C++20) |  advances an iterator by given distance or to a given bound  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/ranges/dsc_advance&action=edit)  
+(algorithm function object)  
 [ ranges::distance](../iterator/ranges/distance.html "cpp/iterator/ranges/distance")(C++20) |  returns the distance between an iterator and a sentinel, or between the beginning and end of a range  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/ranges/dsc_distance&action=edit)  
+(algorithm function object)  
 [ ranges::next](../iterator/ranges/next.html "cpp/iterator/ranges/next")(C++20) |  increment an iterator by a given distance or to a bound  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/ranges/dsc_next&action=edit)  
+(algorithm function object)  
 [ ranges::prev](../iterator/ranges/prev.html "cpp/iterator/ranges/prev")(C++20) |  decrement an iterator by a given distance or to a bound  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/ranges/dsc_prev&action=edit)  
+(algorithm function object)  
   
 #####  Range access   
   
 [ begincbegin](../iterator/begin.html "cpp/iterator/begin")(C++11)(C++14) |  returns an iterator to the beginning of a container or array   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_begin&action=edit)  
+(function template)   
 [ endcend](../iterator/end.html "cpp/iterator/end")(C++11)(C++14) |  returns an iterator to the end of a container or array   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_end&action=edit)  
+(function template)   
 [ rbegincrbegin](../iterator/rbegin.html "cpp/iterator/rbegin")(C++14) |  returns a reverse iterator to the beginning of a container or array   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_rbegin&action=edit)  
+(function template)   
 [ rendcrend](../iterator/rend.html "cpp/iterator/rend")(C++14) |  returns a reverse end iterator for a container or array   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_rend&action=edit)  
+(function template)   
 [ sizessize](../iterator/size.html "cpp/iterator/size")(C++17)(C++20) |  returns the size of a container or array   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_size&action=edit)  
+(function template)   
 [ empty](../iterator/empty.html "cpp/iterator/empty")(C++17) |  checks whether the container is empty   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_empty&action=edit)  
+(function template)   
 [ data](../iterator/data.html "cpp/iterator/data")(C++17) |  obtains the pointer to the underlying array   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_data&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/iterator&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     #include <compare>
@@ -909,7 +909,7 @@ Defined in namespace `std::ranges`
       template<class E> constexpr const E* data(initializer_list<E> il) noexcept;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/iterator&action=edit&section=T-1 "Template:cpp/synopsis/iterator")] Concept [`indirectly_readable`](../iterator/indirectly_readable.html "cpp/iterator/indirectly readable")
+#### Concept [`indirectly_readable`](../iterator/indirectly_readable.html "cpp/iterator/indirectly readable")
     
     
     namespace std {
@@ -931,7 +931,7 @@ Defined in namespace `std::ranges`
           /*indirectlyReadableImpl*/<remove_cvref_t<In>>
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/iterator&action=edit&section=T-2 "Template:cpp/synopsis/iterator")] Concept [`indirectly_writable`](../iterator/indirectly_writable.html "cpp/iterator/indirectly writable")
+#### Concept [`indirectly_writable`](../iterator/indirectly_writable.html "cpp/iterator/indirectly writable")
     
     
     namespace std {
@@ -948,7 +948,7 @@ Defined in namespace `std::ranges`
           };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/iterator&action=edit&section=T-3 "Template:cpp/synopsis/iterator")] Concept [`weakly_incrementable`](../iterator/weakly_incrementable.html "cpp/iterator/weakly incrementable")
+#### Concept [`weakly_incrementable`](../iterator/weakly_incrementable.html "cpp/iterator/weakly incrementable")
     
     
     namespace std {
@@ -970,7 +970,7 @@ Defined in namespace `std::ranges`
           };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/iterator&action=edit&section=T-4 "Template:cpp/synopsis/iterator")] Concept [`incrementable`](../iterator/incrementable.html "cpp/iterator/incrementable")
+#### Concept [`incrementable`](../iterator/incrementable.html "cpp/iterator/incrementable")
     
     
     namespace std {
@@ -983,7 +983,7 @@ Defined in namespace `std::ranges`
           };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/iterator&action=edit&section=T-5 "Template:cpp/synopsis/iterator")] Concept [`input_or_output_iterator`](../iterator/input_or_output_iterator.html "cpp/iterator/input or output iterator")
+#### Concept [`input_or_output_iterator`](../iterator/input_or_output_iterator.html "cpp/iterator/input or output iterator")
     
     
     namespace std {
@@ -995,7 +995,7 @@ Defined in namespace `std::ranges`
           weakly_incrementable<I>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/iterator&action=edit&section=T-6 "Template:cpp/synopsis/iterator")] Concept [`sentinel_for`](../iterator/sentinel_for.html "cpp/iterator/sentinel for")
+#### Concept [`sentinel_for`](../iterator/sentinel_for.html "cpp/iterator/sentinel for")
     
     
     namespace std {
@@ -1006,7 +1006,7 @@ Defined in namespace `std::ranges`
           /*WeaklyEqualityComparableWith*/<S, I>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/iterator&action=edit&section=T-7 "Template:cpp/synopsis/iterator")] Concept [`sized_sentinel_for`](../iterator/sized_sentinel_for.html "cpp/iterator/sized sentinel for")
+#### Concept [`sized_sentinel_for`](../iterator/sized_sentinel_for.html "cpp/iterator/sized sentinel for")
     
     
     namespace std {
@@ -1020,7 +1020,7 @@ Defined in namespace `std::ranges`
           };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/iterator&action=edit&section=T-8 "Template:cpp/synopsis/iterator")] Concept [`input_iterator`](../iterator/input_iterator.html "cpp/iterator/input iterator")
+#### Concept [`input_iterator`](../iterator/input_iterator.html "cpp/iterator/input iterator")
     
     
     namespace std {
@@ -1032,7 +1032,7 @@ Defined in namespace `std::ranges`
           derived_from</* ITER_CONCEPT */(I), input_iterator_tag>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/iterator&action=edit&section=T-9 "Template:cpp/synopsis/iterator")] Concept [`output_iterator`](../iterator/output_iterator.html "cpp/iterator/output iterator")
+#### Concept [`output_iterator`](../iterator/output_iterator.html "cpp/iterator/output iterator")
     
     
     namespace std {
@@ -1045,7 +1045,7 @@ Defined in namespace `std::ranges`
           };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/iterator&action=edit&section=T-10 "Template:cpp/synopsis/iterator")] Concept [`forward_iterator`](../iterator/forward_iterator.html "cpp/iterator/forward iterator")
+#### Concept [`forward_iterator`](../iterator/forward_iterator.html "cpp/iterator/forward iterator")
     
     
     namespace std {
@@ -1057,7 +1057,7 @@ Defined in namespace `std::ranges`
           sentinel_for<I, I>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/iterator&action=edit&section=T-11 "Template:cpp/synopsis/iterator")] Concept [`bidirectional_iterator`](../iterator/bidirectional_iterator.html "cpp/iterator/bidirectional iterator")
+#### Concept [`bidirectional_iterator`](../iterator/bidirectional_iterator.html "cpp/iterator/bidirectional iterator")
     
     
     namespace std {
@@ -1071,7 +1071,7 @@ Defined in namespace `std::ranges`
           };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/iterator&action=edit&section=T-12 "Template:cpp/synopsis/iterator")] Concept [`random_access_iterator`](../iterator/random_access_iterator.html "cpp/iterator/random access iterator")
+#### Concept [`random_access_iterator`](../iterator/random_access_iterator.html "cpp/iterator/random access iterator")
     
     
     namespace std {
@@ -1091,7 +1091,7 @@ Defined in namespace `std::ranges`
           };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/iterator&action=edit&section=T-13 "Template:cpp/synopsis/iterator")] Concept [`contiguous_iterator`](../iterator/contiguous_iterator.html "cpp/iterator/contiguous iterator")
+#### Concept [`contiguous_iterator`](../iterator/contiguous_iterator.html "cpp/iterator/contiguous iterator")
     
     
     namespace std {
@@ -1106,7 +1106,7 @@ Defined in namespace `std::ranges`
           };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/iterator&action=edit&section=T-14 "Template:cpp/synopsis/iterator")] Concept [`indirectly_unary_invocable`](../iterator/indirectly_unary_invocable.html "cpp/iterator/indirectly unary invocable")
+#### Concept [`indirectly_unary_invocable`](../iterator/indirectly_unary_invocable.html "cpp/iterator/indirectly unary invocable")
     
     
     namespace std {
@@ -1121,7 +1121,7 @@ Defined in namespace `std::ranges`
             invoke_result_t<F&, iter_reference_t<I>>>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/iterator&action=edit&section=T-15 "Template:cpp/synopsis/iterator")] Concept [`indirectly_regular_unary_invocable`](../iterator/indirectly_unary_invocable.html "cpp/iterator/indirectly unary invocable")
+#### Concept [`indirectly_regular_unary_invocable`](../iterator/indirectly_unary_invocable.html "cpp/iterator/indirectly unary invocable")
     
     
     namespace std {
@@ -1136,7 +1136,7 @@ Defined in namespace `std::ranges`
             invoke_result_t<F&, iter_reference_t<I>>>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/iterator&action=edit&section=T-16 "Template:cpp/synopsis/iterator")] Concept [`indirect_unary_predicate`](../iterator/indirect_unary_predicate.html "cpp/iterator/indirect unary predicate")
+#### Concept [`indirect_unary_predicate`](../iterator/indirect_unary_predicate.html "cpp/iterator/indirect unary predicate")
     
     
     namespace std {
@@ -1148,7 +1148,7 @@ Defined in namespace `std::ranges`
           predicate<F&, iter_reference_t<I>>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/iterator&action=edit&section=T-17 "Template:cpp/synopsis/iterator")] Concept [`indirect_binary_predicate`](../iterator/indirect_binary_predicate.html "cpp/iterator/indirect binary predicate")
+#### Concept [`indirect_binary_predicate`](../iterator/indirect_binary_predicate.html "cpp/iterator/indirect binary predicate")
     
     
     namespace std {
@@ -1162,7 +1162,7 @@ Defined in namespace `std::ranges`
           predicate<F&, iter_reference_t<I1>, iter_reference_t<I2>>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/iterator&action=edit&section=T-18 "Template:cpp/synopsis/iterator")] Concept [`indirect_equivalence_relation`](../iterator/indirect_equivalence_relation.html "cpp/iterator/indirect equivalence relation")
+#### Concept [`indirect_equivalence_relation`](../iterator/indirect_equivalence_relation.html "cpp/iterator/indirect equivalence relation")
     
     
     namespace std {
@@ -1176,7 +1176,7 @@ Defined in namespace `std::ranges`
           equivalence_relation<F&, iter_reference_t<I1>, iter_reference_t<I2>>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/iterator&action=edit&section=T-19 "Template:cpp/synopsis/iterator")] Concept [`indirect_strict_weak_order`](../iterator/indirect_strict_weak_order.html "cpp/iterator/indirect strict weak order")
+#### Concept [`indirect_strict_weak_order`](../iterator/indirect_strict_weak_order.html "cpp/iterator/indirect strict weak order")
     
     
     namespace std {
@@ -1190,7 +1190,7 @@ Defined in namespace `std::ranges`
           strict_weak_order<F&, iter_reference_t<I1>, iter_reference_t<I2>>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/iterator&action=edit&section=T-20 "Template:cpp/synopsis/iterator")] Concept [`indirectly_movable`](../iterator/indirectly_movable.html "cpp/iterator/indirectly movable")
+#### Concept [`indirectly_movable`](../iterator/indirectly_movable.html "cpp/iterator/indirectly movable")
     
     
     namespace std {
@@ -1200,7 +1200,7 @@ Defined in namespace `std::ranges`
           indirectly_writable<Out, iter_rvalue_reference_t<In>>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/iterator&action=edit&section=T-21 "Template:cpp/synopsis/iterator")] Concept [`indirectly_movable_storable`](../iterator/indirectly_movable_storable.html "cpp/iterator/indirectly movable storable")
+#### Concept [`indirectly_movable_storable`](../iterator/indirectly_movable_storable.html "cpp/iterator/indirectly movable storable")
     
     
     namespace std {
@@ -1213,7 +1213,7 @@ Defined in namespace `std::ranges`
           assignable_from<iter_value_t<In>&, iter_rvalue_reference_t<In>>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/iterator&action=edit&section=T-22 "Template:cpp/synopsis/iterator")] Concept [`indirectly_copyable`](../iterator/indirectly_copyable.html "cpp/iterator/indirectly copyable")
+#### Concept [`indirectly_copyable`](../iterator/indirectly_copyable.html "cpp/iterator/indirectly copyable")
     
     
     namespace std {
@@ -1223,7 +1223,7 @@ Defined in namespace `std::ranges`
           indirectly_writable<Out, iter_reference_t<In>>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/iterator&action=edit&section=T-23 "Template:cpp/synopsis/iterator")] Concept [`indirectly_copyable_storable`](../iterator/indirectly_copyable_storable.html "cpp/iterator/indirectly copyable storable")
+#### Concept [`indirectly_copyable_storable`](../iterator/indirectly_copyable_storable.html "cpp/iterator/indirectly copyable storable")
     
     
     namespace std {
@@ -1239,7 +1239,7 @@ Defined in namespace `std::ranges`
           assignable_from<iter_value_t<In>&, iter_reference_t<In>>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/iterator&action=edit&section=T-24 "Template:cpp/synopsis/iterator")] Concept [`indirectly_swappable`](../iterator/indirectly_swappable.html "cpp/iterator/indirectly swappable")
+#### Concept [`indirectly_swappable`](../iterator/indirectly_swappable.html "cpp/iterator/indirectly swappable")
     
     
     namespace std {
@@ -1254,7 +1254,7 @@ Defined in namespace `std::ranges`
           };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/iterator&action=edit&section=T-25 "Template:cpp/synopsis/iterator")] Concept [`indirectly_comparable`](../iterator/indirectly_comparable.html "cpp/iterator/indirectly comparable")
+#### Concept [`indirectly_comparable`](../iterator/indirectly_comparable.html "cpp/iterator/indirectly comparable")
     
     
     namespace std {
@@ -1263,7 +1263,7 @@ Defined in namespace `std::ranges`
           indirect_predicate<R, [projected](http://en.cppreference.com/w/cpp/ranges-placeholder/iterator/projected)<I1, P1>, [projected](http://en.cppreference.com/w/cpp/ranges-placeholder/iterator/projected)<I2, P2>>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/iterator&action=edit&section=T-26 "Template:cpp/synopsis/iterator")] Concept [`permutable`](../iterator/permutable.html "cpp/iterator/permutable")
+#### Concept [`permutable`](../iterator/permutable.html "cpp/iterator/permutable")
     
     
     namespace std {
@@ -1274,7 +1274,7 @@ Defined in namespace `std::ranges`
           indirectly_swappable<I, I>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/iterator&action=edit&section=T-27 "Template:cpp/synopsis/iterator")] Concept [`mergeable`](../iterator/mergeable.html "cpp/iterator/mergeable")
+#### Concept [`mergeable`](../iterator/mergeable.html "cpp/iterator/mergeable")
     
     
     namespace std {
@@ -1289,7 +1289,7 @@ Defined in namespace `std::ranges`
           indirect_strict_weak_order<R, [projected](http://en.cppreference.com/w/cpp/ranges-placeholder/iterator/projected)<I1, P1>, [projected](http://en.cppreference.com/w/cpp/ranges-placeholder/iterator/projected)<I2, P2>>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/iterator&action=edit&section=T-28 "Template:cpp/synopsis/iterator")] Concept [`sortable`](../iterator/sortable.html "cpp/iterator/sortable")
+#### Concept [`sortable`](../iterator/sortable.html "cpp/iterator/sortable")
     
     
     namespace std {
@@ -1299,7 +1299,7 @@ Defined in namespace `std::ranges`
           indirect_strict_weak_order<R, [projected](http://en.cppreference.com/w/cpp/ranges-placeholder/iterator/projected)<I, P>>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/iterator&action=edit&section=T-29 "Template:cpp/synopsis/iterator")] Class template [std::incrementable_traits](../iterator/incrementable_traits.html "cpp/iterator/incrementable traits")
+#### Class template [std::incrementable_traits](../iterator/incrementable_traits.html "cpp/iterator/incrementable traits")
     
     
     namespace std {
@@ -1332,7 +1332,7 @@ Defined in namespace `std::ranges`
         using iter_difference_t = /* see description */;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/iterator&action=edit&section=T-30 "Template:cpp/synopsis/iterator")] Class template [std::indirectly_readable_traits](../iterator/readable_traits.html "cpp/iterator/indirectly readable traits")
+#### Class template [std::indirectly_readable_traits](../iterator/readable_traits.html "cpp/iterator/indirectly readable traits")
     
     
     namespace std {
@@ -1370,7 +1370,7 @@ Defined in namespace `std::ranges`
         : /*cond_value_type*/<typename T::element_type> { };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/iterator&action=edit&section=T-31 "Template:cpp/synopsis/iterator")] Class template [std::projected](../iterator/projected.html "cpp/iterator/projected")
+#### Class template [std::projected](../iterator/projected.html "cpp/iterator/projected")
     
     
     namespace std {
@@ -1388,7 +1388,7 @@ Defined in namespace `std::ranges`
       using [projected](http://en.cppreference.com/w/cpp/ranges-placeholder/iterator/projected) = /*projected-impl*/<I, Proj>::/*type*/;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/iterator&action=edit&section=T-32 "Template:cpp/synopsis/iterator")] Class template [std::iterator_traits](../iterator/iterator_traits.html "cpp/iterator/iterator traits")
+#### Class template [std::iterator_traits](../iterator/iterator_traits.html "cpp/iterator/iterator traits")
     
     
     namespace std {
@@ -1413,7 +1413,7 @@ Defined in namespace `std::ranges`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/iterator&action=edit&section=T-33 "Template:cpp/synopsis/iterator")] Iterator tags
+#### Iterator tags
     
     
     namespace std {
@@ -1425,7 +1425,7 @@ Defined in namespace `std::ranges`
       struct contiguous_iterator_tag: public random_access_iterator_tag { };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/iterator&action=edit&section=T-34 "Template:cpp/synopsis/iterator")] Class template [std::reverse_iterator](../iterator/reverse_iterator.html "cpp/iterator/reverse iterator")
+#### Class template [std::reverse_iterator](../iterator/reverse_iterator.html "cpp/iterator/reverse iterator")
     
     
     namespace std {
@@ -1472,7 +1472,7 @@ Defined in namespace `std::ranges`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/iterator&action=edit&section=T-35 "Template:cpp/synopsis/iterator")] Class template [std::back_insert_iterator](../iterator/back_insert_iterator.html "cpp/iterator/back insert iterator")
+#### Class template [std::back_insert_iterator](../iterator/back_insert_iterator.html "cpp/iterator/back insert iterator")
     
     
     namespace std {
@@ -1500,7 +1500,7 @@ Defined in namespace `std::ranges`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/iterator&action=edit&section=T-36 "Template:cpp/synopsis/iterator")] Class template [std::front_insert_iterator](../iterator/front_insert_iterator.html "cpp/iterator/front insert iterator")
+#### Class template [std::front_insert_iterator](../iterator/front_insert_iterator.html "cpp/iterator/front insert iterator")
     
     
     namespace std {
@@ -1529,7 +1529,7 @@ Defined in namespace `std::ranges`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/iterator&action=edit&section=T-37 "Template:cpp/synopsis/iterator")] Class template [std::insert_iterator](../iterator/insert_iterator.html "cpp/iterator/insert iterator")
+#### Class template [std::insert_iterator](../iterator/insert_iterator.html "cpp/iterator/insert iterator")
     
     
     namespace std {
@@ -1558,7 +1558,7 @@ Defined in namespace `std::ranges`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/iterator&action=edit&section=T-38 "Template:cpp/synopsis/iterator")] Class template [std::move_iterator](../iterator/move_iterator.html "cpp/iterator/move iterator")
+#### Class template [std::move_iterator](../iterator/move_iterator.html "cpp/iterator/move iterator")
     
     
     namespace std {
@@ -1616,7 +1616,7 @@ Defined in namespace `std::ranges`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/iterator&action=edit&section=T-39 "Template:cpp/synopsis/iterator")] Class template [std::move_sentinel](../iterator/move_sentinel.html "cpp/iterator/move sentinel")
+#### Class template [std::move_sentinel](../iterator/move_sentinel.html "cpp/iterator/move sentinel")
     
     
     namespace std {
@@ -1638,7 +1638,7 @@ Defined in namespace `std::ranges`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/iterator&action=edit&section=T-40 "Template:cpp/synopsis/iterator")] Class template [std::common_iterator](../iterator/common_iterator.html "cpp/iterator/common iterator")
+#### Class template [std::common_iterator](../iterator/common_iterator.html "cpp/iterator/common iterator")
     
     
     namespace std {
@@ -1708,14 +1708,14 @@ Defined in namespace `std::ranges`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/iterator&action=edit&section=T-41 "Template:cpp/synopsis/iterator")] Class [std::default_sentinel_t](../iterator/default_sentinel.html "cpp/iterator/default sentinel t")
+#### Class [std::default_sentinel_t](../iterator/default_sentinel.html "cpp/iterator/default sentinel t")
     
     
     namespace std {
       struct default_sentinel_t { };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/iterator&action=edit&section=T-42 "Template:cpp/synopsis/iterator")] Class template [std::counted_iterator](../iterator/counted_iterator.html "cpp/iterator/counted iterator")
+#### Class template [std::counted_iterator](../iterator/counted_iterator.html "cpp/iterator/counted iterator")
     
     
     namespace std {
@@ -1804,7 +1804,7 @@ Defined in namespace `std::ranges`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/iterator&action=edit&section=T-43 "Template:cpp/synopsis/iterator")] Class [std::unreachable_sentinel_t](../iterator/unreachable_sentinel_t.html "cpp/iterator/unreachable sentinel t")
+#### Class [std::unreachable_sentinel_t](../iterator/unreachable_sentinel_t.html "cpp/iterator/unreachable sentinel t")
     
     
     namespace std {
@@ -1815,7 +1815,7 @@ Defined in namespace `std::ranges`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/iterator&action=edit&section=T-44 "Template:cpp/synopsis/iterator")] Class template [std::istream_iterator](../iterator/istream_iterator.html "cpp/iterator/istream iterator")
+#### Class template [std::istream_iterator](../iterator/istream_iterator.html "cpp/iterator/istream iterator")
     
     
     namespace std {
@@ -1852,7 +1852,7 @@ Defined in namespace `std::ranges`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/iterator&action=edit&section=T-45 "Template:cpp/synopsis/iterator")] Class template [std::ostream_iterator](../iterator/ostream_iterator.html "cpp/iterator/ostream iterator")
+#### Class template [std::ostream_iterator](../iterator/ostream_iterator.html "cpp/iterator/ostream iterator")
     
     
     namespace std {
@@ -1886,7 +1886,7 @@ Defined in namespace `std::ranges`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/iterator&action=edit&section=T-46 "Template:cpp/synopsis/iterator")] Class template [std::istreambuf_iterator](../iterator/istreambuf_iterator.html "cpp/iterator/istreambuf iterator")
+#### Class template [std::istreambuf_iterator](../iterator/istreambuf_iterator.html "cpp/iterator/istreambuf iterator")
     
     
     namespace std {
@@ -1936,7 +1936,7 @@ Defined in namespace `std::ranges`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/iterator&action=edit&section=T-47 "Template:cpp/synopsis/iterator")] Class template [std::ostreambuf_iterator](../iterator/ostreambuf_iterator.html "cpp/iterator/ostreambuf iterator")
+#### Class template [std::ostreambuf_iterator](../iterator/ostreambuf_iterator.html "cpp/iterator/ostreambuf iterator")
     
     
     namespace std {
@@ -1968,7 +1968,7 @@ Defined in namespace `std::ranges`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/iterator&action=edit&section=T-48 "Template:cpp/synopsis/iterator")] Class template [std::iterator](../iterator/iterator.html "cpp/iterator/iterator")
+#### Class template [std::iterator](../iterator/iterator.html "cpp/iterator/iterator")
     
     
     namespace std {
@@ -1983,7 +1983,7 @@ Defined in namespace `std::ranges`
       };
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/iterator&action=edit&section=2 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 Defined in header `[<stdckdint.h>](../header/stdckdint.h.html "cpp/header/stdckdint.h")` |  |   
 ---|---|---  
@@ -109,17 +109,17 @@ Computes the subtraction x - y and stores the result into *result. The subtracti
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:c/numeric/ckd_op&action=edit&section=T-1 "Template:c/numeric/ckd op")] Parameters
+### Parameters
 
 a, b  |  \-  |  integer values   
 ---|---|---  
 result  |  \-  |  address of where result should be stored   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:c/numeric/ckd_op&action=edit&section=T-2 "Template:c/numeric/ckd op")] Return value
+### Return value
 
 false if the value assigned to *result correctly represents the mathematical result of the subtraction, true otherwise. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:c/numeric/ckd_op&action=edit&section=T-3 "Template:c/numeric/ckd op")] Note
+### Note
 
 The function template `ckd_sub` has the same semantics as the corresponding [type-generic macro](../../c/language/generic.html "c/language/generic") with the same name specified in [C23](../../c/numeric/ckd_sub.html "c/numeric/ckd sub"). 
 
@@ -127,13 +127,13 @@ Each of the types type1, type2, and type3 is a cv-unqualified signed or unsigned
 
 It is recommended to produce a diagnostic message if type2 or type3 are not suitable integer types, or if *result is not a modifiable lvalue of a suitable integer type. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:c/numeric/ckd_op&action=edit&section=T-4 "Template:c/numeric/ckd op")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:c/numeric/ckd_op&action=edit&section=T-5 "Template:c/numeric/ckd op")] References
+### References
 
   * C++26 standard (ISO/IEC 14882:2026): 
 
@@ -145,11 +145,11 @@ Reason: no example
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:c/numeric/ckd_op&action=edit&section=T-6 "Template:c/numeric/ckd op")] See also
+### See also
 
 [ ckd_add](ckd_add.html "cpp/numeric/ckd add")(C++26) |  checked addition operation on two integers   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/dsc_ckd_add&action=edit)  
+(function template)   
 ---|---  
 [ ckd_mul](ckd_mul.html "cpp/numeric/ckd mul")(C++26) |  checked multiplication operation on two integers   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/dsc_ckd_mul&action=edit)  
+(function template)   
 [C documentation](../../c/numeric/ckd_sub.html "c/numeric/ckd sub") for ckd_sub

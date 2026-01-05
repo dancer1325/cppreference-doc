@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](../language/history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [Keywords](../keywords.html "cpp/keyword")
 
@@ -340,12 +340,12 @@ Identifiers with special meaning
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/keyword/navbar_content&action=edit)
+
 
 ![](https://upload.cppreference.com/mwiki/images/3/31/Imbox_notice.png) |  **Experimental Feature** The functionality described on this page is part of the Reflection Technical Specification ISO/IEC TS 23619 (reflection TS).   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/keyword/reflexpr&action=edit&section=1 "Edit section: Usage")] Usage
+### Usage
 
 1) Gets the member list of a [class](class.html "cpp/keyword/class") type, or the enumerator list of an [enum](enum.html "cpp/keyword/enum") type.
 
@@ -357,7 +357,7 @@ Identifiers with special meaning
 
 5) Get the _row_ and _column_ of the source code when the type defines.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/keyword/reflexpr&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 `**reflexpr**` provides us the meta info of the object via _meta-object types_. Note that `std::reflect::get_data_members_t` make programmers able to visit any class just like [std::tuple](../utility/tuple.html "cpp/utility/tuple").
 

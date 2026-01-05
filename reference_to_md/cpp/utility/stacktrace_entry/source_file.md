@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Diagnostics library](../../error.html "cpp/error")
 
@@ -89,7 +89,7 @@ Exception handling failures
 [breakpoint_if_debugging](../breakpoint_if_debugging.html "cpp/utility/breakpoint if debugging")(C++26)  
 [breakpoint](../breakpoint.html "cpp/utility/breakpoint")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/navbar_content&action=edit)
+
 
 [`std::stacktrace_entry`](../stacktrace_entry.html "cpp/utility/stacktrace entry")
 
@@ -113,7 +113,7 @@ operator<=>](operator_cmp.html "cpp/utility/stacktrace entry/operator cmp")
 [hash<std::stacktrace_entry>](hash.html "cpp/utility/stacktrace entry/hash")  
 [formatter<std::stacktrace_entry>](formatter.html "cpp/utility/stacktrace entry/formatter")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/stacktrace_entry/navbar_content&action=edit)
+
 
 [std::string](../../string/basic_string.html) source_file() const; |  |  (since C++23)  
 ---|---|---  
@@ -135,19 +135,19 @@ Either `source_file` returns the presumed source file name and [`source_line`](s
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/stacktrace_entry/source_file&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/stacktrace_entry/source_file&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The name of the source file specified above on success, an empty string on failure other than allocation failure. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/stacktrace_entry/source_file&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Throws [std::bad_alloc](../../memory/new/bad_alloc.html "cpp/memory/new/bad alloc") if memory for the internal data structures or the resulting string cannot be allocated. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/stacktrace_entry/source_file&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 The presumed name of the source file is what the predefined macro [`__FILE__`](../../preprocessor/replace.html "cpp/preprocessor/replace") expands to, and can be changed by the [` #line`](../../preprocessor/line.html "cpp/preprocessor/line") directive. 
 
@@ -157,14 +157,14 @@ Reason: definition of "actual name" is missing ([LWG issue 3507](https://cpluspl
   
 Custom allocators support for this function is not provided, because the implementations usually require platform specific allocations, system calls and a lot of CPU intensive work, while a custom allocator does not provide benefits for this function as the platform specific operations take an order of magnitude more time than the allocation. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/stacktrace_entry/source_file&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/stacktrace_entry/source_file&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ file_name](../source_location/file_name.html "cpp/utility/source location/file name") |  return the file name represented by this object   
-(public member function of `std::source_location`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/source_location/dsc_file_name&action=edit)  
+(public member function of `std::source_location`)   
 ---|---

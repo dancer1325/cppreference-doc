@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Null-terminated multibyte strings](../multibyte.html "cpp/string/multibyte")
 
@@ -100,7 +100,7 @@ MB_CUR_MAX](../multibyte.html#Macros "cpp/string/multibyte")
 [__STDC_UTF_16__  
 __STDC_UTF_32__](../multibyte.html#Macros "cpp/string/multibyte")(C++11)(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/navbar_content&action=edit)
+
 
 Defined in header `[<cuchar>](../../header/cuchar.html "cpp/header/cuchar")` |  |   
 ---|---|---  
@@ -130,24 +130,24 @@ The multibyte encoding used by this function is specified by the currently activ
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/multibyte/c16rtomb&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 s  |  \-  |  pointer to narrow character array where the multibyte character will be stored   
 ---|---|---  
 c16  |  \-  |  the 16-bit character to convert   
 ps  |  \-  |  pointer to the conversion state object used when interpreting the multibyte string   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/multibyte/c16rtomb&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 On success, returns the number of bytes (including any shift sequences) written to the character array whose first element is pointed to by s. This value may be ​0​, e.g. when processing the first char16_t in a surrogate pair. 
 
 On failure (if c16 is not a valid 16-bit character), returns -1, stores [EILSEQ](../../error/errno_macros.html "cpp/error/errno macros") in [errno](../../error/errno.html "cpp/error/errno"), and leaves *ps in unspecified state. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/multibyte/c16rtomb&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 The C++ standard defers to the C standard for the semantics of this function. In C11 as published, unlike [std::mbrtoc16](mbrtoc16.html "cpp/string/multibyte/mbrtoc16"), which converts variable-width multibyte (such as UTF-8) to variable-width 16-bit (such as UTF-16) encoding, this function can only convert single-unit 16-bit encoding, meaning it cannot convert UTF-16 to UTF-8 despite that being the original intent of this function. This was corrected by the post-C11 defect report [DR488](https://open-std.org/JTC1/SC22/WG14/www/docs/n2059.htm#dr_488). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/multibyte/c16rtomb&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 The example assumes that the fix for the [defect report 488](https://open-std.org/JTC1/SC22/WG14/www/docs/n2059.htm#dr_488) is applied.
 
@@ -193,13 +193,13 @@ Output:
     0xd83c converted to [ ]
     0xdf4c converted to [ 0xf0 0x9f 0x8d 0x8c ]
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/multibyte/c16rtomb&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ mbrtoc16](mbrtoc16.html "cpp/string/multibyte/mbrtoc16")(C++11) |  converts a narrow multibyte character to UTF-16 encoding   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/dsc_mbrtoc16&action=edit)  
+(function)   
 ---|---  
 [ c8rtomb](c8rtomb.html "cpp/string/multibyte/c8rtomb")(C++20) |  converts UTF-8 string to narrow multibyte encoding   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/dsc_c8rtomb&action=edit)  
+(function)   
 [ do_out](../../locale/codecvt/out.html "cpp/locale/codecvt/out")[virtual] |  converts a string from `InternT` to `ExternT`, such as when writing to file   
-(virtual protected member function of `std::codecvt<InternT,ExternT,StateT>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/codecvt/dsc_do_out&action=edit)  
+(virtual protected member function of `std::codecvt<InternT,ExternT,StateT>`)   
 [C documentation](../../../c/string/multibyte/c16rtomb.html "c/string/multibyte/c16rtomb") for c16rtomb

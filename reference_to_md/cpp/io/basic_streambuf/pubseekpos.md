@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_streambuf`](../basic_streambuf.html "cpp/io/basic streambuf")
 
@@ -152,7 +152,7 @@ Put area
 Putback  
 [basic_streambuf::pbackfail](pbackfail.html "cpp/io/basic streambuf/pbackfail")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_streambuf/navbar_content&action=edit)
+
 
 pos_type pubseekpos( pos_type pos,  
 [std::ios_base::openmode](../ios_base/openmode.html) which = [std::ios_base::in](../ios_base/openmode.html) | [std::ios_base::out](../ios_base/openmode.html) ); |  (1)  |   
@@ -179,7 +179,7 @@ Sets the position indicator of the input and/or output sequence to an absolute p
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_streambuf/pubseekpos&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 pos  |  \-  |  absolute position to set the position indicator to   
 ---|---|---  
@@ -188,19 +188,19 @@ which  |  \-  |  defines which of the input and/or output sequences to affect. I
 [`in`](../ios_base/openmode.html "cpp/io/ios base/openmode") |  affect the input sequence   
 [`out`](../ios_base/openmode.html "cpp/io/ios base/openmode") |  affect the output sequence   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_streambuf/pubseekpos&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) The return value of seekpos(pos, which).
 
 2) The resulting absolute position as defined by the position indicator. The base class version returns pos_type(off_type(-1)).
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_streambuf/pubseekpos&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_streambuf/pubseekpos&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -209,14 +209,14 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [LWG 55](https://cplusplus.github.io/LWG/issue55) | C++98  | the base class version of `seekpos` returned  
 an undefined invalid stream position  | returns pos_type(off_type(-1))  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_streambuf/pubseekpos&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ pubseekoff](pubseekoff.html "cpp/io/basic streambuf/pubseekoff") |  invokes seekoff()   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_streambuf/dsc_pubseekoff&action=edit)  
+(public member function)   
 ---|---  
 [ seekpos](../basic_filebuf/seekpos.html "cpp/io/basic filebuf/seekpos")[virtual] |  repositions the file position, using absolute addressing   
-(virtual protected member function of `std::basic_filebuf<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_filebuf/dsc_seekpos&action=edit)  
+(virtual protected member function of `std::basic_filebuf<CharT,Traits>`)   
 [ seekpos](../basic_stringbuf/seekpos.html "cpp/io/basic stringbuf/seekpos")[virtual] |  repositions the next pointer in the input sequence, output sequence, or both using absolute addressing   
-(virtual protected member function of `std::basic_stringbuf<CharT,Traits,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_stringbuf/dsc_seekpos&action=edit)  
+(virtual protected member function of `std::basic_stringbuf<CharT,Traits,Allocator>`)   
 [ seekpos](../strstreambuf/seekpos.html "cpp/io/strstreambuf/seekpos")[virtual] |  repositions the next pointer in the input sequence, output sequence, or both using absolute addressing   
-(virtual protected member function of `std::strstreambuf`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/strstreambuf/dsc_seekpos&action=edit)
+(virtual protected member function of `std::strstreambuf`) 

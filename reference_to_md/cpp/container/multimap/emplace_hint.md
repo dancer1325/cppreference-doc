@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::multimap`](../multimap.html "cpp/container/multimap")
 
@@ -133,7 +133,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/multimap/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/multimap/navbar_content&action=edit)
+
 
 template< class... Args >  
 iterator emplace_hint( const_iterator hint, Args&&... args ); |  | (since C++11)   
@@ -159,34 +159,34 @@ No iterators or references are invalidated.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/emplace_hint&action=edit&section=T-1 "Template:cpp/container/emplace hint")] Parameters
+### Parameters
 
 hint  |  \-  |  iterator to the position before which the new element will be inserted   
 ---|---|---  
 args  |  \-  |  arguments to forward to the constructor of the element   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/emplace_hint&action=edit&section=T-2 "Template:cpp/container/emplace hint")] Return value
+### Return value
 
 An iterator to the inserted element. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/emplace_hint&action=edit&section=T-3 "Template:cpp/container/emplace hint")] Exceptions
+### Exceptions
 
 If an exception is thrown for any reason, this function has no effect ([strong exception safety guarantee](../../language/exceptions.html#Exception_safety "cpp/language/exceptions")). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/emplace_hint&action=edit&section=T-4 "Template:cpp/container/emplace hint")] Complexity
+### Complexity
 
 Logarithmic in the size of the container in general, but amortized constant if the new element is inserted just before hint. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/emplace_hint&action=edit&section=T-5 "Template:cpp/container/emplace hint")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/emplace_hint&action=edit&section=T-6 "Template:cpp/container/emplace hint")] See also
+### See also
 
 [ emplace](emplace.html "cpp/container/multimap/emplace")(C++11) |  constructs element in-place   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_emplace&action=edit)  
+(public member function)   
 ---|---  
 [ insert](insert.html "cpp/container/multimap/insert") |  inserts elements or nodes(since C++17)   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_insert&action=edit)
+(public member function) 

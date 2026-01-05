@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::sys_info`](../sys_info.html "cpp/chrono/sys info")
 
@@ -111,7 +111,7 @@ Non-member functions
 Helper classes  
 [formatter<std::chrono::sys_info>](formatter.html "cpp/chrono/sys info/formatter")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/sys_info/navbar_content&action=edit)
+
 
 Defined in header `[<chrono>](../../header/chrono.html "cpp/header/chrono")` |  |   
 ---|---|---  
@@ -122,17 +122,17 @@ const [std::chrono::sys_info](../sys_info.html)& r ); |  |  (since C++20)
   
 Inserts a textual representation of r into os. The exact format is unspecified. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/sys_info/operator_ltlt&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 os  |  \-  |  an output stream to insert information object into   
 ---|---|---  
 r  |  \-  |  a time zone information object   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/sys_info/operator_ltlt&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 os
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/sys_info/operator_ltlt&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

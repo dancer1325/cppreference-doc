@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Diagnostics library](../error.html "cpp/error")
 
@@ -89,7 +89,7 @@ Exception handling failures
 [breakpoint_if_debugging](../utility/breakpoint_if_debugging.html "cpp/utility/breakpoint if debugging")(C++26)  
 [breakpoint](../utility/breakpoint.html "cpp/utility/breakpoint")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/navbar_content&action=edit)
+
 
 Defined in header `[<exception>](../header/exception.html "cpp/header/exception")` |  |   
 ---|---|---  
@@ -121,16 +121,16 @@ Creates an [std::exception_ptr](exception_ptr.html "cpp/error/exception ptr") th
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/make_exception_ptr&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 e  |  \-  |  exception object to create a reference to the copy of   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/make_exception_ptr&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 An instance of [std::exception_ptr](exception_ptr.html "cpp/error/exception ptr") holding a reference to the copy of e, or to an instance of [std::bad_alloc](../memory/new/bad_alloc.html "cpp/memory/new/bad alloc") or to an instance of [std::bad_exception](bad_exception.html "cpp/error/bad exception") (see [std::current_exception](current_exception.html "cpp/error/current exception")). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/make_exception_ptr&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 The parameter is passed by value and is subject to slicing. 
 
@@ -138,16 +138,16 @@ The parameter is passed by value and is subject to slicing.
 ---|---|---|---  
 [`__cpp_lib_constexpr_exceptions`](../experimental/feature_test.html#cpp_lib_constexpr_exceptions "cpp/feature test") | [`202411L`](../compiler_support/26.html#cpp_lib_constexpr_exceptions_202411L "cpp/compiler support/26") | (C++26) | constexpr for exception types   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/make_exception_ptr&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/make_exception_ptr&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ current_exception](current_exception.html "cpp/error/current exception")(C++11) |  captures the current exception in a [std::exception_ptr](exception_ptr.html "cpp/error/exception ptr")   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_current_exception&action=edit)  
+(function)   
 ---|---
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

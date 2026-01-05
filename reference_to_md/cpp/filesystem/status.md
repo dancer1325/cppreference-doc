@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Filesystem library](../filesystem.html "cpp/filesystem")
 
@@ -100,7 +100,7 @@ filesystem::symlink_status**
 [filesystem::is_socket](is_socket.html "cpp/filesystem/is socket")  
 [filesystem::is_symlink](is_symlink.html "cpp/filesystem/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/navbar_content&action=edit)
+
 
 Defined in header `[<filesystem>](../header/filesystem.html "cpp/header/filesystem")` |  |   
 ---|---|---  
@@ -150,17 +150,17 @@ Defined in header `[<filesystem>](../header/filesystem.html "cpp/header/filesyst
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/status&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 p  |  \-  |  path to examine   
 ---|---|---  
 ec  |  \-  |  out-parameter for error reporting in the non-throwing overload   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/status&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The file status (a [filesystem::file_status](file_status.html "cpp/filesystem/file status") object). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/status&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Any overload not marked `noexcept` may throw [std::bad_alloc](../memory/new/bad_alloc.html "cpp/memory/new/bad alloc") if memory allocation fails.  
 
@@ -169,11 +169,11 @@ Any overload not marked `noexcept` may throw [std::bad_alloc](../memory/new/bad_
 
 2,4) Sets a [std::error_code](../error/error_code.html)& parameter to the OS API error code if an OS API call fails, and executes ec.[`clear`](../error/error_code/clear.html "cpp/error/error code/clear")() if no errors occur.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/status&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 The information provided by this function is usually also provided as a byproduct of directory iteration, and may be obtained by the member functions of [filesystem::directory_entry](directory_entry.html "cpp/filesystem/directory entry"). During directory iteration, calling `status` again is unnecessary. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/status&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -251,31 +251,31 @@ Possible output:
     "/dev/sda" is a block device
     "sandbox/no" does not exist
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/status&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ file_status](file_status.html "cpp/filesystem/file status")(C++17) |  represents file type and permissions   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_file_status&action=edit)  
+(class)   
 ---|---  
 [ status_known](status_known.html "cpp/filesystem/status known")(C++17) |  checks whether file status is known   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_status_known&action=edit)  
+(function)   
 [ is_block_file](is_block_file.html "cpp/filesystem/is block file")(C++17) |  checks whether the given path refers to block device   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_is_block_file&action=edit)  
+(function)   
 [ is_character_file](is_character_file.html "cpp/filesystem/is character file")(C++17) |  checks whether the given path refers to a character device   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_is_character_file&action=edit)  
+(function)   
 [ is_directory](is_directory.html "cpp/filesystem/is directory")(C++17) |  checks whether the given path refers to a directory   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_is_directory&action=edit)  
+(function)   
 [ is_fifo](is_fifo.html "cpp/filesystem/is fifo")(C++17) |  checks whether the given path refers to a named pipe   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_is_fifo&action=edit)  
+(function)   
 [ is_other](is_other.html "cpp/filesystem/is other")(C++17) |  checks whether the argument refers to an _other_ file   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_is_other&action=edit)  
+(function)   
 [ is_regular_file](is_regular_file.html "cpp/filesystem/is regular file")(C++17) |  checks whether the argument refers to a regular file   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_is_regular_file&action=edit)  
+(function)   
 [ is_socket](is_socket.html "cpp/filesystem/is socket")(C++17) |  checks whether the argument refers to a named IPC socket   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_is_socket&action=edit)  
+(function)   
 [ is_symlink](is_symlink.html "cpp/filesystem/is symlink")(C++17) |  checks whether the argument refers to a symbolic link   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_is_symlink&action=edit)  
+(function)   
 [ exists](exists.html "cpp/filesystem/exists")(C++17) |  checks whether path refers to existing file system object   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_exists&action=edit)  
+(function)   
 [ statussymlink_status](directory_entry/status.html "cpp/filesystem/directory entry/status") |  status of the file designated by this directory entry;  
 status of the file/symlink designated by this directory entry   
-(public member function of `std::filesystem::directory_entry`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/directory_entry/dsc_status&action=edit)
+(public member function of `std::filesystem::directory_entry`) 

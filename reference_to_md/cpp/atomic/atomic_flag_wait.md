@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 Defined in header `[<atomic>](../header/atomic.html "cpp/header/atomic")` |  |   
 ---|---|---  
@@ -209,37 +209,37 @@ These functions are guaranteed to return only if value has changed, even if unde
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_flag_wait&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 object  |  \-  |  pointer to the atomic flag to check and wait on   
 ---|---|---  
 old  |  \-  |  the value to check the atomic flag no longer contains   
 order  |  \-  |  the memory synchronization ordering   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_flag_wait&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_flag_wait&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 This form of change-detection is often more efficient than simple polling or pure spinlocks. 
 
 Due to the [ABA problem](https://en.wikipedia.org/wiki/ABA_problem "enwiki:ABA problem"), transient changes from old to another value and back to old might be missed, and not unblock. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_flag_wait&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_flag_wait&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ notify_one](atomic_flag/notify_one.html "cpp/atomic/atomic flag/notify one")(C++20) |  notifies at least one thread waiting on the atomic object   
-(public member function of `std::atomic_flag`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_notify_one&action=edit)  
+(public member function of `std::atomic_flag`)   
 ---|---  
 [ notify_all](atomic_flag/notify_all.html "cpp/atomic/atomic flag/notify all")(C++20) |  notifies all threads blocked waiting on the atomic object   
-(public member function of `std::atomic_flag`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_notify_all&action=edit)  
+(public member function of `std::atomic_flag`)   
 [ atomic_flag_notify_one](atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20) |  notifies a thread blocked in atomic_flag_wait   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/dsc_atomic_flag_notify_one&action=edit)  
+(function)   
 [ atomic_flag_notify_all](atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20) |  notifies all threads blocked in atomic_flag_wait   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/dsc_atomic_flag_notify_all&action=edit)
+(function) 

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Strings library](../../string.html "cpp/string")
 
@@ -40,7 +40,7 @@ Classes
 [basic_string_view](../basic_string_view.html "cpp/string/basic string view")(C++17)  
 [char_traits](../char_traits.html "cpp/string/char traits")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/navbar_content&action=edit)
+
 
 [`std::basic_string`](../basic_string.html "cpp/string/basic string")
 
@@ -133,7 +133,7 @@ basic_string_view](operator_basic_string_view.html "cpp/string/basic string/oper
 [hash<std::basic_string>](hash.html "cpp/string/basic string/hash")(C++11)  
 [Deduction guides](deduction_guides.html "cpp/string/basic string/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/navbar_content&action=edit)
+
 
 int compare( const basic_string& str ) const; |  (1) | (noexcept since C++11)   
 (constexpr since C++20)  
@@ -237,7 +237,7 @@ size1 > size2 | data1 is _greater_ than data2 | >0
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/compare&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 str  |  \-  |  other string to compare to   
 ---|---|---  
@@ -248,7 +248,7 @@ count2  |  \-  |  number of characters of the given string to compare
 pos2  |  \-  |  position of the first character of the given string to compare   
 t  |  \-  |  object (convertible to [std::basic_string_view](../basic_string_view.html "cpp/string/basic string view")) to compare to   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/compare&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
   * Negative value if *this appears before the character sequence specified by the arguments, in lexicographical order. 
   * Zero if both character sequences compare equivalent. 
@@ -256,7 +256,7 @@ t  |  \-  |  object (convertible to [std::basic_string_view](../basic_string_vie
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/compare&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 The overloads taking parameters named pos1 or pos2 throws [std::out_of_range](../../error/out_of_range.html "cpp/error/out of range") if the argument is out of range. 
 
@@ -270,7 +270,7 @@ noexcept([std::is_nothrow_convertible_v](../../types/is_convertible.html)<const 
 
 If an exception is thrown for any reason, this function has no effect ([strong exception safety guarantee](../../language/exceptions.html#Exception_safety "cpp/language/exceptions")). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/compare&action=edit&section=4 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
 
 [overload (1)](compare.html#Version_1)  
 ---  
@@ -292,13 +292,13 @@ If an exception is thrown for any reason, this function has no effect ([strong e
         return 0;
     }  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/compare&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 For the situations when three-way comparison is not required, [std::basic_string](../basic_string.html "cpp/string/basic string") provides the usual [relational operators](operator_cmp.html "cpp/string/basic string/operator cmp") (`<`, `<=`, `==`, `>`, etc). 
 
 By default (with the default [std::char_traits](../char_traits.html "cpp/string/char traits")), this function is not locale-sensitive. See [std::collate::compare](../../locale/collate/compare.html "cpp/locale/collate/compare") for locale-aware three-way string comparison. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/compare&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -375,7 +375,7 @@ Output:
     5) "Superman" comes before "man".
     6) "Bat" comes before "Super".
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/compare&action=edit&section=7 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -389,18 +389,18 @@ split to overloads (5) and (6)
 [P1148R0](https://wg21.link/P1148R0) | C++17  | noexcept for overload (7) was accidentally  
 dropped by the resolution of LWG2946  | restored   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/compare&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [ operator==operator!=operator<operator>operator<=operator>=operator<=>](operator_cmp.html "cpp/string/basic string/operator cmp")(removed in C++20)(removed in C++20)(removed in C++20)(removed in C++20)(removed in C++20)(C++20) |  lexicographically compares two strings   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_operator_cmp&action=edit)  
+(function template)   
 ---|---  
 [ substr](substr.html "cpp/string/basic string/substr") |  returns a substring   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_substr&action=edit)  
+(public member function)   
 [ collate](../../locale/collate.html "cpp/locale/collate") |  defines lexicographical comparison and hashing of strings   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_collate&action=edit)  
+(class template)   
 [ strcoll](../byte/strcoll.html "cpp/string/byte/strcoll") |  compares two strings in accordance to the current locale   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strcoll&action=edit)  
+(function)   
 [ lexicographical_compare](../../algorithm/lexicographical_compare.html "cpp/algorithm/lexicographical compare") |  returns true if one range is lexicographically less than another   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_lexicographical_compare&action=edit)  
+(function template)   
 [ compare](../basic_string_view/compare.html "cpp/string/basic string view/compare") |  compares two views   
-(public member function of `std::basic_string_view<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/dsc_compare&action=edit)
+(public member function of `std::basic_string_view<CharT,Traits>`) 

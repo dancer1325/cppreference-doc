@@ -32,7 +32,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../../numeric.html "cpp/numeric")
 
@@ -89,7 +89,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [Pseudo-random number generation](../../random.html "cpp/numeric/random")
 
@@ -163,7 +163,7 @@
 [piecewise_constant_distribution](../piecewise_constant_distribution.html "cpp/numeric/random/piecewise constant distribution")(C++11)  
 [piecewise_linear_distribution](../piecewise_linear_distribution.html "cpp/numeric/random/piecewise linear distribution")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/navbar_content&action=edit)
+
 
 [`std::exponential_distribution`](../exponential_distribution.html "cpp/numeric/random/exponential distribution")
 
@@ -182,7 +182,7 @@ Non-member functions
 **operator== operator!=**(C++11)(C++11)(until C++20)  
 [operator<<operator>>](operator_ltltgtgt.html "cpp/numeric/random/exponential distribution/operator ltltgtgt")(C++11)(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/exponential_distribution/navbar_content&action=edit)
+
 
 friend bool operator==( const exponential_distribution& lhs,  
 const exponential_distribution& rhs ); |  (1)  |  (since C++11)  
@@ -213,22 +213,22 @@ The `!=` operator is [synthesized](../../../language/default_comparisons.html#Ot
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/distribution/operator_cmp&action=edit&section=T-1 "Template:cpp/numeric/random/distribution/operator cmp")] Parameters
+### Parameters
 
 lhs, rhs  |  \-  |  distribution objects to compare   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/distribution/operator_cmp&action=edit&section=T-2 "Template:cpp/numeric/random/distribution/operator cmp")] Return value
+### Return value
 
 1) true if the distribution objects are equal, false otherwise.
 
 2) true if the distribution objects are not equal, false otherwise.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/distribution/operator_cmp&action=edit&section=T-3 "Template:cpp/numeric/random/distribution/operator cmp")] Complexity
+### Complexity
 
 Constant. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/distribution/operator_cmp&action=edit&section=T-4 "Template:cpp/numeric/random/distribution/operator cmp")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

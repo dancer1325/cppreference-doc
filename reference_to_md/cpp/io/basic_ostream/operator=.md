@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_ostream`](../basic_ostream.html "cpp/io/basic ostream")
 
@@ -116,7 +116,7 @@ Non-member functions
 [vprint_unicode(std::ostream)](vprint_unicode.html "cpp/io/basic ostream/vprint unicode")(C++23)  
 [vprint_nonunicode(std::ostream)](vprint_nonunicode.html "cpp/io/basic ostream/vprint nonunicode")(C++23)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ostream/navbar_content&action=edit)
+
 
 protected:  
 basic_ostream& operator=( const basic_ostream& rhs ) = delete; |  (1)  |   
@@ -129,12 +129,12 @@ basic_ostream& operator=( basic_ostream&& rhs ); |  (2)  |  (since C++11)
 
 2) The move assignment operator exchanges all data members of the base class, except for [`rdbuf()`](../basic_ios/rdbuf.html "cpp/io/basic ios/rdbuf"), with rhs, as if by calling swap(*rhs). This move assignment operator is protected: it is only called by the move assignment operators of the derived movable output stream classes [std::basic_ofstream](../basic_ofstream.html "cpp/io/basic ofstream") and [std::basic_ostringstream](../basic_ostringstream.html "cpp/io/basic ostringstream"), which know how to correctly move-assign the associated streambuffers.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_ostream/operator%3D&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 rhs  |  \-  |  the `basic_ostream` object from which to assign to *this  
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_ostream/operator%3D&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -157,7 +157,7 @@ Output:
     
     42
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_ostream/operator%3D&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

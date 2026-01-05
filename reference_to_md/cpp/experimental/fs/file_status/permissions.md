@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Filesystem library](../../fs.html "cpp/experimental/fs")
 
@@ -99,13 +99,13 @@ File types
 [filesystem::is_socket](../is_socket.html "cpp/experimental/fs/is socket")  
 [filesystem::is_symlink](../is_symlink.html "cpp/experimental/fs/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/navbar_content&action=edit)
+
 
 [`file_status`](../file_status.html "cpp/experimental/fs/file status")
 
 [Template:cpp/experimental/fs/file status/navbar content](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/file_status/navbar_content&action=edit&redlink=1 "Template:cpp/experimental/fs/file status/navbar content \(page does not exist\)")
 
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/file_status/navbar_content&action=edit)
+
 
 perms permissions() const; |  (1)  |  (filesystem TS)  
 ---|---|---  
@@ -118,18 +118,18 @@ Accesses the file permissions information.
 
 2) Sets file type to perm.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/file_status/permissions&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 perm  |  \-  |  file permissions to set to   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/file_status/permissions&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) File permissions information.
 
 2) (none)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/file_status/permissions&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 [`noexcept`](../../../language/noexcept_spec.html "cpp/language/noexcept spec") specification: 
 

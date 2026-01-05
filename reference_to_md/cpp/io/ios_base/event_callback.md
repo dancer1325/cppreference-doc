@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::ios_base`](../ios_base.html "cpp/io/ios base")
 
@@ -113,7 +113,7 @@ Member types
 [ios_base::event](event.html "cpp/io/ios base/event")  
 **ios_base::event_callback**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/ios_base/navbar_content&action=edit)
+
 
 typedef void ( *event_callback )( event type, ios_base& ios, int index ); |  |   
 ---|---|---  
@@ -127,14 +127,14 @@ ios refers to the stream object for which the callback is invoked: *this is pass
 
 index is the user-provided value passed to [register_callback()](register_callback.html "cpp/io/ios base/register callback") when registering the function. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/ios_base/event_callback&action=edit&section=1 "Edit section: See also")] See also
+### See also
 
 [ copyfmt](../basic_ios/copyfmt.html "cpp/io/basic ios/copyfmt") |  copies formatting information   
-(public member function of `std::basic_ios<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ios/dsc_copyfmt&action=edit)  
+(public member function of `std::basic_ios<CharT,Traits>`)   
 ---|---  
 [ imbue](imbue.html "cpp/io/ios base/imbue") |  sets locale   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/ios_base/dsc_imbue&action=edit)  
+(public member function)   
 [ (destructor)](~ios_base.html "cpp/io/ios base/~ios base")[virtual] |  destructs the object   
-(virtual public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/ios_base/dsc_destructor&action=edit)  
+(virtual public member function)   
 [ register_callback](register_callback.html "cpp/io/ios base/register callback") |  registers event callback function   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/ios_base/dsc_register_callback&action=edit)
+(public member function) 

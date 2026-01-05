@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Localization library](../locale.html "cpp/locale")
 
@@ -152,7 +152,7 @@ base classes](../locale.html#Facet_category_base_classes "cpp/locale")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/navbar_content&action=edit)
+
 
 Defined in header `[<locale>](../header/locale.html "cpp/header/locale")` |  |   
 ---|---|---  
@@ -161,7 +161,7 @@ class time_base; |  |
   
 The class `std::time_base` provides the date order constants which are inherited by the [std::time_get](time_get.html "cpp/locale/time get") facets. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/time_base&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Member type  |  Description   
 ---|---  
@@ -174,10 +174,10 @@ Enumeration constant  |  Description
 `ymd` |  Year, month, day (Asian) order   
 `ydm` |  Year, day, month   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/time_base&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ do_date_order](time_get/date_order.html "cpp/locale/time get/date order")[virtual] |  obtains preferred ordering of day, month, and year   
-(virtual protected member function of `std::time_get<CharT,InputIt>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/time_get/dsc_do_date_order&action=edit)  
+(virtual protected member function of `std::time_get<CharT,InputIt>`)   
 ---|---  
 [ do_get_date](time_get/get_date.html "cpp/locale/time get/get date")[virtual] |  extracts month, day, and year from input stream   
-(virtual protected member function of `std::time_get<CharT,InputIt>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/time_get/dsc_do_get_date&action=edit)
+(virtual protected member function of `std::time_get<CharT,InputIt>`) 

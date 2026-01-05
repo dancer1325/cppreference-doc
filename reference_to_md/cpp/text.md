@@ -30,7 +30,7 @@
 [Symbols index](symbol_index.html "cpp/symbol index")  
 [External libraries](links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 **Text processing library**
 
@@ -54,7 +54,7 @@
 | [text_encoding](locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 The text processing library includes components for dealing with text. 
 
@@ -71,19 +71,19 @@ The text processing library includes components for dealing with text.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/text&action=edit&section=1 "Edit section: Localization library")] [Localization library](locale.html "cpp/locale")
+### [Localization library](locale.html "cpp/locale")
 
 The headers [`<locale>`](header/locale.html "cpp/header/locale") and [`<clocale>`](header/clocale.html "cpp/header/clocale") provide internationalization support for character classification and string collation, numeric, monetary, and date/time formatting and parsing, and message retrieval. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/text&action=edit&section=2 "Edit section: Regular expressions library \(since C++11\)")] [Regular expressions library](regex.html "cpp/regex") (since C++11)
+### [Regular expressions library](regex.html "cpp/regex") (since C++11)
 
 The header [`<regex>`](header/regex.html "cpp/header/regex") provides a class that represents [regular expressions](https://en.wikipedia.org/wiki/Regular_expression "enwiki:Regular expression"), which are a kind of mini-language used to perform pattern matching within strings. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/text&action=edit&section=3 "Edit section: Formatting library \(since C++20\)")] [Formatting library](utility/format.html "cpp/utility/format") (since C++20)
+### [Formatting library](utility/format.html "cpp/utility/format") (since C++20)
 
 The header [`<format>`](header/format.html "cpp/header/format") provides facilities for type-safe and extensible string formatting that is an alternative to the `printf` family of functions, and intended to complement the existing C++ I/O streams library. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/text&action=edit&section=4 "Edit section: Null-terminated sequence utilities")] Null-terminated sequence utilities
+### Null-terminated sequence utilities
 
 _Null-terminated character sequences_ (NTCTS) are sequences of characters that are terminated by a null character (the value after [value-initialization](language/value_initialization.html "cpp/language/value initialization")). 
 
@@ -94,31 +94,31 @@ The strings library provides functions to create, inspect, and modify such seque
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/text&action=edit&section=5 "Edit section: Primitive numeric conversions \(since C++17\)")] Primitive numeric conversions (since C++17)
+### Primitive numeric conversions (since C++17)
 
 In addition to sophisticated locale-dependent parsers and formatters provided by the [C++ I/O](io.html "cpp/io") library, the [C I/O](io/c.html "cpp/io/c") library, [C++ string converters](string/basic_string.html#Numeric_conversions "cpp/string/basic string"), and [C string converters](string/byte.html#Conversions_to_numeric_formats "cpp/string/byte"), the header [`<charconv>`](header/charconv.html "cpp/header/charconv") provides light-weight, locale-independent, non-allocating, non-throwing parsers and formatters for arithmetic types. 
 
 Defined in header `[<charconv>](header/charconv.html "cpp/header/charconv")`  
 ---  
 [ to_chars](utility/to_chars.html "cpp/utility/to chars")(C++17) |  converts an integer or floating-point value to a character sequence   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_to_chars&action=edit)  
+(function)   
 [ to_chars_result](utility/to_chars_result.html "cpp/utility/to chars result")(C++17) |  the return type of [`std::to_chars`](utility/to_chars.html "cpp/utility/to chars")   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_to_chars_result&action=edit)  
+(class)   
 [ from_chars](utility/from_chars.html "cpp/utility/from chars")(C++17) |  converts a character sequence to an integer or floating-point value   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_from_chars&action=edit)  
+(function)   
 [ from_chars_result](utility/from_chars_result.html "cpp/utility/from chars result")(C++17) |  the return type of [`std::from_chars`](utility/from_chars.html "cpp/utility/from chars")   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_from_chars_result&action=edit)  
+(class)   
 [ chars_format](utility/chars_format.html "cpp/utility/chars format")(C++17) |  specifies formatting for std::to_chars and std::from_chars   
-(enum) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_chars_format&action=edit)  
+(enum)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/text&action=edit&section=6 "Edit section: Text encoding identifications \(since C++26\)")] Text encoding identifications (since C++26)
+### Text encoding identifications (since C++26)
 
 Defined in header `[<text_encoding>](header/text_encoding.html "cpp/header/text encoding")`  
 ---  
 [ text_encoding](locale/text_encoding.html "cpp/text/text encoding")(C++26) |  describes an interface for accessing the [IANA Character Sets registry](https://www.iana.org/assignments/character-sets/character-sets.xhtml)   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/dsc_text_encoding&action=edit)  
+(class)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/text&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [C++ documentation](string.html "cpp/string") for Strings library  
 ---

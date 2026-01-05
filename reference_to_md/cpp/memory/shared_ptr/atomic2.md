@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::shared_ptr`](../shared_ptr.html "cpp/memory/shared ptr")
 
@@ -220,7 +220,7 @@ Helper classes
 [hash<std::shared_ptr>](hash.html "cpp/memory/shared ptr/hash")  
 [Deduction guides](deduction_guides.html "cpp/memory/shared ptr/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/navbar_content&action=edit)
+
 
 Defined in header `[<memory>](../../header/memory.html "cpp/header/memory")` |  |   
 ---|---|---  
@@ -263,13 +263,13 @@ The type T may be an incomplete type.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/atomic2&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Member type  |  Definition   
 ---|---  
 `value_type` |  [std::shared_ptr](../shared_ptr.html)<T>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/atomic2&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 All non-specialized [std::atomic](../../atomic/atomic.html "cpp/atomic/atomic") functions are also provided by this specialization, and no additional member functions. 
 
@@ -400,7 +400,7 @@ Performs an atomic notifying operation.
 
 Unblocks all threads blocked in atomic waiting operations (i.e. `wait()`) on *this, if there are any; otherwise does nothing. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/atomic2&action=edit&section=3 "Edit section: Member constants")] Member constants
+### Member constants
 
 The only standard [std::atomic](../../atomic/atomic.html "cpp/atomic/atomic") member constant `is_always_lock_free` is also provided by this specialization. 
 
@@ -410,19 +410,19 @@ static constexpr bool is_always_lock_free = /*implementation-defined*/; |  |
 ---|---|---  
 | |   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/atomic2&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../../utility/feature_test.html "cpp/utility/feature test") macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_atomic_shared_ptr`](../../experimental/feature_test.html#cpp_lib_atomic_shared_ptr "cpp/feature test") | [`201711L`](../../compiler_support/20.html#cpp_lib_atomic_shared_ptr_201711L "cpp/compiler support/20") | (C++20) | [`std::atomic<std::shared_ptr>`](atomic2.html#top)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/atomic2&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/atomic2&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -431,10 +431,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [LWG 3661](https://cplusplus.github.io/LWG/issue3661) | C++20  | `atomic<shared_ptr<T>>` was not constant-initializable from nullptr | made constant-initializable   
 [LWG 3893](https://cplusplus.github.io/LWG/issue3893) | C++20  | [LWG3661](https://cplusplus.github.io/LWG/issue3661) made `atomic<shared_ptr<T>>` not assignable from `nullptr_t` | assignability restored   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/atomic2&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ atomic](../../atomic/atomic.html "cpp/atomic/atomic")(C++11) |  atomic class template and specializations for bool, integral, floating-point,(since C++20) and pointer types   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/dsc_atomic&action=edit)  
+(class template)   
 ---|---
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](empty.html "cpp/iterator/empty")(C++17)  
 [data](data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 **`std::move_sentinel`**
 
@@ -207,7 +207,7 @@
 [operator==(move_iterator)](move_iterator/operator_cmp2.html "cpp/iterator/move iterator/operator cmp2")(C++20)  
 [operator-(move_iterator)](move_iterator/operator-2.html "cpp/iterator/move iterator/operator-2")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/move_sentinel/navbar_content&action=edit)
+
 
 Defined in header `[<iterator>](../header/iterator.html "cpp/header/iterator")` |  |   
 ---|---|---  
@@ -229,12 +229,12 @@ class move_sentinel; |  |  (since C++20)
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/move_sentinel&action=edit&section=1 "Edit section: Template parameters")] Template parameters
+### Template parameters
 
 S  |  \-  |  the type of underlying sentinel   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/move_sentinel&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](move_sentinel/move_sentinel.html "cpp/iterator/move sentinel/move sentinel") |  constructs a new `move_sentinel`   
 (public member function)  
@@ -244,29 +244,29 @@ S  |  \-  |  the type of underlying sentinel
 [ base](move_sentinel/base.html "cpp/iterator/move sentinel/base") |  return a copy of the underlying sentinel   
 (public member function)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/move_sentinel&action=edit&section=3 "Edit section: Member objects")] Member objects
+### Member objects
 
 Member name  |  Definition   
 ---|---  
 `_last_` (private) |  underlying sentinel  
 (exposition-only member object*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/move_sentinel&action=edit&section=4 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ operator==(std::move_sentinel)](move_iterator/operator_cmp2.html "cpp/iterator/move iterator/operator cmp2")(C++20) |  compares the underlying iterator and the underlying sentinel   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/move_iterator/dsc_operator_cmp2&action=edit)  
+(function template)   
 ---|---  
 [ operator-(std::move_sentinel)](move_iterator/operator-2.html "cpp/iterator/move iterator/operator-2")(C++20) |  computes the distance between the underlying iterator and the underlying sentinel   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/move_iterator/dsc_operator-2&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/move_sentinel&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/move_sentinel&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ move_iterator](move_iterator.html "cpp/iterator/move iterator")(C++11) |  iterator adaptor which dereferences to an rvalue   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_move_iterator&action=edit)  
+(class template)   
 ---|---

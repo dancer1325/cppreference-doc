@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -71,7 +71,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::inplace_vector`](../inplace_vector.html "cpp/container/inplace vector")
 
@@ -132,7 +132,7 @@ Tables
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/inplace_vector/navbar_content&action=edit)
+
 
 constexpr iterator insert( const_iterator pos, const T& value ); |  (1)  |  (since C++26)  
 ---|---|---  
@@ -174,7 +174,7 @@ If first and last are iterators into *this, the behavior is undefined.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/inplace_vector/insert&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 pos  |  \-  |  iterator before which the content will be inserted (pos may be the [`end()`](end.html "cpp/container/inplace vector/end") iterator)   
 ---|---|---  
@@ -188,7 +188,7 @@ Type requirements
 -`T` must meet the requirements of [CopyAssignable](../../named_req/CopyAssignable.html "cpp/named req/CopyAssignable") and [CopyInsertable](../../named_req/CopyInsertable.html "cpp/named req/CopyInsertable") in order to use overload (3).   
 -`T` must meet the requirements of [EmplaceConstructible](../../named_req/EmplaceConstructible.html "cpp/named req/EmplaceConstructible") in order to use overloads (4,5).   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/inplace_vector/insert&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1,2) Iterator pointing to the inserted value.
 
@@ -198,18 +198,18 @@ Type requirements
 
 5) Iterator pointing to the first element inserted, or pos if ilist is empty.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/inplace_vector/insert&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Linear in the number of elements inserted plus the distance between pos and [`end()`](end.html "cpp/container/inplace vector/end") of the container. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/inplace_vector/insert&action=edit&section=4 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
   * Throws [std::bad_alloc](../../memory/new/bad_alloc.html "cpp/memory/new/bad alloc") if before invocation size() == capacity(). The function has no effects ([strong exception safety guarantee](../../language/exceptions.html#Exception_safety "cpp/language/exceptions")). 
   * Any exception thrown by initialization of inserted element or by any [LegacyInputIterator](../../named_req/InputIterator.html "cpp/named req/InputIterator") operation. Elements in `[`​0​`, `pos`)` are not modified. 
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/inplace_vector/insert&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -261,10 +261,10 @@ Output:
     5. [501, 502, 503, 300, 300, 200, 100, 100, 100, 601, 602, 603]
     bad_alloc: v.capacity()=14 < v.size()=12 + list.size()=3
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/inplace_vector/insert&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ emplace](emplace.html "cpp/container/inplace vector/emplace") |  constructs element in-place   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_emplace&action=edit)  
+(public member function)   
 ---|---  
 [ insert_range](insert_range.html "cpp/container/inplace vector/insert range") |  inserts a range of elements   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_insert_range&action=edit)
+(public member function) 

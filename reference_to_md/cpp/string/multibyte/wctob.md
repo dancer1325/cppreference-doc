@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Null-terminated multibyte strings](../multibyte.html "cpp/string/multibyte")
 
@@ -100,7 +100,7 @@ MB_CUR_MAX](../multibyte.html#Macros "cpp/string/multibyte")
 [__STDC_UTF_16__  
 __STDC_UTF_32__](../multibyte.html#Macros "cpp/string/multibyte")(C++11)(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/navbar_content&action=edit)
+
 
 Defined in header `[<cwchar>](../../header/cwchar.html "cpp/header/cwchar")` |  |   
 ---|---|---  
@@ -121,18 +121,18 @@ This is typically possible for the characters from the ASCII character set, sinc
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/multibyte/wctob&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 c  |  \-  |  wide character to narrow   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/multibyte/wctob&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 [EOF](../../io/c.html "cpp/io/c") if c does not represent a multibyte character with length 1 in initial shift state. 
 
 Otherwise, the single-byte representation of c as unsigned char converted to int. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/multibyte/wctob&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -173,13 +173,13 @@ Output:
     '0x61' narrowed to 0x61
     '0xe5b' narrowed to 0xfb
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/multibyte/wctob&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ btowc](btowc.html "cpp/string/multibyte/btowc") |  widens a single-byte narrow character to wide character, if possible   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/dsc_btowc&action=edit)  
+(function)   
 ---|---  
 [ narrow](../../io/basic_ios/narrow.html "cpp/io/basic ios/narrow") |  narrows characters   
-(public member function of `std::basic_ios<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ios/dsc_narrow&action=edit)  
+(public member function of `std::basic_ios<CharT,Traits>`)   
 [ narrow](../../locale/ctype/narrow.html "cpp/locale/ctype/narrow") |  invokes `do_narrow`   
-(public member function of `std::ctype<CharT>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/ctype/dsc_narrow&action=edit)  
+(public member function of `std::ctype<CharT>`)   
 [C documentation](../../../c/string/multibyte/wctob.html "c/string/multibyte/wctob") for wctob

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::pair`](../pair.html "cpp/utility/pair")
 
@@ -151,7 +151,7 @@ Common vocabulary types
 [piecewise_construct_t](../piecewise_construct.html "cpp/utility/piecewise construct")(C++11)  
 [Deduction guides](deduction_guides.html "cpp/utility/pair/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/pair/navbar_content&action=edit)
+
 
 Defined in header `[<utility>](../../header/utility.html "cpp/header/utility")` |  |   
 ---|---|---  
@@ -165,22 +165,22 @@ The common type of two `pair`s is a `pair` of both common types of corresponding
 
 The common type is defined only if both pairs of corresponding element types have common types. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/pair/common_type&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Member type  |  Definition   
 ---|---  
 `type` |  [std::pair](../pair.html)<[std::common_type_t](../../types/common_type.html)<T1, U1>, [std::common_type_t](../../types/common_type.html)<T2, U2>>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/pair/common_type&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/pair/common_type&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ common_type](../../types/common_type.html "cpp/types/common type")(C++11) |  determines the common type of a group of types   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_common_type&action=edit)  
+(class template)   
 ---|---  
 [ std::common_type<_tuple-like_ >](../tuple/common_type.html "cpp/utility/tuple/common type")(C++23) |  determines the common type of a `tuple` and a `_tuple-like_` type   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/dsc_common_type&action=edit)
+(class template specialization) 

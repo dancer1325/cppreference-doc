@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_ios`](../basic_ios.html "cpp/io/basic ios")
 
@@ -111,7 +111,7 @@ Protected member functions
 [basic_ios::swap](swap.html "cpp/io/basic ios/swap")(C++11)  
 [basic_ios::set_rdbuf](set_rdbuf.html "cpp/io/basic ios/set rdbuf")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ios/navbar_content&action=edit)
+
 
 void setstate( iostate state ); |  |   
 ---|---|---  
@@ -129,7 +129,7 @@ Sets the stream error flags state in addition to currently set flags. Essentiall
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_ios/setstate&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 state  |  \-  |  stream error state flags to set. It can be a combination of the following constants:  |  Constant  |  Explanation   
 ---|---  
@@ -138,11 +138,11 @@ state  |  \-  |  stream error state flags to set. It can be a combination of the
 [`failbit`](../ios_base/iostate.html "cpp/io/ios base/iostate") |  input/output operation failed (formatting or extraction error)   
 [`eofbit`](../ios_base/iostate.html "cpp/io/ios base/iostate") |  associated input sequence has reached end-of-file   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_ios/setstate&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_ios/setstate&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -173,10 +173,10 @@ Output:
     now stream is fail
     and stream is not good
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_ios/setstate&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ rdstate](rdstate.html "cpp/io/basic ios/rdstate") |  returns state flags   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ios/dsc_rdstate&action=edit)  
+(public member function)   
 ---|---  
 [ clear](clear.html "cpp/io/basic ios/clear") |  modifies state flags   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ios/dsc_clear&action=edit)
+(public member function) 

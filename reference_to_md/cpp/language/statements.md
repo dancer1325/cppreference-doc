@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 **Statements**
 
@@ -253,7 +253,7 @@ Miscellaneous
 [Transactional memory](transactional_memory.html "cpp/language/transactional memory")  
 [`synchronized`](transactional_memory.html#Synchronized_blocks "cpp/language/transactional memory"), [`atomic_commit`](transactional_memory.html#Atomic_blocks "cpp/language/transactional memory"), etc (TM TS)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/statements/navbar_content&action=edit)
+
 
 _Statements_ are fragments of the C++ program that are executed in sequence. The body of any function is a sequence of statements. For example: 
     
@@ -312,7 +312,7 @@ C++ includes the following types of statements:
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/statements&action=edit&section=1 "Edit section: Labeled statements")] Labeled statements
+### Labeled statements
 
 A labeled statement labels a statement for control flow purposes.   
   
@@ -322,7 +322,7 @@ label |  \-  |  the label applied to the statement (defined below)
 ---|---|---  
 statement |  \-  |  the statement which the label applies to, it can be a labeled statement itself, allowing multiple labels   
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/statements&action=edit&section=2 "Edit section: Labels")] Labels
+#### Labels
 
 label is defined as   
   
@@ -364,7 +364,7 @@ Labels are not found by [unqualified lookup](unqualified_lookup.html "cpp/langua
         goto label; // error: label not in scope in g()
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/statements&action=edit&section=3 "Edit section: Control-flow-limited statements")] Control-flow-limited statements
+#### Control-flow-limited statements
 
 The following statements are _control-flow-limited statements_ ﻿: 
 
@@ -389,7 +389,7 @@ For each control-flow-limited statement `S`:
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/statements&action=edit&section=4 "Edit section: Expression statements")] Expression statements
+### Expression statements
 
 An expression statement is an expression followed by a semicolon.   
   
@@ -403,7 +403,7 @@ Most statements in a typical C++ program are expression statements, such as assi
 
 An expression statement without an expression is called a _null statement_. It is often used to provide an empty body to a [for](for.html "cpp/language/for") or [while](while.html "cpp/language/while") loop. It can also be used to carry a label in the end of a compound statement.(until C++23)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/statements&action=edit&section=5 "Edit section: Compound statements")] Compound statements
+### Compound statements
 
 A compound statement or _block_ groups a sequence of statements into a single statement.   
   
@@ -436,7 +436,7 @@ Each compound statement introduces its own block [scope](scope.html "cpp/languag
 A [label](statements.html#Labeled_statements) at the end of a compound statement is treated as if it were followed by a null statement.  | (since C++23)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/statements&action=edit&section=6 "Edit section: Selection statements")] Selection statements
+### Selection statements
 
 A selection statement chooses between one of several control flows.   
   
@@ -458,7 +458,7 @@ attr ﻿(optional) `**if !**`(optional) `**consteval**` compound-statement `**el
 
 5) [consteval if](if.html#Consteval_if "cpp/language/if") statement with an else clause.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/statements&action=edit&section=7 "Edit section: Iteration statements")] Iteration statements
+### Iteration statements
 
 An iteration statement repeatedly executes some code.   
   
@@ -477,7 +477,7 @@ attr ﻿(optional) `**for**`
 
 4) [range for](range-for.html "cpp/language/range-for") loop.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/statements&action=edit&section=8 "Edit section: Jump statements")] Jump statements
+### Jump statements
 
 A jump statement unconditionally transfers control flow.   
   
@@ -510,7 +510,7 @@ A contract assertion.  |
 
 (since C++26)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/statements&action=edit&section=10 "Edit section: Declaration statements")] Declaration statements
+### Declaration statements
 
 A declaration statement introduces one or more identifiers into a block.   
   
@@ -519,7 +519,7 @@ block-declaration |  (1)  |
   
 1) See [Declarations](declarations.html "cpp/language/declarations") and [Initialization](initialization.html "cpp/language/initialization") for details.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/statements&action=edit&section=11 "Edit section: try blocks")] try blocks
+### try blocks
 
 A try block catches exceptions thrown when executing other statements.   
   
@@ -550,7 +550,7 @@ An atomic and synchronized block provides [transactional memory](transactional_m
 
 (TM TS)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/statements&action=edit&section=13 "Edit section: Substatements")] Substatements
+### Substatements
 
 A _substatement_ of a statement is one of the following: 
 
@@ -572,7 +572,7 @@ A statement S1 _encloses_ a statement S2 if any of the following conditions is s
 
 A statement S1 is _enclosed by_ a statement S2 if S2 encloses S1. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/statements&action=edit&section=14 "Edit section: See also")] See also
+### See also
 
 [C documentation](../../c/language/statements.html "c/language/statements") for Statements  
 ---

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 **`std::pmr::memory_resource`**
 
@@ -201,7 +201,7 @@ Private member functions
 Non-member functions  
 [operator==operator!=](memory_resource/operator_eq.html "cpp/memory/memory resource/operator eq")(until C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/memory_resource/navbar_content&action=edit)
+
 
 Defined in header `[<memory_resource>](../header/memory_resource.html "cpp/header/memory resource")` |  |   
 ---|---|---  
@@ -221,41 +221,41 @@ The class `std::pmr::memory_resource` is an abstract interface to an unbounded s
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/memory_resource&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](memory_resource/memory_resource.html "cpp/memory/memory resource/memory resource")(implicitly declared) |  constructs a new `memory_resource`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/memory_resource/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 (destructor)[virtual] |  destructs a `memory_resource`   
-(virtual public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/memory_resource/dsc_destructor&action=edit)  
+(virtual public member function)   
 operator=(implicitly declared) |  Implicitly declared copy assignment operator   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/memory_resource/dsc_operator%3D&action=edit)  
+(public member function)   
   
 #####  Public member functions   
   
 [ allocate](memory_resource/allocate.html "cpp/memory/memory resource/allocate") |  allocates memory   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/memory_resource/dsc_allocate&action=edit)  
+(public member function)   
 [ deallocate](memory_resource/deallocate.html "cpp/memory/memory resource/deallocate") |  deallocates memory   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/memory_resource/dsc_deallocate&action=edit)  
+(public member function)   
 [ is_equal](memory_resource/is_equal.html "cpp/memory/memory resource/is equal") |  compare for equality with another `memory_resource`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/memory_resource/dsc_is_equal&action=edit)  
+(public member function)   
   
 #####  Private member functions   
   
 [ do_allocate](memory_resource/do_allocate.html "cpp/memory/memory resource/do allocate")[virtual] |  allocates memory  
-(virtual private member function)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/memory_resource/dsc_do_allocate&action=edit)  
+(virtual private member function)  
 [ do_deallocate](memory_resource/do_deallocate.html "cpp/memory/memory resource/do deallocate")[virtual] |  deallocates memory  
-(virtual private member function)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/memory_resource/dsc_do_deallocate&action=edit)  
+(virtual private member function)  
 [ do_is_equal](memory_resource/do_is_equal.html "cpp/memory/memory resource/do is equal")[virtual] |  compare for equality with another `memory_resource`  
-(virtual private member function)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/memory_resource/dsc_do_is_equal&action=edit)  
+(virtual private member function)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/memory_resource&action=edit&section=2 "Edit section: Non-member-functions")] Non-member-functions
+### Non-member-functions
 
 [ operator==operator!=](memory_resource/operator_eq.html "cpp/memory/memory resource/operator eq")(removed in C++20) |  compare two `memory_resource`s   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/memory_resource/dsc_operator_eq&action=edit)  
+(function)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/memory_resource&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../utility/feature_test.html "cpp/utility/feature test") macro | Value | Std | Feature   
 ---|---|---|---  

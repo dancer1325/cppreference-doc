@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Localization library](../../locale.html "cpp/locale")
 
@@ -152,7 +152,7 @@ base classes](../../locale.html#Facet_category_base_classes "cpp/locale")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/navbar_content&action=edit)
+
 
 [`std::wstring_convert`](../wstring_convert.html "cpp/locale/wstring convert")
 
@@ -165,7 +165,7 @@ Member functions
 [wstring_convert::converted](converted.html "cpp/locale/wstring convert/converted")  
 [wstring_convert::state](state.html "cpp/locale/wstring convert/state")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/wstring_convert/navbar_content&action=edit)
+
 
 Defined in header `[<locale>](../../header/locale.html "cpp/header/locale")` |  |   
 ---|---|---  
@@ -199,15 +199,15 @@ The number of input elements successfully converted will be stored in `_[cvtcoun
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/wstring_convert/from_bytes&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 If the conversion succeeds, returns the conversion result. Otherwise, if *this is constructed with constructor overload [(4)](wstring_convert.html#Version_4 "cpp/locale/wstring convert/wstring convert"), returns `_[wide_err_string](../wstring_convert.html#wide_err_string "cpp/locale/wstring convert")_`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/wstring_convert/from_bytes&action=edit&section=2 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 If the conversion fails and *this was **not** constructed with constructor overload [(4)](wstring_convert.html#Version_4 "cpp/locale/wstring convert/wstring convert"), throws [std::range_error](../../error/range_error.html "cpp/error/range error"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/wstring_convert/from_bytes&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -248,12 +248,12 @@ Output:
     UTF-16 conversion produced 5 code units: 0x7a 0xdf 0x6c34 0xd834 0xdd0b
     UTF-32 conversion produced 4 code units: 0x7a 0xdf 0x6c34 0x1d10b
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/wstring_convert/from_bytes&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ to_bytes](to_bytes.html "cpp/locale/wstring convert/to bytes") |  converts a wide string into a byte string   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/wstring_convert/dsc_to_bytes&action=edit)  
+(public member function)   
 ---|---  
 [ mbsrtowcs](../../string/multibyte/mbsrtowcs.html "cpp/string/multibyte/mbsrtowcs") |  converts a narrow multibyte character string to wide string, given state   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/dsc_mbsrtowcs&action=edit)  
+(function)   
 [ do_in](../codecvt/in.html "cpp/locale/codecvt/in")[virtual] |  converts a string from `ExternT` to `InternT`, such as when reading from file   
-(virtual protected member function of `std::codecvt<InternT,ExternT,StateT>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/codecvt/dsc_do_in&action=edit)
+(virtual protected member function of `std::codecvt<InternT,ExternT,StateT>`) 

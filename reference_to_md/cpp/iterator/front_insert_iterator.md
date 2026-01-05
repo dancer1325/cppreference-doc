@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](empty.html "cpp/iterator/empty")(C++17)  
 [data](data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 **`std::front_insert_iterator`**
 
@@ -205,7 +205,7 @@ Member functions
 [front_insert_iterator::operator*](front_insert_iterator/operator*.html "cpp/iterator/front insert iterator/operator*")  
 [front_insert_iterator::operator++front_insert_iterator::operator++(int)](front_insert_iterator/operator++.html "cpp/iterator/front insert iterator/operator++")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/front_insert_iterator/navbar_content&action=edit)
+
 
 Defined in header `[<iterator>](../header/iterator.html "cpp/header/iterator")` |  |   
 ---|---|---  
@@ -229,7 +229,7 @@ class front_insert_iterator; |  |  (since C++17)
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/iterator/inherit&action=edit&section=T-1 "Template:cpp/iterator/iterator/inherit")] Member types
+### Member types
 
 Member type  |  Definition   
 ---|---  
@@ -244,25 +244,25 @@ Member type  |  Definition
 Member types `iterator_category`, `value_type`, `difference_type`, `pointer` and `reference` are required to be obtained by inheriting from [std::iterator](iterator.html)<[std::output_iterator_tag](iterator_tags.html), void, void, void, void>.  | (until C++17)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/front_insert_iterator&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](front_insert_iterator/front_insert_iterator.html "cpp/iterator/front insert iterator/front insert iterator") |  constructs a new `front_insert_iterator`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/inserter/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ operator=](front_insert_iterator/operator=.html "cpp/iterator/front insert iterator/operator=") |  inserts an object into the associated container   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/inserter/dsc_operator%3D&action=edit)  
+(public member function)   
 [ operator*](front_insert_iterator/operator*.html "cpp/iterator/front insert iterator/operator*") |  no-op   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/inserter/dsc_operator*&action=edit)  
+(public member function)   
 [ operator++operator++(int)](front_insert_iterator/operator++.html "cpp/iterator/front insert iterator/operator++") |  no-op   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/inserter/dsc_operator_arith&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/front_insert_iterator&action=edit&section=2 "Edit section: Member objects")] Member objects
+### Member objects
 
 Member name  |  Definition   
 ---|---  
 `container` (protected) |  a pointer of type Container*  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/front_insert_iterator&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -299,12 +299,12 @@ Output:
     
     5 4 3 2 1
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/front_insert_iterator&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ front_inserter](front_inserter.html "cpp/iterator/front inserter") |  creates a **std::front_insert_iterator** of type inferred from the argument   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_front_inserter&action=edit)  
+(function template)   
 ---|---  
 [ back_insert_iterator](back_insert_iterator.html "cpp/iterator/back insert iterator") |  iterator adaptor for insertion at the end of a container   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_back_insert_iterator&action=edit)  
+(class template)   
 [ insert_iterator](insert_iterator.html "cpp/iterator/insert iterator") |  iterator adaptor for insertion into a container   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_insert_iterator&action=edit)
+(class template) 

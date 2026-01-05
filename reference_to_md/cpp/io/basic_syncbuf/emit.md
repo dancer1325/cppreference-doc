@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_syncbuf`](../basic_syncbuf.html "cpp/io/basic syncbuf")
 
@@ -96,7 +96,7 @@ Protected member functions
 Non-member functions  
 [swap(std::basic_syncbuf)](swap2.html "cpp/io/basic syncbuf/swap2")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_syncbuf/navbar_content&action=edit)
+
 
 bool emit(); |  |   
 ---|---|---  
@@ -119,11 +119,11 @@ If a call had been made to [`sync`](sync.html "cpp/io/basic syncbuf/sync") since
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_syncbuf/emit&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_syncbuf/emit&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 true if all of the following is true: 
 
@@ -135,22 +135,22 @@ true if all of the following is true:
 
 Returns false otherwise. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_syncbuf/emit&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Normally called by the destructor or move assignment of the owning std::basic_osyncstream, or by [`std::basic_osyncstream::emit`](../basic_osyncstream/emit.html "cpp/io/basic osyncstream/emit"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_syncbuf/emit&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_syncbuf/emit&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ (destructor)](../basic_osyncstream/~basic_osyncstream.html "cpp/io/basic osyncstream/~basic osyncstream") |  destroys the `basic_osyncstream` and emits its internal buffer   
-(public member function of `std::basic_osyncstream<CharT,Traits,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_osyncstream/dsc_destructor&action=edit)  
+(public member function of `std::basic_osyncstream<CharT,Traits,Allocator>`)   
 ---|---  
 [ emit](../basic_osyncstream/emit.html "cpp/io/basic osyncstream/emit") |  calls **`emit()`** on the underlying `basic_syncbuf` to transmit its internal data to the final destination   
-(public member function of `std::basic_osyncstream<CharT,Traits,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_osyncstream/dsc_emit&action=edit)  
+(public member function of `std::basic_osyncstream<CharT,Traits,Allocator>`)   
 [ (constructor)](basic_syncbuf.html "cpp/io/basic syncbuf/basic syncbuf") |  constructs a `basic_syncbuf` object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_syncbuf/dsc_constructor&action=edit)
+(public member function) 

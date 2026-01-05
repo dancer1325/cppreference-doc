@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::vector`](../vector.html "cpp/container/vector")
 
@@ -135,7 +135,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/vector/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/vector/navbar_content&action=edit)
+
 
 iterator insert( const_iterator pos, const T& value ); |  (1) | (constexpr since C++20)  
 ---|---|---  
@@ -223,7 +223,7 @@ If after the operation the new [`size()`](size.html "cpp/container/vector/size")
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/insert&action=edit&section=T-1 "Template:cpp/container/insert")] Parameters
+### Parameters
 
 pos  |  \-  |  iterator before which the content will be inserted   
 ---|---|---  
@@ -232,17 +232,17 @@ count  |  \-  |  number of elements to insert
 first, last  |  \-  |  the pair of iterators defining the [range](../../iterator.html#Ranges "cpp/iterator") of elements to insert   
 ilist  |  \-  |  [std::initializer_list](../../utility/initializer_list.html "cpp/utility/initializer list") to insert the values from   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/insert&action=edit&section=T-2 "Template:cpp/container/insert")] Return value
+### Return value
 
 1,2) Iterator pointing to the inserted value.
 
 3-5) Iterator pointing to the first element inserted, or pos if no element is inserted.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/insert&action=edit&section=T-3 "Template:cpp/container/insert")] Complexity
+### Complexity
 
 If reallocation happens, linear in the number of elements of the `vector` after insertion; otherwise, linear in the number of elements inserted plus [std::distance](../../iterator/distance.html)(pos, end()). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/insert&action=edit&section=T-4 "Template:cpp/container/insert")] Exceptions
+### Exceptions
 
 If an exception is thrown other than by 
 
@@ -273,7 +273,7 @@ these functions have no effect ([strong exception safety guarantee](../../langua
 If an exception is thrown when inserting a single element at the end, and `T` is [CopyInsertable](../../named_req/CopyInsertable.html "cpp/named req/CopyInsertable") into *this or [std::is_nothrow_move_constructible](../../types/is_move_constructible.html)<T>::value is true, this function has no effect (strong exception guarantee). Otherwise, if an exception is thrown by the move constructor of a non-[CopyInsertable](../../named_req/CopyInsertable.html "cpp/named req/CopyInsertable") `T`, the effects are unspecified.  | (since C++11)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/insert&action=edit&section=T-5 "Template:cpp/container/insert")] Example
+### Example
 
 Run this code
     
@@ -332,7 +332,7 @@ Output:
     5. [501, 502, 503, 300, 300, 400, 400, 200, 100, 100, 100]
     6. [501, 502, 503, 300, 300, 400, 400, 200, 100, 100, 100, 601, 602, 603]
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/insert&action=edit&section=T-6 "Template:cpp/container/insert")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -343,12 +343,12 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [LWG 406](https://cplusplus.github.io/LWG/issue406) | C++98  | the strong exception guarantee also applied if  
 the exception is thrown by an `InputIt` operation  | no guarantee in this case   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/insert&action=edit&section=T-7 "Template:cpp/container/insert")] See also
+### See also
 
 [ emplace](emplace.html "cpp/container/vector/emplace")(C++11) |  constructs element in-place   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_emplace&action=edit)  
+(public member function)   
 ---|---  
 [ push_back](push_back.html "cpp/container/vector/push back") |  adds an element to the end   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_push_back&action=edit)  
+(public member function)   
 [ inserter](../../iterator/inserter.html "cpp/iterator/inserter") |  creates a [std::insert_iterator](../../iterator/insert_iterator.html "cpp/iterator/insert iterator") of type inferred from the argument   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_inserter&action=edit)
+(function template) 

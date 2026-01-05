@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::multiset`](../multiset.html "cpp/container/multiset")
 
@@ -133,7 +133,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/multiset/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/multiset/navbar_content&action=edit)
+
 
 [std::pair](../../utility/pair.html)<iterator, iterator> equal_range( const Key& key ); |  (1) | (constexpr since C++26)  
 ---|---|---  
@@ -170,13 +170,13 @@ This overload participates in overload resolution only if `Compare` is [transpar
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/equal_range_ord&action=edit&section=T-1 "Template:cpp/container/equal range ord")] Parameters
+### Parameters
 
 key  |  \-  |  key value to compare the elements to   
 ---|---|---  
 x  |  \-  |  alternative value that can be compared to `Key`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/equal_range_ord&action=edit&section=T-2 "Template:cpp/container/equal range ord")] Return value
+### Return value
 
 [std::pair](../../utility/pair.html "cpp/utility/pair") containing a pair of iterators defining the wanted range: 
 
@@ -186,7 +186,7 @@ x  |  \-  |  alternative value that can be compared to `Key`
 Since [`emplace`](emplace.html "cpp/container/multiset/emplace") and unhinted [`insert`](insert.html "cpp/container/multiset/insert") always insert at the upper bound, the order of equivalent elements in the equal range is the order of insertion unless hinted [`insert`](insert.html "cpp/container/multiset/insert") or [`emplace_hint`](emplace_hint.html "cpp/container/multiset/emplace hint") was used to insert an element at a different position. | (since C++11)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/equal_range_ord&action=edit&section=T-3 "Template:cpp/container/equal range ord")] Complexity
+### Complexity
 
 Logarithmic in the size of the container. 
 
@@ -196,7 +196,7 @@ Logarithmic in the size of the container.
 ---|---|---|---  
 [`__cpp_lib_generic_associative_lookup`](../../experimental/feature_test.html#cpp_lib_generic_associative_lookup "cpp/feature test") | [`201304L`](../../compiler_support/14.html#cpp_lib_generic_associative_lookup_201304L "cpp/compiler support/14") | (C++14) | Heterogeneous comparison lookup in [associative containers](../../container.html#Associative_containers "cpp/container"), for overloads ([3,4](equal_range.html#Version_3))  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/equal_range_ord&action=edit&section=T-5 "Template:cpp/container/equal range ord")] Example
+### Example
 
 Run this code
     
@@ -244,20 +244,20 @@ Output:
     key = 4; equal range = 1 2 3 3 3 [ 4 )
     key = 5; equal range = 1 2 3 3 3 4 [ )
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/equal_range_ord&action=edit&section=T-6 "Template:cpp/container/equal range ord")] See also
+### See also
 
 [ find](find.html "cpp/container/multiset/find") |  finds element with specific key   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_find&action=edit)  
+(public member function)   
 ---|---  
 [ contains](contains.html "cpp/container/multiset/contains")(C++20) |  checks if the container contains element with specific key   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_contains&action=edit)  
+(public member function)   
 [ count](count.html "cpp/container/multiset/count") |  returns the number of elements matching specific key   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_count&action=edit)  
+(public member function)   
 [ upper_bound](upper_bound.html "cpp/container/multiset/upper bound") |  returns an iterator to the first element _greater_ than the given key   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_upper_bound&action=edit)  
+(public member function)   
 [ lower_bound](lower_bound.html "cpp/container/multiset/lower bound") |  returns an iterator to the first element _not less_ than the given key   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_lower_bound&action=edit)  
+(public member function)   
 [ equal_range](../../algorithm/equal_range.html "cpp/algorithm/equal range") |  returns range of elements matching a specific key   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_equal_range&action=edit)
+(function template) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

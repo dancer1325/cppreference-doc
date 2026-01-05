@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 **`std::stop_token`**
 
@@ -191,7 +191,7 @@ Non-member functions
 [swap(std::stop_token)](stop_token/swap2.html "cpp/thread/stop token/swap2")  
 [operator==](stop_token/operator_cmp.html "cpp/thread/stop token/operator cmp")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/stop_token/navbar_content&action=edit)
+
 
 Defined in header `[<stop_token>](../header/stop_token.html "cpp/header/stop token")` |  |   
 ---|---|---  
@@ -215,43 +215,43 @@ The `stop_token` can also be passed to the constructor of [`std::stop_callback`]
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/stop_token&action=edit&section=1 "Edit section: Member alias templates")] Member alias templates
+### Member alias templates
 
 Type  |  Definition   
 ---|---  
 callback_type<Callback> (since C++26) |  [std::stop_callback](stop_callback.html)<Callback>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/stop_token&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](stop_token/stop_token.html "cpp/thread/stop token/stop token") |  constructs new `stop_token` object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/stop_token/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ (destructor)](stop_token/~stop_token.html "cpp/thread/stop token/~stop token") |  destructs the `stop_token` object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/stop_token/dsc_destructor&action=edit)  
+(public member function)   
 [ operator=](stop_token/operator=.html "cpp/thread/stop token/operator=") |  assigns the `stop_token` object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/stop_token/dsc_operator%3D&action=edit)  
+(public member function)   
   
 #####  Modifiers   
   
 [ swap](stop_token/swap.html "cpp/thread/stop token/swap") |  swaps two `stop_token` objects   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/stop_token/dsc_swap&action=edit)  
+(public member function)   
   
 #####  Observers   
   
 [ stop_requested](stop_token/stop_requested.html "cpp/thread/stop token/stop requested") |  checks whether the associated stop-state has been requested to stop   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/stop_token/dsc_stop_requested&action=edit)  
+(public member function)   
 [ stop_possible](stop_token/stop_possible.html "cpp/thread/stop token/stop possible") |  checks whether associated stop-state can be requested to stop   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/stop_token/dsc_stop_possible&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/stop_token&action=edit&section=3 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ operator==](stop_token/operator_cmp.html "cpp/thread/stop token/operator cmp")(C++20) |  compares two `std::stop_token` objects   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/stop_token/dsc_operator_cmp&action=edit)  
+(function)   
 ---|---  
 [ swap(std::stop_token)](stop_token/swap2.html "cpp/thread/stop token/swap2")(C++20) |  specializes the [std::swap](../utility/swap.html "cpp/algorithm/swap") algorithm   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/stop_token/dsc_swap2&action=edit)  
+(function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/stop_token&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 A `stop_token` object is not generally constructed independently, but rather retrieved from a [std::jthread](jthread.html "cpp/thread/jthread") or [std::stop_source](stop_source.html "cpp/thread/stop source"). This makes it share the same associated stop-state as the [std::jthread](jthread.html "cpp/thread/jthread") or [std::stop_source](stop_source.html "cpp/thread/stop source"). 
 
@@ -259,7 +259,7 @@ A `stop_token` object is not generally constructed independently, but rather ret
 ---|---|---|---  
 [`__cpp_lib_jthread`](../experimental/feature_test.html#cpp_lib_jthread "cpp/feature test") | [`201911L`](../compiler_support/20.html#cpp_lib_jthread_201911L "cpp/compiler support/20") | (C++20) | [Stop token](stop_token.html#Top) and [joining thread](jthread.html "cpp/thread/jthread")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/stop_token&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concepts library](../concepts.html "cpp/concepts")
 
@@ -73,7 +73,7 @@
 ---  
 [_boolean-testable_](boolean-testable.html "cpp/concepts/boolean-testable") ﻿(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/navbar_content&action=edit)
+
 
 Defined in header `[<concepts>](../header/concepts.html "cpp/header/concepts")` |  |   
 ---|---|---  
@@ -83,7 +83,7 @@ concept floating_point = [std::is_floating_point_v](../types/is_floating_point.h
   
 The concept floating_point<T> is satisfied if and only if `T` is a floating-point type. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/concepts/floating_point&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -124,7 +124,7 @@ Output:
     4.4
     888
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/concepts/floating_point&action=edit&section=2 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -146,8 +146,8 @@ Output:
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/concepts/floating_point&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ is_floating_point](../types/is_floating_point.html "cpp/types/is floating point")(C++11) |  checks if a type is a floating-point type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_floating_point&action=edit)  
+(class template)   
 ---|---

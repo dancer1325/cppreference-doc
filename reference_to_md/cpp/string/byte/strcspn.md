@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Null-terminated byte strings](../byte.html "cpp/string/byte")
 
@@ -143,7 +143,7 @@
 | [strerror](strerror.html "cpp/string/byte/strerror")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/navbar_content&action=edit)
+
 
 Defined in header `[<cstring>](../../header/cstring.html "cpp/header/cstring")` |  |   
 ---|---|---  
@@ -164,17 +164,17 @@ The function name stands for "complementary span".
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/strcspn&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 dest  |  \-  |  pointer to the null-terminated byte string to be analyzed   
 ---|---|---  
 src  |  \-  |  pointer to the null-terminated byte string that contains the characters to search for   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/strcspn&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The length of the maximum initial segment that contains only characters not found in the byte string pointed to by src. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/strcspn&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -206,17 +206,17 @@ Output:
     "abcde312$#@" contains invalid chars starting at position 8
     ---------^
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/strcspn&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ strspn](strspn.html "cpp/string/byte/strspn") |  returns the length of the maximum initial segment that consists  
 of only the characters found in another byte string   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strspn&action=edit)  
+(function)   
 ---|---  
 [ wcscspn](../wide/wcscspn.html "cpp/string/wide/wcscspn") |  returns the length of the maximum initial segment that consists  
 of only the wide _not_ found in another wide string   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wcscspn&action=edit)  
+(function)   
 [ strpbrk](strpbrk.html "cpp/string/byte/strpbrk") |  finds the first location of any character from a set of separators   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strpbrk&action=edit)  
+(function)   
 [ find_first_of](../basic_string/find_first_of.html "cpp/string/basic string/find first of") |  find first occurrence of characters   
-(public member function of `std::basic_string<CharT,Traits,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_find_first_of&action=edit)  
+(public member function of `std::basic_string<CharT,Traits,Allocator>`)   
 [C documentation](../../../c/string/byte/strcspn.html "c/string/byte/strcspn") for strcspn

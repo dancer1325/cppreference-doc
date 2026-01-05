@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::shared_ptr`](../shared_ptr.html "cpp/memory/shared ptr")
 
@@ -220,7 +220,7 @@ Helper classes
 [hash<std::shared_ptr>](hash.html "cpp/memory/shared ptr/hash")  
 [Deduction guides](deduction_guides.html "cpp/memory/shared ptr/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/navbar_content&action=edit)
+
 
 Defined in header `[<memory>](../../header/memory.html "cpp/header/memory")` |  |   
 ---|---|---  
@@ -333,7 +333,7 @@ For each array element of non-array type `U` to be destroyed, it is destroyed as
 
 (since C++20)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/allocate_shared&action=edit&section=2 "Edit section: Parameters")] Parameters
+### Parameters
 
 alloc  |  \-  |  the [Allocator](../../named_req/Allocator.html "cpp/named req/Allocator") to use   
 ---|---|---  
@@ -341,17 +341,17 @@ args...  |  \-  |  list of arguments with which an instance of `T` will be const
 N  |  \-  |  array size to use   
 u  |  \-  |  the initial value to initialize every element of the array   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/allocate_shared&action=edit&section=3 "Edit section: Return value")] Return value
+### Return value
 
 [std::shared_ptr](../shared_ptr.html "cpp/memory/shared ptr") to an object of type `T` or [std::remove_extent_t](../../types/remove_extent.html)<T>[N] if `T` is an unbounded array type(since C++20). 
 
 For the returned [std::shared_ptr](../shared_ptr.html "cpp/memory/shared ptr") r, r.get() returns a non-null pointer and r.use_count() returns 1. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/allocate_shared&action=edit&section=4 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Can throw the exceptions thrown from Alloc::allocate() or from the constructor of `T`. If an exception is thrown, (1) has no effect. If an exception is thrown during the construction of the array, already-initialized elements are destroyed in reverse order(since C++20). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/allocate_shared&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 These functions will typically allocate more memory than sizeof(T) to allow for internal bookkeeping structures such as reference counts. 
 
@@ -374,7 +374,7 @@ The test ptr->`_[weak_this](../enable_shared_from_this.html#weak_this "cpp/memor
 ---|---|---|---  
 [`__cpp_lib_smart_ptr_for_overwrite`](../../experimental/feature_test.html#cpp_lib_smart_ptr_for_overwrite "cpp/feature test") | [`202002L`](../../compiler_support/20.html#cpp_lib_smart_ptr_for_overwrite_202002L "cpp/compiler support/20") | (C++20) | Smart pointer creation with default initialization (`std::allocate_shared_for_overwrite`, [std::make_shared_for_overwrite](make_shared.html "cpp/memory/shared ptr/make shared"), [std::make_unique_for_overwrite](../unique_ptr/make_unique.html "cpp/memory/unique ptr/make unique")); overloads ([6,7](allocate_shared.html#Version_6))  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/allocate_shared&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -427,7 +427,7 @@ Output:
     ~Value(), i = 2
     ~Value(), i = 3
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/allocate_shared&action=edit&section=7 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -438,12 +438,12 @@ allocator before constructing and destroying objects  | rebind is optional
 [LWG 4024](https://cplusplus.github.io/LWG/issue4024) | C++20  | it was unclear how the objects constructed in  
 `std::allocate_shared_for_overwrite` are destroyed  | made clear   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/allocate_shared&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [ (constructor)](shared_ptr.html "cpp/memory/shared ptr/shared ptr") |  constructs new `shared_ptr`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ make_sharedmake_shared_for_overwrite](make_shared.html "cpp/memory/shared ptr/make shared")(C++20) |  creates a shared pointer that manages a new object   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/dsc_make_shared&action=edit)
+(function template) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

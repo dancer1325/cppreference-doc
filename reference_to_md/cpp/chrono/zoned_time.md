@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 **`std::chrono::zoned_time`**
 
@@ -121,7 +121,7 @@ Helper classes
 [hash<std::chrono::zoned_time>](zoned_time/hash.html "cpp/chrono/zoned time/hash")(C++26)  
 [Deduction guides](zoned_time/deduction_guides.html "cpp/chrono/zoned time/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/zoned_time/navbar_content&action=edit)
+
 
 Defined in header `[<chrono>](../header/chrono.html "cpp/header/chrono")` |  |   
 ---|---|---  
@@ -156,45 +156,45 @@ The template parameter `TimeZonePtr` allows users to supply their own time zone 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/zoned_time&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Member type  |  Definition   
 ---|---  
 `duration` |  [std::common_type_t](../types/common_type.html)<Duration, [std::chrono::seconds](duration.html)>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/zoned_time&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](zoned_time/zoned_time.html "cpp/chrono/zoned time/zoned time") |  constructs a `zoned_time`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/zoned_time/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ operator=](zoned_time/operator=.html "cpp/chrono/zoned time/operator=") |  assigns value to a `zoned_time`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/zoned_time/dsc_operator%3D&action=edit)  
+(public member function)   
 [ get_time_zone](zoned_time/get_time_zone.html "cpp/chrono/zoned time/get time zone") |  obtains a copy of the time zone pointer   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/zoned_time/dsc_get_time_zone&action=edit)  
+(public member function)   
 [ operator local_timeget_local_time](zoned_time/get_local_time.html "cpp/chrono/zoned time/get local time") |  obtains the stored time point as a `local_time`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/zoned_time/dsc_get_local_time&action=edit)  
+(public member function)   
 [ operator sys_timeget_sys_time](zoned_time/get_sys_time.html "cpp/chrono/zoned time/get sys time") |  obtains the stored time point as a `sys_time`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/zoned_time/dsc_get_sys_time&action=edit)  
+(public member function)   
 [ get_info](zoned_time/get_info.html "cpp/chrono/zoned time/get info") |  obtain information about the time zone at the stored time point   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/zoned_time/dsc_get_info&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/zoned_time&action=edit&section=3 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ operator==](zoned_time/operator_cmp.html "cpp/chrono/zoned time/operator cmp")(C++20) |  compares two `zoned_time` values   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/zoned_time/dsc_operator_cmp&action=edit)  
+(function template)   
 ---|---  
 [ operator<<](zoned_time/operator_ltlt.html "cpp/chrono/zoned time/operator ltlt")(C++20) |  outputs a `zoned_time` into a stream   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/zoned_time/dsc_operator_ltlt&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/zoned_time&action=edit&section=4 "Edit section: Helper classes")] Helper classes
+### Helper classes
 
 [ std::formatter<std::chrono::zoned_time>](zoned_time/formatter.html "cpp/chrono/zoned time/formatter")(C++20) |  formatting support for `zoned_time`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_formatter&action=edit)  
+(class template specialization)   
 ---|---  
 [ std::hash<std::chrono::zoned_time>](zoned_time/hash.html "cpp/chrono/zoned time/hash")(C++26) |  hash support for **`std::chrono::zoned_time`**   
 (class template specialization)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/zoned_time&action=edit&section=5 "Edit section: Helper specializations")] Helper specializations
+### Helper specializations
 
 template< class Duration >  
 constexpr bool enable_nonlocking_formatter_optimization  
@@ -204,9 +204,9 @@ constexpr bool enable_nonlocking_formatter_optimization
   
 This specialization of [`std::enable_nonlocking_formatter_optimization`](../utility/format/enable_nonlocking_formatter_optimization.html "cpp/utility/format/enable nonlocking formatter optimization") enables efficient implementation of [`std::print`](../io/print.html "cpp/io/print") and [`std::println`](../io/println.html "cpp/io/println") for printing a `chrono::zoned_time` object. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/zoned_time&action=edit&section=6 "Edit section: Deduction guides")] [Deduction guides](zoned_time/deduction_guides.html "cpp/chrono/zoned time/deduction guides")
+### [Deduction guides](zoned_time/deduction_guides.html "cpp/chrono/zoned time/deduction guides")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/zoned_time&action=edit&section=7 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -271,8 +271,8 @@ Possible output:
                       Indian/Cocos - Zoned Time: 2023-06-30 02:28:34.710377520 +0630
                  Pacific/Galapagos - Zoned Time: 2023-06-29 13:58:34.710389952 -06
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/zoned_time&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [ time_zone](time_zone.html "cpp/chrono/time zone")(C++20) |  represents a time zone   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_time_zone&action=edit)  
+(class)   
 ---|---

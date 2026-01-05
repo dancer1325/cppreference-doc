@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::variant`](../variant.html "cpp/utility/variant")
 
@@ -161,7 +161,7 @@ Common vocabulary types
 [Helper objects](../variant.html#Helper_objects "cpp/utility/variant")  
 [variant_npos](variant_npos.html "cpp/utility/variant/variant npos")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variant/navbar_content&action=edit)
+
 
 template< class T, class... Args >  
 T& emplace( Args&&... args ); |  (1) | (since C++17)   
@@ -220,28 +220,28 @@ Creates a new value in-place, in an existing `variant` object
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variant/emplace&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 args  |  \-  |  constructor arguments to use when constructing the new value   
 ---|---|---  
 il  |  \-  |  initializer_list argument to use when constructing the new value   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variant/emplace&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 A reference to the new contained value. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variant/emplace&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 1-4) Any exception thrown during the initialization of the contained value.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variant/emplace&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../feature_test.html "cpp/utility/feature test") macro  | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_variant`](../../experimental/feature_test.html#cpp_lib_variant "cpp/feature test") | [`202106L`](../../compiler_support/20.html#cpp_lib_variant_202106L "cpp/compiler support/20") | (C++20)  
 (DR) | Fully constexpr `std::variant` ([1-4](emplace.html#Version_1))  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variant/emplace&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -271,7 +271,7 @@ Output:
     def
     ghi
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variant/emplace&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -279,10 +279,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [P2231R1](https://wg21.link/P2231R1) | C++20  | `emplace` was not constexpr while the required operations can be constexpr in C++20  | made constexpr  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variant/emplace&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ operator=](operator=.html "cpp/utility/variant/operator=") |  assigns a `variant`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variant/dsc_operator%3D&action=edit)  
+(public member function)   
 ---|---
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

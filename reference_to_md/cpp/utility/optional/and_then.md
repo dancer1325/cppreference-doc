@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::optional`](../optional.html "cpp/utility/optional")
 
@@ -167,7 +167,7 @@ Common vocabulary types
 [nullopt](nullopt.html "cpp/utility/optional/nullopt")  
 [in_place](../in_place.html "cpp/utility/in place")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/navbar_content&action=edit)
+
 
 template< class F >  
 constexpr auto and_then( F&& f ) &; |  (1)  |  (since C++23)  
@@ -231,16 +231,16 @@ The return type (see below) must be a specialization of [std::optional](../optio
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/and_then&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 f  |  \-  |  a suitable function or [Callable](../../named_req/Callable.html "cpp/named req/Callable") object that returns an [std::optional](../optional.html "cpp/utility/optional")  
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/and_then&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The result of f or an empty [std::optional](../optional.html "cpp/utility/optional"), as described above. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/and_then&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Some languages call this operation _flatmap_. 
 
@@ -248,7 +248,7 @@ Some languages call this operation _flatmap_.
 ---|---|---|---  
 [`__cpp_lib_optional`](../../experimental/feature_test.html#cpp_lib_optional "cpp/feature test") | [`202110L`](../../compiler_support/23.html#cpp_lib_optional_202110L "cpp/compiler support/23") | (C++23) | [Monadic operations](../optional.html#Monadic_operations "cpp/utility/optional") in [std::optional](../optional.html "cpp/utility/optional")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/and_then&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -316,14 +316,14 @@ Output:
     "nullopt"     -> NaN
     "-43"         -> -42
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/and_then&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ value_or](value_or.html "cpp/utility/optional/value or") |  returns the contained value if available, another value otherwise   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/dsc_value_or&action=edit)  
+(public member function)   
 ---|---  
 [ transform](transform.html "cpp/utility/optional/transform")(C++23) |  returns an `optional` containing the transformed contained value if it exists, or an empty `optional` otherwise   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/dsc_transform&action=edit)  
+(public member function)   
 [ or_else](or_else.html "cpp/utility/optional/or else")(C++23) |  returns the `optional` itself if it contains a value, or the result of the given function otherwise   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/dsc_or_else&action=edit)
+(public member function) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

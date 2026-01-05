@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Filesystem library](../../filesystem.html "cpp/filesystem")
 
@@ -100,7 +100,7 @@ filesystem::symlink_status](../status.html "cpp/filesystem/status")
 [filesystem::is_socket](../is_socket.html "cpp/filesystem/is socket")  
 [filesystem::is_symlink](../is_symlink.html "cpp/filesystem/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/navbar_content&action=edit)
+
 
 [`filesystem_error`](../filesystem_error.html "cpp/filesystem/filesystem error")
 
@@ -113,7 +113,7 @@ Member functions
 Inherited from [std::system_error](../../error/system_error.html "cpp/error/system error")  
 [system_error::code](../../error/system_error/code.html "cpp/error/system error/code")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/filesystem_error/navbar_content&action=edit)
+
 
 filesystem_error& operator=( const filesystem_error& other ) noexcept; |  |  (since C++17)  
 ---|---|---  
@@ -131,20 +131,20 @@ Assigns the contents with those of other. If *this and other both have dynamic t
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/filesystem_error/operator%3D&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 other  |  \-  |  another `filesystem_error` object to assign with   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/filesystem_error/operator%3D&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 *this
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/filesystem_error/operator%3D&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Typical implementations store `path` objects referenced by path1() and path2() in a reference-counted storage. As a result, *this and other usually share their `path` objects after assignment. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/filesystem_error/operator%3D&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

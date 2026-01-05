@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 Defined in header `[<utility>](../header/utility.html "cpp/header/utility")` |  |   
 ---|---|---  
@@ -157,19 +157,19 @@ Helper template for writing expressions that appear in [unevaluated contexts](..
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/declval&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/declval&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Cannot be evaluated and thus never returns a value. The return type is `T&&` (reference collapsing rules apply) unless `T` is (possibly cv-qualified) void, in which case the return type is `T`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/declval&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 `std::declval` is commonly used in templates where acceptable template parameters may have no constructor in common, but have the same member function whose return type is needed. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/declval&action=edit&section=4 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     template<typename T>
@@ -180,7 +180,7 @@ Cannot be evaluated and thus never returns a value. The return type is `T&&` (re
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/declval&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -219,9 +219,9 @@ Output:
     n2 = 1
     n3 = 1
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/declval&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
-[ `decltype` specifier](../language/decltype.html "cpp/language/decltype")(C++11) |  obtains the type of an expression or an entity[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_decltype&action=edit)  
+[ `decltype` specifier](../language/decltype.html "cpp/language/decltype")(C++11) |  obtains the type of an expression or an entity  
 ---|---  
 [ result_ofinvoke_result](../types/result_of.html "cpp/types/result of")(C++11)(removed in C++20)(C++17) |  deduces the result type of invoking a callable object with a set of arguments   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_result_of&action=edit)
+(class template) 

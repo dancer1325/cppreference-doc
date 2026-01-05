@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ named requirements](../iterator/concepts.html "cpp/named req")
 
@@ -147,11 +147,11 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/named_req/navbar_content&action=edit)
+
 
 A **BinaryTypeTrait** is a class template that describes a relationship between its two template type parameters with a [std::integral_constant](../types/integral_constant.html "cpp/types/integral constant") (typically [std::bool_constant](../types/integral_constant.html "cpp/types/integral constant")) specialization. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/BinaryTypeTrait&action=edit&section=1 "Edit section: Requirements")] Requirements
+### Requirements
 
   * [DefaultConstructible](DefaultConstructible.html "cpp/named req/DefaultConstructible") and [CopyConstructible](CopyConstructible.html "cpp/named req/CopyConstructible"). 
   * Takes two template type parameters (additional template parameters are optional and allowed). 
@@ -160,24 +160,24 @@ A **BinaryTypeTrait** is a class template that describes a relationship between 
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/BinaryTypeTrait&action=edit&section=2 "Edit section: Standard library")] Standard library
+### Standard library
 
 The following standard library class templates satisfy **BinaryTypeTrait** : 
 
 [ is_same](../types/is_same.html "cpp/types/is same")(C++11) |  checks if two types are the same   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_same&action=edit)  
+(class template)   
 ---|---  
 [ is_base_of](../types/is_base_of.html "cpp/types/is base of")(C++11) |  checks if a type is a base of the other type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_base_of&action=edit)  
+(class template)   
 [ is_virtual_base_of](../types/is_virtual_base_of.html "cpp/types/is virtual base of")(C++26) |  checks if a type is a virtual base of the other type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_virtual_base_of&action=edit)  
+(class template)   
 [ is_convertibleis_nothrow_convertible](../types/is_convertible.html "cpp/types/is convertible")(C++11)(C++20) |  checks if a type can be converted to the other type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_convertible&action=edit)  
+(class template)   
 [ is_layout_compatible](../types/is_layout_compatible.html "cpp/types/is layout compatible")(C++20) |  checks if two types are [_layout-compatible_](../language/data_members.html#Standard_layout "cpp/language/data members")   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_layout_compatible&action=edit)  
+(class template)   
 [ is_pointer_interconvertible_base_of](../types/is_pointer_interconvertible_base_of.html "cpp/types/is pointer interconvertible base of")(C++20) |  checks if a type is a _[pointer-interconvertible](../language/static_cast.html#pointer-interconvertible "cpp/language/static cast")_ (initial) base of another type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_pointer_interconvertible_base_of&action=edit)  
+(class template)   
 [ is_invocableis_invocable_ris_nothrow_invocableis_nothrow_invocable_r](../types/is_invocable.html "cpp/types/is invocable")(C++17) |  checks if a type can be invoked (as if by [std::invoke](../utility/functional/invoke.html "cpp/utility/functional/invoke")) with the given argument types   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_invocable&action=edit)  
+(class template)   
 [ uses_allocator](../memory/uses_allocator.html "cpp/memory/uses allocator")(C++11) |  checks if the specified type supports uses-allocator construction   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_uses_allocator&action=edit)
+(class template) 

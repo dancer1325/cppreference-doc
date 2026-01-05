@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [C-style I/O](../c.html "cpp/io/c")
 
@@ -176,7 +176,7 @@ Operations on files
 [tmpfile](tmpfile.html "cpp/io/c/tmpfile")  
 [tmpnam](tmpnam.html "cpp/io/c/tmpnam")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/navbar_content&action=edit)
+
 
 Defined in header `[<cwchar>](../../header/cwchar.html "cpp/header/cwchar")` |  |   
 ---|---|---  
@@ -204,7 +204,7 @@ Loads the data from locations, defined by `vlist`,, converts them to wide string
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/vfwprintf&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 stream  |  \-  |  output wide stream to write to   
 ---|---|---  
@@ -374,28 +374,28 @@ Only available since C++11→  | Yes |  |  |  | Yes | Yes | Yes | Yes |
 Notes  
 The floating-point conversion functions convert infinity to `inf` or `infinity`. Which one is used is implementation defined. Not-a-number is converted to `nan` or `nan(_char_sequence_)`. Which one is used is implementation defined. The conversions `**F**`, `**E**`, `**G**`, `**A**` output `INF`, `INFINITY`, `NAN` instead. The conversion specifier used to print char, unsigned char, signed char, short, and unsigned short expects promoted types of [default argument promotions](../../language/variadic_arguments.html#Default_argument_promotions "cpp/language/variadic arguments"), but before printing its value will be converted to char, unsigned char, signed char, short, and unsigned short. It is safe to pass values of these types because of the promotion that takes place when a variadic function is called. The correct conversion specifications for the fixed-width character types ([std::int8_t](../../types/integer.html "cpp/types/integer"), etc) are defined in the header [`<cinttypes>`](../../header/cinttypes.html "cpp/header/cinttypes") (although [PRIdMAX](../../types/integer.html "cpp/types/integer"), [PRIuMAX](../../types/integer.html "cpp/types/integer"), etc is synonymous with `%jd`, `%ju`, etc). The memory-writing conversion specifier `%n` is a common target of security exploits where format strings depend on user input. There is a [sequence point](../../language/eval_order.html "cpp/language/eval order") after the action of each conversion specifier; this permits storing multiple `%n` results in the same variable or, as an edge case, printing a string modified by an earlier `%n` within the same call. If a conversion specification is invalid, the behavior is undefined.   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/vfwprintf&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1,2) Number of wide characters written if successful or negative value if an error occurred.
 
 3) Number of wide characters written (not counting the terminating null wide character) if successful or negative value if an encoding error occurred or if the number of characters to be generated was equal or greater than `size`.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/vfwprintf&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 While narrow strings provide [std::vsnprintf](vfprintf.html "cpp/io/c/vfprintf"), which makes it possible to determine the required output buffer size, there is no equivalent for wide strings, and in order to determine the buffer size, the program may need to call `std::vswprintf`, check the result value, and reallocate a larger buffer, trying again until successful. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/vfwprintf&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/vfwprintf&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ vprintfvfprintfvsprintfvsnprintf](vfprintf.html "cpp/io/c/vfprintf")(C++11) |  prints formatted output to [stdout](std_streams.html "cpp/io/c/std streams"), a file stream or a buffer  
 using variable argument list   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_vfprintf&action=edit)  
+(function)   
 ---|---  
 [ wprintffwprintfswprintf](fwprintf.html "cpp/io/c/fwprintf") |  prints formatted wide character output to [stdout](std_streams.html "cpp/io/c/std streams"), a file stream or a buffer   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_fwprintf&action=edit)  
+(function)   
 [C documentation](../../../c/io/vfwprintf.html "c/io/vfwprintf") for vwprintf, vfwprintf, vswprintf

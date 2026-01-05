@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::take_view`](../take_view.html "cpp/ranges/take view")
 
@@ -244,7 +244,7 @@ Non-member functions
 [take_view::_sentinel_ ::base](sentinel/base.html "cpp/ranges/take view/sentinel/base")  
 [operator==(std::counted_iterator,take_view::_sentinel_)](sentinel/operator_cmp.html "cpp/ranges/take view/sentinel/operator cmp")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/take_view/navbar_content&action=edit)
+
 
 constexpr auto end() requires (!/*simple-view*/<V>); |  (1) | (since C++20)  
 ---|---|---  
@@ -270,11 +270,11 @@ Overload (1) does not participate in overload resolution if `V` is a [simple vie
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/take_view/end&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/take_view/end&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The result depends on the concepts satisfied by possibly const-qualified underlying view type `_Base_`, that is `V` for ([1](end.html#Version_1)) or `const V` for ([2](end.html#Version_2)). 
 
@@ -288,7 +288,7 @@ yes  | no
 [ranges::range_difference_t](../range_size_t.html)<Base_>(this->size()) | [std::default_sentinel](../../iterator/default_sentinel.html)  
 no  |  1) /*sentinel*/<false>{[ranges::end](../end.html)(base_)} 2) /*sentinel*/<true>{[ranges::end](../end.html)(base_)}  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/take_view/end&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -328,7 +328,7 @@ Output:
     3 1 4 1
     2 7 1 8
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/take_view/end&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -336,12 +336,12 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [P2393R1](https://wg21.link/P2393R1) | C++20  | implicit conversions between signed and unsigned integer-class types might fail  | made explicit   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/take_view/end&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ begin](begin.html "cpp/ranges/take view/begin") |  returns an iterator to the beginning   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/dsc_begin&action=edit)  
+(public member function)   
 ---|---  
 [ counted_iterator](../../iterator/counted_iterator.html "cpp/iterator/counted iterator")(C++20) |  iterator adaptor that tracks the distance to the end of the range   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_counted_iterator&action=edit)  
+(class template)   
 [ operator==](sentinel/operator_cmp.html "cpp/ranges/take view/sentinel/operator cmp")(C++20) |  compares a sentinel with an iterator returned from [`take_view::begin`](begin.html "cpp/ranges/take view/begin")   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/sentinel/dsc_operator_cmp&action=edit)
+(function) 

@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Filesystem library](../../fs.html "cpp/experimental/fs")
 
@@ -124,7 +124,7 @@ File types
 [filesystem::is_socket](../is_socket.html "cpp/experimental/fs/is socket")  
 [filesystem::is_symlink](../is_symlink.html "cpp/experimental/fs/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/navbar_content&action=edit)
+
 
 [`path`](../path.html "cpp/experimental/fs/path")
 
@@ -174,7 +174,7 @@ Non-member functions
 [operator<<operator>>](operator_ltltgtgt.html "cpp/experimental/fs/path/operator ltltgtgt")  
 **u8path**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/path/navbar_content&action=edit)
+
 
 Defined in header `[<experimental/filesystem>](../../../header/experimental/filesystem.html "cpp/header/experimental/filesystem")` |  |   
 ---|---|---  
@@ -204,7 +204,7 @@ Constructs a path `p` from a UTF-8 encoded sequence of chars, supplied either as
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/path/u8path&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 source  |  \-  |  a UTF-8 encoded [std::string](../../../string/basic_string.html "cpp/string/basic string"), pointer to a null-terminated multibyte string, or an input iterator with char value type that points to a null-terminated multibyte string   
 ---|---|---  
@@ -213,19 +213,19 @@ Type requirements
 -`InputIt` must meet the requirements of [LegacyInputIterator](../../../named_req/InputIterator.html "cpp/named req/InputIterator").   
 -The value type of `InputIt` must be char.   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/path/u8path&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The path constructed from the input string after conversion from UTF-8 to the filesystem's native character encoding. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/path/u8path&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 May throw [`filesystem_error`](../filesystem_error.html "cpp/experimental/fs/filesystem error") on underlying OS API errors or [std::bad_alloc](../../../memory/new/bad_alloc.html) if memory allocation fails. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/path/u8path&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 On systems where native path format differs from the generic path format (neither Windows nor POSIX systems are examples of such OSes), if the argument to this function is using generic format, it will be converted to native. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/path/u8path&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -272,8 +272,8 @@ Possible output:
     File name in narrow multibyte encoding: 要らない.txt
     File name in wide encoding: 要らない.txt
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/path/u8path&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ path](../path.html "cpp/experimental/fs/path") |  represents a path   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_path&action=edit)  
+(class)   
 ---|---

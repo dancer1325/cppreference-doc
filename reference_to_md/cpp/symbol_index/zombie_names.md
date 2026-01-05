@@ -21,7 +21,7 @@
 **Removed symbols(Zombie names)**  
 [Exposition-only symbols](expos.html "cpp/symbol index/expos")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/symbol_index/navbar_content&action=edit)
+
 
 This page tries to list all the symbols that were available from the [standard library](../standard_library.html "cpp/standard library") in the namespace std or in the scope of a scoped enumeration or a class, but removed in following standards. The symbols are written as follows: 
 
@@ -50,14 +50,14 @@ Member names that are still available in other types are not listed here.
   
 ---  
   
-## [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/zombie_names&action=edit&section=1 "Edit section: Removed in C++11   C++14   C++17   C++20   C++23   C++26")] Removed in C++11 [C++14](zombie_names.html#Removed_in_C.2B.2B14) [C++17](zombie_names.html#Removed_in_C.2B.2B17) [C++20](zombie_names.html#Removed_in_C.2B.2B20) [C++23](zombie_names.html#Removed_in_C.2B.2B23) [C++26](zombie_names.html#Removed_in_C.2B.2B26)
+## Removed in C++11 [C++14](zombie_names.html#Removed_in_C.2B.2B14) [C++17](zombie_names.html#Removed_in_C.2B.2B17) [C++20](zombie_names.html#Removed_in_C.2B.2B20) [C++23](zombie_names.html#Removed_in_C.2B.2B23) [C++26](zombie_names.html#Removed_in_C.2B.2B26)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/zombie_names&action=edit&section=2 "Edit section: Removed in C++14")] Removed in C++14
+### Removed in C++14
 
 [`gets()`](../io/c/gets.html "cpp/io/c/gets") (deprecated in C++11)(removed in C++14)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/zombie_names&action=edit&section=3 "Edit section: Removed in C++17")] Removed in C++17
+### Removed in C++17
 
 [`auto_ptr`](../memory/auto_ptr.html "cpp/memory/auto ptr")<> (deprecated in C++11)(removed in C++17)  
 [`binary_function`](../utility/functional/binary_function.html "cpp/utility/functional/binary function")<> (deprecated in C++11)(removed in C++17)  
@@ -85,7 +85,7 @@ Member names that are still available in other types are not listed here.
 [`unexpected_handler`](../error/exception/unexpected_handler.html "cpp/error/exception/unexpected handler") (deprecated in C++11)(removed in C++17)  
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/zombie_names&action=edit&section=4 "Edit section: Member names")] Member names
+#### Member names
 
 [`io_state`](../io/ios_base.html "cpp/io/ios base") (deprecated in C++98)(removed in C++17)  
 [`op`](../utility/functional/binder12.html "cpp/utility/functional/binder12") (deprecated in C++11)(removed in C++17)  
@@ -94,7 +94,7 @@ Member names that are still available in other types are not listed here.
 [`stossc()`](../io/basic_streambuf/sbumpc.html "cpp/io/basic streambuf/sbumpc") (deprecated in C++98)(removed in C++17)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/zombie_names&action=edit&section=5 "Edit section: Removed in C++20")] Removed in C++20
+### Removed in C++20
 
 [`binary_negate`](../utility/functional/binary_negate.html "cpp/utility/functional/binary negate")<> (deprecated in C++17)(removed in C++20)  
 [`get_temporary_buffer<>()`](../memory/get_temporary_buffer.html "cpp/memory/get temporary buffer") (deprecated in C++17)(removed in C++20)  
@@ -110,14 +110,14 @@ Member names that are still available in other types are not listed here.
 [`uncaught_exception()`](../error/exception/uncaught_exception.html "cpp/error/exception/uncaught exception") (deprecated in C++17)(removed in C++20)  
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/zombie_names&action=edit&section=6 "Edit section: Member names")] Member names
+#### Member names
 
 [`argument_type`](../functional.html "cpp/utility/functional") (deprecated in C++17)(removed in C++20)  
 [`first_argument_type`](../functional.html "cpp/utility/functional") (deprecated in C++17)(removed in C++20)  
 [`second_argument_type`](../functional.html "cpp/utility/functional") (deprecated in C++17)(removed in C++20)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/zombie_names&action=edit&section=7 "Edit section: Removed in C++23")] Removed in C++23
+### Removed in C++23
 
 [`declare_no_pointers()`](../memory/gc/declare_no_pointers.html "cpp/memory/gc/declare no pointers") (since C++11)(removed in C++23)  
 [`declare_reachable()`](../memory/gc/declare_reachable.html "cpp/memory/gc/declare reachable") (since C++11)(removed in C++23)  
@@ -127,14 +127,14 @@ Member names that are still available in other types are not listed here.
 [`undeclare_reachable<>()`](../memory/gc/undeclare_reachable.html "cpp/memory/gc/undeclare reachable") (since C++11)(removed in C++23)  
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/zombie_names&action=edit&section=8 "Edit section: Member names")] Member names
+#### Member names
 
 [`relaxed`](../memory/gc/pointer_safety.html "cpp/memory/gc/pointer safety") (since C++11)(removed in C++23)  
 [`preferred`](../memory/gc/pointer_safety.html "cpp/memory/gc/pointer safety") (since C++11)(removed in C++23)  
 [`strict`](../memory/gc/pointer_safety.html "cpp/memory/gc/pointer safety") (since C++11)(removed in C++23)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/zombie_names&action=edit&section=9 "Edit section: Removed in C++26")] Removed in C++26
+### Removed in C++26
 
 [`codecvt_mode`](../locale/codecvt_mode.html "cpp/locale/codecvt mode") (since C++11)(deprecated in C++17)(removed in C++26)  
 [`codecvt_utf16`](../locale/codecvt_utf16.html "cpp/locale/codecvt utf16")<> (since C++11)(deprecated in C++17)(removed in C++26)  
@@ -148,7 +148,7 @@ Member names that are still available in other types are not listed here.
 [`wstring_convert`](../locale/wstring_convert.html "cpp/locale/wstring convert")<> (deprecated in C++17)(removed in C++26)  
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/zombie_names&action=edit&section=10 "Edit section: Member names")] Member names
+#### Member names
 
 [`consume_header`](../locale/codecvt_mode.html "cpp/locale/codecvt mode") (since C++11)(deprecated in C++17)(removed in C++26)  
 [`freeze()`](../io/strstream/freeze.html "cpp/io/strstream/freeze") (deprecated in C++98)(removed in C++26)  
@@ -157,13 +157,13 @@ Member names that are still available in other types are not listed here.
 [`pcount()`](../io/strstream/pcount.html "cpp/io/strstream/pcount") (deprecated in C++98)(removed in C++26)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/zombie_names&action=edit&section=11 "Edit section: Notes")] Notes
+### Notes
 
 The removed names are considered reserved and may be reused for other facilities in future Standard library revisions. 
 
 Names reserved as members for previous standardization may not be used as a name for object-like macros in portable code. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/zombie_names&action=edit&section=12 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

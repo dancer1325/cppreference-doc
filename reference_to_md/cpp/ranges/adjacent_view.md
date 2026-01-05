@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 **`std::ranges::adjacent_view`**
 
@@ -264,7 +264,7 @@ Non-member functions
 [operator==(adjacent_view::_iterator_ ,adjacent_view::_sentinel_)](adjacent_view/sentinel/operator_cmp.html "cpp/ranges/adjacent view/sentinel/operator cmp")  
 [operator-(adjacent_view::_iterator_ ,adjacent_view::_sentinel_)](adjacent_view/sentinel/operator-.html "cpp/ranges/adjacent view/sentinel/operator-")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adjacent_view/navbar_content&action=edit)
+
 
 Defined in header `[<ranges>](../header/ranges.html "cpp/header/ranges")` |  |   
 ---|---|---  
@@ -322,49 +322,49 @@ Let `_S_` be the size of the original view. Then the size of produced view is:
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/adjacent_view&action=edit&section=1 "Edit section: Data members")] Data members
+### Data members
 
 Member  |  Description   
 ---|---  
 `V` `_base__` |  the underlying [`view`](view.html "cpp/ranges/view")  
 (exposition-only member object*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/adjacent_view&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](adjacent_view/adjacent_view.html "cpp/ranges/adjacent view/adjacent view") |  constructs a `adjacent_view`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ begin](adjacent_view/begin.html "cpp/ranges/adjacent view/begin") |  returns an iterator to the beginning   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/dsc_begin&action=edit)  
+(public member function)   
 [ end](adjacent_view/end.html "cpp/ranges/adjacent view/end") |  returns an iterator or a sentinel to the end   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/dsc_end&action=edit)  
+(public member function)   
 [ size](adjacent_view/size.html "cpp/ranges/adjacent view/size") |  returns the number of elements, provided only if the underlying (adapted) range satisfies [`sized_range`](sized_range.html "cpp/ranges/sized range")   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/dsc_size&action=edit)  
+(public member function)   
 [ reserve_hint](adjacent_view/reserve_hint.html "cpp/ranges/adjacent view/reserve hint")(C++26) |  returns the approximate size of the resulting [`approximately_sized_range`](approximately_sized_range.html "cpp/ranges/approximately sized range")   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/dsc_reserve_hint&action=edit)  
+(public member function)   
   
 #####  Inherited from [std::ranges::view_interface](view_interface.html "cpp/ranges/view interface")  
   
 [ empty](view_interface/empty.html "cpp/ranges/view interface/empty") |  returns whether the derived view is empty, provided only if it satisfies [`sized_range`](sized_range.html "cpp/ranges/sized range") or [`forward_range`](forward_range.html "cpp/ranges/forward range")   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_empty&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ cbegin](view_interface/cbegin.html "cpp/ranges/view interface/cbegin")(C++23) |  returns a constant iterator to the beginning of the range   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_cbegin&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ cend](view_interface/cend.html "cpp/ranges/view interface/cend")(C++23) |  returns a sentinel for the constant iterator of the range   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_cend&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ operator bool](view_interface/operator_bool.html "cpp/ranges/view interface/operator bool") |  returns whether the derived view is not empty, provided only if [ranges::empty](empty.html "cpp/ranges/empty") is applicable to it   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_operator_bool&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ front](view_interface/front.html "cpp/ranges/view interface/front") |  returns the first element in the derived view, provided if it satisfies [`forward_range`](forward_range.html "cpp/ranges/forward range")   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_front&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ back](view_interface/back.html "cpp/ranges/view interface/back") |  returns the last element in the derived view, provided only if it satisfies [`bidirectional_range`](bidirectional_range.html "cpp/ranges/bidirectional range") and [`common_range`](common_range.html "cpp/ranges/common range")   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_back&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ operator[]](view_interface/operator_at.html "cpp/ranges/view interface/operator at") |  returns the `n`th element in the derived view, provided only if it satisfies [`random_access_range`](random_access_range.html "cpp/ranges/random access range")   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_operator_at&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/adjacent_view&action=edit&section=3 "Edit section: Deduction guides")] Deduction guides
+### Deduction guides
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/adjacent_view&action=edit&section=4 "Edit section: Nested classes")] Nested classes
+### Nested classes
 
 [_iterator_](adjacent_view/iterator.html "cpp/ranges/adjacent view/iterator") |  the iterator type  
 (exposition-only member class template*)  
@@ -372,7 +372,7 @@ Member  |  Description
 [_sentinel_](adjacent_view/sentinel.html "cpp/ranges/adjacent view/sentinel") |  the sentinel type used when `adjacent_view` is not a [`common_range`](common_range.html "cpp/ranges/common range")  
 (exposition-only member class template*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/adjacent_view&action=edit&section=5 "Edit section: Helper templates")] Helper templates
+### Helper templates
 
 template< class V, size_t N >  
 constexpr bool [ranges::enable_borrowed_range](borrowed_range.html)<adjacent_view<V, N>> =  
@@ -382,7 +382,7 @@ constexpr bool [ranges::enable_borrowed_range](borrowed_range.html)<adjacent_vie
   
 This specialization of [ranges::enable_borrowed_range](borrowed_range.html "cpp/ranges/borrowed range") makes `adjacent_view` satisfy [`borrowed_range`](borrowed_range.html "cpp/ranges/borrowed range") when the underlying view satisfies it. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/adjacent_view&action=edit&section=6 "Edit section: Notes")] Notes
+### Notes
 
 views::adjacent only accepts forward ranges even when `N` is `0`. 
 
@@ -406,7 +406,7 @@ ranges::adjacent_view | [std::tuple](../utility/tuple.html "cpp/utility/tuple") 
 `ranges::adjacent_view`,  
 [ranges::adjacent_transform_view](adjacent_transform_view.html)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/adjacent_view&action=edit&section=7 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -438,7 +438,7 @@ Output:
     e =     [3 4 5]
     e =       [4 5 6]
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/adjacent_view&action=edit&section=8 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -446,7 +446,7 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 4098](https://cplusplus.github.io/LWG/issue4098) | C++23  | views::adjacent<0> used to accept input-only ranges  | made rejected   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/adjacent_view&action=edit&section=9 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -458,16 +458,16 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/adjacent_view&action=edit&section=10 "Edit section: See also")] See also
+### See also
 
 [ ranges::adjacent_transform_viewviews::adjacent_transform](adjacent_transform_view.html "cpp/ranges/adjacent transform view")(C++23) |  a [`view`](view.html "cpp/ranges/view") consisting of results of application of a transformation function to adjacent elements of the adapted view  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_adjacent_transform_view&action=edit)  
+(class template) (range adaptor object)  
 ---|---  
 [ ranges::slide_viewviews::slide](slide_view.html "cpp/ranges/slide view")(C++23) |  a [`view`](view.html "cpp/ranges/view") whose Mth element is a [`view`](view.html "cpp/ranges/view") over the Mth through (M + N - 1)th elements of another [`view`](view.html "cpp/ranges/view")  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_slide_view&action=edit)  
+(class template) (range adaptor object)  
 [ ranges::chunk_viewviews::chunk](chunk_view.html "cpp/ranges/chunk view")(C++23) |  a range of [`view`s](view.html "cpp/ranges/view") that are `N`-sized non-overlapping successive chunks of the elements of another [`view`](view.html "cpp/ranges/view")  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_chunk_view&action=edit)  
+(class template) (range adaptor object)  
 [ ranges::stride_viewviews::stride](stride_view.html "cpp/ranges/stride view")(C++23) |  a [`view`](view.html "cpp/ranges/view") consisting of elements of another [`view`](view.html "cpp/ranges/view"), advancing over N elements at a time  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_stride_view&action=edit)
+(class template) (range adaptor object)
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

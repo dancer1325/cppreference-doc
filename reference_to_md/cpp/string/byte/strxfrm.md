@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Null-terminated byte strings](../byte.html "cpp/string/byte")
 
@@ -143,7 +143,7 @@
 | [strerror](strerror.html "cpp/string/byte/strerror")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/navbar_content&action=edit)
+
 
 Defined in header `[<cstring>](../../header/cstring.html "cpp/header/cstring")` |  |   
 ---|---|---  
@@ -169,24 +169,24 @@ If count is ​0​, then dest is allowed to be a null pointer.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/strxfrm&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 The correct length of the buffer that can receive the entire transformed string is 1 + std::strxfrm(nullptr, src, 0). 
 
 This function is used when making multiple locale-dependent comparisons using the same string or set of strings, because it is more efficient to use **std::strxfrm** to transform all the strings just once, and subsequently compare the transformed strings with [std::strcmp](strcmp.html "cpp/string/byte/strcmp"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/strxfrm&action=edit&section=2 "Edit section: Parameters")] Parameters
+### Parameters
 
 dest  |  \-  |  pointer to the first element of the array where the transformed string will be written   
 ---|---|---  
 src  |  \-  |  pointer to the first character of a null-terminated byte string to transform   
 count  |  \-  |  maximum number of characters to be written   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/strxfrm&action=edit&section=3 "Edit section: Return value")] Return value
+### Return value
 
 The length of the transformed string, not including the terminating null-character. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/strxfrm&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -229,13 +229,13 @@ Possible output:
     In the Czech locale: hrnec before chrt
     In lexicographical comparison: chrt before hrnec
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/strxfrm&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ wcsxfrm](../wide/wcsxfrm.html "cpp/string/wide/wcsxfrm") |  transform a wide string so that `wcscmp` would produce the same result as `wcscoll`   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wcsxfrm&action=edit)  
+(function)   
 ---|---  
 [ do_transform](../../locale/collate/transform.html "cpp/locale/collate/transform")[virtual] |  transforms a string so that collation can be replaced by comparison   
-(virtual protected member function of `std::collate<CharT>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/collate/dsc_do_transform&action=edit)  
+(virtual protected member function of `std::collate<CharT>`)   
 [ strcoll](strcoll.html "cpp/string/byte/strcoll") |  compares two strings in accordance to the current locale   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strcoll&action=edit)  
+(function)   
 [C documentation](../../../c/string/byte/strxfrm.html "c/string/byte/strxfrm") for strxfrm

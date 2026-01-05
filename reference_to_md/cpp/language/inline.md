@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [Declarations](declarations.html "cpp/language/declarations")
 
@@ -280,7 +280,7 @@ Other declarations
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/declarations/navbar_content&action=edit)
+
 
 The inline specifier, when used in a function's [decl-specifier-seq](declarations.html#Specifiers "cpp/language/declarations"), declares the function to be an _inline function_. 
 
@@ -302,7 +302,7 @@ The inline specifier, when used in a [decl-specifier-seq](declarations.html#Spec
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/inline&action=edit&section=1 "Edit section: Explanation")] Explanation
+### Explanation
 
 An inline function or inline variable(since C++17) has the following properties: 
 
@@ -334,7 +334,7 @@ Since inline substitution is unobservable in the standard semantics, compilers a
 Because the meaning of the keyword inline for functions came to mean "multiple definitions are permitted" rather than "inlining is preferred" since C++98, that meaning was extended to variables.  | (since C++17)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/inline&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 If an inline function or variable(since C++17) with external linkage is defined differently in different translation units, the program is ill-formed, no diagnostic required. 
 
@@ -354,11 +354,11 @@ Feature-test macro | Value | Std | Feature
 ---|---|---|---  
 [`__cpp_inline_variables`](../experimental/feature_test.html#cpp_inline_variables "cpp/feature test") | [`201606L`](../compiler_support/17.html#cpp_inline_variables_201606L "cpp/compiler support/17") | (C++17) | Inline variables   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/inline&action=edit&section=3 "Edit section: Keywords")] Keywords
+### Keywords
 
 [`inline`](../keyword/inline.html "cpp/keyword/inline")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/inline&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Header "example.h": 
     
@@ -401,7 +401,7 @@ Source file #2:
         return sum(3, 4);
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/inline&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -422,7 +422,7 @@ consistency and implementations
 it was not declared constexpr on its first declaration  | it is not implicitly  
 inline in this case   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/inline&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [C documentation](../../c/language/inline.html "c/language/inline") for inline  
 ---

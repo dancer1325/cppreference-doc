@@ -21,14 +21,14 @@
 [Removed symbols (Zombie names)](zombie_names.html "cpp/symbol index/zombie names")  
 [Exposition-only symbols](expos.html "cpp/symbol index/expos")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/symbol_index/navbar_content&action=edit)
+
 
 [`std::ranges`](ranges.html "cpp/symbol index/ranges")
 
 **std::ranges::views**(C++20)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/symbol_index/ranges/navbar_content&action=edit)
+
 
 This page tries to list all the symbols that are available from the [standard library](../standard_library.html "cpp/standard library") ([ranges library](../ranges.html "cpp/ranges")) in the namespace std::ranges::views. The symbols are written as follows: 
 
@@ -60,7 +60,7 @@ This page tries to list all the symbols that are available from the [standard li
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/views&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 std::ranges::views can be accessed as std::views. 
 
@@ -71,7 +71,7 @@ std::ranges::views can be accessed as std::views.
   
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/views&action=edit&section=3 "Edit section: A")] A
+### A
 
 [`adjacent`](../ranges/adjacent_view.html "cpp/ranges/adjacent view") (since C++23)  
 [`adjacent_transform`](../ranges/adjacent_transform_view.html "cpp/ranges/adjacent transform view") (since C++23)  
@@ -81,7 +81,7 @@ std::ranges::views can be accessed as std::views.
 [`as_rvalue`](../ranges/as_rvalue_view.html "cpp/ranges/as rvalue view") (since C++23)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/views&action=edit&section=4 "Edit section: C")] C
+### C
 
 [`cache_latest`](../ranges/cache_latest_view.html "cpp/ranges/cache latest view") (since C++26)  
 [`cartesian_product`](../ranges/cartesian_product_view.html "cpp/ranges/cartesian product view") (since C++23)  
@@ -92,59 +92,59 @@ std::ranges::views can be accessed as std::views.
 [`counted`](../ranges/counted_view.html "cpp/ranges/view counted") (since C++20)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/views&action=edit&section=5 "Edit section: D")] D
+### D
 
 [`drop`](../ranges/drop_view.html "cpp/ranges/drop view") (since C++20)  
 [`drop_while`](../ranges/drop_while_view.html "cpp/ranges/drop while view") (since C++20)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/views&action=edit&section=6 "Edit section: E")] E
+### E
 
 [`elements`](../ranges/elements_view.html "cpp/ranges/elements view")<> (since C++20)  
 [`empty`](../ranges/empty_view.html "cpp/ranges/empty view")<> (since C++20)  
 [`enumerate`](../ranges/enumerate_view.html "cpp/ranges/enumerate view") (since C++23)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/views&action=edit&section=7 "Edit section: F")] F
+### F
 
 [`filter`](../ranges/filter_view.html "cpp/ranges/filter view") (since C++20)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/views&action=edit&section=8 "Edit section: I")] I
+### I
 
 [`iota`](../ranges/iota_view.html "cpp/ranges/iota view") (since C++20)  
 [`istream`](../ranges/basic_istream_view.html "cpp/ranges/basic istream view")<> (since C++20)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/views&action=edit&section=9 "Edit section: J")] J
+### J
 
 [`join`](../ranges/join_view.html "cpp/ranges/join view") (since C++20)  
 [`join_with`](../ranges/join_with_view.html "cpp/ranges/join with view") (since C++23)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/views&action=edit&section=10 "Edit section: K")] K
+### K
 
 [`keys`](../ranges/keys_view.html "cpp/ranges/keys view") (since C++20)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/views&action=edit&section=11 "Edit section: L")] L
+### L
 
 [`lazy_split`](../ranges/lazy_split_view.html "cpp/ranges/lazy split view") (since C++20)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/views&action=edit&section=12 "Edit section: P")] P
+### P
 
 [`pairwise`](../ranges/adjacent_view.html "cpp/ranges/adjacent view") (since C++23)  
 [`pairwise_transform`](../ranges/adjacent_transform_view.html "cpp/ranges/adjacent transform view") (since C++23)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/views&action=edit&section=13 "Edit section: R")] R
+### R
 
 [`repeat`](../ranges/repeat_view.html "cpp/ranges/repeat view") (since C++23)  
 [`reverse`](../ranges/reverse_view.html "cpp/ranges/reverse view") (since C++20)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/views&action=edit&section=14 "Edit section: S")] S
+### S
 
 [`single`](../ranges/single_view.html "cpp/ranges/single view") (since C++20)  
 [`slide`](../ranges/slide_view.html "cpp/ranges/slide view") (since C++23)  
@@ -152,7 +152,7 @@ std::ranges::views can be accessed as std::views.
 [`stride`](../ranges/stride_view.html "cpp/ranges/stride view") (since C++23)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/views&action=edit&section=15 "Edit section: T")] T
+### T
 
 [`take`](../ranges/take_view.html "cpp/ranges/take view") (since C++20)  
 [`take_while`](../ranges/take_while_view.html "cpp/ranges/take while view") (since C++20)  
@@ -160,12 +160,12 @@ std::ranges::views can be accessed as std::views.
 [`transform`](../ranges/transform_view.html "cpp/ranges/transform view") (since C++20)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/views&action=edit&section=16 "Edit section: V")] V
+### V
 
 [`values`](../ranges/values_view.html "cpp/ranges/values view") (since C++20)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/views&action=edit&section=17 "Edit section: Z")] Z
+### Z
 
 [`zip`](../ranges/zip_view.html "cpp/ranges/zip view") (since C++23)  
 [`zip_transform`](../ranges/zip_transform_view.html "cpp/ranges/zip transform view") (since C++23)  

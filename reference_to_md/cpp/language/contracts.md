@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Basic Concepts](basics.html "cpp/language/basic concepts")
 
@@ -249,7 +249,7 @@ Miscellaneous
 [Modules](modules.html "cpp/language/modules") (C++20)  
 **Contracts** (C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/basics/navbar_content&action=edit)
+
 
 Contract assertions allow the programmer to specify properties of the state of the program that are expected to hold at certain points during execution. 
 
@@ -270,11 +270,11 @@ Contract assertions allow the programmer to specify properties of the state of t
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/contracts&action=edit&section=1 "Edit section: Explanation")] Explanation
+### Explanation
 
 _Contract assertions_ are introduced by [function contract specifiers](function.html#Function_contract_specifiers "cpp/language/function") and [`contract_assert`](contract_assert.html "cpp/language/contract assert") statements. Each contract assertion has a _predicate ﻿_ , which is an expression of type bool. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/contracts&action=edit&section=2 "Edit section: Evaluating contract assertions")] Evaluating contract assertions
+### Evaluating contract assertions
 
 An evaluation of a contract assertion uses one of the following evaluation semantics: 
 
@@ -305,7 +305,7 @@ There is an [observable checkpoint](as_if.html "cpp/language/as if") `CP` that h
      
     f(); // Increment of “num” might not occur, even if a checking semantic is used
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/contracts&action=edit&section=3 "Edit section: Handling contract violations")] Handling contract violations
+### Handling contract violations
 
 If a contract violation occurs in a context that is manifestly constant-evaluated: 
 
@@ -323,7 +323,7 @@ If a contract violation occurs in a context that is not manifestly constant-eval
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/contracts&action=edit&section=4 "Edit section: Contract-terminated programs")] Contract-terminated programs
+#### Contract-terminated programs
 
 When the program is _contract-terminated ﻿_ , it is implementation-defined (depending on context) whether 
 
@@ -333,7 +333,7 @@ When the program is _contract-terminated ﻿_ , it is implementation-defined (de
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/contracts&action=edit&section=5 "Edit section: Contract-violation handler")] Contract-violation handler
+#### Contract-violation handler
 
 The _contract-violation handler_ of a program is a function named ::handle_contract_violation: 
 
@@ -355,7 +355,7 @@ When the contract-violation handler returns normally:
 
 There is an [observable checkpoint](as_if.html "cpp/language/as if") `CP` that happens after the contract-violation handler returns normally such that any other operation `OP` that happens after the contract-violation handler returns also happens after `CP`. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/contracts&action=edit&section=6 "Edit section: Handling exceptions from assertions")] Handling exceptions from assertions
+#### Handling exceptions from assertions
 
 If the contract violation occurred because the evaluation of the predicate exited via an exception and the evaluation semantic is “observe” or “enforce”, the contract-violation handler is invoked from within an active implicit [handler](catch.html "cpp/language/catch") for that exception. 
 
@@ -368,7 +368,7 @@ When the contract-violation handler returns normally:
 
 The current exception can be inspected or rethrown within the contract-violation handler using [std::current_exception()](../error/current_exception.html "cpp/error/current exception"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/contracts&action=edit&section=7 "Edit section: Evaluate in sequence")] Evaluate in sequence
+### Evaluate in sequence
 
 To _evaluate in sequence_ a list `R` of contract assertions: 
 
@@ -394,7 +394,7 @@ To _evaluate in sequence_ a list `R` of contract assertions:
         // invalid sequence of evaluations: #2 #1       (first occurences cannot switch)
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/contracts&action=edit&section=8 "Edit section: Notes")] Notes
+### Notes
 
 The range and flexibility of available choices of evaluation semantics depends on the implementation, and need not allow all four evaluation semantics as possibilities. 
 
@@ -422,11 +422,11 @@ Feature-test macro | Value | Std | Feature
 ---|---|---|---  
 [`__cpp_contracts`](../experimental/feature_test.html#cpp_contracts "cpp/feature test") | [`202502L`](../compiler_support/26.html#cpp_contracts_202502L "cpp/compiler support/26") | (C++26) | Contracts   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/contracts&action=edit&section=9 "Edit section: Keywords")] Keywords
+### Keywords
 
 [`contract_assert`](../keyword/contract_assert.html "cpp/keyword/contract assert"), [`pre`](../identifier_with_special_meaning/pre.html "cpp/identifier with special meaning/pre"), [`post`](../identifier_with_special_meaning/post.html "cpp/identifier with special meaning/post")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/contracts&action=edit&section=10 "Edit section: Support status")] Support status
+### Support status
 
 C++26 feature  
   
@@ -437,10 +437,10 @@ C++26 feature
 ---|---|---|---|---|---|---|---|---|---|---  
 **Contracts** ([FTM](../experimental/feature_test.html#cpp_contracts "cpp/feature test"))* | [P2900R14](https://wg21.link/P2900R14) |  |  |  |  |  |  |  |  |   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/contracts&action=edit&section=11 "Edit section: See also")] See also
+### See also
 
-[`contract_assert` statement](contract_assert.html "cpp/language/contract assert") (C++26) |  verifies an internal condition during execution[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_contract_assert&action=edit)  
+[`contract_assert` statement](contract_assert.html "cpp/language/contract assert") (C++26) |  verifies an internal condition during execution  
 ---|---  
-[function contract specifiers](functions.html#Function_contract_specifiers "cpp/language/functions") (C++26) |  specifies preconditions (pre) and postconditions (post)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/functions/dsc_function_contract_specifiers&action=edit)
+[function contract specifiers](functions.html#Function_contract_specifiers "cpp/language/functions") (C++26) |  specifies preconditions (pre) and postconditions (post)
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

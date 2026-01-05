@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::zip_view`](../../zip_view.html "cpp/ranges/zip view")
 
@@ -264,7 +264,7 @@ Non-member functions
 [operator==(zip_view::_iterator_ ,zip_view::_sentinel_)](../sentinel/operator_cmp.html "cpp/ranges/zip view/sentinel/operator cmp")  
 [operator-(zip_view::_iterator_ ,zip_view::_sentinel_)](../sentinel/operator-.html "cpp/ranges/zip view/sentinel/operator-")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/zip_view/navbar_content&action=edit)
+
 
 friend constexpr bool operator==( const /*iterator*/& x, const /*iterator*/& y )  
 requires ([std::equality_comparable](../../../concepts/equality_comparable.html)<  
@@ -292,17 +292,17 @@ This function is not visible to ordinary [unqualified](../../../language/unquali
 
 The `<`, `<=`, `>`, `>=`, and `!=` operators are [synthesized](../../../language/operators.html#Comparison_operators "cpp/language/operators") from operator<=> and operator== respectively. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/zip_view/iterator/operator_cmp&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 x, y  |  \-  |  iterators to compare   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/zip_view/iterator/operator_cmp&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The result of comparison 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/zip_view/iterator/operator_cmp&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ operator==](../sentinel/operator_cmp.html "cpp/ranges/zip view/sentinel/operator cmp")(C++23) |  compares a sentinel with an iterator returned from [`zip_view::begin`](../begin.html "cpp/ranges/zip view/begin")   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/sentinel/dsc_operator_cmp&action=edit)  
+(function)   
 ---|---

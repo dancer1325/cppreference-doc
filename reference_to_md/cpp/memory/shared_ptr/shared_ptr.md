@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::shared_ptr`](../shared_ptr.html "cpp/memory/shared ptr")
 
@@ -220,7 +220,7 @@ Helper classes
 [hash<std::shared_ptr>](hash.html "cpp/memory/shared ptr/hash")  
 [Deduction guides](deduction_guides.html "cpp/memory/shared ptr/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/navbar_content&action=edit)
+
 
 constexpr shared_ptr() noexcept; |  (1)  |   
 ---|---|---  
@@ -302,7 +302,7 @@ When `T` is not an array type, the overloads (3,4,6) enable `shared_from_this` w
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/shared_ptr&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 ptr  |  \-  |  a pointer to an object to manage   
 ---|---|---  
@@ -310,7 +310,7 @@ d  |  \-  |  a deleter to use to destroy the object
 alloc  |  \-  |  an allocator to use for allocations of data for internal use   
 r  |  \-  |  another smart pointer to share the ownership to or acquire the ownership from   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/shared_ptr&action=edit&section=2 "Edit section: Postconditions")] Postconditions
+### Postconditions
 
 1,2) [use_count()](use_count.html "cpp/memory/shared ptr/use count") equals ​0​ and [get()](get.html "cpp/memory/shared ptr/get") equals nullptr.
 
@@ -326,7 +326,7 @@ r  |  \-  |  another smart pointer to share the ownership to or acquire the owne
 
 12) [use_count()](use_count.html "cpp/memory/shared ptr/use count") equals 1 and r.get() equals nullptr.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/shared_ptr&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 3) [std::bad_alloc](../new/bad_alloc.html "cpp/memory/new/bad alloc") if required additional memory could not be obtained. May throw implementation-defined exception for other errors. If an exception occurs, this calls delete ptr if `T` is not an array type, and calls delete[] ptr otherwise(since C++17).
 
@@ -338,7 +338,7 @@ r  |  \-  |  another smart pointer to share the ownership to or acquire the owne
 
 13) If an exception is thrown, the constructor has no effects.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/shared_ptr&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 A constructor _enables`shared_from_this`_ with a pointer ptr of type `U*` means that it determines if `U` has an unambiguous and accessible(since C++17) base class that is a specialization of [std::enable_shared_from_this](../enable_shared_from_this.html "cpp/memory/enable shared from this"), and if so, the constructor evaluates  if (ptr != nullptr && ptr->`_[weak_this](../enable_shared_from_this.html#weak_this "cpp/memory/enable shared from this")_` ﻿.expired())  
 ` `ptr->`_[weak_this](../enable_shared_from_this.html#weak_this "cpp/memory/enable shared from this")_`` `= [std::shared_ptr](../shared_ptr.html)<[std::remove_cv_t](../../types/remove_cv.html)<U>>  
@@ -362,7 +362,7 @@ Since the `shared_ptr` obtains its deleter (a [std::default_delete](../default_d
 
 This is no longer allowed in C++17. Instead the array form [std::shared_ptr](../shared_ptr.html)<T[]> should be used. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/shared_ptr&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -431,7 +431,7 @@ Output:
     Call delete from function object. Foo::id=11
     Foo::~Foo(), id=11
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/shared_ptr&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -439,12 +439,12 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 3548](https://cplusplus.github.io/LWG/issue3548) | C++11  | the constructor from `unique_ptr` copy-constructed the deleter  | move-constructs instead   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/shared_ptr&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ make_sharedmake_shared_for_overwrite](make_shared.html "cpp/memory/shared ptr/make shared")(C++20) |  creates a shared pointer that manages a new object   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/dsc_make_shared&action=edit)  
+(function template)   
 ---|---  
 [ allocate_sharedallocate_shared_for_overwrite](allocate_shared.html "cpp/memory/shared ptr/allocate shared")(C++20) |  creates a shared pointer that manages a new object allocated using an allocator   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/dsc_allocate_shared&action=edit)  
+(function template)   
 [ enable_shared_from_this](../enable_shared_from_this.html "cpp/memory/enable shared from this")(C++11) |  allows an object to create a `shared_ptr` referring to itself   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_enable_shared_from_this&action=edit)
+(class template) 

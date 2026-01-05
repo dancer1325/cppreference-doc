@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 `[std::unordered_set](../unordered_set.html "cpp/container/unordered set")`
 
@@ -137,7 +137,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/unordered set/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/unordered_set/navbar_content&action=edit)
+
 
 bool empty() const noexcept; |  | (since C++11)   
 (constexpr since C++26)  
@@ -156,17 +156,17 @@ Checks if the container has no elements.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/empty&action=edit&section=T-1 "Template:cpp/container/empty")] Return value
+### Return value
 
 true if the container is empty, false otherwise. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/empty&action=edit&section=T-2 "Template:cpp/container/empty")] Complexity
+### Complexity
 
 Constant. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/empty&action=edit&section=T-3 "Template:cpp/container/empty")] Example
+### Example
 
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/set/example_empty&action=edit)
+
 
 The following code uses `empty` to check if a [std::unordered_set](../unordered_set.html)<int> contains any elements:
 
@@ -193,10 +193,10 @@ Output:
     Initially, numbers.empty(): true
     After adding elements, numbers.empty(): false
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/empty&action=edit&section=T-4 "Template:cpp/container/empty")] See also
+### See also
 
 [ size](size.html "cpp/container/unordered set/size") |  returns the number of elements   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_size&action=edit)  
+(public member function)   
 ---|---  
 [ empty](../../iterator/empty.html "cpp/iterator/empty")(C++17) |  checks whether the container is empty   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_empty&action=edit)
+(function template) 

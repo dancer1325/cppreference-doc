@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::future`](../future.html "cpp/thread/future")
 
@@ -191,7 +191,7 @@ State
 [future::wait_for](wait_for.html "cpp/thread/future/wait for")  
 [future::wait_until](wait_until.html "cpp/thread/future/wait until")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/future/navbar_content&action=edit)
+
 
 Main template |  |   
 ---|---|---  
@@ -218,7 +218,7 @@ If [valid()](valid.html "cpp/thread/future/valid") is false before the call to t
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/future/get&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 1) The value v stored in the shared state, as std::move(v).
 
@@ -226,15 +226,15 @@ If [valid()](valid.html "cpp/thread/future/valid") is false before the call to t
 
 3) (none)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/future/get&action=edit&section=2 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 If an exception was stored in the shared state referenced by the future (e.g. via a call to [`std::promise::set_exception()`](../promise/set_exception.html "cpp/thread/promise/set exception")) then that exception will be thrown. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/future/get&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 The C++ standard recommends the implementations to detect the case when [valid()](valid.html "cpp/thread/future/valid") is false before the call and throw a [std::future_error](../future_error.html "cpp/thread/future error") with an error condition of [std::future_errc::no_state](../future_errc.html "cpp/thread/future errc"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/future/get&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -304,7 +304,7 @@ Possible output:
     [1.001275s] waiting for the future, f.valid() = 1
     [2.002356s] caught exception 7, f.valid() = 0
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/future/get&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -312,8 +312,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 2096](https://cplusplus.github.io/LWG/issue2096) | C++11  | overload (1) needed to check whether `T` is [MoveAssignable](../../named_req/MoveAssignable.html "cpp/named req/MoveAssignable") | not required   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/future/get&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ valid](valid.html "cpp/thread/future/valid") |  checks if the future has a shared state   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/future/dsc_valid&action=edit)  
+(public member function)   
 ---|---

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_stringbuf`](../basic_stringbuf.html "cpp/io/basic stringbuf")
 
@@ -101,7 +101,7 @@ Non-member functions
 Exposition-only member functions  
 [basic_stringbuf::_init_buf_ptrs_](init_buf_ptrs.html "cpp/io/basic stringbuf/init buf ptrs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_stringbuf/navbar_content&action=edit)
+
 
 protected:  
 virtual int_type overflow( int_type c = Traits::eof() ); |  |   
@@ -128,23 +128,23 @@ This function can make a write position available if the [std::stringbuf](../bas
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_stringbuf/overflow&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 c  |  \-  |  the character to store in the put area   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_stringbuf/overflow&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Traits::eof() to indicate failure, c if the character c was successfully appended, or some value other than Traits::eof() if called with Traits::eof() as the argument. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_stringbuf/overflow&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 This function is different from a typical `overflow()` which moves the contents of the buffer to the associated character sequence because for a [std::basic_stringbuf](../basic_stringbuf.html "cpp/io/basic stringbuf"), the buffer and the associated sequence are one and the same. 
 
   
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_stringbuf/overflow&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 In the implementation used to execute this example (e.g. GCC-4.9), `overflow()` over-allocates the put area to 512 bytes: a call to [str()](str.html "cpp/io/basic stringbuf/str") would only return the four initialized bytes, but the next 508 calls to [sputc()](../basic_streambuf/sputc.html "cpp/io/basic streambuf/sputc") would not require new calls to `overflow()`.
 
@@ -219,7 +219,7 @@ Possible output:
     After : size of get area: 0
             size of put area: 512
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_stringbuf/overflow&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -229,10 +229,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [LWG 432](https://cplusplus.github.io/LWG/issue432) | C++98  | `overflow` moved [epptr()](../basic_streambuf/pptr.html "cpp/io/basic streambuf/pptr") to point just past the new  
 write position if the `std::stringbuf` is open for input  | it is not moved   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_stringbuf/overflow&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ overflow](../basic_streambuf/overflow.html "cpp/io/basic streambuf/overflow")[virtual] |  writes characters to the associated output sequence from the put area   
-(virtual protected member function of `std::basic_streambuf<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_streambuf/dsc_overflow&action=edit)  
+(virtual protected member function of `std::basic_streambuf<CharT,Traits>`)   
 ---|---  
 [ underflow](underflow.html "cpp/io/basic stringbuf/underflow")[virtual] |  returns the next character available in the input sequence   
-(virtual protected member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_stringbuf/dsc_underflow&action=edit)
+(virtual protected member function) 

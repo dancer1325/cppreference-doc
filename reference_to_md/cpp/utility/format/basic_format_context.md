@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Formatting library](../format.html "cpp/utility/format")
 
@@ -91,7 +91,7 @@ Formatting arguments
 [Format error](format.html#Format_error "cpp/utility/format/format")  
 [format_error](format_error.html "cpp/utility/format/format error")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/navbar_content&action=edit)
+
 
 Defined in header `[<format>](../../header/format.html "cpp/header/format")` |  |   
 ---|---|---  
@@ -128,20 +128,20 @@ A program that declares an explicit or partial specialization of `std::basic_for
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/basic_format_context&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Type  |  Definition   
 ---|---  
 `iterator` |  `OutputIt`  
 `char_type` |  `CharT`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/basic_format_context&action=edit&section=2 "Edit section: Member alias templates")] Member alias templates
+### Member alias templates
 
 Type  |  Definition   
 ---|---  
 formatter_type<T> |  [std::formatter](formatter.html)<T, CharT>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/basic_format_context&action=edit&section=3 "Edit section: Member functions")] Member functions
+### Member functions
 
 (constructor)[deleted] |  `basic_format_context` cannot be constructed by user code   
 (public member function)  
@@ -191,13 +191,13 @@ void advance_to( iterator it ); |  |
   
 Move assigns `it` to the stored output iterator. After a call to `advance_to`, the next call to `out()` will return an iterator with the value that `it` had before the assignment. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/basic_format_context&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/basic_format_context&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

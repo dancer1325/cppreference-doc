@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::strstreambuf`](../strstreambuf.html "cpp/io/strstreambuf")
 
@@ -96,7 +96,7 @@ Protected member functions
 **strstreambuf::seekoff**  
 [strstreambuf::seekpos](seekpos.html "cpp/io/strstreambuf/seekpos")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/strstreambuf/navbar_content&action=edit)
+
 
 protected:  
 virtual pos_type seekoff( off_type off,  
@@ -142,7 +142,7 @@ c) if way == ios_base::end, then newoff is the length of the entire initialized 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/strstreambuf/seekoff&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 off  |  \-  |  relative position to set the next pointer(s) to   
 ---|---|---  
@@ -156,11 +156,11 @@ which  |  \-  |  defines whether the input sequences, the output sequence, or bo
 [`in`](../ios_base/openmode.html "cpp/io/ios base/openmode") |  affect the input sequence   
 [`out`](../ios_base/openmode.html "cpp/io/ios base/openmode") |  affect the output sequence   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/strstreambuf/seekoff&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 pos_type(newoff) on success, pos_type(off_type(-1)) on failure and if pos_type cannot represent the resulting stream position. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/strstreambuf/seekoff&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -213,7 +213,7 @@ Output:
     Wrote 'a' at put position, the buffer is now: '12a'
     reading at get position gives '2'
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/strstreambuf/seekoff&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -223,14 +223,14 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 invalid stream position on failure  | pos_type(off_type(-1))  
 is returned on failure   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/strstreambuf/seekoff&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ seekpos](seekpos.html "cpp/io/strstreambuf/seekpos")[virtual] |  repositions the next pointer in the input sequence, output sequence, or both using absolute addressing   
-(virtual protected member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/strstreambuf/dsc_seekpos&action=edit)  
+(virtual protected member function)   
 ---|---  
 [ seekoff](../basic_streambuf/pubseekoff.html "cpp/io/basic streambuf/pubseekoff")[virtual] |  repositions the next pointer in the input sequence, output sequence, or both, using relative addressing   
-(virtual protected member function of `std::basic_streambuf<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_streambuf/dsc_seekoff&action=edit)  
+(virtual protected member function of `std::basic_streambuf<CharT,Traits>`)   
 [ seekoff](../basic_stringbuf/seekoff.html "cpp/io/basic stringbuf/seekoff")[virtual] |  repositions the next pointer in the input sequence, output sequence, or both, using relative addressing   
-(virtual protected member function of `std::basic_stringbuf<CharT,Traits,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_stringbuf/dsc_seekoff&action=edit)  
+(virtual protected member function of `std::basic_stringbuf<CharT,Traits,Allocator>`)   
 [ seekoff](../basic_filebuf/seekoff.html "cpp/io/basic filebuf/seekoff")[virtual] |  repositions the file position, using relative addressing   
-(virtual protected member function of `std::basic_filebuf<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_filebuf/dsc_seekoff&action=edit)
+(virtual protected member function of `std::basic_filebuf<CharT,Traits>`) 

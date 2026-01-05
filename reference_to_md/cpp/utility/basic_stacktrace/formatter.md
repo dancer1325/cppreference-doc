@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Diagnostics library](../../error.html "cpp/error")
 
@@ -89,7 +89,7 @@ Exception handling failures
 [breakpoint_if_debugging](../breakpoint_if_debugging.html "cpp/utility/breakpoint if debugging")(C++26)  
 [breakpoint](../breakpoint.html "cpp/utility/breakpoint")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/navbar_content&action=edit)
+
 
 [`std::basic_stacktrace`](../basic_stacktrace.html "cpp/utility/basic stacktrace")
 
@@ -124,7 +124,7 @@ operator<=>](operator_cmp.html "cpp/utility/basic stacktrace/operator cmp")
 [hash<std::basic_stacktrace>](hash.html "cpp/utility/basic stacktrace/hash")  
 **formatter <std::basic_stacktrace>**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/basic_stacktrace/navbar_content&action=edit)
+
 
 Defined in header `[<stacktrace>](../../header/stacktrace.html "cpp/header/stacktrace")` |  |   
 ---|---|---  
@@ -138,7 +138,7 @@ No format specifier is allowed.
 
 A stacktrace object s is formatted as if by copying [`std::to_string`](to_string.html "cpp/utility/basic stacktrace/to string")(s) to the output. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/basic_stacktrace/formatter&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -160,10 +160,10 @@ Possible output:
      1# __libc_start_main in /lib/x86_64-linux-gnu/libc.so.6
      2# 0x0000000000402CA9 in ./prog.exe
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/basic_stacktrace/formatter&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ formatter](../format/formatter.html "cpp/utility/format/formatter")(C++20) |  defines formatting rules for a given type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/dsc_formatter&action=edit)  
+(class template)   
 ---|---  
 [ print](../../io/print.html "cpp/io/print")(C++23) |  prints to [stdout](../../io/c/std_streams.html "cpp/io/c/std streams") or a file stream using [formatted](../format.html "cpp/utility/format") representation of the arguments   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_print&action=edit)
+(function template) 

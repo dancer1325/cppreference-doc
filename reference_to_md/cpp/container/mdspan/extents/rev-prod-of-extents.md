@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../../container.html "cpp/container")
 
@@ -71,7 +71,7 @@ Tables
 [Member function table](../../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::mdspan`](../../mdspan.html "cpp/container/mdspan")
 
@@ -120,7 +120,7 @@ Tables
 [submdspan_mapping_result](../submdspan_mapping_result.html "cpp/container/mdspan/submdspan mapping result")(C++26)  
 [Deduction guides](../deduction_guides.html "cpp/container/mdspan/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/navbar_content&action=edit)
+
 
 [`std::extents`](../extents.html "cpp/container/mdspan/extents")
 
@@ -142,7 +142,7 @@ Tables
 [extents::operator==](operator==.html "cpp/container/mdspan/extents/operator==")  
 [Deduction guides](deduction_guides.html "cpp/container/mdspan/extents/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/extents/navbar_content&action=edit)
+
 
 constexpr [std::size_t](../../../types/size_t.html) /*rev-prod-of-extents*/( rank_type i ) const noexcept; |  |  (since C++23)   
 (exposition only*)  
@@ -151,17 +151,17 @@ constexpr [std::size_t](../../../types/size_t.html) /*rev-prod-of-extents*/( ran
   
 Returns the product of the sizes of extents with index greater than i. The behavior is undefined if i < rank() is false. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/extents/rev-prod-of-extents&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 i  |  \-  |  an index above which the sizes of corresponding extents will be multiplied together   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/extents/rev-prod-of-extents&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 If i + 1 < rank() is true, return the product of [`extent`](extent.html "cpp/container/mdspan/extents/extent")(k) for all `k` in range `[`i + 1`, `rank()`)`, otherwise 1. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/extents/rev-prod-of-extents&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [_fwd-prod-of-extents_](fwd-prod-of-extents.html "cpp/container/mdspan/extents/fwd-prod-of-extents") |  returns the product of extent size in range `[`​0​`, `i`)`  
-(exposition-only member function*)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/extents/dsc_fwd-prod-of-extents&action=edit)  
+(exposition-only member function*)  
 ---|---

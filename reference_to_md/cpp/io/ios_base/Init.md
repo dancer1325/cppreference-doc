@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::ios_base`](../ios_base.html "cpp/io/ios base")
 
@@ -113,7 +113,7 @@ Member types
 [ios_base::event](event.html "cpp/io/ios base/event")  
 [ios_base::event_callback](event_callback.html "cpp/io/ios base/event callback")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/ios_base/navbar_content&action=edit)
+
 
 class Init; |  |   
 ---|---|---  
@@ -126,7 +126,7 @@ The header [`<iostream>`](../../header/iostream.html "cpp/header/iostream") beha
 Each [C++ library module](../../standard_library.html#Importing_modules "cpp/standard library") in a [hosted implementation](../../freestanding.html "cpp/freestanding") behaves as if it contains an [interface unit](../../language/modules.html#Module_declarations "cpp/language/modules") that defines an [unexported](../../language/modules.html#Exporting_declarations_and_definitions "cpp/language/modules") `std::ios_base::Init` variable with [ordered initialization](../../language/initialization.html#Dynamic_initialization "cpp/language/initialization"). As a result, the definition of that variable is appearance-ordered before any declaration following the point of importation of a C++ library module. Whether such a definition exists is unobservable by a program that does not reference any of the standard iostream objects.  | (since C++23)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/ios_base/Init&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 (constructor) |  initializes the default C++ streams if they have not been created yet   
 (public member function)  
@@ -134,7 +134,7 @@ Each [C++ library module](../../standard_library.html#Importing_modules "cpp/sta
 (destructor) |  flushes the default C++ streams if *this is the last instance to be destroyed   
 (public member function)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/ios_base/Init&action=edit&section=2 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -143,14 +143,14 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [LWG 1123](https://cplusplus.github.io/LWG/issue1123) | C++98  | the behaviors of the constructor and the destructor  
 depend on an exposition-only static data member `init_cnt` | removed the dependency   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/ios_base/Init&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ cinwcin](../cin.html "cpp/io/cin") |  reads from the standard C input stream [stdin](../c/std_streams.html "cpp/io/c/std streams")  
-(global object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_cin&action=edit)  
+(global object)  
 ---|---  
 [ coutwcout](../cout.html "cpp/io/cout") |  writes to the standard C output stream [stdout](../c/std_streams.html "cpp/io/c/std streams")  
-(global object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_cout&action=edit)  
+(global object)  
 [ cerrwcerr](../cerr.html "cpp/io/cerr") |  writes to the standard C error stream [stderr](../c/std_streams.html "cpp/io/c/std streams"), unbuffered  
-(global object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_cerr&action=edit)  
+(global object)  
 [ clogwclog](../clog.html "cpp/io/clog") |  writes to the standard C error stream [stderr](../c/std_streams.html "cpp/io/c/std streams")  
-(global object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_clog&action=edit)
+(global object)

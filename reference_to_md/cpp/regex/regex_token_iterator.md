@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Regular expressions library](../regex.html "cpp/regex")
 
@@ -81,7 +81,7 @@ Constants
 Regex Grammar  
 [Modified ECMAScript-262](ecmascript.html "cpp/regex/ecmascript")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/navbar_content&action=edit)
+
 
 **`std::regex_token_iterator`**
 
@@ -96,7 +96,7 @@ Observers
 Modifiers  
 [regex_token_iterator::operator++regex_token_iterator::operator++(int)](regex_token_iterator/operator_arith.html "cpp/regex/regex token iterator/operator arith")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/regex_token_iterator/navbar_content&action=edit)
+
 
 Defined in header `[<regex>](../header/regex.html "cpp/header/regex")` |  |   
 ---|---|---  
@@ -130,12 +130,12 @@ A typical implementation of `std::regex_token_iterator` holds the underlying [st
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/regex_token_iterator&action=edit&section=1 "Edit section: Type requirements")] Type requirements
+### Type requirements
 
 -`BidirIt` must meet the requirements of [LegacyBidirectionalIterator](../named_req/BidirectionalIterator.html "cpp/named req/BidirectionalIterator").   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/regex_token_iterator&action=edit&section=2 "Edit section: Specializations")] Specializations
+### Specializations
 
 Several specializations for common character sequence types are defined: 
 
@@ -147,7 +147,7 @@ Type  |  Definition
 `**std::sregex_token_iterator**` |  std::regex_token_iterator<[std::string](../string/basic_string.html)::const_iterator>  
 `**std::wsregex_token_iterator**` |  std::regex_token_iterator<[std::wstring](../string/basic_string.html)::const_iterator>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/regex_token_iterator&action=edit&section=3 "Edit section: Member types")] Member types
+### Member types
 
 Member type  |  Definition   
 ---|---  
@@ -159,27 +159,27 @@ Member type  |  Definition
 `iterator_concept` (C++20) |  [std::input_iterator_tag](../iterator/iterator_tags.html "cpp/iterator/iterator tags")  
 `regex_type` |  [std::basic_regex](basic_regex.html)<CharT, Traits>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/regex_token_iterator&action=edit&section=4 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](regex_token_iterator/regex_token_iterator.html "cpp/regex/regex token iterator/regex token iterator") |  constructs a new `regex_token_iterator`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/regex_token_iterator/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 (destructor)(implicitly declared) |  destructs a `regex_token_iterator`, including the cached value   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/regex_token_iterator/dsc_destructor&action=edit)  
+(public member function)   
 [ operator=](regex_token_iterator/operator=.html "cpp/regex/regex token iterator/operator=") |  assigns contents   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/regex_token_iterator/dsc_operator%3D&action=edit)  
+(public member function)   
 [ operator==operator!=](regex_token_iterator/operator_cmp.html "cpp/regex/regex token iterator/operator cmp")(removed in C++20) |  compares two `regex_token_iterator`s   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/regex_token_iterator/dsc_operator_cmp&action=edit)  
+(public member function)   
 [ operator*operator->](regex_token_iterator/operator*.html "cpp/regex/regex token iterator/operator*") |  accesses current submatch   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/regex_token_iterator/dsc_operator*&action=edit)  
+(public member function)   
 [ operator++operator++(int)](regex_token_iterator/operator_arith.html "cpp/regex/regex token iterator/operator arith") |  advances the iterator to the next submatch   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/regex_token_iterator/dsc_operator_arith&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/regex_token_iterator&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 It is the programmer's responsibility to ensure that the [std::basic_regex](basic_regex.html "cpp/regex/basic regex") object passed to the iterator's constructor outlives the iterator. Because the iterator stores a [std::regex_iterator](regex_iterator.html "cpp/regex/regex iterator") which stores a pointer to the regex, incrementing the iterator after the regex was destroyed results in undefined behavior. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/regex_token_iterator&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -222,7 +222,7 @@ Output:
     http://google.com
     http://cppreference.com
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/regex_token_iterator&action=edit&section=7 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

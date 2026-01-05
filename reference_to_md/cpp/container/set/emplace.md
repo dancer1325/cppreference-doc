@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::set`](../set.html "cpp/container/set")
 
@@ -133,7 +133,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/set/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/set/navbar_content&action=edit)
+
 
 template< class... Args >  
 [std::pair](../../utility/pair.html)<iterator, bool> emplace( Args&&... args ); |  | (since C++11)   
@@ -162,28 +162,28 @@ No iterators or references are invalidated.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/emplace_assoc&action=edit&section=T-1 "Template:cpp/container/emplace assoc")] Parameters
+### Parameters
 
 args  |  \-  |  arguments to forward to the constructor of the element   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/emplace_assoc&action=edit&section=T-2 "Template:cpp/container/emplace assoc")] Return value
+### Return value
 
 A pair consisting of an iterator to the inserted element (or to the element that prevented the insertion) and a bool value set to true if and only if the insertion took place. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/emplace_assoc&action=edit&section=T-3 "Template:cpp/container/emplace assoc")] Exceptions
+### Exceptions
 
 If an exception is thrown for any reason, this function has no effect ([strong exception safety guarantee](../../language/exceptions.html#Exception_safety "cpp/language/exceptions")). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/emplace_assoc&action=edit&section=T-4 "Template:cpp/container/emplace assoc")] Complexity
+### Complexity
 
 Logarithmic in the size of the container. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/emplace_assoc&action=edit&section=T-5 "Template:cpp/container/emplace assoc")] Notes
+### Notes
 
 Careful use of `emplace` allows the new element to be constructed while avoiding unnecessary copy or move operations. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/emplace_assoc&action=edit&section=T-6 "Template:cpp/container/emplace assoc")] Example
+### Example
 
 Run this code
     
@@ -267,10 +267,10 @@ Possible output:
     547.10ms for emplace
     549.44ms for emplace
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/emplace_assoc&action=edit&section=T-7 "Template:cpp/container/emplace assoc")] See also
+### See also
 
 [ emplace_hint](emplace_hint.html "cpp/container/set/emplace hint")(C++11) |  constructs elements in-place using a hint   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_emplace_hint&action=edit)  
+(public member function)   
 ---|---  
 [ insert](insert.html "cpp/container/set/insert") |  inserts elements or nodes(since C++17)   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_insert&action=edit)
+(public member function) 

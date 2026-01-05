@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 Defined in header `[<cstdlib>](../../header/cstdlib.html "cpp/header/cstdlib")` |  |   
 ---|---|---  
@@ -221,20 +221,20 @@ Calls to these functions that allocate or deallocate a particular unit of storag
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/c/free&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 ptr  |  \-  |  pointer to the memory to deallocate   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/c/free&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/c/free&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 The function accepts (and does nothing with) the null pointer to reduce the amount of special-casing. Whether allocation succeeds or not, the pointer returned by an allocation function can be passed to `std::free`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/c/free&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -253,7 +253,7 @@ Run this code
         std::free(p3); // p3 can be freed whether or not it is null.
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/c/free&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [C documentation](../../../c/memory/free.html "c/memory/free") for free  
 ---

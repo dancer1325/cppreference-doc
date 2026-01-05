@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::allocator_traits`](../allocator_traits.html "cpp/memory/allocator traits")
 
@@ -199,7 +199,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
 **allocator_traits::max_size**  
 [allocator_traits::select_on_container_copy_construction](select_on_container_copy_construction.html "cpp/memory/allocator traits/select on container copy construction")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/allocator_traits/navbar_content&action=edit)
+
 
 Defined in header `[<memory>](../../header/memory.html "cpp/header/memory")` |  |   
 ---|---|---  
@@ -222,16 +222,16 @@ If the above is not possible (e.g., `Alloc` does not have the member function `m
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/allocator_traits/max_size&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 a  |  \-  |  allocator to detect   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/allocator_traits/max_size&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Theoretical maximum allocation size. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/allocator_traits/max_size&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -240,7 +240,7 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [LWG 2162](https://cplusplus.github.io/LWG/issue2162) | C++11  | `max_size` was not required to be noexcept  | required   
 [LWG 2466](https://cplusplus.github.io/LWG/issue2466) | C++11  | theoretical maximum allocation size in bytes was returned as fallback  | size in elements is returned   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/allocator_traits/max_size&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -269,8 +269,8 @@ Possible output:
     p = 9,223,372,036,854,775,807 = 0x7,FFF,FFF,FFF,FFF,FFF
     q = 4,611,686,018,427,387,903 = 0x3,FFF,FFF,FFF,FFF,FFF
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/allocator_traits/max_size&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ max_size](../allocator/max_size.html "cpp/memory/allocator/max size")(until C++20) |  returns the largest supported allocation size   
-(public member function of `std::allocator<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/allocator/dsc_max_size&action=edit)  
+(public member function of `std::allocator<T>`)   
 ---|---

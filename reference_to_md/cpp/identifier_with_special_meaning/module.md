@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](../language/history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [Keywords](../keywords.html "cpp/keyword")
 
@@ -340,7 +340,7 @@ Identifiers with special meaning
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/keyword/navbar_content&action=edit)
+
 
 ## Contents
 
@@ -352,7 +352,7 @@ Identifiers with special meaning
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/identifier_with_special_meaning/module&action=edit&section=1 "Edit section: Usage")] Usage
+### Usage
 
   * [`module` declaration](../language/modules.html#Module_declarations "cpp/language/modules"): declares that the current translation unit is a _module unit_
   * Starts a _[global module fragment](../language/modules.html#Global_module_fragment "cpp/language/modules")_ of a module unit 
@@ -360,13 +360,13 @@ Identifiers with special meaning
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/identifier_with_special_meaning/module&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 Feature-test macro  | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_modules`](../experimental/feature_test.html#cpp_modules "cpp/feature test") | [`201907L`](../compiler_support/20.html#cpp_modules_201907L "cpp/compiler support/20") | (C++20) | Modules — core language support   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/identifier_with_special_meaning/module&action=edit&section=3 "Edit section: Example")] Example
+### Example
     
     
     module;            // starts a global module fragment
@@ -388,7 +388,7 @@ Feature-test macro  | Value | Std | Feature
         return "foo";
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/identifier_with_special_meaning/module&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
   * [`import`](import.html "cpp/identifier with special meaning/import"), [`export`](../keyword/export.html "cpp/keyword/export")
   * [`private`](../keyword/private.html "cpp/keyword/private")

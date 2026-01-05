@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::view_interface`](../view_interface.html "cpp/ranges/view interface")
 
@@ -240,7 +240,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
 **back**  
 [operator[]](operator_at.html "cpp/ranges/view interface/operator at")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/navbar_content&action=edit)
+
 
 constexpr decltype(auto) back()  
 requires [ranges::bidirectional_range](../bidirectional_range.html)<D> && [ranges::common_range](../common_range.html)<D>; |  (1)  |  (since C++20)  
@@ -265,11 +265,11 @@ The default implementation of `back()` member function returns the last element 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/view_interface/back&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 The last element in the view. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/view_interface/back&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 In C++20, no type derived from [std::ranges::view_interface](../view_interface.html "cpp/ranges/view interface") in the standard library provides their own `back()` member function. 
 
@@ -284,18 +284,18 @@ However, following derived types cannot use the default implementations, as they
 
 The inherited `back()` member function is available for [std::ranges::empty_view](../empty_view.html "cpp/ranges/empty view"), but a call to it always results in undefined behavior. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/view_interface/back&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/view_interface/back&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ rbegincrbegin](../../iterator/rbegin.html "cpp/iterator/rbegin")(C++14) |  returns a reverse iterator to the beginning of a container or array   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_rbegin&action=edit)  
+(function template)   
 ---|---  
 [ ranges::rbegin](../rbegin.html "cpp/ranges/rbegin")(C++20) |  returns a reverse iterator to a range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_rbegin&action=edit)  
+(customization point object)  
 [ ranges::crbegin](../crbegin.html "cpp/ranges/crbegin")(C++20) |  returns a reverse iterator to a read-only range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_crbegin&action=edit)
+(customization point object)

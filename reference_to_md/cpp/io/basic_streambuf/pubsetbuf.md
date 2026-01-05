@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_streambuf`](../basic_streambuf.html "cpp/io/basic streambuf")
 
@@ -152,7 +152,7 @@ Put area
 Putback  
 [basic_streambuf::pbackfail](pbackfail.html "cpp/io/basic streambuf/pbackfail")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_streambuf/navbar_content&action=edit)
+
 
 public:  
 basic_streambuf<CharT, Traits>* pubsetbuf( char_type* s, [std::streamsize](../streamsize.html) n ) |  (1)  |   
@@ -176,19 +176,19 @@ virtual basic_streambuf<CharT, Traits>* setbuf( char_type* s, [std::streamsize](
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_streambuf/pubsetbuf&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 s  |  \-  |  pointer to the first `CharT` in the user-provided buffer   
 ---|---|---  
 n  |  \-  |  the number of `CharT` elements in the user-provided buffer   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_streambuf/pubsetbuf&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) The return value of setbuf(s, n).
 
 2) this
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_streambuf/pubsetbuf&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Provides a 10k buffer for reading. On linux, the strace utility may be used to observe the actual number of bytes read.
 
@@ -220,7 +220,7 @@ Possible output:
     
     356010
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_streambuf/pubsetbuf&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -230,14 +230,14 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 if [gptr()](gptr.html "cpp/io/basic streambuf/gptr") is not null and not equal to [egptr()](gptr.html "cpp/io/basic streambuf/gptr") | specified as no-op  
 for all cases   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_streambuf/pubsetbuf&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ setbuf](../basic_stringbuf/setbuf.html "cpp/io/basic stringbuf/setbuf")[virtual] |  attempts to replace the controlled character sequence with an array   
-(virtual protected member function of `std::basic_stringbuf<CharT,Traits,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_stringbuf/dsc_setbuf&action=edit)  
+(virtual protected member function of `std::basic_stringbuf<CharT,Traits,Allocator>`)   
 ---|---  
 [ setbuf](../basic_filebuf/setbuf.html "cpp/io/basic filebuf/setbuf")[virtual] |  provides user-supplied buffer or turns this filebuf unbuffered   
-(virtual protected member function of `std::basic_filebuf<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_filebuf/dsc_setbuf&action=edit)  
+(virtual protected member function of `std::basic_filebuf<CharT,Traits>`)   
 [ setbuf](../strstreambuf/setbuf.html "cpp/io/strstreambuf/setbuf")[virtual] |  attempts to replace the controlled character sequence with an array   
-(virtual protected member function of `std::strstreambuf`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/strstreambuf/dsc_setbuf&action=edit)  
+(virtual protected member function of `std::strstreambuf`)   
 [ setbuf](../c/setbuf.html "cpp/io/c/setbuf") |  sets the buffer for a file stream   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_setbuf&action=edit)
+(function) 

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -71,7 +71,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 `[std::unordered_set](../unordered_set.html "cpp/container/unordered set")`
 
@@ -135,7 +135,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/unordered set/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/unordered_set/navbar_content&action=edit)
+
 
 [std::pair](../../utility/pair.html)<iterator,bool> insert( const value_type& value ); |  (1)  |  (since C++11)  
 ---|---|---  
@@ -194,7 +194,7 @@ If rehashing occurs (due to the insertion), all iterators are invalidated. Other
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/unordered_set/insert&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 hint  |  \-  |  iterator, used as a suggestion as to where to insert the content   
 ---|---|---  
@@ -206,7 +206,7 @@ obj  |  \-  |  a value of any type that can be transparently compared with a key
 Type requirements   
 -`InputIt` must meet the requirements of [LegacyInputIterator](../../named_req/InputIterator.html "cpp/named req/InputIterator").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/unordered_set/insert&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1,2) A pair consisting of an iterator to the inserted element (or to the element that prevented the insertion) and a bool value set to true if and only if the insertion took place.
 
@@ -228,7 +228,7 @@ Type requirements
 
 10) An iterator to the inserted element, or to the element that prevented the insertion.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/unordered_set/insert&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 1-4) If an exception is thrown by any operation, the insertion has no effect.
 
@@ -236,7 +236,7 @@ Type requirements
 Reason: cases 5-10   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/unordered_set/insert&action=edit&section=4 "Edit section: Complexity")] Complexity
+### Complexity
 
 1-4) Average case: `O(1)`, worst case `O(size())`.
 
@@ -244,7 +244,7 @@ Reason: cases 5-10
 
 7-10) Average case: `O(1)`, worst case `O(size())`.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/unordered_set/insert&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 The hinted insert (([3,4](insert.html#Version_3)), ([8](insert.html#Version_8)) and ([10](insert.html#Version_10))) does not return a boolean in order to be signature-compatible with positional insert on sequential containers, such as [std::vector::insert](../vector/insert.html "cpp/container/vector/insert"). This makes it possible to create generic inserters such as [std::inserter](../../iterator/inserter.html "cpp/iterator/inserter"). One way to check success of a hinted insert is to compare [`size()`](size.html "cpp/container/unordered set/size") before and after. 
 
@@ -252,7 +252,7 @@ The hinted insert (([3,4](insert.html#Version_3)), ([8](insert.html#Version_8)) 
 ---|---|---|---  
 [`__cpp_lib_associative_heterogeneous_insertion`](../../experimental/feature_test.html#cpp_lib_associative_heterogeneous_insertion "cpp/feature test") | [`202311L`](../../compiler_support/26.html#cpp_lib_associative_heterogeneous_insertion_202311L "cpp/compiler support/26") | (C++26) | Heterogeneous overloads for the remaining member functions in [ordered](../../container.html#Associative_containers "cpp/container") and [unordered](../../container.html#Unordered_associative_containers "cpp/container") associative [containers](../../container.html "cpp/container"). ([9,10](insert.html#Version_9))  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/unordered_set/insert&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -309,14 +309,14 @@ Possible output:
     7) After insertion: [14] { 42 23 22 13 12 11 10 21 4 20 3 2 1 0 }
     8) After insertion: [15] { 43 42 23 22 13 12 11 10 21 4 20 3 2 1 0 }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/unordered_set/insert&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ emplace](emplace.html "cpp/container/unordered set/emplace") |  constructs element in-place   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_emplace&action=edit)  
+(public member function)   
 ---|---  
 [ emplace_hint](emplace_hint.html "cpp/container/unordered set/emplace hint") |  constructs elements in-place using a hint   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_emplace_hint&action=edit)  
+(public member function)   
 [ inserter](../../iterator/inserter.html "cpp/iterator/inserter") |  creates a [std::insert_iterator](../../iterator/insert_iterator.html "cpp/iterator/insert iterator") of type inferred from the argument   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_inserter&action=edit)
+(function template) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

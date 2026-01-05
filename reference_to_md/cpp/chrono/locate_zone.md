@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 Defined in header `[<chrono>](../header/chrono.html "cpp/header/chrono")` |  |   
 ---|---|---  
@@ -121,20 +121,20 @@ Convenience function for locating a time zone in the [time zone database](https:
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/locate_zone&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 tz_name  |  \-  |  a time zone name to locate   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/locate_zone&action=edit&section=2 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 [std::runtime_error](../error/runtime_error.html "cpp/error/runtime error") if the specified time zone cannot be found, or if this is the first reference to the time zone database and the time zone database cannot be initialized. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/locate_zone&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 A call to this function that is the first reference to the time zone database will cause it to be initialized. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/locate_zone&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -161,10 +161,10 @@ Possible output:
     Atlantic/Bermuda
     std::chrono::tzdb: cannot locate zone: Alcatraz
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/locate_zone&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ locate_zone](tzdb/locate_zone.html "cpp/chrono/tzdb/locate zone") |  locate a time zone with the given name   
-(public member function of `std::chrono::tzdb`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/tzdb/dsc_locate_zone&action=edit)  
+(public member function of `std::chrono::tzdb`)   
 ---|---  
 [ get_tzdbget_tzdb_listreload_tzdbremote_version](tzdb_functions.html "cpp/chrono/tzdb functions")(C++20) |  accesses and controls the global time zone database information   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_tzdb_functions&action=edit)
+(function) 

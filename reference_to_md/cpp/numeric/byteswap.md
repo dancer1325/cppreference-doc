@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Bit manipulation](../utility/bit.html "cpp/utility/bit")
 
@@ -152,7 +152,7 @@ Common vocabulary types
 [Endian](../utility/bit.html#Endian "cpp/utility/bit")  
 [endian](../types/endian.html "cpp/types/endian")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/bit/navbar_content&action=edit)
+
 
 Defined in header `[<bit>](../header/bit.html "cpp/header/bit")` |  |   
 ---|---|---  
@@ -176,16 +176,16 @@ Reverses the bytes in the given integer value n.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/byteswap&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 n  |  \-  |  integer value   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/byteswap&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 An integer value of type `T` whose object representation comprises the bytes of that of n in reversed order. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/byteswap&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 This function is useful for processing data of different endianness. 
 
@@ -193,7 +193,7 @@ This function is useful for processing data of different endianness.
 ---|---|---|---  
 [`__cpp_lib_byteswap`](../experimental/feature_test.html#cpp_lib_byteswap "cpp/feature test") | [`202110L`](../compiler_support/23.html#cpp_lib_byteswap_202110L "cpp/compiler support/23") | (C++23) | `std::byteswap`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/byteswap&action=edit&section=4 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     template<[std::integral](../concepts/integral.html) T>
@@ -208,7 +208,7 @@ This function is useful for processing data of different endianness.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/byteswap&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -264,14 +264,14 @@ Possible output:
     0123456789ABCDEF : EF CD AB 89 67 45 23 01
     EFCDAB8967452301 : 01 23 45 67 89 AB CD EF
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/byteswap&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ endian](../types/endian.html "cpp/types/endian")(C++20) |  indicates the endianness of scalar types   
-(enum) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_endian&action=edit)  
+(enum)   
 ---|---  
 [ rotl](rotl.html "cpp/numeric/rotl")(C++20) |  computes the result of bitwise left-rotation   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/dsc_rotl&action=edit)  
+(function template)   
 [ rotr](rotr.html "cpp/numeric/rotr")(C++20) |  computes the result of bitwise right-rotation   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/dsc_rotr&action=edit)
+(function template) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

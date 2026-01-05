@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::enable_shared_from_this`](../enable_shared_from_this.html "cpp/memory/enable shared from this")
 
@@ -197,7 +197,7 @@ Public member functions
 [enable_shared_from_this::shared_from_this](shared_from_this.html "cpp/memory/enable shared from this/shared from this")  
 [enable_shared_from_this::weak_from_this](weak_from_this.html "cpp/memory/enable shared from this/weak from this")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/enable_shared_from_this/navbar_content&action=edit)
+
 
 enable_shared_from_this& operator=( const enable_shared_from_this &rhs ) noexcept; |  |  (since C++11)  
 ---|---|---  
@@ -216,20 +216,20 @@ Does nothing; returns *this.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/enable_shared_from_this/operator%3D&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 rhs  |  \-  |  another `enable_shared_from_this` to assign to *this  
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/enable_shared_from_this/operator%3D&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 *this
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/enable_shared_from_this/operator%3D&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 `_[weak_this](../enable_shared_from_this.html#weak_this "cpp/memory/enable shared from this")_` is not affected by the assignment. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/enable_shared_from_this/operator%3D&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Note: enable_shared_from_this::operator= is defined as `protected` in order to prevent accidental slicing but allow derived classes to have default assignment operators. 
 
@@ -271,8 +271,8 @@ Output:
     
     4
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/enable_shared_from_this/operator%3D&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ shared_ptr](../shared_ptr.html "cpp/memory/shared ptr")(C++11) |  smart pointer with shared object ownership semantics   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_shared_ptr&action=edit)  
+(class template)   
 ---|---

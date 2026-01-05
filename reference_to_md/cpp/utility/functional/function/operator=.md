@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Function objects](../../../functional.html "cpp/utility/functional")
 
@@ -255,7 +255,7 @@ Identity function object
 [unary_negate](../unary_negate.html "cpp/utility/functional/unary negate")(until C++20*)  
 [binary_negate](../binary_negate.html "cpp/utility/functional/binary negate")(until C++20*)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/navbar_content&action=edit)
+
 
 [`std::function`](../function.html "cpp/utility/functional/function")
 
@@ -277,7 +277,7 @@ Identity function object
 [uses_allocator<std::function>](uses_allocator.html "cpp/utility/functional/function/uses allocator")(until C++17)  
 [Deduction guides](deduction_guides.html "cpp/utility/functional/function/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/function/navbar_content&action=edit)
+
 
 function& operator=( const function& other ); |  (1)  |  (since C++11)  
 ---|---|---  
@@ -313,7 +313,7 @@ Assigns a new _target_ to `std::function`.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/function/operator%3D&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 other  |  \-  |  another `std::function` object to copy the target of   
 ---|---|---  
@@ -321,15 +321,15 @@ f  |  \-  |  a callable to initialize the _target_ with
 Type requirements   
 -`F` must meet the requirements of [Callable](../../../named_req/Callable.html "cpp/named req/Callable").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/function/operator%3D&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 *this
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/function/operator%3D&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Even before allocator support was removed from `std::function` in C++17, these assignment operators use the default allocator rather than the allocator of *this or the allocator of other (see [LWG issue 2386](https://cplusplus.github.io/LWG/issue2386)). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/function/operator%3D&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -367,7 +367,7 @@ Run this code
         [assert](../../../error/assert.html)(f1 != nullptr and f1(1) == 2);
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/function/operator%3D&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -376,11 +376,11 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [LWG 2132](https://cplusplus.github.io/LWG/issue2132) | C++11  | the overload ([4](operator=.html#Version_4)) taking a Callable object might be ambiguous  | constrained   
 [LWG 2401](https://cplusplus.github.io/LWG/issue2401) | C++11  | assignment operator ([3](operator=.html#Version_3)) from `std::nullptr_t` not required to be noexcept  | required   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/function/operator%3D&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ operator=](../move_only_function/operator=.html "cpp/utility/functional/move only function/operator=") |  replaces or destroys the target   
-(public member function of `std::move_only_function`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/move_only_function/dsc_operator%3D&action=edit)  
+(public member function of `std::move_only_function`)   
 ---|---  
 [ assign](assign.html "cpp/utility/functional/function/assign")(removed in C++17) |  assigns a new target   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/function/dsc_assign&action=edit)  
+(public member function)   
 ---

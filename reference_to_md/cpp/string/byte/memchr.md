@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Null-terminated byte strings](../byte.html "cpp/string/byte")
 
@@ -143,7 +143,7 @@
 | [strerror](strerror.html "cpp/string/byte/strerror")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/navbar_content&action=edit)
+
 
 Defined in header `[<cstring>](../../header/cstring.html "cpp/header/cstring")` |  |   
 ---|---|---  
@@ -166,18 +166,18 @@ This function behaves as if it reads the bytes sequentially and stops as soon as
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/memchr&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 ptr  |  \-  |  pointer to the object to be examined   
 ---|---|---  
 ch  |  \-  |  byte to search for   
 count  |  \-  |  max number of bytes to examine   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/memchr&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Pointer to the location of the byte, or a null pointer if no such byte is found. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/memchr&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Search an array of characters. 
 
@@ -202,11 +202,11 @@ Output:
     
     search character found
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/memchr&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ strchr](strchr.html "cpp/string/byte/strchr") |  finds the first occurrence of a character   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strchr&action=edit)  
+(function)   
 ---|---  
 [ findfind_iffind_if_not](../../algorithm/find.html "cpp/algorithm/find")(C++11) |  finds the first element satisfying specific criteria   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_find&action=edit)  
+(function template)   
 [C documentation](../../../c/string/byte/memchr.html "c/string/byte/memchr") for memchr

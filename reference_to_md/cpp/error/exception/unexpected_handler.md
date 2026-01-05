@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Diagnostics library](../../error.html "cpp/error")
 
@@ -89,7 +89,7 @@ Exception handling failures
 [breakpoint_if_debugging](../../utility/breakpoint_if_debugging.html "cpp/utility/breakpoint if debugging")(C++26)  
 [breakpoint](../../utility/breakpoint.html "cpp/utility/breakpoint")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/navbar_content&action=edit)
+
 
 Defined in header `[<exception>](../../header/exception.html "cpp/header/exception")` |  |   
 ---|---|---  
@@ -111,12 +111,12 @@ A user-defined `std::unexpected_handler` is expected to either terminate the pro
 
 2b) the exception specification does not allow [std::bad_exception](../bad_exception.html "cpp/error/bad exception"): [std::terminate()](../terminate.html "cpp/error/terminate") is called. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/unexpected_handler&action=edit&section=1 "Edit section: See also")] See also
+### See also
 
 [ unexpected](../unexpected.html "cpp/error/unexpected")(deprecated in C++11)(removed in C++17) |  function called when dynamic exception specification is violated   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_unexpected&action=edit)  
+(function)   
 ---|---  
 [ set_unexpected](set_unexpected.html "cpp/error/set unexpected")(deprecated in C++11)(removed in C++17) |  changes the function to be called by [std::unexpected](../unexpected.html "cpp/error/unexpected")   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_set_unexpected&action=edit)  
+(function)   
 [ get_unexpected](get_unexpected.html "cpp/error/get unexpected")(deprecated in C++11)(removed in C++17) |  obtains the current `unexpected_handler`   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_get_unexpected&action=edit)
+(function) 

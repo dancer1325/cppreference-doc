@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Ranges](../../ranges.html "cpp/experimental/ranges")
 
@@ -66,7 +66,7 @@
 [Ranges](../../ranges.html#Ranges "cpp/experimental/ranges")  
 [Algorithms](../../ranges.html#Algorithms "cpp/experimental/ranges")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/navbar_content&action=edit)
+
 
 [Algorithms library](../../ranges.html#Algorithms "cpp/experimental/ranges")
 
@@ -224,7 +224,7 @@ Permutations
 | [prev_permutation](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/prev_permutation&action=edit&redlink=1 "cpp/experimental/ranges/algorithm/prev permutation \(page does not exist\)")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/navbar_content&action=edit)
+
 
 Defined in header `[<experimental/ranges/algorithm>](../../../header/experimental/ranges/algorithm.html "cpp/header/experimental/ranges/algorithm")` |  |   
 ---|---|---  
@@ -262,7 +262,7 @@ Notwithstanding the declarations depicted above, the actual number and order of 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/for_each&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  the range to apply the function to   
 ---|---|---  
@@ -270,7 +270,7 @@ r  |  \-  |  the range to apply the function to
 f  |  \-  |  callable object to be applied to each projected element in the range   
 proj  |  \-  |  projection to apply to the elements   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/for_each&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 A `tagged_pair` object containing the following two members: 
 
@@ -279,11 +279,11 @@ A `tagged_pair` object containing the following two members:
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/for_each&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Exactly last \- first applications of f and proj. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/for_each&action=edit&section=4 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     template<InputIterator I, Sentinel<I> S, class Proj = [ranges::identity](../functional/identity.html),
@@ -298,19 +298,19 @@ Exactly last \- first applications of f and proj.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/for_each&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/for_each&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ transform](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/algorithm/transform&action=edit&redlink=1 "cpp/experimental/ranges/algorithm/transform \(page does not exist\)") |  applies a function to a range of elements   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_transform&action=edit)  
+(function template)   
 ---|---  
-[ range-`for` loop](../../../language/range-for.html "cpp/language/range-for")(C++11) |  executes loop over range[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_range-for&action=edit)  
+[ range-`for` loop](../../../language/range-for.html "cpp/language/range-for")(C++11) |  executes loop over range  
 [ for_each](../../../algorithm/for_each.html "cpp/algorithm/for each") |  applies a unary [function object](../../../named_req/FunctionObject.html "cpp/named req/FunctionObject") to elements from a [range](../../../iterator.html#Ranges "cpp/iterator")   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_for_each&action=edit)  
+(function template)   
 [ for_each_n](../../../algorithm/for_each_n.html "cpp/algorithm/for each n")(C++17) |  applies a function object to the first N elements of a sequence   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_for_each_n&action=edit)
+(function template) 

@@ -109,7 +109,7 @@
      * The program is ill-formed if the returned reference is bound to the result of a [temporary expression](reference_initialization.html#Lifetime_of_a_temporary).(since C++26)
   5) When a [non-static data member](data_members.html "cpp/language/data members") of reference type is initialized using a [member initializer](initializer_list.html "cpp/language/initializer list").
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/reference_initialization&action=edit&section=5 "Edit section: Explanation")] Explanation
+### Explanation
 
 T |  \-  |  the referenced type   
 ---|---|---  
@@ -122,7 +122,7 @@ ref-member |  \-  |  a non-static data member of reference type (T ﻿`&` or T �
 des1, des2, ...  |  \-  |  designators   
 arg1, arg2, ...  |  \-  |  the initializers in initializer lists   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/reference_initialization&action=edit&section=6 "Edit section: Definitions")] Definitions
+### Definitions
 
 For two types `T1` and `T2`: 
 
@@ -131,7 +131,7 @@ For two types `T1` and `T2`:
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/reference_initialization&action=edit&section=7 "Edit section: Initialization rules")] Initialization rules
+### Initialization rules
 
 If a reference initialization uses an ordinary or designated(since C++20) list-initialization, the rules of [list-initialization](list_initialization.html "cpp/language/list initialization") are followed.  | (since C++11)  
 ---|---  
@@ -140,7 +140,7 @@ For non-list reference initialization, given the type of target as `U`, the refe
 
 In all cases where the reference-compatible relationship of two types is used to establish the validity of a reference binding and the standard conversion sequence would be ill-formed, a program that necessitates such a binding is ill-formed. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/reference_initialization&action=edit&section=8 "Edit section: Direct binding")] Direct binding
+#### Direct binding
 
 If all following conditions are satisfied: 
 
@@ -295,7 +295,7 @@ If the result of the conversion is a prvalue, [temporary materialization](implic
 In this case, the reference binds to the result object, or to its appropriate base class subobject.  | (since C++17)  
 ---|---  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/reference_initialization&action=edit&section=9 "Edit section: Indirect binding")] Indirect binding
+#### Indirect binding
 
 If direct binding is not available, indirect binding is considered. In this case, `T` cannot be reference-related to `U`. 
 
@@ -311,7 +311,7 @@ Otherwise, target is implicitly converted to a prvalue of type “cv-unqualified
     int i3 = 2;
     double&& rrd3 = i3;            // rrd3 refers to temporary with value 2.0
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/reference_initialization&action=edit&section=10 "Edit section: Lifetime of a temporary")] Lifetime of a temporary
+### Lifetime of a temporary
 
 Whenever a reference is bound to a temporary object or to a subobject thereof, the lifetime of the temporary object is extended to match the lifetime of the reference (check [temporary object lifetime exceptions](lifetime.html#Temporary_object_lifetime "cpp/language/lifetime")), where the temporary object or its subobject is denoted by one of following expression: 
 
@@ -368,13 +368,13 @@ There are following exceptions to this lifetime rule:
   
 In general, the lifetime of a temporary cannot be further extended by "passing it on": a second reference, initialized from the reference variable or data member to which the temporary was bound, does not affect its lifetime. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/reference_initialization&action=edit&section=11 "Edit section: Notes")] Notes
+### Notes
 
 References appear without initializers only in function parameter declaration, in function return type declaration, in the declaration of a class member, and with the [`extern`](storage_duration.html "cpp/language/storage duration") specifier. 
 
 Until the resolution of [CWG issue 1696](https://cplusplus.github.io/CWG/issues/1696.html), a temporary is permitted to bound to a reference member in a constructor [initializer list](initializer_list.html "cpp/language/initializer list"), and it persists only until the constructor exits, not as long as the object exists. Such initialization is ill-formed since [CWG 1696](https://cplusplus.github.io/CWG/issues/1696.html), although many compilers still support it (a notable exception is clang).
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/reference_initialization&action=edit&section=13 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -409,7 +409,7 @@ of temporary materialization in indirect binding  | added
 of temporary materialization in direct binding  | added   
 [CWG 2801](https://cplusplus.github.io/CWG/issues/2801.html) | C++98  | reference-related types were allowed for indirect binding  | prohibited   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/reference_initialization&action=edit&section=14 "Edit section: See also")] See also
+### See also
 
   * [constructor](initializer_list.html "cpp/language/constructor")
   * [converting constructor](converting_constructor.html "cpp/language/converting constructor")

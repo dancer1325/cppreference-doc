@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Filesystem library](../../filesystem.html "cpp/filesystem")
 
@@ -100,7 +100,7 @@ filesystem::symlink_status](../status.html "cpp/filesystem/status")
 [filesystem::is_socket](../is_socket.html "cpp/filesystem/is socket")  
 [filesystem::is_symlink](../is_symlink.html "cpp/filesystem/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/navbar_content&action=edit)
+
 
 [`std::filesystem::file_status`](../file_status.html "cpp/filesystem/file status")
 
@@ -113,7 +113,7 @@ Member functions
 Non-member functions  
 [operator==](operator==.html "cpp/filesystem/file status/operator==")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/file_status/navbar_content&action=edit)
+
 
 [std::filesystem::perms](../perms.html) permissions() const noexcept; |  (1)  |  (since C++17)  
 ---|---|---  
@@ -126,18 +126,18 @@ Accesses the file permissions information.
 
 2) Sets file permissions to perm.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/file_status/permissions&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 perm  |  \-  |  file permissions to set to   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/file_status/permissions&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) File permissions information.
 
 2) (none)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/file_status/permissions&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     

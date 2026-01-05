@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Null-terminated multibyte strings](../multibyte.html "cpp/string/multibyte")
 
@@ -100,7 +100,7 @@ MB_CUR_MAX](../multibyte.html#Macros "cpp/string/multibyte")
 [__STDC_UTF_16__  
 __STDC_UTF_32__](../multibyte.html#Macros "cpp/string/multibyte")(C++11)(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/navbar_content&action=edit)
+
 
 Defined in header `[<cuchar>](../../header/cuchar.html "cpp/header/cuchar")` |  |   
 ---|---|---  
@@ -127,20 +127,20 @@ The multibyte encoding used by this function is specified by the currently activ
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/multibyte/c32rtomb&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 s  |  \-  |  pointer to narrow character array where the multibyte character will be stored   
 ---|---|---  
 c32  |  \-  |  the 32-bit character to convert   
 ps  |  \-  |  pointer to the conversion state object used when interpreting the multibyte string   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/multibyte/c32rtomb&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 On success, returns the number of bytes (including any shift sequences) written to the character array whose first element is pointed to by s. This value may be ​0​, e.g. when processing the first char32_t in multi-char32_t-character sequence (does not occur in UTF-32). 
 
 On failure (if c32 is not a valid 32-bit character), returns -1, stores [EILSEQ](../../error/errno_macros.html "cpp/error/errno macros") in [errno](../../error/errno.html "cpp/error/errno"), and leaves *ps in unspecified state. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/multibyte/c32rtomb&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -183,11 +183,11 @@ Output:
     0x6c34 converted to [ 0xe6 0xb0 0xb4 ]
     0x1f34c converted to [ 0xf0 0x9f 0x8d 0x8c ]
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/multibyte/c32rtomb&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ mbrtoc32](mbrtoc32.html "cpp/string/multibyte/mbrtoc32")(C++11) |  converts a narrow multibyte character to UTF-32 encoding   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/dsc_mbrtoc32&action=edit)  
+(function)   
 ---|---  
 [ do_out](../../locale/codecvt/out.html "cpp/locale/codecvt/out")[virtual] |  converts a string from `InternT` to `ExternT`, such as when writing to file   
-(virtual protected member function of `std::codecvt<InternT,ExternT,StateT>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/codecvt/dsc_do_out&action=edit)  
+(virtual protected member function of `std::codecvt<InternT,ExternT,StateT>`)   
 [C documentation](../../../c/string/multibyte/c32rtomb.html "c/string/multibyte/c32rtomb") for c32rtomb

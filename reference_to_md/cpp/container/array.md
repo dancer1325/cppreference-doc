@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../container.html "cpp/container")
 
@@ -71,7 +71,7 @@ Tables
 [Member function table](../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 **`std::array`**
 
@@ -127,7 +127,7 @@ Tables
 [tuple_element<std::array>](array/tuple_element.html "cpp/container/array/tuple element")  
 [Deduction guides](array/deduction_guides.html "cpp/container/array/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/array/navbar_content&action=edit)
+
 
 Defined in header `[<array>](../header/array.html "cpp/header/array")` |  |   
 ---|---|---  
@@ -169,11 +169,11 @@ An array can also be used as a tuple of `N` elements of the same type.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/array&action=edit&section=1 "Edit section: Iterator invalidation")] Iterator invalidation
+### Iterator invalidation
 
 As a rule, iterators to an array are never invalidated throughout the lifetime of the array. One should take note, however, that during [swap](array/swap.html "cpp/container/array/swap"), the iterator will continue to point to the same array element, and will thus change its value. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/array&action=edit&section=2 "Edit section: Template parameters")] Template parameters
+### Template parameters
 
 T  |  \-  |  element type Must be [MoveConstructible](../named_req/MoveConstructible.html "cpp/named req/MoveConstructible") and [MoveAssignable](../named_req/MoveAssignable.html "cpp/named req/MoveAssignable").   
 ---|---|---  
@@ -182,33 +182,33 @@ N  |  \-  |  the number of elements in the array or ​0​.
 Reason: Complete the descriptions of template parameters.   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/array&action=edit&section=3 "Edit section: Member types")] Member types
+### Member types
 
 Member type  |  Definition   
 ---|---  
-`value_type` |  `T`[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_value_type&action=edit)  
-`size_type` |  [std::size_t](../types/size_t.html "cpp/types/size t")[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_size_type&action=edit)  
-`difference_type` |  [std::ptrdiff_t](../types/ptrdiff_t.html "cpp/types/ptrdiff t")[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_difference_type&action=edit)  
-`reference` |  value_type&[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_reference&action=edit)  
-`const_reference` |  const value_type&[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_const_reference&action=edit)  
-`pointer` |  value_type*[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_pointer&action=edit)  
-`const_pointer` |  const value_type*[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_const_pointer&action=edit)  
+`value_type` |  `T`  
+`size_type` |  [std::size_t](../types/size_t.html "cpp/types/size t")  
+`difference_type` |  [std::ptrdiff_t](../types/ptrdiff_t.html "cpp/types/ptrdiff t")  
+`reference` |  value_type&  
+`const_reference` |  const value_type&  
+`pointer` |  value_type*  
+`const_pointer` |  const value_type*  
 `iterator` |  |  [LegacyRandomAccessIterator](../named_req/RandomAccessIterator.html "cpp/named req/RandomAccessIterator") and [LegacyContiguousIterator](../named_req/ContiguousIterator.html "cpp/named req/ContiguousIterator") to `value_type` | (until C++17)  
 ---|---  
 [LegacyRandomAccessIterator](../named_req/RandomAccessIterator.html "cpp/named req/RandomAccessIterator") and [LegacyContiguousIterator](../named_req/ContiguousIterator.html "cpp/named req/ContiguousIterator") that is a [LiteralType](../named_req/LiteralType.html "cpp/named req/LiteralType") to `value_type` | (since C++17)  
 (until C++20)  
 [LegacyRandomAccessIterator](../named_req/RandomAccessIterator.html "cpp/named req/RandomAccessIterator"), [`contiguous_iterator`](../iterator/contiguous_iterator.html "cpp/iterator/contiguous iterator"), and [ConstexprIterator](../named_req/ConstexprIterator.html "cpp/named req/ConstexprIterator") to `value_type` | (since C++20)  
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_iterator&action=edit)  
+  
 `const_iterator` |  |  [LegacyRandomAccessIterator](../named_req/RandomAccessIterator.html "cpp/named req/RandomAccessIterator") and [LegacyContiguousIterator](../named_req/ContiguousIterator.html "cpp/named req/ContiguousIterator") to const value_type | (until C++17)  
 ---|---  
 [LegacyRandomAccessIterator](../named_req/RandomAccessIterator.html "cpp/named req/RandomAccessIterator") and [LegacyContiguousIterator](../named_req/ContiguousIterator.html "cpp/named req/ContiguousIterator") that is a [LiteralType](../named_req/LiteralType.html "cpp/named req/LiteralType") to const value_type | (since C++17)  
 (until C++20)  
 [LegacyRandomAccessIterator](../named_req/RandomAccessIterator.html "cpp/named req/RandomAccessIterator"), [`contiguous_iterator`](../iterator/contiguous_iterator.html "cpp/iterator/contiguous iterator"), and [ConstexprIterator](../named_req/ConstexprIterator.html "cpp/named req/ConstexprIterator") to const value_type | (since C++20)  
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_const_iterator&action=edit)  
-`reverse_iterator` |  [std::reverse_iterator](../iterator/reverse_iterator.html)<iterator>[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_reverse_iterator&action=edit)  
-`const_reverse_iterator` |  [std::reverse_iterator](../iterator/reverse_iterator.html)<const_iterator>[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_const_reverse_iterator&action=edit)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/array&action=edit&section=4 "Edit section: Member functions")] Member functions
+`reverse_iterator` |  [std::reverse_iterator](../iterator/reverse_iterator.html)<iterator>  
+`const_reverse_iterator` |  [std::reverse_iterator](../iterator/reverse_iterator.html)<const_iterator>  
+  
+### Member functions
 
 #####  Implicitly-defined member functions   
   
@@ -223,69 +223,69 @@ operator=(implicitly declared) |  overwrites every element of the array with the
 #####  Element access   
   
 [ at](array/at.html "cpp/container/array/at") |  access specified element with bounds checking   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_at&action=edit)  
+(public member function)   
 [ operator[]](array/operator_at.html "cpp/container/array/operator at") |  access specified element   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_operator_at&action=edit)  
+(public member function)   
 [ front](array/front.html "cpp/container/array/front") |  access the first element   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_front&action=edit)  
+(public member function)   
 [ back](array/back.html "cpp/container/array/back") |  access the last element   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_back&action=edit)  
+(public member function)   
 [ data](array/data.html "cpp/container/array/data") |  direct access to the underlying contiguous storage   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_data&action=edit)  
+(public member function)   
   
 #####  Iterators   
   
 [ begincbegin](array/begin.html "cpp/container/array/begin") |  returns an iterator to the beginning   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_begin&action=edit)  
+(public member function)   
 [ endcend](array/end.html "cpp/container/array/end") |  returns an iterator to the end   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_end&action=edit)  
+(public member function)   
 [ rbegincrbegin](array/rbegin.html "cpp/container/array/rbegin") |  returns a reverse iterator to the beginning   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_rbegin&action=edit)  
+(public member function)   
 [ rendcrend](array/rend.html "cpp/container/array/rend") |  returns a reverse iterator to the end   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_rend&action=edit)  
+(public member function)   
   
 #####  Capacity   
   
 [ empty](array/empty.html "cpp/container/array/empty") |  checks whether the container is empty   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_empty&action=edit)  
+(public member function)   
 [ size](array/size.html "cpp/container/array/size") |  returns the number of elements   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_size&action=edit)  
+(public member function)   
 [ max_size](array/max_size.html "cpp/container/array/max size") |  returns the maximum possible number of elements   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_max_size&action=edit)  
+(public member function)   
   
 #####  Operations   
   
 [ fill](array/fill.html "cpp/container/array/fill") |  fill the container with specified value   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_fill&action=edit)  
+(public member function)   
 [ swap](array/swap.html "cpp/container/array/swap") |  swaps the contents   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_swap&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/array&action=edit&section=5 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ operator==operator!=operator<operator<=operator>operator>=operator<=>](array/operator_cmp.html "cpp/container/array/operator cmp")(C++11)(C++11)(removed in C++20)(C++11)(removed in C++20)(C++11)(removed in C++20)(C++11)(removed in C++20)(C++11)(removed in C++20)(C++20) |  lexicographically compares the values of two `array`s   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_operator_cmp&action=edit)  
+(function template)   
 ---|---  
 [ get(std::array)](array/get.html "cpp/container/array/get")(C++11) |  accesses an element of an `array`   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/array/dsc_get&action=edit)  
+(function template)   
 [ std::swap(std::array)](array/swap2.html "cpp/container/array/swap2")(C++11) |  specializes the [std::swap](../utility/swap.html "cpp/algorithm/swap") algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_swap2&action=edit)  
+(function template)   
 [ to_array](array/to_array.html "cpp/container/array/to array")(C++20) |  creates a `std::array` object from a built-in array   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/array/dsc_to_array&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/array&action=edit&section=6 "Edit section: Helper classes")] Helper classes
+### Helper classes
 
 [ std::tuple_size<std::array>](array/tuple_size.html "cpp/container/array/tuple size")(C++11) |  obtains the size of an `array`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/array/dsc_tuple_size&action=edit)  
+(class template specialization)   
 ---|---  
 [ std::tuple_element<std::array>](array/tuple_element.html "cpp/container/array/tuple element")(C++11) |  obtains the type of the elements of `array`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/array/dsc_tuple_element&action=edit)  
+(class template specialization)   
   
 ###  [Deduction guides](array/deduction_guides.html "cpp/container/array/deduction guides")
 
 | (since C++17)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/array&action=edit&section=8 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -334,14 +334,14 @@ Output:
     3 2 1
     E Ǝ
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/array&action=edit&section=9 "Edit section: See also")] See also
+### See also
 
 [ inplace_vector](inplace_vector.html "cpp/container/inplace vector")(C++26) |  resizable, fixed capacity, inplace contiguous array   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_inplace_vector&action=edit)  
+(class template)   
 ---|---  
 [ vector](vector.html "cpp/container/vector") |  resizable contiguous array   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_vector&action=edit)  
+(class template)   
 [ deque](deque.html "cpp/container/deque") |  double-ended queue   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_deque&action=edit)  
+(class template)   
 [ make_array](../experimental/make_array.html "cpp/experimental/make array")(library fundamentals TS v2) |  creates a **std::array** object whose size and optionally element type are deduced from the arguments   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/dsc_make_array&action=edit)
+(function template) 

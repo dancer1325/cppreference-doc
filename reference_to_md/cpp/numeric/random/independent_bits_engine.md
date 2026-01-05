@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [Pseudo-random number generation](../random.html "cpp/numeric/random")
 
@@ -161,7 +161,7 @@
 [piecewise_constant_distribution](piecewise_constant_distribution.html "cpp/numeric/random/piecewise constant distribution")(C++11)  
 [piecewise_linear_distribution](piecewise_linear_distribution.html "cpp/numeric/random/piecewise linear distribution")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/navbar_content&action=edit)
+
 
 **`std::independent_bits_engine`**
 
@@ -180,7 +180,7 @@ Non-member functions
 [operator==operator!=](independent_bits_engine/operator_cmp.html "cpp/numeric/random/independent bits engine/operator cmp")(C++11)(C++11)(until C++20)  
 [operator<<operator>>](independent_bits_engine/operator_ltltgtgt.html "cpp/numeric/random/independent bits engine/operator ltltgtgt")(C++11)(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/independent_bits_engine/navbar_content&action=edit)
+
 
 Defined in header `[<random>](../../header/random.html "cpp/header/random")` |  |   
 ---|---|---  
@@ -206,7 +206,7 @@ class UIntType
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/random/independent_bits_engine&action=edit&section=1 "Edit section: Template parameters")] Template parameters
+### Template parameters
 
 Engine  |  \-  |  the type of the wrapped engine   
 ---|---|---  
@@ -216,46 +216,46 @@ Type requirements
 -`Engine` must meet the requirements of [RandomNumberEngine](../../named_req/RandomNumberEngine.html "cpp/named req/RandomNumberEngine").   
 -`W` must be greater than zero, and no greater than [std::numeric_limits](../../types/numeric_limits.html)<UIntType>::digits.   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/random/independent_bits_engine&action=edit&section=2 "Edit section: Member types")] Member types
+### Member types
 
 Member type  |  Definition   
 ---|---  
 `result_type` (C++11) |  `UIntType`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/random/independent_bits_engine&action=edit&section=3 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](independent_bits_engine/independent_bits_engine.html "cpp/numeric/random/independent bits engine/independent bits engine")(C++11) |  constructs the engine adaptor   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/adaptor/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ seed](independent_bits_engine/seed.html "cpp/numeric/random/independent bits engine/seed")(C++11) |  sets the state of the underlying engine   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/adaptor/dsc_seed&action=edit)  
+(public member function)   
 [ base](independent_bits_engine/base.html "cpp/numeric/random/independent bits engine/base")(C++11) |  returns the underlying engine   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/adaptor/dsc_base&action=edit)  
+(public member function)   
   
 #####  Generation   
   
 [ operator()](independent_bits_engine/operator\(\).html "cpp/numeric/random/independent bits engine/operator\(\)")(C++11) |  advances the state of the underlying engine and returns the generated value   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/adaptor/dsc_operator\(\)&action=edit)  
+(public member function) &action=edit)  
 [ discard](independent_bits_engine/discard.html "cpp/numeric/random/independent bits engine/discard")(C++11) |  advances the adaptor's state by a specified amount   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/adaptor/dsc_discard&action=edit)  
+(public member function)   
   
 #####  Characteristics   
   
 [ min](independent_bits_engine/min.html "cpp/numeric/random/independent bits engine/min")[static] (C++11) |  gets the smallest possible value in the output range (always zero).   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/adaptor/dsc_min&action=edit)  
+(public static member function)   
 [ max](independent_bits_engine/max.html "cpp/numeric/random/independent bits engine/max")[static] (C++11) |  gets the largest possible value in the output range (always 2w  
 \- 1).   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/adaptor/dsc_max&action=edit)  
+(public static member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/random/independent_bits_engine&action=edit&section=4 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ operator==operator!=](independent_bits_engine/operator_cmp.html "cpp/numeric/random/independent bits engine/operator cmp")(C++11)(C++11)(removed in C++20) |  compares the internal states of the adaptors and underlying engines   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/adaptor/dsc_operator_cmp&action=edit)  
+(function)   
 ---|---  
 [ operator<<operator>>](independent_bits_engine/operator_ltltgtgt.html "cpp/numeric/random/independent bits engine/operator ltltgtgt")(C++11) |  performs stream input and output on pseudo-random number engine adaptor   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/adaptor/dsc_operator_ltltgtgt&action=edit)  
+(function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/random/independent_bits_engine&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

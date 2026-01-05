@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ named requirements](../iterator/concepts.html "cpp/named req")
 
@@ -147,7 +147,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/named_req/navbar_content&action=edit)
+
 
 Specifies that an instance of the type can be copy-constructed from an [lvalue expression](../language/value_category.html "cpp/language/value category"). 
 
@@ -161,7 +161,7 @@ Specifies that an instance of the type can be copy-constructed from an [lvalue e
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/CopyConstructible&action=edit&section=1 "Edit section: Requirements")] Requirements
+### Requirements
 
 The type `T` satisfies CopyConstructible if 
 
@@ -185,7 +185,7 @@ T(v) | The value of T(v) is equivalent to the value of v. The value of v is unch
 The expression v.~T() also must be valid, and, for lvalue v, the expression &v must have the type `T*` or const T* and must evaluate to the address of v.  | (until C++11)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/CopyConstructible&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 Until C++11, classes that overloaded operator& were not CopyConstructible and thus were not usable in the [standard library containers](../container.html "cpp/container"). This is a design decision in C++98 (instead of a defect, see [LWG issue 390](https://cplusplus.github.io/LWG/issue390)). 
 
@@ -216,7 +216,7 @@ Being a CopyConstructible class implies [std::is_copy_constructible](../types/is
         [[maybe_unused]] S s2{std::move(s1)}; // ill-formed, use of deleted function
     }  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/CopyConstructible&action=edit&section=3 "Edit section: References")] References
+### References
 
 Extended content  
 ---  
@@ -231,10 +231,10 @@ Extended content
 
   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/CopyConstructible&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ is_copy_constructibleis_trivially_copy_constructibleis_nothrow_copy_constructible](../types/is_copy_constructible.html "cpp/types/is copy constructible")(C++11)(C++11)(C++11) |  checks if a type has a copy constructor   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_copy_constructible&action=edit)  
+(class template)   
 ---|---  
 [ copy_constructible](../concepts/copy_constructible.html "cpp/concepts/copy constructible")(C++20) |  specifies that an object of a type can be copy constructed and move constructed   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_copy_constructible&action=edit)
+(concept) 

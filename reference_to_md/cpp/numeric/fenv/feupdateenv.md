@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [Floating-point environment](../fenv.html "cpp/numeric/fenv")
 
@@ -106,7 +106,7 @@ Macro constants
 [FE_DOWNWARDFE_TONEARESTFE_TOWARDZEROFE_UPWARD](FE_round.html "cpp/numeric/fenv/FE round")(C++11)(C++11)(C++11)(C++11)  
 [FE_DFL_ENV](FE_DFL_ENV.html "cpp/numeric/fenv/FE DFL ENV")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/fenv/navbar_content&action=edit)
+
 
 Defined in header `[<cfenv>](../../header/cfenv.html "cpp/header/cfenv")` |  |   
 ---|---|---  
@@ -117,22 +117,22 @@ First, remembers the currently raised floating-point exceptions, then restores t
 
 This function may be used to end the non-stop mode established by an earlier call to [std::feholdexcept](feholdexcept.html "cpp/numeric/fenv/feholdexcept"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/fenv/feupdateenv&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 envp  |  \-  |  pointer to the object of type [std::fenv_t](../fenv.html) set by an earlier call to [std::feholdexcept](feholdexcept.html "cpp/numeric/fenv/feholdexcept") or `std::fegetenv` or equal to [FE_DFL_ENV](FE_DFL_ENV.html "cpp/numeric/fenv/FE DFL ENV")  
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/fenv/feupdateenv&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 ​0​ on success, non-zero otherwise. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/fenv/feupdateenv&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ feholdexcept](feholdexcept.html "cpp/numeric/fenv/feholdexcept")(C++11) |  saves the environment, clears all status flags and ignores all future errors   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/fenv/dsc_feholdexcept&action=edit)  
+(function)   
 ---|---  
 [ fegetenvfesetenv](feenv.html "cpp/numeric/fenv/feenv")(C++11) |  saves or restores the current floating-point environment   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/fenv/dsc_feenv&action=edit)  
+(function)   
 [ FE_DFL_ENV](FE_DFL_ENV.html "cpp/numeric/fenv/FE DFL ENV")(C++11) |  default floating-point environment   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/fenv/dsc_FE_DFL_ENV&action=edit)  
+(macro constant)   
 [C documentation](../../../c/numeric/fenv/feupdateenv.html "c/numeric/fenv/feupdateenv") for feupdateenv

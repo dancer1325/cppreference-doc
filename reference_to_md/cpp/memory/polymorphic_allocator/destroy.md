@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::pmr::polymorphic_allocator`](../polymorphic_allocator.html "cpp/memory/polymorphic allocator")
 
@@ -206,7 +206,7 @@ Member functions
 Non-member functions  
 [operator==operator!=](operator_eq.html "cpp/memory/polymorphic allocator/operator eq")(until C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/polymorphic_allocator/navbar_content&action=edit)
+
 
 template< class U >  
 void destroy( U* p ); |  |  (since C++17)   
@@ -217,19 +217,19 @@ void destroy( U* p ); |  |  (since C++17)
   
 Destroys the object pointed to by p, as if by calling p->~U(). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/polymorphic_allocator/destroy&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 p  |  \-  |  pointer to the object being destroyed   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/polymorphic_allocator/destroy&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 This function is deprecated via [LWG issue 3036](https://cplusplus.github.io/LWG/issue3036), because its functionality can be provided by the default implementation of [std::allocator_traits::destroy](../allocator_traits/destroy.html "cpp/memory/allocator traits/destroy") and hence extraneous. 
 
 This function is undeprecated via [P2875R4](https://wg21.link/P2875R4). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/polymorphic_allocator/destroy&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ destroy](../allocator_traits/destroy.html "cpp/memory/allocator traits/destroy")[static] |  destructs an object stored in the allocated storage   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/allocator_traits/dsc_destroy&action=edit)  
+(function template)   
 ---|---

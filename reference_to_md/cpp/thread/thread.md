@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 **`std::thread`**
 
@@ -196,7 +196,7 @@
 [Non-member functions](thread.html#Non-member_functions "cpp/thread/thread")  
 [swap(std::thread)](thread/swap2.html "cpp/thread/thread/swap2")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/navbar_content&action=edit)
+
 
 Defined in header `[<thread>](../header/thread.html "cpp/header/thread")` |  |   
 ---|---|---  
@@ -224,56 +224,56 @@ No two `std::thread` objects may represent the same thread of execution; `std::t
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/thread&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Member type  |  Definition   
 ---|---  
-`native_handle_type` (optional*) |  implementation-defined[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_native_handle_type&action=edit)  
+`native_handle_type` (optional*) |  implementation-defined  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/thread&action=edit&section=2 "Edit section: Member classes")] Member classes
+### Member classes
 
 [ id](thread/id.html "cpp/thread/thread/id") |  represents the _id_ of a thread   
-(public member class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/dsc_id&action=edit)  
+(public member class)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/thread&action=edit&section=3 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](thread/thread.html "cpp/thread/thread/thread") |  constructs new `thread` object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ (destructor)](thread/~thread.html "cpp/thread/thread/~thread") |  destructs the thread object, underlying thread must be joined or detached   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/dsc_destructor&action=edit)  
+(public member function)   
 [ operator=](thread/operator=.html "cpp/thread/thread/operator=") |  moves the thread object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/dsc_operator%3D&action=edit)  
+(public member function)   
   
 #####  Observers   
   
 [ joinable](thread/joinable.html "cpp/thread/thread/joinable") |  checks whether the thread is joinable, i.e. potentially running in parallel context   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/dsc_joinable&action=edit)  
+(public member function)   
 [ get_id](thread/get_id.html "cpp/thread/thread/get id") |  returns the _id_ of the thread   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/dsc_get_id&action=edit)  
+(public member function)   
 [ native_handle](thread/native_handle.html "cpp/thread/thread/native handle") |  returns the underlying implementation-defined thread handle   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/dsc_native_handle&action=edit)  
+(public member function)   
 [ hardware_concurrency](thread/hardware_concurrency.html "cpp/thread/thread/hardware concurrency")[static] |  returns the number of concurrent threads supported by the implementation   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/dsc_hardware_concurrency&action=edit)  
+(public static member function)   
   
 #####  Operations   
   
 [ join](thread/join.html "cpp/thread/thread/join") |  waits for the thread to finish its execution   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/dsc_join&action=edit)  
+(public member function)   
 [ detach](thread/detach.html "cpp/thread/thread/detach") |  permits the thread to execute independently from the thread handle   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/dsc_detach&action=edit)  
+(public member function)   
 [ swap](thread/swap.html "cpp/thread/thread/swap") |  swaps two thread objects   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/dsc_swap&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/thread&action=edit&section=4 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ std::swap(std::thread)](thread/swap2.html "cpp/thread/thread/swap2")(C++11) |  specializes the [std::swap](../utility/swap.html "cpp/algorithm/swap") algorithm   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/dsc_swap2&action=edit)  
+(function)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/thread&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ jthread](jthread.html "cpp/thread/jthread")(C++20) |  **std::thread** with support for auto-joining and cancellation   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_jthread&action=edit)  
+(class)   
 ---|---

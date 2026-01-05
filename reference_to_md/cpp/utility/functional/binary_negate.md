@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Function objects](../../functional.html "cpp/utility/functional")
 
@@ -255,7 +255,7 @@ Identity function object
 [unary_negate](unary_negate.html "cpp/utility/functional/unary negate")(until C++20*)  
 **binary_negate**(until C++20*)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/navbar_content&action=edit)
+
 
 Defined in header `[<functional>](../../header/functional.html "cpp/header/functional")` |  |   
 ---|---|---  
@@ -293,7 +293,7 @@ The binary predicate type must define two member types, `first_argument_type` an
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/binary_negate&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Type  |  Definition   
 ---|---  
@@ -301,7 +301,7 @@ Type  |  Definition
 `second_argument_type` |  Predicate::second_argument_type  
 `result_type` |  bool  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/binary_negate&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 (constructor) |  constructs a new binary_negate object with the supplied predicate   
 (public member function)  
@@ -344,7 +344,7 @@ y  |  \-  |  second argument to pass through to predicate
 
 The logical complement of the result of calling pred(x, y). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/binary_negate&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -395,18 +395,18 @@ Output:
     5 != 1 : true
     6 != 0 : true
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/binary_negate&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ binary_function](binary_function.html "cpp/utility/functional/binary function")(deprecated in C++11)(removed in C++17) |  adaptor-compatible binary function base class   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_binary_function&action=edit)  
+(class template)   
 ---|---  
 [ function](function.html "cpp/utility/functional/function")(C++11) |  copyable wrapper of any copy constructible callable object   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_function&action=edit)  
+(class template)   
 [ move_only_function](move_only_function.html "cpp/utility/functional/move only function")(C++23) |  move-only wrapper of any callable object that supports qualifiers in a given call signature   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_move_only_function&action=edit)  
+(class template)   
 [ not2](not2.html "cpp/utility/functional/not2")(deprecated in C++17)(removed in C++20) |  constructs custom **std::binary_negate** object   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_not2&action=edit)  
+(function template)   
 [ ptr_fun](ptr_fun.html "cpp/utility/functional/ptr fun")(deprecated in C++11)(removed in C++17) |  creates an adaptor-compatible function object wrapper from a pointer to function   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_ptr_fun&action=edit)  
+(function template)   
 [ unary_negate](unary_negate.html "cpp/utility/functional/unary negate")(deprecated in C++17)(removed in C++20) |  wrapper function object returning the complement of the unary predicate it holds   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_unary_negate&action=edit)
+(class template) 

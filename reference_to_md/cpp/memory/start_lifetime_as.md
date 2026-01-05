@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 Defined in header `[<memory>](../header/memory.html "cpp/header/memory")` |  |   
 ---|---|---  
@@ -256,19 +256,19 @@ const volatile T* start_lifetime_as_array( const volatile void* p,
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/start_lifetime_as&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 p  |  \-  |  the address of the region consisting objects   
 ---|---|---  
 n  |  \-  |  the number of the element of the array to be created   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/start_lifetime_as&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1-4) A pointer to the complete object as described above.
 
 5-8) A pointer to the first element of the created array, if any; otherwise, a pointer that compares equal to p.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/start_lifetime_as&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 new (void_ptr) unsigned char[size] or new (void_ptr) [std::byte](../types/byte.html)[size] works as an untyped version of `std::start_lifetime_as`, but it does not keep the object representation. 
 
@@ -278,7 +278,7 @@ std::start_lifetime_as handles non-array types as well as arrays of known bound,
 ---|---|---|---  
 [`__cpp_lib_start_lifetime_as`](../experimental/feature_test.html#cpp_lib_start_lifetime_as "cpp/feature test") | [`202207L`](../compiler_support/23.html#cpp_lib_start_lifetime_as_202207L "cpp/compiler support/23") | (C++23) | Explicit lifetime management   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/start_lifetime_as&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -313,7 +313,7 @@ Possible output:
     
     (0.1,0.2)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/start_lifetime_as&action=edit&section=5 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -325,12 +325,12 @@ Possible output:
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/start_lifetime_as&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ bit_cast](../numeric/bit_cast.html "cpp/numeric/bit cast")(C++20) |  reinterpret the object representation of one type as that of another   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/dsc_bit_cast&action=edit)  
+(function template)   
 ---|---  
 [ as_bytesas_writable_bytes](../container/span/as_bytes.html "cpp/container/span/as bytes")(C++20) |  converts a `span` into a view of its underlying bytes   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/span/dsc_as_bytes&action=edit)
+(function template) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

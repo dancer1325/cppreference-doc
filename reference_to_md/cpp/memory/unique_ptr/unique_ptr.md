@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::unique_ptr`](../unique_ptr.html "cpp/memory/unique ptr")
 
@@ -211,7 +211,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
 [Helper classes](../unique_ptr.html#Helper_classes "cpp/memory/unique ptr")  
 [hash<std::unique_ptr>](hash.html "cpp/memory/unique ptr/hash")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/unique_ptr/navbar_content&action=edit)
+
 
 members of the primary template, unique_ptr<T> |  |   
 ---|---|---  
@@ -314,14 +314,14 @@ c) either `Deleter` is a reference type and `E` is the same type as `Deleter`, o
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/unique_ptr/unique_ptr&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 p  |  \-  |  a pointer to an object to manage   
 ---|---|---  
 d1, d2  |  \-  |  a deleter to use to destroy the object   
 u  |  \-  |  another smart pointer to acquire the ownership from   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/unique_ptr/unique_ptr&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 Instead of using the overload (2) together with new, it is often a better idea to use [std::make_unique<T>](make_unique.html "cpp/memory/unique ptr/make unique").  | (since C++14)  
 ---|---  
@@ -333,7 +333,7 @@ Because the default constructor is constexpr, static unique_ptrs are initialized
 There is no [class template argument deduction](../../language/ctad.html "cpp/language/class template argument deduction") from pointer type because it is impossible to distinguish a pointer obtained from array and non-array forms of new.  | (since C++17)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/unique_ptr/unique_ptr&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -460,7 +460,7 @@ Output:
     ~Foo dtor
     ~Foo dtor
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/unique_ptr/unique_ptr&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

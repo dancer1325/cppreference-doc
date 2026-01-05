@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Function objects](../../../functional.html "cpp/utility/functional")
 
@@ -255,7 +255,7 @@ Identity function object
 [unary_negate](../unary_negate.html "cpp/utility/functional/unary negate")(until C++20*)  
 [binary_negate](../binary_negate.html "cpp/utility/functional/binary negate")(until C++20*)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/navbar_content&action=edit)
+
 
 [`std::move_only_function`](../move_only_function.html "cpp/utility/functional/move only function")
 
@@ -271,7 +271,7 @@ Identity function object
 [operator==](operator==.html "cpp/utility/functional/move only function/operator==")  
 [swap(std::move_only_function)](swap2.html "cpp/utility/functional/move only function/swap2")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/move_only_function/navbar_content&action=edit)
+
 
 ~move_only_function(); |  |  (since C++23)  
 ---|---|---  
@@ -279,8 +279,8 @@ Identity function object
   
 Destroys the `std::move_only_function` object. If the `std::move_only_function` is not empty, its target is also destroyed. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/move_only_function/%7Emove_only_function&action=edit&section=1 "Edit section: See also")] See also
+### See also
 
 [ (destructor)](../function/~function.html "cpp/utility/functional/function/~function") |  destroys a `std::function` instance   
-(public member function of `std::function<R(Args...)>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/function/dsc_destructor&action=edit)  
+(public member function of `std::function<R(Args...)>`)   
 ---|---

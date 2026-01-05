@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 Defined in header `[<charconv>](../header/charconv.html "cpp/header/charconv")` |  |   
 ---|---|---  
@@ -76,7 +76,7 @@ struct to_chars_result; |  |  (since C++17)
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/to_chars_result&action=edit&section=1 "Edit section: Data members")] Data members
+### Data members
 
 Member name  |  Definition   
 ---|---  
@@ -85,7 +85,7 @@ ptr |  a pointer of type char*
 ec |  an error code of type [std::errc](../error/errc.html "cpp/error/errc")   
 (public member object)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/to_chars_result&action=edit&section=2 "Edit section: Member and friend functions")] Member and friend functions
+### Member and friend functions
 
 ##  operator==(std::to_chars_result)
 
@@ -108,14 +108,14 @@ constexpr explicit operator bool() const noexcept; |  |  (since C++26)
   
 Checks whether the conversion is successful. Returns ec == [std::errc](../error/errc.html){}. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/to_chars_result&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](feature_test.html "cpp/utility/feature test") macro  | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_to_chars`](../experimental/feature_test.html#cpp_lib_to_chars "cpp/feature test") | [`201611L`](../compiler_support/17.html#cpp_lib_to_chars_201611L "cpp/compiler support/17") | (C++17) | Elementary string conversions ([`std::to_chars`](to_chars.html "cpp/utility/to chars"), [`std::from_chars`](from_chars.html "cpp/utility/from chars"))   
 [`202306L`](../compiler_support/26.html#cpp_lib_to_chars_202306L "cpp/compiler support/26") | (C++26) | Testing for success or failure of [`<charconv>`](../header/charconv.html "cpp/header/charconv") functions   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/to_chars_result&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -174,10 +174,10 @@ Possible output:
     -3.142e+00
     Value too large for defined data type
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/to_chars_result&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ to_chars](to_chars.html "cpp/utility/to chars")(C++17) |  converts an integer or floating-point value to a character sequence   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_to_chars&action=edit)  
+(function)   
 ---|---
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

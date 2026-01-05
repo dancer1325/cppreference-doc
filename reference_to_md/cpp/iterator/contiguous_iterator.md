@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](empty.html "cpp/iterator/empty")(C++17)  
 [data](data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 Defined in header `[<iterator>](../header/iterator.html "cpp/header/iterator")` |  |   
 ---|---|---  
@@ -234,7 +234,7 @@ This means a program cannot rely on any side effects of dereferencing, increment
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/iter_concept&action=edit&section=T-1 "Template:cpp/iterator/iter concept")] Iterator concept determination
+### Iterator concept determination
 
 Definition of this concept is specified via an exposition-only alias template /*ITER_CONCEPT*/. 
 
@@ -248,7 +248,7 @@ In order to determine /*ITER_CONCEPT*/<I>, let ITER_TRAITS<I> denote I if the sp
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/contiguous_iterator&action=edit&section=1 "Edit section: Semantic requirements")] Semantic requirements
+### Semantic requirements
 
 Let a and b be [dereferenceable](../iterator.html#Dereferenceability_and_validity "cpp/iterator") iterators and c be a non-dereferenceable iterator of type `I` such that b is [reachable](../iterator.html#Ranges "cpp/iterator") from a and c is reachable from b, the type `I` models `contiguous_iterator` only if all the concepts it subsumes are modeled and all following conditions are satisfied: 
 
@@ -261,21 +261,21 @@ Let a and b be [dereferenceable](../iterator.html#Dereferenceability_and_validit
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/equality_preservation&action=edit&section=T-1 "Template:cpp/concepts/equality preservation")] Equality preservation
+### Equality preservation
 
 Expressions declared in [requires expressions](../language/requires.html "cpp/language/requires") of the standard library concepts are required to be [equality-preserving](../concepts.html#Equality_preservation "cpp/concepts") (except where stated otherwise). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/implicit_expression_variations&action=edit&section=T-1 "Template:cpp/concepts/implicit expression variations")] Implicit expression variations
+### Implicit expression variations
 
 A [requires expression](../language/requires.html "cpp/language/requires") that uses an expression that is non-modifying for some constant lvalue operand also requires [implicit expression variations](../concepts.html#Implicit_expression_variations "cpp/concepts"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/contiguous_iterator&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 `contiguous_iterator` is modeled by every pointer type to complete object type. 
 
 Iterator types in the standard library that are required to satisfy the [LegacyContiguousIterator](../named_req/ContiguousIterator.html "cpp/named req/ContiguousIterator") requirements in C++17 are also required to model `contiguous_iterator` in C++20. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/contiguous_iterator&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -286,8 +286,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [LWG 4170](https://cplusplus.github.io/LWG/issue4170) | C++20  | a pair of value-initialized `contiguous_iterator`s  
 might not be able to represent an empty range  | guaranteed   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/contiguous_iterator&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ random_access_iterator](random_access_iterator.html "cpp/iterator/random access iterator")(C++20) |  specifies that a [`bidirectional_iterator`](bidirectional_iterator.html "cpp/iterator/bidirectional iterator") is a random-access iterator, supporting advancement in constant time and subscripting   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_random_access_iterator&action=edit)  
+(concept)   
 ---|---

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::source_location`](../source_location.html "cpp/utility/source location")
 
@@ -143,7 +143,7 @@ Field access
 [source_location::file_name](file_name.html "cpp/utility/source location/file name")  
 [source_location::function_name](function_name.html "cpp/utility/source location/function name")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/source_location/navbar_content&action=edit)
+
 
 constexpr source_location() noexcept; |  (1)  |  (since C++20)  
 ---|---|---  
@@ -155,12 +155,12 @@ source_location( source_location&& other ) noexcept; |  (3)  |  (since C++20)
 
 2,3) Copy and move constructors. It is unspecified whether they are trivial and/or constexpr.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/source_location/source_location&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 other  |  \-  |  another `source_location` to copy or move from   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/source_location/source_location&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -240,10 +240,10 @@ Possible output:
     [std::basic_string_view<char>]
     [std::ranges::join_view<std::ranges::ref_view<const std::vector<std::vector<int> > > >]
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/source_location/source_location&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ current](current.html "cpp/utility/source location/current")[static] |  constructs a new `source_location` corresponding to the location of the call site   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/source_location/dsc_current&action=edit)  
+(public static member function)   
 ---|---  
 [ (constructor)](../stacktrace_entry/stacktrace_entry.html "cpp/utility/stacktrace entry/stacktrace entry") |  constructs a new `stacktrace_entry`   
-(public member function of `std::stacktrace_entry`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/stacktrace_entry/dsc_constructor&action=edit)
+(public member function of `std::stacktrace_entry`) 

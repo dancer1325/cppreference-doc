@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ named requirements](../iterator/concepts.html "cpp/named req")
 
@@ -147,7 +147,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/named_req/navbar_content&action=edit)
+
 
 The type must work with `==` operator and the result should have standard semantics. 
 
@@ -161,7 +161,7 @@ The type must work with `==` operator and the result should have standard semant
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/EqualityComparable&action=edit&section=1 "Edit section: Requirements")] Requirements
+### Requirements
 
 The type `T` satisfies EqualityComparable if given expressions a, b and c of type `T` or (since C++11) const T, the following expression is valid and has its specified effects: 
 
@@ -178,7 +178,7 @@ a == b | meets [BooleanTestable](BooleanTestable.html "cpp/named req/BooleanTest
 models [`_boolean-testable_`](../concepts/boolean-testable.html "cpp/concepts/boolean-testable")  
 (since C++20)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/EqualityComparable&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 To satisfy this requirement, types that do not have built-in [comparison operators](../language/operator_comparison.html "cpp/language/operator comparison") have to provide a [user-defined operator==](../language/operators.html "cpp/language/operators"). 
 
@@ -189,7 +189,7 @@ For the types that are both EqualityComparable and [LessThanComparable](LessThan
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/EqualityComparable&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -201,8 +201,8 @@ const T instead of `T`
 [LWG 2114](https://cplusplus.github.io/LWG/issue2114)  
 ([P2167R3](https://wg21.link/P2167R3))  | C++98  | convertibility to bool was too weak to reflect the expectation of implementations  | requirements strengthened   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/EqualityComparable&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ equality_comparableequality_comparable_with](../concepts/equality_comparable.html "cpp/concepts/equality comparable")(C++20) |  specifies that operator == is an equivalence relation   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_equality_comparable&action=edit)  
+(concept)   
 ---|---

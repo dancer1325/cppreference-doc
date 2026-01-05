@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Program support utilities](../program.html "cpp/utility/program")
 
@@ -181,7 +181,7 @@ Common vocabulary types
 [Types](../program.html#Types "cpp/utility/program")  
 [jmp_buf](jmp_buf.html "cpp/utility/program/jmp buf")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/program/navbar_content&action=edit)
+
 
 Defined in header `[<csignal>](../../header/csignal.html "cpp/header/csignal")` |  |   
 ---|---|---  
@@ -204,15 +204,15 @@ Constant  |  Explanation
 `SIGABRT` |  abnormal termination condition, as is e.g. initiated by [std::abort()](abort.html "cpp/utility/program/abort")  
 `SIGFPE` |  erroneous arithmetic operation such as divide by zero   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/program/SIG_types&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 Additional signal names [are specified by POSIX](https://pubs.opengroup.org/onlinepubs/9699919799/basedefs/signal.h.html). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/program/SIG_types&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ signal](signal.html "cpp/utility/program/signal") |  sets a signal handler for particular signal   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/program/dsc_signal&action=edit)  
+(function)   
 ---|---  
 [ raise](raise.html "cpp/utility/program/raise") |  runs the signal handler for particular signal   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/program/dsc_raise&action=edit)  
+(function)   
 [C documentation](../../../c/program/SIG_types.html "c/program/SIG types") for signal types

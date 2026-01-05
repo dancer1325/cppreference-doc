@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Extensions for concurrency](../concurrency.html "cpp/experimental/concurrency")
 
@@ -75,7 +75,7 @@ Atomic smart pointers
 [experimental::atomic_shared_ptr](../atomic_shared_ptr.html "cpp/experimental/atomic shared ptr")  
 [experimental::atomic_weak_ptr](../atomic_weak_ptr.html "cpp/experimental/atomic weak ptr")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/concurrency/navbar_content&action=edit)
+
 
 [`std::experimental::atomic_shared_ptr`](../atomic_shared_ptr.html "cpp/experimental/atomic shared ptr")
 
@@ -89,7 +89,7 @@ Atomic smart pointers
 [atomic_shared_ptr::exchange](exchange.html "cpp/experimental/atomic shared ptr/exchange")  
 **atomic_shared_ptr::compare_exchange_weak atomic_shared_ptr::compare_exchange_strong**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/concurrency/atomic_shared_ptr/navbar_content&action=edit)
+
 
 bool compare_exchange_weak( [std::shared_ptr](../../memory/shared_ptr.html)<T>& expected, const [std::shared_ptr](../../memory/shared_ptr.html)<T>& desired,  
 [std::memory_order](../../atomic/memory_order.html) success, [std::memory_order](../../atomic/memory_order.html) failure ) noexcept; |  (1)  |   
@@ -129,7 +129,7 @@ The weak versions (1-4) may fail spuriously.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/atomic_shared_ptr/compare_exchange&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 expected  |  \-  |  reference to the value expected to be found in the atomic object   
 ---|---|---  
@@ -138,11 +138,11 @@ success  |  \-  |  the memory synchronization ordering for the read-modify-write
 failure  |  \-  |  the memory synchronization ordering for the load operation if the comparison fails. Cannot be [std::memory_order_release](../../atomic/memory_order.html "cpp/atomic/memory order") or [std::memory_order_acq_rel](../../atomic/memory_order.html "cpp/atomic/memory order") and cannot specify stronger ordering than success  
 order  |  \-  |  the memory synchronization ordering for both operations   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/atomic_shared_ptr/compare_exchange&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 true if the underlying atomic value was changed, false otherwise. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/atomic_shared_ptr/compare_exchange&action=edit&section=3 "Edit section: Remarks")] Remarks
+### Remarks
 
 All changes to the `atomic_shared_ptr` object itself, and all associated [`use_count`](../../memory/shared_ptr/use_count.html "cpp/memory/shared ptr/use count") increments, are guaranteed to be performed atomically. Associated `use_count` decrements take place after the atomic operation, but are not required to be part of it. Any associated destruction or deallocation operations take place after the atomic operation and are not part of it. 
 
@@ -152,12 +152,12 @@ For overloads (1,3,5,7), desired is not accessed after the atomic update step.
 
 For overloads (2,4,6,8), desired is moved from only if the compare-exchange operation returns true; the moving occurs after the atomic update step. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/atomic_shared_ptr/compare_exchange&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 The weak forms (1-4) of the functions are allowed to fail spuriously, that is, act as if *this and expected are not equivalent even when they are. When a compare-and-exchange is in a loop, the weak version will yield better performance on some platforms. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/atomic_shared_ptr/compare_exchange&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ std::atomic_is_lock_free(std::shared_ptr)std::atomic_load(std::shared_ptr)std::atomic_load_explicit(std::shared_ptr)std::atomic_store(std::shared_ptr)std::atomic_store_explicit(std::shared_ptr)std::atomic_exchange(std::shared_ptr)std::atomic_exchange_explicit(std::shared_ptr)std::atomic_compare_exchange_weak(std::shared_ptr)std::atomic_compare_exchange_strong(std::shared_ptr)std::atomic_compare_exchange_weak_explicit(std::shared_ptr)std::atomic_compare_exchange_strong_explicit(std::shared_ptr)](../../memory/shared_ptr/atomic.html "cpp/memory/shared ptr/atomic")(deprecated in C++20)(removed in C++26) |  specializes atomic operations for `std::shared_ptr`   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/dsc_atomic&action=edit)  
+(function template)   
 ---|---

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::atomic`](../atomic.html "cpp/atomic/atomic")
 
@@ -210,7 +210,7 @@ pointer types only](../atomic.html#Specialized_for_integral_and_pointer_types_on
 [atomic::fetch_xor](fetch_xor.html "cpp/atomic/atomic/fetch xor")  
 [atomic::operator&=atomic::operator|=atomic::operator^=](operator_arith3.html "cpp/atomic/atomic/operator arith3")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/navbar_content&action=edit)
+
 
 member only of `atomic<_Integral_` ﻿`>` specializations  
 and `atomic<_Floating_` ﻿`>` specializations(since C++20) |  |   
@@ -253,17 +253,17 @@ It is deprecated if [std::atomic](../atomic.html)<T>::is_always_lock_free is fal
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic/fetch_sub&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 arg  |  \-  |  the other argument of arithmetic subtraction   
 ---|---|---  
 order  |  \-  |  memory order constraints to enforce   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic/fetch_sub&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The value immediately preceding the effects of this function in the [modification order](../memory_order.html#Modification_order "cpp/atomic/memory order") of *this. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic/fetch_sub&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -271,10 +271,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [P0558R1](https://wg21.link/P0558R1) | C++11  | arithmetic permitted on pointers to (possibly cv-qualified) void or function  | made ill-formed   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic/fetch_sub&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ atomic_fetch_subatomic_fetch_sub_explicit](../atomic_fetch_sub.html "cpp/atomic/atomic fetch sub")(C++11)(C++11) |  subtracts a non-atomic value from an atomic object and obtains the previous value of the atomic   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/dsc_atomic_fetch_sub&action=edit)  
+(function template)   
 ---|---  
 [ operator++operator++(int)operator--operator--(int)](operator_arith.html "cpp/atomic/atomic/operator arith") |  increments or decrements the atomic value by one   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_operator_arith&action=edit)
+(public member function) 

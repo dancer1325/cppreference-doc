@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [Pseudo-random number generation](../../random.html "cpp/numeric/random")
 
@@ -161,7 +161,7 @@
 [piecewise_constant_distribution](../piecewise_constant_distribution.html "cpp/numeric/random/piecewise constant distribution")(C++11)  
 [piecewise_linear_distribution](../piecewise_linear_distribution.html "cpp/numeric/random/piecewise linear distribution")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/navbar_content&action=edit)
+
 
 [`std::random_device`](../random_device.html "cpp/numeric/random/random device")
 
@@ -175,7 +175,7 @@ Characteristics
 [random_device::min](min.html "cpp/numeric/random/random device/min")  
 [random_device::max](max.html "cpp/numeric/random/random device/max")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/random_device/navbar_content&action=edit)
+
 
 result_type operator()(); |  |  (since C++11)  
 ---|---|---  
@@ -193,22 +193,22 @@ Generates a non-deterministic uniformly-distributed random value.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/random/random_device/operator\(\)&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/random/random_device/operator\(\)&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 A random number uniformly distributed in [min(), max()]. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/random/random_device/operator\(\)&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Throws an implementation-defined exception derived from [std::exception](../../../error/exception.html "cpp/error/exception") if a random number could not be generated. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/random/random_device/operator\(\)&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ min](min.html "cpp/numeric/random/random device/min")[static] |  gets the smallest possible value in the output range   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/engine/dsc_min&action=edit)  
+(public static member function)   
 ---|---  
 [ max](max.html "cpp/numeric/random/random device/max")[static] |  gets the largest possible value in the output range   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/engine/dsc_max&action=edit)
+(public static member function) 

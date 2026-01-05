@@ -14,7 +14,7 @@ Reason: Libraries Boost.MPL / Boost.Mp11 / Metal / Kvasir.MPL / Boost.Hana / etc
 Reason: History maybe   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/template_metaprogramming&action=edit&section=1 "Edit section: External links")] External links
+### External links
 
 1\.  | David Vandevoorde, Nicolai M. Josuttis, Douglas Gregor (2017), [_C++ Templates - The Complete Guide, 2nd Edition._](http://tmplbook.com/)  
 ---|---  

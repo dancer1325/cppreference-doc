@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Formatting library](../format.html "cpp/utility/format")
 
@@ -91,7 +91,7 @@ Formatting arguments
 [Format error](format.html#Format_error "cpp/utility/format/format")  
 [format_error](format_error.html "cpp/utility/format/format error")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/navbar_content&action=edit)
+
 
 Defined in header `[<format>](../../header/format.html "cpp/header/format")` |  |   
 ---|---|---  
@@ -117,7 +117,7 @@ Provides access to formatting arguments.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/basic_format_args&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 (constructor) |  constructs a `basic_format_args` object   
 (public member function)  
@@ -144,24 +144,24 @@ Returns a [std::basic_format_arg](basic_format_arg.html "cpp/utility/format/basi
 
 If there's no such formatting argument (i.e. *this was default-constructed or i is not less than the number of formatting arguments), returns a default-constructed [std::basic_format_arg](basic_format_arg.html "cpp/utility/format/basic format arg") (holding a [std::monostate](../variant/monostate.html "cpp/utility/variant/monostate") object). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/basic_format_args&action=edit&section=2 "Edit section: Deduction guides")] Deduction guides
+### Deduction guides
 
 template< class Context, class... Args >  
 basic_format_args( /*format-arg-store*/<Context, Args...> ) -> basic_format_args<Context>; |  |  (since C++20)  
 ---|---|---  
 | |   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/basic_format_args&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 `std::basic_format_args` has reference semantics. It is the programmer's responsibility to ensure that *this does not outlive store (which, in turn, should not outlive the arguments to [std::make_format_args](make_format_args.html "cpp/utility/format/make format args") or [std::make_wformat_args](make_format_args.html "cpp/utility/format/make format args")). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/basic_format_args&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/basic_format_args&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -171,8 +171,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [LWG 3810](https://cplusplus.github.io/LWG/issue3810) | C++20  | `basic_format_args` has no deduction guide  | added   
 [LWG 4106](https://cplusplus.github.io/LWG/issue4106) | C++20  | `basic_format_args` was default-constructible  | default constructor removed   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/basic_format_args&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ basic_format_arg](basic_format_arg.html "cpp/utility/format/basic format arg")(C++20) |  class template that provides access to a formatting argument for user-defined formatters   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/dsc_basic_format_arg&action=edit)  
+(class template)   
 ---|---

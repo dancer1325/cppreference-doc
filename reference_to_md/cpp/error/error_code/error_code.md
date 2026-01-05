@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Diagnostics library](../../error.html "cpp/error")
 
@@ -187,7 +187,7 @@ Exception handling failures
 [breakpoint_if_debugging](../../utility/breakpoint_if_debugging.html "cpp/utility/breakpoint if debugging")(C++26)  
 [breakpoint](../../utility/breakpoint.html "cpp/utility/breakpoint")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/navbar_content&action=edit)
+
 
 [`std::error_code`](../error_code.html "cpp/error/error code")
 
@@ -211,7 +211,7 @@ Helper classes
 [is_error_code_enum](is_error_code_enum.html "cpp/error/error code/is error code enum")  
 [hash<std::error_code>](hash.html "cpp/error/error code/hash")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/error_code/navbar_content&action=edit)
+
 
 error_code() noexcept; |  (1)  |  (since C++11)  
 ---|---|---  
@@ -234,7 +234,7 @@ Constructs new error code.
 
 4,5) Implicitly defined copy constructor and move constructor. Initializes the error code with the contents of the other.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/error_code/error_code&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 other  |  \-  |  another error code to initialize with   
 ---|---|---  
@@ -242,7 +242,7 @@ ec  |  \-  |  platform dependent error code to construct with
 ecat  |  \-  |  error category corresponding to ec  
 e  |  \-  |  error code enum to construct with   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/error_code/error_code&action=edit&section=2 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -250,12 +250,12 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 3629](https://cplusplus.github.io/LWG/issue3629) | C++11  | only `std::make_error_code` overloads were used  | ADL-found overloads are used   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/error_code/error_code&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ make_error_code(std::errc)](../errc/make_error_code.html "cpp/error/errc/make error code")(C++11) |  creates error code value for `errc` enum e   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/errc/dsc_make_error_code&action=edit)  
+(function)   
 ---|---  
 [ make_error_code(std::io_errc)](../../io/io_errc/make_error_code.html "cpp/io/io errc/make error code")(C++11) |  constructs an iostream error code   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/io_errc/dsc_make_error_code&action=edit)  
+(function)   
 [ make_error_code(std::future_errc)](../../thread/future_errc/make_error_code.html "cpp/thread/future errc/make error code")(C++11) |  constructs a future error code   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/future_errc/dsc_make_error_code&action=edit)
+(function) 

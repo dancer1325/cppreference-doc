@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::inplace_vector`](../inplace_vector.html "cpp/container/inplace vector")
 
@@ -134,7 +134,7 @@ Tables
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/inplace_vector/navbar_content&action=edit)
+
 
 constexpr void assign( size_type count, const T& value ); |  (1) | (since C++26)  
 ---|---|---  
@@ -169,7 +169,7 @@ If first or last is an iterator into *this, the behavior is undefined.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/assign&action=edit&section=T-1 "Template:cpp/container/assign")] Parameters
+### Parameters
 
 count  |  \-  |  the new size of the container   
 ---|---|---  
@@ -177,7 +177,7 @@ value  |  \-  |  the value to initialize elements of the container with
 first, last  |  \-  |  the pair of iterators defining the source [range](../../iterator.html#Ranges "cpp/iterator") of elements to copy   
 ilist  |  \-  |  [std::initializer_list](../../utility/initializer_list.html "cpp/utility/initializer list") to copy the values from   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/assign&action=edit&section=T-2 "Template:cpp/container/assign")] Complexity
+### Complexity
 
 1) Linear in count.
 
@@ -195,7 +195,7 @@ ilist  |  \-  |  [std::initializer_list](../../utility/initializer_list.html "cp
 
 1-3) Any exception thrown by initialization of inserted elements.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/assign&action=edit&section=T-4 "Template:cpp/container/assign")] Example
+### Example
 
 The following code uses `assign` to add several characters to a [std::inplace_vector](../inplace_vector.html)<char, 5>:
 
@@ -252,10 +252,10 @@ Output:
     std::bad_alloc #2
     std::bad_alloc #3
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/assign&action=edit&section=T-6 "Template:cpp/container/assign")] See also
+### See also
 
 [ assign_range](assign_range.html "cpp/container/inplace vector/assign range") |  assigns a range of values to the container   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_assign_range&action=edit)  
+(public member function)   
 ---|---  
 [ operator=](operator=.html "cpp/container/inplace vector/operator=") |  assigns values to the container   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_operator%3D&action=edit)
+(public member function) 

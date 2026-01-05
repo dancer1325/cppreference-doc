@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 **Mathematical constants**
 
@@ -101,7 +101,7 @@
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/constants&action=edit&section=1 "Edit section: Constants \(since C++20\)")] Constants (since C++20)
+### Constants (since C++20)
 
 Defined in header `[<numbers>](../header/numbers.html "cpp/header/numbers")`  
 ---  
@@ -171,7 +171,7 @@ inline constexpr double egamma |  egamma_v<double>
 inline constexpr double phi |  phi_v<double>   
 (constant)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/constants&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 A program that instantiates a primary template of a mathematical constant variable template is ill-formed. 
 
@@ -183,7 +183,7 @@ A program may partially or explicitly specialize a mathematical constant variabl
 ---|---|---|---  
 [`__cpp_lib_math_constants`](../experimental/feature_test.html#cpp_lib_math_constants "cpp/feature test") | [`201907L`](../compiler_support/20.html#cpp_lib_math_constants_201907L "cpp/compiler support/20") | (C++20) | [Mathematical constants](constants.html#top)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/constants&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -243,10 +243,10 @@ Possible output:
     γ as egamma_v<long double> = 0.5772156649015328606
     γ with 34 digits precision = 0.577215664901532860606512090082402
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/constants&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ ratio](ratio/ratio.html "cpp/numeric/ratio/ratio")(C++11) |  represents exact rational fraction   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/ratio/dsc_ratio&action=edit)  
+(class template)   
 ---|---
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

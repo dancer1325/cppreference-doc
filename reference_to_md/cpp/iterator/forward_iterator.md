@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](empty.html "cpp/iterator/empty")(C++17)  
 [data](data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 Defined in header `[<iterator>](../header/iterator.html "cpp/header/iterator")` |  |   
 ---|---|---  
@@ -219,7 +219,7 @@ This concept refines [std::input_iterator](input_iterator.html "cpp/iterator/inp
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/iter_concept&action=edit&section=T-1 "Template:cpp/iterator/iter concept")] Iterator concept determination
+### Iterator concept determination
 
 Definition of this concept is specified via an exposition-only alias template /*ITER_CONCEPT*/. 
 
@@ -233,7 +233,7 @@ In order to determine /*ITER_CONCEPT*/<I>, let ITER_TRAITS<I> denote I if the sp
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/forward_iterator&action=edit&section=1 "Edit section: Semantic requirements")] Semantic requirements
+### Semantic requirements
 
 `I` models `std::forward_iterator` if, and only if `I` models all the concepts it subsumes, and given objects i and j of type `I`: 
 
@@ -260,11 +260,11 @@ In order to determine /*ITER_CONCEPT*/<I>, let ITER_TRAITS<I> denote I if the sp
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/forward_iterator&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 Unlike the [LegacyForwardIterator](../named_req/ForwardIterator.html "cpp/named req/ForwardIterator") requirements, the `forward_iterator` concept does not require dereference to return a reference. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/forward_iterator&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 A minimum forward iterator. 
     
@@ -299,10 +299,10 @@ A minimum forward iterator.
      
     static_assert(std::forward_iterator<SimpleForwardIterator>);
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/forward_iterator&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ input_iterator](input_iterator.html "cpp/iterator/input iterator")(C++20) |  specifies that a type is an input iterator, that is, its referenced values can be read and it can be both pre- and post-incremented   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_input_iterator&action=edit)  
+(concept)   
 ---|---  
 [ bidirectional_iterator](bidirectional_iterator.html "cpp/iterator/bidirectional iterator")(C++20) |  specifies that a **`forward_iterator`** is a bidirectional iterator, supporting movement backwards   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_bidirectional_iterator&action=edit)
+(concept) 

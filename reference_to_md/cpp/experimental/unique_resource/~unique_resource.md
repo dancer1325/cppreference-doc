@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Library fundamentals v3](../lib_extensions_3.html "cpp/experimental/lib extensions 3")
 
@@ -65,7 +65,7 @@
 [experimental::scope_success](../scope_success.html "cpp/experimental/scope success")  
 [experimental::unique_resource](../unique_resource.html "cpp/experimental/unique resource")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions_3/navbar_content&action=edit)
+
 
 [`std::experimental::unique_resource`](../unique_resource.html "cpp/experimental/unique resource")
 
@@ -85,7 +85,7 @@ Non-member functions
 [make_unique_resource_checked](make_unique_resource_checked.html "cpp/experimental/unique resource/make unique resource checked")  
 [Deduction guides](deduction_guides.html "cpp/experimental/unique resource/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/unique_resource/navbar_content&action=edit)
+
 
 ~unique_resource(); |  |  (library fundamentals TS v3)  
 ---|---|---  
@@ -93,10 +93,10 @@ Non-member functions
   
 Disposes the resource by calling the deleter with the underlying resource handle if the `unique_resource` owns it, equivalent to calling reset(). Then destroys the stored resource handle and the deleter. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/unique_resource/%7Eunique_resource&action=edit&section=1 "Edit section: See also")] See also
+### See also
 
 [ reset](reset.html "cpp/experimental/unique resource/reset") |  disposes or replaces the managed resource   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/unique_resource/dsc_reset&action=edit)  
+(public member function)   
 ---|---  
 [ (destructor)](../../memory/unique_ptr/~unique_ptr.html "cpp/memory/unique ptr/~unique ptr") |  destructs the managed object if such is present   
-(public member function of `std::unique_ptr<T,Deleter>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/unique_ptr/dsc_destructor&action=edit)
+(public member function of `std::unique_ptr<T,Deleter>`) 

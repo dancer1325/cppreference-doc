@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ named requirements](../iterator/concepts.html "cpp/named req")
 
@@ -147,7 +147,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/named_req/navbar_content&action=edit)
+
 
 An **AllocatorAwareContainer** is a [Container](Container.html "cpp/named req/Container") that holds an instance of an [Allocator](Allocator.html "cpp/named req/Allocator") and uses that instance in all its member functions to allocate and deallocate memory and to construct and destroy objects in that memory (such objects may be container elements, nodes, or, for unordered containers, bucket arrays), except that [std::basic_string](../string/basic_string.html "cpp/string/basic string") specializations do not use the allocators for construction/destruction of their elements(since C++23). 
 
@@ -183,7 +183,7 @@ The only exception is [std::basic_string](../string/basic_string.html)<CharT,Tra
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/AllocatorAwareContainer&action=edit&section=1 "Edit section: Requirements")] Requirements
+### Requirements
 
 A type satisfies AllocatorAwareContainer if it satisfies [Container](Container.html "cpp/named req/Container") and, given the following types and values, the semantic and complexity requirements in the tables below are satisfied: 
 
@@ -199,13 +199,13 @@ t |  an lvalue or a const rvalue of type `X`
 rv |  a non-const rvalue of type `X`  
 m |  a value of type `A`  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/AllocatorAwareContainer&action=edit&section=2 "Edit section: Types")] Types
+#### Types
 
 Name  |  Type  | Requirement   
 ---|---|---  
 typename X::allocator_type | `A` | `X::allocator_type::value_type` and `X::value_type` are the same.   
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/AllocatorAwareContainer&action=edit&section=3 "Edit section: Statements")] Statements
+#### Statements
 
 Statement  | Semantics  | Complexity   
 ---|---|---  
@@ -234,7 +234,7 @@ Postcondition  |
 
   
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/AllocatorAwareContainer&action=edit&section=4 "Edit section: Expressions")] Expressions
+#### Expressions
 
 Expression  |  Type  | Semantics  |  Complexity   
 ---|---|---|---  
@@ -246,43 +246,43 @@ Effect  | All existing elements of a are either move assigned to or destroyed.
 Postcondition  | If a and rv do not refer the same object, a is equal to the value that rv had before the assignment.   
 a.swap(b) | void | Effect  | Exchanges the contents of a and b.  | Constant   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/AllocatorAwareContainer&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 AllocatorAwareContainers always call [std::allocator_traits](../memory/allocator_traits.html)<A>::construct(m, p, args) to construct an object of type `T` at p using args, with m == get_allocator(). The default `construct` in [std::allocator](../memory/allocator.html "cpp/memory/allocator") calls ::new((void*)p) T(args)(until C++20)[std::allocator](../memory/allocator.html "cpp/memory/allocator") has no `construct` member and [std::construct_at](../memory/construct_at.html)(p, args) is called when constructing elements(since C++20), but specialized allocators may choose a different definition. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/AllocatorAwareContainer&action=edit&section=6 "Edit section: Standard library")] Standard library
+### Standard library
 
 All standard library string types and containers (except [std::array](../container/array.html "cpp/container/array") and [std::inplace_vector](../container/inplace_vector.html)) are AllocatorAwareContainers: 
 
 [ basic_string](../string/basic_string.html "cpp/string/basic string") |  stores and manipulates sequences of characters   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/dsc_basic_string&action=edit)  
+(class template)   
 ---|---  
 [ deque](../container/deque.html "cpp/container/deque") |  double-ended queue   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_deque&action=edit)  
+(class template)   
 [ forward_list](../container/forward_list.html "cpp/container/forward list")(C++11) |  singly-linked list   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_forward_list&action=edit)  
+(class template)   
 [ list](../container/list.html "cpp/container/list") |  doubly-linked list   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_list&action=edit)  
+(class template)   
 [ vector](../container/vector.html "cpp/container/vector") |  resizable contiguous array   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_vector&action=edit)  
+(class template)   
 [ map](../container/map.html "cpp/container/map") |  collection of key-value pairs, sorted by keys, keys are unique   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_map&action=edit)  
+(class template)   
 [ multimap](../container/multimap.html "cpp/container/multimap") |  collection of key-value pairs, sorted by keys   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_multimap&action=edit)  
+(class template)   
 [ set](../container/set.html "cpp/container/set") |  collection of unique keys, sorted by keys   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_set&action=edit)  
+(class template)   
 [ multiset](../container/multiset.html "cpp/container/multiset") |  collection of keys, sorted by keys   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_multiset&action=edit)  
+(class template)   
 [ unordered_map](../container/unordered_map.html "cpp/container/unordered map")(C++11) |  collection of key-value pairs, hashed by keys, keys are unique   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_unordered_map&action=edit)  
+(class template)   
 [ unordered_multimap](../container/unordered_multimap.html "cpp/container/unordered multimap")(C++11) |  collection of key-value pairs, hashed by keys   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_unordered_multimap&action=edit)  
+(class template)   
 [ unordered_set](../container/unordered_set.html "cpp/container/unordered set")(C++11) |  collection of unique keys, hashed by keys   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_unordered_set&action=edit)  
+(class template)   
 [ unordered_multiset](../container/unordered_multiset.html "cpp/container/unordered multiset")(C++11) |  collection of keys, hashed by keys   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_unordered_multiset&action=edit)  
+(class template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/AllocatorAwareContainer&action=edit&section=7 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

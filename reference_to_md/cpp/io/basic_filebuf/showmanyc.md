@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_filebuf`](../basic_filebuf.html "cpp/io/basic filebuf")
 
@@ -105,7 +105,7 @@ Protected member functions
 Non-member functions  
 [swap(std::basic_filebuf)](swap2.html "cpp/io/basic filebuf/swap2")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_filebuf/navbar_content&action=edit)
+
 
 protected:  
 virtual [std::streamsize](../streamsize.html) showmanyc() |  |  (optional)  
@@ -124,11 +124,11 @@ If implemented, returns the number of characters left to read from the file.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_filebuf/showmanyc&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 The number of characters available for reading from the file, or -1 if the end of file was reached. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_filebuf/showmanyc&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 This function is optional. If not implemented, this function returns ​0​ (since the base class version std::basic_streambuf::showmanyc gets called). 
 
@@ -136,7 +136,7 @@ Whether implemented or not, this function is normally called by std::basic_strea
 
 The name of this function stands for “**s** tream: how many **c** haracters?”, so it is pronounced “**S** how many **C** ", rather than “show many C”. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_filebuf/showmanyc&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 An implementation test to see if `showmanyc()` is implemented for [std::filebuf](../basic_filebuf.html "cpp/io/basic filebuf").
 
@@ -163,10 +163,10 @@ Possible output:
     
     showmanyc() returns 254
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_filebuf/showmanyc&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ in_avail](../basic_streambuf/in_avail.html "cpp/io/basic streambuf/in avail") |  obtains the number of characters immediately available in the get area   
-(public member function of `std::basic_streambuf<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_streambuf/dsc_in_avail&action=edit)  
+(public member function of `std::basic_streambuf<CharT,Traits>`)   
 ---|---  
 [ readsome](../basic_istream/readsome.html "cpp/io/basic istream/readsome") |  extracts already available blocks of characters   
-(public member function of `std::basic_istream<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_istream/dsc_readsome&action=edit)
+(public member function of `std::basic_istream<CharT,Traits>`) 

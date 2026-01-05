@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::flat_multimap`](../flat_multimap.html "cpp/container/flat multimap")
 
@@ -138,7 +138,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/flat multimap/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/flat_multimap/navbar_content&action=edit)
+
 
 template< [container-compatible-range](../../ranges/to.html)<value_type> R >  
 void insert_range( R&& rg ); |  | (since C++23)   
@@ -178,20 +178,20 @@ If any of the following conditions is satisfied, the behavior is undefined:
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/insert_range_assoc&action=edit&section=T-1 "Template:cpp/container/insert range assoc")] Parameters
+### Parameters
 
 rg  |  \-  |  a [container compatible range](../../ranges/to.html#container_compatible_range "cpp/ranges/to"), that is, an [`input_range`](../../ranges/input_range.html "cpp/ranges/input range") whose elements are convertible to `T`  
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/insert_range_assoc&action=edit&section=T-2 "Template:cpp/container/insert range assoc")] Complexity
+### Complexity
 
 \\(\scriptsize S + N \cdot \log(N)\\)S+N·log(N), where \\(\scriptsize S\\)S is size() and \\(\scriptsize N\\)N is [ranges::distance](../../iterator/ranges/distance.html)(rg). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/insert_range_assoc&action=edit&section=T-3 "Template:cpp/container/insert range assoc")] Notes
+### Notes
 
 Since `insert_range` performs an in-place merge operation, that may allocate memory. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/insert_range_assoc&action=edit&section=T-4 "Template:cpp/container/insert range assoc")] Example
+### Example
 
 Run this code
     
@@ -224,8 +224,8 @@ Output:
     
     {-2,-22} {-1,-11} {1,11} {2,22} {3,33} {3,-33} {4,44}
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/insert_range_assoc&action=edit&section=T-5 "Template:cpp/container/insert range assoc")] See also
+### See also
 
 [ insert](insert.html "cpp/container/flat multimap/insert") |  inserts elements   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_insert&action=edit)  
+(public member function)   
 ---|---

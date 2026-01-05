@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_streambuf`](../basic_streambuf.html "cpp/io/basic streambuf")
 
@@ -152,7 +152,7 @@ Put area
 Putback  
 [basic_streambuf::pbackfail](pbackfail.html "cpp/io/basic streambuf/pbackfail")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_streambuf/navbar_content&action=edit)
+
 
 [std::streamsize](../streamsize.html) sgetn( char_type* s, [std::streamsize](../streamsize.html) count ); |  (1)  |   
 ---|---|---  
@@ -177,28 +177,28 @@ Classes derived from `std::basic_streambuf` are permitted to provide more effici
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_streambuf/sgetn&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 s  |  \-  |  pointer to the beginning of a char_type array   
 ---|---|---  
 count  |  \-  |  maximum number of characters to read.   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_streambuf/sgetn&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The number of characters successfully read. If it is less than `count` the input sequence has reached the end. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_streambuf/sgetn&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 The rule about "more efficient implementations" permits bulk I/O without intermediate buffering: that's how [std::ifstream::read](../basic_istream/read.html "cpp/io/basic istream/read") simply passes the pointer to the POSIX `read()` system call in some implementations of iostreams 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_streambuf/sgetn&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_streambuf/sgetn&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ sputn](sputn.html "cpp/io/basic streambuf/sputn") |  invokes xsputn()   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_streambuf/dsc_sputn&action=edit)  
+(public member function)   
 ---|---

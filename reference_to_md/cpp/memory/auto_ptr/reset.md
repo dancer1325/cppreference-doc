@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::auto_ptr`](../auto_ptr.html "cpp/memory/auto ptr")
 
@@ -199,7 +199,7 @@ Member functions
 **auto_ptr::reset**  
 [auto_ptr::operator auto_ptr<Y>auto_ptr::operator auto_ptr_ref<Y>](operator_auto_ptr.html "cpp/memory/auto ptr/operator auto ptr")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/auto_ptr/navbar_content&action=edit)
+
 
 void reset( T* p = 0 ) throw(); |  |  (deprecated in C++11)   
 (removed in C++17)  
@@ -208,17 +208,17 @@ void reset( T* p = 0 ) throw(); |  |  (deprecated in C++11)
   
 Replaces the held pointer by p. If the currently held pointer is not null pointer, delete get() is called. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/auto_ptr/reset&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 p  |  \-  |  a pointer to an object to manage   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/auto_ptr/reset&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/auto_ptr/reset&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ release](release.html "cpp/memory/auto ptr/release") |  releases ownership of the managed object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/auto_ptr/dsc_release&action=edit)  
+(public member function)   
 ---|---

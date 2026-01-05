@@ -429,17 +429,17 @@ Output:
 
 | (since C++23)  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operators&action=edit&section=13 "Edit section: Bitwise arithmetic operators")] Bitwise arithmetic operators
+#### Bitwise arithmetic operators
 
 User-defined classes and enumerations that implement the requirements of [BitmaskType](../named_req/BitmaskType.html "cpp/named req/BitmaskType") are required to overload the bitwise arithmetic operators operator&, operator|, operator^, operator~, operator&=, operator|=, and operator^=, and may optionally overload the shift operators operator<< operator>>, operator>>=, and operator<<=. The canonical implementations usually follow the pattern for binary arithmetic operators described above. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operators&action=edit&section=14 "Edit section: Boolean negation operator")] Boolean negation operator
+#### Boolean negation operator
 
 The operator operator! is commonly overloaded by the user-defined classes that are intended to be used in boolean contexts. Such classes also provide a user-defined conversion function to boolean type (see [std::basic_ios](../io/basic_ios.html "cpp/io/basic ios") for the standard library example), and the expected behavior of operator! is to return the value opposite of operator bool.  | (until C++11)  
 ---|---  
 Since the built-in operator ! performs [contextual conversion to bool](implicit_cast.html#Contextual_conversions "cpp/language/implicit conversion"), user-defined classes that are intended to be used in boolean contexts could provide only operator bool and need not overload operator!.  | (since C++11)  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operators&action=edit&section=15 "Edit section: Rarely overloaded operators")] Rarely overloaded operators
+#### Rarely overloaded operators
 
 The following operators are rarely overloaded: 
 
@@ -450,18 +450,18 @@ The following operators are rarely overloaded:
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operators&action=edit&section=16 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../utility/feature_test.html "cpp/utility/feature test") macro  | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_static_call_operator`](../experimental/feature_test.html#cpp_static_call_operator "cpp/feature test") | [`202207L`](../compiler_support/23.html#cpp_static_call_operator_202207L "cpp/compiler support/23") | (C++23) | static operator()  
 [`__cpp_multidimensional_subscript`](../experimental/feature_test.html#cpp_multidimensional_subscript "cpp/feature test") | [`202211L`](../compiler_support/23.html#cpp_multidimensional_subscript_202211L "cpp/compiler support/23") | (C++23) | static operator[]  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operators&action=edit&section=17 "Edit section: Keywords")] Keywords
+### Keywords
 
 [`operator`](../keyword/operator.html "cpp/keyword/operator")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operators&action=edit&section=19 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -472,7 +472,7 @@ of class type, enumeration type, or a reference type to such types  | no type re
 [CWG 2931](https://cplusplus.github.io/CWG/issues/2931.html) | C++23  | explicit object member operator functions could only have no parameter  
 of class type, enumeration type, or a reference type to such types  | prohibited   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operators&action=edit&section=20 "Edit section: See also")] See also
+### See also
 
   * [Operator precedence](operator_precedence.html "cpp/language/operator precedence")
   * [Alternative operator syntax](operator_alternative.html "cpp/language/operator alternative")

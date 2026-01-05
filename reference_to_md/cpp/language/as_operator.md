@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Classes](classes.html "cpp/language/classes")
 
@@ -261,7 +261,7 @@ Inheritance
 [`override` specifier](override.html "cpp/language/override") (C++11)  
 [`final` specifier](final.html "cpp/language/final") (C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/classes/navbar_content&action=edit)
+
 
 A copy assignment operator is a non-template [non-static member function](member_functions.html "cpp/language/member functions") with the name operator= that can be called with an argument of the same class type and copies the content of the argument without mutating the argument. 
 
@@ -282,7 +282,7 @@ A copy assignment operator is a non-template [non-static member function](member
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/copy_assignment&action=edit&section=1 "Edit section: Syntax")] Syntax
+### Syntax
 
 For the formal copy assignment operator syntax, see [function declaration](function.html "cpp/language/function"). The syntax list below only demonstrates a subset of all valid copy assignment operator syntaxes.   
   
@@ -300,7 +300,7 @@ parameter-list-no-default |  \-  |  a [parameter list](function.html#Parameter_l
 function-body |  \-  |  the [function body](initializer_list.html "cpp/language/constructor") of the copy assignment operator   
 return-type |  \-  |  any type, but `T&` is favored in order to allow chaining asssignments   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/copy_assignment&action=edit&section=2 "Edit section: Explanation")] Explanation
+### Explanation
 
 1) Declaration of a copy assignment operator inside of class definition.
 
@@ -334,7 +334,7 @@ return-type |  \-  |  any type, but `T&` is favored in order to allow chaining a
 
 The copy assignment operator is called whenever selected by [overload resolution](overload_resolution.html "cpp/language/overload resolution"), e.g. when an object appears on the left side of an assignment expression. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/copy_assignment&action=edit&section=3 "Edit section: Implicitly-declared copy assignment operator")] Implicitly-declared copy assignment operator
+### Implicitly-declared copy assignment operator
 
 If no user-defined copy assignment operators are provided for a class type, the compiler will always declare one as an inline public member of the class. This implicitly-declared copy assignment operator has the form T& T::operator=(const T&) if all of the following is true: 
 
@@ -353,7 +353,7 @@ The implicitly-declared (or defaulted on its first declaration) copy assignment 
 
 Because the copy assignment operator is always declared for any class, the base class assignment operator is always hidden. If a [using-declaration](using_declaration.html#In_class_definition "cpp/language/using declaration") is used to bring in the assignment operator from the base class, and its argument type could be the same as the argument type of the implicit assignment operator of the derived class, the using-declaration is also hidden by the implicit declaration. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/copy_assignment&action=edit&section=4 "Edit section: Implicitly-defined copy assignment operator")] Implicitly-defined copy assignment operator
+### Implicitly-defined copy assignment operator
 
 If the implicitly-declared copy assignment operator is neither deleted nor trivial, it is defined (that is, a function body is generated and compiled) by the compiler if [odr-used](definition.html#ODR-use "cpp/language/definition") or [needed for constant evaluation](constant_expression.html#Functions_and_variables_needed_for_constant_evaluation "cpp/language/constant expression")(since C++14). For union types, the implicitly-defined copy assignment copies the object representation (as by [std::memmove](../string/byte/memmove.html "cpp/string/byte/memmove")). For non-union class types, the operator performs member-wise copy assignment of the object's direct bases and non-static data members, in their initialization order, using built-in assignment for the scalars, memberwise copy-assignment for arrays, and copy assignment operator for class types (called non-virtually). 
 
@@ -374,7 +374,7 @@ The implicitly-defined copy assignment operator for a class `T` is [`constexpr`]
 The generation of the implicitly-defined copy assignment operator is deprecated if `T` has a user-declared destructor or user-declared copy constructor.  | (since C++11)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/copy_assignment&action=edit&section=5 "Edit section: Deleted copy assignment operator")] Deleted copy assignment operator
+### Deleted copy assignment operator
 
 An implicitly-declared or explicitly-defaulted(since C++11) copy assignment operator for class `T` is undefined(until C++11)defined as deleted(since C++11) if any of the following conditions is satisfied: 
 
@@ -393,7 +393,7 @@ An implicitly-declared or explicitly-defaulted(since C++11) copy assignment oper
 The implicitly-declared copy assignment operator for class `T` is defined as deleted if `T` declares a [move constructor](move_constructor.html "cpp/language/move constructor") or [move assignment operator](move_operator.html "cpp/language/move assignment").  | (since C++11)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/copy_assignment&action=edit&section=6 "Edit section: Trivial copy assignment operator")] Trivial copy assignment operator
+### Trivial copy assignment operator
 
 The copy assignment operator for class `T` is trivial if all of the following is true: 
 
@@ -407,7 +407,7 @@ The copy assignment operator for class `T` is trivial if all of the following is
 
 A trivial copy assignment operator makes a copy of the object representation as if by [std::memmove](../string/byte/memmove.html "cpp/string/byte/memmove"). All data types compatible with the C language (POD types) are trivially copy-assignable. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/copy_assignment&action=edit&section=7 "Edit section: Eligible copy assignment operator")] Eligible copy assignment operator
+### Eligible copy assignment operator
 
 A copy assignment operator is eligible if it is either user-declared or both implicitly-declared and definable.  | (until C++11)  
 ---|---  
@@ -423,7 +423,7 @@ A copy assignment operator is eligible if all following conditions are satisfied
   
 Triviality of eligible copy assignment operators determines whether the class is a [trivially copyable type](../named_req/TriviallyCopyable.html "cpp/named req/TriviallyCopyable"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/copy_assignment&action=edit&section=8 "Edit section: Notes")] Notes
+### Notes
 
 If both copy and move assignment operators are provided, overload resolution selects the move assignment if the argument is an [rvalue](value_category.html "cpp/language/value category") (either a [prvalue](value_category.html "cpp/language/value category") such as a nameless temporary or an [xvalue](value_category.html "cpp/language/value category") such as the result of [`std::move`](../utility/move.html "cpp/utility/move")), and selects the copy assignment if the argument is an [lvalue](value_category.html "cpp/language/value category") (named object or a function/operator returning lvalue reference). If only the copy assignment is provided, all argument categories select it (as long as it takes its argument by value or as reference to const, since rvalues can bind to const references), which makes copy assignment the fallback for move assignment, when move is unavailable. 
 
@@ -431,7 +431,7 @@ It is unspecified whether virtual base class subobjects that are accessible thro
 
 See [assignment operator overloading](operators.html#Assignment_operator "cpp/language/operators") for additional detail on the expected behavior of a user-defined copy-assignment operator. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/copy_assignment&action=edit&section=9 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -509,7 +509,7 @@ Output:
     b1 = b2 calls copy assignment of A
     b1.s1 = foo; b1.s2 = bar
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/copy_assignment&action=edit&section=10 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -528,7 +528,7 @@ is another copy assignment operator which is more
 constrained but does not satisfy its associated constraints  | it can be eligible  
 in this case   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/copy_assignment&action=edit&section=11 "Edit section: See also")] See also
+### See also
 
   * [converting constructor](converting_constructor.html "cpp/language/converting constructor")
   * [copy constructor](copy_constructor.html "cpp/language/copy constructor")

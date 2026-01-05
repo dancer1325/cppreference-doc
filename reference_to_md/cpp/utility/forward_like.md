@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 Defined in header `[<utility>](../header/utility.html "cpp/header/utility")` |  |   
 ---|---|---  
@@ -159,16 +159,16 @@ If `T` is not a [referenceable type](../meta.html#Definitions "cpp/meta"), the p
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/forward_like&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 x  |  \-  |  a value needs to be forwarded like type `T`  
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/forward_like&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 A reference to x of the type determined as above. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/forward_like&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Like [std::forward](forward.html "cpp/utility/forward"), [`std::move`](move.html "cpp/utility/move"), and [std::as_const](as_const.html "cpp/utility/as const"), `std::forward_like` is a type cast that only influences the [value category](../language/value_category.html "cpp/language/value category") of an expression, or potentially adds const-qualification. 
 
@@ -188,7 +188,7 @@ The main scenario that `std::forward_like` caters to is adapting “far” objec
 ---|---|---|---  
 [`__cpp_lib_forward_like`](../experimental/feature_test.html#cpp_lib_forward_like "cpp/feature test") | [`202207L`](../compiler_support/23.html#cpp_lib_forward_like_202207L "cpp/compiler support/23") | (C++23) | [`std::forward_like`](forward_like.html#Top)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/forward_like&action=edit&section=4 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     template<class T, class U>
@@ -213,7 +213,7 @@ The main scenario that `std::forward_like` caters to is adapting “far” objec
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/forward_like&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -332,14 +332,14 @@ Output:
     const rvalue
     const rvalue
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/forward_like&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ move](move.html "cpp/utility/move")(C++11) |  converts the argument to an xvalue   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_move&action=edit)  
+(function template)   
 ---|---  
 [ forward](forward.html "cpp/utility/forward")(C++11) |  forwards a function argument and use the type template argument to preserve its value category   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_forward&action=edit)  
+(function template)   
 [ as_const](as_const.html "cpp/utility/as const")(C++17) |  obtains a reference to const to its argument   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_as_const&action=edit)
+(function template) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

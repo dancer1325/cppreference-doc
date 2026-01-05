@@ -30,7 +30,7 @@
 [Symbols index](symbol_index.html "cpp/symbol index")  
 [External libraries](links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 **Strings library**
 
@@ -40,7 +40,7 @@ Classes
 [basic_string_view](string/basic_string_view.html "cpp/string/basic string view")(C++17)  
 [char_traits](string/char_traits.html "cpp/string/char traits")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/navbar_content&action=edit)
+
 
 ## Contents
 
@@ -56,7 +56,7 @@ Classes
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string&action=edit&section=1 "Edit section: Characters")] Characters
+### Characters
 
 In the C++ standard library, a _character_ is an object which, when treated sequentially, can represent text. 
 
@@ -81,11 +81,11 @@ Therefore, characters are also referred as _char-like objects_ in the strings li
 
 Some standard library components accept _character container types_. They, too, are types used to represent individual characters. Such types are used for one of the template arguments of [std::char_traits](string/char_traits.html "cpp/string/char traits") and the class templates which use [std::char_traits](string/char_traits.html "cpp/string/char traits"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string&action=edit&section=2 "Edit section: Library components")] Library components
+### Library components
 
 The C++ strings library includes the following components: 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string&action=edit&section=3 "Edit section: Character traits")] Character traits
+#### Character traits
 
 Many character-related class templates (such as [std::basic_string](string/basic_string.html "cpp/string/basic string")) need a set of related types and functions to complete the definition of their semantics. These types and functions are provided as a set of member typedef names and functions in the template parameter `Traits` used by each such template. The classes which are able to complete those semantics are [CharTraits](named_req/CharTraits.html "cpp/named req/CharTraits"). 
 
@@ -104,7 +104,7 @@ template<> class char_traits<char32_t>; |  |  (since C++11)
   
 When a user-defined character container type for [std::basic_string](string/basic_string.html "cpp/string/basic string") and [std::basic_string_view](string/basic_string_view.html "cpp/string/basic string view")(since C++17) is used, it is also necessary to provide a corresponding character trait class (which can be a specialization of [std::char_traits](string/char_traits.html "cpp/string/char traits")). 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string&action=edit&section=4 "Edit section: String classes \(std::string etc.\)")] String classes ([std::string](string/basic_string.html "cpp/string/basic string") etc.)
+#### String classes ([std::string](string/basic_string.html "cpp/string/basic string") etc.)
 
 The class template [std::basic_string](string/basic_string.html "cpp/string/basic string") generalizes how sequences of characters are manipulated and stored. String creation, manipulation, and destruction are all handled by a convenient set of class methods and related functions. 
 
@@ -119,7 +119,7 @@ Type  |  Definition
 `**std::u16string**` (since C++11) |  [std::basic_string](string/basic_string.html)<char16_t>  
 `**std::u32string**` (since C++11) |  [std::basic_string](string/basic_string.html)<char32_t>  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string&action=edit&section=5 "Edit section: String view classes \(std::string view etc.\) \(since C++17\)")] String view classes ([std::string_view](string/basic_string_view.html "cpp/string/basic string view") etc.) (since C++17)
+#### String view classes ([std::string_view](string/basic_string_view.html "cpp/string/basic string view") etc.) (since C++17)
 
 The class template [std::basic_string_view](string/basic_string_view.html "cpp/string/basic string view") provides a lightweight object that offers read-only access to a string or a part of a string using an interface similar to the interface of [std::basic_string](string/basic_string.html "cpp/string/basic string"). 
 
@@ -134,11 +134,11 @@ Type  |  Definition
 `**std::u16string_view**` |  [std::basic_string_view](string/basic_string_view.html)<char16_t>  
 `**std::u32string_view**` |  [std::basic_string_view](string/basic_string_view.html)<char32_t>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string&action=edit&section=6 "Edit section: Relevant libraries")] Relevant libraries
+### Relevant libraries
 
 The [text processing library](text.html "cpp/text") provides support for localizations, string conversions (e.g. [`std::toupper`](locale/toupper.html "cpp/locale/toupper")), character classification functions (e.g. [`std::isspace`](locale/isspace.html "cpp/locale/isspace")), and text encoding recognition ([`std::text_encoding`](locale/text_encoding.html "cpp/text/text encoding")). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string&action=edit&section=7 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -146,7 +146,7 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 1170](https://cplusplus.github.io/LWG/issue1170) | C++98  | char-like types could be array types  | prohibited   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [C documentation](../c/string.html "c/string") for Strings library  
 ---

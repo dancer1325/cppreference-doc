@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::shared_ptr`](../shared_ptr.html "cpp/memory/shared ptr")
 
@@ -220,7 +220,7 @@ Helper classes
 [hash<std::shared_ptr>](hash.html "cpp/memory/shared ptr/hash")  
 [Deduction guides](deduction_guides.html "cpp/memory/shared ptr/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/navbar_content&action=edit)
+
 
 explicit operator bool() const noexcept; |  |   
 ---|---|---  
@@ -239,19 +239,19 @@ Checks if *this stores a non-null pointer, i.e. whether get() != nullptr.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/operator_bool&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/operator_bool&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 true if *this stores a pointer, false otherwise. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/operator_bool&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 An empty shared_ptr (where use_count() == 0) may store a non-null pointer accessible by [get()](get.html "cpp/memory/shared ptr/get"), e.g. if it were created using the aliasing constructor. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/operator_bool&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -282,8 +282,8 @@ Output:
     ptr is not a valid pointer.
     *ptr=7
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/operator_bool&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ get](get.html "cpp/memory/shared ptr/get") |  returns the stored pointer   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/dsc_get&action=edit)  
+(public member function)   
 ---|---

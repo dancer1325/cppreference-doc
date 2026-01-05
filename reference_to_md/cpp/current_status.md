@@ -30,7 +30,7 @@
 [Symbols index](symbol_index.html "cpp/symbol index")  
 [External libraries](links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Versions](../cpp.html "cpp")
 
@@ -45,7 +45,7 @@ C++03
 [C++26](26.html "cpp/26")  
 **Current status**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/version/navbar_content&action=edit)
+
 
 **Recent milestones: C++23 published, C++26 underway.**
 
@@ -55,7 +55,7 @@ Starting in 2012, the committee has transitioned to a "decoupled" model where ma
 
 You can also visit [open-std.org](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/) to get the latest C++ standards committee papers. Reading through those proposals, you can track the C++ developing trends and know how does a cool idea turned into the standard. However, those papers **ARE NOT** and also **SHOULD NOT BE TREATED AS** the standard documents. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/current_status&action=edit&section=1 "Edit section: See also")] See also
+### See also
 
 [C documentation](../c/current_status.html "c/current status") for Current status  
 ---

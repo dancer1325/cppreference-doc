@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Expressions](expressions.html "cpp/language/expressions")
 
@@ -289,7 +289,7 @@ Conversions
 [`dynamic_cast`](dynamic_cast.html "cpp/language/dynamic cast")  
 [`reinterpret_cast`](reinterpret_cast.html "cpp/language/reinterpret cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/expressions/navbar_content&action=edit)
+
 
 Queries alignment requirements of a type. 
 
@@ -307,28 +307,28 @@ Queries alignment requirements of a type.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/alignof&action=edit&section=1 "Edit section: Syntax")] Syntax  
+### Syntax  
   
 ---  
 `**alignof(**` type-id `**)**` |  |   
   
 Returns a value of type [std::size_t](../types/size_t.html "cpp/types/size t"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/alignof&action=edit&section=2 "Edit section: Explanation")] Explanation
+### Explanation
 
 Returns [the alignment](objects.html#Alignment "cpp/language/object"), in bytes, required for any instance of the type indicated by [type-id](type-id.html#Type_naming "cpp/language/type"), which is either [complete](type-id.html#Incomplete_type "cpp/language/type") object type, an array type whose element type is complete, or a reference type to one of those types. 
 
 If the type is reference type, the operator returns the alignment of referenced type; if the type is array type, alignment requirement of the element type is returned. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/alignof&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 See [alignment](objects.html#Alignment "cpp/language/object") for the meaning and properties of the value returned by `alignof`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/alignof&action=edit&section=4 "Edit section: Keywords")] Keywords
+### Keywords
 
 [`alignof`](../keyword/alignof.html "cpp/keyword/alignof")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/alignof&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -375,7 +375,7 @@ Possible output:
     alignof(Empty) = 1
     alignof(Empty64) = 64
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/alignof&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -384,7 +384,7 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [CWG 1305](https://cplusplus.github.io/CWG/issues/1305.html) | C++11  | type-id could not represent a reference to an array  
 with an unknown bound but a complete element type  | allowed   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/alignof&action=edit&section=7 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -436,12 +436,12 @@ with an unknown bound but a complete element type  | allowed
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/alignof&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [Alignment requirement](objects.html#Alignment "cpp/language/object") |  restricts the addresses at which an object may be allocated   
 ---|---  
 `**[alignas](alignas.html "cpp/language/alignas")**` (C++11) |  specifies that the storage for the variable should be aligned by specific amount  
-(specifier)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_alignas&action=edit)  
+(specifier)  
 [ alignment_of](../types/alignment_of.html "cpp/types/alignment of")(C++11) |  obtains the type's alignment requirements   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_alignment_of&action=edit)  
+(class template)   
 [C documentation](../../c/language/alignof.html "c/language/ Alignof") for `_Alignof`, `alignof` operator

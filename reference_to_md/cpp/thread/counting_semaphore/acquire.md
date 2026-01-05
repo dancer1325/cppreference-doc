@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::counting_semaphore`](../counting_semaphore.html "cpp/thread/counting semaphore")
 
@@ -190,7 +190,7 @@ Operations
 Constants  
 [counting_semaphore::max](max.html "cpp/thread/counting semaphore/max")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/counting_semaphore/navbar_content&action=edit)
+
 
 void acquire(); |  |  (since C++20)  
 ---|---|---  
@@ -209,19 +209,19 @@ Atomically decrements the internal counter by 1 if it is greater than ​0​; o
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/counting_semaphore/acquire&action=edit&section=1 "Edit section: Preconditions")] Preconditions
+### Preconditions
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/counting_semaphore/acquire&action=edit&section=2 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/counting_semaphore/acquire&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 May throw [std::system_error](../../error/system_error.html "cpp/error/system error"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/counting_semaphore/acquire&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 The example visualizes a concurrent work of several randomized threads when no more than N (N is the semaphore _desired_ value) of the thread-functions are active, while the other might wait on the semaphore.
 
@@ -371,14 +371,14 @@ Possible output:
     # 8 ░░░░░░░░░░░░░░░░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒██████
     # 9 ░░░░░░░░░░░░░░░░░░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒██████████████
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/counting_semaphore/acquire&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ release](release.html "cpp/thread/counting semaphore/release") |  increments the internal counter and unblocks acquirers   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/counting_semaphore/dsc_release&action=edit)  
+(public member function)   
 ---|---  
 [ try_acquire](try_acquire.html "cpp/thread/counting semaphore/try acquire") |  tries to decrement the internal counter without blocking   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/counting_semaphore/dsc_try_acquire&action=edit)  
+(public member function)   
 [ try_acquire_for](try_acquire_for.html "cpp/thread/counting semaphore/try acquire for") |  tries to decrement the internal counter, blocking for up to a duration time   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/counting_semaphore/dsc_try_acquire_for&action=edit)  
+(public member function)   
 [ try_acquire_until](try_acquire_until.html "cpp/thread/counting semaphore/try acquire until") |  tries to decrement the internal counter, blocking until a point in time   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/counting_semaphore/dsc_try_acquire_until&action=edit)
+(public member function) 

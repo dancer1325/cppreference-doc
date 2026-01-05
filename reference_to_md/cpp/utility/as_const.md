@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 Defined in header `[<utility>](../header/utility.html "cpp/header/utility")` |  |   
 ---|---|---  
@@ -152,7 +152,7 @@ void as_const( const T&& ) = delete; |  (2)  |  (since C++17)
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/as_const&action=edit&section=1 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     template<class T>
@@ -163,13 +163,13 @@ void as_const( const T&& ) = delete; |  (2)  |  (since C++17)
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/as_const&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](feature_test.html "cpp/utility/feature test") macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_as_const`](../experimental/feature_test.html#cpp_lib_as_const "cpp/feature test") | [`201510L`](../compiler_support/17.html#cpp_lib_as_const_201510L "cpp/compiler support/17") | (C++17) | [`std::as_const`](as_const.html#Top)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/as_const&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -199,16 +199,16 @@ Run this code
                       "ExprType shouldn't be a mutable string.");
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/as_const&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ is_const](../types/is_const.html "cpp/types/is const")(C++11) |  checks if a type is const-qualified   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_const&action=edit)  
+(class template)   
 ---|---  
 [ add_cvadd_constadd_volatile](../types/add_cv.html "cpp/types/add cv")(C++11)(C++11)(C++11) |  adds const and/or volatile specifiers to the given type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_add_cv&action=edit)  
+(class template)   
 [ remove_cvremove_constremove_volatile](../types/remove_cv.html "cpp/types/remove cv")(C++11)(C++11)(C++11) |  removes const and/or volatile specifiers from the given type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_remove_cv&action=edit)  
+(class template)   
 [ ranges::as_const_viewviews::as_const](../ranges/as_const_view.html "cpp/ranges/as const view")(C++23) |  converts a [`view`](../ranges/view.html "cpp/ranges/view") into a [`constant_range`](../ranges/constant_range.html "cpp/ranges/constant range")  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_as_const_view&action=edit)
+(class template) (range adaptor object)
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

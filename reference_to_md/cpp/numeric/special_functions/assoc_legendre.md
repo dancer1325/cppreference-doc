@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [Mathematical special functions](../special_math.html "cpp/numeric/special functions")
 
@@ -118,7 +118,7 @@
 [sph_legendresph_legendrefsph_legendrel](sph_legendre.html "cpp/numeric/special functions/sph legendre")  
 [sph_neumannsph_neumannfsph_neumannl](sph_neumann.html "cpp/numeric/special functions/sph neumann")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/special_functions/navbar_content&action=edit)
+
 
 Defined in header `[<cmath>](../../header/cmath.html "cpp/header/cmath")` |  |   
 ---|---|---  
@@ -154,14 +154,14 @@ A) Additional overloads are provided for all integer types, which are treated as
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/special_functions/assoc_legendre&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 n  |  \-  |  the degree of the polynomial, an unsigned integer value   
 ---|---|---  
 m  |  \-  |  the order of the polynomial, an unsigned integer value   
 x  |  \-  |  the argument, a floating-point or integer value   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/special_functions/assoc_legendre&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 If no errors occur, value of the associated Legendre polynomial \\(\mathsf{P}_n^m\\)Pm  
 n of x, that is \\((1 - x^2) ^ {m/2} \: \frac{ \mathsf{d} ^ m}{ \mathsf{d}x ^ m} \, \mathsf{P}_n(x)\\)(1-x2  
@@ -176,7 +176,7 @@ Pn(x), is returned (where \\(\mathsf{P}_n(x)\\)Pn(x) is the unassociated Legendr
 Note that the [Condon-Shortley phase term](https://mathworld.wolfram.com/Condon-ShortleyPhase.html) \\((-1)^m\\)(-1)m  
 is omitted from this definition. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/special_functions/assoc_legendre&action=edit&section=3 "Edit section: Error handling")] Error handling
+### Error handling
 
 Errors may be reported as specified in [math_errhandling](../math/math_errhandling.html "cpp/numeric/math/math errhandling")
 
@@ -186,7 +186,7 @@ Errors may be reported as specified in [math_errhandling](../math/math_errhandli
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/special_functions/assoc_legendre&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 Implementations that do not support C++17, but support [ISO 29124:2010](../../experimental/special_math.html "cpp/experimental/special math"), provide this function if `__STDCPP_MATH_SPEC_FUNCS__` is defined by the implementation to a value at least 201003L and if the user defines `__STDCPP_WANT_MATH_SPEC_FUNCS__` before including any standard library headers. 
 
@@ -216,7 +216,7 @@ assoc_legendre(2, 2, x) |  3(1 - x2
   
 The additional overloads are not required to be provided exactly as (A). They only need to be sufficient to ensure that for their argument num of integer type, std::assoc_legendre(int_num1, int_num2, num) has the same effect as std::assoc_legendre(int_num1, int_num2, static_cast<double>(num)). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/special_functions/assoc_legendre&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -254,13 +254,13 @@ Output:
     1.29904=1.29904
     2.25=2.25
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/special_functions/assoc_legendre&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ legendrelegendreflegendrel](legendre.html "cpp/numeric/special functions/legendre")(C++17)(C++17)(C++17) |  Legendre polynomials   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/special_functions/dsc_legendre&action=edit)  
+(function)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/special_functions/assoc_legendre&action=edit&section=7 "Edit section: External links")] External links
+### External links
 
 [Weisstein, Eric W. "Associated Legendre Polynomial."](https://mathworld.wolfram.com/AssociatedLegendrePolynomial.html) From MathWorld — A Wolfram Web Resource.   
 ---

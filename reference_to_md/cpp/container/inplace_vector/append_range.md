@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::inplace_vector`](../inplace_vector.html "cpp/container/inplace vector")
 
@@ -134,7 +134,7 @@ Tables
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/inplace_vector/navbar_content&action=edit)
+
 
 template< [container-compatible-range](../../ranges/to.html)<T> R >  
 constexpr void append_range( R&& rg ); |  | (since C++26)  
@@ -159,22 +159,22 @@ Each iterator in rg is dereferenced exactly once.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/append_range&action=edit&section=T-1 "Template:cpp/container/append range")] Parameters
+### Parameters
 
 rg  |  \-  |  a [container compatible range](../../ranges/to.html#container_compatible_range "cpp/ranges/to"), that is, an [`input_range`](../../ranges/input_range.html "cpp/ranges/input range") whose elements are convertible to `T`  
 ---|---|---  
 Type requirements   
 -If `T` is not [EmplaceConstructible](../../named_req/EmplaceConstructible.html "cpp/named req/EmplaceConstructible") into `inplace_vector` from *[ranges::begin](../../ranges/begin.html)(rg), the behavior is undefined.   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/append_range&action=edit&section=T-2 "Template:cpp/container/append range")] Complexity
+### Complexity
 
 Linear in size of rg. The number of calls to the constructor of `T` is exactly equal to the std::[ranges::size](../../ranges/size.html)(rg)). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/append_range&action=edit&section=T-3 "Template:cpp/container/append range")] Exceptions
+### Exceptions
 
 Throws [std::bad_alloc](../../memory/new/bad_alloc.html "cpp/memory/new/bad alloc") if std::[ranges::size](../../ranges/size.html)(rg) > N. If an exception is thrown other than by the copy constructor, move constructor, assignment operator, or move assignment operator of `T` or by any `InputIterator` operation, there are no effects. Otherwise, if an exception is thrown, then size() >= n and elements in the range `[`​0​`, `n`)` are not modified, where `n` is the value of [`size()`](size.html "cpp/container/inplace vector/size") before this call. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/append_range&action=edit&section=T-5 "Template:cpp/container/append range")] Example
+### Example
 
 Run this code
     
@@ -207,7 +207,7 @@ Output:
     
     std::bad_alloc
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/append_range&action=edit&section=T-6 "Template:cpp/container/append range")] See also
+### See also
 
 [ try_append_range](try_append_range.html "cpp/container/inplace vector/try append range") |  tries to add a range of elements to the end   
 (public member function)  

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::tai_clock`](../tai_clock.html "cpp/chrono/tai clock")
 
@@ -115,7 +115,7 @@ Time point I/O
 [formatter<std::chrono::tai_time>](formatter.html "cpp/chrono/tai clock/formatter")  
 [from_stream](from_stream.html "cpp/chrono/tai clock/from stream")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/tai_clock/navbar_content&action=edit)
+
 
 template< class Duration >  
 static [std::chrono::tai_time](../tai_clock.html)<[std::common_type_t](../../types/common_type.html)<Duration, [std::chrono::seconds](../duration.html)>>  
@@ -125,14 +125,14 @@ from_utc( const [std::chrono::utc_time](../utc_clock.html)<Duration>& ) noexcept
   
 Converts the `utc_time` t to a `tai_time` representing the same point in time. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/tai_clock/from_utc&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 A std::chrono::tai_time representing the same point in time as t, computed as if by constructing a value of the return type from t.time_since_epoch() and adding 378691210s (378691210 is the number of seconds between the epochs of the two clocks: 1958-01-01 00:00:00 TAI and 1970-01-01 00:00:00 UTC). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/tai_clock/from_utc&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ to_utc](to_utc.html "cpp/chrono/tai clock/to utc")[static] |  converts `tai_time` to `utc_time`   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/tai_clock/dsc_to_utc&action=edit)  
+(public static member function)   
 ---|---  
 [ clock_cast](../clock_cast.html "cpp/chrono/clock cast")(C++20) |  convert time points of one clock to another   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_clock_cast&action=edit)
+(function template) 

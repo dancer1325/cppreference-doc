@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Function objects](../../../functional.html "cpp/utility/functional")
 
@@ -255,7 +255,7 @@ Identity function object
 [unary_negate](../unary_negate.html "cpp/utility/functional/unary negate")(until C++20*)  
 [binary_negate](../binary_negate.html "cpp/utility/functional/binary negate")(until C++20*)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/navbar_content&action=edit)
+
 
 [`std::function`](../function.html "cpp/utility/functional/function")
 
@@ -277,7 +277,7 @@ Identity function object
 [uses_allocator<std::function>](uses_allocator.html "cpp/utility/functional/function/uses allocator")(until C++17)  
 [Deduction guides](deduction_guides.html "cpp/utility/functional/function/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/function/navbar_content&action=edit)
+
 
 template< class T >   
 T* target() noexcept; |  (1)  |  (since C++11)  
@@ -299,15 +299,15 @@ Returns a pointer to the stored callable function target.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/function/target&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/function/target&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 A pointer to the stored function if target_type() == typeid(T), otherwise a null pointer. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/function/target&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -348,7 +348,7 @@ Output:
     test function: it is the function f
     test function: it is the function g
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/function/target&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -356,8 +356,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 2591](https://cplusplus.github.io/LWG/issue2591) | C++11  | the behavior is undefined if `T` is not [Callable](../../../named_req/Callable.html "cpp/named req/Callable") | behavior is defined (always returns `nullptr`)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/function/target&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ target_type](target_type.html "cpp/utility/functional/function/target type") |  obtains the typeid of the stored target   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/function/dsc_target_type&action=edit)  
+(public member function)   
 ---|---

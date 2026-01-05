@@ -29,38 +29,38 @@
 #####  Integral powers of 2  
   
 [ has_single_bit](../numeric/has_single_bit.html "cpp/numeric/has single bit")(C++20) |  checks if a number is an integral power of 2   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/dsc_has_single_bit&action=edit)  
+(function template)   
 [ bit_ceil](../numeric/bit_ceil.html "cpp/numeric/bit ceil")(C++20) |  finds the smallest integral power of 2 not less than the given value   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/dsc_bit_ceil&action=edit)  
+(function template)   
 [ bit_floor](../numeric/bit_floor.html "cpp/numeric/bit floor")(C++20) |  finds the largest integral power of 2 not greater than the given value   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/dsc_bit_floor&action=edit)  
+(function template)   
 [ bit_width](../numeric/bit_width.html "cpp/numeric/bit width")(C++20) |  finds the smallest number of bits needed to represent the given value   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/dsc_bit_width&action=edit)  
+(function template)   
   
 #####  Rotating   
   
 [ rotl](../numeric/rotl.html "cpp/numeric/rotl")(C++20) |  computes the result of bitwise left-rotation   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/dsc_rotl&action=edit)  
+(function template)   
 [ rotr](../numeric/rotr.html "cpp/numeric/rotr")(C++20) |  computes the result of bitwise right-rotation   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/dsc_rotr&action=edit)  
+(function template)   
   
 #####  Counting   
   
 [ countl_zero](../numeric/countl_zero.html "cpp/numeric/countl zero")(C++20) |  counts the number of consecutive ​0​ bits, starting from the most significant bit   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/dsc_countl_zero&action=edit)  
+(function template)   
 [ countl_one](../numeric/countl_one.html "cpp/numeric/countl one")(C++20) |  counts the number of consecutive 1 bits, starting from the most significant bit   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/dsc_countl_one&action=edit)  
+(function template)   
 [ countr_zero](../numeric/countr_zero.html "cpp/numeric/countr zero")(C++20) |  counts the number of consecutive ​0​ bits, starting from the least significant bit   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/dsc_countr_zero&action=edit)  
+(function template)   
 [ countr_one](../numeric/countr_one.html "cpp/numeric/countr one")(C++20) |  counts the number of consecutive 1 bits, starting from the least significant bit   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/dsc_countr_one&action=edit)  
+(function template)   
 [ popcount](../numeric/popcount.html "cpp/numeric/popcount")(C++20) |  counts the number of 1 bits in an unsigned integer   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/dsc_popcount&action=edit)  
+(function template)   
   
 #####  Endian   
   
 [ endian](../types/endian.html "cpp/types/endian")(C++20) |  indicates the endianness of scalar types   
-(enum) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_endian&action=edit)  
+(enum)   
   
 ### Notes
 

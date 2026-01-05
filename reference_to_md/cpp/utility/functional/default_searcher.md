@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Function objects](../../functional.html "cpp/utility/functional")
 
@@ -255,7 +255,7 @@ Identity function object
 [unary_negate](unary_negate.html "cpp/utility/functional/unary negate")(until C++20*)  
 [binary_negate](binary_negate.html "cpp/utility/functional/binary negate")(until C++20*)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/navbar_content&action=edit)
+
 
 Defined in header `[<functional>](../../header/functional.html "cpp/header/functional")` |  |   
 ---|---|---  
@@ -282,7 +282,7 @@ A class suitable for use with [Searcher](https://en.cppreference.com/mwiki/index
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/default_searcher&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 ##  std::default_searcher::default_searcher
 
@@ -327,7 +327,7 @@ first, last  |  \-  |  a pair of iterators designating the string to be examined
 
 A pair of iterators to the first and one past last positions in `[`first`, `last`)` where a subsequence that compares equal to `[`pat_first`, `pat_last`)` as defined by pred is located, or a pair of copies of last otherwise. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/default_searcher&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -361,12 +361,12 @@ Output:
     
     The string "pisci" found at offset 43
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/default_searcher&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ search](../../algorithm/search.html "cpp/algorithm/search") |  searches for the first occurrence of a range of elements   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_search&action=edit)  
+(function template)   
 ---|---  
 [ boyer_moore_searcher](boyer_moore_searcher.html "cpp/utility/functional/boyer moore searcher")(C++17) |  Boyer-Moore search algorithm implementation   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_boyer_moore_searcher&action=edit)  
+(class template)   
 [ boyer_moore_horspool_searcher](boyer_moore_horspool_searcher.html "cpp/utility/functional/boyer moore horspool searcher")(C++17) |  Boyer-Moore-Horspool search algorithm implementation   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_boyer_moore_horspool_searcher&action=edit)
+(class template) 

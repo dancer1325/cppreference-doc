@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Expressions](expressions.html "cpp/language/expressions")
 
@@ -289,7 +289,7 @@ Conversions
 [`dynamic_cast`](dynamic_cast.html "cpp/language/dynamic cast")  
 [`reinterpret_cast`](reinterpret_cast.html "cpp/language/reinterpret cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/expressions/navbar_content&action=edit)
+
 
 Implicit conversions are performed whenever an expression of some type `T1` is used in context that does not accept that type, but accepts some other type `T2`; in particular: 
 
@@ -338,7 +338,7 @@ Note: in arithmetic expressions, the destination type for the implicit conversio
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/implicit_conversion&action=edit&section=1 "Edit section: Order of the conversions")] Order of the conversions
+### Order of the conversions
 
 Implicit conversion sequence consists of the following, in this order: 
 
@@ -371,7 +371,7 @@ A user-defined conversion consists of zero or one non-explicit single-argument [
 
 An expression e is said to be _implicitly convertible to`T2`_ if and only if `T2` can be [copy-initialized](copy_initialization.html "cpp/language/copy initialization") from e, that is the declaration T2 t = e; is well-formed (can be compiled), for some invented temporary `t`. Note that this is different from [direct initialization](direct_initialization.html "cpp/language/direct initialization") (T2 t(e)), where explicit constructors and conversion functions would additionally be considered. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/implicit_conversion&action=edit&section=2 "Edit section: Contextual conversions")] Contextual conversions
+#### Contextual conversions
 
 In the following contexts, the type bool is expected and the implicit conversion is performed if the declaration bool t(e); is well-formed (that is, an explicit conversion function such as explicit T::operator bool() const; is considered). Such expression e is said to be _contextually converted to bool_. 
 
@@ -436,7 +436,7 @@ Such expression e is said to be _contextually implicitly converted_ to the speci
         switch (i + 0) {} // always okay (implicit conversion)
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/implicit_conversion&action=edit&section=3 "Edit section: Value transformations")] Value transformations
+### Value transformations
 
 Value transformations are conversions that change the [value category](value_category.html "cpp/language/value category") of an expression. They take place whenever an expression appears as an operand of an operator that expects an expression of a different value category: 
 
@@ -449,7 +449,7 @@ Value transformations are conversions that change the [value category](value_cat
 | (since C++17)  
 ---|---  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/implicit_conversion&action=edit&section=4 "Edit section: Lvalue-to-rvalue conversion")] Lvalue-to-rvalue conversion
+#### Lvalue-to-rvalue conversion
 
 An [lvalue](value_category.html#lvalue "cpp/language/value category")(until C++11)A [glvalue](value_category.html#glvalue "cpp/language/value category")(since C++11) of any non-function, non-array type `T` can be implicitly converted to an [rvalue](value_category.html#rvalue "cpp/language/value category")(until C++11)a [prvalue](value_category.html#prvalue "cpp/language/value category")(since C++11): 
 
@@ -523,11 +523,11 @@ Given the object to which the lvalue(until C++11)glvalue(since C++11) refers as 
   
 This conversion models the act of reading a value from a memory location into a CPU register. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/implicit_conversion&action=edit&section=5 "Edit section: Array-to-pointer conversion")] Array-to-pointer conversion
+#### Array-to-pointer conversion
 
 An [lvalue](value_category.html#lvalue "cpp/language/value category") or [rvalue](value_category.html#rvalue "cpp/language/value category") of type “array of N `T`” or “array of unknown bound of `T`” can be implicitly converted to a [prvalue](value_category.html#prvalue "cpp/language/value category") of type “pointer to `T`”. If the array is a prvalue, [temporary materialization](implicit_cast.html#Temporary_materialization) occurs.(since C++17) The resulting pointer refers to the first element of the array (see [Array-to-pointer decay](array.html#Array-to-pointer_decay "cpp/language/array") for details). 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/implicit_conversion&action=edit&section=6 "Edit section: Function-to-pointer conversion")] Function-to-pointer conversion
+#### Function-to-pointer conversion
 
 An [lvalue](value_category.html#lvalue "cpp/language/value category") of function type can be implicitly converted to a [prvalue](value_category.html#prvalue "cpp/language/value category") [pointer to that function](pointer.html#Pointers_to_functions "cpp/language/pointer"). This does not apply to non-static member functions because lvalues that refer to non-static member functions do not exist. 
 
@@ -552,7 +552,7 @@ Temporary materialization occurs in the following situations:
 Note that temporary materialization does **not** occur when initializing an object from a prvalue of the same type (by [direct-initialization](direct_initialization.html "cpp/language/direct initialization") or [copy-initialization](copy_initialization.html "cpp/language/copy initialization")): such object is initialized directly from the initializer. This ensures “guaranteed copy elision”.  | (since C++17)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/implicit_conversion&action=edit&section=8 "Edit section: Integral promotion")] Integral promotion
+### Integral promotion
 
 [prvalues](value_category.html#prvalue "cpp/language/value category") of small integral types (such as char) and unscoped enumeration types may be converted to prvalues of larger integral types (such as int). In particular, [arithmetic operators](operator_arithmetic.html "cpp/language/operator arithmetic") do not accept types smaller than int as arguments, and integral promotions are automatically applied after lvalue-to-rvalue conversion, if applicable. This conversion always preserves the value. 
 
@@ -560,7 +560,7 @@ The following implicit conversions in this section are classified as _integral p
 
 Note that for a given source type, the destination type of integral promotion is unique, And all other conversions are not promotions. For example, [overload resolution](overload_resolution.html "cpp/language/overload resolution") chooses char -> int (promotion) over char -> short (conversion). 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/implicit_conversion&action=edit&section=9 "Edit section: Promotion from integral types")] Promotion from integral types
+#### Promotion from integral types
 
 A prvalue of type bool can be converted to a prvalue of type int, with false becoming ​0​ and true becoming 1. 
 
@@ -609,7 +609,7 @@ For a prvalue val of an integral type `T` except bool:
 | (since C++11)  
 ---|---  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/implicit_conversion&action=edit&section=10 "Edit section: Promotion from enumeration types")] Promotion from enumeration types
+#### Promotion from enumeration types
 
 A prvalue of an unscoped [enumeration](enum.html "cpp/language/enum") type whose underlying type is not fixed can be converted to a prvalue of the first type from the following list able to hold their entire value range: 
 
@@ -642,17 +642,17 @@ A prvalue of an unscoped [enumeration](enum.html "cpp/language/enum") type whose
 A prvalue of an unscoped enumeration type whose underlying type is fixed can be converted to its underlying type. Moreover, if the underlying type is also subject to integral promotion, to the promoted underlying type. Conversion to the unpromoted underlying type is better for the purposes of [overload resolution](overload_resolution.html "cpp/language/overload resolution").  | (since C++11)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/implicit_conversion&action=edit&section=11 "Edit section: Floating-point promotion")] Floating-point promotion
+### Floating-point promotion
 
 A [prvalue](value_category.html#prvalue "cpp/language/value category") of type float can be converted to a prvalue of type double. The value does not change. 
 
 This conversion is called _floating-point promotion_. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/implicit_conversion&action=edit&section=12 "Edit section: Numeric conversions")] Numeric conversions
+### Numeric conversions
 
 Unlike the promotions, numeric conversions may change the values, with potential loss of precision. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/implicit_conversion&action=edit&section=13 "Edit section: Integral conversions")] Integral conversions
+#### Integral conversions
 
 A [prvalue](value_category.html#prvalue "cpp/language/value category") of an integer type or of an unscoped enumeration type can be converted to any other integer type. If the conversion is listed under integral promotions, it is a promotion and not a conversion. 
 
@@ -677,7 +677,7 @@ where n is the number of bits used to represent the destination type(since C++20
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/implicit_conversion&action=edit&section=14 "Edit section: Floating-point conversions")] Floating-point conversions
+#### Floating-point conversions
 
 A [prvalue](value_category.html#prvalue "cpp/language/value category") of a floating-point type can be converted to a prvalue of any other floating-point type.  | (until C++23)  
 ---|---  
@@ -691,7 +691,7 @@ If the conversion is listed under floating-point promotions, it is a promotion a
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/implicit_conversion&action=edit&section=15 "Edit section: Floating–integral conversions")] Floating–integral conversions
+#### Floating–integral conversions
 
 A [prvalue](value_category.html#prvalue "cpp/language/value category") of floating-point type can be converted to a prvalue of any integer type. The fractional part is truncated, that is, the fractional part is discarded. 
 
@@ -708,7 +708,7 @@ A prvalue of integer or unscoped enumeration type can be converted to a prvalue 
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/implicit_conversion&action=edit&section=16 "Edit section: Pointer conversions")] Pointer conversions
+#### Pointer conversions
 
 A [null pointer constant](pointer.html#Null_pointers "cpp/language/pointer") can be converted to any pointer type, and the result is the null pointer value of that type. Such conversion (known as _null pointer conversion_) is allowed to convert to a cv-qualified type as a single conversion, that is, it is not considered a combination of numeric and qualifying conversions. 
 
@@ -726,7 +726,7 @@ A prvalue ptr of type “pointer to (possibly cv-qualified) `Derived`” can be 
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/implicit_conversion&action=edit&section=17 "Edit section: Pointer-to-member conversions")] Pointer-to-member conversions
+#### Pointer-to-member conversions
 
 A [null pointer constant](pointer.html#Null_pointers "cpp/language/pointer") can be converted to any pointer-to-member type, and the result is the null member pointer value of that type. Such conversion (known as _null member pointer conversion_) is allowed to convert to a cv-qualified type as a single conversion, that is, it is not considered a combination of numeric and qualifying conversions. 
 
@@ -737,7 +737,7 @@ A [prvalue](value_category.html#prvalue "cpp/language/value category") of type �
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/implicit_conversion&action=edit&section=18 "Edit section: Boolean conversions")] Boolean conversions
+#### Boolean conversions
 
 A [prvalue](value_category.html#prvalue "cpp/language/value category") of integral, floating-point, unscoped enumeration, pointer, and pointer-to-member types can be converted to a prvalue of type bool. 
 
@@ -746,7 +746,7 @@ The value zero (for integral, floating-point, and unscoped enumeration) and the 
 In the context of a [direct-initialization](direct_initialization.html "cpp/language/direct initialization"), a bool object may be initialized from a prvalue of type [std::nullptr_t](../types/nullptr_t.html "cpp/types/nullptr t"), including nullptr. The resulting value is false. However, this is not considered to be an implicit conversion.  | (since C++11)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/implicit_conversion&action=edit&section=19 "Edit section: Qualification conversions")] Qualification conversions
+### Qualification conversions
 
 Generally speaking: 
 
@@ -757,7 +757,7 @@ Generally speaking:
 
 The formal definition of “qualification conversion” is given [below](implicit_cast.html#Combining_cv-qualifications). 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/implicit_conversion&action=edit&section=20 "Edit section: Similar types")] Similar types
+#### Similar types
 
 Informally, two types are _similar_ if, ignoring top-level cv-qualification: 
 
@@ -838,7 +838,7 @@ Two types `T1` and `T2` are _similar_ if there exists a qualification-decomposit
     // they have the same n, U, P_0 and P_1,
     // therefore types T1 and T2 are similar.
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/implicit_conversion&action=edit&section=21 "Edit section: Combining cv-qualifications")] Combining cv-qualifications
+#### Combining cv-qualifications
 
 In the description below, the longest qualification-decomposition of type `Tn` is denoted as `Dn`, and its components are denoted as `cvn_i` and `Pn_i`. 
 
@@ -925,7 +925,7 @@ Note that in the C programming language, const/volatile can be added to the firs
 | (since C++17)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/implicit_conversion&action=edit&section=23 "Edit section: The safe bool problem")] The safe bool problem
+### The safe bool problem
 
 Until C++11, designing a class that should be usable in boolean contexts (e.g. if (obj) { ... }) presented a problem: given a user-defined conversion function, such as T::operator bool() const;, the implicit conversion sequence allowed one additional standard conversion sequence after that function call, which means the resultant bool could be converted to int, allowing such code as obj << 1; or int i = obj;. 
 
@@ -935,7 +935,7 @@ Many pre-C++11 third party libraries were designed with a more elaborate solutio
 
 Since C++11, [explicit bool conversion](explicit.html "cpp/language/explicit") can also be used to resolve the safe bool problem. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/implicit_conversion&action=edit&section=24 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -994,7 +994,7 @@ undefined in this case
 [CWG 2901](https://cplusplus.github.io/CWG/issues/2901.html) | C++98  | the result of lvalue-to-rvalue conversion from an unsigned int  
 lvalue referring to an int object with value -1 was unclear  | made clear   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/implicit_conversion&action=edit&section=25 "Edit section: See also")] See also
+### See also
 
   * [`const_cast`](const_cast.html "cpp/language/const cast")
   * [`static_cast`](static_cast.html "cpp/language/static cast")

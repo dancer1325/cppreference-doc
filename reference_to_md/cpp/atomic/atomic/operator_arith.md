@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::atomic`](../atomic.html "cpp/atomic/atomic")
 
@@ -210,7 +210,7 @@ pointer types only](../atomic.html#Specialized_for_integral_and_pointer_types_on
 [atomic::fetch_xor](fetch_xor.html "cpp/atomic/atomic/fetch xor")  
 [atomic::operator&=atomic::operator|=atomic::operator^=](operator_arith3.html "cpp/atomic/atomic/operator arith3")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/navbar_content&action=edit)
+
 
 member only of `atomic<_Integral_` ﻿`>` specializations |  |   
 ---|---|---  
@@ -262,17 +262,17 @@ It is deprecated if [std::atomic](../atomic.html)<T>::is_always_lock_free is fal
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic/operator_arith&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 operator++() and operator\--() return the value of the atomic variable after the modification. Formally, the result of incrementing/decrementing the value immediately preceding the effects of this function in the [modification order](../memory_order.html#Modification_order "cpp/atomic/memory order") of *this. 
 
 operator++(int) and operator\--(int) return the value of the atomic variable before the modification. Formally, the value immediately preceding the effects of this function in the [modification order](../memory_order.html#Modification_order "cpp/atomic/memory order") of *this. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic/operator_arith&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 Unlike most pre-increment and pre-decrement operators, the pre-increment and pre-decrement operators for atomic types do not return a reference to the modified object. They return a copy of the stored value instead. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic/operator_arith&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -343,7 +343,7 @@ Possible output:
     ░ 52  ▓ 56  ░ 61  ▒ 59  █ 60  ▓ 62  ▒ 64  ░ 63  
     ░ 68  ▓ 66  █ 65  █ 71  ▒ 67  ▓ 70  ░ 69  █ 72
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic/operator_arith&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -351,14 +351,14 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [P0558R1](https://wg21.link/P0558R1) | C++11  | arithmetic permitted on pointers to (possibly cv-qualified) void or function  | made ill-formed   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic/operator_arith&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ fetch_add](fetch_add.html "cpp/atomic/atomic/fetch add") |  atomically adds the argument to the value stored in the atomic object and obtains the value held previously   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_fetch_add&action=edit)  
+(public member function)   
 ---|---  
 [ fetch_sub](fetch_sub.html "cpp/atomic/atomic/fetch sub") |  atomically subtracts the argument from the value stored in the atomic object and obtains the value held previously   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_fetch_sub&action=edit)  
+(public member function)   
 [ operator+=operator-=](operator_arith2.html "cpp/atomic/atomic/operator arith2") |  adds to or subtracts from the atomic value   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_operator_arith2&action=edit)  
+(public member function)   
 [ operator&=operator|=operator^=](operator_arith3.html "cpp/atomic/atomic/operator arith3") |  performs bitwise AND, OR, XOR with the atomic value   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_operator_arith3&action=edit)
+(public member function) 

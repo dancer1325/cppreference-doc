@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Type support](../utility/rtti.html "cpp/types")
 
@@ -161,7 +161,7 @@ Runtime type information
 ---  
 [bad_cast](bad_cast.html "cpp/types/bad cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/navbar_content&action=edit)
+
 
 Defined in header `[<clocale>](../header/clocale.html "cpp/header/clocale")` |  |   
 ---|---|---  
@@ -186,7 +186,7 @@ The macro `NULL` is an implementation-defined [null pointer constant](../languag
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/NULL&action=edit&section=1 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     #define NULL 0
@@ -195,11 +195,11 @@ The macro `NULL` is an implementation-defined [null pointer constant](../languag
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/NULL&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 In C, the macro `NULL` may have the type void*, but that is not allowed in C++ because null pointer constants cannot have that type. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/NULL&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -236,10 +236,10 @@ Possible output:
     The type of nullvar is long
     NULL implemented using an integral type
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/NULL&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
-[`nullptr`](../language/nullptr.html "cpp/language/nullptr") (C++11) |  the pointer literal which specifies a null pointer value[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_nullptr&action=edit)  
+[`nullptr`](../language/nullptr.html "cpp/language/nullptr") (C++11) |  the pointer literal which specifies a null pointer value  
 ---|---  
 [ nullptr_t](nullptr_t.html "cpp/types/nullptr t")(C++11) |  the type of the null pointer literal [`nullptr`](../language/nullptr.html "cpp/language/nullptr")   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_nullptr_t&action=edit)  
+(typedef)   
 [C documentation](../../c/types/NULL.html "c/types/NULL") for NULL

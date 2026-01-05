@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [Pseudo-random number generation](../../random.html "cpp/numeric/random")
 
@@ -161,7 +161,7 @@
 [piecewise_constant_distribution](../piecewise_constant_distribution.html "cpp/numeric/random/piecewise constant distribution")(C++11)  
 [piecewise_linear_distribution](../piecewise_linear_distribution.html "cpp/numeric/random/piecewise linear distribution")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/navbar_content&action=edit)
+
 
 [`std::random_device`](../random_device.html "cpp/numeric/random/random device")
 
@@ -175,7 +175,7 @@ Characteristics
 [random_device::min](min.html "cpp/numeric/random/random device/min")  
 [random_device::max](max.html "cpp/numeric/random/random device/max")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/random_device/navbar_content&action=edit)
+
 
 double entropy() const noexcept; |  |  (since C++11)  
 ---|---|---  
@@ -188,17 +188,17 @@ i=0 Pilog(Pi)
 
 A deterministic random number generator (e.g. a pseudo-random engine) has entropy zero. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/random/random_device/entropy&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 The value of the device entropy, or zero if not applicable. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/random/random_device/entropy&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 This function is not fully implemented in some standard libraries. For example, [LLVM libc++](https://github.com/llvm-mirror/libcxx/blob/master/src/random.cpp#L174) prior to version 12 always returns zero even though the device is non-deterministic. In comparison, Microsoft Visual C++ implementation always returns 32, and [boost.random](https://github.com/boostorg/random/blob/master/src/random_device.cpp#L242) returns 10. 
 
 The entropy of the Linux kernel device `/dev/urandom` may be obtained using [`ioctl RNDGETENTCNT`](https://man7.org/linux/man-pages/man4/random.4.html) — that is what `std::random_device::entropy()` in [GNU libstdc++](https://github.com/gcc-mirror/gcc/blob/master/libstdc%2B%2B-v3/src/c%2B%2B11/random.cc#L188) uses as of version 8.1. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/random/random_device/entropy&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Example output on one of the implementations
 

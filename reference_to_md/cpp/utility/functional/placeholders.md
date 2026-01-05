@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Function objects](../../functional.html "cpp/utility/functional")
 
@@ -255,7 +255,7 @@ Identity function object
 [unary_negate](unary_negate.html "cpp/utility/functional/unary negate")(until C++20*)  
 [binary_negate](binary_negate.html "cpp/utility/functional/binary negate")(until C++20*)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/navbar_content&action=edit)
+
 
 Defined in header `[<functional>](../../header/functional.html "cpp/header/functional")` |  |   
 ---|---|---  
@@ -276,7 +276,7 @@ Implementations are encouraged to declare the placeholders as if by inline const
   
 The types of the placeholder objects are [DefaultConstructible](../../named_req/DefaultConstructible.html "cpp/named req/DefaultConstructible") and [CopyConstructible](../../named_req/CopyConstructible.html "cpp/named req/CopyConstructible"), their default copy/move constructors do not throw exceptions, and for any placeholder `_N`, the type [std::is_placeholder](is_placeholder.html)<decltype(_N)> is defined, where [std::is_placeholder](is_placeholder.html)<decltype(_N)> is derived from [std::integral_constant](../../types/integral_constant.html)<int, N>. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/placeholders&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
 The following code shows the creation of function objects with placeholder arguments.
 
@@ -336,12 +336,12 @@ Output:
     Goodbye World
     Goooooooogol
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/placeholders&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ bind](bind.html "cpp/utility/functional/bind")(C++11) |  binds one or more arguments to a function object   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_bind&action=edit)  
+(function template)   
 ---|---  
 [ is_placeholder](is_placeholder.html "cpp/utility/functional/is placeholder")(C++11) |  indicates that an object is a standard placeholder or can be used as one   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_is_placeholder&action=edit)  
+(class template)   
 [ ignore](../tuple/ignore.html "cpp/utility/tuple/ignore")(C++11) |  placeholder to skip an element when unpacking a `tuple` using [`tie`](../tuple/tie.html "cpp/utility/tuple/tie")   
-(constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/dsc_ignore&action=edit)
+(constant) 

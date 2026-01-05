@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Diagnostics library](../../error.html "cpp/error")
 
@@ -187,7 +187,7 @@ Exception handling failures
 [breakpoint_if_debugging](../../utility/breakpoint_if_debugging.html "cpp/utility/breakpoint if debugging")(C++26)  
 [breakpoint](../../utility/breakpoint.html "cpp/utility/breakpoint")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/navbar_content&action=edit)
+
 
 [`std::error_condition`](../error_condition.html "cpp/error/error condition")
 
@@ -207,7 +207,7 @@ Helper classes
 [is_error_condition_enum](is_error_condition_enum.html "cpp/error/error condition/is error condition enum")  
 [hash<std::error_condition>](hash.html "cpp/error/error condition/hash")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/error_condition/navbar_content&action=edit)
+
 
 error_condition() noexcept; |  (1)  |  (since C++11)  
 ---|---|---  
@@ -230,7 +230,7 @@ Constructs new error condition.
 
 4,5) Implicitly defined copy constructor and move constructor. Initializes the error condition with the contents of the `other`.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/error_condition/error_condition&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 other  |  \-  |  another error condition to initialize with   
 ---|---|---  
@@ -238,7 +238,7 @@ val  |  \-  |  error value
 cat  |  \-  |  error category   
 e  |  \-  |  error condition enum   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/error_condition/error_condition&action=edit&section=2 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -246,12 +246,12 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 3629](https://cplusplus.github.io/LWG/issue3629) | C++11  | only `std::make_error_condition` overloads were used  | ADL-found overloads are used   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/error_condition/error_condition&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ make_error_condition(std::errc)](../errc/make_error_condition.html "cpp/error/errc/make error condition")(C++11) |  creates an error condition for an `errc` value e   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/errc/dsc_make_error_condition&action=edit)  
+(function)   
 ---|---  
 [ make_error_condition(std::io_errc)](../../io/io_errc/make_error_condition.html "cpp/io/io errc/make error condition")(C++11) |  constructs an iostream error condition   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/io_errc/dsc_make_error_condition&action=edit)  
+(function)   
 [ make_error_condition(std::future_errc)](../../thread/future_errc/make_error_condition.html "cpp/thread/future errc/make error condition")(C++11) |  constructs a future `error_condition`   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/future_errc/dsc_make_error_condition&action=edit)
+(function) 

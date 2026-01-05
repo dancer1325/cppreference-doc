@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header is part of the [thread support](../atomic.html "cpp/thread") library. 
 
@@ -216,7 +216,7 @@ This header is part of the [thread support](../atomic.html "cpp/thread") library
   
 ###  Includes  
   
-[ <compare>](compare.html "cpp/header/compare")(C++20) |  [Three-way comparison operator](../language/operator_comparison.html#Three-way_comparison "cpp/language/operator comparison") support[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/dsc_compare&action=edit)  
+[ <compare>](compare.html "cpp/header/compare")(C++20) |  [Three-way comparison operator](../language/operator_comparison.html#Three-way_comparison "cpp/language/operator comparison") support  
   
 ###  Namespaces  
   
@@ -225,31 +225,31 @@ This header is part of the [thread support](../atomic.html "cpp/thread") library
 ###  Classes  
   
 [ thread](../thread/thread.html "cpp/thread/thread")(C++11) |  manages a separate thread   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_thread&action=edit)  
+(class)   
 [ jthread](../thread/jthread.html "cpp/thread/jthread")(C++20) |  [std::thread](../thread/thread.html "cpp/thread/thread") with support for auto-joining and cancellation   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_jthread&action=edit)  
+(class)   
 [ std::hash<std::thread::id>](../thread/thread/id/hash.html "cpp/thread/thread/id/hash") |  specializes [std::hash](../utility/hash.html "cpp/utility/hash")   
 (class template specialization)  
   
 ###  Functions  
   
 [ std::swap(std::thread)](../thread/thread/swap2.html "cpp/thread/thread/swap2")(C++11) |  specializes the [std::swap](../utility/swap.html "cpp/algorithm/swap") algorithm   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/dsc_swap2&action=edit)  
+(function)   
 [ operator==operator!=operator<operator<=operator>operator>=operator<=>](../thread/thread/id/operator_cmp.html "cpp/thread/thread/id/operator cmp")(removed in C++20)(removed in C++20)(removed in C++20)(removed in C++20)(removed in C++20)(C++20) |  compares two `thread::id` objects   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/id/dsc_operator_cmp&action=edit)  
+(function)   
 [ operator<<](../thread/thread/id/operator_ltlt.html "cpp/thread/thread/id/operator ltlt") |  serializes a `thread::id` object   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/id/dsc_operator_ltlt&action=edit)  
+(function template)   
 Defined in namespace `std::this_thread`  
 [ yield](../thread/yield.html "cpp/thread/yield")(C++11) |  suggests that the implementation reschedule execution of threads   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_yield&action=edit)  
+(function)   
 [ get_id](../thread/get_id.html "cpp/thread/get id")(C++11) |  returns the thread id of the current thread   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_get_id&action=edit)  
+(function)   
 [ sleep_for](../thread/sleep_for.html "cpp/thread/sleep for")(C++11) |  stops the execution of the current thread for a specified time duration   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_sleep_for&action=edit)  
+(function)   
 [ sleep_until](../thread/sleep_until.html "cpp/thread/sleep until")(C++11) |  stops the execution of the current thread until a specified time point   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_sleep_until&action=edit)  
+(function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/thread&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     #include <compare>
@@ -275,7 +275,7 @@ Defined in namespace `std::this_thread`
       }
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/thread&action=edit&section=T-1 "Template:cpp/synopsis/thread")] Class [std::thread](../thread/thread.html "cpp/thread/thread")
+#### Class [std::thread](../thread/thread.html "cpp/thread/thread")
     
     
     namespace std {
@@ -309,7 +309,7 @@ Defined in namespace `std::this_thread`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/thread&action=edit&section=T-2 "Template:cpp/synopsis/thread")] Class [std::jthread](../thread/jthread.html "cpp/thread/jthread")
+#### Class [std::jthread](../thread/jthread.html "cpp/thread/jthread")
     
     
     namespace std {
@@ -354,7 +354,7 @@ Defined in namespace `std::this_thread`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/thread&action=edit&section=T-3 "Template:cpp/synopsis/thread")] Class [std::thread::id](../thread/thread/id.html "cpp/thread/thread/id")
+#### Class [std::thread::id](../thread/thread/id.html "cpp/thread/thread/id")
     
     
     namespace std {

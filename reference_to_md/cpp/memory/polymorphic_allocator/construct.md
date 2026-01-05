@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::pmr::polymorphic_allocator`](../polymorphic_allocator.html "cpp/memory/polymorphic allocator")
 
@@ -206,7 +206,7 @@ Member functions
 Non-member functions  
 [operator==operator!=](operator_eq.html "cpp/memory/polymorphic allocator/operator eq")(until C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/polymorphic_allocator/navbar_content&action=edit)
+
 
 template< class U, class... Args >  
 void construct( U* p, Args&&... args ); |  (1)  |  (since C++17)  
@@ -281,7 +281,7 @@ Constructs an object in allocated, but not initialized storage pointed to by p t
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/polymorphic_allocator/construct&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 p  |  \-  |  pointer to allocated, but not initialized storage   
 ---|---|---  
@@ -291,15 +291,15 @@ y  |  \-  |  the constructor arguments to pass to the constructor of `T2`
 xy  |  \-  |  the pair whose two members are the constructor arguments for `T1` and `T2`  
 non_pair  |  \-  |  non-`pair` argument to convert to `pair` for further construction   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/polymorphic_allocator/construct&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/polymorphic_allocator/construct&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 This function is called (through [std::allocator_traits](../allocator_traits.html "cpp/memory/allocator traits")) by any allocator-aware object, such as [std::pmr::vector](../../container/vector.html "cpp/container/vector") (or another [std::vector](../../container/vector.html "cpp/container/vector") that was given a `std::pmr::polymorphic_allocator` as the allocator to use). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/polymorphic_allocator/construct&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -309,10 +309,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [LWG 2975](https://cplusplus.github.io/LWG/issue2975) | C++17  | first overload is mistakenly used for pair construction in some cases  | constrained to not accept pairs   
 [LWG 3525](https://cplusplus.github.io/LWG/issue3525) | C++17  | no overload could handle non-`pair` types convertible to `pair` | reconstructing overload added   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/polymorphic_allocator/construct&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ construct](../allocator_traits/construct.html "cpp/memory/allocator traits/construct")[static] |  constructs an object in the allocated storage   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/allocator_traits/dsc_construct&action=edit)  
+(function template)   
 ---|---  
 [ construct](../allocator/construct.html "cpp/memory/allocator/construct")(until C++20) |  constructs an object in allocated storage   
-(public member function of `std::allocator<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/allocator/dsc_construct&action=edit)
+(public member function of `std::allocator<T>`) 

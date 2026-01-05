@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](copy.html "cpp/algorithm/ranges/co
 [uninitialized_default_construct_n](../../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 [Constrained algorithms](../ranges.html "cpp/algorithm/ranges")
 
@@ -550,7 +550,7 @@ All names in this menu belong to namespace `std::ranges`
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -607,7 +607,7 @@ All names in this menu belong to namespace `std::ranges`
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 Defined in header `[<numeric>](../../header/numeric.html "cpp/header/numeric")` |  |   
 ---|---|---  
@@ -649,21 +649,21 @@ Equivalent operation:
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/iota&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  the iterator-sentinel pair defining the [range](../../iterator.html#Ranges "cpp/iterator") of elements to fill with sequentially increasing values starting with value  
 ---|---|---  
 value  |  \-  |  initial value to store; the expression ++value must be well-formed   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/iota&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 {last, value + [ranges::distance](../../iterator/ranges/distance.html)(first, last)}
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/iota&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Exactly last - first increments and assignments. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/iota&action=edit&section=4 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     struct iota_fn
@@ -694,7 +694,7 @@ Exactly last - first increments and assignments.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/iota&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 The function is named after the integer function ⍳ from the programming language [APL](https://en.wikipedia.org/wiki/APL_\(programming_language\) "enwiki:APL \(programming language\)"). 
 
@@ -702,7 +702,7 @@ The function is named after the integer function ⍳ from the programming langua
 ---|---|---|---  
 [`__cpp_lib_ranges_iota`](../../experimental/feature_test.html#cpp_lib_ranges_iota "cpp/feature test") | [`202202L`](../../compiler_support/23.html#cpp_lib_ranges_iota_202202L "cpp/compiler support/23") | (C++23) | `std::ranges::iota`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/iota&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Uses the [vector](../../container/vector.html "cpp/container/vector") of iterators ([std::vector](../../container/vector.html)<[std::list](../../container/list.html)<T>::iterator>) as a proxy to shuffle the elements of the [std::list](../../container/list.html "cpp/container/list"), because [ranges::shuffle](shuffle.html "cpp/algorithm/ranges/shuffle") cannot be applied to the [std::list](../../container/list.html "cpp/container/list") directly.
 
@@ -749,20 +749,20 @@ Possible output:
     List: 0 1 2 3 4 5 6 7
     List viewed via vector: 5 7 6 0 1 3 4 2
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/iota&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ fill](../fill.html "cpp/algorithm/fill") |  copy-assigns the given value to every element in a range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_fill&action=edit)  
+(function template)   
 ---|---  
 [ ranges::fill](fill.html "cpp/algorithm/ranges/fill")(C++20) |  assigns a range of elements a certain value  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_fill&action=edit)  
+(algorithm function object)  
 [ generate](../generate.html "cpp/algorithm/generate") |  assigns the results of successive function calls to every element in a range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_generate&action=edit)  
+(function template)   
 [ ranges::generate](generate.html "cpp/algorithm/ranges/generate")(C++20) |  saves the result of a function in a range  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_generate&action=edit)  
+(algorithm function object)  
 [ ranges::iota_viewviews::iota](../../ranges/iota_view.html "cpp/ranges/iota view")(C++20) |  a [`view`](../../ranges/view.html "cpp/ranges/view") consisting of a sequence generated by repeatedly incrementing an initial value  
-(class template) (customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_iota_view&action=edit)  
+(class template) (customization point object)  
 [ iota](../iota.html "cpp/algorithm/iota")(C++11) |  fills a range with successive increments of the starting value   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_iota&action=edit)
+(function template) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

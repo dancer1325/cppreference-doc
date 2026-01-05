@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_iostream`](../basic_iostream.html "cpp/io/basic iostream")
 
@@ -89,7 +89,7 @@ Protected member functions
 **basic_iostream::operator=**  
 [basic_iostream::swap](swap.html "cpp/io/basic iostream/swap")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_iostream/navbar_content&action=edit)
+
 
 basic_iostream& operator=( const basic_iostream& other ) = delete; |  (1)  |   
 ---|---|---  
@@ -103,17 +103,17 @@ Assigns another stream object.
 
 2) Move assigns another stream object. Effectively calls swap(rhs). This move assignment operator is protected: it is called by the move assignment operators of the derived stream classes [std::basic_stringstream](../basic_stringstream.html "cpp/io/basic stringstream") and [std::basic_fstream](../basic_fstream.html "cpp/io/basic fstream") which know how to properly move-assign the associated stream buffers.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_iostream/operator%3D&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 other  |  \-  |  another stream to assign state of   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_iostream/operator%3D&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 *this
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_iostream/operator%3D&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ (constructor)](basic_iostream.html "cpp/io/basic iostream/basic iostream") |  constructs the object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_iostream/dsc_constructor&action=edit)  
+(public member function)   
 ---|---

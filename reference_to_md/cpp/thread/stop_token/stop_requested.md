@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::stop_token`](../stop_token.html "cpp/thread/stop token")
 
@@ -191,7 +191,7 @@ Non-member functions
 [swap(std::stop_token)](swap2.html "cpp/thread/stop token/swap2")  
 [operator==](operator_cmp.html "cpp/thread/stop token/operator cmp")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/stop_token/navbar_content&action=edit)
+
 
 bool stop_requested() const noexcept; |  |  (since C++20)  
 ---|---|---  
@@ -199,15 +199,15 @@ bool stop_requested() const noexcept; |  |  (since C++20)
   
 Checks if the [`stop_token`](../stop_token.html "cpp/thread/stop token") object has associated stop-state and that state has received a stop request. A default constructed stop_token has no associated stop-state, and thus has not had stop requested. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/stop_token/stop_requested&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/stop_token/stop_requested&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 true if the stop_token object has associated stop-state and it received a stop request, false otherwise. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/stop_token/stop_requested&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     

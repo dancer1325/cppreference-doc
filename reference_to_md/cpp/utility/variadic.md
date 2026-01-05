@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 **Variadic functions**
 
@@ -139,7 +139,7 @@ Common vocabulary types
 [va_end](variadic/va_end.html "cpp/utility/variadic/va end")  
 [va_list](variadic/va_list.html "cpp/utility/variadic/va list")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variadic/navbar_content&action=edit)
+
 
 Variadic functions are functions (e.g. [std::printf](../io/c/printf.html "cpp/io/c/fprintf")) which take a [variable number of arguments](../language/variadic_arguments.html "cpp/language/variadic arguments"). 
 
@@ -150,17 +150,17 @@ To access the variadic arguments from the function body, the following library f
 Defined in header `[<cstdarg>](../header/cstdarg.html "cpp/header/cstdarg")`  
 ---  
 [ va_start](variadic/va_start.html "cpp/utility/variadic/va start") |  enables access to variadic function arguments   
-(function macro) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variadic/dsc_va_start&action=edit)  
+(function macro)   
 [ va_arg](variadic/va_arg.html "cpp/utility/variadic/va arg") |  accesses the next variadic function argument   
-(function macro) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variadic/dsc_va_arg&action=edit)  
+(function macro)   
 [ va_copy](variadic/va_copy.html "cpp/utility/variadic/va copy")(C++11) |  makes a copy of the variadic function arguments   
-(function macro) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variadic/dsc_va_copy&action=edit)  
+(function macro)   
 [ va_end](variadic/va_end.html "cpp/utility/variadic/va end") |  ends traversal of the variadic function arguments   
-(function macro) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variadic/dsc_va_end&action=edit)  
+(function macro)   
 [ va_list](variadic/va_list.html "cpp/utility/variadic/va list") |  holds the information needed by [va_start](variadic/va_start.html "cpp/utility/variadic/va start"), [va_arg](variadic/va_arg.html "cpp/utility/variadic/va arg"), [va_end](variadic/va_end.html "cpp/utility/variadic/va end"), and [va_copy](variadic/va_copy.html "cpp/utility/variadic/va copy")   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variadic/dsc_va_list&action=edit)  
+(typedef)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variadic&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -210,7 +210,7 @@ Output:
     1.999
     42.5
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variadic&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [C documentation](../../c/variadic.html "c/variadic") for Variadic functions  
 ---

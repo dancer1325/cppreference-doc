@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](copy.html "cpp/algorithm/ranges/co
 [uninitialized_default_construct_n](../../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 [Constrained algorithms](../ranges.html "cpp/algorithm/ranges")
 
@@ -550,7 +550,7 @@ All names in this menu belong to namespace `std::ranges`
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -591,7 +591,7 @@ The function-like entities described on this page are [_algorithm function objec
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/partition&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  the iterator-sentinel pair defining the [range](../../iterator.html#Ranges "cpp/iterator") of elements to reorder   
 ---|---|---  
@@ -599,15 +599,15 @@ r  |  \-  |  the range of elements to reorder
 pred  |  \-  |  predicate to apply to the projected elements   
 proj  |  \-  |  projection to apply to the elements   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/partition&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 A subrange starting with an iterator to the first element of the second group and finishing with an iterator equal to last. (2) returns [std::ranges::dangling](../../ranges/dangling.html "cpp/ranges/dangling") if r is an rvalue of non-[`borrowed_range`](../../ranges/borrowed_range.html "cpp/ranges/borrowed range") type. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/partition&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Given N = [ranges::distance](../../iterator/ranges/distance.html)(first, last), exactly N applications of the predicate and projection. At most N / 2 swaps if `I` models ranges::bidirectional_iterator, and at most N swaps otherwise. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/partition&action=edit&section=4 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     struct partition_fn
@@ -648,7 +648,7 @@ Given N = [ranges::distance](../../iterator/ranges/distance.html)(first, last), 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/partition&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -720,14 +720,14 @@ Possible output:
     Unsorted list:          1 30 -4 3 5 -4 1 6 -8 2 -5 64 1 92
     Quick-sorted list:      92 64 30 6 5 3 2 1 1 1 -4 -4 -5 -8
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/partition&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ ranges::partition_copy](partition_copy.html "cpp/algorithm/ranges/partition copy")(C++20) |  copies a range dividing the elements into two groups  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_partition_copy&action=edit)  
+(algorithm function object)  
 ---|---  
 [ ranges::is_partitioned](is_partitioned.html "cpp/algorithm/ranges/is partitioned")(C++20) |  determines if the range is partitioned by the given predicate  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_is_partitioned&action=edit)  
+(algorithm function object)  
 [ ranges::stable_partition](stable_partition.html "cpp/algorithm/ranges/stable partition")(C++20) |  divides elements into two groups while preserving their relative order  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_stable_partition&action=edit)  
+(algorithm function object)  
 [ partition](../partition.html "cpp/algorithm/partition") |  divides a range of elements into two groups   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_partition&action=edit)
+(function template) 

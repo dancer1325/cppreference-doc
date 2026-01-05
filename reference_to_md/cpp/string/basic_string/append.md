@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Strings library](../../string.html "cpp/string")
 
@@ -40,7 +40,7 @@ Classes
 [basic_string_view](../basic_string_view.html "cpp/string/basic string view")(C++17)  
 [char_traits](../char_traits.html "cpp/string/char traits")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/navbar_content&action=edit)
+
 
 [`std::basic_string`](../basic_string.html "cpp/string/basic string")
 
@@ -133,7 +133,7 @@ basic_string_view](operator_basic_string_view.html "cpp/string/basic string/oper
 [hash<std::basic_string>](hash.html "cpp/string/basic string/hash")(C++11)  
 [Deduction guides](deduction_guides.html "cpp/string/basic string/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/navbar_content&action=edit)
+
 
 basic_string& append( size_type count, CharT ch ); |  (1) | (constexpr since C++20)  
 ---|---|---  
@@ -225,7 +225,7 @@ This overload participates in overload resolution only if `InputIt` satisfies th
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/append&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 count  |  \-  |  number of characters to append   
 ---|---|---  
@@ -237,15 +237,15 @@ str  |  \-  |  string to append
 first, last  |  \-  |  range of characters to append   
 ilist  |  \-  |  initializer list with the characters to append   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/append&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 *this
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/append&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 There are no standard complexity guarantees, typical implementations behave similar to [`std::vector::insert()`](../../container/vector/insert.html "cpp/container/vector/insert"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/append&action=edit&section=4 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 If the operation would cause [`size()`](size.html "cpp/string/basic string/size") to exceed [`max_size()`](max_size.html "cpp/string/basic string/max size"), throws [std::length_error](../../error/length_error.html "cpp/error/length error"). 
 
@@ -255,7 +255,7 @@ If the operation would cause [`size()`](size.html "cpp/string/basic string/size"
 
 If an exception is thrown for any reason, this function has no effect ([strong exception safety guarantee](../../language/exceptions.html#Exception_safety "cpp/language/exceptions")). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/append&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -302,7 +302,7 @@ Run this code
         [assert](../../error/assert.html)(result == "***C-str C-string std::string::npos");
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/append&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -316,18 +316,18 @@ allocator to construct the temporary string  | obtains the allocator
 from [get_allocator()](get_allocator.html "cpp/string/basic string/get allocator")  
 [LWG 2946](https://cplusplus.github.io/LWG/issue2946) | C++17  | overload (4) causes ambiguity in some cases  | avoided by making it a template   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/append&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ append_range](append_range.html "cpp/string/basic string/append range")(C++23) |  appends a range of characters to the end   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_append_range&action=edit)  
+(public member function)   
 ---|---  
 [ operator+=](operator+=.html "cpp/string/basic string/operator+=") |  appends characters to the end   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_operator%2B%3D&action=edit)  
+(public member function)   
 [ strcat](../byte/strcat.html "cpp/string/byte/strcat") |  concatenates two strings   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strcat&action=edit)  
+(function)   
 [ strncat](../byte/strncat.html "cpp/string/byte/strncat") |  concatenates a certain amount of characters of two strings   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strncat&action=edit)  
+(function)   
 [ wcscat](../wide/wcscat.html "cpp/string/wide/wcscat") |  appends a copy of one wide string to another   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wcscat&action=edit)  
+(function)   
 [ wcsncat](../wide/wcsncat.html "cpp/string/wide/wcsncat") |  appends a certain amount of wide characters from one wide string to another   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wcsncat&action=edit)
+(function) 

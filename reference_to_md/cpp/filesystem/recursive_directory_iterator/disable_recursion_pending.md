@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Filesystem library](../../filesystem.html "cpp/filesystem")
 
@@ -100,7 +100,7 @@ filesystem::symlink_status](../status.html "cpp/filesystem/status")
 [filesystem::is_socket](../is_socket.html "cpp/filesystem/is socket")  
 [filesystem::is_symlink](../is_symlink.html "cpp/filesystem/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/navbar_content&action=edit)
+
 
 [`std::filesystem::recursive_directory_iterator`](../recursive_directory_iterator.html "cpp/filesystem/recursive directory iterator")
 
@@ -118,7 +118,7 @@ Member functions
 Non-member functions  
 [begin(std::filesystem::recursive_directory_iterator)end(std::filesystem::recursive_directory_iterator)](begin.html "cpp/filesystem/recursive directory iterator/begin")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/recursive_directory_iterator/navbar_content&action=edit)
+
 
 void disable_recursion_pending(); |  |  (since C++17)  
 ---|---|---  
@@ -143,19 +143,19 @@ The behavior is undefined if *this is the end iterator.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/recursive_directory_iterator/disable_recursion_pending&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/recursive_directory_iterator/disable_recursion_pending&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/impldef_exception&action=edit&section=T-1 "Template:cpp/impldef exception")] Exceptions
+### Exceptions
 
 May throw implementation-defined exceptions. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/recursive_directory_iterator/disable_recursion_pending&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -207,10 +207,10 @@ Possible output:
       "sandbox/a/b"
     "sandbox/syma" -> "a"
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/recursive_directory_iterator/disable_recursion_pending&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ recursion_pending](recursion_pending.html "cpp/filesystem/recursive directory iterator/recursion pending") |  checks whether the recursion is disabled for the current directory   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/recursive_directory_iterator/dsc_recursion_pending&action=edit)  
+(public member function)   
 ---|---  
 [ incrementoperator++](increment.html "cpp/filesystem/recursive directory iterator/increment") |  advances to the next entry   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/recursive_directory_iterator/dsc_increment&action=edit)
+(public member function) 

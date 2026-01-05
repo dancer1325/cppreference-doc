@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header is part of the [thread support](../atomic.html "cpp/thread") library. 
 
@@ -215,18 +215,18 @@ This header is part of the [thread support](../atomic.html "cpp/thread") library
 ###  Classes  
   
 [ shared_mutex](../thread/shared_mutex.html "cpp/thread/shared mutex")(C++17) |  provides shared mutual exclusion facility   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_shared_mutex&action=edit)  
+(class)   
 [ shared_timed_mutex](../thread/shared_timed_mutex.html "cpp/thread/shared timed mutex")(C++14) |  provides shared mutual exclusion facility and implements locking with a timeout   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_shared_timed_mutex&action=edit)  
+(class)   
 [ shared_lock](../thread/shared_lock.html "cpp/thread/shared lock")(C++14) |  implements movable shared mutex ownership wrapper   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_shared_lock&action=edit)  
+(class template)   
   
 ###  Functions  
   
 [ std::swap(std::shared_lock)](../thread/shared_lock/swap2.html "cpp/thread/shared lock/swap2")(C++14) |  specializes the [std::swap](../utility/swap.html "cpp/algorithm/swap") algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/shared_lock/dsc_swap2&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/shared_mutex&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     namespace std {
@@ -237,7 +237,7 @@ This header is part of the [thread support](../atomic.html "cpp/thread") library
         void swap(shared_lock<Mutex>& x, shared_lock<Mutex>& y) noexcept;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/shared_mutex&action=edit&section=T-1 "Template:cpp/synopsis/shared mutex")] Class [std::shared_mutex](../thread/shared_mutex.html "cpp/thread/shared mutex")
+#### Class [std::shared_mutex](../thread/shared_mutex.html "cpp/thread/shared mutex")
     
     
     namespace std {
@@ -264,7 +264,7 @@ This header is part of the [thread support](../atomic.html "cpp/thread") library
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/shared_mutex&action=edit&section=T-2 "Template:cpp/synopsis/shared mutex")] Class [std::shared_timed_mutex](../thread/shared_timed_mutex.html "cpp/thread/shared timed mutex")
+#### Class [std::shared_timed_mutex](../thread/shared_timed_mutex.html "cpp/thread/shared timed mutex")
     
     
     namespace std {
@@ -296,7 +296,7 @@ This header is part of the [thread support](../atomic.html "cpp/thread") library
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/shared_mutex&action=edit&section=T-3 "Template:cpp/synopsis/shared mutex")] Class template [std::shared_lock](../thread/shared_lock.html "cpp/thread/shared lock")
+#### Class template [std::shared_lock](../thread/shared_lock.html "cpp/thread/shared lock")
     
     
     namespace std {

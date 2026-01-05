@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Expressions](expressions.html "cpp/language/expressions")
 
@@ -289,7 +289,7 @@ Conversions
 [`dynamic_cast`](dynamic_cast.html "cpp/language/dynamic cast")  
 [`reinterpret_cast`](reinterpret_cast.html "cpp/language/reinterpret cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/expressions/navbar_content&action=edit)
+
 
 Accesses a member of its operand. 
 
@@ -328,7 +328,7 @@ pointer to member of pointer  | a->*b | Yes  | R& T::operator->*(S b); | R& oper
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_member_access&action=edit&section=1 "Edit section: Explanation")] Explanation
+### Explanation
 
 Built-in _subscript_ operator provides access to an object pointed-to by the [pointer](pointer.html "cpp/language/pointer") or [array](array.html "cpp/language/array") operand. 
 
@@ -340,7 +340,7 @@ _Member of object_ and _pointer to member of object_ operators provide access to
 
 Built-in _member of pointer_ and _pointer to member of pointer_ operators provide access to a data member or member function of the class pointed-to by the pointer operand. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_member_access&action=edit&section=2 "Edit section: Built-in subscript operator")] Built-in subscript operator
+#### Built-in subscript operator
 
 The subscript operator expressions have the form   
   
@@ -397,7 +397,7 @@ Output:
     
     4242
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_member_access&action=edit&section=3 "Edit section: Built-in indirection operator")] Built-in indirection operator
+#### Built-in indirection operator
 
 The indirection operator expressions have the form   
   
@@ -435,7 +435,7 @@ Run this code
         [](...){}(r, m, fr); // removes possible "unused variable" warnings
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_member_access&action=edit&section=4 "Edit section: Built-in address-of operator")] Built-in address-of operator
+#### Built-in address-of operator
 
 The address-of operator expressions have the form   
   
@@ -475,7 +475,7 @@ Run this code
         auto pf2 = static_cast<void (*)(int)>(&f); // overload resolution due to cast
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_member_access&action=edit&section=5 "Edit section: Built-in member access operators")] Built-in member access operators
+#### Built-in member access operators
 
 The member access operator expressions have the form   
   
@@ -619,7 +619,7 @@ If E2 is a non-static member and the result of E1 is an object whose type is not
         reinterpret_cast<B&>(d).j; // undefined behavior
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_member_access&action=edit&section=6 "Edit section: Built-in pointer-to-member access operators")] Built-in pointer-to-member access operators
+#### Built-in pointer-to-member access operators
 
 The member access operator expressions through pointers to members have the form   
   
@@ -703,81 +703,81 @@ Output:
     7
     14 15
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_member_access&action=edit&section=7 "Edit section: Standard library")] Standard library
+### Standard library
 
 Subscript operator is overloaded by many standard container classes: 
 
 [ operator[]](../utility/bitset/operator_at.html "cpp/utility/bitset/operator at") |  accesses specific bit   
-(public member function of `std::bitset<N>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/bitset/dsc_operator_at&action=edit)  
+(public member function of `std::bitset<N>`)   
 ---|---  
 [ operator[]](../memory/unique_ptr/operator_at.html "cpp/memory/unique ptr/operator at") |  provides indexed access to the managed array   
-(public member function of `std::unique_ptr<T,Deleter>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/unique_ptr/dsc_operator_at&action=edit)  
+(public member function of `std::unique_ptr<T,Deleter>`)   
 [ operator[]](../string/basic_string/operator_at.html "cpp/string/basic string/operator at") |  accesses the specified character   
-(public member function of `std::basic_string<CharT,Traits,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_operator_at&action=edit)  
+(public member function of `std::basic_string<CharT,Traits,Allocator>`)   
 [ operator[]](../container/array/operator_at.html "cpp/container/array/operator at") |  access specified element   
-(public member function of `std::array<T,N>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_operator_at&action=edit)  
+(public member function of `std::array<T,N>`)   
 [ operator[]](../container/deque/operator_at.html "cpp/container/deque/operator at") |  access specified element   
-(public member function of `std::deque<T,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_operator_at&action=edit)  
+(public member function of `std::deque<T,Allocator>`)   
 [ operator[]](../container/vector/operator_at.html "cpp/container/vector/operator at") |  access specified element   
-(public member function of `std::vector<T,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_operator_at&action=edit)  
+(public member function of `std::vector<T,Allocator>`)   
 [ operator[]](../container/map/operator_at.html "cpp/container/map/operator at") |  access or insert specified element   
-(public member function of `std::map<Key,T,Compare,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_operator_at&action=edit)  
+(public member function of `std::map<Key,T,Compare,Allocator>`)   
 [ operator[]](../container/unordered_map/operator_at.html "cpp/container/unordered map/operator at") |  access or insert specified element   
-(public member function of `std::unordered_map<Key,T,Hash,KeyEqual,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_operator_at&action=edit)  
+(public member function of `std::unordered_map<Key,T,Hash,KeyEqual,Allocator>`)   
 [ operator[]](../iterator/reverse_iterator/operator_at.html "cpp/iterator/reverse iterator/operator at") |  accesses an element by index   
-(public member function of `std::reverse_iterator<Iter>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/reverse_iterator/dsc_operator_at&action=edit)  
+(public member function of `std::reverse_iterator<Iter>`)   
 [ operator[]](../iterator/move_iterator/operator_at.html "cpp/iterator/move iterator/operator at") |  accesses an element by index   
-(public member function of `std::move_iterator<Iter>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_operator_at&action=edit)  
+(public member function of `std::move_iterator<Iter>`)   
 [ operator[]](../numeric/valarray/operator_at.html "cpp/numeric/valarray/operator at") |  get/set valarray element, slice, or mask   
-(public member function of `std::valarray<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_operator_at&action=edit)  
+(public member function of `std::valarray<T>`)   
 [ operator[]](../regex/match_results/operator_at.html "cpp/regex/match results/operator at") |  returns specified sub-match   
-(public member function of `std::match_results<BidirIt,Alloc>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/match_results/dsc_operator_at&action=edit)  
+(public member function of `std::match_results<BidirIt,Alloc>`)   
   
 The indirection and member operators are overloaded by many iterators and smart pointer classes: 
 
 [ operator*operator->](../memory/unique_ptr/operator*.html "cpp/memory/unique ptr/operator*") |  dereferences pointer to the managed object   
-(public member function of `std::unique_ptr<T,Deleter>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/unique_ptr/dsc_operator*&action=edit)  
+(public member function of `std::unique_ptr<T,Deleter>`)   
 ---|---  
 [ operator*operator->](../memory/shared_ptr/operator*.html "cpp/memory/shared ptr/operator*") |  dereferences the stored pointer   
-(public member function of `std::shared_ptr<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/dsc_operator*&action=edit)  
+(public member function of `std::shared_ptr<T>`)   
 [ operator*operator->](../memory/auto_ptr/operator*.html "cpp/memory/auto ptr/operator*") |  accesses the managed object   
-(public member function of `std::auto_ptr<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/auto_ptr/dsc_operator*&action=edit)  
+(public member function of `std::auto_ptr<T>`)   
 [ operator*](../memory/raw_storage_iterator/operator*.html "cpp/memory/raw storage iterator/operator*") |  dereferences the iterator   
-(public member function of `std::raw_storage_iterator<OutputIt,T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/raw_storage_iterator/dsc_operator*&action=edit)  
+(public member function of `std::raw_storage_iterator<OutputIt,T>`)   
 [ operator*operator->](../iterator/reverse_iterator/operator*.html "cpp/iterator/reverse iterator/operator*") |  dereferences the decremented underlying iterator   
-(public member function of `std::reverse_iterator<Iter>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/reverse_iterator/dsc_operator*&action=edit)  
+(public member function of `std::reverse_iterator<Iter>`)   
 [ operator*](../iterator/back_insert_iterator/operator*.html "cpp/iterator/back insert iterator/operator*") |  no-op   
-(public member function of `std::back_insert_iterator<Container>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/inserter/dsc_operator*&action=edit)  
+(public member function of `std::back_insert_iterator<Container>`)   
 [ operator*](../iterator/front_insert_iterator/operator*.html "cpp/iterator/front insert iterator/operator*") |  no-op   
-(public member function of `std::front_insert_iterator<Container>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/inserter/dsc_operator*&action=edit)  
+(public member function of `std::front_insert_iterator<Container>`)   
 [ operator*](../iterator/insert_iterator/operator*.html "cpp/iterator/insert iterator/operator*") |  no-op   
-(public member function of `std::insert_iterator<Container>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/inserter/dsc_operator*&action=edit)  
+(public member function of `std::insert_iterator<Container>`)   
 [ operator*operator->](../iterator/move_iterator/operator*.html "cpp/iterator/move iterator/operator*") |  accesses the pointed-to element   
-(public member function of `std::move_iterator<Iter>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_operator*&action=edit)  
+(public member function of `std::move_iterator<Iter>`)   
 [ operator*operator->](../iterator/istream_iterator/operator*.html "cpp/iterator/istream iterator/operator*") |  returns the current element   
-(public member function of `std::istream_iterator<T,CharT,Traits,Distance>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/istream_iterator/dsc_operator*&action=edit)  
+(public member function of `std::istream_iterator<T,CharT,Traits,Distance>`)   
 [ operator*](../iterator/ostream_iterator/operator*.html "cpp/iterator/ostream iterator/operator*") |  no-op   
-(public member function of `std::ostream_iterator<T,CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/ostream_iterator/dsc_operator*&action=edit)  
+(public member function of `std::ostream_iterator<T,CharT,Traits>`)   
 [ operator*](../iterator/istreambuf_iterator/operator*.html "cpp/iterator/istreambuf iterator/operator*") |  obtains a copy of the current character   
-(public member function of `std::istreambuf_iterator<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/istreambuf_iterator/dsc_operator*&action=edit)  
+(public member function of `std::istreambuf_iterator<CharT,Traits>`)   
 [ operator*](../iterator/ostreambuf_iterator/operator*.html "cpp/iterator/ostreambuf iterator/operator*") |  no-op   
-(public member function of `std::ostreambuf_iterator<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/ostreambuf_iterator/dsc_operator*&action=edit)  
+(public member function of `std::ostreambuf_iterator<CharT,Traits>`)   
 [ operator*operator->](../regex/regex_iterator/operator*.html "cpp/regex/regex iterator/operator*") |  accesses the current match   
-(public member function of `std::regex_iterator<BidirIt,CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/regex_iterator/dsc_operator*&action=edit)  
+(public member function of `std::regex_iterator<BidirIt,CharT,Traits>`)   
 [ operator*operator->](../regex/regex_token_iterator/operator*.html "cpp/regex/regex token iterator/operator*") |  accesses current submatch   
-(public member function of `std::regex_token_iterator<BidirIt,CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/regex_token_iterator/dsc_operator*&action=edit)  
+(public member function of `std::regex_token_iterator<BidirIt,CharT,Traits>`)   
   
 No standard library classes overload operator&. The best known example of overloaded operator& is the Microsoft COM class [`CComPtr`](https://msdn.microsoft.com/en-us/library/31k6d0k7\(v=vs.100\).aspx), although it can also appear in EDSLs such as [boost.spirit](https://www.boost.org/doc/libs/release/libs/spirit/doc/html/spirit/qi/reference/operator/and_predicate.html). 
 
 No standard library classes overload operator->*. It was suggested that it could be part of [smart pointer interface](https://www.aristeia.com/Papers/DDJ_Oct_1999.pdf), and in fact is used in that capacity by actors in [boost.phoenix](https://www.boost.org/doc/libs/release/libs/phoenix/doc/html/phoenix/modules/operator.html#phoenix.modules.operator.member_pointer_operator), but is more common in EDSLs such as [cpp.react](https://github.com/schlangster/cpp.react/blob/master/include/react/Signal.h#L557). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_member_access&action=edit&section=8 "Edit section: Notes")] Notes
+### Notes
 
 Feature-test macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_multidimensional_subscript`](../experimental/feature_test.html#cpp_multidimensional_subscript "cpp/feature test") | [`202110L`](../compiler_support/23.html#cpp_multidimensional_subscript_202110L "cpp/compiler support/23") | (C++23) | [Multidimensional subscript operator](operators.html#Array_subscript_operator "cpp/language/operators")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_member_access&action=edit&section=9 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -805,7 +805,7 @@ E1.E2 names a static member or enumeration  | it is
 [CWG 2823](https://cplusplus.github.io/CWG/issues/2823.html) | C++98  | the behavior of *expr was unclear if expr  
 does not point to an object or function  | made clear   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_member_access&action=edit&section=10 "Edit section: See also")] See also
+### See also
 
 [Operator precedence](operator_precedence.html "cpp/language/operator precedence")
 

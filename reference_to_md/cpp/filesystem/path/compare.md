@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Filesystem library](../../filesystem.html "cpp/filesystem")
 
@@ -100,7 +100,7 @@ filesystem::symlink_status](../status.html "cpp/filesystem/status")
 [filesystem::is_socket](../is_socket.html "cpp/filesystem/is socket")  
 [filesystem::is_symlink](../is_symlink.html "cpp/filesystem/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/navbar_content&action=edit)
+
 
 [`std::filesystem::path`](../path.html "cpp/filesystem/path")
 
@@ -169,7 +169,7 @@ filesystem::symlink_status](../status.html "cpp/filesystem/status")
 | [formatter<std::filesystem::path>](formatter.html "cpp/filesystem/path/formatter")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/path/navbar_content&action=edit)
+
 
 int compare( const path& p ) const noexcept; |  (1)  |  (since C++17)  
 ---|---|---  
@@ -203,14 +203,14 @@ Otherwise returns a value less than, equal to or greater than ​0​ if the rel
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/compare&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 p  |  \-  |  a path to compare to   
 ---|---|---  
 str  |  \-  |  a string or string view representing path to compare to   
 s  |  \-  |  a null-terminated string representing path to compare to   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/compare&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 A value less than ​0​ if the path is lexicographically less than the given path. 
 
@@ -218,15 +218,15 @@ A value equal to ​0​ if the path is lexicographically equal to the given pat
 
 A value greater than ​0​ if the path is lexicographically greater than the given path. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/compare&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 2,3) May throw implementation-defined exceptions.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/compare&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 For two-way comparisons, [binary operators](operator_cmp.html "cpp/filesystem/path/operator cmp") may be more suitable. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/compare&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -267,7 +267,7 @@ Output:
     "/a/b" < "/a/b/."	: no canonical conversion
     "/a/b/" > "a/c"	        : absolute paths order after relative ones
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/compare&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -275,8 +275,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 2936](https://cplusplus.github.io/LWG/issue2936) | C++17  | compared all path elements directly  | root name and root directory handled separately   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/compare&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ operator==operator!=operator<operator<=operator>operator>=operator<=>](operator_cmp.html "cpp/filesystem/path/operator cmp")(C++17)(C++17)(until C++20)(C++17)(until C++20)(C++17)(until C++20)(C++17)(until C++20)(C++17)(until C++20)(C++20) |  lexicographically compares two paths   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/path/dsc_operator_cmp&action=edit)  
+(function)   
 ---|---

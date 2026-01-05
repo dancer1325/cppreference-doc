@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 Defined in header `[<atomic>](../header/atomic.html "cpp/header/atomic")` |  |   
 ---|---|---  
@@ -214,20 +214,20 @@ If `std::atomic<T>` has no `fetch_and` member (this member is only provided for 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_fetch_and&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 obj  |  \-  |  pointer to the atomic object to modify   
 ---|---|---  
 arg  |  \-  |  the value to bitwise AND to the value stored in the atomic object   
 order  |  \-  |  the memory synchronization ordering   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_fetch_and&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The value immediately preceding the effects of this function in the [modification order](memory_order.html#Modification_order "cpp/atomic/memory order") of *obj. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_fetch_and&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic_fetch_cond_example&action=edit)
+
 
 Run this code
     
@@ -333,7 +333,7 @@ Output:
     print_count() done
     count_up() done
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_fetch_and&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -343,13 +343,13 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 `T` was deduced from multiple arguments  | `T` is only deduced  
 from obj   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_fetch_and&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ fetch_and](atomic/fetch_and.html "cpp/atomic/atomic/fetch and") |  atomically performs bitwise AND between the argument and the value of the atomic object and obtains the value held previously   
-(public member function of `std::atomic<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_fetch_and&action=edit)  
+(public member function of `std::atomic<T>`)   
 ---|---  
 [ atomic_fetch_oratomic_fetch_or_explicit](atomic_fetch_or.html "cpp/atomic/atomic fetch or")(C++11)(C++11) |  replaces the atomic object with the result of bitwise OR with a non-atomic argument and obtains the previous value of the atomic   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/dsc_atomic_fetch_or&action=edit)  
+(function template)   
 [ atomic_fetch_xoratomic_fetch_xor_explicit](atomic_fetch_xor.html "cpp/atomic/atomic fetch xor")(C++11)(C++11) |  replaces the atomic object with the result of bitwise XOR with a non-atomic argument and obtains the previous value of the atomic   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/dsc_atomic_fetch_xor&action=edit)  
+(function template)   
 [C documentation](../../c/atomic/atomic_fetch_and.html "c/atomic/atomic fetch and") for atomic_fetch_and, atomic_fetch_and_explicit

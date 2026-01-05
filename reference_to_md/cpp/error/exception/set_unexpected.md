@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Diagnostics library](../../error.html "cpp/error")
 
@@ -89,7 +89,7 @@ Exception handling failures
 [breakpoint_if_debugging](../../utility/breakpoint_if_debugging.html "cpp/utility/breakpoint if debugging")(C++26)  
 [breakpoint](../../utility/breakpoint.html "cpp/utility/breakpoint")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/navbar_content&action=edit)
+
 
 Defined in header `[<exception>](../../header/exception.html "cpp/header/exception")` |  |   
 ---|---|---  
@@ -103,21 +103,21 @@ Makes f the new global [std::unexpected_handler](unexpected_handler.html "cpp/er
 This function is thread-safe. Every call to `std::set_unexpected` _synchronizes-with_ (see [std::memory_order](../../atomic/memory_order.html "cpp/atomic/memory order")) the subsequent calls to `std::set_unexpected` and [std::get_unexpected](get_unexpected.html "cpp/error/get unexpected") | (since C++11)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/set_unexpected&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 f  |  \-  |  pointer to function of type [std::unexpected_handler](unexpected_handler.html "cpp/error/unexpected handler"), or null pointer   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/set_unexpected&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The previously-installed unexpected handler, or a null pointer value if none was installed. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/set_unexpected&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ unexpected](../unexpected.html "cpp/error/unexpected")(deprecated in C++11)(removed in C++17) |  function called when dynamic exception specification is violated   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_unexpected&action=edit)  
+(function)   
 ---|---  
 [ get_unexpected](get_unexpected.html "cpp/error/get unexpected")(deprecated in C++11)(removed in C++17) |  obtains the current `unexpected_handler`   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_get_unexpected&action=edit)  
+(function)   
 [ unexpected_handler](unexpected_handler.html "cpp/error/unexpected handler")(deprecated in C++11)(removed in C++17) |  the type of the function called by [std::unexpected](../unexpected.html "cpp/error/unexpected")   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_unexpected_handler&action=edit)
+(typedef) 

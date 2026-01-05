@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](../empty.html "cpp/iterator/empty")(C++17)  
 [data](../data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 [`std::counted_iterator`](../counted_iterator.html "cpp/iterator/counted iterator")
 
@@ -218,7 +218,7 @@
 [Helper classes](../counted_iterator.html#Helper_classes "cpp/iterator/counted iterator")  
 [iterator_traits<std::counted_iterator>](iterator_traits.html "cpp/iterator/counted iterator/iterator traits")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/counted_iterator/navbar_content&action=edit)
+
 
 template< [std::common_with](../../concepts/common_with.html)<I> I2 >  
 friend constexpr [std::iter_difference_t](../iter_t.html)<I2> operator-(  
@@ -243,20 +243,20 @@ This function template is not visible to ordinary [unqualified](../../language/u
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/counted_iterator/operator-&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 x, y  |  \-  |  iterator adaptors to compute the difference of   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/counted_iterator/operator-&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 y.count() - x.count()
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/counted_iterator/operator-&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Since the _length_ counts down, not up, the order of the arguments of operator- in the underlying expression is reversed, i.e. y is _lhs_ and x is _rhs_. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/counted_iterator/operator-&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -278,12 +278,12 @@ Run this code
                                         // elements of the same sequence
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/counted_iterator/operator-&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ operator++operator++(int)operator+=operator+operator--operator--(int)operator-=operator-](operator_arith.html "cpp/iterator/counted iterator/operator arith") |  advances or decrements the `counted_iterator`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_operator_arith&action=edit)  
+(public member function)   
 ---|---  
 [ operator+](operator+.html "cpp/iterator/counted iterator/operator+")(C++20) |  advances the iterator   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_operator%2B&action=edit)  
+(function template)   
 [ operator-(std::default_sentinel_t)](operator-2.html "cpp/iterator/counted iterator/operator-2")(C++20) |  computes the signed distance to the end   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/counted_iterator/dsc_operator-2&action=edit)
+(function template) 

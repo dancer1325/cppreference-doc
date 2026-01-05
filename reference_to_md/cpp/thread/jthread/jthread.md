@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::jthread`](../jthread.html "cpp/thread/jthread")
 
@@ -198,7 +198,7 @@ Stop token handling
 Non-member functions  
 [swap(std::jthread)](swap2.html "cpp/thread/jthread/swap2")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/jthread/navbar_content&action=edit)
+
 
 jthread() noexcept; |  (1)  |  (since C++20)  
 ---|---|---  
@@ -262,14 +262,14 @@ The completion of the invocation of the constructor [synchronizes with](../../at
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/jthread/jthread&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 other  |  \-  |  another `std::jthread` object to construct this `std::jthread` object with   
 ---|---|---  
 f  |  \-  |  [Callable](../../named_req/Callable.html "cpp/named req/Callable") object to execute in the new thread   
 args  |  \-  |  arguments to pass to the new function   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/jthread/jthread&action=edit&section=2 "Edit section: Postconditions")] Postconditions
+### Postconditions
 
 1) [`get_id()`](get_id.html "cpp/thread/jthread/get id") equal to [`std::jthread::id()`](../thread/id.html "cpp/thread/thread/id") (i.e. [`joinable()`](joinable.html "cpp/thread/jthread/joinable") returns false) and get_stop_source().stop_possible() is false.
 
@@ -277,17 +277,17 @@ args  |  \-  |  arguments to pass to the new function
 
 3) [`get_id()`](get_id.html "cpp/thread/jthread/get id") not equal to [`std::jthread::id()`](../thread/id.html "cpp/thread/thread/id") (i.e. [`joinable()`](joinable.html "cpp/thread/jthread/joinable") returns true), and get_stop_source().stop_possible() is true.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/jthread/jthread&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 3) [std::system_error](../../error/system_error.html "cpp/error/system error") if the thread could not be started. The exception may represent the error condition `std::errc::resource_unavailable_try_again` or another implementation-specific error condition.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/jthread/jthread&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 The arguments to the thread function are moved or copied by value. If a reference argument needs to be passed to the thread function, it has to be wrapped (e.g. with [std::ref](../../utility/functional/ref.html "cpp/utility/functional/ref") or [std::cref](../../utility/functional/ref.html "cpp/utility/functional/ref")). 
 
 Any return value from the function is ignored. If the function throws an exception, [std::terminate](../../error/terminate.html "cpp/error/terminate") is called. In order to pass return values or exceptions back to the calling thread, [std::promise](../promise.html "cpp/thread/promise") or [std::async](../async.html "cpp/thread/async") may be used. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/jthread/jthread&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -396,7 +396,7 @@ Possible output:
     Final value of f.n (foo::n) is 5
     Final value of b.n (baz::n) is 0
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/jthread/jthread&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -410,9 +410,9 @@ requirements[[1]](jthread.html#cite_note-1)
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/jthread/jthread&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ (constructor)](../thread/thread.html "cpp/thread/thread/thread") |  constructs new `thread` object   
-(public member function of `std::thread`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/dsc_constructor&action=edit)  
+(public member function of `std::thread`)   
 ---|---  
 [C documentation](../../../c/thread/thrd_create.html "c/thread/thrd create") for thrd_create

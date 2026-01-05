@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::condition_variable`](../condition_variable.html "cpp/thread/condition variable")
 
@@ -191,7 +191,7 @@ Waiting
 Native handle  
 [condition_variable::native handle](native_handle.html "cpp/thread/condition variable/native handle")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/condition_variable/navbar_content&action=edit)
+
 
 template< class Clock, class Duration >  
 [std::cv_status](../cv_status.html)  
@@ -245,7 +245,7 @@ If any of the following conditions is satisfied, the behavior is undefined:
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/condition_variable/wait_until&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 lock  |  \-  |  an lock which must be locked by the calling thread   
 ---|---|---  
@@ -255,19 +255,19 @@ Type requirements
 -`Predicate` must meet the requirements of [FunctionObject](../../named_req/FunctionObject.html "cpp/named req/FunctionObject").   
 -pred() must be a valid expression, and its type and value category must meet the [BooleanTestable](../../named_req/BooleanTestable.html "cpp/named req/BooleanTestable") requirements.   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/condition_variable/wait_until&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) [std::cv_status::timeout](../cv_status.html) if abs_time has been reached, otherwise [std::cv_status::no_timeout](../cv_status.html).
 
 2) The latest result of pred() before returning to the caller.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/condition_variable/wait_until&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 1) Timeout-related exceptions.
 
 2) Timeout-related exceptions, and any exception thrown by pred.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/condition_variable/wait_until&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 The standard recommends that the clock tied to abs_time be used to measure time; that clock is not required to be a monotonic clock. There are no guarantees regarding the behavior of this function if the clock is adjusted discontinuously, but the existing implementations convert abs_time from `Clock` to [std::chrono::system_clock](../../chrono/system_clock.html "cpp/chrono/system clock") and delegate to POSIX [`pthread_cond_timedwait`](https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_cond_timedwait.html) so that the wait honors adjustments to the system clock, but not to the user-provided `Clock`. In any case, the function also may wait for longer than until after abs_time has been reached due to scheduling or resource contention delays. 
 
@@ -275,7 +275,7 @@ Even if the clock in use is [std::chrono::steady_clock](../../chrono/steady_cloc
 
 The effects of `notify_one()`/`notify_all()` and each of the three atomic parts of `wait()`/`wait_for()`/`wait_until()` (unlock+wait, wakeup, and lock) take place in a single total order that can be viewed as [modification order](../../atomic/memory_order.html#Modification_order "cpp/atomic/memory order") of an atomic variable: the order is specific to this individual condition variable. This makes it impossible for `notify_one()` to, for example, be delayed and unblock a thread that started waiting just after the call to `notify_one()` was made. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/condition_variable/wait_until&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -340,7 +340,7 @@ Possible output:
     ...finished waiting. i == 1
     ...finished waiting. i == 1
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/condition_variable/wait_until&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -351,10 +351,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ([P2167R3](https://wg21.link/P2167R3))  | C++11  | convertibility to bool was too weak to reflect the expectation of implementations  | requirements strengthened   
 [LWG 2135](https://cplusplus.github.io/LWG/issue2135) | C++11  | the behavior was unclear if lock.lock() throws an exception  | calls [std::terminate](../../error/terminate.html "cpp/error/terminate") in this case   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/condition_variable/wait_until&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ wait](wait.html "cpp/thread/condition variable/wait") |  blocks the current thread until the condition variable is awakened   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/condition_variable/dsc_wait&action=edit)  
+(public member function)   
 ---|---  
 [ wait_for](wait_for.html "cpp/thread/condition variable/wait for") |  blocks the current thread until the condition variable is awakened or after the specified timeout duration   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/condition_variable/dsc_wait_for&action=edit)
+(public member function) 

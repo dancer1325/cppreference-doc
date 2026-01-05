@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Library fundamentals](../memory.html "cpp/experimental/lib extensions")
 
@@ -50,7 +50,7 @@
 [Type-erased and polymorphic allocators](../memory.html "cpp/experimental/memory")  
 [Variable templates for type traits](../type_trait_variable_templates.html "cpp/experimental/type trait variable templates")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions/navbar_content&action=edit)
+
 
 [Polymorphic allocator library](../memory.html "cpp/experimental/memory")
 
@@ -73,7 +73,7 @@ Type-erased allocator support for existing classes
 [packaged_task](../lib_extensions/packaged_task.html "cpp/experimental/lib extensions/packaged task")  
 [promise](../lib_extensions/promise.html "cpp/experimental/lib extensions/promise")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions/pmr/navbar_content&action=edit)
+
 
 [`std::experimental::pmr::unsynchronized_pool_resource`](../unsynchronized_pool_resource.html "cpp/experimental/unsynchronized pool resource")
 
@@ -89,7 +89,7 @@ Protected member functions
 [unsynchronized_pool_resource::do_deallocate](do_deallocate.html "cpp/experimental/unsynchronized pool resource/do deallocate")  
 [unsynchronized_pool_resource::do_is_equal](do_is_equal.html "cpp/experimental/unsynchronized pool resource/do is equal")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions/pmr/unsynchronized_pool_resource/navbar_content&action=edit)
+
 
 void release(); |  |  (library fundamentals TS)  
 ---|---|---  
@@ -99,8 +99,8 @@ Releases all memory owned by this resource by calling the `deallocate` function 
 
 Memory is released back to the upstream resource even if `deallocate` has not been called for some of the allocated blocks. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/unsynchronized_pool_resource/release&action=edit&section=1 "Edit section: See also")] See also 
+### See also 
 
 [ deallocate](../memory_resource/deallocate.html "cpp/experimental/memory resource/deallocate") |  deallocates memory   
-(public member function of `std::experimental::pmr::memory_resource`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/memory_resource/dsc_deallocate&action=edit)  
+(public member function of `std::experimental::pmr::memory_resource`)   
 ---|---

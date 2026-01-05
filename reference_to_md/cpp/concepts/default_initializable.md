@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concepts library](../concepts.html "cpp/concepts")
 
@@ -73,7 +73,7 @@
 ---  
 [_boolean-testable_](boolean-testable.html "cpp/concepts/boolean-testable") ﻿(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/navbar_content&action=edit)
+
 
 Defined in header `[<concepts>](../header/concepts.html "cpp/header/concepts")` |  |   
 ---|---|---  
@@ -92,7 +92,7 @@ The `default_initializable` concept checks whether variables of type `T` can be
 
 Access checking is performed as if in a context unrelated to T. Only the validity of the immediate context of the variable initialization is considered. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/concepts/default_initializable&action=edit&section=1 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     template<class T>
@@ -102,7 +102,7 @@ Access checking is performed as if in a context unrelated to T. Only the validit
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/concepts/default_initializable&action=edit&section=2 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -124,10 +124,10 @@ Access checking is performed as if in a context unrelated to T. Only the validit
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/concepts/default_initializable&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ constructible_from](constructible_from.html "cpp/concepts/constructible from")(C++20) |  specifies that a variable of the type can be constructed from or bound to a set of argument types   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_constructible_from&action=edit)  
+(concept)   
 ---|---  
 [ is_default_constructibleis_trivially_default_constructibleis_nothrow_default_constructible](../types/is_default_constructible.html "cpp/types/is default constructible")(C++11)(C++11)(C++11) |  checks if a type has a default constructor   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_default_constructible&action=edit)
+(class template) 

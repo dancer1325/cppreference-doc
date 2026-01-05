@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Constrained algorithms](../../ranges.html "cpp/algorithm/ranges")
 
@@ -284,7 +284,7 @@ All names in this menu belong to namespace `std::ranges`
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/navbar_content&action=edit)
+
 
 [ Return types of constrained algorithms](../../ranges.html#Return_types "cpp/algorithm/ranges")
 
@@ -300,7 +300,7 @@ Return types
 [ranges::min_max_result](min_max_result.html "cpp/algorithm/ranges/return types/min max result")  
 [ranges::out_value_result](out_value_result.html "cpp/algorithm/ranges/return types/out value result")(C++23)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/return_types/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../../../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -330,12 +330,12 @@ All special member functions of this class template are implicitly declared, whi
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/return_types/in_in_out_result&action=edit&section=1 "Edit section: Template parameters")] Template parameters
+### Template parameters
 
 I1, I2, O  |  \-  |  the types of the iterators that the `ranges::in_in_out_result` stores.   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/return_types/in_in_out_result&action=edit&section=2 "Edit section: Data members")] Data members
+### Data members
 
 Member name  |  Definition   
 ---|---  
@@ -348,7 +348,7 @@ out |  a value (that is supposed to be an iterator) of type `O`.
   
 All these members are declared with `[[[no_unique_address](../../../language/attributes/no_unique_address.html "cpp/language/attributes/no unique address")]]` attribute. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/return_types/in_in_out_result&action=edit&section=3 "Edit section: Member functions")] Member functions
+### Member functions
 
 ##  std::ranges::in_in_out_result::operator in_in_out_result<II1, II2, OO>
 
@@ -371,7 +371,7 @@ Converts *this to the result by constructing every data member of the result fro
 
 2) Equivalent to return {std::move(in1), std::move(in2), std::move(out)};. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/return_types/in_in_out_result&action=edit&section=4 "Edit section: Standard library")] Standard library
+### Standard library
 
 The following standard library functions use `ranges::in_in_out_result` as the return type: 
 
@@ -379,17 +379,17 @@ The following standard library functions use `ranges::in_in_out_result` as the r
   
 ---  
 [ ranges::transform](../transform.html "cpp/algorithm/ranges/transform")(C++20) |  applies a function to a range of elements  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_transform&action=edit)  
+(algorithm function object)  
 [ ranges::merge](../merge.html "cpp/algorithm/ranges/merge")(C++20) |  merges two sorted ranges  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_merge&action=edit)  
+(algorithm function object)  
 [ ranges::set_union](../set_union.html "cpp/algorithm/ranges/set union")(C++20) |  computes the union of two sets  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_set_union&action=edit)  
+(algorithm function object)  
 [ ranges::set_intersection](../set_intersection.html "cpp/algorithm/ranges/set intersection")(C++20) |  computes the intersection of two sets  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_set_intersection&action=edit)  
+(algorithm function object)  
 [ ranges::set_symmetric_difference](../set_symmetric_difference.html "cpp/algorithm/ranges/set symmetric difference")(C++20) |  computes the symmetric difference between two sets  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_set_symmetric_difference&action=edit)  
+(algorithm function object)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/return_types/in_in_out_result&action=edit&section=5 "Edit section: Synopsis")] Synopsis 
+### Synopsis 
     
     
     namespace std::ranges
@@ -421,7 +421,7 @@ The following standard library functions use `ranges::in_in_out_result` as the r
         };
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/return_types/in_in_out_result&action=edit&section=6 "Edit section: Notes")] Notes
+### Notes
 
 Each standard library algorithm that uses this family of return types declares a new [alias type](../../../language/type_alias.html "cpp/language/type alias"), e.g. using merge_result = in_in_out_result<I1, I2, O>;. 
 
@@ -429,7 +429,7 @@ The names for such aliases are formed by adding the suffix "_`_result`_ " to the
 
 Unlike [std::pair](../../../utility/pair.html "cpp/utility/pair") and [std::tuple](../../../utility/tuple.html "cpp/utility/tuple"), this class template has data members of meaningful names. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/return_types/in_in_out_result&action=edit&section=7 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -466,10 +466,10 @@ Output:
     in2: 3 4 5 6 7 
     out: 1 2 3 3 4 4 5 5 5 6 7
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/return_types/in_in_out_result&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [ pair](../../../utility/pair.html "cpp/utility/pair") |  implements binary tuple, i.e. a pair of values   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_pair&action=edit)  
+(class template)   
 ---|---  
 [ tuple](../../../utility/tuple.html "cpp/utility/tuple")(C++11) |  implements fixed size container, which holds elements of possibly different types   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_tuple&action=edit)
+(class template) 

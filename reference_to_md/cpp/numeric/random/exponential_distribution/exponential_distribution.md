@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [Pseudo-random number generation](../../random.html "cpp/numeric/random")
 
@@ -161,7 +161,7 @@
 [piecewise_constant_distribution](../piecewise_constant_distribution.html "cpp/numeric/random/piecewise constant distribution")(C++11)  
 [piecewise_linear_distribution](../piecewise_linear_distribution.html "cpp/numeric/random/piecewise linear distribution")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/navbar_content&action=edit)
+
 
 [`std::exponential_distribution`](../exponential_distribution.html "cpp/numeric/random/exponential distribution")
 
@@ -180,7 +180,7 @@ Non-member functions
 [operator==operator!=](operator_cmp.html "cpp/numeric/random/exponential distribution/operator cmp")(C++11)(C++11)(until C++20)  
 [operator<<operator>>](operator_ltltgtgt.html "cpp/numeric/random/exponential distribution/operator ltltgtgt")(C++11)(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/exponential_distribution/navbar_content&action=edit)
+
 
 exponential_distribution() : exponential_distribution(1.0) {} |  (1)  |  (since C++11)  
 ---|---|---  
@@ -194,17 +194,17 @@ Constructs a new distribution object.
 
 3) Uses params as the distribution parameter.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/random/exponential_distribution/exponential_distribution&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 lambda  |  \-  |  the _λ_ distribution parameter (the rate parameter)   
 ---|---|---  
 params  |  \-  |  the distribution parameter set   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/random/exponential_distribution/exponential_distribution&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 Requires that 0 < lambda. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/random/exponential_distribution/exponential_distribution&action=edit&section=3 "Edit section: Defect reports")] Defect reports 
+### Defect reports 
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

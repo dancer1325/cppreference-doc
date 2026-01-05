@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [`std::complex`](../complex.html "cpp/numeric/complex")
 
@@ -164,7 +164,7 @@
 [tuple_size<std::complex>](tuple_size.html "cpp/numeric/complex/tuple size")(C++26)  
 [tuple_element<std::complex>](tuple_element.html "cpp/numeric/complex/tuple element")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/navbar_content&action=edit)
+
 
 Defined in header `[<complex>](../../header/complex.html "cpp/header/complex")` |  |   
 ---|---|---  
@@ -185,18 +185,18 @@ Computes complex cosine of a complex value z.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/cos&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 z  |  \-  |  complex value   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/cos&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 If no errors occur, the complex cosine of z is returned. 
 
 Errors and special cases are handled as if the operation is implemented by `[std::cosh](cosh.html "cpp/numeric/complex/cosh")(i * z)`, where `i` is the imaginary unit. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/cos&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 The cosine is an entire function on the complex plane, and has no branch cuts. 
 
@@ -207,7 +207,7 @@ Mathematical definition of the cosine is cos z = eiz
 2  
 . 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/cos&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -234,17 +234,17 @@ Output:
     cos(1.000000,0.000000) = (0.540302,-0.000000) ( cos(1) = 0.540302)
     cos(0.000000,1.000000) = (1.543081,-0.000000) (cosh(1) = 1.543081)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/cos&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ sin(std::complex)](sin.html "cpp/numeric/complex/sin") |  computes sine of a complex number (\\({\small\sin{z}}\\)sin(z))   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_sin&action=edit)  
+(function template)   
 ---|---  
 [ tan(std::complex)](tan.html "cpp/numeric/complex/tan") |  computes tangent of a complex number (\\({\small\tan{z}}\\)tan(z))   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_tan&action=edit)  
+(function template)   
 [ acos(std::complex)](acos.html "cpp/numeric/complex/acos")(C++11) |  computes arc cosine of a complex number (\\({\small\arccos{z}}\\)arccos(z))   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_acos&action=edit)  
+(function template)   
 [ coscosfcosl](../math/cos.html "cpp/numeric/math/cos")(C++11)(C++11) |  computes cosine (\\({\small\cos{x}}\\)cos(x))   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_cos&action=edit)  
+(function)   
 [ cos(std::valarray)](../valarray/cos.html "cpp/numeric/valarray/cos") |  applies the function [std::cos](../math/cos.html "cpp/numeric/math/cos") to each element of valarray   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_cos&action=edit)  
+(function template)   
 [C documentation](../../../c/numeric/complex/ccos.html "c/numeric/complex/ccos") for ccos

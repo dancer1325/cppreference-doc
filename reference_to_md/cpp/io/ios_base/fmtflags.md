@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::ios_base`](../ios_base.html "cpp/io/ios base")
 
@@ -113,7 +113,7 @@ Member types
 [ios_base::event](event.html "cpp/io/ios base/event")  
 [ios_base::event_callback](event_callback.html "cpp/io/ios base/event callback")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/ios_base/navbar_content&action=edit)
+
 
 typedef /*implementation defined*/ fmtflags; |  |   
 ---|---|---  
@@ -160,7 +160,7 @@ Constant  |  Explanation
 **`unitbuf`** |  flush the output after each output operation: see [std::unitbuf](../manip/unitbuf.html "cpp/io/manip/unitbuf")  
 **`uppercase`** |  replace certain lowercase letters with their uppercase equivalents in certain output operations: see [std::uppercase](../manip/uppercase.html "cpp/io/manip/uppercase")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/ios_base/fmtflags&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
 The following example shows several different ways to print the same result.
 
@@ -210,32 +210,32 @@ Output:
     0x96
     0x96
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/ios_base/fmtflags&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ flags](flags.html "cpp/io/ios base/flags") |  manages format flags   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/ios_base/dsc_flags&action=edit)  
+(public member function)   
 ---|---  
 [ setf](setf.html "cpp/io/ios base/setf") |  sets specific format flag   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/ios_base/dsc_setf&action=edit)  
+(public member function)   
 [ unsetf](unsetf.html "cpp/io/ios base/unsetf") |  clears specific format flag   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/ios_base/dsc_unsetf&action=edit)  
+(public member function)   
 [ setbase](../manip/setbase.html "cpp/io/manip/setbase") |  changes the base used for integer I/O   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_setbase&action=edit)  
+(function)   
 [ setfill](../manip/setfill.html "cpp/io/manip/setfill") |  changes the fill character   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_setfill&action=edit)  
+(function template)   
 [ fixedscientifichexfloatdefaultfloat](../manip/fixed.html "cpp/io/manip/fixed")(C++11)(C++11) |  changes formatting used for floating-point I/O   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_fixed&action=edit)  
+(function)   
 [ showbasenoshowbase](../manip/showbase.html "cpp/io/manip/showbase") |  controls whether prefix is used to indicate numeric base   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_showbase&action=edit)  
+(function)   
 [ boolalphanoboolalpha](../manip/boolalpha.html "cpp/io/manip/boolalpha") |  switches between textual and numeric representation of booleans   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_boolalpha&action=edit)  
+(function)   
 [ showposnoshowpos](../manip/showpos.html "cpp/io/manip/showpos") |  controls whether the `**+**` sign used with non-negative numbers   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_showpos&action=edit)  
+(function)   
 [ showpointnoshowpoint](../manip/showpoint.html "cpp/io/manip/showpoint") |  controls whether decimal point is always included in floating-point representation   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_showpoint&action=edit)  
+(function)   
 [ unitbufnounitbuf](../manip/unitbuf.html "cpp/io/manip/unitbuf") |  controls whether output is flushed after each operation   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_unitbuf&action=edit)  
+(function)   
 [ skipwsnoskipws](../manip/skipws.html "cpp/io/manip/skipws") |  controls whether leading whitespace is skipped on input   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_skipws&action=edit)  
+(function)   
 [ uppercasenouppercase](../manip/uppercase.html "cpp/io/manip/uppercase") |  controls whether uppercase characters are used with some output formats   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_uppercase&action=edit)
+(function) 

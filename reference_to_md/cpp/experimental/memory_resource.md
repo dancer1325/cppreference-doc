@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Library fundamentals](memory.html "cpp/experimental/lib extensions")
 
@@ -50,7 +50,7 @@
 [Type-erased and polymorphic allocators](memory.html "cpp/experimental/memory")  
 [Variable templates for type traits](type_trait_variable_templates.html "cpp/experimental/type trait variable templates")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions/navbar_content&action=edit)
+
 
 [Polymorphic allocator library](memory.html "cpp/experimental/memory")
 
@@ -73,7 +73,7 @@ Type-erased allocator support for existing classes
 [packaged_task](lib_extensions/packaged_task.html "cpp/experimental/lib extensions/packaged task")  
 [promise](lib_extensions/promise.html "cpp/experimental/lib extensions/promise")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions/pmr/navbar_content&action=edit)
+
 
 **`std::experimental::pmr::memory_resource`**
 
@@ -90,7 +90,7 @@ Protected member functions
 Non-member functions  
 [operator==operator!=](memory_resource/operator_eq.html "cpp/experimental/memory resource/operator eq")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions/pmr/memory_resource/navbar_content&action=edit)
+
 
 ![](https://upload.cppreference.com/mwiki/images/3/31/Imbox_notice.png) |  **Merged into ISO C++** The functionality described on this page was merged into the mainline ISO C++ standard as of 3/2016, see [`std::pmr::memory_resource`](../memory/memory_resource.html "cpp/memory/memory resource") (since C++17)  
 ---|---  
@@ -111,36 +111,36 @@ The class `std::experimental::pmr::memory_resource` is an abstract interface to 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/memory_resource&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](memory_resource/memory_resource.html "cpp/experimental/memory resource/memory resource")(implicitly declared) |  constructs a new `memory_resource`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/memory_resource/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 (destructor)[virtual] |  destructs a `memory_resource`   
-(virtual public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/memory_resource/dsc_destructor&action=edit)  
+(virtual public member function)   
 operator=(implicitly declared) |  implicitly declared copy assignment operator   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/memory_resource/dsc_operator%3D&action=edit)  
+(public member function)   
   
 #####  Public member functions   
   
 [ allocate](memory_resource/allocate.html "cpp/experimental/memory resource/allocate") |  allocates memory   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/memory_resource/dsc_allocate&action=edit)  
+(public member function)   
 [ deallocate](memory_resource/deallocate.html "cpp/experimental/memory resource/deallocate") |  deallocates memory   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/memory_resource/dsc_deallocate&action=edit)  
+(public member function)   
 [ is_equal](memory_resource/is_equal.html "cpp/experimental/memory resource/is equal") |  compare for equality with another `memory_resource`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/memory_resource/dsc_is_equal&action=edit)  
+(public member function)   
   
 #####  Protected member functions   
   
 [ do_allocate](memory_resource/do_allocate.html "cpp/experimental/memory resource/do allocate")[virtual] |  allocates memory   
-(virtual protected member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/memory_resource/dsc_do_allocate&action=edit)  
+(virtual protected member function)   
 [ do_deallocate](memory_resource/do_deallocate.html "cpp/experimental/memory resource/do deallocate")[virtual] |  deallocates memory   
-(virtual protected member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/memory_resource/dsc_do_deallocate&action=edit)  
+(virtual protected member function)   
 [ do_is_equal](memory_resource/do_is_equal.html "cpp/experimental/memory resource/do is equal")[virtual] |  compare for equality with another `memory_resource`   
-(virtual protected member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/memory_resource/dsc_do_is_equal&action=edit)  
+(virtual protected member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/memory_resource&action=edit&section=2 "Edit section: Non-member-functions")] Non-member-functions
+### Non-member-functions
 
 [ operator==operator!=](memory_resource/operator_eq.html "cpp/experimental/memory resource/operator eq") |  compare two `memory_resource`s   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/memory_resource/dsc_operator_eq&action=edit)  
+(function)   
 ---|---

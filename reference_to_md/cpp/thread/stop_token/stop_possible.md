@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::stop_token`](../stop_token.html "cpp/thread/stop token")
 
@@ -191,7 +191,7 @@ Non-member functions
 [swap(std::stop_token)](swap2.html "cpp/thread/stop token/swap2")  
 [operator==](operator_cmp.html "cpp/thread/stop token/operator cmp")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/stop_token/navbar_content&action=edit)
+
 
 bool stop_possible() const noexcept; |  |  (since C++20)  
 ---|---|---  
@@ -211,21 +211,21 @@ A default constructed stop_token has no associated stop-state, and thus cannot b
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/stop_token/stop_possible&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/stop_token/stop_possible&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 false if the `stop_token` object has no associated stop-state, or it did not yet receive a stop request and there are no associated [std::stop_source](../stop_source.html "cpp/thread/stop source") object(s); true otherwise. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/stop_token/stop_possible&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 If the `stop_token` object has associated stop-state and a stop request has already been made, this function still returns true. 
 
 If the `stop_token` object has associated stop-state from a [std::jthread](../jthread.html "cpp/thread/jthread")—for example, the `stop_token` was retrieved by invoking get_stop_token() on a [std::jthread](../jthread.html "cpp/thread/jthread") object—then this function always returns true. A [std::jthread](../jthread.html "cpp/thread/jthread") always has an internal [std::stop_source](../stop_source.html "cpp/thread/stop source") object, even if the thread's invoking function does not check it. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/stop_token/stop_possible&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     

@@ -30,7 +30,7 @@
 [Symbols index](../../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Ranges](../../../ranges.html "cpp/experimental/ranges")
 
@@ -66,7 +66,7 @@
 [Ranges](../../../ranges.html#Ranges "cpp/experimental/ranges")  
 [Algorithms](../../../ranges.html#Algorithms "cpp/experimental/ranges")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/navbar_content&action=edit)
+
 
 [General utilities library](../../../ranges.html#General_utilities "cpp/experimental/ranges")
 
@@ -125,7 +125,7 @@ Tagged pairs and tuples
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/utility/navbar_content&action=edit)
+
 
 [`std::experimental::ranges::tagged`](../tagged.html "cpp/experimental/ranges/utility/tagged")
 
@@ -141,7 +141,7 @@ Helper classes
 [tuple_size](tuple_size.html "cpp/experimental/ranges/utility/tagged/tuple size")  
 [tuple_element](tuple_element.html "cpp/experimental/ranges/utility/tagged/tuple element")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/utility/tagged/navbar_content&action=edit)
+
 
 constexpr void swap( tagged& rhs ) noexcept(/* see below */)  
 requires Swappable<Base>; |  |   
@@ -150,14 +150,14 @@ requires Swappable<Base>; |  |
   
 Swap the contents of *this and rhs, as if by [ranges::swap](http://en.cppreference.com/w/cpp/ranges-utility-placeholder/swap)(static_cast<Base&>(*this), static_cast<Base&>(rhs));. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/utility/tagged/swap&action=edit&section=1 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 [`noexcept`](../../../../language/noexcept_spec.html "cpp/language/noexcept spec") specification: 
 
 noexcept(noexcept([ranges::swap](http://en.cppreference.com/w/cpp/ranges-utility-placeholder/swap)([std::declval](../../../../utility/declval.html)<Base&>(), [std::declval](../../../../utility/declval.html)<Base&>())))
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/utility/tagged/swap&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ ranges::swap(ranges::tagged)](swap2.html "cpp/experimental/ranges/utility/tagged/swap2") |  specializes `swap` for `tagged` objects   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/utility/tagged/dsc_swap2&action=edit)  
+(function)   
 ---|---

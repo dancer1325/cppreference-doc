@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 Defined in header `[<ranges>](../header/ranges.html "cpp/header/ranges")` |  |   
 ---|---|---  
@@ -242,17 +242,17 @@ using range_value_t = [std::iter_value_t](../iterator/iter_t.html)<[ranges::iter
 
 3) Used to obtain the value type of the iterator type of range type `R`.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/range_size_t&action=edit&section=1 "Edit section: Template parameters")] Template parameters
+### Template parameters
 
 R  |  \-  |  a [`range`](range.html "cpp/ranges/range") type or a [`sized_range`](sized_range.html "cpp/ranges/sized range") type   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/range_size_t&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ iter_value_titer_reference_titer_const_reference_titer_difference_titer_rvalue_reference_titer_common_reference_t](../iterator/iter_t.html "cpp/iterator/iter t")(C++20)(C++20)(C++23)(C++20)(C++20)(C++20) |  computes the associated types of an iterator  
-(alias template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_iter_t&action=edit)  
+(alias template)  
 ---|---  
 [ ranges::iterator_tranges::const_iterator_tranges::sentinel_tranges::const_sentinel_t](iterator_t.html "cpp/ranges/iterator t")(C++20)(C++23)(C++20)(C++23) |  obtains iterator and sentinel types of a range  
-(alias template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_iterator_t&action=edit)  
+(alias template)  
 [ ranges::range_reference_tranges::range_const_reference_tranges::range_rvalue_reference_tranges::range_common_reference_t](range_reference_t.html "cpp/ranges/range reference t")(C++20)(C++23)(C++20)(C++20) |  obtains reference types of a range  
-(alias template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_range_reference_t&action=edit)
+(alias template)

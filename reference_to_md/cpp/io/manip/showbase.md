@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [Input/output manipulators](../manip.html "cpp/io/manip")
 
@@ -154,7 +154,7 @@ Time and money I/O
 Quoted manipulator  
 [quoted](quoted.html "cpp/io/manip/quoted")(C++14)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/navbar_content&action=edit)
+
 
 Defined in header `[<ios>](../../header/ios.html "cpp/header/ios")` |  |   
 ---|---|---  
@@ -181,20 +181,20 @@ The `showbase` flag affects the behavior of integer output (see [std::num_put::p
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/showbase&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 str  |  \-  |  reference to I/O stream   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/showbase&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 str (reference to the stream after manipulation). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/showbase&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 As specifed in [std::num_put::put](../../locale/num_put/put.html "cpp/locale/num put/put"), the showbase flag in integer output acts like the # format specifier in [std::printf](../c/printf.html "cpp/io/c/fprintf"), which means the numeric base prefix is _not_ added when outputting the value zero. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/showbase&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -228,10 +228,10 @@ Output:
     With showbase, parsing 3.14 as money gives 0
     Without showbase, parsing 3.14 as money gives 314
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/showbase&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ resetiosflags](resetiosflags.html "cpp/io/manip/resetiosflags") |  clears the specified ios_base flags   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_resetiosflags&action=edit)  
+(function)   
 ---|---  
 [ setiosflags](setiosflags.html "cpp/io/manip/setiosflags") |  sets the specified `ios_base` flags   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_setiosflags&action=edit)
+(function) 

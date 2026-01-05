@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 Defined in header `[<condition_variable>](../header/condition_variable.html "cpp/header/condition variable")` |  |   
 ---|---|---  
@@ -187,21 +187,21 @@ The scoped enumeration `std::cv_status` describes whether a timed wait returned 
 
 `std::cv_status` is used by the `wait_for` and `wait_until` member functions of [std::condition_variable](condition_variable.html "cpp/thread/condition variable") and [std::condition_variable_any](condition_variable_any.html "cpp/thread/condition variable any"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/cv_status&action=edit&section=1 "Edit section: Member constants")] Member constants
+### Member constants
 
 Enumerator  |  Meaning   
 ---|---  
 `no_timeout` |  the condition variable was awakened with `notify_all`, `notify_one`, or spuriously   
 `timeout` |  the condition variable was awakened by timeout expiration   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/cv_status&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ wait_for](condition_variable/wait_for.html "cpp/thread/condition variable/wait for") |  blocks the current thread until the condition variable is awakened or after the specified timeout duration   
-(public member function of `std::condition_variable`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/condition_variable/dsc_wait_for&action=edit)  
+(public member function of `std::condition_variable`)   
 ---|---  
 [ wait_for](condition_variable_any/wait_for.html "cpp/thread/condition variable any/wait for") |  blocks the current thread until the condition variable is awakened or after the specified timeout duration   
-(public member function of `std::condition_variable_any`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/condition_variable/dsc_wait_for&action=edit)  
+(public member function of `std::condition_variable_any`)   
 [ wait_until](condition_variable/wait_until.html "cpp/thread/condition variable/wait until") |  blocks the current thread until the condition variable is awakened or until specified time point has been reached   
-(public member function of `std::condition_variable`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/condition_variable/dsc_wait_until&action=edit)  
+(public member function of `std::condition_variable`)   
 [ wait_until](condition_variable_any/wait_until.html "cpp/thread/condition variable any/wait until") |  blocks the current thread until the condition variable is awakened or until specified time point has been reached   
-(public member function of `std::condition_variable_any`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/condition_variable/dsc_wait_until&action=edit)
+(public member function of `std::condition_variable_any`) 

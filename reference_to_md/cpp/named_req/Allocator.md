@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ named requirements](../iterator/concepts.html "cpp/named req")
 
@@ -147,7 +147,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/named_req/navbar_content&action=edit)
+
 
 Encapsulates strategies for access/addressing, allocation/deallocation and construction/destruction of objects. 
 
@@ -169,7 +169,7 @@ The implementation of many allocator requirements is optional because all [Alloc
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/Allocator&action=edit&section=1 "Edit section: Requirements")] Requirements
+### Requirements
 
 Given 
 
@@ -377,7 +377,7 @@ An allocator type `X` for type `T` additionally satisfies the _allocator complet
 | (since C++17)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/Allocator&action=edit&section=3 "Edit section: Stateful and stateless allocators")] Stateful and stateless allocators
+### Stateful and stateless allocators
 
 Every Allocator type is either _stateful_ or _stateless_. Generally, a stateful allocator type can have unequal values which denote distinct memory resources, while a stateless allocator type denotes a single memory resource. 
 
@@ -390,7 +390,7 @@ Instances of a stateless allocator type always compare equal. Stateless allocato
 The member type `is_always_equal` of [std::allocator_traits](../memory/allocator_traits.html "cpp/memory/allocator traits") is intendedly used for determining whether an allocator type is stateless.  | (since C++11)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/Allocator&action=edit&section=4 "Edit section: Fancy pointers")] Fancy pointers
+### Fancy pointers
 
 When the member type `pointer` is not a raw pointer type, it is commonly referred to as a ["fancy pointer"](https://wg21.link/P0773R0). Such pointers were introduced to support segmented memory architectures and are used today to access objects allocated in address spaces that differ from the homogeneous virtual address space that is accessed by raw pointers. An example of a fancy pointer is the mapping address-independent pointer [`boost::interprocess::offset_ptr`](https://www.boost.org/doc/libs/release/doc/html/interprocess/offset_ptr.html), which makes it possible to allocate node-based data structures such as [std::set](../container/set.html "cpp/container/set") in shared memory and memory mapped files mapped in different addresses in every process. Fancy pointers can be used independently of the allocator that provided them, through the class template [std::pointer_traits](../memory/pointer_traits.html "cpp/memory/pointer traits")(since C++11). The function std::to_address can be used to obtain a raw pointer from a fancy pointer.(since C++20)
 
@@ -413,19 +413,19 @@ The exposition-only concept /*simple-allocator*/ defines the minimal usability c
 
 (since C++26)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/Allocator&action=edit&section=6 "Edit section: Standard library")] Standard library
+### Standard library
 
 The following standard library components satisfy the Allocator requirements: 
 
 [ allocator](../memory/allocator.html "cpp/memory/allocator") |  the default allocator   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_allocator&action=edit)  
+(class template)   
 ---|---  
 [ scoped_allocator_adaptor](../memory/scoped_allocator_adaptor.html "cpp/memory/scoped allocator adaptor")(C++11) |  implements multi-level allocator for multi-level containers   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_scoped_allocator_adaptor&action=edit)  
+(class template)   
 [ polymorphic_allocator](../memory/polymorphic_allocator.html "cpp/memory/polymorphic allocator")(C++17) |  an allocator that supports run-time polymorphism based on the [std::pmr::memory_resource](../memory/memory_resource.html "cpp/memory/memory resource") it is constructed with   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_polymorphic_allocator&action=edit)  
+(class template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/Allocator&action=edit&section=7 "Edit section: Examples")] Examples
+### Examples
 
 Demonstrates a C++11 allocator, except for `[[[nodiscard](../language/attributes/nodiscard.html "cpp/language/attributes/nodiscard")]]` added to match C++20 style.
 
@@ -496,7 +496,7 @@ Possible output:
     Dealloc: 32 bytes at 0x2020c20
     Dealloc: 64 bytes at 0x2023c60
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/Allocator&action=edit&section=8 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

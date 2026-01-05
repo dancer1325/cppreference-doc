@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::pmr::memory_resource`](../memory_resource.html "cpp/memory/memory resource")
 
@@ -201,7 +201,7 @@ Private member functions
 Non-member functions  
 [operator==operator!=](operator_eq.html "cpp/memory/memory resource/operator eq")(until C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/memory_resource/navbar_content&action=edit)
+
 
 void deallocate( void* p,  
 [std::size_t](../../types/size_t.html) bytes,  
@@ -213,12 +213,12 @@ Deallocates the storage pointed to by p. p shall have been returned by a prior c
 
 Equivalent to do_deallocate(p, bytes, alignment);. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/memory_resource/deallocate&action=edit&section=1 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Throws nothing. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/memory_resource/deallocate&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ do_deallocate](do_deallocate.html "cpp/memory/memory resource/do deallocate")[virtual] |  deallocates memory  
-(virtual private member function)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/memory_resource/dsc_do_deallocate&action=edit)  
+(virtual private member function)  
 ---|---

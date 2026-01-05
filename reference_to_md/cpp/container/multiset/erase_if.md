@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::multiset`](../multiset.html "cpp/container/multiset")
 
@@ -133,7 +133,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/multiset/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/multiset/navbar_content&action=edit)
+
 
 Defined in header `[<set>](../../header/set.html "cpp/header/set")` |  |   
 ---|---|---  
@@ -171,21 +171,21 @@ Equivalent to
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/erase_if&action=edit&section=T-1 "Template:cpp/container/erase if")] Parameters
+### Parameters
 
 c  |  \-  |  container from which to erase   
 ---|---|---  
 pred  |  \-  |  predicate that returns true if the element should be erased   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/erase_if&action=edit&section=T-2 "Template:cpp/container/erase if")] Return value
+### Return value
 
 The number of erased elements. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/erase_if&action=edit&section=T-3 "Template:cpp/container/erase if")] Complexity
+### Complexity
 
 Linear. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/erase_if&action=edit&section=T-6 "Template:cpp/container/erase if")] Example
+### Example
 
 Run this code
     
@@ -223,10 +223,10 @@ Output:
     {1, 2, 4, 5, 5, 7}
     5 items erased.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/erase_if&action=edit&section=T-7 "Template:cpp/container/erase if")] See also
+### See also
 
 [ removeremove_if](../../algorithm/remove.html "cpp/algorithm/remove") |  removes elements satisfying specific criteria   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_remove&action=edit)  
+(function template)   
 ---|---  
 [ ranges::removeranges::remove_if](../../algorithm/ranges/remove.html "cpp/algorithm/ranges/remove")(C++20)(C++20) |  removes elements satisfying specific criteria  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_remove&action=edit)
+(algorithm function object)

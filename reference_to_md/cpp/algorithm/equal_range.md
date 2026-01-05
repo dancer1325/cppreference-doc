@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](ranges/copy.html "cpp/algorithm/ra
 [uninitialized_default_construct_n](../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -359,7 +359,7 @@ If any of the following conditions is satisfied, the behavior is undefined:
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/equal_range&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  the pair of iterators defining the partitioned [range](../iterator.html#Ranges "cpp/iterator") of elements to examine   
 ---|---|---  
@@ -371,7 +371,7 @@ Type requirements
 -`ForwardIt` must meet the requirements of [LegacyForwardIterator](../named_req/ForwardIterator.html "cpp/named req/ForwardIterator").   
 -`Compare` must meet the requirements of [BinaryPredicate](../named_req/BinaryPredicate.html "cpp/named req/BinaryPredicate"). It is not required to satisfy [Compare](../named_req/Compare.html "cpp/named req/Compare").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/equal_range&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 A [std::pair](../utility/pair.html "cpp/utility/pair") containing a pair of iterators, where 
 
@@ -380,7 +380,7 @@ A [std::pair](../utility/pair.html "cpp/utility/pair") containing a pair of iter
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/equal_range&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Given \\(\scriptsize N\\)N as [std::distance](../iterator/distance.html)(first, last): 
 
@@ -390,7 +390,7 @@ Given \\(\scriptsize N\\)N as [std::distance](../iterator/distance.html)(first, 
 
 However, if `ForwardIt` is not a [LegacyRandomAccessIterator](../named_req/RandomAccessIterator.html "cpp/named req/RandomAccessIterator"), the number of iterator increments is linear in \\(\scriptsize N\\)N. Notably, [std::set](../container/set.html "cpp/container/set") and [std::multiset](../container/multiset.html "cpp/container/multiset") iterators are not random access, and so their member functions [std::set::equal_range](../container/set/equal_range.html "cpp/container/set/equal range") (resp. [std::multiset::equal_range](../container/multiset/equal_range.html "cpp/container/multiset/equal range")) should be preferred. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/equal_range&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 Although `std::equal_range` only requires `[`first`, `last`)` to be partitioned, this algorithm is usually used in the case where `[`first`, `last`)` is sorted, so that the binary search is valid for any value. 
 
@@ -402,7 +402,7 @@ Therefore, the intermediate results of binary search can be shared by [std::lowe
 ---|---|---|---  
 [`__cpp_lib_algorithm_default_value_type`](../experimental/feature_test.html#cpp_lib_algorithm_default_value_type "cpp/feature test") | [`202403`](../compiler_support/26.html#cpp_lib_algorithm_default_value_type_202403 "cpp/compiler support/26") | (C++26) | [List-initialization](../language/list_initialization.html "cpp/language/list initialization") for algorithms ([1,2](equal_range.html#Version_1))  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/equal_range&action=edit&section=5 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
 
 [equal_range (1)](equal_range.html#Version_1)  
 ---  
@@ -429,7 +429,7 @@ Therefore, the intermediate results of binary search can be shared by [std::lowe
                               [std::upper_bound](upper_bound.html)(first, last, value, comp));
     }  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/equal_range&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -495,7 +495,7 @@ Output:
     Using heterogeneous comparison: B C D
     (2,2) (2, 1)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/equal_range&action=edit&section=7 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -511,24 +511,24 @@ were allowed, which is not implementable[[1]](equal_range.html#cite_note-1) | co
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/equal_range&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [ lower_bound](lower_bound.html "cpp/algorithm/lower bound") |  returns an iterator to the first element _not less_ than the given value   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_lower_bound&action=edit)  
+(function template)   
 ---|---  
 [ upper_bound](upper_bound.html "cpp/algorithm/upper bound") |  returns an iterator to the first element _greater_ than a certain value   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_upper_bound&action=edit)  
+(function template)   
 [ binary_search](binary_search.html "cpp/algorithm/binary search") |  determines if an element exists in a partially-ordered range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_binary_search&action=edit)  
+(function template)   
 [ partition](partition.html "cpp/algorithm/partition") |  divides a range of elements into two groups   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_partition&action=edit)  
+(function template)   
 [ equal](equal.html "cpp/algorithm/equal") |  determines if two sets of elements are the same   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_equal&action=edit)  
+(function template)   
 [ equal_range](../container/set/equal_range.html "cpp/container/set/equal range") |  returns range of elements matching a specific key   
-(public member function of `std::set<Key,Compare,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_equal_range&action=edit)  
+(public member function of `std::set<Key,Compare,Allocator>`)   
 [ equal_range](../container/multiset/equal_range.html "cpp/container/multiset/equal range") |  returns range of elements matching a specific key   
-(public member function of `std::multiset<Key,Compare,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_equal_range&action=edit)  
+(public member function of `std::multiset<Key,Compare,Allocator>`)   
 [ ranges::equal_range](ranges/equal_range.html "cpp/algorithm/ranges/equal range")(C++20) |  returns range of elements matching a specific key  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_equal_range&action=edit)
+(algorithm function object)
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

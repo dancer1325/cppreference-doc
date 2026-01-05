@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ named requirements](../iterator/concepts.html "cpp/named req")
 
@@ -147,7 +147,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/named_req/navbar_content&action=edit)
+
 
 Specifies that a type is a standard layout type. Standard layout types are useful for communicating with code written in other programming languages. 
 
@@ -163,7 +163,7 @@ Note: the standard doesn't define a named requirement with this name. This is a 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/StandardLayoutType&action=edit&section=1 "Edit section: Requirements")] Requirements
+### Requirements
 
 The following types are collectively called _standard-layout types_ : 
 
@@ -174,11 +174,11 @@ The following types are collectively called _standard-layout types_ :
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/StandardLayoutType&action=edit&section=2 "Edit section: Properties")] Properties
+### Properties
 
 See [Standard-layout](../language/data_members.html#Standard-layout "cpp/language/data members"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/StandardLayoutType&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -193,8 +193,8 @@ in the same class
 [CWG 2120](https://cplusplus.github.io/CWG/issues/2120.html) | C++11  | array as first member wasn't considered when  
 comparing the first element type with type of a base  | array members are considered   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/StandardLayoutType&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ is_standard_layout](../types/is_standard_layout.html "cpp/types/is standard layout")(C++11) |  checks if a type is a [standard-layout](../language/data_members.html#Standard-layout "cpp/language/data members") type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_standard_layout&action=edit)  
+(class template)   
 ---|---

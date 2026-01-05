@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 Defined in header `[<ranges>](../header/ranges.html "cpp/header/ranges")` |  |   
 ---|---|---  
@@ -243,13 +243,13 @@ Let t be the object of type `T`, the implementation ensures that t is a range ad
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/range_adaptor_closure&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../utility/feature_test.html "cpp/utility/feature test") macro  | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_ranges`](../experimental/feature_test.html#cpp_lib_ranges "cpp/feature test") | [`202202L`](../compiler_support/23.html#cpp_lib_ranges_202202L "cpp/compiler support/23") | (C++23) | `std::ranges::range_adaptor_closure`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/range_adaptor_closure&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     

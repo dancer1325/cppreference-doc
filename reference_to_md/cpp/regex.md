@@ -30,7 +30,7 @@
 [Symbols index](symbol_index.html "cpp/symbol index")  
 [External libraries](links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 **Regular expressions library**
 
@@ -81,7 +81,7 @@ Constants
 Regex Grammar  
 [Modified ECMAScript-262](regex/ecmascript.html "cpp/regex/ecmascript")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/navbar_content&action=edit)
+
 
 The regular expressions library provides a class that represents [regular expressions](https://en.wikipedia.org/wiki/Regular_expression "enwiki:Regular expression"), which are a kind of mini-language used to perform pattern matching within strings. Almost all operations with regexes can be characterized by operating on several of the following objects: 
 
@@ -112,7 +112,7 @@ The regular expressions library provides a class that represents [regular expres
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex&action=edit&section=1 "Edit section: Regular expression grammars")] Regular expression grammars
+### Regular expression grammars
 
 Patterns and replacement strings support the following regular expression grammars: 
 
@@ -127,68 +127,68 @@ Patterns and replacement strings support the following regular expression gramma
 
 Some grammar variations (such as case-insensitive matching) are also avaliable, see [this page](regex/basic_regex/constants.html "cpp/regex/basic regex/constants") for details. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex&action=edit&section=2 "Edit section: Main classes")] Main classes
+### Main classes
 
 These classes encapsulate a regular expression and the results of matching a regular expression within a target sequence of characters. 
 
 [ basic_regex](regex/basic_regex.html "cpp/regex/basic regex")(C++11) |  regular expression object   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/dsc_basic_regex&action=edit)  
+(class template)   
 ---|---  
 [ sub_match](regex/sub_match.html "cpp/regex/sub match")(C++11) |  identifies the sequence of characters matched by a sub-expression   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/dsc_sub_match&action=edit)  
+(class template)   
 [ match_results](regex/match_results.html "cpp/regex/match results")(C++11) |  identifies one regular expression match, including all sub-expression matches   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/dsc_match_results&action=edit)  
+(class template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex&action=edit&section=3 "Edit section: Algorithms")] Algorithms
+### Algorithms
 
 These functions are used to apply the regular expression encapsulated in a regex to a target sequence of characters. 
 
 [ regex_match](regex/regex_match.html "cpp/regex/regex match")(C++11) |  attempts to match a regular expression to an entire character sequence   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/dsc_regex_match&action=edit)  
+(function template)   
 ---|---  
 [ regex_search](regex/regex_search.html "cpp/regex/regex search")(C++11) |  attempts to match a regular expression to any part of a character sequence   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/dsc_regex_search&action=edit)  
+(function template)   
 [ regex_replace](regex/regex_replace.html "cpp/regex/regex replace")(C++11) |  replaces occurrences of a regular expression with formatted replacement text   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/dsc_regex_replace&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex&action=edit&section=4 "Edit section: Iterators")] Iterators
+### Iterators
 
 The regex iterators are used to traverse the entire set of regular expression matches found within a sequence. 
 
 [ regex_iterator](regex/regex_iterator.html "cpp/regex/regex iterator")(C++11) |  iterates through all regex matches within a character sequence   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/dsc_regex_iterator&action=edit)  
+(class template)   
 ---|---  
 [ regex_token_iterator](regex/regex_token_iterator.html "cpp/regex/regex token iterator")(C++11) |  iterates through the specified sub-expressions within all regex matches in a given string or through unmatched substrings   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/dsc_regex_token_iterator&action=edit)  
+(class template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex&action=edit&section=5 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 This class defines the type of objects thrown as exceptions to report errors from the regular expressions library. 
 
 [ regex_error](regex/regex_error.html "cpp/regex/regex error")(C++11) |  reports errors generated by the regular expressions library   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/dsc_regex_error&action=edit)  
+(class)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex&action=edit&section=6 "Edit section: Traits")] Traits
+### Traits
 
 The regex traits class is used to encapsulate the localizable aspects of a regex. 
 
 [ regex_traits](regex/regex_traits.html "cpp/regex/regex traits")(C++11) |  provides metainformation about a character type, required by the regex library   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/dsc_regex_traits&action=edit)  
+(class template)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex&action=edit&section=7 "Edit section: Constants")] Constants
+### Constants
 
 Defined in namespace `std::regex_constants`  
 ---  
 [ syntax_option_type](regex/syntax_option_type.html "cpp/regex/syntax option type")(C++11) |  general options controlling regex behavior   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/dsc_syntax_option_type&action=edit)  
+(typedef)   
 [ match_flag_type](regex/match_flag_type.html "cpp/regex/match flag type")(C++11) |  options specific to matching   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/dsc_match_flag_type&action=edit)  
+(typedef)   
 [ error_type](regex/error_type.html "cpp/regex/error type")(C++11) |  describes different types of matching errors   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/dsc_error_type&action=edit)  
+(typedef)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex&action=edit&section=8 "Edit section: Example")] Example
+### Example
 
 Run this code
     

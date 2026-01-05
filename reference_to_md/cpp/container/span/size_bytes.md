@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -71,7 +71,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::span`](../span.html "cpp/container/span")
 
@@ -104,7 +104,7 @@ Tables
 [dynamic_extent](dynamic_extent.html "cpp/container/span/dynamic extent")  
 [Deduction guides](deduction_guides.html "cpp/container/span/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/span/navbar_content&action=edit)
+
 
 constexpr size_type size_bytes() const noexcept; |  |  (since C++20)  
 ---|---|---  
@@ -112,11 +112,11 @@ constexpr size_type size_bytes() const noexcept; |  |  (since C++20)
   
 Returns the size of the sequence in bytes. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/span/size_bytes&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 size() * sizeof(element_type). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/span/size_bytes&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -148,8 +148,8 @@ Possible output:
     
     8
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/span/size_bytes&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ size](size.html "cpp/container/span/size")(C++20) |  returns the number of elements in the sequence   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/span/dsc_size&action=edit)  
+(public member function)   
 ---|---

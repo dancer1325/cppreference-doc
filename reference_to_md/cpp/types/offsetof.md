@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Type support](../utility/rtti.html "cpp/types")
 
@@ -161,7 +161,7 @@ Runtime type information
 ---  
 [bad_cast](bad_cast.html "cpp/types/bad cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/navbar_content&action=edit)
+
 
 Defined in header `[<cstddef>](../header/cstddef.html "cpp/header/cstddef")` |  |   
 ---|---|---  
@@ -187,14 +187,14 @@ The expression offsetof(type, member) is never [type-dependent](../language/depe
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/offsetof&action=edit&section=1 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 `offsetof` throws no exceptions. 
 
 The expression noexcept(offsetof(type, member)) always evaluates to true.  | (since C++11)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/offsetof&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 The offset of the first member of a standard-layout type is always zero ([empty-base optimization](../language/ebo.html "cpp/language/ebo") is mandatory).  | (since C++11)  
 ---|---  
@@ -205,7 +205,7 @@ The offset of the first member of a standard-layout type is always zero ([empty-
 
 It is specified in C23 that defining a new type containing an unparenthesized comma in `offsetof` is undefined behavior, and such usage is generally not supported by implementations in C++ modes: offsetof(struct Foo { int a, b; }, a) is rejected by all known implementations. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/offsetof&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -239,7 +239,7 @@ Possible output:
     offset of short  m2 = 16
     offset of char   m3 = 18
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/offsetof&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -251,11 +251,11 @@ if `operator&` is overloaded
 [LWG 449](https://cplusplus.github.io/LWG/issue449) | C++98  | other requirements of `offsetof` were  
 removed by the resolution of [LWG issue 306](https://cplusplus.github.io/LWG/issue306) | added them back   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/offsetof&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ size_t](size_t.html "cpp/types/size t") |  unsigned integer type returned by the [`sizeof`](../language/sizeof.html "cpp/language/sizeof") operator   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_size_t&action=edit)  
+(typedef)   
 ---|---  
 [ is_standard_layout](is_standard_layout.html "cpp/types/is standard layout")(C++11) |  checks if a type is a [standard-layout](../language/data_members.html#Standard-layout "cpp/language/data members") type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_standard_layout&action=edit)  
+(class template)   
 [C documentation](../../c/types/offsetof.html "c/types/offsetof") for offsetof

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header is part of the [pseudo-random number generation](../numeric/random.html "cpp/numeric/random") library. 
 
@@ -255,53 +255,53 @@ This header is part of the [pseudo-random number generation](../numeric/random.h
   
 ###  Includes  
   
-[ <initializer_list>](initializer_list.html "cpp/header/initializer list")(C++11) |  [std::initializer_list](../utility/initializer_list.html "cpp/utility/initializer list") class template[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/dsc_initializer_list&action=edit)  
+[ <initializer_list>](initializer_list.html "cpp/header/initializer list")(C++11) |  [std::initializer_list](../utility/initializer_list.html "cpp/utility/initializer list") class template  
   
 ###  Concepts  
   
 #####  Uniform random bit generator requirements   
   
 [ uniform_random_bit_generator](../numeric/random/UniformRandomBitGenerator.html "cpp/numeric/random/uniform random bit generator")(C++20) |  specifies that a type qualifies as a uniform random bit generator   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/dsc_uniform_random_bit_generator&action=edit)  
+(concept)   
   
 ###  Classes  
   
 #####  Random number engines   
   
 [ linear_congruential_engine](../numeric/random/linear_congruential_engine.html "cpp/numeric/random/linear congruential engine")(C++11) |  implements [linear congruential](https://en.wikipedia.org/wiki/Linear_congruential_generator "enwiki:Linear congruential generator") algorithm   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/dsc_linear_congruential_engine&action=edit)  
+(class template)   
 [ mersenne_twister_engine](../numeric/random/mersenne_twister_engine.html "cpp/numeric/random/mersenne twister engine")(C++11) |  implements [Mersenne twister](https://en.wikipedia.org/wiki/Mersenne_twister "enwiki:Mersenne twister") algorithm   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/dsc_mersenne_twister_engine&action=edit)  
+(class template)   
 [ subtract_with_carry_engine](../numeric/random/subtract_with_carry_engine.html "cpp/numeric/random/subtract with carry engine")(C++11) |  implements a subtract-with-carry ([lagged Fibonacci](https://en.wikipedia.org/wiki/Lagged_Fibonacci_generator "enwiki:Lagged Fibonacci generator")) algorithm   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/dsc_subtract_with_carry_engine&action=edit)  
+(class template)   
 [ philox_engine](../numeric/random/philox_engine.html "cpp/numeric/random/philox engine")(C++26) |  a counter-based parallelizable generator   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/dsc_philox_engine&action=edit)  
+(class template)   
   
 #####  Random number engine adaptors   
   
 [ discard_block_engine](../numeric/random/discard_block_engine.html "cpp/numeric/random/discard block engine")(C++11) |  discards some output of a random number engine   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/dsc_discard_block_engine&action=edit)  
+(class template)   
 [ independent_bits_engine](../numeric/random/independent_bits_engine.html "cpp/numeric/random/independent bits engine")(C++11) |  packs the output of a random number engine into blocks of a specified number of bits   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/dsc_independent_bits_engine&action=edit)  
+(class template)   
 [ shuffle_order_engine](../numeric/random/shuffle_order_engine.html "cpp/numeric/random/shuffle order engine")(C++11) |  delivers the output of a random number engine in a different order   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/dsc_shuffle_order_engine&action=edit)  
+(class template)   
   
 #####  Predefined generators   
   
 ---  
 `minstd_rand0` (C++11) |  [std::linear_congruential_engine](../numeric/random/linear_congruential_engine.html)<[std::uint_fast32_t](../types/integer.html),  
 ` `16807, 0, 2147483647>  
-Discovered in 1969 by Lewis, Goodman and Miller, adopted as "Minimal standard" in 1988 by Park and Miller[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/dsc_minstd_rand0&action=edit)  
+Discovered in 1969 by Lewis, Goodman and Miller, adopted as "Minimal standard" in 1988 by Park and Miller  
 `minstd_rand` (C++11) |  [std::linear_congruential_engine](../numeric/random/linear_congruential_engine.html)<[std::uint_fast32_t](../types/integer.html),  
 ` `48271, 0, 2147483647>  
-Newer "Minimum standard", recommended by Park, Miller, and Stockmeyer in 1993[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/dsc_minstd_rand&action=edit)  
+Newer "Minimum standard", recommended by Park, Miller, and Stockmeyer in 1993  
 `mt19937` (C++11) |  [std::mersenne_twister_engine](../numeric/random/mersenne_twister_engine.html)<[std::uint_fast32_t](../types/integer.html),  
 ` `32, 624, 397, 31,  
 ` `0x9908b0df, 11,  
 ` `0xffffffff, 7,  
 ` `0x9d2c5680, 15,  
 ` `0xefc60000, 18, 1812433253>  
-32-bit Mersenne Twister by Matsumoto and Nishimura, 1998[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/dsc_mt19937&action=edit)  
+32-bit Mersenne Twister by Matsumoto and Nishimura, 1998  
 `mt19937_64` (C++11) |  [std::mersenne_twister_engine](../numeric/random/mersenne_twister_engine.html)<[std::uint_fast64_t](../types/integer.html),  
 ` `64, 312, 156, 31,  
 ` `0xb5026f5aa96619e9, 29,  
@@ -309,96 +309,96 @@ Newer "Minimum standard", recommended by Park, Miller, and Stockmeyer in 1993[[e
 ` `0x71d67fffeda60000, 37,  
 ` `0xfff7eee000000000, 43,  
 ` `6364136223846793005>  
-64-bit Mersenne Twister by Matsumoto and Nishimura, 2000[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/dsc_mt19937_64&action=edit)  
-`ranlux24_base` (C++11) |  [std::subtract_with_carry_engine](../numeric/random/subtract_with_carry_engine.html)<[std::uint_fast32_t](../types/integer.html), 24, 10, 24>[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/dsc_ranlux24_base&action=edit)  
-`ranlux48_base` (C++11) |  [std::subtract_with_carry_engine](../numeric/random/subtract_with_carry_engine.html)<[std::uint_fast64_t](../types/integer.html), 48, 5, 12>[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/dsc_ranlux48_base&action=edit)  
+64-bit Mersenne Twister by Matsumoto and Nishimura, 2000  
+`ranlux24_base` (C++11) |  [std::subtract_with_carry_engine](../numeric/random/subtract_with_carry_engine.html)<[std::uint_fast32_t](../types/integer.html), 24, 10, 24>  
+`ranlux48_base` (C++11) |  [std::subtract_with_carry_engine](../numeric/random/subtract_with_carry_engine.html)<[std::uint_fast64_t](../types/integer.html), 48, 5, 12>  
 `ranlux24` (C++11) |  [std::discard_block_engine](../numeric/random/discard_block_engine.html)<[std::ranlux24_base](../numeric/random/subtract_with_carry_engine.html), 223, 23>  
-24-bit RANLUX generator by Martin Lüscher and Fred James, 1994[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/dsc_ranlux24&action=edit)  
+24-bit RANLUX generator by Martin Lüscher and Fred James, 1994  
 `ranlux48` (C++11) |  [std::discard_block_engine](../numeric/random/discard_block_engine.html)<[std::ranlux48_base](../numeric/random/subtract_with_carry_engine.html), 389, 11>  
-48-bit RANLUX generator by Martin Lüscher and Fred James, 1994[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/dsc_ranlux48&action=edit)  
-`knuth_b` (C++11) |  [std::shuffle_order_engine](../numeric/random/shuffle_order_engine.html)<[std::minstd_rand0](../numeric/random/linear_congruential_engine.html), 256>[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/dsc_knuth_b&action=edit)  
+48-bit RANLUX generator by Martin Lüscher and Fred James, 1994  
+`knuth_b` (C++11) |  [std::shuffle_order_engine](../numeric/random/shuffle_order_engine.html)<[std::minstd_rand0](../numeric/random/linear_congruential_engine.html), 256>  
 `philox4x32` (C++26) |  [std::philox_engine](../numeric/random/philox_engine.html)<[std::uint_fast32_t](../types/integer.html), 32, 4, 10,  
 ` `0xCD9E8D57, 0x9E3779B9,  
-` `0xD2511F53, 0xBB67AE85>[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/dsc_philox4x32&action=edit)  
+` `0xD2511F53, 0xBB67AE85>  
 `philox4x64` (C++26) |  [std::philox_engine](../numeric/random/philox_engine.html)<[std::uint_fast64_t](../types/integer.html), 64, 4, 10,  
 ` `0xCA5A826395121157, 0x9E3779B97F4A7C15,  
-` `0xD2E7470EE14C6C93, 0xBB67AE8584CAA73B>[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/dsc_philox4x64&action=edit)  
+` `0xD2E7470EE14C6C93, 0xBB67AE8584CAA73B>  
 `default_random_engine`(C++11) |  an implementation-defined [RandomNumberEngine](../named_req/RandomNumberEngine.html "cpp/named req/RandomNumberEngine") type   
   
 #####  Non-deterministic random numbers   
   
 ---  
 [ random_device](../numeric/random/random_device.html "cpp/numeric/random/random device")(C++11) |  non-deterministic random number generator using hardware entropy source   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/dsc_random_device&action=edit)  
+(class)   
   
 #####  Uniform distributions   
   
 [ uniform_int_distribution](../numeric/random/uniform_int_distribution.html "cpp/numeric/random/uniform int distribution")(C++11) |  produces integer values evenly distributed across a range   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/dsc_uniform_int_distribution&action=edit)  
+(class template)   
 [ uniform_real_distribution](../numeric/random/uniform_real_distribution.html "cpp/numeric/random/uniform real distribution")(C++11) |  produces real values evenly distributed across a range   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/dsc_uniform_real_distribution&action=edit)  
+(class template)   
   
 #####  Bernoulli distributions   
   
 [ bernoulli_distribution](../numeric/random/bernoulli_distribution.html "cpp/numeric/random/bernoulli distribution")(C++11) |  produces bool values on a [Bernoulli distribution](https://en.wikipedia.org/wiki/Bernoulli_distribution "enwiki:Bernoulli distribution")   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/dsc_bernoulli_distribution&action=edit)  
+(class)   
 [ binomial_distribution](../numeric/random/binomial_distribution.html "cpp/numeric/random/binomial distribution")(C++11) |  produces integer values on a [binomial distribution](https://en.wikipedia.org/wiki/Binomial_distribution "enwiki:Binomial distribution")   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/dsc_binomial_distribution&action=edit)  
+(class template)   
 [ negative_binomial_distribution](../numeric/random/negative_binomial_distribution.html "cpp/numeric/random/negative binomial distribution")(C++11) |  produces integer values on a [negative binomial distribution](https://en.wikipedia.org/wiki/Negative_binomial_distribution "enwiki:Negative binomial distribution")   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/dsc_negative_binomial_distribution&action=edit)  
+(class template)   
 [ geometric_distribution](../numeric/random/geometric_distribution.html "cpp/numeric/random/geometric distribution")(C++11) |  produces integer values on a [geometric distribution](https://en.wikipedia.org/wiki/Geometric_distribution "enwiki:Geometric distribution")   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/dsc_geometric_distribution&action=edit)  
+(class template)   
   
 #####  Poisson distributions   
   
 [ poisson_distribution](../numeric/random/poisson_distribution.html "cpp/numeric/random/poisson distribution")(C++11) |  produces integer values on a [Poisson distribution](https://en.wikipedia.org/wiki/Poisson_distribution "enwiki:Poisson distribution")   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/dsc_poisson_distribution&action=edit)  
+(class template)   
 [ exponential_distribution](../numeric/random/exponential_distribution.html "cpp/numeric/random/exponential distribution")(C++11) |  produces real values on an [exponential distribution](https://en.wikipedia.org/wiki/Exponential_distribution "enwiki:Exponential distribution")   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/dsc_exponential_distribution&action=edit)  
+(class template)   
 [ gamma_distribution](../numeric/random/gamma_distribution.html "cpp/numeric/random/gamma distribution")(C++11) |  produces real values on a [gamma distribution](https://en.wikipedia.org/wiki/Gamma_distribution "enwiki:Gamma distribution")   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/dsc_gamma_distribution&action=edit)  
+(class template)   
 [ weibull_distribution](../numeric/random/weibull_distribution.html "cpp/numeric/random/weibull distribution")(C++11) |  produces real values on a [Weibull distribution](https://en.wikipedia.org/wiki/Weibull_distribution "enwiki:Weibull distribution")   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/dsc_weibull_distribution&action=edit)  
+(class template)   
 [ extreme_value_distribution](../numeric/random/extreme_value_distribution.html "cpp/numeric/random/extreme value distribution")(C++11) |  produces real values on an [extreme value distribution](https://en.wikipedia.org/wiki/Generalized_extreme_value_distribution "enwiki:Generalized extreme value distribution")   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/dsc_extreme_value_distribution&action=edit)  
+(class template)   
   
 #####  Normal distributions   
   
 [ normal_distribution](../numeric/random/normal_distribution.html "cpp/numeric/random/normal distribution")(C++11) |  produces real values on a [standard normal (Gaussian) distribution](https://en.wikipedia.org/wiki/Normal_distribution "enwiki:Normal distribution")   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/dsc_normal_distribution&action=edit)  
+(class template)   
 [ lognormal_distribution](../numeric/random/lognormal_distribution.html "cpp/numeric/random/lognormal distribution")(C++11) |  produces real values on a [lognormal distribution](https://en.wikipedia.org/wiki/Lognormal_distribution "enwiki:Lognormal distribution")   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/dsc_lognormal_distribution&action=edit)  
+(class template)   
 [ chi_squared_distribution](../numeric/random/chi_squared_distribution.html "cpp/numeric/random/chi squared distribution")(C++11) |  produces real values on a [chi-squared distribution](https://en.wikipedia.org/wiki/Chi-squared_distribution "enwiki:Chi-squared distribution")   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/dsc_chi_squared_distribution&action=edit)  
+(class template)   
 [ cauchy_distribution](../numeric/random/cauchy_distribution.html "cpp/numeric/random/cauchy distribution")(C++11) |  produces real values on a [Cauchy distribution](https://en.wikipedia.org/wiki/Cauchy_distribution "enwiki:Cauchy distribution")   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/dsc_cauchy_distribution&action=edit)  
+(class template)   
 [ fisher_f_distribution](../numeric/random/fisher_f_distribution.html "cpp/numeric/random/fisher f distribution")(C++11) |  produces real values on a [Fisher's F-distribution](https://en.wikipedia.org/wiki/F-distribution "enwiki:F-distribution")   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/dsc_fisher_f_distribution&action=edit)  
+(class template)   
 [ student_t_distribution](../numeric/random/student_t_distribution.html "cpp/numeric/random/student t distribution")(C++11) |  produces real values on a [Student's t-distribution](https://en.wikipedia.org/wiki/Student%27s_t-distribution "enwiki:Student's t-distribution")   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/dsc_student_t_distribution&action=edit)  
+(class template)   
   
 #####  Sampling distributions   
   
 [ discrete_distribution](../numeric/random/discrete_distribution.html "cpp/numeric/random/discrete distribution")(C++11) |  produces integer values on a discrete distribution   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/dsc_discrete_distribution&action=edit)  
+(class template)   
 [ piecewise_constant_distribution](../numeric/random/piecewise_constant_distribution.html "cpp/numeric/random/piecewise constant distribution")(C++11) |  produces real values distributed on constant subintervals   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/dsc_piecewise_constant_distribution&action=edit)  
+(class template)   
 [ piecewise_linear_distribution](../numeric/random/piecewise_linear_distribution.html "cpp/numeric/random/piecewise linear distribution")(C++11) |  produces real values distributed on defined subintervals   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/dsc_piecewise_linear_distribution&action=edit)  
+(class template)   
   
 #####  Utilities   
   
 [ seed_seq](../numeric/random/seed_seq.html "cpp/numeric/random/seed seq")(C++11) |  general-purpose bias-eliminating scrambled seed sequence generator   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/dsc_seed_seq&action=edit)  
+(class)   
   
 ###  Functions  
   
 [ generate_canonical](../numeric/random/generate_canonical.html "cpp/numeric/random/generate canonical")(C++11) |  evenly distributes real values of given precision across `[`​0​`, `1`)`   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/dsc_generate_canonical&action=edit)  
+(function template)   
 [ ranges::generate_random](../algorithm/ranges/generate_random.html "cpp/algorithm/ranges/generate random")(C++26) |  fills a range with random numbers from a uniform random bit generator  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_generate_random&action=edit)  
+(algorithm function object)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/random&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     #include <initializer_list>
@@ -578,7 +578,7 @@ Newer "Minimum standard", recommended by Park, Miller, and Stockmeyer in 1993[[e
       class piecewise_linear_distribution;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/random&action=edit&section=T-1 "Template:cpp/synopsis/random")] Concept [`uniform_random_bit_generator`](../numeric/random/UniformRandomBitGenerator.html "cpp/numeric/random/uniform random bit generator")
+#### Concept [`uniform_random_bit_generator`](../numeric/random/UniformRandomBitGenerator.html "cpp/numeric/random/uniform random bit generator")
     
     
     namespace std {
@@ -595,7 +595,7 @@ Newer "Minimum standard", recommended by Park, Miller, and Stockmeyer in 1993[[e
         };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/random&action=edit&section=T-2 "Template:cpp/synopsis/random")] Class template [std::linear_congruential_engine](../numeric/random/linear_congruential_engine.html "cpp/numeric/random/linear congruential engine")
+#### Class template [std::linear_congruential_engine](../numeric/random/linear_congruential_engine.html "cpp/numeric/random/linear congruential engine")
     
     
     namespace std {
@@ -646,7 +646,7 @@ Newer "Minimum standard", recommended by Park, Miller, and Stockmeyer in 1993[[e
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/random&action=edit&section=T-3 "Template:cpp/synopsis/random")] Class template [std::mersenne_twister_engine](../numeric/random/mersenne_twister_engine.html "cpp/numeric/random/mersenne twister engine")
+#### Class template [std::mersenne_twister_engine](../numeric/random/mersenne_twister_engine.html "cpp/numeric/random/mersenne twister engine")
     
     
     namespace std {
@@ -720,7 +720,7 @@ Newer "Minimum standard", recommended by Park, Miller, and Stockmeyer in 1993[[e
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/random&action=edit&section=T-4 "Template:cpp/synopsis/random")] Class template [std::subtract_with_carry_engine](../numeric/random/subtract_with_carry_engine.html "cpp/numeric/random/subtract with carry engine")
+#### Class template [std::subtract_with_carry_engine](../numeric/random/subtract_with_carry_engine.html "cpp/numeric/random/subtract with carry engine")
     
     
     namespace std {
@@ -771,7 +771,7 @@ Newer "Minimum standard", recommended by Park, Miller, and Stockmeyer in 1993[[e
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/random&action=edit&section=T-5 "Template:cpp/synopsis/random")] Class template std::philox_engine
+#### Class template std::philox_engine
     
     
     namespace std {
@@ -827,7 +827,7 @@ Newer "Minimum standard", recommended by Park, Miller, and Stockmeyer in 1993[[e
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/random&action=edit&section=T-6 "Template:cpp/synopsis/random")] Class template [std::discard_block_engine](../numeric/random/discard_block_engine.html "cpp/numeric/random/discard block engine")
+#### Class template [std::discard_block_engine](../numeric/random/discard_block_engine.html "cpp/numeric/random/discard block engine")
     
     
     namespace std {
@@ -882,7 +882,7 @@ Newer "Minimum standard", recommended by Park, Miller, and Stockmeyer in 1993[[e
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/random&action=edit&section=T-7 "Template:cpp/synopsis/random")] Class template [std::independent_bits_engine](../numeric/random/independent_bits_engine.html "cpp/numeric/random/independent bits engine")
+#### Class template [std::independent_bits_engine](../numeric/random/independent_bits_engine.html "cpp/numeric/random/independent bits engine")
     
     
     namespace std {
@@ -935,7 +935,7 @@ Newer "Minimum standard", recommended by Park, Miller, and Stockmeyer in 1993[[e
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/random&action=edit&section=T-8 "Template:cpp/synopsis/random")] Class template [std::shuffle_order_engine](../numeric/random/shuffle_order_engine.html "cpp/numeric/random/shuffle order engine")
+#### Class template [std::shuffle_order_engine](../numeric/random/shuffle_order_engine.html "cpp/numeric/random/shuffle order engine")
     
     
     namespace std {
@@ -988,7 +988,7 @@ Newer "Minimum standard", recommended by Park, Miller, and Stockmeyer in 1993[[e
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/random&action=edit&section=T-9 "Template:cpp/synopsis/random")] Engines and engine adaptors with predefined parameters
+#### Engines and engine adaptors with predefined parameters
     
     
     namespace std {
@@ -1046,7 +1046,7 @@ Newer "Minimum standard", recommended by Park, Miller, and Stockmeyer in 1993[[e
                                      0xBB67AE8584CAA73B>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/random&action=edit&section=T-10 "Template:cpp/synopsis/random")] Class [std::random_device](../numeric/random/random_device.html "cpp/numeric/random/random device")
+#### Class [std::random_device](../numeric/random/random_device.html "cpp/numeric/random/random device")
     
     
     namespace std {
@@ -1079,7 +1079,7 @@ Newer "Minimum standard", recommended by Park, Miller, and Stockmeyer in 1993[[e
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/random&action=edit&section=T-11 "Template:cpp/synopsis/random")] Class [std::seed_seq](../numeric/random/seed_seq.html "cpp/numeric/random/seed seq")
+#### Class [std::seed_seq](../numeric/random/seed_seq.html "cpp/numeric/random/seed seq")
     
     
     namespace std {
@@ -1114,7 +1114,7 @@ Newer "Minimum standard", recommended by Park, Miller, and Stockmeyer in 1993[[e
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/random&action=edit&section=T-12 "Template:cpp/synopsis/random")] Class template [std::uniform_int_distribution](../numeric/random/uniform_int_distribution.html "cpp/numeric/random/uniform int distribution")
+#### Class template [std::uniform_int_distribution](../numeric/random/uniform_int_distribution.html "cpp/numeric/random/uniform int distribution")
     
     
     namespace std {
@@ -1166,7 +1166,7 @@ Newer "Minimum standard", recommended by Park, Miller, and Stockmeyer in 1993[[e
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/random&action=edit&section=T-13 "Template:cpp/synopsis/random")] Class template [std::uniform_real_distribution](../numeric/random/uniform_real_distribution.html "cpp/numeric/random/uniform real distribution")
+#### Class template [std::uniform_real_distribution](../numeric/random/uniform_real_distribution.html "cpp/numeric/random/uniform real distribution")
     
     
     namespace std {
@@ -1215,7 +1215,7 @@ Newer "Minimum standard", recommended by Park, Miller, and Stockmeyer in 1993[[e
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/random&action=edit&section=T-14 "Template:cpp/synopsis/random")] Class [std::bernoulli_distribution](../numeric/random/bernoulli_distribution.html "cpp/numeric/random/bernoulli distribution")
+#### Class [std::bernoulli_distribution](../numeric/random/bernoulli_distribution.html "cpp/numeric/random/bernoulli distribution")
     
     
     namespace std {
@@ -1262,7 +1262,7 @@ Newer "Minimum standard", recommended by Park, Miller, and Stockmeyer in 1993[[e
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/random&action=edit&section=T-15 "Template:cpp/synopsis/random")] Class template [std::binomial_distribution](../numeric/random/binomial_distribution.html "cpp/numeric/random/binomial distribution")
+#### Class template [std::binomial_distribution](../numeric/random/binomial_distribution.html "cpp/numeric/random/binomial distribution")
     
     
     namespace std {
@@ -1311,7 +1311,7 @@ Newer "Minimum standard", recommended by Park, Miller, and Stockmeyer in 1993[[e
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/random&action=edit&section=T-16 "Template:cpp/synopsis/random")] Class template [std::geometric_distribution](../numeric/random/geometric_distribution.html "cpp/numeric/random/geometric distribution")
+#### Class template [std::geometric_distribution](../numeric/random/geometric_distribution.html "cpp/numeric/random/geometric distribution")
     
     
     namespace std {
@@ -1359,7 +1359,7 @@ Newer "Minimum standard", recommended by Park, Miller, and Stockmeyer in 1993[[e
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/random&action=edit&section=T-17 "Template:cpp/synopsis/random")] Class template [std::negative_binomial_distribution](../numeric/random/negative_binomial_distribution.html "cpp/numeric/random/negative binomial distribution")
+#### Class template [std::negative_binomial_distribution](../numeric/random/negative_binomial_distribution.html "cpp/numeric/random/negative binomial distribution")
     
     
     namespace std {
@@ -1409,7 +1409,7 @@ Newer "Minimum standard", recommended by Park, Miller, and Stockmeyer in 1993[[e
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/random&action=edit&section=T-18 "Template:cpp/synopsis/random")] Class template [std::poisson_distribution](../numeric/random/poisson_distribution.html "cpp/numeric/random/poisson distribution")
+#### Class template [std::poisson_distribution](../numeric/random/poisson_distribution.html "cpp/numeric/random/poisson distribution")
     
     
     namespace std {
@@ -1456,7 +1456,7 @@ Newer "Minimum standard", recommended by Park, Miller, and Stockmeyer in 1993[[e
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/random&action=edit&section=T-19 "Template:cpp/synopsis/random")] Class template [std::exponential_distribution](../numeric/random/exponential_distribution.html "cpp/numeric/random/exponential distribution")
+#### Class template [std::exponential_distribution](../numeric/random/exponential_distribution.html "cpp/numeric/random/exponential distribution")
     
     
     namespace std {
@@ -1504,7 +1504,7 @@ Newer "Minimum standard", recommended by Park, Miller, and Stockmeyer in 1993[[e
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/random&action=edit&section=T-20 "Template:cpp/synopsis/random")] Class template [std::gamma_distribution](../numeric/random/gamma_distribution.html "cpp/numeric/random/gamma distribution")
+#### Class template [std::gamma_distribution](../numeric/random/gamma_distribution.html "cpp/numeric/random/gamma distribution")
     
     
     namespace std {
@@ -1552,7 +1552,7 @@ Newer "Minimum standard", recommended by Park, Miller, and Stockmeyer in 1993[[e
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/random&action=edit&section=T-21 "Template:cpp/synopsis/random")] Class template [std::weibull_distribution](../numeric/random/weibull_distribution.html "cpp/numeric/random/weibull distribution")
+#### Class template [std::weibull_distribution](../numeric/random/weibull_distribution.html "cpp/numeric/random/weibull distribution")
     
     
     namespace std {
@@ -1600,7 +1600,7 @@ Newer "Minimum standard", recommended by Park, Miller, and Stockmeyer in 1993[[e
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/random&action=edit&section=T-22 "Template:cpp/synopsis/random")] Class template [std::extreme_value_distribution](../numeric/random/extreme_value_distribution.html "cpp/numeric/random/extreme value distribution")
+#### Class template [std::extreme_value_distribution](../numeric/random/extreme_value_distribution.html "cpp/numeric/random/extreme value distribution")
     
     
     namespace std {
@@ -1649,7 +1649,7 @@ Newer "Minimum standard", recommended by Park, Miller, and Stockmeyer in 1993[[e
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/random&action=edit&section=T-23 "Template:cpp/synopsis/random")] Class template [std::normal_distribution](../numeric/random/normal_distribution.html "cpp/numeric/random/normal distribution")
+#### Class template [std::normal_distribution](../numeric/random/normal_distribution.html "cpp/numeric/random/normal distribution")
     
     
     namespace std {
@@ -1697,7 +1697,7 @@ Newer "Minimum standard", recommended by Park, Miller, and Stockmeyer in 1993[[e
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/random&action=edit&section=T-24 "Template:cpp/synopsis/random")] Class template [std::lognormal_distribution](../numeric/random/lognormal_distribution.html "cpp/numeric/random/lognormal distribution")
+#### Class template [std::lognormal_distribution](../numeric/random/lognormal_distribution.html "cpp/numeric/random/lognormal distribution")
     
     
     namespace std {
@@ -1746,7 +1746,7 @@ Newer "Minimum standard", recommended by Park, Miller, and Stockmeyer in 1993[[e
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/random&action=edit&section=T-25 "Template:cpp/synopsis/random")] Class template [std::chi_squared_distribution](../numeric/random/chi_squared_distribution.html "cpp/numeric/random/chi squared distribution")
+#### Class template [std::chi_squared_distribution](../numeric/random/chi_squared_distribution.html "cpp/numeric/random/chi squared distribution")
     
     
     namespace std {
@@ -1794,7 +1794,7 @@ Newer "Minimum standard", recommended by Park, Miller, and Stockmeyer in 1993[[e
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/random&action=edit&section=T-26 "Template:cpp/synopsis/random")] Class template [std::cauchy_distribution](../numeric/random/cauchy_distribution.html "cpp/numeric/random/cauchy distribution")
+#### Class template [std::cauchy_distribution](../numeric/random/cauchy_distribution.html "cpp/numeric/random/cauchy distribution")
     
     
     namespace std {
@@ -1842,7 +1842,7 @@ Newer "Minimum standard", recommended by Park, Miller, and Stockmeyer in 1993[[e
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/random&action=edit&section=T-27 "Template:cpp/synopsis/random")] Class template [std::fisher_f_distribution](../numeric/random/fisher_f_distribution.html "cpp/numeric/random/fisher f distribution")
+#### Class template [std::fisher_f_distribution](../numeric/random/fisher_f_distribution.html "cpp/numeric/random/fisher f distribution")
     
     
     namespace std {
@@ -1891,7 +1891,7 @@ Newer "Minimum standard", recommended by Park, Miller, and Stockmeyer in 1993[[e
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/random&action=edit&section=T-28 "Template:cpp/synopsis/random")] Class template [std::student_t_distribution](../numeric/random/student_t_distribution.html "cpp/numeric/random/student t distribution")
+#### Class template [std::student_t_distribution](../numeric/random/student_t_distribution.html "cpp/numeric/random/student t distribution")
     
     
     namespace std {
@@ -1939,7 +1939,7 @@ Newer "Minimum standard", recommended by Park, Miller, and Stockmeyer in 1993[[e
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/random&action=edit&section=T-29 "Template:cpp/synopsis/random")] Class template [std::discrete_distribution](../numeric/random/discrete_distribution.html "cpp/numeric/random/discrete distribution")
+#### Class template [std::discrete_distribution](../numeric/random/discrete_distribution.html "cpp/numeric/random/discrete distribution")
     
     
     namespace std {
@@ -1988,7 +1988,7 @@ Newer "Minimum standard", recommended by Park, Miller, and Stockmeyer in 1993[[e
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/random&action=edit&section=T-30 "Template:cpp/synopsis/random")] Class template [std::piecewise_constant_distribution](../numeric/random/piecewise_constant_distribution.html "cpp/numeric/random/piecewise constant distribution")
+#### Class template [std::piecewise_constant_distribution](../numeric/random/piecewise_constant_distribution.html "cpp/numeric/random/piecewise constant distribution")
     
     
     namespace std {
@@ -2045,7 +2045,7 @@ Newer "Minimum standard", recommended by Park, Miller, and Stockmeyer in 1993[[e
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/random&action=edit&section=T-31 "Template:cpp/synopsis/random")] Class template [std::piecewise_linear_distribution](../numeric/random/piecewise_linear_distribution.html "cpp/numeric/random/piecewise linear distribution")
+#### Class template [std::piecewise_linear_distribution](../numeric/random/piecewise_linear_distribution.html "cpp/numeric/random/piecewise linear distribution")
     
     
     namespace std {

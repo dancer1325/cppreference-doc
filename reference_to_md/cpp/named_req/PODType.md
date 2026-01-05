@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ named requirements](../iterator/concepts.html "cpp/named req")
 
@@ -147,7 +147,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/named_req/navbar_content&action=edit)
+
 
 Specifies that the type is POD (Plain Old Data) type. This means the type is compatible with the types used in the C programming language, that is, can be exchanged with C libraries directly, in its binary form. 
 
@@ -156,7 +156,7 @@ Note: the standard doesn't define a named requirement with this name. This is a 
 This type requirement is deprecated in the C++ standard. All of its uses have been replaced by the more refined type requirements, such as [TrivialType](TrivialType.html "cpp/named req/TrivialType"), [ScalarType](ScalarType.html "cpp/named req/ScalarType"), or [StandardLayoutType](StandardLayoutType.html "cpp/named req/StandardLayoutType").  | (since C++20)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/PODType&action=edit&section=1 "Edit section: Requirements")] Requirements
+### Requirements
 
 The following types are collectively called _POD types_ : 
 
@@ -167,14 +167,14 @@ The following types are collectively called _POD types_ :
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/PODType&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ is_pod](../types/is_pod.html "cpp/types/is pod")(C++11)(deprecated in C++20) |  checks if a type is a plain-old data (POD) type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_pod&action=edit)  
+(class template)   
 ---|---  
 [ is_scalar](../types/is_scalar.html "cpp/types/is scalar")(C++11) |  checks if a type is a scalar type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_scalar&action=edit)  
+(class template)   
 [ is_trivial](../types/is_trivial.html "cpp/types/is trivial")(C++11)(deprecated in C++26) |  checks if a type is trivial   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_trivial&action=edit)  
+(class template)   
 [ is_standard_layout](../types/is_standard_layout.html "cpp/types/is standard layout")(C++11) |  checks if a type is a [standard-layout](../language/data_members.html#Standard-layout "cpp/language/data members") type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_standard_layout&action=edit)
+(class template) 

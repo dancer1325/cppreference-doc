@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](ranges/copy.html "cpp/algorithm/ra
 [uninitialized_default_construct_n](../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 [Numerics library](../numeric.html "cpp/numeric")
 
@@ -353,7 +353,7 @@ Constrained algorithms, e.g. [`ranges::copy`](ranges/copy.html "cpp/algorithm/ra
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 Defined in header `[<numeric>](../header/numeric.html "cpp/header/numeric")` |  |   
 ---|---|---  
@@ -392,17 +392,17 @@ If any of the following conditions is satisfied, the program is ill-formed:
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/iota&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  the pair of iterators defining the [range](../iterator.html#Ranges "cpp/iterator") of elements to fill with sequentially increasing values starting with value  
 ---|---|---  
 value  |  \-  |  initial value to store   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/iota&action=edit&section=2 "Edit section: Complexity")] Complexity
+### Complexity
 
 Exactly [std::distance](../iterator/distance.html)(first, last) increments and assignments. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/iota&action=edit&section=3 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     template<class ForwardIt, class T>
@@ -415,11 +415,11 @@ Exactly [std::distance](../iterator/distance.html)(first, last) increments and a
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/iota&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 The function is named after the integer function ⍳ from the programming language [APL](https://en.wikipedia.org/wiki/APL_\(programming_language\) "enwiki:APL \(programming language\)"). It was one of the [STL components](https://web.archive.org/web/20220816102741/http://www.martinbroadhurst.com/stl/iota.html) that were not included in C++98, but made it into the standard library in C++11. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/iota&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 The following example applies [std::shuffle](random_shuffle.html "cpp/algorithm/random shuffle") to a [vector](../container/vector.html "cpp/container/vector") of [std::list](../container/list.html "cpp/container/list")s' iterators. `std::iota` is used to populate containers.
 
@@ -473,20 +473,20 @@ Possible output:
     Original contents of the list l:	-4 -3 -2 -1  0  1  2  3  4  5
     Contents of l, viewed via shuffled v:	-1  5 -4  0  2  1  4 -2  3 -3
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/iota&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ ranges::iota](ranges/iota.html "cpp/algorithm/ranges/iota")(C++23) |  fills a range with successive increments of the starting value  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_iota&action=edit)  
+(algorithm function object)  
 ---|---  
 [ fill](fill.html "cpp/algorithm/fill") |  copy-assigns the given value to every element in a range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_fill&action=edit)  
+(function template)   
 [ ranges::fill](ranges/fill.html "cpp/algorithm/ranges/fill")(C++20) |  assigns a range of elements a certain value  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_fill&action=edit)  
+(algorithm function object)  
 [ generate](generate.html "cpp/algorithm/generate") |  assigns the results of successive function calls to every element in a range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_generate&action=edit)  
+(function template)   
 [ ranges::generate](ranges/generate.html "cpp/algorithm/ranges/generate")(C++20) |  saves the result of a function in a range  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_generate&action=edit)  
+(algorithm function object)  
 [ ranges::iota_viewviews::iota](../ranges/iota_view.html "cpp/ranges/iota view")(C++20) |  a [`view`](../ranges/view.html "cpp/ranges/view") consisting of a sequence generated by repeatedly incrementing an initial value  
-(class template) (customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_iota_view&action=edit)  
+(class template) (customization point object)  
 [ ranges::enumerate_viewviews::enumerate](../ranges/enumerate_view.html "cpp/ranges/enumerate view")(C++23) |  a [`view`](../ranges/view.html "cpp/ranges/view") that maps each element of adapted sequence to a tuple of both the element's position and its value  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_enumerate_view&action=edit)
+(class template) (range adaptor object)

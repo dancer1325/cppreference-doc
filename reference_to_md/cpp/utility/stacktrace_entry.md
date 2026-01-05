@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Diagnostics library](../error.html "cpp/error")
 
@@ -89,7 +89,7 @@ Exception handling failures
 [breakpoint_if_debugging](breakpoint_if_debugging.html "cpp/utility/breakpoint if debugging")(C++26)  
 [breakpoint](breakpoint.html "cpp/utility/breakpoint")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/navbar_content&action=edit)
+
 
 **`std::stacktrace_entry`**
 
@@ -113,7 +113,7 @@ operator<=>](stacktrace_entry/operator_cmp.html "cpp/utility/stacktrace entry/op
 [hash<std::stacktrace_entry>](stacktrace_entry/hash.html "cpp/utility/stacktrace entry/hash")  
 [formatter<std::stacktrace_entry>](stacktrace_entry/formatter.html "cpp/utility/stacktrace entry/formatter")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/stacktrace_entry/navbar_content&action=edit)
+
 
 Defined in header `[<stacktrace>](../header/stacktrace.html "cpp/header/stacktrace")` |  |   
 ---|---|---  
@@ -139,15 +139,15 @@ The `stacktrace_entry` class provides operations for querying information about 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/stacktrace_entry&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 `native_handle_type` |  implementation-defined native handle type   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/stacktrace_entry&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](stacktrace_entry/stacktrace_entry.html "cpp/utility/stacktrace entry/stacktrace entry") |  constructs a new `stacktrace_entry`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/stacktrace_entry/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 (destructor) |  destroys the `stacktrace_entry`   
 (public member function)  
@@ -166,29 +166,29 @@ The `stacktrace_entry` class provides operations for querying information about 
 [ description](stacktrace_entry/description.html "cpp/utility/stacktrace entry/description") |  gets the description of the evaluation represented by the `stacktrace_entry`   
 (public member function)  
 [ source_file](stacktrace_entry/source_file.html "cpp/utility/stacktrace entry/source file") |  gets the name of the source file that lexically contains the expression or statement whose evaluation is represented by the `stacktrace_entry`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/stacktrace_entry/dsc_source_file&action=edit)  
+(public member function)   
 [ source_line](stacktrace_entry/source_line.html "cpp/utility/stacktrace entry/source line") |  gets the line number that lexically relates the evaluation represented by the `stacktrace_entry`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/stacktrace_entry/dsc_source_line&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/stacktrace_entry&action=edit&section=3 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ operator==operator<=>](stacktrace_entry/operator_cmp.html "cpp/utility/stacktrace entry/operator cmp")(C++23) |  compares two `stacktrace_entry` values   
 (function)  
 ---|---  
 [ to_string](stacktrace_entry/to_string.html "cpp/utility/stacktrace entry/to string")(C++23) |  returns a string with a description of the `stacktrace_entry`   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/stacktrace_entry/dsc_to_string&action=edit)  
+(function)   
 [ operator<<](stacktrace_entry/operator_ltlt.html "cpp/utility/stacktrace entry/operator ltlt")(C++23) |  performs stream output of `stacktrace_entry`   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/stacktrace_entry/dsc_operator_ltlt&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/stacktrace_entry&action=edit&section=4 "Edit section: Helper classes")] Helper classes
+### Helper classes
 
 [ std::hash<std::stacktrace_entry>](stacktrace_entry/hash.html "cpp/utility/stacktrace entry/hash")(C++23) |  hash support for **`std::stacktrace_entry`**   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/stacktrace_entry/dsc_hash&action=edit)  
+(class template specialization)   
 ---|---  
 [ std::formatter<std::stacktrace_entry>](stacktrace_entry/formatter.html "cpp/utility/stacktrace entry/formatter")(C++23) |  formatting support for `stacktrace_entry`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/stacktrace_entry/dsc_formatter&action=edit)  
+(class template specialization)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/stacktrace_entry&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 `boost::stacktrace::frame` (available in [Boost.Stacktrace](https://www.boost.org/doc/libs/release/doc/html/stacktrace.html)) can be used instead when `std::stacktrace_entry` is not available. 
 
@@ -196,18 +196,18 @@ The `stacktrace_entry` class provides operations for querying information about 
 ---|---|---|---  
 [`__cpp_lib_stacktrace`](../experimental/feature_test.html#cpp_lib_stacktrace "cpp/feature test") | [`202011L`](../compiler_support/23.html#cpp_lib_stacktrace_202011L "cpp/compiler support/23") | (C++23) | [Stacktrace library](../error.html#Stacktrace "cpp/error")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/stacktrace_entry&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/stacktrace_entry&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ basic_stacktrace](basic_stacktrace.html "cpp/utility/basic stacktrace")(C++23) |  approximate representation of an invocation sequence consists of stacktrace entries   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_basic_stacktrace&action=edit)  
+(class template)   
 ---|---  
 [ source_location](source_location.html "cpp/utility/source location")(C++20) |  a class representing information about the source code, such as file names, line numbers, and function names   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_source_location&action=edit)
+(class) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

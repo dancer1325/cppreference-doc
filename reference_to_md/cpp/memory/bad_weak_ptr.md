@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 Defined in header `[<memory>](../header/memory.html "cpp/header/memory")` |  |   
 ---|---|---  
@@ -217,7 +217,7 @@ Inheritance diagram
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/bad_weak_ptr&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 (constructor) |  constructs a new `bad_weak_ptr` object   
 (public member function)  
@@ -283,12 +283,12 @@ Implementations are allowed but not required to override `what()`.
 ###  Member functions
 
 [ (destructor)](../error/exception/~exception.html "cpp/error/exception/~exception")[virtual] |  destroys the exception object   
-(virtual public member function of `std::exception`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/exception/dsc_destructor&action=edit)  
+(virtual public member function of `std::exception`)   
 ---|---  
 [ what](../error/exception/what.html "cpp/error/exception/what")[virtual] |  returns an explanatory string   
-(virtual public member function of `std::exception`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/exception/dsc_what&action=edit)  
+(virtual public member function of `std::exception`)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/bad_weak_ptr&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -316,7 +316,7 @@ Possible output:
     
     std::bad_weak_ptr
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/bad_weak_ptr&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -324,10 +324,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 2376](https://cplusplus.github.io/LWG/issue2376) | C++11  | calling `what` on a default-constructed `bad_weak_ptr` was required to return "bad_weak_ptr" | the return value is implementation-defined   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/bad_weak_ptr&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ shared_ptr](shared_ptr.html "cpp/memory/shared ptr")(C++11) |  smart pointer with shared object ownership semantics   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_shared_ptr&action=edit)  
+(class template)   
 ---|---  
 [ weak_ptr](weak_ptr.html "cpp/memory/weak ptr")(C++11) |  weak reference to an object managed by [std::shared_ptr](shared_ptr.html "cpp/memory/shared ptr")   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_weak_ptr&action=edit)
+(class template) 

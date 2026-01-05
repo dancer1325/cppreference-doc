@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 Defined in header `[<mutex>](../header/mutex.html "cpp/header/mutex")` |  |   
 ---|---|---  
@@ -216,25 +216,25 @@ The return from the _returning_ call synchronizes-with the returns from all _pas
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/call_once&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 flag  |  \-  |  an object, for which exactly one function gets executed   
 ---|---|---  
 f  |  \-  |  [Callable](../named_req/Callable.html "cpp/named req/Callable") object to invoke   
 args...  |  \-  |  arguments to pass to the function   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/call_once&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/call_once&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
   * [std::system_error](../error/system_error.html "cpp/error/system error") if any condition prevents calls to `std::call_once` from executing as specified. 
   * Any exception thrown by f. 
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/call_once&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 If concurrent calls to `std::call_once` pass different functions f, it is unspecified which f will be called. The selected function runs in the same thread as the `std::call_once` invocation it was passed to. 
 
@@ -242,7 +242,7 @@ Initialization of [function-local statics](../language/storage_duration.html#Sta
 
 The POSIX equivalent of this function is [`pthread_once`](https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_once.html). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/call_once&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -307,7 +307,7 @@ Possible output:
     Throw: call_once will retry
     Did not throw, call_once will not attempt again
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/call_once&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -317,9 +317,9 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 but the scenario where f is invalidated is not specified  | removed this error condition   
 [LWG 2442](https://cplusplus.github.io/LWG/issue2442) | C++11  | the arguments were copied and/or moved before invocation  | no copying/moving is performed   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/call_once&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ once_flag](once_flag.html "cpp/thread/once flag")(C++11) |  helper object to ensure that **`call_once`** invokes the function only once   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_once_flag&action=edit)  
+(class)   
 ---|---  
 [C documentation](../../c/thread/ONCE_FLAG_INIT.html "c/thread/call once") for call_once

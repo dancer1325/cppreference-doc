@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Regular expressions library](../../regex.html "cpp/regex")
 
@@ -81,7 +81,7 @@ Constants
 Regex Grammar  
 [Modified ECMAScript-262](../ecmascript.html "cpp/regex/ecmascript")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/navbar_content&action=edit)
+
 
 [`std::sub_match`](../sub_match.html "cpp/regex/sub match")
 
@@ -96,7 +96,7 @@ Non-member functions
 [operator==operator!=operator<<operator<=operator>operator>=operator<=>](operator_cmp.html "cpp/regex/sub match/operator cmp")(until C++20)(until C++20)(until C++20)(until C++20)(until C++20)(C++20)  
 [operator<<](operator_ltlt.html "cpp/regex/sub match/operator ltlt")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/sub_match/navbar_content&action=edit)
+
 
 int compare( const sub_match& m ) const; |  (1)  |  (since C++11)  
 ---|---|---  
@@ -121,33 +121,33 @@ int compare( const value_type* c ) const; |  (3)  |  (since C++11)
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/sub_match/compare&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 m  |  \-  |  a reference to another sub_match   
 ---|---|---  
 s  |  \-  |  a reference to a string to compare to   
 c  |  \-  |  a pointer to a null-terminated character sequence of the underlying `value_type` to compare to   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/sub_match/compare&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 A value less than zero if this `sub_match` is _less_ than the other character sequence, zero if the both underlying character sequences are equal, greater than zero if this `sub_match` is _greater_ than the other character sequence. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/sub_match/compare&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 This function is infrequently used directly by application code. Instead, one of the non-member comparison operators is used. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/sub_match/compare&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/sub_match/compare&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ compare](../../string/basic_string/compare.html "cpp/string/basic string/compare") |  compares two strings   
-(public member function of `std::basic_string<CharT,Traits,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_compare&action=edit)  
+(public member function of `std::basic_string<CharT,Traits,Allocator>`)   
 ---|---  
 [ stroperator string_type](str.html "cpp/regex/sub match/str") |  converts to the underlying string type   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/sub_match/dsc_str&action=edit)  
+(public member function)   
 [ operator==operator!=operator<operator<=operator>operator>=operator<=>](operator_cmp.html "cpp/regex/sub match/operator cmp")(removed in C++20)(removed in C++20)(removed in C++20)(removed in C++20)(removed in C++20)(C++20) |  compares a `sub_match` with another `sub_match`, a string, or a character   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/sub_match/dsc_operator_cmp&action=edit)
+(function template) 

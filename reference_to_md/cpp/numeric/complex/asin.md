@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [`std::complex`](../complex.html "cpp/numeric/complex")
 
@@ -164,7 +164,7 @@
 [tuple_size<std::complex>](tuple_size.html "cpp/numeric/complex/tuple size")(C++26)  
 [tuple_element<std::complex>](tuple_element.html "cpp/numeric/complex/tuple element")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/navbar_content&action=edit)
+
 
 Defined in header `[<complex>](../../header/complex.html "cpp/header/complex")` |  |   
 ---|---|---  
@@ -185,18 +185,18 @@ Computes complex arc sine of a complex value z. Branch cut exists outside the in
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/asin&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 z  |  \-  |  complex value   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/asin&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 If no errors occur, complex arc sine of z is returned, in the range of a strip unbounded along the imaginary axis and in the interval [−π/2, +π/2] along the real axis. 
 
 Errors and special cases are handled as if the operation is implemented by `-i * [std::asinh](asinh.html "cpp/numeric/complex/asinh")(i * z)`, where `i` is the imaginary unit. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/asin&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Inverse sine (or arc sine) is a multivalued function and requires a branch cut on the complex plane. The branch cut is conventionally placed at the line segments (-∞,-1) and (1,∞) of the real axis. 
 
@@ -208,7 +208,7 @@ For any z, \\(\small{ \arcsin(z) = \arccos(-z) - \frac{\pi}{2} }\\)asin(z) = aco
 2  
 . 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/asin&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -240,17 +240,17 @@ Output:
     asin(-2.000000,-0.000000) (the other side of the cut) = (-1.570796,-1.316958)
     sin(acos(-2.000000,-0.000000) - pi / 2) = (2.000000,0.000000)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/asin&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ acos(std::complex)](acos.html "cpp/numeric/complex/acos")(C++11) |  computes arc cosine of a complex number (\\({\small\arccos{z}}\\)arccos(z))   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_acos&action=edit)  
+(function template)   
 ---|---  
 [ atan(std::complex)](atan.html "cpp/numeric/complex/atan")(C++11) |  computes arc tangent of a complex number (\\({\small\arctan{z}}\\)arctan(z))   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_atan&action=edit)  
+(function template)   
 [ sin(std::complex)](sin.html "cpp/numeric/complex/sin") |  computes sine of a complex number (\\({\small\sin{z}}\\)sin(z))   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_sin&action=edit)  
+(function template)   
 [ asinasinfasinl](../math/asin.html "cpp/numeric/math/asin")(C++11)(C++11) |  computes arc sine (\\({\small\arcsin{x}}\\)arcsin(x))   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_asin&action=edit)  
+(function)   
 [ asin(std::valarray)](../valarray/asin.html "cpp/numeric/valarray/asin") |  applies the function [std::asin](../math/asin.html "cpp/numeric/math/asin") to each element of valarray   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_asin&action=edit)  
+(function template)   
 [C documentation](../../../c/numeric/complex/casin.html "c/numeric/complex/casin") for casin

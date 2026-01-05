@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Localization library](../../locale.html "cpp/locale")
 
@@ -152,7 +152,7 @@ base classes](../../locale.html#Facet_category_base_classes "cpp/locale")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/navbar_content&action=edit)
+
 
 [`std::numpunct`](../numpunct.html "cpp/locale/numpunct")
 
@@ -165,7 +165,7 @@ Member functions
 [numpunct::groupingnumpunct::do_grouping](grouping.html "cpp/locale/numpunct/grouping")  
 [numpunct::truenamenumpunct::do_truenamenumpunct::falsenamenumpunct::do_falsename](truefalsename.html "cpp/locale/numpunct/truefalsename")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/numpunct/navbar_content&action=edit)
+
 
 Defined in header `[<locale>](../../header/locale.html "cpp/header/locale")` |  |   
 ---|---|---  
@@ -189,11 +189,11 @@ virtual char_type do_thousands_sep() const; |  (2)  |
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/numpunct/thousands_sep&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 The object of type `char_type` to use as the thousands separator. The standard specializations of `std::numpunct` return ',' and L','. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/numpunct/thousands_sep&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -220,7 +220,7 @@ Output:
     default locale: 12345678
     locale with modified numpunct: 1 2 3 4 5 6 7 8
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/numpunct/thousands_sep&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -228,8 +228,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 20](https://cplusplus.github.io/LWG/issue20) | C++98  | the return type was `string_type` | changed to `char_type`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/numpunct/thousands_sep&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ do_grouping](grouping.html "cpp/locale/numpunct/grouping")[virtual] |  provides the numbers of digits between each pair of thousands separators   
-(virtual protected member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/numpunct/dsc_do_grouping&action=edit)  
+(virtual protected member function)   
 ---|---

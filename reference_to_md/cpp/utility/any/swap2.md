@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::any`](../any.html "cpp/utility/any")
 
@@ -151,7 +151,7 @@ Common vocabulary types
 [Helper classes](../any.html#Helper_classes "cpp/utility/any")  
 [bad_any_cast](bad_any_cast.html "cpp/utility/any/bad any cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/any/navbar_content&action=edit)
+
 
 Defined in header `[<any>](../../header/any.html "cpp/header/any")` |  |   
 ---|---|---  
@@ -160,12 +160,12 @@ void swap( any& lhs, any& rhs ) noexcept; |  |  (since C++17)
   
 Overloads the [std::swap](../swap.html "cpp/algorithm/swap") algorithm for [std::any](../any.html "cpp/utility/any"). Swaps the content of two `any` objects by calling lhs.swap(rhs). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/any/swap2&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 lhs, rhs  |  \-  |  objects to swap   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/any/swap2&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -190,8 +190,8 @@ Output:
     swap(p, q)
     p: Bishop, q: 42
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/any/swap2&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ swap](swap.html "cpp/utility/any/swap") |  swaps two `any` objects   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/any/dsc_swap&action=edit)  
+(public member function)   
 ---|---

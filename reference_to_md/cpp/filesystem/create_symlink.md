@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Filesystem library](../filesystem.html "cpp/filesystem")
 
@@ -100,7 +100,7 @@ filesystem::symlink_status](status.html "cpp/filesystem/status")
 [filesystem::is_socket](is_socket.html "cpp/filesystem/is socket")  
 [filesystem::is_symlink](is_symlink.html "cpp/filesystem/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/navbar_content&action=edit)
+
 
 Defined in header `[<filesystem>](../header/filesystem.html "cpp/header/filesystem")` |  |   
 ---|---|---  
@@ -132,18 +132,18 @@ Some operating systems require symlink creation to identify that the link is to 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/create_symlink&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 target  |  \-  |  path to point the symlink to, does not have to exist   
 ---|---|---  
 link  |  \-  |  path of the new symbolic link   
 ec  |  \-  |  out-parameter for error reporting in the non-throwing overload   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/create_symlink&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/create_symlink&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Any overload not marked `noexcept` may throw [std::bad_alloc](../memory/new/bad_alloc.html "cpp/memory/new/bad alloc") if memory allocation fails.  
 
@@ -152,7 +152,7 @@ Any overload not marked `noexcept` may throw [std::bad_alloc](../memory/new/bad_
 
 2,4) Sets a [std::error_code](../error/error_code.html)& parameter to the OS API error code if an OS API call fails, and executes ec.[`clear`](../error/error_code/clear.html "cpp/error/error code/clear")() if no errors occur.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/create_symlink&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 Some operating systems do not support symbolic links at all or support them only for regular files. 
 
@@ -160,7 +160,7 @@ Some file systems do not support symbolic links regardless of the operating syst
 
 Like a hard link, a symbolic link allows a file to have multiple logical names. The presence of a hard link guarantees the existence of a file, even after the original name has been removed. A symbolic link provides no such assurance; in fact, the file named by the target argument need not exist when the link is created. A symbolic link can cross file system boundaries. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/create_symlink&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -190,13 +190,13 @@ Possible output:
     "sandbox/sym1"->"target"
     "sandbox/sym2"->"subdir"
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/create_symlink&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ statussymlink_status](status.html "cpp/filesystem/status")(C++17)(C++17) |  determines file attributes  
 determines file attributes, checking the symlink target   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_status&action=edit)  
+(function)   
 ---|---  
 [ read_symlink](read_symlink.html "cpp/filesystem/read symlink")(C++17) |  obtains the target of a symbolic link   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_read_symlink&action=edit)  
+(function)   
 [ create_hard_link](create_hard_link.html "cpp/filesystem/create hard link")(C++17) |  creates a hard link   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_create_hard_link&action=edit)
+(function) 

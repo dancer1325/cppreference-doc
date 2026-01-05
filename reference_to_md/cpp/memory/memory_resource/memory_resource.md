@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::pmr::memory_resource`](../memory_resource.html "cpp/memory/memory resource")
 
@@ -201,7 +201,7 @@ Private member functions
 Non-member functions  
 [operator==operator!=](operator_eq.html "cpp/memory/memory resource/operator eq")(until C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/memory_resource/navbar_content&action=edit)
+
 
 memory_resource() = default; |  (1)  |  (since C++17)   
 (implicitly declared)  

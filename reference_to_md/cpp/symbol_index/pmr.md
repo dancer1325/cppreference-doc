@@ -21,7 +21,7 @@
 [Removed symbols (Zombie names)](zombie_names.html "cpp/symbol index/zombie names")  
 [Exposition-only symbols](expos.html "cpp/symbol index/expos")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/symbol_index/navbar_content&action=edit)
+
 
 This page tries to list all the symbols that are available from the [standard library](../standard_library.html "cpp/standard library") in the namespace std::pmr. The symbols are written as follows: 
 
@@ -57,37 +57,37 @@ This page tries to list all the symbols that are available from the [standard li
   
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/pmr&action=edit&section=2 "Edit section: B")] B
+### B
 
 [`basic_string`](../string/basic_string.html "cpp/string/basic string")<> (since C++17)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/pmr&action=edit&section=3 "Edit section: C")] C
+### C
 
 [`cmatch`](../regex/match_results.html "cpp/regex/match results") (since C++17)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/pmr&action=edit&section=4 "Edit section: D")] D
+### D
 
 [`deque`](../container/deque.html "cpp/container/deque")<> (since C++17)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/pmr&action=edit&section=5 "Edit section: F")] F
+### F
 
 [`forward_list`](../container/forward_list.html "cpp/container/forward list")<> (since C++17)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/pmr&action=edit&section=6 "Edit section: G")] G
+### G
 
 [`get_default_resource()`](../memory/get_default_resource.html "cpp/memory/get default resource") (since C++17)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/pmr&action=edit&section=7 "Edit section: L")] L
+### L
 
 [`list`](../container/list.html "cpp/container/list")<> (since C++17)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/pmr&action=edit&section=8 "Edit section: M")] M
+### M
 
 [`map`](../container/map.html "cpp/container/map")<> (since C++17)  
 [`match_results`](../regex/match_results.html "cpp/regex/match results")<> (since C++17)  
@@ -97,19 +97,19 @@ This page tries to list all the symbols that are available from the [standard li
 [`multiset`](../container/multiset.html "cpp/container/multiset")<> (since C++17)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/pmr&action=edit&section=9 "Edit section: N")] N
+### N
 
 [`new_delete_resource()`](../memory/new_delete_resource.html "cpp/memory/new delete resource") (since C++17)  
 [`null_memory_resource()`](../memory/null_memory_resource.html "cpp/memory/null memory resource") (since C++17)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/pmr&action=edit&section=10 "Edit section: P")] P
+### P
 
 [`polymorphic_allocator`](../memory/polymorphic_allocator.html "cpp/memory/polymorphic allocator")<> (since C++17)  
 [`pool_options`](../memory/pool_options.html "cpp/memory/pool options") (since C++17)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/pmr&action=edit&section=11 "Edit section: S")] S
+### S
 
 [`set`](../container/set.html "cpp/container/set")<> (since C++17)  
 [`set_default_resource()`](../memory/set_default_resource.html "cpp/memory/set default resource") (since C++17)  
@@ -119,7 +119,7 @@ This page tries to list all the symbols that are available from the [standard li
 [`synchronized_pool_resource`](../memory/synchronized_pool_resource.html "cpp/memory/synchronized pool resource") (since C++17)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/pmr&action=edit&section=12 "Edit section: U")] U
+### U
 
 [`u16string`](../string/basic_string.html "cpp/string/basic string")<> (since C++17)  
 [`u32string`](../string/basic_string.html "cpp/string/basic string")<> (since C++17)  
@@ -131,12 +131,12 @@ This page tries to list all the symbols that are available from the [standard li
 [`unsynchronized_pool_resource`](../memory/unsynchronized_pool_resource.html "cpp/memory/unsynchronized pool resource") (since C++17)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/pmr&action=edit&section=13 "Edit section: V")] V
+### V
 
 [`vector`](../container/vector.html "cpp/container/vector")<> (since C++17)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/pmr&action=edit&section=14 "Edit section: W")] W
+### W
 
 [`wcmatch`](../regex/match_results.html "cpp/regex/match results") (since C++17)  
 [`wsmatch`](../regex/match_results.html "cpp/regex/match results") (since C++17)  

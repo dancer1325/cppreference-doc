@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](ranges/copy.html "cpp/algorithm/ra
 [uninitialized_default_construct_n](../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -374,7 +374,7 @@ If any of the following conditions is satisfied, the behavior is undefined:
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/sample&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  the pair of iterators defining the [range](../iterator.html#Ranges "cpp/iterator") of elements from which to make the sampling (the population)   
 ---|---|---  
@@ -384,19 +384,19 @@ g  |  \-  |  the random number generator used as the source of randomness
 Type requirements   
 -`Distance` must be an integer type.   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/sample&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Returns a copy of out after the last sample that was output, that is, end of the sample range. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/sample&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Linear in [std::distance](../iterator/distance.html)(first, last). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/sample&action=edit&section=4 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
 
 See the implementations in [libstdc++](https://github.com/gcc-mirror/gcc/blob/14d8a5ae472ca5743016f37da2dd4770d83dea21/libstdc%2B%2B-v3/include/bits/stl_algo.h#L5743-L5869), [libc++](https://github.com/llvm/llvm-project/blob/f221d905b131158cbe3cbc4320d1ecd1376c3f22/libcxx/include/__algorithm/sample.h) and [MSVC STL](https://github.com/microsoft/STL/blob/472161105d596192194d4715ccad307c6c163b4a/stl/inc/algorithm#L4518-L4600). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/sample&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 This function may implement selection sampling or [reservoir sampling](https://en.wikipedia.org/wiki/reservoir_sampling "enwiki:reservoir sampling"). 
 
@@ -404,7 +404,7 @@ This function may implement selection sampling or [reservoir sampling](https://e
 ---|---|---|---  
 [`__cpp_lib_sample`](../experimental/feature_test.html#cpp_lib_sample "cpp/feature test") | [`201603L`](../compiler_support/17.html#cpp_lib_sample_201603L "cpp/compiler support/17") | (C++17) | `std::sample`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/sample&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -428,12 +428,12 @@ Possible output:
     
     Four random letters out of ABCDEFGHIJK: EFGK
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/sample&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ random_shuffleshuffle](random_shuffle.html "cpp/algorithm/random shuffle")(until C++17)(C++11) |  randomly re-orders elements in a range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_random_shuffle&action=edit)  
+(function template)   
 ---|---  
 [ ranges::sample](ranges/sample.html "cpp/algorithm/ranges/sample")(C++20) |  selects N random elements from a sequence  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_sample&action=edit)
+(algorithm function object)
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

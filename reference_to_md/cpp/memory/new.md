@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Memory management library](../memory.html "cpp/memory")
 
@@ -282,7 +282,7 @@ management](new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 **Low level memory management**
 
@@ -304,7 +304,7 @@ management](new.html#Low_level_memory_management "cpp/memory/new")
 [Object access](new.html#Object_access "cpp/memory/new")  
 [launder](../utility/launder.html "cpp/utility/launder")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/new/navbar_content&action=edit)
+
 
 The [new-expression](../language/new.html "cpp/language/new") is the only way to create an object or an array of objects with dynamic storage duration, that is, with lifetime not restricted to the scope in which it is created. A new-expression obtains storage by calling an allocation function. A [delete-expression](../language/delete.html "cpp/language/delete") destroys a most derived object or an array created by a new-expression and calls the deallocation function. The default allocation and deallocation functions, along with related functions, types, and objects, are declared in the header [`<new>`](../header/new.html "cpp/header/new"). 
 
@@ -326,36 +326,36 @@ Defined in header `[<new>](../header/new.html "cpp/header/new")`
 #####  Functions   
   
 [ operator newoperator new[]](new/operator_new.html "cpp/memory/new/operator new") |  allocation functions   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/new/dsc_operator_new&action=edit)  
+(function)   
 [ operator deleteoperator delete[]](new/operator_delete.html "cpp/memory/new/operator delete") |  deallocation functions   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/new/dsc_operator_delete&action=edit)  
+(function)   
 [ get_new_handler](new/get_new_handler.html "cpp/memory/new/get new handler")(C++11) |  obtains the current new handler   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/new/dsc_get_new_handler&action=edit)  
+(function)   
 [ set_new_handler](new/set_new_handler.html "cpp/memory/new/set new handler") |  registers a new handler   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/new/dsc_set_new_handler&action=edit)  
+(function)   
   
 #####  Classes   
   
 [ bad_alloc](new/bad_alloc.html "cpp/memory/new/bad alloc") |  exception thrown when memory allocation fails   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/new/dsc_bad_alloc&action=edit)  
+(class)   
 [ bad_array_new_length](new/bad_array_new_length.html "cpp/memory/new/bad array new length")(C++11) |  exception thrown on allocation of array with invalid length   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/new/dsc_bad_array_new_length&action=edit)  
+(class)   
 [ align_val_t](new/align_val_t.html "cpp/memory/new/align val t")(C++17) |  type used to pass alignment to alignment-aware allocation and deallocation functions   
-(enum) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/new/dsc_align_val_t&action=edit)  
+(enum)   
   
 #####  Types   
   
 [ new_handler](new/new_handler.html "cpp/memory/new/new handler") |  function pointer type of the new handler   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/new/dsc_new_handler&action=edit)  
+(typedef)   
   
 #####  Objects   
   
 [ nothrownothrow_t](new/nothrow.html "cpp/memory/new/nothrow") |  a tag used to select a non-throwing _allocation function_  
-(tag)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/new/dsc_nothrow&action=edit)  
+(tag)  
 [ destroying_deletedestroying_delete_t](new/destroying_delete_t.html "cpp/memory/new/destroying delete")(C++20) |  a tag used to select destroying-delete overloads of [operator delete](new/operator_delete.html "cpp/memory/new/operator delete")  
-(tag)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/new/dsc_destroying_delete&action=edit)  
+(tag)  
   
 #####  Object access   
   
 [ launder](../utility/launder.html "cpp/utility/launder")(C++17) |  pointer optimization barrier   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_launder&action=edit)
+(function template) 

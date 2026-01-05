@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::deque`](../deque.html "cpp/container/deque")
 
@@ -134,7 +134,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/deque/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/deque/navbar_content&action=edit)
+
 
 void swap( deque& other ); |  |  (until C++17)  
 ---|---|---  
@@ -160,22 +160,22 @@ If [std::allocator_traits](../../memory/allocator_traits.html)<allocator_type>::
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/swap&action=edit&section=T-1 "Template:cpp/container/swap")] Parameters
+### Parameters
 
 other  |  \-  |  container to exchange the contents with   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/swap&action=edit&section=T-2 "Template:cpp/container/swap")] Exceptions
+### Exceptions
 
 (none)  | (until C++17)  
 ---|---  
 [`noexcept`](../../language/noexcept_spec.html "cpp/language/noexcept spec") specification: noexcept([std::allocator_traits](../../memory/allocator_traits.html)<Allocator>::is_always_equal::value) | (since C++17)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/swap&action=edit&section=T-3 "Template:cpp/container/swap")] Complexity
+### Complexity
 
 Constant. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/swap&action=edit&section=T-4 "Template:cpp/container/swap")] Example
+### Example
 
 Run this code
     
@@ -217,8 +217,8 @@ Output:
     { 1 2 3 } { 4 5 } 2 5 1 4
     { 4 5 } { 1 2 3 } 2 5 1 4
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/swap&action=edit&section=T-6 "Template:cpp/container/swap")] See also
+### See also
 
 [ std::swap(std::deque)](swap2.html "cpp/container/deque/swap2") |  specializes the [std::swap](../../utility/swap.html "cpp/algorithm/swap") algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_swap2&action=edit)  
+(function template)   
 ---|---

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::scoped_allocator_adaptor`](../scoped_allocator_adaptor.html "cpp/memory/scoped allocator adaptor")
 
@@ -208,7 +208,7 @@ Non-member functions
 [operator==operator!=](operator_cmp.html "cpp/memory/scoped allocator adaptor/operator cmp")(until C++20)  
 [Deduction guides](deduction_guides.html "cpp/memory/scoped allocator adaptor/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/scoped_allocator_adaptor/navbar_content&action=edit)
+
 
 Defined in header `[<scoped_allocator>](../../header/scoped_allocator.html "cpp/header/scoped allocator")` |  |   
 ---|---|---  
@@ -245,14 +245,14 @@ scoped_allocator_adaptor<OuterA2, InnerAllocs...>&& other
 
 6) Initializes each allocator from the corresponding allocator of other, using move semantics. This overload participates in overload resolution only if [std::is_constructible](../../types/is_constructible.html)<OuterAlloc, OuterA2>::value is true.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/scoped_allocator_adaptor/scoped_allocator_adaptor&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 outerAlloc  |  \-  |  constructor argument for the outer allocator   
 ---|---|---  
 innerAllocs...  |  \-  |  constructor arguments for the inner allocators   
 other  |  \-  |  another `std::scoped_allocator_adaptor`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/scoped_allocator_adaptor/scoped_allocator_adaptor&action=edit&section=2 "Edit section: Defect reports")] Defect reports 
+### Defect reports 
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -260,10 +260,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 2782](https://cplusplus.github.io/LWG/issue2782) | C++11  | constructors taking `OuterA2` weren't constrained, interfering with metaprogramming  | constraint added   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/scoped_allocator_adaptor/scoped_allocator_adaptor&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ allocate](allocate.html "cpp/memory/scoped allocator adaptor/allocate") |  allocates uninitialized storage using the outer allocator   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/scoped_allocator_adaptor/dsc_allocate&action=edit)  
+(public member function)   
 ---|---  
 [ construct](construct.html "cpp/memory/scoped allocator adaptor/construct") |  constructs an object in allocated storage, passing the inner allocator to its constructor if appropriate   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/scoped_allocator_adaptor/dsc_construct&action=edit)
+(public member function) 

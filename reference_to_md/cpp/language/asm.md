@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [Declarations](declarations.html "cpp/language/declarations")
 
@@ -280,7 +280,7 @@ Other declarations
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/declarations/navbar_content&action=edit)
+
 
 _asm-declaration_ gives the ability to embed assembly language source code within a C++ program. This declaration is conditionally-supported and (since C++11)implementation defined, meaning that it may not be present and, even when provided by the implementation, (since C++11)it does not have a fixed meaning. 
 
@@ -299,7 +299,7 @@ _asm-declaration_ gives the ability to embed assembly language source code withi
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/asm&action=edit&section=1 "Edit section: Syntax")] Syntax  
+### Syntax  
   
 ---  
 attr ﻿(optional) `**asm (**` string-literal `**)**` `**;**` |  |  (until C++26)  
@@ -309,7 +309,7 @@ attr |  \-  |  (since C++11) any number of [attributes](attributes.html "cpp/lan
 string-literal |  \-  |  same as in [string literal](string_literal.html "cpp/language/string literal"), including raw string literals   
 balanced-token-seq |  \-  |  a sequence of tokens where parentheses, brackets and braces are balanced; any restrictions on the balanced-token-seq and its meaning are implementation-defined   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/asm&action=edit&section=2 "Edit section: Explanation")] Explanation
+### Explanation
 
 The balanced-token-seq is typically a string literal that represents a short program written in assembly language, which is executed whenever this declaration is executed. Different C++ compilers have wildly varying rules for asm-declarations, and different conventions for the interaction with the surrounding C++ code. 
 
@@ -319,17 +319,17 @@ As other [block declarations](declarations.html "cpp/language/declarations"), th
 Reason: write a note on GCC extended assembly syntax, since it is now supported by Intel, IBM, Sun (as of v12), etc   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/asm&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Feature-test macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_constexpr`](../experimental/feature_test.html#cpp_constexpr "cpp/feature test") | [`201907L`](../compiler_support/20.html#cpp_constexpr_201907L "cpp/compiler support/20") | (C++20) | Trivial [default initialization](default_initialization.html "cpp/language/default initialization") and [asm-declaration](asm.html#Syntax) in `constexpr` functions   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/asm&action=edit&section=4 "Edit section: Keywords")] Keywords
+### Keywords
 
 [`asm`](../keyword/asm.html "cpp/keyword/asm")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/asm&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Demonstrates two kinds of inline assembly syntax offered by the GCC/Clang compilers. This program works correctly only on the x86_64 platform under Linux.
 
@@ -372,7 +372,7 @@ Output:
     
     73*5 = 365
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/asm&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -381,7 +381,7 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [CWG 195](https://cplusplus.github.io/CWG/issues/195.html) | C++98  | it was required to support all asm declarations  | made conditionally-supported   
 [CWG 2262](https://cplusplus.github.io/CWG/issues/2262.html) | C++11  | attributes could not be applied to asm declarations  | allowed   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/asm&action=edit&section=7 "Edit section: References")] References
+### References
 
   * C++26 standard (ISO/IEC 14882:2026): 
 
@@ -463,14 +463,14 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/asm&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
   * [C++ ABIs](../resources.html#C.2B.2B_ABIs "cpp/links")
 
 [C documentation](../../c/language/asm.html "c/language/asm") for Inline assembly  
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/asm&action=edit&section=9 "Edit section: External links")] External links
+### External links
 
 1\.  | [GCC Inline Assembly HOWTO](https://www.ibiblio.org/gferg/ldp/GCC-Inline-Assembly-HOWTO.html)  
 ---|---  

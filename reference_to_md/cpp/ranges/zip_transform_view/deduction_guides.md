@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::zip_transform_view`](../zip_transform_view.html "cpp/ranges/zip transform view")
 
@@ -258,7 +258,7 @@ Non-member functions
 [operator==(zip_transform_view::_sentinel_)](sentinel/operator_cmp.html "cpp/ranges/zip transform view/sentinel/operator cmp")  
 [operator-(zip_transform_view::_sentinel_)](sentinel/operator-.html "cpp/ranges/zip transform view/sentinel/operator-")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/zip_transform_view/navbar_content&action=edit)
+
 
 template< class F, class... Rs >  
 zip_transform_view( F, Rs&&... ) -> zip_transform_view<F, [views::all_t](../all_view.html)<Rs>...>; |  |  (since C++23)  
@@ -267,7 +267,7 @@ zip_transform_view( F, Rs&&... ) -> zip_transform_view<F, [views::all_t](../all_
   
 The [deduction guide](../../language/ctad.html "cpp/language/class template argument deduction") is provided for std::ranges::zip_transform_view to allow deduction from transformation function and [`range`s](../range.html "cpp/ranges/range"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/zip_transform_view/deduction_guides&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: example   

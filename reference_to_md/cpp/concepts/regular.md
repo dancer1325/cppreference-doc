@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concepts library](../concepts.html "cpp/concepts")
 
@@ -73,7 +73,7 @@
 ---  
 [_boolean-testable_](boolean-testable.html "cpp/concepts/boolean-testable") ﻿(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/navbar_content&action=edit)
+
 
 Defined in header `[<concepts>](../header/concepts.html "cpp/header/concepts")` |  |   
 ---|---|---  
@@ -83,7 +83,7 @@ concept regular = [std::semiregular](semiregular.html)<T> && [std::equality_comp
   
 The `regular` concept specifies that a type is _regular_ , that is, it is copyable, default constructible, and equality comparable. It is satisfied by types that behave similarly to built-in types like int, and that are comparable with `==`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/concepts/regular&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -116,7 +116,7 @@ Output:
     Equal
     4 4
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/concepts/regular&action=edit&section=2 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -138,8 +138,8 @@ Output:
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/concepts/regular&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ semiregular](semiregular.html "cpp/concepts/semiregular")(C++20) |  specifies that an object of a type can be copied, moved, swapped, and default constructed   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_semiregular&action=edit)  
+(concept)   
 ---|---

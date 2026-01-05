@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Localization library](../../locale.html "cpp/locale")
 
@@ -152,7 +152,7 @@ base classes](../../locale.html#Facet_category_base_classes "cpp/locale")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/navbar_content&action=edit)
+
 
 [`std::messages`](../messages.html "cpp/locale/messages")
 
@@ -164,7 +164,7 @@ Member functions
 [messages::getmessages::do_get](get.html "cpp/locale/messages/get")  
 [messages::closemessages::do_close](close.html "cpp/locale/messages/close")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/messages/navbar_content&action=edit)
+
 
 Defined in header `[<locale>](../../header/locale.html "cpp/header/locale")` |  |   
 ---|---|---  
@@ -189,23 +189,23 @@ virtual catalog do_open( const [std::string](../../string/basic_string.html)& na
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/messages/open&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 name  |  \-  |  name of the message catalog to open   
 ---|---|---  
 loc  |  \-  |  a locale object that provides additional facets that may be required to read messages from the catalog, such as [std::codecvt](../codecvt.html "cpp/locale/codecvt") to perform wide/multibyte conversions   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/messages/open&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The non-negative value of type `catalog` that can be used with [get()](get.html "cpp/locale/messages/get") and [close()](close.html "cpp/locale/messages/close"). Returns a negative value if the catalog could not be opened. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/messages/open&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 On POSIX systems, this function call usually translates to a call to `[catopen()](https://pubs.opengroup.org/onlinepubs/9699919799/functions/catopen.html)`. In GNU libstdc++, it calls `[textdomain](https://gcc.gnu.org/onlinedocs/libstdc++/manual/facets.html)`. 
 
 The actual catalog location is implementation-defined: for the catalog "sed" (message catalogs installed with the Unix utility `'sed'`) in German locale, for example, the file opened by this function call may be `/usr/lib/nls/msg/de_DE/sed.cat`, `/usr/lib/locale/de_DE/LC_MESSAGES/sed.cat`, or `/usr/share/locale/de/LC_MESSAGES/sed.mo`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/messages/open&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 The following example demonstrated retrieval of messages: on a typical GNU/Linux system it reads from `/usr/share/locale/de/LC_MESSAGES/sed.mo`.
 
@@ -237,6 +237,6 @@ Possible output:
     "No match" in German: Keine Übereinstimmung
     "Memory exhausted" in German: Speicher erschöpft
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/messages/open&action=edit&section=5 "Edit section: See also")] See also  
+### See also  
   
 ---

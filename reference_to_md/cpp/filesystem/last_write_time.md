@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Filesystem library](../filesystem.html "cpp/filesystem")
 
@@ -100,7 +100,7 @@ filesystem::symlink_status](status.html "cpp/filesystem/status")
 [filesystem::is_socket](is_socket.html "cpp/filesystem/is socket")  
 [filesystem::is_symlink](is_symlink.html "cpp/filesystem/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/navbar_content&action=edit)
+
 
 Defined in header `[<filesystem>](../header/filesystem.html "cpp/header/filesystem")` |  |   
 ---|---|---  
@@ -130,20 +130,20 @@ void last_write_time( const [std::filesystem::path](path.html)& p,
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/last_write_time&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 p  |  \-  |  path to examine or modify   
 ---|---|---  
 new_time  |  \-  |  new modification time   
 ec  |  \-  |  out-parameter for error reporting in the non-throwing overload   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/last_write_time&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1,2) The time of the last modification of p.
 
 3,4) (none)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/last_write_time&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Any overload not marked `noexcept` may throw [std::bad_alloc](../memory/new/bad_alloc.html "cpp/memory/new/bad alloc") if memory allocation fails.  
 
@@ -152,11 +152,11 @@ Any overload not marked `noexcept` may throw [std::bad_alloc](../memory/new/bad_
 
 2,4) Sets a [std::error_code](../error/error_code.html)& parameter to the OS API error code if an OS API call fails, and executes ec.[`clear`](../error/error_code/clear.html "cpp/error/error code/clear")() if no errors occur.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/last_write_time&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 It is not guaranteed that immediately after setting the write time, the value returned by (1,2) is the same as what was passed as the argument to (3,4) because the file system's time may be more granular than [filesystem::file_time_type](file_time_type.html "cpp/filesystem/file time type"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/last_write_time&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -193,10 +193,10 @@ Possible output:
     File write time is 2023-09-04 19:33:24.702639224
     File write time is 2023-09-04 20:33:24.702639224
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/last_write_time&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ file_time_type](file_time_type.html "cpp/filesystem/file time type")(C++17) |  represents file time values   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_file_time_type&action=edit)  
+(typedef)   
 ---|---  
 [ last_write_time](directory_entry/last_write_time.html "cpp/filesystem/directory entry/last write time") |  gets the time of the last data modification of the file to which the directory entry refers   
-(public member function of `std::filesystem::directory_entry`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/directory_entry/dsc_last_write_time&action=edit)
+(public member function of `std::filesystem::directory_entry`) 

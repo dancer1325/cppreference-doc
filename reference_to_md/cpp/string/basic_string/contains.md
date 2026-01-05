@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Strings library](../../string.html "cpp/string")
 
@@ -40,7 +40,7 @@ Classes
 [basic_string_view](../basic_string_view.html "cpp/string/basic string view")(C++17)  
 [char_traits](../char_traits.html "cpp/string/char traits")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/navbar_content&action=edit)
+
 
 [`std::basic_string`](../basic_string.html "cpp/string/basic string")
 
@@ -133,7 +133,7 @@ basic_string_view](operator_basic_string_view.html "cpp/string/basic string/oper
 [hash<std::basic_string>](hash.html "cpp/string/basic string/hash")(C++11)  
 [Deduction guides](deduction_guides.html "cpp/string/basic string/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/navbar_content&action=edit)
+
 
 constexpr bool  
 contains( [std::basic_string_view](../basic_string_view.html)<CharT,Traits> sv ) const noexcept; |  (1)  |  (since C++23)  
@@ -165,24 +165,24 @@ All three overloads are equivalent to return find(x) != npos;, where `x` is the 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/contains&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 sv  |  \-  |  a string view which may be a result of implicit conversion from another `std::basic_string`  
 ---|---|---  
 ch  |  \-  |  a single character   
 s  |  \-  |  a null-terminated character string   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/contains&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 true if the string contains the provided substring, false otherwise. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/contains&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../../utility/feature_test.html "cpp/utility/feature test") macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_string_contains`](../../experimental/feature_test.html#cpp_lib_string_contains "cpp/feature test") | [`202011L`](../../compiler_support/23.html#cpp_lib_string_contains_202011L "cpp/compiler support/23") | (C++23) | `contains` functions   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/contains&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -223,18 +223,18 @@ Output:
     "hello world" contains 'w'
     "hello world" does not contain 'x'
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/contains&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ starts_with](starts_with.html "cpp/string/basic string/starts with")(C++20) |  checks if the string starts with the given prefix   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_starts_with&action=edit)  
+(public member function)   
 ---|---  
 [ ends_with](ends_with.html "cpp/string/basic string/ends with")(C++20) |  checks if the string ends with the given suffix   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_ends_with&action=edit)  
+(public member function)   
 [ find](find.html "cpp/string/basic string/find") |  finds the first occurrence of the given substring   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_find&action=edit)  
+(public member function)   
 [ substr](substr.html "cpp/string/basic string/substr") |  returns a substring   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_substr&action=edit)  
+(public member function)   
 [ contains](../basic_string_view/contains.html "cpp/string/basic string view/contains")(C++23) |  checks if the string view contains the given substring or character   
-(public member function of `std::basic_string_view<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/dsc_contains&action=edit)
+(public member function of `std::basic_string_view<CharT,Traits>`) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

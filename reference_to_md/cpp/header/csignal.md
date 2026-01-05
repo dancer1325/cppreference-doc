@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header was originally in the C standard library as [`<signal.h>`](../../c/header/signal.html "c/header/signal"). 
 
@@ -220,20 +220,20 @@ This header is part of the [program support](../utility/program.html "cpp/utilit
 ###  Macros  
   
 [ SIGABRTSIGFPESIGILLSIGINTSIGSEGVSIGTERM](../utility/program/SIG_types.html "cpp/utility/program/SIG types") |  defines signal types   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/program/dsc_SIG_types&action=edit)  
+(macro constant)   
 [ SIG_DFLSIG_IGN](../utility/program/SIG_strategies.html "cpp/utility/program/SIG strategies") |  defines signal handling strategies   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/program/dsc_SIG_strategies&action=edit)  
+(macro constant)   
 [ SIG_ERR](../utility/program/SIG_ERR.html "cpp/utility/program/SIG ERR") |  return value of [`signal`](../utility/program/signal.html "cpp/utility/program/signal") specifying that an error was encountered   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/program/dsc_SIG_ERR&action=edit)  
+(macro constant)   
   
 ###  Functions  
   
 [ signal](../utility/program/signal.html "cpp/utility/program/signal") |  sets a signal handler for particular signal   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/program/dsc_signal&action=edit)  
+(function)   
 [ raise](../utility/program/raise.html "cpp/utility/program/raise") |  runs the signal handler for particular signal   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/program/dsc_raise&action=edit)  
+(function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/csignal&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     namespace std {

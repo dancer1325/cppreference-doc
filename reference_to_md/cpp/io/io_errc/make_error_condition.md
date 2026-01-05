@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::io_errc`](../io_errc.html "cpp/io/io errc")
 
@@ -88,7 +88,7 @@ Non-member functions
 Helper classes  
 [is_error_code_enum<std::io_errc>](is_error_code_enum.html "cpp/io/io errc/is error code enum")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/io_errc/navbar_content&action=edit)
+
 
 Defined in header `[<ios>](../../header/ios.html "cpp/header/ios")` |  |   
 ---|---|---  
@@ -108,16 +108,16 @@ Constructs an [std::error_condition](../../error/error_condition.html "cpp/error
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/io_errc/make_error_condition&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 e  |  \-  |  error code number   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/io_errc/make_error_condition&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 A value of type [std::error_condition](../../error/error_condition.html "cpp/error/error condition") that holds the error code number from e associated with the error category "iostream". 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/io_errc/make_error_condition&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -138,7 +138,7 @@ Output:
     error condition for io_errc::stream has value 1
     and message "unspecified iostream_category error"
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/io_errc/make_error_condition&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -146,10 +146,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 2087](https://cplusplus.github.io/LWG/issue2087) | C++11  | `make_error_condition(io_errc)` was not declared noexcept | declared noexcept  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/io_errc/make_error_condition&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ error_condition](../../error/error_condition.html "cpp/error/error condition")(C++11) |  holds a portable error code   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_error_condition&action=edit)  
+(class)   
 ---|---  
 [ io_errc](../io_errc.html "cpp/io/io errc")(C++11) |  the IO stream error codes   
-(enum) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_io_errc&action=edit)
+(enum) 

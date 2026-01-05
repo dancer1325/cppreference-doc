@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 **`std::shared_ptr`**
 
@@ -220,7 +220,7 @@ Helper classes
 [hash<std::shared_ptr>](shared_ptr/hash.html "cpp/memory/shared ptr/hash")  
 [Deduction guides](shared_ptr/deduction_guides.html "cpp/memory/shared ptr/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/navbar_content&action=edit)
+
 
 Defined in header `[<memory>](../header/memory.html "cpp/header/memory")` |  |   
 ---|---|---  
@@ -262,7 +262,7 @@ All member functions (including copy constructor and copy assignment) can be cal
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Member type  |  Definition   
 ---|---  
@@ -271,76 +271,76 @@ Member type  |  Definition
 [std::remove_extent_t](../types/remove_extent.html)<T> | (since C++17)  
 `weak_type` (since C++17) |  [std::weak_ptr](weak_ptr.html)<T>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](shared_ptr/shared_ptr.html "cpp/memory/shared ptr/shared ptr") |  constructs new `shared_ptr`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ (destructor)](shared_ptr/~shared_ptr.html "cpp/memory/shared ptr/~shared ptr") |  destructs the owned object if no more `shared_ptr`s link to it   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/dsc_destructor&action=edit)  
+(public member function)   
 [ operator=](shared_ptr/operator=.html "cpp/memory/shared ptr/operator=") |  assigns the `shared_ptr`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/dsc_operator%3D&action=edit)  
+(public member function)   
   
 #####  Modifiers   
   
 [ reset](shared_ptr/reset.html "cpp/memory/shared ptr/reset") |  replaces the managed object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/dsc_reset&action=edit)  
+(public member function)   
 [ swap](shared_ptr/swap.html "cpp/memory/shared ptr/swap") |  swaps the managed objects   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/dsc_swap&action=edit)  
+(public member function)   
   
 #####  Observers   
   
 [ get](shared_ptr/get.html "cpp/memory/shared ptr/get") |  returns the stored pointer   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/dsc_get&action=edit)  
+(public member function)   
 [ operator*operator->](shared_ptr/operator*.html "cpp/memory/shared ptr/operator*") |  dereferences the stored pointer   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/dsc_operator*&action=edit)  
+(public member function)   
 [ operator[]](shared_ptr/operator_at.html "cpp/memory/shared ptr/operator at")(C++17) |  provides indexed access to the stored array   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/dsc_operator_at&action=edit)  
+(public member function)   
 [ use_count](shared_ptr/use_count.html "cpp/memory/shared ptr/use count") |  returns the number of `shared_ptr` objects referring to the same managed object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/dsc_use_count&action=edit)  
+(public member function)   
 [ unique](shared_ptr/unique.html "cpp/memory/shared ptr/unique")(until C++20) |  checks whether the managed object is managed only by the current `shared_ptr` object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/dsc_unique&action=edit)  
+(public member function)   
 [ operator bool](shared_ptr/operator_bool.html "cpp/memory/shared ptr/operator bool") |  checks if the stored pointer is not null   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/dsc_operator_bool&action=edit)  
+(public member function)   
 [ owner_before](shared_ptr/owner_before.html "cpp/memory/shared ptr/owner before") |  provides owner-based ordering of shared pointers   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/dsc_owner_before&action=edit)  
+(public member function)   
 [ owner_hash](shared_ptr/owner_hash.html "cpp/memory/shared ptr/owner hash")(C++26) |  provides owner-based hashing of shared pointers   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/dsc_owner_hash&action=edit)  
+(public member function)   
 [ owner_equal](shared_ptr/owner_equal.html "cpp/memory/shared ptr/owner equal")(C++26) |  provides owner-based equal comparison of shared pointers   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/dsc_owner_equal&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr&action=edit&section=3 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ make_sharedmake_shared_for_overwrite](shared_ptr/make_shared.html "cpp/memory/shared ptr/make shared")(C++20) |  creates a shared pointer that manages a new object   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/dsc_make_shared&action=edit)  
+(function template)   
 ---|---  
 [ allocate_sharedallocate_shared_for_overwrite](shared_ptr/allocate_shared.html "cpp/memory/shared ptr/allocate shared")(C++20) |  creates a shared pointer that manages a new object allocated using an allocator   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/dsc_allocate_shared&action=edit)  
+(function template)   
 [ static_pointer_castdynamic_pointer_castconst_pointer_castreinterpret_pointer_cast](shared_ptr/pointer_cast.html "cpp/memory/shared ptr/pointer cast")(C++17) |  applies [`static_cast`](../language/static_cast.html "cpp/language/static cast"), [`dynamic_cast`](../language/dynamic_cast.html "cpp/language/dynamic cast"), [`const_cast`](../language/const_cast.html "cpp/language/const cast"), or [`reinterpret_cast`](../language/reinterpret_cast.html "cpp/language/reinterpret cast") to the stored pointer   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/dsc_pointer_cast&action=edit)  
+(function template)   
 [ get_deleter](shared_ptr/get_deleter.html "cpp/memory/shared ptr/get deleter") |  returns the deleter of specified type, if owned   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/dsc_get_deleter&action=edit)  
+(function template)   
 [ operator==operator!=operator<operator<=operator>operator>=operator<=>](shared_ptr/operator_cmp.html "cpp/memory/shared ptr/operator cmp")(removed in C++20)(removed in C++20)(removed in C++20)(removed in C++20)(removed in C++20)(C++20) |  compares with another `shared_ptr` or with nullptr   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/dsc_operator_cmp&action=edit)  
+(function template)   
 [ operator<<(std::shared_ptr)](shared_ptr/operator_ltlt.html "cpp/memory/shared ptr/operator ltlt") |  outputs the value of the stored pointer to an output stream   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/dsc_operator_ltlt&action=edit)  
+(function template)   
 [ std::swap(std::shared_ptr)](shared_ptr/swap2.html "cpp/memory/shared ptr/swap2")(C++11) |  specializes the [std::swap](../utility/swap.html "cpp/algorithm/swap") algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/dsc_swap2&action=edit)  
+(function template)   
 [ std::atomic_is_lock_free(std::shared_ptr)std::atomic_load(std::shared_ptr)std::atomic_load_explicit(std::shared_ptr)std::atomic_store(std::shared_ptr)std::atomic_store_explicit(std::shared_ptr)std::atomic_exchange(std::shared_ptr)std::atomic_exchange_explicit(std::shared_ptr)std::atomic_compare_exchange_weak(std::shared_ptr)std::atomic_compare_exchange_strong(std::shared_ptr)std::atomic_compare_exchange_weak_explicit(std::shared_ptr)std::atomic_compare_exchange_strong_explicit(std::shared_ptr)](shared_ptr/atomic.html "cpp/memory/shared ptr/atomic")(deprecated in C++20)(removed in C++26) |  specializes atomic operations for `std::shared_ptr`   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/dsc_atomic&action=edit)  
+(function template)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr&action=edit&section=4 "Edit section: Helper classes")] Helper classes
+### Helper classes
 
 [ std::atomic<std::shared_ptr>](shared_ptr/atomic2.html "cpp/memory/shared ptr/atomic2")(C++20) |  atomic shared pointer   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/dsc_atomic2&action=edit)  
+(class template specialization)   
 ---|---  
 [ std::hash<std::shared_ptr>](shared_ptr/hash.html "cpp/memory/shared ptr/hash")(C++11) |  hash support for **`std::shared_ptr`**   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/dsc_hash&action=edit)  
+(class template specialization)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr&action=edit&section=5 "Edit section: Deduction guides \(since C++17\)")] [Deduction guides](shared_ptr/deduction_guides.html "cpp/memory/shared ptr/deduction guides") (since C++17)
+### [Deduction guides](shared_ptr/deduction_guides.html "cpp/memory/shared ptr/deduction guides") (since C++17)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr&action=edit&section=6 "Edit section: Notes")] Notes
+### Notes
 
 Ownership of an object can only be shared through construction or assignment functions that receive another `shared_ptr` object. If a new `shared_ptr` is constructed solely using the raw underlying pointer held by another `shared_ptr`, this new `shared_ptr` will assume no other `shared_ptr` instances hold the object it possesses. This will result in (unless subsequent assignment occurs) the repeated application of the deleter to the same object during destruction. 
 
@@ -359,7 +359,7 @@ The `T` in std::shared_ptr<T> may be a function type: in this case it manages a 
         (*ee)();
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr&action=edit&section=7 "Edit section: Implementation notes")] Implementation notes
+### Implementation notes
 
 In a typical implementation, `shared_ptr` holds only two pointers: 
 
@@ -388,7 +388,7 @@ In existing implementations, the number of weak pointers is incremented ([[1]](h
 
 To satisfy thread safety requirements, the reference counters are typically incremented using an equivalent of [std::atomic::fetch_add](../atomic/atomic/fetch_add.html "cpp/atomic/atomic/fetch add") with [std::memory_order_relaxed](../atomic/memory_order.html "cpp/atomic/memory order") (decrementing requires stronger ordering to safely destroy the control block). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr&action=edit&section=8 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -471,7 +471,7 @@ Possible output:
     Base::~Base()
     All threads completed, the last one deleted Derived.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr&action=edit&section=9 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -607,10 +607,10 @@ Output:
     cont.use_count() = 0
     MyObj destructed
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr&action=edit&section=10 "Edit section: See also")] See also
+### See also
 
 [ unique_ptr](unique_ptr.html "cpp/memory/unique ptr")(C++11) |  smart pointer with unique object ownership semantics   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_unique_ptr&action=edit)  
+(class template)   
 ---|---  
 [ weak_ptr](weak_ptr.html "cpp/memory/weak ptr")(C++11) |  weak reference to an object managed by **std::shared_ptr**   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_weak_ptr&action=edit)
+(class template) 

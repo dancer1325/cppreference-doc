@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Library fundamentals](../memory.html "cpp/experimental/lib extensions")
 
@@ -50,7 +50,7 @@
 [Type-erased and polymorphic allocators](../memory.html "cpp/experimental/memory")  
 [Variable templates for type traits](../type_trait_variable_templates.html "cpp/experimental/type trait variable templates")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions/navbar_content&action=edit)
+
 
 [Polymorphic allocator library](../memory.html "cpp/experimental/memory")
 
@@ -73,7 +73,7 @@ Type-erased allocator support for existing classes
 [packaged_task](../lib_extensions/packaged_task.html "cpp/experimental/lib extensions/packaged task")  
 [promise](../lib_extensions/promise.html "cpp/experimental/lib extensions/promise")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions/pmr/navbar_content&action=edit)
+
 
 [`std::experimental::pmr::memory_resource`](../memory_resource.html "cpp/experimental/memory resource")
 
@@ -90,7 +90,7 @@ Protected member functions
 Non-member functions  
 [operator==operator!=](operator_eq.html "cpp/experimental/memory resource/operator eq")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions/pmr/memory_resource/navbar_content&action=edit)
+
 
 bool is_equal( const memory_resource& other ) const noexcept; |  |  (library fundamentals TS)  
 ---|---|---  
@@ -100,8 +100,8 @@ Compares *this for equality with other. Two `memory_resource`s compare equal if 
 
 Equivalent to return do_is_equal(other);. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/memory_resource/is_equal&action=edit&section=1 "Edit section: See also")] See also
+### See also
 
 [ do_is_equal](do_is_equal.html "cpp/experimental/memory resource/do is equal")[virtual] |  compare for equality with another `memory_resource`   
-(virtual protected member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/memory_resource/dsc_do_is_equal&action=edit)  
+(virtual protected member function)   
 ---|---

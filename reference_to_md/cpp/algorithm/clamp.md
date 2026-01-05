@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](ranges/copy.html "cpp/algorithm/ra
 [uninitialized_default_construct_n](../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -334,7 +334,7 @@ If lo is greater than hi, the behavior is undefined.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/clamp&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 v  |  \-  |  the value to clamp   
 ---|---|---  
@@ -343,17 +343,17 @@ comp  |  \-  |  comparison function object (i.e. an object that satisfies the re
 The signature of the comparison function should be equivalent to the following: bool cmp(const Type1& a, const Type2& b); While the signature does not need to have const&, the function must not modify the objects passed to it and must be able to accept all values of type (possibly const) `Type1` and `Type2` regardless of [value category](../language/value_category.html "cpp/language/value category") (thus, Type1& is not allowed, nor is Type1 unless for `Type1` a move is equivalent to a copy(since C++11)).  
 The types Type1 and Type2 must be such that an object of type T can be implicitly converted to both of them.   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/clamp&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Reference to lo if v is less than lo, reference to hi if hi is less than v, otherwise reference to v. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/clamp&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 1) At most two comparisons using operator<(until C++20)[std::less](../utility/functional/less.html){}(since C++20).
 
 2) At most two applications of the comparison function comp.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/clamp&action=edit&section=4 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
 
 [clamp (1)](clamp.html#Version_1)  
 ---  
@@ -374,9 +374,9 @@ Reference to lo if v is less than lo, reference to hi if hi is less than v, othe
         return comp(v, lo) ? lo : comp(hi, v) ? hi : v;
     }  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/clamp&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/minmax_danger_note&action=edit)
+
 
 Capturing the result of `std::clamp` by reference produces a dangling reference if one of the parameters is a temporary and that parameter is returned: 
     
@@ -390,7 +390,7 @@ If v compares equivalent to either bound, returns a reference to v, not the boun
 ---|---|---|---  
 [`__cpp_lib_clamp`](../experimental/feature_test.html#cpp_lib_clamp "cpp/feature test") | [`201603L`](../compiler_support/17.html#cpp_lib_clamp_201603L "cpp/compiler support/17") | (C++17) | [`std::clamp`](clamp.html#top)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/clamp&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -426,16 +426,16 @@ Output:
      255        127     255
      256        127     255
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/clamp&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ min](min.html "cpp/algorithm/min") |  returns the smaller of the given values   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_min&action=edit)  
+(function template)   
 ---|---  
 [ max](max.html "cpp/algorithm/max") |  returns the greater of the given values   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_max&action=edit)  
+(function template)   
 [ in_range](../utility/in_range.html "cpp/utility/in range")(C++20) |  checks if an integer value is in the range of a given integer type   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_in_range&action=edit)  
+(function template)   
 [ ranges::clamp](ranges/clamp.html "cpp/algorithm/ranges/clamp")(C++20) |  clamps a value between a pair of boundary values  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_clamp&action=edit)
+(algorithm function object)
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Diagnostics library](../error.html "cpp/error")
 
@@ -187,7 +187,7 @@ Exception handling failures
 [breakpoint_if_debugging](../utility/breakpoint_if_debugging.html "cpp/utility/breakpoint if debugging")(C++26)  
 [breakpoint](../utility/breakpoint.html "cpp/utility/breakpoint")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/navbar_content&action=edit)
+
 
 **`std::exception`**
 
@@ -198,7 +198,7 @@ Member functions
 [exception::operator=](exception/operator=.html "cpp/error/exception/operator=")  
 [exception::what](exception/what.html "cpp/error/exception/what")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/exception/navbar_content&action=edit)
+
 
 Defined in header `[<exception>](../header/exception.html "cpp/header/exception")` |  |   
 ---|---|---  
@@ -223,19 +223,19 @@ All member functions of `std::exception` are constexpr.  | (since C++26)
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/exception&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](exception/exception.html "cpp/error/exception/exception") |  constructs the exception object   
 (public member function)  
 ---|---  
 [ (destructor)](exception/~exception.html "cpp/error/exception/~exception")[virtual] |  destroys the exception object   
-(virtual public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/exception/dsc_destructor&action=edit)  
+(virtual public member function)   
 [ operator=](exception/operator=.html "cpp/error/exception/operator=") |  copies exception object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/exception/dsc_operator%3D&action=edit)  
+(public member function)   
 [ what](exception/what.html "cpp/error/exception/what")[virtual] |  returns an explanatory string   
-(virtual public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/exception/dsc_what&action=edit)  
+(virtual public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/exception&action=edit&section=2 "Edit section: Standard exception requirements")] Standard exception requirements
+### Standard exception requirements
 
 Each standard library class `T` that derives from `std::exception` has the following publicly accessible member functions, each of them do not exit with an exception(until C++11)having a [non-throwing exception specification](../language/noexcept_spec.html "cpp/language/noexcept spec")(since C++11): 
 
@@ -253,7 +253,7 @@ The copy constructor and the copy assignment operator meet the following postcon
 
 The `what()` member function of each such `T` satisfies the constraints specified for [std::exception::what()](exception/what.html "cpp/error/exception/what"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/exception&action=edit&section=3 "Edit section: Standard exceptions")] Standard exceptions
+### Standard exceptions
 
   * [`logic_error`](logic_error.html "cpp/error/logic error")
 
@@ -384,13 +384,13 @@ The `what()` member function of each such `T` satisfies the constraints specifie
 | (since C++17)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/exception&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../utility/feature_test.html "cpp/utility/feature test") macro  | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_constexpr_exceptions`](../experimental/feature_test.html#cpp_lib_constexpr_exceptions "cpp/feature test") | [`202411L`](../compiler_support/26.html#cpp_lib_constexpr_exceptions_202411L "cpp/compiler support/26") | (C++26) | constexpr for exception types   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/exception&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

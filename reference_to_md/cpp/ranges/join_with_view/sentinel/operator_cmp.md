@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::join_with_view`](../../join_with_view.html "cpp/ranges/join with view")
 
@@ -251,7 +251,7 @@ join_with_view::_iterator_ ::operator--(int)](../iterator/operator_arith.html "c
 [join_with_view::_sentinel_ ::_sentinel_](sentinel.html "cpp/ranges/join with view/sentinel/sentinel")  
 **operator==(join_with_view::_sentinel_)**(C++23)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/join_with_view/navbar_content&action=edit)
+
 
 friend constexpr bool operator==( const /*iterator*/<Const>& x, const /*sentinel*/& y ); |  |  (since C++23)  
 ---|---|---  
@@ -263,17 +263,17 @@ This function is not visible to ordinary [unqualified](../../../language/unquali
 
 The `!=` operator is [synthesized](../../../language/default_comparisons.html#Other_defaulted_comparison_operators "cpp/language/default comparisons") from `operator==`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/join_with_view/sentinel/operator_cmp&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 x  |  \-  |  [iterator](../iterator.html "cpp/ranges/join with view/iterator") to compare   
 ---|---|---  
 y  |  \-  |  sentinel to compare   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/join_with_view/sentinel/operator_cmp&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 x.outer_it_ == y.end_, where `_outer_it__` denotes the underlying outer iterator, `_end__` denotes the underlying sentinel. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/join_with_view/sentinel/operator_cmp&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

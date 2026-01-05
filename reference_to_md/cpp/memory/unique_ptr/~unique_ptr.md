@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::unique_ptr`](../unique_ptr.html "cpp/memory/unique ptr")
 
@@ -211,7 +211,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
 [Helper classes](../unique_ptr.html#Helper_classes "cpp/memory/unique ptr")  
 [hash<std::unique_ptr>](hash.html "cpp/memory/unique ptr/hash")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/unique_ptr/navbar_content&action=edit)
+
 
 ~unique_ptr(); |  |  (since C++11)   
 (constexpr since C++23)  
@@ -222,11 +222,11 @@ If [get()](get.html "cpp/memory/unique ptr/get") `==` nullptr there are no effec
 
 Requires that `get_deleter()(get())` does not throw exceptions. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/unique_ptr/%7Eunique_ptr&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 Although `std::unique_ptr<T>` with the default deleter may be constructed with [incomplete type](../../language/incomplete_type.html "cpp/language/incomplete type") `T`, the type `T` must be complete at the point of code where the destructor is called. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/unique_ptr/%7Eunique_ptr&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 The following program demonstrates usage of a custom deleter.
 

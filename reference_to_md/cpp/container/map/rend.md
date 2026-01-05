@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 `[std::map](../map.html "cpp/container/map")`
 
@@ -138,7 +138,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/map/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/map/navbar_content&action=edit)
+
 
 reverse_iterator rend(); |  (1) | (noexcept since C++11)   
 (constexpr since C++26)  
@@ -166,11 +166,11 @@ This returned iterator only acts as a sentinel. It is not guaranteed to be [dere
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/rend&action=edit&section=T-1 "Template:cpp/container/rend")] Return value
+### Return value
 
 Reverse iterator to the element following the last element. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/rend&action=edit&section=T-2 "Template:cpp/container/rend")] Complexity
+### Complexity
 
 Constant. 
 
@@ -178,7 +178,7 @@ Constant.
 
 libc++ backports `crend()` to C++98 mode.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/rend&action=edit&section=T-4 "Template:cpp/container/rend")] Example
+### Example
 
 Run this code
     
@@ -225,10 +225,10 @@ Possible output:
     2021-11-23 : 60
     2020-04-01 : 42
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/rend&action=edit&section=T-5 "Template:cpp/container/rend")] See also
+### See also
 
 [ rbegincrbegin](rbegin.html "cpp/container/map/rbegin")(C++11) |  returns a reverse iterator to the beginning   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_rbegin&action=edit)  
+(public member function)   
 ---|---  
 [ rendcrend](../../iterator/rend.html "cpp/iterator/rend")(C++14) |  returns a reverse end iterator for a container or array   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_rend&action=edit)
+(function template) 

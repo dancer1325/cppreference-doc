@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::variant`](../variant.html "cpp/utility/variant")
 
@@ -161,7 +161,7 @@ Common vocabulary types
 [Helper objects](../variant.html#Helper_objects "cpp/utility/variant")  
 [variant_npos](variant_npos.html "cpp/utility/variant/variant npos")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variant/navbar_content&action=edit)
+
 
 Defined in header `[<variant>](../../header/variant.html "cpp/header/variant")` |  |   
 ---|---|---  
@@ -185,16 +185,16 @@ The member functions of this specialization are not guaranteed to be noexcept.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variant/hash&action=edit&section=1 "Edit section: Template parameters")] Template parameters
+### Template parameters
 
 Types  |  \-  |  the types of the alternatives supported by the `variant` object   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variant/hash&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 Unlike [`std::hash<std::optional>`](../optional/hash.html "cpp/utility/optional/hash"), hash of a variant does not typically equal the hash of the contained value; this makes it possible to distinguish [std::variant](../variant.html)<int, int> holding the same value as different alternatives. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variant/hash&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -235,8 +235,8 @@ Possible output:
     get<2> = 2026   # = 2028
     get<3> = C++    # = 15518724754199266859
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variant/hash&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ hash](../hash.html "cpp/utility/hash")(C++11) |  hash function object   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_hash&action=edit)  
+(class template)   
 ---|---

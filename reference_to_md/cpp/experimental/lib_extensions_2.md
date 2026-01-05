@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 **Library fundamentals v2**
 
@@ -74,7 +74,7 @@
 [uniform container erasure](lib_extensions_2.html#Uniform_container_erasure "cpp/experimental/lib extensions 2")  
 [logical operator type traits](lib_extensions_2.html#Logical_operator_type_traits "cpp/experimental/lib extensions 2")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions_2/navbar_content&action=edit)
+
 
 Version 2 of the C++ Extensions for Library Fundamentals, ISO/IEC TS 19568:2017, defines the following new components for the C++ standard library, in addition to those defined in [version 1](memory.html "cpp/experimental/lib extensions"): 
 
@@ -96,7 +96,7 @@ Version 2 of the C++ Extensions for Library Fundamentals, ISO/IEC TS 19568:2017,
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/lib_extensions_2&action=edit&section=1 "Edit section: The C++ detection idiom")] The C++ detection idiom
+### The C++ detection idiom
 
 Defined in header `[<experimental/type_traits>](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/type_traits&action=edit&redlink=1 "cpp/header/experimental/type traits \(page does not exist\)")`  
 ---  
@@ -105,51 +105,51 @@ Defined in header `[<experimental/type_traits>](https://en.cppreference.com/mwik
 [ nonesuch](nonesuch.html "cpp/experimental/nonesuch") |  class type returned by detected_t on failure   
 (class)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/lib_extensions_2&action=edit&section=2 "Edit section: A const-propagating wrapper for pointer-like objects")] A const-propagating wrapper for pointer-like objects
+### A const-propagating wrapper for pointer-like objects
 
 Defined in header `[<experimental/propagate_const>](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/propagate_const&action=edit&redlink=1 "cpp/header/experimental/propagate const \(page does not exist\)")`  
 ---  
 [ propagate_const](propagate_const.html "cpp/experimental/propagate const") |  a const-propagating wrapper for pointer-like objects   
 (class template)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/lib_extensions_2&action=edit&section=3 "Edit section: Non-owning pointers")] Non-owning pointers
+### Non-owning pointers
 
 Defined in header `[<experimental/memory>](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/memory&action=edit&redlink=1 "cpp/header/experimental/memory \(page does not exist\)")`  
 ---  
 [ observer_ptr](observer_ptr.html "cpp/experimental/observer ptr") |  a class representing a non-owning pointer   
 (class template)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/lib_extensions_2&action=edit&section=4 "Edit section: std::array creation")] `std::array` creation
+### `std::array` creation
 
 Defined in header `[<experimental/array>](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/array&action=edit&redlink=1 "cpp/header/experimental/array \(page does not exist\)")`  
 ---  
 [ make_array](make_array.html "cpp/experimental/make array")(library fundamentals TS v2) |  creates a [std::array](../container/array.html "cpp/container/array") object whose size and optionally element type are deduced from the arguments   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/dsc_make_array&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/lib_extensions_2&action=edit&section=5 "Edit section: ostream joiner")] `ostream_joiner`
+### `ostream_joiner`
 
 Defined in header `[<experimental/iterator>](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/iterator&action=edit&redlink=1 "cpp/header/experimental/iterator \(page does not exist\)")`  
 ---  
 [ ostream_joiner](ostream_joiner.html "cpp/experimental/ostream joiner") |  an output iterator that writes successive elements into an output stream, separating adjacent elements with a delimiter   
 (class template)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/lib_extensions_2&action=edit&section=6 "Edit section: Simple random number generation facilities")] Simple random number generation facilities
+### Simple random number generation facilities
 
 A _per-thread engine_ of type [std::default_random_engine](../numeric/random.html "cpp/numeric/random"), initialized to an unpredictable state, is maintained for each thread and used by the functions below. 
 
 Defined in header `[<experimental/random>](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/random&action=edit&redlink=1 "cpp/header/experimental/random \(page does not exist\)")`  
 ---  
 [ randint](randint.html "cpp/experimental/randint") |  generates a random integer in the specified range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/dsc_randint&action=edit)  
+(function template)   
 [ reseed](reseed.html "cpp/experimental/reseed") |  reseeds the per-thread random engine   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/dsc_reseed&action=edit)  
+(function)   
 Defined in header `[<experimental/algorithm>](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/algorithm&action=edit&redlink=1 "cpp/header/experimental/algorithm \(page does not exist\)")`  
 [ sample](sample.html "cpp/experimental/sample") |  selects n random elements from a sequence   
 (function template)  
 [ shuffle](shuffle.html "cpp/experimental/shuffle") |  randomly re-orders elements in a range   
 (function template)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/lib_extensions_2&action=edit&section=7 "Edit section: Feature test macros")] Feature test macros
+### Feature test macros
 
 Defined in header `[<experimental/type_traits>](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/type_traits&action=edit&redlink=1 "cpp/header/experimental/type traits \(page does not exist\)")`  
 ---  
@@ -185,7 +185,7 @@ Defined in header `[<experimental/source_location>](https://en.cppreference.com/
 __cpp_lib_experimental_source_location |  a value of at least 201505 indicates that source_location is supported   
 (macro constant)  
   
-## [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/lib_extensions_2&action=edit&section=8 "Edit section: Merged into C++17")] Merged into C++17
+## Merged into C++17
 
 The following components of the library fundamentals v2 have been adopted into the C++17 standard. 
 
@@ -202,18 +202,18 @@ Defined in header `[<experimental/type_traits>](https://en.cppreference.com/mwik
 (class template)  
 Defined in header `[<experimental/functional>](../header/experimental/functional.html "cpp/header/experimental/functional")`  
 [ not_fn](not_fn.html "cpp/experimental/not fn") |  creates a function object that returns the complement of the result of the function object it holds   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/dsc_not_fn&action=edit)  
+(function template)   
 Defined in header `[<experimental/numeric>](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/numeric&action=edit&redlink=1 "cpp/header/experimental/numeric \(page does not exist\)")`  
 [ gcd](gcd.html "cpp/experimental/gcd") |  `constexpr` function template returning the greatest common divisor of two integers   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/dsc_gcd&action=edit)  
+(function template)   
 [ lcm](lcm.html "cpp/experimental/lcm") |  `constexpr` function template returning the least common multiple of two integers   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/dsc_lcm&action=edit)  
+(function template)   
   
-## [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/lib_extensions_2&action=edit&section=9 "Edit section: Merged into C++20")] Merged into C++20
+## Merged into C++20
 
 The following components of the library fundamentals v2 have been adopted into the C++20 standard. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/lib_extensions_2&action=edit&section=10 "Edit section: Uniform container erasure")] Uniform container erasure
+### Uniform container erasure
 
 Defined in header `[<experimental/string>](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/string&action=edit&redlink=1 "cpp/header/experimental/string \(page does not exist\)")`  
 ---  
@@ -262,16 +262,16 @@ Defined in header `[<experimental/unordered_set>](https://en.cppreference.com/mw
 [ erase_if (std::unordered_multiset)](unordered_multiset/erase_if.html "cpp/experimental/unordered multiset/erase if") |  erases all elements satisfying a predicate from a [std::unordered_multiset](../container/unordered_multiset.html "cpp/container/unordered multiset")   
 (function template)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/lib_extensions_2&action=edit&section=11 "Edit section: Source code information capture")] Source code information capture
+### Source code information capture
 
 Defined in header `[<experimental/source_location>](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/source_location&action=edit&redlink=1 "cpp/header/experimental/source location \(page does not exist\)")`  
 ---  
 [ source_location](source_location.html "cpp/experimental/source location") |  a class representing information about the source code, such as file names, line numbers, and function names   
 (class)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/lib_extensions_2&action=edit&section=12 "Edit section: std::array conversion")] `std::array` conversion
+### `std::array` conversion
 
 Defined in header `[<experimental/array>](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/array&action=edit&redlink=1 "cpp/header/experimental/array \(page does not exist\)")`  
 ---  
 [ to_array](to_array.html "cpp/experimental/to array") |  creates a [std::array](../container/array.html "cpp/container/array") object from a built-in array   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/dsc_to_array&action=edit)
+(function template) 

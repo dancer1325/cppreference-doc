@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 Defined in header `[<ranges>](../header/ranges.html "cpp/header/ranges")` |  |   
 ---|---|---  
@@ -270,7 +270,7 @@ In all other cases, a call to `ranges::rbegin` is ill-formed, which can result i
 
 The name `ranges::rbegin` denotes a _customization point object_ , which is a const [function object](../named_req/FunctionObject.html "cpp/named req/FunctionObject") of a [literal](../named_req/LiteralType.html "cpp/named req/LiteralType") [`semiregular`](../concepts/semiregular.html "cpp/concepts/semiregular") class type. See [CustomizationPointObject](../named_req/CustomizationPointObject.html "cpp/named req/CustomizationPointObject") for details. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/rbegin&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 If the argument is an rvalue (i.e. `T` is an object type) and [ranges::enable_borrowed_range](borrowed_range.html)<[std::remove_cv_t](../types/remove_cv.html)<T>> is false, the call to `ranges::rbegin` is ill-formed, which also results in substitution failure. 
 
@@ -278,7 +278,7 @@ The return type models [std::input_or_output_iterator](../iterator/input_or_outp
 
 The C++20 standard requires that if the underlying `rbegin` function call returns a prvalue, the return value is move-constructed from the materialized temporary object. All implementations directly return the prvalue instead. The requirement is corrected by the post-C++20 proposal [P0849R8](https://wg21.link/P0849R8) to match the implementations. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/rbegin&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -315,7 +315,7 @@ Output:
     4
     15
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/rbegin&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -323,10 +323,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [P2602R2](https://wg21.link/P2602R2) | C++20  | there's machinery to prohibit certain non-member `rbegin` found by [ADL](../language/adl.html "cpp/language/adl") | removed such machinery   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/rbegin&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ ranges::crbegin](crbegin.html "cpp/ranges/crbegin")(C++20) |  returns a reverse iterator to a read-only range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_crbegin&action=edit)  
+(customization point object)  
 ---|---  
 [ rbegincrbegin](../iterator/rbegin.html "cpp/iterator/rbegin")(C++14) |  returns a reverse iterator to the beginning of a container or array   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_rbegin&action=edit)
+(function template) 

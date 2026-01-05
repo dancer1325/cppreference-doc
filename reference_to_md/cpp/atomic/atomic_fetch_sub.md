@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 Defined in header `[<atomic>](../header/atomic.html "cpp/header/atomic")` |  |   
 ---|---|---  
@@ -212,18 +212,18 @@ If `std::atomic<T>` has no `fetch_sub` member (this member is only provided for 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_fetch_sub&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 obj  |  \-  |  pointer to the atomic object to modify   
 ---|---|---  
 arg  |  \-  |  the value to subtract from the value stored in the atomic object   
 order  |  \-  |  the memory synchronization ordering   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_fetch_sub&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The value immediately preceding the effects of this function in the [modification order](memory_order.html#Modification_order "cpp/atomic/memory order") of *obj. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_fetch_sub&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Multiple threads may use `std::atomic_fetch_sub` to concurrently process an indexed container.
 
@@ -280,7 +280,7 @@ Output:
     reader 4 done
     reader 3 done
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_fetch_sub&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -290,11 +290,11 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 `T` was deduced from multiple arguments  | `T` is only deduced  
 from obj  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_fetch_sub&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ fetch_sub](atomic/fetch_sub.html "cpp/atomic/atomic/fetch sub") |  atomically subtracts the argument from the value stored in the atomic object and obtains the value held previously   
-(public member function of `std::atomic<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_fetch_sub&action=edit)  
+(public member function of `std::atomic<T>`)   
 ---|---  
 [ atomic_fetch_addatomic_fetch_add_explicit](atomic_fetch_add.html "cpp/atomic/atomic fetch add")(C++11)(C++11) |  adds a non-atomic value to an atomic object and obtains the previous value of the atomic   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/dsc_atomic_fetch_add&action=edit)  
+(function template)   
 [C documentation](../../c/atomic/atomic_fetch_sub.html "c/atomic/atomic fetch sub") for atomic_fetch_sub, atomic_fetch_sub_explicit

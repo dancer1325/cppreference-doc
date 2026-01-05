@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Strings library](../../string.html "cpp/string")
 
@@ -40,7 +40,7 @@ Classes
 [basic_string_view](../basic_string_view.html "cpp/string/basic string view")(C++17)  
 [char_traits](../char_traits.html "cpp/string/char traits")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/navbar_content&action=edit)
+
 
 [`std::basic_string`](../basic_string.html "cpp/string/basic string")
 
@@ -133,7 +133,7 @@ basic_string_view](operator_basic_string_view.html "cpp/string/basic string/oper
 [hash<std::basic_string>](hash.html "cpp/string/basic string/hash")(C++11)  
 [Deduction guides](deduction_guides.html "cpp/string/basic string/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/navbar_content&action=edit)
+
 
 void shrink_to_fit(); |  | (constexpr since C++20)  
 ---|---|---  
@@ -156,15 +156,15 @@ If (and only if) reallocation takes place, all pointers, references, and iterato
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/shrink_to_fit&action=edit&section=1 "Edit section: Complexity")] Complexity
+### Complexity
 
 Linear in the size of the string. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/shrink_to_fit&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 In libstdc++, `shrink_to_fit()` is [not available](https://gcc.gnu.org/onlinedocs/libstdc++/manual/strings.html#strings.string.shrink) in C++98 mode. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/shrink_to_fit&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -210,7 +210,7 @@ Possible output:
     Capacity after clear() is 191 and size is 0
     Capacity after shrink_to_fit() is 22 and size is 0
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/shrink_to_fit&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -221,12 +221,12 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 2\. there was no complexity requirement  | 1\. they may be invalidated  
 2\. required to be linear   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/shrink_to_fit&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ sizelength](size.html "cpp/string/basic string/size") |  returns the number of characters   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_size&action=edit)  
+(public member function)   
 ---|---  
 [ capacity](capacity.html "cpp/string/basic string/capacity") |  returns the number of characters that can be held in currently allocated storage   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_capacity&action=edit)  
+(public member function)   
 [ resize](resize.html "cpp/string/basic string/resize") |  changes the number of characters stored   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_resize&action=edit)
+(public member function) 

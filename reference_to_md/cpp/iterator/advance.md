@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](empty.html "cpp/iterator/empty")(C++17)  
 [data](data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 Defined in header `[<iterator>](../header/iterator.html "cpp/header/iterator")` |  |   
 ---|---|---  
@@ -221,7 +221,7 @@ If n is negative, the iterator is decremented. In this case, `InputIt` must meet
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/advance&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 it  |  \-  |  iterator to be advanced   
 ---|---|---  
@@ -229,21 +229,21 @@ n  |  \-  |  number of elements it should be advanced
 Type requirements   
 -`InputIt` must meet the requirements of [LegacyInputIterator](../named_req/InputIterator.html "cpp/named req/InputIterator").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/advance&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/advance&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Linear. 
 
 However, if `InputIt` additionally meets the requirements of [LegacyRandomAccessIterator](../named_req/RandomAccessIterator.html "cpp/named req/RandomAccessIterator"), complexity is constant. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/advance&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 The behavior is undefined if the specified sequence of increments or decrements would require that a non-incrementable iterator (such as the past-the-end iterator) is incremented, or that a non-decrementable iterator (such as the front iterator or the [singular](../iterator.html#Dereferenceability_and_validity "cpp/iterator") iterator) is decremented. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/advance&action=edit&section=5 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
 
 See also the implementations in [libstdc++](https://github.com/gcc-mirror/gcc/blob/d9375e490072d1aae73a93949aa158fcd2a27018/libstdc%2B%2B-v3/include/bits/stl_iterator_base_funcs.h#L200) and [libc++](https://github.com/llvm-mirror/libcxx/blob/a12cb9d211019d99b5875b6d8034617cbc24c2cc/include/iterator#L582). 
 
@@ -326,7 +326,7 @@ See also the implementations in [libstdc++](https://github.com/gcc-mirror/gcc/bl
         }
     }  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/advance&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -353,14 +353,14 @@ Output:
     
     4 1
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/advance&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ next](next.html "cpp/iterator/next")(C++11) |  increment an iterator   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_next&action=edit)  
+(function template)   
 ---|---  
 [ prev](prev.html "cpp/iterator/prev")(C++11) |  decrement an iterator   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_prev&action=edit)  
+(function template)   
 [ distance](distance.html "cpp/iterator/distance") |  returns the distance between two iterators   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_distance&action=edit)  
+(function template)   
 [ ranges::advance](ranges/advance.html "cpp/iterator/ranges/advance")(C++20) |  advances an iterator by given distance or to a given bound  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/ranges/dsc_advance&action=edit)
+(algorithm function object)

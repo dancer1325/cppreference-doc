@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Diagnostics library](../error.html "cpp/error")
 
@@ -89,7 +89,7 @@ Exception handling failures
 [breakpoint_if_debugging](breakpoint_if_debugging.html "cpp/utility/breakpoint if debugging")(C++26)  
 [breakpoint](breakpoint.html "cpp/utility/breakpoint")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/navbar_content&action=edit)
+
 
 Defined in header `[<debugging>](../header/debugging.html "cpp/header/debugging")` |  |   
 ---|---|---  
@@ -111,11 +111,11 @@ This function is [replaceable](../language/replacement_function.html "cpp/langua
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/is_debugger_present&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 The default version returns an implementation-defined value, which usually represents whether the program is executed under a debugger. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/is_debugger_present&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 The intent of this function is allowing printing out extra output to help diagnose problems, executing extra test code, displaying an extra user interface to help in debugging, etc. 
 
@@ -124,21 +124,21 @@ The intent of this function is allowing printing out extra output to help diagno
 [`__cpp_lib_debugging`](../experimental/feature_test.html#cpp_lib_debugging "cpp/feature test") | [`202311L`](../compiler_support/26.html#cpp_lib_debugging_202311L "cpp/compiler support/26") | (C++26) | Debugging support library   
 [`202403L`](../compiler_support/26.html#cpp_lib_debugging_202403L "cpp/compiler support/26") | (C++26) | Replaceable `std::is_debugger_present`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/is_debugger_present&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/is_debugger_present&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ breakpoint](breakpoint.html "cpp/utility/breakpoint")(C++26) |  pauses the running program when called   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_breakpoint&action=edit)  
+(function)   
 ---|---  
 [ breakpoint_if_debugging](breakpoint_if_debugging.html "cpp/utility/breakpoint if debugging")(C++26) |  calls std::breakpoint if std::is_debugger_present returns true   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_breakpoint_if_debugging&action=edit)  
+(function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/is_debugger_present&action=edit&section=5 "Edit section: External links")] External links
+### External links
 
 `is_debugger_present` standardizes many similar existing facilities, e.g.: 
 

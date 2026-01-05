@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [C-style I/O](../c.html "cpp/io/c")
 
@@ -176,7 +176,7 @@ Operations on files
 [tmpfile](tmpfile.html "cpp/io/c/tmpfile")  
 [tmpnam](tmpnam.html "cpp/io/c/tmpnam")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/navbar_content&action=edit)
+
 
 Defined in header `[<cstdio>](../../header/cstdio.html "cpp/header/cstdio")` |  |   
 ---|---|---  
@@ -199,7 +199,7 @@ If an error occurs, the resulting value of the file position indicator for the s
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/fwrite&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 buffer  |  \-  |  pointer to the first object in the array to be written   
 ---|---|---  
@@ -207,13 +207,13 @@ size  |  \-  |  size of each object
 count  |  \-  |  the number of the objects to be written   
 stream  |  \-  |  output file stream to write to   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/fwrite&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Number of objects written successfully, which may be less than count if an error occurred. 
 
 If size or count is zero, `fwrite` returns zero and performs no other action. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/fwrite&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -250,13 +250,13 @@ Output:
     -1
     7
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/fwrite&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ printffprintfsprintfsnprintf](printf.html "cpp/io/c/fprintf")(C++11) |  prints formatted output to [stdout](std_streams.html "cpp/io/c/std streams"), a file stream or a buffer   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_fprintf&action=edit)  
+(function)   
 ---|---  
 [ fputs](fputs.html "cpp/io/c/fputs") |  writes a character string to a file stream   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_fputs&action=edit)  
+(function)   
 [ fread](fread.html "cpp/io/c/fread") |  reads from a file   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_fread&action=edit)  
+(function)   
 [C documentation](../../../c/io/fwrite.html "c/io/fwrite") for fwrite

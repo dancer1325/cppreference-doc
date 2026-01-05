@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::filter_view`](../filter_view.html "cpp/ranges/filter view")
 
@@ -252,7 +252,7 @@ filter_view::_iterator_ ::operator--(int)](iterator.html#decrement "cpp/ranges/f
 [filter_view::_sentinel_ ::base](sentinel.html#base "cpp/ranges/filter view/sentinel")  
 [operator==(filter_view::_iterator_ , filter_view::_sentinel_)](sentinel.html#compare "cpp/ranges/filter view/sentinel")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/filter_view/navbar_content&action=edit)
+
 
 class /*iterator*/; |  | (since C++20)   
 (exposition only*)  
@@ -284,7 +284,7 @@ Modification of the element denoted by this iterator is permitted, but results i
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/filter_view/iterator&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Type  |  Definition   
 ---|---  
@@ -307,7 +307,7 @@ Type  |  Definition
 `value_type` |  [ranges::range_value_t](../range_size_t.html)<V>  
 `difference_type` |  [ranges::range_difference_t](../range_size_t.html)<V>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/filter_view/iterator&action=edit&section=2 "Edit section: Data members")] Data members
+### Data members
 
 Member  |  Description   
 ---|---  
@@ -316,7 +316,7 @@ Member  |  Description
 [ranges::filter_view](../filter_view.html)<V, Pred>* `_parent__` (private) |  a pointer to the parent `filter_view` object  
 (exposition-only member object*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/filter_view/iterator&action=edit&section=3 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](iterator.html#ctor "cpp/ranges/filter view/iterator") |  constructs an iterator   
 (public member function)  
@@ -405,7 +405,7 @@ return *this;.
 
 2) Equivalent to auto tmp = *this; \--*this; return tmp;. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/filter_view/iterator&action=edit&section=4 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ operator==](iterator.html#compare "cpp/ranges/filter view/iterator")(C++20) |  compares the underlying iterators   
 (function)  
@@ -452,7 +452,7 @@ Equivalent to [ranges::iter_swap](../../iterator/ranges/iter_swap.html)(x.curren
 
 This function is not visible to ordinary [unqualified](../../language/unqualified_lookup.html "cpp/language/unqualified lookup") or [qualified lookup](../../language/qualified_lookup.html "cpp/language/qualified lookup"), and can only be found by [argument-dependent lookup](../../language/adl.html "cpp/language/adl") when `std::ranges::filter_view::_iterator_` is an associated class of the arguments. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/filter_view/iterator&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::elements_view`](../elements_view.html "cpp/ranges/elements view")
 
@@ -262,7 +262,7 @@ operator-(elements_view::_iterator_)](iterator/operator_arith2.html "cpp/ranges/
 [operator==(elements_view::_iterator_ ,elements_view::_sentinel_)](sentinel/operator_cmp.html "cpp/ranges/elements view/sentinel/operator cmp")  
 [operator-(elements_view::_iterator_ ,elements_view::_sentinel_)](sentinel/operator-.html "cpp/ranges/elements view/sentinel/operator-")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/elements_view/navbar_content&action=edit)
+
 
 constexpr auto end() requires (!/*simple-view*/<V> && ![ranges::common_range](../common_range.html)<V>); |  (1)  |  (since C++20)  
 ---|---|---  
@@ -294,30 +294,30 @@ Let [`_base__`](../elements_view.html#Data_members "cpp/ranges/elements view") b
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/elements_view/end&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/elements_view/end&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1,3) [sentinel](sentinel.html "cpp/ranges/elements view/sentinel") which compares equal to the end iterator
 
 2,4) [iterator](iterator.html "cpp/ranges/elements view/iterator") to the element following the last element
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/elements_view/end&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 `end()` returns an iterator if and only if the underlying view is a [`common_range`](../common_range.html "cpp/ranges/common range"): elements_view<V,F> models [`common_range`](../common_range.html "cpp/ranges/common range") whenever `V` does. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/elements_view/end&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/elements_view/end&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ begin](begin.html "cpp/ranges/elements view/begin") |  returns an iterator to the beginning   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/dsc_begin&action=edit)  
+(public member function)   
 ---|---  
 [ ranges::end](../end.html "cpp/ranges/end")(C++20) |  returns a sentinel indicating the end of a range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_end&action=edit)
+(customization point object)

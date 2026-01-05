@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Null-terminated wide strings](../wide.html "cpp/string/wide")
 
@@ -153,7 +153,7 @@
 WCHAR_MAX  
 WEOF](../wide.html#Macros "cpp/string/wide")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/navbar_content&action=edit)
+
 
 Defined in header `[<cwchar>](../../header/cwchar.html "cpp/header/cwchar")` |  |   
 ---|---|---  
@@ -173,24 +173,24 @@ Copies exactly count successive wide characters from the wide character array po
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/wmemcpy&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 dest  |  \-  |  pointer to the wide character array to copy to   
 ---|---|---  
 src  |  \-  |  pointer to the wide character array to copy from   
 count  |  \-  |  number of wide characters to copy   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/wmemcpy&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 dest
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/wmemcpy&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 This function's analog for byte strings is [std::strncpy](../byte/strncpy.html "cpp/string/byte/strncpy"), not [std::strcpy](../byte/strcpy.html "cpp/string/byte/strcpy"). 
 
 This function is not locale-sensitive and pays no attention to the values of the wchar_t objects it copies: nulls as well as invalid characters are copied too. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/wmemcpy&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -228,11 +228,11 @@ Possible output:
     
     Wide array contains: नमस्ते\0Բարև\0
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/wmemcpy&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ strncpy](../byte/strncpy.html "cpp/string/byte/strncpy") |  copies a certain amount of characters from one string to another   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strncpy&action=edit)  
+(function)   
 ---|---  
 [ wmemmove](wmemmove.html "cpp/string/wide/wmemmove") |  copies a certain amount of wide characters between two, possibly overlapping, arrays   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wmemmove&action=edit)  
+(function)   
 [C documentation](../../../c/string/wide/wmemcpy.html "c/string/wide/wmemcpy") for wmemcpy

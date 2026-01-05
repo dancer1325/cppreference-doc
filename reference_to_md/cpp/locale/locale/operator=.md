@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Localization library](../../locale.html "cpp/locale")
 
@@ -152,7 +152,7 @@ base classes](../../locale.html#Facet_category_base_classes "cpp/locale")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/navbar_content&action=edit)
+
 
 [`std::locale`](../locale.html "cpp/locale/locale")
 
@@ -173,7 +173,7 @@ Static member functions
 [locale::global](global.html "cpp/locale/locale/global")  
 [locale::classic](classic.html "cpp/locale/locale/classic")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/locale/navbar_content&action=edit)
+
 
 const locale& operator=( const locale& other ) throw(); |  | (until C++11)  
 ---|---|---  
@@ -182,18 +182,18 @@ const locale& operator=( const locale& other ) noexcept; |  |  (since C++11)
   
 Creates a copy of other, replacing the contents of *this. The reference counts of all facets held by other are incremented. The reference counts of all facets previously held by *this are decremented, and those facets whose reference count becomes zero are deleted. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/locale/operator%3D&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 Returns *this, which is now a copy of other. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/locale/operator%3D&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/locale/operator%3D&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ (constructor)](locale.html "cpp/locale/locale/locale") |  constructs a new locale   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/locale/dsc_locale&action=edit)  
+(public member function)   
 ---|---

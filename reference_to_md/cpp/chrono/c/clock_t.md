@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [C-style date and time utilities](../c.html "cpp/chrono/c")
 
@@ -128,7 +128,7 @@ Types
 **clock_t**  
 [timespec](timespec.html "cpp/chrono/c/timespec")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/c/navbar_content&action=edit)
+
 
 Defined in header `[<ctime>](../../header/ctime.html "cpp/header/ctime")` |  |   
 ---|---|---  
@@ -137,11 +137,11 @@ typedef /* unspecified */ clock_t; |  |
   
 Arithmetic type capable of representing the process running time of implementation-defined range and precision. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/c/clock_t&action=edit&section=1 "Edit section: See also")] See also
+### See also
 
 [ clock](clock.html "cpp/chrono/c/clock") |  returns raw processor clock time since the program is started   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/c/dsc_clock&action=edit)  
+(function)   
 ---|---  
 [ CLOCKS_PER_SEC](CLOCKS_PER_SEC.html "cpp/chrono/c/CLOCKS PER SEC") |  number of processor clock ticks per second   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/c/dsc_CLOCKS_PER_SEC&action=edit)  
+(macro constant)   
 [C documentation](../../../c/chrono/clock_t.html "c/chrono/clock t") for clock_t

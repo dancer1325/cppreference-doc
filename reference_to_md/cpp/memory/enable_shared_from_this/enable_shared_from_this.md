@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::enable_shared_from_this`](../enable_shared_from_this.html "cpp/memory/enable shared from this")
 
@@ -197,7 +197,7 @@ Public member functions
 [enable_shared_from_this::shared_from_this](shared_from_this.html "cpp/memory/enable shared from this/shared from this")  
 [enable_shared_from_this::weak_from_this](weak_from_this.html "cpp/memory/enable shared from this/weak from this")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/enable_shared_from_this/navbar_content&action=edit)
+
 
 constexpr enable_shared_from_this() noexcept; |  (1)  |  (since C++11)  
 ---|---|---  
@@ -216,16 +216,16 @@ Constructs a new `enable_shared_from_this` object. `_[weak_this](../enable_share
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/enable_shared_from_this/enable_shared_from_this&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 other  |  \-  |  an `enable_shared_from_this` to copy   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/enable_shared_from_this/enable_shared_from_this&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 There is no move constructor: moving from an object derived from `enable_shared_from_this` does not transfer its shared identity. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/enable_shared_from_this/enable_shared_from_this&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -244,8 +244,8 @@ Run this code
         auto pf2 = pf1->getFoo(); // shares ownership of object with pf1
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/enable_shared_from_this/enable_shared_from_this&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ shared_ptr](../shared_ptr.html "cpp/memory/shared ptr")(C++11) |  smart pointer with shared object ownership semantics   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_shared_ptr&action=edit)  
+(class template)   
 ---|---

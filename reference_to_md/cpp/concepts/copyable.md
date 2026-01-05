@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concepts library](../concepts.html "cpp/concepts")
 
@@ -73,7 +73,7 @@
 ---  
 [_boolean-testable_](boolean-testable.html "cpp/concepts/boolean-testable") ﻿(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/navbar_content&action=edit)
+
 
 Defined in header `[<concepts>](../header/concepts.html "cpp/header/concepts")` |  |   
 ---|---|---  
@@ -88,7 +88,7 @@ concept copyable =
   
 The concept `copyable<T>` specifies that `T` is a [`movable`](movable.html "cpp/concepts/movable") object type that can also be copied (that is, it supports copy construction and copy assignment). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/concepts/copyable&action=edit&section=1 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -110,8 +110,8 @@ The concept `copyable<T>` specifies that `T` is a [`movable`](movable.html "cpp/
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/concepts/copyable&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ movable](movable.html "cpp/concepts/movable")(C++20) |  specifies that an object of a type can be moved and swapped   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_movable&action=edit)  
+(concept)   
 ---|---

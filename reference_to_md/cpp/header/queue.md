@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header is part of the [containers](../container.html "cpp/container") library. 
 
@@ -214,30 +214,30 @@ This header is part of the [containers](../container.html "cpp/container") libra
   
 ###  Includes  
   
-[ <compare>](compare.html "cpp/header/compare")(C++20) |  [Three-way comparison operator](../language/operator_comparison.html#Three-way_comparison "cpp/language/operator comparison") support[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/dsc_compare&action=edit)  
-[ <initializer_list>](initializer_list.html "cpp/header/initializer list")(C++11) |  [std::initializer_list](../utility/initializer_list.html "cpp/utility/initializer list") class template[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/dsc_initializer_list&action=edit)  
+[ <compare>](compare.html "cpp/header/compare")(C++20) |  [Three-way comparison operator](../language/operator_comparison.html#Three-way_comparison "cpp/language/operator comparison") support  
+[ <initializer_list>](initializer_list.html "cpp/header/initializer list")(C++11) |  [std::initializer_list](../utility/initializer_list.html "cpp/utility/initializer list") class template  
   
 ###  Classes  
   
 [ queue](../container/queue.html "cpp/container/queue") |  adapts a container to provide queue (FIFO data structure)   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_queue&action=edit)  
+(class template)   
 [ priority_queue](../container/priority_queue.html "cpp/container/priority queue") |  adapts a container to provide priority queue   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_priority_queue&action=edit)  
+(class template)   
 [ std::uses_allocator<std::queue>](../container/queue/uses_allocator.html "cpp/container/queue/uses allocator")(C++11) |  specializes the [std::uses_allocator](../memory/uses_allocator.html "cpp/memory/uses allocator") type trait   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_uses_allocator&action=edit)  
+(class template specialization)   
 [ std::uses_allocator<std::priority_queue>](../container/priority_queue/uses_allocator.html "cpp/container/priority queue/uses allocator")(C++11) |  specializes the [std::uses_allocator](../memory/uses_allocator.html "cpp/memory/uses allocator") type trait   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_uses_allocator&action=edit)  
+(class template specialization)   
   
 ###  Functions  
   
 [ operator==operator!=operator<operator<=operator>operator>=operator<=>](../container/queue/operator_cmp.html "cpp/container/queue/operator cmp")(C++20) |  lexicographically compares the values of two `queue`s   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_operator_cmp&action=edit)  
+(function template)   
 [ std::swap(std::queue)](../container/queue/swap2.html "cpp/container/queue/swap2")(C++11) |  specializes the [std::swap](../utility/swap.html "cpp/algorithm/swap") algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_swap2&action=edit)  
+(function template)   
 [ std::swap(std::priority_queue)](../container/priority_queue/swap2.html "cpp/container/priority queue/swap2")(C++11) |  specializes the [std::swap](../utility/swap.html "cpp/algorithm/swap") algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_swap2&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/queue&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     #include <compare>
@@ -290,7 +290,7 @@ This header is part of the [containers](../container.html "cpp/container") libra
       struct formatter<priority_queue<T, Container, Compare>, CharT>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/queue&action=edit&section=T-1 "Template:cpp/synopsis/queue")] Class template [std::queue](../container/queue.html "cpp/container/queue")
+#### Class template [std::queue](../container/queue.html "cpp/container/queue")
     
     
     namespace std {
@@ -383,7 +383,7 @@ This header is part of the [containers](../container.html "cpp/container") libra
       {};
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/queue&action=edit&section=T-2 "Template:cpp/synopsis/queue")] Class template [std::priority_queue](../container/priority_queue.html "cpp/container/priority queue")
+#### Class template [std::priority_queue](../container/priority_queue.html "cpp/container/priority queue")
     
     
     namespace std {

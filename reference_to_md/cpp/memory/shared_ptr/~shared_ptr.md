@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::shared_ptr`](../shared_ptr.html "cpp/memory/shared ptr")
 
@@ -220,7 +220,7 @@ Helper classes
 [hash<std::shared_ptr>](hash.html "cpp/memory/shared ptr/hash")  
 [Deduction guides](deduction_guides.html "cpp/memory/shared ptr/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/navbar_content&action=edit)
+
 
 ~shared_ptr(); |  |   
 ---|---|---  
@@ -230,11 +230,11 @@ If *this owns an object and it is the last `shared_ptr` owning it, the object is
 
 After the destruction, the smart pointers that shared ownership with *this, if any, will report a [use_count()](use_count.html "cpp/memory/shared ptr/use count") that is one less than its previous value. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/%7Eshared_ptr&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 Unlike [std::unique_ptr](../unique_ptr.html "cpp/memory/unique ptr"), the deleter of [std::shared_ptr](../shared_ptr.html "cpp/memory/shared ptr") is invoked even if the managed pointer is null. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/%7Eshared_ptr&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -293,8 +293,8 @@ Output:
     S::Deleter()
     S::~S()
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/%7Eshared_ptr&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ (destructor)](../weak_ptr/~weak_ptr.html "cpp/memory/weak ptr/~weak ptr") |  destroys a `weak_ptr`   
-(public member function of `std::weak_ptr<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/weak_ptr/dsc_destructor&action=edit)  
+(public member function of `std::weak_ptr<T>`)   
 ---|---

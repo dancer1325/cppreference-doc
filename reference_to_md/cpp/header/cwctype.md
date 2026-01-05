@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header was originally in the C standard library as [`<wctype.h>`](../../c/header/wctype.html "c/header/wctype"). 
 
@@ -211,60 +211,60 @@ This header is part of the [C-style null-terminated wide strings](../string/wide
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/cwctype&action=edit&section=1 "Edit section: Types")] Types
+### Types
 
 `wctrans_t` |  scalar type that holds locale-specific character mapping   
 ---|---  
 `wctype_t` |  scalar type that holds locale-specific character classification   
 `wint_t` |  integer type that can hold any valid wide character and at least one more value   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/cwctype&action=edit&section=2 "Edit section: Macros")] Macros
+### Macros
 
 WEOF |  a non-character value of type wint_t used to indicate errors   
 (macro constant)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/cwctype&action=edit&section=3 "Edit section: Functions")] Functions
+### Functions
 
 #####  Character classification   
   
 ---  
 [ iswalnum](../string/wide/iswalnum.html "cpp/string/wide/iswalnum") |  checks if a wide character is alphanumeric   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_iswalnum&action=edit)  
+(function)   
 [ iswalpha](../string/wide/iswalpha.html "cpp/string/wide/iswalpha") |  checks if a wide character is alphabetic   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_iswalpha&action=edit)  
+(function)   
 [ iswlower](../string/wide/iswlower.html "cpp/string/wide/iswlower") |  checks if a wide character is lowercase   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_iswlower&action=edit)  
+(function)   
 [ iswupper](../string/wide/iswupper.html "cpp/string/wide/iswupper") |  checks if a wide character is an uppercase character   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_iswupper&action=edit)  
+(function)   
 [ iswdigit](../string/wide/iswdigit.html "cpp/string/wide/iswdigit") |  checks if a wide character is a digit   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_iswdigit&action=edit)  
+(function)   
 [ iswxdigit](../string/wide/iswxdigit.html "cpp/string/wide/iswxdigit") |  checks if a wide character is a hexadecimal character   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_iswxdigit&action=edit)  
+(function)   
 [ iswcntrl](../string/wide/iswcntrl.html "cpp/string/wide/iswcntrl") |  checks if a wide character is a control character   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_iswcntrl&action=edit)  
+(function)   
 [ iswgraph](../string/wide/iswgraph.html "cpp/string/wide/iswgraph") |  checks if a wide character is a graphical character   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_iswgraph&action=edit)  
+(function)   
 [ iswspace](../string/wide/iswspace.html "cpp/string/wide/iswspace") |  checks if a wide character is a space character   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_iswspace&action=edit)  
+(function)   
 [ iswblank](../string/wide/iswblank.html "cpp/string/wide/iswblank")(C++11) |  checks if a wide character is a blank character   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_iswblank&action=edit)  
+(function)   
 [ iswprint](../string/wide/iswprint.html "cpp/string/wide/iswprint") |  checks if a wide character is a printing character   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_iswprint&action=edit)  
+(function)   
 [ iswpunct](../string/wide/iswpunct.html "cpp/string/wide/iswpunct") |  checks if a wide character is a punctuation character   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_iswpunct&action=edit)  
+(function)   
 [ iswctype](../string/wide/iswctype.html "cpp/string/wide/iswctype") |  classifies a wide character according to the specified [`LC_CTYPE`](../locale/LC_categories.html "cpp/locale/LC categories") category   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_iswctype&action=edit)  
+(function)   
 [ wctype](../string/wide/wctype.html "cpp/string/wide/wctype") |  looks up a character classification category in the current C locale   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wctype&action=edit)  
+(function)   
   
 #####  Character manipulation   
   
 [ towlower](../string/wide/towlower.html "cpp/string/wide/towlower") |  converts a wide character to lowercase   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_towlower&action=edit)  
+(function)   
 [ towupper](../string/wide/towupper.html "cpp/string/wide/towupper") |  converts a wide character to uppercase   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_towupper&action=edit)  
+(function)   
 [ towctrans](../string/wide/towctrans.html "cpp/string/wide/towctrans") |  performs character mapping according to the specified [`LC_CTYPE`](../locale/LC_categories.html "cpp/locale/LC categories") mapping category   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_towctrans&action=edit)  
+(function)   
 [ wctrans](../string/wide/wctrans.html "cpp/string/wide/wctrans") |  looks up a character mapping category in the current C locale   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wctrans&action=edit)
+(function) 

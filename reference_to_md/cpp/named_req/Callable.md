@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ named requirements](../iterator/concepts.html "cpp/named req")
 
@@ -147,7 +147,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/named_req/navbar_content&action=edit)
+
 
 A **Callable** type is a type for which the [`_INVOKE_`](../functional.html "cpp/utility/functional") and [`_INVOKE <R>_`](../functional.html "cpp/utility/functional") operations (used by, e.g., [std::function](../utility/functional/function.html "cpp/utility/functional/function"), [std::bind](../utility/functional/bind.html "cpp/utility/functional/bind"), and [std::thread::thread](../thread/thread/thread.html "cpp/thread/thread/thread")) are applicable. 
 
@@ -165,7 +165,7 @@ A **Callable** type is a type for which the [`_INVOKE_`](../functional.html "cpp
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/Callable&action=edit&section=1 "Edit section: Requirements")] Requirements
+### Requirements
 
 The type `T` satisfies Callable if 
 
@@ -183,48 +183,48 @@ Expression | Requirements
 ---|---  
 [`_INVOKE <R>_`](../functional.html "cpp/utility/functional")(f, [std::declval](../utility/declval.html)<ArgTypes>()...) | The expression is well-formed in unevaluated context.   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/Callable&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 [Pointers to data members](../language/pointer.html#Pointers_to_data_members "cpp/language/pointer") are Callable, even though no function calls take place. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/Callable&action=edit&section=3 "Edit section: Standard library")] Standard library
+### Standard library
 
 In addition, the following standard library facilities accept any Callable type (not just [FunctionObject](FunctionObject.html "cpp/named req/FunctionObject")): 
 
 [ function](../utility/functional/function.html "cpp/utility/functional/function")(C++11) |  copyable wrapper of any copy constructible callable object   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_function&action=edit)  
+(class template)   
 ---|---  
 [ move_only_function](../utility/functional/move_only_function.html "cpp/utility/functional/move only function")(C++23) |  move-only wrapper of any callable object that supports qualifiers in a given call signature   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_move_only_function&action=edit)  
+(class template)   
 [ copyable_function](../utility/functional/copyable_function.html "cpp/utility/functional/copyable function")(C++26) |  copyable wrapper of any copy constructible callable object that supports qualifiers in a given call signature   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_copyable_function&action=edit)  
+(class template)   
 [ function_ref](../utility/functional/function_ref.html "cpp/utility/functional/function ref")(C++26) |  non-owning wrapper of any callable object   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_function_ref&action=edit)  
+(class template)   
 [ bind](../utility/functional/bind.html "cpp/utility/functional/bind")(C++11) |  binds one or more arguments to a function object   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_bind&action=edit)  
+(function template)   
 [ bind_frontbind_back](../utility/functional/bind_front.html "cpp/utility/functional/bind front")(C++20)(C++23) |  bind a variable number of arguments, in order, to a function object   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_bind_front&action=edit)  
+(function template)   
 [ reference_wrapper](../utility/functional/reference_wrapper.html "cpp/utility/functional/reference wrapper")(C++11) |  [CopyConstructible](CopyConstructible.html "cpp/named req/CopyConstructible") and [CopyAssignable](CopyAssignable.html "cpp/named req/CopyAssignable") reference wrapper   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_reference_wrapper&action=edit)  
+(class template)   
 [ result_ofinvoke_result](../types/result_of.html "cpp/types/result of")(C++11)(removed in C++20)(C++17) |  deduces the result type of invoking a callable object with a set of arguments   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_result_of&action=edit)  
+(class template)   
 [ thread](../thread/thread.html "cpp/thread/thread")(C++11) |  manages a separate thread   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_thread&action=edit)  
+(class)   
 [ jthread](../thread/jthread.html "cpp/thread/jthread")(C++20) |  [std::thread](../thread/thread.html "cpp/thread/thread") with support for auto-joining and cancellation   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_jthread&action=edit)  
+(class)   
 [ call_once](../thread/call_once.html "cpp/thread/call once")(C++11) |  invokes a function only once even if called from multiple threads   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_call_once&action=edit)  
+(function template)   
 [ async](../thread/async.html "cpp/thread/async")(C++11) |  runs a function asynchronously (potentially in a new thread) and returns a [std::future](../thread/future.html "cpp/thread/future") that will hold the result   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_async&action=edit)  
+(function template)   
 [ packaged_task](../thread/packaged_task.html "cpp/thread/packaged task")(C++11) |  packages a function to store its return value for asynchronous retrieval   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_packaged_task&action=edit)  
+(class template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/Callable&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ is_invocableis_invocable_ris_nothrow_invocableis_nothrow_invocable_r](../types/is_invocable.html "cpp/types/is invocable")(C++17) |  checks if a type can be invoked (as if by [std::invoke](../utility/functional/invoke.html "cpp/utility/functional/invoke")) with the given argument types   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_invocable&action=edit)  
+(class template)   
 ---|---  
 [ invocableregular_invocable](../concepts/invocable.html "cpp/concepts/invocable")(C++20) |  specifies that a callable type can be invoked with a given set of argument types   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_invocable&action=edit)  
+(concept)   
 [ invokeinvoke_r](../utility/functional/invoke.html "cpp/utility/functional/invoke")(C++17)(C++23) |  invokes any **Callable** object with given arguments and possibility to specify return type(since C++23)   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_invoke&action=edit)
+(function template) 

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Filesystem library](../../filesystem.html "cpp/filesystem")
 
@@ -100,7 +100,7 @@ filesystem::symlink_status](../status.html "cpp/filesystem/status")
 [filesystem::is_socket](../is_socket.html "cpp/filesystem/is socket")  
 [filesystem::is_symlink](../is_symlink.html "cpp/filesystem/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/navbar_content&action=edit)
+
 
 [`std::filesystem::path`](../path.html "cpp/filesystem/path")
 
@@ -169,7 +169,7 @@ filesystem::symlink_status](../status.html "cpp/filesystem/status")
 | [formatter<std::filesystem::path>](formatter.html "cpp/filesystem/path/formatter")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/path/navbar_content&action=edit)
+
 
 path stem() const; |  |  (since C++17)  
 ---|---|---  
@@ -197,19 +197,19 @@ Returns the substring from the beginning of [`filename()`](filename.html "cpp/fi
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/stem&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/stem&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The stem of the filename identified by the path (i.e. the filename without the final extension). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/impldef_exception&action=edit&section=T-1 "Template:cpp/impldef exception")] Exceptions
+### Exceptions
 
 May throw implementation-defined exceptions. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/stem&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -240,10 +240,10 @@ Output:
     path: "foo.bar.baz", extension: ".baz"
     path: "foo.bar", extension: ".bar"
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/stem&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ filename](filename.html "cpp/filesystem/path/filename") |  returns the filename path component   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/path/dsc_filename&action=edit)  
+(public member function)   
 ---|---  
 [ extension](extension.html "cpp/filesystem/path/extension") |  returns the file extension path component   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/path/dsc_extension&action=edit)
+(public member function) 

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Null-terminated byte strings](../byte.html "cpp/string/byte")
 
@@ -143,7 +143,7 @@
 | **strerror**  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/navbar_content&action=edit)
+
 
 Defined in header `[<cstring>](../../header/cstring.html "cpp/header/cstring")` |  |   
 ---|---|---  
@@ -167,22 +167,22 @@ The returned string must not be modified by the program, but may be overwritten 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/strerror&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 errnum  |  \-  |  integer value referring to an error code   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/strerror&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Pointer to a null-terminated byte string corresponding to the [errno](../../error/errno.html "cpp/error/errno") error code errnum. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/strerror&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 [POSIX](https://pubs.opengroup.org/onlinepubs/9699919799/functions/strerror.html) allows subsequent calls to `strerror` to invalidate the pointer value returned by an earlier call. It also specifies that it is the [`LC_MESSAGES`](../../locale/LC_categories.html "cpp/locale/LC categories") locale facet that controls the contents of these messages. 
 
 POSIX has a thread-safe version called `strerror_r` defined. Glibc [defines an incompatible version](https://www.club.cc.cmu.edu/~cmccabe/blog_strerror.html). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/strerror&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -213,11 +213,11 @@ Possible output:
     log(-1) failed: Numerical argument out of domain
     Or, in German, Das numerische Argument ist ausserhalb des Definitionsbereiches
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/strerror&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ perror](../../io/c/perror.html "cpp/io/c/perror") |  displays a character string corresponding of the current error to [stderr](../../io/c/std_streams.html "cpp/io/c/std streams")   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_perror&action=edit)  
+(function)   
 ---|---  
 [ E2BIG, EACCES, ..., EXDEV](../../error/errno_macros.html "cpp/error/errno macros") |  macros for standard POSIX-compatible error conditions   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_errno_macros&action=edit)  
+(macro constant)   
 [C documentation](../../../c/string/byte/strerror.html "c/string/byte/strerror") for strerror

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 **`std::chrono::year_month_day`**
 
@@ -121,7 +121,7 @@ Helper classes
 [formatter<std::chrono::year_month_day>](year_month_day/formatter.html "cpp/chrono/year month day/formatter")  
 [hash<std::chrono::year_month_day>](year_month_day/hash.html "cpp/chrono/year month day/hash")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/year_month_day/navbar_content&action=edit)
+
 
 Defined in header `[<chrono>](../header/chrono.html "cpp/header/chrono")` |  |   
 ---|---|---  
@@ -142,41 +142,41 @@ The class `year_month_day` represents a specific year, month, and day. It is a f
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/year_month_day&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](year_month_day/year_month_day.html "cpp/chrono/year month day/year month day") |  constructs a `year_month_day`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/year_month_day/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ operator+=operator-=](year_month_day/operator_arith.html "cpp/chrono/year month day/operator arith") |  modifies the time point by some number of months or years   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/year_month_day/dsc_operator_arith&action=edit)  
+(public member function)   
 [ yearmonthday](year_month_day/accessors.html "cpp/chrono/year month day/accessors") |  accesses the year, month, and day stored in this object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/year_month_day/dsc_accessors&action=edit)  
+(public member function)   
 [ operator sys_daysoperator local_days](year_month_day/operator_days.html "cpp/chrono/year month day/operator days") |  converts to a [std::chrono::time_point](time_point.html "cpp/chrono/time point")   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/year_month_day/dsc_operator_days&action=edit)  
+(public member function)   
 [ ok](year_month_day/ok.html "cpp/chrono/year month day/ok") |  checks if the `year_month_day` represents a valid date   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/year_month_day/dsc_ok&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/year_month_day&action=edit&section=2 "Edit section: Nonmember functions")] Nonmember functions
+### Nonmember functions
 
 [ operator==operator<=>](year_month_day/operator_cmp.html "cpp/chrono/year month day/operator cmp")(C++20) |  compares two `year_month_day` values   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/year_month_day/dsc_operator_cmp&action=edit)  
+(function)   
 ---|---  
 [ operator+operator-](year_month_day/operator_arith_2.html "cpp/chrono/year month day/operator arith 2")(C++20) |  adds or subtracts a `year_month_day` and some number of years or months   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/year_month_day/dsc_operator_arith_2&action=edit)  
+(function)   
 [ operator<<](year_month_day/operator_ltlt.html "cpp/chrono/year month day/operator ltlt")(C++20) |  outputs a `year_month_day` into a stream   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/year_month_day/dsc_operator_ltlt&action=edit)  
+(function template)   
 [ from_stream](year_month_day/from_stream.html "cpp/chrono/year month day/from stream")(C++20) |  parses a `year_month_day` from a stream according to the provided format   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/year_month_day/dsc_from_stream&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/year_month_day&action=edit&section=3 "Edit section: Helper classes")] Helper classes
+### Helper classes
 
 [ std::formatter<std::chrono::year_month_day>](year_month_day/formatter.html "cpp/chrono/year month day/formatter")(C++20) |  formatting support for `year_month_day`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_formatter&action=edit)  
+(class template specialization)   
 ---|---  
 [ std::hash<std::chrono::year_month_day>](year_month_day/hash.html "cpp/chrono/year month day/hash")(C++26) |  hash support for **`std::chrono::year_month_day`**   
 (class template specialization)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/year_month_day&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     

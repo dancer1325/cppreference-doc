@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [Declarations](declarations.html "cpp/language/declarations")
 
@@ -280,7 +280,7 @@ Other declarations
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/declarations/navbar_content&action=edit)
+
 
 Unless otherwise specified, two declarations cannot (re)introduce the same entity. The program is ill-formed if such declarations exist. 
 
@@ -297,7 +297,7 @@ Unless otherwise specified, two declarations cannot (re)introduce the same entit
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/conflicting_declarations&action=edit&section=1 "Edit section: Corresponding declarations")] Corresponding declarations
+### Corresponding declarations
 
 Two declarations _correspond_ if they (re)introduce the same name, both declare constructors, or both declare destructors, unless 
 
@@ -307,7 +307,7 @@ Two declarations _correspond_ if they (re)introduce the same name, both declare 
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/conflicting_declarations&action=edit&section=2 "Edit section: Corresponding function overloads")] Corresponding function overloads
+#### Corresponding function overloads
 
 Two [function declarations](function.html "cpp/language/function") declare _corresponding overloads_ if both declare functions satisfying all following conditions: 
 
@@ -338,7 +338,7 @@ Two [function declarations](function.html "cpp/language/function") declare _corr
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/conflicting_declarations&action=edit&section=3 "Edit section: Corresponding function template overloads")] Corresponding function template overloads
+#### Corresponding function template overloads
 
 Two [function template declarations](function_template.html "cpp/language/function template") declare _corresponding overloads_ if both declare function templates satisfying all following conditions: 
 
@@ -411,7 +411,7 @@ Two [function template declarations](function_template.html "cpp/language/functi
         void k(this X&);  // error: redeclaration
     };
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/conflicting_declarations&action=edit&section=4 "Edit section: Multiple declarations of the same entity")] Multiple declarations of the same entity
+### Multiple declarations of the same entity
 
 A declaration is _name-independent_ if its name is _ and it declares 
 
@@ -462,7 +462,7 @@ Unless otherwise specified, two declarations of entities _declare the same entit
 
 A declaration of an entity or typedef name `X` is a _redeclaration_ of `X` if another declaration of `X` is reachable from it; otherwise, it is a _first declaration ﻿_ of `X`. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/conflicting_declarations&action=edit&section=5 "Edit section: Restrictions")] Restrictions
+#### Restrictions
 
 If any two declarations of an entity `E` violate the corresponding restriction below, the program is ill-formed: 
 
@@ -502,7 +502,7 @@ Types are compared after all adjustments of types (during which [typedefs](typed
 
 If a declaration `H` that declares a name with [internal linkage](storage_duration.html#Internal_linkage "cpp/language/storage duration") precedes a declaration `D` in another translation unit `U` and would declare the same entity as `D` if it appeared in `U`, the program is ill-formed. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/conflicting_declarations&action=edit&section=6 "Edit section: Potentially-conflicting declarations")] Potentially-conflicting declarations
+### Potentially-conflicting declarations
 
 Two declarations _potentially conflict_ if they correspond but declare different entities. 
 
@@ -541,7 +541,7 @@ If, in any scope, a name is bound to two declarations `A` and `B` that potential
                       // static variables are not name-independent
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/conflicting_declarations&action=edit&section=7 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](empty.html "cpp/iterator/empty")(C++17)  
 [data](data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 Defined in header `[<iterator>](../header/iterator.html "cpp/header/iterator")` |  |   
 ---|---|---  
@@ -216,22 +216,22 @@ template< class Iter >
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/make_reverse_iterator&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 i  |  \-  |  iterator to be converted to reverse iterator   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/make_reverse_iterator&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 [std::reverse_iterator](reverse_iterator.html)<Iter>(i)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/make_reverse_iterator&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../utility/feature_test.html "cpp/utility/feature test") macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_make_reverse_iterator`](../experimental/feature_test.html#cpp_lib_make_reverse_iterator "cpp/feature test") | [`201402L`](../compiler_support/14.html#cpp_lib_make_reverse_iterator_201402L "cpp/compiler support/14") | (C++14) | `std::make_reverse_iterator`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/make_reverse_iterator&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -261,14 +261,14 @@ Output:
     1, 3, 8, 10, 22,
     22, 10, 8, 3, 1,
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/make_reverse_iterator&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ reverse_iterator](reverse_iterator.html "cpp/iterator/reverse iterator") |  iterator adaptor for reverse-order traversal   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_reverse_iterator&action=edit)  
+(class template)   
 ---|---  
 [ rbegincrbegin](rbegin.html "cpp/iterator/rbegin")(C++14) |  returns a reverse iterator to the beginning of a container or array   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_rbegin&action=edit)  
+(function template)   
 [ rendcrend](rend.html "cpp/iterator/rend")(C++14) |  returns a reverse end iterator for a container or array   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_rend&action=edit)
+(function template) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

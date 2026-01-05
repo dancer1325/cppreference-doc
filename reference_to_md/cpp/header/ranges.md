@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header is part of the [ranges](../ranges.html "cpp/ranges") library. 
 
@@ -322,7 +322,7 @@ This header is part of the [ranges](../ranges.html "cpp/ranges") library.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/ranges&action=edit&section=1 "Edit section: Namespace aliases")] Namespace aliases
+### Namespace aliases
 
 namespace std {  
 namespace views = ranges::views;  
@@ -335,9 +335,9 @@ The namespace alias `std::views` is provided as a shorthand for `std::ranges::vi
 ###  Includes  
   
 ---  
-[ <compare>](compare.html "cpp/header/compare")(C++20) |  [Three-way comparison operator](../language/operator_comparison.html#Three-way_comparison "cpp/language/operator comparison") support[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/dsc_compare&action=edit)  
-[ <initializer_list>](initializer_list.html "cpp/header/initializer list")(C++11) |  [std::initializer_list](../utility/initializer_list.html "cpp/utility/initializer list") class template[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/dsc_initializer_list&action=edit)  
-[ <iterator>](iterator.html "cpp/header/iterator") |  [Range iterators](../iterator.html "cpp/iterator")[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/dsc_iterator&action=edit)  
+[ <compare>](compare.html "cpp/header/compare")(C++20) |  [Three-way comparison operator](../language/operator_comparison.html#Three-way_comparison "cpp/language/operator comparison") support  
+[ <initializer_list>](initializer_list.html "cpp/header/initializer list")(C++11) |  [std::initializer_list](../utility/initializer_list.html "cpp/utility/initializer list") class template  
+[ <iterator>](iterator.html "cpp/header/iterator") |  [Range iterators](../iterator.html "cpp/iterator")  
   
 ###  Concepts  
   
@@ -345,33 +345,33 @@ The namespace alias `std::views` is provided as a shorthand for `std::ranges::vi
   
 Defined in namespace `std::ranges`  
 [ ranges::range](../ranges/range.html "cpp/ranges/range")(C++20) |  specifies that a type is a range, that is, it provides a `begin` iterator and an `end` sentinel   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_range&action=edit)  
+(concept)   
 [ ranges::borrowed_range](../ranges/borrowed_range.html "cpp/ranges/borrowed range")(C++20) |  specifies that a type is a [`range`](../ranges/range.html "cpp/ranges/range") and iterators obtained from an expression of it can be safely returned without danger of dangling   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_borrowed_range&action=edit)  
+(concept)   
 [ ranges::approximately_sized_range](../ranges/approximately_sized_range.html "cpp/ranges/approximately sized range")(C++26) |  specifies that a range can estimate its size in constant time   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_approximately_sized_range&action=edit)  
+(concept)   
 [ ranges::sized_range](../ranges/sized_range.html "cpp/ranges/sized range")(C++20) |  specifies that a range knows its size in constant time   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_sized_range&action=edit)  
+(concept)   
 [ ranges::view](../ranges/view.html "cpp/ranges/view")(C++20) |  specifies that a range is a view, that is, it has constant time copy/move/assignment   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_view&action=edit)  
+(concept)   
 [ ranges::input_range](../ranges/input_range.html "cpp/ranges/input range")(C++20) |  specifies a range whose iterator type satisfies [`input_iterator`](../iterator/input_iterator.html "cpp/iterator/input iterator")   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_input_range&action=edit)  
+(concept)   
 [ ranges::output_range](../ranges/output_range.html "cpp/ranges/output range")(C++20) |  specifies a range whose iterator type satisfies [`output_iterator`](../iterator/output_iterator.html "cpp/iterator/output iterator")   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_output_range&action=edit)  
+(concept)   
 [ ranges::forward_range](../ranges/forward_range.html "cpp/ranges/forward range")(C++20) |  specifies a range whose iterator type satisfies [`forward_iterator`](../iterator/forward_iterator.html "cpp/iterator/forward iterator")   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_forward_range&action=edit)  
+(concept)   
 [ ranges::bidirectional_range](../ranges/bidirectional_range.html "cpp/ranges/bidirectional range")(C++20) |  specifies a range whose iterator type satisfies [`bidirectional_iterator`](../iterator/bidirectional_iterator.html "cpp/iterator/bidirectional iterator")   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_bidirectional_range&action=edit)  
+(concept)   
 [ ranges::random_access_range](../ranges/random_access_range.html "cpp/ranges/random access range")(C++20) |  specifies a range whose iterator type satisfies [`random_access_iterator`](../iterator/random_access_iterator.html "cpp/iterator/random access iterator")   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_random_access_range&action=edit)  
+(concept)   
 [ ranges::contiguous_range](../ranges/contiguous_range.html "cpp/ranges/contiguous range")(C++20) |  specifies a range whose iterator type satisfies [`contiguous_iterator`](../iterator/contiguous_iterator.html "cpp/iterator/contiguous iterator")   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_contiguous_range&action=edit)  
+(concept)   
 [ ranges::common_range](../ranges/common_range.html "cpp/ranges/common range")(C++20) |  specifies that a range has identical iterator and sentinel types   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_common_range&action=edit)  
+(concept)   
 [ ranges::viewable_range](../ranges/viewable_range.html "cpp/ranges/viewable range")(C++20) |  specifies the requirements for a [`range`](../ranges/range.html "cpp/ranges/range") to be safely convertible to a [`view`](../ranges/view.html "cpp/ranges/view")   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_viewable_range&action=edit)  
+(concept)   
 [ ranges::constant_range](../ranges/constant_range.html "cpp/ranges/constant range")(C++23) |  specifies that a range has read-only elements   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_constant_range&action=edit)  
+(concept)   
   
 ###  Functions  
   
@@ -379,7 +379,7 @@ Defined in namespace `std::ranges`
   
 Defined in namespace `std::ranges`  
 [ ranges::to](../ranges/to.html "cpp/ranges/to")(C++23) |  constructs a new non-view object from an input range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_to&action=edit)  
+(function template)   
   
 ###  Classes  
   
@@ -387,121 +387,121 @@ Defined in namespace `std::ranges`
   
 Defined in namespace `std::ranges`  
 [ ranges::iterator_tranges::const_iterator_tranges::sentinel_tranges::const_sentinel_t](../ranges/iterator_t.html "cpp/ranges/iterator t")(C++20)(C++23)(C++20)(C++23) |  obtains iterator and sentinel types of a range  
-(alias template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_iterator_t&action=edit)  
+(alias template)  
 [ ranges::range_difference_tranges::range_size_tranges::range_value_t](../ranges/range_size_t.html "cpp/ranges/range size t")(C++20)(C++20)(C++20) |  obtains size, difference, and value types of a range  
-(alias template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_range_size_t&action=edit)  
+(alias template)  
 [ ranges::range_reference_tranges::range_const_reference_tranges::range_rvalue_reference_tranges::range_common_reference_t](../ranges/range_reference_t.html "cpp/ranges/range reference t")(C++20)(C++23)(C++20)(C++20) |  obtains reference types of a range  
-(alias template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_range_reference_t&action=edit)  
+(alias template)  
   
 #####  Views   
   
 Defined in namespace `std::ranges`  
 [ ranges::view_interface](../ranges/view_interface.html "cpp/ranges/view interface")(C++20) |  helper class template for defining a [`view`](../ranges/view.html "cpp/ranges/view"), using the [curiously recurring template pattern](../language/crtp.html "cpp/language/crtp")   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_view_interface&action=edit)  
+(class template)   
 [ ranges::subrange](../ranges/subrange.html "cpp/ranges/subrange")(C++20) |  combines an iterator-sentinel pair into a [`view`](../ranges/view.html "cpp/ranges/view")   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_subrange&action=edit)  
+(class template)   
   
 #####  Dangling iterator handling   
   
 Defined in namespace `std::ranges`  
 [ ranges::dangling](../ranges/dangling.html "cpp/ranges/dangling")(C++20) |  a placeholder type indicating that an iterator or a `subrange` should not be returned since it would be dangling   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_dangling&action=edit)  
+(class)   
 [ ranges::borrowed_iterator_tranges::borrowed_subrange_t](../ranges/borrowed_iterator_t.html "cpp/ranges/borrowed iterator t")(C++20) |  obtains iterator type or `subrange` type of a [`borrowed_range`](../ranges/borrowed_range.html "cpp/ranges/borrowed range")  
-(alias template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_borrowed_iterator_t&action=edit)  
+(alias template)  
   
 #####  Other utilities   
   
 Defined in namespace `std::ranges`  
 [ ranges::elements_of](../ranges/elements_of.html "cpp/ranges/elements of")(C++23) |  tags a range to be treated as a sequence rather than a single value   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_elements_of&action=edit)  
+(class template)   
   
 #####  Factories   
   
 Defined in namespace `std::ranges`  
 [ ranges::empty_viewviews::empty](../ranges/empty_view.html "cpp/ranges/empty view")(C++20) |  an empty [`view`](../ranges/view.html "cpp/ranges/view") with no elements  
-(class template) (variable template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_empty_view&action=edit)  
+(class template) (variable template)  
 [ ranges::single_viewviews::single](../ranges/single_view.html "cpp/ranges/single view")(C++20) |  a [`view`](../ranges/view.html "cpp/ranges/view") that contains a single element of a specified value  
-(class template) (customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_single_view&action=edit)  
+(class template) (customization point object)  
 [ ranges::iota_viewviews::iota](../ranges/iota_view.html "cpp/ranges/iota view")(C++20) |  a [`view`](../ranges/view.html "cpp/ranges/view") consisting of a sequence generated by repeatedly incrementing an initial value  
-(class template) (customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_iota_view&action=edit)  
+(class template) (customization point object)  
 [ ranges::repeat_viewviews::repeat](../ranges/repeat_view.html "cpp/ranges/repeat view")(C++23) |  a [`view`](../ranges/view.html "cpp/ranges/view") consisting of a generated sequence by repeatedly producing the same value  
-(class template) (customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_repeat_view&action=edit)  
+(class template) (customization point object)  
 [ ranges::basic_istream_viewviews::istream](../ranges/basic_istream_view.html "cpp/ranges/basic istream view")(C++20) |  a [`view`](../ranges/view.html "cpp/ranges/view") consisting of the elements obtained by successive application of `operator>>` on the associated input stream  
-(class template) (customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_basic_istream_view&action=edit)  
+(class template) (customization point object)  
   
 #####  Adaptors   
   
 Defined in namespace `std::ranges`  
 [ ranges::range_adaptor_closure](../ranges/range_adaptor_closure.html "cpp/ranges/range adaptor closure")(C++23) |  helper base class template for defining a range adaptor closure object   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_range_adaptor_closure&action=edit)  
+(class template)   
 [ views::all_tviews::all](../ranges/all_view.html "cpp/ranges/all view")(C++20) |  a [`view`](../ranges/view.html "cpp/ranges/view") that includes all elements of a [`range`](../ranges/range.html "cpp/ranges/range")  
-(alias template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_all_view&action=edit)  
+(alias template) (range adaptor object)  
 [ ranges::ref_view](../ranges/ref_view.html "cpp/ranges/ref view")(C++20) |  a [`view`](../ranges/view.html "cpp/ranges/view") of the elements of some other [`range`](../ranges/range.html "cpp/ranges/range")   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_ref_view&action=edit)  
+(class template)   
 [ ranges::owning_view](../ranges/owning_view.html "cpp/ranges/owning view")(C++20) |  a [`view`](../ranges/view.html "cpp/ranges/view") with unique ownership of some [`range`](../ranges/range.html "cpp/ranges/range")   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_owning_view&action=edit)  
+(class template)   
 [ ranges::as_rvalue_viewviews::as_rvalue](../ranges/as_rvalue_view.html "cpp/ranges/as rvalue view")(C++23) |  a [`view`](../ranges/view.html "cpp/ranges/view") of a sequence that casts each element to an rvalue  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_as_rvalue_view&action=edit)  
+(class template) (range adaptor object)  
 [ ranges::filter_viewviews::filter](../ranges/filter_view.html "cpp/ranges/filter view")(C++20) |  a [`view`](../ranges/view.html "cpp/ranges/view") that consists of the elements of a [`range`](../ranges/range.html "cpp/ranges/range") that satisfies a predicate  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_filter_view&action=edit)  
+(class template) (range adaptor object)  
 [ ranges::transform_viewviews::transform](../ranges/transform_view.html "cpp/ranges/transform view")(C++20) |  a [`view`](../ranges/view.html "cpp/ranges/view") of a sequence that applies a transformation function to each element  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_transform_view&action=edit)  
+(class template) (range adaptor object)  
 [ ranges::take_viewviews::take](../ranges/take_view.html "cpp/ranges/take view")(C++20) |  a [`view`](../ranges/view.html "cpp/ranges/view") consisting of the first N elements of another [`view`](../ranges/view.html "cpp/ranges/view")  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_take_view&action=edit)  
+(class template) (range adaptor object)  
 [ ranges::take_while_viewviews::take_while](../ranges/take_while_view.html "cpp/ranges/take while view")(C++20) |  a [`view`](../ranges/view.html "cpp/ranges/view") consisting of the initial elements of another [`view`](../ranges/view.html "cpp/ranges/view"), until the first element on which a predicate returns false  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_take_while_view&action=edit)  
+(class template) (range adaptor object)  
 [ ranges::drop_viewviews::drop](../ranges/drop_view.html "cpp/ranges/drop view")(C++20) |  a [`view`](../ranges/view.html "cpp/ranges/view") consisting of elements of another [`view`](../ranges/view.html "cpp/ranges/view"), skipping the first N elements  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_drop_view&action=edit)  
+(class template) (range adaptor object)  
 [ ranges::drop_while_viewviews::drop_while](../ranges/drop_while_view.html "cpp/ranges/drop while view")(C++20) |  a [`view`](../ranges/view.html "cpp/ranges/view") consisting of the elements of another [`view`](../ranges/view.html "cpp/ranges/view"), skipping the initial subsequence of elements until the first element where the predicate returns false  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_drop_while_view&action=edit)  
+(class template) (range adaptor object)  
 [ ranges::join_viewviews::join](../ranges/join_view.html "cpp/ranges/join view")(C++20) |  a [`view`](../ranges/view.html "cpp/ranges/view") consisting of the sequence obtained from flattening a [`view`](../ranges/view.html "cpp/ranges/view") of [`range`s](../ranges/range.html "cpp/ranges/range")  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_join_view&action=edit)  
+(class template) (range adaptor object)  
 [ ranges::join_with_viewviews::join_with](../ranges/join_with_view.html "cpp/ranges/join with view")(C++23) |  a [`view`](../ranges/view.html "cpp/ranges/view") consisting of the sequence obtained from flattening a view of ranges, with the delimiter in between elements  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_join_with_view&action=edit)  
+(class template) (range adaptor object)  
 [ ranges::lazy_split_viewviews::lazy_split](../ranges/lazy_split_view.html "cpp/ranges/lazy split view")(C++20) |  a [`view`](../ranges/view.html "cpp/ranges/view") over the subranges obtained from splitting another [`view`](../ranges/view.html "cpp/ranges/view") using a delimiter  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_lazy_split_view&action=edit)  
+(class template) (range adaptor object)  
 [ ranges::split_viewviews::split](../ranges/split_view.html "cpp/ranges/split view")(C++20) |  a [`view`](../ranges/view.html "cpp/ranges/view") over the subranges obtained from splitting another [`view`](../ranges/view.html "cpp/ranges/view") using a delimiter  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_split_view&action=edit)  
+(class template) (range adaptor object)  
 [ ranges::concat_viewviews::concat](../ranges/concat_view.html "cpp/ranges/concat view")(C++26) |  a [`view`](../ranges/view.html "cpp/ranges/view") consisting of concatenation of the adapted views  
-(class template) (customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_concat_view&action=edit)  
+(class template) (customization point object)  
 [ views::counted](../ranges/counted_view.html "cpp/ranges/view counted")(C++20) |  creates a subrange from an iterator and a count  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_view_counted&action=edit)  
+(customization point object)  
 [ ranges::common_viewviews::common](../ranges/common_view.html "cpp/ranges/common view")(C++20) |  converts a [`view`](../ranges/view.html "cpp/ranges/view") into a [`common_range`](../ranges/common_range.html "cpp/ranges/common range")  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_common_view&action=edit)  
+(class template) (range adaptor object)  
 [ ranges::reverse_viewviews::reverse](../ranges/reverse_view.html "cpp/ranges/reverse view")(C++20) |  a [`view`](../ranges/view.html "cpp/ranges/view") that iterates over the elements of another bidirectional view in reverse order  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_reverse_view&action=edit)  
+(class template) (range adaptor object)  
 [ ranges::as_const_viewviews::as_const](../ranges/as_const_view.html "cpp/ranges/as const view")(C++23) |  converts a [`view`](../ranges/view.html "cpp/ranges/view") into a [`constant_range`](../ranges/constant_range.html "cpp/ranges/constant range")  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_as_const_view&action=edit)  
+(class template) (range adaptor object)  
 [ ranges::elements_viewviews::elements](../ranges/elements_view.html "cpp/ranges/elements view")(C++20) |  takes a [`view`](../ranges/view.html "cpp/ranges/view") consisting of [`_tuple-like_`](../utility/tuple/tuple-like.html "cpp/utility/tuple/tuple-like") values and a number N and produces a [`view`](../ranges/view.html "cpp/ranges/view") of Nth element of each tuple  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_elements_view&action=edit)  
+(class template) (range adaptor object)  
 [ ranges::keys_viewviews::keys](../ranges/keys_view.html "cpp/ranges/keys view")(C++20) |  takes a [`view`](../ranges/view.html "cpp/ranges/view") consisting of pair-like values and produces a [`view`](../ranges/view.html "cpp/ranges/view") of the first elements of each pair  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_keys_view&action=edit)  
+(class template) (range adaptor object)  
 [ ranges::values_viewviews::values](../ranges/values_view.html "cpp/ranges/values view")(C++20) |  takes a [`view`](../ranges/view.html "cpp/ranges/view") consisting of pair-like values and produces a [`view`](../ranges/view.html "cpp/ranges/view") of the second elements of each pair  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_values_view&action=edit)  
+(class template) (range adaptor object)  
 [ ranges::enumerate_viewviews::enumerate](../ranges/enumerate_view.html "cpp/ranges/enumerate view")(C++23) |  a [`view`](../ranges/view.html "cpp/ranges/view") that maps each element of adapted sequence to a tuple of both the element's position and its value  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_enumerate_view&action=edit)  
+(class template) (range adaptor object)  
 [ ranges::zip_viewviews::zip](../ranges/zip_view.html "cpp/ranges/zip view")(C++23) |  a [`view`](../ranges/view.html "cpp/ranges/view") consisting of tuples of references to corresponding elements of the adapted views  
-(class template) (customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_zip_view&action=edit)  
+(class template) (customization point object)  
 [ ranges::zip_transform_viewviews::zip_transform](../ranges/zip_transform_view.html "cpp/ranges/zip transform view")(C++23) |  a [`view`](../ranges/view.html "cpp/ranges/view") consisting of results of application of a transformation function to corresponding elements of the adapted views  
-(class template) (customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_zip_transform_view&action=edit)  
+(class template) (customization point object)  
 [ ranges::adjacent_viewviews::adjacent](../ranges/adjacent_view.html "cpp/ranges/adjacent view")(C++23) |  a [`view`](../ranges/view.html "cpp/ranges/view") consisting of tuples of references to adjacent elements of the adapted view  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_adjacent_view&action=edit)  
+(class template) (range adaptor object)  
 [ ranges::adjacent_transform_viewviews::adjacent_transform](../ranges/adjacent_transform_view.html "cpp/ranges/adjacent transform view")(C++23) |  a [`view`](../ranges/view.html "cpp/ranges/view") consisting of results of application of a transformation function to adjacent elements of the adapted view  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_adjacent_transform_view&action=edit)  
+(class template) (range adaptor object)  
 [ ranges::chunk_viewviews::chunk](../ranges/chunk_view.html "cpp/ranges/chunk view")(C++23) |  a range of [`view`s](../ranges/view.html "cpp/ranges/view") that are `N`-sized non-overlapping successive chunks of the elements of another [`view`](../ranges/view.html "cpp/ranges/view")  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_chunk_view&action=edit)  
+(class template) (range adaptor object)  
 [ ranges::slide_viewviews::slide](../ranges/slide_view.html "cpp/ranges/slide view")(C++23) |  a [`view`](../ranges/view.html "cpp/ranges/view") whose Mth element is a [`view`](../ranges/view.html "cpp/ranges/view") over the Mth through (M + N - 1)th elements of another [`view`](../ranges/view.html "cpp/ranges/view")  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_slide_view&action=edit)  
+(class template) (range adaptor object)  
 [ ranges::chunk_by_viewviews::chunk_by](../ranges/chunk_by_view.html "cpp/ranges/chunk by view")(C++23) |  splits the [`view`](../ranges/view.html "cpp/ranges/view") into subranges between each pair of adjacent elements for which the given predicate returns false  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_chunk_by_view&action=edit)  
+(class template) (range adaptor object)  
 [ ranges::stride_viewviews::stride](../ranges/stride_view.html "cpp/ranges/stride view")(C++23) |  a [`view`](../ranges/view.html "cpp/ranges/view") consisting of elements of another [`view`](../ranges/view.html "cpp/ranges/view"), advancing over N elements at a time  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_stride_view&action=edit)  
+(class template) (range adaptor object)  
 [ ranges::cartesian_product_viewviews::cartesian_product](../ranges/cartesian_product_view.html "cpp/ranges/cartesian product view")(C++23) |  a [`view`](../ranges/view.html "cpp/ranges/view") consisting of tuples of results calculated by the n-ary cartesian product of the adapted views  
-(class template) (customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_cartesian_product_view&action=edit)  
+(class template) (customization point object)  
 [ ranges::cache_latest_viewviews::cache_latest](../ranges/cache_latest_view.html "cpp/ranges/cache latest view")(C++26) |  a [`view`](../ranges/view.html "cpp/ranges/view") that caches the last-accessed element of its underlying sequence  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_cache_latest_view&action=edit)  
+(class template) (range adaptor object)  
 [ ranges::to_input_viewviews::to_input](../ranges/to_input_view.html "cpp/ranges/to input view")(C++26) |  converts a [`view`](../ranges/view.html "cpp/ranges/view") into a range that is [`input_range`](../ranges/input_range.html "cpp/ranges/input range")-only and non-[`common_range`](../ranges/common_range.html "cpp/ranges/common range")  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_to_input_view&action=edit)  
+(class template) (range adaptor object)  
   
 ###  Customization point objects  
   
@@ -509,52 +509,52 @@ Defined in namespace `std::ranges`
   
 Defined in namespace `std::ranges`  
 [ ranges::begin](../ranges/begin.html "cpp/ranges/begin")(C++20) |  returns an iterator to the beginning of a range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_begin&action=edit)  
+(customization point object)  
 [ ranges::end](../ranges/end.html "cpp/ranges/end")(C++20) |  returns a sentinel indicating the end of a range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_end&action=edit)  
+(customization point object)  
 [ ranges::cbegin](../ranges/cbegin.html "cpp/ranges/cbegin")(C++20) |  returns an iterator to the beginning of a read-only range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_cbegin&action=edit)  
+(customization point object)  
 [ ranges::cend](../ranges/cend.html "cpp/ranges/cend")(C++20) |  returns a sentinel indicating the end of a read-only range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_cend&action=edit)  
+(customization point object)  
 [ ranges::rbegin](../ranges/rbegin.html "cpp/ranges/rbegin")(C++20) |  returns a reverse iterator to a range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_rbegin&action=edit)  
+(customization point object)  
 [ ranges::rend](../ranges/rend.html "cpp/ranges/rend")(C++20) |  returns a reverse end iterator to a range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_rend&action=edit)  
+(customization point object)  
 [ ranges::crbegin](../ranges/crbegin.html "cpp/ranges/crbegin")(C++20) |  returns a reverse iterator to a read-only range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_crbegin&action=edit)  
+(customization point object)  
 [ ranges::crend](../ranges/crend.html "cpp/ranges/crend")(C++20) |  returns a reverse end iterator to a read-only range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_crend&action=edit)  
+(customization point object)  
 [ ranges::reserve_hint](../ranges/reserve_hint.html "cpp/ranges/reserve hint")(C++26) |  returns an integer equal to the reserve hint given by a range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_reserve_hint&action=edit)  
+(customization point object)  
 [ ranges::size](../ranges/size.html "cpp/ranges/size")(C++20) |  returns an integer equal to the size of a range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_size&action=edit)  
+(customization point object)  
 [ ranges::ssize](../ranges/ssize.html "cpp/ranges/ssize")(C++20) |  returns a signed integer equal to the size of a range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_ssize&action=edit)  
+(customization point object)  
 [ ranges::empty](../ranges/empty.html "cpp/ranges/empty")(C++20) |  checks whether a range is empty  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_empty&action=edit)  
+(customization point object)  
 [ ranges::data](../ranges/data.html "cpp/ranges/data")(C++20) |  obtains a pointer to the beginning of a contiguous range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_data&action=edit)  
+(customization point object)  
 [ ranges::cdata](../ranges/cdata.html "cpp/ranges/cdata")(C++20) |  obtains a pointer to the beginning of a read-only contiguous range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_cdata&action=edit)  
+(customization point object)  
   
 ###  Enumerations  
   
 Defined in namespace `std::ranges`  
 [ ranges::subrange_kind](../ranges/subrange_kind.html "cpp/ranges/subrange kind")(C++20) |  specifies whether a [std::ranges::subrange](../ranges/subrange.html "cpp/ranges/subrange") models [std::ranges::sized_range](../ranges/sized_range.html "cpp/ranges/sized range")   
-(enum) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_subrange_kind&action=edit)  
+(enum)   
   
 ###  Helpers  
   
 [ std::tuple_size<std::ranges::subrange>](../ranges/subrange/tuple_size.html "cpp/ranges/subrange/tuple size")(C++20) |  obtains the size of a [std::ranges::subrange](../ranges/subrange.html "cpp/ranges/subrange")   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/subrange/dsc_tuple_size&action=edit)  
+(class template specialization)   
 [ std::tuple_element<std::ranges::subrange>](../ranges/subrange/tuple_element.html "cpp/ranges/subrange/tuple element")(C++20) |  obtains the type of the iterator or the sentinel of a [std::ranges::subrange](../ranges/subrange.html "cpp/ranges/subrange")   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/subrange/dsc_tuple_element&action=edit)  
+(class template specialization)   
 [ get(std::ranges::subrange)](../ranges/subrange/get.html "cpp/ranges/subrange/get")(C++20) |  obtains iterator or sentinel from a [std::ranges::subrange](../ranges/subrange.html "cpp/ranges/subrange")   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/subrange/dsc_get&action=edit)  
+(function template)   
 [ from_range_tfrom_range](../ranges/from_range.html "cpp/ranges/from range")(C++23) |  from-range construction tag  
-(tag)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_from_range&action=edit)  
+(tag)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/ranges&action=edit&section=2 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     // mostly freestanding
@@ -1192,7 +1192,7 @@ Defined in namespace `std::ranges`
       inline constexpr from_range_t from_range{};
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-1 "Template:cpp/synopsis/ranges")] Concept [`range`](../ranges/range.html "cpp/ranges/range")
+#### Concept [`range`](../ranges/range.html "cpp/ranges/range")
     
     
     namespace std::ranges {
@@ -1203,7 +1203,7 @@ Defined in namespace `std::ranges`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-2 "Template:cpp/synopsis/ranges")] Concept [`borrowed_range`](../ranges/borrowed_range.html "cpp/ranges/borrowed range")
+#### Concept [`borrowed_range`](../ranges/borrowed_range.html "cpp/ranges/borrowed range")
     
     
     namespace std::ranges {
@@ -1212,7 +1212,7 @@ Defined in namespace `std::ranges`
         range<T> && (is_lvalue_reference_v<T> || enable_borrowed_range<remove_cvref_t<T>>);
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-3 "Template:cpp/synopsis/ranges")] Concept [`approximately_sized_range`](../ranges/approximately_sized_range.html "cpp/ranges/approximately sized range")
+#### Concept [`approximately_sized_range`](../ranges/approximately_sized_range.html "cpp/ranges/approximately sized range")
     
     
     namespace std::ranges {
@@ -1222,7 +1222,7 @@ Defined in namespace `std::ranges`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-4 "Template:cpp/synopsis/ranges")] Concept [`sized_range`](../ranges/sized_range.html "cpp/ranges/sized range")
+#### Concept [`sized_range`](../ranges/sized_range.html "cpp/ranges/sized range")
     
     
     namespace std::ranges {
@@ -1232,7 +1232,7 @@ Defined in namespace `std::ranges`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-5 "Template:cpp/synopsis/ranges")] Concept [`view`](../ranges/view.html "cpp/ranges/view")
+#### Concept [`view`](../ranges/view.html "cpp/ranges/view")
     
     
     namespace std::ranges {
@@ -1247,7 +1247,7 @@ Defined in namespace `std::ranges`
       concept view = range<T> && movable<T> && enable_view<T>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-6 "Template:cpp/synopsis/ranges")] Concept [`output_range`](../ranges/output_range.html "cpp/ranges/output range")
+#### Concept [`output_range`](../ranges/output_range.html "cpp/ranges/output range")
     
     
     namespace std::ranges {
@@ -1255,7 +1255,7 @@ Defined in namespace `std::ranges`
       concept output_range = range<R> && output_iterator<iterator_t<R>, T>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-7 "Template:cpp/synopsis/ranges")] Concept [`input_range`](../ranges/input_range.html "cpp/ranges/input range")
+#### Concept [`input_range`](../ranges/input_range.html "cpp/ranges/input range")
     
     
     namespace std::ranges {
@@ -1263,7 +1263,7 @@ Defined in namespace `std::ranges`
       concept input_range = range<T> && input_iterator<iterator_t<T>>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-8 "Template:cpp/synopsis/ranges")] Concept [`forward_range`](../ranges/forward_range.html "cpp/ranges/forward range")
+#### Concept [`forward_range`](../ranges/forward_range.html "cpp/ranges/forward range")
     
     
     namespace std::ranges {
@@ -1271,7 +1271,7 @@ Defined in namespace `std::ranges`
       concept forward_range = input_range<T> && forward_iterator<iterator_t<T>>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-9 "Template:cpp/synopsis/ranges")] Concept [`bidirectional_range`](../ranges/bidirectional_range.html "cpp/ranges/bidirectional range")
+#### Concept [`bidirectional_range`](../ranges/bidirectional_range.html "cpp/ranges/bidirectional range")
     
     
     namespace std::ranges {
@@ -1279,7 +1279,7 @@ Defined in namespace `std::ranges`
       concept bidirectional_range = forward_range<T> && bidirectional_iterator<iterator_t<T>>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-10 "Template:cpp/synopsis/ranges")] Concept [`random_access_range`](../ranges/random_access_range.html "cpp/ranges/random access range")
+#### Concept [`random_access_range`](../ranges/random_access_range.html "cpp/ranges/random access range")
     
     
     namespace std::ranges {
@@ -1288,7 +1288,7 @@ Defined in namespace `std::ranges`
         bidirectional_range<T> && random_access_iterator<iterator_t<T>>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-11 "Template:cpp/synopsis/ranges")] Concept [`contiguous_range`](../ranges/contiguous_range.html "cpp/ranges/contiguous range")
+#### Concept [`contiguous_range`](../ranges/contiguous_range.html "cpp/ranges/contiguous range")
     
     
     namespace std::ranges {
@@ -1301,7 +1301,7 @@ Defined in namespace `std::ranges`
         };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-12 "Template:cpp/synopsis/ranges")] Concept [`common_range`](../ranges/common_range.html "cpp/ranges/common range")
+#### Concept [`common_range`](../ranges/common_range.html "cpp/ranges/common range")
     
     
     namespace std::ranges {
@@ -1309,7 +1309,7 @@ Defined in namespace `std::ranges`
       concept common_range = range<T> && same_as<iterator_t<T>, sentinel_t<T>>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-13 "Template:cpp/synopsis/ranges")] Concept [`viewable_range`](../ranges/viewable_range.html "cpp/ranges/viewable range")
+#### Concept [`viewable_range`](../ranges/viewable_range.html "cpp/ranges/viewable range")
     
     
     namespace std::ranges {
@@ -1321,7 +1321,7 @@ Defined in namespace `std::ranges`
                        (movable<remove_reference_t<T>> && !/*is-initializer-list*/<T>))));
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-14 "Template:cpp/synopsis/ranges")] Concept [`constant_range`](../ranges/constant_range.html "cpp/ranges/constant range")
+#### Concept [`constant_range`](../ranges/constant_range.html "cpp/ranges/constant range")
     
     
     namespace std::ranges {
@@ -1329,7 +1329,7 @@ Defined in namespace `std::ranges`
       concept constant_range = input_range<T> && /*constant-iterator*/<iterator_t<T>>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-15 "Template:cpp/synopsis/ranges")] Helper concepts
+#### Helper concepts
 
 Note: The concepts in this section are only for exposition and are not part of the interface. 
     
@@ -1364,7 +1364,7 @@ Note: The concepts in this section are only for exposition and are not part of t
       } // exposition-only
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-16 "Template:cpp/synopsis/ranges")] Class template std::ranges::view_interface
+#### Class template std::ranges::view_interface
     
     
     namespace std::ranges {
@@ -1480,7 +1480,7 @@ Note: The concepts in this section are only for exposition and are not part of t
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-17 "Template:cpp/synopsis/ranges")] Class template [std::ranges::subrange](../ranges/subrange.html "cpp/ranges/subrange")
+#### Class template [std::ranges::subrange](../ranges/subrange.html "cpp/ranges/subrange")
     
     
     namespace std::ranges {
@@ -1585,7 +1585,7 @@ Note: The concepts in this section are only for exposition and are not part of t
         -> subrange<iterator_t<R>, sentinel_t<R>, subrange_kind::sized>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-18 "Template:cpp/synopsis/ranges")] Class [std::ranges::dangling](../ranges/dangling.html "cpp/ranges/dangling")
+#### Class [std::ranges::dangling](../ranges/dangling.html "cpp/ranges/dangling")
     
     
     namespace std::ranges {
@@ -1596,7 +1596,7 @@ Note: The concepts in this section are only for exposition and are not part of t
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-19 "Template:cpp/synopsis/ranges")] Class std::ranges::elements_of
+#### Class std::ranges::elements_of
     
     
     namespace std::ranges {
@@ -1611,7 +1611,7 @@ Note: The concepts in this section are only for exposition and are not part of t
       elements_of(R&&, Allocator = Allocator()) -> elements_of<R&&, Allocator>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-20 "Template:cpp/synopsis/ranges")] Class template [std::ranges::empty_view](../ranges/empty_view.html "cpp/ranges/empty view")
+#### Class template [std::ranges::empty_view](../ranges/empty_view.html "cpp/ranges/empty view")
     
     
     namespace std::ranges {
@@ -1628,7 +1628,7 @@ Note: The concepts in this section are only for exposition and are not part of t
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-21 "Template:cpp/synopsis/ranges")] Class template std::ranges::single_view
+#### Class template std::ranges::single_view
     
     
     namespace std::ranges {
@@ -1664,7 +1664,7 @@ Note: The concepts in this section are only for exposition and are not part of t
       single_view(T) -> single_view<T>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-22 "Template:cpp/synopsis/ranges")] Class template [std::ranges::iota_view](../ranges/iota_view.html "cpp/ranges/iota view")
+#### Class template [std::ranges::iota_view](../ranges/iota_view.html "cpp/ranges/iota view")
     
     
     namespace std::ranges {
@@ -1712,7 +1712,7 @@ Note: The concepts in this section are only for exposition and are not part of t
       iota_view(W, Bound) -> iota_view<W, Bound>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-23 "Template:cpp/synopsis/ranges")] Class template std::ranges::iota_view::iterator
+#### Class template std::ranges::iota_view::iterator
     
     
     namespace std::ranges {
@@ -1782,7 +1782,7 @@ Note: The concepts in this section are only for exposition and are not part of t
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-24 "Template:cpp/synopsis/ranges")] Class template std::ranges::iota_view::sentinel
+#### Class template std::ranges::iota_view::sentinel
     
     
     namespace std::ranges {
@@ -1808,7 +1808,7 @@ Note: The concepts in this section are only for exposition and are not part of t
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-25 "Template:cpp/synopsis/ranges")] Class template std::ranges::repeat_view
+#### Class template std::ranges::repeat_view
     
     
     namespace std::ranges {
@@ -1856,7 +1856,7 @@ Note: The concepts in this section are only for exposition and are not part of t
       repeat_view(T, Bound = Bound()) -> repeat_view<T, Bound>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-26 "Template:cpp/synopsis/ranges")] Class template std::ranges::repeat_view::iterator
+#### Class template std::ranges::repeat_view::iterator
     
     
     namespace std::ranges {
@@ -1908,7 +1908,7 @@ Note: The concepts in this section are only for exposition and are not part of t
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-27 "Template:cpp/synopsis/ranges")] Class template std::ranges::basic_istream_view
+#### Class template std::ranges::basic_istream_view
     
     
     namespace std::ranges {
@@ -1939,7 +1939,7 @@ Note: The concepts in this section are only for exposition and are not part of t
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-28 "Template:cpp/synopsis/ranges")] Class template std::ranges::basic_istream_view::iterator
+#### Class template std::ranges::basic_istream_view::iterator
     
     
     namespace std::ranges {
@@ -1972,7 +1972,7 @@ Note: The concepts in this section are only for exposition and are not part of t
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-29 "Template:cpp/synopsis/ranges")] Class template [std::ranges::ref_view](../ranges/ref_view.html "cpp/ranges/ref view")
+#### Class template [std::ranges::ref_view](../ranges/ref_view.html "cpp/ranges/ref view")
     
     
     namespace std::ranges {
@@ -2023,7 +2023,7 @@ Note: The concepts in this section are only for exposition and are not part of t
       ref_view(R&) -> ref_view<R>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-30 "Template:cpp/synopsis/ranges")] Class template std::ranges::owning_view
+#### Class template std::ranges::owning_view
     
     
     namespace std::ranges {
@@ -2108,7 +2108,7 @@ Note: The concepts in this section are only for exposition and are not part of t
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-31 "Template:cpp/synopsis/ranges")] Class template std::ranges::as_rvalue_view
+#### Class template std::ranges::as_rvalue_view
     
     
     namespace std::ranges {
@@ -2188,7 +2188,7 @@ Note: The concepts in this section are only for exposition and are not part of t
       as_rvalue_view(R&&) -> as_rvalue_view<[views::all_t](../ranges/all_view.html)<R>>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-32 "Template:cpp/synopsis/ranges")] Class template [std::ranges::filter_view](../ranges/filter_view.html "cpp/ranges/filter view")
+#### Class template [std::ranges::filter_view](../ranges/filter_view.html "cpp/ranges/filter view")
     
     
     namespace std::ranges {
@@ -2235,7 +2235,7 @@ Note: The concepts in this section are only for exposition and are not part of t
       filter_view(R&&, Pred) -> filter_view<[views::all_t](../ranges/all_view.html)<R>, Pred>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-33 "Template:cpp/synopsis/ranges")] Class template std::ranges::filter_view::iterator
+#### Class template std::ranges::filter_view::iterator
     
     
     namespace std::ranges {
@@ -2288,7 +2288,7 @@ Note: The concepts in this section are only for exposition and are not part of t
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-34 "Template:cpp/synopsis/ranges")] Class template std::ranges::filter_view::sentinel
+#### Class template std::ranges::filter_view::sentinel
     
     
     namespace std::ranges {
@@ -2309,7 +2309,7 @@ Note: The concepts in this section are only for exposition and are not part of t
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-35 "Template:cpp/synopsis/ranges")] Class template [std::ranges::transform_view](../ranges/transform_view.html "cpp/ranges/transform view")
+#### Class template [std::ranges::transform_view](../ranges/transform_view.html "cpp/ranges/transform view")
     
     
     namespace std::ranges {
@@ -2383,7 +2383,7 @@ Note: The concepts in this section are only for exposition and are not part of t
       transform_view(R&&, F) -> transform_view<[views::all_t](../ranges/all_view.html)<R>, F>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-36 "Template:cpp/synopsis/ranges")] Class template std::ranges::transform_view::iterator
+#### Class template std::ranges::transform_view::iterator
     
     
     namespace std::ranges {
@@ -2471,7 +2471,7 @@ Note: The concepts in this section are only for exposition and are not part of t
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-37 "Template:cpp/synopsis/ranges")] Class template std::ranges::transform_view::sentinel
+#### Class template std::ranges::transform_view::sentinel
     
     
     namespace std::ranges {
@@ -2516,7 +2516,7 @@ Note: The concepts in this section are only for exposition and are not part of t
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-38 "Template:cpp/synopsis/ranges")] Class template [std::ranges::take_view](../ranges/take_view.html "cpp/ranges/take view")
+#### Class template [std::ranges::take_view](../ranges/take_view.html "cpp/ranges/take view")
     
     
     namespace std::ranges {
@@ -2650,7 +2650,7 @@ Note: The concepts in this section are only for exposition and are not part of t
       take_view(R&&, range_difference_t<R>) -> take_view<[views::all_t](../ranges/all_view.html)<R>>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-39 "Template:cpp/synopsis/ranges")] Class template std::ranges::take_view::sentinel
+#### Class template std::ranges::take_view::sentinel
     
     
     namespace std::ranges {
@@ -2682,7 +2682,7 @@ Note: The concepts in this section are only for exposition and are not part of t
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-40 "Template:cpp/synopsis/ranges")] Class template [std::ranges::take_while_view](../ranges/take_while_view.html "cpp/ranges/take while view")
+#### Class template [std::ranges::take_while_view](../ranges/take_while_view.html "cpp/ranges/take while view")
     
     
     namespace std::ranges {
@@ -2742,7 +2742,7 @@ Note: The concepts in this section are only for exposition and are not part of t
       take_while_view(R&&, Pred) -> take_while_view<[views::all_t](../ranges/all_view.html)<R>, Pred>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-41 "Template:cpp/synopsis/ranges")] Class template std::ranges::take_while_view::sentinel
+#### Class template std::ranges::take_while_view::sentinel
     
     
     namespace std::ranges {
@@ -2776,7 +2776,7 @@ Note: The concepts in this section are only for exposition and are not part of t
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-42 "Template:cpp/synopsis/ranges")] Class template [std::ranges::drop_view](../ranges/drop_view.html "cpp/ranges/drop view")
+#### Class template [std::ranges::drop_view](../ranges/drop_view.html "cpp/ranges/drop view")
     
     
     namespace std::ranges {
@@ -2854,7 +2854,7 @@ Note: The concepts in this section are only for exposition and are not part of t
       drop_view(R&&, range_difference_t<R>) -> drop_view<[views::all_t](../ranges/all_view.html)<R>>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-43 "Template:cpp/synopsis/ranges")] Class template [std::ranges::drop_while_view](../ranges/drop_while_view.html "cpp/ranges/drop while view")
+#### Class template [std::ranges::drop_while_view](../ranges/drop_while_view.html "cpp/ranges/drop while view")
     
     
     namespace std::ranges {
@@ -2891,7 +2891,7 @@ Note: The concepts in this section are only for exposition and are not part of t
       drop_while_view(R&&, Pred) -> drop_while_view<[views::all_t](../ranges/all_view.html)<R>, Pred>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-44 "Template:cpp/synopsis/ranges")] Class template std::ranges::join_view
+#### Class template std::ranges::join_view
     
     
     namespace std::ranges {
@@ -2975,7 +2975,7 @@ Note: The concepts in this section are only for exposition and are not part of t
       explicit join_view(R&&) -> join_view<[views::all_t](../ranges/all_view.html)<R>>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-45 "Template:cpp/synopsis/ranges")] Class template std::ranges::join_view::iterator
+#### Class template std::ranges::join_view::iterator
     
     
     namespace std::ranges {
@@ -3058,7 +3058,7 @@ Note: The concepts in this section are only for exposition and are not part of t
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-46 "Template:cpp/synopsis/ranges")] Class template std::ranges::join_view::sentinel
+#### Class template std::ranges::join_view::sentinel
     
     
     namespace std::ranges {
@@ -3087,7 +3087,7 @@ Note: The concepts in this section are only for exposition and are not part of t
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-47 "Template:cpp/synopsis/ranges")] Class template std::ranges::join_with_view
+#### Class template std::ranges::join_with_view
     
     
     namespace std::ranges {
@@ -3191,7 +3191,7 @@ Note: The concepts in this section are only for exposition and are not part of t
         -> join_with_view<[views::all_t](../ranges/all_view.html)<R>, single_view<range_value_t<range_reference_t<R>>>>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-48 "Template:cpp/synopsis/ranges")] Class template std::ranges::join_with_view::iterator
+#### Class template std::ranges::join_with_view::iterator
     
     
     namespace std::ranges {
@@ -3277,7 +3277,7 @@ Note: The concepts in this section are only for exposition and are not part of t
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-49 "Template:cpp/synopsis/ranges")] Class template std::ranges::join_with_view::sentinel
+#### Class template std::ranges::join_with_view::sentinel
     
     
     namespace std::ranges {
@@ -3306,7 +3306,7 @@ Note: The concepts in this section are only for exposition and are not part of t
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-50 "Template:cpp/synopsis/ranges")] Class template std::ranges::lazy_split_view
+#### Class template std::ranges::lazy_split_view
     
     
     namespace std::ranges {
@@ -3401,7 +3401,7 @@ Note: The concepts in this section are only for exposition and are not part of t
         -> lazy_split_view<[views::all_t](../ranges/all_view.html)<R>, single_view<range_value_t<R>>>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-51 "Template:cpp/synopsis/ranges")] Class template std::ranges::lazy_split_view::outer_iterator
+#### Class template std::ranges::lazy_split_view::outer_iterator
     
     
     namespace std::ranges {
@@ -3465,7 +3465,7 @@ Note: The concepts in this section are only for exposition and are not part of t
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-52 "Template:cpp/synopsis/ranges")] Class template std::ranges::lazy_split_view::outer_iterator::value_type
+#### Class template std::ranges::lazy_split_view::outer_iterator::value_type
     
     
     namespace std::ranges {
@@ -3490,7 +3490,7 @@ Note: The concepts in this section are only for exposition and are not part of t
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-53 "Template:cpp/synopsis/ranges")] Class template std::ranges::lazy_split_view::inner_iterator
+#### Class template std::ranges::lazy_split_view::inner_iterator
     
     
     namespace std::ranges {
@@ -3555,7 +3555,7 @@ Note: The concepts in this section are only for exposition and are not part of t
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-54 "Template:cpp/synopsis/ranges")] Class template std::ranges::split_view
+#### Class template std::ranges::split_view
     
     
     namespace std::ranges {
@@ -3614,7 +3614,7 @@ Note: The concepts in this section are only for exposition and are not part of t
         -> split_view<[views::all_t](../ranges/all_view.html)<R>, single_view<range_value_t<R>>>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-55 "Template:cpp/synopsis/ranges")] Class template std::ranges::split_view::iterator
+#### Class template std::ranges::split_view::iterator
     
     
     namespace std::ranges {
@@ -3650,7 +3650,7 @@ Note: The concepts in this section are only for exposition and are not part of t
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-56 "Template:cpp/synopsis/ranges")] Class template std::ranges::split_view::sentinel
+#### Class template std::ranges::split_view::sentinel
     
     
     namespace std::ranges {
@@ -3670,7 +3670,7 @@ Note: The concepts in this section are only for exposition and are not part of t
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-57 "Template:cpp/synopsis/ranges")] Class template std::ranges::concat
+#### Class template std::ranges::concat
     
     
     namespace std::ranges {
@@ -3727,7 +3727,7 @@ Note: The concepts in this section are only for exposition and are not part of t
       concat_view(R&&...) -> concat_view<[views::all_t](../ranges/all_view.html)<R>...>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-58 "Template:cpp/synopsis/ranges")] Class template std::ranges::concat::iterator
+#### Class template std::ranges::concat::iterator
     
     
     namespace std::ranges {
@@ -3827,7 +3827,7 @@ Note: The concepts in this section are only for exposition and are not part of t
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-59 "Template:cpp/synopsis/ranges")] Class template std::ranges::common_view
+#### Class template std::ranges::common_view
     
     
     namespace std::ranges {
@@ -3917,7 +3917,7 @@ Note: The concepts in this section are only for exposition and are not part of t
       common_view(R&&) -> common_view<[views::all_t](../ranges/all_view.html)<R>>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-60 "Template:cpp/synopsis/ranges")] Class template [std::ranges::reverse_view](../ranges/reverse_view.html "cpp/ranges/reverse view")
+#### Class template [std::ranges::reverse_view](../ranges/reverse_view.html "cpp/ranges/reverse view")
     
     
     namespace std::ranges {
@@ -3980,7 +3980,7 @@ Note: The concepts in this section are only for exposition and are not part of t
       reverse_view(R&&) -> reverse_view<[views::all_t](../ranges/all_view.html)<R>>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-61 "Template:cpp/synopsis/ranges")] Class template std::ranges::as_const_view
+#### Class template std::ranges::as_const_view
     
     
     namespace std::ranges {
@@ -4052,7 +4052,7 @@ Note: The concepts in this section are only for exposition and are not part of t
       as_const_view(R&&) -> as_const_view<[views::all_t](../ranges/all_view.html)<R>>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-62 "Template:cpp/synopsis/ranges")] Class template std::ranges::elements_view
+#### Class template std::ranges::elements_view
     
     
     namespace std::ranges {
@@ -4156,7 +4156,7 @@ Note: The concepts in this section are only for exposition and are not part of t
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-63 "Template:cpp/synopsis/ranges")] Class template std::ranges::elements_view::iterator
+#### Class template std::ranges::elements_view::iterator
     
     
     namespace std::ranges {
@@ -4240,7 +4240,7 @@ Note: The concepts in this section are only for exposition and are not part of t
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-64 "Template:cpp/synopsis/ranges")] Class template std::ranges::elements_view::sentinel
+#### Class template std::ranges::elements_view::sentinel
     
     
     namespace std::ranges {
@@ -4285,7 +4285,7 @@ Note: The concepts in this section are only for exposition and are not part of t
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-65 "Template:cpp/synopsis/ranges")] Class template std::ranges::enumerate_view
+#### Class template std::ranges::enumerate_view
     
     
     namespace std::ranges {
@@ -4372,7 +4372,7 @@ Note: The concepts in this section are only for exposition and are not part of t
       enumerate_view(R&&) -> enumerate_view<[views::all_t](../ranges/all_view.html)<R>>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-66 "Template:cpp/synopsis/ranges")] Class template std::ranges::enumerate_view::iterator
+#### Class template std::ranges::enumerate_view::iterator
     
     
     namespace std::ranges {
@@ -4460,7 +4460,7 @@ Note: The concepts in this section are only for exposition and are not part of t
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-67 "Template:cpp/synopsis/ranges")] Class template std::ranges::enumerate_view::sentinel
+#### Class template std::ranges::enumerate_view::sentinel
     
     
     namespace std::ranges {
@@ -4502,7 +4502,7 @@ Note: The concepts in this section are only for exposition and are not part of t
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-68 "Template:cpp/synopsis/ranges")] Class template std::ranges::zip_view
+#### Class template std::ranges::zip_view
     
     
     namespace std::ranges {
@@ -4575,7 +4575,7 @@ Note: The concepts in this section are only for exposition and are not part of t
       zip_view(Rs&&...) -> zip_view<[views::all_t](../ranges/all_view.html)<Rs>...>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-69 "Template:cpp/synopsis/ranges")] Class template std::ranges::zip_view::iterator
+#### Class template std::ranges::zip_view::iterator
     
     
     namespace std::ranges {
@@ -4645,7 +4645,7 @@ Note: The concepts in this section are only for exposition and are not part of t
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-70 "Template:cpp/synopsis/ranges")] Class template std::ranges::zip_view::sentinel
+#### Class template std::ranges::zip_view::sentinel
     
     
     namespace std::ranges {
@@ -4689,7 +4689,7 @@ Note: The concepts in this section are only for exposition and are not part of t
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-71 "Template:cpp/synopsis/ranges")] Class template std::ranges::zip_transform_view
+#### Class template std::ranges::zip_transform_view
     
     
     namespace std::ranges {
@@ -4769,7 +4769,7 @@ Note: The concepts in this section are only for exposition and are not part of t
       zip_transform_view(F, Rs&&...) -> zip_transform_view<F, [views::all_t](../ranges/all_view.html)<Rs>...>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-72 "Template:cpp/synopsis/ranges")] Class template std::ranges::zip_transform_view::iterator
+#### Class template std::ranges::zip_transform_view::iterator
     
     
     namespace std::ranges {
@@ -4837,7 +4837,7 @@ Note: The concepts in this section are only for exposition and are not part of t
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-73 "Template:cpp/synopsis/ranges")] Class template std::ranges::zip_transform_view::sentinel
+#### Class template std::ranges::zip_transform_view::sentinel
     
     
     namespace std::ranges {
@@ -4873,7 +4873,7 @@ Note: The concepts in this section are only for exposition and are not part of t
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-74 "Template:cpp/synopsis/ranges")] Class template std::ranges::adjacent_view
+#### Class template std::ranges::adjacent_view
     
     
     namespace std::ranges {
@@ -4953,7 +4953,7 @@ Note: The concepts in this section are only for exposition and are not part of t
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-75 "Template:cpp/synopsis/ranges")] Class template std::ranges::adjacent_view::iterator
+#### Class template std::ranges::adjacent_view::iterator
     
     
     namespace std::ranges {
@@ -5029,7 +5029,7 @@ Note: The concepts in this section are only for exposition and are not part of t
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-76 "Template:cpp/synopsis/ranges")] Class template std::ranges::adjacent_view::sentinel
+#### Class template std::ranges::adjacent_view::sentinel
     
     
     namespace std::ranges {
@@ -5069,7 +5069,7 @@ Note: The concepts in this section are only for exposition and are not part of t
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-77 "Template:cpp/synopsis/ranges")] Class template std::ranges::adjacent_transform_view
+#### Class template std::ranges::adjacent_transform_view
     
     
     namespace std::ranges {
@@ -5165,7 +5165,7 @@ Note: The concepts in this section are only for exposition and are not part of t
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-78 "Template:cpp/synopsis/ranges")] Class template std::ranges::adjacent_transform_view::iterator
+#### Class template std::ranges::adjacent_transform_view::iterator
     
     
     namespace std::ranges {
@@ -5238,7 +5238,7 @@ Note: The concepts in this section are only for exposition and are not part of t
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-79 "Template:cpp/synopsis/ranges")] Class template std::ranges::adjacent_transform_view::sentinel
+#### Class template std::ranges::adjacent_transform_view::sentinel
     
     
     namespace std::ranges {
@@ -5278,7 +5278,7 @@ Note: The concepts in this section are only for exposition and are not part of t
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-80 "Template:cpp/synopsis/ranges")] Class template std::ranges::chunk_view for [`input_range`s](../ranges/input_range.html "cpp/ranges/input range")
+#### Class template std::ranges::chunk_view for [`input_range`s](../ranges/input_range.html "cpp/ranges/input range")
     
     
     namespace std::ranges {
@@ -5335,7 +5335,7 @@ Note: The concepts in this section are only for exposition and are not part of t
       chunk_view(R&&, range_difference_t<R>) -> chunk_view<[views::all_t](../ranges/all_view.html)<R>>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-81 "Template:cpp/synopsis/ranges")] Class template std::ranges::chunk_view::outer_iterator for [`input_range`s](../ranges/input_range.html "cpp/ranges/input range")
+#### Class template std::ranges::chunk_view::outer_iterator for [`input_range`s](../ranges/input_range.html "cpp/ranges/input range")
     
     
     namespace std::ranges {
@@ -5372,7 +5372,7 @@ Note: The concepts in this section are only for exposition and are not part of t
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-82 "Template:cpp/synopsis/ranges")] Class template std::ranges::chunk_view::outer_iterator::value_type for [`input_range`s](../ranges/input_range.html "cpp/ranges/input range")
+#### Class template std::ranges::chunk_view::outer_iterator::value_type for [`input_range`s](../ranges/input_range.html "cpp/ranges/input range")
     
     
     namespace std::ranges {
@@ -5394,7 +5394,7 @@ Note: The concepts in this section are only for exposition and are not part of t
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-83 "Template:cpp/synopsis/ranges")] Class template std::ranges::chunk_view::inner_iterator for [`input_range`s](../ranges/input_range.html "cpp/ranges/input range")
+#### Class template std::ranges::chunk_view::inner_iterator for [`input_range`s](../ranges/input_range.html "cpp/ranges/input range")
     
     
     namespace std::ranges {
@@ -5440,7 +5440,7 @@ Note: The concepts in this section are only for exposition and are not part of t
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-84 "Template:cpp/synopsis/ranges")] Class template std::ranges::chunk_view for [`forward_range`s](../ranges/forward_range.html "cpp/ranges/forward range")
+#### Class template std::ranges::chunk_view for [`forward_range`s](../ranges/forward_range.html "cpp/ranges/forward range")
     
     
     namespace std::ranges {
@@ -5515,7 +5515,7 @@ Note: The concepts in this section are only for exposition and are not part of t
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-85 "Template:cpp/synopsis/ranges")] Class template std::ranges::chunk_view::iterator for [`forward_range`s](../ranges/forward_range.html "cpp/ranges/forward range")
+#### Class template std::ranges::chunk_view::iterator for [`forward_range`s](../ranges/forward_range.html "cpp/ranges/forward range")
     
     
     namespace std::ranges {
@@ -5600,7 +5600,7 @@ Note: The concepts in this section are only for exposition and are not part of t
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-86 "Template:cpp/synopsis/ranges")] Class template std::ranges::slide_view
+#### Class template std::ranges::slide_view
     
     
     namespace std::ranges {
@@ -5665,7 +5665,7 @@ Note: The concepts in this section are only for exposition and are not part of t
       slide_view(R&&, range_difference_t<R>) -> slide_view<[views::all_t](../ranges/all_view.html)<R>>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-87 "Template:cpp/synopsis/ranges")] Class template std::ranges::slide_view::iterator
+#### Class template std::ranges::slide_view::iterator
     
     
     namespace std::ranges {
@@ -5743,7 +5743,7 @@ Note: The concepts in this section are only for exposition and are not part of t
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-88 "Template:cpp/synopsis/ranges")] Class template std::ranges::slide_view::sentinel
+#### Class template std::ranges::slide_view::sentinel
     
     
     namespace std::ranges {
@@ -5769,7 +5769,7 @@ Note: The concepts in this section are only for exposition and are not part of t
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-89 "Template:cpp/synopsis/ranges")] Class template std::ranges::chunk_by_view
+#### Class template std::ranges::chunk_by_view
     
     
     namespace std::ranges {
@@ -5810,7 +5810,7 @@ Note: The concepts in this section are only for exposition and are not part of t
       chunk_by_view(R&&, Pred) -> chunk_by_view<[views::all_t](../ranges/all_view.html)<R>, Pred>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-90 "Template:cpp/synopsis/ranges")] Class template std::ranges::chunk_by_view::iterator
+#### Class template std::ranges::chunk_by_view::iterator
     
     
     namespace std::ranges {
@@ -5848,7 +5848,7 @@ Note: The concepts in this section are only for exposition and are not part of t
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-91 "Template:cpp/synopsis/ranges")] Class template std::ranges::stride_view
+#### Class template std::ranges::stride_view
     
     
     namespace std::ranges {
@@ -5929,7 +5929,7 @@ Note: The concepts in this section are only for exposition and are not part of t
       stride_view(R&&, range_difference_t<R>) -> stride_view<[views::all_t](../ranges/all_view.html)<R>>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-92 "Template:cpp/synopsis/ranges")] Class template std::ranges::stride_view::iterator
+#### Class template std::ranges::stride_view::iterator
     
     
     namespace std::ranges {
@@ -6039,7 +6039,7 @@ Note: The concepts in this section are only for exposition and are not part of t
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-93 "Template:cpp/synopsis/ranges")] Class template std::ranges::cartesian_product_view
+#### Class template std::ranges::cartesian_product_view
     
     
     namespace std::ranges {
@@ -6123,7 +6123,7 @@ Note: The concepts in this section are only for exposition and are not part of t
       cartesian_product_view(Vs&&...) -> cartesian_product_view<[views::all_t](../ranges/all_view.html)<Vs>...>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-94 "Template:cpp/synopsis/ranges")] Class template std::ranges::cartesian_product_view::iterator
+#### Class template std::ranges::cartesian_product_view::iterator
     
     
     namespace std::ranges {
@@ -6220,7 +6220,7 @@ Note: The concepts in this section are only for exposition and are not part of t
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-95 "Template:cpp/synopsis/ranges")] Class template std::ranges::cache_latest_view
+#### Class template std::ranges::cache_latest_view
     
     
     namespace std::ranges {
@@ -6267,7 +6267,7 @@ Note: The concepts in this section are only for exposition and are not part of t
       cache_latest_view(R&&) -> cache_latest_view<[views::all_t](../ranges/all_view.html)<R>>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-96 "Template:cpp/synopsis/ranges")] Class template std::ranges::cache_latest_view::iterator
+#### Class template std::ranges::cache_latest_view::iterator
     
     
     namespace std::ranges {
@@ -6307,7 +6307,7 @@ Note: The concepts in this section are only for exposition and are not part of t
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-97 "Template:cpp/synopsis/ranges")] Class template std::ranges::cache_latest_view::sentinel
+#### Class template std::ranges::cache_latest_view::sentinel
     
     
     namespace std::ranges {
@@ -6335,7 +6335,7 @@ Note: The concepts in this section are only for exposition and are not part of t
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-98 "Template:cpp/synopsis/ranges")] Class template std::ranges::to_input_view
+#### Class template std::ranges::to_input_view
     
     
     namespace std::ranges {
@@ -6382,7 +6382,7 @@ Note: The concepts in this section are only for exposition and are not part of t
       to_input_view(R&&) -> to_input_view<[views::all_t](../ranges/all_view.html)<R>>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-99 "Template:cpp/synopsis/ranges")] Class template std::ranges::to_input_view::iterator
+#### Class template std::ranges::to_input_view::iterator
     
     
     namespace std::ranges {
@@ -6441,7 +6441,7 @@ Note: The concepts in this section are only for exposition and are not part of t
       };
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/ranges&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

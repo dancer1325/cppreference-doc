@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [Mathematical special functions](../special_math.html "cpp/numeric/special functions")
 
@@ -118,7 +118,7 @@
 [sph_legendresph_legendrefsph_legendrel](sph_legendre.html "cpp/numeric/special functions/sph legendre")  
 [sph_neumannsph_neumannfsph_neumannl](sph_neumann.html "cpp/numeric/special functions/sph neumann")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/special_functions/navbar_content&action=edit)
+
 
 Defined in header `[<cmath>](../../header/cmath.html "cpp/header/cmath")` |  |   
 ---|---|---  
@@ -154,12 +154,12 @@ A) Additional overloads are provided for all other combinations of arithmetic ty
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/special_functions/beta&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 x, y  |  \-  |  floating-point or integer values   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/special_functions/beta&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 If no errors occur, value of the beta function of x and y, that is \\(\int_{0}^{1}{ {t}^{x-1}{(1-t)}^{y-1}\mathsf{d}t}\\)∫1  
 0tx-1  
@@ -169,7 +169,7 @@ d _t_ , or, equivalently, \\(\frac{\Gamma(x)\Gamma(y)}{\Gamma(x+y)}\\)Γ(x)Γ(y)
 Γ(x+y)  
 is returned. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/special_functions/beta&action=edit&section=3 "Edit section: Error handling")] Error handling
+### Error handling
 
 Errors may be reported as specified in [math_errhandling](../math/math_errhandling.html "cpp/numeric/math/math errhandling"). 
 
@@ -178,7 +178,7 @@ Errors may be reported as specified in [math_errhandling](../math/math_errhandli
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/special_functions/beta&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 Implementations that do not support C++17, but support [ISO 29124:2010](../../experimental/special_math.html "cpp/experimental/special math"), provide this function if `__STDCPP_MATH_SPEC_FUNCS__` is defined by the implementation to a value at least 201003L and if the user defines `__STDCPP_WANT_MATH_SPEC_FUNCS__` before including any standard library headers. 
 
@@ -215,7 +215,7 @@ static_cast<float>(num2)).
 If num1 and num2 have arithmetic types, then std::beta(num1, num2) has the same effect as std::beta(static_cast</* common-floating-point-type */>(num1),  
 static_cast</* common-floating-point-type */>(num2)), where /* common-floating-point-type */ is the floating-point type with the greatest [floating-point conversion rank](../../language/usual_arithmetic_conversions.html#Floating-point_conversion_rank "cpp/language/usual arithmetic conversions") and greatest [floating-point conversion subrank](../../language/usual_arithmetic_conversions.html#Floating-point_conversion_subrank "cpp/language/usual arithmetic conversions") between the types of num1 and num2, arguments of integer type are considered to have the same floating-point conversion rank as double. If no such floating-point type with the greatest rank and subrank exists, then [overload resolution](../../language/overload_resolution.html "cpp/language/overload resolution") does not result in a usable candidate from the overloads provided.  | (since C++23)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/special_functions/beta&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -279,13 +279,13 @@ Output:
     β(p,1-p)   = 8.335989149587307836
     π/sin(π*p) = 8.335989149587307834
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/special_functions/beta&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ tgammatgammaftgammal](../math/tgamma.html "cpp/numeric/math/tgamma")(C++11)(C++11)(C++11) |  gamma function   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_tgamma&action=edit)  
+(function)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/special_functions/beta&action=edit&section=7 "Edit section: External links")] External links
+### External links
 
 [Weisstein, Eric W. "Beta Function."](https://mathworld.wolfram.com/BetaFunction.html) From MathWorld — A Wolfram Web Resource.   
 ---

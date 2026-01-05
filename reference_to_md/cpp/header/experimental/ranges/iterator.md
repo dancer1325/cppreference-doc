@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../../../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 [Experimental library headers](../../experimental.html "cpp/header/experimental")
 
@@ -292,7 +292,7 @@ Networking TS
 Reflection TS  
 [`<experimental/reflect>`](../reflect.html "cpp/header/experimental/reflect")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/experimental/navbar_content&action=edit)
+
 
 This header is part of the [ranges](../../../experimental/ranges.html "cpp/experimental/ranges") library. 
 
@@ -316,177 +316,177 @@ This header is part of the [ranges](../../../experimental/ranges.html "cpp/exper
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/ranges/iterator&action=edit&section=1 "Edit section: Iterator-related concepts")] Iterator-related concepts
+### Iterator-related concepts
 
 Defined in namespace `std::experimental::ranges`  
 ---  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/ranges/iterator&action=edit&section=2 "Edit section: Iterator concepts")] Iterator concepts
+#### Iterator concepts
 
 [ Readable](../../../experimental/ranges/iterator/Readable.html "cpp/experimental/ranges/iterator/Readable") |  specifies that a type is readable by applying operator `*`   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/iterator/dsc_Readable&action=edit)  
+(concept)   
 ---|---  
 [ Writable](../../../experimental/ranges/iterator/Writable.html "cpp/experimental/ranges/iterator/Writable") |  specifies that a value can be written to an iterator's referenced object   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/iterator/dsc_Writable&action=edit)  
+(concept)   
 [ WeaklyIncrementable](../../../experimental/ranges/iterator/WeaklyIncrementable.html "cpp/experimental/ranges/iterator/WeaklyIncrementable") |  specifies that a [`Semiregular`](../../../experimental/ranges/concepts/Semiregular.html "cpp/experimental/ranges/concepts/Semiregular") type can be incremented with pre- and post-increment operators   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/iterator/dsc_WeaklyIncrementable&action=edit)  
+(concept)   
 [ Incrementable](../../../experimental/ranges/iterator/Incrementable.html "cpp/experimental/ranges/iterator/Incrementable") |  specifies that the increment operation on a [`WeaklyIncrementable`](../../../experimental/ranges/iterator/WeaklyIncrementable.html "cpp/experimental/ranges/iterator/WeaklyIncrementable") type is equality-preserving and that the type is [`EqualityComparable`](../../../experimental/ranges/concepts/EqualityComparable.html "cpp/experimental/ranges/concepts/EqualityComparable")   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/iterator/dsc_Incrementable&action=edit)  
+(concept)   
 [ Iterator](../../../experimental/ranges/iterator/Iterator.html "cpp/experimental/ranges/iterator/Iterator") |  specifies that objects of a type can be incremented and dereferenced   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/iterator/dsc_Iterator&action=edit)  
+(concept)   
 [ Sentinel](../../../experimental/ranges/iterator/Sentinel.html "cpp/experimental/ranges/iterator/Sentinel") |  specifies that objects of a type is a sentinel for an [`Iterator`](../../../experimental/ranges/iterator/Iterator.html "cpp/experimental/ranges/iterator/Iterator") type   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/iterator/dsc_Sentinel&action=edit)  
+(concept)   
 [ SizedSentinel](../../../experimental/ranges/iterator/SizedSentinel.html "cpp/experimental/ranges/iterator/SizedSentinel") |  specifies that the `-` operator can be applied to an iterator and a sentinel to calculate their difference in constant time   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/iterator/dsc_SizedSentinel&action=edit)  
+(concept)   
 [ InputIterator](../../../experimental/ranges/iterator/InputIterator.html "cpp/experimental/ranges/iterator/InputIterator") |  specifies that a type is an input iterator, that is, its referenced values can be read and it can be both pre- and post-incremented   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/iterator/dsc_InputIterator&action=edit)  
+(concept)   
 [ OutputIterator](../../../experimental/ranges/iterator/OutputIterator.html "cpp/experimental/ranges/iterator/OutputIterator") |  specifies that a type is an output iterator for a given value type, that is, values of that type can be written to it and it can be both pre- and post-incremented   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/iterator/dsc_OutputIterator&action=edit)  
+(concept)   
 [ ForwardIterator](../../../experimental/ranges/iterator/ForwardIterator.html "cpp/experimental/ranges/iterator/ForwardIterator") |  specifies that an [`InputIterator`](../../../experimental/ranges/iterator/InputIterator.html "cpp/experimental/ranges/iterator/InputIterator") is a forward iterator, supporting equality comparison and multi-pass   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/iterator/dsc_ForwardIterator&action=edit)  
+(concept)   
 [ BidirectionalIterator](../../../experimental/ranges/iterator/BidirectionalIterator.html "cpp/experimental/ranges/iterator/BidirectionalIterator") |  specifies that a [`ForwardIterator`](../../../experimental/ranges/iterator/ForwardIterator.html "cpp/experimental/ranges/iterator/ForwardIterator") is a bidirectional iterator, supporting movement backwards   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/iterator/dsc_BidirectionalIterator&action=edit)  
+(concept)   
 [ RandomAccessIterator](../../../experimental/ranges/iterator/RandomAccessIterator.html "cpp/experimental/ranges/iterator/RandomAccessIterator") |  specifies that a [`BidirectionalIterator`](../../../experimental/ranges/iterator/BidirectionalIterator.html "cpp/experimental/ranges/iterator/BidirectionalIterator") is a random-access iterator, supporting advancement in constant time and subscripting   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/iterator/dsc_RandomAccessIterator&action=edit)  
+(concept)   
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/ranges/iterator&action=edit&section=3 "Edit section: Indirect callable concepts")] Indirect callable concepts
+#### Indirect callable concepts
 
 [ IndirectUnaryInvocableIndirectRegularUnaryInvocable](../../../experimental/ranges/iterator/IndirectUnaryInvocable.html "cpp/experimental/ranges/iterator/IndirectUnaryInvocable") |  specifies that a callable type can be invoked with the result of dereferencing a [`Readable`](../../../experimental/ranges/iterator/Readable.html "cpp/experimental/ranges/iterator/Readable") type   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/iterator/dsc_IndirectUnaryInvocable&action=edit)  
+(concept)   
 ---|---  
 [ IndirectUnaryPredicate](../../../experimental/ranges/iterator/IndirectUnaryPredicate.html "cpp/experimental/ranges/iterator/IndirectUnaryPredicate") |  specifies that a callable object, when invoked with the result of dereferencing a [`Readable`](../../../experimental/ranges/iterator/Readable.html "cpp/experimental/ranges/iterator/Readable") type, satisfies [`Predicate`](../../../experimental/ranges/concepts/Predicate.html "cpp/experimental/ranges/concepts/Predicate")   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/iterator/dsc_IndirectUnaryPredicate&action=edit)  
+(concept)   
 [ IndirectRelation](../../../experimental/ranges/iterator/IndirectRelation.html "cpp/experimental/ranges/iterator/IndirectRelation") |  specifies that a callable object, when invoked with the result of dereferencing some [`Readable`](../../../experimental/ranges/iterator/Readable.html "cpp/experimental/ranges/iterator/Readable") types, satisfies [`Relation`](../../../experimental/ranges/concepts/Relation.html "cpp/experimental/ranges/concepts/Relation")   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/iterator/dsc_IndirectRelation&action=edit)  
+(concept)   
 [ IndirectStrictWeakOrder](../../../experimental/ranges/iterator/IndirectStrictWeakOrder.html "cpp/experimental/ranges/iterator/IndirectStrictWeakOrder") |  specifies that a callable object, when invoked with the result of dereferencing some [`Readable`](../../../experimental/ranges/iterator/Readable.html "cpp/experimental/ranges/iterator/Readable") types, satisfies [`StrictWeakOrder`](../../../experimental/ranges/concepts/StrictWeakOrder.html "cpp/experimental/ranges/concepts/StrictWeakOrder")   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/iterator/dsc_IndirectStrictWeakOrder&action=edit)  
+(concept)   
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/ranges/iterator&action=edit&section=4 "Edit section: Common algorithm requirements")] Common algorithm requirements
+#### Common algorithm requirements
 
 [ IndirectlyMovable](../../../experimental/ranges/iterator/IndirectlyMovable.html "cpp/experimental/ranges/iterator/IndirectlyMovable") |  specifies that values may be moved from a [`Readable`](../../../experimental/ranges/iterator/Readable.html "cpp/experimental/ranges/iterator/Readable") type to a [`Writable`](../../../experimental/ranges/iterator/Writable.html "cpp/experimental/ranges/iterator/Writable") type   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/iterator/dsc_IndirectlyMovable&action=edit)  
+(concept)   
 ---|---  
 [ IndirectlyMovableStorable](../../../experimental/ranges/iterator/IndirectlyMovableStorable.html "cpp/experimental/ranges/iterator/IndirectlyMovableStorable") |  specifies that values may be moved from a [`Readable`](../../../experimental/ranges/iterator/Readable.html "cpp/experimental/ranges/iterator/Readable") type to a [`Writable`](../../../experimental/ranges/iterator/Writable.html "cpp/experimental/ranges/iterator/Writable") type and that the move may be performed via an intermediate object   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/iterator/dsc_IndirectlyMovableStorable&action=edit)  
+(concept)   
 [ IndirectlyCopyable](../../../experimental/ranges/iterator/IndirectlyCopyable.html "cpp/experimental/ranges/iterator/IndirectlyCopyable") |  specifies that values may be copied from a [`Readable`](../../../experimental/ranges/iterator/Readable.html "cpp/experimental/ranges/iterator/Readable") type to a [`Writable`](../../../experimental/ranges/iterator/Writable.html "cpp/experimental/ranges/iterator/Writable") type   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/iterator/dsc_IndirectlyCopyable&action=edit)  
+(concept)   
 [ IndirectlyCopyableStorable](../../../experimental/ranges/iterator/IndirectlyCopyableStorable.html "cpp/experimental/ranges/iterator/IndirectlyCopyableStorable") |  specifies that values may be copied from a [`Readable`](../../../experimental/ranges/iterator/Readable.html "cpp/experimental/ranges/iterator/Readable") type to a [`Writable`](../../../experimental/ranges/iterator/Writable.html "cpp/experimental/ranges/iterator/Writable") type and that the copy may be performed via an intermediate object   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/iterator/dsc_IndirectlyCopyableStorable&action=edit)  
+(concept)   
 [ IndirectlySwappable](../../../experimental/ranges/iterator/IndirectlySwappable.html "cpp/experimental/ranges/iterator/IndirectlySwappable") |  specifies that the values referenced by two [`Readable`](../../../experimental/ranges/iterator/Readable.html "cpp/experimental/ranges/iterator/Readable") types can be swapped   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/iterator/dsc_IndirectlySwappable&action=edit)  
+(concept)   
 [ IndirectlyComparable](../../../experimental/ranges/iterator/IndirectlyComparable.html "cpp/experimental/ranges/iterator/IndirectlyComparable") |  specifies that the values referenced by two [`Readable`](../../../experimental/ranges/iterator/Readable.html "cpp/experimental/ranges/iterator/Readable") types can be compared   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/iterator/dsc_IndirectlyComparable&action=edit)  
+(concept)   
 [ Permutable](../../../experimental/ranges/iterator/Permutable.html "cpp/experimental/ranges/iterator/Permutable") |  specifies the common requirements of algorithms that reorder elements in place   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/iterator/dsc_Permutable&action=edit)  
+(concept)   
 [ Mergeable](../../../experimental/ranges/iterator/Mergeable.html "cpp/experimental/ranges/iterator/Mergeable") |  specifies the requirements of algorithms that merge sorted sequences into an output sequence by copying elements   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/iterator/dsc_Mergeable&action=edit)  
+(concept)   
 [ Sortable](../../../experimental/ranges/iterator/Sortable.html "cpp/experimental/ranges/iterator/Sortable") |  specifies the common requirements of algorithms that permute sequences into ordered sequences   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/iterator/dsc_Sortable&action=edit)  
+(concept)   
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/ranges/iterator&action=edit&section=5 "Edit section: Concept utilities")] Concept utilities
+#### Concept utilities
 
 [ indirect_result_of](../../../experimental/ranges/iterator/indirect_result_of.html "cpp/experimental/ranges/iterator/indirect result of") |  compute the result of invoking a callable object on the result of dereferencing some set of [`Readable`](../../../experimental/ranges/iterator/Readable.html "cpp/experimental/ranges/iterator/Readable") types   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/iterator/dsc_indirect_result_of&action=edit)  
+(class template)   
 ---|---  
 [ projected](../../../experimental/ranges/iterator/projected.html "cpp/experimental/ranges/iterator/projected") |  helper template for specifying the constraints on algorithms that accept projections   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/iterator/dsc_projected&action=edit)  
+(class template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/ranges/iterator&action=edit&section=6 "Edit section: Iterator primitives")] Iterator primitives
+### Iterator primitives
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/ranges/iterator&action=edit&section=7 "Edit section: Iterator utilities")] Iterator utilities
+#### Iterator utilities
 
 Defined in namespace `std::experimental::ranges`  
 ---  
 [ iter_move](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/iterator/iter_move&action=edit&redlink=1 "cpp/experimental/ranges/iterator/iter move \(page does not exist\)") |  casts the result of dereferencing an object to its associated rvalue reference type  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/iterator/dsc_iter_move&action=edit)  
+(customization point object)  
 [ iter_swap](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/iterator/iter_swap&action=edit&redlink=1 "cpp/experimental/ranges/iterator/iter swap \(page does not exist\)") |  swap the values referenced by two dereferenceable objects  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/iterator/dsc_iter_swap&action=edit)  
+(customization point object)  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/ranges/iterator&action=edit&section=8 "Edit section: Iterator traits")] Iterator traits
+#### Iterator traits
 
 Defined in namespace `std::experimental::ranges`  
 ---  
 [ difference_type](../../../experimental/ranges/iterator/difference_type.html "cpp/experimental/ranges/iterator/difference type") |  obtains the difference type of a [`WeaklyIncrementable`](../../../experimental/ranges/iterator/WeaklyIncrementable.html "cpp/experimental/ranges/iterator/WeaklyIncrementable") type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/iterator/dsc_difference_type&action=edit)  
+(class template)   
 [ value_type](../../../experimental/ranges/iterator/value_type.html "cpp/experimental/ranges/iterator/value type") |  obtains the value type of a [`Readable`](../../../experimental/ranges/iterator/Readable.html "cpp/experimental/ranges/iterator/Readable") type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/iterator/dsc_value_type&action=edit)  
+(class template)   
 [ iterator_category](../../../experimental/ranges/iterator/iterator_category.html "cpp/experimental/ranges/iterator/iterator category") |  obtains the iterator category of an input iterator type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/iterator/dsc_iterator_category&action=edit)  
+(class template)   
 [ iterator_traits](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/iterator/iterator_traits&action=edit&redlink=1 "cpp/experimental/ranges/iterator/iterator traits \(page does not exist\)") |  compatibility traits class that collects an iterator’s associated types  
-(alias template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/iterator/dsc_iterator_traits&action=edit)  
+(alias template)  
 [ reference_trvalue_reference_titer_common_reference_t](../../../experimental/ranges/iterator/reference_t.html "cpp/experimental/ranges/iterator/reference t") |  obtains a dereferenceable object's associated reference types  
-(alias template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/iterator/dsc_reference_t&action=edit)  
+(alias template)  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/ranges/iterator&action=edit&section=9 "Edit section: Iterator category tags")] Iterator category tags
+#### Iterator category tags
 
 Defined in namespace `std::experimental::ranges`  
 ---  
 [ input_iterator_tagoutput_iterator_tagforward_iterator_tagbidirectional_iterator_tagrandom_access_iterator_tag](../../../experimental/ranges/iterator/iterator_tags.html "cpp/experimental/ranges/iterator/iterator tags") |  empty class types used to indicate iterator categories   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/iterator/dsc_iterator_tags&action=edit)  
+(class)   
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/ranges/iterator&action=edit&section=10 "Edit section: std::iterator traits specializations")] [std::iterator_traits](../../../iterator/iterator_traits.html "cpp/iterator/iterator traits") specializations
+#### [std::iterator_traits](../../../iterator/iterator_traits.html "cpp/iterator/iterator traits") specializations
 
 Defined in namespace `std`  
 ---  
 [ std::iterator_traits<InputIterator>std::iterator_traits<OutputIterator>](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/iterator/std_iter_traits&action=edit&redlink=1 "cpp/experimental/ranges/iterator/std iter traits \(page does not exist\)") |  specializes [std::iterator_traits](../../../iterator/iterator_traits.html "cpp/iterator/iterator traits") for ranges TS iterators   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/iterator/dsc_std_iter_traits&action=edit)  
+(class template specialization)   
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/ranges/iterator&action=edit&section=11 "Edit section: Iterator operations")] Iterator operations
+#### Iterator operations
 
 Defined in namespace `std::experimental::ranges`  
 ---  
 [ advance](../../../experimental/ranges/iterator/advance.html "cpp/experimental/ranges/iterator/advance") |  advances an iterator by given distance   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/iterator/dsc_advance&action=edit)  
+(function template)   
 [ distance](../../../experimental/ranges/iterator/distance.html "cpp/experimental/ranges/iterator/distance") |  returns the distance between an iterator and a sentinel, or between the beginning and the end of a range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/iterator/dsc_distance&action=edit)  
+(function template)   
 [ next](../../../experimental/ranges/iterator/next.html "cpp/experimental/ranges/iterator/next") |  increment an iterator   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/iterator/dsc_next&action=edit)  
+(function template)   
 [ prev](../../../experimental/ranges/iterator/prev.html "cpp/experimental/ranges/iterator/prev") |  decrement an iterator   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/iterator/dsc_prev&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/ranges/iterator&action=edit&section=12 "Edit section: Iterator adaptors")] Iterator adaptors
+### Iterator adaptors
 
 Defined in namespace `std::experimental::ranges`  
 ---  
 [ reverse_iterator](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/iterator/reverse_iterator&action=edit&redlink=1 "cpp/experimental/ranges/iterator/reverse iterator \(page does not exist\)") |  iterator adaptor for reverse-order traversal   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/iterator/dsc_reverse_iterator&action=edit)  
+(class template)   
 [ back_insert_iterator](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/iterator/back_insert_iterator&action=edit&redlink=1 "cpp/experimental/ranges/iterator/back insert iterator \(page does not exist\)") |  iterator adaptor for insertion at the end of a container   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/iterator/dsc_back_insert_iterator&action=edit)  
+(class template)   
 [ front_insert_iterator](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/iterator/front_insert_iterator&action=edit&redlink=1 "cpp/experimental/ranges/iterator/front insert iterator \(page does not exist\)") |  iterator adaptor for insertion at the front of a container   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/iterator/dsc_front_insert_iterator&action=edit)  
+(class template)   
 [ insert_iterator](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/iterator/insert_iterator&action=edit&redlink=1 "cpp/experimental/ranges/iterator/insert iterator \(page does not exist\)") |  iterator adaptor for insertion into a container   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/iterator/dsc_insert_iterator&action=edit)  
+(class template)   
 [ move_iterator](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/iterator/move_iterator&action=edit&redlink=1 "cpp/experimental/ranges/iterator/move iterator \(page does not exist\)") |  iterator adaptor which dereferences to an rvalue reference   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/iterator/dsc_move_iterator&action=edit)  
+(class template)   
 [ move_sentinel](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/iterator/move_sentinel&action=edit&redlink=1 "cpp/experimental/ranges/iterator/move sentinel \(page does not exist\)") |  sentinel adaptor for use with `move_iterator`   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/iterator/dsc_move_sentinel&action=edit)  
+(class template)   
 [ common_iterator](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/iterator/common_iterator&action=edit&redlink=1 "cpp/experimental/ranges/iterator/common iterator \(page does not exist\)") |  adapt an iterator-sentinel pair into a common iterator type for use with legacy algorithms   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/iterator/dsc_common_iterator&action=edit)  
+(class template)   
 [ counted_iterator](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/iterator/counted_iterator&action=edit&redlink=1 "cpp/experimental/ranges/iterator/counted iterator \(page does not exist\)") |  iterator adaptor that keeps track of its distance from its starting position   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/iterator/dsc_counted_iterator&action=edit)  
+(class template)   
 [ default_sentinel](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/iterator/default_sentinel&action=edit&redlink=1 "cpp/experimental/ranges/iterator/default sentinel \(page does not exist\)") |  empty sentinel type for use with iterator types that know the bound of their range   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/iterator/dsc_default_sentinel&action=edit)  
+(class)   
 [ dangling](../../../experimental/ranges/iterator/dangling.html "cpp/experimental/ranges/iterator/dangling") |  wrapper for a possibly dangling iterator   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/iterator/dsc_dangling&action=edit)  
+(class template)   
 [ safe_iterator_t](../../../experimental/ranges/iterator/dangling.html "cpp/experimental/ranges/iterator/dangling") |  alias template that wraps the iterator type of an rvalue range with `dangling`  
-(alias template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/iterator/dsc_safe_iterator_t&action=edit)  
+(alias template)  
 [ unreachable](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/iterator/unreachable&action=edit&redlink=1 "cpp/experimental/ranges/iterator/unreachable \(page does not exist\)") |  sentinel type used with any iterator to denote an infinite range   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/iterator/dsc_unreachable&action=edit)  
+(class)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/ranges/iterator&action=edit&section=13 "Edit section: Stream iterators")] Stream iterators
+### Stream iterators
 
 Defined in namespace `std::experimental::ranges`  
 ---  
 [ istream_iterator](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/iterator/istream_iterator&action=edit&redlink=1 "cpp/experimental/ranges/iterator/istream iterator \(page does not exist\)") |  input iterator that reads from [std::basic_istream](../../../io/basic_istream.html "cpp/io/basic istream")   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/iterator/dsc_istream_iterator&action=edit)  
+(class template)   
 [ ostream_iterator](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/iterator/ostream_iterator&action=edit&redlink=1 "cpp/experimental/ranges/iterator/ostream iterator \(page does not exist\)") |  output iterator that writes to [std::basic_ostream](../../../io/basic_ostream.html "cpp/io/basic ostream")   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/iterator/dsc_ostream_iterator&action=edit)  
+(class template)   
 [ istreambuf_iterator](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/iterator/istreambuf_iterator&action=edit&redlink=1 "cpp/experimental/ranges/iterator/istreambuf iterator \(page does not exist\)") |  input iterator that reads from [std::basic_streambuf](../../../io/basic_streambuf.html "cpp/io/basic streambuf")   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/iterator/dsc_istreambuf_iterator&action=edit)  
+(class template)   
 [ ostreambuf_iterator](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/iterator/ostreambuf_iterator&action=edit&redlink=1 "cpp/experimental/ranges/iterator/ostreambuf iterator \(page does not exist\)") |  output iterator that writes to [std::basic_streambuf](../../../io/basic_streambuf.html "cpp/io/basic streambuf")   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/iterator/dsc_ostreambuf_iterator&action=edit)  
+(class template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/ranges/iterator&action=edit&section=14 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     namespace std { namespace experimental { namespace ranges { inline namespace v1 {

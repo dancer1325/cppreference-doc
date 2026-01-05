@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 Defined in header `[<memory>](../header/memory.html "cpp/header/memory")` |  |   
 ---|---|---  
@@ -239,7 +239,7 @@ The default operator< is not defined for weak pointers, and may wrongly consider
 The standard library provides a specialization of `std::owner_less` when `T` is not specified. In this case, the parameter types are deduced from the arguments (each of which must still be either a [std::shared_ptr](shared_ptr.html "cpp/memory/shared ptr") or a [std::weak_ptr](weak_ptr.html "cpp/memory/weak ptr")). 
 
 [ owner_less<void>](owner_less_void.html "cpp/memory/owner less void") |  function object providing mixed-type owner-based ordering of shared and weak pointers, regardless of the type of the pointee   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_owner_less_void&action=edit)  
+(class template specialization)   
 ---|---  
 (since C++17)  
   
@@ -257,7 +257,7 @@ The standard library provides a specialization of `std::owner_less` when `T` is 
 (3) [std::weak_ptr](weak_ptr.html)<T>  
 (until C++20)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/owner_less&action=edit&section=3 "Edit section: Member functions")] Member functions
+### Member functions
 
 ** operator()** |  compares its arguments using owner-based semantics   
 (function)  
@@ -294,7 +294,7 @@ lhs, rhs  |  \-  |  shared-ownership pointers to compare
 
 true if lhs is _less than_ rhs as determined by the owner-based ordering, false otherwise. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/owner_less&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -302,10 +302,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 2873](https://cplusplus.github.io/LWG/issue2873) | C++11  | operator() was not required to be noexcept  | required to be noexcept   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/owner_less&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ owner_before](shared_ptr/owner_before.html "cpp/memory/shared ptr/owner before") |  provides owner-based ordering of shared pointers   
-(public member function of `std::shared_ptr<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/dsc_owner_before&action=edit)  
+(public member function of `std::shared_ptr<T>`)   
 ---|---  
 [ owner_before](weak_ptr/owner_before.html "cpp/memory/weak ptr/owner before") |  provides owner-based ordering of weak pointers   
-(public member function of `std::weak_ptr<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/weak_ptr/dsc_owner_before&action=edit)
+(public member function of `std::weak_ptr<T>`) 

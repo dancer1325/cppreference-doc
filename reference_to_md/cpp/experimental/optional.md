@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Library fundamentals](memory.html "cpp/experimental/lib extensions")
 
@@ -75,7 +75,7 @@
 [Type-erased and polymorphic allocators](memory.html "cpp/experimental/memory")  
 [Variable templates for type traits](type_trait_variable_templates.html "cpp/experimental/type trait variable templates")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions/navbar_content&action=edit)
+
 
 **`std::experimental::optional`**
 
@@ -105,7 +105,7 @@ Helper objects
 [nullopt](optional/nullopt.html "cpp/experimental/optional/nullopt")  
 [in_place](optional/in_place.html "cpp/experimental/optional/in place")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/optional/navbar_content&action=edit)
+
 
 ![](https://upload.cppreference.com/mwiki/images/3/31/Imbox_notice.png) |  **Merged into ISO C++** The functionality described on this page was merged into the mainline ISO C++ standard as of 3/2016, see [`std::optional`](../utility/optional.html "cpp/utility/optional") (since C++17)  
 ---|---  
@@ -155,77 +155,77 @@ The object _does not contain a value_ in the following conditions:
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/optional&action=edit&section=1 "Edit section: Template parameters")] Template parameters
+### Template parameters
 
 T  |  \-  |  the type of the value to manage initialization state for. The type must meet the requirements of [Destructible](../named_req/Destructible.html "cpp/named req/Destructible").   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/optional&action=edit&section=2 "Edit section: Member types")] Member types
+### Member types
 
 Member type  |  Definition   
 ---|---  
 `value_type` |  `T`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/optional&action=edit&section=3 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](optional/optional.html "cpp/experimental/optional/optional") |  constructs the optional object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/optional/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ (destructor)](optional/~optional.html "cpp/experimental/optional/~optional") |  destroys the contained value, if there is one   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/optional/dsc_destructor&action=edit)  
+(public member function)   
 [ operator=](optional/operator=.html "cpp/experimental/optional/operator=") |  assigns contents   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/optional/dsc_operator%3D&action=edit)  
+(public member function)   
   
 #####  Observers   
   
 [ operator->operator*](optional/operator*.html "cpp/experimental/optional/operator*") |  accesses the contained value   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/optional/dsc_operator*&action=edit)  
+(public member function)   
 [ operator bool](optional/operator_bool.html "cpp/experimental/optional/operator bool") |  checks whether the object contains a value   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/optional/dsc_operator_bool&action=edit)  
+(public member function)   
 [ value](optional/value.html "cpp/experimental/optional/value") |  returns the contained value   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/optional/dsc_value&action=edit)  
+(public member function)   
 [ value_or](optional/value_or.html "cpp/experimental/optional/value or") |  returns the contained value if available, another value otherwise   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/optional/dsc_value_or&action=edit)  
+(public member function)   
   
 #####  Modifiers   
   
 [ swap](optional/swap.html "cpp/experimental/optional/swap") |  exchanges the contents   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/optional/dsc_swap&action=edit)  
+(public member function)   
 [ emplace](optional/emplace.html "cpp/experimental/optional/emplace") |  constructs the contained value in-place   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/optional/dsc_emplace&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/optional&action=edit&section=4 "Edit section: Member objects")] Member objects
+### Member objects
 
 Member name  |  Definition   
 ---|---  
 `val` (private) |  pointer to the contained value (which points at a data member of the same object), the name is for exposition only   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/optional&action=edit&section=5 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ operator==operator!=operator<operator<=operator>operator>=](optional/operator_cmp.html "cpp/experimental/optional/operator cmp") |  compares `optional` objects   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/optional/dsc_operator_cmp&action=edit)  
+(function template)   
 ---|---  
 [ make_optional](optional/make_optional.html "cpp/experimental/optional/make optional") |  creates an `optional` object   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/optional/dsc_make_optional&action=edit)  
+(function template)   
 [ std::swap(std::experimental::optional)](optional/swap2.html "cpp/experimental/optional/swap2") |  specializes the [std::swap](../utility/swap.html "cpp/algorithm/swap") algorithm   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/optional/dsc_swap2&action=edit)  
+(function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/optional&action=edit&section=6 "Edit section: Helper classes")] Helper classes
+### Helper classes
 
 [ std::hash<std::experimental::optional>](optional/hash.html "cpp/experimental/optional/hash") |  specializes the [std::hash](../utility/hash.html "cpp/utility/hash") algorithm   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/optional/dsc_hash&action=edit)  
+(class template specialization)   
 ---|---  
 [ nullopt_t](optional/nullopt_t.html "cpp/experimental/optional/nullopt t")(library fundamentals TS) |  indicator of optional type with uninitialized state   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/optional/dsc_nullopt_t&action=edit)  
+(class)   
 [ in_place_t](optional/in_place_t.html "cpp/experimental/optional/in place t")(library fundamentals TS) |  disambiguation tag type for in-place construction of optional types   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/optional/dsc_in_place_t&action=edit)  
+(class)   
 [ bad_optional_access](optional/bad_optional_access.html "cpp/experimental/optional/bad optional access")(library fundamentals TS) |  exception indicating checked access to an optional that doesn't contain a value   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/optional/dsc_bad_optional_access&action=edit)  
+(class)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/optional&action=edit&section=7 "Edit section: Helper objects")] Helper objects
+### Helper objects
 
 [ nullopt](optional/nullopt.html "cpp/experimental/optional/nullopt")(library fundamentals TS) |  an object of type `nullopt_t`   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/optional/dsc_nullopt&action=edit)  
+(function)   
 ---|---  
 [ in_place](optional/in_place.html "cpp/experimental/optional/in place")(library fundamentals TS) |  an object of type [std::experimental::in_place_t](optional/in_place_t.html)   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/optional/dsc_in_place&action=edit)
+(function) 

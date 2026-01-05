@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::duration`](../duration.html "cpp/chrono/duration")
 
@@ -156,7 +156,7 @@ Helper classes
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/duration/navbar_content&action=edit)
+
 
 Defined in header `[<chrono>](../../header/chrono.html "cpp/header/chrono")` |  |   
 ---|---|---  
@@ -177,17 +177,17 @@ Exposes the type named `type`, which is the common type of two [std::chrono::dur
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/duration/common_type&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Member type  |  Definition   
 ---|---  
 `type` |  [std::chrono::duration](../duration.html)<typename [std::common_type](../../types/common_type.html)<Rep1, Rep2>::type, /* see note */>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/duration/common_type&action=edit&section=2 "Edit section: Note")] Note
+### Note
 
 The period of the resulting duration can be computed by forming a ratio of the greatest common divisor of Period1::num and Period2::num and the least common multiple of Period1::den and Period2::den. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/duration/common_type&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -224,10 +224,10 @@ Output:
     
     30ms - 1100us = 28900us
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/duration/common_type&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ std::common_type<std::chrono::time_point>](../time_point/common_type.html "cpp/chrono/time point/common type")(C++11) |  specializes the [std::common_type](../../types/common_type.html "cpp/types/common type") trait   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_point/dsc_common_type&action=edit)  
+(class template specialization)   
 ---|---  
 [ common_type](../../types/common_type.html "cpp/types/common type")(C++11) |  determines the common type of a group of types   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_common_type&action=edit)
+(class template) 

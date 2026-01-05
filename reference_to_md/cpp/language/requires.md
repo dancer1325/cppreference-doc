@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [Declarations](declarations.html "cpp/language/declarations")
 
@@ -280,7 +280,7 @@ Other declarations
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/declarations/navbar_content&action=edit)
+
 
 [ Expressions](expressions.html "cpp/language/expressions")
 
@@ -349,7 +349,7 @@ Conversions
 [`dynamic_cast`](dynamic_cast.html "cpp/language/dynamic cast")  
 [`reinterpret_cast`](reinterpret_cast.html "cpp/language/reinterpret cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/expressions/navbar_content&action=edit)
+
 
 [ Templates](templates.html "cpp/language/templates")
 
@@ -373,7 +373,7 @@ Conversions
 [Constraints and concepts](constraints.html "cpp/language/constraints") (C++20)  
 **requires expression** (C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/templates/navbar_content&action=edit)
+
 
 Yields a prvalue expression of type bool that describes the constraints. 
 
@@ -395,7 +395,7 @@ Yields a prvalue expression of type bool that describes the constraints.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/requires&action=edit&section=1 "Edit section: Syntax")] Syntax  
+### Syntax  
   
 ---  
 `**requires**` `**{**` requirement-seq `**}**` |  (1)  |   
@@ -411,7 +411,7 @@ requirement-seq |  \-  |  sequence of _requirements_ , each requirement is one o
 
   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/requires&action=edit&section=2 "Edit section: Explanation")] Explanation
+### Explanation
 
 Requirements may refer to the template parameters that are in scope, to the parameters of parameter-list, and to any other declarations that are visible from the enclosing context. 
 
@@ -428,7 +428,7 @@ If a substitution failure would occur in a requires expression for every possibl
 
 If a requires expression contains invalid types or expressions in its requirements, and it does not appear within the declaration of a [templated entity](templates.html#Templated_entity "cpp/language/templates"), then the program is ill-formed. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/requires&action=edit&section=3 "Edit section: Local parameters")] Local parameters
+### Local parameters
 
 A requires expression can introduce local parameters using a [parameter list](function.html#Parameter_list "cpp/language/function"). These parameters have no linkage, storage, or lifetime; they are only used as notation for the purpose of defining requirements. 
 
@@ -461,7 +461,7 @@ If any of the following conditions is satisfied, the program is ill-formed:
         t;
     };
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/requires&action=edit&section=4 "Edit section: Simple requirements")] Simple requirements  
+### Simple requirements  
   
 ---  
 expression `**;**` |  |   
@@ -487,7 +487,7 @@ A simple requirement asserts that expression is valid. expression is an [unevalu
 
 A requirement that starts with the keyword requires is always interpreted as a nested requirement. Thus a simple requirement cannot start with an unparenthesized requires expression. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/requires&action=edit&section=5 "Edit section: Type requirements")] Type requirements  
+### Type requirements  
   
 ---  
 `**typename**` identifier `**;**` |  |   
@@ -520,7 +520,7 @@ A type requirement asserts that the type named by identifier is valid: this can 
         { CommonType<T, U>{[std::forward](../utility/forward.html)<U>(u)} }; 
     };
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/requires&action=edit&section=6 "Edit section: Compound requirements")] Compound requirements  
+### Compound requirements  
   
 ---  
 `**{**` expression `**};**` |  (1)  |   
@@ -565,7 +565,7 @@ expression is an [unevaluated operand](expressions.html#Potentially-evaluated_ex
         {x * 1} -> [std::convertible_to](../concepts/convertible_to.html)<T>;
     };
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/requires&action=edit&section=7 "Edit section: Nested requirements")] Nested requirements  
+### Nested requirements  
   
 ---  
 `**requires**` constraint-expression `**;**` |  |   
@@ -589,7 +589,7 @@ A nested requirement can be used to specify additional constraints in terms of l
         { delete new T[n] }; // compound
     };
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/requires&action=edit&section=8 "Edit section: Note")] Note
+### Note
 
 The keyword requires is also used to introduce [requires clauses](constraints.html#Requires_clauses "cpp/language/constraints"). 
     
@@ -604,11 +604,11 @@ The keyword requires is also used to introduce [requires clauses](constraints.ht
         requires requires (T x) { x + x; } // ad-hoc constraint, note keyword used twice
     T add(T a, T b) { return a + b; }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/requires&action=edit&section=9 "Edit section: Keywords")] Keywords
+### Keywords
 
 [`requires`](../keyword/requires.html "cpp/keyword/requires")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/requires&action=edit&section=10 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -619,7 +619,7 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 expressions were unevaluated operands  | only some  
 expressions are   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/requires&action=edit&section=11 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -641,7 +641,7 @@ expressions are
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/requires&action=edit&section=12 "Edit section: See also")] See also
+### See also
 
-[ Constraints and concepts](constraints.html "cpp/language/constraints")(C++20) |  specifies the requirements on template arguments[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_constraints&action=edit)  
+[ Constraints and concepts](constraints.html "cpp/language/constraints")(C++20) |  specifies the requirements on template arguments  
 ---|---

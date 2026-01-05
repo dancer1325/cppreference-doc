@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Filesystem library](../../filesystem.html "cpp/filesystem")
 
@@ -100,7 +100,7 @@ filesystem::symlink_status](../status.html "cpp/filesystem/status")
 [filesystem::is_socket](../is_socket.html "cpp/filesystem/is socket")  
 [filesystem::is_symlink](../is_symlink.html "cpp/filesystem/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/navbar_content&action=edit)
+
 
 [`std::filesystem::directory_entry`](../directory_entry.html "cpp/filesystem/directory entry")
 
@@ -131,7 +131,7 @@ Observers
 Non-member functions  
 [operator<<](operator_ltlt.html "cpp/filesystem/directory entry/operator ltlt")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/directory_entry/navbar_content&action=edit)
+
 
 [std::filesystem::file_time_type](../file_time_type.html) last_write_time() const; |  (1)  |  (since C++17)  
 ---|---|---  
@@ -155,16 +155,16 @@ If the last modification time is cached in this [`directory_entry`](directory_en
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/directory_entry/last_write_time&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 ec  |  \-  |  out-parameter for error reporting in the non-throwing overload   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/directory_entry/last_write_time&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The last modification time for the referred-to filesystem object. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/directory_entry/last_write_time&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Any overload not marked `noexcept` may throw [std::bad_alloc](../../memory/new/bad_alloc.html "cpp/memory/new/bad alloc") if memory allocation fails.  
 
@@ -173,7 +173,7 @@ Any overload not marked `noexcept` may throw [std::bad_alloc](../../memory/new/b
 
 2) Sets a [std::error_code](../../error/error_code.html)& parameter to the OS API error code if an OS API call fails, and executes ec.[`clear`](../../error/error_code/clear.html "cpp/error/error code/clear")() if no errors occur.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/directory_entry/last_write_time&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -213,8 +213,8 @@ Possible output:
     Wed Sep  6 13:37:13.960314156 2023 : "main.cpp"
     Wed Sep  6 13:37:42.690271828 2023 : "a.out"
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/directory_entry/last_write_time&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ last_write_time](../last_write_time.html "cpp/filesystem/last write time")(C++17) |  gets or sets the time of the last data modification   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_last_write_time&action=edit)  
+(function)   
 ---|---

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 | 
 
@@ -213,9 +213,9 @@
 ###  Classes  
   
 [ generator](../coroutine/generator.html "cpp/coroutine/generator")(C++23) |  A [`view`](../ranges/view.html "cpp/ranges/view") that represents synchronous [coroutine](../language/coroutines.html "cpp/language/coroutines") generator   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_generator&action=edit)  
+(class template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/generator&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     namespace std {
@@ -229,7 +229,7 @@
       }
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/generator&action=edit&section=T-1 "Template:cpp/synopsis/generator")] Class template [std::generator](../coroutine/generator.html)
+#### Class template [std::generator](../coroutine/generator.html)
     
     
     namespace std {
@@ -267,7 +267,7 @@
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/generator&action=edit&section=T-2 "Template:cpp/synopsis/generator")] Class std::generator::promise_type
+#### Class std::generator::promise_type
     
     
     namespace std {
@@ -321,7 +321,7 @@
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/generator&action=edit&section=T-3 "Template:cpp/synopsis/generator")] Class std::generator::iterator
+#### Class std::generator::iterator
     
     
     namespace std {
@@ -347,7 +347,7 @@
       };
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/generator&action=edit&section=2 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 

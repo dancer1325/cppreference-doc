@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [`std::valarray`](../valarray.html "cpp/numeric/valarray")
 
@@ -155,7 +155,7 @@
   
 [Deduction guides](deduction_guides.html "cpp/numeric/valarray/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/navbar_content&action=edit)
+
 
 Defined in header `[<valarray>](../../header/valarray.html "cpp/header/valarray")` |  |   
 ---|---|---  
@@ -191,7 +191,7 @@ The behavior is undefined if base.size() != exp.size().
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/pow&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 base  |  \-  |  numeric array containing the values of the base   
 ---|---|---  
@@ -199,11 +199,11 @@ exp  |  \-  |  numeric array containing the values of the exponent
 vbase  |  \-  |  a value defining the base   
 vexp  |  \-  |  a value defining the exponent   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/pow&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 A numeric array containing the results of exponentiation. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/pow&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Unqualified function (pow) is used to perform the computation. If such function is not available, [std::pow](../math/pow.html) is used due to [argument-dependent lookup](../../language/adl.html "cpp/language/adl"). 
 
@@ -219,7 +219,7 @@ The function can be implemented with the return type different from [std::valarr
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/pow&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -308,7 +308,7 @@ Output:
     exp  : 0  1  2  3  4  5  6
     pow  : 2⁰ 2¹ 2² 2³ 2⁴ 2⁵ 2⁶ = 1 2 4 8 16 32 64
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/pow&action=edit&section=5 "Edit section: Defect reports")] Defect reports 
+### Defect reports 
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -316,12 +316,12 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 3074](https://cplusplus.github.io/LWG/issue3074) | C++98  | `T` is deduced from both the scalar and the `valarray` for (2,3), disallowing mixed-type calls  | only deduce `T` from the `valarray`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/pow&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ sqrt(std::valarray)](sqrt.html "cpp/numeric/valarray/sqrt") |  applies the function [std::sqrt](../math/sqrt.html "cpp/numeric/math/sqrt") to each element of valarray   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_sqrt&action=edit)  
+(function template)   
 ---|---  
 [ powpowfpowl](../math/pow.html "cpp/numeric/math/pow")(C++11)(C++11) |  raises a number to the given power (\\(\small{x^y}\\)xy)   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_pow&action=edit)  
+(function)   
 [ pow(std::complex)](../complex/pow.html "cpp/numeric/complex/pow") |  complex power, one or both arguments may be a complex number   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_pow&action=edit)
+(function template) 

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 Defined in header `[<stop_token>](../header/stop_token.html "cpp/header/stop token")` |  |   
 ---|---|---  
@@ -183,7 +183,7 @@ using stop_callback_for_t = T::template callback_type<CallbackFn>; |  |  (since 
   
 The alias template `stop_callback_for_t` is used to obtain the stop callback type of the type `T`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/stop_callback_for_t&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 The corresponding `stop_callback_for_t` for standard stop token types and any valid `CallbackFn` are: 
 

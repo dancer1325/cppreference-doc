@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../experimental.html "cpp/experimental")
 
@@ -57,7 +57,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Extensions for concurrency](../concurrency.html "cpp/experimental/concurrency")
 
@@ -77,7 +77,7 @@ Atomic smart pointers
 [experimental::atomic_shared_ptr](../atomic_shared_ptr.html "cpp/experimental/atomic shared ptr")  
 [experimental::atomic_weak_ptr](../atomic_weak_ptr.html "cpp/experimental/atomic weak ptr")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/concurrency/navbar_content&action=edit)
+
 
 [`std::experimental::shared_future`](../shared_future.html "cpp/experimental/shared future")
 
@@ -87,7 +87,7 @@ Atomic smart pointers
 [shared_future::is_ready](is_ready.html "cpp/experimental/shared future/is ready")  
 [shared_future::then](then.html "cpp/experimental/shared future/then")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/concurrency/shared_future/navbar_content&action=edit)
+
 
 shared_future() noexcept; |  (1)  |   
 ---|---|---  
@@ -124,19 +124,19 @@ After this constructor returns, valid() is equal to the value of other.valid() p
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/future/future&action=edit&section=T-1 "Template:cpp/experimental/future/future")] Parameters
+### Parameters
 
 f  |  \-  |  another future object to initialize with   
 ---|---|---  
 other  |  \-  |  a `std::experimental::future` object to unwrap   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/future/future&action=edit&section=T-2 "Template:cpp/experimental/future/future")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/future/future&action=edit&section=T-3 "Template:cpp/experimental/future/future")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -144,8 +144,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 2697](https://cplusplus.github.io/LWG/issue2697) | Concurrency TS  | behavior of unwrapping constructor is unclear with an invalid `future` | constructs an empty `future`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/future/future&action=edit&section=T-4 "Template:cpp/experimental/future/future")] See also
+### See also
 
 [ (constructor)](../../thread/shared_future/shared_future.html "cpp/thread/shared future/shared future") |  constructs the future object   
-(public member function of `std::shared_future<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/future/dsc_constructor&action=edit)  
+(public member function of `std::shared_future<T>`)   
 ---|---

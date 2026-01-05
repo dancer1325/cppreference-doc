@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::zoned_time`](../zoned_time.html "cpp/chrono/zoned time")
 
@@ -121,7 +121,7 @@ Helper classes
 [hash<std::chrono::zoned_time>](hash.html "cpp/chrono/zoned time/hash")(C++26)  
 [Deduction guides](deduction_guides.html "cpp/chrono/zoned time/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/zoned_time/navbar_content&action=edit)
+
 
 Defined in header `[<chrono>](../../header/chrono.html "cpp/header/chrono")` |  |   
 ---|---|---  
@@ -195,7 +195,7 @@ The [std::formatter](../../utility/format/formatter.html "cpp/utility/format/for
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/zoned_time/formatter&action=edit&section=1 "Edit section: Format specification")] Format specification
+### Format specification
 
 The format specification has the form   
   
@@ -308,13 +308,13 @@ Duration count
 `%Q` |  Writes the count of ticks of the duration, i.e. the value obtained via [`count()`](../duration/count.html "cpp/chrono/duration/count").   
 `%q` |  Writes the unit suffix of the duration, as specified in [`operator<<()`](../duration/operator_ltlt.html "cpp/chrono/duration/operator ltlt").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/zoned_time/formatter&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/zoned_time/formatter&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -327,8 +327,8 @@ with resolution coarser than seconds  | 1\. it can be omitted
 those resolutions   
 [P2372R3](https://wg21.link/P2372R3) | C++20  | `formatter` used the global locale or passed locale  | default "C" locale is used when `**L**` is absent   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/zoned_time/formatter&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ format](../../utility/format/format.html "cpp/utility/format/format")(C++20) |  stores formatted representation of the arguments in a new string   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/dsc_format&action=edit)  
+(function template)   
 ---|---

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Metaprogramming library](../meta.html "cpp/meta")
 
@@ -167,7 +167,7 @@ Type transformations
 Compile-time integer sequences  
 [integer_sequence](../utility/integer_sequence.html "cpp/utility/integer sequence")(C++14)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/meta/navbar_content&action=edit)
+
 
 Defined in header `[<type_traits>](../header/type_traits.html "cpp/header/type traits")` |  |   
 ---|---|---  
@@ -198,19 +198,19 @@ If the program adds specializations for `std::is_implicit_lifetime` or `std::is_
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/traits/is&action=edit&section=T-1 "Template:cpp/types/traits/is")] Template parameters
+### Template parameters
 
 T  |  \-  |  a type to check   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/traits/is&action=edit&section=T-2 "Template:cpp/types/traits/is")] Helper variable template
+### Helper variable template
 
 template< class T >  
 constexpr bool is_implicit_lifetime_v = is_implicit_lifetime<T>::value; |  |  (since C++23)  
 ---|---|---  
 | |   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/integral_constant/inherit2&action=edit)
+
 
 ##  Inherited from [ std::integral_constant](integral_constant.html "cpp/types/integral constant")
 
@@ -235,13 +235,13 @@ Type  |  Definition
 `value_type` |  bool  
 `type` |  [std::integral_constant](integral_constant.html)<bool, value>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_implicit_lifetime&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../utility/feature_test.html "cpp/utility/feature test") macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_is_implicit_lifetime`](../experimental/feature_test.html#cpp_lib_is_implicit_lifetime "cpp/feature test") | [`202302L`](../compiler_support/23.html#cpp_lib_is_implicit_lifetime_202302L "cpp/compiler support/23") | (C++23) | `std::is_implicit_lifetime`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_implicit_lifetime&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -284,16 +284,16 @@ Run this code
      
     int main() {}
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_implicit_lifetime&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ is_scalar](is_scalar.html "cpp/types/is scalar")(C++11) |  checks if a type is a scalar type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_scalar&action=edit)  
+(class template)   
 ---|---  
 [ is_array](is_array.html "cpp/types/is array")(C++11) |  checks if a type is an array type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_array&action=edit)  
+(class template)   
 [ is_aggregate](is_aggregate.html "cpp/types/is aggregate")(C++17) |  checks if a type is an aggregate type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_aggregate&action=edit)  
+(class template)   
 [ start_lifetime_asstart_lifetime_as_array](../memory/start_lifetime_as.html "cpp/memory/start lifetime as")(C++23) |  implicitly creates objects in given storage with the object representation reused   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_start_lifetime_as&action=edit)
+(function template) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

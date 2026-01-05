@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::pmr::memory_resource`](../memory_resource.html "cpp/memory/memory resource")
 
@@ -201,7 +201,7 @@ Private member functions
 Non-member functions  
 **operator== operator!=**(until C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/memory_resource/navbar_content&action=edit)
+
 
 Defined in header `[<memory_resource>](../../header/memory_resource.html "cpp/header/memory resource")` |  |   
 ---|---|---  
@@ -217,14 +217,14 @@ Compares the `memory_resource`s a and b for equality. Two `memory_resource`s com
 The `!=` operator is [synthesized](../../language/default_comparisons.html#Other_defaulted_comparison_operators "cpp/language/default comparisons") from `operator==`.  | (since C++20)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/memory_resource/operator_eq&action=edit&section=1 "Edit section: Return value")] Return value 
+### Return value 
 
 1) &a == &b || a.is_equal(b)
 
 2) !(a == b)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/memory_resource/operator_eq&action=edit&section=2 "Edit section: See also")] See also 
+### See also 
 
 [ is_equal](is_equal.html "cpp/memory/memory resource/is equal") |  compare for equality with another `memory_resource`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/memory_resource/dsc_is_equal&action=edit)  
+(public member function)   
 ---|---

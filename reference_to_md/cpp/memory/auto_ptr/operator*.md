@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::auto_ptr`](../auto_ptr.html "cpp/memory/auto ptr")
 
@@ -199,7 +199,7 @@ Member functions
 [auto_ptr::reset](reset.html "cpp/memory/auto ptr/reset")  
 [auto_ptr::operator auto_ptr<Y>auto_ptr::operator auto_ptr_ref<Y>](operator_auto_ptr.html "cpp/memory/auto ptr/operator auto ptr")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/auto_ptr/navbar_content&action=edit)
+
 
 T& operator*() const throw(); |  (1)  |  (deprecated in C++11)   
 (removed in C++17)  
@@ -210,18 +210,18 @@ T* operator->() const throw(); |  (2)  |  (deprecated in C++11)
   
 Dereferences a pointer to the managed object. The first version requires get() != 0. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/auto_ptr/operator*&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/auto_ptr/operator*&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) *get().
 
 2) get().
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/auto_ptr/operator*&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ get](get.html "cpp/memory/auto ptr/get") |  returns a pointer to the managed object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/auto_ptr/dsc_get&action=edit)  
+(public member function)   
 ---|---

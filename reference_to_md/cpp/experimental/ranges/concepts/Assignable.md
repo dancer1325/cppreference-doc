@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Ranges](../../ranges.html "cpp/experimental/ranges")
 
@@ -66,7 +66,7 @@
 [Ranges](../../ranges.html#Ranges "cpp/experimental/ranges")  
 [Algorithms](../../ranges.html#Algorithms "cpp/experimental/ranges")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/navbar_content&action=edit)
+
 
 [Concepts library](../../ranges.html#Concepts "cpp/experimental/ranges")
 
@@ -146,7 +146,7 @@ URNG concept
 | [UniformRandomNumberGenerator](UniformRandomNumberGenerator.html "cpp/experimental/ranges/concepts/UniformRandomNumberGenerator")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/concepts/navbar_content&action=edit)
+
 
 Defined in header `[<experimental/ranges/concepts>](../../../header/experimental/ranges/concepts.html "cpp/header/experimental/ranges/concepts")` |  |   
 ---|---|---  
@@ -184,7 +184,7 @@ Given
 
 There need not be any subsumption relationship between `Assignable<T, U>` and [std::is_lvalue_reference](../../../types/is_lvalue_reference.html)<T>::value. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/equality_preservation&action=edit&section=T-1 "Template:cpp/experimental/ranges/equality preservation")] Equality preservation 
+### Equality preservation 
 
 An expression is _equality preserving_ if it results in equal outputs given equal inputs. 
 
@@ -197,7 +197,7 @@ Every expression required to be equality preserving is further required to be _s
 
 Unless noted otherwise, every expression used in a _requires-expression_ is required to be equality preserving and stable, and the evaluation of the expression may only modify its non-constant operands. Operands that are constant must not be modified. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/concepts/Assignable&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 A deduction constraint of the form { expression } -> Same<T>&& effectively requires decltype((expression))&& to be the exact same type as `T&&`. This constrains both the expression's type and its value category. 
 

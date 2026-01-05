@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::scoped_allocator_adaptor`](../scoped_allocator_adaptor.html "cpp/memory/scoped allocator adaptor")
 
@@ -208,7 +208,7 @@ Non-member functions
 [operator==operator!=](operator_cmp.html "cpp/memory/scoped allocator adaptor/operator cmp")(until C++20)  
 [Deduction guides](deduction_guides.html "cpp/memory/scoped allocator adaptor/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/scoped_allocator_adaptor/navbar_content&action=edit)
+
 
 Defined in header `[<scoped_allocator>](../../header/scoped_allocator.html "cpp/header/scoped allocator")` |  |   
 ---|---|---  
@@ -296,7 +296,7 @@ Args...>::value are both true, returns [std::tuple_cat](../../utility/tuple/tupl
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/scoped_allocator_adaptor/construct&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 p  |  \-  |  pointer to allocated, but not initialized storage   
 ---|---|---  
@@ -306,11 +306,11 @@ y  |  \-  |  the constructor arguments to pass to the constructor of `T2`
 xy  |  \-  |  the pair whose two members are the constructor arguments for `T1` and `T2`  
 tup  |  \-  |  the arguments to be merged   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/scoped_allocator_adaptor/construct&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 This function is called (through [std::allocator_traits](../allocator_traits.html "cpp/memory/allocator traits")) by any allocator-aware object, such as [std::vector](../../container/vector.html "cpp/container/vector"), that was given a [std::scoped_allocator_adaptor](../scoped_allocator_adaptor.html "cpp/memory/scoped allocator adaptor") as the allocator to use. Since `inner_allocator_type` is itself a specialization of [std::scoped_allocator_adaptor](../scoped_allocator_adaptor.html "cpp/memory/scoped allocator adaptor"), this function will also be called when the allocator-aware objects constructed through this function start constructing their own members. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/scoped_allocator_adaptor/construct&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -325,10 +325,10 @@ an `inner_allocator_type` object  | obtained by calling [`inner_allocator()`](in
 `inner_allocator_type` lvalues instead   
 [LWG 2975](https://cplusplus.github.io/LWG/issue2975) | C++11  | overload (1) was not constrained  | constrained to refuse [std::pair](../../utility/pair.html "cpp/utility/pair")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/scoped_allocator_adaptor/construct&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ construct](../allocator_traits/construct.html "cpp/memory/allocator traits/construct")[static] |  constructs an object in the allocated storage   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/allocator_traits/dsc_construct&action=edit)  
+(function template)   
 ---|---  
 [ construct](../allocator/construct.html "cpp/memory/allocator/construct")(until C++20) |  constructs an object in allocated storage   
-(public member function of `std::allocator<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/allocator/dsc_construct&action=edit)
+(public member function of `std::allocator<T>`) 

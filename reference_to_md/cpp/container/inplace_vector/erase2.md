@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::inplace_vector`](../inplace_vector.html "cpp/container/inplace vector")
 
@@ -134,7 +134,7 @@ Tables
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/inplace_vector/navbar_content&action=edit)
+
 
 Defined in header `[<inplace_vector>](../../header/inplace_vector.html "cpp/header/inplace vector")` |  |   
 ---|---|---  
@@ -167,7 +167,7 @@ return r;.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/erase2&action=edit&section=T-1 "Template:cpp/container/erase2")] Parameters
+### Parameters
 
 c  |  \-  |  container from which to erase   
 ---|---|---  
@@ -175,15 +175,15 @@ value  |  \-  |  value to be removed
 pred  |  \-  |  unary predicate which returns ​true if the element should be erased.   
 The expression pred(v) must be convertible to bool for every argument `v` of type (possibly const) `T`, regardless of [value category](../../language/value_category.html "cpp/language/value category"), and must not modify `v`. Thus, a parameter type of T&is not allowed, nor is T unless for `T` a move is equivalent to a copy(since C++11). ​   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/erase2&action=edit&section=T-2 "Template:cpp/container/erase2")] Return value
+### Return value
 
 The number of erased elements. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/erase2&action=edit&section=T-3 "Template:cpp/container/erase2")] Complexity
+### Complexity
 
 Linear. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/erase2&action=edit&section=T-5 "Template:cpp/container/erase2")] Example
+### Example
 
 Run this code
     
@@ -222,10 +222,10 @@ Output:
     Erased even numbers: 5
     After erase {4, 2}, nums = [(2,2), (4,8)]
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/erase2&action=edit&section=T-7 "Template:cpp/container/erase2")] See also
+### See also
 
 [ removeremove_if](../../algorithm/remove.html "cpp/algorithm/remove") |  removes elements satisfying specific criteria   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_remove&action=edit)  
+(function template)   
 ---|---  
 [ ranges::removeranges::remove_if](../../algorithm/ranges/remove.html "cpp/algorithm/ranges/remove")(C++20)(C++20) |  removes elements satisfying specific criteria  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_remove&action=edit)
+(algorithm function object)

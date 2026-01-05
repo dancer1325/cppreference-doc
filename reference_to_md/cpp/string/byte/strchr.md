@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Null-terminated byte strings](../byte.html "cpp/string/byte")
 
@@ -143,7 +143,7 @@
 | [strerror](strerror.html "cpp/string/byte/strerror")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/navbar_content&action=edit)
+
 
 Defined in header `[<cstring>](../../header/cstring.html "cpp/header/cstring")` |  |   
 ---|---|---  
@@ -165,17 +165,17 @@ The terminating null character is considered to be a part of the string and can 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/strchr&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 str  |  \-  |  pointer to the null-terminated byte string to be analyzed   
 ---|---|---  
 ch  |  \-  |  character to search for   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/strchr&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Pointer to the found character in str, or a null pointer if no such character is found. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/strchr&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -205,17 +205,17 @@ Output:
     Found 'T' starting at 'Try not. Do, or do not. There is no try.'
     Found 'T' starting at 'There is no try.'
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/strchr&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ memchr](memchr.html "cpp/string/byte/memchr") |  searches an array for the first occurrence of a character   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_memchr&action=edit)  
+(function)   
 ---|---  
 [ find](../basic_string/find.html "cpp/string/basic string/find") |  finds the first occurrence of the given substring   
-(public member function of `std::basic_string<CharT,Traits,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_find&action=edit)  
+(public member function of `std::basic_string<CharT,Traits,Allocator>`)   
 [ wcschr](../wide/wcschr.html "cpp/string/wide/wcschr") |  finds the first occurrence of a wide character in a wide string   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wcschr&action=edit)  
+(function)   
 [ strrchr](strrchr.html "cpp/string/byte/strrchr") |  finds the last occurrence of a character   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strrchr&action=edit)  
+(function)   
 [ strpbrk](strpbrk.html "cpp/string/byte/strpbrk") |  finds the first location of any character from a set of separators   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strpbrk&action=edit)  
+(function)   
 [C documentation](../../../c/string/byte/strchr.html "c/string/byte/strchr") for strchr

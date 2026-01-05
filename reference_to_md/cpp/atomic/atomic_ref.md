@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 **`std::atomic_ref`**
 
@@ -211,7 +211,7 @@
 [atomic_ref::is_always_lock_free](atomic_ref/is_always_lock_free.html "cpp/atomic/atomic ref/is always lock free")  
 [atomic_ref::required_alignment](atomic_ref/required_alignment.html "cpp/atomic/atomic ref/required alignment")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic_ref/navbar_content&action=edit)
+
 
 Defined in header `[<atomic>](../header/atomic.html "cpp/header/atomic")` |  |   
 ---|---|---  
@@ -254,7 +254,7 @@ If any of the following conditions are satisfied, the program is ill-formed:
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_ref&action=edit&section=1 "Edit section: Nested types")] Nested types
+### Nested types
 
 Type  |  Definition   
 ---|---  
@@ -267,75 +267,75 @@ Type  |  Definition
 
   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_ref&action=edit&section=2 "Edit section: Data members")] Data members
+### Data members
 
 Member  |  Description   
 ---|---  
 T* `_ptr_` |  the pointer to the referenced object  
 (exposition-only member object*)  
 [ is_always_lock_free](atomic_ref/is_always_lock_free.html "cpp/atomic/atomic ref/is always lock free")[static] |  indicates that the type is always lock-free   
-(public static member constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic_ref/dsc_is_always_lock_free&action=edit)  
+(public static member constant)   
 [ required_alignment](atomic_ref/required_alignment.html "cpp/atomic/atomic ref/required alignment")[static] |  indicates the required alignment of an object to be referenced by `atomic_ref`   
-(public static member constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic_ref/dsc_required_alignment&action=edit)  
+(public static member constant)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_ref&action=edit&section=3 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](atomic_ref/atomic_ref.html "cpp/atomic/atomic ref/atomic ref") |  constructs an `atomic_ref` object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic_ref/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ operator=](atomic_ref/operator=.html "cpp/atomic/atomic ref/operator=") |  stores a value into the object referenced by an `atomic_ref` object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic_ref/dsc_operator%3D&action=edit)  
+(public member function)   
 [ is_lock_free](atomic_ref/is_lock_free.html "cpp/atomic/atomic ref/is lock free") |  checks if the `atomic_ref` object is lock-free   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic_ref/dsc_is_lock_free&action=edit)  
+(public member function)   
 [ store](atomic_ref/store.html "cpp/atomic/atomic ref/store") |  atomically replaces the value of the referenced object with a non-atomic argument   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic_ref/dsc_store&action=edit)  
+(public member function)   
 [ load](atomic_ref/load.html "cpp/atomic/atomic ref/load") |  atomically obtains the value of the referenced object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic_ref/dsc_load&action=edit)  
+(public member function)   
 [ operator value_type](atomic_ref/operator_T.html "cpp/atomic/atomic ref/operator T") |  loads a value from the referenced object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic_ref/dsc_operator_T&action=edit)  
+(public member function)   
 [ exchange](atomic_ref/exchange.html "cpp/atomic/atomic ref/exchange") |  atomically replaces the value of the referenced object and obtains the value held previously   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic_ref/dsc_exchange&action=edit)  
+(public member function)   
 [ compare_exchange_weakcompare_exchange_strong](atomic_ref/compare_exchange.html "cpp/atomic/atomic ref/compare exchange") |  atomically compares the value of the referenced object with non-atomic argument and performs atomic exchange if equal or atomic load if not   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic_ref/dsc_compare_exchange&action=edit)  
+(public member function)   
 [ wait](atomic_ref/wait.html "cpp/atomic/atomic ref/wait") |  blocks the thread until notified and the atomic value changes   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_wait&action=edit)  
+(public member function)   
 [ notify_one](atomic_ref/notify_one.html "cpp/atomic/atomic ref/notify one") |  notifies at least one thread waiting on the atomic object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_notify_one&action=edit)  
+(public member function)   
 [ notify_all](atomic_ref/notify_all.html "cpp/atomic/atomic ref/notify all") |  notifies all threads blocked waiting on the atomic object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_notify_all&action=edit)  
+(public member function)   
 [ address](atomic_ref/address.html "cpp/atomic/atomic ref/address")(C++26) |  returns the object's address   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_address&action=edit)  
+(public member function)   
   
 #####  Provided only when `T` is an arithmetic type other than _cv_ bool or a pointer-to-object type   
   
 [ fetch_add](atomic_ref/fetch_add.html "cpp/atomic/atomic ref/fetch add") |  atomically adds the argument to the value stored in the referenced object and obtains the value held previously   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic_ref/dsc_fetch_add&action=edit)  
+(public member function)   
 [ fetch_sub](atomic_ref/fetch_sub.html "cpp/atomic/atomic ref/fetch sub") |  atomically subtracts the argument from the value stored in the referenced object and obtains the value held previously   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic_ref/dsc_fetch_sub&action=edit)  
+(public member function)   
 [ operator+=operator-=](atomic_ref/operator_arith2.html "cpp/atomic/atomic ref/operator arith2") |  atomically adds to or subtracts from the referenced value   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic_ref/dsc_operator_arith2&action=edit)  
+(public member function)   
   
 #####  Provided only when `T` is an integral type other than _cv_ bool or a pointer-to-object type   
   
 [ fetch_max](atomic_ref/fetch_max.html "cpp/atomic/atomic ref/fetch max")(C++26) |  atomically performs [std::max](../algorithm/max.html "cpp/algorithm/max") between the argument and the value of the referenced object and obtains the value held previously   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic_ref/dsc_fetch_max&action=edit)  
+(public member function)   
 [ fetch_min](atomic_ref/fetch_min.html "cpp/atomic/atomic ref/fetch min")(C++26) |  atomically performs [std::min](../algorithm/min.html "cpp/algorithm/min") between the argument and the value of the referenced object and obtains the value held previously   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic_ref/dsc_fetch_min&action=edit)  
+(public member function)   
 [ operator++operator++(int)operator--operator--(int)](atomic_ref/operator_arith.html "cpp/atomic/atomic ref/operator arith") |  atomically increments or decrements the referenced object by one   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic_ref/dsc_operator_arith&action=edit)  
+(public member function)   
   
 #####  Provided only when `T` is an integral type other than _cv_ bool  
   
 [ fetch_and](atomic_ref/fetch_and.html "cpp/atomic/atomic ref/fetch and") |  atomically performs bitwise AND between the argument and the value of the referenced object and obtains the value held previously   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic_ref/dsc_fetch_and&action=edit)  
+(public member function)   
 [ fetch_or](atomic_ref/fetch_or.html "cpp/atomic/atomic ref/fetch or") |  atomically performs bitwise OR between the argument and the value of the referenced object and obtains the value held previously   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic_ref/dsc_fetch_or&action=edit)  
+(public member function)   
 [ fetch_xor](atomic_ref/fetch_xor.html "cpp/atomic/atomic ref/fetch xor") |  atomically performs bitwise XOR between the argument and the value of the referenced object and obtains the value held previously   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic_ref/dsc_fetch_xor&action=edit)  
+(public member function)   
 [ operator&=operator|=operator^=](atomic_ref/operator_arith3.html "cpp/atomic/atomic ref/operator arith3") |  atomically performs bitwise AND, OR, XOR with the referenced value   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic_ref/dsc_operator_arith3&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_ref&action=edit&section=4 "Edit section: Specializations")] Specializations
+### Specializations
 
 The standard specifies that `std::atomic_ref` has following specializations: 
 
@@ -355,7 +355,7 @@ struct atomic_ref</*pointer-type*/>; |  (3)  |  (since C++20)
 
 3) The partial specialization is provided for /*pointer-type*/ types that are possibly cv-qualified pointer-to-object types.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_ref&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 Implementations may merge the specified specializations. E.g. MSVC STL merges all of them into the primary template. 
 
@@ -366,7 +366,7 @@ When `T` is _cv_ void or a function type, std::atomic_ref<T*> (i.e. std::atomic_
 [`__cpp_lib_atomic_ref`](../experimental/feature_test.html#cpp_lib_atomic_ref "cpp/feature test") | [`201806L`](../compiler_support/20.html#cpp_lib_atomic_ref_201806L "cpp/compiler support/20") | (C++20) | `std::atomic_ref`  
 [`__cpp_lib_constexpr_atomic`](../experimental/feature_test.html#cpp_lib_constexpr_atomic "cpp/feature test") | [`202411L`](../compiler_support/26.html#cpp_lib_constexpr_atomic_202411L "cpp/compiler support/26") | (C++26) | constexpr [std::atomic](atomic.html "cpp/atomic/atomic") and `std::atomic_ref`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_ref&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -377,10 +377,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 if `T` is a const type or pointer-to-non-object type  | these operations are either constained  
 or not provided for unsuitable `T`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_ref&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ atomic](atomic.html "cpp/atomic/atomic")(C++11) |  atomic class template and specializations for bool, integral, floating-point,(since C++20) and pointer types   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/dsc_atomic&action=edit)  
+(class template)   
 ---|---
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

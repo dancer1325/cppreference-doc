@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::future`](../future.html "cpp/thread/future")
 
@@ -191,7 +191,7 @@ State
 [future::wait_for](wait_for.html "cpp/thread/future/wait for")  
 [future::wait_until](wait_until.html "cpp/thread/future/wait until")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/future/navbar_content&action=edit)
+
 
 future() noexcept; |  (1)  |  (since C++11)  
 ---|---|---  
@@ -207,7 +207,7 @@ Constructs a `std::future` object.
 
 3) `std::future` is not [CopyConstructible](../../named_req/CopyConstructible.html "cpp/named req/CopyConstructible").
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/future/future&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 other  |  \-  |  another `std::future` to acquire shared state from   
 ---|---|---

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::pair`](../pair.html "cpp/utility/pair")
 
@@ -151,7 +151,7 @@ Common vocabulary types
 [piecewise_construct_t](../piecewise_construct.html "cpp/utility/piecewise construct")(C++11)  
 [Deduction guides](deduction_guides.html "cpp/utility/pair/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/pair/navbar_content&action=edit)
+
 
 | (1) |   
 ---|---|---  
@@ -179,16 +179,16 @@ If either selected `swap` function call is ill-formed or does not swap the value
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/pair/swap&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 other  |  \-  |  pair of values to swap   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/pair/swap&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/pair/swap&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 [`noexcept`](../../language/noexcept_spec.html "cpp/language/noexcept spec") specification: noexcept(  
 noexcept(swap(first, other.first)) &&  
@@ -203,7 +203,7 @@ noexcept(swap(second, other.second))
 [std::is_nothrow_swappable_v](../../types/is_swappable.html)<const second_type>  
 ) | (since C++17)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/pair/swap&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -234,7 +234,7 @@ Possible output:
     (10, test)
     (10, test)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/pair/swap&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -242,10 +242,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 2456](https://cplusplus.github.io/LWG/issue2456) | C++11  | the `noexcept` specification is ill-formed  | made to work   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/pair/swap&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ swap](../swap.html "cpp/algorithm/swap") |  swaps the values of two objects   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_swap&action=edit)  
+(function template)   
 ---|---  
 [ swap](../tuple/swap.html "cpp/utility/tuple/swap") |  swaps the contents of two `tuple`s   
-(public member function of `std::tuple<Types...>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/dsc_swap&action=edit)
+(public member function of `std::tuple<Types...>`) 

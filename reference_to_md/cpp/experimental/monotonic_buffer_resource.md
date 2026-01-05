@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Library fundamentals](memory.html "cpp/experimental/lib extensions")
 
@@ -50,7 +50,7 @@
 [Type-erased and polymorphic allocators](memory.html "cpp/experimental/memory")  
 [Variable templates for type traits](type_trait_variable_templates.html "cpp/experimental/type trait variable templates")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions/navbar_content&action=edit)
+
 
 [Polymorphic allocator library](memory.html "cpp/experimental/memory")
 
@@ -73,7 +73,7 @@ Type-erased allocator support for existing classes
 [packaged_task](lib_extensions/packaged_task.html "cpp/experimental/lib extensions/packaged task")  
 [promise](lib_extensions/promise.html "cpp/experimental/lib extensions/promise")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions/pmr/navbar_content&action=edit)
+
 
 **`std::experimental::pmr::monotonic_buffer_resource`**
 
@@ -88,7 +88,7 @@ Protected member functions
 [monotonic_buffer_resource::do_deallocate](monotonic_buffer_resource/do_deallocate.html "cpp/experimental/monotonic buffer resource/do deallocate")  
 [monotonic_buffer_resource::do_is_equal](monotonic_buffer_resource/do_is_equal.html "cpp/experimental/monotonic buffer resource/do is equal")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions/pmr/monotonic_buffer_resource/navbar_content&action=edit)
+
 
 Defined in header `[<experimental/memory_resource>](../header/experimental/memory_resource.html "cpp/header/experimental/memory resource")` |  |   
 ---|---|---  
@@ -101,28 +101,28 @@ The class `std::experimental::pmr::monotonic_buffer_resource` is a special-purpo
 
 `monotonic_buffer_resource` is not thread-safe. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/monotonic_buffer_resource&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](monotonic_buffer_resource/monotonic_buffer_resource.html "cpp/experimental/monotonic buffer resource/monotonic buffer resource") |  constructs a `monotonic_buffer_resource`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/monotonic_buffer_resource/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ (destructor)](monotonic_buffer_resource/~monotonic_buffer_resource.html "cpp/experimental/monotonic buffer resource/~monotonic buffer resource")[virtual] |  destroys a `monotonic_buffer_resource`, releasing all allocated memory   
-(virtual public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/monotonic_buffer_resource/dsc_destructor&action=edit)  
+(virtual public member function)   
 operator=[deleted] |  copy assignment operator is deleted. `monotonic_buffer_resource` is not copy assignable   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/monotonic_buffer_resource/dsc_operator%3D&action=edit)  
+(public member function)   
   
 #####  Public member functions   
   
 [ release](monotonic_buffer_resource/release.html "cpp/experimental/monotonic buffer resource/release") |  release all allocated memory   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/monotonic_buffer_resource/dsc_release&action=edit)  
+(public member function)   
 [ upstream_resource](monotonic_buffer_resource/upstream_resource.html "cpp/experimental/monotonic buffer resource/upstream resource") |  returns a pointer to the upstream memory resource   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/monotonic_buffer_resource/dsc_upstream_resource&action=edit)  
+(public member function)   
   
 #####  Protected member functions   
   
 [ do_allocate](monotonic_buffer_resource/do_allocate.html "cpp/experimental/monotonic buffer resource/do allocate")[virtual] |  allocate memory   
-(virtual protected member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/monotonic_buffer_resource/dsc_do_allocate&action=edit)  
+(virtual protected member function)   
 [ do_deallocate](monotonic_buffer_resource/do_deallocate.html "cpp/experimental/monotonic buffer resource/do deallocate")[virtual] |  no-op   
-(virtual protected member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/monotonic_buffer_resource/dsc_do_deallocate&action=edit)  
+(virtual protected member function)   
 [ do_is_equal](monotonic_buffer_resource/do_is_equal.html "cpp/experimental/monotonic buffer resource/do is equal")[virtual] |  compare for equality with another `memory_resource`   
-(virtual protected member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/monotonic_buffer_resource/dsc_do_is_equal&action=edit)
+(virtual protected member function) 

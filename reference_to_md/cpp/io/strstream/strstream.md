@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::strstream`](../strstream.html "cpp/io/strstream")
 
@@ -90,7 +90,7 @@ Member functions
 [strstream::pcount](pcount.html "cpp/io/strstream/pcount")  
 [strstream::freeze](freeze.html "cpp/io/strstream/freeze")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/strstream/navbar_content&action=edit)
+
 
 strstream(); |  (1)  |  (deprecated in C++98)   
 (removed in C++26)  
@@ -120,7 +120,7 @@ b) if (mode & app) != 0 (the app bit is set in mode), constructs the buffer by c
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/strstream/strstream&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 s  |  \-  |  char array to use as the output buffer   
 ---|---|---  
@@ -135,7 +135,7 @@ mode  |  \-  |  specifies stream open mode. It is a bitmask type, the following 
 [`ate`](../ios_base/openmode.html "cpp/io/ios base/openmode") |  seek to the end of stream immediately after open   
 [`noreplace`](../ios_base/openmode.html "cpp/io/ios base/openmode") (C++23) |  open in exclusive mode   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/strstream/strstream&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -179,7 +179,7 @@ Output:
     Buffer holds: '-1 -3.14 another'
     Read back: n = -1, d = -3.14, w = 'another'
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/strstream/strstream&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -189,12 +189,12 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 mode & app == 0 (`==` has higher precedence than `&`)  | considers cases (mode & app) == 0  
 and (mode & app) != 0  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/strstream/strstream&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ (constructor)](../strstreambuf/strstreambuf.html "cpp/io/strstreambuf/strstreambuf") |  constructs a `strstreambuf` object   
-(public member function of `std::strstreambuf`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/strstreambuf/dsc_strstreambuf&action=edit)  
+(public member function of `std::strstreambuf`)   
 ---|---  
 [ (constructor)](../istrstream/istrstream.html "cpp/io/istrstream/istrstream") |  constructs an `istrstream` object, optionally allocating the buffer   
-(public member function of `std::istrstream`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/strstream/dsc_constructor&action=edit)  
+(public member function of `std::istrstream`)   
 [ (constructor)](../ostrstream/ostrstream.html "cpp/io/ostrstream/ostrstream") |  constructs an `ostrstream` object, optionally allocating the buffer   
-(public member function of `std::ostrstream`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/strstream/dsc_constructor&action=edit)
+(public member function of `std::ostrstream`) 

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Metaprogramming library](../meta.html "cpp/meta")
 
@@ -167,7 +167,7 @@ Type transformations
 Compile-time integer sequences  
 [integer_sequence](../utility/integer_sequence.html "cpp/utility/integer sequence")(C++14)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/meta/navbar_content&action=edit)
+
 
 Defined in header `[<type_traits>](../header/type_traits.html "cpp/header/type traits")` |  |   
 ---|---|---  
@@ -191,20 +191,20 @@ If the program adds specializations for `std::type_identity`, the behavior is un
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/type_identity&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Name  |  Definition   
 ---|---  
 `type` |  `T`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/type_identity&action=edit&section=2 "Edit section: Helper types")] Helper types
+### Helper types
 
 template< class T >  
 using type_identity_t = type_identity<T>::type; |  |  (since C++20)  
 ---|---|---  
 | |   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/type_identity&action=edit&section=3 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     template<class T>
@@ -212,7 +212,7 @@ using type_identity_t = type_identity<T>::type; |  |  (since C++20)
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/type_identity&action=edit&section=4 "Edit section: Notes")] Notes 
+### Notes 
 
 `std::type_identity` can be used to establish [non-deduced contexts](../language/template_argument_deduction.html#Non-deduced_contexts "cpp/language/template argument deduction") in template argument deduction. 
 
@@ -220,7 +220,7 @@ using type_identity_t = type_identity<T>::type; |  |  (since C++20)
 ---|---|---|---  
 [`__cpp_lib_type_identity`](../experimental/feature_test.html#cpp_lib_type_identity "cpp/feature test") | [`201806L`](../compiler_support/20.html#cpp_lib_type_identity_201806L "cpp/compiler support/20") | (C++20) | `std::type_identity`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/type_identity&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -245,10 +245,10 @@ Output:
     
     5.2
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/type_identity&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ identity](../utility/functional/identity.html "cpp/utility/functional/identity")(C++20) |  function object that returns its argument unchanged   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_identity&action=edit)  
+(class)   
 ---|---
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

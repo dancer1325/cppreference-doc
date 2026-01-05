@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -186,7 +186,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::weak_ptr`](../weak_ptr.html "cpp/memory/weak ptr")
 
@@ -211,7 +211,7 @@ Helper classes
 [atomic<std::weak_ptr>](atomic2.html "cpp/memory/weak ptr/atomic2")(C++20)  
 [Deduction guides](deduction_guides.html "cpp/memory/weak ptr/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/weak_ptr/navbar_content&action=edit)
+
 
 Defined in header `[<memory>](../../header/memory.html "cpp/header/memory")` |  |   
 ---|---|---  
@@ -235,20 +235,20 @@ Specializes the [std::swap](../../utility/swap.html "cpp/algorithm/swap") algori
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/swap2&action=edit&section=T-1 "Template:cpp/memory/swap2")] Parameters
+### Parameters
 
 lhs, rhs  |  \-  |  smart pointers whose contents to swap   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/swap2&action=edit&section=T-2 "Template:cpp/memory/swap2")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/swap2&action=edit&section=T-3 "Template:cpp/memory/swap2")] Complexity
+### Complexity
 
 Constant. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/swap2&action=edit&section=T-4 "Template:cpp/memory/swap2")] Example
+### Example
 
 Run this code
     
@@ -300,10 +300,10 @@ Output:
     ~Foo...
     ~Foo...
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/swap2&action=edit&section=T-5 "Template:cpp/memory/swap2")] See also
+### See also
 
 [ swap](../../utility/swap.html "cpp/algorithm/swap") |  swaps the values of two objects   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_swap&action=edit)  
+(function template)   
 ---|---  
 [ swap](swap.html "cpp/memory/weak ptr/swap") |  swaps the contents   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_swap&action=edit)
+(public member function) 

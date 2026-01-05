@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ named requirements](../iterator/concepts.html "cpp/named req")
 
@@ -147,7 +147,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/named_req/navbar_content&action=edit)
+
 
 The type must work with `**<**` operator and the result should have standard semantics. 
 
@@ -161,7 +161,7 @@ The type must work with `**<**` operator and the result should have standard sem
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/LessThanComparable&action=edit&section=1 "Edit section: Requirements")] Requirements
+### Requirements
 
 The type `T` satisfies LessThanComparable if given expressions a, b and c of type `T` or const T(since C++11), the following expression is valid and has its specified effects: 
 
@@ -179,7 +179,7 @@ a < b | meets [BooleanTestable](BooleanTestable.html "cpp/named req/BooleanTesta
 models [`_boolean-testable_`](../concepts/boolean-testable.html "cpp/concepts/boolean-testable")  
 (since C++20)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/LessThanComparable&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 To satisfy this requirement, types that do not have built-in [comparison operators](../language/operator_comparison.html "cpp/language/operator comparison") have to provide a [user-defined operator<](../language/operators.html#Comparison_operators "cpp/language/operators"). 
 
@@ -190,7 +190,7 @@ For the types that are both [EqualityComparable](EqualityComparable.html "cpp/na
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/LessThanComparable&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -199,10 +199,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [LWG 2114](https://cplusplus.github.io/LWG/issue2114)  
 ([P2167R3](https://wg21.link/P2167R3))  | C++98  | convertibility to bool was too weak to reflect the expectation of implementations  | requirements strengthened   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/LessThanComparable&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [Compare](Compare.html "cpp/named req/Compare") |  a [BinaryPredicate](BinaryPredicate.html "cpp/named req/BinaryPredicate") that establishes an ordering relation  
 (named requirement)  
 ---|---  
 [ strict_weak_order](../concepts/strict_weak_order.html "cpp/concepts/strict weak order")(C++20) |  specifies that a [`relation`](../concepts/relation.html "cpp/concepts/relation") imposes a strict weak ordering   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_strict_weak_order&action=edit)
+(concept) 

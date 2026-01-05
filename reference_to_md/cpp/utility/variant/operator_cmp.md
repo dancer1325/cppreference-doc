@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::variant`](../variant.html "cpp/utility/variant")
 
@@ -161,7 +161,7 @@ Common vocabulary types
 [Helper objects](../variant.html#Helper_objects "cpp/utility/variant")  
 [variant_npos](variant_npos.html "cpp/utility/variant/variant npos")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variant/navbar_content&action=edit)
+
 
 Defined in header `[<variant>](../../header/variant.html "cpp/header/variant")` |  |   
 ---|---|---  
@@ -224,12 +224,12 @@ If I == v.index() is false, the behavior is undefined.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variant/operator_cmp&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 lhs,rhs  |  \-  |  variants to compare   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variant/operator_cmp&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Operator  | Both operands contains a value  
 (let I be lhs.index() and J be rhs.index()) | lhs or rhs is valueless  
@@ -252,13 +252,13 @@ For operator<=>:
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variant/operator_cmp&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../feature_test.html "cpp/utility/feature test") macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_constrained_equality`](../../experimental/feature_test.html#cpp_lib_constrained_equality "cpp/feature test") | [`202403L`](../../compiler_support/26.html#cpp_lib_constrained_equality_202403L "cpp/compiler support/26") | (C++26) | constrained comparison operators for [std::variant](../variant.html "cpp/utility/variant")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variant/operator_cmp&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -375,10 +375,10 @@ Output:
     A < B : true
     C < B : false
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variant/operator_cmp&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ operator==operator!=operator<operator<=operator>operator>=operator<=>](../optional/operator_cmp.html "cpp/utility/optional/operator cmp")(C++17)(C++17)(C++17)(C++17)(C++17)(C++17)(C++20) |  compares `optional` objects   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/dsc_operator_cmp&action=edit)  
+(function template)   
 ---|---
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

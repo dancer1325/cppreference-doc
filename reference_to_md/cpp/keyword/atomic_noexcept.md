@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](../language/history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [Keywords](../keywords.html "cpp/keyword")
 
@@ -340,15 +340,15 @@ Identifiers with special meaning
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/keyword/navbar_content&action=edit)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/keyword/atomic_noexcept&action=edit&section=1 "Edit section: Usage")] Usage
+
+### Usage
 
   * [Atomic block](../language/transactional_memory.html#Atomic_blocks "cpp/language/transactional memory") that aborts on exceptions (TM TS)
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/keyword/atomic_noexcept&action=edit&section=2 "Edit section: References")] References
+### References
 
   * Transactional Memory TS (ISO/IEC TS 19841:2015): 
 
@@ -360,7 +360,7 @@ Identifiers with special meaning
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/keyword/atomic_noexcept&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
   * [`atomic_cancel`](atomic_cancel.html "cpp/keyword/atomic cancel") (TM TS)
   * [`atomic_commit`](atomic_commit.html "cpp/keyword/atomic commit") (TM TS)

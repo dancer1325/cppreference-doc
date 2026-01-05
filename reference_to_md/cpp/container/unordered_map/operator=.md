@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::unordered_map`](../unordered_map.html "cpp/container/unordered map")
 
@@ -139,7 +139,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/unordered map/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/unordered_map/navbar_content&action=edit)
+
 
 unordered_map& operator=( const unordered_map& other ); |  (1) | (since C++11)   
 (constexpr since C++26)  
@@ -181,17 +181,17 @@ If traits::propagate_on_container_move_assignment::value is true, the allocator 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/operator%3D&action=edit&section=T-1 "Template:cpp/container/operator=")] Parameters
+### Parameters
 
 other  |  \-  |  another container to use as data source   
 ---|---|---  
 ilist  |  \-  |  initializer list to use as data source   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/operator%3D&action=edit&section=T-2 "Template:cpp/container/operator=")] Return value
+### Return value
 
 *this
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/operator%3D&action=edit&section=T-3 "Template:cpp/container/operator=")] Complexity
+### Complexity
 
 1) Linear in the size of *this and other.
 
@@ -199,18 +199,18 @@ ilist  |  \-  |  initializer list to use as data source
 
 3) Linear in the size of *this and ilist.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/operator%3D&action=edit&section=T-4 "Template:cpp/container/operator=")] Exceptions
+### Exceptions
 
 2) [`noexcept`](../../language/noexcept_spec.html "cpp/language/noexcept spec") specification: noexcept([std::allocator_traits](../../memory/allocator_traits.html)<Allocator>::is_always_equal::value  
 && [std::is_nothrow_move_assignable](../../types/is_move_assignable.html)<Hash>::value  
 && [std::is_nothrow_move_assignable](../../types/is_move_assignable.html)<Pred>::value) | (since C++17)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/operator%3D&action=edit&section=T-5 "Template:cpp/container/operator=")] Notes
+### Notes
 
 After container move assignment (overload ([2](operator=.html#Version_2))), unless element-wise move assignment is forced by incompatible allocators, references, pointers, and iterators (other than the end iterator) to other remain valid, but refer to elements that are now in *this. The current standard makes this guarantee via the blanket statement in [[container.reqmts]/67](https://eel.is/c++draft/container.reqmts#67), and a more direct guarantee is under consideration via [LWG issue 2321](https://cplusplus.github.io/LWG/issue2321). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/operator%3D&action=edit&section=T-6 "Template:cpp/container/operator=")] Example
+### Example
 
 The following code uses operator= to assign one [std::unordered_map](../unordered_map.html "cpp/container/unordered map") to another:
 
@@ -275,8 +275,8 @@ Possible output:
     w = { {4,4}, {5,5}, {6,6}, {7,7} }
     z = { {7,7}, {6,6}, {5,5}, {4,4} }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/operator%3D&action=edit&section=T-7 "Template:cpp/container/operator=")] See also
+### See also
 
 [ (constructor)](unordered_map.html "cpp/container/unordered map/unordered map") |  constructs the `unordered_map`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_constructor&action=edit)  
+(public member function)   
 ---|---

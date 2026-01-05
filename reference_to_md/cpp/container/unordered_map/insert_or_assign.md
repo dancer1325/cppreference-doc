@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::unordered_map`](../unordered_map.html "cpp/container/unordered map")
 
@@ -139,7 +139,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/unordered map/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/unordered_map/navbar_content&action=edit)
+
 
 template< class M >  
 [std::pair](../../utility/pair.html)<iterator, bool> insert_or_assign( const Key& k, M&& obj ); |  (1)  |  (since C++17)  
@@ -179,26 +179,26 @@ If rehashing occurs (due to the insertion), all iterators are invalidated. Other
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/insert_or_assign_assoc&action=edit&section=T-1 "Template:cpp/container/insert or assign assoc")] Parameters
+### Parameters
 
 k  |  \-  |  the key used both to look up and to insert if not found   
 ---|---|---  
 hint  |  \-  |  iterator to the position before which the new element will be inserted   
 obj  |  \-  |  the value to insert or assign   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/insert_or_assign_assoc&action=edit&section=T-2 "Template:cpp/container/insert or assign assoc")] Return value
+### Return value
 
 1-3) The bool component is true if the insertion took place and false if the assignment took place. The iterator component is pointing at the element that was inserted or updated.
 
 4-6) Iterator pointing at the element that was inserted or updated.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/insert_or_assign_assoc&action=edit&section=T-3 "Template:cpp/container/insert or assign assoc")] Complexity
+### Complexity
 
 1-3) Same as for [`emplace`](emplace.html "cpp/container/unordered map/emplace").
 
 4-6) Same as for [`emplace_hint`](emplace_hint.html "cpp/container/unordered map/emplace hint").
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/insert_or_assign_assoc&action=edit&section=T-4 "Template:cpp/container/insert or assign assoc")] Notes
+### Notes
 
 `insert_or_assign` returns more information than [`operator`](operator_at.html "cpp/container/unordered map/operator at")[] and does not require default-constructibility of the mapped type. 
 
@@ -208,7 +208,7 @@ obj  |  \-  |  the value to insert or assign
 `std::unordered_map::insert_or_assign`  
 [`__cpp_lib_associative_heterogeneous_insertion`](../../experimental/feature_test.html#cpp_lib_associative_heterogeneous_insertion "cpp/feature test") | [`202311L`](../../compiler_support/26.html#cpp_lib_associative_heterogeneous_insertion_202311L "cpp/compiler support/26") | (C++26) | Heterogeneous overloads for the remaining member functions in [ordered](../../container.html#Associative_containers "cpp/container") and [unordered](../../container.html#Unordered_associative_containers "cpp/container") associative [containers](../../container.html "cpp/container"). Overloads ([3](insert_or_assign.html#Version_3)) and ([6](insert_or_assign.html#Version_6)).   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/insert_or_assign_assoc&action=edit&section=T-5 "Template:cpp/container/insert or assign assoc")] Example
+### Example
 
 Run this code
     
@@ -252,16 +252,16 @@ Possible output:
     [a] = apple
     [b] = banana
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/insert_or_assign_assoc&action=edit&section=T-6 "Template:cpp/container/insert or assign assoc")] See also
+### See also
 
 [ operator[]](operator_at.html "cpp/container/unordered map/operator at") |  access or insert specified element   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_operator_at&action=edit)  
+(public member function)   
 ---|---  
 [ at](at.html "cpp/container/unordered map/at") |  access specified element with bounds checking   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_at&action=edit)  
+(public member function)   
 [ insert](insert.html "cpp/container/unordered map/insert") |  inserts elements or nodes(since C++17)   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_insert&action=edit)  
+(public member function)   
 [ emplace](emplace.html "cpp/container/unordered map/emplace") |  constructs element in-place   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_emplace&action=edit)
+(public member function) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

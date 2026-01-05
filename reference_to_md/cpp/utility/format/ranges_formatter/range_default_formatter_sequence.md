@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Formatting library](../../format.html "cpp/utility/format")
 
@@ -91,7 +91,7 @@ Formatting arguments
 [Format error](../format.html#Format_error "cpp/utility/format/format")  
 [format_error](../format_error.html "cpp/utility/format/format error")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/navbar_content&action=edit)
+
 
 [`std::formatter<_range_ >`](../ranges_formatter.html "cpp/utility/format/ranges formatter")
 
@@ -103,7 +103,7 @@ _range-default-formatter_ specializations
 [_range-default-formatter_ <std::range_format::string>  
 _range-default-formatter_ <std::range_format::debug_string>](range_default_formatter_string.html "cpp/utility/format/ranges formatter/range default formatter string")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/ranges_formatter/navbar_content&action=edit)
+
 
 Defined in header `[<format>](../../../header/format.html "cpp/header/format")` |  |   
 ---|---|---  
@@ -128,14 +128,14 @@ The class template /*range-default-formatter*/ for range types is specialized fo
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/ranges_formatter/range_default_formatter_sequence&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Member  |  Definition   
 ---|---  
 `_maybe-const-r_` (private) |  `_[fmt-maybe-const](../../format.html#fmt-maybe-const "cpp/utility/format")_` <R, CharT>  
 (exposition-only member type*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/ranges_formatter/range_default_formatter_sequence&action=edit&section=2 "Edit section: Data members")] Data members
+### Data members
 
 Member  |  Description   
 ---|---  
@@ -143,7 +143,7 @@ Member  |  Description
 ` `[ranges::range_reference_t](../../../ranges/range_reference_t.html)<`_maybe-const-r_` >>, CharT> `_underlying__` (private) |  the underlying formatter  
 (exposition-only member object*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/ranges_formatter/range_default_formatter_sequence&action=edit&section=3 "Edit section: Member functions")] Member functions
+### Member functions
 
 (constructor)(implicitly declared) |  constructs a /*range-default-formatter*/   
 (public member function)  
@@ -196,10 +196,10 @@ Equivalent to return underlying_.format(elems, ctx);.
 
 Returns an iterator past the end of the output range. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/ranges_formatter/range_default_formatter_sequence&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ formatter](../formatter.html "cpp/utility/format/formatter")(C++20) |  defines formatting rules for a given type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/dsc_formatter&action=edit)  
+(class template)   
 ---|---  
 [ range_formatter](../range_formatter.html "cpp/utility/format/range formatter")(C++23) |  class template that helps implementing [std::formatter](../formatter.html "cpp/utility/format/formatter") specializations for range types   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/dsc_range_formatter&action=edit)
+(class template) 

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::year_month_weekday`](../year_month_weekday.html "cpp/chrono/year month weekday")
 
@@ -120,7 +120,7 @@ Helper classes
 [formatter<std::chrono::year_month_weekday>](formatter.html "cpp/chrono/year month weekday/formatter")  
 [hash<std::chrono::year_month_weekday>](hash.html "cpp/chrono/year month weekday/hash")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/year_month_weekday/navbar_content&action=edit)
+
 
 Defined in header `[<chrono>](../../header/chrono.html "cpp/header/chrono")` |  |   
 ---|---|---  
@@ -132,11 +132,11 @@ Compares the two `year_month_weekday` values x and y.
 
 The `!=` operator is [synthesized](../../language/default_comparisons.html#Other_defaulted_comparison_operators "cpp/language/default comparisons") from `operator==`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/year_month_weekday/operator_cmp&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 x.year() == y.year() && x.month() == y.month() && x.weekday_indexed() == y.weekday_indexed()
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/year_month_weekday/operator_cmp&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::expected`](../expected.html "cpp/utility/expected")
 
@@ -160,7 +160,7 @@ Common vocabulary types
 [bad_expected_access](bad_expected_access.html "cpp/utility/expected/bad expected access")  
 [unexpect_tunexpect](unexpect_t.html "cpp/utility/expected/unexpect t")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/expected/navbar_content&action=edit)
+
 
 Main template |  |   
 ---|---|---  
@@ -240,7 +240,7 @@ Constructs a new `expected` object.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/expected&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 other  |  \-  |  another `expected` object whose contained value is copied   
 ---|---|---  
@@ -249,9 +249,9 @@ v  |  \-  |  value with which to initialize the contained value
 args  |  \-  |  arguments with which to initialize the contained value   
 il  |  \-  |  initializer list with which to initialize the contained value   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/expected&action=edit&section=2 "Edit section: Effects")] Effects
+### Effects
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/expected&action=edit&section=3 "Edit section: Primary template constructors")] Primary template constructors
+#### Primary template constructors
 
 Overload  | Initialization  
 method  | Initializer for...  | [`has_value()`](operator_bool.html "cpp/utility/expected/operator bool")  
@@ -284,7 +284,7 @@ the expected value  | the unexpected value
 ([12](expected.html#Version_12)) | il,  
 [std::forward](../forward.html)<Args>(args)...  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/expected&action=edit&section=4 "Edit section: void partial specialization constructors")] void partial specialization constructors
+#### void partial specialization constructors
 
 Overload  | Initialization method  | Initializer for the unexpected value  | [`has_value()`](operator_bool.html "cpp/utility/expected/operator bool") after construction   
 ---|---|---|---  
@@ -304,9 +304,9 @@ Overload  | Initialization method  | Initializer for the unexpected value  | [`h
 ([21](expected.html#Version_21)) | Direct (non-list)  | [std::forward](../forward.html)<Args>(args)... | false  
 ([22](expected.html#Version_22)) | il, [std::forward](../forward.html)<Args>(args)...  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/expected&action=edit&section=5 "Edit section: Constraints and supplement information")] Constraints and supplement information
+### Constraints and supplement information
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/expected&action=edit&section=6 "Edit section: Primary template constructors")] Primary template constructors
+#### Primary template constructors
 
 1) This overload participates in overload resolution only if [std::is_default_constructible_v](../../types/is_default_constructible.html)<T> is true.
 
@@ -365,7 +365,7 @@ This constructor is trivial if [std::is_trivially_move_constructible_v](../../ty
 
 12) This overload participates in overload resolution only if [std::is_constructible_v](../../types/is_constructible.html)<E, [std::initializer_list](../initializer_list.html)<U>&, Args...> is true.
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/expected&action=edit&section=7 "Edit section: void partial specialization constructors")] void partial specialization constructors
+#### void partial specialization constructors
 
 14) This constructor is defined as deleted unless [std::is_copy_constructible_v](../../types/is_copy_constructible.html)<E> is true.
 
@@ -396,9 +396,9 @@ This constructor is trivial if [std::is_trivially_move_constructible_v](../../ty
 
 22) This overload participates in overload resolution only if [std::is_constructible_v](../../types/is_constructible.html)<E, [std::initializer_list](../initializer_list.html)<U>&, Args...> is true.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/expected&action=edit&section=8 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/expected&action=edit&section=9 "Edit section: Primary template constructors")] Primary template constructors
+#### Primary template constructors
 
 1) Throws any exception thrown by the initialization of the expected value.
 
@@ -421,19 +421,19 @@ noexcept([std::is_nothrow_move_constructible_v](../../types/is_move_constructibl
 
 11,12) Throws any exception thrown by the initialization of the unexpected value.
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/expected&action=edit&section=10 "Edit section: void partial specialization constructors")] void partial specialization constructors
+#### void partial specialization constructors
 
 14-19) Throws any exception thrown by the initialization of the unexpected value.
 
 21,22) Throws any exception thrown by the initialization of the unexpected value.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/expected&action=edit&section=11 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/expected&action=edit&section=12 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -441,12 +441,12 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 3886](https://cplusplus.github.io/LWG/issue3886) | C++23  | the default template argument of overload ([6](expected.html#Version_6)) was `T` | changed to [std::remove_cv_t](../../types/remove_cv.html)<T>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/expected&action=edit&section=13 "Edit section: See also")] See also
+### See also
 
 [ unexpected](unexpected.html "cpp/utility/expected/unexpected")(C++23) |  represented as an unexpected value   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/expected/dsc_unexpected&action=edit)  
+(class template)   
 ---|---  
 [ in_placein_place_typein_place_indexin_place_tin_place_type_tin_place_index_t](../in_place.html "cpp/utility/in place")(C++17) |  in-place construction tag  
-(tag)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_in_place&action=edit)  
+(tag)  
 [ unexpectunexpect_t](unexpect_t.html "cpp/utility/expected/unexpect t")(C++23) |  in-place construction tag for unexpected value in `expected`  
-(tag)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/expected/dsc_unexpect_t&action=edit)
+(tag)

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Function objects](../../functional.html "cpp/utility/functional")
 
@@ -255,7 +255,7 @@ Identity function object
 [unary_negate](unary_negate.html "cpp/utility/functional/unary negate")(until C++20*)  
 [binary_negate](binary_negate.html "cpp/utility/functional/binary negate")(until C++20*)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/navbar_content&action=edit)
+
 
 Defined in header `[<functional>](../../header/functional.html "cpp/header/functional")` |  |   
 ---|---|---  
@@ -282,14 +282,14 @@ Function object for performing comparisons. Unless specialised, invokes operator
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/equal_to&action=edit&section=1 "Edit section: Specializations")] Specializations
+### Specializations
 
 The standard library provides a specialization of `std::equal_to` when `T` is not specified, which leaves the parameter types and return type to be deduced.  |  [ equal_to<void>](equal_to_void.html "cpp/utility/functional/equal to void")(C++14) |  function object implementing x == y deducing parameter and return types   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_equal_to_void&action=edit)  
+(class template specialization)   
 ---|---  
 (since C++14)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/member_types&action=edit&section=T-1 "Template:cpp/utility/functional/member types")] Member types
+### Member types
 
 Type  |  Definition   
 ---|---  
@@ -299,7 +299,7 @@ Type  |  Definition
 These member types are obtained via publicly inheriting [std::binary_function](binary_function.html)<T, T, bool>.  | (until C++11)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/equal_to&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 operator() |  checks if the arguments are _equal_   
 (public member function)  
@@ -322,7 +322,7 @@ lhs, rhs  |  \-  |  values to compare
 
 true if lhs == rhs, false otherwise. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/impldef_exception&action=edit&section=T-1 "Template:cpp/impldef exception")] Exceptions
+### Exceptions
 
 May throw implementation-defined exceptions. 
 
@@ -336,14 +336,14 @@ May throw implementation-defined exceptions.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/equal_to&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ equal](../../algorithm/equal.html "cpp/algorithm/equal") |  determines if two sets of elements are the same   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_equal&action=edit)  
+(function template)   
 ---|---  
 [ not_equal_to](not_equal_to.html "cpp/utility/functional/not equal to") |  function object implementing x != y   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_not_equal_to&action=edit)  
+(class template)   
 [ less](less.html "cpp/utility/functional/less") |  function object implementing x < y   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_less&action=edit)  
+(class template)   
 [ ranges::equal_to](ranges/equal_to.html "cpp/utility/functional/ranges/equal to")(C++20) |  constrained function object implementing x == y   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/ranges/dsc_equal_to&action=edit)
+(class) 

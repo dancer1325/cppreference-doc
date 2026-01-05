@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Strings library](../../string.html "cpp/string")
 
@@ -40,7 +40,7 @@ Classes
 [basic_string_view](../basic_string_view.html "cpp/string/basic string view")(C++17)  
 [char_traits](../char_traits.html "cpp/string/char traits")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/navbar_content&action=edit)
+
 
 [`std::basic_string`](../basic_string.html "cpp/string/basic string")
 
@@ -133,7 +133,7 @@ basic_string_view](operator_basic_string_view.html "cpp/string/basic string/oper
 [hash<std::basic_string>](hash.html "cpp/string/basic string/hash")(C++11)  
 [Deduction guides](deduction_guides.html "cpp/string/basic string/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/navbar_content&action=edit)
+
 
 static const size_type npos = -1; |  |   
 ---|---|---  
@@ -141,11 +141,11 @@ static const size_type npos = -1; |  |
   
 This is a special value equal to the maximum value representable by the type [`size_type`](../basic_string.html#Member_types "cpp/string/basic string"). The exact meaning depends on context, but it is generally used either as end of string indicator by the functions that expect a string index or as the error indicator by the functions that return a string index. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/npos&action=edit&section=1 "Edit section: Note")] Note
+### Note
 
 Although the definition uses -1, `size_type` is an unsigned integer type, and the value of `npos` is the largest positive value it can hold, due to [signed-to-unsigned implicit conversion](../../language/implicit_cast.html#Integral_conversions "cpp/language/implicit conversion"). This is a portable way to specify the largest value of any unsigned type. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/npos&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -177,8 +177,8 @@ Output:
     st
     00011
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/npos&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ npos](../basic_string_view/npos.html "cpp/string/basic string view/npos")[static] |  special value. The exact meaning depends on the context   
-(public static member constant of `std::basic_string_view<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/dsc_npos&action=edit)  
+(public static member constant of `std::basic_string_view<CharT,Traits>`)   
 ---|---

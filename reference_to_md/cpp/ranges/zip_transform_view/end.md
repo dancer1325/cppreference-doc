@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::zip_transform_view`](../zip_transform_view.html "cpp/ranges/zip transform view")
 
@@ -258,7 +258,7 @@ Non-member functions
 [operator==(zip_transform_view::_sentinel_)](sentinel/operator_cmp.html "cpp/ranges/zip transform view/sentinel/operator cmp")  
 [operator-(zip_transform_view::_sentinel_)](sentinel/operator-.html "cpp/ranges/zip transform view/sentinel/operator-")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/zip_transform_view/navbar_content&action=edit)
+
 
 constexpr auto end(); |  (1)  |  (since C++23)  
 ---|---|---  
@@ -302,24 +302,24 @@ return /*sentinel*/<true>(zip_.end());
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/zip_transform_view/end&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/zip_transform_view/end&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 An iterator or sentinel representing the end of the `zip_transform_view`, as described above. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/zip_transform_view/end&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/zip_transform_view/end&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ begin](begin.html "cpp/ranges/zip transform view/begin") |  returns an iterator to the beginning   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/dsc_begin&action=edit)  
+(public member function)   
 ---|---  
 [ ranges::end](../end.html "cpp/ranges/end")(C++20) |  returns a sentinel indicating the end of a range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_end&action=edit)
+(customization point object)

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [`std::valarray`](../valarray.html "cpp/numeric/valarray")
 
@@ -155,7 +155,7 @@
   
 [Deduction guides](deduction_guides.html "cpp/numeric/valarray/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/navbar_content&action=edit)
+
 
 Defined in header `[<valarray>](../../header/valarray.html "cpp/header/valarray")` |  |   
 ---|---|---  
@@ -177,16 +177,16 @@ For each element in va computes arc tangent of the value of the element.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/atan&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 va  |  \-  |  value array to apply the operation to   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/atan&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Value array containing arc tangents of the values in va. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/atan&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Unqualified function (atan) is used to perform the computation. If such function is not available, [std::atan](../math/atan.html) is used due to [argument-dependent lookup](../../language/adl.html "cpp/language/adl"). 
 
@@ -202,7 +202,7 @@ The function can be implemented with the return type different from [std::valarr
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/atan&action=edit&section=4 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     template<class T>
@@ -217,7 +217,7 @@ The function can be implemented with the return type different from [std::valarr
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/atan&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -253,18 +253,18 @@ Output:
     f = atan(x) :  0.099669  0.291457  0.540420  0.732815
     g = tan(f)  :  0.100000  0.300000  0.600000  0.900000
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/atan&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ asin(std::valarray)](asin.html "cpp/numeric/valarray/asin") |  applies the function [std::asin](../math/asin.html "cpp/numeric/math/asin") to each element of valarray   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_asin&action=edit)  
+(function template)   
 ---|---  
 [ acos(std::valarray)](acos.html "cpp/numeric/valarray/acos") |  applies the function [std::acos](../math/acos.html "cpp/numeric/math/acos") to each element of valarray   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_acos&action=edit)  
+(function template)   
 [ atan2(std::valarray)](atan2.html "cpp/numeric/valarray/atan2") |  applies the function [std::atan2](../math/atan2.html "cpp/numeric/math/atan2") to a valarray and a value   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_atan2&action=edit)  
+(function template)   
 [ tan(std::valarray)](tan.html "cpp/numeric/valarray/tan") |  applies the function [std::tan](../math/tan.html "cpp/numeric/math/tan") to each element of valarray   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_tan&action=edit)  
+(function template)   
 [ atanatanfatanl](../math/atan.html "cpp/numeric/math/atan")(C++11)(C++11) |  computes arc tangent (\\({\small\arctan{x}}\\)arctan(x))   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_atan&action=edit)  
+(function)   
 [ atan(std::complex)](../complex/atan.html "cpp/numeric/complex/atan")(C++11) |  computes arc tangent of a complex number (\\({\small\arctan{z}}\\)arctan(z))   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_atan&action=edit)
+(function template) 

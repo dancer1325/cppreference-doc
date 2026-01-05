@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_filebuf`](../basic_filebuf.html "cpp/io/basic filebuf")
 
@@ -105,7 +105,7 @@ Protected member functions
 Non-member functions  
 [swap(std::basic_filebuf)](swap2.html "cpp/io/basic filebuf/swap2")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_filebuf/navbar_content&action=edit)
+
 
 protected:  
 virtual int sync() |  |   
@@ -127,28 +127,28 @@ If a get area exists (e.g. the file was opened for reading), the effect is imple
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_filebuf/sync&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_filebuf/sync&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 ​0​ in case of success, -1 in case of failure. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_filebuf/sync&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 `sync()` or its equivalent is implicitly called for output streams by [`close()`](close.html "cpp/io/basic filebuf/close"), [`seekoff()`](seekoff.html "cpp/io/basic filebuf/seekoff"), and [`seekpos()`](seekpos.html "cpp/io/basic filebuf/seekpos") and explicitly called by [std::basic_streambuf::pubsync()](../basic_streambuf/pubsync.html "cpp/io/basic streambuf/pubsync")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_filebuf/sync&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_filebuf/sync&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ pubsync](../basic_streambuf/pubsync.html "cpp/io/basic streambuf/pubsync") |  invokes sync()   
-(public member function of `std::basic_streambuf<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_streambuf/dsc_pubsync&action=edit)  
+(public member function of `std::basic_streambuf<CharT,Traits>`)   
 ---|---  
 [ fflush](../c/fflush.html "cpp/io/c/fflush") |  synchronizes an output stream with the actual file   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_fflush&action=edit)
+(function) 

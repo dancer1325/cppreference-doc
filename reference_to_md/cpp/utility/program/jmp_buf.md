@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Program support utilities](../program.html "cpp/utility/program")
 
@@ -181,7 +181,7 @@ Common vocabulary types
 [Types](../program.html#Types "cpp/utility/program")  
 **jmp_buf**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/program/navbar_content&action=edit)
+
 
 Defined in header `[<csetjmp>](../../header/csetjmp.html "cpp/header/csetjmp")` |  |   
 ---|---|---  
@@ -190,7 +190,7 @@ typedef /* unspecified */ jmp_buf; |  |
   
 The `std::jmp_buf` type is an array type suitable for storing information to restore a calling environment. The stored information is sufficient to restore execution at the correct block of the program and invocation of that block. The state of floating-point status flags, or open files, or any other data is not stored in an object of type `std::jmp_buf`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/program/jmp_buf&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -249,11 +249,11 @@ Output:
     Solving 1x² + 2x + 3 = 0...
     No real solution
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/program/jmp_buf&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ setjmp](setjmp.html "cpp/utility/program/setjmp") |  saves the context   
-(function macro) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/program/dsc_setjmp&action=edit)  
+(function macro)   
 ---|---  
 [ longjmp](longjmp.html "cpp/utility/program/longjmp") |  jumps to specified location   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/program/dsc_longjmp&action=edit)  
+(function)   
 [C documentation](../../../c/program/jmp_buf.html "c/program/jmp buf") for jmp_buf

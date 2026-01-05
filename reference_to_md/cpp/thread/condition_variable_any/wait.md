@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::condition_variable_any`](../condition_variable_any.html "cpp/thread/condition variable any")
 
@@ -189,7 +189,7 @@ Waiting
 [condition_variable_any::wait_for](wait_for.html "cpp/thread/condition variable any/wait for")  
 [condition_variable_any::wait_until](wait_until.html "cpp/thread/condition variable any/wait until")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/condition_variable_any/navbar_content&action=edit)
+
 
 template< class Lock >  
 void wait( Lock& lock ); |  (1)  |  (since C++11)  
@@ -245,7 +245,7 @@ Right after `wait` returns, lock is locked by the calling thread. If this postco
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/condition_variable_any/wait&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 lock  |  \-  |  an lock which must be locked by the calling thread   
 ---|---|---  
@@ -256,27 +256,27 @@ Type requirements
 -`Predicate` must meet the requirements of [FunctionObject](../../named_req/FunctionObject.html "cpp/named req/FunctionObject").   
 -pred() must be a valid expression, and its type and value category must meet the [BooleanTestable](../../named_req/BooleanTestable.html "cpp/named req/BooleanTestable") requirements.   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/condition_variable_any/wait&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1,2) (none)
 
 3) The latest result of pred() before returning to the caller.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/condition_variable_any/wait&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 1) Does not throw.
 
 2,3) Any exception thrown by pred.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/condition_variable_any/wait&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 The returned value of overload (3) indicates whether pred evaluated to true, regardless of whether there was a stop requested or not. 
 
 The effects of `notify_one()`/`notify_all()` and each of the three atomic parts of `wait()`/`wait_for()`/`wait_until()` (unlock+wait, wakeup, and lock) take place in a single total order that can be viewed as [modification order](../../atomic/memory_order.html#Modification_order "cpp/atomic/memory order") of an atomic variable: the order is specific to this individual condition variable. This makes it impossible for `notify_one()` to, for example, be delayed and unblock a thread that started waiting just after the call to `notify_one()` was made. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/condition_variable_any/wait&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/condition_variable/example1&action=edit)
+
 
 Run this code
     
@@ -341,7 +341,7 @@ Possible output:
     ...finished waiting. i == 1
     ...finished waiting. i == 1
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/condition_variable_any/wait&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -351,16 +351,16 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ([P2167R3](https://wg21.link/P2167R3))  | C++11  | convertibility to bool was too weak to reflect the expectation of implementations  | requirements strengthened   
 [LWG 2135](https://cplusplus.github.io/LWG/issue2135) | C++11  | the behavior was unclear if lock.lock() throws an exception  | calls [std::terminate](../../error/terminate.html "cpp/error/terminate") in this case   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/condition_variable_any/wait&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ wait_for](wait_for.html "cpp/thread/condition variable any/wait for") |  blocks the current thread until the condition variable is awakened or after the specified timeout duration   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/condition_variable/dsc_wait_for&action=edit)  
+(public member function)   
 ---|---  
 [ wait_until](wait_until.html "cpp/thread/condition variable any/wait until") |  blocks the current thread until the condition variable is awakened or until specified time point has been reached   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/condition_variable/dsc_wait_until&action=edit)  
+(public member function)   
 [C documentation](../../../c/thread/cnd_wait.html "c/thread/cnd wait") for cnd_wait  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/condition_variable_any/wait&action=edit&section=8 "Edit section: External links")] External links
+### External links
 
 [The Old New Thing](https://devblogs.microsoft.com/oldnewthing/20180201-00/?p=97946) article: Spurious wake-ups in Win32 condition variables.   
 ---

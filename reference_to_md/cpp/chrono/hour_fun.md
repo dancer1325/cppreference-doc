@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 Defined in header `[<chrono>](../header/chrono.html "cpp/header/chrono")` |  |   
 ---|---|---  
@@ -122,13 +122,13 @@ These functions aid in translating between a 12-hour format time of day, and a 2
 
 4) Returns the 24-hour equivalent of a 12-hour format time h, where is_pm determines whether the time is p.m.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/hour_fun&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 h  |  \-  |  12-hour or 24-hour format time to detect   
 ---|---|---  
 is_pm  |  \-  |  whether the 12-hour format time is p.m.   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/hour_fun&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) 0h <= h && h <= 11h
 
@@ -138,7 +138,7 @@ is_pm  |  \-  |  whether the 12-hour format time is p.m.
 
 4) If h is in range `[`1h`, `12h`]`, returns the 24-hour equivalent in range `[`0h`, `11h`]` if is_pm is false, or in range `[`12h`, `23h`]` otherwise. Otherwise, the return value is unspecified.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/hour_fun&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::source_location`](../source_location.html "cpp/utility/source location")
 
@@ -143,7 +143,7 @@ Field access
 [source_location::file_name](file_name.html "cpp/utility/source location/file name")  
 [source_location::function_name](function_name.html "cpp/utility/source location/function name")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/source_location/navbar_content&action=edit)
+
 
 constexpr [std::uint_least32_t](../../types/integer.html) line() const noexcept; |  |  (since C++20)  
 ---|---|---  
@@ -161,17 +161,17 @@ Returns the line number represented by this object.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/source_location/line&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/source_location/line&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The line number represented by this object. 
 
 An implementation is encouraged to return `0` when the line number is unknown. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/source_location/line&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -206,15 +206,15 @@ Output:
     19) C++20! 
     20) --
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/source_location/line&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ column](column.html "cpp/utility/source location/column") |  return the column number represented by this object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/source_location/dsc_column&action=edit)  
+(public member function)   
 ---|---  
 [ file_name](file_name.html "cpp/utility/source location/file name") |  return the file name represented by this object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/source_location/dsc_file_name&action=edit)  
+(public member function)   
 [ function_name](function_name.html "cpp/utility/source location/function name") |  return the name of the function represented by this object, if any   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/source_location/dsc_function_name&action=edit)  
+(public member function)   
 [ source_line](../stacktrace_entry/source_line.html "cpp/utility/stacktrace entry/source line") |  gets the line number that lexically relates the evaluation represented by the `stacktrace_entry`   
-(public member function of `std::stacktrace_entry`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/stacktrace_entry/dsc_source_line&action=edit)  
+(public member function of `std::stacktrace_entry`)   
 [ Filename and line information](../../preprocessor/line.html "cpp/preprocessor/line")

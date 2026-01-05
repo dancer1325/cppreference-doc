@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Strings library](../../string.html "cpp/string")
 
@@ -40,7 +40,7 @@ Classes
 [basic_string_view](../basic_string_view.html "cpp/string/basic string view")(C++17)  
 [char_traits](../char_traits.html "cpp/string/char traits")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/navbar_content&action=edit)
+
 
 [`std::basic_string`](../basic_string.html "cpp/string/basic string")
 
@@ -133,7 +133,7 @@ basic_string_view](operator_basic_string_view.html "cpp/string/basic string/oper
 [hash<std::basic_string>](hash.html "cpp/string/basic string/hash")(C++11)  
 [Deduction guides](deduction_guides.html "cpp/string/basic string/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/navbar_content&action=edit)
+
 
 size_type find_first_not_of( const basic_string& str,  
 size_type pos = 0 ) const; |  (1) | (noexcept since C++11)   
@@ -185,7 +185,7 @@ In all cases, equality is checked by calling [`Traits::eq`](../char_traits/cmp.h
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/find_first_not_of&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 str  |  \-  |  string identifying characters to search for   
 ---|---|---  
@@ -195,11 +195,11 @@ s  |  \-  |  pointer to a character string identifying characters to search for
 ch  |  \-  |  character identifying characters to search for   
 t  |  \-  |  object (convertible to [std::basic_string_view](../basic_string_view.html "cpp/string/basic string view")) identifying characters to search for   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/find_first_not_of&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Position of the found character or [std::string::npos](npos.html "cpp/string/basic string/npos") if no such character is found. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/find_first_not_of&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 1,4) Throws nothing.
 
@@ -211,7 +211,7 @@ noexcept([std::is_nothrow_convertible_v](../../types/is_convertible.html)<const 
 
 If an exception is thrown for any reason, this function has no effect ([strong exception safety guarantee](../../language/exceptions.html#Exception_safety "cpp/language/exceptions")). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/find_first_not_of&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -252,7 +252,7 @@ Output:
     Before: 1) %FIX, 2) %HACK, and 3) %TODO
     After: 1) %DONE%, 2) %DONE%, and 3) %DONE%
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/find_first_not_of&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -265,18 +265,18 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 C++17  | noexcept for overloads (4,5) were  
 accidentally dropped by LWG2064/LWG2946  | restored   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/find_first_not_of&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ find](find.html "cpp/string/basic string/find") |  finds the first occurrence of the given substring   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_find&action=edit)  
+(public member function)   
 ---|---  
 [ rfind](rfind.html "cpp/string/basic string/rfind") |  find the last occurrence of a substring   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_rfind&action=edit)  
+(public member function)   
 [ find_first_of](find_first_of.html "cpp/string/basic string/find first of") |  find first occurrence of characters   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_find_first_of&action=edit)  
+(public member function)   
 [ find_last_of](find_last_of.html "cpp/string/basic string/find last of") |  find last occurrence of characters   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_find_last_of&action=edit)  
+(public member function)   
 [ find_last_not_of](find_last_not_of.html "cpp/string/basic string/find last not of") |  find last absence of characters   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_find_last_not_of&action=edit)  
+(public member function)   
 [ find_first_not_of](../basic_string_view/find_first_not_of.html "cpp/string/basic string view/find first not of") |  find first absence of characters   
-(public member function of `std::basic_string_view<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/dsc_find_first_not_of&action=edit)
+(public member function of `std::basic_string_view<CharT,Traits>`) 

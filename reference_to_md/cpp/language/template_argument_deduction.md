@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [Declarations](declarations.html "cpp/language/declarations")
 
@@ -280,7 +280,7 @@ Other declarations
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/declarations/navbar_content&action=edit)
+
 
 [ Expressions](expressions.html "cpp/language/expressions")
 
@@ -349,7 +349,7 @@ Conversions
 [`dynamic_cast`](dynamic_cast.html "cpp/language/dynamic cast")  
 [`reinterpret_cast`](reinterpret_cast.html "cpp/language/reinterpret cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/expressions/navbar_content&action=edit)
+
 
 [ Templates](templates.html "cpp/language/templates")
 
@@ -373,7 +373,7 @@ Conversions
 [Constraints and concepts](constraints.html "cpp/language/constraints") (C++20)  
 [requires expression](requires.html "cpp/language/requires") (C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/templates/navbar_content&action=edit)
+
 
 In order to instantiate a [function template](function_template.html "cpp/language/function template"), every template argument must be known, but not every template argument has to be specified. When possible, the compiler will deduce the missing template arguments from the function arguments. This occurs when a function call is attempted, when an address of a function template is taken, and in some [other contexts](template_argument_deduction.html#Other_contexts): 
     
@@ -438,7 +438,7 @@ Template argument deduction for class templates takes place in declarations and 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/template_argument_deduction&action=edit&section=1 "Edit section: Deduction from a function call")] Deduction from a function call
+### Deduction from a function call
 
 Template argument deduction attempts to determine template arguments (types for type template parameters `**T**`i, templates for template template parameters `**TT**`i, and values for constant template parameters `**I**`i), which can be substituted into each parameter `**P**` to produce the type _deduced_ `**A**`, which is the same as the type of the argument `**A**`, after adjustments listed below. 
 
@@ -616,7 +616,7 @@ If the usual deduction from `**P**` and `**A**` fails, the following alternative
               // A is derived from deduced A
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/template_argument_deduction&action=edit&section=2 "Edit section: Non-deduced contexts")] Non-deduced contexts
+#### Non-deduced contexts
 
 In the following cases, the types, templates, and constants that are used to compose `**P**` do not participate in template argument deduction, but instead _use_ the template arguments that were either deduced elsewhere or explicitly specified. If a template parameter is used only in non-deduced contexts and is not explicitly specified, template argument deduction fails. 
 
@@ -790,7 +790,7 @@ In the following cases, the types, templates, and constants that are used to com
 
 In any case, if any part of a type name is non-deduced, the entire type name is non-deduced context. However, compound types can include both deduced and non-deduced type names. For example, in A<T>::B<T2>, `T` is non-deduced because of rule #1 (nested name specifier), and `T2` is non-deduced because it is part of the same type name, but in void(*f)(typename A<T>::B, A<T>), the `T` in A<T>::B is non-deduced (because of the same rule), while the `T` in A<T> is deduced. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/template_argument_deduction&action=edit&section=3 "Edit section: Deduction from a type")] Deduction from a type
+#### Deduction from a type
 
 Given a function parameter `**P**` that depends on one or more type template parameters `**T**`i, template template parameters `**TT**`i, or constant template parameters `**I**`i, and the corresponding argument `**A**`, deduction takes place if `**P**` has one of the following forms: 
 
@@ -993,7 +993,7 @@ Deduction of template template parameter can use the type used in the template s
     A<B> ab;
     f(ab); // P = A<TT>, A = A<B>: deduced TT = B, calls f(A<B>)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/template_argument_deduction&action=edit&section=4 "Edit section: Other contexts")] Other contexts
+### Other contexts
 
 Besides function calls and operator expressions, template argument deduction is used in the following situations: 
 
@@ -1032,7 +1032,7 @@ Template argument deduction is used in declarations of [functions](functions.htm
 If such function has multiple return statements, the deduction is performed for each return statement. All the resulting types must be the same and become the actual return type. If such function has no return statement, `**A**` is void() when deducing. Note: the meaning of decltype(auto) placeholder in variable and function declarations does not use template argument deduction.  | (since C++14)  
 ---|---  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/template_argument_deduction&action=edit&section=7 "Edit section: Overload resolution")] Overload resolution
+#### Overload resolution
 
 Template argument deduction is used during [overload resolution](overload_resolution.html "cpp/language/overload resolution"), when generating specializations from a candidate template function. `**P**` and `**A**` are the same as in a regular function call: 
     
@@ -1060,7 +1060,7 @@ Template argument deduction is used during [overload resolution](overload_resolu
 
 If deduction fails,or if deduction succeeds, but the specialization it produces would be invalid (for example, an overloaded operator whose parameters are neither class nor enumeration types), the specialization is not included in the overload set, similar to [SFINAE](sfinae.html "cpp/language/sfinae"). 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/template_argument_deduction&action=edit&section=8 "Edit section: Address of an overload set")] Address of an overload set
+#### Address of an overload set
 
 Template argument deduction is used when taking an [address of an overload set](overloaded_address.html "cpp/language/overloaded address"), which includes function templates. 
 
@@ -1084,7 +1084,7 @@ An additional rule is applied to the deduction in this case: when comparing func
 If the return type of the function template is a placeholder (auto or decltype(auto)), that return type is a non-deduced context and is determined from the instantiation.  | (since C++14)  
 ---|---  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/template_argument_deduction&action=edit&section=9 "Edit section: Partial ordering")] Partial ordering
+#### Partial ordering
 
 Template argument deduction is used during [partial ordering of overloaded function templates](function_template.html "cpp/language/function template"). 
 
@@ -1092,7 +1092,7 @@ Template argument deduction is used during [partial ordering of overloaded funct
 Reason: mini-example   
 ---|---  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/template_argument_deduction&action=edit&section=10 "Edit section: Conversion function template")] Conversion function template
+#### Conversion function template
 
 Template argument deduction is used when selecting [user-defined conversion function](cast_operator.html "cpp/language/cast operator") template arguments. 
 
@@ -1136,7 +1136,7 @@ c) if `**A**` is a function pointer type, the deduced `**A**` is allowed to be p
   
 See [member template](member_template.html#Conversion_function_templates "cpp/language/member template") for other rules regarding conversion function templates. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/template_argument_deduction&action=edit&section=11 "Edit section: Explicit instantiation")] Explicit instantiation
+#### Explicit instantiation
 
 Template argument deduction is used in [explicit instantiations](function_template.html#Explicit_instantiation "cpp/language/function template"), [explicit specializations](template_specialization.html "cpp/language/template specialization"), and those [friend declarations](friend.html#Template_friends "cpp/language/friend") where the declarator-id happens to refer to a specialization of a function template (for example, friend ostream& operator<< <> (...)), if not all template arguments are explicitly specified or defaulted, template argument deduction is used to determine which template's specialization is referred to. 
 
@@ -1157,7 +1157,7 @@ Template argument deduction is used in [explicit instantiations](function_templa
 
 An additional rule is applied to the deduction in this case: when comparing function parameters `**P**`i and `**A**`i, if any `**P**`i is an rvalue reference to cv-unqualified template parameter (a "forwarding reference") and the corresponding `**A**`i is an lvalue reference, then `**P**`i is adjusted to the template parameter type (T&& becomes T). 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/template_argument_deduction&action=edit&section=12 "Edit section: Deallocation function template")] Deallocation function template
+#### Deallocation function template
 
 Template argument deduction is used when determining if a [deallocation function](../memory/new/operator_delete.html "cpp/memory/new/operator delete") template specialization matches a given placement form of `operator new`. 
 
@@ -1198,7 +1198,7 @@ Template argument deduction is used when determining if a [deallocation function
         catch(const [std::exception](../error/exception.html)&) {}
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/template_argument_deduction&action=edit&section=13 "Edit section: Alias templates")] Alias templates
+### Alias templates
 
 [Alias templates](type_alias.html "cpp/language/type alias") are not deduced, except in [class template argument deduction](ctad.html#Deduction_for_alias_templates "cpp/language/class template argument deduction")(since C++20): 
     
@@ -1218,7 +1218,7 @@ Template argument deduction is used when determining if a [deallocation function
     void f(TT<int>);
     f(v); // error: TT cannot be deduced as "Vec" because Vec is an alias template
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/template_argument_deduction&action=edit&section=14 "Edit section: Implicit conversions")] Implicit conversions
+### Implicit conversions
 
 Type deduction does not consider implicit conversions (other than type adjustments listed above): that's the job for [overload resolution](overload_resolution.html "cpp/language/overload resolution"), which happens later.However, if deduction succeeds for all parameters that participate in template argument deduction, and all template arguments that aren't deduced are explicitly specified or defaulted, then the remaining function parameters are compared with the corresponding function arguments. For each remaining parameter `**P**` with a type that was non-dependent before substitution of any explicitly-specified template arguments, if the corresponding argument `**A**` cannot be implicitly converted to `**P**`, deduction fails. 
 
@@ -1246,7 +1246,7 @@ Parameters with dependent types in which no template-parameters participate in t
                  // the function call compiles as a call to #2 (deduction failure is SFINAE)
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/template_argument_deduction&action=edit&section=15 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

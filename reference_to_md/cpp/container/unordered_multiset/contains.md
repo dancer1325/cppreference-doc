@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 `[std::unordered_multiset](../unordered_multiset.html "cpp/container/unordered multiset")`
 
@@ -135,7 +135,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/unordered multiset/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/unordered_multiset/navbar_content&action=edit)
+
 
 bool contains( const Key& key ) const; |  (1) | (since C++20)   
 (constexpr since C++26)  
@@ -162,21 +162,21 @@ This overload participates in overload resolution only if `Hash` and `KeyEqual` 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/contains&action=edit&section=T-1 "Template:cpp/container/contains")] Parameters
+### Parameters
 
 key  |  \-  |  key value of the element to search for   
 ---|---|---  
 x  |  \-  |  a value of any type that can be transparently compared with a key   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/contains&action=edit&section=T-2 "Template:cpp/container/contains")] Return value
+### Return value
 
 true if there is such an element, otherwise false. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/contains&action=edit&section=T-3 "Template:cpp/container/contains")] Complexity
+### Complexity
 
 Constant on average, worst case linear in the size of the container. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/contains&action=edit&section=T-4 "Template:cpp/container/contains")] Example
+### Example
 
 Run this code
     
@@ -201,12 +201,12 @@ Output:
     2: Found
     5: Not found
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/contains&action=edit&section=T-5 "Template:cpp/container/contains")] See also
+### See also
 
 [ find](find.html "cpp/container/unordered multiset/find") |  finds element with specific key   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_find&action=edit)  
+(public member function)   
 ---|---  
 [ count](count.html "cpp/container/unordered multiset/count") |  returns the number of elements matching specific key   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_count&action=edit)  
+(public member function)   
 [ equal_range](equal_range.html "cpp/container/unordered multiset/equal range") |  returns range of elements matching a specific key   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_equal_range&action=edit)
+(public member function) 

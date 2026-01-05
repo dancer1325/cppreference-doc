@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Function objects](../functional.html "cpp/utility/functional")
 
@@ -255,7 +255,7 @@ Identity function object
 [unary_negate](functional/unary_negate.html "cpp/utility/functional/unary negate")(until C++20*)  
 [binary_negate](functional/binary_negate.html "cpp/utility/functional/binary negate")(until C++20*)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/navbar_content&action=edit)
+
 
 Defined in header `[<utility>](../header/utility.html "cpp/header/utility")` |  |   
 ---|---|---  
@@ -269,13 +269,13 @@ constexpr std::nontype_t<V> nontype {}; |  (2)  |  (since C++26)
 
 2) The corresponding `std::nontype` instance of (1) is a disambiguation argument tag that can be passed to the constructors of [std::function_ref](functional/function_ref.html) to indicate that the contained object should be constructed with the value of the constant template parameter `V`.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/nontype&action=edit&section=1 "Edit section: Template parameters")] Template parameters
+### Template parameters
 
 V  |  \-  |  constant template parameter of a [structural type](../language/template_parameters.html#Constant_template_parameter "cpp/language/template parameters").   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/nontype&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ function_ref](functional/function_ref.html "cpp/utility/functional/function ref")(C++26) |  non-owning wrapper of any callable object   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_function_ref&action=edit)  
+(class template)   
 ---|---

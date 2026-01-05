@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Bit manipulation](../utility/bit.html "cpp/utility/bit")
 
@@ -152,7 +152,7 @@ Common vocabulary types
 [Endian](../utility/bit.html#Endian "cpp/utility/bit")  
 [endian](../types/endian.html "cpp/types/endian")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/bit/navbar_content&action=edit)
+
 
 Defined in header `[<bit>](../header/bit.html "cpp/header/bit")` |  |   
 ---|---|---  
@@ -176,16 +176,16 @@ This overload participates in overload resolution only if `T` is an unsigned int
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/bit_width&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 x  |  \-  |  unsigned integer value   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/bit_width&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Zero if x is zero; otherwise, one plus the base-2 logarithm of x, with any fractional part discarded. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/bit_width&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 This function is equivalent to return [std::numeric_limits](../types/numeric_limits.html)<T>::digits - [std::countl_zero](countl_zero.html)(x);. 
 
@@ -193,7 +193,7 @@ This function is equivalent to return [std::numeric_limits](../types/numeric_lim
 ---|---|---|---  
 [`__cpp_lib_int_pow2`](../experimental/feature_test.html#cpp_lib_int_pow2 "cpp/feature test") | [`202002L`](../compiler_support/20.html#cpp_lib_int_pow2_202002L "cpp/compiler support/20") | (C++20) | [Integral power-of-2 operations](../utility/bit.html "cpp/utility/bit")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/bit_width&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -222,7 +222,7 @@ Output:
     bit_width( 0110 ) = 3
     bit_width( 0111 ) = 3
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/bit_width&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -230,10 +230,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 3656](https://cplusplus.github.io/LWG/issue3656) | C++20  | the return type of `bit_width` is the same as the type of its function argument  | made it int  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/bit_width&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ countl_zero](countl_zero.html "cpp/numeric/countl zero")(C++20) |  counts the number of consecutive ​0​ bits, starting from the most significant bit   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/dsc_countl_zero&action=edit)  
+(function template)   
 ---|---
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

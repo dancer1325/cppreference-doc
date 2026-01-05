@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](copy.html "cpp/algorithm/ranges/co
 [uninitialized_default_construct_n](../../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 [Constrained algorithms](../ranges.html "cpp/algorithm/ranges")
 
@@ -550,7 +550,7 @@ All names in this menu belong to namespace `std::ranges`
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -595,7 +595,7 @@ The function-like entities described on this page are [_algorithm function objec
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/unique&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  the iterator-sentinel pair defining the [range](../../iterator.html#Ranges "cpp/iterator") of elements to process   
 ---|---|---  
@@ -603,21 +603,21 @@ r  |  \-  |  the range of elements to process
 comp  |  \-  |  the binary predicate to compare the projected elements   
 proj  |  \-  |  the projection to apply to the elements   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/unique&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Returns {ret, last}, where `ret` is a past-the-end iterator for the new end of the range. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/unique&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 For nonempty ranges, exactly [ranges::distance](../../iterator/ranges/distance.html)(first, last) - 1 applications of the corresponding predicate comp and no more that twice as many applications of any projection proj. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/unique&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 Removing is done by shifting (by means of move assignment) the elements in the range in such a way that the elements that are not to be removed appear in the beginning of the range. Relative order of the elements that remain is preserved and the _physical_ size of the container is unchanged. Iterators in `[`ret`, `last`)` (if any) are still dereferenceable, but the elements themselves have unspecified values (as per [MoveAssignable](../../named_req/MoveAssignable.html "cpp/named req/MoveAssignable") post-condition). 
 
 A call to `ranges::unique` is sometimes followed by a call to a container’s `erase` member function, which erases the unspecified values and reduces the _physical_ size of the container to match its new _logical_ size. These two invocations together model the [_Erase–remove_ idiom](https://en.wikipedia.org/wiki/Erase-remove_idiom "enwiki:Erase-remove idiom"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/unique&action=edit&section=5 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     struct unique_fn
@@ -655,7 +655,7 @@ A call to `ranges::unique` is sometimes followed by a call to a container’s `e
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/unique&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -723,18 +723,18 @@ Output:
     5) (1,1) (-1,2) (-2,3) (2,4) (-3,5)
     6) (1,1) (-2,3) (-3,5)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/unique&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ ranges::unique_copy](unique_copy.html "cpp/algorithm/ranges/unique copy")(C++20) |  creates a copy of some range of elements that contains no consecutive duplicates  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_unique_copy&action=edit)  
+(algorithm function object)  
 ---|---  
 [ ranges::adjacent_find](adjacent_find.html "cpp/algorithm/ranges/adjacent find")(C++20) |  finds the first two adjacent items that are equal (or satisfy a given predicate)  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_adjacent_find&action=edit)  
+(algorithm function object)  
 [ ranges::removeranges::remove_if](remove.html "cpp/algorithm/ranges/remove")(C++20)(C++20) |  removes elements satisfying specific criteria  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_remove&action=edit)  
+(algorithm function object)  
 [ unique](../unique.html "cpp/algorithm/unique") |  removes consecutive duplicate elements in a range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_unique&action=edit)  
+(function template)   
 [ unique](../../container/list/unique.html "cpp/container/list/unique") |  removes consecutive duplicate elements   
-(public member function of `std::list<T,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_unique&action=edit)  
+(public member function of `std::list<T,Allocator>`)   
 [ unique](../../container/forward_list/unique.html "cpp/container/forward list/unique") |  removes consecutive duplicate elements   
-(public member function of `std::forward_list<T,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_unique&action=edit)
+(public member function of `std::forward_list<T,Allocator>`) 

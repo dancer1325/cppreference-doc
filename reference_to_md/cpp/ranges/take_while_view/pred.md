@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::take_while_view`](../take_while_view.html "cpp/ranges/take while view")
 
@@ -241,7 +241,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
 [take_while_view::_sentinel_ ::base](sentinel/base.html "cpp/ranges/take while view/sentinel/base")  
 [operator==(take_while_view::_sentinel_)](sentinel/operator_cmp.html "cpp/ranges/take while view/sentinel/operator cmp")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/take_while_view/navbar_content&action=edit)
+
 
 constexpr const Pred& pred() const; |  |  (since C++20)  
 ---|---|---  
@@ -261,15 +261,15 @@ If *this does not store a predicate (e.g. an exception is thrown on the assignme
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/take_while_view/pred&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/take_while_view/pred&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 A reference to the stored predicate. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/take_while_view/pred&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -284,8 +284,8 @@ Run this code
         static_assert(pred(3));
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/take_while_view/pred&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ base](base.html "cpp/ranges/take while view/base") |  returns a copy of the underlying (adapted) view   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/dsc_base&action=edit)  
+(public member function)   
 ---|---

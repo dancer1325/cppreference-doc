@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::any`](../any.html "cpp/utility/any")
 
@@ -151,7 +151,7 @@ Common vocabulary types
 [Helper classes](../any.html#Helper_classes "cpp/utility/any")  
 [bad_any_cast](bad_any_cast.html "cpp/utility/any/bad any cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/any/navbar_content&action=edit)
+
 
 const [std::type_info](../../types/type_info.html)& type() const noexcept; |  |  (since C++17)  
 ---|---|---  
@@ -159,11 +159,11 @@ const [std::type_info](../../types/type_info.html)& type() const noexcept; |  | 
   
 Queries the contained type. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/any/type&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 The typeid of the contained value if instance is non-empty, otherwise typeid(void). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/any/type&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 The example demonstrates `std::any` visitor idiom with ability to register new visitors at compile- and run-time.
 
@@ -258,8 +258,8 @@ Possible output:
     Register visitor for type "y"
     0xf
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/any/type&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ type_index](../../types/type_index.html "cpp/types/type index")(C++11) |  wrapper around a `type_info` object, that can be used as index in associative and unordered associative containers   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_type_index&action=edit)  
+(class)   
 ---|---

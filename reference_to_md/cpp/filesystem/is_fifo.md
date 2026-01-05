@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Filesystem library](../filesystem.html "cpp/filesystem")
 
@@ -100,7 +100,7 @@ filesystem::symlink_status](status.html "cpp/filesystem/status")
 [filesystem::is_socket](is_socket.html "cpp/filesystem/is socket")  
 [filesystem::is_symlink](is_symlink.html "cpp/filesystem/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/navbar_content&action=edit)
+
 
 Defined in header `[<filesystem>](../header/filesystem.html "cpp/header/filesystem")` |  |   
 ---|---|---  
@@ -126,25 +126,25 @@ Checks if the given file status or path corresponds to a FIFO or pipe file as if
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/is_fifo&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 s  |  \-  |  file status to check   
 ---|---|---  
 p  |  \-  |  path to query   
 ec  |  \-  |  error code to modify in case of errors   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/is_fifo&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 true if the file indicated by p or if the type indicated s refers to a FIFO pipe, false otherwise. The non-throwing overload returns false if an error occurs. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/is_fifo&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Any overload not marked `noexcept` may throw [std::bad_alloc](../memory/new/bad_alloc.html "cpp/memory/new/bad alloc") if memory allocation fails.  
 
 
 2,3) Sets a [std::error_code](../error/error_code.html)& parameter to the OS API error code if an OS API call fails, and executes ec.[`clear`](../error/error_code/clear.html "cpp/error/error code/clear")() if no errors occur.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/is_fifo&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -222,31 +222,31 @@ Possible output:
     "/dev/sda" is a block device
     "sandbox/no" does not exist
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/is_fifo&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ statussymlink_status](status.html "cpp/filesystem/status")(C++17)(C++17) |  determines file attributes  
 determines file attributes, checking the symlink target   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_status&action=edit)  
+(function)   
 ---|---  
 [ file_status](file_status.html "cpp/filesystem/file status")(C++17) |  represents file type and permissions   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_file_status&action=edit)  
+(class)   
 [ status_known](status_known.html "cpp/filesystem/status known")(C++17) |  checks whether file status is known   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_status_known&action=edit)  
+(function)   
 [ is_block_file](is_block_file.html "cpp/filesystem/is block file")(C++17) |  checks whether the given path refers to block device   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_is_block_file&action=edit)  
+(function)   
 [ is_character_file](is_character_file.html "cpp/filesystem/is character file")(C++17) |  checks whether the given path refers to a character device   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_is_character_file&action=edit)  
+(function)   
 [ is_directory](is_directory.html "cpp/filesystem/is directory")(C++17) |  checks whether the given path refers to a directory   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_is_directory&action=edit)  
+(function)   
 [ is_other](is_other.html "cpp/filesystem/is other")(C++17) |  checks whether the argument refers to an _other_ file   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_is_other&action=edit)  
+(function)   
 [ is_regular_file](is_regular_file.html "cpp/filesystem/is regular file")(C++17) |  checks whether the argument refers to a regular file   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_is_regular_file&action=edit)  
+(function)   
 [ is_socket](is_socket.html "cpp/filesystem/is socket")(C++17) |  checks whether the argument refers to a named IPC socket   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_is_socket&action=edit)  
+(function)   
 [ is_symlink](is_symlink.html "cpp/filesystem/is symlink")(C++17) |  checks whether the argument refers to a symbolic link   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_is_symlink&action=edit)  
+(function)   
 [ exists](exists.html "cpp/filesystem/exists")(C++17) |  checks whether path refers to existing file system object   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_exists&action=edit)  
+(function)   
 [ is_fifo](directory_entry/is_fifo.html "cpp/filesystem/directory entry/is fifo") |  checks whether the directory entry refers to a named pipe   
-(public member function of `std::filesystem::directory_entry`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/directory_entry/dsc_is_fifo&action=edit)
+(public member function of `std::filesystem::directory_entry`) 

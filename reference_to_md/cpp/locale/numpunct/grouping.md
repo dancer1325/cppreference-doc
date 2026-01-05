@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Localization library](../../locale.html "cpp/locale")
 
@@ -152,7 +152,7 @@ base classes](../../locale.html#Facet_category_base_classes "cpp/locale")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/navbar_content&action=edit)
+
 
 [`std::numpunct`](../numpunct.html "cpp/locale/numpunct")
 
@@ -165,7 +165,7 @@ Member functions
 **numpunct::grouping numpunct::do_grouping**  
 [numpunct::truenamenumpunct::do_truenamenumpunct::falsenamenumpunct::do_falsename](truefalsename.html "cpp/locale/numpunct/truefalsename")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/numpunct/navbar_content&action=edit)
+
 
 Defined in header `[<locale>](../../header/locale.html "cpp/header/locale")` |  |   
 ---|---|---  
@@ -181,11 +181,11 @@ virtual [std::string](../../string/basic_string.html) do_grouping() const; |  (2
 
 This function returns a string, vec, which is used as a vector of integer values. (For example, "\003" specifies groups of 3 digits each, while "3" implies groups of 51 digits each.). Each element vec[i] represents the number of digits in the `i`th digit group of the integer part of the number, counting from the right: vec[0] holds the number of digits in the rightmost group, vec[1] \- in the second group from the right, etc. The grouping indicated by the last character, vec[vec.size()-1], is repeatedly reused to group all remaining digits in the (left part of) the number. If vec[i] is non-positive or equals [CHAR_MAX](../../types/climits.html) the size of the corresponding digit group is unlimited. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/numpunct/grouping&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 The object of type [std::string](../../string/basic_string.html "cpp/string/basic string") holding the groups. The standard specializations of `std::numpunct` return an empty string, indicating no grouping. Typical groupings (e.g. the `en_US` locale) return "\003". 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/numpunct/grouping&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -225,8 +225,8 @@ Output:
     Locale with \1\2\3 grouping: 18,446,744,073,709,551,61,5
     Same, for a floating-point number: 123,456,78,9.123457
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/numpunct/grouping&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ do_thousands_sep](thousands_sep.html "cpp/locale/numpunct/thousands sep")[virtual] |  provides the character to use as thousands separator   
-(virtual protected member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/numpunct/dsc_do_thousands_sep&action=edit)  
+(virtual protected member function)   
 ---|---

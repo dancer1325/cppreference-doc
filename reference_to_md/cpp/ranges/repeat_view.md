@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 **`std::ranges::repeat_view`**
 
@@ -254,7 +254,7 @@ operator<=>(repeat_view::_iterator_)](repeat_view/iterator.html#Non-member_funct
 [operator+(repeat_view::_iterator_)](repeat_view/iterator.html#Non-member_functions "cpp/ranges/repeat view/iterator")  
 [operator-(repeat_view::_iterator_)](repeat_view/iterator.html#Non-member_functions "cpp/ranges/repeat view/iterator")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/repeat_view/navbar_content&action=edit)
+
 
 Defined in header `[<ranges>](../header/ranges.html "cpp/header/ranges")` |  |   
 ---|---|---  
@@ -313,7 +313,7 @@ concept /*integer-like-with-usable-difference-type*/ =
 
 The name `views::repeat` denotes a _customization point object_ , which is a const [function object](../named_req/FunctionObject.html "cpp/named req/FunctionObject") of a [literal](../named_req/LiteralType.html "cpp/named req/LiteralType") [`semiregular`](../concepts/semiregular.html "cpp/concepts/semiregular") class type. See [CustomizationPointObject](../named_req/CustomizationPointObject.html "cpp/named req/CustomizationPointObject") for details. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/repeat_view&action=edit&section=1 "Edit section: Data members")] Data members
+### Data members
 
 Member  |  Definition   
 ---|---  
@@ -322,7 +322,7 @@ Member  |  Definition
 `Bound` `_bound__` |  the sentinel value  
 (exposition-only member object*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/repeat_view&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](repeat_view.html#ctor "cpp/ranges/repeat view") |  creates a `repeat_view`   
 (public member function)  
@@ -337,19 +337,19 @@ Member  |  Definition
 #####  Inherited from [std::ranges::view_interface](view_interface.html "cpp/ranges/view interface")  
   
 [ empty](view_interface/empty.html "cpp/ranges/view interface/empty") |  returns whether the derived view is empty, provided only if it satisfies [`sized_range`](sized_range.html "cpp/ranges/sized range") or [`forward_range`](forward_range.html "cpp/ranges/forward range")   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_empty&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ cbegin](view_interface/cbegin.html "cpp/ranges/view interface/cbegin")(C++23) |  returns a constant iterator to the beginning of the range   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_cbegin&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ cend](view_interface/cend.html "cpp/ranges/view interface/cend")(C++23) |  returns a sentinel for the constant iterator of the range   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_cend&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ operator bool](view_interface/operator_bool.html "cpp/ranges/view interface/operator bool") |  returns whether the derived view is not empty, provided only if [ranges::empty](empty.html "cpp/ranges/empty") is applicable to it   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_operator_bool&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ front](view_interface/front.html "cpp/ranges/view interface/front") |  returns the first element in the derived view, provided if it satisfies [`forward_range`](forward_range.html "cpp/ranges/forward range")   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_front&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ back](view_interface/back.html "cpp/ranges/view interface/back") |  returns the last element in the derived view, provided only if it satisfies [`bidirectional_range`](bidirectional_range.html "cpp/ranges/bidirectional range") and [`common_range`](common_range.html "cpp/ranges/common range")   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_back&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ operator[]](view_interface/operator_at.html "cpp/ranges/view interface/operator at") |  returns the `n`th element in the derived view, provided only if it satisfies [`random_access_range`](random_access_range.html "cpp/ranges/random access range")   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_operator_at&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
   
 ##  std::ranges::repeat_view::repeat_view
 
@@ -416,26 +416,26 @@ requires (![std::same_as](../concepts/same_as.html)<Bound, [std::unreachable_sen
   
 Returns `_[to-unsigned-like](../ranges.html#to-unsigned-like "cpp/ranges")_` ﻿(`_[bound_](repeat_view.html#bound)_` ﻿). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/repeat_view&action=edit&section=4 "Edit section: Deduction guides")] Deduction guides
+### Deduction guides
 
 template< class W, class Bound = [std::unreachable_sentinel_t](../iterator/unreachable_sentinel_t.html) >  
 repeat_view( W, Bound = Bound() ) -> repeat_view<W, Bound>; |  |  (since C++23)  
 ---|---|---  
 | |   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/repeat_view&action=edit&section=5 "Edit section: Nested classes")] Nested classes
+### Nested classes
 
 [_iterator_](repeat_view/iterator.html "cpp/ranges/repeat view/iterator") |  the iterator type  
 (exposition-only member class*)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/repeat_view&action=edit&section=6 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../utility/feature_test.html "cpp/utility/feature test") macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_ranges_repeat`](../experimental/feature_test.html#cpp_lib_ranges_repeat "cpp/feature test") | [`202207L`](../compiler_support/23.html#cpp_lib_ranges_repeat_202207L "cpp/compiler support/23") | (C++23) | [`std::ranges::repeat_view`](repeat_view.html#top)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/repeat_view&action=edit&section=7 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -465,7 +465,7 @@ Output:
     C++ C++ C++
     I know that you know that I know that you know that I know that you know that ...
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/repeat_view&action=edit&section=8 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -476,10 +476,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 did not create a nested `repeat_view` | creates a nested  
 `repeat_view`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/repeat_view&action=edit&section=9 "Edit section: See also")] See also
+### See also
 
 [ ranges::iota_viewviews::iota](iota_view.html "cpp/ranges/iota view")(C++20) |  a [`view`](view.html "cpp/ranges/view") consisting of a sequence generated by repeatedly incrementing an initial value  
-(class template) (customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_iota_view&action=edit)  
+(class template) (customization point object)  
 ---|---
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Library fundamentals v2](lib_extensions_2.html "cpp/experimental/lib extensions 2")
 
@@ -74,7 +74,7 @@
 [uniform container erasure](lib_extensions_2.html#Uniform_container_erasure "cpp/experimental/lib extensions 2")  
 [logical operator type traits](lib_extensions_2.html#Logical_operator_type_traits "cpp/experimental/lib extensions 2")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions_2/navbar_content&action=edit)
+
 
 ![](https://upload.cppreference.com/mwiki/images/3/31/Imbox_notice.png) |  **Merged into ISO C++** The functionality described on this page was merged into the mainline ISO C++ standard as of 3/2016, see [`std::not_fn`](../utility/functional/not_fn.html "cpp/utility/functional/not fn") (since C++17)  
 ---|---  
@@ -99,12 +99,12 @@ Creates a forwarding call wrapper that returns the complement of the callable ob
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/not_fn&action=edit&section=1 "Edit section: Parameters")] Parameters 
+### Parameters 
 
 f  |  \-  |  the object from which the [Callable](../named_req/Callable.html "cpp/named req/Callable") object held by the wrapper is constructed   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/not_fn&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Let `FD` be [std::decay_t](../types/decay.html)<F> and `fd` be an lvalue of type `FD` constructed from [std::forward](../utility/forward.html)<F>(f). 
 
@@ -112,15 +112,15 @@ Let `FD` be [std::decay_t](../types/decay.html)<F> and `fd` be an lvalue of type
 
 The returned call wrapper is always [MoveConstructible](../named_req/MoveConstructible.html "cpp/named req/MoveConstructible"), and is [CopyConstructible](../named_req/CopyConstructible.html "cpp/named req/CopyConstructible") if FD is [CopyConstructible](../named_req/CopyConstructible.html "cpp/named req/CopyConstructible"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/not_fn&action=edit&section=3 "Edit section: Remarks")] Remarks 
+### Remarks 
 
 If `fd` is not [Callable](../named_req/Callable.html "cpp/named req/Callable"), or [std::is_constructible](../types/is_constructible.html)<FD, F>::value is not `true`, the behavior is undefined. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/not_fn&action=edit&section=4 "Edit section: Exceptions")] Exceptions 
+### Exceptions 
 
 Throws no exceptions, unless the construction of `fd` throws. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/not_fn&action=edit&section=5 "Edit section: Possible implementation")] Possible implementation 
+### Possible implementation 
     
     
     namespace detail {
@@ -162,12 +162,12 @@ Throws no exceptions, unless the construction of `fd` throws.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/not_fn&action=edit&section=6 "Edit section: Notes")] Notes 
+### Notes 
 
 `not_fn` is intended to replace the C++03-era negators [std::not1](../utility/functional/not1.html "cpp/utility/functional/not1") and [std::not2](../utility/functional/not2.html "cpp/utility/functional/not2"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/not_fn&action=edit&section=7 "Edit section: See also")] See also 
+### See also 
 
 [ not_fn](../utility/functional/not_fn.html "cpp/utility/functional/not fn")(C++17) |  creates a function object that returns the complement of the result of the function object it holds   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_not_fn&action=edit)  
+(function template)   
 ---|---

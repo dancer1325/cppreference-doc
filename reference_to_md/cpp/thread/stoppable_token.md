@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 Defined in header `[<stop_token>](../header/stop_token.html "cpp/header/stop token")` |  |   
 ---|---|---  
@@ -194,13 +194,13 @@ struct /*check-type-alias-exists*/; // not defined |  |  (exposition only*)
   
 The concept `stoppable_token<Token>` specifies the basic interface of a stop token that is [`copyable`](../concepts/copyable.html "cpp/concepts/copyable") and [`equality_comparable`](../concepts/equality_comparable.html "cpp/concepts/equality comparable") and allows polling to see if the stop request is possible and whether the request has been made. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/stoppable_token&action=edit&section=1 "Edit section: Semantic requirements")] Semantic requirements
+### Semantic requirements
 
 | This section is incomplete   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/stoppable_token&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ unstoppable_token](unstoppable_token.html "cpp/thread/unstoppable token")(C++26) |  specifies a stop token that does not allow stopping   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_unstoppable_token&action=edit)  
+(concept)   
 ---|---

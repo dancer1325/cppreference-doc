@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 Defined in header `[<atomic>](../header/atomic.html "cpp/header/atomic")` |  |   
 ---|---|---  
@@ -183,13 +183,13 @@ Defined in header `[<atomic>](../header/atomic.html "cpp/header/atomic")` |  |
   
 Expands to an expression which can be used to initialize an [std::atomic](atomic.html "cpp/atomic/atomic") object that can be initialized from `value`. If the atomic object has static storage duration, this initialization is [constant initialization](../language/constant_initialization.html "cpp/language/constant initialization"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/ATOMIC_VAR_INIT&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 Accessing the variable during initialization from another thread, even through an atomic operation, is a data race (it may happen if the address is immediately passed to another thread with a [std::memory_order_relaxed](memory_order.html "cpp/atomic/memory order") operation) 
 
 This macro is primarily provided for compatibility with C; it behaves the same as the constructor of [std::atomic](atomic.html "cpp/atomic/atomic"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/ATOMIC_VAR_INIT&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -209,11 +209,11 @@ Output:
     
     Initialized std::atomic<int> as: 1
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/ATOMIC_VAR_INIT&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ atomic_init](atomic_init.html "cpp/atomic/atomic init")(C++11)(deprecated in C++20) |  non-atomic initialization of a default-constructed atomic object   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/dsc_atomic_init&action=edit)  
+(function template)   
 ---|---  
 [ (constructor)](atomic/atomic.html "cpp/atomic/atomic/atomic") |  constructs an atomic object   
-(public member function of `std::atomic<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_constructor&action=edit)  
+(public member function of `std::atomic<T>`)   
 [C documentation](../../c/atomic/ATOMIC_VAR_INIT.html "c/atomic/ATOMIC VAR INIT") for ATOMIC_VAR_INIT

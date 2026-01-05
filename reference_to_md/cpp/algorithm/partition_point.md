@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](ranges/copy.html "cpp/algorithm/ra
 [uninitialized_default_construct_n](../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -322,7 +322,7 @@ If the elements elem of `[`first`, `last`)` are not [partitioned](../algorithm.h
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/partition_point&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  the pair of iterators defining the partitioned [range](../iterator.html#Ranges "cpp/iterator") of elements to examine   
 ---|---|---  
@@ -332,19 +332,19 @@ Type requirements
 -`ForwardIt` must meet the requirements of [LegacyForwardIterator](../named_req/ForwardIterator.html "cpp/named req/ForwardIterator").   
 -`UnaryPred` must meet the requirements of [Predicate](../named_req/Predicate.html "cpp/named req/Predicate").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/partition_point&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The iterator past the end of the first partition within `[`first`, `last`)` or last if all elements satisfy p. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/partition_point&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Given \\(\scriptsize N\\)N as [std::distance](../iterator/distance.html)(first, last), performs \\(\scriptsize O(log(N))\\)O(log(N)) applications of the predicate p. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/partition_point&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 This algorithm is a more general form of [std::lower_bound](lower_bound.html "cpp/algorithm/lower bound"), which can be expressed in terms of `std::partition_point` with the predicate [&](const auto& e) { return e < value; });. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/partition_point&action=edit&section=5 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     template<class ForwardIt, class UnaryPred>
@@ -369,7 +369,7 @@ This algorithm is a more general form of [std::lower_bound](lower_bound.html "cp
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/partition_point&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -410,14 +410,14 @@ Possible output:
     First partition (all even elements): 8 2 6 4
     Second partition (all odd elements): 5 3 7 1 9
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/partition_point&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ findfind_iffind_if_not](find.html "cpp/algorithm/find")(C++11) |  finds the first element satisfying specific criteria   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_find&action=edit)  
+(function template)   
 ---|---  
 [ is_sorted](is_sorted.html "cpp/algorithm/is sorted")(C++11) |  checks whether a range is sorted into ascending order   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_is_sorted&action=edit)  
+(function template)   
 [ lower_bound](lower_bound.html "cpp/algorithm/lower bound") |  returns an iterator to the first element _not less_ than the given value   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_lower_bound&action=edit)  
+(function template)   
 [ ranges::partition_point](ranges/partition_point.html "cpp/algorithm/ranges/partition point")(C++20) |  locates the partition point of a partitioned range  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_partition_point&action=edit)
+(algorithm function object)

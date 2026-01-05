@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [Data-parallel types (SIMD)](../simd.html "cpp/numeric/simd")
 
@@ -119,7 +119,7 @@
 [rebind](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/simd/rebind&action=edit&redlink=1 "cpp/numeric/simd/rebind \(page does not exist\)")  
 [resize](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/simd/resize&action=edit&redlink=1 "cpp/numeric/simd/resize \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/simd/navbar_content&action=edit)
+
 
 **`std::datapar::basic_simd`**
 
@@ -144,7 +144,7 @@
   
 [_select_(std::datapar::basic_simd)](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/simd/basic_simd/select&action=edit&redlink=1 "cpp/numeric/simd/basic simd/select \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/simd/basic_simd/navbar_content&action=edit)
+
 
 Defined in header `[<simd>](../../header/simd.html "cpp/header/simd")` |  |   
 ---|---|---  
@@ -185,14 +185,14 @@ If basic_simd<T, Abi> is enabled, basic_simd<T, Abi> is [TriviallyCopyable](../.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/simd/basic_simd&action=edit&section=1 "Edit section: Template parameters")] Template parameters
+### Template parameters
 
 T  |  \-  |  element type; a vectorizable type   
 ---|---|---  
 Abi  |  \-  |  [tag type](../simd.html#ABI_tags "cpp/numeric/simd") used to determine the width and storage   
 N  |  \-  |  the width of the data-parallel type; the number of elements   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/simd/basic_simd&action=edit&section=2 "Edit section: Member types")] Member types
+### Member types
 
 Type  |  Definition   
 ---|---  
@@ -200,39 +200,39 @@ Type  |  Definition
 `mask_type` |  datapar::basic_simd_mask<sizeof(T), Abi>  
 `abi_type` |  `Abi`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/simd/basic_simd&action=edit&section=3 "Edit section: Member constant")] Member constant
+### Member constant
 
 Name  |  Description   
 ---|---  
 constexpr [std::integral_constant](../../types/integral_constant.html)<`_[simd-size-type](../simd.html#simd-size-type "cpp/numeric/simd")_` ,` `` _[simd-size-v](../simd.html#simd-size-v "cpp/numeric/simd")_` <T, Abi>> size[static] |  the width of `basic_simd`   
 (public static member constant)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/simd/basic_simd&action=edit&section=4 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/simd/basic_simd/basic_simd&action=edit&redlink=1 "cpp/numeric/simd/basic simd/basic simd \(page does not exist\)") |  constructs a `basic_simd` object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/simd/basic_simd/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ operator[]](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/simd/basic_simd/operator_at&action=edit&redlink=1 "cpp/numeric/simd/basic simd/operator at \(page does not exist\)") |  accesses specified element   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/simd/basic_simd/dsc_operator_at&action=edit)  
+(public member function)   
 [ operator++operator++(int)operator--operator--(int)](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/simd/basic_simd/operator_mem_arith&action=edit&redlink=1 "cpp/numeric/simd/basic simd/operator mem arith \(page does not exist\)") |  element-wise increment and decrement   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/simd/basic_simd/dsc_operator_mem_arith&action=edit)  
+(public member function)   
 [ operator!operator~operator+operator-](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/simd/basic_simd/operator_mem_arith2&action=edit&redlink=1 "cpp/numeric/simd/basic simd/operator mem arith2 \(page does not exist\)") |  element-wise unary operators   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/simd/basic_simd/dsc_operator_mem_arith2&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/simd/basic_simd&action=edit&section=5 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ operator+operator-operator*operator/operator%operator&operator|operator^operator<<operator>>](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/simd/basic_simd/operator_arith&action=edit&redlink=1 "cpp/numeric/simd/basic simd/operator arith \(page does not exist\)")(C++26) |  element-wise binary operators   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/simd/basic_simd/dsc_operator_arith&action=edit)  
+(function)   
 ---|---  
 [ operator+=operator-=operator*=operator/=operator%=operator&=operator|=operator^=operator<<=operator>>=](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/simd/basic_simd/operator_compound&action=edit&redlink=1 "cpp/numeric/simd/basic simd/operator compound \(page does not exist\)")(C++26) |  element-wise compound binary operators   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/simd/basic_simd/dsc_operator_compound&action=edit)  
+(function)   
 [ operator==operator!=operator>=operator<=operator>operator<](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/simd/basic_simd/operator_cmp&action=edit&redlink=1 "cpp/numeric/simd/basic simd/operator cmp \(page does not exist\)")(C++26) |  element-wise relational operators   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/simd/basic_simd/dsc_operator_cmp&action=edit)  
+(function)   
 [ _simd-select_(std::datapar::basic_simd)](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/simd/basic_simd/simd_select&action=edit&redlink=1 "cpp/numeric/simd/basic simd/simd select \(page does not exist\)")(C++26) |  specializes element-wise selection for `simd_select`  
-(exposition-only function*)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/simd/basic_simd/dsc_simd_select&action=edit)  
+(exposition-only function*)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/simd/basic_simd&action=edit&section=6 "Edit section: Deduction guide")] Deduction guide
+### Deduction guide
 
 template< class R, class... Ts >  
 basic_simd( R&& r, Ts... ) -> /* see below */; |  |  (since C++26)  
@@ -248,22 +248,22 @@ The deduction guide is present only if:
 
 The deduced type is equivalent to datapar::simd<[ranges::range_value_t](../../ranges/range_size_t.html)<R>, [ranges::size](../../ranges/size.html)(r)>. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/simd/basic_simd&action=edit&section=7 "Edit section: Notes")] Notes
+### Notes
 
 Implementations are recommended to support explicit conversions between enabled specializations of `basic_simd` and appropriate implementation-defined types. These appropriate types are non-standard vector types which are available in the implementation. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/simd/basic_simd&action=edit&section=8 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/simd/basic_simd&action=edit&section=9 "Edit section: See also")] See also
+### See also
 
 [ datapar::basic_simd_mask](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/simd/basic_simd_mask&action=edit&redlink=1 "cpp/numeric/simd/basic simd mask \(page does not exist\)")(C++26) |  data-parallel type with the element type bool   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/simd/dsc_basic_simd_mask&action=edit)  
+(class template)   
 ---|---  
 [ datapar::simd_mask](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/simd/basic_simd_mask&action=edit&redlink=1 "cpp/numeric/simd/basic simd mask \(page does not exist\)")(C++26) |  convenience alias template for `basic_simd_mask` that can specify its width  
-(alias template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/simd/dsc_simd_mask&action=edit)  
+(alias template)  
 [ valarray](../valarray.html "cpp/numeric/valarray") |  numeric arrays, array masks and array slices   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/dsc_valarray&action=edit)
+(class template) 

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 **Extensions for parallelism v2**
 
@@ -92,7 +92,7 @@ Task blocks
 [define_task_blockdefine_task_block_restore_thread](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/define_task_block&action=edit&redlink=1 "cpp/experimental/define task block \(page does not exist\)")  
 [Data-parallel vectors](simd.html "cpp/experimental/simd")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/parallelism_2/navbar_content&action=edit)
+
 
 The C++ Extensions for Parallelism Version 2, ISO/IEC TS 19570:2018 defines the following new components for the C++ standard library: 
 
@@ -108,14 +108,14 @@ The C++ Extensions for Parallelism Version 2, ISO/IEC TS 19570:2018 defines the 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/parallelism_2&action=edit&section=1 "Edit section: Parallel exceptions")] Parallel exceptions
+### Parallel exceptions
 
 Defined in header `[<experimental/exception_list>](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/exception_list&action=edit&redlink=1 "cpp/header/experimental/exception list \(page does not exist\)")`  
 ---  
 [ exception_list](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/exception_list&action=edit&redlink=1 "cpp/experimental/exception list \(page does not exist\)") |  exceptions raised during parallel executions   
 (class)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/parallelism_2&action=edit&section=2 "Edit section: Execution policies")] Execution policies
+### Execution policies
 
 Defined in header `[<experimental/execution_policy>](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/execution_policy&action=edit&redlink=1 "cpp/header/experimental/execution policy \(page does not exist\)")`  
 ---  
@@ -124,25 +124,25 @@ Defined in header `[<experimental/execution_policy>](https://en.cppreference.com
 [ unseqvec](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/execution_policy_tag_v2&action=edit&redlink=1 "cpp/experimental/execution policy tag v2 \(page does not exist\)") |  global execution policy objects   
 (constant)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/parallelism_2&action=edit&section=3 "Edit section: Parallel algorithms")] Parallel algorithms
+### Parallel algorithms
 
 | This section is incomplete   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/parallelism_2&action=edit&section=4 "Edit section: Task Block")] Task Block
+### Task Block
 
 | This section is incomplete   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/parallelism_2&action=edit&section=5 "Edit section: Data-Parallel Types")] [Data-Parallel Types](simd.html "cpp/experimental/simd")
+### [Data-Parallel Types](simd.html "cpp/experimental/simd")
 
 [ simd](simd/simd.html "cpp/experimental/simd/simd")(parallelism TS v2) |  data-parallel vector type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/simd/dsc_simd&action=edit)  
+(class template)   
 ---|---  
 [ simd_mask](simd/simd_mask.html "cpp/experimental/simd/simd mask")(parallelism TS v2) |  data-parallel type with the element type bool   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/simd/dsc_simd_mask&action=edit)  
+(class template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/parallelism_2&action=edit&section=6 "Edit section: Feature test macros")] Feature test macros
+### Feature test macros
 
 Defined in header `[<experimental/task_block>](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/task_block&action=edit&redlink=1 "cpp/header/experimental/task block \(page does not exist\)")`  
 ---  

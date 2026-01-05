@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::ostrstream`](../ostrstream.html "cpp/io/ostrstream")
 
@@ -90,7 +90,7 @@ Member functions
 [ostrstream::freeze](freeze.html "cpp/io/ostrstream/freeze")  
 [ostrstream::pcount](pcount.html "cpp/io/ostrstream/pcount")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/ostrstream/navbar_content&action=edit)
+
 
 virtual ~ostrstream(); |  |  (deprecated in C++98)   
 (removed in C++26)  
@@ -99,15 +99,15 @@ virtual ~ostrstream(); |  |  (deprecated in C++98)
   
 Destroys a [std::ostrstream](../ostrstream.html "cpp/io/ostrstream") object, which also destroys the member [std::strstreambuf](../strstreambuf.html "cpp/io/strstreambuf"), which may call the deallocation function if the underlying buffer was dynamically-allocated and not frozen. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/ostrstream/%7Eostrstream&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/ostrstream/%7Eostrstream&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 If [str()](str.html "cpp/io/ostrstream/str") was called on a dynamic `ostrstream` and [`freeze(false)`](freeze.html "cpp/io/ostrstream/freeze") was not called after that, this destructor leaks memory. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/ostrstream/%7Eostrstream&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     

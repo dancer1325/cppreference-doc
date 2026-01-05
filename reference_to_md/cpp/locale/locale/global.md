@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Localization library](../../locale.html "cpp/locale")
 
@@ -152,7 +152,7 @@ base classes](../../locale.html#Facet_category_base_classes "cpp/locale")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/navbar_content&action=edit)
+
 
 [`std::locale`](../locale.html "cpp/locale/locale")
 
@@ -173,7 +173,7 @@ Static member functions
 **locale::global**  
 [locale::classic](classic.html "cpp/locale/locale/classic")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/locale/navbar_content&action=edit)
+
 
 static locale global( const locale& loc ); |  |   
 ---|---|---  
@@ -192,22 +192,22 @@ Replaces the global C++ locale with loc, which means all future calls to the [st
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/locale/global&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 loc  |  \-  |  the new global C++ locale   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/locale/global&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The previous value of the global C++ locale. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/locale/global&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/locale/global&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -217,12 +217,12 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 as [std::setlocale](../setlocale.html "cpp/locale/setlocale")) can modify the global C++ locale  | specified (no other  
 library functions allowed)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/locale/global&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ (constructor)](locale.html "cpp/locale/locale/locale") |  constructs a new locale   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/locale/dsc_locale&action=edit)  
+(public member function)   
 ---|---  
 [ classic](classic.html "cpp/locale/locale/classic")[static] |  obtains a reference to the "C" locale   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/locale/dsc_classic&action=edit)  
+(public static member function)   
 [ setlocale](../setlocale.html "cpp/locale/setlocale") |  gets and sets the current C locale   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_setlocale&action=edit)
+(function) 

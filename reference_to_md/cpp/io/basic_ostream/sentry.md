@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_ostream`](../basic_ostream.html "cpp/io/basic ostream")
 
@@ -116,7 +116,7 @@ Non-member functions
 [vprint_unicode(std::ostream)](vprint_unicode.html "cpp/io/basic ostream/vprint unicode")(C++23)  
 [vprint_nonunicode(std::ostream)](vprint_nonunicode.html "cpp/io/basic ostream/vprint nonunicode")(C++23)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ostream/navbar_content&action=edit)
+
 
 class sentry; |  |   
 ---|---|---  
@@ -141,17 +141,17 @@ An object of class `basic_ostream::sentry` is constructed in local scope at the 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_ostream/sentry&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 **(constructor)** |  constructs the sentry object. All the preparation tasks are done here   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ostream/sentry/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 **(destructor)** |  finalizes the stream object after formatted output or after exception, if necessary   
 (public member function)  
 operator= |  the assignment operator is deleted   
 (public member function)  
 ** operator bool** |  checks if the preparation of the stream object was successful   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ostream/sentry/dsc_operator_bool&action=edit)  
+(public member function)   
   
 ##  std::basic_ostream::sentry::sentry
 
@@ -204,7 +204,7 @@ Checks whether the preparation of the output stream was successful.
 
 true if the preparation of the output stream was successful, false otherwise. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_ostream/sentry&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -236,7 +236,7 @@ Output:
     
     abcde
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_ostream/sentry&action=edit&section=7 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -250,8 +250,8 @@ is an [UnformattedOutputFunction](../../named_req/UnformattedOutputFunction.html
 os.rdbuf()->pubsync()  
 in this case instead   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_ostream/sentry&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [ operator<<](operator_ltlt.html "cpp/io/basic ostream/operator ltlt") |  inserts formatted data   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ostream/dsc_operator_ltlt&action=edit)  
+(public member function)   
 ---|---

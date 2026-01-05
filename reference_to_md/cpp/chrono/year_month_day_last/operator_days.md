@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::year_month_day_last`](../year_month_day_last.html "cpp/chrono/year month day last")
 
@@ -120,7 +120,7 @@ Helper classes
 [formatter<std::chrono::year_month_day_last>](formatter.html "cpp/chrono/year month day last/formatter")  
 [hash<std::chrono::year_month_day_last>](hash.html "cpp/chrono/year month day last/hash")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/year_month_day_last/navbar_content&action=edit)
+
 
 constexpr operator [std::chrono::sys_days](../system_clock.html)() const noexcept; |  (1)  |  (since C++20)  
 ---|---|---  
@@ -133,7 +133,7 @@ Converts *this to a [std::chrono::time_point](../time_point.html "cpp/chrono/tim
 
 2) Equivalent to [std::chrono::local_days](../local_t.html)(year()/month()/day()).
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/year_month_day_last/operator_days&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -172,8 +172,8 @@ Output:
     The 3rd quarter ends on a Sat
     The 4th quarter ends on a Sun
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/year_month_day_last/operator_days&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ operator sys_daysoperator local_days](../year_month_day/operator_days.html "cpp/chrono/year month day/operator days") |  converts to a [std::chrono::time_point](../time_point.html "cpp/chrono/time point")   
-(public member function of `std::chrono::year_month_day`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/year_month_day/dsc_operator_days&action=edit)  
+(public member function of `std::chrono::year_month_day`)   
 ---|---

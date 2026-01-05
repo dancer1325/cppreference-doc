@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Null-terminated multibyte strings](../multibyte.html "cpp/string/multibyte")
 
@@ -100,7 +100,7 @@ MB_CUR_MAX](../multibyte.html#Macros "cpp/string/multibyte")
 [__STDC_UTF_16__  
 __STDC_UTF_32__](../multibyte.html#Macros "cpp/string/multibyte")(C++11)(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/navbar_content&action=edit)
+
 
 Defined in header `[<cuchar>](../../header/cuchar.html "cpp/header/cuchar")` |  |   
 ---|---|---  
@@ -130,7 +130,7 @@ The multibyte encoding used by this function is specified by the currently activ
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/multibyte/mbrtoc16&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 pc16  |  \-  |  pointer to the location where the resulting 16-bit character will be written   
 ---|---|---  
@@ -138,7 +138,7 @@ s  |  \-  |  pointer to the multibyte character string used as input
 n  |  \-  |  limit on the number of bytes in s that can be examined   
 ps  |  \-  |  pointer to the conversion state object used when interpreting the multibyte string   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/multibyte/mbrtoc16&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The first of the following that applies: 
 
@@ -150,7 +150,7 @@ The first of the following that applies:
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/multibyte/mbrtoc16&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -210,13 +210,13 @@ Output:
     Next UTF-16 char: D83C obtained from 4 bytes [F0 9F 8D 8C]
     Next UTF-16 char: DF4C obtained from earlier surrogate pair
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/multibyte/mbrtoc16&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ c16rtomb](c16rtomb.html "cpp/string/multibyte/c16rtomb")(C++11) |  converts a UTF-16 character to narrow multibyte encoding   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/dsc_c16rtomb&action=edit)  
+(function)   
 ---|---  
 [ mbrtoc8](mbrtoc8.html "cpp/string/multibyte/mbrtoc8")(C++20) |  converts a narrow multibyte character to UTF-8 encoding   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/dsc_mbrtoc8&action=edit)  
+(function)   
 [ do_in](../../locale/codecvt/in.html "cpp/locale/codecvt/in")[virtual] |  converts a string from `ExternT` to `InternT`, such as when reading from file   
-(virtual protected member function of `std::codecvt<InternT,ExternT,StateT>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/codecvt/dsc_do_in&action=edit)  
+(virtual protected member function of `std::codecvt<InternT,ExternT,StateT>`)   
 [C documentation](../../../c/string/multibyte/mbrtoc16.html "c/string/multibyte/mbrtoc16") for mbrtoc16

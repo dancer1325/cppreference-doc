@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Null-terminated wide strings](../wide.html "cpp/string/wide")
 
@@ -153,7 +153,7 @@
 WCHAR_MAX  
 WEOF](../wide.html#Macros "cpp/string/wide")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/navbar_content&action=edit)
+
 
 Defined in header `[<cwctype>](../../header/cwctype.html "cpp/header/cwctype")` |  |   
 ---|---|---  
@@ -175,22 +175,22 @@ If the value of ch is neither representable as a wchar_t nor equal to the value 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/towlower&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 ch  |  \-  |  wide character to be converted   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/towlower&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Lowercase version of ch or unmodified ch if no lowercase version is listed in the current C locale. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/towlower&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Only 1:1 character mapping can be performed by this function, e.g. the Greek uppercase letter 'Σ' has two lowercase forms, depending on the position in a word: 'σ' and 'ς'. A call to `std::towlower` cannot be used to obtain the correct lowercase form in this case. 
 
 [ISO 30112](https://www.open-std.org/JTC1/SC35/WG5/docs/30112d10.pdf) specifies which pairs of Unicode characters are included in this mapping. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/towlower&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -219,13 +219,13 @@ Output:
     in the default locale, towlower(0x190) = 0x190
     in Unicode locale, towlower(0x190) = 0x25b
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/towlower&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ towupper](towupper.html "cpp/string/wide/towupper") |  converts a wide character to uppercase   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_towupper&action=edit)  
+(function)   
 ---|---  
 [ tolower(std::locale)](../../locale/tolower.html "cpp/locale/tolower") |  converts a character to lowercase using the `ctype` facet of a locale   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_tolower&action=edit)  
+(function template)   
 [ tolower](../byte/tolower.html "cpp/string/byte/tolower") |  converts a character to lowercase   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_tolower&action=edit)  
+(function)   
 [C documentation](../../../c/string/wide/towlower.html "c/string/wide/towlower") for towlower

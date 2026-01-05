@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::unordered_map`](../unordered_map.html "cpp/container/unordered map")
 
@@ -139,7 +139,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/unordered map/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/unordered_map/navbar_content&action=edit)
+
 
 Defined in header `[<unordered_map>](../../header/unordered_map.html "cpp/header/unordered map")` |  |   
 ---|---|---  
@@ -167,12 +167,12 @@ Specializes the [std::swap](../../utility/swap.html "cpp/algorithm/swap") algori
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/swap2&action=edit&section=T-1 "Template:cpp/container/swap2")] Parameters
+### Parameters
 
 lhs, rhs  |  \-  |  containers whose contents to swap   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/swap2&action=edit&section=T-2 "Template:cpp/container/swap2")] Complexity
+### Complexity
 
 Constant. 
 
@@ -181,7 +181,7 @@ Constant.
 [`noexcept`](../../language/noexcept_spec.html "cpp/language/noexcept spec") specification: noexcept(noexcept(lhs.swap(rhs))) | (since C++17)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/swap2&action=edit&section=T-5 "Template:cpp/container/swap2")] Example
+### Example
 
 Run this code
     
@@ -227,8 +227,8 @@ Possible output:
     Alice: 7:Z 8:Y 9:X 10:W
     Bobby: 1:a 2:b 3:c
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/swap2&action=edit&section=T-6 "Template:cpp/container/swap2")] See also
+### See also
 
 [ swap](swap.html "cpp/container/unordered map/swap") |  swaps the contents   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_swap&action=edit)  
+(public member function)   
 ---|---

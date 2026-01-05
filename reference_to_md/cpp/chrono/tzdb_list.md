@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 **`std::chrono::tzdb_list`**
 
@@ -112,7 +112,7 @@ Member functions
 [tzdb_list::begintzdb_list::cbegin](tzdb_list/begin.html "cpp/chrono/tzdb list/begin")  
 [tzdb_list::endtzdb_list::cend](tzdb_list/end.html "cpp/chrono/tzdb list/end")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/tzdb_list/navbar_content&action=edit)
+
 
 Defined in header `[<chrono>](../header/chrono.html "cpp/header/chrono")` |  |   
 ---|---|---  
@@ -121,24 +121,24 @@ class tzdb_list; |  |  (since C++20)
   
 `tzdb_list` is a singleton list of std::chrono::tzdbs, each of which represents a copy of the [IANA time zone database](https://www.iana.org/time-zones). Users cannot construct a `tzdb_list` and can only obtain access to one via the std::chrono::get_tzdb_list free function. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/tzdb_list&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Type  |  Description   
 ---|---  
 `const_iterator` |  constant [LegacyForwardIterator](../named_req/ForwardIterator.html "cpp/named req/ForwardIterator") whose value type is std::chrono::tzdb  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/tzdb_list&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 (constructor)(deleted) |  copy constructor is defined as deleted   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/tzdb_list/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 operator=(deleted) |  copy assignment operator is defined as deleted   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/tzdb_list/dsc_operator%3D&action=edit)  
+(public member function)   
 [ front](tzdb_list/front.html "cpp/chrono/tzdb list/front") |  access the first element   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/tzdb_list/dsc_front&action=edit)  
+(public member function)   
 [ erase_after](tzdb_list/erase_after.html "cpp/chrono/tzdb list/erase after") |  erases an element after an element   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/tzdb_list/dsc_erase_after&action=edit)  
+(public member function)   
 [ begincbegin](tzdb_list/begin.html "cpp/chrono/tzdb list/begin") |  returns an iterator to the beginning of the list   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/tzdb_list/dsc_begin&action=edit)  
+(public member function)   
 [ endcend](tzdb_list/end.html "cpp/chrono/tzdb list/end") |  returns an iterator past the end of the list   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/tzdb_list/dsc_end&action=edit)
+(public member function) 

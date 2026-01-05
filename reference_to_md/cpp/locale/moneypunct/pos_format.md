@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Localization library](../../locale.html "cpp/locale")
 
@@ -152,7 +152,7 @@ base classes](../../locale.html#Facet_category_base_classes "cpp/locale")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/navbar_content&action=edit)
+
 
 [`std::moneypunct`](../moneypunct.html "cpp/locale/moneypunct")
 
@@ -168,7 +168,7 @@ Member functions
 [moneypunct::positive_signmoneypunct::do_positive_signmoneypunct::negative_signmoneypunct::do_negative_sign](positive_sign.html "cpp/locale/moneypunct/positive sign")  
 **moneypunct::pos_format moneypunct::do_pos_formatmoneypunct::neg_formatmoneypunct::do_neg_format**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/moneypunct/navbar_content&action=edit)
+
 
 Defined in header `[<locale>](../../header/locale.html "cpp/header/locale")` |  |   
 ---|---|---  
@@ -202,15 +202,15 @@ The standard specializations of [std::moneypunct](../moneypunct.html) return the
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/moneypunct/pos_format&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 The object of type [`std::money_base::format`](../money_base.html "cpp/locale/money base") describing the formatting used by this locale. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/moneypunct/pos_format&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 While [std::money_put](../money_put.html "cpp/locale/money put") uses `pos_format` for formatting positive values and neg_format for formatting negative values, [std::money_get](../money_get.html "cpp/locale/money get") uses `neg_format` for parsing all monetary values: it assumes that `neg_format` is compatible with `pos_format`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/moneypunct/pos_format&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -246,14 +246,14 @@ Output:
     123,456.78 $
     123,456.78 $-
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/moneypunct/pos_format&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ do_curr_symbol](curr_symbol.html "cpp/locale/moneypunct/curr symbol")[virtual] |  provides the string to use as the currency identifier   
-(virtual protected member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/moneypunct/dsc_do_curr_symbol&action=edit)  
+(virtual protected member function)   
 ---|---  
 [ do_positive_signdo_negative_sign](positive_sign.html "cpp/locale/moneypunct/positive sign")[virtual] |  provides the string to indicate a positive or negative value   
-(virtual protected member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/moneypunct/dsc_do_positive_sign&action=edit)  
+(virtual protected member function)   
 [ do_get](../money_get/get.html "cpp/locale/money get/get")[virtual] |  parses a monetary value from an input stream   
-(virtual protected member function of `std::money_get<CharT,InputIt>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/money_get/dsc_do_get&action=edit)  
+(virtual protected member function of `std::money_get<CharT,InputIt>`)   
 [ do_put](../money_put/put.html "cpp/locale/money put/put")[virtual] |  formats a monetary value and writes to output stream   
-(virtual protected member function of `std::money_put<CharT,OutputIt>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/money_put/dsc_do_put&action=edit)
+(virtual protected member function of `std::money_put<CharT,OutputIt>`) 

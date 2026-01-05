@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Type support](../utility/rtti.html "cpp/types")
 
@@ -161,7 +161,7 @@ Runtime type information
 ---  
 [bad_cast](bad_cast.html "cpp/types/bad cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/navbar_content&action=edit)
+
 
 Defined in header `[<cstddef>](../header/cstddef.html "cpp/header/cstddef")` |  |   
 ---|---|---  
@@ -186,7 +186,7 @@ Like unsigned char, it can be used to access raw memory occupied by other object
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/byte&action=edit&section=1 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 ##  std::to_integer
 
@@ -258,7 +258,7 @@ constexpr std::byte operator~( std::byte b ) noexcept; |  (4)  |  (since C++17)
 
 4) Equivalent to: return std::byte(~static_cast<unsigned int>(b));
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/byte&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 A numeric value n can be converted to a byte value using std::byte{n}, due to C++17 [relaxed enum class initialization](../language/enum.html#enum_relaxed_init_cpp17 "cpp/language/enum") rules. 
 
@@ -268,7 +268,7 @@ A byte can be converted to a numeric value (such as to produce an integer hash o
 ---|---|---|---  
 [`__cpp_lib_byte`](../experimental/feature_test.html#cpp_lib_byte "cpp/feature test") | [`201603L`](../compiler_support/17.html#cpp_lib_byte_201603L "cpp/compiler support/17") | (C++17) | `std::byte`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/byte&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     

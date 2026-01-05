@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](ranges/copy.html "cpp/algorithm/ra
 [uninitialized_default_construct_n](../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 [Numerics library](../numeric.html "cpp/numeric")
 
@@ -353,7 +353,7 @@ Constrained algorithms, e.g. [`ranges::copy`](ranges/copy.html "cpp/algorithm/ra
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 Defined in header `[<numeric>](../header/numeric.html "cpp/header/numeric")` |  |   
 ---|---|---  
@@ -432,7 +432,7 @@ If any of the following conditions is satisfied, the behavior is undefined:
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/transform_exclusive_scan&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  the pair of iterators defining the [range](../iterator.html#Ranges "cpp/iterator") of elements to sum   
 ---|---|---  
@@ -446,17 +446,17 @@ Type requirements
 -`OutputIt` must meet the requirements of [LegacyOutputIterator](../named_req/OutputIterator.html "cpp/named req/OutputIterator").   
 -`ForwardIt1, ForwardIt2` must meet the requirements of [LegacyForwardIterator](../named_req/ForwardIterator.html "cpp/named req/ForwardIterator").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/transform_exclusive_scan&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Iterator to the element past the last element written. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/transform_exclusive_scan&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Given \\(\scriptsize N\\)N as [std::distance](../iterator/distance.html)(first, last): 
 
 1,2) \\(\scriptsize O(N)\\)O(N) applications of unary_op and binary_op respectively.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/transform_exclusive_scan&action=edit&section=4 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 The overload with a template parameter named `ExecutionPolicy` reports errors as follows: 
 
@@ -465,11 +465,11 @@ The overload with a template parameter named `ExecutionPolicy` reports errors as
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/transform_exclusive_scan&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 unary_op is never applied to init. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/transform_exclusive_scan&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -503,12 +503,12 @@ Output:
     10 times exclusive sum: 0 30 40 80 90 140 230 250 
     10 times inclusive sum: 30 40 80 90 140 230 250 310
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/transform_exclusive_scan&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ partial_sum](partial_sum.html "cpp/algorithm/partial sum") |  computes the partial sum of a range of elements   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_partial_sum&action=edit)  
+(function template)   
 ---|---  
 [ exclusive_scan](exclusive_scan.html "cpp/algorithm/exclusive scan")(C++17) |  similar to [std::partial_sum](partial_sum.html "cpp/algorithm/partial sum"), excludes the ith input element from the ith sum   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_exclusive_scan&action=edit)  
+(function template)   
 [ transform_inclusive_scan](transform_inclusive_scan.html "cpp/algorithm/transform inclusive scan")(C++17) |  applies an invocable, then calculates inclusive scan   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_transform_inclusive_scan&action=edit)
+(function template) 

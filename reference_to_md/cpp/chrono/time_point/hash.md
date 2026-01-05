@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::time_point`](../time_point.html "cpp/chrono/time point")
 
@@ -124,7 +124,7 @@ Helper classes
 [common_type](common_type.html "cpp/chrono/time point/common type")  
 **hash <std::chrono::time_point>**(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_point/navbar_content&action=edit)
+
 
 Defined in header `[<chrono>](../../header/chrono.html "cpp/header/chrono")` |  |   
 ---|---|---  
@@ -134,7 +134,7 @@ struct hash<[std::chrono::time_point](../time_point.html)<Clock, Duration>>; |  
   
 The template specialization of [std::hash](../../utility/hash.html "cpp/utility/hash") for [`std::chrono::time_point`](../time_point.html "cpp/chrono/time point") allows users to obtain hashes of objects of type [std::chrono::time_point](../time_point.html)<Clock, Duration>. This specialization is [enabled](../../utility/hash.html "cpp/utility/hash") if and only if [std::hash](../../utility/hash.html)<Duration> is enabled. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/hash&action=edit&section=T-1 "Template:cpp/chrono/hash")] Notes
+### Notes
 
 [Feature-test](../../utility/feature_test.html "cpp/utility/feature test") macro  | Value | Std | Feature   
 ---|---|---|---  
@@ -207,10 +207,10 @@ Possible output:
     [2024-03-22 10:47:14.765965786], message: event #1
     [2024-03-22 10:47:14.665817365], message: event #0
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/hash&action=edit&section=T-3 "Template:cpp/chrono/hash")] See also
+### See also
 
 [ hash](../../utility/hash.html "cpp/utility/hash")(C++11) |  hash function object   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_hash&action=edit)  
+(class template)   
 ---|---
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

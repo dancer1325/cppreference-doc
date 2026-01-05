@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::ios_base`](../ios_base.html "cpp/io/ios base")
 
@@ -113,7 +113,7 @@ Member types
 **ios_base::event**  
 [ios_base::event_callback](event_callback.html "cpp/io/ios base/event callback")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/ios_base/navbar_content&action=edit)
+
 
 enum event { erase_event, imbue_event, copyfmt_event }; |  |   
 ---|---|---  
@@ -127,7 +127,7 @@ Enumerator  |  Meaning
 `imbue_event` |  issued on [imbue()](imbue.html "cpp/io/ios base/imbue")  
 `copyfmt_event` |  issued on [`basic_ios::copyfmt()`](../basic_ios/copyfmt.html "cpp/io/basic ios/copyfmt") (after the copy of members takes place, but before the exception settings are copied)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/ios_base/event&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

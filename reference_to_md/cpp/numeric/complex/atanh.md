@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [`std::complex`](../complex.html "cpp/numeric/complex")
 
@@ -164,7 +164,7 @@
 [tuple_size<std::complex>](tuple_size.html "cpp/numeric/complex/tuple size")(C++26)  
 [tuple_element<std::complex>](tuple_element.html "cpp/numeric/complex/tuple element")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/navbar_content&action=edit)
+
 
 Defined in header `[<complex>](../../header/complex.html "cpp/header/complex")` |  |   
 ---|---|---  
@@ -186,16 +186,16 @@ Computes the complex arc hyperbolic tangent of z with branch cuts outside the in
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/atanh&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 z  |  \-  |  complex value   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/atanh&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 If no errors occur, the complex arc hyperbolic tangent of z is returned, in the range of a half-strip mathematically unbounded along the real axis and in the interval [−iπ/2; +iπ/2] along the imaginary axis. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/atanh&action=edit&section=3 "Edit section: Error handling and special values")] Error handling and special values
+### Error handling and special values
 
 Errors are reported consistent with [math_errhandling](../math/math_errhandling.html "cpp/numeric/math/math errhandling"). 
 
@@ -217,7 +217,7 @@ If the implementation supports IEEE floating-point arithmetic,
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/atanh&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 Although the C++ standard names this function "complex arc hyperbolic tangent", the inverse functions of the hyperbolic functions are the area functions. Their argument is the area of a hyperbolic sector, not an arc. The correct name is "complex inverse hyperbolic tangent", and, less common, "complex area hyperbolic tangent". 
 
@@ -232,7 +232,7 @@ For any z, atanh(z) = atan(iz)
 i  
 . 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/atanh&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -265,15 +265,15 @@ Output:
     atanh(1.000000,2.000000) = (0.173287,1.178097)
     atan(-2.000000,1.000000) / i = (0.173287,1.178097)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/atanh&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ asinh(std::complex)](asinh.html "cpp/numeric/complex/asinh")(C++11) |  computes area hyperbolic sine of a complex number (\\({\small\operatorname{arsinh}{z}}\\)arsinh(z))   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_asinh&action=edit)  
+(function template)   
 ---|---  
 [ acosh(std::complex)](acosh.html "cpp/numeric/complex/acosh")(C++11) |  computes area hyperbolic cosine of a complex number (\\({\small\operatorname{arcosh}{z}}\\)arcosh(z))   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_acosh&action=edit)  
+(function template)   
 [ tanh(std::complex)](tanh.html "cpp/numeric/complex/tanh") |  computes hyperbolic tangent of a complex number (\\({\small\tanh{z}}\\)tanh(z))   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_tanh&action=edit)  
+(function template)   
 [ atanhatanhfatanhl](../math/atanh.html "cpp/numeric/math/atanh")(C++11)(C++11)(C++11) |  computes the inverse hyperbolic tangent (\\({\small\operatorname{artanh}{x}}\\)artanh(x))   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_atanh&action=edit)  
+(function)   
 [C documentation](../../../c/numeric/complex/catanh.html "c/numeric/complex/catanh") for catanh

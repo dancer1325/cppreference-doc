@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Regular expressions library](../../regex.html "cpp/regex")
 
@@ -81,7 +81,7 @@ Constants
 Regex Grammar  
 [Modified ECMAScript-262](../ecmascript.html "cpp/regex/ecmascript")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/navbar_content&action=edit)
+
 
 [`std::regex_token_iterator`](../regex_token_iterator.html "cpp/regex/regex token iterator")
 
@@ -96,7 +96,7 @@ Observers
 Modifiers  
 [regex_token_iterator::operator++regex_token_iterator::operator++(int)](operator_arith.html "cpp/regex/regex token iterator/operator arith")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/regex_token_iterator/navbar_content&action=edit)
+
 
 bool operator==( const regex_token_iterator& other ) const; |  (1)  |  (since C++11)  
 ---|---|---  
@@ -137,12 +137,12 @@ The `!=` operator is [synthesized](../../language/default_comparisons.html#Other
 Reason: Explain better. For example, `subs` is an exposition-only vector of matched sub-expressions.   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/regex_token_iterator/operator_cmp&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 other  |  \-  |  another regex token iterator to compare to   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/regex_token_iterator/operator_cmp&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) true if *this is _equal to_ other, false otherwise.
 

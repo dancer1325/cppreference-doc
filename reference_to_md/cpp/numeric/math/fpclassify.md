@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [Common mathematical functions](../math.html "cpp/numeric/math")
 
@@ -230,7 +230,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/navbar_content&action=edit)
+
 
 Defined in header `[<cmath>](../../header/cmath.html "cpp/header/cmath")` |  |   
 ---|---|---  
@@ -262,20 +262,20 @@ A) Additional overloads are provided for all integer types, which are treated as
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/fpclassify&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 num  |  \-  |  floating-point or integer value   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/fpclassify&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 one of [FP_INFINITE](FP_categories.html "cpp/numeric/math/FP categories"), [FP_NAN](FP_categories.html "cpp/numeric/math/FP categories"), [FP_NORMAL](FP_categories.html "cpp/numeric/math/FP categories"), [FP_SUBNORMAL](FP_categories.html "cpp/numeric/math/FP categories"), [FP_ZERO](FP_categories.html "cpp/numeric/math/FP categories") or implementation-defined type, specifying the category of num. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/fpclassify&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 The additional overloads are not required to be provided exactly as (A). They only need to be sufficient to ensure that for their argument num of integer type, std::fpclassify(num) has the same effect as std::fpclassify(static_cast<double>(num)). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/fpclassify&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -321,17 +321,17 @@ Output:
     -0.0 is zero
     1.0 is normal
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/fpclassify&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ isfinite](isfinite.html "cpp/numeric/math/isfinite")(C++11) |  checks if the given number has finite value   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_isfinite&action=edit)  
+(function)   
 ---|---  
 [ isinf](isinf.html "cpp/numeric/math/isinf")(C++11) |  checks if the given number is infinite   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_isinf&action=edit)  
+(function)   
 [ isnan](isnan.html "cpp/numeric/math/isnan")(C++11) |  checks if the given number is NaN   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_isnan&action=edit)  
+(function)   
 [ isnormal](isnormal.html "cpp/numeric/math/isnormal")(C++11) |  checks if the given number is normal   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_isnormal&action=edit)  
+(function)   
 [ numeric_limits](../../types/numeric_limits.html "cpp/types/numeric limits") |  provides an interface to query properties of all fundamental numeric types   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_numeric_limits&action=edit)  
+(class template)   
 [C documentation](../../../c/numeric/math/fpclassify.html "c/numeric/math/fpclassify") for fpclassify

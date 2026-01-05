@@ -141,7 +141,7 @@ Libraries:
   
 ---  
   
-# [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/links/libs&action=edit&section=1 "Edit section: Package managers")] Package managers
+# Package managers
 
 Package manager  |  Description   
 ---|---  
@@ -156,9 +156,9 @@ Package manager  |  Description
 [vcpkg](https://docs.microsoft.com/en-us/cpp/vcpkg) |  A C/C++ package manager for Windows, Linux, and macOS.   
 [xmake](https://xmake.io/) |  A cross-platform Lua-based C/C++ build tool and package manager.   
   
-# [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/links/libs&action=edit&section=2 "Edit section: Libraries")] Libraries
+# Libraries
 
-## [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/links/libs&action=edit&section=3 "Edit section: Audio")] Audio
+## Audio
 
 Library  |  Description  |  License  |  Configuration   
 ---|---|---|---  
@@ -215,7 +215,7 @@ Library  |  Description  |  License  |  Configuration
 [id3lib](http://id3lib.sourceforge.net/) |  An open-source, cross-platform library for reading, writing, and manipulating ID3v1 and ID3v2 tags, and retrieving some basic mp3 header info like bitrate. However, we now recommend moving to [taglib](https://taglib.org/) :)  |  LGPL v2  |   
 [taglib](https://taglib.org/) |  The TagLib Audio Metadata Library is a library for reading and editing the meta-data of several popular audio formats: ID3v1, ID3v2 for MP3 files, Ogg Vorbis comments and ID3 tags and Vorbis comments in FLAC, MPC, Speex, WavPack, TrueAudio, WAV, AIFF, MP4 and ASF files. ([Src](https://github.com/taglib/taglib))  |  [LGPL](https://www.gnu.org/licenses/lgpl.html) and [MPL v1.1](https://www.mozilla.org/MPL/MPL-1.1.html) |   
   
-## [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/links/libs&action=edit&section=4 "Edit section: Benchmarking")] Benchmarking
+## Benchmarking
 
 Library  |  Description  |  License  |  Configuration   
 ---|---|---|---  
@@ -227,7 +227,7 @@ Library  |  Description  |  License  |  Configuration
 [picobench](https://github.com/iboB/picobench) |  A tiny (micro) micro-benchmarking library  |  MIT  |  header-only; cmake   
 [plf::nanotimer](https://github.com/mattreecebentley/plf_nanotimer) |  A lowest-overhead, cross-platform simple timer class for benchmarking.  |  zlib  |  header-only   
   
-## [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/links/libs&action=edit&section=5 "Edit section: Communication")] Communication
+## Communication
 
 Library  |  Description  |  License  |  Configuration   
 ---|---|---|---  
@@ -290,7 +290,7 @@ Library  |  Description  |  License  |  Configuration
 [wvstreams](https://github.com/apenwarr/wvstreams) |  A C++ networking library including UniConf and a convenient D-Bus API  |  GPL  |   
 [zeromq](https://zeromq.org/) |  A fast message queue  |  |   
   
-## [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/links/libs&action=edit&section=6 "Edit section: Concurrency")] Concurrency
+## Concurrency
 
 Library  |  Description  |  License  |  Configuration   
 ---|---|---|---  
@@ -330,7 +330,7 @@ Library  |  Description  |  License  |  Configuration
 [ViennaCL](http://viennacl.sourceforge.net/) |  Linear algebra and algorithms with OpenMP, CUDA, and OpenCL backends. ([Src](https://viennacl.sourceforge.net/viennacl-download.html)) ([Doc](https://viennacl.sourceforge.net/viennacl-documentation.html))  |  Custom  |  cmake   
 [Xenium](https://github.com/mpoeter/xenium) |  A C++17 library that provides various concurrent data structures and reclamation schemes.  |  MIT  |  header-only; cmake   
   
-## [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/links/libs&action=edit&section=7 "Edit section: Configuration")] Configuration
+## Configuration
 
 Library  |  Description  |  License  |  Configuration   
 ---|---|---|---  
@@ -427,7 +427,7 @@ Library  |  Description  |  License  |  Configuration
 ---|---|---|---  
 [yaml-cpp](https://github.com/jbeder/yaml-cpp) |  A YAML parser and emitter in C++  |  MIT  |  cmake   
   
-## [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/links/libs&action=edit&section=8 "Edit section: Containers")] Containers
+## Containers
 
 Library  |  Description  |  License  |  Configuration   
 ---|---|---|---  
@@ -454,7 +454,7 @@ Library  |  Description  |  License  |  Configuration
 [tiny::optional](https://github.com/Sedeniono/tiny-optional) |  An replacement for [std::optional](../utility/optional.html "cpp/utility/optional") that enables the use of sentinel values to eliminate memory storage overhead.  |  BSL-1.0  |  cmake   
 [Ygg](https://github.com/tinloaf/ygg) |  An intrusive C++11 implementation of high-performance containers and data structures such as a [Red–black tree](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree "enwiki:Red–black tree"), an [Interval tree](https://en.wikipedia.org/wiki/Interval_tree "enwiki:Interval tree") and an Interval Map.  |  MIT  |  header-only; cmake   
   
-## [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/links/libs&action=edit&section=9 "Edit section: Cryptography")] Cryptography
+## Cryptography
 
 Library  |  Description  |  License  |  Configuration   
 ---|---|---|---  
@@ -464,7 +464,7 @@ Library  |  Description  |  License  |  Configuration
 [openssl](https://www.openssl.org/) |  A robust, commercial-grade, full-featured toolkit for general-purpose cryptography and secure communication. ([Src](https://github.com/openssl/openssl))  |  Apache-2.0  |  make   
 [TomCrypt](https://www.libtom.net/) |  A fairly comprehensive, modular and portable cryptographic toolkit that provides developers with a vast array of well known published block ciphers, one-way hash functions, chaining modes, pseudo-random number generators, public key cryptography and a plethora of other routines. ([Src](https://github.com/libtom/libtomcrypt))  |  public domain  |  cmake, make   
   
-## [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/links/libs&action=edit&section=10 "Edit section: Databases")] Databases
+## Databases
 
 Library  |  Description  |  License  |  Configuration   
 ---|---|---|---  
@@ -494,7 +494,7 @@ Library  |  Description  |  License  |  Configuration
 [sqlpp11](https://github.com/rbock/sqlpp11) |  A type safe embedded domain specific language for SQL queries and results in C++.  |  BSD-2  |  cmake   
 [taoPQ](https://github.com/taocpp/taopq) |  A lightweight C++17 PostgreSQL client library  |  Boost  |  cmake   
   
-## [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/links/libs&action=edit&section=11 "Edit section: Embedded languages bindings")] Embedded languages bindings
+## Embedded languages bindings
 
 Library  |  Description  |  License  |  Configuration   
 ---|---|---|---  
@@ -510,7 +510,7 @@ Library  |  Description  |  License  |  Configuration
 [sol2](https://github.com/ThePhD/sol2) |  A modern C++ library binding to Lua.  |  MIT  |  header-only; cmake   
 [v8pp](https://github.com/pmed/v8pp) |  Binds C++ functions and classes into V8 JavaScript engine.  |  BSL-1.0  |  header-only; cmake   
   
-## [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/links/libs&action=edit&section=12 "Edit section: Embedded/Realtime")] Embedded/Realtime
+## Embedded/Realtime
 
 Library  |  Description  |  License  |  Configuration   
 ---|---|---|---  
@@ -519,7 +519,7 @@ Library  |  Description  |  License  |  Configuration
 [QP/C++](http://sourceforge.net/projects/qpc/files/QP_C%2B%2B/4.5.04/) |  RTOS kernel: Real-Time Embedded Frameworks based on active objects & state machines  |  GPLv3  |   
 [µcuREST](https://github.com/hutorny/micurest) |  C++11 REST/JSON server framework for microcontrollers  |  |   
   
-## [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/links/libs&action=edit&section=13 "Edit section: File metadata")] File metadata
+## File metadata
 
 Library  |  Description  |  License  |  Configuration   
 ---|---|---|---  
@@ -528,14 +528,14 @@ Library  |  Description  |  License  |  Configuration
 [libkexiv2](https://www.kde.org/) |  |  |   
 [rarian](https://rarian.freedesktop.org/) |  |  |   
   
-## [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/links/libs&action=edit&section=14 "Edit section: Financial Calculations")] Financial Calculations
+## Financial Calculations
 
 Library  |  Description  |  License  |  Configuration   
 ---|---|---|---  
 [DataFrame](https://github.com/hosseinmoein/DataFrame) |  A C++ DataFrame for statistical, Financial, and ML analysis -- in modern C++ using native types and continuous memory storage  |  BSD-3-Clause  |  cmake, make, conan   
 [QuantLib](https://www.quantlib.org/) |  A quantitative finance Library - A free/open-source library for quantitative finance  |  modified BSD  |   
   
-## [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/links/libs&action=edit&section=15 "Edit section: Game Engine Architecture")] Game Engine Architecture
+## Game Engine Architecture
 
 Library  |  Description  |  License  |  Configuration   
 ---|---|---|---  
@@ -546,7 +546,7 @@ Library  |  Description  |  License  |  Configuration
 [EntityX](https://github.com/alecthomas/entityx) |  A fast, type-safe C++ Entity-Component system  |  MIT  |  cmake   
 [EnTT](https://github.com/skypjack/entt) |  A tiny library for game dev and more written in modern C++  |  MIT  |  header-only; cmake, bazel, conan, vcpkg, brew, cppget   
   
-## [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/links/libs&action=edit&section=16 "Edit section: General Multimedia")] General Multimedia
+## General Multimedia
 
 Library  |  Description  |  License  |  Configuration   
 ---|---|---|---  
@@ -556,7 +556,7 @@ Library  |  Description  |  License  |  Configuration
 [SFML](https://www.sfml-dev.org/index.php) |  **S** imple and **F** ast **M** ultimedia **L** ibrary; multi-platform (Windows, Linux, macOS and soon Android & iOS); provides a simple interface to ease the development of games and multimedia applications. It is composed of five modules: system, window, graphics (over OpenGL), audio and network.  |  zlib/png  |  cmake   
 [SIGIL](http://www.libsigil.com/) |  **S** ound, **I** nput, and **G** raphics **I** ntegration **L** ibrary; a simple, cross-platform, minimalist library for text, shapes, input, audio, and 2D images. Supported platforms: Windows, Linux and Raspberry Pi  |  [License](https://gitlab.com/geoff-nagy/sigil/-/blob/master/LICENSES.txt) |  cmake   
   
-## [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/links/libs&action=edit&section=17 "Edit section: Generic")] Generic
+## Generic
 
 Library  |  Description  |  License  |  Configuration   
 ---|---|---|---  
@@ -602,13 +602,13 @@ Library  |  Description  |  License  |  Configuration
 [yomm2](https://github.com/jll63/yomm2) |  An open multi-methods for C++17  |  Boost  |   
 [zoolib](https://github.com/zoolib/zoolib_cxx) |  ZooLib is a feature rich C++ toolkit.  |  MIT  |   
   
-## [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/links/libs&action=edit&section=18 "Edit section: GPS")] GPS
+## GPS
 
 Library  |  Description  |  License  |  Configuration   
 ---|---|---|---  
 [gpsd](https://gpsd.gitlab.io/gpsd/) |  An open-source, cross-platform (Linux/Unix/BSD flavors, including Android and OS X) GPS-aware set of tools, such as a translator and replicator daemon for GPS devices, AIS radios, and other navigational sensors. **gpsd** is mostly written in C and Python, but also has C++ wrapper. **gpsd** is everywhere in mobile embedded systems. Every location-aware Android app is indirectly a **gpsd** client. ([Doc](https://gpsd.io/#documentation)) ([Src](https://download.savannah.gnu.org/releases/gpsd/))  |  [BSD 2-clause](https://www.openhub.net/licenses/bsd_2clause_ish) |  scons   
   
-## [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/links/libs&action=edit&section=19 "Edit section: Graphic user interface")] Graphic user interface
+## Graphic user interface
 
 Library  |  Description  |  License  |  Configuration   
 ---|---|---|---  
@@ -659,7 +659,7 @@ Library  |  Description  |  License  |  Configuration
 [U++](https://www.ultimatepp.org/) |  A C++ cross-platform rapid application development framework focused on programmers productivity. It includes a set of libraries (GUI, SQL, etc.), and an integrated development environment. ([Src/Bin](https://www.ultimatepp.org/www$uppweb$download$en-us.html))  |  BSD  |   
 [upp-components](https://github.com/ismail-yilmaz/upp-components) |  A collection of 3rd party packages for U++ like `TerminalCtrl`, `MessageCtrl` etc.  |  BSD-3-Clause  |   
   
-## [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/links/libs&action=edit&section=20 "Edit section: Graphics")] Graphics
+## Graphics
 
 Library  |  Description  |  License  |  Configuration   
 ---|---|---|---  
@@ -675,7 +675,7 @@ Library  |  Description  |  License  |  Configuration
 [TXLib](https://github.com/ded32/TXLib) |  TX Library is a tiny 2D graphics library for Win32 written in C++.  |  |   
 [ULIS](https://github.com/Praxinos/ULIS) |  A cross-platform C++14 library for generic digital image processing, 2D software rasterizer, unlimited image formats (`u8`, `u16`, `u32`, float, double), Custom bit-ordered memory layout, All Photoshop pixel blending modes + 11 additional modes, Color models (RGB, HSL, HSV, CMYK, ...), Color-managed pipelines, Color Space support (icm profiles and device-independant), Optimized algorithms with multithreading, Optimized algorithms with SIMD Extensions (SSE2), Image pools and caches for optimisations, Memory storage of animated image sequences.  |  Custom (free-of-charge for non-commercial purposes only)  |  cmake   
   
-## [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/links/libs&action=edit&section=21 "Edit section: Graphics \(3D\)")] Graphics (3D)
+## Graphics (3D)
 
 Library  |  Description  |  License  |  Configuration   
 ---|---|---|---  
@@ -705,7 +705,7 @@ GNU LGPL](https://github.com/openscenegraph/OpenSceneGraph?tab=License-1-ov-file
 [VTK](https://vtk.org/) |  Visualization Toolkit (VTK) is an open-source software for manipulating and displaying scientific data. It comes with state-of-the-art tools for 3D rendering, a suite of widgets for 3D interaction, and extensive 2D plotting capability.  |  BSD-3  |  cmake, vcpkg   
 [Vulkan](https://www.khronos.org/vulkan/) |  A low-level API that removes many of the abstractions found in previous generation graphics APIs. This is great for delivering maximum performance, but has the side effect of exposing more complexity to the developer. Fortunately, several excellent tutorials exist to help clear this hurdle and get productive quickly.  |  Khronos (MIT)  |  make, vcpkg   
   
-## [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/links/libs&action=edit&section=22 "Edit section: Images")] Images
+## Images
 
 Library  |  Description  |  License  |  Configuration   
 ---|---|---|---  
@@ -737,7 +737,7 @@ Library  |  Description  |  License  |  Configuration
 [plotutils](https://www.gnu.org/software/plotutils/) |  The GNU **plotutils** package contains **libplot** , a C/C++ library for exporting 2-D vector graphics in many file formats, both vector and bitmap. **libplot** can animate 2-D vector graphics and uses a Postscript-like API for file export and graphics animations.  |  GPL  |   
 [sciplot](https://github.com/sciplot/sciplot) |  A modern C++ scientific plotting library powered by [gnuplot](http://www.gnuplot.info/), with the export to PDF, SVG, PNG, EPS, etc.  |  MIT  |  header-only; cmake, vcpkg   
   
-## [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/links/libs&action=edit&section=23 "Edit section: Image Processing")] Image Processing
+## Image Processing
 
 Library  |  Description  |  License  |  Configuration   
 ---|---|---|---  
@@ -747,7 +747,7 @@ Library  |  Description  |  License  |  Configuration
 [opencv](https://opencv.org/) |  |  |   
 [OTB](https://www.orfeo-toolbox.org/) |  |  |   
   
-## [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/links/libs&action=edit&section=24 "Edit section: Internationalization")] Internationalization
+## Internationalization
 
 Library  |  Description  |  License  |  Configuration   
 ---|---|---|---  
@@ -756,7 +756,7 @@ Library  |  Description  |  License  |  Configuration
 [spirit-po](https://github.com/cbeck88/spirit-po) |  A small library which parses po-files and provides an interface similar to GNU libintl. Based on boost::spirit.  |  [BSL-1.0](https://www.boost.org/LICENSE_1_0.txt) |  header-only   
 [uni-algo](https://github.com/uni-algo/uni-algo) |  Unicode Algorithms Implementation for C/C++  |  MIT/Unlicense  |  cmake, conan, vcpkg   
   
-## [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/links/libs&action=edit&section=25 "Edit section: Logging")] Logging
+## Logging
 
 Library  |  Description  |  License  |  Configuration   
 ---|---|---|---  
@@ -775,13 +775,13 @@ Library  |  Description  |  License  |  Configuration
 [Quill](https://github.com/odygrd/quill) |  A cross-platform, C++14 Asynchronous [Low Latency](https://github.com/odygrd/quill#Performance) Logging Library  |  MIT  |  cmake   
 [spdlog](https://github.com/gabime/spdlog) |  A super fast C++ logging library  |  MIT  |  header-only; cmake, conan   
   
-## [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/links/libs&action=edit&section=26 "Edit section: Error handling")] Error handling
+## Error handling
 
 Library  |  Description  |  License  |  Configuration   
 ---|---|---|---  
 [Boost.LEAF](https://www.boost.org/doc/libs/release/libs/leaf/doc/html/index.html) |  A lightweight error-handling library for C++11: single-header format, no dependencies, no dynamic memory allocations, can be used with or without exception handling, multi-threading ready. ([Src](https://github.com/boostorg/leaf))  |  [BSL-1.0](https://www.boost.org/LICENSE_1_0.txt) |  header-only, cmake   
   
-## [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/links/libs&action=edit&section=27 "Edit section: Math")] Math
+## Math
 
 Library  |  Description  |  License  |  Configuration   
 ---|---|---|---  
@@ -891,7 +891,7 @@ Library  |  Description  |  License  |  Configuration
 [SymEngine](https://symengine.org) |  A standalone fast C++ symbolic manipulation library.  |  [MIT](https://github.com/symengine/symengine/blob/master/LICENSE) |  cmake   
 [ViennaMath](https://viennamath.sourceforge.net) |  A symbolic math library that enables a convenient instantiation, manipulation, and evaluation of mathematical expressions at run time and compile-time.  |  [MIT](https://github.com/viennamath/viennamath-dev/blob/master/LICENSE) |  cmake   
   
-## [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/links/libs&action=edit&section=28 "Edit section: Metaprogramming")] Metaprogramming
+## Metaprogramming
 
 Library  |  Description  |  License  |  Configuration   
 ---|---|---|---  
@@ -910,7 +910,7 @@ Library  |  Description  |  License  |  Configuration
 [Refureku](https://github.com/jsoysouvanh/Refureku) |  A C++17 runtime reflection and code generation library  |  MIT  |  cmake   
 [visit_struct](https://github.com/garbageslam/visit_struct) |  A miniature reflection library, providing structure visitors for C++11/14. Self-contained, 200-400 lines of code depending how you count.  |  |   
   
-## [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/links/libs&action=edit&section=29 "Edit section: PDF")] PDF
+## PDF
 
 Library  |  Description  |  License  |  Configuration   
 ---|---|---|---  
@@ -919,7 +919,7 @@ Library  |  Description  |  License  |  Configuration
 [PoDoFo](http://podofo.sourceforge.net/) |  A free portable C++17 library to work with the PDF  |  LGPL-2.0  |  cmake, conan, vcpkg   
 [PDF-Writer](https://github.com/galkahana/PDF-Writer) |  A high performance C++ library for creating, _modifying_ and parsing PDF files  |  Apache-2.0  |  cmake, conan, vcpkg   
   
-## [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/links/libs&action=edit&section=30 "Edit section: Physics and Simulations")] Physics and Simulations
+## Physics and Simulations
 
 Library  |  Description  |  License  |  Configuration   
 ---|---|---|---  
@@ -928,7 +928,7 @@ Library  |  Description  |  License  |  Configuration
 [ProjectCHRONO](https://projectchrono.org) |  An open-source multi-physics simulation engine  |  |   
 [ReactPhysics3D](https://www.reactphysics3d.com) |  A C++ physics engine library for 3D simulations and game  |  |   
   
-## [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/links/libs&action=edit&section=31 "Edit section: Robotics")] Robotics
+## Robotics
 
 Perception 
 Library  |  Description  |  License  |  Configuration   
@@ -936,7 +936,7 @@ Library  |  Description  |  License  |  Configuration
 [GTSAM](https://gtsam.org) |  Sensor Fusion, SLAM, SFM, VO, Computer vision ([Src](https://github.com/borglab/gtsam))  |  BSD  |  cmake   
 [opencv](https://opencv.org/) |  Computer vision and perception, Calibration, Feature Matching ([Src](https://github.com/opencv/opencv)) ([Doc](https://docs.opencv.org/))  |  BSD, Apache 2  |  cmake   
   
-## [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/links/libs&action=edit&section=32 "Edit section: Serialization")] Serialization
+## Serialization
 
 Library  |  Description  |  License  |  Configuration   
 ---|---|---|---  
@@ -965,7 +965,7 @@ Library  |  Description  |  License  |  Configuration
 [fast_ber](https://github.com/Samuel-Tyler/fast_ber) |  A C++11 high-performance serialization using BER/DER encoding rules. Encoding layout is defined by ASN.1 schemas.  |  |   
 [UBjsonCpp](https://github.com/WhiZTiM/UbjsonCpp) |  A high-performance UBJson read-write library based on C++14  |  |   
   
-## [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/links/libs&action=edit&section=33 "Edit section: Sorting")] Sorting
+## Sorting
 
 Library  |  Description  |  License  |  Configuration   
 ---|---|---|---  
@@ -973,13 +973,13 @@ Library  |  Description  |  License  |  Configuration
 [Indiesort](https://plflib.org/indiesort.htm) |  A function template that allows [std::sort](../algorithm/sort.html "cpp/algorithm/sort") (and other random access sort functions) to be used with non-random-access containers. It also increases the performance of sorting large objects in random-access containers and arrays  |  zlib  |   
 [Timsort](https://github.com/gfx/cpp-TimSort) |  A stable sorting function template which outperforms which outperforms quicksort-based algorithms including [std::sort](../algorithm/sort.html "cpp/algorithm/sort"), for reversed or semi-sorted data.  |  MIT  |   
   
-## [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/links/libs&action=edit&section=34 "Edit section: System")] System
+## System
 
 Library  |  Description  |  License  |  Configuration   
 ---|---|---|---  
 [Infoware](https://github.com/ThePhD/infoware) |  A C++ library for pulling system and hardware information, without hitting the command line.  |  Creative Commons v1.0  |  cmake   
   
-## [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/links/libs&action=edit&section=35 "Edit section: Terminal")] Terminal
+## Terminal
 
 Library  |  Description  |  License  |  Configuration   
 ---|---|---|---  
@@ -987,7 +987,7 @@ Library  |  Description  |  License  |  Configuration
 [cwidget](https://salsa.debian.org/cwidget-team) |  A high-level terminal interface library for C++, modeled on GTK+ and Qt, but using [curses](https://en.wikipedia.org/wiki/Curses_\(programming_library\) "enwiki:Curses \(programming library\)") as its display layer  |  GPL v2.0  |  make   
 [replxx](https://github.com/AmokHuginnsson/replxx) |  A readline and libedit replacement that supports UTF-8, syntax highlighting & hints.  |  |   
   
-## [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/links/libs&action=edit&section=36 "Edit section: Testing")] Testing
+## Testing
 
 Library  |  Description  |  License  |  Configuration   
 ---|---|---|---  
@@ -1005,7 +1005,7 @@ Library  |  Description  |  License  |  Configuration
 [snitch](https://github.com/cschreib/snitch) |  A lightweight C++20 testing framework.  |  Boost  |  cmake   
 [tunit](https://github.com/gammasoft71/tunit) |  A modern C++17 unit testing library on Windows, macOS, Linux, iOS, and Android. [Office site](https://gammasoft71.wixsite.com/tunit) |  MIT  |  cmake   
   
-## [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/links/libs&action=edit&section=37 "Edit section: Text")] Text
+## Text
 
 Coding 
 Library  |  Description  |  License  |  Configuration   
@@ -1047,14 +1047,14 @@ Library  |  Description  |  License  |  Configuration
 [inja](https://github.com/pantor/inja) |  A template engine for C++17.  |  MIT  |  header-only; cmake, conan, vcpkg, etc.   
 [Jinja2C++](https://github.com/jinja2cpp/Jinja2Cpp) |  A C++14/17 implementation of Jinja2 templates  |  MPL-2.0  |  cmake, conan   
   
-## [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/links/libs&action=edit&section=38 "Edit section: Version Control")] Version Control
+## Version Control
 
 Library  |  Description  |  License  |  Configuration   
 ---|---|---|---  
 [coo-semver](https://github.com/easz/cpp-semver) |  A C++ operation library for semantic version numbers.  |  |   
 [LibGit2](https://libgit2.org/) |  A version control system Git's core library.  |  |   
   
-## [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/links/libs&action=edit&section=39 "Edit section: Video")] Video
+## Video
 
 Library  |  Description  |  License  |  Configuration   
 ---|---|---|---  
@@ -1065,7 +1065,7 @@ Library  |  Description  |  License  |  Configuration
 [mjpegtools](http://mjpeg.sourceforge.net/) |  |  |   
 [OpenH264](https://www.openh264.org/) |  A multi-platform, multi-architecture, open-source library which supports H.264 encoding and decoding ([Src](https://github.com/cisco/openh264))  |  [BSD-2 Clause](https://github.com/cisco/openh264/blob/master/LICENSE) |  meson   
   
-## [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/links/libs&action=edit&section=40 "Edit section: Web")] Web
+## Web
 
 Library  |  Description  |  License  |  Configuration   
 ---|---|---|---  
@@ -1086,12 +1086,12 @@ Library  |  Description  |  License  |  Configuration
 [userver](https://github.com/userver-framework/userver) |  The C++ Asynchronous Framework  |  Apache 2.0  |  cmake   
 [Wt](https://www.webtoolkit.eu/wt/) |  Widgets and building blocks for web apps, built-in security, PDF rendering, 2D and 3D painting, ORM, charting, authentication frameworks. ([Doc](https://www.webtoolkit.eu/wt/doc/reference/html/index.html)) ([Src](https://www.webtoolkit.eu/wt/download))  |  GNU GPL or Commercial  |   
   
-# [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/links/libs&action=edit&section=41 "Edit section: See also")] See also
+# See also
 
 [C documentation](../../c/links/libs.html "c/links/libs") for Non-ANSI/ISO Libraries  
 ---  
   
-# [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/links/libs&action=edit&section=42 "Edit section: External links")] External links
+# External links
 
 1\.  | [List of C++ unit testing frameworks](https://en.wikipedia.org/wiki/List_of_unit_testing_frameworks#C.2B.2B "enwiki:List of unit testing frameworks") — at Wikipedia   
 ---|---  

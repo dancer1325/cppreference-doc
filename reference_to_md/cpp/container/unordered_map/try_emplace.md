@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::unordered_map`](../unordered_map.html "cpp/container/unordered map")
 
@@ -139,7 +139,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/unordered map/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/unordered_map/navbar_content&action=edit)
+
 
 template< class... Args >  
 [std::pair](../../utility/pair.html)<iterator, bool> try_emplace( const Key& k, Args&&... args ); |  (1)  |  (since C++17)  
@@ -242,14 +242,14 @@ If rehashing occurs (due to the insertion), all iterators are invalidated. Other
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/try_emplace_assoc&action=edit&section=T-1 "Template:cpp/container/try emplace assoc")] Parameters
+### Parameters
 
 k  |  \-  |  the key used both to look up and to insert if not found   
 ---|---|---  
 hint  |  \-  |  iterator to the position before which the new element will be inserted   
 args  |  \-  |  arguments to forward to the constructor of the element   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/try_emplace_assoc&action=edit&section=T-2 "Template:cpp/container/try emplace assoc")] Return value
+### Return value
 
 1-3) Same as for [`emplace`](emplace.html "cpp/container/unordered map/emplace"):  
 A pair consisting of an iterator to the inserted element (or to the element that prevented the insertion) and a bool value set to true if and only if the insertion took place.
@@ -257,7 +257,7 @@ A pair consisting of an iterator to the inserted element (or to the element that
 4-6) Same as for [`emplace_hint`](emplace_hint.html "cpp/container/unordered map/emplace hint"):  
 An iterator to the inserted element, or to the element that prevented the insertion.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/try_emplace_assoc&action=edit&section=T-3 "Template:cpp/container/try emplace assoc")] Complexity
+### Complexity
 
 1-3) Same as for [`emplace`](emplace.html "cpp/container/unordered map/emplace"):  
 Amortized constant on average, worst case linear in the size of the container.
@@ -265,7 +265,7 @@ Amortized constant on average, worst case linear in the size of the container.
 4-6) Same as for [`emplace_hint`](emplace_hint.html "cpp/container/unordered map/emplace hint"):  
 Amortized constant on average, worst case linear in the size of the container.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/try_emplace_assoc&action=edit&section=T-4 "Template:cpp/container/try emplace assoc")] Notes
+### Notes
 
 Unlike [`insert`](insert.html "cpp/container/unordered map/insert") or [`emplace`](emplace.html "cpp/container/unordered map/emplace"), these functions do not move from rvalue arguments if the insertion does not happen, which makes it easy to manipulate maps whose values are move-only types, such as [std::unordered_map](../unordered_map.html)<[std::string](../../string/basic_string.html), [std::unique_ptr](../../memory/unique_ptr.html)<foo>>. In addition, `try_emplace` treats the key and the arguments to the `mapped_type` separately, unlike [`emplace`](emplace.html "cpp/container/unordered map/emplace"), which requires the arguments to construct a `value_type` (that is, a [std::pair](../../utility/pair.html "cpp/utility/pair")). 
 
@@ -277,7 +277,7 @@ Overloads ([3](try_emplace.html#Version_3)) and ([6](try_emplace.html#Version_6)
 [std::unordered_map::insert_or_assign](insert_or_assign.html "cpp/container/unordered map/insert or assign")  
 [`__cpp_lib_associative_heterogeneous_insertion`](../../experimental/feature_test.html#cpp_lib_associative_heterogeneous_insertion "cpp/feature test") | [`202311L`](../../compiler_support/26.html#cpp_lib_associative_heterogeneous_insertion_202311L "cpp/compiler support/26") | (C++26) | Heterogeneous overloads for the remaining member functions in [ordered](../../container.html#Associative_containers "cpp/container") and [unordered](../../container.html#Unordered_associative_containers "cpp/container") associative [containers](../../container.html "cpp/container"). Overloads ([3](try_emplace.html#Version_3)) and ([6](try_emplace.html#Version_6)).   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/try_emplace_assoc&action=edit&section=T-5 "Template:cpp/container/try emplace assoc")] Example
+### Example
 
 Run this code
     
@@ -323,14 +323,14 @@ Possible output:
     [b] = abcd
     [c] = cccccccccc
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/try_emplace_assoc&action=edit&section=T-6 "Template:cpp/container/try emplace assoc")] See also
+### See also
 
 [ emplace](emplace.html "cpp/container/unordered map/emplace") |  constructs element in-place   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_emplace&action=edit)  
+(public member function)   
 ---|---  
 [ emplace_hint](emplace_hint.html "cpp/container/unordered map/emplace hint") |  constructs elements in-place using a hint   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_emplace_hint&action=edit)  
+(public member function)   
 [ insert](insert.html "cpp/container/unordered map/insert") |  inserts elements or nodes(since C++17)   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_insert&action=edit)
+(public member function) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

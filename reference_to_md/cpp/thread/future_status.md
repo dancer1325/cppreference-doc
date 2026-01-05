@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 Defined in header `[<future>](../header/future.html "cpp/header/future")` |  |   
 ---|---|---  
@@ -186,7 +186,7 @@ deferred
   
 Specifies state of a future as returned by `wait_for` and `wait_until` functions of [std::future](future.html "cpp/thread/future") and [std::shared_future](shared_future.html "cpp/thread/shared future"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/future_status&action=edit&section=1 "Edit section: Constants")] Constants
+### Constants
 
 Enumerator  |  Meaning   
 ---|---  
@@ -194,14 +194,14 @@ Enumerator  |  Meaning
 `ready` |  the shared state is ready   
 `timeout` |  the shared state did not become ready before specified timeout duration has passed   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/future_status&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ wait_for](future/wait_for.html "cpp/thread/future/wait for") |  waits for the result, returns if it is not available for the specified timeout duration   
-(public member function of `std::future<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/future/dsc_wait_for&action=edit)  
+(public member function of `std::future<T>`)   
 ---|---  
 [ wait_for](shared_future/wait_for.html "cpp/thread/shared future/wait for") |  waits for the result, returns if it is not available for the specified timeout duration   
-(public member function of `std::shared_future<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/future/dsc_wait_for&action=edit)  
+(public member function of `std::shared_future<T>`)   
 [ wait_until](future/wait_until.html "cpp/thread/future/wait until") |  waits for the result, returns if it is not available until specified time point has been reached   
-(public member function of `std::future<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/future/dsc_wait_until&action=edit)  
+(public member function of `std::future<T>`)   
 [ wait_until](shared_future/wait_until.html "cpp/thread/shared future/wait until") |  waits for the result, returns if it is not available until specified time point has been reached   
-(public member function of `std::shared_future<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/future/dsc_wait_until&action=edit)
+(public member function of `std::shared_future<T>`) 

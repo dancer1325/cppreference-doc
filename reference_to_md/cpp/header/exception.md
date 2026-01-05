@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header is part of the [error handling](../error.html "cpp/error") library. 
 
@@ -216,46 +216,46 @@ This header is part of the [error handling](../error.html "cpp/error") library.
 ###  Types  
   
 [ exception](../error/exception.html "cpp/error/exception") |  base class for exceptions thrown by the standard library components   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_exception&action=edit)  
+(class)   
 [ nested_exception](../error/nested_exception.html "cpp/error/nested exception")(C++11) |  a mixin type to capture and store current exceptions   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_nested_exception&action=edit)  
+(class)   
 [ bad_exception](../error/bad_exception.html "cpp/error/bad exception") |  exception thrown when [std::current_exception](../error/current_exception.html "cpp/error/current exception") fails to copy the exception object   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_bad_exception&action=edit)  
+(class)   
 [ unexpected_handler](../error/exception/unexpected_handler.html "cpp/error/unexpected handler")(deprecated in C++11)(removed in C++17) |  the type of the function called by [std::unexpected](../error/unexpected.html "cpp/error/unexpected")   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_unexpected_handler&action=edit)  
+(typedef)   
 [ terminate_handler](../error/terminate_handler.html "cpp/error/terminate handler") |  the type of the function called by [std::terminate](../error/terminate.html "cpp/error/terminate")   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_terminate_handler&action=edit)  
+(typedef)   
 [ exception_ptr](../error/exception_ptr.html "cpp/error/exception ptr")(C++11) |  shared pointer type for handling exception objects   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_exception_ptr&action=edit)  
+(typedef)   
   
 ###  Functions  
   
 [ unexpected](../error/unexpected.html "cpp/error/unexpected")(deprecated in C++11)(removed in C++17) |  function called when dynamic exception specification is violated   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_unexpected&action=edit)  
+(function)   
 [ uncaught_exceptionuncaught_exceptions](../error/exception/uncaught_exception.html "cpp/error/uncaught exception")(removed in C++20*)(C++17) |  checks if exception handling is currently in progress   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_uncaught_exception&action=edit)  
+(function)   
 [ make_exception_ptr](../error/make_exception_ptr.html "cpp/error/make exception ptr")(C++11) |  creates an [std::exception_ptr](../error/exception_ptr.html "cpp/error/exception ptr") from an exception object   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_make_exception_ptr&action=edit)  
+(function template)   
 [ current_exception](../error/current_exception.html "cpp/error/current exception")(C++11) |  captures the current exception in a [std::exception_ptr](../error/exception_ptr.html "cpp/error/exception ptr")   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_current_exception&action=edit)  
+(function)   
 [ rethrow_exception](../error/rethrow_exception.html "cpp/error/rethrow exception")(C++11) |  throws the exception from an [std::exception_ptr](../error/exception_ptr.html "cpp/error/exception ptr")   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_rethrow_exception&action=edit)  
+(function)   
 [ throw_with_nested](../error/throw_with_nested.html "cpp/error/throw with nested")(C++11) |  throws its argument with [std::nested_exception](../error/nested_exception.html "cpp/error/nested exception") mixed in   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_throw_with_nested&action=edit)  
+(function template)   
 [ rethrow_if_nested](../error/rethrow_if_nested.html "cpp/error/rethrow if nested")(C++11) |  throws the exception from a [std::nested_exception](../error/nested_exception.html "cpp/error/nested exception")   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_rethrow_if_nested&action=edit)  
+(function template)   
 [ terminate](../error/terminate.html "cpp/error/terminate") |  function called when exception handling fails   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_terminate&action=edit)  
+(function)   
 [ get_terminate](../error/get_terminate.html "cpp/error/get terminate")(C++11) |  obtains the current terminate_handler   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_get_terminate&action=edit)  
+(function)   
 [ set_terminate](../error/set_terminate.html "cpp/error/set terminate") |  changes the function to be called by [std::terminate](../error/terminate.html "cpp/error/terminate")   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_set_terminate&action=edit)  
+(function)   
 [ get_unexpected](../error/exception/get_unexpected.html "cpp/error/get unexpected")(deprecated in C++11)(removed in C++17) |  obtains the current `unexpected_handler`   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_get_unexpected&action=edit)  
+(function)   
 [ set_unexpected](../error/exception/set_unexpected.html "cpp/error/set unexpected")(deprecated in C++11)(removed in C++17) |  changes the function to be called by [std::unexpected](../error/unexpected.html "cpp/error/unexpected")   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_set_unexpected&action=edit)  
+(function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/exception&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     // all freestanding
@@ -281,7 +281,7 @@ This header is part of the [error handling](../error.html "cpp/error") library.
       template<class E> constexpr void rethrow_if_nested(const E& e);
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/exception&action=edit&section=T-1 "Template:cpp/synopsis/exception")] Class [std::exception](../error/exception.html "cpp/error/exception")
+#### Class [std::exception](../error/exception.html "cpp/error/exception")
     
     
     namespace std {
@@ -296,7 +296,7 @@ This header is part of the [error handling](../error.html "cpp/error") library.
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/exception&action=edit&section=T-2 "Template:cpp/synopsis/exception")] Class [std::bad_exception](../error/bad_exception.html "cpp/error/bad exception")
+#### Class [std::bad_exception](../error/bad_exception.html "cpp/error/bad exception")
     
     
     namespace std {
@@ -308,7 +308,7 @@ This header is part of the [error handling](../error.html "cpp/error") library.
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/exception&action=edit&section=T-3 "Template:cpp/synopsis/exception")] Class [std::nested_exception](../error/nested_exception.html "cpp/error/nested exception")
+#### Class [std::nested_exception](../error/nested_exception.html "cpp/error/nested exception")
     
     
     namespace std {
@@ -329,7 +329,7 @@ This header is part of the [error handling](../error.html "cpp/error") library.
       template<class E> constexpr void rethrow_if_nested(const E& e);
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/exception&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
   * [Error handling](../error.html "cpp/error")
 

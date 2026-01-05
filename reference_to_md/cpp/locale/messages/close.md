@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Localization library](../../locale.html "cpp/locale")
 
@@ -152,7 +152,7 @@ base classes](../../locale.html#Facet_category_base_classes "cpp/locale")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/navbar_content&action=edit)
+
 
 [`std::messages`](../messages.html "cpp/locale/messages")
 
@@ -164,7 +164,7 @@ Member functions
 [messages::getmessages::do_get](get.html "cpp/locale/messages/get")  
 **messages::close messages::do_close**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/messages/navbar_content&action=edit)
+
 
 Defined in header `[<locale>](../../header/locale.html "cpp/header/locale")` |  |   
 ---|---|---  
@@ -189,20 +189,20 @@ virtual void do_close( catalog c ) const; |  (2)  |
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/messages/close&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 c  |  \-  |  a valid open catalog identifier, on which `close()` has not yet been called   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/messages/close&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/messages/close&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 On POSIX systems, this function call usually translates to a call to `[catclose()](https://pubs.opengroup.org/onlinepubs/9699919799/functions/catclose.html)`. In GNU libstdc++, which is implemented in terms of GNU `gettext()`, it does nothing. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/messages/close&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 The following example demonstrated retrieval of messages: on a typical GNU/Linux system it reads from `/usr/share/locale/de/LC_MESSAGES/sed.mo`.
 
@@ -234,6 +234,6 @@ Possible output:
     "No match" in German: Keine Übereinstimmung
     "Memory exhausted" in German: Speicher erschöpft
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/messages/close&action=edit&section=5 "Edit section: See also")] See also  
+### See also  
   
 ---

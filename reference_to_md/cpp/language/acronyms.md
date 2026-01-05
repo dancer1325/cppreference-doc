@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 Acronym  | Full name  | See also   
 ---|---|---  
@@ -318,7 +318,7 @@ UFCS  | Universal Function Call Syntax  | [“What is UFCS anyway?”](https://b
 VLA  | **V** ariable-**L** ength **A** rray  | [SO on VLA](https://stackoverflow.com/questions/1887097/why-arent-variable-length-arrays-part-of-the-c-standard)  
 WPO  | [Whole-Program Optimization](https://en.wikipedia.org/wiki/Interprocedural_optimization#WPO_and_LTO "enwiki:Interprocedural optimization") |   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/acronyms&action=edit&section=1 "Edit section: External links")] External links
+### External links
 
 [“A C++ acronym glossary” by Arthur O’Dwyer, 2019/08](https://quuxplusone.github.io/blog/2019/08/02/the-tough-guide-to-cpp-acronyms/)  
 ---

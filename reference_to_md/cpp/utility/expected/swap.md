@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::expected`](../expected.html "cpp/utility/expected")
 
@@ -160,7 +160,7 @@ Common vocabulary types
 [bad_expected_access](bad_expected_access.html "cpp/utility/expected/bad expected access")  
 [unexpect_tunexpect](unexpect_t.html "cpp/utility/expected/unexpect t")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/expected/navbar_content&action=edit)
+
 
 Primary template |  |   
 ---|---|---  
@@ -255,12 +255,12 @@ This overload participates in overload resolution only if [std::is_swappable_v](
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/swap&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 other  |  \-  |  the `expected` object to exchange the contents with   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/swap&action=edit&section=2 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 1)
 
@@ -287,7 +287,7 @@ noexcept(
 
 )
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/swap&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -342,8 +342,8 @@ Output:
     ex1.error() = 13  ex2.error() = 37  after ex1.swap(ex2):
     ex1.error() = 37  ex2.error() = 13
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/swap&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ swap(std::expected)](swap2.html "cpp/utility/expected/swap2")(C++23) |  specializes the [std::swap](../swap.html "cpp/algorithm/swap") algorithm   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/expected/dsc_swap2&action=edit)  
+(function)   
 ---|---

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [`std::valarray`](../valarray.html "cpp/numeric/valarray")
 
@@ -155,7 +155,7 @@
   
 [Deduction guides](deduction_guides.html "cpp/numeric/valarray/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/navbar_content&action=edit)
+
 
 Defined in header `[<valarray>](../../header/valarray.html "cpp/header/valarray")` |  |   
 ---|---|---  
@@ -197,7 +197,7 @@ It is possible to construct `std::gslice` objects that select some indices more 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/gslice&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 **(constructor)** |  constructs a generic slice   
 (public member function)  
@@ -255,7 +255,7 @@ The parameters of the slice -- start, sizes and strides respectively.
 
 Constant. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/gslice&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Demonstrates the use of gslices to address columns of a 3D array:
 
@@ -314,7 +314,7 @@ Output:
     1 -1 133   1 232 233
     1 -1 143   1 242 243
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/gslice&action=edit&section=7 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -322,12 +322,12 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 543](https://cplusplus.github.io/LWG/issue543) | C++98  | it was unclear whether a default constructed generic slice is usable  | it is usable (as an empty subset)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/gslice&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [ operator[]](operator_at.html "cpp/numeric/valarray/operator at") |  get/set valarray element, slice, or mask   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_operator_at&action=edit)  
+(public member function)   
 ---|---  
 [ slice](slice.html "cpp/numeric/valarray/slice") |  BLAS-like slice of a valarray: starting index, length, stride   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_slice&action=edit)  
+(class)   
 [ gslice_array](gslice_array.html "cpp/numeric/valarray/gslice array") |  proxy to a subset of a valarray after applying a gslice   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_gslice_array&action=edit)
+(class template) 

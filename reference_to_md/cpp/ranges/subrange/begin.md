@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::subrange`](../subrange.html "cpp/ranges/subrange")
 
@@ -249,7 +249,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
 [tuple_size<std::ranges::subrange>](tuple_size.html "cpp/ranges/subrange/tuple size")  
 [tuple_element<std::ranges::subrange>](tuple_element.html "cpp/ranges/subrange/tuple element")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/subrange/navbar_content&action=edit)
+
 
 constexpr I begin() const requires [std::copyable](../../concepts/copyable.html)<I>; |  (1)  |  (since C++20)  
 ---|---|---  
@@ -260,24 +260,24 @@ Obtains the iterator to the beginning of the [`subrange`](../subrange.html "cpp/
 
 ![range-begin-end.svg](https://upload.cppreference.com/mwiki/images/1/1b/range-begin-end.svg)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/subrange/begin&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 1) `_[begin_](../subrange.html#begin "cpp/ranges/subrange")_`.
 
 2) std::move(`_[begin_](../subrange.html#begin "cpp/ranges/subrange")_` ﻿).
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/subrange/begin&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/subrange/begin&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ end](end.html "cpp/ranges/subrange/end") |  obtains the sentinel   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/subrange/dsc_end&action=edit)  
+(public member function)   
 ---|---  
 [ begincbegin](../../iterator/begin.html "cpp/iterator/begin")(C++11)(C++14) |  returns an iterator to the beginning of a container or array   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_begin&action=edit)  
+(function template)   
 [ ranges::begin](../begin.html "cpp/ranges/begin")(C++20) |  returns an iterator to the beginning of a range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_begin&action=edit)
+(customization point object)

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Localization library](../locale.html "cpp/locale")
 
@@ -152,7 +152,7 @@ base classes](../locale.html#Facet_category_base_classes "cpp/locale")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/navbar_content&action=edit)
+
 
 Defined in header `[<clocale>](../header/clocale.html "cpp/header/clocale")` |  |   
 ---|---|---  
@@ -174,9 +174,9 @@ The class `std::lconv` contains numeric and monetary formatting rules as defined
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/lconv&action=edit&section=1 "Edit section: Member objects")] Member objects
+### Member objects
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/lconv&action=edit&section=2 "Edit section: Non-monetary numeric formatting parameters")] Non-monetary numeric formatting parameters
+#### Non-monetary numeric formatting parameters
 
 char* decimal_point |  the character used as the decimal point   
 (public member object)  
@@ -186,7 +186,7 @@ char* thousands_sep |  the character used to separate groups of digits before th
 char* grouping |  a string whose elements indicate the sizes of digit groups   
 (public member object)  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/lconv&action=edit&section=3 "Edit section: Monetary numeric formatting parameters")] Monetary numeric formatting parameters
+#### Monetary numeric formatting parameters
 
 char* mon_decimal_point |  the character used as the decimal point   
 (public member object)  
@@ -200,7 +200,7 @@ char* positive_sign |  a string used to indicate non-negative monetary quantity
 char* negative_sign |  a string used to indicate negative monetary quantity   
 (public member object)  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/lconv&action=edit&section=4 "Edit section: Local monetary numeric formatting parameters")] Local monetary numeric formatting parameters
+#### Local monetary numeric formatting parameters
 
 char* currency_symbol |  the symbol used for currency in the current C locale   
 (public member object)  
@@ -220,7 +220,7 @@ char p_sign_posn |  indicates the position of `positive_sign` in a non-negative 
 char n_sign_posn |  indicates the position of `negative_sign` in a negative monetary value   
 (public member object)  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/lconv&action=edit&section=5 "Edit section: International monetary numeric formatting parameters")] International monetary numeric formatting parameters
+#### International monetary numeric formatting parameters
 
 char* int_curr_symbol |  the string used as international currency name in the current C locale   
 (public member object)  
@@ -259,9 +259,9 @@ The values of `p_sign_posn`, `n_sign_posn`, `int_p_sign_posn`, `int_n_sign_posn`
 3  |  sign before the currency symbol   
 4  |  sign after the currency symbol   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/lconv&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/example1&action=edit)
+
 
 Run this code
     
@@ -282,13 +282,13 @@ Output:
     
     Japanese currency symbol: ￥(JPY )
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/lconv&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ localeconv](localeconv.html "cpp/locale/localeconv") |  queries numeric and monetary formatting details of the current locale   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_localeconv&action=edit)  
+(function)   
 ---|---  
 [ numpunct](numpunct.html "cpp/locale/numpunct") |  defines numeric punctuation rules   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_numpunct&action=edit)  
+(class template)   
 [ moneypunct](moneypunct.html "cpp/locale/moneypunct") |  defines monetary formatting parameters used by [std::money_get](money_get.html "cpp/locale/money get") and [std::money_put](money_put.html "cpp/locale/money put")   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_moneypunct&action=edit)  
+(class template)   
 [C documentation](../../c/locale/lconv.html "c/locale/lconv") for lconv

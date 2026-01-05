@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Localization library](../../locale.html "cpp/locale")
 
@@ -152,7 +152,7 @@ base classes](../../locale.html#Facet_category_base_classes "cpp/locale")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/navbar_content&action=edit)
+
 
 [`std::codecvt`](../codecvt.html "cpp/locale/codecvt")
 
@@ -168,7 +168,7 @@ Member functions
 [codecvt::lengthcodecvt::do_length](length.html "cpp/locale/codecvt/length")  
 [codecvt::max_lengthcodecvt::do_max_length](max_length.html "cpp/locale/codecvt/max length")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/codecvt/navbar_content&action=edit)
+
 
 Defined in header `[<locale>](../../header/locale.html "cpp/header/locale")` |  |   
 ---|---|---  
@@ -214,7 +214,7 @@ do_out(state, from, from + 1, from_next, to, to_end, to_next) must return `ok` i
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/codecvt/out&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 A value of type [std::codecvt_base::result](../codecvt_base.html "cpp/locale/codecvt base"), indicating the success status as follows: 
 
@@ -226,7 +226,7 @@ A value of type [std::codecvt_base::result](../codecvt_base.html "cpp/locale/cod
   
 The non-converting specialization [std::codecvt](../codecvt.html)<char, char, [std::mbstate_t](../../string/multibyte/mbstate_t.html)> always returns [std::codecvt_base::noconv](../codecvt_base.html "cpp/locale/codecvt base"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/codecvt/out&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 Requires that from <= from_end && to <= to_end and that state either representing the initial shift state or obtained by converting the preceding characters in the sequence. 
 
@@ -236,7 +236,7 @@ When performing N:M conversions, this function may return [std::codecvt_base::pa
 
 The effect on state is deliberately unspecified. In standard facets, it is used to maintain shift state like when calling [std::wcsrtombs](../../string/multibyte/wcsrtombs.html), and is therefore updated to reflect the shift state after the last successfully converted character, but a user-defined facet is free to use it to maintain any other state, e.g. count the number of special characters encountered. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/codecvt/out&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -269,7 +269,7 @@ Output:
     
     The string in narrow multibyte encoding: zß水🍌
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/codecvt/out&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -279,14 +279,14 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 to support taking one internal character at a time  | only required if used  
 by [`basic_filebuf`](../../io/basic_filebuf.html "cpp/io/basic filebuf")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/codecvt/out&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ overflow](../../io/basic_filebuf/overflow.html "cpp/io/basic filebuf/overflow")[virtual] |  writes characters to the associated file from the put area   
-(virtual protected member function of `std::basic_filebuf<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_filebuf/dsc_overflow&action=edit)  
+(virtual protected member function of `std::basic_filebuf<CharT,Traits>`)   
 ---|---  
 [ to_bytes](../wstring_convert/to_bytes.html "cpp/locale/wstring convert/to bytes") |  converts a wide string into a byte string   
-(public member function of `std::wstring_convert<Codecvt,Elem,Wide_alloc,Byte_alloc>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/wstring_convert/dsc_to_bytes&action=edit)  
+(public member function of `std::wstring_convert<Codecvt,Elem,Wide_alloc,Byte_alloc>`)   
 [ wcsrtombs](../../string/multibyte/wcsrtombs.html "cpp/string/multibyte/wcsrtombs") |  converts a wide string to narrow multibyte character string, given state   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/dsc_wcsrtombs&action=edit)  
+(function)   
 [ do_in](in.html "cpp/locale/codecvt/in")[virtual] |  converts a string from `ExternT` to `InternT`, such as when reading from file   
-(virtual protected member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/codecvt/dsc_do_in&action=edit)
+(virtual protected member function) 

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::future_error`](../future_error.html "cpp/thread/future error")
 
@@ -184,7 +184,7 @@ Member functions
 [future_error::code](code.html "cpp/thread/future error/code")  
 **future_error::what**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/future_error/navbar_content&action=edit)
+
 
 virtual const char* what() const noexcept; |  |  (since C++11)  
 ---|---|---  
@@ -192,16 +192,16 @@ virtual const char* what() const noexcept; |  |  (since C++11)
   
 Returns the explanatory string. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/future_error/what&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/future_error/what&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Pointer to a null-terminated string with explanatory information. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/future_error/what&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ code](code.html "cpp/thread/future error/code") |  returns the error code   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/future_error/dsc_code&action=edit)  
+(public member function)   
 ---|---

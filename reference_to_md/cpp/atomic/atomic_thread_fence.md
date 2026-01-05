@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 Defined in header `[<atomic>](../header/atomic.html "cpp/header/atomic")` |  |   
 ---|---|---  
@@ -195,7 +195,7 @@ Establishes [memory synchronization ordering](memory_order.html "cpp/atomic/memo
   
 ---  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_thread_fence&action=edit&section=1 "Edit section: Fence-atomic synchronization")] Fence-atomic synchronization
+#### Fence-atomic synchronization
 
 A release fence `F` in thread `A` synchronizes-with atomic [acquire operation](memory_order.html "cpp/atomic/memory order") `Y` in thread `B`, if 
 
@@ -207,7 +207,7 @@ A release fence `F` in thread `A` synchronizes-with atomic [acquire operation](m
 
 In this case, all non-atomic and relaxed atomic stores that are [sequenced-before](memory_order.html "cpp/atomic/memory order") `F` in thread `A` will [happen-before](memory_order.html "cpp/atomic/memory order") all non-atomic and relaxed atomic loads from the same locations made in thread `B` after `Y`. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_thread_fence&action=edit&section=2 "Edit section: Atomic-fence synchronization")] Atomic-fence synchronization
+#### Atomic-fence synchronization
 
 An atomic [release operation](memory_order.html "cpp/atomic/memory order") `X` in thread `A` synchronizes-with an acquire fence `F` in thread `B`, if 
 
@@ -219,7 +219,7 @@ An atomic [release operation](memory_order.html "cpp/atomic/memory order") `X` i
 
 In this case, all non-atomic and relaxed atomic stores that are [sequenced-before](memory_order.html "cpp/atomic/memory order") `X` in thread `A` will [happen-before](memory_order.html "cpp/atomic/memory order") all non-atomic and relaxed atomic loads from the same locations made in thread `B` after `F`. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_thread_fence&action=edit&section=3 "Edit section: Fence-fence synchronization")] Fence-fence synchronization
+#### Fence-fence synchronization
 
 A release fence `FA` in thread `A` synchronizes-with an acquire fence `FB` in thread `B`, if 
 
@@ -244,12 +244,12 @@ Depending on the value of the order parameter, the effects of this call are:
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_thread_fence&action=edit&section=4 "Edit section: Parameters")] Parameters
+### Parameters
 
 order  |  \-  |  the memory ordering executed by this fence   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_thread_fence&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 On x86 (including x86-64), `atomic_thread_fence` functions issue no CPU instructions and only affect compile-time code motion, except for std::atomic_thread_fence([std::memory_order_seq_cst](memory_order.html)). 
 
@@ -295,7 +295,7 @@ Fence-fence synchronization can be used to add synchronization to a sequence of 
             print(data[v2]);
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_thread_fence&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Scan an array of mailboxes, and process only the ones intended for us, without unnecessary synchronization. This example uses atomic-fence synchronization. 
     
@@ -321,11 +321,11 @@ Scan an array of mailboxes, and process only the ones intended for us, without u
             do_work(mailbox_data[i]);
         }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_thread_fence&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ memory_order](memory_order.html "cpp/atomic/memory order")(C++11) |  defines memory ordering constraints for the given atomic operation   
-(enum) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/dsc_memory_order&action=edit)  
+(enum)   
 ---|---  
 [ atomic_signal_fence](atomic_signal_fence.html "cpp/atomic/atomic signal fence")(C++11) |  fence between a thread and a signal handler executed in the same thread   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/dsc_atomic_signal_fence&action=edit)  
+(function)   
 [C documentation](../../c/atomic/atomic_thread_fence.html "c/atomic/atomic thread fence") for atomic_thread_fence

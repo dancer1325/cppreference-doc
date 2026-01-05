@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](empty.html "cpp/iterator/empty")(C++17)  
 [data](data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 Defined in header `[<iterator>](../header/iterator.html "cpp/header/iterator")` |  |   
 ---|---|---  
@@ -222,7 +222,7 @@ Return the nth successor (or -nth predecessor if n is negative) of iterator it.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/next&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 it  |  \-  |  an iterator   
 ---|---|---  
@@ -230,17 +230,17 @@ n  |  \-  |  number of elements to advance
 Type requirements   
 -`InputIt` must meet the requirements of [LegacyInputIterator](../named_req/InputIterator.html "cpp/named req/InputIterator").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/next&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 An iterator of type `InputIt` that holds the nth successor (or -nth predecessor if n is negative) of iterator it. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/next&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Linear. 
 
 However, if `InputIt` additionally meets the requirements of [LegacyRandomAccessIterator](../named_req/RandomAccessIterator.html "cpp/named req/RandomAccessIterator"), complexity is constant. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/next&action=edit&section=4 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     template<class InputIt>
@@ -253,11 +253,11 @@ However, if `InputIt` additionally meets the requirements of [LegacyRandomAccess
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/next&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 Although the expression ++c.begin() often compiles, it is not guaranteed to do so: c.begin() is an rvalue expression, and there is no [LegacyInputIterator](../named_req/InputIterator.html "cpp/named req/InputIterator") requirement that specifies that increment of an rvalue is guaranteed to work. In particular, when iterators are implemented as pointers or its `operator++` is lvalue-ref-qualified, ++c.begin() does not compile, while std::next(c.begin()) does. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/next&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -285,7 +285,7 @@ Output:
     4 6
      5
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/next&action=edit&section=7 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -293,14 +293,14 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 2353](https://cplusplus.github.io/LWG/issue2353) | C++11  | `next` required [LegacyForwardIterator](../named_req/ForwardIterator.html "cpp/named req/ForwardIterator") | [LegacyInputIterator](../named_req/InputIterator.html "cpp/named req/InputIterator") allowed   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/next&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [ prev](prev.html "cpp/iterator/prev")(C++11) |  decrement an iterator   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_prev&action=edit)  
+(function template)   
 ---|---  
 [ advance](advance.html "cpp/iterator/advance") |  advances an iterator by given distance   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_advance&action=edit)  
+(function template)   
 [ distance](distance.html "cpp/iterator/distance") |  returns the distance between two iterators   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_distance&action=edit)  
+(function template)   
 [ ranges::next](ranges/next.html "cpp/iterator/ranges/next")(C++20) |  increment an iterator by a given distance or to a bound  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/ranges/dsc_next&action=edit)
+(algorithm function object)

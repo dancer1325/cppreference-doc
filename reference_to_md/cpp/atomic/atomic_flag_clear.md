@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 Defined in header `[<atomic>](../header/atomic.html "cpp/header/atomic")` |  |   
 ---|---|---  
@@ -203,17 +203,17 @@ If order is one of [std::memory_order_consume](memory_order.html), [std::memory_
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_flag_clear&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 obj  |  \-  |  pointer to [std::atomic_flag](atomic_flag.html "cpp/atomic/atomic flag") to access   
 ---|---|---  
 order  |  \-  |  the memory synchronization ordering   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_flag_clear&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 `std::atomic_flag_clear` and `std::atomic_flag_clear_explicit` can be implemented as obj->clear() and obj->clear(order) respectively. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_flag_clear&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -221,13 +221,13 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 2138](https://cplusplus.github.io/LWG/issue2138) | C++11  | order could be [std::memory_order_consume](memory_order.html) | the behavior is undefined in this case   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_flag_clear&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ atomic_flag](atomic_flag.html "cpp/atomic/atomic flag")(C++11) |  the lock-free boolean atomic type   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/dsc_atomic_flag&action=edit)  
+(class)   
 ---|---  
 [ atomic_flag_test_and_setatomic_flag_test_and_set_explicit](atomic_flag_test_and_set.html "cpp/atomic/atomic flag test and set")(C++11)(C++11) |  atomically sets the flag to true and returns its previous value   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/dsc_atomic_flag_test_and_set&action=edit)  
+(function)   
 [ memory_order](memory_order.html "cpp/atomic/memory order")(C++11) |  defines memory ordering constraints for the given atomic operation   
-(enum) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/dsc_memory_order&action=edit)  
+(enum)   
 [C documentation](../../c/atomic/atomic_flag_clear.html "c/atomic/atomic flag clear") for atomic_flag_clear, atomic_flag_clear_explicit

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Formatting library](../format.html "cpp/utility/format")
 
@@ -91,7 +91,7 @@ Formatting arguments
 [Format error](format.html#Format_error "cpp/utility/format/format")  
 [format_error](format_error.html "cpp/utility/format/format error")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/navbar_content&action=edit)
+
 
 **`std::formatter <_range_ >`**
 
@@ -103,7 +103,7 @@ _range-default-formatter_ specializations
 [_range-default-formatter_ <std::range_format::string>  
 _range-default-formatter_ <std::range_format::debug_string>](ranges_formatter/range_default_formatter_string.html "cpp/utility/format/ranges formatter/range default formatter string")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/ranges_formatter/navbar_content&action=edit)
+
 
 Defined in header `[<format>](../../header/format.html "cpp/header/format")` |  |   
 ---|---|---  
@@ -134,7 +134,7 @@ This specialization meets the [Formatter](../../named_req/Formatter.html "cpp/na
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/ranges_formatter&action=edit&section=1 "Edit section: Format specification")] Format specification
+### Format specification
 
 The syntax of range-format-spec is:   
   
@@ -145,28 +145,28 @@ The syntax is fully described in [range format specification](range_formatter.ht
 
 For specializations of `std::formatter` where [std::format_kind](format_kind.html)<R> is either std::range_format::string or std::range_format::debug_string, the format-spec is std-format-spec instead of range-format-spec (which uses [std::formatter](formatter.html)<[std::basic_string](../../string/basic_string.html)<CharT>, CharT> as the underlying formatter). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/ranges_formatter&action=edit&section=2 "Edit section: Specializations of range-default-formatter")] Specializations of `_range-default-formatter_`
+### Specializations of `_range-default-formatter_`
 
 [ _range-default-formatter_ <std::range_format::sequence>](ranges_formatter/range_default_formatter_sequence.html "cpp/utility/format/ranges formatter/range default formatter sequence")(C++23) |  formatting utility for ranges in sequence form   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/ranges_formatter/dsc_range_default_formatter_sequence&action=edit)  
+(class template specialization)   
 ---|---  
 [ _range-default-formatter_ <std::range_format::map>](ranges_formatter/range_default_formatter_map.html "cpp/utility/format/ranges formatter/range default formatter map")(C++23) |  formatting utility for ranges in map form   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/ranges_formatter/dsc_range_default_formatter_map&action=edit)  
+(class template specialization)   
 [ _range-default-formatter_ <std::range_format::set>](ranges_formatter/range_default_formatter_set.html "cpp/utility/format/ranges formatter/range default formatter set")(C++23) |  formatting utility for ranges in set form   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/ranges_formatter/dsc_range_default_formatter_set&action=edit)  
+(class template specialization)   
 [ _range-default-formatter_ <std::range_format::string>_range-default-formatter_ <std::range_format::debug_string>](ranges_formatter/range_default_formatter_string.html "cpp/utility/format/ranges formatter/range default formatter string")(C++23) |  formatting utility for ranges in string or escaped string form   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/ranges_formatter/dsc_range_default_formatter_string&action=edit)  
+(class template specialization)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/ranges_formatter&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/format/ranges_formatter&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ formatter](formatter.html "cpp/utility/format/formatter")(C++20) |  defines formatting rules for a given type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/dsc_formatter&action=edit)  
+(class template)   
 ---|---  
 [ range_formatter](range_formatter.html "cpp/utility/format/range formatter")(C++23) |  class template that helps implementing [std::formatter](formatter.html "cpp/utility/format/formatter") specializations for range types   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/dsc_range_formatter&action=edit)
+(class template) 

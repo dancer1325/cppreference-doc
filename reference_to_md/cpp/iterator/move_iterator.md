@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](empty.html "cpp/iterator/empty")(C++17)  
 [data](data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 **`std::move_iterator`**
 
@@ -216,7 +216,7 @@ Non-member functions
 [iter_swap](move_iterator/iter_swap.html "cpp/iterator/move iterator/iter swap")(C++20)  
 [make_move_iterator](make_move_iterator.html "cpp/iterator/make move iterator")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/move_iterator/navbar_content&action=edit)
+
 
 Defined in header `[<iterator>](../header/iterator.html "cpp/header/iterator")` |  |   
 ---|---|---  
@@ -241,7 +241,7 @@ class move_iterator; |  |  (since C++11)
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/move_iterator&action=edit&section=1 "Edit section: Nested types")] Nested types
+### Nested types
 
 |  Type  |  Definition   
 ---|---  
@@ -283,50 +283,50 @@ class move_iterator; |  |  (since C++11)
 `reference` |  [std::iter_rvalue_reference_t](iter_t.html)<Iter>  
 (since C++20)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/move_iterator&action=edit&section=2 "Edit section: Data members")] Data members
+### Data members
 
 Member  |  Description   
 ---|---  
 `Iter` `_current_` |  the underlying iterator  
 (exposition-only member object*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/move_iterator&action=edit&section=3 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](move_iterator/move_iterator.html "cpp/iterator/move iterator/move iterator") |  constructs a new `move_iterator`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ operator=](move_iterator/operator=.html "cpp/iterator/move iterator/operator=") |  assigns another `move_iterator`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_operator%3D&action=edit)  
+(public member function)   
 [ base](move_iterator/base.html "cpp/iterator/move iterator/base") |  accesses the underlying iterator   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_base&action=edit)  
+(public member function)   
 [ operator*operator->](move_iterator/operator*.html "cpp/iterator/move iterator/operator*") |  accesses the pointed-to element   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_operator*&action=edit)  
+(public member function)   
 [ operator[]](move_iterator/operator_at.html "cpp/iterator/move iterator/operator at") |  accesses an element by index   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_operator_at&action=edit)  
+(public member function)   
 [ operator++operator++(int)operator+=operator+operator--operator--(int)operator-=operator-](move_iterator/operator_arith.html "cpp/iterator/move iterator/operator arith") |  advances or decrements the `move_iterator`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_operator_arith&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/move_iterator&action=edit&section=4 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ operator==operator!=operator<operator<=operator>operator>=operator<=>](move_iterator/operator_cmp.html "cpp/iterator/move iterator/operator cmp")(C++11)(C++11)(removed in C++20)(C++11)(C++11)(C++11)(C++11)(C++20) |  compares the underlying iterators   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_operator_cmp&action=edit)  
+(function template)   
 ---|---  
 [ operator==(std::move_sentinel)](move_iterator/operator_cmp2.html "cpp/iterator/move iterator/operator cmp2")(C++20) |  compares the underlying iterator and the underlying sentinel   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/move_iterator/dsc_operator_cmp2&action=edit)  
+(function template)   
 [ operator+](move_iterator/operator+.html "cpp/iterator/move iterator/operator+")(C++11) |  advances the iterator   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_operator%2B&action=edit)  
+(function template)   
 [ operator-](move_iterator/operator-.html "cpp/iterator/move iterator/operator-")(C++11) |  computes the distance between two iterator adaptors   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_operator-&action=edit)  
+(function template)   
 [ operator-(std::move_sentinel)](move_iterator/operator-2.html "cpp/iterator/move iterator/operator-2")(C++20) |  computes the distance between the underlying iterator and the underlying sentinel   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/move_iterator/dsc_operator-2&action=edit)  
+(function template)   
 [ iter_move](move_iterator/iter_move.html "cpp/iterator/move iterator/iter move")(C++20) |  casts the result of dereferencing the underlying iterator to its associated rvalue reference type   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_iter_move&action=edit)  
+(function)   
 [ iter_swap](move_iterator/iter_swap.html "cpp/iterator/move iterator/iter swap")(C++20) |  swaps the objects pointed to by two underlying iterators   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_iter_swap&action=edit)  
+(function template)   
 [ make_move_iterator](make_move_iterator.html "cpp/iterator/make move iterator")(C++11) |  creates a **std::move_iterator** of type inferred from the argument   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_make_move_iterator&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/move_iterator&action=edit&section=5 "Edit section: Helper templates")] Helper templates
+### Helper templates
 
 template< class Iterator1, class Iterator2 >  
 requires (![std::sized_sentinel_for](sized_sentinel_for.html)<Iterator1, Iterator2>)  
@@ -337,13 +337,13 @@ constexpr bool disable_sized_sentinel_for
   
 This partial specialization of `std::disable_sized_sentinel_for` prevents specializations of `move_iterator` from satisfying [`sized_sentinel_for`](sized_sentinel_for.html "cpp/iterator/sized sentinel for") if their underlying iterators do not satisfy the concept. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/move_iterator&action=edit&section=6 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../utility/feature_test.html "cpp/utility/feature test") macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_move_iterator_concept`](../experimental/feature_test.html#cpp_lib_move_iterator_concept "cpp/feature test") | [`202207L`](../compiler_support/23.html#cpp_lib_move_iterator_concept_202207L "cpp/compiler support/23") | (C++23) | Make std::move_iterator<T*> a random access iterator   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/move_iterator&action=edit&section=7 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -395,7 +395,7 @@ Possible output:
     New contents of the vector: "" "" "" "" "" "" ""
     Concatenated as string: "this_is_an_example"
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/move_iterator&action=edit&section=8 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -409,12 +409,12 @@ object instead
 [std::iterator_traits](iterator_traits.html)<Iter>::iterator_category is not defined  | `iterator_category` is  
 not defined in this case   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/move_iterator&action=edit&section=9 "Edit section: See also")] See also
+### See also
 
 [ make_move_iterator](make_move_iterator.html "cpp/iterator/make move iterator")(C++11) |  creates a **std::move_iterator** of type inferred from the argument   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_make_move_iterator&action=edit)  
+(function template)   
 ---|---  
 [ move_sentinel](move_sentinel.html "cpp/iterator/move sentinel")(C++20) |  sentinel adaptor for **std::move_iterator**   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_move_sentinel&action=edit)
+(class template) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

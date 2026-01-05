@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::day`](../day.html "cpp/chrono/day")
 
@@ -122,7 +122,7 @@ Helper classes
 [formatter<std::chrono::day>](formatter.html "cpp/chrono/day/formatter")  
 [hash<std::chrono::day>](hash.html "cpp/chrono/day/hash")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/day/navbar_content&action=edit)
+
 
 Defined in header `[<chrono>](../../header/chrono.html "cpp/header/chrono")` |  |   
 ---|---|---  
@@ -152,7 +152,7 @@ const [std::chrono::day](../day.html)& y ) noexcept; |  (4)  |  (since C++20)
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/day/operator_arith_2&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 1,2) [std::chrono::day](../day.html)(unsigned(d) + ds.count())
 
@@ -160,11 +160,11 @@ const [std::chrono::day](../day.html)& y ) noexcept; |  (4)  |  (since C++20)
 
 4) [std::chrono::days](../duration.html)(int(unsigned(x)) - int(unsigned(y)))
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/day/operator_arith_2&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 1-3) If the result would be outside the range `[`​0​`, `255`]`, the actual stored value is unspecified.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/day/operator_arith_2&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -186,10 +186,10 @@ Run this code
         static_assert(ds == [std::chrono::days](../duration.html)(2));
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/day/operator_arith_2&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ operator++operator++(int)operator--operator--(int)](operator_inc_dec.html "cpp/chrono/day/operator inc dec") |  increments or decrements the day   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/day/dsc_operator_inc_dec&action=edit)  
+(public member function)   
 ---|---  
 [ operator+=operator-=](operator_arith.html "cpp/chrono/day/operator arith") |  adds or subtracts a number of days   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/day/dsc_operator_arith&action=edit)
+(public member function) 

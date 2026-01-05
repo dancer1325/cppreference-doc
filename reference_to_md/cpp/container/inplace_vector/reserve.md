@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -71,7 +71,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::inplace_vector`](../inplace_vector.html "cpp/container/inplace vector")
 
@@ -132,7 +132,7 @@ Tables
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/inplace_vector/navbar_content&action=edit)
+
 
 static constexpr void reserve( size_type new_cap ); |  |  (since C++26)  
 ---|---|---  
@@ -153,28 +153,28 @@ Does nothing, except that may throw [std::bad_alloc](../../memory/new/bad_alloc.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/inplace_vector/reserve&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 new_cap  |  \-  |  new capacity of the `inplace_vector`, in number of elements   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/inplace_vector/reserve&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/inplace_vector/reserve&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Constant. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/inplace_vector/reserve&action=edit&section=4 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 [std::bad_alloc](../../memory/new/bad_alloc.html "cpp/memory/new/bad alloc") if new_cap > capacity() is true. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/inplace_vector/reserve&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 This function exists for compatibility with vector-like interfaces. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/inplace_vector/reserve&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -207,16 +207,16 @@ Possible output:
     
     std::bad_alloc
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/inplace_vector/reserve&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ size](size.html "cpp/container/inplace vector/size") |  returns the number of elements   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_size&action=edit)  
+(public member function)   
 ---|---  
 [ max_size](max_size.html "cpp/container/inplace vector/max size")[static] |  returns the maximum possible number of elements   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_max_size&action=edit)  
+(public static member function)   
 [ resize](resize.html "cpp/container/inplace vector/resize") |  changes the number of elements stored   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_resize&action=edit)  
+(public member function)   
 [ capacity](capacity.html "cpp/container/inplace vector/capacity")[static] |  returns the number of elements that can be held in currently allocated storage   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_capacity&action=edit)  
+(public static member function)   
 [ shrink_to_fit](shrink_to_fit.html "cpp/container/inplace vector/shrink to fit")[static] |  reduces memory usage by freeing unused memory   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_shrink_to_fit&action=edit)
+(public static member function) 

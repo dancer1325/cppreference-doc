@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::future_errc`](../future_errc.html "cpp/thread/future errc")
 
@@ -184,7 +184,7 @@ Non-member functions
 Helper classes  
 **is_error_code_enum**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/future_errc/navbar_content&action=edit)
+
 
 Defined in header `[<future>](../../header/future.html "cpp/header/future")` |  |   
 ---|---|---  
@@ -194,8 +194,8 @@ struct is_error_code_enum<[std::future_errc](../future_errc.html)> : [std::true_
   
 Specifies that [std::future_errc](../future_errc.html "cpp/thread/future errc") is an error code enum. This enables [std::error_code](../../error/error_code.html "cpp/error/error code") automatic conversions. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/future_errc/is_error_code_enum&action=edit&section=1 "Edit section: See also")] See also
+### See also
 
 [ is_error_code_enum](../../error/error_code/is_error_code_enum.html "cpp/error/error code/is error code enum")(C++11) |  identifies a class as an `error_code` enumeration   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/error_code/dsc_is_error_code_enum&action=edit)  
+(class template)   
 ---|---

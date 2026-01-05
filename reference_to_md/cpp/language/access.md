@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Classes](classes.html "cpp/language/classes")
 
@@ -261,7 +261,7 @@ Inheritance
 [`override` specifier](override.html "cpp/language/override") (C++11)  
 [`final` specifier](final.html "cpp/language/final") (C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/classes/navbar_content&action=edit)
+
 
 In a member-specification of a [class/struct](class.html "cpp/language/class") or [union](union.html "cpp/language/union"), define the accessibility of subsequent members. 
 
@@ -282,7 +282,7 @@ In a base-specifier of a [derived class](derived_class.html "cpp/language/derive
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/access&action=edit&section=1 "Edit section: Syntax")] Syntax  
+### Syntax  
   
 ---  
 public `**:**` member-declarations |  (1)  |   
@@ -306,7 +306,7 @@ private base-class |  (6)  |
 
 The private members of the base class are always inaccessible to the derived class regardless of public, protected, or private inheritance. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/access&action=edit&section=2 "Edit section: Explanation")] Explanation
+### Explanation
 
 The name of every [class](class.html "cpp/language/class") member (static, non-static, function, type, etc) has an associated “member access”. When a name of the member is used anywhere a program, its access is checked, and if it does not satisfy the access rules, the program does not compile: 
 
@@ -335,7 +335,7 @@ Run this code
 
 Access specifiers give the author of the class the ability to decide which class members are accessible to the users of the class (that is, the _interface_) and which members are for internal use of the class (the _implementation_). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/access&action=edit&section=3 "Edit section: In detail")] In detail
+### In detail
 
 All members of a class (bodies of [member functions](member_functions.html "cpp/language/member functions"), initializers of member objects, and the entire [nested class definitions](nested_classes.html "cpp/language/nested types")) have access to all names the class can access. A local class within a member function has access to all names the member function can access. 
 
@@ -437,7 +437,7 @@ When a member is redeclared within the same class, it must do so under the same 
         class A {}; // error: cannot change access
     };
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/access&action=edit&section=4 "Edit section: Public member access")] Public member access
+### Public member access
 
 Public members form a part of the public interface of a class (other parts of the public interface are the non-member functions found by [ADL](adl.html "cpp/language/adl")). 
 
@@ -464,7 +464,7 @@ A public member of a class is accessible anywhere:
         S::U x;     // S::U is accessible in main
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/access&action=edit&section=5 "Edit section: Protected member access")] Protected member access
+### Protected member access
 
 Protected members form the interface of a class to its derived classes (which is distinct from the public interface of the class). 
 
@@ -535,7 +535,7 @@ When a pointer to a protected member is formed, it must use a derived class in i
         }
     };
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/access&action=edit&section=6 "Edit section: Private member access")] Private member access
+### Private member access
 
 Private members form the implementation of a class, as well as the private interface for the other members of the class. 
 
@@ -553,15 +553,15 @@ A private member of a class is only accessible to the members and friends of tha
 
 The [explicit cast](explicit_cast.html "cpp/language/explicit cast") (C-style and function-style) allows casting from a derived lvalue to reference to its private base, or from a pointer to derived to a pointer to its private base. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/access&action=edit&section=7 "Edit section: Inheritance")] Inheritance
+### Inheritance
 
 See [derived classes](derived_class.html "cpp/language/derived class") for the meaning of public, protected, and private inheritance. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/access&action=edit&section=8 "Edit section: Keywords")] Keywords
+### Keywords
 
 [`public`](../keyword/public.html "cpp/keyword/public"), [`protected`](../keyword/protected.html "cpp/keyword/protected"), [`private`](../keyword/private.html "cpp/keyword/private")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/access&action=edit&section=9 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

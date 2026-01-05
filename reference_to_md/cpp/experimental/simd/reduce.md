@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Extensions for parallelism v2](../parallelism_2.html "cpp/experimental/parallelism 2")
 
@@ -92,7 +92,7 @@ Task blocks
 [define_task_blockdefine_task_block_restore_thread](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/define_task_block&action=edit&redlink=1 "cpp/experimental/define task block \(page does not exist\)")  
 [Data-parallel vectors](../simd.html "cpp/experimental/simd")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/parallelism_2/navbar_content&action=edit)
+
 
 [SIMD library](../simd.html "cpp/experimental/simd")
 
@@ -186,7 +186,7 @@ Task blocks
   
 [Math functions](../simd.html#Math_functions "cpp/experimental/simd")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/simd/navbar_content&action=edit)
+
 
 Defined in header `[<experimental/simd>](../../header/experimental/simd.html "cpp/header/experimental/simd")` |  |   
 ---|---|---  
@@ -257,7 +257,7 @@ The behavior is non-deterministic if binary_op is not associative or not commuta
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/simd/reduce&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 v  |  \-  |  the [`simd`](simd.html "cpp/experimental/simd/simd") vector to apply the reduction to   
 ---|---|---  
@@ -265,7 +265,7 @@ x  |  \-  |  the return value of a [`where`](where.html "cpp/experimental/simd/w
 identity_element  |  \-  |  a value that acts as identity element for binary_op; binary_op(identity_element, a) == a must hold for all finite a of type V::value_type  
 binary_op  |  \-  |  binary [FunctionObject](../../named_req/FunctionObject.html "cpp/named req/FunctionObject") that will be applied in unspecified order to arguments of type V::value_type or simd<V::value_type, A>, with unspecified ABI tag `A`. binary_op(v, v) must be convertible to `V`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/simd/reduce&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The result of operation of the type: 
 
@@ -273,7 +273,7 @@ The result of operation of the type:
 
 2-7,9,11) V::value_type
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/simd/reduce&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -310,8 +310,8 @@ Output:
     
     sum of data = 523776
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/simd/reduce&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ reduce](../../algorithm/reduce.html "cpp/algorithm/reduce")(C++17) |  similar to [std::accumulate](../../algorithm/accumulate.html "cpp/algorithm/accumulate"), except out of order   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_reduce&action=edit)  
+(function template)   
 ---|---

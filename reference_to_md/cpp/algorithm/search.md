@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](ranges/copy.html "cpp/algorithm/ra
 [uninitialized_default_construct_n](../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -338,12 +338,12 @@ These overloads participate in overload resolution only if all following conditi
 5) Searches the range `[`first`, `last`)` for the pattern specified in the constructor of searcher.
 
 The standard library provides the following searchers:  |  [ default_searcher](../utility/functional/default_searcher.html "cpp/utility/functional/default searcher")(C++17) |  standard C++ library search algorithm implementation   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_default_searcher&action=edit)  
+(class template)   
 ---|---  
 [ boyer_moore_searcher](../utility/functional/boyer_moore_searcher.html "cpp/utility/functional/boyer moore searcher")(C++17) |  Boyer-Moore search algorithm implementation   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_boyer_moore_searcher&action=edit)  
+(class template)   
 [ boyer_moore_horspool_searcher](../utility/functional/boyer_moore_horspool_searcher.html "cpp/utility/functional/boyer moore horspool searcher")(C++17) |  Boyer-Moore-Horspool search algorithm implementation   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_boyer_moore_horspool_searcher&action=edit)  
+(class template)   
 (since C++17)  
   
 ## Contents
@@ -360,7 +360,7 @@ The standard library provides the following searchers:  |  [ default_searcher](.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/search&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  the pair of iterators defining the [range](../iterator.html#Ranges "cpp/iterator") of elements to examine   
 ---|---|---  
@@ -374,7 +374,7 @@ Type requirements
 -`ForwardIt1, ForwardIt2` must meet the requirements of [LegacyForwardIterator](../named_req/ForwardIterator.html "cpp/named req/ForwardIterator").   
 -`BinaryPred` must meet the requirements of [BinaryPredicate](../named_req/BinaryPredicate.html "cpp/named req/BinaryPredicate").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/search&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1-4) Iterator to the beginning of first occurrence of the sequence `[`s_first`, `s_last`)` in the range `[`first`, `last`)`. If no such occurrence is found, last is returned.
 
@@ -382,7 +382,7 @@ If `[`s_first`, `s_last`)` is empty, first is returned.
 
 5) searcher(first, last).first.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/search&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 1-4) Given \\(\scriptsize N\\)N as [std::distance](../iterator/distance.html)(first, last) and \\(\scriptsize S\\)S as [std::distance](../iterator/distance.html)(s_first, s_last):
 
@@ -392,7 +392,7 @@ If `[`s_first`, `s_last`)` is empty, first is returned.
 
 5) Depends on searcher.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/search&action=edit&section=4 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 The overloads with a template parameter named `ExecutionPolicy` report errors as follows: 
 
@@ -401,7 +401,7 @@ The overloads with a template parameter named `ExecutionPolicy` report errors as
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/search&action=edit&section=5 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
 
 [search (1)](search.html#Version_1)  
 ---  
@@ -452,7 +452,7 @@ The overloads with a template parameter named `ExecutionPolicy` report errors as
         }
     }  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/search&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -509,7 +509,7 @@ Output:
     The string "pisci" found at offset 43
     The string "Pisci" not found
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/search&action=edit&section=7 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -520,28 +520,28 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 making first to be returned if no occurence is found  | returns last in this case   
 [LWG 2150](https://cplusplus.github.io/LWG/issue2150) | C++98  | the condition of “sequence occurence” was incorrect  | corrected   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/search&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [ find_end](find_end.html "cpp/algorithm/find end") |  finds the last sequence of elements in a certain range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_find_end&action=edit)  
+(function template)   
 ---|---  
 [ includes](includes.html "cpp/algorithm/includes") |  returns true if one sequence is a subsequence of another   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_includes&action=edit)  
+(function template)   
 [ equal](equal.html "cpp/algorithm/equal") |  determines if two sets of elements are the same   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_equal&action=edit)  
+(function template)   
 [ findfind_iffind_if_not](find.html "cpp/algorithm/find")(C++11) |  finds the first element satisfying specific criteria   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_find&action=edit)  
+(function template)   
 [ lexicographical_compare](lexicographical_compare.html "cpp/algorithm/lexicographical compare") |  returns true if one range is lexicographically less than another   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_lexicographical_compare&action=edit)  
+(function template)   
 [ mismatch](mismatch.html "cpp/algorithm/mismatch") |  finds the first position where two ranges differ   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_mismatch&action=edit)  
+(function template)   
 [ search_n](search_n.html "cpp/algorithm/search n") |  searches for the first occurrence of a number consecutive copies of an element in a range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_search_n&action=edit)  
+(function template)   
 [ default_searcher](../utility/functional/default_searcher.html "cpp/utility/functional/default searcher")(C++17) |  standard C++ library search algorithm implementation   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_default_searcher&action=edit)  
+(class template)   
 [ boyer_moore_searcher](../utility/functional/boyer_moore_searcher.html "cpp/utility/functional/boyer moore searcher")(C++17) |  Boyer-Moore search algorithm implementation   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_boyer_moore_searcher&action=edit)  
+(class template)   
 [ boyer_moore_horspool_searcher](../utility/functional/boyer_moore_horspool_searcher.html "cpp/utility/functional/boyer moore horspool searcher")(C++17) |  Boyer-Moore-Horspool search algorithm implementation   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_boyer_moore_horspool_searcher&action=edit)  
+(class template)   
 [ ranges::search](ranges/search.html "cpp/algorithm/ranges/search")(C++20) |  searches for the first occurrence of a range of elements  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_search&action=edit)
+(algorithm function object)

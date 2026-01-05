@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 **`std::ranges::split_view`**
 
@@ -240,7 +240,7 @@ std::from_range](from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
 [split_view::_sentinel_](split_view/sentinel.html "cpp/ranges/split view/sentinel")  
 [Deduction guides](split_view/deduction_guides.html "cpp/ranges/split view/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/split_view/navbar_content&action=edit)
+
 
 Defined in header `[<ranges>](../header/ranges.html "cpp/header/ranges")` |  |   
 ---|---|---  
@@ -288,7 +288,7 @@ Unlike [`lazy_split_view`](lazy_split_view.html "cpp/ranges/lazy split view"), `
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/split_view&action=edit&section=1 "Edit section: Data members")] Data members
+### Data members
 
 Member  |  Description   
 ---|---  
@@ -300,34 +300,34 @@ Member  |  Description
 ` `<[ranges::iterator_t](iterator_t.html)<V>>> `_cached_begin__` (private) |  an object that caches the result of the first call to [`begin()`](split_view/begin.html "cpp/ranges/split view/begin")  
 (exposition-only member object*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/split_view&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](split_view/split_view.html "cpp/ranges/split view/split view") |  constructs a `split_view`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ base](split_view/base.html "cpp/ranges/split view/base") |  returns a copy of the underlying (adapted) view   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/dsc_base&action=edit)  
+(public member function)   
 [ begin](split_view/begin.html "cpp/ranges/split view/begin") |  returns an iterator to the beginning   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/dsc_begin&action=edit)  
+(public member function)   
 [ end](split_view/end.html "cpp/ranges/split view/end") |  returns an iterator or a sentinel to the end   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/dsc_end&action=edit)  
+(public member function)   
 [_find_next_](split_view/find_next.html "cpp/ranges/split view/find next") |  searches for the next occurrence of the pattern  
 (exposition-only member function*)  
   
 #####  Inherited from [std::ranges::view_interface](view_interface.html "cpp/ranges/view interface")  
   
 [ empty](view_interface/empty.html "cpp/ranges/view interface/empty") |  returns whether the derived view is empty, provided only if it satisfies [`sized_range`](sized_range.html "cpp/ranges/sized range") or [`forward_range`](forward_range.html "cpp/ranges/forward range")   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_empty&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ cbegin](view_interface/cbegin.html "cpp/ranges/view interface/cbegin")(C++23) |  returns a constant iterator to the beginning of the range   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_cbegin&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ cend](view_interface/cend.html "cpp/ranges/view interface/cend")(C++23) |  returns a sentinel for the constant iterator of the range   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_cend&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ operator bool](view_interface/operator_bool.html "cpp/ranges/view interface/operator bool") |  returns whether the derived view is not empty, provided only if [ranges::empty](empty.html "cpp/ranges/empty") is applicable to it   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_operator_bool&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ front](view_interface/front.html "cpp/ranges/view interface/front") |  returns the first element in the derived view, provided if it satisfies [`forward_range`](forward_range.html "cpp/ranges/forward range")   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_front&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/split_view&action=edit&section=3 "Edit section: Nested classes")] Nested classes
+### Nested classes
 
 [_iterator_](split_view/iterator.html "cpp/ranges/split view/iterator") |  the iterator type  
 (exposition-only member class*)  
@@ -335,15 +335,15 @@ Member  |  Description
 [_sentinel_](split_view/sentinel.html "cpp/ranges/split view/sentinel") |  the sentinel type  
 (exposition-only member class*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/split_view&action=edit&section=4 "Edit section: Deduction guides")] [Deduction guides](split_view/deduction_guides.html "cpp/ranges/split view/deduction guides")
+### [Deduction guides](split_view/deduction_guides.html "cpp/ranges/split view/deduction guides")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/split_view&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 Before [P2210R2](https://wg21.link/P2210R2), `split_view` used a _lazy_ mechanism for splitting, and thus could not keep the bidirectional, random access, or contiguous properties of the underlying view, or make the iterator type of the inner range same as that of the underlying view. Consequently, it is redesigned by [P2210R2](https://wg21.link/P2210R2), and the lazy mechanism is moved to [`lazy_split_view`](lazy_split_view.html "cpp/ranges/lazy split view"). 
 
 The delimiter `pattern` generally should not be an ordinary string literal, as it will consider the null terminator to be necessary part of the delimiter; therefore, it is advisable to use a [std::string_view](../string/basic_string_view.html "cpp/string/basic string view") literal instead. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/split_view&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -370,7 +370,7 @@ Output:
     
     "Hello" "C++" "20" "!"
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/split_view&action=edit&section=7 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -378,10 +378,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [P2210R2](https://wg21.link/P2210R2) | C++20  | the old `split_view` was too lazy to be easily used  | it is redesigned   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/split_view&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [ ranges::lazy_split_viewviews::lazy_split](lazy_split_view.html "cpp/ranges/lazy split view")(C++20) |  a [`view`](view.html "cpp/ranges/view") over the subranges obtained from splitting another [`view`](view.html "cpp/ranges/view") using a delimiter  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_lazy_split_view&action=edit)  
+(class template) (range adaptor object)  
 ---|---  
 [ ranges::join_viewviews::join](join_view.html "cpp/ranges/join view")(C++20) |  a [`view`](view.html "cpp/ranges/view") consisting of the sequence obtained from flattening a [`view`](view.html "cpp/ranges/view") of [`range`s](range.html "cpp/ranges/range")  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_join_view&action=edit)
+(class template) (range adaptor object)

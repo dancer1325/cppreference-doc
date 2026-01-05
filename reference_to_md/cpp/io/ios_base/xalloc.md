@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::ios_base`](../ios_base.html "cpp/io/ios base")
 
@@ -113,7 +113,7 @@ Member types
 [ios_base::event](event.html "cpp/io/ios base/event")  
 [ios_base::event_callback](event_callback.html "cpp/io/ios base/event callback")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/ios_base/navbar_content&action=edit)
+
 
 static int xalloc(); |  |   
 ---|---|---  
@@ -136,13 +136,13 @@ Effectively increments the next available unique index.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/ios_base/xalloc&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 Unique integer for use as pword/iword index. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/ios_base/xalloc&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/ios_base/xalloc_example&action=edit)
+
 
 Uses base class pword storage for runtime type identification of derived stream objects.
 
@@ -204,7 +204,7 @@ Output:
     wcout, wide-character test
     mywout, wide-character test [special handling for mystream]
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/ios_base/xalloc&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -212,10 +212,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 2143](https://cplusplus.github.io/LWG/issue2143) | C++11  | `xalloc` was not thread-safe  | made thread-safe   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/ios_base/xalloc&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ pword](pword.html "cpp/io/ios base/pword") |  resizes the private storage if necessary and access to the void* element at the given index   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/ios_base/dsc_pword&action=edit)  
+(public member function)   
 ---|---  
 [ iword](iword.html "cpp/io/ios base/iword") |  resizes the private storage if necessary and access to the long element at the given index   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/ios_base/dsc_iword&action=edit)
+(public member function) 

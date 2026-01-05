@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Metaprogramming library](../meta.html "cpp/meta")
 
@@ -167,7 +167,7 @@ Type transformations
 Compile-time integer sequences  
 [integer_sequence](../utility/integer_sequence.html "cpp/utility/integer sequence")(C++14)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/meta/navbar_content&action=edit)
+
 
 Defined in header `[<type_traits>](../header/type_traits.html "cpp/header/type traits")` |  |   
 ---|---|---  
@@ -197,13 +197,13 @@ If the program adds specializations for `std::aligned_union`, the behavior is un
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/aligned_union&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Name  |  Definition   
 ---|---  
 `type` |  a trivial and standard-layout type suitable for storage of any type from `Types`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/aligned_union&action=edit&section=2 "Edit section: Helper types")] Helper types
+### Helper types
 
 template< [std::size_t](size_t.html) Len, class... Types >  
 using aligned_union_t = typename aligned_union<Len,Types...>::type; |  |  (since C++14)   
@@ -211,13 +211,13 @@ using aligned_union_t = typename aligned_union<Len,Types...>::type; |  |  (since
 ---|---|---  
 | |   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/aligned_union&action=edit&section=3 "Edit section: Member constants")] Member constants
+### Member constants
 
 alignment_value[static] |  the strictest alignment requirement of all `Types`   
 (public static member constant)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/aligned_union&action=edit&section=4 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     #include <algorithm>
@@ -235,7 +235,7 @@ alignment_value[static] |  the strictest alignment requirement of all `Types`
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/aligned_union&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -279,7 +279,7 @@ Possible output:
     *string_ptr = bar
     *string_ptr = baz
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/aligned_union&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -287,10 +287,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 2979](https://cplusplus.github.io/LWG/issue2979) | C++11  | complete type was not required  | requires complete types   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/aligned_union&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ alignment_of](alignment_of.html "cpp/types/alignment of")(C++11) |  obtains the type's alignment requirements   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_alignment_of&action=edit)  
+(class template)   
 ---|---  
 [ aligned_storage](aligned_storage.html "cpp/types/aligned storage")(since C++11)(deprecated in C++23) |  defines the type suitable for use as uninitialized storage for types of given size   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_aligned_storage&action=edit)
+(class template) 

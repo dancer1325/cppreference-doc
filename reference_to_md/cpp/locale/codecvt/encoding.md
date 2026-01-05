@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Localization library](../../locale.html "cpp/locale")
 
@@ -152,7 +152,7 @@ base classes](../../locale.html#Facet_category_base_classes "cpp/locale")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/navbar_content&action=edit)
+
 
 [`std::codecvt`](../codecvt.html "cpp/locale/codecvt")
 
@@ -168,7 +168,7 @@ Member functions
 [codecvt::lengthcodecvt::do_length](length.html "cpp/locale/codecvt/length")  
 [codecvt::max_lengthcodecvt::do_max_length](max_length.html "cpp/locale/codecvt/max length")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/codecvt/navbar_content&action=edit)
+
 
 Defined in header `[<locale>](../../header/locale.html "cpp/header/locale")` |  |   
 ---|---|---  
@@ -188,13 +188,13 @@ virtual int do_encoding() const noexcept; |  |  (since C++11)
 
 2) If the encoding represented by this codecvt facet maps each internal character to the same, constant number of external characters, returns that number. If the encoding is variable-length (e.g. UTF-8 or UTF-16), returns ​0​. If the encoding is state-dependent, returns -1.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/codecvt/encoding&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 The exact number of `externT` characters that correspond to one `internT` character, if constant. ​0​ if the number varies, -1 if the encoding is state-dependent. 
 
 The non-converting specialization [std::codecvt](../codecvt.html)<char, char, [std::mbstate_t](../../string/multibyte/mbstate_t.html)> returns 1. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/codecvt/encoding&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -227,10 +227,10 @@ Output:
     zh_CN.gb18030 is also variable-length, encoding() == 0
     ru_RU.koi8r is a single-byte encoding, encoding() == 1
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/codecvt/encoding&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 MB_CUR_MAX |  maximum number of bytes in a multibyte character in the current C locale  
-(macro variable)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/dsc_MB_CUR_MAX&action=edit)  
+(macro variable)  
 ---|---  
 [ do_max_length](max_length.html "cpp/locale/codecvt/max length")[virtual] |  returns the maximum number of `ExternT` characters that could be converted into a single `InternT` character   
-(virtual protected member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/codecvt/dsc_do_max_length&action=edit)
+(virtual protected member function) 

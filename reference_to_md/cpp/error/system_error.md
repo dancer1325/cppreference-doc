@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Diagnostics library](../error.html "cpp/error")
 
@@ -187,7 +187,7 @@ Exception handling failures
 [breakpoint_if_debugging](../utility/breakpoint_if_debugging.html "cpp/utility/breakpoint if debugging")(C++26)  
 [breakpoint](../utility/breakpoint.html "cpp/utility/breakpoint")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/navbar_content&action=edit)
+
 
 **`std::system_error`**
 
@@ -198,7 +198,7 @@ Member functions
 [system_error::code](system_error/code.html "cpp/error/system error/code")  
 [system_error::what](system_error/what.html "cpp/error/system error/what")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/system_error/navbar_content&action=edit)
+
 
 Defined in header `[<system_error>](../header/system_error.html "cpp/header/system error")` |  |   
 ---|---|---  
@@ -221,29 +221,29 @@ Inheritance diagram
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/system_error&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](system_error/system_error.html "cpp/error/system error/system error") |  constructs the `system_error` object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/system_error/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ operator=](system_error/operator=.html "cpp/error/system error/operator=") |  replaces the `system_error` object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/system_error/dsc_operator%3D&action=edit)  
+(public member function)   
 [ code](system_error/code.html "cpp/error/system error/code") |  returns error code   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/system_error/dsc_code&action=edit)  
+(public member function)   
 [ what](system_error/what.html "cpp/error/system error/what")[virtual] |  returns an explanatory string   
-(virtual public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/system_error/dsc_what&action=edit)  
+(virtual public member function)   
   
 ##  Inherited from [std::exception](exception.html "cpp/error/exception")
 
 ###  Member functions
 
 [ (destructor)](exception/~exception.html "cpp/error/exception/~exception")[virtual] |  destroys the exception object   
-(virtual public member function of `std::exception`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/exception/dsc_destructor&action=edit)  
+(virtual public member function of `std::exception`)   
 ---|---  
 [ what](exception/what.html "cpp/error/exception/what")[virtual] |  returns an explanatory string   
-(virtual public member function of `std::exception`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/exception/dsc_what&action=edit)  
+(virtual public member function of `std::exception`)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/system_error&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     

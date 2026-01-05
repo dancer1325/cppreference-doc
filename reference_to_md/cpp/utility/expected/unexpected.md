@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::expected`](../expected.html "cpp/utility/expected")
 
@@ -160,7 +160,7 @@ Common vocabulary types
 [bad_expected_access](bad_expected_access.html "cpp/utility/expected/bad expected access")  
 [unexpect_tunexpect](unexpect_t.html "cpp/utility/expected/unexpect t")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/expected/navbar_content&action=edit)
+
 
 Defined in header `[<expected>](../../header/expected.html "cpp/header/expected")` |  |   
 ---|---|---  
@@ -192,12 +192,12 @@ A program is ill-formed if it instantiates an `unexpected` with a non-object typ
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/unexpected&action=edit&section=1 "Edit section: Template parameters")] Template parameters
+### Template parameters
 
 E  |  \-  |  the type of the unexpected value. The type must not be an array type, a non-object type, a specialization of `std::unexpected`, or a cv-qualified type.   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/unexpected&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](unexpected.html#ctor "cpp/utility/expected/unexpected") |  constructs the `unexpected` object   
 (public member function)  
@@ -211,7 +211,7 @@ operator=(implicitly declared) |  assigns the stored value
 [ swap](unexpected.html#swap "cpp/utility/expected/unexpected") |  swaps the stored value   
 (public member function)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/unexpected&action=edit&section=3 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ operator==](unexpected.html#compare "cpp/utility/expected/unexpected")(C++23) |  compares the stored value   
 (function template)  
@@ -316,7 +316,7 @@ This overload participates in overload resolution only if [std::is_swappable_v](
 
 This function is not visible to ordinary [unqualified](../../language/unqualified_lookup.html "cpp/language/unqualified lookup") or [qualified lookup](../../language/qualified_lookup.html "cpp/language/qualified lookup"), and can only be found by [argument-dependent lookup](../../language/adl.html "cpp/language/adl") when `std::unexpected<E>` is an associated class of the arguments. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/unexpected&action=edit&section=6 "Edit section: Deduction guides")] Deduction guides
+### Deduction guides
 
 template< class E >  
 unexpected(E) -> unexpected<E>; |  |  (since C++23)  
@@ -325,11 +325,11 @@ unexpected(E) -> unexpected<E>; |  |  (since C++23)
   
 The [deduction guide](../../language/ctad.html "cpp/language/class template argument deduction") is provided for unexpected to allow deduction from the constructor argument. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/unexpected&action=edit&section=7 "Edit section: Notes")] Notes
+### Notes
 
 Prior to C++17, the name [`std::unexpected`](../../error/unexpected.html "cpp/error/unexpected") denoted the function called by the C++ runtime when a dynamic exception specification was violated. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/unexpected&action=edit&section=8 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -379,16 +379,16 @@ Output:
     The error value is equal to 3
     or_else: 1
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/unexpected&action=edit&section=9 "Edit section: See also")] See also
+### See also
 
 [ (constructor)](expected.html "cpp/utility/expected/expected") |  constructs the `expected` object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/expected/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ value](value.html "cpp/utility/expected/value") |  returns the expected value   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/expected/dsc_value&action=edit)  
+(public member function)   
 [ swap](swap.html "cpp/utility/expected/swap") |  exchanges the contents   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/expected/dsc_swap&action=edit)  
+(public member function)   
 [ swap(std::expected)](swap2.html "cpp/utility/expected/swap2")(C++23) |  specializes the [std::swap](../swap.html "cpp/algorithm/swap") algorithm   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/expected/dsc_swap2&action=edit)  
+(function)   
 [ operator==](operator_cmp.html "cpp/utility/expected/operator cmp")(C++23) |  compares `expected` objects   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/expected/dsc_operator_cmp&action=edit)
+(function template) 

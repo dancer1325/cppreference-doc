@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Diagnostics library](../../error.html "cpp/error")
 
@@ -187,7 +187,7 @@ Exception handling failures
 [breakpoint_if_debugging](../../utility/breakpoint_if_debugging.html "cpp/utility/breakpoint if debugging")(C++26)  
 [breakpoint](../../utility/breakpoint.html "cpp/utility/breakpoint")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/navbar_content&action=edit)
+
 
 [`std::nested_exception`](../nested_exception.html "cpp/error/nested exception")
 
@@ -199,7 +199,7 @@ Member functions
 [nested_exception::rethrow_nested](rethrow_nested.html "cpp/error/nested exception/rethrow nested")  
 **nested_exception::nested_ptr**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/nested_exception/navbar_content&action=edit)
+
 
 [std::exception_ptr](../exception_ptr.html) nested_ptr() const noexcept; |  | (since C++11)   
 (constexpr since C++26)  
@@ -208,11 +208,11 @@ Member functions
   
 Returns a pointer to the stored exception, if any. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/nested_exception/nested_ptr&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 A `std::exception_ptr` to the stored exception if one is stored, default-initialized `std::exception_ptr` otherwise. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/nested_exception/nested_ptr&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

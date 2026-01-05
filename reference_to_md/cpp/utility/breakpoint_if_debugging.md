@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Diagnostics library](../error.html "cpp/error")
 
@@ -89,7 +89,7 @@ Exception handling failures
 **breakpoint_if_debugging**(C++26)  
 [breakpoint](breakpoint.html "cpp/utility/breakpoint")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/navbar_content&action=edit)
+
 
 Defined in header `[<debugging>](../header/debugging.html "cpp/header/debugging")` |  |   
 ---|---|---  
@@ -101,25 +101,25 @@ Conditional breakpoint: attempts to temporarily halt the execution of the progra
 Formally, the behavior of this function is completely implementation-defined. Equivalent to if ([std::is_debugger_present](is_debugger_present.html)())  
 [std::breakpoint](breakpoint.html)();. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/breakpoint_if_debugging&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](feature_test.html "cpp/utility/feature test") macro  | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_debugging`](../experimental/feature_test.html#cpp_lib_debugging "cpp/feature test") | [`202311L`](../compiler_support/26.html#cpp_lib_debugging_202311L "cpp/compiler support/26") | (C++26) | Debugging support library   
 [`202403L`](../compiler_support/26.html#cpp_lib_debugging_202403L "cpp/compiler support/26") | (C++26) | Replaceable `std::is_debugger_present`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/breakpoint_if_debugging&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/breakpoint_if_debugging&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ is_debugger_present](is_debugger_present.html "cpp/utility/is debugger present")(C++26) |  checks whether a program is running under the control of a debugger   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_is_debugger_present&action=edit)  
+(function)   
 ---|---  
 [ breakpoint](breakpoint.html "cpp/utility/breakpoint")(C++26) |  pauses the running program when called   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_breakpoint&action=edit)
+(function) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

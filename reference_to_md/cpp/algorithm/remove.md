@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](ranges/copy.html "cpp/algorithm/ra
 [uninitialized_default_construct_n](../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -360,7 +360,7 @@ If the type of *first is not [MoveAssignable](../named_req/MoveAssignable.html "
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/remove&action=edit&section=1 "Edit section: Explanation")] Explanation
+### Explanation
 
 Removing is done by shifting the elements in the range in such a way that the elements that are not to be removed appear in the beginning of the range. 
 
@@ -384,7 +384,7 @@ Removing is done by shifting the elements in the range in such a way that the el
 | (since C++11)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/remove&action=edit&section=2 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  the pair of iterators defining the [range](../iterator.html#Ranges "cpp/iterator") of elements to process   
 ---|---|---  
@@ -396,11 +396,11 @@ Type requirements
 -`ForwardIt` must meet the requirements of [LegacyForwardIterator](../named_req/ForwardIterator.html "cpp/named req/ForwardIterator").   
 -`UnaryPredicate` must meet the requirements of [Predicate](../named_req/Predicate.html "cpp/named req/Predicate").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/remove&action=edit&section=3 "Edit section: Return value")] Return value
+### Return value
 
 Past-the-end iterator for the new range of values (if this is not end, then it points to an unspecified value, and so do iterators to any values between this iterator and end). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/remove&action=edit&section=4 "Edit section: Complexity")] Complexity
+### Complexity
 
 Given \\(\scriptsize N\\)N as [std::distance](../iterator/distance.html)(first, last): 
 
@@ -408,7 +408,7 @@ Given \\(\scriptsize N\\)N as [std::distance](../iterator/distance.html)(first, 
 
 3,4) Exactly \\(\scriptsize N\\)N applications of the predicate p.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/remove&action=edit&section=5 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 The overloads with a template parameter named `ExecutionPolicy` report errors as follows: 
 
@@ -417,7 +417,7 @@ The overloads with a template parameter named `ExecutionPolicy` report errors as
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/remove&action=edit&section=6 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
 
 [remove (1)](remove.html#Version_1)  
 ---  
@@ -448,7 +448,7 @@ The overloads with a template parameter named `ExecutionPolicy` report errors as
         return first;
     }  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/remove&action=edit&section=7 "Edit section: Notes")] Notes
+### Notes
 
 A call to `remove` is typically followed by a call to a container's `erase` member function to actually remove elements from the container. These two invocations together constitute a so-called [erase-remove idiom](https://en.wikipedia.org/wiki/erase-remove_idiom "enwiki:erase-remove idiom"). 
 
@@ -472,7 +472,7 @@ Because `std::remove` takes value by reference, it can have unexpected behavior 
 ---|---|---|---  
 [`__cpp_lib_algorithm_default_value_type`](../experimental/feature_test.html#cpp_lib_algorithm_default_value_type "cpp/feature test") | [`202403`](../compiler_support/26.html#cpp_lib_algorithm_default_value_type_202403 "cpp/compiler support/26") | (C++26) | [List-initialization](../language/list_initialization.html "cpp/language/list initialization") for algorithms ([1,2](remove.html#Version_1))  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/remove&action=edit&section=8 "Edit section: Example")] Example
+### Example
 
 The following code removes all spaces from a string by shifting all non-space characters to the left and then erasing the extra. This is an example of [erase-remove idiom](https://en.wikipedia.org/wiki/erase-remove_idiom "enwiki:erase-remove idiom").
 
@@ -531,7 +531,7 @@ Output:
     4) "QuickRedDog", size: 11
     5) "JumpedOverALazyFox"
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/remove&action=edit&section=9 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -541,14 +541,14 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 the value type of `ForwardIt` is not always `T` | required the value type of `ForwardIt`  
 to be [CopyAssignable](../named_req/CopyAssignable.html "cpp/named req/CopyAssignable") instead   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/remove&action=edit&section=10 "Edit section: See also")] See also
+### See also
 
 [ remove_copyremove_copy_if](remove_copy.html "cpp/algorithm/remove copy") |  copies a range of elements omitting those that satisfy specific criteria   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_remove_copy&action=edit)  
+(function template)   
 ---|---  
 [ unique](unique.html "cpp/algorithm/unique") |  removes consecutive duplicate elements in a range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_unique&action=edit)  
+(function template)   
 [ ranges::removeranges::remove_if](ranges/remove.html "cpp/algorithm/ranges/remove")(C++20)(C++20) |  removes elements satisfying specific criteria  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_remove&action=edit)
+(algorithm function object)
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [Pseudo-random number generation](../../random.html "cpp/numeric/random")
 
@@ -161,7 +161,7 @@
 [piecewise_constant_distribution](../piecewise_constant_distribution.html "cpp/numeric/random/piecewise constant distribution")(C++11)  
 [piecewise_linear_distribution](../piecewise_linear_distribution.html "cpp/numeric/random/piecewise linear distribution")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/navbar_content&action=edit)
+
 
 [`std::piecewise_linear_distribution`](../piecewise_linear_distribution.html "cpp/numeric/random/piecewise linear distribution")
 
@@ -180,7 +180,7 @@ Non-member functions
 [operator==operator!=](operator_cmp.html "cpp/numeric/random/piecewise linear distribution/operator cmp")(C++11)(C++11)(until C++20)  
 [operator<<operator>>](operator_ltltgtgt.html "cpp/numeric/random/piecewise linear distribution/operator ltltgtgt")(C++11)(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/piecewise_linear_distribution/navbar_content&action=edit)
+
 
 [std::vector](../../../container/vector.html)<RealType> intervals() const; |  (1)  |  (since C++11)  
 ---|---|---  
@@ -193,11 +193,11 @@ Returns the distribution parameters.
 
 2) Returns the list of probability densities at the boundaries of the intervals.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/random/piecewise_linear_distribution/params&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/random/piecewise_linear_distribution/params&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The distribution parameters: 
 
@@ -205,6 +205,6 @@ The distribution parameters:
 
 2) The list of probability densities at the boundaries of the intervals.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/random/piecewise_linear_distribution/params&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Linear in the number of intervals in this object. 

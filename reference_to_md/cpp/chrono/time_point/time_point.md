@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::time_point`](../time_point.html "cpp/chrono/time point")
 
@@ -124,7 +124,7 @@ Helper classes
 [common_type](common_type.html "cpp/chrono/time point/common type")  
 [hash<std::chrono::time_point>](hash.html "cpp/chrono/time point/hash")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_point/navbar_content&action=edit)
+
 
 | (1) |   
 ---|---|---  
@@ -147,13 +147,13 @@ Constructs a new `time_point` from one of several optional data sources.
 
 3) Constructs a `time_point` by converting t to `duration`. This constructor only participates in overload resolution if `Duration2` is implicitly convertible to `duration`.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/time_point/time_point&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 d  |  \-  |  a `duration` to copy from   
 ---|---|---  
 t  |  \-  |  a `time_point` to convert from   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/time_point/time_point&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -192,10 +192,10 @@ Possible output:
     4000ms
     212178842ms
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/time_point/time_point&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ (constructor)](../duration/duration.html "cpp/chrono/duration/duration") |  constructs new duration   
-(public member function of `std::chrono::duration<Rep,Period>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/duration/dsc_constructor&action=edit)  
+(public member function of `std::chrono::duration<Rep,Period>`)   
 ---|---  
 [ duration_cast](../duration/duration_cast.html "cpp/chrono/duration/duration cast")(C++11) |  converts a duration to another, with a different tick interval   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/duration/dsc_duration_cast&action=edit)
+(function template) 

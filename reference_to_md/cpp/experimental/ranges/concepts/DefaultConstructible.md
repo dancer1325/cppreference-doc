@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Ranges](../../ranges.html "cpp/experimental/ranges")
 
@@ -66,7 +66,7 @@
 [Ranges](../../ranges.html#Ranges "cpp/experimental/ranges")  
 [Algorithms](../../ranges.html#Algorithms "cpp/experimental/ranges")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/navbar_content&action=edit)
+
 
 [Concepts library](../../ranges.html#Concepts "cpp/experimental/ranges")
 
@@ -146,7 +146,7 @@ URNG concept
 | [UniformRandomNumberGenerator](UniformRandomNumberGenerator.html "cpp/experimental/ranges/concepts/UniformRandomNumberGenerator")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/concepts/navbar_content&action=edit)
+
 
 Defined in header `[<experimental/ranges/concepts>](../../../header/experimental/ranges/concepts.html "cpp/header/experimental/ranges/concepts")` |  |   
 ---|---|---  
@@ -156,10 +156,10 @@ concept bool DefaultConstructible = Constructible<T>; |  |  (ranges TS)
   
 The `DefaultConstructible` concept provides a shorthand for the common case when the question is whether a type can be constructed with no arguments. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/concepts/DefaultConstructible&action=edit&section=1 "Edit section: See also")] See also
+### See also
 
 [ Constructible](Constructible.html "cpp/experimental/ranges/concepts/Constructible") |  specifies that a variable of the type can be constructed from or bound to a set of argument types   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/concepts/dsc_Constructible&action=edit)  
+(concept)   
 ---|---  
 [ is_default_constructibleis_trivially_default_constructibleis_nothrow_default_constructible](../../../types/is_default_constructible.html "cpp/types/is default constructible")(C++11)(C++11)(C++11) |  checks if a type has a default constructor   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_default_constructible&action=edit)
+(class template) 

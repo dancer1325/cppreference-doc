@@ -21,7 +21,7 @@
 [Removed symbols (Zombie names)](zombie_names.html "cpp/symbol index/zombie names")  
 [Exposition-only symbols](expos.html "cpp/symbol index/expos")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/symbol_index/navbar_content&action=edit)
+
 
 This page tries to list all the symbols that are available from the [standard library](../standard_library.html "cpp/standard library") ([date and time library](../chrono.html "cpp/chrono")) in the namespace std::chrono. The symbols are written as follows: 
 
@@ -64,7 +64,7 @@ This page tries to list all the symbols that are available from the [standard li
   
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/chrono&action=edit&section=2 "Edit section: A")] A
+### A
 
 [`abs<>()`](../chrono/duration/abs.html "cpp/chrono/duration/abs") (`std::chrono::duration`) (since C++17)  
 [`ambiguous_local_time`](../chrono/ambiguous_local_time.html "cpp/chrono/ambiguous local time") (since C++20)  
@@ -72,7 +72,7 @@ This page tries to list all the symbols that are available from the [standard li
 [`August`](../chrono/month.html "cpp/chrono/month") (since C++20)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/chrono&action=edit&section=3 "Edit section: C")] C
+### C
 
 [`ceil<>()`](../chrono/duration/ceil.html "cpp/chrono/duration/ceil") (`std::chrono::duration`) (since C++17)  
 [`ceil<>()`](../chrono/time_point/ceil.html "cpp/chrono/time point/ceil") (`std::chrono::time_point`) (since C++17)  
@@ -82,7 +82,7 @@ This page tries to list all the symbols that are available from the [standard li
 [`current_zone()`](../chrono/current_zone.html "cpp/chrono/current zone") (since C++20)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/chrono&action=edit&section=4 "Edit section: D")] D
+### D
 
 [`day`](../chrono/day.html "cpp/chrono/day") (since C++20)  
 [`December`](../chrono/month.html "cpp/chrono/month") (since C++20)  
@@ -91,7 +91,7 @@ This page tries to list all the symbols that are available from the [standard li
 [`duration_values`](../chrono/duration_values.html "cpp/chrono/duration values")<> (since C++11)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/chrono&action=edit&section=5 "Edit section: F")] F
+### F
 
 [`February`](../chrono/month.html "cpp/chrono/month") (since C++20)  
 [`file_clock`](../chrono/file_clock.html "cpp/chrono/file clock") (since C++20)  
@@ -115,7 +115,7 @@ This page tries to list all the symbols that are available from the [standard li
 [`from_stream<>()`](../chrono/year_month_day/from_stream.html "cpp/chrono/year month day/from stream") (`std::chrono::year_month_day`) (since C++20)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/chrono&action=edit&section=6 "Edit section: G")] G
+### G
 
 [`get_leap_second_info`](../chrono/utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info") (since C++20)  
 [`get_tzdb()`](../chrono/tzdb_functions.html "cpp/chrono/tzdb functions") (since C++20)  
@@ -125,14 +125,14 @@ This page tries to list all the symbols that are available from the [standard li
 [`gps_time`](../chrono/gps_clock.html "cpp/chrono/gps clock") (since C++20)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/chrono&action=edit&section=7 "Edit section: H")] H
+### H
 
 [`hh_mm_ss`](../chrono/hh_mm_ss.html "cpp/chrono/hh mm ss")<> (since C++20)  
 [`high_resolution_clock`](../chrono/high_resolution_clock.html "cpp/chrono/high resolution clock") (since C++11)  
 [`hours`](../chrono/duration.html "cpp/chrono/duration") (since C++11)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/chrono&action=edit&section=8 "Edit section: I")] I
+### I
 
 [`is_am`](../chrono/hour_fun.html "cpp/chrono/hour fun") (since C++20)  
 [`is_clock`](../chrono/is_clock.html "cpp/chrono/is clock")<> (since C++20)  
@@ -140,14 +140,14 @@ This page tries to list all the symbols that are available from the [standard li
 [`is_pm`](../chrono/hour_fun.html "cpp/chrono/hour fun") (since C++20)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/chrono&action=edit&section=9 "Edit section: J")] J
+### J
 
 [`January`](../chrono/month.html "cpp/chrono/month") (since C++20)  
 [`July`](../chrono/month.html "cpp/chrono/month") (since C++20)  
 [`June`](../chrono/month.html "cpp/chrono/month") (since C++20)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/chrono&action=edit&section=10 "Edit section: L")] L
+### L
 
 [`last`](../chrono/last_spec.html "cpp/chrono/last spec") (since C++20)  
 [`last_spec`](../chrono/last_spec.html "cpp/chrono/last spec") (since C++20)  
@@ -161,7 +161,7 @@ This page tries to list all the symbols that are available from the [standard li
 [`locate_zone()`](../chrono/locate_zone.html "cpp/chrono/locate zone") (since C++20)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/chrono&action=edit&section=11 "Edit section: M")] M
+### M
 
 [`make12`](../chrono/hour_fun.html "cpp/chrono/hour fun") (since C++20)  
 [`make24`](../chrono/hour_fun.html "cpp/chrono/hour fun") (since C++20)  
@@ -178,24 +178,24 @@ This page tries to list all the symbols that are available from the [standard li
 [`month_weekday_last`](../chrono/month_weekday_last.html "cpp/chrono/month weekday last") (since C++20)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/chrono&action=edit&section=12 "Edit section: N")] N
+### N
 
 [`nanoseconds`](../chrono/duration.html "cpp/chrono/duration") (since C++11)  
 [`nonexistent_local_time`](../chrono/nonexistent_local_time.html "cpp/chrono/nonexistent local time") (since C++20)  
 [`November`](../chrono/month.html "cpp/chrono/month") (since C++20)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/chrono&action=edit&section=13 "Edit section: O")] O
+### O
 
 [`October`](../chrono/month.html "cpp/chrono/month") (since C++20)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/chrono&action=edit&section=14 "Edit section: P")] P
+### P
 
 [`parse<>()`](../chrono/parse.html "cpp/chrono/parse") (since C++20)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/chrono&action=edit&section=15 "Edit section: R")] R
+### R
 
 [`reload_tzdb()`](../chrono/tzdb_functions.html "cpp/chrono/tzdb functions") (since C++20)  
 [`remote_version()`](../chrono/tzdb_functions.html "cpp/chrono/tzdb functions") (since C++20)  
@@ -203,7 +203,7 @@ This page tries to list all the symbols that are available from the [standard li
 [`round<>()`](../chrono/time_point/round.html "cpp/chrono/time point/round") (`std::chrono::time_point`) (since C++17)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/chrono&action=edit&section=16 "Edit section: S")] S
+### S
 
 [`Saturday`](../chrono/weekday.html "cpp/chrono/weekday") (since C++20)  
 [`seconds`](../chrono/duration.html "cpp/chrono/duration") (since C++11)  
@@ -217,7 +217,7 @@ This page tries to list all the symbols that are available from the [standard li
 [`system_clock`](../chrono/system_clock.html "cpp/chrono/system clock") (since C++11)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/chrono&action=edit&section=17 "Edit section: T")] T
+### T
 
 [`tai_clock`](../chrono/tai_clock.html "cpp/chrono/tai clock") (since C++20)  
 [`tai_seconds`](../chrono/tai_clock.html "cpp/chrono/tai clock") (since C++20)  
@@ -234,14 +234,14 @@ This page tries to list all the symbols that are available from the [standard li
 [`tzdb_list`](../chrono/tzdb_list.html "cpp/chrono/tzdb list") (since C++20)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/chrono&action=edit&section=18 "Edit section: U")] U
+### U
 
 [`utc_clock`](../chrono/utc_clock.html "cpp/chrono/utc clock") (since C++20)  
 [`utc_seconds`](../chrono/utc_clock.html "cpp/chrono/utc clock") (since C++20)  
 [`utc_time`](../chrono/utc_clock.html "cpp/chrono/utc clock") (since C++20)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/chrono&action=edit&section=19 "Edit section: W")] W
+### W
 
 [`Wednesday`](../chrono/weekday.html "cpp/chrono/weekday") (since C++20)  
 [`weekday`](../chrono/weekday.html "cpp/chrono/weekday") (since C++20)  
@@ -249,7 +249,7 @@ This page tries to list all the symbols that are available from the [standard li
 [`weekday_last`](../chrono/weekday_last.html "cpp/chrono/weekday last") (since C++20)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/chrono&action=edit&section=20 "Edit section: Y")] Y
+### Y
 
 [`year`](../chrono/year.html "cpp/chrono/year") (since C++20)  
 [`year_month`](../chrono/year_month.html "cpp/chrono/year month") (since C++20)  
@@ -259,7 +259,7 @@ This page tries to list all the symbols that are available from the [standard li
 [`year_month_weekday_last`](../chrono/year_month_weekday_last.html "cpp/chrono/year month weekday last") (since C++20)  
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/chrono&action=edit&section=21 "Edit section: Z")] Z
+### Z
 
 [`zoned_seconds`](../chrono/zoned_time.html "cpp/chrono/zoned time") (since C++20)  
 [`zoned_time`](../chrono/zoned_time.html "cpp/chrono/zoned time")<> (since C++20)  

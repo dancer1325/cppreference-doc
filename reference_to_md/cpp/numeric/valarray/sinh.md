@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [`std::valarray`](../valarray.html "cpp/numeric/valarray")
 
@@ -155,7 +155,7 @@
   
 [Deduction guides](deduction_guides.html "cpp/numeric/valarray/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/navbar_content&action=edit)
+
 
 Defined in header `[<valarray>](../../header/valarray.html "cpp/header/valarray")` |  |   
 ---|---|---  
@@ -177,16 +177,16 @@ For each element in va computes hyperbolic sine of the value of the element.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/sinh&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 va  |  \-  |  value array to apply the operation to   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/sinh&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Value array containing hyperbolic sine of the values in va. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/sinh&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Unqualified function (sinh) is used to perform the computation. If such function is not available, [std::sinh](../math/sinh.html) is used due to [argument-dependent lookup](../../language/adl.html "cpp/language/adl"). 
 
@@ -202,7 +202,7 @@ The function can be implemented with the return type different from [std::valarr
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/sinh&action=edit&section=4 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     template<class T>
@@ -217,7 +217,7 @@ The function can be implemented with the return type different from [std::valarr
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/sinh&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -271,14 +271,14 @@ Output:
     sinh(n)    : (-0.200330,-0.101837) (0.200330,0.101837) 
     (eⁿ-e⁻ⁿ)/2 : (-0.200330,-0.101837) (0.200330,0.101837)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/sinh&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ cosh(std::valarray)](cosh.html "cpp/numeric/valarray/cosh") |  applies the function [std::cosh](../math/cosh.html "cpp/numeric/math/cosh") to each element of valarray   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_cosh&action=edit)  
+(function template)   
 ---|---  
 [ tanh(std::valarray)](tanh.html "cpp/numeric/valarray/tanh") |  applies the function [std::tanh](../math/tanh.html "cpp/numeric/math/tanh") to each element of valarray   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_tanh&action=edit)  
+(function template)   
 [ sinhsinhfsinhl](../math/sinh.html "cpp/numeric/math/sinh")(C++11)(C++11) |  computes hyperbolic sine (\\({\small\sinh{x}}\\)sinh(x))   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_sinh&action=edit)  
+(function)   
 [ sinh(std::complex)](../complex/sinh.html "cpp/numeric/complex/sinh") |  computes hyperbolic sine of a complex number (\\({\small\sinh{z}}\\)sinh(z))   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_sinh&action=edit)
+(function template) 

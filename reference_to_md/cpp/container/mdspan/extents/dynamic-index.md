@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../../container.html "cpp/container")
 
@@ -71,7 +71,7 @@ Tables
 [Member function table](../../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::mdspan`](../../mdspan.html "cpp/container/mdspan")
 
@@ -120,7 +120,7 @@ Tables
 [submdspan_mapping_result](../submdspan_mapping_result.html "cpp/container/mdspan/submdspan mapping result")(C++26)  
 [Deduction guides](../deduction_guides.html "cpp/container/mdspan/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/navbar_content&action=edit)
+
 
 [`std::extents`](../extents.html "cpp/container/mdspan/extents")
 
@@ -142,7 +142,7 @@ Tables
 [extents::operator==](operator==.html "cpp/container/mdspan/extents/operator==")  
 [Deduction guides](deduction_guides.html "cpp/container/mdspan/extents/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/extents/navbar_content&action=edit)
+
 
 private:  
 static constexpr auto /*dynamic-index*/( rank_type i ) noexcept; |  |  (since C++23)   
@@ -152,16 +152,16 @@ static constexpr auto /*dynamic-index*/( rank_type i ) noexcept; |  |  (since C+
   
 Returns the number of dynamic extents below index i. If i <= rank() is false, the behavior is undefined. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/extents/dynamic-index&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 i  |  \-  |  the index   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/extents/dynamic-index&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The number of `_E r_` with `r < i` for which `_E r_` is a dynamic extent. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/extents/dynamic-index&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 | This section is incomplete   
 ---|---

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Program support utilities](../program.html "cpp/utility/program")
 
@@ -181,7 +181,7 @@ Common vocabulary types
 [Types](../program.html#Types "cpp/utility/program")  
 [jmp_buf](jmp_buf.html "cpp/utility/program/jmp buf")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/program/navbar_content&action=edit)
+
 
 Defined in header `[<csetjmp>](../../header/csetjmp.html "cpp/header/csetjmp")` |  |   
 ---|---|---  
@@ -206,7 +206,7 @@ If the function that called [setjmp](setjmp.html "cpp/utility/program/setjmp") h
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/program/longjmp&action=edit&section=1 "Edit section: Extra restrictions in C++")] Extra restrictions in C++
+### Extra restrictions in C++
 
 On top of C [`longjmp`](../../../c/program/longjmp.html "c/program/longjmp"), C++ `std::longjmp` has more restricted behavior. 
 
@@ -215,21 +215,21 @@ If replacing `std::longjmp` with throw and [setjmp](setjmp.html "cpp/utility/pro
 The behavior is undefined if `std::longjmp` is called in a [coroutine](../../language/coroutines.html "cpp/language/coroutines") in a place where the co_await operator may be used.  | (since C++20)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/program/longjmp&action=edit&section=2 "Edit section: Parameters")] Parameters
+### Parameters
 
 env  |  \-  |  variable referring to the execution state of the program saved by [setjmp](setjmp.html "cpp/utility/program/setjmp")  
 ---|---|---  
 status  |  \-  |  the value to return from [setjmp](setjmp.html "cpp/utility/program/setjmp"). If it is equal to ​0​, 1 is used instead   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/program/longjmp&action=edit&section=3 "Edit section: Return value")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/program/longjmp&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 `std::longjmp` is the mechanism used in C to handle unexpected error conditions where the function cannot return meaningfully. C++ generally uses [exception handling](../../language/exceptions.html "cpp/language/exceptions") for this purpose. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/program/longjmp&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -288,7 +288,7 @@ Output:
     Solving 1x² + 2x + 3 = 0...
     No real solution
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/program/longjmp&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -301,9 +301,9 @@ catch would destroy any automatic object  | the behavior is only undefined
 if a non-trivial destructor for  
 any automatic object is invoked   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/program/longjmp&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ setjmp](setjmp.html "cpp/utility/program/setjmp") |  saves the context   
-(function macro) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/program/dsc_setjmp&action=edit)  
+(function macro)   
 ---|---  
 [C documentation](../../../c/program/longjmp.html "c/program/longjmp") for longjmp

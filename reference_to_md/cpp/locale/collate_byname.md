@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Localization library](../locale.html "cpp/locale")
 
@@ -152,7 +152,7 @@ base classes](../locale.html#Facet_category_base_classes "cpp/locale")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/navbar_content&action=edit)
+
 
 Defined in header `[<locale>](../header/locale.html "cpp/header/locale")` |  |   
 ---|---|---  
@@ -181,7 +181,7 @@ class collate_byname : public [std::collate](collate.html)<CharT>; |  |
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/collate_byname&action=edit&section=1 "Edit section: Specializations")] Specializations
+### Specializations
 
 The standard library is guaranteed to provide the following specializations: 
 
@@ -190,15 +190,15 @@ Defined in header `[<locale>](../header/locale.html "cpp/header/locale")`
 std::collate_byname<char> |  locale-specific collation of multibyte strings   
 std::collate_byname<wchar_t> |  locale-specific collation of wide strings   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/collate_byname&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 **(constructor)** |  constructs a new `collate_byname` facet   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/byname/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 **(destructor)** |  destroys a `collate_byname` facet   
-(protected member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/byname/dsc_destructor&action=edit)  
+(protected member function)   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/byname/constructor&action=edit)
+
 
 ##  std::collate_byname::collate_byname
 
@@ -217,7 +217,7 @@ name  |  \-  |  the name of the locale
 ---|---|---  
 refs  |  \-  |  the number of references that link to the facet   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/byname/destructor&action=edit)
+
 
 ##  std::collate_byname::~collate_byname 
 
@@ -237,7 +237,7 @@ Type  |  Definition
 `char_type` |  `CharT`  
 `string_type` |  [std::basic_string](../string/basic_string.html)<CharT>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/facet_data_members&action=edit&section=T-1 "Template:cpp/locale/facet data members")] Data members
+### Data members
 
 Member  |  Description   
 ---|---  
@@ -246,41 +246,41 @@ Member  |  Description
 ###  Member functions
 
 [ compare](collate/compare.html "cpp/locale/collate/compare") |  invokes `do_compare`   
-(public member function of `std::collate<CharT>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/collate/dsc_compare&action=edit)  
+(public member function of `std::collate<CharT>`)   
 ---|---  
 [ transform](collate/transform.html "cpp/locale/collate/transform") |  invokes `do_transform`   
-(public member function of `std::collate<CharT>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/collate/dsc_transform&action=edit)  
+(public member function of `std::collate<CharT>`)   
 [ hash](collate/hash.html "cpp/locale/collate/hash") |  invokes `do_hash`   
-(public member function of `std::collate<CharT>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/collate/dsc_hash&action=edit)  
+(public member function of `std::collate<CharT>`)   
   
 ###  Protected member functions
 
 [ do_compare](collate/compare.html "cpp/locale/collate/compare")[virtual] |  compares two strings using this facet's collation rules   
-(virtual protected member function of `std::collate<CharT>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/collate/dsc_do_compare&action=edit)  
+(virtual protected member function of `std::collate<CharT>`)   
 ---|---  
 [ do_transform](collate/transform.html "cpp/locale/collate/transform")[virtual] |  transforms a string so that collation can be replaced by comparison   
-(virtual protected member function of `std::collate<CharT>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/collate/dsc_do_transform&action=edit)  
+(virtual protected member function of `std::collate<CharT>`)   
 [ do_hash](collate/hash.html "cpp/locale/collate/hash")[virtual] |  generates an integer hash value using this facet's collation rules   
-(virtual protected member function of `std::collate<CharT>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/collate/dsc_do_hash&action=edit)  
+(virtual protected member function of `std::collate<CharT>`)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/collate_byname&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Collation order is the dictionary order: the position of the letter in the national alphabet (its _equivalence class_) has higher priority than its case or variant. Within an equivalence class, lowercase characters collate before their uppercase equivalents and locale-specific order may apply to the characters with diacritics. In some locales, groups of characters compare as single _collation units_. For example, "ch" in Czech follows "h" and precedes "i", and "dzs" in Hungarian follows "dz" and precedes "g". 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/collate_byname&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/collate_byname&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ collate](collate.html "cpp/locale/collate") |  defines lexicographical comparison and hashing of strings   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_collate&action=edit)  
+(class template)   
 ---|---  
 [ strcoll](../string/byte/strcoll.html "cpp/string/byte/strcoll") |  compares two strings in accordance to the current locale   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strcoll&action=edit)  
+(function)   
 [ wcscoll](../string/wide/wcscoll.html "cpp/string/wide/wcscoll") |  compares two wide strings in accordance to the current locale   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wcscoll&action=edit)  
+(function)   
 [ operator()](locale/operator\(\).html "cpp/locale/locale/operator\(\)") |  lexicographically compares two strings using this locale's collate facet   
-(public member function of `std::locale`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/locale/dsc_operator\(\)&action=edit)
+(public member function of `std::locale`) &action=edit)

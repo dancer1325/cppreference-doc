@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ named requirements](../iterator/concepts.html "cpp/named req")
 
@@ -147,7 +147,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/named_req/navbar_content&action=edit)
+
 
 A **FunctionObject** type is the type of an object that can be used on the left of the function call operator. 
 
@@ -162,7 +162,7 @@ A **FunctionObject** type is the type of an object that can be used on the left 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/FunctionObject&action=edit&section=1 "Edit section: Requirements")] Requirements
+### Requirements
 
 The type `T` satisfies FunctionObject if 
 
@@ -183,11 +183,11 @@ Expression | Requirements
 ---|---  
 f(args) | performs a function call   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/FunctionObject&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 Functions and references to functions are not function object types, but can be used where function object types are expected due to function-to-pointer [implicit conversion](../language/implicit_cast.html "cpp/language/implicit cast"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/FunctionObject&action=edit&section=3 "Edit section: Standard library")] Standard library
+### Standard library
 
   * All [pointers to functions](../language/pointer.html#Pointers_to_functions "cpp/language/pointer") satisfy this requirement. 
   * All function objects defined in [`<functional>`](../header/functional.html "cpp/header/functional"). 
@@ -195,7 +195,7 @@ Functions and references to functions are not function object types, but can be 
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/FunctionObject&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Demonstrates different types of function objects.
 
@@ -255,7 +255,7 @@ Output:
     bar(6)
     bar(6)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/FunctionObject&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [Callable](Callable.html "cpp/named req/Callable") |  a type for which the invoke operation is defined  
 (named requirement)  

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header was originally in the C standard library as [`<stdio.h>`](../../c/header/stdio.html "c/header/stdio"). 
 
@@ -225,20 +225,20 @@ This header is part of the [C-style input/output](../io/c.html "cpp/io/c") libra
 ###  Types  
   
 [ FILE](../io/c/FILE.html "cpp/io/c/FILE") |  object type, capable of holding all information needed to control a C I/O stream   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_FILE&action=edit)  
+(typedef)   
 [ fpos_t](../io/c/fpos_t.html "cpp/io/c/fpos t") |  complete non-array object type, capable of uniquely specifying a position in a file, including its multibyte parse state   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_fpos_t&action=edit)  
+(typedef)   
 [ size_t](../types/size_t.html "cpp/types/size t") |  unsigned integer type returned by the [`sizeof`](../language/sizeof.html "cpp/language/sizeof") operator   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_size_t&action=edit)  
+(typedef)   
   
 ###  Macros  
   
 [ NULL](../types/NULL.html "cpp/types/NULL") |  implementation-defined null pointer constant   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_NULL&action=edit)  
+(macro constant)   
 [ stdinstdoutstderr](../io/c/std_streams.html "cpp/io/c/std streams") |  expression of type FILE* associated with the input stream  
 expression of type FILE* associated with the output stream  
 expression of type FILE* associated with the error output stream   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_std_streams&action=edit)  
+(macro constant)   
 EOF |  integer constant expression of type int and negative value   
 (macro constant)  
 FOPEN_MAX |  number of files that can be open simultaneously   
@@ -265,99 +265,99 @@ L_tmpnam |  size needed for an array of char to hold the result of [std::tmpnam]
 #####  File access   
   
 [ fopen](../io/c/fopen.html "cpp/io/c/fopen") |  opens a file   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_fopen&action=edit)  
+(function)   
 [ freopen](../io/c/freopen.html "cpp/io/c/freopen") |  open an existing stream with a different name   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_freopen&action=edit)  
+(function)   
 [ fclose](../io/c/fclose.html "cpp/io/c/fclose") |  closes a file   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_fclose&action=edit)  
+(function)   
 [ fflush](../io/c/fflush.html "cpp/io/c/fflush") |  synchronizes an output stream with the actual file   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_fflush&action=edit)  
+(function)   
 [ setbuf](../io/c/setbuf.html "cpp/io/c/setbuf") |  sets the buffer for a file stream   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_setbuf&action=edit)  
+(function)   
 [ setvbuf](../io/c/setvbuf.html "cpp/io/c/setvbuf") |  sets the buffer and its size for a file stream   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_setvbuf&action=edit)  
+(function)   
   
 #####  Direct input/output   
   
 [ fread](../io/c/fread.html "cpp/io/c/fread") |  reads from a file   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_fread&action=edit)  
+(function)   
 [ fwrite](../io/c/fwrite.html "cpp/io/c/fwrite") |  writes to a file   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_fwrite&action=edit)  
+(function)   
   
 #####  Unformatted input/output   
   
 #####  Narrow character  
   
 [ fgetcgetc](../io/c/fgetc.html "cpp/io/c/fgetc") |  gets a character from a file stream   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_fgetc&action=edit)  
+(function)   
 [ fgets](../io/c/fgets.html "cpp/io/c/fgets") |  gets a character string from a file stream   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_fgets&action=edit)  
+(function)   
 [ fputcputc](../io/c/fputc.html "cpp/io/c/fputc") |  writes a character to a file stream   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_fputc&action=edit)  
+(function)   
 [ fputs](../io/c/fputs.html "cpp/io/c/fputs") |  writes a character string to a file stream   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_fputs&action=edit)  
+(function)   
 [ getchar](../io/c/getchar.html "cpp/io/c/getchar") |  reads a character from [stdin](../io/c/std_streams.html "cpp/io/c/std streams")   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_getchar&action=edit)  
+(function)   
 [ gets](../io/c/gets.html "cpp/io/c/gets")(deprecated in C++11)(removed in C++14) |  reads a character string from [stdin](../io/c/std_streams.html "cpp/io/c/std streams")   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_gets&action=edit)  
+(function)   
 [ putchar](../io/c/putchar.html "cpp/io/c/putchar") |  writes a character to [stdout](../io/c/std_streams.html "cpp/io/c/std streams")   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_putchar&action=edit)  
+(function)   
 [ puts](../io/c/puts.html "cpp/io/c/puts") |  writes a character string to [stdout](../io/c/std_streams.html "cpp/io/c/std streams")   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_puts&action=edit)  
+(function)   
 [ ungetc](../io/c/ungetc.html "cpp/io/c/ungetc") |  puts a character back into a file stream   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_ungetc&action=edit)  
+(function)   
   
 #####  Formatted input/output   
   
 #####  Narrow/multibyte character  
   
 [ scanffscanfsscanf](../io/c/scanf.html "cpp/io/c/fscanf") |  reads formatted input from [stdin](../io/c/std_streams.html "cpp/io/c/std streams"), a file stream or a buffer   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_fscanf&action=edit)  
+(function)   
 [ vscanfvfscanfvsscanf](../io/c/vfscanf.html "cpp/io/c/vfscanf")(C++11)(C++11)(C++11) |  reads formatted input from [stdin](../io/c/std_streams.html "cpp/io/c/std streams"), a file stream or a buffer  
 using variable argument list   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_vfscanf&action=edit)  
+(function)   
 [ printffprintfsprintfsnprintf](../io/c/printf.html "cpp/io/c/fprintf")(C++11) |  prints formatted output to [stdout](../io/c/std_streams.html "cpp/io/c/std streams"), a file stream or a buffer   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_fprintf&action=edit)  
+(function)   
 [ vprintfvfprintfvsprintfvsnprintf](../io/c/vfprintf.html "cpp/io/c/vfprintf")(C++11) |  prints formatted output to [stdout](../io/c/std_streams.html "cpp/io/c/std streams"), a file stream or a buffer  
 using variable argument list   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_vfprintf&action=edit)  
+(function)   
   
 #####  File positioning   
   
 [ ftell](../io/c/ftell.html "cpp/io/c/ftell") |  returns the current file position indicator   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_ftell&action=edit)  
+(function)   
 [ fgetpos](../io/c/fgetpos.html "cpp/io/c/fgetpos") |  gets the file position indicator   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_fgetpos&action=edit)  
+(function)   
 [ fseek](../io/c/fseek.html "cpp/io/c/fseek") |  moves the file position indicator to a specific location in a file   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_fseek&action=edit)  
+(function)   
 [ fsetpos](../io/c/fsetpos.html "cpp/io/c/fsetpos") |  moves the file position indicator to a specific location in a file   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_fsetpos&action=edit)  
+(function)   
 [ rewind](../io/c/rewind.html "cpp/io/c/rewind") |  moves the file position indicator to the beginning in a file   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_rewind&action=edit)  
+(function)   
   
 #####  Error handling   
   
 [ clearerr](../io/c/clearerr.html "cpp/io/c/clearerr") |  clears errors   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_clearerr&action=edit)  
+(function)   
 [ feof](../io/c/feof.html "cpp/io/c/feof") |  checks for the end-of-file   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_feof&action=edit)  
+(function)   
 [ ferror](../io/c/ferror.html "cpp/io/c/ferror") |  checks for a file error   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_ferror&action=edit)  
+(function)   
 [ perror](../io/c/perror.html "cpp/io/c/perror") |  displays a character string corresponding of the current error to [stderr](../io/c/std_streams.html "cpp/io/c/std streams")   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_perror&action=edit)  
+(function)   
   
 #####  Operations on files   
   
 [ remove](../io/c/remove.html "cpp/io/c/remove") |  erases a file   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_remove&action=edit)  
+(function)   
 [ rename](../io/c/rename.html "cpp/io/c/rename") |  renames a file   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_rename&action=edit)  
+(function)   
 [ tmpfile](../io/c/tmpfile.html "cpp/io/c/tmpfile") |  creates and opens a temporary, auto-removing file   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_tmpfile&action=edit)  
+(function)   
 [ tmpnam](../io/c/tmpnam.html "cpp/io/c/tmpnam") |  returns a unique filename   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_tmpnam&action=edit)  
+(function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/cstdio&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     namespace std {
@@ -431,7 +431,7 @@ using variable argument list
       void perror(const char* s);
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/cstdio&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
   * [NULL](../types/NULL.html "cpp/types/NULL") is also defined in the following headers: 
     * [`<clocale>`](clocale.html "cpp/header/clocale")

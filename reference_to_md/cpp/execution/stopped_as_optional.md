@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Execution control library](../experimental/execution.html "cpp/execution")
 
@@ -155,23 +155,23 @@ schedule_result_t](schedule.html "cpp/execution/schedule")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/execution/navbar_content&action=edit)
+
 
 Defined in header `[<execution>](../header/execution.html "cpp/header/execution")` |  |   
 ---|---|---  
 execution::sender auto stopped_as_optional( /*single-sender*/ auto snd ); |  |  (since C++26)  
 | |   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/execution/stopped_as_optional&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 snd  |  \-  |  input sender of which the value channel and stopped channel are mapped.   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/execution/stopped_as_optional&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Returns a sender that maps the value channel from a `T` to an [std::optional](../utility/optional.html)<[std::decay_t](../types/decay.html)<T>>, and maps the stopped channel to a value of an empty [std::optional](../utility/optional.html)<[std::decay_t](../types/decay.html)<T>>. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/execution/stopped_as_optional&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

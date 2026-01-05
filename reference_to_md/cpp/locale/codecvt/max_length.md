@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Localization library](../../locale.html "cpp/locale")
 
@@ -152,7 +152,7 @@ base classes](../../locale.html#Facet_category_base_classes "cpp/locale")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/navbar_content&action=edit)
+
 
 [`std::codecvt`](../codecvt.html "cpp/locale/codecvt")
 
@@ -168,7 +168,7 @@ Member functions
 [codecvt::lengthcodecvt::do_length](length.html "cpp/locale/codecvt/length")  
 **codecvt::max_length codecvt::do_max_length**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/codecvt/navbar_content&action=edit)
+
 
 Defined in header `[<locale>](../../header/locale.html "cpp/header/locale")` |  |   
 ---|---|---  
@@ -198,17 +198,17 @@ virtual int do_max_length() const noexcept; |  |  (since C++11)
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/codecvt/max_length&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 The maximum number of `ExternT` characters that could be consumed if converted by [in()](in.html "cpp/locale/codecvt/in") to produce one `InternT` character. 
 
 The non-converting specialization [std::codecvt](../codecvt.html)<char, char, [std::mbstate_t](../../string/multibyte/mbstate_t.html)> returns 1. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/codecvt/max_length&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 If the encoding is state-dependent (encoding() == -1), then more than `max_length()` external characters may be consumed to produce one internal character. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/codecvt/max_length&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -246,10 +246,10 @@ Output:
     In this system's en_US.utf8, the longest multibyte character is 6 bytes long
     In this system's zh_CN.gb18030, the longest multibyte character is 4 bytes long
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/codecvt/max_length&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 MB_CUR_MAX |  maximum number of bytes in a multibyte character in the current C locale  
-(macro variable)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/dsc_MB_CUR_MAX&action=edit)  
+(macro variable)  
 ---|---  
 [ do_encoding](encoding.html "cpp/locale/codecvt/encoding")[virtual] |  returns the number of `ExternT` characters necessary to produce one `InternT` character, if constant   
-(virtual protected member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/codecvt/dsc_do_encoding&action=edit)
+(virtual protected member function) 

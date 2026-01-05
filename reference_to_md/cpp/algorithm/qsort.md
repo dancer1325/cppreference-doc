@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](ranges/copy.html "cpp/algorithm/ra
 [uninitialized_default_construct_n](../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 Defined in header `[<cstdlib>](../header/cstdlib.html "cpp/header/cstdlib")` |  |   
 ---|---|---  
@@ -326,7 +326,7 @@ If the type of the elements of the array is not a [PODType](../named_req/PODType
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/qsort&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 ptr  |  \-  |  pointer to the array to sort   
 ---|---|---  
@@ -335,17 +335,17 @@ size  |  \-  |  size of each element in the array in bytes
 comp  |  \-  |  comparison function which returns ​a negative integer value if the first argument is _less_ than the second, a positive integer value if the first argument is _greater_ than the second and zero if the arguments are equivalent.  
 The signature of the comparison function should be equivalent to the following:  int cmp(const void *a, const void *b); The function must not modify the objects passed to it and must return consistent results when called for the same objects, regardless of their positions in the array. ​   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/qsort&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/qsort&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Despite the name, C++, C, and POSIX standards do not require this function to be implemented using [Quicksort](https://en.wikipedia.org/wiki/Quicksort "enwiki:Quicksort") or make any complexity or stability guarantees. 
 
 The two overloads provided by the C++ standard library are distinct because the types of the parameter comp are distinct ([language linkage](../language/language_linkage.html "cpp/language/language linkage") is part of its type). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/qsort&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 The following code sorts an array of integers using `qsort()`:
 
@@ -390,7 +390,7 @@ Output:
     
     -2147483648 -743 -2 0 2 4 99 2147483647
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/qsort&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -398,13 +398,13 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 405](https://cplusplus.github.io/LWG/issue405) | C++98  | the elements of the array could have any type  | limited to [PODType](../named_req/PODType.html "cpp/named req/PODType")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/qsort&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ bsearch](bsearch.html "cpp/algorithm/bsearch") |  searches an array for an element of unspecified type   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_bsearch&action=edit)  
+(function)   
 ---|---  
 [ sort](sort.html "cpp/algorithm/sort") |  sorts a range into ascending order   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_sort&action=edit)  
+(function template)   
 [ is_trivial](../types/is_trivial.html "cpp/types/is trivial")(C++11)(deprecated in C++26) |  checks if a type is trivial   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_trivial&action=edit)  
+(class template)   
 [C documentation](../../c/algorithm/qsort.html "c/algorithm/qsort") for qsort

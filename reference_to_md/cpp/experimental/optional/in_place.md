@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Library fundamentals](../memory.html "cpp/experimental/lib extensions")
 
@@ -75,7 +75,7 @@
 [Type-erased and polymorphic allocators](../memory.html "cpp/experimental/memory")  
 [Variable templates for type traits](../type_trait_variable_templates.html "cpp/experimental/type trait variable templates")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions/navbar_content&action=edit)
+
 
 [`std::experimental::optional`](../optional.html "cpp/experimental/optional")
 
@@ -105,7 +105,7 @@ Helper objects
 [nullopt](nullopt.html "cpp/experimental/optional/nullopt")  
 **in_place**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/optional/navbar_content&action=edit)
+
 
 Defined in header `[<experimental/optional>](../../header/experimental/optional.html "cpp/header/experimental/optional")` |  |   
 ---|---|---  
@@ -114,10 +114,10 @@ constexpr in_place_t in_place{}; |  |  (library fundamentals TS)
   
 `std::experimental::in_place` is a constant of type [std::experimental::in_place_t](in_place_t.html) that is used to disambiguate the overloads of constructors and member functions of that take arguments (possibly a parameter pack) for in-place construction of some value. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/optional/in_place&action=edit&section=1 "Edit section: See also")] See also
+### See also
 
 [ in_placein_place_typein_place_indexin_place_tin_place_type_tin_place_index_t](../../utility/in_place.html "cpp/utility/in place")(C++17) |  in-place construction tag  
-(tag)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_in_place&action=edit)  
+(tag)  
 ---|---  
 [ optional](../../utility/optional.html "cpp/utility/optional")(C++17) |  a wrapper that may or may not hold an object   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_optional&action=edit)
+(class template) 

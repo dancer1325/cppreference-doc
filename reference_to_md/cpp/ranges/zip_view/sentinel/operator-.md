@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::zip_view`](../../zip_view.html "cpp/ranges/zip view")
 
@@ -264,7 +264,7 @@ Non-member functions
 [operator==(zip_view::_iterator_ ,zip_view::_sentinel_)](operator_cmp.html "cpp/ranges/zip view/sentinel/operator cmp")  
 **operator-(zip_view::_iterator_ ,zip_view::_sentinel_)**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/zip_view/navbar_content&action=edit)
+
 
 template< bool OtherConst >  
 requires ([std::sized_sentinel_for](../../../iterator/sized_sentinel_for.html)<  
@@ -287,13 +287,13 @@ Computes the minimal distance between the underlying tuple of iterators of x and
 
 These functions are not visible to ordinary [unqualified](../../../language/unqualified_lookup.html "cpp/language/unqualified lookup") or [qualified lookup](../../../language/qualified_lookup.html "cpp/language/qualified lookup"), and can only be found by [argument-dependent lookup](../../../language/adl.html "cpp/language/adl") when `zip_view::_sentinel_ <Const>` is an associated class of the arguments. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/zip_view/sentinel/operator-&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 x  |  \-  |  an [iterator](../iterator.html "cpp/ranges/zip view/iterator")  
 ---|---|---  
 y  |  \-  |  a [sentinel](../sentinel.html "cpp/ranges/zip view/sentinel")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/zip_view/sentinel/operator-&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Let `_current__` denote the underlying tuple of iterators of x, and `_end__` denote the underlying tuple of sentinels of y. 
 
@@ -303,7 +303,7 @@ Let `_DIST_(x, y, i)` be a distance calculated by expression equivalent to std::
 
 2) -(x - y).
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/zip_view/sentinel/operator-&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     

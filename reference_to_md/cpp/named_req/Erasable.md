@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ named requirements](../iterator/concepts.html "cpp/named req")
 
@@ -147,7 +147,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/named_req/navbar_content&action=edit)
+
 
 Specifies that an object of the type can be destroyed by a given [Allocator](Allocator.html "cpp/named req/Allocator"). 
 
@@ -161,7 +161,7 @@ Specifies that an object of the type can be destroyed by a given [Allocator](All
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/Erasable&action=edit&section=1 "Edit section: Requirements")] Requirements
+### Requirements
 
 Given the following types, values and expressions: 
 
@@ -181,7 +181,7 @@ p |  a pointer of type `T*`
   
 If the expression [std::allocator_traits](../memory/allocator_traits.html)<A>::destroy(m, p) is well-formed, `T` is Erasable from `X`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/Erasable&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 All [standard library containers](../container.html "cpp/container") require that their value types satisfy Erasable. 
 
@@ -191,7 +191,7 @@ With the default allocator, this requirement is equivalent to the validity of [s
   
 Although it is required that customized `destroy` is used when destroying elements of [std::basic_string](../string/basic_string.html "cpp/string/basic string") until C++23, all implementations only used the default mechanism. The requirement is corrected by [P1072R10](https://wg21.link/P1072R10) to match existing practice. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/Erasable&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -200,7 +200,7 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [N3346](https://wg21.link/N3346) | C++11  | there was no requirement to specify whether a type  
 whose objects can be destroyed using allocators  | added the requirement   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/Erasable&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [CopyInsertable](CopyInsertable.html "cpp/named req/CopyInsertable")  
 ---  

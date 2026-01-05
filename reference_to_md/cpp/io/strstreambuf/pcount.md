@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::strstreambuf`](../strstreambuf.html "cpp/io/strstreambuf")
 
@@ -96,7 +96,7 @@ Protected member functions
 [strstreambuf::seekoff](seekoff.html "cpp/io/strstreambuf/seekoff")  
 [strstreambuf::seekpos](seekpos.html "cpp/io/strstreambuf/seekpos")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/strstreambuf/navbar_content&action=edit)
+
 
 int pcount() const; |  |  (deprecated in C++98)   
 (removed in C++26)  
@@ -119,15 +119,15 @@ Otherwise, returns the next pointer in the put area minus the beginning pointer 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/strstreambuf/pcount&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/strstreambuf/pcount&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The number of characters written to the put area. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/strstreambuf/pcount&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -165,10 +165,10 @@ Output:
     1.23
     Input-only pcount() = 0
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/strstreambuf/pcount&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ pcount](../strstream/pcount.html "cpp/io/strstream/pcount") |  obtains the number of characters written   
-(public member function of `std::strstream`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/strstream/dsc_pcount&action=edit)  
+(public member function of `std::strstream`)   
 ---|---  
 [ pcount](../ostrstream/pcount.html "cpp/io/ostrstream/pcount") |  obtains the number of characters written   
-(public member function of `std::ostrstream`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/strstream/dsc_pcount&action=edit)
+(public member function of `std::ostrstream`) 

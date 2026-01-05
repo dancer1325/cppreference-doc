@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 Defined in header `[<memory>](../header/memory.html "cpp/header/memory")` |  |   
 ---|---|---  
@@ -207,13 +207,13 @@ struct owner_less<void>; |  |  (since C++17)
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/owner_less_void&action=edit&section=1 "Edit section: Nested types")] Nested types
+### Nested types
 
 Nested type  |  Definition   
 ---|---  
 `is_transparent` |  [unspecified](../functional.html#Transparent_function_objects "cpp/utility/functional")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/owner_less_void&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 ** operator()** |  compares its arguments using owner-based semantics   
 (function)  
@@ -251,18 +251,18 @@ lhs, rhs  |  \-  |  shared-ownership pointers to compare
 
 true if lhs is _less than_ rhs as determined by the owner-based ordering. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/owner_less_void&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../utility/feature_test.html "cpp/utility/feature test") macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_transparent_operators`](../experimental/feature_test.html#cpp_lib_transparent_operators "cpp/feature test") | [`201510L`](../compiler_support/17.html#cpp_lib_transparent_operators_201510L "cpp/compiler support/17") | (C++17) | Transparent [std::owner_less](owner_less.html "cpp/memory/owner less") ([std::owner_less](owner_less.html)<void>)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/owner_less_void&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ owner_before](shared_ptr/owner_before.html "cpp/memory/shared ptr/owner before") |  provides owner-based ordering of shared pointers   
-(public member function of `std::shared_ptr<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/dsc_owner_before&action=edit)  
+(public member function of `std::shared_ptr<T>`)   
 ---|---  
 [ owner_before](weak_ptr/owner_before.html "cpp/memory/weak ptr/owner before") |  provides owner-based ordering of weak pointers   
-(public member function of `std::weak_ptr<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/weak_ptr/dsc_owner_before&action=edit)
+(public member function of `std::weak_ptr<T>`) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

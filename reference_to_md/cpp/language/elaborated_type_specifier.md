@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [Declarations](declarations.html "cpp/language/declarations")
 
@@ -280,7 +280,7 @@ Other declarations
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/declarations/navbar_content&action=edit)
+
 
 Elaborated type specifiers may be used to refer to a previously-declared class name (class, struct, or union) or to a previously-declared enum name even if the name was [hidden by a non-type declaration](lookup.html "cpp/language/lookup"). They may also be used to declare new class names. 
 
@@ -294,7 +294,7 @@ Elaborated type specifiers may be used to refer to a previously-declared class n
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/elaborated_type_specifier&action=edit&section=1 "Edit section: Syntax")] Syntax  
+### Syntax  
   
 ---  
 class-key class-name |  (1)  |   
@@ -314,7 +314,7 @@ attr |  \-  |  (since C++11) any number of [attributes](attributes.html "cpp/lan
 
 [Opaque enum declaration](enum.html "cpp/language/enum") resembles form (3), but the enum type is a complete type after an opaque enum declaration. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/elaborated_type_specifier&action=edit&section=2 "Edit section: Explanation")] Explanation
+### Explanation
 
 Form (3) is a special case of elaborated type specifier, usually referred to as _forward declaration_ of classes, for the description of form (3), see [Forward declaration](class.html#Forward_declaration "cpp/language/class"). The following only apply to form (1) and (2). 
 
@@ -390,11 +390,11 @@ The class-key or `**enum**` keyword present in the elaborated-type-specifier mus
 
 When used as a [template argument](template_parameters.html#Template_arguments "cpp/language/template parameters"), class T is a type template parameter named `T`, not an unnamed constant parameter whose type `T` is introduced by elaborated type specifier. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/elaborated_type_specifier&action=edit&section=3 "Edit section: Keywords")] Keywords
+### Keywords
 
 [`class`](../keyword/class.html "cpp/keyword/class"), [`struct`](../keyword/struct.html "cpp/keyword/struct"), [`union`](../keyword/union.html "cpp/keyword/union"), [`enum`](../keyword/enum.html "cpp/keyword/enum")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/elaborated_type_specifier&action=edit&section=4 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 

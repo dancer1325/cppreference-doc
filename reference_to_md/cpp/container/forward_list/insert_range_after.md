@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -71,7 +71,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::forward_list`](../forward_list.html "cpp/container/forward list")
 
@@ -126,7 +126,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/forward list/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/forward_list/navbar_content&action=edit)
+
 
 template< [container-compatible-range](../../ranges/to.html)<T> R >  
 iterator insert_range_after( const_iterator pos, R&& rg ); |  | (since C++23)   
@@ -158,27 +158,27 @@ No iterators or references become invalidated.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/forward_list/insert_range_after&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 pos  |  \-  |  an iterator after which the content will be inserted   
 ---|---|---  
 rg  |  \-  |  a [container compatible range](../../ranges/to.html#container_compatible_range "cpp/ranges/to"), that is, an [`input_range`](../../ranges/input_range.html "cpp/ranges/input range") whose elements are convertible to `T`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/forward_list/insert_range_after&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 An iterator to the last inserted element, or pos if rg is empty. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/forward_list/insert_range_after&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Linear in size of rg. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/forward_list/insert_range_after&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../../utility/feature_test.html "cpp/utility/feature test") macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_containers_ranges`](../../experimental/feature_test.html#cpp_lib_containers_ranges "cpp/feature test") | [`202202L`](../../compiler_support/23.html#cpp_lib_containers_ranges_202202L "cpp/compiler support/23") | (C++23) | [Ranges-aware](../../ranges/to.html#container_compatible_range "cpp/ranges/to") construction and insertion   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/forward_list/insert_range_after&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -205,7 +205,7 @@ Run this code
         [assert](../../error/assert.html)(std::[ranges::equal](../../algorithm/ranges/equal.html)(container, [std::vector](../vector.html){1, 2, -1, -2, -3, 3, 4}));
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/forward_list/insert_range_after&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ prepend_range](prepend_range.html "cpp/container/forward list/prepend range")(C++23) |  adds a range of elements to the beginning   
 (public member function)  

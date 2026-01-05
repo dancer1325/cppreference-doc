@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Function objects](../../functional.html "cpp/utility/functional")
 
@@ -255,7 +255,7 @@ Identity function object
 [unary_negate](unary_negate.html "cpp/utility/functional/unary negate")(until C++20*)  
 [binary_negate](binary_negate.html "cpp/utility/functional/binary negate")(until C++20*)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/navbar_content&action=edit)
+
 
 Defined in header `[<functional>](../../header/functional.html "cpp/header/functional")` |  |   
 ---|---|---  
@@ -279,13 +279,13 @@ class greater_equal<void>; |  |  (since C++14)
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/greater_equal_void&action=edit&section=1 "Edit section: Nested types")] Nested types
+### Nested types
 
 Nested type  |  Definition   
 ---|---  
 `is_transparent` |  [unspecified](../../functional.html#Transparent_function_objects "cpp/utility/functional")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/greater_equal_void&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 ** operator()** |  tests if lhs compares greater or equal than rhs   
 (public member function)  
@@ -312,11 +312,11 @@ lhs, rhs  |  \-  |  values to compare
 
 If a built-in operator comparing pointers is called, the result is consistent with the [implementation-defined strict total order over pointers](../../language/operator_comparison.html#Pointer_total_order "cpp/language/operator comparison"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/impldef_exception&action=edit&section=T-1 "Template:cpp/impldef exception")] Exceptions
+### Exceptions
 
 May throw implementation-defined exceptions. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/greater_equal_void&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -342,7 +342,7 @@ Run this code
         static_assert([std::all_of](../../algorithm/none_of.html)(arr.begin() + 1, arr.end(), strictly_not_negative));
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/greater_equal_void&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

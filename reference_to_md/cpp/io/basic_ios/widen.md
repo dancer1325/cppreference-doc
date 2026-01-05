@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_ios`](../basic_ios.html "cpp/io/basic ios")
 
@@ -111,7 +111,7 @@ Protected member functions
 [basic_ios::swap](swap.html "cpp/io/basic ios/swap")(C++11)  
 [basic_ios::set_rdbuf](set_rdbuf.html "cpp/io/basic ios/set rdbuf")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ios/navbar_content&action=edit)
+
 
 char_type widen( char c ) const; |  |   
 ---|---|---  
@@ -121,21 +121,21 @@ Converts a character c to its equivalent in the current locale. The result is co
 
 Effectively calls [std::use_facet](../../locale/use_facet.html)< [std::ctype](../../locale/ctype.html)<char_type> >(getloc()).widen(c). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_ios/widen&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 c  |  \-  |  character to convert   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_ios/widen&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Character converted to `char_type`
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_ios/widen&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ narrow](narrow.html "cpp/io/basic ios/narrow") |  narrows characters   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ios/dsc_narrow&action=edit)  
+(public member function)   
 ---|---  
 [ do_widen](../../locale/ctype/widen.html "cpp/locale/ctype/widen")[virtual] |  converts a character or characters from char to `CharT`   
-(virtual protected member function of `std::ctype<CharT>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/ctype/dsc_do_widen&action=edit)  
+(virtual protected member function of `std::ctype<CharT>`)   
 [ btowc](../../string/multibyte/btowc.html "cpp/string/multibyte/btowc") |  widens a single-byte narrow character to wide character, if possible   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/dsc_btowc&action=edit)
+(function) 

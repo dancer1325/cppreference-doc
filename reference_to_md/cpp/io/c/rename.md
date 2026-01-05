@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [C-style I/O](../c.html "cpp/io/c")
 
@@ -176,7 +176,7 @@ Operations on files
 [tmpfile](tmpfile.html "cpp/io/c/tmpfile")  
 [tmpnam](tmpnam.html "cpp/io/c/tmpnam")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/navbar_content&action=edit)
+
 
 Defined in header `[<cstdio>](../../header/cstdio.html "cpp/header/cstdio")` |  |   
 ---|---|---  
@@ -198,21 +198,21 @@ If new_filename exists, the behavior is implementation-defined.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/rename&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 old_filename  |  \-  |  pointer to a null-terminated string containing the path identifying the file to rename   
 ---|---|---  
 new_filename  |  \-  |  pointer to a null-terminated string containing the new path of the file   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/rename&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 ​0​ upon success or non-zero value on error. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/rename&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 [POSIX](https://pubs.opengroup.org/onlinepubs/9699919799/functions/rename.html) specifies many additional details on the semantics of this function, which are reproduced in C++ by [std::filesystem::rename](../../filesystem/rename.html "cpp/filesystem/rename"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/rename&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -245,11 +245,11 @@ Output:
     
     a
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/rename&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ rename](../../filesystem/rename.html "cpp/filesystem/rename")(C++17) |  moves or renames a file or directory   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_rename&action=edit)  
+(function)   
 ---|---  
 [ remove](remove.html "cpp/io/c/remove") |  erases a file   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_remove&action=edit)  
+(function)   
 [C documentation](../../../c/io/rename.html "c/io/rename") for rename

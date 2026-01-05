@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::list`](../list.html "cpp/container/list")
 
@@ -135,7 +135,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/list/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/list/navbar_content&action=edit)
+
 
 size_type size() const; |  | (noexcept since C++11)   
 (constexpr since C++26)  
@@ -154,19 +154,19 @@ Returns the number of elements in the container.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/size&action=edit&section=T-1 "Template:cpp/container/size")] Return value
+### Return value
 
 [std::distance](../../iterator/distance.html)(begin(), end())
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/size&action=edit&section=T-2 "Template:cpp/container/size")] Complexity
+### Complexity
 
 Constant or linear.  | (until C++11)  
 ---|---  
 Constant.  | (since C++11)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/size&action=edit&section=T-3 "Template:cpp/container/size")] Example
+### Example
 
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/list/example_size&action=edit)
+
 
 The following code uses `size` to display the number of elements in a [std::list](../list.html "cpp/container/list"):
 
@@ -188,14 +188,14 @@ Output:
     
     nums contains 4 elements.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/size&action=edit&section=T-4 "Template:cpp/container/size")] See also
+### See also
 
 [ empty](empty.html "cpp/container/list/empty") |  checks whether the container is empty   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_empty&action=edit)  
+(public member function)   
 ---|---  
 [ max_size](max_size.html "cpp/container/list/max size") |  returns the maximum possible number of elements   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_max_size&action=edit)  
+(public member function)   
 [ resize](resize.html "cpp/container/list/resize") |  changes the number of elements stored   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_resize&action=edit)  
+(public member function)   
 [ sizessize](../../iterator/size.html "cpp/iterator/size")(C++17)(C++20) |  returns the size of a container or array   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_size&action=edit)
+(function template) 

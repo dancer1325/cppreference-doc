@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::flat_map`](../flat_map.html "cpp/container/flat map")
 
@@ -143,7 +143,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/flat map/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/flat_map/navbar_content&action=edit)
+
 
 const mapped_container_type& values() const noexcept; |  |  (since C++23)  
 ---|---|---  
@@ -162,19 +162,19 @@ Return a constant reference to the adapted values container. Equivalent to retur
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/values&action=edit&section=T-1 "Template:cpp/container/values")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/values&action=edit&section=T-2 "Template:cpp/container/values")] Return value
+### Return value
 
 The underlying values container. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/values&action=edit&section=T-3 "Template:cpp/container/values")] Complexity
+### Complexity
 
 Constant. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/values&action=edit&section=T-4 "Template:cpp/container/values")] Example
+### Example
 
 Run this code
     
@@ -199,8 +199,8 @@ Output:
     
     [1.1, 2.2, 3.3]
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/values&action=edit&section=T-5 "Template:cpp/container/values")] See also
+### See also
 
 [ keys](keys.html "cpp/container/flat map/keys") |  direct access to the underlying keys container   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_keys&action=edit)  
+(public member function)   
 ---|---

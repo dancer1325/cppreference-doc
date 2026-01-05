@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Filesystem library](../../fs.html "cpp/experimental/fs")
 
@@ -99,13 +99,13 @@ File types
 [filesystem::is_socket](../is_socket.html "cpp/experimental/fs/is socket")  
 [filesystem::is_symlink](../is_symlink.html "cpp/experimental/fs/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/navbar_content&action=edit)
+
 
 [`directory_entry`](../directory_entry.html "cpp/experimental/fs/directory entry")
 
 [Template:cpp/experimental/fs/directory entry/navbar content](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/directory_entry/navbar_content&action=edit&redlink=1 "Template:cpp/experimental/fs/directory entry/navbar content \(page does not exist\)")
 
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/directory_entry/navbar_content&action=edit)
+
 
 directory_entry() = default; |  (1)  |  (filesystem TS)  
 ---|---|---  
@@ -124,12 +124,12 @@ Constructs a new `directory_entry` object.
 
 4) Initializes the directory entry with path p.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/directory_entry/directory_entry&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 | This section is incomplete   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/directory_entry/directory_entry&action=edit&section=2 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 | This section is incomplete   
 ---|---

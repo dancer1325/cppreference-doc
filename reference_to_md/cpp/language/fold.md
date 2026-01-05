@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Expressions](expressions.html "cpp/language/expressions")
 
@@ -289,7 +289,7 @@ Conversions
 [`dynamic_cast`](dynamic_cast.html "cpp/language/dynamic cast")  
 [`reinterpret_cast`](reinterpret_cast.html "cpp/language/reinterpret cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/expressions/navbar_content&action=edit)
+
 
 [ Templates](templates.html "cpp/language/templates")
 
@@ -313,7 +313,7 @@ Conversions
 [Constraints and concepts](constraints.html "cpp/language/constraints") (C++20)  
 [requires expression](requires.html "cpp/language/requires") (C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/templates/navbar_content&action=edit)
+
 
 Reduces ([folds](https://en.wikipedia.org/wiki/Fold_\(higher-order_function\) "enwiki:Fold \(higher-order function\)")) a [pack](parameter_pack.html "cpp/language/pack") over a binary operator. 
 
@@ -329,7 +329,7 @@ Reduces ([folds](https://en.wikipedia.org/wiki/Fold_\(higher-order_function\) "e
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/fold&action=edit&section=1 "Edit section: Syntax")] Syntax  
+### Syntax  
   
 ---  
 `**(**` pack op `**... )**` |  (1)  |   
@@ -352,7 +352,7 @@ init |  \-  |  an expression that does not contain an unexpanded [pack](paramete
   
 Note that the opening and closing parentheses are a required part of the fold expression. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/fold&action=edit&section=2 "Edit section: Explanation")] Explanation
+### Explanation
 
 The instantiation of a _fold expression_ expands the expression e as follows: 
 
@@ -385,7 +385,7 @@ When a unary fold is used with a pack expansion of length zero, only the followi
 
 3) The comma operator (,). The value for the empty pack is void().
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/fold&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 If the expression used as init or as pack has an operator with [precedence](operator_precedence.html "cpp/language/operator precedence") below cast at the top level, it must be parenthesized: 
     
@@ -401,7 +401,7 @@ Feature-test macro | Value | Std | Feature
 ---|---|---|---  
 [`__cpp_fold_expressions`](../experimental/feature_test.html#cpp_fold_expressions "cpp/feature test") | [`201603L`](../compiler_support/17.html#cpp_fold_expressions_201603L "cpp/compiler support/17") | (C++17) | [Fold expressions](fold.html#top)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/fold&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -483,7 +483,7 @@ Output:
     255 65535 4294967295 
     6 2 45 12 1 2 9
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/fold&action=edit&section=5 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -515,7 +515,7 @@ Output:
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/fold&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

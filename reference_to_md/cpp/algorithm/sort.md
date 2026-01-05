@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](ranges/copy.html "cpp/algorithm/ra
 [uninitialized_default_construct_n](../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -351,7 +351,7 @@ If any of the following conditions is satisfied, the behavior is undefined:
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/sort&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  the pair of iterators defining the [range](../iterator.html#Ranges "cpp/iterator") of elements to sort   
 ---|---|---  
@@ -363,7 +363,7 @@ Type requirements
 -`RandomIt` must meet the requirements of [LegacyRandomAccessIterator](../named_req/RandomAccessIterator.html "cpp/named req/RandomAccessIterator").   
 -`Compare` must meet the requirements of [Compare](../named_req/Compare.html "cpp/named req/Compare").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/sort&action=edit&section=2 "Edit section: Complexity")] Complexity
+### Complexity
 
 Given \\(\scriptsize N\\)N as last - first: 
 
@@ -371,7 +371,7 @@ Given \\(\scriptsize N\\)N as last - first:
 
 3,4) \\(\scriptsize O(N \cdot \log(N))\\)O(N·log(N)) applications of the comparator comp.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/sort&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 The overloads with a template parameter named `ExecutionPolicy` report errors as follows: 
 
@@ -380,11 +380,11 @@ The overloads with a template parameter named `ExecutionPolicy` report errors as
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/sort&action=edit&section=4 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
 
 See also the implementations in [libstdc++](https://github.com/gcc-mirror/gcc/blob/d9375e490072d1aae73a93949aa158fcd2a27018/libstdc%2B%2B-v3/include/bits/stl_algo.h#L1950) and [libc++](https://github.com/llvm/llvm-project/blob/e7fc254875ca9e82b899d5354fae9b5b779ff485/libcxx/include/__algorithm/sort.h#L264). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/sort&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 Before [LWG713](https://cplusplus.github.io/LWG/issue713), the complexity requirement allowed `sort()` to be implemented using only [Quicksort](https://en.wikipedia.org/wiki/Quicksort "enwiki:Quicksort"), which may need \\(\scriptsize O(N^2)\\)O(N2  
 ) comparisons in the worst case. 
@@ -393,7 +393,7 @@ Before [LWG713](https://cplusplus.github.io/LWG/issue713), the complexity requir
 
 libc++ has not implemented the corrected time complexity requirement [until LLVM 14](https://reviews.llvm.org/D113413). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/sort&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -445,7 +445,7 @@ Output:
     0 1 2 3 4 5 6 7 8 9 : sorted with a custom function object
     9 8 7 6 5 4 3 2 1 0 : sorted with a lambda expression
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/sort&action=edit&section=7 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -453,12 +453,12 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 713](https://cplusplus.github.io/LWG/issue713) | C++98  | the \\(\scriptsize O(N \cdot \log(N))\\)O(N·log(N)) time complexity was only required on the average  | it is required for the worst case   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/sort&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [ partial_sort](partial_sort.html "cpp/algorithm/partial sort") |  sorts the first N elements of a range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_partial_sort&action=edit)  
+(function template)   
 ---|---  
 [ stable_sort](stable_sort.html "cpp/algorithm/stable sort") |  sorts a range of elements while preserving order between equal elements   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_stable_sort&action=edit)  
+(function template)   
 [ ranges::sort](ranges/sort.html "cpp/algorithm/ranges/sort")(C++20) |  sorts a range into ascending order  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_sort&action=edit)
+(algorithm function object)

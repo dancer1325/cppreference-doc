@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](../empty.html "cpp/iterator/empty")(C++17)  
 [data](../data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 [`std::ostreambuf_iterator`](../ostreambuf_iterator.html "cpp/iterator/ostreambuf iterator")
 
@@ -206,7 +206,7 @@ Member functions
 [ostreambuf_iterator::operator++ostreambuf_iterator::operator++(int)](operator_arith.html "cpp/iterator/ostreambuf iterator/operator arith")  
 **ostreambuf_iterator::failed**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/ostreambuf_iterator/navbar_content&action=edit)
+
 
 bool failed() const throw(); |  | (until C++11)  
 ---|---|---  
@@ -215,15 +215,15 @@ bool failed() const noexcept; |  |  (since C++11)
   
 Returns true if the iterator encountered the end-of-file condition, that is, if an earlier call to [std::basic_streambuf::sputc](../../io/basic_streambuf/sputc.html "cpp/io/basic streambuf/sputc") (made by [`operator=`](operator=.html "cpp/iterator/ostreambuf iterator/operator=")) returned Traits::eof. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/ostreambuf_iterator/failed&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/ostreambuf_iterator/failed&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 true if this iterator has encountered the end-of-file condition on output, false otherwise. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/ostreambuf_iterator/failed&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

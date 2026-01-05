@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [`std::valarray`](../valarray.html "cpp/numeric/valarray")
 
@@ -155,7 +155,7 @@
   
 [Deduction guides](deduction_guides.html "cpp/numeric/valarray/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/navbar_content&action=edit)
+
 
 Defined in header `[<valarray>](../../header/valarray.html "cpp/header/valarray")` |  |   
 ---|---|---  
@@ -177,16 +177,16 @@ For each element in va computes hyperbolic cosine of the value of the element.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/cosh&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 va  |  \-  |  value array to apply the operation to   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/cosh&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Value array containing hyperbolic cosine of the values in va. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/cosh&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Unqualified function (cosh) is used to perform the computation. If such function is not available, [std::cosh](../math/cosh.html) is used due to [argument-dependent lookup](../../language/adl.html "cpp/language/adl"). 
 
@@ -202,7 +202,7 @@ The function can be implemented with the return type different from [std::valarr
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/cosh&action=edit&section=4 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     template<class T>
@@ -217,7 +217,7 @@ The function can be implemented with the return type different from [std::valarr
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/cosh&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -257,14 +257,14 @@ Output:
       cosh(x) |     1.005 |   1.02007 |   1.04534 |   1.08107 | 
             z |         1 |         1 |         1 |         1 |
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/cosh&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ sinh(std::valarray)](sinh.html "cpp/numeric/valarray/sinh") |  applies the function [std::sinh](../math/sinh.html "cpp/numeric/math/sinh") to each element of valarray   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_sinh&action=edit)  
+(function template)   
 ---|---  
 [ tanh(std::valarray)](tanh.html "cpp/numeric/valarray/tanh") |  applies the function [std::tanh](../math/tanh.html "cpp/numeric/math/tanh") to each element of valarray   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_tanh&action=edit)  
+(function template)   
 [ coshcoshfcoshl](../math/cosh.html "cpp/numeric/math/cosh")(C++11)(C++11) |  computes hyperbolic cosine (\\({\small\cosh{x}}\\)cosh(x))   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_cosh&action=edit)  
+(function)   
 [ cosh(std::complex)](../complex/cosh.html "cpp/numeric/complex/cosh") |  computes hyperbolic cosine of a complex number (\\({\small\cosh{z}}\\)cosh(z))   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_cosh&action=edit)
+(function template) 

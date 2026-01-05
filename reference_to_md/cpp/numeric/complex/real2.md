@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [`std::complex`](../complex.html "cpp/numeric/complex")
 
@@ -164,7 +164,7 @@
 [tuple_size<std::complex>](tuple_size.html "cpp/numeric/complex/tuple size")(C++26)  
 [tuple_element<std::complex>](tuple_element.html "cpp/numeric/complex/tuple element")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/navbar_content&action=edit)
+
 
 Defined in header `[<complex>](../../header/complex.html "cpp/header/complex")` |  |   
 ---|---|---  
@@ -207,14 +207,14 @@ A,B) Additional overloads are provided for all integer and floating-point types,
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/real2&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 z  |  \-  |  complex value   
 ---|---|---  
 f  |  \-  |  floating-point value   
 i  |  \-  |  integer value   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/real2&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) The real part of z.
 
@@ -222,7 +222,7 @@ A) f.
 
 B) static_cast<double>(i).
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/real2&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 The additional overloads are not required to be provided exactly as (A,B). They only need to be sufficient to ensure that for their argument num: 
 
@@ -231,11 +231,11 @@ The additional overloads are not required to be provided exactly as (A,B). They 
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/real2&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ real](real.html "cpp/numeric/complex/real") |  accesses the real part of the complex number   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_real&action=edit)  
+(public member function)   
 ---|---  
 [ imag](imag2.html "cpp/numeric/complex/imag2") |  returns the imaginary part   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_imag2&action=edit)  
+(function template)   
 [C documentation](../../../c/numeric/complex/creal.html "c/numeric/complex/creal") for creal

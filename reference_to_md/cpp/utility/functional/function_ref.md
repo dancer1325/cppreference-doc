@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Function objects](../../functional.html "cpp/utility/functional")
 
@@ -255,7 +255,7 @@ Identity function object
 [unary_negate](unary_negate.html "cpp/utility/functional/unary negate")(until C++20*)  
 [binary_negate](binary_negate.html "cpp/utility/functional/binary negate")(until C++20*)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/navbar_content&action=edit)
+
 
 **`std::function_ref`**
 
@@ -266,7 +266,7 @@ Identity function object
 [function_ref::operator()](function_ref/operator\(\).html "cpp/utility/functional/function ref/operator\(\)")  
 [Deduction guides](function_ref/deduction_guides.html "cpp/utility/functional/function ref/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/function_ref/navbar_content&action=edit)
+
 
 Defined in header `[<functional>](../../header/functional.html "cpp/header/functional")` |  |   
 ---|---|---  
@@ -301,7 +301,7 @@ Every specialization of `std::function_ref` is a [TriviallyCopyable](../../named
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/function_ref&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Member  |  Definition   
 ---|---  
@@ -310,7 +310,7 @@ Member  |  Definition
 `_FunctionPointerType_` (private) |  R(*)(`_BoundEntityType_` ﻿, Args&&...) noexcept(noex ﻿) where noex is true if noexcept is present in function signature as part of the template parameter of `std::function_ref`, false otherwise  
 (exposition-only member type*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/function_ref&action=edit&section=2 "Edit section: Data members")] Data members
+### Data members
 
 Member  |  Definition   
 ---|---  
@@ -319,40 +319,40 @@ Member  |  Definition
 `_FunctionPointerType_` `_thunk-ptr_` |  a stored pointer to function  
 (exposition-only member object*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/function_ref&action=edit&section=3 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](function_ref/function_ref.html "cpp/utility/functional/function ref/function ref") |  constructs a new `function_ref` object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/function_ref/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ operator=](function_ref/operator=.html "cpp/utility/functional/function ref/operator=") |  assigns a `function_ref`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/function_ref/dsc_operator%3D&action=edit)  
+(public member function)   
 [ operator()](function_ref/operator\(\).html "cpp/utility/functional/function ref/operator\(\)") |  invokes the stored thunk of a `function_ref`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/function_ref/dsc_operator\(\)&action=edit)  
+(public member function) &action=edit)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/function_ref&action=edit&section=4 "Edit section: Deduction guides")] [Deduction guides](function_ref/deduction_guides.html "cpp/utility/functional/function ref/deduction guides")
+### [Deduction guides](function_ref/deduction_guides.html "cpp/utility/functional/function ref/deduction guides")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/function_ref&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../feature_test.html "cpp/utility/feature test") macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_function_ref`](../../experimental/feature_test.html#cpp_lib_function_ref "cpp/feature test") | [`202306L`](../../compiler_support/26.html#cpp_lib_function_ref_202306L "cpp/compiler support/26") | (C++26) | `std::function_ref`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/function_ref&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/function_ref&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ function](function.html "cpp/utility/functional/function")(C++11) |  copyable wrapper of any copy constructible callable object   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_function&action=edit)  
+(class template)   
 ---|---  
 [ copyable_function](copyable_function.html "cpp/utility/functional/copyable function")(C++26) |  copyable wrapper of any copy constructible callable object that supports qualifiers in a given call signature   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_copyable_function&action=edit)  
+(class template)   
 [ move_only_function](move_only_function.html "cpp/utility/functional/move only function")(C++23) |  move-only wrapper of any callable object that supports qualifiers in a given call signature   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_move_only_function&action=edit)  
+(class template)   
 [ nontype  nontype_t](../nontype.html "cpp/utility/nontype")(C++26) |  value construction tag   
-(tag)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_nontype&action=edit)
+(tag)
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

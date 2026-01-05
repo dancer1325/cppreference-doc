@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::adjacent_transform_view`](../../adjacent_transform_view.html "cpp/ranges/adjacent transform view")
 
@@ -262,7 +262,7 @@ Non-member functions
 [operator==(adjacent_transform_view::_iterator_ ,adjacent_transform_view::_sentinel_)](../sentinel/operator_cmp.html "cpp/ranges/adjacent transform view/sentinel/operator cmp")  
 [operator-(adjacent_transform_view::_iterator_ ,adjacent_transform_view::_sentinel_)](../sentinel/operator-.html "cpp/ranges/adjacent transform view/sentinel/operator-")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adjacent_transform_view/navbar_content&action=edit)
+
 
 /*iterator*/() = default; |  (1)  |  (since C++23)  
 ---|---|---  
@@ -281,14 +281,14 @@ Construct an iterator.
 
 3) This iterator also has a private constructor which is used by ranges::adjacent_transform_view::begin and ranges::adjacent_transform_view::end. This constructor is not accessible to users. Initializes [`_parent__`](../iterator.html#Data_members "cpp/ranges/adjacent transform view/iterator") with [std::addressof](../../../memory/addressof.html)(parent), and move constructs [`_inner__`](../iterator.html#Data_members "cpp/ranges/adjacent transform view/iterator") with std::move(inner).
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/adjacent_transform_view/iterator/iterator&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 i  |  \-  |  an /*iterator*/<false>  
 ---|---|---  
 parent  |  \-  |  an owning object of type adjacent_transform_view  
 inner  |  \-  |  an iterator of type adjacent_transform_view::[`_inner_iterator_`](../../adjacent_transform_view.html#Member_types "cpp/ranges/adjacent transform view")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/adjacent_transform_view/iterator/iterator&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Type support](../../utility/rtti.html "cpp/types")
 
@@ -161,7 +161,7 @@ Runtime type information
 ---  
 [bad_cast](../bad_cast.html "cpp/types/bad cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/navbar_content&action=edit)
+
 
 [`std::numeric_limits`](../numeric_limits.html "cpp/types/numeric limits")
 
@@ -204,7 +204,7 @@ Helper types
 [float_round_style](float_round_style.html "cpp/types/numeric limits/float round style")  
 [float_denorm_style](float_denorm_style.html "cpp/types/numeric limits/float denorm style")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/navbar_content&action=edit)
+
 
 static T denorm_min() throw(); |  | (until C++11)  
 ---|---|---  
@@ -213,7 +213,7 @@ static constexpr T denorm_min() noexcept; |  |  (since C++11)
   
 Returns the minimum positive [subnormal value](https://en.wikipedia.org/wiki/Denormal_number "enwiki:Denormal number") of the type `T`, if [std::numeric_limits](../numeric_limits.html)<T>::has_denorm != [std::denorm_absent](float_denorm_style.html), otherwise returns [std::numeric_limits](../numeric_limits.html)<T>::min() for floating point types and T() for all other types. Only meaningful for floating-point types. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/numeric_limits/denorm_min&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 `T` |  [std::numeric_limits](../numeric_limits.html)<T>::denorm_min()  
 ---|---  
@@ -242,7 +242,7 @@ if
 [std::numeric_limits](../numeric_limits.html)<double>::is_iec559 is true)   
 long double |  [LDBL_TRUE_MIN](../climits.html "cpp/types/climits")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/numeric_limits/denorm_min&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Demonstates the underlying bit structure of the `denorm_min()` and prints the values:
 
@@ -282,12 +282,12 @@ Possible output:
     double	min()		denorm_min()
     	2.22507e-308	4.94066e-324
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/numeric_limits/denorm_min&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ min](min.html "cpp/types/numeric limits/min")[static] |  returns the smallest finite value of the given non-floating-point type, or the smallest positive normal value of the given floating-point type   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/dsc_min&action=edit)  
+(public static member function)   
 ---|---  
 [ has_denorm](has_denorm.html "cpp/types/numeric limits/has denorm")[static] |  identifies the denormalization style used by the floating-point type   
-(public static member constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/dsc_has_denorm&action=edit)  
+(public static member constant)   
 [ lowest](lowest.html "cpp/types/numeric limits/lowest")[static] (C++11) |  returns the lowest finite value of the given type, i.e. the most negative value for signed types, ​0​ for unsigned types   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/dsc_lowest&action=edit)
+(public static member function) 

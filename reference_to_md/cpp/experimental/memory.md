@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 **Library fundamentals**
 
@@ -75,7 +75,7 @@
 [Type-erased and polymorphic allocators](memory.html "cpp/experimental/memory")  
 [Variable templates for type traits](type_trait_variable_templates.html "cpp/experimental/type trait variable templates")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions/navbar_content&action=edit)
+
 
 Version 1 of the C++ Extensions for Library Fundamentals, ISO/IEC TS 19568:2015 defines the following new components for the C++ standard library: 
 
@@ -100,11 +100,11 @@ Version 1 of the C++ Extensions for Library Fundamentals, ISO/IEC TS 19568:2015 
   
 ---  
   
-## [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/lib_extensions&action=edit&section=1 "Edit section: Not selected for inclusion in C++17")] Not selected for inclusion in C++17
+## Not selected for inclusion in C++17
 
 The following components of ISO/IEC TS 19568:2015 were not selected for inclusion in C++17. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/lib_extensions&action=edit&section=2 "Edit section: Modified versions of existing classes to support type-erased allocators")] Modified versions of existing classes to support type-erased allocators
+#### Modified versions of existing classes to support type-erased allocators
 
 Defined in header `[<experimental/functional>](../header/experimental/functional.html "cpp/header/experimental/functional")`  
 ---  
@@ -116,13 +116,13 @@ Defined in header `[<experimental/future>](https://en.cppreference.com/mwiki/ind
 [ packaged_task](lib_extensions/packaged_task.html "cpp/experimental/lib extensions/packaged task") |  a modified version of [std::packaged_task](../thread/packaged_task.html "cpp/thread/packaged task") with support for type-erased allocators   
 (class template)  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/lib_extensions&action=edit&section=3 "Edit section: Memory resource adaptors")] Memory resource adaptors
+#### Memory resource adaptors
 
 [ resource_adaptor](resource_adaptor.html "cpp/experimental/resource adaptor") |  adapts an allocator into a memory_resource  
 (alias template)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/lib_extensions&action=edit&section=4 "Edit section: General utilities")] General utilities
+### General utilities
 
 Defined in header `[<experimental/utility>](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/utility&action=edit&redlink=1 "cpp/header/experimental/utility \(page does not exist\)")`  
 ---  
@@ -132,7 +132,7 @@ Defined in header `[<experimental/type_traits>](https://en.cppreference.com/mwik
 [ invocation_typeraw_invocation_type](invocation_type.html "cpp/experimental/invocation type") |  deduce the implied function type of the callable object when called with the given argument types   
 (class template)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/lib_extensions&action=edit&section=5 "Edit section: Feature test macros")] Feature test macros
+### Feature test macros
 
 Defined in header `[<experimental/optional>](../header/experimental/optional.html "cpp/header/experimental/optional")`  
 ---  
@@ -172,34 +172,34 @@ Defined in header `[<experimental/algorithm>](https://en.cppreference.com/mwiki/
 __cpp_lib_experimental_sample |  a value of 201402 indicates that the sample algorithm is supported   
 (macro constant)  
   
-## [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/lib_extensions&action=edit&section=6 "Edit section: Merged into C++17")] Merged into C++17
+## Merged into C++17
 
 The following components of ISO/IEC TS 19568:2015 were included into C++17. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/lib_extensions&action=edit&section=7 "Edit section: optional objects")] optional objects
+### optional objects
 
 Defined in header `[<experimental/optional>](../header/experimental/optional.html "cpp/header/experimental/optional")`  
 ---  
 [ optional](optional.html "cpp/experimental/optional") |  a class template representing _optional objects_   
 (class template)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/lib_extensions&action=edit&section=8 "Edit section: class any")] class `any`
+### class `any`
 
 Defined in header `[<experimental/any>](../header/experimental/any.html "cpp/header/experimental/any")`  
 ---  
 [ any](any.html "cpp/experimental/any") |  a type-safe container for single values of any type   
 (class)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/lib_extensions&action=edit&section=9 "Edit section: string view")] `string_view`
+### `string_view`
 
 Defined in header `[<experimental/string_view>](../header/experimental/string_view.html "cpp/header/experimental/string view")`  
 ---  
 [ basic_string_view](basic_string_view.html "cpp/experimental/basic string view") |  a non-owning reference to a string   
 (class template)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/lib_extensions&action=edit&section=10 "Edit section: Type-erased and polymorphic allocators")] Type-erased and polymorphic allocators
+### Type-erased and polymorphic allocators
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/lib_extensions&action=edit&section=11 "Edit section: Polymorphic allocators and memory resources")] Polymorphic allocators and memory resources
+#### Polymorphic allocators and memory resources
 
 The entities in this section are declared in the std::experimental::pmr namespace. 
 
@@ -208,23 +208,23 @@ Defined in header `[<experimental/memory_resource>](../header/experimental/memor
 [ memory_resource](memory_resource.html "cpp/experimental/memory resource") |  an abstract interface for classes that encapsulate memory resources   
 (class)  
 [ synchronized_pool_resource](synchronized_pool_resource.html "cpp/experimental/synchronized pool resource") |  a thread-safe [memory_resource](memory_resource.html "cpp/experimental/memory resource") for managing allocations in pools of different block sizes   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/pmr/dsc_synchronized_pool_resource&action=edit)  
+(class)   
 [ unsynchronized_pool_resource](unsynchronized_pool_resource.html "cpp/experimental/unsynchronized pool resource") |  a thread-unsafe [memory_resource](memory_resource.html "cpp/experimental/memory resource") for managing allocations in pools of different block sizes   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/pmr/dsc_unsynchronized_pool_resource&action=edit)  
+(class)   
 [ monotonic_buffer_resource](monotonic_buffer_resource.html "cpp/experimental/monotonic buffer resource") |  a special-purpose memory_resource that releases the allocated memory only when the resource is destroyed   
 (class)  
 [ polymorphic_allocator](polymorphic_allocator.html "cpp/experimental/polymorphic allocator") |  an allocator that supports run-time polymorphism based on the memory_resource it is constructed with   
 (class template)  
 [ new_delete_resource](new_delete_resource.html "cpp/experimental/new delete resource") |  returns a static program-wide `memory_resource` that uses the global [operator new](../memory/new/operator_new.html "cpp/memory/new/operator new") and [operator delete](../memory/new/operator_delete.html "cpp/memory/new/operator delete") to allocate and deallocate memory   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/pmr/dsc_new_delete_resource&action=edit)  
+(function)   
 [ null_memory_resource](null_memory_resource.html "cpp/experimental/null memory resource") |  returns a static `memory_resource` that performs no allocation   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/pmr/dsc_null_memory_resource&action=edit)  
+(function)   
 [ get_default_resource](get_default_resource.html "cpp/experimental/get default resource") |  gets the default `memory_resource`   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/pmr/dsc_get_default_resource&action=edit)  
+(function)   
 [ set_default_resource](set_default_resource.html "cpp/experimental/set default resource") |  sets the default `memory_resource`   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/pmr/dsc_set_default_resource&action=edit)  
+(function)   
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/lib_extensions&action=edit&section=12 "Edit section: Convenience aliases for containers using polymorphic allocators")] Convenience aliases for containers using polymorphic allocators
+#### Convenience aliases for containers using polymorphic allocators
 
 [Convenience aliases and alias templates](lib_extensions/pmr_container.html "cpp/experimental/lib extensions/pmr container") for containers using polymorphic allocators are provided in the `std::experimental::pmr` namespace for the following class templates in the standard library: 
 
@@ -248,7 +248,7 @@ List of container templates for which convenience aliases are provided
 
   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/lib_extensions&action=edit&section=13 "Edit section: Array support for shared ptr")] Array support for `shared_ptr`
+### Array support for `shared_ptr`
 
 Defined in header `[<experimental/memory>](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/memory&action=edit&redlink=1 "cpp/header/experimental/memory \(page does not exist\)")`  
 ---  
@@ -258,7 +258,7 @@ Class  |  Description
 [ weak_ptr](weak_ptr.html "cpp/experimental/weak ptr") |  a modified version of [std::weak_ptr](../memory/weak_ptr.html "cpp/memory/weak ptr") that supports arrays   
 (class template)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/lib_extensions&action=edit&section=14 "Edit section: Sampling and searching algorithms")] Sampling and searching algorithms
+### Sampling and searching algorithms
 
 Defined in header `[<experimental/algorithm>](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/algorithm&action=edit&redlink=1 "cpp/header/experimental/algorithm \(page does not exist\)")`  
 ---  
@@ -280,7 +280,7 @@ Defined in header `[<experimental/functional>](../header/experimental/functional
 [ make_boyer_moore_horspool_searcher](boyer_moore_horspool_searcher.html "cpp/experimental/boyer moore horspool searcher") |  helper function to create a boyer_moore_horspool_searcher   
 (function template)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/lib_extensions&action=edit&section=15 "Edit section: General utilities")] General utilities
+### General utilities
 
 Defined in header `[<experimental/tuple>](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/tuple&action=edit&redlink=1 "cpp/header/experimental/tuple \(page does not exist\)")`  
 ---  

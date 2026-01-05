@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::optional`](../optional.html "cpp/utility/optional")
 
@@ -167,7 +167,7 @@ Common vocabulary types
 [nullopt](nullopt.html "cpp/utility/optional/nullopt")  
 [in_place](../in_place.html "cpp/utility/in place")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/navbar_content&action=edit)
+
 
 Defined in header `[<optional>](../../header/optional.html "cpp/header/optional")` |  |   
 ---|---|---  
@@ -178,7 +178,7 @@ struct nullopt_t; |  |  (since C++17)
 
 `std::nullopt_t` is a non-aggregate [LiteralType](../../named_req/LiteralType.html "cpp/named req/LiteralType") that has no default constructor, no initializer-list constructor, but does have a `constexpr` constructor that takes an implementation-defined literal type. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/nullopt_t&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 The constraints on `nullopt_t`'s constructors exist to support both op = {}; and op = nullopt; as the syntax for disengaging an optional object. 
 
@@ -189,8 +189,8 @@ A possible implementation of this class is
         constexpr explicit nullopt_t(int) {}
     };
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/nullopt_t&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ nullopt](nullopt.html "cpp/utility/optional/nullopt")(C++17) |  an object of type `nullopt_t`   
-(constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_nullopt&action=edit)  
+(constant)   
 ---|---

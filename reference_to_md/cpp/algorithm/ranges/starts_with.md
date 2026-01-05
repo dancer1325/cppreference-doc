@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](copy.html "cpp/algorithm/ranges/co
 [uninitialized_default_construct_n](../../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 [Constrained algorithms](../ranges.html "cpp/algorithm/ranges")
 
@@ -550,7 +550,7 @@ All names in this menu belong to namespace `std::ranges`
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -601,7 +601,7 @@ The function-like entities described on this page are [_algorithm function objec
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/starts_with&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first1, last1  |  \-  |  the iterator-sentinel pair defining the [range](../../iterator.html#Ranges "cpp/iterator") of elements to examine   
 ---|---|---  
@@ -612,15 +612,15 @@ pred  |  \-  |  the binary predicate that compares the projected elements
 proj1  |  \-  |  the projection to apply to the elements of the range to examine   
 proj2  |  \-  |  the projection to apply to the elements of the range to be used as the prefix   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/starts_with&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 true if the second range matches the prefix of the first range, false otherwise. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/starts_with&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Linear: at most min(N1, N2) applications of the predicate and both projections. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/starts_with&action=edit&section=4 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     struct starts_with_fn
@@ -657,13 +657,13 @@ Linear: at most min(N1, N2) applications of the predicate and both projections.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/starts_with&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../../utility/feature_test.html "cpp/utility/feature test") macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_ranges_starts_ends_with`](../../experimental/feature_test.html#cpp_lib_ranges_starts_ends_with "cpp/feature test") | [`202106L`](../../compiler_support/23.html#cpp_lib_ranges_starts_ends_with_202106L "cpp/compiler support/23") | (C++23) | `std::ranges::starts_with`, std::ranges::ends_with  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/starts_with&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -713,16 +713,16 @@ Output:
     
     true false true false
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/starts_with&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ ranges::ends_with](ends_with.html "cpp/algorithm/ranges/ends with")(C++23) |  checks whether a range ends with another range  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_ends_with&action=edit)  
+(algorithm function object)  
 ---|---  
 [ ranges::mismatch](mismatch.html "cpp/algorithm/ranges/mismatch")(C++20) |  finds the first position where two ranges differ  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_mismatch&action=edit)  
+(algorithm function object)  
 [ starts_with](../../string/basic_string/starts_with.html "cpp/string/basic string/starts with")(C++20) |  checks if the string starts with the given prefix   
-(public member function of `std::basic_string<CharT,Traits,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_starts_with&action=edit)  
+(public member function of `std::basic_string<CharT,Traits,Allocator>`)   
 [ starts_with](../../string/basic_string_view/starts_with.html "cpp/string/basic string view/starts with")(C++20) |  checks if the string view starts with the given prefix   
-(public member function of `std::basic_string_view<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/dsc_starts_with&action=edit)
+(public member function of `std::basic_string_view<CharT,Traits>`) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

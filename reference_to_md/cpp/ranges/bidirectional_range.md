@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 Defined in header `[<ranges>](../header/ranges.html "cpp/header/ranges")` |  |   
 ---|---|---  
@@ -235,7 +235,7 @@ concept bidirectional_range =
   
 The `bidirectional_range` concept is a refinement of [`range`](range.html "cpp/ranges/range") for which ranges::begin returns a model of [`bidirectional_iterator`](../iterator/bidirectional_iterator.html "cpp/iterator/bidirectional iterator"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/bidirectional_range&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -256,10 +256,10 @@ Run this code
         );
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/bidirectional_range&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ ranges::forward_range](forward_range.html "cpp/ranges/forward range")(C++20) |  specifies a range whose iterator type satisfies [`forward_iterator`](../iterator/forward_iterator.html "cpp/iterator/forward iterator")   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_forward_range&action=edit)  
+(concept)   
 ---|---  
 [ ranges::random_access_range](random_access_range.html "cpp/ranges/random access range")(C++20) |  specifies a range whose iterator type satisfies [`random_access_iterator`](../iterator/random_access_iterator.html "cpp/iterator/random access iterator")   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_random_access_range&action=edit)
+(concept) 

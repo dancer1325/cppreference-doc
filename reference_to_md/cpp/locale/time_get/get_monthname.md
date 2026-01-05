@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Localization library](../../locale.html "cpp/locale")
 
@@ -152,7 +152,7 @@ base classes](../../locale.html#Facet_category_base_classes "cpp/locale")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/navbar_content&action=edit)
+
 
 [`std::time_get`](../time_get.html "cpp/locale/time get")
 
@@ -168,7 +168,7 @@ Member functions
 [time_get::get_yeartime_get::do_get_year](get_year.html "cpp/locale/time get/get year")  
 [time_get::gettime_get::do_get](get.html "cpp/locale/time get/get")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/time_get/navbar_content&action=edit)
+
 
 Defined in header `[<locale>](../../header/locale.html "cpp/header/locale")` |  |   
 ---|---|---  
@@ -202,7 +202,7 @@ If the end iterator is reached before a valid month name is read, the function s
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/time_get/get_monthname&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 beg  |  \-  |  iterator designating the start of the sequence to parse   
 ---|---|---  
@@ -211,17 +211,17 @@ str  |  \-  |  a stream object that this function uses to obtain locale facets w
 err  |  \-  |  stream error flags object that is modified by this function to indicate errors   
 t  |  \-  |  pointer to the [std::tm](../../chrono/c/tm.html "cpp/chrono/c/tm") object that will hold the result of this function call   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/time_get/get_monthname&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Iterator pointing one past the last character in `[`beg`, `end`)` that was recognized as a part of a valid month name. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/time_get/get_monthname&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 This function is usually case-insensitive. 
 
 If a parsing error is encountered, most implementations of this function leave *t unmodified. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/time_get/get_monthname&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -301,7 +301,7 @@ Possible output:
     Parsing the month out of 'Febrile' in the locale en_US.utf8
     Parse failed. Unparsed string: ile
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/time_get/get_monthname&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -309,8 +309,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 248](https://cplusplus.github.io/LWG/issue248) | C++98  | `eofbit` was not set upon reaching the end iterator  | sets `eofbit` if a valid month name has not been read   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/time_get/get_monthname&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ get_time](../../io/manip/get_time.html "cpp/io/manip/get time")(C++11) |  parses a date/time value of specified format   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_get_time&action=edit)  
+(function template)   
 ---|---

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Statements](statements.html "cpp/language/statements")
 
@@ -253,7 +253,7 @@ Miscellaneous
 [Transactional memory](transactional_memory.html "cpp/language/transactional memory")  
 [`synchronized`](transactional_memory.html#Synchronized_blocks "cpp/language/transactional memory"), [`atomic_commit`](transactional_memory.html#Atomic_blocks "cpp/language/transactional memory"), etc (TM TS)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/statements/navbar_content&action=edit)
+
 
 Conditionally executes a statement repeatedly, where the statement does not need to manage the loop condition. 
 
@@ -274,7 +274,7 @@ Conditionally executes a statement repeatedly, where the statement does not need
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/for&action=edit&section=1 "Edit section: Syntax")] Syntax  
+### Syntax  
   
 ---  
 attr ﻿(optional) `**for (**` init-statement condition ﻿(optional) `**;**` expression ﻿(optional) `**)**` statement |  |   
@@ -298,7 +298,7 @@ condition |  \-  |  a [condition](for.html#Condition)
 expression |  \-  |  an [expression](expressions.html "cpp/language/expressions") (typically an expression that increments the loop counter)   
 statement |  \-  |  a [statement](statements.html "cpp/language/statements") (typically a compound statement)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/condition&action=edit&section=T-1 "Template:cpp/language/condition")] Condition
+### Condition
 
 A condition can either be an [expression](expressions.html "cpp/language/expressions") or a [simple declaration](declarations.html#Simple_declaration "cpp/language/declarations"). 
 
@@ -313,15 +313,15 @@ A condition can either be an [expression](expressions.html "cpp/language/express
 
 When control reaches condition, the condition will yield a value, which is used to determine whether statement will be executed. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/condition&action=edit&section=T-2 "Template:cpp/language/condition")] Expression
+#### Expression
 
 If condition is an expression, the value it yields is the the value of the expression contextually converted to bool. If that conversion is ill-formed, the program is ill-formed. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/condition&action=edit&section=T-3 "Template:cpp/language/condition")] Declaration
+#### Declaration
 
 If condition is a simple declaration, the value it yields is the value of the decision variable (see below) contextually converted to bool. If that conversion is ill-formed, the program is ill-formed. 
 
-##### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/condition&action=edit&section=T-4 "Template:cpp/language/condition")] Non-structured binding declaration
+##### Non-structured binding declaration
 
 The declaration has the following restrictions: 
 
@@ -361,7 +361,7 @@ The declaration has the following restrictions:
 The decision variable of the declaration is the invented variable e [introduced by the declaration](structured_binding.html "cpp/language/structured binding").  | (since C++26)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/for&action=edit&section=2 "Edit section: Explanation")] Explanation
+### Explanation
 
 A for statement equivalent to:   
   
@@ -396,7 +396,7 @@ If the loop needs to be terminated within statement, a [break statement](break.h
 
 If the current iteration needs to be terminated within statement, a [continue statement](continue.html "cpp/language/continue") can be used as shortcut. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/for&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 As is the case with [`while`](while.html "cpp/language/while") loop, if statement is not a compound statement, the scope of variables declared in it is limited to the loop body as if it was a compound statement. 
     
@@ -416,11 +416,11 @@ While in C names declared in the scope of init-statement and condition can be sh
         // ...
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/for&action=edit&section=4 "Edit section: Keywords")] Keywords
+### Keywords
 
 [`for`](../keyword/for.html "cpp/keyword/for")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/for&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -509,8 +509,8 @@ Output:
     7) init-statement can use structured bindings:
     4 5 6
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/for&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
-[ range-`for` loop](range-for.html "cpp/language/range-for")(C++11) |  executes loop over range[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_range-for&action=edit)  
+[ range-`for` loop](range-for.html "cpp/language/range-for")(C++11) |  executes loop over range  
 ---|---  
 [C documentation](../../c/language/for.html "c/language/for") for for

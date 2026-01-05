@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [Common mathematical functions](../math.html "cpp/numeric/math")
 
@@ -230,7 +230,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/navbar_content&action=edit)
+
 
 Defined in header `[<cmath>](../../header/cmath.html "cpp/header/cmath")` |  |   
 ---|---|---  
@@ -279,12 +279,12 @@ A) Additional overloads are provided for all integer types, which are treated as
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/floor&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 num  |  \-  |  floating-point or integer value   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/floor&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 If no errors occur, the largest integer value not greater than num, that is ⌊num⌋, is returned. 
 
@@ -294,7 +294,7 @@ Return value
 
 num
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/floor&action=edit&section=3 "Edit section: Error handling")] Error handling
+### Error handling
 
 Errors are reported as specified in [math_errhandling](math_errhandling.html "cpp/numeric/math/math errhandling"). 
 
@@ -307,7 +307,7 @@ If the implementation supports IEEE floating-point arithmetic (IEC 60559),
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/floor&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 [FE_INEXACT](../fenv/FE_exceptions.html "cpp/numeric/fenv/FE exceptions") may be (but isn't required to be) raised when rounding a non-integer finite value. 
 
@@ -315,7 +315,7 @@ The largest representable floating-point values are exact integers in all standa
 
 The additional overloads are not required to be provided exactly as (A). They only need to be sufficient to ensure that for their argument num of integer type, std::floor(num) has the same effect as std::floor(static_cast<double>(num)). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/floor&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -340,13 +340,13 @@ Output:
     floor(-0.0) = -0.000000
     floor(-Inf) = -inf
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/floor&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ ceilceilfceill](ceil.html "cpp/numeric/math/ceil")(C++11)(C++11) |  nearest integer not less than the given value   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_ceil&action=edit)  
+(function)   
 ---|---  
 [ trunctruncftruncl](trunc.html "cpp/numeric/math/trunc")(C++11)(C++11)(C++11) |  nearest integer not greater in magnitude than the given value   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_trunc&action=edit)  
+(function)   
 [ roundroundfroundllroundlroundflroundlllroundllroundfllroundl](round.html "cpp/numeric/math/round")(C++11)(C++11)(C++11)(C++11)(C++11)(C++11)(C++11)(C++11)(C++11) |  nearest integer, rounding away from zero in halfway cases   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_round&action=edit)  
+(function)   
 [C documentation](../../../c/numeric/math/floor.html "c/numeric/math/floor") for floor

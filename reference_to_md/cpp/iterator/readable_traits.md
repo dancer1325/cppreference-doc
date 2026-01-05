@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](empty.html "cpp/iterator/empty")(C++17)  
 [data](data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 Defined in header `[<iterator>](../header/iterator.html "cpp/header/iterator")` |  |   
 ---|---|---  
@@ -253,7 +253,7 @@ Computes the associated value type of the template argument. If the associated v
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/indirectly_readable_traits&action=edit&section=1 "Edit section: Explanation")] Explanation
+### Explanation
 
 The specializations above can be informally described as below. 
 
@@ -291,17 +291,17 @@ Given a type `T`, its associated value type `V` is determined as follows:
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/indirectly_readable_traits&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 `value_type` is intended for use with [`indirectly_readable`](indirectly_readable.html "cpp/iterator/indirectly readable") types such as iterators. It is not intended for use with ranges. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/indirectly_readable_traits&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/indirectly_readable_traits&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -312,12 +312,12 @@ both `value_type` and `element_type` nested types  | added specialization (8)
 [LWG 3541](https://cplusplus.github.io/LWG/issue3541) | C++20  | LWG 3446 introduced hard error for ambiguous cases  
 that `value_type` and `element_type` are different  | added specialization (7)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/indirectly_readable_traits&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ indirectly_readable](indirectly_readable.html "cpp/iterator/indirectly readable")(C++20) |  specifies that a type is indirectly readable by applying operator `*`   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_indirectly_readable&action=edit)  
+(concept)   
 ---|---  
 [ iter_value_titer_reference_titer_const_reference_titer_difference_titer_rvalue_reference_titer_common_reference_t](iter_t.html "cpp/iterator/iter t")(C++20)(C++20)(C++23)(C++20)(C++20)(C++20) |  computes the associated types of an iterator  
-(alias template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_iter_t&action=edit)  
+(alias template)  
 [ iterator_traits](iterator_traits.html "cpp/iterator/iterator traits") |  provides uniform interface to the properties of an iterator   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_iterator_traits&action=edit)
+(class template) 

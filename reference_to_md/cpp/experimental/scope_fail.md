@@ -32,7 +32,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../experimental.html "cpp/experimental")
 
@@ -57,7 +57,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Library fundamentals v3](lib_extensions_3.html "cpp/experimental/lib extensions 3")
 
@@ -67,7 +67,7 @@
 [experimental::scope_success](scope_success.html "cpp/experimental/scope success")  
 [experimental::unique_resource](unique_resource.html "cpp/experimental/unique resource")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions_3/navbar_content&action=edit)
+
 
 **`std::experimental::scope_fail`**
 
@@ -79,7 +79,7 @@ Modifiers
 [scope_fail::release](scope_fail/release.html "cpp/experimental/scope fail/release")  
 [Deduction guides](scope_fail/deduction_guides.html "cpp/experimental/scope fail/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/scope_fail/navbar_content&action=edit)
+
 
 Defined in header `[<experimental/scope>](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/scope&action=edit&redlink=1 "cpp/header/experimental/scope \(page does not exist\)")` |  |   
 ---|---|---  
@@ -110,7 +110,7 @@ A `scope_fail` effectively holds an `EF` and a bool flag indicating if it is act
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/scope_guard&action=edit&section=T-1 "Template:cpp/experimental/scope guard")] Template parameters
+### Template parameters
 
 EF  |  \-  |  type of stored exit function   
 ---|---|---  
@@ -124,30 +124,30 @@ Type requirements
   
 -Calling an lvalue of [std::remove_reference_t](../types/remove_reference.html)<EF> with no argument shall be well-formed.   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/scope_guard&action=edit&section=T-2 "Template:cpp/experimental/scope guard")] Member functions
+### Member functions
 
 [ (constructor)](scope_fail/scope_fail.html "cpp/experimental/scope fail/scope fail") |  constructs a new `scope_fail`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/scope_guard/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ (destructor)](scope_fail/~scope_fail.html "cpp/experimental/scope fail/~scope fail") |  calls the exit function when the scope is exited via an exception if the `scope_fail` is active, then destroys the `scope_fail`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/scope_guard/dsc_destructor&action=edit)  
+(public member function)   
 operator=[deleted] |  `scope_fail` is not assignable   
 (public member function)  
   
 #####  Modifiers   
   
 [ release](scope_fail/release.html "cpp/experimental/scope fail/release") |  makes the `scope_fail` inactive   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/scope_guard/dsc_release&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/scope_guard&action=edit&section=T-3 "Template:cpp/experimental/scope guard")] [Deduction guides](scope_fail/deduction_guides.html "cpp/experimental/scope fail/deduction guides")
+### [Deduction guides](scope_fail/deduction_guides.html "cpp/experimental/scope fail/deduction guides")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/scope_guard&action=edit&section=T-4 "Template:cpp/experimental/scope guard")] Notes
+### Notes
 
 Constructing a `scope_fail` of dynamic storage duration might lead to unexpected behavior. 
 
 Constructing a `scope_fail` is constructed from another `scope_fail` created in a different thread might also lead to unexpected behavior since the count of uncaught exceptions obtained in different threads may be compared during the destruction. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/scope_guard&action=edit&section=T-5 "Template:cpp/experimental/scope guard")] Example
+### Example
 
 Run this code
     
@@ -223,12 +223,12 @@ Output:
       Throwed exception  yes
       Exit status        pending
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/scope_guard&action=edit&section=T-6 "Template:cpp/experimental/scope guard")] See also
+### See also
 
 [ scope_exit](scope_exit.html "cpp/experimental/scope exit") |  wraps a function object and invokes it on exiting the scope   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/dsc_scope_exit&action=edit)  
+(class template)   
 ---|---  
 [ scope_success](scope_success.html "cpp/experimental/scope success") |  wraps a function object and invokes it on exiting the scope normally   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/dsc_scope_success&action=edit)  
+(class template)   
 [ default_delete](../memory/default_delete.html "cpp/memory/default delete")(C++11) |  default deleter for [unique_ptr](../memory/unique_ptr.html "cpp/memory/unique ptr")   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_default_delete&action=edit)
+(class template) 

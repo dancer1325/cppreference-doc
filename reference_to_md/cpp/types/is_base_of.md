@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Metaprogramming library](../meta.html "cpp/meta")
 
@@ -167,7 +167,7 @@ Type transformations
 Compile-time integer sequences  
 [integer_sequence](../utility/integer_sequence.html "cpp/utility/integer sequence")(C++14)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/meta/navbar_content&action=edit)
+
 
 Defined in header `[<type_traits>](../header/type_traits.html "cpp/header/type traits")` |  |   
 ---|---|---  
@@ -199,14 +199,14 @@ If the program adds specializations for `std::is_base_of` or `std::is_base_of_v`
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_base_of&action=edit&section=1 "Edit section: Helper variable template")] Helper variable template
+### Helper variable template
 
 template< class Base, class Derived >  
 constexpr bool is_base_of_v = is_base_of<Base, Derived>::value; |  |  (since C++17)  
 ---|---|---  
 | |   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/integral_constant/inherit2&action=edit)
+
 
 ##  Inherited from [ std::integral_constant](integral_constant.html "cpp/types/integral constant")
 
@@ -231,13 +231,13 @@ Type  |  Definition
 `value_type` |  bool  
 `type` |  [std::integral_constant](integral_constant.html)<bool, value>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_base_of&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 std::is_base_of<A, B>::value is true even if `A` is a private, protected, or ambiguous base class of `B`. In many situations, [std::is_convertible](is_convertible.html)<B*, A*> is the more appropriate test. 
 
 Although no class is its own base, std::is_base_of<T, T>::value is true because the intent of the trait is to model the "is-a" relationship, and `T` is a `T`. Despite that, std::is_base_of<int, int>::value is false because only classes participate in the relationship that this trait models. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_base_of&action=edit&section=3 "Edit section: Possible Implementation")] Possible Implementation
+### Possible Implementation
     
     
     namespace details
@@ -264,7 +264,7 @@ Although no class is its own base, std::is_base_of<T, T>::value is true because 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_base_of&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -291,7 +291,7 @@ Run this code
      
     int main() {}
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_base_of&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -301,12 +301,12 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 `Derived` is an incomplete union type  | the base characteristic is  
 [std::false_type](integral_constant.html "cpp/types/integral constant") in this case   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_base_of&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ is_virtual_base_of](is_virtual_base_of.html "cpp/types/is virtual base of")(C++26) |  checks if a type is a virtual base of the other type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_virtual_base_of&action=edit)  
+(class template)   
 ---|---  
 [ is_convertibleis_nothrow_convertible](is_convertible.html "cpp/types/is convertible")(C++11)(C++20) |  checks if a type can be converted to the other type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_convertible&action=edit)  
+(class template)   
 [ derived_from](../concepts/derived_from.html "cpp/concepts/derived from")(C++20) |  specifies that a type is derived from another type   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_derived_from&action=edit)
+(concept) 

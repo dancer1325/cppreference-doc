@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../../container.html "cpp/container")
 
@@ -71,7 +71,7 @@ Tables
 [Member function table](../../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::mdspan`](../../mdspan.html "cpp/container/mdspan")
 
@@ -120,7 +120,7 @@ Tables
 [submdspan_mapping_result](../submdspan_mapping_result.html "cpp/container/mdspan/submdspan mapping result")(C++26)  
 [Deduction guides](../deduction_guides.html "cpp/container/mdspan/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/navbar_content&action=edit)
+
 
 **`std::layout_stride::mapping`**
 
@@ -138,7 +138,7 @@ Tables
 [operator==](mapping/operator==.html "cpp/container/mdspan/layout stride/mapping/operator==")  
 [submdspan_mapping(std::layout_stride::mapping)](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/layout_stride/mapping/submdspan_mapping&action=edit&redlink=1 "cpp/container/mdspan/layout stride/mapping/submdspan mapping \(page does not exist\)")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/layout_stride/mapping/navbar_content&action=edit)
+
 
 Defined in header `[<mdspan>](../../../header/mdspan.html "cpp/header/mdspan")` |  |   
 ---|---|---  
@@ -166,12 +166,12 @@ The program is ill-formed if the size of the multidimensional index space Extent
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/layout_stride/mapping&action=edit&section=1 "Edit section: Template parameters")] Template parameters
+### Template parameters
 
 Extents  |  \-  |  specifies number of dimensions, their sizes, and which are known at compile time. Must be a specialization of `std::extents`.   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/layout_stride/mapping&action=edit&section=2 "Edit section: Member types")] Member types
+### Member types
 
 Member type  |  Definition   
 ---|---  
@@ -181,14 +181,14 @@ Member type  |  Definition
 `rank_type` |  `extents_type::rank_type`  
 `layout_type` |  std::layout_stride  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/layout_stride/mapping&action=edit&section=3 "Edit section: Member constants")] Member constants
+### Member constants
 
 Member  |  Definition   
 ---|---  
 constexpr rank_type `_rank__` (private) [static] |  extents_type::rank()  
 (exposition-only static member constant*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/layout_stride/mapping&action=edit&section=4 "Edit section: Data members")] Data members
+### Data members
 
 Member  |  Definition   
 ---|---  
@@ -197,51 +197,51 @@ Member  |  Definition
 [std::array](../../array.html)<index_type, rank_> `_strides__` (private) |  the array of strides  
 (exposition-only member object*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/layout_stride/mapping&action=edit&section=5 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/layout_stride/mapping/mapping&action=edit&redlink=1 "cpp/container/mdspan/layout stride/mapping/mapping \(page does not exist\)") |  constructs a new mapping   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/layout_mapping/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 operator=(explicitly defaulted) |  assigns a mapping   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/layout_mapping/dsc_operator%3D&action=edit)  
+(public member function)   
   
 #####  Observers   
   
 [ extents](mapping/extents.html "cpp/container/mdspan/layout stride/mapping/extents") |  obtains the extents object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/layout_mapping/dsc_extents&action=edit)  
+(public member function)   
 [ strides](mapping/strides.html "cpp/container/mdspan/layout stride/mapping/strides") |  obtains the array of strides   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/layout_mapping/dsc_strides&action=edit)  
+(public member function)   
 [ required_span_size](mapping/required_span_size.html "cpp/container/mdspan/layout stride/mapping/required span size") |  returns the required size of the mapping   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/layout_mapping/dsc_required_span_size&action=edit)  
+(public member function)   
 [ operator()](mapping/operator\(\).html "cpp/container/mdspan/layout stride/mapping/operator\(\)") |  maps a multidimensional index into an offset value   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/layout_mapping/dsc_operator\(\)&action=edit)  
+(public member function) &action=edit)  
 [ is_unique](mapping/mapping_traits.html "cpp/container/mdspan/layout stride/mapping/mapping traits")[static] |  determines if this mapping is unique (every combination of indices maps to a different underlying element)   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/layout_mapping/dsc_is_unique&action=edit)  
+(public static member function)   
 [ is_exhaustive](mapping/mapping_traits.html "cpp/container/mdspan/layout stride/mapping/mapping traits") |  determines if this mapping is exhaustive (every underlying element can be accessed with some combination of indices)   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/layout_mapping/dsc_is_exhaustive&action=edit)  
+(public member function)   
 [ is_strided](mapping/mapping_traits.html "cpp/container/mdspan/layout stride/mapping/mapping traits")[static] |  determines if this mapping is strided (in each dimension, incrementing an index jumps over the same number of underlying elements every time)   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/layout_mapping/dsc_is_strided&action=edit)  
+(public static member function)   
 [ is_always_unique](mapping/mapping_traits.html "cpp/container/mdspan/layout stride/mapping/mapping traits")[static] |  determines if this layout mapping is always unique   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/layout_mapping/dsc_is_always_unique&action=edit)  
+(public static member function)   
 [ is_always_exhaustive](mapping/mapping_traits.html "cpp/container/mdspan/layout stride/mapping/mapping traits")[static] |  determines if this layout mapping is always exhaustive   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/layout_mapping/dsc_is_always_exhaustive&action=edit)  
+(public static member function)   
 [ is_always_strided](mapping/mapping_traits.html "cpp/container/mdspan/layout stride/mapping/mapping traits")[static] |  determines if this layout mapping is always strided   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/layout_mapping/dsc_is_always_strided&action=edit)  
+(public static member function)   
 [ stride](mapping/stride.html "cpp/container/mdspan/layout stride/mapping/stride") |  obtains the stride along the specified dimension   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/layout_mapping/dsc_stride&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/layout_stride/mapping&action=edit&section=6 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ operator==](mapping/operator==.html "cpp/container/mdspan/layout stride/mapping/operator==") |  compares this layout mapping of `layout_stride` with other mapping   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/layout_mapping/dsc_operator%3D%3D&action=edit)  
+(function template)   
 ---|---  
 [ submdspan_mapping(std::layout_stride::mapping)](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/layout_stride/mapping/submdspan_mapping&action=edit&redlink=1 "cpp/container/mdspan/layout stride/mapping/submdspan mapping \(page does not exist\)")(C++26) |  calculates the mapping and data handle offset used for `subdmspan`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/layout_mapping/dsc_submdspan_mapping&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/layout_stride/mapping&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ mapping](../layout_left/mapping.html "cpp/container/mdspan/layout left/mapping") |  a layout mapping of layout_left  
-(public member class template of `std::layout_left`)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/layout_left/dsc_mapping&action=edit)  
+(public member class template of `std::layout_left`)  
 ---|---  
 [ mapping](../layout_right/mapping.html "cpp/container/mdspan/layout right/mapping") |  a layout mapping of layout_right  
-(public member class template of `std::layout_right`)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/layout_right/dsc_mapping&action=edit)
+(public member class template of `std::layout_right`)

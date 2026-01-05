@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 Defined in header `[<compare>](../../header/compare.html "cpp/header/compare")` |  |   
 ---|---|---  
@@ -151,20 +151,20 @@ If the program adds specializations for `std::compare_three_way_result`, the beh
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/compare/compare_three_way_result&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Name  |  Definition   
 ---|---  
 `type` |  the result type of operator<=> on const-qualified lvalue of `T` and `U`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/compare/compare_three_way_result&action=edit&section=2 "Edit section: Helper types")] Helper types
+### Helper types
 
 template< class T, class U = T >  
 using compare_three_way_result_t = compare_three_way_result<T, U>::type; |  |  (since C++20)  
 ---|---|---  
 | |   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/compare/compare_three_way_result&action=edit&section=3 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     // recommended by Casey Carter
@@ -187,7 +187,7 @@ using compare_three_way_result_t = compare_three_way_result<T, U>::type; |  |  (
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/compare/compare_three_way_result&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -221,12 +221,12 @@ Output:
     strong ordering
     partial ordering
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/compare/compare_three_way_result&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ partial_ordering](partial_ordering.html "cpp/utility/compare/partial ordering")(C++20) |  the result type of 3-way comparison that supports all 6 operators, is not substitutable, and allows incomparable values   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/compare/dsc_partial_ordering&action=edit)  
+(class)   
 ---|---  
 [ weak_ordering](weak_ordering.html "cpp/utility/compare/weak ordering")(C++20) |  the result type of 3-way comparison that supports all 6 operators and is not substitutable   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/compare/dsc_weak_ordering&action=edit)  
+(class)   
 [ strong_ordering](strong_ordering.html "cpp/utility/compare/strong ordering")(C++20) |  the result type of 3-way comparison that supports all 6 operators and is substitutable   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/compare/dsc_strong_ordering&action=edit)
+(class) 

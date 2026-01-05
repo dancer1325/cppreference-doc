@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -175,7 +175,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::recursive_timed_mutex`](../recursive_timed_mutex.html "cpp/thread/recursive timed mutex")
 
@@ -192,7 +192,7 @@ Locking
 Native handle  
 [recursive_timed_mutex::native_handle](native_handle.html "cpp/thread/recursive timed mutex/native handle")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/recursive_timed_mutex/navbar_content&action=edit)
+
 
 ~recursive_timed_mutex(); |  |   
 ---|---|---  
@@ -202,7 +202,7 @@ Destroys the mutex.
 
 The behavior is undefined if the mutex is owned by any thread or if any thread terminates while holding any ownership of the mutex. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/mutex/destructor&action=edit&section=T-1 "Template:cpp/thread/mutex/destructor")] See also
+### See also
 
 [C documentation](../../../c/thread/mtx_destroy.html "c/thread/mtx destroy") for mtx_destroy  
 ---

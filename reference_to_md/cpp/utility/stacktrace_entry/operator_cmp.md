@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Diagnostics library](../../error.html "cpp/error")
 
@@ -89,7 +89,7 @@ Exception handling failures
 [breakpoint_if_debugging](../breakpoint_if_debugging.html "cpp/utility/breakpoint if debugging")(C++26)  
 [breakpoint](../breakpoint.html "cpp/utility/breakpoint")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/navbar_content&action=edit)
+
 
 [`std::stacktrace_entry`](../stacktrace_entry.html "cpp/utility/stacktrace entry")
 
@@ -113,7 +113,7 @@ operator<=>**
 [hash<std::stacktrace_entry>](hash.html "cpp/utility/stacktrace entry/hash")  
 [formatter<std::stacktrace_entry>](formatter.html "cpp/utility/stacktrace entry/formatter")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/stacktrace_entry/navbar_content&action=edit)
+
 
 friend constexpr bool operator==( const stacktrace_entry& lhs,  
 const stacktrace_entry& rhs ) noexcept; |  (1)  |  (since C++23)  
@@ -130,12 +130,12 @@ These functions are not visible to ordinary [unqualified](../../language/unquali
 
 The `<`, `<=`, `>`, `>=`, and `!=` operators are [synthesized](../../language/operators.html#Comparison_operators "cpp/language/operators") from operator<=> and operator== respectively. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/stacktrace_entry/operator_cmp&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 lhs, rhs  |  \-  |  `stacktrace_entry` values to compare   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/stacktrace_entry/operator_cmp&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) true if two lhs and rhs compare equal, false otherwise.
 
@@ -145,7 +145,7 @@ Otherwise, std::strong_ordering::less if lhs is ordered before rhs in the strict
 
 Otherwise, std::strong_ordering::greater (in which case rhs is ordered before lhs in the strict total order).
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/stacktrace_entry/operator_cmp&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

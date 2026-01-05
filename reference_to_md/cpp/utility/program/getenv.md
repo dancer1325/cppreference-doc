@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Program support utilities](../program.html "cpp/utility/program")
 
@@ -181,7 +181,7 @@ Common vocabulary types
 [Types](../program.html#Types "cpp/utility/program")  
 [jmp_buf](jmp_buf.html "cpp/utility/program/jmp buf")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/program/navbar_content&action=edit)
+
 
 Defined in header `[<cstdlib>](../../header/cstdlib.html "cpp/header/cstdlib")` |  |   
 ---|---|---  
@@ -207,20 +207,20 @@ Modifying the string returned by `getenv` invokes undefined behavior.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/program/getenv&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 env_var  |  \-  |  null-terminated character string identifying the name of the environmental variable to look for   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/program/getenv&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Character string identifying the value of the environmental variable or null pointer if such variable is not found. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/program/getenv&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 On POSIX systems, the [environment variables](https://pubs.opengroup.org/onlinepubs/9699919799/basedefs/V1_chap08.html#tag_08) are also accessible through the global variable `environ`, declared as extern char** environ; in [`<unistd.h>`](https://en.cppreference.com/mwiki/index.php?title=c/header/unistd&action=edit&redlink=1 "c/header/unistd \(page does not exist\)"), and through the optional third argument, `envp`, of [the main function](../../language/main_function.html "cpp/language/main function"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/program/getenv&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -239,7 +239,7 @@ Possible output:
     
     Your PATH is: /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/program/getenv&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [C documentation](../../../c/program/getenv.html "c/program/getenv") for getenv  
 ---

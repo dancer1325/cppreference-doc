@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::any`](../any.html "cpp/utility/any")
 
@@ -151,7 +151,7 @@ Common vocabulary types
 [Helper classes](../any.html#Helper_classes "cpp/utility/any")  
 [bad_any_cast](bad_any_cast.html "cpp/utility/any/bad any cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/any/navbar_content&action=edit)
+
 
 ~any(); |  |  (since C++17)  
 ---|---|---  
@@ -159,7 +159,7 @@ Common vocabulary types
   
 Destroys the contained object, if any, as if by a call to [`reset()`](reset.html "cpp/utility/any/reset"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/any/%7Eany&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -189,8 +189,8 @@ Output:
     Leaving main()...
     X::~X()
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/any/%7Eany&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ reset](reset.html "cpp/utility/any/reset") |  destroys contained object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/any/dsc_clear&action=edit)  
+(public member function)   
 ---|---

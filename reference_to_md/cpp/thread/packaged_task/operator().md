@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::packaged_task`](../packaged_task.html "cpp/thread/packaged task")
 
@@ -196,7 +196,7 @@ Helper classes
 [uses_allocator<std::packaged_task>](uses_allocator.html "cpp/thread/packaged task/uses allocator")(until C++17)  
 [Deduction guides](deduction_guides.html "cpp/thread/packaged task/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/packaged_task/navbar_content&action=edit)
+
 
 void operator()( ArgTypes... args ); |  |  (since C++11)  
 ---|---|---  
@@ -216,16 +216,16 @@ Calls the stored task as if by [`_INVOKE <R>_`](../../functional.html "cpp/utili
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/packaged_task/operator\(\)&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 args  |  \-  |  the parameters to pass on invocation of the stored task   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/packaged_task/operator\(\)&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/packaged_task/operator\(\)&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 [std::future_error](../future_error.html "cpp/thread/future error") on the following error conditions: 
 
@@ -234,13 +234,13 @@ args  |  \-  |  the parameters to pass on invocation of the stored task
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/packaged_task/operator\(\)&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/packaged_task/operator\(\)&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -252,8 +252,8 @@ a call to any member function of a [std::future](../future.html "cpp/thread/futu
 guarantees other than what is  
 already provided by shared state   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/packaged_task/operator\(\)&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ make_ready_at_thread_exit](make_ready_at_thread_exit.html "cpp/thread/packaged task/make ready at thread exit") |  executes the function ensuring that the result is ready only once the current thread exits   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/packaged_task/dsc_make_ready_at_thread_exit&action=edit)  
+(public member function)   
 ---|---

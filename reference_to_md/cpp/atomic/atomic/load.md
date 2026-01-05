@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::atomic`](../atomic.html "cpp/atomic/atomic")
 
@@ -210,7 +210,7 @@ pointer types only](../atomic.html#Specialized_for_integral_and_pointer_types_on
 [atomic::fetch_xor](fetch_xor.html "cpp/atomic/atomic/fetch xor")  
 [atomic::operator&=atomic::operator|=atomic::operator^=](operator_arith3.html "cpp/atomic/atomic/operator arith3")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/navbar_content&action=edit)
+
 
 T load( [std::memory_order](../memory_order.html) order  
 = [std::memory_order_seq_cst](../memory_order.html) ) const noexcept; |  (1)  |  (since C++11)  
@@ -226,19 +226,19 @@ If order is one of [std::memory_order_release](../memory_order.html) and [std::m
 It is deprecated if [std::atomic](../atomic.html)<T>::is_always_lock_free is false and overload (2) participates in overload resolution.  | (since C++20)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic/load&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 order  |  \-  |  memory order constraints to enforce   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic/load&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The current value of the atomic variable. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic/load&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ operator T](operator_T.html "cpp/atomic/atomic/operator T") |  loads a value from an atomic object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_operator_T&action=edit)  
+(public member function)   
 ---|---  
 [ atomic_loadatomic_load_explicit](../atomic_load.html "cpp/atomic/atomic load")(C++11)(C++11) |  atomically obtains the value stored in an atomic object   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/dsc_atomic_load&action=edit)
+(function template) 

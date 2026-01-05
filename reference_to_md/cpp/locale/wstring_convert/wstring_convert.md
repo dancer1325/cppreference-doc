@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Localization library](../../locale.html "cpp/locale")
 
@@ -152,7 +152,7 @@ base classes](../../locale.html#Facet_category_base_classes "cpp/locale")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/navbar_content&action=edit)
+
 
 [`std::wstring_convert`](../wstring_convert.html "cpp/locale/wstring convert")
 
@@ -165,7 +165,7 @@ Member functions
 [wstring_convert::converted](converted.html "cpp/locale/wstring convert/converted")  
 [wstring_convert::state](state.html "cpp/locale/wstring convert/state")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/wstring_convert/navbar_content&action=edit)
+
 
 wstring_convert() : wstring_convert( new Codecvt ) {} |  (1)  |   
 ---|---|---  
@@ -187,7 +187,7 @@ Overload  | [Data members](../wstring_convert.html#Data_members "cpp/locale/wstr
 
 5) The copy constructor is deleted, `wstring_convert` is not [CopyConstructible](../../named_req/CopyConstructible.html "cpp/named req/CopyConstructible").
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/wstring_convert/wstring_convert&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 pcvt  |  \-  |  pointer to the conversion facet   
 ---|---|---  
@@ -195,7 +195,7 @@ state  |  \-  |  initial value of the conversion shift state
 byte_err  |  \-  |  narrow string to display on errors   
 wide_err  |  \-  |  wide string to display on errors   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/wstring_convert/wstring_convert&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -226,7 +226,7 @@ Run this code
         [std::wstring_convert](../wstring_convert.html)<F> gbtowide(new F("zh_CN.gb18030"));
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/wstring_convert/wstring_convert&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

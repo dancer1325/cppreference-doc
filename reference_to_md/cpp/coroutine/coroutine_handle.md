@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Coroutine support](../coroutine.html "cpp/coroutine")
 
@@ -146,7 +146,7 @@ Trivial awaitables
 Range generators  
 [generator](generator.html "cpp/coroutine/generator")(C++23)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/coroutine/navbar_content&action=edit)
+
 
 **`std::coroutine_handle`**
 
@@ -173,7 +173,7 @@ Non-member functions
 Helper classes  
 [hash<std::coroutine_handle>](coroutine_handle/hash.html "cpp/coroutine/coroutine handle/hash")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/coroutine/coroutine_handle/navbar_content&action=edit)
+
 
 Defined in header `[<coroutine>](../header/coroutine.html "cpp/header/coroutine")` |  |   
 ---|---|---  
@@ -218,71 +218,71 @@ If the program adds specializations for `std::coroutine_handle`, the behavior is
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/coroutine/coroutine_handle&action=edit&section=1 "Edit section: Data members")] Data members
+### Data members
 
 Member name  |  Definition   
 ---|---  
 `_ptr_` (private) |  A pointer void* to the coroutine state.  
 (exposition-only member object*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/coroutine/coroutine_handle&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](coroutine_handle/coroutine_handle.html "cpp/coroutine/coroutine handle/coroutine handle") |  constructs a `coroutine_handle` object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/coroutine/coroutine_handle/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ operator=](coroutine_handle/operator=.html "cpp/coroutine/coroutine handle/operator=") |  assigns the `coroutine_handle` object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/coroutine/coroutine_handle/dsc_operator%3D&action=edit)  
+(public member function)   
   
 #####  Conversion   
   
 [ operator coroutine_handle<>](coroutine_handle/operator_coroutine_handle_void.html "cpp/coroutine/coroutine handle/operator coroutine handle void") |  obtains a type-erased `coroutine_handle`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/coroutine/coroutine_handle/dsc_operator_coroutine_handle_void&action=edit)  
+(public member function)   
   
 #####  Observers   
   
 [ done](coroutine_handle/done.html "cpp/coroutine/coroutine handle/done") |  checks if the coroutine has completed   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/coroutine/coroutine_handle/dsc_done&action=edit)  
+(public member function)   
 [ operator bool](coroutine_handle/operator_bool.html "cpp/coroutine/coroutine handle/operator bool") |  checks if the handle represents a coroutine   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/coroutine/coroutine_handle/dsc_operator_bool&action=edit)  
+(public member function)   
   
 #####  Control   
   
 [ operator()resume](coroutine_handle/resume.html "cpp/coroutine/coroutine handle/resume") |  resumes execution of the coroutine   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/coroutine/coroutine_handle/dsc_resume&action=edit)  
+(public member function)   
 [ destroy](coroutine_handle/destroy.html "cpp/coroutine/coroutine handle/destroy") |  destroys a coroutine   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/coroutine/coroutine_handle/dsc_destroy&action=edit)  
+(public member function)   
   
 #####  Promise Access   
   
 [ promise](coroutine_handle/promise.html "cpp/coroutine/coroutine handle/promise") |  access the promise of a coroutine   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/coroutine/coroutine_handle/dsc_promise&action=edit)  
+(public member function)   
 [ from_promise](coroutine_handle/from_promise.html "cpp/coroutine/coroutine handle/from promise")[static] |  creates a `coroutine_handle` from the promise object of a coroutine   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/coroutine/coroutine_handle/dsc_from_promise&action=edit)  
+(public static member function)   
   
 #####  Export/Import   
   
 [ address](coroutine_handle/address.html "cpp/coroutine/coroutine handle/address") |  exports the underlying address, i.e. the pointer backing the coroutine   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/coroutine/coroutine_handle/dsc_address&action=edit)  
+(public member function)   
 [ from_address](coroutine_handle/from_address.html "cpp/coroutine/coroutine handle/from address")[static] |  imports a coroutine from a pointer   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/coroutine/coroutine_handle/dsc_from_address&action=edit)  
+(public static member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/coroutine/coroutine_handle&action=edit&section=3 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ operator==operator<=>](coroutine_handle/operator_cmp.html "cpp/coroutine/coroutine handle/operator cmp")(C++20) |  compares two `coroutine_handle` objects   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/coroutine/coroutine_handle/dsc_operator_cmp&action=edit)  
+(function)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/coroutine/coroutine_handle&action=edit&section=4 "Edit section: Helper classes")] Helper classes
+### Helper classes
 
 [ std::hash<std::coroutine_handle>](coroutine_handle/hash.html "cpp/coroutine/coroutine handle/hash")(C++20) |  hash support for **`std::coroutine_handle`**   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/coroutine/coroutine_handle/dsc_hash&action=edit)  
+(class template specialization)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/coroutine/coroutine_handle&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 A `coroutine_handle` may be dangling, in which case the `coroutine_handle` must be used carefully in order to avoid undefined behavior. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/coroutine/coroutine_handle&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -412,7 +412,7 @@ Output:
     
     A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/coroutine/coroutine_handle&action=edit&section=7 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -420,8 +420,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 3460](https://cplusplus.github.io/LWG/issue3460) | C++20  | the public base class of `coroutine_handle` could leave it in an undesired state  | inheritance removed   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/coroutine/coroutine_handle&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [ generator](generator.html "cpp/coroutine/generator")(C++23) |  A [`view`](../ranges/view.html "cpp/ranges/view") that represents synchronous [coroutine](../language/coroutines.html "cpp/language/coroutines") generator   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_generator&action=edit)  
+(class template)   
 ---|---

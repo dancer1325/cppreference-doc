@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::shared_lock`](../shared_lock.html "cpp/thread/shared lock")
 
@@ -198,7 +198,7 @@ Observers
 Non-member functions  
 [swap(std::shared_lock)](swap2.html "cpp/thread/shared lock/swap2")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/shared_lock/navbar_content&action=edit)
+
 
 template< class Rep, class Period >  
 bool try_lock_for( const [std::chrono::duration](../../chrono/duration.html)<Rep,Period>& timeout_duration ); |  |  (since C++14)  
@@ -226,16 +226,16 @@ The behavior is undefined if `Mutex` does not meet the [SharedTimedLockable](../
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/shared_lock/try_lock_for&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 timeout_duration  |  \-  |  maximum duration to block for   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/shared_lock/try_lock_for&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 true if the ownership of the mutex has been acquired successfully, false otherwise. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/shared_lock/try_lock_for&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
   * Any exceptions thrown by mutex()->try_lock_shared_for(timeout_duration). 
 
@@ -247,22 +247,22 @@ true if the ownership of the mutex has been acquired successfully, false otherwi
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/shared_lock/try_lock_for&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/shared_lock/try_lock_for&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ try_lock_for](../unique_lock/try_lock_for.html "cpp/thread/unique lock/try lock for") |  attempts to lock (i.e., takes ownership of) the associated [TimedLockable](../../named_req/TimedLockable.html "cpp/named req/TimedLockable") mutex, returns if the mutex has been unavailable for the specified time duration   
-(public member function of `std::unique_lock<Mutex>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/unique_lock/dsc_try_lock_for&action=edit)  
+(public member function of `std::unique_lock<Mutex>`)   
 ---|---  
 [ lock](lock.html "cpp/thread/shared lock/lock") |  locks the associated mutex   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/shared_lock/dsc_lock&action=edit)  
+(public member function)   
 [ try_lock](try_lock.html "cpp/thread/shared lock/try lock") |  tries to lock the associated mutex   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/shared_lock/dsc_try_lock&action=edit)  
+(public member function)   
 [ try_lock_until](try_lock_until.html "cpp/thread/shared lock/try lock until") |  tries to lock the associated mutex, until a specified time point   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/shared_lock/dsc_try_lock_until&action=edit)  
+(public member function)   
 [ unlock](unlock.html "cpp/thread/shared lock/unlock") |  unlocks the associated mutex   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/shared_lock/dsc_unlock&action=edit)
+(public member function) 

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::tzdb_list`](../tzdb_list.html "cpp/chrono/tzdb list")
 
@@ -112,7 +112,7 @@ Member functions
 [tzdb_list::begintzdb_list::cbegin](begin.html "cpp/chrono/tzdb list/begin")  
 **tzdb_list::end tzdb_list::cend**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/tzdb_list/navbar_content&action=edit)
+
 
 const_iterator end() const noexcept; |  |  (since C++20)  
 ---|---|---  
@@ -121,6 +121,6 @@ const_iterator cend() const noexcept; |  |  (since C++20)
   
 Returns the past-the-end iterator of the `tzdb_list`. Attempting to dereference this iterator results in undefined behavior. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/tzdb_list/end&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 The past-the-end iterator. 

@@ -32,7 +32,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../../numeric.html "cpp/numeric")
 
@@ -89,7 +89,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [Pseudo-random number generation](../../random.html "cpp/numeric/random")
 
@@ -163,7 +163,7 @@
 [piecewise_constant_distribution](../piecewise_constant_distribution.html "cpp/numeric/random/piecewise constant distribution")(C++11)  
 [piecewise_linear_distribution](../piecewise_linear_distribution.html "cpp/numeric/random/piecewise linear distribution")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/navbar_content&action=edit)
+
 
 [`std::discard_block_engine`](../discard_block_engine.html "cpp/numeric/random/discard block engine")
 
@@ -182,7 +182,7 @@ Non-member functions
 [operator==operator!=](operator_cmp.html "cpp/numeric/random/discard block engine/operator cmp")(C++11)(C++11)(until C++20)  
 [operator<<operator>>](operator_ltltgtgt.html "cpp/numeric/random/discard block engine/operator ltltgtgt")(C++11)(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/discard_block_engine/navbar_content&action=edit)
+
 
 void discard( unsigned long long z ); |  |  (since C++11)  
 ---|---|---  
@@ -200,21 +200,21 @@ Advances the internal state by z times. Equivalent to calling [operator()](opera
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/adaptor/discard&action=edit&section=T-1 "Template:cpp/numeric/random/adaptor/discard")] Parameters
+### Parameters
 
 z  |  \-  |  integer value specifying the number of times to advance the state by   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/adaptor/discard&action=edit&section=T-2 "Template:cpp/numeric/random/adaptor/discard")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/adaptor/discard&action=edit&section=T-3 "Template:cpp/numeric/random/adaptor/discard")] Exceptions
+### Exceptions
 
 Throws nothing. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/adaptor/discard&action=edit&section=T-4 "Template:cpp/numeric/random/adaptor/discard")] See also
+### See also
 
 [ operator()](operator\(\).html "cpp/numeric/random/discard block engine/operator\(\)")(C++11) |  advances the state of the underlying engine and returns the generated value   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/adaptor/dsc_operator\(\)&action=edit)  
+(public member function) &action=edit)  
 ---|---

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Localization library](../locale.html "cpp/locale")
 
@@ -152,7 +152,7 @@ base classes](../locale.html#Facet_category_base_classes "cpp/locale")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/navbar_content&action=edit)
+
 
 **`std::wstring_convert`**
 
@@ -165,7 +165,7 @@ Member functions
 [wstring_convert::converted](wstring_convert/converted.html "cpp/locale/wstring convert/converted")  
 [wstring_convert::state](wstring_convert/state.html "cpp/locale/wstring convert/state")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/wstring_convert/navbar_content&action=edit)
+
 
 Defined in header `[<locale>](../header/locale.html "cpp/header/locale")` |  |   
 ---|---|---  
@@ -193,7 +193,7 @@ The standard facets suitable for use with `std::wstring_convert` are [std::codec
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/wstring_convert&action=edit&section=1 "Edit section: Nested types")] Nested types
+### Nested types
 
 Type  |  Definition   
 ---|---  
@@ -202,7 +202,7 @@ Type  |  Definition
 `state_type` |  typename Codecvt::state_type  
 `int_type` |  typename wide_string::traits_type::int_type  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/wstring_convert&action=edit&section=2 "Edit section: Data members")] Data members
+### Data members
 
 Member  |  Description   
 ---|---  
@@ -217,25 +217,25 @@ Codecvt* `_cvtptr_` |  a pointer to the allocated conversion object
 [std::size_t](../types/size_t.html) `_cvtcount_` |  the conversion count  
 (exposition-only member object*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/wstring_convert&action=edit&section=3 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](wstring_convert/wstring_convert.html "cpp/locale/wstring convert/wstring convert") |  constructs a new `wstring_convert`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/wstring_convert/dsc_wstring_convert&action=edit)  
+(public member function)   
 ---|---  
 operator= |  the copy assignment operator is deleted   
 (public member function)  
 [ (destructor)](wstring_convert/~wstring_convert.html "cpp/locale/wstring convert/~wstring convert") |  destructs the `wstring_convert` and its conversion facet   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/wstring_convert/dsc_%7Ewstring_convert&action=edit)  
+(public member function)   
 [ from_bytes](wstring_convert/from_bytes.html "cpp/locale/wstring convert/from bytes") |  converts a byte string into a wide string   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/wstring_convert/dsc_from_bytes&action=edit)  
+(public member function)   
 [ to_bytes](wstring_convert/to_bytes.html "cpp/locale/wstring convert/to bytes") |  converts a wide string into a byte string   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/wstring_convert/dsc_to_bytes&action=edit)  
+(public member function)   
 [ converted](wstring_convert/converted.html "cpp/locale/wstring convert/converted") |  returns the number of characters successfully converted   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/wstring_convert/dsc_converted&action=edit)  
+(public member function)   
 [ state](wstring_convert/state.html "cpp/locale/wstring convert/state") |  returns the current conversion state   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/wstring_convert/dsc_state&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/wstring_convert&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 Character  
 conversions  | locale-defined multibyte  
@@ -255,9 +255,9 @@ UCS-2 (Windows) |  [`mbsrtowcs`](../string/multibyte/mbsrtowcs.html "cpp/string/
 [`use_facet`](use_facet.html "cpp/locale/use facet")<[`codecvt`](codecvt.html "cpp/locale/codecvt")  
 <wchar_t,char,mbstate_t>>([`locale`](locale.html "cpp/locale/locale"))  | [`codecvt_utf8`](codecvt_utf8.html "cpp/locale/codecvt utf8")<wchar_t> | [`codecvt_utf16`](codecvt_utf16.html "cpp/locale/codecvt utf16")<wchar_t>  
 [ wbuffer_convert](wbuffer_convert.html "cpp/locale/wbuffer convert")(C++11)(deprecated in C++17)(removed in C++26) |  performs conversion between a byte stream buffer and a wide stream buffer   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_wbuffer_convert&action=edit)  
+(class template)   
 ---|---  
 [ codecvt_utf8](codecvt_utf8.html "cpp/locale/codecvt utf8")(C++11)(deprecated in C++17)(removed in C++26) |  converts between UTF-8 and UCS-2/UCS-4   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_codecvt_utf8&action=edit)  
+(class template)   
 [ codecvt_utf8_utf16](codecvt_utf8_utf16.html "cpp/locale/codecvt utf8 utf16")(C++11)(deprecated in C++17)(removed in C++26) |  converts between UTF-8 and UTF-16   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_codecvt_utf8_utf16&action=edit)
+(class template) 

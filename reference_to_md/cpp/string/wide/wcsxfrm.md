@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Null-terminated wide strings](../wide.html "cpp/string/wide")
 
@@ -153,7 +153,7 @@
 WCHAR_MAX  
 WEOF](../wide.html#Macros "cpp/string/wide")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/navbar_content&action=edit)
+
 
 Defined in header `[<cwchar>](../../header/cwchar.html "cpp/header/cwchar")` |  |   
 ---|---|---  
@@ -177,24 +177,24 @@ If count is ​0​, then dest is allowed to be a null pointer.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/wcsxfrm&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 The correct length of the buffer that can receive the entire transformed string is 1 + std::wcsxfrm(nullptr, src, 0). 
 
 This function is used when making multiple locale-dependent comparisons using the same wide string or set of wide strings, because it is more efficient to use `std::wcsxfrm` to transform all the strings just once, and subsequently compare the transformed wide strings with [std::wcscmp](wcscmp.html "cpp/string/wide/wcscmp"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/wcsxfrm&action=edit&section=2 "Edit section: Parameters")] Parameters
+### Parameters
 
 dest  |  \-  |  pointer to the first element of a wide null-terminated string to write the transformed string to   
 ---|---|---  
 src  |  \-  |  pointer to the null-terminated wide character string to transform   
 count  |  \-  |  maximum number of characters to output   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/wcsxfrm&action=edit&section=3 "Edit section: Return value")] Return value
+### Return value
 
 The length of the transformed wide string, not including the terminating null-character. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/wcsxfrm&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -234,13 +234,13 @@ Output:
     In the Swedish locale: år before ängel
     In lexicographical comparison: ängel before år
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/wcsxfrm&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ strxfrm](../byte/strxfrm.html "cpp/string/byte/strxfrm") |  transform a string so that `strcmp` would produce the same result as `strcoll`   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strxfrm&action=edit)  
+(function)   
 ---|---  
 [ do_transform](../../locale/collate/transform.html "cpp/locale/collate/transform")[virtual] |  transforms a string so that collation can be replaced by comparison   
-(virtual protected member function of `std::collate<CharT>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/collate/dsc_do_transform&action=edit)  
+(virtual protected member function of `std::collate<CharT>`)   
 [ wcscoll](wcscoll.html "cpp/string/wide/wcscoll") |  compares two wide strings in accordance to the current locale   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wcscoll&action=edit)  
+(function)   
 [C documentation](../../../c/string/wide/wcsxfrm.html "c/string/wide/wcsxfrm") for wcsxfrm

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](ranges/copy.html "cpp/algorithm/ra
 [uninitialized_default_construct_n](../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -322,7 +322,7 @@ The behavior is undefined if d_last is within `(`first`, `last`]`. [std::copy](c
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/copy_backward&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  the pair of iterators defining the source [range](../iterator.html#Ranges "cpp/iterator") of elements to copy from   
 ---|---|---  
@@ -330,19 +330,19 @@ d_last  |  \-  |  the end of the destination range
 Type requirements   
 -`BidirIt` must meet the requirements of [LegacyBidirectionalIterator](../named_req/BidirectionalIterator.html "cpp/named req/BidirectionalIterator").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/copy_backward&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Iterator to the last element copied. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/copy_backward&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Exactly [std::distance](../iterator/distance.html)(first, last) assignments. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/copy_backward&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 When copying overlapping ranges, [std::copy](copy.html "cpp/algorithm/copy") is appropriate when copying to the left (beginning of the destination range is outside the source range) while `std::copy_backward` is appropriate when copying to the right (end of the destination range is outside the source range). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/copy_backward&action=edit&section=5 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     template<class BidirIt1, class BidirIt2>
@@ -355,7 +355,7 @@ When copying overlapping ranges, [std::copy](copy.html "cpp/algorithm/copy") is 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/copy_backward&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -385,7 +385,7 @@ Output:
     
     destination contains: 0 0 1 2 3 4
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/copy_backward&action=edit&section=7 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -395,10 +395,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 2\. the behavior was undefined if d_last == first | 1\. made undefined  
 2\. made well-defined   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/copy_backward&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [ copycopy_if](copy.html "cpp/algorithm/copy")(C++11) |  copies a range of elements to a new location   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_copy&action=edit)  
+(function template)   
 ---|---  
 [ ranges::copy_backward](ranges/copy_backward.html "cpp/algorithm/ranges/copy backward")(C++20) |  copies a range of elements in backwards order  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_copy_backward&action=edit)
+(algorithm function object)

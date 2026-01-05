@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::vector`](../vector.html "cpp/container/vector")
 
@@ -135,7 +135,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/vector/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/vector/navbar_content&action=edit)
+
 
 template< class... Args >  
 iterator emplace( const_iterator pos, Args&&... args ); |  | (since C++11)   
@@ -164,7 +164,7 @@ If after the operation the new [`size()`](size.html "cpp/container/vector/size")
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/emplace&action=edit&section=T-1 "Template:cpp/container/emplace")] Parameters
+### Parameters
 
 pos  |  \-  |  iterator before which the new element will be constructed   
 ---|---|---  
@@ -180,15 +180,15 @@ Type requirements
 
   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/emplace&action=edit&section=T-2 "Template:cpp/container/emplace")] Return value
+### Return value
 
 Iterator pointing to the emplaced element. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/emplace&action=edit&section=T-3 "Template:cpp/container/emplace")] Complexity
+### Complexity
 
 Linear in the distance between pos and [end()](end.html "cpp/container/vector/end"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/emplace&action=edit&section=T-4 "Template:cpp/container/emplace")] Exceptions
+### Exceptions
 
 If an exception is thrown other than by the copy constructor, move constructor, assignment operator, or move assignment operator of `T`, or if an exception is thrown while `emplace` is used to insert a single element at the end and `T` is either [CopyInsertable](../../named_req/CopyInsertable.html "cpp/named req/CopyInsertable") or nothrow move constructible, there are no effects (strong exception guarantee). 
 
@@ -267,7 +267,7 @@ Output:
     content:
      one two three
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/emplace&action=edit&section=T-6 "Template:cpp/container/emplace")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -275,10 +275,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 2164](https://cplusplus.github.io/LWG/issue2164) | C++11  | it was unclear whether the arguments can refer to the container  | made clear   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/emplace&action=edit&section=T-7 "Template:cpp/container/emplace")] See also
+### See also
 
 [ insert](insert.html "cpp/container/vector/insert") |  inserts elements   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_insert&action=edit)  
+(public member function)   
 ---|---  
 [ emplace_back](emplace_back.html "cpp/container/vector/emplace back")(C++11) |  constructs an element in-place at the end   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_emplace_back&action=edit)
+(public member function) 

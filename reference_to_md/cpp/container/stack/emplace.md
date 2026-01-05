@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 `[std::stack](../stack.html "cpp/container/stack")`
 
@@ -101,7 +101,7 @@ Tables
 [formatter<std::stack>](formatter.html "cpp/container/stack/formatter")(C++23)  
 [Deduction guides](deduction_guides.html "cpp/container/stack/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/stack/navbar_content&action=edit)
+
 
 template< class... Args >  
 void emplace( Args&&... args ); |  | (since C++11)   
@@ -127,22 +127,22 @@ Effectively calls c.emplace_back([std::forward](../../utility/forward.html)<Args
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/emplace_ad&action=edit&section=T-1 "Template:cpp/container/emplace ad")] Parameters
+### Parameters
 
 args  |  \-  |  arguments to forward to the constructor of the element   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/emplace_ad&action=edit&section=T-2 "Template:cpp/container/emplace ad")] Return value
+### Return value
 
 (none)  | (until C++17)  
 ---|---  
 The value or reference, if any, returned by the above call to Container::emplace_back.  | (since C++17)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/emplace_ad&action=edit&section=T-3 "Template:cpp/container/emplace ad")] Complexity
+### Complexity
 
 Identical to the complexity of Container::emplace_back. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/emplace_ad&action=edit&section=T-4 "Template:cpp/container/emplace ad")] Example
+### Example
 
 Run this code
     
@@ -181,10 +181,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 2783](https://cplusplus.github.io/LWG/issue2783) | C++17  | `emplace` returned `reference`, breaking compatibility with pre-C++17 containers  | returns `decltype(auto)`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/emplace_ad&action=edit&section=T-6 "Template:cpp/container/emplace ad")] See also
+### See also
 
 [ push](push.html "cpp/container/stack/push") |  inserts element at the top   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_push&action=edit)  
+(public member function)   
 ---|---  
 [ pop](pop.html "cpp/container/stack/pop") |  removes the top element   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_pop&action=edit)
+(public member function) 

@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -79,7 +79,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_istringstream`](../basic_istringstream.html "cpp/io/basic istringstream")
 
@@ -95,7 +95,7 @@ String operations
 Non-member functions  
 [swap(std::basic_istringstream)](swap2.html "cpp/io/basic istringstream/swap2")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_istringstream/navbar_content&action=edit)
+
 
 [std::basic_stringbuf](../basic_stringbuf.html)<CharT, Traits, Allocator>* rdbuf() const; |  |   
 ---|---|---  
@@ -103,15 +103,15 @@ Non-member functions
   
 Returns pointer to the underlying raw string device object. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_stringstream/rdbuf&action=edit&section=T-1 "Template:cpp/io/basic stringstream/rdbuf")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_stringstream/rdbuf&action=edit&section=T-2 "Template:cpp/io/basic stringstream/rdbuf")] Return value
+### Return value
 
 Pointer to the underlying raw string device. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_stringstream/rdbuf&action=edit&section=T-3 "Template:cpp/io/basic stringstream/rdbuf")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

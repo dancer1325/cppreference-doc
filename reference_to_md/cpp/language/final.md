@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Classes](classes.html "cpp/language/classes")
 
@@ -261,7 +261,7 @@ Inheritance
 [`override` specifier](override.html "cpp/language/override") (C++11)  
 **`final` specifier** (C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/classes/navbar_content&action=edit)
+
 
 Specifies that a [virtual function](virtual.html "cpp/language/virtual") cannot be overridden in a derived class, or that a class cannot be [derived from](derived_class.html "cpp/language/derived class"). 
 
@@ -279,7 +279,7 @@ Specifies that a [virtual function](virtual.html "cpp/language/virtual") cannot 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/final&action=edit&section=1 "Edit section: Syntax")] Syntax
+### Syntax
 
 When applied to a member function, the identifier `final` appears immediately after the [declarator](function.html "cpp/language/function") in the syntax of a member function declaration or a member function definition inside a class definition. 
 
@@ -301,7 +301,7 @@ class-key attr ﻿(optional) class-head-name class-prop-specifier-seq ﻿(option
 
 In the cases (1,2), virt-specifier-seq, if used, is either [`override`](override.html "cpp/language/override") or `final`, or `final override` or `override final`. In the case (3), the only allowed value of class-virt-specifier, if used, is `final`. In the case (4), the class-prop-specifier-seq, if used, can have any number of [class property specifiers](class_property_specifiers.html "cpp/language/class property specifiers") (since C++26), but each can appear at most once. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/final&action=edit&section=2 "Edit section: Explanation")] Explanation
+### Explanation
 
 When used in a virtual function declaration or definition, final specifier ensures that the function is virtual and specifies that it may not be overridden by derived classes. The program is ill-formed (a compile-time error is generated) otherwise. 
 
@@ -309,7 +309,7 @@ When used in a class definition, final specifies that this class may not appear 
 
 final is an identifier with a special meaning when used in a member function declaration or class head. In other contexts, it is not reserved and may be used to name objects and functions. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/final&action=edit&section=3 "Edit section: Note")] Note
+### Note
 
 In a sequence of the following tokens: 
 
@@ -362,11 +362,11 @@ Run this code
     {
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/final&action=edit&section=4 "Edit section: Keywords")] Keywords
+### Keywords
 
 [`final`](../identifier_with_special_meaning/final.html "cpp/identifier with special meaning/final")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/final&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -405,7 +405,7 @@ Possible output:
        17 | struct C : B // Error: B is final
           |
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/final&action=edit&section=6 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -487,7 +487,7 @@ Possible output:
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/final&action=edit&section=7 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -497,8 +497,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 empty member specification list might make final an identifier  | final is always a  
 specifier in this case   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/final&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
-[`override` specifier](override.html "cpp/language/override") (C++11) |  explicitly declares that a method overrides another method[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_override&action=edit)  
+[`override` specifier](override.html "cpp/language/override") (C++11) |  explicitly declares that a method overrides another method  
 ---|---  
-[class property specifiers](class_property_specifiers.html "cpp/language/class property specifiers") (C++26) |  **`final`** specifier (C++11), [replaceability](class_property_specifiers.html#Replaceability "cpp/language/class property specifiers") (C++26), [trivial relocatability](class_property_specifiers.html#Trivial_relocatability "cpp/language/class property specifiers") (C++26)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_class_property_specifiers&action=edit)
+[class property specifiers](class_property_specifiers.html "cpp/language/class property specifiers") (C++26) |  **`final`** specifier (C++11), [replaceability](class_property_specifiers.html#Replaceability "cpp/language/class property specifiers") (C++26), [trivial relocatability](class_property_specifiers.html#Trivial_relocatability "cpp/language/class property specifiers") (C++26)

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_ostream`](../basic_ostream.html "cpp/io/basic ostream")
 
@@ -116,7 +116,7 @@ Non-member functions
 [vprint_unicode(std::ostream)](vprint_unicode.html "cpp/io/basic ostream/vprint unicode")(C++23)  
 [vprint_nonunicode(std::ostream)](vprint_nonunicode.html "cpp/io/basic ostream/vprint nonunicode")(C++23)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ostream/navbar_content&action=edit)
+
 
 protected:  
 void swap( basic_ostream& rhs ); |  |  (since C++11)  
@@ -125,12 +125,12 @@ void swap( basic_ostream& rhs ); |  |  (since C++11)
   
 Calls basic_ios::swap(rhs) to swap all data members of the base class, except for rdbuf(), between *this and rhs. This swap function is protected: it is called by the swap functions of the swappable output stream classes [std::basic_ofstream](../basic_ofstream.html "cpp/io/basic ofstream") and [std::basic_ostringstream](../basic_ostringstream.html "cpp/io/basic ostringstream"), which know how to correctly swap the associated streambuffers. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_ostream/swap&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 rhs  |  \-  |  a basic_ostream of the same type to swap with   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_ostream/swap&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     

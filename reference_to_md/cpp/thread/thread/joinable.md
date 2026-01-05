@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -175,7 +175,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::thread`](../thread.html "cpp/thread/thread")
 
@@ -198,7 +198,7 @@
 [Non-member functions](../thread.html#Non-member_functions "cpp/thread/thread")  
 [swap(std::thread)](swap2.html "cpp/thread/thread/swap2")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/navbar_content&action=edit)
+
 
 bool joinable() const noexcept; |  |  (since C++11)  
 ---|---|---  
@@ -219,15 +219,15 @@ A thread that has finished executing code, but has not yet been joined is still 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/joinable&action=edit&section=T-1 "Template:cpp/thread/thread/joinable")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/joinable&action=edit&section=T-2 "Template:cpp/thread/thread/joinable")] Return value
+### Return value
 
 true if the `std::thread` object identifies an active thread of execution, false otherwise. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/joinable&action=edit&section=T-3 "Template:cpp/thread/thread/joinable")] Example
+### Example
 
 Run this code
     
@@ -269,7 +269,7 @@ Output:
     after joining, joinable: false
     after detaching, joinable: false
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/joinable&action=edit&section=T-4 "Template:cpp/thread/thread/joinable")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -321,12 +321,12 @@ Output:
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/joinable&action=edit&section=T-5 "Template:cpp/thread/thread/joinable")] See also
+### See also
 
 [ get_id](get_id.html "cpp/thread/thread/get id") |  returns the _id_ of the thread   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/dsc_get_id&action=edit)  
+(public member function)   
 ---|---  
 [ join](join.html "cpp/thread/thread/join") |  waits for the thread to finish its execution   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/dsc_join&action=edit)  
+(public member function)   
 [ detach](detach.html "cpp/thread/thread/detach") |  permits the thread to execute independently from the thread handle   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/dsc_detach&action=edit)
+(public member function) 

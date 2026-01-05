@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Filesystem library](../fs.html "cpp/experimental/fs")
 
@@ -124,7 +124,7 @@ File types
 [filesystem::is_socket](is_socket.html "cpp/experimental/fs/is socket")  
 [filesystem::is_symlink](is_symlink.html "cpp/experimental/fs/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/navbar_content&action=edit)
+
 
 **`path`**
 
@@ -174,7 +174,7 @@ Non-member functions
 [operator<<operator>>](path/operator_ltltgtgt.html "cpp/experimental/fs/path/operator ltltgtgt")  
 [u8path](path/u8path.html "cpp/experimental/fs/path/u8path")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/path/navbar_content&action=edit)
+
 
 Defined in header `[<experimental/filesystem>](../../header/experimental/filesystem.html "cpp/header/experimental/filesystem")` |  |   
 ---|---|---  
@@ -233,7 +233,7 @@ Paths are implicitly convertible to and from [std::basic_string](../../string/ba
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/path&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Type  |  Definition   
 ---|---  
@@ -242,103 +242,103 @@ Type  |  Definition
 `const_iterator` |  a constant [LegacyBidirectionalIterator](../../named_req/BidirectionalIterator.html "cpp/named req/BidirectionalIterator") with a `value_type` of `path`  
 `iterator` |  an alias to `const_iterator`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/path&action=edit&section=2 "Edit section: Member constants")] Member constants
+### Member constants
 
 constexpr value_type preferred_separator[static] |  alternative directory separator which may be used in addition to the portable /. On Windows, this is the backslash character \. On POSIX, this is the same forward slash / as the portable separator   
 (public static member constant)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/path&action=edit&section=3 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](path/path.html "cpp/experimental/fs/path/path") |  constructs a `path`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/path/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ (destructor)](path/~path.html "cpp/experimental/fs/path/~path") |  destroys a `path` object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/path/dsc_destructor&action=edit)  
+(public member function)   
 [ operator=](path/operator=.html "cpp/experimental/fs/path/operator=") |  assigns another path   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/path/dsc_operator%3D&action=edit)  
+(public member function)   
 [ assign](path/assign.html "cpp/experimental/fs/path/assign") |  assigns contents   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/path/dsc_assign&action=edit)  
+(public member function)   
   
 #####  Concatenation   
   
 [ appendoperator/=](path/append.html "cpp/experimental/fs/path/append") |  appends elements to the path   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/path/dsc_append&action=edit)  
+(public member function)   
 [ concatoperator+=](path/concat.html "cpp/experimental/fs/path/concat") |  concatenates two paths without introducing a directory separator   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/path/dsc_concat&action=edit)  
+(public member function)   
   
 #####  Modifiers   
   
 [ clear](path/clear.html "cpp/experimental/fs/path/clear") |  erases the contents   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/path/dsc_clear&action=edit)  
+(public member function)   
 [ make_preferred](path/make_preferred.html "cpp/experimental/fs/path/make preferred") |  converts directory separators to preferred directory separator   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/path/dsc_make_preferred&action=edit)  
+(public member function)   
 [ remove_filename](path/remove_filename.html "cpp/experimental/fs/path/remove filename") |  removes filename path component   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/path/dsc_remove_filename&action=edit)  
+(public member function)   
 [ replace_filename](path/replace_filename.html "cpp/experimental/fs/path/replace filename") |  replaces the last path component with another path   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/path/dsc_replace_filename&action=edit)  
+(public member function)   
 [ replace_extension](path/replace_extension.html "cpp/experimental/fs/path/replace extension") |  replaces the extension   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/path/dsc_replace_extension&action=edit)  
+(public member function)   
 [ swap](path/swap.html "cpp/experimental/fs/path/swap") |  swaps two paths   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/path/dsc_swap&action=edit)  
+(public member function)   
   
 #####  Format observers   
   
 [ c_strnativeoperator string_type](path/native.html "cpp/experimental/fs/path/native") |  returns the native version of the path   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/path/dsc_native&action=edit)  
+(public member function)   
 [ stringwstringu8stringu16stringu32string](path/string.html "cpp/experimental/fs/path/string") |  returns the path in native pathname format converted to a string   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/path/dsc_string&action=edit)  
+(public member function)   
 [ generic_stringgeneric_wstringgeneric_u8stringgeneric_u16stringgeneric_u32string](path/generic_string.html "cpp/experimental/fs/path/generic string") |  returns the path in generic pathname format converted to a string   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/path/dsc_generic_string&action=edit)  
+(public member function)   
   
 #####  Compare   
   
 [ compare](path/compare.html "cpp/experimental/fs/path/compare") |  compares the lexical representations of two paths lexicographically   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/path/dsc_compare&action=edit)  
+(public member function)   
   
 #####  Decomposition   
   
 [ root_name](path/root_name.html "cpp/experimental/fs/path/root name") |  returns the root-name of the path, if present   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/path/dsc_root_name&action=edit)  
+(public member function)   
 [ root_directory](path/root_directory.html "cpp/experimental/fs/path/root directory") |  returns the root directory of the path, if present   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/path/dsc_root_directory&action=edit)  
+(public member function)   
 [ root_path](path/root_path.html "cpp/experimental/fs/path/root path") |  returns the root path of the path, if present   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/path/dsc_root_path&action=edit)  
+(public member function)   
 [ relative_path](path/relative_path.html "cpp/experimental/fs/path/relative path") |  returns path relative to the root path   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/path/dsc_relative_path&action=edit)  
+(public member function)   
 [ parent_path](path/parent_path.html "cpp/experimental/fs/path/parent path") |  returns the path of the parent path   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/path/dsc_parent_path&action=edit)  
+(public member function)   
 [ filename](path/filename.html "cpp/experimental/fs/path/filename") |  returns the filename path component   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/path/dsc_filename&action=edit)  
+(public member function)   
 [ stem](path/stem.html "cpp/experimental/fs/path/stem") |  returns the stem path component   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/path/dsc_stem&action=edit)  
+(public member function)   
 [ extension](path/extension.html "cpp/experimental/fs/path/extension") |  returns the file extension path component   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/path/dsc_extension&action=edit)  
+(public member function)   
   
 #####  Queries   
   
 [ empty](path/empty.html "cpp/experimental/fs/path/empty") |  checks if the path is empty   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/path/dsc_empty&action=edit)  
+(public member function)   
 [ has_root_pathhas_root_namehas_root_directoryhas_relative_pathhas_parent_pathhas_filenamehas_stemhas_extension](path/has_path.html "cpp/experimental/fs/path/has path") |  checks if the corresponding path element is not empty   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/path/dsc_has_path&action=edit)  
+(public member function)   
 [ is_absoluteis_relative](path/is_absrel.html "cpp/experimental/fs/path/is absrel") |  checks if [root_path()](path/root_path.html "cpp/experimental/fs/path/root path") uniquely identifies file system location   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/path/dsc_is_absrel&action=edit)  
+(public member function)   
   
 #####  Iterators   
   
 [ beginend](path/begin.html "cpp/experimental/fs/path/begin") |  iterator access to the path as a sequence of elements   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/path/dsc_begin&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/path&action=edit&section=4 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ swap(std::experimental::filesystem::path)](path/swap2.html "cpp/experimental/fs/path/swap2") |  swaps two paths   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/path/dsc_swap2&action=edit)  
+(function)   
 ---|---  
 [ operator==operator!=operator<operator<=operator>operator>=](path/operator_cmp.html "cpp/experimental/fs/path/operator cmp") |  lexicographically compares two paths   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/path/dsc_operator_cmp&action=edit)  
+(function)   
 [ operator/](path/operator_slash.html "cpp/experimental/fs/path/operator slash") |  concatenates two paths with a directory separator   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/path/dsc_operator/&action=edit)  
+(function)   
 [ operator<<operator>>](path/operator_ltltgtgt.html "cpp/experimental/fs/path/operator ltltgtgt") |  performs stream input and output on a path   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/path/dsc_operator_ltltgtgt&action=edit)  
+(function)   
 [ u8path](path/u8path.html "cpp/experimental/fs/path/u8path") |  creates a `path` from a UTF-8 encoded source   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/path/dsc_u8path&action=edit)
+(function) 

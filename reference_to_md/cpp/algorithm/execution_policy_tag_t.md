@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](ranges/copy.html "cpp/algorithm/ra
 [uninitialized_default_construct_n](../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 Defined in header `[<execution>](../header/execution.html "cpp/header/execution")` |  |   
 ---|---|---  
@@ -316,7 +316,7 @@ class unsequenced_policy { /* unspecified */ }; |  (4)  |  (since C++20)
 
 During the execution of a parallel algorithm with any of these execution policies, if the invocation of an element access function exits via an uncaught exception, [std::terminate](../error/terminate.html "cpp/error/terminate") is called, but the implementations may define additional execution policies that handle exceptions differently. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/execution_policy_tag_t&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 When using parallel execution policy, it is the programmer's responsibility to avoid data races and deadlocks: 
     
@@ -361,8 +361,8 @@ Unsequenced execution policies are the only case where function calls are _unseq
 
 If the implementation cannot parallelize or vectorize (e.g. due to lack of resources), all standard execution policies can fall back to sequential execution. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/execution_policy_tag_t&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ seqparpar_unsequnseq](execution_policy_tag.html "cpp/algorithm/execution policy tag")(C++17)(C++17)(C++17)(C++20) |  global execution policy objects   
-(constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_execution_policy_tag&action=edit)  
+(constant)   
 ---|---

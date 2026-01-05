@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 `[std::unordered_set](../unordered_set.html "cpp/container/unordered set")`
 
@@ -137,7 +137,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/unordered set/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/unordered_set/navbar_content&action=edit)
+
 
 size_type bucket( const Key& key ) const; |  (1)  |  (since C++11)  
 ---|---|---  
@@ -165,36 +165,36 @@ The behavior is undefined if [bucket_count()](bucket_count.html "cpp/container/u
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/bucket&action=edit&section=T-1 "Template:cpp/container/bucket")] Parameters
+### Parameters
 
 key  |  \-  |  the value of the key to examine   
 ---|---|---  
 x  |  \-  |  a value of any type that can be transparently compared with a key   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/bucket&action=edit&section=T-2 "Template:cpp/container/bucket")] Return value
+### Return value
 
 Bucket index for the requested key. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/bucket&action=edit&section=T-3 "Template:cpp/container/bucket")] Complexity
+### Complexity
 
 Constant. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/bucket&action=edit&section=T-4 "Template:cpp/container/bucket")] Notes
+### Notes
 
 [Feature-test](../../utility/feature_test.html "cpp/utility/feature test") macro  | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_associative_heterogeneous_insertion`](../../experimental/feature_test.html#cpp_lib_associative_heterogeneous_insertion "cpp/feature test") | [`202311L`](../../compiler_support/26.html#cpp_lib_associative_heterogeneous_insertion_202311L "cpp/compiler support/26") | (C++26) | Heterogeneous overloads for the remaining member functions in [ordered](../../container.html#Associative_containers "cpp/container") and [unordered](../../container.html#Unordered_associative_containers "cpp/container") associative [containers](../../container.html "cpp/container"). ([2](bucket.html#Version_2))  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/bucket&action=edit&section=T-5 "Template:cpp/container/bucket")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/bucket&action=edit&section=T-6 "Template:cpp/container/bucket")] See also
+### See also
 
 [ bucket_size](bucket_size.html "cpp/container/unordered set/bucket size") |  returns the number of elements in specific bucket   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_bucket_size&action=edit)  
+(public member function)   
 ---|---
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

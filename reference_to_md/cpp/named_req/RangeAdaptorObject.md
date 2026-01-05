@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ named requirements](../iterator/concepts.html "cpp/named req")
 
@@ -147,7 +147,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/named_req/navbar_content&action=edit)
+
 
 _Range adaptor objects_ are customization point objects that accept [`viewable_range`](../ranges/viewable_range.html "cpp/ranges/viewable range") as their first arguments and return a [`view`](../ranges/view.html "cpp/ranges/view"). Some range adaptor objects are unary, i.e. they take one [`viewable_range`](../ranges/viewable_range.html "cpp/ranges/viewable range") as their only argument. Other range adaptor objects take a [`viewable_range`](../ranges/viewable_range.html "cpp/ranges/viewable range") and other trailing arguments. 
 
@@ -189,6 +189,6 @@ are all equivalent.
 
 The result object of each of these expressions is either a [`view`](../ranges/view.html "cpp/ranges/view") object or a [RangeAdaptorClosureObject](RangeAdaptorClosureObject.html "cpp/named req/RangeAdaptorClosureObject"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/RangeAdaptorObject&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 operator() is unsupported for volatile-qualified or const-volatile-qualified version of range adaptor object types. Arrays and functions are converted to pointers while binding. 

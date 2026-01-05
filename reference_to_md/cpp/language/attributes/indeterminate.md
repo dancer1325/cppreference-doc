@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](../history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [Declarations](../declarations.html "cpp/language/declarations")
 
@@ -280,7 +280,7 @@ Other declarations
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/declarations/navbar_content&action=edit)
+
 
 [Attributes](../attributes.html "cpp/language/attributes")
 
@@ -298,7 +298,7 @@ Other declarations
 [optimize_for_synchronized](optimize_for_synchronized.html "cpp/language/attributes/optimize for synchronized")(TM TS)  
 [unlikely](likely.html "cpp/language/attributes/likely")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/attributes/navbar_content&action=edit)
+
 
 Indicates that the variable or function parameter has an indeterminate value if it is not initialized. 
 
@@ -313,22 +313,22 @@ Indicates that the variable or function parameter has an indeterminate value if 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/attributes/indeterminate&action=edit&section=1 "Edit section: Syntax")] Syntax  
+### Syntax  
   
 ---  
 `**[[indeterminate]]**` |  |   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/attributes/indeterminate&action=edit&section=2 "Edit section: Explanation")] Explanation
+### Explanation
 
 `[[**indeterminate**]]` can be applied to the definition of a block variable with automatic [storage duration](../storage_duration.html "cpp/language/storage duration") or to a declaration of a parameter of a [function declaration](../function.html "cpp/language/function"). The attribute specifies that the bytes comprising the storage of an object with automatic storage duration is initially [indeterminate](../default_initialization.html#Indeterminate_and_erroneous_values "cpp/language/default initialization") rather than erroneous. 
 
 If a function parameter is declared with `[[**indeterminate**]]`, it must be declared in the first declaration of its function. If a function parameter is declared with `[[**indeterminate**]]` in the first declaration of its function in one translation unit and the same function is declared without `[[**indeterminate**]]` on the same parameter in its first declaration in another translation unit, the program is [ill-formed, no diagnostic required](../ub.html#Explanation "cpp/language/ub"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/attributes/indeterminate&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 The `[[indeterminate]]` attribute restores the undefined behavior that was implicitly introduced until C++26. It may make compilers consider a code path reading an indeterminate value unreachable. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/attributes/indeterminate&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -358,7 +358,7 @@ Run this code
      
     h(T(), T());
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/attributes/indeterminate&action=edit&section=5 "Edit section: References")] References
+### References
 
   * C++26 standard (ISO/IEC 14882:2026): 
 

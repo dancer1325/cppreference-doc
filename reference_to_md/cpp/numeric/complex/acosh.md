@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [`std::complex`](../complex.html "cpp/numeric/complex")
 
@@ -164,7 +164,7 @@
 [tuple_size<std::complex>](tuple_size.html "cpp/numeric/complex/tuple size")(C++26)  
 [tuple_element<std::complex>](tuple_element.html "cpp/numeric/complex/tuple element")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/navbar_content&action=edit)
+
 
 Defined in header `[<complex>](../../header/complex.html "cpp/header/complex")` |  |   
 ---|---|---  
@@ -186,16 +186,16 @@ Computes complex arc hyperbolic cosine of a complex value z with branch cut at v
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/acosh&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 z  |  \-  |  complex value   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/acosh&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 If no errors occur, the complex arc hyperbolic cosine of z is returned, in the range of a half-strip of nonnegative values along the real axis and in the interval [−iπ; +iπ] along the imaginary axis. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/acosh&action=edit&section=3 "Edit section: Error handling and special values")] Error handling and special values
+### Error handling and special values
 
 Errors are reported consistent with [math_errhandling](../math/math_errhandling.html "cpp/numeric/math/math errhandling"). 
 
@@ -218,7 +218,7 @@ If the implementation supports IEEE floating-point arithmetic,
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/acosh&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 Although the C++ standard names this function "complex arc hyperbolic cosine", the inverse functions of the hyperbolic functions are the area functions. Their argument is the area of a hyperbolic sector, not an arc. The correct name is "complex inverse hyperbolic cosine", and, less common, "complex area hyperbolic cosine". 
 
@@ -231,7 +231,7 @@ For any z, acosh(z) = √z-1
 √1-z  
 acos(z), or simply i acos(z) in the upper half of the complex plane. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/acosh&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -263,17 +263,17 @@ Output:
     acosh(1.000000,1.000000) = (1.061275,0.904557)
     i*acos(1.000000,1.000000) = (1.061275,0.904557)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/acosh&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ acos(std::complex)](acos.html "cpp/numeric/complex/acos")(C++11) |  computes arc cosine of a complex number (\\({\small\arccos{z}}\\)arccos(z))   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_acos&action=edit)  
+(function template)   
 ---|---  
 [ asinh(std::complex)](asinh.html "cpp/numeric/complex/asinh")(C++11) |  computes area hyperbolic sine of a complex number (\\({\small\operatorname{arsinh}{z}}\\)arsinh(z))   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_asinh&action=edit)  
+(function template)   
 [ atanh(std::complex)](atanh.html "cpp/numeric/complex/atanh")(C++11) |  computes area hyperbolic tangent of a complex number (\\({\small\operatorname{artanh}{z}}\\)artanh(z))   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_atanh&action=edit)  
+(function template)   
 [ cosh(std::complex)](cosh.html "cpp/numeric/complex/cosh") |  computes hyperbolic cosine of a complex number (\\({\small\cosh{z}}\\)cosh(z))   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_cosh&action=edit)  
+(function template)   
 [ acoshacoshfacoshl](../math/acosh.html "cpp/numeric/math/acosh")(C++11)(C++11)(C++11) |  computes the inverse hyperbolic cosine (\\({\small\operatorname{arcosh}{x}}\\)arcosh(x))   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_acosh&action=edit)  
+(function)   
 [C documentation](../../../c/numeric/complex/cacosh.html "c/numeric/complex/cacosh") for cacosh

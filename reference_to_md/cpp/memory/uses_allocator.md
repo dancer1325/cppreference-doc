@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 Defined in header `[<memory>](../header/memory.html "cpp/header/memory")` |  |   
 ---|---|---  
@@ -209,14 +209,14 @@ If `T` has a nested type `allocator_type` which is convertible from `Alloc`, the
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/uses_allocator&action=edit&section=1 "Edit section: Helper variable template")] Helper variable template
+### Helper variable template
 
 template< class T, class Alloc >  
 constexpr bool uses_allocator_v = uses_allocator<T, Alloc>::value; |  |  (since C++17)  
 ---|---|---  
 | |   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/integral_constant/inherit2&action=edit)
+
 
 ##  Inherited from [ std::integral_constant](../types/integral_constant.html "cpp/types/integral constant")
 
@@ -241,7 +241,7 @@ Type  |  Definition
 `value_type` |  bool  
 `type` |  [std::integral_constant](../types/integral_constant.html)<bool, value>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/uses_allocator&action=edit&section=2 "Edit section: Uses-allocator construction")] Uses-allocator construction
+### Uses-allocator construction
 
 There are three conventions of passing an allocator alloc to a constructor of some type `T`: 
 
@@ -263,7 +263,7 @@ There are three conventions of passing an allocator alloc to a constructor of so
 The utility functions [std::make_obj_using_allocator](make_obj_using_allocator.html "cpp/memory/make obj using allocator"), and [std::uninitialized_construct_using_allocator](uninitialized_construct_using_allocator.html "cpp/memory/uninitialized construct using allocator") may be used to explicitly create an object following the above protocol, and [std::uses_allocator_construction_args](uses_allocator_construction_args.html "cpp/memory/uses allocator construction args") can be used to prepare the argument list that matches the flavor of uses-allocator construction expected by the type.  | (since C++20)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/uses_allocator&action=edit&section=3 "Edit section: Specializations")] Specializations
+### Specializations
 
 Given a [program-defined type](../language/type-id.html#Program-defined_type "cpp/language/type") `T` that does not have a nested `allocator_type`, a program can specialize `std::uses_allocator` to derive from [std::true_type](../types/integral_constant.html "cpp/types/integral constant") for `T` if any of the following requirements is satisfied: 
 
@@ -277,43 +277,43 @@ In the above, `Alloc` is a type that satisfies [Allocator](../named_req/Allocato
 The following specializations are already provided by the standard library: 
 
 [ std::uses_allocator<std::tuple>](../utility/tuple/uses_allocator.html "cpp/utility/tuple/uses allocator")(C++11) |  specializes the **std::uses_allocator** type trait   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/dsc_uses_allocator&action=edit)  
+(class template specialization)   
 ---|---  
 [ std::uses_allocator<std::queue>](../container/queue/uses_allocator.html "cpp/container/queue/uses allocator")(C++11) |  specializes the **std::uses_allocator** type trait   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_uses_allocator&action=edit)  
+(class template specialization)   
 [ std::uses_allocator<std::priority_queue>](../container/priority_queue/uses_allocator.html "cpp/container/priority queue/uses allocator")(C++11) |  specializes the **std::uses_allocator** type trait   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_uses_allocator&action=edit)  
+(class template specialization)   
 [ std::uses_allocator<std::stack>](../container/stack/uses_allocator.html "cpp/container/stack/uses allocator")(C++11) |  specializes the **std::uses_allocator** type trait   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_uses_allocator&action=edit)  
+(class template specialization)   
 [ std::uses_allocator<std::flat_map>](../container/flat_map/uses_allocator.html "cpp/container/flat map/uses allocator")(C++23) |  specializes the **std::uses_allocator** type trait   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_uses_allocator&action=edit)  
+(class template specialization)   
 [ std::uses_allocator<std::flat_set>](../container/flat_set/uses_allocator.html "cpp/container/flat set/uses allocator")(C++23) |  specializes the **std::uses_allocator** type trait   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_uses_allocator&action=edit)  
+(class template specialization)   
 [ std::uses_allocator<std::flat_multimap>](../container/flat_multimap/uses_allocator.html "cpp/container/flat multimap/uses allocator")(C++23) |  specializes the **std::uses_allocator** type trait   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_uses_allocator&action=edit)  
+(class template specialization)   
 [ std::uses_allocator<std::flat_multiset>](../container/flat_multiset/uses_allocator.html "cpp/container/flat multiset/uses allocator")(C++23) |  specializes the **std::uses_allocator** type trait   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_uses_allocator&action=edit)  
+(class template specialization)   
 [ std::uses_allocator<std::function>](../utility/functional/function/uses_allocator.html "cpp/utility/functional/function/uses allocator")(C++11) (until C++17) |  specializes the **std::uses_allocator** type trait   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/function/dsc_uses_allocator&action=edit)  
+(class template specialization)   
 [ std::uses_allocator<std::promise>](../thread/promise/uses_allocator.html "cpp/thread/promise/uses allocator")(C++11) |  specializes the **std::uses_allocator** type trait   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/promise/dsc_uses_allocator&action=edit)  
+(class template specialization)   
 [ std::uses_allocator<std::packaged_task>](../thread/packaged_task/uses_allocator.html "cpp/thread/packaged task/uses allocator")(C++11) (until C++17) |  specializes the **std::uses_allocator** type trait   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/packaged_task/dsc_uses_allocator&action=edit)  
+(class template specialization)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/uses_allocator&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 This type trait is used by [std::tuple](../utility/tuple.html "cpp/utility/tuple"), [std::scoped_allocator_adaptor](scoped_allocator_adaptor.html "cpp/memory/scoped allocator adaptor"), and [std::pmr::polymorphic_allocator](polymorphic_allocator.html "cpp/memory/polymorphic allocator"). It may also be used by custom allocators or wrapper types to determine whether the object or member being constructed is itself capable of using an allocator (e.g. is a container), in which case an allocator should be passed to its constructor. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/uses_allocator&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ allocator_argallocator_arg_t](allocator_arg.html "cpp/memory/allocator arg")(C++11) |  a tag used to select allocator-aware constructors  
-(tag)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_allocator_arg&action=edit)  
+(tag)  
 ---|---  
 [ uses_allocator_construction_args](uses_allocator_construction_args.html "cpp/memory/uses allocator construction args")(C++20) |  prepares the argument list matching the flavor of uses-allocator construction required by the given type   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_uses_allocator_construction_args&action=edit)  
+(function template)   
 [ make_obj_using_allocator](make_obj_using_allocator.html "cpp/memory/make obj using allocator")(C++20) |  creates an object of the given type by means of uses-allocator construction   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_make_obj_using_allocator&action=edit)  
+(function template)   
 [ uninitialized_construct_using_allocator](uninitialized_construct_using_allocator.html "cpp/memory/uninitialized construct using allocator")(C++20) |  creates an object of the given type at specified memory location by means of uses-allocator construction   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_uninitialized_construct_using_allocator&action=edit)  
+(function template)   
 [ scoped_allocator_adaptor](scoped_allocator_adaptor.html "cpp/memory/scoped allocator adaptor")(C++11) |  implements multi-level allocator for multi-level containers   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_scoped_allocator_adaptor&action=edit)
+(class template) 

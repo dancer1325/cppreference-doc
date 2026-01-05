@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::stop_callback`](../stop_callback.html "cpp/thread/stop callback")
 
@@ -183,7 +183,7 @@ Member functions
 **stop_callback::~stop_callback**  
 [Deduction guides](deduction_guides.html "cpp/thread/stop callback/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/stop_callback/navbar_content&action=edit)
+
 
 ~stop_callback(); |  |  (since C++20)  
 ---|---|---  
@@ -195,7 +195,7 @@ If *this has a `stop_token` with associated stop-state, deregisters the callback
 
 If the callback function is being invoked concurrently on another thread, the destructor does not complete until the callback function invocation is complete. If the callback function is being invoked on the same thread the destructor is being invoked on, then the destructor returns without waiting for callback invocation to complete (see Notes). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/stop_callback/%7Estop_callback&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 The `stop_callback` destructor is designed to prevent race conditions and deadlocks. If another thread is currently invoking the callback, then the destructor cannot return until that completes, or else the function object could potentially be destroyed while it is being executed. The callback function is not required to be neither copyable nor movable - it lives in the `stop_callback` object itself even after registration. 
 

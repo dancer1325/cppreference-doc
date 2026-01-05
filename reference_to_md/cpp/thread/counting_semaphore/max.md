@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::counting_semaphore`](../counting_semaphore.html "cpp/thread/counting semaphore")
 
@@ -190,7 +190,7 @@ Operations
 Constants  
 **counting_semaphore::max**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/counting_semaphore/navbar_content&action=edit)
+
 
 constexpr [std::ptrdiff_t](../../types/ptrdiff_t.html) max() noexcept; |  |  (since C++20)  
 ---|---|---  
@@ -198,11 +198,11 @@ constexpr [std::ptrdiff_t](../../types/ptrdiff_t.html) max() noexcept; |  |  (si
   
 Returns the internal counter's maximum possible value, which is greater than or equal to `LeastMaxValue`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/counting_semaphore/max&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 The internal counter's maximum possible value, as a [std::ptrdiff_t](../../types/ptrdiff_t.html "cpp/types/ptrdiff t"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/counting_semaphore/max&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 For specialization `binary_semaphore`, `LeastMaxValue` is equal to 1. 
 

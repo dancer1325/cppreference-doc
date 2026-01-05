@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::tuple`](../tuple.html "cpp/utility/tuple")
 
@@ -157,7 +157,7 @@ Common vocabulary types
 [ignore](ignore.html "cpp/utility/tuple/ignore")  
 [Deduction guides](deduction_guides.html "cpp/utility/tuple/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/navbar_content&action=edit)
+
 
 Defined in header `[<tuple>](../../header/tuple.html "cpp/header/tuple")` |  |   
 ---|---|---  
@@ -180,16 +180,16 @@ Creates a tuple of lvalue references to its arguments or instances of [std::igno
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/tuple/tie&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 args  |  \-  |  zero or more lvalue arguments to construct the tuple from.   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/tuple/tie&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 A [std::tuple](../tuple.html "cpp/utility/tuple") object containing lvalue references. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/tuple/tie&action=edit&section=3 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     template <typename... Args>
@@ -201,7 +201,7 @@ A [std::tuple](../tuple.html "cpp/utility/tuple") object containing lvalue refer
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/tuple/tie&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 `std::tie` may be used to unpack a [std::pair](../pair.html "cpp/utility/pair") because [std::tuple](../tuple.html "cpp/utility/tuple") has a [converting assignment](operator=.html "cpp/utility/tuple/operator=") from pairs: 
     
@@ -209,7 +209,7 @@ A [std::tuple](../tuple.html "cpp/utility/tuple") object containing lvalue refer
     bool result;
     std::tie([std::ignore](ignore.html), result) = set.insert(value);
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/tuple/tie&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 1) `std::tie` can be used to introduce lexicographical comparison to a struct or to unpack a tuple;  
 2) `std::tie` can work with [structured bindings](../../language/structured_binding.html "cpp/language/structured binding"):
@@ -274,15 +274,15 @@ Run this code
         [assert](../../error/assert.html)(x == 1 && z == "Test");
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/tuple/tie&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
-[Structured binding](../../language/structured_binding.html "cpp/language/structured binding") (C++17) |  binds the specified names to sub-objects or tuple elements of the initializer[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_structured_binding&action=edit)  
+[Structured binding](../../language/structured_binding.html "cpp/language/structured binding") (C++17) |  binds the specified names to sub-objects or tuple elements of the initializer  
 ---|---  
 [ make_tuple](make_tuple.html "cpp/utility/tuple/make tuple")(C++11) |  creates a `tuple` object of the type defined by the argument types   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/dsc_make_tuple&action=edit)  
+(function template)   
 [ forward_as_tuple](forward_as_tuple.html "cpp/utility/tuple/forward as tuple")(C++11) |  creates a `tuple` of [forwarding references](../../language/reference.html#Forwarding_references "cpp/language/reference")   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/dsc_forward_as_tuple&action=edit)  
+(function template)   
 [ tuple_cat](tuple_cat.html "cpp/utility/tuple/tuple cat")(C++11) |  creates a `tuple` by concatenating any number of tuples   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/dsc_tuple_cat&action=edit)  
+(function template)   
 [ ignore](ignore.html "cpp/utility/tuple/ignore")(C++11) |  placeholder to skip an element when unpacking a `tuple` using **`tie`**   
-(constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/dsc_ignore&action=edit)
+(constant) 

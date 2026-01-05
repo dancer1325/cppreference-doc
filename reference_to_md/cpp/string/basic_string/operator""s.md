@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Strings library](../../string.html "cpp/string")
 
@@ -40,7 +40,7 @@ Classes
 [basic_string_view](../basic_string_view.html "cpp/string/basic string view")(C++17)  
 [char_traits](../char_traits.html "cpp/string/char traits")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/navbar_content&action=edit)
+
 
 [`std::basic_string`](../basic_string.html "cpp/string/basic string")
 
@@ -133,7 +133,7 @@ basic_string_view](operator_basic_string_view.html "cpp/string/basic string/oper
 [hash<std::basic_string>](hash.html "cpp/string/basic string/hash")(C++11)  
 [Deduction guides](deduction_guides.html "cpp/string/basic string/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/navbar_content&action=edit)
+
 
 Defined in header `[<string>](../../header/string.html "cpp/header/string")` |  |   
 ---|---|---  
@@ -172,17 +172,17 @@ Forms a string literal of the desired type.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/operator%22%22s&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 str  |  \-  |  pointer to the beginning of the raw character array literal   
 ---|---|---  
 len  |  \-  |  length of the raw character array literal   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/operator%22%22s&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The string literal. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/operator%22%22s&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 These operators are declared in the namespace std::literals::string_literals, where both `literals` and `string_literals` are inline namespaces. Access to these operators can be gained with any of the following using directives: 
 
@@ -198,7 +198,7 @@ These operators are declared in the namespace std::literals::string_literals, wh
 ---|---|---|---  
 [`__cpp_lib_string_udls`](../../experimental/feature_test.html#cpp_lib_string_udls "cpp/feature test") | [`201304L`](../../compiler_support/14.html#cpp_lib_string_udls_201304L "cpp/compiler support/14") | (C++14) | User-defined literals for string types   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/operator%22%22s&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -233,12 +233,12 @@ Output:
     s2: abc₀₀def (size = 8)
     bcde
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/operator%22%22s&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ (constructor)](basic_string.html "cpp/string/basic string/basic string") |  constructs a `basic_string`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ operator""sv](../basic_string_view/operator""sv.html "cpp/string/basic string view/operator""sv")(C++17) |  creates a string view of a character array literal   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/dsc_operator%22%22sv&action=edit)
+(function) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

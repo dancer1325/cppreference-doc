@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Filesystem library](../../filesystem.html "cpp/filesystem")
 
@@ -100,7 +100,7 @@ filesystem::symlink_status](../status.html "cpp/filesystem/status")
 [filesystem::is_socket](../is_socket.html "cpp/filesystem/is socket")  
 [filesystem::is_symlink](../is_symlink.html "cpp/filesystem/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/navbar_content&action=edit)
+
 
 [`std::filesystem::path`](../path.html "cpp/filesystem/path")
 
@@ -169,7 +169,7 @@ filesystem::symlink_status](../status.html "cpp/filesystem/status")
 | [formatter<std::filesystem::path>](formatter.html "cpp/filesystem/path/formatter")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/path/navbar_content&action=edit)
+
 
 path lexically_normal() const; |  (1)  |  (since C++17)  
 ---|---|---  
@@ -220,11 +220,11 @@ path lexically_proximate( const path& base ) const; |  (3)  |  (since C++17)
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/lexically_normal&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/lexically_normal&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) The normal form of the path.
 
@@ -232,11 +232,11 @@ path lexically_proximate( const path& base ) const; |  (3)  |  (since C++17)
 
 3) The proximate form of the path.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/impldef_exception&action=edit&section=T-1 "Template:cpp/impldef exception")] Exceptions
+### Exceptions
 
 May throw implementation-defined exceptions. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/lexically_normal&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 These conversions are purely lexical. They do not check that the paths exist, do not follow symlinks, and do not access the filesystem at all. For symlink-following counterparts of `lexically_relative` and `lexically_proximate`, see [`relative`](../relative.html "cpp/filesystem/relative") and [`proximate`](../relative.html "cpp/filesystem/relative"). 
 
@@ -244,7 +244,7 @@ On Windows, the returned `path` has backslashes (the preferred separators).
 
 On POSIX, no filename in a relative path is acceptable as a root-name. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/lexically_normal&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -268,7 +268,7 @@ Run this code
         [assert](../../error/assert.html)(fs::path("a/b").lexically_proximate("/a/b") == "a/b");
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/lexically_normal&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -277,8 +277,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [LWG 3070](https://cplusplus.github.io/LWG/issue3070) | C++17  | a filename that can also be a root-name may cause surprising result  | treated as error case   
 [LWG 3096](https://cplusplus.github.io/LWG/issue3096) | C++17  | trailing "/" and "/." are handled incorrectly  | corrected   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/lexically_normal&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ relativeproximate](../relative.html "cpp/filesystem/relative")(C++17) |  composes a relative path   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_relative&action=edit)  
+(function)   
 ---|---

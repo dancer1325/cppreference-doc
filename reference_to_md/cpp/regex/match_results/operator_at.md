@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Regular expressions library](../../regex.html "cpp/regex")
 
@@ -81,7 +81,7 @@ Constants
 Regex Grammar  
 [Modified ECMAScript-262](../ecmascript.html "cpp/regex/ecmascript")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/navbar_content&action=edit)
+
 
 [`std::match_results`](../match_results.html "cpp/regex/match results")
 
@@ -114,7 +114,7 @@ Non-member functions
 [operator==operator!=](operator_cmp.html "cpp/regex/match results/operator cmp")(until C++20)  
 [swap(std::match_results)](swap2.html "cpp/regex/match results/swap2")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/match_results/navbar_content&action=edit)
+
 
 const_reference operator[]( size_type n ) const; |  |  (since C++11)  
 ---|---|---  
@@ -138,16 +138,16 @@ if n >= size(), returns a reference to a [std::sub_match](../sub_match.html "cpp
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/match_results/operator_at&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 n  |  \-  |  integral number specifying which match to return   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/match_results/operator_at&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Reference to the [std::sub_match](../sub_match.html "cpp/regex/sub match") representing the specified matched subrange within the target sequence. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/match_results/operator_at&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -180,8 +180,8 @@ Output:
     entire match: aaab
     submatch #1: aa
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/match_results/operator_at&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ str](str.html "cpp/regex/match results/str") |  returns the sequence of characters for the particular sub-match   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/match_results/dsc_str&action=edit)  
+(public member function)   
 ---|---

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Classes](classes.html "cpp/language/classes")
 
@@ -261,7 +261,7 @@ Inheritance
 [`override` specifier](override.html "cpp/language/override") (C++11)  
 [`final` specifier](final.html "cpp/language/final") (C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/classes/navbar_content&action=edit)
+
 
 A default constructor is a [constructor](initializer_list.html "cpp/language/constructor") which can be called with no arguments. 
 
@@ -282,7 +282,7 @@ A default constructor is a [constructor](initializer_list.html "cpp/language/con
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/default_constructor&action=edit&section=1 "Edit section: Syntax")] Syntax  
+### Syntax  
   
 ---  
 class-name ﻿`**(**` parameter-list ﻿(optional)`**);**` |  (1)  |   
@@ -296,7 +296,7 @@ class-name |  \-  |  the class whose default constructor is being declared
 parameter-list |  \-  |  a [parameter list](function.html#Parameter_list "cpp/language/function") where all parameters (except [parameter packs](parameter_pack.html "cpp/language/parameter pack"))(since C++11) have [default arguments](default_arguments.html "cpp/language/default arguments")  
 function-body |  \-  |  the [function body](initializer_list.html "cpp/language/constructor") of the default constructor   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/default_constructor&action=edit&section=2 "Edit section: Explanation")] Explanation
+### Explanation
 
 1) Declaration of a default constructor inside of class definition.
 
@@ -312,13 +312,13 @@ function-body |  \-  |  the [function body](initializer_list.html "cpp/language/
 
 Default constructors are called during [default initializations](default_initialization.html "cpp/language/default initialization") and [value initializations](value_initialization.html "cpp/language/value initialization"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/default_constructor&action=edit&section=3 "Edit section: Implicitly-declared default constructor")] Implicitly-declared default constructor
+### Implicitly-declared default constructor
 
 If there is no user-declared constructor or constructor template for a class type, the compiler will implicitly declare a default constructor as an inline public member of its class. 
 
 The implicitly-declared (or defaulted on its first declaration) default constructor has an exception specification as described in [dynamic exception specification](except_spec.html "cpp/language/except spec")(until C++17) [noexcept specification](noexcept_spec.html "cpp/language/noexcept spec")(since C++17). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/default_constructor&action=edit&section=4 "Edit section: Implicitly-defined default constructor")] Implicitly-defined default constructor
+### Implicitly-defined default constructor
 
 If the constructor is implicitly-declared(until C++11)the implicitly-declared or explicitly-defaulted default constructor is not defined as deleted(since C++11), it is implicitly-defined by the compiler when [odr-used](definition.html#ODR-use "cpp/language/definition") or [needed for constant evaluation](constant_expression.html#Functions_and_variables_needed_for_constant_evaluation "cpp/language/constant expression") or when it is explicitly defaulted after its first declaration(since C++11). 
 
@@ -371,7 +371,7 @@ If no user-defined constructors are present and the implicitly-declared default 
 
 (since C++11)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/default_constructor&action=edit&section=6 "Edit section: Trivial default constructor")] Trivial default constructor
+### Trivial default constructor
 
 The default constructor for class `T` is trivial if all following conditions are satisfied: 
 
@@ -401,7 +401,7 @@ The default constructor for class `T` is trivial if all following conditions are
   
 A trivial default constructor is a constructor that performs no action. All data types compatible with the C language (POD types) are trivially default-constructible. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/default_constructor&action=edit&section=7 "Edit section: Eligible default constructor")] Eligible default constructor
+### Eligible default constructor
 
 A default constructor is eligible if it is either user-declared or both implicitly-declared and definable.  | (until C++11)  
 ---|---  
@@ -417,13 +417,13 @@ A default constructor is eligible if all following conditions are satisfied:
   
 Triviality of eligible default constructors determines whether the class is an [implicit-lifetime type](lifetime.html#Implicit-lifetime_type "cpp/language/lifetime"), and whether the class is a [trivially copyable type](type-id.html#Trivially_copyable_type "cpp/language/type"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/default_constructor&action=edit&section=8 "Edit section: Notes")] Notes
+### Notes
 
 Feature-test macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_trivial_union`](../experimental/feature_test.html#cpp_trivial_union "cpp/feature test") | [`202502L`](../compiler_support/26.html#cpp_trivial_union_202502L "cpp/compiler support/26") | (C++26) | Relaxing the triviality requirements for special member functions of unions   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/default_constructor&action=edit&section=9 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -498,7 +498,7 @@ Run this code
     //  I i; // compile error
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/default_constructor&action=edit&section=10 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -516,7 +516,7 @@ but does not satisfy its associated constraints  | it can be eligible in this ca
 even if there is a user-declared constructor template  | no implicit declaration  
 in this case   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/default_constructor&action=edit&section=11 "Edit section: See also")] See also
+### See also
 
   * [constructor](initializer_list.html "cpp/language/constructor")
   * [initialization](initialization.html "cpp/language/initialization")

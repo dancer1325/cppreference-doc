@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Function objects](../../../functional.html "cpp/utility/functional")
 
@@ -255,7 +255,7 @@ Identity function object
 [unary_negate](../unary_negate.html "cpp/utility/functional/unary negate")(until C++20*)  
 [binary_negate](../binary_negate.html "cpp/utility/functional/binary negate")(until C++20*)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/navbar_content&action=edit)
+
 
 [`std::function`](../function.html "cpp/utility/functional/function")
 
@@ -277,7 +277,7 @@ Identity function object
 [uses_allocator<std::function>](uses_allocator.html "cpp/utility/functional/function/uses allocator")(until C++17)  
 [Deduction guides](deduction_guides.html "cpp/utility/functional/function/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/function/navbar_content&action=edit)
+
 
 explicit operator bool() const noexcept; |  |  (since C++11)  
 ---|---|---  
@@ -295,15 +295,15 @@ Checks whether *this stores a callable function target, i.e. is not empty.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/function/operator_bool&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/function/operator_bool&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 true if *this stores a callable function target, false otherwise. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/function/operator_bool&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -347,9 +347,9 @@ Output:
     f2: Function is not empty! Calling function.
     This is the sample function!
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/function/operator_bool&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ operator bool](../move_only_function/operator_bool.html "cpp/utility/functional/move only function/operator bool") |  checks if the `std::move_only_function` has a target   
-(public member function of `std::move_only_function`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/move_only_function/dsc_operator_bool&action=edit)  
+(public member function of `std::move_only_function`)   
 ---|---  
 ---

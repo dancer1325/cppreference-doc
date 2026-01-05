@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 **`std::variant`**
 
@@ -161,7 +161,7 @@ Common vocabulary types
 [Helper objects](variant.html#Helper_objects "cpp/utility/variant")  
 [variant_npos](variant/variant_npos.html "cpp/utility/variant/variant npos")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variant/navbar_content&action=edit)
+
 
 Defined in header `[<variant>](../header/variant.html "cpp/header/variant")` |  |   
 ---|---|---  
@@ -211,66 +211,66 @@ Types  |  \-  |  the types that may be stored in this variant. All types must me
 ###  Member functions
 
 [ (constructor)](variant/variant.html "cpp/utility/variant/variant") |  constructs the `variant` object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variant/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ (destructor)](variant/~variant.html "cpp/utility/variant/~variant") |  destroys the `variant`, along with its contained value   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variant/dsc_destructor&action=edit)  
+(public member function)   
 [ operator=](variant/operator=.html "cpp/utility/variant/operator=") |  assigns a `variant`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variant/dsc_operator%3D&action=edit)  
+(public member function)   
   
 #####  Observers   
   
 [ index](variant/index.html "cpp/utility/variant/index") |  returns the zero-based index of the alternative held by the `variant`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variant/dsc_index&action=edit)  
+(public member function)   
 [ valueless_by_exception](variant/valueless_by_exception.html "cpp/utility/variant/valueless by exception") |  checks if the `variant` is in the invalid state   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variant/dsc_valueless_by_exception&action=edit)  
+(public member function)   
   
 #####  Modifiers   
   
 [ emplace](variant/emplace.html "cpp/utility/variant/emplace") |  constructs a value in the `variant`, in place   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variant/dsc_emplace&action=edit)  
+(public member function)   
 [ swap](variant/swap.html "cpp/utility/variant/swap") |  swaps with another `variant`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variant/dsc_swap&action=edit)  
+(public member function)   
   
 #####  Visitation   
   
 [ visit](variant/visit.html "cpp/utility/variant/visit")(C++26) |  calls the provided functor with the argument held by the `variant`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variant/dsc_visit&action=edit)  
+(public member function)   
   
 ###  Non-member functions
 
 [ visit](variant/visit2.html "cpp/utility/variant/visit2")(C++17) |  calls the provided functor with the arguments held by one or more `variant`s   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variant/dsc_visit2&action=edit)  
+(function template)   
 ---|---  
 [ holds_alternative](variant/holds_alternative.html "cpp/utility/variant/holds alternative")(C++17) |  checks if a `variant` currently holds a given type   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variant/dsc_holds_alternative&action=edit)  
+(function template)   
 [ get(std::variant)](variant/get.html "cpp/utility/variant/get")(C++17) |  reads the value of the variant given the index or the type (if the type is unique), throws on error   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variant/dsc_get&action=edit)  
+(function template)   
 [ get_if](variant/get_if.html "cpp/utility/variant/get if")(C++17) |  obtains a pointer to the value of a pointed-to `variant` given the index or the type (if unique), returns null on error   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variant/dsc_get_if&action=edit)  
+(function template)   
 [ operator==operator!=operator<operator<=operator>operator>=operator<=>](variant/operator_cmp.html "cpp/utility/variant/operator cmp")(C++17)(C++17)(C++17)(C++17)(C++17)(C++17)(C++20) |  compares `variant` objects as their contained values   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variant/dsc_operator_cmp&action=edit)  
+(function template)   
 [ std::swap(std::variant)](variant/swap2.html "cpp/utility/variant/swap2")(C++17) |  specializes the [std::swap](swap.html "cpp/algorithm/swap") algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variant/dsc_swap2&action=edit)  
+(function template)   
   
 ###  Helper classes
 
 [ monostate](variant/monostate.html "cpp/utility/variant/monostate")(C++17) |  placeholder type for use as the first alternative in a `variant` of non-default-constructible types   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variant/dsc_monostate&action=edit)  
+(class)   
 ---|---  
 [ bad_variant_access](variant/bad_variant_access.html "cpp/utility/variant/bad variant access")(C++17) |  exception thrown on invalid accesses to the value of a `variant`   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variant/dsc_bad_variant_access&action=edit)  
+(class)   
 [ variant_sizevariant_size_v](variant/variant_size.html "cpp/utility/variant/variant size")(C++17) |  obtains the size of the `variant`'s list of alternatives at compile time  
-(class template) (variable template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variant/dsc_variant_size&action=edit)  
+(class template) (variable template)  
 [ variant_alternativevariant_alternative_t](variant/variant_alternative.html "cpp/utility/variant/variant alternative")(C++17) |  obtains the type of the alternative specified by its index, at compile time  
-(class template) (alias template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variant/dsc_variant_alternative&action=edit)  
+(class template) (alias template)  
 [ std::hash<std::variant>](variant/hash.html "cpp/utility/variant/hash")(C++17) |  hash support for **`std::variant`**   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variant/dsc_hash&action=edit)  
+(class template specialization)   
   
 ###  Helper objects
 
 [ variant_npos](variant/variant_npos.html "cpp/utility/variant/variant npos")(C++17) |  index of the `variant` in the invalid state   
-(constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variant/dsc_variant_npos&action=edit)  
+(constant)   
 ---|---  
   
 ###  Notes
@@ -352,11 +352,11 @@ nested within the `variant` object
 ###  See also
 
 [ in_placein_place_typein_place_indexin_place_tin_place_type_tin_place_index_t](in_place.html "cpp/utility/in place")(C++17) |  in-place construction tag  
-(tag)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_in_place&action=edit)  
+(tag)  
 ---|---  
 [ optional](optional.html "cpp/utility/optional")(C++17) |  a wrapper that may or may not hold an object   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_optional&action=edit)  
+(class template)   
 [ any](any.html "cpp/utility/any")(C++17) |  objects that hold instances of any [CopyConstructible](../named_req/CopyConstructible.html "cpp/named req/CopyConstructible") type   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_any&action=edit)
+(class) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

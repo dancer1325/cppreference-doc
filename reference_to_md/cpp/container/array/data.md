@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::array`](../array.html "cpp/container/array")
 
@@ -129,7 +129,7 @@ Tables
 [tuple_element<std::array>](tuple_element.html "cpp/container/array/tuple element")  
 [Deduction guides](deduction_guides.html "cpp/container/array/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/array/navbar_content&action=edit)
+
 
 T* data() noexcept; |  (1) | (since C++11)   
 (constexpr since C++17)  
@@ -153,19 +153,19 @@ If *this is empty, `data()` is not dereferenceable.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/data&action=edit&section=T-1 "Template:cpp/container/data")] Return value
+### Return value
 
 Pointer to the underlying element storage. For non-empty containers, the returned pointer compares equal to the address of the first element. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/data&action=edit&section=T-2 "Template:cpp/container/data")] Complexity
+### Complexity
 
 Constant. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/data&action=edit&section=T-3 "Template:cpp/container/data")] Notes
+### Notes
 
 If *this is empty, `data()` may or may not return a null pointer. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/data&action=edit&section=T-4 "Template:cpp/container/data")] Example
+### Example
 
 Run this code
     
@@ -208,18 +208,18 @@ Output:
     data = 1 2 3 4
     data = 1 2 3 4
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/data&action=edit&section=T-6 "Template:cpp/container/data")] See also
+### See also
 
 [ front](front.html "cpp/container/array/front") |  access the first element   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_front&action=edit)  
+(public member function)   
 ---|---  
 [ back](back.html "cpp/container/array/back") |  access the last element   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_back&action=edit)  
+(public member function)   
 [ size](size.html "cpp/container/array/size") |  returns the number of elements   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_size&action=edit)  
+(public member function)   
 [ operator[]](operator_at.html "cpp/container/array/operator at") |  access specified element   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_operator_at&action=edit)  
+(public member function)   
 [ span](../span.html "cpp/container/span")(C++20) |  a non-owning view over a contiguous sequence of objects   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_span&action=edit)  
+(class template)   
 [ data](../../iterator/data.html "cpp/iterator/data")(C++17) |  obtains the pointer to the underlying array   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_data&action=edit)
+(function template) 

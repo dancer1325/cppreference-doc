@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::flat_multimap`](../flat_multimap.html "cpp/container/flat multimap")
 
@@ -138,7 +138,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/flat multimap/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/flat_multimap/navbar_content&action=edit)
+
 
 containers extract() &&; |  |  (since C++23)  
 ---|---|---  
@@ -158,15 +158,15 @@ After this operation *this is empty, even if an exception is thrown.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/extract_ad&action=edit&section=T-1 "Template:cpp/container/extract ad")] Return value
+### Return value
 
 std::move(c). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/extract_ad&action=edit&section=T-2 "Template:cpp/container/extract ad")] Complexity
+### Complexity
 
 Constant. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/extract_ad&action=edit&section=T-3 "Template:cpp/container/extract ad")] Example
+### Example
 
 Run this code
     
@@ -204,8 +204,8 @@ Output:
     keys: [1, 2, 3]
     values: [1.1, 2.2, 3.3]
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/extract_ad&action=edit&section=T-4 "Template:cpp/container/extract ad")] See also
+### See also
 
 [ replace](replace.html "cpp/container/flat multimap/replace") |  replaces the underlying containers   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_replace&action=edit)  
+(public member function)   
 ---|---

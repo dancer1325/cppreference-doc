@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Library fundamentals v2](lib_extensions_2.html "cpp/experimental/lib extensions 2")
 
@@ -74,7 +74,7 @@
 [uniform container erasure](lib_extensions_2.html#Uniform_container_erasure "cpp/experimental/lib extensions 2")  
 [logical operator type traits](lib_extensions_2.html#Logical_operator_type_traits "cpp/experimental/lib extensions 2")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions_2/navbar_content&action=edit)
+
 
 **`std::experimental::observer_ptr`**
 
@@ -97,7 +97,7 @@ Non-member functions
 [swap](observer_ptr/swap2.html "cpp/experimental/observer ptr/swap2")  
 [std::hash](observer_ptr/hash.html "cpp/experimental/observer ptr/hash")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/observer_ptr/navbar_content&action=edit)
+
 
 Defined in header `[<experimental/memory>](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/memory&action=edit&redlink=1 "cpp/header/experimental/memory \(page does not exist\)")` |  |   
 ---|---|---  
@@ -131,62 +131,62 @@ Type requirements
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/observer_ptr&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Member type  |  Definition   
 ---|---  
 element_type |  `W`, the type of the object watched by this `observer_ptr`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/observer_ptr&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](observer_ptr/observer_ptr.html "cpp/experimental/observer ptr/observer ptr") |  constructs a new `observer_ptr`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/observer_ptr/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 (destructor)(implicitly declared) |  destructs an `observer_ptr`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/observer_ptr/dsc_destructor&action=edit)  
+(public member function)   
 operator=(implicitly declared) |  implicitly declared copy and move assignment operators that assign the stored pointer   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/observer_ptr/dsc_operator%3D&action=edit)  
+(public member function)   
   
 #####  Modifiers   
   
 [ release](observer_ptr/release.html "cpp/experimental/observer ptr/release") |  returns a pointer to the watched object and stops watching the object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/observer_ptr/dsc_release&action=edit)  
+(public member function)   
 [ reset](observer_ptr/reset.html "cpp/experimental/observer ptr/reset") |  replaces the watched object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/observer_ptr/dsc_reset&action=edit)  
+(public member function)   
 [ swap](observer_ptr/swap.html "cpp/experimental/observer ptr/swap") |  swaps the watched objects   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/observer_ptr/dsc_swap&action=edit)  
+(public member function)   
   
 #####  Observers   
   
 [ get](observer_ptr/get.html "cpp/experimental/observer ptr/get") |  returns a pointer to the watched object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/observer_ptr/dsc_get&action=edit)  
+(public member function)   
 [ operator bool](observer_ptr/operator_bool.html "cpp/experimental/observer ptr/operator bool") |  checks if there is an associated watched object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/observer_ptr/dsc_operator_bool&action=edit)  
+(public member function)   
 [ operator*operator->](observer_ptr/operator*.html "cpp/experimental/observer ptr/operator*") |  dereferences pointer to the watched object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/observer_ptr/dsc_operator*&action=edit)  
+(public member function)   
   
 #####  Conversions   
   
 [ operator element_type*](observer_ptr/operator_pointer.html "cpp/experimental/observer ptr/operator pointer") |  explicit conversion function to the stored pointer   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/observer_ptr/dsc_operator_pointer&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/observer_ptr&action=edit&section=3 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ make_observer](observer_ptr/make_observer.html "cpp/experimental/observer ptr/make observer") |  creates an `observer_ptr` that watches an object   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/observer_ptr/dsc_make_observer&action=edit)  
+(function template)   
 ---|---  
 [ operator==operator!=operator<operator<=operator>operator>=](observer_ptr/operator_cmp.html "cpp/experimental/observer ptr/operator cmp") |  compares to another `observer_ptr` or with nullptr   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/observer_ptr/dsc_operator_cmp&action=edit)  
+(function template)   
 [ std::experimental::swap(std::experimental::observer_ptr)](observer_ptr/swap2.html "cpp/experimental/observer ptr/swap2") |  specializes the `swap` algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/observer_ptr/dsc_swap2&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/observer_ptr&action=edit&section=4 "Edit section: Helper classes")] Helper classes
+### Helper classes
 
 [ std::hash<std::experimental::observer_ptr>](observer_ptr/hash.html "cpp/experimental/observer ptr/hash") |  hash support for `observer_ptr`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/observer_ptr/dsc_hash&action=edit)  
+(class template specialization)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/observer_ptr&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::enable_shared_from_this`](../enable_shared_from_this.html "cpp/memory/enable shared from this")
 
@@ -197,7 +197,7 @@ Public member functions
 **enable_shared_from_this::shared_from_this**  
 [enable_shared_from_this::weak_from_this](weak_from_this.html "cpp/memory/enable shared from this/weak from this")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/enable_shared_from_this/navbar_content&action=edit)
+
 
 [std::shared_ptr](../shared_ptr.html)<T> shared_from_this(); |  (1)  |  (since C++11)  
 ---|---|---  
@@ -216,15 +216,15 @@ Returns a [std::shared_ptr](../shared_ptr.html)<T> that shares ownership of *thi
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/enable_shared_from_this/shared_from_this&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 [std::shared_ptr](../shared_ptr.html)<T>(`_[weak_this](../enable_shared_from_this.html#weak_this "cpp/memory/enable shared from this")_` ﻿)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/enable_shared_from_this/shared_from_this&action=edit&section=2 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 If `shared_from_this` is called on an object that is not previously shared by [std::shared_ptr](../shared_ptr.html "cpp/memory/shared ptr"), [std::bad_weak_ptr](../bad_weak_ptr.html "cpp/memory/bad weak ptr") is thrown by the [std::shared_ptr](../shared_ptr.html "cpp/memory/shared ptr") constructor. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/enable_shared_from_this/shared_from_this&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -259,8 +259,8 @@ Output:
     pf2 is gone
     Foo::~Foo
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/enable_shared_from_this/shared_from_this&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ shared_ptr](../shared_ptr.html "cpp/memory/shared ptr")(C++11) |  smart pointer with shared object ownership semantics   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_shared_ptr&action=edit)  
+(class template)   
 ---|---

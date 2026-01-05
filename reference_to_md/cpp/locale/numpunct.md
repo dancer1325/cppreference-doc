@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Localization library](../locale.html "cpp/locale")
 
@@ -152,7 +152,7 @@ base classes](../locale.html#Facet_category_base_classes "cpp/locale")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/navbar_content&action=edit)
+
 
 **`std::numpunct`**
 
@@ -165,7 +165,7 @@ Member functions
 [numpunct::groupingnumpunct::do_grouping](numpunct/grouping.html "cpp/locale/numpunct/grouping")  
 [numpunct::truenamenumpunct::do_truenamenumpunct::falsenamenumpunct::do_falsename](numpunct/truefalsename.html "cpp/locale/numpunct/truefalsename")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/numpunct/navbar_content&action=edit)
+
 
 Defined in header `[<locale>](../header/locale.html "cpp/header/locale")` |  |   
 ---|---|---  
@@ -213,7 +213,7 @@ Inheritance diagram
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/numpunct&action=edit&section=1 "Edit section: Specializations")] Specializations
+### Specializations
 
 The standard library is guaranteed to provide the following specializations (they are [required to be implemented by any locale object](locale.html "cpp/locale/locale")): 
 
@@ -222,48 +222,48 @@ Defined in header `[<locale>](../header/locale.html "cpp/header/locale")`
 std::numpunct<char> |  provides equivalents of the "C" locale preferences   
 std::numpunct<wchar_t> |  provides wide character equivalents of the "C" locale preferences   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/numpunct&action=edit&section=2 "Edit section: Nested types")] Nested types
+### Nested types
 
 Type  |  Definition   
 ---|---  
 `char_type` |  `CharT`  
 `string_type` |  [std::basic_string](../string/basic_string.html)<CharT>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/facet_data_members&action=edit&section=T-1 "Template:cpp/locale/facet data members")] Data members
+### Data members
 
 Member  |  Description   
 ---|---  
 [std::locale::id](locale/id.html "cpp/locale/locale/id") `id` [static] |  the identifier of the [facet](locale/facet.html#Facet_class "cpp/locale/locale/facet")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/numpunct&action=edit&section=3 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](numpunct/numpunct.html "cpp/locale/numpunct/numpunct") |  constructs a new `numpunct` facet   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/numpunct/dsc_numpunct&action=edit)  
+(public member function)   
 ---|---  
 [ (destructor)](numpunct/~numpunct.html "cpp/locale/numpunct/~numpunct") |  destructs a `numpunct` facet   
-(protected member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/numpunct/dsc_%7Enumpunct&action=edit)  
+(protected member function)   
 [ decimal_point](numpunct/decimal_point.html "cpp/locale/numpunct/decimal point") |  invokes `do_decimal_point`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/numpunct/dsc_decimal_point&action=edit)  
+(public member function)   
 [ thousands_sep](numpunct/thousands_sep.html "cpp/locale/numpunct/thousands sep") |  invokes `do_thousands_sep`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/numpunct/dsc_thousands_sep&action=edit)  
+(public member function)   
 [ grouping](numpunct/grouping.html "cpp/locale/numpunct/grouping") |  invokes `do_grouping`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/numpunct/dsc_grouping&action=edit)  
+(public member function)   
 [ truenamefalsename](numpunct/truefalsename.html "cpp/locale/numpunct/truefalsename") |  invokes `do_truename` or `do_falsename`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/numpunct/dsc_truefalsename&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/numpunct&action=edit&section=4 "Edit section: Protected member functions")] Protected member functions
+### Protected member functions
 
 [ do_decimal_point](numpunct/decimal_point.html "cpp/locale/numpunct/decimal point")[virtual] |  provides the character to use as decimal point   
-(virtual protected member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/numpunct/dsc_do_decimal_point&action=edit)  
+(virtual protected member function)   
 ---|---  
 [ do_thousands_sep](numpunct/thousands_sep.html "cpp/locale/numpunct/thousands sep")[virtual] |  provides the character to use as thousands separator   
-(virtual protected member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/numpunct/dsc_do_thousands_sep&action=edit)  
+(virtual protected member function)   
 [ do_grouping](numpunct/grouping.html "cpp/locale/numpunct/grouping")[virtual] |  provides the numbers of digits between each pair of thousands separators   
-(virtual protected member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/numpunct/dsc_do_grouping&action=edit)  
+(virtual protected member function)   
 [ do_truenamedo_falsename](numpunct/truefalsename.html "cpp/locale/numpunct/truefalsename")[virtual] |  provides the string to use as the name of the boolean true and false   
-(virtual protected member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/numpunct/dsc_do_truefalsename&action=edit)  
+(virtual protected member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/numpunct&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 The following example changes the string representations of true and false:
 
@@ -294,7 +294,7 @@ Output:
     default locale: true, false
     locale with modified numpunct: vrai, faux
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/numpunct&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -302,7 +302,7 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 338](https://cplusplus.github.io/LWG/issue338) | C++98  | the `sign` token allowed an optional whitespace following `+` or `-` | removed the whitespace   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/numpunct&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ numpunct_byname](numpunct_byname.html "cpp/locale/numpunct byname") |  creates a numpunct facet for the named locale   
 (class template)  

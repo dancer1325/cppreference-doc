@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Expressions](expressions.html "cpp/language/expressions")
 
@@ -289,7 +289,7 @@ Conversions
 [`dynamic_cast`](dynamic_cast.html "cpp/language/dynamic cast")  
 [`reinterpret_cast`](reinterpret_cast.html "cpp/language/reinterpret cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/expressions/navbar_content&action=edit)
+
 
 Enables [implicit conversion](implicit_cast.html "cpp/language/implicit cast") or [explicit conversion](explicit_cast.html "cpp/language/explicit cast") from a [class type](class.html "cpp/language/class") to another type. 
 
@@ -303,7 +303,7 @@ Enables [implicit conversion](implicit_cast.html "cpp/language/implicit cast") o
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/cast_operator&action=edit&section=1 "Edit section: Syntax")] Syntax
+### Syntax
 
 Conversion function is declared like a [non-static member function](member_functions.html "cpp/language/member functions") or member [function template](function_template.html "cpp/language/function template") with no parameters, no explicit return type, and with the name of the form:   
   
@@ -354,7 +354,7 @@ When such member function is declared in class X, it performs conversion from X 
         int (*pa)[3] = x;  // OK
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/cast_operator&action=edit&section=2 "Edit section: Explanation")] Explanation
+### Explanation
 
 User-defined conversion function is invoked in the second stage of the [implicit conversion](implicit_cast.html "cpp/language/implicit cast"), which consists of zero or one [converting constructor](converting_constructor.html "cpp/language/converting constructor") or zero or one user-defined conversion function. 
 
@@ -454,11 +454,11 @@ Conversion functions can be inherited and can be [virtual](virtual.html "cpp/lan
 
 Conversion function can be a template member function, for example, [`std::auto_ptr<T>::operator auto_ptr<Y>`](../memory/auto_ptr/operator_auto_ptr.html "cpp/memory/auto ptr/operator auto ptr"). See [member template](member_template.html#Conversion_function_templates "cpp/language/member template") and [template argument deduction](template_argument_deduction.html#Conversion_function_template "cpp/language/template argument deduction") for applicable special rules. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/cast_operator&action=edit&section=3 "Edit section: Keywords")] Keywords
+### Keywords
 
 [`operator`](../keyword/operator.html "cpp/keyword/operator")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/cast_operator&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

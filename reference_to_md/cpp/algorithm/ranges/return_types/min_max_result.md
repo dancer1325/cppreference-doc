@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Constrained algorithms](../../ranges.html "cpp/algorithm/ranges")
 
@@ -284,7 +284,7 @@ All names in this menu belong to namespace `std::ranges`
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/navbar_content&action=edit)
+
 
 [ Return types of constrained algorithms](../../ranges.html#Return_types "cpp/algorithm/ranges")
 
@@ -300,7 +300,7 @@ Return types
 **ranges::min_max_result**  
 [ranges::out_value_result](out_value_result.html "cpp/algorithm/ranges/return types/out value result")(C++23)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/return_types/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../../../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -330,12 +330,12 @@ All special member functions of this class template are implicitly declared, whi
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/return_types/min_max_result&action=edit&section=1 "Edit section: Template parameters")] Template parameters
+### Template parameters
 
 T  |  \-  |  the type of the objects or references that the `ranges::min_max_result` stores.   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/return_types/min_max_result&action=edit&section=2 "Edit section: Data members")] Data members
+### Data members
 
 Member name  |  Definition   
 ---|---  
@@ -346,7 +346,7 @@ max |  may be a reference to, a copy of, or an iterator of type `T` to a maximum
   
 All these members are declared with `[[[no_unique_address](../../../language/attributes/no_unique_address.html "cpp/language/attributes/no unique address")]]` attribute. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/return_types/min_max_result&action=edit&section=3 "Edit section: Member functions")] Member functions
+### Member functions
 
 ##  std::ranges::min_max_result::operator min_max_result<T2>
 
@@ -365,7 +365,7 @@ Converts *this to the result by constructing every data member of the result fro
 
 2) Equivalent to return {std::move(min), std::move(max)};. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/return_types/min_max_result&action=edit&section=4 "Edit section: Standard library")] Standard library
+### Standard library
 
 The following standard library functions use `ranges::min_max_result` as the return type: 
 
@@ -373,11 +373,11 @@ The following standard library functions use `ranges::min_max_result` as the ret
   
 ---  
 [ ranges::minmax](../minmax.html "cpp/algorithm/ranges/minmax")(C++20) |  returns the smaller and larger of two elements  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_minmax&action=edit)  
+(algorithm function object)  
 [ ranges::minmax_element](../minmax_element.html "cpp/algorithm/ranges/minmax element")(C++20) |  returns the smallest and the largest elements in a range  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_minmax_element&action=edit)  
+(algorithm function object)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/return_types/min_max_result&action=edit&section=5 "Edit section: Synopsis")] Synopsis 
+### Synopsis 
     
     
     namespace std::ranges
@@ -404,7 +404,7 @@ The following standard library functions use `ranges::min_max_result` as the ret
         };
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/return_types/min_max_result&action=edit&section=6 "Edit section: Notes")] Notes
+### Notes
 
 Each standard library algorithm that uses this family of return types declares a new [alias type](../../../language/type_alias.html "cpp/language/type alias"), e.g. using merge_result = in_in_out_result<I1, I2, O>;. 
 
@@ -412,7 +412,7 @@ The names for such aliases are formed by adding the suffix "_`_result`_ " to the
 
 Unlike [std::pair](../../../utility/pair.html "cpp/utility/pair") and [std::tuple](../../../utility/tuple.html "cpp/utility/tuple"), this class template has data members of meaningful names. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/return_types/min_max_result&action=edit&section=7 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -433,10 +433,10 @@ Run this code
         }
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/return_types/min_max_result&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [ pair](../../../utility/pair.html "cpp/utility/pair") |  implements binary tuple, i.e. a pair of values   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_pair&action=edit)  
+(class template)   
 ---|---  
 [ tuple](../../../utility/tuple.html "cpp/utility/tuple")(C++11) |  implements fixed size container, which holds elements of possibly different types   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_tuple&action=edit)
+(class template) 

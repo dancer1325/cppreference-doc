@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [`std::complex`](../complex.html "cpp/numeric/complex")
 
@@ -164,7 +164,7 @@
 [tuple_size<std::complex>](tuple_size.html "cpp/numeric/complex/tuple size")(C++26)  
 [tuple_element<std::complex>](tuple_element.html "cpp/numeric/complex/tuple element")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/navbar_content&action=edit)
+
 
 Primary template ([std::complex](../complex.html)<T>) |  |   
 ---|---|---  
@@ -226,22 +226,22 @@ Constructs the [std::complex](../complex.html) object. The standard explicit spe
 ---|---  
 For the main template, the expression inside explicit evaluates to false if and only if the [floating-point conversion rank](../../language/usual_arithmetic_conversions.html#Floating-point_conversion_rank "cpp/language/usual arithmetic conversions") of `T` is greater than or equal to the floating-point conversion rank of `X`.  | (since C++23)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/complex&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 re  |  \-  |  the real part   
 ---|---|---  
 im  |  \-  |  the imaginary part   
 other  |  \-  |  another complex number to use as source   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/complex&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 Since C++23, the copy constructor is required to be [trivial](../../language/copy_constructor.html#Trivial_copy_constructor "cpp/language/copy constructor") in order to satisfy the [TriviallyCopyable](../../named_req/TriviallyCopyable.html "cpp/named req/TriviallyCopyable") requirement, but implementations generally make it trivial in all modes. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/complex&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ operator=](operator=.html "cpp/numeric/complex/operator=") |  assigns the contents   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_operator%3D&action=edit)  
+(public member function)   
 ---|---  
 [ operator""ifoperator""ioperator""il](operator""i.html "cpp/numeric/complex/operator""i")(C++14) |  a [std::complex](../complex.html "cpp/numeric/complex") literal representing purely imaginary number   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/dsc_operator%22%22i&action=edit)  
+(function)   
 [C documentation](../../../c/numeric/complex/CMPLX.html "c/numeric/complex/CMPLX") for CMPLX

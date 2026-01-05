@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [Common mathematical functions](../math.html "cpp/numeric/math")
 
@@ -230,7 +230,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/navbar_content&action=edit)
+
 
 Defined in header `[<cmath>](../../header/cmath.html "cpp/header/cmath")` |  |   
 ---|---|---  
@@ -275,25 +275,25 @@ A) Additional overloads are provided for all integer types, which are treated as
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/unary_is&action=edit&section=T-1 "Template:cpp/numeric/math/unary is")] Parameters
+### Parameters
 
 num  |  \-  |  floating-point or integer value   
 ---|---|---  
 v_num  |  \-  |  a data-parallel object of std::basic_simd specialization where its element type is a floating-point type   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/unary_is&action=edit&section=T-2 "Template:cpp/numeric/math/unary is")] Return value
+### Return value
 
 1) true if num is negative, false otherwise.
 
 S) A data-parallel mask object where the ith element equals true if v_num[i] is negative or false otherwise for all i in the range `[`​0​`, `v_num.size()`)`.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/unary_is&action=edit&section=T-3 "Template:cpp/numeric/math/unary is")] Notes
+### Notes
 
 This function detects the sign bit of zeroes, infinities, and NaNs. Along with [std::copysign](copysign.html "cpp/numeric/math/copysign"), `std::signbit` is one of the only two portable ways to examine the sign of a NaN. 
 
 The additional overloads are not required to be provided exactly as (A). They only need to be sufficient to ensure that for their argument num of integer type, std::signbit(num) has the same effect as std::signbit(static_cast<double>(num)). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/signbit&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -322,11 +322,11 @@ Output:
     signbit(+inf) = false
     signbit(-inf) = true
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/signbit&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ abs(float)fabsfabsffabsl](fabs.html "cpp/numeric/math/fabs")(C++11)(C++11) |  absolute value of a floating point value (\\(\small{|x|}\\)|x|)   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_fabs&action=edit)  
+(function)   
 ---|---  
 [ copysigncopysignfcopysignl](copysign.html "cpp/numeric/math/copysign")(C++11)(C++11)(C++11) |  copies the sign of a floating point value   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_copysign&action=edit)  
+(function)   
 [C documentation](../../../c/numeric/math/signbit.html "c/numeric/math/signbit") for signbit

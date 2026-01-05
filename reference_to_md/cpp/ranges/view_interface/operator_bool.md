@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::view_interface`](../view_interface.html "cpp/ranges/view interface")
 
@@ -240,7 +240,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
 [back](back.html "cpp/ranges/view interface/back")  
 [operator[]](operator_at.html "cpp/ranges/view interface/operator at")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/navbar_content&action=edit)
+
 
 constexpr explicit operator bool() requires /* see below */; |  (1)  |  (since C++20)  
 ---|---|---  
@@ -263,17 +263,17 @@ The default implementation of operator bool member function checks whether the v
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/view_interface/operator_bool&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 false if the value of the derived type is empty (determined by [std::ranges::empty](../empty.html "cpp/ranges/empty")), true otherwise. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/view_interface/operator_bool&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 In C++20, no type derived from [std::ranges::view_interface](../view_interface.html "cpp/ranges/view interface") in the standard library provides their own operator bool. Almost all of these types use the default implementation. 
 
 A notable exception is [std::ranges::basic_istream_view](../basic_istream_view.html "cpp/ranges/basic istream view"). For its iterator type never satisfies [`forward_iterator`](../../iterator/forward_iterator.html "cpp/iterator/forward iterator"), the view cannot use the inherited operator bool. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/view_interface/operator_bool&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -298,12 +298,12 @@ Output:
     Has odd numbers: true
     Has negative numbers: false
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/view_interface/operator_bool&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ ranges::empty](../empty.html "cpp/ranges/empty")(C++20) |  checks whether a range is empty  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_empty&action=edit)  
+(customization point object)  
 ---|---  
 [ empty](empty.html "cpp/ranges/view interface/empty") |  returns whether the derived view is empty, provided only if it satisfies [`sized_range`](../sized_range.html "cpp/ranges/sized range") or [`forward_range`](../forward_range.html "cpp/ranges/forward range")   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_empty&action=edit)  
+(public member function)   
 [ empty](../../iterator/empty.html "cpp/iterator/empty")(C++17) |  checks whether the container is empty   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_empty&action=edit)
+(function template) 

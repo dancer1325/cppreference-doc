@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Type support](../utility/rtti.html "cpp/types")
 
@@ -161,7 +161,7 @@ Runtime type information
 ---  
 [bad_cast](bad_cast.html "cpp/types/bad cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/navbar_content&action=edit)
+
 
 **`std::type_index`**
 
@@ -174,7 +174,7 @@ Member functions
 Helper classes  
 [hash<std::type_index>](type_index/hash.html "cpp/types/type index/hash")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/type_index/navbar_content&action=edit)
+
 
 Defined in header `[<typeindex>](../header/typeindex.html "cpp/header/typeindex")` |  |   
 ---|---|---  
@@ -193,30 +193,30 @@ The `type_index` class is a wrapper class around a [std::type_info](type_info.ht
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/type_index&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](type_index/type_index.html "cpp/types/type index/type index") |  constructs the object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/type_index/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 (destructor)(implicitly declared) |  destroys the `type_index` object   
 (public member function)  
 operator=(implicitly declared) |  assigns a `type_index` object   
 (public member function)  
 [ operator==operator!=operator<operator<=operator>operator>=operator<=>](type_index/operator_cmp.html "cpp/types/type index/operator cmp")(removed in C++20)(C++20) |  compares the underlying **std::type_index** objects   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/type_index/dsc_operator_cmp&action=edit)  
+(public member function)   
 [ hash_code](type_index/hash_code.html "cpp/types/type index/hash code") |  returns hashed code   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/type_index/dsc_hash_code&action=edit)  
+(public member function)   
 [ name](type_index/name.html "cpp/types/type index/name") |  returns implementation defined name of the type,  
 associated with underlying [`type_info`](type_info.html "cpp/types/type info") object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/type_index/dsc_name&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/type_index&action=edit&section=2 "Edit section: Helper classes")] Helper classes
+### Helper classes
 
 [ std::hash<std::type_index>](type_index/hash.html "cpp/types/type index/hash")(C++11) |  hash support for **`std::type_index`**   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/type_index/dsc_hash&action=edit)  
+(class template specialization)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/type_index&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 The following program is an example of an efficient type-value mapping.
 
@@ -272,8 +272,8 @@ Output:
     *b is B
     *c is C
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/type_index&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ type_info](type_info.html "cpp/types/type info") |  contains some type’s information, the class returned by the typeid operator   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_type_info&action=edit)  
+(class)   
 ---|---

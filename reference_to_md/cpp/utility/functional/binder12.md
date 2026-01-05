@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Function objects](../../functional.html "cpp/utility/functional")
 
@@ -255,7 +255,7 @@ Identity function object
 [unary_negate](unary_negate.html "cpp/utility/functional/unary negate")(until C++20*)  
 [binary_negate](binary_negate.html "cpp/utility/functional/binary negate")(until C++20*)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/navbar_content&action=edit)
+
 
 Defined in header `[<functional>](../../header/functional.html "cpp/header/functional")` |  |   
 ---|---|---  
@@ -305,7 +305,7 @@ The value of the parameter is passed to the object at the construction time and 
 
 2) Binds the second parameter to the value value given at the construction of the object.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/binder12&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -342,7 +342,7 @@ Output:
     90°	= 1.570796 rad (using binder)	= 1.570796 rad (using lambda)
     180°	= 3.141593 rad (using binder)	= 3.141593 rad (using lambda)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/binder12&action=edit&section=2 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -350,8 +350,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 109](https://cplusplus.github.io/LWG/issue109) | C++98  | `operator()` could not modify to argument passed to it  | added overloads to handle this   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/binder12&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ bind1stbind2nd](bind12.html "cpp/utility/functional/bind12")(deprecated in C++11)(removed in C++17) |  binds one argument to a binary function   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_bind12&action=edit)  
+(function template)   
 ---|---

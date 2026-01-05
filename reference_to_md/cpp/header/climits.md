@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,32 +194,32 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header was originally in the C standard library as [`<limits.h>`](../../c/header/limits.html "c/header/limits"). 
 
 This header is part of the [type support](../utility/rtti.html "cpp/types") library, in particular it's part of the [C numeric limits interface](../types/climits.html "cpp/types/climits"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/climits&action=edit&section=1 "Edit section: Macros")] Macros
+### Macros
 
 CHAR_BIT |  bit width of byte   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_CHAR_BIT&action=edit)  
+(macro constant)   
 ---|---  
 MB_LEN_MAX |  maximum number of bytes in a multibyte character   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_MB_LEN_MAX&action=edit)  
+(macro constant)   
 CHAR_MIN |  minimum value of char   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_CHAR_MIN&action=edit)  
+(macro constant)   
 CHAR_MAX |  maximum value of char   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_CHAR_MAX&action=edit)  
+(macro constant)   
 SCHAR_MINSHRT_MININT_MINLONG_MINLLONG_MIN(C++11) |  minimum value of signed char, short, int, long and long long respectively   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_signed_MIN&action=edit)  
+(macro constant)   
 SCHAR_MAXSHRT_MAXINT_MAXLONG_MAXLLONG_MAX(C++11) |  maximum value of signed char, short, int, long and long long respectively   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_signed_MAX&action=edit)  
+(macro constant)   
 UCHAR_MAXUSHRT_MAXUINT_MAXULONG_MAXULLONG_MAX(C++11) |  maximum value of unsigned char, unsigned short, unsigned int,  
 unsigned long and unsigned long long respectively   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_unsigned_MAX&action=edit)  
+(macro constant)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/climits&action=edit&section=2 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     #define CHAR_BIT      /* see definition */

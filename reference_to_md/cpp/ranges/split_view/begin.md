@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::split_view`](../split_view.html "cpp/ranges/split view")
 
@@ -240,7 +240,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
 [split_view::_sentinel_](sentinel.html "cpp/ranges/split view/sentinel")  
 [Deduction guides](deduction_guides.html "cpp/ranges/split view/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/split_view/navbar_content&action=edit)
+
 
 constexpr /*iterator*/ begin(); |  |  (since C++20)  
 ---|---|---  
@@ -270,15 +270,15 @@ Let `_[base_](../split_view.html#base "cpp/ranges/split view")_` be the underlyi
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/split_view/begin&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 An [iterator](iterator.html "cpp/ranges/split view/iterator"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/split_view/begin&action=edit&section=2 "Edit section: Complexity")] Complexity
+### Complexity
 
 Amortized \\(\scriptsize \mathcal{O}(1)\\)O(1). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/split_view/begin&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -315,12 +315,12 @@ Output:
     begin(): "K"
     Letters: K e e p . . m o v i n g . . f o r w a r d . .
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/split_view/begin&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ end](end.html "cpp/ranges/split view/end") |  returns an iterator or a sentinel to the end   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/dsc_end&action=edit)  
+(public member function)   
 ---|---  
 [ begin](../lazy_split_view/begin.html "cpp/ranges/lazy split view/begin") |  returns an iterator to the beginning   
-(public member function of `std::ranges::lazy_split_view<V,Pattern>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/dsc_begin&action=edit)  
+(public member function of `std::ranges::lazy_split_view<V,Pattern>`)   
 [ ranges::begin](../begin.html "cpp/ranges/begin")(C++20) |  returns an iterator to the beginning of a range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_begin&action=edit)
+(customization point object)

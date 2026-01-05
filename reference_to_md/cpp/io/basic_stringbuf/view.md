@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_stringbuf`](../basic_stringbuf.html "cpp/io/basic stringbuf")
 
@@ -101,7 +101,7 @@ Non-member functions
 Exposition-only member functions  
 [basic_stringbuf::_init_buf_ptrs_](init_buf_ptrs.html "cpp/io/basic stringbuf/init buf ptrs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_stringbuf/navbar_content&action=edit)
+
 
 [std::basic_string_view](../../string/basic_string_view.html)<CharT, Traits> view() const noexcept; |  |  (since C++20)  
 ---|---|---  
@@ -127,24 +127,24 @@ The member character sequence in a buffer open for writing can be over-allocated
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_stringbuf/view&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_stringbuf/view&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 A view over the underlying character sequence. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_stringbuf/view&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Using of the return value is undefined behavior if the underlying character sequence is destroyed or invalidated, unless the return value is empty. 
 
 This function is typically accessed through std::basic_istringstream::view(), std::basic_ostringstream::view(), or std::basic_stringstream::view(). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_stringbuf/view&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ str](str.html "cpp/io/basic stringbuf/str") |  replaces or obtains a copy of the associated character string   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_stringbuf/dsc_str&action=edit)  
+(public member function)   
 ---|---  
 [ operator basic_string_view](../../string/basic_string/operator_basic_string_view.html "cpp/string/basic string/operator basic string view")(C++17) |  returns a non-modifiable `basic_string_view` into the entire string   
-(public member function of `std::basic_string<CharT,Traits,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_operator_string_view&action=edit)
+(public member function of `std::basic_string<CharT,Traits,Allocator>`) 

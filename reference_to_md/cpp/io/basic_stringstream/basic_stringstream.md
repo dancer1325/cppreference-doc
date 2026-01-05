@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -79,7 +79,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_stringstream`](../basic_stringstream.html "cpp/io/basic stringstream")
 
@@ -95,7 +95,7 @@ String operations
 Non-member functions  
 [swap(std::basic_stringstream)](swap2.html "cpp/io/basic stringstream/swap2")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_stringstream/navbar_content&action=edit)
+
 
 | (1) |   
 ---|---|---  
@@ -184,7 +184,7 @@ load  | [std::basic_iostream](../basic_iostream.html "cpp/io/basic iostream") ba
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_stringstream/constructor&action=edit&section=T-1 "Template:cpp/io/basic stringstream/constructor")] Parameters
+### Parameters
 
 str  |  \-  |  string to use as initial contents of the string stream   
 ---|---|---  
@@ -201,7 +201,7 @@ mode  |  \-  |  specifies stream open mode. It is a [BitmaskType](../../named_re
 [`noreplace`](../ios_base/openmode.html "cpp/io/ios base/openmode") (C++23) |  open in exclusive mode   
 other  |  \-  |  another string stream to use as source   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_stringstream/constructor&action=edit&section=T-2 "Template:cpp/io/basic stringstream/constructor")] Notes
+### Notes
 
 Construction of one-off `basic_stringstream` objects in a tight loop, such as when used for string conversion, may be significantly more costly than calling [str()](str.html "cpp/io/basic stringstream/str") to reuse the same object. 
 
@@ -209,7 +209,7 @@ Construction of one-off `basic_stringstream` objects in a tight loop, such as wh
 ---|---|---|---  
 [`__cpp_lib_sstream_from_string_view`](../../experimental/feature_test.html#cpp_lib_sstream_from_string_view "cpp/feature test") | [`202306L`](../../compiler_support/26.html#cpp_lib_sstream_from_string_view_202306L "cpp/compiler support/26") | (C++26) | Interfacing [std::stringstream](../basic_stringstream.html "cpp/io/basic stringstream")s with [std::string_view](../../string/basic_string_view.html "cpp/string/basic string view"), ([9-11](basic_stringstream.html#Version_9))  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_stringstream/constructor&action=edit&section=T-3 "Template:cpp/io/basic stringstream/constructor")] Example
+### Example
 
 Run this code
     
@@ -244,7 +244,7 @@ Output:
     n = -10
     test1
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_stringstream/constructor&action=edit&section=T-4 "Template:cpp/io/basic stringstream/constructor")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -252,12 +252,12 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [P0935R0](https://wg21.link/P0935R0) | C++11  | the default constructor was explicit  | made implicit   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_stringstream/constructor&action=edit&section=T-5 "Template:cpp/io/basic stringstream/constructor")] See also
+### See also
 
 [ str](str.html "cpp/io/basic stringstream/str") |  gets or sets the contents of underlying string device object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_stringstream/dsc_str&action=edit)  
+(public member function)   
 ---|---  
 [ (constructor)](../basic_stringbuf/basic_stringbuf.html "cpp/io/basic stringbuf/basic stringbuf") |  constructs a `basic_stringbuf` object   
-(public member function of `std::basic_stringbuf<CharT,Traits,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_stringbuf/dsc_constructor&action=edit)
+(public member function of `std::basic_stringbuf<CharT,Traits,Allocator>`) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

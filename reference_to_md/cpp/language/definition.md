@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Basic Concepts](basics.html "cpp/language/basic concepts")
 
@@ -249,7 +249,7 @@ Miscellaneous
 [Modules](modules.html "cpp/language/modules") (C++20)  
 [Contracts](contracts.html "cpp/language/contracts") (C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/basics/navbar_content&action=edit)
+
 
 _Definitions_ are [declarations](declarations.html "cpp/language/declarations") that fully define the entity introduced by the declaration. Every declaration is a definition, except for the following: 
 
@@ -412,7 +412,7 @@ If the definition of any object results in an object of [incomplete type](incomp
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/definition&action=edit&section=1 "Edit section: One Definition Rule")] One Definition Rule
+### One Definition Rule
 
 Only one definition of any variable, function, class type, enumeration type[, concept](constraints.html "cpp/language/constraints")(since C++20) or template is allowed in any one translation unit (some of these may have multiple declarations, but only one definition is allowed). 
 
@@ -473,7 +473,7 @@ If all these requirements are satisfied, the program behaves as if there is only
 
 Note: in C, there is no program-wide ODR for types, and even extern declarations of the same variable in different translation units may have different types [as long as they are compatible](../../c/language/compatible_type.html#Compatible_types "c/language/type"). In C++, the source-code tokens used in declarations of the same type must be the same as described above: if one .cpp file defines struct S { int x; }; and the other .cpp file defines struct S { int y; };, the behavior of the program that links them together is undefined. This is usually resolved with [unnamed namespaces](namespace.html "cpp/language/namespace"). 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/definition&action=edit&section=2 "Edit section: Naming an entity")] Naming an entity
+#### Naming an entity
 
 A variable is _named_ by an expression if the expression is an identifier expression that denotes it. 
 
@@ -491,7 +491,7 @@ A potentially evaluated expression or conversion odr-uses a function if it names
 A potentially constant evaluated expression or conversion that names a constexpr function makes it [needed for constant evaluation](constant_expression.html#Functions_and_variables_needed_for_constant_evaluation "cpp/language/constant expression"), which triggers definition of a defaulted function or instantiation of a function template specialization, even if the expression is unevaluated.  | (since C++11)  
 ---|---  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/definition&action=edit&section=3 "Edit section: Potential results")] Potential results
+#### Potential results
 
 The set of _potential results_ of an expression E is a (possibly empty) set of identifier expressions that appear within E, combined as follows: 
 
@@ -507,7 +507,7 @@ The set of _potential results_ of an expression E is a (possibly empty) set of i
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/definition&action=edit&section=4 "Edit section: ODR-use \(informal definition\)")] ODR-use (informal definition)
+#### ODR-use (informal definition)
 
 An object is odr-used if its value is read (unless it is a compile time constant) or written, its address is taken, or a reference is bound to it, 
 
@@ -529,7 +529,7 @@ If an entity is odr-used, its definition must exist somewhere in the program; a 
     int n = b ? (1, S::x) // S::x is not odr-used here
               : f(S::x);  // S::x is odr-used here: a definition is required
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/definition&action=edit&section=5 "Edit section: ODR-use \(formal definition\)")] ODR-use (formal definition)
+#### ODR-use (formal definition)
 
 A variable x that is named by a [potentially-evaluated expression](expressions.html#Potentially-evaluated_expressions "cpp/language/expressions") expr that appears at a point `P` is odr-used by expr, unless any of the following conditions is satisfied: 
 
@@ -589,7 +589,7 @@ A function is odr-used in following cases:
 Reason: list of all situations where odr-use makes a difference   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/definition&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -622,7 +622,7 @@ of a member access expression accessing it  | it is
 [CWG 2433](https://cplusplus.github.io/CWG/issues/2433.html) | C++14  | a variable template could not have  
 multiple definitions in a program  | it can   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/definition&action=edit&section=7 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 

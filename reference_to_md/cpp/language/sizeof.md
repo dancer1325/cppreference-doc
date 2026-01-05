@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Expressions](expressions.html "cpp/language/expressions")
 
@@ -289,7 +289,7 @@ Conversions
 [`dynamic_cast`](dynamic_cast.html "cpp/language/dynamic cast")  
 [`reinterpret_cast`](reinterpret_cast.html "cpp/language/reinterpret cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/expressions/navbar_content&action=edit)
+
 
 Queries size of the object or type. 
 
@@ -307,7 +307,7 @@ Used when actual size of the object must be known.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/sizeof&action=edit&section=1 "Edit section: Syntax")] Syntax  
+### Syntax  
   
 ---  
 `**sizeof(**` type `**)**` |  (1)  |   
@@ -323,7 +323,7 @@ expression |  \-  |  an expression whose [operator precedence](operator_preceden
   
 The result of a `sizeof` expression is a [constant expression](constant_expression.html "cpp/language/constant expression") of type [std::size_t](../types/size_t.html "cpp/types/size t"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/sizeof&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 Depending on the computer architecture, a [byte](https://en.wikipedia.org/wiki/byte "enwiki:byte") may consist of 8 or more bits, the exact number being recorded in [CHAR_BIT](../types/climits.html "cpp/types/climits"). 
 
@@ -354,11 +354,11 @@ The result of `sizeof` is always nonzero, even if applied to an empty class type
 
 When applied to an expression, `sizeof` does [not evaluate the expression](expressions.html#Potentially-evaluated_expressions "cpp/language/expressions") (i.e. the expression is an unevaluated operand)(since C++11), and even if the expression designates a polymorphic object, the result is the size of the static type of the expression. Lvalue-to-rvalue, array-to-pointer, or function-to-pointer conversions are not performed. [Temporary materialization](implicit_cast.html#Temporary_materialization "cpp/language/implicit conversion"), however, is (formally) performed for prvalue arguments: the program is ill-formed if the argument is not destructible.(since C++17)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/sizeof&action=edit&section=3 "Edit section: Keywords")] Keywords
+### Keywords
 
 [`sizeof`](../keyword/sizeof.html "cpp/keyword/sizeof")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/sizeof&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 The example output corresponds to a system with 64-bit pointers and 32-bit int (a.k.a. [**LP64** or **LLP64**](types.html#Data_models "cpp/language/types")).
 
@@ -441,7 +441,7 @@ Possible output:
     J) sizeof f():                      1
     K) sizeof Base::a:                  4
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/sizeof&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -449,12 +449,12 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [CWG 1553](https://cplusplus.github.io/CWG/issues/1553.html) | C++11  | `sizeof` could be used with bit-field xvalues  | prohibited   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/sizeof&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 `**[alignof](alignof.html "cpp/language/alignof")**` (C++11) |  queries alignment requirements of a type  
-(operator)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_alignof&action=edit)  
+(operator)  
 ---|---  
-[`sizeof...` operator](sizeof....html "cpp/language/sizeof...") (C++11) |  queries the number of elements in a [pack](parameter_pack.html "cpp/language/pack")[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_sizeof...&action=edit)  
+[`sizeof...` operator](sizeof....html "cpp/language/sizeof...") (C++11) |  queries the number of elements in a [pack](parameter_pack.html "cpp/language/pack")  
 [ numeric_limits](../types/numeric_limits.html "cpp/types/numeric limits") |  provides an interface to query properties of all fundamental numeric types   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_numeric_limits&action=edit)  
+(class template)   
 [C documentation](../../c/language/sizeof.html "c/language/sizeof") for sizeof

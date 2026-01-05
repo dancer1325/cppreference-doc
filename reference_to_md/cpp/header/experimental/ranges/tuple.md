@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../../../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 [Experimental library headers](../../experimental.html "cpp/header/experimental")
 
@@ -292,20 +292,20 @@ Networking TS
 Reflection TS  
 [`<experimental/reflect>`](../reflect.html "cpp/header/experimental/reflect")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/experimental/navbar_content&action=edit)
+
 
 This header is part of the [ranges](../../../experimental/ranges.html "cpp/experimental/ranges") library. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/ranges/tuple&action=edit&section=1 "Edit section: Tagged tuples")] Tagged tuples 
+### Tagged tuples 
 
 Defined in namespace `std::experimental::ranges`  
 ---  
 [ tagged_tuple](../../../experimental/ranges/utility/tagged_tuple.html "cpp/experimental/ranges/utility/tagged tuple") |  alias template for a tagged [std::tuple](../../../utility/tuple.html "cpp/utility/tuple")  
-(alias template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/utility/dsc_tagged_tuple&action=edit)  
+(alias template)  
 [ make_tagged_tuple](../../../experimental/ranges/utility/make_tagged_tuple.html "cpp/experimental/ranges/utility/make tagged tuple") |  convenience function for creating a `tagged_tuple`   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/utility/dsc_make_tagged_tuple&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/ranges/tuple&action=edit&section=2 "Edit section: Synopsis")] Synopsis 
+### Synopsis 
     
     
     namespace std { namespace experimental { namespace ranges { inline namespace v1 {

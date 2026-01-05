@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::pmr::polymorphic_allocator`](../polymorphic_allocator.html "cpp/memory/polymorphic allocator")
 
@@ -206,7 +206,7 @@ Member functions
 Non-member functions  
 [operator==operator!=](operator_eq.html "cpp/memory/polymorphic allocator/operator eq")(until C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/polymorphic_allocator/navbar_content&action=edit)
+
 
 polymorphic_allocator select_on_container_copy_construction() const; |  |  (since C++17)  
 ---|---|---  
@@ -224,20 +224,20 @@ Returns a default-constructed `polymorphic_allocator` object.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/polymorphic_allocator/select_on_container_copy_construction&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/polymorphic_allocator/select_on_container_copy_construction&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 A default-constructed `polymorphic_allocator` object. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/polymorphic_allocator/select_on_container_copy_construction&action=edit&section=3 "Edit section: Notes")] Notes 
+### Notes 
 
 `polymorphic_allocator`s do not propagate on container copy construction. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/polymorphic_allocator/select_on_container_copy_construction&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ select_on_container_copy_construction](../allocator_traits/select_on_container_copy_construction.html "cpp/memory/allocator traits/select on container copy construction")[static] |  obtains the allocator to use after copying a standard container   
-(public static member function of `std::allocator_traits<Alloc>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/allocator_traits/dsc_select_on_container_copy_construction&action=edit)  
+(public static member function of `std::allocator_traits<Alloc>`)   
 ---|---

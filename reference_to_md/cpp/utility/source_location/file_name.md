@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::source_location`](../source_location.html "cpp/utility/source location")
 
@@ -143,7 +143,7 @@ Field access
 **source_location::file_name**  
 [source_location::function_name](function_name.html "cpp/utility/source location/function name")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/source_location/navbar_content&action=edit)
+
 
 constexpr const char* file_name() const noexcept; |  |  (since C++20)  
 ---|---|---  
@@ -161,15 +161,15 @@ Returns the name of the current source file represented by this object, represen
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/source_location/file_name&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/source_location/file_name&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The name of the current source file represented by this object, represented as a null-terminated byte string. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/source_location/file_name&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -195,15 +195,15 @@ Output:
     
     File: cppreference.cpp
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/source_location/file_name&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ line](line.html "cpp/utility/source location/line") |  return the line number represented by this object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/source_location/dsc_line&action=edit)  
+(public member function)   
 ---|---  
 [ column](column.html "cpp/utility/source location/column") |  return the column number represented by this object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/source_location/dsc_column&action=edit)  
+(public member function)   
 [ function_name](function_name.html "cpp/utility/source location/function name") |  return the name of the function represented by this object, if any   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/source_location/dsc_function_name&action=edit)  
+(public member function)   
 [ source_file](../stacktrace_entry/source_file.html "cpp/utility/stacktrace entry/source file") |  gets the name of the source file that lexically contains the expression or statement whose evaluation is represented by the `stacktrace_entry`   
-(public member function of `std::stacktrace_entry`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/stacktrace_entry/dsc_source_file&action=edit)  
+(public member function of `std::stacktrace_entry`)   
 [ Filename and line information](../../preprocessor/line.html "cpp/preprocessor/line")

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Metaprogramming library](../../meta.html "cpp/meta")
 
@@ -167,7 +167,7 @@ Type transformations
 Compile-time integer sequences  
 [integer_sequence](../../utility/integer_sequence.html "cpp/utility/integer sequence")(C++14)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/meta/navbar_content&action=edit)
+
 
 [Compile time rational arithmetic](../../utility/ratio.html "cpp/numeric/ratio")
 
@@ -186,7 +186,7 @@ Comparison
 [ratio_greater](ratio_greater.html "cpp/numeric/ratio/ratio greater")(C++11)  
 [ratio_greater_equal](ratio_greater_equal.html "cpp/numeric/ratio/ratio greater equal")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/ratio/navbar_content&action=edit)
+
 
 Defined in header `[<ratio>](../../header/ratio.html "cpp/header/ratio")` |  |   
 ---|---|---  
@@ -198,13 +198,13 @@ The alias template `std::ratio_multiply` denotes the result of multiplying two e
 
 The result is a [std::ratio](ratio.html "cpp/numeric/ratio/ratio") specialization [std::ratio](ratio.html)<U, V>, such that given Num == R1::num * R2::num and Denom == R1::den * R2::den (computed without arithmetic overflow), `U` is [std::ratio](ratio.html)<Num, Denom>::num and `V` is [std::ratio](ratio.html)<Num, Denom>::den. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/ratio/ratio_multiply&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 If `U` or `V` is not representable in [std::intmax_t](../../types/integer.html "cpp/types/integer"), the program is ill-formed. If `Num` or `Denom` is not representable in [std::intmax_t](../../types/integer.html "cpp/types/integer"), the program is ill-formed unless the implementation yields correct values for `U` and `V`. 
 
 The above definition requires that the result of std::ratio_multiply<R1, R2> be already reduced to lowest terms; for example, std::ratio_multiply<[std::ratio](ratio.html)<1, 6>, [std::ratio](ratio.html)<4, 5>> is the same type as [std::ratio](ratio.html)<2, 15>. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/ratio/ratio_multiply&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -226,8 +226,8 @@ Output:
     
     2/3 * 1/6 = 1/9
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/ratio/ratio_multiply&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ ratio_divide](ratio_divide.html "cpp/numeric/ratio/ratio divide")(C++11) |  divides two `ratio` objects at compile-time  
-(alias template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/ratio/dsc_ratio_divide&action=edit)  
+(alias template)  
 ---|---

@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::list`](../list.html "cpp/container/list")
 
@@ -135,7 +135,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/list/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/list/navbar_content&action=edit)
+
 
 void merge( list& other ); |  (1) | (constexpr since C++26)  
 ---|---|---  
@@ -187,7 +187,7 @@ No iterators or references become invalidated. The pointers and references to th
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/merge&action=edit&section=T-1 "Template:cpp/container/merge")] Parameters
+### Parameters
 
 other  |  \-  |  another container to merge   
 ---|---|---  
@@ -197,11 +197,11 @@ The types Type1 and Type2 must be such that an object of type list<T, Allocator>
 Type requirements   
 -`Compare` must meet the requirements of [Compare](../../named_req/Compare.html "cpp/named req/Compare").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/merge&action=edit&section=T-2 "Template:cpp/container/merge")] Exceptions
+### Exceptions
 
 If an exception is thrown for any reason, these functions have no effect ([strong exception safety guarantee](../../language/exceptions.html#Exception_safety "cpp/language/exceptions")). Except if the exception comes from a comparison. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/merge&action=edit&section=T-3 "Template:cpp/container/merge")] Complexity
+### Complexity
 
 If other refers to the same object as *this, no comparisons are performed. 
 
@@ -211,7 +211,7 @@ Otherwise, given \\(\scriptsize N_1\\)N1 as [std::distance](../../iterator/dista
 
 3,4) At most \\(\scriptsize N_1 + N_2 - 1\\)N1+N2-1 applications of the comparison function comp.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/merge&action=edit&section=T-4 "Template:cpp/container/merge")] Example
+### Example
 
 Run this code
     
@@ -247,7 +247,7 @@ Output:
     list2:  2 3 4 4 7 8
     merged: 1 2 3 3 3 4 4 5 7 8 9
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/merge&action=edit&section=T-5 "Template:cpp/container/merge")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -262,16 +262,16 @@ undefined in this case
 [LWG 3088](https://cplusplus.github.io/LWG/issue3088) | C++98  | operator< could misbehave for pointer elements  | implementation-defined  
 strict total order used   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/merge&action=edit&section=T-6 "Template:cpp/container/merge")] See also
+### See also
 
 [ splice](splice.html "cpp/container/list/splice") |  transfers elements from another `list`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_splice&action=edit)  
+(public member function)   
 ---|---  
 [ merge](../../algorithm/merge.html "cpp/algorithm/merge") |  merges two sorted ranges   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_merge&action=edit)  
+(function template)   
 [ inplace_merge](../../algorithm/inplace_merge.html "cpp/algorithm/inplace merge") |  merges two ordered ranges in-place   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_inplace_merge&action=edit)  
+(function template)   
 [ ranges::merge](../../algorithm/ranges/merge.html "cpp/algorithm/ranges/merge")(C++20) |  merges two sorted ranges  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_merge&action=edit)  
+(algorithm function object)  
 [ ranges::inplace_merge](../../algorithm/ranges/inplace_merge.html "cpp/algorithm/ranges/inplace merge")(C++20) |  merges two ordered ranges in-place  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_inplace_merge&action=edit)
+(algorithm function object)

@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 `[std::map](../map.html "cpp/container/map")`
 
@@ -138,7 +138,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/map/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/map/navbar_content&action=edit)
+
 
 class value_compare; |  |   
 ---|---|---  
@@ -161,7 +161,7 @@ class value_compare; |  |
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/member_types&action=edit&section=T-1 "Template:cpp/utility/functional/member types")] Member types
+### Member types
 
 Type  |  Definition   
 ---|---  
@@ -171,19 +171,19 @@ Type  |  Definition
 These member types are obtained via publicly inheriting [std::binary_function](../../utility/functional/binary_function.html)<value_type, value_type, bool>.  | (until C++11)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/value_compare&action=edit&section=T-1 "Template:cpp/container/value compare")] Protected member objects
+### Protected member objects
 
 Compare comp |  the stored comparator   
 (protected member object)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/value_compare&action=edit&section=T-2 "Template:cpp/container/value compare")] Member functions
+### Member functions
 
 **(constructor)** |  constructs a new `value_compare` object   
-(protected member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/value_compare/dsc_constructor&action=edit)  
+(protected member function)   
 ---|---  
 ** operator()** |  compares two values of type `value_type`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/value_compare/dsc_operator\(\)&action=edit)  
+(public member function) &action=edit)  
   
 ##  std::map<Key,T,Compare,Alloc>::value_compare::value_compare
 
@@ -216,6 +216,6 @@ lhs, rhs  |  \-  |  values to compare
 
 comp(lhs.first, rhs.first)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/impldef_exception&action=edit&section=T-1 "Template:cpp/impldef exception")] Exceptions
+### Exceptions
 
 May throw implementation-defined exceptions. 

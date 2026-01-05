@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_spanbuf`](../basic_spanbuf.html "cpp/io/basic spanbuf")
 
@@ -94,7 +94,7 @@ Protected member functions
 Non-member functions  
 [swap(std::basic_spanbuf)](swap2.html "cpp/io/basic spanbuf/swap2")(C++23)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_spanbuf/navbar_content&action=edit)
+
 
 protected:  
 pos_type seekoff( off_type off, [std::ios_base::seekdir](../ios_base/seekdir.html) dir,  
@@ -137,7 +137,7 @@ This function repositions the next pointer to get and/or put area to pbuf + newo
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_spanbuf/seekoff&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 off  |  \-  |  relative position to set the next pointer(s) to   
 ---|---|---  
@@ -151,20 +151,20 @@ which  |  \-  |  defines whether the input sequences, the output sequence, or bo
 [`in`](../ios_base/openmode.html "cpp/io/ios base/openmode") |  affect the input sequence   
 [`out`](../ios_base/openmode.html "cpp/io/ios base/openmode") |  affect the output sequence   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_spanbuf/seekoff&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 pos_type(newoff) on success, pos_type(off_type(-1)) on failure. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_spanbuf/seekoff&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_spanbuf/seekoff&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ seekoff](../basic_stringbuf/seekoff.html "cpp/io/basic stringbuf/seekoff")[virtual] |  repositions the next pointer in the input sequence, output sequence, or both, using relative addressing   
-(virtual protected member function of `std::basic_stringbuf<CharT,Traits,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_stringbuf/dsc_seekoff&action=edit)  
+(virtual protected member function of `std::basic_stringbuf<CharT,Traits,Allocator>`)   
 ---|---  
 [ seekoff](../strstreambuf/seekoff.html "cpp/io/strstreambuf/seekoff")[virtual] |  repositions the next pointer in the input sequence, output sequence, or both, using relative addressing   
-(virtual protected member function of `std::strstreambuf`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/strstreambuf/dsc_seekoff&action=edit)
+(virtual protected member function of `std::strstreambuf`) 

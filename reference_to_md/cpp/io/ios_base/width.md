@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::ios_base`](../ios_base.html "cpp/io/ios base")
 
@@ -113,7 +113,7 @@ Member types
 [ios_base::event](event.html "cpp/io/ios base/event")  
 [ios_base::event_callback](event_callback.html "cpp/io/ios base/event callback")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/ios_base/navbar_content&action=edit)
+
 
 streamsize width() const; |  (1)  |   
 ---|---|---  
@@ -137,22 +137,22 @@ Manages the minimum number of characters to generate on certain output operation
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/ios_base/width&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 new_width  |  \-  |  new field width setting   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/ios_base/width&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The field width before the call to the function. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/ios_base/width&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Some I/O functions call width(0) before returning, see [std::setw](../manip/setw.html "cpp/io/manip/setw") (this results in this field having effect on the next I/O function only, and not on any subsequent I/O). 
 
 The exact effects this modifier has on the input and output vary between the individual I/O functions and are described at each `operator<<` and `operator>>` overload page individually. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/ios_base/width&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -241,10 +241,10 @@ Output:
     | Javascript | Brendan Eich      | 1961-07-04 |            |
     +------------+-------------------+------------+------------+
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/ios_base/width&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ precision](precision.html "cpp/io/ios base/precision") |  manages decimal precision of floating point operations   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/ios_base/dsc_precision&action=edit)  
+(public member function)   
 ---|---  
 [ setw](../manip/setw.html "cpp/io/manip/setw") |  changes the width of the next input/output field   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_setw&action=edit)
+(function) 

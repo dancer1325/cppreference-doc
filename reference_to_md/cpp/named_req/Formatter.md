@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ named requirements](../iterator/concepts.html "cpp/named req")
 
@@ -147,13 +147,13 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/named_req/navbar_content&action=edit)
+
 
 **Formatter** is a type that abstracts formatting operations for a given formatting argument type and character type. Specializations of [std::formatter](../utility/format/formatter.html "cpp/utility/format/formatter") provided by the standard library are required to meet the requirements of Formatter except as noted otherwise. 
 
 A **Formatter** is able to format both const and non-const arguments, typically by providing a `format` member function that takes a const reference. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/Formatter&action=edit&section=1 "Edit section: Requirements")] Requirements
+### Requirements
 
 A type satisfies Formatter if it satisfies [BasicFormatter](BasicFormatter.html "cpp/named req/BasicFormatter") and given the following types and values, the expressions shown in the table below are valid and have the indicated semantics: 
 
@@ -190,7 +190,7 @@ f.format(t, fmt_ctx) | `FmtCtx::iterator` |
   
 f.format(arg, fmt_ctx) | `FmtCtx::iterator` | As above, but does not modify arg.   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/Formatter&action=edit&section=2 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

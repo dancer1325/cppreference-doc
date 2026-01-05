@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Metaprogramming library](../meta.html "cpp/meta")
 
@@ -167,7 +167,7 @@ Type transformations
 Compile-time integer sequences  
 [integer_sequence](../utility/integer_sequence.html "cpp/utility/integer sequence")(C++14)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/meta/navbar_content&action=edit)
+
 
 Defined in header `[<type_traits>](../header/type_traits.html "cpp/header/type traits")` |  |   
 ---|---|---  
@@ -190,20 +190,20 @@ If the program adds specializations for `std::conditional`, the behavior is unde
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/conditional&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Member type  |  Definition   
 ---|---  
 `type` |  `T` if B == true, `F` if B == false  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/conditional&action=edit&section=2 "Edit section: Helper types")] Helper types
+### Helper types
 
 template< bool B, class T, class F >  
 using conditional_t = typename conditional<B,T,F>::type; |  |  (since C++14)  
 ---|---|---  
 | |   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/conditional&action=edit&section=3 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     template<bool B, class T, class F>
@@ -214,7 +214,7 @@ using conditional_t = typename conditional<B,T,F>::type; |  |  (since C++14)
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/conditional&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -241,8 +241,8 @@ Possible output:
     double
     double
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/conditional&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ enable_if](enable_if.html "cpp/types/enable if")(C++11) |  conditionally [removes](../language/sfinae.html "cpp/language/sfinae") a function overload or template specialization from overload resolution   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_enable_if&action=edit)  
+(class template)   
 ---|---

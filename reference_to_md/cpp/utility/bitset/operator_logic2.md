@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::bitset`](../bitset.html "cpp/utility/bitset")
 
@@ -167,7 +167,7 @@ Common vocabulary types
 [Helper classes](../bitset.html#Helper_classes "cpp/utility/bitset")  
 [std::hash](hash.html "cpp/utility/bitset/hash")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/bitset/navbar_content&action=edit)
+
 
 Defined in header `[<bitset>](../../header/bitset.html "cpp/header/bitset")` |  |   
 ---|---|---  
@@ -203,13 +203,13 @@ Performs binary AND, OR, and XOR between two bitsets, lhs and rhs.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/bitset/operator_logic2&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 lhs  |  \-  |  the bitset on the left-hand side of the operator   
 ---|---|---  
 rhs  |  \-  |  the bitset on the right-hand side of the operator   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/bitset/operator_logic2&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) [std::bitset](../bitset.html)<N>(lhs) &= rhs
 
@@ -217,7 +217,7 @@ rhs  |  \-  |  the bitset on the right-hand side of the operator
 
 3) [std::bitset](../bitset.html)<N>(lhs) ^= rhs
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/bitset/operator_logic2&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -242,8 +242,8 @@ Output:
     b1 | b2: 0111
     b1 ^ b2: 0101
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/bitset/operator_logic2&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ operator&=operator|=operator^=operator~](operator_logic.html "cpp/utility/bitset/operator logic") |  performs binary AND, OR, XOR and NOT   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/bitset/dsc_operator_logic&action=edit)  
+(public member function)   
 ---|---

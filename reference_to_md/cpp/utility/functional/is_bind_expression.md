@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Function objects](../../functional.html "cpp/utility/functional")
 
@@ -255,7 +255,7 @@ Identity function object
 [unary_negate](unary_negate.html "cpp/utility/functional/unary negate")(until C++20*)  
 [binary_negate](binary_negate.html "cpp/utility/functional/binary negate")(until C++20*)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/navbar_content&action=edit)
+
 
 Defined in header `[<functional>](../../header/functional.html "cpp/header/functional")` |  |   
 ---|---|---  
@@ -281,14 +281,14 @@ A program may specialize this template for a [program-defined type](../../langua
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/is_bind_expression&action=edit&section=1 "Edit section: Helper variable template")] Helper variable template
+### Helper variable template
 
 template< class T >  
 constexpr bool is_bind_expression_v = is_bind_expression<T>::value; |  |  (since C++17)  
 ---|---|---  
 | |   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/integral_constant/inherit2&action=edit)
+
 
 ##  Inherited from [ std::integral_constant](../../types/integral_constant.html "cpp/types/integral constant")
 
@@ -313,7 +313,7 @@ Type  |  Definition
 `value_type` |  bool  
 `type` |  [std::integral_constant](../../types/integral_constant.html)<bool, value>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/is_bind_expression&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -352,7 +352,7 @@ Output:
     
     Adding 2 to the sum of 10 and 11 gives 23
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/is_bind_expression&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -362,8 +362,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 only be derived from [std::false_type](../../types/integral_constant.html "cpp/types/integral constant") | can be derived from  
 [std::true_type](../../types/integral_constant.html "cpp/types/integral constant")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/is_bind_expression&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ bind](bind.html "cpp/utility/functional/bind")(C++11) |  binds one or more arguments to a function object   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_bind&action=edit)  
+(function template)   
 ---|---

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ named requirements](../iterator/concepts.html "cpp/named req")
 
@@ -147,13 +147,13 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/named_req/navbar_content&action=edit)
+
 
 **BasicFormatter** is a type that abstracts formatting operations for a given formatting argument type and character type. Specializations of [std::formatter](../utility/format/formatter.html "cpp/utility/format/formatter") are required to meet the requirements of BasicFormatter. 
 
 A BasicFormatter is a [Formatter](Formatter.html "cpp/named req/Formatter") if it is able to format both const and non-const arguments. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/BasicFormatter&action=edit&section=1 "Edit section: Requirements")] Requirements
+### Requirements
 
 A type satisfies BasicFormatter if it is semiregular, meaning it satisfies: 
 
@@ -211,7 +211,7 @@ f.format(arg, fmt_ctx) | `FmtCtx::iterator` |
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/BasicFormatter&action=edit&section=2 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

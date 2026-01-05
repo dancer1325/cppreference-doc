@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Library fundamentals v2](lib_extensions_2.html "cpp/experimental/lib extensions 2")
 
@@ -74,7 +74,7 @@
 [uniform container erasure](lib_extensions_2.html#Uniform_container_erasure "cpp/experimental/lib extensions 2")  
 [logical operator type traits](lib_extensions_2.html#Logical_operator_type_traits "cpp/experimental/lib extensions 2")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions_2/navbar_content&action=edit)
+
 
 ![](https://upload.cppreference.com/mwiki/images/3/31/Imbox_notice.png) |  **Merged into ISO C++** The functionality described on this page was merged into the mainline ISO C++ standard as of 6/2016, see [`std::lcm`](../numeric/lcm.html "cpp/numeric/lcm") (since C++17)  
 ---|---  
@@ -97,27 +97,27 @@ Computes the least common multiple of the integers m and n.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/lcm&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 m, n  |  \-  |  integer values   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/lcm&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 If either m or n is zero, returns zero. Otherwise, return the least common multiple of |m| and |n|. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/lcm&action=edit&section=3 "Edit section: Remarks")] Remarks
+### Remarks
 
 If either `M` or `N` is not an integer type, or if either is (possibly cv-qualified) bool, the program is ill-formed. 
 
 The behavior is undefined if |m|, |n| or the least common multiple of |m| and |n| is not representable as a value of type `std::common_type_t<M, N>`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/lcm&action=edit&section=4 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Throws no exceptions. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/lcm&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ gcd](gcd.html "cpp/experimental/gcd") |  `constexpr` function template returning the greatest common divisor of two integers   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/dsc_gcd&action=edit)  
+(function template)   
 ---|---

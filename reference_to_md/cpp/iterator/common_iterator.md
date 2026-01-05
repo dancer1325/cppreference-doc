@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](empty.html "cpp/iterator/empty")(C++17)  
 [data](data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 **`std::common_iterator`**
 
@@ -213,7 +213,7 @@
 [incrementable_traits<std::common_iterator>](common_iterator/incrementable_traits.html "cpp/iterator/common iterator/incrementable traits")(C++20)  
 [iterator_traits<std::common_iterator>](common_iterator/iterator_traits.html "cpp/iterator/common iterator/iterator traits")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/common_iterator/navbar_content&action=edit)
+
 
 Defined in header `[<iterator>](../header/iterator.html "cpp/header/iterator")` |  |   
 ---|---|---  
@@ -239,46 +239,46 @@ class common_iterator; |  |  (since C++20)
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/common_iterator&action=edit&section=1 "Edit section: Data members")] Data members
+### Data members
 
 Member name  |  Definition   
 ---|---  
 `_var_` |  an object of type [std::variant](../utility/variant.html)<I, S>  
 (exposition-only member object*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/common_iterator&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](common_iterator/common_iterator.html "cpp/iterator/common iterator/common iterator") |  constructs a new `common_iterator`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ operator=](common_iterator/operator=.html "cpp/iterator/common iterator/operator=") |  assigns another `common_iterator`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_operator%3D&action=edit)  
+(public member function)   
 [ operator*operator->](common_iterator/operator*.html "cpp/iterator/common iterator/operator*") |  accesses the pointed-to element   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_operator*&action=edit)  
+(public member function)   
 [ operator++operator++(int)](common_iterator/operator_arith.html "cpp/iterator/common iterator/operator arith") |  advances the `common_iterator`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/common_iterator/dsc_operator_arith&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/common_iterator&action=edit&section=3 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ operator==](common_iterator/operator_cmp.html "cpp/iterator/common iterator/operator cmp")(C++20) |  compares the underlying iterators or sentinels   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/common_iterator/dsc_operator_cmp&action=edit)  
+(function template)   
 ---|---  
 [ operator-](common_iterator/operator-.html "cpp/iterator/common iterator/operator-")(C++20) |  computes the distance between two iterator adaptors   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/common_iterator/dsc_operator-&action=edit)  
+(function template)   
 [ iter_move](common_iterator/iter_move.html "cpp/iterator/common iterator/iter move")(C++20) |  casts the result of dereferencing the underlying iterator to its associated rvalue reference type   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_iter_move&action=edit)  
+(function)   
 [ iter_swap](common_iterator/iter_swap.html "cpp/iterator/common iterator/iter swap")(C++20) |  swaps the objects pointed to by two underlying iterators   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_iter_swap&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/common_iterator&action=edit&section=4 "Edit section: Helper classes")] Helper classes
+### Helper classes
 
 [ std::incrementable_traits<std::common_iterator>](common_iterator/incrementable_traits.html "cpp/iterator/common iterator/incrementable traits")(C++20) |  computes the associated difference type of the **std::common_iterator** type   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/common_iterator/dsc_incrementable_traits&action=edit)  
+(class template specialization)   
 ---|---  
 [ std::iterator_traits<std::common_iterator>](common_iterator/iterator_traits.html "cpp/iterator/common iterator/iterator traits")(C++20) |  provides uniform interface to the properties of the **std::common_iterator** type   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/common_iterator/dsc_iterator_traits&action=edit)  
+(class template specialization)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/common_iterator&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -312,7 +312,7 @@ Output:
     
     Pollux Arcturus Mira Aldebaran
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/common_iterator&action=edit&section=6 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -334,10 +334,10 @@ Output:
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/common_iterator&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ ranges::common_range](../ranges/common_range.html "cpp/ranges/common range")(C++20) |  specifies that a range has identical iterator and sentinel types   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_common_range&action=edit)  
+(concept)   
 ---|---  
 [ ranges::common_viewviews::common](../ranges/common_view.html "cpp/ranges/common view")(C++20) |  converts a [`view`](../ranges/view.html "cpp/ranges/view") into a [`common_range`](../ranges/common_range.html "cpp/ranges/common range")  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_common_view&action=edit)
+(class template) (range adaptor object)

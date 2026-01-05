@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::month_weekday_last`](../month_weekday_last.html "cpp/chrono/month weekday last")
 
@@ -117,7 +117,7 @@ Helper classes
 [formatter<std::chrono::month_weekday_last>](formatter.html "cpp/chrono/month weekday last/formatter")  
 [hash<std::chrono::month_weekday_last>](hash.html "cpp/chrono/month weekday last/hash")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/month_weekday_last/navbar_content&action=edit)
+
 
 constexpr bool ok() const noexcept; |  |  (since C++20)  
 ---|---|---  
@@ -125,11 +125,11 @@ constexpr bool ok() const noexcept; |  |  (since C++20)
   
 Checks if the contained [`month`](../month.html "cpp/chrono/month") and [`weekday_last`](../weekday_last.html "cpp/chrono/weekday last") objects are valid. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/month_weekday_last/ok&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 month().ok() && weekday_last().ok()
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/month_weekday_last/ok&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     

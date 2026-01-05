@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Filesystem library](../filesystem.html "cpp/filesystem")
 
@@ -100,7 +100,7 @@ filesystem::symlink_status](status.html "cpp/filesystem/status")
 [filesystem::is_socket](is_socket.html "cpp/filesystem/is socket")  
 [filesystem::is_symlink](is_symlink.html "cpp/filesystem/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/navbar_content&action=edit)
+
 
 Defined in header `[<filesystem>](../header/filesystem.html "cpp/header/filesystem")` |  |   
 ---|---|---  
@@ -140,18 +140,18 @@ On Windows OS, no attributes of existing_p are copied.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/create_directory&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 p  |  \-  |  the path to the new directory to create   
 ---|---|---  
 existing_p  |  \-  |  the path to a directory to copy the attributes from   
 ec  |  \-  |  out-parameter for error reporting in the non-throwing overload   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/create_directory&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 true if a directory was newly created for the directory p resolves to, false otherwise. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/create_directory&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Any overload not marked `noexcept` may throw [std::bad_alloc](../memory/new/bad_alloc.html "cpp/memory/new/bad alloc") if memory allocation fails.  
 
@@ -164,11 +164,11 @@ Any overload not marked `noexcept` may throw [std::bad_alloc](../memory/new/bad_
 
 4) Sets a [std::error_code](../error/error_code.html)& parameter to the OS API error code if an OS API call fails, and executes ec.[`clear`](../error/error_code/clear.html "cpp/error/error code/clear")() if no errors occur.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/create_directory&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 The attribute-preserving overload (3,4) is implicitly invoked by [`copy()`](copy.html "cpp/filesystem/copy") when recursively copying directories. Its equivalent in boost.filesystem is [`copy_directory`](https://www.boost.org/doc/libs/1_57_0/libs/filesystem/doc/reference.html#copy_directory) (with argument order reversed). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/create_directory&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -214,7 +214,7 @@ Possible output:
             ├── b
             └── c
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/create_directory&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -224,12 +224,12 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [LWG 3014](https://cplusplus.github.io/LWG/issue3014) | C++17  | `error_code` overload of `create_directories` marked noexcept but can allocate memory  | noexcept removed   
 [P1164R1](https://wg21.link/P1164R1) | C++17  | creation failure caused by an existing non-directory file is not an error  | made error   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/create_directory&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ create_symlinkcreate_directory_symlink](create_symlink.html "cpp/filesystem/create symlink")(C++17)(C++17) |  creates a symbolic link   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_create_symlink&action=edit)  
+(function)   
 ---|---  
 [ copy](copy.html "cpp/filesystem/copy")(C++17) |  copies files or directories   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_copy&action=edit)  
+(function)   
 [ perms](perms.html "cpp/filesystem/perms")(C++17) |  identifies file system permissions   
-(enum) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_perms&action=edit)
+(enum) 

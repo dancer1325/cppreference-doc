@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](../language/history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [Keywords](../keywords.html "cpp/keyword")
 
@@ -340,9 +340,9 @@ Identifiers with special meaning
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/keyword/navbar_content&action=edit)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/keyword/constexpr&action=edit&section=1 "Edit section: Usage")] Usage
+
+### Usage
 
   * [`constexpr` declaration specifier](../language/constexpr.html "cpp/language/constexpr")
 
@@ -354,7 +354,7 @@ Identifiers with special meaning
 | (since C++17)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/keyword/constexpr&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
   * [`if` statement](../language/if.html "cpp/language/if"): [`if`](../keywords/if.html "cpp/keyword/if"), [`else`](else.html "cpp/keyword/else")
 

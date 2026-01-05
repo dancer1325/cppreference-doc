@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 `[std::map](../map.html "cpp/container/map")`
 
@@ -138,7 +138,7 @@ Tables
   
 **Deduction guides** (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/map/navbar_content&action=edit)
+
 
 Defined in header `[<map>](../../header/map.html "cpp/header/map")` |  |   
 ---|---|---  
@@ -205,13 +205,13 @@ These overloads participate in overload resolution only if `InputIt` satisfies [
 
 Note: the extent to which the library determines that a type does not satisfy [LegacyInputIterator](../../named_req/InputIterator.html "cpp/named req/InputIterator") is unspecified, except that as a minimum integral types do not qualify as input iterators. Likewise, the extent to which it determines that a type does not satisfy [Allocator](../../named_req/Allocator.html "cpp/named req/Allocator") is unspecified, except that as a minimum the member type `Alloc::value_type` must exist and the expression [std::declval](../../utility/declval.html)<Alloc&>().allocate([std::size_t](../../types/size_t.html){}) must be well-formed when treated as an unevaluated operand. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/map_deduction_guides&action=edit&section=T-1 "Template:cpp/container/map deduction guides")] Notes
+### Notes
 
 [Feature-test](../../utility/feature_test.html "cpp/utility/feature test") macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_containers_ranges`](../../experimental/feature_test.html#cpp_lib_containers_ranges "cpp/feature test") | [`202202L`](../../compiler_support/23.html#cpp_lib_containers_ranges_202202L "cpp/compiler support/23") | (C++23) | [Ranges-aware](../../ranges/to.html#container_compatible_range "cpp/ranges/to") construction and insertion; overload ([5,6](deduction_guides.html#Version_5))  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/map_deduction_guides&action=edit&section=T-2 "Template:cpp/container/map deduction guides")] Example
+### Example
 
 Run this code
     
@@ -228,7 +228,7 @@ Run this code
         [std::map](../map.html) m2(m1.begin(), m1.end()); // guide #1
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/map_deduction_guides&action=edit&section=T-3 "Template:cpp/container/map deduction guides")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 `[std::unordered_set](../unordered_set.html "cpp/container/unordered set")`
 
@@ -137,7 +137,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/unordered set/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/unordered_set/navbar_content&action=edit)
+
 
 float max_load_factor() const; |  (1)  |  (since C++11)  
 ---|---|---  
@@ -160,23 +160,23 @@ Manages the maximum load factor (number of elements per bucket). The container a
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/max_load_factor&action=edit&section=T-1 "Template:cpp/container/max load factor")] Parameters
+### Parameters
 
 ml  |  \-  |  new maximum load factor setting   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/max_load_factor&action=edit&section=T-2 "Template:cpp/container/max load factor")] Return value
+### Return value
 
 1) Current maximum load factor.
 
 2) (none)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/max_load_factor&action=edit&section=T-3 "Template:cpp/container/max load factor")] Complexity
+### Complexity
 
 Constant. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/max_load_factor&action=edit&section=T-4 "Template:cpp/container/max load factor")] See also
+### See also
 
 [ load_factor](load_factor.html "cpp/container/unordered set/load factor") |  returns average number of elements per bucket   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_load_factor&action=edit)  
+(public member function)   
 ---|---

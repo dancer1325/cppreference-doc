@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::chunk_view`](../chunk_view.html "cpp/ranges/chunk view")
 
@@ -299,7 +299,7 @@ operator-(chunk_view::_iterator_)](iterator/operator_arith2.html "cpp/ranges/chu
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/chunk_view/navbar_content&action=edit)
+
 
 `V` models only [`input_range`](../input_range.html "cpp/ranges/input range") |  |   
 ---|---|---  
@@ -321,20 +321,20 @@ return` `[` _outer_iterator_`](outer_iterator.html "cpp/ranges/chunk view/outer 
 
 3) Available if V models [`forward_range`](../forward_range.html "cpp/ranges/forward range"). Equivalent to return` `[` _iterator_`](iterator.html "cpp/ranges/chunk view/iterator") <true>(this, [ranges::begin](../begin.html)(`_[base_](../chunk_view.html#base "cpp/ranges/chunk view")_`));.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/chunk_view/begin&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 An iterator to the first element of the [`chunk_view`](../chunk_view.html "cpp/ranges/chunk view"), as described above. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/chunk_view/begin&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/chunk_view/begin&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ end](end.html "cpp/ranges/chunk view/end") |  returns an iterator or a sentinel to the end   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/dsc_end&action=edit)  
+(public member function)   
 ---|---  
 [ ranges::begin](../begin.html "cpp/ranges/begin")(C++20) |  returns an iterator to the beginning of a range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_begin&action=edit)
+(customization point object)

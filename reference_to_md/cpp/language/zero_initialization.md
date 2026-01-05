@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Initialization](initialization.html "cpp/language/initialization")
 
@@ -244,7 +244,7 @@ Miscellaneous
 [Member initializer list](initializer_list.html "cpp/language/initializer list")  
 [Default member initializer](data_members.html#Member_initialization "cpp/language/data members") (C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/initialization/navbar_content&action=edit)
+
 
 Sets the initial value of an object to zero. 
 
@@ -260,7 +260,7 @@ Sets the initial value of an object to zero.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/zero_initialization&action=edit&section=1 "Edit section: Syntax")] Syntax
+### Syntax
 
 Note that this is not the syntax for zero-initialization, which does not have a dedicated syntax in the language. These are examples of other types of initializations, which might perform zero-initialization.   
   
@@ -269,7 +269,7 @@ Note that this is not the syntax for zero-initialization, which does not have a 
 T `**()**` `**;**` T t `**=**` `**{}**` `**;**` T `**{}**` `**;**` (since C++11) |  (2)  |   
 CharT array `**[**` n `**]**` `**=**` `**"**` short-sequence `**";**` |  (3)  |   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/zero_initialization&action=edit&section=2 "Edit section: Explanation")] Explanation
+### Explanation
 
 Zero-initialization is performed in the following situations: 
 
@@ -311,13 +311,13 @@ The effects of zero-initialization are:
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/zero_initialization&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 As described in [non-local initialization](initialization.html#Non-local_variables "cpp/language/initialization"), static and thread-local(since C++11) variables that aren't constant-initialized are zero-initialized before any other initialization takes place. If the definition of a non-class non-local variable has no initializer, then default initialization does nothing, leaving the result of the earlier zero-initialization unmodified. 
 
 A zero-initialized pointer is the null pointer value of its type, even if the value of the null pointer is not integral zero. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/zero_initialization&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -355,7 +355,7 @@ Possible output:
     n = 1
     a = {0 0 0}
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/zero_initialization&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -376,7 +376,7 @@ constant initialization applies
 applies to unnamed bit-fields  | it applies (all padding bits  
 are initialized to zero bits)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/zero_initialization&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
   * [constructor](initializer_list.html "cpp/language/constructor")
   * [copy assignment](as_operator.html "cpp/language/copy assignment")

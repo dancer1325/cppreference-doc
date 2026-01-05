@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::unique_lock`](../unique_lock.html "cpp/thread/unique lock")
 
@@ -198,7 +198,7 @@ Observers
 Non-member functions  
 [swap(std::unique_lock)](swap2.html "cpp/thread/unique lock/swap2")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/unique_lock/navbar_content&action=edit)
+
 
 unique_lock() noexcept; |  (1)  |  (since C++11)  
 ---|---|---  
@@ -235,7 +235,7 @@ Constructs a `unique_lock`, optionally locking the supplied mutex.
 
 8) Tries to lock the associated mutex by calling m.try_lock_until(timeout_time). Blocks until specified timeout_time has been reached or the lock is acquired, whichever comes first. May block for longer than until timeout_time has been reached. The behavior is undefined if `Mutex` does not satisfy [TimedLockable](../../named_req/TimedLockable.html "cpp/named req/TimedLockable").
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/unique_lock/unique_lock&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 other  |  \-  |  another `unique_lock` to initialize the state with   
 ---|---|---  
@@ -244,7 +244,7 @@ t  |  \-  |  tag parameter used to select constructors with different locking st
 timeout_duration  |  \-  |  maximum duration to block for   
 timeout_time  |  \-  |  maximum time point to block until   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/unique_lock/unique_lock&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     

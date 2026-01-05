@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Localization library](../../locale.html "cpp/locale")
 
@@ -152,7 +152,7 @@ base classes](../../locale.html#Facet_category_base_classes "cpp/locale")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/navbar_content&action=edit)
+
 
 [`std::wbuffer_convert`](../wbuffer_convert.html "cpp/locale/wbuffer convert")
 
@@ -163,7 +163,7 @@ Member functions
 **wbuffer_convert::rdbuf**  
 [wbuffer_convert::state](state.html "cpp/locale/wbuffer convert/state")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/wbuffer_convert/navbar_content&action=edit)
+
 
 [std::streambuf](../../io/basic_streambuf.html)* rdbuf() const; |  (1)  |   
 ---|---|---  
@@ -174,13 +174,13 @@ Member functions
 
 2) Replaces the associated byte stream with bytebuf.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/wbuffer_convert/rdbuf&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 1) `_[bufptr](../wbuffer_convert.html#bufptr "cpp/locale/wbuffer convert")_`
 
 2) the previous value of `_[bufptr](../wbuffer_convert.html#bufptr "cpp/locale/wbuffer convert")_`
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/wbuffer_convert/rdbuf&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -216,8 +216,8 @@ Output:
     Reading from a UTF-8 stringbuf via wbuffer_convert: 0x7a 0xdf 0x6c34 0x1d10b 
     Sending UCS4 data to std::cout via wbuffer_convert: zß水𝄋
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/wbuffer_convert/rdbuf&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ (constructor)](wbuffer_convert.html "cpp/locale/wbuffer convert/wbuffer convert") |  constructs a new `wbuffer_convert`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/wbuffer_convert/dsc_wbuffer_convert&action=edit)  
+(public member function)   
 ---|---

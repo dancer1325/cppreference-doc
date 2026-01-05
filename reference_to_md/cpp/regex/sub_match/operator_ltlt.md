@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Regular expressions library](../../regex.html "cpp/regex")
 
@@ -81,7 +81,7 @@ Constants
 Regex Grammar  
 [Modified ECMAScript-262](../ecmascript.html "cpp/regex/ecmascript")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/navbar_content&action=edit)
+
 
 [`std::sub_match`](../sub_match.html "cpp/regex/sub match")
 
@@ -96,7 +96,7 @@ Non-member functions
 [operator==operator!=operator<<operator<=operator>operator>=operator<=>](operator_cmp.html "cpp/regex/sub match/operator cmp")(until C++20)(until C++20)(until C++20)(until C++20)(until C++20)(C++20)  
 **operator <<**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/sub_match/navbar_content&action=edit)
+
 
 template< class CharT, class Traits, class BidirIt >  
 [std::basic_ostream](../../io/basic_ostream.html)<CharT,Traits>&  
@@ -106,17 +106,17 @@ operator<<( [std::basic_ostream](../../io/basic_ostream.html)<CharT,Traits>& os,
   
 Writes the representation of the matched subsequence m to the output stream os. Equivalent to os << m.str(). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/sub_match/operator_ltlt&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 os  |  \-  |  output stream to write the representation to   
 ---|---|---  
 m  |  \-  |  a sub-match object to output   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/sub_match/operator_ltlt&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 os
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/sub_match/operator_ltlt&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     

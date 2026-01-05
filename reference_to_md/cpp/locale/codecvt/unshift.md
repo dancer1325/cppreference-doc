@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Localization library](../../locale.html "cpp/locale")
 
@@ -152,7 +152,7 @@ base classes](../../locale.html#Facet_category_base_classes "cpp/locale")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/navbar_content&action=edit)
+
 
 [`std::codecvt`](../codecvt.html "cpp/locale/codecvt")
 
@@ -168,7 +168,7 @@ Member functions
 [codecvt::lengthcodecvt::do_length](length.html "cpp/locale/codecvt/length")  
 [codecvt::max_lengthcodecvt::do_max_length](max_length.html "cpp/locale/codecvt/max length")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/codecvt/navbar_content&action=edit)
+
 
 Defined in header `[<locale>](../../header/locale.html "cpp/header/locale")` |  |   
 ---|---|---  
@@ -195,7 +195,7 @@ ExternT*& to_next ) const; |  (2)  |
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/codecvt/unshift&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 A value of type [std::codecvt_base::result](../codecvt_base.html "cpp/locale/codecvt base"), indicating the success status as follows: 
 
@@ -205,17 +205,17 @@ A value of type [std::codecvt_base::result](../codecvt_base.html "cpp/locale/cod
 `error` |  an unspecified error has occurred   
 `noconv` |  the encoding is not state-dependent, no termination sequence necessary   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/codecvt/unshift&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 This function is called by [std::basic_filebuf::close()](../../io/basic_filebuf/close.html "cpp/io/basic filebuf/close") and in other situations when finalizing a state-dependent multibyte character sequence. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/codecvt/unshift&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/codecvt/unshift&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -234,10 +234,10 @@ was required not to write any character  | not required
 [LWG 665](https://cplusplus.github.io/LWG/issue665) | C++98  | [std::codecvt](../codecvt.html)<char, char, [std::mbstate_t](../../string/multibyte/mbstate_t.html)>::do_unshift  
 was required to return noconv | not required   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/codecvt/unshift&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ wcrtomb](../../string/multibyte/wcrtomb.html "cpp/string/multibyte/wcrtomb") |  converts a wide character to its multibyte representation, given state   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/dsc_wcrtomb&action=edit)  
+(function)   
 ---|---  
 [ do_out](out.html "cpp/locale/codecvt/out")[virtual] |  converts a string from `InternT` to `ExternT`, such as when writing to file   
-(virtual protected member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/codecvt/dsc_do_out&action=edit)
+(virtual protected member function) 

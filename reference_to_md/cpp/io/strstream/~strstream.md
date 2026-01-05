@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::strstream`](../strstream.html "cpp/io/strstream")
 
@@ -90,7 +90,7 @@ Member functions
 [strstream::pcount](pcount.html "cpp/io/strstream/pcount")  
 [strstream::freeze](freeze.html "cpp/io/strstream/freeze")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/strstream/navbar_content&action=edit)
+
 
 virtual ~strstream(); |  |  (deprecated in C++98)   
 (removed in C++26)  
@@ -99,15 +99,15 @@ virtual ~strstream(); |  |  (deprecated in C++98)
   
 Destroys a `std::strstream` object, which also destroys the member [std::strstreambuf](../strstreambuf.html "cpp/io/strstreambuf"), which may call the deallocation function if the underlying buffer was dynamically-allocated and not frozen. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/strstream/%7Estrstream&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/strstream/%7Estrstream&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 If [str()](str.html "cpp/io/strstream/str") was called on a dynamic `strstream` and [`freeze(false)`](freeze.html "cpp/io/strstream/freeze") was not called after that, this destructor leaks memory. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/strstream/%7Estrstream&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     

@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::flat_map`](../flat_map.html "cpp/container/flat map")
 
@@ -143,7 +143,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/flat map/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/flat_map/navbar_content&action=edit)
+
 
 void replace( key_container_type&& key_cont, mapped_container_type&& mapped_cont ); |  |  (since C++23)  
 ---|---|---  
@@ -177,21 +177,21 @@ Otherwise, the behavior is undefined.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/replace_ad&action=edit&section=T-1 "Template:cpp/container/replace ad")] Parameters
+### Parameters
 
 keys_cont  |  \-  |  a sorted keys container of type `KeyContainer`, the contents of which will be moved into *this  
 ---|---|---  
 mapped_cont  |  \-  |  a container of mapped values of type `MappedContainer`, the contents of which will be moved into *this  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/replace_ad&action=edit&section=T-2 "Template:cpp/container/replace ad")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/replace_ad&action=edit&section=T-3 "Template:cpp/container/replace ad")] Complexity
+### Complexity
 
 Equals to complexity of [`std::move`](../../utility/move.html "cpp/utility/move") applied to adapted containers. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/replace_ad&action=edit&section=T-4 "Template:cpp/container/replace ad")] Example
+### Example
 
 Run this code
     
@@ -227,8 +227,8 @@ Output:
     
     {1: 2.2, 2: 3.3, 3: 1.1}
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/replace_ad&action=edit&section=T-5 "Template:cpp/container/replace ad")] See also
+### See also
 
 [ extract](extract.html "cpp/container/flat map/extract") |  extracts the underlying containers   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_extract&action=edit)  
+(public member function)   
 ---|---

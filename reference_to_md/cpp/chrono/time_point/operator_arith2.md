@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::time_point`](../time_point.html "cpp/chrono/time point")
 
@@ -124,7 +124,7 @@ Helper classes
 [common_type](common_type.html "cpp/chrono/time point/common type")  
 [hash<std::chrono::time_point>](hash.html "cpp/chrono/time point/hash")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_point/navbar_content&action=edit)
+
 
 Defined in header `[<chrono>](../../header/chrono.html "cpp/header/chrono")` |  |   
 ---|---|---  
@@ -190,30 +190,30 @@ Performs add and subtract operations involving a `time_point`.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/time_point/operator_arith2&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 pt  |  \-  |  a time point to apply the offset to   
 ---|---|---  
 d  |  \-  |  a time offset   
 pt_lhs, pt_rhs  |  \-  |  time points to extract difference from   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/time_point/operator_arith2&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1-3) The time point that resulted from applying the offset d.
 
 4) The duration between the time points.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/impldef_exception&action=edit&section=T-1 "Template:cpp/impldef exception")] Exceptions
+### Exceptions
 
 May throw implementation-defined exceptions. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/time_point/operator_arith2&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/time_point/operator_arith2&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -221,8 +221,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 2739](https://cplusplus.github.io/LWG/issue2739) | C++11  | pt - d behaved erratically for unsigned `duration`s  | behavior corrected   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/time_point/operator_arith2&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ operator+=operator-=](operator_arith.html "cpp/chrono/time point/operator arith") |  modifies the time point by the given duration   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_point/dsc_operator_arith&action=edit)  
+(public member function)   
 ---|---

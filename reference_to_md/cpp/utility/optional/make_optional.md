@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::optional`](../optional.html "cpp/utility/optional")
 
@@ -167,7 +167,7 @@ Common vocabulary types
 [nullopt](nullopt.html "cpp/utility/optional/nullopt")  
 [in_place](../in_place.html "cpp/utility/in place")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/navbar_content&action=edit)
+
 
 Defined in header `[<optional>](../../header/optional.html "cpp/header/optional")` |  |   
 ---|---|---  
@@ -200,25 +200,25 @@ This overload participates in overload resolution only if [std::is_constructible
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/make_optional&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 value  |  \-  |  the value to construct optional object with   
 ---|---|---  
 il, args  |  \-  |  arguments to be passed to the constructor of `T`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/make_optional&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The constructed optional object. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/make_optional&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Throws any exception thrown by the constructor of `T`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/make_optional&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 `T` need not be movable for overloads ([2,3](make_optional.html#Version_2)) due to guaranteed copy elision. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/make_optional&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -253,8 +253,8 @@ Possible output:
     op3: "hello world"
     str: ""
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/make_optional&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ (constructor)](optional.html "cpp/utility/optional/optional") |  constructs the `optional` object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/dsc_constructor&action=edit)  
+(public member function)   
 ---|---

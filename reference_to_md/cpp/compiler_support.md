@@ -30,7 +30,7 @@
 [Symbols index](symbol_index.html "cpp/symbol index")  
 [External libraries](links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 **Compiler support**
 
@@ -42,7 +42,7 @@
 [C++23](compiler_support/23.html "cpp/compiler support/23")  
 [C++26](compiler_support/26.html "cpp/compiler support/26")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/compiler_support/navbar_content&action=edit)
+
 
 ![](https://upload.cppreference.com/mwiki/images/3/31/Imbox_notice.png) |  This page is maintained as best-effort and may lag behind most recent compiler releases. If you see something is out-of-date, please help us by updating it!   
 ---|---  
@@ -50,21 +50,21 @@
   
 The following tables present compiler support for new C++ features. These include accepted revisions to the standard, as well as various technical specifications: 
 
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/compiler_support/26&action=edit)
+
 
   * [C++26/2c core language features](compiler_support.html#cpp26)
   * [C++26/2c library features](compiler_support.html#C.2B.2B26_library_features)
 
 
 
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/compiler_support/23&action=edit)
+
 
   * [C++23 core language features](compiler_support.html#cpp23)
   * [C++23 library features](compiler_support.html#C.2B.2B23_library_features)
 
 
 
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/compiler_support/20&action=edit)
+
 
   * [C++20 core language features](compiler_support.html#cpp20)
   * [C++20 library features](compiler_support.html#C.2B.2B20_library_features)
@@ -91,18 +91,18 @@ The following tables present compiler support for new C++ features. These includ
   
 ---  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/compiler_support&action=edit&section=1 "Edit section: Notes")] Notes
+#### Notes
 
 * \- hover over a cell marked with the star * to see additional pop-up notes.  
 DR _nn_ \- the number _nn_ after "DR" denotes target C++ revision the Defect Report is applied to, e.g., DR20 → C++20.
 
-## [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/compiler_support&action=edit&section=2 "Edit section: C++26 features")] C++26 features
+## C++26 features
 
 Note that this list may change, as the draft C++26/2c standard evolves. 
 
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/compiler_support/26&action=edit)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/compiler_support/26&action=edit&section=T-1 "Template:cpp/compiler support/26")] C++26 core language features
+
+### C++26 core language features
 
 C++26 feature  
   
@@ -153,7 +153,7 @@ C++26 feature  |
   
 Paper(s)  | GCC | Clang | MSVC | Apple Clang | EDG eccp | Intel C++ | Nvidia HPC C++ (ex PGI)* | Nvidia nvcc | Cray  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/compiler_support/26&action=edit&section=T-2 "Template:cpp/compiler support/26")] C++26 library features
+### C++26 library features
 
 C++26 feature  
   
@@ -281,11 +281,11 @@ C++26 feature  |
   
 Paper(s)  | GCC libstdc++ | Clang libc++ | MSVC STL | Apple Clang*  
   
-## [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/compiler_support&action=edit&section=3 "Edit section: C++23 features")] C++23 features
+## C++23 features
 
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/compiler_support/23&action=edit)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/compiler_support/23&action=edit&section=T-1 "Template:cpp/compiler support/23")] C++23 core language features
+
+### C++23 core language features
 
 C++23 feature  
   
@@ -353,7 +353,7 @@ C++23 feature  |
   
 Paper(s)  | GCC | Clang | MSVC | Apple Clang | EDG eccp | Intel C++ | Nvidia HPC C++ (ex PGI)* | Nvidia nvcc | Cray  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/compiler_support/23&action=edit&section=T-2 "Template:cpp/compiler support/23")] C++23 library features
+### C++23 library features
 
 C++23 feature  
   
@@ -509,11 +509,11 @@ C++23 feature  |
   
 Paper(s)  | GCC libstdc++ | Clang libc++ | MSVC STL | Apple Clang*  
   
-## [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/compiler_support&action=edit&section=4 "Edit section: C++20 features")] C++20 features
+## C++20 features
 
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/compiler_support/20&action=edit)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/compiler_support/20&action=edit&section=T-1 "Template:cpp/compiler support/20")] C++20 core language features
+
+### C++20 core language features
 
 C++20 feature  
   
@@ -636,7 +636,7 @@ C++20 feature  |
   
 Paper(s)  | GCC | Clang | MSVC | Apple Clang | EDG eccp | Intel C++ | Nvidia HPC C++ (ex PGI)* | Nvidia nvcc | Cray  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/compiler_support/20&action=edit&section=T-2 "Template:cpp/compiler support/20")] C++20 library features
+### C++20 library features
 
 C++20 feature  
   
@@ -778,30 +778,30 @@ C++20 feature  |
   
 Paper(s)  | GCC libstdc++ | Clang libc++ | MSVC STL | Apple Clang*  
   
-## [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/compiler_support&action=edit&section=5 "Edit section: Older standards")] Older standards
+## Older standards
 
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/compiler_support/17&action=edit)
+
 
   * [C++17 core language features](compiler_support/17.html "cpp/compiler support/17")
   * [C++17 library features](compiler_support/17.html#C.2B.2B17_library_features "cpp/compiler support/17")
 
 
 
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/compiler_support/14&action=edit)
+
 
   * [C++14 core language features](compiler_support/14.html "cpp/compiler support/14")
   * [C++14 library features](compiler_support/14.html#C.2B.2B14_library_features "cpp/compiler support/14")
 
 
 
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/compiler_support/11&action=edit)
+
 
   * [C++11 core language features](compiler_support/11.html "cpp/compiler support/11")
   * [C++11 library features](compiler_support/11.html#C.2B.2B11_library_features "cpp/compiler support/11")
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/compiler_support&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [**Feature testing**](experimental/feature_test.html "cpp/feature test") (C++20) |  A set of preprocessor macros to test the corresponding to C++ language and library features   
 ---|---  

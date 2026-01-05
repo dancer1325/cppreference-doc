@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_syncbuf`](../basic_syncbuf.html "cpp/io/basic syncbuf")
 
@@ -96,7 +96,7 @@ Protected member functions
 Non-member functions  
 [swap(std::basic_syncbuf)](swap2.html "cpp/io/basic syncbuf/swap2")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_syncbuf/navbar_content&action=edit)
+
 
 streambuf_type* get_wrapped() const noexcept; |  |   
 ---|---|---  
@@ -114,22 +114,22 @@ Returns a pointer to the wrapped [std::basic_streambuf](../basic_streambuf.html 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_syncbuf/get_wrapped&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_syncbuf/get_wrapped&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 This function is not expected to be called directly: it is called through [`std::basic_osyncstream::get_wrapped`](../basic_osyncstream/get_wrapped.html "cpp/io/basic osyncstream/get wrapped"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_syncbuf/get_wrapped&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_syncbuf/get_wrapped&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ get_wrapped](../basic_osyncstream/get_wrapped.html "cpp/io/basic osyncstream/get wrapped") |  obtains a pointer to the final destination stream buffer   
-(public member function of `std::basic_osyncstream<CharT,Traits,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_osyncstream/dsc_get_wrapped&action=edit)  
+(public member function of `std::basic_osyncstream<CharT,Traits,Allocator>`)   
 ---|---

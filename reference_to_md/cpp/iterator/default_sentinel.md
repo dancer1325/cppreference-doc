@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](empty.html "cpp/iterator/empty")(C++17)  
 [data](data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 Defined in header `[<iterator>](../header/iterator.html "cpp/header/iterator")` |  |   
 ---|---|---  
@@ -206,7 +206,7 @@ inline constexpr default_sentinel_t default_sentinel{}; |  (2)  |  (since C++20)
 
 2) `default_sentinel` is a constant of type `default_sentinel_t`.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/default_sentinel_t&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -236,12 +236,12 @@ Output:
     brown
     fox.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/default_sentinel_t&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ istream_iterator](istream_iterator.html "cpp/iterator/istream iterator") |  input iterator that reads from [std::basic_istream](../io/basic_istream.html "cpp/io/basic istream")   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_istream_iterator&action=edit)  
+(class template)   
 ---|---  
 [ istreambuf_iterator](istreambuf_iterator.html "cpp/iterator/istreambuf iterator") |  input iterator that reads from [std::basic_streambuf](../io/basic_streambuf.html "cpp/io/basic streambuf")   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_istreambuf_iterator&action=edit)  
+(class template)   
 [ counted_iterator](counted_iterator.html "cpp/iterator/counted iterator")(C++20) |  iterator adaptor that tracks the distance to the end of the range   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_counted_iterator&action=edit)
+(class template) 

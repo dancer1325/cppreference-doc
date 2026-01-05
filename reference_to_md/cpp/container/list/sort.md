@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::list`](../list.html "cpp/container/list")
 
@@ -135,7 +135,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/list/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/list/navbar_content&action=edit)
+
 
 void sort(); |  (1) | (constexpr since C++26)  
 ---|---|---  
@@ -163,7 +163,7 @@ No references or iterators become invalidated.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/sort&action=edit&section=T-1 "Template:cpp/container/sort")] Parameters
+### Parameters
 
 comp  |  \-  |  comparison function object (i.e. an object that satisfies the requirements of [Compare](../../named_req/Compare.html "cpp/named req/Compare")) which returns ​true if the first argument is _less_ than (i.e. is ordered _before_) the second.   
 The signature of the comparison function should be equivalent to the following: bool cmp(const Type1& a, const Type2& b); While the signature does not need to have const&, the function must not modify the objects passed to it and must be able to accept all values of type (possibly const) `Type1` and `Type2` regardless of [value category](../../language/value_category.html "cpp/language/value category") (thus, `Type1&` is not allowed, nor is `Type1` unless for `Type1` a move is equivalent to a copy(since C++11)).  
@@ -172,7 +172,7 @@ The types Type1 and Type2 must be such that an object of type list<T,Allocator>:
 Type requirements   
 -`Compare` must meet the requirements of [Compare](../../named_req/Compare.html "cpp/named req/Compare").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/sort&action=edit&section=T-2 "Template:cpp/container/sort")] Complexity
+### Complexity
 
 Given \\(\scriptsize N\\)N as [size()](size.html "cpp/container/list/size"): 
 
@@ -180,11 +180,11 @@ Given \\(\scriptsize N\\)N as [size()](size.html "cpp/container/list/size"):
 
 2) Approximately \\(\scriptsize N \cdot log(N)\\)N·log(N) applications of the comparison function comp.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/sort&action=edit&section=T-3 "Template:cpp/container/sort")] Notes
+### Notes
 
 [std::sort](../../algorithm/sort.html "cpp/algorithm/sort") requires random access iterators and so cannot be used with `list`. This function also differs from [std::sort](../../algorithm/sort.html "cpp/algorithm/sort") in that it does not require the element type of the `list` to be swappable, preserves the values of all iterators, and performs a stable sort. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/sort&action=edit&section=T-4 "Template:cpp/container/sort")] Example
+### Example
 
 Run this code
     
@@ -227,8 +227,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 1207](https://cplusplus.github.io/LWG/issue1207) | C++98  | it was unclear whether iterators and/or references will be invalidated  | keep valid   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/sort&action=edit&section=T-6 "Template:cpp/container/sort")] See also
+### See also
 
 [ reverse](reverse.html "cpp/container/list/reverse") |  reverses the order of the elements   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_reverse&action=edit)  
+(public member function)   
 ---|---

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [Common mathematical functions](../math.html "cpp/numeric/math")
 
@@ -230,7 +230,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/navbar_content&action=edit)
+
 
 Defined in header `[<cmath>](../../header/cmath.html "cpp/header/cmath")` |  |   
 ---|---|---  
@@ -280,18 +280,18 @@ A) Additional overloads are provided for all integer types, which are treated as
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/cbrt&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 num  |  \-  |  floating-point or integer value   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/cbrt&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 If no errors occur, the cube root of num (\\(\small{\sqrt[3]{num} }\\)3√num), is returned. 
 
 If a range error occurs due to underflow, the correct result (after rounding) is returned. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/cbrt&action=edit&section=3 "Edit section: Error handling")] Error handling
+### Error handling
 
 Errors are reported as specified in [math_errhandling](math_errhandling.html "cpp/numeric/math/math errhandling"). 
 
@@ -302,7 +302,7 @@ If the implementation supports IEEE floating-point arithmetic (IEC 60559),
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/cbrt&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 std::cbrt(num) is not equivalent to [std::pow](pow.html)(num, 1.0 / 3) because the rational number \\(\small{\frac1{3} }\\)1  
 ---  
@@ -311,7 +311,7 @@ is typically not equal to 1.0 / 3 and [std::pow](pow.html "cpp/numeric/math/pow"
 
 The additional overloads are not required to be provided exactly as (A). They only need to be sufficient to ensure that for their argument num of integer type, std::cbrt(num) has the same effect as std::cbrt(static_cast<double>(num)). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/cbrt&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -353,18 +353,18 @@ Possible output:
     cbrt(-343)      = -7
     pow(-343,1.0/3) = -nan
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/cbrt&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ powpowfpowl](pow.html "cpp/numeric/math/pow")(C++11)(C++11) |  raises a number to the given power (\\(\small{x^y}\\)xy)   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_pow&action=edit)  
+(function)   
 ---|---  
 [ sqrtsqrtfsqrtl](sqrt.html "cpp/numeric/math/sqrt")(C++11)(C++11) |  computes square root (\\(\small{\sqrt{x}}\\)√x)   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_sqrt&action=edit)  
+(function)   
 [ hypothypotfhypotl](hypot.html "cpp/numeric/math/hypot")(C++11)(C++11)(C++11) |  computes hypotenuse \\(\scriptsize{\sqrt{x^2+y^2}}\\)√x2  
 +y2  
 and \\(\scriptsize{\sqrt{x^2+y^2+z^2}}\\)√x2  
 +y2  
 +z2  
 (since C++17)   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_hypot&action=edit)  
+(function)   
 [C documentation](../../../c/numeric/math/cbrt.html "c/numeric/math/cbrt") for cbrt

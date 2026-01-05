@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Strings library](../../string.html "cpp/string")
 
@@ -40,7 +40,7 @@ Classes
 [basic_string_view](../basic_string_view.html "cpp/string/basic string view")(C++17)  
 [char_traits](../char_traits.html "cpp/string/char traits")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/navbar_content&action=edit)
+
 
 [`std::basic_string_view`](../basic_string_view.html "cpp/string/basic string view")
 
@@ -92,7 +92,7 @@ Constants
 [hash<std::string_view>hash<std::wstring_view>hash<std::u8string_view>hash<std::u16string_view>hash<std::u32string_view>](hash.html "cpp/string/basic string view/hash")(C++20)  
 [Deduction guides](deduction_guides.html "cpp/string/basic string view/deduction guides") (C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/navbar_content&action=edit)
+
 
 size_type copy( CharT* dest, size_type count, size_type pos = 0 ) const; |  |  (since C++17)   
 (constexpr since C++20)  
@@ -115,26 +115,26 @@ Equivalent to Traits::copy(dest, data() + pos, rcount).
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string_view/copy&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 dest  |  \-  |  pointer to the destination character string   
 ---|---|---  
 count  |  \-  |  requested substring length   
 pos  |  \-  |  position of the first character   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string_view/copy&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Number of characters copied. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string_view/copy&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 [std::out_of_range](../../error/out_of_range.html "cpp/error/out of range") if pos > size(). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string_view/copy&action=edit&section=4 "Edit section: Complexity")] Complexity
+### Complexity
 
 Linear in `rcount`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string_view/copy&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -181,14 +181,14 @@ Output:
     CDEF
     basic_string_view::copy: __pos (which is 666) > __size (which is 6)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string_view/copy&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ substr](substr.html "cpp/string/basic string view/substr") |  returns a substring   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/dsc_substr&action=edit)  
+(public member function)   
 ---|---  
 [ copy](../basic_string/copy.html "cpp/string/basic string/copy") |  copies characters   
-(public member function of `std::basic_string<CharT,Traits,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_copy&action=edit)  
+(public member function of `std::basic_string<CharT,Traits,Allocator>`)   
 [ copycopy_if](../../algorithm/copy.html "cpp/algorithm/copy")(C++11) |  copies a range of elements to a new location   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_copy&action=edit)  
+(function template)   
 [ memcpy](../byte/memcpy.html "cpp/string/byte/memcpy") |  copies one buffer to another   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_memcpy&action=edit)
+(function) 

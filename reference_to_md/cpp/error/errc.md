@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Diagnostics library](../error.html "cpp/error")
 
@@ -187,7 +187,7 @@ Exception handling failures
 [breakpoint_if_debugging](../utility/breakpoint_if_debugging.html "cpp/utility/breakpoint if debugging")(C++26)  
 [breakpoint](../utility/breakpoint.html "cpp/utility/breakpoint")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/navbar_content&action=edit)
+
 
 **`std::errc`**
 
@@ -198,7 +198,7 @@ Non-member functions
 Helper classes  
 [is_error_condition_enum](errc/is_error_condition_enum.html "cpp/error/errc/is error condition enum")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/errc/navbar_content&action=edit)
+
 
 Defined in header `[<system_error>](../header/system_error.html "cpp/header/system error")` |  |   
 ---|---|---  
@@ -219,7 +219,7 @@ The scoped enumeration `std::errc` defines the values of portable error conditio
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/errc&action=edit&section=1 "Edit section: Member constants")] Member constants
+### Member constants
 
 Name  |  Equivalent POSIX Error   
 ---|---  
@@ -302,21 +302,21 @@ Name  |  Equivalent POSIX Error
 `value_too_large` |  `EOVERFLOW`  
 `wrong_protocol_type` |  `EPROTOTYPE`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/errc&action=edit&section=2 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ make_error_code(std::errc)](errc/make_error_code.html "cpp/error/errc/make error code")(C++11) |  creates error code value for `errc` enum e   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/errc/dsc_make_error_code&action=edit)  
+(function)   
 ---|---  
 [ make_error_condition(std::errc)](errc/make_error_condition.html "cpp/error/errc/make error condition")(C++11) |  creates an error condition for an `errc` value e   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/errc/dsc_make_error_condition&action=edit)  
+(function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/errc&action=edit&section=3 "Edit section: Helper classes")] Helper classes
+### Helper classes
 
 [ is_error_condition_enum<std::errc>](errc/is_error_condition_enum.html "cpp/error/errc/is error condition enum")(C++11) |  extends the type trait [std::is_error_condition_enum](error_condition/is_error_condition_enum.html "cpp/error/error condition/is error condition enum") to identify `errc` values as error conditions   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/errc/dsc_is_error_condition_enum&action=edit)  
+(function template)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/errc&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -402,7 +402,7 @@ Possible output:
     Error opening read-only file for writing:
       "Permission denied" (std::errc::permission_denied)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/errc&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -416,10 +416,10 @@ referred to the obsolete POSIX STREAMS API[[1]](errc.html#cite_note-1) | depreca
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/errc&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ error_code](error_code.html "cpp/error/error code")(C++11) |  holds a platform-dependent error code   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_error_code&action=edit)  
+(class)   
 ---|---  
 [ error_condition](error_condition.html "cpp/error/error condition")(C++11) |  holds a portable error code   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_error_condition&action=edit)
+(class) 

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](../empty.html "cpp/iterator/empty")(C++17)  
 [data](../data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 [`std::istream_iterator`](../istream_iterator.html "cpp/iterator/istream iterator")
 
@@ -207,7 +207,7 @@ Member functions
 Non-member functions  
 [operator==operator!=](operator_cmp.html "cpp/iterator/istream iterator/operator cmp")(until C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/istream_iterator/navbar_content&action=edit)
+
 
 const T& operator*() const; |  (1)  |   
 ---|---|---  
@@ -218,14 +218,14 @@ Returns a pointer or a reference to the current element.
 
 The behavior is undefined if the iterator is end-of-stream iterator. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/istream_iterator/operator*&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/istream_iterator/operator*&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 A pointer or a reference to the current element. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/impldef_exception&action=edit&section=T-1 "Template:cpp/impldef exception")] Exceptions
+### Exceptions
 
 May throw implementation-defined exceptions. 

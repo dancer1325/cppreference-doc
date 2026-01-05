@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Null-terminated multibyte strings](../multibyte.html "cpp/string/multibyte")
 
@@ -100,7 +100,7 @@ MB_CUR_MAX](../multibyte.html#Macros "cpp/string/multibyte")
 [__STDC_UTF_16__  
 __STDC_UTF_32__](../multibyte.html#Macros "cpp/string/multibyte")(C++11)(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/navbar_content&action=edit)
+
 
 Defined in header `[<cwchar>](../../header/cwchar.html "cpp/header/cwchar")` |  |   
 ---|---|---  
@@ -121,14 +121,14 @@ This function is equivalent to the call [std::mbrtowc](mbrtowc.html)(nullptr, s,
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/multibyte/mbrlen&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 s  |  \-  |  pointer to an element of a multibyte character string   
 ---|---|---  
 n  |  \-  |  limit on the number of bytes in s that can be examined   
 ps  |  \-  |  pointer to the variable holding the conversion state   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/multibyte/mbrlen&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
   * ​0​ if the next n or fewer bytes complete the null character. 
   * The number of bytes (between 1 and n) that complete a valid multibyte character. 
@@ -137,7 +137,7 @@ ps  |  \-  |  pointer to the variable holding the conversion state
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/multibyte/mbrlen&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -184,13 +184,13 @@ Output:
     The remaining 2 bytes of 水 hold 2 bytes of the multibyte character
     Attempting to call mbrlen() in the middle of 水 while in initial shift state returns -1
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/multibyte/mbrlen&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ mbrtowc](mbrtowc.html "cpp/string/multibyte/mbrtowc") |  converts the next multibyte character to wide character, given state   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/dsc_mbrtowc&action=edit)  
+(function)   
 ---|---  
 [ mblen](mblen.html "cpp/string/multibyte/mblen") |  returns the number of bytes in the next multibyte character   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/dsc_mblen&action=edit)  
+(function)   
 [ do_length](../../locale/codecvt/length.html "cpp/locale/codecvt/length")[virtual] |  calculates the length of the `ExternT` string that would be consumed by conversion into given `InternT` buffer   
-(virtual protected member function of `std::codecvt<InternT,ExternT,StateT>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/codecvt/dsc_do_length&action=edit)  
+(virtual protected member function of `std::codecvt<InternT,ExternT,StateT>`)   
 [C documentation](../../../c/string/multibyte/mbrlen.html "c/string/multibyte/mbrlen") for mbrlen

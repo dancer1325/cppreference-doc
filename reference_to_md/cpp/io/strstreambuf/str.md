@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::strstreambuf`](../strstreambuf.html "cpp/io/strstreambuf")
 
@@ -96,7 +96,7 @@ Protected member functions
 [strstreambuf::seekoff](seekoff.html "cpp/io/strstreambuf/seekoff")  
 [strstreambuf::seekpos](seekpos.html "cpp/io/strstreambuf/seekpos")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/strstreambuf/navbar_content&action=edit)
+
 
 char* str(); |  |  (deprecated in C++98)   
 (removed in C++26)  
@@ -118,21 +118,21 @@ The start of the get area, for all writeable `std::strstreambuf` objects constru
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/strstreambuf/str&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/strstreambuf/str&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 A copy of [eback()](../basic_streambuf/gptr.html "cpp/io/basic streambuf/gptr"), which may be a null pointer. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/strstreambuf/str&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 This function is typically called through the [std::strstream](../strstream.html "cpp/io/strstream") interface. 
 
 The call to [freeze()](freeze.html "cpp/io/strstreambuf/freeze") guarantees that the returned pointer remains valid until the next explicit call to [freeze](freeze.html "cpp/io/strstreambuf/freeze")(false): otherwise (on a dynamic buffer) any output operation could trigger buffer reallocation which would invalidate the pointer. It also causes a memory leak in the destructor of `std::strstreambuf`, unless freeze(false) is called before the buffer (or, more commonly, the [std::strstream](../strstream.html) that manages it) is destroyed. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/strstreambuf/str&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -169,12 +169,12 @@ Output:
     Write-only buffer holds [1.23]
     Read-only buffer holds [1 2 31 2 3]
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/strstreambuf/str&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ str](../strstream/str.html "cpp/io/strstream/str") |  accesses the output buffer   
-(public member function of `std::strstream`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/strstream/dsc_str&action=edit)  
+(public member function of `std::strstream`)   
 ---|---  
 [ str](../ostrstream/str.html "cpp/io/ostrstream/str") |  accesses the output buffer   
-(public member function of `std::ostrstream`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/strstream/dsc_str&action=edit)  
+(public member function of `std::ostrstream`)   
 [ str](../istrstream/str.html "cpp/io/istrstream/str") |  accesses the output buffer   
-(public member function of `std::istrstream`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/strstream/dsc_str&action=edit)
+(public member function of `std::istrstream`) 

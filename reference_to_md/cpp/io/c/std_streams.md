@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [C-style I/O](../c.html "cpp/io/c")
 
@@ -176,7 +176,7 @@ Operations on files
 [tmpfile](tmpfile.html "cpp/io/c/tmpfile")  
 [tmpnam](tmpnam.html "cpp/io/c/tmpnam")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/navbar_content&action=edit)
+
 
 Defined in header `[<cstdio>](../../header/cstdio.html "cpp/header/cstdio")` |  |   
 ---|---|---  
@@ -197,13 +197,13 @@ What constitutes an interactive device is implementation-defined.
 
 These macros are expanded to expressions of type [std::FILE](FILE.html)*. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/std_streams&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 Although not mandated by POSIX, the UNIX convention is that `stdin` and `stdout` are line-buffered if associated with a terminal and `stderr` is unbuffered. 
 
 These macros may be expanded to modifiable lvalues. If any of these [std::FILE](FILE.html)* lvalue is modified, subsequent operations on the corresponding stream result in unspecified or undefined behavior. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/std_streams&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 This example shows a function similar to [std::printf](printf.html "cpp/io/c/fprintf").
 
@@ -240,19 +240,19 @@ Possible output:
     Scientific:         1.500000E+00 1.500000e+00
     Hexadecimal:        0x1.8p+0 0X1.8P+0 0x2CFB41BC
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/std_streams&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ cinwcin](../cin.html "cpp/io/cin") |  reads from the standard C input stream **stdin**  
-(global object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_cin&action=edit)  
+(global object)  
 ---|---  
 [ coutwcout](../cout.html "cpp/io/cout") |  writes to the standard C output stream **stdout**  
-(global object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_cout&action=edit)  
+(global object)  
 [ cerrwcerr](../cerr.html "cpp/io/cerr") |  writes to the standard C error stream **stderr** , unbuffered  
-(global object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_cerr&action=edit)  
+(global object)  
 [ clogwclog](../clog.html "cpp/io/clog") |  writes to the standard C error stream **stderr**  
-(global object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_clog&action=edit)  
+(global object)  
 [ printffprintfsprintfsnprintf](printf.html "cpp/io/c/fprintf")(C++11) |  prints formatted output to **stdout** , a file stream or a buffer   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_fprintf&action=edit)  
+(function)   
 [ FILE](FILE.html "cpp/io/c/FILE") |  object type, capable of holding all information needed to control a C I/O stream   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_FILE&action=edit)  
+(typedef)   
 [C documentation](../../../c/io/std_streams.html "c/io/std streams") for stdin, stdout, stderr

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ named requirements](../iterator/concepts.html "cpp/named req")
 
@@ -147,11 +147,11 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/named_req/navbar_content&action=edit)
+
 
 Specifies that an object of the type can be copy-constructed in-place by a given allocator. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/CopyInsertable&action=edit&section=1 "Edit section: Requirements")] Requirements
+### Requirements
 
 Given the following types, values and expressions: 
 
@@ -181,13 +181,13 @@ expr |  [std::allocator_traits](../memory/allocator_traits.html)<A>::construct(m
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/CopyInsertable&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 If `A` is [std::allocator](../memory/allocator.html)<T>, then this will call placement new, as by ::new((void*)p) T(v)(until C++20)[std::construct_at](../memory/construct_at.html)(p, v)(since C++20). 
 
 Although it is required that customized `construct` is used when constructing elements of [std::basic_string](../string/basic_string.html "cpp/string/basic string") until C++23, all implementations only used the default mechanism. The requirement is corrected by [P1072R10](https://wg21.link/P1072R10) to match existing practice. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/CopyInsertable&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

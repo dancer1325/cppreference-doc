@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [Floating-point environment](../fenv.html "cpp/numeric/fenv")
 
@@ -106,7 +106,7 @@ Macro constants
 [FE_DOWNWARDFE_TONEARESTFE_TOWARDZEROFE_UPWARD](FE_round.html "cpp/numeric/fenv/FE round")(C++11)(C++11)(C++11)(C++11)  
 [FE_DFL_ENV](FE_DFL_ENV.html "cpp/numeric/fenv/FE DFL ENV")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/fenv/navbar_content&action=edit)
+
 
 Defined in header `[<cfenv>](../../header/cfenv.html "cpp/header/cfenv")` |  |   
 ---|---|---  
@@ -120,17 +120,17 @@ int fesetexceptflag( const [std::fexcept_t](../fenv.html)* flagp, int excepts );
 
 The full contents of a floating-point exception flag is not necessarily a boolean value indicating whether the exception is raised or cleared. For example, it may be a struct which includes the boolean status and the address of the code that triggered the exception. These functions obtain all such content and obtain/store it in `flagp` in implementation-defined format. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/fenv/feexceptflag&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 flagp  |  \-  |  pointer to an [std::fexcept_t](../fenv.html) object where the flags will be stored or read from   
 ---|---|---  
 excepts  |  \-  |  bitmask listing the exception flags to get/set   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/fenv/feexceptflag&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 ​0​ on success, non-zero otherwise. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/fenv/feexceptflag&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [C documentation](../../../c/numeric/fenv/feexceptflag.html "c/numeric/fenv/feexceptflag") for fegetexceptflag, fesetexceptflag  
 ---

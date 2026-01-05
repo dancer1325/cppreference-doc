@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Localization library](../locale.html "cpp/locale")
 
@@ -152,7 +152,7 @@ base classes](../locale.html#Facet_category_base_classes "cpp/locale")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/navbar_content&action=edit)
+
 
 **`std::codecvt`**
 
@@ -168,7 +168,7 @@ Member functions
 [codecvt::lengthcodecvt::do_length](codecvt/length.html "cpp/locale/codecvt/length")  
 [codecvt::max_lengthcodecvt::do_max_length](codecvt/max_length.html "cpp/locale/codecvt/max length")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/codecvt/navbar_content&action=edit)
+
 
 Defined in header `[<locale>](../header/locale.html "cpp/header/locale")` |  |   
 ---|---|---  
@@ -200,7 +200,7 @@ Inheritance diagram
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/codecvt&action=edit&section=1 "Edit section: Specializations")] Specializations
+### Specializations
 
 The standard library is guaranteed to provide the following specializations (they are [required to be implemented by any locale object](locale.html "cpp/locale/locale")): 
 
@@ -217,7 +217,7 @@ std::codecvt<char32_t, char8_t, [std::mbstate_t](../string/multibyte/mbstate_t.h
 (since C++20)(deprecated) |  conversion between UTF-32 and UTF-8   
 std::codecvt<wchar_t, char, [std::mbstate_t](../string/multibyte/mbstate_t.html)> |  conversion between the system's native wide and the single-byte narrow character sets   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/codecvt&action=edit&section=2 "Edit section: Nested types")] Nested types
+### Nested types
 
 Type  |  Definition   
 ---|---  
@@ -225,51 +225,51 @@ Type  |  Definition
 `extern_type` |  `ExternT`  
 `state_type` |  `StateT`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/facet_data_members&action=edit&section=T-1 "Template:cpp/locale/facet data members")] Data members
+### Data members
 
 Member  |  Description   
 ---|---  
 [std::locale::id](locale/id.html "cpp/locale/locale/id") `id` [static] |  the identifier of the [facet](locale/facet.html#Facet_class "cpp/locale/locale/facet")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/codecvt&action=edit&section=3 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](codecvt/codecvt.html "cpp/locale/codecvt/codecvt") |  constructs a new `codecvt` facet   
 (public member function)  
 ---|---  
 [ out](codecvt/out.html "cpp/locale/codecvt/out") |  invokes `do_out`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/codecvt/dsc_out&action=edit)  
+(public member function)   
 [ in](codecvt/in.html "cpp/locale/codecvt/in") |  invokes `do_in`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/codecvt/dsc_in&action=edit)  
+(public member function)   
 [ unshift](codecvt/unshift.html "cpp/locale/codecvt/unshift") |  invokes `do_unshift`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/codecvt/dsc_unshift&action=edit)  
+(public member function)   
 [ encoding](codecvt/encoding.html "cpp/locale/codecvt/encoding") |  invokes `do_encoding`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/codecvt/dsc_encoding&action=edit)  
+(public member function)   
 [ always_noconv](codecvt/always_noconv.html "cpp/locale/codecvt/always noconv") |  invokes `do_always_noconv`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/codecvt/dsc_always_noconv&action=edit)  
+(public member function)   
 [ length](codecvt/length.html "cpp/locale/codecvt/length") |  invokes `do_length`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/codecvt/dsc_length&action=edit)  
+(public member function)   
 [ max_length](codecvt/max_length.html "cpp/locale/codecvt/max length") |  invokes `do_max_length`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/codecvt/dsc_max_length&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/codecvt&action=edit&section=4 "Edit section: Protected member functions")] Protected member functions
+### Protected member functions
 
 [ (destructor)](codecvt/~codecvt.html "cpp/locale/codecvt/~codecvt") |  destructs a `codecvt` facet   
 (protected member function)  
 ---|---  
 [ do_out](codecvt/out.html "cpp/locale/codecvt/out")[virtual] |  converts a string from `InternT` to `ExternT`, such as when writing to file   
-(virtual protected member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/codecvt/dsc_do_out&action=edit)  
+(virtual protected member function)   
 [ do_in](codecvt/in.html "cpp/locale/codecvt/in")[virtual] |  converts a string from `ExternT` to `InternT`, such as when reading from file   
-(virtual protected member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/codecvt/dsc_do_in&action=edit)  
+(virtual protected member function)   
 [ do_unshift](codecvt/unshift.html "cpp/locale/codecvt/unshift")[virtual] |  generates the termination character sequence of `ExternT` characters for incomplete conversion   
-(virtual protected member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/codecvt/dsc_do_unshift&action=edit)  
+(virtual protected member function)   
 [ do_encoding](codecvt/encoding.html "cpp/locale/codecvt/encoding")[virtual] |  returns the number of `ExternT` characters necessary to produce one `InternT` character, if constant   
-(virtual protected member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/codecvt/dsc_do_encoding&action=edit)  
+(virtual protected member function)   
 [ do_always_noconv](codecvt/always_noconv.html "cpp/locale/codecvt/always noconv")[virtual] |  tests if the facet encodes an identity conversion for all valid argument values   
-(virtual protected member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/codecvt/dsc_do_always_noconv&action=edit)  
+(virtual protected member function)   
 [ do_length](codecvt/length.html "cpp/locale/codecvt/length")[virtual] |  calculates the length of the `ExternT` string that would be consumed by conversion into given `InternT` buffer   
-(virtual protected member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/codecvt/dsc_do_length&action=edit)  
+(virtual protected member function)   
 [ do_max_length](codecvt/max_length.html "cpp/locale/codecvt/max length")[virtual] |  returns the maximum number of `ExternT` characters that could be converted into a single `InternT` character   
-(virtual protected member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/codecvt/dsc_do_max_length&action=edit)  
+(virtual protected member function)   
   
 ##  Inherited from [std::codecvt_base](codecvt_base.html "cpp/locale/codecvt base")
 
@@ -283,7 +283,7 @@ Enumeration constant  |  Definition
 `error` |  encountered an invalid character   
 `noconv` |  no conversion required, input and output types are the same   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/codecvt&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 The following examples reads a UTF-8 file using a locale which implements UTF-8 conversion in codecvt<wchar_t, char, [std::mbstate_t](../string/multibyte/mbstate_t.html)> and converts a UTF-8 string to UTF-16 using one of the standard specializations of `std::codecvt`.
 
@@ -348,7 +348,7 @@ Output:
     The UTF-8 file contains the following UTF-16 code units:
     U+007a U+00df U+6c34 U+d83c U+df4c
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/codecvt&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -357,7 +357,7 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [LWG 3767](https://cplusplus.github.io/LWG/issue3767) | C++20  | std::codecvt<char16_t, char8_t, [std::mbstate_t](../string/multibyte/mbstate_t.html)> and  
 std::codecvt<char32_t, char8_t, [std::mbstate_t](../string/multibyte/mbstate_t.html)> are locale-independent  | deprecated them   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/codecvt&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 Character  
 conversions  | locale-defined multibyte  
@@ -377,13 +377,13 @@ UCS-2 (Windows) |  [`mbsrtowcs`](../string/multibyte/mbsrtowcs.html "cpp/string/
 [`use_facet`](use_facet.html "cpp/locale/use facet")<**`codecvt`**  
 <wchar_t,char,mbstate_t>>([`locale`](locale.html "cpp/locale/locale"))  | [`codecvt_utf8`](codecvt_utf8.html "cpp/locale/codecvt utf8")<wchar_t> | [`codecvt_utf16`](codecvt_utf16.html "cpp/locale/codecvt utf16")<wchar_t>  
 [ codecvt_base](codecvt_base.html "cpp/locale/codecvt base") |  defines character conversion errors   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_codecvt_base&action=edit)  
+(class)   
 ---|---  
 [ codecvt_byname](codecvt_byname.html "cpp/locale/codecvt byname") |  represents the system-supplied **std::codecvt** for the named locale   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_codecvt_byname&action=edit)  
+(class template)   
 [ codecvt_utf8](codecvt_utf8.html "cpp/locale/codecvt utf8")(C++11)(deprecated in C++17)(removed in C++26) |  converts between UTF-8 and UCS-2/UCS-4   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_codecvt_utf8&action=edit)  
+(class template)   
 [ codecvt_utf16](codecvt_utf16.html "cpp/locale/codecvt utf16")(C++11)(deprecated in C++17)(removed in C++26) |  converts between UTF-16 and UCS-2/UCS-4   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_codecvt_utf16&action=edit)  
+(class template)   
 [ codecvt_utf8_utf16](codecvt_utf8_utf16.html "cpp/locale/codecvt utf8 utf16")(C++11)(deprecated in C++17)(removed in C++26) |  converts between UTF-8 and UTF-16   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_codecvt_utf8_utf16&action=edit)
+(class template) 

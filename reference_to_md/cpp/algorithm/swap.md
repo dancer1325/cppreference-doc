@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](ranges/copy.html "cpp/algorithm/ra
 [uninitialized_default_construct_n](../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../header/algorithm.html "cpp/header/algorithm")` |  | (until C++11)  
 ---|---|---  
@@ -332,7 +332,7 @@ Exchanges the given values.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/swap&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 a, b  |  \-  |  the values to be swapped   
 ---|---|---  
@@ -340,11 +340,11 @@ Type requirements
 -`T` must meet the requirements of [CopyConstructible](../named_req/CopyConstructible.html "cpp/named req/CopyConstructible") and [CopyAssignable](../named_req/CopyAssignable.html "cpp/named req/CopyAssignable")(until C++11)[MoveConstructible](../named_req/MoveConstructible.html "cpp/named req/MoveConstructible") and [MoveAssignable](../named_req/MoveAssignable.html "cpp/named req/MoveAssignable")(since C++11).   
 -`T2` must meet the requirements of [Swappable](../named_req/Swappable.html "cpp/named req/Swappable").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/swap&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/swap&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 1) (none)  | (until C++11)  
 ---|---  
@@ -358,13 +358,13 @@ Type requirements
 ---|---  
 [`noexcept`](../language/noexcept_spec.html "cpp/language/noexcept spec") specification: noexcept([std::is_nothrow_swappable_v](../types/is_swappable.html)<T2>) | (since C++17)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/swap&action=edit&section=4 "Edit section: Complexity")] Complexity
+### Complexity
 
 1) Constant.
 
 2) Linear in N.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/swap&action=edit&section=5 "Edit section: Specializations")] Specializations
+### Specializations
 
 `std::swap` may be [specialized in namespace std](../language/extending_std.html "cpp/language/extending std") for program-defined types, but such specializations are not found by [ADL](../language/adl.html "cpp/language/adl") (the namespace std is not the associated namespace for the program-defined type).  | (until C++20)  
 ---|---  
@@ -374,116 +374,116 @@ The expected way to make a [program-defined type](../language/type-id.html#Progr
 The following overloads are already provided by the standard library: 
 
 [ std::swap(std::pair)](../utility/pair/swap2.html "cpp/utility/pair/swap2")(C++11) |  specializes the **std::swap** algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/pair/dsc_swap2&action=edit)  
+(function template)   
 ---|---  
 [ std::swap(std::tuple)](../utility/tuple/swap2.html "cpp/utility/tuple/swap2")(C++11) |  specializes the **std::swap** algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/dsc_swap2&action=edit)  
+(function template)   
 [ std::swap(std::shared_ptr)](../memory/shared_ptr/swap2.html "cpp/memory/shared ptr/swap2")(C++11) |  specializes the **std::swap** algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/dsc_swap2&action=edit)  
+(function template)   
 [ std::swap(std::weak_ptr)](../memory/weak_ptr/swap2.html "cpp/memory/weak ptr/swap2")(C++11) |  specializes the **std::swap** algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/weak_ptr/dsc_swap2&action=edit)  
+(function template)   
 [ std::swap(std::unique_ptr)](../memory/unique_ptr/swap2.html "cpp/memory/unique ptr/swap2")(C++11) |  specializes the **std::swap** algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/unique_ptr/dsc_swap2&action=edit)  
+(function template)   
 [ std::swap(std::function)](../utility/functional/function/swap2.html "cpp/utility/functional/function/swap2")(C++11) |  specializes the **std::swap** algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/function/dsc_swap2&action=edit)  
+(function template)   
 [ std::swap(std::basic_string)](../string/basic_string/swap2.html "cpp/string/basic string/swap2") |  specializes the **std::swap** algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_swap2&action=edit)  
+(function template)   
 [ std::swap(std::array)](../container/array/swap2.html "cpp/container/array/swap2")(C++11) |  specializes the **std::swap** algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_swap2&action=edit)  
+(function template)   
 [ std::swap(std::deque)](../container/deque/swap2.html "cpp/container/deque/swap2") |  specializes the **std::swap** algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_swap2&action=edit)  
+(function template)   
 [ std::swap(std::forward_list)](../container/forward_list/swap2.html "cpp/container/forward list/swap2")(C++11) |  specializes the **std::swap** algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_swap2&action=edit)  
+(function template)   
 [ std::swap(std::list)](../container/list/swap2.html "cpp/container/list/swap2") |  specializes the **std::swap** algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_swap2&action=edit)  
+(function template)   
 [ std::swap(std::vector)](../container/vector/std_swap.html "cpp/container/vector/swap2") |  specializes the **std::swap** algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_swap2&action=edit)  
+(function template)   
 [ std::swap(std::map)](../container/map/swap2.html "cpp/container/map/swap2") |  specializes the **std::swap** algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_swap2&action=edit)  
+(function template)   
 [ std::swap(std::multimap)](../container/multimap/swap2.html "cpp/container/multimap/swap2") |  specializes the **std::swap** algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_swap2&action=edit)  
+(function template)   
 [ std::swap(std::set)](../container/set/swap2.html "cpp/container/set/swap2") |  specializes the **std::swap** algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_swap2&action=edit)  
+(function template)   
 [ std::swap(std::multiset)](../container/multiset/swap2.html "cpp/container/multiset/swap2") |  specializes the **std::swap** algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_swap2&action=edit)  
+(function template)   
 [ std::swap(std::unordered_map)](../container/unordered_map/swap2.html "cpp/container/unordered map/swap2")(C++11) |  specializes the **std::swap** algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_swap2&action=edit)  
+(function template)   
 [ std::swap(std::unordered_multimap)](../container/unordered_multimap/swap2.html "cpp/container/unordered multimap/swap2")(C++11) |  specializes the **std::swap** algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_swap2&action=edit)  
+(function template)   
 [ std::swap(std::unordered_set)](../container/unordered_set/swap2.html "cpp/container/unordered set/swap2")(C++11) |  specializes the **std::swap** algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_swap2&action=edit)  
+(function template)   
 [ std::swap(std::unordered_multiset)](../container/unordered_multiset/swap2.html "cpp/container/unordered multiset/swap2")(C++11) |  specializes the **std::swap** algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_swap2&action=edit)  
+(function template)   
 [ std::swap(std::queue)](../container/queue/swap2.html "cpp/container/queue/swap2")(C++11) |  specializes the **std::swap** algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_swap2&action=edit)  
+(function template)   
 [ std::swap(std::priority_queue)](../container/priority_queue/swap2.html "cpp/container/priority queue/swap2")(C++11) |  specializes the **std::swap** algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_swap2&action=edit)  
+(function template)   
 [ std::swap(std::stack)](../container/stack/swap2.html "cpp/container/stack/swap2")(C++11) |  specializes the **std::swap** algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_swap2&action=edit)  
+(function template)   
 [ std::swap(std::valarray)](../numeric/valarray/swap2.html "cpp/numeric/valarray/swap2")(C++11) |  specializes the **std::swap** algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_swap2&action=edit)  
+(function template)   
 [ std::swap(std::basic_stringbuf)](../io/basic_stringbuf/swap2.html "cpp/io/basic stringbuf/swap2")(C++11) |  specializes the **std::swap** algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_stringbuf/dsc_swap2&action=edit)  
+(function template)   
 [ std::swap(std::basic_istringstream)](../io/basic_istringstream/swap2.html "cpp/io/basic istringstream/swap2")(C++11) |  specializes the **std::swap** algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_stringstream/dsc_swap2&action=edit)  
+(function template)   
 [ std::swap(std::basic_ostringstream)](../io/basic_ostringstream/swap2.html "cpp/io/basic ostringstream/swap2")(C++11) |  specializes the **std::swap** algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_stringstream/dsc_swap2&action=edit)  
+(function template)   
 [ std::swap(std::basic_stringstream)](../io/basic_stringstream/swap2.html "cpp/io/basic stringstream/swap2")(C++11) |  specializes the **std::swap** algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_stringstream/dsc_swap2&action=edit)  
+(function template)   
 [ std::swap(std::basic_filebuf)](../io/basic_filebuf/swap2.html "cpp/io/basic filebuf/swap2")(C++11) |  specializes the **std::swap** algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_filebuf/dsc_swap2&action=edit)  
+(function template)   
 [ std::swap(std::basic_ifstream)](../io/basic_ifstream/swap2.html "cpp/io/basic ifstream/swap2")(C++11) |  specializes the **std::swap** algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_fstream/dsc_swap2&action=edit)  
+(function template)   
 [ std::swap(std::basic_ofstream)](../io/basic_ofstream/swap2.html "cpp/io/basic ofstream/swap2")(C++11) |  specializes the **std::swap** algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_fstream/dsc_swap2&action=edit)  
+(function template)   
 [ std::swap(std::basic_fstream)](../io/basic_fstream/swap2.html "cpp/io/basic fstream/swap2")(C++11) |  specializes the **std::swap** algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_fstream/dsc_swap2&action=edit)  
+(function template)   
 [ std::swap(std::basic_syncbuf)](../io/basic_syncbuf/swap2.html "cpp/io/basic syncbuf/swap2")(C++20) |  specializes the **std::swap** algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_syncbuf/dsc_swap2&action=edit)  
+(function template)   
 [ std::swap(std::basic_spanbuf)](../io/basic_spanbuf/swap2.html "cpp/io/basic spanbuf/swap2")(C++23) |  specializes the **std::swap** algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_spanbuf/dsc_swap2&action=edit)  
+(function template)   
 [ std::swap(std::basic_ispanstream)](../io/basic_ispanstream/swap2.html "cpp/io/basic ispanstream/swap2")(C++23) |  specializes the **std::swap** algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_spanstream/dsc_swap2&action=edit)  
+(function template)   
 [ std::swap(std::basic_ospanstream)](../io/basic_ospanstream/swap2.html "cpp/io/basic ospanstream/swap2")(C++23) |  specializes the **std::swap** algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_spanstream/dsc_swap2&action=edit)  
+(function template)   
 [ std::swap(std::basic_spanstream)](../io/basic_spanstream/swap2.html "cpp/io/basic spanstream/swap2")(C++23) |  specializes the **std::swap** algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_spanstream/dsc_swap2&action=edit)  
+(function template)   
 [ std::swap(std::basic_regex)](../regex/basic_regex/swap2.html "cpp/regex/basic regex/swap2")(C++11) |  specializes the **std::swap** algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/basic_regex/dsc_swap2&action=edit)  
+(function template)   
 [ std::swap(std::match_results)](../regex/match_results/swap2.html "cpp/regex/match results/swap2")(C++11) |  specializes the **`std::swap`** algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/match_results/dsc_swap2&action=edit)  
+(function template)   
 [ std::swap(std::thread)](../thread/thread/swap2.html "cpp/thread/thread/swap2")(C++11) |  specializes the **std::swap** algorithm   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/dsc_swap2&action=edit)  
+(function)   
 [ std::swap(std::unique_lock)](../thread/unique_lock/swap2.html "cpp/thread/unique lock/swap2")(C++11) |  specializes the **std::swap** algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/unique_lock/dsc_swap2&action=edit)  
+(function template)   
 [ std::swap(std::shared_lock)](../thread/shared_lock/swap2.html "cpp/thread/shared lock/swap2")(C++14) |  specializes the **std::swap** algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/shared_lock/dsc_swap2&action=edit)  
+(function template)   
 [ std::swap(std::promise)](../thread/promise/swap2.html "cpp/thread/promise/swap2")(C++11) |  specializes the **std::swap** algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/promise/dsc_swap2&action=edit)  
+(function template)   
 [ std::swap(std::packaged_task)](../thread/packaged_task/swap2.html "cpp/thread/packaged task/swap2")(C++11) |  specializes the **std::swap** algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/packaged_task/dsc_swap2&action=edit)  
+(function template)   
 [ std::swap(std::optional)](../utility/optional/swap2.html "cpp/utility/optional/swap2")(C++17) |  specializes the **std::swap** algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/dsc_swap2&action=edit)  
+(function template)   
 [ std::swap(std::any)](../utility/any/swap2.html "cpp/utility/any/swap2")(C++17) |  specializes the **std::swap** algorithm   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/any/dsc_swap2&action=edit)  
+(function)   
 [ std::swap(std::variant)](../utility/variant/swap2.html "cpp/utility/variant/swap2")(C++17) |  specializes the **std::swap** algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variant/dsc_swap2&action=edit)  
+(function template)   
 [ std::swap(std::basic_stacktrace)](../utility/basic_stacktrace/swap2.html "cpp/utility/basic stacktrace/swap2")(C++23) |  specializes the **std::swap** algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/basic_stacktrace/dsc_swap2&action=edit)  
+(function template)   
 [ swap(std::filesystem::path)](../filesystem/path/swap2.html "cpp/filesystem/path/swap2")(C++17) |  specializes the **std::swap** algorithm   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/path/dsc_swap2&action=edit)  
+(function)   
 [ swap(std::expected)](../utility/expected/swap2.html "cpp/utility/expected/swap2")(C++23) |  specializes the **std::swap** algorithm   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/expected/dsc_swap2&action=edit)  
+(function)   
 [ swap(std::jthread)](../thread/jthread/swap2.html "cpp/thread/jthread/swap2")(C++20) |  specializes the **std::swap** algorithm   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/dsc_swap2&action=edit)  
+(function)   
 [ swap(std::move_only_function)](../utility/functional/move_only_function/swap2.html "cpp/utility/functional/move only function/swap2")(C++23) |  specializes the **std::swap** algorithm   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/move_only_function/dsc_swap2&action=edit)  
+(function)   
 [ swap(std::stop_source)](../thread/stop_source/swap2.html "cpp/thread/stop source/swap2")(C++20) |  specializes the **std::swap** algorithm   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/stop_source/dsc_swap2&action=edit)  
+(function)   
 [ swap(std::stop_token)](../thread/stop_token/swap2.html "cpp/thread/stop token/swap2")(C++20) |  specializes the **std::swap** algorithm   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/stop_token/dsc_swap2&action=edit)  
+(function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/swap&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -538,7 +538,7 @@ Output:
     swap(A::id=6, A::id=9)
     A::id=9 A::id=6
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/swap&action=edit&section=7 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -551,14 +551,14 @@ be [CopyConstructible](../named_req/CopyConstructible.html "cpp/named req/CopyCo
 [LWG 2554](https://cplusplus.github.io/LWG/issue2554) | C++11  | swapping multi-dimensional arrays can never  
 be noexcept due to name lookup problems  | made to work   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/swap&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [ ranges::swap](../utility/ranges/swap.html "cpp/utility/ranges/swap")(C++20) |  swaps the values of two objects  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/ranges/dsc_swap&action=edit)  
+(customization point object)  
 ---|---  
 [ iter_swap](iter_swap.html "cpp/algorithm/iter swap") |  swaps the elements pointed to by two iterators   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_iter_swap&action=edit)  
+(function template)   
 [ swap_ranges](swap_ranges.html "cpp/algorithm/swap ranges") |  swaps two ranges of elements   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_swap_ranges&action=edit)  
+(function template)   
 [ exchange](../utility/exchange.html "cpp/utility/exchange")(C++14) |  replaces the argument with a new value and returns its previous value   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_exchange&action=edit)
+(function template) 

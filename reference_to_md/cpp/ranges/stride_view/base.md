@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::stride_view`](../stride_view.html "cpp/ranges/stride view")
 
@@ -263,7 +263,7 @@ operator-(stride_view::_iterator_)](iterator/operator_arith2.html "cpp/ranges/st
 [iter_move(stride_view::_iterator_)](iterator/iter_move.html "cpp/ranges/stride view/iterator/iter move")  
 [iter_swap(stride_view::_iterator_)](iterator/iter_swap.html "cpp/ranges/stride view/iterator/iter swap")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/stride_view/navbar_content&action=edit)
+
 
 constexpr V base() const& requires [std::copy_constructible](../../concepts/copy_constructible.html)<V>; |  (1)  |  (since C++23)  
 ---|---|---  
@@ -274,11 +274,11 @@ constexpr V base() &&; |  (2)  |  (since C++23)
 
 2) Move constructs the result from the underlying view. Equivalent to return` `std::[`move`](../../utility.html "cpp/utility")(`_[base_](../stride_view.html#base "cpp/ranges/stride view")_`);.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/stride_view/base&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 A copy of the underlying view. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/stride_view/base&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     

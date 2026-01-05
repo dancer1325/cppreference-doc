@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::zoned_time`](../zoned_time.html "cpp/chrono/zoned time")
 
@@ -121,7 +121,7 @@ Helper classes
 [hash<std::chrono::zoned_time>](hash.html "cpp/chrono/zoned time/hash")(C++26)  
 [Deduction guides](deduction_guides.html "cpp/chrono/zoned time/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/zoned_time/navbar_content&action=edit)
+
 
 zoned_time(); |  (1)  |  (since C++20)  
 ---|---|---  
@@ -186,13 +186,13 @@ e) Constructors with a template parameter `Duration2` (4,13-16) do not participa
 
 The behavior is undefined if the time zone pointer (initialized as described above) does not refer to a time zone. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/zoned_time/zoned_time&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 `zoned_time` does not have a move constructor and attempting to move one will perform a copy instead using the defaulted copy constructor (3). Thus, when `TimeZonePtr` is a move-only type, `zoned_time` is immovable: it can be neither moved nor copied. 
 
 The constructors (14,16) accept a std::chrono::choose parameter, but that parameter has no effect. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/zoned_time/zoned_time&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     

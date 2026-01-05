@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 **`std::source_location`**
 
@@ -143,7 +143,7 @@ Field access
 [source_location::file_name](source_location/file_name.html "cpp/utility/source location/file name")  
 [source_location::function_name](source_location/function_name.html "cpp/utility/source location/function name")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/source_location/navbar_content&action=edit)
+
 
 Defined in header `[<source_location>](../header/source_location.html "cpp/header/source location")` |  |   
 ---|---|---  
@@ -178,34 +178,34 @@ It is unspecified whether the copy/move constructors and the copy/move assignmen
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/source_location&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 #####  Creation   
   
 ---  
 [ (constructor)](source_location/source_location.html "cpp/utility/source location/source location") |  constructs a new `source_location` with implementation-defined values   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/source_location/dsc_constructor&action=edit)  
+(public member function)   
 [ current](source_location/current.html "cpp/utility/source location/current")[static] |  constructs a new `source_location` corresponding to the location of the call site   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/source_location/dsc_current&action=edit)  
+(public static member function)   
   
 #####  Field access   
   
 [ line](source_location/line.html "cpp/utility/source location/line") |  return the line number represented by this object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/source_location/dsc_line&action=edit)  
+(public member function)   
 [ column](source_location/column.html "cpp/utility/source location/column") |  return the column number represented by this object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/source_location/dsc_column&action=edit)  
+(public member function)   
 [ file_name](source_location/file_name.html "cpp/utility/source location/file name") |  return the file name represented by this object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/source_location/dsc_file_name&action=edit)  
+(public member function)   
 [ function_name](source_location/function_name.html "cpp/utility/source location/function name") |  return the name of the function represented by this object, if any   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/source_location/dsc_function_name&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/source_location&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](feature_test.html "cpp/utility/feature test") macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_source_location`](../experimental/feature_test.html#cpp_lib_source_location "cpp/feature test") | [`201907L`](../compiler_support/20.html#cpp_lib_source_location_201907L "cpp/compiler support/20") | (C++20) | Source-code information capture ([`std::source_location`](source_location.html#Top))   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/source_location&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -244,12 +244,12 @@ Possible output:
     file: main.cpp(25:8) `int main(int, char**)`: Hello world!
     file: main.cpp(20:8) `void fun(T) [with T = const char*]`: Hello C++20!
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/source_location&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ #line](../preprocessor/line.html "cpp/preprocessor/line") |  changes the source code's line number and, optionally, the current file name  
-(preprocessing directive)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/preprocessor/dsc_line&action=edit)  
+(preprocessing directive)  
 ---|---  
 [ stacktrace_entry](stacktrace_entry.html "cpp/utility/stacktrace entry")(C++23) |  representation of an evaluation in a stacktrace   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_stacktrace_entry&action=edit)
+(class) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::future_errc`](../future_errc.html "cpp/thread/future errc")
 
@@ -184,7 +184,7 @@ Non-member functions
 Helper classes  
 [is_error_code_enum](is_error_code_enum.html "cpp/thread/future errc/is error code enum")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/future_errc/navbar_content&action=edit)
+
 
 Defined in header `[<future>](../../header/future.html "cpp/header/future")` |  |   
 ---|---|---  
@@ -207,29 +207,29 @@ This function is called by the constructor of [std::error_code](../../error/erro
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/future_errc/make_error_code&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 e  |  \-  |  error code number   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/future_errc/make_error_code&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 A value of type [std::error_code](../../error/error_code.html "cpp/error/error code") that holds the error code number from `e` associated with the error category "future". 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/future_errc/make_error_code&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/future_errc/make_error_code&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ error_code](../../error/error_code.html "cpp/error/error code")(C++11) |  holds a platform-dependent error code   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_error_code&action=edit)  
+(class)   
 ---|---  
 [ future_errc](../future_errc.html "cpp/thread/future errc")(C++11) |  identifies the future error codes   
-(enum) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_future_errc&action=edit)  
+(enum)   
 [ make_error_code(std::errc)](../../error/errc/make_error_code.html "cpp/error/errc/make error code")(C++11) |  creates error code value for `errc` enum e   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/errc/dsc_make_error_code&action=edit)  
+(function)   
 [ make_error_code(std::io_errc)](../../io/io_errc/make_error_code.html "cpp/io/io errc/make error code")(C++11) |  constructs an iostream error code   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/io_errc/dsc_make_error_code&action=edit)
+(function) 

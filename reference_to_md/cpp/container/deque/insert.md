@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::deque`](../deque.html "cpp/container/deque")
 
@@ -134,7 +134,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/deque/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/deque/navbar_content&action=edit)
+
 
 iterator insert( const_iterator pos, const T& value ); |  (1) | (constexpr since C++26)  
 ---|---|---  
@@ -222,7 +222,7 @@ All iterators (including the [`end()`](end.html "cpp/container/deque/end") itera
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/insert&action=edit&section=T-1 "Template:cpp/container/insert")] Parameters
+### Parameters
 
 pos  |  \-  |  iterator before which the content will be inserted   
 ---|---|---  
@@ -231,17 +231,17 @@ count  |  \-  |  number of elements to insert
 first, last  |  \-  |  the pair of iterators defining the [range](../../iterator.html#Ranges "cpp/iterator") of elements to insert   
 ilist  |  \-  |  [std::initializer_list](../../utility/initializer_list.html "cpp/utility/initializer list") to insert the values from   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/insert&action=edit&section=T-2 "Template:cpp/container/insert")] Return value
+### Return value
 
 1,2) Iterator pointing to the inserted value.
 
 3-5) Iterator pointing to the first element inserted, or pos if no element is inserted.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/insert&action=edit&section=T-3 "Template:cpp/container/insert")] Complexity
+### Complexity
 
 Linear in the number of elements inserted plus [std::min](../../algorithm/min.html)([std::distance](../../iterator/distance.html)(begin(), pos), [std::distance](../../iterator/distance.html)(pos, end())). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/insert&action=edit&section=T-4 "Template:cpp/container/insert")] Exceptions
+### Exceptions
 
 If an exception is thrown other than by 
 
@@ -268,7 +268,7 @@ this function has no effect (strong exception guarantee).
 If an exception is thrown when inserting a single element at either end, this function has no effect (strong exception guarantee). Otherwise, if an exception is thrown by the move constructor of a non-[CopyInsertable](../../named_req/CopyInsertable.html "cpp/named req/CopyInsertable") `T`, the effects are unspecified.  | (since C++11)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/insert&action=edit&section=T-5 "Template:cpp/container/insert")] Example
+### Example
 
 Run this code
     
@@ -327,7 +327,7 @@ Output:
     5. [501, 502, 503, 300, 300, 400, 400, 200, 100, 100, 100]
     6. [501, 502, 503, 300, 300, 400, 400, 200, 100, 100, 100, 601, 602, 603]
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/insert&action=edit&section=T-6 "Template:cpp/container/insert")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -338,14 +338,14 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 for inserting a single element  | also specified for inserting  
 multiple elements   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/insert&action=edit&section=T-7 "Template:cpp/container/insert")] See also
+### See also
 
 [ emplace](emplace.html "cpp/container/deque/emplace")(C++11) |  constructs element in-place   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_emplace&action=edit)  
+(public member function)   
 ---|---  
 [ push_front](push_front.html "cpp/container/deque/push front") |  inserts an element to the beginning   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_push_front&action=edit)  
+(public member function)   
 [ push_back](push_back.html "cpp/container/deque/push back") |  adds an element to the end   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_push_back&action=edit)  
+(public member function)   
 [ inserter](../../iterator/inserter.html "cpp/iterator/inserter") |  creates a [std::insert_iterator](../../iterator/insert_iterator.html "cpp/iterator/insert iterator") of type inferred from the argument   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_inserter&action=edit)
+(function template) 

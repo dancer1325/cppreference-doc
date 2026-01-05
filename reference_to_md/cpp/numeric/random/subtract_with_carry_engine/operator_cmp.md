@@ -32,7 +32,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../../numeric.html "cpp/numeric")
 
@@ -89,7 +89,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [Pseudo-random number generation](../../random.html "cpp/numeric/random")
 
@@ -163,7 +163,7 @@
 [piecewise_constant_distribution](../piecewise_constant_distribution.html "cpp/numeric/random/piecewise constant distribution")(C++11)  
 [piecewise_linear_distribution](../piecewise_linear_distribution.html "cpp/numeric/random/piecewise linear distribution")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/navbar_content&action=edit)
+
 
 [`std::subtract_with_carry_engine`](../subtract_with_carry_engine.html "cpp/numeric/random/subtract with carry engine")
 
@@ -181,7 +181,7 @@ Non-member functions
 **operator== operator!=**(C++11)(C++11)(until C++20)  
 [operator<<operator>>](operator_ltltgtgt.html "cpp/numeric/random/subtract with carry engine/operator ltltgtgt")(C++11)(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/subtract_with_carry_engine/navbar_content&action=edit)
+
 
 friend bool operator==( const subtract_with_carry_engine& lhs,  
 const subtract_with_carry_engine& rhs ); |  (1)  |  (since C++11)  
@@ -198,18 +198,18 @@ These functions are not visible to ordinary [unqualified](../../../language/unqu
 The `!=` operator is [synthesized](../../../language/default_comparisons.html#Other_defaulted_comparison_operators "cpp/language/default comparisons") from `operator==`.  | (since C++20)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/engine/operator_cmp&action=edit&section=T-1 "Template:cpp/numeric/random/engine/operator cmp")] Parameters
+### Parameters
 
 lhs, rhs  |  \-  |  engines to compare   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/engine/operator_cmp&action=edit&section=T-2 "Template:cpp/numeric/random/engine/operator cmp")] Return value
+### Return value
 
 1) true if the engines are equal, false otherwise.
 
 2) true if the engines are not equal, false otherwise.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/engine/operator_cmp&action=edit&section=T-3 "Template:cpp/numeric/random/engine/operator cmp")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

@@ -545,8 +545,8 @@ of function templates could be declared constexpr  | prohibited
 
 ### See also
 
-[ Class types ](class.html "cpp/language/class") |  defines types holding several data members [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_class&action=edit)  
+[ Class types ](class.html "cpp/language/class") |  defines types holding several data members   
 ---|---  
-[ Access specifiers ](access.html "cpp/language/access") |  defines visibility of class members[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_access&action=edit)
+[ Access specifiers ](access.html "cpp/language/access") |  defines visibility of class members
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

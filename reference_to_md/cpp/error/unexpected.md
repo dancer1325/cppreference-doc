@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Diagnostics library](../error.html "cpp/error")
 
@@ -89,7 +89,7 @@ Exception handling failures
 [breakpoint_if_debugging](../utility/breakpoint_if_debugging.html "cpp/utility/breakpoint if debugging")(C++26)  
 [breakpoint](../utility/breakpoint.html "cpp/utility/breakpoint")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/navbar_content&action=edit)
+
 
 Defined in header `[<exception>](../header/exception.html "cpp/header/exception")` |  |   
 ---|---|---  
@@ -108,11 +108,11 @@ If a destructor reset the unexpected handler during stack unwinding and the unwi
 ---|---  
 If a destructor reset the unexpected handler during stack unwinding, it is unspecified which handler is called if the unwinding later led to `unexpected` being called.  | (since C++11)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/unexpected&action=edit&section=1 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Throw any exception thrown by the currently installed [std::unexpected_handler](exception/unexpected_handler.html "cpp/error/unexpected handler"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/unexpected&action=edit&section=2 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -121,10 +121,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [LWG 2111](https://cplusplus.github.io/LWG/issue2111) | C++11  | effect of calling [std::set_unexpected](exception/set_unexpected.html "cpp/error/set unexpected") during stack  
 unwinding differs from C++98 and breaks some ABIs  | made unspecified   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/unexpected&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ unexpected](../utility/expected/unexpected.html "cpp/utility/expected/unexpected")(C++23) |  represented as an unexpected value   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/expected/dsc_unexpected&action=edit)  
+(class template)   
 ---|---  
 [ unexpected_handler](exception/unexpected_handler.html "cpp/error/unexpected handler")(deprecated in C++11)(removed in C++17) |  the type of the function called by **std::unexpected**   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_unexpected_handler&action=edit)
+(typedef) 

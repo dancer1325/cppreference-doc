@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::expected`](../expected.html "cpp/utility/expected")
 
@@ -160,13 +160,13 @@ Common vocabulary types
 [bad_expected_access](bad_expected_access.html "cpp/utility/expected/bad expected access")  
 [unexpect_tunexpect](unexpect_t.html "cpp/utility/expected/unexpect t")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/expected/navbar_content&action=edit)
+
 
 constexpr ~expected(); |  |  (since C++23)  
 ---|---|---  
 | |   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/%7Eexpected&action=edit&section=1 "Edit section: Main template destructor")] Main template destructor
+### Main template destructor
 
 Destroys the contained value: 
 
@@ -177,13 +177,13 @@ Destroys the contained value:
 
 This destructor is trivial if [std::is_trivially_destructible_v](../../types/is_destructible.html)<T> and [std::is_trivially_destructible_v](../../types/is_destructible.html)<E> are both true. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/%7Eexpected&action=edit&section=2 "Edit section: void partial specialization destructor")] void partial specialization destructor
+### void partial specialization destructor
 
 If [`has_value()`](operator_bool.html "cpp/utility/expected/operator bool") is false, destroys the unexpected value. 
 
 This destructor is trivial if [std::is_trivially_destructible_v](../../types/is_destructible.html)<E> is true. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/%7Eexpected&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Null-terminated byte strings](../byte.html "cpp/string/byte")
 
@@ -143,7 +143,7 @@
 | [strerror](strerror.html "cpp/string/byte/strerror")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/navbar_content&action=edit)
+
 
 Defined in header `[<cstring>](../../header/cstring.html "cpp/header/cstring")` |  |   
 ---|---|---  
@@ -163,17 +163,17 @@ Finds the first occurrence of the byte string needle in the byte string pointed 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/strstr&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 haystack  |  \-  |  pointer to the null-terminated byte string to examine   
 ---|---|---  
 needle  |  \-  |  pointer to the null-terminated byte string to search for   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/strstr&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Pointer to the first character of the found substring in haystack, or a null pointer if no such character is found. If needle points to an empty string, haystack is returned. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/strstr&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -199,15 +199,15 @@ Output:
     Found "not" starting at (4): "not. Do, or do not. There is no try."
     Found "not" starting at (19): "not. There is no try."
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/strstr&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ find](../basic_string/find.html "cpp/string/basic string/find") |  finds the first occurrence of the given substring   
-(public member function of `std::basic_string<CharT,Traits,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_find&action=edit)  
+(public member function of `std::basic_string<CharT,Traits,Allocator>`)   
 ---|---  
 [ wcsstr](../wide/wcsstr.html "cpp/string/wide/wcsstr") |  finds the first occurrence of a wide string within another wide string   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wcsstr&action=edit)  
+(function)   
 [ strchr](strchr.html "cpp/string/byte/strchr") |  finds the first occurrence of a character   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strchr&action=edit)  
+(function)   
 [ strrchr](strrchr.html "cpp/string/byte/strrchr") |  finds the last occurrence of a character   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strrchr&action=edit)  
+(function)   
 [C documentation](../../../c/string/byte/strstr.html "c/string/byte/strstr") for strstr

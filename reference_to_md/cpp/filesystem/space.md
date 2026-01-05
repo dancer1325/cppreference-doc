@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Filesystem library](../filesystem.html "cpp/filesystem")
 
@@ -100,7 +100,7 @@ filesystem::symlink_status](status.html "cpp/filesystem/status")
 [filesystem::is_socket](is_socket.html "cpp/filesystem/is socket")  
 [filesystem::is_symlink](is_symlink.html "cpp/filesystem/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/navbar_content&action=edit)
+
 
 Defined in header `[<filesystem>](../header/filesystem.html "cpp/header/filesystem")` |  |   
 ---|---|---  
@@ -134,17 +134,17 @@ The non-throwing overload sets all members to static_cast<[std::uintmax_t](../ty
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/space&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 p  |  \-  |  path to examine   
 ---|---|---  
 ec  |  \-  |  out-parameter for error reporting in the non-throwing overload   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/space&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The filesystem information (a [`filesystem::space_info`](space_info.html "cpp/filesystem/space info") object). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/space&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Any overload not marked `noexcept` may throw [std::bad_alloc](../memory/new/bad_alloc.html "cpp/memory/new/bad alloc") if memory allocation fails.  
 
@@ -153,11 +153,11 @@ Any overload not marked `noexcept` may throw [std::bad_alloc](../memory/new/bad_
 
 2) Sets a [std::error_code](../error/error_code.html)& parameter to the OS API error code if an OS API call fails, and executes ec.[`clear`](../error/error_code/clear.html "cpp/error/error code/clear")() if no errors occur.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/space&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 [`space_info.available`](space_info.html "cpp/filesystem/space info") may be less than [`space_info.free`](space_info.html "cpp/filesystem/space info"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/space&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -220,8 +220,8 @@ Possible output:
     │ 0              │ 0              │ 0              │ 100            │ /proc
     │ -1             │ -1             │ -1             │ 100            │ /null
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/space&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ space_info](space_info.html "cpp/filesystem/space info")(C++17) |  information about free and available space on the filesystem   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_space_info&action=edit)  
+(class)   
 ---|---

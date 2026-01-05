@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [Declarations](declarations.html "cpp/language/declarations")
 
@@ -280,7 +280,7 @@ Other declarations
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/declarations/navbar_content&action=edit)
+
 
 [ Expressions](expressions.html "cpp/language/expressions")
 
@@ -349,7 +349,7 @@ Conversions
 [`dynamic_cast`](dynamic_cast.html "cpp/language/dynamic cast")  
 [`reinterpret_cast`](reinterpret_cast.html "cpp/language/reinterpret cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/expressions/navbar_content&action=edit)
+
 
 [ Templates](templates.html "cpp/language/templates")
 
@@ -373,7 +373,7 @@ Conversions
 [Constraints and concepts](constraints.html "cpp/language/constraints") (C++20)  
 [requires expression](requires.html "cpp/language/requires") (C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/templates/navbar_content&action=edit)
+
 
 Inside the definition of a [template](templates.html "cpp/language/templates") (both [class template](class_template.html "cpp/language/class template") and [function template](function_template.html "cpp/language/function template")), the meaning of some constructs may differ from one instantiation to another. In particular, types and expressions may depend on types of type template parameters and values of constant template parameters. 
     
@@ -411,7 +411,7 @@ Name [lookup](lookup.html "cpp/language/lookup") and binding are different for d
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/dependent_name&action=edit&section=1 "Edit section: Binding rules")] Binding rules
+### Binding rules
 
 Non-dependent names are looked up and bound at the point of template definition. This binding holds even if at the point of template instantiation there is a better match: 
 
@@ -460,7 +460,7 @@ If the meaning of a non-dependent name changes between the definition context an
 
 Binding of dependent names is postponed until lookup takes place. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/dependent_name&action=edit&section=2 "Edit section: Lookup rules")] Lookup rules
+### Lookup rules
 
 The [lookup](lookup.html "cpp/language/lookup") of a dependent name used in a template is postponed until the template arguments are known, at which time 
 
@@ -575,7 +575,7 @@ Run this code
 
 Note: limited lookup (but not binding) of dependent names also takes place at template definition time, as needed to distinguish them from non-dependent names and also to determine whether they are members of the current instantiation or members of unknown specialization. The information obtained by this lookup can be used to detect errors, see below. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/dependent_name&action=edit&section=3 "Edit section: Dependent types")] Dependent types
+### Dependent types
 
 The following types are _dependent types_ ﻿: 
 
@@ -617,7 +617,7 @@ The pack indexing specifier applied to a type-dependent constant expression is a
   
 Note: a typedef member of a current instantiation is only dependent when the type it refers to is. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/dependent_name&action=edit&section=4 "Edit section: Type-dependent expressions")] Type-dependent expressions
+### Type-dependent expressions
 
 The following expressions are _type-dependent_ ﻿: 
 
@@ -717,7 +717,7 @@ The following expressions are never type-dependent because the types of these ex
 | (since C++20)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/dependent_name&action=edit&section=5 "Edit section: Value-dependent expressions")] Value-dependent expressions
+### Value-dependent expressions
 
 The following expressions are _value-dependent_ ﻿: 
 
@@ -806,7 +806,7 @@ The following expressions are _value-dependent_ ﻿:
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/dependent_name&action=edit&section=6 "Edit section: Dependent names")] Dependent names
+### Dependent names
 
 | This section is incomplete  
 Reason: the lede from [temp.dep], which is missing (identifier expression followed by parenthesized list...   
@@ -815,7 +815,7 @@ Reason: the lede from [temp.dep], which is missing (identifier expression follow
 Reason: reword to maybe make it more clear (or at least less intimidating), and while at it, apply [CWG issue 591](https://cplusplus.github.io/CWG/issues/591.html)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/dependent_name&action=edit&section=7 "Edit section: Current instantiation")] Current instantiation
+### Current instantiation
 
 Within a class template definition (including its member functions and nested classes) some names may be deduced to refer to the _current instantiation_. This allows certain errors to be detected at the point of definition, rather than instantiation, and removes the requirement on the typename and template disambiguators for dependent names, see below. 
 
@@ -964,7 +964,7 @@ If the lookup of a member of current instantiation gives a different result betw
     template int C<B>::g(); // OK: transformation to class member access syntax
                             // does not occur in the template definition context
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/dependent_name&action=edit&section=8 "Edit section: Unknown specializations")] Unknown specializations
+### Unknown specializations
 
 Within a template definition, certain names are deduced to belong to an _unknown specialization_ , in particular, 
 
@@ -1029,7 +1029,7 @@ This classification allows the following errors to be detected at the point of t
 
 Members of unknown specialization are always dependent, and are looked up and bound at the point of instantiation as all dependent names (see above) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/dependent_name&action=edit&section=9 "Edit section: The typename disambiguator for dependent names")] The typename disambiguator for dependent names
+### The typename disambiguator for dependent names
 
 In a declaration or a definition of a template, including alias template, a name that is not a member of the current instantiation and is dependent on a template parameter is not considered to be a type unless the keyword typename is used or unless it was already established as a type name, e.g. with a typedef declaration or by being used to name a base class. 
 
@@ -1154,7 +1154,7 @@ In some contexts, only type names can validly appear. In these contexts, a depen
 | (since C++20)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/dependent_name&action=edit&section=10 "Edit section: The template disambiguator for dependent names")] The template disambiguator for dependent names
+### The template disambiguator for dependent names
 
 Similarly, in a template definition, a dependent name that is not a member of the current instantiation is not considered to be a template name unless the disambiguation keyword template is used or unless it was already established as a template name: 
 
@@ -1212,11 +1212,11 @@ Due to the special rules for [unqualified name lookup](unqualified_lookup.html "
 | (until C++23)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/dependent_name&action=edit&section=11 "Edit section: Keywords")] Keywords
+### Keywords
 
 [`template`](../keyword/template.html "cpp/keyword/template"), [`typename`](../keyword/typename.html "cpp/keyword/typename")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/dependent_name&action=edit&section=12 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

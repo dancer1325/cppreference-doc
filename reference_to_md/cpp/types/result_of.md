@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Metaprogramming library](../meta.html "cpp/meta")
 
@@ -167,7 +167,7 @@ Type transformations
 Compile-time integer sequences  
 [integer_sequence](../utility/integer_sequence.html "cpp/utility/integer sequence")(C++14)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/meta/navbar_content&action=edit)
+
 
 Defined in header `[<type_traits>](../header/type_traits.html "cpp/header/type traits")` |  |   
 ---|---|---  
@@ -204,13 +204,13 @@ If the program adds specializations for any of the templates described on this p
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/result_of&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Member type  |  Definition   
 ---|---  
 `type` |  the return type of the [Callable](../named_req/Callable.html "cpp/named req/Callable") type `F` if invoked with the arguments `ArgTypes...`. Only defined if F can be called with the arguments `ArgTypes...` in unevaluated context.(since C++14)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/result_of&action=edit&section=2 "Edit section: Helper types")] Helper types
+### Helper types
 
 template< class T >  
 using result_of_t = typename result_of<T>::type; |  (1)  |  (since C++14)   
@@ -221,7 +221,7 @@ template< class F, class... ArgTypes >
 using invoke_result_t = typename invoke_result<F, ArgTypes...>::type; |  (2)  |  (since C++17)  
 | |   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/result_of&action=edit&section=3 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     namespace detail
@@ -301,7 +301,7 @@ using invoke_result_t = typename invoke_result<F, ArgTypes...>::type; |  (2)  | 
     template<class F, class... ArgTypes>
     struct invoke_result : detail::invoke_result<void, F, ArgTypes...> {};
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/result_of&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 As formulated in C++11, the behavior of `std::result_of` is undefined when `INVOKE(std::declval<F>(), std::declval<ArgTypes>()...)` is ill-formed (e.g. when F is not a callable type at all). C++14 changes that to a [SFINAE](../language/sfinae.html "cpp/language/sfinae") (when F is not callable, `std::result_of<F(ArgTypes...)>` simply doesn't have the `type` member). 
 
@@ -327,14 +327,14 @@ To avoid these quirks, `result_of` is often used with reference types as `F` and
             /* implementation */
         }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/result_of&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../utility/feature_test.html "cpp/utility/feature test") macro  | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_result_of_sfinae`](../experimental/feature_test.html#cpp_lib_result_of_sfinae "cpp/feature test") | [`201210L`](../compiler_support/14.html#cpp_lib_result_of_sfinae_201210L "cpp/compiler support/14") | (C++14) | `std::result_of` and [SFINAE](../language/sfinae.html "cpp/language/sfinae")  
 [`__cpp_lib_is_invocable`](../experimental/feature_test.html#cpp_lib_is_invocable "cpp/feature test") | [`201703L`](../compiler_support/17.html#cpp_lib_is_invocable_201703L "cpp/compiler support/17") | (C++17) | [`std::is_invocable`](is_invocable.html "cpp/types/is invocable"), `std::invoke_result`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/result_of&action=edit&section=6 "Edit section: Examples")] Examples
+### Examples
 
 Run this code
     
@@ -389,14 +389,14 @@ Output:
     
     overload of f for non-callable T
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/result_of&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ invokeinvoke_r](../utility/functional/invoke.html "cpp/utility/functional/invoke")(C++17)(C++23) |  invokes any [Callable](../named_req/Callable.html "cpp/named req/Callable") object with given arguments and possibility to specify return type(since C++23)   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_invoke&action=edit)  
+(function template)   
 ---|---  
 [ is_invocableis_invocable_ris_nothrow_invocableis_nothrow_invocable_r](is_invocable.html "cpp/types/is invocable")(C++17) |  checks if a type can be invoked (as if by [std::invoke](../utility/functional/invoke.html "cpp/utility/functional/invoke")) with the given argument types   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_invocable&action=edit)  
+(class template)   
 [ declval](../utility/declval.html "cpp/utility/declval")(C++11) |  obtains a reference to an object of the template type argument for use in an unevaluated context   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_declval&action=edit)
+(function template) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

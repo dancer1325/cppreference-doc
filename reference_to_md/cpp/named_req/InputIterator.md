@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ named requirements](../iterator/concepts.html "cpp/named req")
 
@@ -147,7 +147,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/named_req/navbar_content&action=edit)
+
 
 A **LegacyInputIterator** is a [LegacyIterator](Iterator.html "cpp/named req/Iterator") that can read from the pointed-to element. LegacyInputIterators only guarantee validity for single pass algorithms: once a LegacyInputIterator i has been incremented, all copies of its previous value may be invalidated. 
 
@@ -163,7 +163,7 @@ A **LegacyInputIterator** is a [LegacyIterator](Iterator.html "cpp/named req/Ite
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/InputIterator&action=edit&section=1 "Edit section: Requirements")] Requirements
+### Requirements
 
 Type  |  Definition   
 ---|---  
@@ -209,13 +209,13 @@ Postcondition  |
 (void)r++ |  | Effect  | Equivalent to (void)++r.   
 *r++ | convertible to `T` | Effect  | Equivalent to T x = *r; ++r; return x;.   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/InputIterator&action=edit&section=2 "Edit section: Equality domain")] Equality domain
+### Equality domain
 
 The term _the domain of ==_ is used in the ordinary mathematical sense to denote the set of values which can be compared using ==. This set can change over time. 
 
 Each algorithm places additional requirements on the equality domain for the iterator values it uses. These requirements can be inferred from the uses that algorithm makes of == and !=. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/InputIterator&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 For an input iterator `X` that is not a [LegacyForwardIterator](ForwardIterator.html "cpp/named req/ForwardIterator"), [std::iterator_traits](../iterator/iterator_traits.html)<X>::reference does not have to be a reference type: dereferencing an input iterator may return a proxy object or [std::iterator_traits](../iterator/iterator_traits.html)<X>::value_type itself by value (as in the case of [`std::istreambuf_iterator`](../iterator/istreambuf_iterator.html "cpp/iterator/istreambuf iterator")). 
 
@@ -241,7 +241,7 @@ where the exposition-only concept `__LegacyIterator` is described in [LegacyIter
 
 (since C++20)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/InputIterator&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -252,9 +252,9 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ([P2167R3](https://wg21.link/P2167R3))  | C++98  | convertibility to bool was too weak to  
 reflect the expectation of implementations  | requirements strengthened   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/InputIterator&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ input_iterator](../iterator/input_iterator.html "cpp/iterator/input iterator")(C++20) |  specifies that a type is an input iterator, that is, its referenced values can be read and it can be both pre- and post-incremented   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_input_iterator&action=edit)  
+(concept)   
 ---|---  
 [**Iterator library**](../iterator.html "cpp/iterator") |  provides definitions for iterators, iterator traits, adaptors, and utility functions 

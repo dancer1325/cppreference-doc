@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Function objects](../../../functional.html "cpp/utility/functional")
 
@@ -255,7 +255,7 @@ Identity function object
 [unary_negate](../unary_negate.html "cpp/utility/functional/unary negate")(until C++20*)  
 [binary_negate](../binary_negate.html "cpp/utility/functional/binary negate")(until C++20*)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/navbar_content&action=edit)
+
 
 [`std::reference_wrapper`](../reference_wrapper.html "cpp/utility/functional/reference wrapper")
 
@@ -271,7 +271,7 @@ Non-member functions
 Helper classes  
 [basic_common_reference<std::reference_wrapper>](basic_common_reference.html "cpp/utility/functional/reference wrapper/basic common reference")(C++23)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/reference_wrapper/navbar_content&action=edit)
+
 
 friend constexpr bool  
 operator==( reference_wrapper lhs, reference_wrapper rhs ); |  (1)  |  (since C++26)  
@@ -333,13 +333,13 @@ The `<`, `<=`, `>`, `>=`, and `!=` operators are [synthesized](../../../language
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/reference_wrapper/operator_cmp&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 lhs, rhs  |  \-  |  `reference_wrapper` object to compare   
 ---|---|---  
 ref  |  \-  |  reference to compare to the `reference_wrapper` object   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/reference_wrapper/operator_cmp&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1,2) lhs.get() == rhs.get().
 
@@ -349,11 +349,11 @@ ref  |  \-  |  reference to compare to the `reference_wrapper` object
 
 6) [`_synth-three-way_`](../../../standard_library/synth-three-way.html "cpp/standard library/synth-three-way")(lhs.get(), ref).
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/reference_wrapper/operator_cmp&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Throws when and what the comparison throws. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/reference_wrapper/operator_cmp&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 The return types of operator<=> are [deduced](../../../language/template_argument_deduction.html#auto-returning_functions "cpp/language/template argument deduction") from return statements to avoid hard error when instantiating a [std::reference_wrapper](../reference_wrapper.html)<T> with [`_synth-three-way-result_`](../../../standard_library/synth-three-way.html "cpp/standard library/synth-three-way")<T> being ill-formed. 
 
@@ -361,7 +361,7 @@ The return types of operator<=> are [deduced](../../../language/template_argumen
 ---|---|---|---  
 [`__cpp_lib_reference_wrapper`](../../../experimental/feature_test.html#cpp_lib_reference_wrapper "cpp/feature test") | [`202403L`](../../../compiler_support/26.html#cpp_lib_reference_wrapper_202403L "cpp/compiler support/26") | (C++26) | Comparisons for `std::reference_wrapper`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/reference_wrapper/operator_cmp&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

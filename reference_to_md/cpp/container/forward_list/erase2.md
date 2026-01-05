@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::forward_list`](../forward_list.html "cpp/container/forward list")
 
@@ -128,7 +128,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/forward list/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/forward_list/navbar_content&action=edit)
+
 
 Defined in header `[<forward_list>](../../header/forward_list.html "cpp/header/forward list")` |  |   
 ---|---|---  
@@ -163,7 +163,7 @@ erase_if( [std::forward_list](../forward_list.html)<T, Alloc>& c, Pred pred ); |
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/erase2&action=edit&section=T-1 "Template:cpp/container/erase2")] Parameters
+### Parameters
 
 c  |  \-  |  container from which to erase   
 ---|---|---  
@@ -171,11 +171,11 @@ value  |  \-  |  value to be removed
 pred  |  \-  |  unary predicate which returns ​true if the element should be erased.   
 The expression pred(v) must be convertible to bool for every argument `v` of type (possibly const) `T`, regardless of [value category](../../language/value_category.html "cpp/language/value category"), and must not modify `v`. Thus, a parameter type of T&is not allowed, nor is T unless for `T` a move is equivalent to a copy(since C++11). ​   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/erase2&action=edit&section=T-2 "Template:cpp/container/erase2")] Return value
+### Return value
 
 The number of erased elements. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/erase2&action=edit&section=T-3 "Template:cpp/container/erase2")] Complexity
+### Complexity
 
 Linear. 
 
@@ -187,7 +187,7 @@ Unlike [std::forward_list::remove](remove.html "cpp/container/forward list/remov
 ---|---|---|---  
 [`__cpp_lib_algorithm_default_value_type`](../../experimental/feature_test.html#cpp_lib_algorithm_default_value_type "cpp/feature test") | [`202403`](../../compiler_support/26.html#cpp_lib_algorithm_default_value_type_202403 "cpp/compiler support/26") | (C++26) | [List-initialization](../../language/list_initialization.html "cpp/language/list initialization") for `std::erase`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/erase2&action=edit&section=T-5 "Template:cpp/container/erase2")] Example
+### Example
 
 Run this code
     
@@ -248,14 +248,14 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 was deduced from predicate arguments  | the return type is  
 explicitly specified as bool  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/erase2&action=edit&section=T-7 "Template:cpp/container/erase2")] See also
+### See also
 
 [ removeremove_if](../../algorithm/remove.html "cpp/algorithm/remove") |  removes elements satisfying specific criteria   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_remove&action=edit)  
+(function template)   
 ---|---  
 [ ranges::removeranges::remove_if](../../algorithm/ranges/remove.html "cpp/algorithm/ranges/remove")(C++20)(C++20) |  removes elements satisfying specific criteria  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_remove&action=edit)  
+(algorithm function object)  
 [ removeremove_if](remove.html "cpp/container/forward list/remove") |  removes elements satisfying specific criteria   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_remove&action=edit)
+(public member function) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

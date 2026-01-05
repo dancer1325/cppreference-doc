@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Library fundamentals](../memory.html "cpp/experimental/lib extensions")
 
@@ -75,7 +75,7 @@
 [Type-erased and polymorphic allocators](../memory.html "cpp/experimental/memory")  
 [Variable templates for type traits](../type_trait_variable_templates.html "cpp/experimental/type trait variable templates")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions/navbar_content&action=edit)
+
 
 [Polymorphic allocator library](../memory.html "cpp/experimental/memory")
 
@@ -98,7 +98,7 @@ Type-erased allocator support for existing classes
 [packaged_task](../lib_extensions/packaged_task.html "cpp/experimental/lib extensions/packaged task")  
 [promise](../lib_extensions/promise.html "cpp/experimental/lib extensions/promise")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions/pmr/navbar_content&action=edit)
+
 
 function& operator=( const function& other ); |  (1)  |  (library fundamentals TS)  
 ---|---|---  
@@ -135,7 +135,7 @@ Assigns a new _target_ to `std::experimental::function`. In the description belo
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/function/operator%3D&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 other  |  \-  |  another `std::experimental::function` object to copy or move from   
 ---|---|---  
@@ -143,16 +143,16 @@ f  |  \-  |  a callable to initialize the _target_ with
 Type requirements   
 -`F` must meet the requirements of [Callable](../../named_req/Callable.html "cpp/named req/Callable").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/function/operator%3D&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 *this
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/function/operator%3D&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 1,2,4) Exception thrown on needed allocation of the storage or initialization of the target of *this, if any.
 
 5) (none)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/function/operator%3D&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 The move assignment operator may need to allocate storage if get_memory_resource() != other.get_memory_resource()(until library fundamentals TS v3)get_allocator() != other.get_allocator()(library fundamentals TS v3)

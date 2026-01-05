@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::subrange`](../subrange.html "cpp/ranges/subrange")
 
@@ -249,7 +249,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
 [tuple_size<std::ranges::subrange>](tuple_size.html "cpp/ranges/subrange/tuple size")  
 [tuple_element<std::ranges::subrange>](tuple_element.html "cpp/ranges/subrange/tuple element")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/subrange/navbar_content&action=edit)
+
 
 constexpr subrange prev( [std::iter_difference_t](../../iterator/iter_t.html)<I> n = 1 ) const  
 requires [std::bidirectional_iterator](../../iterator/bidirectional_iterator.html)<I>; |  |  (since C++20)  
@@ -273,20 +273,20 @@ return tmp;.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/subrange/prev&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 n  |  \-  |  number of decrements of the iterator   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/subrange/prev&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 As described above. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/subrange/prev&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 The difference between this function and [`advance()`](advance.html "cpp/ranges/subrange/advance") is that the latter performs the decrement (or increment) in place. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/subrange/prev&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -308,14 +308,14 @@ Output:
     
     [3] [2, 3] [1, 2, 3]
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/subrange/prev&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ next](next.html "cpp/ranges/subrange/next") |  obtains a copy of the `subrange` with its iterator advanced by a given distance   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/subrange/dsc_next&action=edit)  
+(public member function)   
 ---|---  
 [ advance](advance.html "cpp/ranges/subrange/advance") |  advances the iterator by given distance   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/subrange/dsc_advance&action=edit)  
+(public member function)   
 [ prev](../../iterator/prev.html "cpp/iterator/prev")(C++11) |  decrement an iterator   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_prev&action=edit)  
+(function template)   
 [ ranges::prev](../../iterator/ranges/prev.html "cpp/iterator/ranges/prev")(C++20) |  decrement an iterator by a given distance or to a bound  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/ranges/dsc_prev&action=edit)
+(algorithm function object)

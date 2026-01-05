@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](empty.html "cpp/iterator/empty")(C++17)  
 [data](data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 Defined in header `[<iterator>](../header/iterator.html "cpp/header/iterator")` |  |   
 ---|---|---  
@@ -218,7 +218,7 @@ The `input_iterator` concept is a refinement of [`input_or_output_iterator`](inp
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/iter_concept&action=edit&section=T-1 "Template:cpp/iterator/iter concept")] Iterator concept determination
+### Iterator concept determination
 
 Definition of this concept is specified via an exposition-only alias template /*ITER_CONCEPT*/. 
 
@@ -232,11 +232,11 @@ In order to determine /*ITER_CONCEPT*/<I>, let ITER_TRAITS<I> denote I if the sp
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/input_iterator&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 Unlike the [LegacyInputIterator](../named_req/InputIterator.html "cpp/named req/InputIterator") requirements, the `input_iterator` concept does not require [`equality_comparable`](../concepts/equality_comparable.html "cpp/concepts/equality comparable"), since input iterators are typically compared with sentinels. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/input_iterator&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 A minimum input iterator. 
     
@@ -258,10 +258,10 @@ A minimum input iterator.
      
     static_assert(std::input_iterator<SimpleInputIterator>);
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/input_iterator&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ input_or_output_iterator](input_or_output_iterator.html "cpp/iterator/input or output iterator")(C++20) |  specifies that objects of a type can be incremented and dereferenced   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_input_or_output_iterator&action=edit)  
+(concept)   
 ---|---  
 [ forward_iterator](forward_iterator.html "cpp/iterator/forward iterator")(C++20) |  specifies that an **`input_iterator`** is a forward iterator, supporting equality comparison and multi-pass   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_forward_iterator&action=edit)
+(concept) 

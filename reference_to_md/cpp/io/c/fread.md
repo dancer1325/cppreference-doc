@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [C-style I/O](../c.html "cpp/io/c")
 
@@ -176,7 +176,7 @@ Operations on files
 [tmpfile](tmpfile.html "cpp/io/c/tmpfile")  
 [tmpnam](tmpnam.html "cpp/io/c/tmpnam")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/navbar_content&action=edit)
+
 
 Defined in header `[<cstdio>](../../header/cstdio.html "cpp/header/cstdio")` |  |   
 ---|---|---  
@@ -199,7 +199,7 @@ If an error occurs, the resulting value of the file position indicator for the s
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/fread&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 buffer  |  \-  |  pointer to the first object in the array to be read   
 ---|---|---  
@@ -207,7 +207,7 @@ size  |  \-  |  size of each object in bytes
 count  |  \-  |  the number of the objects to be read   
 stream  |  \-  |  input file stream to read from   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/fread&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Number of objects read successfully, which may be less than count if an error or end-of-file condition occurs. 
 
@@ -215,7 +215,7 @@ If size or count is zero, `fread` returns zero and performs no other action.
 
 `fread` does not distinguish between end-of-file and error, and callers must use [std::feof](feof.html "cpp/io/c/feof") and [std::ferror](ferror.html "cpp/io/c/ferror") to determine which occurred. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/fread&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -252,13 +252,13 @@ Possible output:
     
     Read 4 objects: 0x31 0x20 0x32 0x0A
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/fread&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ scanffscanfsscanf](scanf.html "cpp/io/c/fscanf") |  reads formatted input from [stdin](std_streams.html "cpp/io/c/std streams"), a file stream or a buffer   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_fscanf&action=edit)  
+(function)   
 ---|---  
 [ fgets](fgets.html "cpp/io/c/fgets") |  gets a character string from a file stream   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_fgets&action=edit)  
+(function)   
 [ fwrite](fwrite.html "cpp/io/c/fwrite") |  writes to a file   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_fwrite&action=edit)  
+(function)   
 [C documentation](../../../c/io/fread.html "c/io/fread") for fread

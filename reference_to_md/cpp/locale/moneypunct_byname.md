@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Localization library](../locale.html "cpp/locale")
 
@@ -152,7 +152,7 @@ base classes](../locale.html#Facet_category_base_classes "cpp/locale")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/navbar_content&action=edit)
+
 
 Defined in header `[<locale>](../header/locale.html "cpp/header/locale")` |  |   
 ---|---|---  
@@ -183,7 +183,7 @@ class moneypunct_byname : public [std::moneypunct](moneypunct.html)<CharT, Intl>
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/moneypunct_byname&action=edit&section=1 "Edit section: Specializations")] Specializations
+### Specializations
 
 The standard library is guaranteed to provide every specialization that satisfies the following type requirements: 
 
@@ -192,22 +192,22 @@ The standard library is guaranteed to provide every specialization that satisfie
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/moneypunct_byname&action=edit&section=2 "Edit section: Nested types")] Nested types
+### Nested types
 
 Type  |  Definition   
 ---|---  
 `pattern` |  [std::money_base::pattern](money_base.html "cpp/locale/money base")  
 `string_type` |  [std::basic_string](../string/basic_string.html)<CharT>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/moneypunct_byname&action=edit&section=3 "Edit section: Member functions")] Member functions
+### Member functions
 
 **(constructor)** |  constructs a new `moneypunct_byname` facet   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/byname/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 **(destructor)** |  destroys a `moneypunct_byname` facet   
-(protected member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/byname/dsc_destructor&action=edit)  
+(protected member function)   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/byname/constructor&action=edit)
+
 
 ##  std::moneypunct_byname::moneypunct_byname
 
@@ -226,7 +226,7 @@ name  |  \-  |  the name of the locale
 ---|---|---  
 refs  |  \-  |  the number of references that link to the facet   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/byname/destructor&action=edit)
+
 
 ##  std::moneypunct_byname::~moneypunct_byname 
 
@@ -237,7 +237,7 @@ protected:
   
 Destroys the facet. 
 
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/moneypunct/inherit&action=edit)
+
 
 ##  Inherited from [std::moneypunct](moneypunct.html "cpp/locale/moneypunct")
 
@@ -258,40 +258,40 @@ const bool `intl` [static] |  International
 ###  Member functions
 
 [ decimal_point](moneypunct/decimal_point.html "cpp/locale/moneypunct/decimal point") |  invokes `do_decimal_point`   
-(public member function of `std::moneypunct<CharT,International>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/moneypunct/dsc_decimal_point&action=edit)  
+(public member function of `std::moneypunct<CharT,International>`)   
 ---|---  
 [ thousands_sep](moneypunct/thousands_sep.html "cpp/locale/moneypunct/thousands sep") |  invokes `do_thousands_sep`   
-(public member function of `std::moneypunct<CharT,International>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/moneypunct/dsc_thousands_sep&action=edit)  
+(public member function of `std::moneypunct<CharT,International>`)   
 [ grouping](moneypunct/grouping.html "cpp/locale/moneypunct/grouping") |  invokes `do_grouping`   
-(public member function of `std::moneypunct<CharT,International>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/moneypunct/dsc_grouping&action=edit)  
+(public member function of `std::moneypunct<CharT,International>`)   
 [ curr_symbol](moneypunct/curr_symbol.html "cpp/locale/moneypunct/curr symbol") |  invokes `do_curr_symbol`   
-(public member function of `std::moneypunct<CharT,International>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/moneypunct/dsc_curr_symbol&action=edit)  
+(public member function of `std::moneypunct<CharT,International>`)   
 [ positive_signnegative_sign](moneypunct/positive_sign.html "cpp/locale/moneypunct/positive sign") |  invokes `do_positive_sign` or `do_negative_sign`   
-(public member function of `std::moneypunct<CharT,International>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/moneypunct/dsc_positive_sign&action=edit)  
+(public member function of `std::moneypunct<CharT,International>`)   
 [ frac_digits](moneypunct/frac_digits.html "cpp/locale/moneypunct/frac digits") |  invokes `do_frac_digits`   
-(public member function of `std::moneypunct<CharT,International>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/moneypunct/dsc_frac_digits&action=edit)  
+(public member function of `std::moneypunct<CharT,International>`)   
 [ pos_formatneg_format](moneypunct/pos_format.html "cpp/locale/moneypunct/pos format") |  invokes `do_pos_format`/`do_neg_format`   
-(public member function of `std::moneypunct<CharT,International>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/moneypunct/dsc_pos_format&action=edit)  
+(public member function of `std::moneypunct<CharT,International>`)   
   
 ###  Protected member functions
 
 [ do_decimal_point](moneypunct/decimal_point.html "cpp/locale/moneypunct/decimal point")[virtual] |  provides the character to use as decimal point   
-(virtual protected member function of `std::moneypunct<CharT,International>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/moneypunct/dsc_do_decimal_point&action=edit)  
+(virtual protected member function of `std::moneypunct<CharT,International>`)   
 ---|---  
 [ do_thousands_sep](moneypunct/thousands_sep.html "cpp/locale/moneypunct/thousands sep")[virtual] |  provides the character to use as thousands separator   
-(virtual protected member function of `std::moneypunct<CharT,International>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/moneypunct/dsc_do_thousands_sep&action=edit)  
+(virtual protected member function of `std::moneypunct<CharT,International>`)   
 [ do_grouping](moneypunct/grouping.html "cpp/locale/moneypunct/grouping")[virtual] |  provides the numbers of digits between each pair of thousands separators   
-(virtual protected member function of `std::moneypunct<CharT,International>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/moneypunct/dsc_do_grouping&action=edit)  
+(virtual protected member function of `std::moneypunct<CharT,International>`)   
 [ do_curr_symbol](moneypunct/curr_symbol.html "cpp/locale/moneypunct/curr symbol")[virtual] |  provides the string to use as the currency identifier   
-(virtual protected member function of `std::moneypunct<CharT,International>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/moneypunct/dsc_do_curr_symbol&action=edit)  
+(virtual protected member function of `std::moneypunct<CharT,International>`)   
 [ do_positive_signdo_negative_sign](moneypunct/positive_sign.html "cpp/locale/moneypunct/positive sign")[virtual] |  provides the string to indicate a positive or negative value   
-(virtual protected member function of `std::moneypunct<CharT,International>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/moneypunct/dsc_do_positive_sign&action=edit)  
+(virtual protected member function of `std::moneypunct<CharT,International>`)   
 [ do_frac_digits](moneypunct/frac_digits.html "cpp/locale/moneypunct/frac digits")[virtual] |  provides the number of digits to display after the decimal point   
-(virtual protected member function of `std::moneypunct<CharT,International>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/moneypunct/dsc_do_frac_digits&action=edit)  
+(virtual protected member function of `std::moneypunct<CharT,International>`)   
 [ do_pos_formatdo_neg_format](moneypunct/pos_format.html "cpp/locale/moneypunct/pos format")[virtual] |  provides the formatting pattern for currency values   
-(virtual protected member function of `std::moneypunct<CharT,International>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/moneypunct/dsc_do_pos_format&action=edit)  
+(virtual protected member function of `std::moneypunct<CharT,International>`)   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/money_base/inherit&action=edit)
+
 
 ##  Inherited from [std::money_base](money_base.html "cpp/locale/money base")
 
@@ -309,7 +309,7 @@ Enumeration constant  |  Description
 `sign` |  the first of the characters returned by [std::moneypunct::positive_sign](moneypunct/positive_sign.html "cpp/locale/moneypunct/positive sign") or [std::moneypunct::negative_sign](moneypunct/positive_sign.html "cpp/locale/moneypunct/positive sign") is required   
 `value` |  the absolute numeric monetary value is required   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/moneypunct_byname&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 This example demonstrates how to apply monetary formatting rules of another language without changing the rest of the locale.
 
@@ -339,8 +339,8 @@ Output:
     american locale: $12,345.67
     american locale with russian moneypunct: 12 345.67 руб
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/moneypunct_byname&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ moneypunct](moneypunct.html "cpp/locale/moneypunct") |  defines monetary formatting parameters used by [std::money_get](money_get.html "cpp/locale/money get") and [std::money_put](money_put.html "cpp/locale/money put")   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_moneypunct&action=edit)  
+(class template)   
 ---|---

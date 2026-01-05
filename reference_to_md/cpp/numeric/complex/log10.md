@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [`std::complex`](../complex.html "cpp/numeric/complex")
 
@@ -164,7 +164,7 @@
 [tuple_size<std::complex>](tuple_size.html "cpp/numeric/complex/tuple size")(C++26)  
 [tuple_element<std::complex>](tuple_element.html "cpp/numeric/complex/tuple element")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/navbar_content&action=edit)
+
 
 Defined in header `[<complex>](../../header/complex.html "cpp/header/complex")` |  |   
 ---|---|---  
@@ -186,16 +186,16 @@ The behavior of this function is equivalent to `[std::log](log.html "cpp/numeric
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/log10&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 z  |  \-  |  complex value   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/log10&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Complex common logarithm of z. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/log10&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -229,12 +229,12 @@ Possible output:
     log10(-100,-0) = (2,-1.36438) (the other side of the cut)
     (note: pi / log(10) = 1.36438)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/log10&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ log(std::complex)](log.html "cpp/numeric/complex/log") |  complex natural logarithm with the branch cuts along the negative real axis   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_log&action=edit)  
+(function template)   
 ---|---  
 [ log10log10flog10l](../math/log10.html "cpp/numeric/math/log10")(C++11)(C++11) |  computes common (base 10) logarithm (\\({\small\log_{10}{x}}\\)log10(x))   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_log10&action=edit)  
+(function)   
 [ log10(std::valarray)](../valarray/log10.html "cpp/numeric/valarray/log10") |  applies the function [std::log10](../math/log10.html "cpp/numeric/math/log10") to each element of valarray   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_log10&action=edit)
+(function template) 

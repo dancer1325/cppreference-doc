@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 **`std::future_errc`**
 
@@ -184,7 +184,7 @@ Non-member functions
 Helper classes  
 [is_error_code_enum](future_errc/is_error_code_enum.html "cpp/thread/future errc/is error code enum")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/future_errc/navbar_content&action=edit)
+
 
 Defined in header `[<future>](../header/future.html "cpp/header/future")` |  |   
 ---|---|---  
@@ -212,7 +212,7 @@ All error codes are distinct and non-zero.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/future_errc&action=edit&section=1 "Edit section: Member constants")] Member constants
+### Member constants
 
 Enumerator  |  Meaning   
 ---|---  
@@ -221,27 +221,27 @@ Enumerator  |  Meaning
 `promise_already_satisfied` |  attempt to store a value in the shared state twice   
 `no_state` |  attempt to access [std::promise](promise.html "cpp/thread/promise") or [std::future](future.html "cpp/thread/future") without an associated shared state   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/future_errc&action=edit&section=2 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ make_error_code(std::future_errc)](future_errc/make_error_code.html "cpp/thread/future errc/make error code")(C++11) |  constructs a future error code   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/future_errc/dsc_make_error_code&action=edit)  
+(function)   
 ---|---  
 [ make_error_condition(std::future_errc)](future_errc/make_error_condition.html "cpp/thread/future errc/make error condition")(C++11) |  constructs a future `error_condition`   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/future_errc/dsc_make_error_condition&action=edit)  
+(function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/future_errc&action=edit&section=3 "Edit section: Helper classes")] Helper classes
+### Helper classes
 
 [ is_error_code_enum<std::future_errc>](future_errc/is_error_code_enum.html "cpp/thread/future errc/is error code enum")(C++11) |  extends the type trait [std::is_error_code_enum](../error/error_code/is_error_code_enum.html "cpp/error/error code/is error code enum") to identify future error codes   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/future_errc/dsc_is_error_code_enum&action=edit)  
+(class template)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/future_errc&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/future_errc&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -249,10 +249,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 2056](https://cplusplus.github.io/LWG/issue2056) | C++11  | `broken_promise` was specified to be zero which is conventionally used to mean “no error”  | specified to be non-zero   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/future_errc&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ error_code](../error/error_code.html "cpp/error/error code")(C++11) |  holds a platform-dependent error code   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_error_code&action=edit)  
+(class)   
 ---|---  
 [ error_condition](../error/error_condition.html "cpp/error/error condition")(C++11) |  holds a portable error code   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_error_condition&action=edit)
+(class) 

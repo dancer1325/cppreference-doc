@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::optional`](../optional.html "cpp/utility/optional")
 
@@ -167,7 +167,7 @@ Common vocabulary types
 [nullopt](nullopt.html "cpp/utility/optional/nullopt")  
 [in_place](../in_place.html "cpp/utility/in place")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/navbar_content&action=edit)
+
 
 constexpr explicit operator bool() const noexcept; |  |  (since C++17)  
 ---|---|---  
@@ -176,11 +176,11 @@ constexpr bool has_value() const noexcept; |  |  (since C++17)
   
 Checks whether *this contains a value. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/operator_bool&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 true if *this contains a value, false if *this does not contain a value. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/operator_bool&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -215,8 +215,8 @@ Output:
     value set to 43
     value no longer set
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/operator_bool&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ operator boolhas_value](../expected/operator_bool.html "cpp/utility/expected/operator bool") |  checks whether the object contains an expected value   
-(public member function of `std::expected<T,E>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/expected/dsc_operator_bool&action=edit)  
+(public member function of `std::expected<T,E>`)   
 ---|---

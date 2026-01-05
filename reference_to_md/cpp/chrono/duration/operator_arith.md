@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::duration`](../duration.html "cpp/chrono/duration")
 
@@ -156,7 +156,7 @@ Helper classes
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/duration/navbar_content&action=edit)
+
 
 | (1) |   
 ---|---|---  
@@ -185,17 +185,17 @@ If `rep_` is a member variable holding the number of ticks in a duration object,
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/duration/operator_arith&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/duration/operator_arith&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) A copy of this duration object.
 
 2) A copy of this duration object, with the number of ticks negated.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/duration/operator_arith&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -216,10 +216,10 @@ Output:
     
     Negated -42s are 42s
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/duration/operator_arith&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ operator++operator++(int)operator--operator--(int)](operator_arith2.html "cpp/chrono/duration/operator arith2") |  increments or decrements the tick count   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/duration/dsc_operator_arith2&action=edit)  
+(public member function)   
 ---|---  
 [ operator+operator-operator*operator/operator%](operator_arith4.html "cpp/chrono/duration/operator arith4")(C++11) |  implements arithmetic operations with durations as arguments   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/duration/dsc_operator_arith4&action=edit)
+(function template) 

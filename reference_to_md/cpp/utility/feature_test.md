@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../utility.html "cpp/utility")
 
@@ -128,11 +128,11 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 Each of following macros is defined if the header [`<version>`](../header/version.html "cpp/header/version") or one of the corresponding headers specified in the table is included. 
 
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/feature_test&action=edit)
+
 
   
 
@@ -432,11 +432,11 @@ standing
 [`__cpp_lib_hardened_vector`](../experimental/feature_test.html#cpp_lib_hardened_vector "cpp/feature test") | 202502L | [`<vector>`](../header/vector.html "cpp/header/vector") |   
 Total number of macros: 14   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/feature_test&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 Each value in "Value" column follows the pattern: "yyyymmL", where "yyyy" is a year, and "mm" is a month when the corresponding feature-set was accepted for standardization. Some values where increased since the time of their introduction, if capabilities of given feature where extended. The table above contains only the most recent values (that is, taken from the latest C++ language draft standard). A full set of values, including the initial and intermediate ones, can be found in [this table](../experimental/feature_test.html#Library_features "cpp/feature test"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/feature_test&action=edit&section=2 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -447,7 +447,7 @@ C++23  | some feature-test macros for fully
 freestanding features were not freestanding  | they are also  
 freestanding   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/feature_test&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [**Feature testing**](../experimental/feature_test.html "cpp/feature test") (C++20) |  A set of preprocessor macros to test the corresponding to C++ language and library features   
 ---|---  

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ named requirements](../iterator/concepts.html "cpp/named req")
 
@@ -147,7 +147,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/named_req/navbar_content&action=edit)
+
 
 A uniform random bit generator is a function object returning unsigned integer values such that each value in the range of possible results has (ideally) equal probability. 
 
@@ -164,7 +164,7 @@ Uniform random bit generators are not intended to be used as random number gener
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/UniformRandomBitGenerator&action=edit&section=1 "Edit section: Requirements")] Requirements
+### Requirements
 
 The type `G` satisfies UniformRandomBitGenerator if 
 
@@ -206,34 +206,34 @@ All following conditions are satisfied:
 | (since C++20)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/UniformRandomBitGenerator&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 All [RandomNumberEngines](RandomNumberEngine.html "cpp/named req/RandomNumberEngine") satisfy this requirement. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/UniformRandomBitGenerator&action=edit&section=3 "Edit section: Standard library")] Standard library
+### Standard library
 
 The following standard library facilities expect a UniformRandomBitGenerator type. 
 
 [ random_shuffleshuffle](../algorithm/random_shuffle.html "cpp/algorithm/random shuffle")(until C++17)(C++11) |  randomly re-orders elements in a range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_random_shuffle&action=edit)  
+(function template)   
 ---|---  
 [ sample](../algorithm/sample.html "cpp/algorithm/sample")(C++17) |  selects N random elements from a sequence   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_sample&action=edit)  
+(function template)   
 [ generate_canonical](../numeric/random/generate_canonical.html "cpp/numeric/random/generate canonical")(C++11) |  evenly distributes real values of given precision across `[`​0​`, `1`)`   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/dsc_generate_canonical&action=edit)  
+(function template)   
 [ uniform_int_distribution](../numeric/random/uniform_int_distribution.html "cpp/numeric/random/uniform int distribution")(C++11) |  produces integer values evenly distributed across a range   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/dsc_uniform_int_distribution&action=edit)  
+(class template)   
 [ uniform_real_distribution](../numeric/random/uniform_real_distribution.html "cpp/numeric/random/uniform real distribution")(C++11) |  produces real values evenly distributed across a range   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/dsc_uniform_real_distribution&action=edit)  
+(class template)   
 all other random number distributions   
   
 The following standard library facilities satisfy UniformRandomBitGenerator without additionally satisfying [RandomNumberEngine](RandomNumberEngine.html "cpp/named req/RandomNumberEngine"): 
 
 [ random_device](../numeric/random/random_device.html "cpp/numeric/random/random device")(C++11) |  non-deterministic random number generator using hardware entropy source   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/dsc_random_device&action=edit)  
+(class)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/UniformRandomBitGenerator&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -247,8 +247,8 @@ are required to be constant expressions[[1]](UniformRandomBitGenerator.html#cite
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/UniformRandomBitGenerator&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ uniform_random_bit_generator](../numeric/random/UniformRandomBitGenerator.html "cpp/numeric/random/uniform random bit generator")(C++20) |  specifies that a type qualifies as a uniform random bit generator   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/dsc_uniform_random_bit_generator&action=edit)  
+(concept)   
 ---|---

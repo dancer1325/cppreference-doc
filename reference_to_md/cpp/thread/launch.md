@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 Defined in header `[<future>](../header/future.html "cpp/header/future")` |  |   
 ---|---|---  
@@ -186,7 +186,7 @@ deferred = /* unspecified */,
   
 `std::launch` is a [BitmaskType](../named_req/BitmaskType.html "cpp/named req/BitmaskType"). It specifies the launch policy for a task executed by the [std::async](async.html "cpp/thread/async") function. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/launch&action=edit&section=1 "Edit section: Constants")] Constants
+### Constants
 
 The following constants denoting individual bits are defined by the standard library: 
 
@@ -202,7 +202,7 @@ In addition, implementations are allowed to:
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/launch&action=edit&section=2 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -210,8 +210,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 2102](https://cplusplus.github.io/LWG/issue2102) | C++11  | `std::launch` was an implementation-defined type  | it is not implementation-defined   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/launch&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ async](async.html "cpp/thread/async")(C++11) |  runs a function asynchronously (potentially in a new thread) and returns a [std::future](future.html "cpp/thread/future") that will hold the result   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_async&action=edit)  
+(function template)   
 ---|---

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Extensions for concurrency](concurrency.html "cpp/experimental/concurrency")
 
@@ -75,7 +75,7 @@ Atomic smart pointers
 [experimental::atomic_shared_ptr](atomic_shared_ptr.html "cpp/experimental/atomic shared ptr")  
 [experimental::atomic_weak_ptr](atomic_weak_ptr.html "cpp/experimental/atomic weak ptr")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/concurrency/navbar_content&action=edit)
+
 
 **`std::experimental::shared_future`**
 
@@ -85,7 +85,7 @@ Atomic smart pointers
 [shared_future::is_ready](shared_future/is_ready.html "cpp/experimental/shared future/is ready")  
 [shared_future::then](shared_future/then.html "cpp/experimental/shared future/then")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/concurrency/shared_future/navbar_content&action=edit)
+
 
 Defined in header `[<experimental/shared_future>](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/shared_future&action=edit&redlink=1 "cpp/header/experimental/shared future \(page does not exist\)")` |  |   
 ---|---|---  
@@ -117,15 +117,15 @@ There is no interoperation between `std::experimental::shared_future` and [std::
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/shared_future&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](shared_future/shared_future.html "cpp/experimental/shared future/shared future") |  constructs a `shared_future`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/shared_future/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ is_ready](shared_future/is_ready.html "cpp/experimental/shared future/is ready") |  checks if the shared state is ready   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/shared_future/dsc_is_ready&action=edit)  
+(public member function)   
 [ then](shared_future/then.html "cpp/experimental/shared future/then") |  attaches a continuation to a `shared_future`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/shared_future/dsc_then&action=edit)  
+(public member function)   
 [ operator=](shared_future/operator=.html "cpp/experimental/shared future/operator=") |  assigns the contents   
 (public member function)  
   
@@ -140,27 +140,27 @@ There is no interoperation between `std::experimental::shared_future` and [std::
 #####  Getting the result   
   
 [ get](../thread/shared_future/get.html "cpp/thread/shared future/get") |  returns the result   
-(public member function of `std::shared_future<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/future/dsc_get&action=edit)  
+(public member function of `std::shared_future<T>`)   
   
 #####  State   
   
 [ valid](../thread/shared_future/valid.html "cpp/thread/shared future/valid") |  checks if the future has a shared state   
-(public member function of `std::shared_future<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/future/dsc_valid&action=edit)  
+(public member function of `std::shared_future<T>`)   
 [ wait](../thread/shared_future/wait.html "cpp/thread/shared future/wait") |  waits for the result to become available   
-(public member function of `std::shared_future<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/future/dsc_wait&action=edit)  
+(public member function of `std::shared_future<T>`)   
 [ wait_for](../thread/shared_future/wait_for.html "cpp/thread/shared future/wait for") |  waits for the result, returns if it is not available for the specified timeout duration   
-(public member function of `std::shared_future<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/future/dsc_wait_for&action=edit)  
+(public member function of `std::shared_future<T>`)   
 [ wait_until](../thread/shared_future/wait_until.html "cpp/thread/shared future/wait until") |  waits for the result, returns if it is not available until specified time point has been reached   
-(public member function of `std::shared_future<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/future/dsc_wait_until&action=edit)  
+(public member function of `std::shared_future<T>`)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/shared_future&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/shared_future&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ future](future.html "cpp/experimental/future")(concurrency TS) |  a version of [std::future](../thread/future.html "cpp/thread/future") enhanced with continuations and other features   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/dsc_future&action=edit)  
+(class template)   
 ---|---

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [C-style I/O](../c.html "cpp/io/c")
 
@@ -176,7 +176,7 @@ Operations on files
 [tmpfile](tmpfile.html "cpp/io/c/tmpfile")  
 [tmpnam](tmpnam.html "cpp/io/c/tmpnam")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/navbar_content&action=edit)
+
 
 Defined in header `[<cstdio>](../../header/cstdio.html "cpp/header/cstdio")` |  |   
 ---|---|---  
@@ -208,25 +208,25 @@ A successful call to `ungetc` on a text stream modifies the stream position indi
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/ungetc&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 ch  |  \-  |  character to be pushed into the input stream buffer   
 ---|---|---  
 stream  |  \-  |  file stream to put the character back to   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/ungetc&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 On success `ch` is returned. 
 
 On failure [EOF](../c.html "cpp/io/c") is returned and the given stream remains unchanged. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/ungetc&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 The size of the pushback buffer varies in practice from 4k (Linux, MacOS) to as little as 4 (Solaris) or the guaranteed minimum 1 (HPUX, AIX). 
 
 The apparent size of the pushback buffer may be larger if the character that is pushed back equals the character existing at that location in the external character sequence (the implementation may simply decrement the read file position indicator and avoid maintaining a pushback buffer). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/ungetc&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 demonstrates the use of `std::ungetc` in its original purpose: implementing [std::scanf](scanf.html "cpp/io/c/fscanf")
 
@@ -281,9 +281,9 @@ Output:
     %u scanned 123
     %c scanned 'x'
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/ungetc&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ fgetcgetc](fgetc.html "cpp/io/c/fgetc") |  gets a character from a file stream   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_fgetc&action=edit)  
+(function)   
 ---|---  
 [C documentation](../../../c/io/ungetc.html "c/io/ungetc") for ungetc

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [Input/output manipulators](../manip.html "cpp/io/manip")
 
@@ -154,7 +154,7 @@ Time and money I/O
 Quoted manipulator  
 [quoted](quoted.html "cpp/io/manip/quoted")(C++14)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/navbar_content&action=edit)
+
 
 Defined in header `[<iomanip>](../../header/iomanip.html "cpp/header/iomanip")` |  |   
 ---|---|---  
@@ -176,13 +176,13 @@ The extraction operation in in >> get_money(mon, intl) behaves as a [FormattedIn
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/get_money&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 mon  |  \-  |  variable where monetary value will be written. Can be either long double or [std::basic_string](../../string/basic_string.html "cpp/string/basic string")  
 ---|---|---  
 intl  |  \-  |  expects to find required international currency strings if true, expects optional currency symbols otherwise   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/get_money&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 An object of unspecified type such that 
 
@@ -211,7 +211,7 @@ where the function f is defined as:
             str.setstate(err);
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/get_money&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -242,10 +242,10 @@ Output:
     
     "$1,234.56 2.22 USD  3.33" parsed as: 123456, 222, 333
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/get_money&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ money_get](../../locale/money_get.html "cpp/locale/money get") |  parses and constructs a monetary value from an input character sequence   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_money_get&action=edit)  
+(class template)   
 ---|---  
 [ put_money](put_money.html "cpp/io/manip/put money")(C++11) |  formats and outputs a monetary value   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_put_money&action=edit)
+(function template) 

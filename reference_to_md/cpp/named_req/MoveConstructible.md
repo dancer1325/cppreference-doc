@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ named requirements](../iterator/concepts.html "cpp/named req")
 
@@ -147,7 +147,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/named_req/navbar_content&action=edit)
+
 
 Specifies that an instance of the type can be constructed from an [rvalue](../language/value_category.html "cpp/language/value category") argument. 
 
@@ -161,7 +161,7 @@ Specifies that an instance of the type can be constructed from an [rvalue](../la
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/MoveConstructible&action=edit&section=1 "Edit section: Requirements")] Requirements
+### Requirements
 
 The type `T` satisfies MoveConstructible if 
 
@@ -179,7 +179,7 @@ Expression | Post-conditions
 T u = rv; | The value of `u` is equivalent to the value of `rv` before the initialization. The new value of `rv` is unspecified.   
 T(rv) | The value of `T(rv)` is equivalent to the value of `rv` before the initialization. The new value of `rv` is unspecified.   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/MoveConstructible&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 A class does not have to implement a [move constructor](../language/move_constructor.html "cpp/language/move constructor") to satisfy this type requirement: a [copy constructor](../language/copy_constructor.html "cpp/language/copy constructor") that takes a `const T&` argument can bind rvalue expressions. 
 
@@ -217,7 +217,7 @@ Output:
     v.n = 1
     u.n = 2  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/MoveConstructible&action=edit&section=3 "Edit section: References")] References
+### References
 
 Extended content  
 ---  
@@ -232,10 +232,10 @@ Extended content
 
   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/MoveConstructible&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ is_move_constructibleis_trivially_move_constructibleis_nothrow_move_constructible](../types/is_move_constructible.html "cpp/types/is move constructible")(C++11)(C++11)(C++11) |  checks if a type can be constructed from an rvalue reference   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_move_constructible&action=edit)  
+(class template)   
 ---|---  
 [ move_constructible](../concepts/move_constructible.html "cpp/concepts/move constructible")(C++20) |  specifies that an object of a type can be move constructed   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_move_constructible&action=edit)
+(concept) 

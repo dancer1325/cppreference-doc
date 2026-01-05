@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::join_with_view`](../join_with_view.html "cpp/ranges/join with view")
 
@@ -251,7 +251,7 @@ join_with_view::_iterator_ ::operator--(int)](iterator/operator_arith.html "cpp/
 [join_with_view::_sentinel_ ::_sentinel_](sentinel/sentinel.html "cpp/ranges/join with view/sentinel/sentinel")  
 [operator==(join_with_view::_sentinel_)](sentinel/operator_cmp.html "cpp/ranges/join with view/sentinel/operator cmp")(C++23)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/join_with_view/navbar_content&action=edit)
+
 
 constexpr auto begin(); |  (1)  |  (since C++23)  
 ---|---|---  
@@ -280,22 +280,22 @@ return` `[` _iterator_`](iterator.html "cpp/ranges/join with view/iterator") ﻿
 
 For the definition of `_[concatable](../concat_view.html#concatable "cpp/ranges/concat view")_`, see [`std::ranges::concat_view`](../concat_view.html "cpp/ranges/concat view").
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/join_with_view/begin&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 1) As described above.
 
 2) [`_iterator_`](iterator.html "cpp/ranges/join with view/iterator") ﻿<true>{*this, [ranges::begin](../begin.html)(`_[base_](../join_with_view.html#base "cpp/ranges/join with view")_`)}.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/join_with_view/begin&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/join_with_view/begin&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ end](end.html "cpp/ranges/join with view/end") |  returns an iterator or a sentinel to the end   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/dsc_end&action=edit)  
+(public member function)   
 ---|---  
 [ ranges::begin](../begin.html "cpp/ranges/begin")(C++20) |  returns an iterator to the beginning of a range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_begin&action=edit)
+(customization point object)

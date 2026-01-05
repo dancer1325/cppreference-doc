@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::lazy_split_view`](../lazy_split_view.html "cpp/ranges/lazy split view")
 
@@ -240,7 +240,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
 **lazy_split_view::_inner_iterator_**  
 [Deduction guides](deduction_guides.html "cpp/ranges/lazy split view/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/lazy_split_view/navbar_content&action=edit)
+
 
 template< bool Const >  
 struct /*inner_iterator*/; |  | (since C++20)   
@@ -271,7 +271,7 @@ The return type of [`lazy_split_view::`](value_type.html "cpp/ranges/lazy split 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/lazy_split_view/inner_iterator&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Member  |  Definition   
 ---|---  
@@ -293,7 +293,7 @@ Member  |  Definition
 `value_type` |  [ranges::range_value_t](../range_size_t.html)<Base>  
 `difference_type` |  [ranges::range_difference_t](../range_size_t.html)<Base>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/lazy_split_view/inner_iterator&action=edit&section=2 "Edit section: Data members")] Data members
+### Data members
 
 Member  |  Description   
 ---|---  
@@ -302,7 +302,7 @@ Member  |  Description
 bool `_incremented__` (private) |  a flag that indicates whether the operator++ was invoked on this object at least once  
 (exposition-only member object*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/lazy_split_view/inner_iterator&action=edit&section=3 "Edit section: Member functions")] Member functions
+### Member functions
 
 (constructor)(C++20) |  constructs an iterator   
 (public member function)  
@@ -314,7 +314,7 @@ operator*(C++20) |  returns the current element
 operator++operator++(int)(C++20) |  advances the iterator   
 (public member function)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/lazy_split_view/inner_iterator&action=edit&section=4 "Edit section: Member functions")] Member functions
+### Member functions
 
 ##  std::ranges::lazy_split_view::_inner_iterator_ ::_inner_iterator_
 
@@ -386,7 +386,7 @@ return tmp;
 else  
 ++*this; // no return statement
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/lazy_split_view/inner_iterator&action=edit&section=5 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 operator==(C++20) |  compares the iterators or the iterator and [std::default_sentinel](../../iterator/default_sentinel.html "cpp/iterator/default sentinel")   
 (function)  
@@ -468,7 +468,7 @@ Equivalent to [ranges::iter_swap](../../iterator/ranges/iter_swap.html)(x.i_./*c
 
 This function is not visible to ordinary [unqualified](../../language/unqualified_lookup.html "cpp/language/unqualified lookup") or [qualified lookup](../../language/qualified_lookup.html "cpp/language/qualified lookup"), and can only be found by [argument-dependent lookup](../../language/adl.html "cpp/language/adl") when `std::ranges::split_view::_inner_iterator_` is an associated class of the arguments. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/lazy_split_view/inner_iterator&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

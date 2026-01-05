@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -79,7 +79,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_stringstream`](../basic_stringstream.html "cpp/io/basic stringstream")
 
@@ -95,7 +95,7 @@ String operations
 Non-member functions  
 [swap(std::basic_stringstream)](swap2.html "cpp/io/basic stringstream/swap2")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_stringstream/navbar_content&action=edit)
+
 
 void swap( basic_stringstream& other ); |  |  (since C++11)  
 ---|---|---  
@@ -116,29 +116,29 @@ This is done by calling basic_iostream<CharT, Traits>::swap(other) and rdbuf()->
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_stringstream/swap&action=edit&section=T-1 "Template:cpp/io/basic stringstream/swap")] Parameters
+### Parameters
 
 other  |  \-  |  stream to exchange the state with   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_stringstream/swap&action=edit&section=T-2 "Template:cpp/io/basic stringstream/swap")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/impldef_exception&action=edit&section=T-1 "Template:cpp/impldef exception")] Exceptions
+### Exceptions
 
 May throw implementation-defined exceptions. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_stringstream/swap&action=edit&section=T-3 "Template:cpp/io/basic stringstream/swap")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_stringstream/swap&action=edit&section=T-4 "Template:cpp/io/basic stringstream/swap")] See also
+### See also
 
 [ operator=](operator=.html "cpp/io/basic stringstream/operator=")(C++11) |  moves the string stream   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_stringstream/dsc_operator%3D&action=edit)  
+(public member function)   
 ---|---  
 [ swap](../basic_stringbuf/swap.html "cpp/io/basic stringbuf/swap")(C++11) |  swaps two `basic_stringbuf` objects   
-(public member function of `std::basic_stringbuf<CharT,Traits,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_stringbuf/dsc_swap&action=edit)
+(public member function of `std::basic_stringbuf<CharT,Traits,Allocator>`) 

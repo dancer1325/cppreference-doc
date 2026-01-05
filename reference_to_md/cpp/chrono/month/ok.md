@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::month`](../month.html "cpp/chrono/month")
 
@@ -121,7 +121,7 @@ Helper classes
 [formatter<std::chrono::month>](formatter.html "cpp/chrono/month/formatter")  
 [hash<std::chrono::month>](hash.html "cpp/chrono/month/hash")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/month/navbar_content&action=edit)
+
 
 constexpr bool ok() const noexcept; |  |  (since C++20)  
 ---|---|---  
@@ -129,11 +129,11 @@ constexpr bool ok() const noexcept; |  |  (since C++20)
   
 Checks if the month value stored in *this is in the valid range, i.e., `[`1`, `12`]`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/month/ok&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 true if the month value stored in *this is in the range `[`1`, `12`]`. Otherwise false. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/month/ok&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     

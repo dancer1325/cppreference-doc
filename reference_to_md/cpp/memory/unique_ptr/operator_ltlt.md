@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::unique_ptr`](../unique_ptr.html "cpp/memory/unique ptr")
 
@@ -211,7 +211,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
 [Helper classes](../unique_ptr.html#Helper_classes "cpp/memory/unique ptr")  
 [hash<std::unique_ptr>](hash.html "cpp/memory/unique ptr/hash")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/unique_ptr/navbar_content&action=edit)
+
 
 template< class CharT, class Traits, class Y, class D >  
 [std::basic_ostream](../../io/basic_ostream.html)<CharT, Traits>& operator<<( [std::basic_ostream](../../io/basic_ostream.html)<CharT, Traits>& os,  
@@ -236,21 +236,21 @@ This overload participates in overload resolution only if os << p.get() is a val
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/unique_ptr/operator_ltlt&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 os  |  \-  |  a [std::basic_ostream](../../io/basic_ostream.html "cpp/io/basic ostream") to insert p into   
 ---|---|---  
 p  |  \-  |  the pointer to be inserted into os  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/unique_ptr/operator_ltlt&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 os
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/unique_ptr/operator_ltlt&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 If [std::unique_ptr](../unique_ptr.html)<Y, D>::pointer is a pointer to a character type (e.g., when `Y` is char([]) or CharT([])), this may end up calling the [overloads of `operator<<` for null-terminated character strings](../../io/basic_ostream/operator_ltlt2.html "cpp/io/basic ostream/operator ltlt2") (causing undefined behavior if the pointer does not in fact point to such a string), rather than [the overload for printing the value of the pointer itself](../../io/basic_ostream/operator_ltlt.html "cpp/io/basic ostream/operator ltlt"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/unique_ptr/operator_ltlt&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -273,8 +273,8 @@ Possible output:
     0x6d9028
     0x6d9028
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/unique_ptr/operator_ltlt&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ get](get.html "cpp/memory/unique ptr/get") |  returns a pointer to the managed object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/unique_ptr/dsc_get&action=edit)  
+(public member function)   
 ---|---

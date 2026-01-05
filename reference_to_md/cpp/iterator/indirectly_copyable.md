@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](empty.html "cpp/iterator/empty")(C++17)  
 [data](data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 Defined in header `[<iterator>](../header/iterator.html "cpp/header/iterator")` |  |   
 ---|---|---  
@@ -206,10 +206,10 @@ concept indirectly_copyable =
   
 The `indirectly_copyable` concept specifies the relationship between an [`indirectly_readable`](indirectly_readable.html "cpp/iterator/indirectly readable") type and a type that is [`indirectly_writable`](indirectly_writable.html "cpp/iterator/indirectly writable"). The `indirectly_writable` type must be able to directly copy the object that the `indirectly_readable` type references. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/indirectly_copyable&action=edit&section=1 "Edit section: See also")] See also
+### See also
 
 [ indirectly_movable](indirectly_movable.html "cpp/iterator/indirectly movable")(C++20) |  specifies that values may be moved from an [`indirectly_readable`](indirectly_readable.html "cpp/iterator/indirectly readable") type to an [`indirectly_writable`](indirectly_writable.html "cpp/iterator/indirectly writable") type   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_indirectly_movable&action=edit)  
+(concept)   
 ---|---  
 [ indirectly_copyable_storable](indirectly_copyable_storable.html "cpp/iterator/indirectly copyable storable")(C++20) |  specifies that values may be copied from an [`indirectly_readable`](indirectly_readable.html "cpp/iterator/indirectly readable") type to an [`indirectly_writable`](indirectly_writable.html "cpp/iterator/indirectly writable") type and that the copy may be performed via an intermediate object   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_indirectly_copyable_storable&action=edit)
+(concept) 

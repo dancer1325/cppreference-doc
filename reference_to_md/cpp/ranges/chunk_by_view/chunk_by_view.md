@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::chunk_by_view`](../chunk_by_view.html "cpp/ranges/chunk by view")
 
@@ -247,7 +247,7 @@ chunk_by_view::_iterator_ ::operator--
 chunk_by_view::_iterator_ ::operator--(int)](iterator/operator_arith.html "cpp/ranges/chunk by view/iterator/operator arith")  
 [operator==(chunk_by_view::_iterator_)](iterator/operator_cmp.html "cpp/ranges/chunk by view/iterator/operator cmp")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/chunk_by_view/navbar_content&action=edit)
+
 
 chunk_by_view()  
 requires [std::default_initializable](../../concepts/default_initializable.html)<V> &&  
@@ -273,13 +273,13 @@ Constructs a `chunk_by_view`.
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/chunk_by_view/chunk_by_view&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 base  |  \-  |  the view to split   
 ---|---|---  
 pred  |  \-  |  the function object (a binary predicate) used as a splitting criteria   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/chunk_by_view/chunk_by_view&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

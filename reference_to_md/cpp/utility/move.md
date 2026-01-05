@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 Defined in header `[<utility>](../header/utility.html "cpp/header/utility")` |  |   
 ---|---|---  
@@ -154,16 +154,16 @@ In particular, `std::move` produces an [xvalue expression](../language/value_cat
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/move&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 t  |  \-  |  the object to be moved   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/move&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 static_cast<typename [std::remove_reference](../types/remove_reference.html)<T>::type&&>(t)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/move&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 The functions that accept rvalue reference parameters (including [move constructors](../language/move_constructor.html "cpp/language/move constructor"), [move assignment operators](../language/move_operator.html "cpp/language/move operator"), and regular member functions such as [std::vector::push_back](../container/vector/push_back.html "cpp/container/vector/push back")) are selected, by [overload resolution](../language/overload_resolution.html "cpp/language/overload resolution"), when called with [rvalue](../language/value_category.html "cpp/language/value category") arguments (either [prvalues](../language/value_category.html "cpp/language/value category") such as a temporary object or [xvalues](../language/value_category.html "cpp/language/value category") such as the one produced by `std::move`). If the argument identifies a resource-owning object, these overloads have the option, but aren't required, to _move_ any resources held by the argument. For example, a move constructor of a linked list might copy the pointer to the head of the list and store nullptr in the argument instead of allocating and copying individual nodes. 
 
@@ -201,7 +201,7 @@ Also, the standard library functions called with xvalue arguments may assume the
     [std::vector](../container/vector.html)<int> v = {2, 3, 3};
     v = std::move(v); // the value of v is unspecified
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/move&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -240,12 +240,12 @@ Possible output:
     After move, str is ""
     The contents of the vector are {"Salut", "Salut"}
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/move&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ forward](forward.html "cpp/utility/forward")(C++11) |  forwards a function argument and use the type template argument to preserve its value category   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_forward&action=edit)  
+(function template)   
 ---|---  
 [ move_if_noexcept](move_if_noexcept.html "cpp/utility/move if noexcept")(C++11) |  converts the argument to an xvalue if the move constructor does not throw   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_move_if_noexcept&action=edit)  
+(function template)   
 [ move](../algorithm/move.html "cpp/algorithm/move")(C++11) |  moves a range of elements to a new location   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_move&action=edit)
+(function template) 

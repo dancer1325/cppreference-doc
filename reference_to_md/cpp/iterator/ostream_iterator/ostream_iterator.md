@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](../empty.html "cpp/iterator/empty")(C++17)  
 [data](../data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 [`std::ostream_iterator`](../ostream_iterator.html "cpp/iterator/ostream iterator")
 
@@ -206,7 +206,7 @@ Member functions
 [ostream_iterator::operator*](operator*.html "cpp/iterator/ostream iterator/operator*")  
 [ostream_iterator::operator++ostream_iterator::operator++(int)](operator_arith.html "cpp/iterator/ostream iterator/operator arith")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/ostream_iterator/navbar_content&action=edit)
+
 
 ostream_iterator( ostream_type& stream, const CharT* delim ); |  (1)  |   
 ---|---|---  
@@ -219,13 +219,13 @@ Constructs the iterator with stream as the associated stream, by storing the add
 
 2) Uses a null pointer as the delimiter.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/ostream_iterator/ostream_iterator&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 stream  |  \-  |  the output stream to be accessed by this iterator   
 ---|---|---  
 delim  |  \-  |  the null-terminated character string to be inserted into the stream after each output   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/ostream_iterator/ostream_iterator&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -262,7 +262,7 @@ Output:
     3.14; 2.71;
     2.2 ~ 3.2 ~ 4.2 ~ 5.2 ~ 6.2 ~
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/ostream_iterator/ostream_iterator&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

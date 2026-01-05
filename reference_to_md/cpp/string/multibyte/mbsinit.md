@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Null-terminated multibyte strings](../multibyte.html "cpp/string/multibyte")
 
@@ -100,7 +100,7 @@ MB_CUR_MAX](../multibyte.html#Macros "cpp/string/multibyte")
 [__STDC_UTF_16__  
 __STDC_UTF_32__](../multibyte.html#Macros "cpp/string/multibyte")(C++11)(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/navbar_content&action=edit)
+
 
 Defined in header `[<cwchar>](../../header/cwchar.html "cpp/header/cwchar")` |  |   
 ---|---|---  
@@ -120,20 +120,20 @@ If ps is not a null pointer, the `mbsinit` function determines whether the point
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/multibyte/mbsinit&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 Although a zero-initialized [std::mbstate_t](mbstate_t.html "cpp/string/multibyte/mbstate t") always represents the initial conversion state, there may be other values of [std::mbstate_t](mbstate_t.html "cpp/string/multibyte/mbstate t") that also represent the initial conversion state. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/multibyte/mbsinit&action=edit&section=2 "Edit section: Parameters")] Parameters
+### Parameters
 
 ps  |  \-  |  pointer to the [std::mbstate_t](mbstate_t.html "cpp/string/multibyte/mbstate t") object to examine   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/multibyte/mbsinit&action=edit&section=3 "Edit section: Return value")] Return value
+### Return value
 
 ​0​ if ps is not a null pointer and does not represent the initial conversion state, nonzero value otherwise. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/multibyte/mbsinit&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -167,9 +167,9 @@ Output:
     After processing the first 1 byte of 水 the conversion state is not initial
     After processing the remaining 2 bytes of 水, the conversion state is initial conversion state
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/multibyte/mbsinit&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ mbstate_t](mbstate_t.html "cpp/string/multibyte/mbstate t") |  conversion state information necessary to iterate multibyte character strings   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/dsc_mbstate_t&action=edit)  
+(class)   
 ---|---  
 [C documentation](../../../c/string/multibyte/mbsinit.html "c/string/multibyte/mbsinit") for mbsinit

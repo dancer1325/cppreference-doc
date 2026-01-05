@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Library fundamentals v2](../lib_extensions_2.html "cpp/experimental/lib extensions 2")
 
@@ -74,7 +74,7 @@
 [uniform container erasure](../lib_extensions_2.html#Uniform_container_erasure "cpp/experimental/lib extensions 2")  
 [logical operator type traits](../lib_extensions_2.html#Logical_operator_type_traits "cpp/experimental/lib extensions 2")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions_2/navbar_content&action=edit)
+
 
 [`std::experimental::source_location`](../source_location.html "cpp/experimental/source location")
 
@@ -88,7 +88,7 @@ Field Access
 [source_location::file_name](file_name.html "cpp/experimental/source location/file name")  
 [source_location::function_name](function_name.html "cpp/experimental/source location/function name")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/source_location/navbar_content&action=edit)
+
 
 static constexpr source_location current() noexcept; |  |  (library fundamentals TS v2)  
 ---|---|---  
@@ -107,26 +107,26 @@ Constructs a new `source_location` object.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/source_location/current&action=edit&section=1 "Edit section: Return value")] Return value 
+### Return value 
 
 If `current()` is invoked directly (via a function call that names `current()`), it returns a `source_location` object with implementation-defined values representing the location of the call. The values should be affected by the [`#line` preprocessor directive](../../preprocessor/line.html "cpp/preprocessor/line") in the same manner as the predefined macros __LINE__ and __FILE__. 
 
 If `current()` is invoked in any other manner, the return value is unspecified. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/source_location/current&action=edit&section=2 "Edit section: Remarks")] Remarks 
+### Remarks 
 
 If `current()` is used in an [initializer for a non-static data member](../../language/data_members.html#Member_initialization "cpp/language/data members"), the return value corresponds to the location of the constructor or [aggregate initialization](../../language/aggregate_initialization.html "cpp/language/aggregate initialization") that initializes the data member. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/source_location/current&action=edit&section=3 "Edit section: Notes")] Notes 
+### Notes 
 
 When `current()` is used in a default argument, the return value will correspond to the location of the call to `current()` at the call site. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/source_location/current&action=edit&section=4 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/source_location/current&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ (constructor)](source_location.html "cpp/experimental/source location/source location") |  constructs a new `source_location` with implementation-defined values   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/source_location/dsc_constructor&action=edit)  
+(public member function)   
 ---|---

@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [Pseudo-random number generation](../../random.html "cpp/numeric/random")
 
@@ -161,7 +161,7 @@
 [piecewise_constant_distribution](../piecewise_constant_distribution.html "cpp/numeric/random/piecewise constant distribution")(C++11)  
 [piecewise_linear_distribution](../piecewise_linear_distribution.html "cpp/numeric/random/piecewise linear distribution")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/navbar_content&action=edit)
+
 
 [`std::uniform_int_distribution`](../uniform_int_distribution.html "cpp/numeric/random/uniform int distribution")
 
@@ -180,7 +180,7 @@ Non-member functions
 [operator==operator!=](operator_cmp.html "cpp/numeric/random/uniform int distribution/operator cmp")(C++11)(C++11)(until C++20)  
 [operator<<operator>>](operator_ltltgtgt.html "cpp/numeric/random/uniform int distribution/operator ltltgtgt")(C++11)(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/uniform_int_distribution/navbar_content&action=edit)
+
 
 uniform_int_distribution() : uniform_int_distribution(0) { } |  (1)  |  (since C++11)  
 ---|---|---  
@@ -197,14 +197,14 @@ Constructs new distribution object.
 
 The behavior is undefined if a > b. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/random/uniform_int_distribution/uniform_int_distribution&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 a  |  \-  |  the _a_ distribution parameter (minimum value)   
 ---|---|---  
 b  |  \-  |  the _b_ distribution parameter (maximum value)   
 params  |  \-  |  the distribution parameter set   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/random/uniform_int_distribution/uniform_int_distribution&action=edit&section=2 "Edit section: Defect reports")] Defect reports 
+### Defect reports 
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

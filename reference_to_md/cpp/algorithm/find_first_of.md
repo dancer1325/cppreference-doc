@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](ranges/copy.html "cpp/algorithm/ra
 [uninitialized_default_construct_n](../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -345,7 +345,7 @@ These overloads participate in overload resolution only if all following conditi
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/find_first_of&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  the pair of iterators defining the [range](../iterator.html#Ranges "cpp/iterator") of elements to examine   
 ---|---|---  
@@ -361,13 +361,13 @@ Type requirements
 -`ForwardIt2` must meet the requirements of [LegacyForwardIterator](../named_req/ForwardIterator.html "cpp/named req/ForwardIterator").   
 -`BinaryPred` must meet the requirements of [BinaryPredicate](../named_req/BinaryPredicate.html "cpp/named req/BinaryPredicate").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/find_first_of&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Iterator to the first element in the range `[`first`, `last`)` that is equal to an element from the range `[`s_first`, `s_last`)`. 
 
 If `[`s_first`, `s_last`)` is empty or if no such element is found, last is returned. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/find_first_of&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Given \\(\scriptsize N\\)N as [std::distance](../iterator/distance.html)(first, last) and \\(\scriptsize S\\)S as [std::distance](../iterator/distance.html)(s_first, s_last): 
 
@@ -375,7 +375,7 @@ Given \\(\scriptsize N\\)N as [std::distance](../iterator/distance.html)(first, 
 
 3,4) At most \\(\scriptsize N\cdot S\\)N·S applications of the predicate p.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/find_first_of&action=edit&section=4 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 The overloads with a template parameter named `ExecutionPolicy` report errors as follows: 
 
@@ -384,7 +384,7 @@ The overloads with a template parameter named `ExecutionPolicy` report errors as
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/find_first_of&action=edit&section=5 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
 
 [find_first_of (1)](find_first_of.html#Version_1)  
 ---  
@@ -416,7 +416,7 @@ The overloads with a template parameter named `ExecutionPolicy` report errors as
         return last;
     }  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/find_first_of&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 The following code searches for any of specified integers in a vector of integers:
 
@@ -476,7 +476,7 @@ Output:
     No elements of v are equal to any element of t = { 1, 6, 7, 9 }
     v = { 0, 2, 3, 25, 5 }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/find_first_of&action=edit&section=7 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -486,10 +486,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [LegacyInputIterators](../named_req/InputIterator.html "cpp/named req/InputIterator")  
 [LWG 1205](https://cplusplus.github.io/LWG/issue1205) | C++98  | the return value was unclear if `[`s_first`, `s_last`)` is empty  | returns last in this case   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/find_first_of&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [ findfind_iffind_if_not](find.html "cpp/algorithm/find")(C++11) |  finds the first element satisfying specific criteria   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_find&action=edit)  
+(function template)   
 ---|---  
 [ ranges::find_first_of](ranges/find_first_of.html "cpp/algorithm/ranges/find first of")(C++20) |  searches for any one of a set of elements  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_find_first_of&action=edit)
+(algorithm function object)

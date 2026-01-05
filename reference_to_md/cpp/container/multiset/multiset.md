@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::multiset`](../multiset.html "cpp/container/multiset")
 
@@ -133,7 +133,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/multiset/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/multiset/navbar_content&action=edit)
+
 
 | (1) |   
 ---|---|---  
@@ -213,7 +213,7 @@ During [class template argument deduction](../../language/ctad.html "cpp/languag
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/constructor_ord&action=edit&section=T-1 "Template:cpp/container/constructor ord")] Parameters
+### Parameters
 
 alloc  |  \-  |  allocator to use for all memory allocations of this container   
 ---|---|---  
@@ -227,7 +227,7 @@ Type requirements
 -`Compare` must meet the requirements of [Compare](../../named_req/Compare.html "cpp/named req/Compare").   
 -`Allocator` must meet the requirements of [Allocator](../../named_req/Allocator.html "cpp/named req/Allocator").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/constructor_ord&action=edit&section=T-2 "Template:cpp/container/constructor ord")] Complexity
+### Complexity
 
 1-3) Constant.
 
@@ -241,11 +241,11 @@ Type requirements
 
 12,13) \\(\scriptsize N \cdot log(N)\\)N·log(N) where \\(\scriptsize N\\)N is [ranges::distance](../../iterator/ranges/distance.html)(rg) in general, linear in \\(\scriptsize N\\)N if rg is already sorted by value_comp().
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/constructor_ord&action=edit&section=T-3 "Template:cpp/container/constructor ord")] Exceptions
+### Exceptions
 
 Calls to `Allocator::allocate` may throw. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/constructor_ord&action=edit&section=T-4 "Template:cpp/container/constructor ord")] Notes
+### Notes
 
 After container move construction (overload ([8,9](multiset.html#Version_8))), references, pointers, and iterators (other than the end iterator) to other remain valid, but refer to elements that are now in *this. The current standard makes this guarantee via the blanket statement in [[container.reqmts]/67](https://eel.is/c++draft/container.reqmts#67), and a more direct guarantee is under consideration via [LWG issue 2321](https://cplusplus.github.io/LWG/issue2321). 
 
@@ -255,7 +255,7 @@ Although not formally required until C++23, some implementations has already put
 ---|---|---|---  
 [`__cpp_lib_containers_ranges`](../../experimental/feature_test.html#cpp_lib_containers_ranges "cpp/feature test") | [`202202L`](../../compiler_support/23.html#cpp_lib_containers_ranges_202202L "cpp/compiler support/23") | (C++23) | [Ranges-aware](../../ranges/to.html#container_compatible_range "cpp/ranges/to") construction and insertion; overloads ([12,13](multiset.html#Version_12))  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/constructor_ord&action=edit&section=T-5 "Template:cpp/container/constructor ord")] Example
+### Example
 
 Run this code
     
@@ -319,7 +319,7 @@ Output:
     e: 1 2 2 3 3 4 7
     f: α α β β γ γ δ δ
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/constructor_ord&action=edit&section=T-6 "Template:cpp/container/constructor ord")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -328,10 +328,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [LWG 2076](https://cplusplus.github.io/LWG/issue2076) | C++11  | overload ([4](multiset.html#Version_4)) conditionally required `Key` to be [CopyInsertable](../../named_req/CopyInsertable.html "cpp/named req/CopyInsertable") into *this | not required   
 [LWG 2193](https://cplusplus.github.io/LWG/issue2193) | C++11  | the default constructor was explicit  | made non-explicit   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/constructor_ord&action=edit&section=T-7 "Template:cpp/container/constructor ord")] See also
+### See also
 
 [ operator=](operator=.html "cpp/container/multiset/operator=") |  assigns values to the container   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_operator%3D&action=edit)  
+(public member function)   
 ---|---
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

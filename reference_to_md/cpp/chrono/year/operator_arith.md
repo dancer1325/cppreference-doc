@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::year`](../year.html "cpp/chrono/year")
 
@@ -126,7 +126,7 @@ Helper classes
 [formatter<std::chrono::year>](formatter.html "cpp/chrono/year/formatter")  
 [hash<std::chrono::year>](hash.html "cpp/chrono/year/hash")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/year/navbar_content&action=edit)
+
 
 constexpr [std::chrono::year](../year.html)& operator+=( const [std::chrono::years](../duration.html)& y ) noexcept; |  (1)  |  (since C++20)  
 ---|---|---  
@@ -149,15 +149,15 @@ Adds or subtracts y.count() years from the year value.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/year/operator_arith&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 A reference to this `year` after modification. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/year/operator_arith&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 If the result would be outside the range `[`-32767`, `32767`]`, the actual stored value is unspecified. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/year/operator_arith&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -184,10 +184,10 @@ Output:
     
     true true
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/year/operator_arith&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ operator++operator++(int)operator--operator--(int)](operator_inc_dec.html "cpp/chrono/year/operator inc dec") |  increments or decrements the year   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/year/dsc_operator_inc_dec&action=edit)  
+(public member function)   
 ---|---  
 [ operator+operator-](operator_arith_2.html "cpp/chrono/year/operator arith 2")(C++20) |  performs arithmetic on `year`s   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/year/dsc_operator_arith_2&action=edit)
+(function) 

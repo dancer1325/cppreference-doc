@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 **`std::mutex`**
 
@@ -188,7 +188,7 @@ Locking
 Native handle  
 [mutex::native_handle](mutex/native_handle.html "cpp/thread/mutex/native handle")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/mutex/navbar_content&action=edit)
+
 
 Defined in header `[<mutex>](../header/mutex.html "cpp/header/mutex")` |  |   
 ---|---|---  
@@ -222,41 +222,41 @@ The behavior of a program is undefined if a `mutex` is destroyed while still own
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/mutex&action=edit&section=1 "Edit section: Nested types")] Nested types
+### Nested types
 
 Name  |  Definition   
 ---|---  
-`native_handle_type` (optional*) |  implementation-defined[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_native_handle_type&action=edit)  
+`native_handle_type` (optional*) |  implementation-defined  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/mutex&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](mutex/mutex.html "cpp/thread/mutex/mutex") |  constructs the mutex   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/mutex/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ (destructor)](mutex/~mutex.html "cpp/thread/mutex/~mutex") |  destroys the mutex   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/mutex/dsc_destructor&action=edit)  
+(public member function)   
 operator=[deleted] |  not copy-assignable   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/mutex/dsc_operator%3D&action=edit)  
+(public member function)   
   
 #####  Locking   
   
 [ lock](mutex/lock.html "cpp/thread/mutex/lock") |  locks the mutex, blocks if the mutex is not available   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/mutex/dsc_lock&action=edit)  
+(public member function)   
 [ try_lock](mutex/try_lock.html "cpp/thread/mutex/try lock") |  tries to lock the mutex, returns if the mutex is not available   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/mutex/dsc_try_lock&action=edit)  
+(public member function)   
 [ unlock](mutex/unlock.html "cpp/thread/mutex/unlock") |  unlocks the mutex   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/mutex/dsc_unlock&action=edit)  
+(public member function)   
   
 #####  Native handle   
   
 [ native_handle](mutex/native_handle.html "cpp/thread/mutex/native handle") |  returns the underlying implementation-defined native handle object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/mutex/dsc_native_handle&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/mutex&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 `std::mutex` is usually not accessed directly: [std::unique_lock](unique_lock.html "cpp/thread/unique lock"), [std::lock_guard](lock_guard.html "cpp/thread/lock guard"), or [std::scoped_lock](scoped_lock.html "cpp/thread/scoped lock")(since C++17) manage locking in a more exception-safe manner. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/mutex&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 This example shows how a `mutex` can be used to protect an [std::map](../container/map.html "cpp/container/map") shared between two threads.
 
@@ -301,16 +301,16 @@ Output:
     http://bar => fake content
     http://foo => fake content
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/mutex&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ recursive_mutex](recursive_mutex.html "cpp/thread/recursive mutex")(C++11) |  provides mutual exclusion facility which can be locked recursively by the same thread   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_recursive_mutex&action=edit)  
+(class)   
 ---|---  
 [ lock_guard](lock_guard.html "cpp/thread/lock guard")(C++11) |  implements a strictly scope-based mutex ownership wrapper   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_lock_guard&action=edit)  
+(class template)   
 [ unique_lock](unique_lock.html "cpp/thread/unique lock")(C++11) |  implements movable mutex ownership wrapper   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_unique_lock&action=edit)  
+(class template)   
 [ scoped_lock](scoped_lock.html "cpp/thread/scoped lock")(C++17) |  deadlock-avoiding RAII wrapper for multiple mutexes   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_scoped_lock&action=edit)  
+(class template)   
 [ condition_variable](condition_variable.html "cpp/thread/condition variable")(C++11) |  provides a condition variable associated with a [std::unique_lock](unique_lock.html "cpp/thread/unique lock")   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_condition_variable&action=edit)
+(class) 

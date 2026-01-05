@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Filesystem library](../filesystem.html "cpp/filesystem")
 
@@ -100,7 +100,7 @@ filesystem::symlink_status](status.html "cpp/filesystem/status")
 [filesystem::is_socket](is_socket.html "cpp/filesystem/is socket")  
 [filesystem::is_symlink](is_symlink.html "cpp/filesystem/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/navbar_content&action=edit)
+
 
 Defined in header `[<filesystem>](../header/filesystem.html "cpp/header/filesystem")` |  |   
 ---|---|---  
@@ -128,17 +128,17 @@ The non-throwing overload returns static_cast<[std::uintmax_t](../types/integer.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/file_size&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 p  |  \-  |  path to examine   
 ---|---|---  
 ec  |  \-  |  out-parameter for error reporting in the non-throwing overload   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/file_size&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The size of the file, in bytes. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/file_size&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Any overload not marked `noexcept` may throw [std::bad_alloc](../memory/new/bad_alloc.html "cpp/memory/new/bad alloc") if memory allocation fails.  
 
@@ -147,7 +147,7 @@ Any overload not marked `noexcept` may throw [std::bad_alloc](../memory/new/bad_
 
 2) Sets a [std::error_code](../error/error_code.html)& parameter to the OS API error code if an OS API call fails, and executes ec.[`clear`](../error/error_code/clear.html "cpp/error/error code/clear")() if no errors occur.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/file_size&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -214,12 +214,12 @@ Possible output:
     "/bin/cat" size = 50.9KB (52080)
     "/bin/mouse" : No such file or directory
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/file_size&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ resize_file](resize_file.html "cpp/filesystem/resize file")(C++17) |  changes the size of a regular file by truncation or zero-fill   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_resize_file&action=edit)  
+(function)   
 ---|---  
 [ space](space.html "cpp/filesystem/space")(C++17) |  determines available free space on the file system   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_space&action=edit)  
+(function)   
 [ file_size](directory_entry/file_size.html "cpp/filesystem/directory entry/file size") |  returns the size of the file to which the directory entry refers   
-(public member function of `std::filesystem::directory_entry`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/directory_entry/dsc_file_size&action=edit)
+(public member function of `std::filesystem::directory_entry`) 

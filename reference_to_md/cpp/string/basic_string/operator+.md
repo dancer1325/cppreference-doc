@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Strings library](../../string.html "cpp/string")
 
@@ -40,7 +40,7 @@ Classes
 [basic_string_view](../basic_string_view.html "cpp/string/basic string view")(C++17)  
 [char_traits](../char_traits.html "cpp/string/char traits")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/navbar_content&action=edit)
+
 
 [`std::basic_string`](../basic_string.html "cpp/string/basic string")
 
@@ -133,7 +133,7 @@ basic_string_view](operator_basic_string_view.html "cpp/string/basic string/oper
 [hash<std::basic_string>](hash.html "cpp/string/basic string/hash")(C++11)  
 [Deduction guides](deduction_guides.html "cpp/string/basic string/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/navbar_content&action=edit)
+
 
 Defined in header `[<string>](../../header/string.html "cpp/header/string")` |  |   
 ---|---|---  
@@ -258,13 +258,13 @@ In each case, the left operand is preferred when both are `basic_string`s of the
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/operator%2B&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 lhs  |  \-  |  string, string view(since C++26), character, or pointer to the first character in a null-terminated array   
 ---|---|---  
 rhs  |  \-  |  string, string view(since C++26), character, or pointer to the first character in a null-terminated array   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/operator%2B&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 A string containing characters from lhs followed by the characters from rhs, using the allocator determined as above(since C++11). 
 
@@ -297,7 +297,7 @@ The usage of [std::type_identity_t](../../types/type_identity.html) as parameter
 [`__cpp_lib_string_view`](../../experimental/feature_test.html#cpp_lib_string_view "cpp/feature test") | [`202403`](../../compiler_support/26.html#cpp_lib_string_view_202403 "cpp/compiler support/26") | (C++26) | Concatenation of strings and string views, overloads ([4](operator+.html#Version_4)), ([7](operator+.html#Version_7)), ([12](operator+.html#Version_12)), ([16](operator+.html#Version_16))  
 (since C++26)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/operator%2B&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -327,7 +327,7 @@ Output:
     Hello world!
     Hello Waterworld!
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/operator%2B&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -335,14 +335,14 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [P1165R1](https://wg21.link/P1165R1) | C++11  | allocator propagation is haphazard and inconsistent  | made more consistent   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/operator%2B&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ operator+=](operator+=.html "cpp/string/basic string/operator+=") |  appends characters to the end   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_operator%2B%3D&action=edit)  
+(public member function)   
 ---|---  
 [ append](append.html "cpp/string/basic string/append") |  appends characters to the end   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_append&action=edit)  
+(public member function)   
 [ insert](insert.html "cpp/string/basic string/insert") |  inserts characters   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_insert&action=edit)
+(public member function) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

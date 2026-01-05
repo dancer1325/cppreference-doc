@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_ios`](../basic_ios.html "cpp/io/basic ios")
 
@@ -111,7 +111,7 @@ Protected member functions
 [basic_ios::swap](swap.html "cpp/io/basic ios/swap")(C++11)  
 [basic_ios::set_rdbuf](set_rdbuf.html "cpp/io/basic ios/set rdbuf")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ios/navbar_content&action=edit)
+
 
 operator /* unspecified-boolean-type */() const; |  (1)  |  (until C++11)  
 ---|---|---  
@@ -138,17 +138,17 @@ This operator makes it possible to use streams and functions that return referen
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_ios/operator_bool&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_ios/operator_bool&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) A value that evaluates to true in a boolean context if the stream has no errors, a value that evaluates to false in a boolean context otherwise.
 
 2) true if the stream has no errors, false otherwise.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_ios/operator_bool&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 This conversion can be used in contexts where a bool is expected (e.g. an [if condition](../../language/if.html "cpp/language/if")). However, [implicit conversions](../../language/implicit_cast.html "cpp/language/implicit conversion") (e.g. to int) that can occur with bool are not allowed. 
 
@@ -156,7 +156,7 @@ In C++98, operator bool could not be provided directly due to [the safe bool pro
 
 Since C++11, conversion functions can be [`explicit`](../../language/explicit.html "cpp/language/explicit"). The resolution of [LWG issue 1094](https://cplusplus.github.io/LWG/issue1094) introduced the explicit operator bool and the boolean conversion is now safe. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_ios/operator_bool&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -184,7 +184,7 @@ Output:
     3
     s is false
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_ios/operator_bool&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -192,7 +192,7 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 468](https://cplusplus.github.io/LWG/issue468) | C++98  | operator void* was provided  | a conversion function to an unspecified boolean type is provided instead   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_ios/operator_bool&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 The following table shows the value of [`basic_ios`](../basic_ios.html "cpp/io/basic ios") accessors ([`good()`](good.html "cpp/io/basic ios/good"), [`fail()`](fail.html "cpp/io/basic ios/fail"), etc.) for all possible combinations of [`ios_base::iostate`](../ios_base/iostate.html "cpp/io/ios base/iostate") flags: 
 

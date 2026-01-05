@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [Pseudo-random number generation](../../random.html "cpp/numeric/random")
 
@@ -161,7 +161,7 @@
 [piecewise_constant_distribution](../piecewise_constant_distribution.html "cpp/numeric/random/piecewise constant distribution")(C++11)  
 [piecewise_linear_distribution](../piecewise_linear_distribution.html "cpp/numeric/random/piecewise linear distribution")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/navbar_content&action=edit)
+
 
 [`std::fisher_f_distribution`](../fisher_f_distribution.html "cpp/numeric/random/fisher f distribution")
 
@@ -180,7 +180,7 @@ Non-member functions
 [operator==operator!=](operator_cmp.html "cpp/numeric/random/fisher f distribution/operator cmp")(C++11)(C++11)(until C++20)  
 [operator<<operator>>](operator_ltltgtgt.html "cpp/numeric/random/fisher f distribution/operator ltltgtgt")(C++11)(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/fisher_f_distribution/navbar_content&action=edit)
+
 
 RealType m() const; |  (1)  |  (since C++11)  
 ---|---|---  
@@ -203,22 +203,22 @@ Returns the parameters the distribution was constructed with.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/random/fisher_f_distribution/params&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/random/fisher_f_distribution/params&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) The m (the first degree of freedom) distribution parameter.
 
 2) The n (the second degree of freedom) distribution parameter. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/random/fisher_f_distribution/params&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Constant. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/random/fisher_f_distribution/params&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ param](param.html "cpp/numeric/random/fisher f distribution/param")(C++11) |  gets or sets the distribution parameter object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/distribution/dsc_param&action=edit)  
+(public member function)   
 ---|---

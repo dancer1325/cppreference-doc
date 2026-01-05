@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](../empty.html "cpp/iterator/empty")(C++17)  
 [data](../data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 [`std::common_iterator`](../common_iterator.html "cpp/iterator/common iterator")
 
@@ -213,7 +213,7 @@
 [incrementable_traits<std::common_iterator>](incrementable_traits.html "cpp/iterator/common iterator/incrementable traits")(C++20)  
 [iterator_traits<std::common_iterator>](iterator_traits.html "cpp/iterator/common iterator/iterator traits")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/common_iterator/navbar_content&action=edit)
+
 
 constexpr common_iterator& operator++(); |  (1)  |  (since C++20)  
 ---|---|---  
@@ -270,17 +270,17 @@ Let `it` denote the iterator of type `I` held by `_var_`, that is std::get<I>(va
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/common_iterator/operator_arith&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/common_iterator/operator_arith&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) *this
 
 2) A copy of *this that was made before the change, or a result of post-increment of the underlying iterator, or a proxy keeping the value of the current element, as described above.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/common_iterator/operator_arith&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -311,7 +311,7 @@ Output:
     
     1 2 3 4
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/common_iterator/operator_arith&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -322,8 +322,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [LWG 3574](https://cplusplus.github.io/LWG/issue3574) | C++20  | `variant` was fully constexpr (P2231R1) but `common_iterator` was not  | also made constexpr   
 [LWG 3595](https://cplusplus.github.io/LWG/issue3595) | C++20  | functions of the proxy type lacked constexpr and noexcept  | added   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/common_iterator/operator_arith&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ operator-](operator-.html "cpp/iterator/common iterator/operator-") |  computes the distance between two iterator adaptors   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_operator-&action=edit)  
+(function template)   
 ---|---

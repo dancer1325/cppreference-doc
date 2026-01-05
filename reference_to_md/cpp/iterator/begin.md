@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](empty.html "cpp/iterator/empty")(C++17)  
 [data](data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 Defined in header `[<array>](../header/array.html "cpp/header/array")` |  |   
 ---|---|---  
@@ -258,13 +258,13 @@ If `C` is a standard [Container](../named_req/Container.html "cpp/named req/Cont
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/begin&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 c  |  \-  |  a container or view with a `begin` member function   
 ---|---|---  
 array  |  \-  |  an array of arbitrary type   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/begin&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1,2) c.begin()
 
@@ -272,7 +272,7 @@ array  |  \-  |  an array of arbitrary type
 
 4) c.begin()
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/begin&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 4)
 
@@ -280,19 +280,19 @@ array  |  \-  |  an array of arbitrary type
 
 noexcept(noexcept(std::begin(c)))
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/begin&action=edit&section=4 "Edit section: Overloads")] Overloads
+### Overloads
 
 Custom overloads of `begin` may be provided for classes and enumerations that do not expose a suitable `begin()` member function, yet can be iterated. The following overloads are already provided by the standard library: 
 
 [ std::begin(std::initializer_list)](../utility/initializer_list/begin2.html "cpp/utility/initializer list/begin2")(C++11) |  overloads **std::begin**   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/initializer_list/dsc_begin2&action=edit)  
+(function template)   
 ---|---  
 [ std::begin(std::valarray)](../numeric/valarray/begin2.html "cpp/numeric/valarray/begin2")(C++11) |  overloads **std::begin**   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_begin2&action=edit)  
+(function template)   
 [ begin(std::filesystem::directory_iterator)end(std::filesystem::directory_iterator)](../filesystem/directory_iterator/begin.html "cpp/filesystem/directory iterator/begin")(C++17) |  range-based for loop support   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/directory_iterator/dsc_begin&action=edit)  
+(function)   
 [ begin(std::filesystem::recursive_directory_iterator)end(std::filesystem::recursive_directory_iterator)](../filesystem/recursive_directory_iterator/begin.html "cpp/filesystem/recursive directory iterator/begin") |  range-based for loop support   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/recursive_directory_iterator/dsc_begin&action=edit)  
+(function)   
   
 Similar to the use of `swap` (described in [Swappable](../named_req/Swappable.html "cpp/named req/Swappable")), typical use of the `begin` function in generic context is an equivalent of using std::begin; begin(arg);, which allows both the [ADL](../language/adl.html "cpp/language/adl")-selected overloads for user-defined types and the standard library function templates to appear in the same overload set. 
     
@@ -314,7 +314,7 @@ Similar to the use of `swap` (described in [Swappable](../named_req/Swappable.ht
 Overloads of `begin` found by [argument-dependent lookup](../language/adl.html "cpp/language/adl") can be used to customize the behavior of [std::ranges::begin](../ranges/begin.html "cpp/ranges/begin"), [std::ranges::cbegin](../ranges/cbegin.html "cpp/ranges/cbegin"), and other customization pointer objects depending on [std::ranges::begin](../ranges/begin.html "cpp/ranges/begin").  | (since C++20)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/begin&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 The non-array overloads exactly reflect the behavior of `C::begin`. Their effects may be surprising if the member function does not have a reasonable implementation. 
 
@@ -322,7 +322,7 @@ The non-array overloads exactly reflect the behavior of `C::begin`. Their effect
 
 If `C` is a shallow-const view, `std::cbegin` may return a mutable iterator. Such behavior is unexpected for some users. See also [P2276](https://wg21.link/P2276) and [P2278](https://wg21.link/P2278). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/begin&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -348,12 +348,12 @@ Output:
     +3
     -5
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/begin&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ endcend](end.html "cpp/iterator/end")(C++11)(C++14) |  returns an iterator to the end of a container or array   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_end&action=edit)  
+(function template)   
 ---|---  
 [ ranges::begin](../ranges/begin.html "cpp/ranges/begin")(C++20) |  returns an iterator to the beginning of a range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_begin&action=edit)  
+(customization point object)  
 [ ranges::cbegin](../ranges/cbegin.html "cpp/ranges/cbegin")(C++20) |  returns an iterator to the beginning of a read-only range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_cbegin&action=edit)
+(customization point object)

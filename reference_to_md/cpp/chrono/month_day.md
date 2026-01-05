@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 **`std::chrono::month_day`**
 
@@ -118,7 +118,7 @@ Helper classes
 [formatter<std::chrono::month_day>](month_day/formatter.html "cpp/chrono/month day/formatter")  
 [hash<std::chrono::month_day>](month_day/hash.html "cpp/chrono/month day/hash")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/month_day/navbar_content&action=edit)
+
 
 Defined in header `[<chrono>](../header/chrono.html "cpp/header/chrono")` |  |   
 ---|---|---  
@@ -129,30 +129,30 @@ The class `month_day` represents a specific day of a specific month, of some yet
 
 `month_day` is a [TriviallyCopyable](../named_req/TriviallyCopyable.html "cpp/named req/TriviallyCopyable") [StandardLayoutType](../named_req/StandardLayoutType.html "cpp/named req/StandardLayoutType"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/month_day&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](month_day/month_day.html "cpp/chrono/month day/month day") |  constructs a `month_day`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/month_day/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ monthday](month_day/accessors.html "cpp/chrono/month day/accessors") |  retrieve the stored [`month`](month.html "cpp/chrono/month") and [`day`](day.html "cpp/chrono/day") values   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/month_day/dsc_accessors&action=edit)  
+(public member function)   
 [ ok](month_day/ok.html "cpp/chrono/month day/ok") |  checks if the `month_day` is valid   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/month_day/dsc_ok&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/month_day&action=edit&section=2 "Edit section: Nonmember functions")] Nonmember functions
+### Nonmember functions
 
 [ operator==operator<=>](month_day/operator_cmp.html "cpp/chrono/month day/operator cmp")(C++20) |  compares two `month_day` values   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/month_day/dsc_operator_cmp&action=edit)  
+(function)   
 ---|---  
 [ operator<<](month_day/operator_ltlt.html "cpp/chrono/month day/operator ltlt")(C++20) |  outputs a `month_day` into a stream   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/month_day/dsc_operator_ltlt&action=edit)  
+(function template)   
 [ from_stream](month_day/from_stream.html "cpp/chrono/month day/from stream")(C++20) |  parses a `month_day` from a stream according to the provided format   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/month_day/dsc_from_stream&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/month_day&action=edit&section=3 "Edit section: Helper classes")] Helper classes
+### Helper classes
 
 [ std::formatter<std::chrono::month_day>](month_day/formatter.html "cpp/chrono/month day/formatter")(C++20) |  formatting support for `month_day`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_formatter&action=edit)  
+(class template specialization)   
 ---|---  
 [ std::hash<std::chrono::month_day>](month_day/hash.html "cpp/chrono/month day/hash")(C++26) |  hash support for **`std::chrono::month_day`**   
 (class template specialization)

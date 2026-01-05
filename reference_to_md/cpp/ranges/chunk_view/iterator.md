@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::chunk_view`](../chunk_view.html "cpp/ranges/chunk view")
 
@@ -299,7 +299,7 @@ operator-(chunk_view::_iterator_)](iterator/operator_arith2.html "cpp/ranges/chu
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/chunk_view/navbar_content&action=edit)
+
 
 template< bool Const >  
 class /*iterator*/ |  |  (since C++23)   
@@ -326,7 +326,7 @@ The type /*iterator*/<true> is returned by the const-qualified overloads. The ty
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/chunk_view/iterator&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Member type  |  Definition   
 ---|---  
@@ -345,7 +345,7 @@ Member type  |  Definition
 `value_type` |  decltype([views::take](../take_view.html)([ranges::subrange](../subrange.html)(current_, end_), n_));.   
 `difference_type` |  [ranges::range_difference_t](../range_size_t.html)<Base>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/chunk_view/iterator&action=edit&section=2 "Edit section: Data members")] Data members
+### Data members
 
 Member name  |  Definition   
 ---|---  
@@ -358,7 +358,7 @@ Member name  |  Definition
 `_missing__` (private) |  [ranges::range_difference_t](../range_size_t.html)<Base>, usually equals to [ranges::advance](../../iterator/ranges/advance.html)(current_, n_, end_);.  
 (exposition-only member object*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/chunk_view/iterator&action=edit&section=3 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](iterator/iterator.html "cpp/ranges/chunk view/iterator/iterator") |  constructs an iterator   
 (public member function)  
@@ -370,9 +370,9 @@ Member name  |  Definition
 [ operator[]](iterator/operator_at.html "cpp/ranges/chunk view/iterator/operator at") |  accesses an element by index   
 (public member function)  
 [ operator++operator++(int)operator--operator--(int)operator+=operator-=](iterator/operator_arith.html "cpp/ranges/chunk view/iterator/operator arith") |  advances or decrements the underlying iterator   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/iterator/dsc_operator_arith&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/chunk_view/iterator&action=edit&section=4 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ operator==operator<operator>operator<=operator>=operator<=>](iterator/operator_cmp.html "cpp/ranges/chunk view/iterator/operator cmp")(C++23) |  compares the underlying iterators   
 (function)  
@@ -380,13 +380,13 @@ Member name  |  Definition
 [ operator+operator-](iterator/operator_arith2.html "cpp/ranges/chunk view/iterator/operator arith2")(C++23) |  performs iterator arithmetic   
 (function)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/chunk_view/iterator&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/chunk_view/iterator&action=edit&section=6 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -398,6 +398,6 @@ Reason: no example
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/chunk_view/iterator&action=edit&section=7 "Edit section: See also")] See also  
+### See also  
   
 ---

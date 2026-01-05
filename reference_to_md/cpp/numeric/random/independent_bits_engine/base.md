@@ -32,7 +32,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../../numeric.html "cpp/numeric")
 
@@ -89,7 +89,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [Pseudo-random number generation](../../random.html "cpp/numeric/random")
 
@@ -163,7 +163,7 @@
 [piecewise_constant_distribution](../piecewise_constant_distribution.html "cpp/numeric/random/piecewise constant distribution")(C++11)  
 [piecewise_linear_distribution](../piecewise_linear_distribution.html "cpp/numeric/random/piecewise linear distribution")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/navbar_content&action=edit)
+
 
 [`std::independent_bits_engine`](../independent_bits_engine.html "cpp/numeric/random/independent bits engine")
 
@@ -182,7 +182,7 @@ Non-member functions
 [operator==operator!=](operator_cmp.html "cpp/numeric/random/independent bits engine/operator cmp")(C++11)(C++11)(until C++20)  
 [operator<<operator>>](operator_ltltgtgt.html "cpp/numeric/random/independent bits engine/operator ltltgtgt")(C++11)(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/independent_bits_engine/navbar_content&action=edit)
+
 
 const Engine& base() const noexcept; |  |  (since C++11)  
 ---|---|---  
@@ -190,10 +190,10 @@ const Engine& base() const noexcept; |  |  (since C++11)
   
 Returns the underlying engine. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/adaptor/base&action=edit&section=T-1 "Template:cpp/numeric/random/adaptor/base")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/adaptor/base&action=edit&section=T-2 "Template:cpp/numeric/random/adaptor/base")] Return value
+### Return value
 
 The underlying engine. 

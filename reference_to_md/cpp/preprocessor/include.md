@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](../language/history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [Preprocessor](../preprocessor.html "cpp/preprocessor")
 
@@ -233,7 +233,7 @@ Miscellaneous
 [#line](line.html "cpp/preprocessor/line")  
 [#embed](embed.html "cpp/preprocessor/embed")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/preprocessor/navbar_content&action=edit)
+
 
 Includes other source file into current source file at the line immediately after the directive. 
 
@@ -249,7 +249,7 @@ Includes other source file into current source file at the line immediately afte
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/preprocessor/include&action=edit&section=1 "Edit section: Syntax")] Syntax  
+### Syntax  
   
 ---  
 `**#include <**` h-char-sequence `**>**` new-line |  (1)  |   
@@ -295,7 +295,7 @@ pp-tokens |  \-  |  A sequence of one or more [preprocessing tokens](../language
 string-literal |  \-  |  A [string literal](../language/string_literal.html "cpp/language/string literal")  
 h-pp-tokens |  \-  |  A sequence of one or more [preprocessing tokens](../language/translation_phases.html#Preprocessing_tokens "cpp/language/translation phases") except >  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/preprocessor/include&action=edit&section=2 "Edit section: Explanation")] Explanation
+### Explanation
 
 1) Searches a sequence of places for a header identified uniquely by h-char-sequence ﻿, and causes the replacement of that directive by the entire contents of the header. How the places are specified or the header identified is implementation-defined.
 
@@ -323,7 +323,7 @@ If the header identified by the header-name (i.e., `**<**` h-char-sequence `**>*
   
 `__has_include` can be expanded in the expression of [` #if`](conditional.html "cpp/preprocessor/conditional") and [` #elif`](conditional.html "cpp/preprocessor/conditional"). It is treated as a defined macro by [` #ifdef`](conditional.html "cpp/preprocessor/conditional"), [` #ifndef`](conditional.html "cpp/preprocessor/conditional"), [` #elifdef`](conditional.html "cpp/preprocessor/conditional"), [` #elifndef`](conditional.html "cpp/preprocessor/conditional")(since C++23) and [`defined`](conditional.html "cpp/preprocessor/conditional") but cannot be used anywhere else. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/preprocessor/include&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Typical implementations search only standard include directories for syntax (1). The standard C++ library and the standard C library are implicitly included in these standard include directories. The standard include directories usually can be controlled by the user through compiler options. 
 
@@ -343,7 +343,7 @@ A sequence of characters that resembles an escape sequence in q-char-sequence or
 
 A `__has_include` result of 1 only means that a header or source file with the specified name exists. It does not mean that the header or source file, when included, would not cause an error or would contain anything useful. For example, on a C++ implementation that supports both C++14 and C++17 modes (and provides __has_include in its C++14 mode as a conforming extension), __has_include(<optional>) may be 1 in C++14 mode, but actually #include <optional> may cause an error. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/preprocessor/include&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -401,7 +401,7 @@ Output:
     op = -1
     op = 42
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/preprocessor/include&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -410,7 +410,7 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [CWG 787](https://cplusplus.github.io/CWG/issues/787.html) | C++98  | the behavior is undefined if an escape sequence is  
 resembled in q-char-sequence or h-char-sequence | it is conditionally-supported   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/preprocessor/include&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
   * [Resource inclusion (since C++26)](embed.html "cpp/preprocessor/embed")
 

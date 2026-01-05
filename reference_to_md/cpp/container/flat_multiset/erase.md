@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::flat_multiset`](../flat_multiset.html "cpp/container/flat multiset")
 
@@ -136,7 +136,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/flat multiset/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/flat_multiset/navbar_content&action=edit)
+
 
 iterator erase( iterator pos ); |  (1) | (since C++23)   
 (constexpr since C++26)  
@@ -181,7 +181,7 @@ The iterator pos must be dereferenceable. Thus the end() iterator (which is vali
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/erase_assoc&action=edit&section=T-1 "Template:cpp/container/erase assoc")] Parameters
+### Parameters
 
 pos  |  \-  |  iterator to the element to remove   
 ---|---|---  
@@ -189,7 +189,7 @@ first, last  |  \-  |  the pair of iterators defining the [range](../../iterator
 key  |  \-  |  key value of the elements to remove   
 x  |  \-  |  a value of any type that can be transparently compared with a key denoting the elements to remove   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/erase_assoc&action=edit&section=T-2 "Template:cpp/container/erase assoc")] Return value
+### Return value
 
 1-3) Iterator following the last removed element.
 
@@ -197,19 +197,19 @@ x  |  \-  |  a value of any type that can be transparently compared with a key d
 
 5) Number of elements removed.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/erase_assoc&action=edit&section=T-3 "Template:cpp/container/erase assoc")] Exceptions
+### Exceptions
 
 1-3) Throws nothing.
 
 4,5) Any exceptions thrown by the `Compare` object.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/erase_assoc&action=edit&section=T-4 "Template:cpp/container/erase assoc")] Complexity
+### Complexity
 
 Depends on underlying container. Typically linear. | This section is incomplete  
 Reason: revision required   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/erase_assoc&action=edit&section=T-6 "Template:cpp/container/erase assoc")] Example
+### Example
 
 Run this code
     
@@ -257,8 +257,8 @@ Output:
     Erase 2, erased count: 0
     c = { 4 4 }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/erase_assoc&action=edit&section=T-8 "Template:cpp/container/erase assoc")] See also
+### See also
 
 [ clear](clear.html "cpp/container/flat multiset/clear") |  clears the contents   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_clear&action=edit)  
+(public member function)   
 ---|---

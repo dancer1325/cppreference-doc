@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Templates](templates.html "cpp/language/templates")
 
@@ -244,7 +244,7 @@ Miscellaneous
 [Constraints and concepts](constraints.html "cpp/language/constraints") (C++20)  
 [requires expression](requires.html "cpp/language/requires") (C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/templates/navbar_content&action=edit)
+
 
 In order for a template to be instantiated, every [template parameter](template_parameters.html "cpp/language/template parameters") must be replaced by a corresponding template argument. The arguments are either explicitly provided, deduced or defaulted. 
 
@@ -270,7 +270,7 @@ Each parameter in template-parameter-list (see [template identifier syntax](temp
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/template_arguments&action=edit&section=1 "Edit section: Constant template arguments")] Constant template arguments
+### Constant template arguments
 
 Also known as _non-type template arguments_ (see [below](template_arguments.html#Notes)). 
 
@@ -481,7 +481,7 @@ constant template parameters of reference or pointer type and non-static data me
     int c = 1;
     B<c> b1;     // OK
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/template_arguments&action=edit&section=2 "Edit section: Type template arguments")] Type template arguments
+### Type template arguments
 
 A template argument for a type template parameter must be a [type-id](type-id.html#Type_naming "cpp/language/type"), which may name an incomplete type: 
     
@@ -499,7 +499,7 @@ A template argument for a type template parameter must be a [type-id](type-id.ht
         X<B> x3;  // OK: 'B' names a type
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/template_arguments&action=edit&section=3 "Edit section: Template template arguments")] Template template arguments
+### Template template arguments
 
 A template argument for a template template parameter must be an [id-expression](name.html#In_expressions "cpp/language/identifiers") which names a class template or a template alias. 
 
@@ -593,7 +593,7 @@ Although it was pointed out very early ([CWG#150](https://wg21.cmeerw.net/cwg/is
     template<template<auto> class> void FA(); // note: C++17
     FA<SI>(); // Error
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/template_arguments&action=edit&section=4 "Edit section: Template argument equivalence")] Template argument equivalence
+### Template argument equivalence
 
 Template argument equivalence is used to determine whether two [template identifiers](templates.html#Template_identifiers "cpp/language/templates") are same. 
 
@@ -620,7 +620,7 @@ Two values are _template-argument-equivalent_ if they are of the same type and a
 | (since C++20)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/template_arguments&action=edit&section=5 "Edit section: Ambiguity resolution")] Ambiguity resolution
+### Ambiguity resolution
 
 If a template argument can be interpreted as both a [type-id](type-id.html "cpp/language/type-id") and an expression, it is always interpreted as a type-id, even if the corresponding template parameter is constant: 
     
@@ -637,7 +637,7 @@ If a template argument can be interpreted as both a [type-id](type-id.html "cpp/
                     // calls #1 because it is interpreted as a type
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/template_arguments&action=edit&section=6 "Edit section: Notes")] Notes
+### Notes
 
 Before C++26, constant template argument were called non-type template argument in the standard wording. The terminology was changed by [P2841R6](https://wg21.link/P2841R6) / [PR #7587](https://wg21.link/EDIT7587). 
 
@@ -648,13 +648,13 @@ Feature-test macro  | Value | Std | Feature
 [`__cpp_nontype_template_args`](../experimental/feature_test.html#cpp_nontype_template_args "cpp/feature test") | [`201411L`](../compiler_support/17.html#cpp_nontype_template_args_201411L "cpp/compiler support/17") | (C++17) | Allow constant evaluation for all [constant template arguments](template_arguments.html#Constant_template_arguments)  
 [`201911L`](../compiler_support/20.html#cpp_nontype_template_args_201911L "cpp/compiler support/20") | (C++20) | Class types and floating-point types in [constant template parameters](template_parameters.html#Constant_template_parameter "cpp/language/template parameters")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/template_arguments&action=edit&section=7 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/template_arguments&action=edit&section=8 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

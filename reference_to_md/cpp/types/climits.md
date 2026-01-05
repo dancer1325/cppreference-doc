@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Type support](../utility/rtti.html "cpp/types")
 
@@ -161,7 +161,7 @@ Runtime type information
 ---  
 [bad_cast](bad_cast.html "cpp/types/bad cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/navbar_content&action=edit)
+
 
 See also [std::numeric_limits](numeric_limits.html "cpp/types/numeric limits") interface. 
 
@@ -180,59 +180,59 @@ See also [std::numeric_limits](numeric_limits.html "cpp/types/numeric limits") i
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/climits&action=edit&section=1 "Edit section: Limits of integer types")] Limits of integer types
+### Limits of integer types
 
 #####  Limits of core language integer types   
   
 ---  
 Defined in header `[<climits>](../header/climits.html "cpp/header/climits")`  
 CHAR_BIT |  bit width of byte   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_CHAR_BIT&action=edit)  
+(macro constant)   
 MB_LEN_MAX |  maximum number of bytes in a multibyte character   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_MB_LEN_MAX&action=edit)  
+(macro constant)   
 CHAR_MIN |  minimum value of char   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_CHAR_MIN&action=edit)  
+(macro constant)   
 CHAR_MAX |  maximum value of char   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_CHAR_MAX&action=edit)  
+(macro constant)   
 SCHAR_MINSHRT_MININT_MINLONG_MINLLONG_MIN(C++11) |  minimum value of signed char, short, int, long and long long respectively   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_signed_MIN&action=edit)  
+(macro constant)   
 SCHAR_MAXSHRT_MAXINT_MAXLONG_MAXLLONG_MAX(C++11) |  maximum value of signed char, short, int, long and long long respectively   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_signed_MAX&action=edit)  
+(macro constant)   
 UCHAR_MAXUSHRT_MAXUINT_MAXULONG_MAXULLONG_MAX(C++11) |  maximum value of unsigned char, unsigned short, unsigned int,  
 unsigned long and unsigned long long respectively   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_unsigned_MAX&action=edit)  
+(macro constant)   
 Defined in header `[<cwchar>](../header/cwchar.html "cpp/header/cwchar")`  
 Defined in header `[<cstdint>](../header/cstdint.html "cpp/header/cstdint")`  
 WCHAR_MIN(C++11) |  minimum value of wchar_t   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_WCHAR_MIN&action=edit)  
+(macro constant)   
 WCHAR_MAX(C++11) |  maximum value of wchar_t   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_WCHAR_MAX&action=edit)  
+(macro constant)   
   
 #####  Limits of library type aliases   
   
 Defined in header `[<cstdint>](../header/cstdint.html "cpp/header/cstdint")`  
 PTRDIFF_MIN(C++11) |  minimum value of [std::ptrdiff_t](ptrdiff_t.html "cpp/types/ptrdiff t")   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_PTRDIFF_MIN&action=edit)  
+(macro constant)   
 PTRDIFF_MAX(C++11) |  maximum value of [std::ptrdiff_t](ptrdiff_t.html "cpp/types/ptrdiff t")   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_PTRDIFF_MAX&action=edit)  
+(macro constant)   
 SIZE_MAX(C++11) |  maximum value of [std::size_t](size_t.html "cpp/types/size t")   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_SIZE_MAX&action=edit)  
+(macro constant)   
 SIG_ATOMIC_MIN(C++11) |  minimum value of [std::sig_atomic_t](../utility/program/sig_atomic_t.html "cpp/utility/program/sig atomic t")   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_SIG_ATOMIC_MIN&action=edit)  
+(macro constant)   
 SIG_ATOMIC_MAX(C++11) |  maximum value of [std::sig_atomic_t](../utility/program/sig_atomic_t.html "cpp/utility/program/sig atomic t")   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_SIG_ATOMIC_MAX&action=edit)  
+(macro constant)   
 WINT_MIN(C++11) |  minimum value of [`std::wint_t`](../string/wide.html#Types "cpp/string/wide")   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_WINT_MIN&action=edit)  
+(macro constant)   
 WINT_MAX(C++11) |  maximum value of [`std::wint_t`](../string/wide.html#Types "cpp/string/wide")   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_WINT_MAX&action=edit)  
+(macro constant)   
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/climits&action=edit&section=2 "Edit section: Notes")] Notes
+#### Notes
 
 The types of these constants, other than CHAR_BIT and MB_LEN_MAX, are required to match the results of the [integral promotions](../language/implicit_cast.html#Integral_promotion "cpp/language/implicit conversion") as applied to objects of the types they describe: CHAR_MAX may have type int or unsigned int, but never char. Similarly USHRT_MAX may not be of an unsigned type: its type may be int. 
 
 A [freestanding](../freestanding.html "cpp/freestanding") implementation may lack [std::sig_atomic_t](../utility/program/sig_atomic_t.html "cpp/utility/program/sig atomic t") and/or [`std::wint_t`](../string/wide.html#Types "cpp/string/wide") typedef names, in which case the `SIG_ATOMIC_*` and/or `WINT_*` macros are correspondingly absent. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/climits&action=edit&section=3 "Edit section: Example")] Example
+#### Example
 
 Run this code
     
@@ -310,45 +310,45 @@ Possible output:
     WINT_MIN       = 0
     WINT_MAX       = 4294967295
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/climits&action=edit&section=4 "Edit section: Limits of floating-point types")] Limits of floating-point types
+### Limits of floating-point types
 
 Defined in header `[<cfloat>](../header/cfloat.html "cpp/header/cfloat")`  
 ---  
 FLT_RADIX |  the radix (integer base) used by the representation of all three floating-point types   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_FLT_RADIX&action=edit)  
+(macro constant)   
 DECIMAL_DIG(C++11) |  conversion from long double to decimal with at least DECIMAL_DIG digits and back to long double is the identity conversion: this is the decimal precision required to serialize/deserialize a long double (see also [std::numeric_limits::max_digits10](numeric_limits/max_digits10.html "cpp/types/numeric limits/max digits10"))   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_DECIMAL_DIG&action=edit)  
+(macro constant)   
 FLT_DECIMAL_DIGDBL_DECIMAL_DIGLDBL_DECIMAL_DIG(C++17) |  conversion from float/double/long double to decimal with at least FLT_DECIMAL_DIG/DBL_DECIMAL_DIG/LDBL_DECIMAL_DIG digits and back is the identity conversion: this is the decimal precision required to serialize/deserialize a floating-point value (see also [std::numeric_limits::max_digits10](numeric_limits/max_digits10.html "cpp/types/numeric limits/max digits10")). Defined to at least 6, 10, and 10 respectively, or 9 for IEEE float and 17 for IEEE double.   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_fp_DECIMAL_DIG&action=edit)  
+(macro constant)   
 FLT_MINDBL_MINLDBL_MIN |  minimum normalized positive value of float, double and long double respectively   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_fp_MIN&action=edit)  
+(macro constant)   
 FLT_TRUE_MINDBL_TRUE_MINLDBL_TRUE_MIN(C++17) |  minimum positive value of float, double and long double respectively   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_fp_TRUE_MIN&action=edit)  
+(macro constant)   
 FLT_MAXDBL_MAXLDBL_MAX |  maximum finite value of float, double and long double respectively   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_fp_MAX&action=edit)  
+(macro constant)   
 FLT_EPSILONDBL_EPSILONLDBL_EPSILON |  difference between 1.0 and the next representable value for float, double and long double respectively   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_fp_EPSILON&action=edit)  
+(macro constant)   
 FLT_DIGDBL_DIGLDBL_DIG |  number of decimal digits that are guaranteed to be preserved in text → float/double/long double → text roundtrip without change due to rounding or overflow (see [std::numeric_limits::digits10](numeric_limits/digits10.html "cpp/types/numeric limits/digits10") for explanation)   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_fp_DIG&action=edit)  
+(macro constant)   
 FLT_MANT_DIGDBL_MANT_DIGLDBL_MANT_DIG |  number of base FLT_RADIX digits that can be represented without losing precision for float, double and long double respectively   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_fp_MANT_DIG&action=edit)  
+(macro constant)   
 FLT_MIN_EXPDBL_MIN_EXPLDBL_MIN_EXP |  minimum negative integer such that FLT_RADIX raised by power one less than that integer is a normalized float, double and long double respectively   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_fp_MIN_EXP&action=edit)  
+(macro constant)   
 FLT_MIN_10_EXPDBL_MIN_10_EXPLDBL_MIN_10_EXP |  minimum negative integer such that 10 raised to that power is a normalized float, double and long double respectively   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_fp_MIN_10_EXP&action=edit)  
+(macro constant)   
 FLT_MAX_EXPDBL_MAX_EXPLDBL_MAX_EXP |  maximum positive integer such that FLT_RADIX raised by power one less than that integer is a representable finite float, double and long double respectively   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_fp_MAX_EXP&action=edit)  
+(macro constant)   
 FLT_MAX_10_EXPDBL_MAX_10_EXPLDBL_MAX_10_EXP |  maximum positive integer such that 10 raised to that power is a representable finite float, double and long double respectively   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_fp_MAX_10_EXP&action=edit)  
+(macro constant)   
 [ FLT_ROUNDS](climits/FLT_ROUNDS.html "cpp/types/climits/FLT ROUNDS") |  default rounding mode of floating-point arithmetic   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_FLT_ROUNDS&action=edit)  
+(macro constant)   
 [ FLT_EVAL_METHOD](climits/FLT_EVAL_METHOD.html "cpp/types/climits/FLT EVAL METHOD")(C++11) |  specifies in what precision all arithmetic operations are done   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_FLT_EVAL_METHOD&action=edit)  
+(macro constant)   
 FLT_HAS_SUBNORMDBL_HAS_SUBNORMLDBL_HAS_SUBNORM(C++17) |  specifies whether the type supports subnormal ([denormal](https://en.wikipedia.org/wiki/Denormal_number "enwiki:Denormal number")) numbers:  
 -1 – indeterminable, ​0​ – absent, 1 – present   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_fp_HAS_SUBNORM&action=edit)  
+(macro constant)   
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/climits&action=edit&section=5 "Edit section: Example")] Example
+#### Example
 
 Run this code
     
@@ -449,7 +449,7 @@ Possible output:
     DBL_HAS_SUBNORM  = 1
     LDBL_HAS_SUBNORM = 1
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/climits&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -459,7 +459,7 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 to match the type to which they refer (C++ refers to C, and C says no)  | clarified as not  
 guaranteed   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/climits&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
   * [Fixed width integer types](integer.html "cpp/types/integer")
   * [Arithmetic types](../language/types.html "cpp/language/types")

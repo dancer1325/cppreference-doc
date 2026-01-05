@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Strings library](../../string.html "cpp/string")
 
@@ -40,7 +40,7 @@ Classes
 [basic_string_view](../basic_string_view.html "cpp/string/basic string view")(C++17)  
 [char_traits](../char_traits.html "cpp/string/char traits")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/navbar_content&action=edit)
+
 
 [`std::basic_string`](../basic_string.html "cpp/string/basic string")
 
@@ -133,7 +133,7 @@ basic_string_view](operator_basic_string_view.html "cpp/string/basic string/oper
 [hash<std::basic_string>](hash.html "cpp/string/basic string/hash")(C++11)  
 [Deduction guides](deduction_guides.html "cpp/string/basic string/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/navbar_content&action=edit)
+
 
 CharT& at( size_type pos ); |  (1) | (constexpr since C++20)  
 ---|---|---  
@@ -155,26 +155,26 @@ Returns a reference to the character at specified location pos. Bounds checking 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/at&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 pos  |  \-  |  position of the character to return   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/at&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Reference to the requested character. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/at&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Throws [std::out_of_range](../../error/out_of_range.html "cpp/error/out of range") if pos >= size(). 
 
 If an exception is thrown for any reason, these functions have no effect ([strong exception safety guarantee](../../language/exceptions.html#Exception_safety "cpp/language/exceptions")). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/at&action=edit&section=4 "Edit section: Complexity")] Complexity
+### Complexity
 
 Constant. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/at&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -213,7 +213,7 @@ Possible output:
     string capacity = 7
     basic_string::at
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/at&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -222,10 +222,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [LWG 847](https://cplusplus.github.io/LWG/issue847) | C++98  | there was no exception safety guarantee  | added strong exception safety guarantee   
 [LWG 2207](https://cplusplus.github.io/LWG/issue2207) | C++98  | the behavior was undefined if pos >= size() is true | always throws an exception in this case   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/at&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ operator[]](operator_at.html "cpp/string/basic string/operator at") |  accesses the specified character   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_operator_at&action=edit)  
+(public member function)   
 ---|---  
 [ at](../basic_string_view/at.html "cpp/string/basic string view/at") |  accesses the specified character with bounds checking   
-(public member function of `std::basic_string_view<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/dsc_at&action=edit)
+(public member function of `std::basic_string_view<CharT,Traits>`) 

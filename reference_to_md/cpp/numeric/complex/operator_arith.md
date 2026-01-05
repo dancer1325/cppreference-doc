@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [`std::complex`](../complex.html "cpp/numeric/complex")
 
@@ -164,7 +164,7 @@
 [tuple_size<std::complex>](tuple_size.html "cpp/numeric/complex/tuple size")(C++26)  
 [tuple_element<std::complex>](tuple_element.html "cpp/numeric/complex/tuple element")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/navbar_content&action=edit)
+
 
 Primary template `complex<T>` |  |   
 ---|---|---  
@@ -252,19 +252,19 @@ Implements the compound assignment operators for complex arithmetic and for mixe
 
 4,8) Divides *this by `other`.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/operator_arith&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 other  |  \-  |  a complex or scalar value of matching type (float, double, long double)   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/operator_arith&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 *this
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/operator_arith&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ operator+operator-](operator_arith2.html "cpp/numeric/complex/operator arith2") |  applies unary operators to complex numbers   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_operator_arith2&action=edit)  
+(function template)   
 ---|---  
 [ operator+operator-operator*operator/](operator_arith3.html "cpp/numeric/complex/operator arith3") |  performs complex number arithmetic on two complex values or a complex and a scalar   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_operator_arith3&action=edit)
+(function template) 

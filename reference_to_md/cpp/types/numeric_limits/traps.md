@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Type support](../../utility/rtti.html "cpp/types")
 
@@ -161,7 +161,7 @@ Runtime type information
 ---  
 [bad_cast](../bad_cast.html "cpp/types/bad cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/navbar_content&action=edit)
+
 
 [`std::numeric_limits`](../numeric_limits.html "cpp/types/numeric limits")
 
@@ -204,7 +204,7 @@ Helper types
 [float_round_style](float_round_style.html "cpp/types/numeric limits/float round style")  
 [float_denorm_style](float_denorm_style.html "cpp/types/numeric limits/float denorm style")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/navbar_content&action=edit)
+
 
 static const bool traps; |  | (until C++11)  
 ---|---|---  
@@ -224,7 +224,7 @@ The value of [std::numeric_limits](../numeric_limits.html)<T>::traps is true for
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/numeric_limits/traps&action=edit&section=1 "Edit section: Standard specializations")] Standard specializations
+### Standard specializations
 
 `T` |  value of [std::numeric_limits](../numeric_limits.html)<T>::traps  
 ---|---  
@@ -249,13 +249,13 @@ float |  usually false
 double |  usually false  
 long double |  usually false  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/numeric_limits/traps&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 On most platforms integer division by zero always traps, and [std::numeric_limits](../numeric_limits.html)<T>::traps is true for all integer types that support the value ​0​. The exception is the type bool: even though division by false traps due to integral promotion from bool to int, it is the zero-valued int that traps. Zero is not a value of type bool. 
 
 On most platforms, floating-point exceptions may be turned on and off at run time (e.g. feenableexcept() on Linux or _controlfp on Windows), in which case the value of [std::numeric_limits](../numeric_limits.html)<T>::traps for floating-point types reflects the state of floating-point trapping facility at the time of program startup, which is false on most modern systems. An exception would be a [DEC Alpha](https://en.wikipedia.org/wiki/DEC_Alpha "enwiki:DEC Alpha") program, where it is true if compiled without `-ieee`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/numeric_limits/traps&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -290,7 +290,7 @@ Possible output:
     long:     traps = true
     float:    traps = false
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/numeric_limits/traps&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -300,11 +300,11 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 is enabled or disabled at runtime  | returns the enable status  
 at the start of the program   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/numeric_limits/traps&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [Floating-point environment](../../numeric/fenv.html "cpp/numeric/fenv")  
 ---  
 [ tinyness_before](tinyness_before.html "cpp/types/numeric limits/tinyness before")[static] |  identifies floating-point types that detect tinyness before rounding   
-(public static member constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/dsc_tinyness_before&action=edit)  
+(public static member constant)   
 [ has_denorm_loss](has_denorm_loss.html "cpp/types/numeric limits/has denorm loss")[static] |  identifies the floating-point types that detect loss of precision as denormalization loss rather than inexact result   
-(public static member constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/dsc_has_denorm_loss&action=edit)
+(public static member constant) 

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 **`std::unique_lock`**
 
@@ -198,7 +198,7 @@ Observers
 Non-member functions  
 [swap(std::unique_lock)](unique_lock/swap2.html "cpp/thread/unique lock/swap2")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/unique_lock/navbar_content&action=edit)
+
 
 Defined in header `[<mutex>](../header/mutex.html "cpp/header/mutex")` |  |   
 ---|---|---  
@@ -229,67 +229,67 @@ The class `unique_lock` meets the [BasicLockable](../named_req/BasicLockable.htm
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/unique_lock&action=edit&section=1 "Edit section: Template parameters")] Template parameters
+### Template parameters
 
 Mutex  |  \-  |  the type of the mutex to lock. The type must meet the [BasicLockable](../named_req/BasicLockable.html "cpp/named req/BasicLockable") requirements   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/unique_lock&action=edit&section=2 "Edit section: Nested types")] Nested types
+### Nested types
 
 Type  |  Definition   
 ---|---  
 `mutex_type` |  `Mutex`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/unique_lock&action=edit&section=3 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](unique_lock/unique_lock.html "cpp/thread/unique lock/unique lock") |  constructs a `unique_lock`, optionally locking (i.e., taking ownership of) the supplied mutex   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/unique_lock/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ (destructor)](unique_lock/~unique_lock.html "cpp/thread/unique lock/~unique lock") |  unlocks (i.e., releases ownership of) the associated mutex, if owned   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/unique_lock/dsc_destructor&action=edit)  
+(public member function)   
 [ operator=](unique_lock/operator=.html "cpp/thread/unique lock/operator=") |  unlocks (i.e., releases ownership of) the mutex, if owned, and acquires ownership of another   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/unique_lock/dsc_operator%3D&action=edit)  
+(public member function)   
   
 #####  Locking   
   
 [ lock](unique_lock/lock.html "cpp/thread/unique lock/lock") |  locks (i.e., takes ownership of) the associated mutex   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/unique_lock/dsc_lock&action=edit)  
+(public member function)   
 [ try_lock](unique_lock/try_lock.html "cpp/thread/unique lock/try lock") |  tries to lock (i.e., takes ownership of) the associated mutex without blocking   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/unique_lock/dsc_try_lock&action=edit)  
+(public member function)   
 [ try_lock_for](unique_lock/try_lock_for.html "cpp/thread/unique lock/try lock for") |  attempts to lock (i.e., takes ownership of) the associated [TimedLockable](../named_req/TimedLockable.html "cpp/named req/TimedLockable") mutex, returns if the mutex has been unavailable for the specified time duration   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/unique_lock/dsc_try_lock_for&action=edit)  
+(public member function)   
 [ try_lock_until](unique_lock/try_lock_until.html "cpp/thread/unique lock/try lock until") |  tries to lock (i.e., takes ownership of) the associated [TimedLockable](../named_req/TimedLockable.html "cpp/named req/TimedLockable") mutex, returns if the mutex has been unavailable until specified time point has been reached   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/unique_lock/dsc_try_lock_until&action=edit)  
+(public member function)   
 [ unlock](unique_lock/unlock.html "cpp/thread/unique lock/unlock") |  unlocks (i.e., releases ownership of) the associated mutex   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/unique_lock/dsc_unlock&action=edit)  
+(public member function)   
   
 #####  Modifiers   
   
 [ swap](unique_lock/swap.html "cpp/thread/unique lock/swap") |  swaps state with another **std::unique_lock**   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/unique_lock/dsc_swap&action=edit)  
+(public member function)   
 [ release](unique_lock/release.html "cpp/thread/unique lock/release") |  disassociates the associated mutex without unlocking (i.e., releasing ownership of) it   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/unique_lock/dsc_release&action=edit)  
+(public member function)   
   
 #####  Observers   
   
 [ mutex](unique_lock/mutex.html "cpp/thread/unique lock/mutex") |  returns a pointer to the associated mutex   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/unique_lock/dsc_mutex&action=edit)  
+(public member function)   
 [ owns_lock](unique_lock/owns_lock.html "cpp/thread/unique lock/owns lock") |  tests whether the lock owns (i.e., has locked) its associated mutex   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/unique_lock/dsc_owns_lock&action=edit)  
+(public member function)   
 [ operator bool](unique_lock/operator_bool.html "cpp/thread/unique lock/operator bool") |  tests whether the lock owns (i.e., has locked) its associated mutex   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/unique_lock/dsc_operator_bool&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/unique_lock&action=edit&section=4 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ std::swap(std::unique_lock)](unique_lock/swap2.html "cpp/thread/unique lock/swap2")(C++11) |  specializes the [std::swap](../utility/swap.html "cpp/algorithm/swap") algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/unique_lock/dsc_swap2&action=edit)  
+(function template)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/unique_lock&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 A common beginner error is to "forget" to give a `unique_lock` variable a name, e.g. std::unique_lock(mtx); (which default constructs a `unique_lock` variable named `mtx`) or std::unique_lock{mtx}; (which constructs a prvalue object that is immediately destroyed), thereby not actually constructing a lock that holds a mutex for the rest of the scope. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/unique_lock&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -342,7 +342,7 @@ Output:
     acc1: 95
     acc2: 55
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/unique_lock&action=edit&section=7 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -350,14 +350,14 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 2981](https://cplusplus.github.io/LWG/issue2981) | C++17  | redundant deduction guide from `unique_lock<Mutex>` was provided  | removed   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/unique_lock&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [ lock](lock.html "cpp/thread/lock")(C++11) |  locks specified mutexes, blocks if any are unavailable   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_lock&action=edit)  
+(function template)   
 ---|---  
 [ lock_guard](lock_guard.html "cpp/thread/lock guard")(C++11) |  implements a strictly scope-based mutex ownership wrapper   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_lock_guard&action=edit)  
+(class template)   
 [ scoped_lock](scoped_lock.html "cpp/thread/scoped lock")(C++17) |  deadlock-avoiding RAII wrapper for multiple mutexes   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_scoped_lock&action=edit)  
+(class template)   
 [ mutex](mutex.html "cpp/thread/mutex")(C++11) |  provides basic mutual exclusion facility   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_mutex&action=edit)
+(class) 

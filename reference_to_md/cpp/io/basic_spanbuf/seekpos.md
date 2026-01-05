@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_spanbuf`](../basic_spanbuf.html "cpp/io/basic spanbuf")
 
@@ -94,7 +94,7 @@ Protected member functions
 Non-member functions  
 [swap(std::basic_spanbuf)](swap2.html "cpp/io/basic spanbuf/swap2")(C++23)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_spanbuf/navbar_content&action=edit)
+
 
 protected:  
 pos_type seekpos( pos_type sp, [std::ios_base::openmode](../ios_base/openmode.html) which =  
@@ -117,7 +117,7 @@ Equivalent to return seekoff(off_type(sp), [std::ios_base::beg](../ios_base/seek
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_spanbuf/seekpos&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 sp  |  \-  |  stream position, such as one obtained by seekoff() or `seekpos()`  
 ---|---|---  
@@ -126,26 +126,26 @@ which  |  \-  |  defines whether the input sequences, the output sequence, or bo
 [`in`](../ios_base/openmode.html "cpp/io/ios base/openmode") |  affect the input sequence   
 [`out`](../ios_base/openmode.html "cpp/io/ios base/openmode") |  affect the output sequence   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_spanbuf/seekpos&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 `sp` on success or pos_type(off_type(-1)) on failure. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_spanbuf/seekpos&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 `seekpos()` is called by [std::basic_streambuf::pubseekpos()](../basic_streambuf/pubseekpos.html "cpp/io/basic streambuf/pubseekpos"), which is called by the single-argument versions of [std::basic_istream::seekg()](../basic_istream/seekg.html "cpp/io/basic istream/seekg") and [std::basic_ostream::seekp()](../basic_ostream/seekp.html "cpp/io/basic ostream/seekp"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_spanbuf/seekpos&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_spanbuf/seekpos&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ pubseekpos](../basic_streambuf/pubseekpos.html "cpp/io/basic streambuf/pubseekpos") |  invokes seekpos()   
-(public member function of `std::basic_streambuf<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_streambuf/dsc_pubseekpos&action=edit)  
+(public member function of `std::basic_streambuf<CharT,Traits>`)   
 ---|---  
 [ seekpos](../basic_stringbuf/seekpos.html "cpp/io/basic stringbuf/seekpos")[virtual] |  repositions the next pointer in the input sequence, output sequence, or both using absolute addressing   
-(virtual protected member function of `std::basic_stringbuf<CharT,Traits,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_stringbuf/dsc_seekpos&action=edit)  
+(virtual protected member function of `std::basic_stringbuf<CharT,Traits,Allocator>`)   
 [ seekpos](../strstreambuf/seekpos.html "cpp/io/strstreambuf/seekpos")[virtual] |  repositions the next pointer in the input sequence, output sequence, or both using absolute addressing   
-(virtual protected member function of `std::strstreambuf`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/strstreambuf/dsc_seekpos&action=edit)
+(virtual protected member function of `std::strstreambuf`) 

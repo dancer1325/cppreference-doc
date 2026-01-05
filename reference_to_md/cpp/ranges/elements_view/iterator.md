@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::elements_view`](../elements_view.html "cpp/ranges/elements view")
 
@@ -262,7 +262,7 @@ operator-(elements_view::_iterator_)](iterator/operator_arith2.html "cpp/ranges/
 [operator==(elements_view::_iterator_ ,elements_view::_sentinel_)](sentinel/operator_cmp.html "cpp/ranges/elements view/sentinel/operator cmp")  
 [operator-(elements_view::_iterator_ ,elements_view::_sentinel_)](sentinel/operator-.html "cpp/ranges/elements view/sentinel/operator-")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/elements_view/navbar_content&action=edit)
+
 
 template< bool Const >  
 class /*iterator*/; |  |  (exposition only*)  
@@ -285,7 +285,7 @@ The type /*iterator*/<true> is returned by the const-qualified overloads. The ty
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/elements_view/iterator&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Member type  |  Definition   
 ---|---  
@@ -310,14 +310,14 @@ Member type  |  Definition
 `value_type` |  [std::remove_cvref_t](../../types/remove_cvref.html)<[std::tuple_element_t](../../utility/tuple_element.html)<N, [ranges::range_value_t](../range_size_t.html)<Base>>>  
 `difference_type` |  [ranges::range_difference_t](../range_size_t.html)<Base>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/elements_view/iterator&action=edit&section=2 "Edit section: Data members")] Data members
+### Data members
 
 Member object  |  Definition   
 ---|---  
 `_current__` (private) |  An iterator of type [ranges::iterator_t](../iterator_t.html)<Base> to current element of underlying sequence.  
 (exposition-only member object*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/elements_view/iterator&action=edit&section=3 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](iterator/iterator.html "cpp/ranges/elements view/iterator/iterator") |  constructs an iterator   
 (public member function)  
@@ -329,9 +329,9 @@ Member object  |  Definition
 [ operator[]](iterator/operator_at.html "cpp/ranges/elements view/iterator/operator at") |  accesses an element by index   
 (public member function)  
 [ operator++operator++(int)operator--operator--(int)operator+=operator-=](iterator/operator_arith.html "cpp/ranges/elements view/iterator/operator arith") |  advances or decrements the underlying iterator   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/iterator/dsc_operator_arith&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/elements_view/iterator&action=edit&section=4 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ operator==operator<operator>operator<=operator>=operator<=>](iterator/operator_cmp.html "cpp/ranges/elements view/iterator/operator cmp")(C++20) |  compares the underlying iterators   
 (function)  
@@ -339,7 +339,7 @@ Member object  |  Definition
 [ operator+operator-](iterator/operator_arith2.html "cpp/ranges/elements view/iterator/operator arith2")(C++20) |  performs iterator arithmetic   
 (function)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/elements_view/iterator&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -348,8 +348,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [P2259R1](https://wg21.link/P2259R1) | C++20  | member `iterator_category` is always defined  | defined only if `_Base_` models [`forward_range`](../forward_range.html "cpp/ranges/forward range")  
 [LWG 3555](https://cplusplus.github.io/LWG/issue3555) | C++20  | the definition of `iterator_concept` ignores const  | made to consider   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/elements_view/iterator&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ iterator](../transform_view/iterator.html "cpp/ranges/transform view/iterator")(C++20) |  the return type of ranges::transform_view::begin, and of ranges::transform_view::end when the underlying view is a [`common_range`](../common_range.html "cpp/ranges/common range")   
-(private member class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/transform_view/dsc_iterator&action=edit)  
+(private member class template)   
 ---|---

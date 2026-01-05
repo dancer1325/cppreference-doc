@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [C-style I/O](../c.html "cpp/io/c")
 
@@ -176,7 +176,7 @@ Operations on files
 [tmpfile](tmpfile.html "cpp/io/c/tmpfile")  
 [tmpnam](tmpnam.html "cpp/io/c/tmpnam")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/navbar_content&action=edit)
+
 
 Defined in header `[<cstdio>](../../header/cstdio.html "cpp/header/cstdio")` |  |   
 ---|---|---  
@@ -197,13 +197,13 @@ Opens a file indicated by filename and returns a file stream associated with tha
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/fopen&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 filename  |  \-  |  file name to associate the file stream to   
 ---|---|---  
 mode  |  \-  |  null-terminated character string determining [file access mode](fopen.html#File_access_flags)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/fopen&action=edit&section=2 "Edit section: File access flags")] File access flags
+### File access flags
 
 File access   
 mode string  |  Meaning  |  Explanation  |  Action if file   
@@ -221,19 +221,19 @@ On the append file access modes, data is written to the end of the file regardle
 File access mode flag "x" can optionally be appended to "w" or "w+" specifiers. This flag forces the function to fail if the file exists, instead of overwriting it. (C++17)  
 The behavior is undefined if the mode is not one of the strings listed above. Some implementations define additional supported modes (e.g. [Windows](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fopen-wfopen)).   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/fopen&action=edit&section=3 "Edit section: Return value")] Return value
+### Return value
 
 If successful, returns a pointer to the object that controls the opened file stream, with both eof and error bits cleared. The stream is fully buffered unless filename refers to an interactive device. 
 
 On error, returns a null pointer. [POSIX requires](https://pubs.opengroup.org/onlinepubs/9699919799/functions/fopen.html) that [errno](../../error/errno.html "cpp/error/errno") is set in this case. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/fopen&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 The format of filename is implementation-defined, and does not necessarily refer to a file (e.g. it may be the console or another device accessible through filesystem API). On platforms that support them, filename may include absolute or relative filesystem path. 
 
 For portable directory and file naming, see [C++ filesystem library](../../filesystem.html "cpp/filesystem") or [boost.filesystem](https://www.boost.org/doc/libs/release/libs/filesystem/doc/index.htm). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/fopen&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -272,13 +272,13 @@ Output:
     
     End of file reached successfully
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/fopen&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ fclose](fclose.html "cpp/io/c/fclose") |  closes a file   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_fclose&action=edit)  
+(function)   
 ---|---  
 [ fflush](fflush.html "cpp/io/c/fflush") |  synchronizes an output stream with the actual file   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_fflush&action=edit)  
+(function)   
 [ freopen](freopen.html "cpp/io/c/freopen") |  open an existing stream with a different name   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_freopen&action=edit)  
+(function)   
 [C documentation](../../../c/io/fopen.html "c/io/fopen") for fopen

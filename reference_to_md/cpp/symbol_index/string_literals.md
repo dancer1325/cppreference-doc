@@ -21,7 +21,7 @@
 [Removed symbols (Zombie names)](zombie_names.html "cpp/symbol index/zombie names")  
 [Exposition-only symbols](expos.html "cpp/symbol index/expos")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/symbol_index/navbar_content&action=edit)
+
 
 [`std::literals`](literals.html "cpp/symbol index/literals")
 
@@ -31,7 +31,7 @@
 **std::literals::string_literals**(C++14)  
 [std::literals::string_view_literals](string_view_literals.html "cpp/symbol index/string view literals")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/symbol_index/literals/navbar_content&action=edit)
+
 
 This page tries to list all the symbols that are available from the [standard library](../standard_library.html "cpp/standard library") in the namespace std::literals::string_literals. The symbols are written as follows: 
 
@@ -40,7 +40,7 @@ This page tries to list all the symbols that are available from the [standard li
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/string_literals&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 These operators are declared in the namespace std::literals::string_literals, where both literals and string_literals are [inline namespaces](../language/namespace.html#Inline_namespaces "cpp/language/namespace"). Access to these operators can be gained with: 
 
@@ -59,7 +59,7 @@ These operators are declared in the namespace std::literals::string_literals, wh
   
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/string_literals&action=edit&section=3 "Edit section: S")] S
+### S
 
 [`s`](../string/basic_string/operator""s.html "cpp/string/basic string/operator""s") (since C++14)  
 

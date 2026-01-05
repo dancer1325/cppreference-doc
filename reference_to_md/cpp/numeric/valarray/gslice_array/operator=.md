@@ -32,7 +32,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../../numeric.html "cpp/numeric")
 
@@ -89,7 +89,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [`std::valarray`](../../valarray.html "cpp/numeric/valarray")
 
@@ -157,7 +157,7 @@
   
 [Deduction guides](../deduction_guides.html "cpp/numeric/valarray/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/navbar_content&action=edit)
+
 
 [`std::gslice_array`](../gslice_array.html "cpp/numeric/valarray/gslice array")
 
@@ -168,7 +168,7 @@ Member functions
 **gslice_array::operator=**  
 [gslice_array::operator+=gslice_array::operator-=gslice_array::operator*=gslice_array::operator/=gslice_array::operator%=gslice_array::operator&=gslice_array::operator|=gslice_array::operator^=gslice_array::operator<<=gslice_array::operator>>=](operator_arith.html "cpp/numeric/valarray/gslice array/operator arith")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/gslice_array/navbar_content&action=edit)
+
 
 void operator=( const T& value ) const; |  (1)  |   
 ---|---|---  
@@ -194,26 +194,26 @@ Assigns values to all referred elements.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/array/operator%3D&action=edit&section=T-1 "Template:cpp/numeric/valarray/array/operator=")] Parameters
+### Parameters
 
 value  |  \-  |  a value to assign to all of the referred elements   
 ---|---|---  
 val_arr  |  \-  |  [std::valarray](../../valarray.html "cpp/numeric/valarray") to assign   
 other_arr  |  \-  |  [std::gslice_array](../gslice_array.html "cpp/numeric/valarray/gslice array") to assign   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/array/operator%3D&action=edit&section=T-2 "Template:cpp/numeric/valarray/array/operator=")] Return value
+### Return value
 
 1,2) (none)
 
 3) *this
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/array/operator%3D&action=edit&section=T-3 "Template:cpp/numeric/valarray/array/operator=")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/array/operator%3D&action=edit&section=T-4 "Template:cpp/numeric/valarray/array/operator=")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

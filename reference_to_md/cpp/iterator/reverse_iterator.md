@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](empty.html "cpp/iterator/empty")(C++17)  
 [data](data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 **`std::reverse_iterator`**
 
@@ -214,7 +214,7 @@
 [iter_swap](reverse_iterator/iter_swap.html "cpp/iterator/reverse iterator/iter swap")(C++20)  
 [make_reverse_iterator](make_reverse_iterator.html "cpp/iterator/make reverse iterator")(C++14)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/reverse_iterator/navbar_content&action=edit)
+
 
 Defined in header `[<iterator>](../header/iterator.html "cpp/header/iterator")` |  |   
 ---|---|---  
@@ -245,7 +245,7 @@ This is the iterator returned by member functions `rbegin()` and `rend()` of the
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/reverse_iterator&action=edit&section=1 "Edit section: Nested types")] Nested types
+### Nested types
 
 |  Type  |  Definition   
 ---|---  
@@ -281,46 +281,46 @@ This is the iterator returned by member functions `rbegin()` and `rend()` of the
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/reverse_iterator&action=edit&section=2 "Edit section: Data members")] Data members
+### Data members
 
 Member  |  Description   
 ---|---  
 `Iter` `current` |  the underlying iterator  
 (protected member object)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/reverse_iterator&action=edit&section=3 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](reverse_iterator/reverse_iterator.html "cpp/iterator/reverse iterator/reverse iterator") |  constructs a new `reverse_iterator`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ operator=](reverse_iterator/operator=.html "cpp/iterator/reverse iterator/operator=") |  assigns another `reverse_iterator`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_operator%3D&action=edit)  
+(public member function)   
 [ base](reverse_iterator/base.html "cpp/iterator/reverse iterator/base") |  accesses the underlying iterator   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_base&action=edit)  
+(public member function)   
 [ operator*operator->](reverse_iterator/operator*.html "cpp/iterator/reverse iterator/operator*") |  accesses the pointed-to element   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_operator*&action=edit)  
+(public member function)   
 [ operator[]](reverse_iterator/operator_at.html "cpp/iterator/reverse iterator/operator at") |  accesses an element by index   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_operator_at&action=edit)  
+(public member function)   
 [ operator++operator++(int)operator+=operator+operator--operator--(int)operator-=operator-](reverse_iterator/operator++.html "cpp/iterator/reverse iterator/operator arith") |  advances or decrements the `reverse_iterator`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_operator_arith&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/reverse_iterator&action=edit&section=4 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ operator==operator!=operator<operator<=operator>operator>=operator<=>](reverse_iterator/operator_cmp.html "cpp/iterator/reverse iterator/operator cmp")(C++20) |  compares the underlying iterators   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_operator_cmp&action=edit)  
+(function template)   
 ---|---  
 [ operator+](reverse_iterator/operator+.html "cpp/iterator/reverse iterator/operator+") |  advances the iterator   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_operator%2B&action=edit)  
+(function template)   
 [ operator-](reverse_iterator/operator-.html "cpp/iterator/reverse iterator/operator-") |  computes the distance between two iterator adaptors   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_operator-&action=edit)  
+(function template)   
 [ iter_move](reverse_iterator/iter_move.html "cpp/iterator/reverse iterator/iter move")(C++20) |  casts the result of dereferencing the adjusted underlying iterator to its associated rvalue reference type   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_iter_move&action=edit)  
+(function)   
 [ iter_swap](reverse_iterator/iter_swap.html "cpp/iterator/reverse iterator/iter swap")(C++20) |  swaps the objects pointed to by two adjusted underlying iterators   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/adaptor/dsc_iter_swap&action=edit)  
+(function template)   
 [ make_reverse_iterator](make_reverse_iterator.html "cpp/iterator/make reverse iterator")(C++14) |  creates a **std::reverse_iterator** of type inferred from the argument   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_make_reverse_iterator&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/reverse_iterator&action=edit&section=5 "Edit section: Helper templates")] Helper templates
+### Helper templates
 
 template< class Iterator1, class Iterator2 >  
 requires (![std::sized_sentinel_for](sized_sentinel_for.html)<Iterator1, Iterator2>)  
@@ -331,7 +331,7 @@ inline constexpr bool disable_sized_sentinel_for
   
 This partial specialization of `std::disable_sized_sentinel_for` prevents specializations of `reverse_iterator` from satisfying [`sized_sentinel_for`](sized_sentinel_for.html "cpp/iterator/sized sentinel for") if their underlying iterators do not satisfy the concept. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/reverse_iterator&action=edit&section=6 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
 
 Below is a partial implementation focusing on the way the inner iterator is stored, calling [std::prev](prev.html "cpp/iterator/prev") only when the content is fetched via operator*. 
     
@@ -366,11 +366,11 @@ Below is a partial implementation focusing on the way the inner iterator is stor
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/reverse_iterator&action=edit&section=7 "Edit section: Notes")] Notes
+### Notes
 
 `std::reverse_iterator` does not work with iterators whose dereference returns a reference to a member of *this (so-called “stashing iterators”). An example of a stashing iterator is [MSVC STL's](https://github.com/microsoft/STL/blob/ac129e595f762f11551663f1c7fa5f51444a8c6c/stl/inc/filesystem#L1387-L1585) [`std::filesystem::path::iterator`](../filesystem/path.html#Member_types "cpp/filesystem/path"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/reverse_iterator&action=edit&section=8 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -417,10 +417,10 @@ Output:
     
     35 25 15 5
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/reverse_iterator&action=edit&section=9 "Edit section: See also")] See also
+### See also
 
 [ make_reverse_iterator](make_reverse_iterator.html "cpp/iterator/make reverse iterator")(C++14) |  creates a **std::reverse_iterator** of type inferred from the argument   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_make_reverse_iterator&action=edit)  
+(function template)   
 ---|---  
 [ iterator](iterator.html "cpp/iterator/iterator")(deprecated in C++17) |  base class to ease the definition of required types for simple iterators   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_iterator&action=edit)
+(class template) 

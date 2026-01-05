@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [Common mathematical functions](../math.html "cpp/numeric/math")
 
@@ -230,7 +230,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/navbar_content&action=edit)
+
 
 Defined in header `[<cmath>](../../header/cmath.html "cpp/header/cmath")` |  |   
 ---|---|---  
@@ -280,12 +280,12 @@ A) Additional overloads are provided for all integer types, which are treated as
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/exp&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 num  |  \-  |  floating-point or integer value   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/exp&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 If no errors occur, the base-e exponential of num (enum  
 ) is returned. 
@@ -294,7 +294,7 @@ If a range error occurs due to overflow, [+HUGE_VAL](HUGE_VALL.html "cpp/numeric
 
 If a range error occurs due to underflow, the correct result (after rounding) is returned. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/exp&action=edit&section=3 "Edit section: Error handling")] Error handling
+### Error handling
 
 Errors are reported as specified in [math_errhandling](math_errhandling.html "cpp/numeric/math/math errhandling"). 
 
@@ -307,13 +307,13 @@ If the implementation supports IEEE floating-point arithmetic (IEC 60559),
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/exp&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 For IEEE-compatible type double, overflow is guaranteed if 709.8 < num, and underflow is guaranteed if num < -708.4. 
 
 The additional overloads are not required to be provided exactly as (A). They only need to be sufficient to ensure that for their argument num of integer type, std::exp(num) has the same effect as std::exp(static_cast<double>(num)). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/exp&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -374,17 +374,17 @@ Possible output:
         errno == ERANGE: Numerical result out of range
         FE_OVERFLOW raised
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/exp&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ exp2exp2fexp2l](exp2.html "cpp/numeric/math/exp2")(C++11)(C++11)(C++11) |  returns 2 raised to the given power (\\({\small 2^x}\\)2x)   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_exp2&action=edit)  
+(function)   
 ---|---  
 [ expm1expm1fexpm1l](expm1.html "cpp/numeric/math/expm1")(C++11)(C++11)(C++11) |  returns e raised to the given power, minus 1 (\\({\small e^x-1}\\)ex-1)   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_expm1&action=edit)  
+(function)   
 [ loglogflogl](log.html "cpp/numeric/math/log")(C++11)(C++11) |  computes natural (base e) logarithm (\\({\small\ln{x}}\\)ln(x))   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_log&action=edit)  
+(function)   
 [ exp(std::complex)](../complex/exp.html "cpp/numeric/complex/exp") |  complex base _e_ exponential   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_exp&action=edit)  
+(function template)   
 [ exp(std::valarray)](../valarray/exp.html "cpp/numeric/valarray/exp") |  applies the function **std::exp** to each element of valarray   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_exp&action=edit)  
+(function template)   
 [C documentation](../../../c/numeric/math/exp.html "c/numeric/math/exp") for exp

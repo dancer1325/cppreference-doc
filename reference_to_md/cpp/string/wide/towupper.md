@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Null-terminated wide strings](../wide.html "cpp/string/wide")
 
@@ -153,7 +153,7 @@
 WCHAR_MAX  
 WEOF](../wide.html#Macros "cpp/string/wide")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/navbar_content&action=edit)
+
 
 Defined in header `[<cwctype>](../../header/cwctype.html "cpp/header/cwctype")` |  |   
 ---|---|---  
@@ -175,22 +175,22 @@ If the value of ch is neither representable as a wchar_t nor equal to the value 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/towupper&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 ch  |  \-  |  wide character to be converted   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/towupper&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Uppercase version of ch or unmodified ch if no uppercase version is listed in the current C locale. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/towupper&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Only 1:1 character mapping can be performed by this function, e.g. the uppercase form of 'ß' is (with some exceptions) the two-character string "SS", which cannot be obtained by `std::towupper`. 
 
 [ISO 30112](https://www.open-std.org/JTC1/SC35/WG5/docs/30112d10.pdf) specifies which pairs of Unicode characters are included in this mapping. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/towupper&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 The latin [letter 'ſ' (U+017F)](https://en.wikipedia.org/wiki/Long_s "enwiki:Long s") is the alternative lowercase form of 'S' (U+0053).
 
@@ -222,13 +222,13 @@ Output:
     in the default locale, towupper(0x17f) = 0x17f
     in Unicode locale, towupper(0x17f) = 0x53
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/towupper&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ towlower](towlower.html "cpp/string/wide/towlower") |  converts a wide character to lowercase   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_towlower&action=edit)  
+(function)   
 ---|---  
 [ toupper(std::locale)](../../locale/toupper.html "cpp/locale/toupper") |  converts a character to uppercase using the ctype facet of a locale   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_toupper&action=edit)  
+(function template)   
 [ toupper](../byte/toupper.html "cpp/string/byte/toupper") |  converts a character to uppercase   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_toupper&action=edit)  
+(function)   
 [C documentation](../../../c/string/wide/towupper.html "c/string/wide/towupper") for towupper

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::allocator`](../allocator.html "cpp/memory/allocator")
 
@@ -202,7 +202,7 @@ Member functions
 Non-member functions  
 [operator==operator!=](operator_cmp.html "cpp/memory/allocator/operator cmp")(until C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/allocator/navbar_content&action=edit)
+
 
 | (1) |   
 ---|---|---  
@@ -219,16 +219,16 @@ const_pointer address( const_reference x ) const noexcept; |  |  (since C++11)
   
 Returns the actual address of x even in presence of overloaded operator&. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/allocator/address&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 x  |  \-  |  the object to acquire address of   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/allocator/address&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The actual address of x. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/allocator/address&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

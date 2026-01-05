@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ named requirements](../iterator/concepts.html "cpp/named req")
 
@@ -147,7 +147,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/named_req/navbar_content&action=edit)
+
 
 A **SequenceContainer** is a [Container](Container.html "cpp/named req/Container") that stores objects of the same type in a linear arrangement. 
 
@@ -161,7 +161,7 @@ A **SequenceContainer** is a [Container](Container.html "cpp/named req/Container
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/SequenceContainer&action=edit&section=1 "Edit section: Requirements")] Requirements
+### Requirements
 
 Given the following types and values: 
 
@@ -419,27 +419,27 @@ Additionally, for every sequence container:
 | (since C++17)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/SequenceContainer&action=edit&section=2 "Edit section: Standard library")] Standard library
+### Standard library
 
 The following standard library string types and containers satisfy the SequenceContainer requirements: 
 
 [ basic_string](../string/basic_string.html "cpp/string/basic string") |  stores and manipulates sequences of characters   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/dsc_basic_string&action=edit)  
+(class template)   
 ---|---  
 [ array](../container/array.html "cpp/container/array")(C++11) |  fixed-sized inplace contiguous array   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_array&action=edit)  
+(class template)   
 [ vector](../container/vector.html "cpp/container/vector") |  resizable contiguous array   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_vector&action=edit)  
+(class template)   
 [ inplace_vector](../container/inplace_vector.html "cpp/container/inplace vector")(C++26) |  resizable, fixed capacity, inplace contiguous array   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_inplace_vector&action=edit)  
+(class template)   
 [ deque](../container/deque.html "cpp/container/deque") |  double-ended queue   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_deque&action=edit)  
+(class template)   
 [ forward_list](../container/forward_list.html "cpp/container/forward list")(C++11) |  singly-linked list   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_forward_list&action=edit)  
+(class template)   
 [ list](../container/list.html "cpp/container/list") |  doubly-linked list   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_list&action=edit)  
+(class template)   
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/SequenceContainer&action=edit&section=3 "Edit section: Usage notes")] Usage notes
+#### Usage notes
 
 Container  | Pros  | Cons   
 ---|---|---  
@@ -450,7 +450,7 @@ Container  | Pros  | Cons
 [std::list](../container/list.html "cpp/container/list")  
 [std::forward_list](../container/forward_list.html "cpp/container/forward list") | Efficient insertion/deletion in the middle of the sequence  | Access is mostly linear-time   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/SequenceContainer&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

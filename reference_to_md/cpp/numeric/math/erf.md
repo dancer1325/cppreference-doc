@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [Common mathematical functions](../math.html "cpp/numeric/math")
 
@@ -230,7 +230,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/navbar_content&action=edit)
+
 
 Defined in header `[<cmath>](../../header/cmath.html "cpp/header/cmath")` |  |   
 ---|---|---  
@@ -281,12 +281,12 @@ A) Additional overloads are provided for all integer types, which are treated as
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/erf&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 num  |  \-  |  floating-point or integer value   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/erf&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 If no errors occur, value of the error function of num, that is \\(\frac{2}{\sqrt{\pi} }\int_{0}^{num}{e^{-{t^2} }\mathsf{d}t}\\)2  
 ---  
@@ -299,7 +299,7 @@ If a range error occurs due to underflow, the correct result (after rounding), t
 √π  
 is returned. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/erf&action=edit&section=3 "Edit section: Error handling")] Error handling
+### Error handling
 
 Errors are reported as specified in [math_errhandling](math_errhandling.html "cpp/numeric/math/math errhandling"). 
 
@@ -311,7 +311,7 @@ If the implementation supports IEEE floating-point arithmetic (IEC 60559),
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/erf&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 Underflow is guaranteed if |num| < [DBL_MIN](../../types/climits.html) * ([std::sqrt](sqrt.html)(π) / 2). 
 
@@ -322,7 +322,7 @@ Underflow is guaranteed if |num| < [DBL_MIN](../../types/climits.html) * ([std::
 
 The additional overloads are not required to be provided exactly as (A). They only need to be sufficient to ensure that for their argument num of integer type, std::erf(num) has the same effect as std::erf(static_cast<double>(num)). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/erf&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 The following example calculates the probability that a normal variate is on the interval (x1, x2):
 
@@ -368,14 +368,14 @@ Output:
     erf(-0) = -0.00
     erf(Inf) = 1.00
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/erf&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ erfcerfcferfcl](erfc.html "cpp/numeric/math/erfc")(C++11)(C++11)(C++11) |  complementary error function   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_erfc&action=edit)  
+(function)   
 ---|---  
 [C documentation](../../../c/numeric/math/erf.html "c/numeric/math/erf") for erf  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/erf&action=edit&section=7 "Edit section: External links")] External links
+### External links
 
 [Weisstein, Eric W. "Erf."](https://mathworld.wolfram.com/Erf.html) From MathWorld — A Wolfram Web Resource.   
 ---

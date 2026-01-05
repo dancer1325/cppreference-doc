@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Extensions for reflection](../reflect.html "cpp/experimental/reflect")
 
@@ -196,7 +196,7 @@ Meta-object operations
 [is_explicitly_captured](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/reflect/is_explicitly_captured&action=edit&redlink=1 "cpp/experimental/reflect/is explicitly captured \(page does not exist\)")  
 [is_init_capture](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/reflect/is_init_capture&action=edit&redlink=1 "cpp/experimental/reflect/is init capture \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/reflect/navbar_content&action=edit)
+
 
 Defined in header `[<experimental/reflect>](../../header/experimental/reflect.html "cpp/header/experimental/reflect")` |  |   
 ---|---|---  
@@ -219,7 +219,7 @@ Provides the member constant `value` equal to the implementation-defined value r
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/reflect/get_source_column&action=edit&section=1 "Edit section: Helper variable template")] Helper variable template 
+### Helper variable template 
 
 template< class T >  
 constexpr auto get_source_column_v = get_source_column<T>::value; |  |  (reflection TS)  
@@ -249,14 +249,14 @@ Type  |  Definition
 `value_type` |  [std::uint_least32_t](../../types/integer.html)  
 `type` |  [std::integral_constant](../../types/integral_constant.html)<[std::uint_least32_t](../../types/integer.html), value>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/reflect/get_source_column&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: examples   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/reflect/get_source_column&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ column](../../utility/source_location/column.html "cpp/utility/source location/column") |  return the column number represented by this object   
-(public member function of `std::source_location`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/source_location/dsc_column&action=edit)  
+(public member function of `std::source_location`)   
 ---|---

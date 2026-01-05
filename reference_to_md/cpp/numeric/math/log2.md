@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [Common mathematical functions](../math.html "cpp/numeric/math")
 
@@ -230,7 +230,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/navbar_content&action=edit)
+
 
 Defined in header `[<cmath>](../../header/cmath.html "cpp/header/cmath")` |  |   
 ---|---|---  
@@ -280,12 +280,12 @@ A) Additional overloads are provided for all integer types, which are treated as
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/log2&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 num  |  \-  |  floating-point or integer value   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/log2&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 If no errors occur, the base-2 logarithm of num (log2(num) or lb(num)) is returned. 
 
@@ -293,7 +293,7 @@ If a domain error occurs, an implementation-defined value is returned (NaN where
 
 If a pole error occurs, [-HUGE_VAL](HUGE_VALL.html "cpp/numeric/math/HUGE VAL"), `-HUGE_VALF`, or `-HUGE_VALL` is returned. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/log2&action=edit&section=3 "Edit section: Error handling")] Error handling
+### Error handling
 
 Errors are reported as specified in [math_errhandling](math_errhandling.html "cpp/numeric/math/math errhandling"). 
 
@@ -311,13 +311,13 @@ If the implementation supports IEEE floating-point arithmetic (IEC 60559),
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/log2&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 For integer num, the binary logarithm can be interpreted as the zero-based index of the most significant 1 bit in the input. 
 
 The additional overloads are not required to be provided exactly as (A). They only need to be sufficient to ensure that for their argument num of integer type, std::log2(num) has the same effect as std::log2(static_cast<double>(num)). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/log2&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -367,15 +367,15 @@ Possible output:
         errno == ERANGE: Numerical result out of range
         FE_DIVBYZERO raised
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/log2&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ loglogflogl](log.html "cpp/numeric/math/log")(C++11)(C++11) |  computes natural (base e) logarithm (\\({\small\ln{x}}\\)ln(x))   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_log&action=edit)  
+(function)   
 ---|---  
 [ log10log10flog10l](log10.html "cpp/numeric/math/log10")(C++11)(C++11) |  computes common (base 10) logarithm (\\({\small\log_{10}{x}}\\)log10(x))   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_log10&action=edit)  
+(function)   
 [ log1plog1pflog1pl](log1p.html "cpp/numeric/math/log1p")(C++11)(C++11)(C++11) |  natural logarithm (to base e) of 1 plus the given number (\\({\small\ln{(1+x)}}\\)ln(1+x))   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_log1p&action=edit)  
+(function)   
 [ exp2exp2fexp2l](exp2.html "cpp/numeric/math/exp2")(C++11)(C++11)(C++11) |  returns 2 raised to the given power (\\({\small 2^x}\\)2x)   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_exp2&action=edit)  
+(function)   
 [C documentation](../../../c/numeric/math/log2.html "c/numeric/math/log2") for log2

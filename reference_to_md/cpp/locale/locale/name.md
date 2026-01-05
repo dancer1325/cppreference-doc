@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Localization library](../../locale.html "cpp/locale")
 
@@ -152,7 +152,7 @@ base classes](../../locale.html#Facet_category_base_classes "cpp/locale")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/navbar_content&action=edit)
+
 
 [`std::locale`](../locale.html "cpp/locale/locale")
 
@@ -173,7 +173,7 @@ Static member functions
 [locale::global](global.html "cpp/locale/locale/global")  
 [locale::classic](classic.html "cpp/locale/locale/classic")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/locale/navbar_content&action=edit)
+
 
 Defined in header `[<locale>](../../header/locale.html "cpp/header/locale")` |  |   
 ---|---|---  
@@ -182,11 +182,11 @@ Defined in header `[<locale>](../../header/locale.html "cpp/header/locale")` |  
   
 Returns the name of the locale, which is the name by which it is known to the operating system, such as "POSIX" or "en_US.UTF8" or "English_United States.1252". If the locale is not a copy of a system-supplied locale, the string "*" is returned. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/locale/name&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 The name of the locale or "*" if unnamed. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/locale/name&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -210,8 +210,8 @@ Possible output:
     The user's locale is en_US.UTF8
     A nameless locale is *
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/locale/name&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ (constructor)](locale.html "cpp/locale/locale/locale") |  constructs a new locale   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/locale/dsc_locale&action=edit)  
+(public member function)   
 ---|---

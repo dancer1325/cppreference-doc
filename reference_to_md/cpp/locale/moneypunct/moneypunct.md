@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Localization library](../../locale.html "cpp/locale")
 
@@ -152,7 +152,7 @@ base classes](../../locale.html#Facet_category_base_classes "cpp/locale")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/navbar_content&action=edit)
+
 
 [`std::moneypunct`](../moneypunct.html "cpp/locale/moneypunct")
 
@@ -168,7 +168,7 @@ Member functions
 [moneypunct::positive_signmoneypunct::do_positive_signmoneypunct::negative_signmoneypunct::do_negative_sign](positive_sign.html "cpp/locale/moneypunct/positive sign")  
 [moneypunct::pos_formatmoneypunct::do_pos_formatmoneypunct::neg_formatmoneypunct::do_neg_format](pos_format.html "cpp/locale/moneypunct/pos format")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/moneypunct/navbar_content&action=edit)
+
 
 Defined in header `[<locale>](../../header/locale.html "cpp/header/locale")` |  |   
 ---|---|---  
@@ -177,7 +177,7 @@ explicit moneypunct( [std::size_t](../../types/size_t.html) refs = 0 ); |  |
   
 Creates a [std::moneypunct](../moneypunct.html) facet and forwards the starting reference count refs to the base class constructor, [`locale::facet::facet()`](../locale/facet/facet.html "cpp/locale/locale/facet/facet"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/facet/constructor&action=edit&section=T-1 "Template:cpp/locale/facet/constructor")] Parameters
+### Parameters
 
 refs  |  \-  |  starting reference count   
 ---|---|---

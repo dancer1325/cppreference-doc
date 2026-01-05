@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 **`std::ranges::basic_istream_view`**
 
@@ -240,7 +240,7 @@ std::from_range](from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
 [basic_istream_view::_iterator_ ::operator*](basic_istream_view/iterator.html#dereference "cpp/ranges/basic istream view/iterator")  
 [operator==(basic_istream_view::_iterator_)](basic_istream_view/iterator.html#Non-member_functions "cpp/ranges/basic istream view/iterator")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/basic_istream_view/navbar_content&action=edit)
+
 
 Defined in header `[<ranges>](../header/ranges.html "cpp/header/ranges")` |  |   
 ---|---|---  
@@ -301,7 +301,7 @@ The iterator type of `basic_istream_view` is move-only: it does not meet the [Le
 
 The name `views::istream<T>` denotes a _customization point object_ , which is a const [function object](../named_req/FunctionObject.html "cpp/named req/FunctionObject") of a [literal](../named_req/LiteralType.html "cpp/named req/LiteralType") [`semiregular`](../concepts/semiregular.html "cpp/concepts/semiregular") class type. See [CustomizationPointObject](../named_req/CustomizationPointObject.html "cpp/named req/CustomizationPointObject") for details. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/basic_istream_view&action=edit&section=1 "Edit section: Data members")] Data members
+### Data members
 
 Member  |  Definition   
 ---|---  
@@ -310,7 +310,7 @@ Member  |  Definition
 `Val` `_value__` |  the stored value  
 (exposition-only member object*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/basic_istream_view&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](basic_istream_view.html#ctor "cpp/ranges/basic istream view") |  constructs a `basic_istream_view`   
 (public member function)  
@@ -323,9 +323,9 @@ Member  |  Definition
 #####  Inherited from [std::ranges::view_interface](view_interface.html "cpp/ranges/view interface")  
   
 [ cbegin](view_interface/cbegin.html "cpp/ranges/view interface/cbegin")(C++23) |  returns a constant iterator to the beginning of the range   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_cbegin&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ cend](view_interface/cend.html "cpp/ranges/view interface/cend")(C++23) |  returns a sentinel for the constant iterator of the range   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_cend&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 Although [`basic_istream_view`](basic_istream_view.html#top) is derived from [std::ranges::view_interface](view_interface.html "cpp/ranges/view interface"), it cannot use any of inherited member functions.  | (until C++23)  
 ---|---  
   
@@ -354,13 +354,13 @@ constexpr [std::default_sentinel_t](../iterator/default_sentinel.html) end() con
   
 Returns [std::default_sentinel](../iterator/default_sentinel.html). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/basic_istream_view&action=edit&section=3 "Edit section: Nested classes")] Nested classes
+### Nested classes
 
 [_iterator_](basic_istream_view/iterator.html "cpp/ranges/basic istream view/iterator") |  the iterator type of `basic_istream_view`  
 (exposition-only member class*)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/basic_istream_view&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -395,7 +395,7 @@ Output:
     /today/ /is/ /yesterday’s/ /tomorrow/
     1.1, 2.2, 3.3, 4.4, 55, 66, 7.7, 8.8,
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/basic_istream_view&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -409,8 +409,8 @@ the requirement
 and did not follow the naming convention  | made an alias template;  
 customization point objects added   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/basic_istream_view&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ istream_iterator](../iterator/istream_iterator.html "cpp/iterator/istream iterator") |  input iterator that reads from [std::basic_istream](../io/basic_istream.html "cpp/io/basic istream")   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_istream_iterator&action=edit)  
+(class template)   
 ---|---

@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 `[std::stack](../stack.html "cpp/container/stack")`
 
@@ -101,7 +101,7 @@ Tables
 [formatter<std::stack>](formatter.html "cpp/container/stack/formatter")(C++23)  
 **Deduction guides**(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/stack/navbar_content&action=edit)
+
 
 Defined in header `[<stack>](../../header/stack.html "cpp/header/stack")` |  |   
 ---|---|---  
@@ -152,14 +152,14 @@ These overloads participate in overload resolution only if
 
 Note: the extent to which the library determines that a type does not satisfy [LegacyInputIterator](../../named_req/InputIterator.html "cpp/named req/InputIterator") is unspecified, except that as a minimum integral types do not qualify as input iterators. Likewise, the extent to which it determines that a type does not satisfy [Allocator](../../named_req/Allocator.html "cpp/named req/Allocator") is unspecified, except that as a minimum the member type `Alloc::value_type` must exist and the expression [std::declval](../../utility/declval.html)<Alloc&>().allocate([std::size_t](../../types/size_t.html){}) must be well-formed when treated as an unevaluated operand. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/ad_deduction_guides&action=edit&section=T-1 "Template:cpp/container/ad deduction guides")] Notes
+### Notes
 
 [Feature-test](../../utility/feature_test.html "cpp/utility/feature test") macro  | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_adaptor_iterator_pair_constructor`](../../experimental/feature_test.html#cpp_lib_adaptor_iterator_pair_constructor "cpp/feature test") | [`202106L`](../../compiler_support/23.html#cpp_lib_adaptor_iterator_pair_constructor_202106L "cpp/compiler support/23") | (C++23) | Iterator pair constructors for [std::queue](../queue.html "cpp/container/queue") and [std::stack](../stack.html "cpp/container/stack"); overloads (2) and (4)  
 [`__cpp_lib_containers_ranges`](../../experimental/feature_test.html#cpp_lib_containers_ranges "cpp/feature test") | [`202202L`](../../compiler_support/23.html#cpp_lib_containers_ranges_202202L "cpp/compiler support/23") | (C++23) | [Ranges-aware](../../ranges/to.html#container_compatible_range "cpp/ranges/to") construction and insertion; overloads (5) and (6)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/ad_deduction_guides&action=edit&section=T-2 "Template:cpp/container/ad deduction guides")] Example
+### Example
 
 Run this code
     

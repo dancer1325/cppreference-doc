@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Execution control library](../experimental/execution.html "cpp/execution")
 
@@ -155,7 +155,7 @@ schedule_result_t](schedule.html "cpp/execution/schedule")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/execution/navbar_content&action=edit)
+
 
 ![](https://upload.cppreference.com/mwiki/images/3/31/Imbox_notice.png) |  **Note** This utility is planned to be dropped from P2300 and replaced by `async_scope`.   
 ---|---  
@@ -164,16 +164,16 @@ Defined in header `[<execution>](../header/execution.html "cpp/header/execution"
 execution::sender auto ensure_started( execution::sender auto sender ); |  |  (since C++26)  
 | |   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/execution/ensure_started&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 sender  |  \-  |  input sender of which the stopped channel is mapped into `err`  
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/execution/ensure_started&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Returns a sender which completes when the provided sender completes and sends values equivalent to those of the provided sender. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/execution/ensure_started&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
   * Once `ensure_started` returns, it is known that the provided sender has been connected and start has been called on the resulting operation state. In other words, the work described by the provided sender has been submitted for execution on the appropriate execution resources. 
 

@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::vector`](../vector.html "cpp/container/vector")
 
@@ -135,7 +135,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/vector/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/vector/navbar_content&action=edit)
+
 
 template< [container-compatible-range](../../ranges/to.html)<T> R >  
 constexpr iterator insert_range( const_iterator pos, R&& rg ); |  | (since C++23)  
@@ -162,7 +162,7 @@ If rg overlaps with *this, the behavior is undefined.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/insert_range&action=edit&section=T-1 "Template:cpp/container/insert range")] Parameters
+### Parameters
 
 pos  |  \-  |  iterator before which the content will be inserted (pos may be the [`end()`](end.html "cpp/container/vector/end") iterator)   
 ---|---|---  
@@ -178,7 +178,7 @@ Type requirements
 
   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/insert_range&action=edit&section=T-2 "Template:cpp/container/insert range")] Return value
+### Return value
 
 An iterator to the first element inserted into *this, or pos if rg is empty. 
 
@@ -198,7 +198,7 @@ If one of the following conditions is satisfied, performs at most one reallocati
 ---|---|---|---  
 [`__cpp_lib_containers_ranges`](../../experimental/feature_test.html#cpp_lib_containers_ranges "cpp/feature test") | [`202202L`](../../compiler_support/23.html#cpp_lib_containers_ranges_202202L "cpp/compiler support/23") | (C++23) | [Ranges-aware](../../ranges/to.html#container_compatible_range "cpp/ranges/to") construction and insertion   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/insert_range&action=edit&section=T-6 "Template:cpp/container/insert range")] Example
+### Example
 
 Run this code
     
@@ -224,7 +224,7 @@ Run this code
         [assert](../../error/assert.html)(std::[ranges::equal](../../algorithm/ranges/equal.html)(container, [std::vector](../vector.html){1, 2, -1, -2, -3, 3, 4}));
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/insert_range&action=edit&section=T-7 "Template:cpp/container/insert range")] See also
+### See also
 
 [ insert](insert.html "cpp/container/vector/insert") |  inserts elements   
 (public member function)  

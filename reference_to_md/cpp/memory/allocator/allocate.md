@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::allocator`](../allocator.html "cpp/memory/allocator")
 
@@ -202,7 +202,7 @@ Member functions
 Non-member functions  
 [operator==operator!=](operator_cmp.html "cpp/memory/allocator/operator cmp")(until C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/allocator/navbar_content&action=edit)
+
 
 | (1) |   
 ---|---|---  
@@ -237,30 +237,30 @@ In order to use this function in a constant expression, the allocated storage mu
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/allocator/allocate&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 n  |  \-  |  the number of objects to allocate storage for   
 ---|---|---  
 hint  |  \-  |  pointer to a nearby memory location   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/allocator/allocate&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Pointer to the first element of an array of n objects of type `T` whose elements have not been constructed yet. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/allocator/allocate&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Throws [std::bad_array_new_length](../new/bad_array_new_length.html "cpp/memory/new/bad array new length") if [std::numeric_limits](../../types/numeric_limits.html)<[std::size_t](../../types/size_t.html)>::max() / sizeof(T) < n.  | (since C++11)  
 ---|---  
   
 Throws [std::bad_alloc](../new/bad_alloc.html "cpp/memory/new/bad alloc") if allocation fails. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/allocator/allocate&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 The "unspecified when and how" wording makes it possible to [combine or optimize away heap allocations](../../language/new.html#Allocation "cpp/language/new") made by the standard library containers, even though such optimizations are disallowed for direct calls to `::operator new`. For example, this is implemented by libc++ ([[1]](https://github.com/llvm-mirror/libcxx/blob/master@%7B2017-02-09%7D/include/memory#L1766-L1772) and [[2]](https://github.com/llvm-mirror/libcxx/blob/master@%7B2017-02-09%7D/include/new#L211-L217)). 
 
 After calling `allocate()` and before construction of elements, pointer arithmetic of `T*` is well-defined within the allocated array, but the behavior is undefined if elements are accessed. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/allocator/allocate&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -271,8 +271,8 @@ pointer previously returned from `allocate()`
 and not yet passed to [deallocate()](deallocate.html "cpp/memory/allocator/deallocate") | not required   
 [LWG 3190](https://cplusplus.github.io/LWG/issue3190) | C++11  | `allocate()` might allocate storage of wrong size  | throws [std::bad_array_new_length](../new/bad_array_new_length.html "cpp/memory/new/bad array new length") instead   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/allocator/allocate&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ allocate](../allocator_traits/allocate.html "cpp/memory/allocator traits/allocate")[static] |  allocates uninitialized storage using the allocator   
-(public static member function of `std::allocator_traits<Alloc>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/allocator_traits/dsc_allocate&action=edit)  
+(public static member function of `std::allocator_traits<Alloc>`)   
 ---|---

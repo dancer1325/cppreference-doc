@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::list`](../list.html "cpp/container/list")
 
@@ -135,7 +135,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/list/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/list/navbar_content&action=edit)
+
 
 template< [container-compatible-range](../../ranges/to.html)<T> R >  
 iterator insert_range( const_iterator pos, R&& rg ); |  | (since C++23)   
@@ -162,7 +162,7 @@ If rg overlaps with *this, the behavior is undefined.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/insert_range&action=edit&section=T-1 "Template:cpp/container/insert range")] Parameters
+### Parameters
 
 pos  |  \-  |  iterator before which the content will be inserted (pos may be the [`end()`](end.html "cpp/container/list/end") iterator)   
 ---|---|---  
@@ -170,7 +170,7 @@ rg  |  \-  |  a [container compatible range](../../ranges/to.html#container_comp
 Type requirements   
 -If `T` is not [EmplaceConstructible](../../named_req/EmplaceConstructible.html "cpp/named req/EmplaceConstructible") into `list` from *[ranges::begin](../../ranges/begin.html)(rg), the behavior is undefined.   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/insert_range&action=edit&section=T-2 "Template:cpp/container/insert range")] Return value
+### Return value
 
 An iterator to the first element inserted into *this, or pos if rg is empty. 
 
@@ -183,7 +183,7 @@ An iterator to the first element inserted into *this, or pos if rg is empty.
 ---|---|---|---  
 [`__cpp_lib_containers_ranges`](../../experimental/feature_test.html#cpp_lib_containers_ranges "cpp/feature test") | [`202202L`](../../compiler_support/23.html#cpp_lib_containers_ranges_202202L "cpp/compiler support/23") | (C++23) | [Ranges-aware](../../ranges/to.html#container_compatible_range "cpp/ranges/to") construction and insertion   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/insert_range&action=edit&section=T-6 "Template:cpp/container/insert range")] Example
+### Example
 
 Run this code
     
@@ -209,7 +209,7 @@ Run this code
         [assert](../../error/assert.html)(std::[ranges::equal](../../algorithm/ranges/equal.html)(container, [std::list](../list.html){1, 2, -1, -2, -3, 3, 4}));
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/insert_range&action=edit&section=T-7 "Template:cpp/container/insert range")] See also
+### See also
 
 [ insert](insert.html "cpp/container/list/insert") |  inserts elements   
 (public member function)  

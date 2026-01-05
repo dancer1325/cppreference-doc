@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::shared_ptr`](../shared_ptr.html "cpp/memory/shared ptr")
 
@@ -220,7 +220,7 @@ Helper classes
 [hash<std::shared_ptr>](hash.html "cpp/memory/shared ptr/hash")  
 [Deduction guides](deduction_guides.html "cpp/memory/shared ptr/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/navbar_content&action=edit)
+
 
 element_type& operator[]( [std::ptrdiff_t](../../types/ptrdiff_t.html) idx ) const; |  |  (since C++17)  
 ---|---|---  
@@ -244,24 +244,24 @@ If `T` (the template parameter of `shared_ptr`) is an array type `U[N]`, idx mus
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/operator_at&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 idx  |  \-  |  the array index   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/operator_at&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 A reference to the idx-th element of the array, i.e., get()[idx]. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/operator_at&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Throws nothing. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/operator_at&action=edit&section=4 "Edit section: Remarks")] Remarks
+### Remarks
 
 When `T` is not an array type, it is unspecified whether this function is declared. If the function is declared, it is unspecified what its return type is, except that the declaration (although not necessarily the definition) of the function is guaranteed to be legal. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/operator_at&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -284,8 +284,8 @@ Output:
     
     0 1 2 3 4 5 6 7 8 9
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/operator_at&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ get](get.html "cpp/memory/shared ptr/get") |  returns the stored pointer   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/dsc_get&action=edit)  
+(public member function)   
 ---|---

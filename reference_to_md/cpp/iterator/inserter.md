@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](empty.html "cpp/iterator/empty")(C++17)  
 [data](data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 Defined in header `[<iterator>](../header/iterator.html "cpp/header/iterator")` |  |   
 ---|---|---  
@@ -220,17 +220,17 @@ inserter( Container& c, [ranges::iterator_t](../ranges/iterator_t.html)<Containe
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/inserter&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 c  |  \-  |  container that supports an `insert` operation   
 ---|---|---  
 i  |  \-  |  iterator in c indicating the insertion position   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/inserter&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 A [std::insert_iterator](insert_iterator.html "cpp/iterator/insert iterator") which can be used to insert elements into the container c at the position indicated by i. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/inserter&action=edit&section=3 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     template<class Container>
@@ -241,7 +241,7 @@ A [std::insert_iterator](insert_iterator.html "cpp/iterator/insert iterator") wh
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/inserter&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -281,7 +281,7 @@ Output:
     1 2 2 2 2 2 2 3 
     1 100 200 300 2 3 4 5
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/inserter&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -289,12 +289,12 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 561](https://cplusplus.github.io/LWG/issue561) | C++98  | the type of i was independent of `Container` | it is the iterator type of `Container`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/inserter&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ insert_iterator](insert_iterator.html "cpp/iterator/insert iterator") |  iterator adaptor for insertion into a container   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_insert_iterator&action=edit)  
+(class template)   
 ---|---  
 [ back_inserter](back_inserter.html "cpp/iterator/back inserter") |  creates a [std::back_insert_iterator](back_insert_iterator.html "cpp/iterator/back insert iterator") of type inferred from the argument   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_back_inserter&action=edit)  
+(function template)   
 [ front_inserter](front_inserter.html "cpp/iterator/front inserter") |  creates a [std::front_insert_iterator](front_insert_iterator.html "cpp/iterator/front insert iterator") of type inferred from the argument   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_front_inserter&action=edit)
+(function template) 

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 Defined in header `[<new>](../header/new.html "cpp/header/new")` |  |   
 ---|---|---  
@@ -212,7 +212,7 @@ hardware_constructive_interference_size = /*implementation-defined*/; |  (2)  | 
      
     static_assert(sizeof(together) <= std::hardware_constructive_interference_size);
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/hardware_destructive_interference_size&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 These constants provide a portable way to access the L1 data cache line size. 
 
@@ -221,7 +221,7 @@ These constants provide a portable way to access the L1 data cache line size.
 [`__cpp_lib_hardware_interference_size`](../experimental/feature_test.html#cpp_lib_hardware_interference_size "cpp/feature test") | [`201703L`](../compiler_support/17.html#cpp_lib_hardware_interference_size_201703L "cpp/compiler support/17") | (C++17) | constexpr std::hardware_constructive_interference_size and  
 constexpr std::hardware_destructive_interference_size  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/hardware_destructive_interference_size&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 The program uses two threads that atomically write to the data members of the given global objects. The first object fits in one cache line, which results in "hardware interference". The second object keeps its data members on separate cache lines, so possible "cache synchronization" after thread writes is avoided.
 
@@ -386,12 +386,12 @@ Possible output:
      
     Ratio T1/T2:~ 6.16
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/hardware_destructive_interference_size&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ hardware_concurrency](thread/hardware_concurrency.html "cpp/thread/thread/hardware concurrency")[static] |  returns the number of concurrent threads supported by the implementation   
-(public static member function of `std::thread`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/dsc_hardware_concurrency&action=edit)  
+(public static member function of `std::thread`)   
 ---|---  
 [ hardware_concurrency](jthread/hardware_concurrency.html "cpp/thread/jthread/hardware concurrency")[static] |  returns the number of concurrent threads supported by the implementation   
-(public static member function of `std::jthread`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/dsc_hardware_concurrency&action=edit)
+(public static member function of `std::jthread`) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

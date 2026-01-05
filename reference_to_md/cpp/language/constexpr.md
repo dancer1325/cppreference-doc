@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [Declarations](declarations.html "cpp/language/declarations")
 
@@ -280,7 +280,7 @@ Other declarations
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/declarations/navbar_content&action=edit)
+
 
     
 
@@ -304,7 +304,7 @@ Other declarations
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/constexpr&action=edit&section=1 "Edit section: Explanation")] Explanation
+### Explanation
 
 The constexpr specifier declares that it is possible to evaluate the value of the entities at compile time. Such entities can then be used where only compile time [constant expressions](constant_expression.html "cpp/language/constant expression") are allowed (provided that appropriate function arguments are given). 
 
@@ -312,7 +312,7 @@ A constexpr specifier used in an object declaration or non-static member functio
 
 A constexpr specifier used in the first declaration of a function or [static](static.html "cpp/language/static") data member(since C++17) implies inline. If any declaration of a function or function template has a constexpr specifier, then every declaration must contain that specifier. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/constexpr&action=edit&section=2 "Edit section: constexpr variable")] constexpr variable
+### constexpr variable
 
 A variable or variable template(since C++14) can be declared constexpr if all following conditions are satisfied: 
 
@@ -344,7 +344,7 @@ A variable or variable template(since C++14) can be declared constexpr if all fo
 If a constexpr variable is not [translation-unit-local](tu_local.html "cpp/language/tu local"), it should not be initialized to refer to a translation-unit-local entity that is usable in constant expressions, nor have a subobject that refers to such an entity. Such initialization is disallowed in a [module interface unit](modules.html "cpp/language/modules") (outside its [private module fragment](modules.html#Private_module_fragment "cpp/language/modules"), if any) or a module partition, and is deprecated in any other context.  | (since C++20)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/constexpr&action=edit&section=3 "Edit section: constexpr function")] constexpr function
+### constexpr function
 
 A function or function template can be declared constexpr. 
 
@@ -428,7 +428,7 @@ An invocation of a constexpr function in a given context produces the same resul
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/constexpr&action=edit&section=4 "Edit section: constexpr constructor")] constexpr constructor
+### constexpr constructor
 
 On top of the requirements of constexpr functions, a constructor also needs to satisfy all following conditions to be constexpr-suitable: 
 
@@ -459,7 +459,7 @@ On top of the requirements of constexpr functions, a constructor also needs to s
 For a constexpr constructor that is neither defaulted nor templated, if no argument values exist such that an invocation of the function could be an evaluated subexpression of the initialization full-expression of some object subject to [constant expression](constant_expression.html "cpp/language/constant expression"), the program is ill-formed, no diagnostic required.  | (until C++23)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/constexpr&action=edit&section=5 "Edit section: constexpr destructor")] constexpr destructor
+### constexpr destructor
 
 Destructors cannot be constexpr, but a [trivial destructor](destructor.html#Trivial_destructor "cpp/language/destructor") can be implicitly called in constant expressions.  | (until C++20)  
 ---|---  
@@ -474,7 +474,7 @@ On top of the requirements of constexpr functions, a destructor also needs to sa
 
 (since C++20)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/constexpr&action=edit&section=6 "Edit section: Notes")] Notes
+### Notes
 
 Because the [`noexcept`](noexcept.html "cpp/language/noexcept") operator always returns true for a constant expression, it can be used to check if a particular invocation of a constexpr function takes the constant expression branch: 
     
@@ -528,11 +528,11 @@ Feature-test macro  | Value | Std | Feature
 (DR) | Generation of function and variable definitions when [needed for constant evaluation](constant_expression.html#Functions_and_variables_needed_for_constant_evaluation "cpp/language/constant expression")  
 [`__cpp_constexpr_dynamic_alloc`](../experimental/feature_test.html#cpp_constexpr_dynamic_alloc "cpp/feature test") | [`201907L`](../compiler_support/20.html#cpp_constexpr_dynamic_alloc_201907L "cpp/compiler support/20") | (C++20) | Operations for dynamic storage duration in constexpr functions   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/constexpr&action=edit&section=7 "Edit section: Keywords")] Keywords
+### Keywords
 
 [`constexpr`](../keyword/constexpr.html "cpp/keyword/constexpr")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/constexpr&action=edit&section=8 "Edit section: Example")] Example
+### Example
 
 Defines C++11/14 constexpr functions that compute factorials; defines a literal type that extends string literals:
 
@@ -623,7 +623,7 @@ Output:
     The number of lowercase letters in "Hello, world!" is 9
     Array of length 12 has elements: 0 1 2 3 4 5 6 7 8 0 0 0
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/constexpr&action=edit&section=9 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -665,12 +665,12 @@ not become inline
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/constexpr&action=edit&section=10 "Edit section: See also")] See also
+### See also
 
 [constant expression](constant_expression.html "cpp/language/constant expression") |  defines an [expression](expressions.html "cpp/language/expressions") that can be evaluated at compile time   
 ---|---  
-[ `consteval` specifier](consteval.html "cpp/language/consteval")(C++20) |  specifies that a function is an _immediate function_ , that is, every call to the function must be in a constant evaluation[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_consteval&action=edit)  
-[ `constinit` specifier](constinit.html "cpp/language/constinit")(C++20) |  asserts that a variable has static initialization, i.e. [zero initialization](zero_initialization.html "cpp/language/zero initialization") and [constant initialization](constant_initialization.html "cpp/language/constant initialization")[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_constinit&action=edit)  
+[ `consteval` specifier](consteval.html "cpp/language/consteval")(C++20) |  specifies that a function is an _immediate function_ , that is, every call to the function must be in a constant evaluation  
+[ `constinit` specifier](constinit.html "cpp/language/constinit")(C++20) |  asserts that a variable has static initialization, i.e. [zero initialization](zero_initialization.html "cpp/language/zero initialization") and [constant initialization](constant_initialization.html "cpp/language/constant initialization")  
 [C documentation](../../c/language/constexpr.html "c/language/constexpr") for constexpr
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

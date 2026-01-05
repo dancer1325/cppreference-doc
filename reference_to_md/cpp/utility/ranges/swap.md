@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 Defined in header `[<concepts>](../../header/concepts.html "cpp/header/concepts")` |  |   
 ---|---|---  
@@ -166,7 +166,7 @@ Exchanges the values referenced by t and u.
 
 The name `ranges::swap` denotes a _customization point object_ , which is a const [function object](../../named_req/FunctionObject.html "cpp/named req/FunctionObject") of a [literal](../../named_req/LiteralType.html "cpp/named req/LiteralType") [`semiregular`](../../concepts/semiregular.html "cpp/concepts/semiregular") class type. See [CustomizationPointObject](../../named_req/CustomizationPointObject.html "cpp/named req/CustomizationPointObject") for details. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/ranges/swap&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -259,10 +259,10 @@ Output:
     g1{ 4 5 6 }, g2{ 1 2 3 }
     h1 = 28, h2 = 27
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/ranges/swap&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ swappableswappable_with](../../concepts/swappable.html "cpp/concepts/swappable")(C++20) |  specifies that a type can be swapped or that two types can be swapped with each other   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_swappable&action=edit)  
+(concept)   
 ---|---  
 [ swap](../swap.html "cpp/algorithm/swap") |  swaps the values of two objects   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_swap&action=edit)
+(function template) 

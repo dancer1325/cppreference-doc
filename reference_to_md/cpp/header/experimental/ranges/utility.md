@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../../../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 [Experimental library headers](../../experimental.html "cpp/header/experimental")
 
@@ -292,7 +292,7 @@ Networking TS
 Reflection TS  
 [`<experimental/reflect>`](../reflect.html "cpp/header/experimental/reflect")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/experimental/navbar_content&action=edit)
+
 
 This header is part of the [ranges](../../../experimental/ranges.html "cpp/experimental/ranges") library. 
 
@@ -306,36 +306,36 @@ This header is part of the [ranges](../../../experimental/ranges.html "cpp/exper
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/ranges/utility&action=edit&section=1 "Edit section: Utility components")] Utility components 
+### Utility components 
 
 Defined in namespace `std::experimental::ranges`  
 ---  
 [ swap](../../../experimental/ranges/utility/swap.html "cpp/experimental/ranges/utility/swap") |  swaps the value of two objects  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/utility/dsc_swap&action=edit)  
+(customization point object)  
 [ exchange](../../../experimental/ranges/utility/exchange.html "cpp/experimental/ranges/utility/exchange") |  replaces the argument with a new value and returns its previous value   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/utility/dsc_exchange&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/ranges/utility&action=edit&section=2 "Edit section: Tag concepts")] Tag concepts 
+### Tag concepts 
 
 Defined in namespace `std::experimental::ranges`  
 ---  
 [ TagSpecifier](../../../experimental/ranges/utility/TagSpecifier.html "cpp/experimental/ranges/utility/TagSpecifier") |  specifies that a type is a tag specifier   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/utility/dsc_TagSpecifier&action=edit)  
+(concept)   
 [ TaggedType](../../../experimental/ranges/utility/TaggedType.html "cpp/experimental/ranges/utility/TaggedType") |  specifies that a type represents a tag specifier and its element type   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/utility/dsc_TaggedType&action=edit)  
+(concept)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/ranges/utility&action=edit&section=3 "Edit section: Tagged pairs")] Tagged pairs 
+### Tagged pairs 
 
 Defined in namespace `std::experimental::ranges`  
 ---  
 [ tagged](../../../experimental/ranges/utility/tagged.html "cpp/experimental/ranges/utility/tagged") |  augument a tuple-like type with named accessors   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/utility/dsc_tagged&action=edit)  
+(class template)   
 [ tagged_pair](../../../experimental/ranges/utility/tagged_pair.html "cpp/experimental/ranges/utility/tagged pair") |  alias template for a tagged [std::pair](../../../utility/pair.html "cpp/utility/pair")  
-(alias template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/utility/dsc_tagged_pair&action=edit)  
+(alias template)  
 [ make_tagged_pair](../../../experimental/ranges/utility/make_tagged_pair.html "cpp/experimental/ranges/utility/make tagged pair") |  convenience function for creating a `tagged_pair`   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/utility/dsc_make_tagged_pair&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/ranges/utility&action=edit&section=4 "Edit section: Synopsis")] Synopsis 
+### Synopsis 
     
     
     namespace std { namespace experimental { namespace ranges { inline namespace v1 {

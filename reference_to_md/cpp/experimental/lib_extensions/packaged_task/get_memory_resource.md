@@ -32,7 +32,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../../experimental.html "cpp/experimental")
 
@@ -57,7 +57,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Library fundamentals](../../memory.html "cpp/experimental/lib extensions")
 
@@ -77,7 +77,7 @@
 [Type-erased and polymorphic allocators](../../memory.html "cpp/experimental/memory")  
 [Variable templates for type traits](../../type_trait_variable_templates.html "cpp/experimental/type trait variable templates")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions/navbar_content&action=edit)
+
 
 [Polymorphic allocator library](../../memory.html "cpp/experimental/memory")
 
@@ -100,7 +100,7 @@ Type-erased allocator support for existing classes
 [packaged_task](../packaged_task.html "cpp/experimental/lib extensions/packaged task")  
 [promise](../promise.html "cpp/experimental/lib extensions/promise")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions/pmr/navbar_content&action=edit)
+
 
 [std::experimental::pmr::memory_resource](../../memory_resource.html)* get_memory_resource() const noexcept; |  |  (library fundamentals TS)  
 ---|---|---  
@@ -108,16 +108,16 @@ Type-erased allocator support for existing classes
   
 Returns a pointer to the memory resource used by this object to allocate memory. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/get_memory_resource&action=edit&section=T-1 "Template:cpp/experimental/get memory resource")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/get_memory_resource&action=edit&section=T-2 "Template:cpp/experimental/get memory resource")] Return value
+### Return value
 
 A pointer to the memory resource used by this object to allocate memory. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/get_memory_resource&action=edit&section=T-3 "Template:cpp/experimental/get memory resource")] See also 
+### See also 
 
 [ (constructor)](packaged_task.html "cpp/experimental/lib extensions/packaged task/packaged task") |  constructs the task object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions/packaged_task/dsc_constructor&action=edit)  
+(public member function)   
 ---|---

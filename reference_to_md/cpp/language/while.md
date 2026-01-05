@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Statements](statements.html "cpp/language/statements")
 
@@ -253,7 +253,7 @@ Miscellaneous
 [Transactional memory](transactional_memory.html "cpp/language/transactional memory")  
 [`synchronized`](transactional_memory.html#Synchronized_blocks "cpp/language/transactional memory"), [`atomic_commit`](transactional_memory.html#Atomic_blocks "cpp/language/transactional memory"), etc (TM TS)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/statements/navbar_content&action=edit)
+
 
 Conditionally executes a statement repeatedly. 
 
@@ -274,7 +274,7 @@ Conditionally executes a statement repeatedly.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/while&action=edit&section=1 "Edit section: Syntax")] Syntax  
+### Syntax  
   
 ---  
 attr ﻿(optional) `**while (**` condition `**)**` statement |  |   
@@ -283,7 +283,7 @@ attr |  \-  |  (since C++11) any number of [attributes](attributes.html "cpp/lan
 condition |  \-  |  a [condition](while.html#Condition)  
 statement |  \-  |  a [statement](statements.html "cpp/language/statements") (typically a compound statement)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/condition&action=edit&section=T-1 "Template:cpp/language/condition")] Condition
+### Condition
 
 A condition can either be an [expression](expressions.html "cpp/language/expressions") or a [simple declaration](declarations.html#Simple_declaration "cpp/language/declarations"). 
 
@@ -298,15 +298,15 @@ A condition can either be an [expression](expressions.html "cpp/language/express
 
 When control reaches condition, the condition will yield a value, which is used to determine whether statement will be executed. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/condition&action=edit&section=T-2 "Template:cpp/language/condition")] Expression
+#### Expression
 
 If condition is an expression, the value it yields is the the value of the expression contextually converted to bool. If that conversion is ill-formed, the program is ill-formed. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/condition&action=edit&section=T-3 "Template:cpp/language/condition")] Declaration
+#### Declaration
 
 If condition is a simple declaration, the value it yields is the value of the decision variable (see below) contextually converted to bool. If that conversion is ill-formed, the program is ill-formed. 
 
-##### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/condition&action=edit&section=T-4 "Template:cpp/language/condition")] Non-structured binding declaration
+##### Non-structured binding declaration
 
 The declaration has the following restrictions: 
 
@@ -346,7 +346,7 @@ The declaration has the following restrictions:
 The decision variable of the declaration is the invented variable e [introduced by the declaration](structured_binding.html "cpp/language/structured binding").  | (since C++26)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/while&action=edit&section=2 "Edit section: Explanation")] Explanation
+### Explanation
 
 A while statement is equivalent to   
   
@@ -374,7 +374,7 @@ If the loop needs to be terminated within statement, a [break statement](break.h
 
 If the current iteration needs to be terminated within statement, a [continue statement](continue.html "cpp/language/continue") can be used as shortcut. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/while&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Regardless of whether statement is a compound statement, it always introduces a [block scope](scope.html "cpp/language/scope"). Variables declared in it are only visible in the loop body, in other words, 
     
@@ -393,11 +393,11 @@ is the same as
 
 As part of the C++ [forward progress guarantee](multithread.html#Progress_guarantee "cpp/language/multithread"), the behavior is [undefined](ub.html "cpp/language/ub") if a loop that is not a [trivial infinite loop](multithread.html#Trivial_infinite_loops "cpp/language/multithread")(since C++26) without [observable behavior](as_if.html "cpp/language/as if") does not terminate. Compilers are permitted to remove such loops. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/while&action=edit&section=4 "Edit section: Keywords")] Keywords
+### Keywords
 
 [`while`](../keyword/while.html "cpp/keyword/while")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/while&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -436,7 +436,7 @@ Output:
     2 4 6 8
     Hello
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/while&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [C documentation](../../c/language/while.html "c/language/while") for while  
 ---

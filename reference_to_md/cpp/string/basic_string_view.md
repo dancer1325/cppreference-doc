@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Strings library](../string.html "cpp/string")
 
@@ -40,7 +40,7 @@ Classes
 **basic_string_view**(C++17)  
 [char_traits](char_traits.html "cpp/string/char traits")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/navbar_content&action=edit)
+
 
 **`std::basic_string_view`**
 
@@ -92,7 +92,7 @@ Constants
 [hash<std::string_view>hash<std::wstring_view>hash<std::u8string_view>hash<std::u16string_view>hash<std::u32string_view>](basic_string_view/hash.html "cpp/string/basic string view/hash")(C++20)  
 [Deduction guides](basic_string_view/deduction_guides.html "cpp/string/basic string view/deduction guides") (C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/navbar_content&action=edit)
+
 
 Defined in header `[<string_view>](../header/string_view.html "cpp/header/string view")` |  |   
 ---|---|---  
@@ -147,13 +147,13 @@ Type  |  Definition
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string_view&action=edit&section=1 "Edit section: Template parameters")] Template parameters
+### Template parameters
 
 CharT  |  \-  |  character type   
 ---|---|---  
 Traits  |  \-  |  [CharTraits](../named_req/CharTraits.html "cpp/named req/CharTraits") class specifying the operations on the character type. Like for [std::basic_string](basic_string.html "cpp/string/basic string"), `Traits::char_type` must name the same type as `CharT` or the program is ill-formed.   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string_view&action=edit&section=2 "Edit section: Nested types")] Nested types
+### Nested types
 
 Type  |  Definition   
 ---|---  
@@ -180,7 +180,7 @@ Note: `iterator` and `const_iterator` are the same type because string views are
 
 All requirements on the iterator types of a [Container](../named_req/Container.html "cpp/named req/Container") applies to the `iterator` and `const_iterator` types of `basic_string_view` as well. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string_view&action=edit&section=3 "Edit section: Data members")] Data members
+### Data members
 
 Member  |  Description   
 ---|---  
@@ -189,115 +189,115 @@ Member  |  Description
 `size_type` `_size__` |  the number of characters  
 (exposition-only member object*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string_view&action=edit&section=4 "Edit section: Member functions")] Member functions
+### Member functions
 
 #####  Constructors and assignment   
   
 ---  
 [ (constructor)](basic_string_view/basic_string_view.html "cpp/string/basic string view/basic string view") |  constructs a `basic_string_view`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/dsc_constructor&action=edit)  
+(public member function)   
 [ operator=](basic_string_view/operator=.html "cpp/string/basic string view/operator=") |  assigns a view   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/dsc_operator%3D&action=edit)  
+(public member function)   
   
 #####  Iterators   
   
 [ begincbegin](basic_string_view/begin.html "cpp/string/basic string view/begin") |  returns an iterator to the beginning   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/dsc_begin&action=edit)  
+(public member function)   
 [ endcend](basic_string_view/end.html "cpp/string/basic string view/end") |  returns an iterator to the end   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/dsc_end&action=edit)  
+(public member function)   
 [ rbegincrbegin](basic_string_view/rbegin.html "cpp/string/basic string view/rbegin") |  returns a reverse iterator to the beginning   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/dsc_rbegin&action=edit)  
+(public member function)   
 [ rendcrend](basic_string_view/rend.html "cpp/string/basic string view/rend") |  returns a reverse iterator to the end   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/dsc_rend&action=edit)  
+(public member function)   
   
 #####  Element access   
   
 [ operator[]](basic_string_view/operator_at.html "cpp/string/basic string view/operator at") |  accesses the specified character   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/dsc_operator_at&action=edit)  
+(public member function)   
 [ at](basic_string_view/at.html "cpp/string/basic string view/at") |  accesses the specified character with bounds checking   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/dsc_at&action=edit)  
+(public member function)   
 [ front](basic_string_view/front.html "cpp/string/basic string view/front") |  accesses the first character   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/dsc_front&action=edit)  
+(public member function)   
 [ back](basic_string_view/back.html "cpp/string/basic string view/back") |  accesses the last character   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/dsc_back&action=edit)  
+(public member function)   
 [ data](basic_string_view/data.html "cpp/string/basic string view/data") |  returns a pointer to the first character of a view   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/dsc_data&action=edit)  
+(public member function)   
   
 #####  Capacity   
   
 [ sizelength](basic_string_view/size.html "cpp/string/basic string view/size") |  returns the number of characters   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/dsc_size&action=edit)  
+(public member function)   
 [ max_size](basic_string_view/max_size.html "cpp/string/basic string view/max size") |  returns the maximum number of characters   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/dsc_max_size&action=edit)  
+(public member function)   
 [ empty](basic_string_view/empty.html "cpp/string/basic string view/empty") |  checks whether the view is empty   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/dsc_empty&action=edit)  
+(public member function)   
   
 #####  Modifiers   
   
 [ remove_prefix](basic_string_view/remove_prefix.html "cpp/string/basic string view/remove prefix") |  shrinks the view by moving its start forward   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/dsc_remove_prefix&action=edit)  
+(public member function)   
 [ remove_suffix](basic_string_view/remove_suffix.html "cpp/string/basic string view/remove suffix") |  shrinks the view by moving its end backward   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/dsc_remove_suffix&action=edit)  
+(public member function)   
 [ swap](basic_string_view/swap.html "cpp/string/basic string view/swap") |  swaps the contents   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/dsc_swap&action=edit)  
+(public member function)   
   
 #####  Operations   
   
 [ copy](basic_string_view/copy.html "cpp/string/basic string view/copy") |  copies characters   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/dsc_copy&action=edit)  
+(public member function)   
 [ substr](basic_string_view/substr.html "cpp/string/basic string view/substr") |  returns a substring   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/dsc_substr&action=edit)  
+(public member function)   
 [ compare](basic_string_view/compare.html "cpp/string/basic string view/compare") |  compares two views   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/dsc_compare&action=edit)  
+(public member function)   
 [ starts_with](basic_string_view/starts_with.html "cpp/string/basic string view/starts with")(C++20) |  checks if the string view starts with the given prefix   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/dsc_starts_with&action=edit)  
+(public member function)   
 [ ends_with](basic_string_view/ends_with.html "cpp/string/basic string view/ends with")(C++20) |  checks if the string view ends with the given suffix   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/dsc_ends_with&action=edit)  
+(public member function)   
 [ contains](basic_string_view/contains.html "cpp/string/basic string view/contains")(C++23) |  checks if the string view contains the given substring or character   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/dsc_contains&action=edit)  
+(public member function)   
 [ find](basic_string_view/find.html "cpp/string/basic string view/find") |  find characters in the view   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/dsc_find&action=edit)  
+(public member function)   
 [ rfind](basic_string_view/rfind.html "cpp/string/basic string view/rfind") |  find the last occurrence of a substring   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/dsc_rfind&action=edit)  
+(public member function)   
 [ find_first_of](basic_string_view/find_first_of.html "cpp/string/basic string view/find first of") |  find first occurrence of characters   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/dsc_find_first_of&action=edit)  
+(public member function)   
 [ find_last_of](basic_string_view/find_last_of.html "cpp/string/basic string view/find last of") |  find last occurrence of characters   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/dsc_find_last_of&action=edit)  
+(public member function)   
 [ find_first_not_of](basic_string_view/find_first_not_of.html "cpp/string/basic string view/find first not of") |  find first absence of characters   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/dsc_find_first_not_of&action=edit)  
+(public member function)   
 [ find_last_not_of](basic_string_view/find_last_not_of.html "cpp/string/basic string view/find last not of") |  find last absence of characters   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/dsc_find_last_not_of&action=edit)  
+(public member function)   
   
 ###  Constants  
   
 [ npos](basic_string_view/npos.html "cpp/string/basic string view/npos")[static] |  special value. The exact meaning depends on the context   
-(public static member constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/dsc_npos&action=edit)  
+(public static member constant)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string_view&action=edit&section=5 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ operator==operator!=operator<operator>operator<=operator>=operator<=>](basic_string_view/operator_cmp.html "cpp/string/basic string view/operator cmp")(C++17)(removed in C++20)(removed in C++20)(removed in C++20)(removed in C++20)(removed in C++20)(C++20) |  lexicographically compares two string views   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/dsc_operator_cmp&action=edit)  
+(function template)   
 ---|---  
   
 #####  Input/output   
   
 [ operator<<](basic_string_view/operator_ltlt.html "cpp/string/basic string view/operator ltlt")(C++17) |  performs stream output on string views   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/dsc_operator_ltlt&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string_view&action=edit&section=6 "Edit section: Literals")] Literals
+### Literals
 
 Defined in inline namespace `[std::literals::string_view_literals](../header/string_view.html#Synopsis "cpp/header/string view")`  
 ---  
 [ operator""sv](basic_string_view/operator""sv.html "cpp/string/basic string view/operator""sv")(C++17) |  creates a string view of a character array literal   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/dsc_operator%22%22sv&action=edit)  
+(function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string_view&action=edit&section=7 "Edit section: Helper classes")] Helper classes
+### Helper classes
 
 [ std::hash<std::string_view>std::hash<std::wstring_view>std::hash<std::u8string_view>std::hash<std::u16string_view>std::hash<std::u32string_view>](basic_string_view/hash.html "cpp/string/basic string view/hash")(C++17)(C++17)(C++20)(C++17)(C++17) |  hash support for string views   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string_view/dsc_hash&action=edit)  
+(class template specialization)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string_view&action=edit&section=8 "Edit section: Helper templates")] Helper templates
+### Helper templates
 
 template< class CharT, class Traits >  
 inline constexpr bool  
@@ -320,7 +320,7 @@ This specialization of [ranges::enable_view](../ranges/view.html "cpp/ranges/vie
 | (since C++20)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string_view&action=edit&section=10 "Edit section: Notes")] Notes
+### Notes
 
 It is the programmer's responsibility to ensure that `std::string_view` does not outlive the pointed-to character array: 
     
@@ -341,7 +341,7 @@ Specializations of `std::basic_string_view` are already trivially copyable types
 [`201803L`](../compiler_support/20.html#cpp_lib_string_view_201803L "cpp/compiler support/20") | (C++20) | [ConstexprIterator](../named_req/ConstexprIterator.html "cpp/named req/ConstexprIterator")  
 [`__cpp_lib_string_contains`](../experimental/feature_test.html#cpp_lib_string_contains "cpp/feature test") | [`202011L`](../compiler_support/23.html#cpp_lib_string_contains_202011L "cpp/compiler support/23") | (C++23) | [`contains`](basic_string_view/contains.html "cpp/string/basic string view/contains")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string_view&action=edit&section=11 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -377,7 +377,7 @@ Output:
     ▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄▀─▄
     ▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀▄─▀
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string_view&action=edit&section=12 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -389,16 +389,16 @@ returned from the member functions of
 to elements of `basic_string_view`  
 may be invalidated   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string_view&action=edit&section=13 "Edit section: See also")] See also
+### See also
 
 [ basic_string](basic_string.html "cpp/string/basic string") |  stores and manipulates sequences of characters   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/dsc_basic_string&action=edit)  
+(class template)   
 ---|---  
 [ operator+](https://en.cppreference.com/w/cpp/string/basic_string/operator%2B "cpp/string/basic string/operator+") |  concatenates two strings, a string and a char, or a string and **string_view**   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_operator%2B&action=edit)  
+(function template)   
 [ span](../container/span.html "cpp/container/span")(C++20) |  a non-owning view over a contiguous sequence of objects   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_span&action=edit)  
+(class template)   
 [ initializer_list](../utility/initializer_list.html "cpp/utility/initializer list")(C++11) |  references a temporary array created in [list-initialization](../language/list_initialization.html "cpp/language/list initialization")   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_initializer_list&action=edit)
+(class template) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

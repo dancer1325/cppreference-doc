@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::inout_ptr_t`](../inout_ptr_t.html "cpp/memory/inout ptr t")
 
@@ -196,7 +196,7 @@ Member functions
 Non-member functions  
 [inout_ptr](inout_ptr.html "cpp/memory/inout ptr t/inout ptr")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/inout_ptr_t/navbar_content&action=edit)
+
 
 ~inout_ptr_t(); |  |  (since C++23)  
 ---|---|---  
@@ -232,13 +232,13 @@ otherwise, if [std::is_constructible_v](../../types/is_constructible.html)<Smart
 
 otherwise, the program is ill-formed. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/inout_ptr_t/%7Einout_ptr_t&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 The implementation may allocate the storage for the data structure needed for `Smart` (e.g. a control block) on construction, in order to leave non-throwing works to the destructor. 
 
 Arguments captured by value are destroyed after resetting. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/inout_ptr_t/%7Einout_ptr_t&action=edit&section=2 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

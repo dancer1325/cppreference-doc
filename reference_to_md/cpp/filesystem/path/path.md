@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Filesystem library](../../filesystem.html "cpp/filesystem")
 
@@ -100,7 +100,7 @@ filesystem::symlink_status](../status.html "cpp/filesystem/status")
 [filesystem::is_socket](../is_socket.html "cpp/filesystem/is socket")  
 [filesystem::is_symlink](../is_symlink.html "cpp/filesystem/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/navbar_content&action=edit)
+
 
 [`std::filesystem::path`](../path.html "cpp/filesystem/path")
 
@@ -169,7 +169,7 @@ filesystem::symlink_status](../status.html "cpp/filesystem/status")
 | [formatter<std::filesystem::path>](formatter.html "cpp/filesystem/path/formatter")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/path/navbar_content&action=edit)
+
 
 path() noexcept; |  (1)  |  (since C++17)  
 ---|---|---  
@@ -239,7 +239,7 @@ Constructs a new `path` object.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/path&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 p  |  \-  |  a path to copy   
 ---|---|---  
@@ -252,17 +252,17 @@ Type requirements
 -The value type of `InputIt` must be one of the character types char, wchar_t, char8_t, (since C++20)char16_t and char32_t to use the overload (6).   
 -The value type of `InputIt` must be char to use the overload (8).   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/path&action=edit&section=2 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 2,4-8) May throw implementation-defined exceptions.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/path&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 For portable pathname generation from Unicode strings, see [`u8path`](u8path.html "cpp/filesystem/path/u8path").  | (until C++20)  
 ---|---  
 `path` constructor supports creation from UTF-8 string when the source is a sequence of char8_t.  | (since C++20)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/path&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -292,7 +292,7 @@ Output:
     p3 = "D:/猫.txt"
     p4 = "~/狗.txt"
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/path&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -300,8 +300,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 3244](https://cplusplus.github.io/LWG/issue3244) | C++17  | constraint that `Source` cannot be `path` was missing  | added   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/path&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ u8path](u8path.html "cpp/filesystem/path/u8path")(C++17)(deprecated in C++20) |  creates a `path` from a UTF-8 encoded source   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/path/dsc_u8path&action=edit)  
+(function)   
 ---|---

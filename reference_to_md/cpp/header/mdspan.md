@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header is part of the [containers](../container.html "cpp/container") library. 
 
@@ -227,44 +227,44 @@ This header is part of the [containers](../container.html "cpp/container") libra
 ###  Classes  
   
 [ mdspan](../container/mdspan.html "cpp/container/mdspan")(C++23) |  a multi-dimensional non-owning array view   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_mdspan&action=edit)  
+(class template)   
 [ extents](../container/mdspan/extents.html "cpp/container/mdspan/extents")(C++23) |  a descriptor of a multidimensional index space of some rank   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/dsc_extents&action=edit)  
+(class template)   
 [ layout_left](../container/mdspan/layout_left.html "cpp/container/mdspan/layout left")(C++23) |  column-major multidimensional array layout mapping policy; leftmost extent has stride `1`   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/dsc_layout_left&action=edit)  
+(class)   
 [ layout_right](../container/mdspan/layout_right.html "cpp/container/mdspan/layout right")(C++23) |  row-major multidimensional array layout mapping policy; rightmost extent has stride `1`   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/dsc_layout_right&action=edit)  
+(class)   
 [ layout_stride](../container/mdspan/layout_stride.html "cpp/container/mdspan/layout stride")(C++23) |  a layout mapping policy with user-defined strides   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/dsc_layout_stride&action=edit)  
+(class)   
 [ layout_left_padded](../container/mdspan/layout_left_padded.html "cpp/container/mdspan/layout left padded")(C++26) |  column-major layout mapping policy with padding stride that can be greater than or equal to the leftmost extent   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/dsc_layout_left_padded&action=edit)  
+(class template)   
 [ layout_right_padded](../container/mdspan/layout_right_padded.html "cpp/container/mdspan/layout right padded")(C++26) |  row-major layout mapping policy with padding stride that can be greater than or equal to the rightmost extent   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/dsc_layout_right_padded&action=edit)  
+(class template)   
 [ default_accessor](../container/mdspan/default_accessor.html "cpp/container/mdspan/default accessor")(C++23) |  a type for indexed access to elements of `mdspan`   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/dsc_default_accessor&action=edit)  
+(class template)   
 [ strided_slice](../container/mdspan/strided_slice.html "cpp/container/mdspan/strided slice")(C++26) |  a slice specifier representing a set of regularly spaced indices as indicated by an offset, an extent, and a stride   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/dsc_strided_slice&action=edit)  
+(class template)   
 [ submdspan_mapping_result](../container/mdspan/submdspan_mapping_result.html "cpp/container/mdspan/submdspan mapping result")(C++26) |  a return type of the overloads of `submdspan_mapping`   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/dsc_submdspan_mapping_result&action=edit)  
+(class template)   
   
 ###  Alias templates  
   
 [ dextentsdims](../container/mdspan/extents.html "cpp/container/mdspan/extents")(C++23)(C++26) |  convenience alias template for an all-dynamic std::extents  
-(alias template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/dsc_dextents&action=edit)  
+(alias template)  
   
 ###  Functions  
   
 [ submdspan_extents](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/submdspan_extents&action=edit&redlink=1 "cpp/container/mdspan/submdspan extents \(page does not exist\)")(C++26) |  creates new extents from the existing extents and slice specifiers   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/dsc_submdspan_extents&action=edit)  
+(function template)   
 [ submdspan](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/submdspan&action=edit&redlink=1 "cpp/container/mdspan/submdspan \(page does not exist\)")(C++26) |  returns a view of a subset of an existing `mdspan`   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/dsc_submdspan&action=edit)  
+(function template)   
   
 ###  Tags  
   
 [ full_extentfull_extent_t](../container/mdspan/full_extent.html "cpp/container/mdspan/full extent")(C++26) |  a slice specifier tag describing full range of indices in the specified extent.  
-(tag)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/dsc_full_extent&action=edit)  
+(tag)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/mdspan&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     // all freestanding
@@ -334,7 +334,7 @@ This header is part of the [containers](../container.html "cpp/container") libra
         convertible_to<tuple_element_t<1, T>, IndexType>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/mdspan&action=edit&section=T-1 "Template:cpp/synopsis/mdspan")] Class template std::mdspan
+#### Class template std::mdspan
     
     
     namespace std {
@@ -481,7 +481,7 @@ This header is part of the [containers](../container.html "cpp/container") libra
                                             AccessorType>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/mdspan&action=edit&section=T-2 "Template:cpp/synopsis/mdspan")] Class template std::extents
+#### Class template std::extents
     
     
     namespace std {
@@ -539,7 +539,7 @@ This header is part of the [containers](../container.html "cpp/container") libra
       explicit extents(Integrals...)->/* see description */;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/mdspan&action=edit&section=T-3 "Template:cpp/synopsis/mdspan")] Layout mapping policies
+#### Layout mapping policies
     
     
     namespace std {
@@ -573,7 +573,7 @@ This header is part of the [containers](../container.html "cpp/container") libra
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/mdspan&action=edit&section=T-4 "Template:cpp/synopsis/mdspan")] Class template std::layout_left::mapping
+#### Class template std::layout_left::mapping
     
     
     namespace std {
@@ -645,7 +645,7 @@ This header is part of the [containers](../container.html "cpp/container") libra
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/mdspan&action=edit&section=T-5 "Template:cpp/synopsis/mdspan")] Class template std::layout_right::mapping
+#### Class template std::layout_right::mapping
     
     
     namespace std {
@@ -717,7 +717,7 @@ This header is part of the [containers](../container.html "cpp/container") libra
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/mdspan&action=edit&section=T-6 "Template:cpp/synopsis/mdspan")] Class template std::layout_stride::mapping
+#### Class template std::layout_stride::mapping
     
     
     namespace std {
@@ -792,7 +792,7 @@ This header is part of the [containers](../container.html "cpp/container") libra
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/mdspan&action=edit&section=T-7 "Template:cpp/synopsis/mdspan")] Class template std::layout_left_padded::mapping
+#### Class template std::layout_left_padded::mapping
     
     
     namespace std {
@@ -881,7 +881,7 @@ This header is part of the [containers](../container.html "cpp/container") libra
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/mdspan&action=edit&section=T-8 "Template:cpp/synopsis/mdspan")] Class template std::layout_right_padded::mapping
+#### Class template std::layout_right_padded::mapping
     
     
     namespace std {
@@ -972,7 +972,7 @@ This header is part of the [containers](../container.html "cpp/container") libra
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/mdspan&action=edit&section=T-9 "Template:cpp/synopsis/mdspan")] Exposition-only helpers
+#### Exposition-only helpers
     
     
     template<class T>
@@ -1022,7 +1022,7 @@ This header is part of the [containers](../container.html "cpp/container") libra
     constexpr array<IndexType, sizeof...(SliceSpecifiers)>
     /*src-indices*/(const array<IndexType, N>& indices, SliceSpecifiers... slices);
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/mdspan&action=edit&section=T-10 "Template:cpp/synopsis/mdspan")] Class template std::default_accessor
+#### Class template std::default_accessor
     
     
     namespace std {
@@ -1042,7 +1042,7 @@ This header is part of the [containers](../container.html "cpp/container") libra
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/mdspan&action=edit&section=T-11 "Template:cpp/synopsis/mdspan")] Class template std::strided_slice
+#### Class template std::strided_slice
     
     
     namespace std {
@@ -1059,7 +1059,7 @@ This header is part of the [containers](../container.html "cpp/container") libra
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/mdspan&action=edit&section=T-12 "Template:cpp/synopsis/mdspan")] Class template std::submdspan_mapping_result
+#### Class template std::submdspan_mapping_result
     
     
     namespace std {
@@ -1071,7 +1071,7 @@ This header is part of the [containers](../container.html "cpp/container") libra
       };
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/mdspan&action=edit&section=2 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [C-style I/O](../c.html "cpp/io/c")
 
@@ -176,7 +176,7 @@ Operations on files
 [tmpfile](tmpfile.html "cpp/io/c/tmpfile")  
 [tmpnam](tmpnam.html "cpp/io/c/tmpnam")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/navbar_content&action=edit)
+
 
 Defined in header `[<cwchar>](../../header/cwchar.html "cpp/header/cwchar")` |  |   
 ---|---|---  
@@ -203,7 +203,7 @@ Reads data from the a variety of sources, interprets it according to format and 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/vfwscanf&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 stream  |  \-  |  input file stream to read from   
 ---|---|---  
@@ -332,19 +332,19 @@ Only available since C++11→  | Yes |  |  |  | Yes | Yes | Yes | Yes |
 Notes   
 For every conversion specifier other than n, the longest sequence of input characters which does not exceed any specified ﬁeld width and which either is exactly what the conversion specifier expects or is a prefix of a sequence it would expect, is what's consumed from the stream. The ﬁrst character, if any, after this consumed sequence remains unread. If the consumed sequence has length zero or if the consumed sequence cannot be converted as specified above, the matching failure occurs unless end-of-ﬁle, an encoding error, or a read error prevented input from the stream, in which case it is an input failure. All conversion specifiers other than [, c, and n consume and discard all leading whitespace characters (determined as if by calling [std::iswspace](../../string/wide/iswspace.html "cpp/string/wide/iswspace")) before attempting to parse the input. These consumed characters do not count towards the specified maximum field width. If the length specifier l is not used, the conversion specifiers c, s, and [ perform wide-to-multibyte character conversion as if by calling [std::wcrtomb](../../string/multibyte/wcrtomb.html "cpp/string/multibyte/wcrtomb") with an [std::mbstate_t](../../string/multibyte/mbstate_t.html "cpp/string/multibyte/mbstate t") object initialized to zero before the first character is converted. The conversion specifiers s and [ always store the null terminator in addition to the matched characters. The size of the destination array must be at least one greater than the specified field width. The use of %s or %[, without specifying the destination array size, is as unsafe as [std::gets](gets.html "cpp/io/c/gets"). The correct conversion specifications for the [fixed-width integer types](../../types/integer.html "cpp/types/integer") ([std::int8_t](../../types/integer.html "cpp/types/integer"), etc) are defined in the header [`<cinttypes>`](../../header/cinttypes.html "cpp/header/cinttypes") (although [`SCNdMAX`](../../types/integer.html "cpp/types/integer"), [`SCNuMAX`](../../types/integer.html "cpp/types/integer"), etc is synonymous with %jd, %ju, etc). There is a [sequence point](../../language/eval_order.html "cpp/language/eval order") after the action of each conversion specifier; this permits storing multiple fields in the same “sink” variable. When parsing an incomplete floating-point value that ends in the exponent with no digits, such as parsing "100er" with the conversion specifier %f, the sequence "100e" (the longest prefix of a possibly valid floating-point number) is consumed, resulting in a matching error (the consumed sequence cannot be converted to a floating-point number), with "r" remaining. Some existing implementations do not follow this rule and roll back to consume only "100", leaving "er", e.g., [glibc bug 1765](https://sourceware.org/bugzilla/show_bug.cgi?id=1765). If a conversion specification is invalid, the behavior is undefined.   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/vfwscanf&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Number of arguments successfully read, or [EOF](../c.html "cpp/io/c") if failure occurs. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/vfwscanf&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/vfwscanf&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ wscanffwscanfswscanf](fwscanf.html "cpp/io/c/fwscanf") |  reads formatted wide character input from [stdin](std_streams.html "cpp/io/c/std streams"), a file stream or a buffer   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_fwscanf&action=edit)  
+(function)   
 ---|---  
 [C documentation](../../../c/io/vfwscanf.html "c/io/vfwscanf") for vwscanf, vfwscanf, vswscanf

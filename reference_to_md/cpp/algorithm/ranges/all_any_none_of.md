@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](copy.html "cpp/algorithm/ranges/co
 [uninitialized_default_construct_n](../../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 [Constrained algorithms](../ranges.html "cpp/algorithm/ranges")
 
@@ -550,7 +550,7 @@ All names in this menu belong to namespace `std::ranges`
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -609,7 +609,7 @@ The function-like entities described on this page are [_algorithm function objec
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/all_any_none_of&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  the iterator-sentinel pair defining the [range](../../iterator.html#Ranges "cpp/iterator") of elements to examine   
 ---|---|---  
@@ -617,7 +617,7 @@ r  |  \-  |  the range of the elements to examine
 pred  |  \-  |  predicate to apply to the projected elements   
 proj  |  \-  |  projection to apply to the elements   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/all_any_none_of&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1,2) true if [std::invoke](../../utility/functional/invoke.html)(pred, [std::invoke](../../utility/functional/invoke.html)(proj, *i)) != false for every iterator i in the range, false otherwise. Returns true if the range is empty.
 
@@ -636,11 +636,11 @@ Range has some false element  | Yes  | No  | Yes  |  No[[1]](all_any_none_of.htm
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/all_any_none_of&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 At most last - first applications of the predicate and the projection. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/all_any_none_of&action=edit&section=4 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
 
 [all_of (1,2)](all_any_none_of.html#Version_1)  
 ---  
@@ -715,7 +715,7 @@ At most last - first applications of the predicate and the projection.
      
     inline constexpr none_of_fn none_of;  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/all_any_none_of&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -770,8 +770,8 @@ Output:
     None of them are odd
     At least one number is divisible by 7
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/all_any_none_of&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ all_ofany_ofnone_of](../none_of.html "cpp/algorithm/all any none of")(C++11)(C++11)(C++11) |  checks if a predicate is true for all, any or none of the elements in a range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_all_any_none_of&action=edit)  
+(function template)   
 ---|---

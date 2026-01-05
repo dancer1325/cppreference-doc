@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::forward_list`](../forward_list.html "cpp/container/forward list")
 
@@ -128,7 +128,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/forward list/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/forward_list/navbar_content&action=edit)
+
 
 void resize( size_type count ); |  (1) | (since C++11)   
 (constexpr since C++26)  
@@ -160,7 +160,7 @@ Resizes the container to contain count elements:
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/resize&action=edit&section=T-1 "Template:cpp/container/resize")] Parameters
+### Parameters
 
 count  |  \-  |  new size of the container   
 ---|---|---  
@@ -168,7 +168,7 @@ value  |  \-  |  the value to initialize the new elements with
 Type requirements   
 -If the following condition is satisfied, the behavior is undefined: 1) `T` is not [DefaultInsertable](../../named_req/DefaultInsertable.html "cpp/named req/DefaultInsertable") into `forward_list`. 2) `T` is not [CopyInsertable](../../named_req/CopyInsertable.html "cpp/named req/CopyInsertable") into `forward_list`.  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/resize&action=edit&section=T-2 "Template:cpp/container/resize")] Complexity
+### Complexity
 
 Linear in the difference between the current size and count. Additional complexity possible due to list traversal to reach the first element to erase/the end position to insert. 
 
@@ -176,7 +176,7 @@ Linear in the difference between the current size and count. Additional complexi
 
 If value-initialization in overload ([1](resize.html#Version_1)) is undesirable, for example, if the elements are of non-class type and zeroing out is not needed, it can be avoided by providing a [custom `Allocator::construct`](https://stackoverflow.com/a/21028912/273767). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/resize&action=edit&section=T-6 "Template:cpp/container/resize")] Example
+### Example
 
 Run this code
     
@@ -217,10 +217,10 @@ Output:
   
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/resize&action=edit&section=T-8 "Template:cpp/container/resize")] See also
+### See also
 
 [ max_size](max_size.html "cpp/container/forward list/max size") |  returns the maximum possible number of elements   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_max_size&action=edit)  
+(public member function)   
 ---|---  
 [ empty](empty.html "cpp/container/forward list/empty") |  checks whether the container is empty   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_empty&action=edit)
+(public member function) 

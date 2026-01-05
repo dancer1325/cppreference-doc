@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Ranges](../../ranges.html "cpp/experimental/ranges")
 
@@ -66,7 +66,7 @@
 [Ranges](../../ranges.html#Ranges "cpp/experimental/ranges")  
 [Algorithms](../../ranges.html#Algorithms "cpp/experimental/ranges")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/navbar_content&action=edit)
+
 
 [General utilities library](../../ranges.html#General_utilities "cpp/experimental/ranges")
 
@@ -125,7 +125,7 @@ Tagged pairs and tuples
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/utility/navbar_content&action=edit)
+
 
 Defined in header `[<experimental/ranges/utility>](../../../header/experimental/ranges/utility.html "cpp/header/experimental/ranges/utility")` |  |   
 ---|---|---  
@@ -139,22 +139,22 @@ A [`TaggedType`](TaggedType.html "cpp/experimental/ranges/utility/TaggedType") i
 
 tagged_pair<S1(T1), S2(T2)> is an alias for [ranges::tagged](tagged.html)<[std::pair](../../../utility/pair.html)<T1, T2>, S1, S2>. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/utility/tagged_pair&action=edit&section=1 "Edit section: Notes")] Notes 
+### Notes 
 
 Because a function type is used to "glue" the tag specifier and the corresponding element type together, the usual parameter type adjustments apply. In particular, top-level cv-qualifiers are removed and array types are adjusted to pointers: tagged_pair<[tag::in](../algorithm/tags.html)(const int* const), [tag::out](../algorithm/tags.html)(int[])> is [ranges::tagged](tagged.html)<[std::pair](../../../utility/pair.html)<const int*, int*>, [tag::in](../algorithm/tags.html), [tag::out](../algorithm/tags.html)>. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/utility/tagged_pair&action=edit&section=2 "Edit section: See also")] See also 
+### See also 
 
 [ TaggedType](TaggedType.html "cpp/experimental/ranges/utility/TaggedType") |  specifies that a type represents a tag specifier and its element type   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/utility/dsc_TaggedType&action=edit)  
+(concept)   
 ---|---  
 [ tagged](tagged.html "cpp/experimental/ranges/utility/tagged") |  augument a tuple-like type with named accessors   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/utility/dsc_tagged&action=edit)  
+(class template)   
 [ make_tagged_pair](make_tagged_pair.html "cpp/experimental/ranges/utility/make tagged pair") |  convenience function for creating a `tagged_pair`   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/utility/dsc_make_tagged_pair&action=edit)  
+(function template)   
 [ tagged_tuple](tagged_tuple.html "cpp/experimental/ranges/utility/tagged tuple") |  alias template for a tagged [std::tuple](../../../utility/tuple.html "cpp/utility/tuple")  
-(alias template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/utility/dsc_tagged_tuple&action=edit)  
+(alias template)  
 [ make_tagged_tuple](make_tagged_tuple.html "cpp/experimental/ranges/utility/make tagged tuple") |  convenience function for creating a `tagged_tuple`   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/utility/dsc_make_tagged_tuple&action=edit)  
+(function template)   
 [ inin1in2outout1out2funminmaxbeginend](../algorithm/tags.html "cpp/experimental/ranges/algorithm/tags") |  tag specifiers for use with ranges::tagged   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/algorithm/dsc_tags&action=edit)
+(class) 

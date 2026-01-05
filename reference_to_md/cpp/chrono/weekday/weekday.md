@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::weekday`](../weekday.html "cpp/chrono/weekday")
 
@@ -122,7 +122,7 @@ Helper classes
 [formatter<std::chrono::weekday>](formatter.html "cpp/chrono/weekday/formatter")  
 [formatter<std::chrono::hash>](hash.html "cpp/chrono/weekday/hash")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/weekday/navbar_content&action=edit)
+
 
 weekday() = default; |  (1)  |  (since C++20)  
 ---|---|---  
@@ -141,14 +141,14 @@ Constructs a `weekday` object.
 
 4) Constructs a `weekday` object representing the day of the week ld corresponds to, as if by weekday([std::chrono::sys_days](../system_clock.html)(ld.time_since_epoch())).
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/weekday/weekday&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 wd  |  \-  |  a weekday value   
 ---|---|---  
 sd  |  \-  |  a system days object   
 ld  |  \-  |  a local days object   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/weekday/weekday&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     

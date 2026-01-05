@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::shared_timed_mutex`](../shared_timed_mutex.html "cpp/thread/shared timed mutex")
 
@@ -194,7 +194,7 @@ Shared locking
 [shared_timed_mutex::try_lock_shared_until](try_lock_shared_until.html "cpp/thread/shared timed mutex/try lock shared until")  
 [shared_timed_mutex::unlock_shared](unlock_shared.html "cpp/thread/shared timed mutex/unlock shared")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/shared_timed_mutex/navbar_content&action=edit)
+
 
 template< class Rep, class Period >  
 bool try_lock_shared_for( const [std::chrono::duration](../../chrono/duration.html)<Rep,Period>& timeout_duration ); |  |  (since C++14)  
@@ -226,33 +226,33 @@ If `try_lock_shared_for` is called by a thread that already owns the `mutex` in 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/shared_timed_mutex/try_lock_shared_for&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 timeout_duration  |  \-  |  maximum duration to block for   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/shared_timed_mutex/try_lock_shared_for&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 true if the lock was acquired successfully, otherwise false. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/shared_timed_mutex/try_lock_shared_for&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Any exception thrown by clock, time_point, or duration during the execution (clocks, time points, and durations provided by the standard library never throw). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/shared_timed_mutex/try_lock_shared_for&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/shared_timed_mutex/try_lock_shared_for&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ try_lock_shared](try_lock_shared.html "cpp/thread/shared timed mutex/try lock shared") |  tries to lock the mutex for shared ownership, returns if the mutex is not available   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/mutex/dsc_try_lock_shared&action=edit)  
+(public member function)   
 ---|---  
 [ try_lock_shared_until](try_lock_shared_until.html "cpp/thread/shared timed mutex/try lock shared until") |  tries to lock the mutex for shared ownership, returns if the mutex has been  
 unavailable until specified time point has been reached   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/mutex/dsc_try_lock_shared_until&action=edit)  
+(public member function)   
 [ try_lock_for](try_lock_for.html "cpp/thread/shared timed mutex/try lock for") |  tries to lock the mutex, returns if the mutex has been  
 unavailable for the specified timeout duration   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/mutex/dsc_try_lock_for&action=edit)
+(public member function) 

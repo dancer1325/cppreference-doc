@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::duration`](../duration.html "cpp/chrono/duration")
 
@@ -156,7 +156,7 @@ Helper classes
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/duration/navbar_content&action=edit)
+
 
 constexpr rep count() const; |  |  (since C++11)  
 ---|---|---  
@@ -174,15 +174,15 @@ Returns the number of ticks for this duration.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/duration/count&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/duration/count&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The number of ticks for this duration. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/duration/count&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -210,8 +210,8 @@ Output:
     6000 us duration has 6000 ticks
     3.5 30Hz duration has 3.5 ticks
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/duration/count&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ duration_cast](duration_cast.html "cpp/chrono/duration/duration cast")(C++11) |  converts a duration to another, with a different tick interval   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/duration/dsc_duration_cast&action=edit)  
+(function template)   
 ---|---

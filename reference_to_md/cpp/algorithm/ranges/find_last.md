@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](copy.html "cpp/algorithm/ranges/co
 [uninitialized_default_construct_n](../../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 [Constrained algorithms](../ranges.html "cpp/algorithm/ranges")
 
@@ -550,7 +550,7 @@ All names in this menu belong to namespace `std::ranges`
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -644,7 +644,7 @@ The function-like entities described on this page are [_algorithm function objec
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/find_last&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  the iterator-sentinel pair defining the [range](../../iterator.html#Ranges "cpp/iterator") of elements to examine   
 ---|---|---  
@@ -653,7 +653,7 @@ value  |  \-  |  value to compare the elements to
 pred  |  \-  |  predicate to apply to the projected elements   
 proj  |  \-  |  projection to apply to the elements   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/find_last&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1,3,5) Let i be the last iterator in the range `[`first`, `last`)` for which E is true.
 
@@ -667,11 +667,11 @@ Returns [ranges::subrange](../../ranges/subrange.html)<I>{i, last}, or [ranges::
 
 2,4,6) Same as (1,3,5) but the return type is [ranges::borrowed_subrange_t](../../ranges/borrowed_iterator_t.html)<I>.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/find_last&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 At most last - first applications of the predicate and projection. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/find_last&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 `ranges::find_last`, `ranges::find_last_if`, `ranges::find_last_if_not` have better efficiency on common implementations if `I` models [`bidirectional_iterator`](../../iterator/bidirectional_iterator.html "cpp/iterator/bidirectional iterator") or (better) [`random_access_iterator`](../../iterator/random_access_iterator.html "cpp/iterator/random access iterator"). 
 
@@ -682,7 +682,7 @@ At most last - first applications of the predicate and projection.
 `ranges::find_last_if_not`  
 [`__cpp_lib_algorithm_default_value_type`](../../experimental/feature_test.html#cpp_lib_algorithm_default_value_type "cpp/feature test") | [`202403L`](../../compiler_support/26.html#cpp_lib_algorithm_default_value_type_202403L "cpp/compiler support/26") | (C++26) | [List-initialization](../../language/list_initialization.html "cpp/language/list initialization") for algorithms ([1,2](find_last.html#Version_1))  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/find_last&action=edit&section=5 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
 
 These implementations only show the slower algorithm used when I models [`forward_iterator`](../../iterator/forward_iterator.html "cpp/iterator/forward iterator"). 
 
@@ -799,7 +799,7 @@ These implementations only show the slower algorithm used when I models [`forwar
      
     inline constexpr find_last_if_not_fn find_last_if_not;  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/find_last&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -892,20 +892,20 @@ Output:
     The found element and the tail after it are:
     {"one", 4} {"two", 5} {"three", 6}
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/find_last&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ ranges::find_end](find_end.html "cpp/algorithm/ranges/find end")(C++20) |  finds the last sequence of elements in a certain range  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_find_end&action=edit)  
+(algorithm function object)  
 ---|---  
 [ ranges::findranges::find_ifranges::find_if_not](find.html "cpp/algorithm/ranges/find")(C++20)(C++20)(C++20) |  finds the first element satisfying specific criteria  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_find&action=edit)  
+(algorithm function object)  
 [ ranges::search](search.html "cpp/algorithm/ranges/search")(C++20) |  searches for the first occurrence of a range of elements  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_search&action=edit)  
+(algorithm function object)  
 [ ranges::includes](includes.html "cpp/algorithm/ranges/includes")(C++20) |  returns true if one sequence is a subsequence of another  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_includes&action=edit)  
+(algorithm function object)  
 [ ranges::binary_search](binary_search.html "cpp/algorithm/ranges/binary search")(C++20) |  determines if an element exists in a partially-ordered range  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_binary_search&action=edit)  
+(algorithm function object)  
 [ ranges::containsranges::contains_subrange](contains.html "cpp/algorithm/ranges/contains")(C++23)(C++23) |  checks if the range contains the given element or subrange  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_contains&action=edit)
+(algorithm function object)
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

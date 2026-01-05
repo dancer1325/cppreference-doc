@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::file_clock`](../file_clock.html "cpp/chrono/file clock")
 
@@ -119,7 +119,7 @@ Time point I/O
 [formatter<std::chrono::file_time>](formatter.html "cpp/chrono/file clock/formatter")  
 [from_stream](from_stream.html "cpp/chrono/file clock/from stream")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/file_clock/navbar_content&action=edit)
+
 
 template< class Duration >  
 static [std::chrono::utc_time](../utc_clock.html)</* see below */>  
@@ -150,26 +150,26 @@ These function templates are optional: an implementation may choose to instead p
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/file_clock/to_from_utc&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 1) A `utc_time` representing the same point in time as the argument.
 
 2) A `file_time` representing the same point in time as the argument.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/file_clock/to_from_utc&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 User code should usually use [std::chrono::clock_cast](../clock_cast.html), which provides a generic interface to convert time points between clocks, rather than call these functions directly. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/file_clock/to_from_utc&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/file_clock/to_from_utc&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ to_sysfrom_sys](to_from_sys.html "cpp/chrono/file clock/to from sys")[static] (optional) |  converts between `file_time` and `sys_time`   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/file_clock/dsc_to_from_sys&action=edit)  
+(public static member function)   
 ---|---  
 [ clock_cast](../clock_cast.html "cpp/chrono/clock cast")(C++20) |  convert time points of one clock to another   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_clock_cast&action=edit)
+(function template) 

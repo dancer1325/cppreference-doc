@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Basic Concepts](basics.html "cpp/language/basic concepts")
 
@@ -249,7 +249,7 @@ Miscellaneous
 [Modules](modules.html "cpp/language/modules") (C++20)  
 [Contracts](contracts.html "cpp/language/contracts") (C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/basics/navbar_content&action=edit)
+
 
 These are the punctuation symbols in C++. The meaning of each symbol is detailed in the linked pages. 
 
@@ -313,26 +313,26 @@ These are the punctuation symbols in C++. The meaning of each symbol is detailed
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/punctuators&action=edit&section=1 "Edit section: Preprocessing operators")] Preprocessing operators
+### Preprocessing operators
 
 Preprocessing operators are recognized by [preprocessors](../preprocessor.html "cpp/preprocessor"). 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/punctuators&action=edit&section=2 "Edit section: # \(including %:\)")] # (including %:)
+#### # (including %:)
 
   * Introduce a [preprocessing directive](../preprocessor.html "cpp/preprocessor"). 
   * The [preprocessing operator for stringification](../preprocessor/replace.html#.23_and_.23.23_operators "cpp/preprocessor/replace"). 
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/punctuators&action=edit&section=3 "Edit section: ##\(including %:%:\)")] ##(including %:%:)
+#### ##(including %:%:)
 
   * The [preprocessing operator for token pasting](../preprocessor/replace.html#.23_and_.23.23_operators "cpp/preprocessor/replace"). 
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/punctuators&action=edit&section=4 "Edit section: Single-character operators and punctuators")] Single-character operators and punctuators
+### Single-character operators and punctuators
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/punctuators&action=edit&section=5 "Edit section: { and } \(including <% and %>\)")] { and } (including <% and %>)
+#### { and } (including <% and %>)
 
   * In a [class](class.html "cpp/language/class") definition, delimit the [member specification](class.html#Member_specification "cpp/language/class"). 
   * In an [enumeration](enum.html "cpp/language/enum") definition, delimit the enumerator list. 
@@ -368,7 +368,7 @@ Preprocessing operators are recognized by [preprocessors](../preprocessor.html "
 | (since C++20)  
 ---|---  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/punctuators&action=edit&section=6 "Edit section: \[ and \] \(including <: and :>\)")] [ and ] (including <: and :>)
+#### [ and ] (including <: and :>)
 
   * [Subscript operator](operator_member_access.html#Built-in_subscript_operator "cpp/language/operator member access"); part of operator[] in [operator overloading](operators.html#Array_subscript_operator "cpp/language/operators"). 
   * Part of [array declarator](declarations.html#Declarators "cpp/language/declarations") in a [declaration](declarations.html "cpp/language/declarations") or a [type-id](type-id.html#Type_naming "cpp/language/type") (e.g. in a [new expression](new.html "cpp/language/new")). 
@@ -391,7 +391,7 @@ Preprocessing operators are recognized by [preprocessors](../preprocessor.html "
 
 | (since C++26)  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/punctuators&action=edit&section=7 "Edit section: \( and \)")] ( and )
+#### ( and )
 
   * In an expression, [indicate grouping](expressions.html#Primary_expressions "cpp/language/expressions"). 
   * [Function call operator](operator_other.html#Built-in_function_call_operator "cpp/language/operator other"); part of operator() in [operator overloading](operators.html#Function_call_operator "cpp/language/operators"). 
@@ -525,7 +525,7 @@ Preprocessing operators are recognized by [preprocessors](../preprocessor.html "
 
 | (since C++20)  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/punctuators&action=edit&section=8 "Edit section: ;")] ;
+#### ;
 
   * Indicate the end of 
 
@@ -551,7 +551,7 @@ Preprocessing operators are recognized by [preprocessors](../preprocessor.html "
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/punctuators&action=edit&section=9 "Edit section: :")] :
+#### :
 
   * Part of [conditional operator](operator_other.html#Conditional_operator "cpp/language/operator other"). 
   * Part of [label declaration](statements.html#Labels "cpp/language/statements"). 
@@ -577,13 +577,13 @@ Preprocessing operators are recognized by [preprocessors](../preprocessor.html "
 
 | (since C++20)  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/punctuators&action=edit&section=10 "Edit section: ?")] ?
+#### ?
 
   * Part of [conditional operator](operator_other.html#Conditional_operator "cpp/language/operator other"). 
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/punctuators&action=edit&section=11 "Edit section: .")] .
+#### .
 
   * [Member access operator](operator_member_access.html#Built-in_member_access_operators "cpp/language/operator member access"). 
 
@@ -595,14 +595,14 @@ Preprocessing operators are recognized by [preprocessors](../preprocessor.html "
 | (since C++20)  
 ---|---  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/punctuators&action=edit&section=12 "Edit section: ~ \(including compl\)")] ~ (including compl)
+#### ~ (including compl)
 
   * [Unary complement operator (a.k.a. bitwise not operator)](operator_arithmetic.html#Bitwise_logic_operators "cpp/language/operator arithmetic"); part of operator~ in [operator overloading](operators.html "cpp/language/operators"). 
   * Part of an [identifier expression](name.html "cpp/language/identifiers") to name a [destructor](destructor.html "cpp/language/destructor") or pseudo-destructor. 
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/punctuators&action=edit&section=13 "Edit section: ! \(including not\)")] ! (including not)
+#### ! (including not)
 
   * [Logical not operator](operator_logical.html "cpp/language/operator logical"); part of operator! in [operator overloading](operators.html "cpp/language/operators"). 
 
@@ -613,21 +613,21 @@ Preprocessing operators are recognized by [preprocessors](../preprocessor.html "
 | (since C++23)  
 ---|---  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/punctuators&action=edit&section=14 "Edit section: +")] +
+#### +
 
   * [Unary plus operator](operator_arithmetic.html#Unary_arithmetic_operators "cpp/language/operator arithmetic"); part of operator+ in [operator overloading](operators.html "cpp/language/operators"). 
   * [Binary plus operator](operator_arithmetic.html#Additive_operators "cpp/language/operator arithmetic"); part of operator+ in [operator overloading](operators.html "cpp/language/operators"). 
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/punctuators&action=edit&section=15 "Edit section: -")] -
+#### -
 
   * [Unary minus operator](operator_arithmetic.html#Unary_arithmetic_operators "cpp/language/operator arithmetic"); part of operator- in [operator overloading](operators.html "cpp/language/operators"). 
   * [Binary minus operator](operator_arithmetic.html#Additive_operators "cpp/language/operator arithmetic"); part of operator- in [operator overloading](operators.html "cpp/language/operators"). 
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/punctuators&action=edit&section=16 "Edit section: *")] *
+#### *
 
   * [Indirection operator](operator_member_access.html#Built-in_indirection_operator "cpp/language/operator member access"); part of operator* in [operator overloading](operators.html "cpp/language/operators"). 
   * [Multiplication operator](operator_arithmetic.html#Multiplicative_operators "cpp/language/operator arithmetic"); part of operator* in [operator overloading](operators.html "cpp/language/operators"). 
@@ -640,25 +640,25 @@ Preprocessing operators are recognized by [preprocessors](../preprocessor.html "
 | (since C++17)  
 ---|---  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/punctuators&action=edit&section=17 "Edit section: /")] /
+#### /
 
   * [Division operator](operator_arithmetic.html#Multiplicative_operators "cpp/language/operator arithmetic"); part of operator/ in [operator overloading](operators.html "cpp/language/operators"). 
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/punctuators&action=edit&section=18 "Edit section: %")] %
+#### %
 
   * [Modulo operator](operator_arithmetic.html#Multiplicative_operators "cpp/language/operator arithmetic"); part of operator% in [operator overloading](operators.html "cpp/language/operators"). 
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/punctuators&action=edit&section=19 "Edit section: ^ \(including xor\)")] ^ (including xor)
+#### ^ (including xor)
 
   * [Bitwise xor operator](operator_arithmetic.html#Bitwise_logic_operators "cpp/language/operator arithmetic"); part of operator^ in [operator overloading](operators.html "cpp/language/operators"). 
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/punctuators&action=edit&section=20 "Edit section: & \(including bitand\)")] & (including bitand)
+#### & (including bitand)
 
   * [Address-of operator](operator_member_access.html#Built-in_address-of_operator "cpp/language/operator member access"); part of operator& in [operator overloading](operators.html#Rarely_overloaded_operators "cpp/language/operators"). 
   * [Bitwise and operator](operator_arithmetic.html#Bitwise_logic_operators "cpp/language/operator arithmetic"); part of operator& in [operator overloading](operators.html "cpp/language/operators"). 
@@ -672,13 +672,13 @@ Preprocessing operators are recognized by [preprocessors](../preprocessor.html "
 | (since C++11)  
 ---|---  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/punctuators&action=edit&section=21 "Edit section: | \(including bitor\)")] | (including bitor)
+#### | (including bitor)
 
   * [Bitwise or operator](operator_arithmetic.html#Bitwise_logic_operators "cpp/language/operator arithmetic"); part of operator| in [operator overloading](operators.html "cpp/language/operators"). 
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/punctuators&action=edit&section=22 "Edit section: =")] =
+#### =
 
   * [Simple assignment operator](operator_assignment.html "cpp/language/operator assignment"); part of operator= in [operator overloading](operators.html#Assignment_operator "cpp/language/operators"), which might be a special member function ([copy assignment operator](as_operator.html "cpp/language/copy assignment")or [move assignment operator](move_operator.html "cpp/language/move assignment")(since C++11)). 
   * Part of the [copy-initialization](copy_initialization.html "cpp/language/copy initialization") and [aggregate initialization](aggregate_initialization.html "cpp/language/aggregate initialization")(until C++11)[copy-list-initialization](list_initialization.html "cpp/language/list initialization")(since C++11) syntax of an [initializer](initialization.html "cpp/language/initialization"). 
@@ -701,7 +701,7 @@ Preprocessing operators are recognized by [preprocessors](../preprocessor.html "
 
 | (since C++20)  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/punctuators&action=edit&section=23 "Edit section: <")] <
+#### <
 
   * [Less-than operator](operator_comparison.html "cpp/language/operator comparison"); part of operator< in [operator overloading](operators.html#Comparison_operators "cpp/language/operators"). 
   * In a [`static_cast`](static_cast.html "cpp/language/static cast"), [`const_cast`](const_cast.html "cpp/language/const cast"), [`reinterpret_cast`](reinterpret_cast.html "cpp/language/reinterpret cast"), or [`dynamic_cast`](dynamic_cast.html "cpp/language/dynamic cast"), introduce the type-id. 
@@ -751,7 +751,7 @@ Preprocessing operators are recognized by [preprocessors](../preprocessor.html "
 
 | (since C++20)  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/punctuators&action=edit&section=24 "Edit section: >")] >
+#### >
 
   * [Greater-than operator](operator_comparison.html "cpp/language/operator comparison"); part of operator> in [operator overloading](operators.html#Comparison_operators "cpp/language/operators"). 
   * [`static_cast`](static_cast.html "cpp/language/static cast"), [`const_cast`](const_cast.html "cpp/language/const cast"), [`reinterpret_cast`](reinterpret_cast.html "cpp/language/reinterpret cast"), or [`dynamic_cast`](dynamic_cast.html "cpp/language/dynamic cast"), indicate the end of type-id. 
@@ -801,7 +801,7 @@ Preprocessing operators are recognized by [preprocessors](../preprocessor.html "
 
 | (since C++20)  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/punctuators&action=edit&section=25 "Edit section: ,")] ,
+#### ,
 
   * [Comma operator](operator_other.html#Built-in_comma_operator "cpp/language/operator other"); part of operator, in [operator overloading](operators.html#Rarely_overloaded_operators "cpp/language/operators"). 
   * List separator in 
@@ -859,9 +859,9 @@ Preprocessing operators are recognized by [preprocessors](../preprocessor.html "
 | (since C++11)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/punctuators&action=edit&section=26 "Edit section: Multi-character operators and punctuators")] Multi-character operators and punctuators
+### Multi-character operators and punctuators
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/punctuators&action=edit&section=27 "Edit section: ...")] ...
+#### ...
 
   * In the [parameter list](function.html#Parameter_list "cpp/language/function") of a function declaratoror lambda expression(since C++11)or user-defined deduction guide(since C++17), signify a [variadic function](variadic_arguments.html "cpp/language/variadic arguments"). 
   * In a [handler](catch.html "cpp/language/catch"), signify catch-all handler. 
@@ -878,7 +878,7 @@ Preprocessing operators are recognized by [preprocessors](../preprocessor.html "
 
 | (since C++26)  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/punctuators&action=edit&section=28 "Edit section: ::")] ::
+#### ::
 
   * Scope resolution operator in 
 
@@ -901,13 +901,13 @@ Preprocessing operators are recognized by [preprocessors](../preprocessor.html "
 
 | (since C++17)  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/punctuators&action=edit&section=29 "Edit section: .*")] .*
+#### .*
 
   * [Pointer-to-member access operator](operator_member_access.html#Built-in_pointer-to-member_access_operators "cpp/language/operator member access"). 
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/punctuators&action=edit&section=30 "Edit section: ->")] ->
+#### ->
 
   * [Member access operator](operator_member_access.html#Built-in_member_access_operators "cpp/language/operator member access"); part of operator-> in [operator overloading](operators.html "cpp/language/operators"). 
 
@@ -926,79 +926,79 @@ Preprocessing operators are recognized by [preprocessors](../preprocessor.html "
 
 | (since C++20)  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/punctuators&action=edit&section=31 "Edit section: ->*")] ->*
+#### ->*
 
   * [Pointer-to-member access operator](operator_member_access.html#Built-in_pointer-to-member_access_operators "cpp/language/operator member access"); part of operator->* in [operator overloading](operators.html#Rarely_overloaded_operators "cpp/language/operators"). 
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/punctuators&action=edit&section=32 "Edit section: +=")] +=
+#### +=
 
   * [Compound assignment operator](operator_assignment.html "cpp/language/operator assignment"); part of operator+= in [operator overloading](operators.html "cpp/language/operators"). 
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/punctuators&action=edit&section=33 "Edit section: -=")] -=
+#### -=
 
   * [Compound assignment operator](operator_assignment.html "cpp/language/operator assignment"); part of operator-= in [operator overloading](operators.html "cpp/language/operators"). 
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/punctuators&action=edit&section=34 "Edit section: *=")] *=
+#### *=
 
   * [Compound assignment operator](operator_assignment.html "cpp/language/operator assignment"); part of operator*= in [operator overloading](operators.html "cpp/language/operators"). 
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/punctuators&action=edit&section=35 "Edit section: /=")] /=
+#### /=
 
   * [Compound assignment operator](operator_assignment.html "cpp/language/operator assignment"); part of operator/= in [operator overloading](operators.html "cpp/language/operators"). 
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/punctuators&action=edit&section=36 "Edit section: %=")] %=
+#### %=
 
   * [Compound assignment operator](operator_assignment.html "cpp/language/operator assignment"); part of operator%= in [operator overloading](operators.html "cpp/language/operators"). 
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/punctuators&action=edit&section=37 "Edit section: ^= \(including xor eq\)")] ^= (including xor_eq)
+#### ^= (including xor_eq)
 
   * [Compound assignment operator](operator_assignment.html "cpp/language/operator assignment"); part of operator^= in [operator overloading](operators.html "cpp/language/operators"). 
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/punctuators&action=edit&section=38 "Edit section: &= \(including and eq\)")] &= (including and_eq)
+#### &= (including and_eq)
 
   * [Compound assignment operator](operator_assignment.html "cpp/language/operator assignment"); part of operator&= in [operator overloading](operators.html "cpp/language/operators"). 
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/punctuators&action=edit&section=39 "Edit section: |= \(including or eq\)")] |= (including or_eq)
+#### |= (including or_eq)
 
   * [Compound assignment operator](operator_assignment.html "cpp/language/operator assignment"); part of operator|= in [operator overloading](operators.html "cpp/language/operators"). 
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/punctuators&action=edit&section=40 "Edit section: ==")] ==
+#### ==
 
   * [Equality operator](operator_comparison.html "cpp/language/operator comparison"); part of operator== in [operator overloading](operators.html#Comparison_operators "cpp/language/operators"). 
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/punctuators&action=edit&section=41 "Edit section: != \(including not eq\)")] != (including not_eq)
+#### != (including not_eq)
 
   * [Inequality operator](operator_comparison.html "cpp/language/operator comparison"); part of operator!= in [operator overloading](operators.html#Comparison_operators "cpp/language/operators"). 
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/punctuators&action=edit&section=42 "Edit section: <=")] <=
+#### <=
 
   * [Less-than-or-equal-to operator](operator_comparison.html "cpp/language/operator comparison"); part of operator<= in [operator overloading](operators.html#Comparison_operators "cpp/language/operators"). 
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/punctuators&action=edit&section=43 "Edit section: >=")] >=
+#### >=
 
   * [Greater-than-or-equal-to operator](operator_comparison.html "cpp/language/operator comparison"); part of operator>= in [operator overloading](operators.html#Comparison_operators "cpp/language/operators"). 
 
@@ -1011,7 +1011,7 @@ Preprocessing operators are recognized by [preprocessors](../preprocessor.html "
 | (since C++20)  
 ---|---  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/punctuators&action=edit&section=45 "Edit section: && \(including and\)")] && (including and)
+#### && (including and)
 
   * [Logical and operator](operator_logical.html "cpp/language/operator logical"); part of operator&& in [operator overloading](operators.html#Rarely_overloaded_operators "cpp/language/operators"). 
 
@@ -1023,49 +1023,49 @@ Preprocessing operators are recognized by [preprocessors](../preprocessor.html "
 | (since C++11)  
 ---|---  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/punctuators&action=edit&section=46 "Edit section: || \(including or\)")] || (including or)
+#### || (including or)
 
   * [Logical or operator](operator_logical.html "cpp/language/operator logical"); part of operator|| in [operator overloading](operators.html#Rarely_overloaded_operators "cpp/language/operators"). 
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/punctuators&action=edit&section=47 "Edit section: <<")] <<
+#### <<
 
   * [Bitwise shift operator](operator_arithmetic.html#Bitwise_shift_operators "cpp/language/operator arithmetic"); part of operator<< in operator overloading ([bitwise operator](operators.html#Bitwise_arithmetic_operators "cpp/language/operators") or [stream insertion operator](operators.html#Stream_extraction_and_insertion "cpp/language/operators")). 
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/punctuators&action=edit&section=48 "Edit section: >>")] >>
+#### >>
 
   * [Bitwise shift operator](operator_arithmetic.html#Bitwise_shift_operators "cpp/language/operator arithmetic"); part of operator>> in operator overloading ([bitwise operator](operators.html#Bitwise_arithmetic_operators "cpp/language/operators") or [stream extraction operator](operators.html#Stream_extraction_and_insertion "cpp/language/operators")). 
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/punctuators&action=edit&section=49 "Edit section: <<=")] <<=
+#### <<=
 
   * [Compound assignment operator](operator_assignment.html "cpp/language/operator assignment"); part of operator<<= in [operator overloading](operators.html "cpp/language/operators"). 
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/punctuators&action=edit&section=50 "Edit section: >>=")] >>=
+#### >>=
 
   * [Compound assignment operator](operator_assignment.html "cpp/language/operator assignment"); part of operator>>= in [operator overloading](operators.html "cpp/language/operators"). 
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/punctuators&action=edit&section=51 "Edit section: ++")] ++
+#### ++
 
   * [Increment operator](operator_incdec.html "cpp/language/operator incdec"); part of operator++ in [operator overloading](operators.html "cpp/language/operators"). 
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/punctuators&action=edit&section=52 "Edit section: --")] \--
+#### \--
 
   * [Decrement operator](operator_incdec.html "cpp/language/operator incdec"); part of operator\-- in [operator overloading](operators.html "cpp/language/operators"). 
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/punctuators&action=edit&section=53 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -1137,8 +1137,8 @@ Preprocessing operators are recognized by [preprocessors](../preprocessor.html "
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/punctuators&action=edit&section=54 "Edit section: See also")] See also
+### See also
 
-[ Alternative representations ](operator_alternative.html "cpp/language/operator alternative") |  alternative spellings for certain operators[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_operator_alternative&action=edit)  
+[ Alternative representations ](operator_alternative.html "cpp/language/operator alternative") |  alternative spellings for certain operators  
 ---|---  
 [C documentation](../../c/language/punctuators.html "c/language/punctuators") for Punctuation

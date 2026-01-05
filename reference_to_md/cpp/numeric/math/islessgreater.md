@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [Common mathematical functions](../math.html "cpp/numeric/math")
 
@@ -230,7 +230,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/navbar_content&action=edit)
+
 
 Defined in header `[<cmath>](../../header/cmath.html "cpp/header/cmath")` |  |   
 ---|---|---  
@@ -262,16 +262,16 @@ A) Additional overloads are provided for all other combinations of arithmetic ty
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/binary_is&action=edit&section=T-1 "Template:cpp/numeric/math/binary is")] Parameters
+### Parameters
 
 x, y  |  \-  |  floating-point or integer values   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/binary_is&action=edit&section=T-2 "Template:cpp/numeric/math/binary is")] Return value
+### Return value
 
 true if x < y || x > y, false otherwise. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/binary_is&action=edit&section=T-3 "Template:cpp/numeric/math/binary is")] Notes
+### Notes
 
 The built-in operator< and operator> for floating-point numbers may raise [FE_INVALID](../fenv/FE_exceptions.html "cpp/numeric/fenv/FE exceptions") if one or both of the arguments is NaN. This function is a "quiet" version of the expression x < y || x > y. 
 
@@ -289,11 +289,11 @@ static_cast<float>(num2)).
 If num1 and num2 have arithmetic types, then std::islessgreater(num1, num2) has the same effect as std::islessgreater(static_cast</*common-floating-point-type*/>(num1),  
 static_cast</*common-floating-point-type*/>(num2)), where /*common-floating-point-type*/ is the floating-point type with the greatest [floating-point conversion rank](../../language/usual_arithmetic_conversions.html#Floating-point_conversion_rank "cpp/language/usual arithmetic conversions") and greatest [floating-point conversion subrank](../../language/usual_arithmetic_conversions.html#Floating-point_conversion_subrank "cpp/language/usual arithmetic conversions") between the types of num1 and num2, arguments of integer type are considered to have the same floating-point conversion rank as double. If no such floating-point type with the greatest rank and subrank exists, then [overload resolution](../../language/overload_resolution.html "cpp/language/overload resolution") does not result in a usable candidate from the overloads provided.  | (since C++23)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/islessgreater&action=edit&section=1 "Edit section: See also")] See also
+### See also
 
 [ isless](isless.html "cpp/numeric/math/isless")(C++11) |  checks if the first floating-point argument is less than the second   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_isless&action=edit)  
+(function)   
 ---|---  
 [ isgreater](isgreater.html "cpp/numeric/math/isgreater")(C++11) |  checks if the first floating-point argument is greater than the second   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_isgreater&action=edit)  
+(function)   
 [C documentation](../../../c/numeric/math/islessgreater.html "c/numeric/math/islessgreater") for islessgreater

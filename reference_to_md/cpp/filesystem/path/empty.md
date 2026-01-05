@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Filesystem library](../../filesystem.html "cpp/filesystem")
 
@@ -100,7 +100,7 @@ filesystem::symlink_status](../status.html "cpp/filesystem/status")
 [filesystem::is_socket](../is_socket.html "cpp/filesystem/is socket")  
 [filesystem::is_symlink](../is_symlink.html "cpp/filesystem/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/navbar_content&action=edit)
+
 
 [`std::filesystem::path`](../path.html "cpp/filesystem/path")
 
@@ -169,7 +169,7 @@ filesystem::symlink_status](../status.html "cpp/filesystem/status")
 | [formatter<std::filesystem::path>](formatter.html "cpp/filesystem/path/formatter")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/path/navbar_content&action=edit)
+
 
 bool empty() const noexcept; |  |  (since C++17)  
 ---|---|---  
@@ -187,22 +187,22 @@ Checks if the path in generic format is empty.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/empty&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/empty&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 true if the path is empty, false otherwise. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/empty&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 An empty path can be obtained by calling [`clear`](clear.html "cpp/filesystem/path/clear") and by default-constructing a `path`. It can also be returned by a path decomposition function (such as [`extension`](extension.html "cpp/filesystem/path/extension")) if the corresponding component is not present in the path. 
 
 An empty path is classified as a relative path. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/empty&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ (constructor)](path.html "cpp/filesystem/path/path") |  constructs a `path`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/path/dsc_constructor&action=edit)  
+(public member function)   
 ---|---

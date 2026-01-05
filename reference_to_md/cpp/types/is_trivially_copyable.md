@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Metaprogramming library](../meta.html "cpp/meta")
 
@@ -167,7 +167,7 @@ Type transformations
 Compile-time integer sequences  
 [integer_sequence](../utility/integer_sequence.html "cpp/utility/integer sequence")(C++14)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/meta/navbar_content&action=edit)
+
 
 Defined in header `[<type_traits>](../header/type_traits.html "cpp/header/type traits")` |  |   
 ---|---|---  
@@ -199,19 +199,19 @@ If the program adds specializations for `std::is_trivially_copyable` or `std::is
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/traits/is&action=edit&section=T-1 "Template:cpp/types/traits/is")] Template parameters
+### Template parameters
 
 T  |  \-  |  a type to check   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/traits/is&action=edit&section=T-2 "Template:cpp/types/traits/is")] Helper variable template
+### Helper variable template
 
 template< class T >  
 constexpr bool is_trivially_copyable_v = is_trivially_copyable<T>::value; |  |  (since C++17)  
 ---|---|---  
 | |   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/integral_constant/inherit2&action=edit)
+
 
 ##  Inherited from [ std::integral_constant](integral_constant.html "cpp/types/integral constant")
 
@@ -236,11 +236,11 @@ Type  |  Definition
 `value_type` |  bool  
 `type` |  [std::integral_constant](integral_constant.html)<bool, value>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_trivially_copyable&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 Objects of trivially-copyable types that are not potentially-overlapping subobjects are the only C++ objects that may be safely copied with [std::memcpy](../string/byte/memcpy.html "cpp/string/byte/memcpy") or serialized to/from binary files with [`std::ofstream::write()`](../io/basic_ostream/write.html "cpp/io/basic ostream/write") / [`std::ifstream::read()`](../io/basic_istream/read.html "cpp/io/basic istream/read"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_trivially_copyable&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -267,7 +267,7 @@ Run this code
      
     int main() {}
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_trivially_copyable&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -277,8 +277,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 class type with unknown bound  | the behavior is  
 undefined in this case   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_trivially_copyable&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ is_trivial](is_trivial.html "cpp/types/is trivial")(C++11)(deprecated in C++26) |  checks if a type is trivial   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_trivial&action=edit)  
+(class template)   
 ---|---

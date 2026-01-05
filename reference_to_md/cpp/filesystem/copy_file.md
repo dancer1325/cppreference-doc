@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Filesystem library](../filesystem.html "cpp/filesystem")
 
@@ -100,7 +100,7 @@ filesystem::symlink_status](status.html "cpp/filesystem/status")
 [filesystem::is_socket](is_socket.html "cpp/filesystem/is socket")  
 [filesystem::is_symlink](is_symlink.html "cpp/filesystem/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/navbar_content&action=edit)
+
 
 Defined in header `[<filesystem>](../header/filesystem.html "cpp/header/filesystem")` |  |   
 ---|---|---  
@@ -172,18 +172,18 @@ The non-throwing overloads return false if an error occurs.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/copy_file&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 from  |  \-  |  path to the source file   
 ---|---|---  
 to  |  \-  |  path to the target file   
 ec  |  \-  |  out-parameter for error reporting in the non-throwing overload   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/copy_file&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 true if the file was copied, false otherwise. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/copy_file&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Any overload not marked `noexcept` may throw [std::bad_alloc](../memory/new/bad_alloc.html "cpp/memory/new/bad alloc") if memory allocation fails.  
 
@@ -192,7 +192,7 @@ Any overload not marked `noexcept` may throw [std::bad_alloc](../memory/new/bad_
 
 2,4) Sets a [std::error_code](../error/error_code.html)& parameter to the OS API error code if an OS API call fails, and executes ec.[`clear`](../error/error_code/clear.html "cpp/error/error code/clear")() if no errors occur.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/copy_file&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 The functions involve at most one direct or indirect call to [filesystem::status(to)](status.html "cpp/filesystem/status") (used both to determine if the file exists, and, for `filesystem::copy_options::update_existing` option, its last write time). 
 
@@ -200,7 +200,7 @@ Error is reported when **filesystem::copy_file** is used to copy a directory: us
 
 **filesystem::copy_file** follows symlinks: use [filesystem::copy_symlink](copy_symlink.html "cpp/filesystem/copy symlink") or [filesystem::copy](copy.html "cpp/filesystem/copy") with `filesystem::copy_options::copy_symlinks` for that. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/copy_file&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -243,7 +243,7 @@ Possible output:
     file2.txt holds: a
     Could not copy sandbox/abc: copy_file: Is a directory: "sandbox/abc", "sandbox/def"
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/copy_file&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -251,12 +251,12 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 3014](https://cplusplus.github.io/LWG/issue3014) | C++17  | `error_code` overload marked noexcept but can allocate memory  | noexcept removed   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/copy_file&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ copy_options](copy_options.html "cpp/filesystem/copy options")(C++17) |  specifies semantics of copy operations   
-(enum) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_copy_options&action=edit)  
+(enum)   
 ---|---  
 [ copy_symlink](copy_symlink.html "cpp/filesystem/copy symlink")(C++17) |  copies a symbolic link   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_copy_symlink&action=edit)  
+(function)   
 [ copy](copy.html "cpp/filesystem/copy")(C++17) |  copies files or directories   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_copy&action=edit)
+(function) 

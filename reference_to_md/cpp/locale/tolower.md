@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Localization library](../locale.html "cpp/locale")
 
@@ -152,7 +152,7 @@ base classes](../locale.html#Facet_category_base_classes "cpp/locale")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/navbar_content&action=edit)
+
 
 Defined in header `[<locale>](../header/locale.html "cpp/header/locale")` |  |   
 ---|---|---  
@@ -174,21 +174,21 @@ Converts the character ch to lowercase if possible, using the conversion rules s
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/tolower&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 ch  |  \-  |  character   
 ---|---|---  
 loc  |  \-  |  locale   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/tolower&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Returns the lowercase form of ch if one is listed in the locale, otherwise return ch unchanged. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/tolower&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Only 1:1 character mapping can be performed by this function, e.g. the Greek uppercase letter 'Σ' has two lowercase forms, depending on the position in a word: 'σ' and 'ς'. A call to std::tolower cannot be used to obtain the correct lowercase form in this case. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/tolower&action=edit&section=4 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     template<class CharT>
@@ -199,7 +199,7 @@ Only 1:1 character mapping can be performed by this function, e.g. the Greek upp
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/tolower&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -227,12 +227,12 @@ Possible output:
     in the default locale, tolower(0x190) = 0x190
     in Unicode locale, tolower(0x190) = 0x25b
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/tolower&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ toupper(std::locale)](toupper.html "cpp/locale/toupper") |  converts a character to uppercase using the ctype facet of a locale   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_toupper&action=edit)  
+(function template)   
 ---|---  
 [ tolower](../string/byte/tolower.html "cpp/string/byte/tolower") |  converts a character to lowercase   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_tolower&action=edit)  
+(function)   
 [ towlower](../string/wide/towlower.html "cpp/string/wide/towlower") |  converts a wide character to lowercase   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_towlower&action=edit)
+(function) 

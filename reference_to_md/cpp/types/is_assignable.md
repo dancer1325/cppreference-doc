@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Metaprogramming library](../meta.html "cpp/meta")
 
@@ -167,7 +167,7 @@ Type transformations
 Compile-time integer sequences  
 [integer_sequence](../utility/integer_sequence.html "cpp/utility/integer sequence")(C++14)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/meta/navbar_content&action=edit)
+
 
 Defined in header `[<type_traits>](../header/type_traits.html "cpp/header/type traits")` |  |   
 ---|---|---  
@@ -205,7 +205,7 @@ If the program adds specializations for any of the templates described on this p
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_assignable&action=edit&section=1 "Edit section: Helper variable templates")] Helper variable templates
+### Helper variable templates
 
 template< class T, class U >  
 constexpr bool is_assignable_v = is_assignable<T, U>::value; |  |  (since C++17)  
@@ -216,7 +216,7 @@ template< class T, class U >
 constexpr bool is_nothrow_assignable_v = is_nothrow_assignable<T, U>::value; |  |  (since C++17)  
 | |   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/integral_constant/inherit2&action=edit)
+
 
 ##  Inherited from [ std::integral_constant](integral_constant.html "cpp/types/integral constant")
 
@@ -241,11 +241,11 @@ Type  |  Definition
 `value_type` |  bool  
 `type` |  [std::integral_constant](integral_constant.html)<bool, value>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_assignable&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 This trait does not check anything outside the immediate context of the assignment expression: if the use of `T` or `U` would trigger template specializations, generation of implicitly-defined special member functions etc, and those have errors, the actual assignment may not compile even if std::is_assignable<T,U>::value compiles and evaluates to true. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_assignable&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -283,12 +283,12 @@ Output:
     string is assignable from double? true
     Ex1& is trivially assignable from const Ex1&? true
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_assignable&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ is_copy_assignableis_trivially_copy_assignableis_nothrow_copy_assignable](is_copy_assignable.html "cpp/types/is copy assignable")(C++11)(C++11)(C++11) |  checks if a type has a copy assignment operator   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_copy_assignable&action=edit)  
+(class template)   
 ---|---  
 [ is_move_assignableis_trivially_move_assignableis_nothrow_move_assignable](is_move_assignable.html "cpp/types/is move assignable")(C++11)(C++11)(C++11) |  checks if a type has a move assignment operator   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_move_assignable&action=edit)  
+(class template)   
 [ assignable_from](../concepts/assignable_from.html "cpp/concepts/assignable from")(C++20) |  specifies that a type is assignable from another type   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_assignable_from&action=edit)
+(concept) 

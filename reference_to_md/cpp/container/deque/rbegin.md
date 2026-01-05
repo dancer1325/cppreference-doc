@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::deque`](../deque.html "cpp/container/deque")
 
@@ -134,7 +134,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/deque/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/deque/navbar_content&action=edit)
+
 
 reverse_iterator rbegin(); |  (1) | (noexcept since C++11)   
 (constexpr since C++26)  
@@ -162,21 +162,21 @@ If *this is empty, the returned iterator is equal to [rend()](rend.html "cpp/con
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/rbegin&action=edit&section=T-1 "Template:cpp/container/rbegin")] Return value
+### Return value
 
 Reverse iterator to the first element. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/rbegin&action=edit&section=T-2 "Template:cpp/container/rbegin")] Complexity
+### Complexity
 
 Constant. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/rbegin&action=edit&section=T-3 "Template:cpp/container/rbegin")] Notes
+### Notes
 
 The [underlying iterator](../../iterator/reverse_iterator/base.html "cpp/iterator/reverse iterator/base") of the returned reverse iterator is the [end iterator](end.html "cpp/container/deque/end"). Hence the returned iterator is invalidated if and when the end iterator is invalidated.
 
 libc++ backports `crbegin()` to C++98 mode.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/rbegin&action=edit&section=T-4 "Template:cpp/container/rbegin")] Example
+### Example
 
 Run this code
     
@@ -217,10 +217,10 @@ Output:
     First fruit: raspberry
     deque 'empty' is indeed empty.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/rbegin&action=edit&section=T-5 "Template:cpp/container/rbegin")] See also
+### See also
 
 [ rendcrend](rend.html "cpp/container/deque/rend")(C++11) |  returns a reverse iterator to the end   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_rend&action=edit)  
+(public member function)   
 ---|---  
 [ rbegincrbegin](../../iterator/rbegin.html "cpp/iterator/rbegin")(C++14) |  returns a reverse iterator to the beginning of a container or array   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_rbegin&action=edit)
+(function template) 

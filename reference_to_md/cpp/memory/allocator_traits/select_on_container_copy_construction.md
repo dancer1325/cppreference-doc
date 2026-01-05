@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::allocator_traits`](../allocator_traits.html "cpp/memory/allocator traits")
 
@@ -199,7 +199,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
 [allocator_traits::max_size](max_size.html "cpp/memory/allocator traits/max size")  
 **allocator_traits::select_on_container_copy_construction**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/allocator_traits/navbar_content&action=edit)
+
 
 Defined in header `[<memory>](../../header/memory.html "cpp/header/memory")` |  |   
 ---|---|---  
@@ -211,17 +211,17 @@ If possible, obtains the copy-constructed version of the allocator a, by calling
 
 This function is called by the copy constructors of all standard library containers. It allows the allocator used by the constructor's argument to become aware that the container is being copied and modify state if necessary. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/allocator_traits/select_on_container_copy_construction&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 a  |  \-  |  allocator used by a standard container passed as an argument to a container copy constructor   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/allocator_traits/select_on_container_copy_construction&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The allocator to use by the copy-constructed standard containers. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/allocator_traits/select_on_container_copy_construction&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ select_on_container_copy_construction](../scoped_allocator_adaptor/select_on_container_copy_construction.html "cpp/memory/scoped allocator adaptor/select on container copy construction") |  copies the state of `scoped_allocator_adaptor` and all its allocators   
-(public member function of `std::scoped_allocator_adaptor<OuterAlloc,InnerAlloc...>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/scoped_allocator_adaptor/dsc_select_on_container_copy_construction&action=edit)  
+(public member function of `std::scoped_allocator_adaptor<OuterAlloc,InnerAlloc...>`)   
 ---|---

@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 `[std::unordered_multimap](../unordered_multimap.html "cpp/container/unordered multimap")`
 
@@ -135,7 +135,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/unordered multimap/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/unordered_multimap/navbar_content&action=edit)
+
 
 template< class H2, class P2 >  
 void merge( [std::unordered_map](../unordered_map.html)<Key, T, H2, P2, Allocator>& source ); |  (1) | (since C++17)   
@@ -168,18 +168,18 @@ No elements are copied or moved, only the internal pointers of the container nod
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/merge_assoc&action=edit&section=T-1 "Template:cpp/container/merge assoc")] Parameters
+### Parameters
 
 source  |  \-  |  compatible container to transfer the nodes from   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/merge_assoc&action=edit&section=T-3 "Template:cpp/container/merge assoc")] Complexity
+### Complexity
 
 Given \\(\scriptsize S\\)S as size() and \\(\scriptsize N\\)N as source.size(): 
 
 1-4) Average case \\(\scriptsize O(N)\\)O(N), worst case \\(\scriptsize O(N \cdot S + N)\\)O(N·S+N).
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/merge_assoc&action=edit&section=T-4 "Template:cpp/container/merge assoc")] Example
+### Example
 
 Run this code
     
@@ -229,10 +229,10 @@ Possible output:
     p: [8] {{E, 6}, {E, 7}, {C, 3}, {A, 1}, {A, 0}, {A, 4}, {D, 5}, {B, 2}}
     q: [0] {}
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/merge_assoc&action=edit&section=T-5 "Template:cpp/container/merge assoc")] See also
+### See also
 
 [ extract](extract.html "cpp/container/unordered multimap/extract")(C++17) |  extracts nodes from the container   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_extract&action=edit)  
+(public member function)   
 ---|---  
 [ insert](insert.html "cpp/container/unordered multimap/insert") |  inserts elements or nodes(since C++17)   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_insert&action=edit)
+(public member function) 

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](ranges/copy.html "cpp/algorithm/ra
 [uninitialized_default_construct_n](../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 Defined in header `[<cstdlib>](../header/cstdlib.html "cpp/header/cstdlib")` |  |   
 ---|---|---  
@@ -325,7 +325,7 @@ If the array contains several elements that comp would indicate as equal to the 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/bsearch&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 key  |  \-  |  pointer to the element to search for   
 ---|---|---  
@@ -335,17 +335,17 @@ size  |  \-  |  size of each element in the array in bytes
 comp  |  \-  |  comparison function which returns ​a negative integer value if the first argument is _less_ than the second, a positive integer value if the first argument is _greater_ than the second and zero if the arguments are equivalent.key is passed as the first argument, an element from the array as the second.  
 The signature of the comparison function should be equivalent to the following:  int cmp(const void *a, const void *b); The function must not modify the objects passed to it and must return consistent results when called for the same objects, regardless of their positions in the array. ​   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/bsearch&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Pointer to the found element or null pointer if the element has not been found. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/bsearch&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Despite the name, neither C nor POSIX standards require this function to be implemented using binary search or make any complexity guarantees. 
 
 The two overloads provided by the C++ standard library are distinct because the types of the parameter comp are distinct ([language linkage](../language.html#language_linkage "cpp/language") is part of its type). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/bsearch&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -393,11 +393,11 @@ Output:
     value 8 found at position 7
     value 9 not found
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/bsearch&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ qsort](qsort.html "cpp/algorithm/qsort") |  sorts a range of elements with unspecified type   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_qsort&action=edit)  
+(function)   
 ---|---  
 [ equal_range](equal_range.html "cpp/algorithm/equal range") |  returns range of elements matching a specific key   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_equal_range&action=edit)  
+(function template)   
 [C documentation](../../c/algorithm/bsearch.html "c/algorithm/bsearch") for bsearch

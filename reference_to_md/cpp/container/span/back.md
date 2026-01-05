@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -71,7 +71,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::span`](../span.html "cpp/container/span")
 
@@ -104,7 +104,7 @@ Tables
 [dynamic_extent](dynamic_extent.html "cpp/container/span/dynamic extent")  
 [Deduction guides](deduction_guides.html "cpp/container/span/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/span/navbar_content&action=edit)
+
 
 constexpr reference back() const; |  |  (since C++20)  
 ---|---|---  
@@ -132,19 +132,19 @@ If [`empty()`](empty.html "cpp/container/span/empty") is true:
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/span/back&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 A reference to the back element. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/span/back&action=edit&section=2 "Edit section: Complexity")] Complexity
+### Complexity
 
 Constant. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/span/back&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 For a span c, the expression c.back() is equivalent to *(c.end() - 1). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/span/back&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -179,8 +179,8 @@ Output:
     0 1 2 3 4
     4 3 2 1 0
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/span/back&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ front](front.html "cpp/container/span/front") |  access the first element   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_front&action=edit)  
+(public member function)   
 ---|---

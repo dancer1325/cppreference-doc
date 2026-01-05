@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Diagnostics library](../error.html "cpp/error")
 
@@ -187,7 +187,7 @@ Exception handling failures
 [breakpoint_if_debugging](../utility/breakpoint_if_debugging.html "cpp/utility/breakpoint if debugging")(C++26)  
 [breakpoint](../utility/breakpoint.html "cpp/utility/breakpoint")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/navbar_content&action=edit)
+
 
 **`std::error_condition`**
 
@@ -207,7 +207,7 @@ Helper classes
 [is_error_condition_enum](error_condition/is_error_condition_enum.html "cpp/error/error condition/is error condition enum")  
 [hash<std::error_condition>](error_condition/hash.html "cpp/error/error condition/hash")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/error_condition/navbar_content&action=edit)
+
 
 Defined in header `[<system_error>](../header/system_error.html "cpp/header/system error")` |  |   
 ---|---|---  
@@ -229,41 +229,41 @@ A typical implementation holds one integer data member (the value) and a pointer
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/error_condition&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](error_condition/error_condition.html "cpp/error/error condition/error condition") |  constructs an `error_condition`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/error_condition/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ operator=](error_condition/operator=.html "cpp/error/error condition/operator=") |  replaces the contents   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/error_condition/dsc_operator%3D&action=edit)  
+(public member function)   
 [ assign](error_condition/assign.html "cpp/error/error condition/assign") |  replaces the contents   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/error_condition/dsc_assign&action=edit)  
+(public member function)   
 [ clear](error_condition/clear.html "cpp/error/error condition/clear") |  sets the `error_condition` to value ​0​ in `generic_category`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/error_condition/dsc_clear&action=edit)  
+(public member function)   
 [ value](error_condition/value.html "cpp/error/error condition/value") |  obtains the value of the `error_condition`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/error_condition/dsc_value&action=edit)  
+(public member function)   
 [ category](error_condition/category.html "cpp/error/error condition/category") |  obtains the `error_category` for this `error_condition`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/error_condition/dsc_category&action=edit)  
+(public member function)   
 [ message](error_condition/message.html "cpp/error/error condition/message") |  obtains the explanatory string   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/error_condition/dsc_message&action=edit)  
+(public member function)   
 [ operator bool](error_condition/operator_bool.html "cpp/error/error condition/operator bool") |  checks if the value is non-zero   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/error_condition/dsc_operator_bool&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/error_condition&action=edit&section=2 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ operator==operator!=operator<operator<=>](error_condition/operator_cmp.html "cpp/error/error condition/operator cmp")(removed in C++20)(removed in C++20)(C++20) |  compares `error_condition`s and `error_code`s   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/error_condition/dsc_operator_cmp&action=edit)  
+(function)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/error_condition&action=edit&section=3 "Edit section: Helper classes")] Helper classes
+### Helper classes
 
 [ is_error_condition_enum](error_condition/is_error_condition_enum.html "cpp/error/error condition/is error condition enum")(C++11) |  identifies an enumeration as an **std::error_condition**   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/error_condition/dsc_is_error_condition_enum&action=edit)  
+(class template)   
 ---|---  
 [ std::hash<std::error_condition>](error_condition/hash.html "cpp/error/error condition/hash")(C++17) |  hash support for **`std::error_condition`**   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/error_condition/dsc_hash&action=edit)  
+(class template specialization)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/error_condition&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 The [comparison](error_condition/operator_cmp.html "cpp/error/error condition/operator cmp") between a [std::error_code](error_code.html "cpp/error/error code") and a `std::error_condition` is defined by their error categories. Notably, an error condition of [std::generic_category](generic_category.html "cpp/error/generic category") may compare equal to an error code of a specific category (e.g. [std::system_category](system_category.html "cpp/error/system category")), if they represent the same kind of error. 
 
@@ -296,12 +296,12 @@ Possible output:
     true
     false
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/error_condition&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ error_code](error_code.html "cpp/error/error code")(C++11) |  holds a platform-dependent error code   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_error_code&action=edit)  
+(class)   
 ---|---  
 [ error_category](error_category.html "cpp/error/error category")(C++11) |  base class for error categories   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_error_category&action=edit)  
+(class)   
 [ make_error_condition(std::errc)](errc/make_error_condition.html "cpp/error/errc/make error condition")(C++11) |  creates an error condition for an `errc` value e   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/errc/dsc_make_error_condition&action=edit)
+(function) 

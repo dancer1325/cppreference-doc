@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [C-style date and time utilities](../c.html "cpp/chrono/c")
 
@@ -128,7 +128,7 @@ Types
 [clock_t](clock_t.html "cpp/chrono/c/clock t")  
 [timespec](timespec.html "cpp/chrono/c/timespec")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/c/navbar_content&action=edit)
+
 
 Defined in header `[<ctime>](../../header/ctime.html "cpp/header/ctime")` |  |   
 ---|---|---  
@@ -163,22 +163,22 @@ The function does not support localization.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/c/ctime&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 time  |  \-  |  pointer to a [std::time_t](time_t.html "cpp/chrono/c/time t") object specifying the time to print   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/c/ctime&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Pointer to a static null-terminated character string holding the textual representation of date and time. The string may be shared between [std::asctime](asctime.html "cpp/chrono/c/asctime") and `std::ctime`, and may be overwritten on each invocation of any of those functions. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/c/ctime&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 This function returns a pointer to static data and is not thread-safe. In addition, it modifies the static [std::tm](tm.html "cpp/chrono/c/tm") object which may be shared with [std::gmtime](gmtime.html "cpp/chrono/c/gmtime") and [std::localtime](localtime.html "cpp/chrono/c/localtime"). POSIX marks this function obsolete and recommends [std::strftime](strftime.html "cpp/chrono/c/strftime") instead. 
 
 The behavior may be undefined for the values of [std::time_t](time_t.html "cpp/chrono/c/time t") that result in the string longer than 25 characters (e.g. year 10000). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/c/ctime&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -205,13 +205,13 @@ Possible output:
     Mon Oct 11 17:10:55 2021
     Mon Oct 11 17:10:55 2021
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/c/ctime&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ asctime](asctime.html "cpp/chrono/c/asctime") |  converts a [std::tm](tm.html "cpp/chrono/c/tm") object to a textual representation   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/c/dsc_asctime&action=edit)  
+(function)   
 ---|---  
 [ strftime](strftime.html "cpp/chrono/c/strftime") |  converts a [std::tm](tm.html "cpp/chrono/c/tm") object to custom textual representation   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/c/dsc_strftime&action=edit)  
+(function)   
 [ put_time](../../io/manip/put_time.html "cpp/io/manip/put time")(C++11) |  formats and outputs a date/time value according to the specified format   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_put_time&action=edit)  
+(function template)   
 [C documentation](../../../c/chrono/ctime.html "c/chrono/ctime") for ctime

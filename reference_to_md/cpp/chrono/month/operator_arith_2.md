@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::month`](../month.html "cpp/chrono/month")
 
@@ -121,7 +121,7 @@ Helper classes
 [formatter<std::chrono::month>](formatter.html "cpp/chrono/month/formatter")  
 [hash<std::chrono::month>](hash.html "cpp/chrono/month/hash")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/month/navbar_content&action=edit)
+
 
 Defined in header `[<chrono>](../../header/chrono.html "cpp/header/chrono")` |  |   
 ---|---|---  
@@ -151,19 +151,19 @@ const [std::chrono::month](../month.html)& m2 ) noexcept; |  (4)  |  (since C++2
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/month/operator_arith_2&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 1-3) A std::chrono::month holding a month value calculated as described above.
 
 4) A std::chrono::months representing the distance between m1 and m2.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/month/operator_arith_2&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 As long as the computation doesn't overflow, (1-3) always return a valid month even if m.ok() is false. 
 
 The result of subtracting two `month` values is a duration of type std::chrono::months. That duration unit represents the length of the average Gregorian month, and the resulting duration bears no relationship to the number of days in the particular months represented by the operands. For example, [std::chrono::seconds](../duration.html)([std::chrono::April](../month.html) - [std::chrono::March](../month.html)) is not the number of seconds in March (2678400s), but 2629746s (30.436875 days). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/month/operator_arith_2&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -185,10 +185,10 @@ Run this code
         static_assert(ms == [std::chrono::months](../duration.html)(2));
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/month/operator_arith_2&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ operator++operator++(int)operator--operator--(int)](operator_inc_dec.html "cpp/chrono/month/operator inc dec") |  increments or decrements the month   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/month/dsc_operator_inc_dec&action=edit)  
+(public member function)   
 ---|---  
 [ operator+=operator-=](operator_arith.html "cpp/chrono/month/operator arith") |  adds or subtracts a number of months   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/month/dsc_operator_arith&action=edit)
+(public member function) 

@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -175,7 +175,7 @@
 [atomic_flag_notify_one](../atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::atomic`](../atomic.html "cpp/atomic/atomic")
 
@@ -212,7 +212,7 @@ pointer types only](../atomic.html#Specialized_for_integral_and_pointer_types_on
 [atomic::fetch_xor](fetch_xor.html "cpp/atomic/atomic/fetch xor")  
 [atomic::operator&=atomic::operator|=atomic::operator^=](operator_arith3.html "cpp/atomic/atomic/operator arith3")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/navbar_content&action=edit)
+
 
 void wait( T old, [std::memory_order](../memory_order.html) order =  
 [std::memory_order_seq_cst](../memory_order.html) ) const noexcept; |  (1) | (since C++20)   
@@ -245,13 +245,13 @@ If order is not [std::memory_order_relaxed](../memory_order.html), [std::memory_
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/wait&action=edit&section=T-1 "Template:cpp/atomic/atomic/wait")] Parameters
+### Parameters
 
 old  |  \-  |  the value to check the `atomic`'s object no longer contains   
 ---|---|---  
 order  |  \-  |  memory order constraints to enforce   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/wait&action=edit&section=T-2 "Template:cpp/atomic/atomic/wait")] Notes
+### Notes
 
 This form of change-detection is often more efficient than simple polling or pure spinlocks. 
 
@@ -259,7 +259,7 @@ Due to the [ABA problem](https://en.wikipedia.org/wiki/ABA_problem "enwiki:ABA p
 
 The comparison is bitwise (similar to [std::memcmp](../../string/byte/memcmp.html "cpp/string/byte/memcmp")); no comparison operator is used. Padding bits that never participate in an object's value representation are ignored. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/wait&action=edit&section=T-3 "Template:cpp/atomic/atomic/wait")] Example
+### Example
 
 Run this code
     
@@ -309,14 +309,14 @@ Output:
     
     Tasks completed = 16
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/wait&action=edit&section=T-4 "Template:cpp/atomic/atomic/wait")] See also
+### See also
 
 [ notify_one](notify_one.html "cpp/atomic/atomic/notify one")(C++20) |  notifies at least one thread waiting on the atomic object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_notify_one&action=edit)  
+(public member function)   
 ---|---  
 [ notify_all](notify_all.html "cpp/atomic/atomic/notify all")(C++20) |  notifies all threads blocked waiting on the atomic object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_notify_all&action=edit)  
+(public member function)   
 [ atomic_notify_one](../atomic_notify_one.html "cpp/atomic/atomic notify one")(C++20) |  notifies a thread blocked in atomic_wait   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/dsc_atomic_notify_one&action=edit)  
+(function template)   
 [ atomic_notify_all](../atomic_notify_all.html "cpp/atomic/atomic notify all")(C++20) |  notifies all threads blocked in atomic_wait   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/dsc_atomic_notify_all&action=edit)
+(function template) 

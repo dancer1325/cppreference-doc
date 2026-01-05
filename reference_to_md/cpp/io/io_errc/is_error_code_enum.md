@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::io_errc`](../io_errc.html "cpp/io/io errc")
 
@@ -88,7 +88,7 @@ Non-member functions
 Helper classes  
 **is_error_code_enum <std::io_errc>**(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/io_errc/navbar_content&action=edit)
+
 
 Defined in header `[<ios>](../../header/ios.html "cpp/header/ios")` |  |   
 ---|---|---  
@@ -133,7 +133,7 @@ Type  |  Definition
 `value_type` |  bool  
 `type` |  [std::integral_constant](../../types/integral_constant.html)<bool, value>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/io_errc/is_error_code_enum&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
 The comparison between e.code() and [std::io_errc::stream](../io_errc.html "cpp/io/io errc") compiles because [std::is_error_code_enum](../../error/error_code/is_error_code_enum.html)<[std::io_errc](../io_errc.html)>::value == true.
 
@@ -164,12 +164,12 @@ Output:
     Caught an ios_base::failure.
     The error code is std::io_errc::stream
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/io_errc/is_error_code_enum&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ is_error_code_enum](../../error/error_code/is_error_code_enum.html "cpp/error/error code/is error code enum")(C++11) |  identifies a class as an `error_code` enumeration   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/error_code/dsc_is_error_code_enum&action=edit)  
+(class template)   
 ---|---  
 [ error_code](../../error/error_code.html "cpp/error/error code")(C++11) |  holds a platform-dependent error code   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_error_code&action=edit)  
+(class)   
 [ io_errc](../io_errc.html "cpp/io/io errc")(C++11) |  the IO stream error codes   
-(enum) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_io_errc&action=edit)
+(enum) 

@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::deque`](../deque.html "cpp/container/deque")
 
@@ -134,7 +134,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/deque/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/deque/navbar_content&action=edit)
+
 
 template< class... Args >  
 void emplace_back( Args&&... args ); |  |  (until C++17)  
@@ -160,28 +160,28 @@ All iterators (including the [`end()`](end.html "cpp/container/deque/end") itera
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/emplace_back&action=edit&section=T-1 "Template:cpp/container/emplace back")] Parameters
+### Parameters
 
 args  |  \-  |  arguments to forward to the constructor of the element   
 ---|---|---  
 Type requirements   
 -If `T` is not [EmplaceConstructible](../../named_req/EmplaceConstructible.html "cpp/named req/EmplaceConstructible") into `deque` from args..., the behavior is undefined.   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/emplace_back&action=edit&section=T-2 "Template:cpp/container/emplace back")] Return value
+### Return value
 
 (none)  | (until C++17)  
 ---|---  
 A reference to the inserted element.  | (since C++17)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/emplace_back&action=edit&section=T-3 "Template:cpp/container/emplace back")] Complexity
+### Complexity
 
 Constant. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/emplace_back&action=edit&section=T-4 "Template:cpp/container/emplace back")] Exceptions
+### Exceptions
 
 If an exception is thrown for any reason, this function has no effect ([strong exception safety guarantee](../../language/exceptions.html#Exception_safety "cpp/language/exceptions")). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/emplace_back&action=edit&section=T-6 "Template:cpp/container/emplace back")] Example
+### Example
 
 The following code uses `emplace_back` to append an object of type `President` to a [std::deque](../deque.html "cpp/container/deque"). It demonstrates how `emplace_back` forwards parameters to the `President` constructor and shows how using `emplace_back` avoids the extra copy or move operation required when using [push_back](push_back.html "cpp/container/deque/push back").
 
@@ -249,10 +249,10 @@ Output:
     Nelson Mandela was elected president of South Africa in 1994.
     Franklin Delano Roosevelt was re-elected president of the USA in 1936.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/emplace_back&action=edit&section=T-7 "Template:cpp/container/emplace back")] See also
+### See also
 
 [ push_back](push_back.html "cpp/container/deque/push back") |  adds an element to the end   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_push_back&action=edit)  
+(public member function)   
 ---|---  
 [ emplace](emplace.html "cpp/container/deque/emplace")(C++11) |  constructs element in-place   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_emplace&action=edit)
+(public member function) 

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::drop_while_view`](../drop_while_view.html "cpp/ranges/drop while view")
 
@@ -237,7 +237,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
 [drop_while_view::end](end.html "cpp/ranges/drop while view/end")  
 [Deduction guides](deduction_guides.html "cpp/ranges/drop while view/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/drop_while_view/navbar_content&action=edit)
+
 
 drop_while_view() requires [std::default_initializable](../../concepts/default_initializable.html)<V> &&  
 [std::default_initializable](../../concepts/default_initializable.html)<Pred> = default; |  (1)  |  (since C++20)  
@@ -251,13 +251,13 @@ Constructs a `drop_while_view`.
 
 2) Move constructs the underlying view `_base__` from base and the predicate `_pred__` from pred.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/drop_while_view/drop_while_view&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 base  |  \-  |  underlying view   
 ---|---|---  
 pred  |  \-  |  predicate   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/drop_while_view/drop_while_view&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -280,7 +280,7 @@ Output:
     
     3 1 4 1 5
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/drop_while_view/drop_while_view&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

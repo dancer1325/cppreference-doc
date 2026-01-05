@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 **`std::ranges::chunk_by_view`**
 
@@ -247,7 +247,7 @@ chunk_by_view::_iterator_ ::operator--
 chunk_by_view::_iterator_ ::operator--(int)](chunk_by_view/iterator/operator_arith.html "cpp/ranges/chunk by view/iterator/operator arith")  
 [operator==(chunk_by_view::_iterator_)](chunk_by_view/iterator/operator_cmp.html "cpp/ranges/chunk by view/iterator/operator cmp")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/chunk_by_view/navbar_content&action=edit)
+
 
 Defined in header `[<ranges>](../header/ranges.html "cpp/header/ranges")` |  |   
 ---|---|---  
@@ -288,7 +288,7 @@ constexpr /*range adaptor closure*/ chunk_by( Pred&& pred ); |  |  (since C++23)
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/chunk_by_view&action=edit&section=1 "Edit section: Data members")] Data members
+### Data members
 
 Member  |  Definition   
 ---|---  
@@ -299,19 +299,19 @@ Member  |  Definition
 [`_non-propagating-cache_`](non-propagating-cache.html "cpp/ranges/non-propagating-cache")` _< iterator>_` `_begin__` |  an object that caches the iterator to the first element  
 (exposition-only member object*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/chunk_by_view&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](chunk_by_view/chunk_by_view.html "cpp/ranges/chunk by view/chunk by view") |  constructs a `chunk_by_view`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ base](chunk_by_view/base.html "cpp/ranges/chunk by view/base") |  returns a copy of the underlying (adapted) view   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/dsc_base&action=edit)  
+(public member function)   
 [ pred](chunk_by_view/pred.html "cpp/ranges/chunk by view/pred") |  returns a reference to the stored predicate   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/dsc_pred&action=edit)  
+(public member function)   
 [ begin](chunk_by_view/begin.html "cpp/ranges/chunk by view/begin") |  returns an iterator to the beginning   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/dsc_begin&action=edit)  
+(public member function)   
 [ end](chunk_by_view/end.html "cpp/ranges/chunk by view/end") |  returns an iterator or a sentinel to the end   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/dsc_end&action=edit)  
+(public member function)   
 [__find_next__](chunk_by_view/helpers.html#find_next "cpp/ranges/chunk by view/helpers") |  returns an iterator to the begin of the next subrange  
 (exposition-only member function*)  
 [__find_prev__](chunk_by_view/helpers.html#find_prev "cpp/ranges/chunk by view/helpers") |  returns an iterator to the begin of the previous subrange  
@@ -320,27 +320,27 @@ Member  |  Definition
 #####  Inherited from [std::ranges::view_interface](view_interface.html "cpp/ranges/view interface")  
   
 [ empty](view_interface/empty.html "cpp/ranges/view interface/empty") |  returns whether the derived view is empty, provided only if it satisfies [`sized_range`](sized_range.html "cpp/ranges/sized range") or [`forward_range`](forward_range.html "cpp/ranges/forward range")   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_empty&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ cbegin](view_interface/cbegin.html "cpp/ranges/view interface/cbegin")(C++23) |  returns a constant iterator to the beginning of the range   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_cbegin&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ cend](view_interface/cend.html "cpp/ranges/view interface/cend")(C++23) |  returns a sentinel for the constant iterator of the range   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_cend&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ operator bool](view_interface/operator_bool.html "cpp/ranges/view interface/operator bool") |  returns whether the derived view is not empty, provided only if [ranges::empty](empty.html "cpp/ranges/empty") is applicable to it   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_operator_bool&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ front](view_interface/front.html "cpp/ranges/view interface/front") |  returns the first element in the derived view, provided if it satisfies [`forward_range`](forward_range.html "cpp/ranges/forward range")   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_front&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ back](view_interface/back.html "cpp/ranges/view interface/back") |  returns the last element in the derived view, provided only if it satisfies [`bidirectional_range`](bidirectional_range.html "cpp/ranges/bidirectional range") and [`common_range`](common_range.html "cpp/ranges/common range")   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_back&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/chunk_by_view&action=edit&section=3 "Edit section: Deduction guides")] [Deduction guides](chunk_by_view/deduction_guides.html "cpp/ranges/chunk by view/deduction guides")
+### [Deduction guides](chunk_by_view/deduction_guides.html "cpp/ranges/chunk by view/deduction guides")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/chunk_by_view&action=edit&section=4 "Edit section: Nested classes")] Nested classes
+### Nested classes
 
 [_iterator_](chunk_by_view/iterator.html "cpp/ranges/chunk by view/iterator") |  the iterator type  
 (exposition-only member class template*)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/chunk_by_view&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 In order to provide the amortized constant time complexity required by the [`range`](range.html "cpp/ranges/range") concept, the result of [`begin()`](chunk_by_view/begin.html "cpp/ranges/chunk by view/begin") is cached within the `chunk_by_view` object. If the underlying range is modified after the first call to [`begin()`](chunk_by_view/begin.html "cpp/ranges/chunk by view/begin"), subsequent uses of the `chunk_by_view` object might have unintuitive behavior. 
 
@@ -348,7 +348,7 @@ In order to provide the amortized constant time complexity required by the [`ran
 ---|---|---|---  
 [`__cpp_lib_ranges_chunk_by`](../experimental/feature_test.html#cpp_lib_ranges_chunk_by "cpp/feature test") | [`202202L`](../compiler_support/23.html#cpp_lib_ranges_chunk_by_202202L "cpp/compiler support/23") | (C++23) | `std::ranges::chunk_by_view`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/chunk_by_view&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -401,7 +401,7 @@ Output:
     [_] [_] [cpp] [_] [lib] [_] [ranges] [_] [chunk] [_] [by]
     [z] [ß] [水] [🍌]
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/chunk_by_view&action=edit&section=7 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -413,14 +413,14 @@ Output:
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/chunk_by_view&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [ ranges::chunk_viewviews::chunk](chunk_view.html "cpp/ranges/chunk view")(C++23) |  a range of [`view`s](view.html "cpp/ranges/view") that are `N`-sized non-overlapping successive chunks of the elements of another [`view`](view.html "cpp/ranges/view")  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_chunk_view&action=edit)  
+(class template) (range adaptor object)  
 ---|---  
 [ ranges::slide_viewviews::slide](slide_view.html "cpp/ranges/slide view")(C++23) |  a [`view`](view.html "cpp/ranges/view") whose Mth element is a [`view`](view.html "cpp/ranges/view") over the Mth through (M + N - 1)th elements of another [`view`](view.html "cpp/ranges/view")  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_slide_view&action=edit)  
+(class template) (range adaptor object)  
 [ ranges::stride_viewviews::stride](stride_view.html "cpp/ranges/stride view")(C++23) |  a [`view`](view.html "cpp/ranges/view") consisting of elements of another [`view`](view.html "cpp/ranges/view"), advancing over N elements at a time  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_stride_view&action=edit)
+(class template) (range adaptor object)
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

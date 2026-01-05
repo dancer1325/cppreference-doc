@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Exceptions](exceptions.html "cpp/language/exceptions")
 
@@ -233,7 +233,7 @@ Exception specification
 **dynamic specification** (until C++17*)  
 [noexcept operator](noexcept.html "cpp/language/noexcept") (C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/exceptions/navbar_content&action=edit)
+
 
 Lists the exceptions that a function might directly or indirectly throw. 
 
@@ -252,7 +252,7 @@ Lists the exceptions that a function might directly or indirectly throw.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/except_spec&action=edit&section=1 "Edit section: Syntax")] Syntax  
+### Syntax  
   
 ---  
 `**throw(**` type-id-list ﻿(optional)`**)**` |  (1)  |  (deprecated in C++11)  
@@ -271,7 +271,7 @@ An explicit dynamic exception specification shall appear only on a function decl
     void g(void pfa() throw(int));  // OK: pointer to function parameter declaration
     typedef int (*pf)() throw(int); // Error: typedef declaration
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/except_spec&action=edit&section=2 "Edit section: Explanation")] Explanation
+### Explanation
 
 If a function is declared with type `T` listed in its dynamic exception specification, the function may throw exceptions of that type or a type derived from it. 
 
@@ -283,7 +283,7 @@ A dynamic exception specification is not considered part of a function’s type.
 
 If the function throws an exception of the type not listed in its exception specification, the function [std::unexpected](../error/unexpected.html "cpp/error/unexpected") is called. The default function calls [std::terminate](../error/terminate.html "cpp/error/terminate"), but it may be replaced by a user-provided function (via [std::set_unexpected](../error/exception/set_unexpected.html "cpp/error/set unexpected")) which may call [std::terminate](../error/terminate.html "cpp/error/terminate") or throw an exception. If the exception thrown from [std::unexpected](../error/unexpected.html "cpp/error/unexpected") is accepted by the exception specification, stack unwinding continues as usual. If it isn't, but [std::bad_exception](../error/bad_exception.html "cpp/error/bad exception") is allowed by the exception specification, [std::bad_exception](../error/bad_exception.html "cpp/error/bad exception") is thrown. Otherwise, [std::terminate](../error/terminate.html "cpp/error/terminate") is called. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/except_spec&action=edit&section=3 "Edit section: Instantiation")] Instantiation
+#### Instantiation
 
 The dynamic exception specification of a function template specialization is not instantiated along with the function declaration; it is instantiated only when _needed_ (as defined below). 
 
@@ -316,7 +316,7 @@ A dynamic exception specification of a function is considered to be _needed_ in 
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/except_spec&action=edit&section=4 "Edit section: Potential exceptions")] Potential exceptions
+### Potential exceptions
 
 Each function `f`, pointer to function `pf`, and pointer to member function `pmf` has a _set of potential exceptions_ , which consists of types that might be thrown. Set of all types indicates that any exception may be thrown. This set is defined as follows: 
 
@@ -411,15 +411,15 @@ All implicitly-declared member functions and inheriting constructors (since C++1
         // D::~D() throw(X, Y);
     };
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/except_spec&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 Clang considers the rule of instantiation of dynamic exception specification is changed in C++11 by [CWG1330](https://cplusplus.github.io/CWG/issues/1330.html), see [LLVM #56349](https://github.com/llvm/llvm-project/issues/56439). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/except_spec&action=edit&section=6 "Edit section: Keywords")] Keywords
+### Keywords
 
 [`throw`](../keyword/throw.html "cpp/keyword/throw")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/except_spec&action=edit&section=7 "Edit section: Example")] Example
+### Example
 
 Note: best be compiled in C++98 mode to avoid warnings. Incompatible with C++17 and newer revisions.
 
@@ -464,7 +464,7 @@ Output:
     
     That was unexpected!
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/except_spec&action=edit&section=8 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -489,7 +489,7 @@ if the pack is empty
 might contain `bad_typeid` even if it cannot be thrown  | contains `bad_typeid`  
 only if it can be thrown   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/except_spec&action=edit&section=9 "Edit section: See also")] See also
+### See also
 
-[ `noexcept` specifier](noexcept_spec.html "cpp/language/noexcept spec")(C++11) |  specifies whether a function could throw exceptions[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_noexcept_spec&action=edit)  
+[ `noexcept` specifier](noexcept_spec.html "cpp/language/noexcept spec")(C++11) |  specifies whether a function could throw exceptions  
 ---|---

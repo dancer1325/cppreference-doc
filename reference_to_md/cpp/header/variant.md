@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header is part of the [general utility](../utility.html "cpp/utility") library. 
 
@@ -216,44 +216,44 @@ This header is part of the [general utility](../utility.html "cpp/utility") libr
   
 ###  Includes  
   
-[ <compare>](compare.html "cpp/header/compare")(C++20) |  [Three-way comparison operator](../language/operator_comparison.html#Three-way_comparison "cpp/language/operator comparison") support[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/dsc_compare&action=edit)  
+[ <compare>](compare.html "cpp/header/compare")(C++20) |  [Three-way comparison operator](../language/operator_comparison.html#Three-way_comparison "cpp/language/operator comparison") support  
   
 ###  Classes  
   
 [ variant](../utility/variant.html "cpp/utility/variant")(C++17) |  a type-safe discriminated union   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_variant&action=edit)  
+(class template)   
 [ monostate](../utility/variant/monostate.html "cpp/utility/variant/monostate")(C++17) |  placeholder type for use as the first alternative in a `variant` of non-default-constructible types   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variant/dsc_monostate&action=edit)  
+(class)   
 [ bad_variant_access](../utility/variant/bad_variant_access.html "cpp/utility/variant/bad variant access")(C++17) |  exception thrown on invalid accesses to the value of a `variant`   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variant/dsc_bad_variant_access&action=edit)  
+(class)   
 [ variant_sizevariant_size_v](../utility/variant/variant_size.html "cpp/utility/variant/variant size")(C++17) |  obtains the size of the `variant`'s list of alternatives at compile time  
-(class template) (variable template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variant/dsc_variant_size&action=edit)  
+(class template) (variable template)  
 [ variant_alternativevariant_alternative_t](../utility/variant/variant_alternative.html "cpp/utility/variant/variant alternative")(C++17) |  obtains the type of the alternative specified by its index, at compile time  
-(class template) (alias template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variant/dsc_variant_alternative&action=edit)  
+(class template) (alias template)  
 [ std::hash<std::variant>](../utility/variant/hash.html "cpp/utility/variant/hash")(C++17) |  hash support for [`std::variant`](../utility/variant.html "cpp/utility/variant")   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variant/dsc_hash&action=edit)  
+(class template specialization)   
   
 ###  Constants  
   
 [ variant_npos](../utility/variant/variant_npos.html "cpp/utility/variant/variant npos")(C++17) |  index of the `variant` in the invalid state   
-(constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variant/dsc_variant_npos&action=edit)  
+(constant)   
   
 ###  Functions  
   
 [ visit](../utility/variant/visit2.html "cpp/utility/variant/visit2")(C++17) |  calls the provided functor with the arguments held by one or more `variant`s   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variant/dsc_visit2&action=edit)  
+(function template)   
 [ holds_alternative](../utility/variant/holds_alternative.html "cpp/utility/variant/holds alternative")(C++17) |  checks if a `variant` currently holds a given type   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variant/dsc_holds_alternative&action=edit)  
+(function template)   
 [ get(std::variant)](../utility/variant/get.html "cpp/utility/variant/get")(C++17) |  reads the value of the variant given the index or the type (if the type is unique), throws on error   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variant/dsc_get&action=edit)  
+(function template)   
 [ get_if](../utility/variant/get_if.html "cpp/utility/variant/get if")(C++17) |  obtains a pointer to the value of a pointed-to `variant` given the index or the type (if unique), returns null on error   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variant/dsc_get_if&action=edit)  
+(function template)   
 [ operator==operator!=operator<operator<=operator>operator>=operator<=>](../utility/variant/operator_cmp.html "cpp/utility/variant/operator cmp")(C++17)(C++17)(C++17)(C++17)(C++17)(C++17)(C++20) |  compares `variant` objects as their contained values   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variant/dsc_operator_cmp&action=edit)  
+(function template)   
 [ std::swap(std::variant)](../utility/variant/swap2.html "cpp/utility/variant/swap2")(C++17) |  specializes the [std::swap](../utility/swap.html "cpp/algorithm/swap") algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variant/dsc_swap2&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/variant&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     // mostly freestanding
@@ -371,7 +371,7 @@ This header is part of the [general utility](../utility.html "cpp/utility") libr
       template<size_t I, class T> struct variant_alternative<I, const volatile T>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/variant&action=edit&section=T-1 "Template:cpp/synopsis/variant")] Class template [std::variant](../utility/variant.html "cpp/utility/variant")
+#### Class template [std::variant](../utility/variant.html "cpp/utility/variant")
     
     
     namespace std {
@@ -429,7 +429,7 @@ This header is part of the [general utility](../utility.html "cpp/utility") libr
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/variant&action=edit&section=T-2 "Template:cpp/synopsis/variant")] Class [std::monostate](../utility/variant/monostate.html "cpp/utility/variant/monostate")
+#### Class [std::monostate](../utility/variant/monostate.html "cpp/utility/variant/monostate")
     
     
     namespace std {
@@ -445,7 +445,7 @@ This header is part of the [general utility](../utility.html "cpp/utility") libr
       }
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/variant&action=edit&section=T-3 "Template:cpp/synopsis/variant")] Class [std::bad_variant_access](../utility/variant/bad_variant_access.html "cpp/utility/variant/bad variant access")
+#### Class [std::bad_variant_access](../utility/variant/bad_variant_access.html "cpp/utility/variant/bad variant access")
     
     
     namespace std {

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -199,7 +199,7 @@ Common vocabulary types
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::duration`](../duration.html "cpp/chrono/duration")
 
@@ -254,7 +254,7 @@ Helper classes
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/duration/navbar_content&action=edit)
+
 
 [`std::chrono::duration_values`](../duration_values.html "cpp/chrono/duration values")
 
@@ -264,7 +264,7 @@ Member functions
 [duration_values::min](min.html "cpp/chrono/duration values/min")  
 **duration_values::max**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/duration_values/navbar_content&action=edit)
+
 
 static constexpr Rep max(); |  | (since C++11)   
 (until C++20)  
@@ -274,20 +274,20 @@ static constexpr Rep max() noexcept; |  |  (since C++20)
   
 Returns the largest possible representation. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/duration_values/max&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/duration_values/max&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 [std::numeric_limits](../../types/numeric_limits.html)<Rep>::max()
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/duration_values/max&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ max](../duration/max.html "cpp/chrono/duration/max")[static] |  returns the special duration value max   
-(public static member function of `std::chrono::duration<Rep,Period>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/duration/dsc_max&action=edit)  
+(public static member function of `std::chrono::duration<Rep,Period>`)   
 ---|---  
 [ zero](zero.html "cpp/chrono/duration values/zero")[static] |  returns a zero-length representation   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/duration_values/dsc_zero&action=edit)  
+(public static member function)   
 [ min](min.html "cpp/chrono/duration values/min")[static] |  returns the smallest possible representation   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/duration_values/dsc_min&action=edit)
+(public static member function) 

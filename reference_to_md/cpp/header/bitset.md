@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header is part of the [general utility](../utility.html "cpp/utility") library. 
 
@@ -215,30 +215,30 @@ This header is part of the [general utility](../utility.html "cpp/utility") libr
   
 ###  Includes  
   
-[ <string>](string.html "cpp/header/string") |  [std::basic_string](../string/basic_string.html "cpp/string/basic string") class template[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/dsc_string&action=edit)  
-[ <iosfwd>](iosfwd.html "cpp/header/iosfwd") |  Forward declarations of all classes in the input/output library[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/dsc_iosfwd&action=edit)  
+[ <string>](string.html "cpp/header/string") |  [std::basic_string](../string/basic_string.html "cpp/string/basic string") class template  
+[ <iosfwd>](iosfwd.html "cpp/header/iosfwd") |  Forward declarations of all classes in the input/output library  
   
 ###  Classes  
   
 [ bitset](../utility/bitset.html "cpp/utility/bitset") |  implements constant length bit array   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_bitset&action=edit)  
+(class template)   
 [ std::hash<std::bitset>](../utility/bitset/hash.html "cpp/utility/bitset/hash")(C++11) |  hash support for [`std::bitset`](../utility/bitset.html "cpp/utility/bitset")   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/bitset/dsc_hash&action=edit)  
+(class template specialization)   
   
 #####  Forward declarations   
   
 Defined in header `[<functional>](functional.html "cpp/header/functional")`  
 [ hash](../utility/hash.html "cpp/utility/hash")(C++11) |  hash function object   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_hash&action=edit)  
+(class template)   
   
 ###  Functions  
   
 [ operator&operator|operator^](../utility/bitset/operator_logic2.html "cpp/utility/bitset/operator logic2") |  performs binary logic operations on bitsets   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/bitset/dsc_operator_logic2&action=edit)  
+(function template)   
 [ operator<<operator>>](../utility/bitset/operator_ltltgtgt2.html "cpp/utility/bitset/operator ltltgtgt2") |  performs stream input and output of bitsets   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/bitset/dsc_operator_ltltgtgt2&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/bitset&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     #include <string>
@@ -262,7 +262,7 @@ Defined in header `[<functional>](functional.html "cpp/header/functional")`
           operator<<(basic_ostream<CharT, Traits>& os, const bitset<N>& x);
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/bitset&action=edit&section=T-1 "Template:cpp/synopsis/bitset")] Class template [std::bitset](../utility/bitset.html "cpp/utility/bitset")
+#### Class template [std::bitset](../utility/bitset.html "cpp/utility/bitset")
     
     
     namespace std {
@@ -349,7 +349,7 @@ Defined in header `[<functional>](functional.html "cpp/header/functional")`
       template<size_t N> struct hash<bitset<N>>;
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/bitset&action=edit&section=2 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

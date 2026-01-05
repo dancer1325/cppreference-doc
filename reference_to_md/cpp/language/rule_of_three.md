@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 ## Contents
 
@@ -232,7 +232,7 @@ Miscellaneous
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/rule_of_three&action=edit&section=1 "Edit section: Rule of three")] Rule of three
+### Rule of three
 
 If a class requires a user-defined [destructor](destructor.html "cpp/language/destructor"), a user-defined [copy constructor](copy_constructor.html "cpp/language/copy constructor"), or a user-defined [copy assignment operator](as_operator.html "cpp/language/as operator"), it almost certainly requires all three. 
 
@@ -305,7 +305,7 @@ Output:
 
 Classes that manage non-copyable resources through copyable handles may have to declare copy assignment and copy constructor private and not provide their definitions(until C++11)define copy assignment and copy constructor as = delete(since C++11). This is another application of the rule of three: deleting one and leaving the other to be implicitly-defined typically incorrect. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/rule_of_three&action=edit&section=2 "Edit section: Rule of five")] Rule of five
+### Rule of five
 
 Because the presence of a user-defined (include = default or = delete declared) destructor, copy-constructor, or copy-assignment operator prevents implicit definition of the [move constructor](move_constructor.html "cpp/language/move constructor") and the [move assignment operator](move_operator.html "cpp/language/move operator"), any class for which move semantics are desirable, has to declare all five special member functions: 
     
@@ -359,7 +359,7 @@ Because the presence of a user-defined (include = default or = delete declared) 
 
 Unlike Rule of Three, failing to provide move constructor and move assignment is usually not an error, but a missed optimization opportunity. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/rule_of_three&action=edit&section=3 "Edit section: Rule of zero")] Rule of zero
+### Rule of zero
 
 Classes that have custom destructors, copy/move constructors or copy/move assignment operators should deal exclusively with ownership (which follows from the [Single Responsibility Principle](https://en.wikipedia.org/wiki/Single_responsibility_principle "enwiki:Single responsibility principle")). Other classes should not have custom destructors, copy/move constructors or copy/move assignment operators[[1]](rule_of_three.html#cite_note-1). 
 
@@ -390,7 +390,7 @@ However, this makes the class prone to slicing, which is why polymorphic classes
 
     [C.21: If you define or =delete any copy, move, or destructor function, define or =delete them all.](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#c21-if-you-define-or-delete-any-copy-move-or-destructor-function-define-or-delete-them-all)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/rule_of_three&action=edit&section=4 "Edit section: External links")] External links
+### External links
 
   1. [↑](rule_of_three.html#cite_ref-1) ["Rule of Zero", R. Martinho Fernandes 08/15/2012](https://web.archive.org/web/20130211035910/http://flamingdangerzone.com/cxx11/2012/08/15/rule-of-zero.html)
   2. [↑](rule_of_three.html#cite_ref-2) ["A Concern about the Rule of Zero", Scott Meyers, 3/13/2014](https://scottmeyers.blogspot.fr/2014/03/a-concern-about-rule-of-zero.html).

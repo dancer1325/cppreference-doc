@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::auto_ptr`](../auto_ptr.html "cpp/memory/auto ptr")
 
@@ -199,7 +199,7 @@ Member functions
 [auto_ptr::reset](reset.html "cpp/memory/auto ptr/reset")  
 [auto_ptr::operator auto_ptr<Y>auto_ptr::operator auto_ptr_ref<Y>](operator_auto_ptr.html "cpp/memory/auto ptr/operator auto ptr")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/auto_ptr/navbar_content&action=edit)
+
 
 ~auto_ptr() throw(); |  |  (deprecated in C++11)   
 (removed in C++17)  

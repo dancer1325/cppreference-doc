@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::promise`](../promise.html "cpp/thread/promise")
 
@@ -195,7 +195,7 @@ Non-member Functions
 Helper Classes  
 [uses_allocator<std::promise>](uses_allocator.html "cpp/thread/promise/uses allocator")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/promise/navbar_content&action=edit)
+
 
 void set_exception_at_thread_exit( [std::exception_ptr](../../error/exception_ptr.html) p ); |  |  (since C++11)  
 ---|---|---  
@@ -220,16 +220,16 @@ Calls to this function do not introduce data races with calls to [get_future](ge
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/promise/set_exception_at_thread_exit&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 p  |  \-  |  exception pointer to store. The behavior is undefined if p is nullptr  
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/promise/set_exception_at_thread_exit&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/promise/set_exception_at_thread_exit&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 [std::future_error](../future_error.html "cpp/thread/future error") on the following conditions: 
 
@@ -240,14 +240,14 @@ p  |  \-  |  exception pointer to store. The behavior is undefined if p is nullp
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/promise/set_exception_at_thread_exit&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/promise/set_exception_at_thread_exit&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ set_exception](set_exception.html "cpp/thread/promise/set exception") |  sets the result to indicate an exception   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/promise/dsc_set_exception&action=edit)  
+(public member function)   
 ---|---

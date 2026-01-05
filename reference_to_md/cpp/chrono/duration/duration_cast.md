@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::duration`](../duration.html "cpp/chrono/duration")
 
@@ -156,7 +156,7 @@ Helper classes
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/duration/navbar_content&action=edit)
+
 
 Defined in header `[<chrono>](../../header/chrono.html "cpp/header/chrono")` |  |   
 ---|---|---  
@@ -203,16 +203,16 @@ not 1 | ToDuration(static_cast<ToRep>
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/duration/duration_cast&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 d  |  \-  |  duration to convert   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/duration/duration_cast&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 d converted to a duration of type `ToDuration`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/duration/duration_cast&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 No implicit conversions are used. Multiplications and divisions are avoided where possible, if it is known at compile time that one or more parameters are 1. Computations are done in the widest type available and converted, as if by [`static_cast`](../../language/static_cast.html "cpp/language/static cast"), to the result type only when finished. 
 
@@ -220,7 +220,7 @@ Casting between integer durations where the source period is exactly divisible b
 
 Casting from a floating-point duration to an integer duration is [subject to undefined behavior](../../language/implicit_cast.html#Floating-integral_conversions "cpp/language/implicit conversion") when the floating-point value is NaN, infinity, or too large to be representable by the target's integer type. Otherwise, casting to an integer duration is subject to truncation as with any static_cast to an integer type. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/duration/duration_cast&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 This example measures the execution time of a function.
 
@@ -263,16 +263,16 @@ Possible output:
     
     f() took 1000.14ms, or 1000ms (whole milliseconds), or 1000000us (whole microseconds)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/duration/duration_cast&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ duration](../duration.html "cpp/chrono/duration")(C++11) |  a time interval   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_duration&action=edit)  
+(class template)   
 ---|---  
 [ time_point_cast](../time_point/time_point_cast.html "cpp/chrono/time point/time point cast")(C++11) |  converts a time point to another time point on the same clock, with a different duration   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_point/dsc_time_point_cast&action=edit)  
+(function template)   
 [ floor(std::chrono::duration)](floor.html "cpp/chrono/duration/floor")(C++17) |  converts a duration to another, rounding down   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/duration/dsc_floor&action=edit)  
+(function template)   
 [ ceil(std::chrono::duration)](ceil.html "cpp/chrono/duration/ceil")(C++17) |  converts a duration to another, rounding up   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/duration/dsc_ceil&action=edit)  
+(function template)   
 [ round(std::chrono::duration)](round.html "cpp/chrono/duration/round")(C++17) |  converts a duration to another, rounding to nearest, ties to even   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/duration/dsc_round&action=edit)
+(function template) 

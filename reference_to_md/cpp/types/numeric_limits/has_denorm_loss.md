@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Type support](../../utility/rtti.html "cpp/types")
 
@@ -161,7 +161,7 @@ Runtime type information
 ---  
 [bad_cast](../bad_cast.html "cpp/types/bad cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/navbar_content&action=edit)
+
 
 [`std::numeric_limits`](../numeric_limits.html "cpp/types/numeric limits")
 
@@ -204,7 +204,7 @@ Helper types
 [float_round_style](float_round_style.html "cpp/types/numeric limits/float round style")  
 [float_denorm_style](float_denorm_style.html "cpp/types/numeric limits/float denorm style")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/navbar_content&action=edit)
+
 
 static const bool has_denorm_loss; |  |  (until C++11)  
 ---|---|---  
@@ -224,7 +224,7 @@ The value of [std::numeric_limits](../numeric_limits.html)<T>::has_denorm_loss i
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/numeric_limits/has_denorm_loss&action=edit&section=1 "Edit section: Standard specializations")] Standard specializations
+### Standard specializations
 
 `T` |  value of [std::numeric_limits](../numeric_limits.html)<T>::has_denorm_loss  
 ---|---  
@@ -249,7 +249,7 @@ float |  implementation-defined
 double |  implementation-defined   
 long double |  implementation-defined   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/numeric_limits/has_denorm_loss&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 Standard-compliant IEEE 754 floating-point implementations of subnormal numbers are required to detect the loss of accuracy associated with the creation of such number, if it occurs, and may do so in one of the two distinct ways: 
 
@@ -264,16 +264,16 @@ libstdc++, libc++, libCstd, and stlport4 define this constant as false for all f
 
 As with any floating-point computations, accuracy loss may raise [FE_INEXACT](../../numeric/fenv/FE_exceptions.html "cpp/numeric/fenv/FE exceptions"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/numeric_limits/has_denorm_loss&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/numeric_limits/has_denorm_loss&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ tinyness_before](tinyness_before.html "cpp/types/numeric limits/tinyness before")[static] |  identifies floating-point types that detect tinyness before rounding   
-(public static member constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/dsc_tinyness_before&action=edit)  
+(public static member constant)   
 ---|---  
 [ has_denorm](has_denorm.html "cpp/types/numeric limits/has denorm")[static] |  identifies the denormalization style used by the floating-point type   
-(public static member constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/dsc_has_denorm&action=edit)
+(public static member constant) 

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Metaprogramming library](../meta.html "cpp/meta")
 
@@ -167,7 +167,7 @@ Type transformations
 Compile-time integer sequences  
 [integer_sequence](../utility/integer_sequence.html "cpp/utility/integer sequence")(C++14)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/meta/navbar_content&action=edit)
+
 
 Defined in header `[<type_traits>](../header/type_traits.html "cpp/header/type traits")` |  |   
 ---|---|---  
@@ -197,19 +197,19 @@ If the program adds specializations for `std::is_function` or `std::is_function_
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/traits/is&action=edit&section=T-1 "Template:cpp/types/traits/is")] Template parameters
+### Template parameters
 
 T  |  \-  |  a type to check   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/traits/is&action=edit&section=T-2 "Template:cpp/types/traits/is")] Helper variable template
+### Helper variable template
 
 template< class T >  
 constexpr bool is_function_v = is_function<T>::value; |  |  (since C++17)  
 ---|---|---  
 | |   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/integral_constant/inherit2&action=edit)
+
 
 ##  Inherited from [ std::integral_constant](integral_constant.html "cpp/types/integral constant")
 
@@ -234,7 +234,7 @@ Type  |  Definition
 `value_type` |  bool  
 `type` |  [std::integral_constant](integral_constant.html)<bool, value>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_function&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 `std::is_function` can be implemented in much simpler ways. Implementations similar to the following one are used by new versions of [libc++](https://github.com/llvm-mirror/libcxx/blob/master/include/type_traits#L889), [libstdc++](https://github.com/gcc-mirror/gcc/blob/master/libstdc%2B%2B-v3/include/std/type_traits#L538) and [MS STL](https://github.com/microsoft/STL/pull/460): 
     
@@ -247,7 +247,7 @@ Type  |  Definition
 
 The implementation shown below is for pedagogical purposes, since it exhibits the myriad kinds of function types. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_function&action=edit&section=2 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     // primary template
@@ -362,7 +362,7 @@ The implementation shown below is for pedagogical purposes, since it exhibits th
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_function&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -401,12 +401,12 @@ Run this code
         static_assert(std::is_function_v<T>);
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_function&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ is_invocableis_invocable_ris_nothrow_invocableis_nothrow_invocable_r](is_invocable.html "cpp/types/is invocable")(C++17) |  checks if a type can be invoked (as if by [std::invoke](../utility/functional/invoke.html "cpp/utility/functional/invoke")) with the given argument types   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_invocable&action=edit)  
+(class template)   
 ---|---  
 [ is_object](is_object.html "cpp/types/is object")(C++11) |  checks if a type is an object type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_object&action=edit)  
+(class template)   
 [ is_class](is_class.html "cpp/types/is class")(C++11) |  checks if a type is a non-union class type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_class&action=edit)
+(class template) 

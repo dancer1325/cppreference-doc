@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -79,7 +79,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_ispanstream`](../basic_ispanstream.html "cpp/io/basic ispanstream")
 
@@ -94,7 +94,7 @@ Error category interface
 [Non-member functions](../basic_ispanstream.html#Non-member_functions "cpp/io/basic ispanstream")  
 [swap(std::basic_ipanstream)](swap2.html "cpp/io/basic ispanstream/swap2")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ispanstream/navbar_content&action=edit)
+
 
 explicit basic_ispanstream( [std::span](../../container/span.html)<CharT> s, [std::ios_base::openmode](../ios_base/openmode.html) mode =  
 [std::ios_base::in](../ios_base/openmode.html) ); |  (1)  |  (since C++23)  
@@ -125,7 +125,7 @@ Constructs a new `basic_ispanstream`.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_spanstream/constructor&action=edit&section=T-1 "Template:cpp/io/basic spanstream/constructor")] Parameters
+### Parameters
 
 s  |  \-  |  std::span referencing the storage to be use as initial underlying buffer of stream   
 ---|---|---  
@@ -141,11 +141,11 @@ mode  |  \-  |  specifies stream open mode. Following constants and bit-wise OR 
 [`noreplace`](../ios_base/openmode.html "cpp/io/ios base/openmode") (C++23) |  open in exclusive mode   
 other  |  \-  |  another `basic_ispanstream` to be moved from   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/impldef_exception&action=edit&section=T-1 "Template:cpp/impldef exception")] Exceptions
+### Exceptions
 
 May throw implementation-defined exceptions. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_spanstream/constructor&action=edit&section=T-2 "Template:cpp/io/basic spanstream/constructor")] Example
+### Example
 
 Run this code
     
@@ -169,8 +169,8 @@ Output:
     
     i=1, j=2, k=3, w=abc
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_spanstream/constructor&action=edit&section=T-3 "Template:cpp/io/basic spanstream/constructor")] See also
+### See also
 
 [ (constructor)](../basic_spanbuf/basic_spanbuf.html "cpp/io/basic spanbuf/basic spanbuf") |  constructs a `basic_spanbuf` object   
-(public member function of `std::basic_spanbuf<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_spanbuf/dsc_constructor&action=edit)  
+(public member function of `std::basic_spanbuf<CharT,Traits>`)   
 ---|---

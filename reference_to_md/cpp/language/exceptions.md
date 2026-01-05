@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 **Exceptions**
 
@@ -233,7 +233,7 @@ Exception specification
 [dynamic specification](except_spec.html "cpp/language/except spec") (until C++17*)  
 [noexcept operator](noexcept.html "cpp/language/noexcept") (C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/exceptions/navbar_content&action=edit)
+
 
 Exception handling provides a way of transferring control and information from some point in the execution of a program to a handler associated with a point previously passed by the execution (in other words, exception handling transfers control up the call stack). 
 
@@ -267,11 +267,11 @@ Errors that arise during exception handling are handled by [std::terminate](../e
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/exceptions&action=edit&section=1 "Edit section: Usage")] Usage
+### Usage
 
 While throw expression can be used to transfer control to an arbitrary block of code up the execution stack, for arbitrary reasons (similar to [std::longjmp](../utility/program/longjmp.html "cpp/utility/program/longjmp")), its intended usage is error handling. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/exceptions&action=edit&section=2 "Edit section: Error handling")] Error handling
+#### Error handling
 
 Throwing an exception is used to signal errors from functions, where "errors" are typically limited to only the following[[1]](exceptions.html#cite_note-1)[[2]](exceptions.html#cite_note-2)[[3]](exceptions.html#cite_note-3): 
 
@@ -285,7 +285,7 @@ In particular, this implies that the failures of constructors (see also [RAII](r
 
 In addition, so-called _wide contract_ functions use exceptions to indicate unacceptable inputs, for example, [std::basic_string::at](../string/basic_string/at.html "cpp/string/basic string/at") has no preconditions, but throws an exception to indicate index out of range. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/exceptions&action=edit&section=3 "Edit section: Exception safety")] Exception safety
+#### Exception safety
 
 After the error condition is reported by a function, additional guarantees may be provided with regards to the state of the program. The following four levels of exception guarantee are generally recognized[[4]](exceptions.html#cite_note-4)[[5]](exceptions.html#cite_note-5)[[6]](exceptions.html#cite_note-6), which are strict supersets of each other: 
 
@@ -298,19 +298,19 @@ After the error condition is reported by a function, additional guarantees may b
 
 Generic components may, in addition, offer _exception-neutral guarantee_ : if an exception is thrown from a template parameter (e.g. from the `Compare` function object of [std::sort](../algorithm/sort.html "cpp/algorithm/sort") or from the constructor of `T` in [std::make_shared](../memory/shared_ptr/make_shared.html "cpp/memory/shared ptr/make shared")), it is propagated, unchanged, to the caller. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/exceptions&action=edit&section=4 "Edit section: Exception objects")] Exception objects
+### Exception objects
 
 While objects of any complete type and cv pointers to void may be thrown as exception objects, all standard library functions throw unnamed objects by value, and the types of those objects are derived (directly or indirectly) from [std::exception](../error/exception.html "cpp/error/exception"). User-defined exceptions usually follow this pattern.[[7]](exceptions.html#cite_note-7)[[8]](exceptions.html#cite_note-8)[[9]](exceptions.html#cite_note-9)
 
 To avoid unnecessary copying of the exception object and object slicing, the best practice for handlers is to catch by reference.[[10]](exceptions.html#cite_note-10)[[11]](exceptions.html#cite_note-11)[[12]](exceptions.html#cite_note-12)[[13]](exceptions.html#cite_note-13)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/exceptions&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 Feature-test macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_constexpr_exceptions`](../experimental/feature_test.html#cpp_constexpr_exceptions "cpp/feature test") | [`202411L`](../compiler_support/26.html#cpp_constexpr_exceptions_202411L "cpp/compiler support/26") | (C++26) | constexpr exceptions   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/exceptions&action=edit&section=6 "Edit section: External links")] External links
+### External links
 
   1. [↑](exceptions.html#cite_ref-1) H. Sutter (2004) ["When and How to Use Exceptions"](https://www.drdobbs.com/when-and-how-to-use-exceptions/184401836) in Dr. Dobb's
   2. [↑](exceptions.html#cite_ref-2) H. Sutter, A. Alexandrescu (2004), "C++ Coding Standards", Item 70

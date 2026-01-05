@@ -33,7 +33,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../experimental.html "cpp/experimental")
 
@@ -58,7 +58,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Extensions for concurrency](concurrency.html "cpp/experimental/concurrency")
 
@@ -78,7 +78,7 @@ Atomic smart pointers
 [experimental::atomic_shared_ptr](atomic_shared_ptr.html "cpp/experimental/atomic shared ptr")  
 [experimental::atomic_weak_ptr](atomic_weak_ptr.html "cpp/experimental/atomic weak ptr")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/concurrency/navbar_content&action=edit)
+
 
 **`std::experimental::latch`**
 
@@ -90,7 +90,7 @@ Atomic smart pointers
 [latch::is_ready](latch/is_ready.html "cpp/experimental/latch/is ready")  
 [latch::wait](latch/wait.html "cpp/experimental/latch/wait")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/concurrency/latch/navbar_content&action=edit)
+
 
 Defined in header `[<experimental/latch>](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/latch&action=edit&redlink=1 "cpp/header/experimental/latch \(page does not exist\)")` |  |   
 ---|---|---  
@@ -101,20 +101,20 @@ The `latch` class is a downward counter of type `ptrdiff_t` which can be used to
 
 Unlike [`std::experimental::barrier`](barrier.html "cpp/experimental/barrier"), `std::experimental::latch` can be decremented by a participating thread more than once. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/latch&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](latch/latch.html "cpp/experimental/latch/latch") |  constructs a `latch`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/latch/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ (destructor)](latch/~latch.html "cpp/experimental/latch/~latch") |  destroys the latch   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/latch/dsc_destructor&action=edit)  
+(public member function)   
 operator=[deleted] |  not copy-assignable   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/latch/dsc_operator%3D&action=edit)  
+(public member function)   
 [ count_down_and_wait](latch/count_down_and_wait.html "cpp/experimental/latch/count down and wait") |  decrements the counter by `1` and blocks until it reaches zero   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/latch/dsc_count_down_and_wait&action=edit)  
+(public member function)   
 [ count_down](latch/count_down.html "cpp/experimental/latch/count down") |  decrements the counter in a non-blocking manner   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/latch/dsc_count_down&action=edit)  
+(public member function)   
 [ is_ready](latch/is_ready.html "cpp/experimental/latch/is ready") |  tests if the internal counter equals zero   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/latch/dsc_is_ready&action=edit)  
+(public member function)   
 [ wait](latch/wait.html "cpp/experimental/latch/wait") |  blocks until the counter reaches zero   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/latch/dsc_wait&action=edit)
+(public member function) 

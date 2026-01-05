@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Diagnostics library](../error.html "cpp/error")
 
@@ -89,7 +89,7 @@ Exception handling failures
 [breakpoint_if_debugging](breakpoint_if_debugging.html "cpp/utility/breakpoint if debugging")(C++26)  
 **breakpoint**(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/navbar_content&action=edit)
+
 
 Defined in header `[<debugging>](../header/debugging.html "cpp/header/debugging")` |  |   
 ---|---|---  
@@ -108,7 +108,7 @@ Unconditional breakpoint: Attempts to temporarily stop program execution and pas
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/breakpoint&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 The intent of this function is allowing for runtime control of breakpoints beyond what might be available from a debugger while not causing the program to exit. For example, breaking when an infrequent non-critical condition is detected, allowing programmatic control with complex runtime sensitive conditions, breaking on user input to inspect context in interactive programs without needing to switch to the debugger application, etc. 
 
@@ -119,21 +119,21 @@ This function standardizes many similar existing facilities: [`__builtin_debugtr
 [`__cpp_lib_debugging`](../experimental/feature_test.html#cpp_lib_debugging "cpp/feature test") | [`202311L`](../compiler_support/26.html#cpp_lib_debugging_202311L "cpp/compiler support/26") | (C++26) | Debugging support library   
 [`202403L`](../compiler_support/26.html#cpp_lib_debugging_202403L "cpp/compiler support/26") | (C++26) | Replaceable `std::is_debugger_present`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/breakpoint&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/breakpoint&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ is_debugger_present](is_debugger_present.html "cpp/utility/is debugger present")(C++26) |  checks whether a program is running under the control of a debugger   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_is_debugger_present&action=edit)  
+(function)   
 ---|---  
 [ breakpoint_if_debugging](breakpoint_if_debugging.html "cpp/utility/breakpoint if debugging")(C++26) |  calls std::breakpoint if std::is_debugger_present returns true   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_breakpoint_if_debugging&action=edit)  
+(function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/breakpoint&action=edit&section=4 "Edit section: External links")] External links
+### External links
 
 1\.  | armKEIL: [`__breakpoint` intrinsic](https://developer.arm.com/documentation/dui0375/g/Compiler-specific-Features/--breakpoint-intrinsic)  
 ---|---  

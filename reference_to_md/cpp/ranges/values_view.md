@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 Defined in header `[<ranges>](../header/ranges.html "cpp/header/ranges")` |  |   
 ---|---|---  
@@ -251,7 +251,7 @@ Takes a [`view`](view.html "cpp/ranges/view") of _tuple-like_ values (e.g. [std:
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/values_view&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 values_view can be useful for extracting _values_ from associative containers, e.g. 
     
@@ -261,7 +261,7 @@ values_view can be useful for extracting _values_ from associative containers, e
         [std::cout](../io/cout.html) << value << ' ';
     // prints: alpha beta
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/values_view&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -291,7 +291,7 @@ Output:
     pair::second values in the list: 11.1 22.2 33.3
     odd values in the map: 1 3 5
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/values_view&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -299,12 +299,12 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 3563](https://cplusplus.github.io/LWG/issue3563) | C++20  | `keys_view` is unable to participate in CTAD due to its use of views::all_t | views::all_t removed   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/values_view&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ ranges::keys_viewviews::keys](keys_view.html "cpp/ranges/keys view")(C++20) |  takes a [`view`](view.html "cpp/ranges/view") consisting of pair-like values and produces a [`view`](view.html "cpp/ranges/view") of the first elements of each pair  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_keys_view&action=edit)  
+(class template) (range adaptor object)  
 ---|---  
 [ ranges::elements_viewviews::elements](elements_view.html "cpp/ranges/elements view")(C++20) |  takes a [`view`](view.html "cpp/ranges/view") consisting of [`_tuple-like_`](../utility/tuple/tuple-like.html "cpp/utility/tuple/tuple-like") values and a number N and produces a [`view`](view.html "cpp/ranges/view") of Nth element of each tuple  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_elements_view&action=edit)  
+(class template) (range adaptor object)  
 [ slice](../numeric/valarray/slice.html "cpp/numeric/valarray/slice") |  BLAS-like slice of a valarray: starting index, length, stride   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_slice&action=edit)
+(class) 

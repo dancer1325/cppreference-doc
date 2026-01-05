@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Localization library](../../locale.html "cpp/locale")
 
@@ -152,7 +152,7 @@ base classes](../../locale.html#Facet_category_base_classes "cpp/locale")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/navbar_content&action=edit)
+
 
 [`std::ctype`](../ctype.html "cpp/locale/ctype")
 
@@ -176,7 +176,7 @@ Member functions of ctype<char>
 **ctype <char>::scan_is**  
 [ctype<char>::scan_not](scan_not.html "cpp/locale/ctype char/scan not")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/ctype/navbar_content&action=edit)
+
 
 Defined in header `[<locale>](../../header/locale.html "cpp/header/locale")` |  |   
 ---|---|---  
@@ -198,22 +198,22 @@ If (unsigned char)c >= [std::ctype](../ctype.html)<char>::table_size, then an im
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/ctype_char/scan_is&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 m  |  \-  |  mask to search for   
 ---|---|---  
 beg  |  \-  |  pointer to the first character in an array of characters to search   
 end  |  \-  |  one past the end pointer for the array of characters to search   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/ctype_char/scan_is&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Pointer to the first character in `[`beg`, `end`)` that satisfies the mask, or end if no such character was found. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/ctype_char/scan_is&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Unlike the primary template [std::ctype](../ctype.html), this specialization does not perform a virtual function call when classifying characters. To customize the behavior, a derived class may provide a non-default classification table to the base class constructor. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/ctype_char/scan_is&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -244,10 +244,10 @@ Output:
     'Test'
     'abcd'
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/ctype_char/scan_is&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ do_scan_is](../ctype/scan_is.html "cpp/locale/ctype/scan is")[virtual] |  locates the first character in a sequence that conforms to given classification   
-(virtual protected member function of `std::ctype<CharT>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/ctype/dsc_do_scan_is&action=edit)  
+(virtual protected member function of `std::ctype<CharT>`)   
 ---|---  
 [ scan_not](scan_not.html "cpp/locale/ctype char/scan not") |  locates the first character in a sequence that fails given classification, using the classification table   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/ctype_char/dsc_scan_not&action=edit)
+(public member function) 

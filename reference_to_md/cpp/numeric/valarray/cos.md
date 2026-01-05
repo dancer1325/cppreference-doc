@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [`std::valarray`](../valarray.html "cpp/numeric/valarray")
 
@@ -155,7 +155,7 @@
   
 [Deduction guides](deduction_guides.html "cpp/numeric/valarray/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/navbar_content&action=edit)
+
 
 Defined in header `[<valarray>](../../header/valarray.html "cpp/header/valarray")` |  |   
 ---|---|---  
@@ -177,16 +177,16 @@ For each element in va computes cosine of the value of the element.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/cos&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 va  |  \-  |  value array to apply the operation to   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/cos&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Value array containing cosines of the values in va. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/cos&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Unqualified function (cos) is used to perform the computation. If such function is not available, [std::cos](../math/cos.html) is used due to [argument-dependent lookup](../../language/adl.html "cpp/language/adl"). 
 
@@ -202,7 +202,7 @@ The function can be implemented with the return type different from [std::valarr
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/cos&action=edit&section=4 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     template<class T>
@@ -217,7 +217,7 @@ The function can be implemented with the return type different from [std::valarr
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/cos&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -257,16 +257,16 @@ Output:
        cos(x) |  0.995004 |  0.980067 |  0.955337 |  0.921061 | 
             z |         1 |         1 |         1 |         1 |
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/cos&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ sin(std::valarray)](sin.html "cpp/numeric/valarray/sin") |  applies the function [std::sin](../math/sin.html "cpp/numeric/math/sin") to each element of valarray   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_sin&action=edit)  
+(function template)   
 ---|---  
 [ tan(std::valarray)](tan.html "cpp/numeric/valarray/tan") |  applies the function [std::tan](../math/tan.html "cpp/numeric/math/tan") to each element of valarray   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_tan&action=edit)  
+(function template)   
 [ acos(std::valarray)](acos.html "cpp/numeric/valarray/acos") |  applies the function [std::acos](../math/acos.html "cpp/numeric/math/acos") to each element of valarray   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_acos&action=edit)  
+(function template)   
 [ coscosfcosl](../math/cos.html "cpp/numeric/math/cos")(C++11)(C++11) |  computes cosine (\\({\small\cos{x}}\\)cos(x))   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_cos&action=edit)  
+(function)   
 [ cos(std::complex)](../complex/cos.html "cpp/numeric/complex/cos") |  computes cosine of a complex number (\\({\small\cos{z}}\\)cos(z))   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_cos&action=edit)
+(function template) 

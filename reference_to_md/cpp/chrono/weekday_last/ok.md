@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::weekday_last`](../weekday_last.html "cpp/chrono/weekday last")
 
@@ -117,7 +117,7 @@ Helper classes
 [formatter<std::chrono::weekday_last>](formatter.html "cpp/chrono/weekday last/formatter")  
 [hash<std::chrono::weekday_last>](hash.html "cpp/chrono/weekday last/hash")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/weekday_last/navbar_content&action=edit)
+
 
 constexpr bool ok() const noexcept; |  |  (since C++20)  
 ---|---|---  
@@ -125,11 +125,11 @@ constexpr bool ok() const noexcept; |  |  (since C++20)
   
 Checks if the weekday object stored in *this is valid. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/weekday_last/ok&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 weekday().ok()
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/weekday_last/ok&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     

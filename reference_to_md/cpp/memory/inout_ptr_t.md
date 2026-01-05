@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 **`std::inout_ptr_t`**
 
@@ -196,7 +196,7 @@ Member functions
 Non-member functions  
 [inout_ptr](inout_ptr_t/inout_ptr.html "cpp/memory/inout ptr t/inout ptr")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/inout_ptr_t/navbar_content&action=edit)
+
 
 Defined in header `[<memory>](../header/memory.html "cpp/header/memory")` |  |   
 ---|---|---  
@@ -233,7 +233,7 @@ Users can control whether each argument for resetting is captured by copy or by 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/inout_ptr_t&action=edit&section=1 "Edit section: Template parameters")] Template parameters
+### Template parameters
 
 Smart  |  \-  |  the type of the object (typically a smart pointer) to adapt   
 ---|---|---  
@@ -243,13 +243,13 @@ Type requirements
 -`Pointer` must meet the requirements of [NullablePointer](../named_req/NullablePointer.html "cpp/named req/NullablePointer").   
 -The program is ill-formed if `Smart` is a [std::shared_ptr](shared_ptr.html "cpp/memory/shared ptr") specialization.   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/inout_ptr_t&action=edit&section=2 "Edit section: Specializations")] Specializations
+### Specializations
 
 Unlike most class templates in the standard library, [program-defined specializations](../language/type-id.html#Program-defined_type "cpp/language/type") of `inout_ptr_t` that depend on at least one [program-defined type](../language/type-id.html#Program-defined_type "cpp/language/type") need not meet the requirements for the primary template. 
 
 This license allows a program-defined specialization to expose the raw pointer stored within a non-standard smart pointer to foreign functions. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/inout_ptr_t&action=edit&section=3 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](inout_ptr_t/inout_ptr_t.html "cpp/memory/inout ptr t/inout ptr t")(C++23) |  constructs an `inout_ptr_t`   
 (public member function)  
@@ -261,13 +261,13 @@ operator=[deleted](C++23) |  `inout_ptr_t` is not assignable
 [ operator Pointer*operator void**](inout_ptr_t/operator_ptr.html "cpp/memory/inout ptr t/operator ptr")(C++23) |  converts the `inout_ptr_t` to the address of the storage for output   
 (public member function)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/inout_ptr_t&action=edit&section=4 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ inout_ptr](inout_ptr_t/inout_ptr.html "cpp/memory/inout ptr t/inout ptr")(C++23) |  creates an `inout_ptr_t` with an associated smart pointer and resetting arguments   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/inout_ptr_t/dsc_inout_ptr&action=edit)  
+(function template)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/inout_ptr_t&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 `inout_ptr_t` expects that the foreign functions release the ownership represented by the value of the pointed-to `Pointer`, and then re-initialize it. As such operation requires unique ownership, the usage with [std::shared_ptr](shared_ptr.html "cpp/memory/shared ptr") is forbidden. 
 
@@ -299,20 +299,20 @@ Captured arguments are typically packed into a [std::tuple](../utility/tuple.htm
 [`__cpp_lib_out_ptr`](../experimental/feature_test.html#cpp_lib_out_ptr "cpp/feature test") | [`202106L`](../compiler_support/23.html#cpp_lib_out_ptr_202106L "cpp/compiler support/23") | (C++23) | `std::out_ptr`, std::inout_ptr  
 [`202311L`](../compiler_support/26.html#cpp_lib_out_ptr_202311L "cpp/compiler support/26") | (C++26) | freestanding `std::out_ptr` and std::inout_ptr  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/inout_ptr_t&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/inout_ptr_t&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ out_ptr_t](out_ptr_t.html "cpp/memory/out ptr t")(C++23) |  interoperates with foreign pointer setters and resets a smart pointer on destruction   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_out_ptr_t&action=edit)  
+(class template)   
 ---|---  
 [ unique_ptr](unique_ptr.html "cpp/memory/unique ptr")(C++11) |  smart pointer with unique object ownership semantics   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_unique_ptr&action=edit)  
+(class template)   
 [ shared_ptr](shared_ptr.html "cpp/memory/shared ptr")(C++11) |  smart pointer with shared object ownership semantics   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_shared_ptr&action=edit)
+(class template) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

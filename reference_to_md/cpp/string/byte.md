@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 **Null-terminated byte strings**
 
@@ -143,7 +143,7 @@
 | [strerror](byte/strerror.html "cpp/string/byte/strerror")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/navbar_content&action=edit)
+
 
 A null-terminated byte string (NTBS) is a possibly empty sequence of nonzero bytes followed by a byte with value zero (the terminating null character). Each byte in a byte string encodes one character of some character set. For example, the character array {'\x63', '\x61', '\x74', '\0'} is an NTBS holding the string "cat" in ASCII encoding. 
 
@@ -162,43 +162,43 @@ A null-terminated byte string (NTBS) is a possibly empty sequence of nonzero byt
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte&action=edit&section=1 "Edit section: Functions")] Functions
+### Functions
 
 #####  Character classification   
   
 ---  
 Defined in header `[<cctype>](../header/cctype.html "cpp/header/cctype")`  
 [ isalnum](byte/isalnum.html "cpp/string/byte/isalnum") |  checks if a character is alphanumeric   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_isalnum&action=edit)  
+(function)   
 [ isalpha](byte/isalpha.html "cpp/string/byte/isalpha") |  checks if a character is alphabetic   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_isalpha&action=edit)  
+(function)   
 [ islower](byte/islower.html "cpp/string/byte/islower") |  checks if a character is lowercase   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_islower&action=edit)  
+(function)   
 [ isupper](byte/isupper.html "cpp/string/byte/isupper") |  checks if a character is an uppercase character   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_isupper&action=edit)  
+(function)   
 [ isdigit](byte/isdigit.html "cpp/string/byte/isdigit") |  checks if a character is a digit   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_isdigit&action=edit)  
+(function)   
 [ isxdigit](byte/isxdigit.html "cpp/string/byte/isxdigit") |  checks if a character is a hexadecimal character   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_isxdigit&action=edit)  
+(function)   
 [ iscntrl](byte/iscntrl.html "cpp/string/byte/iscntrl") |  checks if a character is a control character   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_iscntrl&action=edit)  
+(function)   
 [ isgraph](byte/isgraph.html "cpp/string/byte/isgraph") |  checks if a character is a graphical character   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_isgraph&action=edit)  
+(function)   
 [ isspace](byte/isspace.html "cpp/string/byte/isspace") |  checks if a character is a space character   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_isspace&action=edit)  
+(function)   
 [ isblank](byte/isblank.html "cpp/string/byte/isblank")(C++11) |  checks if a character is a blank character   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_isblank&action=edit)  
+(function)   
 [ isprint](byte/isprint.html "cpp/string/byte/isprint") |  checks if a character is a printing character   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_isprint&action=edit)  
+(function)   
 [ ispunct](byte/ispunct.html "cpp/string/byte/ispunct") |  checks if a character is a punctuation character   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_ispunct&action=edit)  
+(function)   
   
 #####  Character manipulation   
   
 [ tolower](byte/tolower.html "cpp/string/byte/tolower") |  converts a character to lowercase   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_tolower&action=edit)  
+(function)   
 [ toupper](byte/toupper.html "cpp/string/byte/toupper") |  converts a character to uppercase   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_toupper&action=edit)  
+(function)   
 ASCII values  | characters  |  [`iscntrl`](byte/iscntrl.html "cpp/string/byte/iscntrl")  
 [`iswcntrl`](wide/iswcntrl.html "cpp/string/wide/iswcntrl") |  [`isprint`](byte/isprint.html "cpp/string/byte/isprint")  
 [`iswprint`](wide/iswprint.html "cpp/string/wide/iswprint") |  [`isspace`](byte/isspace.html "cpp/string/byte/isspace")  
@@ -237,82 +237,82 @@ decimal  | hexadecimal  | octal
 ---  
 Defined in header `[<cstdlib>](../header/cstdlib.html "cpp/header/cstdlib")`  
 [ atof](byte/atof.html "cpp/string/byte/atof") |  converts a byte string to a floating point value   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_atof&action=edit)  
+(function)   
 [ atoiatolatoll](byte/atoi.html "cpp/string/byte/atoi")(C++11) |  converts a byte string to an integer value   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_atoi&action=edit)  
+(function)   
 [ strtolstrtoll](byte/strtol.html "cpp/string/byte/strtol")(C++11) |  converts a byte string to an integer value   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strtol&action=edit)  
+(function)   
 [ strtoulstrtoull](byte/strtoul.html "cpp/string/byte/strtoul")(C++11) |  converts a byte string to an unsigned integer value   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strtoul&action=edit)  
+(function)   
 [ strtofstrtodstrtold](byte/strtof.html "cpp/string/byte/strtof") |  converts a byte string to a floating-point value   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strtof&action=edit)  
+(function)   
 Defined in header `[<cinttypes>](../header/cinttypes.html "cpp/header/cinttypes")`  
 [ strtoimaxstrtoumax](byte/strtoimax.html "cpp/string/byte/strtoimax")(C++11)(C++11) |  converts a byte string to [std::intmax_t](../types/integer.html "cpp/types/integer") or [std::uintmax_t](../types/integer.html "cpp/types/integer")   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strtoimax&action=edit)  
+(function)   
   
 #####  String manipulation   
   
 Defined in header `[<cstring>](../header/cstring.html "cpp/header/cstring")`  
 [ strcpy](byte/strcpy.html "cpp/string/byte/strcpy") |  copies one string to another   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strcpy&action=edit)  
+(function)   
 [ strncpy](byte/strncpy.html "cpp/string/byte/strncpy") |  copies a certain amount of characters from one string to another   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strncpy&action=edit)  
+(function)   
 [ strcat](byte/strcat.html "cpp/string/byte/strcat") |  concatenates two strings   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strcat&action=edit)  
+(function)   
 [ strncat](byte/strncat.html "cpp/string/byte/strncat") |  concatenates a certain amount of characters of two strings   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strncat&action=edit)  
+(function)   
 [ strxfrm](byte/strxfrm.html "cpp/string/byte/strxfrm") |  transform a string so that `strcmp` would produce the same result as `strcoll`   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strxfrm&action=edit)  
+(function)   
   
 #####  String examination   
   
 Defined in header `[<cstring>](../header/cstring.html "cpp/header/cstring")`  
 [ strlen](byte/strlen.html "cpp/string/byte/strlen") |  returns the length of a given string   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strlen&action=edit)  
+(function)   
 [ strcmp](byte/strcmp.html "cpp/string/byte/strcmp") |  compares two strings   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strcmp&action=edit)  
+(function)   
 [ strncmp](byte/strncmp.html "cpp/string/byte/strncmp") |  compares a certain number of characters from two strings   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strncmp&action=edit)  
+(function)   
 [ strcoll](byte/strcoll.html "cpp/string/byte/strcoll") |  compares two strings in accordance to the current locale   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strcoll&action=edit)  
+(function)   
 [ strchr](byte/strchr.html "cpp/string/byte/strchr") |  finds the first occurrence of a character   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strchr&action=edit)  
+(function)   
 [ strrchr](byte/strrchr.html "cpp/string/byte/strrchr") |  finds the last occurrence of a character   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strrchr&action=edit)  
+(function)   
 [ strspn](byte/strspn.html "cpp/string/byte/strspn") |  returns the length of the maximum initial segment that consists  
 of only the characters found in another byte string   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strspn&action=edit)  
+(function)   
 [ strcspn](byte/strcspn.html "cpp/string/byte/strcspn") |  returns the length of the maximum initial segment that consists  
 of only the characters not found in another byte string   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strcspn&action=edit)  
+(function)   
 [ strpbrk](byte/strpbrk.html "cpp/string/byte/strpbrk") |  finds the first location of any character from a set of separators   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strpbrk&action=edit)  
+(function)   
 [ strstr](byte/strstr.html "cpp/string/byte/strstr") |  finds the first occurrence of a substring of characters   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strstr&action=edit)  
+(function)   
 [ strtok](byte/strtok.html "cpp/string/byte/strtok") |  finds the next token in a byte string   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strtok&action=edit)  
+(function)   
   
 #####  Character array functions   
   
 Defined in header `[<cstring>](../header/cstring.html "cpp/header/cstring")`  
 [ memchr](byte/memchr.html "cpp/string/byte/memchr") |  searches an array for the first occurrence of a character   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_memchr&action=edit)  
+(function)   
 [ memcmp](byte/memcmp.html "cpp/string/byte/memcmp") |  compares two buffers   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_memcmp&action=edit)  
+(function)   
 [ memset](byte/memset.html "cpp/string/byte/memset") |  fills a buffer with a character   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_memset&action=edit)  
+(function)   
 [ memcpy](byte/memcpy.html "cpp/string/byte/memcpy") |  copies one buffer to another   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_memcpy&action=edit)  
+(function)   
 [ memmove](byte/memmove.html "cpp/string/byte/memmove") |  moves one buffer to another   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_memmove&action=edit)  
+(function)   
   
 #####  Miscellaneous   
   
 Defined in header `[<cstring>](../header/cstring.html "cpp/header/cstring")`  
 [ strerror](byte/strerror.html "cpp/string/byte/strerror") |  returns a text version of a given error code   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strerror&action=edit)  
+(function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [C documentation](../../c/string/byte.html "c/string/byte") for `Null`-terminated byte strings  
 ---

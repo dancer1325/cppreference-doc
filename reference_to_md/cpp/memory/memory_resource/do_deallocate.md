@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::pmr::memory_resource`](../memory_resource.html "cpp/memory/memory resource")
 
@@ -201,7 +201,7 @@ Private member functions
 Non-member functions  
 [operator==operator!=](operator_eq.html "cpp/memory/memory resource/operator eq")(until C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/memory_resource/navbar_content&action=edit)
+
 
 virtual void do_deallocate( void* p, [std::size_t](../../types/size_t.html) bytes, [std::size_t](../../types/size_t.html) alignment ) = 0; |  |  (since C++17)  
 ---|---|---  
@@ -211,12 +211,12 @@ Deallocates the storage pointed to by p.
 
 p must have been returned by a prior call to `allocate(bytes, alignment)` on a `memory_resource` that compares equal to *this, and the storage it points to must not yet have been deallocated, otherwise the behavior is undefined. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/memory_resource/do_deallocate&action=edit&section=1 "Edit section: Exceptions")] Exceptions 
+### Exceptions 
 
 Throws nothing. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/memory_resource/do_deallocate&action=edit&section=2 "Edit section: See also")] See also 
+### See also 
 
 [ deallocate](deallocate.html "cpp/memory/memory resource/deallocate") |  deallocates memory   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/memory_resource/dsc_deallocate&action=edit)  
+(public member function)   
 ---|---

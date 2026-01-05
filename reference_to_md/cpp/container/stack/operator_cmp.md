@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 `[std::stack](../stack.html "cpp/container/stack")`
 
@@ -101,7 +101,7 @@ Tables
 [formatter<std::stack>](formatter.html "cpp/container/stack/formatter")(C++23)  
 [Deduction guides](deduction_guides.html "cpp/container/stack/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/stack/navbar_content&action=edit)
+
 
 template< class T, class Container >  
 bool operator==( const [std::stack](../stack.html)<T, Container>& lhs,  
@@ -141,23 +141,23 @@ Compares the contents of the underlying containers of two container adaptors. Th
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container_adaptor/operator_cmp&action=edit&section=T-1 "Template:cpp/container adaptor/operator cmp")] Parameters
+### Parameters
 
 lhs, rhs  |  \-  |  container adaptors whose contents to compare   
 ---|---|---  
 -`T` must meet the requirements of [EqualityComparable](../../named_req/EqualityComparable.html "cpp/named req/EqualityComparable").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container_adaptor/operator_cmp&action=edit&section=T-2 "Template:cpp/container adaptor/operator cmp")] Return value
+### Return value
 
 1-6) true if the corresponding comparison yields true, false otherwise.
 
 7) Result of three-way comparison on underlying containers.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container_adaptor/operator_cmp&action=edit&section=T-3 "Template:cpp/container adaptor/operator cmp")] Complexity
+### Complexity
 
 Linear in the size of the container. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container_adaptor/operator_cmp&action=edit&section=T-4 "Template:cpp/container adaptor/operator cmp")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

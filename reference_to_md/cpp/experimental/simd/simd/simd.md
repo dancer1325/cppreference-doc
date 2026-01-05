@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Extensions for parallelism v2](../../parallelism_2.html "cpp/experimental/parallelism 2")
 
@@ -92,7 +92,7 @@ Task blocks
 [define_task_blockdefine_task_block_restore_thread](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/define_task_block&action=edit&redlink=1 "cpp/experimental/define task block \(page does not exist\)")  
 [Data-parallel vectors](../../simd.html "cpp/experimental/simd")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/parallelism_2/navbar_content&action=edit)
+
 
 [SIMD library](../../simd.html "cpp/experimental/simd")
 
@@ -186,7 +186,7 @@ Task blocks
   
 [Math functions](../../simd.html#Math_functions "cpp/experimental/simd")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/simd/navbar_content&action=edit)
+
 
 [`std::experimental::simd`](../simd.html "cpp/experimental/simd/simd")
 
@@ -225,7 +225,7 @@ Non-member functions
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/simd/simd/navbar_content&action=edit)
+
 
 simd() noexcept = default; |  (1)  |  (parallelism TS v2)  
 ---|---|---  
@@ -255,7 +255,7 @@ simd( simd&& other ) noexcept = default; |  (7)  |  (parallelism TS v2)
 
 6,7) Implicitly declared copy and move constructors. Constructs a `simd` where each element is initialized from the values of the elements in other.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/simd/simd/simd&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 value  |  \-  |  the value used for initialization of all `simd` elements   
 ---|---|---  
@@ -267,7 +267,7 @@ Type requirements
 -The conversion from `U` to `T` must be _value-preserving_. The broadcast constructor (2) additionally allows `U` to be int or to be unsigned int if `T` is an unsigned integral type.   
 -`is_simd_flag_type_v<Flags>` must be true.   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/simd/simd/simd&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -303,8 +303,8 @@ Possible output:
     
     2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/simd/simd/simd&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ copy_from](copy_from.html "cpp/experimental/simd/simd/copy from")(parallelism TS v2) |  loads [`simd`](../simd.html "cpp/experimental/simd/simd") elements from contiguous memory   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/simd/simd/dsc_copy_from&action=edit)  
+(public member function)   
 ---|---

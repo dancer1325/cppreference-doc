@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [Input/output manipulators](../manip.html "cpp/io/manip")
 
@@ -154,7 +154,7 @@ Time and money I/O
 Quoted manipulator  
 [quoted](quoted.html "cpp/io/manip/quoted")(C++14)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/navbar_content&action=edit)
+
 
 Defined in header `[<ostream>](../../header/ostream.html "cpp/header/ostream")` |  |   
 ---|---|---  
@@ -177,7 +177,7 @@ This is an output-only I/O manipulator, it may be called with an expression such
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/flush&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 This manipulator may be used to produce an incomplete line of output immediately, e.g. when displaying output from a long-running process, logging activity of multiple threads or logging activity of a program that may crash unexpectedly. An explicit flush of [std::cout](../cout.html "cpp/io/cout") is also necessary before a call to [std::system](../../utility/program/system.html "cpp/utility/program/system"), if the spawned process performs any screen I/O (a common example is [std::system](../../utility/program/system.html)("pause") on Windows). In most other usual interactive I/O scenarios, [std::endl](endl.html "cpp/io/manip/endl") is redundant when used with [std::cout](../cout.html "cpp/io/cout") because any input from [std::cin](../cin.html "cpp/io/cin"), output to [std::cerr](../cerr.html "cpp/io/cerr"), or program termination forces a call to [std::cout](../cout.html).flush(). 
 
@@ -185,16 +185,16 @@ When a complete line of output needs to be flushed, the [std::endl](endl.html "c
 
 When every output operation needs to be flushed, the [std::unitbuf](unitbuf.html "cpp/io/manip/unitbuf") manipulator may be used. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/flush&action=edit&section=2 "Edit section: Parameters")] Parameters
+### Parameters
 
 os  |  \-  |  reference to output stream   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/flush&action=edit&section=3 "Edit section: Return value")] Return value
+### Return value
 
 os (reference to the stream after manipulation). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/flush&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Without `std::flush`, the output would be the same, but may not appear in real time.
 
@@ -232,12 +232,12 @@ Possible output:
     
     567ms ... 1137ms ... 1707ms ... 2269ms ... 2842ms ...
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/flush&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ unitbufnounitbuf](unitbuf.html "cpp/io/manip/unitbuf") |  controls whether output is flushed after each operation   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_unitbuf&action=edit)  
+(function)   
 ---|---  
 [ endl](endl.html "cpp/io/manip/endl") |  outputs '\n' and flushes the output stream   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_endl&action=edit)  
+(function template)   
 [ flush](../basic_ostream/flush.html "cpp/io/basic ostream/flush") |  synchronizes with the underlying storage device   
-(public member function of `std::basic_ostream<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ostream/dsc_flush&action=edit)
+(public member function of `std::basic_ostream<CharT,Traits>`) 

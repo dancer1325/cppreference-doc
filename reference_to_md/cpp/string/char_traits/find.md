@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Strings library](../../string.html "cpp/string")
 
@@ -40,7 +40,7 @@ Classes
 [basic_string_view](../basic_string_view.html "cpp/string/basic string view")(C++17)  
 [char_traits](../char_traits.html "cpp/string/char traits")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/navbar_content&action=edit)
+
 
 [`std::char_traits`](../char_traits.html "cpp/string/char traits")
 
@@ -59,7 +59,7 @@ Member functions
 [char_traits::eof](eof.html "cpp/string/char traits/eof")  
 [char_traits::not_eof](not_eof.html "cpp/string/char traits/not eof")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/char_traits/navbar_content&action=edit)
+
 
 static const char_type*  
 find( const char_type* ptr, [std::size_t](../../types/size_t.html) count, const char_type& ch ); |  |  (constexpr since C++17)  
@@ -70,17 +70,17 @@ Searches for character ch within the first count characters of the sequence poin
 
 See [CharTraits](../../named_req/CharTraits.html "cpp/named req/CharTraits") for the general requirements on character traits for `X::find`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/char_traits/find&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 ptr  |  \-  |  pointer to a character string to search   
 ---|---|---  
 count  |  \-  |  the number of characters to analyze   
 ch  |  \-  |  the character to search for   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/char_traits/find&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 A pointer to the first character in the range specified by `[`ptr`, `ptr + count`)` that compares equal to ch, or a null pointer if not found. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/char_traits/find&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Linear in count. 

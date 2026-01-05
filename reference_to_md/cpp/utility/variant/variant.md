@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::variant`](../variant.html "cpp/utility/variant")
 
@@ -161,7 +161,7 @@ Common vocabulary types
 [Helper objects](../variant.html#Helper_objects "cpp/utility/variant")  
 [variant_npos](variant_npos.html "cpp/utility/variant/variant npos")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variant/navbar_content&action=edit)
+
 
 constexpr variant() noexcept(/* see below */); |  (1)  |  (since C++17)  
 ---|---|---  
@@ -282,7 +282,7 @@ Formally:
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variant/variant&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 other  |  \-  |  another `variant` object whose contained value to copy/move   
 ---|---|---  
@@ -290,7 +290,7 @@ t  |  \-  |  value to initialize the contained value with
 args...  |  \-  |  arguments to initialize the contained value with   
 il  |  \-  |  initializer list to initialize the contained value with   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variant/variant&action=edit&section=2 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 1) May throw any exception thrown by the value initialization of the first alternative. 
 
@@ -314,11 +314,11 @@ noexcept([std::is_nothrow_constructible_v](../../types/is_constructible.html)<T_
 
 5-8) May throw any exception thrown by calling the selected constructor of the selected alternative.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variant/variant&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 MSVC STL initially treated [P0608R3](https://wg21.link/P0608R3) as a change in C++20. As of VS 2022 17.12, MSVC STL also treats P0608R3 as a defect report against C++17. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variant/variant&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -394,7 +394,7 @@ Output:
     5) ABC
     6) { 42 42 42 42 }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variant/variant&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

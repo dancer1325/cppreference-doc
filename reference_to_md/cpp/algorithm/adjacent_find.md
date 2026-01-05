@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](ranges/copy.html "cpp/algorithm/ra
 [uninitialized_default_construct_n](../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -340,7 +340,7 @@ These overloads participate in overload resolution only if all following conditi
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/adjacent_find&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  the pair of iterators defining the [range](../iterator.html#Ranges "cpp/iterator") of elements to examine   
 ---|---|---  
@@ -352,13 +352,13 @@ Type requirements
 -`ForwardIt` must meet the requirements of [LegacyForwardIterator](../named_req/ForwardIterator.html "cpp/named req/ForwardIterator").   
 -`BinaryPred` must meet the requirements of [BinaryPredicate](../named_req/BinaryPredicate.html "cpp/named req/BinaryPredicate").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/adjacent_find&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 An iterator to the first of the first pair of identical elements, that is, the first iterator it such that *it == *(it + 1) for (1,2) or p(*it, *(it + 1)) != false for (3,4). 
 
 If no such elements are found, last is returned. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/adjacent_find&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Given result as the return value of `adjacent_find`, \\(\scriptsize M\\)M as [std::distance](../iterator/distance.html)(first, result) and \\(\scriptsize N\\)N as [std::distance](../iterator/distance.html)(first, last): 
 
@@ -370,7 +370,7 @@ Given result as the return value of `adjacent_find`, \\(\scriptsize M\\)M as [st
 
 4) \\(\scriptsize O(N)\\)O(N) applications of the predicate p.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/adjacent_find&action=edit&section=4 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 The overloads with a template parameter named `ExecutionPolicy` report errors as follows: 
 
@@ -379,7 +379,7 @@ The overloads with a template parameter named `ExecutionPolicy` report errors as
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/adjacent_find&action=edit&section=5 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
 
 [adjacent_find (1)](adjacent_find.html#Version_1)  
 ---  
@@ -420,7 +420,7 @@ The overloads with a template parameter named `ExecutionPolicy` report errors as
         return last;
     }  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/adjacent_find&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -457,7 +457,7 @@ Output:
     The first adjacent pair of equal elements is at 4, *i1 = 40
     The last element in the non-decreasing subsequence is at 7, *i2 = 41
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/adjacent_find&action=edit&section=7 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -469,10 +469,10 @@ for (1,3), where value was never defined  | applied [std::min](min.html)(
 (result - first) + 1,  
 (last - first) - 1) times   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/adjacent_find&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [ unique](unique.html "cpp/algorithm/unique") |  removes consecutive duplicate elements in a range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_unique&action=edit)  
+(function template)   
 ---|---  
 [ ranges::adjacent_find](ranges/adjacent_find.html "cpp/algorithm/ranges/adjacent find")(C++20) |  finds the first two adjacent items that are equal (or satisfy a given predicate)  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_adjacent_find&action=edit)
+(algorithm function object)

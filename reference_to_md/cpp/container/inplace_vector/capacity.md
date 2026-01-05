@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -71,7 +71,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::inplace_vector`](../inplace_vector.html "cpp/container/inplace vector")
 
@@ -132,7 +132,7 @@ Tables
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/inplace_vector/navbar_content&action=edit)
+
 
 static constexpr size_type capacity() noexcept; |  |  (since C++26)  
 ---|---|---  
@@ -152,23 +152,23 @@ Returns the capacity of the internal (inplace) storage. Equivalent to: return N;
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/inplace_vector/capacity&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/inplace_vector/capacity&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The maximum number of elements the container is able to hold. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/inplace_vector/capacity&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Constant. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/inplace_vector/capacity&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 Because each [std::inplace_vector](../inplace_vector.html)<T, N> is a fixed-capacity container, the value returned by `capacity` equals `N` (which is also the value returned by max_size()). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/inplace_vector/capacity&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -184,16 +184,16 @@ Run this code
         static_assert(v2.capacity() == 0 && v2.max_size() == 0);
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/inplace_vector/capacity&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ max_size](max_size.html "cpp/container/inplace vector/max size")[static] |  returns the maximum possible number of elements   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_max_size&action=edit)  
+(public static member function)   
 ---|---  
 [ size](size.html "cpp/container/inplace vector/size") |  returns the number of elements   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_size&action=edit)  
+(public member function)   
 [ resize](resize.html "cpp/container/inplace vector/resize") |  changes the number of elements stored   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_resize&action=edit)  
+(public member function)   
 [ empty](empty.html "cpp/container/inplace vector/empty") |  checks whether the container is empty   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_empty&action=edit)  
+(public member function)   
 [ reserve](reserve.html "cpp/container/inplace vector/reserve")[static] |  reserves storage   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_reserve&action=edit)
+(public static member function) 

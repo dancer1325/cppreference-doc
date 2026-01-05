@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Type support](../../utility/rtti.html "cpp/types")
 
@@ -161,7 +161,7 @@ Runtime type information
 ---  
 [bad_cast](../bad_cast.html "cpp/types/bad cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/navbar_content&action=edit)
+
 
 [`std::numeric_limits`](../numeric_limits.html "cpp/types/numeric limits")
 
@@ -204,7 +204,7 @@ Helper types
 [float_round_style](float_round_style.html "cpp/types/numeric limits/float round style")  
 **float_denorm_style**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/navbar_content&action=edit)
+
 
 Defined in header `[<limits>](../../header/limits.html "cpp/header/limits")` |  |   
 ---|---|---  
@@ -217,7 +217,7 @@ denorm_present = 1
   
 Enumeration constants of type `std::float_denorm_style` indicate support of subnormal values by floating-point types. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/numeric_limits/float_denorm_style&action=edit&section=1 "Edit section: Enumeration constants")] Enumeration constants
+### Enumeration constants
 
 Enumerator  |  Meaning   
 ---|---  
@@ -225,8 +225,8 @@ Enumerator  |  Meaning
 `std::denorm_absent` |  the type does not support subnormal values   
 `std::denorm_present` |  the type allows subnormal values   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/numeric_limits/float_denorm_style&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ has_denorm](has_denorm.html "cpp/types/numeric limits/has denorm")[static] |  identifies the denormalization style used by the floating-point type   
-(public static member constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/dsc_has_denorm&action=edit)  
+(public static member constant)   
 ---|---

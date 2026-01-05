@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Diagnostics library](../../error.html "cpp/error")
 
@@ -187,7 +187,7 @@ Exception handling failures
 [breakpoint_if_debugging](../../utility/breakpoint_if_debugging.html "cpp/utility/breakpoint if debugging")(C++26)  
 [breakpoint](../../utility/breakpoint.html "cpp/utility/breakpoint")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/navbar_content&action=edit)
+
 
 [`std::bad_exception`](../bad_exception.html "cpp/error/bad exception")
 
@@ -197,7 +197,7 @@ Member functions
 **bad_exception::operator=**  
 [bad_exception::what](what.html "cpp/error/bad exception/what")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/bad_exception/navbar_content&action=edit)
+
 
 bad_exception& operator=( const bad_exception& other ) throw(); |  | (until C++11)  
 ---|---|---  
@@ -207,11 +207,11 @@ bad_exception& operator=( const bad_exception& other ) noexcept; |  |  (since C+
   
 Assigns the contents of other. If *this and other both have dynamic type `std::exception` then [std::strcmp](../../string/byte/strcmp.html)(what(), other.what()) == 0 after assignment.(since C++11)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/bad_exception/operator%3D&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 other  |  \-  |  another `bad_exception` object to assign   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/bad_exception/operator%3D&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 *this. 

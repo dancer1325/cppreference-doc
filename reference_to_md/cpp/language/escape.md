@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Expressions](expressions.html "cpp/language/expressions")
 
@@ -289,7 +289,7 @@ Conversions
 [`dynamic_cast`](dynamic_cast.html "cpp/language/dynamic cast")  
 [`reinterpret_cast`](reinterpret_cast.html "cpp/language/reinterpret cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/expressions/navbar_content&action=edit)
+
 
 Escape sequences are used to represent certain special characters within [string literals](string_literal.html "cpp/language/string literal") and [character literals](character_literal.html "cpp/language/character literal"). 
 
@@ -340,7 +340,7 @@ may result in several code units  |  code point `U+_nnnn_` (4 hexadecimal digits
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/escape&action=edit&section=1 "Edit section: Range of universal character names")] Range of universal character names
+### Range of universal character names
 
 If a universal character name corresponds to a code point that is not 0x24 (`$`), 0x40 (`@`), nor 0x60 (```) and less than 0xA0, the program is ill-formed. In other words, members of [basic source character set](charset.html#Basic_source_character_set "cpp/language/charset") and control characters (in ranges 0x0-0x1F and 0x7F-0x9F) cannot be expressed in universal character names.  | (until C++11)  
 ---|---  
@@ -370,7 +370,7 @@ A valid n-char-sequence must contain only uppercase Latin letters A through Z, d
 
 (since C++23)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/escape&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 \0 is the most commonly used octal escape sequence, because it represents the terminating null character in [null-terminated strings](../string.html#Null-terminated_strings "cpp/string"). 
 
@@ -389,7 +389,7 @@ Feature-test macro | Value | Std | Feature
 ---|---|---|---  
 [`__cpp_named_character_escapes`](../experimental/feature_test.html#cpp_named_character_escapes "cpp/feature test") | [`202207L`](../compiler_support/23.html#cpp_named_character_escapes_202207L "cpp/compiler support/23") | (C++23) | Named universal character escapes   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/escape&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -412,7 +412,7 @@ Output:
      
     She said, "Sells she seashells on the seashore?"
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/escape&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -422,7 +422,7 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 a backslash was not one of those specified in the table  | made conditionally supported  
 (semantic is implementation-defined)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/escape&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
   * [ASCII chart](ascii.html "cpp/language/ascii")
 

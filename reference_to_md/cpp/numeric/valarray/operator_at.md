@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [`std::valarray`](../valarray.html "cpp/numeric/valarray")
 
@@ -155,7 +155,7 @@
   
 [Deduction guides](deduction_guides.html "cpp/numeric/valarray/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/navbar_content&action=edit)
+
 
 const T& operator[]( [std::size_t](../../types/size_t.html) pos ) const; |  (1)  |   
 ---|---|---  
@@ -199,7 +199,7 @@ If pos < size() is false:
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/operator_at&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 pos  |  \-  |  position of the element to return   
 ---|---|---  
@@ -208,7 +208,7 @@ gslicearr  |  \-  |  [gslice](gslice.html "cpp/numeric/valarray/gslice") of the 
 boolarr  |  \-  |  mask of the elements to return   
 indarr  |  \-  |  indices of the elements to return   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/operator_at&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1,2) A reference to the corresponding element.
 
@@ -216,11 +216,11 @@ indarr  |  \-  |  indices of the elements to return
 
 4,6,8,10) The corresponding data structure containing references to the selected items.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/impldef_exception&action=edit&section=T-1 "Template:cpp/impldef exception")] Exceptions
+### Exceptions
 
 May throw implementation-defined exceptions. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/operator_at&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 For proper [std::valarray](../valarray.html "cpp/numeric/valarray") values a, b and proper [std::size_t](../../types/size_t.html "cpp/types/size t") values i, j, all of the following expressions always evaluate to true: 
 
@@ -254,7 +254,7 @@ For overloads (3,5,7,9), The function can be implemented with the return type di
 
 Slice/mask/indirect index accesses do not chain: v[v == n][[std::slice](slice.html)(0, 5, 2)] = x; is an error because [std::mask_array](mask_array.html "cpp/numeric/valarray/mask array") (the type of v[v == n]) does not have operator[]. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/operator_at&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -289,7 +289,7 @@ Output:
     Initial valarray:     0  1  2  3  4  5  6  7  8  9
     After v[v > 5] = -1:  0  1  2  3  4  5 -1 -1 -1 -1
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/operator_at&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [Common mathematical functions](../math.html "cpp/numeric/math")
 
@@ -230,7 +230,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/navbar_content&action=edit)
+
 
 Defined in header `[<cmath>](../../header/cmath.html "cpp/header/cmath")` |  |   
 ---|---|---  
@@ -270,13 +270,13 @@ A) Additional overloads are provided for all other combinations of arithmetic ty
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/remquo&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 x, y  |  \-  |  floating-point or integer values   
 ---|---|---  
 quo  |  \-  |  pointer to int to store the sign and some bits of x / y  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/remquo&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 If successful, returns the floating-point remainder of the division x / y as defined in [std::remainder](remainder.html "cpp/numeric/math/remainder"), and stores, in *quo, the sign and at least three of the least significant bits of x / y (formally, stores a value whose sign is the sign of x / y and whose magnitude is congruent modulo 2n  
 to the magnitude of the integral quotient of x / y, where n is an implementation-defined integer greater than or equal to 3). 
@@ -289,7 +289,7 @@ If a range error occurs due to underflow, the correct result is returned if subn
 
 If y is zero, but the domain error does not occur, zero is returned. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/remquo&action=edit&section=3 "Edit section: Error handling")] Error handling
+### Error handling
 
 Errors are reported as specified in [math_errhandling](math_errhandling.html "cpp/numeric/math/math errhandling"). 
 
@@ -305,7 +305,7 @@ If the implementation supports IEEE floating-point arithmetic (IEC 60559),
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/remquo&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 [POSIX requires](https://pubs.opengroup.org/onlinepubs/9699919799/functions/remquo.html) that a domain error occurs if x is infinite or y is zero. 
 
@@ -327,7 +327,7 @@ static_cast<float>(num2), quo).
 If num1 and num2 have arithmetic types, then std::remquo(num1, num2, quo) has the same effect as std::remquo(static_cast</*common-floating-point-type*/>(num1),  
 static_cast</*common-floating-point-type*/>(num2), quo), where /*common-floating-point-type*/ is the floating-point type with the greatest [floating-point conversion rank](../../language/usual_arithmetic_conversions.html#Floating-point_conversion_rank "cpp/language/usual arithmetic conversions") and greatest [floating-point conversion subrank](../../language/usual_arithmetic_conversions.html#Floating-point_conversion_subrank "cpp/language/usual arithmetic conversions") between the types of num1 and num2, arguments of integer type are considered to have the same floating-point conversion rank as double. If no such floating-point type with the greatest rank and subrank exists, then [overload resolution](../../language/overload_resolution.html "cpp/language/overload resolution") does not result in a usable candidate from the overloads provided.  | (since C++23)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/remquo&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -408,13 +408,13 @@ Possible output:
     remquo(+Inf, 1) = -nan
       FE_INVALID raised
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/remquo&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ div(int)ldivlldiv](div.html "cpp/numeric/math/div")(C++11) |  computes quotient and remainder of integer division   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_div&action=edit)  
+(function)   
 ---|---  
 [ fmodfmodffmodl](fmod.html "cpp/numeric/math/fmod")(C++11)(C++11) |  remainder of the floating point division operation   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_fmod&action=edit)  
+(function)   
 [ remainderremainderfremainderl](remainder.html "cpp/numeric/math/remainder")(C++11)(C++11)(C++11) |  signed remainder of the division operation   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_remainder&action=edit)  
+(function)   
 [C documentation](../../../c/numeric/math/remquo.html "c/numeric/math/remquo") for remquo

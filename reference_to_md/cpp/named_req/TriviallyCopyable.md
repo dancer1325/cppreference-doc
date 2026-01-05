@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ named requirements](../iterator/concepts.html "cpp/named req")
 
@@ -147,7 +147,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/named_req/navbar_content&action=edit)
+
 
 Note: the standard doesn't define a named requirement with this name. This is a type category defined by the core language. It is included here as a named requirement only for consistency. 
 
@@ -161,7 +161,7 @@ Note: the standard doesn't define a named requirement with this name. This is a 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/TriviallyCopyable&action=edit&section=1 "Edit section: Requirements")] Requirements
+### Requirements
 
 The following types are collectively called _trivially copyable types_ : 
 
@@ -172,7 +172,7 @@ The following types are collectively called _trivially copyable types_ :
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/TriviallyCopyable&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 In general, for any trivially copyable type `T` and an object `obj1` of `T`, the underlying bytes of `obj1` can be copied into an array of char, or unsigned char, or [`std::byte`](../types/byte.html "cpp/types/byte")(since C++17) or into `obj2`, a distinct object of `T`. Neither `obj1` nor `obj2` may be a potentially-overlapping subobject. 
 
@@ -180,7 +180,7 @@ If the underlying bytes of `obj1` are copied into such an array, and then the re
 
 Underlying bytes can be copied by [std::memcpy](../string/byte/memcpy.html "cpp/string/byte/memcpy") or [std::memmove](../string/byte/memmove.html "cpp/string/byte/memmove"), as long as no living volatile object is accessed. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/TriviallyCopyable&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -189,8 +189,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [CWG 1734](https://cplusplus.github.io/CWG/issues/1734.html) | C++11  | C++03 POD with deleted non-trivial assignment was not trivial  | deleted ctors/operators allowed   
 [CWG 2094](https://cplusplus.github.io/CWG/issues/2094.html) | C++11  | Volatile scalar types are not trivially copyable ([CWG 1746](https://cplusplus.github.io/CWG/issues/1746.html))  | made trivially copyable   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/TriviallyCopyable&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ is_trivially_copyable](../types/is_trivially_copyable.html "cpp/types/is trivially copyable")(C++11) |  checks if a type is trivially copyable   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_trivially_copyable&action=edit)  
+(class template)   
 ---|---

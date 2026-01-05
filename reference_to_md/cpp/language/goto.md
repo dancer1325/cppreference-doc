@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Statements](statements.html "cpp/language/statements")
 
@@ -253,7 +253,7 @@ Miscellaneous
 [Transactional memory](transactional_memory.html "cpp/language/transactional memory")  
 [`synchronized`](transactional_memory.html#Synchronized_blocks "cpp/language/transactional memory"), [`atomic_commit`](transactional_memory.html#Atomic_blocks "cpp/language/transactional memory"), etc (TM TS)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/statements/navbar_content&action=edit)
+
 
 Transfers control unconditionally. 
 
@@ -272,12 +272,12 @@ Used when it is otherwise impossible to transfer control to the desired location
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/goto&action=edit&section=1 "Edit section: Syntax")] Syntax  
+### Syntax  
   
 ---  
 attr ﻿(optional) `**goto**` label `**;**` |  |   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/goto&action=edit&section=2 "Edit section: Explanation")] Explanation
+### Explanation
 
 The goto statement transfers control to the location specified by [label](statements.html#Labels "cpp/language/statements"). The goto statement must be in the same function as the label it is referring, it may appear before or after the label. 
 
@@ -296,15 +296,15 @@ If transfer of control enters the scope of any automatic variables (e.g. by jump
 
 (Note: the same rules apply to all forms of transfer of control) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/goto&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 In the C programming language, the goto statement has fewer restrictions and can enter the scope of any variable other than [variable-length array](../../c/language/array.html#Variable-length_arrays "c/language/array") or variably-modified pointer. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/goto&action=edit&section=4 "Edit section: Keywords")] Keywords
+### Keywords
 
 [`goto`](../keyword/goto.html "cpp/keyword/goto")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/goto&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -382,12 +382,12 @@ Output:
     d
     d
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/goto&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [C documentation](../../c/language/goto.html "c/language/goto") for goto  
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/goto&action=edit&section=7 "Edit section: External links")] External links
+### External links
 
 The popular Edsger W. Dijkstra essay, [“Goto Considered Harmful”](http://david.tribble.com/text/goto.html) (originally, in "Letter to Communications of the ACM (CACM)", vol. 11 #3, March 1968, pp. 147-148.), presents a survey of the many subtle problems the careless use of this keyword can introduce.   
 ---

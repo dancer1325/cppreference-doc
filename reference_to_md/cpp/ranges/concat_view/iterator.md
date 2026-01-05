@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::concat_view`](../concat_view.html "cpp/ranges/concat view")
 
@@ -262,7 +262,7 @@ operator-(concat_view::_iterator_)](iterator/operator_arith2.html "cpp/ranges/co
 [iter_move(concat_view::_iterator_)](iterator/iter_move.html "cpp/ranges/concat view/iterator/iter move")  
 [iter_swap(concat_view::_iterator_)](iterator/iter_swap.html "cpp/ranges/concat view/iterator/iter swap")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/concat_view/navbar_content&action=edit)
+
 
 template< bool Const >  
 class /*iterator*/ |  (1) | (exposition only*)  
@@ -312,12 +312,12 @@ concept` `` _concat-is-bidirectional_`` `= // exposition only
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/concat_view/iterator&action=edit&section=1 "Edit section: Template parameters")] Template parameters
+### Template parameters
 
 Const  |  \-  |  whether the iterator is a constant iterator   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/concat_view/iterator&action=edit&section=2 "Edit section: Nested types")] Nested types
+### Nested types
 
 #####  Exposition-only types   
   
@@ -335,7 +335,7 @@ Type  |  Definition
 `value_type` |  `_[concat-value-t](../concat_view.html#concat-value-t "cpp/ranges/concat view")_` ﻿<`_[maybe-const](../../ranges.html#maybe-const "cpp/ranges")_` ﻿<Const, Views>...>  
 `difference_type` |  [std::common_type_t](../../types/common_type.html)<[ranges::range_difference_t](../range_size_t.html)<`_[maybe-const](../../ranges.html#maybe-const "cpp/ranges")_` ﻿<Const, Views>>...>  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/concat_view/iterator&action=edit&section=3 "Edit section: Determining the iterator concept")] Determining the iterator concept
+#### Determining the iterator concept
 
 `iterator_concept` is defined as follows: 
 
@@ -346,7 +346,7 @@ Type  |  Definition
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/concat_view/iterator&action=edit&section=4 "Edit section: Determining the iterator category")] Determining the iterator category
+#### Determining the iterator category
 
 `iterator_category` is defined if and only if `_[all-forward](../../ranges.html#all-forward "cpp/ranges")_` ﻿<Const, Views...> is modeled. In this case, it is defined as follows: 
 
@@ -361,7 +361,7 @@ Type  |  Definition
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/concat_view/iterator&action=edit&section=5 "Edit section: Data members")] Data members
+### Data members
 
 Member  |  Definition   
 ---|---  
@@ -370,7 +370,7 @@ Member  |  Definition
 `_base-iter_` `_it__` |  an iterator into the current view  
 (exposition-only member object*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/concat_view/iterator&action=edit&section=6 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](iterator/iterator.html "cpp/ranges/concat view/iterator/iterator") |  constructs an iterator   
 (public member function)  
@@ -380,7 +380,7 @@ Member  |  Definition
 [ operator[]](iterator/operator_at.html "cpp/ranges/concat view/iterator/operator at") |  accesses an element by index   
 (public member function)  
 [ operator++operator++(int)operator--operator--(int)operator+=operator-=](iterator/operator_arith.html "cpp/ranges/concat view/iterator/operator arith") |  advances or decrements the underlying iterator   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/iterator/dsc_operator_arith&action=edit)  
+(public member function)   
   
 #####  Exposition-only function templates   
   
@@ -393,7 +393,7 @@ Member  |  Definition
 [__advance-bwd__](iterator/helpers.html#advance-bwd "cpp/ranges/concat view/iterator/helpers") |  decrements the current position on given value  
 (exposition-only member function*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/concat_view/iterator&action=edit&section=7 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ operator==operator<operator>operator<=operator>=operator<=>](iterator/operator_cmp.html "cpp/ranges/concat view/iterator/operator cmp")(C++26) |  compares the underlying iterators   
 (function)  
@@ -405,7 +405,7 @@ Member  |  Definition
 [ iter_swap](iterator/iter_swap.html "cpp/ranges/concat view/iterator/iter swap")(C++26) |  swaps the objects pointed to by two underlying iterators   
 (function)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/concat_view/iterator&action=edit&section=8 "Edit section: Example")] Example
+### Example
 
 The preliminary version can be checked out on [Compiler Explorer](https://godbolt.org/z/TGv8v84xz).
 
@@ -434,7 +434,7 @@ Output:
     
     1 2 3 4 5 6 7 8 1 2 3 4 5 6 7 8
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/concat_view/iterator&action=edit&section=9 "Edit section: References")] References
+### References
 
   * C++26 standard (ISO/IEC 14882:2026): 
 

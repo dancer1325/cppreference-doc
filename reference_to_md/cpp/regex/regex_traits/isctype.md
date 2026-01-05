@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Regular expressions library](../../regex.html "cpp/regex")
 
@@ -81,7 +81,7 @@ Constants
 Regex Grammar  
 [Modified ECMAScript-262](../ecmascript.html "cpp/regex/ecmascript")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/navbar_content&action=edit)
+
 
 [`std::regex_traits`](../regex_traits.html "cpp/regex/regex traits")
 
@@ -100,7 +100,7 @@ Member functions
 [regex_traits::imbue](imbue.html "cpp/regex/regex traits/imbue")  
 [regex_traits::getloc](getloc.html "cpp/regex/regex traits/getloc")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/regex_traits/navbar_content&action=edit)
+
 
 bool isctype( CharT c, char_class_type f ) const; |  |   
 ---|---|---  
@@ -132,17 +132,17 @@ For each [std::ctype](../../locale/ctype.html "cpp/locale/ctype") category liste
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/regex_traits/isctype&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 c  |  \-  |  the character to classify   
 ---|---|---  
 f  |  \-  |  the bitmask obtained from one or several calls to [lookup_classname()](lookup_classname.html "cpp/regex/regex traits/lookup classname")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/regex_traits/isctype&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 true if c is classified by f, false otherwise. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/regex_traits/isctype&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -221,7 +221,7 @@ Output:
     alnums: 風の谷のナウシカ
     katakana: ナウシカ
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/regex_traits/isctype&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -229,12 +229,12 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 2018](https://cplusplus.github.io/LWG/issue2018) | C++11  | the value of m was unspecified  | matches [lookup_classname()](lookup_classname.html "cpp/regex/regex traits/lookup classname")'s minimal support   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/regex_traits/isctype&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ lookup_classname](lookup_classname.html "cpp/regex/regex traits/lookup classname") |  gets a character class by name   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/regex_traits/dsc_lookup_classname&action=edit)  
+(public member function)   
 ---|---  
 [ do_is](../../locale/ctype/is.html "cpp/locale/ctype/is")[virtual] |  classifies a character or a character sequence   
-(virtual protected member function of `std::ctype<CharT>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/ctype/dsc_do_is&action=edit)  
+(virtual protected member function of `std::ctype<CharT>`)   
 [ iswctype](../../string/wide/iswctype.html "cpp/string/wide/iswctype") |  classifies a wide character according to the specified [`LC_CTYPE`](../../locale/LC_categories.html "cpp/locale/LC categories") category   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_iswctype&action=edit)
+(function) 

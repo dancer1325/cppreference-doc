@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ named requirements](../iterator/concepts.html "cpp/named req")
 
@@ -147,7 +147,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/named_req/navbar_content&action=edit)
+
 
 Specifies that an expression of such a type and value category is convertible to bool, and for which the logical operators for the type or two different BooleanTestable types have the usual behavior (including [short-circuiting](https://en.wikipedia.org/wiki/Short-circuit_evaluation "enwiki:Short-circuit evaluation")). 
 
@@ -161,7 +161,7 @@ Specifies that an expression of such a type and value category is convertible to
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/BooleanTestable&action=edit&section=1 "Edit section: Requirements")] Requirements
+### Requirements
 
 Let e be an expression of a certain type and value category. The type and value category meet the BooleanTestable requirements if: 
 
@@ -174,7 +174,7 @@ Let e be an expression of a certain type and value category. The type and value 
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/BooleanTestable&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 The standard does not define a named requirement with this name. It was originally proposed in an early resolution of [LWG2114](https://cplusplus.github.io/LWG/issue2114), but was superseded by the exposition-only concept `_[boolean-testable](../concepts/boolean-testable.html "cpp/concepts/boolean-testable")_` in the final resolution [P2167R3](https://wg21.link/P2167R3). Because implementations generally expect the provided types to model `_boolean-testable_` even in pre-C++20 modes, we intentedly treat P2167R3 as a defect report and transform the `_boolean-testable_` to legacy named requirements. 
 
@@ -185,7 +185,7 @@ The type and value category of an expression e meet the BooleanTestable requirem
   
 Examples of BooleanTestable types (with any value category) include bool, [std::true_type](../types/integral_constant.html "cpp/types/integral constant")(since C++11), [std::bitset](../utility/bitset.html)<N>::[`reference`](../utility/bitset/reference.html "cpp/utility/bitset/reference"), and int*. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/BooleanTestable&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -194,8 +194,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [LWG 2114](https://cplusplus.github.io/LWG/issue2114)  
 ([P2167R3](https://wg21.link/P2167R3))  | C++98  | convertibility to bool was too weak to reflect the expectation of implementations  | requirements strengthened   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/BooleanTestable&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [_boolean-testable_](../concepts/boolean-testable.html "cpp/concepts/boolean-testable") ﻿(C++20) |  specifies that a type can be used in Boolean contexts  
-(exposition-only concept*)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_boolean-testable&action=edit)  
+(exposition-only concept*)  
 ---|---

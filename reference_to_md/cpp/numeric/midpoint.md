@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 Defined in header `[<numeric>](../header/numeric.html "cpp/header/numeric")` |  |   
 ---|---|---  
@@ -116,22 +116,22 @@ Computes the midpoint of the integers, floating-points, or pointers a and b.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/midpoint&action=edit&section=1 "Edit section: Parameters")] Parameters 
+### Parameters 
 
 a, b  |  \-  |  integers, floating-points, or pointer values   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/midpoint&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) Half the sum of a and b. No overflow occurs. If a and b have integer type and the sum is odd, the result is rounded towards a. If a and b have floating-point type, at most one inexact operation occurs.
 
 2) If a and b point to, respectively, x[i] and x[j] of the same array object `x` (for the purpose of [pointer arithmetic](../language/operator_arithmetic.html#Additive_operators "cpp/language/operator arithmetic")), returns a pointer to x[i + (j - i) / 2] (or, equivalently x[std::midpoint(i, j)]) where the division rounds towards zero. If a and b do not point to elements of the same array object, the behavior is undefined.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/midpoint&action=edit&section=3 "Edit section: Exceptions")] Exceptions 
+### Exceptions 
 
 Throws no exceptions. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/midpoint&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 Overload (2) can be simply implemented as return a + (b - a) / 2; on common platforms. However, such implementation is not guaranteed to be portable, because there may be some platforms where creating an array with number of elements greater than [PTRDIFF_MAX](../types/climits.html "cpp/types/climits") is possible, and b - a may result in undefined behavior even if both b and a point to elements in the same array. 
 
@@ -139,7 +139,7 @@ Overload (2) can be simply implemented as return a + (b - a) / 2; on common plat
 ---|---|---|---  
 [`__cpp_lib_interpolate`](../experimental/feature_test.html#cpp_lib_interpolate "cpp/feature test") | [`201902L`](../compiler_support/20.html#cpp_lib_interpolate_201902L "cpp/compiler support/20") | (C++20) | [std::lerp](lerp.html "cpp/numeric/lerp"), `std::midpoint`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/midpoint&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -187,7 +187,7 @@ Output:
     std::midpoint('5', '2'): '4'
     std::midpoint('2', '6'): '4'
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/midpoint&action=edit&section=6 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -209,10 +209,10 @@ Output:
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/midpoint&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ lerp](lerp.html "cpp/numeric/lerp")(C++20) |  linear interpolation function   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/dsc_lerp&action=edit)  
+(function)   
 ---|---
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

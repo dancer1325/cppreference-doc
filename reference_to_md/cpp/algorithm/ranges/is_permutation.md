@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](copy.html "cpp/algorithm/ranges/co
 [uninitialized_default_construct_n](../../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 [Constrained algorithms](../ranges.html "cpp/algorithm/ranges")
 
@@ -550,7 +550,7 @@ All names in this menu belong to namespace `std::ranges`
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -600,7 +600,7 @@ The function-like entities described on this page are [_algorithm function objec
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/is_permutation&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first1, last1  |  \-  |  the iterator-sentinel pair defining the first [range](../../iterator.html#Ranges "cpp/iterator") of elements   
 ---|---|---  
@@ -611,21 +611,21 @@ pred  |  \-  |  predicate to apply to the projected elements
 proj1  |  \-  |  projection to apply to the elements in the first range   
 proj2  |  \-  |  projection to apply to the elements in the second range   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/is_permutation&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 true if the range `[`first1`, `last1`)` is a permutation of the range `[`first2`, `last2`)`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/is_permutation&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 At most \\(\scriptsize \mathcal{O}(N^2)\\)O(N2) applications of the predicate and each projection, or exactly \\(\scriptsize N\\)N if the sequences are already equal, where \\(\scriptsize N\\)N is [ranges::distance](../../iterator/ranges/distance.html)(first1, last1). However if [ranges::distance](../../iterator/ranges/distance.html)(first1, last1) != [ranges::distance](../../iterator/ranges/distance.html)(first2, last2), no applications of the predicate and projections are made. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/is_permutation&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 The _permutation_ relation is an [equivalence relation](https://en.wikipedia.org/wiki/equivalence_relation "enwiki:equivalence relation"). 
 
 The `ranges::is_permutation` can be used in testing, e.g. to check the correctness of rearranging algorithms such as sorting, shuffling, partitioning. If `p` is an original sequence and `q` is a "mutated" sequence, then ranges::is_permutation(p, q) == true means that `q` consist of "the same" elements (maybe permuted) as `p`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/is_permutation&action=edit&section=5 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     struct is_permutation_fn
@@ -683,7 +683,7 @@ The `ranges::is_permutation` can be used in testing, e.g. to check the correctne
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/is_permutation&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -738,18 +738,18 @@ Output:
     is_permutation({ 1 2 3 4 5 }, { 3 5 4 1 1 }): false
     is_permutation with custom predicate and projections: true
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/is_permutation&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ ranges::next_permutation](next_permutation.html "cpp/algorithm/ranges/next permutation")(C++20) |  generates the next greater lexicographic permutation of a range of elements  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_next_permutation&action=edit)  
+(algorithm function object)  
 ---|---  
 [ ranges::prev_permutation](prev_permutation.html "cpp/algorithm/ranges/prev permutation")(C++20) |  generates the next smaller lexicographic permutation of a range of elements  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_prev_permutation&action=edit)  
+(algorithm function object)  
 [ is_permutation](../is_permutation.html "cpp/algorithm/is permutation")(C++11) |  determines if a sequence is a permutation of another sequence   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_is_permutation&action=edit)  
+(function template)   
 [ next_permutation](../next_permutation.html "cpp/algorithm/next permutation") |  generates the next greater lexicographic permutation of a range of elements   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_next_permutation&action=edit)  
+(function template)   
 [ prev_permutation](../prev_permutation.html "cpp/algorithm/prev permutation") |  generates the next smaller lexicographic permutation of a range of elements   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_prev_permutation&action=edit)  
+(function template)   
 [ equivalence_relation](../../concepts/equivalence_relation.html "cpp/concepts/equivalence relation")(C++20) |  specifies that a [`relation`](../../concepts/relation.html "cpp/concepts/relation") imposes an equivalence relation   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_equivalence_relation&action=edit)
+(concept) 

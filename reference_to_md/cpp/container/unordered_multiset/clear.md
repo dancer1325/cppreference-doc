@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 `[std::unordered_multiset](../unordered_multiset.html "cpp/container/unordered multiset")`
 
@@ -135,7 +135,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/unordered multiset/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/unordered_multiset/navbar_content&action=edit)
+
 
 void clear() noexcept; |  | (since C++11)   
 (constexpr since C++26)  
@@ -156,11 +156,11 @@ Invalidates any references, pointers, and iterators referring to contained eleme
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/clear&action=edit&section=T-1 "Template:cpp/container/clear")] Complexity
+### Complexity
 
 Linear in the size of the container, i.e., the number of elements. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/clear&action=edit&section=T-3 "Template:cpp/container/clear")] Example
+### Example
 
 Run this code
     
@@ -203,8 +203,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [LWG 2550](https://cplusplus.github.io/LWG/issue2550) | C++11  | for unordered associative containers, unclear if complexity  
 is linear in the number of elements or buckets  | clarified that it's linear in the number of elements   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/clear&action=edit&section=T-5 "Template:cpp/container/clear")] See also
+### See also
 
 [ erase](erase.html "cpp/container/unordered multiset/erase") |  erases elements   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_erase&action=edit)  
+(public member function)   
 ---|---

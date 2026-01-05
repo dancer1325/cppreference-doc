@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](empty.html "cpp/iterator/empty")(C++17)  
 [data](data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 Defined in header `[<iterator>](../header/iterator.html "cpp/header/iterator")` |  |   
 ---|---|---  
@@ -222,11 +222,11 @@ concept indirectly_regular_unary_invocable =
   
 The concepts `indirectly_unary_invocable` and `indirectly_regular_unary_invocable` specify requirements for algorithms that call (regular) unary invocables as their arguments. The key difference between these concepts and [std::invocable](../concepts/invocable.html "cpp/concepts/invocable") is that they are applied to the type the `I` references, rather than `I` itself. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/indirectly_unary_invocable&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 The distinction between `indirectly_unary_invocable` and `indirectly_regular_unary_invocable` is purely semantic. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/indirectly_unary_invocable&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -267,7 +267,7 @@ Output:
     
     1 2 3 4 5 6 7 8 9
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/indirectly_unary_invocable&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

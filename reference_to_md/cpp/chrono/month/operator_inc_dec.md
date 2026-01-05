@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::month`](../month.html "cpp/chrono/month")
 
@@ -121,7 +121,7 @@ Helper classes
 [formatter<std::chrono::month>](formatter.html "cpp/chrono/month/formatter")  
 [hash<std::chrono::month>](hash.html "cpp/chrono/month/hash")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/month/navbar_content&action=edit)
+
 
 constexpr [std::chrono::month](../month.html)& operator++() noexcept; |  (1)  |  (since C++20)  
 ---|---|---  
@@ -147,21 +147,21 @@ Adds or subtracts 1 from the month value, reducing the result modulo 12 to an in
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/month/operator_inc_dec&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/month/operator_inc_dec&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1,3) A reference to this `month` after modification.
 
 2,4) A copy of the `month` made before modification.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/month/operator_inc_dec&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 After a call to one of these functions, ok() is always true. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/month/operator_inc_dec&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -197,10 +197,10 @@ Output:
     1
     12
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/month/operator_inc_dec&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ operator+=operator-=](operator_arith.html "cpp/chrono/month/operator arith") |  adds or subtracts a number of months   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/month/dsc_operator_arith&action=edit)  
+(public member function)   
 ---|---  
 [ operator+operator-](operator_arith_2.html "cpp/chrono/month/operator arith 2")(C++20) |  performs arithmetic on `month`s   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/month/dsc_operator_arith_2&action=edit)
+(function) 

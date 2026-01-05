@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](ranges/copy.html "cpp/algorithm/ra
 [uninitialized_default_construct_n](../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -369,7 +369,7 @@ If any of the following conditions is satisfied, the behavior is undefined:
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/nth_element&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  the pair of iterators defining the [range](../iterator.html#Ranges "cpp/iterator") of elements for partial sorting   
 ---|---|---  
@@ -382,7 +382,7 @@ Type requirements
 -`RandomIt` must meet the requirements of [LegacyRandomAccessIterator](../named_req/RandomAccessIterator.html "cpp/named req/RandomAccessIterator").   
 -`Compare` must meet the requirements of [Compare](../named_req/Compare.html "cpp/named req/Compare").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/nth_element&action=edit&section=2 "Edit section: Complexity")] Complexity
+### Complexity
 
 Given \\(\scriptsize N\\)N as last - first: 
 
@@ -394,7 +394,7 @@ Given \\(\scriptsize N\\)N as last - first:
 
 4) \\(\scriptsize O(N)\\)O(N) applications of the comparator comp, and \\(\scriptsize O(N \cdot \log(N))\\)O(N·log(N)) swaps.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/nth_element&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 The overloads with a template parameter named `ExecutionPolicy` report errors as follows: 
 
@@ -403,15 +403,15 @@ The overloads with a template parameter named `ExecutionPolicy` report errors as
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/nth_element&action=edit&section=4 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
 
 See also the implementations in [libstdc++](https://github.com/gcc-mirror/gcc/blob/d9375e490072d1aae73a93949aa158fcd2a27018/libstdc%2B%2B-v3/include/bits/stl_algo.h#L4718), [libc++](https://github.com/llvm/llvm-project/blob/ed2d364/libcxx/include/__algorithm/nth_element.h), and [MSVC STL](https://github.com/microsoft/STL/blob/e97bb2b50a12816ce68cc5147b7a3a21fb68bfa3/stl/inc/algorithm#L8849-L8894). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/nth_element&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 The algorithm used is typically [Introselect](https://en.wikipedia.org/wiki/Introselect "enwiki:Introselect") although other [Selection algorithm](https://en.wikipedia.org/wiki/Selection_algorithm "enwiki:Selection algorithm") with suitable average-case complexity are allowed. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/nth_element&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -462,7 +462,7 @@ Possible output:
     The largest element is 10
     v = {10, 9, 6, 7, 6, 3, 5, 4, 3, 2};
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/nth_element&action=edit&section=7 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -476,18 +476,18 @@ requirement
 were not required to be valid ranges  | the behavior is undefined  
 if any of them is invalid   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/nth_element&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [ max_element](max_element.html "cpp/algorithm/max element") |  returns the largest element in a range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_max_element&action=edit)  
+(function template)   
 ---|---  
 [ min_element](min_element.html "cpp/algorithm/min element") |  returns the smallest element in a range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_min_element&action=edit)  
+(function template)   
 [ partial_sort_copy](partial_sort_copy.html "cpp/algorithm/partial sort copy") |  copies and partially sorts a range of elements   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_partial_sort_copy&action=edit)  
+(function template)   
 [ stable_sort](stable_sort.html "cpp/algorithm/stable sort") |  sorts a range of elements while preserving order between equal elements   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_stable_sort&action=edit)  
+(function template)   
 [ sort](sort.html "cpp/algorithm/sort") |  sorts a range into ascending order   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_sort&action=edit)  
+(function template)   
 [ ranges::nth_element](ranges/nth_element.html "cpp/algorithm/ranges/nth element")(C++20) |  partially sorts the given range making sure that it is partitioned by the given element  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_nth_element&action=edit)
+(algorithm function object)

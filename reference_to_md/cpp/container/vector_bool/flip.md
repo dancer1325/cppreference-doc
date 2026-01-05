@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -71,7 +71,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::vector<bool>`](../vector_bool.html "cpp/container/vector bool")
 
@@ -133,7 +133,7 @@ Tables
 [hash<std::vector<bool>>](hash.html "cpp/container/vector bool/hash")(C++11)  
 [Deduction guides](../vector/deduction_guides.html "cpp/container/vector/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/vector_bool/navbar_content&action=edit)
+
 
 Defined in header `[<vector>](../../header/vector.html "cpp/header/vector")` |  |   
 ---|---|---  
@@ -142,7 +142,7 @@ void flip(); |  | (constexpr since C++20)
   
 Toggles each bool (replaces with its opposite value) in the [vector](../vector_bool.html "cpp/container/vector bool"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/vector_bool/flip&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -171,10 +171,10 @@ Output:
     0101
     1010
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/vector_bool/flip&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ operator[]](../vector/operator_at.html "cpp/container/vector/operator at") |  access specified element   
-(public member function of `std::vector<T,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_operator_at&action=edit)  
+(public member function of `std::vector<T,Allocator>`)   
 ---|---  
 [ flip](../../utility/bitset/flip.html "cpp/utility/bitset/flip") |  toggles the values of bits   
-(public member function of `std::bitset<N>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/bitset/dsc_flip&action=edit)
+(public member function of `std::bitset<N>`) 

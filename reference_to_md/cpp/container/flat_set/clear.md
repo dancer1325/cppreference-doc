@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::flat_set`](../flat_set.html "cpp/container/flat set")
 
@@ -134,7 +134,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/flat set/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/flat_set/navbar_content&action=edit)
+
 
 void clear() noexcept; |  | (since C++23)   
 (constexpr since C++26)  
@@ -145,11 +145,11 @@ Erases all elements from the container adaptor. After this call, size() returns 
 
 Invalidates any references, pointers, and iterators referring to contained elements. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/clear&action=edit&section=T-1 "Template:cpp/container/clear")] Complexity
+### Complexity
 
 Linear in the size of the container adaptor, i.e., the number of elements. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/clear&action=edit&section=T-3 "Template:cpp/container/clear")] Example
+### Example
 
 Run this code
     
@@ -183,8 +183,8 @@ Output:
     After clear: { }
     Size=0
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/clear&action=edit&section=T-5 "Template:cpp/container/clear")] See also
+### See also
 
 [ erase](erase.html "cpp/container/flat set/erase") |  erases elements   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_erase&action=edit)  
+(public member function)   
 ---|---

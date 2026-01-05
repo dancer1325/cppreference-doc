@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 **`std::ranges::filter_view`**
 
@@ -252,7 +252,7 @@ filter_view::_iterator_ ::operator--(int)](filter_view/iterator.html#decrement "
 [filter_view::_sentinel_ ::base](filter_view/sentinel.html#base "cpp/ranges/filter view/sentinel")  
 [operator==(filter_view::_iterator_ , filter_view::_sentinel_)](filter_view/sentinel.html#compare "cpp/ranges/filter view/sentinel")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/filter_view/navbar_content&action=edit)
+
 
 Defined in header `[<ranges>](../header/ranges.html "cpp/header/ranges")` |  |   
 ---|---|---  
@@ -298,7 +298,7 @@ constexpr /* range adaptor closure */ filter( Pred&& pred ); |  |  (since C++20)
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/filter_view&action=edit&section=1 "Edit section: Data members")] Data members
+### Data members
 
 Member  |  Description   
 ---|---  
@@ -310,7 +310,7 @@ Member  |  Description
 (present only if `V` satisfies [`forward_range`](forward_range.html "cpp/ranges/forward range")) |  an object that caches an iterator to the first element of `_base__` that satisfies the `_pred__`  
 (exposition-only member object*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/filter_view&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](filter_view.html#ctor "cpp/ranges/filter view") |  constructs a `filter_view`   
 (public member function)  
@@ -327,17 +327,17 @@ Member  |  Description
 #####  Inherited from [std::ranges::view_interface](view_interface.html "cpp/ranges/view interface")  
   
 [ empty](view_interface/empty.html "cpp/ranges/view interface/empty") |  returns whether the derived view is empty, provided only if it satisfies [`sized_range`](sized_range.html "cpp/ranges/sized range") or [`forward_range`](forward_range.html "cpp/ranges/forward range")   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_empty&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ cbegin](view_interface/cbegin.html "cpp/ranges/view interface/cbegin")(C++23) |  returns a constant iterator to the beginning of the range   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_cbegin&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ cend](view_interface/cend.html "cpp/ranges/view interface/cend")(C++23) |  returns a sentinel for the constant iterator of the range   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_cend&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ operator bool](view_interface/operator_bool.html "cpp/ranges/view interface/operator bool") |  returns whether the derived view is not empty, provided only if [ranges::empty](empty.html "cpp/ranges/empty") is applicable to it   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_operator_bool&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ front](view_interface/front.html "cpp/ranges/view interface/front") |  returns the first element in the derived view, provided if it satisfies [`forward_range`](forward_range.html "cpp/ranges/forward range")   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_front&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
 [ back](view_interface/back.html "cpp/ranges/view interface/back") |  returns the last element in the derived view, provided only if it satisfies [`bidirectional_range`](bidirectional_range.html "cpp/ranges/bidirectional range") and [`common_range`](common_range.html "cpp/ranges/common range")   
-(public member function of `std::ranges::view_interface<D>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/view_interface/dsc_back&action=edit)  
+(public member function of `std::ranges::view_interface<D>`)   
   
 ##  std::ranges::filter_view::filter_view
 
@@ -410,14 +410,14 @@ Returns an iterator to the end. Equivalent to
     else
         return /*sentinel*/{*this};
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/filter_view&action=edit&section=4 "Edit section: Deduction guides")] Deduction guides
+### Deduction guides
 
 template< class R, class Pred >  
 filter_view( R&&, Pred ) -> filter_view<[views::all_t](all_view.html)<R>, Pred>; |  |  (since C++20)  
 ---|---|---  
 | |   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/filter_view&action=edit&section=5 "Edit section: Nested classes")] Nested classes
+### Nested classes
 
 [_iterator_](filter_view/iterator.html "cpp/ranges/filter view/iterator") |  the iterator type of `filter_view`  
 (exposition-only member class*)  
@@ -425,7 +425,7 @@ filter_view( R&&, Pred ) -> filter_view<[views::all_t](all_view.html)<R>, Pred>;
 [_sentinel_](filter_view/sentinel.html "cpp/ranges/filter view/sentinel") |  the sentinel type of `filter_view` when the underlying view is not a [`common_range`](common_range.html "cpp/ranges/common range")  
 (exposition-only member class*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/filter_view&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -450,7 +450,7 @@ Output:
     
     0 4 16
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/filter_view&action=edit&section=7 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -462,8 +462,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 constructs a `filter_view` which does not contain a `Pred` | the `filter_view` is also  
 not [`default_initializable`](../concepts/default_initializable.html "cpp/concepts/default initializable")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/filter_view&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [ ranges::take_while_viewviews::take_while](take_while_view.html "cpp/ranges/take while view")(C++20) |  a [`view`](view.html "cpp/ranges/view") consisting of the initial elements of another [`view`](view.html "cpp/ranges/view"), until the first element on which a predicate returns false  
-(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_take_while_view&action=edit)  
+(class template) (range adaptor object)  
 ---|---

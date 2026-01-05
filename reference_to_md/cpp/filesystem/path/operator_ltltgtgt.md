@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Filesystem library](../../filesystem.html "cpp/filesystem")
 
@@ -100,7 +100,7 @@ filesystem::symlink_status](../status.html "cpp/filesystem/status")
 [filesystem::is_socket](../is_socket.html "cpp/filesystem/is socket")  
 [filesystem::is_symlink](../is_symlink.html "cpp/filesystem/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/navbar_content&action=edit)
+
 
 [`std::filesystem::path`](../path.html "cpp/filesystem/path")
 
@@ -169,7 +169,7 @@ filesystem::symlink_status](../status.html "cpp/filesystem/status")
 | [formatter<std::filesystem::path>](formatter.html "cpp/filesystem/path/formatter")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/path/navbar_content&action=edit)
+
 
 template< class CharT, class Traits >  
 friend [std::basic_ostream](../../io/basic_ostream.html)<CharT,Traits>&  
@@ -196,24 +196,24 @@ These function templates are not visible to ordinary [unqualified](../../languag
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/operator_ltltgtgt&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 os  |  \-  |  stream to perform output on   
 ---|---|---  
 is  |  \-  |  stream to perform input on   
 p  |  \-  |  path to insert or extract   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/operator_ltltgtgt&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) os
 
 2) is
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/impldef_exception&action=edit&section=T-1 "Template:cpp/impldef exception")] Exceptions
+### Exceptions
 
 May throw implementation-defined exceptions. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/operator_ltltgtgt&action=edit&section=3 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
 
 [operator<<](operator_ltltgtgt.html#Version_1)  
 ---  
@@ -240,7 +240,7 @@ May throw implementation-defined exceptions.
         return is;
     }  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/operator_ltltgtgt&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -260,7 +260,7 @@ Possible output:
     "/home/user"
     "/tmp"
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/operator_ltltgtgt&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

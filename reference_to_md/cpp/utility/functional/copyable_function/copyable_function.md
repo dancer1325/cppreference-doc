@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Function objects](../../../functional.html "cpp/utility/functional")
 
@@ -255,7 +255,7 @@ Identity function object
 [unary_negate](../unary_negate.html "cpp/utility/functional/unary negate")(until C++20*)  
 [binary_negate](../binary_negate.html "cpp/utility/functional/binary negate")(until C++20*)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/navbar_content&action=edit)
+
 
 [`std::copyable_function`](../copyable_function.html "cpp/utility/functional/copyable function")
 
@@ -271,7 +271,7 @@ Identity function object
 [operator==](operator==.html "cpp/utility/functional/copyable function/operator==")  
 [swap(std::copyable_function)](swap2.html "cpp/utility/functional/copyable function/swap2")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/copyable_function/navbar_content&action=edit)
+
 
 copyable_function() noexcept; |  (1)  |  (since C++26)  
 ---|---|---  
@@ -349,7 +349,7 @@ const && noexcept(true) | [std::is_nothrow_invocable_r_v](../../../types/is_invo
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/copyable_function/copyable_function&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 other  |  \-  |  another `std::copyable_function` to copy or move from   
 ---|---|---  
@@ -357,22 +357,22 @@ f  |  \-  |  a function or a [Callable](../../../named_req/Callable.html "cpp/na
 args  |  \-  |  arguments to construct the target object   
 il  |  \-  |  [std::initializer_list](../../initializer_list.html "cpp/utility/initializer list") to construct the target object   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/copyable_function/copyable_function&action=edit&section=2 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 3) May throw [std::bad_alloc](../../../memory/new/bad_alloc.html "cpp/memory/new/bad alloc") on allocation failure or propagate the exception thrown by the initialization of the target. 
 
 5-7) May throw [std::bad_alloc](../../../memory/new/bad_alloc.html "cpp/memory/new/bad alloc") on allocation failure or propagate the exception thrown by the initialization of the target. No exception is thrown if `VT` is a function pointer type or a specialization of [std::reference_wrapper](../reference_wrapper.html "cpp/utility/functional/reference wrapper").
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/copyable_function/copyable_function&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/copyable_function/copyable_function&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ (constructor)](../function/function.html "cpp/utility/functional/function/function") |  constructs a new `std::function` instance   
-(public member function of `std::function<R(Args...)>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/function/dsc_constructor&action=edit)  
+(public member function of `std::function<R(Args...)>`)   
 ---|---  
 [ (constructor)](../move_only_function/move_only_function.html "cpp/utility/functional/move only function/move only function") |  constructs a new `std::move_only_function` object   
-(public member function of `std::move_only_function`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/move_only_function/dsc_constructor&action=edit)
+(public member function of `std::move_only_function`) 

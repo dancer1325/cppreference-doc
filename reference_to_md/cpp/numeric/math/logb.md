@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [Common mathematical functions](../math.html "cpp/numeric/math")
 
@@ -230,7 +230,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/navbar_content&action=edit)
+
 
 Defined in header `[<cmath>](../../header/cmath.html "cpp/header/cmath")` |  |   
 ---|---|---  
@@ -281,12 +281,12 @@ Formally, the unbiased exponent is the signed integral part of logr|num| (return
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/logb&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 num  |  \-  |  floating-point or integer value   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/logb&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 If no errors occur, the unbiased exponent of num is returned as a signed floating-point value. 
 
@@ -294,7 +294,7 @@ If a domain error occurs, an implementation-defined value is returned.
 
 If a pole error occurs, [-HUGE_VAL](HUGE_VALL.html "cpp/numeric/math/HUGE VAL"), `-HUGE_VALF`, or `-HUGE_VALL` is returned. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/logb&action=edit&section=3 "Edit section: Error handling")] Error handling
+### Error handling
 
 Errors are reported as specified in [math_errhandling](math_errhandling.html "cpp/numeric/math/math errhandling"). 
 
@@ -309,7 +309,7 @@ If the implementation supports IEEE floating-point arithmetic (IEC 60559),
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/logb&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 [POSIX requires](https://pubs.opengroup.org/onlinepubs/9699919799/functions/logb.html) that a pole error occurs if num is ±0. 
 
@@ -319,7 +319,7 @@ The value of the exponent returned by `std::logb` is always 1 less than the expo
 
 The additional overloads are not required to be provided exactly as (A). They only need to be sufficient to ensure that for their argument num of integer type, std::logb(num) has the same effect as std::logb(static_cast<double>(num)). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/logb&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Compares different floating-point decomposition functions:
 
@@ -369,13 +369,13 @@ Possible output:
     logb(0) = -Inf
         FE_DIVBYZERO raised
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/logb&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ frexpfrexpffrexpl](frexp.html "cpp/numeric/math/frexp")(C++11)(C++11) |  decomposes a number into significand and base-2 exponent   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_frexp&action=edit)  
+(function)   
 ---|---  
 [ ilogbilogbfilogbl](ilogb.html "cpp/numeric/math/ilogb")(C++11)(C++11)(C++11) |  extracts exponent of the number   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_ilogb&action=edit)  
+(function)   
 [ scalbnscalbnfscalbnlscalblnscalblnfscalblnl](scalbn.html "cpp/numeric/math/scalbn")(C++11)(C++11)(C++11)(C++11)(C++11)(C++11) |  multiplies a number by [FLT_RADIX](../../types/climits.html "cpp/types/climits") raised to a power   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_scalbn&action=edit)  
+(function)   
 [C documentation](../../../c/numeric/math/logb.html "c/numeric/math/logb") for logb

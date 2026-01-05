@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](ranges/copy.html "cpp/algorithm/ra
 [uninitialized_default_construct_n](../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -358,7 +358,7 @@ This overload participates in overload resolution only if all following conditio
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/copy&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  the pair of iterators defining the source [range](../iterator.html#Ranges "cpp/iterator") of elements to copy   
 ---|---|---  
@@ -372,11 +372,11 @@ Type requirements
 -`ForwardIt1, ForwardIt2` must meet the requirements of [LegacyForwardIterator](../named_req/ForwardIterator.html "cpp/named req/ForwardIterator").   
 -`UnaryPred` must meet the requirements of [Predicate](../named_req/Predicate.html "cpp/named req/Predicate").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/copy&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Output iterator to the element in the destination range, one past the last element copied. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/copy&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Given \\(\scriptsize N\\)N as [std::distance](../iterator/distance.html)(first, last): 
 
@@ -386,7 +386,7 @@ Given \\(\scriptsize N\\)N as [std::distance](../iterator/distance.html)(first, 
 
 For the overloads with an `ExecutionPolicy`, there may be a performance cost if `ForwardIt1`'s value type is not [MoveConstructible](../named_req/MoveConstructible.html "cpp/named req/MoveConstructible"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/copy&action=edit&section=4 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 The overloads with a template parameter named `ExecutionPolicy` report errors as follows: 
 
@@ -395,7 +395,7 @@ The overloads with a template parameter named `ExecutionPolicy` report errors as
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/copy&action=edit&section=5 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
 
 [copy (1)](copy.html#Version_1)  
 ---  
@@ -428,13 +428,13 @@ The overloads with a template parameter named `ExecutionPolicy` report errors as
         return d_first;
     }  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/copy&action=edit&section=6 "Edit section: Notes")] Notes
+### Notes
 
 In practice, implementations of `std::copy` avoid multiple assignments and use bulk copy functions such as [std::memmove](../string/byte/memmove.html "cpp/string/byte/memmove") if the value type is [TriviallyCopyable](../named_req/TriviallyCopyable.html "cpp/named req/TriviallyCopyable") and the iterator types satisfy [LegacyContiguousIterator](../named_req/ContiguousIterator.html "cpp/named req/ContiguousIterator"). 
 
 When copying overlapping ranges, `std::copy` is appropriate when copying to the left (beginning of the destination range is outside the source range) while `std::copy_backward` is appropriate when copying to the right (end of the destination range is outside the source range). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/copy&action=edit&section=7 "Edit section: Example")] Example
+### Example
 
 The following code uses `std::copy` both to copy the contents of one [std::vector](../container/vector.html "cpp/container/vector") to another and to display the resulting [std::vector](../container/vector.html "cpp/container/vector").
 
@@ -489,7 +489,7 @@ Possible output:
     odd numbers in to_vector are: 1 3 5 7 9
     to_vector contains these multiples of 3: 0 3 6 9
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/copy&action=edit&section=8 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -498,18 +498,18 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [LWG 2039](https://cplusplus.github.io/LWG/issue2039) | C++11  | the return value of `std::copy_if` was not specified  | specified   
 [LWG 2044](https://cplusplus.github.io/LWG/issue2044) | C++11  | the stability of `std::copy_if` was not defined  | defined   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/copy&action=edit&section=9 "Edit section: See also")] See also
+### See also
 
 [ copy_backward](copy_backward.html "cpp/algorithm/copy backward") |  copies a range of elements in backwards order   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_copy_backward&action=edit)  
+(function template)   
 ---|---  
 [ reverse_copy](reverse_copy.html "cpp/algorithm/reverse copy") |  creates a copy of a range that is reversed   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_reverse_copy&action=edit)  
+(function template)   
 [ copy_n](copy_n.html "cpp/algorithm/copy n")(C++11) |  copies a number of elements to a new location   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_copy_n&action=edit)  
+(function template)   
 [ fill](fill.html "cpp/algorithm/fill") |  copy-assigns the given value to every element in a range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_fill&action=edit)  
+(function template)   
 [ remove_copyremove_copy_if](remove_copy.html "cpp/algorithm/remove copy") |  copies a range of elements omitting those that satisfy specific criteria   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_remove_copy&action=edit)  
+(function template)   
 [ ranges::copyranges::copy_if](ranges/copy.html "cpp/algorithm/ranges/copy")(C++20)(C++20) |  copies a range of elements to a new location  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_copy&action=edit)
+(algorithm function object)

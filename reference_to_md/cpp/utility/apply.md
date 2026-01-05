@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 Defined in header `[<tuple>](../header/tuple.html "cpp/header/tuple")` |  |   
 ---|---|---  
@@ -168,17 +168,17 @@ return` `` _apply-impl_`([std::forward](forward.html)<F>(f), [std::forward](forw
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/apply&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 f  |  \-  |  [Callable](../named_req/Callable.html "cpp/named req/Callable") object to be invoked   
 ---|---|---  
 t  |  \-  |  tuple whose elements to be used as arguments to f  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/apply&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The value returned by f. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/apply&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 (none)  | (until C++23)  
 ---|---  
@@ -191,7 +191,7 @@ std::get<Is>([std::forward](forward.html)<Tuple>(t))...))
 
 | (since C++23)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/apply&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 `Tuple` need not be [std::tuple](tuple.html "cpp/utility/tuple"), and instead may be anything that supports [`std::get`](tuple/get.html "cpp/utility/tuple/get") and [`std::tuple_size`](tuple_size.html "cpp/utility/tuple size"); in particular, [std::array](../container/array.html "cpp/container/array") and [std::pair](pair.html "cpp/utility/pair") may be used.  | (until C++23)  
 ---|---  
@@ -200,7 +200,7 @@ std::get<Is>([std::forward](forward.html)<Tuple>(t))...))
 ---|---|---|---  
 [`__cpp_lib_apply`](../experimental/feature_test.html#cpp_lib_apply "cpp/feature test") | [`201603L`](../compiler_support/17.html#cpp_lib_apply_201603L "cpp/compiler support/17") | (C++17) | `std::apply`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/apply&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -255,16 +255,16 @@ Output:
     5
     [25, Hello, 9.31, c]
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/apply&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ make_tuple](tuple/make_tuple.html "cpp/utility/tuple/make tuple")(C++11) |  creates a `tuple` object of the type defined by the argument types   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/dsc_make_tuple&action=edit)  
+(function template)   
 ---|---  
 [ forward_as_tuple](tuple/forward_as_tuple.html "cpp/utility/tuple/forward as tuple")(C++11) |  creates a `tuple` of [forwarding references](../language/reference.html#Forwarding_references "cpp/language/reference")   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/dsc_forward_as_tuple&action=edit)  
+(function template)   
 [ make_from_tuple](make_from_tuple.html "cpp/utility/make from tuple")(C++17) |  construct an object with a tuple of arguments   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_make_from_tuple&action=edit)  
+(function template)   
 [ invokeinvoke_r](functional/invoke.html "cpp/utility/functional/invoke")(C++17)(C++23) |  invokes any [Callable](../named_req/Callable.html "cpp/named req/Callable") object with given arguments and possibility to specify return type(since C++23)   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_invoke&action=edit)
+(function template) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

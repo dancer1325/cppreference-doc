@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::slide_view`](../../slide_view.html "cpp/ranges/slide view")
 
@@ -263,7 +263,7 @@ Non-member functions
 **operator==(slide_view::_iterator_ ,slide_view::_sentinel_)**  
 [operator-(slide_view::_iterator_ ,slide_view::_sentinel_)](operator-.html "cpp/ranges/slide view/sentinel/operator-")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/slide_view/navbar_content&action=edit)
+
 
 friend constexpr bool operator==( const /*iterator*/<Const>& x, const /*sentinel*/& y ); |  |  (since C++23)  
 ---|---|---  
@@ -279,17 +279,17 @@ This function is not visible to ordinary [unqualified](../../../language/unquali
 
 The `!=` operator is [synthesized](../../../language/default_comparisons.html#Other_defaulted_comparison_operators "cpp/language/default comparisons") from `operator==`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/slide_view/sentinel/operator_cmp&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 x  |  \-  |  an [iterator](../iterator.html "cpp/ranges/slide view/iterator") to compare   
 ---|---|---  
 y  |  \-  |  a [sentinel](../sentinel.html "cpp/ranges/slide view/sentinel") to compare   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/slide_view/sentinel/operator_cmp&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The result of comparison. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/slide_view/sentinel/operator_cmp&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

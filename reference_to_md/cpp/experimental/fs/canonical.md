@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Filesystem library](../fs.html "cpp/experimental/fs")
 
@@ -124,7 +124,7 @@ File types
 [filesystem::is_socket](is_socket.html "cpp/experimental/fs/is socket")  
 [filesystem::is_symlink](is_symlink.html "cpp/experimental/fs/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/navbar_content&action=edit)
+
 
 Defined in header `[<experimental/filesystem>](../../header/experimental/filesystem.html "cpp/header/experimental/filesystem")` |  |   
 ---|---|---  
@@ -150,18 +150,18 @@ The path p must exist.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/canonical&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 p  |  \-  |  a path which may be absolute or relative to base, and which must be an existing path   
 ---|---|---  
 base  |  \-  |  base path to be used in case p is relative   
 ec  |  \-  |  error code to store error status to   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/canonical&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 An absolute path that resolves to the same file as absolute(p, base) (or absolute(p) for (2)). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/canonical&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 The overload that does not take an error_code& parameter throws [filesystem_error](filesystem_error.html "cpp/experimental/fs/filesystem error") on underlying OS API errors, constructed with p as the first argument, base as the second argument, and the OS error code as the error code argument. [std::bad_alloc](../../memory/new/bad_alloc.html) may be thrown if memory allocation fails. The overload taking an error_code& parameter sets it to the OS API error code if an OS API call fails, and executes ec.clear() if no errors occur. This overload has 
 
@@ -171,7 +171,7 @@ noexcept
 
 This function is modeled after the POSIX [realpath](https://pubs.opengroup.org/onlinepubs/9699919799/functions/realpath.html). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/canonical&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -193,11 +193,11 @@ Possible output:
     Current path is "C:\Users\abcdef\AppData\Local\Temp"
     Canonical path for "..\..\AppData" is "C:\Users\abcdef\AppData"
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/canonical&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ path](path.html "cpp/experimental/fs/path") |  represents a path   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_path&action=edit)  
+(class)   
 ---|---  
 [ absolutesystem_complete](absolute.html "cpp/experimental/fs/absolute") |  composes an absolute path  
 converts a path to an absolute path replicating OS-specific behavior   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_absolute&action=edit)
+(function) 

@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -79,7 +79,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_ospanstream`](../basic_ospanstream.html "cpp/io/basic ospanstream")
 
@@ -94,7 +94,7 @@ Error category interface
 [Non-member functions](../basic_ospanstream.html#Non-member_functions "cpp/io/basic ospanstream")  
 [swap(std::basic_ospanstream)](swap2.html "cpp/io/basic ospanstream/swap2")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ospanstream/navbar_content&action=edit)
+
 
 [std::span](../../container/span.html)<CharT> span() const noexcept; |  (1)  |  (since C++23)  
 ---|---|---  
@@ -115,18 +115,18 @@ void span( [std::span](../../container/span.html)<CharT> s ) noexcept; |  (2)  |
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_spanstream/span&action=edit&section=T-1 "Template:cpp/io/basic spanstream/span")] Parameters
+### Parameters
 
 s  |  \-  |  std::span referencing the storage to be use as the new underlying buffer of stream   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_spanstream/span&action=edit&section=T-2 "Template:cpp/io/basic spanstream/span")] Return value
+### Return value
 
 1) A std::span referencing the underlying buffer or written area, depending on the open mode of the wrapped std::basic_spanbuf.
 
 2) (none)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_spanstream/span&action=edit&section=T-3 "Template:cpp/io/basic spanstream/span")] Example
+### Example
 
 Run this code
     
@@ -173,8 +173,8 @@ Output:
     sp.data(): [C++ 23]
     out_buf: [C++ 23]
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_spanstream/span&action=edit&section=T-4 "Template:cpp/io/basic spanstream/span")] See also
+### See also
 
 [ span](../basic_spanbuf/span.html "cpp/io/basic spanbuf/span") |  obtains or initializes an underlying buffer according to mode   
-(public member function of `std::basic_spanbuf<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_spanbuf/dsc_span&action=edit)  
+(public member function of `std::basic_spanbuf<CharT,Traits>`)   
 ---|---

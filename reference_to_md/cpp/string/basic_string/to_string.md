@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Strings library](../../string.html "cpp/string")
 
@@ -40,7 +40,7 @@ Classes
 [basic_string_view](../basic_string_view.html "cpp/string/basic string view")(C++17)  
 [char_traits](../char_traits.html "cpp/string/char traits")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/navbar_content&action=edit)
+
 
 [`std::basic_string`](../basic_string.html "cpp/string/basic string")
 
@@ -133,7 +133,7 @@ basic_string_view](operator_basic_string_view.html "cpp/string/basic string/oper
 [hash<std::basic_string>](hash.html "cpp/string/basic string/hash")(C++11)  
 [Deduction guides](deduction_guides.html "cpp/string/basic string/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/navbar_content&action=edit)
+
 
 Defined in header `[<string>](../../header/string.html "cpp/header/string")` |  |   
 ---|---|---  
@@ -166,20 +166,20 @@ Let `_buf_` be an internal to the conversion functions buffer, sufficiently larg
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/to_string&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 value  |  \-  |  a numeric value to convert   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/to_string&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 A string holding the converted value. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/to_string&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 May throw [std::bad_alloc](../../memory/new/bad_alloc.html "cpp/memory/new/bad alloc") from the [std::string](../basic_string.html "cpp/string/basic string") constructor. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/to_string&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
   * With floating point types `std::to_string` may yield unexpected results as the number of significant digits in the returned string can be zero, see the example. 
   * The return value may differ significantly from what `std::cout` prints by default, see the example. 
@@ -198,7 +198,7 @@ C++17 provides [`std::to_chars`](../../utility/to_chars.html "cpp/utility/to cha
 ---|---|---|---  
 [`__cpp_lib_to_string`](../../experimental/feature_test.html#cpp_lib_to_string "cpp/feature test") | [`202306L`](../../compiler_support/26.html#cpp_lib_to_string_202306L "cpp/compiler support/26") | (C++26) | Redefining `std::to_string` in terms of [std::format](../../utility/format/format.html "cpp/utility/format/format")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/to_string&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -264,18 +264,18 @@ Possible output:
     format:         123456789
     std::cout:      1.23457e+08
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/to_string&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ to_wstring](to_wstring.html "cpp/string/basic string/to wstring")(C++11) |  converts an integral or floating-point value to `wstring`   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_to_wstring&action=edit)  
+(function)   
 ---|---  
 [ stoulstoull](stoul.html "cpp/string/basic string/stoul")(C++11)(C++11) |  converts a string to an unsigned integer   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_stoul&action=edit)  
+(function)   
 [ stoistolstoll](stol.html "cpp/string/basic string/stol")(C++11)(C++11)(C++11) |  converts a string to a signed integer   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_stol&action=edit)  
+(function)   
 [ stofstodstold](stof.html "cpp/string/basic string/stof")(C++11)(C++11)(C++11) |  converts a string to a floating point value   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_stof&action=edit)  
+(function)   
 [ to_chars](../../utility/to_chars.html "cpp/utility/to chars")(C++17) |  converts an integer or floating-point value to a character sequence   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_to_chars&action=edit)
+(function) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

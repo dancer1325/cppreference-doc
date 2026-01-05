@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::concat_view`](../../concat_view.html "cpp/ranges/concat view")
 
@@ -262,7 +262,7 @@ operator-(concat_view::_iterator_)](operator_arith2.html "cpp/ranges/concat view
 **iter_move(concat_view::_iterator_)**  
 [iter_swap(concat_view::_iterator_)](iter_swap.html "cpp/ranges/concat view/iterator/iter swap")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/concat_view/navbar_content&action=edit)
+
 
 friend constexpr decltype(auto)  
 iter_move( const /*iterator*/& it ) noexcept(/* see description */); |  |  (since C++26)  
@@ -277,16 +277,16 @@ If `it.``_[it_](../iterator.html#it "cpp/ranges/concat view/iterator")_`.valuele
 
 This function is not visible to ordinary [unqualified](../../../language/unqualified_lookup.html "cpp/language/unqualified lookup") or [qualified lookup](../../../language/qualified_lookup.html "cpp/language/qualified lookup"), and can only be found by [argument-dependent lookup](../../../language/adl.html "cpp/language/adl") when concat_view::`_iterator_` ﻿<Const> is an associated class of the arguments. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/concat_view/iterator/iter_move&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 it  |  \-  |  iterator   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/concat_view/iterator/iter_move&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The result of applying [ranges::iter_move](../../../iterator/ranges/iter_move.html "cpp/iterator/ranges/iter move") to the underlying iterator. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/concat_view/iterator/iter_move&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 [`noexcept`](../../../language/noexcept_spec.html "cpp/language/noexcept spec") specification: 
 

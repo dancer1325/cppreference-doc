@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Regular expressions library](../regex.html "cpp/regex")
 
@@ -81,7 +81,7 @@ Constants
 Regex Grammar  
 [Modified ECMAScript-262](ecmascript.html "cpp/regex/ecmascript")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/navbar_content&action=edit)
+
 
 Defined in header `[<regex>](../header/regex.html "cpp/header/regex")` |  |   
 ---|---|---  
@@ -115,7 +115,7 @@ inline constexpr syntax_option_type multiline = /* unspecified */; |  (3)  |  (s
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/syntax_option_type&action=edit&section=1 "Edit section: Constants")] Constants
+### Constants
 
 Grammar option  |  Effect(s)   
 ---|---  
@@ -134,11 +134,11 @@ Grammar variation  |  Effect(s)
   
 At most one grammar option can be chosen out of `ECMAScript`, `basic`, `extended`, `awk`, `grep`, `egrep`. If no grammar is chosen, `ECMAScript` is assumed to be selected. The other options serve as variations, such that [std::regex](basic_regex.html)("meow", std::regex::icase) is equivalent to [std::regex](basic_regex.html)("meow", std::regex::ECMAScript|std::regex::icase). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/syntax_option_type&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 Because POSIX uses "leftmost longest" matching rule (the longest matching subsequence is matched, and if there are several such subsequences, the first one is matched), it is not suitable, for example, for parsing markup languages: a POSIX regex such as "<tag[^>]*>.*</tag>" would match everything from the first "<tag" to the last "</tag>", including every "</tag>" and "<tag>" in-between. On the other hand, ECMAScript supports non-greedy matches, and the ECMAScript regex "<tag[^>]*>.*?</tag>" would match only until the first closing tag. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/syntax_option_type&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Illustrates the difference in the matching algorithm between ECMAScript and POSIX regular expressions:
 
@@ -170,7 +170,7 @@ Output:
       ECMA (depth first search) match: zzxa
       POSIX (leftmost longest)  match: zzxayy
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/syntax_option_type&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -178,8 +178,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 2053](https://cplusplus.github.io/LWG/issue2053) | C++11  | the constants were declared static | removed the static specifier   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/syntax_option_type&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ basic_regex](basic_regex.html "cpp/regex/basic regex")(C++11) |  regular expression object   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/dsc_basic_regex&action=edit)  
+(class template)   
 ---|---

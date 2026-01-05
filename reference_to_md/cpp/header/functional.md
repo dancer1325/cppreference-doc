@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header is part of the [function objects](../functional.html "cpp/utility/functional") library and provides the standard [hash function](../utility/hash.html "cpp/utility/hash"). 
 
@@ -278,119 +278,119 @@ This header is part of the [function objects](../functional.html "cpp/utility/fu
 #####  Wrappers   
   
 [ function](../utility/functional/function.html "cpp/utility/functional/function")(C++11) |  copyable wrapper of any copy constructible callable object   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_function&action=edit)  
+(class template)   
 [ move_only_function](../utility/functional/move_only_function.html "cpp/utility/functional/move only function")(C++23) |  move-only wrapper of any callable object that supports qualifiers in a given call signature   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_move_only_function&action=edit)  
+(class template)   
 [ copyable_function](../utility/functional/copyable_function.html "cpp/utility/functional/copyable function")(C++26) |  copyable wrapper of any copy constructible callable object that supports qualifiers in a given call signature   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_copyable_function&action=edit)  
+(class template)   
 [ function_ref](../utility/functional/function_ref.html "cpp/utility/functional/function ref")(C++26) |  non-owning wrapper of any callable object   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_function_ref&action=edit)  
+(class template)   
 [ mem_fn](../utility/functional/mem_fn.html "cpp/utility/functional/mem fn")(C++11) |  creates a function object out of a pointer to a member   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_mem_fn&action=edit)  
+(function template)   
 [ reference_wrapper](../utility/functional/reference_wrapper.html "cpp/utility/functional/reference wrapper")(C++11) |  [CopyConstructible](../named_req/CopyConstructible.html "cpp/named req/CopyConstructible") and [CopyAssignable](../named_req/CopyAssignable.html "cpp/named req/CopyAssignable") reference wrapper   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_reference_wrapper&action=edit)  
+(class template)   
 [ unwrap_referenceunwrap_ref_decay](../utility/functional/unwrap_reference.html "cpp/utility/functional/unwrap reference")(C++20)(C++20) |  get the reference type wrapped in [std::reference_wrapper](../utility/functional/reference_wrapper.html "cpp/utility/functional/reference wrapper")   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_unwrap_reference&action=edit)  
+(class template)   
   
 #####  Helper classes   
   
 [ bad_function_call](../utility/functional/bad_function_call.html "cpp/utility/functional/bad function call")(C++11) |  the exception thrown when invoking an empty [std::function](../utility/functional/function.html "cpp/utility/functional/function")   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_bad_function_call&action=edit)  
+(class)   
 [ is_bind_expression](../utility/functional/is_bind_expression.html "cpp/utility/functional/is bind expression")(C++11) |  indicates that an object is `std::bind` expression or can be used as one   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_is_bind_expression&action=edit)  
+(class template)   
 [ is_placeholder](../utility/functional/is_placeholder.html "cpp/utility/functional/is placeholder")(C++11) |  indicates that an object is a standard placeholder or can be used as one   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_is_placeholder&action=edit)  
+(class template)   
   
 #####  Arithmetic operations   
   
 [ plus](../utility/functional/plus.html "cpp/utility/functional/plus") |  function object implementing x + y   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_plus&action=edit)  
+(class template)   
 [ minus](../utility/functional/minus.html "cpp/utility/functional/minus") |  function object implementing x - y   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_minus&action=edit)  
+(class template)   
 [ multiplies](../utility/functional/multiplies.html "cpp/utility/functional/multiplies") |  function object implementing x * y   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_multiplies&action=edit)  
+(class template)   
 [ divides](../utility/functional/divides.html "cpp/utility/functional/divides") |  function object implementing x / y   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_divides&action=edit)  
+(class template)   
 [ modulus](../utility/functional/modulus.html "cpp/utility/functional/modulus") |  function object implementing x % y   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_modulus&action=edit)  
+(class template)   
 [ negate](../utility/functional/negate.html "cpp/utility/functional/negate") |  function object implementing -x   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_negate&action=edit)  
+(class template)   
   
 #####  Comparisons   
   
 [ equal_to](../utility/functional/equal_to.html "cpp/utility/functional/equal to") |  function object implementing x == y   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_equal_to&action=edit)  
+(class template)   
 [ not_equal_to](../utility/functional/not_equal_to.html "cpp/utility/functional/not equal to") |  function object implementing x != y   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_not_equal_to&action=edit)  
+(class template)   
 [ greater](../utility/functional/greater.html "cpp/utility/functional/greater") |  function object implementing x > y   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_greater&action=edit)  
+(class template)   
 [ less](../utility/functional/less.html "cpp/utility/functional/less") |  function object implementing x < y   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_less&action=edit)  
+(class template)   
 [ greater_equal](../utility/functional/greater_equal.html "cpp/utility/functional/greater equal") |  function object implementing x >= y   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_greater_equal&action=edit)  
+(class template)   
 [ less_equal](../utility/functional/less_equal.html "cpp/utility/functional/less equal") |  function object implementing x <= y   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_less_equal&action=edit)  
+(class template)   
   
 #####  Concept-constrained comparisons   
   
 [ ranges::equal_to](../utility/functional/ranges/equal_to.html "cpp/utility/functional/ranges/equal to")(C++20) |  constrained function object implementing x == y   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/ranges/dsc_equal_to&action=edit)  
+(class)   
 [ ranges::not_equal_to](../utility/functional/ranges/not_equal_to.html "cpp/utility/functional/ranges/not equal to")(C++20) |  constrained function object implementing x != y   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/ranges/dsc_not_equal_to&action=edit)  
+(class)   
 [ ranges::greater](../utility/functional/ranges/greater.html "cpp/utility/functional/ranges/greater")(C++20) |  constrained function object implementing x > y   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/ranges/dsc_greater&action=edit)  
+(class)   
 [ ranges::less](../utility/functional/ranges/less.html "cpp/utility/functional/ranges/less")(C++20) |  constrained function object implementing x < y   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/ranges/dsc_less&action=edit)  
+(class)   
 [ ranges::greater_equal](../utility/functional/ranges/greater_equal.html "cpp/utility/functional/ranges/greater equal")(C++20) |  constrained function object implementing x >= y   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/ranges/dsc_greater_equal&action=edit)  
+(class)   
 [ ranges::less_equal](../utility/functional/ranges/less_equal.html "cpp/utility/functional/ranges/less equal")(C++20) |  constrained function object implementing x <= y   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/ranges/dsc_less_equal&action=edit)  
+(class)   
 [ compare_three_way](../utility/compare/compare_three_way.html "cpp/utility/compare/compare three way")(C++20) |  constrained function object implementing x <=> y   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/compare/dsc_compare_three_way&action=edit)  
+(class)   
   
 #####  Logical operations   
   
 [ logical_and](../utility/functional/logical_and.html "cpp/utility/functional/logical and") |  function object implementing x && y   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_logical_and&action=edit)  
+(class template)   
 [ logical_or](../utility/functional/logical_or.html "cpp/utility/functional/logical or") |  function object implementing x || y   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_logical_or&action=edit)  
+(class template)   
 [ logical_not](../utility/functional/logical_not.html "cpp/utility/functional/logical not") |  function object implementing !x   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_logical_not&action=edit)  
+(class template)   
   
 #####  Bitwise operations   
   
 [ bit_and](../utility/functional/bit_and.html "cpp/utility/functional/bit and") |  function object implementing x & y   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_bit_and&action=edit)  
+(class template)   
 [ bit_or](../utility/functional/bit_or.html "cpp/utility/functional/bit or") |  function object implementing x | y   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_bit_or&action=edit)  
+(class template)   
 [ bit_xor](../utility/functional/bit_xor.html "cpp/utility/functional/bit xor") |  function object implementing x ^ y   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_bit_xor&action=edit)  
+(class template)   
 [ bit_not](../utility/functional/bit_not.html "cpp/utility/functional/bit not")(C++14) |  function object implementing ~x   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_bit_not&action=edit)  
+(class template)   
   
 #####  Negators   
   
 [ not_fn](../utility/functional/not_fn.html "cpp/utility/functional/not fn")(C++17) |  creates a function object that returns the complement of the result of the function object it holds   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_not_fn&action=edit)  
+(function template)   
   
 #####  Identities   
   
 [ identity](../utility/functional/identity.html "cpp/utility/functional/identity")(C++20) |  function object that returns its argument unchanged   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_identity&action=edit)  
+(class)   
   
 #####  Searchers   
   
 [ default_searcher](../utility/functional/default_searcher.html "cpp/utility/functional/default searcher")(C++17) |  standard C++ library search algorithm implementation   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_default_searcher&action=edit)  
+(class template)   
 [ boyer_moore_searcher](../utility/functional/boyer_moore_searcher.html "cpp/utility/functional/boyer moore searcher")(C++17) |  Boyer-Moore search algorithm implementation   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_boyer_moore_searcher&action=edit)  
+(class template)   
 [ boyer_moore_horspool_searcher](../utility/functional/boyer_moore_horspool_searcher.html "cpp/utility/functional/boyer moore horspool searcher")(C++17) |  Boyer-Moore-Horspool search algorithm implementation   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_boyer_moore_horspool_searcher&action=edit)  
+(class template)   
   
 #####  Hashing   
   
 [ hash](../utility/hash.html "cpp/utility/hash")(C++11) |  hash function object   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_hash&action=edit)  
+(class template)   
 [ std::hash<_Arithmetic_ >std::hash<_Enumeration_ >std::hash<std::nullptr_t>std::hash<T*>](../utility/hash.html "cpp/utility/hash")(C++11) |  [std::hash](../utility/hash.html "cpp/utility/hash") specializations for fundamental, enumeration, and pointer types   
 (class template specialization)  
   
@@ -398,68 +398,68 @@ This header is part of the [function objects](../functional.html "cpp/utility/fu
   
 Defined in namespace `std::placeholders`  
 [ _1, _2, _3, _4, ...](../utility/functional/placeholders.html "cpp/utility/functional/placeholders")(C++11) |  placeholders for the unbound arguments in a `std::bind` expression   
-(constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_placeholders&action=edit)  
+(constant)   
   
 ###  Functions  
   
 [ bind_frontbind_back](../utility/functional/bind_front.html "cpp/utility/functional/bind front")(C++20)(C++23) |  bind a variable number of arguments, in order, to a function object   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_bind_front&action=edit)  
+(function template)   
 [ bind](../utility/functional/bind.html "cpp/utility/functional/bind")(C++11) |  binds one or more arguments to a function object   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_bind&action=edit)  
+(function template)   
 [ refcref](../utility/functional/ref.html "cpp/utility/functional/ref")(C++11)(C++11) |  creates a [std::reference_wrapper](../utility/functional/reference_wrapper.html "cpp/utility/functional/reference wrapper") with a type deduced from its argument   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_ref&action=edit)  
+(function template)   
 [ invokeinvoke_r](../utility/functional/invoke.html "cpp/utility/functional/invoke")(C++17)(C++23) |  invokes any [Callable](../named_req/Callable.html "cpp/named req/Callable") object with given arguments and possibility to specify return type(since C++23)   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_invoke&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/functional&action=edit&section=1 "Edit section: Deprecated in C++11 and removed in C++17")] Deprecated in C++11 and removed in C++17
+### Deprecated in C++11 and removed in C++17
 
 #####  Base   
   
 ---  
 [ unary_function](../utility/functional/unary_function.html "cpp/utility/functional/unary function")(deprecated in C++11)(removed in C++17) |  adaptor-compatible unary function base class   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_unary_function&action=edit)  
+(class template)   
 [ binary_function](../utility/functional/binary_function.html "cpp/utility/functional/binary function")(deprecated in C++11)(removed in C++17) |  adaptor-compatible binary function base class   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_binary_function&action=edit)  
+(class template)   
   
 #####  Binders   
   
 [ binder1stbinder2nd](../utility/functional/binder12.html "cpp/utility/functional/binder12")(deprecated in C++11)(removed in C++17) |  function object holding a binary function and one of its arguments   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_binder12&action=edit)  
+(class template)   
 [ bind1stbind2nd](../utility/functional/bind12.html "cpp/utility/functional/bind12")(deprecated in C++11)(removed in C++17) |  binds one argument to a binary function   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_bind12&action=edit)  
+(function template)   
   
 #####  Function adaptors   
   
 [ pointer_to_unary_function](../utility/functional/pointer_to_unary_function.html "cpp/utility/functional/pointer to unary function")(deprecated in C++11)(removed in C++17) |  adaptor-compatible wrapper for a pointer to unary function   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_pointer_to_unary_function&action=edit)  
+(class template)   
 [ pointer_to_binary_function](../utility/functional/pointer_to_binary_function.html "cpp/utility/functional/pointer to binary function")(deprecated in C++11)(removed in C++17) |  adaptor-compatible wrapper for a pointer to binary function   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_pointer_to_binary_function&action=edit)  
+(class template)   
 [ ptr_fun](../utility/functional/ptr_fun.html "cpp/utility/functional/ptr fun")(deprecated in C++11)(removed in C++17) |  creates an adaptor-compatible function object wrapper from a pointer to function   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_ptr_fun&action=edit)  
+(function template)   
 [ mem_fun_tmem_fun1_tconst_mem_fun_tconst_mem_fun1_t](../utility/functional/mem_fun_t.html "cpp/utility/functional/mem fun t")(deprecated in C++11)(removed in C++17) |  wrapper for a pointer to nullary or unary member function, callable with a pointer to object   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_mem_fun_t&action=edit)  
+(class template)   
 [ mem_fun](../utility/functional/mem_fun.html "cpp/utility/functional/mem fun")(deprecated in C++11)(removed in C++17) |  creates a wrapper from a pointer to member function, callable with a pointer to object   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_mem_fun&action=edit)  
+(function template)   
 [ mem_fun_ref_tmem_fun1_ref_tconst_mem_fun_ref_tconst_mem_fun1_ref_t](../utility/functional/mem_fun_ref_t.html "cpp/utility/functional/mem fun ref t")(deprecated in C++11)(removed in C++17) |  wrapper for a pointer to nullary or unary member function, callable with a reference to object   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_mem_fun_ref_t&action=edit)  
+(class template)   
 [ mem_fun_ref](../utility/functional/mem_fun_ref.html "cpp/utility/functional/mem fun ref")(deprecated in C++11)(removed in C++17) |  creates a wrapper from a pointer to member function, callable with a reference to object   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_mem_fun_ref&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/functional&action=edit&section=2 "Edit section: Deprecated in C++17 and removed in C++20")] Deprecated in C++17 and removed in C++20
+### Deprecated in C++17 and removed in C++20
 
 #####  Negators   
   
 ---  
 [ unary_negate](../utility/functional/unary_negate.html "cpp/utility/functional/unary negate")(deprecated in C++17)(removed in C++20) |  wrapper function object returning the complement of the unary predicate it holds   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_unary_negate&action=edit)  
+(class template)   
 [ binary_negate](../utility/functional/binary_negate.html "cpp/utility/functional/binary negate")(deprecated in C++17)(removed in C++20) |  wrapper function object returning the complement of the binary predicate it holds   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_binary_negate&action=edit)  
+(class template)   
 [ not1](../utility/functional/not1.html "cpp/utility/functional/not1")(deprecated in C++17)(removed in C++20) |  constructs custom [std::unary_negate](../utility/functional/unary_negate.html "cpp/utility/functional/unary negate") object   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_not1&action=edit)  
+(function template)   
 [ not2](../utility/functional/not2.html "cpp/utility/functional/not2")(deprecated in C++17)(removed in C++20) |  constructs custom [std::binary_negate](../utility/functional/binary_negate.html "cpp/utility/functional/binary negate") object   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_not2&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/functional&action=edit&section=3 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     namespace std {
@@ -665,7 +665,7 @@ Defined in namespace `std::placeholders`
         using /*decayed-typeof*/ = decltype(auto(T));
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/functional&action=edit&section=T-1 "Template:cpp/synopsis/functional")] Class template [std::reference_wrapper](../utility/functional/reference_wrapper.html "cpp/utility/functional/reference wrapper")
+#### Class template [std::reference_wrapper](../utility/functional/reference_wrapper.html "cpp/utility/functional/reference wrapper")
     
     
     namespace std {
@@ -705,7 +705,7 @@ Defined in namespace `std::placeholders`
         reference_wrapper(T&) -> reference_wrapper<T>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/functional&action=edit&section=T-2 "Template:cpp/synopsis/functional")] Class template [std::unwrap_reference](../utility/functional/unwrap_reference.html "cpp/utility/functional/unwrap reference")
+#### Class template [std::unwrap_reference](../utility/functional/unwrap_reference.html "cpp/utility/functional/unwrap reference")
     
     
     namespace std {
@@ -713,7 +713,7 @@ Defined in namespace `std::placeholders`
         struct unwrap_reference;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/functional&action=edit&section=T-3 "Template:cpp/synopsis/functional")] Class template [std::unwrap_ref_decay](../utility/functional/unwrap_reference.html "cpp/utility/functional/unwrap reference")
+#### Class template [std::unwrap_ref_decay](../utility/functional/unwrap_reference.html "cpp/utility/functional/unwrap reference")
     
     
     namespace std {
@@ -721,7 +721,7 @@ Defined in namespace `std::placeholders`
         struct unwrap_ref_decay;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/functional&action=edit&section=T-4 "Template:cpp/synopsis/functional")] Class template [std::plus](../utility/functional/plus.html "cpp/utility/functional/plus")
+#### Class template [std::plus](../utility/functional/plus.html "cpp/utility/functional/plus")
     
     
     namespace std {
@@ -737,7 +737,7 @@ Defined in namespace `std::placeholders`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/functional&action=edit&section=T-5 "Template:cpp/synopsis/functional")] Class template [std::minus](../utility/functional/minus.html "cpp/utility/functional/minus")
+#### Class template [std::minus](../utility/functional/minus.html "cpp/utility/functional/minus")
     
     
     namespace std {
@@ -753,7 +753,7 @@ Defined in namespace `std::placeholders`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/functional&action=edit&section=T-6 "Template:cpp/synopsis/functional")] Class template [std::multiplies](../utility/functional/multiplies.html "cpp/utility/functional/multiplies")
+#### Class template [std::multiplies](../utility/functional/multiplies.html "cpp/utility/functional/multiplies")
     
     
     namespace std {
@@ -769,7 +769,7 @@ Defined in namespace `std::placeholders`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/functional&action=edit&section=T-7 "Template:cpp/synopsis/functional")] Class template [std::divides](../utility/functional/divides.html "cpp/utility/functional/divides")
+#### Class template [std::divides](../utility/functional/divides.html "cpp/utility/functional/divides")
     
     
     namespace std {
@@ -785,7 +785,7 @@ Defined in namespace `std::placeholders`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/functional&action=edit&section=T-8 "Template:cpp/synopsis/functional")] Class template [std::modulus](../utility/functional/modulus.html "cpp/utility/functional/modulus")
+#### Class template [std::modulus](../utility/functional/modulus.html "cpp/utility/functional/modulus")
     
     
     namespace std {
@@ -801,7 +801,7 @@ Defined in namespace `std::placeholders`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/functional&action=edit&section=T-9 "Template:cpp/synopsis/functional")] Class template [std::negate](../utility/functional/negate.html "cpp/utility/functional/negate")
+#### Class template [std::negate](../utility/functional/negate.html "cpp/utility/functional/negate")
     
     
     namespace std {
@@ -817,7 +817,7 @@ Defined in namespace `std::placeholders`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/functional&action=edit&section=T-10 "Template:cpp/synopsis/functional")] Class template [std::equal_to](../utility/functional/equal_to.html "cpp/utility/functional/equal to")
+#### Class template [std::equal_to](../utility/functional/equal_to.html "cpp/utility/functional/equal to")
     
     
     namespace std {
@@ -833,7 +833,7 @@ Defined in namespace `std::placeholders`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/functional&action=edit&section=T-11 "Template:cpp/synopsis/functional")] Class template [std::not_equal_to](../utility/functional/not_equal_to.html "cpp/utility/functional/not equal to")
+#### Class template [std::not_equal_to](../utility/functional/not_equal_to.html "cpp/utility/functional/not equal to")
     
     
     namespace std {
@@ -849,7 +849,7 @@ Defined in namespace `std::placeholders`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/functional&action=edit&section=T-12 "Template:cpp/synopsis/functional")] Class template [std::greater](../utility/functional/greater.html "cpp/utility/functional/greater")
+#### Class template [std::greater](../utility/functional/greater.html "cpp/utility/functional/greater")
     
     
     namespace std {
@@ -865,7 +865,7 @@ Defined in namespace `std::placeholders`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/functional&action=edit&section=T-13 "Template:cpp/synopsis/functional")] Class template [std::less](../utility/functional/less.html "cpp/utility/functional/less")
+#### Class template [std::less](../utility/functional/less.html "cpp/utility/functional/less")
     
     
     namespace std {
@@ -881,7 +881,7 @@ Defined in namespace `std::placeholders`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/functional&action=edit&section=T-14 "Template:cpp/synopsis/functional")] Class template [std::greater_equal](../utility/functional/greater_equal.html "cpp/utility/functional/greater equal")
+#### Class template [std::greater_equal](../utility/functional/greater_equal.html "cpp/utility/functional/greater equal")
     
     
     namespace std {
@@ -897,7 +897,7 @@ Defined in namespace `std::placeholders`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/functional&action=edit&section=T-15 "Template:cpp/synopsis/functional")] Class template [std::less_equal](../utility/functional/less_equal.html "cpp/utility/functional/less equal")
+#### Class template [std::less_equal](../utility/functional/less_equal.html "cpp/utility/functional/less equal")
     
     
     namespace std {
@@ -913,7 +913,7 @@ Defined in namespace `std::placeholders`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/functional&action=edit&section=T-16 "Template:cpp/synopsis/functional")] Class [std::compare_three_way](../utility/compare/compare_three_way.html "cpp/utility/compare/compare three way")
+#### Class [std::compare_three_way](../utility/compare/compare_three_way.html "cpp/utility/compare/compare three way")
     
     
     namespace std {
@@ -925,7 +925,7 @@ Defined in namespace `std::placeholders`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/functional&action=edit&section=T-17 "Template:cpp/synopsis/functional")] Class std::ranges::equal_to
+#### Class std::ranges::equal_to
     
     
     namespace std::ranges {
@@ -937,7 +937,7 @@ Defined in namespace `std::placeholders`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/functional&action=edit&section=T-18 "Template:cpp/synopsis/functional")] Class std::ranges::not_equal_to
+#### Class std::ranges::not_equal_to
     
     
     namespace std::ranges {
@@ -949,7 +949,7 @@ Defined in namespace `std::placeholders`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/functional&action=edit&section=T-19 "Template:cpp/synopsis/functional")] Class std::ranges::greater
+#### Class std::ranges::greater
     
     
     namespace std::ranges {
@@ -961,7 +961,7 @@ Defined in namespace `std::placeholders`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/functional&action=edit&section=T-20 "Template:cpp/synopsis/functional")] Class std::ranges::less
+#### Class std::ranges::less
     
     
     namespace std::ranges {
@@ -973,7 +973,7 @@ Defined in namespace `std::placeholders`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/functional&action=edit&section=T-21 "Template:cpp/synopsis/functional")] Class std::ranges::greater_equal
+#### Class std::ranges::greater_equal
     
     
     namespace std::ranges {
@@ -985,7 +985,7 @@ Defined in namespace `std::placeholders`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/functional&action=edit&section=T-22 "Template:cpp/synopsis/functional")] Class std::ranges::less_equal
+#### Class std::ranges::less_equal
     
     
     namespace std::ranges {
@@ -997,7 +997,7 @@ Defined in namespace `std::placeholders`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/functional&action=edit&section=T-23 "Template:cpp/synopsis/functional")] Class template [std::logical_and](../utility/functional/logical_and.html "cpp/utility/functional/logical and")
+#### Class template [std::logical_and](../utility/functional/logical_and.html "cpp/utility/functional/logical and")
     
     
     namespace std {
@@ -1013,7 +1013,7 @@ Defined in namespace `std::placeholders`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/functional&action=edit&section=T-24 "Template:cpp/synopsis/functional")] Class template [std::logical_or](../utility/functional/logical_or.html "cpp/utility/functional/logical or")
+#### Class template [std::logical_or](../utility/functional/logical_or.html "cpp/utility/functional/logical or")
     
     
     namespace std {
@@ -1029,7 +1029,7 @@ Defined in namespace `std::placeholders`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/functional&action=edit&section=T-25 "Template:cpp/synopsis/functional")] Class template [std::logical_not](../utility/functional/logical_not.html "cpp/utility/functional/logical not")
+#### Class template [std::logical_not](../utility/functional/logical_not.html "cpp/utility/functional/logical not")
     
     
     namespace std {
@@ -1045,7 +1045,7 @@ Defined in namespace `std::placeholders`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/functional&action=edit&section=T-26 "Template:cpp/synopsis/functional")] Class template [std::bit_and](../utility/functional/bit_and.html "cpp/utility/functional/bit and")
+#### Class template [std::bit_and](../utility/functional/bit_and.html "cpp/utility/functional/bit and")
     
     
     namespace std {
@@ -1061,7 +1061,7 @@ Defined in namespace `std::placeholders`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/functional&action=edit&section=T-27 "Template:cpp/synopsis/functional")] Class template [std::bit_or](../utility/functional/bit_or.html "cpp/utility/functional/bit or")
+#### Class template [std::bit_or](../utility/functional/bit_or.html "cpp/utility/functional/bit or")
     
     
     namespace std {
@@ -1077,7 +1077,7 @@ Defined in namespace `std::placeholders`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/functional&action=edit&section=T-28 "Template:cpp/synopsis/functional")] Class template std::bit_xor
+#### Class template std::bit_xor
     
     
     namespace std {
@@ -1093,7 +1093,7 @@ Defined in namespace `std::placeholders`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/functional&action=edit&section=T-29 "Template:cpp/synopsis/functional")] Class template [std::bit_not](../utility/functional/bit_not.html "cpp/utility/functional/bit not")
+#### Class template [std::bit_not](../utility/functional/bit_not.html "cpp/utility/functional/bit not")
     
     
     namespace std {
@@ -1109,7 +1109,7 @@ Defined in namespace `std::placeholders`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/functional&action=edit&section=T-30 "Template:cpp/synopsis/functional")] Class template std::identity
+#### Class template std::identity
     
     
     namespace std {
@@ -1121,21 +1121,21 @@ Defined in namespace `std::placeholders`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/functional&action=edit&section=T-31 "Template:cpp/synopsis/functional")] Class template [std::is_bind_expression](../utility/functional/is_bind_expression.html "cpp/utility/functional/is bind expression")
+#### Class template [std::is_bind_expression](../utility/functional/is_bind_expression.html "cpp/utility/functional/is bind expression")
     
     
     namespace std {
       template<class T> struct is_bind_expression;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/functional&action=edit&section=T-32 "Template:cpp/synopsis/functional")] Class template [std::is_placeholder](../utility/functional/is_placeholder.html "cpp/utility/functional/is placeholder")
+#### Class template [std::is_placeholder](../utility/functional/is_placeholder.html "cpp/utility/functional/is placeholder")
     
     
     namespace std {
       template<class T> struct is_placeholder;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/functional&action=edit&section=T-33 "Template:cpp/synopsis/functional")] Class [std::bad_function_call](../utility/functional/bad_function_call.html "cpp/utility/functional/bad function call")
+#### Class [std::bad_function_call](../utility/functional/bad_function_call.html "cpp/utility/functional/bad function call")
     
     
     namespace std {
@@ -1146,7 +1146,7 @@ Defined in namespace `std::placeholders`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/functional&action=edit&section=T-34 "Template:cpp/synopsis/functional")] Class template [std::function](../utility/functional/function.html "cpp/utility/functional/function")
+#### Class template [std::function](../utility/functional/function.html "cpp/utility/functional/function")
     
     
     namespace std {
@@ -1201,7 +1201,7 @@ Defined in namespace `std::placeholders`
         void swap(function<R(ArgTypes...)>&, function<R(ArgTypes...)>&) noexcept;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/functional&action=edit&section=T-35 "Template:cpp/synopsis/functional")] Class template std::move_only_function
+#### Class template std::move_only_function
     
     
     namespace std {
@@ -1248,7 +1248,7 @@ Defined in namespace `std::placeholders`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/functional&action=edit&section=T-36 "Template:cpp/synopsis/functional")] Class template std::copyable_function
+#### Class template std::copyable_function
     
     
     namespace std {
@@ -1297,7 +1297,7 @@ Defined in namespace `std::placeholders`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/functional&action=edit&section=T-37 "Template:cpp/synopsis/functional")] Class template std::function_ref
+#### Class template std::function_ref
     
     
     namespace std {
@@ -1339,7 +1339,7 @@ Defined in namespace `std::placeholders`
         function_ref(nontype_t<f>, T&&) -> function_ref</* see description */>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/functional&action=edit&section=T-38 "Template:cpp/synopsis/functional")] Class template [std::default_searcher](../utility/functional/default_searcher.html "cpp/utility/functional/default searcher")
+#### Class template [std::default_searcher](../utility/functional/default_searcher.html "cpp/utility/functional/default searcher")
     
     
     namespace std {
@@ -1360,7 +1360,7 @@ Defined in namespace `std::placeholders`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/functional&action=edit&section=T-39 "Template:cpp/synopsis/functional")] Class template [std::boyer_moore_searcher](../utility/functional/boyer_moore_searcher.html "cpp/utility/functional/boyer moore searcher")
+#### Class template [std::boyer_moore_searcher](../utility/functional/boyer_moore_searcher.html "cpp/utility/functional/boyer moore searcher")
     
     
     namespace std {
@@ -1386,7 +1386,7 @@ Defined in namespace `std::placeholders`
         };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/functional&action=edit&section=T-40 "Template:cpp/synopsis/functional")] Class template [std::boyer_moore_horspool_searcher](../utility/functional/boyer_moore_horspool_searcher.html "cpp/utility/functional/boyer moore horspool searcher")
+#### Class template [std::boyer_moore_horspool_searcher](../utility/functional/boyer_moore_horspool_searcher.html "cpp/utility/functional/boyer moore horspool searcher")
     
     
     namespace std {
@@ -1412,7 +1412,7 @@ Defined in namespace `std::placeholders`
       };
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/functional&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [std::hash](../utility/hash.html "cpp/utility/hash") [specializations for library types](../utility/hash.html#Specializations_for_library_types "cpp/utility/hash")  
 ---

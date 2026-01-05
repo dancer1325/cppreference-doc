@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::any`](../any.html "cpp/utility/any")
 
@@ -151,7 +151,7 @@ Common vocabulary types
 [Helper classes](../any.html#Helper_classes "cpp/utility/any")  
 [bad_any_cast](bad_any_cast.html "cpp/utility/any/bad any cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/any/navbar_content&action=edit)
+
 
 template< class ValueType, class... Args >  
 [std::decay_t](../../types/decay.html)<ValueType>& emplace( Args&&... args ); |  (1)  |  (since C++17)  
@@ -187,22 +187,22 @@ First destroys the current contained object (if any) by [reset()](reset.html "cp
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/any/emplace&action=edit&section=1 "Edit section: Template parameters")] Template parameters
+### Template parameters
 
 ValueType  |  \-  |  contained value type   
 ---|---|---  
 Type requirements   
 -`std::decay_t<ValueType>` must meet the requirements of [CopyConstructible](../../named_req/CopyConstructible.html "cpp/named req/CopyConstructible").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/any/emplace&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 A reference to the new contained object. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/any/emplace&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Throws any exception thrown by `T`'s constructor. If an exception is thrown, the previously contained object (if any) has been destroyed, and *this does not contain a value. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/any/emplace&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -255,10 +255,10 @@ Possible output:
     St6vectorIcSaIcEE
     C++17
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/any/emplace&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ (constructor)](any.html "cpp/utility/any/any") |  constructs an `any` object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/any/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ reset](reset.html "cpp/utility/any/reset") |  destroys contained object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/any/dsc_reset&action=edit)
+(public member function) 

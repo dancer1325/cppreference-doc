@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Expressions](expressions.html "cpp/language/expressions")
 
@@ -289,7 +289,7 @@ Conversions
 [`dynamic_cast`](dynamic_cast.html "cpp/language/dynamic cast")  
 [`reinterpret_cast`](reinterpret_cast.html "cpp/language/reinterpret cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/expressions/navbar_content&action=edit)
+
 
 ## Contents
 
@@ -303,20 +303,20 @@ Conversions
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/nullptr&action=edit&section=1 "Edit section: Syntax")] Syntax  
+### Syntax  
   
 ---  
 `**nullptr**` |  |   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/nullptr&action=edit&section=2 "Edit section: Explanation")] Explanation
+### Explanation
 
 The keyword `nullptr` denotes the pointer literal. It is a [prvalue](value_category.html "cpp/language/value category") of type [std::nullptr_t](../types/nullptr_t.html "cpp/types/nullptr t"). There exist [implicit conversions](implicit_cast.html "cpp/language/implicit conversion") from `nullptr` to null pointer value of any pointer type and any pointer to member type. Similar conversions exist for any null pointer constant, which includes values of type [std::nullptr_t](../types/nullptr_t.html "cpp/types/nullptr t") as well as the macro [NULL](../types/NULL.html "cpp/types/NULL"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/nullptr&action=edit&section=3 "Edit section: Keywords")] Keywords
+### Keywords
 
 [`nullptr`](../keyword/nullptr.html "cpp/keyword/nullptr")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/nullptr&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Demonstrates that `nullptr` retains the meaning of null pointer constant even if it is no longer a literal.
 
@@ -356,7 +356,7 @@ Output:
     Function g called
     Function g called
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/nullptr&action=edit&section=5 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -408,11 +408,11 @@ Output:
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/nullptr&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ NULL](../types/NULL.html "cpp/types/NULL") |  implementation-defined null pointer constant   
-(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_NULL&action=edit)  
+(macro constant)   
 ---|---  
 [ nullptr_t](../types/nullptr_t.html "cpp/types/nullptr t")(C++11) |  the type of the null pointer literal **`nullptr`**   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_nullptr_t&action=edit)  
+(typedef)   
 [C documentation](../../c/language/nullptr.html "c/language/nullptr") for nullptr

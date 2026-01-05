@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](../history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [Declarations](../declarations.html "cpp/language/declarations")
 
@@ -280,7 +280,7 @@ Other declarations
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/declarations/navbar_content&action=edit)
+
 
 [Attributes](../attributes.html "cpp/language/attributes")
 
@@ -298,7 +298,7 @@ Other declarations
 [optimize_for_synchronized](optimize_for_synchronized.html "cpp/language/attributes/optimize for synchronized")(TM TS)  
 [unlikely](likely.html "cpp/language/attributes/likely")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/attributes/navbar_content&action=edit)
+
 
 Indicates that the name or entity declared with this attribute is [deprecated](https://en.wikipedia.org/wiki/Deprecation "enwiki:Deprecation"), that is, the use is allowed, but discouraged for some reason. 
 
@@ -313,7 +313,7 @@ Indicates that the name or entity declared with this attribute is [deprecated](h
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/attributes/deprecated&action=edit&section=1 "Edit section: Syntax")] Syntax  
+### Syntax  
   
 ---  
 `**[[deprecated]]**` |  (1)  |   
@@ -321,7 +321,7 @@ Indicates that the name or entity declared with this attribute is [deprecated](h
 string-literal |  \-  |  an [unevaluated string literal](../string_literal.html#Unevaluated_strings "cpp/language/string literal") that could be used to explain the rationale for deprecation and/or to suggest a replacing entity   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/attributes/deprecated&action=edit&section=2 "Edit section: Explanation")] Explanation
+### Explanation
 
 Indicates that the use of the name or entity declared with this attribute is allowed, but discouraged for some reason. Compilers typically issue warnings on such uses. The string-literal, if specified, is usually included in the warnings. 
 
@@ -359,7 +359,7 @@ This attribute is allowed in declarations of the following names or entities:
 
 A name declared non-deprecated may be redeclared deprecated. A name declared deprecated cannot be un-deprecated by redeclaring it without this attribute. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/attributes/deprecated&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -411,7 +411,7 @@ Possible output:
       ^
     2 warnings generated.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/attributes/deprecated&action=edit&section=4 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -453,7 +453,7 @@ Possible output:
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/attributes/deprecated&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [C documentation](../../../c/language/attributes/deprecated.html "c/language/attributes/deprecated") for deprecated  
 ---

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::bitset`](../bitset.html "cpp/utility/bitset")
 
@@ -167,7 +167,7 @@ Common vocabulary types
 [Helper classes](../bitset.html#Helper_classes "cpp/utility/bitset")  
 [std::hash](hash.html "cpp/utility/bitset/hash")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/bitset/navbar_content&action=edit)
+
 
 [std::size_t](../../types/size_t.html) count() const; |  | (noexcept since C++11)   
 (constexpr since C++23)  
@@ -176,11 +176,11 @@ Common vocabulary types
   
 Returns the number of bits that are set to true. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/bitset/count&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 Number of bits that are set to true. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/bitset/count&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -223,10 +223,10 @@ Output:
     Setting bit 0: 00010011
     Setting bit 2: 00010111
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/bitset/count&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ size](size.html "cpp/utility/bitset/size") |  returns the number of bits that the bitset holds   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/bitset/dsc_size&action=edit)  
+(public member function)   
 ---|---  
 [ popcount](../../numeric/popcount.html "cpp/numeric/popcount")(C++20) |  counts the number of 1 bits in an unsigned integer   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/dsc_popcount&action=edit)
+(function template) 

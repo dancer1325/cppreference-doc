@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Ranges](../../ranges.html "cpp/experimental/ranges")
 
@@ -66,7 +66,7 @@
 [Ranges](../../ranges.html#Ranges "cpp/experimental/ranges")  
 [Algorithms](../../ranges.html#Algorithms "cpp/experimental/ranges")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/navbar_content&action=edit)
+
 
 [Concepts library](../../ranges.html#Concepts "cpp/experimental/ranges")
 
@@ -146,7 +146,7 @@ URNG concept
 | [UniformRandomNumberGenerator](UniformRandomNumberGenerator.html "cpp/experimental/ranges/concepts/UniformRandomNumberGenerator")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/concepts/navbar_content&action=edit)
+
 
 Defined in header `[<experimental/ranges/concepts>](../../../header/experimental/ranges/concepts.html "cpp/header/experimental/ranges/concepts")` |  |   
 ---|---|---  
@@ -159,12 +159,12 @@ Assignable<T&, const T&>; |  |  (ranges TS)
   
 The concept `Copyable<T>` specifies that `T` is an [`Movable`](Movable.html "cpp/experimental/ranges/concepts/Movable") object type that can also copied (that is, it supports copy construction and copy assignment). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/concepts/Copyable&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 It is intended that `Copyable<T>` also requires Assignable<T&, const T> (assignment from const rvalue) and Assignable<T&, T&> (assignment from non-const lvalue) to be satisfied. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/ranges/concepts/Copyable&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ Movable](Movable.html "cpp/experimental/ranges/concepts/Movable") |  specifies that an object of a type can be moved and swapped   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/concepts/dsc_Movable&action=edit)  
+(concept)   
 ---|---

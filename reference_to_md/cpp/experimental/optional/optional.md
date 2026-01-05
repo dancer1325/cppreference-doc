@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Library fundamentals](../memory.html "cpp/experimental/lib extensions")
 
@@ -75,7 +75,7 @@
 [Type-erased and polymorphic allocators](../memory.html "cpp/experimental/memory")  
 [Variable templates for type traits](../type_trait_variable_templates.html "cpp/experimental/type trait variable templates")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions/navbar_content&action=edit)
+
 
 [`std::experimental::optional`](../optional.html "cpp/experimental/optional")
 
@@ -105,7 +105,7 @@ Helper objects
 [nullopt](nullopt.html "cpp/experimental/optional/nullopt")  
 [in_place](in_place.html "cpp/experimental/optional/in place")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/optional/navbar_content&action=edit)
+
 
 constexpr optional() noexcept;  
 constexpr optional( [std::experimental::nullopt_t](nullopt_t.html) ) noexcept; |  (1)  |  (library fundamentals TS)  
@@ -148,7 +148,7 @@ Constructs a new `optional` object.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/optional/optional&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 other  |  \-  |  another `optional` object whose contained value to copy   
 ---|---|---  
@@ -159,7 +159,7 @@ Type requirements
 -`T` must meet the requirements of [CopyConstructible](../../named_req/CopyConstructible.html "cpp/named req/CopyConstructible") in order to use overloads (2,4).   
 -`T` must meet the requirements of [MoveConstructible](../../named_req/MoveConstructible.html "cpp/named req/MoveConstructible") in order to use overloads (3,5).   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/optional/optional&action=edit&section=2 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 2) Throws any exception thrown by the constructor of `T`.
 
@@ -171,7 +171,7 @@ noexcept([std::is_nothrow_move_constructible](../../types/is_move_constructible.
 
 4-7) Throws any exception thrown by the constructor of `T`.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/optional/optional&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -197,8 +197,8 @@ Output:
     
     1 1 abc
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/optional/optional&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ make_optional](make_optional.html "cpp/experimental/optional/make optional") |  creates an `optional` object   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/optional/dsc_make_optional&action=edit)  
+(function template)   
 ---|---

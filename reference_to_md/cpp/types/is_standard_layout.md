@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Metaprogramming library](../meta.html "cpp/meta")
 
@@ -167,7 +167,7 @@ Type transformations
 Compile-time integer sequences  
 [integer_sequence](../utility/integer_sequence.html "cpp/utility/integer sequence")(C++14)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/meta/navbar_content&action=edit)
+
 
 Defined in header `[<type_traits>](../header/type_traits.html "cpp/header/type traits")` |  |   
 ---|---|---  
@@ -199,19 +199,19 @@ If the program adds specializations for `std::is_standard_layout` or `std::is_st
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/traits/is&action=edit&section=T-1 "Template:cpp/types/traits/is")] Template parameters
+### Template parameters
 
 T  |  \-  |  a type to check   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/traits/is&action=edit&section=T-2 "Template:cpp/types/traits/is")] Helper variable template
+### Helper variable template
 
 template< class T >  
 constexpr bool is_standard_layout_v = is_standard_layout<T>::value; |  |  (since C++17)  
 ---|---|---  
 | |   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/integral_constant/inherit2&action=edit)
+
 
 ##  Inherited from [ std::integral_constant](integral_constant.html "cpp/types/integral constant")
 
@@ -236,7 +236,7 @@ Type  |  Definition
 `value_type` |  bool  
 `type` |  [std::integral_constant](integral_constant.html)<bool, value>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_standard_layout&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 A pointer to a standard-layout class may be converted (with reinterpret_cast) to a pointer to its first non-static data member (see [empty base optimization](../language/ebo.html "cpp/language/ebo")) and vice versa. 
 
@@ -244,7 +244,7 @@ If a standard-layout union holds two or more standard-layout structs, it is perm
 
 The macro [offsetof](offsetof.html "cpp/types/offsetof") is only guaranteed to be usable with standard-layout classes. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_standard_layout&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -262,7 +262,7 @@ Run this code
      
     int main() {}
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_standard_layout&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -272,12 +272,12 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 class type with unknown bound  | the behavior is  
 undefined in this case   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_standard_layout&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ is_trivially_copyable](is_trivially_copyable.html "cpp/types/is trivially copyable")(C++11) |  checks if a type is trivially copyable   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_trivially_copyable&action=edit)  
+(class template)   
 ---|---  
 [ is_pod](is_pod.html "cpp/types/is pod")(C++11)(deprecated in C++20) |  checks if a type is a plain-old data (POD) type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_pod&action=edit)  
+(class template)   
 [ offsetof](offsetof.html "cpp/types/offsetof") |  byte offset from the beginning of a [standard-layout](../named_req/StandardLayoutType.html "cpp/named req/StandardLayoutType") type to specified member   
-(function macro) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_offsetof&action=edit)
+(function macro) 

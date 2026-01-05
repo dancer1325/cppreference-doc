@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::barrier`](../barrier.html "cpp/thread/barrier")
 
@@ -188,7 +188,7 @@ Member functions
 Constants  
 [barrier::max](max.html "cpp/thread/barrier/max")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/barrier/navbar_content&action=edit)
+
 
 void arrive_and_drop(); |  |  (since C++20)  
 ---|---|---  
@@ -211,25 +211,25 @@ The behavior is undefined if the expected count for the current phase is zero.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/barrier/arrive_and_drop&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/barrier/arrive_and_drop&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/barrier/arrive_and_drop&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Throws [std::system_error](../../error/system_error.html "cpp/error/system error") with an error code allowed for mutex types on error. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/barrier/arrive_and_drop&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 This function can cause the completion step for the current phase to start. 
 
 If the current expected count is zero before calling this function, the initial expected count for all subsequent phases is also zero, which means the `barrier` cannot be reused. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/barrier/arrive_and_drop&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

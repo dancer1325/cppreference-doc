@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 Defined in header `[<stop_token>](../header/stop_token.html "cpp/header/stop token")` |  |   
 ---|---|---  
@@ -194,7 +194,7 @@ The `never_stop_token` class models [`unstoppable_token`](unstoppable_token.html
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/never_stop_token&action=edit&section=1 "Edit section: Member alias templates")] Member alias templates
+### Member alias templates
 
 Type  |  Definition   
 ---|---  
@@ -207,7 +207,7 @@ auto&& ) noexcept {}
 ---|---|---  
 | |   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/never_stop_token&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 stop_requested[static] |  indicates that a stop can never be requested   
 (public static member function)  
@@ -241,7 +241,7 @@ bool operator==(const never_stop_token&) const = default; |  |
   
 Two `never_stop_token` objects always compare equal. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/never_stop_token&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

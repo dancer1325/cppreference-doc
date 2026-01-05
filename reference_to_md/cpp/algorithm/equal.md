@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](ranges/copy.html "cpp/algorithm/ra
 [uninitialized_default_construct_n](../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -365,7 +365,7 @@ These overloads participate in overload resolution only if all following conditi
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/equal&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first1, last1  |  \-  |  the pair of iterators defining the first [range](../iterator.html#Ranges "cpp/iterator") of elements to compare   
 ---|---|---  
@@ -379,13 +379,13 @@ Type requirements
 -`ForwardIt1, ForwardIt2` must meet the requirements of [LegacyForwardIterator](../named_req/ForwardIterator.html "cpp/named req/ForwardIterator").   
 -`BinaryPred` must meet the requirements of [BinaryPredicate](../named_req/BinaryPredicate.html "cpp/named req/BinaryPredicate").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/equal&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1-4) If each corresponding elements in the two ranges are equal, returns true. Otherwise returns false.
 
 5-8) If [std::distance](../iterator/distance.html)(first1, last1) and [std::distance](../iterator/distance.html)(first2, last2) are equal, and each corresponding elements in the two ranges are equal, returns true. Otherwise returns false.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/equal&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Given \\(\scriptsize N_1\\)N1 as [std::distance](../iterator/distance.html)(first1, last1) and \\(\scriptsize N_2\\)N2 as [std::distance](../iterator/distance.html)(first2, last2): 
 
@@ -409,7 +409,7 @@ Otherwise, given \\(\scriptsize N\\)N as \\(\scriptsize \min(N_1,N_2)\\)min(N1,N
 
 8) \\(\scriptsize O(N)\\)O(N) applications of the predicate p.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/equal&action=edit&section=4 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 The overloads with a template parameter named `ExecutionPolicy` report errors as follows: 
 
@@ -418,7 +418,7 @@ The overloads with a template parameter named `ExecutionPolicy` report errors as
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/equal&action=edit&section=5 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
 
 [equal (1)](equal.html#Version_1)  
 ---  
@@ -541,7 +541,7 @@ The overloads with a template parameter named `ExecutionPolicy` report errors as
                        typename [std::iterator_traits](../iterator/iterator_traits.html)<InputIt2>::iterator_category());
     }  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/equal&action=edit&section=6 "Edit section: Notes")] Notes
+### Notes
 
 `std::equal` should not be used to compare the ranges formed by the iterators from [std::unordered_set](../container/unordered_set.html "cpp/container/unordered set"), [std::unordered_multiset](../container/unordered_multiset.html "cpp/container/unordered multiset"), [std::unordered_map](../container/unordered_map.html "cpp/container/unordered map"), or [std::unordered_multimap](../container/unordered_multimap.html "cpp/container/unordered multimap") because the order in which the elements are stored in those containers may be different even if the two containers store the same elements. 
 
@@ -549,7 +549,7 @@ When comparing entire containers or string views(since C++17) for equality, oper
 
 Sequential `std::equal` is not guaranteed to be short-circuit. E.g. if the first pair elements of both ranges do not compare equal, the rest of elements may also be compared. Non-short-circuit comparison may happen when the ranges are compared with [std::memcmp](../string/byte/memcmp.html "cpp/string/byte/memcmp") or implementation-specific vectorized algorithms. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/equal&action=edit&section=7 "Edit section: Example")] Example
+### Example
 
 The following code uses [`std::equal`](equal.html#top) to test if a string is a palindrome.
 
@@ -585,20 +585,20 @@ Output:
     "radar" is a palindrome
     "hello" is not a palindrome
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/equal&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [ findfind_iffind_if_not](find.html "cpp/algorithm/find")(C++11) |  finds the first element satisfying specific criteria   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_find&action=edit)  
+(function template)   
 ---|---  
 [ lexicographical_compare](lexicographical_compare.html "cpp/algorithm/lexicographical compare") |  returns true if one range is lexicographically less than another   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_lexicographical_compare&action=edit)  
+(function template)   
 [ mismatch](mismatch.html "cpp/algorithm/mismatch") |  finds the first position where two ranges differ   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_mismatch&action=edit)  
+(function template)   
 [ search](search.html "cpp/algorithm/search") |  searches for the first occurrence of a range of elements   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_search&action=edit)  
+(function template)   
 [ ranges::equal](ranges/equal.html "cpp/algorithm/ranges/equal")(C++20) |  determines if two sets of elements are the same  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_equal&action=edit)  
+(algorithm function object)  
 [ equal_to](../utility/functional/equal_to.html "cpp/utility/functional/equal to") |  function object implementing x == y   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_equal_to&action=edit)  
+(class template)   
 [ equal_range](equal_range.html "cpp/algorithm/equal range") |  returns range of elements matching a specific key   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_equal_range&action=edit)
+(function template) 

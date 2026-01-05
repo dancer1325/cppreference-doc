@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::barrier`](../barrier.html "cpp/thread/barrier")
 
@@ -188,7 +188,7 @@ Member functions
 Constants  
 [barrier::max](max.html "cpp/thread/barrier/max")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/barrier/navbar_content&action=edit)
+
 
 arrival_token arrive( [std::ptrdiff_t](../../types/ptrdiff_t.html) n = 1 ); |  |  (since C++20)  
 ---|---|---  
@@ -212,31 +212,31 @@ The behavior is undefined if n is less than or equal to 0 or greater than the ex
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/barrier/arrive&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 n  |  \-  |  the value by which the expected count is decreased   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/barrier/arrive&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The constructed `arrival_token` object. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/barrier/arrive&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Throws [std::system_error](../../error/system_error.html "cpp/error/system error") with an error code allowed for mutex types on error. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/barrier/arrive&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 This function can cause the completion step for the current phase to start. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/barrier/arrive&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/barrier/arrive&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ wait](wait.html "cpp/thread/barrier/wait") |  blocks at the phase synchronization point until its phase completion step is run   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/barrier/dsc_wait&action=edit)  
+(public member function)   
 ---|---

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Filesystem library](../../filesystem.html "cpp/filesystem")
 
@@ -100,7 +100,7 @@ filesystem::symlink_status](../status.html "cpp/filesystem/status")
 [filesystem::is_socket](../is_socket.html "cpp/filesystem/is socket")  
 [filesystem::is_symlink](../is_symlink.html "cpp/filesystem/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/navbar_content&action=edit)
+
 
 [`std::filesystem::path`](../path.html "cpp/filesystem/path")
 
@@ -169,7 +169,7 @@ filesystem::symlink_status](../status.html "cpp/filesystem/status")
 | [formatter<std::filesystem::path>](formatter.html "cpp/filesystem/path/formatter")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/path/navbar_content&action=edit)
+
 
 const value_type* c_str() const noexcept; |  (1)  |  (since C++17)  
 ---|---|---  
@@ -196,19 +196,19 @@ Accesses the native path name as a character string.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/native&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/native&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The native string representation of the pathname, using native syntax, native character type, and native character encoding. This string is suitable for use with OS APIs. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/native&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 The conversion function (3) is provided so that APIs that accept [std::basic_string](../../string/basic_string.html "cpp/string/basic string") file names can use pathnames with no changes to code. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/native&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -259,10 +259,10 @@ Possible output:
     
     File contents
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/native&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ stringwstringu8stringu16stringu32string](string.html "cpp/filesystem/path/string") |  returns the path in native pathname format converted to a string   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/path/dsc_string&action=edit)  
+(public member function)   
 ---|---  
 [ generic_stringgeneric_wstringgeneric_u8stringgeneric_u16stringgeneric_u32string](generic_string.html "cpp/filesystem/path/generic string") |  returns the path in generic pathname format converted to a string   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/path/dsc_generic_string&action=edit)
+(public member function) 

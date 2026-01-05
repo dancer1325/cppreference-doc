@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Filesystem library](../fs.html "cpp/experimental/fs")
 
@@ -124,7 +124,7 @@ File types
 [filesystem::is_socket](is_socket.html "cpp/experimental/fs/is socket")  
 [filesystem::is_symlink](is_symlink.html "cpp/experimental/fs/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/navbar_content&action=edit)
+
 
 Defined in header `[<experimental/filesystem>](../../header/experimental/filesystem.html "cpp/header/experimental/filesystem")` |  |   
 ---|---|---  
@@ -145,7 +145,7 @@ Access permissions model [POSIX permission bits](https://pubs.opengroup.org/onli
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/perms&action=edit&section=1 "Edit section: Member constants")] Member constants
+### Member constants
 
 Member constant  | Value (octal)  | POSIX equivalent  | Meaning   
 ---|---|---|---  
@@ -177,13 +177,13 @@ Member constant  | Value (hex)  | Meaning
 `remove_perms` | 0x20000 | Control bit that instructs [permissions](permissions.html "cpp/experimental/fs/permissions") to clear, but not add permission bits   
 `resolve_symlinks` | 0x40000 | Control bit that instructs [permissions](permissions.html "cpp/experimental/fs/permissions") to resolve symlinks   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/perms&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 Permissions may not necessarily be implemented as bits, but they are treated that way conceptually. 
 
 Some permission bits may be ignored on some systems, and changing some bits may automatically change others (e.g. on platforms without owner/group/all distinction, setting any of the three write bits set all three). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/perms&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -230,11 +230,11 @@ Possible output:
     Created file with permissions: rw-r--r--
     After adding o+rwx and g+rwx:  rwxrwxr--
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/perms&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ statussymlink_status](status.html "cpp/experimental/fs/status") |  determines file attributes  
 determines file attributes, checking the symlink target   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_status&action=edit)  
+(function)   
 ---|---  
 [ permissions](permissions.html "cpp/experimental/fs/permissions") |  modifies file access permissions   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_permissions&action=edit)
+(function) 

@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Filesystem library](../../fs.html "cpp/experimental/fs")
 
@@ -99,7 +99,7 @@ File types
 [filesystem::is_socket](../is_socket.html "cpp/experimental/fs/is socket")  
 [filesystem::is_symlink](../is_symlink.html "cpp/experimental/fs/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/navbar_content&action=edit)
+
 
 [`filesystem_error`](../filesystem_error.html "cpp/experimental/fs/filesystem error")
 
@@ -111,7 +111,7 @@ Member functions
 Inherited from [std::system_error](../../../error/system_error.html "cpp/error/system error")  
 [system_error::code](../../../error/system_error/code.html "cpp/error/system error/code")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/filesystem_error/navbar_content&action=edit)
+
 
 const path& path1() const; |  |  (filesystem TS)  
 ---|---|---  
@@ -120,17 +120,17 @@ const path& path2() const; |  |  (filesystem TS)
   
 Returns the paths that were stored in the exception object. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/filesystem_error/path&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/filesystem_error/path&action=edit&section=2 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 [`noexcept`](../../../language/noexcept_spec.html "cpp/language/noexcept spec") specification: 
 
 noexcept
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/filesystem_error/path&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 | This section is incomplete   
 ---|---

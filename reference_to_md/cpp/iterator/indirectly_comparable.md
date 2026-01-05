@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](empty.html "cpp/iterator/empty")(C++17)  
 [data](data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 Defined in header `[<iterator>](../header/iterator.html "cpp/header/iterator")` |  |   
 ---|---|---  
@@ -206,12 +206,12 @@ concept indirectly_comparable =
   
 The concept `indirectly_comparable` specifies the fundamental algorithm requirement for comparing values across two independent ranges. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/indirectly_comparable&action=edit&section=1 "Edit section: Semantic requirements")] Semantic requirements
+### Semantic requirements
 
 `indirectly_comparable` is modeled only if all concepts it subsumes are modeled. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/indirectly_comparable&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ indirect_binary_predicate](indirect_binary_predicate.html "cpp/iterator/indirect binary predicate")(C++20) |  specifies that a callable type, when invoked with the result of dereferencing two [`indirectly_readable`](indirectly_readable.html "cpp/iterator/indirectly readable") types, satisfies [`predicate`](../concepts/predicate.html "cpp/concepts/predicate")   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_indirect_binary_predicate&action=edit)  
+(concept)   
 ---|---

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::packaged_task`](../packaged_task.html "cpp/thread/packaged task")
 
@@ -196,7 +196,7 @@ Helper classes
 [uses_allocator<std::packaged_task>](uses_allocator.html "cpp/thread/packaged task/uses allocator")(until C++17)  
 **Deduction guides**(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/packaged_task/navbar_content&action=edit)
+
 
 Defined in header `[<future>](../../header/future.html "cpp/header/future")` |  |   
 ---|---|---  
@@ -218,11 +218,11 @@ packaged_task( F ) -> packaged_task</*see below*/>; |  (4)  |  (since C++23)
 
 4) This overload participates in overload resolution only if &F::operator() is well-formed when treated as an unevaluated operand and F::operator() is a [static member function](../../language/static.html#Static_member_functions "cpp/language/static") whose type is of form R(A...) or R(A...) noexcept. The deduced type is [std::packaged_task](../packaged_task.html)<R(A...)>.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/packaged_task/deduction_guides&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 These deduction guides do not allow deduction from a function with [ellipsis parameter](../../language/variadic_arguments.html "cpp/language/variadic arguments"), and the ... in the types is always treated as a [pack expansion](../../language/parameter_pack.html#Pack_expansion "cpp/language/parameter pack"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/packaged_task/deduction_guides&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     

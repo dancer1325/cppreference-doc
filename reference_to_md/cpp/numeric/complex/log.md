@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [`std::complex`](../complex.html "cpp/numeric/complex")
 
@@ -164,7 +164,7 @@
 [tuple_size<std::complex>](tuple_size.html "cpp/numeric/complex/tuple size")(C++26)  
 [tuple_element<std::complex>](tuple_element.html "cpp/numeric/complex/tuple element")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/navbar_content&action=edit)
+
 
 Defined in header `[<complex>](../../header/complex.html "cpp/header/complex")` |  |   
 ---|---|---  
@@ -187,16 +187,16 @@ Computes complex [natural (base _e_) logarithm](https://en.wikipedia.org/wiki/Na
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/log&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 z  |  \-  |  complex value   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/log&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 If no errors occur, the complex natural logarithm of z is returned, in the range of a strip in the interval [−iπ, +iπ] along the imaginary axis and mathematically unbounded along the real axis. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/log&action=edit&section=3 "Edit section: Error handling and special values")] Error handling and special values
+### Error handling and special values
 
 Errors are reported consistent with [math_errhandling](../math/math_errhandling.html "cpp/numeric/math/math errhandling"). 
 
@@ -219,13 +219,13 @@ If the implementation supports IEEE floating-point arithmetic,
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/log&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 The natural logarithm of a complex number z with polar coordinate components (r,θ) equals ln r + i(θ+2nπ), with the principal value ln r + iθ. 
 
 The semantics of this function are intended to be consistent with the C function [`clog`](../../../c/numeric/complex/clog.html "c/numeric/complex/clog"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/log&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -256,7 +256,7 @@ Possible output:
     log(-1,0) = (0,3.14159)
     log(-1,-0) (the other side of the cut) = (0,-3.14159)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/log&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -264,15 +264,15 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 2597](https://cplusplus.github.io/LWG/issue2597) | C++98  | specification mishandles signed zero imaginary parts  | erroneous requirement removed   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/log&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ log10(std::complex)](log10.html "cpp/numeric/complex/log10") |  complex common logarithm with the branch cuts along the negative real axis   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_log10&action=edit)  
+(function template)   
 ---|---  
 [ exp(std::complex)](exp.html "cpp/numeric/complex/exp") |  complex base _e_ exponential   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_exp&action=edit)  
+(function template)   
 [ loglogflogl](../math/log.html "cpp/numeric/math/log")(C++11)(C++11) |  computes natural (base e) logarithm (\\({\small\ln{x}}\\)ln(x))   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_log&action=edit)  
+(function)   
 [ log(std::valarray)](../valarray/log.html "cpp/numeric/valarray/log") |  applies the function [std::log](../math/log.html "cpp/numeric/math/log") to each element of valarray   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_log&action=edit)  
+(function template)   
 [C documentation](../../../c/numeric/complex/clog.html "c/numeric/complex/clog") for clog

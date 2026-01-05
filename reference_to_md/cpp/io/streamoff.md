@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 Defined in header `[<ios>](../header/ios.html "cpp/header/ios")` |  |   
 ---|---|---  
@@ -88,7 +88,7 @@ The type `std::streamoff` is an implementation-defined signed integral(since C++
 
 It is used to represent offsets from stream positions (values of type [std::fpos](fpos.html "cpp/io/fpos")). A `std::streamoff` value constructed from -1 is also used to represent error conditions by some of the I/O library functions. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/streamoff&action=edit&section=1 "Edit section: Relationship with std::fpos")] Relationship with std::fpos
+### Relationship with std::fpos
 
   * the difference between two [std::fpos](fpos.html "cpp/io/fpos") objects is a value of type `std::streamoff`
 
@@ -103,12 +103,12 @@ It is used to represent offsets from stream positions (values of type [std::fpos
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/streamoff&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ fpos](fpos.html "cpp/io/fpos") |  represents absolute position in a stream or a file   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_fpos&action=edit)  
+(class template)   
 ---|---  
 [ seekg](basic_istream/seekg.html "cpp/io/basic istream/seekg") |  sets the input position indicator   
-(public member function of `std::basic_istream<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_istream/dsc_seekg&action=edit)  
+(public member function of `std::basic_istream<CharT,Traits>`)   
 [ seekp](basic_ostream/seekp.html "cpp/io/basic ostream/seekp") |  sets the output position indicator   
-(public member function of `std::basic_ostream<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ostream/dsc_seekp&action=edit)
+(public member function of `std::basic_ostream<CharT,Traits>`) 

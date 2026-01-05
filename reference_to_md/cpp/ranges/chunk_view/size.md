@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::chunk_view`](../chunk_view.html "cpp/ranges/chunk view")
 
@@ -299,7 +299,7 @@ operator-(chunk_view::_iterator_)](iterator/operator_arith2.html "cpp/ranges/chu
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/chunk_view/navbar_content&action=edit)
+
 
 constexpr auto size() requires [ranges::sized_range](../sized_range.html)<V>; |  (1)  |  (since C++23)  
 ---|---|---  
@@ -308,11 +308,11 @@ constexpr auto size() const requires [ranges::sized_range](../sized_range.html)<
   
 Returns the number of elements, which is the smallest integer value that is not less than the quotient of dividing the size of underlying view `_[base_](../chunk_view.html#base "cpp/ranges/chunk view")_` by the underlying data member `_[n_](../chunk_view.html#n "cpp/ranges/chunk view")_`, that holds the number passed to the constructor (​0​ if default constructed). Equivalent to  return` `` _to-unsigned-like_`(`_[div-ceil](../chunk_view.html#div-ceil "cpp/ranges/chunk view")_`([ranges::distance](../../iterator/ranges/distance.html)(`_[base_](../chunk_view.html#base "cpp/ranges/chunk view")_`),` `` _[n_](../chunk_view.html#n "cpp/ranges/chunk view")_`)); . 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/chunk_view/size&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 The number of elements. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/chunk_view/size&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -326,10 +326,10 @@ Run this code
         static_assert(w.size() == (5 / 2 + (5 % 2 ? 1 : 0)));
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/chunk_view/size&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ ranges::size](../size.html "cpp/ranges/size")(C++20) |  returns an integer equal to the size of a range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_size&action=edit)  
+(customization point object)  
 ---|---  
 [ ranges::ssize](../ssize.html "cpp/ranges/ssize")(C++20) |  returns a signed integer equal to the size of a range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_ssize&action=edit)
+(customization point object)

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Expressions](expressions.html "cpp/language/expressions")
 
@@ -289,7 +289,7 @@ Conversions
 [`dynamic_cast`](dynamic_cast.html "cpp/language/dynamic cast")  
 [`reinterpret_cast`](reinterpret_cast.html "cpp/language/reinterpret cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/expressions/navbar_content&action=edit)
+
 
 Each C++ [expression](expressions.html "cpp/language/expressions") (an operator with its operands, a literal, a variable name, etc.) is characterized by two independent properties: a _[type](type-id.html "cpp/language/type")_ and a _value category_. Each expression has some non-reference type, and each expression belongs to exactly one of the three primary value categories: [_prvalue_](value_category.html#prvalue), [_xvalue_](value_category.html#xvalue), and [_lvalue_](value_category.html#lvalue). 
 
@@ -455,9 +455,9 @@ Despite their names, these terms classify expressions, not values.  Run this cod
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/value_category&action=edit&section=1 "Edit section: Primary categories")] Primary categories
+### Primary categories
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/value_category&action=edit&section=2 "Edit section: lvalue")] lvalue
+#### lvalue
 
 The following expressions are _lvalue expressions_ : 
 
@@ -602,7 +602,7 @@ Properties:
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/value_category&action=edit&section=3 "Edit section: prvalue")] prvalue
+#### prvalue
 
 The following expressions are _prvalue expressions_ : 
 
@@ -656,7 +656,7 @@ Properties:
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/value_category&action=edit&section=4 "Edit section: xvalue")] xvalue
+#### xvalue
 
 The following expressions are _xvalue expressions_ : 
 
@@ -741,9 +741,9 @@ Run this code
         [[maybe_unused]] A* ap = &ar;
     }  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/value_category&action=edit&section=5 "Edit section: Mixed categories")] Mixed categories
+### Mixed categories
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/value_category&action=edit&section=6 "Edit section: glvalue")] glvalue
+#### glvalue
 
 A _glvalue expression_ is either lvalue or xvalue. 
 
@@ -755,7 +755,7 @@ Properties:
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/value_category&action=edit&section=7 "Edit section: rvalue")] rvalue
+#### rvalue
 
 An _rvalue expression_ is either prvalue or xvalue. 
 
@@ -773,20 +773,20 @@ Properties:
 | (since C++11)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/value_category&action=edit&section=8 "Edit section: Special categories")] Special categories
+### Special categories
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/value_category&action=edit&section=9 "Edit section: Pending member function call")] Pending member function call
+#### Pending member function call
 
 The expressions a.mf and p->mf, where `mf` is a [non-static member function](member_functions.html "cpp/language/member functions"), and the expressions a.*pmf and p->*pmf, where `pmf` is a [pointer to member function](pointer.html#Pointers_to_member_functions "cpp/language/pointer"), are classified as prvalue expressions, but they cannot be used to initialize references, as function arguments, or for any purpose at all, except as the left-hand argument of the function call operator, e.g. (p->*pmf)(args). 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/value_category&action=edit&section=10 "Edit section: Void expressions")] Void expressions
+#### Void expressions
 
 Function call expressions returning void, cast expressions to void, and [throw-expressions](throw.html "cpp/language/throw") are classified as prvalue expressions, but they cannot be used to initialize references or as function arguments. They can be used in discarded-value contexts (e.g. on a line of its own, as the left-hand operand of the comma operator, etc.) and in the return statement in a function returning void. In addition, throw-expressions may be used as the second and the third operands of the [conditional operator ?:](operator_other.html "cpp/language/operator other"). 
 
 Void expressions have no _result object_.  | (since C++17)  
 ---|---  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/value_category&action=edit&section=11 "Edit section: Bit-fields")] Bit-fields
+#### Bit-fields
 
 An expression that designates a [bit-field](bit_field.html "cpp/language/bit field") (e.g. a.m, where a is an lvalue of type struct A { int m: 3; }) is a glvalue expression: it may be used as the left-hand operand of the assignment operator, but its address cannot be taken and a non-const lvalue reference cannot be bound to it. A const lvalue reference or rvalue reference can be initialized from a bit-field glvalue, but a temporary copy of the bit-field will be made: it won't bind to the bit-field directly. 
 
@@ -801,21 +801,21 @@ Although an expression consisting of the name of any variable is an lvalue expre
 If an expression is move-eligible, it is treated either as an rvalue or as an lvalue(until C++23)as an rvalue(since C++23) for the purpose of [overload resolution](overload_resolution.html "cpp/language/overload resolution") (thus it may select the [move constructor](move_constructor.html "cpp/language/move constructor")). See [Automatic move from local variables and parameters](return.html#Automatic_move_from_local_variables_and_parameters "cpp/language/return") for details.  | (since C++11)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/value_category&action=edit&section=13 "Edit section: History")] History
+### History
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/value_category&action=edit&section=14 "Edit section: CPL")] CPL
+#### CPL
 
 The programming language [CPL](https://en.wikipedia.org/wiki/CPL_\(programming_language\) "enwiki:CPL \(programming language\)") was first to introduce value categories for expressions: all CPL expressions can be evaluated in "right-hand mode", but only certain kinds of expression are meaningful in "left-hand mode". When evaluated in right-hand mode, an expression is regarded as being a rule for the computation of a value (the right-hand value, or _rvalue_). When evaluated in left-hand mode an expression effectively gives an address (the left-hand value, or _lvalue_). "Left" and "Right" here stood for "left of assignment" and "right of assignment". 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/value_category&action=edit&section=15 "Edit section: C")] C
+#### C
 
 The C programming language followed a similar taxonomy, except that the role of assignment was no longer significant: C expressions are categorized between "lvalue expressions" and others (functions and non-object values), where "lvalue" means an expression that identifies an object, a "locator value"[[4]](value_category.html#cite_note-4). 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/value_category&action=edit&section=16 "Edit section: C++98")] C++98
+#### C++98
 
 Pre-2011 C++ followed the C model, but restored the name "rvalue" to non-lvalue expressions, made functions into lvalues, and added the rule that references can bind to lvalues, but only references to const can bind to rvalues. Several non-lvalue C expressions became lvalue expressions in C++. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/value_category&action=edit&section=17 "Edit section: C++11")] C++11
+#### C++11
 
 With the introduction of move semantics in C++11, value categories were redefined to characterize two independent properties of expressions[[5]](value_category.html#cite_note-5): 
 
@@ -837,11 +837,11 @@ The expressions that have identity are called "glvalue expressions" (glvalue sta
 
 The expressions that can be moved from are called "rvalue expressions". Both prvalues and xvalues are rvalue expressions. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/value_category&action=edit&section=18 "Edit section: C++17")] C++17
+#### C++17
 
 In C++17, [copy elision](copy_elision.html "cpp/language/copy elision") was made mandatory in some situations, and that required separation of prvalue expressions from the temporary objects initialized by them, resulting in the system we have today. Note that, in contrast with the C++11 scheme, prvalues are no longer moved from. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/value_category&action=edit&section=19 "Edit section: Footnotes")] Footnotes
+### Footnotes
 
   1. [↑](value_category.html#cite_ref-1) Assuming i has built-in type or the pre-increment operator is [overloaded](operators.html "cpp/language/operators") to return by lvalue reference.
   2. ↑ [2.0](value_category.html#cite_ref-pmfc_2-0) [2.1](value_category.html#cite_ref-pmfc_2-1) [2.2](value_category.html#cite_ref-pmfc_2-2) [2.3](value_category.html#cite_ref-pmfc_2-3) Special rvalue category, see [pending member function call](value_category.html#Pending_member_function_call).
@@ -852,7 +852,7 @@ In C++17, [copy elision](copy_elision.html "cpp/language/copy elision") was made
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/value_category&action=edit&section=20 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -914,7 +914,7 @@ In C++17, [copy elision](copy_elision.html "cpp/language/copy elision") was made
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/value_category&action=edit&section=21 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -925,12 +925,12 @@ pointer to member of an rvalue resulted in prvalue  | reclassified as xvalue
 [CWG 1059](https://cplusplus.github.io/CWG/issues/1059.html) | C++11  | array prvalues could not be cv-qualified  | allowed   
 [CWG 1213](https://cplusplus.github.io/CWG/issues/1213.html) | C++11  | subscripting an array rvalue resulted in lvalue  | reclassified as xvalue   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/value_category&action=edit&section=22 "Edit section: See also")] See also
+### See also
 
 [C documentation](../../c/language/value_category.html "c/language/value category") for value categories  
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/value_category&action=edit&section=23 "Edit section: External links")] External links
+### External links
 
 1\.  | [C++ value categories and decltype demystified](https://www.scs.stanford.edu/~dm/blog/decltype.html) — David Mazières, 2021   
 ---|---  

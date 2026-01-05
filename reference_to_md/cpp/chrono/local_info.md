@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 **`std::chrono::local_info`**
 
@@ -111,7 +111,7 @@ Non-member functions
 Helper classes  
 [formatter<std::chrono::local_info>](local_info/formatter.html "cpp/chrono/local info/formatter")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/local_info/navbar_content&action=edit)
+
 
 Defined in header `[<chrono>](../header/chrono.html "cpp/header/chrono")` |  |   
 ---|---|---  
@@ -138,7 +138,7 @@ This is a low-level data structure; typical conversions from `local_time` to `sy
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/local_info&action=edit&section=1 "Edit section: Member constants")] Member constants
+### Member constants
 
 Name  |  Value   
 ---|---  
@@ -149,21 +149,21 @@ constexpr int nonexistent[static] |  1
 constexpr int ambiguous[static] |  2   
 (public static member constant)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/local_info&action=edit&section=2 "Edit section: Member objects")] Member objects
+### Member objects
 
 Member object  |  Type   
 ---|---  
 `result` |  int  
 `first`, `second` |  std::chrono::sys_info  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/local_info&action=edit&section=3 "Edit section: Nonmember functions")] Nonmember functions
+### Nonmember functions
 
 [ operator<<](local_info/operator_ltlt.html "cpp/chrono/local info/operator ltlt")(C++20) |  outputs a `local_info` into a stream   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/local_info/dsc_operator_ltlt&action=edit)  
+(function template)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/local_info&action=edit&section=4 "Edit section: Helper classes")] Helper classes
+### Helper classes
 
 [ std::formatter<std::chrono::local_info>](local_info/formatter.html "cpp/chrono/local info/formatter")(C++20) |  formatting support for `local_info`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_formatter&action=edit)  
+(class template specialization)   
 ---|---

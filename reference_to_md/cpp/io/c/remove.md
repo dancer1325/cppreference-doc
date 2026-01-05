@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [C-style I/O](../c.html "cpp/io/c")
 
@@ -176,7 +176,7 @@ Operations on files
 [tmpfile](tmpfile.html "cpp/io/c/tmpfile")  
 [tmpnam](tmpnam.html "cpp/io/c/tmpnam")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/navbar_content&action=edit)
+
 
 Defined in header `[<cstdio>](../../header/cstdio.html "cpp/header/cstdio")` |  |   
 ---|---|---  
@@ -198,22 +198,22 @@ If the file is currently open by any process, the behavior of this function is i
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/remove&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 pathname  |  \-  |  pointer to a null-terminated string containing the path identifying the file to delete   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/remove&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 ​0​ upon success or non-zero value on error. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/remove&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 [POSIX specifies](https://pubs.opengroup.org/onlinepubs/9699919799/functions/remove.html) many additional details for the behavior of this function. 
 
 The standard library also defines a function template [`std::remove`](../../algorithm/remove.html "cpp/algorithm/remove") taking a pair of iterators and a value, this overload is one of the standard [algorithms](../../algorithm.html "cpp/algorithm"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/remove&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -249,12 +249,12 @@ Possible output:
     a
     Error opening deleted file: No such file or directory
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/remove&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ removeremove_all](../../filesystem/remove.html "cpp/filesystem/remove")(C++17)(C++17) |  removes a file or empty directory  
 removes a file or directory and all its contents, recursively   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_remove&action=edit)  
+(function)   
 ---|---  
 [ rename](rename.html "cpp/io/c/rename") |  renames a file   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_rename&action=edit)  
+(function)   
 [C documentation](../../../c/io/remove.html "c/io/remove") for remove

@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::zip_transform_view`](../../zip_transform_view.html "cpp/ranges/zip transform view")
 
@@ -258,7 +258,7 @@ Non-member functions
 **operator==(zip_transform_view::_sentinel_)**  
 [operator-(zip_transform_view::_sentinel_)](operator-.html "cpp/ranges/zip transform view/sentinel/operator-")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/zip_transform_view/navbar_content&action=edit)
+
 
 template< bool OtherConst >  
 requires [std::sentinel_for](../../../iterator/sentinel_for.html)</*zentinel*/<Const>, /*ziperator*/<OtherConst>>  
@@ -273,17 +273,17 @@ This function template is not visible to ordinary [unqualified](../../../languag
 
 The `!=` operator is [synthesized](../../../language/default_comparisons.html#Other_defaulted_comparison_operators "cpp/language/default comparisons") from `operator==`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/zip_transform_view/sentinel/operator_cmp&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 x  |  \-  |  [iterator](../../zip_transform_view.html#Nested_classes "cpp/ranges/zip transform view") to compare   
 ---|---|---  
 y  |  \-  |  [sentinel](../../zip_transform_view.html#Nested_classes "cpp/ranges/zip transform view") to compare   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/zip_transform_view/sentinel/operator_cmp&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 x.inner_ == y.inner_, where `_inner__` denotes the underlying iterator or sentinel respectively. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/zip_transform_view/sentinel/operator_cmp&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [C-style I/O](../c.html "cpp/io/c")
 
@@ -176,7 +176,7 @@ Operations on files
 [tmpfile](tmpfile.html "cpp/io/c/tmpfile")  
 [tmpnam](tmpnam.html "cpp/io/c/tmpnam")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/navbar_content&action=edit)
+
 
 Defined in header `[<cstdio>](../../header/cstdio.html "cpp/header/cstdio")` |  |   
 ---|---|---  
@@ -200,17 +200,17 @@ If buffer is null, equivalent to [std::setvbuf](setvbuf.html)(stream, nullptr, [
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/setbuf&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 stream  |  \-  |  the file stream to set the buffer to   
 ---|---|---  
 buffer  |  \-  |  pointer to a buffer for the stream to use. If a null pointer is supplied, the buffering is turned off. If not null, must be able to hold at least `BUFSIZ` characters   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/setbuf&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/setbuf&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 If [BUFSIZ](../c.html "cpp/io/c") is not the appropriate buffer size, [std::setvbuf](setvbuf.html "cpp/io/c/setvbuf") can be used to change it. 
 
@@ -227,7 +227,7 @@ A common error is setting the buffer of [stdin](std_streams.html "cpp/io/c/std s
         std::setbuf(stdin, buf);
     } // lifetime of buf ends, undefined behavior
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/setbuf&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 `std::setbuf` may be used to disable buffering on streams that require immediate output.
 
@@ -253,9 +253,9 @@ Output:
     
     ab
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/setbuf&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ setvbuf](setvbuf.html "cpp/io/c/setvbuf") |  sets the buffer and its size for a file stream   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_setvbuf&action=edit)  
+(function)   
 ---|---  
 [C documentation](../../../c/io/setbuf.html "c/io/setbuf") for setbuf

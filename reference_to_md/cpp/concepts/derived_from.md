@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concepts library](../concepts.html "cpp/concepts")
 
@@ -73,7 +73,7 @@
 ---  
 [_boolean-testable_](boolean-testable.html "cpp/concepts/boolean-testable") ﻿(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/navbar_content&action=edit)
+
 
 Defined in header `[<concepts>](../header/concepts.html "cpp/header/concepts")` |  |   
 ---|---|---  
@@ -87,7 +87,7 @@ The concept derived_from<Derived, Base> is satisfied if and only if `Base` is a 
 
 Note that this behavior is different to `std::is_base_of` when `Base` is a private or protected base of `Derived`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/concepts/derived_from&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -114,7 +114,7 @@ Run this code
      
     int main() {}
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/concepts/derived_from&action=edit&section=2 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -136,10 +136,10 @@ Run this code
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/concepts/derived_from&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ is_base_of](../types/is_base_of.html "cpp/types/is base of")(C++11) |  checks if a type is a base of the other type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_base_of&action=edit)  
+(class template)   
 ---|---  
 [ is_convertibleis_nothrow_convertible](../types/is_convertible.html "cpp/types/is convertible")(C++11)(C++20) |  checks if a type can be converted to the other type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_convertible&action=edit)
+(class template) 

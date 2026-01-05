@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Execution control library](../../experimental/execution.html "cpp/execution")
 
@@ -155,7 +155,7 @@ schedule_result_t](../../execution/schedule.html "cpp/execution/schedule")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/execution/navbar_content&action=edit)
+
 
 Defined in header `[<execution>](../../header/execution.html "cpp/header/execution")` |  |   
 ---|---|---  
@@ -174,21 +174,21 @@ requires (/*always-sends-some-values*/(sender))
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/this_thread/sync_wait&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 sender  |  \-  |  sender upon which the completion of sync_wait is blocked   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/this_thread/sync_wait&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Returns an optional tuple of values that were sent by the provided sender on its completion of work. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/this_thread/sync_wait&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 The sender returned by `sync_wait` similarly to `ensure_started`, except that it blocks the current [std::thread](../thread.html "cpp/thread/thread") or thread of main until the work is completed. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/this_thread/sync_wait&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ ensure_started](../../execution/ensure_started.html "cpp/execution/ensure started") |  Eagerly starts a sender, returning a sender that will deliver the results to a receiver to which it is connected and started, if any. When the result sender is not connected to a receiver, or if the resulting operation state is not started, the results are ignored. If such a sender is destroyed before the underlying operation completes, the operation continues running detached.   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/dsc_ensure_started&action=edit)  
+(function template)   
 ---|---

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::atomic`](../atomic.html "cpp/atomic/atomic")
 
@@ -210,7 +210,7 @@ pointer types only](../atomic.html#Specialized_for_integral_and_pointer_types_on
 [atomic::fetch_xor](fetch_xor.html "cpp/atomic/atomic/fetch xor")  
 [atomic::operator&=atomic::operator|=atomic::operator^=](operator_arith3.html "cpp/atomic/atomic/operator arith3")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/navbar_content&action=edit)
+
 
 static constexpr bool is_always_lock_free = /*implementation-defined*/; |  |  (since C++17)  
 ---|---|---  
@@ -220,7 +220,7 @@ Equals true if this atomic type is always lock-free and false if it is never or 
 
 The value of this constant is consistent with both the macro `ATOMIC_xxx_LOCK_FREE`, where defined, with the member function is_lock_free and non-member function [std::atomic_is_lock_free](../atomic_is_lock_free.html "cpp/atomic/atomic is lock free"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic/is_always_lock_free&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 There is no non-member function equivalent of this static member constant because non-member functions take pointers to atomic types, and therefore aren't as useful in [constant expressions](../../language/constant_expression.html "cpp/language/constant expression"). 
 
@@ -228,12 +228,12 @@ There is no non-member function equivalent of this static member constant becaus
 ---|---|---|---  
 [`__cpp_lib_atomic_is_always_lock_free`](../../experimental/feature_test.html#cpp_lib_atomic_is_always_lock_free "cpp/feature test") | [`201603L`](../../compiler_support/17.html#cpp_lib_atomic_is_always_lock_free_201603L "cpp/compiler support/17") | (C++17) | `constexpr atomic<T>::is_always_lock_free`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic/is_always_lock_free&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ is_lock_free](is_lock_free.html "cpp/atomic/atomic/is lock free") |  checks if the atomic object is lock-free   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_is_lock_free&action=edit)  
+(public member function)   
 ---|---  
 [ atomic_is_lock_free](../atomic_is_lock_free.html "cpp/atomic/atomic is lock free")(C++11) |  checks if the atomic type's operations are lock-free   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/dsc_atomic_is_lock_free&action=edit)
+(function template) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

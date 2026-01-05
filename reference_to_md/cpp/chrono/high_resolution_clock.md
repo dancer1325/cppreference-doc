@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 **`std::chrono::high_resolution_clock`**
 
@@ -109,7 +109,7 @@ Member functions
 ---  
 [high_resolution_clock::now](high_resolution_clock/now.html "cpp/chrono/high resolution clock/now")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/high_resolution_clock/navbar_content&action=edit)
+
 
 Defined in header `[<chrono>](../header/chrono.html "cpp/header/chrono")` |  |   
 ---|---|---  
@@ -132,7 +132,7 @@ Class `std::chrono::high_resolution_clock` represents the clock with the smalles
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/high_resolution_clock&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Type  |  Definition   
 ---|---  
@@ -141,25 +141,25 @@ Type  |  Definition
 `duration` |  [std::chrono::duration](duration.html)<rep, period>  
 `time_point` |  [std::chrono::time_point](time_point.html)<std::chrono::high_resolution_clock>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/high_resolution_clock&action=edit&section=2 "Edit section: Member constants")] Member constants
+### Member constants
 
 constexpr bool is_steady[static] |  true if the time between ticks is always constant, i.e. calls to [`now()`](high_resolution_clock/now.html "cpp/chrono/high resolution clock/now") return values that increase monotonically even in case of some external clock adjustment, otherwise false   
 (public static member constant)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/high_resolution_clock&action=edit&section=3 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ now](high_resolution_clock/now.html "cpp/chrono/high resolution clock/now")[static] |  returns a [std::chrono::time_point](time_point.html "cpp/chrono/time point") representing the current value of the clock   
 (public static member function)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/high_resolution_clock&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 There has been some controversy around the use of `high_resolution_clock`. Howard Hinnant, who claims to have introduced `high_resolution_clock` to the language, stated in 2016 on the [ISO C++ Standard - Discussion mailing list](https://lists.isocpp.org/mailman/listinfo.cgi/std-discussion) that he was in favor of deprecating it. His rationale was that, because the standard allows for it to be an alias for [std::chrono::steady_clock](steady_clock.html "cpp/chrono/steady clock") or [std::chrono::system_clock](system_clock.html "cpp/chrono/system clock"), its use adds uncertainty to a program without benefit. However, other participants in the thread spoke out its favor, for instance on the basis that, because neither [std::chrono::steady_clock](steady_clock.html "cpp/chrono/steady clock") nor [std::chrono::system_clock](system_clock.html "cpp/chrono/system clock") come with any particular resolution guarantees, `high_resolution_clock` serves a useful role by giving the vendor an opportunity to supply the platform's highest-resolution clock, when neither its [std::chrono::steady_clock](steady_clock.html "cpp/chrono/steady clock") nor its [std::chrono::system_clock](system_clock.html "cpp/chrono/system clock") would be that. 
 
 It is often just an alias for [std::chrono::steady_clock](steady_clock.html "cpp/chrono/steady clock") or [std::chrono::system_clock](system_clock.html "cpp/chrono/system clock"), but which one it is depends on the library or configuration. When it is a `system_clock`, it is not monotonic (e.g., the time can go backwards). For example, as of 2023, libstdc++ has it aliased to `system_clock` "until higher-than-nanosecond definitions become feasible"[[1]](high_resolution_clock.html#cite_note-1), MSVC has it as `steady_clock`[[2]](high_resolution_clock.html#cite_note-2), and libc++ uses `steady_clock` when the C++ standard library implementation supports a monotonic clock and `system_clock` otherwise[[3]](high_resolution_clock.html#cite_note-3). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/high_resolution_clock&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ system_clock](system_clock.html "cpp/chrono/system clock")(C++11) |  wall clock time from the system-wide realtime clock   
 (class)  
@@ -167,7 +167,7 @@ It is often just an alias for [std::chrono::steady_clock](steady_clock.html "cpp
 [ steady_clock](steady_clock.html "cpp/chrono/steady clock")(C++11) |  monotonic clock that will never be adjusted   
 (class)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/high_resolution_clock&action=edit&section=6 "Edit section: External links")] External links
+### External links
 
   1. [↑](high_resolution_clock.html#cite_ref-1) [libstdc++ `<chrono.h>`](https://github.com/gcc-mirror/gcc/blob/63663e4e69527b308687c63bacb0cc038b386593/libstdc%2B%2B-v3/include/bits/chrono.h#L1285)
   2. [↑](high_resolution_clock.html#cite_ref-2) [MSVC `high_resolution_clock`](https://learn.microsoft.com/en-us/cpp/standard-library/high-resolution-clock-struct?view=msvc-170)

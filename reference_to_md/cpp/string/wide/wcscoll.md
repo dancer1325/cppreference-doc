@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Null-terminated wide strings](../wide.html "cpp/string/wide")
 
@@ -153,7 +153,7 @@
 WCHAR_MAX  
 WEOF](../wide.html#Macros "cpp/string/wide")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/navbar_content&action=edit)
+
 
 Defined in header `[<cwchar>](../../header/cwchar.html "cpp/header/cwchar")` |  |   
 ---|---|---  
@@ -173,12 +173,12 @@ Compares two null-terminated wide strings according to the locale most recently 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/wcscoll&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 lhs, rhs  |  \-  |  pointers to the null-terminated wide strings to compare   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/wcscoll&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Negative value if lhs is _less than_ (precedes) rhs. 
 
@@ -186,11 +186,11 @@ Negative value if lhs is _less than_ (precedes) rhs.
 
 Positive value if lhs is _greater than_ (follows) rhs. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/wcscoll&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Collation order is the dictionary order: the position of the letter in the national alphabet (its _equivalence class_) has higher priority than its case or variant. Within an equivalence class, lowercase characters collate before their uppercase equivalents and locale-specific order may apply to the characters with diacritics. In some locales, groups of characters compare as single _collation units_. For example, "ch" in Czech follows "h" and precedes "i", and "dzs" in Hungarian follows "dz" and precedes "g". 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/wcscoll&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -233,13 +233,13 @@ Output:
     In the American locale: ängel before år
     In the Swedish locale: år before ängel
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/wcscoll&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ strcoll](../byte/strcoll.html "cpp/string/byte/strcoll") |  compares two strings in accordance to the current locale   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strcoll&action=edit)  
+(function)   
 ---|---  
 [ do_compare](../../locale/collate/compare.html "cpp/locale/collate/compare")[virtual] |  compares two strings using this facet's collation rules   
-(virtual protected member function of `std::collate<CharT>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/collate/dsc_do_compare&action=edit)  
+(virtual protected member function of `std::collate<CharT>`)   
 [ wcsxfrm](wcsxfrm.html "cpp/string/wide/wcsxfrm") |  transform a wide string so that `wcscmp` would produce the same result as `wcscoll`   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wcsxfrm&action=edit)  
+(function)   
 [C documentation](../../../c/string/wide/wcscoll.html "c/string/wide/wcscoll") for wcscoll

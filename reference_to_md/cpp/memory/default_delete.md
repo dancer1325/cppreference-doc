@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 Defined in header `[<memory>](../header/memory.html "cpp/header/memory")` |  |   
 ---|---|---  
@@ -216,13 +216,13 @@ template< class T > struct default_delete<T[]>; |  (2)  |  (since C++11)
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/default_delete&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 **(constructor)** |  constructs a `default_delete` object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/default_delete/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 ** operator()** |  deletes the object or array   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/default_delete/dsc_operator\(\)&action=edit)  
+(public member function) &action=edit)  
   
 ##  std::default_delete::default_delete
 
@@ -286,17 +286,17 @@ ptr  |  \-  |  an object or array to delete
 
 No exception guarantees. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/default_delete&action=edit&section=6 "Edit section: Invoking over Incomplete Types")] Invoking over Incomplete Types
+### Invoking over Incomplete Types
 
 At the point in the code the operator() is called, the type must be complete. In some implementations a static_assert is used to make sure this is the case. The reason for this requirement is that calling [`delete`](../language/delete.html "cpp/language/delete") on an incomplete type is undefined behavior in C++ if the complete class type has a nontrivial destructor or a deallocation function, as the compiler has no way of knowing whether such functions exist and must be invoked. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/default_delete&action=edit&section=7 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../utility/feature_test.html "cpp/utility/feature test") macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_constexpr_memory`](../experimental/feature_test.html#cpp_lib_constexpr_memory "cpp/feature test") | [`202202L`](../compiler_support/23.html#cpp_lib_constexpr_memory_202202L "cpp/compiler support/23") | (C++23) | constexpr constructor and operator()  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/default_delete&action=edit&section=8 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -330,7 +330,7 @@ Run this code
         [std::for_each](../algorithm/for_each.html)(v.begin(), v.end(), std::default_delete<int>());
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/default_delete&action=edit&section=9 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -338,10 +338,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 2118](https://cplusplus.github.io/LWG/issue2118) | C++11  | member functions of the array specializations rejected qualification conversions  | accept   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/default_delete&action=edit&section=10 "Edit section: See also")] See also
+### See also
 
 [ unique_ptr](unique_ptr.html "cpp/memory/unique ptr")(C++11) |  smart pointer with unique object ownership semantics   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_unique_ptr&action=edit)  
+(class template)   
 ---|---
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

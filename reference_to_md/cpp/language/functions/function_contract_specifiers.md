@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](../history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Functions](../functions.html "cpp/language/functions")
 
@@ -245,7 +245,7 @@ Overloading
 [Operator overloading](../operators.html "cpp/language/operators")  
 [Address of an overload set](../overloaded_address.html "cpp/language/overloaded address")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/functions/navbar_content&action=edit)
+
 
 Function contract specifiers (preconditions spelled with pre and postconditions spelled with post) are specifiers that may be applied to the declarator of a function or of a lambda expression to introduce a function contract assertion of the respective kind to the corresponding function. 
 
@@ -265,15 +265,15 @@ They ensure the specified condition holds during execution, triggering a violati
   
 ---  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/functions/function_contract_specifiers&action=edit&section=1 "Edit section: Precondition")] Precondition
+#### Precondition
 
 A precondition (pre) is a predicate that the _caller_ must ensure holds _before_ invoking a function or lambda, checked in debug builds to validate inputs or state. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/functions/function_contract_specifiers&action=edit&section=2 "Edit section: Postcondition")] Postcondition
+#### Postcondition
 
 A postcondition (post) is a predicate that the _callee_ must ensure holds _after_ a function or lambda completes, verified in debug builds to confirm output or state. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/functions/function_contract_specifiers&action=edit&section=3 "Edit section: Syntax")] Syntax  
+### Syntax  
   
 ---  
 `**pre**` attr ﻿(optional) `**(**` expr `**)**` |  (1)  |   
@@ -288,17 +288,17 @@ predicate |  \-  |  boolean expression that should evaluate to true
 
 2) Postcondition
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/functions/function_contract_specifiers&action=edit&section=4 "Edit section: Keywords")] Keywords
+### Keywords
 
 [`pre`](../../identifier_with_special_meaning/pre.html "cpp/identifier with special meaning/pre"), [`post`](../../identifier_with_special_meaning/post.html "cpp/identifier with special meaning/post")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/functions/function_contract_specifiers&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 Feature-test macro  | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_contracts`](../../experimental/feature_test.html#cpp_contracts "cpp/feature test") | [`202502L`](../../compiler_support/26.html#cpp_contracts_202502L "cpp/compiler support/26") | (C++26) | [Contracts](../contracts.html "cpp/language/contracts")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/functions/function_contract_specifiers&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
   * The precondition of function `normalize` requires caller to pass normalizable vector. 
   * The postcondition ensures that the function `normalize` returns a normalized vector. 
@@ -365,7 +365,7 @@ Possible output:
     [0.4242641, 0.56568545, 0.70710677]
     [-nan, -nan, -nan]
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/functions/function_contract_specifiers&action=edit&section=7 "Edit section: References")] References
+### References
 
   * C++26 standard (ISO/IEC 14882:2026): 
 
@@ -377,10 +377,10 @@ Possible output:
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/functions/function_contract_specifiers&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
-[Contract assertions](../contracts.html "cpp/language/contracts") (C++26) |  specifies properties that must hold at certain points during execution[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_contracts&action=edit)  
+[Contract assertions](../contracts.html "cpp/language/contracts") (C++26) |  specifies properties that must hold at certain points during execution  
 ---|---  
-[`contract_assert` statement](../contract_assert.html "cpp/language/contract assert") (C++26) |  verifies an internal condition during execution[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_contract_assert&action=edit)
+[`contract_assert` statement](../contract_assert.html "cpp/language/contract assert") (C++26) |  verifies an internal condition during execution
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

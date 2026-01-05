@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Functions](functions.html "cpp/language/functions")
 
@@ -245,7 +245,7 @@ Overloading
 [Operator overloading](operators.html "cpp/language/operators")  
 [Address of an overload set](overloaded_address.html "cpp/language/overloaded address")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/functions/navbar_content&action=edit)
+
 
 In order to compile a function call, the compiler must first perform [name lookup](lookup.html "cpp/language/lookup"), which, for functions, may involve [argument-dependent lookup](adl.html "cpp/language/adl"), and for function templates may be followed by [template argument deduction](template_argument_deduction.html "cpp/language/template argument deduction"). 
 
@@ -295,11 +295,11 @@ If a function cannot be selected by overload resolution, it cannot be used (e.g.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/overload_resolution&action=edit&section=1 "Edit section: Candidate functions")] Candidate functions
+### Candidate functions
 
 Before overload resolution begins, the functions selected by name lookup and template argument deduction are combined to form the set of _candidate functions_. The exact details depend on the context in which overload resolution will take place. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/overload_resolution&action=edit&section=2 "Edit section: Call to a named function")] Call to a named function
+#### Call to a named function
 
 If E in a [function call expression](operator_other.html#Built-in_function_call_operator "cpp/language/operator other") E(args) names a set of overloaded functions and/or function templates (but not callable objects), the following rules are followed: 
 
@@ -315,7 +315,7 @@ If E in a [function call expression](operator_other.html#Built-in_function_call_
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/overload_resolution&action=edit&section=3 "Edit section: Call to a class object")] Call to a class object
+#### Call to a class object
 
 If E in a [function call expression](operator_other.html#Built-in_function_call_operator "cpp/language/operator other") E(args) has class type _cv_ `T`, then 
 
@@ -349,7 +349,7 @@ In any case, the argument list for the purpose of overload resolution is the arg
      
     int i = a(1); // calls f1 via pointer returned from conversion function
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/overload_resolution&action=edit&section=4 "Edit section: Call to an overloaded operator")] Call to an overloaded operator
+#### Call to an overloaded operator
 
 If at least one of the arguments to an operator in an expression has a class type or an enumeration type, both [builtin operators](expressions.html#Operators "cpp/language/expressions") and [user-defined operator overloads](operators.html "cpp/language/operators") participate in overload resolution, with the set of candidate functions selected as follows: 
 
@@ -400,7 +400,7 @@ For operator,, the unary operator&, and operator->, if there are no viable funct
 If a rewritten operator<=> candidate is selected by overload resolution for an operator `@`, x @ y is interpreted as the rewritten expression: 0 @ (y <=> x) if the selected candidate is a synthesized candidate with reversed order of parameters, or (x <=> y) @ 0 otherwise, using the selected rewritten operator<=> candidate. If a rewritten operator== candidate is selected by overload resolution for an operator `@` (which is either `==` or `!=`), its return type must be (possibly cv-qualified) bool, and x @ y is interpreted as the rewritten expression: y == x or !(y == x) if the selected candidate is a synthesized candidate with reversed order of parameters, or !(x == y) otherwise, using the selected rewritten operator== candidate. Overload resolution in this case has a final tiebreaker preferring non-rewritten candidates to rewritten candidates, and preferring non-synthesized rewritten candidates to synthesized rewritten candidates. This lookup with the reversed arguments order makes it possible to write just operator<=>([std::string](../string/basic_string.html), const char*) and operator==([std::string](../string/basic_string.html), const char*) to generate all comparisons between [std::string](../string/basic_string.html "cpp/string/basic string") and const char*, both ways. See [default comparisons](default_comparisons.html "cpp/language/default comparisons") for more detail.  | (since C++20)  
 ---|---  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/overload_resolution&action=edit&section=5 "Edit section: Initialization by constructor")] Initialization by constructor
+#### Initialization by constructor
 
 When an object of class type is [direct-initialized](direct_initialization.html "cpp/language/direct initialization") or [default-initialized](default_initialization.html "cpp/language/default initialization") (including default-initialization in the context of [copy-list-initialization](list_initialization.html "cpp/language/list initialization"))(since C++11), the candidate functions are all constructors of the class being initialized. The argument list is the expression list of the initializer. 
 
@@ -409,7 +409,7 @@ Otherwise, the candidate functions are all [converting constructors](converting_
 For default-initialization in the context of copy-list-initialization, if an [`explicit`](explicit.html "cpp/language/explicit") constructor is chosen, the initialization is ill-formed.  | (since C++11)  
 ---|---  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/overload_resolution&action=edit&section=6 "Edit section: Copy-initialization by conversion")] Copy-initialization by conversion
+#### Copy-initialization by conversion
 
 If [copy-initialization](copy_initialization.html "cpp/language/copy initialization") of an object of class type requires that a user-defined conversion is called to convert the initializer expression of type _cv_ `S` to the type _cv_ `T` of the object being initialized, the following functions are candidate functions: 
 
@@ -420,7 +420,7 @@ If [copy-initialization](copy_initialization.html "cpp/language/copy initializat
 
 Either way, the argument list for the purpose of overload resolution consists of a single argument which is the initializer expression, which will be compared against the first argument of the constructor or against the implicit object argument of the conversion function. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/overload_resolution&action=edit&section=7 "Edit section: Non-class initialization by conversion")] Non-class initialization by conversion
+#### Non-class initialization by conversion
 
 When initialization of an object of non-class type _cv1_ `T` requires a [user-defined conversion function](cast_operator.html "cpp/language/cast operator") to convert from an initializer expression of class type _cv_ `S`, the following functions are candidates: 
 
@@ -431,7 +431,7 @@ When initialization of an object of non-class type _cv1_ `T` requires a [user-de
 
 Either way, the argument list for the purpose of overload resolution consists of a single argument which is the initializer expression, which will be compared against the implicit object argument of the conversion function. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/overload_resolution&action=edit&section=8 "Edit section: Reference initialization by conversion")] Reference initialization by conversion
+#### Reference initialization by conversion
 
 During [reference initialization](reference_initialization.html "cpp/language/reference initialization"), where the reference to _cv1_ `T` is bound to the lvalue or rvalue result of a conversion from the initializer expression from the class type _cv2_ `S`, the following functions are selected for the candidate set: 
 
@@ -453,7 +453,7 @@ During [reference initialization](reference_initialization.html "cpp/language/re
 
 Either way, the argument list for the purpose of overload resolution consists of a single argument which is the initializer expression, which will be compared against the implicit object argument of the conversion function. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/overload_resolution&action=edit&section=9 "Edit section: List-initialization")] List-initialization
+#### List-initialization
 
 When an object of non-aggregate class type `T` is [list-initialized](list_initialization.html "cpp/language/list initialization"), two-phase overload resolution takes place. 
 
@@ -466,7 +466,7 @@ If the initializer list is empty and `T` has a default constructor, phase 1 is s
 
 In copy-list-initialization, if phase 2 selects an explicit constructor, the initialization is ill-formed (as opposed to all over copy-initializations where explicit constructors are not even considered). 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/overload_resolution&action=edit&section=10 "Edit section: Additional rules for function template candidates")] Additional rules for function template candidates
+#### Additional rules for function template candidates
 
 If name lookup found a function template, [template argument deduction](template_argument_deduction.html "cpp/language/template argument deduction") and checking of any explicit template arguments are performed to find the template argument values (if any) that can be used in this case: 
 
@@ -482,7 +482,7 @@ See [function template overloading](function_template.html#Function_template_ove
 If a constructor template or conversion function template has a [conditional explicit specifier](explicit.html "cpp/language/explicit") which happens to be [value-dependent](dependent_name.html#Value-dependent_expressions "cpp/language/dependent name"), after deduction, if the context requires a candidate that is not explicit and the generated specialization is explicit, it is removed from the candidate set.  | (since C++20)  
 ---|---  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/overload_resolution&action=edit&section=11 "Edit section: Additional rules for constructor candidates")] Additional rules for constructor candidates
+#### Additional rules for constructor candidates
 
 Defaulted [move constructors](move_constructor.html "cpp/language/move constructor") and [move assignment operators](move_operator.html "cpp/language/move assignment") that are defined as deleted are excluded in the set of candidate functions. A constructor [inherited](using_declaration.html#Inheriting_constructors "cpp/language/using declaration") from class type `C` that has a first parameter of type “reference to `P`” (including such a constructor instantiated from a template) is excluded from the set of candidate functions when constructing an object of type `D` if all following conditions are satisfied: 
 
@@ -493,7 +493,7 @@ Defaulted [move constructors](move_constructor.html "cpp/language/move construct
 | (since C++11)  
 ---|---  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/overload_resolution&action=edit&section=12 "Edit section: Additional rules for member function candidates")] Additional rules for member function candidates
+#### Additional rules for member function candidates
 
 If any candidate function is a [member function](member_functions.html "cpp/language/member functions") (static or non-static) that does not have an [explicit object parameter](member_functions.html#Explicit_object_parameter "cpp/language/member functions")(since C++23), but not a constructor, it is treated as if it has an extra parameter (_implicit object parameter_) which represents the object for which they are called and appears before the first of the actual parameters. 
 
@@ -523,7 +523,7 @@ For the rest of overload resolution, the _implied object argument_ is indistingu
                // to the implicit object parameter
     static_cast<B&>(a).f(1); // OK
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/overload_resolution&action=edit&section=13 "Edit section: Viable functions")] Viable functions
+### Viable functions
 
 Given the set of candidate functions, constructed as described above, the next step of overload resolution is examining arguments and parameters to reduce the set to the set of _viable functions_
 
@@ -569,7 +569,7 @@ User-defined conversions (both converting constructors and user-defined conversi
 | (since C++11)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/overload_resolution&action=edit&section=14 "Edit section: Best viable function")] Best viable function
+### Best viable function
 
 For each pair of viable function `F1` and `F2`, the implicit conversion sequences from the `i`th argument to `i`th parameter are ranked to determine which one is better (except the first argument, the _implicit object argument_ for static member functions has no effect on the ranking) 
 
@@ -713,7 +713,7 @@ If the best viable function resolves to a function for which multiple declaratio
         f();  // error: found default argument twice
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/overload_resolution&action=edit&section=15 "Edit section: Ranking of implicit conversion sequences")] Ranking of implicit conversion sequences
+### Ranking of implicit conversion sequences
 
 The argument-parameter implicit conversion sequences considered by overload resolution correspond to [implicit conversions](implicit_cast.html "cpp/language/implicit conversion") used in [copy initialization](copy_initialization.html "cpp/language/copy initialization") (for non-reference parameters), except that when considering conversion to the implicit object parameter or to the left-hand side of assignment operator, conversions that create temporary objects are not considered. When the parameter is the implicit object parameter of a static member function, the implicit conversion sequence is a standard conversion sequence that is neither better nor worse than any other standard conversion sequence.(since C++23)
 
@@ -955,7 +955,7 @@ Ambiguous conversion sequences are ranked as user-defined conversion sequences b
           // the conversions for overload #1 and for overload #2
           // are indistinguishable; compilation fails
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/overload_resolution&action=edit&section=16 "Edit section: Implicit conversion sequence in list-initialization")] Implicit conversion sequence in list-initialization
+### Implicit conversion sequence in list-initialization
 
 In [list initialization](list_initialization.html "cpp/language/list initialization"), the argument is a braced-init-list, which isn't an expression, so the implicit conversion sequence into the parameter type for the purpose of overload resolution is decided by the following special rules: 
 
@@ -1067,7 +1067,7 @@ If the argument is a designated initializer list and the parameter is not a refe
 | (since C++20)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/overload_resolution&action=edit&section=17 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -1165,7 +1165,7 @@ for a != b even if a matching operator!= exists  | not added
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/overload_resolution&action=edit&section=18 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -1227,7 +1227,7 @@ for a != b even if a matching operator!= exists  | not added
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/overload_resolution&action=edit&section=19 "Edit section: See also")] See also
+### See also
 
   * [Name lookup](lookup.html "cpp/language/lookup")
   * [Argument-dependent lookup](adl.html "cpp/language/adl")

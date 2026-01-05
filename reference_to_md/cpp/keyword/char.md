@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](../language/history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [Keywords](../keywords.html "cpp/keyword")
 
@@ -340,16 +340,16 @@ Identifiers with special meaning
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/keyword/navbar_content&action=edit)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/keyword/char&action=edit&section=1 "Edit section: Usage")] Usage
+
+### Usage
 
   * [`signed char` type](../language/types.html#Character_types "cpp/language/types"): as the declaration of the type when combined with [`signed`](signed.html "cpp/keyword/signed")
   * [`unsigned char` type](../language/types.html#Character_types "cpp/language/types"): as the declaration of the type when combined with [`unsigned`](unsigned.html "cpp/keyword/unsigned")
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/keyword/char&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
   * [Fundamental types](../language/types.html "cpp/language/types"): [`void`](void.html "cpp/keyword/void"), [std::nullptr_t](../types/nullptr_t.html "cpp/types/nullptr t")(since C++11). 
     * [Integral types](../language/types.html#Integral_types "cpp/language/types"): [`int`](int.html "cpp/keyword/int"). [Modifiers](../language/types.html#Modifiers "cpp/language/types"): [`signed`](signed.html "cpp/keyword/signed"), [`unsigned`](unsigned.html "cpp/keyword/unsigned"), [`short`](short.html "cpp/keyword/short"), [`long`](long.html "cpp/keyword/long"). 

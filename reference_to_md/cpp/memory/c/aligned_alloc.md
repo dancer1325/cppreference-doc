@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 Defined in header `[<cstdlib>](../../header/cstdlib.html "cpp/header/cstdlib")` |  |   
 ---|---|---  
@@ -214,19 +214,19 @@ Calls to these functions that allocate or deallocate a particular unit of storag
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/c/aligned_alloc&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 alignment  |  \-  |  specifies the alignment. Must be a valid alignment supported by the implementation.   
 ---|---|---  
 size  |  \-  |  number of bytes to allocate. An integral multiple of alignment.   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/c/aligned_alloc&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 On success, returns the pointer to the beginning of newly allocated memory. To avoid a memory leak, the returned pointer must be deallocated with [std::free](free.html "cpp/memory/c/free") or [std::realloc](realloc.html "cpp/memory/c/realloc"). 
 
 On failure, returns a null pointer. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/c/aligned_alloc&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Passing a size which is not an integral multiple of alignment or an alignment which is not valid or not supported by the implementation causes the function to fail and return a null pointer (C11, as published, specified undefined behavior in this case, this was corrected by [DR460](https://open-std.org/JTC1/SC22/WG14/www/docs/summary.htm#dr_460)). 
 
@@ -238,7 +238,7 @@ Regular [std::malloc](malloc.html "cpp/memory/c/malloc") aligns memory suitable 
 
 This function is not supported in Microsoft C Runtime library because its implementation of [std::free](free.html "cpp/memory/c/free") is [unable to handle aligned allocations](https://learn.microsoft.com/en-us/cpp/standard-library/cstdlib#remarks-6) of any kind. Instead, MS CRT provides [`_aligned_malloc`](https://learn.microsoft.com/en-us/cpp/c-runtime-library/reference/aligned-malloc) (to be freed with [`_aligned_free`](https://learn.microsoft.com/en-us/cpp/c-runtime-library/reference/aligned-free)). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/c/aligned_alloc&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -263,9 +263,9 @@ Possible output:
     default-aligned address:   0x2221c20
     1024-byte aligned address: 0x2222400
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/c/aligned_alloc&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ aligned_storage](../../types/aligned_storage.html "cpp/types/aligned storage")(since C++11)(deprecated in C++23) |  defines the type suitable for use as uninitialized storage for types of given size   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_aligned_storage&action=edit)  
+(class template)   
 ---|---  
 [C documentation](../../../c/memory/aligned_alloc.html "c/memory/aligned alloc") for aligned_alloc

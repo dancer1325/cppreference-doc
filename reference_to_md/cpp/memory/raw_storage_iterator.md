@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 **`std::raw_storage_iterator`**
 
@@ -196,7 +196,7 @@ Member functions
 [raw_storage_iterator::base](raw_storage_iterator/base.html "cpp/memory/raw storage iterator/base")(C++17)  
 [raw_storage_iterator::operator++raw_storage_iterator::operator++(int)](raw_storage_iterator/operator_arith.html "cpp/memory/raw storage iterator/operator arith")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/raw_storage_iterator/navbar_content&action=edit)
+
 
 Defined in header `[<memory>](../header/memory.html "cpp/header/memory")` |  |   
 ---|---|---  
@@ -223,26 +223,26 @@ The output iterator `std::raw_storage_iterator` makes it possible for standard a
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/raw_storage_iterator&action=edit&section=1 "Edit section: Type requirements")] Type requirements
+### Type requirements
 
 -`OutputIt` must meet the requirements of [LegacyOutputIterator](../named_req/OutputIterator.html "cpp/named req/OutputIterator").   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/raw_storage_iterator&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](raw_storage_iterator/raw_storage_iterator.html "cpp/memory/raw storage iterator/raw storage iterator") |  creates a new `raw_storage_iterator`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/raw_storage_iterator/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ operator=](raw_storage_iterator/operator=.html "cpp/memory/raw storage iterator/operator=") |  constructs an object at the pointed-to location in the buffer   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/raw_storage_iterator/dsc_operator%3D&action=edit)  
+(public member function)   
 [ operator*](raw_storage_iterator/operator*.html "cpp/memory/raw storage iterator/operator*") |  dereferences the iterator   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/raw_storage_iterator/dsc_operator*&action=edit)  
+(public member function)   
 [ operator++operator++(int)](raw_storage_iterator/operator_arith.html "cpp/memory/raw storage iterator/operator arith") |  advances the iterator   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/raw_storage_iterator/dsc_operator_arith&action=edit)  
+(public member function)   
 [ base](raw_storage_iterator/base.html "cpp/memory/raw storage iterator/base")(since C++17) |  provides access to the wrapped iterator   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/raw_storage_iterator/dsc_base&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/iterator/inherit&action=edit&section=T-1 "Template:cpp/iterator/iterator/inherit")] Member types
+### Member types
 
 Member type  |  Definition   
 ---|---  
@@ -256,11 +256,11 @@ Member type  |  Definition
 Member types `iterator_category`, `value_type`, `difference_type`, `pointer` and `reference` are required to be obtained by inheriting from [std::iterator](../iterator/iterator.html)<[std::output_iterator_tag](../iterator/iterator_tags.html), void, void, void, void>.  | (until C++17)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/raw_storage_iterator&action=edit&section=3 "Edit section: Note")] Note
+### Note
 
 `std::raw_storage_iterator` was deprecated primarily because of its exception-unsafe behavior. Unlike [std::uninitialized_copy](uninitialized_copy.html "cpp/memory/uninitialized copy"), it doesn't handle exceptions during operations like [std::copy](../algorithm/copy.html "cpp/algorithm/copy") safely, potentially leading to resource leaks due to a lack of tracking the number of successfully constructed objects and their proper destruction in the presence of exceptions. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/raw_storage_iterator&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -295,12 +295,12 @@ Output:
     test
     .
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/raw_storage_iterator&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ allocator_traits](allocator_traits.html "cpp/memory/allocator traits")(C++11) |  provides information about allocator types   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_allocator_traits&action=edit)  
+(class template)   
 ---|---  
 [ scoped_allocator_adaptor](scoped_allocator_adaptor.html "cpp/memory/scoped allocator adaptor")(C++11) |  implements multi-level allocator for multi-level containers   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_scoped_allocator_adaptor&action=edit)  
+(class template)   
 [ uses_allocator](uses_allocator.html "cpp/memory/uses allocator")(C++11) |  checks if the specified type supports uses-allocator construction   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_uses_allocator&action=edit)
+(class template) 

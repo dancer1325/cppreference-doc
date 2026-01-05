@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Variadic functions](../variadic.html "cpp/utility/variadic")
 
@@ -139,7 +139,7 @@ Common vocabulary types
 [va_end](va_end.html "cpp/utility/variadic/va end")  
 **va_list**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variadic/navbar_content&action=edit)
+
 
 Defined in header `[<cstdarg>](../../header/cstdarg.html "cpp/header/cstdarg")` |  |   
 ---|---|---  
@@ -152,21 +152,21 @@ If a `va_list` instance is created, passed to another function, and used via [va
 
 It is legal to pass a pointer to a `va_list` object to another function and then use that object after the function returns. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variadic/va_list&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variadic/va_list&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ va_start](va_start.html "cpp/utility/variadic/va start") |  enables access to variadic function arguments   
-(function macro) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variadic/dsc_va_start&action=edit)  
+(function macro)   
 ---|---  
 [ va_copy](va_copy.html "cpp/utility/variadic/va copy")(C++11) |  makes a copy of the variadic function arguments   
-(function macro) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variadic/dsc_va_copy&action=edit)  
+(function macro)   
 [ va_arg](va_arg.html "cpp/utility/variadic/va arg") |  accesses the next variadic function argument   
-(function macro) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variadic/dsc_va_arg&action=edit)  
+(function macro)   
 [ va_end](va_end.html "cpp/utility/variadic/va end") |  ends traversal of the variadic function arguments   
-(function macro) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variadic/dsc_va_end&action=edit)  
+(function macro)   
 [C documentation](../../../c/variadic/va_list.html "c/variadic/va list") for va_list

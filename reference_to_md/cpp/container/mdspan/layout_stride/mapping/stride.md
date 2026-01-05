@@ -30,7 +30,7 @@
 [Symbols index](../../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../../../container.html "cpp/container")
 
@@ -71,7 +71,7 @@ Tables
 [Member function table](../../../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::mdspan`](../../../mdspan.html "cpp/container/mdspan")
 
@@ -120,7 +120,7 @@ Tables
 [submdspan_mapping_result](../../submdspan_mapping_result.html "cpp/container/mdspan/submdspan mapping result")(C++26)  
 [Deduction guides](../../deduction_guides.html "cpp/container/mdspan/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/navbar_content&action=edit)
+
 
 [`std::layout_stride::mapping`](../mapping.html "cpp/container/mdspan/layout stride/mapping")
 
@@ -138,7 +138,7 @@ Tables
 [operator==](operator==.html "cpp/container/mdspan/layout stride/mapping/operator==")  
 [submdspan_mapping(std::layout_stride::mapping)](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/layout_stride/mapping/submdspan_mapping&action=edit&redlink=1 "cpp/container/mdspan/layout stride/mapping/submdspan mapping \(page does not exist\)")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/layout_stride/mapping/navbar_content&action=edit)
+
 
 constexpr index_type stride(rank_type i) const noexcept; |  |  (since C++23)  
 ---|---|---  
@@ -156,25 +156,25 @@ Returns the stride of the mapping at a rank index i. Equivalent to return stride
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/layout_stride/mapping/stride&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 i  |  \-  |  a rank index in the range `[`​0​`, `rank_`)`  
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/layout_stride/mapping/stride&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The stride at a specified rank index. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/layout_stride/mapping/stride&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/layout_stride/mapping/stride&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ strides](strides.html "cpp/container/mdspan/layout stride/mapping/strides") |  obtains the array of strides   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/layout_mapping/dsc_strides&action=edit)  
+(public member function)   
 ---|---  
 [ stride](../../stride.html "cpp/container/mdspan/stride") |  obtains the stride along the specified dimension   
-(public member function of `std::mdspan<T,Extents,LayoutPolicy,AccessorPolicy>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/dsc_stride&action=edit)
+(public member function of `std::mdspan<T,Extents,LayoutPolicy,AccessorPolicy>`) 

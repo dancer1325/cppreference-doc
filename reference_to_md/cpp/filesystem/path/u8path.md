@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Filesystem library](../../filesystem.html "cpp/filesystem")
 
@@ -100,7 +100,7 @@ filesystem::symlink_status](../status.html "cpp/filesystem/status")
 [filesystem::is_socket](../is_socket.html "cpp/filesystem/is socket")  
 [filesystem::is_symlink](../is_symlink.html "cpp/filesystem/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/navbar_content&action=edit)
+
 
 [`std::filesystem::path`](../path.html "cpp/filesystem/path")
 
@@ -169,7 +169,7 @@ filesystem::symlink_status](../status.html "cpp/filesystem/status")
 | [formatter<std::filesystem::path>](formatter.html "cpp/filesystem/path/formatter")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/path/navbar_content&action=edit)
+
 
 Defined in header `[<filesystem>](../../header/filesystem.html "cpp/header/filesystem")` |  |   
 ---|---|---  
@@ -201,7 +201,7 @@ Constructs a path `p` from a UTF-8 encoded sequence of chars or char8_ts(since C
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/u8path&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 source  |  \-  |  a UTF-8 encoded [std::string](../../string/basic_string.html "cpp/string/basic string"), [std::string_view](../../string/basic_string_view.html "cpp/string/basic string view"), a pointer to a null-terminated multibyte string, or an input iterator with char value type that points to a null-terminated multibyte string   
 ---|---|---  
@@ -210,19 +210,19 @@ Type requirements
 -`InputIt` must meet the requirements of [LegacyInputIterator](../../named_req/InputIterator.html "cpp/named req/InputIterator").   
 -The value type of `Source` or `InputIt` must be char or char8_t.(since C++20)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/u8path&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The path constructed from the input string after conversion from UTF-8 to the filesystem's native character encoding. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/u8path&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 May throw [std::bad_alloc](../../memory/new/bad_alloc.html "cpp/memory/new/bad alloc") if memory allocation fails. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/u8path&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 On systems where native path format differs from the generic path format (neither Windows nor POSIX systems are examples of such OSes), if the argument to this function is using generic format, it will be converted to native. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/u8path&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -273,8 +273,8 @@ Possible output:
     
     File contents
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/u8path&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ path](../path.html "cpp/filesystem/path")(C++17) |  represents a path   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_path&action=edit)  
+(class)   
 ---|---

@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 `[std::unordered_multimap](../unordered_multimap.html "cpp/container/unordered multimap")`
 
@@ -135,7 +135,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/unordered multimap/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/unordered_multimap/navbar_content&action=edit)
+
 
 size_type max_bucket_count() const; |  |  (since C++11)  
 ---|---|---  
@@ -154,19 +154,19 @@ Returns the maximum number of buckets the container is able to hold due to syste
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/max_bucket_count&action=edit&section=T-1 "Template:cpp/container/max bucket count")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/max_bucket_count&action=edit&section=T-2 "Template:cpp/container/max bucket count")] Return value
+### Return value
 
 Maximum number of buckets. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/max_bucket_count&action=edit&section=T-3 "Template:cpp/container/max bucket count")] Complexity
+### Complexity
 
 Constant. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/max_bucket_count&action=edit&section=T-4 "Template:cpp/container/max bucket count")] Example
+### Example
 
 Run this code
     
@@ -201,8 +201,8 @@ Possible output:
     c3: 0xfffffffffffffff
     c4: 0xaaaaaaaaaaaaaaa
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/max_bucket_count&action=edit&section=T-5 "Template:cpp/container/max bucket count")] See also
+### See also
 
 [ bucket_count](bucket_count.html "cpp/container/unordered multimap/bucket count") |  returns the number of buckets   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_bucket_count&action=edit)  
+(public member function)   
 ---|---

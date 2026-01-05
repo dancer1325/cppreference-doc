@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Strings library](../../string.html "cpp/string")
 
@@ -40,7 +40,7 @@ Classes
 [basic_string_view](../basic_string_view.html "cpp/string/basic string view")(C++17)  
 [char_traits](../char_traits.html "cpp/string/char traits")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/navbar_content&action=edit)
+
 
 [`std::basic_string`](../basic_string.html "cpp/string/basic string")
 
@@ -133,7 +133,7 @@ basic_string_view](operator_basic_string_view.html "cpp/string/basic string/oper
 [hash<std::basic_string>](hash.html "cpp/string/basic string/hash")(C++11)  
 [Deduction guides](deduction_guides.html "cpp/string/basic string/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/navbar_content&action=edit)
+
 
 | (1) |   
 ---|---|---  
@@ -177,16 +177,16 @@ If a capacity change takes place, all iterators and references, including the pa
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/reserve&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 new_cap  |  \-  |  new capacity of the string   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/reserve&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/reserve&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Throws [std::length_error](../../error/length_error.html "cpp/error/length error") if new_cap is greater than [max_size()](max_size.html "cpp/string/basic string/max size"). 
 
@@ -194,11 +194,11 @@ May throw any exceptions thrown by [std::allocator_traits](../../memory/allocato
 
 If an exception is thrown for any reason, this function has no effect ([strong exception safety guarantee](../../language/exceptions.html#Exception_safety "cpp/language/exceptions")). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/reserve&action=edit&section=4 "Edit section: Complexity")] Complexity
+### Complexity
 
 At most linear in the [size()](size.html "cpp/string/basic string/size") of the string. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/reserve&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -243,7 +243,7 @@ Possible output:
     6) Capacity: 1616
     7) After shrink_to_fit: 809
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/reserve&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -251,10 +251,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 847](https://cplusplus.github.io/LWG/issue847) | C++98  | there was no exception safety guarantee  | added strong exception safety guarantee   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/reserve&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ capacity](capacity.html "cpp/string/basic string/capacity") |  returns the number of characters that can be held in currently allocated storage   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_capacity&action=edit)  
+(public member function)   
 ---|---  
 [ resize](resize.html "cpp/string/basic string/resize") |  changes the number of characters stored   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_resize&action=edit)
+(public member function) 

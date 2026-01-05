@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::pair`](pair.html "cpp/utility/pair")
 
@@ -151,7 +151,7 @@ Common vocabulary types
 **piecewise_construct_t**(C++11)  
 [Deduction guides](pair/deduction_guides.html "cpp/utility/pair/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/pair/navbar_content&action=edit)
+
 
 Defined in header `[<utility>](../header/utility.html "cpp/header/utility")` |  |   
 ---|---|---  
@@ -176,21 +176,21 @@ The overloads that do not use `std::piecewise_construct_t` assume that each tupl
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/piecewise_construct&action=edit&section=1 "Edit section: Standard library")] Standard library
+### Standard library
 
 The following standard library types and functions use it as a disambiguation tag: 
 
 [ pair](pair.html "cpp/utility/pair") |  implements binary tuple, i.e. a pair of values   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_pair&action=edit)  
+(class template)   
 ---|---  
 [ uses_allocator_construction_args](../memory/uses_allocator_construction_args.html "cpp/memory/uses allocator construction args")(C++20) |  prepares the argument list matching the flavor of uses-allocator construction required by the given type   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_uses_allocator_construction_args&action=edit)  
+(function template)   
 [ ranges::repeat_viewviews::repeat](../ranges/repeat_view.html "cpp/ranges/repeat view")(C++23) |  a [`view`](../ranges/view.html "cpp/ranges/view") consisting of a generated sequence by repeatedly producing the same value  
-(class template) (customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_repeat_view&action=edit)  
+(class template) (customization point object)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/piecewise_construct&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/example_piecewise_construct&action=edit)
+
 
 Run this code
     
@@ -233,7 +233,7 @@ Output:
     Constructed a Foo from an int and a float
     Constructed a Foo from an int and a float
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/piecewise_construct&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -241,7 +241,7 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 2510](https://cplusplus.github.io/LWG/issue2510) | C++11  | the default constructor was non-explicit, which could lead to ambiguity  | made explicit   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/piecewise_construct&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ (constructor)](pair/pair.html "cpp/utility/pair/pair") |  constructs new pair   
 (public member function of `std::pair<T1,T2>`)  

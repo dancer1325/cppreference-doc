@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::time_point`](../time_point.html "cpp/chrono/time point")
 
@@ -124,7 +124,7 @@ Helper classes
 **common_type**  
 [hash<std::chrono::time_point>](hash.html "cpp/chrono/time point/hash")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_point/navbar_content&action=edit)
+
 
 template< class Clock, class Duration1, class Duration2 >  
 struct common_type<[std::chrono::time_point](../time_point.html)<Clock, Duration1>,   
@@ -144,26 +144,26 @@ Exposes the type named `type`, which is the common type of two [std::chrono::tim
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/time_point/common_type&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Member type  |  Definition   
 ---|---  
 `type` |  [std::chrono::time_point](../time_point.html)<Clock, typename [std::common_type](../../types/common_type.html)<Duration1, Duration2>::type>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/time_point/common_type&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 The common type of two [std::chrono::time_point](../time_point.html "cpp/chrono/time point") types is a [std::chrono::time_point](../time_point.html "cpp/chrono/time point") with the same clock as the two types and the [std::common_type](../../types/common_type.html "cpp/types/common type") of their durations. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/time_point/common_type&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/time_point/common_type&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ std::common_type<std::chrono::duration>](../duration/common_type.html "cpp/chrono/duration/common type")(C++11) |  specializes the [std::common_type](../../types/common_type.html "cpp/types/common type") trait   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/duration/dsc_common_type&action=edit)  
+(class template specialization)   
 ---|---  
 [ common_type](../../types/common_type.html "cpp/types/common type")(C++11) |  determines the common type of a group of types   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_common_type&action=edit)
+(class template) 

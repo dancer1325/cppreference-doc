@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::system_clock`](../system_clock.html "cpp/chrono/system clock")
 
@@ -115,7 +115,7 @@ Time point I/O
 [formatter<std::chrono::sys_time>](formatter.html "cpp/chrono/system clock/formatter")  
 [from_stream](from_stream.html "cpp/chrono/system clock/from stream")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/system_clock/navbar_content&action=edit)
+
 
 static std::chrono::system_clock::time_point from_time_t( [std::time_t](../c/time_t.html) t ) noexcept; |  |  (since C++11)  
 ---|---|---  
@@ -135,16 +135,16 @@ If `time_point` has lower precision, it is implementation defined whether the va
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/system_clock/from_time_t&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 t  |  \-  |  [std::time_t](../c/time_t.html "cpp/chrono/c/time t") value to convert   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/system_clock/from_time_t&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 A value of type [`std::chrono::system_clock::time_point`](../system_clock.html#Member_types "cpp/chrono/system clock") representing t. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/system_clock/from_time_t&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -176,8 +176,8 @@ Possible output:
     
     987654321ns (987ms)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/system_clock/from_time_t&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ to_time_t](to_time_t.html "cpp/chrono/system clock/to time t")[static] |  converts a system clock time point to [std::time_t](../c/time_t.html "cpp/chrono/c/time t")   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/system_clock/dsc_to_time_t&action=edit)  
+(public static member function)   
 ---|---

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 Defined in header `[<utility>](../header/utility.html "cpp/header/utility")` |  |   
 ---|---|---  
@@ -204,24 +204,24 @@ Attempting to forward an rvalue as an lvalue, such as by instantiating the form 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/forward&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 See [template argument deduction](../language/template_argument_deduction.html "cpp/language/template argument deduction") for the special rules behind forwarding references (`T&&` used as a function parameter) and [forwarding references](../language/reference.html#Forwarding_references "cpp/language/reference") for other detail. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/forward&action=edit&section=2 "Edit section: Parameters")] Parameters
+### Parameters
 
 t  |  \-  |  the object to be forwarded   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/forward&action=edit&section=3 "Edit section: Return value")] Return value
+### Return value
 
 static_cast<T&&>(t)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/forward&action=edit&section=4 "Edit section: Complexity")] Complexity
+### Complexity
 
 Constant. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/forward&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 This example demonstrates perfect forwarding of the parameter(s) to the argument of the constructor of class `T`. Also, perfect forwarding of parameter packs is demonstrated.
 
@@ -296,10 +296,10 @@ Output:
     lvalue overload, n=1
     rvalue overload, n=5
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/forward&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ move](move.html "cpp/utility/move")(C++11) |  converts the argument to an xvalue   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_move&action=edit)  
+(function template)   
 ---|---  
 [ move_if_noexcept](move_if_noexcept.html "cpp/utility/move if noexcept")(C++11) |  converts the argument to an xvalue if the move constructor does not throw   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_move_if_noexcept&action=edit)
+(function template) 

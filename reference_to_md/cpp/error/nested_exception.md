@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Diagnostics library](../error.html "cpp/error")
 
@@ -89,7 +89,7 @@ Exception handling failures
 [breakpoint_if_debugging](../utility/breakpoint_if_debugging.html "cpp/utility/breakpoint if debugging")(C++26)  
 [breakpoint](../utility/breakpoint.html "cpp/utility/breakpoint")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/navbar_content&action=edit)
+
 
 Defined in header `[<exception>](../header/exception.html "cpp/header/exception")` |  |   
 ---|---|---  
@@ -112,7 +112,7 @@ All member functions of `std::nested_exception` are constexpr.  | (since C++26)
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/nested_exception&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](nested_exception/nested_exception.html "cpp/error/nested exception/nested exception") |  constructs a nested_exception   
 (public member function)  
@@ -126,23 +126,23 @@ All member functions of `std::nested_exception` are constexpr.  | (since C++26)
 [ nested_ptr](nested_exception/nested_ptr.html "cpp/error/nested exception/nested ptr") |  obtains a pointer to the stored exception   
 (public member function)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/nested_exception&action=edit&section=2 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ throw_with_nested](throw_with_nested.html "cpp/error/throw with nested")(C++11) |  throws its argument with **std::nested_exception** mixed in   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_throw_with_nested&action=edit)  
+(function template)   
 ---|---  
 [ rethrow_if_nested](rethrow_if_nested.html "cpp/error/rethrow if nested")(C++11) |  throws the exception from a **std::nested_exception**   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_rethrow_if_nested&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/nested_exception&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../utility/feature_test.html "cpp/utility/feature test") macro  | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_constexpr_exceptions`](../experimental/feature_test.html#cpp_lib_constexpr_exceptions "cpp/feature test") | [`202411L`](../compiler_support/26.html#cpp_lib_constexpr_exceptions_202411L "cpp/compiler support/26") | (C++26) | constexpr for exception types   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/nested_exception&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/example_nested_exception&action=edit)
+
 
 Demonstrates construction and recursion through a nested exception object.
 
@@ -218,14 +218,14 @@ Possible output:
      exception: Couldn't open nonexistent.file
       exception: basic_ios::clear
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/error/nested_exception&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ exception_ptr](exception_ptr.html "cpp/error/exception ptr")(C++11) |  shared pointer type for handling exception objects   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_exception_ptr&action=edit)  
+(typedef)   
 ---|---  
 [ throw_with_nested](throw_with_nested.html "cpp/error/throw with nested")(C++11) |  throws its argument with **std::nested_exception** mixed in   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_throw_with_nested&action=edit)  
+(function template)   
 [ rethrow_if_nested](rethrow_if_nested.html "cpp/error/rethrow if nested")(C++11) |  throws the exception from a **std::nested_exception**   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_rethrow_if_nested&action=edit)
+(function template) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

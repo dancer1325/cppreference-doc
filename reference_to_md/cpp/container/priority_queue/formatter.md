@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 `[std::priority_queue](../priority_queue.html "cpp/container/priority queue")`
 
@@ -100,7 +100,7 @@ Tables
 **formatter <std::priority_queue>**(C++23)  
 [Deduction guides](deduction_guides.html "cpp/container/priority queue/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/priority_queue/navbar_content&action=edit)
+
 
 Defined in header `[<queue>](../../header/queue.html "cpp/header/queue")` |  |   
 ---|---|---  
@@ -127,7 +127,7 @@ The specialization is enabled if [std::formattable](../../utility/format/formatt
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/formatter_ad&action=edit&section=T-1 "Template:cpp/container/formatter ad")] Member types
+### Member types
 
 Name  |  Definition   
 ---|---  
@@ -138,14 +138,14 @@ Name  |  Definition
 ` `[std::priority_queue](../priority_queue.html)<T, Container, U...>>  
 (exposition-only member type*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/formatter_ad&action=edit&section=T-2 "Template:cpp/container/formatter ad")] Data members
+### Data members
 
 Name  |  Definition   
 ---|---  
 `_underlying__` |  underlying formatter of type [std::formatter](../../utility/format/formatter.html)<[ranges::ref_view](../../ranges/ref_view.html)<`_maybe-const-container_` >, CharT>  
 (exposition-only member object*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/formatter_ad&action=edit&section=T-3 "Template:cpp/container/formatter ad")] Member functions
+### Member functions
 
 parse |  parses the format specifier as specified by range-format-spec   
 (public member function)  
@@ -180,16 +180,16 @@ Equivalent to return` `` _[underlying_](formatter.html#underlying)_` ﻿.format(
 
 An iterator past the end of the output range. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/formatter_ad&action=edit&section=T-6 "Template:cpp/container/formatter ad")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/formatter_ad&action=edit&section=T-7 "Template:cpp/container/formatter ad")] See also
+### See also
 
 [ formatter](../../utility/format/formatter.html "cpp/utility/format/formatter")(C++20) |  defines formatting rules for a given type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/dsc_formatter&action=edit)  
+(class template)   
 ---|---  
 [ range_formatter](../../utility/format/range_formatter.html "cpp/utility/format/range formatter")(C++23) |  class template that helps implementing [std::formatter](../../utility/format/formatter.html "cpp/utility/format/formatter") specializations for range types   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/dsc_range_formatter&action=edit)
+(class template) 

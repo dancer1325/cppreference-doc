@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [Common mathematical functions](../math.html "cpp/numeric/math")
 
@@ -230,7 +230,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/navbar_content&action=edit)
+
 
 Defined in header `[<cmath>](../../header/cmath.html "cpp/header/cmath")` |  |   
 ---|---|---  
@@ -280,12 +280,12 @@ A) Additional overloads are provided for all integer types, which are treated as
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/asin&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 num  |  \-  |  floating-point or integer value   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/asin&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 If no errors occur, the arc sine of num (arcsin(num)) in the range [- π  
 ---  
@@ -299,7 +299,7 @@ If a domain error occurs, an implementation-defined value is returned (NaN where
 
 If a range error occurs due to underflow, the correct result (after rounding) is returned. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/asin&action=edit&section=3 "Edit section: Error handling")] Error handling
+### Error handling
 
 Errors are reported as specified in [math_errhandling](math_errhandling.html "cpp/numeric/math/math errhandling"). 
 
@@ -313,11 +313,11 @@ If the implementation supports IEEE floating-point arithmetic (IEC 60559),
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/asin&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 The additional overloads are not required to be provided exactly as (A). They only need to be sufficient to ensure that for their argument num of integer type, std::asin(num) has the same effect as std::asin(static_cast<double>(num)). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/asin&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -364,19 +364,19 @@ Possible output:
         errno == EDOM: Numerical argument out of domain
         FE_INVALID raised
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/math/asin&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ acosacosfacosl](acos.html "cpp/numeric/math/acos")(C++11)(C++11) |  computes arc cosine (\\({\small\arccos{x}}\\)arccos(x))   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_acos&action=edit)  
+(function)   
 ---|---  
 [ atanatanfatanl](atan.html "cpp/numeric/math/atan")(C++11)(C++11) |  computes arc tangent (\\({\small\arctan{x}}\\)arctan(x))   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_atan&action=edit)  
+(function)   
 [ atan2atan2fatan2l](atan2.html "cpp/numeric/math/atan2")(C++11)(C++11) |  arc tangent, using signs to determine quadrants   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_atan2&action=edit)  
+(function)   
 [ sinsinfsinl](sin.html "cpp/numeric/math/sin")(C++11)(C++11) |  computes sine (\\({\small\sin{x}}\\)sin(x))   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_sin&action=edit)  
+(function)   
 [ asin(std::complex)](../complex/asin.html "cpp/numeric/complex/asin")(C++11) |  computes arc sine of a complex number (\\({\small\arcsin{z}}\\)arcsin(z))   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_asin&action=edit)  
+(function template)   
 [ asin(std::valarray)](../valarray/asin.html "cpp/numeric/valarray/asin") |  applies the function **std::asin** to each element of valarray   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_asin&action=edit)  
+(function template)   
 [C documentation](../../../c/numeric/math/asin.html "c/numeric/math/asin") for asin

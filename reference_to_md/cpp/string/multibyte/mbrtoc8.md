@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Null-terminated multibyte strings](../multibyte.html "cpp/string/multibyte")
 
@@ -100,7 +100,7 @@ MB_CUR_MAX](../multibyte.html#Macros "cpp/string/multibyte")
 [__STDC_UTF_16__  
 __STDC_UTF_32__](../multibyte.html#Macros "cpp/string/multibyte")(C++11)(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/navbar_content&action=edit)
+
 
 Defined in header `[<cuchar>](../../header/cuchar.html "cpp/header/cuchar")` |  |   
 ---|---|---  
@@ -132,7 +132,7 @@ The multibyte encoding used by this function is specified by the currently activ
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/multibyte/mbrtoc8&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 pc8  |  \-  |  pointer to the location where the resulting UTF-8 code units will be written   
 ---|---|---  
@@ -140,7 +140,7 @@ s  |  \-  |  pointer to the multibyte character string used as input
 n  |  \-  |  limit on the number of bytes in s that can be examined   
 ps  |  \-  |  pointer to the conversion state object used when interpreting the multibyte string   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/multibyte/mbrtoc8&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The first of the following that applies: 
 
@@ -152,17 +152,17 @@ The first of the following that applies:
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/multibyte/mbrtoc8&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/multibyte/mbrtoc8&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ c8rtomb](c8rtomb.html "cpp/string/multibyte/c8rtomb")(C++20) |  converts UTF-8 string to narrow multibyte encoding   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/dsc_c8rtomb&action=edit)  
+(function)   
 ---|---  
 [ mbrtoc16](mbrtoc16.html "cpp/string/multibyte/mbrtoc16")(C++11) |  converts a narrow multibyte character to UTF-16 encoding   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/dsc_mbrtoc16&action=edit)  
+(function)   
 [C documentation](../../../c/string/multibyte/mbrtoc8.html "c/string/multibyte/mbrtoc8") for mbrtoc8

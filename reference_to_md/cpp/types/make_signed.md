@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Metaprogramming library](../meta.html "cpp/meta")
 
@@ -167,7 +167,7 @@ Type transformations
 Compile-time integer sequences  
 [integer_sequence](../utility/integer_sequence.html "cpp/utility/integer sequence")(C++14)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/meta/navbar_content&action=edit)
+
 
 Defined in header `[<type_traits>](../header/type_traits.html "cpp/header/type traits")` |  |   
 ---|---|---  
@@ -197,20 +197,20 @@ If the program adds specializations for `std::make_signed`, the behavior is unde
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/make_signed&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Name  |  Definition   
 ---|---  
 `type` |  the signed integer type corresponding to `T`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/make_signed&action=edit&section=2 "Edit section: Helper types")] Helper types
+### Helper types
 
 template< class T >  
 using make_signed_t = typename make_signed<T>::type; |  |  (since C++14)  
 ---|---|---  
 | |   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/make_signed&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -234,12 +234,12 @@ Run this code
         );
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/make_signed&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ is_signed](is_signed.html "cpp/types/is signed")(C++11) |  checks if a type is a signed arithmetic type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_signed&action=edit)  
+(class template)   
 ---|---  
 [ is_unsigned](is_unsigned.html "cpp/types/is unsigned")(C++11) |  checks if a type is an unsigned arithmetic type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_unsigned&action=edit)  
+(class template)   
 [ make_unsigned](make_unsigned.html "cpp/types/make unsigned")(C++11) |  obtains the corresponding signed type for the given integral type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_make_unsigned&action=edit)
+(class template) 

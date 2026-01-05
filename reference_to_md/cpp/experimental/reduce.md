@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Extensions for parallelism](parallelism.html "cpp/experimental/parallelism")
 
@@ -77,7 +77,7 @@ New algorithms
 [parallel::transform_exclusive_scan](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/transform_exclusive_scan&action=edit&redlink=1 "cpp/experimental/transform exclusive scan \(page does not exist\)")  
 [parallel::transform_inclusive_scan](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/transform_inclusive_scan&action=edit&redlink=1 "cpp/experimental/transform inclusive scan \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/parallelism/navbar_content&action=edit)
+
 
 Defined in header `[<experimental/numeric>](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/numeric&action=edit&redlink=1 "cpp/header/experimental/numeric \(page does not exist\)")` |  |   
 ---|---|---  
@@ -123,7 +123,7 @@ The behavior is undefined if binary_op modifies any element or invalidates any i
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/reduce&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  the range of elements to apply the algorithm to   
 ---|---|---  
@@ -133,7 +133,7 @@ binary_op  |  \-  |  binary [FunctionObject](../named_req/FunctionObject.html "c
 Type requirements   
 -`InputIt` must meet the requirements of [LegacyInputIterator](../named_req/InputIterator.html "cpp/named req/InputIterator").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/reduce&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Generalized sum of init and *first, *(first + 1), ... *(last - 1) over binary_op, 
 
@@ -153,11 +153,11 @@ where generalized sum GSUM(op, a1, ..., aN) is defined as follows:
 
 in other words, the elements of the range may be grouped and rearranged in arbitrary order. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/reduce&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 O(last - first) applications of binary_op. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/reduce&action=edit&section=4 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
   * If execution of a function invoked as part of the algorithm throws an exception, 
 
@@ -175,7 +175,7 @@ O(last - first) applications of binary_op.
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/reduce&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 If the range is empty, init is returned, unmodified. 
 
@@ -185,7 +185,7 @@ If the range is empty, init is returned, unmodified.
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/reduce&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 reduce is the out-of-order version of [std::accumulate](../algorithm/accumulate.html "cpp/algorithm/accumulate"):
 
@@ -230,12 +230,12 @@ Possible output:
     std::accumulate result 5000003.50000 took 12.7365 ms
     parallel::reduce result 5000003.50000 took 5.06423 ms
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/reduce&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ accumulate](../algorithm/accumulate.html "cpp/algorithm/accumulate") |  sums up or folds a range of elements   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_accumulate&action=edit)  
+(function template)   
 ---|---  
 [ transform](../algorithm/transform.html "cpp/algorithm/transform") |  applies a function to a range of elements, storing results in a destination range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_transform&action=edit)  
+(function template)   
 [ transform_reduce](transform_reduce.html "cpp/experimental/transform reduce")(parallelism TS) |  applies a functor, then reduces out of order   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/parallelism/dsc_transform_reduce&action=edit)
+(function template) 

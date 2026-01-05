@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Null-terminated byte strings](../byte.html "cpp/string/byte")
 
@@ -143,7 +143,7 @@
 | [strerror](strerror.html "cpp/string/byte/strerror")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/navbar_content&action=edit)
+
 
 Defined in header `[<cstring>](../../header/cstring.html "cpp/header/cstring")` |  |   
 ---|---|---  
@@ -166,12 +166,12 @@ The behavior is undefined if lhs or rhs are not pointers to null-terminated stri
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/strcmp&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 lhs, rhs  |  \-  |  pointers to the null-terminated byte strings to compare   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/strcmp&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Negative value if lhs appears before rhs in lexicographical order. 
 
@@ -179,7 +179,7 @@ Zero if lhs and rhs compare equal.
 
 Positive value if lhs appears after rhs in lexicographical order. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/strcmp&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -209,15 +209,15 @@ Output:
     Hobbes
     Snagglepuss
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/byte/strcmp&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ strncmp](strncmp.html "cpp/string/byte/strncmp") |  compares a certain number of characters from two strings   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strncmp&action=edit)  
+(function)   
 ---|---  
 [ wcscmp](../wide/wcscmp.html "cpp/string/wide/wcscmp") |  compares two wide strings   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wcscmp&action=edit)  
+(function)   
 [ memcmp](memcmp.html "cpp/string/byte/memcmp") |  compares two buffers   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_memcmp&action=edit)  
+(function)   
 [ strcoll](strcoll.html "cpp/string/byte/strcoll") |  compares two strings in accordance to the current locale   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strcoll&action=edit)  
+(function)   
 [C documentation](../../../c/string/byte/strcmp.html "c/string/byte/strcmp") for strcmp

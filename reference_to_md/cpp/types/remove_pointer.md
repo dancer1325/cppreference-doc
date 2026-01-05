@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Metaprogramming library](../meta.html "cpp/meta")
 
@@ -167,7 +167,7 @@ Type transformations
 Compile-time integer sequences  
 [integer_sequence](../utility/integer_sequence.html "cpp/utility/integer sequence")(C++14)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/meta/navbar_content&action=edit)
+
 
 Defined in header `[<type_traits>](../header/type_traits.html "cpp/header/type traits")` |  |   
 ---|---|---  
@@ -190,20 +190,20 @@ If the program adds specializations for `std::remove_pointer`, the behavior is u
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/remove_pointer&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Name  |  Definition   
 ---|---  
 `type` |  the type pointed to by `T` or `T` if it's not a pointer   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/remove_pointer&action=edit&section=2 "Edit section: Helper types")] Helper types
+### Helper types
 
 template< class T >  
 using remove_pointer_t = typename remove_pointer<T>::type; |  |  (since C++14)  
 ---|---|---  
 | |   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/remove_pointer&action=edit&section=3 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     template<class T> struct remove_pointer { typedef T type; };
@@ -214,7 +214,7 @@ using remove_pointer_t = typename remove_pointer<T>::type; |  |  (since C++14)
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/remove_pointer&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -236,10 +236,10 @@ Run this code
      
     int main() {}
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/remove_pointer&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ is_pointer](is_pointer.html "cpp/types/is pointer")(C++11) |  checks if a type is a pointer type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_pointer&action=edit)  
+(class template)   
 ---|---  
 [ add_pointer](add_pointer.html "cpp/types/add pointer")(C++11) |  adds a pointer to the given type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_add_pointer&action=edit)
+(class template) 

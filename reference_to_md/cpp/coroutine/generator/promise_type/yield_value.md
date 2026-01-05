@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Coroutine support](../../../coroutine.html "cpp/coroutine")
 
@@ -146,7 +146,7 @@ Trivial awaitables
 Range generators  
 [generator](../../generator.html "cpp/coroutine/generator")(C++23)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/coroutine/navbar_content&action=edit)
+
 
 [Ranges library](../../../ranges.html "cpp/ranges")
 
@@ -340,7 +340,7 @@ std::from_range](../../../ranges/from_range.html "cpp/ranges/from range")(C++23)
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::generator`](../../generator.html "cpp/coroutine/generator")
 
@@ -368,7 +368,7 @@ std::from_range](../../../ranges/from_range.html "cpp/ranges/from range")(C++23)
 generator::_iterator_ ::operator++(int)](../iterator.html#increment "cpp/coroutine/generator/iterator")  
 [operator==(generator::_iterator_ , std::default_sentinel_t)](../iterator.html#compare "cpp/coroutine/generator/iterator")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/coroutine/generator/navbar_content&action=edit)
+
 
 [std::suspend_always](../../suspend_always.html) yield_value( yielded val ) noexcept; |  (1)  |  (since C++23)  
 ---|---|---  
@@ -448,7 +448,7 @@ The coroutine referred to by g.range.coroutine_ must be suspended at its initial
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/coroutine/generator/promise_type/yield_value&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 val  |  \-  |  a value which is a result of the _yield-expression_ evaluation   
 ---|---|---  
@@ -456,23 +456,23 @@ lval  |  \-  |  an lvalue which is a result of the _yield-expression_ evaluation
 g  |  \-  |  a range of elements produced by a generator   
 r  |  \-  |  a range of elements   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/coroutine/generator/promise_type/yield_value&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) The awaitable object of type [std::suspend_always](../../suspend_always.html).
 
 2-5) An awaitable object of an unspecified type as described above.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/coroutine/generator/promise_type/yield_value&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 2,5) May throw any exception thrown by the initialization of the stored object.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/coroutine/generator/promise_type/yield_value&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/coroutine/generator/promise_type/yield_value&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

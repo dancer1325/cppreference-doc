@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Null-terminated wide strings](../wide.html "cpp/string/wide")
 
@@ -153,7 +153,7 @@
 WCHAR_MAX  
 WEOF](../wide.html#Macros "cpp/string/wide")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/navbar_content&action=edit)
+
 
 Defined in header `[<cwchar>](../../header/cwchar.html "cpp/header/cwchar")` |  |   
 ---|---|---  
@@ -177,22 +177,22 @@ The arrays may overlap: copying takes place as if the wide characters were copie
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/wmemmove&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 dest  |  \-  |  pointer to the wide character array to copy to   
 ---|---|---  
 src  |  \-  |  pointer to the wide character array to copy from   
 count  |  \-  |  number of wide characters to copy   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/wmemmove&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Returns a copy of dest. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/wmemmove&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 This function is not locale-sensitive and pays no attention to the values of the wchar_t objects it copies: nulls as well as invalid characters are copied too. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/wmemmove&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -219,15 +219,15 @@ Possible output:
     αβγδεζηθικλμνξοπρστυφχψω
     αβγδδεζθικλμνξοπρστυφχψω
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/wide/wmemmove&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ wmemcpy](wmemcpy.html "cpp/string/wide/wmemcpy") |  copies a certain amount of wide characters between two non-overlapping arrays   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wmemcpy&action=edit)  
+(function)   
 ---|---  
 [ memmove](../byte/memmove.html "cpp/string/byte/memmove") |  moves one buffer to another   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_memmove&action=edit)  
+(function)   
 [ copycopy_if](../../algorithm/copy.html "cpp/algorithm/copy")(C++11) |  copies a range of elements to a new location   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_copy&action=edit)  
+(function template)   
 [ copy_backward](../../algorithm/copy_backward.html "cpp/algorithm/copy backward") |  copies a range of elements in backwards order   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_copy_backward&action=edit)  
+(function template)   
 [C documentation](../../../c/string/wide/wmemmove.html "c/string/wide/wmemmove") for wmemmove

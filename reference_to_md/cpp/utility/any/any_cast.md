@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::any`](../any.html "cpp/utility/any")
 
@@ -151,7 +151,7 @@ Common vocabulary types
 [Helper classes](../any.html#Helper_classes "cpp/utility/any")  
 [bad_any_cast](bad_any_cast.html "cpp/utility/any/bad any cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/any/navbar_content&action=edit)
+
 
 Defined in header `[<any>](../../header/any.html "cpp/header/any")` |  |   
 ---|---|---  
@@ -190,12 +190,12 @@ Let `U` be [std::remove_cv_t](../../types/remove_cv.html)<[std::remove_reference
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/any/any_cast&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 operand  |  \-  |  target `any` object   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/any/any_cast&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1,2) Returns static_cast<T>(*std::any_cast<U>(&operand)).
 
@@ -203,11 +203,11 @@ operand  |  \-  |  target `any` object
 
 4,5) If operand is not a null pointer, and the [`typeid`](../../language/typeid.html "cpp/language/typeid") of the requested `T` matches that of the contents of operand, a pointer to the value contained by operand, otherwise a null pointer.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/any/any_cast&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 1-3) Throws [std::bad_any_cast](bad_any_cast.html "cpp/utility/any/bad any cast") if the [`typeid`](../../language/typeid.html "cpp/language/typeid") of the requested `T` does not match that of the contents of operand.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/any/any_cast&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -270,7 +270,7 @@ Possible output:
     5) a1.size(): 0
     6) s1: hollo
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/any/any_cast&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

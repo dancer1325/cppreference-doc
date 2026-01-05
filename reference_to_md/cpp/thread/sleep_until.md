@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 Defined in header `[<thread>](../header/thread.html "cpp/header/thread")` |  |   
 ---|---|---  
@@ -198,20 +198,20 @@ The standard recommends that the clock tied to sleep_time be used, in which case
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/sleep_until&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 sleep_time  |  \-  |  time to block until   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/sleep_until&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/sleep_until&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Any exception thrown by `Clock` or `Duration` (clocks and durations provided by the standard library never throw). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/sleep_until&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -243,9 +243,9 @@ Possible output:
     Hello, waiter...
     Waited 2000.17 ms
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/sleep_until&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ sleep_for](sleep_for.html "cpp/thread/sleep for")(C++11) |  stops the execution of the current thread for a specified time duration   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_sleep_for&action=edit)  
+(function)   
 ---|---  
 [C documentation](../../c/thread/thrd_sleep.html "c/thread/thrd sleep") for thrd_sleep

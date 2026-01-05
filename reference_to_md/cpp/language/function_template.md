@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [Declarations](declarations.html "cpp/language/declarations")
 
@@ -280,7 +280,7 @@ Other declarations
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/declarations/navbar_content&action=edit)
+
 
 [ Expressions](expressions.html "cpp/language/expressions")
 
@@ -349,7 +349,7 @@ Conversions
 [`dynamic_cast`](dynamic_cast.html "cpp/language/dynamic cast")  
 [`reinterpret_cast`](reinterpret_cast.html "cpp/language/reinterpret cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/expressions/navbar_content&action=edit)
+
 
 [ Templates](templates.html "cpp/language/templates")
 
@@ -373,7 +373,7 @@ Conversions
 [Constraints and concepts](constraints.html "cpp/language/constraints") (C++20)  
 [requires expression](requires.html "cpp/language/requires") (C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/templates/navbar_content&action=edit)
+
 
 A function template defines a family of functions. 
 
@@ -399,7 +399,7 @@ A function template defines a family of functions.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/function_template&action=edit&section=1 "Edit section: Syntax")] Syntax  
+### Syntax  
   
 ---  
 `**template**` `**<**` parameter-list `**>**` function-declaration |  (1)  |   
@@ -407,7 +407,7 @@ A function template defines a family of functions.
 function-declaration-with-placeholders |  (3)  |  (since C++20)  
 `**export**` `**template**` `**<**` parameter-list `**>**` function-declaration |  (4)  |  (removed in C++11)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/function_template&action=edit&section=2 "Edit section: Explanation")] Explanation
+### Explanation
 
 parameter-list |  \-  |  a non-empty comma-separated list of the [template parameters](template_parameters.html "cpp/language/template parameters"), each of which is either [constant parameter](template_parameters.html#Constant_template_parameter "cpp/language/template parameters"), a [type parameter](template_parameters.html#Type_template_parameter "cpp/language/template parameters"), a [template parameter](template_parameters.html#Template_template_parameter "cpp/language/template parameters"), or a [parameter pack](parameter_pack.html "cpp/language/parameter pack") of any of those(since C++11). As with any template, parameters may be [constrained](template_parameters.html#Constrained_template_parameter "cpp/language/template parameters")(since C++20)  
 ---|---|---  
@@ -441,7 +441,7 @@ Abbreviated function templates can be specialized like all function templates.
 | (since C++20)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/function_template&action=edit&section=4 "Edit section: Function template signature")] Function template signature
+### Function template signature
 
 Every function template has a signature. 
 
@@ -454,11 +454,11 @@ If the function template is a class member, its signature contains the class of 
 If the function template is a [friend](friend.html "cpp/language/friend") with constraint involving enclosing template parameters, its signature contains the enclosing class instead of the enclosing namespace.  | (since C++20)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/function_template&action=edit&section=5 "Edit section: Function template instantiation")] Function template instantiation
+### Function template instantiation
 
 A function template by itself is not a type, or a function. No code is generated from a source file that contains only template definitions. In order for any code to appear, a template must be instantiated: the template arguments must be determined so that the compiler can generate an actual function (or class, from a class template). 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/function_template&action=edit&section=6 "Edit section: Explicit instantiation")] Explicit instantiation  
+#### Explicit instantiation  
   
 ---  
 `**template**` return-type name `**<**` argument-list `**>**` `**(**` parameter-list `**)**` `**;**` |  (1)  |   
@@ -511,7 +511,7 @@ Explicit instantiation definition of a function template with [default arguments
      
     template int g<int>(int); // OK even though &p isn’t an int.
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/function_template&action=edit&section=7 "Edit section: Implicit instantiation")] Implicit instantiation
+#### Implicit instantiation
 
 When code refers to a function in context that requires [the function definition to exist](definition.html#ODR-use "cpp/language/definition"), or if the existence of the definition affects the semantics of the program(since C++11), and this particular function has not been explicitly instantiated, implicit instantiation occurs. The list of template arguments does not have to be supplied if it can be [deduced](template_argument_deduction.html "cpp/language/template argument deduction") from context. 
 
@@ -563,7 +563,7 @@ The existence of a definition of function is considered to affect the semantics 
   
 Note: omitting `<>` entirely allows [overload resolution](overload_resolution.html "cpp/language/overload resolution") to examine both template and non-template overloads. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/function_template&action=edit&section=8 "Edit section: Template argument deduction")] Template argument deduction
+### Template argument deduction
 
 In order to instantiate a function template, every template argument must be known, but not every template argument has to be specified. When possible, the compiler will deduce the missing template arguments from the function arguments. This occurs when a function call is attempted and when an address of a function template is taken. 
     
@@ -595,7 +595,7 @@ Template argument deduction takes place after the function template [name lookup
 
 See [template argument deduction](template_argument_deduction.html "cpp/language/template argument deduction") for details. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/function_template&action=edit&section=9 "Edit section: Explicit template arguments")] Explicit template arguments
+### Explicit template arguments
 
 Template arguments of a function template may be obtained from 
 
@@ -639,7 +639,7 @@ A template parameter pack that is explicitly specified may be extended by templa
 | (since C++11)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/function_template&action=edit&section=10 "Edit section: Template argument substitution")] Template argument substitution
+### Template argument substitution
 
 When all template arguments have been specified, deduced or obtained from default template arguments, every use of a template parameter in the function parameter list is replaced with the corresponding template arguments. 
 
@@ -674,7 +674,7 @@ The removal of the top-level cv-qualifiers does not affect the type of the param
     h<const int>(1, [NULL](../types/NULL.html)); // function type is void(int, const int*) 
                            // z is const int, zp is const int*
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/function_template&action=edit&section=11 "Edit section: Function template overloading")] Function template overloading
+### Function template overloading
 
 Function templates and non-template functions may be overloaded. 
 
@@ -1193,7 +1193,7 @@ To compile a call to a function template, the compiler has to decide between non
     f(1.0);        // calls #3
     f(1);          // calls #4
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/function_template&action=edit&section=12 "Edit section: Function overloads vs function specializations")] Function overloads vs function specializations
+### Function overloads vs function specializations
 
 Note that only non-template and primary template overloads participate in overload resolution. The specializations are not overloads and are not considered. Only after the overload resolution selects the best-matching primary function template, its specializations are examined to see if one is a better match. 
     
@@ -1495,17 +1495,17 @@ Whenever the arguments are some C++ basic types, there are no ADL-associated nam
   
 For detailed rules on overload resolution, see [overload resolution](overload_resolution.html "cpp/language/overload resolution"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/function_template&action=edit&section=13 "Edit section: Function template specialization")] Function template specialization
+### Function template specialization
 
 | This section is incomplete  
 Reason: 14.8[temp.fct.spec] (note that 14.8.1[temp.arg.explicit] is already in full specialization article: either function specifics go here: lack of partials, interaction with function overloads, or just refer to that   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/function_template&action=edit&section=14 "Edit section: Keywords")] Keywords
+### Keywords
 
 [`template`](../keyword/template.html "cpp/keyword/template"), [`extern`](../keyword/extern.html "cpp/keyword/extern") (since C++11)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/function_template&action=edit&section=15 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -1537,7 +1537,7 @@ type in this case
 [CWG 2373](https://cplusplus.github.io/CWG/issues/2373.html) | C++98  | new first parameters were added to the parameter lists  
 of static member function templates in partial ordering  | not added   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/function_template&action=edit&section=16 "Edit section: See also")] See also
+### See also
 
   * [class template](class_template.html "cpp/language/class template")
   * [function declaration](function.html "cpp/language/function")

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Filesystem library](../../filesystem.html "cpp/filesystem")
 
@@ -100,7 +100,7 @@ filesystem::symlink_status](../status.html "cpp/filesystem/status")
 [filesystem::is_socket](../is_socket.html "cpp/filesystem/is socket")  
 [filesystem::is_symlink](../is_symlink.html "cpp/filesystem/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/navbar_content&action=edit)
+
 
 [`filesystem_error`](../filesystem_error.html "cpp/filesystem/filesystem error")
 
@@ -113,7 +113,7 @@ Member functions
 Inherited from [std::system_error](../../error/system_error.html "cpp/error/system error")  
 [system_error::code](../../error/system_error/code.html "cpp/error/system error/code")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/filesystem_error/navbar_content&action=edit)
+
 
 filesystem_error( const [std::string](../../string/basic_string.html)& what_arg,  
 [std::error_code](../../error/error_code.html) ec ); |  (1)  |  (since C++17)  
@@ -134,7 +134,7 @@ Constructs a new `filesystem_error` object.
 
 4) Copy constructor. Initialize the contents with those of `other`. If *this and other both have dynamic type `std::filesystem_error::filesystem_error` then [std::strcmp](../../string/byte/strcmp.html)(what(), other.what()) == 0.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/filesystem_error/filesystem_error&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 what_arg  |  \-  |  explanatory string   
 ---|---|---  
@@ -142,13 +142,13 @@ ec  |  \-  |  error code for the specific operating system dependent error
 p1, p2  |  \-  |  paths involved in the operation raising system error   
 other  |  \-  |  another `filesystem_error` object to copy   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/filesystem_error/filesystem_error&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 Because copying `std::filesystem::filesystem_error` is not permitted to throw exceptions, the explanatory string is typically stored internally in a separately-allocated reference-counted storage. This is also why there is no constructor taking `std::string&&`: it would have to copy the content anyway. 
 
 Typical implementations also store `path` objects referenced by [path1()](path.html "cpp/filesystem/filesystem error/path") and [path2()](path.html "cpp/filesystem/filesystem error/path") in the reference-counted storage. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/filesystem_error/filesystem_error&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

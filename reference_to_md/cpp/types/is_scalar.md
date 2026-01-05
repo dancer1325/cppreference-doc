@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Metaprogramming library](../meta.html "cpp/meta")
 
@@ -167,7 +167,7 @@ Type transformations
 Compile-time integer sequences  
 [integer_sequence](../utility/integer_sequence.html "cpp/utility/integer sequence")(C++14)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/meta/navbar_content&action=edit)
+
 
 Defined in header `[<type_traits>](../header/type_traits.html "cpp/header/type traits")` |  |   
 ---|---|---  
@@ -197,19 +197,19 @@ If the program adds specializations for `std::is_scalar` or `std::is_scalar_v`, 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/traits/is&action=edit&section=T-1 "Template:cpp/types/traits/is")] Template parameters
+### Template parameters
 
 T  |  \-  |  a type to check   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/traits/is&action=edit&section=T-2 "Template:cpp/types/traits/is")] Helper variable template
+### Helper variable template
 
 template< class T >  
 constexpr bool is_scalar_v = is_scalar<T>::value; |  |  (since C++17)  
 ---|---|---  
 | |   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/integral_constant/inherit2&action=edit)
+
 
 ##  Inherited from [ std::integral_constant](integral_constant.html "cpp/types/integral constant")
 
@@ -234,11 +234,11 @@ Type  |  Definition
 `value_type` |  bool  
 `type` |  [std::integral_constant](integral_constant.html)<bool, value>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_scalar&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 Each individual memory location in the C++ memory model, including the hidden memory locations used by language features (e.g. virtual table pointer), has scalar type (or is a sequence of adjacent bit-fields of non-zero length). Sequencing of side-effects in expression evaluation, inter-thread synchronization, and dependency ordering are all defined in terms of individual scalar objects. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_scalar&action=edit&section=2 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     template<class T>
@@ -251,7 +251,7 @@ Each individual memory location in the C++ memory model, including the hidden me
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_scalar&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -296,14 +296,14 @@ Possible output:
     nullptr is a scalar
     main::S is not a scalar
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_scalar&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ is_arithmetic](is_arithmetic.html "cpp/types/is arithmetic")(C++11) |  checks if a type is an arithmetic type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_arithmetic&action=edit)  
+(class template)   
 ---|---  
 [ is_enum](is_enum.html "cpp/types/is enum")(C++11) |  checks if a type is an enumeration type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_enum&action=edit)  
+(class template)   
 [ is_pointer](is_pointer.html "cpp/types/is pointer")(C++11) |  checks if a type is a pointer type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_pointer&action=edit)  
+(class template)   
 [ is_member_pointer](is_member_pointer.html "cpp/types/is member pointer")(C++11) |  checks if a type is a pointer to a non-static member function or object   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_member_pointer&action=edit)
+(class template) 

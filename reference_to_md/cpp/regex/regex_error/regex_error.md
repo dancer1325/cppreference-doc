@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Regular expressions library](../../regex.html "cpp/regex")
 
@@ -81,7 +81,7 @@ Constants
 Regex Grammar  
 [Modified ECMAScript-262](../ecmascript.html "cpp/regex/ecmascript")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/navbar_content&action=edit)
+
 
 [`std::regex_error`](../regex_error.html "cpp/regex/regex error")
 
@@ -91,7 +91,7 @@ Member functions
 [regex_error::operator=](operator=.html "cpp/regex/regex error/operator=")  
 [regex_error::code](code.html "cpp/regex/regex error/code")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/regex_error/navbar_content&action=edit)
+
 
 Defined in header `[<regex>](../../header/regex.html "cpp/header/regex")` |  |   
 ---|---|---  
@@ -103,14 +103,14 @@ regex_error( const regex_error& other ); |  (2)  |  (since C++11)
 
 2) Copy constructor. Initializes the contents with those of other. If *this and other both have dynamic type `std::regex_error` then [std::strcmp](../../string/byte/strcmp.html)(what(), other.what()) == 0.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/regex_error/regex_error&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 ecode  |  \-  |  error code indicating the error raised in regular expression parsing   
 ---|---|---  
 other  |  \-  |  another `regex_error` object to copy   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/regex_error/regex_error&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ error_type](../error_type.html "cpp/regex/error type")(C++11) |  describes different types of matching errors   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/dsc_error_type&action=edit)  
+(typedef)   
 ---|---

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 Defined in header `[<utility>](../header/utility.html "cpp/header/utility")` |  |   
 ---|---|---  
@@ -158,24 +158,24 @@ The return type of `std::move_if_noexcept` is:
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/move_if_noexcept&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 x  |  \-  |  the object to be moved or copied   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/move_if_noexcept&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 std::move(x) or x, depending on exception guarantees. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/move_if_noexcept&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Constant. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/move_if_noexcept&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 This is used, for example, by [std::vector::resize](../container/vector/resize.html "cpp/container/vector/resize"), which may have to allocate new storage and then move or copy elements from old storage to new storage. If an exception occurs during this operation, [std::vector::resize](../container/vector/resize.html "cpp/container/vector/resize") undoes everything it did to this point, which is only possible if `std::move_if_noexcept` was used to decide whether to use move construction or copy construction (unless copy constructor is not available, in which case move constructor is used either way and the strong exception guarantee may be waived). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/move_if_noexcept&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -223,10 +223,10 @@ Output:
     Non-throwing move constructor called
     Throwing copy constructor called
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/move_if_noexcept&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ forward](forward.html "cpp/utility/forward")(C++11) |  forwards a function argument and use the type template argument to preserve its value category   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_forward&action=edit)  
+(function template)   
 ---|---  
 [ move](move.html "cpp/utility/move")(C++11) |  converts the argument to an xvalue   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_move&action=edit)
+(function template) 

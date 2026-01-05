@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 **`std::chrono::steady_clock`**
 
@@ -109,7 +109,7 @@ Member functions
 ---  
 [steady_clock::now](steady_clock/now.html "cpp/chrono/steady clock/now")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/steady_clock/navbar_content&action=edit)
+
 
 Defined in header `[<chrono>](../header/chrono.html "cpp/header/chrono")` |  |   
 ---|---|---  
@@ -130,7 +130,7 @@ Class `std::chrono::steady_clock` represents a monotonic clock. The time points 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/steady_clock&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Member type  |  Definition   
 ---|---  
@@ -139,19 +139,19 @@ Member type  |  Definition
 `duration` |  [std::chrono::duration](duration.html)<rep, period>  
 `time_point` |  [std::chrono::time_point](time_point.html)<std::chrono::steady_clock>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/steady_clock&action=edit&section=2 "Edit section: Member constants")] Member constants
+### Member constants
 
 constexpr bool is_steady[static] |  steady clock flag, always true   
 (public static member constant)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/steady_clock&action=edit&section=3 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ now](steady_clock/now.html "cpp/chrono/steady clock/now")[static] |  returns a time_point representing the current value of the clock   
 (public static member function)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/steady_clock&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ system_clock](system_clock.html "cpp/chrono/system clock")(C++11) |  wall clock time from the system-wide realtime clock   
 (class)  

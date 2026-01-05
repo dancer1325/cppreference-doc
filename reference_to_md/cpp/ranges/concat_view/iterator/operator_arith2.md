@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::concat_view`](../../concat_view.html "cpp/ranges/concat view")
 
@@ -262,7 +262,7 @@ operator-(concat_view::_iterator_)**
 [iter_move(concat_view::_iterator_)](iter_move.html "cpp/ranges/concat view/iterator/iter move")  
 [iter_swap(concat_view::_iterator_)](iter_swap.html "cpp/ranges/concat view/iterator/iter swap")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/concat_view/navbar_content&action=edit)
+
 
 friend constexpr /*iterator*/  
 operator+( const /*iterator*/& it, difference_type n )  
@@ -345,24 +345,24 @@ These functions are not visible to ordinary [unqualified](../../../language/unqu
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/concat_view/iterator/operator_arith2&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 it, x, y  |  \-  |  the [iterators](../iterator.html "cpp/ranges/concat view/iterator")  
 ---|---|---  
 n  |  \-  |  a position relative to current location   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/concat_view/iterator/operator_arith2&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 As described above. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/concat_view/iterator/operator_arith2&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/concat_view/iterator/operator_arith2&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ operator++operator++(int)operator--operator--(int)operator+=operator-=](operator_arith.html "cpp/ranges/concat view/iterator/operator arith") |  advances or decrements the underlying iterator   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/iterator/dsc_operator_arith&action=edit)  
+(public member function)   
 ---|---

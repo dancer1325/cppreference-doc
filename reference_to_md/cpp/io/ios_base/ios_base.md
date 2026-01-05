@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::ios_base`](../ios_base.html "cpp/io/ios base")
 
@@ -113,7 +113,7 @@ Member types
 [ios_base::event](event.html "cpp/io/ios base/event")  
 [ios_base::event_callback](event_callback.html "cpp/io/ios base/event callback")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/ios_base/navbar_content&action=edit)
+
 
 | (1) |   
 ---|---|---  
@@ -129,11 +129,11 @@ ios_base(); |  (2)  |
 
 2) The default constructor is protected: only derived classes may construct `std::ios_base`. The internal state is undefined after the construction. The derived class must call [`std::basic_ios::init()`](../basic_ios/init.html "cpp/io/basic ios/init") to complete initialization before first use or before destructor; otherwise the behavior is undefined.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/ios_base/ios_base&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 The same applies to the constructors of the next class in the I/O hierarchy, [std::basic_ios](../basic_ios.html "cpp/io/basic ios"). Further-derived classes ([std::istream](../basic_istream.html "cpp/io/basic istream") and [std::ostream](../basic_ostream.html "cpp/io/basic ostream")) are always constructed with a concrete stream buffer object and call [`std::basic_ios::init()`](../basic_ios/init.html "cpp/io/basic ios/init"), possibly more than once, to complete initialization of their virtual base. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/ios_base/ios_base&action=edit&section=2 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

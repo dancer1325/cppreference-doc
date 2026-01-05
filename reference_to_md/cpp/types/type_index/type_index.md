@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Type support](../../utility/rtti.html "cpp/types")
 
@@ -161,7 +161,7 @@ Runtime type information
 ---  
 [bad_cast](../bad_cast.html "cpp/types/bad cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/navbar_content&action=edit)
+
 
 [`std::type_index`](../type_index.html "cpp/types/type index")
 
@@ -174,7 +174,7 @@ Member functions
 Helper classes  
 [hash<std::type_index>](hash.html "cpp/types/type index/hash")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/type_index/navbar_content&action=edit)
+
 
 type_index( const [std::type_info](../type_info.html)& info ) noexcept; |  |  (since C++11)  
 ---|---|---  
@@ -182,12 +182,12 @@ type_index( const [std::type_info](../type_info.html)& info ) noexcept; |  |  (s
   
 Constructs the type index from [std::type_info](../type_info.html "cpp/types/type info") object. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/type_index/type_index&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 info  |  \-  |  type information object   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/type_index/type_index&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

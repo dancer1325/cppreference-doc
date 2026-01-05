@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::atomic`](../atomic.html "cpp/atomic/atomic")
 
@@ -210,7 +210,7 @@ pointer types only](../atomic.html#Specialized_for_integral_and_pointer_types_on
 [atomic::fetch_xor](fetch_xor.html "cpp/atomic/atomic/fetch xor")  
 [atomic::operator&=atomic::operator|=atomic::operator^=](operator_arith3.html "cpp/atomic/atomic/operator arith3")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/navbar_content&action=edit)
+
 
 bool compare_exchange_weak( T& expected, T desired,  
 [std::memory_order](../memory_order.html) success,   
@@ -271,7 +271,7 @@ It is deprecated if [std::atomic](../atomic.html)<T>::is_always_lock_free is fal
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic/compare_exchange&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 expected  |  \-  |  reference to the value expected to be found in the atomic object   
 ---|---|---  
@@ -280,11 +280,11 @@ success  |  \-  |  the memory synchronization ordering for the read-modify-write
 failure  |  \-  |  the memory synchronization ordering for the load operation if the comparison fails   
 order  |  \-  |  the memory synchronization ordering for both operations   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic/compare_exchange&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 true if the underlying atomic value was successfully changed, false otherwise. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic/compare_exchange&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 The comparison and copying are bitwise (similar to [std::memcmp](../../string/byte/memcmp.html "cpp/string/byte/memcmp") and [std::memcpy](../../string/byte/memcpy.html "cpp/string/byte/memcpy")); no constructor, assignment operator, or comparison operator are used. 
 
@@ -297,7 +297,7 @@ For a union with bits that participate in the value representations of some memb
 Padding bits that never participate in an object's value representation are ignored.  | (since C++20)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic/compare_exchange&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Compare-and-exchange operations are often used as basic building blocks of [lock-free](https://en.wikipedia.org/wiki/Non-blocking_algorithm "enwiki:Non-blocking algorithm") data structures.
 
@@ -403,8 +403,8 @@ Output:
     ai = 3  tst_val = 3  new_val = 5  exchanged = false
     ai = 5  tst_val = 3  new_val = 5  exchanged = true
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic/compare_exchange&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ atomic_compare_exchange_weakatomic_compare_exchange_weak_explicitatomic_compare_exchange_strongatomic_compare_exchange_strong_explicit](../atomic_compare_exchange.html "cpp/atomic/atomic compare exchange")(C++11)(C++11)(C++11)(C++11) |  atomically compares the value of the atomic object with non-atomic argument and performs atomic exchange if equal or atomic load if not   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/dsc_atomic_compare_exchange&action=edit)  
+(function template)   
 ---|---

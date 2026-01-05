@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 Defined in header `[<compare>](../../header/compare.html "cpp/header/compare")` |  |   
 ---|---|---  
@@ -178,7 +178,7 @@ The class type `std::strong_ordering` is the result type of a [three-way compari
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/compare/strong_ordering&action=edit&section=1 "Edit section: Constants")] Constants
+### Constants
 
 The type `std::strong_ordering` has four valid values, implemented as const static data members of its type: 
 
@@ -193,7 +193,7 @@ inline constexpr std::strong_ordering equal[static] |  a valid value indicating 
 inline constexpr std::strong_ordering greater[static] |  a valid value indicating greater-than (ordered after) relationship   
 (public static member constant)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/compare/strong_ordering&action=edit&section=2 "Edit section: Conversions")] Conversions
+### Conversions
 
 `std::strong_ordering` is the strongest of the three comparison categories: it is not implicitly-convertible from any other category and is implicitly-convertible to the other two. 
 
@@ -225,7 +225,7 @@ constexpr operator weak_ordering() const noexcept; |  |
 
 std::weak_ordering::less if `v` is `less`, std::weak_ordering::greater if `v` is `greater`, std::weak_ordering::equivalent if `v` is `equal` or `equivalent`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/compare/strong_ordering&action=edit&section=5 "Edit section: Comparisons")] Comparisons
+### Comparisons
 
 Comparison operators are defined between values of this type and literal ​0​. This supports the expressions a <=> b == 0 or a <=> b < 0 that can be used to convert the result of a three-way comparison operator to a boolean relationship; see [`std::is_eq`](named_comparison_functions.html "cpp/utility/compare/named comparison functions"), [`std::is_lt`](named_comparison_functions.html "cpp/utility/compare/named comparison functions"), etc. 
 
@@ -355,7 +355,7 @@ u  |  \-  |  an unused parameter of any type that accepts literal zero argument
 
 2) `greater` if `v` is `less`, `less` if `v` is `greater`, otherwise `v`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/compare/strong_ordering&action=edit&section=18 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -421,10 +421,10 @@ Output:
     (0,2) >  (0,1)
     (0,2) >  (0,1)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/compare/strong_ordering&action=edit&section=19 "Edit section: See also")] See also
+### See also
 
 [ weak_ordering](weak_ordering.html "cpp/utility/compare/weak ordering")(C++20) |  the result type of 3-way comparison that supports all 6 operators and is not substitutable   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/compare/dsc_weak_ordering&action=edit)  
+(class)   
 ---|---  
 [ partial_ordering](partial_ordering.html "cpp/utility/compare/partial ordering")(C++20) |  the result type of 3-way comparison that supports all 6 operators, is not substitutable, and allows incomparable values   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/compare/dsc_partial_ordering&action=edit)
+(class) 

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Type support](../../utility/rtti.html "cpp/types")
 
@@ -161,7 +161,7 @@ Runtime type information
 ---  
 [bad_cast](../bad_cast.html "cpp/types/bad cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/navbar_content&action=edit)
+
 
 [`std::numeric_limits`](../numeric_limits.html "cpp/types/numeric limits")
 
@@ -204,7 +204,7 @@ Helper types
 [float_round_style](float_round_style.html "cpp/types/numeric limits/float round style")  
 [float_denorm_style](float_denorm_style.html "cpp/types/numeric limits/float denorm style")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/navbar_content&action=edit)
+
 
 static T round_error() throw(); |  | (until C++11)  
 ---|---|---  
@@ -213,7 +213,7 @@ static constexpr T round_error() noexcept; |  |  (since C++11)
   
 Returns the largest possible rounding error in ULPs (units in the last place) as defined by ISO 10967, which can vary from 0.5 (rounding to the nearest digit) to 1.0 (rounding to zero or to infinity). It is only meaningful if [std::numeric_limits](../numeric_limits.html)<T>::is_integer == false. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/numeric_limits/round_error&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 `T` |  [std::numeric_limits](../numeric_limits.html)<T>::round_error()  
 ---|---  
@@ -238,8 +238,8 @@ float |  0.5F
 double |  0.5  
 long double |  0.5L  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/numeric_limits/round_error&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ round_style](round_style.html "cpp/types/numeric limits/round style")[static] |  identifies the rounding style used by the type   
-(public static member constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/dsc_round_style&action=edit)  
+(public static member constant)   
 ---|---

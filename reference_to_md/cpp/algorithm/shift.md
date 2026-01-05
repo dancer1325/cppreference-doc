@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](ranges/copy.html "cpp/algorithm/ra
 [uninitialized_default_construct_n](../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -367,7 +367,7 @@ If any of the following conditions is satisfied, the behavior is undefined:
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/shift&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  the pair of iterators defining the [range](../iterator.html#Ranges "cpp/iterator") of elements to shift   
 ---|---|---  
@@ -376,7 +376,7 @@ policy  |  \-  |  the [execution policy](execution_policy_tag_t.html "cpp/algori
 Type requirements   
 -`ForwardIt` must meet the requirements of [LegacyForwardIterator](../named_req/ForwardIterator.html "cpp/named req/ForwardIterator").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/shift&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1,2) The end of the resulting range. 
 
@@ -392,13 +392,13 @@ Type requirements
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/shift&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 1,2) At most [std::distance](../iterator/distance.html)(first, last) - n assignments.
 
 3,4) At most [std::distance](../iterator/distance.html)(first, last) - n assignment or swaps.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/shift&action=edit&section=4 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 The overloads with a template parameter named `ExecutionPolicy` report errors as follows: 
 
@@ -407,13 +407,13 @@ The overloads with a template parameter named `ExecutionPolicy` report errors as
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/shift&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../utility/feature_test.html "cpp/utility/feature test") macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_shift`](../experimental/feature_test.html#cpp_lib_shift "cpp/feature test") | [`201806L`](../compiler_support/20.html#cpp_lib_shift_201806L "cpp/compiler support/20") | (C++20) | [`std::shift_left`](shift.html#top) and [`std::shift_right`](shift.html#top)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/shift&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -498,16 +498,16 @@ Possible output:
     . . 4 5 6 7 .   4 5 4 5 6 7 5   . . δ ε ζ η .
     . . 4 5 6 7 .   4 5 4 5 6 7 5   . . δ ε ζ η .
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/shift&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ move](move.html "cpp/algorithm/move")(C++11) |  moves a range of elements to a new location   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_move&action=edit)  
+(function template)   
 ---|---  
 [ move_backward](move_backward.html "cpp/algorithm/move backward")(C++11) |  moves a range of elements to a new location in backwards order   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_move_backward&action=edit)  
+(function template)   
 [ rotate](rotate.html "cpp/algorithm/rotate") |  rotates the order of elements in a range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_rotate&action=edit)  
+(function template)   
 [ ranges::shift_leftranges::shift_right](ranges/shift.html "cpp/algorithm/ranges/shift")(C++23) |  shifts elements in a range  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_shift&action=edit)
+(algorithm function object)
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

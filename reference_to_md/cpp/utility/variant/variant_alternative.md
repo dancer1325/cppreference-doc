@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::variant`](../variant.html "cpp/utility/variant")
 
@@ -161,7 +161,7 @@ Common vocabulary types
 [Helper objects](../variant.html#Helper_objects "cpp/utility/variant")  
 [variant_npos](variant_npos.html "cpp/utility/variant/variant npos")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variant/navbar_content&action=edit)
+
 
 Defined in header `[<variant>](../../header/variant.html "cpp/header/variant")` |  |   
 ---|---|---  
@@ -196,20 +196,20 @@ Formally,
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variant/variant_alternative&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Member type  |  Definition   
 ---|---  
 type  |  the type of `I`th alternative of the variant, where `I` must be in `[0, sizeof...(Types))`, otherwise the program is ill-formed.   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variant/variant_alternative&action=edit&section=2 "Edit section: Helper template alias")] Helper template alias
+### Helper template alias
 
 template <size_t I, class T>  
 using variant_alternative_t = typename variant_alternative<I, T>::type; |  |  (since C++17)  
 ---|---|---  
 | |   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variant/variant_alternative&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -236,7 +236,7 @@ Output:
     
     All static assertions passed.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variant/variant_alternative&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -244,10 +244,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 2974](https://cplusplus.github.io/LWG/issue2974) | C++17  | out-of-bounds index resulted in undefined behavior  | made ill-formed   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/variant/variant_alternative&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ variant_sizevariant_size_v](variant_size.html "cpp/utility/variant/variant size")(C++17) |  obtains the size of the `variant`'s list of alternatives at compile time  
-(class template) (variable template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variant/dsc_variant_size&action=edit)  
+(class template) (variable template)  
 ---|---  
 [ std::tuple_element<std::tuple>](../tuple/tuple_element.html "cpp/utility/tuple/tuple element")(C++11) |  obtains the type of the specified element   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/dsc_tuple_element&action=edit)
+(class template specialization) 

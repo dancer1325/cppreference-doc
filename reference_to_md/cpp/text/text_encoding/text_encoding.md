@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [`std::text_encoding`](../../locale/text_encoding.html "cpp/text/text encoding")
 
@@ -79,7 +79,7 @@
 [Helper classes](../../locale/text_encoding.html#Helper_classes "cpp/text/text encoding")  
 [hash<std::text_encoding>](hash.html "cpp/text/text encoding/hash")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/text_encoding/navbar_content&action=edit)
+
 
 constexpr text_encoding() = default; |  (1)  |  (since C++26)  
 ---|---|---  
@@ -103,13 +103,13 @@ If i is std::text_encoding::id::other or std::text_encoding::id::unknown, then t
 
 Behavior is undefined if i is not a named enumerator of [`std::text_encoding::id`](id.html "cpp/text/text encoding/id").
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/text/text_encoding/text_encoding&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 enc  |  \-  |  character encoding name   
 ---|---|---  
 i  |  \-  |  MIBenum value   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/text/text_encoding/text_encoding&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 View on [Compiler Explorer](https://godbolt.org/z/b4T4hcd6o). 
 
@@ -126,7 +126,7 @@ Run this code
         static_assert(iso60 == [std::text_encoding](../../locale/text_encoding.html)("NS_4551-1"));
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/text/text_encoding/text_encoding&action=edit&section=3 "Edit section: External links")] External links
+### External links
 
 [IANA registry of character set names and MIBenum values](https://www.iana.org/assignments/character-sets/character-sets.xhtml).   
 ---

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Classes](classes.html "cpp/language/classes")
 
@@ -261,7 +261,7 @@ Inheritance
 [`override` specifier](override.html "cpp/language/override") (C++11)  
 [`final` specifier](final.html "cpp/language/final") (C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/classes/navbar_content&action=edit)
+
 
 Declares a class data member with explicit size, in bits. Adjacent bit-field members may (or may not) be packed to share and straddle the individual bytes. 
 
@@ -290,7 +290,7 @@ brace-or-equal-initializer |  \-  |  [default member initializer](data_members.h
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/bit_field&action=edit&section=1 "Edit section: Explanation")] Explanation
+### Explanation
 
 The type of a bit-field can only be integral (including bool) or (possibly cv-qualified) enumeration type, an unnamed bit-field cannot be declared with a cv-qualified type. 
 
@@ -434,7 +434,7 @@ In case of ambiguity between the size of the bit-field and the default member in
 
 | (since C++20)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/bit_field&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 The following properties of bit-fields are _implementation-defined_ : 
 
@@ -452,7 +452,7 @@ The following properties of bit-fields are _implementation-defined_ :
 
 In the C programming language, the width of a bit-field cannot exceed the width of the underlying type, and whether int bit-fields that are not explicitly signed or unsigned are signed or unsigned is implementation-defined. For example, int b : 3; may have the range of values `[`​0​`, `7`]` or `[`-4`, `3`]` in C, but only the latter choice is allowed in C++. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/bit_field&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -467,7 +467,7 @@ signed nor unsigned were implementation-defined  | consistent with underlying ty
 [CWG 2511](https://cplusplus.github.io/CWG/issues/2511.html) | C++98  | cv-qualifications were not allowed in bit-field types  | bit-fields can have cv-qualified  
 enumeration types   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/bit_field&action=edit&section=4 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -539,12 +539,12 @@ enumeration types
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/bit_field&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ bitset](../utility/bitset.html "cpp/utility/bitset") |  implements constant length bit array   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_bitset&action=edit)  
+(class template)   
 ---|---  
 [ vector<bool>](../container/vector_bool.html "cpp/container/vector bool") |  space-efficient dynamic bitset   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_vector_bool&action=edit)  
+(class template specialization)   
 [**Bit manipulation**](../utility/bit.html "cpp/utility/bit") (C++20) |  utilities to access, manipulate, and process individual bits and bit sequences   
 [C documentation](../../c/language/bit_field.html "c/language/bit field") for Bit-fields

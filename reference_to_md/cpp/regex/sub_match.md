@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Regular expressions library](../regex.html "cpp/regex")
 
@@ -81,7 +81,7 @@ Constants
 Regex Grammar  
 [Modified ECMAScript-262](ecmascript.html "cpp/regex/ecmascript")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/navbar_content&action=edit)
+
 
 **`std::sub_match`**
 
@@ -96,7 +96,7 @@ Non-member functions
 [operator==operator!=operator<<operator<=operator>operator>=operator<=>](sub_match/operator_cmp.html "cpp/regex/sub match/operator cmp")(until C++20)(until C++20)(until C++20)(until C++20)(until C++20)(C++20)  
 [operator<<](sub_match/operator_ltlt.html "cpp/regex/sub match/operator ltlt")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/sub_match/navbar_content&action=edit)
+
 
 Defined in header `[<regex>](../header/regex.html "cpp/header/regex")` |  |   
 ---|---|---  
@@ -129,12 +129,12 @@ The member functions return defined default values unless the [`matched`](sub_ma
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/sub_match&action=edit&section=1 "Edit section: Type requirements")] Type requirements
+### Type requirements
 
 -`BidirIt` must meet the requirements of [LegacyBidirectionalIterator](../named_req/BidirectionalIterator.html "cpp/named req/BidirectionalIterator").   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/sub_match&action=edit&section=2 "Edit section: Specializations")] Specializations
+### Specializations
 
 Several specializations for common character sequence types are provided: 
 
@@ -146,7 +146,7 @@ Type  |  Definition
 `std::ssub_match` |  std::sub_match<std::string::const_iterator>  
 `std::wssub_match` |  std::sub_match<std::wstring::const_iterator>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/sub_match&action=edit&section=3 "Edit section: Nested types")] Nested types
+### Nested types
 
 Type  |  Definition   
 ---|---  
@@ -155,7 +155,7 @@ Type  |  Definition
 `difference_type` |  [std::iterator_traits](../iterator/iterator_traits.html)<BidirIt>::difference_type  
 `string_type` |  [std::basic_string](../string/basic_string.html)<value_type>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/sub_match&action=edit&section=4 "Edit section: Data members")] Data members
+### Data members
 
 Member  |  Description   
 ---|---  
@@ -170,35 +170,35 @@ BidirIt first |  start of the match sequence
 BidirIt second |  one-past-the-end of the match sequence   
 (public member object)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/sub_match&action=edit&section=5 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](sub_match/sub_match.html "cpp/regex/sub match/sub match") |  constructs the match object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/sub_match/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
   
 #####  Observers   
   
 [ length](sub_match/length.html "cpp/regex/sub match/length") |  returns the length of the match (if any)   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/sub_match/dsc_length&action=edit)  
+(public member function)   
 [ stroperator string_type](sub_match/str.html "cpp/regex/sub match/str") |  converts to the underlying string type   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/sub_match/dsc_str&action=edit)  
+(public member function)   
 [ compare](sub_match/compare.html "cpp/regex/sub match/compare") |  compares matched subsequence (if any)   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/sub_match/dsc_compare&action=edit)  
+(public member function)   
   
 #####  Modifiers   
   
 [ swap](sub_match/swap.html "cpp/regex/sub match/swap") |  swaps the contents   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/sub_match/dsc_swap&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/sub_match&action=edit&section=6 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ operator==operator!=operator<operator<=operator>operator>=operator<=>](sub_match/operator_cmp.html "cpp/regex/sub match/operator cmp")(removed in C++20)(removed in C++20)(removed in C++20)(removed in C++20)(removed in C++20)(C++20) |  compares a `sub_match` with another `sub_match`, a string, or a character   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/sub_match/dsc_operator_cmp&action=edit)  
+(function template)   
 ---|---  
 [ operator<<](sub_match/operator_ltlt.html "cpp/regex/sub match/operator ltlt") |  outputs the matched character subsequence   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/sub_match/dsc_operator_ltlt&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/sub_match&action=edit&section=7 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -232,8 +232,8 @@ Output:
     m: [the], m.length(): 3, *m.first: 't', *m.second: ' '
     m: [thirteenth], m.length(): 10, *m.first: 't', *m.second: '.'
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/sub_match&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [ regex_token_iterator](regex_token_iterator.html "cpp/regex/regex token iterator")(C++11) |  iterates through the specified sub-expressions within all regex matches in a given string or through unmatched substrings   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/dsc_regex_token_iterator&action=edit)  
+(class template)   
 ---|---

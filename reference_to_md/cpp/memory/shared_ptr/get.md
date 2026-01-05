@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::shared_ptr`](../shared_ptr.html "cpp/memory/shared ptr")
 
@@ -220,7 +220,7 @@ Helper classes
 [hash<std::shared_ptr>](hash.html "cpp/memory/shared ptr/hash")  
 [Deduction guides](deduction_guides.html "cpp/memory/shared ptr/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/navbar_content&action=edit)
+
 
 T* get() const noexcept; |  |  (until C++17)  
 ---|---|---  
@@ -240,19 +240,19 @@ Returns the stored pointer.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/get&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/get&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The stored pointer. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/get&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 A `shared_ptr` may share ownership of an object while storing a pointer to another object. `get()` returns the stored pointer, not the managed pointer. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/get&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -310,8 +310,8 @@ Possible output:
     &(p->i3): 0xacac28
     &(q->i2): 0xacac24
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/get&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ operator*operator->](operator*.html "cpp/memory/shared ptr/operator*") |  dereferences the stored pointer   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/dsc_operator*&action=edit)  
+(public member function)   
 ---|---

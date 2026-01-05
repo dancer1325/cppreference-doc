@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [`std::valarray`](../valarray.html "cpp/numeric/valarray")
 
@@ -155,7 +155,7 @@
   
 [Deduction guides](deduction_guides.html "cpp/numeric/valarray/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/navbar_content&action=edit)
+
 
 Defined in header `[<valarray>](../../header/valarray.html "cpp/header/valarray")` |  |   
 ---|---|---  
@@ -177,16 +177,16 @@ For each element in va computes _e_ raised to the power equal to the value of th
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/exp&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 va  |  \-  |  value array to apply the operation to   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/exp&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Value array containing _e_ raised by the values in va. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/exp&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Unqualified function (exp) is used to perform the computation. If such function is not available, [std::exp](../math/exp.html) is used due to [argument-dependent lookup](../../language/adl.html "cpp/language/adl"). 
 
@@ -202,7 +202,7 @@ The function can be implemented with the return type different from [std::valarr
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/exp&action=edit&section=4 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     template<class T>
@@ -217,7 +217,7 @@ The function can be implemented with the return type different from [std::valarr
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/exp&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 This example demonstrates the [Euler's identity eiπ  
 = -1](https://en.wikipedia.org/wiki/Euler%27s_identity "enwiki:Euler's identity") and the related exponents.
@@ -251,12 +251,12 @@ Output:
     (-0.000000,-1.000000)
     (+1.000000,-0.000000)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/exp&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ log(std::valarray)](log.html "cpp/numeric/valarray/log") |  applies the function [std::log](../math/log.html "cpp/numeric/math/log") to each element of valarray   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_log&action=edit)  
+(function template)   
 ---|---  
 [ expexpfexpl](../math/exp.html "cpp/numeric/math/exp")(C++11)(C++11) |  returns e raised to the given power (\\({\small e^x}\\)ex)   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_exp&action=edit)  
+(function)   
 [ exp(std::complex)](../complex/exp.html "cpp/numeric/complex/exp") |  complex base _e_ exponential   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_exp&action=edit)
+(function template) 

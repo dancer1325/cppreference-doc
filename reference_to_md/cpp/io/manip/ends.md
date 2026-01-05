@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [Input/output manipulators](../manip.html "cpp/io/manip")
 
@@ -154,7 +154,7 @@ Time and money I/O
 Quoted manipulator  
 [quoted](quoted.html "cpp/io/manip/quoted")(C++14)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/navbar_content&action=edit)
+
 
 Defined in header `[<ostream>](../../header/ostream.html "cpp/header/ostream")` |  |   
 ---|---|---  
@@ -177,22 +177,22 @@ This is an output-only I/O manipulator, it may be called with an expression such
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/ends&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 This manipulator is typically used with [std::ostrstream](../ostrstream.html), when the associated output buffer needs to be null-terminated to be processed as a C string. 
 
 Unlike [std::endl](endl.html "cpp/io/manip/endl"), this manipulator does not flush the stream. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/ends&action=edit&section=2 "Edit section: Parameters")] Parameters
+### Parameters
 
 os  |  \-  |  reference to output stream   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/ends&action=edit&section=3 "Edit section: Return value")] Return value
+### Return value
 
 os (reference to the stream after insertion of the null character). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/ends&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -213,8 +213,8 @@ Output:
     
     Sample text: 42
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/manip/ends&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ ostrstream](../ostrstream.html "cpp/io/ostrstream")(deprecated in C++98)(removed in C++26) |  implements character array output operations   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_ostrstream&action=edit)  
+(class)   
 ---|---

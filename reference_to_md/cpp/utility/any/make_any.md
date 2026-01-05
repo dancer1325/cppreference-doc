@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::any`](../any.html "cpp/utility/any")
 
@@ -151,7 +151,7 @@ Common vocabulary types
 [Helper classes](../any.html#Helper_classes "cpp/utility/any")  
 [bad_any_cast](bad_any_cast.html "cpp/utility/any/bad any cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/any/navbar_content&action=edit)
+
 
 Defined in header `[<any>](../../header/any.html "cpp/header/any")` |  |   
 ---|---|---  
@@ -167,7 +167,7 @@ Constructs an `any` object containing an object of type `T`, passing the provide
 
 2) Equivalent to return [std::any](../any.html)([std::in_place_type](../in_place.html)<T>, il, [std::forward](../forward.html)<Args>(args)...);
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/any/make_any&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -220,10 +220,10 @@ Possible output:
     a3.type() = "St8functionIFvvEE"
     Lambda #2.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/any/make_any&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ (constructor)](any.html "cpp/utility/any/any") |  constructs an `any` object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/any/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ any_cast](any_cast.html "cpp/utility/any/any cast")(C++17) |  type-safe access to the contained object   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/any/dsc_any_cast&action=edit)
+(function template) 

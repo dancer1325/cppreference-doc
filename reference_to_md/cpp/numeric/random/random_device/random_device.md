@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [Pseudo-random number generation](../../random.html "cpp/numeric/random")
 
@@ -161,7 +161,7 @@
 [piecewise_constant_distribution](../piecewise_constant_distribution.html "cpp/numeric/random/piecewise constant distribution")(C++11)  
 [piecewise_linear_distribution](../piecewise_linear_distribution.html "cpp/numeric/random/piecewise linear distribution")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/navbar_content&action=edit)
+
 
 [`std::random_device`](../random_device.html "cpp/numeric/random/random device")
 
@@ -175,7 +175,7 @@ Characteristics
 [random_device::min](min.html "cpp/numeric/random/random device/min")  
 [random_device::max](max.html "cpp/numeric/random/random device/max")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/random_device/navbar_content&action=edit)
+
 
 random_device() : random_device( /*implementation-defined*/ ) {} |  (1)  |  (since C++11)  
 ---|---|---  
@@ -199,11 +199,11 @@ random_device( const random_device& ) = delete; |  (3)  |  (since C++11)
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/random/random_device/random_device&action=edit&section=1 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Throws an implementation-defined exception derived from [std::exception](../../../error/exception.html "cpp/error/exception") on failure. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/random/random_device/random_device&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 The implementation in [libstdc++](https://github.com/gcc-mirror/gcc/blob/master/libstdc%2B%2B-v3/src/c%2B%2B11/random.cc#L319) expects `token` to name the source of random bytes. Possible token values include "default", "hw", "rand_s", "rdseed", "rdrand", "rdrnd", "/dev/urandom", "/dev/random", "mt19937", and integer string specifying the seed of the mt19937 engine. (Token values other than "default" are only valid for certain targets.) 
 
@@ -211,7 +211,7 @@ The implementation in [libc++](https://github.com/llvm/llvm-project/blob/main/li
 
 Both libstdc++ and libc++ throw an exception if provided an unsupported token. [Microsoft's stdlib](https://github.com/microsoft/STL/blob/c10ae01b4d9508eed9d5f059a120ee7223b6ac12/stl/inc/random#L5026) ignores the token entirely. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/random/random_device/random_device&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Demonstrates commonly available types of `std::random_device` on Linux.
 
@@ -257,7 +257,7 @@ Possible output:
     3 3 6 1 4 1 4 1 0 2 
     4 6 3 9 1 9 4 0 9 3
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/random/random_device/random_device&action=edit&section=4 "Edit section: Defect reports")] Defect reports 
+### Defect reports 
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

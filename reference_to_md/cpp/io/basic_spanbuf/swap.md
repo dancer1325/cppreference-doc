@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_spanbuf`](../basic_spanbuf.html "cpp/io/basic spanbuf")
 
@@ -94,7 +94,7 @@ Protected member functions
 Non-member functions  
 [swap(std::basic_spanbuf)](swap2.html "cpp/io/basic spanbuf/swap2")(C++23)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_spanbuf/navbar_content&action=edit)
+
 
 void swap( basic_spanbuf& rhs ); |  |  (since C++23)  
 ---|---|---  
@@ -116,37 +116,37 @@ Calls [std::basic_streambuf](../basic_streambuf.html)<Char, Traits>::swap(rhs), 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_spanbuf/swap&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 rhs  |  \-  |  another `basic_stringbuf`  
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_spanbuf/swap&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/impldef_exception&action=edit&section=T-1 "Template:cpp/impldef exception")] Exceptions
+### Exceptions
 
 May throw implementation-defined exceptions. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_spanbuf/swap&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 This function is called automatically when swapping stream objects, it is rarely necessary to call it directly. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_spanbuf/swap&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_spanbuf/swap&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ operator=](operator=.html "cpp/io/basic spanbuf/operator=") |  assigns a `basic_spanbuf` object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_spanbuf/dsc_operator%3D&action=edit)  
+(public member function)   
 ---|---  
 [ swap](../basic_ispanstream/swap.html "cpp/io/basic ispanstream/swap") |  swaps two `basic_ispanstream` objects   
-(public member function of `std::basic_ispanstream<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_spanstream/dsc_swap&action=edit)  
+(public member function of `std::basic_ispanstream<CharT,Traits>`)   
 [ swap](../basic_ospanstream/swap.html "cpp/io/basic ospanstream/swap") |  swaps two `basic_ospanstream` objects   
-(public member function of `std::basic_ospanstream<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_spanstream/dsc_swap&action=edit)  
+(public member function of `std::basic_ospanstream<CharT,Traits>`)   
 [ swap](../basic_spanstream/swap.html "cpp/io/basic spanstream/swap") |  swaps two `basic_spanstream` objects   
-(public member function of `std::basic_spanstream<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_spanstream/dsc_swap&action=edit)
+(public member function of `std::basic_spanstream<CharT,Traits>`) 

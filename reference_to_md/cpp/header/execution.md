@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header is part of the [execution](../experimental/execution.html "cpp/execution") and [algorithm](../algorithm.html "cpp/algorithm") libraries. 
 
@@ -218,21 +218,21 @@ This header is part of the [execution](../experimental/execution.html "cpp/execu
 ###  Classes  
   
 [ is_execution_policy](../algorithm/is_execution_policy.html "cpp/algorithm/is execution policy")(C++17) |  test whether a class represents an execution policy   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_is_execution_policy&action=edit)  
+(class template)   
 Defined in namespace `std::execution`  
 [ sequenced_policyparallel_policyparallel_unsequenced_policyunsequenced_policy](../algorithm/execution_policy_tag_t.html "cpp/algorithm/execution policy tag t")(C++17)(C++17)(C++17)(C++20) |  execution policy types   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_execution_policy_tag_t&action=edit)  
+(class)   
   
 ###  Constants  
   
 Defined in namespace `std::execution`  
 [ seqparpar_unsequnseq](../algorithm/execution_policy_tag.html "cpp/algorithm/execution policy tag")(C++17)(C++17)(C++17)(C++20) |  global execution policy objects   
-(constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_execution_policy_tag&action=edit)  
+(constant)   
 | This section is incomplete  
 Reason: links to execution library subpages   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/execution&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     namespace std {
@@ -630,7 +630,7 @@ Reason: links to execution library subpages
       struct with_awaitable_senders;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/execution&action=edit&section=T-1 "Template:cpp/synopsis/execution")] Helper concepts
+#### Helper concepts
     
     
     namespace std {
@@ -652,7 +652,7 @@ Reason: links to execution library subpages
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/execution&action=edit&section=T-2 "Template:cpp/synopsis/execution")] Helper classes
+#### Helper classes
     
     
     namespace std::execution {
@@ -662,7 +662,7 @@ Reason: links to execution library subpages
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/execution&action=edit&section=T-3 "Template:cpp/synopsis/execution")] `enum` std::forward_progress_guarantee
+#### `enum` std::forward_progress_guarantee
     
     
     namespace std::execution {
@@ -674,7 +674,7 @@ Reason: links to execution library subpages
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/execution&action=edit&section=T-4 "Template:cpp/synopsis/execution")] Concept [`scheduler`](../execution/scheduler.html "cpp/execution/scheduler")
+#### Concept [`scheduler`](../execution/scheduler.html "cpp/execution/scheduler")
     
     
     namespace std::execution {
@@ -694,7 +694,7 @@ Reason: links to execution library subpages
         copy_constructible<remove_cvref_t<Sch>>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/execution&action=edit&section=T-5 "Template:cpp/synopsis/execution")] Concept [`receiver`](https://en.cppreference.com/mwiki/index.php?title=cpp/execution/receiver&action=edit&redlink=1 "cpp/execution/receiver \(page does not exist\)")
+#### Concept [`receiver`](https://en.cppreference.com/mwiki/index.php?title=cpp/execution/receiver&action=edit&redlink=1 "cpp/execution/receiver \(page does not exist\)")
     
     
     namespace std::execution {
@@ -727,7 +727,7 @@ Reason: links to execution library subpages
       concept receiver_of = receiver<Rcvr> && /*has-completions*/<Rcvr, Completions>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/execution&action=edit&section=T-6 "Template:cpp/synopsis/execution")] Concept [`operation_state`](https://en.cppreference.com/mwiki/index.php?title=cpp/execution/operation_state&action=edit&redlink=1 "cpp/execution/operation state \(page does not exist\)")
+#### Concept [`operation_state`](https://en.cppreference.com/mwiki/index.php?title=cpp/execution/operation_state&action=edit&redlink=1 "cpp/execution/operation state \(page does not exist\)")
     
     
     namespace std::execution {

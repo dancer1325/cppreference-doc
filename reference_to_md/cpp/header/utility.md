@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header is part of the [general utility](../utility.html "cpp/utility") library. 
 
@@ -219,90 +219,90 @@ This header is part of the [general utility](../utility.html "cpp/utility") libr
   
 ###  Includes  
   
-[ <compare>](compare.html "cpp/header/compare")(C++20) |  [Three-way comparison operator](../language/operator_comparison.html#Three-way_comparison "cpp/language/operator comparison") support[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/dsc_compare&action=edit)  
-[ <initializer_list>](initializer_list.html "cpp/header/initializer list")(C++11) |  [std::initializer_list](../utility/initializer_list.html "cpp/utility/initializer list") class template[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/dsc_initializer_list&action=edit)  
+[ <compare>](compare.html "cpp/header/compare")(C++20) |  [Three-way comparison operator](../language/operator_comparison.html#Three-way_comparison "cpp/language/operator comparison") support  
+[ <initializer_list>](initializer_list.html "cpp/header/initializer list")(C++11) |  [std::initializer_list](../utility/initializer_list.html "cpp/utility/initializer list") class template  
   
 ###  Namespaces  
   
 `**[rel_ops](../utility/rel_ops/operator_cmp.html "cpp/utility/rel ops/operator cmp")**` |  Provide automatic comparison operators   
 Defined in namespace `std::rel_ops`  
 [ operator!=operator>operator<=operator>=](../utility/rel_ops/operator_cmp.html "cpp/utility/rel ops/operator cmp")(deprecated in C++20) |  automatically generates comparison operators based on user-defined operator== and operator<   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/rel_ops/dsc_operator_cmp&action=edit)  
+(function template)   
   
 ###  Functions  
   
 [ swap](../utility/swap.html "cpp/algorithm/swap") |  swaps the values of two objects   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_swap&action=edit)  
+(function template)   
 [ exchange](../utility/exchange.html "cpp/utility/exchange")(C++14) |  replaces the argument with a new value and returns its previous value   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_exchange&action=edit)  
+(function template)   
 [ forward](../utility/forward.html "cpp/utility/forward")(C++11) |  forwards a function argument and use the type template argument to preserve its value category   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_forward&action=edit)  
+(function template)   
 [ forward_like](../utility/forward_like.html "cpp/utility/forward like")(C++23) |  forwards a function argument as if casting it to the value category and constness of the expression of specified type template argument   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_forward_like&action=edit)  
+(function template)   
 [ move](../utility/move.html "cpp/utility/move")(C++11) |  converts the argument to an xvalue   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_move&action=edit)  
+(function template)   
 [ move_if_noexcept](../utility/move_if_noexcept.html "cpp/utility/move if noexcept")(C++11) |  converts the argument to an xvalue if the move constructor does not throw   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_move_if_noexcept&action=edit)  
+(function template)   
 [ as_const](../utility/as_const.html "cpp/utility/as const")(C++17) |  obtains a reference to const to its argument   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_as_const&action=edit)  
+(function template)   
 [ declval](../utility/declval.html "cpp/utility/declval")(C++11) |  obtains a reference to an object of the template type argument for use in an unevaluated context   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_declval&action=edit)  
+(function template)   
 [ to_underlying](../utility/to_underlying.html "cpp/utility/to underlying")(C++23) |  converts an enumeration to its underlying type   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_to_underlying&action=edit)  
+(function template)   
 [ cmp_equalcmp_not_equalcmp_lesscmp_greatercmp_less_equalcmp_greater_equal](../utility/intcmp.html "cpp/utility/intcmp")(C++20) |  compares two integer values, ensuring that signed negative numbers are less than unsigned numbers   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_intcmp&action=edit)  
+(function template)   
 [ in_range](../utility/in_range.html "cpp/utility/in range")(C++20) |  checks if an integer value is in the range of a given integer type   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_in_range&action=edit)  
+(function template)   
 [ unreachable](../utility/unreachable.html "cpp/utility/unreachable")(C++23) |  marks unreachable point of execution   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_unreachable&action=edit)  
+(function)   
 [ make_pair](../utility/pair/make_pair.html "cpp/utility/pair/make pair") |  creates a `pair` object of type, determined by the argument types   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/pair/dsc_make_pair&action=edit)  
+(function template)   
 [ operator==operator!=operator<operator<=operator>operator>=operator<=>](../utility/pair/operator_cmp.html "cpp/utility/pair/operator cmp")(removed in C++20)(removed in C++20)(removed in C++20)(removed in C++20)(removed in C++20)(C++20) |  lexicographically compares the values in the `pair`   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/pair/dsc_operator_cmp&action=edit)  
+(function template)   
 [ std::swap(std::pair)](../utility/pair/swap2.html "cpp/utility/pair/swap2")(C++11) |  specializes the [std::swap](../utility/swap.html "cpp/algorithm/swap") algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/pair/dsc_swap2&action=edit)  
+(function template)   
 [ get(std::pair)](../utility/pair/get.html "cpp/utility/pair/get")(C++11) |  accesses an element of a `pair`   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/pair/dsc_get&action=edit)  
+(function template)   
   
 ###  Classes  
   
 [ pair](../utility/pair.html "cpp/utility/pair") |  implements binary tuple, i.e. a pair of values   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_pair&action=edit)  
+(class template)   
 [ tuple_size](../utility/tuple_size.html "cpp/utility/tuple size")(C++11) |  obtains the number of elements of a tuple-like type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_tuple_size&action=edit)  
+(class template)   
 [ tuple_element](../utility/tuple_element.html "cpp/utility/tuple element")(C++11) |  obtains the element types of a tuple-like type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_tuple_element&action=edit)  
+(class template)   
 [ std::tuple_size<std::pair>](../utility/pair/tuple_size.html "cpp/utility/pair/tuple size")(C++11) |  obtains the size of a `pair`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/pair/dsc_tuple_size&action=edit)  
+(class template specialization)   
 [ std::tuple_element<std::pair>](../utility/pair/tuple_element.html "cpp/utility/pair/tuple element")(C++11) |  obtains the type of the elements of `pair`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/pair/dsc_tuple_element&action=edit)  
+(class template specialization)   
 [ integer_sequence](../utility/integer_sequence.html "cpp/utility/integer sequence")(C++14) |  implements compile-time sequence of integers   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_integer_sequence&action=edit)  
+(class template)   
   
 #####  Forward declarations   
   
 Defined in header `[<tuple>](tuple.html "cpp/header/tuple")`  
 [ tuple](../utility/tuple.html "cpp/utility/tuple")(C++11) |  implements fixed size container, which holds elements of possibly different types   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_tuple&action=edit)  
+(class template)   
 Defined in header `[<variant>](variant.html "cpp/header/variant")`  
 [ monostate](../utility/variant/monostate.html "cpp/utility/variant/monostate")(C++17) |  placeholder type for use as the first alternative in a `variant` of non-default-constructible types   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/variant/dsc_monostate&action=edit)  
+(class)   
   
 ###  Constants  
   
 [ ignore](../utility/tuple/ignore.html "cpp/utility/tuple/ignore")(C++11) |  placeholder to skip an element when unpacking a `tuple` using [`tie`](../utility/tuple/tie.html "cpp/utility/tuple/tie")   
-(constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/dsc_ignore&action=edit)  
+(constant)   
   
 ###  Tags  
   
 [ piecewise_constructpiecewise_construct_t](../utility/piecewise_construct.html "cpp/utility/piecewise construct")(C++11) |  piecewise construction tag  
-(tag)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_piecewise_construct&action=edit)  
+(tag)  
 [ in_placein_place_typein_place_indexin_place_tin_place_type_tin_place_index_t](../utility/in_place.html "cpp/utility/in place")(C++17) |  in-place construction tag  
-(tag)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_in_place&action=edit)  
+(tag)  
 [ nontype  nontype_t](../utility/nontype.html "cpp/utility/nontype")(C++26) |  value construction tag   
-(tag)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_nontype&action=edit)  
+(tag)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/utility&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     #include <compare>
@@ -473,7 +473,7 @@ Defined in header `[<variant>](variant.html "cpp/header/variant")`
       template<class T> bool operator>=(const T&, const T&);
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/utility&action=edit&section=T-1 "Template:cpp/synopsis/utility")] Class template [std::integer_sequence](../utility/integer_sequence.html "cpp/utility/integer sequence")
+#### Class template [std::integer_sequence](../utility/integer_sequence.html "cpp/utility/integer sequence")
     
     
     namespace std {
@@ -483,7 +483,7 @@ Defined in header `[<variant>](variant.html "cpp/header/variant")`
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/utility&action=edit&section=T-2 "Template:cpp/synopsis/utility")] Class template [std::pair](../utility/pair.html "cpp/utility/pair")
+#### Class template [std::pair](../utility/pair.html "cpp/utility/pair")
     
     
     namespace std {
@@ -523,7 +523,7 @@ Defined in header `[<variant>](variant.html "cpp/header/variant")`
         pair(T1, T2) -> pair<T1, T2>;
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/utility&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
-[ <tuple>](tuple.html "cpp/header/tuple")(C++11) |  [std::tuple](../utility/tuple.html "cpp/utility/tuple") class template[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/dsc_tuple&action=edit)  
+[ <tuple>](tuple.html "cpp/header/tuple")(C++11) |  [std::tuple](../utility/tuple.html "cpp/utility/tuple") class template  
 ---|---

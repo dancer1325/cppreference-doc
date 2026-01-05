@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 **`std::lock_guard`**
 
@@ -182,7 +182,7 @@ Member functions
 [lock_guard::lock_guard](lock_guard/lock_guard.html "cpp/thread/lock guard/lock guard")  
 [lock_guard::~lock_guard](lock_guard/~lock_guard.html "cpp/thread/lock guard/~lock guard")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/lock_guard/navbar_content&action=edit)
+
 
 Defined in header `[<mutex>](../header/mutex.html "cpp/header/mutex")` |  |   
 ---|---|---  
@@ -209,35 +209,35 @@ The `lock_guard` class is non-copyable.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/lock_guard&action=edit&section=1 "Edit section: Template parameters")] Template parameters
+### Template parameters
 
 Mutex  |  \-  |  the type of the mutex to lock. The type must meet the [BasicLockable](../named_req/BasicLockable.html "cpp/named req/BasicLockable") requirements   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/lock_guard&action=edit&section=2 "Edit section: Member types")] Member types
+### Member types
 
 Member type  |  Definition   
 ---|---  
 `mutex_type` |  Mutex   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/lock_guard&action=edit&section=3 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](lock_guard/lock_guard.html "cpp/thread/lock guard/lock guard") |  constructs a `lock_guard`, optionally locking the given mutex   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/lock_guard/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ (destructor)](lock_guard/~lock_guard.html "cpp/thread/lock guard/~lock guard") |  destructs the `lock_guard` object, unlocks the underlying mutex   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/lock_guard/dsc_destructor&action=edit)  
+(public member function)   
 operator=[deleted] |  not copy-assignable   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/lock_guard/dsc_operator%3D&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/lock_guard&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 A common beginner error is to forget to give a `lock_guard` variable a name, such as by std::lock_guard{mtx}. This constructs a prvalue object that is immediately destroyed, thereby not actually constructing a lock that holds a mutex for the rest of the scope. 
 
 [`std::scoped_lock`](scoped_lock.html "cpp/thread/scoped lock") offers an alternative for `lock_guard` that provides the ability to lock multiple mutexes using a deadlock avoidance algorithm.  | (since C++17)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/lock_guard&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Demonstrates safe and unsafe increments of a volatile variable by two threads.
 
@@ -302,7 +302,7 @@ Possible output:
     thread #140121493231360, g_i: 1034337
     after, g_i: 1034337
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/lock_guard&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -310,10 +310,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 2981](https://cplusplus.github.io/LWG/issue2981) | C++17  | redundant deduction guide from `lock_guard<Mutex>` was provided  | removed   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/lock_guard&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ unique_lock](unique_lock.html "cpp/thread/unique lock")(C++11) |  implements movable mutex ownership wrapper   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_unique_lock&action=edit)  
+(class template)   
 ---|---  
 [ scoped_lock](scoped_lock.html "cpp/thread/scoped lock")(C++17) |  deadlock-avoiding RAII wrapper for multiple mutexes   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_scoped_lock&action=edit)
+(class template) 

@@ -30,7 +30,7 @@
 [Symbols index](symbol_index.html "cpp/symbol index")  
 [External libraries](links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 **C++ language**
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](language/history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 This is a reference of the core C++ language constructs. 
 
@@ -371,7 +371,7 @@ This is a reference of the core C++ language constructs.
   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language&action=edit&section=1 "Edit section: See also")] See also
+### See also
 
 [C documentation](../c/language.html "c/language") for language constructs  
 ---

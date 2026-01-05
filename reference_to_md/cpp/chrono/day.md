@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 **`std::chrono::day`**
 
@@ -122,7 +122,7 @@ Helper classes
 [formatter<std::chrono::day>](day/formatter.html "cpp/chrono/day/formatter")  
 [hash<std::chrono::day>](day/hash.html "cpp/chrono/day/hash")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/day/navbar_content&action=edit)
+
 
 Defined in header `[<chrono>](../header/chrono.html "cpp/header/chrono")` |  |   
 ---|---|---  
@@ -143,43 +143,43 @@ The class `day` represents a day in a month. Its normal range is `[`1`, `31`]`, 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/day&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](day/day.html "cpp/chrono/day/day") |  constructs a `day`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/day/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ operator++operator++(int)operator--operator--(int)](day/operator_inc_dec.html "cpp/chrono/day/operator inc dec") |  increments or decrements the day   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/day/dsc_operator_inc_dec&action=edit)  
+(public member function)   
 [ operator+=operator-=](day/operator_arith.html "cpp/chrono/day/operator arith") |  adds or subtracts a number of days   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/day/dsc_operator_arith&action=edit)  
+(public member function)   
 [ operator unsigned](day/operator_unsigned.html "cpp/chrono/day/operator unsigned") |  retrieves the stored day value   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/day/dsc_operator_unsigned&action=edit)  
+(public member function)   
 [ ok](day/ok.html "cpp/chrono/day/ok") |  checks if the stored day value is in the normal range   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/day/dsc_ok&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/day&action=edit&section=2 "Edit section: Nonmember functions")] Nonmember functions
+### Nonmember functions
 
 [ operator==operator<=>](day/operator_cmp.html "cpp/chrono/day/operator cmp")(C++20) |  compares two `day` values   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/day/dsc_operator_cmp&action=edit)  
+(function)   
 ---|---  
 [ operator+operator-](day/operator_arith_2.html "cpp/chrono/day/operator arith 2")(C++20) |  adds or subtracts a number of days and a `day`, or find the difference between two `day`s   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/day/dsc_operator_arith_2&action=edit)  
+(function)   
 [ operator<<](day/operator_ltlt.html "cpp/chrono/day/operator ltlt")(C++20) |  outputs a `day` into a stream   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/day/dsc_operator_ltlt&action=edit)  
+(function template)   
 [ from_stream](day/from_stream.html "cpp/chrono/day/from stream")(C++20) |  parses a `day` from a stream according to the provided format   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/day/dsc_from_stream&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/day&action=edit&section=3 "Edit section: Helper classes")] Helper classes
+### Helper classes
 
 [ std::formatter<std::chrono::day>](day/formatter.html "cpp/chrono/day/formatter")(C++20) |  formatting support for `day`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_formatter&action=edit)  
+(class template specialization)   
 ---|---  
 [ std::hash<std::chrono::day>](day/hash.html "cpp/chrono/day/hash")(C++26) |  hash support for **`std::chrono::day`**   
 (class template specialization)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/day&action=edit&section=4 "Edit section: Literals")] Literals
+### Literals
 
 Defined in inline namespace `std::literals::chrono_literals`  
 ---  
 [ operator""d](operator""d.html "cpp/chrono/operator""d")(C++20) |  a std::chrono::day literal representing a day of a month   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_operator%22%22d&action=edit)
+(function) 

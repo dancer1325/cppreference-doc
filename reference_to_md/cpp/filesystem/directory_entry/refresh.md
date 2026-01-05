@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Filesystem library](../../filesystem.html "cpp/filesystem")
 
@@ -100,7 +100,7 @@ filesystem::symlink_status](../status.html "cpp/filesystem/status")
 [filesystem::is_socket](../is_socket.html "cpp/filesystem/is socket")  
 [filesystem::is_symlink](../is_symlink.html "cpp/filesystem/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/navbar_content&action=edit)
+
 
 [`std::filesystem::directory_entry`](../directory_entry.html "cpp/filesystem/directory entry")
 
@@ -131,7 +131,7 @@ Observers
 Non-member functions  
 [operator<<](operator_ltlt.html "cpp/filesystem/directory entry/operator ltlt")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/directory_entry/navbar_content&action=edit)
+
 
 void refresh(); |  (1)  |  (since C++17)  
 ---|---|---  
@@ -154,16 +154,16 @@ If an error occurs, the value of any cached attributes is unspecified.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/directory_entry/refresh&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 ec  |  \-  |  out-parameter for error reporting in the non-throwing overload   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/directory_entry/refresh&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/directory_entry/refresh&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Any overload not marked `noexcept` may throw [std::bad_alloc](../../memory/new/bad_alloc.html "cpp/memory/new/bad alloc") if memory allocation fails.  
 
@@ -172,43 +172,43 @@ Any overload not marked `noexcept` may throw [std::bad_alloc](../../memory/new/b
 
 2) Sets a [std::error_code](../../error/error_code.html)& parameter to the OS API error code if an OS API call fails, and executes ec.[`clear`](../../error/error_code/clear.html "cpp/error/error code/clear")() if no errors occur.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/directory_entry/refresh&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 Many low-level OS APIs for directory traversal retrieve file attributes along with the next directory entry. The constructors and the non-const member functions of [std::filesystem::directory_iterator](../directory_iterator.html "cpp/filesystem/directory iterator") store these attributes, if any, in the pointed-to [std::filesystem::directory_entry](../directory_entry.html "cpp/filesystem/directory entry") without calling **`directory_entry::refresh`** , which makes it possible to examine the attributes of the directory entries as they are being iterated over, without making additional system calls. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/directory_entry/refresh&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/directory_entry/refresh&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ statussymlink_status](status.html "cpp/filesystem/directory entry/status") |  status of the file designated by this directory entry;  
 status of the file/symlink designated by this directory entry   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/directory_entry/dsc_status&action=edit)  
+(public member function)   
 ---|---  
 [ exists](exists.html "cpp/filesystem/directory entry/exists") |  checks whether directory entry refers to existing file system object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/directory_entry/dsc_exists&action=edit)  
+(public member function)   
 [ is_block_file](is_block_file.html "cpp/filesystem/directory entry/is block file") |  checks whether the directory entry refers to block device   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/directory_entry/dsc_is_block_file&action=edit)  
+(public member function)   
 [ is_character_file](is_character_file.html "cpp/filesystem/directory entry/is character file") |  checks whether the directory entry refers to a character device   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/directory_entry/dsc_is_character_file&action=edit)  
+(public member function)   
 [ is_directory](is_directory.html "cpp/filesystem/directory entry/is directory") |  checks whether the directory entry refers to a directory   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/directory_entry/dsc_is_directory&action=edit)  
+(public member function)   
 [ is_fifo](is_fifo.html "cpp/filesystem/directory entry/is fifo") |  checks whether the directory entry refers to a named pipe   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/directory_entry/dsc_is_fifo&action=edit)  
+(public member function)   
 [ is_other](is_other.html "cpp/filesystem/directory entry/is other") |  checks whether the directory entry refers to an _other_ file   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/directory_entry/dsc_is_other&action=edit)  
+(public member function)   
 [ is_regular_file](is_regular_file.html "cpp/filesystem/directory entry/is regular file") |  checks whether the directory entry refers to a regular file   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/directory_entry/dsc_is_regular_file&action=edit)  
+(public member function)   
 [ is_socket](is_socket.html "cpp/filesystem/directory entry/is socket") |  checks whether the directory entry refers to a named IPC socket   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/directory_entry/dsc_is_socket&action=edit)  
+(public member function)   
 [ is_symlink](is_symlink.html "cpp/filesystem/directory entry/is symlink") |  checks whether the directory entry refers to a symbolic link   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/directory_entry/dsc_is_symlink&action=edit)  
+(public member function)   
 [ file_size](file_size.html "cpp/filesystem/directory entry/file size") |  returns the size of the file to which the directory entry refers   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/directory_entry/dsc_file_size&action=edit)  
+(public member function)   
 [ hard_link_count](hard_link_count.html "cpp/filesystem/directory entry/hard link count") |  returns the number of hard links referring to the file to which the directory entry refers   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/directory_entry/dsc_hard_link_count&action=edit)  
+(public member function)   
 [ last_write_time](last_write_time.html "cpp/filesystem/directory entry/last write time") |  gets the time of the last data modification of the file to which the directory entry refers   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/directory_entry/dsc_last_write_time&action=edit)
+(public member function) 

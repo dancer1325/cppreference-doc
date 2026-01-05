@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -71,7 +71,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::mdspan`](../mdspan.html "cpp/container/mdspan")
 
@@ -120,7 +120,7 @@ Tables
 [submdspan_mapping_result](submdspan_mapping_result.html "cpp/container/mdspan/submdspan mapping result")(C++26)  
 [Deduction guides](deduction_guides.html "cpp/container/mdspan/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/navbar_content&action=edit)
+
 
 Defined in header `[<mdspan>](../../header/mdspan.html "cpp/header/mdspan")` |  |   
 ---|---|---  
@@ -133,18 +133,18 @@ struct layout_left; |  |  (since C++23)
 ---|---  
 `layout_left` is [TriviallyCopyable](../../named_req/TriviallyCopyable.html "cpp/named req/TriviallyCopyable"), and [std::is_trivially_default_constructible_v](../../types/is_default_constructible.html)<layout_left> is true.  | (since C++26)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/layout_left&action=edit&section=1 "Edit section: Nested class templates")] Nested class templates
+### Nested class templates
 
 [ mapping](layout_left/mapping.html "cpp/container/mdspan/layout left/mapping") |  a layout mapping of layout_left  
-(public member class template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/layout_left/dsc_mapping&action=edit)  
+(public member class template)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/layout_left&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ layout_left_padded](layout_left_padded.html "cpp/container/mdspan/layout left padded")(C++26) |  column-major layout mapping policy with padding stride that can be greater than or equal to the leftmost extent   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/dsc_layout_left_padded&action=edit)  
+(class template)   
 ---|---  
 [ layout_right](layout_right.html "cpp/container/mdspan/layout right")(C++23) |  row-major multidimensional array layout mapping policy; rightmost extent has stride `1`   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/dsc_layout_right&action=edit)  
+(class)   
 [ layout_stride](layout_stride.html "cpp/container/mdspan/layout stride")(C++23) |  a layout mapping policy with user-defined strides   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/dsc_layout_stride&action=edit)
+(class) 

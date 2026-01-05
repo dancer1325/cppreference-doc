@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::tzdb`](../tzdb.html "cpp/chrono/tzdb")
 
@@ -110,7 +110,7 @@ Member functions
 [tzdb::locate_zone](locate_zone.html "cpp/chrono/tzdb/locate zone")  
 **tzdb::current_zone**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/tzdb/navbar_content&action=edit)
+
 
 const [std::chrono::time_zone](../time_zone.html)* current_zone() const; |  |  (since C++20)  
 ---|---|---  
@@ -118,6 +118,6 @@ const [std::chrono::time_zone](../time_zone.html)* current_zone() const; |  |  (
   
 Obtains a pointer to a std::chrono::time_zone in this database that represents the local time zone of the computer. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/tzdb/current_zone&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 A pointer to the std::chrono::time_zone in this database that represents the local time zone of the computer. 

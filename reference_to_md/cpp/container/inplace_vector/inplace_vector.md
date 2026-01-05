@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -71,7 +71,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::inplace_vector`](../inplace_vector.html "cpp/container/inplace vector")
 
@@ -132,7 +132,7 @@ Tables
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/inplace_vector/navbar_content&action=edit)
+
 
 constexpr inplace_vector() noexcept; |  (1)  |  (since C++26)  
 ---|---|---  
@@ -181,7 +181,7 @@ The constructor is a [trivial move constructor](../../language/move_constructor.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/inplace_vector/inplace_vector&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 count  |  \-  |  the size of the container   
 ---|---|---  
@@ -193,7 +193,7 @@ init  |  \-  |  initializer list to initialize the elements of the container wit
 Type requirements   
 -`T` must meet the requirements of [DefaultInsertable](../../named_req/DefaultInsertable.html "cpp/named req/DefaultInsertable") in order to use overloads (2,3).   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/inplace_vector/inplace_vector&action=edit&section=2 "Edit section: Complexity")] Complexity
+### Complexity
 
 1) Constant.
 
@@ -207,7 +207,7 @@ Type requirements
 
 8) Linear in size of init.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/inplace_vector/inplace_vector&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 2,3) Throws [std::bad_alloc](../../memory/new/bad_alloc.html "cpp/memory/new/bad alloc") if count > N.
 
@@ -215,7 +215,7 @@ Type requirements
 
 8) Throws [std::bad_alloc](../../memory/new/bad_alloc.html "cpp/memory/new/bad alloc") if init.size() > N.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/inplace_vector/inplace_vector&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -309,18 +309,18 @@ Possible output:
     v9 = [1, 2, 3]
     ex3.what(): std::bad_alloc
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/inplace_vector/inplace_vector&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ operator=](operator=.html "cpp/container/inplace vector/operator=") |  assigns values to the container   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_operator%3D&action=edit)  
+(public member function)   
 ---|---  
 [ capacity](capacity.html "cpp/container/inplace vector/capacity")[static] |  returns the number of elements that can be held in currently allocated storage   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_capacity&action=edit)  
+(public static member function)   
 [ data](data.html "cpp/container/inplace vector/data") |  direct access to the underlying contiguous storage   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_data&action=edit)  
+(public member function)   
 [ size](size.html "cpp/container/inplace vector/size") |  returns the number of elements   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_size&action=edit)  
+(public member function)   
 [ sizessize](../../iterator/size.html "cpp/iterator/size")(C++17)(C++20) |  returns the size of a container or array   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_size&action=edit)  
+(function template)   
 [ data](../../iterator/data.html "cpp/iterator/data")(C++17) |  obtains the pointer to the underlying array   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_data&action=edit)
+(function template) 

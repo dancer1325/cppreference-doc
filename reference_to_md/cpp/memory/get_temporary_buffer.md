@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 Defined in header `[<memory>](../header/memory.html "cpp/header/memory")` |  |   
 ---|---|---  
@@ -217,24 +217,24 @@ It is implementation-defined whether [over-aligned](../language.html#object.23Al
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/get_temporary_buffer&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 count  |  \-  |  the desired number of objects   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/get_temporary_buffer&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 A [std::pair](../utility/pair.html "cpp/utility/pair"), the member `first` is a pointer to the beginning of the allocated storage and the member `second` is the number of objects that fit in the storage that was actually allocated. 
 
 If count <= 0 or allocated storage is not enough to store a single element of type `T`, the member `first` of the result is a null pointer and the member `second` is zero. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/get_temporary_buffer&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 This API was originally designed with the intent of providing a more efficient implementation than the general-purpose [operator new](new/operator_new.html), but no such implementation was created and the API was deprecated and removed. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/get_temporary_buffer&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/example1&action=edit)
+
 
 Run this code
     
@@ -285,7 +285,7 @@ Output:
     ...
     returning temporary buffer...
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/get_temporary_buffer&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -294,10 +294,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [LWG 425](https://cplusplus.github.io/LWG/issue425) | C++98  | the behavior when count <= 0 was unclear  | made clear   
 [LWG 2072](https://cplusplus.github.io/LWG/issue2072) | C++98  | it was not allowed to allocate insufficient memory  | allowed   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/get_temporary_buffer&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ return_temporary_buffer](return_temporary_buffer.html "cpp/memory/return temporary buffer")(deprecated in C++17)(removed in C++20) |  frees uninitialized storage   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_return_temporary_buffer&action=edit)  
+(function template)   
 ---|---  
 [ allocate_at_least](allocator_traits/allocate_at_least.html "cpp/memory/allocator traits/allocate at least")[static] (C++23) |  allocates storage at least as large as the requested size via an allocator   
-(public static member function of `std::allocator_traits<Alloc>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/allocator_traits/dsc_allocate_at_least&action=edit)
+(public static member function of `std::allocator_traits<Alloc>`) 

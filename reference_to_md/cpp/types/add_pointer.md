@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Metaprogramming library](../meta.html "cpp/meta")
 
@@ -167,7 +167,7 @@ Type transformations
 Compile-time integer sequences  
 [integer_sequence](../utility/integer_sequence.html "cpp/utility/integer sequence")(C++14)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/meta/navbar_content&action=edit)
+
 
 Defined in header `[<type_traits>](../header/type_traits.html "cpp/header/type traits")` |  |   
 ---|---|---  
@@ -193,20 +193,20 @@ If the program adds specializations for `std::add_pointer`, the behavior is unde
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/add_pointer&action=edit&section=1 "Edit section: Nested types")] Nested types
+### Nested types
 
 Name  |  Definition   
 ---|---  
 `type` |  determined as above   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/add_pointer&action=edit&section=2 "Edit section: Helper types")] Helper types
+### Helper types
 
 template< class T >  
 using add_pointer_t = typename add_pointer<T>::type; |  |  (since C++14)  
 ---|---|---  
 | |   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/add_pointer&action=edit&section=3 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     namespace detail
@@ -228,7 +228,7 @@ using add_pointer_t = typename add_pointer<T>::type; |  |  (since C++14)
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/add_pointer&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -282,7 +282,7 @@ Output:
     *pi = 123
     j = 123
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/add_pointer&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -290,10 +290,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 2101](https://cplusplus.github.io/LWG/issue2101) | C++11  | the program was ill-formed if `T` is a [function type](../language/function.html#Function_type "cpp/language/function") with cv or ref | the type produced is `T` in this case   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/add_pointer&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ is_pointer](is_pointer.html "cpp/types/is pointer")(C++11) |  checks if a type is a pointer type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_pointer&action=edit)  
+(class template)   
 ---|---  
 [ remove_pointer](remove_pointer.html "cpp/types/remove pointer")(C++11) |  removes a pointer from the given type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_remove_pointer&action=edit)
+(class template) 

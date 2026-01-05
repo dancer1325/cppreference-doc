@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concepts library](../concepts.html "cpp/concepts")
 
@@ -73,7 +73,7 @@
 ---  
 [_boolean-testable_](boolean-testable.html "cpp/concepts/boolean-testable") ﻿(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/navbar_content&action=edit)
+
 
 Defined in header `[<concepts>](../header/concepts.html "cpp/header/concepts")` |  |   
 ---|---|---  
@@ -97,11 +97,11 @@ The concept `swappable<T>` specifies that lvalues of type `T` are swappable.
 
 The concept `swappable_with<T, U>` specifies that expressions of the type and value category encoded by `T` and `U` are swappable with each other. `swappable_with<T, U>` is satisfied only if a call to [ranges::swap](http://en.cppreference.com/w/cpp/ranges-utility-placeholder/swap)(t, u) exchanges the value of `t` and `u`, that is, given distinct objects `t2` equal to `t` and `u2` equal to `u`, after evaluating either [ranges::swap](http://en.cppreference.com/w/cpp/ranges-utility-placeholder/swap)(t, u) or [ranges::swap](http://en.cppreference.com/w/cpp/ranges-utility-placeholder/swap)(u, t), `t2` is equal to `u` and `u2` is equal to `t`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/equality_preservation&action=edit&section=T-1 "Template:cpp/concepts/equality preservation")] Equality preservation
+### Equality preservation
 
 Expressions declared in [requires expressions](../language/requires.html "cpp/language/requires") of the standard library concepts are required to be [equality-preserving](../concepts.html#Equality_preservation "cpp/concepts") (except where stated otherwise). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/concepts/swappable&action=edit&section=1 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 

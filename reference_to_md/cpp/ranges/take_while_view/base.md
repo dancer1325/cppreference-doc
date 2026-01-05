@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::take_while_view`](../take_while_view.html "cpp/ranges/take while view")
 
@@ -241,7 +241,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
 [take_while_view::_sentinel_ ::base](sentinel/base.html "cpp/ranges/take while view/sentinel/base")  
 [operator==(take_while_view::_sentinel_)](sentinel/operator_cmp.html "cpp/ranges/take while view/sentinel/operator cmp")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/take_while_view/navbar_content&action=edit)
+
 
 constexpr V base() const& requires [std::copy_constructible](../../concepts/copy_constructible.html)<V>; |  (1)  |  (since C++20)  
 ---|---|---  
@@ -264,15 +264,15 @@ Returns a copy of the underlying view.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/take_while_view/base&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/take_while_view/base&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 A copy of the underlying view. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/take_while_view/base&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -304,8 +304,8 @@ Output:
     1 2 3
     1 2 3 4 5
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/take_while_view/base&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ pred](pred.html "cpp/ranges/take while view/pred") |  returns a reference to the stored predicate   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/dsc_pred&action=edit)  
+(public member function)   
 ---|---

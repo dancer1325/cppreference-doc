@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::time_point`](../time_point.html "cpp/chrono/time point")
 
@@ -124,7 +124,7 @@ Helper classes
 [common_type](common_type.html "cpp/chrono/time point/common type")  
 [hash<std::chrono::time_point>](hash.html "cpp/chrono/time point/hash")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_point/navbar_content&action=edit)
+
 
 Defined in header `[<chrono>](../../header/chrono.html "cpp/header/chrono")` |  |   
 ---|---|---  
@@ -148,16 +148,16 @@ The function does not participate in the overload resolution unless `ToDuration`
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/time_point/ceil&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 tp  |  \-  |  time point to round up   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/time_point/ceil&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 tp rounded up to the next time point using duration of type `ToDuration`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/time_point/ceil&action=edit&section=3 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     namespace detail
@@ -178,9 +178,9 @@ tp rounded up to the next time point using duration of type `ToDuration`.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/time_point/ceil&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_point/round_example&action=edit)
+
 
 Run this code
     
@@ -224,16 +224,16 @@ Output:
     5432		5	5	5	6
     5678		5	5	6	6
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/time_point/ceil&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ time_point_cast](time_point_cast.html "cpp/chrono/time point/time point cast")(C++11) |  converts a time point to another time point on the same clock, with a different duration   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_point/dsc_time_point_cast&action=edit)  
+(function template)   
 ---|---  
 [ floor(std::chrono::time_point)](floor.html "cpp/chrono/time point/floor")(C++17) |  converts a time_point to another, rounding down   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_point/dsc_floor&action=edit)  
+(function template)   
 [ round(std::chrono::time_point)](round.html "cpp/chrono/time point/round")(C++17) |  converts a time_point to another, rounding to nearest, ties to even   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_point/dsc_round&action=edit)  
+(function template)   
 [ ceil(std::chrono::duration)](../duration/ceil.html "cpp/chrono/duration/ceil")(C++17) |  converts a duration to another, rounding up   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/duration/dsc_ceil&action=edit)  
+(function template)   
 [ ceilceilfceill](../../numeric/math/ceil.html "cpp/numeric/math/ceil")(C++11)(C++11) |  nearest integer not less than the given value   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_ceil&action=edit)
+(function) 

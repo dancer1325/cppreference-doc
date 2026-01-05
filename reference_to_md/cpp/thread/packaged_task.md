@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 **`std::packaged_task`**
 
@@ -196,7 +196,7 @@ Helper classes
 [uses_allocator<std::packaged_task>](packaged_task/uses_allocator.html "cpp/thread/packaged task/uses allocator")(until C++17)  
 [Deduction guides](packaged_task/deduction_guides.html "cpp/thread/packaged task/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/packaged_task/navbar_content&action=edit)
+
 
 Defined in header `[<future>](../header/future.html "cpp/header/future")` |  |   
 ---|---|---  
@@ -227,49 +227,49 @@ Just like [std::function](../utility/functional/function.html "cpp/utility/funct
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/packaged_task&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](packaged_task/packaged_task.html "cpp/thread/packaged task/packaged task") |  constructs the task object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/packaged_task/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ (destructor)](packaged_task/~packaged_task.html "cpp/thread/packaged task/~packaged task") |  destructs the task object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/packaged_task/dsc_destructor&action=edit)  
+(public member function)   
 [ operator=](packaged_task/operator=.html "cpp/thread/packaged task/operator=") |  moves the task object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/packaged_task/dsc_operator%3D&action=edit)  
+(public member function)   
 [ valid](packaged_task/valid.html "cpp/thread/packaged task/valid") |  checks if the task object has a valid function   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/packaged_task/dsc_valid&action=edit)  
+(public member function)   
 [ swap](packaged_task/swap.html "cpp/thread/packaged task/swap") |  swaps two task objects   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/packaged_task/dsc_swap&action=edit)  
+(public member function)   
   
 #####  Getting the result   
   
 [ get_future](packaged_task/get_future.html "cpp/thread/packaged task/get future") |  returns a [std::future](future.html "cpp/thread/future") associated with the promised result   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/packaged_task/dsc_get_future&action=edit)  
+(public member function)   
   
 #####  Execution   
   
 [ operator()](packaged_task/operator\(\).html "cpp/thread/packaged task/operator\(\)") |  executes the function   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/packaged_task/dsc_operator\(\)&action=edit)  
+(public member function) &action=edit)  
 [ make_ready_at_thread_exit](packaged_task/make_ready_at_thread_exit.html "cpp/thread/packaged task/make ready at thread exit") |  executes the function ensuring that the result is ready only once the current thread exits   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/packaged_task/dsc_make_ready_at_thread_exit&action=edit)  
+(public member function)   
 [ reset](packaged_task/reset.html "cpp/thread/packaged task/reset") |  resets the state abandoning any stored results of previous executions   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/packaged_task/dsc_reset&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/packaged_task&action=edit&section=2 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ std::swap(std::packaged_task)](packaged_task/swap2.html "cpp/thread/packaged task/swap2")(C++11) |  specializes the [std::swap](../utility/swap.html "cpp/algorithm/swap") algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/packaged_task/dsc_swap2&action=edit)  
+(function template)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/packaged_task&action=edit&section=3 "Edit section: Helper classes")] Helper classes
+### Helper classes
 
 [ std::uses_allocator<std::packaged_task>](packaged_task/uses_allocator.html "cpp/thread/packaged task/uses allocator")(C++11) (until C++17) |  specializes the [std::uses_allocator](../memory/uses_allocator.html "cpp/memory/uses allocator") type trait   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/packaged_task/dsc_uses_allocator&action=edit)  
+(class template specialization)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/packaged_task&action=edit&section=4 "Edit section: Deduction guides \(since C++17\)")] [Deduction guides](packaged_task/deduction_guides.html "cpp/thread/packaged task/deduction guides") (since C++17)
+### [Deduction guides](packaged_task/deduction_guides.html "cpp/thread/packaged task/deduction guides") (since C++17)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/packaged_task&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -331,7 +331,7 @@ Output:
     task_bind:   2048
     task_thread: 1024
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/packaged_task&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -339,8 +339,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 3117](https://cplusplus.github.io/LWG/issue3117) | C++17  | deduction guides for `packaged_task` were missing  | added   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/packaged_task&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ future](future.html "cpp/thread/future")(C++11) |  waits for a value that is set asynchronously   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_future&action=edit)  
+(class template)   
 ---|---

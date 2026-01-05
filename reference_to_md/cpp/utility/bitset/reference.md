@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::bitset`](../bitset.html "cpp/utility/bitset")
 
@@ -167,7 +167,7 @@ Common vocabulary types
 [Helper classes](../bitset.html#Helper_classes "cpp/utility/bitset")  
 [std::hash](hash.html "cpp/utility/bitset/hash")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/bitset/navbar_content&action=edit)
+
 
 class reference; |  |   
 ---|---|---  
@@ -199,7 +199,7 @@ Any reads or writes to a bitset that happen via a `std::bitset::reference` poten
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/bitset/reference&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 (constructor) |  constructs the reference   
 (public member function)  
@@ -209,7 +209,7 @@ Any reads or writes to a bitset that happen via a `std::bitset::reference` poten
 operator= |  assigns a value to the referenced bit   
 (public member function)  
 ** operator bool** |  returns the referenced bit   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/bitset/reference/dsc_operator_bool&action=edit)  
+(public member function)   
 operator~ |  returns inverted referenced bit   
 (public member function)  
 flip |  flips the referenced bit   
@@ -293,7 +293,7 @@ Inverts the referenced bit.
 
 *this
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/bitset/reference&action=edit&section=7 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -334,8 +334,8 @@ Output:
     5) bs: 1110; ref bit: 1
     6) ~ref bit: 0
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/bitset/reference&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [ operator[]](operator_at.html "cpp/utility/bitset/operator at") |  accesses specific bit   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/bitset/dsc_operator_at&action=edit)  
+(public member function)   
 ---|---

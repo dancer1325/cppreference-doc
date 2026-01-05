@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::atomic_ref`](../atomic_ref.html "cpp/atomic/atomic ref")
 
@@ -211,7 +211,7 @@
 [atomic_ref::is_always_lock_free](is_always_lock_free.html "cpp/atomic/atomic ref/is always lock free")  
 [atomic_ref::required_alignment](required_alignment.html "cpp/atomic/atomic ref/required alignment")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic_ref/navbar_content&action=edit)
+
 
 value_type load( [std::memory_order](../memory_order.html) order =  
 [std::memory_order_seq_cst](../memory_order.html) ) const noexcept; |  | (constexpr since C++26)  
@@ -222,17 +222,17 @@ Atomically loads and returns the current value of the referenced object. Memory 
 
 If order is not [std::memory_order_relaxed](../memory_order.html), [std::memory_order_consume](../memory_order.html), [std::memory_order_acquire](../memory_order.html) or [std::memory_order_seq_cst](../memory_order.html), the behavior is undefined. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_ref/load&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 order  |  \-  |  memory order constraints to enforce   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_ref/load&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The current value of the referenced object. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_ref/load&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ operator value_type](operator_T.html "cpp/atomic/atomic ref/operator T") |  loads a value from the referenced object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic_ref/dsc_operator_T&action=edit)  
+(public member function)   
 ---|---

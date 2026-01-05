@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Expressions](expressions.html "cpp/language/expressions")
 
@@ -289,7 +289,7 @@ Conversions
 [`dynamic_cast`](dynamic_cast.html "cpp/language/dynamic cast")  
 [`reinterpret_cast`](reinterpret_cast.html "cpp/language/reinterpret cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/expressions/navbar_content&action=edit)
+
 
 Queries information of a type. 
 
@@ -308,7 +308,7 @@ Used where the [dynamic type](type-id.html#Dynamic_type "cpp/language/type") of 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/typeid&action=edit&section=1 "Edit section: Syntax")] Syntax  
+### Syntax  
   
 ---  
 `**typeid (**` type `**)**` |  (1)  |   
@@ -318,7 +318,7 @@ The typeid expression is an [lvalue expression](value_category.html "cpp/languag
 
 If the standard library definition of [std::type_info](../types/type_info.html "cpp/types/type info") is not visible when using typeid, the program is ill-formed. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/typeid&action=edit&section=2 "Edit section: Explanation")] Explanation
+### Explanation
 
 If type or the type of expression is a class type or a reference to a class type, then that class type cannot be an [incomplete type](incomplete_type.html "cpp/language/incomplete type"). 
 
@@ -356,7 +356,7 @@ If typeid is used on an object under construction or destruction (in a destructo
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/typeid&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 When applied to an expression of polymorphic type, evaluation of a typeid expression may involve runtime overhead (a virtual table lookup), otherwise typeid expression is resolved at compile time. 
 
@@ -373,11 +373,11 @@ There is no guarantee that the same [std::type_info](../types/type_info.html "cp
     [assert](../error/assert.html)(ti1.hash_code() == ti2.hash_code()); // guaranteed
     [assert](../error/assert.html)([std::type_index](../types/type_index.html)(ti1) == [std::type_index](../types/type_index.html)(ti2)); // guaranteed
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/typeid&action=edit&section=4 "Edit section: Keywords")] Keywords
+### Keywords
 
 [`typeid`](../keyword/typeid.html "cpp/keyword/typeid")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/typeid&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 The example showing output using one of the implementations where type_info::name returns full type names; filter through c++filt -t if using gcc or similar.
 
@@ -464,7 +464,7 @@ Possible output:
     mydoubleptr points to double
     bad_ptr points to...  caught Attempted a typeid of nullptr pointer!
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/typeid&action=edit&section=8 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -480,8 +480,8 @@ matchable derived classes
 [CWG 1954](https://cplusplus.github.io/CWG/issues/1954.html) | C++98  | it was unclear whether null pointer dereference  
 can be checked in subexpressions of expression | only checked at top level   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/typeid&action=edit&section=9 "Edit section: See also")] See also
+### See also
 
 [ type_info](../types/type_info.html "cpp/types/type info") |  contains some type’s information, the class returned by the typeid operator   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_type_info&action=edit)  
+(class)   
 ---|---

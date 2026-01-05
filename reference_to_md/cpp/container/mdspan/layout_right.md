@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -71,7 +71,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::mdspan`](../mdspan.html "cpp/container/mdspan")
 
@@ -120,7 +120,7 @@ Tables
 [submdspan_mapping_result](submdspan_mapping_result.html "cpp/container/mdspan/submdspan mapping result")(C++26)  
 [Deduction guides](deduction_guides.html "cpp/container/mdspan/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/navbar_content&action=edit)
+
 
 Defined in header `[<mdspan>](../../header/mdspan.html "cpp/header/mdspan")` |  |   
 ---|---|---  
@@ -135,18 +135,18 @@ struct layout_right; |  |  (since C++23)
   
 It is the default layout mapping policy used by std::mdspan if no user-specified layout is provided. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/layout_right&action=edit&section=1 "Edit section: Nested class templates")] Nested class templates
+### Nested class templates
 
 [ mapping](layout_right/mapping.html "cpp/container/mdspan/layout right/mapping") |  a layout mapping of layout_right  
-(public member class template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/layout_right/dsc_mapping&action=edit)  
+(public member class template)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/layout_right&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ layout_right_padded](layout_right_padded.html "cpp/container/mdspan/layout right padded")(C++26) |  row-major layout mapping policy with padding stride that can be greater than or equal to the rightmost extent   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/dsc_layout_right_padded&action=edit)  
+(class template)   
 ---|---  
 [ layout_left](layout_left.html "cpp/container/mdspan/layout left")(C++23) |  column-major multidimensional array layout mapping policy; leftmost extent has stride `1`   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/dsc_layout_left&action=edit)  
+(class)   
 [ layout_stride](layout_stride.html "cpp/container/mdspan/layout stride")(C++23) |  a layout mapping policy with user-defined strides   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/dsc_layout_stride&action=edit)
+(class) 

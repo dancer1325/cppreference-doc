@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::tzdb_list`](../tzdb_list.html "cpp/chrono/tzdb list")
 
@@ -112,7 +112,7 @@ Member functions
 [tzdb_list::begintzdb_list::cbegin](begin.html "cpp/chrono/tzdb list/begin")  
 [tzdb_list::endtzdb_list::cend](end.html "cpp/chrono/tzdb list/end")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/tzdb_list/navbar_content&action=edit)
+
 
 const_iterator erase_after( const_iterator p ); |  |  (since C++20)  
 ---|---|---  
@@ -120,15 +120,15 @@ const_iterator erase_after( const_iterator p ); |  |  (since C++20)
   
 Erases the std::chrono::tzdb referred to by the iterator following p. That iterator must be dereferenceable. Otherwise, the behavior is undefined. No pointers, references, or iterators are invalidated except for those referring to the erased element. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/tzdb_list/erase_after&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 p  |  \-  |  an iterator to the position to erase after   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/tzdb_list/erase_after&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 An iterator pointing to the element following the erased element, or [`end()`](end.html "cpp/chrono/tzdb list/end") if no such element exists. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/tzdb_list/erase_after&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 `tzdb_list` is intended to be implementable as a singly linked list, and its interface resembles that of [std::forward_list](../../container/forward_list.html "cpp/container/forward list"). It has no `before_begin()`, however, and so it is not possible to erase the first element. 

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Statements](statements.html "cpp/language/statements")
 
@@ -253,7 +253,7 @@ Miscellaneous
 **Transactional memory**  
 [`synchronized`](transactional_memory.html#Synchronized_blocks "cpp/language/transactional memory"), [`atomic_commit`](transactional_memory.html#Atomic_blocks "cpp/language/transactional memory"), etc (TM TS)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/statements/navbar_content&action=edit)
+
 
 ![](https://upload.cppreference.com/mwiki/images/3/31/Imbox_notice.png) |  **Work in progress** This page is under construction   
 ---|---  
@@ -288,7 +288,7 @@ If feature testing is supported, the features described here are indicated by th
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/transactional_memory&action=edit&section=1 "Edit section: Synchronized blocks")] Synchronized blocks
+### Synchronized blocks
 
 `**synchronized**` compound-statement
 
@@ -338,7 +338,7 @@ Entering a synchronized block by goto or switch is not allowed.
 
 Although synchronized blocks execute as-if under a global lock, the implementations are expected to examine the code within each block and use optimistic concurrency (backed up by hardware transactional memory where available) for transaction-safe code and minimal locking for non-transaction safe code. When a synchronized block makes a call to a non-inlined function, the compiler may have to drop out of speculative execution and hold a lock around the entire call unless the function is declared `transaction_safe` (see below) or the attribute `[[optimize_for_synchronized]]` (see below) is used. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/transactional_memory&action=edit&section=2 "Edit section: Atomic blocks")] Atomic blocks
+### Atomic blocks
 
 | This section is incomplete   
 ---|---  
@@ -373,7 +373,7 @@ The compound-statement in an atomic block is not allowed to execute any expressi
 
 Leaving an atomic block by any means other than exception (reaching the end, goto, break, continue, return) commits the transaction. The behavior is undefined if [std::longjmp](../utility/program/longjmp.html "cpp/utility/program/longjmp") is used to exit an atomic block. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/transactional_memory&action=edit&section=3 "Edit section: Transaction-safe functions")] Transaction-safe functions
+### Transaction-safe functions
 
 | This section is incomplete   
 ---|---  
@@ -414,14 +414,14 @@ If a function that is not transaction-safe is called through a reference or poin
   
 Pointers to transaction-safe functions and pointers to transaction-safe member functions are implicitly convertible to pointers to functions and pointers to member functions respectively. It is unspecified if the resulting pointer compares equal to the original. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/transactional_memory&action=edit&section=4 "Edit section: Transaction-safe virtual functions")] Transaction-safe virtual functions
+#### Transaction-safe virtual functions
 
 | This section is incomplete   
 ---|---  
   
 If the final overrider of a `transaction_safe_dynamic` function is not declared `transaction_safe`, calling it in an atomic block is undefined behavior. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/transactional_memory&action=edit&section=5 "Edit section: Standard library")] Standard library
+### Standard library
 
 Besides introducing the new exception template [`std::tx_exception`](../error/tx_exception.html "cpp/error/tx exception"), the transactional memory technical specification makes the following changes to the standard library: 
 
@@ -451,7 +451,7 @@ Reason: there's more
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/transactional_memory&action=edit&section=6 "Edit section: Attributes")] Attributes
+### Attributes
 
 The attribute `[[[optimize_for_synchronized](attributes/optimize_for_synchronized.html "cpp/language/attributes/optimize for synchronized")]]` may be applied to a declarator in a function declaration and must appear on the first declaration of the function. 
 
@@ -531,16 +531,16 @@ GCC assembly with the attribute:
 Reason: check assembly with trunk, also show caller-side changes   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/transactional_memory&action=edit&section=7 "Edit section: Notes")] Notes
+### Notes
 
 | This section is incomplete  
 Reason: experience notes from Wyatt paper/talk   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/transactional_memory&action=edit&section=8 "Edit section: Keywords")] Keywords
+### Keywords
 
 [`atomic_cancel`](../keyword/atomic_cancel.html "cpp/keyword/atomic cancel"), [`atomic_commit`](../keyword/atomic_commit.html "cpp/keyword/atomic commit"), [`atomic_noexcept`](../keyword/atomic_noexcept.html "cpp/keyword/atomic noexcept"), [`synchronized`](../keyword/synchronized.html "cpp/keyword/synchronized"), [`transaction_safe`](../keyword/transaction_safe.html "cpp/keyword/transaction safe"), [`transaction_safe_dynamic`](../keyword/transaction_safe_dynamic.html "cpp/keyword/transaction safe dynamic")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/transactional_memory&action=edit&section=9 "Edit section: Compiler support")] Compiler support
+### Compiler support
 
 This technical specification is supported by GCC as of version 6.1 (requires -fgnu-tm to enable). An older variant of this specification was [supported in GCC](http://www-users.cs.umn.edu/~boutcher/stm/) as of 4.7. 

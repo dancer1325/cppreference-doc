@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::thread`](../thread.html "cpp/thread/thread")
 
@@ -196,7 +196,7 @@
 [Non-member functions](../thread.html#Non-member_functions "cpp/thread/thread")  
 [swap(std::thread)](swap2.html "cpp/thread/thread/swap2")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/navbar_content&action=edit)
+
 
 **`std::thread::id`**
 
@@ -210,7 +210,7 @@ Helper classes
 [hash<std::thread::id>](id/hash.html "cpp/thread/thread/id/hash")  
 [formatter<std::thread::id>](id/formatter.html "cpp/thread/thread/id/formatter")(C++23)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/id/navbar_content&action=edit)
+
 
 Defined in header `[<thread>](../../header/thread.html "cpp/header/thread")` |  |   
 ---|---|---  
@@ -233,32 +233,32 @@ This class is designed for use as key in associative containers, both ordered an
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/thread/id&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](id/id.html "cpp/thread/thread/id/id") |  constructs an id that does not represent a thread   
 (public member function)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/thread/id&action=edit&section=2 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ operator==operator!=operator<operator<=operator>operator>=operator<=>](id/operator_cmp.html "cpp/thread/thread/id/operator cmp")(removed in C++20)(removed in C++20)(removed in C++20)(removed in C++20)(removed in C++20)(C++20) |  compares two `thread::id` objects   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/id/dsc_operator_cmp&action=edit)  
+(function)   
 ---|---  
 [ operator<<](id/operator_ltlt.html "cpp/thread/thread/id/operator ltlt") |  serializes a `thread::id` object   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/id/dsc_operator_ltlt&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/thread/id&action=edit&section=3 "Edit section: Helper classes")] Helper classes
+### Helper classes
 
 [ std::hash<std::thread::id>](id/hash.html "cpp/thread/thread/id/hash")(C++11) |  hash support for **`std::thread::id`**   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/id/dsc_hash&action=edit)  
+(class template specialization)   
 ---|---  
 [ std::formatter<std::thread::id>](id/formatter.html "cpp/thread/thread/id/formatter")(C++23) |  formatting support for `thread::id`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/id/dsc_formatter&action=edit)  
+(class template specialization)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/thread/id&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ get_id](get_id.html "cpp/thread/thread/get id") |  returns the _id_ of the thread   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/dsc_get_id&action=edit)  
+(public member function)   
 ---|---  
 [ get_id](../get_id.html "cpp/thread/get id")(C++11) |  returns the thread id of the current thread   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_get_id&action=edit)
+(function) 

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Diagnostics library](../../error.html "cpp/error")
 
@@ -89,7 +89,7 @@ Exception handling failures
 [breakpoint_if_debugging](../breakpoint_if_debugging.html "cpp/utility/breakpoint if debugging")(C++26)  
 [breakpoint](../breakpoint.html "cpp/utility/breakpoint")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/navbar_content&action=edit)
+
 
 [`std::stacktrace_entry`](../stacktrace_entry.html "cpp/utility/stacktrace entry")
 
@@ -113,7 +113,7 @@ operator<=>](operator_cmp.html "cpp/utility/stacktrace entry/operator cmp")
 [hash<std::stacktrace_entry>](hash.html "cpp/utility/stacktrace entry/hash")  
 [formatter<std::stacktrace_entry>](formatter.html "cpp/utility/stacktrace entry/formatter")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/stacktrace_entry/navbar_content&action=edit)
+
 
 constexpr stacktrace_entry() noexcept; |  (1)  |  (since C++23)  
 ---|---|---  
@@ -134,23 +134,23 @@ constexpr stacktrace_entry( const stacktrace_entry& other ) noexcept; |  (2)  | 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/stacktrace_entry/stacktrace_entry&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 other  |  \-  |  another `stacktrace_entry` to copy from   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/stacktrace_entry/stacktrace_entry&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 A non-empty `stacktrace_entry` can be obtained from a std::basic_stacktrace created by std::basic_stacktrace::current or a copy of such `std::basic_stacktrace`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/stacktrace_entry/stacktrace_entry&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/stacktrace_entry/stacktrace_entry&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ (constructor)](../source_location/source_location.html "cpp/utility/source location/source location") |  constructs a new `source_location` with implementation-defined values   
-(public member function of `std::source_location`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/source_location/dsc_constructor&action=edit)  
+(public member function of `std::source_location`)   
 ---|---

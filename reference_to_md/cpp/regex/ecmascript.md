@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../locale/text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Regular expressions library](../regex.html "cpp/regex")
 
@@ -81,7 +81,7 @@ Constants
 Regex Grammar  
 **Modified ECMAScript-262**(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/regex/navbar_content&action=edit)
+
 
 This page describes the regular expression grammar that is used when [std::basic_regex](basic_regex.html "cpp/regex/basic regex") is constructed with [`syntax_option_type`](syntax_option_type.html "cpp/regex/syntax option type") set to `ECMAScript` (the default). See [`syntax_option_type`](syntax_option_type.html "cpp/regex/syntax option type") for the other supported regular expression grammars. 
 
@@ -104,7 +104,7 @@ The `ECMAScript` 3 regular expression grammar in C++ is [ECMA-262 grammar](https
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/ecmascript&action=edit&section=1 "Edit section: Overview")] Overview
+### Overview
 
 The [modified regular expression grammar](https://eel.is/c++draft/re.grammar) is mostly ECMAScript RegExp grammar with a POSIX-type expansion on locales under _ClassAtom_. Some clarifications on equality checks and number parsing is made. For many of the examples here, you can try this equivalent in your browser console: 
     
@@ -113,7 +113,7 @@ The [modified regular expression grammar](https://eel.is/c++draft/re.grammar) is
 
 The "normative references" in the standard specifies ECMAScript 3. We link to the ECMAScript 5.1 spec here because it is a version with only minor changes from ECMAScript 3, and it also has an HTML version. See the [MDN Guide on JavaScript RegExp](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) for an overview on the dialect features. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/ecmascript&action=edit&section=2 "Edit section: Alternatives")] Alternatives
+### Alternatives
 
 A regular expression pattern is a sequence of one or more _Alternative_ s, separated by the disjunction operator `**|**` (in other words, the disjunction operator has the lowest precedence). 
 
@@ -187,7 +187,7 @@ Output:
       smatch: m[0]=[abc] m[1]=[a] m[2]=[a] m[3]=[] m[4]=[bc] m[5]=[] m[6]=[bc]
       suffix=[]
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/ecmascript&action=edit&section=3 "Edit section: Terms")] Terms
+### Terms
 
 Each _Alternative_ is either empty or is a sequence of _Term_ s (with no separators between the _Term_ s) 
 
@@ -249,7 +249,7 @@ Output:
       smatch: m[0]=[]
       suffix=[abc]
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/ecmascript&action=edit&section=4 "Edit section: Quantifiers")] Quantifiers
+### Quantifiers
 
   * Each _Term_ is either an _Assertion_ (see below), or an _Atom_ (see below), or an _Atom_ immediately followed by a _Quantifier_
 
@@ -364,7 +364,7 @@ Output:
       smatch: m[0]=[zaacbbbcac] m[1]=[z] m[2]=[ac] m[3]=[a] m[4]=[] m[5]=[c] 
       suffix=[]
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/ecmascript&action=edit&section=5 "Edit section: Assertions")] Assertions
+### Assertions
 
 _Assertion_ s match conditions, rather than substrings of the input string. They never consume any characters from the input. Each _Assertion_ is one of the following 
 
@@ -491,7 +491,7 @@ Output:
       smatch: m[0]=[aB,def] 
       suffix=[]
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/ecmascript&action=edit&section=6 "Edit section: Atoms")] Atoms
+### Atoms
 
 An _Atom_ can be one of the following: 
 
@@ -512,7 +512,7 @@ where _AtomEscape_ ::
 
 Different kinds of atoms evaluate differently. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/ecmascript&action=edit&section=7 "Edit section: Sub-expressions")] Sub-expressions
+### Sub-expressions
 
 The _Atom_ `**(**` _Disjunction_ `**)**` is a marked subexpression: it executes the _Disjunction_ and stores the copy of the input substring that was consumed by _Disjunction_ in the submatch array at the index that corresponds to the number of times the left open parenthesis `**(**` of marked subexpressions has been encountered in the entire regular expression at this point. 
 
@@ -524,7 +524,7 @@ The _Atom_ `**(**` `**?**` `**:**` _Disjunction_ `**)**` (non-marking subexpress
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/ecmascript&action=edit&section=8 "Edit section: Backreferences")] Backreferences
+### Backreferences
 
 _DecimalEscape_ :: 
 
@@ -542,7 +542,7 @@ As above, note that [std::regex_replace](regex_replace.html "cpp/regex/regex rep
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/ecmascript&action=edit&section=9 "Edit section: Single character matches")] Single character matches
+### Single character matches
 
 The _Atom_ `**.**` matches and consumes any one character from the input string except for _LineTerminator_ (`U+000D`, `U+000A`, `U+2029`, or `U+2028`) 
 
@@ -638,7 +638,7 @@ Possible output:
     input=[?], regex=[[\u0000-\ufffe]+]: NO MATCH
     
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/ecmascript&action=edit&section=10 "Edit section: Character classes")] Character classes
+### Character classes
 
 An Atom can represent a character class, that is, it will match and consume one character if it belongs to one of the predefined groups of characters. 
 
@@ -745,7 +745,7 @@ The characters `**-**` and `**]**` may need to be escaped in some situations in 
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/regex/ecmascript&action=edit&section=11 "Edit section: POSIX-based character classes")] POSIX-based character classes
+### POSIX-based character classes
 
 These character classes are an extension to the ECMAScript grammar, and are equivalent to character classes found in the POSIX regular expressions. 
 

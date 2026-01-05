@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Localization library](../locale.html "cpp/locale")
 
@@ -152,7 +152,7 @@ base classes](../locale.html#Facet_category_base_classes "cpp/locale")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/navbar_content&action=edit)
+
 
 **`std::ctype`**
 
@@ -176,7 +176,7 @@ Member functions of ctype<char>
 [ctype<char>::scan_is](ctype_char/scan_is.html "cpp/locale/ctype char/scan is")  
 [ctype<char>::scan_not](ctype_char/scan_not.html "cpp/locale/ctype char/scan not")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/ctype/navbar_content&action=edit)
+
 
 Defined in header `[<locale>](../header/locale.html "cpp/header/locale")` |  |   
 ---|---|---  
@@ -206,7 +206,7 @@ Inheritance diagram
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/ctype&action=edit&section=1 "Edit section: Specializations")] Specializations
+### Specializations
 
 The standard library is guaranteed to provide the following specializations (they are [required to be implemented by any locale object](locale.html "cpp/locale/locale")): 
 
@@ -215,19 +215,19 @@ Defined in header `[<locale>](../header/locale.html "cpp/header/locale")`
 [`std::ctype<char>`](ctype_char.html "cpp/locale/ctype char") |  provides narrow character equivalents of the minimal "C" locale classification. This specialization uses table lookup for character classification   
 std::ctype<wchar_t> |  provides wide character classification appropriate to the native character set   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/ctype&action=edit&section=2 "Edit section: Nested types")] Nested types
+### Nested types
 
 Type  |  Definition   
 ---|---  
 `char_type` |  `CharT`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/facet_data_members&action=edit&section=T-1 "Template:cpp/locale/facet data members")] Data members
+### Data members
 
 Member  |  Description   
 ---|---  
 [std::locale::id](locale/id.html "cpp/locale/locale/id") `id` [static] |  the identifier of the [facet](locale/facet.html#Facet_class "cpp/locale/locale/facet")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/ctype&action=edit&section=3 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](ctype/ctype.html "cpp/locale/ctype/ctype") |  constructs a new `ctype` facet   
 (public member function)  
@@ -235,37 +235,37 @@ Member  |  Description
 [ (destructor)](ctype/~ctype.html "cpp/locale/ctype/~ctype") |  destructs a `ctype` facet   
 (protected member function)  
 [ is](ctype/is.html "cpp/locale/ctype/is") |  invokes `do_is`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/ctype/dsc_is&action=edit)  
+(public member function)   
 [ scan_is](ctype/scan_is.html "cpp/locale/ctype/scan is") |  invokes `do_scan_is`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/ctype/dsc_scan_is&action=edit)  
+(public member function)   
 [ scan_not](ctype/scan_not.html "cpp/locale/ctype/scan not") |  invokes `do_scan_not`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/ctype/dsc_scan_not&action=edit)  
+(public member function)   
 [ toupper](ctype/toupper.html "cpp/locale/ctype/toupper") |  invokes `do_toupper`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/ctype/dsc_toupper&action=edit)  
+(public member function)   
 [ tolower](ctype/tolower.html "cpp/locale/ctype/tolower") |  invokes `do_tolower`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/ctype/dsc_tolower&action=edit)  
+(public member function)   
 [ widen](ctype/widen.html "cpp/locale/ctype/widen") |  invokes `do_widen`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/ctype/dsc_widen&action=edit)  
+(public member function)   
 [ narrow](ctype/narrow.html "cpp/locale/ctype/narrow") |  invokes `do_narrow`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/ctype/dsc_narrow&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/ctype&action=edit&section=4 "Edit section: Protected member functions")] Protected member functions
+### Protected member functions
 
 [ do_is](ctype/is.html "cpp/locale/ctype/is")[virtual] |  classifies a character or a character sequence   
-(virtual protected member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/ctype/dsc_do_is&action=edit)  
+(virtual protected member function)   
 ---|---  
 [ do_scan_is](ctype/scan_is.html "cpp/locale/ctype/scan is")[virtual] |  locates the first character in a sequence that conforms to given classification   
-(virtual protected member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/ctype/dsc_do_scan_is&action=edit)  
+(virtual protected member function)   
 [ do_scan_not](ctype/scan_not.html "cpp/locale/ctype/scan not")[virtual] |  locates the first character in a sequence that fails given classification   
-(virtual protected member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/ctype/dsc_do_scan_not&action=edit)  
+(virtual protected member function)   
 [ do_toupper](ctype/toupper.html "cpp/locale/ctype/toupper")[virtual] |  converts a character or characters to uppercase   
-(virtual protected member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/ctype/dsc_do_toupper&action=edit)  
+(virtual protected member function)   
 [ do_tolower](ctype/tolower.html "cpp/locale/ctype/tolower")[virtual] |  converts a character or characters to lowercase   
-(virtual protected member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/ctype/dsc_do_tolower&action=edit)  
+(virtual protected member function)   
 [ do_widen](ctype/widen.html "cpp/locale/ctype/widen")[virtual] |  converts a character or characters from char to `CharT`   
-(virtual protected member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/ctype/dsc_do_widen&action=edit)  
+(virtual protected member function)   
 [ do_narrow](ctype/narrow.html "cpp/locale/ctype/narrow")[virtual] |  converts a character or characters from `CharT` to char   
-(virtual protected member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/ctype/dsc_do_narrow&action=edit)  
+(virtual protected member function)   
   
 ##  Inherited from [std::ctype_base](ctype_base.html "cpp/locale/ctype base")
 
@@ -303,7 +303,7 @@ alnum[static] |  alpha | digit
 graph[static] |  alnum | punct   
 (public static member constant)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/ctype&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 The following example demonstrates modification of a `ctype` other than `ctype<char>` to tokenize a CSV file:
 
@@ -363,12 +363,12 @@ Output:
       456
       789
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/ctype&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ ctype<char>](ctype_char.html "cpp/locale/ctype char") |  specialization of **std::ctype** for type char   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_ctype_char&action=edit)  
+(class template specialization)   
 ---|---  
 [ ctype_base](ctype_base.html "cpp/locale/ctype base") |  defines character classification categories   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_ctype_base&action=edit)  
+(class)   
 [ ctype_byname](ctype_byname.html "cpp/locale/ctype byname") |  represents the system-supplied **std::ctype** for the named locale   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_ctype_byname&action=edit)
+(class template) 

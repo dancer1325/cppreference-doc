@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 Defined in header `[<memory>](../../header/memory.html "cpp/header/memory")` |  |   
 ---|---|---  
@@ -234,26 +234,26 @@ The function-like entities described on this page are [_algorithm function objec
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/ranges/uninitialized_copy_n&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 ifirst  |  \-  |  the beginning of the [range](../../iterator.html#Ranges "cpp/iterator") of elements to copy from   
 ---|---|---  
 count  |  \-  |  the number of elements to copy   
 ofirst, olast  |  \-  |  the iterator-sentinel pair defining the destination [range](../../iterator.html#Ranges "cpp/iterator") of elements   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/ranges/uninitialized_copy_n&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 As described above. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/ranges/uninitialized_copy_n&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 \\(\scriptsize\mathcal{O}(N)\\)𝓞(N). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/ranges/uninitialized_copy_n&action=edit&section=4 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Any exception thrown on construction of the elements in the destination range. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/ranges/uninitialized_copy_n&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 An implementation may improve the efficiency of the `ranges::uninitialized_copy_n`, by using e.g. [ranges::copy_n](../../algorithm/ranges/copy_n.html "cpp/algorithm/ranges/copy n"), if the value type of the output range is [TrivialType](../../named_req/TrivialType.html "cpp/named req/TrivialType"). 
 
@@ -261,7 +261,7 @@ An implementation may improve the efficiency of the `ranges::uninitialized_copy_
 ---|---|---|---  
 [`__cpp_lib_raw_memory_algorithms`](../../experimental/feature_test.html#cpp_lib_raw_memory_algorithms "cpp/feature test") | [`202411L`](../../compiler_support/26.html#cpp_lib_raw_memory_algorithms_202411L "cpp/compiler support/26") | (C++26) | constexpr for [specialized memory algorithms](../../memory.html#Uninitialized_memory_algorithms "cpp/memory"), ([1](uninitialized_copy_n.html#Version_1))  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/ranges/uninitialized_copy_n&action=edit&section=6 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     struct uninitialized_copy_n_fn
@@ -281,7 +281,7 @@ An implementation may improve the efficiency of the `ranges::uninitialized_copy_
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/ranges/uninitialized_copy_n&action=edit&section=7 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -322,12 +322,12 @@ Output:
     
     {"Procyon", "Spica", "Pollux", "Deneb"};
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/ranges/uninitialized_copy_n&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
 [ ranges::uninitialized_copy](uninitialized_copy.html "cpp/memory/ranges/uninitialized copy")(C++20) |  copies a range of objects to an uninitialized area of memory  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/ranges/dsc_uninitialized_copy&action=edit)  
+(algorithm function object)  
 ---|---  
 [ uninitialized_copy_n](../uninitialized_copy_n.html "cpp/memory/uninitialized copy n")(C++11) |  copies a number of objects to an uninitialized area of memory   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_uninitialized_copy_n&action=edit)
+(function template) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

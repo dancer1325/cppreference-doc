@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_iostream`](../basic_iostream.html "cpp/io/basic iostream")
 
@@ -89,7 +89,7 @@ Protected member functions
 [basic_iostream::operator=](operator=.html "cpp/io/basic iostream/operator=")  
 **basic_iostream::swap**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_iostream/navbar_content&action=edit)
+
 
 protected:  
 void swap( basic_iostream& other ); |  |  (since C++11)  
@@ -103,11 +103,11 @@ This member function is protected: it is called by the swap member functions of 
   
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_iostream/swap&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 other  |  \-  |  another stream to exchange the state with   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_iostream/swap&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 *this

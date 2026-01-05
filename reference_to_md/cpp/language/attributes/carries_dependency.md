@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](../history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [Declarations](../declarations.html "cpp/language/declarations")
 
@@ -280,7 +280,7 @@ Other declarations
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/declarations/navbar_content&action=edit)
+
 
 [Attributes](../attributes.html "cpp/language/attributes")
 
@@ -298,7 +298,7 @@ Other declarations
 [optimize_for_synchronized](optimize_for_synchronized.html "cpp/language/attributes/optimize for synchronized")(TM TS)  
 [unlikely](likely.html "cpp/language/attributes/likely")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/attributes/navbar_content&action=edit)
+
 
 Indicates that dependency chain in release-consume [std::memory_order](../../atomic/memory_order.html "cpp/atomic/memory order") propagates in and out of the function, which allows the compiler to skip unnecessary memory fence instructions. 
 
@@ -313,12 +313,12 @@ Indicates that dependency chain in release-consume [std::memory_order](../../ato
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/attributes/carries_dependency&action=edit&section=1 "Edit section: Syntax")] Syntax  
+### Syntax  
   
 ---  
 `**[[carries_dependency]]**` |  |   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/attributes/carries_dependency&action=edit&section=2 "Edit section: Explanation")] Explanation
+### Explanation
 
 This attribute may appear in two situations: 
 
@@ -328,7 +328,7 @@ This attribute may appear in two situations:
 
 This attribute must appear on the first declaration of a function or one of its parameters in any translation unit. If it is not used on the first declaration of a function or one of its parameters in another translation unit, the program is ill-formed; no diagnostic required. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/attributes/carries_dependency&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Adapted almost without change from [SO](https://stackoverflow.com/a/6411703).
 
@@ -389,7 +389,7 @@ Possible output:
     42
     42
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/attributes/carries_dependency&action=edit&section=4 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -441,8 +441,8 @@ Possible output:
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/attributes/carries_dependency&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ kill_dependency](../../atomic/kill_dependency.html "cpp/atomic/kill dependency")(C++11)(deprecated in C++26) |  removes the specified object from the [std::memory_order_consume](../../atomic/memory_order.html "cpp/atomic/memory order") dependency tree   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/dsc_kill_dependency&action=edit)  
+(function template)   
 ---|---

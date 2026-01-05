@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::optional`](../optional.html "cpp/utility/optional")
 
@@ -167,7 +167,7 @@ Common vocabulary types
 [nullopt](nullopt.html "cpp/utility/optional/nullopt")  
 [in_place](../in_place.html "cpp/utility/in place")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/navbar_content&action=edit)
+
 
 constexpr optional() noexcept; |  (1) | (since C++17)  
 ---|---|---  
@@ -210,7 +210,7 @@ Constructs a new `optional` object.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/optional&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 other  |  \-  |  another `optional` object whose contained value is copied   
 ---|---|---  
@@ -218,7 +218,7 @@ value  |  \-  |  value with which to initialize the contained value
 args...  |  \-  |  arguments with which to initialize the contained value   
 ilist  |  \-  |  initializer list with which to initialize the contained value   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/optional&action=edit&section=2 "Edit section: Effects")] Effects
+### Effects
 
 Overload  | Initialization method  | Initializer for the contained value  | [`has_value()`](operator_bool.html "cpp/utility/optional/operator bool") after construction   
 ---|---|---|---  
@@ -236,7 +236,7 @@ Overload  | Initialization method  | Initializer for the contained value  | [`ha
 ([8](optional.html#Version_8)) | ilist, [std::forward](../forward.html)<Args>(args)...  
 ([9](optional.html#Version_9)) | [std::forward](../forward.html)<U>(value)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/optional&action=edit&section=3 "Edit section: Constraints and supplement information")] Constraints and supplement information
+### Constraints and supplement information
 
 3) If [std::is_copy_constructible_v](../../types/is_copy_constructible.html)<T> is false, the constructor is defined as deleted.
 
@@ -304,7 +304,7 @@ If `T`’s constructor selected for the initialization is a constexpr constructo
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/optional&action=edit&section=4 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 3) Throws any exception thrown by the constructor of `T`.
 
@@ -316,9 +316,9 @@ noexcept([std::is_nothrow_move_constructible](../../types/is_move_constructible.
 
 5-9) Throws any exception thrown by the constructor of `T`.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/optional&action=edit&section=5 "Edit section: Deduction guides")] [Deduction guides](deduction_guides.html "cpp/utility/optional/deduction guides")
+### [Deduction guides](deduction_guides.html "cpp/utility/optional/deduction guides")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/optional&action=edit&section=6 "Edit section: Notes")] Notes
+### Notes
 
 Before the resolution of [LWG issue 3836](https://cplusplus.github.io/LWG/issue3836), constructing an [std::optional](../optional.html)<bool> from [std::optional](../optional.html)<U> would select overload ([9](optional.html#Version_9)) instead of overloads ([5,6](optional.html#Version_5)) if `U` is not bool. This is because overloads ([5,6](optional.html#Version_5)) did not participate in overload resolution if `T` (bool in this case) can be constructed or converted from [std::optional](../optional.html)<U>, but [`std::optional::operator bool`](operator_bool.html "cpp/utility/optional/operator bool") makes the conversion possible for any `U`. 
 
@@ -338,7 +338,7 @@ As a result, the constructed [std::optional](../optional.html)<bool> always cont
 [`__cpp_lib_optional`](../../experimental/feature_test.html#cpp_lib_optional "cpp/feature test") | [`202106L`](../../compiler_support/20.html#cpp_lib_optional_202106L "cpp/compiler support/20") | (C++20)  
 (DR20) | Fully constexpr ([5,6](optional.html#Version_5))  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/optional&action=edit&section=7 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -371,7 +371,7 @@ Output:
     
     1 1 abc AAA deduction
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/optional&action=edit&section=8 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -388,10 +388,10 @@ even if underlying constructor is trivial  | required to
 propagate triviality   
 [P2231R1](https://wg21.link/P2231R1) | C++20  | overloads ([5,6](optional.html#Version_5)) from another `std::optional` was not constexpr | made constexpr  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/optional&action=edit&section=9 "Edit section: See also")] See also
+### See also
 
 [ make_optional](make_optional.html "cpp/utility/optional/make optional")(C++17) |  creates an `optional` object   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/dsc_make_optional&action=edit)  
+(function template)   
 ---|---
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

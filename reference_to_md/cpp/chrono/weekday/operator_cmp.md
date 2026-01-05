@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::weekday`](../weekday.html "cpp/chrono/weekday")
 
@@ -122,7 +122,7 @@ Helper classes
 [formatter<std::chrono::weekday>](formatter.html "cpp/chrono/weekday/formatter")  
 [formatter<std::chrono::hash>](hash.html "cpp/chrono/weekday/hash")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/weekday/navbar_content&action=edit)
+
 
 Defined in header `[<chrono>](../../header/chrono.html "cpp/header/chrono")` |  |   
 ---|---|---  
@@ -134,15 +134,15 @@ Compare the two std::chrono::weekday x and y.
 
 The `!=` operator is [synthesized](../../language/default_comparisons.html#Other_defaulted_comparison_operators "cpp/language/default comparisons") from `operator==`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/weekday/operator_cmp&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 x.c_encoding() == y.c_encoding()
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/weekday/operator_cmp&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 `weekday` does not support the `<`, `<=`, `>` and `>=` operators because there is no universal consensus on which day is the first day of the week. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/weekday/operator_cmp&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     

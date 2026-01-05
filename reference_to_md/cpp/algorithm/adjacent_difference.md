@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](ranges/copy.html "cpp/algorithm/ra
 [uninitialized_default_construct_n](../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 [Numerics library](../numeric.html "cpp/numeric")
 
@@ -353,7 +353,7 @@ Constrained algorithms, e.g. [`ranges::copy`](ranges/copy.html "cpp/algorithm/ra
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 Defined in header `[<numeric>](../header/numeric.html "cpp/header/numeric")` |  |   
 ---|---|---  
@@ -478,7 +478,7 @@ Given binary_op as the actual binary operation:
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/adjacent_difference&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  the pair of iterators defining the [range](../iterator.html#Ranges "cpp/iterator") of elements to   
 ---|---|---  
@@ -492,11 +492,11 @@ Type requirements
 -`OutputIt` must meet the requirements of [LegacyOutputIterator](../named_req/OutputIterator.html "cpp/named req/OutputIterator").   
 -`ForwardIt1, ForwardIt2` must meet the requirements of [LegacyForwardIterator](../named_req/ForwardIterator.html "cpp/named req/ForwardIterator").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/adjacent_difference&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Iterator to the element past the last element written, or d_first if `[`first`, `last`)` is empty. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/adjacent_difference&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Given \\(\scriptsize N\\)N as [std::distance](../iterator/distance.html)(first, last): 
 
@@ -504,7 +504,7 @@ Given \\(\scriptsize N\\)N as [std::distance](../iterator/distance.html)(first, 
 
 3,4) Exactly \\(\scriptsize N-1\\)N-1 applications of the binary function op.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/adjacent_difference&action=edit&section=4 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 The overloads with a template parameter named `ExecutionPolicy` report errors as follows: 
 
@@ -513,7 +513,7 @@ The overloads with a template parameter named `ExecutionPolicy` report errors as
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/adjacent_difference&action=edit&section=5 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
 
 [adjacent_difference (1)](adjacent_difference.html#Version_1)  
 ---  
@@ -565,7 +565,7 @@ The overloads with a template parameter named `ExecutionPolicy` report errors as
         return ++d_first;
     }  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/adjacent_difference&action=edit&section=6 "Edit section: Notes")] Notes
+### Notes
 
 acc was introduced because of the resolution of [LWG issue 539](https://cplusplus.github.io/LWG/issue539). The reason of using acc rather than directly calculating the differences is because the semantic of the latter is confusing if the following types mismatch: 
 
@@ -597,7 +597,7 @@ acc serves as the intermediate object to cache values of the iterated elements:
     // 6. go back to step 3 to process the remaining elements in the input range
     std::adjacent_difference(i_array, i_array + 4, o_array, [std::multiplies](../utility/functional/multiplies.html)<long>{});
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/adjacent_difference&action=edit&section=7 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -639,7 +639,7 @@ Output:
     Modified v = 4 2 3 4 5 1 0 -4 -5 
     Fibonacci, a = 1 1 2 3 5 8 13 21 34 55
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/adjacent_difference&action=edit&section=8 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -655,10 +655,10 @@ object, and that object is assigned to the output range  | assign the results
 to the output  
 range directly   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/adjacent_difference&action=edit&section=9 "Edit section: See also")] See also
+### See also
 
 [ partial_sum](partial_sum.html "cpp/algorithm/partial sum") |  computes the partial sum of a range of elements   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_partial_sum&action=edit)  
+(function template)   
 ---|---  
 [ accumulate](accumulate.html "cpp/algorithm/accumulate") |  sums up or folds a range of elements   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_accumulate&action=edit)
+(function template) 

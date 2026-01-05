@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 Defined in header `[<cstdlib>](../../header/cstdlib.html "cpp/header/cstdlib")` |  |   
 ---|---|---  
@@ -217,19 +217,19 @@ Calls to these functions that allocate or deallocate a particular unit of storag
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/c/calloc&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 num  |  \-  |  number of objects   
 ---|---|---  
 size  |  \-  |  size of each object   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/c/calloc&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 On success, returns the pointer to the beginning of newly allocated memory. To avoid a memory leak, the returned pointer must be deallocated with [std::free()](free.html "cpp/memory/c/free") or [std::realloc()](realloc.html "cpp/memory/c/realloc"). 
 
 On failure, returns a null pointer. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/c/calloc&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Due to the alignment requirements, the number of allocated bytes is not necessarily equal to num * size. 
 
@@ -246,7 +246,7 @@ Originally (in C89), support for zero size was added to accommodate code such as
         ... // code that may change c or break out of loop
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/c/calloc&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -277,7 +277,7 @@ Output:
     p2[2] == 0
     p2[3] == 0
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/c/calloc&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [C documentation](../../../c/memory/calloc.html "c/memory/calloc") for calloc  
 ---

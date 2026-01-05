@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -79,7 +79,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_ofstream`](../basic_ofstream.html "cpp/io/basic ofstream")
 
@@ -97,7 +97,7 @@ File operations
 Non-member functions  
 [swap(std::basic_ofstream)](swap2.html "cpp/io/basic ofstream/swap2")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ofstream/navbar_content&action=edit)
+
 
 void swap( basic_ofstream& other ); |  |  (since C++11)  
 ---|---|---  
@@ -118,20 +118,20 @@ This is done by calling basic_ostream<CharT, Traits>::swap(other) and rdbuf()->s
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_fstream/swap&action=edit&section=T-1 "Template:cpp/io/basic fstream/swap")] Parameters
+### Parameters
 
 other  |  \-  |  stream to exchange the state with   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_fstream/swap&action=edit&section=T-2 "Template:cpp/io/basic fstream/swap")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/impldef_exception&action=edit&section=T-1 "Template:cpp/impldef exception")] Exceptions
+### Exceptions
 
 May throw implementation-defined exceptions. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_fstream/swap&action=edit&section=T-3 "Template:cpp/io/basic fstream/swap")] Example
+### Example
 
 Run this code
     
@@ -183,10 +183,10 @@ Possible output:
     
     data: "/tmp/test_file.txt"
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_fstream/swap&action=edit&section=T-4 "Template:cpp/io/basic fstream/swap")] See also
+### See also
 
 [ operator=](operator=.html "cpp/io/basic ofstream/operator=")(C++11) |  moves the file stream   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_fstream/dsc_operator%3D&action=edit)  
+(public member function)   
 ---|---  
 [ swap](../basic_filebuf/swap.html "cpp/io/basic filebuf/swap")(C++11) |  swaps two `basic_filebuf` objects   
-(public member function of `std::basic_filebuf<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_filebuf/dsc_swap&action=edit)
+(public member function of `std::basic_filebuf<CharT,Traits>`) 

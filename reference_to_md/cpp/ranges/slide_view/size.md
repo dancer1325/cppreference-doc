@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::slide_view`](../slide_view.html "cpp/ranges/slide view")
 
@@ -263,7 +263,7 @@ Non-member functions
 [operator==(slide_view::_iterator_ ,slide_view::_sentinel_)](sentinel/operator_cmp.html "cpp/ranges/slide view/sentinel/operator cmp")  
 [operator-(slide_view::_iterator_ ,slide_view::_sentinel_)](sentinel/operator-.html "cpp/ranges/slide view/sentinel/operator-")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/slide_view/navbar_content&action=edit)
+
 
 constexpr auto size()  
 requires [ranges::sized_range](../sized_range.html)<V>; |  (1)  |  (since C++23)  
@@ -282,11 +282,11 @@ Let `_[base_](../slide_view.html#base "cpp/ranges/slide view")_` and `_[n_](../s
         sz = 0;
     return /*to-unsigned-like*/(sz);
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/slide_view/size&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 The number of elements. Equals to ​0​, if the number of elements ([ranges::size](../size.html)(`_[base_](../slide_view.html#base "cpp/ranges/slide view")_`)) in underlying view `_[base_](../slide_view.html#base "cpp/ranges/slide view")_` is less than “window size” `_[n_](../slide_view.html#n "cpp/ranges/slide view")_`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/slide_view/size&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -324,10 +324,10 @@ Output:
     
     3
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/slide_view/size&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ ranges::size](../size.html "cpp/ranges/size")(C++20) |  returns an integer equal to the size of a range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_size&action=edit)  
+(customization point object)  
 ---|---  
 [ ranges::ssize](../ssize.html "cpp/ranges/ssize")(C++20) |  returns a signed integer equal to the size of a range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_ssize&action=edit)
+(customization point object)

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Expressions](expressions.html "cpp/language/expressions")
 
@@ -289,7 +289,7 @@ Conversions
 **`dynamic_cast`**  
 [`reinterpret_cast`](reinterpret_cast.html "cpp/language/reinterpret cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/expressions/navbar_content&action=edit)
+
 
 Safely converts pointers and references to classes up, down, and sideways along the inheritance hierarchy. 
 
@@ -307,7 +307,7 @@ Safely converts pointers and references to classes up, down, and sideways along 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/dynamic_cast&action=edit&section=1 "Edit section: Syntax")] Syntax  
+### Syntax  
   
 ---  
 `**dynamic_cast <**` target-type `**>(**` expression `**)**` |  |   
@@ -315,7 +315,7 @@ target-type |  \-  |  pointer to complete class type, reference to complete clas
 ---|---|---  
 expression |  \-  |  lvalue(until C++11)glvalue(since C++11) of a complete class type if target-type is a reference, prvalue of a pointer to complete class type if target-type is a pointer   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/dynamic_cast&action=edit&section=2 "Edit section: Explanation")] Explanation
+### Explanation
 
 For the convenience of description, “expression or the result is a reference to `T`” means that “it is a glvalue of type `T`”, which follows the convention of [`decltype`](decltype.html "cpp/language/decltype")(since C++11). 
 
@@ -367,17 +367,17 @@ Similar to other cast expressions, the result is:
 
 | (since C++11)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/dynamic_cast&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 A downcast can also be performed with static_cast, which avoids the cost of the runtime check, but it is only safe if the program can guarantee (through some other logic) that the object pointed to by expression is definitely `Derived`. 
 
 Some forms of dynamic_cast rely on [run-time type identification](https://en.wikipedia.org/wiki/Run-time_type_information "enwiki:Run-time type information") (RTTI), that is, information about each polymorphic class in the compiled program. Compilers typically have options to disable the inclusion of this information. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/dynamic_cast&action=edit&section=4 "Edit section: Keywords")] Keywords
+### Keywords
 
 [`dynamic_cast`](../keyword/dynamic_cast.html "cpp/keyword/dynamic cast")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/dynamic_cast&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -449,7 +449,7 @@ Output:
     
     downcast from b2 to d successful
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/dynamic_cast&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -459,7 +459,7 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 expression ﻿s if target-type is an rvalue reference type  | performed   
 [CWG 2861](https://cplusplus.github.io/CWG/issues/2861.html) | C++98  | expression could point/refer to a type-inaccessible object  | the behavior is undefined in this case   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/dynamic_cast&action=edit&section=7 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -531,7 +531,7 @@ expression ﻿s if target-type is an rvalue reference type  | performed
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/dynamic_cast&action=edit&section=8 "Edit section: See also")] See also
+### See also
 
   * [`const_cast`](const_cast.html "cpp/language/const cast")
   * [`static_cast`](static_cast.html "cpp/language/static cast")

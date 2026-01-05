@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::shared_ptr`](../shared_ptr.html "cpp/memory/shared ptr")
 
@@ -220,7 +220,7 @@ Helper classes
 [hash<std::shared_ptr>](hash.html "cpp/memory/shared ptr/hash")  
 [Deduction guides](deduction_guides.html "cpp/memory/shared ptr/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/navbar_content&action=edit)
+
 
 T& operator*() const noexcept; |  (1)  |  (since C++11)  
 ---|---|---  
@@ -240,24 +240,24 @@ Dereferences the stored pointer. The behavior is undefined if the stored pointer
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/operator*&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/operator*&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) The result of dereferencing the stored pointer, i.e., *get().
 
 2) The stored pointer, i.e., get().
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/operator*&action=edit&section=3 "Edit section: Remarks")] Remarks
+### Remarks
 
 When `T` is an array type or (possibly cv-qualified)(since C++17) `void`, it is unspecified whether function (1) is declared. If it is declared, it is unspecified what its return type is, except that the declaration (although not necessarily the definition) of the function shall be well formed. This makes it possible to instantiate [std::shared_ptr](../shared_ptr.html)<void>
 
 When `T` is an array type, it is unspecified whether function (2) is declared. If it is declared, it is unspecified what its return type is, except that the declaration of the function shall be well-formed.  | (since C++17)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/operator*&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -288,8 +288,8 @@ Output:
     a = 10
     a = 10
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/operator*&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ get](get.html "cpp/memory/shared ptr/get") |  returns the stored pointer   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/dsc_get&action=edit)  
+(public member function)   
 ---|---

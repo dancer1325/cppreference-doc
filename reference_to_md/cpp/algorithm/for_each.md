@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](ranges/copy.html "cpp/algorithm/ra
 [uninitialized_default_construct_n](../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -339,7 +339,7 @@ Unlike the rest of the parallel algorithms, `for_each` is not allowed to make co
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/for_each&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  the pair of iterators defining the [range](../iterator.html#Ranges "cpp/iterator") of elements to which the [function object](../named_req/FunctionObject.html "cpp/named req/FunctionObject") will be applied   
 ---|---|---  
@@ -351,17 +351,17 @@ Type requirements
 -`InputIt` must meet the requirements of [LegacyInputIterator](../named_req/InputIterator.html "cpp/named req/InputIterator").   
 -`ForwardIt` must meet the requirements of [LegacyForwardIterator](../named_req/ForwardIterator.html "cpp/named req/ForwardIterator").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/for_each&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) f
 
 2) (none)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/for_each&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Exactly [std::distance](../iterator/distance.html)(first, last) applications of f. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/for_each&action=edit&section=4 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 The overload with a template parameter named `ExecutionPolicy` reports errors as follows: 
 
@@ -370,7 +370,7 @@ The overload with a template parameter named `ExecutionPolicy` reports errors as
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/for_each&action=edit&section=5 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
 
 See also the implementations in [libstdc++](https://github.com/gcc-mirror/gcc/blob/d9375e490072d1aae73a93949aa158fcd2a27018/libstdc%2B%2B-v3/include/bits/stl_algo.h#L3858), [libc++](https://github.com/llvm-mirror/libcxx/blob/a12cb9d211019d99b5875b6d8034617cbc24c2cc/include/algorithm#L880) and [MSVC stdlib](https://github.com/microsoft/STL/blob/ff83542af4b683fb2f2dea1423fd6c50fe3e13b0/stl/inc/algorithm#L229). 
     
@@ -386,13 +386,13 @@ See also the implementations in [libstdc++](https://github.com/gcc-mirror/gcc/bl
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/for_each&action=edit&section=6 "Edit section: Notes")] Notes
+### Notes
 
 For overload ([1](for_each.html#Version_1)), f can be a stateful function object. The return value can be considered as the final state of the batch operation. 
 
 For overload ([2](for_each.html#Version_2)), multiple copies of f may be created to perform parallel invocation. No value is returned because parallelization often does not permit efficient state accumulation. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/for_each&action=edit&section=7 "Edit section: Example")] Example
+### Example
 
 The following example uses a [lambda-expression](../language/lambda.html "cpp/language/lambda") to increment all of the elements of a vector and then uses an overloaded `operator()` in a function object (i.k.a., "functor") to compute their sum. Note that to compute the sum, it is recommended to use the dedicated algorithm [std::accumulate](accumulate.html "cpp/algorithm/accumulate").
 
@@ -438,7 +438,7 @@ Output:
     after:	4 -3 3 -7 16 268 
     sum:	281
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/for_each&action=edit&section=8 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -450,15 +450,15 @@ classified as “non-modifying sequence operations”)  | made clear (allowed if
 iterator type is mutable)   
 [LWG 2747](https://cplusplus.github.io/LWG/issue2747) | C++11  | overload ([1](for_each.html#Version_1)) returned std::move(f) | returns f (which implicitly moves)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/for_each&action=edit&section=9 "Edit section: See also")] See also
+### See also
 
 [ transform](transform.html "cpp/algorithm/transform") |  applies a function to a range of elements, storing results in a destination range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_transform&action=edit)  
+(function template)   
 ---|---  
 [ for_each_n](for_each_n.html "cpp/algorithm/for each n")(C++17) |  applies a function object to the first N elements of a sequence   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_for_each_n&action=edit)  
+(function template)   
 [ ranges::for_each](ranges/for_each.html "cpp/algorithm/ranges/for each")(C++20) |  applies a unary [function object](../named_req/FunctionObject.html "cpp/named req/FunctionObject") to elements from a [range](../iterator.html#Ranges "cpp/iterator")  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_for_each&action=edit)  
+(algorithm function object)  
 [ ranges::for_each_n](ranges/for_each_n.html "cpp/algorithm/ranges/for each n")(C++20) |  applies a function object to the first N elements of a sequence  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_for_each_n&action=edit)  
-[ range-`for` loop](../language/range-for.html "cpp/language/range-for")(C++11) |  executes loop over range[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_range-for&action=edit)
+(algorithm function object)  
+[ range-`for` loop](../language/range-for.html "cpp/language/range-for")(C++11) |  executes loop over range

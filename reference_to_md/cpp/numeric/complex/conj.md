@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [`std::complex`](../complex.html "cpp/numeric/complex")
 
@@ -164,7 +164,7 @@
 [tuple_size<std::complex>](tuple_size.html "cpp/numeric/complex/tuple size")(C++26)  
 [tuple_element<std::complex>](tuple_element.html "cpp/numeric/complex/tuple element")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/navbar_content&action=edit)
+
 
 Defined in header `[<complex>](../../header/complex.html "cpp/header/complex")` |  |   
 ---|---|---  
@@ -208,14 +208,14 @@ A,B) Additional overloads are provided for all integer and floating-point types,
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/conj&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 z  |  \-  |  complex value   
 ---|---|---  
 f  |  \-  |  floating-point value   
 i  |  \-  |  integer value   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/conj&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) The complex conjugate of z.
 
@@ -223,7 +223,7 @@ A) [std::complex](../complex.html)(f).
 
 B) [std::complex](../complex.html)<double>(i).
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/conj&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 The additional overloads are not required to be provided exactly as (A,B). They only need to be sufficient to ensure that for their argument num: 
 
@@ -232,7 +232,7 @@ The additional overloads are not required to be provided exactly as (A,B). They 
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/conj&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -253,13 +253,13 @@ Output:
     The conjugate of (1,2) is (1,-2)
     Their product is (5,0)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/conj&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ abs(std::complex)](abs.html "cpp/numeric/complex/abs") |  returns the magnitude of a complex number   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_abs&action=edit)  
+(function template)   
 ---|---  
 [ norm](norm.html "cpp/numeric/complex/norm") |  returns the squared magnitude   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_norm&action=edit)  
+(function template)   
 [ polar](polar.html "cpp/numeric/complex/polar") |  constructs a complex number from magnitude and phase angle   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_polar&action=edit)  
+(function template)   
 [C documentation](../../../c/numeric/complex/conj.html "c/numeric/complex/conj") for conj

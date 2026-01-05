@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Localization library](../../locale.html "cpp/locale")
 
@@ -152,7 +152,7 @@ base classes](../../locale.html#Facet_category_base_classes "cpp/locale")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/navbar_content&action=edit)
+
 
 [`std::ctype`](../ctype.html "cpp/locale/ctype")
 
@@ -176,7 +176,7 @@ Member functions of ctype<char>
 [ctype<char>::scan_is](../ctype_char/scan_is.html "cpp/locale/ctype char/scan is")  
 [ctype<char>::scan_not](../ctype_char/scan_not.html "cpp/locale/ctype char/scan not")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/ctype/navbar_content&action=edit)
+
 
 Defined in header `[<locale>](../../header/locale.html "cpp/header/locale")` |  |   
 ---|---|---  
@@ -207,24 +207,24 @@ virtual const CharT* do_tolower( CharT* beg, const CharT* end ) const; |  (4)  |
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/ctype/tolower&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 c  |  \-  |  character to convert   
 ---|---|---  
 beg  |  \-  |  pointer to the first character in an array of characters to convert   
 end  |  \-  |  one past the end pointer for the array of characters to convert   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/ctype/tolower&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1,3) Lower case character or c if no lower case form is listed by this locale.
 
 2,4) end
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/ctype/tolower&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 Only 1:1 character mapping can be performed by this function, e.g. the Greek uppercase letter 'Σ' has two lowercase forms, depending on the position in a word: 'σ' and 'ς'. A call to `do_tolower` cannot be used to obtain the correct lowercase form in this case. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/ctype/tolower&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -266,12 +266,12 @@ Output:
     Lower case form of 'Ａ' is ａ
     Lowercase form of the string 'HELLo, wORLD!' is 'hello, world!'
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/ctype/tolower&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ toupper](toupper.html "cpp/locale/ctype/toupper") |  invokes `do_toupper`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/ctype/dsc_toupper&action=edit)  
+(public member function)   
 ---|---  
 [ tolower](../../string/byte/tolower.html "cpp/string/byte/tolower") |  converts a character to lowercase   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_tolower&action=edit)  
+(function)   
 [ towlower](../../string/wide/towlower.html "cpp/string/wide/towlower") |  converts a wide character to lowercase   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_towlower&action=edit)
+(function) 

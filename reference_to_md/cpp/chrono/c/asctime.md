@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [C-style date and time utilities](../c.html "cpp/chrono/c")
 
@@ -128,7 +128,7 @@ Types
 [clock_t](clock_t.html "cpp/chrono/c/clock t")  
 [timespec](timespec.html "cpp/chrono/c/timespec")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/c/navbar_content&action=edit)
+
 
 Defined in header `[<ctime>](../../header/ctime.html "cpp/header/ctime")` |  |   
 ---|---|---  
@@ -166,16 +166,16 @@ The function modifies static storage and is not thread-safe.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/c/asctime&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 time_ptr  |  \-  |  pointer to a [std::tm](tm.html "cpp/chrono/c/tm") object specifying the time to print   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/c/asctime&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Pointer to a static null-terminated character string holding the textual representation of date and time. The string may be shared between `std::asctime` and [std::ctime](ctime.html "cpp/chrono/c/ctime"), and may be overwritten on each invocation of any of those functions. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/c/asctime&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 This function returns a pointer to static data and is not thread-safe. POSIX marks this function obsolete and recommends locale-dependent [std::strftime](strftime.html "cpp/chrono/c/strftime") instead. In [std::locale](../../locale/locale.html "cpp/locale/locale")`("C")` the [std::strftime](strftime.html "cpp/chrono/c/strftime") format string "%c\n" will be an exact match to `std::asctime` output, while in other locales the format string "%a %b %e %H:%M:%S %Y\n" will be a potentially closer but not always exact match. 
 
@@ -183,7 +183,7 @@ POSIX limits undefined behaviors only to the cases when the output string would 
 
 Some implementations handle timeptr->tm_mday == 0 as meaning the last day of the preceding month. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/c/asctime&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -238,13 +238,13 @@ Possible output:
         strftime %c                         2020年11月04日 00時45分01秒
         strftime %a %b %e %H:%M:%S %Y       水 11月  4 00:45:01 2020
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/c/asctime&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ ctime](ctime.html "cpp/chrono/c/ctime") |  converts a [std::time_t](time_t.html "cpp/chrono/c/time t") object to a textual representation   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/c/dsc_ctime&action=edit)  
+(function)   
 ---|---  
 [ strftime](strftime.html "cpp/chrono/c/strftime") |  converts a [std::tm](tm.html "cpp/chrono/c/tm") object to custom textual representation   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/c/dsc_strftime&action=edit)  
+(function)   
 [ put_time](../../io/manip/put_time.html "cpp/io/manip/put time")(C++11) |  formats and outputs a date/time value according to the specified format   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_put_time&action=edit)  
+(function template)   
 [C documentation](../../../c/chrono/asctime.html "c/chrono/asctime") for asctime

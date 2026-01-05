@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Extensions for concurrency](../concurrency.html "cpp/experimental/concurrency")
 
@@ -75,7 +75,7 @@ Atomic smart pointers
 [experimental::atomic_shared_ptr](../atomic_shared_ptr.html "cpp/experimental/atomic shared ptr")  
 [experimental::atomic_weak_ptr](../atomic_weak_ptr.html "cpp/experimental/atomic weak ptr")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/concurrency/navbar_content&action=edit)
+
 
 [`std::experimental::latch`](../latch.html "cpp/experimental/latch")
 
@@ -87,7 +87,7 @@ Atomic smart pointers
 [latch::is_ready](is_ready.html "cpp/experimental/latch/is ready")  
 [latch::wait](wait.html "cpp/experimental/latch/wait")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/concurrency/latch/navbar_content&action=edit)
+
 
 void count_down( ptrdiff_t n = 1 ); |  (1)  |  (concurrency TS)  
 ---|---|---  
@@ -99,15 +99,15 @@ If n is greater than the value of the internal counter or is negative, the behav
 
 This operation [synchronizes with](../../atomic/memory_order.html#Happens-before "cpp/atomic/memory order") all calls that block on this latch and all [`is_ready`](is_ready.html "cpp/experimental/latch/is ready") calls on this latch that returns true. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/latch/count_down&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 n  |  \-  |  the value by which the internal counter is decreased   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/latch/count_down&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/latch/count_down&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Throws nothing. 

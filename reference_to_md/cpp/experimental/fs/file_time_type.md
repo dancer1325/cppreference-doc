@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Filesystem library](../fs.html "cpp/experimental/fs")
 
@@ -124,7 +124,7 @@ File types
 [filesystem::is_socket](is_socket.html "cpp/experimental/fs/is socket")  
 [filesystem::is_symlink](is_symlink.html "cpp/experimental/fs/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/navbar_content&action=edit)
+
 
 Defined in header `[<experimental/filesystem>](../../header/experimental/filesystem.html "cpp/header/experimental/filesystem")` |  |   
 ---|---|---  
@@ -133,7 +133,7 @@ using file_time_type = chrono::time_point</*trivial-clock*/>; |  |  (filesystem 
   
 Represents file time. `trivial-clock` is an implementation-defined type that satisfies [TrivialClock](../../named_req/TrivialClock.html "cpp/named req/TrivialClock") and is sufficient to represent the resolution and range of the file time values offered by the filesystem. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/file_time_type&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -170,8 +170,8 @@ Possible output:
      
     File write time is Tue Mar 31 20:47:04 2015
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs/file_time_type&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ last_write_time](last_write_time.html "cpp/experimental/fs/last write time") |  gets or sets the time of the last data modification   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_last_write_time&action=edit)  
+(function)   
 ---|---

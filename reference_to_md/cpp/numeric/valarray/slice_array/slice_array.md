@@ -32,7 +32,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../../numeric.html "cpp/numeric")
 
@@ -89,7 +89,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [`std::valarray`](../../valarray.html "cpp/numeric/valarray")
 
@@ -157,7 +157,7 @@
   
 [Deduction guides](../deduction_guides.html "cpp/numeric/valarray/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/navbar_content&action=edit)
+
 
 [`std::slice_array`](../slice_array.html "cpp/numeric/valarray/slice array")
 
@@ -168,7 +168,7 @@ Member functions
 [slice_array::operator=](operator=.html "cpp/numeric/valarray/slice array/operator=")  
 [slice_array::operator+=slice_array::operator-=slice_array::operator*=slice_array::operator/=slice_array::operator%=slice_array::operator&=slice_array::operator|=slice_array::operator^=slice_array::operator<<=slice_array::operator>>=](operator_arith.html "cpp/numeric/valarray/slice array/operator arith")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/slice_array/navbar_content&action=edit)
+
 
 | (1) |   
 ---|---|---  
@@ -184,12 +184,12 @@ slice_array( const slice_array& other ); |  (2)  |
 
 2) Constructs a `slice_array` from another `slice_array` other.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/array/constructor&action=edit&section=T-1 "Template:cpp/numeric/valarray/array/constructor")] Parameters
+### Parameters
 
 other  |  \-  |  `slice_array` to initialize with   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/array/constructor&action=edit&section=T-2 "Template:cpp/numeric/valarray/array/constructor")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

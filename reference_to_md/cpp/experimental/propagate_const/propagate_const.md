@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Library fundamentals v2](../lib_extensions_2.html "cpp/experimental/lib extensions 2")
 
@@ -74,7 +74,7 @@
 [uniform container erasure](../lib_extensions_2.html#Uniform_container_erasure "cpp/experimental/lib extensions 2")  
 [logical operator type traits](../lib_extensions_2.html#Logical_operator_type_traits "cpp/experimental/lib extensions 2")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions_2/navbar_content&action=edit)
+
 
 [`std::experimental::propagate_const`](../propagate_const.html "cpp/experimental/propagate const")
 
@@ -96,7 +96,7 @@ Helper classes
 [std::hash](hash.html "cpp/experimental/propagate const/hash")  
 [std::equal_tostd::not_equal_tostd::lessstd::greaterstd::less_equalstd::greater_equal](cmp_func.html "cpp/experimental/propagate const/cmp func")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/propagate_const/navbar_content&action=edit)
+
 
 constexpr propagate_const() = default; |  (1)  |  (library fundamentals TS v2)  
 ---|---|---  
@@ -122,13 +122,13 @@ This constructor does not participate in overload resolution unless [std::is_con
 
 5) Copy constructor is explicitly deleted. `propagate_const` is non-copyable.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/propagate_const/propagate_const&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 p  |  \-  |  another `propagate_const` object to move from   
 ---|---|---  
 pu  |  \-  |  another `propagate_const` object of a different specialization to move from   
 u  |  \-  |  another object to initialize the contained pointer with   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/propagate_const/propagate_const&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 In Library Fundamental TS v2 (based on C++14), (4) and (5) are typically implemented in `explicit`/non-`explicit` overload pairs. Since Library Fundamental TS v3 (based on C++20), they can be implemented in conditional `explicit` specifiers. 

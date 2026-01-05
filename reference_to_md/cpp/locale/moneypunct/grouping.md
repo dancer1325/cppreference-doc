@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Localization library](../../locale.html "cpp/locale")
 
@@ -152,7 +152,7 @@ base classes](../../locale.html#Facet_category_base_classes "cpp/locale")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/navbar_content&action=edit)
+
 
 [`std::moneypunct`](../moneypunct.html "cpp/locale/moneypunct")
 
@@ -168,7 +168,7 @@ Member functions
 [moneypunct::positive_signmoneypunct::do_positive_signmoneypunct::negative_signmoneypunct::do_negative_sign](positive_sign.html "cpp/locale/moneypunct/positive sign")  
 [moneypunct::pos_formatmoneypunct::do_pos_formatmoneypunct::neg_formatmoneypunct::do_neg_format](pos_format.html "cpp/locale/moneypunct/pos format")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/moneypunct/navbar_content&action=edit)
+
 
 Defined in header `[<locale>](../../header/locale.html "cpp/header/locale")` |  |   
 ---|---|---  
@@ -182,11 +182,11 @@ virtual [std::string](../../string/basic_string.html) do_grouping() const; |  (2
 
 2) Returns the pattern that determines the grouping of the digits in the monetary output, with the same exact meaning as [std::numpunct::do_grouping](../numpunct/grouping.html "cpp/locale/numpunct/grouping").
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/moneypunct/grouping&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 The object of type [std::string](../../string/basic_string.html "cpp/string/basic string") holding the groups. The standard specializations of `std::moneypunct` return an empty string, indicating no grouping. Typical groupings (e.g. the `en_US` locale) return "\003". 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/moneypunct/grouping&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -221,10 +221,10 @@ Output:
     american locale: $123,456.78
     locale with modified moneypunct: 12 34 56 78
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/moneypunct/grouping&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ do_thousands_sep](thousands_sep.html "cpp/locale/moneypunct/thousands sep")[virtual] |  provides the character to use as thousands separator   
-(virtual protected member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/moneypunct/dsc_do_thousands_sep&action=edit)  
+(virtual protected member function)   
 ---|---  
 [ do_decimal_point](decimal_point.html "cpp/locale/moneypunct/decimal point")[virtual] |  provides the character to use as decimal point   
-(virtual protected member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/moneypunct/dsc_do_decimal_point&action=edit)
+(virtual protected member function) 

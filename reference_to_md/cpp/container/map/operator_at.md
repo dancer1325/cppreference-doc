@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 `[std::map](../map.html "cpp/container/map")`
 
@@ -138,7 +138,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/map/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/map/navbar_content&action=edit)
+
 
 T& operator[]( const Key& key ); |  (1)  |   
 ---|---|---  
@@ -186,27 +186,27 @@ No iterators or references are invalidated.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/operator_at_assoc&action=edit&section=T-1 "Template:cpp/container/operator at assoc")] Parameters
+### Parameters
 
 key  |  \-  |  the key of the element to find   
 ---|---|---  
 x  |  \-  |  a value of any type that can be transparently compared with a key   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/operator_at_assoc&action=edit&section=T-2 "Template:cpp/container/operator at assoc")] Return value
+### Return value
 
 1,2) A reference to the mapped value of the new element if no element with key key existed. Otherwise, a reference to the mapped value of the existing element whose key is equivalent to key.
 
 3) A reference to the mapped value of the new element if no element with key that compares equivalent to the value x existed. Otherwise, a reference to the mapped value of the existing element whose key compares equivalent to x.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/operator_at_assoc&action=edit&section=T-3 "Template:cpp/container/operator at assoc")] Exceptions
+### Exceptions
 
 If an exception is thrown by any operation, the insertion has no effect. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/operator_at_assoc&action=edit&section=T-4 "Template:cpp/container/operator at assoc")] Complexity
+### Complexity
 
 Logarithmic in the size of the container. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/operator_at_assoc&action=edit&section=T-5 "Template:cpp/container/operator at assoc")] Notes
+### Notes
 
 In the published C++11 and C++14 standards, this function was specified to require `mapped_type` to be [DefaultInsertable](../../named_req/DefaultInsertable.html "cpp/named req/DefaultInsertable") and [`key_type`](../map.html#Member_types "cpp/container/map") to be [CopyInsertable](../../named_req/CopyInsertable.html "cpp/named req/CopyInsertable") or [MoveInsertable](../../named_req/MoveInsertable.html "cpp/named req/MoveInsertable") into *this. This specification was defective and was fixed by [LWG issue 2469](https://cplusplus.github.io/LWG/issue2469), and the description above incorporates the resolution of that issue. 
 
@@ -220,7 +220,7 @@ operator[] is non-const because it inserts the key if it doesn't exist. If this 
 ---|---|---|---  
 [`__cpp_lib_associative_heterogeneous_insertion`](../../experimental/feature_test.html#cpp_lib_associative_heterogeneous_insertion "cpp/feature test") | [`202311L`](../../compiler_support/26.html#cpp_lib_associative_heterogeneous_insertion_202311L "cpp/compiler support/26") | (C++26) | Heterogeneous overloads for the remaining member functions in [ordered](../../container.html#Associative_containers "cpp/container") and [unordered](../../container.html#Unordered_associative_containers "cpp/container") associative [containers](../../container.html "cpp/container"). ([3](operator_at.html#Version_3))  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/operator_at_assoc&action=edit&section=T-6 "Template:cpp/container/operator at assoc")] Example
+### Example
 
 Run this code
     
@@ -283,14 +283,14 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 (*((insert([std::make_pair](../../utility/pair/make_pair.html)(x, T()))).first)).second | provided its own  
 description instead   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/operator_at_assoc&action=edit&section=T-8 "Template:cpp/container/operator at assoc")] See also
+### See also
 
 [ at](at.html "cpp/container/map/at") |  access specified element with bounds checking   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_at&action=edit)  
+(public member function)   
 ---|---  
 [ insert_or_assign](insert_or_assign.html "cpp/container/map/insert or assign")(C++17) |  inserts an element or assigns to the current element if the key already exists   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_insert_or_assign&action=edit)  
+(public member function)   
 [ try_emplace](try_emplace.html "cpp/container/map/try emplace")(C++17) |  inserts in-place if the key does not exist, does nothing if the key exists   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_try_emplace&action=edit)
+(public member function) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

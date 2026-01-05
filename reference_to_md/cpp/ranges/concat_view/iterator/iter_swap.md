@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::concat_view`](../../concat_view.html "cpp/ranges/concat view")
 
@@ -262,7 +262,7 @@ operator-(concat_view::_iterator_)](operator_arith2.html "cpp/ranges/concat view
 [iter_move(concat_view::_iterator_)](iter_move.html "cpp/ranges/concat view/iterator/iter move")  
 **iter_swap(concat_view::_iterator_)**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/concat_view/navbar_content&action=edit)
+
 
 friend constexpr void iter_swap( const /*iterator*/& x, const /*iterator*/& y )  
 noexcept( /* see description */ ) requires ( /* see description */ ); |  |  (since C++26)  
@@ -300,12 +300,12 @@ This function is not visible to ordinary [unqualified](../../../language/unquali
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/concat_view/iterator/iter_swap&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 x, y  |  \-  |  [iterators](../iterator.html "cpp/ranges/concat view/iterator")  
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/concat_view/iterator/iter_swap&action=edit&section=2 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Let its be a pack of lvalues, where each value is of the corresponding type in const [ranges::iterator_t](../../iterator_t.html)<`_[maybe-const](../../../ranges.html#maybe-const "cpp/ranges")_` ﻿<Const, Views>>. 
 
@@ -313,16 +313,16 @@ Let its be a pack of lvalues, where each value is of the corresponding type in c
 
 noexcept(noexcept([ranges::swap](http://en.cppreference.com/w/cpp/ranges-utility-placeholder/swap)(*x, *y)) && ... && noexcept([ranges::iter_swap](../../../iterator/ranges/iter_swap.html)(its, its)))
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/concat_view/iterator/iter_swap&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/concat_view/iterator/iter_swap&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ iter_swap](../../../iterator/ranges/iter_swap.html "cpp/iterator/ranges/iter swap")(C++20) |  swaps the values referenced by two dereferenceable objects  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/ranges/dsc_iter_swap&action=edit)  
+(customization point object)  
 ---|---  
 [ iter_swap](../../../algorithm/iter_swap.html "cpp/algorithm/iter swap") |  swaps the elements pointed to by two iterators   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_iter_swap&action=edit)
+(function template) 

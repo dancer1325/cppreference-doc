@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Iterator library](../iterator.html "cpp/iterator")
 
@@ -194,7 +194,7 @@
 [empty](empty.html "cpp/iterator/empty")(C++17)  
 [data](data.html "cpp/iterator/data")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/navbar_content&action=edit)
+
 
 Defined in header `[<iterator>](../header/iterator.html "cpp/header/iterator")` |  |   
 ---|---|---  
@@ -216,16 +216,16 @@ template< class Iter >
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/make_move_iterator&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 i  |  \-  |  input iterator to be converted to move iterator   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/make_move_iterator&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 [std::move_iterator](move_iterator.html)<Iter>(std::move(i))
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/make_move_iterator&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -265,7 +265,7 @@ Possible output:
     v2 now holds: "one" "two" "three" 
     original list now holds: "" "" ""
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/make_move_iterator&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -273,10 +273,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 2061](https://cplusplus.github.io/LWG/issue2061) | C++11  | `make_move_iterator` did not convert array arguments to pointers  | made to convert   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/iterator/make_move_iterator&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ move_iterator](move_iterator.html "cpp/iterator/move iterator")(C++11) |  iterator adaptor which dereferences to an rvalue   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_move_iterator&action=edit)  
+(class template)   
 ---|---  
 [ move](../utility/move.html "cpp/utility/move")(C++11) |  converts the argument to an xvalue   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_move&action=edit)
+(function template) 

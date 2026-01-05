@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header was originally in the C standard library as [`<errno.h>`](../../c/header/errno.html "c/header/errno"). 
 
@@ -211,10 +211,10 @@ This header is part of the [error handling](../error.html "cpp/error") library.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/cerrno&action=edit&section=1 "Edit section: Macros")] Macros
+### Macros
 
 [ errno](../error/errno.html "cpp/error/errno") |  macro which expands to POSIX-compatible thread-local error number variable  
-(macro variable)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_errno&action=edit)  
+(macro variable)  
 ---|---  
 E2BIG(C++11) |  Argument list too long   
 (macro constant)  
@@ -373,11 +373,11 @@ EWOULDBLOCK(C++11) |  Operation would block
 EXDEV(C++11) |  Cross-device link   
 (macro constant)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/cerrno&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 Although the header `<cerrno>` is based on the C standard library header [`<errno.h>`](../../c/header/errno.html "c/header/errno"), the majority of the macros defined by `<cerrno>` were adopted by C++ from the POSIX standard, rather than the C standard library. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/cerrno&action=edit&section=3 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     #define errno /* see description */
@@ -456,7 +456,7 @@ Although the header `<cerrno>` is based on the C standard library header [`<errn
     #define EWOULDBLOCK /* see description */     // freestanding
     #define EXDEV /* see description */           // freestanding
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/cerrno&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -464,7 +464,7 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 288](https://cplusplus.github.io/LWG/issue288) | C++98  | the macro `EILSEQ` was not defined in `<cerrno>` | defined   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/cerrno&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
   * [Description for the error number values](../error/errno_macros.html "cpp/error/errno macros")
 

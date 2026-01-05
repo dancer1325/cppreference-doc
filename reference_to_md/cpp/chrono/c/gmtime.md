@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [C-style date and time utilities](../c.html "cpp/chrono/c")
 
@@ -128,7 +128,7 @@ Types
 [clock_t](clock_t.html "cpp/chrono/c/clock t")  
 [timespec](timespec.html "cpp/chrono/c/timespec")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/c/navbar_content&action=edit)
+
 
 Defined in header `[<ctime>](../../header/ctime.html "cpp/header/ctime")` |  |   
 ---|---|---  
@@ -148,22 +148,22 @@ Converts given time since epoch as [std::time_t](time_t.html "cpp/chrono/c/time 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/c/gmtime&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 time  |  \-  |  pointer to a time_t object to convert   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/c/gmtime&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Pointer to a static internal [std::tm](tm.html "cpp/chrono/c/tm") object on success, or null pointer otherwise. The structure may be shared between **std::gmtime** , [std::localtime](localtime.html "cpp/chrono/c/localtime"), and [std::ctime](ctime.html "cpp/chrono/c/ctime") and may be overwritten on each invocation. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/c/gmtime&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 This function may not be thread-safe. 
 
 POSIX requires that [`gmtime`](https://pubs.opengroup.org/onlinepubs/9799919799/functions/gmtime.html) sets [errno](../../error/errno.html "cpp/error/errno") to [EOVERFLOW](../../error/errno_macros.html) if it fails because the argument is too large. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/c/gmtime&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -196,9 +196,9 @@ Possible output:
     UTC:   Wed Jul 15 09:15:00 2020 GMT
     local: Wed Jul 15 10:15:00 2020 BST
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/c/gmtime&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ localtime](localtime.html "cpp/chrono/c/localtime") |  converts time since epoch to calendar time expressed as local time   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/c/dsc_localtime&action=edit)  
+(function)   
 ---|---  
 [C documentation](../../../c/chrono/gmtime.html "c/chrono/gmtime") for gmtime

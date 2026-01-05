@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [Pseudo-random number generation](../random.html "cpp/numeric/random")
 
@@ -161,7 +161,7 @@
 [piecewise_constant_distribution](piecewise_constant_distribution.html "cpp/numeric/random/piecewise constant distribution")(C++11)  
 [piecewise_linear_distribution](piecewise_linear_distribution.html "cpp/numeric/random/piecewise linear distribution")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/navbar_content&action=edit)
+
 
 Defined in header `[<cstdlib>](../../header/cstdlib.html "cpp/header/cstdlib")` |  |   
 ---|---|---  
@@ -170,7 +170,7 @@ Defined in header `[<cstdlib>](../../header/cstdlib.html "cpp/header/cstdlib")` 
   
 Expands to an integer constant expression equal to the maximum value returned by the function [std::rand](rand.html "cpp/numeric/random/rand"). This value is implementation dependent. It's guaranteed that this value is at least 32767. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/random/RAND_MAX&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -198,11 +198,11 @@ Possible output:
     INT_MAX: 2147483647
     Random value on [0,1]: 0.618608
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/random/RAND_MAX&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ rand](rand.html "cpp/numeric/random/rand") |  generates a pseudo-random number   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/dsc_rand&action=edit)  
+(function)   
 ---|---  
 [ srand](srand.html "cpp/numeric/random/srand") |  seeds pseudo-random number generator   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/dsc_srand&action=edit)  
+(function)   
 [C documentation](../../../c/numeric/random/RAND_MAX.html "c/numeric/random/RAND MAX") for RAND_MAX

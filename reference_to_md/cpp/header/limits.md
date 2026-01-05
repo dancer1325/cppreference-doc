@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header is part of the [type support](../utility/rtti.html "cpp/types") library. 
 
@@ -211,17 +211,17 @@ This header is part of the [type support](../utility/rtti.html "cpp/types") libr
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/limits&action=edit&section=1 "Edit section: Declarations")] Declarations
+### Declarations
 
 [ numeric_limits](../types/numeric_limits.html "cpp/types/numeric limits") |  provides an interface to query properties of all fundamental numeric types   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_numeric_limits&action=edit)  
+(class template)   
 ---|---  
 [ float_round_style](../types/numeric_limits/float_round_style.html "cpp/types/numeric limits/float round style") |  indicates floating-point rounding modes   
-(enum) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/dsc_float_round_style&action=edit)  
+(enum)   
 [ float_denorm_style](../types/numeric_limits/float_denorm_style.html "cpp/types/numeric limits/float denorm style") |  indicates floating-point denormalization modes   
-(enum) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/dsc_float_denorm_style&action=edit)  
+(enum)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/limits&action=edit&section=2 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     namespace std {
@@ -258,7 +258,7 @@ This header is part of the [type support](../utility/rtti.html "cpp/types") libr
         template<> class numeric_limits<long double>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/limits&action=edit&section=T-1 "Template:cpp/synopsis/limits")] Enumeration [std::float_round_style](../types/numeric_limits/float_round_style.html "cpp/types/numeric limits/float round style")
+#### Enumeration [std::float_round_style](../types/numeric_limits/float_round_style.html "cpp/types/numeric limits/float round style")
     
     
     namespace std {
@@ -271,7 +271,7 @@ This header is part of the [type support](../utility/rtti.html "cpp/types") libr
         };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/limits&action=edit&section=T-2 "Template:cpp/synopsis/limits")] Enumeration [std::float_denorm_style](../types/numeric_limits/float_denorm_style.html "cpp/types/numeric limits/float denorm style")
+#### Enumeration [std::float_denorm_style](../types/numeric_limits/float_denorm_style.html "cpp/types/numeric limits/float denorm style")
     
     
     namespace std {
@@ -282,7 +282,7 @@ This header is part of the [type support](../utility/rtti.html "cpp/types") libr
         };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/limits&action=edit&section=T-3 "Template:cpp/synopsis/limits")] Class template [std::numeric_limits](../types/numeric_limits.html "cpp/types/numeric limits")
+#### Class template [std::numeric_limits](../types/numeric_limits.html "cpp/types/numeric limits")
     
     
     template<class T> class numeric_limits {
@@ -328,7 +328,7 @@ This header is part of the [type support](../utility/rtti.html "cpp/types") libr
         static constexpr float_round_style round_style = round_toward_zero;
     };
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/limits&action=edit&section=T-4 "Template:cpp/synopsis/limits")] Specialization [std::numeric_limits](../types/numeric_limits.html)<bool>
+#### Specialization [std::numeric_limits](../types/numeric_limits.html)<bool>
     
     
     template<> class numeric_limits<bool> {
@@ -374,7 +374,7 @@ This header is part of the [type support](../utility/rtti.html "cpp/types") libr
         static constexpr float_round_style round_style = round_toward_zero;
     };
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/limits&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

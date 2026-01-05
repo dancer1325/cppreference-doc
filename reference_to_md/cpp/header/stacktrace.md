@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header is part of the [diagnostics](../error.html "cpp/error") library. 
 
@@ -216,19 +216,19 @@ This header is part of the [diagnostics](../error.html "cpp/error") library.
 ###  Classes  
   
 [ stacktrace_entry](../utility/stacktrace_entry.html "cpp/utility/stacktrace entry")(C++23) |  representation of an evaluation in a stacktrace   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_stacktrace_entry&action=edit)  
+(class)   
 [ basic_stacktrace](../utility/basic_stacktrace.html "cpp/utility/basic stacktrace")(C++23) |  approximate representation of an invocation sequence consists of stacktrace entries   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_basic_stacktrace&action=edit)  
+(class template)   
 [ std::hash<std::stacktrace_entry>](../utility/stacktrace_entry/hash.html "cpp/utility/stacktrace entry/hash")(C++23) |  hash support for [`std::stacktrace_entry`](../utility/stacktrace_entry.html "cpp/utility/stacktrace entry")   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/stacktrace_entry/dsc_hash&action=edit)  
+(class template specialization)   
 [ std::hash<std::basic_stacktrace>](../utility/basic_stacktrace/hash.html "cpp/utility/basic stacktrace/hash")(C++23) |  hash support for [`std::basic_stacktrace`](../utility/basic_stacktrace.html "cpp/utility/basic stacktrace")   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/basic_stacktrace/dsc_hash&action=edit)  
+(class template specialization)   
   
 #####  Forward declarations   
   
 Defined in header `[<functional>](functional.html "cpp/header/functional")`  
 [ hash](../utility/hash.html "cpp/utility/hash")(C++11) |  hash function object   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_hash&action=edit)  
+(class template)   
   
 #####  Type aliases   
   
@@ -242,17 +242,17 @@ Alias  |  Type
   
 ---  
 [ std::swap(std::basic_stacktrace)](../utility/basic_stacktrace/swap2.html "cpp/utility/basic stacktrace/swap2")(C++23) |  specializes the [std::swap](../utility/swap.html "cpp/algorithm/swap") algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/basic_stacktrace/dsc_swap2&action=edit)  
+(function template)   
 [ to_string](../utility/stacktrace_entry/to_string.html "cpp/utility/stacktrace entry/to string")(C++23) |  returns a string with a description of the `stacktrace_entry`   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/stacktrace_entry/dsc_to_string&action=edit)  
+(function)   
 [ to_string](../utility/basic_stacktrace/to_string.html "cpp/utility/basic stacktrace/to string")(C++23) |  returns a string with a description of the `basic_stacktrace`   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/basic_stacktrace/dsc_to_string&action=edit)  
+(function template)   
 [ operator<<](../utility/stacktrace_entry/operator_ltlt.html "cpp/utility/stacktrace entry/operator ltlt")(C++23) |  performs stream output of `stacktrace_entry`   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/stacktrace_entry/dsc_operator_ltlt&action=edit)  
+(function template)   
 [ operator<<](../utility/basic_stacktrace/operator_ltlt.html "cpp/utility/basic stacktrace/operator ltlt")(C++23) |  performs stream output of `basic_stracktrace`   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/basic_stacktrace/dsc_operator_ltlt&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/stacktrace&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     namespace std {
@@ -291,7 +291,7 @@ Alias  |  Type
       template<class Allocator> struct hash<basic_stacktrace<Allocator>>;
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/stacktrace&action=edit&section=T-1 "Template:cpp/synopsis/stacktrace")] Class std::stacktrace_entry
+#### Class std::stacktrace_entry
     
     
     namespace std {
@@ -323,7 +323,7 @@ Alias  |  Type
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/stacktrace&action=edit&section=T-2 "Template:cpp/synopsis/stacktrace")] Class template std::basic_stacktrace
+#### Class template std::basic_stacktrace
     
     
     namespace std {

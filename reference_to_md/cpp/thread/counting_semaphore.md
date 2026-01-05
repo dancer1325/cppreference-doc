@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 **`std::counting_semaphore`**
 
@@ -190,7 +190,7 @@ Operations
 Constants  
 [counting_semaphore::max](counting_semaphore/max.html "cpp/thread/counting semaphore/max")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/counting_semaphore/navbar_content&action=edit)
+
 
 Defined in header `[<semaphore>](../header/semaphore.html "cpp/header/semaphore")` |  |   
 ---|---|---  
@@ -221,42 +221,42 @@ Specializations of `std::counting_semaphore` are not [DefaultConstructible](../n
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/counting_semaphore&action=edit&section=1 "Edit section: Data Members")] Data Members
+### Data Members
 
 Member name  |  Definition   
 ---|---  
 `_counter_` (private) |  The internal counter of type [std::ptrdiff_t](../types/ptrdiff_t.html "cpp/types/ptrdiff t").  
 (exposition-only member object*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/counting_semaphore&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](counting_semaphore/counting_semaphore.html "cpp/thread/counting semaphore/counting semaphore") |  constructs a `counting_semaphore`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/counting_semaphore/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ (destructor)](counting_semaphore/~counting_semaphore.html "cpp/thread/counting semaphore/~counting semaphore") |  destructs the `counting_semaphore`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/counting_semaphore/dsc_destructor&action=edit)  
+(public member function)   
 operator=[deleted] |  `counting_semaphore` is not assignable   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/counting_semaphore/dsc_operator%3D&action=edit)  
+(public member function)   
   
 #####  Operations   
   
 [ release](counting_semaphore/release.html "cpp/thread/counting semaphore/release") |  increments the internal counter and unblocks acquirers   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/counting_semaphore/dsc_release&action=edit)  
+(public member function)   
 [ acquire](counting_semaphore/acquire.html "cpp/thread/counting semaphore/acquire") |  decrements the internal counter or blocks until it can   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/counting_semaphore/dsc_acquire&action=edit)  
+(public member function)   
 [ try_acquire](counting_semaphore/try_acquire.html "cpp/thread/counting semaphore/try acquire") |  tries to decrement the internal counter without blocking   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/counting_semaphore/dsc_try_acquire&action=edit)  
+(public member function)   
 [ try_acquire_for](counting_semaphore/try_acquire_for.html "cpp/thread/counting semaphore/try acquire for") |  tries to decrement the internal counter, blocking for up to a duration time   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/counting_semaphore/dsc_try_acquire_for&action=edit)  
+(public member function)   
 [ try_acquire_until](counting_semaphore/try_acquire_until.html "cpp/thread/counting semaphore/try acquire until") |  tries to decrement the internal counter, blocking until a point in time   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/counting_semaphore/dsc_try_acquire_until&action=edit)  
+(public member function)   
   
 #####  Constants   
   
 [ max](counting_semaphore/max.html "cpp/thread/counting semaphore/max")[static] |  returns the maximum possible value of the internal counter   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/counting_semaphore/dsc_max&action=edit)  
+(public static member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/counting_semaphore&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 As its name indicates, the `LeastMaxValue` is the _minimum_ max value, not the _actual_ max value. Thus max() can yield a number larger than `LeastMaxValue`. 
 
@@ -268,7 +268,7 @@ Semaphores are also often used for the semantics of signaling/notifying rather t
 ---|---|---|---  
 [`__cpp_lib_semaphore`](../experimental/feature_test.html#cpp_lib_semaphore "cpp/feature test") | [`201907L`](../compiler_support/20.html#cpp_lib_semaphore_201907L "cpp/compiler support/20") | (C++20) | `std::counting_semaphore`, `std::binary_semaphore`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/counting_semaphore&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     

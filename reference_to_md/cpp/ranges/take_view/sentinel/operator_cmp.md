@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::take_view`](../../take_view.html "cpp/ranges/take view")
 
@@ -244,7 +244,7 @@ Non-member functions
 [take_view::_sentinel_ ::base](base.html "cpp/ranges/take view/sentinel/base")  
 **operator==(std::counted_iterator,take_view::_sentinel_)**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/take_view/navbar_content&action=edit)
+
 
 friend constexpr bool  
 operator==( const [std::counted_iterator](../../../iterator/counted_iterator.html)<[ranges::iterator_t](../../iterator_t.html)<Base>>& y,  
@@ -281,23 +281,23 @@ The `!=` operator is [synthesized](../../../language/default_comparisons.html#Ot
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/take_view/sentinel/operator_cmp&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 y  |  \-  |  [std::counted_iterator](../../../iterator/counted_iterator.html "cpp/iterator/counted iterator") to compare   
 ---|---|---  
 x  |  \-  |  sentinel to compare   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/take_view/sentinel/operator_cmp&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 y.count() == 0 || y.base() == x.end_, where `_end__` denotes the underlying sentinel. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/take_view/sentinel/operator_cmp&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/take_view/sentinel/operator_cmp&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

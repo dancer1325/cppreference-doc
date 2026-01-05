@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Expressions](expressions.html "cpp/language/expressions")
 
@@ -289,7 +289,7 @@ Conversions
 [`dynamic_cast`](dynamic_cast.html "cpp/language/dynamic cast")  
 [`reinterpret_cast`](reinterpret_cast.html "cpp/language/reinterpret cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/expressions/navbar_content&action=edit)
+
 
 [ Exceptions](exceptions.html "cpp/language/exceptions")
 
@@ -302,7 +302,7 @@ Exception specification
 [dynamic specification](except_spec.html "cpp/language/except spec") (until C++17*)  
 [noexcept operator](noexcept.html "cpp/language/noexcept") (C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/exceptions/navbar_content&action=edit)
+
 
 Throwing an [exception](exceptions.html "cpp/language/exceptions") transfers control to a [handler](catch.html "cpp/language/catch"). 
 
@@ -332,7 +332,7 @@ An exception can be thrown from [throw expressions](throw.html#throw_expressions
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/throw&action=edit&section=1 "Edit section: Exception object")] Exception object
+### Exception object
 
 Throwing an exception initializes an object with dynamic [storage duration](storage_duration.html "cpp/language/storage duration"), called the _exception object_. 
 
@@ -344,7 +344,7 @@ If the type of the exception object would be one of the following types, the pro
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/throw&action=edit&section=2 "Edit section: Constructing and destructing exception objects")] Constructing and destructing exception objects
+#### Constructing and destructing exception objects
 
 Given the type of the exception object as `T`: 
 
@@ -373,7 +373,7 @@ The points of potential destruction for the exception object are:
 
 Among all points of potential destruction for the exception object, there is an unspecified last one where the exception object is destroyed. All other points [happen before](multithread.html "cpp/language/multithread") that last one. The implementation may then deallocate the memory for the exception object in an unspecified way.  | (since C++11)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/throw&action=edit&section=3 "Edit section: throw expressions")] throw expressions  
+### throw expressions  
   
 ---  
 `**throw**` expression |  (1)  |   
@@ -417,7 +417,7 @@ If a program attempts to rethrow an exception when no exception is presently bei
         throw; // pass the exception to some other handler
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/throw&action=edit&section=4 "Edit section: Stack unwinding")] Stack unwinding
+### Stack unwinding
 
 Once the exception object is constructed, the control flow works backwards (up the call stack) until it reaches the start of a [try block](try.html "cpp/language/try"), at which point the parameters of all associated handlers are compared, in order of appearance, with the type of the exception object to find a [match](catch.html#Matching_exceptions "cpp/language/catch"). If no match is found, the control flow continues to unwind the stack until the next try block, and so on. If a match is found, the control flow jumps to the matching handler. 
 
@@ -436,7 +436,7 @@ If any function that is called directly by the stack unwinding mechanism, after 
 
 If an exception is thrown and not caught, including exceptions that escape the initial function of [std::thread](../thread/thread.html "cpp/thread/thread"), the main function, and the constructor or destructor of any static or thread-local objects, then [std::terminate](../error/terminate.html "cpp/error/terminate") is called. It is implementation-defined whether any stack unwinding takes place for uncaught exceptions. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/throw&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 When rethrowing exceptions, the second form must be used to avoid object slicing in the (typical) case where exception objects use inheritance: 
     
@@ -472,11 +472,11 @@ The throw-expression is classified as [prvalue expression](value_category.html "
         }
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/throw&action=edit&section=6 "Edit section: Keywords")] Keywords
+### Keywords
 
 [`throw`](../keyword/throw.html "cpp/keyword/throw")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/throw&action=edit&section=7 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -552,7 +552,7 @@ Output:
     C::C() exiting with exception
     main() failed to create C with: error
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/throw&action=edit&section=8 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -580,7 +580,7 @@ from expression
 [CWG 2854](https://cplusplus.github.io/CWG/issues/2854.html) | C++98  | the storage duration of exception objects was unclear  | made clear   
 [P1825R0](https://wg21.link/P1825R0) | C++11  | implicit move from parameters was forbidden in `throw` | allowed   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/throw&action=edit&section=9 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -670,7 +670,7 @@ from expression
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/throw&action=edit&section=10 "Edit section: See also")] See also
+### See also
 
   * [copy elision](copy_elision.html "cpp/language/copy elision")
   * [try block](try.html "cpp/language/try")

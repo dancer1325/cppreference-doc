@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Function objects](../../functional.html "cpp/utility/functional")
 
@@ -255,7 +255,7 @@ Identity function object
 [unary_negate](unary_negate.html "cpp/utility/functional/unary negate")(until C++20*)  
 [binary_negate](binary_negate.html "cpp/utility/functional/binary negate")(until C++20*)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/navbar_content&action=edit)
+
 
 Defined in header `[<functional>](../../header/functional.html "cpp/header/functional")` |  |   
 ---|---|---  
@@ -284,21 +284,21 @@ Binds a given argument x to a first or second parameter of the given binary func
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/bind12&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 f  |  \-  |  pointer to a function to bind an argument to   
 ---|---|---  
 x  |  \-  |  argument to bind to f  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/bind12&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 A function object wrapping f and x. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/impldef_exception&action=edit&section=T-1 "Template:cpp/impldef exception")] Exceptions
+### Exceptions
 
 May throw implementation-defined exceptions. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/bind12&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -336,10 +336,10 @@ Output:
      90° = 1.570796 rad
     180° = 3.141593 rad
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/bind12&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ binder1stbinder2nd](binder12.html "cpp/utility/functional/binder12")(deprecated in C++11)(removed in C++17) |  function object holding a binary function and one of its arguments   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_binder12&action=edit)  
+(class template)   
 ---|---  
 [ bind_frontbind_back](bind_front.html "cpp/utility/functional/bind front")(C++20)(C++23) |  bind a variable number of arguments, in order, to a function object   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_bind_front&action=edit)
+(function template) 

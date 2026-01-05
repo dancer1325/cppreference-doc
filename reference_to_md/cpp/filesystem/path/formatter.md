@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Filesystem library](../../filesystem.html "cpp/filesystem")
 
@@ -100,7 +100,7 @@ filesystem::symlink_status](../status.html "cpp/filesystem/status")
 [filesystem::is_socket](../is_socket.html "cpp/filesystem/is socket")  
 [filesystem::is_symlink](../is_symlink.html "cpp/filesystem/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/navbar_content&action=edit)
+
 
 [`std::filesystem::path`](../path.html "cpp/filesystem/path")
 
@@ -169,7 +169,7 @@ filesystem::symlink_status](../status.html "cpp/filesystem/status")
 | **formatter <std::filesystem::path>**(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/path/navbar_content&action=edit)
+
 
 Defined in header `[<filesystem>](../../header/filesystem.html "cpp/header/filesystem")` |  |   
 ---|---|---  
@@ -193,7 +193,7 @@ The template specialization of [std::formatter](../../utility/format/formatter.h
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/formatter&action=edit&section=1 "Edit section: Format specification")] Format specification
+### Format specification
 
 The syntax of format specifications path-format-spec is:   
   
@@ -206,7 +206,7 @@ The `**?**` option is used to format the pathname as an [escaped string](../../u
 
 The `**g**` option is used to specify that the pathname is in [generic-format representation](format.html "cpp/filesystem/path/format"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/formatter&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 set_debug_format |  enables to format the pathname as an [escaped string](../../utility/format/spec.html#Formatting_escaped_characters_and_strings "cpp/utility/format/spec")   
 (public member function)  
@@ -258,22 +258,22 @@ For character transcoding of the pathname:
 
 Returns an iterator past the end of the output range. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/formatter&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../../utility/feature_test.html "cpp/utility/feature test") macro  | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_format_path`](../../experimental/feature_test.html#cpp_lib_format_path "cpp/feature test") | [`202403L`](../../compiler_support/26.html#cpp_lib_format_path_202403L "cpp/compiler support/26") | (C++26) | formatting support for `std::filesystem::path`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/formatter&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/path/formatter&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ formatter](../../utility/format/formatter.html "cpp/utility/format/formatter")(C++20) |  defines formatting rules for a given type   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/dsc_formatter&action=edit)  
+(class template)   
 ---|---
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 Defined in header `[<atomic>](../header/atomic.html "cpp/header/atomic")` |  |   
 ---|---|---  
@@ -216,22 +216,22 @@ bool atomic_is_lock_free( const [std::atomic](atomic.html)<T>* obj ) noexcept; |
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_is_lock_free&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 obj  |  \-  |  pointer to the atomic object to examine   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_is_lock_free&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 true if *obj is a lock-free atomic, false otherwise. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_is_lock_free&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 All atomic types except for [std::atomic_flag](atomic_flag.html "cpp/atomic/atomic flag") may be implemented using mutexes or other locking operations, rather than using the lock-free atomic CPU instructions. Atomic types are also allowed to be _sometimes_ lock-free: for example, if only some sub-architectures support lock-free atomic access for a given type (such as the [CMPXCHG16B](https://www.felixcloutier.com/x86/cmpxchg8b:cmpxchg16b) instruction on x86-64), whether atomics are lock-free may not be known until runtime. 
 
 The C++ standard recommends (but does not require) that lock-free atomic operations are also address-free, that is, suitable for communication between processes using shared memory. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_is_lock_free&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -260,7 +260,7 @@ Possible output:
     std::atomic<A> is lock free? false
     std::atomic<B> is lock free? true
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_is_lock_free&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -270,15 +270,15 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 was ambiguous and might accept invalid pointer values  | specified via  
 atomic objects   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_is_lock_free&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ is_lock_free](atomic/is_lock_free.html "cpp/atomic/atomic/is lock free") |  checks if the atomic object is lock-free   
-(public member function of `std::atomic<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_is_lock_free&action=edit)  
+(public member function of `std::atomic<T>`)   
 ---|---  
 [ atomic_flag](atomic_flag.html "cpp/atomic/atomic flag")(C++11) |  the lock-free boolean atomic type   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/dsc_atomic_flag&action=edit)  
+(class)   
 [ is_always_lock_free](atomic/is_always_lock_free.html "cpp/atomic/atomic/is always lock free")[static] (C++17) |  indicates that the type is always lock-free   
-(public static member constant of `std::atomic<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_is_always_lock_free&action=edit)  
+(public static member constant of `std::atomic<T>`)   
 [ std::atomic_is_lock_free(std::shared_ptr)](../memory/shared_ptr/atomic.html "cpp/memory/shared ptr/atomic")(deprecated in C++20)(removed in C++26) |  specializes atomic operations for [std::shared_ptr](../memory/shared_ptr.html "cpp/memory/shared ptr")   
 (function template)  
 ---|---  

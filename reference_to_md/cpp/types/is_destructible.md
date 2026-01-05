@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Metaprogramming library](../meta.html "cpp/meta")
 
@@ -167,7 +167,7 @@ Type transformations
 Compile-time integer sequences  
 [integer_sequence](../utility/integer_sequence.html "cpp/utility/integer sequence")(C++14)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/meta/navbar_content&action=edit)
+
 
 Defined in header `[<type_traits>](../header/type_traits.html "cpp/header/type traits")` |  |   
 ---|---|---  
@@ -211,7 +211,7 @@ If the program adds specializations for any of the templates described on this p
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_destructible&action=edit&section=1 "Edit section: Helper variable templates")] Helper variable templates
+### Helper variable templates
 
 template< class T >  
 constexpr bool is_destructible_v = is_destructible<T>::value; |  |  (since C++17)  
@@ -222,7 +222,7 @@ template< class T >
 constexpr bool is_nothrow_destructible_v = is_nothrow_destructible<T>::value; |  |  (since C++17)  
 | |   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/integral_constant/inherit2&action=edit)
+
 
 ##  Inherited from [ std::integral_constant](integral_constant.html "cpp/types/integral constant")
 
@@ -247,13 +247,13 @@ Type  |  Definition
 `value_type` |  bool  
 `type` |  [std::integral_constant](integral_constant.html)<bool, value>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_destructible&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 Because the C++ program terminates if a destructor throws an exception during stack unwinding (which usually cannot be predicted), all practical destructors are non-throwing even if they are not declared noexcept. All destructors found in the C++ standard library are non-throwing. 
 
 Storage occupied by [trivially destructible](../language/destructor.html#Trivial_destructor "cpp/language/destructor") objects [may be reused](../language/lifetime.html#Storage_reuse "cpp/language/lifetime") without calling the destructor. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_destructible&action=edit&section=3 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
 
 [is_destructible (1)](is_destructible.html#Version_1)  
 ---  
@@ -283,7 +283,7 @@ Storage occupied by [trivially destructible](../language/destructor.html#Trivial
         : [std::integral_constant](integral_constant.html)<bool, requires(t object) { {object.~t()} noexcept; }>
     {};  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_destructible&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -310,7 +310,7 @@ Run this code
      
     int main() {}
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_destructible&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -318,13 +318,13 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 2049](https://cplusplus.github.io/LWG/issue2049) | C++11  | the specification was incompletable because of the imaginary wrapping struct  | made complete   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/is_destructible&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ is_constructibleis_trivially_constructibleis_nothrow_constructible](is_constructible.html "cpp/types/is constructible")(C++11)(C++11)(C++11) |  checks if a type has a constructor for specific arguments   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_is_constructible&action=edit)  
+(class template)   
 ---|---  
 [ has_virtual_destructor](has_virtual_destructor.html "cpp/types/has virtual destructor")(C++11) |  checks if a type has a virtual destructor   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_has_virtual_destructor&action=edit)  
+(class template)   
 [ destructible](../concepts/destructible.html "cpp/concepts/destructible")(C++20) |  specifies that an object of the type can be destroyed   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_destructible&action=edit)  
-[ destructor ](../language/destructor.html "cpp/language/destructor") |  releases claimed resources[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_destructor&action=edit)
+(concept)   
+[ destructor ](../language/destructor.html "cpp/language/destructor") |  releases claimed resources

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Localization library](../locale.html "cpp/locale")
 
@@ -152,7 +152,7 @@ base classes](../locale.html#Facet_category_base_classes "cpp/locale")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/navbar_content&action=edit)
+
 
 **`std::locale`**
 
@@ -173,7 +173,7 @@ Static member functions
 [locale::global](locale/global.html "cpp/locale/locale/global")  
 [locale::classic](locale/classic.html "cpp/locale/locale/classic")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/locale/navbar_content&action=edit)
+
 
 Defined in header `[<locale>](../header/locale.html "cpp/header/locale")` |  |   
 ---|---|---  
@@ -227,18 +227,18 @@ Internally, a locale object is implemented as if it is a reference-counted point
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/locale&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Type  |  Description   
 ---|---  
 [ id](locale/id.html "cpp/locale/locale/id") |  the facet index type: each facet class must declare or inherit a public static member of this type   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/locale/dsc_id&action=edit)  
+(class)   
 [ facet](locale/facet.html "cpp/locale/locale/facet") |  the base class for all facet categories: each facet of any category is derived from this type   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/locale/dsc_facet&action=edit)  
+(class)   
 category |  int   
 (typedef)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/locale&action=edit&section=2 "Edit section: Member constants")] Member constants
+### Member constants
 
 Name  |  Explanation   
 ---|---  
@@ -261,31 +261,31 @@ const category all[static] |  collate | ctype | monetary | numeric | time | mess
   
 `std::locale` member functions expecting a `category` argument require one of the category values defined above, or the union of two or more such values. The [`LC` constants](LC_categories.html "cpp/locale/LC categories") are not accepted. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/locale&action=edit&section=3 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](locale/locale.html "cpp/locale/locale/locale") |  constructs a new locale   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/locale/dsc_locale&action=edit)  
+(public member function)   
 ---|---  
 [ (destructor)](locale/~locale.html "cpp/locale/locale/~locale") |  destructs the locale and the facets whose reference count becomes zero   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/locale/dsc_%7Elocale&action=edit)  
+(public member function)   
 [ operator=](locale/operator=.html "cpp/locale/locale/operator=") |  replaces a locale   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/locale/dsc_operator%3D&action=edit)  
+(public member function)   
 [ combine](locale/combine.html "cpp/locale/locale/combine") |  constructs a locale with compile-time identified facet copied from another locale   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/locale/dsc_combine&action=edit)  
+(public member function)   
 [ name](locale/name.html "cpp/locale/locale/name") |  returns the name of the locale or "*" if unnamed   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/locale/dsc_name&action=edit)  
+(public member function)   
 [ encoding](locale/encoding.html "cpp/locale/locale/encoding")(C++26) |  returns the character encoding scheme associated with the locale   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/locale/dsc_encoding&action=edit)  
+(public member function)   
 [ operator==operator!=](locale/operator_cmp.html "cpp/locale/locale/operator cmp")(removed in C++20) |  equality comparison between locale objects   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/locale/dsc_operator_cmp&action=edit)  
+(public member function)   
 [ operator()](locale/operator\(\).html "cpp/locale/locale/operator\(\)") |  lexicographically compares two strings using this locale's collate facet   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/locale/dsc_operator\(\)&action=edit)  
+(public member function) &action=edit)  
 [ global](locale/global.html "cpp/locale/locale/global")[static] |  changes the global locale   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/locale/dsc_global&action=edit)  
+(public static member function)   
 [ classic](locale/classic.html "cpp/locale/locale/classic")[static] |  obtains a reference to the "C" locale   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/locale/dsc_classic&action=edit)  
+(public static member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/locale&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Demonstrates the typical prologue of a locale-sensitive program (cross-platform).
 
@@ -318,7 +318,7 @@ Possible output:
     1000.01
     1,000.01
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/locale&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -327,16 +327,16 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [LWG 340](https://cplusplus.github.io/LWG/issue340) | C++98  | the set of standard facets that all locales need to hold was unclear  | made clear   
 [LWG 347](https://cplusplus.github.io/LWG/issue347) | C++98  | parameters of type `category` could accept `LC` constants  | not accepted anymore   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/locale&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ text_encoding](text_encoding.html "cpp/text/text encoding")(C++26) |  describes an interface for accessing the [IANA Character Sets registry](https://www.iana.org/assignments/character-sets/character-sets.xhtml)   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/dsc_text_encoding&action=edit)  
+(class)   
 ---|---  
 [ use_facet](use_facet.html "cpp/locale/use facet") |  obtains a facet from a locale   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_use_facet&action=edit)  
+(function template)   
 [ has_facet](has_facet.html "cpp/locale/has facet") |  checks if a locale implements a specific facet   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_has_facet&action=edit)  
+(function template)   
 [ imbue](../io/ios_base/imbue.html "cpp/io/ios base/imbue") |  sets locale   
-(public member function of `std::ios_base`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/ios_base/dsc_imbue&action=edit)  
+(public member function of `std::ios_base`)   
 [ getloc](../io/ios_base/getloc.html "cpp/io/ios base/getloc") |  returns current locale   
-(public member function of `std::ios_base`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/ios_base/dsc_getloc&action=edit)
+(public member function of `std::ios_base`) 

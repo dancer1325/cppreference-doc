@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](copy.html "cpp/algorithm/ranges/co
 [uninitialized_default_construct_n](../../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 [Constrained algorithms](../ranges.html "cpp/algorithm/ranges")
 
@@ -550,7 +550,7 @@ All names in this menu belong to namespace `std::ranges`
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -596,7 +596,7 @@ The function-like entities described on this page are [_algorithm function objec
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/stable_partition&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  the iterator-sentinel pair defining the [range](../../iterator.html#Ranges "cpp/iterator") of elements to reorder   
 ---|---|---  
@@ -604,17 +604,17 @@ r  |  \-  |  the range of elements to reorder
 pred  |  \-  |  predicate to apply to the projected elements   
 proj  |  \-  |  projection to apply to the elements   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/stable_partition&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) An object equal to {pivot, last}, where `pivot` is an iterator to the first element of the second group.
 
 2) Same as (1) if r is an lvalue or of a [`borrowed_range`](../../ranges/borrowed_range.html "cpp/ranges/borrowed range") type. Otherwise returns [std::ranges::dangling](../../ranges/dangling.html "cpp/ranges/dangling").
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/stable_partition&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Given N = [ranges::distance](../../iterator/ranges/distance.html)(first, last), the complexity is at worst \\(\scriptsize N\cdot\log{(N)}\\)N·log(N) swaps, and only \\(\scriptsize \mathcal{O}(N)\\)𝓞(N) swaps in case an extra memory buffer is used. Exactly \\(\scriptsize N\\)N applications of the predicate pred and projection proj. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/stable_partition&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 This function attempts to allocate a temporary buffer. If the allocation fails, the less efficient algorithm is chosen. 
 
@@ -622,7 +622,7 @@ This function attempts to allocate a temporary buffer. If the allocation fails, 
 ---|---|---|---  
 [`__cpp_lib_constexpr_algorithms`](../../experimental/feature_test.html#cpp_lib_constexpr_algorithms "cpp/feature test") | [`202306L`](../../compiler_support/26.html#cpp_lib_constexpr_algorithms_202306L "cpp/compiler support/26") | (C++26) | constexpr stable sorting   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/stable_partition&action=edit&section=5 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
 
 This implementation does not use extra memory buffer and as such can be less efficient. See also the implementation in [MSVC STL](https://github.com/microsoft/STL/blob/e745bad3b1d05b5b19ec652d68abb37865ffa454/stl/inc/algorithm#L5358-L5555) and [libstdc++](https://github.com/gcc-mirror/gcc/blob/master/libstdc%2B%2B-v3/include/bits/ranges_algo.h#L2365-L2394). 
     
@@ -666,7 +666,7 @@ This implementation does not use extra memory buffer and as such can be less eff
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/stable_partition&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -738,16 +738,16 @@ Possible output:
     Unsorted vector: 16 30 44 30 15 24 10 18 12 35
     Sorted vector:   10 12 15 16 18 24 30 30 35 44
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/stable_partition&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ ranges::partition](partition.html "cpp/algorithm/ranges/partition")(C++20) |  divides a range of elements into two groups  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_partition&action=edit)  
+(algorithm function object)  
 ---|---  
 [ ranges::partition_copy](partition_copy.html "cpp/algorithm/ranges/partition copy")(C++20) |  copies a range dividing the elements into two groups  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_partition_copy&action=edit)  
+(algorithm function object)  
 [ ranges::is_partitioned](is_partitioned.html "cpp/algorithm/ranges/is partitioned")(C++20) |  determines if the range is partitioned by the given predicate  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_is_partitioned&action=edit)  
+(algorithm function object)  
 [ stable_partition](../stable_partition.html "cpp/algorithm/stable partition") |  divides elements into two groups while preserving their relative order   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_stable_partition&action=edit)
+(function template) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

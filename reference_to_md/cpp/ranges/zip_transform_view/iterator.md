@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::zip_transform_view`](../zip_transform_view.html "cpp/ranges/zip transform view")
 
@@ -258,7 +258,7 @@ Non-member functions
 [operator==(zip_transform_view::_sentinel_)](sentinel/operator_cmp.html "cpp/ranges/zip transform view/sentinel/operator cmp")  
 [operator-(zip_transform_view::_sentinel_)](sentinel/operator-.html "cpp/ranges/zip transform view/sentinel/operator-")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/zip_transform_view/navbar_content&action=edit)
+
 
 template< bool Const >  
 class /*iterator*/; |  |  (since C++23)   
@@ -281,7 +281,7 @@ The type /*iterator*/<true> or /*iterator*/<false> treats the underlying views a
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/zip_transform_view/iterator&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Member type  |  Definition   
 ---|---  
@@ -347,7 +347,7 @@ and /*CRREF*/ be [ranges::range_reference_t](../range_reference_t.html)<const Vi
   
 `difference_type` |  range::range_difference_t</*Base*/>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/zip_transform_view/iterator&action=edit&section=2 "Edit section: Data members")] Data members
+### Data members
 
 Member object  |  Definition   
 ---|---  
@@ -356,7 +356,7 @@ Member object  |  Definition
 `_inner__` (private) |  An iterator of type [`_ziperator <Const>_`](../zip_transform_view.html#Member_types "cpp/ranges/zip transform view").  
 (exposition-only member type*)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/zip_transform_view/iterator&action=edit&section=3 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](iterator/iterator.html "cpp/ranges/zip transform view/iterator/iterator") |  constructs an iterator   
 (public member function)  
@@ -366,9 +366,9 @@ Member object  |  Definition
 [ operator[]](iterator/operator_at.html "cpp/ranges/zip transform view/iterator/operator at") |  obtains the result of applying the invocable object to the underlying elements at given offset   
 (public member function)  
 [ operator++operator++(int)operator--operator--(int)operator+=operator-=](iterator/operator_arith.html "cpp/ranges/zip transform view/iterator/operator arith") |  advances or decrements the underlying iterator   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/iterator/dsc_operator_arith&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/zip_transform_view/iterator&action=edit&section=4 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ operator==operator<=>](iterator/operator_cmp.html "cpp/ranges/zip transform view/iterator/operator cmp")(C++23) |  compares the underlying iterators   
 (function)  
@@ -376,7 +376,7 @@ Member object  |  Definition
 [ operator+operator-](iterator/operator_arith2.html "cpp/ranges/zip transform view/iterator/operator arith2")(C++23) |  performs iterator arithmetic on underlying iterators   
 (function)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/zip_transform_view/iterator&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

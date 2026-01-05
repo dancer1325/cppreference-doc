@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::drop_view`](../drop_view.html "cpp/ranges/drop view")
 
@@ -238,7 +238,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
 [drop_view::reserve_hint](reserve_hint.html "cpp/ranges/drop view/reserve hint")(C++26)  
 [Deduction guides](deduction_guides.html "cpp/ranges/drop view/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/drop_view/navbar_content&action=edit)
+
 
 drop_view() requires [std::default_initializable](../../concepts/default_initializable.html)<V> = default; |  (1)  |  (since C++20)  
 ---|---|---  
@@ -251,13 +251,13 @@ Constructs a `drop_view`.
 
 2) Initializes the underlying view `_base__` with std::move(base) and the count `_count__` with count. After construction, [`base()`](base.html "cpp/ranges/drop view/base") returns a copy of base and [`size()`](size.html "cpp/ranges/drop view/size") returns [ranges::size](../size.html)(base) - count if the size of base is not less than count, or ​0​ otherwise.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/drop_view/drop_view&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 base  |  \-  |  the underlying view   
 ---|---|---  
 count  |  \-  |  number of elements to skip   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/drop_view/drop_view&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -290,7 +290,7 @@ Output:
     Hello, C++20
     C++20
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/drop_view/drop_view&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

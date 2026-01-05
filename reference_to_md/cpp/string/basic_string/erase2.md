@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Strings library](../../string.html "cpp/string")
 
@@ -42,7 +42,7 @@ Classes
 [basic_string_view](../basic_string_view.html "cpp/string/basic string view")(C++17)  
 [char_traits](../char_traits.html "cpp/string/char traits")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/navbar_content&action=edit)
+
 
 [`std::basic_string`](../basic_string.html "cpp/string/basic string")
 
@@ -135,7 +135,7 @@ basic_string_view](operator_basic_string_view.html "cpp/string/basic string/oper
 [hash<std::basic_string>](hash.html "cpp/string/basic string/hash")(C++11)  
 [Deduction guides](deduction_guides.html "cpp/string/basic string/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/navbar_content&action=edit)
+
 
 Defined in header `[<string>](../../header/string.html "cpp/header/string")` |  |   
 ---|---|---  
@@ -174,7 +174,7 @@ return r;.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/erase2&action=edit&section=T-1 "Template:cpp/container/erase2")] Parameters
+### Parameters
 
 c  |  \-  |  container from which to erase   
 ---|---|---  
@@ -182,11 +182,11 @@ value  |  \-  |  value to be removed
 pred  |  \-  |  unary predicate which returns ​true if the element should be erased.   
 The expression pred(v) must be convertible to bool for every argument `v` of type (possibly const) `CharT`, regardless of [value category](../../language/value_category.html "cpp/language/value category"), and must not modify `v`. Thus, a parameter type of CharT&is not allowed, nor is CharT unless for `CharT` a move is equivalent to a copy(since C++11). ​   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/erase2&action=edit&section=T-2 "Template:cpp/container/erase2")] Return value
+### Return value
 
 The number of erased elements. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/erase2&action=edit&section=T-3 "Template:cpp/container/erase2")] Complexity
+### Complexity
 
 Linear. 
 
@@ -196,7 +196,7 @@ Linear.
 ---|---|---|---  
 [`__cpp_lib_algorithm_default_value_type`](../../experimental/feature_test.html#cpp_lib_algorithm_default_value_type "cpp/feature test") | [`202403`](../../compiler_support/26.html#cpp_lib_algorithm_default_value_type_202403 "cpp/compiler support/26") | (C++26) | [List-initialization](../../language/list_initialization.html "cpp/language/list initialization") for `std::erase`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/erase2&action=edit&section=T-5 "Template:cpp/container/erase2")] Example
+### Example
 
 Run this code
     
@@ -236,12 +236,12 @@ Possible output:
     Erased symbols count: 4
     After erase {'g'}: "sin"
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/erase2&action=edit&section=T-7 "Template:cpp/container/erase2")] See also
+### See also
 
 [ removeremove_if](../../algorithm/remove.html "cpp/algorithm/remove") |  removes elements satisfying specific criteria   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_remove&action=edit)  
+(function template)   
 ---|---  
 [ ranges::removeranges::remove_if](../../algorithm/ranges/remove.html "cpp/algorithm/ranges/remove")(C++20)(C++20) |  removes elements satisfying specific criteria  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_remove&action=edit)
+(algorithm function object)
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

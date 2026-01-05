@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [C-style I/O](../c.html "cpp/io/c")
 
@@ -176,7 +176,7 @@ Operations on files
 [tmpfile](tmpfile.html "cpp/io/c/tmpfile")  
 [tmpnam](tmpnam.html "cpp/io/c/tmpnam")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/navbar_content&action=edit)
+
 
 Defined in header `[<cwchar>](../../header/cwchar.html "cpp/header/cwchar")` |  |   
 ---|---|---  
@@ -185,19 +185,19 @@ Defined in header `[<cwchar>](../../header/cwchar.html "cpp/header/cwchar")` |  
   
 Reads the next wide character from [stdin](std_streams.html "cpp/io/c/std streams"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/getwchar&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/getwchar&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The obtained wide character, or WEOF if an error has occurred or the end of file reached 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/getwchar&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ getchar](getchar.html "cpp/io/c/getchar") |  reads a character from [stdin](std_streams.html "cpp/io/c/std streams")   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_getchar&action=edit)  
+(function)   
 ---|---  
 [ fgetwcgetwc](fgetwc.html "cpp/io/c/fgetwc") |  gets a wide character from a file stream   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_fgetwc&action=edit)  
+(function)   
 [C documentation](../../../c/io/getwchar.html "c/io/getwchar") for getwchar

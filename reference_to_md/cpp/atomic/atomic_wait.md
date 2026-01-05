@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 Defined in header `[<atomic>](../header/atomic.html "cpp/header/atomic")` |  |   
 ---|---|---  
@@ -220,18 +220,18 @@ If order is one of std::memory_order::release and std::memory_order::acq_rel, th
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_wait&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 object  |  \-  |  pointer to the atomic object to check and wait on   
 ---|---|---  
 old  |  \-  |  the value to check the atomic object no longer contains   
 order  |  \-  |  the memory synchronization ordering   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_wait&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_wait&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 This form of change-detection is often more efficient than simple polling or pure spinlocks. 
 
@@ -239,22 +239,22 @@ Due to the [ABA problem](https://en.wikipedia.org/wiki/ABA_problem "enwiki:ABA p
 
 The comparison is bitwise (similar to [std::memcmp](../string/byte/memcmp.html "cpp/string/byte/memcmp")); no comparison operator is used. Padding bits that never participate in an object's value representation are ignored. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_wait&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_wait&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ wait](atomic/wait.html "cpp/atomic/atomic/wait")(C++20) |  blocks the thread until notified and the atomic value changes   
-(public member function of `std::atomic<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_wait&action=edit)  
+(public member function of `std::atomic<T>`)   
 ---|---  
 [ notify_one](atomic/notify_one.html "cpp/atomic/atomic/notify one")(C++20) |  notifies at least one thread waiting on the atomic object   
-(public member function of `std::atomic<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_notify_one&action=edit)  
+(public member function of `std::atomic<T>`)   
 [ notify_all](atomic/notify_all.html "cpp/atomic/atomic/notify all")(C++20) |  notifies all threads blocked waiting on the atomic object   
-(public member function of `std::atomic<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_notify_all&action=edit)  
+(public member function of `std::atomic<T>`)   
 [ atomic_notify_one](atomic_notify_one.html "cpp/atomic/atomic notify one")(C++20) |  notifies a thread blocked in atomic_wait   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/dsc_atomic_notify_one&action=edit)  
+(function template)   
 [ atomic_notify_all](atomic_notify_all.html "cpp/atomic/atomic notify all")(C++20) |  notifies all threads blocked in atomic_wait   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/dsc_atomic_notify_all&action=edit)
+(function template) 

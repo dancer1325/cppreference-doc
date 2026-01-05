@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Strings library](../../string.html "cpp/string")
 
@@ -40,7 +40,7 @@ Classes
 [basic_string_view](../basic_string_view.html "cpp/string/basic string view")(C++17)  
 [char_traits](../char_traits.html "cpp/string/char traits")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/navbar_content&action=edit)
+
 
 [`std::basic_string`](../basic_string.html "cpp/string/basic string")
 
@@ -133,7 +133,7 @@ basic_string_view](operator_basic_string_view.html "cpp/string/basic string/oper
 [hash<std::basic_string>](hash.html "cpp/string/basic string/hash")(C++11)  
 [Deduction guides](deduction_guides.html "cpp/string/basic string/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/navbar_content&action=edit)
+
 
 template< class Operation >  
 constexpr void resize_and_overwrite( size_type count, Operation op ); |  |  (since C++23)  
@@ -176,19 +176,19 @@ Implementations are recommended to avoid unnecessary copies and allocations by, 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/resize_and_overwrite&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 count  |  \-  |  the maximal possible new size of the string   
 ---|---|---  
 op  |  \-  |  the function object used for setting the new contents of the string   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/resize_and_overwrite&action=edit&section=2 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 [std::length_error](../../error/length_error.html "cpp/error/length error") if count > max_size(). Any exceptions thrown by corresponding `Allocator`. 
 
 If an exception is thrown from std::move(op)(p, count), the behavior is undefined. Otherwise, if an exception is thrown, this function has no effect. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/resize_and_overwrite&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 `resize_and_overwrite` invalidates all iterators, pointers, and references into *this, regardless whether reallocation occurs. Implementations may assume that the contents of the string are not aliased after the call to `resize_and_overwrite`. 
 
@@ -196,7 +196,7 @@ If an exception is thrown from std::move(op)(p, count), the behavior is undefine
 ---|---|---|---  
 [`__cpp_lib_string_resize_and_overwrite`](../../experimental/feature_test.html#cpp_lib_string_resize_and_overwrite "cpp/feature test") | [`202110L`](../../compiler_support/23.html#cpp_lib_string_resize_and_overwrite_202110L "cpp/compiler support/23") | (C++23) | `std::basic_string::resize_and_overwrite`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/resize_and_overwrite&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Link to test the example: [compiler explorer](https://godbolt.org/z/fbbeYGf5h).
 
@@ -294,10 +294,10 @@ Possible output:
     In Operation(); final_size: 26
     Finally, food.size: 26, food.capacity: 30, food: "Food: apple banana coconut"
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/string/basic_string/resize_and_overwrite&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ resize](resize.html "cpp/string/basic string/resize") |  changes the number of characters stored   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_resize&action=edit)  
+(public member function)   
 ---|---
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

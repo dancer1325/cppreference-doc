@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 Defined in header `[<memory>](../../header/memory.html "cpp/header/memory")` |  |   
 ---|---|---  
@@ -234,25 +234,25 @@ The function-like entities described on this page are [_algorithm function objec
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/ranges/uninitialized_default_construct&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  the iterator-sentinel pair defining the [range](../../iterator.html#Ranges "cpp/iterator") of elements to initialize   
 ---|---|---  
 r  |  \-  |  the [`range`](../../ranges/range.html "cpp/ranges/range") of the elements to initialize   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/ranges/uninitialized_default_construct&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 As described above. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/ranges/uninitialized_default_construct&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 Linear in the distance between first and last. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/ranges/uninitialized_default_construct&action=edit&section=4 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Any exception thrown on construction of the elements in the destination range. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/ranges/uninitialized_default_construct&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 An implementation may skip the objects construction (without changing the observable effect) if no non-trivial default constructor is called while default-initializing a [std::iter_value_t](../../iterator/iter_t.html)<I> object, which can be detected by [std::is_trivially_default_constructible](../../types/is_default_constructible.html "cpp/types/is default constructible"). 
 
@@ -260,7 +260,7 @@ An implementation may skip the objects construction (without changing the observ
 ---|---|---|---  
 [`__cpp_lib_raw_memory_algorithms`](../../experimental/feature_test.html#cpp_lib_raw_memory_algorithms "cpp/feature test") | [`202411L`](../../compiler_support/26.html#cpp_lib_raw_memory_algorithms_202411L "cpp/compiler support/26") | (C++26) | constexpr for [specialized memory algorithms](../../memory.html#Uninitialized_memory_algorithms "cpp/memory"), ([1,2](uninitialized_default_construct.html#Version_1))  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/ranges/uninitialized_default_construct&action=edit&section=6 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     struct uninitialized_default_construct_fn
@@ -299,7 +299,7 @@ An implementation may skip the objects construction (without changing the observ
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/ranges/uninitialized_default_construct&action=edit&section=7 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -357,7 +357,7 @@ Possible output:
     4 ▄▀▄▀▄▀▄▀
       A B C D
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/ranges/uninitialized_default_construct&action=edit&section=8 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -365,16 +365,16 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 3870](https://cplusplus.github.io/LWG/issue3870) | C++20  | this algorithm might create objects on a const storage  | kept disallowed   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/ranges/uninitialized_default_construct&action=edit&section=9 "Edit section: See also")] See also
+### See also
 
 [ ranges::uninitialized_default_construct_n](uninitialized_default_construct_n.html "cpp/memory/ranges/uninitialized default construct n")(C++20) |  constructs objects by [default-initialization](../../language/default_initialization.html "cpp/language/default initialization") in an uninitialized area of memory, defined by a start and count  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/ranges/dsc_uninitialized_default_construct_n&action=edit)  
+(algorithm function object)  
 ---|---  
 [ ranges::uninitialized_value_construct](uninitialized_value_construct.html "cpp/memory/ranges/uninitialized value construct")(C++20) |  constructs objects by [value-initialization](../../language/value_initialization.html "cpp/language/value initialization") in an uninitialized area of memory, defined by a range  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/ranges/dsc_uninitialized_value_construct&action=edit)  
+(algorithm function object)  
 [ ranges::uninitialized_value_construct_n](uninitialized_value_construct_n.html "cpp/memory/ranges/uninitialized value construct n")(C++20) |  constructs objects by [value-initialization](../../language/value_initialization.html "cpp/language/value initialization") in an uninitialized area of memory, defined by a start and a count  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/ranges/dsc_uninitialized_value_construct_n&action=edit)  
+(algorithm function object)  
 [ uninitialized_default_construct](../uninitialized_default_construct.html "cpp/memory/uninitialized default construct")(C++17) |  constructs objects by [default-initialization](../../language/default_initialization.html "cpp/language/default initialization") in an uninitialized area of memory, defined by a range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_uninitialized_default_construct&action=edit)
+(function template) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

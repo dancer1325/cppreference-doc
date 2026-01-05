@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 Defined in header `[<memory_resource>](../header/memory_resource.html "cpp/header/memory resource")` |  |   
 ---|---|---  
@@ -193,7 +193,7 @@ struct pool_options; |  |  (since C++17)
   
 `std::pmr::pool_options` is a set of constructor options for pool resources including [std::pmr::synchronized_pool_resource](synchronized_pool_resource.html "cpp/memory/synchronized pool resource") and [std::pmr::unsynchronized_pool_resource](unsynchronized_pool_resource.html "cpp/memory/unsynchronized pool resource"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/pool_options&action=edit&section=1 "Edit section: Data members")] Data members
+### Data members
 
 Member  |  Meaning   
 ---|---  
@@ -209,10 +209,10 @@ The largest allocation size that is required to be fulfilled using the pooling m
   
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/pool_options&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ synchronized_pool_resource](synchronized_pool_resource.html "cpp/memory/synchronized pool resource")(C++17) |  a thread-safe [std::pmr::memory_resource](memory_resource.html "cpp/memory/memory resource") for managing allocations in pools of different block sizes   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_synchronized_pool_resource&action=edit)  
+(class)   
 ---|---  
 [ unsynchronized_pool_resource](unsynchronized_pool_resource.html "cpp/memory/unsynchronized pool resource")(C++17) |  a thread-unsafe [std::pmr::memory_resource](memory_resource.html "cpp/memory/memory resource") for managing allocations in pools of different block sizes   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_unsynchronized_pool_resource&action=edit)
+(class) 

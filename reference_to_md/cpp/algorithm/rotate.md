@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](ranges/copy.html "cpp/algorithm/ra
 [uninitialized_default_construct_n](../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -349,7 +349,7 @@ If any of the following conditions is satisfied, the behavior is undefined:
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/rotate&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first, last  |  \-  |  the pair of iterators defining the [range](../iterator.html#Ranges "cpp/iterator") of elements to rotate   
 ---|---|---  
@@ -358,15 +358,15 @@ policy  |  \-  |  the [execution policy](execution_policy_tag_t.html "cpp/algori
 Type requirements   
 -`ForwardIt` must meet the requirements of [LegacyForwardIterator](../named_req/ForwardIterator.html "cpp/named req/ForwardIterator").   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/rotate&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The iterator to the element originally referenced by *first, i.e. the [std::distance](../iterator/distance.html)(middle, last)th next iterator of first. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/rotate&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 At most [std::distance](../iterator/distance.html)(first, last) swaps. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/rotate&action=edit&section=4 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 The overload with a template parameter named `ExecutionPolicy` reports errors as follows: 
 
@@ -375,7 +375,7 @@ The overload with a template parameter named `ExecutionPolicy` reports errors as
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/rotate&action=edit&section=5 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
 
 See also the implementations in [libstdc++](https://github.com/gcc-mirror/gcc/blob/14d8a5ae472ca5743016f37da2dd4770d83dea21/libstdc%2B%2B-v3/include/bits/stl_algo.h#L1213-L1416), [libc++](https://github.com/llvm/llvm-project/tree/6adbc83ee9e46b476e0f75d5671c3a21f675a936/libcxx/include/__algorithm/rotate.h), and [MSVC STL](https://github.com/microsoft/STL/blob/472161105d596192194d4715ccad307c6c163b4a/stl/inc/xutility#L5392-L5446). 
     
@@ -407,13 +407,13 @@ See also the implementations in [libstdc++](https://github.com/gcc-mirror/gcc/bl
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/rotate&action=edit&section=6 "Edit section: Notes")] Notes
+### Notes
 
 `std::rotate` has better efficiency on common implementations if `ForwardIt` satisfies [LegacyBidirectionalIterator](../named_req/BidirectionalIterator.html "cpp/named req/BidirectionalIterator") or (better) [LegacyRandomAccessIterator](../named_req/RandomAccessIterator.html "cpp/named req/RandomAccessIterator"). 
 
 Implementations (e.g. [MSVC STL](https://github.com/microsoft/STL/blob/main/stl/src/vector_algorithms.cpp)) may enable vectorization when the iterator type satisfies [LegacyContiguousIterator](../named_req/ContiguousIterator.html "cpp/named req/ContiguousIterator") and swapping its value type calls neither non-trivial special member function nor [ADL](../language/adl.html "cpp/language/adl")-found `swap`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/rotate&action=edit&section=7 "Edit section: Example")] Example
+### Example
 
 `std::rotate` is a common building block in many algorithms. This example demonstrates [insertion sort](https://en.wikipedia.org/wiki/insertion_sort "enwiki:insertion sort").
 
@@ -459,7 +459,7 @@ Output:
     simple rotate left:	1 2 2 3 4 5 7 7 10 0
     simple rotate right:	0 1 2 2 3 4 5 7 7 10
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/rotate&action=edit&section=8 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -467,10 +467,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 488](https://cplusplus.github.io/LWG/issue488) | C++98  | the new location of the element pointed by first was not returned  | returned   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/rotate&action=edit&section=9 "Edit section: See also")] See also
+### See also
 
 [ rotate_copy](rotate_copy.html "cpp/algorithm/rotate copy") |  copies and rotate a range of elements   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_rotate_copy&action=edit)  
+(function template)   
 ---|---  
 [ ranges::rotate](ranges/rotate.html "cpp/algorithm/ranges/rotate")(C++20) |  rotates the order of elements in a range  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_rotate&action=edit)
+(algorithm function object)

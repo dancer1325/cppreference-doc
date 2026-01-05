@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ named requirements](../iterator/concepts.html "cpp/named req")
 
@@ -147,11 +147,11 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/named_req/navbar_content&action=edit)
+
 
 The **Clock** requirements describe a bundle consisting of a [std::chrono::duration](../chrono/duration.html "cpp/chrono/duration"), a [std::chrono::time_point](../chrono/time_point.html "cpp/chrono/time point"), and a function now() to get the current `time_point`. The origin of the clock's `time_point` is referred to as the clock's epoch. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/Clock&action=edit&section=1 "Edit section: Requirements")] Requirements
+### Requirements
 
 C1 and C2 denote clock types. t1 and t2 are values returned by C1::now() where the call returning t1 happens before the call returning t2 and both of these calls occur before C1::time_point::max(). 
 
@@ -164,8 +164,8 @@ C1::time_point | [std::chrono::time_point](../chrono/time_point.html)<C1> or [st
 C1::is_steady | const bool | true if t1 <= t2 is always true and the clock advances at a steady rate relative to real time (so the difference between two distinct reported times is approximately the elapsed real time between the clock updates), otherwise false  
 C1::now() | C1::time_point | Returns a time_point object representing the current point in time.   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/Clock&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ is_clockis_clock_v](../chrono/is_clock.html "cpp/chrono/is clock")(C++20) |  determines if a type is a **Clock**  
-(class template) (variable template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_is_clock&action=edit)  
+(class template) (variable template)  
 ---|---

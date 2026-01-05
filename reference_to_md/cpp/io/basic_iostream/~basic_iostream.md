@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_iostream`](../basic_iostream.html "cpp/io/basic iostream")
 
@@ -89,7 +89,7 @@ Protected member functions
 [basic_iostream::operator=](operator=.html "cpp/io/basic iostream/operator=")  
 [basic_iostream::swap](swap.html "cpp/io/basic iostream/swap")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_iostream/navbar_content&action=edit)
+
 
 virtual ~basic_iostream(); |  |   
 ---|---|---  
@@ -97,6 +97,6 @@ virtual ~basic_iostream(); |  |
   
 Destructs the input/output stream. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_iostream/%7Ebasic_iostream&action=edit&section=1 "Edit section: Notes")] Notes
+### Notes
 
 This destructor does not perform any operation on the underlying stream buffer (`rdbuf()`): the destructors of the derived streams such as [std::basic_fstream](../basic_fstream.html "cpp/io/basic fstream") and [std::basic_stringstream](../basic_stringstream.html "cpp/io/basic stringstream") are responsible for calling the destructors of the stream buffers. 

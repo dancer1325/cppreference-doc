@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ named requirements](../iterator/concepts.html "cpp/named req")
 
@@ -147,11 +147,11 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/named_req/navbar_content&action=edit)
+
 
 Note: the standard doesn't define a named requirement with this name. This is a type category defined by the core language. It is included here as a named requirement only for consistency. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/ImplicitLifetimeType&action=edit&section=1 "Edit section: Requirements")] Requirements
+### Requirements
 
 The following types are collectively called _implicit-lifetime types_ : 
 
@@ -162,11 +162,11 @@ The following types are collectively called _implicit-lifetime types_ :
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/ImplicitLifetimeType&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 Certain operations may [implicitly create](../language/objects.html#Object_creation "cpp/language/object") and start the [lifetime](../language/lifetime.html "cpp/language/lifetime") of objects of implicit-lifetime types, if doing so would prevent [undefined behavior](../language/ub.html "cpp/language/ub"). However, such operations do not start the lifetimes of subobjects of such objects that are not themselves of implicit-lifetime types. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/ImplicitLifetimeType&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

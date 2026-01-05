@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [`std::complex`](../complex.html "cpp/numeric/complex")
 
@@ -164,7 +164,7 @@
 [tuple_size<std::complex>](tuple_size.html "cpp/numeric/complex/tuple size")(C++26)  
 [tuple_element<std::complex>](tuple_element.html "cpp/numeric/complex/tuple element")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/navbar_content&action=edit)
+
 
 Defined in header `[<complex>](../../header/complex.html "cpp/header/complex")` |  |   
 ---|---|---  
@@ -196,16 +196,16 @@ Forms a [std::complex](../complex.html "cpp/numeric/complex") literal representi
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/operator%22%22i&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 arg  |  \-  |  the value of the imaginary number   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/operator%22%22i&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The [std::complex](../complex.html "cpp/numeric/complex") literal with the real part zero and imaginary part arg. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/operator%22%22i&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 These operators are declared in the namespace std::literals::complex_literals, where both `literals` and `complex_literals` are inline namespaces. Access to these operators can be gained with either: 
 
@@ -221,7 +221,7 @@ Even though if is a [keyword](../../keywords/if.html "cpp/keywords/if") in C++, 
 ---|---|---|---  
 [`__cpp_lib_complex_udls`](../../experimental/feature_test.html#cpp_lib_complex_udls "cpp/feature test") | [`201309L`](../../compiler_support/14.html#cpp_lib_complex_udls_201309L "cpp/compiler support/14") | (C++14) | User-Defined Literals for [std::complex](../complex.html "cpp/numeric/complex")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/operator%22%22i&action=edit&section=4 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
 
 [operator""i](operator""i.html#Version_1)  
 ---  
@@ -263,7 +263,7 @@ Even though if is a [keyword](../../keywords/if.html "cpp/keywords/if") in C++, 
         return [std::complex](../complex.html)<long double> {0.0L, d};
     }  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/operator%22%22i&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -288,13 +288,13 @@ Output:
     abs(1,1) = 1.41421
     abs(3,4) = 5
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/operator%22%22i&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ (constructor)](complex.html "cpp/numeric/complex/complex") |  constructs a complex number   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_complex&action=edit)  
+(public member function)   
 ---|---  
 [ operator=](operator=.html "cpp/numeric/complex/operator=") |  assigns the contents   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_operator%3D&action=edit)  
+(public member function)   
 [C documentation](../../../c/numeric/complex/I.html "c/numeric/complex/I") for I
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

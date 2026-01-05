@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [C-style I/O](../c.html "cpp/io/c")
 
@@ -176,7 +176,7 @@ Operations on files
 [tmpfile](tmpfile.html "cpp/io/c/tmpfile")  
 [tmpnam](tmpnam.html "cpp/io/c/tmpnam")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/navbar_content&action=edit)
+
 
 Defined in header `[<cwchar>](../../header/cwchar.html "cpp/header/cwchar")` |  |   
 ---|---|---  
@@ -197,19 +197,19 @@ The terminating null wide character from `str` is not written.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/fputws&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 str  |  \-  |  null-terminated wide string to be written   
 ---|---|---  
 stream  |  \-  |  output stream   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/fputws&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 On success, returns a non-negative value 
 
 On failure, returns [EOF](../c.html "cpp/io/c") and sets the _error_ indicator (see [std::ferror](ferror.html "cpp/io/c/ferror")) on `stream`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/fputws&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -232,15 +232,15 @@ Possible output:
     
     御休みなさい
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/fputws&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ fputs](fputs.html "cpp/io/c/fputs") |  writes a character string to a file stream   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_fputs&action=edit)  
+(function)   
 ---|---  
 [ wprintffwprintfswprintf](fwprintf.html "cpp/io/c/fwprintf") |  prints formatted wide character output to [stdout](std_streams.html "cpp/io/c/std streams"), a file stream or a buffer   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_fwprintf&action=edit)  
+(function)   
 ** fputws** |  writes a wide string to a file stream   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_fputws&action=edit)  
+(function)   
 [ fgetws](fgetws.html "cpp/io/c/fgetws") |  gets a wide string from a file stream   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_fgetws&action=edit)  
+(function)   
 [C documentation](../../../c/io/fputws.html "c/io/fputws") for fputws

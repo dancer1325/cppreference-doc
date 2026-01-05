@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Expressions](expressions.html "cpp/language/expressions")
 
@@ -289,7 +289,7 @@ Conversions
 [`dynamic_cast`](dynamic_cast.html "cpp/language/dynamic cast")  
 [`reinterpret_cast`](reinterpret_cast.html "cpp/language/reinterpret cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/expressions/navbar_content&action=edit)
+
 
 ## Contents
 
@@ -306,7 +306,7 @@ Conversions
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/character_literal&action=edit&section=1 "Edit section: Syntax")] Syntax  
+### Syntax  
   
 ---  
 `**'**` c-char ﻿`**'**` |  (1)  |   
@@ -327,7 +327,7 @@ c-char |  \-  |  either
 basic-c-char |  \-  |  A character from the [basic source character set](charset.html#Basic_source_character_set "cpp/language/charset")(until C++23)[translation character set](charset.html#Translation_character_set "cpp/language/charset")(since C++23), except the single-quote ', backslash \, or new-line character   
 c-char-sequence |  \-  |  two or more c-chars   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/character_literal&action=edit&section=2 "Edit section: Explanation")] Explanation
+### Explanation
 
 1) Ordinary character literal, e.g. 'a' or '\n' or '\13'. Such literal has type char and the value equal to the representation of c-char in the [execution character set](charset.html#Execution_character_set_.28Old_definition.29 "cpp/language/charset")(until C++23)the corresponding code point from [ordinary literal encoding](charset.html#Code_unit_and_literal_encoding "cpp/language/charset")(since C++23).
 
@@ -343,7 +343,7 @@ c-char-sequence |  \-  |  two or more c-chars
 
 7) Wide multicharacter literal, e.g. L'AB', is conditionally-supported, has type wchar_t and implementation-defined value.
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/character_literal&action=edit&section=3 "Edit section: Non-encodable characters")] Non-encodable characters
+#### Non-encodable characters
 
 1-5) Given that c-char is not a numeric escape sequence (see below), if c-char is not representable in the literal’s associated character encoding or cannot be encoded as a single code unit in that encoding (e.g. a non-BMP value on Windows where wchar_t is 16-bit), the program is ill-formed.
 
@@ -352,7 +352,7 @@ c-char-sequence |  \-  |  two or more c-chars
 7) If any c-char in c-char-sequence cannot be encoded as a single code unit in [wide literal encoding](charset.html#Code_unit_and_literal_encoding "cpp/language/charset"), the program is ill-formed. | (until C++23)  
 ---|---  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/character_literal&action=edit&section=4 "Edit section: Numeric escape sequences")] Numeric escape sequences
+#### Numeric escape sequences
 
 Numeric (octal and hexadecimal) escape sequences can be used for specifying the value of the character. 
 
@@ -366,13 +366,13 @@ If the value specified by a numeric escape sequence used in an ordinary or wide 
 If the value specified by a numeric escape sequence used in a UTF-_N_ character literal is not representable by the corresponding `char _N_ _t`, the value of the character literal is implementation-defined(until C++17)the program is ill-formed(since C++17).  | (since C++11)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/character_literal&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 Multicharacter literals were inherited by C from the B programming language. Although not specified by the C or C++ standard, most compilers (MSVC is a notable exception) implement multicharacter literals as specified in B: the values of each char in the literal initialize successive bytes of the resulting integer, in big-endian zero-padded right-adjusted order, e.g. the value of '\1' is 0x00000001 and the value of '\1\2\3\4' is 0x01020304. 
 
 In C, character constants such as 'a' or '\n' have type int, rather than char. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/character_literal&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -464,7 +464,7 @@ Possible output:
     L'猫' 	2B 73 00 00 
     L'🍌' 	4C F3 01 00
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/character_literal&action=edit&section=7 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -476,7 +476,7 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 in a character literal was unclear  | specified   
 [P1854R4](https://wg21.link/P1854R4) | C++98  | non-encodable character literals were conditionally-supported  | the program is ill-formed   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/character_literal&action=edit&section=8 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -548,8 +548,8 @@ in a character literal was unclear  | specified
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/character_literal&action=edit&section=9 "Edit section: See also")] See also
+### See also
 
-[ user-defined literals](user_literal.html "cpp/language/user literal")(C++11) |  literals with user-defined suffix[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_user_literal&action=edit)  
+[ user-defined literals](user_literal.html "cpp/language/user literal")(C++11) |  literals with user-defined suffix  
 ---|---  
 [C documentation](../../c/language/character_constant.html "c/language/character constant") for Character constant

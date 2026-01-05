@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -175,7 +175,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::shared_mutex`](../shared_mutex.html "cpp/thread/shared mutex")
 
@@ -194,7 +194,7 @@ Shared locking
 Native handle  
 [shared_mutex::native_handle](native_handle.html "cpp/thread/shared mutex/native handle")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/shared_mutex/navbar_content&action=edit)
+
 
 shared_mutex(); |  (1)  |  (since C++17)  
 ---|---|---  
@@ -205,15 +205,15 @@ shared_mutex( const shared_mutex& ) = delete; |  (2)  |  (since C++17)
 
 2) Copy constructor is deleted.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/mutex/constructor&action=edit&section=T-1 "Template:cpp/thread/mutex/constructor")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/mutex/constructor&action=edit&section=T-2 "Template:cpp/thread/mutex/constructor")] Exceptions
+### Exceptions
 
 [std::system_error](../../error/system_error.html "cpp/error/system error") if the construction is unsuccessful. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/mutex/constructor&action=edit&section=T-3 "Template:cpp/thread/mutex/constructor")] See also
+### See also
 
 [C documentation](../../../c/thread/mtx_init.html "c/thread/mtx init") for mtx_init  
 ---

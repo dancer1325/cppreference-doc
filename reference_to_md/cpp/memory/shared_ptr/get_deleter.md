@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::shared_ptr`](../shared_ptr.html "cpp/memory/shared ptr")
 
@@ -220,7 +220,7 @@ Helper classes
 [hash<std::shared_ptr>](hash.html "cpp/memory/shared ptr/hash")  
 [Deduction guides](deduction_guides.html "cpp/memory/shared ptr/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/shared_ptr/navbar_content&action=edit)
+
 
 Defined in header `[<memory>](../../header/memory.html "cpp/header/memory")` |  |   
 ---|---|---  
@@ -241,20 +241,20 @@ Access to the p's deleter. If the shared pointer p owns a deleter of type cv-unq
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/get_deleter&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 p  |  \-  |  a shared pointer whose deleter needs to be accessed   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/get_deleter&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 A pointer to the owned deleter or [`nullptr`](../../language/nullptr.html "cpp/language/nullptr"). The returned pointer is valid at least as long as there remains at least one [shared_ptr](../shared_ptr.html "cpp/memory/shared ptr") instance that owns it. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/get_deleter&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 The returned pointer may outlive the last [shared_ptr](../shared_ptr.html "cpp/memory/shared ptr") if, for example, [std::weak_ptr](../weak_ptr.html "cpp/memory/weak ptr")s remain and the implementation doesn't destroy the deleter until the entire control block is destroyed. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/get_deleter&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Demonstrates that [std::shared_ptr](../shared_ptr.html "cpp/memory/shared ptr") deleter is independent of the [shared_ptr](../shared_ptr.html "cpp/memory/shared ptr")'s type.
 
@@ -301,10 +301,10 @@ Output:
     ...and it equals &foo_deleter
     foo_deleter called!
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/shared_ptr/get_deleter&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ (constructor)](shared_ptr.html "cpp/memory/shared ptr/shared ptr") |  [std::shared_ptr](../shared_ptr.html "cpp/memory/shared ptr") constructors   
 (public member function)  
 ---|---  
 [ get_deleter](../unique_ptr/get_deleter.html "cpp/memory/unique ptr/get deleter") |  returns the deleter that is used for destruction of the managed object   
-(public member function of `std::unique_ptr<T,Deleter>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/unique_ptr/dsc_get_deleter&action=edit)
+(public member function of `std::unique_ptr<T,Deleter>`) 

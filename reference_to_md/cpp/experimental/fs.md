@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 **Filesystem library**
 
@@ -124,7 +124,7 @@ File types
 [filesystem::is_socket](fs/is_socket.html "cpp/experimental/fs/is socket")  
 [filesystem::is_symlink](fs/is_symlink.html "cpp/experimental/fs/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/navbar_content&action=edit)
+
 
 ![](https://upload.cppreference.com/mwiki/images/3/31/Imbox_notice.png) |  **Merged into ISO C++** The functionality described on this page was merged into the mainline ISO C++ standard as of 3/2016; see [the filesystem library](../filesystem.html "cpp/filesystem") (since C++17)  
 ---|---  
@@ -148,7 +148,7 @@ This library is directly based on [boost.filesystem](https://www.boost.org/doc/l
   
 ---  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs&action=edit&section=1 "Edit section: Library-wide definitions")] Library-wide definitions
+#### Library-wide definitions
 
   * _file_ : a file system object that holds data, can be written to, read from, or both. Files have names, attributes, one of which is file type: 
 
@@ -176,109 +176,109 @@ This library is directly based on [boost.filesystem](https://www.boost.org/doc/l
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs&action=edit&section=2 "Edit section: Classes")] Classes
+### Classes
 
 [ path](fs/path.html "cpp/experimental/fs/path") |  represents a path   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_path&action=edit)  
+(class)   
 ---|---  
 [ filesystem_error](fs/filesystem_error.html "cpp/experimental/fs/filesystem error") |  an exception thrown on file system errors   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_filesystem_error&action=edit)  
+(class)   
 [ directory_entry](fs/directory_entry.html "cpp/experimental/fs/directory entry") |  a directory entry   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_directory_entry&action=edit)  
+(class)   
 [ directory_iterator](fs/directory_iterator.html "cpp/experimental/fs/directory iterator") |  an iterator to the contents of the directory   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_directory_iterator&action=edit)  
+(class)   
 [ recursive_directory_iterator](fs/recursive_directory_iterator.html "cpp/experimental/fs/recursive directory iterator") |  an iterator to the contents of a directory and its subdirectories   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_recursive_directory_iterator&action=edit)  
+(class)   
 [ file_status](fs/file_status.html "cpp/experimental/fs/file status") |  represents file type and permissions   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_file_status&action=edit)  
+(class)   
 [ space_info](fs/space_info.html "cpp/experimental/fs/space info") |  information about free and available space on the filesystem   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_space_info&action=edit)  
+(class)   
 [ file_type](fs/file_type.html "cpp/experimental/fs/file type") |  the type of a file   
-(enum) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_file_type&action=edit)  
+(enum)   
 [ perms](fs/perms.html "cpp/experimental/fs/perms") |  identifies file system permissions   
-(enum) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_perms&action=edit)  
+(enum)   
 [ copy_options](fs/copy_options.html "cpp/experimental/fs/copy options") |  specifies semantics of copy operations   
-(enum) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_copy_options&action=edit)  
+(enum)   
 [ directory_options](fs/directory_options.html "cpp/experimental/fs/directory options") |  options for iterating directory contents   
-(enum) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_directory_options&action=edit)  
+(enum)   
 [ file_time_type](fs/file_time_type.html "cpp/experimental/fs/file time type") |  represents file time values   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_file_time_type&action=edit)  
+(typedef)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs&action=edit&section=3 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ absolutesystem_complete](fs/absolute.html "cpp/experimental/fs/absolute") |  composes an absolute path  
 converts a path to an absolute path replicating OS-specific behavior   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_absolute&action=edit)  
+(function)   
 ---|---  
 [ canonical](fs/canonical.html "cpp/experimental/fs/canonical") |  composes a canonical path   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_canonical&action=edit)  
+(function)   
 [ copy](fs/copy.html "cpp/experimental/fs/copy") |  copies files or directories   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_copy&action=edit)  
+(function)   
 [ copy_file](fs/copy_file.html "cpp/experimental/fs/copy file") |  copies file contents   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_copy_file&action=edit)  
+(function)   
 [ copy_symlink](fs/copy_symlink.html "cpp/experimental/fs/copy symlink") |  copies a symbolic link   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_copy_symlink&action=edit)  
+(function)   
 [ create_directorycreate_directories](fs/create_directory.html "cpp/experimental/fs/create directory") |  creates new directory   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_create_directory&action=edit)  
+(function)   
 [ create_hard_link](fs/create_hard_link.html "cpp/experimental/fs/create hard link") |  creates a hard link   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_create_hard_link&action=edit)  
+(function)   
 [ create_symlinkcreate_directory_symlink](fs/create_symlink.html "cpp/experimental/fs/create symlink") |  creates a symbolic link   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_create_symlink&action=edit)  
+(function)   
 [ current_path](fs/current_path.html "cpp/experimental/fs/current path") |  return current working directory   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_current_path&action=edit)  
+(function)   
 [ exists](fs/exists.html "cpp/experimental/fs/exists") |  checks whether path refers to existing file system object   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_exists&action=edit)  
+(function)   
 [ equivalent](fs/equivalent.html "cpp/experimental/fs/equivalent") |  checks whether two paths refer to the same file system object   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_equivalent&action=edit)  
+(function)   
 [ file_size](fs/file_size.html "cpp/experimental/fs/file size") |  returns the size of a file   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_file_size&action=edit)  
+(function)   
 [ hard_link_count](fs/hard_link_count.html "cpp/experimental/fs/hard link count") |  returns the number of hard links referring to the specific file   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_hard_link_count&action=edit)  
+(function)   
 [ last_write_time](fs/last_write_time.html "cpp/experimental/fs/last write time") |  gets or sets the time of the last data modification   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_last_write_time&action=edit)  
+(function)   
 [ permissions](fs/permissions.html "cpp/experimental/fs/permissions") |  modifies file access permissions   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_permissions&action=edit)  
+(function)   
 [ read_symlink](fs/read_symlink.html "cpp/experimental/fs/read symlink") |  obtains the target of a symbolic link   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_read_symlink&action=edit)  
+(function)   
 [ removeremove_all](fs/remove.html "cpp/experimental/fs/remove") |  removes a file or empty directory  
 removes a file or directory and all its contents, recursively   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_remove&action=edit)  
+(function)   
 [ rename](fs/rename.html "cpp/experimental/fs/rename") |  moves or renames a file or directory   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_rename&action=edit)  
+(function)   
 [ resize_file](fs/resize_file.html "cpp/experimental/fs/resize file") |  changes the size of a regular file by truncation or zero-fill   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_resize_file&action=edit)  
+(function)   
 [ space](fs/space.html "cpp/experimental/fs/space") |  determines available free space on the file system   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_space&action=edit)  
+(function)   
 [ statussymlink_status](fs/status.html "cpp/experimental/fs/status") |  determines file attributes  
 determines file attributes, checking the symlink target   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_status&action=edit)  
+(function)   
 [ temp_directory_path](fs/temp_directory_path.html "cpp/experimental/fs/temp directory path") |  returns a directory suitable for temporary files   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_temp_directory_path&action=edit)  
+(function)   
   
 #####  File types   
   
 [ is_block_file](fs/is_block_file.html "cpp/experimental/fs/is block file") |  checks whether the given path refers to block device   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_is_block_file&action=edit)  
+(function)   
 [ is_character_file](fs/is_character_file.html "cpp/experimental/fs/is character file") |  checks whether the given path refers to a character device   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_is_character_file&action=edit)  
+(function)   
 [ is_directory](fs/is_directory.html "cpp/experimental/fs/is directory") |  checks whether the given path refers to a directory   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_is_directory&action=edit)  
+(function)   
 [ is_empty](fs/is_empty.html "cpp/experimental/fs/is empty") |  checks whether the given path refers to an empty file or directory   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_is_empty&action=edit)  
+(function)   
 [ is_fifo](fs/is_fifo.html "cpp/experimental/fs/is fifo") |  checks whether the given path refers to a named pipe   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_is_fifo&action=edit)  
+(function)   
 [ is_other](fs/is_other.html "cpp/experimental/fs/is other") |  checks whether the argument refers to an _other_ file   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_is_other&action=edit)  
+(function)   
 [ is_regular_file](fs/is_regular_file.html "cpp/experimental/fs/is regular file") |  checks whether the argument refers to a regular file   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_is_regular_file&action=edit)  
+(function)   
 [ is_socket](fs/is_socket.html "cpp/experimental/fs/is socket") |  checks whether the argument refers to a named IPC socket   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_is_socket&action=edit)  
+(function)   
 [ is_symlink](fs/is_symlink.html "cpp/experimental/fs/is symlink") |  checks whether the argument refers to a symbolic link   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_is_symlink&action=edit)  
+(function)   
 [ status_known](fs/status_known.html "cpp/experimental/fs/status known") |  checks whether file status is known   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/fs/dsc_status_known&action=edit)  
+(function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/fs&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [C++ documentation](../filesystem.html "cpp/filesystem") for Filesystem library (C++17)  
 ---

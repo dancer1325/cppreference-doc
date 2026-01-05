@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_filebuf`](../basic_filebuf.html "cpp/io/basic filebuf")
 
@@ -105,7 +105,7 @@ Protected member functions
 Non-member functions  
 [swap(std::basic_filebuf)](swap2.html "cpp/io/basic filebuf/swap2")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_filebuf/navbar_content&action=edit)
+
 
 basic_filebuf* open( const char* s, [std::ios_base::openmode](../ios_base/openmode.html) mode ); |  (1)  |   
 ---|---|---  
@@ -170,21 +170,21 @@ If the open operation succeeds and (openmode & [std::ios_base::ate](../ios_base/
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_filebuf/open&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 s, str, p  |  \-  |  the file name to open; s must point to a null-terminated string   
 ---|---|---  
 openmode  |  \-  |  the file opening mode, a binary OR of the [std::ios_base::openmode](../ios_base/openmode.html "cpp/io/ios base/openmode") modes   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_filebuf/open&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 this on success, a null pointer on failure. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_filebuf/open&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 `open()` is typically called through the constructor or the `open()` member function of [std::basic_fstream](../basic_fstream.html "cpp/io/basic fstream"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_filebuf/open&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -227,7 +227,7 @@ Output:
     
     Read back from file: 3.14
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_filebuf/open&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -235,10 +235,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 596](https://cplusplus.github.io/LWG/issue596) | C++98  | `open()` could not open files in append mode  | can open in append mode   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_filebuf/open&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ is_open](is_open.html "cpp/io/basic filebuf/is open") |  checks if the associated file is open   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_filebuf/dsc_is_open&action=edit)  
+(public member function)   
 ---|---  
 [ close](close.html "cpp/io/basic filebuf/close") |  flushes the put area buffer and closes the associated file   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_filebuf/dsc_close&action=edit)
+(public member function) 

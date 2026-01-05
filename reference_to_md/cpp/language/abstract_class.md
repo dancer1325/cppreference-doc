@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Classes](classes.html "cpp/language/classes")
 
@@ -261,7 +261,7 @@ Inheritance
 [`override` specifier](override.html "cpp/language/override") (C++11)  
 [`final` specifier](final.html "cpp/language/final") (C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/classes/navbar_content&action=edit)
+
 
 Defines an abstract type which cannot be instantiated, but can be used as a base class. 
 
@@ -275,7 +275,7 @@ Defines an abstract type which cannot be instantiated, but can be used as a base
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/abstract_class&action=edit&section=1 "Edit section: Syntax")] Syntax
+### Syntax
 
 A _pure virtual_ function is a [virtual function](virtual.html "cpp/language/virtual") whose [declarator](function.html "cpp/language/function") has the following syntax:   
   
@@ -307,7 +307,7 @@ pure-specifier cannot appear in a member function definition or [friend](friend.
 
 An _abstract class_ is a class that either defines or inherits at least one function for which [the final overrider](virtual.html "cpp/language/virtual") is _pure virtual_. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/abstract_class&action=edit&section=2 "Edit section: Explanation")] Explanation
+### Explanation
 
 Abstract classes are used to represent general concepts (for example, Shape, Animal), which can be used as base classes for concrete classes (for example, Circle, Dog). 
 
@@ -385,7 +385,7 @@ Making a virtual call to a pure virtual function from a constructor or the destr
         }
     };
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/abstract_class&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -394,7 +394,7 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [CWG 390](https://cplusplus.github.io/CWG/issues/390.html) | C++98  | an undefined pure virtual destructor might be called  | a definition is required in this case   
 [CWG 2153](https://cplusplus.github.io/CWG/issues/2153.html) | C++98  | pure-specifier could appear in friend declarations  | prohibited   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/abstract_class&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
   * [`virtual`](virtual.html "cpp/language/virtual")
 

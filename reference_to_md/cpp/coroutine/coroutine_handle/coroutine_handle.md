@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Coroutine support](../../coroutine.html "cpp/coroutine")
 
@@ -146,7 +146,7 @@ Trivial awaitables
 Range generators  
 [generator](../generator.html "cpp/coroutine/generator")(C++23)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/coroutine/navbar_content&action=edit)
+
 
 [`std::coroutine_handle`](../coroutine_handle.html "cpp/coroutine/coroutine handle")
 
@@ -173,7 +173,7 @@ Non-member functions
 Helper classes  
 [hash<std::coroutine_handle>](hash.html "cpp/coroutine/coroutine handle/hash")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/coroutine/coroutine_handle/navbar_content&action=edit)
+
 
 constexpr coroutine_handle() noexcept; |  (1)  |  (since C++20)  
 ---|---|---  
@@ -188,23 +188,23 @@ Creates a `coroutine_handle` that does not refer a coroutine, or copies a `corou
 
 3,4) Copies the underlying address. The copy constructor and move constructor are equivalent to implicitly declared ones.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/coroutine/coroutine_handle/coroutine_handle&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 other  |  \-  |  another `coroutine_handle` to copy   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/coroutine/coroutine_handle/coroutine_handle&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 [std::coroutine_handle](../coroutine_handle.html)<[std::noop_coroutine_promise](../noop_coroutine_promise.html)> is neither default constructible nor constructible from [std::nullptr_t](../../types/nullptr_t.html "cpp/types/nullptr t"). [std::noop_coroutine](../noop_coroutine.html "cpp/coroutine/noop coroutine") can be used to create a new [std::coroutine_handle](../coroutine_handle.html)<[std::noop_coroutine_promise](../noop_coroutine_promise.html)>. 
 
 Static member functions from_promise and from_address can also create a `coroutine_handle`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/coroutine/coroutine_handle/coroutine_handle&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ from_promise](from_promise.html "cpp/coroutine/coroutine handle/from promise")[static] |  creates a `coroutine_handle` from the promise object of a coroutine   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/coroutine/coroutine_handle/dsc_from_promise&action=edit)  
+(public static member function)   
 ---|---  
 [ from_address](from_address.html "cpp/coroutine/coroutine handle/from address")[static] |  imports a coroutine from a pointer   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/coroutine/coroutine_handle/dsc_from_address&action=edit)  
+(public static member function)   
 [ noop_coroutine](../noop_coroutine.html "cpp/coroutine/noop coroutine")(C++20) |  creates a coroutine handle that has no observable effects when resumed or destroyed   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/coroutine/dsc_noop_coroutine&action=edit)
+(function) 

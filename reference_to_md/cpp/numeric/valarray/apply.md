@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [`std::valarray`](../valarray.html "cpp/numeric/valarray")
 
@@ -155,7 +155,7 @@
   
 [Deduction guides](deduction_guides.html "cpp/numeric/valarray/deduction guides") (C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/navbar_content&action=edit)
+
 
 valarray<T> apply( T func(T) ) const; |  |   
 ---|---|---  
@@ -176,16 +176,16 @@ Returns a new valarray of the same size with values which are acquired by applyi
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/apply&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 func  |  \-  |  function to apply to the values   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/apply&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The resulting valarray with values acquired by applying function `func`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/apply&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 The function can be implemented with the return type different from [std::valarray](../valarray.html "cpp/numeric/valarray"). In this case, the replacement type has the following properties: 
 
@@ -199,7 +199,7 @@ The function can be implemented with the return type different from [std::valarr
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/apply&action=edit&section=4 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
 
 Following straightforward implementations can be replaced by expression templates for a higher efficiency. 
     
@@ -224,7 +224,7 @@ Following straightforward implementations can be replaced by expression template
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/apply&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Calculates and prints the first 10 factorials.
 
@@ -252,10 +252,10 @@ Output:
     
     1 2 6 24 120 720 5040 40320 362880 3628800
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/valarray/apply&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ for_each](../../algorithm/for_each.html "cpp/algorithm/for each") |  applies a unary [function object](../../named_req/FunctionObject.html "cpp/named req/FunctionObject") to elements from a [range](../../iterator.html#Ranges "cpp/iterator")   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_for_each&action=edit)  
+(function template)   
 ---|---  
 [ ranges::for_each](../../algorithm/ranges/for_each.html "cpp/algorithm/ranges/for each")(C++20) |  applies a unary [function object](../../named_req/FunctionObject.html "cpp/named req/FunctionObject") to elements from a [range](../../iterator.html#Ranges "cpp/iterator")  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_for_each&action=edit)
+(algorithm function object)

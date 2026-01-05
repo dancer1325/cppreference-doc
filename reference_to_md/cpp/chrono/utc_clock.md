@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 **`std::chrono::utc_clock`**
 
@@ -118,7 +118,7 @@ Leap second insertion information
 [leap_second_info](utc_clock/leap_second_info.html "cpp/chrono/utc clock/leap second info")  
 [get_leap_second_info](utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/utc_clock/navbar_content&action=edit)
+
 
 Defined in header `[<chrono>](../header/chrono.html "cpp/header/chrono")` |  |   
 ---|---|---  
@@ -151,14 +151,14 @@ using utc_time = [std::chrono::time_point](time_point.html)<std::chrono::utc_clo
 using utc_seconds = utc_time<[std::chrono::seconds](duration.html)>; |  |  (since C++20)  
 | |   
 [ operator<<(std::chrono::utc_time)](utc_clock/operator_ltlt.html "cpp/chrono/utc clock/operator ltlt")(C++20) |  performs stream output on a `utc_time`   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_point/dsc_operator_ltlt&action=edit)  
+(function template)   
 ---|---  
 [ from_stream(std::chrono::utc_time)](utc_clock/from_stream.html "cpp/chrono/utc clock/from stream")(C++20) |  parses a `utc_time` from a stream according to the provided format   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/time_point/dsc_from_stream&action=edit)  
+(function template)   
 [ std::formatter<std::chrono::utc_time>](utc_clock/formatter.html "cpp/chrono/utc clock/formatter")(C++20) |  formatting support for `utc_time`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/dsc_formatter&action=edit)  
+(class template specialization)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/clock_member_types&action=edit&section=T-1 "Template:cpp/chrono/clock member types")] Member types
+### Member types
 
 Member type  |  Definition   
 ---|---  
@@ -167,34 +167,34 @@ Member type  |  Definition
 `duration` |  [std::chrono::duration](duration.html)<rep, period>, capable of representing negative durations   
 `time_point` |  [std::chrono::time_point](time_point.html)<std::chrono::utc_clock>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/clock_is_steady&action=edit&section=T-1 "Template:cpp/chrono/clock is steady")] Member constants
+### Member constants
 
 constexpr bool is_steady[static] |  true if the time between ticks is always constant, i.e. calls to [`now()`](utc_clock/now.html "cpp/chrono/utc clock/now") return values that increase monotonically even in case of some external clock adjustment, otherwise false   
 (public static member constant)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/utc_clock&action=edit&section=1 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ now](utc_clock/now.html "cpp/chrono/utc clock/now")[static] |  returns a [std::chrono::time_point](time_point.html "cpp/chrono/time point") representing the current point in time   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/utc_clock/dsc_now&action=edit)  
+(public static member function)   
 ---|---  
 [ to_sys](utc_clock/to_sys.html "cpp/chrono/utc clock/to sys")[static] |  converts `utc_time` to `sys_time`   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/utc_clock/dsc_to_sys&action=edit)  
+(public static member function)   
 [ from_sys](utc_clock/from_sys.html "cpp/chrono/utc clock/from sys")[static] |  converts `sys_time` to `utc_time`   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/utc_clock/dsc_from_sys&action=edit)  
+(public static member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/utc_clock&action=edit&section=2 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ get_leap_second_info](utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20) |  obtains leap second insertion information from a `utc_time` object   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/utc_clock/dsc_get_leap_second_info&action=edit)  
+(function template)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/utc_clock&action=edit&section=3 "Edit section: Helper classes")] Helper classes
+### Helper classes
 
 [ leap_second_info](utc_clock/leap_second_info.html "cpp/chrono/utc clock/leap second info")(C++20) |  leap second insertion information   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/utc_clock/dsc_leap_second_info&action=edit)  
+(class)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/utc_clock&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 The official UTC epoch is 1 January 1972. `utc_clock` uses 1 January 1970 instead to be consistent with [std::chrono::system_clock](system_clock.html "cpp/chrono/system clock"). 

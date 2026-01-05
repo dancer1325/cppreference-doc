@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Date and time library](../../chrono.html "cpp/chrono")
 
@@ -101,7 +101,7 @@
 [get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
 [C-style date and time](../c.html "cpp/chrono/c")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
 
 [`std::chrono::day`](../day.html "cpp/chrono/day")
 
@@ -122,7 +122,7 @@ Helper classes
 [formatter<std::chrono::day>](formatter.html "cpp/chrono/day/formatter")  
 [hash<std::chrono::day>](hash.html "cpp/chrono/day/hash")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/day/navbar_content&action=edit)
+
 
 constexpr bool ok() const noexcept; |  |  (since C++20)  
 ---|---|---  
@@ -130,11 +130,11 @@ constexpr bool ok() const noexcept; |  |  (since C++20)
   
 Checks if the day value stored in *this is in the valid range, i.e., `[`1`, `31`]`. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/day/ok&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 true if the day value stored in *this is in the range `[`1`, `31`]`. Otherwise false. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/day/ok&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -155,8 +155,8 @@ Run this code
      
     int main() {}
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/day/ok&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ operator unsigned](operator_unsigned.html "cpp/chrono/day/operator unsigned") |  retrieves the stored day value   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/day/dsc_operator_unsigned&action=edit)  
+(public member function)   
 ---|---

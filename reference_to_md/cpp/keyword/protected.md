@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](../language/history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [Keywords](../keywords.html "cpp/keyword")
 
@@ -340,15 +340,15 @@ Identifiers with special meaning
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/keyword/navbar_content&action=edit)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/keyword/protected&action=edit&section=1 "Edit section: Usage")] Usage
+
+### Usage
 
   * [`protected` access specifier](../language/access.html "cpp/language/access")
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/keyword/protected&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
   * [`public`](public.html "cpp/keyword/public"), [`private`](private.html "cpp/keyword/private")
 

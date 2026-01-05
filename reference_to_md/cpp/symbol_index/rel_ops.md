@@ -21,14 +21,14 @@
 [Removed symbols (Zombie names)](zombie_names.html "cpp/symbol index/zombie names")  
 [Exposition-only symbols](expos.html "cpp/symbol index/expos")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/symbol_index/navbar_content&action=edit)
+
 
 There are no identifiers available from the [standard library](../standard_library.html "cpp/standard library") in the namespace std::rel_ops. 
 
 The namespace exists for automatic generation of comparison operators, and is deprecated in C++20 because of [the three-way comparison operator](../language/operator_comparison.html#Three-way_comparison "cpp/language/operator comparison"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/rel_ops&action=edit&section=1 "Edit section: See also")] See also
+### See also
 
 [ operator!=operator>operator<=operator>=](../utility/rel_ops/operator_cmp.html "cpp/utility/rel ops/operator cmp")(deprecated in C++20) |  automatically generates comparison operators based on user-defined operator== and operator<   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/rel_ops/dsc_operator_cmp&action=edit)  
+(function template)   
 ---|---

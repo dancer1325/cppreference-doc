@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Contract support](../contract.html "cpp/contract")
 
@@ -141,7 +141,7 @@ Contract-violation information
 Helper functions  
 [invoke_default_contract_violation_handler](invoke_default_contract_violation_handler.html "cpp/contract/invoke default contract violation handler")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/contract/navbar_content&action=edit)
+
 
 Defined in header `[<contracts>](../header/contracts.html "cpp/header/contracts")` |  |   
 ---|---|---  
@@ -160,12 +160,12 @@ Enumerator  |  Meaning
 `post` |  the contract assertion is a [postcondition assertion](../language/function.html#Postcondition_assertions "cpp/language/function")  
 `assert` |  the contract assertion is a [`contract_assert`](../language/contract_assert.html "cpp/language/contract assert") statement   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/contract/assertion_kind&action=edit&section=1 "Edit section: See also")] See also
+### See also
 
 [ contract_violation](contract_violation.html "cpp/contract/contract violation")(C++26) |  the type holding the contract-violation information   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/contract/dsc_contract_violation&action=edit)  
+(class)   
 ---|---  
 [ evaluation_semantic](evaluation_semantic.html "cpp/contract/evaluation semantic")(C++26) |  the evaluation semantic when the contract violation occurs   
-(enum) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/contract/dsc_evaluation_semantic&action=edit)  
+(enum)   
 [ detection_mode](detection_mode.html "cpp/contract/detection mode")(C++26) |  the reason that causes the contract violation   
-(enum) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/contract/dsc_detection_mode&action=edit)
+(enum) 

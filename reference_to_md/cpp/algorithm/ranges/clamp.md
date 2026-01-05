@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](copy.html "cpp/algorithm/ranges/co
 [uninitialized_default_construct_n](../../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 [Constrained algorithms](../ranges.html "cpp/algorithm/ranges")
 
@@ -550,7 +550,7 @@ All names in this menu belong to namespace `std::ranges`
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -587,7 +587,7 @@ The function-like entities described on this page are [_algorithm function objec
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/clamp&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 v  |  \-  |  the value to clamp   
 ---|---|---  
@@ -595,15 +595,15 @@ lo, hi  |  \-  |  the boundaries to clamp v to
 comp  |  \-  |  the comparison to apply to the projected elements   
 proj  |  \-  |  the projection to apply to v, lo and hi  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/clamp&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Reference to lo if the projected value of v is less than the projected value of lo, reference to hi if the projected value of hi is less than the projected value of v, otherwise reference to v. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/clamp&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 At most two comparisons and three applications of the projection. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/clamp&action=edit&section=4 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     struct clamp_fn
@@ -630,9 +630,9 @@ At most two comparisons and three applications of the projection.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/clamp&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/minmax_danger_note&action=edit)
+
 
 Capturing the result of `std::ranges::clamp` by reference produces a dangling reference if one of the parameters is a temporary and that parameter is returned: 
     
@@ -652,7 +652,7 @@ The standard requires that the value category of the result of the projection be
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/clamp&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -712,14 +712,14 @@ Output:
      255        127     255
      256        127     255
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/clamp&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ ranges::min](min.html "cpp/algorithm/ranges/min")(C++20) |  returns the smaller of the given values  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_min&action=edit)  
+(algorithm function object)  
 ---|---  
 [ ranges::max](max.html "cpp/algorithm/ranges/max")(C++20) |  returns the greater of the given values  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_max&action=edit)  
+(algorithm function object)  
 [ in_range](../../utility/in_range.html "cpp/utility/in range")(C++20) |  checks if an integer value is in the range of a given integer type   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_in_range&action=edit)  
+(function template)   
 [ clamp](../clamp.html "cpp/algorithm/clamp")(C++17) |  clamps a value between a pair of boundary values   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_clamp&action=edit)
+(function template) 

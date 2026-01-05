@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Metaprogramming library](../meta.html "cpp/meta")
 
@@ -167,7 +167,7 @@ Type transformations
 Compile-time integer sequences  
 [integer_sequence](../utility/integer_sequence.html "cpp/utility/integer sequence")(C++14)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/meta/navbar_content&action=edit)
+
 
 Defined in header `[<type_traits>](../header/type_traits.html "cpp/header/type traits")` |  |   
 ---|---|---  
@@ -234,13 +234,13 @@ See [Conditional operator](../language/operator_other.html#Conditional_operator 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/common_reference&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Name  |  Definition   
 ---|---  
 `type` |  the common reference type for all `T...`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/common_reference&action=edit&section=2 "Edit section: Helper types")] Helper types
+### Helper types
 
 template< class... T >  
 using common_reference_t = std::common_reference<T...>::type; |  |   
@@ -251,7 +251,7 @@ struct basic_common_reference {}; |  |
   
 The class template `basic_common_reference` is a customization point that allows users to influence the result of `common_reference` for user-defined types (typically proxy references). The primary template is empty. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/common_reference&action=edit&section=3 "Edit section: Specializations")] Specializations
+### Specializations
 
 A program may specialize std::basic_common_reference<T, U, TQual, UQual> on the first two parameters `T` and `U` if [std::is_same_v](is_same.html)<T, [std::decay_t](decay.html)<T>> and [std::is_same_v](is_same.html)<U, [std::decay_t](decay.html)<U>> are both true and at least one of them depends on a program-defined type. 
 
@@ -262,20 +262,20 @@ A program may not specialize `basic_common_reference` on the third or fourth par
 The standard library provides following specializations of `basic_common_reference`: 
 
 [ std::basic_common_reference<std::pair>](../utility/pair/basic_common_reference.html "cpp/utility/pair/basic common reference")(C++23) |  determines the common reference type of two `pair`s   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/pair/dsc_basic_common_reference&action=edit)  
+(class template specialization)   
 ---|---  
 [ std::basic_common_reference<_tuple-like_ >](../utility/tuple/basic_common_reference.html "cpp/utility/tuple/basic common reference")(C++23) |  determines the common reference type of a `tuple` and a `_tuple-like_` type   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/dsc_basic_common_reference&action=edit)  
+(class template specialization)   
 [ std::basic_common_reference<std::reference_wrapper>](../utility/functional/reference_wrapper/basic_common_reference.html "cpp/utility/functional/reference wrapper/basic common reference")(C++23) |  determines the common reference type of `reference_wrapper` and non-`reference_wrapper`   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/reference_wrapper/dsc_basic_common_reference&action=edit)  
+(class template specialization)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/common_reference&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../utility/feature_test.html "cpp/utility/feature test") macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_common_reference`](../experimental/feature_test.html#cpp_lib_common_reference "cpp/feature test") | [`202302L`](../compiler_support/23.html#cpp_lib_common_reference_202302L "cpp/compiler support/23") | (C++23) | Make std::common_reference_t of [std::reference_wrapper](../utility/functional/reference_wrapper.html "cpp/utility/functional/reference wrapper") a reference type   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/common_reference&action=edit&section=5 "Edit section: Examples")] Examples
+### Examples
 
 Run this code
     
@@ -298,12 +298,12 @@ Run this code
      
     int main() {}
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/common_reference&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ common_type](common_type.html "cpp/types/common type")(C++11) |  determines the common type of a group of types   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_common_type&action=edit)  
+(class template)   
 ---|---  
 [ common_reference_with](../concepts/common_reference_with.html "cpp/concepts/common reference with")(C++20) |  specifies that two types share a common reference type   
-(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/concepts/dsc_common_reference_with&action=edit)
+(concept) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

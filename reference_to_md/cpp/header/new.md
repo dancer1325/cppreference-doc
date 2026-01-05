@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Standard library headers](../headers.html "cpp/header")
 
@@ -194,7 +194,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
 
 This header is part of the [dynamic memory management](../memory.html "cpp/memory") library, in particular provides [low level memory management](../memory/new.html "cpp/memory/new") features. 
 
@@ -217,44 +217,44 @@ This header is part of the [dynamic memory management](../memory.html "cpp/memor
 ###  Classes  
   
 [ bad_alloc](../memory/new/bad_alloc.html "cpp/memory/new/bad alloc") |  exception thrown when memory allocation fails   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/new/dsc_bad_alloc&action=edit)  
+(class)   
 [ bad_array_new_length](../memory/new/bad_array_new_length.html "cpp/memory/new/bad array new length")(C++11) |  exception thrown on allocation of array with invalid length   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/new/dsc_bad_array_new_length&action=edit)  
+(class)   
 [ align_val_t](../memory/new/align_val_t.html "cpp/memory/new/align val t")(C++17) |  type used to pass alignment to alignment-aware allocation and deallocation functions   
-(enum) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/new/dsc_align_val_t&action=edit)  
+(enum)   
   
 ###  Types  
   
 [ new_handler](../memory/new/new_handler.html "cpp/memory/new/new handler") |  function pointer type of the new handler   
-(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/new/dsc_new_handler&action=edit)  
+(typedef)   
   
 ###  Tags  
   
 [ nothrownothrow_t](../memory/new/nothrow.html "cpp/memory/new/nothrow") |  a tag used to select a non-throwing _allocation function_  
-(tag)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/new/dsc_nothrow&action=edit)  
+(tag)  
 [ destroying_deletedestroying_delete_t](../memory/new/destroying_delete_t.html "cpp/memory/new/destroying delete")(C++20) |  a tag used to select destroying-delete overloads of [operator delete](../memory/new/operator_delete.html "cpp/memory/new/operator delete")  
-(tag)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/new/dsc_destroying_delete&action=edit)  
+(tag)  
   
 ###  Constants  
   
 [ hardware_destructive_interference_sizehardware_constructive_interference_size](../thread/hardware_destructive_interference_size.html "cpp/thread/hardware destructive interference size")(C++17) |  min offset to avoid false sharing  
 max offset to promote true sharing   
-(constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_hardware_destructive_interference_size&action=edit)  
+(constant)   
   
 ###  Functions  
   
 [ operator newoperator new[]](../memory/new/operator_new.html "cpp/memory/new/operator new") |  allocation functions   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/new/dsc_operator_new&action=edit)  
+(function)   
 [ operator deleteoperator delete[]](../memory/new/operator_delete.html "cpp/memory/new/operator delete") |  deallocation functions   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/new/dsc_operator_delete&action=edit)  
+(function)   
 [ get_new_handler](../memory/new/get_new_handler.html "cpp/memory/new/get new handler")(C++11) |  obtains the current new handler   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/new/dsc_get_new_handler&action=edit)  
+(function)   
 [ set_new_handler](../memory/new/set_new_handler.html "cpp/memory/new/set new handler") |  registers a new handler   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/new/dsc_set_new_handler&action=edit)  
+(function)   
 [ launder](../utility/launder.html "cpp/utility/launder")(C++17) |  pointer optimization barrier   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_launder&action=edit)  
+(function template)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/new&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
     
     // all freestanding
@@ -352,7 +352,7 @@ max offset to promote true sharing
     void
     [operator delete](../memory/new/operator_delete.html)[](void* ptr, void*) noexcept;
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/new&action=edit&section=T-1 "Template:cpp/synopsis/new")] Class [std::bad_alloc](../memory/new/bad_alloc.html "cpp/memory/new/bad alloc")
+#### Class [std::bad_alloc](../memory/new/bad_alloc.html "cpp/memory/new/bad alloc")
     
     
     namespace std {
@@ -364,7 +364,7 @@ max offset to promote true sharing
       };
     }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/new&action=edit&section=T-2 "Template:cpp/synopsis/new")] Class [std::bad_array_new_length](../memory/new/bad_array_new_length.html "cpp/memory/new/bad array new length")
+#### Class [std::bad_array_new_length](../memory/new/bad_array_new_length.html "cpp/memory/new/bad array new length")
     
     
     namespace std {

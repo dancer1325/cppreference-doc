@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Bit manipulation](../utility/bit.html "cpp/utility/bit")
 
@@ -152,7 +152,7 @@ Common vocabulary types
 [Endian](../utility/bit.html#Endian "cpp/utility/bit")  
 [endian](../types/endian.html "cpp/types/endian")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/bit/navbar_content&action=edit)
+
 
 Defined in header `[<bit>](../header/bit.html "cpp/header/bit")` |  |   
 ---|---|---  
@@ -175,22 +175,22 @@ This overload participates in overload resolution only if `T` is an unsigned int
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/countr_one&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 x  |  \-  |  value of unsigned integer type   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/countr_one&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The number of consecutive 1 bits in the value of x, starting from the least significant bit. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/countr_one&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../utility/feature_test.html "cpp/utility/feature test") macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_lib_bitops`](../experimental/feature_test.html#cpp_lib_bitops "cpp/feature test") | [`201907L`](../compiler_support/20.html#cpp_lib_bitops_201907L "cpp/compiler support/20") | (C++20) | [Bit operations](../utility/bit.html "cpp/utility/bit")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/countr_one&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -215,22 +215,22 @@ Output:
     countr_one( 11111110 ) = 0
     countr_one( 11100011 ) = 2
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/countr_one&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ countl_zero](countl_zero.html "cpp/numeric/countl zero")(C++20) |  counts the number of consecutive ​0​ bits, starting from the most significant bit   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/dsc_countl_zero&action=edit)  
+(function template)   
 ---|---  
 [ countl_one](countl_one.html "cpp/numeric/countl one")(C++20) |  counts the number of consecutive 1 bits, starting from the most significant bit   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/dsc_countl_one&action=edit)  
+(function template)   
 [ countr_zero](countr_zero.html "cpp/numeric/countr zero")(C++20) |  counts the number of consecutive ​0​ bits, starting from the least significant bit   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/dsc_countr_zero&action=edit)  
+(function template)   
 [ popcount](popcount.html "cpp/numeric/popcount")(C++20) |  counts the number of 1 bits in an unsigned integer   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/dsc_popcount&action=edit)  
+(function template)   
 [ has_single_bit](has_single_bit.html "cpp/numeric/has single bit")(C++20) |  checks if a number is an integral power of 2   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/dsc_has_single_bit&action=edit)  
+(function template)   
 [ count](../utility/bitset/count.html "cpp/utility/bitset/count") |  returns the number of bits set to true   
-(public member function of `std::bitset<N>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/bitset/dsc_count&action=edit)  
+(public member function of `std::bitset<N>`)   
 [ allanynone](../utility/bitset/all_any_none.html "cpp/utility/bitset/all any none") |  checks if all, any or none of the bits are set to true   
-(public member function of `std::bitset<N>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/bitset/dsc_all_any_none&action=edit)
+(public member function of `std::bitset<N>`) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

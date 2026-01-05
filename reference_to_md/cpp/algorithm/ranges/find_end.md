@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Algorithm library](../../algorithm.html "cpp/algorithm")
 
@@ -296,7 +296,7 @@ Constrained algorithms, e.g. [`ranges::copy`](copy.html "cpp/algorithm/ranges/co
 [uninitialized_default_construct_n](../../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
 [uninitialized_value_construct_n](../../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
 
 [Constrained algorithms](../ranges.html "cpp/algorithm/ranges")
 
@@ -550,7 +550,7 @@ All names in this menu belong to namespace `std::ranges`
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/navbar_content&action=edit)
+
 
 Defined in header `[<algorithm>](../../header/algorithm.html "cpp/header/algorithm")` |  |   
 ---|---|---  
@@ -601,7 +601,7 @@ The function-like entities described on this page are [_algorithm function objec
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/find_end&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 first1, last1  |  \-  |  the iterator-sentinel pair defining the [range](../../iterator.html#Ranges "cpp/iterator") of elements to examine (aka _haystack_)   
 ---|---|---  
@@ -612,21 +612,21 @@ pred  |  \-  |  binary predicate to compare the elements
 proj1  |  \-  |  projection to apply to the elements in the first range   
 proj2  |  \-  |  projection to apply to the elements in the second range   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/find_end&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) [ranges::subrange](../../ranges/subrange.html)<I1>{} value initialized with expression {i, i + (i == last1 ? 0 : [ranges::distance](../../iterator/ranges/distance.html)(first2, last2))} that denotes the last occurrence of the sequence `[`first2`, `last2`)` in range `[`first1`, `last1`)` (after projections with proj1 and proj2). If `[`first2`, `last2`)` is empty or if no such sequence is found, the return value is effectively initialized with {last1, last1}.
 
 2) Same as (1), except that the return type is [ranges::borrowed_subrange_t](../../ranges/borrowed_iterator_t.html)<R1>.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/find_end&action=edit&section=3 "Edit section: Complexity")] Complexity
+### Complexity
 
 At most \\(\scriptsize S\cdot(N-S+1)\\)S·(N-S+1) applications of the corresponding predicate and each projection, where \\(\scriptsize S\\)S is [ranges::distance](../../iterator/ranges/distance.html)(first2, last2) and \\(\scriptsize N\\)N is [ranges::distance](../../iterator/ranges/distance.html)(first1, last1) for (1), or \\(\scriptsize S\\)S is [ranges::distance](../../iterator/ranges/distance.html)(r2) and \\(\scriptsize N\\)N is [ranges::distance](../../iterator/ranges/distance.html)(r1) for (2). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/find_end&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 An implementation can improve efficiency of the search if the input iterators model [std::bidirectional_iterator](../../iterator/bidirectional_iterator.html) by searching from the end towards the begin. Modelling the [std::random_access_iterator](../../iterator/random_access_iterator.html) may improve the comparison speed. All this however does not change the theoretical complexity of the worst case. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/find_end&action=edit&section=5 "Edit section: Possible implementation")] Possible implementation
+### Possible implementation
     
     
     struct find_end_fn
@@ -685,7 +685,7 @@ An implementation can improve efficiency of the search if the input iterators mo
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/find_end&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -748,20 +748,20 @@ Output:
     In "password password word..." found "sword" at position [12..17)
                     ^^^^^
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/ranges/find_end&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ ranges::find_lastranges::find_last_ifranges::find_last_if_not](find_last.html "cpp/algorithm/ranges/find last")(C++23)(C++23)(C++23) |  finds the last element satisfying specific criteria  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_find_last&action=edit)  
+(algorithm function object)  
 ---|---  
 [ ranges::findranges::find_ifranges::find_if_not](find.html "cpp/algorithm/ranges/find")(C++20)(C++20)(C++20) |  finds the first element satisfying specific criteria  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_find&action=edit)  
+(algorithm function object)  
 [ ranges::find_first_of](find_first_of.html "cpp/algorithm/ranges/find first of")(C++20) |  searches for any one of a set of elements  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_find_first_of&action=edit)  
+(algorithm function object)  
 [ ranges::adjacent_find](adjacent_find.html "cpp/algorithm/ranges/adjacent find")(C++20) |  finds the first two adjacent items that are equal (or satisfy a given predicate)  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_adjacent_find&action=edit)  
+(algorithm function object)  
 [ ranges::search](search.html "cpp/algorithm/ranges/search")(C++20) |  searches for the first occurrence of a range of elements  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_search&action=edit)  
+(algorithm function object)  
 [ ranges::search_n](search_n.html "cpp/algorithm/ranges/search n")(C++20) |  searches for the first occurrence of a number consecutive copies of an element in a range  
-(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_search_n&action=edit)  
+(algorithm function object)  
 [ find_end](../find_end.html "cpp/algorithm/find end") |  finds the last sequence of elements in a certain range   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_find_end&action=edit)
+(function template) 

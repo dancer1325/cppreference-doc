@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../../container.html "cpp/container")
 
@@ -71,7 +71,7 @@ Tables
 [Member function table](../../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::mdspan`](../../mdspan.html "cpp/container/mdspan")
 
@@ -120,7 +120,7 @@ Tables
 [submdspan_mapping_result](../submdspan_mapping_result.html "cpp/container/mdspan/submdspan mapping result")(C++26)  
 [Deduction guides](../deduction_guides.html "cpp/container/mdspan/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/navbar_content&action=edit)
+
 
 [`std::extents`](../extents.html "cpp/container/mdspan/extents")
 
@@ -142,7 +142,7 @@ Tables
 [extents::operator==](operator==.html "cpp/container/mdspan/extents/operator==")  
 **Deduction guides**  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/extents/navbar_content&action=edit)
+
 
 Defined in header `[<mdspan>](../../../header/mdspan.html "cpp/header/mdspan")` |  |   
 ---|---|---  
@@ -158,14 +158,14 @@ The deduced type is equivalent to  [std::dextents](../extents.html)<[std::size_t
   
 This overload participates in overload resolution only if ([std::is_convertible_v](../../../types/is_convertible.html)<Integrals, [std::size_t](../../../types/size_t.html)> && ...) is true. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/extents/deduction_guides&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/extents/deduction_guides&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ (constructor)](extents.html "cpp/container/mdspan/extents/extents") |  constructs an `extents`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/extents/dsc_constructor&action=edit)  
+(public member function)   
 ---|---

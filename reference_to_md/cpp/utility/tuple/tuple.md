@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::tuple`](../tuple.html "cpp/utility/tuple")
 
@@ -157,7 +157,7 @@ Common vocabulary types
 [ignore](ignore.html "cpp/utility/tuple/ignore")  
 [Deduction guides](deduction_guides.html "cpp/utility/tuple/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/navbar_content&action=edit)
+
 
 Defined in header `[<tuple>](../../header/tuple.html "cpp/header/tuple")` |  |   
 ---|---|---  
@@ -391,7 +391,7 @@ Formally, for all i, initializes `i`th element of the tuple with std::get<i>([st
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/tuple/tuple&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 args  |  \-  |  values used to initialize each element of the tuple   
 ---|---|---  
@@ -400,7 +400,7 @@ p  |  \-  |  the pair of values used to initialize both elements of the 2-tuple
 u  |  \-  |  the [`_tuple-like_`](tuple-like.html "cpp/utility/tuple/tuple-like") object of values used to initialize each element of the tuple   
 a  |  \-  |  the allocator to use in uses-allocator construction   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/tuple/tuple&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 Conditionally-explicit constructors make it possible to construct a tuple in copy-initialization context using list-initialization syntax: 
     
@@ -421,7 +421,7 @@ Note that if some element of the list is not implicitly convertible to the corre
     launch_rocket_at({1, 2, 3}); // Error: int is not implicitly convertible to duration
     launch_rocket_at([std::tuple](../tuple.html)<hours, minutes, seconds>{1, 2, 3}); // OK
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/tuple/tuple&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -520,7 +520,7 @@ Possible output:
     Constructed from a pair, t4: (42, 3.14)
     Constructed with allocator, t5: (42, {1,1,1,1,1}, -3.14)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/tuple/tuple&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -538,16 +538,16 @@ to default constructor was implicit  | made conditionally-explicit
 [N4387](https://wg21.link/N4387) | C++11  | some constructors were explicit, preventing useful behavior  | most constructors made  
 conditionally-explicit   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/tuple/tuple&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ operator=](operator=.html "cpp/utility/tuple/operator=") |  assigns the contents of one `tuple` to another   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/dsc_operator%3D&action=edit)  
+(public member function)   
 ---|---  
 [ make_tuple](make_tuple.html "cpp/utility/tuple/make tuple")(C++11) |  creates a `tuple` object of the type defined by the argument types   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/dsc_make_tuple&action=edit)  
+(function template)   
 [ tie](tie.html "cpp/utility/tuple/tie")(C++11) |  creates a [tuple](../tuple.html "cpp/utility/tuple") of lvalue references or unpacks a tuple into individual objects   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/dsc_tie&action=edit)  
+(function template)   
 [ forward_as_tuple](forward_as_tuple.html "cpp/utility/tuple/forward as tuple")(C++11) |  creates a `tuple` of [forwarding references](../../language/reference.html#Forwarding_references "cpp/language/reference")   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/dsc_forward_as_tuple&action=edit)  
+(function template)   
 [ (constructor)](../pair/pair.html "cpp/utility/pair/pair") |  constructs new `pair`   
-(public member function of `std::pair<T1,T2>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/pair/dsc_constructor&action=edit)
+(public member function of `std::pair<T1,T2>`) 

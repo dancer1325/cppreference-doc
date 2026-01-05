@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ named requirements](../iterator/concepts.html "cpp/named req")
 
@@ -147,12 +147,12 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/named_req/navbar_content&action=edit)
+
 
 A **SeedSequence** is an object that produces unsigned integer values i in the range 0 ≤ i < 232  
 based on a consumed range of integer data. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/SeedSequence&action=edit&section=1 "Edit section: Requirements")] Requirements
+### Requirements
 
   * `**S**` is a SeedSequence type. 
   * `**q**` is an object of `S` and `**r**` is a potentially constant object of `S`. 
@@ -172,7 +172,7 @@ Expression | Type | Notes | Complexity
 `r.size()` | `size_t` | The amount of 32-bit integers copied by `param`. | Constant   
 `r.param(ob)` | `void` | Copies 32-bit values to `ob` that would reproduce the current state of the object if passed to a constructor of `S`. | O(r.size())  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/SeedSequence&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
   * [std::seed_seq](../numeric/random/seed_seq.html "cpp/numeric/random/seed seq")
 

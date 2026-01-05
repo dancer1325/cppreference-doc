@@ -30,7 +30,7 @@
 [Symbols index](../../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../../../container.html "cpp/container")
 
@@ -71,7 +71,7 @@ Tables
 [Member function table](../../../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::mdspan`](../../../mdspan.html "cpp/container/mdspan")
 
@@ -120,7 +120,7 @@ Tables
 [submdspan_mapping_result](../../submdspan_mapping_result.html "cpp/container/mdspan/submdspan mapping result")(C++26)  
 [Deduction guides](../../deduction_guides.html "cpp/container/mdspan/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/navbar_content&action=edit)
+
 
 [`std::layout_stride::mapping`](../mapping.html "cpp/container/mdspan/layout stride/mapping")
 
@@ -138,7 +138,7 @@ Tables
 **operator==**  
 [submdspan_mapping(std::layout_stride::mapping)](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/layout_stride/mapping/submdspan_mapping&action=edit&redlink=1 "cpp/container/mdspan/layout stride/mapping/submdspan mapping \(page does not exist\)")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/layout_stride/mapping/navbar_content&action=edit)
+
 
 template< class OtherMapping >  
 friend constexpr bool operator==( const mapping& lhs,   
@@ -186,27 +186,27 @@ If `OtherMapping` does not meet the [LayoutMapping](../../../../named_req/Layout
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/layout_stride/mapping/operator%3D%3D&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 lhs, rhs  |  \-  |  layout mappings whose extents and strides to compare   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/layout_stride/mapping/operator%3D%3D&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 true if lhs and rhs are both equal as specified above, false otherwise 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/layout_stride/mapping/operator%3D%3D&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/mdspan/layout_stride/mapping/operator%3D%3D&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ operator==](../../layout_left/mapping/operator==.html "cpp/container/mdspan/layout left/mapping/operator==") |  compares this layout mapping of `layout_left` with other mapping   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/layout_mapping/dsc_operator%3D%3D&action=edit)  
+(function template)   
 ---|---  
 [ operator==](../../layout_right/mapping/operator==.html "cpp/container/mdspan/layout right/mapping/operator==") |  compares this layout mapping of `layout_right` with other mapping   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/layout_mapping/dsc_operator%3D%3D&action=edit)  
+(function template)   
 [ operator==](../../extents/operator==.html "cpp/container/mdspan/extents/operator==")(C++23) |  compare underlying extents in each dimension of two `extents`   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/mdspan/extents/dsc_operator%3D%3D&action=edit)
+(function) 

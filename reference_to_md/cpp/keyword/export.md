@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](../language/history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [Keywords](../keywords.html "cpp/keyword")
 
@@ -340,9 +340,9 @@ Identifiers with special meaning
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/keyword/navbar_content&action=edit)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/keyword/export&action=edit&section=1 "Edit section: Usage")] Usage
+
+### Usage
 
 Used to mark a [template definition](../language/class_template.html "cpp/language/class template") _exported ﻿_ , which allows the same template to be declared, but not defined, in other translation units.  | (until C++11)  
 ---|---  
@@ -350,13 +350,13 @@ _The keyword is unused and reserved ﻿_.  | (since C++11)
 (until C++20)  
 Marks a declaration, a group of declarations, or another [module](../language/modules.html "cpp/language/modules") as exported by the current module.  | (since C++20)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/keyword/export&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 Feature-test macro  | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_modules`](../experimental/feature_test.html#cpp_modules "cpp/feature test") | [`201907L`](../compiler_support/20.html#cpp_modules_201907L "cpp/compiler support/20") | (C++20) | Modules — core language support   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/keyword/export&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
   * [`template`](template.html "cpp/keyword/template") (mark a template definition exported)
 

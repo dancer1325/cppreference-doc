@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [Pseudo-random number generation](../../random.html "cpp/numeric/random")
 
@@ -161,7 +161,7 @@
 [piecewise_constant_distribution](../piecewise_constant_distribution.html "cpp/numeric/random/piecewise constant distribution")(C++11)  
 [piecewise_linear_distribution](../piecewise_linear_distribution.html "cpp/numeric/random/piecewise linear distribution")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/navbar_content&action=edit)
+
 
 [`std::philox_engine`](../philox_engine.html "cpp/numeric/random/philox engine")
 
@@ -180,7 +180,7 @@ Non-member functions
 [operator==](operator_cmp.html "cpp/numeric/random/philox engine/operator cmp")(C++26)  
 [operator<<operator>>](operator_ltltgtgt.html "cpp/numeric/random/philox engine/operator ltltgtgt")(C++26)(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/philox_engine/navbar_content&action=edit)
+
 
 void set_counter( const [std::array](../../../container/array.html)<result_type, n>& c ); |  |  (since C++26)  
 ---|---|---  
@@ -197,19 +197,19 @@ Sets the [counter](../philox_engine.html#Generator_properties "cpp/numeric/rando
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/random/philox_engine/set_counter&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 c  |  \-  |  counter sequence to use to set the counter   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/random/philox_engine/set_counter&action=edit&section=2 "Edit section: Complexity")] Complexity
+### Complexity
 
 \\(\scriptsize O(n) \\)O(n). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/random/philox_engine/set_counter&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ (constructor)](philox_engine.html "cpp/numeric/random/philox engine/philox engine") |  constructs the engine   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/engine/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ seed](seed.html "cpp/numeric/random/philox engine/seed") |  sets the current state of the engine   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/engine/dsc_seed&action=edit)
+(public member function) 

@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::inplace_vector`](../inplace_vector.html "cpp/container/inplace vector")
 
@@ -134,7 +134,7 @@ Tables
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/inplace_vector/navbar_content&action=edit)
+
 
 constexpr reference at( size_type pos ); |  (1) | (since C++26)  
 ---|---|---  
@@ -157,24 +157,24 @@ If pos is not within the range of the container, an exception of type [std::out_
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/at&action=edit&section=T-1 "Template:cpp/container/at")] Parameters
+### Parameters
 
 pos  |  \-  |  position of the element to return   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/at&action=edit&section=T-2 "Template:cpp/container/at")] Return value
+### Return value
 
 Reference to the requested element. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/at&action=edit&section=T-3 "Template:cpp/container/at")] Exceptions
+### Exceptions
 
 [std::out_of_range](../../error/out_of_range.html "cpp/error/out of range") if pos >= size(). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/at&action=edit&section=T-4 "Template:cpp/container/at")] Complexity
+### Complexity
 
 Constant. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/at&action=edit&section=T-6 "Template:cpp/container/at")] Example
+### Example
 
 Run this code
     
@@ -226,8 +226,8 @@ Possible output:
     std::out_of_range: pos (which is 8) >= size() (which is 6)
     data: 1 88 4 5 5 6
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/at&action=edit&section=T-7 "Template:cpp/container/at")] See also
+### See also
 
 [ operator[]](operator_at.html "cpp/container/inplace vector/operator at") |  access specified element   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_operator_at&action=edit)  
+(public member function)   
 ---|---

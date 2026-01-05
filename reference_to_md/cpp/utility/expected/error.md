@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::expected`](../expected.html "cpp/utility/expected")
 
@@ -160,7 +160,7 @@ Common vocabulary types
 [bad_expected_access](bad_expected_access.html "cpp/utility/expected/bad expected access")  
 [unexpect_tunexpect](unexpect_t.html "cpp/utility/expected/unexpect t")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/expected/navbar_content&action=edit)
+
 
 constexpr const E& error() const& noexcept; |  (1)  |  (since C++23)  
 ---|---|---  
@@ -180,26 +180,26 @@ If has_value() is true:
 
 | (since C++26)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/error&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 1,2) `_[unex](../expected.html#unex "cpp/utility/expected")_`
 
 3,4) std::move(`_[unex](../expected.html#unex "cpp/utility/expected")_` ﻿)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/error&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/expected/error&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ error_or](error_or.html "cpp/utility/expected/error or") |  returns the unexpected value if present, another value otherwise   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/expected/dsc_error_or&action=edit)  
+(public member function)   
 ---|---  
 [ operator->operator*](operator*.html "cpp/utility/expected/operator*") |  accesses the expected value   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/expected/dsc_operator*&action=edit)  
+(public member function)   
 [ value](value.html "cpp/utility/expected/value") |  returns the expected value   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/expected/dsc_value&action=edit)  
+(public member function)   
 [ operator boolhas_value](operator_bool.html "cpp/utility/expected/operator bool") |  checks whether the object contains an expected value   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/expected/dsc_operator_bool&action=edit)
+(public member function) 

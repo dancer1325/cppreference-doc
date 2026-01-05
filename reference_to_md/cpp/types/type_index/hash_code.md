@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Type support](../../utility/rtti.html "cpp/types")
 
@@ -161,7 +161,7 @@ Runtime type information
 ---  
 [bad_cast](../bad_cast.html "cpp/types/bad cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/navbar_content&action=edit)
+
 
 [`std::type_index`](../type_index.html "cpp/types/type index")
 
@@ -174,7 +174,7 @@ Member functions
 Helper classes  
 [hash<std::type_index>](hash.html "cpp/types/type index/hash")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/type_index/navbar_content&action=edit)
+
 
 [std::size_t](../size_t.html) hash_code() const noexcept; |  |  (since C++11)  
 ---|---|---  
@@ -193,21 +193,21 @@ Returns the hash code of the associated [std::type_info](../type_info.html "cpp/
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/type_index/hash_code&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/type_index/hash_code&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The hash code of the associated [std::type_info](../type_info.html "cpp/types/type info") object. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/type_index/hash_code&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/type_index/hash_code&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -215,8 +215,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 2144](https://cplusplus.github.io/LWG/issue2144) | C++11  | `type_index::hash_code` was not required to be noexcept  | required   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/type_index/hash_code&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ std::hash<std::type_index>](hash.html "cpp/types/type index/hash")(C++11) |  hash support for [`std::type_index`](../type_index.html "cpp/types/type index")   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/type_index/dsc_hash&action=edit)  
+(class template specialization)   
 ---|---

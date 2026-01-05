@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::inplace_vector`](../inplace_vector.html "cpp/container/inplace vector")
 
@@ -134,7 +134,7 @@ Tables
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/inplace_vector/navbar_content&action=edit)
+
 
 constexpr void resize( size_type count ); |  (1) | (since C++26)  
 ---|---|---  
@@ -164,7 +164,7 @@ Resizes the container to contain count elements:
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/resize&action=edit&section=T-1 "Template:cpp/container/resize")] Parameters
+### Parameters
 
 count  |  \-  |  new size of the container   
 ---|---|---  
@@ -172,7 +172,7 @@ value  |  \-  |  the value to initialize the new elements with
 Type requirements   
 -If the following condition is satisfied, the behavior is undefined: 1) `T` is not [DefaultInsertable](../../named_req/DefaultInsertable.html "cpp/named req/DefaultInsertable") into `inplace_vector`. 2) `T` is not [CopyInsertable](../../named_req/CopyInsertable.html "cpp/named req/CopyInsertable") into `inplace_vector`.  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/resize&action=edit&section=T-2 "Template:cpp/container/resize")] Complexity
+### Complexity
 
 Linear in the difference between the current size and count. 
 
@@ -182,7 +182,7 @@ Linear in the difference between the current size and count.
 
 If an exception is thrown for any reason, these functions have no effect ([strong exception safety guarantee](../../language/exceptions.html#Exception_safety "cpp/language/exceptions")). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/resize&action=edit&section=T-6 "Template:cpp/container/resize")] Example
+### Example
 
 Run this code
     
@@ -229,14 +229,14 @@ Possible output:
   
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/resize&action=edit&section=T-8 "Template:cpp/container/resize")] See also
+### See also
 
 [ max_size](max_size.html "cpp/container/inplace vector/max size")[static] |  returns the maximum possible number of elements   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_max_size&action=edit)  
+(public static member function)   
 ---|---  
 [ size](size.html "cpp/container/inplace vector/size") |  returns the number of elements   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_size&action=edit)  
+(public member function)   
 [ capacity](capacity.html "cpp/container/inplace vector/capacity")[static] |  returns the number of elements that can be held in currently allocated storage   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_capacity&action=edit)  
+(public static member function)   
 [ empty](empty.html "cpp/container/inplace vector/empty") |  checks whether the container is empty   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_empty&action=edit)
+(public member function) 

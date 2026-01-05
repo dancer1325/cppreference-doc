@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Containers library](../../container.html "cpp/container")
 
@@ -73,7 +73,7 @@ Tables
 [Member function table](../../container.html#Member_function_table "cpp/container")  
 [Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
 
 [`std::unordered_map`](../unordered_map.html "cpp/container/unordered map")
 
@@ -139,7 +139,7 @@ Tables
   
 [Deduction guides](deduction_guides.html "cpp/container/unordered map/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/unordered_map/navbar_content&action=edit)
+
 
 iterator find( const Key& key ); |  (1) | (since C++11)   
 (constexpr since C++26)  
@@ -172,17 +172,17 @@ This overload participates in overload resolution only if `Hash` and `KeyEqual` 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/find&action=edit&section=T-1 "Template:cpp/container/find")] Parameters
+### Parameters
 
 key  |  \-  |  key value of the element to search for   
 ---|---|---  
 x  |  \-  |  a value of any type that can be transparently compared with a key   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/find&action=edit&section=T-2 "Template:cpp/container/find")] Return value
+### Return value
 
 An iterator to the requested element. If no such element is found, past-the-end (see [end()](end.html "cpp/container/unordered map/end")) iterator is returned. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/find&action=edit&section=T-3 "Template:cpp/container/find")] Complexity
+### Complexity
 
 Constant on average, worst case linear in the size of the container. 
 
@@ -192,7 +192,7 @@ Constant on average, worst case linear in the size of the container.
 ---|---|---|---  
 [`__cpp_lib_generic_unordered_lookup`](../../experimental/feature_test.html#cpp_lib_generic_unordered_lookup "cpp/feature test") | [`201811L`](../../compiler_support/20.html#cpp_lib_generic_unordered_lookup_201811L "cpp/compiler support/20") | (C++20) | Heterogeneous comparison lookup in [unordered associative containers](../../container.html#Unordered_associative_containers "cpp/container"); overloads ([3,4](find.html#Version_3))  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/find&action=edit&section=T-5 "Template:cpp/container/find")] Example
+### Example
 
 Run this code
     
@@ -242,16 +242,16 @@ Output:
     true
     true
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/find&action=edit&section=T-6 "Template:cpp/container/find")] See also
+### See also
 
 [ at](at.html "cpp/container/unordered map/at") |  access specified element with bounds checking   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_at&action=edit)  
+(public member function)   
 ---|---  
 [ operator[]](operator_at.html "cpp/container/unordered map/operator at") |  access or insert specified element   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_operator_at&action=edit)  
+(public member function)   
 [ count](count.html "cpp/container/unordered map/count") |  returns the number of elements matching specific key   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_count&action=edit)  
+(public member function)   
 [ equal_range](equal_range.html "cpp/container/unordered map/equal range") |  returns range of elements matching a specific key   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_equal_range&action=edit)
+(public member function) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

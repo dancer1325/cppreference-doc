@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::stop_source`](../stop_source.html "cpp/thread/stop source")
 
@@ -195,7 +195,7 @@ Non-member functions
 Helper tags  
 [std::nostopstatestd::nostopstate_t](nostopstate_t.html "cpp/thread/stop source/nostopstate")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/stop_source/navbar_content&action=edit)
+
 
 stop_source(); |  (1)  |  (since C++20)  
 ---|---|---  
@@ -214,13 +214,13 @@ Constructs a new `stop_source` object.
 
 4) Move constructor. Constructs a `stop_source` whose associated stop-state is the same as that of other; other is left empty.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/stop_source/stop_source&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 nss  |  \-  |  an `std::nostopstate_t` placeholder object to construct an empty `stop_source`  
 ---|---|---  
 other  |  \-  |  another `stop_source` object to construct this `stop_source` object with   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/stop_source/stop_source&action=edit&section=2 "Edit section: Postconditions")] Postconditions
+### Postconditions
 
 1) stop_possible() is true and stop_requested() is false. 
 
@@ -230,6 +230,6 @@ other  |  \-  |  another `stop_source` object to construct this `stop_source` ob
 
 4) *this has other's previously associated stop-state, and other.stop_possible() is false.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/stop_source/stop_source&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 1) [std::bad_alloc](../../memory/new/bad_alloc.html "cpp/memory/new/bad alloc") if memory could not be allocated for the stop-state.

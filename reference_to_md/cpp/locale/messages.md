@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Localization library](../locale.html "cpp/locale")
 
@@ -152,7 +152,7 @@ base classes](../locale.html#Facet_category_base_classes "cpp/locale")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/navbar_content&action=edit)
+
 
 **`std::messages`**
 
@@ -164,7 +164,7 @@ Member functions
 [messages::getmessages::do_get](messages/get.html "cpp/locale/messages/get")  
 [messages::closemessages::do_close](messages/close.html "cpp/locale/messages/close")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/messages/navbar_content&action=edit)
+
 
 Defined in header `[<locale>](../header/locale.html "cpp/header/locale")` |  |   
 ---|---|---  
@@ -194,7 +194,7 @@ Inheritance diagram
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/messages&action=edit&section=1 "Edit section: Specializations")] Specializations
+### Specializations
 
 The standard library is guaranteed to provide the following specializations (they are [required to be implemented by any locale object](locale.html "cpp/locale/locale")): 
 
@@ -203,20 +203,20 @@ Defined in header `[<locale>](../header/locale.html "cpp/header/locale")`
 std::messages<char> |  accesses narrow string message catalog   
 std::messages<wchar_t> |  accesses wide string message catalog   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/messages&action=edit&section=2 "Edit section: Nested types")] Nested types
+### Nested types
 
 Type  |  Definition   
 ---|---  
 `char_type` |  `CharT`  
 `string_type` |  [std::basic_string](../string/basic_string.html)<CharT>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/facet_data_members&action=edit&section=T-1 "Template:cpp/locale/facet data members")] Data members
+### Data members
 
 Member  |  Description   
 ---|---  
 [std::locale::id](locale/id.html "cpp/locale/locale/id") `id` [static] |  the identifier of the [facet](locale/facet.html#Facet_class "cpp/locale/locale/facet")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/messages&action=edit&section=3 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](messages/messages.html "cpp/locale/messages/messages") |  constructs a new `messages` facet   
 (public member function)  
@@ -224,21 +224,21 @@ Member  |  Description
 [ (destructor)](messages/~messages.html "cpp/locale/messages/~messages") |  destructs a `messages` facet   
 (protected member function)  
 [ open](messages/open.html "cpp/locale/messages/open") |  invokes `do_open`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/messages/dsc_open&action=edit)  
+(public member function)   
 [ get](messages/get.html "cpp/locale/messages/get") |  invokes `do_get`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/messages/dsc_get&action=edit)  
+(public member function)   
 [ close](messages/close.html "cpp/locale/messages/close") |  invokes `do_close`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/messages/dsc_close&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/messages&action=edit&section=4 "Edit section: Protected member functions")] Protected member functions
+### Protected member functions
 
 [ do_open](messages/open.html "cpp/locale/messages/open")[virtual] |  opens a named message catalog   
-(virtual protected member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/messages/dsc_do_open&action=edit)  
+(virtual protected member function)   
 ---|---  
 [ do_get](messages/get.html "cpp/locale/messages/get")[virtual] |  retrieves a message from an open message catalog   
-(virtual protected member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/messages/dsc_do_get&action=edit)  
+(virtual protected member function)   
 [ do_close](messages/close.html "cpp/locale/messages/close")[virtual] |  closes a message catalog   
-(virtual protected member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/messages/dsc_do_close&action=edit)  
+(virtual protected member function)   
   
 ##  Inherited from [std::messages_base](messages_base.html "cpp/locale/messages base")
 
@@ -248,10 +248,10 @@ Type  |  Definition
 ---|---  
 `catalog` |  an unspecified signed integer type   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/messages&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ messages_base](messages_base.html "cpp/locale/messages base") |  defines messages catalog type   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_messages_base&action=edit)  
+(class)   
 ---|---  
 [ messages_byname](messages_byname.html "cpp/locale/messages byname") |  represents the system-supplied **std::messages** for the named locale   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_messages_byname&action=edit)
+(class template) 

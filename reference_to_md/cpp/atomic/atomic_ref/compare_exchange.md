@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::atomic_ref`](../atomic_ref.html "cpp/atomic/atomic ref")
 
@@ -211,7 +211,7 @@
 [atomic_ref::is_always_lock_free](is_always_lock_free.html "cpp/atomic/atomic ref/is always lock free")  
 [atomic_ref::required_alignment](required_alignment.html "cpp/atomic/atomic ref/required alignment")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic_ref/navbar_content&action=edit)
+
 
 bool compare_exchange_weak  
 ( value_type& expected, value_type desired,  
@@ -253,7 +253,7 @@ If failure is not [std::memory_order_relaxed](../memory_order.html), [std::memor
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_ref/compare_exchange&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 expected  |  \-  |  reference to the value expected to be found in the object referenced by the `atomic_ref` object   
 ---|---|---  
@@ -262,11 +262,11 @@ success  |  \-  |  the memory synchronization ordering for the read-modify-write
 failure  |  \-  |  the memory synchronization ordering for the load operation if the comparison fails   
 order  |  \-  |  the memory synchronization ordering for both operations   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_ref/compare_exchange&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 true if the referenced object was successfully changed, false otherwise. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_ref/compare_exchange&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 The comparison and copying are bitwise (similar to [std::memcmp](../../string/byte/memcmp.html "cpp/string/byte/memcmp") and [std::memcpy](../../string/byte/memcpy.html "cpp/string/byte/memcpy")); no constructor, assignment operator, or comparison operator are used. 
 
@@ -278,7 +278,7 @@ For a union with bits that participate in the value representations of some memb
 
 Padding bits that never participate in an object's value representation are ignored. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_ref/compare_exchange&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -288,7 +288,7 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ([P3323R1](https://wg21.link/P3323R1))  | C++20  | `compare_exchange_weak` and `compare_exchange_strong`  
 were meaningless for const T | constrained to accept only non-const `T`  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_ref/compare_exchange&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

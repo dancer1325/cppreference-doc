@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [`std::complex`](../complex.html "cpp/numeric/complex")
 
@@ -164,7 +164,7 @@
 [tuple_size<std::complex>](tuple_size.html "cpp/numeric/complex/tuple size")(C++26)  
 [tuple_element<std::complex>](tuple_element.html "cpp/numeric/complex/tuple element")(C++26)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/navbar_content&action=edit)
+
 
 Defined in header `[<complex>](../../header/complex.html "cpp/header/complex")` |  |   
 ---|---|---  
@@ -199,14 +199,14 @@ A,B) Additional overloads are provided for all integer and floating-point types,
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/arg&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 z  |  \-  |  complex value   
 ---|---|---  
 f  |  \-  |  floating-point value   
 i  |  \-  |  integer value   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/arg&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) [std::atan2](../math/atan2.html)([std::imag](imag2.html)(z), [std::real](real2.html)(z)). If no errors occur, this is the phase angle of z in the interval [−π; π].
 
@@ -214,7 +214,7 @@ A) Zero if f is positive or +0, π if f is negative or -0, NaN otherwise.
 
 B) Zero if i is non-negative, π if it is negative.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/arg&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 The additional overloads are not required to be provided exactly as (A,B). They only need to be sufficient to ensure that for their argument num: 
 
@@ -223,7 +223,7 @@ The additional overloads are not required to be provided exactly as (A,B). They 
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/arg&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -263,15 +263,15 @@ Output:
     phase angle of 1 is 0
     phase angle of -1 is 3.14159
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/complex/arg&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ abs(std::complex)](abs.html "cpp/numeric/complex/abs") |  returns the magnitude of a complex number   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_abs&action=edit)  
+(function template)   
 ---|---  
 [ polar](polar.html "cpp/numeric/complex/polar") |  constructs a complex number from magnitude and phase angle   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_polar&action=edit)  
+(function template)   
 [ atan2atan2fatan2l](../math/atan2.html "cpp/numeric/math/atan2")(C++11)(C++11) |  arc tangent, using signs to determine quadrants   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_atan2&action=edit)  
+(function)   
 [ atan2(std::valarray)](../valarray/atan2.html "cpp/numeric/valarray/atan2") |  applies the function [std::atan2](../math/atan2.html "cpp/numeric/math/atan2") to a valarray and a value   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/valarray/dsc_atan2&action=edit)  
+(function template)   
 [C documentation](../../../c/numeric/complex/carg.html "c/numeric/complex/carg") for carg

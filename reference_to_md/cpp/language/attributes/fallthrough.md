@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](../history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [Declarations](../declarations.html "cpp/language/declarations")
 
@@ -280,7 +280,7 @@ Other declarations
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/declarations/navbar_content&action=edit)
+
 
 [Attributes](../attributes.html "cpp/language/attributes")
 
@@ -298,7 +298,7 @@ Other declarations
 [optimize_for_synchronized](optimize_for_synchronized.html "cpp/language/attributes/optimize for synchronized")(TM TS)  
 [unlikely](likely.html "cpp/language/attributes/likely")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/attributes/navbar_content&action=edit)
+
 
 Indicates that the fall through from the previous case label is intentional and should not be diagnosed by a compiler that warns on fallthrough. 
 
@@ -314,18 +314,18 @@ Indicates that the fall through from the previous case label is intentional and 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/attributes/fallthrough&action=edit&section=1 "Edit section: Syntax")] Syntax  
+### Syntax  
   
 ---  
 `**[[fallthrough]]**` |  |   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/attributes/fallthrough&action=edit&section=2 "Edit section: Explanation")] Explanation
+### Explanation
 
 May only be applied to a [null statement](../statements.html#Expression_statements "cpp/language/statements") to create a _fallthrough statement_ ([[fallthrough]];). 
 
 A fallthrough statement may only be used in a [switch](../switch.html "cpp/language/switch") statement, where the next statement to be executed is a statement with a case or default label for that switch statement. If the fallthrough statement is inside a loop, the next (labeled) statement must be part of the same iteration of that loop. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/attributes/fallthrough&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -363,7 +363,7 @@ Run this code
         }
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/attributes/fallthrough&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -372,7 +372,7 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [CWG 2406](https://cplusplus.github.io/CWG/issues/2406.html) | C++17  | [[fallthrough]] could appear in a loop  
 nested inside the target switch statement  | prohibited   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/attributes/fallthrough&action=edit&section=5 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -404,7 +404,7 @@ nested inside the target switch statement  | prohibited
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/attributes/fallthrough&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [C documentation](../../../c/language/attributes/fallthrough.html "c/language/attributes/fallthrough") for fallthrough  
 ---

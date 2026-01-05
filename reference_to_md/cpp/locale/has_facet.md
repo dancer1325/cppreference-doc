@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Localization library](../locale.html "cpp/locale")
 
@@ -152,7 +152,7 @@ base classes](../locale.html#Facet_category_base_classes "cpp/locale")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/navbar_content&action=edit)
+
 
 Defined in header `[<locale>](../header/locale.html "cpp/header/locale")` |  |   
 ---|---|---  
@@ -178,20 +178,20 @@ The program is ill-formed if Facet is not a [facet](locale/facet.html#Facet_clas
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/has_facet&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 loc  |  \-  |  the locale object to query   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/has_facet&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Returns true if the facet `Facet` was installed in the locale loc, false otherwise. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/has_facet&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 `std::has_facet` must return true for all locales loc if `Facet` is one of the standard facets given [here](locale.html "cpp/locale/locale"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/has_facet&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -227,7 +227,7 @@ Output:
     Can loc classify char32_t? false
     Does loc implement myfacet? true
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/has_facet&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -235,10 +235,10 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 436](https://cplusplus.github.io/LWG/issue436) | C++98  | it was unclear whether `Facet` can be cv-qualified  | it can be const-qualified, but not volatile-qualified   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/has_facet&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ locale](locale.html "cpp/locale/locale") |  set of polymorphic facets that encapsulate cultural differences   
-(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_locale&action=edit)  
+(class)   
 ---|---  
 [ use_facet](use_facet.html "cpp/locale/use facet") |  obtains a facet from a locale   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/dsc_use_facet&action=edit)
+(function template) 

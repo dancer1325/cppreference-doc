@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 Defined in header `[<thread>](../header/thread.html "cpp/header/thread")` |  |   
 ---|---|---  
@@ -193,19 +193,19 @@ Provides a hint to the implementation to reschedule the execution of threads, al
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/yield&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/yield&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/yield&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 The exact behavior of this function depends on the implementation, in particular on the mechanics of the OS scheduler in use and the state of the system. For example, a first-in-first-out realtime scheduler (`SCHED_FIFO` in Linux) would suspend the current thread and put it on the back of the queue of the same-priority threads that are ready to run, and if there are no other threads at the same priority, `yield` has no effect. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/yield&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -244,7 +244,7 @@ Possible output:
     
     waited for 128 microseconds
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/yield&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [C documentation](../../c/thread/thrd_yield.html "c/thread/thrd yield") for thrd_yield  
 ---

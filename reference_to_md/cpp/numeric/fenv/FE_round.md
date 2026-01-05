@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Numerics library](../../numeric.html "cpp/numeric")
 
@@ -87,7 +87,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
 
 [Floating-point environment](../fenv.html "cpp/numeric/fenv")
 
@@ -106,7 +106,7 @@ Macro constants
 **FE_DOWNWARD FE_TONEARESTFE_TOWARDZEROFE_UPWARD**(C++11)(C++11)(C++11)(C++11)  
 [FE_DFL_ENV](FE_DFL_ENV.html "cpp/numeric/fenv/FE DFL ENV")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/fenv/navbar_content&action=edit)
+
 
 Defined in header `[<cfenv>](../../header/cfenv.html "cpp/header/cfenv")` |  |   
 ---|---|---  
@@ -182,7 +182,7 @@ As with any [floating-point environment](../fenv.html "cpp/numeric/fenv") functi
 
 Compilers that do not support the pragma may offer their own ways to support current rounding mode. For example Clang and GCC have the option `-frounding-math` intended to disable optimizations that would change the meaning of rounding-sensitive code. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/fenv/FE_round&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -221,11 +221,11 @@ Output:
     stof("1.1") = 1.10000002384185791015625
       rint(2.1) = 3
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/numeric/fenv/FE_round&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ float_round_style](../../types/numeric_limits/float_round_style.html "cpp/types/numeric limits/float round style") |  indicates floating-point rounding modes   
-(enum) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/dsc_float_round_style&action=edit)  
+(enum)   
 ---|---  
 [ fegetroundfesetround](feround.html "cpp/numeric/fenv/feround")(C++11)(C++11) |  gets or sets rounding direction   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/fenv/dsc_feround&action=edit)  
+(function)   
 [C documentation](../../../c/numeric/fenv/FE_round.html "c/numeric/fenv/FE round") for floating-point rounding macros

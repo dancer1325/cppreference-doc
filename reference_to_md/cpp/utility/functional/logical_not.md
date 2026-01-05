@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Function objects](../../functional.html "cpp/utility/functional")
 
@@ -255,7 +255,7 @@ Identity function object
 [unary_negate](unary_negate.html "cpp/utility/functional/unary negate")(until C++20*)  
 [binary_negate](binary_negate.html "cpp/utility/functional/binary negate")(until C++20*)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/navbar_content&action=edit)
+
 
 Defined in header `[<functional>](../../header/functional.html "cpp/header/functional")` |  |   
 ---|---|---  
@@ -281,14 +281,14 @@ Function object for performing logical NOT (logical negation). Effectively calls
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/logical_not&action=edit&section=1 "Edit section: Specializations")] Specializations
+### Specializations
 
 The standard library provides a specialization of `std::logical_not` when `T` is not specified, which leaves the parameter types and return type to be deduced.  |  [ logical_not<void>](logical_not_void.html "cpp/utility/functional/logical not void")(C++14) |  function object implementing !x deducing parameter and return types   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/dsc_logical_not_void&action=edit)  
+(class template specialization)   
 ---|---  
 (since C++14)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/member_types&action=edit&section=T-1 "Template:cpp/utility/functional/member types")] Member types
+### Member types
 
 Type  |  Definition   
 ---|---  
@@ -297,7 +297,7 @@ Type  |  Definition
 These member types are obtained via publicly inheriting [std::unary_function](unary_function.html)<T, bool>.  | (until C++11)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/logical_not&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 operator() |  returns the logical NOT of the argument   
 (public member function)  
@@ -320,7 +320,7 @@ arg  |  \-  |  value to compute logical NOT of
 
 The result of !arg. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/impldef_exception&action=edit&section=T-1 "Template:cpp/impldef exception")] Exceptions
+### Exceptions
 
 May throw implementation-defined exceptions. 
 

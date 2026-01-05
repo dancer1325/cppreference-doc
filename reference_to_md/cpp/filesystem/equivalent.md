@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Filesystem library](../filesystem.html "cpp/filesystem")
 
@@ -100,7 +100,7 @@ filesystem::symlink_status](status.html "cpp/filesystem/status")
 [filesystem::is_socket](is_socket.html "cpp/filesystem/is socket")  
 [filesystem::is_symlink](is_symlink.html "cpp/filesystem/is symlink")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/navbar_content&action=edit)
+
 
 Defined in header `[<filesystem>](../header/filesystem.html "cpp/header/filesystem")` |  |   
 ---|---|---  
@@ -130,17 +130,17 @@ The non-throwing overload returns false on errors.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/equivalent&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 p1, p2  |  \-  |  paths to check for equivalence   
 ---|---|---  
 ec  |  \-  |  out-parameter for error reporting in the non-throwing overload   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/equivalent&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 true if the p1 and p2 refer to the same file or directory and their file status is the same. false otherwise. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/equivalent&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 Any overload not marked `noexcept` may throw [std::bad_alloc](../memory/new/bad_alloc.html "cpp/memory/new/bad alloc") if memory allocation fails.  
 
@@ -149,13 +149,13 @@ Any overload not marked `noexcept` may throw [std::bad_alloc](../memory/new/bad_
 
 2) Sets a [std::error_code](../error/error_code.html)& parameter to the OS API error code if an OS API call fails, and executes ec.[`clear`](../error/error_code/clear.html "cpp/error/error code/clear")() if no errors occur.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/equivalent&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 Two paths are considered to resolve to the same file system entity if the two candidate entities the paths resolve to are located on the same device at the same location. For POSIX, this means that the `st_dev` and `st_ino` members of their POSIX [`stat` structure](https://pubs.opengroup.org/onlinepubs/9699919799/basedefs/sys_stat.h.html), obtained as if by POSIX [`stat()`](https://pubs.opengroup.org/onlinepubs/9699919799/functions/stat.html), are equal. 
 
 In particular, all hard links for the same file or directory are equivalent, and a symlink and its target on the same file system are equivalent. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/equivalent&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -198,7 +198,7 @@ Possible output:
     filesystem error: read_symlink: No such file or directory [/lib/libc.so.6]
     "/lib/x86_64-linux-gnu/libc.so.6" is equivalent to "/lib/x86_64-linux-gnu/libc-2.23.so"
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/equivalent&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -206,13 +206,13 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 2937](https://cplusplus.github.io/LWG/issue2937) | C++17  | error condition specified incorrectly  | corrected   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/filesystem/equivalent&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ compare](path/compare.html "cpp/filesystem/path/compare") |  compares the lexical representations of two paths lexicographically   
-(public member function of `std::filesystem::path`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/path/dsc_compare&action=edit)  
+(public member function of `std::filesystem::path`)   
 ---|---  
 [ operator==operator!=operator<operator<=operator>operator>=operator<=>](path/operator_cmp.html "cpp/filesystem/path/operator cmp")(C++17)(C++17)(until C++20)(C++17)(until C++20)(C++17)(until C++20)(C++17)(until C++20)(C++17)(until C++20)(C++20) |  lexicographically compares two paths   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/path/dsc_operator_cmp&action=edit)  
+(function)   
 [ statussymlink_status](status.html "cpp/filesystem/status")(C++17)(C++17) |  determines file attributes  
 determines file attributes, checking the symlink target   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/filesystem/dsc_status&action=edit)
+(function) 

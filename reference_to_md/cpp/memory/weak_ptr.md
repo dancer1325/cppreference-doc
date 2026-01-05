@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 **`std::weak_ptr`**
 
@@ -209,7 +209,7 @@ Helper classes
 [atomic<std::weak_ptr>](weak_ptr/atomic2.html "cpp/memory/weak ptr/atomic2")(C++20)  
 [Deduction guides](weak_ptr/deduction_guides.html "cpp/memory/weak ptr/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/weak_ptr/navbar_content&action=edit)
+
 
 Defined in header `[<memory>](../header/memory.html "cpp/header/memory")` |  |   
 ---|---|---  
@@ -239,7 +239,7 @@ Another use for `std::weak_ptr` is to break reference cycles formed by objects m
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/weak_ptr&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Member type  |  Definition   
 ---|---  
@@ -247,53 +247,53 @@ Member type  |  Definition
 ---|---  
 [std::remove_extent_t](../types/remove_extent.html)<T> | (since C++17)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/weak_ptr&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](weak_ptr/weak_ptr.html "cpp/memory/weak ptr/weak ptr") |  creates a new `weak_ptr`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/weak_ptr/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ (destructor)](weak_ptr/~weak_ptr.html "cpp/memory/weak ptr/~weak ptr") |  destroys a `weak_ptr`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/weak_ptr/dsc_destructor&action=edit)  
+(public member function)   
 [ operator=](weak_ptr/operator=.html "cpp/memory/weak ptr/operator=") |  assigns the `weak_ptr`   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/weak_ptr/dsc_operator%3D&action=edit)  
+(public member function)   
   
 #####  Modifiers   
   
 [ reset](weak_ptr/reset.html "cpp/memory/weak ptr/reset") |  releases the ownership of the managed object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/weak_ptr/dsc_reset&action=edit)  
+(public member function)   
 [ swap](weak_ptr/swap.html "cpp/memory/weak ptr/swap") |  swaps the managed objects   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/weak_ptr/dsc_swap&action=edit)  
+(public member function)   
   
 #####  Observers   
   
 [ use_count](weak_ptr/use_count.html "cpp/memory/weak ptr/use count") |  returns the number of `shared_ptr` objects that manage the object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/weak_ptr/dsc_use_count&action=edit)  
+(public member function)   
 [ expired](weak_ptr/expired.html "cpp/memory/weak ptr/expired") |  checks whether the referenced object was already deleted   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/weak_ptr/dsc_expired&action=edit)  
+(public member function)   
 [ lock](weak_ptr/lock.html "cpp/memory/weak ptr/lock") |  creates a `shared_ptr` that manages the referenced object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/weak_ptr/dsc_lock&action=edit)  
+(public member function)   
 [ owner_before](weak_ptr/owner_before.html "cpp/memory/weak ptr/owner before") |  provides owner-based ordering of weak pointers   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/weak_ptr/dsc_owner_before&action=edit)  
+(public member function)   
 [ owner_hash](weak_ptr/owner_hash.html "cpp/memory/weak ptr/owner hash")(C++26) |  provides owner-based hashing of weak pointers   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/weak_ptr/dsc_owner_hash&action=edit)  
+(public member function)   
 [ owner_equal](weak_ptr/owner_equal.html "cpp/memory/weak ptr/owner equal")(C++26) |  provides owner-based equal comparison of weak pointers   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/weak_ptr/dsc_owner_equal&action=edit)  
+(public member function)   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/weak_ptr&action=edit&section=3 "Edit section: Non-member functions")] Non-member functions
+### Non-member functions
 
 [ std::swap(std::weak_ptr)](weak_ptr/swap2.html "cpp/memory/weak ptr/swap2")(C++11) |  specializes the [std::swap](../utility/swap.html "cpp/algorithm/swap") algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/weak_ptr/dsc_swap2&action=edit)  
+(function template)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/weak_ptr&action=edit&section=4 "Edit section: Helper classes")] Helper classes
+### Helper classes
 
 [ std::atomic<std::weak_ptr>](weak_ptr/atomic2.html "cpp/memory/weak ptr/atomic2")(C++20) |  atomic weak pointer   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/weak_ptr/dsc_atomic2&action=edit)  
+(class template specialization)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/weak_ptr&action=edit&section=5 "Edit section: Deduction guides \(since C++17\)")] [Deduction guides](weak_ptr/deduction_guides.html "cpp/memory/weak ptr/deduction guides") (since C++17)
+### [Deduction guides](weak_ptr/deduction_guides.html "cpp/memory/weak ptr/deduction guides") (since C++17)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/weak_ptr&action=edit&section=6 "Edit section: Notes")] Notes
+### Notes
 
 Like [std::shared_ptr](shared_ptr.html "cpp/memory/shared ptr"), a typical implementation of `weak_ptr` stores two pointers: 
 
@@ -308,7 +308,7 @@ A separate stored pointer is necessary to ensure that converting a `shared_ptr` 
 ---|---|---|---  
 [`__cpp_lib_smart_ptr_owner_equality`](../experimental/feature_test.html#cpp_lib_smart_ptr_owner_equality "cpp/feature test") | [`202306L`](../compiler_support/26.html#cpp_lib_smart_ptr_owner_equality_202306L "cpp/compiler support/26") | (C++26) | Enabling the use of `std::weak_ptr` as keys in [unordered associative containers](../container.html#Unordered_associative_containers "cpp/container")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/weak_ptr&action=edit&section=7 "Edit section: Example")] Example
+### Example
 
 Demonstrates how lock is used to ensure validity of the pointer.
 
@@ -348,7 +348,7 @@ Output:
     gw.use_count() == 1; *spt == 42
     gw.use_count() == 0; gw is expired
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/weak_ptr&action=edit&section=8 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -356,12 +356,12 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 3001](https://cplusplus.github.io/LWG/issue3001) | C++17  | `element_type` was not updated for array support  | updated   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/weak_ptr&action=edit&section=9 "Edit section: See also")] See also
+### See also
 
 [ unique_ptr](unique_ptr.html "cpp/memory/unique ptr")(C++11) |  smart pointer with unique object ownership semantics   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_unique_ptr&action=edit)  
+(class template)   
 ---|---  
 [ shared_ptr](shared_ptr.html "cpp/memory/shared ptr")(C++11) |  smart pointer with shared object ownership semantics   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_shared_ptr&action=edit)
+(class template) 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

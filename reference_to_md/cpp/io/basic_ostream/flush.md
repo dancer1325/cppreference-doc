@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_ostream`](../basic_ostream.html "cpp/io/basic ostream")
 
@@ -116,7 +116,7 @@ Non-member functions
 [vprint_unicode(std::ostream)](vprint_unicode.html "cpp/io/basic ostream/vprint unicode")(C++23)  
 [vprint_nonunicode(std::ostream)](vprint_nonunicode.html "cpp/io/basic ostream/vprint nonunicode")(C++23)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ostream/navbar_content&action=edit)
+
 
 basic_ostream& flush(); |  |   
 ---|---|---  
@@ -139,15 +139,15 @@ Otherwise, after constructing and checking the sentry object, calls rdbuf()->pub
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_ostream/flush&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 *this
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_ostream/flush&action=edit&section=2 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
 May throw [std::ios_base::failure](../ios_base/failure.html "cpp/io/ios base/failure") if (exceptions() & badbit) != 0. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_ostream/flush&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -188,7 +188,7 @@ Output:
     Output from main
     Output from thread... 1 2 3 4 5 6 7 8 9
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_ostream/flush&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -198,16 +198,16 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 because of the resolution of [LWG issue 60](https://cplusplus.github.io/LWG/issue60) | behaves as an  
 [UnformattedOutputFunction](../../named_req/UnformattedOutputFunction.html "cpp/named req/UnformattedOutputFunction")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_ostream/flush&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ pubsync](../basic_streambuf/pubsync.html "cpp/io/basic streambuf/pubsync") |  invokes sync()   
-(public member function of `std::basic_streambuf<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_streambuf/dsc_pubsync&action=edit)  
+(public member function of `std::basic_streambuf<CharT,Traits>`)   
 ---|---  
 [ sync](../basic_streambuf/pubsync.html "cpp/io/basic streambuf/pubsync")[virtual] |  synchronizes the buffers with the associated character sequence   
-(virtual protected member function of `std::basic_streambuf<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_streambuf/dsc_sync&action=edit)  
+(virtual protected member function of `std::basic_streambuf<CharT,Traits>`)   
 [ flush](../manip/flush.html "cpp/io/manip/flush") |  flushes the output stream   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_flush&action=edit)  
+(function template)   
 [ endl](../manip/endl.html "cpp/io/manip/endl") |  outputs '\n' and flushes the output stream   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/manip/dsc_endl&action=edit)  
+(function template)   
 [ sync](../basic_istream/sync.html "cpp/io/basic istream/sync") |  synchronizes with the underlying storage device   
-(public member function of `std::basic_istream<CharT,Traits>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_istream/dsc_sync&action=edit)
+(public member function of `std::basic_istream<CharT,Traits>`) 

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](../language/history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [Keywords](../keywords.html "cpp/keyword")
 
@@ -340,13 +340,13 @@ Identifiers with special meaning
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/keyword/navbar_content&action=edit)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/keyword/char8_t&action=edit&section=1 "Edit section: Usage")] Usage
+
+### Usage
 
 [`char8_t` type](../language/types.html#char8_t "cpp/language/types"): as the declaration of the type 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/keyword/char8_t&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 Feature-test macro  | Value | Std | Feature   
 ---|---|---|---  
@@ -354,7 +354,7 @@ Feature-test macro  | Value | Std | Feature
 [`202207L`](../compiler_support/20.html#cpp_char8_t_202207L "cpp/compiler support/20") | (C++20)  
 (DR) | char8_t compatibility and portability fix ([allow initialization of (`unsigned`) `char` arrays](../language/aggregate_initialization.html#Character_arrays "cpp/language/aggregate initialization") from [UTF-8 string literals](../language/string_literal.html "cpp/language/string literal"))   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/keyword/char8_t&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
   * [Fundamental types](../language/types.html "cpp/language/types"): [`void`](void.html "cpp/keyword/void"), [std::nullptr_t](../types/nullptr_t.html "cpp/types/nullptr t")(since C++11). 
     * [Integral types](../language/types.html#Integral_types "cpp/language/types"): [`int`](int.html "cpp/keyword/int"). [Modifiers](../language/types.html#Modifiers "cpp/language/types"): [`signed`](signed.html "cpp/keyword/signed"), [`unsigned`](unsigned.html "cpp/keyword/unsigned"), [`short`](short.html "cpp/keyword/short"), [`long`](long.html "cpp/keyword/long"). 

@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::join_view`](../../join_view.html "cpp/ranges/join view")
 
@@ -251,7 +251,7 @@ join_view::_iterator_ ::operator--(int)](../iterator/operator_arith.html "cpp/ra
 **join_view::_sentinel_ ::_sentinel_**  
 [operator==(join_view::_iterator_ ,join_view::_sentinel_)](operator_cmp.html "cpp/ranges/join view/sentinel/operator cmp")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/join_view/navbar_content&action=edit)
+
 
 /*sentinel*/() = default; |  (1)  |  (since C++20)  
 ---|---|---  
@@ -269,13 +269,13 @@ Constructs a sentinel.
 
 3) Conversion from /*sentinel*/<false> to /*sentinel*/<true>. Move constructs the underlying sentinel `_end__` with std::move(i.end_).
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/join_view/sentinel/sentinel&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 parent  |  \-  |  a (possibly const-qualified) [ranges::join_view](../../join_view.html "cpp/ranges/join view")  
 ---|---|---  
 i  |  \-  |  a /*sentinel*/<false>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/join_view/sentinel/sentinel&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

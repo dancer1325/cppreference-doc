@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::bitset`](../bitset.html "cpp/utility/bitset")
 
@@ -167,7 +167,7 @@ Common vocabulary types
 [Helper classes](../bitset.html#Helper_classes "cpp/utility/bitset")  
 **std::hash**(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/bitset/navbar_content&action=edit)
+
 
 Defined in header `[<bitset>](../../header/bitset.html "cpp/header/bitset")` |  |   
 ---|---|---  
@@ -177,7 +177,7 @@ struct hash<[std::bitset](../bitset.html)<N>>; |  |  (since C++11)
   
 The template specialization of [std::hash](../hash.html "cpp/utility/hash") for [std::bitset](../bitset.html)<N> allows users to obtain hashes of objects of type [std::bitset](../bitset.html)<N>. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/bitset/hash&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
 The following code shows one possible output of a hash function used on several bitsets:
 
@@ -212,8 +212,8 @@ Possible output:
     0110110100001001111011100010011011010101100001100011011000011001 = 6d09ee26d5863619
     0101110000011100011110011010111011100110010000110100110001001101 = 5c1c79aee6434c4d
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/bitset/hash&action=edit&section=2 "Edit section: See also")] See also
+### See also
 
 [ hash](../hash.html "cpp/utility/hash")(C++11) |  hash function object   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_hash&action=edit)  
+(class template)   
 ---|---

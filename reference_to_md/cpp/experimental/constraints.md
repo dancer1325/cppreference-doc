@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
   
 
@@ -137,7 +137,7 @@ If feature testing is supported, the features described here are indicated by th
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/constraints&action=edit&section=1 "Edit section: Placeholders")] Placeholders
+### Placeholders
 
 The unconstrained placeholder auto and _constrained placeholders_ which have the form concept-name `**<**` template-argument-list(optional)`**>**`, are placeholders for the type that is to be deduced. 
 
@@ -173,7 +173,7 @@ If constrained type specifier designates a non-type or a template, but is used a
     void f([std::array](../container/array.html)<auto, Even>); // error, invalid use of a non-type concept
     template<Even N> void f([std::array](../container/array.html)<auto, N>); // OK
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/constraints&action=edit&section=2 "Edit section: Abbreviated templates")] Abbreviated templates
+### Abbreviated templates
 
 If one or more placeholders appears in a function parameter list, the function declaration is actually a function template declaration, whose template parameter list includes one invented parameter for every unique placeholder, in order of appearance 
     
@@ -225,7 +225,7 @@ For function templates, template introduction can be combined with placeholders:
 Reason: touch up template declaration pages to link here   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/constraints&action=edit&section=3 "Edit section: Concepts")] Concepts
+### Concepts
 
 A concept is a named set of requirements. The definition of a concept appears at namespace scope and has the form of a [function template](../language/function_template.html "cpp/language/function template") definition (in which case it is called _function concept_) or [variable template](../language/variable_template.html "cpp/language/variable template") definition (in which case it is called _variable concept_). The only difference is that the keyword concept appears in the decl-specifier-seq: 
     
@@ -273,7 +273,7 @@ Concepts cannot recursively refer to themselves in the body of the function or i
 
 Explicit instantiations, explicit specializations, or partial specializations of concepts are not allowed (the meaning of the original definition of a constraint cannot be changed) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/constraints&action=edit&section=4 "Edit section: Constraints")] Constraints
+### Constraints
 
 A constraint is a sequence of logical operations that specifies requirements on template arguments. They can appear within _requires-expression_ s (see below) and directly as bodies of concepts 
 
@@ -322,7 +322,7 @@ When multiple constraints are attached to the same declaration, the total constr
     template<Incrementable T> requires Decrementable<T> void g();
     template<Decrementable T> requires Incrementable<T> void g(); // error
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/constraints&action=edit&section=5 "Edit section: Conjunctions")] Conjunctions
+#### Conjunctions
 
 Conjunction of constraints `P` and `Q` is specified as P && Q. 
     
@@ -337,7 +337,7 @@ Conjunction of constraints `P` and `Q` is specified as P && Q.
 
 A conjunction of two constraints is satisfied only if both constraints are satisfied. Conjunctions are evaluated left to right and short-circuited (if the left constraint is not satisfied, template argument substitution into the right constraint is not attempted: this prevents failures due to substitution outside of immediate context). User-defined overloads of `operator&&` are not allowed in constraint conjunctions. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/constraints&action=edit&section=6 "Edit section: Disjunctions")] Disjunctions
+#### Disjunctions
 
 Disjunction of constraints `P` and `Q` is specified as P || Q. 
 
@@ -349,7 +349,7 @@ A disjunction of two constraints is satisfied if either constraint is satisfied.
     requires EqualityComparable<T>() || Same<T, void>
     struct equal_to;
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/constraints&action=edit&section=7 "Edit section: Predicate constraints")] Predicate constraints
+#### Predicate constraints
 
 A predicate constraint is a constant expression of type bool. It is satisfied only if it evaluates to true
     
@@ -369,7 +369,7 @@ Predicate constraints must evaluate directly to bool, no conversions allowed:
     void f(T);
     f(0); // error: constraint never satisfied
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/constraints&action=edit&section=8 "Edit section: Requirements")] Requirements
+### Requirements
 
 The keyword requires is used in two ways: 
 
@@ -429,7 +429,7 @@ The substitution of template arguments into a requires-expression may result in 
         new int[-(int)sizeof(T)]; // invalid for every T: ill-formed, no diagnostic required
     };
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/constraints&action=edit&section=9 "Edit section: Simple requirements")] Simple requirements
+#### Simple requirements
 
 A simple requirement is an arbitrary expression statement. The requirement is that the expression is valid (this is an _expression constraint_). Unlike with predicate constraints, evaluation does not take place, only language correctness is checked. 
     
@@ -447,7 +447,7 @@ A simple requirement is an arbitrary expression statement. The requirement is th
         swap([std::forward](../utility/forward.html)<U>(u), [std::forward](../utility/forward.html)<T>(t));
     };
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/constraints&action=edit&section=10 "Edit section: Type requirements")] Type requirements
+#### Type requirements
 
 A type requirement is the keyword typename followed by a type name, optionally qualified. The requirement is that the named type exists (a _type constraint_): this can be used to verify that a certain named nested type exists, or that a class template specialization names a type, or that an alias template names a type. 
     
@@ -469,7 +469,7 @@ A type requirement is the keyword typename followed by a type name, optionally q
         { CommonType<T, U>{[std::forward](../utility/forward.html)<U>(u)} }; 
     };
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/constraints&action=edit&section=11 "Edit section: Compound Requirements")] Compound Requirements
+#### Compound Requirements
 
 A compound requirement has the form   
   
@@ -508,7 +508,7 @@ and specifies a conjunction of the following constraints:
         requires Same<decltype(b1 || b2), bool>;
     };
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/constraints&action=edit&section=12 "Edit section: Nested requirements")] Nested requirements
+#### Nested requirements
 
 A nested requirement is another _requires-clause_ , terminated with a semicolon. This is used to introduce _predicate constraints_ (see above) expressed in terms of other named concepts applied to the local parameters (outside a requires clause, predicate constraints can't use parameters, and placing an expression directly in a requires clause makes it an expression constraint which means it is not evaluated) 
     
@@ -526,7 +526,7 @@ A nested requirement is another _requires-clause_ , terminated with a semicolon.
         { delete new T[n] }; // compound
     };
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/constraints&action=edit&section=13 "Edit section: Concept resolution")] Concept resolution
+### Concept resolution
 
 Like any other function template, a function concept (but not variable concept) can be overloaded: multiple concept definitions may be provided that all use the same concept-name. 
 
@@ -595,7 +595,7 @@ If any argument does not match its corresponding parameter or if there are more 
 Reason: needs an example with meaningful concepts, not these 'return true' placeholders   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/constraints&action=edit&section=14 "Edit section: Partial ordering of constraints")] Partial ordering of constraints
+### Partial ordering of constraints
 
 Before any further analysis, constraints are _normalized_ by substituting the body of every name concept and every requires expression until what is left is a sequence of conjunctions and disjunctions on atomic constraints, which are predicate constraints, expression constraints, type constraints, implicit conversion constraints, argument deduction constraints, and exception constraints. 
 
@@ -644,10 +644,10 @@ If declarations `D1` and `D2` are constrained and D1's normalized constraints su
     g(true);  // bool does not satisfy Decrementable, selects #3
     g(0);     // int satisfies Decrementable, selects #4 because it is more constrained
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/constraints&action=edit&section=15 "Edit section: Keywords")] Keywords
+### Keywords
 
 [`concept`](../keyword/concept.html "cpp/keyword/concept"), [`requires`](../keyword/requires.html "cpp/keyword/requires")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/constraints&action=edit&section=16 "Edit section: Compiler support")] Compiler support
+### Compiler support
 
 GCC >= 6.1 supports this technical specification (required option -fconcepts) 

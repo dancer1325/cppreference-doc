@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 **`std::recursive_timed_mutex`**
 
@@ -190,7 +190,7 @@ Locking
 Native handle  
 [recursive_timed_mutex::native_handle](recursive_timed_mutex/native_handle.html "cpp/thread/recursive timed mutex/native handle")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/recursive_timed_mutex/navbar_content&action=edit)
+
 
 Defined in header `[<mutex>](../header/mutex.html "cpp/header/mutex")` |  |   
 ---|---|---  
@@ -213,38 +213,38 @@ The `recursive_timed_mutex` class satisfies all requirements of [TimedMutex](../
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/recursive_timed_mutex&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Member type  |  Definition   
 ---|---  
-`native_handle_type` (optional*) |  implementation-defined[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/dsc_native_handle_type&action=edit)  
+`native_handle_type` (optional*) |  implementation-defined  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/recursive_timed_mutex&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 [ (constructor)](recursive_timed_mutex/recursive_timed_mutex.html "cpp/thread/recursive timed mutex/recursive timed mutex") |  constructs the mutex   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/mutex/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ (destructor)](recursive_timed_mutex/~recursive_timed_mutex.html "cpp/thread/recursive timed mutex/~recursive timed mutex") |  destroys the mutex   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/mutex/dsc_destructor&action=edit)  
+(public member function)   
 operator=[deleted] |  not copy-assignable   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/mutex/dsc_operator%3D&action=edit)  
+(public member function)   
   
 #####  Locking   
   
 [ lock](recursive_timed_mutex/lock.html "cpp/thread/recursive timed mutex/lock") |  locks the mutex, blocks if the mutex is not available   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/mutex/dsc_lock&action=edit)  
+(public member function)   
 [ try_lock](recursive_timed_mutex/try_lock.html "cpp/thread/recursive timed mutex/try lock") |  tries to lock the mutex, returns if the mutex is not available   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/mutex/dsc_try_lock&action=edit)  
+(public member function)   
 [ try_lock_for](recursive_timed_mutex/try_lock_for.html "cpp/thread/recursive timed mutex/try lock for") |  tries to lock the mutex, returns if the mutex has been  
 unavailable for the specified timeout duration   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/mutex/dsc_try_lock_for&action=edit)  
+(public member function)   
 [ try_lock_until](recursive_timed_mutex/try_lock_until.html "cpp/thread/recursive timed mutex/try lock until") |  tries to lock the mutex, returns if the mutex has been  
 unavailable until specified time point has been reached   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/mutex/dsc_try_lock_until&action=edit)  
+(public member function)   
 [ unlock](recursive_timed_mutex/unlock.html "cpp/thread/recursive timed mutex/unlock") |  unlocks the mutex   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/mutex/dsc_unlock&action=edit)  
+(public member function)   
   
 #####  Native handle   
   
 [ native_handle](recursive_timed_mutex/native_handle.html "cpp/thread/recursive timed mutex/native handle") |  returns the underlying implementation-defined native handle object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/mutex/dsc_native_handle&action=edit)
+(public member function) 

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Localization library](../../locale.html "cpp/locale")
 
@@ -152,7 +152,7 @@ base classes](../../locale.html#Facet_category_base_classes "cpp/locale")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/navbar_content&action=edit)
+
 
 [`std::collate`](../collate.html "cpp/locale/collate")
 
@@ -164,7 +164,7 @@ Member functions
 [collate::transformcollate::do_transform](transform.html "cpp/locale/collate/transform")  
 [collate::hashcollate::do_hash](hash.html "cpp/locale/collate/hash")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/collate/navbar_content&action=edit)
+
 
 Defined in header `[<locale>](../../header/locale.html "cpp/header/locale")` |  |   
 ---|---|---  
@@ -191,7 +191,7 @@ const CharT* low2, const CharT* high2 ) const; |  (2)  |
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/collate/compare&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 low1  |  \-  |  pointer to the first character of the first string   
 ---|---|---  
@@ -199,17 +199,17 @@ high1  |  \-  |  one past the end pointer for the first string
 low2  |  \-  |  pointer to the first character of the second string   
 high2  |  \-  |  one past the end pointer for the second string   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/collate/compare&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1 if the first string is greater than the second (that is, follows the second in the collation order), -1 if the first string is less than the second (precedes the second in the collation order), zero if the two strings are equivalent. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/collate/compare&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 When three-way comparison is not required (such as when providing a `Compare` argument to standard algorithms such as [std::sort](../../algorithm/sort.html "cpp/algorithm/sort")), [`std::locale::operator()`](../locale/operator\(\).html "cpp/locale/locale/operator\(\)") may be more appropriate. 
 
 Collation order is the dictionary order: the position of the letter in the national alphabet (its _equivalence class_) has higher priority than its case or variant. Within an equivalence class, lowercase characters collate before their uppercase equivalents and locale-specific order may apply to the characters with diacritics. In some locales, groups of characters compare as single _collation units_. For example, "ch" in Czech follows "h" and precedes "i", and "dzs" in Hungarian follows "dz" and precedes "g". 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/collate/compare&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -255,12 +255,12 @@ Output:
     In the American locale: ängel before år
     In the Swedish locale: år before ängel
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/collate/compare&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ strcoll](../../string/byte/strcoll.html "cpp/string/byte/strcoll") |  compares two strings in accordance to the current locale   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strcoll&action=edit)  
+(function)   
 ---|---  
 [ wcscoll](../../string/wide/wcscoll.html "cpp/string/wide/wcscoll") |  compares two wide strings in accordance to the current locale   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_wcscoll&action=edit)  
+(function)   
 [ operator()](../locale/operator\(\).html "cpp/locale/locale/operator\(\)") |  lexicographically compares two strings using this locale's collate facet   
-(public member function of `std::locale`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/locale/dsc_operator\(\)&action=edit)
+(public member function of `std::locale`) &action=edit)

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Type support](../../utility/rtti.html "cpp/types")
 
@@ -161,7 +161,7 @@ Runtime type information
 ---  
 [bad_cast](../bad_cast.html "cpp/types/bad cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/navbar_content&action=edit)
+
 
 [`std::numeric_limits`](../numeric_limits.html "cpp/types/numeric limits")
 
@@ -204,7 +204,7 @@ Helper types
 [float_round_style](float_round_style.html "cpp/types/numeric limits/float round style")  
 [float_denorm_style](float_denorm_style.html "cpp/types/numeric limits/float denorm style")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/navbar_content&action=edit)
+
 
 static const [std::float_round_style](float_round_style.html) round_style; |  | (until C++11)  
 ---|---|---  
@@ -223,7 +223,7 @@ The value of [std::numeric_limits](../numeric_limits.html)<T>::round_style ident
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/numeric_limits/round_style&action=edit&section=1 "Edit section: Standard specializations")] Standard specializations
+### Standard specializations
 
 `T` |  value of [std::numeric_limits](../numeric_limits.html)<T>::round_style  
 ---|---  
@@ -248,11 +248,11 @@ float |  usually [std::round_to_nearest](float_round_style.html "cpp/types/numer
 double |  usually [std::round_to_nearest](float_round_style.html "cpp/types/numeric limits/float round style")  
 long double |  usually [std::round_to_nearest](float_round_style.html "cpp/types/numeric limits/float round style")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/numeric_limits/round_style&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 These values are constants, and do not reflect the changes to the rounding made by [std::fesetround](../../numeric/fenv/feround.html "cpp/numeric/fenv/feround"). The changed values may be obtained from [FLT_ROUNDS](../climits/FLT_ROUNDS.html "cpp/types/climits/FLT ROUNDS") or [std::fegetround](../../numeric/fenv/feround.html "cpp/numeric/fenv/feround"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/numeric_limits/round_style&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 The decimal value 0.1 cannot be represented by a binary floating-point type. When stored in an IEEE-754 double, it falls between 0x1.9999999999999*2-4  
 and 0x1.999999999999a*2-4  
@@ -305,8 +305,8 @@ Output:
     The decimal 0.3 is stored in a double as 0x1.3333333333333p-2
     Rounding toward nearest representable value
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/types/numeric_limits/round_style&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ float_round_style](float_round_style.html "cpp/types/numeric limits/float round style") |  indicates floating-point rounding modes   
-(enum) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/numeric_limits/dsc_float_round_style&action=edit)  
+(enum)   
 ---|---

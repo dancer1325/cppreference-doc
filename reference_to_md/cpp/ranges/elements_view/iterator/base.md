@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::elements_view`](../../elements_view.html "cpp/ranges/elements view")
 
@@ -262,7 +262,7 @@ operator-(elements_view::_iterator_)](operator_arith2.html "cpp/ranges/elements 
 [operator==(elements_view::_iterator_ ,elements_view::_sentinel_)](../sentinel/operator_cmp.html "cpp/ranges/elements view/sentinel/operator cmp")  
 [operator-(elements_view::_iterator_ ,elements_view::_sentinel_)](../sentinel/operator-.html "cpp/ranges/elements view/sentinel/operator-")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/elements_view/navbar_content&action=edit)
+
 
 constexpr const [ranges::iterator_t](../../iterator_t.html)<Base>& base() const & noexcept; |  (1)  |  (since C++20)  
 ---|---|---  
@@ -285,23 +285,23 @@ Returns the underlying iterator.
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/elements_view/iterator/base&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/elements_view/iterator/base&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) A reference to the underlying iterator. 
 
 1) An iterator move constructed from the underlying iterator.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/elements_view/iterator/base&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/elements_view/iterator/base&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Text processing library](../../text.html "cpp/text")
 
@@ -54,7 +54,7 @@
 | [text_encoding](../text_encoding.html "cpp/text/text encoding")(C++26)  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/text/navbar_content&action=edit)
+
 
 [Localization library](../../locale.html "cpp/locale")
 
@@ -152,7 +152,7 @@ base classes](../../locale.html#Facet_category_base_classes "cpp/locale")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/navbar_content&action=edit)
+
 
 [`std::ctype`](../ctype.html "cpp/locale/ctype")
 
@@ -176,7 +176,7 @@ Member functions of ctype<char>
 [ctype<char>::scan_is](../ctype_char/scan_is.html "cpp/locale/ctype char/scan is")  
 [ctype<char>::scan_not](../ctype_char/scan_not.html "cpp/locale/ctype char/scan not")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/ctype/navbar_content&action=edit)
+
 
 Defined in header `[<locale>](../../header/locale.html "cpp/header/locale")` |  |   
 ---|---|---  
@@ -206,7 +206,7 @@ virtual const CharT* do_is( const CharT* low, const CharT* high, mask* vec ) con
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/ctype/is&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 c  |  \-  |  character to classify   
 ---|---|---  
@@ -215,13 +215,13 @@ low  |  \-  |  pointer to the first character in an array of characters to class
 high  |  \-  |  one past the end pointer for the array of characters to classify   
 vec  |  \-  |  pointer to the first element of the array of masks to fill   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/ctype/is&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1,3) true if c is classified by m.
 
 2,4) high
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/ctype/is&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -275,10 +275,10 @@ Output:
     U+6c34 is: alnum 
     U+1d10b is: punct
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/locale/ctype/is&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ is](../ctype_char/is.html "cpp/locale/ctype char/is") |  classifies a character or a character sequence, using the classification table   
-(public member function of `std::ctype<char>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/ctype_char/dsc_is&action=edit)  
+(public member function of `std::ctype<char>`)   
 ---|---  
 [ iswctype](../../string/wide/iswctype.html "cpp/string/wide/iswctype") |  classifies a wide character according to the specified [`LC_CTYPE`](../LC_categories.html "cpp/locale/LC categories") category   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/wide/dsc_iswctype&action=edit)
+(function) 

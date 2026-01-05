@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [C-style I/O](../c.html "cpp/io/c")
 
@@ -176,7 +176,7 @@ Operations on files
 [tmpfile](tmpfile.html "cpp/io/c/tmpfile")  
 [tmpnam](tmpnam.html "cpp/io/c/tmpnam")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/navbar_content&action=edit)
+
 
 Defined in header `[<cstdio>](../../header/cstdio.html "cpp/header/cstdio")` |  |   
 ---|---|---  
@@ -202,16 +202,16 @@ The description is formed by concatenating the following components:
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/perror&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 s  |  \-  |  pointer to a null-terminated string with explanatory message   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/perror&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/perror&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -234,11 +234,11 @@ Possible output:
     log(-1) failed: Numerical argument out of domain
     nan
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/perror&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ errno](../../error/errno.html "cpp/error/errno") |  macro which expands to POSIX-compatible thread-local error number variable  
-(macro variable)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/error/dsc_errno&action=edit)  
+(macro variable)  
 ---|---  
 [ strerror](../../string/byte/strerror.html "cpp/string/byte/strerror") |  returns a text version of a given error code   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strerror&action=edit)  
+(function)   
 [C documentation](../../../c/io/perror.html "c/io/perror") for perror

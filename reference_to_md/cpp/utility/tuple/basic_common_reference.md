@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::tuple`](../tuple.html "cpp/utility/tuple")
 
@@ -157,7 +157,7 @@ Common vocabulary types
 [ignore](ignore.html "cpp/utility/tuple/ignore")  
 [Deduction guides](deduction_guides.html "cpp/utility/tuple/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/tuple/navbar_content&action=edit)
+
 
 Defined in header `[<tuple>](../../header/tuple.html "cpp/header/tuple")` |  |   
 ---|---|---  
@@ -186,22 +186,22 @@ the following constraints need to be satisfied:
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/tuple/basic_common_reference&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Member type  |  Definition   
 ---|---  
 `type` |  [std::tuple](../tuple.html)<[std::common_reference_t](../../types/common_reference.html)<TQual<TTypes>..., UQual<UTypes>>...>  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/tuple/basic_common_reference&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/tuple/basic_common_reference&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ common_referencebasic_common_reference](../../types/common_reference.html "cpp/types/common reference")(C++20) |  determines the common reference type of a group of types   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_common_reference&action=edit)  
+(class template)   
 ---|---  
 [ std::basic_common_reference<std::pair>](../pair/basic_common_reference.html "cpp/utility/pair/basic common reference")(C++23) |  determines the common reference type of two `pair`s   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/pair/dsc_basic_common_reference&action=edit)
+(class template specialization) 

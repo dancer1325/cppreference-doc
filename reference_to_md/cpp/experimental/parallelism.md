@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 **Extensions for parallelism**
 
@@ -77,7 +77,7 @@ New algorithms
 [parallel::transform_exclusive_scan](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/transform_exclusive_scan&action=edit&redlink=1 "cpp/experimental/transform exclusive scan \(page does not exist\)")  
 [parallel::transform_inclusive_scan](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/transform_inclusive_scan&action=edit&redlink=1 "cpp/experimental/transform inclusive scan \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/parallelism/navbar_content&action=edit)
+
 
 ![](https://upload.cppreference.com/mwiki/images/3/31/Imbox_notice.png) |  **Merged into ISO C++** The functionality described on this page was merged into the mainline ISO C++ standard (except for dynamic execution policy and `exception_list`) as of 3/2016; see [the algorithm library](../algorithm.html "cpp/algorithm") (since C++17)  
 ---|---  
@@ -94,7 +94,7 @@ The C++ Extensions for Parallelism, ISO/IEC TS 19570:2015 defines the following 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/parallelism&action=edit&section=1 "Edit section: Execution policies")] Execution policies
+### Execution policies
 
 The parallelism TS describes three execution policies: [sequential](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/parallelism/execution_policy&action=edit&redlink=1 "cpp/experimental/parallelism/execution policy \(page does not exist\)"), [parallel](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/parallelism/execution_policy&action=edit&redlink=1 "cpp/experimental/parallelism/execution policy \(page does not exist\)"), and [parallel+vector](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/parallelism/execution_policy&action=edit&redlink=1 "cpp/experimental/parallelism/execution policy \(page does not exist\)"), and provides corresponding execution policy types and objects. Users may select an execution policy statically by invoking a parallel algorithm with the an execution policy object of the corresponding type, or dynamically by using the type-erasing `execution_policy` class. 
 
@@ -111,14 +111,14 @@ Defined in header `[<experimental/execution_policy>](https://en.cppreference.com
 [ is_execution_policy](is_execution_policy.html "cpp/experimental/is execution policy") |  test whether a class represents an execution policy   
 (class template)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/parallelism&action=edit&section=2 "Edit section: Exception lists")] Exception lists
+### Exception lists
 
 Defined in header `[<experimental/exception_list>](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/exception_list&action=edit&redlink=1 "cpp/header/experimental/exception list \(page does not exist\)")`  
 ---  
 [ exception_list](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/exception_list&action=edit&redlink=1 "cpp/experimental/exception list \(page does not exist\)") |  exceptions raised during parallel executions   
 (class)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/parallelism&action=edit&section=3 "Edit section: Parallelized versions of existing algorithms")] Parallelized versions of existing algorithms
+### Parallelized versions of existing algorithms
 
 The TS provides [parallelized versions](parallelism/existing.html "cpp/experimental/parallelism/existing") of the following 69 algorithms from <algorithm>, <numeric> and <memory>: 
 
@@ -197,7 +197,7 @@ Standard library algorithms for which parallelized versions are provided
 
   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/parallelism&action=edit&section=4 "Edit section: New algorithms")] New algorithms
+### New algorithms
 
 Defined in header `[<experimental/algorithm>](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/algorithm&action=edit&redlink=1 "cpp/header/experimental/algorithm \(page does not exist\)")`  
 ---  
@@ -207,13 +207,13 @@ Defined in header `[<experimental/algorithm>](https://en.cppreference.com/mwiki/
 (function template)  
 Defined in header `[<experimental/numeric>](https://en.cppreference.com/mwiki/index.php?title=cpp/header/experimental/numeric&action=edit&redlink=1 "cpp/header/experimental/numeric \(page does not exist\)")`  
 [ reduce](reduce.html "cpp/experimental/reduce")(parallelism TS) |  similar to [std::accumulate](../algorithm/accumulate.html "cpp/algorithm/accumulate"), except out of order   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/parallelism/dsc_reduce&action=edit)  
+(function template)   
 [ exclusive_scan](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/exclusive_scan&action=edit&redlink=1 "cpp/experimental/exclusive scan \(page does not exist\)") |  similar to [std::partial_sum](../algorithm/partial_sum.html "cpp/algorithm/partial sum"), excludes the ith input element from the ith sum   
 (function template)  
 [ inclusive_scan](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/inclusive_scan&action=edit&redlink=1 "cpp/experimental/inclusive scan \(page does not exist\)") |  similar to [std::partial_sum](../algorithm/partial_sum.html "cpp/algorithm/partial sum"), includes the ith input element in the ith sum   
 (function template)  
 [ transform_reduce](transform_reduce.html "cpp/experimental/transform reduce")(parallelism TS) |  applies a functor, then reduces out of order   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/parallelism/dsc_transform_reduce&action=edit)  
+(function template)   
 [ transform_exclusive_scan](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/transform_exclusive_scan&action=edit&redlink=1 "cpp/experimental/transform exclusive scan \(page does not exist\)") |  applies a functor, then calculates exclusive scan   
 (function template)  
 [ transform_inclusive_scan](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/transform_inclusive_scan&action=edit&redlink=1 "cpp/experimental/transform inclusive scan \(page does not exist\)") |  applies a functor, then calculates inclusive scan   

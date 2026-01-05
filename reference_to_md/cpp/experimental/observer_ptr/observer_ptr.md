@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Library fundamentals v2](../lib_extensions_2.html "cpp/experimental/lib extensions 2")
 
@@ -74,7 +74,7 @@
 [uniform container erasure](../lib_extensions_2.html#Uniform_container_erasure "cpp/experimental/lib extensions 2")  
 [logical operator type traits](../lib_extensions_2.html#Logical_operator_type_traits "cpp/experimental/lib extensions 2")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/lib_extensions_2/navbar_content&action=edit)
+
 
 [`std::experimental::observer_ptr`](../observer_ptr.html "cpp/experimental/observer ptr")
 
@@ -97,7 +97,7 @@ Non-member functions
 [swap](swap2.html "cpp/experimental/observer ptr/swap2")  
 [std::hash](hash.html "cpp/experimental/observer ptr/hash")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/observer_ptr/navbar_content&action=edit)
+
 
 constexpr observer_ptr() noexcept;  
 constexpr observer_ptr( nullptr_t ) noexcept; |  (1)  |  (library fundamentals TS v2)  
@@ -119,7 +119,7 @@ observer_ptr( observer_ptr&& other ) = default; |  (5)  |  (library fundamentals
 
 4,5) Implicitly declared copy and move constructors. Constructs an `observer_ptr` that watches other.get().
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/observer_ptr/observer_ptr&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 p  |  \-  |  a pointer to an object to watch   
 ---|---|---  

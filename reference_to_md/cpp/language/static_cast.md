@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [ Expressions](expressions.html "cpp/language/expressions")
 
@@ -289,7 +289,7 @@ Conversions
 [`dynamic_cast`](dynamic_cast.html "cpp/language/dynamic cast")  
 [`reinterpret_cast`](reinterpret_cast.html "cpp/language/reinterpret cast")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/expressions/navbar_content&action=edit)
+
 
 Converts between types using a combination of implicit and user-defined conversions. 
 
@@ -308,14 +308,14 @@ Converts between types using a combination of implicit and user-defined conversi
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/static_cast&action=edit&section=1 "Edit section: Syntax")] Syntax  
+### Syntax  
   
 ---  
 `**static_cast <**`target-type ﻿`**>(**`expression ﻿`**)**` |  |   
   
 Returns a value of type target-type. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/static_cast&action=edit&section=2 "Edit section: Explanation")] Explanation
+### Explanation
 
 Only the following conversions can be done with static_cast, except when such conversions would [cast away constness](const_cast.html#Casting_away_constness "cpp/language/const cast") (or volatility). 
 
@@ -499,7 +499,7 @@ As with all cast expressions, the result is:
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/static_cast&action=edit&section=3 "Edit section: Pointer-interconvertible objects")] Pointer-interconvertible objects
+### Pointer-interconvertible objects
 
 Two objects a and b are _pointer-interconvertible_ if: 
 
@@ -516,7 +516,7 @@ Two objects a and b are _pointer-interconvertible_ if:
     double* y = static_cast<double*>(x); // y's value is “pointer to u.b”
     char* z = static_cast<char*>(x);     // z's value is “pointer to u”
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/static_cast&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 Base-to-derived conversions (_downcasts_) using static_cast make no runtime checks to ensure that the [dynamic type](type-id.html#Dynamic_type "cpp/language/type") of the pointed/referred object is `Derived`, and may only be used safely if this precondition is guaranteed by other means, such as when implementing [static polymorphism](https://en.wikipedia.org/wiki/Curiously_recurring_template_pattern#Static_polymorphism "enwiki:Curiously recurring template pattern"). Safe downcast may be done with [`dynamic_cast`](dynamic_cast.html "cpp/language/dynamic cast"). 
 
@@ -526,11 +526,11 @@ static_cast may also be used to disambiguate function overloads by performing a 
     [std::for_each](../algorithm/for_each.html)(files.begin(), files.end(),
                   static_cast<[std::ostream](../io/basic_ostream.html)&(*)([std::ostream](../io/basic_ostream.html)&)>([std::flush](../io/manip/flush.html)));
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/static_cast&action=edit&section=5 "Edit section: Keywords")] Keywords
+### Keywords
 
 [`static_cast`](../keyword/static_cast.html "cpp/keyword/static cast")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/static_cast&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -618,7 +618,7 @@ Output:
     7a) 2
     7f) 42
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/static_cast&action=edit&section=7 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -667,7 +667,7 @@ the derived class type could be incomplete  | must be complete
 [CWG 2882](https://cplusplus.github.io/CWG/issues/2882.html) | C++98  | it was unclear whether static_cast<void>(expr) attempts  
 to form an implicit conversion sequence from expr to void | no attempt in this case   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/static_cast&action=edit&section=8 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -739,7 +739,7 @@ to form an implicit conversion sequence from expr to void | no attempt in this c
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/static_cast&action=edit&section=9 "Edit section: See also")] See also
+### See also
 
   * [`const_cast`](const_cast.html "cpp/language/const cast")
   * [`dynamic_cast`](dynamic_cast.html "cpp/language/dynamic cast")

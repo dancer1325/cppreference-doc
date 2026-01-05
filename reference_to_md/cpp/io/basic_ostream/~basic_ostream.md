@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_ostream`](../basic_ostream.html "cpp/io/basic ostream")
 
@@ -116,7 +116,7 @@ Non-member functions
 [vprint_unicode(std::ostream)](vprint_unicode.html "cpp/io/basic ostream/vprint unicode")(C++23)  
 [vprint_nonunicode(std::ostream)](vprint_nonunicode.html "cpp/io/basic ostream/vprint nonunicode")(C++23)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_ostream/navbar_content&action=edit)
+
 
 virtual ~basic_ostream(); |  |   
 ---|---|---  
@@ -124,7 +124,7 @@ virtual ~basic_ostream(); |  |
   
 Destroys the `basic_ostream` object. This destructor does not perform any operation on the underlying streambuffer (`rdbuf()`): the destructors of the derived output streams such as [std::basic_ofstream](../basic_ofstream.html "cpp/io/basic ofstream") and [std::basic_ostringstream](../basic_ostringstream.html "cpp/io/basic ostringstream") are responsible for calling the destructors of the stream buffers. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_ostream/%7Ebasic_ostream&action=edit&section=1 "Edit section: Example")] Example
+### Example
 
 Run this code
     

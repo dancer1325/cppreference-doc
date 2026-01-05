@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ language](../language.html "cpp/language")
 
@@ -220,7 +220,7 @@ Miscellaneous
 | [History of C++](history.html "cpp/language/history")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
 
 [Declarations](declarations.html "cpp/language/declarations")
 
@@ -280,7 +280,7 @@ Other declarations
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/declarations/navbar_content&action=edit)
+
 
     
 
@@ -299,7 +299,7 @@ Other declarations
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/consteval&action=edit&section=1 "Edit section: Explanation")] Explanation
+### Explanation
 
 The `consteval` specifier declares a function or function template to be an _immediate function_ , that is, every [potentially-evaluated](expressions.html#Potentially-evaluated_expressions "cpp/language/expressions") call to the function must (directly or indirectly) produce a compile time [constant expression](constant_expression.html "cpp/language/constant expression"). 
 
@@ -340,7 +340,7 @@ An [identifier expression](name.html#In_expressions "cpp/language/identifiers") 
     constexpr auto e = g(); // ill-formed: a pointer to an immediate function is
                             // not a permitted result of a constant expression
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/consteval&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 Feature-test macro  | Value | Std | Feature   
 ---|---|---|---  
@@ -348,11 +348,11 @@ Feature-test macro  | Value | Std | Feature
 [`202211L`](../compiler_support/23.html#cpp_consteval_202211L "cpp/compiler support/23") | (C++23)  
 (DR20) | Making consteval propagate up   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/consteval&action=edit&section=3 "Edit section: Keywords")] Keywords
+### Keywords
 
 [`consteval`](../keyword/consteval.html "cpp/keyword/consteval")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/consteval&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -390,11 +390,11 @@ Output:
     
     24
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/consteval&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
-[ `constexpr` specifier](constexpr.html "cpp/language/constexpr")(C++11) |  specifies that the value of a variable or function can be computed at compile time[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_constexpr&action=edit)  
+[ `constexpr` specifier](constexpr.html "cpp/language/constexpr")(C++11) |  specifies that the value of a variable or function can be computed at compile time  
 ---|---  
-[ `constinit` specifier](constinit.html "cpp/language/constinit")(C++20) |  asserts that a variable has static initialization, i.e. [zero initialization](zero_initialization.html "cpp/language/zero initialization") and [constant initialization](constant_initialization.html "cpp/language/constant initialization")[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_constinit&action=edit)  
+[ `constinit` specifier](constinit.html "cpp/language/constinit")(C++20) |  asserts that a variable has static initialization, i.e. [zero initialization](zero_initialization.html "cpp/language/zero initialization") and [constant initialization](constant_initialization.html "cpp/language/constant initialization")  
 [constant expression](constant_expression.html "cpp/language/constant expression") |  defines an [expression](expressions.html "cpp/language/expressions") that can be evaluated at compile time 
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 Defined in header `[<atomic>](../header/atomic.html "cpp/header/atomic")` |  |   
 ---|---|---  
@@ -205,27 +205,27 @@ If obj was not default-constructed, or this function is called twice on the same
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_init&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 obj  |  \-  |  pointer to an atomic object to initialize   
 ---|---|---  
 desired  |  \-  |  the value to initialize atomic object with   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_init&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_init&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 This function is provided for compatibility with C. If the compatibility is not required, [std::atomic](atomic.html "cpp/atomic/atomic") may be initialized through their non-default constructors. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_init&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_init&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -235,11 +235,11 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 `T` was deduced from multiple arguments  | `T` is only deduced  
 from obj  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/atomic_init&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ ATOMIC_VAR_INIT](ATOMIC_VAR_INIT.html "cpp/atomic/ATOMIC VAR INIT")(C++11)(deprecated in C++20) |  constant initialization of an atomic variable of static storage duration   
-(function macro) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/dsc_ATOMIC_VAR_INIT&action=edit)  
+(function macro)   
 ---|---  
 [ (constructor)](atomic/atomic.html "cpp/atomic/atomic/atomic") |  constructs an atomic object   
-(public member function of `std::atomic<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/atomic/dsc_constructor&action=edit)  
+(public member function of `std::atomic<T>`)   
 [C documentation](../../c/atomic/atomic_init.html "c/atomic/atomic init") for atomic_init

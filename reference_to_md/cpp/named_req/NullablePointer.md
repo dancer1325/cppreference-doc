@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ named requirements](../iterator/concepts.html "cpp/named req")
 
@@ -147,7 +147,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/named_req/navbar_content&action=edit)
+
 
 Specifies that the type is a pointer-like object which can be compared to [std::nullptr_t](../types/nullptr_t.html "cpp/types/nullptr t") objects. 
 
@@ -161,7 +161,7 @@ Specifies that the type is a pointer-like object which can be compared to [std::
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/NullablePointer&action=edit&section=1 "Edit section: Requirements")] Requirements
+### Requirements
 
 The type must meet all of the following requirements: 
 
@@ -209,7 +209,7 @@ decltype(p != np) and decltype(np != p) each model [`_boolean-testable_`](../con
   
 The effect is !(p == np)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/NullablePointer&action=edit&section=2 "Edit section: Notes")] Notes
+### Notes
 
 Note that dereferencing (operator* or operator->) is not required for a NullablePointer type. A minimalistic type that satisfies these requirements is 
     
@@ -226,7 +226,7 @@ Note that dereferencing (operator* or operator->) is not required for a Nullable
         // or only a defaulted operator== (since C++20)
     };
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/NullablePointer&action=edit&section=3 "Edit section: Standard library")] Standard library
+### Standard library
 
 The following types satisfy NullablePointer: 
 
@@ -246,7 +246,7 @@ The following types must satisfy NullablePointer in order to communicate with st
 | (since C++23)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/NullablePointer&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

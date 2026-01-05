@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [C-style I/O](../c.html "cpp/io/c")
 
@@ -176,7 +176,7 @@ Operations on files
 [tmpfile](tmpfile.html "cpp/io/c/tmpfile")  
 [tmpnam](tmpnam.html "cpp/io/c/tmpnam")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/navbar_content&action=edit)
+
 
 Defined in header `[<cstdio>](../../header/cstdio.html "cpp/header/cstdio")` |  |   
 ---|---|---  
@@ -200,21 +200,21 @@ If a read or write error occurs, the error indicator ([std::ferror](ferror.html 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/fsetpos&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 stream  |  \-  |  file stream to modify   
 ---|---|---  
 pos  |  \-  |  pointer to a fpos_t object obtained from [std::fgetpos](fgetpos.html "cpp/io/c/fgetpos") called on a stream associated with the same file   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/fsetpos&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 ​0​ upon success, nonzero value otherwise. Also, sets [errno](../../error/errno.html "cpp/error/errno") on failure. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/fsetpos&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 After seeking to a non-end position in a wide stream, the next call to any output function may render the remainder of the file undefined, e.g. by outputting a multibyte sequence of a different length. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/fsetpos&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -272,13 +272,13 @@ Output:
     1.0; read count = 1
     1.0; read count = 1
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/c/fsetpos&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ fgetpos](fgetpos.html "cpp/io/c/fgetpos") |  gets the file position indicator   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_fgetpos&action=edit)  
+(function)   
 ---|---  
 [ ftell](ftell.html "cpp/io/c/ftell") |  returns the current file position indicator   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_ftell&action=edit)  
+(function)   
 [ fseek](fseek.html "cpp/io/c/fseek") |  moves the file position indicator to a specific location in a file   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/c/dsc_fseek&action=edit)  
+(function)   
 [C documentation](../../../c/io/fsetpos.html "c/io/fsetpos") for fsetpos

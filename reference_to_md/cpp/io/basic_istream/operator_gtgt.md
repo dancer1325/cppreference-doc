@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_istream`](../basic_istream.html "cpp/io/basic istream")
 
@@ -111,7 +111,7 @@ Member classes
 Non-member functions  
 [operator>>(std::basic_istream)](operator_gtgt2.html "cpp/io/basic istream/operator gtgt2")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_istream/navbar_content&action=edit)
+
 
 basic_istream& operator>>( unsigned short& value ); |  (1)  |   
 ---|---|---  
@@ -206,24 +206,24 @@ If extraction fails (e.g. if a letter was entered where a digit is expected), ze
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_istream/operator_gtgt&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 value  |  \-  |  reference to an integer or floating-point value to store the extracted value to   
 ---|---|---  
 func  |  \-  |  pointer to I/O manipulator function   
 sb  |  \-  |  pointer to the stream buffer to write all the data to   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_istream/operator_gtgt&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1-16,18) *this
 
 17) func(*this)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_istream/operator_gtgt&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 For overload ([14](operator_gtgt.html#Version_14)), when the extended floating-point type has a floating-point conversion rank that is not equal to the rank of any standard floating-point type, then double rounding during the conversion can result in inaccurate results. [`std::from_chars()`](../../utility/from_chars.html "cpp/utility/from chars") can be used in situations where maximum accuracy is important. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_istream/operator_gtgt&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -259,7 +259,7 @@ Output:
     b = false
     hello world
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_istream/operator_gtgt&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -282,28 +282,28 @@ no overflow occurs
 [LWG 696](https://cplusplus.github.io/LWG/issue696) | C++98  | value was unchanged on extraction failure  | set to zero or minimum/  
 maximum values   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_istream/operator_gtgt&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ operator>>(std::basic_istream)](operator_gtgt2.html "cpp/io/basic istream/operator gtgt2") |  extracts characters and character arrays   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_istream/dsc_operator_gtgt2&action=edit)  
+(function template)   
 ---|---  
 [ operator<<operator>>](../../string/basic_string/operator_ltltgtgt.html "cpp/string/basic string/operator ltltgtgt") |  performs stream input and output on strings   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/basic_string/dsc_operator_ltltgtgt&action=edit)  
+(function template)   
 [ operator<<operator>>](../../utility/bitset/operator_ltltgtgt2.html "cpp/utility/bitset/operator ltltgtgt2") |  performs stream input and output of bitsets   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/bitset/dsc_operator_ltltgtgt2&action=edit)  
+(function template)   
 [ operator<<operator>>](../../numeric/complex/operator_ltltgtgt.html "cpp/numeric/complex/operator ltltgtgt") |  serializes and deserializes a complex number   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/complex/dsc_operator_ltltgtgt&action=edit)  
+(function template)   
 [ operator<<operator>>](../../numeric/random/linear_congruential_engine/operator_ltltgtgt.html "cpp/numeric/random/linear congruential engine/operator ltltgtgt")(C++11) |  performs stream input and output on pseudo-random number engine   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/engine/dsc_operator_ltltgtgt&action=edit)  
+(function template)   
 [ operator<<operator>>](../../numeric/random/uniform_int_distribution/operator_ltltgtgt.html "cpp/numeric/random/uniform int distribution/operator ltltgtgt")(C++11) |  performs stream input and output on pseudo-random number distribution   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/distribution/dsc_operator_ltltgtgt&action=edit)  
+(function template)   
 [ read](read.html "cpp/io/basic istream/read") |  extracts blocks of characters   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_istream/dsc_read&action=edit)  
+(public member function)   
 [ readsome](readsome.html "cpp/io/basic istream/readsome") |  extracts already available blocks of characters   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_istream/dsc_readsome&action=edit)  
+(public member function)   
 [ get](get.html "cpp/io/basic istream/get") |  extracts characters   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_istream/dsc_get&action=edit)  
+(public member function)   
 [ getline](getline.html "cpp/io/basic istream/getline") |  extracts characters until the given character is found   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_istream/dsc_getline&action=edit)  
+(public member function)   
 [ from_chars](../../utility/from_chars.html "cpp/utility/from chars")(C++17) |  converts a character sequence to an integer or floating-point value   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_from_chars&action=edit)
+(function) 

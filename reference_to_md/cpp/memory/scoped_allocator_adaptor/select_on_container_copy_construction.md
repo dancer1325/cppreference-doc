@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::scoped_allocator_adaptor`](../scoped_allocator_adaptor.html "cpp/memory/scoped allocator adaptor")
 
@@ -208,7 +208,7 @@ Non-member functions
 [operator==operator!=](operator_cmp.html "cpp/memory/scoped allocator adaptor/operator cmp")(until C++20)  
 [Deduction guides](deduction_guides.html "cpp/memory/scoped allocator adaptor/deduction guides")(C++17)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/scoped_allocator_adaptor/navbar_content&action=edit)
+
 
 Defined in header `[<scoped_allocator>](../../header/scoped_allocator.html "cpp/header/scoped allocator")` |  |   
 ---|---|---  
@@ -217,16 +217,16 @@ scoped_allocator_adaptor select_on_container_copy_construction() const; |  |  (s
   
 Creates a new instance of `std::scoped_allocator_adaptor`, where the outer allocator base class and each inner allocator subobject are obtained by calling [std::allocator_traits](../allocator_traits.html)<A>::select_on_container_copy_construction(). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/scoped_allocator_adaptor/select_on_container_copy_construction&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/scoped_allocator_adaptor/select_on_container_copy_construction&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 A new `std::scoped_allocator_adaptor` object, constructed from correctly copied allocators. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/scoped_allocator_adaptor/select_on_container_copy_construction&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ select_on_container_copy_construction](../allocator_traits/select_on_container_copy_construction.html "cpp/memory/allocator traits/select on container copy construction")[static] |  obtains the allocator to use after copying a standard container   
-(public static member function of `std::allocator_traits<Alloc>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/allocator_traits/dsc_select_on_container_copy_construction&action=edit)  
+(public static member function of `std::allocator_traits<Alloc>`)   
 ---|---

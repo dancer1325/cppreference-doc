@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::pointer_traits`](../pointer_traits.html "cpp/memory/pointer traits")
 
@@ -193,7 +193,7 @@ Member functions
 [pointer_traits::pointer_to](pointer_to.html "cpp/memory/pointer traits/pointer to")(C++11)  
 **pointer_traits::to_address**(C++20)(optional)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/pointer_traits/navbar_content&action=edit)
+
 
 Defined in header `[<memory>](../../header/memory.html "cpp/header/memory")` |  |   
 ---|---|---  
@@ -205,19 +205,19 @@ Constructs a raw pointer that references the same object as its pointer-like (["
 
 This function, if defined, is the inverse of [`pointer_to`](pointer_to.html "cpp/memory/pointer traits/pointer to"), and exists as the customization point to be called by [`std::to_address`](../to_address.html "cpp/memory/to address"). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/pointer_traits/to_address&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 p  |  \-  |  fancy pointer/pointer-like object   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/pointer_traits/to_address&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 A raw pointer of the type element_type* that references the same memory location as the argument p. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/pointer_traits/to_address&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ pointer_to](pointer_to.html "cpp/memory/pointer traits/pointer to")[static] |  obtains a dereferenceable pointer to its argument   
-(public static member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/pointer_traits/dsc_pointer_to&action=edit)  
+(public static member function)   
 ---|---  
 [ to_address](../to_address.html "cpp/memory/to address")(C++20) |  obtains a raw pointer from a pointer-like type   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/dsc_to_address&action=edit)
+(function template) 

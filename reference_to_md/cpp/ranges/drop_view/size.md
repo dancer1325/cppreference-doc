@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::drop_view`](../drop_view.html "cpp/ranges/drop view")
 
@@ -238,7 +238,7 @@ std::from_range](../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
 [drop_view::reserve_hint](reserve_hint.html "cpp/ranges/drop view/reserve hint")(C++26)  
 [Deduction guides](deduction_guides.html "cpp/ranges/drop view/deduction guides")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/drop_view/navbar_content&action=edit)
+
 
 constexpr auto size() requires [ranges::sized_range](../sized_range.html)<V>; |  (1)  |  (since C++20)  
 ---|---|---  
@@ -251,11 +251,11 @@ const auto s = [ranges::size](../size.html)(`_[base_](../drop_view.html#base "cp
 const auto c = static_cast<decltype(s)>(`_[count_](../drop_view.html#count "cpp/ranges/drop view")_`);  
 return s < c ? 0 : s - c;
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/drop_view/size&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 The number of elements. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/drop_view/size&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -276,10 +276,10 @@ Run this code
         );
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/drop_view/size&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ ranges::size](../size.html "cpp/ranges/size")(C++20) |  returns an integer equal to the size of a range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_size&action=edit)  
+(customization point object)  
 ---|---  
 [ ranges::ssize](../ssize.html "cpp/ranges/ssize")(C++20) |  returns a signed integer equal to the size of a range  
-(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_ssize&action=edit)
+(customization point object)

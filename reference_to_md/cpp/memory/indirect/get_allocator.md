@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::indirect`](../indirect.html "cpp/memory/indirect")
 
@@ -206,7 +206,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
 [Helper classes](../indirect.html#Helper_classes "cpp/memory/indirect")  
 [hash<std::indirect>](hash.html "cpp/memory/indirect/hash")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/indirect/navbar_content&action=edit)
+
 
 constexpr allocator_type get_allocator() const noexcept; |  |  (since C++26)  
 ---|---|---  
@@ -214,11 +214,11 @@ constexpr allocator_type get_allocator() const noexcept; |  |  (since C++26)
   
 Obtains the associated allocator. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/indirect/get_allocator&action=edit&section=1 "Edit section: Return value")] Return value
+### Return value
 
 `_[alloc](../indirect.html#alloc "cpp/memory/indirect")_`
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/indirect/get_allocator&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   

@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -175,7 +175,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::future`](../future.html "cpp/thread/future")
 
@@ -193,7 +193,7 @@ State
 [future::wait_for](wait_for.html "cpp/thread/future/wait for")  
 [future::wait_until](wait_until.html "cpp/thread/future/wait until")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/future/navbar_content&action=edit)
+
 
 bool valid() const noexcept; |  |  (since C++11)  
 ---|---|---  
@@ -215,15 +215,15 @@ The behavior is undefined if any member function other than the destructor, the 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/future/valid&action=edit&section=T-1 "Template:cpp/thread/future/valid")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/future/valid&action=edit&section=T-2 "Template:cpp/thread/future/valid")] Return value
+### Return value
 
 true if *this refers to a shared state, otherwise false. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/future/valid&action=edit&section=T-3 "Template:cpp/thread/future/valid")] Example
+### Example
 
 Run this code
     
@@ -252,8 +252,8 @@ Output:
     true
     false
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/future/valid&action=edit&section=T-4 "Template:cpp/thread/future/valid")] See also
+### See also
 
 [ wait](wait.html "cpp/thread/future/wait") |  waits for the result to become available   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/future/dsc_wait&action=edit)  
+(public member function)   
 ---|---

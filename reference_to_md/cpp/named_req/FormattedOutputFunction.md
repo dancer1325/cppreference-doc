@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [C++ named requirements](../iterator/concepts.html "cpp/named req")
 
@@ -147,7 +147,7 @@
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/named_req/navbar_content&action=edit)
+
 
 ## Contents
 
@@ -159,7 +159,7 @@
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/FormattedOutputFunction&action=edit&section=1 "Edit section: Requirements")] Requirements
+### Requirements
 
 A FormattedOutputFunction is a member function of [std::basic_ostream](../io/basic_ostream.html "cpp/io/basic ostream") or a non-member function involving [std::basic_ostream](../io/basic_ostream.html "cpp/io/basic ostream") that performs the following operations: 
 
@@ -177,13 +177,13 @@ If an exception is thrown during output, then [std::ios_base::badbit](../io/ios_
 
 When an exception is thrown from the formatted output function, sentry is also destroyed before leaving the function. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/FormattedOutputFunction&action=edit&section=2 "Edit section: Padding")] Padding
+### Padding
 
 Formatted output functions determine padding according to [`std::num_put::do_put()`](../locale/num_put/put.html "cpp/locale/num put/put") stage 3.  | (until C++14)  
 ---|---  
 If a formatted output function of a stream os determines padding, it does so as follows. Given a `CharT` character sequence seq where `CharT` is the [character container type](../string.html "cpp/string") of os, if the length of seq is less than os.width(), then enough copies of os.fill() are added to this sequence as necessary to pad to a width of os.width() characters. If (os.flags() & [std::ios_base::adjustfield](../io/ios_base/fmtflags.html)) == [std::ios_base::left](../io/ios_base/fmtflags.html) is true, the fill characters are placed after the character sequence; otherwise, they are placed before the character sequence.  | (since C++14)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/FormattedOutputFunction&action=edit&section=3 "Edit section: Standard library")] Standard library
+### Standard library
 
 The following standard library functions are **FormattedOutputFunction s**. 
 
@@ -217,7 +217,7 @@ The following standard library functions are **FormattedOutputFunction s**.
 | (since C++23)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/named_req/FormattedOutputFunction&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 

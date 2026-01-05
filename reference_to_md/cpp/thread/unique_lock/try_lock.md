@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::unique_lock`](../unique_lock.html "cpp/thread/unique lock")
 
@@ -198,7 +198,7 @@ Observers
 Non-member functions  
 [swap(std::unique_lock)](swap2.html "cpp/thread/unique lock/swap2")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/unique_lock/navbar_content&action=edit)
+
 
 bool try_lock(); |  |  (since C++11)  
 ---|---|---  
@@ -219,15 +219,15 @@ Tries to lock (i.e., takes ownership of) the associated mutex without blocking. 
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/unique_lock/try_lock&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/unique_lock/try_lock&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 true if the ownership of the mutex has been acquired successfully, false otherwise. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/unique_lock/try_lock&action=edit&section=3 "Edit section: Exceptions")] Exceptions
+### Exceptions
 
   * Any exceptions thrown by mutex()->try_lock() ([Mutex](../../named_req/Mutex.html "cpp/named req/Mutex") types do not throw in `try_lock`, but a custom [Lockable](../../named_req/Lockable.html "cpp/named req/Lockable") might). 
 
@@ -239,7 +239,7 @@ true if the ownership of the mutex has been acquired successfully, false otherwi
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/unique_lock/try_lock&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 The following examples try to acquire a mutex that was locked and unlocked.
 
@@ -297,14 +297,14 @@ Output:
     #2, lock acquired.
     #2, releasing lock (via destructor).
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/thread/unique_lock/try_lock&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ lock](lock.html "cpp/thread/unique lock/lock") |  locks (i.e., takes ownership of) the associated mutex   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/unique_lock/dsc_lock&action=edit)  
+(public member function)   
 ---|---  
 [ try_lock_for](try_lock_for.html "cpp/thread/unique lock/try lock for") |  attempts to lock (i.e., takes ownership of) the associated [TimedLockable](../../named_req/TimedLockable.html "cpp/named req/TimedLockable") mutex, returns if the mutex has been unavailable for the specified time duration   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/unique_lock/dsc_try_lock_for&action=edit)  
+(public member function)   
 [ try_lock_until](try_lock_until.html "cpp/thread/unique lock/try lock until") |  tries to lock (i.e., takes ownership of) the associated [TimedLockable](../../named_req/TimedLockable.html "cpp/named req/TimedLockable") mutex, returns if the mutex has been unavailable until specified time point has been reached   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/unique_lock/dsc_try_lock_until&action=edit)  
+(public member function)   
 [ unlock](unlock.html "cpp/thread/unique lock/unlock") |  unlocks (i.e., releases ownership of) the associated mutex   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/unique_lock/dsc_unlock&action=edit)
+(public member function) 

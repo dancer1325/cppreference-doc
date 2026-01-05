@@ -32,7 +32,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../../atomic.html "cpp/thread")
 
@@ -175,7 +175,7 @@
 [atomic_flag_notify_one](../../atomic/atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](../../atomic/atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 [`std::thread`](../thread.html "cpp/thread/thread")
 
@@ -198,7 +198,7 @@
 [Non-member functions](../thread.html#Non-member_functions "cpp/thread/thread")  
 **swap(std::thread)**(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/navbar_content&action=edit)
+
 
 void swap( [std::thread](../thread.html)& lhs, [std::thread](../thread.html)& rhs ) noexcept; |  |  (since C++11)  
 ---|---|---  
@@ -216,16 +216,16 @@ Overloads the [std::swap](../../utility/swap.html "cpp/algorithm/swap") algorith
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/swap2&action=edit&section=T-1 "Template:cpp/thread/thread/swap2")] Parameters
+### Parameters
 
 lhs, rhs  |  \-  |  threads whose states to swap   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/swap2&action=edit&section=T-2 "Template:cpp/thread/thread/swap2")] Return value
+### Return value
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/swap2&action=edit&section=T-3 "Template:cpp/thread/thread/swap2")] Example
+### Example
 
 Run this code
     
@@ -282,8 +282,8 @@ Possible output:
     thread 1 id: 1892
     thread 2 id: 2584
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/swap2&action=edit&section=T-4 "Template:cpp/thread/thread/swap2")] See also
+### See also
 
 [ swap](swap.html "cpp/thread/thread/swap") |  swaps two thread objects   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/thread/dsc_swap&action=edit)  
+(public member function)   
 ---|---

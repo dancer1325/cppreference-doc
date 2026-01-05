@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Memory management library](../../memory.html "cpp/memory")
 
@@ -184,7 +184,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/navbar_content&action=edit)
+
 
 [`std::allocator_traits`](../allocator_traits.html "cpp/memory/allocator traits")
 
@@ -199,7 +199,7 @@ management](../new.html#Low_level_memory_management "cpp/memory/new")
 [allocator_traits::max_size](max_size.html "cpp/memory/allocator traits/max size")  
 [allocator_traits::select_on_container_copy_construction](select_on_container_copy_construction.html "cpp/memory/allocator traits/select on container copy construction")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/allocator_traits/navbar_content&action=edit)
+
 
 Defined in header `[<memory>](../../header/memory.html "cpp/header/memory")` |  |   
 ---|---|---  
@@ -226,31 +226,31 @@ Uses the allocator a to allocate n * sizeof(Alloc::value_type) bytes of uninitia
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/allocator_traits/allocate&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 a  |  \-  |  allocator to use   
 ---|---|---  
 n  |  \-  |  the number of objects to allocate storage for   
 hint  |  \-  |  pointer to a nearby memory location   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/allocator_traits/allocate&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 The pointer returned by the call to a.allocate(n). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/allocator_traits/allocate&action=edit&section=3 "Edit section: Notes")] Notes
+### Notes
 
 `Alloc::allocate` was not required to create array object until [P0593R6](https://wg21.link/P0593R6), which made using non-default allocator for [std::vector](../../container/vector.html "cpp/container/vector") and some other containers not well-defined according to a strict reading of the core language specification. 
 
 After calling `allocate` and before construction of elements, pointer arithmetic of Alloc::value_type* is well-defined within the allocated array, but the behavior is undefined if elements are accessed. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/allocator_traits/allocate&action=edit&section=4 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/memory/allocator_traits/allocate&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ allocate](../allocator/allocate.html "cpp/memory/allocator/allocate") |  allocates uninitialized storage   
-(public member function of `std::allocator<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/allocator/dsc_allocate&action=edit)  
+(public member function of `std::allocator<T>`)   
 ---|---

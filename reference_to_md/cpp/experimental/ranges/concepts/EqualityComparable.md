@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Experimental](../../../experimental.html "cpp/experimental")
 
@@ -55,7 +55,7 @@
 [Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
 [2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/navbar_content&action=edit)
+
 
 [Ranges](../../ranges.html "cpp/experimental/ranges")
 
@@ -66,7 +66,7 @@
 [Ranges](../../ranges.html#Ranges "cpp/experimental/ranges")  
 [Algorithms](../../ranges.html#Algorithms "cpp/experimental/ranges")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/navbar_content&action=edit)
+
 
 [Concepts library](../../ranges.html#Concepts "cpp/experimental/ranges")
 
@@ -146,7 +146,7 @@ URNG concept
 | [UniformRandomNumberGenerator](UniformRandomNumberGenerator.html "cpp/experimental/ranges/concepts/UniformRandomNumberGenerator")  
 ---  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/concepts/navbar_content&action=edit)
+
 
 Defined in header `[<experimental/ranges/concepts>](../../../header/experimental/ranges/concepts.html "cpp/header/experimental/ranges/concepts")` |  |   
 ---|---|---  
@@ -174,7 +174,7 @@ WeaklyEqualityComparableWith<T, U>; |  (2)  |  (ranges TS)
 
 Formally, `EqualityComparableWith<T, U>` is satisfied only if, given any lvalue `t` of type const [std::remove_reference_t](../../../types/remove_reference.html)<T> and any lvalue `u` of type const [std::remove_reference_t](../../../types/remove_reference.html)<U>, and let `C` be [ranges::common_reference_t](../type_traits/common_reference.html)<const [std::remove_reference_t](../../../types/remove_reference.html)<T>&, const [std::remove_reference_t](../../../types/remove_reference.html)<U>&>, bool(t == u) == bool(C(t) == C(u)).
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/equality_preservation&action=edit&section=T-1 "Template:cpp/experimental/ranges/equality preservation")] Equality preservation 
+### Equality preservation 
 
 An expression is _equality preserving_ if it results in equal outputs given equal inputs. 
 
@@ -185,6 +185,6 @@ An expression is _equality preserving_ if it results in equal outputs given equa
 
 Every expression required to be equality preserving is further required to be _stable_ : two evaluations of such an expression with the same input objects must have equal outputs absent any explicit intervening modification of those input objects. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/experimental/ranges/note_implicit_expression_variations&action=edit&section=T-1 "Template:cpp/experimental/ranges/note implicit expression variations")] Implicit expression variations 
+### Implicit expression variations 
 
 A _requires-expression_ that uses an expression that is non-modifying for some constant lvalue operand also implicitly requires additional variations of that expression that accept a non-constant lvalue or (possibly constant) rvalue for the given operand unless such an expression variation is explicitly required with differing semantics. These _implicit expression variations_ must meet the same semantic requirements of the declared expression. The extent to which an implementation validates the syntax of the variations is unspecified. 

@@ -40,13 +40,13 @@
 
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/coroutines&action=edit&section=1 "Edit section: Restrictions")] Restrictions
+### Restrictions
 
 Coroutines cannot use [variadic arguments](variadic_arguments.html "cpp/language/variadic arguments"), plain [return](return.html "cpp/language/return") statements, or [placeholder return types](function.html "cpp/language/function") ([`auto`](auto.html "cpp/language/auto") or [Concept](constraints.html#Concepts "cpp/language/constraints")). 
 
 [Consteval functions](consteval.html "cpp/language/consteval"), [constexpr functions](constexpr.html "cpp/language/constexpr"), [constructors](initializer_list.html "cpp/language/constructor"), [destructors](destructor.html "cpp/language/destructor"), and the [main function](main_function.html "cpp/language/main function") cannot be coroutines. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/coroutines&action=edit&section=2 "Edit section: Execution")] Execution
+### Execution
 
 Each coroutine is associated with 
 
@@ -208,7 +208,7 @@ When the coroutine state is destroyed either because it terminated via co_return
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/coroutines&action=edit&section=3 "Edit section: Dynamic allocation")] Dynamic allocation
+### Dynamic allocation
 
 Coroutine state is allocated dynamically via non-array [operator new](../memory/new/operator_new.html "cpp/memory/new/operator new"). 
 
@@ -248,7 +248,7 @@ If allocation fails, the coroutine throws [std::bad_alloc](../memory/new/bad_all
         }
     };
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/coroutines&action=edit&section=4 "Edit section: Promise")] Promise
+### Promise
 
 The `Promise` type is determined by the compiler from the return type of the coroutine using [std::coroutine_traits](../coroutine/coroutine_traits.html "cpp/coroutine/coroutine traits"). 
 
@@ -276,7 +276,7 @@ task<void> foo(int x); | [std::coroutine_traits](../coroutine/coroutine_traits.h
 task<void> Bar::foo(int x) const; | [std::coroutine_traits](../coroutine/coroutine_traits.html)<task<void>, const Bar&, int>::promise_type  
 task<void> Bar::foo(int x) &&; | [std::coroutine_traits](../coroutine/coroutine_traits.html)<task<void>, Bar&&, int>::promise_type  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/coroutines&action=edit&section=5 "Edit section: co await")] co_await
+### co_await
 
 The unary operator co_await suspends a coroutine and returns control to the caller.   
   
@@ -350,7 +350,7 @@ If the coroutine was suspended in the co_await expression, and is later resumed,
 
 Note that the coroutine is fully suspended before entering awaiter.await_suspend(). Its handle can be shared with another thread and resumed before the await_suspend() function returns. (Note that the default memory safety rules still apply, so if a coroutine handle is shared across threads without a lock, the awaiter should use at least [release semantics](../atomic/memory_order.html#Release_operation "cpp/atomic/memory order") and the resumer should use at least [acquire semantics](../atomic/memory_order.html#Acquire_operation "cpp/atomic/memory order").) For example, the coroutine handle can be put inside a callback, scheduled to run on a threadpool when async I/O operation completes. In that case, since the current coroutine may have been resumed and thus executed the awaiter object's destructor, all concurrently as await_suspend() continues its execution on the current thread, await_suspend() should treat *this as destroyed and not access it after the handle was published to other threads. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/coroutines&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -425,7 +425,7 @@ Reason: examples
 Demo of promise_type::await_transform and a program provided awaiter  
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/coroutines&action=edit&section=7 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -526,7 +526,7 @@ Output:
     
     0 1 : 2 : 3 : 4 : 5 6 7  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/coroutines&action=edit&section=8 "Edit section: co yield")] co_yield
+### co_yield
 
 `co_yield` expression returns a value to the caller and suspends the current coroutine: it is the common building block of resumable generator functions.   
   
@@ -688,7 +688,7 @@ Output:
     fib(8)=21
     fib(9)=34
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/coroutines&action=edit&section=9 "Edit section: Notes")] Notes
+### Notes
 
 [Feature-test](../utility/feature_test.html "cpp/utility/feature test") macro  | Value | Std | Feature   
 ---|---|---|---  
@@ -696,15 +696,15 @@ Output:
 [`__cpp_lib_coroutine`](../experimental/feature_test.html#cpp_lib_coroutine "cpp/feature test") | [`201902L`](../compiler_support/20.html#cpp_lib_coroutine_201902L "cpp/compiler support/20") | (C++20) | [Coroutines](../coroutine.html "cpp/coroutine") (library support)   
 [`__cpp_lib_generator`](../experimental/feature_test.html#cpp_lib_generator "cpp/feature test") | [`202207L`](../compiler_support/23.html#cpp_lib_generator_202207L "cpp/compiler support/23") | (C++23) | std::generator: synchronous coroutine generator for ranges   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/coroutines&action=edit&section=10 "Edit section: Keywords")] Keywords
+### Keywords
 
 [`co_await`](../keyword/co_await.html "cpp/keyword/co await"), [`co_return`](../keyword/co_return.html "cpp/keyword/co return"), [`co_yield`](../keyword/co_yield.html "cpp/keyword/co yield")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/coroutines&action=edit&section=11 "Edit section: Library support")] Library support
+### Library support
 
 [Coroutine support library](../coroutine.html "cpp/coroutine") defines several types providing compile and run-time support for coroutines. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/coroutines&action=edit&section=12 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -718,13 +718,13 @@ formed in this case
 object for explicit object member functions  | *this is not  
 taken in this case   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/coroutines&action=edit&section=13 "Edit section: See also")] See also
+### See also
 
 [ generator](../coroutine/generator.html "cpp/coroutine/generator")(C++23) |  A [`view`](../ranges/view.html "cpp/ranges/view") that represents synchronous **coroutine** generator   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_generator&action=edit)  
+(class template)   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/coroutines&action=edit&section=14 "Edit section: External links")] External links
+### External links
 
 1\.  | Lewis Baker, 2017-2022 - [Asymmetric Transfer.](https://lewissbaker.github.io/)  
 ---|---  

@@ -30,7 +30,7 @@
 [Symbols index](../symbol_index.html "cpp/symbol index")  
 [External libraries](../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Concurrency support library](../atomic.html "cpp/thread")
 
@@ -173,7 +173,7 @@
 [atomic_flag_notify_one](atomic_flag_notify_one.html "cpp/atomic/atomic flag notify one")(C++20)  
 [atomic_flag_notify_all](atomic_flag_notify_all.html "cpp/atomic/atomic flag notify all")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/navbar_content&action=edit)
+
 
 Defined in header `[<atomic>](../header/atomic.html "cpp/header/atomic")` |  |   
 ---|---|---  
@@ -198,18 +198,18 @@ Simply returns y. This function template is deprecated.  | (since C++26)
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/kill_dependency&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 y  |  \-  |  the expression whose return value is to be removed from a dependency tree   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/kill_dependency&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Returns y, no longer a part of a dependency tree(until C++26). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/kill_dependency&action=edit&section=3 "Edit section: Examples")] Examples
+### Examples
 
-##### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/kill_dependency&action=edit&section=4 "Edit section: file1.cpp:")] file1.cpp:
+##### file1.cpp:
     
     
     struct Foo
@@ -234,7 +234,7 @@ Returns y, no longer a part of a dependency tree(until C++26).
         return std::kill_dependency(foo_array[*x][*y]);
     }
 
-##### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/kill_dependency&action=edit&section=5 "Edit section: file2.cpp:")] file2.cpp:
+##### file2.cpp:
     
     
     [[carries_dependency]] struct Foo* f(int i);
@@ -251,9 +251,9 @@ Returns y, no longer a part of a dependency tree(until C++26).
                                         // p->b becomes visible before g() is entered
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/atomic/kill_dependency&action=edit&section=6 "Edit section: See also")] See also
+### See also
 
 [ memory_order](memory_order.html "cpp/atomic/memory order")(C++11) |  defines memory ordering constraints for the given atomic operation   
-(enum) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/atomic/dsc_memory_order&action=edit)  
+(enum)   
 ---|---  
 [C documentation](../../c/atomic/kill_dependency.html "c/atomic/kill dependency") for kill_dependency

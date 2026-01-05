@@ -111,7 +111,7 @@ requires-clause can only appear if declarator declares a [templated function](te
 ---|---  
 contract-specs can only appear if declarator declares a function or function template.  | (since C++26)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/declarations&action=edit&section=2 "Edit section: Specifiers")] Specifiers
+### Specifiers
 
 **Declaration specifiers** (decl-specifier-seq) is a sequence of the following whitespace-separated specifiers, in any order: 
 
@@ -239,7 +239,7 @@ contract-specs can only appear if declarator declares a function or function tem
 
 Repetitions of any specifier in a decl-specifier-seq, such as const static const, or virtual inline virtual are errors, except that long is allowed to appear twice(since C++11). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/declarations&action=edit&section=3 "Edit section: Declarators")] Declarators
+### Declarators
 
 Each init-declarator in an init-declarator-list S D1, D2, D3; is processed as if it were a standalone declaration with the same specifiers: S D1; S D2; S D3;. 
 
@@ -288,13 +288,13 @@ cv is a sequence of [const and volatile](cv.html "cpp/language/cv") qualifiers, 
 Reason: explain declaration name hiding rules; how a variable/function declaration hides a class (but not a typedef) with the same name   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/declarations&action=edit&section=4 "Edit section: Notes")] Notes
+### Notes
 
 When a block-declaration appears [inside a block](statements.html#Compound_statements "cpp/language/statements"), and an identifier introduced by a declaration was previously declared in an outer block, the [outer declaration is hidden](scope.html "cpp/language/scope") for the remainder of the block. 
 
 If a declaration introduces a variable with automatic storage duration, it is initialized when its declaration statement is executed. All automatic variables declared in a block are destroyed on exit from the block (regardless how the block is exited: via [exception](exceptions.html "cpp/language/exceptions"), [goto](goto.html "cpp/language/goto"), or by reaching its end), in order opposite to their order of initialization. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/declarations&action=edit&section=5 "Edit section: Example")] Example
+### Example
 
 Note: this example demonstrates how some complex declarations are parsed in terms of the language grammar. Other popular mnemonics are: [the spiral rule](https://c-faq.com/decl/spiral.anderson.html), reading [inside-out](https://stackoverflow.com/a/34560439/273767), and [declaration mirrors use](https://stackoverflow.com/a/34552915/273767). There is also an automated parser at <https://cdecl.org>.
 

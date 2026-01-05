@@ -30,7 +30,7 @@
 [Symbols index](../../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Ranges library](../../../ranges.html "cpp/ranges")
 
@@ -224,7 +224,7 @@ std::from_range](../../from_range.html "cpp/ranges/from range")(C++23)(C++23)` `
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/navbar_content&action=edit)
+
 
 [`std::ranges::adjacent_transform_view`](../../adjacent_transform_view.html "cpp/ranges/adjacent transform view")
 
@@ -262,7 +262,7 @@ Non-member functions
 [operator==(adjacent_transform_view::_iterator_ ,adjacent_transform_view::_sentinel_)](../sentinel/operator_cmp.html "cpp/ranges/adjacent transform view/sentinel/operator cmp")  
 [operator-(adjacent_transform_view::_iterator_ ,adjacent_transform_view::_sentinel_)](../sentinel/operator-.html "cpp/ranges/adjacent transform view/sentinel/operator-")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adjacent_transform_view/navbar_content&action=edit)
+
 
 friend constexpr bool operator==( const /*iterator*/& x, const /*iterator*/& y ); |  (1)  |  (since C++23)  
 ---|---|---  
@@ -307,23 +307,23 @@ The `!=` operator is [synthesized](../../../language/default_comparisons.html#Ot
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/adjacent_transform_view/iterator/operator_cmp&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 x, y  |  \-  |  iterators to compare   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/adjacent_transform_view/iterator/operator_cmp&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 Result of comparison. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/adjacent_transform_view/iterator/operator_cmp&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 | This section is incomplete  
 Reason: no example   
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/ranges/adjacent_transform_view/iterator/operator_cmp&action=edit&section=4 "Edit section: See also")] See also
+### See also
 
 [ operator==](../sentinel/operator_cmp.html "cpp/ranges/adjacent transform view/sentinel/operator cmp")(C++23) |  compares a sentinel with an iterator returned from [`adjacent_transform_view::begin`](../begin.html "cpp/ranges/adjacent transform view/begin")   
-(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/adaptor/sentinel/dsc_operator_cmp&action=edit)  
+(function)   
 ---|---

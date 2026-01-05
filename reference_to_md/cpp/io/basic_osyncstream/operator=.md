@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_osyncstream`](../basic_osyncstream.html "cpp/io/basic osyncstream")
 
@@ -90,7 +90,7 @@ Public member functions
 [basic_osyncstream::get_wrapped](get_wrapped.html "cpp/io/basic osyncstream/get wrapped")(C++20)  
 [basic_osyncstream::emit](emit.html "cpp/io/basic osyncstream/emit")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_osyncstream/navbar_content&action=edit)
+
 
 basic_osyncstream& operator=( [std::basic_osyncstream](../basic_osyncstream.html)&& other ); |  |  (since C++20)  
 ---|---|---  
@@ -111,16 +111,16 @@ Move-assigns the wrapped std::basic_syncbuf from the corresponding member of oth
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_osyncstream/operator%3D&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 other  |  \-  |  another synchronized output stream to move from   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_osyncstream/operator%3D&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 *this
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_osyncstream/operator%3D&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -146,7 +146,7 @@ Output:
     test
     str_out = ""
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_osyncstream/operator%3D&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -155,12 +155,12 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 [LWG 3867](https://cplusplus.github.io/LWG/issue3867) | C++20  | the move assignment operator was noexcept, but  
 [`std::basic_syncbuf`](../basic_syncbuf.html "cpp/io/basic syncbuf")'s move assignment operator is not  | removed noexcept  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_osyncstream/operator%3D&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ (constructor)](basic_osyncstream.html "cpp/io/basic osyncstream/basic osyncstream") |  constructs a `basic_osyncstream` object   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_osyncstream/dsc_constructor&action=edit)  
+(public member function)   
 ---|---  
 [ (destructor)](~basic_osyncstream.html "cpp/io/basic osyncstream/~basic osyncstream") |  destroys the `basic_osyncstream` and emits its internal buffer   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_osyncstream/dsc_destructor&action=edit)  
+(public member function)   
 [ emit](emit.html "cpp/io/basic osyncstream/emit") |  calls [`emit()`](../basic_syncbuf/emit.html "cpp/io/basic syncbuf/emit") on the underlying `basic_syncbuf` to transmit its internal data to the final destination   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_osyncstream/dsc_emit&action=edit)
+(public member function) 

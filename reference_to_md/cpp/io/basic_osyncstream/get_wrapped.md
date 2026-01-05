@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Input/output library](../../io.html "cpp/io")
 
@@ -77,7 +77,7 @@ Error category interface
 [iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
 [io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
 
 [`std::basic_osyncstream`](../basic_osyncstream.html "cpp/io/basic osyncstream")
 
@@ -90,7 +90,7 @@ Public member functions
 **basic_osyncstream::get_wrapped**(C++20)  
 [basic_osyncstream::emit](emit.html "cpp/io/basic osyncstream/emit")(C++20)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_osyncstream/navbar_content&action=edit)
+
 
 streambuf_type* get_wrapped() const noexcept; |  |   
 ---|---|---  
@@ -98,11 +98,11 @@ streambuf_type* get_wrapped() const noexcept; |  |
   
 Returns a pointer to the wrapped [std::basic_streambuf](../basic_streambuf.html "cpp/io/basic streambuf"), obtained by calling [`get_wrapped()`](../basic_syncbuf/get_wrapped.html "cpp/io/basic syncbuf/get wrapped") on the underlying std::basic_syncbuf. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_osyncstream/get_wrapped&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 (none) 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_osyncstream/get_wrapped&action=edit&section=2 "Edit section: Example")] Example
+### Example
 
 Wrapped buffer can be safely wrapped again in a different synchronized output stream.
 
@@ -128,10 +128,10 @@ Output:
     Goodbye, Planet!
     Hello, World!
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_osyncstream/get_wrapped&action=edit&section=3 "Edit section: See also")] See also
+### See also
 
 [ (destructor)](~basic_osyncstream.html "cpp/io/basic osyncstream/~basic osyncstream") |  destroys the `basic_osyncstream` and emits its internal buffer   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_osyncstream/dsc_destructor&action=edit)  
+(public member function)   
 ---|---  
 [ get_wrapped](../basic_syncbuf/get_wrapped.html "cpp/io/basic syncbuf/get wrapped") |  retrieves the wrapped streambuf pointer   
-(public member function of `std::basic_syncbuf<CharT,Traits,Allocator>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_syncbuf/dsc_get_wrapped&action=edit)
+(public member function of `std::basic_syncbuf<CharT,Traits,Allocator>`) 

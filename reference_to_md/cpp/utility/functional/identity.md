@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [Function objects](../../functional.html "cpp/utility/functional")
 
@@ -255,7 +255,7 @@ Identity function object
 [unary_negate](unary_negate.html "cpp/utility/functional/unary negate")(until C++20*)  
 [binary_negate](binary_negate.html "cpp/utility/functional/binary negate")(until C++20*)  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/navbar_content&action=edit)
+
 
 Defined in header `[<functional>](../../header/functional.html "cpp/header/functional")` |  |   
 ---|---|---  
@@ -278,13 +278,13 @@ struct identity; |  |  (since C++20)
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/identity&action=edit&section=1 "Edit section: Member types")] Member types
+### Member types
 
 Type  |  Definition   
 ---|---  
 `is_transparent` |  [unspecified](../../functional.html#Transparent_function_objects "cpp/utility/functional")  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/identity&action=edit&section=2 "Edit section: Member functions")] Member functions
+### Member functions
 
 ** operator()** |  returns the argument unchanged   
 (public member function)  
@@ -308,11 +308,11 @@ t  |  \-  |  argument to return
 
 [std::forward](../forward.html)<T>(t). 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/identity&action=edit&section=5 "Edit section: Notes")] Notes
+### Notes
 
 `std::identity` serves as the default projection in [constrained algorithms](../../algorithm/ranges.html "cpp/algorithm/ranges"). Its direct usage is usually not needed. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/identity&action=edit&section=6 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -366,8 +366,8 @@ Output:
     Project the Pair::s: {one, two, three}
     Print using custom closure as a projection: {1:one, 2:two, 3:three}
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/functional/identity&action=edit&section=7 "Edit section: See also")] See also
+### See also
 
 [ type_identity](../../types/type_identity.html "cpp/types/type identity")(C++20) |  returns the type argument unchanged   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_type_identity&action=edit)  
+(class template)   
 ---|---

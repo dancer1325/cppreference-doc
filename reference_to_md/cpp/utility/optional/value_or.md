@@ -30,7 +30,7 @@
 [Symbols index](../../symbol_index.html "cpp/symbol index")  
 [External libraries](../../links/libs.html "cpp/links/libs")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
 
 [Utilities library](../../utility.html "cpp/utility")
 
@@ -128,7 +128,7 @@ Common vocabulary types
   
   
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/navbar_content&action=edit)
+
 
 [`std::optional`](../optional.html "cpp/utility/optional")
 
@@ -167,7 +167,7 @@ Common vocabulary types
 [nullopt](nullopt.html "cpp/utility/optional/nullopt")  
 [in_place](../in_place.html "cpp/utility/in place")  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/navbar_content&action=edit)
+
 
 template< class U = [std::remove_cv_t](../../types/remove_cv.html)<T> >   
 constexpr T value_or( U&& default_value ) const&; |  (1)  |  (since C++17)  
@@ -193,18 +193,18 @@ Returns the contained value if *this contains a value, otherwise returns default
   
 ---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/value_or&action=edit&section=1 "Edit section: Parameters")] Parameters
+### Parameters
 
 default_value  |  \-  |  the value to be returned if *this does not contain a value   
 ---|---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/value_or&action=edit&section=2 "Edit section: Return value")] Return value
+### Return value
 
 1) has_value() ? **this : static_cast<T>([std::forward](../forward.html)<U>(default_value));
 
 2) has_value() ? std::move(**this) : static_cast<T>([std::forward](../forward.html)<U>(default_value))
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/value_or&action=edit&section=3 "Edit section: Example")] Example
+### Example
 
 Run this code
     
@@ -233,7 +233,7 @@ Possible output:
     /usr/bin/zsh
     (none)
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/value_or&action=edit&section=4 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -241,8 +241,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 ---|---|---|---  
 [LWG 3886](https://cplusplus.github.io/LWG/issue3886) | C++17  | `U` does not have a default template argument  | specified   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/optional/value_or&action=edit&section=5 "Edit section: See also")] See also
+### See also
 
 [ value](value.html "cpp/utility/optional/value") |  returns the contained value   
-(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/optional/dsc_value&action=edit)  
+(public member function)   
 ---|---
